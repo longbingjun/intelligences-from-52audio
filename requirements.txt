@@ -1,0 +1,17 @@
+# 核心爬虫/解析依赖
+requests>=2.31
+beautifulsoup4>=4.12
+lxml>=5.0
+
+# 中文分词 / 情感分析（卖点抽取）
+jieba>=0.42
+snownlp>=0.12
+
+# 图片处理管线（文本密集型/图像密集型判断）
+Pillow>=10.0
+opencv-python-headless>=4.9
+numpy>=1.26
+
+# OCR（可选，框架已预留；本机若未安装 tesseract 可执行文件，
+# 相关代码会自动降级为 "pending" 状态，不影响其余功能）
+pytesseract>=0.3.10
