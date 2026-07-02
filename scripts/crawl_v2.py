@@ -67,6 +67,16 @@ def run_daily(source: Audio52SourceV2) -> dict:
     return stats
 
 
+def rebuild_product_data() -> dict:
+    """爬虫完成后重建产品主数据与竞品矩阵。"""
+    from scripts.build_matrix import build_matrix  # noqa: E402
+    from scripts.build_products import build_products  # noqa: E402
+
+    products_stats = build_products()
+    matrix_stats = build_matrix()
+    return {"products": products_stats, "matrix": matrix_stats}
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="52audio v2 爬虫")
     parser.add_argument(
@@ -75,12 +85,19 @@ def main() -> None:
         default="daily",
         help="backfill-2026=首次抓取2026年全部；daily=日更仅第1页",
     )
+    parser.add_argument(
+        "--skip-rebuild",
+        action="store_true",
+        help="跳过后续 build_products / build_matrix",
+    )
     args = parser.parse_args()
     source = Audio52SourceV2()
     if args.mode == "backfill-2026":
         stats = run_backfill_2026(source)
     else:
         stats = run_daily(source)
+    if not args.skip_rebuild:
+        stats["rebuild"] = rebuild_product_data()
     print(json.dumps(stats, ensure_ascii=False, indent=2))
 
 
