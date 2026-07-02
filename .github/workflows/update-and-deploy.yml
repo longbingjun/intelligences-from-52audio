@@ -42,18 +42,25 @@ jobs:
       - name: 生成静态站点
         run: python scripts/build_site.py
 
+      # 先上传 Pages 产物，避免 git push 失败时连部署也被阻断
+      - name: 上传 site/ 作为 Pages 构建产物
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+
       - name: 提交数据与站点变更（如有）
         run: |
           git config user.name "intel-bot"
           git config user.email "intel-bot@users.noreply.github.com"
           git add data/ site/
-          git diff --cached --quiet || git commit -m "chore: 自动更新拆解数据与静态站点 [skip ci]"
+          if git diff --cached --quiet; then
+            echo "No data/site changes to commit."
+            exit 0
+          fi
+          git commit -m "chore: 自动更新拆解数据与静态站点 [skip ci]"
+          # 并发 workflow 或手动触发时，远程可能已有新提交，先 rebase 再 push
+          git pull --rebase origin master
           git push
-
-      - name: 上传 site/ 作为 Pages 构建产物
-        uses: actions/upload-pages-artifact@v3
-        with:
-          path: site
 
   deploy:
     needs: crawl-and-build
