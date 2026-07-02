@@ -45,6 +45,15 @@ jobs:
           MODE="${{ github.event.inputs.crawl_mode || 'daily' }}"
           python scripts/crawl_v2.py --mode "$MODE"
 
+      - name: 可选预处理（搜索索引 / 产品库 / 矩阵）
+        run: |
+          for script in build_search_index build_products build_matrix; do
+            if [ -f "scripts/${script}.py" ]; then
+              echo "Running scripts/${script}.py"
+              python "scripts/${script}.py"
+            fi
+          done
+
       - name: 生成静态站点
         run: python scripts/build_site.py
 

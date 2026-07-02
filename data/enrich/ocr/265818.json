@@ -1,0 +1,43 @@
+{
+  "report_id": "265818",
+  "tesseract_available": false,
+  "enriched_at": "2026-07-02T09:40:00+00:00",
+  "images": [
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026011206492287.jpg",
+      "ocr_status": "done",
+      "ocr_text": "名称：TicNote 型号：NE-79 蓝牙版本：V5.0 电池容量：470mAh 防护等级IP54 充电接口Type-C",
+      "classification": "text_dense",
+      "specs_extracted": [
+        {
+          "part": "电池",
+          "value": "470",
+          "unit": "mAh",
+          "confidence": 0.85,
+          "raw": "470mAh"
+        },
+        {
+          "part": "防护等级",
+          "value": "IP54",
+          "unit": "",
+          "confidence": 0.9,
+          "raw": "IP54"
+        },
+        {
+          "part": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "confidence": 0.85,
+          "raw": "Type-C"
+        },
+        {
+          "part": "蓝牙",
+          "value": "5.0",
+          "unit": "",
+          "confidence": 0.85,
+          "raw": "蓝牙版本：V5.0"
+        }
+      ]
+    }
+  ]
+}

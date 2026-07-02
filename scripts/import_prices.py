@@ -1,6 +1,22 @@
 """P4 人工售价 CSV 导入 → data/enrich/prices/{id}.json
 
-CSV 列：id,price_cny,price_source,price_url,price_note
+将运营补录的售价批量写入 enrich 层，与爬虫主数据解耦；`scripts/build_site.py` 构建时
+通过 `core.ingest.merge_price_into_record` 合并进 `views.market`。
+
+CSV 格式（UTF-8，首行表头）：
+  id,price_cny,price_source,price_url,price_note
+
+字段说明：
+  - id          报告/视频 ID（必填），对应 data/reports|videos/{id}.json
+  - price_cny   人民币售价，数字或留空
+  - price_source 来源标识，默认 manual_csv（如 jd / tmall / official）
+  - price_url   标价页 URL
+  - price_note  备注（活动价、首发价等）
+
+示例见 data/enrich/prices/README.md 与 example.csv。
+
+用法：
+  python scripts/import_prices.py data/enrich/prices/example.csv
 """
 from __future__ import annotations
 

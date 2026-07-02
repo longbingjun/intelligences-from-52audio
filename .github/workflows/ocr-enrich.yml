@@ -1,0 +1,55 @@
+name: 报告 OCR Enrich（解耦，手动触发）
+
+on:
+  workflow_dispatch:
+    inputs:
+      report_id:
+        description: 指定报告 ID（留空则处理 queue 中待 enrich 条目，最多 20 条）
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: 安装 Tesseract（中英文）
+        run: sudo apt-get update && sudo apt-get install -y tesseract-ocr tesseract-ocr-chi-sim
+
+      - name: 安装 Python 依赖
+        run: pip install -r requirements.txt
+
+      - name: 运行 OCR enrich
+        run: |
+          if [ -n "${{ github.event.inputs.report_id }}" ]; then
+            python -m enrichers.ocr --id "${{ github.event.inputs.report_id }}"
+          else
+            python -m enrichers.ocr --pending
+          fi
+
+      - name: 合并 OCR 到 hardware specs
+        run: |
+          if [ -n "${{ github.event.inputs.report_id }}" ]; then
+            python scripts/merge_ocr.py --id "${{ github.event.inputs.report_id }}"
+          else
+            python scripts/merge_ocr.py --all
+          fi
+
+      - name: 提交 enrich 结果
+        run: |
+          git config user.name "intel-bot"
+          git config user.email "intel-bot@users.noreply.github.com"
+          git add data/enrich/ocr/ data/reports/
+          git diff --cached --quiet || git commit -m "chore: OCR enrich [skip ci]"
+          git pull --rebase origin master
+          git push
