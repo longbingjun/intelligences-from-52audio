@@ -1,0 +1,49 @@
+name: 视频 ASR Enrich（解耦，手动触发）
+
+on:
+  workflow_dispatch:
+    inputs:
+      video_id:
+        description: 指定视频 ID（留空则处理全部 pending）
+        required: false
+        type: string
+
+permissions:
+  contents: write
+
+jobs:
+  enrich:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - name: 安装系统依赖
+        run: sudo apt-get update && sudo apt-get install -y ffmpeg
+
+      - name: 安装 Python 依赖
+        run: |
+          pip install -r requirements.txt
+          pip install yt-dlp faster-whisper
+
+      - name: 运行视频 enrich
+        run: |
+          if [ -n "${{ github.event.inputs.video_id }}" ]; then
+            python scripts/enrich_video.py --id "${{ github.event.inputs.video_id }}"
+          else
+            python scripts/enrich_video.py --pending
+          fi
+
+      - name: 提交 enrich 结果
+        run: |
+          git config user.name "intel-bot"
+          git config user.email "intel-bot@users.noreply.github.com"
+          git add data/enrich/videos/ data/videos/
+          git diff --cached --quiet || git commit -m "chore: 视频 ASR enrich [skip ci]"
+          git pull --rebase origin master
+          git push

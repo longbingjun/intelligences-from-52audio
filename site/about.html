@@ -17,41 +17,15 @@
 <main class="site-main">
 
 <div class="about-content">
-<h1>关于本站</h1>
-<p>每天追踪「我爱音频网」拆解报告与拆解视频，结构化呈现品牌卖点、部件与技术参数。本站是一个可扩展的"情报网站" MVP，第一个接入的情报源是
-<a href="https://www.52audio.com/archives/category/teardowns" target="_blank" rel="noopener">我爱音频网「拆解」分类</a>。</p>
-
-<h2>信息架构设计</h2>
-<ul>
-  <li><b>首页</b>：最近更新时间线（报告+视频混排，按日期倒序）+ 两个板块入口卡片，适合"每天扫一眼"的场景。</li>
-  <li><b>拆解报告 / 拆解视频列表页</b>：按分类筛选 + 卡片网格，卡片展示品牌+型号+分类+摘要片段。</li>
-  <li><b>详情页</b>：结构化信息（卖点、部件、技术参数、OCR待办）在前，原文完整正文在后，兼顾"快速获取结论"和"可追溯原文"。</li>
-</ul>
-
-<h2>产品分类体系</h2>
-<p>分类体系写在 <code>sources/audio52/lexicon.py</code> 的 <code>CATEGORY_RULES</code> 里，
-基于对真实拆解文章标题的调研得出，包含：真无线耳机TWS、开放式耳机、颈挂式蓝牙耳机、头戴式耳机、
-骨传导耳机、有线耳机、智能手表、AI眼镜及穿戴设备、音箱及其他音频设备。规则是有序关键词表，
-后续新增/调整品类不需要碰爬虫代码。</p>
-
-<h2>OCR 框架说明</h2>
-<p>图片处理管线（<code>core/extract/images.py</code>）对每张图片做"文本密集型 vs 图像密集型"的启发式判断
-（Canny 边缘密度 + 颜色种类丰富度），判定为文本密集型的图片会被记录进 <code>data/images_queue.json</code>
-待接入真实 OCR。当前环境未安装 Tesseract 可执行文件，识别能力处于"框架已搭建，未真正跑通"的状态，
-后续接入建议见 README。</p>
-
-<h2>拆解视频 / ASR 技术选型调研结论</h2>
-<p>调研了 whisper.cpp、faster-whisper、yt-dlp 等开源方案，结论与接入建议详见项目 README「视频ASR调研」一节。</p>
-
-<h2>数据统计</h2>
-<p>拆解报告 17 条，拆解视频 13 条，
-图片 OCR 待办队列 302 条。数据生成时间：2026-07-02T06:57:14+00:00。</p>
+<h1>关于本站 v2</h1>
+<p>按职能角色透镜展示拆解情报：产品经理看全量技术事实+市场信息；成本工程师看 BOM 相关区块；结构/硬件/软件各看本域。</p>
+<p>数据：报告 98 条，视频 81 条。最后日更：—</p>
 </div>
 
 </main>
 <footer class="site-footer">
   <p>数据来源：<a href="https://www.52audio.com/archives/category/teardowns" target="_blank" rel="noopener">我爱音频网 52audio.com「拆解」分类</a>，内容版权归原网站及作者所有，本站仅做结构化整理与内部研究用途。</p>
-  <p>静态页面构建时间：2026-07-02 07:09　|　情报网站 MVP · sources/audio52</p>
+  <p>静态页面构建时间：2026-07-02 16:59　|　情报网站 MVP · sources/audio52</p>
 </footer>
 <script src="assets/app.js"></script>
 </body>

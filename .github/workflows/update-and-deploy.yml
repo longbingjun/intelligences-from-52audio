@@ -1,22 +1,17 @@
 name: 爬虫更新数据 + 构建并部署静态站点
 
-# 耗时说明（优化前一次完整运行约 13 分钟，瓶颈在「逐张下载+OpenCV 分析图片」）：
-# - push 触发：只重建静态站并部署（约 30 秒），不重复跑爬虫
-# - schedule / workflow_dispatch：跑爬虫；正文未变的文章会复用已有图片分析结果
-# - 手动触发时可勾选 skip_images，进一步跳过图片下载（OCR 未接入前可接受）
 on:
   schedule:
     - cron: "10 1 * * *"
   workflow_dispatch:
     inputs:
-      skip_images:
-        description: 跳过图片下载与分析（更快，适合调试或 OCR 未接入时）
-        type: boolean
-        default: false
-      crawl_limit:
-        description: 每个情报源最多抓取条数
-        type: string
-        default: "30"
+      crawl_mode:
+        description: daily=日更第1页；backfill-2026=补全2026年
+        type: choice
+        options:
+          - daily
+          - backfill-2026
+        default: daily
   push:
     branches: [main, master]
 
@@ -26,18 +21,16 @@ permissions:
   id-token: write
 
 concurrency:
-  group: "pages"
+  group: pages
   cancel-in-progress: true
 
 jobs:
   crawl-and-build:
     runs-on: ubuntu-latest
     steps:
-      - name: 检出代码
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: 安装 Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
           cache: pip
@@ -46,34 +39,27 @@ jobs:
       - name: 安装依赖
         run: pip install -r requirements.txt
 
-      - name: 运行爬虫，抓取最新拆解报告/视频
+      - name: 运行 v2 爬虫
         if: github.event_name != 'push'
         run: |
-          ARGS="--limit ${{ github.event.inputs.crawl_limit || '30' }}"
-          if [ "${{ github.event.inputs.skip_images }}" = "true" ]; then
-            ARGS="$ARGS --no-images"
-          fi
-          python scripts/crawl.py $ARGS
+          MODE="${{ github.event.inputs.crawl_mode || 'daily' }}"
+          python scripts/crawl_v2.py --mode "$MODE"
 
       - name: 生成静态站点
         run: python scripts/build_site.py
 
-      - name: 上传 site/ 作为 Pages 构建产物
+      - name: 上传 Pages 产物
         uses: actions/upload-pages-artifact@v3
         with:
           path: site
 
-      - name: 提交数据与站点变更（如有）
+      - name: 提交数据变更
         if: github.event_name != 'push'
         run: |
           git config user.name "intel-bot"
           git config user.email "intel-bot@users.noreply.github.com"
           git add data/ site/
-          if git diff --cached --quiet; then
-            echo "No data/site changes to commit."
-            exit 0
-          fi
-          git commit -m "chore: 自动更新拆解数据与静态站点 [skip ci]"
+          git diff --cached --quiet || git commit -m "chore: 自动更新情报数据 v2 [skip ci]"
           git pull --rebase origin master
           git push
 
@@ -84,6 +70,5 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - name: 部署到 GitHub Pages
+      - uses: actions/deploy-pages@v4
         id: deployment
-        uses: actions/deploy-pages@v4

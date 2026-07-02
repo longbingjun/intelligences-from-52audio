@@ -10,7 +10,7 @@ import html
 from datetime import datetime
 
 SITE_TITLE = "52 情报站 · 音频拆解雷达"
-SITE_TAGLINE = "每天追踪「我爱音频网」拆解报告与拆解视频，结构化呈现品牌卖点、部件与技术参数"
+SITE_TAGLINE = "52audio 拆解情报 v2：按职能角色透镜呈现，按 ID 追加归档，日更增量入库"
 
 
 def esc(text: str) -> str:
