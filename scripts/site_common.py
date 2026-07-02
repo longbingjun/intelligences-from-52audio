@@ -65,6 +65,7 @@ def page_shell(title: str, body: str, active_nav: str = "", extra_head: str = ""
             nav_item(f"{prefix}index.html", "首页", "home"),
             nav_item(f"{prefix}reports/index.html", "拆解报告", "reports"),
             nav_item(f"{prefix}videos/index.html", "拆解视频", "videos"),
+            nav_item(f"{prefix}matrix/index.html", "竞品矩阵", "matrix"),
             nav_item(f"{prefix}about.html", "关于本站", "about"),
         ]
     )
@@ -117,3 +118,17 @@ CATEGORY_COLORS = {
 def category_tag(category: str) -> str:
     color = CATEGORY_COLORS.get(category, "#64748b")
     return f'<span class="tag" style="--tag-color:{color}">{esc(category)}</span>'
+
+
+def search_toolbar_html(kind: str, brands: list[str], index_path: str) -> str:
+    """列表页搜索栏：关键词 + 品牌筛选 + 排序说明。"""
+    brand_opts = '<option value="">全部品牌</option>'
+    brand_opts += "".join(f'<option value="{esc(b)}">{esc(b)}</option>' for b in brands if b)
+    return f"""
+<div class="search-toolbar" data-list-kind="{esc(kind)}" data-search-index="{esc(index_path)}">
+  <div class="search-row">
+    <input type="search" class="search-input" id="search-keyword" placeholder="搜索品牌、型号、标题…" autocomplete="off" />
+    <select class="search-select" id="search-brand">{brand_opts}</select>
+  </div>
+  <p class="sort-hint">按发布日期倒序排列（最新在前）</p>
+</div>"""
