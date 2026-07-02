@@ -20,16 +20,24 @@
       "price_cny": null,
       "price_note": "",
       "selling_points": [
-        "在功能配置上，LIBERFEEL冇心Open Ring开放式耳机支持蓝牙5.3，提供稳定的无线连接和游戏无感低延迟；支持定向传音技术，保障开放式聆听的私密性；支持ENC通话降噪，提供清晰的语音通话效果；支持约30小时的综合续航时间，满足日常使用需求。",
-        "包装盒侧边图文介绍了产品三项特点：定向传音、超长续航、佩戴舒适。",
-        "冇心Open Ring耳夹式耳机外观一览，采用了U型设计，内侧贴耳位置设计有气囊结构，能够适配不同耳型，提供舒适佩戴。",
-        "包装盒另外一侧展示的三项产品特点：游戏无感延迟、开放式音频、ENC通话降噪。"
+        {
+          "text": "冇心Open Ring耳夹式耳机外观一览，采用了U型设计，内侧贴耳位置设计有气囊结构，能够适配不同耳型，提供舒适佩戴。",
+          "tag": "开放佩戴",
+          "evidence": {
+            "value": "冇心Open Ring耳夹式耳机外观一览，采用了U型设计，内侧贴耳位置设计有气囊结构，能够适配不同耳型，提供舒适佩戴。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "冇心Open Ring耳夹式耳机外观一览，采用了U型设计，内侧贴耳位置设计有气囊结构，能够适配不同耳型，提供舒适佩戴。"
+          }
+        }
       ],
       "scenarios": [
         "游戏",
         "通话"
       ],
-      "positioning_summary": "在功能配置上，LIBERFEEL冇心Open Ring开放式耳机支持蓝牙5.3，提供稳定的无线连接和游戏无感低延迟；支持定向传音技术，保障开放式聆听的私密性；支持ENC通话降噪，提供清晰的语音通话效果；支持约30小时的综合续航时间，满足日常使用需求。"
+      "positioning_summary": "冇心Open Ring耳夹式耳机外观一览，采用了U型设计，内侧贴耳位置设计有气囊结构，能够适配不同耳型，提供舒适佩戴。",
+      "launch_date_evidence": null,
+      "price_evidence": null
     },
     "cost": {
       "major_parts": [
@@ -41,13 +49,151 @@
         "降噪系统"
       ],
       "chip_modules": [],
+      "bom_table": [
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒背面展示有两种产品配色，以及产品参数信息。产品名称：Open Ring开放式蓝牙耳机，产品型号：AE024，蓝牙版本：V5.3，耳机输入：5V-30mA，充电盒输入：5V-200mA，频响范围：20Hz-20kHz，耳机容量：30mAh/0.11Wh，充电盒容量：280mAh/1.04Wh。制造商：深圳冇心良品科技有限公司。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "撬开卡扣式固定的外壳，取出座舱结构。座舱底部固定有电池和主板单元。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "撬开卡扣式固定的外壳，取出座舱结构。座舱底部固定有电池和主板单元。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "后端墙体外观一览，设计有L/R左右标识和麦克风拾音孔，以及用于与音腔区分的盲点。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "拆开音腔，内部设置有扬声器单元。"
+          }
+        },
+        {
+          "component": "降噪系统",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "降噪系统",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "在功能配置上，LIBERFEEL冇心Open Ring开放式耳机支持蓝牙5.3，提供稳定的无线连接和游戏无感低延迟；支持定向传音技术，保障开放式聆听的私密性；支持ENC通话降噪，提供清晰的语音通话效果；支持约30小时的综合续航时间，满足日常使用需求。下面几句来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒正面设计有艺术字体的产品名称和一颗指示灯。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "腔体底部设置有充电触点。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "撬开卡扣式固定的外壳，取出座舱结构。座舱底部固定有电池和主板单元。"
+          }
+        }
+      ],
+      "supply_hints": [],
       "packaging_notes": [],
       "process_hints": [
-        "充电盒内部主要电路一览，电池导线与主板焊接。"
+        {
+          "value": "充电盒内部主要电路一览，电池导线与主板焊接。",
+          "evidence": {
+            "value": "充电盒内部主要电路一览，电池导线与主板焊接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "充电盒内部主要电路一览，电池导线与主板焊接。"
+          }
+        }
       ]
     },
     "structure": {
       "form_factor": "开放式耳机",
+      "earbud_type": "开放",
       "materials": [
         "PC"
       ],
@@ -57,110 +203,290 @@
         "经我爱音频网实测，扬声器直径约为11mm。",
         "耳机内部搭载11mm动圈单元，内置一颗MEMS麦克风拾音；采用了YD一等新能源3.7V/30mAh锂电池，JL杰理AD6973D蓝牙音频SoC，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。"
       ],
+      "internal_structure": [
+        {
+          "value": "撬开卡扣式固定的外壳，取出座舱结构。座舱底部固定有电池和主板单元。",
+          "evidence": {
+            "value": "撬开卡扣式固定的外壳，取出座舱结构。座舱底部固定有电池和主板单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "撬开卡扣式固定的外壳，取出座舱结构。座舱底部固定有电池和主板单元。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，取掉主板和电池。",
+          "evidence": {
+            "value": "卸掉螺丝，取掉主板和电池。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取掉主板和电池。"
+          }
+        },
+        {
+          "value": "后端墙体外观一览，设计有L/R左右标识和麦克风拾音孔，以及用于与音腔区分的盲点。",
+          "evidence": {
+            "value": "后端墙体外观一览，设计有L/R左右标识和麦克风拾音孔，以及用于与音腔区分的盲点。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "后端墙体外观一览，设计有L/R左右标识和麦克风拾音孔，以及用于与音腔区分的盲点。"
+          }
+        },
+        {
+          "value": "LYMICRO凌扬微LY6366 TWS耳机充电仓管理芯片，内部集成了锂电池充电管理、同步升压转换器、电池电量管理和保护功能模块。LY6366采用专有升压控制电路结构，可以完美支持PCB走线电感工作，极大节省方案体积和成本。LY6366充电电流有180mA和400mA两个版本选择；放电电流600mA。",
+          "evidence": {
+            "value": "LYMICRO凌扬微LY6366 TWS耳机充电仓管理芯片，内部集成了锂电池充电管理、同步升压转换器、电池电量管理和保护功能模块。LY6366采用专有升压控制电路结构，可以完美支持PCB走线电感工作，极大节省方案体积和成本。LY6366充电电流有180mA和400mA两个版本选择；放电电流600mA。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "LYMICRO凌扬微LY6366 TWS耳机充电仓管理芯片，内部集成了锂电池充电管理、同步升压转换器、电池电量管理和保护功能模块。LY6366采用专有升压控制电路结构，可以完美支持PCB走线电感工作，极大节省方案体积和成本。LY6366充电电流有180mA和400mA两个版本选择；放电电流600mA。"
+          }
+        },
+        {
+          "value": "拆开音腔，内部设置有扬声器单元。",
+          "evidence": {
+            "value": "拆开音腔，内部设置有扬声器单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "拆开音腔，内部设置有扬声器单元。"
+          }
+        },
+        {
+          "value": "耳机内置扬声器正面振膜特写。",
+          "evidence": {
+            "value": "耳机内置扬声器正面振膜特写。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机内置扬声器正面振膜特写。"
+          }
+        },
+        {
+          "value": "在功能配置上，LIBERFEEL冇心Open Ring开放式耳机支持蓝牙5.3，提供稳定的无线连接和游戏无感低延迟；支持定向传音技术，保障开放式聆听的私密性；支持ENC通话降噪，提供清晰的语音通话效果；支持约30小时的综合续航时间，满足日常使用需求。下面几句来看看这款产品的详细拆解报告吧~",
+          "evidence": {
+            "value": "在功能配置上，LIBERFEEL冇心Open Ring开放式耳机支持蓝牙5.3，提供稳定的无线连接和游戏无感低延迟；支持定向传音技术，保障开放式聆听的私密性；支持ENC通话降噪，提供清晰的语音通话效果；支持约30小时的综合续航时间，满足日常使用需求。下面几句来看看这款产品的详细拆解报告吧~",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "在功能配置上，LIBERFEEL冇心Open Ring开放式耳机支持蓝牙5.3，提供稳定的无线连接和游戏无感低延迟；支持定向传音技术，保障开放式聆听的私密性；支持ENC通话降噪，提供清晰的语音通话效果；支持约30小时的综合续航时间，满足日常使用需求。下面几句来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "value": "腔体底部设置有充电触点。",
+          "evidence": {
+            "value": "腔体底部设置有充电触点。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "腔体底部设置有充电触点。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "二、LIBERFEEL\n冇心Open Ring开放式耳机拆解\n通过开箱部分，我们详细了解了LIBERFEEL冇心Open Ring开放式耳机的简约时尚外观设计，下面进入拆解部分，看看内部结构配置~\n充电盒拆解\n撬开卡扣式固定的外壳，取出座舱结构。",
+          "evidence": {
+            "value": "二、LIBERFEEL\n冇心Open Ring开放式耳机拆解\n通过开箱部分，我们详细了解了LIBERFEEL冇心Open Ring开放式耳机的简约时尚外观设计，下面进入拆解部分，看看内部结构配置~\n充电盒拆解\n撬开卡扣式固定的外壳，取出座舱结构。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "二、LIBERFEEL\n冇心Open Ring开放式耳机拆解\n通过开箱部分，我们详细了解了LIBERFEEL冇心Open Ring开放式耳机的简约时尚外观设计，下面进入拆解部分，看看内部结构配置~\n充电盒拆解\n撬开卡扣式固定的外壳，取出座舱结构。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，取掉主板和电池。",
+          "evidence": {
+            "value": "卸掉螺丝，取掉主板和电池。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取掉主板和电池。"
+          }
+        }
+      ],
+      "sealing_method": [],
       "wear_design": [
-        "‌冇心Open Ring开放式耳机是一款采用耳夹式设计的产品，外观配色时尚，体积轻巧便携，佩戴舒适轻盈。",
-        "包装盒侧边图文介绍了产品三项特点：定向传音、超长续航、佩戴舒适。",
-        "LIBERFEEL冇心Open Ring开放式耳机整体外观一览，耳机采用了耳夹式设计，质感与充电盒一致。",
-        "冇心Open Ring耳夹式耳机外观一览，采用了U型设计，内侧贴耳位置设计有气囊结构，能够适配不同耳型，提供舒适佩戴。"
+        {
+          "value": "‌冇心Open Ring开放式耳机是一款采用耳夹式设计的产品，外观配色时尚，体积轻巧便携，佩戴舒适轻盈。",
+          "evidence": {
+            "value": "‌冇心Open Ring开放式耳机是一款采用耳夹式设计的产品，外观配色时尚，体积轻巧便携，佩戴舒适轻盈。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "‌冇心Open Ring开放式耳机是一款采用耳夹式设计的产品，外观配色时尚，体积轻巧便携，佩戴舒适轻盈。"
+          }
+        },
+        {
+          "value": "包装盒侧边图文介绍了产品三项特点：定向传音、超长续航、佩戴舒适。",
+          "evidence": {
+            "value": "包装盒侧边图文介绍了产品三项特点：定向传音、超长续航、佩戴舒适。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "包装盒侧边图文介绍了产品三项特点：定向传音、超长续航、佩戴舒适。"
+          }
+        },
+        {
+          "value": "LIBERFEEL冇心Open Ring开放式耳机整体外观一览，耳机采用了耳夹式设计，质感与充电盒一致。",
+          "evidence": {
+            "value": "LIBERFEEL冇心Open Ring开放式耳机整体外观一览，耳机采用了耳夹式设计，质感与充电盒一致。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "LIBERFEEL冇心Open Ring开放式耳机整体外观一览，耳机采用了耳夹式设计，质感与充电盒一致。"
+          }
+        },
+        {
+          "value": "冇心Open Ring耳夹式耳机外观一览，采用了U型设计，内侧贴耳位置设计有气囊结构，能够适配不同耳型，提供舒适佩戴。",
+          "evidence": {
+            "value": "冇心Open Ring耳夹式耳机外观一览，采用了U型设计，内侧贴耳位置设计有气囊结构，能够适配不同耳型，提供舒适佩戴。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "冇心Open Ring耳夹式耳机外观一览，采用了U型设计，内侧贴耳位置设计有气囊结构，能够适配不同耳型，提供舒适佩戴。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026010501574693.jpg",
+          "alt": "拆解报告：LIBERFEEL冇心Open Ring开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026010501575761.jpg",
+          "alt": "拆解报告：LIBERFEEL冇心Open Ring开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026010501573937.jpg",
+          "alt": "拆解报告：LIBERFEEL冇心Open Ring开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026010501574270.jpg",
+          "alt": "拆解报告：LIBERFEEL冇心Open Ring开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026010501574456.jpg",
+          "alt": "拆解报告：LIBERFEEL冇心Open Ring开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
       ],
       "assembly_notes": [
-        "包装盒背面展示有两种产品配色，以及产品参数信息。产品名称：Open Ring开放式蓝牙耳机，产品型号：AE024，蓝牙版本：V5.3，耳机输入：5V-30mA，充电盒输入：5V-200mA，频响范围：20Hz-20kHz，耳机容量：30mAh/0.11Wh，充电盒容量：280mAh/1.04Wh。制造商：深圳冇心良品科技有限公司。",
         "撬开卡扣式固定的外壳，取出座舱结构。座舱底部固定有电池和主板单元。",
-        "撬开卡扣式固定的外壳，取出座舱结构。座舱底部固定有电池和主板单元。",
+        "卸掉螺丝，取掉主板和电池。",
         "后端墙体外观一览，设计有L/R左右标识和麦克风拾音孔，以及用于与音腔区分的盲点。",
-        "拆开音腔，内部设置有扬声器单元。",
-        "在功能配置上，LIBERFEEL冇心Open Ring开放式耳机支持蓝牙5.3，提供稳定的无线连接和游戏无感低延迟；支持定向传音技术，保障开放式聆听的私密性；支持ENC通话降噪，提供清晰的语音通话效果；支持约30小时的综合续航时间，满足日常使用需求。下面几句来看看这款产品的详细拆解报告吧~"
-      ]
+        "LYMICRO凌扬微LY6366 TWS耳机充电仓管理芯片，内部集成了锂电池充电管理、同步升压转换器、电池电量管理和保护功能模块。LY6366采用专有升压控制电路结构，可以完美支持PCB走线电感工作，极大节省方案体积和成本。LY6366充电电流有180mA和400mA两个版本选择；放电电流600mA。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": {
+        "value": "36.2g",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "36.2g"
+      }
     },
     "hardware": {
       "specs": [
         {
-          "part": "充电接口",
-          "brand": "",
-          "model": "",
+          "param": "充电接口",
           "value": "随机标配的充电线，采用了USB-A to Type-C接口。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "充电接口",
           "brand": "",
           "model": "",
+          "confidence": 0.75,
+          "source_ref": "随机标配的充电线，采用了USB-A to Type-C接口。"
+        },
+        {
+          "param": "充电接口",
           "value": "充电盒底部设置Type-C充电接口。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "充电接口",
           "brand": "",
           "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒底部设置Type-C充电接口。"
+        },
+        {
+          "param": "充电接口",
           "value": "Type-C充电母座特写。",
           "unit": "",
-          "source_ref": "text"
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充电母座特写。"
         },
         {
-          "part": "充电接口",
-          "brand": "",
-          "model": "Type-C",
+          "param": "充电接口",
           "value": "Type-C",
           "unit": "",
-          "source_ref": "text"
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
         },
         {
-          "part": "充电接口",
-          "brand": "",
-          "model": "USB-A",
+          "param": "充电接口",
           "value": "USB-A",
           "unit": "",
-          "source_ref": "text"
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
         },
         {
-          "part": "标记/认证",
-          "brand": "",
-          "model": "",
+          "param": "标记/认证",
           "value": "冇心（LIBERFEEL）是一个以设计为驱动的数码电子品牌，旗下产品涵盖耳机、充电宝等3C配件，主打年轻消费市场。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "冇心（LIBERFEEL）是一个以设计为驱动的数码电子品牌，旗下产品涵盖耳机、充电宝等3C配件，主打年轻消费市场。"
+        },
+        {
+          "param": "标记/认证",
           "value": "产品名称：Open Ring开放式蓝牙耳机，产品型号：AE024，蓝牙版本：V5.3，耳机输入：5V-30mA，充电盒输入：5V-200mA，频响范围：20Hz-20kHz，耳机容量：30mAh/0.11Wh，充电盒容量：280mAh/1.04Wh。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "产品名称：Open Ring开放式蓝牙耳机，产品型号：AE024，蓝牙版本：V5.3，耳机输入：5V-30mA，充电盒输入：5V-200mA，频响范围：20Hz-20kHz，耳机容量：30mAh/0.11Wh，充电盒容量：280mAh/1."
+        },
+        {
+          "param": "标记/认证",
           "value": "我爱音频网使用\nCHARGERLAB POWER-Z KM003C\n对LIBERFEEL冇心Open Ring开放式耳机进行充电测试，输入功率约为0.92W。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "我爱音频网使用\nCHARGERLAB POWER-Z KM003C\n对LIBERFEEL冇心Open Ring开放式耳机进行充电测试，输入功率约为0.92W。"
+        },
+        {
+          "param": "标记/认证",
           "value": "充电盒内置锂离子电池，型号：LR 601435，标称电压：3.7V，额定容量：280mAh 1.036Wh。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒内置锂离子电池，型号：LR 601435，标称电压：3.7V，额定容量：280mAh 1.036Wh。"
+        },
+        {
+          "param": "标记/认证",
           "value": "耳机内置软包锂电池，型号：YD 450909，标称电压：3.7V，额定容量：30mAh，来自YD亿等新能源。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "电池",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "耳机内置软包锂电池，型号：YD 450909，标称电压：3.7V，额定容量：30mAh，来自YD亿等新能源。"
+        },
+        {
+          "param": "电池容量",
           "value": "30",
           "unit": "mAh",
-          "source_ref": "text"
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "30mAh"
         }
       ]
     },
@@ -172,9 +498,32 @@
       "app_features": [],
       "ota_support": [],
       "latency_notes": [
-        "在功能配置上，LIBERFEEL冇心Open Ring开放式耳机支持蓝牙5.3，提供稳定的无线连接和游戏无感低延迟；支持定向传音技术，保障开放式聆听的私密性；支持ENC通话降噪，提供清晰的语音通话效果；支持约30小时的综合续航时间，满足日常使用需求。",
-        "包装盒另外一侧展示的三项产品特点：游戏无感延迟、开放式音频、ENC通话降噪。"
-      ]
+        {
+          "value": "在功能配置上，LIBERFEEL冇心Open Ring开放式耳机支持蓝牙5.3，提供稳定的无线连接和游戏无感低延迟；支持定向传音技术，保障开放式聆听的私密性；支持ENC通话降噪，提供清晰的语音通话效果；支持约30小时的综合续航时间，满足日常使用需求。",
+          "evidence": {
+            "value": "在功能配置上，LIBERFEEL冇心Open Ring开放式耳机支持蓝牙5.3，提供稳定的无线连接和游戏无感低延迟；支持定向传音技术，保障开放式聆听的私密性；支持ENC通话降噪，提供清晰的语音通话效果；支持约30小时的综合续航时间，满足日常使用需求。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "在功能配置上，LIBERFEEL冇心Open Ring开放式耳机支持蓝牙5.3，提供稳定的无线连接和游戏无感低延迟；支持定向传音技术，保障开放式聆听的私密性；支持ENC通话降噪，提供清晰的语音通话效果；支持约30小时的综合续航时间，满足日常使用需求。"
+          }
+        },
+        {
+          "value": "包装盒另外一侧展示的三项产品特点：游戏无感延迟、开放式音频、ENC通话降噪。",
+          "evidence": {
+            "value": "包装盒另外一侧展示的三项产品特点：游戏无感延迟、开放式音频、ENC通话降噪。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒另外一侧展示的三项产品特点：游戏无感延迟、开放式音频、ENC通话降噪。"
+          }
+        }
+      ],
+      "bluetooth_evidence": {
+        "value": "5.3",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.3"
+      }
     }
-  }
+  },
+  "data_completeness": 0.644
 }

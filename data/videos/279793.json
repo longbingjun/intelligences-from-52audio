@@ -17,42 +17,124 @@
   "asr_status": "pending",
   "views": {
     "market": {
-      "brand": "",
-      "model": "",
-      "category": "",
+      "brand": "realme真我",
+      "model": "Buds Air 5 Pro",
+      "category": "真无线耳机TWS",
       "launch_date": null,
       "price_cny": null,
       "price_note": "",
-      "selling_points": [],
+      "selling_points": [
+        {
+          "text": "在音频方面，其搭载了HiFi级同轴双单元，覆盖20-40KHz超宽频响范围，并支持LDAC高清音频格式，通过了Hi-Res Audio小金标认证，可提供录音室级的原声听感。",
+          "tag": "音质认证",
+          "evidence": {
+            "value": "在音频方面，其搭载了HiFi级同轴双单元，覆盖20-40KHz超宽频响范围，并支持LDAC高清音频格式，通过了Hi-Res Audio小金标认证，可提供录音室级的原声听感。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "在音频方面，其搭载了HiFi级同轴双单元，覆盖20-40KHz超宽频响范围，并支持LDAC高清音频格式，通过了Hi-Res Audio小金标认证，可提供录音室级的原声听感。"
+          }
+        },
+        {
+          "text": "同时还支持定制化听感补偿算法，3D空间音效，带来个性化的聆听体验。",
+          "tag": "空间音频",
+          "evidence": {
+            "value": "同时还支持定制化听感补偿算法，3D空间音效，带来个性化的聆听体验。",
+            "confidence": 0.75,
+            "source_type": "text",
+            "source_text": "同时还支持定制化听感补偿算法，3D空间音效，带来个性化的聆听体验。"
+          }
+        },
+        {
+          "text": "真我Buds Air 5 Pro真无线降噪耳机在外观方面，沿用了家族式的独特设计风格，配备有日出之城、星夜黑两款时尚配色。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "真我Buds Air 5 Pro真无线降噪耳机在外观方面，沿用了家族式的独特设计风格，配备有日出之城、星夜黑两款时尚配色。",
+            "confidence": 0.75,
+            "source_type": "text",
+            "source_text": "真我Buds Air 5 Pro真无线降噪耳机在外观方面，沿用了家族式的独特设计风格，配备有日出之城、星夜黑两款时尚配色。"
+          }
+        }
+      ],
       "scenarios": [],
-      "positioning_summary": ""
+      "positioning_summary": "在音频方面，其搭载了HiFi级同轴双单元，覆盖20-40KHz超宽频响范围，并支持LDAC高清音频格式，通过了Hi-Res Audio小金标认证，可提供录音室级的原声听感。",
+      "launch_date_evidence": null,
+      "price_evidence": null
     },
     "cost": {
       "major_parts": [],
       "chip_modules": [],
+      "bom_table": [],
+      "supply_hints": [],
       "packaging_notes": [],
       "process_hints": []
     },
     "structure": {
-      "form_factor": "",
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
       "materials": [],
       "ip_rating": null,
       "weight_g": null,
       "dimensions": [],
+      "internal_structure": [],
+      "fastener_type": [],
+      "sealing_method": [],
       "wear_design": [],
-      "assembly_notes": []
+      "key_image_urls": [],
+      "assembly_notes": [],
+      "ip_rating_evidence": null,
+      "weight_evidence": null
     },
     "hardware": {
-      "specs": []
+      "specs": [
+        {
+          "param": "标记/认证",
+          "value": "在音频方面，其搭载了HiFi级同轴双单元，覆盖20-40KHz超宽频响范围，并支持LDAC高清音频格式，通过了Hi-Res Audio小金标认证，可提供录音室级的原声听感。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "在音频方面，其搭载了HiFi级同轴双单元，覆盖20-40KHz超宽频响范围，并支持LDAC高清音频格式，通过了Hi-Res Audio小金标认证，可提供录音室级的原声听感。"
+        }
+      ]
     },
     "software": {
       "bluetooth_version": null,
-      "codecs": [],
+      "codecs": [
+        {
+          "value": "LDAC",
+          "evidence": {
+            "value": "LDAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "在音频方面，其搭载了HiFi级同轴双单元，覆盖20-40KHz超宽频响范围，并支持LDAC高清音频格式，通过了Hi-Res Audio小金标认证，可提供录音室级的原声听感。"
+          }
+        },
+        {
+          "value": "Hi-Res",
+          "evidence": {
+            "value": "Hi-Res",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "在音频方面，其搭载了HiFi级同轴双单元，覆盖20-40KHz超宽频响范围，并支持LDAC高清音频格式，通过了Hi-Res Audio小金标认证，可提供录音室级的原声听感。"
+          }
+        },
+        {
+          "value": "小金标",
+          "evidence": {
+            "value": "小金标",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "在音频方面，其搭载了HiFi级同轴双单元，覆盖20-40KHz超宽频响范围，并支持LDAC高清音频格式，通过了Hi-Res Audio小金标认证，可提供录音室级的原声听感。"
+          }
+        }
+      ],
       "multipoint": [],
       "app_name": "",
       "app_features": [],
       "ota_support": [],
-      "latency_notes": []
+      "latency_notes": [],
+      "bluetooth_evidence": null
     }
-  }
+  },
+  "data_completeness": 0.21
 }

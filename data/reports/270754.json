@@ -20,18 +20,34 @@
       "price_cny": null,
       "price_note": "",
       "selling_points": [
-        "包装盒另外一侧介绍有产品的功能特点：深渊氛围灯、12mm大尺寸单元、IP56级防尘防水、双设备连接、AI通话降噪。",
-        "花再HALO CLIP支持蓝牙V6.1，支持双设备连接，提供便捷稳定的无线连接，以及游戏更低延迟；支持AI智能通话降噪，消减环境噪音，提升通话时的人声清晰度；通过手机APP，还可以使用耳机定位防丢、排水和健康提醒等功能。",
-        "一、\n漫步者花再HALO CLIP开放式耳机开箱\n漫步者花再HALO CLIP开放式耳机包装盒延续了家族式的设计，红色背景，正面仅展示有品牌LOGO。",
-        "漫步者花再HALO CLIP开放式耳机在外观方面，充电盒采用了圆角方形设计，类金属磨砂工艺处理，带来出色质感。",
-        "此次将要拆解的\n漫步者花再HALO CLIP开放式耳机\n，是一款采用了耳夹式设计的产品，造型时尚，佩戴舒适轻盈。",
-        "漫步者花再HALO CLIP开放式耳机充电盒采用了方形设计，类金属磨砂工艺处理，质感出色。"
+        {
+          "text": "花再HALO CLIP支持蓝牙V6.1，支持双设备连接，提供便捷稳定的无线连接，以及游戏更低延迟；支持AI智能通话降噪，消减环境噪音，提升通话时的人声清晰度；通过手机APP，还可以使用耳机定位防丢、排水和健康提醒等功能。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "花再HALO CLIP支持蓝牙V6.1，支持双设备连接，提供便捷稳定的无线连接，以及游戏更低延迟；支持AI智能通话降噪，消减环境噪音，提升通话时的人声清晰度；通过手机APP，还可以使用耳机定位防丢、排水和健康提醒等功能。",
+            "confidence": 0.58,
+            "source_type": "text",
+            "source_text": "花再HALO CLIP支持蓝牙V6.1，支持双设备连接，提供便捷稳定的无线连接，以及游戏更低延迟；支持AI智能通话降噪，消减环境噪音，提升通话时的人声清晰度；通过手机APP，还可以使用耳机定位防丢、排水和健康提醒等功能。"
+          }
+        },
+        {
+          "text": "在功能配置方面，该产品搭载12mm镀钛复合振膜，支持BassTurbo低音增压引擎技术，提升低音效果的同时，保障音乐细节和清晰度；支持自研DPW定向声波传音技术，保护听音隐私；还支持原声、人声、动感、空间音频、隐私保护等6种音效模式，满足不同场景使用需求。",
+          "tag": "空间音频",
+          "evidence": {
+            "value": "在功能配置方面，该产品搭载12mm镀钛复合振膜，支持BassTurbo低音增压引擎技术，提升低音效果的同时，保障音乐细节和清晰度；支持自研DPW定向声波传音技术，保护听音隐私；还支持原声、人声、动感、空间音频、隐私保护等6种音效模式，满足不同场景使用需求。",
+            "confidence": 0.75,
+            "source_type": "text",
+            "source_text": "在功能配置方面，该产品搭载12mm镀钛复合振膜，支持BassTurbo低音增压引擎技术，提升低音效果的同时，保障音乐细节和清晰度；支持自研DPW定向声波传音技术，保护听音隐私；还支持原声、人声、动感、空间音频、隐私保护等6种音效模式，满足不同场景使用需求。"
+          }
+        }
       ],
       "scenarios": [
         "游戏",
         "通话"
       ],
-      "positioning_summary": "包装盒另外一侧介绍有产品的功能特点：深渊氛围灯、12mm大尺寸单元、IP56级防尘防水、双设备连接、AI通话降噪。"
+      "positioning_summary": "花再HALO CLIP支持蓝牙V6.1，支持双设备连接，提供便捷稳定的无线连接，以及游戏更低延迟；支持AI智能通话降噪，消减环境噪音，提升通话时的人声清晰度；通过手机APP，还可以使用耳机定位防丢、排水和健康提醒等功能。",
+      "launch_date_evidence": null,
+      "price_evidence": null
     },
     "cost": {
       "major_parts": [
@@ -45,27 +61,223 @@
       ],
       "chip_modules": [
         {
-          "part": "芯片/模组",
+          "component": "芯片/模组",
           "brand": "",
           "model": "BES2710IHC",
-          "qty_hint": ""
-        },
-        {
-          "part": "芯片/模组",
-          "brand": "",
-          "model": "BES2710IHC",
-          "qty_hint": ""
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES2710IHC",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "BES2710IHC"
+          }
         }
       ],
+      "bom_table": [
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "花再是漫步者联合冇心推出的独立品牌，致力于为年轻消费者提供美学与人体工学完美结合的科技产品。“HALO”系列是花再推出的采用深渊镜灯效设计的产品，目前包括HALO CLIP开放式耳机和HALO BUDS真无线耳机两款，其充电盒搭载非常炫酷的幻彩RGB灯，且支持灯光颜色自定义，提供极具个性化的体验。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，设置有主板和电池单元。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，设置有主板和电池单元。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "此次将要拆解的漫步者花再HALO CLIP开放式耳机，是一款采用了耳夹式设计的产品，造型时尚，佩戴舒适轻盈。在功能配置方面，该产品搭载12mm镀钛复合振膜，支持BassTurbo低音增压引擎技术，提升低音效果的同时，保障音乐细节和清晰度；支持自研DPW定向声波传音技术，保护听音隐私；还支持原声、人声、动感、空间音频、隐私保护等6种音效模式，满足不同场景使用需求。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "腔体背部设置有麦克风拾音孔。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "腔体底部还贴有天线，露铜连接主板。"
+          }
+        },
+        {
+          "component": "降噪系统",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "降噪系统",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "我爱音频网此前还拆解过漫步者LolliClip、Comfo Clip、FitFree、Comfo Fit II、花再Zero Clip开放式耳机，漫步者X1 Evo、Lolli3 ANC、TWS5 PRO、NeoBuds S、NeoBuds Pro、LolliPods Pro真无线耳机，HECATE GX07、HECATE GX05真无线游戏耳机，W830NB、W820NB、HECATE G4S雷霆版头戴式耳机，花再NEW-X光冷能量音箱、HECATE G100磁吸蓝牙音响、M125、M0便携式蓝牙音箱，漫步者辅听1号等产品。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳夹式耳机外观一览，由弹性弯臂衔接前后腔体。弯臂内嵌0.5mm超细镍钛记忆钢丝，柔韧富有弹性，弯曲不易变形。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "漫步者花再HALO CLIP开放式耳机充电盒采用了方形设计，类金属磨砂工艺处理，质感出色。机身正面设置有一颗指示灯，用于反馈蓝牙配对及充电状态。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "机身右侧设置有蓝牙配对功能按键。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "腔体侧边的充电触点特写。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "BES2710IHC",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES2710IHC",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "BES恒玄科技BES2710IHC蓝牙音频SoC，用于无线连接和音频数据处理。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "BES2710IHC",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES2710IHC",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "耳机内部搭载了12mm镀钛复合振膜动圈单元，单耳内置一颗瑞勤电子的MEMS麦克风拾音；内置49mAh钢壳扣式电池，配备WINSEMI稳先微WSDF1311C锂电保护IC；主控芯片为BES恒玄科技BES2710IHC蓝牙音频SoC。"
+          }
+        }
+      ],
+      "supply_hints": [],
       "packaging_notes": [
         "包装盒内部物品有主机、充电线、保修卡&说明书。"
       ],
       "process_hints": [
-        "断开焊接的导线，取出腔体内部的所有元器件。"
+        {
+          "value": "断开焊接的导线，取出腔体内部的所有元器件。",
+          "evidence": {
+            "value": "断开焊接的导线，取出腔体内部的所有元器件。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "断开焊接的导线，取出腔体内部的所有元器件。"
+          }
+        }
       ]
     },
     "structure": {
       "form_factor": "开放式耳机",
+      "earbud_type": "入耳",
       "materials": [],
       "ip_rating": "IP5",
       "weight_g": "74.6g",
@@ -74,190 +286,386 @@
         "包装盒另外一侧介绍有产品的功能特点：深渊氛围灯、12mm大尺寸单元、IP56级防尘防水、双设备连接、AI通话降噪。",
         "弯臂内嵌0.5mm超细镍钛记忆钢丝，柔韧富有弹性，弯曲不易变形。"
       ],
+      "internal_structure": [
+        {
+          "value": "座舱底部结构一览，设置有主板和电池单元。",
+          "evidence": {
+            "value": "座舱底部结构一览，设置有主板和电池单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，设置有主板和电池单元。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，取掉主板和电池。",
+          "evidence": {
+            "value": "卸掉螺丝，取掉主板和电池。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取掉主板和电池。"
+          }
+        },
+        {
+          "value": "此次将要拆解的漫步者花再HALO CLIP开放式耳机，是一款采用了耳夹式设计的产品，造型时尚，佩戴舒适轻盈。在功能配置方面，该产品搭载12mm镀钛复合振膜，支持BassTurbo低音增压引擎技术，提升低音效果的同时，保障音乐细节和清晰度；支持自研DPW定向声波传音技术，保护听音隐私；还支持原声、人声、动感、空间音频、隐私保护等6种音效模式，满足不同场景使用需求。",
+          "evidence": {
+            "value": "此次将要拆解的漫步者花再HALO CLIP开放式耳机，是一款采用了耳夹式设计的产品，造型时尚，佩戴舒适轻盈。在功能配置方面，该产品搭载12mm镀钛复合振膜，支持BassTurbo低音增压引擎技术，提升低音效果的同时，保障音乐细节和清晰度；支持自研DPW定向声波传音技术，保护听音隐私；还支持原声、人声、动感、空间音频、隐私保护等6种音效模式，满足不同场景使用需求。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "此次将要拆解的漫步者花再HALO CLIP开放式耳机，是一款采用了耳夹式设计的产品，造型时尚，佩戴舒适轻盈。在功能配置方面，该产品搭载12mm镀钛复合振膜，支持BassTurbo低音增压引擎技术，提升低音效果的同时，保障音乐细节和清晰度；支持自研DPW定向声波传音技术，保护听音隐私；还支持原声、人声、动感、空间音频、隐私保护等6种音效模式，满足不同场景使用需求。"
+          }
+        },
+        {
+          "value": "前腔内部扬声器单元结构一览。",
+          "evidence": {
+            "value": "前腔内部扬声器单元结构一览。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "前腔内部扬声器单元结构一览。"
+          }
+        },
+        {
+          "value": "腔体背部设置有麦克风拾音孔。",
+          "evidence": {
+            "value": "腔体背部设置有麦克风拾音孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "腔体背部设置有麦克风拾音孔。"
+          }
+        },
+        {
+          "value": "耳机内置钢壳扣式电池，容量：49mAh 0.189Wh，来自MIC-POWER微电新能源。",
+          "evidence": {
+            "value": "耳机内置钢壳扣式电池，容量：49mAh 0.189Wh，来自MIC-POWER微电新能源。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机内置钢壳扣式电池，容量：49mAh 0.189Wh，来自MIC-POWER微电新能源。"
+          }
+        },
+        {
+          "value": "腔体底部还贴有天线，露铜连接主板。",
+          "evidence": {
+            "value": "腔体底部还贴有天线，露铜连接主板。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "腔体底部还贴有天线，露铜连接主板。"
+          }
+        },
+        {
+          "value": "连接蓝牙天线的金属弹片特写。",
+          "evidence": {
+            "value": "连接蓝牙天线的金属弹片特写。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "连接蓝牙天线的金属弹片特写。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "卸掉螺丝，取掉主板和电池。",
+          "evidence": {
+            "value": "卸掉螺丝，取掉主板和电池。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取掉主板和电池。"
+          }
+        }
+      ],
+      "sealing_method": [
+        {
+          "value": "包装盒另外一侧介绍有产品的功能特点：深渊氛围灯、12mm大尺寸单元、IP56级防尘防水、双设备连接、AI通话降噪。",
+          "evidence": {
+            "value": "包装盒另外一侧介绍有产品的功能特点：深渊氛围灯、12mm大尺寸单元、IP56级防尘防水、双设备连接、AI通话降噪。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "包装盒另外一侧介绍有产品的功能特点：深渊氛围灯、12mm大尺寸单元、IP56级防尘防水、双设备连接、AI通话降噪。"
+          }
+        }
+      ],
       "wear_design": [
-        "此次将要拆解的\n漫步者花再HALO CLIP开放式耳机\n，是一款采用了耳夹式设计的产品，造型时尚，佩戴舒适轻盈。",
-        "漫步者花再HALO CLIP开放式耳机整体外观一览，耳机采用了耳夹式设计，质感与充电盒相同。",
-        "耳夹式耳机外观一览，由弹性弯臂衔接前后腔体。",
-        "单只耳机重量约为5.8g，佩戴轻盈舒适。"
+        {
+          "value": "此次将要拆解的\n漫步者花再HALO CLIP开放式耳机\n，是一款采用了耳夹式设计的产品，造型时尚，佩戴舒适轻盈。",
+          "evidence": {
+            "value": "此次将要拆解的\n漫步者花再HALO CLIP开放式耳机\n，是一款采用了耳夹式设计的产品，造型时尚，佩戴舒适轻盈。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "此次将要拆解的\n漫步者花再HALO CLIP开放式耳机\n，是一款采用了耳夹式设计的产品，造型时尚，佩戴舒适轻盈。"
+          }
+        },
+        {
+          "value": "漫步者花再HALO CLIP开放式耳机整体外观一览，耳机采用了耳夹式设计，质感与充电盒相同。",
+          "evidence": {
+            "value": "漫步者花再HALO CLIP开放式耳机整体外观一览，耳机采用了耳夹式设计，质感与充电盒相同。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "漫步者花再HALO CLIP开放式耳机整体外观一览，耳机采用了耳夹式设计，质感与充电盒相同。"
+          }
+        },
+        {
+          "value": "耳夹式耳机外观一览，由弹性弯臂衔接前后腔体。",
+          "evidence": {
+            "value": "耳夹式耳机外观一览，由弹性弯臂衔接前后腔体。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "耳夹式耳机外观一览，由弹性弯臂衔接前后腔体。"
+          }
+        },
+        {
+          "value": "后端腔体内侧采用了弧形设计，更加贴耳耳廓，提升舒适性。",
+          "evidence": {
+            "value": "后端腔体内侧采用了弧形设计，更加贴耳耳廓，提升舒适性。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "后端腔体内侧采用了弧形设计，更加贴耳耳廓，提升舒适性。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026032010590851.jpg",
+          "alt": "拆解报告：漫步者花再HALO CLIP开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026032010592522-1.jpg",
+          "alt": "拆解报告：漫步者花再HALO CLIP开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026032010590966.jpg",
+          "alt": "拆解报告：漫步者花再HALO CLIP开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026032010590886.jpg",
+          "alt": "拆解报告：漫步者花再HALO CLIP开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026032010592524.jpg",
+          "alt": "拆解报告：漫步者花再HALO CLIP开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
       ],
       "assembly_notes": [
-        "花再是漫步者联合冇心推出的独立品牌，致力于为年轻消费者提供美学与人体工学完美结合的科技产品。“HALO”系列是花再推出的采用深渊镜灯效设计的产品，目前包括HALO CLIP开放式耳机和HALO BUDS真无线耳机两款，其充电盒搭载非常炫酷的幻彩RGB灯，且支持灯光颜色自定义，提供极具个性化的体验。",
         "座舱底部结构一览，设置有主板和电池单元。",
-        "座舱底部结构一览，设置有主板和电池单元。",
+        "卸掉螺丝，取掉主板和电池。",
         "此次将要拆解的漫步者花再HALO CLIP开放式耳机，是一款采用了耳夹式设计的产品，造型时尚，佩戴舒适轻盈。在功能配置方面，该产品搭载12mm镀钛复合振膜，支持BassTurbo低音增压引擎技术，提升低音效果的同时，保障音乐细节和清晰度；支持自研DPW定向声波传音技术，保护听音隐私；还支持原声、人声、动感、空间音频、隐私保护等6种音效模式，满足不同场景使用需求。",
-        "腔体背部设置有麦克风拾音孔。",
-        "腔体底部还贴有天线，露铜连接主板。"
-      ]
+        "前腔内部扬声器单元结构一览。"
+      ],
+      "ip_rating_evidence": {
+        "value": "IP5",
+        "confidence": 0.8,
+        "source_type": "text",
+        "source_text": "IP5"
+      },
+      "weight_evidence": {
+        "value": "74.6g",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "74.6g"
+      }
     },
     "hardware": {
       "specs": [
         {
-          "part": "充电接口",
-          "brand": "",
-          "model": "",
+          "param": "充电接口",
           "value": "充电线采用了USB-C to Type-C接口。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "充电接口",
           "brand": "",
           "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电线采用了USB-C to Type-C接口。"
+        },
+        {
+          "param": "充电接口",
           "value": "机身左侧设置有Type-C充电接口。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "充电接口",
           "brand": "",
           "model": "",
+          "confidence": 0.75,
+          "source_ref": "机身左侧设置有Type-C充电接口。"
+        },
+        {
+          "param": "充电接口",
           "value": "Type-C充电母座特写。",
           "unit": "",
-          "source_ref": "text"
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充电母座特写。"
         },
         {
-          "part": "充电接口",
-          "brand": "",
-          "model": "Type-C",
+          "param": "充电接口",
           "value": "Type-C",
           "unit": "",
-          "source_ref": "text"
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
         },
         {
-          "part": "标记/认证",
-          "brand": "",
-          "model": "",
+          "param": "标记/认证",
           "value": "“HALO”系列是花再推出的采用深渊镜灯效设计的产品，目前包括HALO CLIP开放式耳机和HALO BUDS真无线耳机两款，其充电盒搭载非常炫酷的幻彩RGB灯，且支持灯光颜色自定义，提供极具个性化的体验。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "“HALO”系列是花再推出的采用深渊镜灯效设计的产品，目前包括HALO CLIP开放式耳机和HALO BUDS真无线耳机两款，其充电盒搭载非常炫酷的幻彩RGB灯，且支持灯光颜色自定义，提供极具个性化的体验。"
+        },
+        {
+          "param": "标记/认证",
           "value": "此次将要拆解的\n漫步者花再HALO CLIP开放式耳机\n，是一款采用了耳夹式设计的产品，造型时尚，佩戴舒适轻盈。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "此次将要拆解的\n漫步者花再HALO CLIP开放式耳机\n，是一款采用了耳夹式设计的产品，造型时尚，佩戴舒适轻盈。"
+        },
+        {
+          "param": "标记/认证",
           "value": "花再HALO CLIP支持蓝牙V6.1，支持双设备连接，提供便捷稳定的无线连接，以及游戏更低延迟；支持AI智能通话降噪，消减环境噪音，提升通话时的人声清晰度；通过手机APP，还可以使用耳机定位防丢、排水和健康提醒等功能。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "花再HALO CLIP支持蓝牙V6.1，支持双设备连接，提供便捷稳定的无线连接，以及游戏更低延迟；支持AI智能通话降噪，消减环境噪音，提升通话时的人声清晰度；通过手机APP，还可以使用耳机定位防丢、排水和健康提醒等功能。"
+        },
+        {
+          "param": "标记/认证",
           "value": "一、\n漫步者花再HALO CLIP开放式耳机开箱\n漫步者花再HALO CLIP开放式耳机包装盒延续了家族式的设计，红色背景，正面仅展示有品牌LOGO。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "一、\n漫步者花再HALO CLIP开放式耳机开箱\n漫步者花再HALO CLIP开放式耳机包装盒延续了家族式的设计，红色背景，正面仅展示有品牌LOGO。"
+        },
+        {
+          "param": "标记/认证",
           "value": "型号：EDF280056，产品名称：HALO CLIP 开放式真无线蓝牙耳机，输入：5V-200mA（耳机）/5V-1A（充电盒）。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "型号：EDF280056，产品名称：HALO CLIP 开放式真无线蓝牙耳机，输入：5V-200mA（耳机）/5V-1A（充电盒）。"
+        },
+        {
+          "param": "标记/认证",
           "value": "包装盒另外一侧介绍有产品的功能特点：深渊氛围灯、12mm大尺寸单元、IP56级防尘防水、双设备连接、AI通话降噪。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "包装盒另外一侧介绍有产品的功能特点：深渊氛围灯、12mm大尺寸单元、IP56级防尘防水、双设备连接、AI通话降噪。"
+        },
+        {
+          "param": "标记/认证",
           "value": "漫步者花再HALO CLIP开放式耳机充电盒采用了方形设计，类金属磨砂工艺处理，质感出色。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "漫步者花再HALO CLIP开放式耳机充电盒采用了方形设计，类金属磨砂工艺处理，质感出色。"
+        },
+        {
+          "param": "标记/认证",
           "value": "漫步者花再HALO CLIP开放式耳机深渊镜灯效展示。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "漫步者花再HALO CLIP开放式耳机深渊镜灯效展示。"
+        },
+        {
+          "param": "标记/认证",
           "value": "漫步者花再HALO CLIP开放式耳机整体外观一览，耳机采用了耳夹式设计，质感与充电盒相同。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "漫步者花再HALO CLIP开放式耳机整体外观一览，耳机采用了耳夹式设计，质感与充电盒相同。"
+        },
+        {
+          "param": "标记/认证",
           "value": "经我爱音频网实测，漫步者花再HALO CLIP开放式耳机整机重量约为74.6g。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "经我爱音频网实测，漫步者花再HALO CLIP开放式耳机整机重量约为74.6g。"
+        },
+        {
+          "param": "标记/认证",
           "value": "二、\n漫步者花再HALO CLIP开放式耳机拆解\n通过开箱，我们详细了解了漫步者花再HALO CLIP开放式耳机的详细外观设计，下面进入拆解部分，看看内部结构配置信息~\n充电盒拆解\n拆开充电盒外壳，取出座舱结构。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "二、\n漫步者花再HALO CLIP开放式耳机拆解\n通过开箱，我们详细了解了漫步者花再HALO CLIP开放式耳机的详细外观设计，下面进入拆解部分，看看内部结构配置信息~\n充电盒拆解\n拆开充电盒外壳，取出座舱结构。"
+        },
+        {
+          "param": "标记/认证",
           "value": "充电盒内置锂电池标签上信息，锂离子电池组，型号：CEL 941832，标称电压：3.7V，额定容量：550mAh 2.035Wh，充电限制电压：4.2V，来自东莞市金赛尔电池科技有限公司。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒内置锂电池标签上信息，锂离子电池组，型号：CEL 941832，标称电压：3.7V，额定容量：550mAh 2.035Wh，充电限制电压：4.2V，来自东莞市金赛尔电池科技有限公司。"
+        },
+        {
+          "param": "标记/认证",
           "value": "漫步者花再HALO CLIP开放式耳机拆解全家福。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "漫步者花再HALO CLIP开放式耳机拆解全家福。"
+        },
+        {
+          "param": "标记/认证",
           "value": "三、我爱音频网总结\n最后附上漫步者花再HALO CLIP开放式耳机的已知物料清单，方便大家查阅。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "三、我爱音频网总结\n最后附上漫步者花再HALO CLIP开放式耳机的已知物料清单，方便大家查阅。"
+        },
+        {
+          "param": "标记/认证",
           "value": "漫步者花再HALO CLIP开放式耳机在外观方面，充电盒采用了圆角方形设计，类金属磨砂工艺处理，带来出色质感。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "漫步者花再HALO CLIP开放式耳机在外观方面，充电盒采用了圆角方形设计，类金属磨砂工艺处理，带来出色质感。"
+        },
+        {
+          "param": "标记/认证",
           "value": "内部主要配置方面，充电盒搭载了CEL金赛尔3.7V/550mAh锂电池，配备有电池保护板负责过充过放过流等保护。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "电池",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "内部主要配置方面，充电盒搭载了CEL金赛尔3.7V/550mAh锂电池，配备有电池保护板负责过充过放过流等保护。"
+        },
+        {
+          "param": "电池容量",
           "value": "550",
           "unit": "mAh",
-          "source_ref": "text"
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "550mAh"
         }
       ]
     },
@@ -265,17 +673,51 @@
       "bluetooth_version": null,
       "codecs": [],
       "multipoint": [
-        "花再HALO CLIP支持蓝牙V6.1，支持双设备连接，提供便捷稳定的无线连接，以及游戏更低延迟；支持AI智能通话降噪，消减环境噪音，提升通话时的人声清晰度；通过手机APP，还可以使用耳机定位防丢、排水和健康提醒等功能。",
-        "包装盒另外一侧介绍有产品的功能特点：深渊氛围灯、12mm大尺寸单元、IP56级防尘防水、双设备连接、AI通话降噪。"
+        {
+          "value": "花再HALO CLIP支持蓝牙V6.1，支持双设备连接，提供便捷稳定的无线连接，以及游戏更低延迟；支持AI智能通话降噪，消减环境噪音，提升通话时的人声清晰度；通过手机APP，还可以使用耳机定位防丢、排水和健康提醒等功能。",
+          "evidence": {
+            "value": "花再HALO CLIP支持蓝牙V6.1，支持双设备连接，提供便捷稳定的无线连接，以及游戏更低延迟；支持AI智能通话降噪，消减环境噪音，提升通话时的人声清晰度；通过手机APP，还可以使用耳机定位防丢、排水和健康提醒等功能。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "花再HALO CLIP支持蓝牙V6.1，支持双设备连接，提供便捷稳定的无线连接，以及游戏更低延迟；支持AI智能通话降噪，消减环境噪音，提升通话时的人声清晰度；通过手机APP，还可以使用耳机定位防丢、排水和健康提醒等功能。"
+          }
+        },
+        {
+          "value": "包装盒另外一侧介绍有产品的功能特点：深渊氛围灯、12mm大尺寸单元、IP56级防尘防水、双设备连接、AI通话降噪。",
+          "evidence": {
+            "value": "包装盒另外一侧介绍有产品的功能特点：深渊氛围灯、12mm大尺寸单元、IP56级防尘防水、双设备连接、AI通话降噪。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒另外一侧介绍有产品的功能特点：深渊氛围灯、12mm大尺寸单元、IP56级防尘防水、双设备连接、AI通话降噪。"
+          }
+        }
       ],
       "app_name": "",
       "app_features": [
-        "花再HALO CLIP支持蓝牙V6.1，支持双设备连接，提供便捷稳定的无线连接，以及游戏更低延迟；支持AI智能通话降噪，消减环境噪音，提升通话时的人声清晰度；通过手机APP，还可以使用耳机定位防丢、排水和健康提醒等功能。"
+        {
+          "value": "花再HALO CLIP支持蓝牙V6.1，支持双设备连接，提供便捷稳定的无线连接，以及游戏更低延迟；支持AI智能通话降噪，消减环境噪音，提升通话时的人声清晰度；通过手机APP，还可以使用耳机定位防丢、排水和健康提醒等功能。",
+          "evidence": {
+            "value": "花再HALO CLIP支持蓝牙V6.1，支持双设备连接，提供便捷稳定的无线连接，以及游戏更低延迟；支持AI智能通话降噪，消减环境噪音，提升通话时的人声清晰度；通过手机APP，还可以使用耳机定位防丢、排水和健康提醒等功能。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "花再HALO CLIP支持蓝牙V6.1，支持双设备连接，提供便捷稳定的无线连接，以及游戏更低延迟；支持AI智能通话降噪，消减环境噪音，提升通话时的人声清晰度；通过手机APP，还可以使用耳机定位防丢、排水和健康提醒等功能。"
+          }
+        }
       ],
       "ota_support": [],
       "latency_notes": [
-        "花再HALO CLIP支持蓝牙V6.1，支持双设备连接，提供便捷稳定的无线连接，以及游戏更低延迟；支持AI智能通话降噪，消减环境噪音，提升通话时的人声清晰度；通过手机APP，还可以使用耳机定位防丢、排水和健康提醒等功能。"
-      ]
+        {
+          "value": "花再HALO CLIP支持蓝牙V6.1，支持双设备连接，提供便捷稳定的无线连接，以及游戏更低延迟；支持AI智能通话降噪，消减环境噪音，提升通话时的人声清晰度；通过手机APP，还可以使用耳机定位防丢、排水和健康提醒等功能。",
+          "evidence": {
+            "value": "花再HALO CLIP支持蓝牙V6.1，支持双设备连接，提供便捷稳定的无线连接，以及游戏更低延迟；支持AI智能通话降噪，消减环境噪音，提升通话时的人声清晰度；通过手机APP，还可以使用耳机定位防丢、排水和健康提醒等功能。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "花再HALO CLIP支持蓝牙V6.1，支持双设备连接，提供便捷稳定的无线连接，以及游戏更低延迟；支持AI智能通话降噪，消减环境噪音，提升通话时的人声清晰度；通过手机APP，还可以使用耳机定位防丢、排水和健康提醒等功能。"
+          }
+        }
+      ],
+      "bluetooth_evidence": null
     }
-  }
+  },
+  "data_completeness": 0.714
 }

@@ -27,22 +27,33 @@
       "scenarios": [
         "通话"
       ],
-      "positioning_summary": ""
+      "positioning_summary": "",
+      "launch_date_evidence": null,
+      "price_evidence": null
     },
     "cost": {
       "major_parts": [],
       "chip_modules": [],
+      "bom_table": [],
+      "supply_hints": [],
       "packaging_notes": [],
       "process_hints": []
     },
     "structure": {
       "form_factor": "智能手表",
+      "earbud_type": "其他",
       "materials": [],
       "ip_rating": null,
       "weight_g": null,
       "dimensions": [],
+      "internal_structure": [],
+      "fastener_type": [],
+      "sealing_method": [],
       "wear_design": [],
-      "assembly_notes": []
+      "key_image_urls": [],
+      "assembly_notes": [],
+      "ip_rating_evidence": null,
+      "weight_evidence": null
     },
     "hardware": {
       "specs": []
@@ -53,10 +64,20 @@
       "multipoint": [],
       "app_name": "",
       "app_features": [
-        "NOHON诺希N19智能手表，即是一款基于开源鸿蒙打造的设备，支持海量APP下载，支持NFC、支持各种社交APP消息提醒和蓝牙通话，为用户提供便捷智慧体验。"
+        {
+          "value": "NOHON诺希N19智能手表，即是一款基于开源鸿蒙打造的设备，支持海量APP下载，支持NFC、支持各种社交APP消息提醒和蓝牙通话，为用户提供便捷智慧体验。",
+          "evidence": {
+            "value": "NOHON诺希N19智能手表，即是一款基于开源鸿蒙打造的设备，支持海量APP下载，支持NFC、支持各种社交APP消息提醒和蓝牙通话，为用户提供便捷智慧体验。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "NOHON诺希N19智能手表，即是一款基于开源鸿蒙打造的设备，支持海量APP下载，支持NFC、支持各种社交APP消息提醒和蓝牙通话，为用户提供便捷智慧体验。"
+          }
+        }
       ],
       "ota_support": [],
-      "latency_notes": []
+      "latency_notes": [],
+      "bluetooth_evidence": null
     }
-  }
+  },
+  "data_completeness": 0.07
 }

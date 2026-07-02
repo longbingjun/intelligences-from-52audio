@@ -9,10 +9,11 @@ from email.utils import parsedate_to_datetime
 from xml.etree import ElementTree as ET
 
 import requests
+from bs4 import BeautifulSoup
 
 from core.base_source import BaseSource
 from core.models_v2 import ReportRecord, RoleViews, VideoRecord
-from core.views.role_extract import extract_role_views
+from core.views.role_extract import extract_role_views, views_to_dict_with_completeness
 from core.extract.text_utils import extract_video_embed_urls
 from sources.audio52.parse_title import parse_title
 
@@ -149,6 +150,40 @@ class Audio52SourceV2(BaseSource):
 
             time.sleep(self.request_delay_sec)
 
+    def build_feed_content_index(self, max_pages: int | None = None) -> dict[str, str]:
+        """遍历 RSS，返回 {article_id: content_html}（仅内存，不入库）。"""
+        index: dict[str, str] = {}
+        for it in self.iter_feed_items(max_pages=max_pages):
+            item_id = _extract_id(it["url"])
+            html_body = it.get("content_html") or ""
+            if html_body:
+                index[item_id] = html_body
+        return index
+
+    def fetch_article_html(self, url: str) -> str:
+        """从单篇 URL 抓取正文 HTML（带 Referer，不入库）。"""
+        resp = self.session.get(
+            url,
+            headers={"Referer": "https://www.52audio.com/", "Accept": "text/html"},
+            timeout=self.timeout,
+        )
+        resp.raise_for_status()
+        soup = BeautifulSoup(resp.text, "lxml")
+        node = soup.select_one(".entry-content") or soup.select_one("article .post-content") or soup.select_one("article")
+        if not node:
+            return ""
+        return str(node)
+
+    def resolve_content_html(self, item_id: str, url: str, feed_index: dict[str, str] | None = None) -> str:
+        """优先 RSS 缓存，否则单篇 fetch。"""
+        if feed_index and item_id in feed_index:
+            return feed_index[item_id]
+        try:
+            return self.fetch_article_html(url)
+        except Exception as e:
+            print(f"[audio52] fetch {item_id} 失败: {e}")
+            return ""
+
     def parse_item(self, item: dict) -> ReportRecord | VideoRecord | None:
         parsed = parse_title(item["title"])
         content_html = item.get("content_html", "")
@@ -163,6 +198,7 @@ class Audio52SourceV2(BaseSource):
         if content_type == "video":
             embed = video_embeds[0] if video_embeds else ""
             views = RoleViews()
+            data_completeness = 0.0
             if content_html:
                 views = extract_role_views(
                     content_html,
@@ -170,6 +206,7 @@ class Audio52SourceV2(BaseSource):
                     model=parsed.model,
                     category=parsed.category,
                 )
+                data_completeness = views_to_dict_with_completeness(views)[1]
             return VideoRecord(
                 id=item_id,
                 url=item["url"],
@@ -185,6 +222,7 @@ class Audio52SourceV2(BaseSource):
                 video_embed_url=embed,
                 captured_at=captured_at,
                 asr_status="pending",
+                data_completeness=data_completeness,
                 views=views,
             )
 
@@ -194,6 +232,7 @@ class Audio52SourceV2(BaseSource):
             model=parsed.model,
             category=parsed.category,
         )
+        data_completeness = views_to_dict_with_completeness(views)[1]
         return ReportRecord(
             id=item_id,
             url=item["url"],
@@ -205,6 +244,7 @@ class Audio52SourceV2(BaseSource):
             author=item.get("author", ""),
             summary=item.get("description", ""),
             captured_at=captured_at,
+            data_completeness=data_completeness,
             views=views,
         )
 

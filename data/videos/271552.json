@@ -25,22 +25,33 @@
       "price_note": "",
       "selling_points": [],
       "scenarios": [],
-      "positioning_summary": ""
+      "positioning_summary": "",
+      "launch_date_evidence": null,
+      "price_evidence": null
     },
     "cost": {
       "major_parts": [],
       "chip_modules": [],
+      "bom_table": [],
+      "supply_hints": [],
       "packaging_notes": [],
       "process_hints": []
     },
     "structure": {
       "form_factor": "其他音频设备",
+      "earbud_type": "其他",
       "materials": [],
       "ip_rating": null,
       "weight_g": null,
       "dimensions": [],
+      "internal_structure": [],
+      "fastener_type": [],
+      "sealing_method": [],
       "wear_design": [],
-      "assembly_notes": []
+      "key_image_urls": [],
+      "assembly_notes": [],
+      "ip_rating_evidence": null,
+      "weight_evidence": null
     },
     "hardware": {
       "specs": []
@@ -53,8 +64,18 @@
       "app_features": [],
       "ota_support": [],
       "latency_notes": [
-        "在使用上，拥有专业电鼓音色，动作捕捉延迟低于2毫秒，且拥有100级演奏力度分层，带来更加真实的模拟效果；还支持转接发烧级耳机或音箱，进一步提升音频体验。"
-      ]
+        {
+          "value": "在使用上，拥有专业电鼓音色，动作捕捉延迟低于2毫秒，且拥有100级演奏力度分层，带来更加真实的模拟效果；还支持转接发烧级耳机或音箱，进一步提升音频体验。",
+          "evidence": {
+            "value": "在使用上，拥有专业电鼓音色，动作捕捉延迟低于2毫秒，且拥有100级演奏力度分层，带来更加真实的模拟效果；还支持转接发烧级耳机或音箱，进一步提升音频体验。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "在使用上，拥有专业电鼓音色，动作捕捉延迟低于2毫秒，且拥有100级演奏力度分层，带来更加真实的模拟效果；还支持转接发烧级耳机或音箱，进一步提升音频体验。"
+          }
+        }
+      ],
+      "bluetooth_evidence": null
     }
-  }
+  },
+  "data_completeness": 0.04
 }

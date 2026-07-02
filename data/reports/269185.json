@@ -20,14 +20,25 @@
       "price_cny": null,
       "price_note": "",
       "selling_points": [
-        "详细功能配置方面，MOVA LINKCO 5G MiFi W1随身WiFi搭载了华为海思巴龙MT5710-CN新一代3GPP R17标准芯片，支持5G技术，支持WiFi 6协议，提供高高的网速和更长的续航；支持2.4G/5.8Ghz双频自由切换，实现更稳定的连接；支持16台设备稳定连接，下载、直播、打游戏，流畅不卡顿；内置3300mAh大容量电池，可提供16小时超长续航，满足一天的使用需求。"
+        {
+          "text": "详细功能配置方面，MOVA LINKCO 5G MiFi W1随身WiFi搭载了华为海思巴龙MT5710-CN新一代3GPP R17标准芯片，支持5G技术，支持WiFi 6协议，提供高高的网速和更长的续航；支持2.4G/5.8Ghz双频自由切换，实现更稳定的连接；支持16台设备稳定连接，下载、直播、打游戏，流畅不卡顿；内置3300mAh大容量电池，可提供16小时超长续航，满足一天的使用需求。",
+          "tag": "长续航",
+          "evidence": {
+            "value": "详细功能配置方面，MOVA LINKCO 5G MiFi W1随身WiFi搭载了华为海思巴龙MT5710-CN新一代3GPP R17标准芯片，支持5G技术，支持WiFi 6协议，提供高高的网速和更长的续航；支持2.4G/5.8Ghz双频自由切换，实现更稳定的连接；支持16台设备稳定连接，下载、直播、打游戏，流畅不卡顿；内置3300mAh大容量电池，可提供16小时超长续航，满足一天的使用需求。",
+            "confidence": 0.75,
+            "source_type": "text",
+            "source_text": "详细功能配置方面，MOVA LINKCO 5G MiFi W1随身WiFi搭载了华为海思巴龙MT5710-CN新一代3GPP R17标准芯片，支持5G技术，支持WiFi 6协议，提供高高的网速和更长的续航；支持2.4G/5.8Ghz双频自由切换，实现更稳定的连接；支持16台设备稳定连接，下载、直播、打游戏，流畅不卡顿；内置3300mAh大容量电池，可提供16小时超长续航，满足一天的使用需求。"
+          }
+        }
       ],
       "scenarios": [
         "办公",
         "游戏",
         "户外"
       ],
-      "positioning_summary": "详细功能配置方面，MOVA LINKCO 5G MiFi W1随身WiFi搭载了华为海思巴龙MT5710-CN新一代3GPP R17标准芯片，支持5G技术，支持WiFi 6协议，提供高高的网速和更长的续航；支持2.4G/5.8Ghz双频自由切换，实现更稳定的连接；支持16台设备稳定连接，下载、直播、打游戏，流畅不卡顿；内置3300mAh大容量电池，可提供16小时超长续航，满足一天的使用需求。"
+      "positioning_summary": "详细功能配置方面，MOVA LINKCO 5G MiFi W1随身WiFi搭载了华为海思巴龙MT5710-CN新一代3GPP R17标准芯片，支持5G技术，支持WiFi 6协议，提供高高的网速和更长的续航；支持2.4G/5.8Ghz双频自由切换，实现更稳定的连接；支持16台设备稳定连接，下载、直播、打游戏，流畅不卡顿；内置3300mAh大容量电池，可提供16小时超长续航，满足一天的使用需求。",
+      "launch_date_evidence": null,
+      "price_evidence": null
     },
     "cost": {
       "major_parts": [
@@ -37,114 +48,391 @@
         "麦克风"
       ],
       "chip_modules": [],
+      "bom_table": [
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "详细功能配置方面，MOVA LINKCO 5G MiFi W1随身WiFi搭载了华为海思巴龙MT5710-CN新一代3GPP R17标准芯片，支持5G技术，支持WiFi 6协议，提供高高的网速和更长的续航；支持2.4G/5.8Ghz双频自由切换，实现更稳定的连接；支持16台设备稳定连接，下载、直播、打游戏，流畅不卡顿；内置3300mAh大容量电池，可提供16小时超长续航，满足一天的使用需求。下面就来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "WiFi天线特写，露铜连接主板，丝印型号“A1726-RM10-MAIN-V1.1”。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "拆掉机身顶部的盖板，外壳内侧贴有两处WiFi天线，提供稳定连接。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "丝印“VTQQ8Q2G7 T323293F1”的PMIC。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "机身上方盖板采用了可旋转设计，内部隐藏有功能按键和接口。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "Type-C充电接口特写，下方设置有WiFi指示灯和充电指示灯。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "拆掉机身顶部的盖板，外壳内侧贴有两处WiFi天线，提供稳定连接。"
+          }
+        }
+      ],
+      "supply_hints": [],
       "packaging_notes": [],
       "process_hints": []
     },
     "structure": {
       "form_factor": "其他音频设备",
+      "earbud_type": "其他",
       "materials": [],
       "ip_rating": null,
       "weight_g": "127.5g",
       "dimensions": [],
+      "internal_structure": [
+        {
+          "value": "详细功能配置方面，MOVA LINKCO 5G MiFi W1随身WiFi搭载了华为海思巴龙MT5710-CN新一代3GPP R17标准芯片，支持5G技术，支持WiFi 6协议，提供高高的网速和更长的续航；支持2.4G/5.8Ghz双频自由切换，实现更稳定的连接；支持16台设备稳定连接，下载、直播、打游戏，流畅不卡顿；内置3300mAh大容量电池，可提供16小时超长续航，满足一天的使用需求。下面就来看看这款产品的详细拆解报告吧~",
+          "evidence": {
+            "value": "详细功能配置方面，MOVA LINKCO 5G MiFi W1随身WiFi搭载了华为海思巴龙MT5710-CN新一代3GPP R17标准芯片，支持5G技术，支持WiFi 6协议，提供高高的网速和更长的续航；支持2.4G/5.8Ghz双频自由切换，实现更稳定的连接；支持16台设备稳定连接，下载、直播、打游戏，流畅不卡顿；内置3300mAh大容量电池，可提供16小时超长续航，满足一天的使用需求。下面就来看看这款产品的详细拆解报告吧~",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "详细功能配置方面，MOVA LINKCO 5G MiFi W1随身WiFi搭载了华为海思巴龙MT5710-CN新一代3GPP R17标准芯片，支持5G技术，支持WiFi 6协议，提供高高的网速和更长的续航；支持2.4G/5.8Ghz双频自由切换，实现更稳定的连接；支持16台设备稳定连接，下载、直播、打游戏，流畅不卡顿；内置3300mAh大容量电池，可提供16小时超长续航，满足一天的使用需求。下面就来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "value": "卸掉螺丝，取掉主板，下方设置有支架隔离电池单元。",
+          "evidence": {
+            "value": "卸掉螺丝，取掉主板，下方设置有支架隔离电池单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取掉主板，下方设置有支架隔离电池单元。"
+          }
+        },
+        {
+          "value": "WiFi天线特写，露铜连接主板，丝印型号“A1726-RM10-MAIN-V1.1”。",
+          "evidence": {
+            "value": "WiFi天线特写，露铜连接主板，丝印型号“A1726-RM10-MAIN-V1.1”。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "WiFi天线特写，露铜连接主板，丝印型号“A1726-RM10-MAIN-V1.1”。"
+          }
+        },
+        {
+          "value": "腔体内部结构一览，主板通过螺丝固定。",
+          "evidence": {
+            "value": "腔体内部结构一览，主板通过螺丝固定。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "腔体内部结构一览，主板通过螺丝固定。"
+          }
+        },
+        {
+          "value": "拆掉机身顶部的盖板，外壳内侧贴有两处WiFi天线，提供稳定连接。",
+          "evidence": {
+            "value": "拆掉机身顶部的盖板，外壳内侧贴有两处WiFi天线，提供稳定连接。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "拆掉机身顶部的盖板，外壳内侧贴有两处WiFi天线，提供稳定连接。"
+          }
+        },
+        {
+          "value": "丝印“VTQQ8Q2G7 T323293F1”的PMIC。",
+          "evidence": {
+            "value": "丝印“VTQQ8Q2G7 T323293F1”的PMIC。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "丝印“VTQQ8Q2G7 T323293F1”的PMIC。"
+          }
+        },
+        {
+          "value": "机身上方盖板采用了可旋转设计，内部隐藏有功能按键和接口。",
+          "evidence": {
+            "value": "机身上方盖板采用了可旋转设计，内部隐藏有功能按键和接口。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "机身上方盖板采用了可旋转设计，内部隐藏有功能按键和接口。"
+          }
+        },
+        {
+          "value": "电源开关特写，下方设置有复位按键针孔",
+          "evidence": {
+            "value": "电源开关特写，下方设置有复位按键针孔",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "电源开关特写，下方设置有复位按键针孔"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "电源开关特写，下方设置有复位按键针孔\nSIM卡槽特写。",
+          "evidence": {
+            "value": "电源开关特写，下方设置有复位按键针孔\nSIM卡槽特写。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "电源开关特写，下方设置有复位按键针孔\nSIM卡槽特写。"
+          }
+        },
+        {
+          "value": "腔体内部结构一览，主板通过螺丝固定。",
+          "evidence": {
+            "value": "腔体内部结构一览，主板通过螺丝固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "腔体内部结构一览，主板通过螺丝固定。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，取掉主板，下方设置有支架隔离电池单元。",
+          "evidence": {
+            "value": "卸掉螺丝，取掉主板，下方设置有支架隔离电池单元。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取掉主板，下方设置有支架隔离电池单元。"
+          }
+        },
+        {
+          "value": "SIM卡槽特写。",
+          "evidence": {
+            "value": "SIM卡槽特写。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "SIM卡槽特写。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，取出电池单元。",
+          "evidence": {
+            "value": "卸掉螺丝，取出电池单元。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取出电池单元。"
+          }
+        }
+      ],
+      "sealing_method": [],
       "wear_design": [],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026030403454563.jpg",
+          "alt": "拆解报告：MOVA LINKCO 5G MiFi W1随身WiFi-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026030403460485.jpg",
+          "alt": "拆解报告：MOVA LINKCO 5G MiFi W1随身WiFi-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026030403455326.jpg",
+          "alt": "拆解报告：MOVA LINKCO 5G MiFi W1随身WiFi-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026030403460275.jpg",
+          "alt": "拆解报告：MOVA LINKCO 5G MiFi W1随身WiFi-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026030403454625.jpg",
+          "alt": "拆解报告：MOVA LINKCO 5G MiFi W1随身WiFi-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
       "assembly_notes": [
         "详细功能配置方面，MOVA LINKCO 5G MiFi W1随身WiFi搭载了华为海思巴龙MT5710-CN新一代3GPP R17标准芯片，支持5G技术，支持WiFi 6协议，提供高高的网速和更长的续航；支持2.4G/5.8Ghz双频自由切换，实现更稳定的连接；支持16台设备稳定连接，下载、直播、打游戏，流畅不卡顿；内置3300mAh大容量电池，可提供16小时超长续航，满足一天的使用需求。下面就来看看这款产品的详细拆解报告吧~",
+        "卸掉螺丝，取掉主板，下方设置有支架隔离电池单元。",
         "WiFi天线特写，露铜连接主板，丝印型号“A1726-RM10-MAIN-V1.1”。",
-        "拆掉机身顶部的盖板，外壳内侧贴有两处WiFi天线，提供稳定连接。",
-        "丝印“VTQQ8Q2G7 T323293F1”的PMIC。",
-        "MOVA LINKCO 5G MiFi W1随身WiFi包装盒设计简约，天地盖结构，盒盖顶部展示有产品外观，品牌LOGO和产品型号。",
-        "机身上方盖板采用了可旋转设计，内部隐藏有功能按键和接口。"
-      ]
+        "腔体内部结构一览，主板通过螺丝固定。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": {
+        "value": "127.5g",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "127.5g"
+      }
     },
     "hardware": {
       "specs": [
         {
-          "part": "充电接口",
-          "brand": "",
-          "model": "",
+          "param": "充电接口",
           "value": "随机标配的充电线，采用了USB-A to Type-C接口。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "充电接口",
           "brand": "",
           "model": "",
+          "confidence": 0.75,
+          "source_ref": "随机标配的充电线，采用了USB-A to Type-C接口。"
+        },
+        {
+          "param": "充电接口",
           "value": "Type-C充电接口特写，下方设置有WiFi指示灯和充电指示灯。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "充电接口",
           "brand": "",
           "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充电接口特写，下方设置有WiFi指示灯和充电指示灯。"
+        },
+        {
+          "param": "充电接口",
           "value": "Type-C充电接口特写。",
           "unit": "",
-          "source_ref": "text"
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充电接口特写。"
         },
         {
-          "part": "充电接口",
-          "brand": "",
-          "model": "Type-C",
+          "param": "充电接口",
           "value": "Type-C",
           "unit": "",
-          "source_ref": "text"
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
         },
         {
-          "part": "充电接口",
-          "brand": "",
-          "model": "USB-A",
+          "param": "充电接口",
           "value": "USB-A",
           "unit": "",
-          "source_ref": "text"
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
         },
         {
-          "part": "标记/认证",
-          "brand": "",
-          "model": "",
+          "param": "标记/认证",
           "value": "产品名称：5G无线数据终端，产品型号：ML-MW-1，产品颜色：珍珠白，输入：5V-2A，制造商名称：威联机器人科技（深圳）有限公司，中国制造。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "产品名称：5G无线数据终端，产品型号：ML-MW-1，产品颜色：珍珠白，输入：5V-2A，制造商名称：威联机器人科技（深圳）有限公司，中国制造。"
+        },
+        {
+          "param": "标记/认证",
           "value": "我爱音频网使用\nCHARGERLAB POWER-Z KM003C\n对MOVA LINKCO 5G MiFi W1随身WiFi进行充电测试，输入功率约为4.05W。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "我爱音频网使用\nCHARGERLAB POWER-Z KM003C\n对MOVA LINKCO 5G MiFi W1随身WiFi进行充电测试，输入功率约为4.05W。"
+        },
+        {
+          "param": "标记/认证",
           "value": "5G模块特写，型号：MT5710-CN，来自成都鼎桥通信技术有限公司。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "5G模块特写，型号：MT5710-CN，来自成都鼎桥通信技术有限公司。"
+        },
+        {
+          "param": "标记/认证",
           "value": "随身WiFi内置电池标签上信息一览，产品名称：聚合物锂离子电池组，产品型号：964655P，额定容量：3300mAh，额定能量：12.54Wh，额定电压：3.8V，充电限制电压：4.35V，生产厂：深圳市佳源通达科技有限公司。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "随身WiFi内置电池标签上信息一览，产品名称：聚合物锂离子电池组，产品型号：964655P，额定容量：3300mAh，额定能量：12.54Wh，额定电压：3.8V，充电限制电压：4.35V，生产厂：深圳市佳源通达科技有限公司。"
+        },
+        {
+          "param": "标记/认证",
           "value": "撕开外部绝缘保护，电芯上丝印信息一览，型号：954653。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "电池",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "撕开外部绝缘保护，电芯上丝印信息一览，型号：954653。"
+        },
+        {
+          "param": "电池容量",
           "value": "3300",
           "unit": "mAh",
-          "source_ref": "text"
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "3300mAh"
         }
       ]
     },
@@ -155,7 +443,14 @@
       "app_name": "",
       "app_features": [],
       "ota_support": [],
-      "latency_notes": []
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "5.3",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙 5.3"
+      }
     }
-  }
+  },
+  "data_completeness": 0.492
 }

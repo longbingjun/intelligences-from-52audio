@@ -24,30 +24,67 @@
       "price_cny": null,
       "price_note": "",
       "selling_points": [
-        "续航方面，最高可提供70小时的连续播放，支持快充，充电5分钟听歌5小时。",
-        "1MORE SonoFlow SE支持QuietMax双馈智能降噪，能够消除35dB以上外界噪音，通过通透模式，佩戴耳机也能轻松与外界交流；还支持智能通话降噪功能，AI精准是别人声，消除环境噪音，提供清晰通话。"
+        {
+          "text": "1MORE SonoFlow SE支持QuietMax双馈智能降噪，能够消除35dB以上外界噪音，通过通透模式，佩戴耳机也能轻松与外界交流；还支持智能通话降噪功能，AI精准是别人声，消除环境噪音，提供清晰通话。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "1MORE SonoFlow SE支持QuietMax双馈智能降噪，能够消除35dB以上外界噪音，通过通透模式，佩戴耳机也能轻松与外界交流；还支持智能通话降噪功能，AI精准是别人声，消除环境噪音，提供清晰通话。",
+            "confidence": 0.73,
+            "source_type": "text",
+            "source_text": "1MORE SonoFlow SE支持QuietMax双馈智能降噪，能够消除35dB以上外界噪音，通过通透模式，佩戴耳机也能轻松与外界交流；还支持智能通话降噪功能，AI精准是别人声，消除环境噪音，提供清晰通话。"
+          }
+        },
+        {
+          "text": "续航方面，最高可提供70小时的连续播放，支持快充，充电5分钟听歌5小时。",
+          "tag": "长续航",
+          "evidence": {
+            "value": "续航方面，最高可提供70小时的连续播放，支持快充，充电5分钟听歌5小时。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "续航方面，最高可提供70小时的连续播放，支持快充，充电5分钟听歌5小时。"
+          }
+        }
       ],
       "scenarios": [
         "通话"
       ],
-      "positioning_summary": "续航方面，最高可提供70小时的连续播放，支持快充，充电5分钟听歌5小时。"
+      "positioning_summary": "1MORE SonoFlow SE支持QuietMax双馈智能降噪，能够消除35dB以上外界噪音，通过通透模式，佩戴耳机也能轻松与外界交流；还支持智能通话降噪功能，AI精准是别人声，消除环境噪音，提供清晰通话。",
+      "launch_date_evidence": null,
+      "price_evidence": null
     },
     "cost": {
       "major_parts": [],
       "chip_modules": [],
+      "bom_table": [],
+      "supply_hints": [],
       "packaging_notes": [],
       "process_hints": []
     },
     "structure": {
       "form_factor": "头戴式耳机",
+      "earbud_type": "头戴",
       "materials": [],
       "ip_rating": null,
       "weight_g": null,
       "dimensions": [],
+      "internal_structure": [],
+      "fastener_type": [],
+      "sealing_method": [],
       "wear_design": [
-        "1MORE SonoFlow SE支持QuietMax双馈智能降噪，能够消除35dB以上外界噪音，通过通透模式，佩戴耳机也能轻松与外界交流；还支持智能通话降噪功能，AI精准是别人声，消除环境噪音，提供清晰通话。"
+        {
+          "value": "1MORE SonoFlow SE支持QuietMax双馈智能降噪，能够消除35dB以上外界噪音，通过通透模式，佩戴耳机也能轻松与外界交流；还支持智能通话降噪功能，AI精准是别人声，消除环境噪音，提供清晰通话。",
+          "evidence": {
+            "value": "1MORE SonoFlow SE支持QuietMax双馈智能降噪，能够消除35dB以上外界噪音，通过通透模式，佩戴耳机也能轻松与外界交流；还支持智能通话降噪功能，AI精准是别人声，消除环境噪音，提供清晰通话。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "1MORE SonoFlow SE支持QuietMax双馈智能降噪，能够消除35dB以上外界噪音，通过通透模式，佩戴耳机也能轻松与外界交流；还支持智能通话降噪功能，AI精准是别人声，消除环境噪音，提供清晰通话。"
+          }
+        }
       ],
-      "assembly_notes": []
+      "key_image_urls": [],
+      "assembly_notes": [],
+      "ip_rating_evidence": null,
+      "weight_evidence": null
     },
     "hardware": {
       "specs": []
@@ -59,7 +96,9 @@
       "app_name": "",
       "app_features": [],
       "ota_support": [],
-      "latency_notes": []
+      "latency_notes": [],
+      "bluetooth_evidence": null
     }
-  }
+  },
+  "data_completeness": 0.118
 }

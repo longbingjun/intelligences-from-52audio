@@ -17,30 +17,75 @@
   "asr_status": "pending",
   "views": {
     "market": {
-      "brand": "",
-      "model": "",
-      "category": "",
+      "brand": "DPVR大朋",
+      "model": "Vision Ray",
+      "category": "AI眼镜及穿戴设备",
       "launch_date": null,
       "price_cny": null,
       "price_note": "",
-      "selling_points": [],
-      "scenarios": [],
-      "positioning_summary": ""
+      "selling_points": [
+        {
+          "text": "DPVR大朋Vision Ray AI眼镜外观上采用日常墨镜（可配近视镜片）的潮流外观设计，轻量化镜架搭配可替换软质鼻托，提供长时间舒适佩戴。",
+          "tag": "舒适佩戴",
+          "evidence": {
+            "value": "DPVR大朋Vision Ray AI眼镜外观上采用日常墨镜（可配近视镜片）的潮流外观设计，轻量化镜架搭配可替换软质鼻托，提供长时间舒适佩戴。",
+            "confidence": 0.75,
+            "source_type": "text",
+            "source_text": "DPVR大朋Vision Ray AI眼镜外观上采用日常墨镜（可配近视镜片）的潮流外观设计，轻量化镜架搭配可替换软质鼻托，提供长时间舒适佩戴。"
+          }
+        },
+        {
+          "text": "功能配置上，搭载1200万像素索尼IMX681传感器，支持4K规格照片、1080P/30fps视频录制，自带EIS电子防抖、HDR优化与画面畸变校正，轻松实现户外运动、日常 vlog的第一视角随手记录。",
+          "tag": "其他",
+          "evidence": {
+            "value": "功能配置上，搭载1200万像素索尼IMX681传感器，支持4K规格照片、1080P/30fps视频录制，自带EIS电子防抖、HDR优化与画面畸变校正，轻松实现户外运动、日常 vlog的第一视角随手记录。",
+            "confidence": 0.75,
+            "source_type": "text",
+            "source_text": "功能配置上，搭载1200万像素索尼IMX681传感器，支持4K规格照片、1080P/30fps视频录制，自带EIS电子防抖、HDR优化与画面畸变校正，轻松实现户外运动、日常 vlog的第一视角随手记录。"
+          }
+        }
+      ],
+      "scenarios": [
+        "运动",
+        "户外"
+      ],
+      "positioning_summary": "DPVR大朋Vision Ray AI眼镜外观上采用日常墨镜（可配近视镜片）的潮流外观设计，轻量化镜架搭配可替换软质鼻托，提供长时间舒适佩戴。",
+      "launch_date_evidence": null,
+      "price_evidence": null
     },
     "cost": {
       "major_parts": [],
       "chip_modules": [],
+      "bom_table": [],
+      "supply_hints": [],
       "packaging_notes": [],
       "process_hints": []
     },
     "structure": {
-      "form_factor": "",
+      "form_factor": "AI眼镜及穿戴设备",
+      "earbud_type": "其他",
       "materials": [],
       "ip_rating": null,
       "weight_g": null,
       "dimensions": [],
-      "wear_design": [],
-      "assembly_notes": []
+      "internal_structure": [],
+      "fastener_type": [],
+      "sealing_method": [],
+      "wear_design": [
+        {
+          "value": "DPVR大朋Vision Ray AI眼镜外观上采用日常墨镜（可配近视镜片）的潮流外观设计，轻量化镜架搭配可替换软质鼻托，提供长时间舒适佩戴。",
+          "evidence": {
+            "value": "DPVR大朋Vision Ray AI眼镜外观上采用日常墨镜（可配近视镜片）的潮流外观设计，轻量化镜架搭配可替换软质鼻托，提供长时间舒适佩戴。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "DPVR大朋Vision Ray AI眼镜外观上采用日常墨镜（可配近视镜片）的潮流外观设计，轻量化镜架搭配可替换软质鼻托，提供长时间舒适佩戴。"
+          }
+        }
+      ],
+      "key_image_urls": [],
+      "assembly_notes": [],
+      "ip_rating_evidence": null,
+      "weight_evidence": null
     },
     "hardware": {
       "specs": []
@@ -52,7 +97,9 @@
       "app_name": "",
       "app_features": [],
       "ota_support": [],
-      "latency_notes": []
+      "latency_notes": [],
+      "bluetooth_evidence": null
     }
-  }
+  },
+  "data_completeness": 0.118
 }

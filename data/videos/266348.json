@@ -25,7 +25,9 @@
       "price_note": "",
       "selling_points": [],
       "scenarios": [],
-      "positioning_summary": ""
+      "positioning_summary": "",
+      "launch_date_evidence": null,
+      "price_evidence": null
     },
     "cost": {
       "major_parts": [
@@ -33,30 +35,78 @@
         "麦克风"
       ],
       "chip_modules": [],
+      "bom_table": [
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "Mobvoi出门问问TicNote AI录音卡搭载了两个全向数字硅麦+1个骨传导麦克风，支持听筒/扬声器两种录音模式；内置470mAh大容量电池，可提供长达20+小时的录音；支持蓝牙、WiFi两种传输模式，录音数据可实时同步到云端；还内置了64GB eMMC存储器，实现录音的本地安全存储。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "Mobvoi出门问问TicNote AI录音卡搭载了两个全向数字硅麦+1个骨传导麦克风，支持听筒/扬声器两种录音模式；内置470mAh大容量电池，可提供长达20+小时的录音；支持蓝牙、WiFi两种传输模式，录音数据可实时同步到云端；还内置了64GB eMMC存储器，实现录音的本地安全存储。"
+          }
+        }
+      ],
+      "supply_hints": [],
       "packaging_notes": [],
       "process_hints": []
     },
     "structure": {
       "form_factor": "音箱及其他音频设备",
+      "earbud_type": "其他",
       "materials": [],
       "ip_rating": null,
       "weight_g": null,
       "dimensions": [],
+      "internal_structure": [
+        {
+          "value": "Mobvoi出门问问TicNote AI录音卡搭载了两个全向数字硅麦+1个骨传导麦克风，支持听筒/扬声器两种录音模式；内置470mAh大容量电池，可提供长达20+小时的录音；支持蓝牙、WiFi两种传输模式，录音数据可实时同步到云端；还内置了64GB eMMC存储器，实现录音的本地安全存储。",
+          "evidence": {
+            "value": "Mobvoi出门问问TicNote AI录音卡搭载了两个全向数字硅麦+1个骨传导麦克风，支持听筒/扬声器两种录音模式；内置470mAh大容量电池，可提供长达20+小时的录音；支持蓝牙、WiFi两种传输模式，录音数据可实时同步到云端；还内置了64GB eMMC存储器，实现录音的本地安全存储。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "Mobvoi出门问问TicNote AI录音卡搭载了两个全向数字硅麦+1个骨传导麦克风，支持听筒/扬声器两种录音模式；内置470mAh大容量电池，可提供长达20+小时的录音；支持蓝牙、WiFi两种传输模式，录音数据可实时同步到云端；还内置了64GB eMMC存储器，实现录音的本地安全存储。"
+          }
+        }
+      ],
+      "fastener_type": [],
+      "sealing_method": [],
       "wear_design": [],
+      "key_image_urls": [],
       "assembly_notes": [
-        "Mobvoi出门问问TicNote AI录音卡搭载了两个全向数字硅麦+1个骨传导麦克风，支持听筒/扬声器两种录音模式；内置470mAh大容量电池，可提供长达20+小时的录音；支持蓝牙、WiFi两种传输模式，录音数据可实时同步到云端；还内置了64GB eMMC存储器，实现录音的本地安全存储。",
         "Mobvoi出门问问TicNote AI录音卡搭载了两个全向数字硅麦+1个骨传导麦克风，支持听筒/扬声器两种录音模式；内置470mAh大容量电池，可提供长达20+小时的录音；支持蓝牙、WiFi两种传输模式，录音数据可实时同步到云端；还内置了64GB eMMC存储器，实现录音的本地安全存储。"
-      ]
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": null
     },
     "hardware": {
       "specs": [
         {
-          "part": "电池",
-          "brand": "",
-          "model": "",
+          "param": "电池容量",
           "value": "470",
           "unit": "mAh",
-          "source_ref": "text"
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "470mAh"
         }
       ]
     },
@@ -67,7 +117,9 @@
       "app_name": "",
       "app_features": [],
       "ota_support": [],
-      "latency_notes": []
+      "latency_notes": [],
+      "bluetooth_evidence": null
     }
-  }
+  },
+  "data_completeness": 0.112
 }

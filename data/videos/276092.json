@@ -23,67 +23,148 @@
       "launch_date": null,
       "price_cny": null,
       "price_note": "",
-      "selling_points": [
-        "REAL YOUNG H700真无线JWS智美耳机搭载圈铁双单元，搭配电子分频专利技术，提供低音澎湃、高音清澈、层次分明的音乐体验，通过Hi-Res Wireless AUDIO和QQ音乐臻品音质双认证；搭载高通QCC3091旗舰芯片，支持aptX Adaptive高清自适应解码，提供稳定、低延迟的无线连接；支持cVc8.0降噪技术，精准识别风噪和环境噪音，带来清晰通话效果。"
-      ],
+      "selling_points": [],
       "scenarios": [
         "通话"
       ],
-      "positioning_summary": "REAL YOUNG H700真无线JWS智美耳机搭载圈铁双单元，搭配电子分频专利技术，提供低音澎湃、高音清澈、层次分明的音乐体验，通过Hi-Res Wireless AUDIO和QQ音乐臻品音质双认证；搭载高通QCC3091旗舰芯片，支持aptX Adaptive高清自适应解码，提供稳定、低延迟的无线连接；支持cVc8.0降噪技术，精准识别风噪和环境噪音，带来清晰通话效果。"
+      "positioning_summary": "",
+      "launch_date_evidence": null,
+      "price_evidence": null
     },
     "cost": {
       "major_parts": [],
       "chip_modules": [
         {
-          "part": "芯片/模组",
-          "brand": "",
+          "component": "芯片/模组",
+          "brand": "Qualcomm",
           "model": "高通QCC3091",
-          "qty_hint": ""
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通QCC3091",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "高通QCC3091"
+          }
         },
         {
-          "part": "芯片/模组",
+          "component": "芯片/模组",
           "brand": "",
           "model": "QCC3091",
-          "qty_hint": ""
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "QCC3091",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "QCC3091"
+          }
         }
       ],
+      "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "高通QCC3091",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通QCC3091",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "REAL YOUNG H700真无线JWS智美耳机搭载圈铁双单元，搭配电子分频专利技术，提供低音澎湃、高音清澈、层次分明的音乐体验，通过Hi-Res Wireless AUDIO和QQ音乐臻品音质双认证；搭载高通QCC3091旗舰芯片，支持aptX Adaptive高清自适应解码，提供稳定、低延迟的无线连接；支持cVc8.0降噪技术，精准识别风噪和环境噪音，带来清晰通话效果。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "QCC3091",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "QCC3091",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "REAL YOUNG H700真无线JWS智美耳机搭载圈铁双单元，搭配电子分频专利技术，提供低音澎湃、高音清澈、层次分明的音乐体验，通过Hi-Res Wireless AUDIO和QQ音乐臻品音质双认证；搭载高通QCC3091旗舰芯片，支持aptX Adaptive高清自适应解码，提供稳定、低延迟的无线连接；支持cVc8.0降噪技术，精准识别风噪和环境噪音，带来清晰通话效果。"
+          }
+        }
+      ],
+      "supply_hints": [],
       "packaging_notes": [],
       "process_hints": []
     },
     "structure": {
       "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
       "materials": [],
       "ip_rating": null,
       "weight_g": null,
       "dimensions": [],
+      "internal_structure": [],
+      "fastener_type": [],
+      "sealing_method": [],
       "wear_design": [],
-      "assembly_notes": []
+      "key_image_urls": [],
+      "assembly_notes": [],
+      "ip_rating_evidence": null,
+      "weight_evidence": null
     },
     "hardware": {
       "specs": [
         {
-          "part": "标记/认证",
-          "brand": "",
-          "model": "",
+          "param": "标记/认证",
           "value": "REAL YOUNG H700真无线JWS智美耳机搭载圈铁双单元，搭配电子分频专利技术，提供低音澎湃、高音清澈、层次分明的音乐体验，通过Hi-Res Wireless AUDIO和QQ音乐臻品音质双认证；搭载高通QCC3091旗舰芯片，支持aptX Adaptive高清自适应解码，提供稳定、低延迟的无线连接；支持cVc8.0降噪技术，精准识别风噪和环境噪音，带来清晰通话效果。",
           "unit": "",
-          "source_ref": "text"
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "REAL YOUNG H700真无线JWS智美耳机搭载圈铁双单元，搭配电子分频专利技术，提供低音澎湃、高音清澈、层次分明的音乐体验，通过Hi-Res Wireless AUDIO和QQ音乐臻品音质双认证；搭载高通QCC3091旗舰芯片，支持"
         }
       ]
     },
     "software": {
       "bluetooth_version": null,
       "codecs": [
-        "aptX",
-        "Hi-Res"
+        {
+          "value": "aptX",
+          "evidence": {
+            "value": "aptX",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "REAL YOUNG H700真无线JWS智美耳机搭载圈铁双单元，搭配电子分频专利技术，提供低音澎湃、高音清澈、层次分明的音乐体验，通过Hi-Res Wireless AUDIO和QQ音乐臻品音质双认证；搭载高通QCC3091旗舰芯片，支持aptX Adaptive高清自适应解码，提供稳定、低延迟的无线连接；支持cVc8.0降噪技术，精准识别风噪和环境噪音，带来清晰通话效果。"
+          }
+        },
+        {
+          "value": "Hi-Res",
+          "evidence": {
+            "value": "Hi-Res",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "REAL YOUNG H700真无线JWS智美耳机搭载圈铁双单元，搭配电子分频专利技术，提供低音澎湃、高音清澈、层次分明的音乐体验，通过Hi-Res Wireless AUDIO和QQ音乐臻品音质双认证；搭载高通QCC3091旗舰芯片，支持aptX Adaptive高清自适应解码，提供稳定、低延迟的无线连接；支持cVc8.0降噪技术，精准识别风噪和环境噪音，带来清晰通话效果。"
+          }
+        }
       ],
       "multipoint": [],
       "app_name": "",
       "app_features": [],
       "ota_support": [],
       "latency_notes": [
-        "REAL YOUNG H700真无线JWS智美耳机搭载圈铁双单元，搭配电子分频专利技术，提供低音澎湃、高音清澈、层次分明的音乐体验，通过Hi-Res Wireless AUDIO和QQ音乐臻品音质双认证；搭载高通QCC3091旗舰芯片，支持aptX Adaptive高清自适应解码，提供稳定、低延迟的无线连接；支持cVc8.0降噪技术，精准识别风噪和环境噪音，带来清晰通话效果。"
-      ]
+        {
+          "value": "REAL YOUNG H700真无线JWS智美耳机搭载圈铁双单元，搭配电子分频专利技术，提供低音澎湃、高音清澈、层次分明的音乐体验，通过Hi-Res Wireless AUDIO和QQ音乐臻品音质双认证；搭载高通QCC3091旗舰芯片，支持aptX Adaptive高清自适应解码，提供稳定、低延迟的无线连接；支持cVc8.0降噪技术，精准识别风噪和环境噪音，带来清晰通话效果。",
+          "evidence": {
+            "value": "REAL YOUNG H700真无线JWS智美耳机搭载圈铁双单元，搭配电子分频专利技术，提供低音澎湃、高音清澈、层次分明的音乐体验，通过Hi-Res Wireless AUDIO和QQ音乐臻品音质双认证；搭载高通QCC3091旗舰芯片，支持aptX Adaptive高清自适应解码，提供稳定、低延迟的无线连接；支持cVc8.0降噪技术，精准识别风噪和环境噪音，带来清晰通话效果。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "REAL YOUNG H700真无线JWS智美耳机搭载圈铁双单元，搭配电子分频专利技术，提供低音澎湃、高音清澈、层次分明的音乐体验，通过Hi-Res Wireless AUDIO和QQ音乐臻品音质双认证；搭载高通QCC3091旗舰芯片，支持aptX Adaptive高清自适应解码，提供稳定、低延迟的无线连接；支持cVc8.0降噪技术，精准识别风噪和环境噪音，带来清晰通话效果。"
+          }
+        }
+      ],
+      "bluetooth_evidence": null
     }
-  }
+  },
+  "data_completeness": 0.21
 }

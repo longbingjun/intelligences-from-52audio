@@ -124,3 +124,18 @@ def merge_price_into_record(record: dict) -> dict:
     views["market"] = market
     out["views"] = views
     return out
+
+
+def refresh_views_fields(record: dict, views_dict: dict, data_completeness: float) -> dict:
+    """结构化字段刷新例外：仅更新 views 与 data_completeness，保留 id/url/captured_at 等。"""
+    out = dict(record)
+    out["views"] = views_dict
+    out["data_completeness"] = data_completeness
+    return out
+
+
+def save_record_in_place(kind: Literal["report", "video"], record: dict) -> None:
+    """覆盖写入已有记录（仅用于 views 刷新脚本，非日常 ingest）。"""
+    path = _path_for(kind, record["id"])
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(json.dumps(record, ensure_ascii=False, indent=2), encoding="utf-8")

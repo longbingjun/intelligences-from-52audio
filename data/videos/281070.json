@@ -17,33 +17,54 @@
   "asr_status": "pending",
   "views": {
     "market": {
-      "brand": "",
-      "model": "",
-      "category": "",
+      "brand": "JBL",
+      "model": "SPARK音乐火花",
+      "category": "音箱及其他音频设备",
       "launch_date": null,
       "price_cny": null,
       "price_note": "",
       "selling_points": [],
       "scenarios": [],
-      "positioning_summary": ""
+      "positioning_summary": "",
+      "launch_date_evidence": null,
+      "price_evidence": null
     },
     "cost": {
       "major_parts": [],
       "chip_modules": [],
+      "bom_table": [],
+      "supply_hints": [],
       "packaging_notes": [],
       "process_hints": []
     },
     "structure": {
-      "form_factor": "",
+      "form_factor": "音箱及其他音频设备",
+      "earbud_type": "其他",
       "materials": [],
       "ip_rating": null,
       "weight_g": null,
       "dimensions": [],
+      "internal_structure": [],
+      "fastener_type": [],
+      "sealing_method": [],
       "wear_design": [],
-      "assembly_notes": []
+      "key_image_urls": [],
+      "assembly_notes": [],
+      "ip_rating_evidence": null,
+      "weight_evidence": null
     },
     "hardware": {
-      "specs": []
+      "specs": [
+        {
+          "param": "标记/认证",
+          "value": "JBL SPARK音乐火花装饰音箱继承了JBL标志性声学调校，搭载立体声双扬声器，输出功率2×7W，频响范围76Hz–20kHz，提供出色的音乐体验；支持蓝牙无线连接，使用更方便便捷。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "JBL SPARK音乐火花装饰音箱继承了JBL标志性声学调校，搭载立体声双扬声器，输出功率2×7W，频响范围76Hz–20kHz，提供出色的音乐体验；支持蓝牙无线连接，使用更方便便捷。"
+        }
+      ]
     },
     "software": {
       "bluetooth_version": null,
@@ -52,7 +73,9 @@
       "app_name": "",
       "app_features": [],
       "ota_support": [],
-      "latency_notes": []
+      "latency_notes": [],
+      "bluetooth_evidence": null
     }
-  }
+  },
+  "data_completeness": 0.09
 }

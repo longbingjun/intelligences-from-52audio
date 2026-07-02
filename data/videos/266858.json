@@ -24,28 +24,48 @@
       "price_cny": null,
       "price_note": "",
       "selling_points": [
-        "OPPO Watch SE智能手表搭载了骁龙Wear4100和Apollo 4s双旗舰芯片，通过UDDE双擎混动技术2.0实现双核无感切换，兼顾性能和续航体验。"
+        {
+          "text": "OPPO Watch SE智能手表搭载了骁龙Wear4100和Apollo 4s双旗舰芯片，通过UDDE双擎混动技术2.0实现双核无感切换，兼顾性能和续航体验。",
+          "tag": "旗舰定位",
+          "evidence": {
+            "value": "OPPO Watch SE智能手表搭载了骁龙Wear4100和Apollo 4s双旗舰芯片，通过UDDE双擎混动技术2.0实现双核无感切换，兼顾性能和续航体验。",
+            "confidence": 0.75,
+            "source_type": "text",
+            "source_text": "OPPO Watch SE智能手表搭载了骁龙Wear4100和Apollo 4s双旗舰芯片，通过UDDE双擎混动技术2.0实现双核无感切换，兼顾性能和续航体验。"
+          }
+        }
       ],
       "scenarios": [
         "运动",
         "睡眠"
       ],
-      "positioning_summary": "OPPO Watch SE智能手表搭载了骁龙Wear4100和Apollo 4s双旗舰芯片，通过UDDE双擎混动技术2.0实现双核无感切换，兼顾性能和续航体验。"
+      "positioning_summary": "OPPO Watch SE智能手表搭载了骁龙Wear4100和Apollo 4s双旗舰芯片，通过UDDE双擎混动技术2.0实现双核无感切换，兼顾性能和续航体验。",
+      "launch_date_evidence": null,
+      "price_evidence": null
     },
     "cost": {
       "major_parts": [],
       "chip_modules": [],
+      "bom_table": [],
+      "supply_hints": [],
       "packaging_notes": [],
       "process_hints": []
     },
     "structure": {
       "form_factor": "智能手表",
+      "earbud_type": "其他",
       "materials": [],
       "ip_rating": null,
       "weight_g": null,
       "dimensions": [],
+      "internal_structure": [],
+      "fastener_type": [],
+      "sealing_method": [],
       "wear_design": [],
-      "assembly_notes": []
+      "key_image_urls": [],
+      "assembly_notes": [],
+      "ip_rating_evidence": null,
+      "weight_evidence": null
     },
     "hardware": {
       "specs": []
@@ -56,10 +76,20 @@
       "multipoint": [],
       "app_name": "",
       "app_features": [
-        "支持全天候心率监测、提醒，连续血氧监测，全场景睡眠监测，拥有100+种运动模式；支持移动支付、多功能NFC、小布语音助手等便捷功能；还支持App下载，80+款应用覆盖生活的方方面面。"
+        {
+          "value": "支持全天候心率监测、提醒，连续血氧监测，全场景睡眠监测，拥有100+种运动模式；支持移动支付、多功能NFC、小布语音助手等便捷功能；还支持App下载，80+款应用覆盖生活的方方面面。",
+          "evidence": {
+            "value": "支持全天候心率监测、提醒，连续血氧监测，全场景睡眠监测，拥有100+种运动模式；支持移动支付、多功能NFC、小布语音助手等便捷功能；还支持App下载，80+款应用覆盖生活的方方面面。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "支持全天候心率监测、提醒，连续血氧监测，全场景睡眠监测，拥有100+种运动模式；支持移动支付、多功能NFC、小布语音助手等便捷功能；还支持App下载，80+款应用覆盖生活的方方面面。"
+          }
+        }
       ],
       "ota_support": [],
-      "latency_notes": []
+      "latency_notes": [],
+      "bluetooth_evidence": null
     }
-  }
+  },
+  "data_completeness": 0.084
 }

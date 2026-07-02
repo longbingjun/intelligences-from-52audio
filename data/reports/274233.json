@@ -20,13 +20,24 @@
       "price_cny": null,
       "price_note": "",
       "selling_points": [
-        "作为1889年创立的全球顶级游戏巨头，Nintendo任天堂打造了Switch、马力欧、塞尔达传说等经典软硬件产品，凭借充满创意的玩法风靡全球。"
+        {
+          "text": "作为1889年创立的全球顶级游戏巨头，Nintendo任天堂打造了Switch、马力欧、塞尔达传说等经典软硬件产品，凭借充满创意的玩法风靡全球。",
+          "tag": "旗舰定位",
+          "evidence": {
+            "value": "作为1889年创立的全球顶级游戏巨头，Nintendo任天堂打造了Switch、马力欧、塞尔达传说等经典软硬件产品，凭借充满创意的玩法风靡全球。",
+            "confidence": 0.75,
+            "source_type": "text",
+            "source_text": "作为1889年创立的全球顶级游戏巨头，Nintendo任天堂打造了Switch、马力欧、塞尔达传说等经典软硬件产品，凭借充满创意的玩法风靡全球。"
+          }
+        }
       ],
       "scenarios": [
         "游戏",
         "睡眠"
       ],
-      "positioning_summary": "作为1889年创立的全球顶级游戏巨头，Nintendo任天堂打造了Switch、马力欧、塞尔达传说等经典软硬件产品，凭借充满创意的玩法风靡全球。"
+      "positioning_summary": "作为1889年创立的全球顶级游戏巨头，Nintendo任天堂打造了Switch、马力欧、塞尔达传说等经典软硬件产品，凭借充满创意的玩法风靡全球。",
+      "launch_date_evidence": null,
+      "price_evidence": null
     },
     "cost": {
       "major_parts": [
@@ -34,11 +45,57 @@
         "主板/PCBA"
       ],
       "chip_modules": [],
+      "bom_table": [
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒背面介绍了产品安装电池、设定时间、设定闹钟和睡眠时间的方法，以及支持的语言：英文、法文、西班牙文、德文、意大利文、荷兰文、葡萄牙文、日文、中文、韩文。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "腔体内部结构一览，通过螺丝固定主板单元。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "闲聊花花的“花盆”顶部设置有一颗功能按键，单击会随心闲聊，长按两秒以上可切换静音模式和BGM模式。"
+          }
+        }
+      ],
+      "supply_hints": [],
       "packaging_notes": [],
       "process_hints": []
     },
     "structure": {
       "form_factor": "其他音频设备",
+      "earbud_type": "其他",
       "materials": [
         "PC"
       ],
@@ -48,31 +105,199 @@
         "经我爱音频网实测，扬声器长直径约为20mm。",
         "扬声器短直径约为14mm。"
       ],
+      "internal_structure": [
+        {
+          "value": "打开底座，内部设置有功能按键、显示屏和电池仓。",
+          "evidence": {
+            "value": "打开底座，内部设置有功能按键、显示屏和电池仓。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "打开底座，内部设置有功能按键、显示屏和电池仓。"
+          }
+        },
+        {
+          "value": "腔体内部结构一览，通过螺丝固定主板单元。",
+          "evidence": {
+            "value": "腔体内部结构一览，通过螺丝固定主板单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "腔体内部结构一览，通过螺丝固定主板单元。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，取出主板。",
+          "evidence": {
+            "value": "卸掉螺丝，取出主板。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取出主板。"
+          }
+        },
+        {
+          "value": "闲聊花花的“花盆”顶部设置有一颗功能按键，单击会随心闲聊，长按两秒以上可切换静音模式和BGM模式。",
+          "evidence": {
+            "value": "闲聊花花的“花盆”顶部设置有一颗功能按键，单击会随心闲聊，长按两秒以上可切换静音模式和BGM模式。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "闲聊花花的“花盆”顶部设置有一颗功能按键，单击会随心闲聊，长按两秒以上可切换静音模式和BGM模式。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，打开电池仓，内部采用2节AA干电池（即五号电池）供电。",
+          "evidence": {
+            "value": "卸掉螺丝，打开电池仓，内部采用2节AA干电池（即五号电池）供电。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，打开电池仓，内部采用2节AA干电池（即五号电池）供电。"
+          }
+        },
+        {
+          "value": "二、\nNintendo任天堂Switch闲聊花花拆解\n通过开箱，我们详细了解了Nintendo任天堂Switch闲聊花花的经典可爱外观设计，下面进入拆解部分，看看内部结构配置信息~\n卸掉底部螺丝，打开腔体。",
+          "evidence": {
+            "value": "二、\nNintendo任天堂Switch闲聊花花拆解\n通过开箱，我们详细了解了Nintendo任天堂Switch闲聊花花的经典可爱外观设计，下面进入拆解部分，看看内部结构配置信息~\n卸掉底部螺丝，打开腔体。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "二、\nNintendo任天堂Switch闲聊花花拆解\n通过开箱，我们详细了解了Nintendo任天堂Switch闲聊花花的经典可爱外观设计，下面进入拆解部分，看看内部结构配置信息~\n卸掉底部螺丝，打开腔体。"
+          }
+        },
+        {
+          "value": "顶部盖板内侧结构一览，设置有扬声器和连接电池的电源输入小板。",
+          "evidence": {
+            "value": "顶部盖板内侧结构一览，设置有扬声器和连接电池的电源输入小板。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "顶部盖板内侧结构一览，设置有扬声器和连接电池的电源输入小板。"
+          }
+        },
+        {
+          "value": "腔体底部结构一览，设置有液晶屏，通过导电胶条（斑马条）连接主板；两侧设置功能按键的导电胶。",
+          "evidence": {
+            "value": "腔体底部结构一览，设置有液晶屏，通过导电胶条（斑马条）连接主板；两侧设置功能按键的导电胶。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "腔体底部结构一览，设置有液晶屏，通过导电胶条（斑马条）连接主板；两侧设置功能按键的导电胶。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "卸掉螺丝，打开电池仓，内部采用2节AA干电池（即五号电池）供电。",
+          "evidence": {
+            "value": "卸掉螺丝，打开电池仓，内部采用2节AA干电池（即五号电池）供电。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，打开电池仓，内部采用2节AA干电池（即五号电池）供电。"
+          }
+        },
+        {
+          "value": "二、\nNintendo任天堂Switch闲聊花花拆解\n通过开箱，我们详细了解了Nintendo任天堂Switch闲聊花花的经典可爱外观设计，下面进入拆解部分，看看内部结构配置信息~\n卸掉底部螺丝，打开腔体。",
+          "evidence": {
+            "value": "二、\nNintendo任天堂Switch闲聊花花拆解\n通过开箱，我们详细了解了Nintendo任天堂Switch闲聊花花的经典可爱外观设计，下面进入拆解部分，看看内部结构配置信息~\n卸掉底部螺丝，打开腔体。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "二、\nNintendo任天堂Switch闲聊花花拆解\n通过开箱，我们详细了解了Nintendo任天堂Switch闲聊花花的经典可爱外观设计，下面进入拆解部分，看看内部结构配置信息~\n卸掉底部螺丝，打开腔体。"
+          }
+        },
+        {
+          "value": "腔体内部结构一览，通过螺丝固定主板单元。",
+          "evidence": {
+            "value": "腔体内部结构一览，通过螺丝固定主板单元。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "腔体内部结构一览，通过螺丝固定主板单元。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，取出主板。",
+          "evidence": {
+            "value": "卸掉螺丝，取出主板。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取出主板。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，取掉扬声器和电源输入小板。",
+          "evidence": {
+            "value": "卸掉螺丝，取掉扬声器和电源输入小板。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取掉扬声器和电源输入小板。"
+          }
+        }
+      ],
+      "sealing_method": [],
       "wear_design": [],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026042702092066.jpg",
+          "alt": "拆解报告：Nintendo任天堂Switch闲聊花花-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026042702091840.jpg",
+          "alt": "拆解报告：Nintendo任天堂Switch闲聊花花-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026042702092363.jpg",
+          "alt": "拆解报告：Nintendo任天堂Switch闲聊花花-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026042702092272.jpg",
+          "alt": "拆解报告：Nintendo任天堂Switch闲聊花花-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026042702091544.jpg",
+          "alt": "拆解报告：Nintendo任天堂Switch闲聊花花-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
       "assembly_notes": [
-        "包装盒背面介绍了产品安装电池、设定时间、设定闹钟和睡眠时间的方法，以及支持的语言：英文、法文、西班牙文、德文、意大利文、荷兰文、葡萄牙文、日文、中文、韩文。",
+        "打开底座，内部设置有功能按键、显示屏和电池仓。",
         "腔体内部结构一览，通过螺丝固定主板单元。",
-        "闲聊花花的“花盆”顶部设置有一颗功能按键，单击会随心闲聊，长按两秒以上可切换静音模式和BGM模式。",
-        "Nintendo任天堂Switch闲聊花花包装盒采用了趣味设计，正面展示有闲聊花花的外观和话痨属性，产品名称，以及马力欧与闲聊花花的互动形象。"
-      ]
+        "卸掉螺丝，取出主板。",
+        "闲聊花花的“花盆”顶部设置有一颗功能按键，单击会随心闲聊，长按两秒以上可切换静音模式和BGM模式。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": {
+        "value": "210.6g",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "210.6g"
+      }
     },
     "hardware": {
       "specs": [
         {
-          "part": "标记/认证",
-          "brand": "",
-          "model": "",
+          "param": "标记/认证",
           "value": "ST意法半导体STM32L053C8U6微控制器，集成低功耗Arm Cortex-M0+内核，具有64-KB Flash存储器、32MHz CPU、USB和LCD。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "ST意法半导体STM32L053C8U6微控制器，集成低功耗Arm Cortex-M0+内核，具有64-KB Flash存储器、32MHz CPU、USB和LCD。"
+        },
+        {
+          "param": "标记/认证",
           "value": "内部主要配置方面，闲聊花花采用两节AA电池供电，搭载了液晶显示屏用于反馈功能设置，搭载跑道型动圈喇叭提供“随心所欲”的语音互动；采用了ST意法半导体STM32L053C8U6微控制器，用于整机控制；采用两颗Winbond华邦W25Q128JV串行NOR闪存，用于存储系统和数据。",
           "unit": "",
-          "source_ref": "text"
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "内部主要配置方面，闲聊花花采用两节AA电池供电，搭载了液晶显示屏用于反馈功能设置，搭载跑道型动圈喇叭提供“随心所欲”的语音互动；采用了ST意法半导体STM32L053C8U6微控制器，用于整机控制；采用两颗Winbond华邦W25Q128J"
         }
       ]
     },
@@ -83,7 +308,9 @@
       "app_name": "",
       "app_features": [],
       "ota_support": [],
-      "latency_notes": []
+      "latency_notes": [],
+      "bluetooth_evidence": null
     }
-  }
+  },
+  "data_completeness": 0.302
 }

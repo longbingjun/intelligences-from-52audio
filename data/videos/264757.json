@@ -25,26 +25,62 @@
       "price_note": "",
       "selling_points": [],
       "scenarios": [],
-      "positioning_summary": ""
+      "positioning_summary": "",
+      "launch_date_evidence": null,
+      "price_evidence": null
     },
     "cost": {
       "major_parts": [],
       "chip_modules": [],
+      "bom_table": [
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "雷柏E9300G AI键盘采用了轻薄设计，厚度仅3.9mm，差旅使用非常便携。在功能上，设置有AI按键，搭配刀锋AI软件，一步进入DeepSeek搜索，无需注册，即可访问；支持蓝牙5.0、蓝牙4.0、无线2.4G多种连接方式，支持同时记住4台设备一键切换，使用更加便捷；支持Windows和mac OS双系统，满足不同设备需求。"
+          }
+        }
+      ],
+      "supply_hints": [],
       "packaging_notes": [],
       "process_hints": []
     },
     "structure": {
       "form_factor": "其他音频设备",
+      "earbud_type": "其他",
       "materials": [],
       "ip_rating": null,
       "weight_g": null,
       "dimensions": [
         "雷柏E9300G AI键盘采用了轻薄设计，厚度仅3.9mm，差旅使用非常便携。"
       ],
+      "internal_structure": [
+        {
+          "value": "雷柏E9300G AI键盘采用了轻薄设计，厚度仅3.9mm，差旅使用非常便携。在功能上，设置有AI按键，搭配刀锋AI软件，一步进入DeepSeek搜索，无需注册，即可访问；支持蓝牙5.0、蓝牙4.0、无线2.4G多种连接方式，支持同时记住4台设备一键切换，使用更加便捷；支持Windows和mac OS双系统，满足不同设备需求。",
+          "evidence": {
+            "value": "雷柏E9300G AI键盘采用了轻薄设计，厚度仅3.9mm，差旅使用非常便携。在功能上，设置有AI按键，搭配刀锋AI软件，一步进入DeepSeek搜索，无需注册，即可访问；支持蓝牙5.0、蓝牙4.0、无线2.4G多种连接方式，支持同时记住4台设备一键切换，使用更加便捷；支持Windows和mac OS双系统，满足不同设备需求。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "雷柏E9300G AI键盘采用了轻薄设计，厚度仅3.9mm，差旅使用非常便携。在功能上，设置有AI按键，搭配刀锋AI软件，一步进入DeepSeek搜索，无需注册，即可访问；支持蓝牙5.0、蓝牙4.0、无线2.4G多种连接方式，支持同时记住4台设备一键切换，使用更加便捷；支持Windows和mac OS双系统，满足不同设备需求。"
+          }
+        }
+      ],
+      "fastener_type": [],
+      "sealing_method": [],
       "wear_design": [],
+      "key_image_urls": [],
       "assembly_notes": [
         "雷柏E9300G AI键盘采用了轻薄设计，厚度仅3.9mm，差旅使用非常便携。在功能上，设置有AI按键，搭配刀锋AI软件，一步进入DeepSeek搜索，无需注册，即可访问；支持蓝牙5.0、蓝牙4.0、无线2.4G多种连接方式，支持同时记住4台设备一键切换，使用更加便捷；支持Windows和mac OS双系统，满足不同设备需求。"
-      ]
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": null
     },
     "hardware": {
       "specs": []
@@ -56,7 +92,14 @@
       "app_name": "",
       "app_features": [],
       "ota_support": [],
-      "latency_notes": []
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "5.0",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.0"
+      }
     }
-  }
+  },
+  "data_completeness": 0.09
 }

@@ -23,30 +23,59 @@
       "launch_date": null,
       "price_cny": null,
       "price_note": "",
-      "selling_points": [
-        "功能配置方面，该产品搭载双磁路动圈喇叭，支持蓝牙6.0，支持定向传音+反向声波抵消技术，提供出色音频体验；支持AI通话降噪，保障清晰通话效果；还支持智慧双连和独立开关机，可提供单次约6小时，综合约40小时的续航时间。"
-      ],
+      "selling_points": [],
       "scenarios": [
         "通话"
       ],
-      "positioning_summary": "功能配置方面，该产品搭载双磁路动圈喇叭，支持蓝牙6.0，支持定向传音+反向声波抵消技术，提供出色音频体验；支持AI通话降噪，保障清晰通话效果；还支持智慧双连和独立开关机，可提供单次约6小时，综合约40小时的续航时间。"
+      "positioning_summary": "",
+      "launch_date_evidence": null,
+      "price_evidence": null
     },
     "cost": {
       "major_parts": [],
       "chip_modules": [],
+      "bom_table": [],
+      "supply_hints": [],
       "packaging_notes": [],
       "process_hints": []
     },
     "structure": {
       "form_factor": "开放式耳机",
+      "earbud_type": "开放",
       "materials": [],
       "ip_rating": null,
       "weight_g": null,
       "dimensions": [],
+      "internal_structure": [
+        {
+          "value": "LINKLIKE莅莱RingStar Air开放式耳机，即是一款采用了耳夹式设计的产品，同时通过双错位腔体设计，提供了舒适无感的佩戴。",
+          "evidence": {
+            "value": "LINKLIKE莅莱RingStar Air开放式耳机，即是一款采用了耳夹式设计的产品，同时通过双错位腔体设计，提供了舒适无感的佩戴。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "LINKLIKE莅莱RingStar Air开放式耳机，即是一款采用了耳夹式设计的产品，同时通过双错位腔体设计，提供了舒适无感的佩戴。"
+          }
+        }
+      ],
+      "fastener_type": [],
+      "sealing_method": [],
       "wear_design": [
+        {
+          "value": "LINKLIKE莅莱RingStar Air开放式耳机，即是一款采用了耳夹式设计的产品，同时通过双错位腔体设计，提供了舒适无感的佩戴。",
+          "evidence": {
+            "value": "LINKLIKE莅莱RingStar Air开放式耳机，即是一款采用了耳夹式设计的产品，同时通过双错位腔体设计，提供了舒适无感的佩戴。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "LINKLIKE莅莱RingStar Air开放式耳机，即是一款采用了耳夹式设计的产品，同时通过双错位腔体设计，提供了舒适无感的佩戴。"
+          }
+        }
+      ],
+      "key_image_urls": [],
+      "assembly_notes": [
         "LINKLIKE莅莱RingStar Air开放式耳机，即是一款采用了耳夹式设计的产品，同时通过双错位腔体设计，提供了舒适无感的佩戴。"
       ],
-      "assembly_notes": []
+      "ip_rating_evidence": null,
+      "weight_evidence": null
     },
     "hardware": {
       "specs": []
@@ -58,7 +87,14 @@
       "app_name": "",
       "app_features": [],
       "ota_support": [],
-      "latency_notes": []
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "6.0",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙6.0"
+      }
     }
-  }
+  },
+  "data_completeness": 0.152
 }

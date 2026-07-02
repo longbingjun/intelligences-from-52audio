@@ -20,15 +20,45 @@
       "price_cny": null,
       "price_note": "",
       "selling_points": [
-        "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
-        "在功能配置上，OKSJ欧克士HM-11开放式耳机搭载12mm动圈单元，支持动态低频补偿，呈现更细腻生动的饱满音效；采用防漏音结构设计，有效降低漏音，保护隐私；搭载Ai通话降噪算法，精准拾音并分离人声和环境音，确保清晰通话效果。",
-        "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
-        "包装盒侧边展示有高清通话、Hi-RES音质、长续航、舒适佩戴的产品特点。",
-        "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
-        "英集芯IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。"
+        {
+          "text": "在功能配置上，OKSJ欧克士HM-11开放式耳机搭载12mm动圈单元，支持动态低频补偿，呈现更细腻生动的饱满音效；采用防漏音结构设计，有效降低漏音，保护隐私；搭载Ai通话降噪算法，精准拾音并分离人声和环境音，确保清晰通话效果。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "在功能配置上，OKSJ欧克士HM-11开放式耳机搭载12mm动圈单元，支持动态低频补偿，呈现更细腻生动的饱满音效；采用防漏音结构设计，有效降低漏音，保护隐私；搭载Ai通话降噪算法，精准拾音并分离人声和环境音，确保清晰通话效果。",
+            "confidence": 0.75,
+            "source_type": "text",
+            "source_text": "在功能配置上，OKSJ欧克士HM-11开放式耳机搭载12mm动圈单元，支持动态低频补偿，呈现更细腻生动的饱满音效；采用防漏音结构设计，有效降低漏音，保护隐私；搭载Ai通话降噪算法，精准拾音并分离人声和环境音，确保清晰通话效果。"
+          }
+        },
+        {
+          "text": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+          "tag": "其他",
+          "evidence": {
+            "value": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+            "confidence": 0.57,
+            "source_type": "text",
+            "source_text": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。"
+          }
+        },
+        {
+          "text": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。"
+          }
+        }
       ],
-      "scenarios": [],
-      "positioning_summary": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。"
+      "scenarios": [
+        "办公",
+        "游戏",
+        "通话"
+      ],
+      "positioning_summary": "在功能配置上，OKSJ欧克士HM-11开放式耳机搭载12mm动圈单元，支持动态低频补偿，呈现更细腻生动的饱满音效；采用防漏音结构设计，有效降低漏音，保护隐私；搭载Ai通话降噪算法，精准拾音并分离人声和环境音，确保清晰通话效果。",
+      "launch_date_evidence": null,
+      "price_evidence": null
     },
     "cost": {
       "major_parts": [
@@ -40,47 +70,630 @@
         "天线"
       ],
       "chip_modules": [],
+      "bom_table": [
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "欧克士HM-11开放式耳机在无线连接方面，支持蓝牙5.4，支持双设备连接，可以在游戏、办公、接听电话之间便捷切换；续航方面，耳机单次音乐播放时长约6小时，搭配充电仓综合续航约25小时。下面就来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒底部展示有模特佩戴图，介绍了产品参数信息。型号：HM-11，版本：V6.0，通话时长：5小时，充电时间：1.5小时，待机时长：50小时，有效传输距离：10米，耳机电池容量：50mAh x 2，充电仓电池容量：400mAh，支持协议：A2DP、AVRCP、HFP、HSP，频率响应范围：20Hz~20KHz。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，设置有主板和电池单元。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "在功能配置上，OKSJ欧克士HM-11开放式耳机搭载12mm动圈单元，支持动态低频补偿，呈现更细腻生动的饱满音效；采用防漏音结构设计，有效降低漏音，保护隐私；搭载Ai通话降噪算法，精准拾音并分离人声和环境音，确保清晰通话效果。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "在功能配置上，OKSJ欧克士HM-11开放式耳机搭载12mm动圈单元，支持动态低频补偿，呈现更细腻生动的饱满音效；采用防漏音结构设计，有效降低漏音，保护隐私；搭载Ai通话降噪算法，精准拾音并分离人声和环境音，确保清晰通话效果。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "陶瓷蓝牙天线特写，用于无线信号收发。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "OKSJ欧克士HM-11开放式耳机充电盒采用了椭圆形设计，金属漆+清漆双层喷涂工艺，手感细腻光滑，光泽通透。充电盒正面设置有一颗指示灯，用于反馈充电状态。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "腔体底部设置充电触点。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "拆开充电盒外壳，取出座舱结构。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "后端腔体外观一览，背部为触控区域，通过单击、双击、长按实现多功能控制。"
+          }
+        }
+      ],
+      "supply_hints": [],
       "packaging_notes": [
         "打开包装盒，取出内部所有物品，包括了主机、充电线、使用说明书和快速操作指南。"
       ],
-      "process_hints": []
+      "process_hints": [
+        {
+          "value": "断开电池与主板焊接的导线。",
+          "evidence": {
+            "value": "断开电池与主板焊接的导线。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "断开电池与主板焊接的导线。"
+          }
+        },
+        {
+          "value": "取出电池，下方主板结构一览，与导线焊接。",
+          "evidence": {
+            "value": "取出电池，下方主板结构一览，与导线焊接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "取出电池，下方主板结构一览，与导线焊接。"
+          }
+        },
+        {
+          "value": "丝印5o1KK的一体化锂电保护IC。",
+          "evidence": {
+            "value": "丝印5o1KK的一体化锂电保护IC。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "丝印5o1KK的一体化锂电保护IC。"
+          }
+        }
+      ]
     },
     "structure": {
       "form_factor": "开放式耳机",
+      "earbud_type": "开放",
       "materials": [],
-      "ip_rating": null,
-      "weight_g": null,
-      "dimensions": [],
-      "wear_design": [],
-      "assembly_notes": []
+      "ip_rating": "IP5",
+      "weight_g": "48.8g",
+      "dimensions": [
+        "在功能配置上，OKSJ欧克士HM-11开放式耳机搭载12mm动圈单元，支持动态低频补偿，呈现更细腻生动的饱满音效；采用防漏音结构设计，有效降低漏音，保护隐私；搭载Ai通话降噪算法，精准拾音并分离人声和环境音，确保清晰通话效果。",
+        "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+        "经我爱音频网实测，扬声器直径约为12mm。"
+      ],
+      "internal_structure": [
+        {
+          "value": "座舱底部结构一览，设置有主板和电池单元。",
+          "evidence": {
+            "value": "座舱底部结构一览，设置有主板和电池单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，设置有主板和电池单元。"
+          }
+        },
+        {
+          "value": "断开电池与主板焊接的导线。",
+          "evidence": {
+            "value": "断开电池与主板焊接的导线。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "断开电池与主板焊接的导线。"
+          }
+        },
+        {
+          "value": "在功能配置上，OKSJ欧克士HM-11开放式耳机搭载12mm动圈单元，支持动态低频补偿，呈现更细腻生动的饱满音效；采用防漏音结构设计，有效降低漏音，保护隐私；搭载Ai通话降噪算法，精准拾音并分离人声和环境音，确保清晰通话效果。",
+          "evidence": {
+            "value": "在功能配置上，OKSJ欧克士HM-11开放式耳机搭载12mm动圈单元，支持动态低频补偿，呈现更细腻生动的饱满音效；采用防漏音结构设计，有效降低漏音，保护隐私；搭载Ai通话降噪算法，精准拾音并分离人声和环境音，确保清晰通话效果。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "在功能配置上，OKSJ欧克士HM-11开放式耳机搭载12mm动圈单元，支持动态低频补偿，呈现更细腻生动的饱满音效；采用防漏音结构设计，有效降低漏音，保护隐私；搭载Ai通话降噪算法，精准拾音并分离人声和环境音，确保清晰通话效果。"
+          }
+        },
+        {
+          "value": "腔体背部的麦克风拾音孔特写，同时也是指示灯开孔。",
+          "evidence": {
+            "value": "腔体背部的麦克风拾音孔特写，同时也是指示灯开孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "腔体背部的麦克风拾音孔特写，同时也是指示灯开孔。"
+          }
+        },
+        {
+          "value": "拆掉音腔内侧盖板，腔体内部扬声器单元结构一览。",
+          "evidence": {
+            "value": "拆掉音腔内侧盖板，腔体内部扬声器单元结构一览。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "拆掉音腔内侧盖板，腔体内部扬声器单元结构一览。"
+          }
+        },
+        {
+          "value": "陶瓷蓝牙天线特写，用于无线信号收发。",
+          "evidence": {
+            "value": "陶瓷蓝牙天线特写，用于无线信号收发。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "陶瓷蓝牙天线特写，用于无线信号收发。"
+          }
+        },
+        {
+          "value": "腔体底部设置充电触点。",
+          "evidence": {
+            "value": "腔体底部设置充电触点。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "腔体底部设置充电触点。"
+          }
+        },
+        {
+          "value": "用于为耳机充电的Pogo Pin连接器。",
+          "evidence": {
+            "value": "用于为耳机充电的Pogo Pin连接器。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "用于为耳机充电的Pogo Pin连接器。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "卸掉螺丝，取掉座舱上的所有组件。",
+          "evidence": {
+            "value": "卸掉螺丝，取掉座舱上的所有组件。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取掉座舱上的所有组件。"
+          }
+        }
+      ],
+      "sealing_method": [
+        {
+          "value": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+          }
+        },
+        {
+          "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+          "evidence": {
+            "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+          }
+        },
+        {
+          "value": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。",
+          "evidence": {
+            "value": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。"
+          }
+        },
+        {
+          "value": "英集芯IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。",
+          "evidence": {
+            "value": "英集芯IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "英集芯IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。"
+          }
+        },
+        {
+          "value": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+          "evidence": {
+            "value": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。"
+          }
+        }
+      ],
+      "wear_design": [
+        {
+          "value": "OKSJ HM-11开放式耳机是该品牌旗下的热销产品，外观上采用耳夹式设计，佩戴贴合耳部轮廓弧度，稳固不掉。",
+          "evidence": {
+            "value": "OKSJ HM-11开放式耳机是该品牌旗下的热销产品，外观上采用耳夹式设计，佩戴贴合耳部轮廓弧度，稳固不掉。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "OKSJ HM-11开放式耳机是该品牌旗下的热销产品，外观上采用耳夹式设计，佩戴贴合耳部轮廓弧度，稳固不掉。"
+          }
+        },
+        {
+          "value": "包装盒底部展示有模特佩戴图，介绍了产品参数信息。",
+          "evidence": {
+            "value": "包装盒底部展示有模特佩戴图，介绍了产品参数信息。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "包装盒底部展示有模特佩戴图，介绍了产品参数信息。"
+          }
+        },
+        {
+          "value": "包装盒侧边展示有高清通话、Hi-RES音质、长续航、舒适佩戴的产品特点。",
+          "evidence": {
+            "value": "包装盒侧边展示有高清通话、Hi-RES音质、长续航、舒适佩戴的产品特点。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "包装盒侧边展示有高清通话、Hi-RES音质、长续航、舒适佩戴的产品特点。"
+          }
+        },
+        {
+          "value": "OKSJ欧克士HM-11开放式耳机整体外观一览，耳机采用主流的耳夹式结构，通过C桥衔接两侧腔体，提供舒适稳固佩戴。",
+          "evidence": {
+            "value": "OKSJ欧克士HM-11开放式耳机整体外观一览，耳机采用主流的耳夹式结构，通过C桥衔接两侧腔体，提供舒适稳固佩戴。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "OKSJ欧克士HM-11开放式耳机整体外观一览，耳机采用主流的耳夹式结构，通过C桥衔接两侧腔体，提供舒适稳固佩戴。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026060902345790.jpg",
+          "alt": "拆解报告：OKSJ欧克士HM-11开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026060902351642.jpg",
+          "alt": "拆解报告：OKSJ欧克士HM-11开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026060902350243.jpg",
+          "alt": "拆解报告：OKSJ欧克士HM-11开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026060902351434.jpg",
+          "alt": "拆解报告：OKSJ欧克士HM-11开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026060902350677.jpg",
+          "alt": "拆解报告：OKSJ欧克士HM-11开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "座舱底部结构一览，设置有主板和电池单元。",
+        "断开电池与主板焊接的导线。",
+        "在功能配置上，OKSJ欧克士HM-11开放式耳机搭载12mm动圈单元，支持动态低频补偿，呈现更细腻生动的饱满音效；采用防漏音结构设计，有效降低漏音，保护隐私；搭载Ai通话降噪算法，精准拾音并分离人声和环境音，确保清晰通话效果。",
+        "腔体背部的麦克风拾音孔特写，同时也是指示灯开孔。"
+      ],
+      "ip_rating_evidence": {
+        "value": "IP5",
+        "confidence": 0.8,
+        "source_type": "text",
+        "source_text": "IP5"
+      },
+      "weight_evidence": {
+        "value": "48.8g",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "48.8g"
+      }
     },
     "hardware": {
       "specs": [
         {
-          "part": "充电接口",
+          "param": "充电接口",
           "value": "标配的充电线采用了USB-A to Type-C接口。",
-          "source_ref": "migrated"
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "标配的充电线采用了USB-A to Type-C接口。"
         },
         {
-          "part": "充电接口",
+          "param": "充电接口",
           "value": "充电盒背面外观一览，一体式转轴结构，下面设置Type-C充电接口。",
-          "source_ref": "migrated"
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒背面外观一览，一体式转轴结构，下面设置Type-C充电接口。"
         },
         {
-          "part": "充电接口",
+          "param": "充电接口",
           "value": "用于电源输入的Type-C充电母座。",
-          "source_ref": "migrated"
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "用于电源输入的Type-C充电母座。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "OKSJ欧克士是一家深耕蓝牙耳机、电源适配器、数据线及创意配件等3C数码产品的品牌。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "OKSJ欧克士是一家深耕蓝牙耳机、电源适配器、数据线及创意配件等3C数码产品的品牌。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "型号：HM-11，版本：V6.0，通话时长：5小时，充电时间：1.5小时，待机时长：50小时，有效传输距离：10米，耳机电池容量：50mAh x 2，充电仓电池容量：400mAh，支持协议：A2DP、AVRCP、HFP、HSP，频率响应范围：20Hz~20KHz。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "型号：HM-11，版本：V6.0，通话时长：5小时，充电时间：1.5小时，待机时长：50小时，有效传输距离：10米，耳机电池容量：50mAh x 2，充电仓电池容量：400mAh，支持协议：A2DP、AVRCP、HFP、HSP，频率响应范围"
+        },
+        {
+          "param": "标记/认证",
+          "value": "我爱音频网使用\nCHARGERLAB POWER-Z KM003C\n对OKSJ欧克士HM-11开放式耳机进行充电测试，输入功率约为1.62W。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "我爱音频网使用\nCHARGERLAB POWER-Z KM003C\n对OKSJ欧克士HM-11开放式耳机进行充电测试，输入功率约为1.62W。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "充电盒内置锂电池型号：AP 751535，标称电压：3.7V，充电限制电压：4.2V，额定容量：400mAh 1.48Wh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒内置锂电池型号：AP 751535，标称电压：3.7V，充电限制电压：4.2V，额定容量：400mAh 1.48Wh。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "英集芯IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "英集芯IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "INJOINIC英集芯IP5513详细资料图。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "INJOINIC英集芯IP5513详细资料图。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "耳机内置锂电池型号：AP 501015，标称电压：3.7V，额定容量：50mAh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "耳机内置锂电池型号：AP 501015，标称电压：3.7V，额定容量：50mAh。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "主板上，搭载INJOINIC英集芯IP5513电源管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，负责内置电池的充放电管理和整机控制；其他还采用了Wayon维安WP1230过压保护IC等。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "主板上，搭载INJOINIC英集芯IP5513电源管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，负责内置电池的充放电管理和整机控制；其他还采用了Wayon维安WP1230过压保护IC等。"
+        },
+        {
+          "param": "电池容量",
+          "value": "50",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "50mAh"
         }
       ]
     },
     "software": {
-      "bluetooth_version": null,
-      "codecs": [],
-      "multipoint": [],
+      "bluetooth_version": "5.4",
+      "codecs": [
+        {
+          "value": "Hi-Res",
+          "evidence": {
+            "value": "Hi-Res",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "包装盒侧边展示有高清通话、Hi-RES音质、长续航、舒适佩戴的产品特点。"
+          }
+        }
+      ],
+      "multipoint": [
+        {
+          "value": "欧克士HM-11开放式耳机在无线连接方面，支持蓝牙5.4，支持双设备连接，可以在游戏、办公、接听电话之间便捷切换；续航方面，耳机单次音乐播放时长约6小时，搭配充电仓综合续航约25小时。",
+          "evidence": {
+            "value": "欧克士HM-11开放式耳机在无线连接方面，支持蓝牙5.4，支持双设备连接，可以在游戏、办公、接听电话之间便捷切换；续航方面，耳机单次音乐播放时长约6小时，搭配充电仓综合续航约25小时。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "欧克士HM-11开放式耳机在无线连接方面，支持蓝牙5.4，支持双设备连接，可以在游戏、办公、接听电话之间便捷切换；续航方面，耳机单次音乐播放时长约6小时，搭配充电仓综合续航约25小时。"
+          }
+        }
+      ],
       "app_name": "",
-      "app_features": [],
+      "app_features": [
+        {
+          "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+          "evidence": {
+            "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+          }
+        }
+      ],
       "ota_support": [],
-      "latency_notes": []
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "5.4",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.4"
+      }
     }
-  }
+  },
+  "data_completeness": 0.758
 }

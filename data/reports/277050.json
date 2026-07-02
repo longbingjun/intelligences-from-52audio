@@ -20,18 +20,54 @@
       "price_cny": null,
       "price_note": "",
       "selling_points": [
-        "其搭载定制无线音频SoC和同轴双单元声学配置，支持专利自适应低音增强算法，支持LHDC 5.0母带级音频传输，提供低音澎湃、三频均衡及更高动态范围和频宽的音质。",
-        "在功能配置方面，支持“男/女漂泊者”联动专属提示音，支持高保真音乐和55ms低延迟游戏双模式，支持AI通话降噪功能，满足不同场景的使用需求。",
-        "其他方面，MOONDROP U.C.T.S.搭载偶极指向传声技术，有效降低漏音，保护用户隐私；搭载全向优化的FPC天线，实现更稳定的无线连接；支持新一代蓝牙音频LE AUDIO的LC3编解码协议，带来更低延迟和高保真信号传输；耳机搭配充电仓可提供9+21.5h（AAC，50%电量）的续航时间，能够很好的满足日常使用需求。",
-        "耳机内部搭载ST神通天下3.7V/40mAh锂电池供电，采用13mm圆形低失真动圈单元+微型环形平面磁高音单元提供全频段的出色音频体验，单耳内置一颗敏芯微电子的MEMS麦克风拾音；主控芯片为水月雨定制MOONDROP TWS-01无线音频SOC，采用22nm工艺制程，支持最新一代蓝牙音频技术，提供出色的音频处理能力和稳定、低延迟的无线连接。",
-        "在2026年初，水月雨联合开放世界动作游戏《鸣潮》，推出了MOONDROP U.C.T.S.开放式耳机，主打高颜值、高音质与低延迟的综合体验。",
-        "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸。"
+        {
+          "text": "在功能配置方面，支持“男/女漂泊者”联动专属提示音，支持高保真音乐和55ms低延迟游戏双模式，支持AI通话降噪功能，满足不同场景的使用需求。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "在功能配置方面，支持“男/女漂泊者”联动专属提示音，支持高保真音乐和55ms低延迟游戏双模式，支持AI通话降噪功能，满足不同场景的使用需求。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "在功能配置方面，支持“男/女漂泊者”联动专属提示音，支持高保真音乐和55ms低延迟游戏双模式，支持AI通话降噪功能，满足不同场景的使用需求。"
+          }
+        },
+        {
+          "text": "在2026年初，水月雨联合开放世界动作游戏《鸣潮》，推出了MOONDROP U.C.T.S.开放式耳机，主打高颜值、高音质与低延迟的综合体验。",
+          "tag": "开放佩戴",
+          "evidence": {
+            "value": "在2026年初，水月雨联合开放世界动作游戏《鸣潮》，推出了MOONDROP U.C.T.S.开放式耳机，主打高颜值、高音质与低延迟的综合体验。",
+            "confidence": 0.75,
+            "source_type": "text",
+            "source_text": "在2026年初，水月雨联合开放世界动作游戏《鸣潮》，推出了MOONDROP U.C.T.S.开放式耳机，主打高颜值、高音质与低延迟的综合体验。"
+          }
+        },
+        {
+          "text": "电池另外一侧丝印“CCC”认证标志。",
+          "tag": "其他",
+          "evidence": {
+            "value": "电池另外一侧丝印“CCC”认证标志。",
+            "confidence": 0.63,
+            "source_type": "text",
+            "source_text": "电池另外一侧丝印“CCC”认证标志。"
+          }
+        },
+        {
+          "text": "水月雨定制MOONDROP TWS-01无线音频SOC，丝印信息“MOONDROP TYPE-TW01”。",
+          "tag": "其他",
+          "evidence": {
+            "value": "水月雨定制MOONDROP TWS-01无线音频SOC，丝印信息“MOONDROP TYPE-TW01”。",
+            "confidence": 0.57,
+            "source_type": "text",
+            "source_text": "水月雨定制MOONDROP TWS-01无线音频SOC，丝印信息“MOONDROP TYPE-TW01”。"
+          }
+        }
       ],
       "scenarios": [
         "游戏",
         "通话"
       ],
-      "positioning_summary": "其搭载定制无线音频SoC和同轴双单元声学配置，支持专利自适应低音增强算法，支持LHDC 5.0母带级音频传输，提供低音澎湃、三频均衡及更高动态范围和频宽的音质。"
+      "positioning_summary": "在功能配置方面，支持“男/女漂泊者”联动专属提示音，支持高保真音乐和55ms低延迟游戏双模式，支持AI通话降噪功能，满足不同场景的使用需求。",
+      "launch_date_evidence": null,
+      "price_evidence": null
     },
     "cost": {
       "major_parts": [
@@ -43,16 +79,176 @@
         "天线"
       ],
       "chip_modules": [],
+      "bom_table": [
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "水月雨MOONDROP U.C.T.S.开放式耳机在外观方面，以《鸣潮》游戏为灵感，打造了旋转式充电仓和耳夹式耳机，颜值出众，极具辨识度。在功能配置方面，支持“男/女漂泊者”联动专属提示音，支持高保真音乐和55ms低延迟游戏双模式，支持AI通话降噪功能，满足不同场景的使用需求。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒背面标注有产品参数信息，产品名称：鸣潮 x 水月雨U.C.T.S.，产品类型：混合双单元高音质耳夹式耳机，产品型号：MD-OWS-014，蓝牙版本：6.0，蓝牙传输协议：A2DP/AVRCP/HFP/HSP，编解码协议：SBC/AAC/LC3/LHDC-V，工作距离：10米（无障碍空旷环境），耳机充电时间：约1.7小时，充电仓充电时间：约2小时，耳机电池容量：3.7V/40mAh，充电仓电池容量：3.7V/300mAh，耳机单次续航：约9小时（AAC），充电仓可提供续航：约21.5小时（AAC），输入：5V-1A，输出：5V-0.25A。成都水月雨科技有限公司 设计/开发/制造。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "音质作为水月雨产品的核心，在MOONDROP U.C.T.S.也得到了体现。其搭载定制无线音频SoC和同轴双单元声学配置，支持专利自适应低音增强算法，支持LHDC 5.0母带级音频传输，提供低音澎湃、三频均衡及更高动态范围和频宽的音质。此外，该产品支持自定义DSP参数，滤波器/频点/增益/Q值均可自由控制，还支持分享和下载写入用户制作的调音，提供了极大的可玩性。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "沿合模线打开音腔，内部仅设置有扬声器单元。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "腔体外侧的麦克风拾音孔特写。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "其他方面，MOONDROP U.C.T.S.搭载偶极指向传声技术，有效降低漏音，保护用户隐私；搭载全向优化的FPC天线，实现更稳定的无线连接；支持新一代蓝牙音频LE AUDIO的LC3编解码协议，带来更低延迟和高保真信号传输；耳机搭配充电仓可提供9+21.5h（AAC，50%电量）的续航时间，能够很好的满足日常使用需求。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "取出耳机。MOONDROP U.C.T.S.耳机采用了耳夹式设计，由记忆柔性C桥衔接前后腔体，佩戴时夹在耳廓上。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "腔体底部的充电触点特写。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒顶部座舱上设置有Type-C充电接口和指示灯，设计有‌WUTHERING WAVES和MOONDROP品牌名。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "后端腔体外侧通过索拉里斯文的“ROVER”和“SOLARIS”，以及金色的“声痕”图案装饰，同时也是触控区域。"
+          }
+        }
+      ],
+      "supply_hints": [],
       "packaging_notes": [
         "打开包装盒，取出内部所有物品，包括了主机、充电线、产品说明书，联名徽章、镭射票和挂绳。"
       ],
       "process_hints": [
-        "电源输入小板和电池导线与主板焊接。",
-        "耳机主板另外一侧电路一览，边缘焊接连接充电盒的金属柱。"
+        {
+          "value": "电源输入小板和电池导线与主板焊接。",
+          "evidence": {
+            "value": "电源输入小板和电池导线与主板焊接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "电源输入小板和电池导线与主板焊接。"
+          }
+        },
+        {
+          "value": "耳机主板另外一侧电路一览，边缘焊接连接充电盒的金属柱。",
+          "evidence": {
+            "value": "耳机主板另外一侧电路一览，边缘焊接连接充电盒的金属柱。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "耳机主板另外一侧电路一览，边缘焊接连接充电盒的金属柱。"
+          }
+        }
       ]
     },
     "structure": {
       "form_factor": "开放式耳机",
+      "earbud_type": "入耳",
       "materials": [
         "钛合金",
         "PC"
@@ -64,188 +260,497 @@
         "据官方介绍，下层为13mm圆形低失真动圈单元，用于提供澎湃自然的中低音效果；上层为微型环形平面磁高音单元，让高音可以平滑延展覆盖至40kHz以上。",
         "经我爱音频网实测，动圈单元直径约为13mm。"
       ],
+      "internal_structure": [
+        {
+          "value": "撬开卡扣式固定的座舱，腔体内部设置有主板、电源输入小板和电池单元。",
+          "evidence": {
+            "value": "撬开卡扣式固定的座舱，腔体内部设置有主板、电源输入小板和电池单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "撬开卡扣式固定的座舱，腔体内部设置有主板、电源输入小板和电池单元。"
+          }
+        },
+        {
+          "value": "音质作为水月雨产品的核心，在MOONDROP U.C.T.S.也得到了体现。其搭载定制无线音频SoC和同轴双单元声学配置，支持专利自适应低音增强算法，支持LHDC 5.0母带级音频传输，提供低音澎湃、三频均衡及更高动态范围和频宽的音质。此外，该产品支持自定义DSP参数，滤波器/频点/增益/Q值均可自由控制，还支持分享和下载写入用户制作的调音，提供了极大的可玩性。",
+          "evidence": {
+            "value": "音质作为水月雨产品的核心，在MOONDROP U.C.T.S.也得到了体现。其搭载定制无线音频SoC和同轴双单元声学配置，支持专利自适应低音增强算法，支持LHDC 5.0母带级音频传输，提供低音澎湃、三频均衡及更高动态范围和频宽的音质。此外，该产品支持自定义DSP参数，滤波器/频点/增益/Q值均可自由控制，还支持分享和下载写入用户制作的调音，提供了极大的可玩性。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "音质作为水月雨产品的核心，在MOONDROP U.C.T.S.也得到了体现。其搭载定制无线音频SoC和同轴双单元声学配置，支持专利自适应低音增强算法，支持LHDC 5.0母带级音频传输，提供低音澎湃、三频均衡及更高动态范围和频宽的音质。此外，该产品支持自定义DSP参数，滤波器/频点/增益/Q值均可自由控制，还支持分享和下载写入用户制作的调音，提供了极大的可玩性。"
+          }
+        },
+        {
+          "value": "沿合模线打开音腔，内部仅设置有扬声器单元。",
+          "evidence": {
+            "value": "沿合模线打开音腔，内部仅设置有扬声器单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "沿合模线打开音腔，内部仅设置有扬声器单元。"
+          }
+        },
+        {
+          "value": "耳机搭载了同轴双单元正面特写。据官方介绍，下层为13mm圆形低失真动圈单元，用于提供澎湃自然的中低音效果；上层为微型环形平面磁高音单元，让高音可以平滑延展覆盖至40kHz以上。",
+          "evidence": {
+            "value": "耳机搭载了同轴双单元正面特写。据官方介绍，下层为13mm圆形低失真动圈单元，用于提供澎湃自然的中低音效果；上层为微型环形平面磁高音单元，让高音可以平滑延展覆盖至40kHz以上。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机搭载了同轴双单元正面特写。据官方介绍，下层为13mm圆形低失真动圈单元，用于提供澎湃自然的中低音效果；上层为微型环形平面磁高音单元，让高音可以平滑延展覆盖至40kHz以上。"
+          }
+        },
+        {
+          "value": "腔体外侧的麦克风拾音孔特写。",
+          "evidence": {
+            "value": "腔体外侧的麦克风拾音孔特写。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "腔体外侧的麦克风拾音孔特写。"
+          }
+        },
+        {
+          "value": "INJOINIC英集芯IP5516详细资料图。据我爱音频网拆解了解到，目前已有漫步者、倍思、QCY、神牛、联想、绿联、魅族、机械师、JBL、弱水时砂、好牧人、泥炭、丽耳、猛玛、iKF、iTour、纽曼、优篮子、爱国者、兰士顿、欧蕾特、博雅、MICROKIA、魔声、途瑞斯，摩托罗拉、水月雨、马歇尔、声阔、公牛、飞利浦、TOZO、sanag、Nothing、山水、索爱、机乐堂、象鼻子、boAt、蓝万柯、可口可乐，荣耀、realme、传音、万魔、嘿喽、名创优品、酷狗、创维、声智、云仕、充客、海尔兄弟、诺必行、利威朗、影巨人、乔威、AnkerWork、纳拓、Skullcandy、MOZOTER、HYUNDAI、沃尔玛、ROBOT、Urbanfun、Btootos、kaiboaudio、Loca，夏新、喜马拉雅、网易云音乐、唱吧、京东京造、中兴、JLab、海贝、Pioneer、PIHEN、傲基、MPOW、诺基亚、Ambie等大量品牌采用英集芯的电源管理方案。",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5516详细资料图。据我爱音频网拆解了解到，目前已有漫步者、倍思、QCY、神牛、联想、绿联、魅族、机械师、JBL、弱水时砂、好牧人、泥炭、丽耳、猛玛、iKF、iTour、纽曼、优篮子、爱国者、兰士顿、欧蕾特、博雅、MICROKIA、魔声、途瑞斯，摩托罗拉、水月雨、马歇尔、声阔、公牛、飞利浦、TOZO、sanag、Nothing、山水、索爱、机乐堂、象鼻子、boAt、蓝万柯、可口可乐，荣耀、realme、传音、万魔、嘿喽、名创优品、酷狗、创维、声智、云仕、充客、海尔兄弟、诺必行、利威朗、影巨人、乔威、AnkerWork、纳拓、Skullcandy、MOZOTER、HYUNDAI、沃尔玛、ROBOT、Urbanfun、Btootos、kaiboaudio、Loca，夏新、喜马拉雅、网易云音乐、唱吧、京东京造、中兴、JLab、海贝、Pioneer、PIHEN、傲基、MPOW、诺基亚、Ambie等大量品牌采用英集芯的电源管理方案。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5516详细资料图。据我爱音频网拆解了解到，目前已有漫步者、倍思、QCY、神牛、联想、绿联、魅族、机械师、JBL、弱水时砂、好牧人、泥炭、丽耳、猛玛、iKF、iTour、纽曼、优篮子、爱国者、兰士顿、欧蕾特、博雅、MICROKIA、魔声、途瑞斯，摩托罗拉、水月雨、马歇尔、声阔、公牛、飞利浦、TOZO、sanag、Nothing、山水、索爱、机乐堂、象鼻子、boAt、蓝万柯、可口可乐，荣耀、realme、传音、万魔、嘿喽、名创优品、酷狗、创维、声智、云仕、充客、海尔兄弟、诺必行、利威朗、影巨人、乔威、AnkerWork、纳拓、Skullcandy、MOZOTER、HYUNDAI、沃尔玛、ROBOT、Urbanfun、Btootos、kaiboaudio、Loca，夏新、喜马拉雅、网易云音乐、唱吧、京东京造、中兴、JLab、海贝、Pioneer、PIHEN、傲基、MPOW、诺基亚、Ambie等大量品牌采用英集芯的电源管理方案。"
+          }
+        },
+        {
+          "value": "其他方面，MOONDROP U.C.T.S.搭载偶极指向传声技术，有效降低漏音，保护用户隐私；搭载全向优化的FPC天线，实现更稳定的无线连接；支持新一代蓝牙音频LE AUDIO的LC3编解码协议，带来更低延迟和高保真信号传输；耳机搭配充电仓可提供9+21.5h（AAC，50%电量）的续航时间，能够很好的满足日常使用需求。",
+          "evidence": {
+            "value": "其他方面，MOONDROP U.C.T.S.搭载偶极指向传声技术，有效降低漏音，保护用户隐私；搭载全向优化的FPC天线，实现更稳定的无线连接；支持新一代蓝牙音频LE AUDIO的LC3编解码协议，带来更低延迟和高保真信号传输；耳机搭配充电仓可提供9+21.5h（AAC，50%电量）的续航时间，能够很好的满足日常使用需求。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "其他方面，MOONDROP U.C.T.S.搭载偶极指向传声技术，有效降低漏音，保护用户隐私；搭载全向优化的FPC天线，实现更稳定的无线连接；支持新一代蓝牙音频LE AUDIO的LC3编解码协议，带来更低延迟和高保真信号传输；耳机搭配充电仓可提供9+21.5h（AAC，50%电量）的续航时间，能够很好的满足日常使用需求。"
+          }
+        },
+        {
+          "value": "腔体底部结构一览，设置有蓝牙天线和用于触摸控制的导电布。",
+          "evidence": {
+            "value": "腔体底部结构一览，设置有蓝牙天线和用于触摸控制的导电布。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "腔体底部结构一览，设置有蓝牙天线和用于触摸控制的导电布。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "卸掉盖板内侧螺丝，内侧设置有两颗N52磁铁单元。",
+          "evidence": {
+            "value": "卸掉盖板内侧螺丝，内侧设置有两颗N52磁铁单元。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸掉盖板内侧螺丝，内侧设置有两颗N52磁铁单元。"
+          }
+        },
+        {
+          "value": "撬开卡扣式固定的座舱，腔体内部设置有主板、电源输入小板和电池单元。",
+          "evidence": {
+            "value": "撬开卡扣式固定的座舱，腔体内部设置有主板、电源输入小板和电池单元。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "撬开卡扣式固定的座舱，腔体内部设置有主板、电源输入小板和电池单元。"
+          }
+        }
+      ],
+      "sealing_method": [
+        {
+          "value": "INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+          }
+        },
+        {
+          "value": "英集芯IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。",
+          "evidence": {
+            "value": "英集芯IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "英集芯IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。"
+          }
+        },
+        {
+          "value": "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸。",
+          "evidence": {
+            "value": "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸。"
+          }
+        },
+        {
+          "value": "INJOINIC英集芯IP5516详细资料图。",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5516详细资料图。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5516详细资料图。"
+          }
+        },
+        {
+          "value": "内部主要配置方面，充电盒搭载了ST神通天下3.7V/300mAh锂电池组，配备有独立保护板负责过充电、过放电、过电流和短路等保护；主板上，搭载了INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为充电仓提供完整的电源解决方案。",
+          "evidence": {
+            "value": "内部主要配置方面，充电盒搭载了ST神通天下3.7V/300mAh锂电池组，配备有独立保护板负责过充电、过放电、过电流和短路等保护；主板上，搭载了INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为充电仓提供完整的电源解决方案。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "内部主要配置方面，充电盒搭载了ST神通天下3.7V/300mAh锂电池组，配备有独立保护板负责过充电、过放电、过电流和短路等保护；主板上，搭载了INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为充电仓提供完整的电源解决方案。"
+          }
+        }
+      ],
       "wear_design": [
-        "水月雨MOONDROP U.C.T.S.开放式耳机在外观方面，以《鸣潮》游戏为灵感，打造了旋转式充电仓和耳夹式耳机，颜值出众，极具辨识度。",
-        "包装盒背面标注有产品参数信息，产品名称：鸣潮 x 水月雨U.C.T.S.，产品类型：混合双单元高音质耳夹式耳机，产品型号：MD-OWS-014，蓝牙版本：6.0，蓝牙传输协议：A2DP/AVRCP/HFP/HSP，编解码协议：SBC/AAC/LC3/LHDC-V，工作距离：10米（无障碍空旷环境），耳机充电时间：约1.7小时，充电仓充电时间：约2小时，耳机电池容量：3.7V/40mAh，充电仓电池容量：3.7V/300mAh，耳机单次续航：约9小时（AAC），充电仓可提供续航：约21.5小时（AAC），输入：5V-1A，输出：5V-0.25A。",
-        "MOONDROP U.C.T.S.耳机采用了耳夹式设计，由记忆柔性C桥衔接前后腔体，佩戴时夹在耳廓上。",
-        "腔体内侧采用了弧形设计，贴合耳廓结构，提升佩戴舒适性。"
+        {
+          "value": "水月雨MOONDROP U.C.T.S.开放式耳机在外观方面，以《鸣潮》游戏为灵感，打造了旋转式充电仓和耳夹式耳机，颜值出众，极具辨识度。",
+          "evidence": {
+            "value": "水月雨MOONDROP U.C.T.S.开放式耳机在外观方面，以《鸣潮》游戏为灵感，打造了旋转式充电仓和耳夹式耳机，颜值出众，极具辨识度。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "水月雨MOONDROP U.C.T.S.开放式耳机在外观方面，以《鸣潮》游戏为灵感，打造了旋转式充电仓和耳夹式耳机，颜值出众，极具辨识度。"
+          }
+        },
+        {
+          "value": "包装盒背面标注有产品参数信息，产品名称：鸣潮 x 水月雨U.C.T.S.，产品类型：混合双单元高音质耳夹式耳机，产品型号：MD-OWS-014，蓝牙版本：6.0，蓝牙传输协议：A2DP/AVRCP/HFP/HSP，编解码协议：SBC/AAC/LC3/LHDC-V，工作距离：10米（无障碍空旷环境），耳机充电时间：约1.7小时，充电仓充电时间：约2小时，耳机电池容量：3.7V/40mAh，充电仓电池容量：3.7V/300mAh，耳机单次续航：约9小时（AAC），充电仓可提供续航：约21.5小时（AAC），输入：5V-1A，输出：5V-0.25A。",
+          "evidence": {
+            "value": "包装盒背面标注有产品参数信息，产品名称：鸣潮 x 水月雨U.C.T.S.，产品类型：混合双单元高音质耳夹式耳机，产品型号：MD-OWS-014，蓝牙版本：6.0，蓝牙传输协议：A2DP/AVRCP/HFP/HSP，编解码协议：SBC/AAC/LC3/LHDC-V，工作距离：10米（无障碍空旷环境），耳机充电时间：约1.7小时，充电仓充电时间：约2小时，耳机电池容量：3.7V/40mAh，充电仓电池容量：3.7V/300mAh，耳机单次续航：约9小时（AAC），充电仓可提供续航：约21.5小时（AAC），输入：5V-1A，输出：5V-0.25A。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "包装盒背面标注有产品参数信息，产品名称：鸣潮 x 水月雨U.C.T.S.，产品类型：混合双单元高音质耳夹式耳机，产品型号：MD-OWS-014，蓝牙版本：6.0，蓝牙传输协议：A2DP/AVRCP/HFP/HSP，编解码协议：SBC/AAC/LC3/LHDC-V，工作距离：10米（无障碍空旷环境），耳机充电时间：约1.7小时，充电仓充电时间：约2小时，耳机电池容量：3.7V/40mAh，充电仓电池容量：3.7V/300mAh，耳机单次续航：约9小时（AAC），充电仓可提供续航：约21.5小时（AAC），输入：5V-1A，输出：5V-0.25A。"
+          }
+        },
+        {
+          "value": "MOONDROP U.C.T.S.耳机采用了耳夹式设计，由记忆柔性C桥衔接前后腔体，佩戴时夹在耳廓上。",
+          "evidence": {
+            "value": "MOONDROP U.C.T.S.耳机采用了耳夹式设计，由记忆柔性C桥衔接前后腔体，佩戴时夹在耳廓上。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "MOONDROP U.C.T.S.耳机采用了耳夹式设计，由记忆柔性C桥衔接前后腔体，佩戴时夹在耳廓上。"
+          }
+        },
+        {
+          "value": "MOONDROP U.C.T.S.耳机外观一览，腔体采用磨砂质感，设计圆润无棱角；C桥内嵌钛合金骨架，外部通过热塑性TPU材质包裹，贴肤舒适，柔韧不易变形。",
+          "evidence": {
+            "value": "MOONDROP U.C.T.S.耳机外观一览，腔体采用磨砂质感，设计圆润无棱角；C桥内嵌钛合金骨架，外部通过热塑性TPU材质包裹，贴肤舒适，柔韧不易变形。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "MOONDROP U.C.T.S.耳机外观一览，腔体采用磨砂质感，设计圆润无棱角；C桥内嵌钛合金骨架，外部通过热塑性TPU材质包裹，贴肤舒适，柔韧不易变形。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026052206241831.jpg",
+          "alt": "拆解报告：水月雨MOONDROP U.C.T.S.开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026052206241625.jpg",
+          "alt": "拆解报告：水月雨MOONDROP U.C.T.S.开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026052206240576.jpg",
+          "alt": "拆解报告：水月雨MOONDROP U.C.T.S.开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026052206240689.jpg",
+          "alt": "拆解报告：水月雨MOONDROP U.C.T.S.开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026052206241661.jpg",
+          "alt": "拆解报告：水月雨MOONDROP U.C.T.S.开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
       ],
       "assembly_notes": [
-        "水月雨MOONDROP U.C.T.S.开放式耳机在外观方面，以《鸣潮》游戏为灵感，打造了旋转式充电仓和耳夹式耳机，颜值出众，极具辨识度。在功能配置方面，支持“男/女漂泊者”联动专属提示音，支持高保真音乐和55ms低延迟游戏双模式，支持AI通话降噪功能，满足不同场景的使用需求。",
-        "包装盒背面标注有产品参数信息，产品名称：鸣潮 x 水月雨U.C.T.S.，产品类型：混合双单元高音质耳夹式耳机，产品型号：MD-OWS-014，蓝牙版本：6.0，蓝牙传输协议：A2DP/AVRCP/HFP/HSP，编解码协议：SBC/AAC/LC3/LHDC-V，工作距离：10米（无障碍空旷环境），耳机充电时间：约1.7小时，充电仓充电时间：约2小时，耳机电池容量：3.7V/40mAh，充电仓电池容量：3.7V/300mAh，耳机单次续航：约9小时（AAC），充电仓可提供续航：约21.5小时（AAC），输入：5V-1A，输出：5V-0.25A。成都水月雨科技有限公司 设计/开发/制造。",
+        "撬开卡扣式固定的座舱，腔体内部设置有主板、电源输入小板和电池单元。",
         "音质作为水月雨产品的核心，在MOONDROP U.C.T.S.也得到了体现。其搭载定制无线音频SoC和同轴双单元声学配置，支持专利自适应低音增强算法，支持LHDC 5.0母带级音频传输，提供低音澎湃、三频均衡及更高动态范围和频宽的音质。此外，该产品支持自定义DSP参数，滤波器/频点/增益/Q值均可自由控制，还支持分享和下载写入用户制作的调音，提供了极大的可玩性。",
         "沿合模线打开音腔，内部仅设置有扬声器单元。",
-        "腔体外侧的麦克风拾音孔特写。",
-        "其他方面，MOONDROP U.C.T.S.搭载偶极指向传声技术，有效降低漏音，保护用户隐私；搭载全向优化的FPC天线，实现更稳定的无线连接；支持新一代蓝牙音频LE AUDIO的LC3编解码协议，带来更低延迟和高保真信号传输；耳机搭配充电仓可提供9+21.5h（AAC，50%电量）的续航时间，能够很好的满足日常使用需求。"
-      ]
+        "耳机搭载了同轴双单元正面特写。据官方介绍，下层为13mm圆形低失真动圈单元，用于提供澎湃自然的中低音效果；上层为微型环形平面磁高音单元，让高音可以平滑延展覆盖至40kHz以上。"
+      ],
+      "ip_rating_evidence": {
+        "value": "IP5",
+        "confidence": 0.8,
+        "source_type": "text",
+        "source_text": "IP5"
+      },
+      "weight_evidence": {
+        "value": "72.6g",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "72.6g"
+      }
     },
     "hardware": {
       "specs": [
         {
-          "part": "充电接口",
-          "brand": "",
-          "model": "",
+          "param": "充电接口",
           "value": "充电线采用了USB-A to Type-C接口。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "充电接口",
           "brand": "",
           "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电线采用了USB-A to Type-C接口。"
+        },
+        {
+          "param": "充电接口",
           "value": "充电盒顶部座舱上设置有Type-C充电接口和指示灯，设计有‌WUTHERING WAVES和MOONDROP品牌名。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "充电接口",
           "brand": "",
           "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒顶部座舱上设置有Type-C充电接口和指示灯，设计有‌WUTHERING WAVES和MOONDROP品牌名。"
+        },
+        {
+          "param": "充电接口",
           "value": "电源输入小板正面电路一览，设置有Type-C充电接口。",
           "unit": "",
-          "source_ref": "text"
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "电源输入小板正面电路一览，设置有Type-C充电接口。"
         },
         {
-          "part": "充电接口",
-          "brand": "",
-          "model": "Type-C",
+          "param": "充电接口",
           "value": "Type-C",
           "unit": "",
-          "source_ref": "text"
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
         },
         {
-          "part": "充电接口",
-          "brand": "",
-          "model": "USB-A",
+          "param": "充电接口",
           "value": "USB-A",
           "unit": "",
-          "source_ref": "text"
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
         },
         {
-          "part": "标记/认证",
-          "brand": "",
-          "model": "",
+          "param": "标记/认证",
           "value": "我爱音频网此前还拆解过\n水月雨Robin's Earphones真无线降噪耳机\n、\n水月雨太空漫游真无线降噪耳机\n、\n水月雨ALICE真无线耳机\n、\n水月雨NEKOCAKE猫饼真无线降噪耳机\n、\n水月雨RAYS游戏有线耳机\n等产品，此次再来看看这款产品的详细拆解报告吧~\n一、\n水月雨MOONDROP U.C.T.S.开放式耳机开箱\n水月雨MOONDROP U.C.T.S.开放式耳机包装盒采用了黑色背景，天地盖结构。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "我爱音频网此前还拆解过\n水月雨Robin's Earphones真无线降噪耳机\n、\n水月雨太空漫游真无线降噪耳机\n、\n水月雨ALICE真无线耳机\n、\n水月雨NEKOCAKE猫饼真无线降噪耳机\n、\n水月雨RAYS游戏有线耳机\n等产品，此次再来"
+        },
+        {
+          "param": "标记/认证",
           "value": "包装盒背面标注有产品参数信息，产品名称：鸣潮 x 水月雨U.C.T.S.，产品类型：混合双单元高音质耳夹式耳机，产品型号：MD-OWS-014，蓝牙版本：6.0，蓝牙传输协议：A2DP/AVRCP/HFP/HSP，编解码协议：SBC/AAC/LC3/LHDC-V，工作距离：10米（无障碍空旷环境），耳机充电时间：约1.7小时，充电仓充电时间：约2小时，耳机电池容量：3.7V/40mAh，充电仓电池容量：3.7V/300mAh，耳机单次续航：约9小时（AAC），充电仓可提供续航：约21.5小时（AAC），输入：5V-1A，输出：5V-0.25A。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "包装盒背面标注有产品参数信息，产品名称：鸣潮 x 水月雨U.C.T.S.，产品类型：混合双单元高音质耳夹式耳机，产品型号：MD-OWS-014，蓝牙版本：6.0，蓝牙传输协议：A2DP/AVRCP/HFP/HSP，编解码协议：SBC/AAC"
+        },
+        {
+          "param": "标记/认证",
           "value": "外壳内侧标注有产品参数信息，型号：MD-OWS-014，输入：5V-1A，输出：5V-0.25A，容量：40mAh 3.7V（耳机）/300mAh 3.7V（充电盒），制造商：成都水月雨科技有限公司。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "外壳内侧标注有产品参数信息，型号：MD-OWS-014，输入：5V-1A，输出：5V-0.25A，容量：40mAh 3.7V（耳机）/300mAh 3.7V（充电盒），制造商：成都水月雨科技有限公司。"
+        },
+        {
+          "param": "标记/认证",
           "value": "我爱音频网使用\nCHARGERLAB POWER-Z KM003C\n对水月雨MOONDROP U.C.T.S.开放式耳机进行充电测试，输入功率约为1.65W。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "我爱音频网使用\nCHARGERLAB POWER-Z KM003C\n对水月雨MOONDROP U.C.T.S.开放式耳机进行充电测试，输入功率约为1.65W。"
+        },
+        {
+          "param": "标记/认证",
           "value": "INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+        },
+        {
+          "param": "标记/认证",
           "value": "英集芯IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "英集芯IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。"
+        },
+        {
+          "param": "标记/认证",
           "value": "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸。"
+        },
+        {
+          "param": "标记/认证",
           "value": "INJOINIC英集芯IP5516详细资料图。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "INJOINIC英集芯IP5516详细资料图。"
+        },
+        {
+          "param": "标记/认证",
           "value": "充电盒内置锂电池型号：ST 702027，标称电压：3.7V，额定容量：300mAh 1.11Wh，来自ST神通天下。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒内置锂电池型号：ST 702027，标称电压：3.7V，额定容量：300mAh 1.11Wh，来自ST神通天下。"
+        },
+        {
+          "param": "标记/认证",
           "value": "耳机内置电池型号：ST 501012，参数：3.7V 40mAh 0.15Wh，同样来自神通天下。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "耳机内置电池型号：ST 501012，参数：3.7V 40mAh 0.15Wh，同样来自神通天下。"
+        },
+        {
+          "param": "标记/认证",
           "value": "电池另外一侧丝印“CCC”认证标志。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "电池另外一侧丝印“CCC”认证标志。"
+        },
+        {
+          "param": "标记/认证",
           "value": "内部主要配置方面，充电盒搭载了ST神通天下3.7V/300mAh锂电池组，配备有独立保护板负责过充电、过放电、过电流和短路等保护；主板上，搭载了INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为充电仓提供完整的电源解决方案。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "电池",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "内部主要配置方面，充电盒搭载了ST神通天下3.7V/300mAh锂电池组，配备有独立保护板负责过充电、过放电、过电流和短路等保护；主板上，搭载了INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池"
+        },
+        {
+          "param": "电池容量",
           "value": "40",
           "unit": "mAh",
-          "source_ref": "text"
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "40mAh"
         }
       ]
     },
     "software": {
       "bluetooth_version": "6.0",
       "codecs": [
-        "AAC",
-        "LHDC",
-        "SBC",
-        "LC3"
+        {
+          "value": "AAC",
+          "evidence": {
+            "value": "AAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "其他方面，MOONDROP U.C.T.S.搭载偶极指向传声技术，有效降低漏音，保护用户隐私；搭载全向优化的FPC天线，实现更稳定的无线连接；支持新一代蓝牙音频LE AUDIO的LC3编解码协议，带来更低延迟和高保真信号传输；耳机搭配充电仓可提供9+21.5h（AAC，50%电量）的续航时间，能够很好的满足日常使用需求。"
+          }
+        },
+        {
+          "value": "LHDC",
+          "evidence": {
+            "value": "LHDC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "其搭载定制无线音频SoC和同轴双单元声学配置，支持专利自适应低音增强算法，支持LHDC 5.0母带级音频传输，提供低音澎湃、三频均衡及更高动态范围和频宽的音质。"
+          }
+        },
+        {
+          "value": "SBC",
+          "evidence": {
+            "value": "SBC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "包装盒背面标注有产品参数信息，产品名称：鸣潮 x 水月雨U.C.T.S.，产品类型：混合双单元高音质耳夹式耳机，产品型号：MD-OWS-014，蓝牙版本：6.0，蓝牙传输协议：A2DP/AVRCP/HFP/HSP，编解码协议：SBC/AAC/LC3/LHDC-V，工作距离：10米（无障碍空旷环境），耳机充电时间：约1.7小时，充电仓充电时间：约2小时，耳机电池容量：3.7V/40mAh，充电仓电池容量：3.7V/300mAh，耳机单次续航：约9小时（AAC），充电仓可提供续航：约21.5小时（AAC），输入：5V-1A，输出：5V-0.25A。"
+          }
+        },
+        {
+          "value": "LC3",
+          "evidence": {
+            "value": "LC3",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "其他方面，MOONDROP U.C.T.S.搭载偶极指向传声技术，有效降低漏音，保护用户隐私；搭载全向优化的FPC天线，实现更稳定的无线连接；支持新一代蓝牙音频LE AUDIO的LC3编解码协议，带来更低延迟和高保真信号传输；耳机搭配充电仓可提供9+21.5h（AAC，50%电量）的续航时间，能够很好的满足日常使用需求。"
+          }
+        }
       ],
       "multipoint": [],
       "app_name": "",
       "app_features": [
-        "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸。"
+        {
+          "value": "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸。",
+          "evidence": {
+            "value": "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸。"
+          }
+        }
       ],
       "ota_support": [],
       "latency_notes": [
-        "在2026年初，水月雨联合开放世界动作游戏《鸣潮》，推出了MOONDROP U.C.T.S.开放式耳机，主打高颜值、高音质与低延迟的综合体验。",
-        "在功能配置方面，支持“男/女漂泊者”联动专属提示音，支持高保真音乐和55ms低延迟游戏双模式，支持AI通话降噪功能，满足不同场景的使用需求。",
-        "其他方面，MOONDROP U.C.T.S.搭载偶极指向传声技术，有效降低漏音，保护用户隐私；搭载全向优化的FPC天线，实现更稳定的无线连接；支持新一代蓝牙音频LE AUDIO的LC3编解码协议，带来更低延迟和高保真信号传输；耳机搭配充电仓可提供9+21.5h（AAC，50%电量）的续航时间，能够很好的满足日常使用需求。"
-      ]
+        {
+          "value": "在2026年初，水月雨联合开放世界动作游戏《鸣潮》，推出了MOONDROP U.C.T.S.开放式耳机，主打高颜值、高音质与低延迟的综合体验。",
+          "evidence": {
+            "value": "在2026年初，水月雨联合开放世界动作游戏《鸣潮》，推出了MOONDROP U.C.T.S.开放式耳机，主打高颜值、高音质与低延迟的综合体验。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "在2026年初，水月雨联合开放世界动作游戏《鸣潮》，推出了MOONDROP U.C.T.S.开放式耳机，主打高颜值、高音质与低延迟的综合体验。"
+          }
+        },
+        {
+          "value": "在功能配置方面，支持“男/女漂泊者”联动专属提示音，支持高保真音乐和55ms低延迟游戏双模式，支持AI通话降噪功能，满足不同场景的使用需求。",
+          "evidence": {
+            "value": "在功能配置方面，支持“男/女漂泊者”联动专属提示音，支持高保真音乐和55ms低延迟游戏双模式，支持AI通话降噪功能，满足不同场景的使用需求。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "在功能配置方面，支持“男/女漂泊者”联动专属提示音，支持高保真音乐和55ms低延迟游戏双模式，支持AI通话降噪功能，满足不同场景的使用需求。"
+          }
+        },
+        {
+          "value": "其他方面，MOONDROP U.C.T.S.搭载偶极指向传声技术，有效降低漏音，保护用户隐私；搭载全向优化的FPC天线，实现更稳定的无线连接；支持新一代蓝牙音频LE AUDIO的LC3编解码协议，带来更低延迟和高保真信号传输；耳机搭配充电仓可提供9+21.5h（AAC，50%电量）的续航时间，能够很好的满足日常使用需求。",
+          "evidence": {
+            "value": "其他方面，MOONDROP U.C.T.S.搭载偶极指向传声技术，有效降低漏音，保护用户隐私；搭载全向优化的FPC天线，实现更稳定的无线连接；支持新一代蓝牙音频LE AUDIO的LC3编解码协议，带来更低延迟和高保真信号传输；耳机搭配充电仓可提供9+21.5h（AAC，50%电量）的续航时间，能够很好的满足日常使用需求。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "其他方面，MOONDROP U.C.T.S.搭载偶极指向传声技术，有效降低漏音，保护用户隐私；搭载全向优化的FPC天线，实现更稳定的无线连接；支持新一代蓝牙音频LE AUDIO的LC3编解码协议，带来更低延迟和高保真信号传输；耳机搭配充电仓可提供9+21.5h（AAC，50%电量）的续航时间，能够很好的满足日常使用需求。"
+          }
+        }
+      ],
+      "bluetooth_evidence": {
+        "value": "6.0",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙6.0"
+      }
     }
-  }
+  },
+  "data_completeness": 0.826
 }

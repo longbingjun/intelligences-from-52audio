@@ -25,28 +25,39 @@ class MarketView:
     launch_date: Optional[str] = None
     price_cny: Optional[float] = None
     price_note: str = ""
-    selling_points: list[str] = field(default_factory=list)
+    selling_points: list[dict] = field(default_factory=list)
     scenarios: list[str] = field(default_factory=list)
     positioning_summary: str = ""
+    launch_date_evidence: Optional[dict] = None
+    price_evidence: Optional[dict] = None
 
 
 @dataclass
 class CostView:
     major_parts: list[str] = field(default_factory=list)
     chip_modules: list[dict] = field(default_factory=list)
+    bom_table: list[dict] = field(default_factory=list)
+    supply_hints: list[dict] = field(default_factory=list)
     packaging_notes: list[str] = field(default_factory=list)
-    process_hints: list[str] = field(default_factory=list)
+    process_hints: list[dict] = field(default_factory=list)
 
 
 @dataclass
 class StructureView:
     form_factor: str = ""
+    earbud_type: str = ""
     materials: list[str] = field(default_factory=list)
     ip_rating: Optional[str] = None
     weight_g: Optional[str] = None
     dimensions: list[str] = field(default_factory=list)
-    wear_design: list[str] = field(default_factory=list)
+    internal_structure: list[dict] = field(default_factory=list)
+    fastener_type: list[dict] = field(default_factory=list)
+    sealing_method: list[dict] = field(default_factory=list)
+    wear_design: list[dict] = field(default_factory=list)
+    key_image_urls: list[dict] = field(default_factory=list)
     assembly_notes: list[str] = field(default_factory=list)
+    ip_rating_evidence: Optional[dict] = None
+    weight_evidence: Optional[dict] = None
 
 
 @dataclass
@@ -57,12 +68,13 @@ class HardwareView:
 @dataclass
 class SoftwareView:
     bluetooth_version: Optional[str] = None
-    codecs: list[str] = field(default_factory=list)
-    multipoint: list[str] = field(default_factory=list)
+    codecs: list[dict] = field(default_factory=list)
+    multipoint: list[dict] = field(default_factory=list)
     app_name: str = ""
-    app_features: list[str] = field(default_factory=list)
-    ota_support: list[str] = field(default_factory=list)
-    latency_notes: list[str] = field(default_factory=list)
+    app_features: list[dict] = field(default_factory=list)
+    ota_support: list[dict] = field(default_factory=list)
+    latency_notes: list[dict] = field(default_factory=list)
+    bluetooth_evidence: Optional[dict] = None
 
 
 @dataclass
@@ -91,6 +103,7 @@ class ReportRecord:
     author: str = ""
     summary: str = ""
     captured_at: str = ""
+    data_completeness: float = 0.0
     views: RoleViews = field(default_factory=RoleViews)
 
     def to_dict(self) -> dict:
@@ -117,6 +130,7 @@ class VideoRecord:
     video_embed_url: str = ""
     captured_at: str = ""
     asr_status: str = "pending"
+    data_completeness: float = 0.0
     views: RoleViews = field(default_factory=RoleViews)
 
     def to_dict(self) -> dict:

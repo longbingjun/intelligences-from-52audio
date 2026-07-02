@@ -20,18 +20,44 @@
       "price_cny": null,
       "price_note": "",
       "selling_points": [
-        "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
-        "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
-        "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
-        "英集芯IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。",
-        "主板上，采用了INJOINIC英集芯IP5513电源管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等多功能，单芯片为充电盒提供完整的电源解决方案。",
-        "INJOINIC英集芯IP5513详细资料图。"
+        {
+          "text": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+          "tag": "其他",
+          "evidence": {
+            "value": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+            "confidence": 0.57,
+            "source_type": "text",
+            "source_text": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。"
+          }
+        },
+        {
+          "text": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。"
+          }
+        },
+        {
+          "text": "蓝牙版本：V5.3，传输距离：10m，喇叭直径：16.2mm，喇叭阻抗：16Ω，灵敏度：85±3dB，频响范围：20Hz-20kHz，电池容量（充电盒）：390mAh 3.7V，电池容量（耳机）：60mAh 3.7V，充电时间：约1.5h，配合充电盒播放时间：约16小时，制造商：深圳悦享无线科技有限公司。",
+          "tag": "其他",
+          "evidence": {
+            "value": "蓝牙版本：V5.3，传输距离：10m，喇叭直径：16.2mm，喇叭阻抗：16Ω，灵敏度：85±3dB，频响范围：20Hz-20kHz，电池容量（充电盒）：390mAh 3.7V，电池容量（耳机）：60mAh 3.7V，充电时间：约1.5h，配合充电盒播放时间：约16小时，制造商：深圳悦享无线科技有限公司。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "蓝牙版本：V5.3，传输距离：10m，喇叭直径：16.2mm，喇叭阻抗：16Ω，灵敏度：85±3dB，频响范围：20Hz-20kHz，电池容量（充电盒）：390mAh 3.7V，电池容量（耳机）：60mAh 3.7V，充电时间：约1.5h，配合充电盒播放时间：约16小时，制造商：深圳悦享无线科技有限公司。"
+          }
+        }
       ],
       "scenarios": [
         "游戏",
         "通话"
       ],
-      "positioning_summary": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。"
+      "positioning_summary": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+      "launch_date_evidence": null,
+      "price_evidence": null
     },
     "cost": {
       "major_parts": [
@@ -45,29 +71,241 @@
       ],
       "chip_modules": [
         {
-          "part": "芯片/模组",
+          "component": "芯片/模组",
           "brand": "",
           "model": "JL7006",
-          "qty_hint": ""
-        },
-        {
-          "part": "芯片/模组",
-          "brand": "",
-          "model": "JL7006",
-          "qty_hint": ""
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL7006",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "JL7006"
+          }
         }
       ],
+      "bom_table": [
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "MONSTER魔声是一家成立于1979年的国际知名老牌音频厂商，致力于开发设计创造性产品以提升音乐音质。XKO07开放式耳机是该品牌旗下一款高性价比产品，外观上耳机采用耳挂式设计，提供持久的舒适聆听体验；充电盒采用人工纺织毛绒材质，触感柔软，不易划伤。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒背面介绍了产品的主要功能特点和参数信息，以及部分公司信息。蓝牙版本：V5.3，传输距离：10m，喇叭直径：16.2mm，喇叭阻抗：16Ω，灵敏度：85±3dB，频响范围：20Hz-20kHz，电池容量（充电盒）：390mAh 3.7V，电池容量（耳机）：60mAh 3.7V，充电时间：约1.5h，配合充电盒播放时间：约16小时，制造商：深圳悦享无线科技有限公司。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，通过螺丝固定主板单元。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "在功能配置上，MONSTER魔声XKO07开放式耳机搭载16.2mm大振膜动圈喇叭，支持数字增强技术，提供360°环绕立体声；支持音乐/游戏双模式，满足不同场景需求；搭载高性能麦克风，提供精准拾音，带来清晰通话。续航方面，支持单次约9小时，综合约27小时的音乐聆听。下面就来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "在功能配置上，MONSTER魔声XKO07开放式耳机搭载16.2mm大振膜动圈喇叭，支持数字增强技术，提供360°环绕立体声；支持音乐/游戏双模式，满足不同场景需求；搭载高性能麦克风，提供精准拾音，带来清晰通话。续航方面，支持单次约9小时，综合约27小时的音乐聆听。下面就来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "component": "降噪系统",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "降噪系统",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "我爱音频网此前还拆解过MONSTER魔声AIRMARS XKT30、魔声Open Ear 101、魔声Open Ear Lite开放式耳机，魔声Monster Aria ANC钻石之泪、魔声MISSION V1 TWS耳机、魔声Clarity 108 ANC TWS耳机、魔声CLARITY 8.0 ANC真无线耳机、魔声MONSTER iSport ACHIEVE 脖挂蓝牙耳机等。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "陶瓷蓝牙天线特写，用于无线信号收发。"
+          }
+        },
+        {
+          "component": "耳挂/挂钩",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "耳挂/挂钩",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "MONSTER魔声是一家成立于1979年的国际知名老牌音频厂商，致力于开发设计创造性产品以提升音乐音质。XKO07开放式耳机是该品牌旗下一款高性价比产品，外观上耳机采用耳挂式设计，提供持久的舒适聆听体验；充电盒采用人工纺织毛绒材质，触感柔软，不易划伤。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒背部设置有Type-C充电接口和三颗指示灯。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "为耳机充电的Pogo Pin连接器特写。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "拆开充电盒外壳，取出座舱结构。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "JL7006",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL7006",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "JL杰理JL7006F蓝牙音频SoC，用于无线连接和音频数据处理。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "JL7006",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL7006",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "耳机内部搭载了ST神通天下3.7V/0.24Wh供电；采用了16.2mm大尺寸动圈喇叭，搭配复合纤维振膜，提供澎湃听感；内置一颗MEMS麦克风，提供精准拾音；主控芯片为JL杰理JL7006F蓝牙音频SoC。"
+          }
+        }
+      ],
+      "supply_hints": [],
       "packaging_notes": [
         "打开包装盒，取出内部所有物品，包括了主机、充电线和说明书。"
       ],
       "process_hints": [
-        "充电盒内部主要电路一览，电池导线与主板焊接。",
-        "腔体内部主板单元结构一览，与导线焊接，打胶防护。",
-        "断开电池与主板焊接的导线。"
+        {
+          "value": "充电盒内部主要电路一览，电池导线与主板焊接。",
+          "evidence": {
+            "value": "充电盒内部主要电路一览，电池导线与主板焊接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "充电盒内部主要电路一览，电池导线与主板焊接。"
+          }
+        },
+        {
+          "value": "腔体内部主板单元结构一览，与导线焊接，打胶防护。",
+          "evidence": {
+            "value": "腔体内部主板单元结构一览，与导线焊接，打胶防护。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "腔体内部主板单元结构一览，与导线焊接，打胶防护。"
+          }
+        },
+        {
+          "value": "断开电池与主板焊接的导线。",
+          "evidence": {
+            "value": "断开电池与主板焊接的导线。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "断开电池与主板焊接的导线。"
+          }
+        }
       ]
     },
     "structure": {
       "form_factor": "开放式耳机",
+      "earbud_type": "入耳",
       "materials": [
         "硅胶"
       ],
@@ -78,158 +316,395 @@
         "蓝牙版本：V5.3，传输距离：10m，喇叭直径：16.2mm，喇叭阻抗：16Ω，灵敏度：85±3dB，频响范围：20Hz-20kHz，电池容量（充电盒）：390mAh 3.7V，电池容量（耳机）：60mAh 3.7V，充电时间：约1.5h，配合充电盒播放时间：约16小时，制造商：深圳悦享无线科技有限公司。",
         "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
       ],
+      "internal_structure": [
+        {
+          "value": "盒盖内侧标注的产品信息一览，电池容量：390mAh 3.7V，输入：5V-300mA，中国制造。",
+          "evidence": {
+            "value": "盒盖内侧标注的产品信息一览，电池容量：390mAh 3.7V，输入：5V-300mA，中国制造。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "盒盖内侧标注的产品信息一览，电池容量：390mAh 3.7V，输入：5V-300mA，中国制造。"
+          }
+        },
+        {
+          "value": "座舱底部结构一览，通过螺丝固定主板单元。",
+          "evidence": {
+            "value": "座舱底部结构一览，通过螺丝固定主板单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，通过螺丝固定主板单元。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，取掉主板和电池。",
+          "evidence": {
+            "value": "卸掉螺丝，取掉主板和电池。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取掉主板和电池。"
+          }
+        },
+        {
+          "value": "在功能配置上，MONSTER魔声XKO07开放式耳机搭载16.2mm大振膜动圈喇叭，支持数字增强技术，提供360°环绕立体声；支持音乐/游戏双模式，满足不同场景需求；搭载高性能麦克风，提供精准拾音，带来清晰通话。续航方面，支持单次约9小时，综合约27小时的音乐聆听。下面就来看看这款产品的详细拆解报告吧~",
+          "evidence": {
+            "value": "在功能配置上，MONSTER魔声XKO07开放式耳机搭载16.2mm大振膜动圈喇叭，支持数字增强技术，提供360°环绕立体声；支持音乐/游戏双模式，满足不同场景需求；搭载高性能麦克风，提供精准拾音，带来清晰通话。续航方面，支持单次约9小时，综合约27小时的音乐聆听。下面就来看看这款产品的详细拆解报告吧~",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "在功能配置上，MONSTER魔声XKO07开放式耳机搭载16.2mm大振膜动圈喇叭，支持数字增强技术，提供360°环绕立体声；支持音乐/游戏双模式，满足不同场景需求；搭载高性能麦克风，提供精准拾音，带来清晰通话。续航方面，支持单次约9小时，综合约27小时的音乐聆听。下面就来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "value": "腔体内部扬声器单元结构一览，设计有导音管对应到外部调音孔，用于提升低频量感。",
+          "evidence": {
+            "value": "腔体内部扬声器单元结构一览，设计有导音管对应到外部调音孔，用于提升低频量感。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "腔体内部扬声器单元结构一览，设计有导音管对应到外部调音孔，用于提升低频量感。"
+          }
+        },
+        {
+          "value": "音腔背部的麦克风拾音孔和指示灯特写。",
+          "evidence": {
+            "value": "音腔背部的麦克风拾音孔和指示灯特写。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "音腔背部的麦克风拾音孔和指示灯特写。"
+          }
+        },
+        {
+          "value": "我爱音频网此前还拆解过MONSTER魔声AIRMARS XKT30、魔声Open Ear 101、魔声Open Ear Lite开放式耳机，魔声Monster Aria ANC钻石之泪、魔声MISSION V1 TWS耳机、魔声Clarity 108 ANC TWS耳机、魔声CLARITY 8.0 ANC真无线耳机、魔声MONSTER iSport ACHIEVE 脖挂蓝牙耳机等。",
+          "evidence": {
+            "value": "我爱音频网此前还拆解过MONSTER魔声AIRMARS XKT30、魔声Open Ear 101、魔声Open Ear Lite开放式耳机，魔声Monster Aria ANC钻石之泪、魔声MISSION V1 TWS耳机、魔声Clarity 108 ANC TWS耳机、魔声CLARITY 8.0 ANC真无线耳机、魔声MONSTER iSport ACHIEVE 脖挂蓝牙耳机等。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "我爱音频网此前还拆解过MONSTER魔声AIRMARS XKT30、魔声Open Ear 101、魔声Open Ear Lite开放式耳机，魔声Monster Aria ANC钻石之泪、魔声MISSION V1 TWS耳机、魔声Clarity 108 ANC TWS耳机、魔声CLARITY 8.0 ANC真无线耳机、魔声MONSTER iSport ACHIEVE 脖挂蓝牙耳机等。"
+          }
+        },
+        {
+          "value": "陶瓷蓝牙天线特写，用于无线信号收发。",
+          "evidence": {
+            "value": "陶瓷蓝牙天线特写，用于无线信号收发。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "陶瓷蓝牙天线特写，用于无线信号收发。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "座舱底部结构一览，通过螺丝固定主板单元。",
+          "evidence": {
+            "value": "座舱底部结构一览，通过螺丝固定主板单元。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，通过螺丝固定主板单元。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，取掉主板和电池。",
+          "evidence": {
+            "value": "卸掉螺丝，取掉主板和电池。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取掉主板和电池。"
+          }
+        }
+      ],
+      "sealing_method": [
+        {
+          "value": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+          }
+        },
+        {
+          "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+          "evidence": {
+            "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+          }
+        },
+        {
+          "value": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。",
+          "evidence": {
+            "value": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。"
+          }
+        },
+        {
+          "value": "英集芯IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。",
+          "evidence": {
+            "value": "英集芯IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "英集芯IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。"
+          }
+        },
+        {
+          "value": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+          "evidence": {
+            "value": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。"
+          }
+        }
+      ],
       "wear_design": [
-        "XKO07开放式耳机是该品牌旗下一款高性价比产品，外观上耳机采用耳挂式设计，提供持久的舒适聆听体验；充电盒采用人工纺织毛绒材质，触感柔软，不易划伤。",
-        "MONSTER魔声XKO07开放式耳机整体外观一览，耳机采用了耳挂式设计，提供舒适的开放式聆听体验。",
-        "耳挂整体通过硅胶材质包裹，佩戴舒适亲肤。",
-        "耳机内侧外观一览，音腔采用了光滑圆润的质感，佩戴舒适贴合耳廓。"
+        {
+          "value": "XKO07开放式耳机是该品牌旗下一款高性价比产品，外观上耳机采用耳挂式设计，提供持久的舒适聆听体验；充电盒采用人工纺织毛绒材质，触感柔软，不易划伤。",
+          "evidence": {
+            "value": "XKO07开放式耳机是该品牌旗下一款高性价比产品，外观上耳机采用耳挂式设计，提供持久的舒适聆听体验；充电盒采用人工纺织毛绒材质，触感柔软，不易划伤。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "XKO07开放式耳机是该品牌旗下一款高性价比产品，外观上耳机采用耳挂式设计，提供持久的舒适聆听体验；充电盒采用人工纺织毛绒材质，触感柔软，不易划伤。"
+          }
+        },
+        {
+          "value": "MONSTER魔声XKO07开放式耳机充电盒采用了扁平的圆角方形设计，通过人工纺织毛绒材质，触感柔软舒适，防止出现划痕。",
+          "evidence": {
+            "value": "MONSTER魔声XKO07开放式耳机充电盒采用了扁平的圆角方形设计，通过人工纺织毛绒材质，触感柔软舒适，防止出现划痕。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "MONSTER魔声XKO07开放式耳机充电盒采用了扁平的圆角方形设计，通过人工纺织毛绒材质，触感柔软舒适，防止出现划痕。"
+          }
+        },
+        {
+          "value": "MONSTER魔声XKO07开放式耳机整体外观一览，耳机采用了耳挂式设计，提供舒适的开放式聆听体验。",
+          "evidence": {
+            "value": "MONSTER魔声XKO07开放式耳机整体外观一览，耳机采用了耳挂式设计，提供舒适的开放式聆听体验。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "MONSTER魔声XKO07开放式耳机整体外观一览，耳机采用了耳挂式设计，提供舒适的开放式聆听体验。"
+          }
+        },
+        {
+          "value": "耳挂整体通过硅胶材质包裹，佩戴舒适亲肤。",
+          "evidence": {
+            "value": "耳挂整体通过硅胶材质包裹，佩戴舒适亲肤。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "耳挂整体通过硅胶材质包裹，佩戴舒适亲肤。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026012006381749.jpg",
+          "alt": "拆解报告：MONSTER魔声XKO07开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026012006383356.jpg",
+          "alt": "拆解报告：MONSTER魔声XKO07开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026012006383169.jpg",
+          "alt": "拆解报告：MONSTER魔声XKO07开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026012006382459.jpg",
+          "alt": "拆解报告：MONSTER魔声XKO07开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026012006382241.jpg",
+          "alt": "拆解报告：MONSTER魔声XKO07开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
       ],
       "assembly_notes": [
-        "MONSTER魔声是一家成立于1979年的国际知名老牌音频厂商，致力于开发设计创造性产品以提升音乐音质。XKO07开放式耳机是该品牌旗下一款高性价比产品，外观上耳机采用耳挂式设计，提供持久的舒适聆听体验；充电盒采用人工纺织毛绒材质，触感柔软，不易划伤。",
-        "包装盒背面介绍了产品的主要功能特点和参数信息，以及部分公司信息。蓝牙版本：V5.3，传输距离：10m，喇叭直径：16.2mm，喇叭阻抗：16Ω，灵敏度：85±3dB，频响范围：20Hz-20kHz，电池容量（充电盒）：390mAh 3.7V，电池容量（耳机）：60mAh 3.7V，充电时间：约1.5h，配合充电盒播放时间：约16小时，制造商：深圳悦享无线科技有限公司。",
+        "盒盖内侧标注的产品信息一览，电池容量：390mAh 3.7V，输入：5V-300mA，中国制造。",
         "座舱底部结构一览，通过螺丝固定主板单元。",
-        "在功能配置上，MONSTER魔声XKO07开放式耳机搭载16.2mm大振膜动圈喇叭，支持数字增强技术，提供360°环绕立体声；支持音乐/游戏双模式，满足不同场景需求；搭载高性能麦克风，提供精准拾音，带来清晰通话。续航方面，支持单次约9小时，综合约27小时的音乐聆听。下面就来看看这款产品的详细拆解报告吧~",
-        "在功能配置上，MONSTER魔声XKO07开放式耳机搭载16.2mm大振膜动圈喇叭，支持数字增强技术，提供360°环绕立体声；支持音乐/游戏双模式，满足不同场景需求；搭载高性能麦克风，提供精准拾音，带来清晰通话。续航方面，支持单次约9小时，综合约27小时的音乐聆听。下面就来看看这款产品的详细拆解报告吧~",
-        "我爱音频网此前还拆解过MONSTER魔声AIRMARS XKT30、魔声Open Ear 101、魔声Open Ear Lite开放式耳机，魔声Monster Aria ANC钻石之泪、魔声MISSION V1 TWS耳机、魔声Clarity 108 ANC TWS耳机、魔声CLARITY 8.0 ANC真无线耳机、魔声MONSTER iSport ACHIEVE 脖挂蓝牙耳机等。"
-      ]
+        "卸掉螺丝，取掉主板和电池。",
+        "在功能配置上，MONSTER魔声XKO07开放式耳机搭载16.2mm大振膜动圈喇叭，支持数字增强技术，提供360°环绕立体声；支持音乐/游戏双模式，满足不同场景需求；搭载高性能麦克风，提供精准拾音，带来清晰通话。续航方面，支持单次约9小时，综合约27小时的音乐聆听。下面就来看看这款产品的详细拆解报告吧~"
+      ],
+      "ip_rating_evidence": {
+        "value": "IP5",
+        "confidence": 0.8,
+        "source_type": "text",
+        "source_text": "IP5"
+      },
+      "weight_evidence": {
+        "value": "95.9g",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "95.9g"
+      }
     },
     "hardware": {
       "specs": [
         {
-          "part": "充电接口",
-          "brand": "",
-          "model": "",
+          "param": "充电接口",
           "value": "充电线采用了USB-A to Type-C插头。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "充电接口",
           "brand": "",
           "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电线采用了USB-A to Type-C插头。"
+        },
+        {
+          "param": "充电接口",
           "value": "充电盒背部设置有Type-C充电接口和三颗指示灯。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "充电接口",
           "brand": "",
           "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒背部设置有Type-C充电接口和三颗指示灯。"
+        },
+        {
+          "param": "充电接口",
           "value": "Type-C充电母座特写。",
           "unit": "",
-          "source_ref": "text"
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充电母座特写。"
         },
         {
-          "part": "充电接口",
-          "brand": "",
-          "model": "Type-C",
+          "param": "充电接口",
           "value": "Type-C",
           "unit": "",
-          "source_ref": "text"
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
         },
         {
-          "part": "充电接口",
-          "brand": "",
-          "model": "USB-A",
+          "param": "充电接口",
           "value": "USB-A",
           "unit": "",
-          "source_ref": "text"
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
         },
         {
-          "part": "标记/认证",
-          "brand": "",
-          "model": "",
+          "param": "标记/认证",
           "value": "蓝牙版本：V5.3，传输距离：10m，喇叭直径：16.2mm，喇叭阻抗：16Ω，灵敏度：85±3dB，频响范围：20Hz-20kHz，电池容量（充电盒）：390mAh 3.7V，电池容量（耳机）：60mAh 3.7V，充电时间：约1.5h，配合充电盒播放时间：约16小时，制造商：深圳悦享无线科技有限公司。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "蓝牙版本：V5.3，传输距离：10m，喇叭直径：16.2mm，喇叭阻抗：16Ω，灵敏度：85±3dB，频响范围：20Hz-20kHz，电池容量（充电盒）：390mAh 3.7V，电池容量（耳机）：60mAh 3.7V，充电时间：约1.5h，"
+        },
+        {
+          "param": "标记/认证",
           "value": "我爱音频网使用\nCHARGERLAB POWER-Z KM003C\n对MONSTER魔声XKO07开放式耳机进行充电测试，输入功率约为1.64W。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "我爱音频网使用\nCHARGERLAB POWER-Z KM003C\n对MONSTER魔声XKO07开放式耳机进行充电测试，输入功率约为1.64W。"
+        },
+        {
+          "param": "标记/认证",
           "value": "充电盒内置锂电池型号：ST 482535，标称电压：3.7V，额定容量：390mAh 1.443Wh，来自ST神通天下。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒内置锂电池型号：ST 482535，标称电压：3.7V，额定容量：390mAh 1.443Wh，来自ST神通天下。"
+        },
+        {
+          "param": "标记/认证",
           "value": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+        },
+        {
+          "param": "标记/认证",
           "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+        },
+        {
+          "param": "标记/认证",
           "value": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。"
+        },
+        {
+          "param": "标记/认证",
           "value": "英集芯IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "英集芯IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。"
+        },
+        {
+          "param": "标记/认证",
           "value": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。"
+        },
+        {
+          "param": "标记/认证",
           "value": "INJOINIC英集芯IP5513详细资料图。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "INJOINIC英集芯IP5513详细资料图。"
+        },
+        {
+          "param": "标记/认证",
           "value": "耳机内置锂电池型号：ST 601215，标称电压：3.7V，额定能量：0.24Wh，同样来自ST神通天下。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "标记/认证",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "耳机内置锂电池型号：ST 601215，标称电压：3.7V，额定能量：0.24Wh，同样来自ST神通天下。"
+        },
+        {
+          "param": "标记/认证",
           "value": "主板上，采用了INJOINIC英集芯IP5513电源管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等多功能，单芯片为充电盒提供完整的电源解决方案。",
           "unit": "",
-          "source_ref": "text"
-        },
-        {
-          "part": "电池",
           "brand": "",
           "model": "",
+          "confidence": 0.7,
+          "source_ref": "主板上，采用了INJOINIC英集芯IP5513电源管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等多功能，单芯片为充电盒提供完整的电源解决方案。"
+        },
+        {
+          "param": "电池容量",
           "value": "390",
           "unit": "mAh",
-          "source_ref": "text"
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "390mAh"
         }
       ]
     },
@@ -239,10 +714,20 @@
       "multipoint": [],
       "app_name": "",
       "app_features": [
-        "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+        {
+          "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+          "evidence": {
+            "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+          }
+        }
       ],
       "ota_support": [],
-      "latency_notes": []
+      "latency_notes": [],
+      "bluetooth_evidence": null
     }
-  }
+  },
+  "data_completeness": 0.678
 }

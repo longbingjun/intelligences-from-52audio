@@ -24,54 +24,105 @@
       "price_cny": null,
       "price_note": "",
       "selling_points": [
-        "在功能配置上，搭载6mm驱动单元，支持LDAC高清音频解码，获得了Hi-Res Audio WIRELESS金标认证；支持蓝牙5.3，支持多点连接，可同时连接3台设备使用。",
-        "Technics AZ40M2真无线降噪耳机，在外观上延续了该系列的精致设计，具有着出色的质感。"
+        {
+          "text": "Technics AZ40M2真无线降噪耳机，在外观上延续了该系列的精致设计，具有着出色的质感。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "Technics AZ40M2真无线降噪耳机，在外观上延续了该系列的精致设计，具有着出色的质感。",
+            "confidence": 0.75,
+            "source_type": "text",
+            "source_text": "Technics AZ40M2真无线降噪耳机，在外观上延续了该系列的精致设计，具有着出色的质感。"
+          }
+        }
       ],
       "scenarios": [],
-      "positioning_summary": "在功能配置上，搭载6mm驱动单元，支持LDAC高清音频解码，获得了Hi-Res Audio WIRELESS金标认证；支持蓝牙5.3，支持多点连接，可同时连接3台设备使用。"
+      "positioning_summary": "Technics AZ40M2真无线降噪耳机，在外观上延续了该系列的精致设计，具有着出色的质感。",
+      "launch_date_evidence": null,
+      "price_evidence": null
     },
     "cost": {
       "major_parts": [],
       "chip_modules": [],
+      "bom_table": [],
+      "supply_hints": [],
       "packaging_notes": [],
       "process_hints": []
     },
     "structure": {
       "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
       "materials": [],
       "ip_rating": null,
       "weight_g": null,
       "dimensions": [
         "在功能配置上，搭载6mm驱动单元，支持LDAC高清音频解码，获得了Hi-Res Audio WIRELESS金标认证；支持蓝牙5.3，支持多点连接，可同时连接3台设备使用。"
       ],
+      "internal_structure": [],
+      "fastener_type": [],
+      "sealing_method": [],
       "wear_design": [],
-      "assembly_notes": []
+      "key_image_urls": [],
+      "assembly_notes": [],
+      "ip_rating_evidence": null,
+      "weight_evidence": null
     },
     "hardware": {
       "specs": [
         {
-          "part": "标记/认证",
-          "brand": "",
-          "model": "",
+          "param": "标记/认证",
           "value": "在功能配置上，搭载6mm驱动单元，支持LDAC高清音频解码，获得了Hi-Res Audio WIRELESS金标认证；支持蓝牙5.3，支持多点连接，可同时连接3台设备使用。",
           "unit": "",
-          "source_ref": "text"
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "在功能配置上，搭载6mm驱动单元，支持LDAC高清音频解码，获得了Hi-Res Audio WIRELESS金标认证；支持蓝牙5.3，支持多点连接，可同时连接3台设备使用。"
         }
       ]
     },
     "software": {
       "bluetooth_version": "5.3",
       "codecs": [
-        "LDAC",
-        "Hi-Res"
+        {
+          "value": "LDAC",
+          "evidence": {
+            "value": "LDAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "在功能配置上，搭载6mm驱动单元，支持LDAC高清音频解码，获得了Hi-Res Audio WIRELESS金标认证；支持蓝牙5.3，支持多点连接，可同时连接3台设备使用。"
+          }
+        },
+        {
+          "value": "Hi-Res",
+          "evidence": {
+            "value": "Hi-Res",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "在功能配置上，搭载6mm驱动单元，支持LDAC高清音频解码，获得了Hi-Res Audio WIRELESS金标认证；支持蓝牙5.3，支持多点连接，可同时连接3台设备使用。"
+          }
+        }
       ],
       "multipoint": [
-        "在功能配置上，搭载6mm驱动单元，支持LDAC高清音频解码，获得了Hi-Res Audio WIRELESS金标认证；支持蓝牙5.3，支持多点连接，可同时连接3台设备使用。"
+        {
+          "value": "在功能配置上，搭载6mm驱动单元，支持LDAC高清音频解码，获得了Hi-Res Audio WIRELESS金标认证；支持蓝牙5.3，支持多点连接，可同时连接3台设备使用。",
+          "evidence": {
+            "value": "在功能配置上，搭载6mm驱动单元，支持LDAC高清音频解码，获得了Hi-Res Audio WIRELESS金标认证；支持蓝牙5.3，支持多点连接，可同时连接3台设备使用。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "在功能配置上，搭载6mm驱动单元，支持LDAC高清音频解码，获得了Hi-Res Audio WIRELESS金标认证；支持蓝牙5.3，支持多点连接，可同时连接3台设备使用。"
+          }
+        }
       ],
       "app_name": "",
       "app_features": [],
       "ota_support": [],
-      "latency_notes": []
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "5.3",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.3"
+      }
     }
-  }
+  },
+  "data_completeness": 0.216
 }

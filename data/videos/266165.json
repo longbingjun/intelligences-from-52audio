@@ -24,25 +24,57 @@
       "price_cny": null,
       "price_note": "",
       "selling_points": [
-        "Chorus基于全新定制的非入耳式音响系统，为VR体验带来身临其境的超逼真音频体验；耳机支持快速旋转静音，使用也非常便捷。"
+        {
+          "text": "Chorus基于全新定制的非入耳式音响系统，为VR体验带来身临其境的超逼真音频体验；耳机支持快速旋转静音，使用也非常便捷。",
+          "tag": "其他",
+          "evidence": {
+            "value": "Chorus基于全新定制的非入耳式音响系统，为VR体验带来身临其境的超逼真音频体验；耳机支持快速旋转静音，使用也非常便捷。",
+            "confidence": 0.75,
+            "source_type": "text",
+            "source_text": "Chorus基于全新定制的非入耳式音响系统，为VR体验带来身临其境的超逼真音频体验；耳机支持快速旋转静音，使用也非常便捷。"
+          }
+        }
       ],
       "scenarios": [],
-      "positioning_summary": "Chorus基于全新定制的非入耳式音响系统，为VR体验带来身临其境的超逼真音频体验；耳机支持快速旋转静音，使用也非常便捷。"
+      "positioning_summary": "Chorus基于全新定制的非入耳式音响系统，为VR体验带来身临其境的超逼真音频体验；耳机支持快速旋转静音，使用也非常便捷。",
+      "launch_date_evidence": null,
+      "price_evidence": null
     },
     "cost": {
       "major_parts": [],
       "chip_modules": [],
+      "bom_table": [],
+      "supply_hints": [],
       "packaging_notes": [],
       "process_hints": []
     },
     "structure": {
       "form_factor": "其他音频设备",
+      "earbud_type": "入耳",
       "materials": [],
       "ip_rating": null,
       "weight_g": null,
       "dimensions": [],
+      "internal_structure": [
+        {
+          "value": "Logitech罗技Chorus离耳式耳机采用了贴合Quest 2头带臂的设计，使用时固定在头带臂上，通过USB-C连接头显，即插即用；同时耳机配备USB-C接口，不影响头显充电。",
+          "evidence": {
+            "value": "Logitech罗技Chorus离耳式耳机采用了贴合Quest 2头带臂的设计，使用时固定在头带臂上，通过USB-C连接头显，即插即用；同时耳机配备USB-C接口，不影响头显充电。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "Logitech罗技Chorus离耳式耳机采用了贴合Quest 2头带臂的设计，使用时固定在头带臂上，通过USB-C连接头显，即插即用；同时耳机配备USB-C接口，不影响头显充电。"
+          }
+        }
+      ],
+      "fastener_type": [],
+      "sealing_method": [],
       "wear_design": [],
-      "assembly_notes": []
+      "key_image_urls": [],
+      "assembly_notes": [
+        "Logitech罗技Chorus离耳式耳机采用了贴合Quest 2头带臂的设计，使用时固定在头带臂上，通过USB-C连接头显，即插即用；同时耳机配备USB-C接口，不影响头显充电。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": null
     },
     "hardware": {
       "specs": []
@@ -54,7 +86,9 @@
       "app_name": "",
       "app_features": [],
       "ota_support": [],
-      "latency_notes": []
+      "latency_notes": [],
+      "bluetooth_evidence": null
     }
-  }
+  },
+  "data_completeness": 0.076
 }

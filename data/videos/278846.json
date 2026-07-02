@@ -17,30 +17,68 @@
   "asr_status": "pending",
   "views": {
     "market": {
-      "brand": "",
-      "model": "",
-      "category": "",
+      "brand": "SoundAI声智",
+      "model": "云耳开放式无线",
+      "category": "开放式耳机",
       "launch_date": null,
       "price_cny": null,
       "price_note": "",
-      "selling_points": [],
-      "scenarios": [],
-      "positioning_summary": ""
+      "selling_points": [
+        {
+          "text": "SoundAI声智云耳开放式无线耳机为开放式聆听研发专利定向传音技术，能够减少500%+声能损耗；并采用16.2mm重低音超大尺寸生物动态驱动单元，同时支持低音自适应增益补偿，带来三频均衡的音频效果和丰富的声音细节；还支持360度空间环绕音，动态均衡音频算法，提供个性化的音频体验。",
+          "tag": "开放佩戴",
+          "evidence": {
+            "value": "SoundAI声智云耳开放式无线耳机为开放式聆听研发专利定向传音技术，能够减少500%+声能损耗；并采用16.2mm重低音超大尺寸生物动态驱动单元，同时支持低音自适应增益补偿，带来三频均衡的音频效果和丰富的声音细节；还支持360度空间环绕音，动态均衡音频算法，提供个性化的音频体验。",
+            "confidence": 0.75,
+            "source_type": "text",
+            "source_text": "SoundAI声智云耳开放式无线耳机为开放式聆听研发专利定向传音技术，能够减少500%+声能损耗；并采用16.2mm重低音超大尺寸生物动态驱动单元，同时支持低音自适应增益补偿，带来三频均衡的音频效果和丰富的声音细节；还支持360度空间环绕音，动态均衡音频算法，提供个性化的音频体验。"
+          }
+        },
+        {
+          "text": "另外，通过专利反向声学泄音腔设计，保障通话隐私；通过高能抗风通话降噪功能，适应高风速户外运动场景使用。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "另外，通过专利反向声学泄音腔设计，保障通话隐私；通过高能抗风通话降噪功能，适应高风速户外运动场景使用。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "另外，通过专利反向声学泄音腔设计，保障通话隐私；通过高能抗风通话降噪功能，适应高风速户外运动场景使用。"
+          }
+        }
+      ],
+      "scenarios": [
+        "运动",
+        "通话",
+        "户外"
+      ],
+      "positioning_summary": "SoundAI声智云耳开放式无线耳机为开放式聆听研发专利定向传音技术，能够减少500%+声能损耗；并采用16.2mm重低音超大尺寸生物动态驱动单元，同时支持低音自适应增益补偿，带来三频均衡的音频效果和丰富的声音细节；还支持360度空间环绕音，动态均衡音频算法，提供个性化的音频体验。",
+      "launch_date_evidence": null,
+      "price_evidence": null
     },
     "cost": {
       "major_parts": [],
       "chip_modules": [],
+      "bom_table": [],
+      "supply_hints": [],
       "packaging_notes": [],
       "process_hints": []
     },
     "structure": {
-      "form_factor": "",
+      "form_factor": "开放式耳机",
+      "earbud_type": "开放",
       "materials": [],
       "ip_rating": null,
       "weight_g": null,
-      "dimensions": [],
+      "dimensions": [
+        "SoundAI声智云耳开放式无线耳机为开放式聆听研发专利定向传音技术，能够减少500%+声能损耗；并采用16.2mm重低音超大尺寸生物动态驱动单元，同时支持低音自适应增益补偿，带来三频均衡的音频效果和丰富的声音细节；还支持360度空间环绕音，动态均衡音频算法，提供个性化的音频体验。"
+      ],
+      "internal_structure": [],
+      "fastener_type": [],
+      "sealing_method": [],
       "wear_design": [],
-      "assembly_notes": []
+      "key_image_urls": [],
+      "assembly_notes": [],
+      "ip_rating_evidence": null,
+      "weight_evidence": null
     },
     "hardware": {
       "specs": []
@@ -52,7 +90,9 @@
       "app_name": "",
       "app_features": [],
       "ota_support": [],
-      "latency_notes": []
+      "latency_notes": [],
+      "bluetooth_evidence": null
     }
-  }
+  },
+  "data_completeness": 0.128
 }
