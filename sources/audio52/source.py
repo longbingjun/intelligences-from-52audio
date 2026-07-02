@@ -35,7 +35,7 @@ from core.extract.text_utils import (
     extract_video_embed_urls,
     plain_text as html_plain_text,
 )
-from core.models import TeardownReport, VideoItem
+from core.models import ImageAsset, TeardownReport, VideoItem
 from sources.audio52 import lexicon
 from sources.audio52.parse_title import parse_title
 
@@ -89,6 +89,27 @@ def _guess_video_source_site(embed_url: str) -> str:
     return "未知视频平台（待人工确认）"
 
 
+def _images_from_saved(saved: list[dict]) -> list[ImageAsset]:
+    return [
+        ImageAsset(
+            index=img.get("index", i),
+            url=img.get("url", ""),
+            alt=img.get("alt", ""),
+            caption=img.get("caption", ""),
+            width=img.get("width"),
+            height=img.get("height"),
+            aspect_ratio=img.get("aspect_ratio"),
+            edge_density=img.get("edge_density"),
+            classification=img.get("classification", "unknown"),
+            classification_reason=img.get("classification_reason", ""),
+            ocr_status=img.get("ocr_status", "not_applicable"),
+            ocr_engine=img.get("ocr_engine"),
+            ocr_text=img.get("ocr_text"),
+        )
+        for i, img in enumerate(saved)
+    ]
+
+
 class Audio52Source(BaseSource):
     source_id = "audio52"
     display_name = "我爱音频网 52audio.com（拆解分类）"
@@ -111,6 +132,8 @@ class Audio52Source(BaseSource):
         self.session = requests.Session()
         self.session.headers.update({"User-Agent": user_agent, "Accept": "application/rss+xml, text/xml"})
         self.image_queue_entries: list[dict] = []
+        # 由 pipeline 注入：用于跳过正文未变文章的重复图片下载（大幅缩短定时任务耗时）
+        self.existing_reports: dict[str, dict] = {}
 
     # ------------------------------------------------------------------
     # fetch_list: 分页拉取分类 RSS Feed，直到集齐 limit 条（按 link 去重）
@@ -218,20 +241,26 @@ class Audio52Source(BaseSource):
         # ---- 拆解报告 ----
         plain = html_plain_text(content_html)
         raw_images = extract_all_image_urls(content_html)[: self.max_images_per_article]
+        article_id = _extract_id(item["url"])
+        prev = self.existing_reports.get(article_id)
 
-        images = []
+        images: list[ImageAsset] = []
         if self.fetch_images and raw_images:
-            images, queue_entries = build_image_assets(
-                raw_images,
-                self.session,
-                request_delay_sec=self.image_request_delay_sec,
-                download_timeout=self.timeout,
-                user_agent=self.user_agent,
-            )
-            for q in queue_entries:
-                q["article_url"] = item["url"]
-                q["article_title"] = parsed.product_title
-                self.image_queue_entries.append(q)
+            # 正文未变时复用已分析过的图片元数据，避免每次定时任务重复下载数百张图
+            if prev and prev.get("content_html") == content_html and prev.get("images"):
+                images = _images_from_saved(prev["images"])
+            else:
+                images, queue_entries = build_image_assets(
+                    raw_images,
+                    self.session,
+                    request_delay_sec=self.image_request_delay_sec,
+                    download_timeout=self.timeout,
+                    user_agent=self.user_agent,
+                )
+                for q in queue_entries:
+                    q["article_url"] = item["url"]
+                    q["article_title"] = parsed.product_title
+                    self.image_queue_entries.append(q)
 
         selling_points = extract_selling_points(plain, lexicon.SELLING_POINT_KEYWORDS)
         major, minor = extract_components(content_html, lexicon.COMPONENT_LEXICON)

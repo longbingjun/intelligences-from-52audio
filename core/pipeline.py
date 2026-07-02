@@ -61,6 +61,10 @@ def run_sources(sources: list[BaseSource], limit_per_source: int = 30) -> dict:
         new_videos = 0
         updated_videos = 0
         errors = 0
+        images_reused = 0
+
+        if hasattr(source, "existing_reports"):
+            source.existing_reports = existing_reports
 
         list_items = source.fetch_list(limit=limit_per_source)
         for raw_item in list_items:
@@ -75,6 +79,13 @@ def run_sources(sources: list[BaseSource], limit_per_source: int = 30) -> dict:
 
             if isinstance(parsed, TeardownReport):
                 prev = existing_reports.get(parsed.id)
+                if (
+                    prev
+                    and prev.get("content_html") == parsed.content_html
+                    and prev.get("images")
+                    and parsed.images
+                ):
+                    images_reused += 1
                 parsed.first_seen_at = prev["first_seen_at"] if prev and prev.get("first_seen_at") else now_iso
                 if prev is None:
                     new_reports += 1
@@ -102,6 +113,7 @@ def run_sources(sources: list[BaseSource], limit_per_source: int = 30) -> dict:
             "updated_reports": updated_reports,
             "new_videos": new_videos,
             "updated_videos": updated_videos,
+            "images_reused": images_reused,
             "errors": errors,
         }
 
