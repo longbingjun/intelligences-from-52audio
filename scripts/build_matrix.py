@@ -37,9 +37,24 @@ def _record_identity(record: dict) -> tuple[str, str, str]:
     return brand, model, category
 
 
-def _extract_selling_point_tags(selling_points: list[str]) -> list[str]:
-    text = " ".join(selling_points)
+def _selling_point_texts(selling_points: list) -> list[str]:
+    texts = []
+    for sp in selling_points:
+        if isinstance(sp, str):
+            texts.append(sp)
+        elif isinstance(sp, dict):
+            texts.append(sp.get("text", "") or "")
+            if sp.get("tag"):
+                texts.append(str(sp["tag"]))
+    return [t for t in texts if t]
+
+
+def _extract_selling_point_tags(selling_points: list) -> list[str]:
     tags = []
+    for sp in selling_points:
+        if isinstance(sp, dict) and sp.get("tag"):
+            tags.append(sp["tag"])
+    text = " ".join(_selling_point_texts(selling_points))
     for kw in SELLING_POINT_KEYWORDS:
         if kw in text and kw not in tags:
             tags.append(kw)
@@ -76,6 +91,10 @@ def _merge_views(target: dict, record: dict) -> None:
     for t in tags:
         if t not in target["selling_point_tags"]:
             target["selling_point_tags"].append(t)
+
+    dc = record.get("data_completeness")
+    if dc is not None:
+        target["data_completeness"] = max(target.get("data_completeness") or 0, float(dc))
 
 
 def _completeness(row: dict) -> float:

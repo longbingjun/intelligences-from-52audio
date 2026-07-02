@@ -1,6 +1,6 @@
 {
   "category": "其他音频设备",
-  "generated_at": "2026-07-02T17:36:28+08:00",
+  "generated_at": "2026-07-02T17:42:54+08:00",
   "columns": [
     "price_cny",
     "launch_date",
@@ -18,18 +18,28 @@
       "price_cny": null,
       "launch_date": "2026-01-14",
       "codecs": [
-        "Hi-Res"
+        {
+          "value": "Hi-Res",
+          "evidence": {
+            "value": "Hi-Res",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "FiiO飞傲KA15解码耳放搭载高性能USB桥，搭配双旗舰DAC和双高性能运放，至高支持768kHz/32bit，DSD256的音频规格，能够轻松应对各种无损音频格式，并通过了Hi-Res金标认证；支持飞傲专利台机模式（D.Mode），平衡输出功率可飙升至560mW+560mW每声道，能够更好的驱动低阻和高阻耳机。"
+          }
+        }
       ],
       "bluetooth": null,
       "major_chips": [],
       "selling_point_tags": [
+        "音质认证",
+        "其他",
+        "旗舰定位",
         "专利",
         "旗舰",
         "全新",
         "高端",
         "认证",
-        "Hi-Res",
-        "降噪"
+        "Hi-Res"
       ],
       "data_completeness": 0.5
     },
@@ -67,6 +77,7 @@
       "bluetooth": null,
       "major_chips": [],
       "selling_point_tags": [
+        "其他",
         "全新",
         "定制"
       ],
@@ -85,9 +96,12 @@
         "高通WCN3980"
       ],
       "selling_point_tags": [
-        "全新",
+        "舒适佩戴",
+        "其他",
+        "防水防尘",
         "创新",
         "防水",
+        "防尘",
         "轻量化",
         "灵敏度"
       ],
@@ -100,7 +114,15 @@
       "price_cny": null,
       "launch_date": "2026-04-09",
       "codecs": [
-        "aptX"
+        {
+          "value": "aptX",
+          "evidence": {
+            "value": "aptX",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "高通QCC5181支持aptX音频编解码技术，包括aptX Adaptive自适应音频、aptX Lossless无损音频技术，最高可达24bit/96KHz；支持aptX Voice超宽带语音技术，第八代高通cVc回声消除和噪声抑制技术；集成高通自适应主动降噪（ANC）技术，包括前馈，后馈，混合和自适应，通过高通扩展程序支持第三方创新。"
+          }
+        }
       ],
       "bluetooth": "5.4",
       "major_chips": [
@@ -112,12 +134,14 @@
         "QCC51"
       ],
       "selling_point_tags": [
+        "其他",
+        "降噪",
         "升级",
         "全新",
         "创新",
         "大幅提升",
-        "降噪",
-        "沉浸式"
+        "沉浸式",
+        "通话降噪"
       ],
       "data_completeness": 0.83
     },
@@ -131,6 +155,7 @@
       "bluetooth": null,
       "major_chips": [],
       "selling_point_tags": [
+        "长续航",
         "超长续航",
         "超长"
       ],
@@ -146,6 +171,7 @@
       "bluetooth": "5.3",
       "major_chips": [],
       "selling_point_tags": [
+        "长续航",
         "超长续航",
         "超长"
       ],
@@ -161,6 +187,7 @@
       "bluetooth": null,
       "major_chips": [],
       "selling_point_tags": [
+        "长续航",
         "超长续航",
         "超长",
         "认证",
@@ -178,6 +205,8 @@
       "bluetooth": null,
       "major_chips": [],
       "selling_point_tags": [
+        "旗舰定位",
+        "旗舰",
         "顶级"
       ],
       "data_completeness": 0.33
@@ -192,6 +221,7 @@
       "bluetooth": null,
       "major_chips": [],
       "selling_point_tags": [
+        "其他",
         "突破",
         "定制",
         "认证"
@@ -220,6 +250,7 @@
       "bluetooth": null,
       "major_chips": [],
       "selling_point_tags": [
+        "防水防尘",
         "防水",
         "防尘"
       ],
@@ -237,10 +268,12 @@
         "JL7016"
       ],
       "selling_point_tags": [
-        "首创",
-        "认证",
         "降噪",
-        "防水"
+        "其他",
+        "防水防尘",
+        "认证",
+        "防水",
+        "防尘"
       ],
       "data_completeness": 0.5
     },
@@ -251,15 +284,34 @@
       "price_cny": null,
       "launch_date": "2026-05-11",
       "codecs": [
-        "LC3",
-        "Hi-Res"
+        {
+          "value": "LC3",
+          "evidence": {
+            "value": "LC3",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "主要包括兼容多协议：支持蓝牙BT/BLE6.0双模模式和蓝牙多连接；支持蓝牙广播Auracast（和经典蓝牙共存的音频分享）；支持LE Audio新技术标准和 LC3编解码器；射频性能优秀：发射功率最高到15dBm, 接收灵敏度到达-99dBm；高性能音频算法：支持自适应Hybrid ANC及各种上下行复杂音频算法；超低功耗水平：在复杂音频算法的同时，依然保持超低功耗；生态系统丰富：更大SRAM和FLASH空间，实现应用特性更广覆盖；平台开放，支持更多产品形态。"
+          }
+        },
+        {
+          "value": "Hi-Res",
+          "evidence": {
+            "value": "Hi-Res",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "音乐体验方面，讯飞AI翻译耳机获得了Hi-Res AUDIO WIRELESS高清音频认证。"
+          }
+        }
       ],
       "bluetooth": "6.0",
       "major_chips": [],
       "selling_point_tags": [
+        "开放佩戴",
+        "音质认证",
+        "其他",
+        "降噪",
         "领先",
         "旗舰",
-        "创新",
         "第一",
         "认证",
         "Hi-Res",
@@ -289,9 +341,12 @@
       "bluetooth": "5.2",
       "major_chips": [],
       "selling_point_tags": [
+        "其他",
+        "防水防尘",
         "创新",
         "定制",
-        "防水"
+        "防水",
+        "防尘"
       ],
       "data_completeness": 0.5
     },
@@ -344,11 +399,12 @@
       "bluetooth": null,
       "major_chips": [],
       "selling_point_tags": [
-        "突破",
+        "防水防尘",
+        "其他",
         "领先",
         "创新",
         "定制",
-        "认证",
+        "极致",
         "防水",
         "防尘"
       ],
@@ -364,6 +420,8 @@
       "bluetooth": null,
       "major_chips": [],
       "selling_point_tags": [
+        "其他",
+        "长续航",
         "升级",
         "第一",
         "快充",
@@ -378,17 +436,34 @@
       "price_cny": null,
       "launch_date": "2026-03-04",
       "codecs": [
-        "AAC",
-        "Hi-Res"
+        {
+          "value": "AAC",
+          "evidence": {
+            "value": "AAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "丝印1510 DAAC的IC。"
+          }
+        },
+        {
+          "value": "Hi-Res",
+          "evidence": {
+            "value": "Hi-Res",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "以及公司信息，NearLingk、HWA Lossless 4.6Mbps及Hi-Res Wireless标识，华为智慧生活APP下载二维码。"
+          }
+        }
       ],
       "bluetooth": null,
       "major_chips": [],
       "selling_point_tags": [
+        "降噪",
+        "其他",
         "旗舰",
         "升级",
         "全新",
-        "定制",
-        "降噪"
+        "通话降噪"
       ],
       "data_completeness": 0.5
     },
@@ -414,9 +489,10 @@
       "bluetooth": null,
       "major_chips": [],
       "selling_point_tags": [
+        "其他",
+        "舒适佩戴",
         "升级",
-        "全新",
-        "舒适佩戴"
+        "全新"
       ],
       "data_completeness": 0.33
     },
@@ -430,6 +506,7 @@
       "bluetooth": null,
       "major_chips": [],
       "selling_point_tags": [
+        "其他",
         "升级",
         "全新"
       ],
@@ -445,6 +522,8 @@
       "bluetooth": "5.4",
       "major_chips": [],
       "selling_point_tags": [
+        "防水防尘",
+        "其他",
         "大幅提升",
         "防水",
         "防尘"
@@ -477,11 +556,11 @@
         "BES2610WD"
       ],
       "selling_point_tags": [
+        "空间音频",
+        "旗舰定位",
         "旗舰",
-        "定制",
         "高端",
-        "高保真",
-        "空间音频"
+        "高保真"
       ],
       "data_completeness": 0.67
     },
@@ -495,13 +574,11 @@
       "bluetooth": "5.4",
       "major_chips": [],
       "selling_point_tags": [
-        "领先",
-        "行业领先",
-        "认证",
+        "防水防尘",
+        "开放佩戴",
         "防水",
         "防尘",
-        "高保真",
-        "灵敏度"
+        "高保真"
       ],
       "data_completeness": 0.5
     },
@@ -515,9 +592,11 @@
       "bluetooth": null,
       "major_chips": [],
       "selling_point_tags": [
+        "其他",
+        "防水防尘",
         "领先",
-        "降噪",
-        "防水"
+        "防水",
+        "防尘"
       ],
       "data_completeness": 0.33
     }

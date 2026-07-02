@@ -1,6 +1,6 @@
 {
   "category": "音箱及其他音频设备",
-  "generated_at": "2026-07-02T17:36:28+08:00",
+  "generated_at": "2026-07-02T17:42:54+08:00",
   "columns": [
     "price_cny",
     "launch_date",
@@ -21,9 +21,11 @@
       "bluetooth": null,
       "major_chips": [],
       "selling_point_tags": [
-        "创新",
         "降噪",
-        "高保真"
+        "其他",
+        "创新",
+        "高保真",
+        "风噪"
       ],
       "data_completeness": 0.33
     },
@@ -34,15 +36,29 @@
       "price_cny": null,
       "launch_date": "2026-04-15",
       "codecs": [
-        "AAC",
-        "SBC"
+        {
+          "value": "AAC",
+          "evidence": {
+            "value": "AAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "JL杰理科技AC6925E4蓝牙音频SoC，内置高性能微控制器，支持多种音频编解码格式（如SBC、AAC）和I2S接口，以实现高保真音频输出。"
+          }
+        },
+        {
+          "value": "SBC",
+          "evidence": {
+            "value": "SBC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "JL杰理科技AC6925E4蓝牙音频SoC，内置高性能微控制器，支持多种音频编解码格式（如SBC、AAC）和I2S接口，以实现高保真音频输出。"
+          }
+        }
       ],
       "bluetooth": null,
       "major_chips": [],
-      "selling_point_tags": [
-        "高保真"
-      ],
-      "data_completeness": 0.5
+      "selling_point_tags": [],
+      "data_completeness": 0.33
     },
     {
       "canonical_id": "unknown--jlab-jbuds-party",
@@ -56,9 +72,8 @@
         "JL7016"
       ],
       "selling_point_tags": [
-        "防水",
-        "快充",
-        "沉浸式"
+        "长续航",
+        "快充"
       ],
       "data_completeness": 0.67
     },
@@ -84,9 +99,8 @@
       "bluetooth": "5.4",
       "major_chips": [],
       "selling_point_tags": [
-        "快充",
-        "沉浸式",
-        "大动圈"
+        "长续航",
+        "快充"
       ],
       "data_completeness": 0.5
     },
@@ -102,8 +116,12 @@
         "JL7016"
       ],
       "selling_point_tags": [
+        "其他",
+        "长续航",
+        "防水防尘",
         "创新",
         "防水",
+        "防尘",
         "快充"
       ],
       "data_completeness": 0.67
@@ -118,6 +136,7 @@
       "bluetooth": null,
       "major_chips": [],
       "selling_point_tags": [
+        "其他",
         "升级",
         "极致"
       ],
@@ -133,9 +152,13 @@
       "bluetooth": "5.4",
       "major_chips": [],
       "selling_point_tags": [
+        "其他",
+        "降噪",
+        "防水防尘",
         "全新",
         "创新",
-        "降噪"
+        "防水",
+        "防尘"
       ],
       "data_completeness": 0.5
     },
@@ -149,11 +172,12 @@
       "bluetooth": null,
       "major_chips": [],
       "selling_point_tags": [
+        "其他",
+        "防水防尘",
         "创新",
+        "防水",
         "防尘",
-        "低延迟",
         "沉浸式",
-        "高保真",
         "灵敏度"
       ],
       "data_completeness": 0.33
@@ -170,10 +194,12 @@
         "BES2710IMP"
       ],
       "selling_point_tags": [
+        "降噪",
+        "其他",
         "升级",
         "全新",
         "创新",
-        "降噪",
+        "认证",
         "防水"
       ],
       "data_completeness": 0.5
@@ -188,10 +214,11 @@
       "bluetooth": "5.3",
       "major_chips": [],
       "selling_point_tags": [
+        "降噪",
+        "其他",
         "领先",
         "创新",
         "定制",
-        "降噪",
         "高保真"
       ],
       "data_completeness": 0.5
@@ -215,14 +242,31 @@
       "price_cny": null,
       "launch_date": "2026-03-25",
       "codecs": [
-        "AAC",
-        "LC3"
+        {
+          "value": "AAC",
+          "evidence": {
+            "value": "AAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "功能上，新增平行WINK流光灯带，支持多种主题律动灯效，有效提升听歌氛围；升级新一代蓝牙6.0技术，支持AAC、LC3高音质编码，无线连接更稳定、延迟更低；同时新增USB Type-C端口直连电脑，带来无损音质体验。"
+          }
+        },
+        {
+          "value": "LC3",
+          "evidence": {
+            "value": "LC3",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "功能上，新增平行WINK流光灯带，支持多种主题律动灯效，有效提升听歌氛围；升级新一代蓝牙6.0技术，支持AAC、LC3高音质编码，无线连接更稳定、延迟更低；同时新增USB Type-C端口直连电脑，带来无损音质体验。"
+          }
+        }
       ],
       "bluetooth": "6.0",
       "major_chips": [],
       "selling_point_tags": [
+        "防水防尘",
+        "其他",
         "升级",
-        "全新",
         "创新",
         "防水",
         "防尘"
@@ -237,12 +281,17 @@
       "launch_date": "2026-06-17",
       "codecs": [],
       "bluetooth": null,
-      "major_chips": [],
+      "major_chips": [
+        "高通CRS57E6"
+      ],
       "selling_point_tags": [
+        "其他",
+        "防水防尘",
         "认证",
+        "防水",
         "防尘"
       ],
-      "data_completeness": 0.33
+      "data_completeness": 0.5
     },
     {
       "canonical_id": "xiaomi--sound-2-max",
@@ -251,17 +300,28 @@
       "price_cny": null,
       "launch_date": "2026-05-21",
       "codecs": [
-        "AAC"
+        {
+          "value": "AAC",
+          "evidence": {
+            "value": "AAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "丝印ZJ74 AAC9的IC。"
+          }
+        }
       ],
       "bluetooth": "5.2",
       "major_chips": [
         "BES2610WD"
       ],
       "selling_point_tags": [
+        "旗舰定位",
+        "其他",
+        "空间音频",
+        "降噪",
         "旗舰",
         "高端",
         "极致",
-        "降噪",
         "高保真"
       ],
       "data_completeness": 0.83
@@ -275,8 +335,12 @@
       "codecs": [],
       "bluetooth": null,
       "major_chips": [],
-      "selling_point_tags": [],
-      "data_completeness": 0.17
+      "selling_point_tags": [
+        "音质认证",
+        "认证",
+        "解析力"
+      ],
+      "data_completeness": 0.33
     },
     {
       "canonical_id": "xiaomi--sound-party",
@@ -290,13 +354,16 @@
         "JL7016"
       ],
       "selling_point_tags": [
+        "其他",
+        "开放佩戴",
+        "防水防尘",
+        "长续航",
         "全新",
-        "超长续航",
-        "超长",
+        "认证",
         "防水",
+        "防尘",
         "快充",
-        "沉浸式",
-        "高保真"
+        "沉浸式"
       ],
       "data_completeness": 0.67
     },
@@ -310,13 +377,15 @@
       "bluetooth": "5.4",
       "major_chips": [],
       "selling_point_tags": [
+        "其他",
+        "防水防尘",
+        "降噪",
         "升级",
         "全新",
         "创新",
-        "超长续航",
-        "超长",
-        "降噪",
-        "低延迟"
+        "防水",
+        "防尘",
+        "风噪"
       ],
       "data_completeness": 0.5
     },
@@ -329,8 +398,11 @@
       "codecs": [],
       "bluetooth": null,
       "major_chips": [],
-      "selling_point_tags": [],
-      "data_completeness": 0.17
+      "selling_point_tags": [
+        "其他",
+        "升级"
+      ],
+      "data_completeness": 0.33
     },
     {
       "canonical_id": "unknown--kumi-ai-note",
@@ -339,11 +411,20 @@
       "price_cny": null,
       "launch_date": "2026-05-09",
       "codecs": [
-        "AAC"
+        {
+          "value": "AAC",
+          "evidence": {
+            "value": "AAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "丝印“AAC20201”的IC，来自AILYWORLD艾聆科技。"
+          }
+        }
       ],
       "bluetooth": null,
       "major_chips": [],
       "selling_point_tags": [
+        "其他",
         "创新",
         "极致"
       ],

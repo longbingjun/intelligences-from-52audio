@@ -1,6 +1,6 @@
 {
   "category": "头戴式耳机",
-  "generated_at": "2026-07-02T17:36:28+08:00",
+  "generated_at": "2026-07-02T17:42:54+08:00",
   "columns": [
     "price_cny",
     "launch_date",
@@ -22,6 +22,7 @@
       "major_chips": [],
       "selling_point_tags": [
         "降噪",
+        "长续航",
         "快充",
         "通话降噪"
       ],
@@ -34,8 +35,24 @@
       "price_cny": null,
       "launch_date": "2026-05-21",
       "codecs": [
-        "LHDC",
-        "Hi-Res"
+        {
+          "value": "LHDC",
+          "evidence": {
+            "value": "LHDC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "在音频体验上，\nCHERRY樱桃HW2.2头戴式耳机\n搭载50mm大尺寸发声单元，采用高精密度生物复合振膜，频响范围可达20~40kHz；支持LHDC高清音频解码，通过了Hi-Res AUDIO有线/无线双金标音质认证，以及QQ音乐臻品认证；还支持杜比7.1环绕音效，为用户提供身临其境的沉浸式体验。"
+          }
+        },
+        {
+          "value": "Hi-Res",
+          "evidence": {
+            "value": "Hi-Res",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "在音频体验上，\nCHERRY樱桃HW2.2头戴式耳机\n搭载50mm大尺寸发声单元，采用高精密度生物复合振膜，频响范围可达20~40kHz；支持LHDC高清音频解码，通过了Hi-Res AUDIO有线/无线双金标音质认证，以及QQ音乐臻品认证；还支持杜比7.1环绕音效，为用户提供身临其境的沉浸式体验。"
+          }
+        }
       ],
       "bluetooth": null,
       "major_chips": [
@@ -43,15 +60,18 @@
         "JL7016"
       ],
       "selling_point_tags": [
+        "音质认证",
+        "舒适佩戴",
+        "降噪",
+        "游戏低延迟",
+        "防水防尘",
         "认证",
         "Hi-Res",
-        "降噪",
+        "防水",
         "防尘",
         "低延迟",
         "沉浸式",
-        "舒适佩戴",
-        "轻量化",
-        "臻品音质"
+        "轻量化"
       ],
       "data_completeness": 0.67
     },
@@ -62,19 +82,31 @@
       "price_cny": null,
       "launch_date": "2026-01-21",
       "codecs": [
-        "Hi-Res"
+        {
+          "value": "Hi-Res",
+          "evidence": {
+            "value": "Hi-Res",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "支持蓝牙和3.5mm音频线两种方式连接，兼容更多设备，有线模式还通过了Hi-Res高清音频认证。"
+          }
+        }
       ],
       "bluetooth": null,
       "major_chips": [
         "JL7018"
       ],
       "selling_point_tags": [
+        "降噪",
+        "音质认证",
+        "其他",
+        "舒适佩戴",
         "创新",
         "认证",
         "Hi-Res",
-        "降噪",
         "轻量化",
-        "钛振膜"
+        "钛振膜",
+        "通话降噪"
       ],
       "data_completeness": 0.67
     },
@@ -85,21 +117,40 @@
       "price_cny": null,
       "launch_date": "2026-01-26",
       "codecs": [
-        "LDAC",
-        "Hi-Res"
+        {
+          "value": "LDAC",
+          "evidence": {
+            "value": "LDAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "其在音频体验上，搭载了40mm巨型PET振膜驱动单元，支持LDAC高清音频解码，获得了Hi-Res AUDIO有线/无线双金标认证，以及QQ音乐·臻品音质认证；还支持独立3D空间音效，带来身临其境的环绕听感。"
+          }
+        },
+        {
+          "value": "Hi-Res",
+          "evidence": {
+            "value": "Hi-Res",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "其在音频体验上，搭载了40mm巨型PET振膜驱动单元，支持LDAC高清音频解码，获得了Hi-Res AUDIO有线/无线双金标认证，以及QQ音乐·臻品音质认证；还支持独立3D空间音效，带来身临其境的环绕听感。"
+          }
+        }
       ],
       "bluetooth": null,
       "major_chips": [
         "JL7018"
       ],
       "selling_point_tags": [
+        "空间音频",
+        "降噪",
+        "游戏低延迟",
+        "舒适佩戴",
         "认证",
         "Hi-Res",
         "空间音效",
-        "降噪",
-        "舒适佩戴",
+        "低延迟",
         "臻品音质",
-        "风噪"
+        "游戏模式"
       ],
       "data_completeness": 0.67
     },
@@ -110,16 +161,32 @@
       "price_cny": null,
       "launch_date": "2026-01-06",
       "codecs": [
-        "LDAC",
-        "Hi-Res"
+        {
+          "value": "LDAC",
+          "evidence": {
+            "value": "LDAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "CMF Headphone Pro头戴式降噪耳机搭载40mm镀镍振膜驱动单元，声音饱满清晰，支持LDAC高清音频解码，获得了Hi-Res Audio Wireless高清音频认证；支持Audiodo技术，能够根据用户耳朵对频率的响应，轻松定制专属音效；还支持独特的低音/高音模式调节，通过耳机能量滑控键便捷控制，打造个性化的听音体验。"
+          }
+        },
+        {
+          "value": "Hi-Res",
+          "evidence": {
+            "value": "Hi-Res",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "CMF Headphone Pro头戴式降噪耳机搭载40mm镀镍振膜驱动单元，声音饱满清晰，支持LDAC高清音频解码，获得了Hi-Res Audio Wireless高清音频认证；支持Audiodo技术，能够根据用户耳朵对频率的响应，轻松定制专属音效；还支持独特的低音/高音模式调节，通过耳机能量滑控键便捷控制，打造个性化的听音体验。"
+          }
+        }
       ],
       "bluetooth": null,
       "major_chips": [],
       "selling_point_tags": [
+        "降噪",
         "定制",
         "认证",
-        "Hi-Res",
-        "降噪"
+        "Hi-Res"
       ],
       "data_completeness": 0.5
     },
@@ -130,24 +197,37 @@
       "price_cny": null,
       "launch_date": "2026-04-14",
       "codecs": [
-        "LDAC",
-        "Hi-Res"
+        {
+          "value": "LDAC",
+          "evidence": {
+            "value": "LDAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "2026年初，QCY发布了一款头戴式耳机新品——H3S，不但基于7麦麦克风系统实现-56dB的深度降噪效果，还搭载4喇叭单元，获得LDAC、Hi-Res AUDIO、Hi-Res AUDIO WIRELESS、网易云音乐、QQ音乐·臻品音质五重专业声学认证。"
+          }
+        },
+        {
+          "value": "Hi-Res",
+          "evidence": {
+            "value": "Hi-Res",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "2026年初，QCY发布了一款头戴式耳机新品——H3S，不但基于7麦麦克风系统实现-56dB的深度降噪效果，还搭载4喇叭单元，获得LDAC、Hi-Res AUDIO、Hi-Res AUDIO WIRELESS、网易云音乐、QQ音乐·臻品音质五重专业声学认证。"
+          }
+        }
       ],
       "bluetooth": null,
       "major_chips": [
         "JL7018"
       ],
       "selling_point_tags": [
+        "降噪",
         "认证",
         "Hi-Res",
         "空间音效",
-        "降噪",
         "低延迟",
         "臻品音质",
-        "圈铁",
-        "游戏模式",
-        "通话降噪",
-        "风噪"
+        "圈铁"
       ],
       "data_completeness": 0.67
     },
@@ -157,20 +237,39 @@
       "model": "Codelear 2",
       "price_cny": null,
       "launch_date": "2026-07-01",
-      "codecs": [],
+      "codecs": [
+        {
+          "value": "LDAC",
+          "evidence": {
+            "value": "LDAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "详细功能配置方面，荣耀亲选Codelear 2头戴式降噪耳机搭载40mm高解析动圈单元，支持LDAC高清解码，提供丰富的音频细节；支持360°动态空间音频，带来影院般的环绕音效；还支持标准、低音增强、高音增强多种EQ调节，满足不同用户的音乐喜好；支持游戏模式，降低延迟，提供更流畅的影音和游戏体验。"
+          }
+        },
+        {
+          "value": "Hi-Res",
+          "evidence": {
+            "value": "Hi-Res",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "近期，荣耀亲选推出了Codelear头戴式耳机2发布，以中端的价格提供57dB深度降噪、Hi-Res有线/无线双高清音质及70小时的长续航体验。"
+          }
+        }
+      ],
       "bluetooth": null,
-      "major_chips": [],
+      "major_chips": [
+        "JL7083"
+      ],
       "selling_point_tags": [
-        "超长续航",
-        "超长",
-        "Hi-Res",
         "降噪",
+        "Hi-Res",
         "低延迟",
         "空间音频",
         "游戏模式",
         "通话降噪"
       ],
-      "data_completeness": 0.33
+      "data_completeness": 0.67
     }
   ]
 }

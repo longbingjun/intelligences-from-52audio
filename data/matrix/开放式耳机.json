@@ -1,6 +1,6 @@
 {
   "category": "开放式耳机",
-  "generated_at": "2026-07-02T17:36:28+08:00",
+  "generated_at": "2026-07-02T17:42:54+08:00",
   "columns": [
     "price_cny",
     "launch_date",
@@ -21,7 +21,10 @@
       "bluetooth": null,
       "major_chips": [],
       "selling_point_tags": [
+        "音质认证",
+        "开放佩戴",
         "创新",
+        "认证",
         "防水",
         "舒适佩戴",
         "解析力"
@@ -35,27 +38,49 @@
       "price_cny": null,
       "launch_date": "2026-05-11",
       "codecs": [
-        "LHDC",
-        "LC3",
-        "Hi-Res"
+        {
+          "value": "LHDC",
+          "evidence": {
+            "value": "LHDC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "耳机搭载「12mm巨能动圈双单元」，支持BoomBass动态低频增强技术，采用高性能DSP驱动，提供声场开阔、自然澎湃的三品均衡音质；支持LHDC 5.0音频解码格式，至高24bit/192kHz采样率、1000kbps传输码率，还原母带级听感；还支持头部追踪空间音效，带来身临其境的环绕听感；基于声场聚集定向传音架构，降低漏音，保护隐私。"
+          }
+        },
+        {
+          "value": "LC3",
+          "evidence": {
+            "value": "LC3",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "主要包括兼容多协议：支持蓝牙BT/BLE6.0双模模式和蓝牙多连接；支持蓝牙广播Auracast（和经典蓝牙共存的音频分享）；支持LE Audio新技术标准和 LC3编解码器；射频性能优秀：发射功率最高到15dBm, 接收灵敏度到达-99dBm；高性能音频算法：支持自适应Hybrid ANC及各种上下行复杂音频算法；超低功耗水平：在复杂音频算法的同时，依然保持超低功耗；生态系统丰富：更大SRAM和FLASH空间，实现应用特性更广覆盖；平台开放，支持更多产品形态。"
+          }
+        },
+        {
+          "value": "Hi-Res",
+          "evidence": {
+            "value": "Hi-Res",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "该产品不仅在音质上获得了Hi-Res AUDIO WIRELESS和QQ音乐臻品音质双认证，还行业首创抗菌技术，并配备带屏充电盒，为用户打造全方位的旗舰级体验。"
+          }
+        }
       ],
       "bluetooth": null,
       "major_chips": [
         "AB5691"
       ],
       "selling_point_tags": [
+        "音质认证",
+        "降噪",
+        "开放佩戴",
+        "其他",
         "首创",
         "领先",
         "旗舰",
         "高端",
         "认证",
-        "Hi-Res",
-        "空间音效",
-        "降噪",
-        "防水",
-        "防尘",
-        "臻品音质",
-        "灵敏度"
+        "Hi-Res"
       ],
       "data_completeness": 0.67
     },
@@ -68,13 +93,8 @@
       "codecs": [],
       "bluetooth": "5.3",
       "major_chips": [],
-      "selling_point_tags": [
-        "降噪",
-        "低延迟",
-        "大动圈",
-        "通话降噪"
-      ],
-      "data_completeness": 0.5
+      "selling_point_tags": [],
+      "data_completeness": 0.33
     },
     {
       "canonical_id": "unknown--kuzer-trnkt10s",
@@ -83,24 +103,36 @@
       "price_cny": null,
       "launch_date": "2026-04-09",
       "codecs": [
-        "LHDC",
-        "LC3"
+        {
+          "value": "LHDC",
+          "evidence": {
+            "value": "LHDC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "功能上，搭载「12mm动态三频补偿动圈单元」，支持「SDT声聚定向声波技术」，支持LHDC5.0 192kHz/24bit高清音频传输，带来CD级音质，通过了QQ音乐臻品音质认证；还支持AI声学空间环绕增强功能，带来更具临场感的音效。"
+          }
+        },
+        {
+          "value": "LC3",
+          "evidence": {
+            "value": "LC3",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "Bluetrum中科蓝讯BT8952F蓝牙音频SoC，支持蓝牙6.0 LE Audio协议及LC3编解码，内置32位高性能RISC-V处理器核心和HIFI 4 DSP，内置24bit双声道DAC和24bit单声道ADC，支持2路MIC放大器输入，支持AI通话降噪算法，支持前馈、及混合主动降噪，集成触控，PMU等模块。"
+          }
+        }
       ],
       "bluetooth": "6.0",
       "major_chips": [],
       "selling_point_tags": [
-        "超长续航",
-        "超长",
-        "大幅提升",
+        "音质认证",
+        "长续航",
+        "其他",
         "认证",
-        "空间音效",
-        "防水",
         "快充",
-        "低延迟",
         "臻品音质",
-        "三频",
-        "定向传音",
-        "游戏模式"
+        "石墨烯",
+        "三频"
       ],
       "data_completeness": 0.67
     },
@@ -117,14 +149,14 @@
         "BES2600IHC-4X"
       ],
       "selling_point_tags": [
-        "创新",
+        "开放佩戴",
         "降噪",
+        "创新",
         "防水",
         "防尘",
         "舒适佩戴",
         "大动圈",
-        "定向传音",
-        "通话降噪"
+        "定向传音"
       ],
       "data_completeness": 0.67
     },
@@ -138,13 +170,8 @@
       "bluetooth": "5.3",
       "major_chips": [],
       "selling_point_tags": [
-        "超长续航",
-        "超长",
-        "降噪",
-        "低延迟",
-        "舒适佩戴",
-        "定向传音",
-        "通话降噪"
+        "开放佩戴",
+        "舒适佩戴"
       ],
       "data_completeness": 0.5
     },
@@ -158,13 +185,13 @@
       "bluetooth": "6.0",
       "major_chips": [],
       "selling_point_tags": [
-        "超长续航",
-        "超长",
+        "开放佩戴",
+        "其他",
+        "防水防尘",
         "显著提升",
         "认证",
-        "降噪",
-        "定向传音",
-        "通话降噪"
+        "防水",
+        "防尘"
       ],
       "data_completeness": 0.5
     },
@@ -180,7 +207,12 @@
         "JL7006"
       ],
       "selling_point_tags": [
-        "定制"
+        "其他",
+        "防水防尘",
+        "定制",
+        "防水",
+        "防尘",
+        "灵敏度"
       ],
       "data_completeness": 0.5
     },
@@ -191,22 +223,48 @@
       "price_cny": null,
       "launch_date": "2026-04-13",
       "codecs": [
-        "LDAC",
-        "LC3",
-        "Hi-Res"
+        {
+          "value": "LDAC",
+          "evidence": {
+            "value": "LDAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "详细功能配置方面，\nMOVA TPEAK Clip Pro开放式耳机\n搭载自研12mm三磁镀钛单元，支持智能低音增强算法，支持LDAC高清音频传输，清晰还原现场级听感；支持全域声穹技术，提供固定、头转、音乐模式、影院模式四种空间音效，带来三维沉浸声场；支持AI骨气融合智能降噪，基于4麦克风阵列+2VPU骨传导传感器精准拾音，搭配AI降噪算法消除环境噪音，提供清晰通话效果。"
+          }
+        },
+        {
+          "value": "LC3",
+          "evidence": {
+            "value": "LC3",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "主要包括兼容多协议：支持蓝牙BT/BLE6.0双模模式和蓝牙多连接；支持蓝牙广播Auracast（和经典蓝牙共存的音频分享）；支持LE Audio新技术标准和 LC3编解码器；射频性能优秀：发射功率最高到15dBm, 接收灵敏度到达-99dBm；高性能音频算法：支持自适应Hybrid ANC及各种上下行复杂音频算法；超低功耗水平：在复杂音频算法的同时，依然保持超低功耗；生态系统丰富：更大SRAM和FLASH空间，实现应用特性更广覆盖；平台开放，支持更多产品形态。"
+          }
+        },
+        {
+          "value": "Hi-Res",
+          "evidence": {
+            "value": "Hi-Res",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "同时具备Hi-Res认证高清音质和丰富的AI功能，为用户提供全方位的出彩体验。"
+          }
+        }
       ],
       "bluetooth": null,
       "major_chips": [],
       "selling_point_tags": [
+        "降噪",
+        "开放佩戴",
+        "音质认证",
+        "游戏低延迟",
+        "其他",
         "领先",
         "旗舰",
         "创新",
         "高端",
         "认证",
-        "Hi-Res",
-        "空间音效",
-        "降噪",
-        "通话降噪"
+        "Hi-Res"
       ],
       "data_completeness": 0.5
     },
@@ -222,12 +280,17 @@
         "AB5656"
       ],
       "selling_point_tags": [
+        "降噪",
+        "开放佩戴",
+        "其他",
+        "防水防尘",
         "旗舰",
         "定制",
-        "降噪",
+        "防水",
+        "防尘",
+        "舒适佩戴",
         "游戏模式",
-        "通话降噪",
-        "风噪"
+        "通话降噪"
       ],
       "data_completeness": 0.67
     },
@@ -238,24 +301,36 @@
       "price_cny": null,
       "launch_date": "2026-05-19",
       "codecs": [
-        "LHDC",
-        "Hi-Res"
+        {
+          "value": "LHDC",
+          "evidence": {
+            "value": "LHDC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "详细功能配置方面，OPPO Enco Clip2搭载11+9mm同轴双单元，搭配双DAC分别驱动，呈现纤毫毕现的细腻音质；还支持LHDC高清音频协议，至高96kHz采样率/1Mbps传输码率，带来更丰富的音频细节；支持3D环绕空间音效，营造身临其境的音频效果；支持丰富的氛围白噪音，助力用户专注办公，安心入眠。"
+          }
+        },
+        {
+          "value": "Hi-Res",
+          "evidence": {
+            "value": "Hi-Res",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "一、\nOPPO Enco Clip2开放式耳机开箱\nOPPO Enco Clip2开放式耳机包装盒采用了家族式的设计，天地盖结构，盒盖顶部展示有产品外观、产品名称，以及以及Hi-Res Audio Wireless和LHDC标志。"
+          }
+        }
       ],
       "bluetooth": "6.1",
       "major_chips": [
         "BES2810ZP"
       ],
       "selling_point_tags": [
+        "降噪",
+        "其他",
         "领先",
-        "旗舰",
-        "全新",
         "创新",
-        "超长续航",
-        "超长",
         "大幅提升",
         "空间音效",
-        "降噪",
-        "舒适佩戴",
         "通话降噪"
       ],
       "data_completeness": 0.83
@@ -267,21 +342,30 @@
       "price_cny": null,
       "launch_date": "2026-02-03",
       "codecs": [
-        "LC3"
+        {
+          "value": "LC3",
+          "evidence": {
+            "value": "LC3",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "主要包括兼容多协议：支持蓝牙BT/BLE6.0双模模式和蓝牙多连接；支持蓝牙广播Auracast（和经典蓝牙共存的音频分享）；支持LE Audio新技术标准和LC3编解码器；射频性能优秀：发射功率最高到15dBm, 接收灵敏度到达-99dBm；高性能音频算法：支持自适应Hybrid ANC及各种上下行复杂音频算法；超低功耗水平：在复杂音频算法的同时，依然保持超低功耗；生态系统丰富：更大SRAM和FLASH空间，实现应用特性更广覆盖；平台开放，支持更多产品形态。"
+          }
+        }
       ],
       "bluetooth": "5.3",
       "major_chips": [],
       "selling_point_tags": [
+        "降噪",
+        "音质认证",
+        "开放佩戴",
+        "其他",
+        "领先",
         "旗舰",
         "全新",
         "定制",
-        "超长续航",
-        "超长",
+        "认证",
         "空间音效",
-        "降噪",
-        "防水",
-        "解析力",
-        "通话降噪"
+        "防水"
       ],
       "data_completeness": 0.67
     },
@@ -297,8 +381,9 @@
         "AB5756"
       ],
       "selling_point_tags": [
-        "极致",
         "降噪",
+        "开放佩戴",
+        "极致",
         "舒适佩戴",
         "通话降噪"
       ],
@@ -311,24 +396,47 @@
       "price_cny": null,
       "launch_date": "2026-01-07",
       "codecs": [
-        "LDAC",
-        "LC3",
-        "Hi-Res"
+        {
+          "value": "LDAC",
+          "evidence": {
+            "value": "LDAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "在功能配置方面，SoundPEATS泥炭GoFree2开放式耳机搭载了16.2mm大动圈单元，配合低音增强算法，LDAC高清音频解码技术，提供澎湃饱满、清晰分明的音频效果，获得了Hi-Res AUDIO WIRELESS金标认证；支持双MIC通话降噪，精准拾音并智能消除环境噪音，提供清晰通话；支持定向传音技术，避免漏音，保护用户隐私。"
+          }
+        },
+        {
+          "value": "LC3",
+          "evidence": {
+            "value": "LC3",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "主要包括兼容多协议：支持蓝牙BT/BLE5.4双模模式和蓝牙多连接；支持蓝牙广播Auracast（和经典蓝牙共存的音频分享）；支持LE Audio新技术标准和LC3编解码器；射频性能优秀：发射功率最高到15dBm, 接收灵敏度到达-99dBm；高性能音频算法：支持自适应Hybrid ANC及各种上下行复杂音频算法；超低功耗水平：在复杂音频算法的同时，依然保持超低功耗；生态系统丰富：更大SRAM和FLASH空间，实现应用特性更广覆盖；平台开放，支持更多产品形态。"
+          }
+        },
+        {
+          "value": "Hi-Res",
+          "evidence": {
+            "value": "Hi-Res",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "在功能配置方面，SoundPEATS泥炭GoFree2开放式耳机搭载了16.2mm大动圈单元，配合低音增强算法，LDAC高清音频解码技术，提供澎湃饱满、清晰分明的音频效果，获得了Hi-Res AUDIO WIRELESS金标认证；支持双MIC通话降噪，精准拾音并智能消除环境噪音，提供清晰通话；支持定向传音技术，避免漏音，保护用户隐私。"
+          }
+        }
       ],
       "bluetooth": null,
       "major_chips": [],
       "selling_point_tags": [
+        "降噪",
+        "开放佩戴",
+        "其他",
         "领先",
         "创新",
         "认证",
         "Hi-Res",
-        "降噪",
         "防水",
         "低延迟",
-        "大动圈",
-        "灵敏度",
-        "定向传音",
-        "通话降噪"
+        "大动圈"
       ],
       "data_completeness": 0.5
     },
@@ -342,10 +450,10 @@
       "bluetooth": "5.3",
       "major_chips": [],
       "selling_point_tags": [
-        "认证",
         "降噪",
-        "防水",
+        "开放佩戴",
         "舒适佩戴",
+        "防水",
         "大动圈",
         "定向传音",
         "通话降噪"
@@ -359,26 +467,59 @@
       "price_cny": null,
       "launch_date": "2026-05-21",
       "codecs": [
-        "LDAC",
-        "LC3",
-        "Hi-Res",
-        "小金标"
+        {
+          "value": "LDAC",
+          "evidence": {
+            "value": "LDAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "在音频体验方面，TOZO Open X2 Pro搭载15.4mm大尺寸复合振膜动圈单元，支持BASS+低音增强技术，支持LDAC高清音频解码，通过了Hi-Res小金标认证；还支持动态空间音频，提供极具代入感的沉浸体验；支持无固定频点EQ调节功能，更大的自定义EQ空间，带来了更多的可玩性；支持四麦通话降噪，智能分离环境噪音，提供清晰语音通话效果。"
+          }
+        },
+        {
+          "value": "LC3",
+          "evidence": {
+            "value": "LC3",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "主要包括兼容多协议：支持蓝牙BT/BLE6.0双模模式和蓝牙多连接；支持蓝牙广播Auracast（和经典蓝牙共存的音频分享）；支持LE Audio新技术标准和 LC3编解码器；射频性能优秀：发射功率最高到15dBm, 接收灵敏度到达-99dBm；高性能音频算法：支持自适应Hybrid ANC及各种上下行复杂音频算法；超低功耗水平：在复杂音频算法的同时，依然保持超低功耗；生态系统丰富：更大SRAM和FLASH空间，实现应用特性更广覆盖；平台开放，支持更多产品形态。"
+          }
+        },
+        {
+          "value": "Hi-Res",
+          "evidence": {
+            "value": "Hi-Res",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "近期，该品牌推出了一款旗舰级的开放式耳机——TOZO Open X2 Pro，不仅具备Hi-Res高清音质，还搭载了AI智能助手和LCD智能交互屏，为用户提供全方位的旗舰体验。"
+          }
+        },
+        {
+          "value": "小金标",
+          "evidence": {
+            "value": "小金标",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "在音频体验方面，TOZO Open X2 Pro搭载15.4mm大尺寸复合振膜动圈单元，支持BASS+低音增强技术，支持LDAC高清音频解码，通过了Hi-Res小金标认证；还支持动态空间音频，提供极具代入感的沉浸体验；支持无固定频点EQ调节功能，更大的自定义EQ空间，带来了更多的可玩性；支持四麦通话降噪，智能分离环境噪音，提供清晰语音通话效果。"
+          }
+        }
       ],
       "bluetooth": null,
       "major_chips": [
         "AB5690"
       ],
       "selling_point_tags": [
+        "降噪",
+        "开放佩戴",
+        "游戏低延迟",
+        "其他",
+        "舒适佩戴",
         "领先",
         "旗舰",
         "认证",
         "小金标",
         "Hi-Res",
-        "降噪",
-        "防水",
-        "低延迟",
-        "空间音频",
-        "通话降噪"
+        "防水"
       ],
       "data_completeness": 0.67
     },
@@ -389,14 +530,20 @@
       "price_cny": null,
       "launch_date": "2026-03-03",
       "codecs": [
-        "LDAC"
+        {
+          "value": "LDAC",
+          "evidence": {
+            "value": "LDAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "续航方面，耳机单次音乐播放时长可达9小时（LDAC模式约6.5小时），搭配充电盒综合续航约40小时。"
+          }
+        }
       ],
       "bluetooth": "5.3",
       "major_chips": [],
-      "selling_point_tags": [
-        "降噪"
-      ],
-      "data_completeness": 0.67
+      "selling_point_tags": [],
+      "data_completeness": 0.5
     },
     {
       "canonical_id": "unknown--umelodyringbuds-pro",
@@ -405,19 +552,45 @@
       "price_cny": null,
       "launch_date": "2026-02-04",
       "codecs": [
-        "LDAC",
-        "LC3",
-        "Hi-Res"
+        {
+          "value": "LDAC",
+          "evidence": {
+            "value": "LDAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "在功能配置方面，UMELODY悠律声学Ringbuds Pro开放式耳机搭载了16.2mm大尺寸动圈喇叭，搭配Premium-Direct凝声导管声学结构，有效降低失真，提升高频清晰度，增强低频表现；还支持LDAC高清音频解码，获得了Hi-Res AUDIO WIRELESS金标认证。"
+          }
+        },
+        {
+          "value": "LC3",
+          "evidence": {
+            "value": "LC3",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "主要包括兼容多协议：支持蓝牙BT/BLE6.0双模模式和蓝牙多连接；支持蓝牙广播Auracast（和经典蓝牙共存的音频分享）；支持LE Audio新技术标准和LC3编解码器；射频性能优秀：发射功率最高到15dBm, 接收灵敏度到达-99dBm；高性能音频算法：支持自适应Hybrid ANC及各种上下行复杂音频算法；超低功耗水平：在复杂音频算法的同时，依然保持超低功耗；生态系统丰富：更大SRAM和FLASH空间，实现应用特性更广覆盖；平台开放，支持更多产品形态。"
+          }
+        },
+        {
+          "value": "Hi-Res",
+          "evidence": {
+            "value": "Hi-Res",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "在功能配置方面，UMELODY悠律声学Ringbuds Pro开放式耳机搭载了16.2mm大尺寸动圈喇叭，搭配Premium-Direct凝声导管声学结构，有效降低失真，提升高频清晰度，增强低频表现；还支持LDAC高清音频解码，获得了Hi-Res AUDIO WIRELESS金标认证。"
+          }
+        }
       ],
       "bluetooth": "5.3",
       "major_chips": [],
       "selling_point_tags": [
+        "开放佩戴",
+        "降噪",
+        "其他",
         "领先",
         "创新",
         "认证",
         "Hi-Res",
-        "降噪",
-        "灵敏度",
+        "石墨烯",
         "通话降噪"
       ],
       "data_completeness": 0.67
@@ -429,19 +602,20 @@
       "price_cny": null,
       "launch_date": "2026-06-03",
       "codecs": [],
-      "bluetooth": null,
-      "major_chips": [],
+      "bluetooth": "5.4",
+      "major_chips": [
+        "BES2710IHC"
+      ],
       "selling_point_tags": [
+        "开放佩戴",
+        "其他",
         "认证",
         "空间音效",
-        "防水",
-        "防尘",
-        "快充",
         "臻品音质",
         "三频",
         "定向传音"
       ],
-      "data_completeness": 0.33
+      "data_completeness": 0.67
     },
     {
       "canonical_id": "baseus--bowie-mc2",
@@ -449,24 +623,51 @@
       "model": "Bowie MC2",
       "price_cny": null,
       "launch_date": "2026-07-01",
-      "codecs": [],
+      "codecs": [
+        {
+          "value": "LDAC",
+          "evidence": {
+            "value": "LDAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "功能上，该产品搭载三磁路黄金微晶振膜喇叭，音量提升至93dB（A），同时支持LDAC编解码协议，提供超清无线传输，通过了Hi-Res小金标、QQ音乐臻品音质认证。"
+          }
+        },
+        {
+          "value": "Hi-Res",
+          "evidence": {
+            "value": "Hi-Res",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "功能上，该产品搭载三磁路黄金微晶振膜喇叭，音量提升至93dB（A），同时支持LDAC编解码协议，提供超清无线传输，通过了Hi-Res小金标、QQ音乐臻品音质认证。"
+          }
+        },
+        {
+          "value": "小金标",
+          "evidence": {
+            "value": "小金标",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "功能上，该产品搭载三磁路黄金微晶振膜喇叭，音量提升至93dB（A），同时支持LDAC编解码协议，提供超清无线传输，通过了Hi-Res小金标、QQ音乐臻品音质认证。"
+          }
+        }
+      ],
       "bluetooth": null,
       "major_chips": [],
       "selling_point_tags": [
+        "降噪",
+        "舒适佩戴",
+        "其他",
+        "开放佩戴",
+        "专利",
         "升级",
         "全新",
-        "认证",
-        "小金标",
-        "Hi-Res",
         "空间音效",
-        "降噪",
-        "快充",
         "低延迟",
         "沉浸式",
-        "舒适佩戴",
-        "臻品音质"
+        "通话降噪"
       ],
-      "data_completeness": 0.33
+      "data_completeness": 0.5
     },
     {
       "canonical_id": "edifier--halo-clip",
@@ -481,8 +682,7 @@
       ],
       "selling_point_tags": [
         "降噪",
-        "防水",
-        "防尘",
+        "空间音频",
         "低延迟",
         "通话降噪"
       ],
@@ -498,15 +698,13 @@
       "bluetooth": null,
       "major_chips": [],
       "selling_point_tags": [
+        "降噪",
+        "开放佩戴",
         "独家",
         "专利",
-        "创新",
         "空间音效",
-        "降噪",
         "防水",
-        "快充",
         "低延迟",
-        "舒适佩戴",
         "定向传音",
         "通话降噪"
       ],
@@ -518,17 +716,36 @@
       "model": "PILL",
       "price_cny": null,
       "launch_date": "2026-06-05",
-      "codecs": [],
-      "bluetooth": null,
+      "codecs": [
+        {
+          "value": "AAC",
+          "evidence": {
+            "value": "AAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "其他方面，MOONDROP PILL的芯片内置NPU内核，搭载AI降噪算法，去除噪音的同时，增强人声频段，使嘈杂环境下也能提供清晰通话；还支持双设备连接、低延迟游戏模式，可提供8+20小时（AAC，50%电量）的音乐播放续航；通过手机APP，可自定义DSP参数化均衡器，包括滤波器/频点/增益/Q值等，还可以分享和下载写入用户制作的调音，具备极大的可玩性。"
+          }
+        },
+        {
+          "value": "SBC",
+          "evidence": {
+            "value": "SBC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "包装盒背面标注产品信息，产品名称：Moondrop Pill，产品型号：MD-OWS-003，蓝牙版本：6.0，蓝牙传输协议：A2DP/AVRCP/HFP/HSP，编解码协议：SBC/AAC，工作距离：10米（无障碍空旷环境），电池续航：耳机约8H（AAC）/充电仓约20H（AAC），耳机电池容量：3.7V/40mAh，充电仓电池容量：3.7V/300mAh，，输入：5V-1A，输出：5V-0.25A。"
+          }
+        }
+      ],
+      "bluetooth": "6.0",
       "major_chips": [],
       "selling_point_tags": [
+        "开放佩戴",
+        "其他",
         "全新",
         "创新",
-        "降噪",
-        "低延迟",
-        "游戏模式"
+        "认证"
       ],
-      "data_completeness": 0.33
+      "data_completeness": 0.67
     },
     {
       "canonical_id": "moondrop--u-c-t-s",
@@ -537,20 +754,53 @@
       "price_cny": null,
       "launch_date": "2026-05-22",
       "codecs": [
-        "AAC",
-        "LHDC",
-        "SBC",
-        "LC3"
+        {
+          "value": "AAC",
+          "evidence": {
+            "value": "AAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "其他方面，MOONDROP U.C.T.S.搭载偶极指向传声技术，有效降低漏音，保护用户隐私；搭载全向优化的FPC天线，实现更稳定的无线连接；支持新一代蓝牙音频LE AUDIO的LC3编解码协议，带来更低延迟和高保真信号传输；耳机搭配充电仓可提供9+21.5h（AAC，50%电量）的续航时间，能够很好的满足日常使用需求。"
+          }
+        },
+        {
+          "value": "LHDC",
+          "evidence": {
+            "value": "LHDC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "其搭载定制无线音频SoC和同轴双单元声学配置，支持专利自适应低音增强算法，支持LHDC 5.0母带级音频传输，提供低音澎湃、三频均衡及更高动态范围和频宽的音质。"
+          }
+        },
+        {
+          "value": "SBC",
+          "evidence": {
+            "value": "SBC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "包装盒背面标注有产品参数信息，产品名称：鸣潮 x 水月雨U.C.T.S.，产品类型：混合双单元高音质耳夹式耳机，产品型号：MD-OWS-014，蓝牙版本：6.0，蓝牙传输协议：A2DP/AVRCP/HFP/HSP，编解码协议：SBC/AAC/LC3/LHDC-V，工作距离：10米（无障碍空旷环境），耳机充电时间：约1.7小时，充电仓充电时间：约2小时，耳机电池容量：3.7V/40mAh，充电仓电池容量：3.7V/300mAh，耳机单次续航：约9小时（AAC），充电仓可提供续航：约21.5小时（AAC），输入：5V-1A，输出：5V-0.25A。"
+          }
+        },
+        {
+          "value": "LC3",
+          "evidence": {
+            "value": "LC3",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "其他方面，MOONDROP U.C.T.S.搭载偶极指向传声技术，有效降低漏音，保护用户隐私；搭载全向优化的FPC天线，实现更稳定的无线连接；支持新一代蓝牙音频LE AUDIO的LC3编解码协议，带来更低延迟和高保真信号传输；耳机搭配充电仓可提供9+21.5h（AAC，50%电量）的续航时间，能够很好的满足日常使用需求。"
+          }
+        }
       ],
       "bluetooth": "6.0",
       "major_chips": [],
       "selling_point_tags": [
-        "专利",
-        "定制",
         "降噪",
+        "开放佩戴",
+        "其他",
+        "定制",
+        "认证",
         "低延迟",
         "高保真",
-        "三频",
         "通话降噪"
       ],
       "data_completeness": 0.67
@@ -561,16 +811,29 @@
       "model": "HM-11",
       "price_cny": null,
       "launch_date": "2026-06-09",
-      "codecs": [],
-      "bluetooth": null,
+      "codecs": [
+        {
+          "value": "Hi-Res",
+          "evidence": {
+            "value": "Hi-Res",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "包装盒侧边展示有高清通话、Hi-RES音质、长续航、舒适佩戴的产品特点。"
+          }
+        }
+      ],
+      "bluetooth": "5.4",
       "major_chips": [],
       "selling_point_tags": [
-        "定制",
         "降噪",
-        "舒适佩戴",
+        "其他",
+        "防水防尘",
+        "定制",
+        "防水",
+        "防尘",
         "通话降噪"
       ],
-      "data_completeness": 0.33
+      "data_completeness": 0.67
     },
     {
       "canonical_id": "qcy--crossky-r70",
@@ -579,23 +842,47 @@
       "price_cny": null,
       "launch_date": "2026-04-09",
       "codecs": [
-        "LDAC",
-        "LC3",
-        "Hi-Res"
+        {
+          "value": "LDAC",
+          "evidence": {
+            "value": "LDAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "在功能配置方面，\nQCY意象Crossky R70开放式耳机\n搭载跑道型三磁超线性喇叭，高性能DSP音频模组，支持LDAC音频传输，支持低频增强算法3.0，动态低频调节，获得了Hi-Res AUDIO WIRELESS和QQ音乐臻品音质双认证；还搭载双重防漏音系统，保障用户隐私；支持空间音效算法，提供360°立体空间音效。"
+          }
+        },
+        {
+          "value": "LC3",
+          "evidence": {
+            "value": "LC3",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "主要包括兼容多协议：支持蓝牙BT/BLE6.0双模模式和蓝牙多连接；支持蓝牙广播Auracast（和经典蓝牙共存的音频分享）；支持LE Audio新技术标准和 LC3编解码器；射频性能优秀：发射功率最高到15dBm, 接收灵敏度到达-99dBm；高性能音频算法：支持自适应Hybrid ANC及各种上下行复杂音频算法；超低功耗水平：在复杂音频算法的同时，依然保持超低功耗；生态系统丰富：更大SRAM和FLASH空间，实现应用特性更广覆盖；平台开放，支持更多产品形态。"
+          }
+        },
+        {
+          "value": "Hi-Res",
+          "evidence": {
+            "value": "Hi-Res",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "在功能配置方面，\nQCY意象Crossky R70开放式耳机\n搭载跑道型三磁超线性喇叭，高性能DSP音频模组，支持LDAC音频传输，支持低频增强算法3.0，动态低频调节，获得了Hi-Res AUDIO WIRELESS和QQ音乐臻品音质双认证；还搭载双重防漏音系统，保障用户隐私；支持空间音效算法，提供360°立体空间音效。"
+          }
+        }
       ],
       "bluetooth": "6.0",
       "major_chips": [],
       "selling_point_tags": [
+        "开放佩戴",
+        "降噪",
+        "其他",
         "领先",
         "认证",
         "Hi-Res",
         "空间音效",
-        "降噪",
-        "低延迟",
         "臻品音质",
         "圈铁",
-        "灵敏度",
-        "风噪"
+        "通话降噪"
       ],
       "data_completeness": 0.67
     },
@@ -606,24 +893,37 @@
       "price_cny": null,
       "launch_date": "2026-05-09",
       "codecs": [
-        "LHDC",
-        "LC3"
+        {
+          "value": "LHDC",
+          "evidence": {
+            "value": "LHDC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "基础音频体验方面，\nROSESELSA弱水时砂Astro X开放式耳机\n搭载Planck 2.0钛晶复合单元，柔性悬边材质搭配钛强化球顶，提供三频出色的音质；支持LHDC 5.0高清音频解码，能够提供更丰富的音频细节；支持SAE空间音效，带来沉浸式的环绕立体声；采用定向泄音控制结构，降低声音泄露，保障优秀音质。"
+          }
+        },
+        {
+          "value": "LC3",
+          "evidence": {
+            "value": "LC3",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "Bluetrum中科蓝讯BT8952J蓝牙音频SoC，属于“蓝讯讯龙”三代BT895x系列，支持蓝牙6.0 LE Audio协议及LC3编解码，内置32位高性能RISC-V处理器核心和HIFI 4 DSP，内置24bit双声道DAC和24bit单声道ADC，支持2路MIC放大器输入，支持AI通话降噪算法，支持前馈、及混合主动降噪，集成触控，PMU等模块。"
+          }
+        }
       ],
       "bluetooth": "6.0",
       "major_chips": [],
       "selling_point_tags": [
-        "专利",
+        "降噪",
+        "开放佩戴",
+        "其他",
         "旗舰",
         "全新",
         "创新",
-        "超长续航",
-        "超长",
-        "大幅提升",
         "空间音效",
         "沉浸式",
-        "舒适佩戴",
-        "三频",
-        "空间音频"
+        "三频"
       ],
       "data_completeness": 0.67
     },
@@ -634,8 +934,24 @@
       "price_cny": null,
       "launch_date": "2026-05-19",
       "codecs": [
-        "aptX",
-        "LC3"
+        {
+          "value": "aptX",
+          "evidence": {
+            "value": "aptX",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "详细功能配置方面，\n弱水时砂SPEAKFEEL耳挂式智能音响\n搭载22mm微音响单元，带来更出色的低频效果和动态表现，同时采用分体式木质纤维振膜，提升高频效果；还支持交互反馈技术，削弱头中效应，实现更自然地宽阔声场；搭载新一代高通音频平台，支持双Kalimba DSP，支持aptX和高音质协议连接，高保真还原音乐细节。"
+          }
+        },
+        {
+          "value": "LC3",
+          "evidence": {
+            "value": "LC3",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "Qualcomm高通QCC3095蓝牙音频SoC，采用四核处理器架构，包括双核32位应用处理器和双核Kalimba DSP，支持蓝牙5.4双模，支持LE Audio，支持Auracast广播音频、LC3编码，支持aptX Lossless 24bit/48kHz无损音频，支持三麦克风cVc通话降噪，支持语音助手按键激活，可集成自适应混合ANC主动降噪。"
+          }
+        }
       ],
       "bluetooth": "5.4",
       "major_chips": [
@@ -648,11 +964,14 @@
         "QCC3086"
       ],
       "selling_point_tags": [
-        "全新",
-        "创新",
         "降噪",
+        "游戏低延迟",
+        "开放佩戴",
+        "旗舰定位",
+        "旗舰",
+        "全新",
+        "顶级",
         "低延迟",
-        "高保真",
         "通话降噪"
       ],
       "data_completeness": 0.83
@@ -664,17 +983,20 @@
       "price_cny": null,
       "launch_date": "2026-06-05",
       "codecs": [],
-      "bluetooth": null,
+      "bluetooth": "6.0",
       "major_chips": [],
       "selling_point_tags": [
-        "专利",
         "降噪",
+        "开放佩戴",
+        "其他",
+        "专利",
+        "认证",
         "舒适佩戴",
         "轻量化",
         "解析力",
-        "通话降噪"
+        "游戏模式"
       ],
-      "data_completeness": 0.33
+      "data_completeness": 0.5
     },
     {
       "canonical_id": "sanag--z50s-pro-max",
@@ -686,13 +1008,16 @@
       "bluetooth": "5.3",
       "major_chips": [],
       "selling_point_tags": [
+        "降噪",
+        "其他",
+        "防水防尘",
+        "开放佩戴",
         "旗舰",
         "定制",
-        "降噪",
+        "防水",
+        "防尘",
         "沉浸式",
-        "灵敏度",
-        "定向传音",
-        "通话降噪"
+        "灵敏度"
       ],
       "data_completeness": 0.5
     },
@@ -704,17 +1029,19 @@
       "launch_date": "2026-06-23",
       "codecs": [],
       "bluetooth": null,
-      "major_chips": [],
+      "major_chips": [
+        "BES2700iH"
+      ],
       "selling_point_tags": [
+        "开放佩戴",
+        "降噪",
         "旗舰",
         "升级",
         "全新",
-        "创新",
-        "认证",
-        "防水",
-        "沉浸式"
+        "沉浸式",
+        "通话降噪"
       ],
-      "data_completeness": 0.33
+      "data_completeness": 0.5
     },
     {
       "canonical_id": "sony--linkbuds-clip",
@@ -723,14 +1050,17 @@
       "price_cny": null,
       "launch_date": "2026-06-25",
       "codecs": [],
-      "bluetooth": null,
-      "major_chips": [],
+      "bluetooth": "5.3",
+      "major_chips": [
+        "AB1585"
+      ],
       "selling_point_tags": [
+        "其他",
         "创新",
         "认证",
         "三频"
       ],
-      "data_completeness": 0.33
+      "data_completeness": 0.67
     },
     {
       "canonical_id": "soundai--unknown",
@@ -741,8 +1071,15 @@
       "codecs": [],
       "bluetooth": null,
       "major_chips": [],
-      "selling_point_tags": [],
-      "data_completeness": 0.17
+      "selling_point_tags": [
+        "开放佩戴",
+        "降噪",
+        "专利",
+        "三频",
+        "定向传音",
+        "通话降噪"
+      ],
+      "data_completeness": 0.33
     },
     {
       "canonical_id": "soundcore--c50i",
@@ -750,23 +1087,43 @@
       "model": "C50i",
       "price_cny": null,
       "launch_date": "2026-06-05",
-      "codecs": [],
-      "bluetooth": null,
-      "major_chips": [],
+      "codecs": [
+        {
+          "value": "LDAC",
+          "evidence": {
+            "value": "LDAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "在功能配置方面，Soundcore声阔C50i开放式耳机搭载12mm高保真动圈单元，全频增强大师级调音，带来三频饱满均衡，低音澎湃的听感；通过声场纵深优化技术，带来更具空间感的沉浸音效；还支持LDAC高解析音频传输，通过了Hi-Res AUDIO WIRELESS金标认证，能够呈现更丰富的音频细节。"
+          }
+        },
+        {
+          "value": "Hi-Res",
+          "evidence": {
+            "value": "Hi-Res",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "在功能配置方面，Soundcore声阔C50i开放式耳机搭载12mm高保真动圈单元，全频增强大师级调音，带来三频饱满均衡，低音澎湃的听感；通过声场纵深优化技术，带来更具空间感的沉浸音效；还支持LDAC高解析音频传输，通过了Hi-Res AUDIO WIRELESS金标认证，能够呈现更丰富的音频细节。"
+          }
+        }
+      ],
+      "bluetooth": "6.0",
+      "major_chips": [
+        "JL7103"
+      ],
       "selling_point_tags": [
-        "全新",
-        "定制",
+        "开放佩戴",
+        "降噪",
+        "其他",
         "认证",
         "Hi-Res",
-        "降噪",
         "防水",
-        "防尘",
         "高保真",
-        "大动圈",
+        "钛振膜",
         "三频",
         "通话降噪"
       ],
-      "data_completeness": 0.33
+      "data_completeness": 0.83
     },
     {
       "canonical_id": "unknown--earbuds",
@@ -782,10 +1139,8 @@
         "AB0"
       ],
       "selling_point_tags": [
-        "认证",
         "降噪",
-        "高保真",
-        "灵敏度",
+        "开放佩戴",
         "空间音频",
         "通话降噪"
       ],
@@ -797,11 +1152,21 @@
       "model": "DN12",
       "price_cny": null,
       "launch_date": "2026-06-05",
-      "codecs": [],
-      "bluetooth": null,
+      "codecs": [
+        {
+          "value": "AAC",
+          "evidence": {
+            "value": "AAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "迪士尼系列DN12耳夹式真无线耳机搭载13mm大动圈喇叭，支持蓝牙5.3，支持AAC音频解码，提供三频均衡的好音质；支持游戏模式，通过低延时算法，提供更流畅的游戏体验；支持开盖即连，触摸控制、单/双耳模式，拥有着便捷使用体验。"
+          }
+        }
+      ],
+      "bluetooth": "5.3",
       "major_chips": [],
       "selling_point_tags": [],
-      "data_completeness": 0.17
+      "data_completeness": 0.5
     }
   ]
 }

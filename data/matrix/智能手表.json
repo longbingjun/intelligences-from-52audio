@@ -1,6 +1,6 @@
 {
   "category": "智能手表",
-  "generated_at": "2026-07-02T17:36:28+08:00",
+  "generated_at": "2026-07-02T17:42:54+08:00",
   "columns": [
     "price_cny",
     "launch_date",
@@ -33,6 +33,7 @@
       "bluetooth": null,
       "major_chips": [],
       "selling_point_tags": [
+        "旗舰定位",
         "旗舰"
       ],
       "data_completeness": 0.33
@@ -47,6 +48,7 @@
       "bluetooth": null,
       "major_chips": [],
       "selling_point_tags": [
+        "其他",
         "升级",
         "大幅提升"
       ],
@@ -72,17 +74,30 @@
       "model": "Watch S5",
       "price_cny": null,
       "launch_date": "2026-06-17",
-      "codecs": [],
+      "codecs": [
+        {
+          "value": "AAC",
+          "evidence": {
+            "value": "AAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "手表内置扬声器特写，丝印“AAC 5CGM”。"
+          }
+        }
+      ],
       "bluetooth": null,
-      "major_chips": [],
+      "major_chips": [
+        "BES2800BP"
+      ],
       "selling_point_tags": [
+        "其他",
+        "降噪",
         "升级",
         "全新",
         "创新",
-        "超长续航",
-        "超长"
+        "第一"
       ],
-      "data_completeness": 0.33
+      "data_completeness": 0.67
     }
   ]
 }
