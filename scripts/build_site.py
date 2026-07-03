@@ -453,6 +453,7 @@ def main() -> None:
     videos = load_all_records("video")
     idx = load_index()
     SITE_DIR.mkdir(parents=True, exist_ok=True)
+    (SITE_DIR / ".nojekyll").touch()
     _copy_search_index()
     build_index(reports, videos, idx)
     build_list_page("report", reports, "拆解报告", "reports")

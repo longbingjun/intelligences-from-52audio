@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
     inputs:
       crawl_mode:
-        description: daily=日更第1页；backfill-2026=补全2026年
+        description: daily=日更首页；backfill-2026=补全2026年
         type: choice
         options:
           - daily
@@ -22,7 +22,7 @@ permissions:
 
 concurrency:
   group: pages
-  cancel-in-progress: true
+  cancel-in-progress: false
 
 jobs:
   crawl-and-build:
@@ -68,7 +68,7 @@ jobs:
           git config user.name "intel-bot"
           git config user.email "intel-bot@users.noreply.github.com"
           git add data/ site/
-          git diff --cached --quiet || git commit -m "chore: 自动更新情报数据 v2 [skip ci]"
+          git diff --cached --quiet || git commit --trailer "Co-authored-by: Cursor <cursoragent@cursor.com>" -m "chore: 自动更新情报数据 v2 [skip ci]"
           git pull --rebase origin master
           git push
 
@@ -79,5 +79,10 @@ jobs:
       name: github-pages
       url: ${{ steps.deployment.outputs.page_url }}
     steps:
-      - uses: actions/deploy-pages@v4
+      - name: 部署 GitHub Pages（失败自动重试）
         id: deployment
+        uses: Wandalen/wretry.action@v3.5.0
+        with:
+          action: actions/deploy-pages@v4
+          attempt_limit: 5
+          attempt_delay: 45000
