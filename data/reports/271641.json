@@ -105,72 +105,58 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "BES",
-          "model": "恒玄BES2600IHC-4X",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "恒玄BES2600IHC-4X",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "恒玄BES2600IHC-4X"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "BES2600IHC-4X",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "BES2600IHC-4X",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "BES2600IHC-4X"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "BES2600IHC",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "BES2600IHC",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "BES2600IHC"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
+          "brand": "思远半导体",
           "model": "思远半导体SY8801",
-          "qty_hint": "",
-          "side": "",
+          "qty_hint": "1",
+          "side": "充电盒",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "思远半导体SY8801",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "思远半导体SY8801"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，采用了思远半导体SY8801智能充电仓解决方案，负责内置电池的充放电管理；"
           }
         },
         {
           "component": "芯片/模组",
-          "brand": "",
-          "model": "SY8801",
-          "qty_hint": "",
-          "side": "",
+          "brand": "BES恒玄科技",
+          "model": "恒玄BES2600IHC-4X",
+          "qty_hint": "1",
+          "side": "耳机",
           "role": "主控/蓝牙",
           "evidence": {
-            "value": "SY8801",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "SY8801"
+            "value": "恒玄BES2600IHC-4X",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用了BES恒玄BES2600IHC-4X蓝牙音频SoC，用于无线连接和音频数据处理。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "BES恒玄科技",
+          "model": "BES2600IHC-4X",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES2600IHC-4X",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用了BES恒玄BES2600IHC-4X蓝牙音频SoC，用于无线连接和音频数据处理。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "BES恒玄科技",
+          "model": "BES2600IHC",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES2600IHC",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用了BES恒玄BES2600IHC-4X蓝牙音频SoC，用于无线连接和音频数据处理。"
           }
         }
       ],

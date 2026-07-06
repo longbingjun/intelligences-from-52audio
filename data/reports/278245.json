@@ -92,6 +92,34 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5516",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5516",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载ST神通天下3.7V/380mAh锂离子聚合物电池，采用INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，负责内置电池的充放电管理和整机控制。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Bluetrum中科蓝讯",
+          "model": "Bluetrum中科蓝讯BT8952F",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8952F",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，搭载了1颗敏芯微电子的MEMS麦克风，Bluetrum中科蓝讯BT8952F蓝牙音频SoC和Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。"
+          }
+        },
+        {
+          "component": "芯片/模组",
           "brand": "",
           "model": "AB3",
           "qty_hint": "",
@@ -102,90 +130,6 @@
             "confidence": 0.82,
             "source_type": "text",
             "source_text": "AB3"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "INJOINIC英集芯IP5516",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5516",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5516"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "英集芯IP5516",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "英集芯IP5516",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "英集芯IP5516"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "IP5516",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "IP5516",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "IP5516"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "Bluetrum中科蓝讯BT8952F",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "Bluetrum中科蓝讯BT8952F",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "Bluetrum中科蓝讯BT8952F"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "中科蓝讯BT8952F",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "中科蓝讯BT8952F",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "中科蓝讯BT8952F"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "BT8952F",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "BT8952F",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "BT8952F"
           }
         }
       ],
@@ -995,5 +939,5 @@
       }
     }
   },
-  "data_completeness": 0.86
+  "data_completeness": 0.858
 }

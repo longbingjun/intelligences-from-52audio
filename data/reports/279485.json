@@ -100,72 +100,44 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
-          "model": "BES2800BP",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "BES2800BP",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "BES2800BP"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
+          "brand": "思远半导体",
           "model": "思远半导体SY5951",
-          "qty_hint": "",
+          "qty_hint": "1",
           "side": "",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "思远半导体SY5951",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "思远半导体SY5951"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，采用思远半导体SY5951同步升压转换器和SY5112高效同步降压转换器，CellWise赛微微电CW2215E锂电池电量计，Southchip南芯SC89620开关模式降压充电器，SGMicro圣邦微SGM38046屏幕供电芯片等电源类芯片。"
           }
         },
         {
           "component": "芯片/模组",
-          "brand": "",
-          "model": "思远半导体SY5112",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "思远半导体SY5112",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "思远半导体SY5112"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "SY5951",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "SY5951",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "SY5951"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
+          "brand": "思远半导体",
           "model": "SY5112",
-          "qty_hint": "",
+          "qty_hint": "1",
           "side": "",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "SY5112",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "SY5112"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，采用思远半导体SY5951同步升压转换器和SY5112高效同步降压转换器，CellWise赛微微电CW2215E锂电池电量计，Southchip南芯SC89620开关模式降压充电器，SGMicro圣邦微SGM38046屏幕供电芯片等电源类芯片。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "BES恒玄科技",
+          "model": "BES2800BP",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES2800BP",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主控芯片采用BES恒玄科技BES2800BP智能穿戴SoC，配备KIOXIA铠侠THGBMNG5D1LBAIK eMMC存储器；"
           }
         }
       ],
@@ -653,5 +625,5 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.712
+  "data_completeness": 0.71
 }

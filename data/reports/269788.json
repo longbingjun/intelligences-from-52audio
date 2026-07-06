@@ -99,30 +99,16 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
+          "brand": "晶晨",
           "model": "晶晨A113X",
-          "qty_hint": "",
+          "qty_hint": "1",
           "side": "",
-          "role": "主控/蓝牙",
+          "role": "保护IC",
           "evidence": {
             "value": "晶晨A113X",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "晶晨A113X"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "A113X",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "A113X",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "A113X"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "副板上，搭载了Southchip南芯SC2021A Type-C/PD和DPDM快充控制器，WCH沁恒CH334P USB HUB控制器芯片等方案， 主板上，采用了Southchip南芯SC5510EH的锂电保护IC，Amlogic晶晨A113X2智能音频芯片，CXMT长鑫存储CXDB5CBAM-MA-B SDRAM，AltoBeam高拓讯达ATBM6132 Wi-Fi4+BLE双模数传芯片，LEADPOWER率能SS8837T电机驱动，Telink泰凌微电子TLSR9517C多标准无线SoC，ACMESEMI至盛ACM8615S音频放大器，Longsys江波龙FEMDNN032G-C9A55"
           }
         }
       ],
@@ -626,5 +612,5 @@
       }
     }
   },
-  "data_completeness": 0.622
+  "data_completeness": 0.606
 }

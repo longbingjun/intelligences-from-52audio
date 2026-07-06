@@ -90,128 +90,44 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
+          "brand": "INJOINIC英集芯",
           "model": "INJOINIC英集芯IP5528",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
           "evidence": {
             "value": "INJOINIC英集芯IP5528",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5528"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了WEL旭航诚3.7V/600mAh锂电池，采用了INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示，支持跟随充电，为产品的长续航提供支持；"
           }
         },
         {
           "component": "芯片/模组",
-          "brand": "",
-          "model": "英集芯IP5528",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
+          "brand": "Prisemi芯导",
+          "model": "Prisemi芯导P14C1S",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
           "evidence": {
-            "value": "英集芯IP5528",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "英集芯IP5528"
+            "value": "Prisemi芯导P14C1S",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "还采用了Prisemi芯导P14C1S过压过流保护IC，保护电路安全。"
           }
         },
         {
           "component": "芯片/模组",
-          "brand": "",
-          "model": "IP5528",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "IP5528",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "IP5528"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
+          "brand": "Bluetrum中科蓝讯",
           "model": "Bluetrum中科蓝讯BT8912F",
-          "qty_hint": "",
-          "side": "",
+          "qty_hint": "1",
+          "side": "耳机",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "Bluetrum中科蓝讯BT8912F",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "Bluetrum中科蓝讯BT8912F"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "中科蓝讯BT8912F",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "中科蓝讯BT8912F",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "中科蓝讯BT8912F"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "BT8912F",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "BT8912F",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "BT8912F"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "Prisemi芯导P14C1S",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "Prisemi芯导P14C1S",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "Prisemi芯导P14C1S"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "芯导P14C1S",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "芯导P14C1S",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "芯导P14C1S"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "P14C1S",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "P14C1S",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "P14C1S"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载HJ弘捷新能源3.85V/55mAh软包扣式电池，采用三磁路黄金微晶振膜动圈单元，内置两颗MEMS麦克风，主控芯片为Bluetrum中科蓝讯BT8912F蓝牙音频SoC。"
           }
         }
       ],
@@ -1120,5 +1036,5 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.858
+  "data_completeness": 0.856
 }

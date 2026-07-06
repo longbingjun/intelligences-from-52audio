@@ -79,16 +79,30 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
+          "brand": "BES恒玄科技",
           "model": "BES2800BP",
-          "qty_hint": "",
+          "qty_hint": "1",
           "side": "",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "BES2800BP",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "BES2800BP"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "芯片方案包括ADI亚德诺MAX17332电源管理芯片，CirrusLogic凌云逻辑CS35L42音频放大器，Azoteq IQS7222A多模态传感控制器，研极微SA62105X2 ISP芯片，BES恒玄科技BES2800BP智能穿戴SoC，BIWIN佰维存储器，艾为电子AW21104 LED驱动器，TDK 6轴传感器等。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "ConvenientPower易冲半导体",
+          "model": "ConvenientPower易冲半导体CPS4021",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "无线充电IC",
+          "evidence": {
+            "value": "ConvenientPower易冲半导体CPS4021",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "有线充电采用了SGMICRO圣邦微SGM41513D电池充电器，无线充电采用ConvenientPower易冲半导体CPS4021无线充电接收芯片；"
           }
         },
         {
@@ -103,48 +117,6 @@
             "confidence": 0.82,
             "source_type": "text",
             "source_text": "AB4"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "ConvenientPower易冲半导体CPS4021",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "ConvenientPower易冲半导体CPS4021",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "ConvenientPower易冲半导体CPS4021"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "易冲半导体CPS4021",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "易冲半导体CPS4021",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "易冲半导体CPS4021"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "CPS4021",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "CPS4021",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "CPS4021"
           }
         }
       ],
@@ -849,5 +821,5 @@
       }
     }
   },
-  "data_completeness": 0.736
+  "data_completeness": 0.734
 }

@@ -102,104 +102,6 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
-          "model": "INJOINIC英集芯IP5529",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5529",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5529"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "英集芯IP5529",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "英集芯IP5529",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "英集芯IP5529"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "Bluetrum中科蓝讯BT8932F",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "Bluetrum中科蓝讯BT8932F",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "Bluetrum中科蓝讯BT8932F"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "中科蓝讯BT8932F",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "中科蓝讯BT8932F",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "中科蓝讯BT8932F"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "BT8932F",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "BT8932F",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "BT8932F"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "Prisemi芯导P14C1",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "Prisemi芯导P14C1",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "Prisemi芯导P14C1"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "芯导P14C1",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "芯导P14C1",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "芯导P14C1"
-          }
-        },
-        {
-          "component": "芯片/模组",
           "brand": "INJOINIC英集芯",
           "model": "INJOINIC英集芯IP5529",
           "qty_hint": "1",
@@ -224,6 +126,20 @@
             "confidence": 0.85,
             "source_type": "summary_prose",
             "source_text": "其他还采用了Prisemi芯导P14C13过压保护IC，霍尔元件等方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Bluetrum中科蓝讯",
+          "model": "Bluetrum中科蓝讯BT8932F",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8932F",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载3.7V/40mAh锂电池，二代钛动圈单元和一颗MEMS麦克风，采用了Bluetrum中科蓝讯BT8932F蓝牙音频SoC，用于无线连接和音频数据处理。"
           }
         }
       ],
@@ -1021,5 +937,5 @@
       }
     }
   },
-  "data_completeness": 0.81
+  "data_completeness": 0.808
 }

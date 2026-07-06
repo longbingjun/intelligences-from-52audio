@@ -103,76 +103,6 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
-          "model": "INJOINIC英集芯IP5529",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5529",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5529"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "英集芯IP5529",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "英集芯IP5529",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "英集芯IP5529"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "WINSEMI稳先微WSDF2320B",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "WINSEMI稳先微WSDF2320B",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "WINSEMI稳先微WSDF2320B"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "稳先微WSDF2320B",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "稳先微WSDF2320B",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "稳先微WSDF2320B"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "WSDF2320B",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "WSDF2320B",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "WSDF2320B"
-          }
-        },
-        {
-          "component": "芯片/模组",
           "brand": "INJOINIC英集芯",
           "model": "INJOINIC英集芯IP5529",
           "qty_hint": "1",
@@ -183,6 +113,20 @@
             "confidence": 0.85,
             "source_type": "summary_prose",
             "source_text": "充电盒搭载了弘捷新能源3.7V/450mAh锂电池，采用了INJOINIC英集芯IP5529充电仓电源管理SoC，集成升压转换器、锂电池充电管理、高性能MCU等功能，负责内置电池的充放电管理和整机控制；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "WINSEMI稳先微",
+          "model": "WINSEMI稳先微WSDF2320B",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF2320B",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主控芯片为WUQI物奇WQ7035AX-B智能音频SoC，其他还采用了WINSEMI稳先微WSDF2320B锂电池保护IC，HX天易合芯HX9031A距离传感器等。"
           }
         }
       ],
@@ -966,5 +910,5 @@
       }
     }
   },
-  "data_completeness": 0.858
+  "data_completeness": 0.84
 }

@@ -81,6 +81,20 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
+          "brand": "Qualcomm高通",
+          "model": "高通QCC3091",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通QCC3091",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "核心无线方案则选用高通QCC3091蓝牙音频SoC，提供稳定的无线连接与高效的音频数据处理。"
+          }
+        },
+        {
+          "component": "芯片/模组",
           "brand": "Qualcomm",
           "model": "Qualcomm AI",
           "qty_hint": "",
@@ -91,20 +105,6 @@
             "confidence": 0.82,
             "source_type": "text",
             "source_text": "Qualcomm AI"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "Qualcomm",
-          "model": "高通QCC3091",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "高通QCC3091",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "高通QCC3091"
           }
         },
         {
@@ -147,20 +147,6 @@
             "confidence": 0.82,
             "source_type": "text",
             "source_text": "高通QCC30xx"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "QCC3091",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "QCC3091",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "QCC3091"
           }
         },
         {

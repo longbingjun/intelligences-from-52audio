@@ -83,90 +83,6 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
-          "model": "JL7103",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "JL7103",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "JL7103"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "INJOINIC英集芯IP5513V",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5513V",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5513V"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "英集芯IP5513V",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "英集芯IP5513V",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "英集芯IP5513V"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "WINSEMI稳先微WSDF2310C",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "WINSEMI稳先微WSDF2310C",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "WINSEMI稳先微WSDF2310C"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "稳先微WSDF2310C",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "稳先微WSDF2310C",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "稳先微WSDF2310C"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "WSDF2310C",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "WSDF2310C",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "WSDF2310C"
-          }
-        },
-        {
-          "component": "芯片/模组",
           "brand": "INJOINIC英集芯",
           "model": "INJOINIC英集芯IP5513V",
           "qty_hint": "1",
@@ -177,6 +93,34 @@
             "confidence": 0.85,
             "source_type": "summary_prose",
             "source_text": "主板上搭载INJOINIC英集芯IP5513V充电仓管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等丰富的功能，为充电仓提供完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "WINSEMI稳先微",
+          "model": "WINSEMI稳先微WSDF2310C",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF2310C",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载VDL紫建电子60mAh软包扣式电池，配备了WINSEMI稳先微WSDF2310C锂电保护IC；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "JL杰理",
+          "model": "JL7103",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL7103",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用12mm复合镀钛振膜动圈单元，内置一颗敏芯微电子的MEMS麦克风，主控芯片为JL杰理科技JL7103D6蓝牙音频SoC。"
           }
         }
       ],
@@ -995,5 +939,5 @@
       }
     }
   },
-  "data_completeness": 0.808
+  "data_completeness": 0.806
 }

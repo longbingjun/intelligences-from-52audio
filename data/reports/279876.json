@@ -102,44 +102,16 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
+          "brand": "INJOINIC英集芯",
           "model": "INJOINIC英集芯IP5528",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
           "evidence": {
             "value": "INJOINIC英集芯IP5528",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5528"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "英集芯IP5528",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "英集芯IP5528",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "英集芯IP5528"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "IP5528",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "IP5528",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "IP5528"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "有线采用INJOINIC英集芯IP5528充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示等多功能；"
           }
         }
       ],
@@ -979,5 +951,5 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.846
+  "data_completeness": 0.814
 }

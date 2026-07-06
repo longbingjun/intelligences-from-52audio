@@ -92,86 +92,16 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
-          "model": "JL7006",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "JL7006",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "JL7006"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
+          "brand": "INJOINIC英集芯",
           "model": "INJOINIC英集芯IP5516",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
           "evidence": {
             "value": "INJOINIC英集芯IP5516",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5516"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "英集芯IP5516",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "英集芯IP5516",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "英集芯IP5516"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "IP5516",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "IP5516",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "IP5516"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "WINSEMI稳先微WSDF23A",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "WINSEMI稳先微WSDF23A",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "WINSEMI稳先微WSDF23A"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "稳先微WSDF23A",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "稳先微WSDF23A",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "稳先微WSDF23A"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载3.7V/350mAh锂电池组，采用INJOINIC英集芯IP5516充电仓管理SoC，集成MCU，支持300mA同步升压输出，500mA线性充电，支持数码管电量显示，为充电盒提供了完整的电源解决方案。"
           }
         },
         {
@@ -186,6 +116,20 @@
             "confidence": 0.85,
             "source_type": "summary_prose",
             "source_text": "耳机内部搭载3.7V/40mAh锂电池，配备WINSEMI稳先微WSDF23A2N2H全集成锂电保护IC；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "JL杰理",
+          "model": "JL7006",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL7006",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "搭载10mm复合振膜喇叭，内置两颗MEMS麦克风，采用JL杰理JL7006F8蓝牙音频SoC，用于无线连接和音频信号处理。"
           }
         }
       ],
@@ -960,5 +904,5 @@
       }
     }
   },
-  "data_completeness": 0.79
+  "data_completeness": 0.788
 }

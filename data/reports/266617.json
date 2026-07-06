@@ -72,48 +72,6 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
-          "model": "JL7006",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "JL7006",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "JL7006"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "INJOINIC英集芯IP5513",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5513",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5513"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "英集芯IP5513",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "英集芯IP5513",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "英集芯IP5513"
-          }
-        },
-        {
-          "component": "芯片/模组",
           "brand": "INJOINIC英集芯",
           "model": "INJOINIC英集芯IP5513",
           "qty_hint": "1",
@@ -124,6 +82,20 @@
             "confidence": 0.85,
             "source_type": "summary_prose",
             "source_text": "主板上，采用了INJOINIC英集芯IP5513电源管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等多功能，单芯片为充电盒提供完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "JL杰理",
+          "model": "JL7006",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL7006",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主控芯片为JL杰理JL7006F蓝牙音频SoC。"
           }
         }
       ],
@@ -807,5 +779,5 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.682
+  "data_completeness": 0.664
 }

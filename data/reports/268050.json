@@ -91,30 +91,16 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
+          "brand": "思远半导体",
           "model": "思远半导体SY8825",
-          "qty_hint": "",
-          "side": "",
+          "qty_hint": "1",
+          "side": "充电盒",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "思远半导体SY8825",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "思远半导体SY8825"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "SY8825",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "SY8825",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "SY8825"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载3.7V/600mAh锂电池，采用了思远半导体SY8825蓝牙耳机充电仓SoC，负责内置电池的充放电管理；"
           }
         }
       ],
@@ -752,5 +738,5 @@
       }
     }
   },
-  "data_completeness": 0.79
+  "data_completeness": 0.774
 }

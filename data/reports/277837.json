@@ -101,76 +101,6 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
-          "model": "INJOINIC英集芯IP5518",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5518",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5518"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "英集芯IP5518",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "英集芯IP5518",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "英集芯IP5518"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "Bluetrum中科蓝讯BT8932H",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "Bluetrum中科蓝讯BT8932H",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "Bluetrum中科蓝讯BT8932H"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "中科蓝讯BT8932H",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "中科蓝讯BT8932H",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "中科蓝讯BT8932H"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "BT8932H",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "BT8932H",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "BT8932H"
-          }
-        },
-        {
-          "component": "芯片/模组",
           "brand": "INJOINIC英集芯",
           "model": "INJOINIC英集芯IP5518",
           "qty_hint": "1",
@@ -181,6 +111,20 @@
             "confidence": 0.85,
             "source_type": "summary_prose",
             "source_text": "充电盒搭载了ST神通天下3.7V/520mAh锂电池组，采用INJOINIC英集芯IP5518电源管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，且支持智能双向通讯，带来耳机秒回联手机的优质体验；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Bluetrum中科蓝讯",
+          "model": "Bluetrum中科蓝讯BT8932H",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8932H",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用Bluetrum中科蓝讯BT8932H蓝牙音频SoC，用于无线连接和音频数据处理。"
           }
         }
       ],
@@ -927,5 +871,5 @@
       }
     }
   },
-  "data_completeness": 0.876
+  "data_completeness": 0.858
 }

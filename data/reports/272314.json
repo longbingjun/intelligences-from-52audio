@@ -101,16 +101,30 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "Qualcomm",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5333",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5333",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电仓内置三秋科技3.85V/2500mAh锂电池组，采用了INJOINIC英集芯IP5333多功能电源管理SoC。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm高通",
           "model": "高通QCC5181",
-          "qty_hint": "",
-          "side": "",
+          "qty_hint": "1",
+          "side": "耳机",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "高通QCC5181",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "高通QCC5181"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，搭载了Qualcomm高通QCC5181蓝牙音频SoC，HEROIC禾润HT97220B耳机放大器，Prisemi芯导科技P14C1N过压过流保护IC等方案。"
           }
         },
         {
@@ -158,20 +172,6 @@
         {
           "component": "芯片/模组",
           "brand": "",
-          "model": "QCC5181",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "QCC5181",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "QCC5181"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
           "model": "QCC51",
           "qty_hint": "",
           "side": "",
@@ -181,48 +181,6 @@
             "confidence": 0.82,
             "source_type": "text",
             "source_text": "QCC51"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "INJOINIC英集芯IP5333",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5333",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5333"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "英集芯IP5333",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "英集芯IP5333",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "英集芯IP5333"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "INJOINIC英集芯",
-          "model": "INJOINIC英集芯IP5333",
-          "qty_hint": "1",
-          "side": "充电盒",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5333",
-            "confidence": 0.85,
-            "source_type": "summary_prose",
-            "source_text": "充电仓内置三秋科技3.85V/2500mAh锂电池组，采用了INJOINIC英集芯IP5333多功能电源管理SoC。"
           }
         }
       ],

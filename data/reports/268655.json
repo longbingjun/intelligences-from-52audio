@@ -100,48 +100,6 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
-          "model": "JL7016",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "JL7016",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "JL7016"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "INJOINIC英集芯IP2326",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "INJOINIC英集芯IP2326",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP2326"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "英集芯IP2326",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "英集芯IP2326",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "英集芯IP2326"
-          }
-        },
-        {
-          "component": "芯片/模组",
           "brand": "INJOINIC英集芯",
           "model": "INJOINIC英集芯IP2326",
           "qty_hint": "1",
@@ -152,6 +110,20 @@
             "confidence": 0.85,
             "source_type": "summary_prose",
             "source_text": "音箱主板上，搭载了INJOINIC英集芯IP2326升压充电IC，负责为内置电池快速充电；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "JL杰理",
+          "model": "JL7016",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL7016",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用JL杰理科技JL7016CB的蓝牙音频SoC，用于无线连接和音频数据处理。"
           }
         }
       ],
@@ -736,5 +708,5 @@
       }
     }
   },
-  "data_completeness": 0.7
+  "data_completeness": 0.682
 }

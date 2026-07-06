@@ -90,44 +90,30 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
-          "model": "BES2710IUC",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "BES2710IUC",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "BES2710IUC"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
+          "brand": "思远半导体",
           "model": "思远半导体SY8835",
-          "qty_hint": "",
-          "side": "",
+          "qty_hint": "1",
+          "side": "充电盒",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "思远半导体SY8835",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "思远半导体SY8835"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了GF新余赣锋3.87V/513mAh锂电池，主板上采用思远半导体SY8835蓝牙耳机充电仓解决方案，负责内置电池的充放电管理，同时集成通信模块，可以实现耳机仓到耳机端的高速通信；"
           }
         },
         {
           "component": "芯片/模组",
-          "brand": "",
-          "model": "SY8835",
-          "qty_hint": "",
-          "side": "",
+          "brand": "BES恒玄科技",
+          "model": "BES2710IUC",
+          "qty_hint": "1",
+          "side": "耳机",
           "role": "主控/蓝牙",
           "evidence": {
-            "value": "SY8835",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "SY8835"
+            "value": "BES2710IUC",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用BES恒玄科技BES2710IUC蓝牙音频SoC，用于无线连接和音频数据处理；"
           }
         }
       ],
@@ -748,5 +734,5 @@
       }
     }
   },
-  "data_completeness": 0.828
+  "data_completeness": 0.812
 }

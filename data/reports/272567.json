@@ -93,44 +93,16 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
+          "brand": "INJOINIC英集芯",
           "model": "INJOINIC英集芯IP5516",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
           "evidence": {
             "value": "INJOINIC英集芯IP5516",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5516"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "英集芯IP5516",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "英集芯IP5516",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "英集芯IP5516"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "IP5516",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "IP5516",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "IP5516"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，采用了INJOINIC英集芯IP5516充电盒管理SoC，负责内置电池的充放电管理；"
           }
         }
       ],
@@ -894,5 +866,5 @@
       }
     }
   },
-  "data_completeness": 0.886
+  "data_completeness": 0.854
 }

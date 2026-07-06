@@ -91,118 +91,6 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
-          "model": "INJOINIC英集芯IP5333",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5333",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5333"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "英集芯IP5333",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "英集芯IP5333",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "英集芯IP5333"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "Bluetrum中科蓝讯BT8952J",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "Bluetrum中科蓝讯BT8952J",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "Bluetrum中科蓝讯BT8952J"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "中科蓝讯BT8952J",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "中科蓝讯BT8952J",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "中科蓝讯BT8952J"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "BT8952J",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "BT8952J",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "BT8952J"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "WINSEMI稳先微WSDF1320A",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "WINSEMI稳先微WSDF1320A",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "WINSEMI稳先微WSDF1320A"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "稳先微WSDF1320A",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "稳先微WSDF1320A",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "稳先微WSDF1320A"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "WSDF1320A",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "WSDF1320A",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "WSDF1320A"
-          }
-        },
-        {
-          "component": "芯片/模组",
           "brand": "INJOINIC英集芯",
           "model": "INJOINIC英集芯IP5333",
           "qty_hint": "1",
@@ -213,6 +101,34 @@
             "confidence": 0.85,
             "source_type": "summary_prose",
             "source_text": "充电盒搭载3.7V/500mAh锂电池组，内置ASAIR奥松电子AHT30温湿度传感器，主板上采用了INJOINIC英集芯IP5333多功能电源管理SoC，AOGSemi安硅AP1436G过压过流保护IC，以及用于温湿度传感器和屏幕控制的MCU等。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "WINSEMI稳先微",
+          "model": "WINSEMI稳先微WSDF1320A",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF1320A",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载13mm镀钛振膜动圈单元，单耳内置一颗MEMS麦克风，采用了3.6V/60mAh钢壳扣式电池，配备WINSEMI稳先微WSDF1320A锂电保护IC；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Bluetrum中科蓝讯",
+          "model": "Bluetrum中科蓝讯BT8952J",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8952J",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主控芯片为Bluetrum中科蓝讯BT8952J蓝牙音频SoC。"
           }
         }
       ],
@@ -986,5 +902,5 @@
       }
     }
   },
-  "data_completeness": 0.792
+  "data_completeness": 0.79
 }

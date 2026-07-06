@@ -92,6 +92,34 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
+          "brand": "Prisemi芯导",
+          "model": "Prisemi芯导P14C1S",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
+          "evidence": {
+            "value": "Prisemi芯导P14C1S",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用了Prisemi芯导P14C1S过压过流保护IC，保护后级器件。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm高通",
+          "model": "高通QCC3091",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通QCC3091",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内置MIC-POWER微电新能源3.85V/35mAh钢壳扣式电池，搭载了12mm低音动圈单元和BELLSING倍声声学双动铁单元，以及三颗瑞勤电子的MEMS麦克风，采用了高通QCC3091蓝牙音频SoC（第一代骁龙S3音频平台），用于无线连接和音频数据处理。"
+          }
+        },
+        {
+          "component": "芯片/模组",
           "brand": "Qualcomm",
           "model": "Qualcomm AI",
           "qty_hint": "",
@@ -102,20 +130,6 @@
             "confidence": 0.82,
             "source_type": "text",
             "source_text": "Qualcomm AI"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "Qualcomm",
-          "model": "高通QCC3091",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "高通QCC3091",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "高通QCC3091"
           }
         },
         {
@@ -163,20 +177,6 @@
         {
           "component": "芯片/模组",
           "brand": "",
-          "model": "QCC3091",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "QCC3091",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "QCC3091"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
           "model": "QCC30",
           "qty_hint": "",
           "side": "",
@@ -186,48 +186,6 @@
             "confidence": 0.82,
             "source_type": "text",
             "source_text": "QCC30"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "Prisemi芯导P14C1S",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "Prisemi芯导P14C1S",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "Prisemi芯导P14C1S"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "芯导P14C1S",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "芯导P14C1S",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "芯导P14C1S"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "P14C1S",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "P14C1S",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "P14C1S"
           }
         }
       ],

@@ -103,56 +103,28 @@
           "component": "芯片/模组",
           "brand": "",
           "model": "AB5690",
-          "qty_hint": "",
-          "side": "",
+          "qty_hint": "1",
+          "side": "充电盒",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "AB5690",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "AB5690"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内部搭载PATL小锂新能源3.7V/600mAh锂电池组，采用Bluetrum中科蓝讯AB5690G智能穿戴芯片，HYNITRON海栎创CST810触控芯片，用于充电盒屏幕功能；"
           }
         },
         {
           "component": "芯片/模组",
-          "brand": "",
+          "brand": "Prisemi芯导",
           "model": "Prisemi芯导P14C1S",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
           "evidence": {
             "value": "Prisemi芯导P14C1S",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "Prisemi芯导P14C1S"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "芯导P14C1S",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "芯导P14C1S",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "芯导P14C1S"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "P14C1S",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "P14C1S",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "P14C1S"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "其他还搭载了WINSEMI稳先微WSDY3301A锂电保护IC，Prisemi芯导P14C1S过压过流保护IC，LPS微源半导体LP3992-33线性稳压器和LPM2301 PMOS等。"
           }
         }
       ],
@@ -924,5 +896,5 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.84
+  "data_completeness": 0.822
 }

@@ -102,72 +102,44 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
+          "brand": "BES恒玄科技",
           "model": "BES2810ZP",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "PMIC/充电仓管理",
           "evidence": {
             "value": "BES2810ZP",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "BES2810ZP"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机搭载VDL紫建电子58mAh锂电池、泰铭声学11mm+9mm同轴双单元模组、2个MEMS麦克风+1个骨传导麦克风，采用了Maxic美芯晟科技MT3103数字光学接近传感器，BES恒玄科技BES2810ZP蓝牙音频SoC，思远半导体SY5501电源管理PMIC等方案。"
           }
         },
         {
           "component": "芯片/模组",
-          "brand": "",
+          "brand": "思远半导体",
           "model": "思远半导体SY5501",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "PMIC/充电仓管理",
           "evidence": {
             "value": "思远半导体SY5501",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "思远半导体SY5501"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机搭载VDL紫建电子58mAh锂电池、泰铭声学11mm+9mm同轴双单元模组、2个MEMS麦克风+1个骨传导麦克风，采用了Maxic美芯晟科技MT3103数字光学接近传感器，BES恒玄科技BES2810ZP蓝牙音频SoC，思远半导体SY5501电源管理PMIC等方案。"
           }
         },
         {
           "component": "芯片/模组",
-          "brand": "",
+          "brand": "思远半导体",
           "model": "思远半导体SY8702",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
           "evidence": {
             "value": "思远半导体SY8702",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "思远半导体SY8702"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "SY5501",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "SY5501",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "SY5501"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "SY8702",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "SY8702",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "SY8702"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内置VDL紫建电子3.89V/530mAh锂电池，采用了WINSEMI稳先微WSDY3302E锂电保护IC，思远半导体SY8702低侧过压保护（OVP）IC，ETA钰泰ETA9030V电源管理芯片，Cmsemicon中微CMS8S5889单片机等方案。"
           }
         }
       ],
@@ -893,5 +865,5 @@
       }
     }
   },
-  "data_completeness": 0.822
+  "data_completeness": 0.82
 }

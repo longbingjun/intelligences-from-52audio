@@ -100,170 +100,72 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
+          "brand": "思远半导体",
+          "model": "思远半导体SY8805",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "思远半导体SY8805",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "有线采用思远半导体SY8805电源管理芯片，集成充电模块和放电模块，标准的I2C接口和通信端口；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "ConvenientPower易冲半导体",
+          "model": "ConvenientPower易冲半导体CPS4520",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "无线充电IC",
+          "evidence": {
+            "value": "ConvenientPower易冲半导体CPS4520",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "无线采用ConvenientPower易冲半导体CPS4520无线充电接收芯片；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "XHSC小华半导体",
+          "model": "XHSC小华半导体HC32L170FAUA",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "MCU",
+          "evidence": {
+            "value": "XHSC小华半导体HC32L170FAUA",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "其他还采用了XHSC小华半导体HC32L170FAUA MCU，用于充电盒整机控制。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "BES恒玄科技",
           "model": "BES2700iH",
-          "qty_hint": "",
-          "side": "",
+          "qty_hint": "1",
+          "side": "耳机",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "BES2700iH",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "BES2700iH"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载微电新能源3.85V/60mAh钢壳扣式电池，采用11.8mm对称双单元，内置双MEMS麦克风+加速度传感器提供精准拾音，主控芯片为BES恒玄科技BES2700iH蓝牙音频SoC，其他还采用了WINSEMI稳先微WSDF5317C锂电保护IC等方案。"
           }
         },
         {
           "component": "芯片/模组",
-          "brand": "",
-          "model": "思远半导体SY8805",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "思远半导体SY8805",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "思远半导体SY8805"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "SY8805",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "SY8805",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "SY8805"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "ConvenientPower易冲半导体CPS4520",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "ConvenientPower易冲半导体CPS4520",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "ConvenientPower易冲半导体CPS4520"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "易冲半导体CPS4520",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "易冲半导体CPS4520",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "易冲半导体CPS4520"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "CPS4520",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "CPS4520",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "CPS4520"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "XHSC小华半导体HC32L170FAUA",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "XHSC小华半导体HC32L170FAUA",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "XHSC小华半导体HC32L170FAUA"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "小华半导体HC32L170FAUA",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "小华半导体HC32L170FAUA",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "小华半导体HC32L170FAUA"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "HC32L170FAUA",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "HC32L170FAUA",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "HC32L170FAUA"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
+          "brand": "WINSEMI稳先微",
           "model": "WINSEMI稳先微WSDF5317C",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
           "evidence": {
             "value": "WINSEMI稳先微WSDF5317C",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "WINSEMI稳先微WSDF5317C"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "稳先微WSDF5317C",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "稳先微WSDF5317C",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "稳先微WSDF5317C"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "WSDF5317C",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "WSDF5317C",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "WSDF5317C"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载微电新能源3.85V/60mAh钢壳扣式电池，采用11.8mm对称双单元，内置双MEMS麦克风+加速度传感器提供精准拾音，主控芯片为BES恒玄科技BES2700iH蓝牙音频SoC，其他还采用了WINSEMI稳先微WSDF5317C锂电保护IC等方案。"
           }
         }
       ],

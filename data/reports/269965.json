@@ -100,6 +100,34 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
+          "brand": "思远半导体",
+          "model": "思远半导体SY6302",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "思远半导体SY6302",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内部主要配置方面，可拆卸电池仓内置紫建电子3.91V/240mAh锂电池，采用了思远半导体SY6302电量计。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "BES恒玄科技",
+          "model": "BES2800BP",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES2800BP",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上搭载了Qualcomm高通第一代骁龙AR1处理器、PMAR2130电源管理芯片和WCN7851 WiFi芯片，BIWIN佰维ePoP存储器，BES恒玄科技BES2800BP智能穿戴SoC，Southchip南芯SC89622高效开关充电芯片，思远半导体SY6302电量计， 艾为电子AW88166音频功放 和AW32915A过压保护IC等方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
           "brand": "Qualcomm",
           "model": "高通PMAR2130",
           "qty_hint": "",
@@ -124,48 +152,6 @@
             "confidence": 0.82,
             "source_type": "text",
             "source_text": "高通WCN7851"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "BES2800BP",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "BES2800BP",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "BES2800BP"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "思远半导体SY6302",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "思远半导体SY6302",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "思远半导体SY6302"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "SY6302",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "SY6302",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "SY6302"
           }
         }
       ],

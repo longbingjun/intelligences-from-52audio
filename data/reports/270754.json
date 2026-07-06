@@ -62,58 +62,30 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
+          "brand": "WINSEMI稳先微",
+          "model": "WINSEMI稳先微WSDF1311C",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF1311C",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内置49mAh钢壳扣式电池，配备WINSEMI稳先微WSDF1311C锂电保护IC；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "BES恒玄科技",
           "model": "BES2710IHC",
-          "qty_hint": "",
-          "side": "",
+          "qty_hint": "1",
+          "side": "耳机",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "BES2710IHC",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "BES2710IHC"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "WINSEMI稳先微WSDF1311C",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "WINSEMI稳先微WSDF1311C",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "WINSEMI稳先微WSDF1311C"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "稳先微WSDF1311C",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "稳先微WSDF1311C",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "稳先微WSDF1311C"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "WSDF1311C",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "WSDF1311C",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "WSDF1311C"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主控芯片为BES恒玄科技BES2710IHC蓝牙音频SoC。"
           }
         }
       ],
@@ -833,5 +805,5 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.718
+  "data_completeness": 0.7
 }

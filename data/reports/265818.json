@@ -69,30 +69,16 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
+          "brand": "思远半导体",
           "model": "思远半导体SY8602",
-          "qty_hint": "",
+          "qty_hint": "1",
           "side": "",
-          "role": "主控/蓝牙",
+          "role": "保护IC",
           "evidence": {
             "value": "思远半导体SY8602",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "思远半导体SY8602"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "SY8602",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "SY8602",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "SY8602"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，采用了XINCUN芯存XC64MAAJ-NTW 64G存储器，Prisemi芯导科技P14C1N过压过流保护IC，思远半导体SY8602线性锂电池充电器，Realtek瑞昱RTL8722CSM物联网SoC，Winbond华邦W25Q32JV闪存，以及Nordic nRF52810无线SoC等。"
           }
         }
       ],
@@ -523,5 +509,5 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.582
+  "data_completeness": 0.566
 }

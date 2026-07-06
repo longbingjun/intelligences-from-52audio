@@ -99,30 +99,16 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
+          "brand": "爱科微",
           "model": "AIC8800",
-          "qty_hint": "",
+          "qty_hint": "1",
           "side": "",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "AIC8800",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "AIC8800"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "爱科微AIC8800",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "爱科微AIC8800",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "爱科微AIC8800"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "芯片方案上，采用了GigaDevice兆易创新GD32L233RCT6微控制器，Rockchip瑞芯微RK3566四核处理器和RK817电源管理芯片，KOWIN康盈KASH6311 eMMC5.1存储器和Zentel力积A8XBGH52ABA-PM LPDDR4x存储器，FN-LINK欧智通N200AK-SR无线通讯模块（AICSEMI爱科微AIC8800D WiFI/蓝牙SoC+Chipbetter芯百特CB5717射频前端芯片+Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感），Everest顺芯ES7202音频ADC，CHIPSEMI基合CHSC6417EU24自容触控芯片等。"
           }
         }
       ],
@@ -631,5 +617,5 @@
       }
     }
   },
-  "data_completeness": 0.652
+  "data_completeness": 0.636
 }

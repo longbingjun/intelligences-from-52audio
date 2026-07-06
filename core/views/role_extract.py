@@ -222,15 +222,32 @@ def _chip_modules_from_text(plain: str) -> list[dict]:
 
 
 def _dedupe_chips(chips: list[dict]) -> list[dict]:
-    seen: set[str] = set()
-    out = []
+    """按芯片型号 canonical 去重，保留描述最完整的版本（品牌前缀最长的）。
+
+    扩展后的 CHIP_PATTERNS 会有重叠匹配，例如「INJOINIC英集芯IP5528」「英集芯IP5528」
+    「IP5528」三个 pattern 都命中同一颗芯片，canonical 都是 IP5528。这里按 canonical
+    去重，保留 model 字符串最长（带品牌前缀）的那一条。
+    """
+    by_canon: dict[str, dict] = {}
+    order: list[str] = []
     for c in chips:
-        key = re.sub(r"\s+", "", (c.get("model") or "")).upper()
-        if not key or key in seen:
+        model = (c.get("model") or "").strip()
+        if not model:
             continue
-        seen.add(key)
-        out.append(c)
-    return out
+        # canonical：取末尾的「字母+数字+字母数字」token 作为型号核心
+        m = re.search(r"[A-Z]{1,4}\d+[A-Z0-9]*$", model, re.I)
+        canon = m.group(0).upper() if m else re.sub(r"\s+", "", model).upper()
+        if not canon:
+            continue
+        prev = by_canon.get(canon)
+        if prev is None:
+            by_canon[canon] = c
+            order.append(canon)
+        else:
+            # 保留 model 字符串更长（更带品牌前缀）的那条
+            if len(model) > len((prev.get("model") or "").strip()):
+                by_canon[canon] = c
+    return [by_canon[k] for k in order]
 
 
 def _guess_side(text: str) -> str:
@@ -630,20 +647,26 @@ def extract_role_views(
     text_bom = _build_bom_table(major, minor, plain)
     merged_bom = _merge_bom_with_summary(text_bom, summary_bom_rows)
 
-    # 把 summary 里的芯片也并入 chip_modules（去重，summary 优先）
+    # 把 summary 里的芯片也并入 chip_modules（summary 优先，正文 chip 仅补未覆盖的型号）
     summary_chip_rows = [r for r in summary_bom_rows if r.get("component") == "芯片/模组"]
-    enriched_chips = list(chips)
-    existing_chip_keys = {re.sub(r"\s+", "", (c.get("model") or "")).upper() for c in enriched_chips}
+    # 用 canonical（型号核心数字字母 token）做去重 key，避免「思远半导体SY8805」与「SY8805」重复
+    def _chip_canon(model: str) -> str:
+        m = re.search(r"[A-Z]{1,4}\d+[A-Z0-9]*$", model or "", re.I)
+        return m.group(0).upper() if m else re.sub(r"\s+", "", model or "").upper()
+
+    enriched_chips: list[dict] = []
+    seen_canon: set[str] = set()
     for r in summary_chip_rows:
         norm = _normalize_bom_row(r)
-        # chip_modules schema 与 bom_table 略不同：复用同一 dict 即可
-        key = re.sub(r"\s+", "", norm.get("model", "")).upper()
-        # 取 canonical（末尾字母数字 token）做更稳健的去重
-        m = re.search(r"[A-Z]{1,4}\d+[A-Z0-9]*$", norm.get("model", ""), re.I)
-        canon = m.group(0).upper() if m else key
-        if canon and canon not in existing_chip_keys:
-            existing_chip_keys.add(canon)
+        canon = _chip_canon(norm.get("model", ""))
+        if canon and canon not in seen_canon:
+            seen_canon.add(canon)
             enriched_chips.append(norm)
+    for c in chips:  # 正文 chip_modules（已 canonical-deduped）
+        canon = _chip_canon(c.get("model", ""))
+        if canon and canon not in seen_canon:
+            seen_canon.add(canon)
+            enriched_chips.append(c)
 
     cost = CostView(
         major_parts=major_names,

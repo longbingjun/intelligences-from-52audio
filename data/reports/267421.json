@@ -101,44 +101,30 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
+          "brand": "思远半导体",
+          "model": "思远半导体SY8835",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "MCU",
+          "evidence": {
+            "value": "思远半导体SY8835",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内置新余赣锋3.89V/530mAh锂电池，主板上搭载了思远半导体SY8835蓝牙耳机充电仓解决方案，集成充电模块、放电模块，集成MCU模块和通讯模块，负责电池的充放电管理和整机控制；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "BES恒玄科技",
           "model": "BES2710IHC",
-          "qty_hint": "",
-          "side": "",
+          "qty_hint": "1",
+          "side": "耳机",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "BES2710IHC",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "BES2710IHC"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "思远半导体SY8835",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "思远半导体SY8835",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "思远半导体SY8835"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "SY8835",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "SY8835",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "SY8835"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内置VDL紫建电子62mAh软包扣式电池，搭载了11mm低音动圈单元+6mm高音动圈单元双喇叭，内置瑞勤电子的三颗MEMS麦克风，主控芯片为BES恒玄科技BES2710IHC蓝牙音频SoC。"
           }
         }
       ],
@@ -810,5 +796,5 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.796
+  "data_completeness": 0.78
 }

@@ -91,44 +91,16 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
+          "brand": "JL杰理",
           "model": "JL7016",
-          "qty_hint": "",
+          "qty_hint": "1",
           "side": "",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "JL7016",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "JL7016"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "INJOINIC英集芯IP2363",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "INJOINIC英集芯IP2363",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP2363"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "英集芯IP2363",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "英集芯IP2363",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "英集芯IP2363"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，搭载了JL杰理科技JL7016C6蓝牙音频SoC，ACMESEMI至盛ACM8625P音频功放，INJOINIC英集芯IP2363电源管理芯片，Powlicon宝砾微PL30502同步升压转换器，中微爱芯AiP650 LED驱动器，以及APM永源微AP10H03LI MOS管和AGMsemi芯控源AGM311MAP MOS管等方案。"
           }
         },
         {
@@ -695,5 +667,5 @@
       }
     }
   },
-  "data_completeness": 0.75
+  "data_completeness": 0.732
 }

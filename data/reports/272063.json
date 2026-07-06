@@ -41,48 +41,6 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
-          "model": "JL7016",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "JL7016",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "JL7016"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "INJOINIC英集芯IP2369",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "INJOINIC英集芯IP2369",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP2369"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "英集芯IP2369",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "英集芯IP2369",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "英集芯IP2369"
-          }
-        },
-        {
-          "component": "芯片/模组",
           "brand": "INJOINIC英集芯",
           "model": "INJOINIC英集芯IP2369",
           "qty_hint": "1",
@@ -93,6 +51,20 @@
             "confidence": 0.85,
             "source_type": "summary_prose",
             "source_text": "采用了惠州市鼎高电池7.4V/5000mAh电池组供电，由INJOINIC英集芯IP2369电源管理芯片，负责内置电池的充放电管理。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "JL杰理",
+          "model": "JL7016",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL7016",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主控芯片采用JL杰理科技JL7016C6蓝牙音频SoC，扬声器驱动采用了ACMESEMI至盛ACM8625P双通道数字输入D类音频功放；"
           }
         }
       ],
@@ -749,5 +721,5 @@
       }
     }
   },
-  "data_completeness": 0.71
+  "data_completeness": 0.692
 }

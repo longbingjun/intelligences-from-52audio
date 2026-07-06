@@ -91,16 +91,30 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "Qualcomm",
+          "brand": "Qualcomm高通",
           "model": "高通QCC3095",
-          "qty_hint": "",
+          "qty_hint": "1",
           "side": "",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "高通QCC3095",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "高通QCC3095"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用Qualcomm高通QCC3095蓝牙音频SoC，搭配KHIC港宏KH25U6432F闪存，用于无线连接和音频数据处理；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm高通",
+          "model": "高通QCC3086",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通QCC3086",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "2.4G收发器内部搭载了Qualcomm高通QCC3086蓝牙音频SoC，用于与耳挂式智能音响实现低延迟无线传输；"
           }
         },
         {
@@ -120,20 +134,6 @@
         {
           "component": "芯片/模组",
           "brand": "Qualcomm",
-          "model": "高通QCC3086",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "高通QCC3086",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "高通QCC3086"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "Qualcomm",
           "model": "高通S3",
           "qty_hint": "",
           "side": "",
@@ -148,20 +148,6 @@
         {
           "component": "芯片/模组",
           "brand": "",
-          "model": "QCC3095",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "QCC3095",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "QCC3095"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
           "model": "QCC30",
           "qty_hint": "",
           "side": "",
@@ -171,20 +157,6 @@
             "confidence": 0.82,
             "source_type": "text",
             "source_text": "QCC30"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "QCC3086",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "QCC3086",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "QCC3086"
           }
         }
       ],

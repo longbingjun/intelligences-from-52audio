@@ -60,100 +60,44 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5528",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5528",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载3.7V/480mAh锂电池，采用INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，负责内置电池的充放电管理和整机控制；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Prisemi芯导",
+          "model": "Prisemi芯导P14C1S",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
+          "evidence": {
+            "value": "Prisemi芯导P14C1S",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用Prisemi芯导P14C1S过压过流保护IC，保护后级器件安全。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "BES恒玄科技",
           "model": "BES2710IHC",
-          "qty_hint": "",
-          "side": "",
+          "qty_hint": "1",
+          "side": "耳机",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "BES2710IHC",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "BES2710IHC"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "INJOINIC英集芯IP5528",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5528",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5528"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "英集芯IP5528",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "英集芯IP5528",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "英集芯IP5528"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "IP5528",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "IP5528",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "IP5528"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "Prisemi芯导P14C1S",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "Prisemi芯导P14C1S",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "Prisemi芯导P14C1S"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "芯导P14C1S",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "芯导P14C1S",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "芯导P14C1S"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "P14C1S",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "P14C1S",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "P14C1S"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主控芯片为BES恒玄科技BES2710IHC蓝牙音频SoC，还采用了NationalChip杭州国芯微GX8002 AI语音芯片提升智能交互体验。"
           }
         }
       ],
@@ -1065,5 +1009,5 @@
       }
     }
   },
-  "data_completeness": 0.718
+  "data_completeness": 0.716
 }

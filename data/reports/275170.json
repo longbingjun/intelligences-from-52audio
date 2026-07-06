@@ -102,16 +102,16 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
+          "brand": "XHSC小华半导体",
           "model": "XHSC小华半导体HC32F170FAUA",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "MCU",
           "evidence": {
             "value": "XHSC小华半导体HC32F170FAUA",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "XHSC小华半导体HC32F170FAUA"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用XHSC小华半导体HC32F170FAUA MCU单片机，负责整机控制；"
           }
         },
         {
@@ -126,48 +126,6 @@
             "confidence": 0.82,
             "source_type": "text",
             "source_text": "XHSC小华半导体HC32F170"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "小华半导体HC32F170FAUA",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "小华半导体HC32F170FAUA",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "小华半导体HC32F170FAUA"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "小华半导体HC32F170",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "小华半导体HC32F170",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "小华半导体HC32F170"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "XHSC小华半导体",
-          "model": "XHSC小华半导体HC32F170FAUA",
-          "qty_hint": "1",
-          "side": "充电盒",
-          "role": "MCU",
-          "evidence": {
-            "value": "XHSC小华半导体HC32F170FAUA",
-            "confidence": 0.85,
-            "source_type": "summary_prose",
-            "source_text": "采用XHSC小华半导体HC32F170FAUA MCU单片机，负责整机控制；"
           }
         }
       ],
@@ -898,5 +856,5 @@
       }
     }
   },
-  "data_completeness": 0.842
+  "data_completeness": 0.824
 }

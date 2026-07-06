@@ -91,44 +91,16 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
+          "brand": "XHSC小华半导体",
           "model": "XHSC小华半导体HC32L196KCTA",
-          "qty_hint": "",
-          "side": "",
+          "qty_hint": "1",
+          "side": "充电盒",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "XHSC小华半导体HC32L196KCTA",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "XHSC小华半导体HC32L196KCTA"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "小华半导体HC32L196KCTA",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "小华半导体HC32L196KCTA",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "小华半导体HC32L196KCTA"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "HC32L196KCTA",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "HC32L196KCTA",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "HC32L196KCTA"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，搭载了Southchip南芯SC89601S充电IC，XHSC小华半导体HC32L196KCTA微控制器，接口均设置有YJ杨杰YJQ1216A PMOS管保护。"
           }
         }
       ],
@@ -848,5 +820,5 @@
       }
     }
   },
-  "data_completeness": 0.788
+  "data_completeness": 0.756
 }

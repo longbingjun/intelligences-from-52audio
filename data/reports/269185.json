@@ -50,30 +50,16 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
+          "brand": "爱科微",
           "model": "AIC8800",
-          "qty_hint": "",
+          "qty_hint": "1",
           "side": "",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "AIC8800",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "AIC8800"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "爱科微AIC8800",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "爱科微AIC8800",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "爱科微AIC8800"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "还采用了ETA钰泰ETA6005锂离子电池充电器，AICSEMI爱科微AIC8800D80 WiFi 6 SoC，以及大量的Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。"
           }
         }
       ],
@@ -526,5 +512,5 @@
       }
     }
   },
-  "data_completeness": 0.524
+  "data_completeness": 0.508
 }

@@ -72,118 +72,6 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
-          "model": "INJOINIC英集芯IP5333",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5333",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5333"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "英集芯IP5333",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "英集芯IP5333",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "英集芯IP5333"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "Bluetrum中科蓝讯BT8952F",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "Bluetrum中科蓝讯BT8952F",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "Bluetrum中科蓝讯BT8952F"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "中科蓝讯BT8952F",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "中科蓝讯BT8952F",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "中科蓝讯BT8952F"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "BT8952F",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "BT8952F",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "BT8952F"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "WINSEMI稳先微WSDF2320A",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "WINSEMI稳先微WSDF2320A",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "WINSEMI稳先微WSDF2320A"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "稳先微WSDF2320A",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "稳先微WSDF2320A",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "稳先微WSDF2320A"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "WSDF2320A",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "WSDF2320A",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "WSDF2320A"
-          }
-        },
-        {
-          "component": "芯片/模组",
           "brand": "INJOINIC英集芯",
           "model": "INJOINIC英集芯IP5333",
           "qty_hint": "1",
@@ -194,6 +82,34 @@
             "confidence": 0.85,
             "source_type": "summary_prose",
             "source_text": "主板上搭载了INJOINIC英集芯IP5333多功能电源管理SoC，负责内置电池的充放电管理和整机控制。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Bluetrum中科蓝讯",
+          "model": "Bluetrum中科蓝讯BT8952F",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8952F",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主控芯片为Bluetrum中科蓝讯BT8952F蓝牙音频SoC，其他还采用了WINSEMI稳先微WSDF2320A锂电保护IC等方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "WINSEMI稳先微",
+          "model": "WINSEMI稳先微WSDF2320A",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF2320A",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主控芯片为Bluetrum中科蓝讯BT8952F蓝牙音频SoC，其他还采用了WINSEMI稳先微WSDF2320A锂电保护IC等方案。"
           }
         }
       ],
@@ -1047,5 +963,5 @@
       }
     }
   },
-  "data_completeness": 0.784
+  "data_completeness": 0.782
 }

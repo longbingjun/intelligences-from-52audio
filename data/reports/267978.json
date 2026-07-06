@@ -91,48 +91,6 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
-          "model": "AB5656",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "AB5656",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "AB5656"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "INJOINIC英集芯IP5513",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5513",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5513"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "英集芯IP5513",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "英集芯IP5513",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "英集芯IP5513"
-          }
-        },
-        {
-          "component": "芯片/模组",
           "brand": "INJOINIC英集芯",
           "model": "INJOINIC英集芯IP5513",
           "qty_hint": "1",
@@ -143,6 +101,20 @@
             "confidence": 0.85,
             "source_type": "summary_prose",
             "source_text": "充电盒搭载JYZ金宇宙3.7V/400mAh锂电池，采用了INJOINIC英集芯IP5513充电仓管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等多功能，提供了完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB5656",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB5656",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载15mm x 11mm跑道型声音单元，单耳内置一颗MEMS麦克风拾音（双耳共2颗），主控芯片为Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，内置软包电池容量3.7V/55mAh。"
           }
         }
       ],
@@ -829,5 +801,5 @@
       }
     }
   },
-  "data_completeness": 0.78
+  "data_completeness": 0.762
 }

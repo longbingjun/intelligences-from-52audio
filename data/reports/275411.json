@@ -102,30 +102,16 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
+          "brand": "思远半导体",
           "model": "思远半导体SY8702",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
           "evidence": {
             "value": "思远半导体SY8702",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "思远半导体SY8702"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "SY8702",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "SY8702",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "SY8702"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内部搭载VDL紫建电子3.89V/530mAh锂电池，采用了WINSEMI稳先微WSDY3302E锂电保护IC，思远半导体SY8702低侧过压保护（OVP）IC，ETA钰泰ETA9030V电源管理芯片，Cmsemicon中微半导体CMS8S5880单片机等方案。"
           }
         }
       ],
@@ -823,5 +809,5 @@
       }
     }
   },
-  "data_completeness": 0.83
+  "data_completeness": 0.814
 }

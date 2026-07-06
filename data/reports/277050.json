@@ -81,44 +81,16 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
+          "brand": "INJOINIC英集芯",
           "model": "INJOINIC英集芯IP5516",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
           "evidence": {
             "value": "INJOINIC英集芯IP5516",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5516"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "英集芯IP5516",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "英集芯IP5516",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "英集芯IP5516"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "IP5516",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "IP5516",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "IP5516"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，搭载了INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为充电仓提供完整的电源解决方案。"
           }
         }
       ],
@@ -845,5 +817,5 @@
       }
     }
   },
-  "data_completeness": 0.844
+  "data_completeness": 0.812
 }

@@ -92,72 +92,44 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
+          "brand": "Prisemi芯导",
+          "model": "Prisemi芯导P14C1S",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "Prisemi芯导P14C1S",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "左耳内置WEL旭航诚3.7V/400mAh锂电池组和电源输入小板，采用了ASC标源微ASC4056线性充电器，Prisemi芯导P14C1S过压过流保护IC。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "JL杰理",
           "model": "JL7018",
-          "qty_hint": "",
-          "side": "",
+          "qty_hint": "1",
+          "side": "耳机",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "JL7018",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "JL7018"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "右耳内置驻极体麦克风和主板单元，采用了JL杰理科技JL7018M8蓝牙音频SoC，LPS微源半导体LP3992-33 LDO线性稳压器。"
           }
         },
         {
           "component": "芯片/模组",
-          "brand": "",
+          "brand": "JL杰理",
           "model": "JL7016",
-          "qty_hint": "",
-          "side": "",
+          "qty_hint": "1",
+          "side": "耳机",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "JL7016",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "JL7016"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "Prisemi芯导P14C1S",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "Prisemi芯导P14C1S",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "Prisemi芯导P14C1S"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "芯导P14C1S",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "芯导P14C1S",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "芯导P14C1S"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "P14C1S",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "P14C1S",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "P14C1S"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "2.4G适配器内部采用JL杰理科技JL7016M8的蓝牙音频SoC，SILEI矽磊SW8120Q射频前端模块，用于与耳机实现超低延迟的2.4G无线音频传输。"
           }
         }
       ],
@@ -850,5 +822,5 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.732
+  "data_completeness": 0.73
 }

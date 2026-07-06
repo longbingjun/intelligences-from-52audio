@@ -99,30 +99,16 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
-          "brand": "",
+          "brand": "爱科微",
           "model": "AIC8800",
-          "qty_hint": "",
+          "qty_hint": "1",
           "side": "",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "AIC8800",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "AIC8800"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "爱科微AIC8800",
-          "qty_hint": "",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "爱科微AIC8800",
-            "confidence": 0.82,
-            "source_type": "text",
-            "source_text": "爱科微AIC8800"
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "音箱主控芯片为Rockchip瑞芯微RK3308H1处理器，存储器为GigaDevice兆易创新GD5F1GM7UEYIG，无线连接采用了AICSEMI爱科微AIC8800D40双频WiFi6与蓝牙5.4 SOC，射频电路上搭载Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感。"
           }
         }
       ],
@@ -561,5 +547,5 @@
       }
     }
   },
-  "data_completeness": 0.622
+  "data_completeness": 0.606
 }
