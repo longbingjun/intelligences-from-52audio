@@ -102,6 +102,48 @@
         {
           "component": "电池",
           "brand": "",
+          "model": "3.85V/270mAh锂电池",
+          "qty_hint": "1",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "3.85V/270mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主要配置上，眼镜搭载3.85V/270mAh锂电池、15mmx6mm双扬声器、4颗MEMS麦克风、1300万像素摄像头，采用单光机搭配衍射光波导技术，实现双目单绿屏幕显示。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "主要配置上，眼镜搭载3.85V/270mAh锂电池、15mmx6mm双扬声器、4颗MEMS麦克风、1300万像素摄像头，采用单光机搭配衍射光波导技术，实现双目单绿屏幕显示。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/1000mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/1000mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内部搭载贵航新能源3.7V/1000mAh锂离子聚合物电池组，采用了SinhMicro昇生微电子SS88D9H POWER MCU负责充放电管理和整机控制，采用Prisemi芯导科技P14C5N过压过流保护芯片，防止后级器件受损。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
           "model": "",
           "qty_hint": "",
           "side": "",
@@ -261,7 +303,17 @@
             "source_text": "镜腿比较纤细，摆脱了传统智能眼镜的宽厚观感；威灵顿框采用金属材质，CNC精雕工艺，质感出色。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040910154496.png",
+          "alt": "拆解报告：影目INMO GO 3智能眼镜-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上影目INMO GO 3智能眼镜的已知物料清单，方便大家查阅。 影目INMO GO 3智能眼镜在外观设计方面，与普通近视眼镜高度接近。镜腿比较纤细，摆脱了传统智能眼镜的宽厚观感；威灵顿框采用金属材质，CNC精雕工艺，质感出色。镜框还采用了可调节金属鼻架和空气鼻托，搭配可自适应外扩的镜腿与重量均衡分配设计，提供更加舒适的佩戴体验。此外还采用了可拆卸电池，提升产品续航体验。 内部结构方面，所有元器件通过两条排线连接，主板设置在镜腿末端，通过高度集成，实现纤细的镜腿外观。主要配置上，眼镜搭载3.85V/270mAh锂电池、15mmx6mm双扬声器、4颗MEMS麦克风、1300万像素摄像头，采用单光机搭配衍射光波导技术，实现双目单绿屏幕显示。 眼镜主板上，采用了WUQI物奇WQ7036AX高性能智能音频主控SoC和Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感，UNISOC紫光展锐W337智能穿戴处理器和UNISOC紫光展锐SC2721G PMIC芯片，FORESEE江波龙FEM6NN064G-A3N11 eMMC存储器，艾为电子AW88166音频功放等；排线上搭载Azoteq IQS7211E触摸检测IC，Infineon英飞凌 赛普拉斯PSoC 4000T系列MCU，TDK ICM-42688-P 6轴传感器等。 充电盒内部搭载贵航新能源3.7V/1000mAh锂离子聚合物电池组，采用了SinhMicro昇生微电子SS88D9H POWER MCU负责充放电管理和整机控制，采用Prisemi芯导科技P14C5N过压过流保护芯片，防止后级器件受损。"
     },
     "structure": {
       "form_factor": "AI眼镜及穿戴设备",
@@ -410,6 +462,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040910154496.png",
+          "alt": "拆解报告：影目INMO GO 3智能眼镜-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040910154112.jpg",
           "alt": "拆解报告：影目INMO GO 3智能眼镜-我爱音频网",

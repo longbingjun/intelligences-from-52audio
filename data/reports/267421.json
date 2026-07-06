@@ -112,9 +112,107 @@
             "source_type": "text",
             "source_text": "BES2710IHC"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "思远半导体SY8835",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "思远半导体SY8835",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "思远半导体SY8835"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "SY8835",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "SY8835",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "SY8835"
+          }
         }
       ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "思远半导体",
+          "model": "思远半导体SY8835",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "MCU",
+          "evidence": {
+            "value": "思远半导体SY8835",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内置新余赣锋3.89V/530mAh锂电池，主板上搭载了思远半导体SY8835蓝牙耳机充电仓解决方案，集成充电模块、放电模块，集成MCU模块和通讯模块，负责电池的充放电管理和整机控制；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "赣锋",
+          "model": "3.89V/530mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.89V/530mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内置新余赣锋3.89V/530mAh锂电池，主板上搭载了思远半导体SY8835蓝牙耳机充电仓解决方案，集成充电模块、放电模块，集成MCU模块和通讯模块，负责电池的充放电管理和整机控制；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "BES恒玄科技",
+          "model": "BES2710IHC",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES2710IHC",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内置VDL紫建电子62mAh软包扣式电池，搭载了11mm低音动圈单元+6mm高音动圈单元双喇叭，内置瑞勤电子的三颗MEMS麦克风，主控芯片为BES恒玄科技BES2710IHC蓝牙音频SoC。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "动圈单元",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "动圈单元",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机内置VDL紫建电子62mAh软包扣式电池，搭载了11mm低音动圈单元+6mm高音动圈单元双喇叭，内置瑞勤电子的三颗MEMS麦克风，主控芯片为BES恒玄科技BES2710IHC蓝牙音频SoC。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "3",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内置VDL紫建电子62mAh软包扣式电池，搭载了11mm低音动圈单元+6mm高音动圈单元双喇叭，内置瑞勤电子的三颗MEMS麦克风，主控芯片为BES恒玄科技BES2710IHC蓝牙音频SoC。"
+          }
+        },
         {
           "component": "充电仓",
           "brand": "",
@@ -272,6 +370,34 @@
         {
           "component": "芯片/模组",
           "brand": "",
+          "model": "思远半导体SY8835",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "思远半导体SY8835",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "思远半导体SY8835蓝牙耳机充电仓解决方案，是一款专为蓝牙耳机充电仓设计的高集成度芯片。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "思远半导体SY8835",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "思远半导体SY8835",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "思远半导体SY8835集成了MCU模块，内核为8bit RISC CPU，兼容RISC-52指令集，内置16k Bytes FLASH空间，4k Bytes NVR空间，1k Bytes SRAM，一个10bit SAR ADC，1路4通道PWM，2个16bit Timer，3个半双工UART。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
           "model": "BES2710IHC",
           "qty_hint": "1",
           "side": "",
@@ -282,25 +408,21 @@
             "source_type": "text",
             "source_text": "BES恒玄科技BES2710IHC蓝牙音频SoC，用于无线连接和音频数据处理。"
           }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "BES2710IHC",
-          "qty_hint": "1",
-          "side": "耳机",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "BES2710IHC",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "耳机内置VDL紫建电子62mAh软包扣式电池，搭载了11mm低音动圈单元+6mm高音动圈单元双喇叭，内置瑞勤电子的三颗MEMS麦克风，主控芯片为BES恒玄科技BES2710IHC蓝牙音频SoC。"
-          }
         }
       ],
       "supply_hints": [],
       "packaging_notes": [],
-      "process_hints": []
+      "process_hints": [],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026013011174916.png",
+          "alt": "拆解报告：realme真我Buds Air8真无线降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上realme真我Buds Air8真无线降噪耳机的已知核心物料清单，方便大家查阅。 realme真我Buds Air8真无线降噪耳机在外观方面，充电盒采用了三等分全对称机身设计，金属漆涂层搭配生物基有机硅皮质装饰，呈现了非常出色的质感，同时体积小巧，非常便携。耳机采用了柄状的入耳式设计，内侧光滑烤漆质感，提供舒适佩戴；外侧金属漆涂层，提升产品质感。 内部主要配置方面，充电盒内置新余赣锋3.89V/530mAh锂电池，主板上搭载了思远半导体SY8835蓝牙耳机充电仓解决方案，集成充电模块、放电模块，集成MCU模块和通讯模块，负责电池的充放电管理和整机控制；采用了WINSEMI稳先微WSDY3302F锂电保护IC，负责电池的过充、过放、过流、短路等保护。 耳机内置VDL紫建电子62mAh软包扣式电池，搭载了11mm低音动圈单元+6mm高音动圈单元双喇叭，内置瑞勤电子的三颗MEMS麦克风，主控芯片为BES恒玄科技BES2710IHC蓝牙音频SoC。"
     },
     "structure": {
       "form_factor": "真无线耳机TWS",
@@ -459,6 +581,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026013011174916.png",
+          "alt": "拆解报告：realme真我Buds Air8真无线降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026013011173195.jpg",
           "alt": "拆解报告：realme真我Buds Air8真无线降噪耳机-我爱音频网",
@@ -681,5 +810,5 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.764
+  "data_completeness": 0.796
 }

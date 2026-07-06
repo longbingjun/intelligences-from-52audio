@@ -66,8 +66,79 @@
         "麦克风",
         "天线"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "思远半导体SY8602",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "思远半导体SY8602",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "思远半导体SY8602"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "SY8602",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "SY8602",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "SY8602"
+          }
+        }
+      ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "思远半导体",
+          "model": "思远半导体SY8602",
+          "qty_hint": "1",
+          "side": "",
+          "role": "保护IC",
+          "evidence": {
+            "value": "思远半导体SY8602",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，采用了XINCUN芯存XC64MAAJ-NTW 64G存储器，Prisemi芯导科技P14C1N过压过流保护IC，思远半导体SY8602线性锂电池充电器，Realtek瑞昱RTL8722CSM物联网SoC，Winbond华邦W25Q32JV闪存，以及Nordic nRF52810无线SoC等。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.8V/470mAh锂电池",
+          "qty_hint": "1",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "3.8V/470mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内部主要配置方面，该产品搭载了ST神通天下3.8V/470mAh锂电池供电，内置2个MEMS麦克风+1个骨传导麦克风拾音。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "内部主要配置方面，该产品搭载了ST神通天下3.8V/470mAh锂电池供电，内置2个MEMS麦克风+1个骨传导麦克风拾音。"
+          }
+        },
         {
           "component": "主板/PCBA",
           "brand": "",
@@ -181,7 +252,17 @@
             "source_text": "电池正负极镍片与主板焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026020403440148.png",
+          "alt": "拆解报告：Mobvoi出门问问TicNote AI录音卡-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上Mobvoi出门问问TicNote AI录音卡的已知核心物料清单，方便大家查阅。 Mobvoi出门问问TicNote AI录音卡在外观方面，采用了非常轻薄的卡片式设计，体积仅如身份证大小，重量仅为28.9g，极致便携；机身采用金属材质，水波形条纹装饰，质感也非常精致。同时还配备了磁吸皮套，使之能够轻松固定在手机背部使用。 内部主要配置方面，该产品搭载了ST神通天下3.8V/470mAh锂电池供电，内置2个MEMS麦克风+1个骨传导麦克风拾音。主板上，采用了XINCUN芯存XC64MAAJ-NTW 64G存储器，Prisemi芯导科技P14C1N过压过流保护IC，思远半导体SY8602线性锂电池充电器，Realtek瑞昱RTL8722CSM物联网SoC，Winbond华邦W25Q32JV闪存，以及Nordic nRF52810无线SoC等。"
     },
     "structure": {
       "form_factor": "音箱及其他音频设备",
@@ -278,6 +359,13 @@
       "sealing_method": [],
       "wear_design": [],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026020403440148.png",
+          "alt": "拆解报告：Mobvoi出门问问TicNote AI录音卡-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026011206492153.jpg",
           "alt": "拆解报告：Mobvoi出门问问TicNote AI录音卡-我爱音频网",
@@ -435,5 +523,5 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.55
+  "data_completeness": 0.582
 }

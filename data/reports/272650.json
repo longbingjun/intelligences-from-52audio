@@ -69,8 +69,233 @@
         "天线",
         "降噪系统"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5333",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5333",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5333"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5333",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5333",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "英集芯IP5333"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "Bluetrum中科蓝讯BT8952F",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8952F",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "Bluetrum中科蓝讯BT8952F"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "中科蓝讯BT8952F",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "中科蓝讯BT8952F",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "中科蓝讯BT8952F"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "BT8952F",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BT8952F",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "BT8952F"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WINSEMI稳先微WSDF2320A",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF2320A",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "WINSEMI稳先微WSDF2320A"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "稳先微WSDF2320A",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "稳先微WSDF2320A",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "稳先微WSDF2320A"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WSDF2320A",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "WSDF2320A",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "WSDF2320A"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5333",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5333",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上搭载了INJOINIC英集芯IP5333多功能电源管理SoC，负责内置电池的充放电管理和整机控制。"
+          }
+        }
+      ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5333",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5333",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上搭载了INJOINIC英集芯IP5333多功能电源管理SoC，负责内置电池的充放电管理和整机控制。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/400mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/400mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载3.7V/400mAh锂电池组，电源输入小板上采用Type-C接口输入电源，端口设置有AOGSemi安硅AP1436G过压过流保护IC；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Bluetrum中科蓝讯",
+          "model": "Bluetrum中科蓝讯BT8952F",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8952F",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主控芯片为Bluetrum中科蓝讯BT8952F蓝牙音频SoC，其他还采用了WINSEMI稳先微WSDF2320A锂电保护IC等方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "WINSEMI稳先微",
+          "model": "WINSEMI稳先微WSDF2320A",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF2320A",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主控芯片为Bluetrum中科蓝讯BT8952F蓝牙音频SoC，其他还采用了WINSEMI稳先微WSDF2320A锂电保护IC等方案。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/40mAh锂电池",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/40mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内置3.7V/40mAh锂电池，搭载12mm石墨烯+生物纤维复合振膜动圈单元，单耳内置1颗MEMS麦克风；"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "振膜动圈",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "振膜动圈",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机内置3.7V/40mAh锂电池，搭载12mm石墨烯+生物纤维复合振膜动圈单元，单耳内置1颗MEMS麦克风；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内置3.7V/40mAh锂电池，搭载12mm石墨烯+生物纤维复合振膜动圈单元，单耳内置1颗MEMS麦克风；"
+          }
+        },
         {
           "component": "主板/PCBA",
           "brand": "",
@@ -224,6 +449,48 @@
             "source_type": "text",
             "source_text": "腔体底部的充电触点特写，中间设计R/右标识。"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5333",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5333",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5333多功能电源管理SoC，集成升压转换器、锂电池充电管理、电池电量指示和TYPE-C协议等功能，为TWS充电仓提供完整的解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WINSEMI稳先微WSDF2320A",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF2320A",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "WINSEMI稳先微WSDF2320A锂电保护IC，具有过充、过放、过流、短路等电池需要的所有保护功能。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "Bluetrum中科蓝讯BT8952F",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8952F",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Bluetrum中科蓝讯BT8952F蓝牙音频SoC，支持蓝牙6.0 LE Audio协议及LC3编解码，内置32位高性能RISC-V处理器核心和HIFI 4 DSP，内置24bit双声道DAC和24bit单声道ADC，支持2路MIC放大器输入，支持AI通话降噪算法，支持前馈、及混合主动降噪，集成触控，PMU等模块。"
+          }
         }
       ],
       "supply_hints": [],
@@ -249,7 +516,17 @@
             "source_text": "取出腔体内部的所有组件，主板上导线焊接，排线通过连接器连接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040910445798.png",
+          "alt": "拆解报告：KUZER-TRN酷泽尔KT10S开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上KUZER-TRN酷泽尔KT10S开放式耳机的已知核心物料清单，方便大家查阅。 KUZER-TRN酷泽尔KT10S开放式耳机在外观方面，采用了目前比较主流的设计风格。充电盒采用了椭圆形设计，烤漆质感，体积小巧便携。耳机采用了耳夹式结构和人体工学设计，佩戴舒适贴合；C型桥内嵌镍钛记忆丝，柔韧不易变形，能够保障持久的舒适稳定佩戴。 内部主要配置方面，充电盒搭载3.7V/400mAh锂电池组，电源输入小板上采用Type-C接口输入电源，端口设置有AOGSemi安硅AP1436G过压过流保护IC；主板上搭载了INJOINIC英集芯IP5333多功能电源管理SoC，负责内置电池的充放电管理和整机控制。 耳机内置3.7V/40mAh锂电池，搭载12mm石墨烯+生物纤维复合振膜动圈单元，单耳内置1颗MEMS麦克风；主控芯片为Bluetrum中科蓝讯BT8952F蓝牙音频SoC，其他还采用了WINSEMI稳先微WSDF2320A锂电保护IC等方案。"
     },
     "structure": {
       "form_factor": "开放式耳机",
@@ -374,42 +651,6 @@
             "source_type": "text",
             "source_text": "包装盒背面展示了产品的详细功能特点：人体工程设计、HiFi动圈单元、定向传音技术、超长续航时间、IPX5日常防水、时尚潮流外观、独立音频模块、环绕空间音效。"
           }
-        },
-        {
-          "value": "INJOINIC英集芯IP5333多功能电源管理SoC，集成升压转换器、锂电池充电管理、电池电量指示和TYPE-C协议等功能，为TWS充电仓提供完整的解决方案。",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5333多功能电源管理SoC，集成升压转换器、锂电池充电管理、电池电量指示和TYPE-C协议等功能，为TWS充电仓提供完整的解决方案。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5333多功能电源管理SoC，集成升压转换器、锂电池充电管理、电池电量指示和TYPE-C协议等功能，为TWS充电仓提供完整的解决方案。"
-          }
-        },
-        {
-          "value": "IP5333非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。",
-          "evidence": {
-            "value": "IP5333非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "IP5333非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。"
-          }
-        },
-        {
-          "value": "英集芯IP5333只需一个电感实现充电与升压功能。",
-          "evidence": {
-            "value": "英集芯IP5333只需一个电感实现充电与升压功能。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5333只需一个电感实现充电与升压功能。"
-          }
-        },
-        {
-          "value": "IP5333的同步升压系统提供额定1A输出电流，转换效率高至92%。",
-          "evidence": {
-            "value": "IP5333的同步升压系统提供额定1A输出电流，转换效率高至92%。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "IP5333的同步升压系统提供额定1A输出电流，转换效率高至92%。"
-          }
         }
       ],
       "wear_design": [
@@ -451,6 +692,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040910445798.png",
+          "alt": "拆解报告：KUZER-TRN酷泽尔KT10S开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040910444067.jpg",
           "alt": "拆解报告：KUZER-TRN酷泽尔KT10S开放式耳机-我爱音频网",
@@ -799,5 +1047,5 @@
       }
     }
   },
-  "data_completeness": 0.734
+  "data_completeness": 0.784
 }

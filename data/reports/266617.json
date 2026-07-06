@@ -83,9 +83,107 @@
             "source_type": "text",
             "source_text": "JL7006"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5513",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5513"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5513",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5513",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "英集芯IP5513"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5513",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "MCU",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，采用了INJOINIC英集芯IP5513电源管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等多功能，单芯片为充电盒提供完整的电源解决方案。"
+          }
         }
       ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5513",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "MCU",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，采用了INJOINIC英集芯IP5513电源管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等多功能，单芯片为充电盒提供完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/390mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/390mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载ST神通天下3.7V/390mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "JL杰理",
+          "model": "JL7006",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL7006",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主控芯片为JL杰理JL7006F蓝牙音频SoC。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "内置一颗MEMS麦克风，提供精准拾音；"
+          }
+        },
         {
           "component": "充电仓",
           "brand": "",
@@ -243,6 +341,34 @@
         {
           "component": "芯片/模组",
           "brand": "",
+          "model": "INJOINIC英集芯IP5513",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5513",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5513",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
           "model": "JL7006",
           "qty_hint": "1",
           "side": "",
@@ -252,20 +378,6 @@
             "confidence": 0.78,
             "source_type": "text",
             "source_text": "JL杰理JL7006F蓝牙音频SoC，用于无线连接和音频数据处理。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "JL7006",
-          "qty_hint": "1",
-          "side": "耳机",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "JL7006",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "耳机内部搭载了ST神通天下3.7V/0.24Wh供电；采用了16.2mm大尺寸动圈喇叭，搭配复合纤维振膜，提供澎湃听感；内置一颗MEMS麦克风，提供精准拾音；主控芯片为JL杰理JL7006F蓝牙音频SoC。"
           }
         }
       ],
@@ -301,15 +413,25 @@
             "source_text": "断开电池与主板焊接的导线。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026012006382366.png",
+          "alt": "拆解报告：MONSTER魔声XKO07开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上MONSTER魔声XKO07开放式耳机的已知物料清单，方便大家查阅。 MONSTER魔声XKO07开放式耳机在外观方面，充电盒采用了圆角方形设计，通过人工纺织毛绒材质包裹，手感柔软舒适。耳挂式耳机采用了人体工学设计，并通过硅胶材质包裹，佩戴与耳廓舒适贴合，满足长时间的使用需求。 内部主要配置方面，充电盒搭载ST神通天下3.7V/390mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护。主板上，采用了INJOINIC英集芯IP5513电源管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等多功能，单芯片为充电盒提供完整的电源解决方案。 耳机内部搭载了ST神通天下3.7V/0.24Wh供电；采用了16.2mm大尺寸动圈喇叭，搭配复合纤维振膜，提供澎湃听感；内置一颗MEMS麦克风，提供精准拾音；主控芯片为JL杰理JL7006F蓝牙音频SoC。"
     },
     "structure": {
       "form_factor": "开放式耳机",
-      "earbud_type": "入耳",
+      "earbud_type": "开放",
       "materials": [
         "硅胶"
       ],
-      "ip_rating": "IP5",
+      "ip_rating": null,
       "weight_g": "95.9g",
       "dimensions": [
         "在功能配置上，MONSTER魔声XKO07开放式耳机搭载16.2mm大振膜动圈喇叭，支持数字增强技术，提供360°环绕立体声；支持音乐/游戏双模式，满足不同场景需求；搭载高性能麦克风，提供精准拾音，带来清晰通话。",
@@ -410,53 +532,7 @@
           }
         }
       ],
-      "sealing_method": [
-        {
-          "value": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
-          }
-        },
-        {
-          "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
-          "evidence": {
-            "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
-          }
-        },
-        {
-          "value": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。",
-          "evidence": {
-            "value": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。"
-          }
-        },
-        {
-          "value": "英集芯IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。",
-          "evidence": {
-            "value": "英集芯IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。"
-          }
-        },
-        {
-          "value": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
-          "evidence": {
-            "value": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。"
-          }
-        }
-      ],
+      "sealing_method": [],
       "wear_design": [
         {
           "value": "XKO07开放式耳机是该品牌旗下一款高性价比产品，外观上耳机采用耳挂式设计，提供持久的舒适聆听体验；充电盒采用人工纺织毛绒材质，触感柔软，不易划伤。",
@@ -496,6 +572,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026012006382366.png",
+          "alt": "拆解报告：MONSTER魔声XKO07开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026012006381749.jpg",
           "alt": "拆解报告：MONSTER魔声XKO07开放式耳机-我爱音频网",
@@ -538,12 +621,7 @@
         "卸掉螺丝，取掉主板和电池。",
         "在功能配置上，MONSTER魔声XKO07开放式耳机搭载16.2mm大振膜动圈喇叭，支持数字增强技术，提供360°环绕立体声；支持音乐/游戏双模式，满足不同场景需求；搭载高性能麦克风，提供精准拾音，带来清晰通话。续航方面，支持单次约9小时，综合约27小时的音乐聆听。下面就来看看这款产品的详细拆解报告吧~"
       ],
-      "ip_rating_evidence": {
-        "value": "IP5",
-        "confidence": 0.8,
-        "source_type": "text",
-        "source_text": "IP5"
-      },
+      "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "95.9g",
         "confidence": 0.75,
@@ -729,5 +807,5 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.678
+  "data_completeness": 0.682
 }

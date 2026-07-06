@@ -100,8 +100,163 @@
         "降噪系统",
         "天线"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP6818",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP6818",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP6818"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP6818",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP6818",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "英集芯IP6818"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "Prisemi芯导P14C1",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Prisemi芯导P14C1",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "Prisemi芯导P14C1"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "芯导P14C1",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "芯导P14C1",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "芯导P14C1"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP6818",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "INJOINIC英集芯IP6818",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载ST神通天下3.7V/400mAh锂电池组，采用INJOINIC英集芯IP6818 TWS耳机充电仓管理SoC，集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示等多功能，单芯片负责内置电池的有线、无线充电，放电为耳机充电及整机控制功能；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Prisemi芯导",
+          "model": "Prisemi芯导P14C1",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
+          "evidence": {
+            "value": "Prisemi芯导P14C1",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "其他还采用了Prisemi芯导P14C13过压保护IC和霍尔元件等。"
+          }
+        }
+      ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP6818",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "INJOINIC英集芯IP6818",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载ST神通天下3.7V/400mAh锂电池组，采用INJOINIC英集芯IP6818 TWS耳机充电仓管理SoC，集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示等多功能，单芯片负责内置电池的有线、无线充电，放电为耳机充电及整机控制功能；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Prisemi芯导",
+          "model": "Prisemi芯导P14C1",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
+          "evidence": {
+            "value": "Prisemi芯导P14C1",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "其他还采用了Prisemi芯导P14C13过压保护IC和霍尔元件等。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/400mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/400mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载ST神通天下3.7V/400mAh锂电池组，采用INJOINIC英集芯IP6818 TWS耳机充电仓管理SoC，集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示等多功能，单芯片负责内置电池的有线、无线充电，放电为耳机充电及整机控制功能；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/40mAh锂电池",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/40mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载ST神通天下3.7V/40mAh锂电池组，采用专利超线性全频双悬挂环形13mm平面磁单元，2颗瑞勤电子的MEMS麦克风。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载ST神通天下3.7V/40mAh锂电池组，采用专利超线性全频双悬挂环形13mm平面磁单元，2颗瑞勤电子的MEMS麦克风。"
+          }
+        },
         {
           "component": "充电仓",
           "brand": "",
@@ -255,6 +410,48 @@
             "source_type": "text",
             "source_text": "耳机柄底部设置有充电触点和通话麦克风拾音孔。"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP6818",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP6818",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP6818 TWS耳机充电仓管理SoC，是一款集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP6818",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP6818",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "英集芯IP6818还内置了MCU，可灵活定制4/3/2/1颗LED电量显示；内置12bit ADC，可准确计算电池电量。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "Prisemi芯导P14C1",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Prisemi芯导P14C1",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Prisemi芯导P14C13过压保护IC，具有固定6.0V OVLO阈值电压。"
+          }
         }
       ],
       "supply_hints": [],
@@ -280,7 +477,17 @@
             "source_text": "后腔底部结构一览，电池和扬声器导线与主板焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026061104193865.png",
+          "alt": "拆解报告：MOONDROP水月雨梦回2真无线降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上MOONDROP水月雨梦回2真无线降噪耳机的已知核心物料清单，方便大家查阅。 水月雨梦回2真无线降噪耳机外观上延续了系列复古设计，充电仓以开盘式录音机为灵感进行涂装，非常独特。耳机采用柄状的入耳式设计，方形耳机柄搭配装饰盖板，线条硬朗，辨识度十足；入耳曲线圆润，佩戴贴合耳廓，搭配4种尺寸的硅胶耳塞，满足不同用户的舒适佩戴需求。 内部主要配置方面，充电盒搭载ST神通天下3.7V/400mAh锂电池组，采用INJOINIC英集芯IP6818 TWS耳机充电仓管理SoC，集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示等多功能，单芯片负责内置电池的有线、无线充电，放电为耳机充电及整机控制功能；其他还采用了Prisemi芯导P14C13过压保护IC和霍尔元件等。 耳机内部搭载ST神通天下3.7V/40mAh锂电池组，采用专利超线性全频双悬挂环形13mm平面磁单元，2颗瑞勤电子的MEMS麦克风。主控芯片为水月雨定制MOONDROP TWS-01无线音频SOC。"
     },
     "structure": {
       "form_factor": "真无线耳机TWS",
@@ -289,7 +496,7 @@
         "硅胶",
         "皮革"
       ],
-      "ip_rating": "IP6",
+      "ip_rating": null,
       "weight_g": "52.2g",
       "dimensions": [
         "详细功能配置方面，MOONDROP水月雨梦回2真无线降噪耳机搭载专利13mm超线性全频双悬挂环形平面磁单元和TWS-01定制音频SoC，全面兼容LDAC、LHDC-V、LC3等高解析编解码协议，还原细腻音频细节，提供超低延迟无线传输；同时配备3D空间音频功能，提供“静态/小角度/全方位”三种模式，进一步提升沉浸式聆听体验。",
@@ -390,53 +597,7 @@
           }
         }
       ],
-      "sealing_method": [
-        {
-          "value": "INJOINIC英集芯IP6818 TWS耳机充电仓管理SoC，是一款集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
-          "evidence": {
-            "value": "INJOINIC英集芯IP6818 TWS耳机充电仓管理SoC，是一款集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP6818 TWS耳机充电仓管理SoC，是一款集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
-          }
-        },
-        {
-          "value": "英集芯IP6818还内置了MCU，可灵活定制4/3/2/1颗LED电量显示；内置12bit ADC，可准确计算电池电量。",
-          "evidence": {
-            "value": "英集芯IP6818还内置了MCU，可灵活定制4/3/2/1颗LED电量显示；内置12bit ADC，可准确计算电池电量。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP6818还内置了MCU，可灵活定制4/3/2/1颗LED电量显示；内置12bit ADC，可准确计算电池电量。"
-          }
-        },
-        {
-          "value": "英集芯IP6818的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
-          "evidence": {
-            "value": "英集芯IP6818的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP6818的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
-          }
-        },
-        {
-          "value": "INJOINIC英集芯IP6818详细资料图。",
-          "evidence": {
-            "value": "INJOINIC英集芯IP6818详细资料图。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP6818详细资料图。"
-          }
-        },
-        {
-          "value": "内部主要配置方面，充电盒搭载ST神通天下3.7V/400mAh锂电池组，采用INJOINIC英集芯IP6818 TWS耳机充电仓管理SoC，集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示等多功能，单芯片负责内置电池的有线、无线充电，放电为耳机充电及整机控制功能；其他还采用了Prisemi芯导P14C13过压保护IC和霍尔元件等。",
-          "evidence": {
-            "value": "内部主要配置方面，充电盒搭载ST神通天下3.7V/400mAh锂电池组，采用INJOINIC英集芯IP6818 TWS耳机充电仓管理SoC，集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示等多功能，单芯片负责内置电池的有线、无线充电，放电为耳机充电及整机控制功能；其他还采用了Prisemi芯导P14C13过压保护IC和霍尔元件等。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "内部主要配置方面，充电盒搭载ST神通天下3.7V/400mAh锂电池组，采用INJOINIC英集芯IP6818 TWS耳机充电仓管理SoC，集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示等多功能，单芯片负责内置电池的有线、无线充电，放电为耳机充电及整机控制功能；其他还采用了Prisemi芯导P14C13过压保护IC和霍尔元件等。"
-          }
-        }
-      ],
+      "sealing_method": [],
       "wear_design": [
         {
           "value": "水月雨梦回2支持主动降噪功能，采用单前馈式降噪，提供舒适降噪的同时，避免损伤音质；搭载双麦克风，支持波束成形式语音消噪技术，提供清晰通话效果；全新版本的MOONDROP APP，支持第二代在线交互式DSP功能，可自定义DSP参数，分享和下载写入用户制作的调音，以及通过描述自己的需求，让AI水月友系帮你定制想要的调音。",
@@ -476,6 +637,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026061104193865.png",
+          "alt": "拆解报告：MOONDROP水月雨梦回2真无线降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026061104192757.jpg",
           "alt": "拆解报告：MOONDROP水月雨梦回2真无线降噪耳机-我爱音频网",
@@ -518,12 +686,7 @@
         "座舱底部通过螺丝固定主板。主板上通过支架固定无线充电接收线圈。",
         "水月雨梦回2支持主动降噪功能，采用单前馈式降噪，提供舒适降噪的同时，避免损伤音质；搭载双麦克风，支持波束成形式语音消噪技术，提供清晰通话效果；全新版本的MOONDROP APP，支持第二代在线交互式DSP功能，可自定义DSP参数，分享和下载写入用户制作的调音，以及通过描述自己的需求，让AI水月友系帮你定制想要的调音。"
       ],
-      "ip_rating_evidence": {
-        "value": "IP6",
-        "confidence": 0.8,
-        "source_type": "text",
-        "source_text": "IP6"
-      },
+      "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "52.2g",
         "confidence": 0.75,
@@ -862,5 +1025,5 @@
       }
     }
   },
-  "data_completeness": 0.89
+  "data_completeness": 0.91
 }

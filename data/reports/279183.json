@@ -101,6 +101,34 @@
       "chip_modules": [],
       "bom_table": [
         {
+          "component": "电池",
+          "brand": "赣锋",
+          "model": "3.89V/210mAh锂电池",
+          "qty_hint": "1",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "3.89V/210mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内部主要配置方面，搭载新余赣锋3.89V/210mAh锂电池，为整机稳定供电。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "采用3颗MEMS麦克风阵列，实现精准收音。"
+          }
+        },
+        {
           "component": "麦克风",
           "brand": "",
           "model": "",
@@ -215,7 +243,17 @@
       ],
       "supply_hints": [],
       "packaging_notes": [],
-      "process_hints": []
+      "process_hints": [],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026061110020116.png",
+          "alt": "拆解报告：DPVR大朋Vision Ray AI眼镜-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上DPVR大朋Vision Ray AI眼镜的已知物料清单，方便大家查阅。 DPVR大朋Vision Ray AI眼镜在外观上，采用了类似太阳镜的设计，体积控制属于目前的主流水平。镜框采用了独特的可拆卸式鼻托设计，可以根据脸型自由替换，同时还设计有气囊鼻垫，用于进一步提升个性化佩戴需求。 内部主要配置方面，搭载新余赣锋3.89V/210mAh锂电池，为整机稳定供电。声学部分采用双水滴型喇叭，搭配两颗艾为电子AW88166音频功放驱动；采用3颗MEMS麦克风阵列，实现精准收音。影像方面，采用索尼1200万像素IMX681摄像头模组，并搭载ST意法半导体LSM6DSOWTR 六轴传感器，实现防抖功能。 大朋Vision Ray采用ePoP封装的Longsys江波龙FAPEA3216-58C2930 ePOP4x存储器和紫光展锐W517旗舰级智能穿戴平台，外围电源管理芯片配套Sunlord顺络电子MWTC系列功率电感，射频电路上采用顺络电子SDCL0603Q系列叠层陶瓷电感；其他还采用NationalChip杭州国芯微GX8002 AI语音芯片，提升语音交互性能；采用艾为电子AW93208 Cap Sensor，用于佩戴检测和触摸控制。"
     },
     "structure": {
       "form_factor": "AI眼镜及穿戴设备",
@@ -356,6 +394,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026061110020116.png",
+          "alt": "拆解报告：DPVR大朋Vision Ray AI眼镜-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026061110014997.jpg",
           "alt": "拆解报告：DPVR大朋Vision Ray AI眼镜-我爱音频网",

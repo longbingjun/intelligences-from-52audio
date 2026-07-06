@@ -114,9 +114,93 @@
             "source_type": "text",
             "source_text": "BES2600IHC3-4X"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "BES2600IHC",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES2600IHC",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "BES2600IHC"
+          }
         }
       ],
       "bom_table": [
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.8V/500mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.8V/500mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了长虹聚和源3.8V/500mAh锂电池，配备了ICM创芯微CM1137系列集成MOSFET单节锂电池保护IC；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "BES恒玄科技",
+          "model": "BES2600IHC3-4X",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES2600IHC3-4X",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用MIC-POWER微电新能源3.7V/40mAh钢壳扣式电池供电，采用BES恒玄科技BES2600IHC3-4X蓝牙音频SoC负责无线连接和音频数据处理，采用Spacetouch普林芯驰SPT5111触摸检测IC用于触摸控制和入耳检测功能；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "BES恒玄科技",
+          "model": "BES2600IHC",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES2600IHC",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用MIC-POWER微电新能源3.7V/40mAh钢壳扣式电池供电，采用BES恒玄科技BES2600IHC3-4X蓝牙音频SoC负责无线连接和音频数据处理，采用Spacetouch普林芯驰SPT5111触摸检测IC用于触摸控制和入耳检测功能；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "微电新能源",
+          "model": "3.7V/40mAh钢壳扣式",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/40mAh钢壳扣式",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用MIC-POWER微电新能源3.7V/40mAh钢壳扣式电池供电，采用BES恒玄科技BES2600IHC3-4X蓝牙音频SoC负责无线连接和音频数据处理，采用Spacetouch普林芯驰SPT5111触摸检测IC用于触摸控制和入耳检测功能；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "3",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载了6mm双磁路高频单元+11mm纯铜线圈低频单元，单耳内置三颗MEMS麦克风；"
+          }
+        },
         {
           "component": "充电仓",
           "brand": "",
@@ -288,15 +372,15 @@
         {
           "component": "芯片/模组",
           "brand": "",
-          "model": "BES2600IHC3-4X",
+          "model": "BES2600IHC",
           "qty_hint": "1",
-          "side": "耳机",
+          "side": "",
           "role": "主控/蓝牙",
           "evidence": {
-            "value": "BES2600IHC3-4X",
+            "value": "BES2600IHC",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "耳机内部搭载了6mm双磁路高频单元+11mm纯铜线圈低频单元，单耳内置三颗MEMS麦克风；采用MIC-POWER微电新能源3.7V/40mAh钢壳扣式电池供电，采用BES恒玄科技BES2600IHC3-4X蓝牙音频SoC负责无线连接和音频数据处理，采用Spacetouch普林芯驰SPT5111触摸检测IC用于触摸控制和入耳检测功能；其他还采用了Sunlord顺络电子SDCL0603Q系列和SDCL0402H-01系列叠层陶瓷电感等方案。"
+            "source_text": "BES恒玄科技BES2600IHC3-4X蓝牙音频SoC，采用双核Arm MCU，搭载BES自研AI降噪通话算法，混合ANC降噪算法，功耗低至4.5mA。"
           }
         }
       ],
@@ -312,7 +396,17 @@
             "source_text": "撕掉绝缘保护，电池正负极镍片与导线焊接，保护电路位于主板上。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040103530110.png",
+          "alt": "拆解报告：HONOR荣耀Earbuds 4真无线降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上HONOR荣耀Earbuds 4真无线降噪耳机的已知核心物料清单，方便大家查阅。 HONOR荣耀Earbuds 4真无线降噪耳机在外观方面，采用了全新的设计，淡彩珠光与NCVM高光真空镀膜的双拼质感，时尚精致。充电盒还采用了开放式座舱结构，便于用户取放耳机；柄状的入耳式耳机，采用人体工学设计，佩戴与耳廓贴合舒适稳定。 内部主要配置方面，充电盒搭载了长虹聚和源3.8V/500mAh锂电池，配备了ICM创芯微CM1137系列集成MOSFET单节锂电池保护IC；采用了SinhMicro昇生微电子SS88F8H POWER MCU，负责为内置电池充电盒电机控制功能；采用昇生微电子SSD10X可编程升压IC，为内置电池升压给耳机充电；其他还采用了LPS微源半导体LPM2301 2.6A PMOS，霍尔元件等。 耳机内部搭载了6mm双磁路高频单元+11mm纯铜线圈低频单元，单耳内置三颗MEMS麦克风；采用MIC-POWER微电新能源3.7V/40mAh钢壳扣式电池供电，采用BES恒玄科技BES2600IHC3-4X蓝牙音频SoC负责无线连接和音频数据处理，采用Spacetouch普林芯驰SPT5111触摸检测IC用于触摸控制和入耳检测功能；其他还采用了Sunlord顺络电子SDCL0603Q系列和SDCL0402H-01系列叠层陶瓷电感等方案。"
     },
     "structure": {
       "form_factor": "真无线耳机TWS",
@@ -452,6 +546,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040103530110.png",
+          "alt": "拆解报告：HONOR荣耀Earbuds 4真无线降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040103525093.jpg",
           "alt": "拆解报告：HONOR荣耀Earbuds 4真无线降噪耳机-我爱音频网",
@@ -672,5 +773,5 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.726
+  "data_completeness": 0.742
 }

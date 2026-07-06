@@ -7,6 +7,10 @@ on:
         description: 指定视频 ID（留空则处理全部 pending）
         required: false
         type: string
+      limit:
+        description: 只处理前 N 条 pending（留空或 0=不限）
+        required: false
+        type: string
 
 permissions:
   contents: write
@@ -36,7 +40,12 @@ jobs:
           if [ -n "${{ github.event.inputs.video_id }}" ]; then
             python scripts/enrich_video.py --id "${{ github.event.inputs.video_id }}"
           else
-            python scripts/enrich_video.py --pending
+            LIMIT="${{ github.event.inputs.limit }}"
+            if [ -n "$LIMIT" ] && [ "$LIMIT" != "0" ]; then
+              python scripts/enrich_video.py --pending --limit "$LIMIT"
+            else
+              python scripts/enrich_video.py --pending
+            fi
           fi
 
       - name: 提交 enrich 结果

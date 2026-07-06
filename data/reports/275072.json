@@ -64,8 +64,65 @@
         "麦克风",
         "天线"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AIC8800",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AIC8800",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "AIC8800"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "爱科微AIC8800",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "爱科微AIC8800",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "爱科微AIC8800"
+          }
+        }
+      ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "爱科微",
+          "model": "AIC8800",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AIC8800",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，搭载了摄像头CMOS，采用了AICSEMI爱科微AIC8800D40 WiFi/蓝牙SoC，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感，Nsiway纳芯威NS8002音频功率放大器，Rockchip瑞芯微RV1106G3视觉处理器SoC，XTX芯天下XT26G02C SPI NAND闪存；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "摄像头腔体内置扬声器、麦克风，设置有主板单元和红外夜视灯小板。"
+          }
+        },
         {
           "component": "主板/PCBA",
           "brand": "",
@@ -151,7 +208,17 @@
             "source_text": "电源输入小板一侧电路一览，沉板焊接Type-C接口母座。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026051101500321.png",
+          "alt": "拆解报告：PICKFUN皮克方P0宠物AI监控伴侣-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上PICKFUN皮克方P0宠物AI监控伴侣的已知物料清单，方便大家查阅。 PICKFUN皮克方P0宠物AI监控伴侣在外观方面，采用了比较小巧的立式设计，搭配软萌治愈的“盆栽”式造型，犹如摆件，能够轻松融入家居环境，不会显得突兀。同时机身巧妙融入了双云台，实现大范围的监控视野，兼具了颜值与实用性。 内部主要配置方面，底座和支架内部均搭载了两相步进电机，用于实现四向的监控；底座内部还设置有电源输入小板，以及用于电机的控制的副板。副板上，采用了两个Relmon瑞盟科技MS35774步进电机驱动芯片，NSING国民技术N32G430单片机等。 摄像头腔体内置扬声器、麦克风，设置有主板单元和红外夜视灯小板。主板上，搭载了摄像头CMOS，采用了AICSEMI爱科微AIC8800D40 WiFi/蓝牙SoC，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感，Nsiway纳芯威NS8002音频功率放大器，Rockchip瑞芯微RV1106G3视觉处理器SoC，XTX芯天下XT26G02C SPI NAND闪存；红外夜视灯小板上，采用了QXMD泉芯QX7135 LED恒流驱动器。"
     },
     "structure": {
       "form_factor": "其他音频设备",
@@ -299,6 +366,13 @@
       ],
       "wear_design": [],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026051101500321.png",
+          "alt": "拆解报告：PICKFUN皮克方P0宠物AI监控伴侣-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026051101494855.jpg",
           "alt": "拆解报告：PICKFUN皮克方P0宠物AI监控伴侣-我爱音频网",
@@ -469,5 +543,5 @@
       }
     }
   },
-  "data_completeness": 0.618
+  "data_completeness": 0.66
 }

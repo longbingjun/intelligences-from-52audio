@@ -98,8 +98,107 @@
         "喇叭单元",
         "天线"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5513",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5513"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5513",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5513",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "英集芯IP5513"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5513",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了JYZ金宇宙3.7V/400mAh锂电池，采用了INJOINIC英集芯IP5513充电仓管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等丰富的功能，为充电仓提供完整的电源解决方案；"
+          }
+        }
+      ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5513",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了JYZ金宇宙3.7V/400mAh锂电池，采用了INJOINIC英集芯IP5513充电仓管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等丰富的功能，为充电仓提供完整的电源解决方案；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/400mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/400mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了JYZ金宇宙3.7V/400mAh锂电池，采用了INJOINIC英集芯IP5513充电仓管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等丰富的功能，为充电仓提供完整的电源解决方案；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/50mAh锂电池",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/50mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载了JYZ金宇宙3.7V/50mAh锂电池，采用了10mm动圈喇叭和一颗MEMS麦克风，主控芯片为JL杰理科技AD6973D蓝牙音频SoC，其它还采用了PinTeng品腾PT2042A单通道触摸检测IC，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等方案。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载了JYZ金宇宙3.7V/50mAh锂电池，采用了10mm动圈喇叭和一颗MEMS麦克风，主控芯片为JL杰理科技AD6973D蓝牙音频SoC，其它还采用了PinTeng品腾PT2042A单通道触摸检测IC，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等方案。"
+          }
+        },
         {
           "component": "充电仓",
           "brand": "",
@@ -225,6 +324,34 @@
             "source_type": "text",
             "source_text": "拆开充电盒外壳，取出座舱结构，"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5513",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5513",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5513",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。"
+          }
         }
       ],
       "supply_hints": [],
@@ -250,15 +377,25 @@
             "source_text": "取出电池，主板单元结构一览，与导线焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026012610082253.png",
+          "alt": "拆解报告：SANAG塞那Z50S Pro Max开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上SANAG塞那Z50S Pro Max开放式耳机的已知核心物料清单，方便大家查阅。 SANAG塞那Z50S Pro Max开放式耳机在外观方面，充电盒采用了比较圆润的设计，磨砂质感，体积轻盈便携。耳机采用了耳夹式设计，51.4°夹角，搭配符合人体工学的机身曲线，提供了舒适稳固的佩戴体验；U型记忆弯臂富有弹性，弯曲不易变形，外部通过硅胶材质包裹，舒适亲肤。 内部主要配置方面，充电盒搭载了JYZ金宇宙3.7V/400mAh锂电池，采用了INJOINIC英集芯IP5513充电仓管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等丰富的功能，为充电仓提供完整的电源解决方案；其他还采用了过压过流保护IC、霍尔元件等配置。 耳机内部搭载了JYZ金宇宙3.7V/50mAh锂电池，采用了10mm动圈喇叭和一颗MEMS麦克风，主控芯片为JL杰理科技AD6973D蓝牙音频SoC，其它还采用了PinTeng品腾PT2042A单通道触摸检测IC，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等方案。"
     },
     "structure": {
       "form_factor": "开放式耳机",
-      "earbud_type": "入耳",
+      "earbud_type": "开放",
       "materials": [
         "硅胶"
       ],
-      "ip_rating": "IP5",
+      "ip_rating": null,
       "weight_g": "63.5g",
       "dimensions": [
         "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
@@ -350,53 +487,7 @@
           }
         }
       ],
-      "sealing_method": [
-        {
-          "value": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
-          }
-        },
-        {
-          "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
-          "evidence": {
-            "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
-          }
-        },
-        {
-          "value": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。",
-          "evidence": {
-            "value": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。"
-          }
-        },
-        {
-          "value": "英集芯IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。",
-          "evidence": {
-            "value": "英集芯IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。"
-          }
-        },
-        {
-          "value": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
-          "evidence": {
-            "value": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。"
-          }
-        }
-      ],
+      "sealing_method": [],
       "wear_design": [
         {
           "value": "Z50S系列是塞那推出的开放式耳机产品，包括了Z50S、Z50S Pro、Z50S Pro Max多个版本，外观上均采用耳夹式设计，搭配人体工学结构，能够提供持久舒适的佩戴体验。",
@@ -436,6 +527,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026012610082253.png",
+          "alt": "拆解报告：SANAG塞那Z50S Pro Max开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026012610083347.jpg",
           "alt": "拆解报告：SANAG塞那Z50S Pro Max开放式耳机-我爱音频网",
@@ -478,12 +576,7 @@
         "卸掉螺丝，取掉主板和电池。",
         "SANAG塞那Z50S Pro Max开放式耳机作为该系列的旗舰级产品，在功能方面，支持定向传音技术，有效降低漏音；支持360°全景动态音效，带来沉浸式听感；支持独立立体空间音质，自动调节低频和高频的能量，提升声音质感；支持SSQVP数字增强技术，补偿高频声音，使音质更清晰；支持AI通话降噪，精准拾音并反向抵消噪音声波，提供清晰通话。"
       ],
-      "ip_rating_evidence": {
-        "value": "IP5",
-        "confidence": 0.8,
-        "source_type": "text",
-        "source_text": "IP5"
-      },
+      "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "63.5g",
         "confidence": 0.75,
@@ -674,5 +767,5 @@
       }
     }
   },
-  "data_completeness": 0.77
+  "data_completeness": 0.788
 }

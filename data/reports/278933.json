@@ -69,8 +69,121 @@
         "喇叭单元",
         "天线"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5513",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5513"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5513",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5513",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "英集芯IP5513"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5513",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，搭载INJOINIC英集芯IP5513电源管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，负责内置电池的充放电管理和整机控制；"
+          }
+        }
+      ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5513",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，搭载INJOINIC英集芯IP5513电源管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，负责内置电池的充放电管理和整机控制；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/400mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/400mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载3.7V/400mAh锂电池，设置独立电池保护板负责电池的过充电、过放电、过电流等保护。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/50mAh锂电池",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/50mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载3.7V/50mAh锂电池组，采用12mm镀钛复合振膜动圈喇叭，内置一颗MEMS麦克风拾音；"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "振膜动圈",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "振膜动圈",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载3.7V/50mAh锂电池组，采用12mm镀钛复合振膜动圈喇叭，内置一颗MEMS麦克风拾音；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载3.7V/50mAh锂电池组，采用12mm镀钛复合振膜动圈喇叭，内置一颗MEMS麦克风拾音；"
+          }
+        },
         {
           "component": "充电仓",
           "brand": "",
@@ -210,6 +323,34 @@
             "source_type": "text",
             "source_text": "后端腔体外观一览，背部为触控区域，通过单击、双击、长按实现多功能控制。"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5513",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5513",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5513",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。"
+          }
         }
       ],
       "supply_hints": [],
@@ -244,13 +385,23 @@
             "source_text": "丝印5o1KK的一体化锂电保护IC。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026060902350924.png",
+          "alt": "拆解报告：OKSJ欧克士HM-11开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上OKSJ欧克士HM-11开放式耳机的已知核心物料清单，方便大家查阅。 OKSJ欧克士HM-11开放式耳机在外观方面，充电盒采用椭圆形设计，通过金属漆+清漆双层喷涂工艺处理，带来细腻光滑的手感和通透光泽。耳机采用主流耳夹式设计，C桥柔韧不易变形，腔体通过金属电镀工艺处理，质感出色。 内部主要配置方面，充电盒搭载3.7V/400mAh锂电池，设置独立电池保护板负责电池的过充电、过放电、过电流等保护。主板上，搭载INJOINIC英集芯IP5513电源管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，负责内置电池的充放电管理和整机控制；其他还采用了Wayon维安WP1230过压保护IC等。 耳机内部搭载3.7V/50mAh锂电池组，采用12mm镀钛复合振膜动圈喇叭，内置一颗MEMS麦克风拾音；采用Realtek瑞昱RTL8753EFE蓝牙音频SoC，用于无线信号传输和音频数据处理。"
     },
     "structure": {
       "form_factor": "开放式耳机",
       "earbud_type": "开放",
       "materials": [],
-      "ip_rating": "IP5",
+      "ip_rating": null,
       "weight_g": "48.8g",
       "dimensions": [
         "在功能配置上，OKSJ欧克士HM-11开放式耳机搭载12mm动圈单元，支持动态低频补偿，呈现更细腻生动的饱满音效；采用防漏音结构设计，有效降低漏音，保护隐私；搭载Ai通话降噪算法，精准拾音并分离人声和环境音，确保清晰通话效果。",
@@ -342,53 +493,7 @@
           }
         }
       ],
-      "sealing_method": [
-        {
-          "value": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
-          }
-        },
-        {
-          "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
-          "evidence": {
-            "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
-          }
-        },
-        {
-          "value": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。",
-          "evidence": {
-            "value": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。"
-          }
-        },
-        {
-          "value": "英集芯IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。",
-          "evidence": {
-            "value": "英集芯IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。"
-          }
-        },
-        {
-          "value": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
-          "evidence": {
-            "value": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。"
-          }
-        }
-      ],
+      "sealing_method": [],
       "wear_design": [
         {
           "value": "OKSJ HM-11开放式耳机是该品牌旗下的热销产品，外观上采用耳夹式设计，佩戴贴合耳部轮廓弧度，稳固不掉。",
@@ -428,6 +533,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026060902350924.png",
+          "alt": "拆解报告：OKSJ欧克士HM-11开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026060902345790.jpg",
           "alt": "拆解报告：OKSJ欧克士HM-11开放式耳机-我爱音频网",
@@ -470,12 +582,7 @@
         "在功能配置上，OKSJ欧克士HM-11开放式耳机搭载12mm动圈单元，支持动态低频补偿，呈现更细腻生动的饱满音效；采用防漏音结构设计，有效降低漏音，保护隐私；搭载Ai通话降噪算法，精准拾音并分离人声和环境音，确保清晰通话效果。",
         "腔体背部的麦克风拾音孔特写，同时也是指示灯开孔。"
       ],
-      "ip_rating_evidence": {
-        "value": "IP5",
-        "confidence": 0.8,
-        "source_type": "text",
-        "source_text": "IP5"
-      },
+      "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "48.8g",
         "confidence": 0.75,
@@ -695,5 +802,5 @@
       }
     }
   },
-  "data_completeness": 0.758
+  "data_completeness": 0.776
 }

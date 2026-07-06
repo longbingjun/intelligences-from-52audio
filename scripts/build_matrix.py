@@ -143,6 +143,10 @@ def build_matrix() -> dict:
                 "bluetooth": None,
                 "major_chips": [],
                 "selling_point_tags": [],
+                "sources": [],
+                "has_report": False,
+                "has_video": False,
+                "source": "video",
             }
 
     for kind in ("report", "video"):
@@ -162,17 +166,29 @@ def build_matrix() -> dict:
                     "bluetooth": None,
                     "major_chips": [],
                     "selling_point_tags": [],
+                    "sources": [],
+                    "has_report": False,
+                    "has_video": False,
+                    "source": "video",
                 }
                 category_map[cid] = category
-            # 报告数据优先
+            # 报告数据优先；视频只在尚未有报告时填充字段
             if kind == "report" or not rows_by_id[cid].get("_has_report"):
                 _merge_views(rows_by_id[cid], record)
                 if kind == "report":
                     rows_by_id[cid]["_has_report"] = True
+                    rows_by_id[cid]["has_report"] = True
+            if kind == "video":
+                rows_by_id[cid]["has_video"] = True
+            src_kind = "report" if kind == "report" else "video"
+            if src_kind not in rows_by_id[cid]["sources"]:
+                rows_by_id[cid]["sources"].append(src_kind)
 
     by_category: dict[str, list[dict]] = defaultdict(list)
     for cid, row in rows_by_id.items():
         row.pop("_has_report", None)
+        # 主 source：有报告则记 report，否则 video（完整度低）
+        row["source"] = "report" if row.get("has_report") else "video"
         row["data_completeness"] = _completeness(row)
         by_category[category_map.get(cid, "其他音频设备")].append(row)
 
@@ -182,7 +198,7 @@ def build_matrix() -> dict:
         payload = {
             "category": category,
             "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
-            "columns": list(MATRIX_FIELDS) + ["data_completeness"],
+            "columns": list(MATRIX_FIELDS) + ["data_completeness", "source"],
             "rows": rows,
         }
         out_path = MATRIX_DIR / _category_filename(category)

@@ -92,6 +92,20 @@
       "chip_modules": [],
       "bom_table": [
         {
+          "component": "电池",
+          "brand": "",
+          "model": "3.83V/300mAh锂电池",
+          "qty_hint": "1",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "3.83V/300mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内部主要配置方面，华为手环 11 Pro搭载3.83V/300mAh锂电池，电芯来自ATL新能源。"
+          }
+        },
+        {
           "component": "主板/PCBA",
           "brand": "",
           "model": "",
@@ -238,7 +252,17 @@
             "source_text": "作为首款“Pro”级产品，华为手环 11 Pro外观上保持轻薄舒适佩戴的同时，通过铝合金机身，CNC钻切工艺，3D弧面屏幕，以及“能量棒”侧边设计，带来了更加出色的质感。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040807090145.png",
+          "alt": "拆解报告：HUAWEI华为手环 11 Pro-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、智研所总结 最后附上HUAWEI华为手环 11 Pro的已知物料清单，方便大家查阅。 作为首款“Pro”级产品，华为手环 11 Pro外观上保持轻薄舒适佩戴的同时，通过铝合金机身，CNC钻切工艺，3D弧面屏幕，以及“能量棒”侧边设计，带来了更加出色的质感。还采用了编织表带，触感柔软亲肤，魔术贴固定，佩戴方便快捷；快拆按钮结构，能够轻松拆卸进行更换或清洁。 内部主要配置方面，华为手环 11 Pro搭载3.83V/300mAh锂电池，电芯来自ATL新能源。主板上，搭载了HiSilicon上海海思GS301W的GNSS芯片，Cellwise赛微微电CW6305B线性充电芯片，ICM创芯微CM1126B-JCC锂电池保护IC，以及型号无可查证的处理器、存储器、健康检测IC、运动检测IC、NFC芯片等方案。"
     },
     "structure": {
       "form_factor": "其他音频设备",
@@ -416,6 +440,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040807090145.png",
+          "alt": "拆解报告：HUAWEI华为手环 11 Pro-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040807085752.jpg",
           "alt": "拆解报告：HUAWEI华为手环 11 Pro-我爱音频网",

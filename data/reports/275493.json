@@ -120,6 +120,76 @@
       ],
       "bom_table": [
         {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB5691",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB5691",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用Bluetrum中科蓝讯AB5691F智能穿戴芯片和AXS爱协生AXS5106L自电容触控芯片，用于屏幕功能。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/320mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/320mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载3.7V/320mAh锂电池组，内置动圈扬声器，采用了LPS微源半导体LP7812C电源管理芯片负责内置电池的充放电管理；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB5636",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB5636",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载了10mm动圈喇叭，单耳内置1颗聆麦声学MEMS麦克风拾音，采用3.7V/30mAh锂电池供电，采用Bluetrum中科蓝讯AB5636H蓝牙音频SoC，用于无线连接和音频数据处理。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/30mAh锂电池",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/30mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载了10mm动圈喇叭，单耳内置1颗聆麦声学MEMS麦克风拾音，采用3.7V/30mAh锂电池供电，采用Bluetrum中科蓝讯AB5636H蓝牙音频SoC，用于无线连接和音频数据处理。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载了10mm动圈喇叭，单耳内置1颗聆麦声学MEMS麦克风拾音，采用3.7V/30mAh锂电池供电，采用Bluetrum中科蓝讯AB5636H蓝牙音频SoC，用于无线连接和音频数据处理。"
+          }
+        },
+        {
           "component": "充电仓",
           "brand": "",
           "model": "",
@@ -264,20 +334,6 @@
           "brand": "",
           "model": "AB5691",
           "qty_hint": "1",
-          "side": "充电盒",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "AB5691",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "Bluetrum中科蓝讯AB5691F智能穿戴芯片，符合蓝牙6.0规范，用于充电盒屏幕功能。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "AB5691",
-          "qty_hint": "1",
           "side": "",
           "role": "主控/蓝牙",
           "evidence": {
@@ -299,34 +355,6 @@
             "confidence": 0.78,
             "source_type": "text",
             "source_text": "Bluetrum中科蓝讯AB5636H蓝牙音频SoC，符合蓝牙6.0和BLE规范，搭载高性能32位RISC-V处理器内核，支持DSP指令集，典型运行频率125MHz；集成高性能单声道DAC和2通道高性能ADC，集成2通道麦克风放大器输入，支持灵活音频EQ调节；支持前馈主动降噪（FF ANC），支持2通道低功耗触摸按键，内置电源管理单元（PMU）。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "AB5691",
-          "qty_hint": "1",
-          "side": "充电盒",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "AB5691",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "内部主要配置方面，充电盒搭载3.7V/320mAh锂电池组，内置动圈扬声器，采用了LPS微源半导体LP7812C电源管理芯片负责内置电池的充放电管理；采用Bluetrum中科蓝讯AB5691F智能穿戴芯片和AXS爱协生AXS5106L自电容触控芯片，用于屏幕功能。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "AB5636",
-          "qty_hint": "1",
-          "side": "耳机",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "AB5636",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "耳机内部搭载了10mm动圈喇叭，单耳内置1颗聆麦声学MEMS麦克风拾音，采用3.7V/30mAh锂电池供电，采用Bluetrum中科蓝讯AB5636H蓝牙音频SoC，用于无线连接和音频数据处理。"
           }
         }
       ],
@@ -353,7 +381,17 @@
             "source_text": "电池保护板另外一侧与导线和电池正负极镍片焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026051110525458.png",
+          "alt": "拆解报告：MARTUBE马克图布Hello Kitty带屏真无线降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上MARTUBE马克图布Hello Kitty带屏真无线降噪耳机的已知核心物料清单，方便大家查阅。 MARTUBE马克图布Hello Kitty带屏真无线降噪耳机外观设计极具特色，充电盒采用复古翻盖手机造型设计，融合Hello Kitty经典元素，辨识度十足；同时搭载彩色屏幕并内置Hello Kitty主题壁纸，非常可爱童趣。耳机采用柄状的入耳式设计，体积小巧轻盈，佩戴舒适稳固。 内部主要配置方面，充电盒搭载3.7V/320mAh锂电池组，内置动圈扬声器，采用了LPS微源半导体LP7812C电源管理芯片负责内置电池的充放电管理；采用Bluetrum中科蓝讯AB5691F智能穿戴芯片和AXS爱协生AXS5106L自电容触控芯片，用于屏幕功能。 耳机内部搭载了10mm动圈喇叭，单耳内置1颗聆麦声学MEMS麦克风拾音，采用3.7V/30mAh锂电池供电，采用Bluetrum中科蓝讯AB5636H蓝牙音频SoC，用于无线连接和音频数据处理。"
     },
     "structure": {
       "form_factor": "真无线耳机TWS",
@@ -493,6 +531,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026051110525458.png",
+          "alt": "拆解报告：MARTUBE马克图布Hello Kitty带屏真无线降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026051110525549.jpg",
           "alt": "拆解报告：MARTUBE马克图布Hello Kitty带屏真无线降噪耳机-我爱音频网",

@@ -99,8 +99,149 @@
         "降噪系统",
         "喇叭单元"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "XHSC小华半导体HC32F170FAUA",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "XHSC小华半导体HC32F170FAUA",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "XHSC小华半导体HC32F170FAUA"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "XHSC小华半导体HC32F170",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "XHSC小华半导体HC32F170",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "XHSC小华半导体HC32F170"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "小华半导体HC32F170FAUA",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "小华半导体HC32F170FAUA",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "小华半导体HC32F170FAUA"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "小华半导体HC32F170",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "小华半导体HC32F170",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "小华半导体HC32F170"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "XHSC小华半导体",
+          "model": "XHSC小华半导体HC32F170FAUA",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "MCU",
+          "evidence": {
+            "value": "XHSC小华半导体HC32F170FAUA",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用XHSC小华半导体HC32F170FAUA MCU单片机，负责整机控制；"
+          }
+        }
+      ],
       "bom_table": [
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "独特的30°指向麦克风延长杆，则有效提升了收音效果。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "XHSC小华半导体",
+          "model": "XHSC小华半导体HC32F170FAUA",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "MCU",
+          "evidence": {
+            "value": "XHSC小华半导体HC32F170FAUA",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用XHSC小华半导体HC32F170FAUA MCU单片机，负责整机控制；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.8V/800mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.8V/800mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载紫建电子3.8V/800mAh锂电池，采用了LY来远电子ICP1106电源管理芯片，负责电池的充放电管理；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "5V/100mAh锂电池",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "5V/100mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内置紫建电子3.8V5/100mAh锂电池供电，采用了LY来远电子ICP1205线性充电IC，Cellwise赛微微电CW2215B电量计芯片。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "内置2个MEMS麦克风+1个骨传导麦克风，搭配NationalChip杭州国芯微GX8002 AI语音芯片，用于语音交互；"
+          }
+        },
         {
           "component": "电池",
           "brand": "",
@@ -268,6 +409,34 @@
             "source_type": "text",
             "source_text": "腔体底部的充电触点特写，两端设置有磁铁与充电盒固定。"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "XHSC小华半导体HC32F170FAUA",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "XHSC小华半导体HC32F170FAUA",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "XHSC小华半导体HC32F170FAUA MCU单片机。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "XHSC小华半导体HC32F170",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "XHSC小华半导体HC32F170",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "XHSC小华半导体HC32F170系列详细资料图。"
+          }
         }
       ],
       "supply_hints": [],
@@ -282,7 +451,17 @@
             "source_text": "掀开电池，下方主板结构一览，通过螺丝固定，与导线焊接，打胶防护。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026051102004169.png",
+          "alt": "拆解报告：iFLYTEK科大讯飞AI翻译耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上iFLYTEK科大讯飞AI翻译耳机的已知核心物料清单，方便大家查阅。 iFLYTEK科大讯飞AI翻译耳机在外观方面，充电盒采用扁平的方形设计，金属漆涂层，搭配铭牌装饰，质感出色。耳机采用耳挂式设计，黑银配色，极具商务范；耳挂内嵌0.8mm钛丝，柔韧不易变形，外部亲肤硅胶材质包裹，搭配黄金重心设计，佩戴舒适稳固；独特的30°指向麦克风延长杆，则有效提升了收音效果。 内部主要配置方面，充电盒搭载紫建电子3.8V/800mAh锂电池，采用了LY来远电子ICP1106电源管理芯片，负责电池的充放电管理；采用XHSC小华半导体HC32F170FAUA MCU单片机，负责整机控制；还采用了LPS微源半导体LP5308过压过流保护IC，保护后级器件免受异常损伤。 耳机内部搭载11mm动圈喇叭，采用WUQI物奇WQ7036AX智能音频主控SoC，用于无线连接和音频数据处理，外围配备Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感和MPHM系列功率电感；内置2个MEMS麦克风+1个骨传导麦克风，搭配NationalChip杭州国芯微GX8002 AI语音芯片，用于语音交互；内置紫建电子3.8V5/100mAh锂电池供电，采用了LY来远电子ICP1205线性充电IC，Cellwise赛微微电CW2215B电量计芯片。"
     },
     "structure": {
       "form_factor": "其他音频设备",
@@ -449,6 +628,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026051102004169.png",
+          "alt": "拆解报告：iFLYTEK科大讯飞AI翻译耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026051102004361.jpg",
           "alt": "拆解报告：iFLYTEK科大讯飞AI翻译耳机-我爱音频网",
@@ -712,5 +898,5 @@
       }
     }
   },
-  "data_completeness": 0.792
+  "data_completeness": 0.842
 }

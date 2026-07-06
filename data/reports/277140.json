@@ -81,6 +81,34 @@
       "chip_modules": [],
       "bom_table": [
         {
+          "component": "电池",
+          "brand": "",
+          "model": "3.93V/84mAh锂电池",
+          "qty_hint": "1",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "3.93V/84mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内部主要配置方面，华为AI眼镜搭载超澎湃水滴单元，内置3块3.93V/84mAh锂电池、3个歌尔微电子的MEMS麦克风、1200万像素（1/2.8英寸）摄像头，采用了华为自研AI眼镜芯片、HiSilicon海思Hi1105 无线连接芯片，以及大量的Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感、MWSD1005C系列绕线片式电感和SDMM0605叠层共模电感等。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "内部主要配置方面，华为AI眼镜搭载超澎湃水滴单元，内置3块3.93V/84mAh锂电池、3个歌尔微电子的MEMS麦克风、1200万像素（1/2.8英寸）摄像头，采用了华为自研AI眼镜芯片、HiSilicon海思Hi1105 无线连接芯片，以及大量的Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感、MWSD1005C系列绕线片式电感和SDMM0605叠层共模电感等。"
+          }
+        },
+        {
           "component": "麦克风",
           "brand": "",
           "model": "",
@@ -235,7 +263,17 @@
             "source_text": "撕开绝缘保护，电池正负极镍片与排线焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026052208333086.png",
+          "alt": "拆解报告：HUAWEI华为AI眼镜-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上HUAWEI华为AI眼镜的已知物料清单，方便大家查阅。 华为AI眼镜在外观方面，延续了智能音频眼镜的设计风格。此次拆解的钛丝半框光学镜（钛银灰 圆形），观感简约沉稳，偏商务风格。整机重量处于行业主流水准，搭配可自适应外扩调校的镜腿、可灵活调节的金属鼻架，以及前后配重平衡设计，佩戴相对较为舒适。 内部主要配置方面，华为AI眼镜搭载超澎湃水滴单元，内置3块3.93V/84mAh锂电池、3个歌尔微电子的MEMS麦克风、1200万像素（1/2.8英寸）摄像头，采用了华为自研AI眼镜芯片、HiSilicon海思Hi1105 无线连接芯片，以及大量的Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感、MWSD1005C系列绕线片式电感和SDMM0605叠层共模电感等。"
     },
     "structure": {
       "form_factor": "AI眼镜及穿戴设备",
@@ -413,6 +451,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026052208333086.png",
+          "alt": "拆解报告：HUAWEI华为AI眼镜-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026052208332295.jpg",
           "alt": "拆解报告：HUAWEI华为AI眼镜-我爱音频网",

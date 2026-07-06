@@ -40,6 +40,34 @@
       "chip_modules": [],
       "bom_table": [
         {
+          "component": "电池",
+          "brand": "",
+          "model": "3.8V/300mAh锂电池",
+          "qty_hint": "1",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "3.8V/300mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内部主要配置方面，NOHON诺希鸿蒙OS智能手表N19内置ST神通天下3.8V/300mAh锂电池，搭载了扬声器、驻极体麦克风、振动马达、健康检测传感器等，屏幕触摸采用了HYNITRON海栎创CST820高性能自电容触控芯片。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "内部主要配置方面，NOHON诺希鸿蒙OS智能手表N19内置ST神通天下3.8V/300mAh锂电池，搭载了扬声器、驻极体麦克风、振动马达、健康检测传感器等，屏幕触摸采用了HYNITRON海栎创CST820高性能自电容触控芯片。"
+          }
+        },
+        {
           "component": "主板/PCBA",
           "brand": "",
           "model": "",
@@ -150,7 +178,17 @@
             "source_text": "方形扬声器背面特写，与导线焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026030501022629.png",
+          "alt": "拆解报告：NOHON诺希鸿蒙OS智能手表N19-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、智研所总结 最后附上NOHON诺希鸿蒙OS智能手表N19的已知物料清单，方便大家查阅。 NOHON诺希鸿蒙OS智能手表N19在外观设计方面，与华为Watch GT系列风格相似，圆形表盘，八边形的硬朗设计，搭配锌合金表圈，精致表冠，带来了不俗的质感。同时，配备了三种材质的表带，采用滑锁结构连接表盘，用户可以自由更换。 内部主要配置方面，NOHON诺希鸿蒙OS智能手表N19内置ST神通天下3.8V/300mAh锂电池，搭载了扬声器、驻极体麦克风、振动马达、健康检测传感器等，屏幕触摸采用了HYNITRON海栎创CST820高性能自电容触控芯片。 手表主板上，采用了HiSilicon上海海思YH601系列开源鸿蒙智能穿戴解决方案，HiSilicon上海海思GS301W定位芯片，Puya普冉PY25Q128LA串行多I/O闪存和Dosilicon东芯DS35M2GB-IB SPI NAND闪存，以及LPS微源半导体LP5308过压过流保护IC，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等方案。"
     },
     "structure": {
       "form_factor": "智能手表",
@@ -262,6 +300,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026030501022629.png",
+          "alt": "拆解报告：NOHON诺希鸿蒙OS智能手表N19-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026030501022781.jpg",
           "alt": "拆解报告：NOHON诺希鸿蒙OS智能手表N19-我爱音频网",

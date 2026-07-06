@@ -100,8 +100,177 @@
         "喇叭单元",
         "天线"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5529",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5529",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5529"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5529",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5529",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "英集芯IP5529"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WINSEMI稳先微WSDF2320B",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF2320B",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "WINSEMI稳先微WSDF2320B"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "稳先微WSDF2320B",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "稳先微WSDF2320B",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "稳先微WSDF2320B"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WSDF2320B",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "WSDF2320B",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "WSDF2320B"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5529",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5529",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了弘捷新能源3.7V/450mAh锂电池，采用了INJOINIC英集芯IP5529充电仓电源管理SoC，集成升压转换器、锂电池充电管理、高性能MCU等功能，负责内置电池的充放电管理和整机控制；"
+          }
+        }
+      ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5529",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5529",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了弘捷新能源3.7V/450mAh锂电池，采用了INJOINIC英集芯IP5529充电仓电源管理SoC，集成升压转换器、锂电池充电管理、高性能MCU等功能，负责内置电池的充放电管理和整机控制；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "弘捷",
+          "model": "3.7V/450mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/450mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了弘捷新能源3.7V/450mAh锂电池，采用了INJOINIC英集芯IP5529充电仓电源管理SoC，集成升压转换器、锂电池充电管理、高性能MCU等功能，负责内置电池的充放电管理和整机控制；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "WINSEMI稳先微",
+          "model": "WINSEMI稳先微WSDF2320B",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF2320B",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主控芯片为WUQI物奇WQ7035AX-B智能音频SoC，其他还采用了WINSEMI稳先微WSDF2320B锂电池保护IC，HX天易合芯HX9031A距离传感器等。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "微电新能源",
+          "model": "3.85V/35mAh钢壳扣式",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.85V/35mAh钢壳扣式",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载MIC-POWER微电新能源3.85V/35mAh钢壳扣式电池，采用了LCP液态高分子振膜动圈喇叭，内置三颗MEMS麦克风；"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "振膜动圈",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "振膜动圈",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载MIC-POWER微电新能源3.85V/35mAh钢壳扣式电池，采用了LCP液态高分子振膜动圈喇叭，内置三颗MEMS麦克风；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "3",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载MIC-POWER微电新能源3.85V/35mAh钢壳扣式电池，采用了LCP液态高分子振膜动圈喇叭，内置三颗MEMS麦克风；"
+          }
+        },
         {
           "component": "充电仓",
           "brand": "",
@@ -255,6 +424,34 @@
             "source_type": "text",
             "source_text": "耳机柄底部的充电触点特写。"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5529",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5529",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5529是一款集成升压转换器、锂电池充电管理、高性能MCU的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WINSEMI稳先微WSDF2320B",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF2320B",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "WINSEMI稳先微WSDF2320B单节锂离子/聚合物电池保护IC。"
+          }
         }
       ],
       "supply_hints": [],
@@ -269,7 +466,17 @@
             "source_text": "挑开连接器，取掉主板和电池单元，电池导线与主板焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026052806284294.png",
+          "alt": "拆解报告：QCY意象AilyBuds E50真无线降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上QCY意象AilyBuds E50真无线降噪耳机的已知核心物料清单，方便大家查阅。 QCY意象AilyBuds E50真无线降噪耳机在外观方面，整体采用了镜面+磨砂两种工艺拼接设计，质感非常出色。耳机采用了柄状的半入耳式设计，机身线条优雅，入耳曲线与耳廓贴合舒适稳固，搭配4.4g的重量，带来了近乎无感的佩戴体验。 内部主要配置方面，充电盒搭载了弘捷新能源3.7V/450mAh锂电池，采用了INJOINIC英集芯IP5529充电仓电源管理SoC，集成升压转换器、锂电池充电管理、高性能MCU等功能，负责内置电池的充放电管理和整机控制；采用了WINSEMI稳先微WSDY3301A锂电保护IC，负责电池的过充、过放、过流、短路等保护。 耳机内部搭载MIC-POWER微电新能源3.85V/35mAh钢壳扣式电池，采用了LCP液态高分子振膜动圈喇叭，内置三颗MEMS麦克风；主控芯片为WUQI物奇WQ7035AX-B智能音频SoC，其他还采用了WINSEMI稳先微WSDF2320B锂电池保护IC，HX天易合芯HX9031A距离传感器等。"
     },
     "structure": {
       "form_factor": "真无线耳机TWS",
@@ -277,7 +484,7 @@
       "materials": [
         "塑料"
       ],
-      "ip_rating": "IP5",
+      "ip_rating": null,
       "weight_g": "42.9g",
       "dimensions": [
         "得益于IP5529的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸，降低BOM成本。",
@@ -369,53 +576,7 @@
           }
         }
       ],
-      "sealing_method": [
-        {
-          "value": "INJOINIC英集芯IP5529是一款集成升压转换器、锂电池充电管理、高性能MCU的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5529是一款集成升压转换器、锂电池充电管理、高性能MCU的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5529是一款集成升压转换器、锂电池充电管理、高性能MCU的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。"
-          }
-        },
-        {
-          "value": "得益于IP5529的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸，降低BOM成本。",
-          "evidence": {
-            "value": "得益于IP5529的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸，降低BOM成本。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "得益于IP5529的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸，降低BOM成本。"
-          }
-        },
-        {
-          "value": "英集芯IP5529采用开关降压充电技术，提供最大1A充电电流，充电效率高至90%。",
-          "evidence": {
-            "value": "英集芯IP5529采用开关降压充电技术，提供最大1A充电电流，充电效率高至90%。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5529采用开关降压充电技术，提供最大1A充电电流，充电效率高至90%。"
-          }
-        },
-        {
-          "value": "IP5529的同步升压系统提供额定800mA输出电流，转换效率高至93%。",
-          "evidence": {
-            "value": "IP5529的同步升压系统提供额定800mA输出电流，转换效率高至93%。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "IP5529的同步升压系统提供额定800mA输出电流，转换效率高至93%。"
-          }
-        },
-        {
-          "value": "英集芯IP5529内置高性能32位MCU，具有丰富的外设资源，通过软件灵活设计，实现多功能的智能充电仓。",
-          "evidence": {
-            "value": "英集芯IP5529内置高性能32位MCU，具有丰富的外设资源，通过软件灵活设计，实现多功能的智能充电仓。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5529内置高性能32位MCU，具有丰富的外设资源，通过软件灵活设计，实现多功能的智能充电仓。"
-          }
-        }
-      ],
+      "sealing_method": [],
       "wear_design": [
         {
           "value": "在真无线耳机的各种产品形态中，半入耳式耳机是目前能够很好的兼顾舒适佩戴和主动降噪需求的产品。",
@@ -455,6 +616,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026052806284294.png",
+          "alt": "拆解报告：QCY意象AilyBuds E50真无线降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026052806283793.jpg",
           "alt": "拆解报告：QCY意象AilyBuds E50真无线降噪耳机-我爱音频网",
@@ -497,12 +665,7 @@
         "座舱底部通过螺丝固定主板，与排线通过连接器连接。",
         "挑开连接器，取掉主板和电池单元，电池导线与主板焊接。"
       ],
-      "ip_rating_evidence": {
-        "value": "IP5",
-        "confidence": 0.8,
-        "source_type": "text",
-        "source_text": "IP5"
-      },
+      "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "42.9g",
         "confidence": 0.75,
@@ -803,5 +966,5 @@
       }
     }
   },
-  "data_completeness": 0.838
+  "data_completeness": 0.858
 }

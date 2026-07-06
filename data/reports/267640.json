@@ -102,6 +102,62 @@
       "chip_modules": [],
       "bom_table": [
         {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/650mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/650mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了NV诺威3.7V/650mAh锂电池，采用了苏州赛芯电子科技股份XB5332B锂电池一体化保护芯片，LPS微源半导体LP5300过压过流保护IC，以及用于整机控制的SinhMicro昇生微电子SS881A POWER MCU。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "赣锋",
+          "model": "3.85V/70mAh软包扣式",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.85V/70mAh软包扣式",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载GF新余赣锋3.85V/70mAh软包扣式电池，采用14.2mm大动圈单元；"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "动圈单元",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "动圈单元",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载GF新余赣锋3.85V/70mAh软包扣式电池，采用14.2mm大动圈单元；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "2",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "主板上，搭载了两颗MEMS麦克风，采用了REALTEK瑞昱RTL8763ESE蓝牙音频SoC，Vinka永嘉微电VKD233HS触摸检测IC等方案。"
+          }
+        },
+        {
           "component": "充电仓",
           "brand": "",
           "model": "",
@@ -304,11 +360,21 @@
             "source_text": "内部主要配置方面，充电盒搭载了NV诺威3.7V/650mAh锂电池，采用了苏州赛芯电子科技股份XB5332B锂电池一体化保护芯片，LPS微源半导体LP5300过压过流保护IC，以及用于整机控制的SinhMicro昇生微电子SS881A POWER MCU。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/02/2026020211005057.png",
+          "alt": "拆解报告：TOZO Open Buds开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上TOZO Open Buds开放式耳机的已知物料清单，方便大家查阅。 TOZO Open Buds开放式耳机在外观方面，充电盒采用了扁平的椭圆形设计，体积轻薄便携；耳机采用了耳挂式设计，体积相对轻巧，且支持60°Y轴和90°X轴双向旋转，能够更好适配不同用户的耳型，提供个性化的舒适佩戴体验。 内部主要配置方面，充电盒搭载了NV诺威3.7V/650mAh锂电池，采用了苏州赛芯电子科技股份XB5332B锂电池一体化保护芯片，LPS微源半导体LP5300过压过流保护IC，以及用于整机控制的SinhMicro昇生微电子SS881A POWER MCU。 耳机内部搭载GF新余赣锋3.85V/70mAh软包扣式电池，采用14.2mm大动圈单元；主板上，搭载了两颗MEMS麦克风，采用了REALTEK瑞昱RTL8763ESE蓝牙音频SoC，Vinka永嘉微电VKD233HS触摸检测IC等方案。"
     },
     "structure": {
       "form_factor": "开放式耳机",
-      "earbud_type": "入耳",
+      "earbud_type": "开放",
       "materials": [],
       "ip_rating": "IPX6",
       "weight_g": "76.8g",
@@ -461,6 +527,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/02/2026020211005057.png",
+          "alt": "拆解报告：TOZO Open Buds开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/02/2026020211003965.jpg",
           "alt": "拆解报告：TOZO Open Buds开放式耳机-我爱音频网",

@@ -5,8 +5,10 @@ from __future__ import annotations
 import re
 
 from core.extract.components import extract_components
+from core.extract.bom_from_prose import extract_bom_from_prose
 from core.extract.key_images import extract_key_image_urls
 from core.extract.selling_points import extract_selling_points
+from core.extract.summary_section import locate_summary_section
 from core.extract.tech_specs import extract_tech_specs, guess_charging_ports
 from core.extract.text_utils import plain_text as html_plain_text, split_sentences
 from core.models_v2 import CostView, HardwareView, MarketView, RoleViews, SoftwareView, StructureView
@@ -20,7 +22,9 @@ _PRICE_RE = re.compile(
 )
 _PRICE_YEN_RE = re.compile(r"[¥￥]\s*(\d{1,5}(?:\.\d{1,2})?)")
 _BT_RE = re.compile(r"蓝牙\s*([0-9]\.[0-9]+)|Bluetooth\s*([0-9]\.[0-9]+)", re.I)
-_IP_RE = re.compile(r"IP\s*X?\d", re.I)
+# IP 等级：IPX5 / IPX4 / IP54 / IP67 / IP68。负向断言 `(?!\d)` 排除 IP5xxx / IPxxxx 这类
+# 芯片型号（如 INJOINIC 英集芯 IP5528、IP5516）被误判为 IP 等级。
+_IP_RE = re.compile(r"IP\s*X?\d(?!\d)", re.I)
 _WEIGHT_RE = re.compile(r"(\d+(?:\.\d+)?)\s*(?:g|克)")
 _BATT_RE = re.compile(r"(\d+)\s*mAh", re.I)
 _SIDE_RE = re.compile(r"(左耳|右耳|左腔|右腔|充电盒|耳机|仓体)")
@@ -269,6 +273,82 @@ def _build_bom_table(major, minor, plain: str) -> list[dict]:
                 }
             )
     return rows[:30]
+
+
+def _normalize_bom_row(row: dict) -> dict:
+    """从 summary BOM 行剥离顶层多余字段，统一为 bom_table 标准 schema。"""
+    return {
+        "component": row.get("component", ""),
+        "brand": row.get("brand", ""),
+        "model": row.get("model", ""),
+        "qty_hint": row.get("qty_hint", ""),
+        "side": row.get("side", ""),
+        "role": row.get("role", ""),
+        "evidence": row.get("evidence") or make_evidence(
+            row.get("model", "") or row.get("component", ""),
+            row.get("evidence_text", ""),
+            confidence=row.get("confidence", 0.78),
+            source_type="summary_prose",
+        ),
+    }
+
+
+def _bom_dedup_key(row: dict) -> tuple:
+    """BOM 行去重 key：芯片类按型号 canonical，非芯片按 (component, side)。"""
+    comp = row.get("component", "")
+    model = (row.get("model") or "").strip()
+    side = row.get("side", "")
+    if comp == "芯片/模组" and model:
+        # 取末尾的 字母+数字+字母数字 token 作为 canonical
+        m = re.search(r"[A-Z]{1,4}\d+[A-Z0-9]*$", model, re.I)
+        canon = m.group(0).upper() if m else re.sub(r"\s+", "", model).upper()
+        return (comp, canon, side)
+    return (comp, re.sub(r"\s+", "", model).upper(), side)
+
+
+def _merge_bom_with_summary(text_bom: list[dict], summary_bom: list[dict]) -> list[dict]:
+    """合并正文 BOM 与总结段 BOM，summary 优先（前置 + 去重时保留 summary 版本）。
+
+    返回合并后的 bom_table（按 summary 在前、正文在后顺序，去重）。
+    """
+    out: list[dict] = []
+    seen: set[tuple] = set()
+    # 1) summary 行优先入列
+    for row in summary_bom:
+        norm = _normalize_bom_row(row)
+        key = _bom_dedup_key(norm)
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(norm)
+    # 2) 正文行：与 summary 重复的跳过
+    for row in text_bom:
+        key = _bom_dedup_key(row)
+        if key in seen:
+            continue
+        seen.add(key)
+        out.append(row)
+    return out[:50]
+
+
+def _summary_images_to_dicts(image_urls: list[str], section_html: str) -> list[dict]:
+    """把总结段图 URL 列表转成与 structure.key_image_urls 同构的 dict 列表。"""
+    if not image_urls:
+        return []
+    # 从 section html 里抓 alt 文本（如果存在）
+    from bs4 import BeautifulSoup
+
+    soup = BeautifulSoup(section_html or "", "lxml")
+    alt_map: dict[str, str] = {}
+    for img in soup.find_all("img"):
+        url = (img.get("src") or "").strip()
+        alt = img.get("alt") or ""
+        if url and alt:
+            alt_map[url] = alt
+    return [
+        {"url": url, "alt": alt_map.get(url, ""), "caption": "", "section_hint": "summary_bom", "score": 10}
+        for url in image_urls
+    ]
 
 
 def _supply_hints(plain: str) -> list[dict]:
@@ -533,17 +613,61 @@ def extract_role_views(
         s for s in split_sentences(plain) if any(k in s for k in ("焊接", "点胶", "一体化", "注塑", "CNC", "超声"))
     ][:5]
 
+    # V3 Phase1：定位「我爱音频网总结」段，从 prose 抽 BOM 行（priority 高于正文片段）
+    summary_section = locate_summary_section(content_html)
+    summary_bom_rows: list[dict] = []
+    summary_image_urls: list[str] = []
+    summary_text = ""
+    summary_section_html = ""
+    summary_heading = ""
+    if summary_section:
+        summary_text = summary_section.get("text", "")
+        summary_section_html = summary_section.get("html", "")
+        summary_heading = summary_section.get("heading", "")
+        summary_image_urls = summary_section.get("image_urls", []) or []
+        summary_bom_rows = extract_bom_from_prose(summary_text)
+
+    text_bom = _build_bom_table(major, minor, plain)
+    merged_bom = _merge_bom_with_summary(text_bom, summary_bom_rows)
+
+    # 把 summary 里的芯片也并入 chip_modules（去重，summary 优先）
+    summary_chip_rows = [r for r in summary_bom_rows if r.get("component") == "芯片/模组"]
+    enriched_chips = list(chips)
+    existing_chip_keys = {re.sub(r"\s+", "", (c.get("model") or "")).upper() for c in enriched_chips}
+    for r in summary_chip_rows:
+        norm = _normalize_bom_row(r)
+        # chip_modules schema 与 bom_table 略不同：复用同一 dict 即可
+        key = re.sub(r"\s+", "", norm.get("model", "")).upper()
+        # 取 canonical（末尾字母数字 token）做更稳健的去重
+        m = re.search(r"[A-Z]{1,4}\d+[A-Z0-9]*$", norm.get("model", ""), re.I)
+        canon = m.group(0).upper() if m else key
+        if canon and canon not in existing_chip_keys:
+            existing_chip_keys.add(canon)
+            enriched_chips.append(norm)
+
     cost = CostView(
         major_parts=major_names,
-        chip_modules=chips,
-        bom_table=_build_bom_table(major, minor, plain),
+        chip_modules=enriched_chips,
+        bom_table=merged_bom,
         supply_hints=_supply_hints(plain),
         packaging_notes=[s for s in tech.manual_notes[:5] if _is_packaging_sentence(s) or "包装" in s or "配件" in s],
         process_hints=_evidence_list(process_sents, confidence=0.68),
+        summary_image_urls=_summary_images_to_dicts(summary_image_urls, summary_section_html),
+        summary_text=summary_text,
     )
 
     key_images = extract_key_image_urls(content_html)
     internal = _internal_structure(major, minor, plain)
+
+    # 把总结段 PNG 物料表 URL 加入 structure.key_image_urls（priority 高，前置 + 去重）
+    summary_img_dicts = _summary_images_to_dicts(summary_image_urls, summary_section_html)
+    if summary_img_dicts:
+        existing_urls = {k.get("url") for k in key_images}
+        merged_images = list(summary_img_dicts)
+        for k in key_images:
+            if k.get("url") not in {m.get("url") for m in merged_images}:
+                merged_images.append(k)
+        key_images = merged_images
 
     structure = StructureView(
         form_factor=category,

@@ -89,8 +89,121 @@
         "天线",
         "降噪系统"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WINSEMI稳先微WSDF23A",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF23A",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "WINSEMI稳先微WSDF23A"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "稳先微WSDF23A",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "稳先微WSDF23A",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "稳先微WSDF23A"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "WINSEMI稳先微",
+          "model": "WINSEMI稳先微WSDF23A",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF23A",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内置CEL金赛尔3.7V/65mAh软包锂电池，配备WINSEMI稳先微WSDF23A2N2H全集成锂电保护IC。"
+          }
+        }
+      ],
       "bom_table": [
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.85V/720mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.85V/720mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了CEL金赛尔3.85V/720mAh锂电池，设置有电路保护板负责过充电、过放电、过电流等保护；"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "振膜动圈",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "振膜动圈",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载14.2mm复合振膜动圈喇叭，单耳内置两颗MEMS麦克风，采用了WUQI物奇WQ7034MX智能音频主控芯片；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "2",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载14.2mm复合振膜动圈喇叭，单耳内置两颗MEMS麦克风，采用了WUQI物奇WQ7034MX智能音频主控芯片；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "WINSEMI稳先微",
+          "model": "WINSEMI稳先微WSDF23A",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF23A",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内置CEL金赛尔3.7V/65mAh软包锂电池，配备WINSEMI稳先微WSDF23A2N2H全集成锂电保护IC。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/65mAh锂电池",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/65mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内置CEL金赛尔3.7V/65mAh软包锂电池，配备WINSEMI稳先微WSDF23A2N2H全集成锂电保护IC。"
+          }
+        },
         {
           "component": "电池",
           "brand": "",
@@ -258,13 +371,37 @@
             "source_type": "text",
             "source_text": "扬声器结构背面一览，设置有调音孔对应到外壳调音孔。"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WINSEMI稳先微WSDF23A",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF23A",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "WINSEMI稳先微WSDF23A2N2H全集成锂电保护IC，具有过充、过放、过流、短路等电池需要的所有保护功能。"
+          }
         }
       ],
       "supply_hints": [],
       "packaging_notes": [
         "取出包装盒内部所有物品，包括了主机、充电线、挂环和产品说明书，此款为星夜黑配色。"
       ],
-      "process_hints": []
+      "process_hints": [],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/02/2026020310561551.png",
+          "alt": "拆解报告：OpenRock开石X开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上OpenRock开石X开放式耳机的已知物料清单，方便大家查阅。 OpenRock开石X开放式耳机在外观方面，充电盒采用了金属材质，独特的抽屉式座舱设计，拥有着出色的质感和使用便捷性；还设计有硅胶挂绳，标配了金属挂环，外出便携。耳挂式耳机，采用双轴心转轴结构设计，支持上下左右四向旋转，能够提供个性化的舒适稳固佩戴。 内部主要配置方面，充电盒搭载了CEL金赛尔3.85V/720mAh锂电池，设置有电路保护板负责过充电、过放电、过电流等保护；主板上，搭载了SinhMicro昇生微电子SS881A POWER MCU，以及为耳机充电的升压IC和霍尔元件等方案。 耳机内部搭载14.2mm复合振膜动圈喇叭，单耳内置两颗MEMS麦克风，采用了WUQI物奇WQ7034MX智能音频主控芯片；耳机内置CEL金赛尔3.7V/65mAh软包锂电池，配备WINSEMI稳先微WSDF23A2N2H全集成锂电保护IC。"
     },
     "structure": {
       "form_factor": "开放式耳机",
@@ -459,6 +596,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/02/2026020310561551.png",
+          "alt": "拆解报告：OpenRock开石X开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/02/2026020310560457.jpg",
           "alt": "拆解报告：OpenRock开石X开放式耳机-我爱音频网",
@@ -717,5 +861,5 @@
       }
     }
   },
-  "data_completeness": 0.756
+  "data_completeness": 0.804
 }

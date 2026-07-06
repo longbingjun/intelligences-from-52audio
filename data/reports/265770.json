@@ -79,6 +79,34 @@
       "chip_modules": [],
       "bom_table": [
         {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "10mm 动圈单元",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "10mm 动圈单元",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机搭载10mm动圈单元+6mm平板单元，内置一颗MEMS麦克风拾音；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机搭载10mm动圈单元+6mm平板单元，内置一颗MEMS麦克风拾音；"
+          }
+        },
+        {
           "component": "麦克风",
           "brand": "",
           "model": "",
@@ -163,7 +191,17 @@
             "source_text": "取掉主板的塑胶保护，耳机线主板与导线和USB-C母座焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026011206234834.png",
+          "alt": "拆解报告：MOONDROP水月雨RAYS游戏有线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上MOONDROP水月雨RAYS游戏有线耳机的已知物料清单，方便大家查阅。 MOONDROP水月雨RAYS游戏有线耳机在外观方面，采用了与HiFi耳机相同的设计风格，3D打印的音腔，佩戴舒适稳固，个性化十足的配色，彰显其电竞风格。还采用了可换线设计，玩家可以自由DIY耳机头，提升可玩性。 内部主要配置方面，水月雨RAYS游戏有线耳机搭载10mm动圈单元+6mm平板单元，内置一颗MEMS麦克风拾音；主板上采用了SPACETOUCH普林芯驰SPV6040B高性能AI AUDIO芯片，通过RISC-V CPU+uDSP+NPU多核异构架构，丰富的音频算法，为耳机提供出色的音频效果。"
     },
     "structure": {
       "form_factor": "有线耳机",
@@ -305,6 +343,13 @@
       ],
       "key_image_urls": [
         {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026011206234834.png",
+          "alt": "拆解报告：MOONDROP水月雨RAYS游戏有线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
+        {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026011206234753.jpg",
           "alt": "拆解报告：MOONDROP水月雨RAYS游戏有线耳机-我爱音频网",
           "caption": "",
@@ -428,5 +473,5 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.602
+  "data_completeness": 0.612
 }

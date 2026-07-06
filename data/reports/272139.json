@@ -101,8 +101,107 @@
         "降噪系统",
         "天线"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5529",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5529",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5529"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5529",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5529",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "英集芯IP5529"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5529",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5529",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载HJ弘捷新能源3.7V/490mAh锂电子，支持有线、无线两种方式输入电源，采用了苏州赛芯电子科技股份XB5332B锂电池一体化保护芯片，INJOINIC英集芯IP5529电源管理SOC，NuVolta伏达半导体NU1680无线电源接收器，以及霍尔元件等方案，为充电盒的各项功能提供支持。"
+          }
+        }
+      ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5529",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5529",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载HJ弘捷新能源3.7V/490mAh锂电子，支持有线、无线两种方式输入电源，采用了苏州赛芯电子科技股份XB5332B锂电池一体化保护芯片，INJOINIC英集芯IP5529电源管理SOC，NuVolta伏达半导体NU1680无线电源接收器，以及霍尔元件等方案，为充电盒的各项功能提供支持。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "HJ弘捷新能源",
+          "model": "3.7V/490mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/490mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载HJ弘捷新能源3.7V/490mAh锂电子，支持有线、无线两种方式输入电源，采用了苏州赛芯电子科技股份XB5332B锂电池一体化保护芯片，INJOINIC英集芯IP5529电源管理SOC，NuVolta伏达半导体NU1680无线电源接收器，以及霍尔元件等方案，为充电盒的各项功能提供支持。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.85V/46mAh钢壳扣式",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.85V/46mAh钢壳扣式",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机单耳内置三颗瑞勤电子的MEMS麦克风拾音，采用3.85V/46mAh钢壳扣式电池供电，主控芯片为WUQI物奇WQ7035AX-B智能音频SoC，其他还采用了USound UC-P3010音频放大器，HX天易合芯HX9031A电容式距离传感器，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机单耳内置三颗瑞勤电子的MEMS麦克风拾音，采用3.85V/46mAh钢壳扣式电池供电，主控芯片为WUQI物奇WQ7035AX-B智能音频SoC，其他还采用了USound UC-P3010音频放大器，HX天易合芯HX9031A电容式距离传感器，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。"
+          }
+        },
         {
           "component": "充电仓",
           "brand": "",
@@ -256,6 +355,20 @@
             "source_type": "text",
             "source_text": "耳机柄底部设置有充电触点和通话麦克风拾音孔。"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5529",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5529",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5529是一款集成升压转换器、锂电池充电管理、高性能MCU的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。"
+          }
         }
       ],
       "supply_hints": [],
@@ -308,7 +421,17 @@
             "source_text": "内部主要配置方面，充电盒搭载HJ弘捷新能源3.7V/490mAh锂电子，支持有线、无线两种方式输入电源，采用了苏州赛芯电子科技股份XB5332B锂电池一体化保护芯片，INJOINIC英集芯IP5529电源管理SOC，NuVolta伏达半导体NU1680无线电源接收器，以及霍尔元件等方案，为充电盒的各项功能提供支持。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040806592372.png",
+          "alt": "拆解报告：QCY意象MeloBuds N70真无线降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上QCY意象MeloBuds N70真无线降噪耳机的已知核心物料清单，方便大家查阅。 QCY意象MeloBuds N70真无线降噪耳机在外观方面，采用了比较主流的设计风格。鹅卵石状的充电盒，体积小巧便携。柄状的入耳式耳机，佩戴与耳廓贴合舒适稳固；机身背部采用了镜面的盖板装饰，呈现出类金属的光泽，提升了产品质感和辨识度。 内部主要配置方面，充电盒搭载HJ弘捷新能源3.7V/490mAh锂电子，支持有线、无线两种方式输入电源，采用了苏州赛芯电子科技股份XB5332B锂电池一体化保护芯片，INJOINIC英集芯IP5529电源管理SOC，NuVolta伏达半导体NU1680无线电源接收器，以及霍尔元件等方案，为充电盒的各项功能提供支持。 耳机内部搭载同轴双喇叭单元（超瞬态半导体MEMS喇叭+液态硅胶动圈喇叭）分别负责高低音，搭配双导音管结构设计，提供纯净的音质；耳机单耳内置三颗瑞勤电子的MEMS麦克风拾音，采用3.85V/46mAh钢壳扣式电池供电，主控芯片为WUQI物奇WQ7035AX-B智能音频SoC，其他还采用了USound UC-P3010音频放大器，HX天易合芯HX9031A电容式距离传感器，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。"
     },
     "structure": {
       "form_factor": "真无线耳机TWS",
@@ -317,7 +440,7 @@
         "硅胶",
         "液态硅胶"
       ],
-      "ip_rating": "IP5",
+      "ip_rating": null,
       "weight_g": "48.9g",
       "dimensions": [
         "随机标配的4副不同尺寸的硅胶耳塞，耳机上预装一副，总共5种规格，能够满足不同用户的使用需求。",
@@ -427,53 +550,7 @@
           }
         }
       ],
-      "sealing_method": [
-        {
-          "value": "INJOINIC英集芯IP5529是一款集成升压转换器、锂电池充电管理、高性能MCU的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5529是一款集成升压转换器、锂电池充电管理、高性能MCU的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5529是一款集成升压转换器、锂电池充电管理、高性能MCU的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。"
-          }
-        },
-        {
-          "value": "得益于IP5529的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸，降低BOM成本。",
-          "evidence": {
-            "value": "得益于IP5529的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸，降低BOM成本。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "得益于IP5529的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸，降低BOM成本。"
-          }
-        },
-        {
-          "value": "英集芯IP5529采用开关降压充电技术，提供最大1A充电电流，充电效率高至90%。",
-          "evidence": {
-            "value": "英集芯IP5529采用开关降压充电技术，提供最大1A充电电流，充电效率高至90%。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5529采用开关降压充电技术，提供最大1A充电电流，充电效率高至90%。"
-          }
-        },
-        {
-          "value": "IP5529的同步升压系统提供额定800mA输出电流，转换效率高至93%。",
-          "evidence": {
-            "value": "IP5529的同步升压系统提供额定800mA输出电流，转换效率高至93%。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "IP5529的同步升压系统提供额定800mA输出电流，转换效率高至93%。"
-          }
-        },
-        {
-          "value": "英集芯IP5529内置高性能32位MCU，具有丰富的外设资源，通过软件灵活设计，实现多功能的智能充电仓。",
-          "evidence": {
-            "value": "英集芯IP5529内置高性能32位MCU，具有丰富的外设资源，通过软件灵活设计，实现多功能的智能充电仓。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5529内置高性能32位MCU，具有丰富的外设资源，通过软件灵活设计，实现多功能的智能充电仓。"
-          }
-        }
-      ],
+      "sealing_method": [],
       "wear_design": [
         {
           "value": "其他方面，\nQCY意象MeloBuds N70真无线耳机\n支持HearX声音补偿技术，定制专属好声音；支持360°空间音效，提供更具沉浸感的音频效果；搭载混合主动降噪功能，降噪深度可达56dB，降噪频宽5kHz，还支持抗风噪、嘈杂、室内、通勤、通透及自适应6种降噪模式，支持6麦克风通话降噪，为全场景带来舒适的降噪体验。",
@@ -513,6 +590,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040806592372.png",
+          "alt": "拆解报告：QCY意象MeloBuds N70真无线降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040806593122.jpg",
           "alt": "拆解报告：QCY意象MeloBuds N70真无线降噪耳机-我爱音频网",
@@ -555,12 +639,7 @@
         "座舱底部通过螺丝固定主板，与电池导线和无线接收线圈导线焊接，与指示灯排线通过连接器连接。",
         "卸掉螺丝，挑开连接器，取掉主板、电池和无线充电接收线圈。"
       ],
-      "ip_rating_evidence": {
-        "value": "IP5",
-        "confidence": 0.8,
-        "source_type": "text",
-        "source_text": "IP5"
-      },
+      "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "48.9g",
         "confidence": 0.75,
@@ -891,5 +970,5 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.768
+  "data_completeness": 0.786
 }

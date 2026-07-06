@@ -157,13 +157,23 @@
       "packaging_notes": [
         "打开包装盒，取出内部所有物品，包括了防丢器和使用说明书。"
       ],
-      "process_hints": []
+      "process_hints": [],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026031803514344.png",
+          "alt": "拆解报告：Xiaomi小米Tag防丢器-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上Xiaomi小米Tag防丢器的已知物料清单，方便大家查阅。 Xiaomi小米Tag防丢器在外观方面，采用了双环嵌套的椭圆形设计，简约时尚的同时，又可安装挂绳，兼具了美观性和实用性。产品体积也非常的轻薄，搭配钱包、衣服等物品使用，具有很强的隐身性。 内部主要配置方面，小米Tag防丢器内置可更换的传应CR2032纽扣式电池供电，采用高音量蜂鸣器，用于提醒发声；主控芯片为OnMicro昂瑞微OM6629高性能低功耗蓝牙SoC，集成ARM Cortex-M4内核，支持蓝牙5.4，最大发射功率10dBm，睡眠电流低至1.2μA，还具备完善的加密配置，为防丢器带来出色的定位查找体验。"
     },
     "structure": {
       "form_factor": "其他音频设备",
       "earbud_type": "入耳",
       "materials": [],
-      "ip_rating": "IP6",
+      "ip_rating": null,
       "weight_g": "10g",
       "dimensions": [],
       "internal_structure": [
@@ -241,28 +251,16 @@
         }
       ],
       "fastener_type": [],
-      "sealing_method": [
-        {
-          "value": "此外还支持近距离查找发声提示、丢失模式、陌生Tag跟踪提醒等功能，支持IP67防尘抗水，满足各种场景使用需求。",
-          "evidence": {
-            "value": "此外还支持近距离查找发声提示、丢失模式、陌生Tag跟踪提醒等功能，支持IP67防尘抗水，满足各种场景使用需求。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "此外还支持近距离查找发声提示、丢失模式、陌生Tag跟踪提醒等功能，支持IP67防尘抗水，满足各种场景使用需求。"
-          }
-        },
-        {
-          "value": "390天续航、兼容苹果生态、IP67防尘防水、隐私保护。",
-          "evidence": {
-            "value": "390天续航、兼容苹果生态、IP67防尘防水、隐私保护。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "390天续航、兼容苹果生态、IP67防尘防水、隐私保护。"
-          }
-        }
-      ],
+      "sealing_method": [],
       "wear_design": [],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026031803514344.png",
+          "alt": "拆解报告：Xiaomi小米Tag防丢器-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026031803514344.jpg",
           "alt": "拆解报告：Xiaomi小米Tag防丢器-我爱音频网",
@@ -305,12 +303,7 @@
         "中框内侧结构一览，固定有主板单元。",
         "腔体底部结构一览，中间设置有高音量蜂鸣器，外圈贴有NFC天线。"
       ],
-      "ip_rating_evidence": {
-        "value": "IP6",
-        "confidence": 0.8,
-        "source_type": "text",
-        "source_text": "IP6"
-      },
+      "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "10g",
         "confidence": 0.75,
@@ -402,5 +395,5 @@
       }
     }
   },
-  "data_completeness": 0.638
+  "data_completeness": 0.608
 }

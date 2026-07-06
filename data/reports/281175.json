@@ -87,8 +87,233 @@
         "喇叭单元",
         "天线"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5528",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5528",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5528"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5528",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5528",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "英集芯IP5528"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "IP5528",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "IP5528",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "IP5528"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "Bluetrum中科蓝讯BT8912F",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8912F",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "Bluetrum中科蓝讯BT8912F"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "中科蓝讯BT8912F",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "中科蓝讯BT8912F",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "中科蓝讯BT8912F"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "BT8912F",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BT8912F",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "BT8912F"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "Prisemi芯导P14C1S",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Prisemi芯导P14C1S",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "Prisemi芯导P14C1S"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "芯导P14C1S",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "芯导P14C1S",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "芯导P14C1S"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "P14C1S",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "P14C1S",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "P14C1S"
+          }
+        }
+      ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5528",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5528",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了WEL旭航诚3.7V/600mAh锂电池，采用了INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示，支持跟随充电，为产品的长续航提供支持；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Prisemi芯导",
+          "model": "Prisemi芯导P14C1S",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
+          "evidence": {
+            "value": "Prisemi芯导P14C1S",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "还采用了Prisemi芯导P14C1S过压过流保护IC，保护电路安全。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "WEL旭航诚",
+          "model": "3.7V/600mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/600mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了WEL旭航诚3.7V/600mAh锂电池，采用了INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示，支持跟随充电，为产品的长续航提供支持；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Bluetrum中科蓝讯",
+          "model": "Bluetrum中科蓝讯BT8912F",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8912F",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载HJ弘捷新能源3.85V/55mAh软包扣式电池，采用三磁路黄金微晶振膜动圈单元，内置两颗MEMS麦克风，主控芯片为Bluetrum中科蓝讯BT8912F蓝牙音频SoC。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "HJ弘捷新能源",
+          "model": "3.85V/55mAh软包扣式",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.85V/55mAh软包扣式",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载HJ弘捷新能源3.85V/55mAh软包扣式电池，采用三磁路黄金微晶振膜动圈单元，内置两颗MEMS麦克风，主控芯片为Bluetrum中科蓝讯BT8912F蓝牙音频SoC。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "黄金微晶振膜",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "黄金微晶振膜",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载HJ弘捷新能源3.85V/55mAh软包扣式电池，采用三磁路黄金微晶振膜动圈单元，内置两颗MEMS麦克风，主控芯片为Bluetrum中科蓝讯BT8912F蓝牙音频SoC。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "2",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载HJ弘捷新能源3.85V/55mAh软包扣式电池，采用三磁路黄金微晶振膜动圈单元，内置两颗MEMS麦克风，主控芯片为Bluetrum中科蓝讯BT8912F蓝牙音频SoC。"
+          }
+        },
         {
           "component": "充电仓",
           "brand": "",
@@ -228,6 +453,62 @@
             "source_type": "text",
             "source_text": "腔体底部设置充电触点，中间设计L/R左右标识。"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5528",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5528",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，是一款集成MCU、升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "IP5528",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "IP5528",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "得益于IP5528的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸， 降低BOM成本。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "Prisemi芯导P14C1S",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Prisemi芯导P14C1S",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Prisemi芯导P14C1S过压过流保护IC，输入耐压高达32V，过压保护点为固定6V。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "Bluetrum中科蓝讯BT8912F",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8912F",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Bluetrum中科蓝讯BT8912F蓝牙音频SoC，内置带DSP指令的32位高性能RISC-V处理器核心，符合蓝牙V6.0+BR+EDR+BLE规范，支持蓝讯低音增强引擎，支持LDAC音频编解码技术，可通过Hi-Res高清音频认证。"
+          }
         }
       ],
       "supply_hints": [],
@@ -262,15 +543,25 @@
             "source_text": "耳机充电触点内侧特写，与主板焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/07/2026070102232238.png",
+          "alt": "拆解报告：Baseus倍思Bowie MC2开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上Baseus倍思Bowie MC2开放式耳机的已知核心物料清单，方便大家查阅。 Baseus倍思Bowie MC2开放式耳机在外观方面，整体设计延续了上代的简约风格。充电盒体积轻巧，设计圆润；耳夹式耳机通过进一步优化云朵气囊结构和C桥弧度，用以更好的适配不同耳型，提供舒适稳定佩戴。 内部主要配置方面，充电盒搭载了WEL旭航诚3.7V/600mAh锂电池，采用了INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示，支持跟随充电，为产品的长续航提供支持；还采用了Prisemi芯导P14C1S过压过流保护IC，保护电路安全。 耳机内部搭载HJ弘捷新能源3.85V/55mAh软包扣式电池，采用三磁路黄金微晶振膜动圈单元，内置两颗MEMS麦克风，主控芯片为Bluetrum中科蓝讯BT8912F蓝牙音频SoC。"
     },
     "structure": {
       "form_factor": "开放式耳机",
-      "earbud_type": "入耳",
+      "earbud_type": "开放",
       "materials": [
         "硅胶"
       ],
-      "ip_rating": "IP5",
+      "ip_rating": null,
       "weight_g": "52.7g",
       "dimensions": [
         "得益于IP5528的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸， 降低BOM成本。",
@@ -370,53 +661,7 @@
           }
         }
       ],
-      "sealing_method": [
-        {
-          "value": "INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，是一款集成MCU、升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，是一款集成MCU、升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，是一款集成MCU、升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。"
-          }
-        },
-        {
-          "value": "得益于IP5528的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸， 降低BOM成本。",
-          "evidence": {
-            "value": "得益于IP5528的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸， 降低BOM成本。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "得益于IP5528的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸， 降低BOM成本。"
-          }
-        },
-        {
-          "value": "英集芯IP5528支持跟随充电功能，可实现充电电压3.2~5.5V范围10mV精细步进调整，能够有效提升15%~20%充电盒电池到耳机电池的转换效率，进而提升15%~20%的TWS耳机综合续航时间。",
-          "evidence": {
-            "value": "英集芯IP5528支持跟随充电功能，可实现充电电压3.2~5.5V范围10mV精细步进调整，能够有效提升15%~20%充电盒电池到耳机电池的转换效率，进而提升15%~20%的TWS耳机综合续航时间。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5528支持跟随充电功能，可实现充电电压3.2~5.5V范围10mV精细步进调整，能够有效提升15%~20%充电盒电池到耳机电池的转换效率，进而提升15%~20%的TWS耳机综合续航时间。"
-          }
-        },
-        {
-          "value": "英集芯IP5528在应用上，只需一个电感实现升降压功能，支持低成本电感和电容。",
-          "evidence": {
-            "value": "英集芯IP5528在应用上，只需一个电感实现升降压功能，支持低成本电感和电容。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5528在应用上，只需一个电感实现升降压功能，支持低成本电感和电容。"
-          }
-        },
-        {
-          "value": "IP5528的同步升压系统提供额定400mA输出电流，转换效率高至93%。",
-          "evidence": {
-            "value": "IP5528的同步升压系统提供额定400mA输出电流，转换效率高至93%。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "IP5528的同步升压系统提供额定400mA输出电流，转换效率高至93%。"
-          }
-        }
-      ],
+      "sealing_method": [],
       "wear_design": [
         {
           "value": "Bowie MC系列是倍思旗下耳夹式耳机产品，凭借轻巧的外观设计，专利云朵气囊结构，为用户提供持久舒适的佩戴体验。",
@@ -456,6 +701,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/07/2026070102232238.png",
+          "alt": "拆解报告：Baseus倍思Bowie MC2开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/07/2026070102231883.jpg",
           "alt": "拆解报告：Baseus倍思Bowie MC2开放式耳机-我爱音频网",
@@ -498,12 +750,7 @@
         "卸掉螺丝，挑开连接器，取掉主板和电池。",
         "腔体侧边的麦克风拾音孔特写。"
       ],
-      "ip_rating_evidence": {
-        "value": "IP5",
-        "confidence": 0.8,
-        "source_type": "text",
-        "source_text": "IP5"
-      },
+      "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "52.7g",
         "confidence": 0.75,
@@ -873,5 +1120,5 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.838
+  "data_completeness": 0.858
 }

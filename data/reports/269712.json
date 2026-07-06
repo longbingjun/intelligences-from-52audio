@@ -54,8 +54,65 @@
         "电池",
         "主板/PCBA"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WINSEMI稳先微WSDF23C",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF23C",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "WINSEMI稳先微WSDF23C"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "稳先微WSDF23C",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "稳先微WSDF23C",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "稳先微WSDF23C"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "WINSEMI稳先微",
+          "model": "WINSEMI稳先微WSDF23C",
+          "qty_hint": "1",
+          "side": "",
+          "role": "无线充电IC",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF23C",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电底座内置3.85V/0.192Wh软包扣式电池，主板上搭载了OmniVision豪威集团（韦尔半导体）ESD5641D TVS保护管，ST意法半导体STM32G070RB微控制器和ST25R3917 NFC无线充电芯片，以及WINSEMI稳先微WSDF23C2N2H锂电保护IC等方案。"
+          }
+        }
+      ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "WINSEMI稳先微",
+          "model": "WINSEMI稳先微WSDF23C",
+          "qty_hint": "1",
+          "side": "",
+          "role": "无线充电IC",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF23C",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电底座内置3.85V/0.192Wh软包扣式电池，主板上搭载了OmniVision豪威集团（韦尔半导体）ESD5641D TVS保护管，ST意法半导体STM32G070RB微控制器和ST25R3917 NFC无线充电芯片，以及WINSEMI稳先微WSDF23C2N2H锂电保护IC等方案。"
+          }
+        },
         {
           "component": "电池",
           "brand": "",
@@ -127,7 +184,17 @@
             "source_text": "充电底座内部主要电路一览，电池导线和无线充电发射线圈排线与主板焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026031103274712.png",
+          "alt": "拆解报告：华米跃我Amazfit HELIO RING智能戒指-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、智研所总结 最后附上华米跃我Amazfit HELIO RING智能戒指的已知物料清单，方便大家查阅。 华米跃我Amazfit HELIO RING智能戒指外观设计轻薄，外圈采用5级钛合金材质，通过点阵装饰，质感出色，耐磨耐腐蚀；内圈环形布置元器件，通过树脂包裹，佩戴光滑亲肤。此外还配备有无线充电底座，提供便捷充电。 内部主要配置方面，智能戒指内置GREPOW格瑞普3.7V/16.5mAh电池，搭载了PPG心率（1个双色LED+2个光电探测器）、EDA皮电传感器和温度传感器；采用了Ambiq Micro公司的Apollo4 Blue Lite SoC，ST意法半导体LSM6DSOWTR 6轴传感器，ICM创芯微CM1126B-GAC锂电池保护IC等方案。 充电底座内置3.85V/0.192Wh软包扣式电池，主板上搭载了OmniVision豪威集团（韦尔半导体）ESD5641D TVS保护管，ST意法半导体STM32G070RB微控制器和ST25R3917 NFC无线充电芯片，以及WINSEMI稳先微WSDF23C2N2H锂电保护IC等方案。"
     },
     "structure": {
       "form_factor": "其他音频设备",
@@ -275,6 +342,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026031103274712.png",
+          "alt": "拆解报告：华米跃我Amazfit HELIO RING智能戒指-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026031103274360.jpg",
           "alt": "拆解报告：华米跃我Amazfit HELIO RING智能戒指-我爱音频网",
@@ -539,5 +613,5 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.584
+  "data_completeness": 0.64
 }

@@ -84,6 +84,48 @@
       ],
       "bom_table": [
         {
+          "component": "芯片/模组",
+          "brand": "JL杰理",
+          "model": "JL7006",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL7006",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机搭载3.7V/150mAh锂电池，采用跑道型震动发生模组，内置一颗MEMS麦克风，主控芯片为JL杰理科技JL7006F蓝牙音频SoC，其他还采用了LPS微源半导体LP5305A过压过流保护IC等芯片。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/150mAh锂电池",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/150mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机搭载3.7V/150mAh锂电池，采用跑道型震动发生模组，内置一颗MEMS麦克风，主控芯片为JL杰理科技JL7006F蓝牙音频SoC，其他还采用了LPS微源半导体LP5305A过压过流保护IC等芯片。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机搭载3.7V/150mAh锂电池，采用跑道型震动发生模组，内置一颗MEMS麦克风，主控芯片为JL杰理科技JL7006F蓝牙音频SoC，其他还采用了LPS微源半导体LP5305A过压过流保护IC等芯片。"
+          }
+        },
+        {
           "component": "电池",
           "brand": "",
           "model": "",
@@ -180,20 +222,6 @@
             "source_type": "text",
             "source_text": "JL杰理科技JL7006F蓝牙音频SoC，用于无线连接和音频数据处理。"
           }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "JL7006",
-          "qty_hint": "1",
-          "side": "耳机",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "JL7006",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "内部主要配置方面，优乐生活Me-300S+骨传导耳机搭载3.7V/150mAh锂电池，采用跑道型震动发生模组，内置一颗MEMS麦克风，主控芯片为JL杰理科技JL7006F蓝牙音频SoC，其他还采用了LPS微源半导体LP5305A过压过流保护IC等芯片。"
-          }
         }
       ],
       "supply_hints": [],
@@ -219,17 +247,27 @@
             "source_text": "腔体内部设置有主板单元，与导线和排线焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040806225684.png",
+          "alt": "拆解报告：优乐生活Me-300S+骨传导耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上优乐生活Me-300S+骨传导耳机的已知核心物料清单，方便大家查阅。 优乐生活Me-300S+骨传导耳机在外观设计方面，具备22.3g的轻量化机身，搭配亲肤硅胶材质，佩戴轻盈舒适。同时，耳机线采用高强度钛合金记忆材质，摘下自动盘绕收纳成圆形，方便携带。耳机采用了“小贝壳”造型，简约时尚；较大的物理按键，便于运动佩戴盲操作。 内部主要配置方面，优乐生活Me-300S+骨传导耳机搭载3.7V/150mAh锂电池，采用跑道型震动发生模组，内置一颗MEMS麦克风，主控芯片为JL杰理科技JL7006F蓝牙音频SoC，其他还采用了LPS微源半导体LP5305A过压过流保护IC等芯片。"
     },
     "structure": {
       "form_factor": "骨传导耳机",
-      "earbud_type": "入耳",
+      "earbud_type": "其他",
       "materials": [
         "硅胶",
         "钛合金",
         "液态硅胶"
       ],
-      "ip_rating": "IP6",
+      "ip_rating": null,
       "weight_g": "22.3g",
       "dimensions": [
         "经我爱音频网实测，震动发声模组长度约为17.66mm。",
@@ -310,17 +348,7 @@
         }
       ],
       "fastener_type": [],
-      "sealing_method": [
-        {
-          "value": "可折叠易收纳、舒适佩戴、IP66级防尘防水、长续航、12个月质保；产品型号：Me-300S，电源输入：DC 5V-500mA，产品功率：0.3W x 2，电池容量：150mAh，蓝牙版本：BT5.3，通讯距离：约10米，频响：50Hz-18KHz，优乐生活（深圳）科技有限公司。",
-          "evidence": {
-            "value": "可折叠易收纳、舒适佩戴、IP66级防尘防水、长续航、12个月质保；产品型号：Me-300S，电源输入：DC 5V-500mA，产品功率：0.3W x 2，电池容量：150mAh，蓝牙版本：BT5.3，通讯距离：约10米，频响：50Hz-18KHz，优乐生活（深圳）科技有限公司。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "可折叠易收纳、舒适佩戴、IP66级防尘防水、长续航、12个月质保；产品型号：Me-300S，电源输入：DC 5V-500mA，产品功率：0.3W x 2，电池容量：150mAh，蓝牙版本：BT5.3，通讯距离：约10米，频响：50Hz-18KHz，优乐生活（深圳）科技有限公司。"
-          }
-        }
-      ],
+      "sealing_method": [],
       "wear_design": [
         {
           "value": "骨传导耳机是目前蓝牙音频市场中比较重要的一个品类，其采用无需入耳的佩戴结构，通过振动颅骨直接传递声波，不堵塞耳道，能在聆听音乐的同时清晰感知周围环境音，兼顾运动安全与日常使用舒适度。",
@@ -360,6 +388,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040806225684.png",
+          "alt": "拆解报告：优乐生活Me-300S+骨传导耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040806225546.jpg",
           "alt": "拆解报告：优乐生活Me-300S+骨传导耳机-我爱音频网",
@@ -402,12 +437,7 @@
         "取出主板，下方设置有海绵垫与震动发声模组隔离。",
         "耳机内侧的麦克风拾音孔特写。"
       ],
-      "ip_rating_evidence": {
-        "value": "IP6",
-        "confidence": 0.8,
-        "source_type": "text",
-        "source_text": "IP6"
-      },
+      "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "22.3g",
         "confidence": 0.75,
@@ -516,5 +546,5 @@
       }
     }
   },
-  "data_completeness": 0.676
+  "data_completeness": 0.616
 }

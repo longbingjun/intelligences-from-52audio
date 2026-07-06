@@ -88,8 +88,121 @@
         "充电仓",
         "天线"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "XHSC小华半导体HC32L196KCTA",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "XHSC小华半导体HC32L196KCTA",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "XHSC小华半导体HC32L196KCTA"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "小华半导体HC32L196KCTA",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "小华半导体HC32L196KCTA",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "小华半导体HC32L196KCTA"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "HC32L196KCTA",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "HC32L196KCTA",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "HC32L196KCTA"
+          }
+        }
+      ],
       "bom_table": [
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.87V/170mAh锂电池",
+          "qty_hint": "1",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "3.87V/170mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内部主要配置方面，接收器内置豪鹏科技3.87V/170mAh锂电池，配备ICM创芯微CM1113-DCC一体化锂电池保护IC；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.87V/114mAh锂电池",
+          "qty_hint": "1",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "3.87V/114mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "发射器内置全指向驻极体麦克风拾音，搭载VDL紫建电子3.87V/114mAh锂电池供电，采用了Actions炬芯ATS3031L系列无线音频SoC，搭配接收器内部的ATS3031系列芯片，实现音频信号的采集、处理和无线传输。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "三、我爱音频网总结 最后附上大疆DJI Mic Mini 2无线麦克风的已知核心器件清单，方便大家查阅。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "XHSC小华半导体",
+          "model": "XHSC小华半导体HC32L196KCTA",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "XHSC小华半导体HC32L196KCTA",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，搭载了Southchip南芯SC89601S充电IC，XHSC小华半导体HC32L196KCTA微控制器，接口均设置有YJ杨杰YJQ1216A PMOS管保护。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.87V/1950mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.87V/1950mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内部搭载豪鹏科技3.87V/1950mAh锂电池组，采用iCM创芯微CM1003-BFD锂电池保护IC，负责电池的过充电、过放电、过电流等保护。"
+          }
+        },
         {
           "component": "麦克风",
           "brand": "",
@@ -215,6 +328,20 @@
             "source_type": "text",
             "source_text": "DJI Mic Mini 2发射器正面外观一览，透明外壳设计，体积非常的小巧轻盈。"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "XHSC小华半导体HC32L196KCTA",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "XHSC小华半导体HC32L196KCTA",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "XHSC小华半导体HC32L196KCTA微控制器。"
+          }
         }
       ],
       "supply_hints": [],
@@ -267,7 +394,17 @@
             "source_text": "内部主要配置方面，接收器内置豪鹏科技3.87V/170mAh锂电池，配备ICM创芯微CM1113-DCC一体化锂电池保护IC；无线音频方案采用了Actions炬芯科技ATS3031L系列高集成度单芯片SoC，其他还搭载了TI德州仪器TCA9535 I/O扩展器，YJ杨杰YJQ1216A PMOS管等。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026060208040969.png",
+          "alt": "拆解报告：大疆DJI Mic Mini 2无线麦克风-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上大疆DJI Mic Mini 2无线麦克风的已知核心器件清单，方便大家查阅。 外观设计是大疆DJI Mic Mini 2无线麦克风此次升级的一大亮点。其发射器采用了全新的透明外壳，并创新性的加入了可拆卸磁吸前盖，能够更好的适配不同穿搭和场景需求；还采用了磁吸背夹，可拆卸、可旋转，佩戴更加自由灵活。接收器则是延续了上代的模块化接口设计，能够轻松适配手机、平板、相机等不同录制设备。 内部主要配置方面，接收器内置豪鹏科技3.87V/170mAh锂电池，配备ICM创芯微CM1113-DCC一体化锂电池保护IC；无线音频方案采用了Actions炬芯科技ATS3031L系列高集成度单芯片SoC，其他还搭载了TI德州仪器TCA9535 I/O扩展器，YJ杨杰YJQ1216A PMOS管等。 发射器内置全指向驻极体麦克风拾音，搭载VDL紫建电子3.87V/114mAh锂电池供电，采用了Actions炬芯ATS3031L系列无线音频SoC，搭配接收器内部的ATS3031系列芯片，实现音频信号的采集、处理和无线传输。 充电盒内部搭载豪鹏科技3.87V/1950mAh锂电池组，采用iCM创芯微CM1003-BFD锂电池保护IC，负责电池的过充电、过放电、过电流等保护。主板上，搭载了Southchip南芯SC89601S充电IC，XHSC小华半导体HC32L196KCTA微控制器，接口均设置有YJ杨杰YJQ1216A PMOS管保护。"
     },
     "structure": {
       "form_factor": "音箱及其他音频设备",
@@ -414,6 +551,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026060208040969.png",
+          "alt": "拆解报告：大疆DJI Mic Mini 2无线麦克风-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026051409560921.jpg",
           "alt": "拆解报告：大疆DJI Mic Mini 2无线麦克风-我爱音频网",
@@ -704,5 +848,5 @@
       }
     }
   },
-  "data_completeness": 0.74
+  "data_completeness": 0.788
 }

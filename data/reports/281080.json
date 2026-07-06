@@ -116,6 +116,62 @@
       ],
       "bom_table": [
         {
+          "component": "芯片/模组",
+          "brand": "JL杰理",
+          "model": "JL7083",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL7083",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "左耳主板上，搭载JL杰理科技JL7083F6蓝牙音频SoC，用于无线连接和音频数据处理；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/500mAh锂电池",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/500mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "右耳设置亿等新能源3.7V/500mAh锂电池组，为整机供电。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "40mm 动圈单元",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "40mm 动圈单元",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "内部结构配置方面，双耳均搭载40mm动圈单元，采用大容积声学后腔设计，用于提升实际低频下潜与能量密度；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "双耳共内置5颗驻极体麦克风，用于主动降噪、通话降噪、语音通话等功能拾音；"
+          }
+        },
+        {
           "component": "麦克风",
           "brand": "",
           "model": "",
@@ -279,11 +335,21 @@
             "source_text": "保护板背面与电池正负极镍片焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/07/2026070102092695.png",
+          "alt": "拆解报告：荣耀亲选Codelear 2头戴式降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上荣耀亲选Codelear 2头戴式降噪耳机的已知物料清单，方便大家查阅。 荣耀亲选Codelear 2头戴式降噪耳机整体设计简约，结构调节功能完备。耳壳支持多角度自适应旋转，头梁支持伸缩适配，搭配人体工学斜置耳罩与柔软头垫，能够适配不同头型，带来贴合舒适的个性化佩戴体验。此外，耳机还支持折叠功能，便于外出携带；采用荔枝皮纹理装饰，丰富了产品层次感和辨识度。 内部结构配置方面，双耳均搭载40mm动圈单元，采用大容积声学后腔设计，用于提升实际低频下潜与能量密度；双耳共内置5颗驻极体麦克风，用于主动降噪、通话降噪、语音通话等功能拾音；右耳设置亿等新能源3.7V/500mAh锂电池组，为整机供电。 左耳主板上，搭载JL杰理科技JL7083F6蓝牙音频SoC，用于无线连接和音频数据处理；采用TDK ICM-42607-C六轴传感器，用于动态空间音频采集头部运动数据；采用Chipower芯力微CE3222线性充电器，负责内置电池充电；其他还采用了Everest顺芯ES7241D音频ADC，GrandMicro有容微电子ASW550隔离开关、WAYON维安WP1107过压过流保护IC等方案。"
     },
     "structure": {
       "form_factor": "头戴式耳机",
-      "earbud_type": "入耳",
+      "earbud_type": "头戴",
       "materials": [],
       "ip_rating": null,
       "weight_g": "269.8g",
@@ -453,6 +519,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/07/2026070102092695.png",
+          "alt": "拆解报告：荣耀亲选Codelear 2头戴式降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/07/2026070102092438.jpg",
           "alt": "拆解报告：荣耀亲选Codelear 2头戴式降噪耳机-我爱音频网",

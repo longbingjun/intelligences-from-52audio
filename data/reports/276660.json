@@ -111,9 +111,163 @@
             "source_type": "text",
             "source_text": "BES2610WD"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "晶晨A113X",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "晶晨A113X",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "晶晨A113X"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "A113X",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "A113X",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "A113X"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AIC8800",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AIC8800",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "AIC8800"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "爱科微AIC8800",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "爱科微AIC8800",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "爱科微AIC8800"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "昆腾KT1213",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "昆腾KT1213",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "昆腾KT1213"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "KT1213",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "KT1213",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "KT1213"
+          }
         }
       ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "晶晨",
+          "model": "晶晨A113X",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "晶晨A113X",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内置四颗MEMS麦克风阵列，搭配Amlogic晶晨A113X2智能音频芯片，实现精准的收音与智能语音交互。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "BES恒玄科技",
+          "model": "BES2610WD",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES2610WD",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "无线通讯方面，小米Sound 2 Max智能音箱搭载四组无线方案，包括KTMicro昆腾KT1213无线音频芯片，AICSEMI爱科微AIC8800D40双频WiFi6与蓝牙5.4 SoC+Kxcomtech康希通信KCT8526H射频芯片，Telink泰凌微电子TLSR8236低功耗蓝牙芯片+Kxcomtech康希通信KCT8206L射频芯片，BES恒玄科技BES2610WD Wi-Fi 6与蓝牙5.4无线连接芯片+Kxcomtech康希通信KCT8526H射频芯片，分别用于音频传输、组网通讯、Mess等无线功能。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "爱科微",
+          "model": "AIC8800",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AIC8800",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "无线通讯方面，小米Sound 2 Max智能音箱搭载四组无线方案，包括KTMicro昆腾KT1213无线音频芯片，AICSEMI爱科微AIC8800D40双频WiFi6与蓝牙5.4 SoC+Kxcomtech康希通信KCT8526H射频芯片，Telink泰凌微电子TLSR8236低功耗蓝牙芯片+Kxcomtech康希通信KCT8206L射频芯片，BES恒玄科技BES2610WD Wi-Fi 6与蓝牙5.4无线连接芯片+Kxcomtech康希通信KCT8526H射频芯片，分别用于音频传输、组网通讯、Mess等无线功能。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "昆腾",
+          "model": "昆腾KT1213",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "昆腾KT1213",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "无线通讯方面，小米Sound 2 Max智能音箱搭载四组无线方案，包括KTMicro昆腾KT1213无线音频芯片，AICSEMI爱科微AIC8800D40双频WiFi6与蓝牙5.4 SoC+Kxcomtech康希通信KCT8526H射频芯片，Telink泰凌微电子TLSR8236低功耗蓝牙芯片+Kxcomtech康希通信KCT8206L射频芯片，BES恒玄科技BES2610WD Wi-Fi 6与蓝牙5.4无线连接芯片+Kxcomtech康希通信KCT8526H射频芯片，分别用于音频传输、组网通讯、Mess等无线功能。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "内置四颗MEMS麦克风阵列，搭配Amlogic晶晨A113X2智能音频芯片，实现精准的收音与智能语音交互。"
+          }
+        },
         {
           "component": "主板/PCBA",
           "brand": "",
@@ -229,29 +383,15 @@
         {
           "component": "芯片/模组",
           "brand": "",
-          "model": "BES2610WD",
+          "model": "昆腾KT1213",
           "qty_hint": "1",
-          "side": "",
+          "side": "耳机",
           "role": "主控/蓝牙",
           "evidence": {
-            "value": "BES2610WD",
+            "value": "昆腾KT1213",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "BES恒玄科技BES2610WD无线连接芯片，集成Wi-Fi 6子系统和蓝牙5.4子系统，提供高标准的高吞吐量无线连接和经济高效的长距离传输。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "BES2610WD",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "BES2610WD",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "无线通讯方面，小米Sound 2 Max智能音箱搭载四组无线方案，包括KTMicro昆腾KT1213无线音频芯片，AICSEMI爱科微AIC8800D40双频WiFi6与蓝牙5.4 SoC+Kxcomtech康希通信KCT8526H射频芯片，Telink泰凌微电子TLSR8236低功耗蓝牙芯片+Kxcomtech康希通信KCT8206L射频芯片，BES恒玄科技BES2610WD Wi-Fi 6与蓝牙5.4无线连接芯片+Kxcomtech康希通信KCT8526H射频芯片，分别用于音频传输、组网通讯、Mess等无线功能。"
+            "source_text": "KTMicro昆腾KT1213无线音频芯片，集成高性能双精度浮点DSP，双模蓝牙BT5.4/2.4GHz射频收发系统，多路DCDC和LDO，振荡电路和PLL，2路高品质音频ADC和PGA，2路高品音频DAC和2路甲乙类耳机功率放器。"
           }
         }
       ],
@@ -259,7 +399,17 @@
       "packaging_notes": [
         "包装盒内部清单包括音箱、电源适配器和产品使用手册。"
       ],
-      "process_hints": []
+      "process_hints": [],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026052101444586.png",
+          "alt": "拆解报告：Xiaomi小米Sound 2 Max智能音箱-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上Xiaomi小米Sound 2 Max智能音箱的已知物料清单，方便大家查阅。 小米Sound 2 Max智能音箱采用极简包豪斯美学设计，以一体成型金属机身搭配细腻工艺，质感沉稳高级，线条利落简约，能自然融入各类家居风格，彰显雅致格调。机身内嵌灵动条形氛围灯，能够在播放音乐和语音交互时闪烁，提升氛围感和灵动感。 内部主要配置方面，小米Sound 2 Max智能音箱搭载了双4英寸、30W低频扬声器，以及同轴设计的1.5英寸、10W高音单元和4英寸、30W中音单元，配备三颗ESMT晶豪AD82128B数字音频放大器分别驱动，提供高保真音质输出；内置四颗MEMS麦克风阵列，搭配Amlogic晶晨A113X2智能音频芯片，实现精准的收音与智能语音交互。 无线通讯方面，小米Sound 2 Max智能音箱搭载四组无线方案，包括KTMicro昆腾KT1213无线音频芯片，AICSEMI爱科微AIC8800D40双频WiFi6与蓝牙5.4 SoC+Kxcomtech康希通信KCT8526H射频芯片，Telink泰凌微电子TLSR8236低功耗蓝牙芯片+Kxcomtech康希通信KCT8206L射频芯片，BES恒玄科技BES2610WD Wi-Fi 6与蓝牙5.4无线连接芯片+Kxcomtech康希通信KCT8526H射频芯片，分别用于音频传输、组网通讯、Mess等无线功能。 其他方面，小米Sound 2 Max智能音箱还采用了JuXuan炬玄智能JXR260 RTC实时时钟芯片，OmniVision豪威集团ESD56161D30 TVS保护管，Winbond华邦W634GU6RB-11 DDR3L SDRAM存储器，KOWIN康盈 KAS04111 eMMC5.1存储器，还搭载了大量Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感、SWPA系列绕线功率电感和MWSA系列模压功率电感。"
     },
     "structure": {
       "form_factor": "音箱及其他音频设备",
@@ -399,6 +549,13 @@
       "sealing_method": [],
       "wear_design": [],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026052101444586.png",
+          "alt": "拆解报告：Xiaomi小米Sound 2 Max智能音箱-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026052101444199.jpg",
           "alt": "拆解报告：Xiaomi小米Sound 2 Max智能音箱-我爱音频网",
@@ -556,5 +713,5 @@
       }
     }
   },
-  "data_completeness": 0.722
+  "data_completeness": 0.756
 }

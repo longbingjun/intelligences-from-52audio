@@ -117,9 +117,135 @@
             "source_type": "text",
             "source_text": "JL7016"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "Prisemi芯导P14C1S",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Prisemi芯导P14C1S",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "Prisemi芯导P14C1S"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "芯导P14C1S",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "芯导P14C1S",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "芯导P14C1S"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "P14C1S",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "P14C1S",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "P14C1S"
+          }
         }
       ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "Prisemi芯导",
+          "model": "Prisemi芯导P14C1S",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "Prisemi芯导P14C1S",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "左耳内置WEL旭航诚3.7V/400mAh锂电池组和电源输入小板，采用了ASC标源微ASC4056线性充电器，Prisemi芯导P14C1S过压过流保护IC。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "JL杰理",
+          "model": "JL7018",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL7018",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "右耳内置驻极体麦克风和主板单元，采用了JL杰理科技JL7018M8蓝牙音频SoC，LPS微源半导体LP3992-33 LDO线性稳压器。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "JL杰理",
+          "model": "JL7016",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL7016",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "2.4G适配器内部采用JL杰理科技JL7016M8的蓝牙音频SoC，SILEI矽磊SW8120Q射频前端模块，用于与耳机实现超低延迟的2.4G无线音频传输。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "WEL旭航诚",
+          "model": "3.7V/400mAh锂电池",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/400mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "左耳内置WEL旭航诚3.7V/400mAh锂电池组和电源输入小板，采用了ASC标源微ASC4056线性充电器，Prisemi芯导P14C1S过压过流保护IC。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "振膜动圈",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "振膜动圈",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机搭载50mm生物复合振膜动圈喇叭。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "右耳内置驻极体麦克风和主板单元，采用了JL杰理科技JL7018M8蓝牙音频SoC，LPS微源半导体LP3992-33 LDO线性稳压器。"
+          }
+        },
         {
           "component": "麦克风",
           "brand": "",
@@ -249,6 +375,20 @@
         {
           "component": "芯片/模组",
           "brand": "",
+          "model": "Prisemi芯导P14C1S",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Prisemi芯导P14C1S",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Prisemi芯导P14C1S过压过流保护IC，输入耐压高达32V，过压保护点为固定6V。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
           "model": "JL7018",
           "qty_hint": "1",
           "side": "",
@@ -263,15 +403,15 @@
         {
           "component": "芯片/模组",
           "brand": "",
-          "model": "JL7016",
+          "model": "Prisemi芯导P14C1S",
           "qty_hint": "1",
-          "side": "耳机",
+          "side": "左耳",
           "role": "主控/蓝牙",
           "evidence": {
-            "value": "JL7016",
+            "value": "Prisemi芯导P14C1S",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "JL杰理科技JL7016M8的蓝牙音频SoC，用于与耳机实现超低延迟的2.4G无线音频传输。"
+            "source_text": "左耳内置WEL旭航诚3.7V/400mAh锂电池组和电源输入小板，采用了ASC标源微ASC4056线性充电器，Prisemi芯导P14C1S过压过流保护IC。"
           }
         },
         {
@@ -287,20 +427,6 @@
             "source_type": "text",
             "source_text": "右耳内置驻极体麦克风和主板单元，采用了JL杰理科技JL7018M8蓝牙音频SoC，LPS微源半导体LP3992-33 LDO线性稳压器。"
           }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "JL7016",
-          "qty_hint": "1",
-          "side": "耳机",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "JL7016",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "2.4G适配器内部采用JL杰理科技JL7016M8的蓝牙音频SoC，SILEI矽磊SW8120Q射频前端模块，用于与耳机实现超低延迟的2.4G无线音频传输。"
-          }
         }
       ],
       "supply_hints": [],
@@ -315,7 +441,17 @@
             "source_text": "腔体内部结构一览，设置主板单元，与导线焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026052110480481.png",
+          "alt": "拆解报告：CHERRY樱桃HW2.2头戴式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上CHERRY樱桃HW2.2头戴式耳机的已知物料清单，方便大家查阅。 CHERRY樱桃HW2.2头戴式耳机在外观方面，设计轻巧，简约时尚，品牌LOGO指示灯，极具质感和辨识度。同时，耳机具备完整的结构功能，头梁支持伸缩调节，耳机可四向自适应旋转，搭配柔软亲肤的耳罩和头垫，轻盈的机身，佩戴非常舒适。还支持折叠功能，便于外出携带。 内部主要配置方面，耳机搭载50mm生物复合振膜动圈喇叭。左耳内置WEL旭航诚3.7V/400mAh锂电池组和电源输入小板，采用了ASC标源微ASC4056线性充电器，Prisemi芯导P14C1S过压过流保护IC。 右耳内置驻极体麦克风和主板单元，采用了JL杰理科技JL7018M8蓝牙音频SoC，LPS微源半导体LP3992-33 LDO线性稳压器。2.4G适配器内部采用JL杰理科技JL7016M8的蓝牙音频SoC，SILEI矽磊SW8120Q射频前端模块，用于与耳机实现超低延迟的2.4G无线音频传输。"
     },
     "structure": {
       "form_factor": "头戴式耳机",
@@ -483,6 +619,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026052110480481.png",
+          "alt": "拆解报告：CHERRY樱桃HW2.2头戴式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026052110475987.jpg",
           "alt": "拆解报告：CHERRY樱桃HW2.2头戴式耳机-我爱音频网",
@@ -707,5 +850,5 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.714
+  "data_completeness": 0.732
 }

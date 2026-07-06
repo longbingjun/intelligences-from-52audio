@@ -102,9 +102,121 @@
             "source_type": "text",
             "source_text": "AB5656"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5513",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5513"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5513",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5513",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "英集芯IP5513"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5513",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载JYZ金宇宙3.7V/400mAh锂电池，采用了INJOINIC英集芯IP5513充电仓管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等多功能，提供了完整的电源解决方案。"
+          }
         }
       ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5513",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载JYZ金宇宙3.7V/400mAh锂电池，采用了INJOINIC英集芯IP5513充电仓管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等多功能，提供了完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/400mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/400mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载JYZ金宇宙3.7V/400mAh锂电池，采用了INJOINIC英集芯IP5513充电仓管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等多功能，提供了完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB5656",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB5656",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载15mm x 11mm跑道型声音单元，单耳内置一颗MEMS麦克风拾音（双耳共2颗），主控芯片为Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，内置软包电池容量3.7V/55mAh。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/55mAh",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/55mAh",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载15mm x 11mm跑道型声音单元，单耳内置一颗MEMS麦克风拾音（双耳共2颗），主控芯片为Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，内置软包电池容量3.7V/55mAh。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载15mm x 11mm跑道型声音单元，单耳内置一颗MEMS麦克风拾音（双耳共2颗），主控芯片为Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，内置软包电池容量3.7V/55mAh。"
+          }
+        },
         {
           "component": "充电仓",
           "brand": "",
@@ -262,6 +374,34 @@
         {
           "component": "芯片/模组",
           "brand": "",
+          "model": "INJOINIC英集芯IP5513",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5513",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5513",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
           "model": "AB5656",
           "qty_hint": "1",
           "side": "",
@@ -271,20 +411,6 @@
             "confidence": 0.78,
             "source_type": "text",
             "source_text": "Bluetrum中科蓝讯AB5656C2蓝牙音频SoC\n，采用带DSP指令的高性能32位RISC-V处理器核心，符合蓝牙6.0规范，具有16bit单声道DAC和16bit单通道ADC，支持单声道MIC放大器输入，支持低功耗触摸键，内置看门狗，内置PMU，如充电器/降压/LDO等。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "AB5656",
-          "qty_hint": "1",
-          "side": "耳机",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "AB5656",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "耳机内部搭载15mm x 11mm跑道型声音单元，单耳内置一颗MEMS麦克风拾音（双耳共2颗），主控芯片为Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，内置软包电池容量3.7V/55mAh。"
           }
         }
       ],
@@ -311,7 +437,17 @@
             "source_text": "掀开主板，内侧与导线焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/02/2026020408135830.png",
+          "alt": "拆解报告：NANK南卡OE Mix开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上NANK南卡OE Mix开放式耳机的已知物料清单，方便大家查阅。 NANK南卡OE Mix开放式耳机在外观方面，充电盒采用了扁平的椭圆形设计，亲肤质感，体积小巧便携；耳机采用了耳挂式设计，耳挂纤细且通过液态硅胶材质包裹，搭配56:44前后重量分布，提供了轻盈无感的舒适佩戴体验。 内部主要配置方面，充电盒搭载JYZ金宇宙3.7V/400mAh锂电池，采用了INJOINIC英集芯IP5513充电仓管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等多功能，提供了完整的电源解决方案。其他还搭载了Nsiway纳芯威NS2201B过压过流保护IC、霍尔元件等方案。 耳机内部搭载15mm x 11mm跑道型声音单元，单耳内置一颗MEMS麦克风拾音（双耳共2颗），主控芯片为Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，内置软包电池容量3.7V/55mAh。"
     },
     "structure": {
       "form_factor": "开放式耳机",
@@ -320,7 +456,7 @@
         "硅胶",
         "液态硅胶"
       ],
-      "ip_rating": "IP5",
+      "ip_rating": null,
       "weight_g": "56.9g",
       "dimensions": [
         "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
@@ -412,53 +548,7 @@
           }
         }
       ],
-      "sealing_method": [
-        {
-          "value": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
-          }
-        },
-        {
-          "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
-          "evidence": {
-            "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
-          }
-        },
-        {
-          "value": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。",
-          "evidence": {
-            "value": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。"
-          }
-        },
-        {
-          "value": "英集芯IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。",
-          "evidence": {
-            "value": "英集芯IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。"
-          }
-        },
-        {
-          "value": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
-          "evidence": {
-            "value": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。"
-          }
-        }
-      ],
+      "sealing_method": [],
       "wear_design": [
         {
           "value": "NANK南卡是一个专注于开放式声学技术研发的耳机品牌，致力于为年轻消费者提供品质卓越、佩戴舒适、时尚美观的音频设备。",
@@ -498,6 +588,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/02/2026020408135830.png",
+          "alt": "拆解报告：NANK南卡OE Mix开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/02/2026020408134945.jpg",
           "alt": "拆解报告：NANK南卡OE Mix开放式耳机-我爱音频网",
@@ -540,12 +637,7 @@
         "座舱底部结构一览，设置有电池、主板和电源输入小板，导线焊接。",
         "充电盒主板一侧电路一览。"
       ],
-      "ip_rating_evidence": {
-        "value": "IP5",
-        "confidence": 0.8,
-        "source_type": "text",
-        "source_text": "IP5"
-      },
+      "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "56.9g",
         "confidence": 0.75,
@@ -737,5 +829,5 @@
       }
     }
   },
-  "data_completeness": 0.776
+  "data_completeness": 0.78
 }

@@ -102,8 +102,107 @@
         "天线",
         "降噪系统"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WINSEMI稳先微WSDF23C",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF23C",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "WINSEMI稳先微WSDF23C"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "稳先微WSDF23C",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "稳先微WSDF23C",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "稳先微WSDF23C"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "WINSEMI稳先微",
+          "model": "WINSEMI稳先微WSDF23C",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF23C",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载VDL紫建电子60mAh软包扣式电池，采用了自研12mm三磁镀钛动圈单元，单耳内置2个MEMS麦克风和1个VPU骨传导麦克风，主控芯片为WUQI物奇WQ7036AC智能音频SoC，其他还采用了TDK的6轴传感器、HX天易合芯HX9031A电容式距离传感器，WINSEMI稳先微WSDF23C2N2H锂电保护IC，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。"
+          }
+        }
+      ],
       "bom_table": [
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.8V/580mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.8V/580mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了VDL紫建电子3.8V/580mAh锂离子电池组，配备有电路保护板负责电池的过充电、过放电、过电流和短路等保护；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "WINSEMI稳先微",
+          "model": "WINSEMI稳先微WSDF23C",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF23C",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载VDL紫建电子60mAh软包扣式电池，采用了自研12mm三磁镀钛动圈单元，单耳内置2个MEMS麦克风和1个VPU骨传导麦克风，主控芯片为WUQI物奇WQ7036AC智能音频SoC，其他还采用了TDK的6轴传感器、HX天易合芯HX9031A电容式距离传感器，WINSEMI稳先微WSDF23C2N2H锂电保护IC，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "动圈单元",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "动圈单元",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载VDL紫建电子60mAh软包扣式电池，采用了自研12mm三磁镀钛动圈单元，单耳内置2个MEMS麦克风和1个VPU骨传导麦克风，主控芯片为WUQI物奇WQ7036AC智能音频SoC，其他还采用了TDK的6轴传感器、HX天易合芯HX9031A电容式距离传感器，WINSEMI稳先微WSDF23C2N2H锂电保护IC，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载VDL紫建电子60mAh软包扣式电池，采用了自研12mm三磁镀钛动圈单元，单耳内置2个MEMS麦克风和1个VPU骨传导麦克风，主控芯片为WUQI物奇WQ7036AC智能音频SoC，其他还采用了TDK的6轴传感器、HX天易合芯HX9031A电容式距离传感器，WINSEMI稳先微WSDF23C2N2H锂电保护IC，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。"
+          }
+        },
         {
           "component": "主板/PCBA",
           "brand": "",
@@ -257,6 +356,20 @@
             "source_type": "text",
             "source_text": "机身背面设置Type-C充电接口和蓝牙配对功能按键。"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WINSEMI稳先微WSDF23C",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF23C",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "WINSEMI稳先微WSDF23C2N2H锂电保护IC，负责电池的过充、过放、过流、短路等保护功能。"
+          }
         }
       ],
       "supply_hints": [],
@@ -282,7 +395,17 @@
             "source_text": "Type-C充电母座特写，沉板焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026041308552212.png",
+          "alt": "拆解报告：MOVA TPEAK Clip Pro开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上MOVA TPEAK Clip Pro开放式耳机的已知核心物料清单，方便大家查阅。 作为MOVA TPEAK进军音频市场的高端旗舰级产品，MOVA TPEAK Clip Pro开放式耳机外观设计时尚精致、质感出众。其充电盒体积小巧，日常携带十分便捷；耳夹式耳机佩戴轻盈舒适，能够很好的适配日常通勤与运动健身等多种场景。 内部主要配置方面，充电盒搭载了VDL紫建电子3.8V/580mAh锂离子电池组，配备有电路保护板负责电池的过充电、过放电、过电流和短路等保护；主板上，采用了COPO酷珀微CP2022无线充电传输芯片、SinhMicro昇生微电子SS88D9H POWER MCU等方案。 耳机内部搭载VDL紫建电子60mAh软包扣式电池，采用了自研12mm三磁镀钛动圈单元，单耳内置2个MEMS麦克风和1个VPU骨传导麦克风，主控芯片为WUQI物奇WQ7036AC智能音频SoC，其他还采用了TDK的6轴传感器、HX天易合芯HX9031A电容式距离传感器，WINSEMI稳先微WSDF23C2N2H锂电保护IC，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。"
     },
     "structure": {
       "form_factor": "开放式耳机",
@@ -290,7 +413,7 @@
       "materials": [
         "PC"
       ],
-      "ip_rating": "IP5",
+      "ip_rating": null,
       "weight_g": "69.6g",
       "dimensions": [
         "详细功能配置方面，\nMOVA TPEAK Clip Pro开放式耳机\n搭载自研12mm三磁镀钛单元，支持智能低音增强算法，支持LDAC高清音频传输，清晰还原现场级听感；支持全域声穹技术，提供固定、头转、音乐模式、影院模式四种空间音效，带来三维沉浸声场；支持AI骨气融合智能降噪，基于4麦克风阵列+2VPU骨传导传感器精准拾音，搭配AI降噪算法消除环境噪音，提供清晰通话效果。",
@@ -391,17 +514,7 @@
           }
         }
       ],
-      "sealing_method": [
-        {
-          "value": "包装盒背面介绍了产品的详细功能特点和参数信息，Extra-Soft云感C桥、40小时长续航、AI智能译、随动空间音频；产品名称：MOVA TPEAK Clip Pro开放式真无线耳机，型号：MA2001，输入：5V-800mA，输出：5V-360mA（180mA per port），电池容量：580mAh/2.204Wh（充电仓）、60mAh/0.231Wh（耳机），颜色：星芒金，频响范围：20Hz-40kHz，蓝牙版本：V6.0，防护等级：IP54，制造商：零界奇点科技（深圳）有限公司。",
-          "evidence": {
-            "value": "包装盒背面介绍了产品的详细功能特点和参数信息，Extra-Soft云感C桥、40小时长续航、AI智能译、随动空间音频；产品名称：MOVA TPEAK Clip Pro开放式真无线耳机，型号：MA2001，输入：5V-800mA，输出：5V-360mA（180mA per port），电池容量：580mAh/2.204Wh（充电仓）、60mAh/0.231Wh（耳机），颜色：星芒金，频响范围：20Hz-40kHz，蓝牙版本：V6.0，防护等级：IP54，制造商：零界奇点科技（深圳）有限公司。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "包装盒背面介绍了产品的详细功能特点和参数信息，Extra-Soft云感C桥、40小时长续航、AI智能译、随动空间音频；产品名称：MOVA TPEAK Clip Pro开放式真无线耳机，型号：MA2001，输入：5V-800mA，输出：5V-360mA（180mA per port），电池容量：580mAh/2.204Wh（充电仓）、60mAh/0.231Wh（耳机），颜色：星芒金，频响范围：20Hz-40kHz，蓝牙版本：V6.0，防护等级：IP54，制造商：零界奇点科技（深圳）有限公司。"
-          }
-        }
-      ],
+      "sealing_method": [],
       "wear_design": [
         {
           "value": "MOVA TPEAK Clip Pro是该品牌旗下首款开放式耳机，凭借自适应3D耳廓仿生架构贴合设计，提供持久的舒适佩戴。",
@@ -441,6 +554,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026041308552212.png",
+          "alt": "拆解报告：MOVA TPEAK Clip Pro开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026041308545218.jpg",
           "alt": "拆解报告：MOVA TPEAK Clip Pro开放式耳机-我爱音频网",
@@ -483,12 +603,7 @@
         "详细功能配置方面，MOVA TPEAK Clip Pro开放式耳机搭载自研12mm三磁镀钛单元，支持智能低音增强算法，支持LDAC高清音频传输，清晰还原现场级听感；支持全域声穹技术，提供固定、头转、音乐模式、影院模式四种空间音效，带来三维沉浸声场；支持AI骨气融合智能降噪，基于4麦克风阵列+2VPU骨传导传感器精准拾音，搭配AI降噪算法消除环境噪音，提供清晰通话效果。",
         "音腔底部的出音孔特写，通过金属盖板防护。出音孔内侧设置有拾音麦克风。"
       ],
-      "ip_rating_evidence": {
-        "value": "IP5",
-        "confidence": 0.8,
-        "source_type": "text",
-        "source_text": "IP5"
-      },
+      "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "69.6g",
         "confidence": 0.75,
@@ -794,5 +909,5 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.788
+  "data_completeness": 0.806
 }

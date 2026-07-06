@@ -69,8 +69,219 @@
         "降噪系统",
         "天线"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5516",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5516",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5516"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5516",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5516",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "英集芯IP5516"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "IP5516",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "IP5516",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "IP5516"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "Bluetrum中科蓝讯BT8932F",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8932F",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "Bluetrum中科蓝讯BT8932F"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "中科蓝讯BT8932F",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "中科蓝讯BT8932F",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "中科蓝讯BT8932F"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "BT8932F",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BT8932F",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "BT8932F"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "Prisemi芯导P14C1",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Prisemi芯导P14C1",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "Prisemi芯导P14C1"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "芯导P14C1",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "芯导P14C1",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "芯导P14C1"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Prisemi芯导",
+          "model": "Prisemi芯导P14C1",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
+          "evidence": {
+            "value": "Prisemi芯导P14C1",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "电源输入小板上采用Prisemi芯导P14C13过压保护IC保护后级器件安全。"
+          }
+        }
+      ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5516",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5516",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上搭载INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，负责内置电池的充放电管理和整机控制；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Prisemi芯导",
+          "model": "Prisemi芯导P14C1",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
+          "evidence": {
+            "value": "Prisemi芯导P14C1",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "电源输入小板上采用Prisemi芯导P14C13过压保护IC保护后级器件安全。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/300mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/300mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载ST神通天下3.7V/300mAh锂电池，配备有电路保护板负责过充过放过流等保护；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Bluetrum中科蓝讯",
+          "model": "Bluetrum中科蓝讯BT8932F",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8932F",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用Bluetrum中科蓝讯BT8932F蓝牙音频SoC，用于无线连接和音频数据处理，外围配备Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/300mAh锂电池",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/300mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内置ST神通天下3.7V/300mAh锂电池供电；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "采用敏芯微电子的MEMS麦克风实现精准收音；"
+          }
+        },
         {
           "component": "充电仓",
           "brand": "",
@@ -210,6 +421,48 @@
             "source_type": "text",
             "source_text": "后端腔体底部设置充电触点。"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "Prisemi芯导P14C1",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Prisemi芯导P14C1",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Prisemi芯导P14C13过压保护IC，具有固定6.0V OVLO阈值电压。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5516",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5516",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "英集芯IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "Bluetrum中科蓝讯BT8932F",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8932F",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Bluetrum中科蓝讯BT8932F蓝牙音频SoC，内置32位高性能RISC-V处理器核心，符合蓝牙6.0+BR+EDR+BLE规范，具有高性能立体声DAC和高性能立体声ADC，双MIC DNN环境噪声消除（ENC），支持神经网络处理单元（NPU），支持低功耗触摸键、入耳检测等功能。"
+          }
         }
       ],
       "supply_hints": [],
@@ -235,16 +488,26 @@
             "source_text": "取出电池，下方主板结构一览，与扬声器和电池导线焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026060501520358.png",
+          "alt": "拆解报告：水月雨MOONDROP PILL开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上水月雨MOONDROP PILL开放式耳机的已知核心物料清单，方便大家查阅。 水月雨MOONDROP PILL开放式耳机的外观设计非常具有特点，“胶囊”状充电盒，采用了透明外壳，双拼配色，以及旋转仓体，个性化十足，且兼具实用属性。耳夹式耳机采用目前比较主流的设计，体积轻巧，佩戴舒适轻盈。 内部主要配置方面，充电盒搭载ST神通天下3.7V/300mAh锂电池，配备有电路保护板负责过充过放过流等保护；主板上搭载INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，负责内置电池的充放电管理和整机控制；电源输入小板上采用Prisemi芯导P14C13过压保护IC保护后级器件安全。 耳机内置ST神通天下3.7V/300mAh锂电池供电；采用13mm动圈喇叭提供出色音质；采用敏芯微电子的MEMS麦克风实现精准收音；采用Bluetrum中科蓝讯BT8932F蓝牙音频SoC，用于无线连接和音频数据处理，外围配备Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感。"
     },
     "structure": {
       "form_factor": "开放式耳机",
-      "earbud_type": "入耳",
+      "earbud_type": "开放",
       "materials": [
         "钛合金",
         "PC"
       ],
-      "ip_rating": "IP5",
+      "ip_rating": null,
       "weight_g": "60.1g",
       "dimensions": [
         "在核心音乐体验方面，\n水月雨MOONDROP PILL开放式耳机\n搭载扩散场特化13mm动圈单元，高效率长冲程，提供更为饱满的动态和更自然的声像；同时搭载偶极指向传声技术，大幅降低漏音；还支持自适应低音增强算法，带来更澎湃的音效；并基于全新的VDSF for OWS目标频率响应曲线调音，呈现如临现场的开阔音质。",
@@ -336,53 +599,7 @@
           }
         }
       ],
-      "sealing_method": [
-        {
-          "value": "INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
-          }
-        },
-        {
-          "value": "英集芯IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。",
-          "evidence": {
-            "value": "英集芯IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。"
-          }
-        },
-        {
-          "value": "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸。",
-          "evidence": {
-            "value": "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸。"
-          }
-        },
-        {
-          "value": "INJOINIC英集芯IP5516详细资料图。",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5516详细资料图。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5516详细资料图。"
-          }
-        },
-        {
-          "value": "内部主要配置方面，充电盒搭载ST神通天下3.7V/300mAh锂电池，配备有电路保护板负责过充过放过流等保护；主板上搭载INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，负责内置电池的充放电管理和整机控制；电源输入小板上采用Prisemi芯导P14C13过压保护IC保护后级器件安全。",
-          "evidence": {
-            "value": "内部主要配置方面，充电盒搭载ST神通天下3.7V/300mAh锂电池，配备有电路保护板负责过充过放过流等保护；主板上搭载INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，负责内置电池的充放电管理和整机控制；电源输入小板上采用Prisemi芯导P14C13过压保护IC保护后级器件安全。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "内部主要配置方面，充电盒搭载ST神通天下3.7V/300mAh锂电池，配备有电路保护板负责过充过放过流等保护；主板上搭载INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，负责内置电池的充放电管理和整机控制；电源输入小板上采用Prisemi芯导P14C13过压保护IC保护后级器件安全。"
-          }
-        }
-      ],
+      "sealing_method": [],
       "wear_design": [
         {
           "value": "包装盒侧边展示有产品的佩戴示意图。",
@@ -422,6 +639,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026060501520358.png",
+          "alt": "拆解报告：水月雨MOONDROP PILL开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026060501520216.jpg",
           "alt": "拆解报告：水月雨MOONDROP PILL开放式耳机-我爱音频网",
@@ -464,12 +688,7 @@
         "腔体顶部的麦克风拾音孔特写。",
         "INJOINIC英集芯IP5516详细资料图。据我爱音频网拆解了解到，目前已有小米、水月雨、QCY、MORROR、JLAB、MOVA、南卡、塞那、魔声，漫步者、倍思、神牛、联想、绿联、魅族、机械师、JBL、弱水时砂、好牧人、泥炭、丽耳、猛玛、iKF、iTour、纽曼、优篮子、爱国者、兰士顿、欧蕾特、博雅、MICROKIA、途瑞斯，摩托罗拉、马歇尔、声阔、公牛、飞利浦、TOZO、Nothing、山水、索爱、机乐堂、象鼻子、boAt、蓝万柯、可口可乐，荣耀、realme、传音、万魔、嘿喽、名创优品、酷狗、创维、声智、云仕、充客、海尔兄弟、诺必行、利威朗、影巨人、乔威、AnkerWork、纳拓、Skullcandy、MOZOTER、HYUNDAI、沃尔玛、ROBOT、Urbanfun、Btootos、kaiboaudio、Loca，夏新、喜马拉雅、网易云音乐、唱吧、京东京造、中兴、JLab、海贝、Pioneer、PIHEN、傲基、MPOW、诺基亚、Ambie等大量品牌采用英集芯的电源管理方案。"
       ],
-      "ip_rating_evidence": {
-        "value": "IP5",
-        "confidence": 0.8,
-        "source_type": "text",
-        "source_text": "IP5"
-      },
+      "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "60.1g",
         "confidence": 0.75,
@@ -708,5 +927,5 @@
       }
     }
   },
-  "data_completeness": 0.824
+  "data_completeness": 0.844
 }

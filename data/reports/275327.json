@@ -117,6 +117,62 @@
       ],
       "bom_table": [
         {
+          "component": "电池",
+          "brand": "",
+          "model": "3.85V/55mAh钢壳扣式",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.85V/55mAh钢壳扣式",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内置3.85V/55mAh钢壳扣式电池，搭载12mm动圈喇叭和两颗MEMS麦克风；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "2",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内置3.85V/55mAh钢壳扣式电池，搭载12mm动圈喇叭和两颗MEMS麦克风；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB5691",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB5691",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒采用HYNITRON海栎创CST820高性能自电容触控芯片，Bluetrum中科蓝讯AB5691G智能穿戴芯片，用于屏幕功能；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/750mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/750mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "搭载言九电子3.7V/750mAh锂电池供电，采用了LPS微源半导体LP7812C电源管理芯片，负责内置电池的充放电管理。"
+          }
+        },
+        {
           "component": "充电仓",
           "brand": "",
           "model": "",
@@ -255,34 +311,6 @@
             "source_type": "text",
             "source_text": "「云感豆」底部设置充电触点。"
           }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "AB5691",
-          "qty_hint": "1",
-          "side": "充电盒",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "AB5691",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "Bluetrum中科蓝讯AB5691G智能穿戴芯片，用于充电盒屏幕功能。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "AB5691",
-          "qty_hint": "1",
-          "side": "充电盒",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "AB5691",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "充电盒采用HYNITRON海栎创CST820高性能自电容触控芯片，Bluetrum中科蓝讯AB5691G智能穿戴芯片，用于屏幕功能；搭载言九电子3.7V/750mAh锂电池供电，采用了LPS微源半导体LP7812C电源管理芯片，负责内置电池的充放电管理。"
-          }
         }
       ],
       "supply_hints": [],
@@ -297,7 +325,17 @@
             "source_text": "主板侧边焊接连接充电盒的金属柱。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026051110290070.png",
+          "alt": "拆解报告：Dangbei当贝Air 1带屏开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上Dangbei当贝Air 1带屏开放式耳机的已知物料清单，方便大家查阅。 Dangbei当贝Air 1带屏开放式耳机在外观方面，充电盒采用圆角方形设计，双拼工艺，质感高级细腻；盒盖上搭载2.04英寸AMOLED彩色触控屏，画面显示清晰，触控操作流畅。耳机采用了耳夹式设计，由C桥、动听球与云感豆组合而成，机身轻巧便携，佩戴轻盈舒适；同时搭载专属抗菌功能，日常使用干净卫生，佩戴更安心。 内部主要配置方面，耳机内置3.85V/55mAh钢壳扣式电池，搭载12mm动圈喇叭和两颗MEMS麦克风；主控芯片采用了WUQI物奇WQ7035MX-B智能音频SoC，备强大的平台能力，领先的性能优势，为耳机的稳定无线连接和数据处理提供支持；其他还采用了六轴传感器、锂电保护IC，以及Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。 充电盒采用HYNITRON海栎创CST820高性能自电容触控芯片，Bluetrum中科蓝讯AB5691G智能穿戴芯片，用于屏幕功能；搭载言九电子3.7V/750mAh锂电池供电，采用了LPS微源半导体LP7812C电源管理芯片，负责内置电池的充放电管理。"
     },
     "structure": {
       "form_factor": "开放式耳机",
@@ -305,7 +343,7 @@
       "materials": [
         "PC"
       ],
-      "ip_rating": "IP5",
+      "ip_rating": null,
       "weight_g": "81.4g",
       "dimensions": [
         "耳机搭载「12mm巨能动圈双单元」，支持BoomBass动态低频增强技术，采用高性能DSP驱动，提供声场开阔、自然澎湃的三品均衡音质；支持LHDC 5.0音频解码格式，至高24bit/192kHz采样率、1000kbps传输码率，还原母带级听感；还支持头部追踪空间音效，带来身临其境的环绕听感；基于声场聚集定向传音架构，降低漏音，保护隐私。",
@@ -406,17 +444,7 @@
           }
         }
       ],
-      "sealing_method": [
-        {
-          "value": "其他方面，当贝Air 1耳机支持四麦AI通话降噪，支持AI左右声道自适应，支持双设备连接，具备IP54级防尘防水；搭配「当贝AI耳机APP」，还支持EQ调节、耳机查找、AI颈椎健康助理，以及灵感胶囊、AI翻译、AI会议纪要等丰富的AI功能。",
-          "evidence": {
-            "value": "其他方面，当贝Air 1耳机支持四麦AI通话降噪，支持AI左右声道自适应，支持双设备连接，具备IP54级防尘防水；搭配「当贝AI耳机APP」，还支持EQ调节、耳机查找、AI颈椎健康助理，以及灵感胶囊、AI翻译、AI会议纪要等丰富的AI功能。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "其他方面，当贝Air 1耳机支持四麦AI通话降噪，支持AI左右声道自适应，支持双设备连接，具备IP54级防尘防水；搭配「当贝AI耳机APP」，还支持EQ调节、耳机查找、AI颈椎健康助理，以及灵感胶囊、AI翻译、AI会议纪要等丰富的AI功能。"
-          }
-        }
-      ],
+      "sealing_method": [],
       "wear_design": [
         {
           "value": "Dangbei当贝Air 1带屏开放式耳机外观上采用了耳夹式设计，佩戴舒适稳固，且不分左右；耳机涂层基底中，均匀融入纳米级抗菌银离子，能够有效抑制细菌滋生，使用更卫生。",
@@ -456,6 +484,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026051110290070.png",
+          "alt": "拆解报告：Dangbei当贝Air 1带屏开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026051110290767.jpg",
           "alt": "拆解报告：Dangbei当贝Air 1带屏开放式耳机-我爱音频网",
@@ -498,12 +533,7 @@
         "盒盖内侧标注有产品参数信息，电池容量：750mAh，输入：5V-0.8A，输出：5V-0.3A（0.15A每个端口）。",
         "丝印5k CQU的锂电池保护IC。"
       ],
-      "ip_rating_evidence": {
-        "value": "IP5",
-        "confidence": 0.8,
-        "source_type": "text",
-        "source_text": "IP5"
-      },
+      "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "81.4g",
         "confidence": 0.75,
@@ -691,5 +721,5 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.784
+  "data_completeness": 0.754
 }

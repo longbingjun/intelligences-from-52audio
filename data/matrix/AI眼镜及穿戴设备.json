@@ -8,7 +8,8 @@
     "bluetooth",
     "major_chips",
     "selling_point_tags",
-    "data_completeness"
+    "data_completeness",
+    "source"
   ],
   "rows": [
     {
@@ -21,6 +22,12 @@
       "bluetooth": null,
       "major_chips": [],
       "selling_point_tags": [],
+      "sources": [
+        "video"
+      ],
+      "has_report": false,
+      "has_video": true,
+      "source": "video",
       "data_completeness": 0.17
     },
     {
@@ -37,6 +44,12 @@
         "第一",
         "通话降噪"
       ],
+      "sources": [
+        "video"
+      ],
+      "has_report": false,
+      "has_video": true,
+      "source": "video",
       "data_completeness": 0.33
     },
     {
@@ -63,6 +76,13 @@
         "认证",
         "三频"
       ],
+      "sources": [
+        "report",
+        "video"
+      ],
+      "has_report": true,
+      "has_video": true,
+      "source": "report",
       "data_completeness": 0.5
     },
     {
@@ -86,6 +106,13 @@
         "超长",
         "第一"
       ],
+      "sources": [
+        "report",
+        "video"
+      ],
+      "has_report": true,
+      "has_video": true,
+      "source": "report",
       "data_completeness": 0.33
     },
     {
@@ -106,6 +133,13 @@
         "第一",
         "轻量化"
       ],
+      "sources": [
+        "report",
+        "video"
+      ],
+      "has_report": true,
+      "has_video": true,
+      "source": "report",
       "data_completeness": 0.33
     },
     {
@@ -127,6 +161,12 @@
         "创新",
         "定制"
       ],
+      "sources": [
+        "report"
+      ],
+      "has_report": true,
+      "has_video": false,
+      "source": "report",
       "data_completeness": 0.67
     }
   ]

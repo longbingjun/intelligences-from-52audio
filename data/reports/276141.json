@@ -190,6 +190,62 @@
       ],
       "bom_table": [
         {
+          "component": "芯片/模组",
+          "brand": "Qualcomm高通",
+          "model": "高通QCC3095",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通QCC3095",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用Qualcomm高通QCC3095蓝牙音频SoC，搭配KHIC港宏KH25U6432F闪存，用于无线连接和音频数据处理；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm高通",
+          "model": "高通QCC3086",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通QCC3086",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "2.4G收发器内部搭载了Qualcomm高通QCC3086蓝牙音频SoC，用于与耳挂式智能音响实现低延迟无线传输；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/150mAh锂电池",
+          "qty_hint": "1",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/150mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内部主要配置方面，耳挂式智能音响搭载ST神通天下3.7V/150mAh锂电池组；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "2",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "内置两颗MEMS麦克风，提供精准拾音；"
+          }
+        },
+        {
           "component": "麦克风",
           "brand": "",
           "model": "",
@@ -332,34 +388,6 @@
         {
           "component": "芯片/模组",
           "brand": "",
-          "model": "高通QCC3095",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "高通QCC3095",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "Qualcomm高通QCC3095蓝牙音频SoC，采用四核处理器架构，包括双核32位应用处理器和双核Kalimba DSP，支持蓝牙5.4双模，支持LE Audio，支持Auracast广播音频、LC3编码，支持aptX Lossless 24bit/48kHz无损音频，支持三麦克风cVc通话降噪，支持语音助手按键激活，可集成自适应混合ANC主动降噪。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "QCC3095",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "QCC3095",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "Qualcomm高通QCC3095蓝牙音频SoC，采用四核处理器架构，包括双核32位应用处理器和双核Kalimba DSP，支持蓝牙5.4双模，支持LE Audio，支持Auracast广播音频、LC3编码，支持aptX Lossless 24bit/48kHz无损音频，支持三麦克风cVc通话降噪，支持语音助手按键激活，可集成自适应混合ANC主动降噪。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
           "model": "高通QCC30xx",
           "qty_hint": "1",
           "side": "",
@@ -384,101 +412,27 @@
             "source_type": "text",
             "source_text": "Qualcomm高通QCC30xx详细资料图。"
           }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "高通QCC3086",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "高通QCC3086",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "Qualcomm高通QCC3086蓝牙音频SoC，隶属于\n第二代高通S3音频适配器平台\n，专为蓝牙适配器设计，针对游戏进行优化，支持LE Audio，带来低于20毫秒超低时延的语音回传通道，打造无卡顿的无线音频体验。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "QCC3086",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "QCC3086",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "Qualcomm高通QCC3086蓝牙音频SoC，隶属于\n第二代高通S3音频适配器平台\n，专为蓝牙适配器设计，针对游戏进行优化，支持LE Audio，带来低于20毫秒超低时延的语音回传通道，打造无卡顿的无线音频体验。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "高通QCC3095",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "高通QCC3095",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "内部主要配置方面，耳挂式智能音响搭载ST神通天下3.7V/150mAh锂电池组；采用大尺寸22mm微音响单元，基于木质纤维振膜球顶+超薄无纹柔性悬边，提供三频出彩的音质；内置两颗MEMS麦克风，提供精准拾音；采用Qualcomm高通QCC3095蓝牙音频SoC，搭配KHIC港宏KH25U6432F闪存，用于无线连接和音频数据处理；采用两个Heroic禾润HT517 D类音频功率放大器驱动扬声器；还采用了Sytatek矽塔SA8203的过压过流保护IC，保护电路安全。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "QCC3095",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "QCC3095",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "内部主要配置方面，耳挂式智能音响搭载ST神通天下3.7V/150mAh锂电池组；采用大尺寸22mm微音响单元，基于木质纤维振膜球顶+超薄无纹柔性悬边，提供三频出彩的音质；内置两颗MEMS麦克风，提供精准拾音；采用Qualcomm高通QCC3095蓝牙音频SoC，搭配KHIC港宏KH25U6432F闪存，用于无线连接和音频数据处理；采用两个Heroic禾润HT517 D类音频功率放大器驱动扬声器；还采用了Sytatek矽塔SA8203的过压过流保护IC，保护电路安全。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "高通QCC3086",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "高通QCC3086",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "2.4G收发器内部搭载了Qualcomm高通QCC3086蓝牙音频SoC，用于与耳挂式智能音响实现低延迟无线传输；采用了GigaDevice兆易创新GD25LQ32E串行闪存，用于存储固件和用户配置。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "QCC3086",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "QCC3086",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "2.4G收发器内部搭载了Qualcomm高通QCC3086蓝牙音频SoC，用于与耳挂式智能音响实现低延迟无线传输；采用了GigaDevice兆易创新GD25LQ32E串行闪存，用于存储固件和用户配置。"
-          }
         }
       ],
       "supply_hints": [],
       "packaging_notes": [
         "打开包装盒，取出内部所有物品，包括了耳机、2.4G收发器、耳机收纳包、吊杆麦克风、耳垫、麦克风海绵罩、硅胶塞、充电线、说明书、更换垫片说明卡等。"
       ],
-      "process_hints": []
+      "process_hints": [],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026051901194012.png",
+          "alt": "拆解报告：ROSESELSA弱水时砂SPEAKFEEL耳挂式智能音响-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上ROSESELSA弱水时砂SPEAKFEEL耳挂式智能音响的已知核心物料清单，方便大家查阅。 ROSESELSA弱水时砂SPEAKFEEL耳挂式智能音响在外观方面，采用了环绕式的挂耳设计，钛合金材质环绕丝，柔韧不易变形；人体工学预弯折耳挂，佩戴自适应头部结构，搭配亲肤硅胶和海绵耳垫，提供舒适稳固佩戴。2.4G收发器体积小巧，使用无负担，还设计有用于固定在环绕丝上的磁吸底座，提升便携性。 内部主要配置方面，耳挂式智能音响搭载ST神通天下3.7V/150mAh锂电池组；采用大尺寸22mm微音响单元，基于木质纤维振膜球顶+超薄无纹柔性悬边，提供三频出彩的音质；内置两颗MEMS麦克风，提供精准拾音；采用Qualcomm高通QCC3095蓝牙音频SoC，搭配KHIC港宏KH25U6432F闪存，用于无线连接和音频数据处理；采用两个Heroic禾润HT517 D类音频功率放大器驱动扬声器；还采用了Sytatek矽塔SA8203的过压过流保护IC，保护电路安全。 2.4G收发器内部搭载了Qualcomm高通QCC3086蓝牙音频SoC，用于与耳挂式智能音响实现低延迟无线传输；采用了GigaDevice兆易创新GD25LQ32E串行闪存，用于存储固件和用户配置。吊杆麦克风内置一颗驻极体麦克风拾音。"
     },
     "structure": {
       "form_factor": "开放式耳机",
-      "earbud_type": "入耳",
+      "earbud_type": "开放",
       "materials": [
         "硅胶",
         "钛合金",
@@ -606,6 +560,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026051901194012.png",
+          "alt": "拆解报告：ROSESELSA弱水时砂SPEAKFEEL耳挂式智能音响-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026051901192912.jpg",
           "alt": "拆解报告：ROSESELSA弱水时砂SPEAKFEEL耳挂式智能音响-我爱音频网",

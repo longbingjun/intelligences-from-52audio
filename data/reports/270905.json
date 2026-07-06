@@ -80,6 +80,20 @@
       "bom_table": [
         {
           "component": "电池",
+          "brand": "鹏辉",
+          "model": "3.85V/1000mAh",
+          "qty_hint": "1",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "3.85V/1000mAh",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内置电池容量3.85V/1000mAh，来自鹏辉能源；"
+          }
+        },
+        {
+          "component": "电池",
           "brand": "",
           "model": "",
           "qty_hint": "",
@@ -181,13 +195,23 @@
       "packaging_notes": [
         "包装盒侧边展示了Air Touch一触即连功能，以及JBL Portable APP和蓝牙V6.0.\n打开包装盒，取出内部所有物品，仅包括了音箱和产品使用手册等文档。"
       ],
-      "process_hints": []
+      "process_hints": [],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026032706562283.png",
+          "alt": "拆解报告：JBL GO5便携式蓝牙音箱-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上JBL GO5便携式蓝牙音箱的已知物料清单，方便大家查阅。 JBL GO5便携式蓝牙音箱采用小巧便携的方形机身，正面与背面搭载织物网罩，触感细腻舒适；机身四周包裹厚实橡胶垫，具备出色的抗摔、耐磨与防刮性能，更适合户外携带使用。此外，产品新增的双灯带设计，可随音乐律动营造声光氛围，进一步提升聆听体验。 内部主要配置方面，JBL GO5便携式蓝牙音箱搭载50mm动圈喇叭，配备被动辐射振膜提升低音效果；内置电池容量3.85V/1000mAh，来自鹏辉能源；主板上，采用了Actions炬芯科技ATS2875H新一代高性能蓝牙音频SOC，awinic艾为电子AW88698QNR音频功放，SGMICRO圣邦微SGM41519电源管理芯片，HYPWR瀚昕微HP2602过压过流保护IC等方案。"
     },
     "structure": {
       "form_factor": "音箱及其他音频设备",
       "earbud_type": "入耳",
       "materials": [],
-      "ip_rating": "IP6",
+      "ip_rating": "IP7",
       "weight_g": "233.1g",
       "dimensions": [
         "经我爱音频网实测，全频喇叭直径约为50mm。",
@@ -298,30 +322,12 @@
       ],
       "sealing_method": [
         {
-          "value": "其他方面，还升级了IP68级防尘防水，可完全防止固体异物及灰尘侵入，水下1.5米浸泡30分钟，可确保不因浸水造成损坏。",
-          "evidence": {
-            "value": "其他方面，还升级了IP68级防尘防水，可完全防止固体异物及灰尘侵入，水下1.5米浸泡30分钟，可确保不因浸水造成损坏。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "其他方面，还升级了IP68级防尘防水，可完全防止固体异物及灰尘侵入，水下1.5米浸泡30分钟，可确保不因浸水造成损坏。"
-          }
-        },
-        {
           "value": "下面就来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过\nJBL GRIP霓虹罐\n、\nJBL CHARGE6\n、\nJBL FLIP7\n、\nJBL GO ESSENTIAL\n、\nJBL PULSE 5\n、\nJBL FLIP ESSENTIAL 2\n蓝牙音箱，\nJBL Tour Pro 3\n、\nJBL TUNE Beam\n、\nJBL TUNE 130NC\n、\nJBL WAVE FLEX\n、\nJBL FLASH\n真无线耳机，\nJBL Quantum 360P\n、\nJBL LIVE660NC\n头戴式耳机，\nJBL KMC300 K歌麦克风\n，\nJBL Soundgear Frames智能音频眼镜\n，\nJBL Quantum Stream Wireless无线领夹麦克风\n等。",
           "evidence": {
             "value": "下面就来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过\nJBL GRIP霓虹罐\n、\nJBL CHARGE6\n、\nJBL FLIP7\n、\nJBL GO ESSENTIAL\n、\nJBL PULSE 5\n、\nJBL FLIP ESSENTIAL 2\n蓝牙音箱，\nJBL Tour Pro 3\n、\nJBL TUNE Beam\n、\nJBL TUNE 130NC\n、\nJBL WAVE FLEX\n、\nJBL FLASH\n真无线耳机，\nJBL Quantum 360P\n、\nJBL LIVE660NC\n头戴式耳机，\nJBL KMC300 K歌麦克风\n，\nJBL Soundgear Frames智能音频眼镜\n，\nJBL Quantum Stream Wireless无线领夹麦克风\n等。",
             "confidence": 0.68,
             "source_type": "text",
             "source_text": "下面就来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过\nJBL GRIP霓虹罐\n、\nJBL CHARGE6\n、\nJBL FLIP7\n、\nJBL GO ESSENTIAL\n、\nJBL PULSE 5\n、\nJBL FLIP ESSENTIAL 2\n蓝牙音箱，\nJBL Tour Pro 3\n、\nJBL TUNE Beam\n、\nJBL TUNE 130NC\n、\nJBL WAVE FLEX\n、\nJBL FLASH\n真无线耳机，\nJBL Quantum 360P\n、\nJBL LIVE660NC\n头戴式耳机，\nJBL KMC300 K歌麦克风\n，\nJBL Soundgear Frames智能音频眼镜\n，\nJBL Quantum Stream Wireless无线领夹麦克风\n等。"
-          }
-        },
-        {
-          "value": "包装盒正面展示有突出了防水性能的产品外观，品牌LOGO和产品名称，以及蓝牙和AirTouch标志，IP68防尘防水和10小时续航。",
-          "evidence": {
-            "value": "包装盒正面展示有突出了防水性能的产品外观，品牌LOGO和产品名称，以及蓝牙和AirTouch标志，IP68防尘防水和10小时续航。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "包装盒正面展示有突出了防水性能的产品外观，品牌LOGO和产品名称，以及蓝牙和AirTouch标志，IP68防尘防水和10小时续航。"
           }
         }
       ],
@@ -337,6 +343,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026032706562283.png",
+          "alt": "拆解报告：JBL GO5便携式蓝牙音箱-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026032503073865.jpg",
           "alt": "拆解报告：JBL GO5便携式蓝牙音箱-我爱音频网",
@@ -380,10 +393,10 @@
         "我爱音频网此前还拆解过JBL GRIP霓虹罐、JBL CHARGE6、JBL FLIP7、JBL GO ESSENTIAL、JBL PULSE 5、JBL FLIP ESSENTIAL 2蓝牙音箱，JBL Tour Pro 3、JBL TUNE Beam、JBL TUNE 130NC、JBL WAVE FLEX、JBL FLASH真无线耳机，JBL Quantum 360P、JBL LIVE660NC头戴式耳机，JBL KMC300 K歌麦克风，JBL Soundgear Frames智能音频眼镜，JBL Quantum Stream Wireless无线领夹麦克风等。"
       ],
       "ip_rating_evidence": {
-        "value": "IP6",
+        "value": "IP7",
         "confidence": 0.8,
         "source_type": "text",
-        "source_text": "IP6"
+        "source_text": "IP7"
       },
       "weight_evidence": {
         "value": "233.1g",

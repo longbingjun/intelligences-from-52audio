@@ -78,8 +78,93 @@
         "天线",
         "喇叭单元"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "Bluetrum中科蓝讯BT8932D",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8932D",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "Bluetrum中科蓝讯BT8932D"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "中科蓝讯BT8932D",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "中科蓝讯BT8932D",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "中科蓝讯BT8932D"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "BT8932D",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BT8932D",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "BT8932D"
+          }
+        }
+      ],
       "bom_table": [
+        {
+          "component": "电池",
+          "brand": "弘捷",
+          "model": "3.7V/500mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/500mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了HJ弘捷3.7V/500mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Bluetrum中科蓝讯",
+          "model": "Bluetrum中科蓝讯BT8932D",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8932D",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主控芯片为Bluetrum中科蓝讯BT8932D蓝牙音频SoC，外围配备了Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载HJ弘捷3.85V/0.123Wh软包锂电池，采用了11mm动圈喇叭和一颗瑞勤电子的MEMS麦克风。"
+          }
+        },
         {
           "component": "电池",
           "brand": "",
@@ -247,6 +332,20 @@
             "source_type": "text",
             "source_text": "LPS微源半导体LP7812C电源管理芯片，集成电池充电/放电，温度管理，霍尔检测，按键检测以及LED显示等功能。"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "Bluetrum中科蓝讯BT8932D",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8932D",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Bluetrum中科蓝讯BT8932D蓝牙音频SoC，符合蓝牙6.0+BR+EDR+BLE规范，内置32位高性能RISC-V处理器核心，集成高性能立体声DAC和高性能单声道ADC，支持1路MIC放大器输入，支持灵活的音频均衡器调节，支持AI DNN ENC降噪，支持低功耗触摸键、入耳检测，集成PMU，如充电器/降压/LDO。"
+          }
         }
       ],
       "supply_hints": [],
@@ -281,11 +380,21 @@
             "source_text": "主板单元结构一览，通过螺丝固定，与导线焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026012101383848.png",
+          "alt": "拆解报告：LINKLIKE莅莱RingStar Air开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上LINKLIKE莅莱RingStar Air开放式耳机的已知物料清单，方便大家查阅。 LINKLIKE莅莱RingStar Air开放式耳机在外观设计上别具一格，其牛油果绿配色清新时尚，搭配小巧方正的充电盒，不仅美观，而且非常便携。耳夹式耳机采用水滴形设计与双错位设计，佩戴时能够更均匀地分散受力，有效降低压迫感，从而显著提升佩戴舒适性。 内部主要配置方面，充电盒搭载了HJ弘捷3.7V/500mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护；主板上，搭载了LPS微源半导体LP7812C电源管理芯片，负责内置电池的充放电管理；采用一颗无标的MCU单片机，用于整机控制。 耳机内部搭载HJ弘捷3.85V/0.123Wh软包锂电池，采用了11mm动圈喇叭和一颗瑞勤电子的MEMS麦克风。主控芯片为Bluetrum中科蓝讯BT8932D蓝牙音频SoC，外围配备了Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感。"
     },
     "structure": {
       "form_factor": "开放式耳机",
-      "earbud_type": "入耳",
+      "earbud_type": "开放",
       "materials": [
         "硅胶",
         "ABS"
@@ -448,6 +557,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026012101383848.png",
+          "alt": "拆解报告：LINKLIKE莅莱RingStar Air开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026012101383531.jpg",
           "alt": "拆解报告：LINKLIKE莅莱RingStar Air开放式耳机-我爱音频网",
@@ -617,5 +733,5 @@
       }
     }
   },
-  "data_completeness": 0.666
+  "data_completeness": 0.714
 }

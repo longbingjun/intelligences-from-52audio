@@ -19,25 +19,14 @@
       "launch_date": null,
       "price_cny": null,
       "price_note": "",
-      "selling_points": [
-        {
-          "text": "INJOINIC英集芯IP2369是一款集成AFC/FCP/PD2.0/PD3.0/PD3.1等输入输出快充协议和同步升降压转换器的锂电池充放电管理芯片，充放电功率高达45W。",
-          "tag": "长续航",
-          "evidence": {
-            "value": "INJOINIC英集芯IP2369是一款集成AFC/FCP/PD2.0/PD3.0/PD3.1等输入输出快充协议和同步升降压转换器的锂电池充放电管理芯片，充放电功率高达45W。",
-            "confidence": 0.56,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP2369是一款集成AFC/FCP/PD2.0/PD3.0/PD3.1等输入输出快充协议和同步升降压转换器的锂电池充放电管理芯片，充放电功率高达45W。"
-          }
-        }
-      ],
+      "selling_points": [],
       "scenarios": [
         "运动",
         "游戏",
         "通话",
         "户外"
       ],
-      "positioning_summary": "INJOINIC英集芯IP2369是一款集成AFC/FCP/PD2.0/PD3.0/PD3.1等输入输出快充协议和同步升降压转换器的锂电池充放电管理芯片，充放电功率高达45W。",
+      "positioning_summary": "",
       "launch_date_evidence": null,
       "price_evidence": null
     },
@@ -63,9 +52,107 @@
             "source_type": "text",
             "source_text": "JL7016"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP2369",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP2369",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP2369"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP2369",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP2369",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "英集芯IP2369"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP2369",
+          "qty_hint": "1",
+          "side": "",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "INJOINIC英集芯IP2369",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用了惠州市鼎高电池7.4V/5000mAh电池组供电，由INJOINIC英集芯IP2369电源管理芯片，负责内置电池的充放电管理。"
+          }
         }
       ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP2369",
+          "qty_hint": "1",
+          "side": "",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "INJOINIC英集芯IP2369",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用了惠州市鼎高电池7.4V/5000mAh电池组供电，由INJOINIC英集芯IP2369电源管理芯片，负责内置电池的充放电管理。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "JL杰理",
+          "model": "JL7016",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL7016",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主控芯片采用JL杰理科技JL7016C6蓝牙音频SoC，扬声器驱动采用了ACMESEMI至盛ACM8625P双通道数字输入D类音频功放；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "7.4V/5000mAh",
+          "qty_hint": "1",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "7.4V/5000mAh",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用了惠州市鼎高电池7.4V/5000mAh电池组供电，由INJOINIC英集芯IP2369电源管理芯片，负责内置电池的充放电管理。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "内置驻极体麦克风，用于语音通话拾音；"
+          }
+        },
         {
           "component": "电池",
           "brand": "",
@@ -177,41 +264,23 @@
             "source_type": "text",
             "source_text": "电源开关按键特写，其他几颗采用了相同规格。电源键四周设置有LED灯，用于反馈工作状态。"
           }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "JL7016",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "JL7016",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "JL杰理科技JL7016C6蓝牙音频SoC，用于无线连接和音频数据处理。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "JL7016",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "JL7016",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "主控芯片采用JL杰理科技JL7016C6蓝牙音频SoC，扬声器驱动采用了ACMESEMI至盛ACM8625P双通道数字输入D类音频功放；其他还采用Heroic禾润HT7181升压转换器，AOS万代AO4409 MOSFET，以及为氛围灯提供光源的10颗RGB LED灯珠。"
-          }
         }
       ],
       "supply_hints": [],
       "packaging_notes": [
         "取出包装盒内部所有物品，包括了蓝牙音箱、充电线和使用说明书。"
       ],
-      "process_hints": []
+      "process_hints": [],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040806542273.png",
+          "alt": "拆解报告：JLAB JBuds Party便携式蓝牙音箱-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上JLAB JBuds Party便携式蓝牙音箱的已知物料清单，方便大家查阅。 JLAB JBuds Party便携式蓝牙音箱在外观上，采用方正简约的长方体设计，机身外部包裹耐磨的织物材质，触感舒适且兼具质感。机身上巧妙融入了能够随音乐律动的RGB灯，提升音乐氛围感；背部设计硅胶提手，方便外出携带；底部设计防滑支架，更加贴合派对与户外场景需求。 音箱内部主要配置方面，搭载了2个2.5英寸全频喇叭，配备2个2英寸无源低音振膜，提供澎湃的音频效果；内置驻极体麦克风，用于语音通话拾音；采用了惠州市鼎高电池7.4V/5000mAh电池组供电，由INJOINIC英集芯IP2369电源管理芯片，负责内置电池的充放电管理。 主控芯片采用JL杰理科技JL7016C6蓝牙音频SoC，扬声器驱动采用了ACMESEMI至盛ACM8625P双通道数字输入D类音频功放；其他还采用Heroic禾润HT7181升压转换器，AOS万代AO4409 MOSFET，以及为氛围灯提供光源的10颗RGB LED灯珠。"
     },
     "structure": {
       "form_factor": "音箱及其他音频设备",
@@ -357,42 +426,6 @@
             "source_type": "text",
             "source_text": "包装盒背面介绍了产品的详细功能特点：12+小时续航、蓝牙5.4、30W功率（2个2.5英寸全频喇叭和2个2英寸无源低音振膜），内置麦克风支持通话，通过JLAB应用程序自定义EQ和RGB灯效，IPX6防水，支持立体声配对，最多可同步100个JLab Party 扬声器；设计有产品的爆炸图和模块介绍。"
           }
-        },
-        {
-          "value": "INJOINIC英集芯IP2369是一款集成AFC/FCP/PD2.0/PD3.0/PD3.1等输入输出快充协议和同步升降压转换器的锂电池充放电管理芯片，充放电功率高达45W。",
-          "evidence": {
-            "value": "INJOINIC英集芯IP2369是一款集成AFC/FCP/PD2.0/PD3.0/PD3.1等输入输出快充协议和同步升降压转换器的锂电池充放电管理芯片，充放电功率高达45W。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP2369是一款集成AFC/FCP/PD2.0/PD3.0/PD3.1等输入输出快充协议和同步升降压转换器的锂电池充放电管理芯片，充放电功率高达45W。"
-          }
-        },
-        {
-          "value": "IP2369的高集成度与丰富功能，内部集成BUCK-BOOST升降压功率NMOS，只需一个电感实现同步降升压功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸，降低BOM成本。",
-          "evidence": {
-            "value": "IP2369的高集成度与丰富功能，内部集成BUCK-BOOST升降压功率NMOS，只需一个电感实现同步降升压功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸，降低BOM成本。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "IP2369的高集成度与丰富功能，内部集成BUCK-BOOST升降压功率NMOS，只需一个电感实现同步降升压功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸，降低BOM成本。"
-          }
-        },
-        {
-          "value": "英集芯IP2369支持 2/3/4/5/6节串联电芯，可通过外接电阻设置选择电池串联节数；IP2369支持外接电阻可设置电池类型，充满电压为3.65V/4.1V/4.2V/4.35V/4.4V；IP2369内置IC温度、电池NTC温度和输入电压控制检测环路，可以根据识别到的充电器功率，智能调节充电电流。",
-          "evidence": {
-            "value": "英集芯IP2369支持 2/3/4/5/6节串联电芯，可通过外接电阻设置选择电池串联节数；IP2369支持外接电阻可设置电池类型，充满电压为3.65V/4.1V/4.2V/4.35V/4.4V；IP2369内置IC温度、电池NTC温度和输入电压控制检测环路，可以根据识别到的充电器功率，智能调节充电电流。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP2369支持 2/3/4/5/6节串联电芯，可通过外接电阻设置选择电池串联节数；IP2369支持外接电阻可设置电池类型，充满电压为3.65V/4.1V/4.2V/4.35V/4.4V；IP2369内置IC温度、电池NTC温度和输入电压控制检测环路，可以根据识别到的充电器功率，智能调节充电电流。"
-          }
-        },
-        {
-          "value": "IP2369 待机功耗可低至不超过100uA。",
-          "evidence": {
-            "value": "IP2369 待机功耗可低至不超过100uA。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "IP2369 待机功耗可低至不超过100uA。"
-          }
         }
       ],
       "wear_design": [
@@ -416,6 +449,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040806542273.png",
+          "alt": "拆解报告：JLAB JBuds Party便携式蓝牙音箱-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040806541365.jpg",
           "alt": "拆解报告：JLAB JBuds Party便携式蓝牙音箱-我爱音频网",
@@ -709,5 +749,5 @@
       }
     }
   },
-  "data_completeness": 0.69
+  "data_completeness": 0.71
 }

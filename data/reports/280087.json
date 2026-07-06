@@ -103,9 +103,177 @@
             "source_type": "text",
             "source_text": "JL7006"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5516",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5516",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5516"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5516",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5516",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "英集芯IP5516"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "IP5516",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "IP5516",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "IP5516"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WINSEMI稳先微WSDF23A",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF23A",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "WINSEMI稳先微WSDF23A"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "稳先微WSDF23A",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "稳先微WSDF23A",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "稳先微WSDF23A"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "WINSEMI稳先微",
+          "model": "WINSEMI稳先微WSDF23A",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF23A",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载3.7V/40mAh锂电池，配备WINSEMI稳先微WSDF23A2N2H全集成锂电保护IC；"
+          }
         }
       ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5516",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5516",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载3.7V/350mAh锂电池组，采用INJOINIC英集芯IP5516充电仓管理SoC，集成MCU，支持300mA同步升压输出，500mA线性充电，支持数码管电量显示，为充电盒提供了完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/350mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/350mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载3.7V/350mAh锂电池组，采用INJOINIC英集芯IP5516充电仓管理SoC，集成MCU，支持300mA同步升压输出，500mA线性充电，支持数码管电量显示，为充电盒提供了完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "WINSEMI稳先微",
+          "model": "WINSEMI稳先微WSDF23A",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF23A",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载3.7V/40mAh锂电池，配备WINSEMI稳先微WSDF23A2N2H全集成锂电保护IC；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "JL杰理",
+          "model": "JL7006",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL7006",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "搭载10mm复合振膜喇叭，内置两颗MEMS麦克风，采用JL杰理JL7006F8蓝牙音频SoC，用于无线连接和音频信号处理。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/40mAh锂电池",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/40mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载3.7V/40mAh锂电池，配备WINSEMI稳先微WSDF23A2N2H全集成锂电保护IC；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "2",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "搭载10mm复合振膜喇叭，内置两颗MEMS麦克风，采用JL杰理JL7006F8蓝牙音频SoC，用于无线连接和音频信号处理。"
+          }
+        },
         {
           "component": "充电仓",
           "brand": "",
@@ -235,6 +403,48 @@
         {
           "component": "芯片/模组",
           "brand": "",
+          "model": "INJOINIC英集芯IP5516",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5516",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5516充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5516",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5516",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WINSEMI稳先微WSDF23A",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF23A",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "WINSEMI稳先微WSDF23A2N2H全集成锂电保护IC，具有过充、过放、过流、短路等电池需要的所有保护功能。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
           "model": "JL7006",
           "qty_hint": "1",
           "side": "",
@@ -244,20 +454,6 @@
             "confidence": 0.78,
             "source_type": "text",
             "source_text": "JL杰理JL7006F8蓝牙音频SoC，用于无线连接和音频信号处理。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "JL7006",
-          "qty_hint": "1",
-          "side": "耳机",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "JL7006",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "耳机内部搭载3.7V/40mAh锂电池，配备WINSEMI稳先微WSDF23A2N2H全集成锂电保护IC；搭载10mm复合振膜喇叭，内置两颗MEMS麦克风，采用JL杰理JL7006F8蓝牙音频SoC，用于无线连接和音频信号处理。"
           }
         }
       ],
@@ -275,7 +471,17 @@
             "source_text": "充电盒内部主要电路一览，电池导线与主板焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026062301073813.png",
+          "alt": "拆解报告：PHILIPS飞利浦TAT2520真无线降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上PHILIPS飞利浦TAT2520真无线降噪耳机的已知核心物料清单，方便大家查阅。 PHILIPS飞利浦TAT2520真无线降噪耳机外观采用了比较主流的设计，光滑圆润的亮面质感，体积轻巧便携，佩戴舒适轻盈。内部配置方面，充电盒搭载3.7V/350mAh锂电池组，采用INJOINIC英集芯IP5516充电仓管理SoC，集成MCU，支持300mA同步升压输出，500mA线性充电，支持数码管电量显示，为充电盒提供了完整的电源解决方案。 耳机内部搭载3.7V/40mAh锂电池，配备WINSEMI稳先微WSDF23A2N2H全集成锂电保护IC；搭载10mm复合振膜喇叭，内置两颗MEMS麦克风，采用JL杰理JL7006F8蓝牙音频SoC，用于无线连接和音频信号处理。"
     },
     "structure": {
       "form_factor": "真无线耳机TWS",
@@ -283,7 +489,7 @@
       "materials": [
         "硅胶"
       ],
-      "ip_rating": "IP5",
+      "ip_rating": null,
       "weight_g": "40.1g",
       "dimensions": [
         "详细功能配置方面，PHILIPS飞利浦TAT2520真无线降噪耳机搭载10mm复合振膜动圈单元，支持蓝牙5.4无线连接，可提供单次约6小时，综合约20小时的音乐聆听；支持主动降噪功能、通透模式，支持双麦AI通话抗风噪，为户外通勤等场景提供更清晰的音频效果；充电盒搭载LED数字电量屏显，为用户直观反馈剩余电量信息。",
@@ -384,53 +590,7 @@
           }
         }
       ],
-      "sealing_method": [
-        {
-          "value": "INJOINIC英集芯IP5516充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5516充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5516充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
-          }
-        },
-        {
-          "value": "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸。",
-          "evidence": {
-            "value": "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸。"
-          }
-        },
-        {
-          "value": "英集芯IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池；支持智能识别耳机插入/充满/拔出，自动进待机，待机功耗最小可至25μA；内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。",
-          "evidence": {
-            "value": "英集芯IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池；支持智能识别耳机插入/充满/拔出，自动进待机，待机功耗最小可至25μA；内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池；支持智能识别耳机插入/充满/拔出，自动进待机，待机功耗最小可至25μA；内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。"
-          }
-        },
-        {
-          "value": "INJOINIC英集芯IP5516详细资料图。",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5516详细资料图。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5516详细资料图。"
-          }
-        },
-        {
-          "value": "内部配置方面，充电盒搭载3.7V/350mAh锂电池组，采用INJOINIC英集芯IP5516充电仓管理SoC，集成MCU，支持300mA同步升压输出，500mA线性充电，支持数码管电量显示，为充电盒提供了完整的电源解决方案。",
-          "evidence": {
-            "value": "内部配置方面，充电盒搭载3.7V/350mAh锂电池组，采用INJOINIC英集芯IP5516充电仓管理SoC，集成MCU，支持300mA同步升压输出，500mA线性充电，支持数码管电量显示，为充电盒提供了完整的电源解决方案。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "内部配置方面，充电盒搭载3.7V/350mAh锂电池组，采用INJOINIC英集芯IP5516充电仓管理SoC，集成MCU，支持300mA同步升压输出，500mA线性充电，支持数码管电量显示，为充电盒提供了完整的电源解决方案。"
-          }
-        }
-      ],
+      "sealing_method": [],
       "wear_design": [
         {
           "value": "打开包装盒，取出内部所有物品，包括了主机、充电线、耳塞、产品说明书和保修卡等。",
@@ -470,6 +630,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026062301073813.png",
+          "alt": "拆解报告：PHILIPS飞利浦TAT2520真无线降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026062301073559.jpg",
           "alt": "拆解报告：PHILIPS飞利浦TAT2520真无线降噪耳机-我爱音频网",
@@ -512,12 +679,7 @@
         "座舱底部通过螺丝固定主板。",
         "充电盒内部主要电路一览，电池导线与主板焊接。"
       ],
-      "ip_rating_evidence": {
-        "value": "IP5",
-        "confidence": 0.8,
-        "source_type": "text",
-        "source_text": "IP5"
-      },
+      "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "40.1g",
         "confidence": 0.75,
@@ -798,5 +960,5 @@
       }
     }
   },
-  "data_completeness": 0.786
+  "data_completeness": 0.79
 }

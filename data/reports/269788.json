@@ -96,8 +96,65 @@
         "天线",
         "喇叭单元"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "晶晨A113X",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "晶晨A113X",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "晶晨A113X"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "A113X",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "A113X",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "A113X"
+          }
+        }
+      ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "晶晨",
+          "model": "晶晨A113X",
+          "qty_hint": "1",
+          "side": "",
+          "role": "保护IC",
+          "evidence": {
+            "value": "晶晨A113X",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "副板上，搭载了Southchip南芯SC2021A Type-C/PD和DPDM快充控制器，WCH沁恒CH334P USB HUB控制器芯片等方案， 主板上，采用了Southchip南芯SC5510EH的锂电保护IC，Amlogic晶晨A113X2智能音频芯片，CXMT长鑫存储CXDB5CBAM-MA-B SDRAM，AltoBeam高拓讯达ATBM6132 Wi-Fi4+BLE双模数传芯片，LEADPOWER率能SS8837T电机驱动，Telink泰凌微电子TLSR9517C多标准无线SoC，ACMESEMI至盛ACM8615S音频放大器，Longsys江波龙FEMDNN032G-C9A55"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "三、我爱音频网总结 最后附上影石Insta360 Wave AI录音全向麦克风的已知物料清单，方便大家查阅。"
+          }
+        },
         {
           "component": "麦克风",
           "brand": "",
@@ -229,7 +286,17 @@
       "packaging_notes": [
         "打开包装盒，取出内部所有物品，包括了主机、无线收发器、转接头、数据线、便携收纳袋、使用说明、保修卡、快速入门指南。"
       ],
-      "process_hints": []
+      "process_hints": [],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026031103423593.png",
+          "alt": "拆解报告：影石Insta360 Wave AI录音全向麦克风-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上影石Insta360 Wave AI录音全向麦克风的已知物料清单，方便大家查阅。 影石Insta360 Wave AI录音全向麦克风在外观方面，采用了创新的悬浮式设计，开机自动缓缓升起，极具仪式感，能够非常炫酷的融入到各种会议空间。修长的圆柱形主体，四周和顶部设置8颗麦克风，实现全方位的收音。底座内嵌1.82 英寸定制彩色触控屏，收纳时完全隐藏，升起后露出，兼顾操作便捷性与屏幕保护。 内部配置方面，由于丰富的功能，所有结构相对较为复杂，其中主要包括了底座内部的屏幕和副板，腔体内部的主板、电池、扬声器、滑轨、以及麦克风、天线等排线。副板上，搭载了Southchip南芯SC2021A Type-C/PD和DPDM快充控制器，WCH沁恒CH334P USB HUB控制器芯片等方案， 主板上，采用了Southchip南芯SC5510EH的锂电保护IC，Amlogic晶晨A113X2智能音频芯片，CXMT长鑫存储CXDB5CBAM-MA-B SDRAM，AltoBeam高拓讯达ATBM6132 Wi-Fi4+BLE双模数传芯片，LEADPOWER率能SS8837T电机驱动，Telink泰凌微电子TLSR9517C多标准无线SoC，ACMESEMI至盛ACM8615S音频放大器，Longsys江波龙FEMDNN032G-C9A55 eMMC存储芯片，Broadchip广芯BCT3236 LED驱动器，Cmsemicon中微BAT32G137GH微控制器，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等，"
     },
     "structure": {
       "form_factor": "音箱及其他音频设备",
@@ -364,6 +431,13 @@
       "sealing_method": [],
       "wear_design": [],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026031103423593.png",
+          "alt": "拆解报告：影石Insta360 Wave AI录音全向麦克风-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026031103425341.jpg",
           "alt": "拆解报告：影石Insta360 Wave AI录音全向麦克风-我爱音频网",
@@ -552,5 +626,5 @@
       }
     }
   },
-  "data_completeness": 0.59
+  "data_completeness": 0.622
 }

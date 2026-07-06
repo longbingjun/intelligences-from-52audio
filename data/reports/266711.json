@@ -116,6 +116,62 @@
       ],
       "bom_table": [
         {
+          "component": "芯片/模组",
+          "brand": "JL杰理",
+          "model": "JL7018",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL7018",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "右耳内置主板单元，采用了JL杰理科技JL7018F6蓝牙音频SoC，LPS微源半导体LP3201降压转换器、LP5308过压过流保护IC、LP4069锂电池充电IC等。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/500mAh锂电池",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/500mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "其他方面，左耳内部搭载PATL小锂新能源3.7V/500mAh锂电池。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "钛振膜",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "钛振膜",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "内部主要配置方面，左右耳均搭载了40mm镀钛振膜动圈喇叭，内置两颗驻极体麦克风。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "内部主要配置方面，左右耳均搭载了40mm镀钛振膜动圈喇叭，内置两颗驻极体麦克风。"
+          }
+        },
+        {
           "component": "麦克风",
           "brand": "",
           "model": "",
@@ -270,11 +326,21 @@
             "source_text": "转接板正面电路一览，与扬声器、麦克风和右耳内部元器件导线焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026012101215677.png",
+          "alt": "拆解报告：TOZO HT2头戴式降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上TOZO HT2头戴式降噪耳机已知的物料清单，方便大家查阅。 TOZO HT2头戴式降噪耳机在外观方面，采用了轻量化的人体工学设计，耳罩与头垫均采用了仿蛋白皮材质+记忆海绵，质地亲肤、富有弹性，佩戴柔软舒适。耳机结构功能性完整，耳罩支持上下左右旋转，头梁支持伸缩调节，还支持折叠功能，能够更好的满足个性化需求。 内部主要配置方面，左右耳均搭载了40mm镀钛振膜动圈喇叭，内置两颗驻极体麦克风。其他方面，左耳内部搭载PATL小锂新能源3.7V/500mAh锂电池。右耳内置主板单元，采用了JL杰理科技JL7018F6蓝牙音频SoC，LPS微源半导体LP3201降压转换器、LP5308过压过流保护IC、LP4069锂电池充电IC等。"
     },
     "structure": {
       "form_factor": "头戴式耳机",
-      "earbud_type": "入耳",
+      "earbud_type": "头戴",
       "materials": [],
       "ip_rating": null,
       "weight_g": null,
@@ -444,6 +510,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026012101215677.png",
+          "alt": "拆解报告：TOZO HT2头戴式降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026012101215444.jpg",
           "alt": "拆解报告：TOZO HT2头戴式降噪耳机-我爱音频网",

@@ -98,8 +98,163 @@
         "喇叭单元",
         "降噪系统"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5518",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5518",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5518"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5518",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5518",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "英集芯IP5518"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "Bluetrum中科蓝讯BT8932H",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8932H",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "Bluetrum中科蓝讯BT8932H"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "中科蓝讯BT8932H",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "中科蓝讯BT8932H",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "中科蓝讯BT8932H"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "BT8932H",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BT8932H",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "BT8932H"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5518",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5518",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了ST神通天下3.7V/520mAh锂电池组，采用INJOINIC英集芯IP5518电源管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，且支持智能双向通讯，带来耳机秒回联手机的优质体验；"
+          }
+        }
+      ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5518",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5518",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了ST神通天下3.7V/520mAh锂电池组，采用INJOINIC英集芯IP5518电源管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，且支持智能双向通讯，带来耳机秒回联手机的优质体验；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/520mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/520mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了ST神通天下3.7V/520mAh锂电池组，采用INJOINIC英集芯IP5518电源管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，且支持智能双向通讯，带来耳机秒回联手机的优质体验；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Bluetrum中科蓝讯",
+          "model": "Bluetrum中科蓝讯BT8932H",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8932H",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用Bluetrum中科蓝讯BT8932H蓝牙音频SoC，用于无线连接和音频数据处理。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/40mAh锂电池",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/40mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内置ST神通天下3.7V/40mAh锂电池供电；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "3",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "采用三颗MEMS麦克风，提供精准拾音；"
+          }
+        },
         {
           "component": "充电仓",
           "brand": "",
@@ -239,6 +394,48 @@
             "source_type": "text",
             "source_text": "耳机柄底部的语音降噪麦克风拾音孔特写，两侧设置充电触点。"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5518",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5518",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5518 TWS耳机充电仓管理SoC，是一款集成MCU，集成了5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5518",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5518",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "英集芯IP5518的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "Bluetrum中科蓝讯BT8932H",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8932H",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Bluetrum中科蓝讯BT8932H蓝牙音频SoC，内置32位高性能RISC-V处理器核心，符合蓝牙6.0+BR+EDR+BLE规范，具有高性能立体声DAC和三通道高性能ADC；支持三路MIC放大器输入，支持灵活的音频均衡器调整，支持前馈、反馈及混合主动降噪，神经网络处理单元（NPU），低功耗触摸键、入耳检测，集成PMU，如充电器/降压/LDO。"
+          }
         }
       ],
       "supply_hints": [],
@@ -255,7 +452,17 @@
             "source_text": "充电盒内部主要电路一览，电池导线与主板焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026060503521154.png",
+          "alt": "拆解报告：半至BAN EAR PLUS真无线降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上半至BAN EAR PLUS真无线降噪耳机的已知核心物料清单，方便大家查阅。 半至BAN EAR PLUS真无线降噪耳机充电盒采用圆角方形设计，体积轻巧便携；渐变紫电镀工艺，呈现金属般光泽与质感，颜值出众，触感细腻；隐藏式转轴结构，让渐变更加流畅。耳机采用柄状的入耳式设计，内侧烤漆质感，光滑亲肤；背部渐变紫电镀工艺盖板装饰，时尚潮流。 内部主要配置方面，充电盒搭载了ST神通天下3.7V/520mAh锂电池组，采用INJOINIC英集芯IP5518电源管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，且支持智能双向通讯，带来耳机秒回联手机的优质体验；其他还采用了Wayon维安WP1230过压保护IC、霍尔元件等方案。 耳机内置ST神通天下3.7V/40mAh锂电池供电；搭载13mm第二代负电超线性单元，提供出色音质；采用三颗MEMS麦克风，提供精准拾音；采用Bluetrum中科蓝讯BT8932H蓝牙音频SoC，用于无线连接和音频数据处理。"
     },
     "structure": {
       "form_factor": "真无线耳机TWS",
@@ -263,7 +470,7 @@
       "materials": [
         "硅胶"
       ],
-      "ip_rating": "IP5",
+      "ip_rating": null,
       "weight_g": "49.3g",
       "dimensions": [
         "详细功能配置方面，半至BAN EAR PLUS真无线降噪耳机搭载13mm第二代负电超线性单元，能够有效降低非线性失真，还原更清晰的音频细节；搭载六麦克风阵列，支持56dB 5000Hz深度宽频降噪，支持自适应降噪和通透模式，支持AI通话降噪，满足不同场景的降噪需求；其他还支持低延迟游戏模式，双设备连接、开盖即连等功能。",
@@ -355,53 +562,7 @@
           }
         }
       ],
-      "sealing_method": [
-        {
-          "value": "INJOINIC英集芯IP5518 TWS耳机充电仓管理SoC，是一款集成MCU，集成了5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5518 TWS耳机充电仓管理SoC，是一款集成MCU，集成了5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5518 TWS耳机充电仓管理SoC，是一款集成MCU，集成了5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
-          }
-        },
-        {
-          "value": "英集芯IP5518的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
-          "evidence": {
-            "value": "英集芯IP5518的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5518的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
-          }
-        },
-        {
-          "value": "英集芯IP5518非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。",
-          "evidence": {
-            "value": "英集芯IP5518非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5518非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。"
-          }
-        },
-        {
-          "value": "英集芯IP5518芯片内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%。",
-          "evidence": {
-            "value": "英集芯IP5518芯片内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5518芯片内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%。"
-          }
-        },
-        {
-          "value": "DC-DC转换器开关频率在1.5MHz，可以支持低成本电感和电容；英集芯IP5518的线性充电提供最大500mA充电电流，可灵活配置最大充电电流。",
-          "evidence": {
-            "value": "DC-DC转换器开关频率在1.5MHz，可以支持低成本电感和电容；英集芯IP5518的线性充电提供最大500mA充电电流，可灵活配置最大充电电流。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "DC-DC转换器开关频率在1.5MHz，可以支持低成本电感和电容；英集芯IP5518的线性充电提供最大500mA充电电流，可灵活配置最大充电电流。"
-          }
-        }
-      ],
+      "sealing_method": [],
       "wear_design": [
         {
           "value": "打开包装盒，取出内部所有物品，包括了主机、充电线、耳塞和使用说明书。",
@@ -441,6 +602,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026060503521154.png",
+          "alt": "拆解报告：半至BAN EAR PLUS真无线降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026052903335678.jpg",
           "alt": "拆解报告：半至BAN EAR PLUS真无线降噪耳机-我爱音频网",
@@ -483,12 +651,7 @@
         "卸掉螺丝，取掉主板和电池。",
         "详细功能配置方面，半至BAN EAR PLUS真无线降噪耳机搭载13mm第二代负电超线性单元，能够有效降低非线性失真，还原更清晰的音频细节；搭载六麦克风阵列，支持56dB 5000Hz深度宽频降噪，支持自适应降噪和通透模式，支持AI通话降噪，满足不同场景的降噪需求；其他还支持低延迟游戏模式，双设备连接、开盖即连等功能。"
       ],
-      "ip_rating_evidence": {
-        "value": "IP5",
-        "confidence": 0.8,
-        "source_type": "text",
-        "source_text": "IP5"
-      },
+      "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "49.3g",
         "confidence": 0.75,
@@ -764,5 +927,5 @@
       }
     }
   },
-  "data_completeness": 0.856
+  "data_completeness": 0.876
 }

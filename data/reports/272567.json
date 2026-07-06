@@ -90,8 +90,93 @@
         "天线",
         "喇叭单元"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5516",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5516",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5516"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5516",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5516",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "英集芯IP5516"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "IP5516",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "IP5516",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "IP5516"
+          }
+        }
+      ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5516",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5516",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，采用了INJOINIC英集芯IP5516充电盒管理SoC，负责内置电池的充放电管理；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "弘捷",
+          "model": "3.7V/580mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/580mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了弘捷新能源3.7V/580mAh锂电池。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载17mm x 12mm跑道型三磁超线性喇叭，单耳内置2颗瑞勤电子的MEMS麦克风拾音；"
+          }
+        },
         {
           "component": "主板/PCBA",
           "brand": "",
@@ -259,6 +344,20 @@
             "source_type": "text",
             "source_text": "为耳机充电的Pogo Pin连接器特写，设置有两组，对应两个耳机。"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5516",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5516",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "英集芯IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。"
+          }
         }
       ],
       "supply_hints": [],
@@ -293,16 +392,26 @@
             "source_text": "腔体内部结构一览，设置主板单元，与导线焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040910310614.png",
+          "alt": "拆解报告：QCY意象Crossky R70开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上QCY意象Crossky R70开放式耳机的已知物料清单，方便大家查阅。 QCY意象Crossky R70开放式耳机在外观方面，充电盒采用了扁平的跑道型设计，体积轻薄，便于携带；表面覆盖类肤涂层，触感舒适细腻。耳机采用了耳挂式\"小飞翼\"设计，纤细耳挂与眼镜佩戴互不干扰；液态硅胶材质包裹，亲肤柔和；还采用了35.6°夹角设计，进一步提升贴合度，实现长时间舒适佩戴不压耳。 内部主要配置方面，充电盒搭载了弘捷新能源3.7V/580mAh锂电池。主板上，采用了INJOINIC英集芯IP5516充电盒管理SoC，负责内置电池的充放电管理；采用NuVolta伏达半导体NU1680芯片，负责无线充电功能；采用苏州赛芯电子科技股份XB5332A锂电保护芯片，负责电池的过充电、过放电、过电流和负载短路等保护。 耳机内部搭载17mm x 12mm跑道型三磁超线性喇叭，单耳内置2颗瑞勤电子的MEMS麦克风拾音；内置电池容量0.231Wh，同样来自弘捷新能源；主板上，采用了WUQI物奇WQ7035MX智能音频SoC，Sunlord顺络电子MPHM系列功率电感和SDCL0603Q系列叠层陶瓷电感等方案。"
     },
     "structure": {
       "form_factor": "开放式耳机",
-      "earbud_type": "入耳",
+      "earbud_type": "开放",
       "materials": [
         "硅胶",
         "液态硅胶"
       ],
-      "ip_rating": "IP5",
+      "ip_rating": null,
       "weight_g": "102.8g",
       "dimensions": [
         "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
@@ -394,53 +503,7 @@
           }
         }
       ],
-      "sealing_method": [
-        {
-          "value": "INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
-          }
-        },
-        {
-          "value": "英集芯IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。",
-          "evidence": {
-            "value": "英集芯IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。"
-          }
-        },
-        {
-          "value": "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
-          "evidence": {
-            "value": "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
-          }
-        },
-        {
-          "value": "INJOINIC英集芯IP5516详细资料图。",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5516详细资料图。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5516详细资料图。"
-          }
-        },
-        {
-          "value": "主板上，采用了INJOINIC英集芯IP5516充电盒管理SoC，负责内置电池的充放电管理；采用NuVolta伏达半导体NU1680芯片，负责无线充电功能；采用苏州赛芯电子科技股份XB5332A锂电保护芯片，负责电池的过充电、过放电、过电流和负载短路等保护。",
-          "evidence": {
-            "value": "主板上，采用了INJOINIC英集芯IP5516充电盒管理SoC，负责内置电池的充放电管理；采用NuVolta伏达半导体NU1680芯片，负责无线充电功能；采用苏州赛芯电子科技股份XB5332A锂电保护芯片，负责电池的过充电、过放电、过电流和负载短路等保护。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "主板上，采用了INJOINIC英集芯IP5516充电盒管理SoC，负责内置电池的充放电管理；采用NuVolta伏达半导体NU1680芯片，负责无线充电功能；采用苏州赛芯电子科技股份XB5332A锂电保护芯片，负责电池的过充电、过放电、过电流和负载短路等保护。"
-          }
-        }
-      ],
+      "sealing_method": [],
       "wear_design": [
         {
           "value": "QCY Crossky R70是其推出的一款兼顾舒适佩戴和高品质音质的开放式耳机产品。",
@@ -480,6 +543,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040910310614.png",
+          "alt": "拆解报告：QCY意象Crossky R70开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040910311719.jpg",
           "alt": "拆解报告：QCY意象Crossky R70开放式耳机-我爱音频网",
@@ -522,12 +592,7 @@
         "音腔盖板上的通话降噪麦克风拾音孔特写。",
         "音腔底部的通话麦克风拾音孔特写。"
       ],
-      "ip_rating_evidence": {
-        "value": "IP5",
-        "confidence": 0.8,
-        "source_type": "text",
-        "source_text": "IP5"
-      },
+      "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "102.8g",
         "confidence": 0.75,
@@ -829,5 +894,5 @@
       }
     }
   },
-  "data_completeness": 0.868
+  "data_completeness": 0.886
 }

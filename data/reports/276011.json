@@ -101,9 +101,121 @@
             "source_type": "text",
             "source_text": "BES2710IUC"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "思远半导体SY8835",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "思远半导体SY8835",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "思远半导体SY8835"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "SY8835",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "SY8835",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "SY8835"
+          }
         }
       ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "思远半导体",
+          "model": "思远半导体SY8835",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "思远半导体SY8835",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了GF新余赣锋3.87V/513mAh锂电池，主板上采用思远半导体SY8835蓝牙耳机充电仓解决方案，负责内置电池的充放电管理，同时集成通信模块，可以实现耳机仓到耳机端的高速通信；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "赣锋",
+          "model": "3.87V/513mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.87V/513mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了GF新余赣锋3.87V/513mAh锂电池，主板上采用思远半导体SY8835蓝牙耳机充电仓解决方案，负责内置电池的充放电管理，同时集成通信模块，可以实现耳机仓到耳机端的高速通信；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "BES恒玄科技",
+          "model": "BES2710IUC",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES2710IUC",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用BES恒玄科技BES2710IUC蓝牙音频SoC，用于无线连接和音频数据处理；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "赣锋",
+          "model": "3.85V/51mAh软包扣式",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.85V/51mAh软包扣式",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用GF新余赣锋3.85V/51mAh软包扣式电池供电。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "10mm 动圈单元",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "10mm 动圈单元",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载了10mm动圈单元发声，单耳内置1颗瑞勤电子的MEMS麦克风拾音；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载了10mm动圈单元发声，单耳内置1颗瑞勤电子的MEMS麦克风拾音；"
+          }
+        },
         {
           "component": "充电仓",
           "brand": "",
@@ -219,6 +331,34 @@
         {
           "component": "芯片/模组",
           "brand": "",
+          "model": "思远半导体SY8835",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "思远半导体SY8835",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "思远半导体SY8835蓝牙耳机充电仓解决方案，是一款专为蓝牙耳机充电仓设计的高集成度芯片。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "思远半导体SY8835",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "思远半导体SY8835",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "思远半导体SY8835集成了MCU模块，内核为8bit RISC CPU，兼容RISC-52指令集，内置16k Bytes FLASH空间，4k Bytes NVR空间，1k Bytes SRAM，一个10bit SAR ADC，1路4通道PWM，2个16bit Timer，3个半双工UART。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
           "model": "BES2710IUC",
           "qty_hint": "1",
           "side": "",
@@ -228,20 +368,6 @@
             "confidence": 0.78,
             "source_type": "text",
             "source_text": "BES恒玄科技BES2710IUC蓝牙音频SoC，支持蓝牙双模5.4，用于无线连接和音频数据处理。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "BES2710IUC",
-          "qty_hint": "1",
-          "side": "耳机",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "BES2710IUC",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "耳机内部搭载了10mm动圈单元发声，单耳内置1颗瑞勤电子的MEMS麦克风拾音；采用BES恒玄科技BES2710IUC蓝牙音频SoC，用于无线连接和音频数据处理；采用GF新余赣锋3.85V/51mAh软包扣式电池供电。"
           }
         }
       ],
@@ -266,7 +392,17 @@
             "source_text": "腔体内部打胶固定主板单元，与排线焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026051506245741.png",
+          "alt": "拆解报告：vivo TWS 5i真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上vivo TWS 5i真无线耳机的已知核心物料清单，方便大家查阅。 vivo TWS 5i真无线耳机在外观方面，采用比较主流的设计，鹅卵石状充电盒，烤漆质感，光滑圆润，轻巧便携；柄状的入耳式耳机，采用家族式水滴形耳机柄设计，体积轻盈，搭配3副不同尺寸的硅胶耳塞，能够提供舒适稳固的佩戴体验。 内部主要配置方面，充电盒搭载了GF新余赣锋3.87V/513mAh锂电池，主板上采用思远半导体SY8835蓝牙耳机充电仓解决方案，负责内置电池的充放电管理，同时集成通信模块，可以实现耳机仓到耳机端的高速通信；采用ICM创芯微CM1137-CCS锂电池保护IC，负责内置电池的充放电保护。 耳机内部搭载了10mm动圈单元发声，单耳内置1颗瑞勤电子的MEMS麦克风拾音；采用BES恒玄科技BES2710IUC蓝牙音频SoC，用于无线连接和音频数据处理；采用GF新余赣锋3.85V/51mAh软包扣式电池供电。"
     },
     "structure": {
       "form_factor": "真无线耳机TWS",
@@ -415,6 +551,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026051506245741.png",
+          "alt": "拆解报告：vivo TWS 5i真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026051506244713.jpg",
           "alt": "拆解报告：vivo TWS 5i真无线耳机-我爱音频网",
@@ -605,5 +748,5 @@
       }
     }
   },
-  "data_completeness": 0.796
+  "data_completeness": 0.828
 }

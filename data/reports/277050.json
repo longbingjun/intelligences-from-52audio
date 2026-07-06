@@ -78,8 +78,121 @@
         "麦克风",
         "天线"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5516",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5516",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5516"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5516",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5516",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "英集芯IP5516"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "IP5516",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "IP5516",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "IP5516"
+          }
+        }
+      ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5516",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5516",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，搭载了INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为充电仓提供完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/300mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/300mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了ST神通天下3.7V/300mAh锂电池组，配备有独立保护板负责过充电、过放电、过电流和短路等保护；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/40mAh锂电池",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/40mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载ST神通天下3.7V/40mAh锂电池供电，采用13mm圆形低失真动圈单元+微型环形平面磁高音单元提供全频段的出色音频体验，单耳内置一颗敏芯微电子的MEMS麦克风拾音；"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "动圈单元",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "动圈单元",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载ST神通天下3.7V/40mAh锂电池供电，采用13mm圆形低失真动圈单元+微型环形平面磁高音单元提供全频段的出色音频体验，单耳内置一颗敏芯微电子的MEMS麦克风拾音；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载ST神通天下3.7V/40mAh锂电池供电，采用13mm圆形低失真动圈单元+微型环形平面磁高音单元提供全频段的出色音频体验，单耳内置一颗敏芯微电子的MEMS麦克风拾音；"
+          }
+        },
         {
           "component": "充电仓",
           "brand": "",
@@ -219,6 +332,20 @@
             "source_type": "text",
             "source_text": "后端腔体外侧通过索拉里斯文的“ROVER”和“SOLARIS”，以及金色的“声痕”图案装饰，同时也是触控区域。"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5516",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5516",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "英集芯IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。"
+          }
         }
       ],
       "supply_hints": [],
@@ -244,16 +371,26 @@
             "source_text": "耳机主板另外一侧电路一览，边缘焊接连接充电盒的金属柱。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026052206241293.png",
+          "alt": "拆解报告：水月雨MOONDROP U.C.T.S.开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上水月雨MOONDROP U.C.T.S.开放式耳机的已知核心物料清单，方便大家查阅。 作为一款跨界联名力作，外观设计无疑是水月雨MOONDROP U.C.T.S.开放式耳机的核心亮点之一。产品以《鸣潮》游戏为设计灵感，打造旋转式充电仓， 既拥有炫酷吸睛的视觉效果，又具备便捷顺滑的开合体验；耳夹式耳机采用柔韧不易变形的钛合金骨架，夹持力适中，佩戴舒适稳固；同时融入游戏元素装饰，让玩家一眼就能get到专属仪式感。 内部主要配置方面，充电盒搭载了ST神通天下3.7V/300mAh锂电池组，配备有独立保护板负责过充电、过放电、过电流和短路等保护；主板上，搭载了INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为充电仓提供完整的电源解决方案。 耳机内部搭载ST神通天下3.7V/40mAh锂电池供电，采用13mm圆形低失真动圈单元+微型环形平面磁高音单元提供全频段的出色音频体验，单耳内置一颗敏芯微电子的MEMS麦克风拾音；主控芯片为水月雨定制MOONDROP TWS-01无线音频SOC，采用22nm工艺制程，支持最新一代蓝牙音频技术，提供出色的音频处理能力和稳定、低延迟的无线连接。"
     },
     "structure": {
       "form_factor": "开放式耳机",
-      "earbud_type": "入耳",
+      "earbud_type": "开放",
       "materials": [
         "钛合金",
         "PC"
       ],
-      "ip_rating": "IP5",
+      "ip_rating": null,
       "weight_g": "72.6g",
       "dimensions": [
         "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸。",
@@ -354,53 +491,7 @@
           }
         }
       ],
-      "sealing_method": [
-        {
-          "value": "INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
-          }
-        },
-        {
-          "value": "英集芯IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。",
-          "evidence": {
-            "value": "英集芯IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。"
-          }
-        },
-        {
-          "value": "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸。",
-          "evidence": {
-            "value": "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸。"
-          }
-        },
-        {
-          "value": "INJOINIC英集芯IP5516详细资料图。",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5516详细资料图。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5516详细资料图。"
-          }
-        },
-        {
-          "value": "内部主要配置方面，充电盒搭载了ST神通天下3.7V/300mAh锂电池组，配备有独立保护板负责过充电、过放电、过电流和短路等保护；主板上，搭载了INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为充电仓提供完整的电源解决方案。",
-          "evidence": {
-            "value": "内部主要配置方面，充电盒搭载了ST神通天下3.7V/300mAh锂电池组，配备有独立保护板负责过充电、过放电、过电流和短路等保护；主板上，搭载了INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为充电仓提供完整的电源解决方案。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "内部主要配置方面，充电盒搭载了ST神通天下3.7V/300mAh锂电池组，配备有独立保护板负责过充电、过放电、过电流和短路等保护；主板上，搭载了INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为充电仓提供完整的电源解决方案。"
-          }
-        }
-      ],
+      "sealing_method": [],
       "wear_design": [
         {
           "value": "水月雨MOONDROP U.C.T.S.开放式耳机在外观方面，以《鸣潮》游戏为灵感，打造了旋转式充电仓和耳夹式耳机，颜值出众，极具辨识度。",
@@ -440,6 +531,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026052206241293.png",
+          "alt": "拆解报告：水月雨MOONDROP U.C.T.S.开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026052206241831.jpg",
           "alt": "拆解报告：水月雨MOONDROP U.C.T.S.开放式耳机-我爱音频网",
@@ -482,12 +580,7 @@
         "沿合模线打开音腔，内部仅设置有扬声器单元。",
         "耳机搭载了同轴双单元正面特写。据官方介绍，下层为13mm圆形低失真动圈单元，用于提供澎湃自然的中低音效果；上层为微型环形平面磁高音单元，让高音可以平滑延展覆盖至40kHz以上。"
       ],
-      "ip_rating_evidence": {
-        "value": "IP5",
-        "confidence": 0.8,
-        "source_type": "text",
-        "source_text": "IP5"
-      },
+      "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "72.6g",
         "confidence": 0.75,
@@ -752,5 +845,5 @@
       }
     }
   },
-  "data_completeness": 0.826
+  "data_completeness": 0.844
 }

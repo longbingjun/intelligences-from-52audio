@@ -208,6 +208,52 @@ a:hover { text-decoration: underline; }
 
 .filter-btn.active { background: var(--text); color: #fff; border-color: var(--text); }
 
+/* ---- secondary filter (ASR status) ---- */
+.filter-bar-secondary {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 8px;
+  margin-bottom: 16px;
+  font-size: 13px;
+}
+.filter-bar-secondary .filter-bar-label { color: var(--muted, #64748b); margin-right: 4px; }
+.filter-btn-asr {
+  border: 1px solid var(--border);
+  background: var(--surface);
+  padding: 4px 12px;
+  border-radius: 999px;
+  font-size: 12px;
+  cursor: pointer;
+  color: var(--text);
+}
+.filter-btn-asr.active { background: #7c3aed; color: #fff; border-color: #7c3aed; }
+
+/* ---- ASR tag on video cards ---- */
+.asr-tag { font-size: 11px; padding: 1px 6px; border-radius: 4px; background: #f1f5f9; color: #475569; }
+.asr-tag.asr-done { background: #dbeafe; color: #1e40af; }
+.asr-tag.asr-pending { background: #fef3c7; color: #92400e; }
+.asr-tag.asr-failed { background: #fee2e2; color: #b91c1c; }
+
+/* ---- source badge in matrix ---- */
+.source-badge {
+  display: inline-block;
+  font-size: 11px;
+  padding: 1px 6px;
+  border-radius: 4px;
+  margin-right: 6px;
+  vertical-align: middle;
+}
+.source-badge.source-report { background: #dbeafe; color: #1e40af; }
+.source-badge.source-video { background: #fef3c7; color: #92400e; }
+.matrix-hint { color: var(--muted, #64748b); font-size: 12px; }
+
+/* ---- video detail asr transcript ---- */
+.asr-transcript { margin: 12px 0; }
+.asr-text { white-space: pre-wrap; max-height: 320px; overflow-y: auto; background: var(--surface); padding: 10px; border-radius: 6px; font-size: 13px; line-height: 1.6; }
+.video-embed-wrap { margin: 12px 0; aspect-ratio: 16/9; }
+.video-embed-wrap iframe { width: 100%; height: 100%; border: 0; }
+
 /* ---- Search toolbar ---- */
 .search-toolbar {
   background: var(--surface);
@@ -386,6 +432,73 @@ a:hover { text-decoration: underline; }
 .matrix-table th { background: #f8fafc; font-weight: 600; }
 .matrix-table tr:hover td { background: #f8fafc; }
 .matrix-panels { overflow-x: auto; }
+
+.matrix-role-bar { margin-bottom: 14px; }
+.matrix-role-btn.active { background: var(--primary); color: #fff; border-color: var(--primary); }
+.matrix-panels-role { overflow-x: auto; }
+.matrix-role-table th[data-col],
+.matrix-role-table td[data-col] { /* JS toggles display */ }
+
+.cell-ev { margin: 0; }
+.cell-ev > summary {
+  cursor: pointer;
+  list-style: none;
+  font-size: 13px;
+}
+.cell-ev > summary::-webkit-details-marker { display: none; }
+.cell-ev > summary::after { content: " ▾"; color: var(--text-muted); font-size: 11px; }
+.cell-ev .ev-text {
+  margin: 6px 0 0;
+  font-size: 12px;
+  color: var(--text-muted);
+  background: #f8fafc;
+  border-left: 2px solid var(--border);
+  padding: 6px 8px;
+  border-radius: 0 6px 6px 0;
+  white-space: pre-wrap;
+  max-height: 220px;
+  overflow: auto;
+}
+
+.matrix-entry-link {
+  margin: 0 0 14px;
+  font-size: 14px;
+  background: #eff6ff;
+  border: 1px solid #bfdbfe;
+  border-radius: 10px;
+  padding: 10px 14px;
+}
+.matrix-entry-link a { font-weight: 600; }
+
+/* ---- Compare page ---- */
+.compare-wrap { overflow-x: auto; }
+.compare-table {
+  border-collapse: collapse;
+  font-size: 13px;
+  background: var(--surface);
+  border-radius: var(--radius);
+  overflow: hidden;
+  box-shadow: var(--shadow);
+  min-width: 100%;
+}
+.compare-table th, .compare-table td {
+  border: 1px solid var(--border);
+  padding: 9px 10px;
+  text-align: left;
+  vertical-align: top;
+  min-width: 140px;
+}
+.compare-table thead th { background: #f8fafc; font-weight: 600; position: sticky; top: 0; }
+.compare-table thead th a { font-weight: 600; }
+.compare-table .param-name {
+  font-weight: 600;
+  color: var(--primary-dark);
+  background: #f8fafc;
+  white-space: nowrap;
+}
+.compare-table .param-name .annot-label { cursor: help; border-bottom: 1px dashed var(--text-muted); }
+
+.annot-label { cursor: help; border-bottom: 1px dashed var(--text-muted); }
 
 .export-btn {
   margin-left: auto;

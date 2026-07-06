@@ -73,9 +73,121 @@
             "source_type": "text",
             "source_text": "BES2710IHC"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WINSEMI稳先微WSDF1311C",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF1311C",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "WINSEMI稳先微WSDF1311C"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "稳先微WSDF1311C",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "稳先微WSDF1311C",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "稳先微WSDF1311C"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WSDF1311C",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "WSDF1311C",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "WSDF1311C"
+          }
         }
       ],
       "bom_table": [
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/550mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/550mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了CEL金赛尔3.7V/550mAh锂电池，配备有电池保护板负责过充过放过流等保护。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "WINSEMI稳先微",
+          "model": "WINSEMI稳先微WSDF1311C",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF1311C",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内置49mAh钢壳扣式电池，配备WINSEMI稳先微WSDF1311C锂电保护IC；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "BES恒玄科技",
+          "model": "BES2710IHC",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES2710IHC",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主控芯片为BES恒玄科技BES2710IHC蓝牙音频SoC。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "振膜动圈",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "振膜动圈",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载了12mm镀钛复合振膜动圈单元，单耳内置一颗瑞勤电子的MEMS麦克风拾音；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载了12mm镀钛复合振膜动圈单元，单耳内置一颗瑞勤电子的MEMS麦克风拾音；"
+          }
+        },
         {
           "component": "充电仓",
           "brand": "",
@@ -247,15 +359,15 @@
         {
           "component": "芯片/模组",
           "brand": "",
-          "model": "BES2710IHC",
+          "model": "WINSEMI稳先微WSDF1311C",
           "qty_hint": "1",
-          "side": "耳机",
+          "side": "",
           "role": "主控/蓝牙",
           "evidence": {
-            "value": "BES2710IHC",
+            "value": "WINSEMI稳先微WSDF1311C",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "耳机内部搭载了12mm镀钛复合振膜动圈单元，单耳内置一颗瑞勤电子的MEMS麦克风拾音；内置49mAh钢壳扣式电池，配备WINSEMI稳先微WSDF1311C锂电保护IC；主控芯片为BES恒玄科技BES2710IHC蓝牙音频SoC。"
+            "source_text": "WINSEMI稳先微WSDF1311C锂电保护IC，具有过充、过放、过流、短路等电池需要的所有保护功能。"
           }
         }
       ],
@@ -273,13 +385,23 @@
             "source_text": "断开焊接的导线，取出腔体内部的所有元器件。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026032010591935.png",
+          "alt": "拆解报告：漫步者花再HALO CLIP开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上漫步者花再HALO CLIP开放式耳机的已知物料清单，方便大家查阅。 漫步者花再HALO CLIP开放式耳机在外观方面，充电盒采用了圆角方形设计，类金属磨砂工艺处理，带来出色质感。同时，还融入了深渊镜灯效，提供个性化的炫酷体验。耳机采用了耳夹式设计，体积小巧轻盈，佩戴持久舒适。 内部主要配置方面，充电盒搭载了CEL金赛尔3.7V/550mAh锂电池，配备有电池保护板负责过充过放过流等保护。主板上，搭载了SinhMicro昇生微电子SSP707电源管理芯片，负责内置电池的充放电管理；采用了昇生微SS88F9H POWER MCU，负责充电盒整机控制。 耳机内部搭载了12mm镀钛复合振膜动圈单元，单耳内置一颗瑞勤电子的MEMS麦克风拾音；内置49mAh钢壳扣式电池，配备WINSEMI稳先微WSDF1311C锂电保护IC；主控芯片为BES恒玄科技BES2710IHC蓝牙音频SoC。"
     },
     "structure": {
       "form_factor": "开放式耳机",
-      "earbud_type": "入耳",
+      "earbud_type": "开放",
       "materials": [],
-      "ip_rating": "IP5",
+      "ip_rating": null,
       "weight_g": "74.6g",
       "dimensions": [
         "在功能配置方面，该产品搭载12mm镀钛复合振膜，支持BassTurbo低音增压引擎技术，提升低音效果的同时，保障音乐细节和清晰度；支持自研DPW定向声波传音技术，保护听音隐私；还支持原声、人声、动感、空间音频、隐私保护等6种音效模式，满足不同场景使用需求。",
@@ -371,17 +493,7 @@
           }
         }
       ],
-      "sealing_method": [
-        {
-          "value": "包装盒另外一侧介绍有产品的功能特点：深渊氛围灯、12mm大尺寸单元、IP56级防尘防水、双设备连接、AI通话降噪。",
-          "evidence": {
-            "value": "包装盒另外一侧介绍有产品的功能特点：深渊氛围灯、12mm大尺寸单元、IP56级防尘防水、双设备连接、AI通话降噪。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "包装盒另外一侧介绍有产品的功能特点：深渊氛围灯、12mm大尺寸单元、IP56级防尘防水、双设备连接、AI通话降噪。"
-          }
-        }
-      ],
+      "sealing_method": [],
       "wear_design": [
         {
           "value": "此次将要拆解的\n漫步者花再HALO CLIP开放式耳机\n，是一款采用了耳夹式设计的产品，造型时尚，佩戴舒适轻盈。",
@@ -421,6 +533,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026032010591935.png",
+          "alt": "拆解报告：漫步者花再HALO CLIP开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026032010590851.jpg",
           "alt": "拆解报告：漫步者花再HALO CLIP开放式耳机-我爱音频网",
@@ -463,12 +582,7 @@
         "此次将要拆解的漫步者花再HALO CLIP开放式耳机，是一款采用了耳夹式设计的产品，造型时尚，佩戴舒适轻盈。在功能配置方面，该产品搭载12mm镀钛复合振膜，支持BassTurbo低音增压引擎技术，提升低音效果的同时，保障音乐细节和清晰度；支持自研DPW定向声波传音技术，保护听音隐私；还支持原声、人声、动感、空间音频、隐私保护等6种音效模式，满足不同场景使用需求。",
         "前腔内部扬声器单元结构一览。"
       ],
-      "ip_rating_evidence": {
-        "value": "IP5",
-        "confidence": 0.8,
-        "source_type": "text",
-        "source_text": "IP5"
-      },
+      "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "74.6g",
         "confidence": 0.75,
@@ -719,5 +833,5 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.714
+  "data_completeness": 0.718
 }

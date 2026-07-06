@@ -94,9 +94,177 @@
             "source_type": "text",
             "source_text": "JL7103"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5513V",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513V",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5513V"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5513V",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5513V",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "英集芯IP5513V"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WINSEMI稳先微WSDF2310C",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF2310C",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "WINSEMI稳先微WSDF2310C"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "稳先微WSDF2310C",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "稳先微WSDF2310C",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "稳先微WSDF2310C"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WSDF2310C",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "WSDF2310C",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "WSDF2310C"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5513V",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513V",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上搭载INJOINIC英集芯IP5513V充电仓管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等丰富的功能，为充电仓提供完整的电源解决方案。"
+          }
         }
       ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5513V",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513V",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上搭载INJOINIC英集芯IP5513V充电仓管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等丰富的功能，为充电仓提供完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.72V/580mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.72V/580mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了VDL紫建电子3.72V/580mAh锂电池组，配备有一体化锂电保护IC负责过充电、过放电、过电流等保护。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "WINSEMI稳先微",
+          "model": "WINSEMI稳先微WSDF2310C",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF2310C",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载VDL紫建电子60mAh软包扣式电池，配备了WINSEMI稳先微WSDF2310C锂电保护IC；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "JL杰理",
+          "model": "JL7103",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL7103",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用12mm复合镀钛振膜动圈单元，内置一颗敏芯微电子的MEMS麦克风，主控芯片为JL杰理科技JL7103D6蓝牙音频SoC。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "钛振膜",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "钛振膜",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "采用12mm复合镀钛振膜动圈单元，内置一颗敏芯微电子的MEMS麦克风，主控芯片为JL杰理科技JL7103D6蓝牙音频SoC。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "采用12mm复合镀钛振膜动圈单元，内置一颗敏芯微电子的MEMS麦克风，主控芯片为JL杰理科技JL7103D6蓝牙音频SoC。"
+          }
+        },
         {
           "component": "电池",
           "brand": "",
@@ -254,6 +422,48 @@
         {
           "component": "芯片/模组",
           "brand": "",
+          "model": "INJOINIC英集芯IP5513V",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513V",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5513V是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5513V",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5513V",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "英集芯IP5513V内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WINSEMI稳先微WSDF2310C",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF2310C",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "WINSEMI稳先微WSDF2310C锂电保护IC，具有过充、过放、过流、短路等电池需要的所有保护功能，还支持CTL船运模式设置。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
           "model": "JL7103",
           "qty_hint": "1",
           "side": "",
@@ -263,20 +473,6 @@
             "confidence": 0.78,
             "source_type": "text",
             "source_text": "JL杰理科技JL7103D6蓝牙音频SoC，用于无线连接和音频数据处理。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "JL7103",
-          "qty_hint": "1",
-          "side": "耳机",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "JL7103",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "耳机内部搭载VDL紫建电子60mAh软包扣式电池，配备了WINSEMI稳先微WSDF2310C锂电保护IC；采用12mm复合镀钛振膜动圈单元，内置一颗敏芯微电子的MEMS麦克风，主控芯片为JL杰理科技JL7103D6蓝牙音频SoC。"
           }
         }
       ],
@@ -310,13 +506,23 @@
             "source_text": "内部主要配置方面，充电盒搭载了VDL紫建电子3.72V/580mAh锂电池组，配备有一体化锂电保护IC负责过充电、过放电、过电流等保护。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026060506250287.png",
+          "alt": "拆解报告：Soundcore声阔C50i开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上Soundcore声阔C50i开放式耳机的已知核心物料清单，方便大家查阅。 Soundcore声阔C50i开放式耳机在外观方面，延续了该系列的经典设计风格，极具辨识度，同时整体质感也比较出众。耳夹式设计耳机，采用人体工学设计，“流光小C环”内嵌0.44mm记忆钛丝，外部亲肤材质包裹，柔韧不易变形，佩戴舒适稳固。 内部主要配置方面，充电盒搭载了VDL紫建电子3.72V/580mAh锂电池组，配备有一体化锂电保护IC负责过充电、过放电、过电流等保护。主板上搭载INJOINIC英集芯IP5513V充电仓管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等丰富的功能，为充电仓提供完整的电源解决方案。 耳机内部搭载VDL紫建电子60mAh软包扣式电池，配备了WINSEMI稳先微WSDF2310C锂电保护IC；采用12mm复合镀钛振膜动圈单元，内置一颗敏芯微电子的MEMS麦克风，主控芯片为JL杰理科技JL7103D6蓝牙音频SoC。"
     },
     "structure": {
       "form_factor": "开放式耳机",
-      "earbud_type": "入耳",
+      "earbud_type": "开放",
       "materials": [],
-      "ip_rating": "IP5",
+      "ip_rating": null,
       "weight_g": "45.6g",
       "dimensions": [
         "在功能配置方面，Soundcore声阔C50i开放式耳机搭载12mm高保真动圈单元，全频增强大师级调音，带来三频饱满均衡，低音澎湃的听感；通过声场纵深优化技术，带来更具空间感的沉浸音效；还支持LDAC高解析音频传输，通过了Hi-Res AUDIO WIRELESS金标认证，能够呈现更丰富的音频细节。",
@@ -417,53 +623,7 @@
           }
         }
       ],
-      "sealing_method": [
-        {
-          "value": "其他方面，支持蓝牙6.0闪连，支持多设备连接，具备IP55防水防尘，可提供单次7小时，综合28小时的续航时间；搭配Soundcore APP，还支持AI智能助手、AI实时翻译、面对面翻译等功能。",
-          "evidence": {
-            "value": "其他方面，支持蓝牙6.0闪连，支持多设备连接，具备IP55防水防尘，可提供单次7小时，综合28小时的续航时间；搭配Soundcore APP，还支持AI智能助手、AI实时翻译、面对面翻译等功能。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "其他方面，支持蓝牙6.0闪连，支持多设备连接，具备IP55防水防尘，可提供单次7小时，综合28小时的续航时间；搭配Soundcore APP，还支持AI智能助手、AI实时翻译、面对面翻译等功能。"
-          }
-        },
-        {
-          "value": "一、Soundcore声阔C50i开放式耳机开箱\nSoundcore声阔C50i开放式耳机包装盒延续家族式的设计风格，经典品牌配色，正面展示有耳机外观，品牌LOGO和产品名称，以及AI通话降噪、7H/28H续航、IP55防尘防水和Hi-Res AUDIO认证标识。",
-          "evidence": {
-            "value": "一、Soundcore声阔C50i开放式耳机开箱\nSoundcore声阔C50i开放式耳机包装盒延续家族式的设计风格，经典品牌配色，正面展示有耳机外观，品牌LOGO和产品名称，以及AI通话降噪、7H/28H续航、IP55防尘防水和Hi-Res AUDIO认证标识。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "一、Soundcore声阔C50i开放式耳机开箱\nSoundcore声阔C50i开放式耳机包装盒延续家族式的设计风格，经典品牌配色，正面展示有耳机外观，品牌LOGO和产品名称，以及AI通话降噪、7H/28H续航、IP55防尘防水和Hi-Res AUDIO认证标识。"
-          }
-        },
-        {
-          "value": "INJOINIC英集芯IP5513V是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5513V是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5513V是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
-          }
-        },
-        {
-          "value": "IP5513V的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
-          "evidence": {
-            "value": "IP5513V的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "IP5513V的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
-          }
-        },
-        {
-          "value": "英集芯IP5513V内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%。",
-          "evidence": {
-            "value": "英集芯IP5513V内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5513V内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%。"
-          }
-        }
-      ],
+      "sealing_method": [],
       "wear_design": [
         {
           "value": "外观上采用“流光小C环”设计，佩戴舒适稳固，且犹如耳饰彰显个性。",
@@ -503,6 +663,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026060506250287.png",
+          "alt": "拆解报告：Soundcore声阔C50i开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026060506250740.jpg",
           "alt": "拆解报告：Soundcore声阔C50i开放式耳机-我爱音频网",
@@ -545,12 +712,7 @@
         "充电盒内部主要电路一览，电池导线与主板焊接。",
         "在功能配置方面，Soundcore声阔C50i开放式耳机搭载12mm高保真动圈单元，全频增强大师级调音，带来三频饱满均衡，低音澎湃的听感；通过声场纵深优化技术，带来更具空间感的沉浸音效；还支持LDAC高解析音频传输，通过了Hi-Res AUDIO WIRELESS金标认证，能够呈现更丰富的音频细节。"
       ],
-      "ip_rating_evidence": {
-        "value": "IP5",
-        "confidence": 0.8,
-        "source_type": "text",
-        "source_text": "IP5"
-      },
+      "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "45.6g",
         "confidence": 0.75,
@@ -833,5 +995,5 @@
       }
     }
   },
-  "data_completeness": 0.804
+  "data_completeness": 0.808
 }

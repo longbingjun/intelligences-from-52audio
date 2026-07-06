@@ -8,7 +8,8 @@
     "bluetooth",
     "major_chips",
     "selling_point_tags",
-    "data_completeness"
+    "data_completeness",
+    "source"
   ],
   "rows": [
     {
@@ -30,6 +31,12 @@
         "防尘",
         "轻量化"
       ],
+      "sources": [
+        "report"
+      ],
+      "has_report": true,
+      "has_video": false,
+      "source": "report",
       "data_completeness": 0.67
     },
     {
@@ -47,6 +54,12 @@
         "防水",
         "防尘"
       ],
+      "sources": [
+        "video"
+      ],
+      "has_report": false,
+      "has_video": true,
+      "source": "video",
       "data_completeness": 0.5
     }
   ]

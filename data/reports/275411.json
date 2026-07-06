@@ -99,8 +99,93 @@
         "天线",
         "喇叭单元"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "思远半导体SY8702",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "思远半导体SY8702",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "思远半导体SY8702"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "SY8702",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "SY8702",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "SY8702"
+          }
+        }
+      ],
       "bom_table": [
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "钛振膜",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "钛振膜",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机搭载12mm镀钛振膜动圈单元，内置三颗MEMS麦克风拾音，采用VDL紫建电子62mAh软包扣式电池供电；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "3",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机搭载12mm镀钛振膜动圈单元，内置三颗MEMS麦克风拾音，采用VDL紫建电子62mAh软包扣式电池供电；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "思远半导体",
+          "model": "思远半导体SY8702",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
+          "evidence": {
+            "value": "思远半导体SY8702",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内部搭载VDL紫建电子3.89V/530mAh锂电池，采用了WINSEMI稳先微WSDY3302E锂电保护IC，思远半导体SY8702低侧过压保护（OVP）IC，ETA钰泰ETA9030V电源管理芯片，Cmsemicon中微半导体CMS8S5880单片机等方案。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.89V/530mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.89V/530mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内部搭载VDL紫建电子3.89V/530mAh锂电池，采用了WINSEMI稳先微WSDY3302E锂电保护IC，思远半导体SY8702低侧过压保护（OVP）IC，ETA钰泰ETA9030V电源管理芯片，Cmsemicon中微半导体CMS8S5880单片机等方案。"
+          }
+        },
         {
           "component": "充电仓",
           "brand": "",
@@ -254,6 +339,20 @@
             "source_type": "text",
             "source_text": "耳机柄底部的通话麦克风拾音孔和充电触点特写。"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "思远半导体SY8702",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "思远半导体SY8702",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "丝印“02AT9”的思远半导体SY8702低侧过压保护（OVP）IC，采用SOT23-6封装，内部集成28mΩ开关NMOS，采用低压侧开关拓扑结构，极低导通电阻有效的减小输入压降，保护电压外部设置使应用更加灵活，提供最简单实用的低成本OVP解决方案。"
+          }
         }
       ],
       "supply_hints": [],
@@ -268,7 +367,17 @@
             "source_text": "座舱底部通过螺丝固定主板，与电池导线焊接，打胶防护。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026051110423744.png",
+          "alt": "拆解报告：OPPO Enco Air5 Pro真无线降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上OPPO Enco Air5 Pro真无线降噪耳机的已知核心物料清单，方便大家查阅。 OPPO Enco Air5 Pro真无线降噪耳机在外观方面，采用了轻量化设计，整机重量仅43.7g，轻巧便携；耳机重量约4.5g，搭配光滑圆润的烤漆质感，佩戴舒适轻盈。充电盒还采用了家族式的“星环”设计，准分子肤感喷涂，质感出色，触感细腻丝滑。 内部主要配置方面，耳机搭载12mm镀钛振膜动圈单元，内置三颗MEMS麦克风拾音，采用VDL紫建电子62mAh软包扣式电池供电；主板上，搭载WUQI物奇WQ7035AX-B智能音频SoC，用于无线连接和音频数据处理；采用HX天易合芯HX9036电容式距离传感器，用于佩戴检测功能；其他还采用了Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。 充电盒内部搭载VDL紫建电子3.89V/530mAh锂电池，采用了WINSEMI稳先微WSDY3302E锂电保护IC，思远半导体SY8702低侧过压保护（OVP）IC，ETA钰泰ETA9030V电源管理芯片，Cmsemicon中微半导体CMS8S5880单片机等方案。"
     },
     "structure": {
       "form_factor": "真无线耳机TWS",
@@ -417,6 +526,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026051110423744.png",
+          "alt": "拆解报告：OPPO Enco Air5 Pro真无线降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026051110422955.jpg",
           "alt": "拆解报告：OPPO Enco Air5 Pro真无线降噪耳机-我爱音频网",
@@ -707,5 +823,5 @@
       }
     }
   },
-  "data_completeness": 0.798
+  "data_completeness": 0.83
 }

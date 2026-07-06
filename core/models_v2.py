@@ -40,6 +40,9 @@ class CostView:
     supply_hints: list[dict] = field(default_factory=list)
     packaging_notes: list[str] = field(default_factory=list)
     process_hints: list[dict] = field(default_factory=list)
+    # V3 Phase1：总结段「我爱音频网总结」PNG 物料表 URL（专用，区别于 structure.key_image_urls）
+    summary_image_urls: list[dict] = field(default_factory=list)
+    summary_text: str = ""
 
 
 @dataclass

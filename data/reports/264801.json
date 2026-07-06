@@ -101,6 +101,48 @@
       "chip_modules": [],
       "bom_table": [
         {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/400mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/400mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了3.7V/400mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.6V/50mAh钢壳扣式",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.6V/50mAh钢壳扣式",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内置钢壳扣式电池容量3.6V/50mAh，来自LIDEA电的电子；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载10mm动圈喇叭，采用了两颗歌尔微电子的MEMS麦克风拾音；"
+          }
+        },
+        {
           "component": "主板/PCBA",
           "brand": "",
           "model": "",
@@ -255,7 +297,17 @@
             "source_text": "电池导线与主板焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026010501264029.png",
+          "alt": "拆解报告：ROSESELSA弱水时砂CERAMICS Ultra真无线降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上ROSESELSA弱水时砂CERAMICS Ultra真无线降噪耳机的已知核心物料清单，方便大家查阅。 ROSESELSA弱水时砂CERAMICS Ultra真无线降噪耳机在外观方面，充电盒采用了圆角方形设计，体积小巧轻盈，类似“喷溅”的散点纹理，带来独特质感。耳机采用了豆状的入耳式设计，佩戴与耳廓舒适贴合，搭配三种不同尺寸的硅胶耳塞，满足不同用户的使用需求。 内部主要配置方面，充电盒搭载了3.7V/400mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护。主板上，搭载了SinhMicro昇生微电子SS88D8H POWER MCU，负责内置电池的充放电管理和整机控制。 耳机内部搭载10mm动圈喇叭，采用了两颗歌尔微电子的MEMS麦克风拾音；内置钢壳扣式电池容量3.6V/50mAh，来自LIDEA电的电子；主板上，采用了WUQI物奇WQ7034AX智能音频主控芯片，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感和MPHM系列功率电感。"
     },
     "structure": {
       "form_factor": "真无线耳机TWS",
@@ -423,6 +475,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026010501264029.png",
+          "alt": "拆解报告：ROSESELSA弱水时砂CERAMICS Ultra真无线降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026010501262515.jpg",
           "alt": "拆解报告：ROSESELSA弱水时砂CERAMICS Ultra真无线降噪耳机-我爱音频网",

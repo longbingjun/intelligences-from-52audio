@@ -115,6 +115,62 @@
       ],
       "bom_table": [
         {
+          "component": "芯片/模组",
+          "brand": "BES恒玄科技",
+          "model": "BES2710IMP",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES2710IMP",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，搭载了2颗MEMS麦克风，采用了KOWIN康盈KAS03111 eMMC5.1存储器、LPS微源半导体LP4081线性充电器、ICM创芯微CM1126C-DDC锂电池保护IC，Realtek瑞昱半导体RTL8711DAF WiFi芯片和BES恒玄科技BES2710IMP蓝牙可穿戴SoC。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/400mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/400mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了VDL紫建电子3.7V/400mAh可充式锂离子电池组，配备有电池保护板负责过充电、过放电、过电流等保护；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.85V/90mAh钢壳扣式",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.85V/90mAh钢壳扣式",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "录音豆搭载了VDL紫建电子3.85V/90mAh钢壳扣式电池供电，内置了振动马达和蜂鸣器提供实时反馈。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "主板上，搭载了2颗MEMS麦克风，采用了KOWIN康盈KAS03111 eMMC5.1存储器、LPS微源半导体LP4081线性充电器、ICM创芯微CM1126C-DDC锂电池保护IC，Realtek瑞昱半导体RTL8711DAF WiFi芯片和BES恒玄科技BES2710IMP蓝牙可穿戴SoC。"
+          }
+        },
+        {
           "component": "充电仓",
           "brand": "",
           "model": "",
@@ -239,20 +295,6 @@
             "source_type": "text",
             "source_text": "BES恒玄科技BES2710IMP超低功耗、高性能蓝牙可穿戴SoC。"
           }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "BES2710IMP",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "BES2710IMP",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "主板上，搭载了2颗MEMS麦克风，采用了KOWIN康盈KAS03111 eMMC5.1存储器、LPS微源半导体LP4081线性充电器、ICM创芯微CM1126C-DDC锂电池保护IC，Realtek瑞昱半导体RTL8711DAF WiFi芯片和BES恒玄科技BES2710IMP蓝牙可穿戴SoC。"
-          }
         }
       ],
       "supply_hints": [],
@@ -269,7 +311,17 @@
             "source_text": "充电盒内部主要电路一览，电池导线和排线与主板焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026030403555328.png",
+          "alt": "拆解报告：安克 AI 录音豆-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上安克 AI 录音豆的已知物料清单，方便大家查阅。 安克 AI 录音豆在外观方面，采用了纽扣式设计，体积小巧轻盈，且支持领夹式、挂脖式、磁吸式多种佩戴方式，使用便携，佩戴无感。同时还标配了充电盒，不仅能够提供移动充电，还可以吸附在手机等物品上，方便录音豆收音。 内部主要配置方面，充电盒搭载了VDL紫建电子3.7V/400mAh可充式锂离子电池组，配备有电池保护板负责过充电、过放电、过电流等保护；主板上，采用了SinhMicro昇生微电子SS88D8H POWER MCU，负责内置电池的充放电管理和整机控制。 录音豆搭载了VDL紫建电子3.85V/90mAh钢壳扣式电池供电，内置了振动马达和蜂鸣器提供实时反馈。主板上，搭载了2颗MEMS麦克风，采用了KOWIN康盈KAS03111 eMMC5.1存储器、LPS微源半导体LP4081线性充电器、ICM创芯微CM1126C-DDC锂电池保护IC，Realtek瑞昱半导体RTL8711DAF WiFi芯片和BES恒玄科技BES2710IMP蓝牙可穿戴SoC。"
     },
     "structure": {
       "form_factor": "音箱及其他音频设备",
@@ -422,6 +474,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026030403555328.png",
+          "alt": "拆解报告：安克 AI 录音豆-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026030403555828.jpg",
           "alt": "拆解报告：安克 AI 录音豆-我爱音频网",

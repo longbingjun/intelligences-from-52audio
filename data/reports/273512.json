@@ -69,6 +69,20 @@
         {
           "component": "麦克风",
           "brand": "",
+          "model": "麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "三、我爱音频网总结 最后附上BOYA博雅K3桌面麦克风的已知核心物料清单，方便大家查阅。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
           "model": "",
           "qty_hint": "",
           "side": "",
@@ -146,7 +160,17 @@
             "source_text": "主板电路一览，与功能接口小板垂直焊接，还通过导线连接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026041702160483.png",
+          "alt": "拆解报告：BOYA博雅K3桌面麦克风-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上BOYA博雅K3桌面麦克风的已知核心物料清单，方便大家查阅。 BOYA博雅K3桌面麦克风外观设计较为低调沉稳，同时又搭载了RGB幻彩灯效，可轻松营造娱乐氛围。此外，麦克风外置防喷罩与防震架，内部亦配备防喷海绵与减震结构，通过双重优化，有效减少喷麦、震动噪音，进一步提升录音与收音的纯净度。 内部主要配置方面，搭载了14mm电容咪头提供超心型指向拾音；设置有触控板和OPSUN奥普尚科技APS8233E触摸检测IC，实现一键静音，开关降噪和灯效等功能控制；采用四颗RGB灯珠，为幻彩氛围灯提供光源；主控芯片为立远通讯ASS5060处理器，采用DSP+MCU双核，为麦克风的各种功能提供算力支持。"
     },
     "structure": {
       "form_factor": "音箱及其他音频设备",
@@ -284,6 +308,13 @@
       "wear_design": [],
       "key_image_urls": [
         {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026041702160483.png",
+          "alt": "拆解报告：BOYA博雅K3桌面麦克风-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
+        {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026041702160347.jpg",
           "alt": "拆解报告：BOYA博雅K3桌面麦克风-我爱音频网",
           "caption": "",
@@ -352,5 +383,5 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.31
+  "data_completeness": 0.318
 }

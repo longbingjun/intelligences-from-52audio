@@ -88,8 +88,233 @@
         "喇叭单元",
         "降噪系统"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5333",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5333",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5333"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5333",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5333",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "英集芯IP5333"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "Bluetrum中科蓝讯BT8952J",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8952J",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "Bluetrum中科蓝讯BT8952J"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "中科蓝讯BT8952J",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "中科蓝讯BT8952J",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "中科蓝讯BT8952J"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "BT8952J",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BT8952J",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "BT8952J"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WINSEMI稳先微WSDF1320A",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF1320A",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "WINSEMI稳先微WSDF1320A"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "稳先微WSDF1320A",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "稳先微WSDF1320A",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "稳先微WSDF1320A"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WSDF1320A",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "WSDF1320A",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "WSDF1320A"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5333",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "传感器",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5333",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载3.7V/500mAh锂电池组，内置ASAIR奥松电子AHT30温湿度传感器，主板上采用了INJOINIC英集芯IP5333多功能电源管理SoC，AOGSemi安硅AP1436G过压过流保护IC，以及用于温湿度传感器和屏幕控制的MCU等。"
+          }
+        }
+      ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5333",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "传感器",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5333",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载3.7V/500mAh锂电池组，内置ASAIR奥松电子AHT30温湿度传感器，主板上采用了INJOINIC英集芯IP5333多功能电源管理SoC，AOGSemi安硅AP1436G过压过流保护IC，以及用于温湿度传感器和屏幕控制的MCU等。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/500mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/500mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载3.7V/500mAh锂电池组，内置ASAIR奥松电子AHT30温湿度传感器，主板上采用了INJOINIC英集芯IP5333多功能电源管理SoC，AOGSemi安硅AP1436G过压过流保护IC，以及用于温湿度传感器和屏幕控制的MCU等。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "WINSEMI稳先微",
+          "model": "WINSEMI稳先微WSDF1320A",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF1320A",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载13mm镀钛振膜动圈单元，单耳内置一颗MEMS麦克风，采用了3.6V/60mAh钢壳扣式电池，配备WINSEMI稳先微WSDF1320A锂电保护IC；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Bluetrum中科蓝讯",
+          "model": "Bluetrum中科蓝讯BT8952J",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8952J",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主控芯片为Bluetrum中科蓝讯BT8952J蓝牙音频SoC。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.6V/60mAh钢壳扣式",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.6V/60mAh钢壳扣式",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载13mm镀钛振膜动圈单元，单耳内置一颗MEMS麦克风，采用了3.6V/60mAh钢壳扣式电池，配备WINSEMI稳先微WSDF1320A锂电保护IC；"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "钛振膜",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "钛振膜",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载13mm镀钛振膜动圈单元，单耳内置一颗MEMS麦克风，采用了3.6V/60mAh钢壳扣式电池，配备WINSEMI稳先微WSDF1320A锂电保护IC；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载13mm镀钛振膜动圈单元，单耳内置一颗MEMS麦克风，采用了3.6V/60mAh钢壳扣式电池，配备WINSEMI稳先微WSDF1320A锂电保护IC；"
+          }
+        },
         {
           "component": "充电仓",
           "brand": "",
@@ -243,19 +468,71 @@
             "source_type": "text",
             "source_text": "机身正面开盖处设计有凹槽，便于用户开启。下方设计有品牌LOGO和指示灯。"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5333",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5333",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5333多功能电源管理SoC，集成升压转换器、锂电池充电管理、电池电量指示和TYPE-C协议等功能，为TWS充电仓提供完整的解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "Bluetrum中科蓝讯BT8952J",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8952J",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Bluetrum中科蓝讯BT8952J蓝牙音频SoC，属于“蓝讯讯龙”三代BT895x系列，支持蓝牙6.0 LE Audio协议及LC3编解码，内置32位高性能RISC-V处理器核心和HIFI 4 DSP，内置24bit双声道DAC和24bit单声道ADC，支持2路MIC放大器输入，支持AI通话降噪算法，支持前馈、及混合主动降噪，集成触控，PMU等模块。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WINSEMI稳先微WSDF1320A",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF1320A",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "WINSEMI稳先微WSDF1320A锂电保护IC，负责电池的过充、过放、过流、短路等保护功能。"
+          }
         }
       ],
       "supply_hints": [],
       "packaging_notes": [
         "打开包装盒，取出内部所有物品，包括了主机、充电线和产品说明书。"
       ],
-      "process_hints": []
+      "process_hints": [],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026050901563830.png",
+          "alt": "拆解报告：ROSESELSA弱水时砂Astro X开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上ROSESELSA弱水时砂Astro X开放式耳机的已知物料清单，方便大家查阅。 ROSESELSA弱水时砂Astro X开放式耳机在外观方面，充电盒采用了椭圆形的柱体设计，类金属的磨砂质感，搭载数显屏提供直观内容反馈。耳夹式耳机由「U型桥」+「声学舱」+「能量舱」组成，U型桥柔韧不易变形，夹角适中，佩戴舒适稳固；腔体光滑圆润，佩戴亲肤。 内部主要配置方面，充电盒搭载3.7V/500mAh锂电池组，内置ASAIR奥松电子AHT30温湿度传感器，主板上采用了INJOINIC英集芯IP5333多功能电源管理SoC，AOGSemi安硅AP1436G过压过流保护IC，以及用于温湿度传感器和屏幕控制的MCU等。 耳机内部搭载13mm镀钛振膜动圈单元，单耳内置一颗MEMS麦克风，采用了3.6V/60mAh钢壳扣式电池，配备WINSEMI稳先微WSDF1320A锂电保护IC；主控芯片为Bluetrum中科蓝讯BT8952J蓝牙音频SoC。"
     },
     "structure": {
       "form_factor": "开放式耳机",
-      "earbud_type": "入耳",
+      "earbud_type": "开放",
       "materials": [],
-      "ip_rating": "IP5",
+      "ip_rating": null,
       "weight_g": "72.4g",
       "dimensions": [
         "ASAIR奥松电子AHT30温湿度传感器，集成一个全新优化的ASIC专用芯片、一个经过改进的MEMS半导体电容式湿度传感元件和一个标准的片上温度传感元件，拥有坚固的外壳和微小的尺寸，广泛应用于智能家居、消费电子、医疗、汽车、工业、气象等领域。",
@@ -337,53 +614,7 @@
         }
       ],
       "fastener_type": [],
-      "sealing_method": [
-        {
-          "value": "INJOINIC英集芯IP5333多功能电源管理SoC，集成升压转换器、锂电池充电管理、电池电量指示和TYPE-C协议等功能，为TWS充电仓提供完整的解决方案。",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5333多功能电源管理SoC，集成升压转换器、锂电池充电管理、电池电量指示和TYPE-C协议等功能，为TWS充电仓提供完整的解决方案。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5333多功能电源管理SoC，集成升压转换器、锂电池充电管理、电池电量指示和TYPE-C协议等功能，为TWS充电仓提供完整的解决方案。"
-          }
-        },
-        {
-          "value": "IP5333非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。",
-          "evidence": {
-            "value": "IP5333非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "IP5333非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。"
-          }
-        },
-        {
-          "value": "英集芯IP5333只需一个电感实现充电与升压功能。",
-          "evidence": {
-            "value": "英集芯IP5333只需一个电感实现充电与升压功能。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5333只需一个电感实现充电与升压功能。"
-          }
-        },
-        {
-          "value": "IP5333的同步升压系统提供额定1A输出电流，转换效率高至92%。",
-          "evidence": {
-            "value": "IP5333的同步升压系统提供额定1A输出电流，转换效率高至92%。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "IP5333的同步升压系统提供额定1A输出电流，转换效率高至92%。"
-          }
-        },
-        {
-          "value": "轻载时，自动进入休眠状态，静态电流降至20uA以内；英集芯IP5333采用开关充电技术，提供额定1A充电电流，充电效率高至91%。",
-          "evidence": {
-            "value": "轻载时，自动进入休眠状态，静态电流降至20uA以内；英集芯IP5333采用开关充电技术，提供额定1A充电电流，充电效率高至91%。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "轻载时，自动进入休眠状态，静态电流降至20uA以内；英集芯IP5333采用开关充电技术，提供额定1A充电电流，充电效率高至91%。"
-          }
-        }
-      ],
+      "sealing_method": [],
       "wear_design": [
         {
           "value": "在真无线蓝牙耳机市场，不乏品牌在夯实核心音质与佩戴体验的基础上，持续进行产品创新，从而拓展功能边界，为用户带来更全面、更优质的使用体验。",
@@ -423,6 +654,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026050901563830.png",
+          "alt": "拆解报告：ROSESELSA弱水时砂Astro X开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026050901562532.jpg",
           "alt": "拆解报告：ROSESELSA弱水时砂Astro X开放式耳机-我爱音频网",
@@ -465,12 +703,7 @@
         "座舱底部结构一览，充电盒盖内部屏幕排线与主板通过连接器连接。",
         "我爱音频网此前还拆解过ROSESELSA弱水时砂CERAMICS Ultra真无线降噪耳机、弱水时砂CERAMICS-MK2真无线降噪耳机、弱水时砂OpenFree开放式耳机、弱水时砂Earfree i5真无线降噪耳机。"
       ],
-      "ip_rating_evidence": {
-        "value": "IP5",
-        "confidence": 0.8,
-        "source_type": "text",
-        "source_text": "IP5"
-      },
+      "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "72.4g",
         "confidence": 0.75,
@@ -753,5 +986,5 @@
       }
     }
   },
-  "data_completeness": 0.772
+  "data_completeness": 0.792
 }

@@ -98,8 +98,163 @@
         "降噪系统",
         "天线"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "Bluetrum中科蓝讯BT8932F",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8932F",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "Bluetrum中科蓝讯BT8932F"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "中科蓝讯BT8932F",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "中科蓝讯BT8932F",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "中科蓝讯BT8932F"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "BT8932F",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BT8932F",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "BT8932F"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "Prisemi芯导P14C1S",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Prisemi芯导P14C1S",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "Prisemi芯导P14C1S"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "芯导P14C1S",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "芯导P14C1S",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "芯导P14C1S"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "P14C1S",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "P14C1S",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "P14C1S"
+          }
+        }
+      ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "Prisemi芯导",
+          "model": "Prisemi芯导P14C1S",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
+          "evidence": {
+            "value": "Prisemi芯导P14C1S",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，搭载了Prisemi芯导P14C1S过压过流保护IC，SinhMicro昇生微电子SSD101R2可编程低功耗BOOST，以及霍尔元件等方案。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/400mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/400mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了ST神通天下3.7V/400mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Bluetrum中科蓝讯",
+          "model": "Bluetrum中科蓝讯BT8932F",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8932F",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内置MIC-POWER微电新能源3.7V/35mAh钢壳扣式电池，搭载13mm碳纤维复合振膜动圈单元和两颗敏芯微电子的MEMS，采用了Bluetrum中科蓝讯BT8932F蓝牙音频SoC，用于无线连接和音频数据处理等功能控制。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "微电新能源",
+          "model": "3.7V/35mAh钢壳扣式",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/35mAh钢壳扣式",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内置MIC-POWER微电新能源3.7V/35mAh钢壳扣式电池，搭载13mm碳纤维复合振膜动圈单元和两颗敏芯微电子的MEMS，采用了Bluetrum中科蓝讯BT8932F蓝牙音频SoC，用于无线连接和音频数据处理等功能控制。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "振膜动圈",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "振膜动圈",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机内置MIC-POWER微电新能源3.7V/35mAh钢壳扣式电池，搭载13mm碳纤维复合振膜动圈单元和两颗敏芯微电子的MEMS，采用了Bluetrum中科蓝讯BT8932F蓝牙音频SoC，用于无线连接和音频数据处理等功能控制。"
+          }
+        },
         {
           "component": "充电仓",
           "brand": "",
@@ -253,6 +408,34 @@
             "source_type": "text",
             "source_text": "耳机柄底部设置充电触点和通话麦克风拾音孔。"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "Prisemi芯导P14C1S",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Prisemi芯导P14C1S",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Prisemi芯导P14C1S过压过流保护IC，输入耐压高达32V，过压保护点为固定6V。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "Bluetrum中科蓝讯BT8932F",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8932F",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Bluetrum中科蓝讯BT8932F蓝牙音频SoC，内置32位高性能RISC-V处理器核心，符合蓝牙6.0+BR+EDR+BLE规范，具有高性能立体声DAC和高性能立体声ADC，支持前馈ANC（FF ANC），双MIC DNN环境噪声消除（ENC），支持神经网络处理单元（NPU），支持低功耗触摸键、入耳检测等功能。"
+          }
         }
       ],
       "supply_hints": [],
@@ -278,7 +461,17 @@
             "source_text": "腔体内部结构一览，设置有主板单元，与音腔内部排线焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026011410581429.png",
+          "alt": "拆解报告：SOUNDPEATS泥炭Air5 Lite真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上SOUNDPEATS泥炭Air5 Lite真无线耳机的已知核心物料清单，方便大家查阅。 SOUNDPEATS泥炭Air5 Lite真无线耳机在外观方面，充电盒体积小巧轻便，耳机采用了柄状的半入耳式设计，佩戴舒适轻盈。耳机柄还通过独特的玫瑰金盖板装饰，搭配艺术字体的品牌slogan，外观精致，独居辨识度。 内部主要配置方面，充电盒搭载了ST神通天下3.7V/400mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护；主板上，搭载了Prisemi芯导P14C1S过压过流保护IC，SinhMicro昇生微电子SSD101R2可编程低功耗BOOST，以及霍尔元件等方案。 耳机内置MIC-POWER微电新能源3.7V/35mAh钢壳扣式电池，搭载13mm碳纤维复合振膜动圈单元和两颗敏芯微电子的MEMS，采用了Bluetrum中科蓝讯BT8932F蓝牙音频SoC，用于无线连接和音频数据处理等功能控制。"
     },
     "structure": {
       "form_factor": "真无线耳机TWS",
@@ -424,6 +617,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026011410581429.png",
+          "alt": "拆解报告：SOUNDPEATS泥炭Air5 Lite真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026011410580355.jpg",
           "alt": "拆解报告：SOUNDPEATS泥炭Air5 Lite真无线耳机-我爱音频网",
@@ -648,5 +848,5 @@
       }
     }
   },
-  "data_completeness": 0.682
+  "data_completeness": 0.732
 }

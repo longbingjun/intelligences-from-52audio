@@ -69,9 +69,191 @@
             "source_type": "text",
             "source_text": "BES2610WD"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "晶晨A113X",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "晶晨A113X",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "晶晨A113X"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "A113X",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "A113X",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "A113X"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AIC8800",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AIC8800",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "AIC8800"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "爱科微AIC8800",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "爱科微AIC8800",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "爱科微AIC8800"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "昆腾KT0726",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "昆腾KT0726",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "昆腾KT0726"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "昆腾KT0656M",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "昆腾KT0656M",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "昆腾KT0656M"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "KT0656M",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "KT0656M",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "KT0656M"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "KT0726",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "KT0726",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "KT0726"
+          }
         }
       ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "昆腾",
+          "model": "昆腾KT0726",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "昆腾KT0726",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内部主要配置方面，主板搭载了KTMicro昆腾KT0726音频DSP和2个KT0656M UHF发射/接收器，射频电路上采用大量Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "昆腾",
+          "model": "KT0656M",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "KT0656M",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内部主要配置方面，主板搭载了KTMicro昆腾KT0726音频DSP和2个KT0656M UHF发射/接收器，射频电路上采用大量Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "BES恒玄科技",
+          "model": "BES2610WD",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES2610WD",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "另外还采用了BES恒玄科技BES2610WD无线连接芯片，AICSEMI爱科微AIC8800D40双频WiFi6与蓝牙5.4 SoC，Amlogic晶晨A113X-B智能音频芯片，Winbond华邦W632GU6RB-11 SDRAM存储器和W29N02KVSIAF NAND型闪存，以及GSCoolink基石酷联GSV1501S HDMI接口芯片，LPS微源半导体LP5280S过压保护IC，Sunlord顺络电子MWTC系列功率电感等。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "晶晨",
+          "model": "晶晨A113X",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "晶晨A113X",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "另外还采用了BES恒玄科技BES2610WD无线连接芯片，AICSEMI爱科微AIC8800D40双频WiFi6与蓝牙5.4 SoC，Amlogic晶晨A113X-B智能音频芯片，Winbond华邦W632GU6RB-11 SDRAM存储器和W29N02KVSIAF NAND型闪存，以及GSCoolink基石酷联GSV1501S HDMI接口芯片，LPS微源半导体LP5280S过压保护IC，Sunlord顺络电子MWTC系列功率电感等。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "爱科微",
+          "model": "AIC8800",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AIC8800",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "另外还采用了BES恒玄科技BES2610WD无线连接芯片，AICSEMI爱科微AIC8800D40双频WiFi6与蓝牙5.4 SoC，Amlogic晶晨A113X-B智能音频芯片，Winbond华邦W632GU6RB-11 SDRAM存储器和W29N02KVSIAF NAND型闪存，以及GSCoolink基石酷联GSV1501S HDMI接口芯片，LPS微源半导体LP5280S过压保护IC，Sunlord顺络电子MWTC系列功率电感等。"
+          }
+        },
         {
           "component": "主板/PCBA",
           "brand": "",
@@ -159,29 +341,15 @@
         {
           "component": "芯片/模组",
           "brand": "",
-          "model": "BES2610WD",
+          "model": "昆腾KT0726",
           "qty_hint": "1",
-          "side": "",
+          "side": "耳机",
           "role": "主控/蓝牙",
           "evidence": {
-            "value": "BES2610WD",
+            "value": "昆腾KT0726",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "BES恒玄科技BES2610WD无线连接芯片，集成Wi-Fi 6子系统和蓝牙5.4子系统，提供高标准的高吞吐量无线连接和经济高效的长距离传输。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "BES2610WD",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "BES2610WD",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "另外还采用了BES恒玄科技BES2610WD无线连接芯片，AICSEMI爱科微AIC8800D40双频WiFi6与蓝牙5.4 SoC，Amlogic晶晨A113X-B智能音频芯片，Winbond华邦W632GU6RB-11 SDRAM存储器和W29N02KVSIAF NAND型闪存，以及GSCoolink基石酷联GSV1501S HDMI接口芯片，LPS微源半导体LP5280S过压保护IC，Sunlord顺络电子MWTC系列功率电感等。"
+            "source_text": "KTMicro昆腾KT0726是一款高性能，高集成度，低功耗的音频DSP，集成高性能双精度浮点DSP，双模蓝牙BT5.4/2.4GHz射频收发系统，多路DCDC和LDO，振荡电路和PLL，4路高品质音频ADC和PGA，3路高品音频DAC和2路甲乙类耳机功率放大器。"
           }
         }
       ],
@@ -189,7 +357,17 @@
       "packaging_notes": [
         "无线连接器配件一览，包括了数据线、HDMI线、魔术贴和说明书。"
       ],
-      "process_hints": []
+      "process_hints": [],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026052110350946.png",
+          "alt": "拆解报告：Xiaomi小米Sound无线音频连接器-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上Xiaomi小米Sound无线音频连接器的已知物料清单，方便大家查阅。 Xiaomi小米Sound无线音频连接器外观简约，一体成型金属外壳，质感出色，还设计有魔术贴，便于与电视设备固定使用。内部主要配置方面，主板搭载了KTMicro昆腾KT0726音频DSP和2个KT0656M UHF发射/接收器，射频电路上采用大量Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感。 另外还采用了BES恒玄科技BES2610WD无线连接芯片，AICSEMI爱科微AIC8800D40双频WiFi6与蓝牙5.4 SoC，Amlogic晶晨A113X-B智能音频芯片，Winbond华邦W632GU6RB-11 SDRAM存储器和W29N02KVSIAF NAND型闪存，以及GSCoolink基石酷联GSV1501S HDMI接口芯片，LPS微源半导体LP5280S过压保护IC，Sunlord顺络电子MWTC系列功率电感等。"
     },
     "structure": {
       "form_factor": "其他音频设备",
@@ -306,6 +484,13 @@
       "sealing_method": [],
       "wear_design": [],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026052110350946.png",
+          "alt": "拆解报告：Xiaomi小米Sound无线音频连接器-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026052110351781.jpg",
           "alt": "拆解报告：Xiaomi小米Sound无线音频连接器-我爱音频网",
@@ -480,5 +665,5 @@
       }
     }
   },
-  "data_completeness": 0.63
+  "data_completeness": 0.664
 }

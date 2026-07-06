@@ -182,9 +182,135 @@
             "source_type": "text",
             "source_text": "QCC51"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5333",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5333",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5333"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5333",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5333",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "英集芯IP5333"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5333",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5333",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电仓内置三秋科技3.85V/2500mAh锂电池组，采用了INJOINIC英集芯IP5333多功能电源管理SoC。"
+          }
         }
       ],
       "bom_table": [
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.85V/310mAh锂电池",
+          "qty_hint": "1",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "3.85V/310mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内部主要配置方面，灵动屏内置众旺德3.85V/310mAh锂电池组，主板上搭载了SIFLI思澈科技SF32LB567微控制器，Prisemi芯导科技P14C1N过压过流保护IC，Dosilicon东芯DS35M2GB-IB的存储器，以及Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5333",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5333",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电仓内置三秋科技3.85V/2500mAh锂电池组，采用了INJOINIC英集芯IP5333多功能电源管理SoC。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.85V/2500mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.85V/2500mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电仓内置三秋科技3.85V/2500mAh锂电池组，采用了INJOINIC英集芯IP5333多功能电源管理SoC。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm高通",
+          "model": "高通QCC5181",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通QCC5181",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，搭载了Qualcomm高通QCC5181蓝牙音频SoC，HEROIC禾润HT97220B耳机放大器，Prisemi芯导科技P14C1N过压过流保护IC等方案。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/510mAh锂电池",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/510mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载优特利3.7V/510mAh锂电池组，采用了40mm动圈喇叭，内置6颗MEMS麦克风（2个瑞勤电子的通话麦+4个敏芯微电子的降噪麦）。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载优特利3.7V/510mAh锂电池组，采用了40mm动圈喇叭，内置6颗MEMS麦克风（2个瑞勤电子的通话麦+4个敏芯微电子的降噪麦）。"
+          }
+        },
         {
           "component": "电池",
           "brand": "",
@@ -356,29 +482,15 @@
         {
           "component": "芯片/模组",
           "brand": "",
-          "model": "高通QCC5181",
+          "model": "INJOINIC英集芯IP5333",
           "qty_hint": "1",
           "side": "",
           "role": "主控/蓝牙",
           "evidence": {
-            "value": "高通QCC5181",
+            "value": "INJOINIC英集芯IP5333",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "Qualcomm高通QCC5181蓝牙音频SoC，隶属于\n第二代高通S5音频平台\n，支持蓝牙5.4，充分符合支持全新蓝牙LE Audio（低功耗音频）用例的要求，包括Auracast广播音频。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "QCC5181",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "QCC5181",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "Qualcomm高通QCC5181蓝牙音频SoC，隶属于\n第二代高通S5音频平台\n，支持蓝牙5.4，充分符合支持全新蓝牙LE Audio（低功耗音频）用例的要求，包括Auracast广播音频。"
+            "source_text": "INJOINIC英集芯IP5333多功能电源管理SoC，集成升压转换器、锂电池充电管理、电池电量指示和TYPE-C协议等功能，为TWS充电仓提供完整的解决方案。"
           }
         },
         {
@@ -392,21 +504,7 @@
             "value": "高通QCC5181",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "高通QCC5181支持aptX音频编解码技术，包括aptX Adaptive自适应音频、aptX Lossless无损音频技术，最高可达24bit/96KHz；支持aptX Voice超宽带语音技术，第八代高通cVc回声消除和噪声抑制技术；集成高通自适应主动降噪（ANC）技术，包括前馈，后馈，混合和自适应，通过高通扩展程序支持第三方创新。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "QCC5181",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "QCC5181",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "高通QCC5181支持aptX音频编解码技术，包括aptX Adaptive自适应音频、aptX Lossless无损音频技术，最高可达24bit/96KHz；支持aptX Voice超宽带语音技术，第八代高通cVc回声消除和噪声抑制技术；集成高通自适应主动降噪（ANC）技术，包括前馈，后馈，混合和自适应，通过高通扩展程序支持第三方创新。"
+            "source_text": "Qualcomm高通QCC5181蓝牙音频SoC，隶属于\n第二代高通S5音频平台\n，支持蓝牙5.4，充分符合支持全新蓝牙LE Audio（低功耗音频）用例的要求，包括Auracast广播音频。"
           }
         },
         {
@@ -436,34 +534,6 @@
             "source_type": "text",
             "source_text": "Qualcomm高通QCC51xx系列详细资料图。"
           }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "高通QCC5181",
-          "qty_hint": "1",
-          "side": "耳机",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "高通QCC5181",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "主板上，搭载了Qualcomm高通QCC5181蓝牙音频SoC，HEROIC禾润HT97220B耳机放大器，Prisemi芯导科技P14C1N过压过流保护IC等方案。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "QCC5181",
-          "qty_hint": "1",
-          "side": "耳机",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "QCC5181",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "主板上，搭载了Qualcomm高通QCC5181蓝牙音频SoC，HEROIC禾润HT97220B耳机放大器，Prisemi芯导科技P14C1N过压过流保护IC等方案。"
-          }
         }
       ],
       "supply_hints": [],
@@ -489,7 +559,17 @@
             "source_text": "右耳内部的功能按键小板结构一览，与扬声器导线焊接，与麦克风排线通过连接器连接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040910030287.png",
+          "alt": "拆解报告：MORROR ART VWS无线蓝牙显示耳机X1-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上MORROR ART VWS无线蓝牙显示耳机X1已知的物料清单，方便大家查阅。 MORROR ART VWS无线蓝牙显示耳机X1在外观上延续了品牌家族式的极简设计语言。配备可伸缩调节头梁，耳罩支持多角度旋转，搭配柔软亲肤的头垫与耳罩，佩戴舒适度表现出色。但由于体积偏大，且不支持折叠功能，整体便携性有所不足。耳壳背部，创新设计磁吸式灵动屏，支持自定义内容显示，大幅提升了产品的可玩性与个性化表达空间。 内部主要配置方面，灵动屏内置众旺德3.85V/310mAh锂电池组，主板上搭载了SIFLI思澈科技SF32LB567微控制器，Prisemi芯导科技P14C1N过压过流保护IC，Dosilicon东芯DS35M2GB-IB的存储器，以及Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等方案。灵动屏充电仓内置三秋科技3.85V/2500mAh锂电池组，采用了INJOINIC英集芯IP5333多功能电源管理SoC。 耳机内部搭载优特利3.7V/510mAh锂电池组，采用了40mm动圈喇叭，内置6颗MEMS麦克风（2个瑞勤电子的通话麦+4个敏芯微电子的降噪麦）。主板上，搭载了Qualcomm高通QCC5181蓝牙音频SoC，HEROIC禾润HT97220B耳机放大器，Prisemi芯导科技P14C1N过压过流保护IC等方案。"
     },
     "structure": {
       "form_factor": "其他音频设备",
@@ -497,7 +577,7 @@
       "materials": [
         "皮革"
       ],
-      "ip_rating": "IP5",
+      "ip_rating": null,
       "weight_g": "308g",
       "dimensions": [
         "在音频体验方面，该产品搭载40mm大动圈喇叭，由丹麦著音响品牌尊宝（Jamo）授权声学调校，带来HiFi级音质；还支持3.5mm接口音频输入，可用于连接声卡和乐器等音源设备。",
@@ -609,39 +689,12 @@
           }
         },
         {
-          "value": "INJOINIC英集芯IP5333多功能电源管理SoC，集成升压转换器、锂电池充电管理、电池电量指示和TYPE-C协议等功能，为TWS充电仓提供完整的解决方案。",
+          "value": "撕开防尘网布，下方还设置有丝网防护。",
           "evidence": {
-            "value": "INJOINIC英集芯IP5333多功能电源管理SoC，集成升压转换器、锂电池充电管理、电池电量指示和TYPE-C协议等功能，为TWS充电仓提供完整的解决方案。",
+            "value": "撕开防尘网布，下方还设置有丝网防护。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5333多功能电源管理SoC，集成升压转换器、锂电池充电管理、电池电量指示和TYPE-C协议等功能，为TWS充电仓提供完整的解决方案。"
-          }
-        },
-        {
-          "value": "IP5333非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。",
-          "evidence": {
-            "value": "IP5333非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "IP5333非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。"
-          }
-        },
-        {
-          "value": "英集芯IP5333只需一个电感实现充电与升压功能。",
-          "evidence": {
-            "value": "英集芯IP5333只需一个电感实现充电与升压功能。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5333只需一个电感实现充电与升压功能。"
-          }
-        },
-        {
-          "value": "IP5333的同步升压系统提供额定1A输出电流，转换效率高至92%。",
-          "evidence": {
-            "value": "IP5333的同步升压系统提供额定1A输出电流，转换效率高至92%。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "IP5333的同步升压系统提供额定1A输出电流，转换效率高至92%。"
+            "source_text": "撕开防尘网布，下方还设置有丝网防护。"
           }
         }
       ],
@@ -685,6 +738,13 @@
       ],
       "key_image_urls": [
         {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040910030287.png",
+          "alt": "拆解报告：MORROR ART VWS无线蓝牙显示耳机X1-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
+        {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040910024323.jpg",
           "alt": "拆解报告：MORROR ART VWS无线蓝牙显示耳机X1-我爱音频网",
           "caption": "",
@@ -726,12 +786,7 @@
         "右侧耳壳侧边的降噪麦克风拾音孔特写。",
         "左侧耳壳侧边的两个降噪麦克风拾音孔特写。"
       ],
-      "ip_rating_evidence": {
-        "value": "IP5",
-        "confidence": 0.8,
-        "source_type": "text",
-        "source_text": "IP5"
-      },
+      "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "308g",
         "confidence": 0.75,
@@ -1050,5 +1105,5 @@
       }
     }
   },
-  "data_completeness": 0.796
+  "data_completeness": 0.766
 }

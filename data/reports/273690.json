@@ -134,6 +134,48 @@
       ],
       "bom_table": [
         {
+          "component": "电池",
+          "brand": "",
+          "model": "3.91V/480mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.91V/480mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载3.91V/480mAh锂电池，配备独立电路保护板负责电池充放电保护，采用SinhMicro昇生微电子SS888AH POWER MCU和SSD10X可编程升压IC，负责电池的充放电管理，以及整机控制。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "BES恒玄科技",
+          "model": "BES2600Y",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES2600Y",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用了BES恒玄科技BES2600Y蓝牙音频SoC，用于无线连接和音频数据处理；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "3",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机搭载来自SJL盛佳丽的16mm超高灵敏双磁路单元，内置敏芯微的三颗MEMS麦克风；"
+          }
+        },
+        {
           "component": "充电仓",
           "brand": "",
           "model": "",
@@ -328,20 +370,6 @@
             "source_type": "text",
             "source_text": "BES恒玄科技BES2600Y蓝牙音频SoC，是一款蓝牙+降噪+入耳检测三合一单芯片方案，支持开放式自适应降噪和AI降噪，支持辅听功能和空间音频，支持语音唤醒和交互等功能。"
           }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "BES2600Y",
-          "qty_hint": "1",
-          "side": "耳机",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "BES2600Y",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "耳机搭载来自SJL盛佳丽的16mm超高灵敏双磁路单元，内置敏芯微的三颗MEMS麦克风；采用了BES恒玄科技BES2600Y蓝牙音频SoC，用于无线连接和音频数据处理；其他还采用了用于空间音频和骨传导通话降噪的芯片等。"
-          }
         }
       ],
       "supply_hints": [],
@@ -356,11 +384,21 @@
             "source_text": "腔体内部设置电池单元，排线与主板焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026042201260323.png",
+          "alt": "拆解报告：HONOR荣耀Earbuds开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上HONOR荣耀Earbuds开放式耳机的已知物料清单，方便大家查阅。 HONOR荣耀Earbuds开放式耳机在外观方面，充电盒采用了轻薄设计，携带方便，荔枝皮纹理装饰，更具质感。耳机采用了人因工程学设计，7.9g轻盈机身，奶嘴级液态硅胶材质包括的纤细耳挂，佩戴与耳廓贴合舒适稳固，且与眼镜不冲突。 内部主要配置方面，充电盒搭载3.91V/480mAh锂电池，配备独立电路保护板负责电池充放电保护，采用SinhMicro昇生微电子SS888AH POWER MCU和SSD10X可编程升压IC，负责电池的充放电管理，以及整机控制。 耳机搭载来自SJL盛佳丽的16mm超高灵敏双磁路单元，内置敏芯微的三颗MEMS麦克风；采用了BES恒玄科技BES2600Y蓝牙音频SoC，用于无线连接和音频数据处理；其他还采用了用于空间音频和骨传导通话降噪的芯片等。"
     },
     "structure": {
       "form_factor": "开放式耳机",
-      "earbud_type": "入耳",
+      "earbud_type": "开放",
       "materials": [
         "硅胶",
         "液态硅胶"
@@ -506,6 +544,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026042201260323.png",
+          "alt": "拆解报告：HONOR荣耀Earbuds开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026042201260431.jpg",
           "alt": "拆解报告：HONOR荣耀Earbuds开放式耳机-我爱音频网",

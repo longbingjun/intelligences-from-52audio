@@ -100,6 +100,20 @@
       "chip_modules": [],
       "bom_table": [
         {
+          "component": "电池",
+          "brand": "",
+          "model": "1V/80mAh锂电池",
+          "qty_hint": "1",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "1V/80mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内部配置方面，电池容量从上代的180mAh升级到了300mAh，电芯来自ATL新能源，配备ICM创芯微CM1126B-JCC锂电池保护IC，负责过充电、过放电、过电流等保护，且支持船运模式，满足海运运输及长期存储需求；"
+          }
+        },
+        {
           "component": "主板/PCBA",
           "brand": "",
           "model": "",
@@ -196,7 +210,17 @@
             "source_text": "主板背面固定电池单元，排线与主板焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026033106235791.png",
+          "alt": "拆解报告：HUAWEI华为手环11 NFC版-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、智研所总结 最后附上HUAWEI华为手环11 NFC版的已知物料清单，方便大家查阅。 HUAWEI华为手环11 NFC版在外观方面，延续了系列设计风格，方形表盘，铝合金中框，磨砂+亮面倒角工艺处理，具有着出色的质感。标配的氟橡胶表带，柔软亲肤，搭配轻薄表盘，佩戴舒适无感。 内部配置方面，电池容量从上代的180mAh升级到了300mAh，电芯来自ATL新能源，配备ICM创芯微CM1126B-JCC锂电池保护IC，负责过充电、过放电、过电流等保护，且支持船运模式，满足海运运输及长期存储需求；采用Cellwise赛微微电CW6305B线性充电芯片，为内置电池充电。其他核心配置均采用了无可查证的全新型号。"
     },
     "structure": {
       "form_factor": "其他音频设备",
@@ -381,6 +405,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026033106235791.png",
+          "alt": "拆解报告：HUAWEI华为手环11 NFC版-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026033106235670.jpg",
           "alt": "拆解报告：HUAWEI华为手环11 NFC版-我爱音频网",
@@ -571,5 +602,5 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.724
+  "data_completeness": 0.726
 }

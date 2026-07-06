@@ -89,6 +89,48 @@
       "chip_modules": [],
       "bom_table": [
         {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/5200mAh锂电池",
+          "qty_hint": "1",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/5200mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内部主要配置方面，音箱搭载了双53mm动圈喇叭，内置易贝尔3.7V/5200mAh锂电池；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/1000mAh锂电池",
+          "qty_hint": "1",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/1000mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "话筒内部搭载了动圈式麦克风拾音，采用了诚新世能3.7V/1000mAh锂电池供电；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "话筒内部搭载了动圈式麦克风拾音，采用了诚新世能3.7V/1000mAh锂电池供电；"
+          }
+        },
+        {
           "component": "麦克风",
           "brand": "",
           "model": "",
@@ -208,7 +250,17 @@
             "source_text": "断开电池与主板焊接的导线。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026041503312117.png",
+          "alt": "拆解报告：优乐生活ik8 Plus卡拉OK音箱-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上优乐生活ik8 Plus卡拉OK音箱的已知物料清单，方便大家查阅。 优乐生活ik8 Plus卡拉OK音箱在外观方面，采用了创新的挂脖式设计，音箱既可以分开挂脖使用，实现更具沉浸感的立体环绕声，也可以通过可塑性颈挂实现各种摆放。话筒采用了经典的手持式设计，体积小巧轻便，握持舒适；双话筒配置，能够与好友一同K歌。 内部主要配置方面，音箱搭载了双53mm动圈喇叭，内置易贝尔3.7V/5200mAh锂电池；主板上采用了MVSILICON山景BP1048B2蓝牙音频应用处理器，BEKEN博通集成BK9532无线音频传输芯片，Chipstar智浦欣CS83785E音频功率放大器，以及LPS微源半导体LP28300A锂电池充电器和LP3992线性稳压器等方案。 话筒内部搭载了动圈式麦克风拾音，采用了诚新世能3.7V/1000mAh锂电池供电；采用BEKEN博通集成BK9521芯片与音箱实现无线音频传输；采用LPS微源半导体LP4054充电IC，为内置电池充电；采用Holychip芯圣HC89F0421 MCU单片机，用于整机控制。"
     },
     "structure": {
       "form_factor": "音箱及其他音频设备",
@@ -366,6 +418,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026041503312117.png",
+          "alt": "拆解报告：优乐生活ik8 Plus卡拉OK音箱-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026041503313414.jpg",
           "alt": "拆解报告：优乐生活ik8 Plus卡拉OK音箱-我爱音频网",

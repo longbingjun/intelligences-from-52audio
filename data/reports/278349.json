@@ -71,9 +71,191 @@
             "source_type": "text",
             "source_text": "BES2710IHC"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5528",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5528",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5528"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5528",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5528",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "英集芯IP5528"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "IP5528",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "IP5528",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "IP5528"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "Prisemi芯导P14C1S",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Prisemi芯导P14C1S",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "Prisemi芯导P14C1S"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "芯导P14C1S",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "芯导P14C1S",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "芯导P14C1S"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "P14C1S",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "P14C1S",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "P14C1S"
+          }
         }
       ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5528",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5528",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载3.7V/480mAh锂电池，采用INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，负责内置电池的充放电管理和整机控制；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Prisemi芯导",
+          "model": "Prisemi芯导P14C1S",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
+          "evidence": {
+            "value": "Prisemi芯导P14C1S",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用Prisemi芯导P14C1S过压过流保护IC，保护后级器件安全。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/480mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/480mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载3.7V/480mAh锂电池，采用INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，负责内置电池的充放电管理和整机控制；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "BES恒玄科技",
+          "model": "BES2710IHC",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES2710IHC",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主控芯片为BES恒玄科技BES2710IHC蓝牙音频SoC，还采用了NationalChip杭州国芯微GX8002 AI语音芯片提升智能交互体验。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "赣锋",
+          "model": "3.7V/45mAh软包扣式",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/45mAh软包扣式",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载GF新余赣锋3.7V/45mAh软包扣式电池，配备ICM创芯微CM1126B-GAC锂电池保护IC；"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "动圈单元",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "动圈单元",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "采用12mm钛复合振膜双磁路动圈单元，内置两颗瑞勤电子的MEMS麦克风+VPU骨传导麦克风；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "采用12mm钛复合振膜双磁路动圈单元，内置两颗瑞勤电子的MEMS麦克风+VPU骨传导麦克风；"
+          }
+        },
         {
           "component": "充电仓",
           "brand": "",
@@ -217,6 +399,48 @@
         {
           "component": "芯片/模组",
           "brand": "",
+          "model": "INJOINIC英集芯IP5528",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5528",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，是一款集成MCU、升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "IP5528",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "IP5528",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "得益于IP5528的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸， 降低BOM成本。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "Prisemi芯导P14C1S",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Prisemi芯导P14C1S",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Prisemi芯导P14C1S过压过流保护IC，输入耐压高达32V，过压保护点为固定6V。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
           "model": "BES2710IHC",
           "qty_hint": "1",
           "side": "",
@@ -227,37 +451,33 @@
             "source_type": "text",
             "source_text": "BES恒玄科技BES2710IHC蓝牙音频SoC，用于无线连接和音频数据处理。"
           }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "BES2710IHC",
-          "qty_hint": "1",
-          "side": "耳机",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "BES2710IHC",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "耳机内部搭载GF新余赣锋3.7V/45mAh软包扣式电池，配备ICM创芯微CM1126B-GAC锂电池保护IC；采用12mm钛复合振膜双磁路动圈单元，内置两颗瑞勤电子的MEMS麦克风+VPU骨传导麦克风；主控芯片为BES恒玄科技BES2710IHC蓝牙音频SoC，还采用了NationalChip杭州国芯微GX8002 AI语音芯片提升智能交互体验。"
-          }
         }
       ],
       "supply_hints": [],
       "packaging_notes": [
         "包装盒内部配件物品一览，包括了充电线、收纳袋和产品说明书。"
       ],
-      "process_hints": []
+      "process_hints": [],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026060310540931.png",
+          "alt": "拆解报告：BUTTONS CLIP开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上的已知核心物料清单，方便大家查阅。 作为国际潮流音频品牌，BUTTONS CLIP开放式耳机在外观上延续了品牌奢华设计风格。充电盒采用镜面锌合金与立体压纹牛皮拼接工艺，搭配精密CD纹与品牌纹理点缀，奢华感与辨识度拉满。耳夹式耳机线条圆润流畅，C桥内嵌记忆镍钛丝，外部亲肤硅胶材质包裹，佩戴舒适稳固；还设计有品牌LOGO环装饰，更显时尚感与高级感。 内部主要配置方面，充电盒搭载3.7V/480mAh锂电池，采用INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，负责内置电池的充放电管理和整机控制；采用ICM创芯微CM1125系列锂电池保护IC，负责电池的过充电、过放电、过电流等保护；采用Prisemi芯导P14C1S过压过流保护IC，保护后级器件安全。 耳机内部搭载GF新余赣锋3.7V/45mAh软包扣式电池，配备ICM创芯微CM1126B-GAC锂电池保护IC；采用12mm钛复合振膜双磁路动圈单元，内置两颗瑞勤电子的MEMS麦克风+VPU骨传导麦克风；主控芯片为BES恒玄科技BES2710IHC蓝牙音频SoC，还采用了NationalChip杭州国芯微GX8002 AI语音芯片提升智能交互体验。"
     },
     "structure": {
       "form_factor": "开放式耳机",
-      "earbud_type": "入耳",
+      "earbud_type": "开放",
       "materials": [
         "硅胶",
         "PC",
         "皮革"
       ],
-      "ip_rating": "IP5",
+      "ip_rating": null,
       "weight_g": "100.3g",
       "dimensions": [
         "BUTTONS CLIP开放式耳机\n在功能配置方面，搭载12mm钛复合双磁喇叭，带来更宽的动态范围和精准瞬态响应；经过专业级三频调校，呈现更自然的音效，获得了QQ音乐臻品音质认证；还支持定向传音技术，降低漏音，保护隐私；支持空间音效功能，带来更具空间感的音乐体验。",
@@ -349,53 +569,7 @@
           }
         }
       ],
-      "sealing_method": [
-        {
-          "value": "包装盒背面介绍了产品的功能特点：蓝牙5.4、12mm双磁喇叭、IP54防尘防水等，以及APP下载二维码。",
-          "evidence": {
-            "value": "包装盒背面介绍了产品的功能特点：蓝牙5.4、12mm双磁喇叭、IP54防尘防水等，以及APP下载二维码。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "包装盒背面介绍了产品的功能特点：蓝牙5.4、12mm双磁喇叭、IP54防尘防水等，以及APP下载二维码。"
-          }
-        },
-        {
-          "value": "INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，是一款集成MCU、升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。",
-          "evidence": {
-            "value": "INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，是一款集成MCU、升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，是一款集成MCU、升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。"
-          }
-        },
-        {
-          "value": "得益于IP5528的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸， 降低BOM成本。",
-          "evidence": {
-            "value": "得益于IP5528的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸， 降低BOM成本。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "得益于IP5528的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸， 降低BOM成本。"
-          }
-        },
-        {
-          "value": "英集芯IP5528支持跟随充电功能，可实现充电电压3.2~5.5V范围10mV精细步进调整，能够有效提升15%~20%充电盒电池到耳机电池的转换效率，进而提升15%~20%的TWS耳机综合续航时间。",
-          "evidence": {
-            "value": "英集芯IP5528支持跟随充电功能，可实现充电电压3.2~5.5V范围10mV精细步进调整，能够有效提升15%~20%充电盒电池到耳机电池的转换效率，进而提升15%~20%的TWS耳机综合续航时间。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5528支持跟随充电功能，可实现充电电压3.2~5.5V范围10mV精细步进调整，能够有效提升15%~20%充电盒电池到耳机电池的转换效率，进而提升15%~20%的TWS耳机综合续航时间。"
-          }
-        },
-        {
-          "value": "英集芯IP5528在应用上，只需一个电感实现升降压功能，支持低成本电感和电容。",
-          "evidence": {
-            "value": "英集芯IP5528在应用上，只需一个电感实现升降压功能，支持低成本电感和电容。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "英集芯IP5528在应用上，只需一个电感实现升降压功能，支持低成本电感和电容。"
-          }
-        }
-      ],
+      "sealing_method": [],
       "wear_design": [
         {
           "value": "该产品搭载双麦克风+VPU骨传导麦克风，支持三维声纹捕捉技术和抗干扰算法，搭配防风结构设计，提供清晰通话；支持双耳自适应，佩戴不分左右；专属APP内置HALI AI助理，支持语音唤醒，支持百科知识问答、聊天解闷、操作控制等，且拥有虚拟形象，交互更加自然。",
@@ -435,6 +609,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026060310540931.png",
+          "alt": "拆解报告：BUTTONS CLIP开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026060310541511.jpg",
           "alt": "拆解报告：BUTTONS CLIP开放式耳机-我爱音频网",
@@ -477,12 +658,7 @@
         "卸掉螺丝，取出主板和电池。",
         "该产品搭载双麦克风+VPU骨传导麦克风，支持三维声纹捕捉技术和抗干扰算法，搭配防风结构设计，提供清晰通话；支持双耳自适应，佩戴不分左右；专属APP内置HALI AI助理，支持语音唤醒，支持百科知识问答、聊天解闷、操作控制等，且拥有虚拟形象，交互更加自然。续航方面，耳机单次播放时长约5小时，充电盒可提供3次充电；支持闪充，20分钟可充电80%。下面就来看看这款产品的详细拆解报告吧~"
       ],
-      "ip_rating_evidence": {
-        "value": "IP5",
-        "confidence": 0.8,
-        "source_type": "text",
-        "source_text": "IP5"
-      },
+      "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "100.3g",
         "confidence": 0.75,
@@ -889,5 +1065,5 @@
       }
     }
   },
-  "data_completeness": 0.714
+  "data_completeness": 0.718
 }

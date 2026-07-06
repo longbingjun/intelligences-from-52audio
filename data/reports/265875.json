@@ -118,6 +118,76 @@
       "bom_table": [
         {
           "component": "电池",
+          "brand": "WEL旭航诚",
+          "model": "3.7V/400mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/400mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了WEL旭航诚3.7/400mAh锂电池，采用了ICM创芯微CM1125系列集成MOSFET单节锂电池保护IC，负责内置电池的过充电、过放电、过电流等保护；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "赣锋",
+          "model": "3.7V/40mAh软包扣式",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/40mAh软包扣式",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载GF新余赣锋3.7V/40mAh软包扣式电池，配备ICM创芯微CM1126B-GAC带船运模式二合一单节电池保护IC。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "JL杰理",
+          "model": "JL7016",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL7016",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机采用10mm镀钛振膜动圈喇叭，内置3颗敏芯微电子的MEMS麦克风，采用了JL杰理科技JL7016G6蓝牙音频SoC。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "钛振膜",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "钛振膜",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机采用10mm镀钛振膜动圈喇叭，内置3颗敏芯微电子的MEMS麦克风，采用了JL杰理科技JL7016G6蓝牙音频SoC。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机采用10mm镀钛振膜动圈喇叭，内置3颗敏芯微电子的MEMS麦克风，采用了JL杰理科技JL7016G6蓝牙音频SoC。"
+          }
+        },
+        {
+          "component": "电池",
           "brand": "",
           "model": "",
           "qty_hint": "",
@@ -283,20 +353,6 @@
             "source_type": "text",
             "source_text": "JL杰理科技JL7016G6蓝牙音频SoC，用于无线传输和音频数据处理。"
           }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "JL7016",
-          "qty_hint": "1",
-          "side": "耳机",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "JL7016",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "耳机采用10mm镀钛振膜动圈喇叭，内置3颗敏芯微电子的MEMS麦克风，采用了JL杰理科技JL7016G6蓝牙音频SoC。"
-          }
         }
       ],
       "supply_hints": [],
@@ -313,7 +369,17 @@
             "source_text": "断开电池与主板焊接的导线。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026011207000414.png",
+          "alt": "拆解报告：UGREEN绿联Hitune T6s真无线降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上UGREEN绿联Hitune T6s真无线降噪耳机的已知核心物料清单，方便大家查阅。 UGREEN绿联Hitune T6s真无线降噪耳机在外观方面，采用了非常简约的设计。鹅卵石状的充电盒，体积小巧便携，烤漆工艺处理，质感较为出色。柄状的入耳式耳机，入耳曲线佩戴舒适贴合耳廓，标配4种尺寸的硅胶耳塞，满足个性化的需求。 内部主要配置方面，充电盒搭载了WEL旭航诚3.7/400mAh锂电池，采用了ICM创芯微CM1125系列集成MOSFET单节锂电池保护IC，负责内置电池的过充电、过放电、过电流等保护；采用了SinhMicro昇生微电子SSP707电源管理芯片，负责电池的充放电管理；采用SinhMicro昇生微电子SS888Q微控制器，用于充电盒整机控制。 耳机内部搭载GF新余赣锋3.7V/40mAh软包扣式电池，配备ICM创芯微CM1126B-GAC带船运模式二合一单节电池保护IC。耳机采用10mm镀钛振膜动圈喇叭，内置3颗敏芯微电子的MEMS麦克风，采用了JL杰理科技JL7016G6蓝牙音频SoC。"
     },
     "structure": {
       "form_factor": "真无线耳机TWS",
@@ -471,6 +537,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026011207000414.png",
+          "alt": "拆解报告：UGREEN绿联Hitune T6s真无线降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026011207001383.jpg",
           "alt": "拆解报告：UGREEN绿联Hitune T6s真无线降噪耳机-我爱音频网",

@@ -8,7 +8,8 @@
     "bluetooth",
     "major_chips",
     "selling_point_tags",
-    "data_completeness"
+    "data_completeness",
+    "source"
   ],
   "rows": [
     {
@@ -26,6 +27,12 @@
         "快充",
         "通话降噪"
       ],
+      "sources": [
+        "video"
+      ],
+      "has_report": false,
+      "has_video": true,
+      "source": "video",
       "data_completeness": 0.33
     },
     {
@@ -73,6 +80,12 @@
         "沉浸式",
         "轻量化"
       ],
+      "sources": [
+        "report"
+      ],
+      "has_report": true,
+      "has_video": false,
+      "source": "report",
       "data_completeness": 0.67
     },
     {
@@ -108,6 +121,12 @@
         "钛振膜",
         "通话降噪"
       ],
+      "sources": [
+        "report"
+      ],
+      "has_report": true,
+      "has_video": false,
+      "source": "report",
       "data_completeness": 0.67
     },
     {
@@ -152,6 +171,12 @@
         "臻品音质",
         "游戏模式"
       ],
+      "sources": [
+        "report"
+      ],
+      "has_report": true,
+      "has_video": false,
+      "source": "report",
       "data_completeness": 0.67
     },
     {
@@ -188,6 +213,12 @@
         "认证",
         "Hi-Res"
       ],
+      "sources": [
+        "video"
+      ],
+      "has_report": false,
+      "has_video": true,
+      "source": "video",
       "data_completeness": 0.5
     },
     {
@@ -229,6 +260,12 @@
         "臻品音质",
         "圈铁"
       ],
+      "sources": [
+        "report"
+      ],
+      "has_report": true,
+      "has_video": false,
+      "source": "report",
       "data_completeness": 0.67
     },
     {
@@ -269,6 +306,12 @@
         "游戏模式",
         "通话降噪"
       ],
+      "sources": [
+        "report"
+      ],
+      "has_report": true,
+      "has_video": false,
+      "source": "report",
       "data_completeness": 0.67
     }
   ]

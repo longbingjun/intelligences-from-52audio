@@ -130,9 +130,163 @@
             "source_type": "text",
             "source_text": "BES2600IHC-4X"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "BES2600IHC",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES2600IHC",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "BES2600IHC"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "思远半导体SY8801",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "思远半导体SY8801",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "思远半导体SY8801"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "SY8801",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "SY8801",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "SY8801"
+          }
         }
       ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "思远半导体",
+          "model": "思远半导体SY8801",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "思远半导体SY8801",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，采用了思远半导体SY8801智能充电仓解决方案，负责内置电池的充放电管理；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/400mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/400mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了3.7V/400mAh锂电池，配备有独立电路保护板负责充放电保护。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "BES恒玄科技",
+          "model": "恒玄BES2600IHC-4X",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "恒玄BES2600IHC-4X",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用了BES恒玄BES2600IHC-4X蓝牙音频SoC，用于无线连接和音频数据处理。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "BES恒玄科技",
+          "model": "BES2600IHC-4X",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES2600IHC-4X",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用了BES恒玄BES2600IHC-4X蓝牙音频SoC，用于无线连接和音频数据处理。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "BES恒玄科技",
+          "model": "BES2600IHC",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES2600IHC",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用了BES恒玄BES2600IHC-4X蓝牙音频SoC，用于无线连接和音频数据处理。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/40mAh",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/40mAh",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内置搭载了3.7V/40mAh软包电池，采用了13.4mm镀钛振膜动圈喇叭；"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "钛振膜",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "钛振膜",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机内置搭载了3.7V/40mAh软包电池，采用了13.4mm镀钛振膜动圈喇叭；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "2",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "主板上，搭载了两颗MEMS麦克风，用于语音通话功能拾音；"
+          }
+        },
         {
           "component": "电池",
           "brand": "",
@@ -290,6 +444,34 @@
         {
           "component": "芯片/模组",
           "brand": "",
+          "model": "思远半导体SY8801",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "思远半导体SY8801",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "思远半导体SY8801电源管理芯片，采用QFN24封装，是一款专为蓝牙耳机仓设计的单芯片解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "思远半导体SY8801",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "思远半导体SY8801",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "思远半导体SY8801详细资料图。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
           "model": "恒玄BES2600IHC-4X",
           "qty_hint": "1",
           "side": "",
@@ -318,29 +500,15 @@
         {
           "component": "芯片/模组",
           "brand": "",
-          "model": "恒玄BES2600IHC-4X",
+          "model": "BES2600IHC",
           "qty_hint": "1",
-          "side": "耳机",
+          "side": "",
           "role": "主控/蓝牙",
           "evidence": {
-            "value": "恒玄BES2600IHC-4X",
+            "value": "BES2600IHC",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "耳机内置搭载了3.7V/40mAh软包电池，采用了13.4mm镀钛振膜动圈喇叭；主板上，搭载了两颗MEMS麦克风，用于语音通话功能拾音；采用了BES恒玄BES2600IHC-4X蓝牙音频SoC，用于无线连接和音频数据处理。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "BES2600IHC-4X",
-          "qty_hint": "1",
-          "side": "耳机",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "BES2600IHC-4X",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "耳机内置搭载了3.7V/40mAh软包电池，采用了13.4mm镀钛振膜动圈喇叭；主板上，搭载了两颗MEMS麦克风，用于语音通话功能拾音；采用了BES恒玄BES2600IHC-4X蓝牙音频SoC，用于无线连接和音频数据处理。"
+            "source_text": "BES恒玄BES2600IHC-4X蓝牙音频SoC，支持双模蓝牙5.3，支持环境降噪和AI ENC通话，用于无线连接和音频数据处理。"
           }
         }
       ],
@@ -376,13 +544,23 @@
             "source_text": "丝印HA FEU的一体化锂电保护IC。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040106170330.png",
+          "alt": "拆解报告：Keep E Clip开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上Keep E Clip开放式耳机的已知物料清单，方便大家查阅。 Keep E Clip开放式耳机在外观方面，充电盒采用了椭圆形设计，金属漆喷涂，呈现出色的类金属质感。同时体积非常小巧，外出使用便携。耳机采用了耳夹式设计，独特的“柔性袖扣”结构，提供自适应的夹持力，实现个性化舒适佩戴。 内部主要配置方面，充电盒搭载了3.7V/400mAh锂电池，配备有独立电路保护板负责充放电保护。主板上，采用了思远半导体SY8801智能充电仓解决方案，负责内置电池的充放电管理；采用Zbit恒烁CX32L003 MCU单片机，用于充电盒整机控制。 耳机内置搭载了3.7V/40mAh软包电池，采用了13.4mm镀钛振膜动圈喇叭；主板上，搭载了两颗MEMS麦克风，用于语音通话功能拾音；采用了BES恒玄BES2600IHC-4X蓝牙音频SoC，用于无线连接和音频数据处理。"
     },
     "structure": {
       "form_factor": "开放式耳机",
       "earbud_type": "开放",
       "materials": [],
-      "ip_rating": "IP5",
+      "ip_rating": null,
       "weight_g": "46.3g",
       "dimensions": [
         "功能配置上，该产品搭载13.44mm大动圈单元，支持定向传音技术，减少漏音并提升听感；支持音乐、运动、观影三种模式，满足不同场景使用需求。",
@@ -474,17 +652,7 @@
           }
         }
       ],
-      "sealing_method": [
-        {
-          "value": "Keep E Clip开放式耳机在外观上采用了耳夹式设计，柔性袖扣结构，提供自适应的夹持力，佩戴舒适稳固，同时支持IP54防尘防水，无惧运动汗水。",
-          "evidence": {
-            "value": "Keep E Clip开放式耳机在外观上采用了耳夹式设计，柔性袖扣结构，提供自适应的夹持力，佩戴舒适稳固，同时支持IP54防尘防水，无惧运动汗水。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "Keep E Clip开放式耳机在外观上采用了耳夹式设计，柔性袖扣结构，提供自适应的夹持力，佩戴舒适稳固，同时支持IP54防尘防水，无惧运动汗水。"
-          }
-        }
-      ],
+      "sealing_method": [],
       "wear_design": [
         {
           "value": "Keep E Clip开放式耳机在外观上采用了耳夹式设计，柔性袖扣结构，提供自适应的夹持力，佩戴舒适稳固，同时支持IP54防尘防水，无惧运动汗水。",
@@ -524,6 +692,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040106170330.png",
+          "alt": "拆解报告：Keep E Clip开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040106171992.jpg",
           "alt": "拆解报告：Keep E Clip开放式耳机-我爱音频网",
@@ -566,12 +741,7 @@
         "耳机柄上的麦克风拾音孔特写。",
         "耳机柄另外一侧的麦克风拾音孔特写。"
       ],
-      "ip_rating_evidence": {
-        "value": "IP5",
-        "confidence": 0.8,
-        "source_type": "text",
-        "source_text": "IP5"
-      },
+      "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "46.3g",
         "confidence": 0.75,
@@ -717,5 +887,5 @@
       }
     }
   },
-  "data_completeness": 0.742
+  "data_completeness": 0.73
 }

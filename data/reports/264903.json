@@ -51,6 +51,62 @@
       "chip_modules": [],
       "bom_table": [
         {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/280mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/280mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载3.7V/280mAh锂电池，采用LYMICRO凌扬微LY6366 TWS耳机充电仓管理芯片，负责内置电池的充放电管理和整机控制。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/30mAh锂电池",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/30mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用了YD一等新能源3.7V/30mAh锂电池，JL杰理AD6973D蓝牙音频SoC，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "11mm 动圈单元",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "11mm 动圈单元",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载11mm动圈单元，内置一颗MEMS麦克风拾音；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载11mm动圈单元，内置一颗MEMS麦克风拾音；"
+          }
+        },
+        {
           "component": "充电仓",
           "brand": "",
           "model": "",
@@ -189,7 +245,17 @@
             "source_text": "充电盒内部主要电路一览，电池导线与主板焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026010501574874.png",
+          "alt": "拆解报告：LIBERFEEL冇心Open Ring开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上LIBERFEEL冇心Open Ring开放式耳机的已知物料清单，方便大家查阅。 LIBERFEEL冇心Open Ring开放式耳机在外观方面，充电盒采用了鹅卵石状的设计，磨砂质感，体积轻巧便携；艺术字体装饰，更显独特性。耳夹式耳机内侧双气囊结构设计，提供更优的适配性；但弯臂没有弹性，佩戴时会稍显麻烦。 内部主要配置方面，充电盒搭载3.7V/280mAh锂电池，采用LYMICRO凌扬微LY6366 TWS耳机充电仓管理芯片，负责内置电池的充放电管理和整机控制。耳机内部搭载11mm动圈单元，内置一颗MEMS麦克风拾音；采用了YD一等新能源3.7V/30mAh锂电池，JL杰理AD6973D蓝牙音频SoC，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。"
     },
     "structure": {
       "form_factor": "开放式耳机",
@@ -337,6 +403,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026010501574874.png",
+          "alt": "拆解报告：LIBERFEEL冇心Open Ring开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026010501574693.jpg",
           "alt": "拆解报告：LIBERFEEL冇心Open Ring开放式耳机-我爱音频网",

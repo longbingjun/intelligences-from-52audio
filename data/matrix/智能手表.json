@@ -8,7 +8,8 @@
     "bluetooth",
     "major_chips",
     "selling_point_tags",
-    "data_completeness"
+    "data_completeness",
+    "source"
   ],
   "rows": [
     {
@@ -21,6 +22,13 @@
       "bluetooth": null,
       "major_chips": [],
       "selling_point_tags": [],
+      "sources": [
+        "report",
+        "video"
+      ],
+      "has_report": true,
+      "has_video": true,
+      "source": "report",
       "data_completeness": 0.17
     },
     {
@@ -36,6 +44,12 @@
         "旗舰定位",
         "旗舰"
       ],
+      "sources": [
+        "video"
+      ],
+      "has_report": false,
+      "has_video": true,
+      "source": "video",
       "data_completeness": 0.33
     },
     {
@@ -52,6 +66,12 @@
         "升级",
         "大幅提升"
       ],
+      "sources": [
+        "video"
+      ],
+      "has_report": false,
+      "has_video": true,
+      "source": "video",
       "data_completeness": 0.33
     },
     {
@@ -66,6 +86,12 @@
       "selling_point_tags": [
         "降噪"
       ],
+      "sources": [
+        "video"
+      ],
+      "has_report": false,
+      "has_video": true,
+      "source": "video",
       "data_completeness": 0.33
     },
     {
@@ -97,6 +123,12 @@
         "创新",
         "第一"
       ],
+      "sources": [
+        "report"
+      ],
+      "has_report": true,
+      "has_video": false,
+      "source": "report",
       "data_completeness": 0.67
     }
   ]

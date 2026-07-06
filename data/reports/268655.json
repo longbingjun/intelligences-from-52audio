@@ -111,9 +111,107 @@
             "source_type": "text",
             "source_text": "JL7016"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP2326",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP2326",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP2326"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP2326",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP2326",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "英集芯IP2326"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP2326",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP2326",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "音箱主板上，搭载了INJOINIC英集芯IP2326升压充电IC，负责为内置电池快速充电；"
+          }
         }
       ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP2326",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP2326",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "音箱主板上，搭载了INJOINIC英集芯IP2326升压充电IC，负责为内置电池快速充电；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "JL杰理",
+          "model": "JL7016",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL7016",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用JL杰理科技JL7016CB的蓝牙音频SoC，用于无线连接和音频数据处理。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "20V/00mAh锂电池",
+          "qty_hint": "1",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "20V/00mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内置2000mAh/7.4V可充电锂离子电池组，提供持久续航。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "采用了一颗驻极体麦克风，用于语音通话功能拾音；"
+          }
+        },
         {
           "component": "电池",
           "brand": "",
@@ -211,34 +309,6 @@
             "source_type": "text",
             "source_text": "音箱的指示灯特写，用于反馈蓝牙配对及充电状态。"
           }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "JL7016",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "JL7016",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "JL杰理科技JL7016CB的蓝牙音频SoC，用于无线连接和音频数据处理。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "JL7016",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "JL7016",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "音箱主板上，搭载了INJOINIC英集芯IP2326升压充电IC，负责为内置电池快速充电；采用Heroic禾润HT81696立体声D类音频功率放大器，用于驱动扬声器；采用JL杰理科技JL7016CB的蓝牙音频SoC，用于无线连接和音频数据处理。"
-          }
         }
       ],
       "supply_hints": [],
@@ -255,7 +325,17 @@
             "source_text": "电池保护板另外一侧与导线焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/02/2026022602164037.png",
+          "alt": "拆解报告：MOVA TPEAK S1便携式蓝牙音箱-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上MOVA TPEAK S1便携式蓝牙音箱的已知物料清单，方便大家查阅。 MOVA TPEAK S1便携式蓝牙音箱在外观方面，采用了比较主流的便携设计，金属出音孔盖板，搭配金色铭牌，具有着不错的质感。同时创新设计了环形RGB灯带，支持多种炫彩模式，能够为音乐提供出彩的氛围感。 内部主要配置方面，MOVA TPEAK S1便携式蓝牙音箱搭载46mm双喇叭单元，搭配一个被动辐射振膜，提供澎湃音频效果；采用了一颗驻极体麦克风，用于语音通话功能拾音；内置2000mAh/7.4V可充电锂离子电池组，提供持久续航。 音箱主板上，搭载了INJOINIC英集芯IP2326升压充电IC，负责为内置电池快速充电；采用Heroic禾润HT81696立体声D类音频功率放大器，用于驱动扬声器；采用JL杰理科技JL7016CB的蓝牙音频SoC，用于无线连接和音频数据处理。"
     },
     "structure": {
       "form_factor": "音箱及其他音频设备",
@@ -416,28 +496,17 @@
             "source_type": "text",
             "source_text": "包装盒背面介绍了产品的详细功能特点和参数信息，产品名称：便携式蓝牙音箱，型号：S1002，电池容量：2000mAh/14.8Wh，输入：5V-2000mA，颜色：黑色，额定功率：20W，频响范围：67-20kHz，蓝牙版本：V6.0，防护等级：IPX7。"
           }
-        },
-        {
-          "value": "RGB灯珠特写，为氛围灯提供光源，\nINJOINIC英集芯IP2326升压充电IC，是一款支持15W快充的2节/3节串联锂电池升压充电IC，集成功率MOS，并采用同步开关架构，应用时只需极少的外围器件，可有效缩减整体方案尺寸，降低BOM成本。",
-          "evidence": {
-            "value": "RGB灯珠特写，为氛围灯提供光源，\nINJOINIC英集芯IP2326升压充电IC，是一款支持15W快充的2节/3节串联锂电池升压充电IC，集成功率MOS，并采用同步开关架构，应用时只需极少的外围器件，可有效缩减整体方案尺寸，降低BOM成本。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "RGB灯珠特写，为氛围灯提供光源，\nINJOINIC英集芯IP2326升压充电IC，是一款支持15W快充的2节/3节串联锂电池升压充电IC，集成功率MOS，并采用同步开关架构，应用时只需极少的外围器件，可有效缩减整体方案尺寸，降低BOM成本。"
-          }
-        },
-        {
-          "value": "INJOINIC英集芯IP2326具有输入限压功能，支持智能调节充电电流，自适应适配器负载能力；并可根据当前电池电压，申请快充输入，提高充电效率，缩短充电时间；集成2串充电均衡电路，可在充电时检测每节电池电压的均衡，集成NTC保护功能。",
-          "evidence": {
-            "value": "INJOINIC英集芯IP2326具有输入限压功能，支持智能调节充电电流，自适应适配器负载能力；并可根据当前电池电压，申请快充输入，提高充电效率，缩短充电时间；集成2串充电均衡电路，可在充电时检测每节电池电压的均衡，集成NTC保护功能。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "INJOINIC英集芯IP2326具有输入限压功能，支持智能调节充电电流，自适应适配器负载能力；并可根据当前电池电压，申请快充输入，提高充电效率，缩短充电时间；集成2串充电均衡电路，可在充电时检测每节电池电压的均衡，集成NTC保护功能。"
-          }
         }
       ],
       "wear_design": [],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/02/2026022602164037.png",
+          "alt": "拆解报告：MOVA TPEAK S1便携式蓝牙音箱-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/02/2026022602162972.jpg",
           "alt": "拆解报告：MOVA TPEAK S1便携式蓝牙音箱-我爱音频网",
@@ -667,5 +736,5 @@
       }
     }
   },
-  "data_completeness": 0.666
+  "data_completeness": 0.7
 }

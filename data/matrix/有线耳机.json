@@ -8,7 +8,8 @@
     "bluetooth",
     "major_chips",
     "selling_point_tags",
-    "data_completeness"
+    "data_completeness",
+    "source"
   ],
   "rows": [
     {
@@ -30,6 +31,13 @@
         "大幅提升",
         "灵敏度"
       ],
+      "sources": [
+        "report",
+        "video"
+      ],
+      "has_report": true,
+      "has_video": true,
+      "source": "report",
       "data_completeness": 0.33
     },
     {
@@ -48,6 +56,12 @@
         "定制",
         "沉浸式"
       ],
+      "sources": [
+        "report"
+      ],
+      "has_report": true,
+      "has_video": false,
+      "source": "report",
       "data_completeness": 0.33
     }
   ]

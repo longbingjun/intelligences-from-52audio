@@ -86,6 +86,76 @@
       ],
       "bom_table": [
         {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/300mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/300mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了3.7V/300mAh锂电池，"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/30mAh锂电池",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/30mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内置3.7V/30mAh锂电池；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB5756",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB5756",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机采用了11mm复合纤维振膜动圈喇叭，内置一颗MEMS麦克风，主控芯片采用了Bluetrum中科蓝讯AB5756C蓝牙音频SoC。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "振膜动圈",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "振膜动圈",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机采用了11mm复合纤维振膜动圈喇叭，内置一颗MEMS麦克风，主控芯片采用了Bluetrum中科蓝讯AB5756C蓝牙音频SoC。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机采用了11mm复合纤维振膜动圈喇叭，内置一颗MEMS麦克风，主控芯片采用了Bluetrum中科蓝讯AB5756C蓝牙音频SoC。"
+          }
+        },
+        {
           "component": "主板/PCBA",
           "brand": "",
           "model": "",
@@ -263,11 +333,21 @@
             "source_text": "取掉电池，下方主板单元结构一眼，与导线焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026041702081742.png",
+          "alt": "拆解报告：STUMPE象鼻子D95开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上STUMPE象鼻子D95开放式耳机的已知核心物料清单，方便大家查阅。 STUMPE象鼻子D95开放式耳机外观设计富有特点，充电盒体积小巧轻便，双拼工艺处理，带来不错的层次感。耳机采用了耳夹式设计，亮银色质感，独特的记忆弹簧耳弓，任意弯折不易变形，同时能够自适应耳廓，提供稳定佩戴。 内部主要配置方面，充电盒搭载了3.7V/300mAh锂电池，耳机内置3.7V/30mAh锂电池；耳机采用了11mm复合纤维振膜动圈喇叭，内置一颗MEMS麦克风，主控芯片采用了Bluetrum中科蓝讯AB5756C蓝牙音频SoC。"
     },
     "structure": {
       "form_factor": "开放式耳机",
-      "earbud_type": "入耳",
+      "earbud_type": "开放",
       "materials": [
         "硅胶"
       ],
@@ -402,6 +482,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026041702081742.png",
+          "alt": "拆解报告：STUMPE象鼻子D95开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026041702081554.jpg",
           "alt": "拆解报告：STUMPE象鼻子D95开放式耳机-我爱音频网",

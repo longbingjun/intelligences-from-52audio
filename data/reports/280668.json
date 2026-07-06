@@ -41,16 +41,6 @@
           }
         },
         {
-          "text": "充电盒内部搭载豪鹏科技3.85V/1700mAh锂电池组，Type-C充电端口设置OmniVision豪威集团ESD56241D TVS保护管；有线充电采用了SGMICRO圣邦微SGM41513D电池充电器，无线充电采用ConvenientPower易冲半导体CPS4021无线充电接收芯片；其他还采用了CellWise赛微微电CW2215E电量计，SGMICRO圣邦微SGM62110S降压-升压转换器，GigaDevice兆易创新GD32L235xx系列微控制器等。",
-          "tag": "其他",
-          "evidence": {
-            "value": "充电盒内部搭载豪鹏科技3.85V/1700mAh锂电池组，Type-C充电端口设置OmniVision豪威集团ESD56241D TVS保护管；有线充电采用了SGMICRO圣邦微SGM41513D电池充电器，无线充电采用ConvenientPower易冲半导体CPS4021无线充电接收芯片；其他还采用了CellWise赛微微电CW2215E电量计，SGMICRO圣邦微SGM62110S降压-升压转换器，GigaDevice兆易创新GD32L235xx系列微控制器等。",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "充电盒内部搭载豪鹏科技3.85V/1700mAh锂电池组，Type-C充电端口设置OmniVision豪威集团ESD56241D TVS保护管；有线充电采用了SGMICRO圣邦微SGM41513D电池充电器，无线充电采用ConvenientPower易冲半导体CPS4021无线充电接收芯片；其他还采用了CellWise赛微微电CW2215E电量计，SGMICRO圣邦微SGM62110S降压-升压转换器，GigaDevice兆易创新GD32L235xx系列微控制器等。"
-          }
-        },
-        {
           "text": "眼睛标配蔡司防蓝光配镜片，可定制有度数镜片。",
           "tag": "其他",
           "evidence": {
@@ -114,9 +104,121 @@
             "source_type": "text",
             "source_text": "AB4"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ConvenientPower易冲半导体CPS4021",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ConvenientPower易冲半导体CPS4021",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "ConvenientPower易冲半导体CPS4021"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "易冲半导体CPS4021",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "易冲半导体CPS4021",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "易冲半导体CPS4021"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "CPS4021",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "CPS4021",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "CPS4021"
+          }
         }
       ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "BES恒玄科技",
+          "model": "BES2800BP",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES2800BP",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "芯片方案包括ADI亚德诺MAX17332电源管理芯片，CirrusLogic凌云逻辑CS35L42音频放大器，Azoteq IQS7222A多模态传感控制器，研极微SA62105X2 ISP芯片，BES恒玄科技BES2800BP智能穿戴SoC，BIWIN佰维存储器，艾为电子AW21104 LED驱动器，TDK 6轴传感器等。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "2V/40mAh锂电池",
+          "qty_hint": "1",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "2V/40mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内部主要配置方面，AI眼镜共搭载3块豪鹏科技的锂电池，总容量达到了240mAh；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "采用索尼IMX681摄像头，双磁路三明治扬声器，内置4颗歌尔微电子的MEMS麦克风；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "ConvenientPower易冲半导体",
+          "model": "ConvenientPower易冲半导体CPS4021",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "无线充电IC",
+          "evidence": {
+            "value": "ConvenientPower易冲半导体CPS4021",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "有线充电采用了SGMICRO圣邦微SGM41513D电池充电器，无线充电采用ConvenientPower易冲半导体CPS4021无线充电接收芯片；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.85V/1700mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.85V/1700mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内部搭载豪鹏科技3.85V/1700mAh锂电池组，Type-C充电端口设置OmniVision豪威集团ESD56241D TVS保护管；"
+          }
+        },
         {
           "component": "电池",
           "brand": "",
@@ -260,20 +362,6 @@
         {
           "component": "芯片/模组",
           "brand": "",
-          "model": "BES2800BP",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "BES2800BP",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "BES恒玄科技BES2800BP是一款超低功耗，高性能，具有集成蓝牙和Wi-Fi（可选）的智能穿戴SoC芯片。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
           "model": "AB4",
           "qty_hint": "1",
           "side": "",
@@ -288,15 +376,15 @@
         {
           "component": "芯片/模组",
           "brand": "",
-          "model": "BES2800BP",
+          "model": "ConvenientPower易冲半导体CPS4021",
           "qty_hint": "1",
           "side": "",
           "role": "主控/蓝牙",
           "evidence": {
-            "value": "BES2800BP",
+            "value": "ConvenientPower易冲半导体CPS4021",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "内部主要配置方面，AI眼镜共搭载3块豪鹏科技的锂电池，总容量达到了240mAh；采用索尼IMX681摄像头，双磁路三明治扬声器，内置4颗歌尔微电子的MEMS麦克风；芯片方案包括ADI亚德诺MAX17332电源管理芯片，CirrusLogic凌云逻辑CS35L42音频放大器，Azoteq IQS7222A多模态传感控制器，研极微SA62105X2 ISP芯片，BES恒玄科技BES2800BP智能穿戴SoC，BIWIN佰维存储器，艾为电子AW21104 LED驱动器，TDK 6轴传感器等。"
+            "source_text": "ConvenientPower易冲半导体CPS4021无线充电接收芯片，符合Qi标准，在接收器（Rx）模式下，支持高达30W的能力，在发射器（Tx）模式下支持高达10W的能力，特别适用于手机和便携设备应用。"
           }
         }
       ],
@@ -314,7 +402,17 @@
             "source_text": "电池保护板上搭载丝印“15PC EHAA”的一体化锂电保护IC，负责电池的过充电、过放电、过电流等保护。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026062607061459.png",
+          "alt": "拆解报告：理想AI智能眼镜Livis-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上理想AI智能眼镜Livis的已知物料清单，方便大家查阅。 理想AI智能眼镜Livis在外观方面，体积控制属于目前的主流水平，但通过超轻材料，使重量更轻。此次拆解的科技灰 哑光配色，采用半透明外壳设计，极具科技感。钛合金转轴支持15°外翻，金属鼻架可自由调节，搭配柔软硅胶鼻托，提供了比较舒适稳固的佩戴体验。 内部主要配置方面，AI眼镜共搭载3块豪鹏科技的锂电池，总容量达到了240mAh；采用索尼IMX681摄像头，双磁路三明治扬声器，内置4颗歌尔微电子的MEMS麦克风；芯片方案包括ADI亚德诺MAX17332电源管理芯片，CirrusLogic凌云逻辑CS35L42音频放大器，Azoteq IQS7222A多模态传感控制器，研极微SA62105X2 ISP芯片，BES恒玄科技BES2800BP智能穿戴SoC，BIWIN佰维存储器，艾为电子AW21104 LED驱动器，TDK 6轴传感器等。 充电盒内部搭载豪鹏科技3.85V/1700mAh锂电池组，Type-C充电端口设置OmniVision豪威集团ESD56241D TVS保护管；有线充电采用了SGMICRO圣邦微SGM41513D电池充电器，无线充电采用ConvenientPower易冲半导体CPS4021无线充电接收芯片；其他还采用了CellWise赛微微电CW2215E电量计，SGMICRO圣邦微SGM62110S降压-升压转换器，GigaDevice兆易创新GD32L235xx系列微控制器等。"
     },
     "structure": {
       "form_factor": "AI眼镜及穿戴设备",
@@ -484,6 +582,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026062607061459.png",
+          "alt": "拆解报告：理想AI智能眼镜Livis-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026062607060447.jpg",
           "alt": "拆解报告：理想AI智能眼镜Livis-我爱音频网",
@@ -744,5 +849,5 @@
       }
     }
   },
-  "data_completeness": 0.732
+  "data_completeness": 0.736
 }

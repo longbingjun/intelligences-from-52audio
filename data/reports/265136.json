@@ -93,6 +93,48 @@
       "chip_modules": [],
       "bom_table": [
         {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/450mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/450mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了3.7V/450mAh锂电池，采用ETA钰泰ETA9036电源管理芯片，负责内置电池的充放电管理；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/60mAh",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/60mAh",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载3.7V/60mAh软包电池，内置16.2mm大动圈喇叭和两颗敏芯微电子的MEMS麦克风。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载3.7V/60mAh软包电池，内置16.2mm大动圈喇叭和两颗敏芯微电子的MEMS麦克风。"
+          }
+        },
+        {
           "component": "充电仓",
           "brand": "",
           "model": "",
@@ -275,11 +317,21 @@
             "source_text": "断开电池与主板焊接的导线。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026010707164071.png",
+          "alt": "拆解报告：SoundPEATS泥炭GoFree2开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上SoundPEATS泥炭GoFree2开放式耳机的已知物料清单，方便大家查阅。 SoundPEATS泥炭GoFree2开放式耳机在外观方面，充电盒采用了圆角方形设计，亮面喷漆，质感光滑圆润，在灯光下呈现星光般闪点。耳机采用了挂耳式设计，耳挂非常纤细，配戴眼镜也不影响使用。同时耳机内侧贴肤位置通过一体式硅胶材质包裹，佩戴舒适亲肤。 内部主要配置方面，充电盒搭载了3.7V/450mAh锂电池，采用ETA钰泰ETA9036电源管理芯片，负责内置电池的充放电管理；采用Chipsea芯海科技CSU38F20单片机，用于充电盒整机控制；还采用了Prisemi芯导科技P14C1N过压过流保护IC，保障电路安全。 耳机内部搭载3.7V/60mAh软包电池，内置16.2mm大动圈喇叭和两颗敏芯微电子的MEMS麦克风。智能音频主控芯片为WUQI物奇WQ7034MX，其他还采用了Sunlord顺络电子MPHM系列功率电感、SDCL0603Q系列叠层陶瓷电感等方案。"
     },
     "structure": {
       "form_factor": "开放式耳机",
-      "earbud_type": "入耳",
+      "earbud_type": "开放",
       "materials": [
         "硅胶"
       ],
@@ -425,6 +477,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026010707164071.png",
+          "alt": "拆解报告：SoundPEATS泥炭GoFree2开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026010707163597.jpg",
           "alt": "拆解报告：SoundPEATS泥炭GoFree2开放式耳机-我爱音频网",

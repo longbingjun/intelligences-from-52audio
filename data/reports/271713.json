@@ -52,6 +52,34 @@
         {
           "component": "电池",
           "brand": "",
+          "model": "3.7V/1800mAh锂电池",
+          "qty_hint": "1",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/1800mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "其他方面，搭载广西劲恒能源科技3.7V/1800mAh锂电池，内置方形扬声器、驻极体麦克风和转子振动马达。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "其他方面，搭载广西劲恒能源科技3.7V/1800mAh锂电池，内置方形扬声器、驻极体麦克风和转子振动马达。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
           "model": "",
           "qty_hint": "",
           "side": "",
@@ -194,7 +222,17 @@
       "packaging_notes": [
         "取出包装盒内部所有物品，包括了憨憨、充电线、挂绳、毛毛梳、喂养说明和用户使用手册。"
       ],
-      "process_hints": []
+      "process_hints": [],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040106302676.png",
+          "alt": "拆解报告：华为憨憨AI智能陪伴机器人-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上华为憨憨AI智能陪伴机器人的已知物料清单，方便大家查阅。 华为憨憨AI智能陪伴机器人采用毛绒公仔造型，机身圆润可爱，触感柔软亲肤；搭配专属挂绳，日常使用宛如一件潮流挂件，亲和力十足。同时，机器人眼部搭载LCD彩色显示屏，能够呈现丰富多变的表情与状态，让交互更加灵动生动，极具情绪价值。 内部结构上，主体采用了硅胶套和海绵垫保护，有效提升意外跌落的损伤风险。配置上，主板搭载了BEKEN博通集成BK7258 Wi-Fi音视频MCU，LPS微源半导体LPA4871音频功率放大器，Vinka永嘉VKD233HH触摸检测IC，JOULWATT杰华特JW5211同步降压转换器，Smartlink捷联SL2823 NFC读写芯片等方案。 电源输入小板上采用了LPS微源半导体LP4051T充电IC，WCH沁恒CH340E USB转串口芯片，ETA钰泰ETA7014高侧过压保护芯片等方案。其他方面，搭载广西劲恒能源科技3.7V/1800mAh锂电池，内置方形扬声器、驻极体麦克风和转子振动马达。"
     },
     "structure": {
       "form_factor": "其他音频设备",
@@ -345,6 +383,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040106302676.png",
+          "alt": "拆解报告：华为憨憨AI智能陪伴机器人-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/04/2026040106301420.jpg",
           "alt": "拆解报告：华为憨憨AI智能陪伴机器人-我爱音频网",

@@ -72,6 +72,34 @@
         {
           "component": "电池",
           "brand": "",
+          "model": "3.87V/130mAh锂电池",
+          "qty_hint": "1",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "3.87V/130mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内部主要配置方面，搭载了ZWD众旺德3.87V/130mAh锂电池供电，内置2个MEMS麦克风+1个骨传导麦克风提供精准收音；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "内部主要配置方面，搭载了ZWD众旺德3.87V/130mAh锂电池供电，内置2个MEMS麦克风+1个骨传导麦克风提供精准收音；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
           "model": "",
           "qty_hint": "",
           "side": "",
@@ -196,7 +224,17 @@
             "source_text": "FPC排线另外一侧电路一览，焊接有电池单元。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026050901435582.png",
+          "alt": "拆解报告：荣耀亲选KUMI AI Note录音卡-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上荣耀亲选KUMI AI Note录音卡的已知核心物料清单，方便大家查阅。 荣耀亲选KUMI AI Note录音卡在外观方面，采用了非常轻薄的设计，同时支持磁吸功能，能够吸附在手机等设备上随行使用，非常便携。机身采用铝合金外壳搭配玻纤背板，兼顾质感、便携与耐用性。 内部主要配置方面，搭载了ZWD众旺德3.87V/130mAh锂电池供电，内置2个MEMS麦克风+1个骨传导麦克风提供精准收音；采用的主要方案包括NuVolta伏达半导体NU1680无线充电接收芯片，HIKSEMI海康存储HSEMSDS7S2B64G存储器，LPS微源半导体LP5308过压过流保护IC，Actions炬芯科技ATS3085S4蓝牙音频解决方案，Realtek瑞昱半导体RTL8711DAF WiFi芯片，以及Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。"
     },
     "structure": {
       "form_factor": "音箱及其他音频设备",
@@ -308,6 +346,13 @@
       "sealing_method": [],
       "wear_design": [],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026050901435582.png",
+          "alt": "拆解报告：荣耀亲选KUMI AI Note录音卡-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026050901435172.jpg",
           "alt": "拆解报告：荣耀亲选KUMI AI Note录音卡-我爱音频网",

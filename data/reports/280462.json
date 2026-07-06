@@ -117,6 +117,62 @@
         {
           "component": "电池",
           "brand": "",
+          "model": "3.85V/500mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.85V/500mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载紫建电子3.85V/500mAh锂电池组，采用SinhMicro昇生微电子SSP707电源管理芯片，负责内置电池的充放电管理；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB1585",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB1585",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用了AIROHA达发（络达）AB1585M蓝牙音频SoC，用于无线连接和音频数据处理；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.85V/54mAh钢壳扣式",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.85V/54mAh钢壳扣式",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用ZeniPower至力3.85V/54mAh钢壳扣式电池，为各项功能的使用提供持久续航。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载10mm高性能驱动单元发声，内置2个MEMS麦克风+1个VPU骨传导麦克风实现精准收音；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
           "model": "",
           "qty_hint": "",
           "side": "",
@@ -253,43 +309,25 @@
             "source_type": "text",
             "source_text": "AIROHA达发（络达）AB1585M蓝牙音频SoC。"
           }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "AB1585",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "AB1585",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "AB1585系列支持蓝牙5.3及LE Audio，具有一个应用处理器、一个数字信号处理器（DSP）、一个蓝牙收发器和一个电源管理单元（PMU）。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "AB1585",
-          "qty_hint": "1",
-          "side": "耳机",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "AB1585",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "耳机内部搭载10mm高性能驱动单元发声，内置2个MEMS麦克风+1个VPU骨传导麦克风实现精准收音；采用了AIROHA达发（络达）AB1585M蓝牙音频SoC，用于无线连接和音频数据处理；采用ZeniPower至力3.85V/54mAh钢壳扣式电池，为各项功能的使用提供持久续航。"
-          }
         }
       ],
       "supply_hints": [],
       "packaging_notes": [],
-      "process_hints": []
+      "process_hints": [],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026062503423730.png",
+          "alt": "拆解报告：SONY索尼LinkBuds Clip开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上SONY索尼LinkBuds Clip开放式耳机的已知核心物料清单，方便大家查阅。 SONY索尼LinkBuds Clip开放式耳机在外观方面，充电盒采用了圆角方形的上下对称式设计，烤漆+磨砂双重工艺拼接，质感出色，体积轻巧便携。耳机式耳机采用C形柔感宽弧桥设计，极具辨识度，同时夹持力适中，佩戴舒适稳定；还创新性的配备了“灵动枕”，提供个性化的稳定佩戴。 索尼LinkBuds Clip内部结构设计，依然是行业一流水平，整体做工干净整洁，模块化程度高，便于后期维修。主要配置上，充电盒搭载紫建电子3.85V/500mAh锂电池组，采用SinhMicro昇生微电子SSP707电源管理芯片，负责内置电池的充放电管理；采用GigaDevice兆易创新GD32E113CBT6微控制器，用于整机控制。 耳机内部搭载10mm高性能驱动单元发声，内置2个MEMS麦克风+1个VPU骨传导麦克风实现精准收音；采用了AIROHA达发（络达）AB1585M蓝牙音频SoC，用于无线连接和音频数据处理；采用ZeniPower至力3.85V/54mAh钢壳扣式电池，为各项功能的使用提供持久续航。"
     },
     "structure": {
       "form_factor": "开放式耳机",
-      "earbud_type": "入耳",
+      "earbud_type": "开放",
       "materials": [
         "硅胶"
       ],
@@ -434,6 +472,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026062503423730.png",
+          "alt": "拆解报告：SONY索尼LinkBuds Clip开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026062503425433.jpg",
           "alt": "拆解报告：SONY索尼LinkBuds Clip开放式耳机-我爱音频网",

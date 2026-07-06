@@ -96,6 +96,62 @@
       ],
       "bom_table": [
         {
+          "component": "电池",
+          "brand": "",
+          "model": "3.7V/500mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/500mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了YD亿等新能源3.7V/500mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "JL杰理",
+          "model": "JL7016",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL7016",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用JL杰理科技JL7016G蓝牙音频SoC，用于无线连接和音频数据处理。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.85V/60mAh钢壳扣式",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.85V/60mAh钢壳扣式",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载了3.85V/60mAh钢壳扣式电池，12mm动圈喇叭，内置2颗骨声纹麦克风拾音；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载了3.85V/60mAh钢壳扣式电池，12mm动圈喇叭，内置2颗骨声纹麦克风拾音；"
+          }
+        },
+        {
           "component": "充电仓",
           "brand": "",
           "model": "",
@@ -262,27 +318,23 @@
             "source_type": "text",
             "source_text": "JL杰理科技JL7016G蓝牙音频SoC，用于无线连接和音频数据处理。"
           }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "JL7016",
-          "qty_hint": "1",
-          "side": "耳机",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "JL7016",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "耳机内部搭载了3.85V/60mAh钢壳扣式电池，12mm动圈喇叭，内置2颗骨声纹麦克风拾音；采用JL杰理科技JL7016G蓝牙音频SoC，用于无线连接和音频数据处理。"
-          }
         }
       ],
       "supply_hints": [],
       "packaging_notes": [
         "打开包装盒，取出所有物品，包括主机、耳套、耳挂、充电线、产品说明书和保修卡等。"
       ],
-      "process_hints": []
+      "process_hints": [],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026032010485620.png",
+          "alt": "拆解报告：Timekettle时空壶W4 AI同传耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上Timekettle时空壶W4 AI同传耳机的已知核心物料清单，方便大家查阅。 Timekettle时空壶W4 AI同传耳机在外观方面，采用了家族式的设计风格，极具品牌辨识度。充电盒采用二合一的分体式结构，取放耳机更加便捷，金属机身，质感出色。耳机采用了柄状的入耳式设计，佩戴舒适轻盈；同时耳机柄较长，佩戴更靠近嘴巴，实现更优的收音效果。 内部主要配置方面，充电盒搭载了YD亿等新能源3.7V/500mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护。主板上，搭载了JL杰理科技AC982A充电仓SoC，用于充电盒内置电池的充放电管理和整机控制；采用LPS微源半导体LP5301过压过流保护IC，保护后级器件。 耳机内部搭载了3.85V/60mAh钢壳扣式电池，12mm动圈喇叭，内置2颗骨声纹麦克风拾音；采用JL杰理科技JL7016G蓝牙音频SoC，用于无线连接和音频数据处理。"
     },
     "structure": {
       "form_factor": "其他音频设备",
@@ -439,6 +491,13 @@
         }
       ],
       "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026032010485620.png",
+          "alt": "拆解报告：Timekettle时空壶W4 AI同传耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
         {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026032010484851.jpg",
           "alt": "拆解报告：Timekettle时空壶W4 AI同传耳机-我爱音频网",

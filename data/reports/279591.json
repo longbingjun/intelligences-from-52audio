@@ -67,9 +67,37 @@
             "source_type": "text",
             "source_text": "高通CRS57E6"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm高通",
+          "model": "高通CRS57E6",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通CRS57E6",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用Qualcomm高通CRS57E6蓝牙音频芯片，用于无线连接和音频数据处理；"
+          }
         }
       ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm高通",
+          "model": "高通CRS57E6",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通CRS57E6",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用Qualcomm高通CRS57E6蓝牙音频芯片，用于无线连接和音频数据处理；"
+          }
+        },
         {
           "component": "主板/PCBA",
           "brand": "",
@@ -181,34 +209,6 @@
             "source_type": "text",
             "source_text": "LED指示灯特写。"
           }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "高通CRS57E6",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "高通CRS57E6",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "Qualcomm高通CRS57E6蓝牙音频芯片，用于无线连接和音频数据处理。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "高通CRS57E6",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "高通CRS57E6",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "内部主要配置方面，JBL SPARK音乐火花装饰音箱搭载了双40mm动圈喇叭，采用TI德州仪器TAS5707音频功率放大器驱动；采用Qualcomm高通CRS57E6蓝牙音频芯片，用于无线连接和音频数据处理；其他还采用了MXIC旺宏MX29LV160DBXBI-70G存储器，HTC泰进科技TJ5205低噪声LDO稳压器等。"
-          }
         }
       ],
       "supply_hints": [],
@@ -225,7 +225,17 @@
             "source_text": "拆开线控板，内部功能按键小板与导线焊接。"
           }
         }
-      ]
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026061702102019.png",
+          "alt": "拆解报告：JBL SPARK音乐火花装饰音箱-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上JBL SPARK音乐花火装饰音箱的已知物料清单，方便大家查阅。 JBL SPARK音乐火花装饰音箱在外观方面，采用独特的锥形喇叭造型设计，悬挂使用形似“吊灯”，搭配透明外壳，清新糖果配色，可以用于装饰空间；同时机身上设计橡胶圈，实现桌面使用稳定摆放。 内部主要配置方面，JBL SPARK音乐火花装饰音箱搭载了双40mm动圈喇叭，采用TI德州仪器TAS5707音频功率放大器驱动；采用Qualcomm高通CRS57E6蓝牙音频芯片，用于无线连接和音频数据处理；其他还采用了MXIC旺宏MX29LV160DBXBI-70G存储器，HTC泰进科技TJ5205低噪声LDO稳压器等。"
     },
     "structure": {
       "form_factor": "音箱及其他音频设备",
@@ -366,6 +376,13 @@
       "wear_design": [],
       "key_image_urls": [
         {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026061702102019.png",
+          "alt": "拆解报告：JBL SPARK音乐火花装饰音箱-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
+        {
           "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026061702102272.jpg",
           "alt": "拆解报告：JBL SPARK音乐火花装饰音箱-我爱音频网",
           "caption": "",
@@ -471,5 +488,5 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.562
+  "data_completeness": 0.578
 }
