@@ -10,13 +10,43 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 DATA = ROOT / "data"
 WEB_DATA = ROOT / "web" / "public" / "data"
+SITE = ROOT / "site"
+
+# V3/V4 多角色静态页目录（V5 Astro 不再生成，构建前清理避免 Pages 残留旧入口）
+LEGACY_SITE_PATHS = (
+    "reports",
+    "videos",
+    "compare",
+    "matrix",
+    "products",
+    "assets",
+    "about.html",
+)
 
 
 def _slug(category: str) -> str:
     return re.sub(r'[<>:"/\\|?*\s]+', "-", category.strip()).strip("-") or "other"
 
 
+def clean_legacy_site() -> list[str]:
+    """移除旧版多角色静态页，避免与 V5 成本工作台并存。"""
+    removed: list[str] = []
+    if not SITE.exists():
+        return removed
+    for rel in LEGACY_SITE_PATHS:
+        target = SITE / rel
+        if not target.exists():
+            continue
+        if target.is_dir():
+            shutil.rmtree(target)
+        else:
+            target.unlink()
+        removed.append(rel)
+    return removed
+
+
 def prepare() -> dict:
+    legacy_removed = clean_legacy_site()
     if WEB_DATA.exists():
         shutil.rmtree(WEB_DATA)
     WEB_DATA.mkdir(parents=True, exist_ok=True)
@@ -75,7 +105,12 @@ def prepare() -> dict:
     (WEB_DATA / "categories.json").write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-    return {"categories": len(categories), "products": n_products, "out": str(WEB_DATA)}
+    return {
+        "categories": len(categories),
+        "products": n_products,
+        "legacy_site_removed": legacy_removed,
+        "out": str(WEB_DATA),
+    }
 
 
 def main() -> None:

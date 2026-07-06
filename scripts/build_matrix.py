@@ -145,7 +145,6 @@ def build_matrix() -> dict:
         payload = {
             "category": category,
             "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
-            "default_role": "cost",
             "columns": COST_MATRIX_COLUMNS,
             "rows": rows,
         }
@@ -193,7 +192,6 @@ def build_matrix() -> dict:
         compare_payload = {
             "category": category,
             "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
-            "default_role": "cost",
             "param_rows": COMPARE_PARAM_ROWS,
             "products": compare_cols,
             "rows": compare_rows,

@@ -1,4 +1,4 @@
-"""v2 静态站点：父级列表 + 子级五区块角色透镜（无原文 HTML 转载）。"""
+"""v2 静态站点（遗留脚本）：父级列表 + 成本工程师视图。V5 请用 web/ Astro 构建。"""
 
 from __future__ import annotations
 
@@ -38,7 +38,6 @@ from scripts.site_ux import (  # noqa: E402
     field_with_badge,
     get_field_evidence,
     internal_compare_html,
-    pm_bullets_html,
     source_type_from_ref,
 )
 
@@ -49,30 +48,28 @@ COMPARE_DATA_DIR = DATA_DIR / "compare"
 PRODUCTS_DIR = DATA_DIR / "products"
 
 ROLE_LENSES = {
-    "pm": {"label": "产品经理", "sections": ["market", "cost", "structure", "hardware", "software"]},
-    "cost": {"label": "成本工程师", "sections": ["cost", "structure", "hardware", "software"]},
-    "structure": {"label": "结构工程师", "sections": ["structure"]},
-    "hardware": {"label": "硬件工程师", "sections": ["hardware"]},
-    "software": {"label": "软件工程师", "sections": ["software"]},
+    "cost": {"label": "成本工程师", "sections": ["cost"]},
 }
 
-# ---- V3 Phase1: 矩阵角色透镜列 + 品类对比页 + 字段注释 ----
-
-FIELD_ANNOTATIONS_PATH = DATA_DIR / "field_annotations.json"
-
-# 角色 → 矩阵列 key（field_annotations.json 缺失时的降级默认）
+# 成本工程师矩阵列
 DEFAULT_MATRIX_ROLE_COLUMNS: dict[str, list[str]] = {
     "cost": [
-        "brand", "model", "price_cny", "main_chip", "pmic",
-        "battery_ear", "battery_case", "speaker", "materials",
-        "weight_g", "ip_rating", "bluetooth", "bom_rows",
-        "layer_badges", "data_completeness",
+        "brand",
+        "model",
+        "price_cny",
+        "main_chip",
+        "pmic",
+        "battery_ear",
+        "battery_case",
+        "speaker",
+        "materials",
+        "weight_g",
+        "ip_rating",
+        "bluetooth",
+        "bom_rows",
+        "layer_badges",
+        "data_completeness",
     ],
-    "pm": ["brand", "model", "category", "selling_point_tags", "scenarios",
-           "launch_date", "price_cny", "data_completeness"],
-    "structure": ["form_factor", "materials", "ip_rating", "weight_g", "dimensions", "earbud_type"],
-    "hardware": ["bluetooth", "codecs", "battery_mah", "charge_interface", "certifications"],
-    "software": ["bluetooth_version", "codecs_sw", "multipoint", "app", "ota", "latency"],
 }
 
 MATRIX_COLUMN_LABELS: dict[str, str] = {
@@ -90,6 +87,8 @@ MATRIX_COLUMN_LABELS: dict[str, str] = {
     "bluetooth_version": "蓝牙版本", "codecs_sw": "编码",
     "multipoint": "多点", "app": "App", "ota": "OTA", "latency": "延迟",
 }
+
+FIELD_ANNOTATIONS_PATH = DATA_DIR / "field_annotations.json"
 
 
 def _load_field_annotations() -> dict:
@@ -336,12 +335,23 @@ def _summary_images_html(images: list[dict]) -> str:
 
 
 def _role_lens_html(default_role: str = "cost") -> str:
-    buttons = []
-    for key, meta in ROLE_LENSES.items():
-        active = "active" if key == default_role else ""
-        buttons.append(f'<button type="button" class="lens-btn {active}" data-lens="{key}">{esc(meta["label"])}</button>')
-    export_btn = '<button type="button" class="export-btn" id="export-csv-btn">导出 CSV</button>'
-    return f'<div class="lens-bar" id="role-lens">{"".join(buttons)}{export_btn}</div>'
+    return ""
+
+
+def _render_cost_section(r: dict, v: dict) -> str:
+    """成本工程师视图：BOM、芯片与工艺线索。"""
+    return _section(
+        "成本与 BOM",
+        "cost",
+        f"""
+{collapsible_list("主要部件", v.get('cost', {}).get('major_parts', []), r, 'cost')}
+<div class="sub"><b>芯片/模组</b>{_chip_table(v.get('cost', {}).get('chip_modules', []), r)}</div>
+<div class="sub"><b>物料清单（BOM）</b>{_bom_table_html(v.get('cost', {}).get('bom_table', []), r)}</div>
+{_summary_images_html(v.get('cost', {}).get('summary_image_urls', []))}
+{collapsible_list("包装/附件", v.get('cost', {}).get('packaging_notes', []), r, 'cost')}
+{collapsible_list("工艺线索", v.get('cost', {}).get('process_hints', []), r, 'cost')}
+""",
+    )
 
 
 def _section(title: str, section_id: str, body: str) -> str:
@@ -371,7 +381,7 @@ def report_card(r: dict, depth: int) -> str:
   <div>{category_tag(r.get('category',''))}</div>
   <div class="summary">{esc(truncate(r.get('summary',''), 100))}</div>
   <div class="card-footer">
-    <a href="{href}">查看角色视图</a>
+    <a href="{href}">查看成本详情</a>
     <a href="{esc(r['url'])}" target="_blank" rel="noopener">原文</a>
   </div>
 </div>"""
@@ -419,63 +429,8 @@ def _is_today(item: dict, today: str, idx: dict) -> bool:
 
 
 def _render_five_sections(r: dict, v: dict) -> str:
-    """渲染 A–E 五区块（报告与视频详情页共用）。"""
-    m = v.get("market", {})
-    return (
-        _section(
-            "A · 产品与市场",
-            "market",
-            f"""
-{field_with_badge("定位摘要", m.get('positioning_summary') or '', get_field_evidence(r, 'views.market.positioning_summary') or 'text')}
-{field_with_badge("上市时间", m.get('launch_date') or '未识别', get_field_evidence(r, 'views.market.launch_date') or 'text')}
-{collapsible_list("卖点", m.get('selling_points', []), r, 'market')}
-{collapsible_list("使用场景", m.get('scenarios', []), r, 'market')}
-""",
-        )
-        + _section(
-            "B · 成本与 BOM",
-            "cost",
-            f"""
-{collapsible_list("主要部件", v.get('cost', {}).get('major_parts', []), r, 'cost')}
-<div class="sub"><b>芯片/模组</b>{_chip_table(v.get('cost', {}).get('chip_modules', []), r)}</div>
-<div class="sub"><b>物料清单（BOM）</b>{_bom_table_html(v.get('cost', {}).get('bom_table', []), r)}</div>
-{_summary_images_html(v.get('cost', {}).get('summary_image_urls', []))}
-{collapsible_list("包装/附件", v.get('cost', {}).get('packaging_notes', []), r, 'cost')}
-{collapsible_list("工艺线索", v.get('cost', {}).get('process_hints', []), r, 'cost')}
-""",
-        )
-        + _section(
-            "C · 结构与材料",
-            "structure",
-            f"""
-{field_with_badge("形态", v.get('structure', {}).get('form_factor') or '', 'text')}
-{field_with_badge("佩戴类型", v.get('structure', {}).get('earbud_type') or '未识别', 'text')}
-{field_with_badge("防护等级", v.get('structure', {}).get('ip_rating') or '未识别', 'text')}
-{field_with_badge("重量", v.get('structure', {}).get('weight_g') or '未识别', 'text')}
-{collapsible_list("材料", v.get('structure', {}).get('materials', []), r, 'structure')}
-{collapsible_list("内部结构", v.get('structure', {}).get('internal_structure', []), r, 'structure')}
-{collapsible_list("佩戴/结构", v.get('structure', {}).get('wear_design', []), r, 'structure')}
-{collapsible_list("关键图", [img.get('url','') for img in v.get('structure', {}).get('key_image_urls', []) if img.get('url')], r, 'structure')}
-""",
-        )
-        + _section(
-            "D · 硬件规格",
-            "hardware",
-            _specs_table(v.get("hardware", {}).get("specs", []), r),
-        )
-        + _section(
-            "E · 软件与连接",
-            "software",
-            f"""
-{field_with_badge("蓝牙版本", v.get('software', {}).get('bluetooth_version') or '未识别', 'text')}
-{collapsible_list("音频编码", v.get('software', {}).get('codecs', []), r, 'software')}
-{collapsible_list("多点连接", v.get('software', {}).get('multipoint', []), r, 'software')}
-{collapsible_list("App 功能", v.get('software', {}).get('app_features', []), r, 'software')}
-{collapsible_list("OTA/固件", v.get('software', {}).get('ota_support', []), r, 'software')}
-{collapsible_list("低延迟", v.get('software', {}).get('latency_notes', []), r, 'software')}
-""",
-        )
-    )
+    """兼容旧调用名：仅输出成本工程师区块。"""
+    return _render_cost_section(r, v)
 
 
 def build_report_detail(r: dict, out_dir: Path) -> None:
@@ -520,8 +475,7 @@ def build_report_detail(r: dict, out_dir: Path) -> None:
 </div>
 
 {_role_lens_html("cost")}
-{pm_bullets_html(v)}
-{_render_five_sections(r, v)}
+{_render_cost_section(r, v)}
 """
     export_json = json.dumps(export_data_json(r), ensure_ascii=False)
     ann_json = json.dumps(ann_map, ensure_ascii=False)
@@ -573,7 +527,7 @@ def build_video_detail(v: dict, out_dir: Path) -> None:
         asr_block = (
             f'<p class="empty-hint empty-ocr">转写状态：pending'
             + (f"（{esc(reason)}）" if reason else "")
-            + "——待 video-enrich 流程产出 asr.json 后再渲染完整五区块</p>"
+            + "——待 video-enrich 流程产出 asr.json 后再渲染成本视图</p>"
         )
     elif asr and asr.get("status") in ("failed", "empty"):
         asr_block = f'<p class="empty-hint empty-missing">转写状态：{esc(asr.get("status",""))}（method={esc(asr.get("method",""))}）</p>'
@@ -607,8 +561,7 @@ def build_video_detail(v: dict, out_dir: Path) -> None:
 <div class="panel">{asr_block}</div>
 
 {_role_lens_html("cost")}
-{pm_bullets_html(views)}
-{_render_five_sections(record_for_render, views)}
+{_render_cost_section(record_for_render, views)}
 """
     export_json = json.dumps(export_data_json(record_for_render), ensure_ascii=False)
     extra = (
@@ -655,8 +608,8 @@ def build_index(reports: list[dict], videos: list[dict], idx: dict) -> None:
   </div>
 </section>
 <div class="entry-grid">
-  <a class="entry-card entry-card-matrix" href="matrix/index.html?role=cost"><h3>成本竞品矩阵</h3><div class="count">{matrix_count or '—'}</div><p>按品类横向对比 BOM/芯片/电池等成本参数</p></a>
-  <a class="entry-card" href="compare/开放式耳机.html?role=cost"><h3>同品类对比</h3><div class="count">大表</div><p>成本参数行 × 产品列，链入产品摘要</p></a>
+  <a class="entry-card entry-card-matrix" href="matrix/index.html"><h3>成本竞品矩阵</h3><div class="count">{matrix_count or '—'}</div><p>按品类横向对比 BOM/芯片/电池等成本参数</p></a>
+  <a class="entry-card" href="compare/开放式耳机.html"><h3>同品类对比</h3><div class="count">大表</div><p>成本参数行 × 产品列，链入产品摘要</p></a>
   <a class="entry-card" href="reports/index.html"><h3>拆解报告</h3><div class="count">{len(reports)}</div></a>
   <a class="entry-card" href="videos/index.html"><h3>拆解视频</h3><div class="count">{len(videos)}</div></a>
 </div>
@@ -690,8 +643,8 @@ def build_list_page(kind: str, items: list[dict], title: str, nav: str) -> None:
     cards = cards or '<p class="empty-hint">暂无</p>'
     index_rel = "../data/search-index.json"
     matrix_link = (
-        '<p class="matrix-entry-link"><a href="../matrix/index.html?role=cost">进入成本矩阵 →</a>　'
-        '<a href="../compare/开放式耳机.html?role=cost">同品类对比示例</a></p>'
+        '<p class="matrix-entry-link"><a href="../matrix/index.html">进入成本矩阵 →</a>　'
+        '<a href="../compare/开放式耳机.html">同品类对比示例</a></p>'
         if kind == "report" else ""
     )
     body = (
@@ -755,19 +708,7 @@ def _product_digest_href(cid: str, depth: int = 1) -> str:
 
 
 def _matrix_role_bar(role_columns: dict[str, list[str]], default_role: str = "cost") -> str:
-    buttons = []
-    # cost 角色排第一
-    order = ["cost"] + [k for k in role_columns if k != "cost"]
-    for key in order:
-        if key not in role_columns:
-            continue
-        label = ROLE_LENSES.get(key, {}).get("label", key)
-        active = "active" if key == default_role else ""
-        buttons.append(
-            f'<button type="button" class="lens-btn matrix-role-btn {active}" '
-            f'data-matrix-role="{esc(key)}">{esc(label)}</button>'
-        )
-    return f'<div class="lens-bar matrix-role-bar" id="matrix-role-bar">{"".join(buttons)}</div>'
+    return ""
 
 
 def build_matrix_pages() -> None:
@@ -839,7 +780,7 @@ def build_matrix_pages() -> None:
                     f'<td data-col="model">{model_link}</td>',
                     1,
                 )
-            compare_href = f"../compare/{_category_filename(cat)}?role=cost"
+            compare_href = f"../compare/{_category_filename(cat)}"
             compare_link = f'<a href="{esc(compare_href)}">同品类对比</a>'
             digest_link = f'<a href="{esc(_product_digest_href(cid, 1))}">成本摘要</a>' if cid else ""
             rows_html.append(f"<tr>{cells}<td>{compare_link}</td><td>{digest_link}</td></tr>")
@@ -892,7 +833,7 @@ def build_compare_pages() -> None:
             continue
 
         head = "<th>参数</th>" + "".join(
-            f'<th><a href="../products/{esc(p["canonical_id"])}.html?role=cost">'
+            f'<th><a href="../products/{esc(p["canonical_id"])}.html">'
             f'{esc((p.get("brand") or "") + " " + (p.get("model") or "")).strip() or p["canonical_id"]}</a></th>'
             for p in products
         )
@@ -920,7 +861,7 @@ def build_compare_pages() -> None:
             f'<table class="compare-table"><thead><tr>{head}</tr></thead>'
             f'<tbody>{"".join(body_rows)}</tbody></table>'
         )
-        matrix_href = "../matrix/index.html?role=cost"
+        matrix_href = "../matrix/index.html"
         body = f"""
 <h1 class="section-title">{esc(cat)} · 成本参数对比</h1>
 <p class="sort-hint">列=产品（链成本摘要页），行=成本关注参数；点击单元格展开证据。</p>
@@ -977,12 +918,12 @@ def build_product_digest_pages() -> None:
 
         report_links = []
         for rid in product.get("report_ids") or []:
-            report_links.append(f'<a href="../reports/{esc(rid)}.html?role=cost&from=product">拆解报告 {esc(rid)}</a>')
+            report_links.append(f'<a href="../reports/{esc(rid)}.html?from=product">拆解报告 {esc(rid)}</a>')
         for vid in product.get("video_ids") or []:
-            report_links.append(f'<a href="../videos/{esc(vid)}.html?role=cost">拆解视频 {esc(vid)}</a>')
+            report_links.append(f'<a href="../videos/{esc(vid)}.html">拆解视频 {esc(vid)}</a>')
 
-        compare_href = f"../compare/{_category_filename(product.get('category', ''))}?role=cost"
-        matrix_href = "../matrix/index.html?role=cost"
+        compare_href = f"../compare/{_category_filename(product.get('category', ''))}"
+        matrix_href = "../matrix/index.html"
 
         cost_rows = [
             ("主控芯片", snap.get("main_chip")),
@@ -1080,7 +1021,7 @@ def main() -> None:
 <div class="about-content">
 <h1>关于本站 V4</h1>
 <p><strong>主用户：成本工程师。</strong>默认视角为成本透镜，优先展示 BOM/芯片/电池/PMIC 等同品类对比参数。</p>
-<p>信息架构：首页 → <a href="matrix/index.html?role=cost">成本矩阵</a> → <a href="compare/开放式耳机.html">同品类大表</a> → 产品成本摘要 → 拆解报告深页 → 52audio 原文。</p>
+<p>信息架构：首页 → <a href="matrix/index.html">成本矩阵</a> → <a href="compare/开放式耳机.html">同品类大表</a> → 产品成本摘要 → 拆解报告深页 → 52audio 原文。</p>
 <p>四层信源：技术层（52audio 拆解，已接入）· 渠道层（电商现价，CSV 导入）· 官方层 · 评测层（预留）。</p>
 <p>数据：报告 {len(reports)} 条，视频 {len(videos)} 条。最后日更：{esc(str(idx.get('last_daily_crawl_at') or idx.get('last_backfill_at') or '—'))}</p>
 </div>
