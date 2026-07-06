@@ -10,6 +10,9 @@ export default defineConfig({
   integrations: [react()],
   vite: { plugins: [tailwindcss()] },
   outDir: "../site",
-  build: { format: "directory" },
+  build: {
+    format: "directory",
+    assets: "assets",
+  },
   trailingSlash: "ignore",
 });

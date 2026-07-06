@@ -50,6 +50,8 @@ def prepare() -> dict:
     if WEB_DATA.exists():
         shutil.rmtree(WEB_DATA)
     WEB_DATA.mkdir(parents=True, exist_ok=True)
+    # 确保 GitHub Pages（Jekyll）不忽略 _astro 等目录
+    (SITE / ".nojekyll").touch(exist_ok=True)
 
     # compare
     compare_src = DATA / "compare"
