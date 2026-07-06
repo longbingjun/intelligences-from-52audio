@@ -1,22 +1,15 @@
 {
   "category": "音箱及其他音频设备",
-  "generated_at": "2026-07-06T15:33:09+08:00",
+  "generated_at": "2026-07-06T05:20:38+00:00",
   "columns": [
-    "brand",
-    "model",
     "price_cny",
-    "main_chip",
-    "pmic",
-    "battery_ear",
-    "battery_case",
-    "speaker",
-    "materials",
-    "weight_g",
-    "ip_rating",
+    "launch_date",
+    "codecs",
     "bluetooth",
-    "bom_rows",
-    "layer_badges",
-    "data_completeness"
+    "major_chips",
+    "selling_point_tags",
+    "data_completeness",
+    "source"
   ],
   "rows": [
     {
@@ -24,1996 +17,560 @@
       "brand": "",
       "model": "BOYA博雅K3桌面麦克风",
       "price_cny": null,
-      "price_layer": null,
-      "main_chip": "",
-      "pmic": "",
-      "battery_ear": "",
-      "battery_case": "",
-      "speaker": "",
-      "materials": "",
-      "weight_g": "",
-      "ip_rating": "",
-      "bluetooth": "",
-      "bom_rows": 5,
-      "layer_badges": "technical",
-      "data_completeness": 0.17,
-      "best_report_id": "273512",
+      "launch_date": "2026-04-17",
+      "codecs": [],
+      "bluetooth": null,
+      "major_chips": [],
+      "selling_point_tags": [
+        "降噪",
+        "其他",
+        "创新",
+        "高保真",
+        "风噪"
+      ],
+      "sources": [
+        "report"
+      ],
       "has_report": true,
       "has_video": false,
-      "cost_fields": {
-        "main_chip": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "pmic": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_ear": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_case": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "speaker": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "case_charging": {
-          "value": "USB-A",
-          "evidence": "USB-A",
-          "source_layer": "technical"
-        },
-        "bom_rows": {
-          "value": "5",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "packaging": {
-          "value": "打开包装盒，取出内部所有物品，包括了主机、音频线、螺纹接头和产品说明书。",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "materials": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "ip_rating": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "weight_g": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "form_factor": {
-          "value": "音箱及其他音频设备",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "earbud_type": {
-          "value": "其他",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "bluetooth": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "bluetooth_version": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "codecs": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_mah": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "charge_interface": {
-          "value": "USB-A",
-          "evidence": "USB-A",
-          "source_layer": "technical"
-        }
-      }
+      "source": "report",
+      "data_completeness": 0.33
     },
     {
       "canonical_id": "unknown--boyaklive",
       "brand": "",
       "model": "BOYA博雅K歌麦克风Live版",
       "price_cny": null,
-      "price_layer": null,
-      "main_chip": "",
-      "pmic": "",
-      "battery_ear": "3.7V/1200mAh",
-      "battery_case": "电池",
-      "speaker": "喇叭单元",
-      "materials": "",
-      "weight_g": "239.3g",
-      "ip_rating": "",
-      "bluetooth": "",
-      "bom_rows": 10,
-      "layer_badges": "technical",
-      "data_completeness": 0.67,
-      "best_report_id": "273233",
+      "launch_date": "2026-04-15",
+      "codecs": [
+        {
+          "value": "AAC",
+          "evidence": {
+            "value": "AAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "JL杰理科技AC6925E4蓝牙音频SoC，内置高性能微控制器，支持多种音频编解码格式（如SBC、AAC）和I2S接口，以实现高保真音频输出。"
+          }
+        },
+        {
+          "value": "SBC",
+          "evidence": {
+            "value": "SBC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "JL杰理科技AC6925E4蓝牙音频SoC，内置高性能微控制器，支持多种音频编解码格式（如SBC、AAC）和I2S接口，以实现高保真音频输出。"
+          }
+        }
+      ],
+      "bluetooth": null,
+      "major_chips": [],
+      "selling_point_tags": [],
+      "sources": [
+        "report"
+      ],
       "has_report": true,
       "has_video": false,
-      "cost_fields": {
-        "main_chip": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "pmic": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_ear": {
-          "value": "3.7V/1200mAh",
-          "evidence": "内部主要配置方面，BOYA博雅K歌麦克风Live版搭载3.7V/1200mAh 18650圆柱形电池供电，内置电容式驻极体麦克风拾音，采用45mm动圈喇叭和无源辐射振膜提供澎湃音质，采用HYNITRON海栎创HAA9809音频功率放大器驱动扬声器，采用JL杰理科技AC6925E4蓝牙音频SoC，用于无线连接和音频数据处理。",
-          "source_layer": "technical"
-        },
-        "battery_case": {
-          "value": "电池",
-          "evidence": "包装盒背面介绍了产品参数信息，产品型号：K11，拾音器：电容麦，输出功率：5W，蓝牙版本：5.0，电池容量：1200mAh，工作时长：4h左右。",
-          "source_layer": "technical"
-        },
-        "battery": {
-          "value": "3.7V/1200mAh",
-          "evidence": "内部主要配置方面，BOYA博雅K歌麦克风Live版搭载3.7V/1200mAh 18650圆柱形电池供电，内置电容式驻极体麦克风拾音，采用45mm动圈喇叭和无源辐射振膜提供澎湃音质，采用HYNITRON海栎创HAA9809音频功率放大器驱动扬声器，采用JL杰理科技AC6925E4蓝牙音频SoC，用于无线连接和音频数据处理。",
-          "source_layer": "technical"
-        },
-        "speaker": {
-          "value": "喇叭单元",
-          "evidence": "前腔内部结构一览。中间扬声器位置，设置有无源辐射振膜，用于提升低音效果。",
-          "source_layer": "technical"
-        },
-        "case_charging": {
-          "value": "博雅K歌麦克风Live版支持TF卡/蓝牙/AUX/Type-C多种连接方式，兼容手机/电脑/平板/电视等音源设备，以及全民K歌/唱吧/抖音/QQ音乐/网易云音乐等主流音乐平台，满足各种场景K歌需求；还设计有七彩光环灯，支持流水、渐变、呼吸等多种灯效，有效提升音乐氛围。",
-          "evidence": "博雅K歌麦克风Live版支持TF卡/蓝牙/AUX/Type-C多种连接方式，兼容手机/电脑/平板/电视等音源设备，以及全民K歌/唱吧/抖音/QQ音乐/网易云音乐等主流音乐平台，满足各种场景K歌需求；还设计有七彩光环灯，支持流水、渐变、呼吸等",
-          "source_layer": "technical"
-        },
-        "bom_rows": {
-          "value": "10",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "packaging": {
-          "value": "打开包装盒，取出内部所有物品，包括了麦克风、充电线和产品说明书。",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "materials": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "ip_rating": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "weight_g": {
-          "value": "239.3g",
-          "evidence": "239.3g",
-          "source_layer": "technical"
-        },
-        "form_factor": {
-          "value": "音箱及其他音频设备",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "earbud_type": {
-          "value": "其他",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "bluetooth": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "bluetooth_version": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "codecs": {
-          "value": "AAC、SBC",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_mah": {
-          "value": "1200 mAh",
-          "evidence": "1200mAh",
-          "source_layer": "technical"
-        },
-        "charge_interface": {
-          "value": "博雅K歌麦克风Live版支持TF卡/蓝牙/AUX/Type-C多种连接方式，兼容手机/电脑/平板/电视等音源设备，以及全民K歌/唱吧/抖音/QQ音乐/网易云音乐等主流音乐平台，满足各种场景K歌需求；还设计有七彩光环灯，支持流水、渐变、呼吸等多种灯效，有效提升音乐氛围。",
-          "evidence": "博雅K歌麦克风Live版支持TF卡/蓝牙/AUX/Type-C多种连接方式，兼容手机/电脑/平板/电视等音源设备，以及全民K歌/唱吧/抖音/QQ音乐/网易云音乐等主流音乐平台，满足各种场景K歌需求；还设计有七彩光环灯，支持流水、渐变、呼吸等",
-          "source_layer": "technical"
-        }
-      }
+      "source": "report",
+      "data_completeness": 0.33
     },
     {
       "canonical_id": "unknown--jlab-jbuds-party",
       "brand": "",
       "model": "JLAB JBuds Party便携式蓝牙",
       "price_cny": null,
-      "price_layer": null,
-      "main_chip": "JL7016",
-      "pmic": "INJOINIC英集芯 INJOINIC英集芯IP2369",
-      "battery_ear": "7.4V/5000mAh",
-      "battery_case": "电池",
-      "speaker": "喇叭单元",
-      "materials": "硅胶、PC",
-      "weight_g": "1349.5g",
-      "ip_rating": "IPX6",
+      "launch_date": "2026-04-08",
+      "codecs": [],
       "bluetooth": "5.4",
-      "bom_rows": 12,
-      "layer_badges": "technical",
-      "data_completeness": 1.0,
-      "best_report_id": "272063",
+      "major_chips": [
+        "INJOINIC英集芯IP2369",
+        "JL7016"
+      ],
+      "selling_point_tags": [],
+      "sources": [
+        "report",
+        "video"
+      ],
       "has_report": true,
       "has_video": true,
-      "cost_fields": {
-        "main_chip": {
-          "value": "JL7016",
-          "evidence": "主控芯片采用JL杰理科技JL7016C6蓝牙音频SoC，扬声器驱动采用了ACMESEMI至盛ACM8625P双通道数字输入D类音频功放；",
-          "source_layer": "technical"
-        },
-        "pmic": {
-          "value": "INJOINIC英集芯 INJOINIC英集芯IP2369",
-          "evidence": "采用了惠州市鼎高电池7.4V/5000mAh电池组供电，由INJOINIC英集芯IP2369电源管理芯片，负责内置电池的充放电管理。",
-          "source_layer": "technical"
-        },
-        "battery_ear": {
-          "value": "7.4V/5000mAh",
-          "evidence": "采用了惠州市鼎高电池7.4V/5000mAh电池组供电，由INJOINIC英集芯IP2369电源管理芯片，负责内置电池的充放电管理。",
-          "source_layer": "technical"
-        },
-        "battery_case": {
-          "value": "电池",
-          "evidence": "包装盒侧边介绍有商标说明，以及部分产品参数信息和各种认证标志。续航时间：12+小时（50%音量，关闭RGB灯）/10+小时（50%音量，开启RGB灯），锂离子电池：5000mAh，7.4V，37W；频率响应：60Hz~16kHz。",
-          "source_layer": "technical"
-        },
-        "battery": {
-          "value": "7.4V/5000mAh",
-          "evidence": "采用了惠州市鼎高电池7.4V/5000mAh电池组供电，由INJOINIC英集芯IP2369电源管理芯片，负责内置电池的充放电管理。",
-          "source_layer": "technical"
-        },
-        "speaker": {
-          "value": "喇叭单元",
-          "evidence": "详细功能配置方面，JLABJBuds Party便携式蓝牙音箱搭载双2.5英寸全频喇叭+双无源辐射振膜，支持30W输出功率，能够呈现强劲有力的澎湃音效；支持“LabSync”互联功能，可两台设备组成立体声，或同步最多100个JLab Party音箱的声音和灯光，带来炸裂派对氛围；搭载RGB灯光，支持单色切换、呼吸、渐变、脉冲、跑马灯/流动等6种灯效模式，可‌随音乐节奏律动；续航上，音乐播放时间可达12小时。",
-          "source_layer": "technical"
-        },
-        "case_charging": {
-          "value": "掀开橡胶塞，下面设置有3.5mm音频输入接口和Type-C充电接口。",
-          "evidence": "掀开橡胶塞，下面设置有3.5mm音频输入接口和Type-C充电接口。",
-          "source_layer": "technical"
-        },
-        "bom_rows": {
-          "value": "12",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "packaging": {
-          "value": "取出包装盒内部所有物品，包括了蓝牙音箱、充电线和使用说明书。",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "materials": {
-          "value": "硅胶、PC",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "ip_rating": {
-          "value": "IPX6",
-          "evidence": "IPX6",
-          "source_layer": "technical"
-        },
-        "weight_g": {
-          "value": "1349.5g",
-          "evidence": "1349.5g",
-          "source_layer": "technical"
-        },
-        "form_factor": {
-          "value": "音箱及其他音频设备",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "earbud_type": {
-          "value": "入耳",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "bluetooth": {
-          "value": "5.4",
-          "evidence": "蓝牙5.4",
-          "source_layer": "technical"
-        },
-        "bluetooth_version": {
-          "value": "5.4",
-          "evidence": "蓝牙5.4",
-          "source_layer": "technical"
-        },
-        "codecs": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_mah": {
-          "value": "5000 mAh",
-          "evidence": "5000mAh",
-          "source_layer": "technical"
-        },
-        "charge_interface": {
-          "value": "掀开橡胶塞，下面设置有3.5mm音频输入接口和Type-C充电接口。",
-          "evidence": "掀开橡胶塞，下面设置有3.5mm音频输入接口和Type-C充电接口。",
-          "source_layer": "technical"
-        }
-      }
+      "source": "report",
+      "data_completeness": 0.5
     },
     {
       "canonical_id": "unknown--logitechue-wonderboom-3",
       "brand": "",
       "model": "Logitech罗技UE Wonderboom 3蓝牙",
       "price_cny": null,
-      "price_layer": null,
-      "main_chip": null,
-      "pmic": null,
-      "battery_ear": null,
-      "battery_case": null,
-      "speaker": null,
-      "materials": null,
-      "weight_g": null,
-      "ip_rating": null,
+      "launch_date": "2026-01-08",
+      "codecs": [],
       "bluetooth": null,
-      "bom_rows": 0,
-      "layer_badges": "technical",
-      "data_completeness": 0.0,
-      "best_report_id": null,
+      "major_chips": [],
+      "selling_point_tags": [],
+      "sources": [
+        "video"
+      ],
       "has_report": false,
       "has_video": true,
-      "cost_fields": {}
+      "source": "video",
+      "data_completeness": 0.17
     },
     {
       "canonical_id": "unknown--moshuxiongx3pro",
       "brand": "",
       "model": "MOSHUXIONG魔术熊X3pro枕边",
       "price_cny": null,
-      "price_layer": null,
-      "main_chip": "",
-      "pmic": "",
-      "battery_ear": "电池",
-      "battery_case": "",
-      "speaker": "喇叭单元",
-      "materials": "",
-      "weight_g": "48.9g",
-      "ip_rating": "",
+      "launch_date": "2026-03-11",
+      "codecs": [],
       "bluetooth": "5.4",
-      "bom_rows": 6,
-      "layer_badges": "technical",
-      "data_completeness": 0.5,
-      "best_report_id": "269929",
+      "major_chips": [],
+      "selling_point_tags": [
+        "长续航",
+        "快充"
+      ],
+      "sources": [
+        "report"
+      ],
       "has_report": true,
       "has_video": false,
-      "cost_fields": {
-        "main_chip": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "pmic": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_ear": {
-          "value": "电池",
-          "evidence": "卸掉螺丝，拆掉机身顶部盖板。前音腔内侧固定扬声器单元，后音腔内部设置有主板和电池。",
-          "source_layer": "technical"
-        },
-        "battery_case": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery": {
-          "value": "电池",
-          "evidence": "卸掉螺丝，拆掉机身顶部盖板。前音腔内侧固定扬声器单元，后音腔内部设置有主板和电池。",
-          "source_layer": "technical"
-        },
-        "speaker": {
-          "value": "喇叭单元",
-          "evidence": "主要功能配置方面，MOSHUXIONG魔术熊X3pro枕边音箱搭载40mm大动圈单元，提供出色的立体音效；支持蓝牙5.4，提供稳定的无线连接；内置海浪、溪水、林间鸟鸣等原声音效，支持30/60/90分钟定时，帮助用户沉浸式入眠同时，避免持续播放干扰睡眠质量。下面就来看看这款产品的详细拆解报告吧~",
-          "source_layer": "technical"
-        },
-        "case_charging": {
-          "value": "扬声器规格：40mm，充电接口：Type-C，充电电压&电流：5V/1A（支持快充），频响：20-20kHz，阻抗：32+15%（DC），失真度：50~3KHzs2%，发声方式：声压气导，声学构造：前音腔&后音腔。",
-          "evidence": "扬声器规格：40mm，充电接口：Type-C，充电电压&电流：5V/1A（支持快充），频响：20-20kHz，阻抗：32+15%（DC），失真度：50~3KHzs2%，发声方式：声压气导，声学构造：前音腔&后音腔。",
-          "source_layer": "technical"
-        },
-        "bom_rows": {
-          "value": "6",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "packaging": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "materials": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "ip_rating": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "weight_g": {
-          "value": "48.9g",
-          "evidence": "48.9g",
-          "source_layer": "technical"
-        },
-        "form_factor": {
-          "value": "音箱及其他音频设备",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "earbud_type": {
-          "value": "其他",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "bluetooth": {
-          "value": "5.4",
-          "evidence": "蓝牙5.4",
-          "source_layer": "technical"
-        },
-        "bluetooth_version": {
-          "value": "5.4",
-          "evidence": "蓝牙5.4",
-          "source_layer": "technical"
-        },
-        "codecs": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_mah": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "charge_interface": {
-          "value": "扬声器规格：40mm，充电接口：Type-C，充电电压&电流：5V/1A（支持快充），频响：20-20kHz，阻抗：32+15%（DC），失真度：50~3KHzs2%，发声方式：声压气导，声学构造：前音腔&后音腔。",
-          "evidence": "扬声器规格：40mm，充电接口：Type-C，充电电压&电流：5V/1A（支持快充），频响：20-20kHz，阻抗：32+15%（DC），失真度：50~3KHzs2%，发声方式：声压气导，声学构造：前音腔&后音腔。",
-          "source_layer": "technical"
-        }
-      }
+      "source": "report",
+      "data_completeness": 0.5
     },
     {
       "canonical_id": "unknown--mova-tpeak-s1",
       "brand": "",
       "model": "MOVA TPEAK S1便携式蓝牙",
       "price_cny": null,
-      "price_layer": null,
-      "main_chip": "INJOINIC英集芯IP2326",
-      "pmic": "",
-      "battery_ear": "20V/00mAh锂电池",
-      "battery_case": "电池",
-      "speaker": "喇叭单元",
-      "materials": "",
-      "weight_g": "569.7g",
-      "ip_rating": "IPX7",
+      "launch_date": "2026-02-26",
+      "codecs": [],
       "bluetooth": "6.0",
-      "bom_rows": 11,
-      "layer_badges": "technical",
-      "data_completeness": 0.83,
-      "best_report_id": "268655",
+      "major_chips": [
+        "INJOINIC英集芯IP2326",
+        "JL7016"
+      ],
+      "selling_point_tags": [
+        "其他",
+        "长续航",
+        "防水防尘",
+        "创新",
+        "防水",
+        "防尘",
+        "快充"
+      ],
+      "sources": [
+        "report",
+        "video"
+      ],
       "has_report": true,
       "has_video": true,
-      "cost_fields": {
-        "main_chip": {
-          "value": "INJOINIC英集芯IP2326",
-          "evidence": "音箱主板上，搭载了INJOINIC英集芯IP2326升压充电IC，负责为内置电池快速充电；",
-          "source_layer": "technical"
-        },
-        "pmic": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_ear": {
-          "value": "20V/00mAh锂电池",
-          "evidence": "内置2000mAh/7.4V可充电锂离子电池组，提供持久续航。",
-          "source_layer": "technical"
-        },
-        "battery_case": {
-          "value": "电池",
-          "evidence": "包装盒背面介绍了产品的详细功能特点和参数信息，产品名称：便携式蓝牙音箱，型号：S1002，电池容量：2000mAh/14.8Wh，输入：5V-2000mA，颜色：黑色，额定功率：20W，频响范围：67-20kHz，蓝牙版本：V6.0，防护等级：IPX7。",
-          "source_layer": "technical"
-        },
-        "battery": {
-          "value": "20V/00mAh锂电池",
-          "evidence": "内置2000mAh/7.4V可充电锂离子电池组，提供持久续航。",
-          "source_layer": "technical"
-        },
-        "speaker": {
-          "value": "喇叭单元",
-          "evidence": "在功能配置方面，MOVA TPEAK S1便携式蓝牙音箱搭载了双喇叭三振膜声学架构，支持20W功率输出，带来层次分明、低音饱满的音频效果；支持蓝牙串联功能，呈现更震撼的立体音效；同时搭载RGB氛围灯效，能随音乐节奏变换色彩，增添氛围感；还支持蓝牙、AUX、TF多种模式播放，IPX7 级防水性能，可提供8小时的续航时间。下面就来看看这款产品的详细拆解报告吧~",
-          "source_layer": "technical"
-        },
-        "case_charging": {
-          "value": "随机标配的充电线采用了USB-A to Type-C接口。",
-          "evidence": "随机标配的充电线采用了USB-A to Type-C接口。",
-          "source_layer": "technical"
-        },
-        "bom_rows": {
-          "value": "11",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "packaging": {
-          "value": "打开包装盒，取出内部所有物品，包括了音箱、充电线和产品使用说明书。",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "materials": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "ip_rating": {
-          "value": "IPX7",
-          "evidence": "IPX7",
-          "source_layer": "technical"
-        },
-        "weight_g": {
-          "value": "569.7g",
-          "evidence": "569.7g",
-          "source_layer": "technical"
-        },
-        "form_factor": {
-          "value": "音箱及其他音频设备",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "earbud_type": {
-          "value": "其他",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "bluetooth": {
-          "value": "6.0",
-          "evidence": "蓝牙6.0",
-          "source_layer": "technical"
-        },
-        "bluetooth_version": {
-          "value": "6.0",
-          "evidence": "蓝牙6.0",
-          "source_layer": "technical"
-        },
-        "codecs": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_mah": {
-          "value": "2000 mAh",
-          "evidence": "2000mAh",
-          "source_layer": "technical"
-        },
-        "charge_interface": {
-          "value": "随机标配的充电线采用了USB-A to Type-C接口。",
-          "evidence": "随机标配的充电线采用了USB-A to Type-C接口。",
-          "source_layer": "technical"
-        }
-      }
+      "source": "report",
+      "data_completeness": 0.67
     },
     {
       "canonical_id": "unknown--mobvoiticnote-ai",
       "brand": "",
       "model": "Mobvoi出门问问TicNote AI",
       "price_cny": null,
-      "price_layer": null,
-      "main_chip": "思远半导体SY8602",
-      "pmic": "思远半导体 思远半导体SY8602",
-      "battery_ear": "3.8V/470mAh锂电池",
-      "battery_case": "电池",
-      "speaker": "",
-      "materials": "",
-      "weight_g": "28.9g",
-      "ip_rating": "",
-      "bluetooth": "",
-      "bom_rows": 10,
-      "layer_badges": "technical",
-      "data_completeness": 0.83,
-      "best_report_id": "265818",
+      "launch_date": "2026-01-12",
+      "codecs": [],
+      "bluetooth": null,
+      "major_chips": [
+        "思远半导体SY8602"
+      ],
+      "selling_point_tags": [
+        "其他",
+        "升级",
+        "极致"
+      ],
+      "sources": [
+        "report",
+        "video"
+      ],
       "has_report": true,
       "has_video": true,
-      "cost_fields": {
-        "main_chip": {
-          "value": "思远半导体SY8602",
-          "evidence": "主板上，采用了XINCUN芯存XC64MAAJ-NTW 64G存储器，Prisemi芯导科技P14C1N过压过流保护IC，思远半导体SY8602线性锂电池充电器，Realtek瑞昱RTL8722CSM物联网SoC，Winbond华邦W25Q32JV闪存，以及Nordic nRF52810无线SoC等。",
-          "source_layer": "technical"
-        },
-        "pmic": {
-          "value": "思远半导体 思远半导体SY8602",
-          "evidence": "主板上，采用了XINCUN芯存XC64MAAJ-NTW 64G存储器，Prisemi芯导科技P14C1N过压过流保护IC，思远半导体SY8602线性锂电池充电器，Realtek瑞昱RTL8722CSM物联网SoC，Winbond华邦W25Q32JV闪存，以及Nordic nRF52810无线SoC等。",
-          "source_layer": "technical"
-        },
-        "battery_ear": {
-          "value": "3.8V/470mAh锂电池",
-          "evidence": "内部主要配置方面，该产品搭载了ST神通天下3.8V/470mAh锂电池供电，内置2个MEMS麦克风+1个骨传导麦克风拾音。",
-          "source_layer": "technical"
-        },
-        "battery_case": {
-          "value": "电池",
-          "evidence": "详细功能配置方面，Mobvoi出门问问TicNote AI录音卡搭载了两个全向数字硅麦+1个骨传导麦克风，支持听筒/扬声器两种录音模式；内置470mAh大容量电池，可提供长达20+小时的录音；支持蓝牙、WiFi两种传输模式，录音数据可实时同步到云端；还内置了64GB eMMC存储器，实现录音的本地安全存储。",
-          "source_layer": "technical"
-        },
-        "battery": {
-          "value": "3.8V/470mAh锂电池",
-          "evidence": "内部主要配置方面，该产品搭载了ST神通天下3.8V/470mAh锂电池供电，内置2个MEMS麦克风+1个骨传导麦克风拾音。",
-          "source_layer": "technical"
-        },
-        "speaker": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "case_charging": {
-          "value": "Type-C",
-          "evidence": "ocr",
-          "source_layer": "technical"
-        },
-        "bom_rows": {
-          "value": "10",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "packaging": {
-          "value": "打开包装盒，取出内部所有物品，包括了录音卡，磁吸皮套、磁吸铁环、充电线和说明书。",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "materials": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "ip_rating": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "weight_g": {
-          "value": "28.9g",
-          "evidence": "28.9g",
-          "source_layer": "technical"
-        },
-        "form_factor": {
-          "value": "音箱及其他音频设备",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "earbud_type": {
-          "value": "其他",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "bluetooth": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "bluetooth_version": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "codecs": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_mah": {
-          "value": "470 mAh",
-          "evidence": "470mAh",
-          "source_layer": "technical"
-        },
-        "charge_interface": {
-          "value": "Type-C",
-          "evidence": "ocr",
-          "source_layer": "technical"
-        }
-      }
+      "source": "report",
+      "data_completeness": 0.5
     },
     {
       "canonical_id": "unknown--xiaodufun",
       "brand": "",
       "model": "Xiaodu小度智能音箱Fun",
       "price_cny": null,
-      "price_layer": null,
-      "main_chip": "AIC8800",
-      "pmic": "",
-      "battery_ear": "",
-      "battery_case": "",
-      "speaker": "喇叭单元",
-      "materials": "PC",
-      "weight_g": "1017.9g",
-      "ip_rating": "",
+      "launch_date": "2026-03-26",
+      "codecs": [],
       "bluetooth": "5.4",
-      "bom_rows": 10,
-      "layer_badges": "technical",
-      "data_completeness": 0.5,
-      "best_report_id": "271127",
+      "major_chips": [
+        "AIC8800"
+      ],
+      "selling_point_tags": [
+        "其他",
+        "降噪",
+        "防水防尘",
+        "全新",
+        "创新",
+        "防水",
+        "防尘"
+      ],
+      "sources": [
+        "report",
+        "video"
+      ],
       "has_report": true,
       "has_video": true,
-      "cost_fields": {
-        "main_chip": {
-          "value": "AIC8800",
-          "evidence": "音箱主控芯片为Rockchip瑞芯微RK3308H1处理器，存储器为GigaDevice兆易创新GD5F1GM7UEYIG，无线连接采用了AICSEMI爱科微AIC8800D40双频WiFi6与蓝牙5.4 SOC，射频电路上搭载Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感。",
-          "source_layer": "technical"
-        },
-        "pmic": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_ear": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_case": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "speaker": {
-          "value": "喇叭单元",
-          "evidence": "扬声器正面振膜特写。",
-          "source_layer": "technical"
-        },
-        "case_charging": {
-          "value": "Micro USB调试接口。",
-          "evidence": "Micro USB调试接口。",
-          "source_layer": "technical"
-        },
-        "bom_rows": {
-          "value": "10",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "packaging": {
-          "value": "打开包装盒，取出内部物品，包括了小度智能音箱Fun、月球水晶灯、适配器和产品使用手册。",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "materials": {
-          "value": "PC",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "ip_rating": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "weight_g": {
-          "value": "1017.9g",
-          "evidence": "1017.9g",
-          "source_layer": "technical"
-        },
-        "form_factor": {
-          "value": "音箱及其他音频设备",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "earbud_type": {
-          "value": "入耳",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "bluetooth": {
-          "value": "5.4",
-          "evidence": "蓝牙5.4",
-          "source_layer": "technical"
-        },
-        "bluetooth_version": {
-          "value": "5.4",
-          "evidence": "蓝牙5.4",
-          "source_layer": "technical"
-        },
-        "codecs": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_mah": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "charge_interface": {
-          "value": "Micro USB调试接口。",
-          "evidence": "Micro USB调试接口。",
-          "source_layer": "technical"
-        }
-      }
+      "source": "report",
+      "data_completeness": 0.67
     },
     {
       "canonical_id": "unknown--ik8-plusok",
       "brand": "",
       "model": "优乐生活ik8 Plus卡拉OK",
       "price_cny": null,
-      "price_layer": null,
-      "main_chip": "",
-      "pmic": "",
-      "battery_ear": "3.7V/5200mAh锂电池",
-      "battery_case": "3.7V/1000mAh锂电池",
-      "speaker": "喇叭单元",
-      "materials": "硅胶",
-      "weight_g": "654.2g",
-      "ip_rating": "",
-      "bluetooth": "",
-      "bom_rows": 10,
-      "layer_badges": "technical",
-      "data_completeness": 0.67,
-      "best_report_id": "273133",
+      "launch_date": "2026-04-15",
+      "codecs": [],
+      "bluetooth": null,
+      "major_chips": [],
+      "selling_point_tags": [
+        "其他",
+        "防水防尘",
+        "创新",
+        "防水",
+        "防尘",
+        "沉浸式",
+        "灵敏度"
+      ],
+      "sources": [
+        "report"
+      ],
       "has_report": true,
       "has_video": false,
-      "cost_fields": {
-        "main_chip": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "pmic": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_ear": {
-          "value": "3.7V/5200mAh锂电池",
-          "evidence": "内部主要配置方面，音箱搭载了双53mm动圈喇叭，内置易贝尔3.7V/5200mAh锂电池；",
-          "source_layer": "technical"
-        },
-        "battery_case": {
-          "value": "3.7V/1000mAh锂电池",
-          "evidence": "话筒内部搭载了动圈式麦克风拾音，采用了诚新世能3.7V/1000mAh锂电池供电；",
-          "source_layer": "technical"
-        },
-        "battery": {
-          "value": "3.7V/5200mAh锂电池",
-          "evidence": "内部主要配置方面，音箱搭载了双53mm动圈喇叭，内置易贝尔3.7V/5200mAh锂电池；",
-          "source_layer": "technical"
-        },
-        "speaker": {
-          "value": "喇叭单元",
-          "evidence": "优乐生活ik8 Plus卡拉OK音箱即是一款主打 “随身KTV” 的产品。其外观上采用挂脖音响结合手持话筒的分体式设计，能够随身携带。功能配置上，挂脖音响搭载2英寸钕铁硼喇叭单元，话筒搭载28mm动圈拾音咪头，支持短距离直达声技术、音频波导管低频延伸技术，提供环绕立体声场；支持无线连接/3.5mm有线连接，可提供约10小时的续航时间。下面就来看看这款产品的详细拆解报告吧~",
-          "source_layer": "technical"
-        },
-        "case_charging": {
-          "value": "音箱充电线，采用了USB-A to Micro USB接口。",
-          "evidence": "音箱充电线，采用了USB-A to Micro USB接口。",
-          "source_layer": "technical"
-        },
-        "bom_rows": {
-          "value": "10",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "packaging": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "materials": {
-          "value": "硅胶",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "ip_rating": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "weight_g": {
-          "value": "654.2g",
-          "evidence": "654.2g",
-          "source_layer": "technical"
-        },
-        "form_factor": {
-          "value": "音箱及其他音频设备",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "earbud_type": {
-          "value": "颈挂",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "bluetooth": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "bluetooth_version": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "codecs": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_mah": {
-          "value": "5200 mAh",
-          "evidence": "5200mAh",
-          "source_layer": "technical"
-        },
-        "charge_interface": {
-          "value": "音箱充电线，采用了USB-A to Micro USB接口。",
-          "evidence": "音箱充电线，采用了USB-A to Micro USB接口。",
-          "source_layer": "technical"
-        }
-      }
+      "source": "report",
+      "data_completeness": 0.33
     },
     {
       "canonical_id": "unknown--ai",
       "brand": "",
       "model": "安克 AI 录音豆",
       "price_cny": null,
-      "price_layer": null,
-      "main_chip": "BES2710IMP",
-      "pmic": "",
-      "battery_ear": "400 mAh",
-      "battery_case": "3.7V/400mAh锂电池",
-      "speaker": "",
-      "materials": "",
-      "weight_g": "10克",
-      "ip_rating": "IPX4",
-      "bluetooth": "",
-      "bom_rows": 13,
-      "layer_badges": "technical",
-      "data_completeness": 0.67,
-      "best_report_id": "269266",
+      "launch_date": "2026-03-04",
+      "codecs": [],
+      "bluetooth": null,
+      "major_chips": [
+        "BES2710IMP"
+      ],
+      "selling_point_tags": [
+        "降噪",
+        "其他",
+        "升级",
+        "全新",
+        "创新",
+        "认证",
+        "防水"
+      ],
+      "sources": [
+        "report",
+        "video"
+      ],
       "has_report": true,
       "has_video": true,
-      "cost_fields": {
-        "main_chip": {
-          "value": "BES2710IMP",
-          "evidence": "主板上，搭载了2颗MEMS麦克风，采用了KOWIN康盈KAS03111 eMMC5.1存储器、LPS微源半导体LP4081线性充电器、ICM创芯微CM1126C-DDC锂电池保护IC，Realtek瑞昱半导体RTL8711DAF WiFi芯片和BES恒玄科技BES2710IMP蓝牙可穿戴SoC。",
-          "source_layer": "technical"
-        },
-        "pmic": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_ear": {
-          "value": "400 mAh",
-          "evidence": "400mAh",
-          "source_layer": "technical"
-        },
-        "battery_case": {
-          "value": "3.7V/400mAh锂电池",
-          "evidence": "充电盒搭载了VDL紫建电子3.7V/400mAh可充式锂离子电池组，配备有电池保护板负责过充电、过放电、过电流等保护；",
-          "source_layer": "technical"
-        },
-        "battery": {
-          "value": "400 mAh",
-          "evidence": "400mAh",
-          "source_layer": "technical"
-        },
-        "speaker": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "case_charging": {
-          "value": "充电盒侧边设置有三颗指示灯、Type-C充电接口和配对按键。",
-          "evidence": "充电盒侧边设置有三颗指示灯、Type-C充电接口和配对按键。",
-          "source_layer": "technical"
-        },
-        "bom_rows": {
-          "value": "13",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "packaging": {
-          "value": "打开包装盒，取出内部所有物品，包括了主机、充电线、挂绳、磁吸环、宣传卡和产品说明书。",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "materials": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "ip_rating": {
-          "value": "IPX4",
-          "evidence": "IPX4",
-          "source_layer": "technical"
-        },
-        "weight_g": {
-          "value": "10克",
-          "evidence": "10克",
-          "source_layer": "technical"
-        },
-        "form_factor": {
-          "value": "音箱及其他音频设备",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "earbud_type": {
-          "value": "入耳",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "bluetooth": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "bluetooth_version": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "codecs": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_mah": {
-          "value": "400 mAh",
-          "evidence": "400mAh",
-          "source_layer": "technical"
-        },
-        "charge_interface": {
-          "value": "充电盒侧边设置有三颗指示灯、Type-C充电接口和配对按键。",
-          "evidence": "充电盒侧边设置有三颗指示灯、Type-C充电接口和配对按键。",
-          "source_layer": "technical"
-        }
-      }
+      "source": "report",
+      "data_completeness": 0.5
     },
     {
       "canonical_id": "unknown--insta360-wave-ai",
       "brand": "",
       "model": "影石Insta360 Wave AI录音全向麦克风",
       "price_cny": null,
-      "price_layer": null,
-      "main_chip": "晶晨A113X",
-      "pmic": "晶晨 晶晨A113X",
-      "battery_ear": "电池",
-      "battery_case": "9800 mAh",
-      "speaker": "喇叭单元",
-      "materials": "",
-      "weight_g": "489.5g",
-      "ip_rating": "",
+      "launch_date": "2026-03-11",
+      "codecs": [],
       "bluetooth": "5.3",
-      "bom_rows": 11,
-      "layer_badges": "technical",
-      "data_completeness": 1.0,
-      "best_report_id": "269788",
+      "major_chips": [
+        "晶晨A113X"
+      ],
+      "selling_point_tags": [
+        "降噪",
+        "其他",
+        "领先",
+        "创新",
+        "定制",
+        "高保真"
+      ],
+      "sources": [
+        "report",
+        "video"
+      ],
       "has_report": true,
       "has_video": true,
-      "cost_fields": {
-        "main_chip": {
-          "value": "晶晨A113X",
-          "evidence": "副板上，搭载了Southchip南芯SC2021A Type-C/PD和DPDM快充控制器，WCH沁恒CH334P USB HUB控制器芯片等方案， 主板上，采用了Southchip南芯SC5510EH的锂电保护IC，Amlogic晶晨A113X2智能音频芯片，CXMT长鑫存储CXDB5CBAM-MA-B SDRAM，AltoBeam高拓讯达ATBM6132 Wi-Fi4+BLE双模数传芯片，LEADPOWER率能SS8837T电机驱动，Telink泰凌微电子TLSR9517C多标准无线SoC，ACMESEMI至盛ACM8615S音频放大器，Longsys江波龙FEMDNN032G-C9A55",
-          "source_layer": "technical"
-        },
-        "pmic": {
-          "value": "晶晨 晶晨A113X",
-          "evidence": "副板上，搭载了Southchip南芯SC2021A Type-C/PD和DPDM快充控制器，WCH沁恒CH334P USB HUB控制器芯片等方案， 主板上，采用了Southchip南芯SC5510EH的锂电保护IC，Amlogic晶晨A113X2智能音频芯片，CXMT长鑫存储CXDB5CBAM-MA-B SDRAM，AltoBeam高拓讯达ATBM6132 Wi-Fi4+BLE双模数传芯片，LEADPOWER率能SS8837T电机驱动，Telink泰凌微电子TLSR9517C多标准无线SoC，ACMESEMI至盛ACM8615S音频放大器，Longsys江波龙FEMDNN032G-C9A55",
-          "source_layer": "technical"
-        },
-        "battery_ear": {
-          "value": "电池",
-          "evidence": "此外，Insta360 Wave还搭载了1.82英寸的定制触控屏幕，可通过屏幕进行各种交互；支持与Link 2智能互联，发言人追踪，实现音视频高效协同；支持最多3台设备无线互联，满足大型会议空间的收音需求。续航方面，该产品内置9800mAh大电池，可提供12小时的持久录制。下面就来看看这款产品的详细拆解报告吧~",
-          "source_layer": "technical"
-        },
-        "battery_case": {
-          "value": "9800 mAh",
-          "evidence": "9800mAh",
-          "source_layer": "technical"
-        },
-        "battery": {
-          "value": "电池",
-          "evidence": "此外，Insta360 Wave还搭载了1.82英寸的定制触控屏幕，可通过屏幕进行各种交互；支持与Link 2智能互联，发言人追踪，实现音视频高效协同；支持最多3台设备无线互联，满足大型会议空间的收音需求。续航方面，该产品内置9800mAh大电池，可提供12小时的持久录制。下面就来看看这款产品的详细拆解报告吧~",
-          "source_layer": "technical"
-        },
-        "speaker": {
-          "value": "喇叭单元",
-          "evidence": "取出扬声器单元。",
-          "source_layer": "technical"
-        },
-        "case_charging": {
-          "value": "Southchip南芯SC2021A是一款Type-C/PD和DPDM快充控制器。",
-          "evidence": "Southchip南芯SC2021A是一款Type-C/PD和DPDM快充控制器。",
-          "source_layer": "technical"
-        },
-        "bom_rows": {
-          "value": "11",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "packaging": {
-          "value": "打开包装盒，取出内部所有物品，包括了主机、无线收发器、转接头、数据线、便携收纳袋、使用说明、保修卡、快速入门指南。",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "materials": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "ip_rating": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "weight_g": {
-          "value": "489.5g",
-          "evidence": "489.5g",
-          "source_layer": "technical"
-        },
-        "form_factor": {
-          "value": "音箱及其他音频设备",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "earbud_type": {
-          "value": "其他",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "bluetooth": {
-          "value": "5.3",
-          "evidence": "蓝牙5.3",
-          "source_layer": "technical"
-        },
-        "bluetooth_version": {
-          "value": "5.3",
-          "evidence": "蓝牙5.3",
-          "source_layer": "technical"
-        },
-        "codecs": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_mah": {
-          "value": "9800 mAh",
-          "evidence": "9800mAh",
-          "source_layer": "technical"
-        },
-        "charge_interface": {
-          "value": "Southchip南芯SC2021A是一款Type-C/PD和DPDM快充控制器。",
-          "evidence": "Southchip南芯SC2021A是一款Type-C/PD和DPDM快充控制器。",
-          "source_layer": "technical"
-        }
-      }
+      "source": "report",
+      "data_completeness": 0.67
     },
     {
       "canonical_id": "jbl--1-go5",
       "brand": "JBL",
       "model": "1分钟拆了这个 GO5小音响！结构用料全揭秘",
       "price_cny": null,
-      "price_layer": null,
-      "main_chip": null,
-      "pmic": null,
-      "battery_ear": null,
-      "battery_case": null,
-      "speaker": null,
-      "materials": null,
-      "weight_g": null,
-      "ip_rating": null,
+      "launch_date": "2026-05-13",
+      "codecs": [],
       "bluetooth": null,
-      "bom_rows": 0,
-      "layer_badges": "technical",
-      "data_completeness": 0.0,
-      "best_report_id": null,
+      "major_chips": [],
+      "selling_point_tags": [],
+      "sources": [
+        "video"
+      ],
       "has_report": false,
       "has_video": true,
-      "cost_fields": {}
+      "source": "video",
+      "data_completeness": 0.17
     },
     {
       "canonical_id": "jbl--go5",
       "brand": "JBL",
       "model": "GO5便携式蓝牙",
       "price_cny": null,
-      "price_layer": null,
-      "main_chip": "",
-      "pmic": "",
-      "battery_ear": "鹏辉 3.85V/1000mAh",
-      "battery_case": "电池",
-      "speaker": "喇叭单元",
-      "materials": "",
-      "weight_g": "233.1g",
-      "ip_rating": "IP7",
+      "launch_date": "2026-03-25",
+      "codecs": [
+        {
+          "value": "AAC",
+          "evidence": {
+            "value": "AAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "功能上，新增平行WINK流光灯带，支持多种主题律动灯效，有效提升听歌氛围；升级新一代蓝牙6.0技术，支持AAC、LC3高音质编码，无线连接更稳定、延迟更低；同时新增USB Type-C端口直连电脑，带来无损音质体验。"
+          }
+        },
+        {
+          "value": "LC3",
+          "evidence": {
+            "value": "LC3",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "功能上，新增平行WINK流光灯带，支持多种主题律动灯效，有效提升听歌氛围；升级新一代蓝牙6.0技术，支持AAC、LC3高音质编码，无线连接更稳定、延迟更低；同时新增USB Type-C端口直连电脑，带来无损音质体验。"
+          }
+        }
+      ],
       "bluetooth": "6.0",
-      "bom_rows": 8,
-      "layer_badges": "technical",
-      "data_completeness": 0.67,
-      "best_report_id": "270905",
+      "major_chips": [],
+      "selling_point_tags": [
+        "防水防尘",
+        "其他",
+        "升级",
+        "创新",
+        "防水",
+        "防尘"
+      ],
+      "sources": [
+        "report"
+      ],
       "has_report": true,
       "has_video": false,
-      "cost_fields": {
-        "main_chip": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "pmic": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_ear": {
-          "value": "鹏辉 3.85V/1000mAh",
-          "evidence": "内置电池容量3.85V/1000mAh，来自鹏辉能源；",
-          "source_layer": "technical"
-        },
-        "battery_case": {
-          "value": "电池",
-          "evidence": "JBL GO5便携式蓝牙音箱还支持AURACAST无线串联技术，新增Airtouch一触即连，立体声配对更加便捷；音箱内置1000mAh锂电池，满电连续播放时间最长8小时，开启Playtime Boost模式，可再延长2小时。其他方面，还升级了IP68级防尘防水，可完全防止固体异物及灰尘侵入，水下1.5米浸泡30分钟，可确保不因浸水造成损坏。下面就来看看这款产品的详细拆解报告吧~",
-          "source_layer": "technical"
-        },
-        "battery": {
-          "value": "鹏辉 3.85V/1000mAh",
-          "evidence": "内置电池容量3.85V/1000mAh，来自鹏辉能源；",
-          "source_layer": "technical"
-        },
-        "speaker": {
-          "value": "喇叭单元",
-          "evidence": "出音孔盖板下方设置有全频喇叭和被动辐射振膜。",
-          "source_layer": "technical"
-        },
-        "case_charging": {
-          "value": "功能上，新增平行WINK流光灯带，支持多种主题律动灯效，有效提升听歌氛围；升级新一代蓝牙6.0技术，支持AAC、LC3高音质编码，无线连接更稳定、延迟更低；同时新增USB Type-C端口直连电脑，带来无损音质体验。",
-          "evidence": "功能上，新增平行WINK流光灯带，支持多种主题律动灯效，有效提升听歌氛围；升级新一代蓝牙6.0技术，支持AAC、LC3高音质编码，无线连接更稳定、延迟更低；同时新增USB Type-C端口直连电脑，带来无损音质体验。",
-          "source_layer": "technical"
-        },
-        "bom_rows": {
-          "value": "8",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "packaging": {
-          "value": "包装盒侧边展示了Air Touch一触即连功能，以及JBL Portable APP和蓝牙V6.0.\n打开包装盒，取出内部所有物品，仅包括了音箱和产品使用手册等文档。",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "materials": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "ip_rating": {
-          "value": "IP7",
-          "evidence": "IP7",
-          "source_layer": "technical"
-        },
-        "weight_g": {
-          "value": "233.1g",
-          "evidence": "233.1g",
-          "source_layer": "technical"
-        },
-        "form_factor": {
-          "value": "音箱及其他音频设备",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "earbud_type": {
-          "value": "入耳",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "bluetooth": {
-          "value": "6.0",
-          "evidence": "蓝牙6.0",
-          "source_layer": "technical"
-        },
-        "bluetooth_version": {
-          "value": "6.0",
-          "evidence": "蓝牙6.0",
-          "source_layer": "technical"
-        },
-        "codecs": {
-          "value": "AAC、LC3",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_mah": {
-          "value": "1000 mAh",
-          "evidence": "1000mAh",
-          "source_layer": "technical"
-        },
-        "charge_interface": {
-          "value": "功能上，新增平行WINK流光灯带，支持多种主题律动灯效，有效提升听歌氛围；升级新一代蓝牙6.0技术，支持AAC、LC3高音质编码，无线连接更稳定、延迟更低；同时新增USB Type-C端口直连电脑，带来无损音质体验。",
-          "evidence": "功能上，新增平行WINK流光灯带，支持多种主题律动灯效，有效提升听歌氛围；升级新一代蓝牙6.0技术，支持AAC、LC3高音质编码，无线连接更稳定、延迟更低；同时新增USB Type-C端口直连电脑，带来无损音质体验。",
-          "source_layer": "technical"
-        }
-      }
+      "source": "report",
+      "data_completeness": 0.67
     },
     {
       "canonical_id": "jbl--spark",
       "brand": "JBL",
       "model": "SPARK音乐火花",
       "price_cny": null,
-      "price_layer": null,
-      "main_chip": "高通CRS57E6",
-      "pmic": "",
-      "battery_ear": "",
-      "battery_case": "",
-      "speaker": "喇叭单元",
-      "materials": "不锈钢",
-      "weight_g": "721.3g",
-      "ip_rating": "IP7",
-      "bluetooth": "",
-      "bom_rows": 9,
-      "layer_badges": "technical",
-      "data_completeness": 0.5,
-      "best_report_id": "279591",
+      "launch_date": "2026-06-17",
+      "codecs": [],
+      "bluetooth": null,
+      "major_chips": [
+        "高通CRS57E6"
+      ],
+      "selling_point_tags": [
+        "其他",
+        "防水防尘",
+        "认证",
+        "防水",
+        "防尘"
+      ],
+      "sources": [
+        "report",
+        "video"
+      ],
       "has_report": true,
       "has_video": true,
-      "cost_fields": {
-        "main_chip": {
-          "value": "高通CRS57E6",
-          "evidence": "采用Qualcomm高通CRS57E6蓝牙音频芯片，用于无线连接和音频数据处理；",
-          "source_layer": "technical"
-        },
-        "pmic": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_ear": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_case": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "speaker": {
-          "value": "喇叭单元",
-          "evidence": "卸掉螺丝，取掉主板和双喇叭单元。",
-          "source_layer": "technical"
-        },
-        "case_charging": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "bom_rows": {
-          "value": "9",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "packaging": {
-          "value": "打开包装盒，取出内部所有物品，包括了主机、不锈钢悬挂钩、安全指南和使用说明书等。",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "materials": {
-          "value": "不锈钢",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "ip_rating": {
-          "value": "IP7",
-          "evidence": "IP7",
-          "source_layer": "technical"
-        },
-        "weight_g": {
-          "value": "721.3g",
-          "evidence": "721.3g",
-          "source_layer": "technical"
-        },
-        "form_factor": {
-          "value": "音箱及其他音频设备",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "earbud_type": {
-          "value": "入耳",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "bluetooth": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "bluetooth_version": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "codecs": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_mah": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "charge_interface": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        }
-      }
+      "source": "report",
+      "data_completeness": 0.5
     },
     {
       "canonical_id": "xiaomi--sound-2-max",
       "brand": "Xiaomi小米",
       "model": "Sound 2 Max",
       "price_cny": null,
-      "price_layer": null,
-      "main_chip": "晶晨A113X",
-      "pmic": "",
-      "battery_ear": "电池",
-      "battery_case": "",
-      "speaker": "喇叭单元",
-      "materials": "硅胶、PC",
-      "weight_g": "",
-      "ip_rating": "",
+      "launch_date": "2026-05-21",
+      "codecs": [
+        {
+          "value": "AAC",
+          "evidence": {
+            "value": "AAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "丝印ZJ74 AAC9的IC。"
+          }
+        }
+      ],
       "bluetooth": "5.2",
-      "bom_rows": 14,
-      "layer_badges": "technical",
-      "data_completeness": 0.67,
-      "best_report_id": "276660",
+      "major_chips": [
+        "晶晨A113X",
+        "BES2610WD",
+        "AIC8800",
+        "昆腾KT1213"
+      ],
+      "selling_point_tags": [
+        "旗舰定位",
+        "其他",
+        "空间音频",
+        "降噪",
+        "旗舰",
+        "高端",
+        "极致",
+        "高保真"
+      ],
+      "sources": [
+        "report",
+        "video"
+      ],
       "has_report": true,
       "has_video": true,
-      "cost_fields": {
-        "main_chip": {
-          "value": "晶晨A113X",
-          "evidence": "内置四颗MEMS麦克风阵列，搭配Amlogic晶晨A113X2智能音频芯片，实现精准的收音与智能语音交互。",
-          "source_layer": "technical"
-        },
-        "pmic": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_ear": {
-          "value": "电池",
-          "evidence": "腔体底部设置有电池单元，为时钟走时供电。",
-          "source_layer": "technical"
-        },
-        "battery_case": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery": {
-          "value": "电池",
-          "evidence": "腔体底部设置有电池单元，为时钟走时供电。",
-          "source_layer": "technical"
-        },
-        "speaker": {
-          "value": "喇叭单元",
-          "evidence": "卸掉螺丝，取出腔体内部的扬声器单元。",
-          "source_layer": "technical"
-        },
-        "case_charging": {
-          "value": "音箱的功能接口特写，从左到右依次为RCA音频输入接口、DC电源接口和Type-C音频输入接口。",
-          "evidence": "音箱的功能接口特写，从左到右依次为RCA音频输入接口、DC电源接口和Type-C音频输入接口。",
-          "source_layer": "technical"
-        },
-        "bom_rows": {
-          "value": "14",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "packaging": {
-          "value": "包装盒内部清单包括音箱、电源适配器和产品使用手册。",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "materials": {
-          "value": "硅胶、PC",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "ip_rating": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "weight_g": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "form_factor": {
-          "value": "音箱及其他音频设备",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "earbud_type": {
-          "value": "入耳",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "bluetooth": {
-          "value": "5.2",
-          "evidence": "蓝牙5.2",
-          "source_layer": "technical"
-        },
-        "bluetooth_version": {
-          "value": "5.2",
-          "evidence": "蓝牙5.2",
-          "source_layer": "technical"
-        },
-        "codecs": {
-          "value": "AAC",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_mah": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "charge_interface": {
-          "value": "音箱的功能接口特写，从左到右依次为RCA音频输入接口、DC电源接口和Type-C音频输入接口。",
-          "evidence": "音箱的功能接口特写，从左到右依次为RCA音频输入接口、DC电源接口和Type-C音频输入接口。",
-          "source_layer": "technical"
-        }
-      }
+      "source": "report",
+      "data_completeness": 0.83
     },
     {
       "canonical_id": "xiaomi--sound-move",
       "brand": "Xiaomi小米",
       "model": "Sound Move高保真",
       "price_cny": null,
-      "price_layer": null,
-      "main_chip": null,
-      "pmic": null,
-      "battery_ear": null,
-      "battery_case": null,
-      "speaker": null,
-      "materials": null,
-      "weight_g": null,
-      "ip_rating": null,
+      "launch_date": "2026-06-26",
+      "codecs": [],
       "bluetooth": null,
-      "bom_rows": 0,
-      "layer_badges": "technical",
-      "data_completeness": 0.0,
-      "best_report_id": null,
+      "major_chips": [],
+      "selling_point_tags": [
+        "音质认证",
+        "认证",
+        "解析力"
+      ],
+      "sources": [
+        "video"
+      ],
       "has_report": false,
       "has_video": true,
-      "cost_fields": {}
+      "source": "video",
+      "data_completeness": 0.33
     },
     {
       "canonical_id": "xiaomi--sound-party",
       "brand": "Xiaomi小米",
       "model": "Sound Party蓝牙",
       "price_cny": null,
-      "price_layer": null,
-      "main_chip": "JL7016",
-      "pmic": "INJOINIC英集芯 INJOINIC英集芯IP2363",
-      "battery_ear": "7.3V/5200mAh",
-      "battery_case": "电池",
-      "speaker": "喇叭单元",
-      "materials": "",
-      "weight_g": "",
-      "ip_rating": "",
+      "launch_date": "2026-03-26",
+      "codecs": [],
       "bluetooth": "5.4",
-      "bom_rows": 11,
-      "layer_badges": "technical",
-      "data_completeness": 1.0,
-      "best_report_id": "271040",
+      "major_chips": [
+        "JL7016",
+        "INJOINIC英集芯IP2363"
+      ],
+      "selling_point_tags": [
+        "其他",
+        "开放佩戴",
+        "防水防尘",
+        "全新",
+        "认证",
+        "防水",
+        "防尘",
+        "沉浸式",
+        "高保真"
+      ],
+      "sources": [
+        "report",
+        "video"
+      ],
       "has_report": true,
       "has_video": true,
-      "cost_fields": {
-        "main_chip": {
-          "value": "JL7016",
-          "evidence": "主板上，搭载了JL杰理科技JL7016C6蓝牙音频SoC，ACMESEMI至盛ACM8625P音频功放，INJOINIC英集芯IP2363电源管理芯片，Powlicon宝砾微PL30502同步升压转换器，中微爱芯AiP650 LED驱动器，以及APM永源微AP10H03LI MOS管和AGMsemi芯控源AGM311MAP MOS管等方案。",
-          "source_layer": "technical"
-        },
-        "pmic": {
-          "value": "INJOINIC英集芯 INJOINIC英集芯IP2363",
-          "evidence": "主板上，搭载了JL杰理科技JL7016C6蓝牙音频SoC，ACMESEMI至盛ACM8625P音频功放，INJOINIC英集芯IP2363电源管理芯片，Powlicon宝砾微PL30502同步升压转换器，中微爱芯AiP650 LED驱动器，以及APM永源微AP10H03LI MOS管和AGMsemi芯控源AGM311MAP MOS管等方案。",
-          "source_layer": "technical"
-        },
-        "battery_ear": {
-          "value": "7.3V/5200mAh",
-          "evidence": "内置电池来自盛邦科技，容量7.3V/5200mAh，采用模块化的可拆卸设计，便于后期维修。",
-          "source_layer": "technical"
-        },
-        "battery_case": {
-          "value": "电池",
-          "evidence": "其他方面，小米Sound Party蓝牙音箱设计有3D幻彩灯光，以时光隧道为灵感的环境灯效，可配合音乐节奏闪烁，有效增强派对氛围；支持蓝牙5.4，内置NFC模块，轻碰即可完成配对；支持免提通话，可接听手机来电；内置5300mAh大容量电池，可支持约26小时超长续航；还支持PD快速充电，充电10分钟可播放2小时音乐。下面就来看看这款产品的详细拆解报告吧~",
-          "source_layer": "technical"
-        },
-        "battery": {
-          "value": "7.3V/5200mAh",
-          "evidence": "内置电池来自盛邦科技，容量7.3V/5200mAh，采用模块化的可拆卸设计，便于后期维修。",
-          "source_layer": "technical"
-        },
-        "speaker": {
-          "value": "喇叭单元",
-          "evidence": "机身两端巧妙的将低音辐射振膜和3D幻彩灯光融为一体，可随着音乐节奏闪动。",
-          "source_layer": "technical"
-        },
-        "case_charging": {
-          "value": "机身背面设置有BASS低音增强、蓝牙配对和TWS配对按键，以及通过橡胶塞密封的充电接口。",
-          "evidence": "机身背面设置有BASS低音增强、蓝牙配对和TWS配对按键，以及通过橡胶塞密封的充电接口。",
-          "source_layer": "technical"
-        },
-        "bom_rows": {
-          "value": "11",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "packaging": {
-          "value": "包装盒内部配件包括了充电线和产品使用说明书。",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "materials": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "ip_rating": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "weight_g": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "form_factor": {
-          "value": "音箱及其他音频设备",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "earbud_type": {
-          "value": "入耳",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "bluetooth": {
-          "value": "5.4",
-          "evidence": "蓝牙5.4",
-          "source_layer": "technical"
-        },
-        "bluetooth_version": {
-          "value": "5.4",
-          "evidence": "蓝牙5.4",
-          "source_layer": "technical"
-        },
-        "codecs": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_mah": {
-          "value": "5300 mAh",
-          "evidence": "5300mAh",
-          "source_layer": "technical"
-        },
-        "charge_interface": {
-          "value": "机身背面设置有BASS低音增强、蓝牙配对和TWS配对按键，以及通过橡胶塞密封的充电接口。",
-          "evidence": "机身背面设置有BASS低音增强、蓝牙配对和TWS配对按键，以及通过橡胶塞密封的充电接口。",
-          "source_layer": "technical"
-        }
-      }
+      "source": "report",
+      "data_completeness": 0.67
     },
     {
       "canonical_id": "dji--mic-mini-2",
       "brand": "大疆DJI",
       "model": "Mic Mini 2",
       "price_cny": null,
-      "price_layer": null,
-      "main_chip": "XHSC小华半导体HC32L196KCTA",
-      "pmic": "",
-      "battery_ear": "3.87V/170mAh锂电池",
-      "battery_case": "3.87V/114mAh锂电池",
-      "speaker": "",
-      "materials": "",
-      "weight_g": "225.7g",
-      "ip_rating": "",
+      "launch_date": "2026-05-14",
+      "codecs": [],
       "bluetooth": "5.4",
-      "bom_rows": 15,
-      "layer_badges": "technical",
-      "data_completeness": 0.67,
-      "best_report_id": "275627",
+      "major_chips": [
+        "XHSC小华半导体HC32L196KCTA"
+      ],
+      "selling_point_tags": [
+        "其他",
+        "防水防尘",
+        "降噪",
+        "升级",
+        "全新",
+        "创新",
+        "防水",
+        "防尘",
+        "风噪"
+      ],
+      "sources": [
+        "report",
+        "video"
+      ],
       "has_report": true,
       "has_video": true,
-      "cost_fields": {
-        "main_chip": {
-          "value": "XHSC小华半导体HC32L196KCTA",
-          "evidence": "主板上，搭载了Southchip南芯SC89601S充电IC，XHSC小华半导体HC32L196KCTA微控制器，接口均设置有YJ杨杰YJQ1216A PMOS管保护。",
-          "source_layer": "technical"
-        },
-        "pmic": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_ear": {
-          "value": "3.87V/170mAh锂电池",
-          "evidence": "内部主要配置方面，接收器内置豪鹏科技3.87V/170mAh锂电池，配备ICM创芯微CM1113-DCC一体化锂电池保护IC；",
-          "source_layer": "technical"
-        },
-        "battery_case": {
-          "value": "3.87V/114mAh锂电池",
-          "evidence": "发射器内置全指向驻极体麦克风拾音，搭载VDL紫建电子3.87V/114mAh锂电池供电，采用了Actions炬芯ATS3031L系列无线音频SoC，搭配接收器内部的ATS3031系列芯片，实现音频信号的采集、处理和无线传输。",
-          "source_layer": "technical"
-        },
-        "battery": {
-          "value": "3.87V/170mAh锂电池",
-          "evidence": "内部主要配置方面，接收器内置豪鹏科技3.87V/170mAh锂电池，配备ICM创芯微CM1113-DCC一体化锂电池保护IC；",
-          "source_layer": "technical"
-        },
-        "speaker": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "case_charging": {
-          "value": "机身背面设置Type-C充电接口。",
-          "evidence": "机身背面设置Type-C充电接口。",
-          "source_layer": "technical"
-        },
-        "bom_rows": {
-          "value": "15",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "packaging": {
-          "value": "打开包装盒，取出内部所有物品，包括了主机、充电线、相机连接线、手机连接头、防风毛套、磁吸背夹、磁铁、磁吸前盖和产品说明书等文档。",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "materials": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "ip_rating": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "weight_g": {
-          "value": "225.7g",
-          "evidence": "225.7g",
-          "source_layer": "technical"
-        },
-        "form_factor": {
-          "value": "音箱及其他音频设备",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "earbud_type": {
-          "value": "其他",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "bluetooth": {
-          "value": "5.4",
-          "evidence": "蓝牙5.4",
-          "source_layer": "technical"
-        },
-        "bluetooth_version": {
-          "value": "5.4",
-          "evidence": "蓝牙5.4",
-          "source_layer": "technical"
-        },
-        "codecs": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_mah": {
-          "value": "1400 mAh",
-          "evidence": "1400mAh",
-          "source_layer": "technical"
-        },
-        "charge_interface": {
-          "value": "机身背面设置Type-C充电接口。",
-          "evidence": "机身背面设置Type-C充电接口。",
-          "source_layer": "technical"
-        }
-      }
+      "source": "report",
+      "data_completeness": 0.67
     },
     {
       "canonical_id": "unknown--in3-pro",
       "brand": "天猫精灵",
       "model": "IN糖3 Pro",
       "price_cny": null,
-      "price_layer": null,
-      "main_chip": null,
-      "pmic": null,
-      "battery_ear": null,
-      "battery_case": null,
-      "speaker": null,
-      "materials": null,
-      "weight_g": null,
-      "ip_rating": null,
+      "launch_date": "2026-06-23",
+      "codecs": [],
       "bluetooth": null,
-      "bom_rows": 0,
-      "layer_badges": "technical",
-      "data_completeness": 0.0,
-      "best_report_id": null,
+      "major_chips": [],
+      "selling_point_tags": [
+        "其他",
+        "升级"
+      ],
+      "sources": [
+        "video"
+      ],
       "has_report": false,
       "has_video": true,
-      "cost_fields": {}
+      "source": "video",
+      "data_completeness": 0.33
     },
     {
       "canonical_id": "unknown--kumi-ai-note",
       "brand": "荣耀",
       "model": "KUMI AI Note",
       "price_cny": null,
-      "price_layer": null,
-      "main_chip": "",
-      "pmic": "",
-      "battery_ear": "3.87V/130mAh锂电池",
-      "battery_case": "电池",
-      "speaker": "",
-      "materials": "铝合金、PC",
-      "weight_g": "",
-      "ip_rating": "",
-      "bluetooth": "",
-      "bom_rows": 10,
-      "layer_badges": "technical",
-      "data_completeness": 0.5,
-      "best_report_id": "274870",
+      "launch_date": "2026-05-09",
+      "codecs": [
+        {
+          "value": "AAC",
+          "evidence": {
+            "value": "AAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "丝印“AAC20201”的IC，来自AILYWORLD艾聆科技。"
+          }
+        }
+      ],
+      "bluetooth": null,
+      "major_chips": [],
+      "selling_point_tags": [
+        "其他",
+        "创新",
+        "极致"
+      ],
+      "sources": [
+        "report",
+        "video"
+      ],
       "has_report": true,
       "has_video": true,
-      "cost_fields": {
-        "main_chip": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "pmic": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_ear": {
-          "value": "3.87V/130mAh锂电池",
-          "evidence": "内部主要配置方面，搭载了ZWD众旺德3.87V/130mAh锂电池供电，内置2个MEMS麦克风+1个骨传导麦克风提供精准收音；",
-          "source_layer": "technical"
-        },
-        "battery_case": {
-          "value": "电池",
-          "evidence": "荣耀亲选KUMI AI Note转写内容智能提炼总结和思维导图，方便录音内容的后期梳理；支持AI智能答疑，可根据用户提问和已转写的录音内容，二次总结、写年报、做统计、总结观点等。其他方面，该产品搭载Wi-Fi快传技术，录制5小时，30秒即可完成传输；内置高品质电池，最高支持24小时的连续录制。下面就来看看这款产品的详细拆解报告吧~",
-          "source_layer": "technical"
-        },
-        "battery": {
-          "value": "3.87V/130mAh锂电池",
-          "evidence": "内部主要配置方面，搭载了ZWD众旺德3.87V/130mAh锂电池供电，内置2个MEMS麦克风+1个骨传导麦克风提供精准收音；",
-          "source_layer": "technical"
-        },
-        "speaker": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "case_charging": {
-          "value": "USB-A",
-          "evidence": "USB-A",
-          "source_layer": "technical"
-        },
-        "bom_rows": {
-          "value": "10",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "packaging": {
-          "value": "随机标配的配件一览，包括了充电线、磁吸环和使用说明书。",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "materials": {
-          "value": "铝合金、PC",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "ip_rating": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "weight_g": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "form_factor": {
-          "value": "音箱及其他音频设备",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "earbud_type": {
-          "value": "入耳",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "bluetooth": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "bluetooth_version": {
-          "value": "",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "codecs": {
-          "value": "AAC",
-          "evidence": "",
-          "source_layer": "technical"
-        },
-        "battery_mah": {
-          "value": "130 mAh",
-          "evidence": "130mAh",
-          "source_layer": "technical"
-        },
-        "charge_interface": {
-          "value": "USB-A",
-          "evidence": "USB-A",
-          "source_layer": "technical"
-        }
-      }
+      "source": "report",
+      "data_completeness": 0.5
     }
   ]
 }
