@@ -548,7 +548,14 @@ def compute_data_completeness(views: RoleViews) -> float:
     if c.bom_table:
         c_score += min(0.25, 0.04 * len(c.bom_table))
     if c.process_hints:
-        c_score += 0.15
+        c_score += 0.1
+    if c.summary_image_urls:
+        c_score += 0.05
+    if c.summary_text:
+        c_score += 0.05
+    ocr_rows = [r for r in c.bom_table if (r.get("evidence") or {}).get("source_type") == "summary_ocr"]
+    if ocr_rows:
+        c_score += min(0.1, 0.02 * len(ocr_rows))
     scores.append(min(1.0, c_score))
 
     s = views.structure

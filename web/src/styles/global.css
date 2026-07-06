@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+:root {
+  --bg: #f6f7fb;
+  --surface: #ffffff;
+  --text: #172033;
+  --muted: #667085;
+  --line: #e5e7ef;
+  --primary: #335cff;
+  --primary-dark: #1f3fbf;
+  --warn: #b54708;
+  --success: #067647;
+}
+
+body {
+  margin: 0;
+  font-family: "Microsoft YaHei", "PingFang SC", "Segoe UI", sans-serif;
+  background: var(--bg);
+  color: var(--text);
+  line-height: 1.6;
+}
+
+a {
+  color: var(--primary);
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}

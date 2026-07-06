@@ -909,6 +909,56 @@
           "model": "",
           "confidence": 0.85,
           "source_ref": "600mAh"
+        },
+        {
+          "param": "电池",
+          "part": "电池",
+          "brand": "",
+          "model": "",
+          "value": "40",
+          "unit": "mAh",
+          "source_ref": "ocr",
+          "confidence": 0.85
+        },
+        {
+          "param": "电池",
+          "part": "电池",
+          "brand": "",
+          "model": "",
+          "value": "600",
+          "unit": "mAh",
+          "source_ref": "ocr",
+          "confidence": 0.85
+        },
+        {
+          "param": "防护等级",
+          "part": "防护等级",
+          "brand": "",
+          "model": "",
+          "value": "IP54",
+          "unit": "",
+          "source_ref": "ocr",
+          "confidence": 0.9
+        },
+        {
+          "param": "充电接口",
+          "part": "充电接口",
+          "brand": "",
+          "model": "",
+          "value": "Type-C",
+          "unit": "",
+          "source_ref": "ocr",
+          "confidence": 0.85
+        },
+        {
+          "param": "蓝牙",
+          "part": "蓝牙",
+          "brand": "",
+          "model": "",
+          "value": "5.4",
+          "unit": "",
+          "source_ref": "ocr",
+          "confidence": 0.85
         }
       ]
     },
@@ -1036,5 +1086,6 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.856
+  "data_completeness": 0.856,
+  "source_layer": "technical"
 }

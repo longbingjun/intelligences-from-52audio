@@ -1,15 +1,23 @@
 {
   "category": "头戴式耳机",
-  "generated_at": "2026-07-06T11:00:42+08:00",
+  "generated_at": "2026-07-06T12:16:15+08:00",
+  "default_role": "cost",
   "columns": [
+    "brand",
+    "model",
     "price_cny",
-    "launch_date",
-    "codecs",
+    "main_chip",
+    "pmic",
+    "battery_ear",
+    "battery_case",
+    "speaker",
+    "materials",
+    "weight_g",
+    "ip_rating",
     "bluetooth",
-    "major_chips",
-    "selling_point_tags",
-    "data_completeness",
-    "source"
+    "bom_rows",
+    "layer_badges",
+    "data_completeness"
   ],
   "rows": [
     {
@@ -17,303 +25,641 @@
       "brand": "",
       "model": "1MORE万魔SonoFlow SE",
       "price_cny": null,
-      "launch_date": "2026-01-16",
-      "codecs": [],
+      "price_layer": null,
+      "main_chip": null,
+      "pmic": null,
+      "battery_ear": null,
+      "battery_case": null,
+      "speaker": null,
+      "materials": null,
+      "weight_g": null,
+      "ip_rating": null,
       "bluetooth": null,
-      "major_chips": [],
-      "selling_point_tags": [
-        "降噪",
-        "长续航",
-        "快充",
-        "通话降噪"
-      ],
-      "sources": [
-        "video"
-      ],
+      "bom_rows": 0,
+      "layer_badges": "technical",
+      "data_completeness": 0.0,
+      "best_report_id": null,
       "has_report": false,
       "has_video": true,
-      "source": "video",
-      "data_completeness": 0.33
+      "cost_fields": {}
     },
     {
       "canonical_id": "unknown--cherryhw2-2",
       "brand": "",
       "model": "CHERRY樱桃HW2.2",
       "price_cny": null,
-      "launch_date": "2026-05-21",
-      "codecs": [
-        {
-          "value": "LHDC",
-          "evidence": {
-            "value": "LHDC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "在音频体验上，\nCHERRY樱桃HW2.2头戴式耳机\n搭载50mm大尺寸发声单元，采用高精密度生物复合振膜，频响范围可达20~40kHz；支持LHDC高清音频解码，通过了Hi-Res AUDIO有线/无线双金标音质认证，以及QQ音乐臻品认证；还支持杜比7.1环绕音效，为用户提供身临其境的沉浸式体验。"
-          }
-        },
-        {
-          "value": "Hi-Res",
-          "evidence": {
-            "value": "Hi-Res",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "在音频体验上，\nCHERRY樱桃HW2.2头戴式耳机\n搭载50mm大尺寸发声单元，采用高精密度生物复合振膜，频响范围可达20~40kHz；支持LHDC高清音频解码，通过了Hi-Res AUDIO有线/无线双金标音质认证，以及QQ音乐臻品认证；还支持杜比7.1环绕音效，为用户提供身临其境的沉浸式体验。"
-          }
-        }
-      ],
-      "bluetooth": null,
-      "major_chips": [
-        "Prisemi芯导P14C1S",
-        "JL7018",
-        "JL7016"
-      ],
-      "selling_point_tags": [
-        "音质认证",
-        "舒适佩戴",
-        "降噪",
-        "游戏低延迟",
-        "防水防尘",
-        "认证",
-        "Hi-Res",
-        "防水",
-        "防尘",
-        "低延迟",
-        "沉浸式",
-        "轻量化"
-      ],
-      "sources": [
-        "report"
-      ],
+      "price_layer": null,
+      "main_chip": "JL7018",
+      "pmic": "Prisemi芯导 Prisemi芯导P14C1S",
+      "battery_ear": "WEL旭航诚 3.7V/400mAh锂电池",
+      "battery_case": "电池",
+      "speaker": "振膜动圈",
+      "materials": "PC",
+      "weight_g": "",
+      "ip_rating": "",
+      "bluetooth": "",
+      "bom_rows": 19,
+      "layer_badges": "technical",
+      "data_completeness": 1.0,
+      "best_report_id": "276954",
       "has_report": true,
       "has_video": false,
-      "source": "report",
-      "data_completeness": 0.67
+      "cost_fields": {
+        "main_chip": {
+          "value": "JL7018",
+          "evidence": "右耳内置驻极体麦克风和主板单元，采用了JL杰理科技JL7018M8蓝牙音频SoC，LPS微源半导体LP3992-33 LDO线性稳压器。",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "Prisemi芯导 Prisemi芯导P14C1S",
+          "evidence": "左耳内置WEL旭航诚3.7V/400mAh锂电池组和电源输入小板，采用了ASC标源微ASC4056线性充电器，Prisemi芯导P14C1S过压过流保护IC。",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "WEL旭航诚 3.7V/400mAh锂电池",
+          "evidence": "左耳内置WEL旭航诚3.7V/400mAh锂电池组和电源输入小板，采用了ASC标源微ASC4056线性充电器，Prisemi芯导P14C1S过压过流保护IC。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "电池",
+          "evidence": "腔体内部结构一览，设置有电池、电源输入小板和氛围灯小板。",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "WEL旭航诚 3.7V/400mAh锂电池",
+          "evidence": "左耳内置WEL旭航诚3.7V/400mAh锂电池组和电源输入小板，采用了ASC标源微ASC4056线性充电器，Prisemi芯导P14C1S过压过流保护IC。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "振膜动圈",
+          "evidence": "耳机搭载50mm生物复合振膜动圈喇叭。",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "充电线采用了USB-A to Type-C插头。",
+          "evidence": "充电线采用了USB-A to Type-C插头。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "19",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "PC",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "头戴式耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "头戴",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "LHDC、Hi-Res",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "400 mAh",
+          "evidence": "400mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "充电线采用了USB-A to Type-C插头。",
+          "evidence": "充电线采用了USB-A to Type-C插头。",
+          "source_layer": "technical"
+        }
+      }
     },
     {
       "canonical_id": "unknown--tozo-ht2",
       "brand": "",
       "model": "TOZO HT2",
       "price_cny": null,
-      "launch_date": "2026-01-21",
-      "codecs": [
-        {
-          "value": "Hi-Res",
-          "evidence": {
-            "value": "Hi-Res",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "支持蓝牙和3.5mm音频线两种方式连接，兼容更多设备，有线模式还通过了Hi-Res高清音频认证。"
-          }
-        }
-      ],
-      "bluetooth": null,
-      "major_chips": [
-        "JL7018"
-      ],
-      "selling_point_tags": [
-        "降噪",
-        "音质认证",
-        "其他",
-        "舒适佩戴",
-        "创新",
-        "认证",
-        "Hi-Res",
-        "轻量化",
-        "钛振膜",
-        "通话降噪"
-      ],
-      "sources": [
-        "report"
-      ],
+      "price_layer": null,
+      "main_chip": "JL7018",
+      "pmic": "",
+      "battery_ear": "3.7V/500mAh锂电池",
+      "battery_case": "电池",
+      "speaker": "钛振膜",
+      "materials": "",
+      "weight_g": "",
+      "ip_rating": "",
+      "bluetooth": "",
+      "bom_rows": 14,
+      "layer_badges": "technical",
+      "data_completeness": 0.83,
+      "best_report_id": "266711",
       "has_report": true,
       "has_video": false,
-      "source": "report",
-      "data_completeness": 0.67
+      "cost_fields": {
+        "main_chip": {
+          "value": "JL7018",
+          "evidence": "右耳内置主板单元，采用了JL杰理科技JL7018F6蓝牙音频SoC，LPS微源半导体LP3201降压转换器、LP5308过压过流保护IC、LP4069锂电池充电IC等。",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "3.7V/500mAh锂电池",
+          "evidence": "其他方面，左耳内部搭载PATL小锂新能源3.7V/500mAh锂电池。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "电池",
+          "evidence": "头梁内侧标注的产品信息特写，型号：T12052，输入：5V-0.5A，阻抗：32Ω，电池容量：500mAh 1.85Wh。",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "3.7V/500mAh锂电池",
+          "evidence": "其他方面，左耳内部搭载PATL小锂新能源3.7V/500mAh锂电池。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "钛振膜",
+          "evidence": "内部主要配置方面，左右耳均搭载了40mm镀钛振膜动圈喇叭，内置两颗驻极体麦克风。",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "充电线采用了USB-A to Type-C接口。",
+          "evidence": "充电线采用了USB-A to Type-C接口。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "14",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "随机标配的配件一览，包括了音频线、充电线和使用说明书。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "头戴式耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "头戴",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "Hi-Res",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "500 mAh",
+          "evidence": "500mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "充电线采用了USB-A to Type-C接口。",
+          "evidence": "充电线采用了USB-A to Type-C接口。",
+          "source_layer": "technical"
+        }
+      }
     },
     {
       "canonical_id": "unknown--ugreenhitune-max5c",
       "brand": "",
       "model": "UGREEN绿联HiTune Max5c",
       "price_cny": null,
-      "launch_date": "2026-01-26",
-      "codecs": [
-        {
-          "value": "LDAC",
-          "evidence": {
-            "value": "LDAC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "其在音频体验上，搭载了40mm巨型PET振膜驱动单元，支持LDAC高清音频解码，获得了Hi-Res AUDIO有线/无线双金标认证，以及QQ音乐·臻品音质认证；还支持独立3D空间音效，带来身临其境的环绕听感。"
-          }
-        },
-        {
-          "value": "Hi-Res",
-          "evidence": {
-            "value": "Hi-Res",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "其在音频体验上，搭载了40mm巨型PET振膜驱动单元，支持LDAC高清音频解码，获得了Hi-Res AUDIO有线/无线双金标认证，以及QQ音乐·臻品音质认证；还支持独立3D空间音效，带来身临其境的环绕听感。"
-          }
-        }
-      ],
-      "bluetooth": null,
-      "major_chips": [
-        "JL7018"
-      ],
-      "selling_point_tags": [
-        "空间音频",
-        "降噪",
-        "游戏低延迟",
-        "舒适佩戴",
-        "认证",
-        "Hi-Res",
-        "空间音效",
-        "低延迟",
-        "臻品音质",
-        "游戏模式"
-      ],
-      "sources": [
-        "report"
-      ],
+      "price_layer": null,
+      "main_chip": "JL7018",
+      "pmic": "",
+      "battery_ear": "6V/00mAh锂电池",
+      "battery_case": "600 mAh",
+      "speaker": "喇叭单元",
+      "materials": "",
+      "weight_g": "",
+      "ip_rating": "",
+      "bluetooth": "",
+      "bom_rows": 14,
+      "layer_badges": "technical",
+      "data_completeness": 0.83,
+      "best_report_id": "267013",
       "has_report": true,
       "has_video": false,
-      "source": "report",
-      "data_completeness": 0.67
+      "cost_fields": {
+        "main_chip": {
+          "value": "JL7018",
+          "evidence": "右耳搭载主板单元，采用了Wayon维安WP1230的过压保护IC，Chipower芯力微CE3221电源管理IC，JL杰理JL7018F6蓝牙音频SoC和Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "6V/00mAh锂电池",
+          "evidence": "其他方面，左耳内置CEL金赛尔600mAh/3.7V锂电池；",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "600 mAh",
+          "evidence": "600mAh",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "6V/00mAh锂电池",
+          "evidence": "其他方面，左耳内置CEL金赛尔600mAh/3.7V锂电池；",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "喇叭单元",
+          "evidence": "在蓝牙音频市场中，头戴式耳机凭借大尺寸发声单元与封闭式耳罩结构，在音质表现上具备天然优势，能呈现更饱满的低频下潜、更开阔的声场层次和更细腻的人声解析。同时，耳罩能大幅削弱环境噪音，搭配主动降噪，能够提供更优的降噪效果；耳机内部空间充足，能搭载更大容量电池，实现持久的续航体验。因此，头戴式耳机虽然便携性相对欠佳，但依然是众多用户的首选。",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "Type-C数据接口特写，用于充电和音频输入，右侧设置有指示灯反馈充电状态。",
+          "evidence": "Type-C数据接口特写，用于充电和音频输入，右侧设置有指示灯反馈充电状态。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "14",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "头戴式耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "头戴",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "LDAC、Hi-Res",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "600 mAh",
+          "evidence": "600mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "Type-C数据接口特写，用于充电和音频输入，右侧设置有指示灯反馈充电状态。",
+          "evidence": "Type-C数据接口特写，用于充电和音频输入，右侧设置有指示灯反馈充电状态。",
+          "source_layer": "technical"
+        }
+      }
     },
     {
       "canonical_id": "nothing--cmf-headphone-pro",
       "brand": "Nothing",
       "model": "CMF Headphone Pro",
       "price_cny": null,
-      "launch_date": "2026-01-06",
-      "codecs": [
-        {
-          "value": "LDAC",
-          "evidence": {
-            "value": "LDAC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "CMF Headphone Pro头戴式降噪耳机搭载40mm镀镍振膜驱动单元，声音饱满清晰，支持LDAC高清音频解码，获得了Hi-Res Audio Wireless高清音频认证；支持Audiodo技术，能够根据用户耳朵对频率的响应，轻松定制专属音效；还支持独特的低音/高音模式调节，通过耳机能量滑控键便捷控制，打造个性化的听音体验。"
-          }
-        },
-        {
-          "value": "Hi-Res",
-          "evidence": {
-            "value": "Hi-Res",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "CMF Headphone Pro头戴式降噪耳机搭载40mm镀镍振膜驱动单元，声音饱满清晰，支持LDAC高清音频解码，获得了Hi-Res Audio Wireless高清音频认证；支持Audiodo技术，能够根据用户耳朵对频率的响应，轻松定制专属音效；还支持独特的低音/高音模式调节，通过耳机能量滑控键便捷控制，打造个性化的听音体验。"
-          }
-        }
-      ],
+      "price_layer": null,
+      "main_chip": null,
+      "pmic": null,
+      "battery_ear": null,
+      "battery_case": null,
+      "speaker": null,
+      "materials": null,
+      "weight_g": null,
+      "ip_rating": null,
       "bluetooth": null,
-      "major_chips": [],
-      "selling_point_tags": [
-        "降噪",
-        "定制",
-        "认证",
-        "Hi-Res"
-      ],
-      "sources": [
-        "video"
-      ],
+      "bom_rows": 0,
+      "layer_badges": "technical",
+      "data_completeness": 0.0,
+      "best_report_id": null,
       "has_report": false,
       "has_video": true,
-      "source": "video",
-      "data_completeness": 0.5
+      "cost_fields": {}
     },
     {
       "canonical_id": "qcy--h3s",
       "brand": "QCY意象",
       "model": "H3S",
       "price_cny": null,
-      "launch_date": "2026-04-14",
-      "codecs": [
-        {
-          "value": "LDAC",
-          "evidence": {
-            "value": "LDAC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "2026年初，QCY发布了一款头戴式耳机新品——H3S，不但基于7麦麦克风系统实现-56dB的深度降噪效果，还搭载4喇叭单元，获得LDAC、Hi-Res AUDIO、Hi-Res AUDIO WIRELESS、网易云音乐、QQ音乐·臻品音质五重专业声学认证。"
-          }
-        },
-        {
-          "value": "Hi-Res",
-          "evidence": {
-            "value": "Hi-Res",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "2026年初，QCY发布了一款头戴式耳机新品——H3S，不但基于7麦麦克风系统实现-56dB的深度降噪效果，还搭载4喇叭单元，获得LDAC、Hi-Res AUDIO、Hi-Res AUDIO WIRELESS、网易云音乐、QQ音乐·臻品音质五重专业声学认证。"
-          }
-        }
-      ],
-      "bluetooth": null,
-      "major_chips": [
-        "JL7018"
-      ],
-      "selling_point_tags": [
-        "降噪",
-        "认证",
-        "Hi-Res",
-        "空间音效",
-        "低延迟",
-        "臻品音质",
-        "圈铁"
-      ],
-      "sources": [
-        "report"
-      ],
+      "price_layer": null,
+      "main_chip": "JL7018",
+      "pmic": "",
+      "battery_ear": "弘捷 3.8V/750mAh锂电池",
+      "battery_case": "电池",
+      "speaker": "喇叭单元",
+      "materials": "",
+      "weight_g": "",
+      "ip_rating": "",
+      "bluetooth": "",
+      "bom_rows": 13,
+      "layer_badges": "technical",
+      "data_completeness": 0.83,
+      "best_report_id": "273005",
       "has_report": true,
       "has_video": false,
-      "source": "report",
-      "data_completeness": 0.67
+      "cost_fields": {
+        "main_chip": {
+          "value": "JL7018",
+          "evidence": "耳机搭载广东弘捷新能源3.8V/750mAh锂电池组，采用4喇叭单元（单耳40mm中低频喇叭+13mm高频喇叭）和7颗驻极体麦克风，主控芯片为JL杰理科技JL7018F6蓝牙音频SoC，电源芯片均来自LPS微源半导体，包括LP4069锂电池充电IC、LP5308过压过流保护IC、LP3201降压转换器、LP3988-28B5F线性稳压器等。",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "弘捷 3.8V/750mAh锂电池",
+          "evidence": "耳机搭载广东弘捷新能源3.8V/750mAh锂电池组，采用4喇叭单元（单耳40mm中低频喇叭+13mm高频喇叭）和7颗驻极体麦克风，主控芯片为JL杰理科技JL7018F6蓝牙音频SoC，电源芯片均来自LPS微源半导体，包括LP4069锂电池充电IC、LP5308过压过流保护IC、LP3201降压转换器、LP3988-28B5F线性稳压器等。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "电池",
+          "evidence": "包装盒背面介绍了产品的参数信息，产品名：QCY H3S、通讯距离：10米、充电时间：约2小时、电池容量：750mAh、输入参数：5V - 600mA，支持协议：HFP/A2DP/AVRCP，制造商：东莞市和乐电子有限公司，以及APP下载二维码和各种认证标志。",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "弘捷 3.8V/750mAh锂电池",
+          "evidence": "耳机搭载广东弘捷新能源3.8V/750mAh锂电池组，采用4喇叭单元（单耳40mm中低频喇叭+13mm高频喇叭）和7颗驻极体麦克风，主控芯片为JL杰理科技JL7018F6蓝牙音频SoC，电源芯片均来自LPS微源半导体，包括LP4069锂电池充电IC、LP5308过压过流保护IC、LP3201降压转换器、LP3988-28B5F线性稳压器等。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "喇叭单元",
+          "evidence": "作为全球销量名列前茅的专业无线音频品牌，QCY意象旗下产品凭借高性价比优势，获得了大量消费者的青睐。2026年初，QCY发布了一款头戴式耳机新品——H3S，不但基于7麦麦克风系统实现-56dB的深度降噪效果，还搭载4喇叭单元，获得LDAC、Hi-Res AUDIO、Hi-Res AUDIO WIRELESS、网易云音乐、QQ音乐·臻品音质五重专业声学认证。",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "充电线采用了USB-A to Type-C接口。",
+          "evidence": "充电线采用了USB-A to Type-C接口。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "13",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "随机标配的配件有充电线和产品说明书。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "头戴式耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "头戴",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "LDAC、Hi-Res",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "750 mAh",
+          "evidence": "750mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "充电线采用了USB-A to Type-C接口。",
+          "evidence": "充电线采用了USB-A to Type-C接口。",
+          "source_layer": "technical"
+        }
+      }
     },
     {
       "canonical_id": "unknown--codelear-2",
       "brand": "荣耀",
       "model": "Codelear 2",
       "price_cny": null,
-      "launch_date": "2026-07-01",
-      "codecs": [
-        {
-          "value": "LDAC",
-          "evidence": {
-            "value": "LDAC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "详细功能配置方面，荣耀亲选Codelear 2头戴式降噪耳机搭载40mm高解析动圈单元，支持LDAC高清解码，提供丰富的音频细节；支持360°动态空间音频，带来影院般的环绕音效；还支持标准、低音增强、高音增强多种EQ调节，满足不同用户的音乐喜好；支持游戏模式，降低延迟，提供更流畅的影音和游戏体验。"
-          }
-        },
-        {
-          "value": "Hi-Res",
-          "evidence": {
-            "value": "Hi-Res",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "近期，荣耀亲选推出了Codelear头戴式耳机2发布，以中端的价格提供57dB深度降噪、Hi-Res有线/无线双高清音质及70小时的长续航体验。"
-          }
-        }
-      ],
-      "bluetooth": null,
-      "major_chips": [
-        "JL7083"
-      ],
-      "selling_point_tags": [
-        "降噪",
-        "Hi-Res",
-        "低延迟",
-        "空间音频",
-        "游戏模式",
-        "通话降噪"
-      ],
-      "sources": [
-        "report"
-      ],
+      "price_layer": null,
+      "main_chip": "JL7083",
+      "pmic": "",
+      "battery_ear": "3.7V/500mAh锂电池",
+      "battery_case": "500 mAh",
+      "speaker": "40mm 动圈单元",
+      "materials": "",
+      "weight_g": "269.8g",
+      "ip_rating": "",
+      "bluetooth": "",
+      "bom_rows": 14,
+      "layer_badges": "technical",
+      "data_completeness": 0.83,
+      "best_report_id": "281080",
       "has_report": true,
       "has_video": false,
-      "source": "report",
-      "data_completeness": 0.67
+      "cost_fields": {
+        "main_chip": {
+          "value": "JL7083",
+          "evidence": "左耳主板上，搭载JL杰理科技JL7083F6蓝牙音频SoC，用于无线连接和音频数据处理；",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "3.7V/500mAh锂电池",
+          "evidence": "右耳设置亿等新能源3.7V/500mAh锂电池组，为整机供电。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "500 mAh",
+          "evidence": "500mAh",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "3.7V/500mAh锂电池",
+          "evidence": "右耳设置亿等新能源3.7V/500mAh锂电池组，为整机供电。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "40mm 动圈单元",
+          "evidence": "内部结构配置方面，双耳均搭载40mm动圈单元，采用大容积声学后腔设计，用于提升实际低频下潜与能量密度；",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "USB-A to Type-C充电线，线缆较长，能够很好的满足日常使用需求。",
+          "evidence": "USB-A to Type-C充电线，线缆较长，能够很好的满足日常使用需求。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "14",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "打开包装盒，取出内部所有物品，包括了主机、充电线、音频线、收纳包和说明书。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "269.8g",
+          "evidence": "269.8g",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "头戴式耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "头戴",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "LDAC、Hi-Res",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "500 mAh",
+          "evidence": "500mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "USB-A to Type-C充电线，线缆较长，能够很好的满足日常使用需求。",
+          "evidence": "USB-A to Type-C充电线，线缆较长，能够很好的满足日常使用需求。",
+          "source_layer": "technical"
+        }
+      }
     }
   ]
 }

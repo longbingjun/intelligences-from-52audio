@@ -11,6 +11,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
+from core.cost_extract import extract_cost_fields  # noqa: E402
 from core.ingest import (  # noqa: E402
     load_all_records,
     load_index,
@@ -44,6 +45,8 @@ from scripts.site_ux import (  # noqa: E402
 SITE_DIR = ROOT / "site"
 DATA_DIR = ROOT / "data"
 MATRIX_DIR = DATA_DIR / "matrix"
+COMPARE_DATA_DIR = DATA_DIR / "compare"
+PRODUCTS_DIR = DATA_DIR / "products"
 
 ROLE_LENSES = {
     "pm": {"label": "产品经理", "sections": ["market", "cost", "structure", "hardware", "software"]},
@@ -59,9 +62,14 @@ FIELD_ANNOTATIONS_PATH = DATA_DIR / "field_annotations.json"
 
 # 角色 → 矩阵列 key（field_annotations.json 缺失时的降级默认）
 DEFAULT_MATRIX_ROLE_COLUMNS: dict[str, list[str]] = {
+    "cost": [
+        "brand", "model", "price_cny", "main_chip", "pmic",
+        "battery_ear", "battery_case", "speaker", "materials",
+        "weight_g", "ip_rating", "bluetooth", "bom_rows",
+        "layer_badges", "data_completeness",
+    ],
     "pm": ["brand", "model", "category", "selling_point_tags", "scenarios",
            "launch_date", "price_cny", "data_completeness"],
-    "cost": ["main_chip", "battery", "pmic", "case_charging", "bom_rows", "packaging"],
     "structure": ["form_factor", "materials", "ip_rating", "weight_g", "dimensions", "earbud_type"],
     "hardware": ["bluetooth", "codecs", "battery_mah", "charge_interface", "certifications"],
     "software": ["bluetooth_version", "codecs_sw", "multipoint", "app", "ota", "latency"],
@@ -71,10 +79,12 @@ MATRIX_COLUMN_LABELS: dict[str, str] = {
     "brand": "品牌", "model": "型号", "category": "品类",
     "selling_point_tags": "卖点标签", "scenarios": "场景",
     "launch_date": "上市", "price_cny": "售价", "data_completeness": "数据完整度",
-    "main_chip": "主控芯片", "battery": "电池", "pmic": "PMIC",
+    "main_chip": "主控芯片", "battery": "电池", "battery_ear": "耳机电池",
+    "battery_case": "仓电池", "pmic": "PMIC", "speaker": "喇叭规格",
     "case_charging": "仓充电", "bom_rows": "BOM行数", "packaging": "包装",
-    "form_factor": "形态", "materials": "材质", "ip_rating": "IP",
-    "weight_g": "重量", "dimensions": "尺寸", "earbud_type": "earbud_type",
+    "materials": "关键材料", "layer_badges": "信源层",
+    "form_factor": "形态", "ip_rating": "IP", "weight_g": "重量",
+    "dimensions": "尺寸", "earbud_type": "佩戴类型",
     "bluetooth": "蓝牙", "codecs": "编码", "battery_mah": "电池mAh",
     "charge_interface": "充电接口", "certifications": "认证",
     "bluetooth_version": "蓝牙版本", "codecs_sw": "编码",
@@ -107,13 +117,18 @@ def _matrix_role_columns(annotations: dict) -> dict[str, list[str]]:
 def _field_annotation(annotations: dict, field_key: str) -> str:
     if not isinstance(annotations, dict):
         return ""
+    item = annotations.get(field_key)
+    if isinstance(item, dict):
+        why = item.get("why_care") or item.get("desc") or item.get("annotation") or ""
+        label = item.get("label") or ""
+        return f"{label}: {why}".strip(": ") if label and why else (why or label)
     fields = annotations.get("fields") or annotations
     if isinstance(fields, dict):
         item = fields.get(field_key)
         if isinstance(item, str):
             return item
         if isinstance(item, dict):
-            return item.get("desc") or item.get("annotation") or item.get("label") or ""
+            return item.get("why_care") or item.get("desc") or item.get("annotation") or item.get("label") or ""
     return ""
 
 
@@ -163,166 +178,74 @@ def _load_reports_by_canonical_id() -> dict[str, dict]:
     return out
 
 
-def _enrich_row_from_report(row: dict, report: dict | None) -> dict[str, dict]:
-    """返回 {col_key: {"value": str, "evidence": str}}，缺字段降级为空。"""
+def _enrich_row_from_report(row: dict, report: dict | None, product: dict | None = None) -> dict[str, dict]:
+    """返回 {col_key: {"value": str, "evidence": str, "source_layer": str}}。"""
     v = (report or {}).get("views") or {}
     market = v.get("market", {})
-    cost = v.get("cost", {})
-    structure = v.get("structure", {})
-    hardware = v.get("hardware", {})
-    software = v.get("software", {})
-    bom = cost.get("bom_table") or []
-    specs = hardware.get("specs") or []
+    enriched = extract_cost_fields(v, row_fallback=row) if report else {}
 
-    def cell(val: str, ev: str = "") -> dict:
-        return {"value": val or "", "evidence": ev or ""}
+    # 产品级成本快照优先（build_products 离线融合）
+    snap = (product or {}).get("cost_snapshot") or {}
+    snap_map = {
+        "main_chip": snap.get("main_chip"),
+        "pmic": snap.get("pmic_case"),
+        "battery_ear": snap.get("battery_ear"),
+        "battery_case": snap.get("battery_case"),
+        "speaker": snap.get("speaker"),
+        "materials": snap.get("materials"),
+        "weight_g": snap.get("weight_g"),
+        "ip_rating": snap.get("ip_rating"),
+        "bluetooth": snap.get("bluetooth"),
+        "bom_rows": str(snap.get("bom_row_count") or "") if snap.get("bom_row_count") is not None else "",
+    }
+    for key, val in snap_map.items():
+        if val:
+            prev = enriched.get(key) or {}
+            enriched[key] = {"value": str(val), "evidence": prev.get("evidence", ""), "source_layer": "technical"}
 
-    enriched: dict[str, dict] = {}
+    def cell(val: str, ev: str = "", layer: str = "technical") -> dict:
+        return {"value": val or "", "evidence": ev or "", "source_layer": layer}
 
-    enriched["category"] = cell((report or {}).get("category") or row.get("category") or "")
+    # PM 字段
+    enriched["category"] = cell((report or {}).get("category") or row.get("category") or (product or {}).get("category") or "")
     scen = market.get("scenarios") or []
     enriched["scenarios"] = cell("、".join(str(s) for s in scen if s))
+    enriched["selling_point_tags"] = cell("、".join(row.get("selling_point_tags") or []))
+    enriched["launch_date"] = cell(row.get("launch_date") or market.get("launch_date") or "")
 
-    # 主控芯片：优先 chip_modules 中 component 含 主控/MCU/SoC/蓝牙音频
-    chips = cost.get("chip_modules") or []
-    main_chip, main_chip_ev = "", ""
-    for c in chips:
-        comp = (c.get("component") or c.get("part") or "")
-        model = c.get("model") or ""
-        if any(k in comp for k in ("主控", "MCU", "SoC", "蓝牙", "音频")):
-            main_chip = model or comp
-            main_chip_ev = _ev_text(c)
-            break
-    if not main_chip and chips:
-        main_chip = chips[0].get("model") or chips[0].get("part") or ""
-        main_chip_ev = _ev_text(chips[0])
-    if not main_chip and row.get("major_chips"):
-        main_chip = row["major_chips"][0]
-    enriched["main_chip"] = cell(main_chip, main_chip_ev)
+    price = snap.get("price_cny") if snap.get("price_cny") is not None else row.get("price_cny")
+    price_layer = snap.get("price_layer") or row.get("price_layer") or ""
+    if price is not None:
+        price_txt = f"¥{price}"
+        if price_layer == "channel":
+            price_txt += " (渠道)"
+        enriched["price_cny"] = cell(price_txt, layer=price_layer or "technical")
+    else:
+        enriched["price_cny"] = cell("")
 
-    # 电池：bom_table component 含 电池
-    bat, bat_ev = "", ""
-    for b in bom:
-        if "电池" in (b.get("component") or ""):
-            bat = f"{b.get('brand','')} {b.get('model','')}".strip() or b.get("component", "")
-            bat_ev = _ev_text(b)
-            break
-    if not bat:
-        for s in specs:
-            if s.get("param") == "电池容量":
-                bat = f"{s.get('value','')} {s.get('unit','')}".strip()
-                bat_ev = s.get("source_ref") or ""
-                break
-    enriched["battery"] = cell(bat, bat_ev)
+    layer_refs = (product or {}).get("layer_refs") or {}
+    badges = []
+    for layer, refs in layer_refs.items():
+        if refs:
+            badges.append(layer)
+    enriched["layer_badges"] = cell("、".join(badges))
 
-    # PMIC / 保护 IC
-    pmic, pmic_ev = "", ""
-    for b in bom:
-        comp = b.get("component") or ""
-        if any(k in comp for k in ("PMIC", "保护", "电源管理", "PMU", "PMC", "过压")):
-            pmic = f"{b.get('brand','')} {b.get('model','')}".strip() or comp
-            pmic_ev = _ev_text(b)
-            break
-    enriched["pmic"] = cell(pmic, pmic_ev)
-
-    # 仓充电：specs 充电接口（取第一个）
-    case_chg, case_chg_ev = "", ""
-    for s in specs:
-        if s.get("param") == "充电接口":
-            case_chg = s.get("value") or s.get("model") or ""
-            case_chg_ev = s.get("source_ref") or ""
-            break
-    enriched["case_charging"] = cell(case_chg, case_chg_ev)
-    enriched["bom_rows"] = cell(str(len(bom)) if bom else "")
-    pkg = cost.get("packaging_notes") or []
-    pkg_first = pkg[0] if pkg else None
-    enriched["packaging"] = cell(
-        pkg_first if isinstance(pkg_first, str) else (pkg_first.get("value") if isinstance(pkg_first, dict) else ""),
-        _ev_text(pkg_first) if pkg_first else "",
-    )
-
-    # structure
-    enriched["form_factor"] = cell(structure.get("form_factor") or "")
-    mats = structure.get("materials") or []
-    enriched["materials"] = cell("、".join(
-        m if isinstance(m, str) else (m.get("value") or "") for m in mats))
-    ip_ev = structure.get("ip_rating_evidence") or {}
-    enriched["ip_rating"] = cell(structure.get("ip_rating") or "",
-                                 ip_ev.get("source_text", "") if isinstance(ip_ev, dict) else "")
-    w_ev = structure.get("weight_evidence") or {}
-    enriched["weight_g"] = cell(str(structure.get("weight_g") or ""),
-                                w_ev.get("source_text", "") if isinstance(w_ev, dict) else "")
-    dims = structure.get("dimensions") or []
-    enriched["dimensions"] = cell("、".join(d for d in dims if isinstance(d, str))[:80])
-    enriched["earbud_type"] = cell(structure.get("earbud_type") or "")
-
-    # hardware / software
-    bt_ev = software.get("bluetooth_evidence") or {}
-    enriched["bluetooth"] = cell(
-        software.get("bluetooth_version") or row.get("bluetooth") or "",
-        bt_ev.get("source_text", "") if isinstance(bt_ev, dict) else "")
-    codec_vals = _codec_values(software.get("codecs")) or _codec_values(row.get("codecs"))
-    enriched["codecs"] = cell("、".join(codec_vals))
-    bat_mah, bat_mah_ev = "", ""
-    for s in specs:
-        if s.get("param") == "电池容量":
-            bat_mah = f"{s.get('value','')} {s.get('unit','')}".strip()
-            bat_mah_ev = s.get("source_ref") or ""
-            break
-    enriched["battery_mah"] = cell(bat_mah, bat_mah_ev)
-    enriched["charge_interface"] = cell(case_chg, case_chg_ev)
-    certs = []
-    for s in specs:
-        if s.get("param") == "标记/认证":
-            val = s.get("value") or ""
-            if val and val not in certs:
-                certs.append(val[:40])
-    enriched["certifications"] = cell("、".join(certs)[:80])
-
-    enriched["bluetooth_version"] = enriched["bluetooth"]
-    enriched["codecs_sw"] = enriched["codecs"]
-
-    def first_val(items):
-        if not items:
-            return "", ""
-        f = items[0]
-        if isinstance(f, str):
-            return f, ""
-        if isinstance(f, dict):
-            return f.get("value") or f.get("text") or "", _ev_text(f)
-        return "", ""
-    mp_v, mp_e = first_val(software.get("multipoint"))
-    enriched["multipoint"] = cell(mp_v, mp_e)
-    app_v = software.get("app_name") or ""
-    app_e = ""
-    if not app_v:
-        app_v, app_e = first_val(software.get("app_features"))
-    enriched["app"] = cell(app_v, app_e)
-    ota_v, ota_e = first_val(software.get("ota_support"))
-    enriched["ota"] = cell(ota_v, ota_e)
-    lat_v, lat_e = first_val(software.get("latency_notes"))
-    enriched["latency"] = cell(lat_v, lat_e)
+    dc = snap.get("data_completeness") if snap else row.get("data_completeness")
+    if isinstance(dc, float) and 0 < dc <= 1:
+        enriched["data_completeness"] = cell(f"{int(dc * 100)}%")
+    else:
+        enriched["data_completeness"] = cell(str(dc) if dc is not None else "")
 
     return enriched
 
 
 def _matrix_row_cells(row: dict, report: dict | None, role_columns: dict[str, list[str]],
-                      annotations: dict) -> dict[str, dict]:
-    """合并 matrix row 基础字段 + 报告富化字段，返回 {col_key: {value, evidence}}。"""
-    enriched = _enrich_row_from_report(row, report)
-    # 基础字段来自 matrix row
-    dc = row.get("data_completeness")
-    if isinstance(dc, float) and 0 < dc <= 1:
-        dc_txt = f"{int(dc * 100)}%"
-    else:
-        dc_txt = str(dc) if dc is not None else ""
+                      annotations: dict, product: dict | None = None) -> dict[str, dict]:
+    """合并 matrix row 基础字段 + 报告/产品富化字段。"""
+    enriched = _enrich_row_from_report(row, report, product)
     base = {
-        "brand": {"value": row.get("brand") or "", "evidence": ""},
-        "model": {"value": row.get("model") or "", "evidence": ""},
-        "selling_point_tags": {"value": "、".join(row.get("selling_point_tags") or []), "evidence": ""},
-        "launch_date": {"value": row.get("launch_date") or "", "evidence": ""},
-        "price_cny": {"value": f"¥{row['price_cny']}" if row.get("price_cny") is not None else "", "evidence": ""},
-        "data_completeness": {"value": dc_txt, "evidence": ""},
+        "brand": {"value": row.get("brand") or (product or {}).get("brand") or "", "evidence": ""},
+        "model": {"value": row.get("model") or (product or {}).get("model") or "", "evidence": ""},
     }
     merged = dict(enriched)
     merged.update(base)
@@ -370,7 +293,49 @@ def _chip_table(chips: list[dict], record: dict) -> str:
     return f'<table class="spec-table"><thead><tr><th>类型</th><th>型号</th></tr></thead><tbody>{"".join(rows)}</tbody></table>'
 
 
-def _role_lens_html(default_role: str = "pm") -> str:
+def _bom_table_html(bom: list[dict], record: dict) -> str:
+    if not bom:
+        return empty_hint_html(record, "cost", False) or '<p class="empty-hint">暂无 BOM 行（待从总结段/OCR 补充）</p>'
+    rows = []
+    for b in bom:
+        ev = b.get("evidence") or {}
+        src = ev.get("source_type", "text") if isinstance(ev, dict) else "text"
+        badge = evidence_badge(src)
+        rows.append(
+            f"<tr><td>{esc(b.get('side') or '')}</td>"
+            f"<td>{esc(b.get('component') or '')}</td>"
+            f"<td>{esc(b.get('brand') or '')}</td>"
+            f"<td>{badge}{esc(b.get('model') or '')}</td>"
+            f"<td>{esc(b.get('qty_hint') or '')}</td>"
+            f"<td>{esc(b.get('role') or '')}</td></tr>"
+        )
+    return (
+        '<table class="spec-table bom-table"><thead><tr>'
+        '<th>侧别</th><th>部件</th><th>厂商</th><th>型号</th><th>数量</th><th>角色</th>'
+        f"</tr></thead><tbody>{''.join(rows)}</tbody></table>"
+    )
+
+
+def _summary_images_html(images: list[dict]) -> str:
+    if not images:
+        return ""
+    items = []
+    for img in images:
+        url = img.get("url") or ""
+        if not url:
+            continue
+        alt = img.get("alt") or img.get("caption") or "总结段物料图"
+        items.append(
+            f'<figure class="summary-img"><a href="{esc(url)}" target="_blank" rel="noopener">'
+            f'<img src="{esc(url)}" alt="{esc(alt)}" loading="lazy" /></a>'
+            f'<figcaption>{esc(alt)}</figcaption></figure>'
+        )
+    if not items:
+        return ""
+    return f'<div class="summary-images">{"".join(items)}</div>'
+
+
+def _role_lens_html(default_role: str = "cost") -> str:
     buttons = []
     for key, meta in ROLE_LENSES.items():
         active = "active" if key == default_role else ""
@@ -473,6 +438,8 @@ def _render_five_sections(r: dict, v: dict) -> str:
             f"""
 {collapsible_list("主要部件", v.get('cost', {}).get('major_parts', []), r, 'cost')}
 <div class="sub"><b>芯片/模组</b>{_chip_table(v.get('cost', {}).get('chip_modules', []), r)}</div>
+<div class="sub"><b>物料清单（BOM）</b>{_bom_table_html(v.get('cost', {}).get('bom_table', []), r)}</div>
+{_summary_images_html(v.get('cost', {}).get('summary_image_urls', []))}
 {collapsible_list("包装/附件", v.get('cost', {}).get('packaging_notes', []), r, 'cost')}
 {collapsible_list("工艺线索", v.get('cost', {}).get('process_hints', []), r, 'cost')}
 """,
@@ -552,7 +519,7 @@ def build_report_detail(r: dict, out_dir: Path) -> None:
   <div class="original-link"><a href="{esc(r['url'])}" target="_blank" rel="noopener">查看 52audio 原文</a></div>
 </div>
 
-{_role_lens_html()}
+{_role_lens_html("cost")}
 {pm_bullets_html(v)}
 {_render_five_sections(r, v)}
 """
@@ -639,7 +606,7 @@ def build_video_detail(v: dict, out_dir: Path) -> None:
 {embed}
 <div class="panel">{asr_block}</div>
 
-{_role_lens_html()}
+{_role_lens_html("cost")}
 {pm_bullets_html(views)}
 {_render_five_sections(record_for_render, views)}
 """
@@ -688,7 +655,8 @@ def build_index(reports: list[dict], videos: list[dict], idx: dict) -> None:
   </div>
 </section>
 <div class="entry-grid">
-  <a class="entry-card entry-card-matrix" href="matrix/index.html"><h3>竞品矩阵</h3><div class="count">{matrix_count or '—'}</div><p>按品类横向对比关键参数（角色透镜）</p></a>
+  <a class="entry-card entry-card-matrix" href="matrix/index.html?role=cost"><h3>成本竞品矩阵</h3><div class="count">{matrix_count or '—'}</div><p>按品类横向对比 BOM/芯片/电池等成本参数</p></a>
+  <a class="entry-card" href="compare/开放式耳机.html?role=cost"><h3>同品类对比</h3><div class="count">大表</div><p>成本参数行 × 产品列，链入产品摘要</p></a>
   <a class="entry-card" href="reports/index.html"><h3>拆解报告</h3><div class="count">{len(reports)}</div></a>
   <a class="entry-card" href="videos/index.html"><h3>拆解视频</h3><div class="count">{len(videos)}</div></a>
 </div>
@@ -722,8 +690,8 @@ def build_list_page(kind: str, items: list[dict], title: str, nav: str) -> None:
     cards = cards or '<p class="empty-hint">暂无</p>'
     index_rel = "../data/search-index.json"
     matrix_link = (
-        '<p class="matrix-entry-link"><a href="../matrix/index.html">查看聚合矩阵 →</a>　'
-        '<a href="../compare/开放式耳机.html">同品类对比示例</a></p>'
+        '<p class="matrix-entry-link"><a href="../matrix/index.html?role=cost">进入成本矩阵 →</a>　'
+        '<a href="../compare/开放式耳机.html?role=cost">同品类对比示例</a></p>'
         if kind == "report" else ""
     )
     body = (
@@ -766,11 +734,35 @@ def _matrix_cell_html(cell_data: dict) -> str:
     return esc(str(val))
 
 
-def _matrix_role_bar(role_columns: dict[str, list[str]]) -> str:
+def _load_products_by_canonical_id() -> dict[str, dict]:
+    out: dict[str, dict] = {}
+    if not PRODUCTS_DIR.exists():
+        return out
+    for path in PRODUCTS_DIR.glob("*.json"):
+        if path.name == "index.json":
+            continue
+        try:
+            product = json.loads(path.read_text(encoding="utf-8"))
+            out[product["canonical_id"]] = product
+        except Exception:
+            continue
+    return out
+
+
+def _product_digest_href(cid: str, depth: int = 1) -> str:
+    prefix = "../" * depth if depth else ""
+    return f"{prefix}products/{cid}.html"
+
+
+def _matrix_role_bar(role_columns: dict[str, list[str]], default_role: str = "cost") -> str:
     buttons = []
-    for i, (key, cols) in enumerate(role_columns.items()):
+    # cost 角色排第一
+    order = ["cost"] + [k for k in role_columns if k != "cost"]
+    for key in order:
+        if key not in role_columns:
+            continue
         label = ROLE_LENSES.get(key, {}).get("label", key)
-        active = "active" if i == 0 else ""
+        active = "active" if key == default_role else ""
         buttons.append(
             f'<button type="button" class="lens-btn matrix-role-btn {active}" '
             f'data-matrix-role="{esc(key)}">{esc(label)}</button>'
@@ -807,6 +799,7 @@ def build_matrix_pages() -> None:
                 all_cols.append(c)
 
     reports_by_cid = _load_reports_by_canonical_id()
+    products_by_cid = _load_products_by_canonical_id()
 
     tabs = []
     panels = []
@@ -819,34 +812,37 @@ def build_matrix_pages() -> None:
             f'<th data-col="{esc(c)}" title="{esc(_field_annotation(annotations, c))}">'
             f'{esc(MATRIX_COLUMN_LABELS.get(c, c))}</th>'
             for c in all_cols
-        ) + "<th>对比</th><th>详情</th>"
+        ) + "<th>对比</th><th>摘要</th>"
         rows_html = []
         for row in rows:
             cid = row.get("canonical_id") or ""
             report = reports_by_cid.get(cid)
-            cells_data = _matrix_row_cells(row, report, role_columns, annotations)
+            product = products_by_cid.get(cid)
+            cells_data = _matrix_row_cells(row, report, role_columns, annotations, product)
             cells = "".join(
                 f'<td data-col="{esc(c)}">{_matrix_cell_html(cells_data.get(c, {}))}</td>'
                 for c in all_cols
             )
-            compare_href = f"../compare/{_category_filename(cat)}"
+            # 品牌列链摘要页
+            brand_val = row.get("brand") or (product or {}).get("brand") or ""
+            model_val = row.get("model") or (product or {}).get("model") or ""
+            if cid:
+                brand_link = f'<a href="{esc(_product_digest_href(cid, 1))}">{esc(brand_val)}</a>'
+                model_link = f'<a href="{esc(_product_digest_href(cid, 1))}">{esc(model_val)}</a>'
+                cells = cells.replace(
+                    f'<td data-col="brand">{_matrix_cell_html(cells_data.get("brand", {}))}</td>',
+                    f'<td data-col="brand">{brand_link}</td>',
+                    1,
+                )
+                cells = cells.replace(
+                    f'<td data-col="model">{_matrix_cell_html(cells_data.get("model", {}))}</td>',
+                    f'<td data-col="model">{model_link}</td>',
+                    1,
+                )
+            compare_href = f"../compare/{_category_filename(cat)}?role=cost"
             compare_link = f'<a href="{esc(compare_href)}">同品类对比</a>'
-            rid = (report or {}).get("id") or row.get("id") or row.get("report_id") or ""
-            source = row.get("source") or ""
-            src_badge = (
-                f'<span class="source-badge source-{esc(source)}" title="数据来源">{esc(source)}</span>'
-                if source
-                else ""
-            )
-            if rid:
-                detail_link = f'<a href="../reports/{esc(rid)}.html">报告</a>'
-            elif row.get("has_video"):
-                detail_link = '<span class="matrix-hint">仅视频</span>'
-            else:
-                detail_link = ""
-            rows_html.append(
-                f"<tr>{cells}<td>{compare_link}</td><td>{src_badge}{detail_link}</td></tr>"
-            )
+            digest_link = f'<a href="{esc(_product_digest_href(cid, 1))}">成本摘要</a>' if cid else ""
+            rows_html.append(f"<tr>{cells}<td>{compare_link}</td><td>{digest_link}</td></tr>")
         table = (
             f'<table class="matrix-table matrix-role-table"><thead><tr>{header}</tr></thead>'
             f'<tbody>{"".join(rows_html)}</tbody></table>'
@@ -856,9 +852,9 @@ def build_matrix_pages() -> None:
 
     role_cfg_json = json.dumps(role_columns, ensure_ascii=False)
     body = f"""
-<h1 class="section-title">竞品矩阵 · 角色透镜</h1>
-<p class="sort-hint">切换角色查看不同列集；每行可进入同品类对比页；单元格可展开证据原文。</p>
-{_matrix_role_bar(role_columns)}
+<h1 class="section-title">成本竞品矩阵</h1>
+<p class="sort-hint">默认成本工程师视角；切换角色查看不同列集；产品名链入成本摘要页。</p>
+{_matrix_role_bar(role_columns, "cost")}
 <div class="matrix-tabs">{"".join(tabs)}</div>
 <div class="matrix-panels matrix-panels-role">{"".join(panels)}</div>
 """
@@ -870,72 +866,182 @@ def build_matrix_pages() -> None:
 
 
 def build_compare_pages() -> None:
-    """每品类一张对比页：列=产品，行=参数，每格可展开 evidence。"""
+    """每品类一张成本对比大表：列=产品（链摘要页），行=成本参数。"""
     out = SITE_DIR / "compare"
     out.mkdir(parents=True, exist_ok=True)
-    if not MATRIX_DIR.exists():
-        return
     annotations = _load_field_annotations()
-    role_columns = _matrix_role_columns(annotations)
-    skip_cols = {"brand", "model", "data_completeness"}
-    param_cols: list[str] = []
-    for cols in role_columns.values():
-        for c in cols:
-            if c not in skip_cols and c not in param_cols:
-                param_cols.append(c)
 
-    reports_by_cid = _load_reports_by_canonical_id()
+    compare_sources = []
+    if COMPARE_DATA_DIR.exists():
+        compare_sources = sorted(COMPARE_DATA_DIR.glob("*.json"))
+    if not compare_sources and MATRIX_DIR.exists():
+        compare_sources = sorted(MATRIX_DIR.glob("*.json"))
 
-    for path in sorted(MATRIX_DIR.glob("*.json")):
+    for path in compare_sources:
         try:
-            mat = json.loads(path.read_text(encoding="utf-8"))
+            data = json.loads(path.read_text(encoding="utf-8"))
         except Exception:
             continue
-        cat = mat.get("category", path.stem)
-        rows = mat.get("rows", [])
-        if not rows:
+        cat = data.get("category", path.stem)
+        param_rows = data.get("param_rows") or []
+        products = data.get("products") or []
+        if not products and data.get("rows"):
+            # 降级：旧 matrix JSON
             continue
-        products = []
-        for row in rows:
-            cid = row.get("canonical_id") or ""
-            report = reports_by_cid.get(cid)
-            cells_data = _matrix_row_cells(row, report, role_columns, annotations)
-            rid = (report or {}).get("id") or row.get("id") or ""
-            brand = row.get("brand") or ""
-            model = row.get("model") or ""
-            name = f"{brand} {model}".strip() or model or cid
-            href = f"../reports/{esc(rid)}.html?role=pm" if rid else ""
-            products.append({"name": name, "href": href, "cells": cells_data})
+        if not products:
+            continue
 
         head = "<th>参数</th>" + "".join(
-            f'<th><a href="{esc(p["href"])}">{esc(p["name"])}</a></th>' if p["href"]
-            else f'<th>{esc(p["name"])}</th>'
+            f'<th><a href="../products/{esc(p["canonical_id"])}.html?role=cost">'
+            f'{esc((p.get("brand") or "") + " " + (p.get("model") or "")).strip() or p["canonical_id"]}</a></th>'
             for p in products
         )
         body_rows = []
-        for col in param_cols:
-            label = MATRIX_COLUMN_LABELS.get(col, col)
-            ann = _field_annotation(annotations, col)
+        for param in param_rows:
+            label = MATRIX_COLUMN_LABELS.get(param, param)
+            ann = _field_annotation(annotations, param)
             label_html = f'<span class="annot-label" title="{esc(ann)}">{esc(label)}</span>' if ann else esc(label)
             tds = f"<td class='param-name'>{label_html}</td>"
             for p in products:
-                cell = p["cells"].get(col, {})
-                tds += f"<td>{_matrix_cell_html(cell)}</td>"
+                cell = (p.get("cells") or {}).get(param, {})
+                if not cell and data.get("rows"):
+                    row_item = next((r for r in data["rows"] if r.get("param") == param), None)
+                    if row_item:
+                        cell = (row_item.get("cells") or {}).get(p["canonical_id"], {})
+                val = (cell or {}).get("value") or ""
+                if not val:
+                    val_html = '<span class="matrix-hint">待补充</span>'
+                else:
+                    val_html = _matrix_cell_html(cell)
+                tds += f"<td>{val_html}</td>"
             body_rows.append(f"<tr>{tds}</tr>")
 
         table = (
             f'<table class="compare-table"><thead><tr>{head}</tr></thead>'
             f'<tbody>{"".join(body_rows)}</tbody></table>'
         )
-        matrix_href = "../matrix/index.html"
+        matrix_href = "../matrix/index.html?role=cost"
         body = f"""
-<h1 class="section-title">{esc(cat)} · 同品类对比</h1>
-<p class="sort-hint">列=产品，行=参数；点击单元格展开证据原文；产品名链入对应拆解报告。</p>
-<p><a href="{esc(matrix_href)}">← 返回竞品矩阵</a></p>
+<h1 class="section-title">{esc(cat)} · 成本参数对比</h1>
+<p class="sort-hint">列=产品（链成本摘要页），行=成本关注参数；点击单元格展开证据。</p>
+<p><a href="{esc(matrix_href)}">← 返回成本矩阵</a></p>
 <div class="compare-wrap">{table}</div>
 """
         (out / _category_filename(cat)).write_text(
             page_shell(f"{cat} 对比", body, active_nav="matrix", depth=2),
+            encoding="utf-8",
+        )
+
+
+def build_product_digest_pages() -> None:
+    """产品成本摘要页：BOM 全表 + 信源层 + 链报告深页。"""
+    out = SITE_DIR / "products"
+    out.mkdir(parents=True, exist_ok=True)
+    if not PRODUCTS_DIR.exists():
+        return
+
+    for path in sorted(PRODUCTS_DIR.glob("*.json")):
+        if path.name == "index.json":
+            continue
+        try:
+            product = json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+        cid = product["canonical_id"]
+        brand = product.get("brand", "")
+        model = product.get("model", "")
+        snap = product.get("cost_snapshot") or {}
+        bom = product.get("bom_table") or []
+        layer_refs = product.get("layer_refs") or {}
+
+        # 伪造 record 供 BOM 渲染
+        fake_record = {
+            "id": snap.get("best_report_id") or "",
+            "views": {"cost": {"bom_table": bom, "summary_image_urls": product.get("summary_image_urls") or []}},
+        }
+
+        layer_badges = "".join(
+            f'<span class="source-badge source-{esc(layer)}">{esc(layer)}</span>'
+            for layer, refs in layer_refs.items() if refs
+        )
+        price_txt = "待补充"
+        if snap.get("price_cny") is not None:
+            price_txt = f"¥{snap['price_cny']}"
+            if snap.get("price_layer") == "channel":
+                price_txt += " (渠道)"
+        channel_url = snap.get("channel_url") or ""
+        channel_link = (
+            f' <a href="{esc(channel_url)}" target="_blank" rel="noopener">渠道页</a>'
+            if channel_url else ""
+        )
+
+        report_links = []
+        for rid in product.get("report_ids") or []:
+            report_links.append(f'<a href="../reports/{esc(rid)}.html?role=cost&from=product">拆解报告 {esc(rid)}</a>')
+        for vid in product.get("video_ids") or []:
+            report_links.append(f'<a href="../videos/{esc(vid)}.html?role=cost">拆解视频 {esc(vid)}</a>')
+
+        compare_href = f"../compare/{_category_filename(product.get('category', ''))}?role=cost"
+        matrix_href = "../matrix/index.html?role=cost"
+
+        cost_rows = [
+            ("主控芯片", snap.get("main_chip")),
+            ("PMIC", snap.get("pmic_case")),
+            ("耳机电池", snap.get("battery_ear")),
+            ("仓电池", snap.get("battery_case")),
+            ("喇叭", snap.get("speaker")),
+            ("材料", snap.get("materials")),
+            ("重量", snap.get("weight_g")),
+            ("IP", snap.get("ip_rating")),
+            ("蓝牙", snap.get("bluetooth")),
+            ("BOM行数", snap.get("bom_row_count")),
+            ("售价", price_txt),
+        ]
+        snapshot_table = "<table class='spec-table'><tbody>" + "".join(
+            f"<tr><td>{esc(k)}</td><td>{esc(str(v) if v is not None else '—')}</td></tr>"
+            for k, v in cost_rows
+        ) + "</tbody></table>"
+
+        body = f"""
+<div class="detail-header">
+  <div>{category_tag(product.get('category',''))}</div>
+  <h1>{esc(brand)} {esc(model)}</h1>
+  <div class="meta-row">
+    <span>品类：{esc(product.get('category',''))}</span>
+    <span>信源：{layer_badges or '技术层'}</span>
+    <span>成本完整度：{int((snap.get('data_completeness') or 0) * 100)}%</span>
+  </div>
+  <p class="sort-hint">产品成本摘要 · 数据融合自拆解报告（技术层）{channel_link}</p>
+  <p>
+    <a href="{esc(matrix_href)}">← 成本矩阵</a> ·
+    <a href="{esc(compare_href)}">同品类对比</a>
+  </p>
+</div>
+
+<section class="view-section" id="section-cost" data-section="cost">
+  <h2>成本快照</h2>
+  {snapshot_table}
+</section>
+
+<section class="view-section" id="section-bom" data-section="cost">
+  <h2>物料清单（BOM）</h2>
+  {_bom_table_html(bom, fake_record)}
+  {_summary_images_html(product.get("summary_image_urls") or [])}
+</section>
+
+<section class="view-section">
+  <h2>关联情报</h2>
+  <p>{' · '.join(report_links) or '暂无关联报告'}</p>
+</section>
+
+<details class="pm-fold">
+  <summary>市场信息（折叠）</summary>
+  <p class="sort-hint">PM 透镜字段见拆解报告详情页。</p>
+</details>
+"""
+        title = f"{brand} {model}".strip() or cid
+        (out / f"{cid}.html").write_text(
+            page_shell(title, body, active_nav="matrix", depth=1),
             encoding="utf-8",
         )
 
@@ -968,17 +1074,19 @@ def main() -> None:
     build_list_page("video", videos, "拆解视频", "videos")
     build_matrix_pages()
     build_compare_pages()
+    build_product_digest_pages()
 
     about = f"""
 <div class="about-content">
-<h1>关于本站 v2</h1>
-<p>按职能角色透镜展示拆解情报：产品经理看全量技术事实+市场信息；成本工程师看 BOM 相关区块；结构/硬件/软件各看本域。</p>
+<h1>关于本站 V4</h1>
+<p><strong>主用户：成本工程师。</strong>默认视角为成本透镜，优先展示 BOM/芯片/电池/PMIC 等同品类对比参数。</p>
+<p>信息架构：首页 → <a href="matrix/index.html?role=cost">成本矩阵</a> → <a href="compare/开放式耳机.html">同品类大表</a> → 产品成本摘要 → 拆解报告深页 → 52audio 原文。</p>
+<p>四层信源：技术层（52audio 拆解，已接入）· 渠道层（电商现价，CSV 导入）· 官方层 · 评测层（预留）。</p>
 <p>数据：报告 {len(reports)} 条，视频 {len(videos)} 条。最后日更：{esc(str(idx.get('last_daily_crawl_at') or idx.get('last_backfill_at') or '—'))}</p>
-<p>支持关键词搜索、品牌筛选、竞品矩阵、CSV 导出与数据完整度展示。</p>
 </div>
 """
     (SITE_DIR / "about.html").write_text(page_shell("关于本站", about, active_nav="about", depth=0), encoding="utf-8")
-    print(f"[build_site] v2 完成：{len(reports)} 报告，{len(videos)} 视频")
+    print(f"[build_site] V4 完成：{len(reports)} 报告，{len(videos)} 视频，产品摘要页已生成")
 
 
 if __name__ == "__main__":

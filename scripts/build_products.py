@@ -1,4 +1,4 @@
-"""扫描 reports + videos，生成产品主数据索引与单产品 JSON。"""
+"""扫描 reports + videos，生成产品主数据索引与单产品 JSON（含成本快照）。"""
 
 from __future__ import annotations
 
@@ -16,6 +16,7 @@ from core.ingest import load_all_records, merge_price_into_record  # noqa: E402
 from core.products import (  # noqa: E402
     canonical_product_id,
     guess_brand_from_text,
+    merge_cost_snapshot,
     normalize_brand,
     normalize_model,
 )
@@ -56,12 +57,16 @@ def _pick_category(categories: list[str]) -> str:
 def build_products() -> dict:
     PRODUCTS_DIR.mkdir(parents=True, exist_ok=True)
 
+    reports_by_id: dict[str, dict] = {}
+    for r in load_all_records("report"):
+        reports_by_id[r["id"]] = merge_price_into_record(r)
+
     aggregates: dict[str, dict] = {}
 
     for kind in ("report", "video"):
         for record in load_all_records(kind):
             if kind == "report":
-                record = merge_price_into_record(record)
+                record = reports_by_id.get(record["id"], record)
             brand, model, category = _record_identity(record)
             cid = canonical_product_id(brand, model)
             published = record.get("published_at", "")
@@ -75,6 +80,7 @@ def build_products() -> dict:
                     "report_ids": [],
                     "video_ids": [],
                     "published_dates": [],
+                    "market_prices": [],
                 }
 
             agg = aggregates[cid]
@@ -86,6 +92,9 @@ def build_products() -> dict:
             agg["published_dates"].append(published)
             if kind == "report":
                 agg["report_ids"].append(record["id"])
+                mkt = (record.get("views") or {}).get("market") or {}
+                if mkt.get("price_cny") is not None:
+                    agg["market_prices"].append(mkt["price_cny"])
             else:
                 agg["video_ids"].append(record["id"])
 
@@ -97,6 +106,15 @@ def build_products() -> dict:
         category = _pick_category(agg["categories"])
         brand = agg["brand"]
         model = agg["model"]
+        market_price = agg["market_prices"][0] if agg["market_prices"] else None
+
+        cost_data = merge_cost_snapshot(
+            canonical_id=cid,
+            report_ids=report_ids,
+            video_ids=video_ids,
+            reports_by_id=reports_by_id,
+            market_price=market_price,
+        )
 
         product = {
             "canonical_id": cid,
@@ -110,6 +128,11 @@ def build_products() -> dict:
             "first_seen": dates[0] if dates else "",
             "latest_published": dates[-1] if dates else "",
             "internal_match_suggestions": suggest_internal_match(brand, model, category),
+            "cost_snapshot": cost_data["cost_snapshot"],
+            "bom_table": cost_data["bom_table"],
+            "summary_image_urls": cost_data["summary_image_urls"],
+            "summary_text": cost_data["summary_text"],
+            "layer_refs": cost_data["layer_refs"],
         }
         (PRODUCTS_DIR / f"{cid}.json").write_text(
             json.dumps(product, ensure_ascii=False, indent=2), encoding="utf-8"
@@ -124,6 +147,8 @@ def build_products() -> dict:
                 "video_count": len(video_ids),
                 "first_seen": product["first_seen"],
                 "latest_published": product["latest_published"],
+                "cost_completeness": cost_data["cost_snapshot"].get("data_completeness"),
+                "bom_row_count": cost_data["cost_snapshot"].get("bom_row_count"),
             }
         )
 

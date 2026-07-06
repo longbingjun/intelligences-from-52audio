@@ -96,6 +96,7 @@ class RoleViews:
 class ReportRecord:
     id: str
     type: str = "report"
+    source_layer: str = "technical"  # official|channel|review|technical
     source_id: str = "audio52"
     url: str = ""
     title: str = ""
@@ -119,6 +120,7 @@ class ReportRecord:
 class VideoRecord:
     id: str
     type: str = "video"
+    source_layer: str = "technical"
     source_id: str = "audio52"
     url: str = ""
     title: str = ""

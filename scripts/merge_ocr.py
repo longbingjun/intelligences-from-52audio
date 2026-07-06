@@ -1,4 +1,4 @@
-"""将 OCR enrich 结果合并进 report views.hardware.specs（仅当 confidence 更高）。
+"""将 OCR enrich 结果合并进 report views（hardware.specs + cost.bom_table）。
 
 用法：
   python scripts/merge_ocr.py --id 265818
@@ -15,12 +15,15 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 from core.ingest import REPORTS_DIR  # noqa: E402
+from core.views.role_extract import _bom_dedup_key, _merge_bom_with_summary, _normalize_bom_row  # noqa: E402
 
 OCR_DIR = ROOT / "data" / "enrich" / "ocr"
 
 SOURCE_CONFIDENCE = {
     "migrated": 0.4,
     "text": 0.5,
+    "summary_prose": 0.88,
+    "summary_ocr": 0.72,
     "ocr": 0.75,
 }
 
@@ -32,14 +35,21 @@ def _spec_confidence(spec: dict) -> float:
 
 
 def _spec_key(spec: dict) -> tuple[str, str, str]:
-    part = (spec.get("part") or "").strip()
+    part = (spec.get("part") or spec.get("param") or "").strip()
     value = str(spec.get("value") or spec.get("model") or "").strip().upper()
     unit = (spec.get("unit") or "").strip().lower()
     return part, value, unit
 
 
-def merge_ocr_into_report(report: dict, ocr_payload: dict) -> tuple[dict, int]:
-    """合并 OCR specs，返回 (更新后的 report, 新增/升级条数)。"""
+def _bom_confidence(row: dict) -> float:
+    ev = row.get("evidence") or {}
+    if isinstance(ev, dict) and ev.get("confidence") is not None:
+        return float(ev["confidence"])
+    st = ev.get("source_type", "text") if isinstance(ev, dict) else "text"
+    return SOURCE_CONFIDENCE.get(st, 0.5)
+
+
+def merge_ocr_specs(report: dict, ocr_payload: dict) -> tuple[dict, int]:
     views = dict(report.get("views", {}))
     hardware = dict(views.get("hardware", {}))
     specs: list[dict] = list(hardware.get("specs", []))
@@ -52,6 +62,7 @@ def merge_ocr_into_report(report: dict, ocr_payload: dict) -> tuple[dict, int]:
     for img in ocr_payload.get("images", []):
         for raw_spec in img.get("specs_extracted", []):
             new_spec = {
+                "param": raw_spec.get("part", ""),
                 "part": raw_spec.get("part", ""),
                 "brand": "",
                 "model": "",
@@ -73,6 +84,51 @@ def merge_ocr_into_report(report: dict, ocr_payload: dict) -> tuple[dict, int]:
     out = dict(report)
     out["views"] = views
     return out, added
+
+
+def merge_ocr_bom(report: dict, ocr_payload: dict) -> tuple[dict, int]:
+    """OCR BOM 行合并进 cost.bom_table（不覆盖高置信度 summary_prose）。"""
+    views = dict(report.get("views", {}))
+    cost = dict(views.get("cost", {}))
+    existing = list(cost.get("bom_table") or [])
+
+    best_conf: dict[tuple, float] = {}
+    for row in existing:
+        norm = _normalize_bom_row(row) if row.get("evidence") else row
+        best_conf[_bom_dedup_key(norm)] = _bom_confidence(norm)
+
+    ocr_rows: list[dict] = []
+    for img in ocr_payload.get("images", []):
+        for row in img.get("bom_rows_extracted", []):
+            ocr_rows.append(_normalize_bom_row(row))
+
+    added = 0
+    for row in ocr_rows:
+        key = _bom_dedup_key(row)
+        conf = _bom_confidence(row)
+        if conf <= best_conf.get(key, 0.0):
+            continue
+        best_conf[key] = conf
+        added += 1
+
+    if not ocr_rows:
+        return report, 0
+
+    merged = _merge_bom_with_summary(existing, ocr_rows)
+    # 重新应用置信度过滤：仅保留 OCR 新增或升级的行
+    if added:
+        cost["bom_table"] = merged
+        views["cost"] = cost
+        out = dict(report)
+        out["views"] = views
+        return out, added
+    return report, 0
+
+
+def merge_ocr_into_report(report: dict, ocr_payload: dict) -> tuple[dict, int]:
+    report, specs_added = merge_ocr_specs(report, ocr_payload)
+    report, bom_added = merge_ocr_bom(report, ocr_payload)
+    return report, specs_added + bom_added
 
 
 def main() -> None:
@@ -104,7 +160,7 @@ def main() -> None:
         report = json.loads(report_path.read_text(encoding="utf-8"))
         merged, added = merge_ocr_into_report(report, ocr_payload)
         total_added += added
-        print(f"{rid}: +{added} specs")
+        print(f"{rid}: +{added} fields")
         if not args.dry_run and added:
             report_path.write_text(json.dumps(merged, ensure_ascii=False, indent=2), encoding="utf-8")
 

@@ -1,15 +1,23 @@
 {
   "category": "AI眼镜及穿戴设备",
-  "generated_at": "2026-07-06T11:00:42+08:00",
+  "generated_at": "2026-07-06T12:16:15+08:00",
+  "default_role": "cost",
   "columns": [
+    "brand",
+    "model",
     "price_cny",
-    "launch_date",
-    "codecs",
+    "main_chip",
+    "pmic",
+    "battery_ear",
+    "battery_case",
+    "speaker",
+    "materials",
+    "weight_g",
+    "ip_rating",
     "bluetooth",
-    "major_chips",
-    "selling_point_tags",
-    "data_completeness",
-    "source"
+    "bom_rows",
+    "layer_badges",
+    "data_completeness"
   ],
   "rows": [
     {
@@ -17,159 +25,522 @@
       "brand": "",
       "model": "Looktech AI智能眼镜拆解速看，重点信息不迷路",
       "price_cny": null,
-      "launch_date": "2026-01-20",
-      "codecs": [],
+      "price_layer": null,
+      "main_chip": null,
+      "pmic": null,
+      "battery_ear": null,
+      "battery_case": null,
+      "speaker": null,
+      "materials": null,
+      "weight_g": null,
+      "ip_rating": null,
       "bluetooth": null,
-      "major_chips": [],
-      "selling_point_tags": [],
-      "sources": [
-        "video"
-      ],
+      "bom_rows": 0,
+      "layer_badges": "technical",
+      "data_completeness": 0.0,
+      "best_report_id": null,
       "has_report": false,
       "has_video": true,
-      "source": "video",
-      "data_completeness": 0.17
+      "cost_fields": {}
     },
     {
       "canonical_id": "unknown--xiaoduaipro",
       "brand": "",
       "model": "Xiaodu小度AI眼镜Pro",
       "price_cny": null,
-      "launch_date": "2026-01-08",
-      "codecs": [],
+      "price_layer": null,
+      "main_chip": null,
+      "pmic": null,
+      "battery_ear": null,
+      "battery_case": null,
+      "speaker": null,
+      "materials": null,
+      "weight_g": null,
+      "ip_rating": null,
       "bluetooth": null,
-      "major_chips": [],
-      "selling_point_tags": [
-        "降噪",
-        "第一",
-        "通话降噪"
-      ],
-      "sources": [
-        "video"
-      ],
+      "bom_rows": 0,
+      "layer_badges": "technical",
+      "data_completeness": 0.0,
+      "best_report_id": null,
       "has_report": false,
       "has_video": true,
-      "source": "video",
-      "data_completeness": 0.33
+      "cost_fields": {}
     },
     {
       "canonical_id": "unknown--ais1",
       "brand": "",
       "model": "夸克AI眼镜S1",
       "price_cny": null,
-      "launch_date": "2026-03-11",
-      "codecs": [],
-      "bluetooth": null,
-      "major_chips": [
-        "思远半导体SY6302",
-        "BES2800BP",
-        "高通PMAR2130",
-        "高通WCN7851"
-      ],
-      "selling_point_tags": [
-        "空间音频",
-        "其他",
-        "降噪",
-        "舒适佩戴",
-        "领先",
-        "创新",
-        "定制",
-        "认证",
-        "三频"
-      ],
-      "sources": [
-        "report",
-        "video"
-      ],
+      "price_layer": null,
+      "main_chip": "思远半导体SY6302",
+      "pmic": "",
+      "battery_ear": "3.91V/240mAh锂电池",
+      "battery_case": "电池",
+      "speaker": "喇叭单元",
+      "materials": "硅胶",
+      "weight_g": "52.6g",
+      "ip_rating": "",
+      "bluetooth": "",
+      "bom_rows": 16,
+      "layer_badges": "technical",
+      "data_completeness": 0.83,
+      "best_report_id": "269965",
       "has_report": true,
       "has_video": true,
-      "source": "report",
-      "data_completeness": 0.5
+      "cost_fields": {
+        "main_chip": {
+          "value": "思远半导体SY6302",
+          "evidence": "内部主要配置方面，可拆卸电池仓内置紫建电子3.91V/240mAh锂电池，采用了思远半导体SY6302电量计。",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "3.91V/240mAh锂电池",
+          "evidence": "内部主要配置方面，可拆卸电池仓内置紫建电子3.91V/240mAh锂电池，采用了思远半导体SY6302电量计。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "电池",
+          "evidence": "其他方面，夸克AI眼镜S1搭载5个气导麦克风+1个骨传导麦克风系统，精准拾取用户指令。搭载大振幅、双音圈、大振膜扬声器，提供三频均衡的好音质；且支持标准、澎湃和静谧3种音效模式，以及空间音频，用于满足不同音乐风格、不同场景的听音需求。采用可拆卸电池设计，并内嵌一个小电池，换电池不断电，续航不间断。下面就来看看这款产品的详细拆解报告吧~",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "3.91V/240mAh锂电池",
+          "evidence": "内部主要配置方面，可拆卸电池仓内置紫建电子3.91V/240mAh锂电池，采用了思远半导体SY6302电量计。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "喇叭单元",
+          "evidence": "其他方面，夸克AI眼镜S1搭载5个气导麦克风+1个骨传导麦克风系统，精准拾取用户指令。搭载大振幅、双音圈、大振膜扬声器，提供三频均衡的好音质；且支持标准、澎湃和静谧3种音效模式，以及空间音频，用于满足不同音乐风格、不同场景的听音需求。采用可拆卸电池设计，并内嵌一个小电池，换电池不断电，续航不间断。下面就来看看这款产品的详细拆解报告吧~",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "16",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "包装盒内部物品有AI眼镜、充电器、眼镜盒、眼镜清洁布和产品说明书等。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "52.6g",
+          "evidence": "52.6g",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "AI眼镜及穿戴设备",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "其他",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "240 mAh",
+          "evidence": "240mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        }
+      }
     },
     {
       "canonical_id": "unknown--inmo-go-3",
       "brand": "",
       "model": "影目INMO GO 3智能",
       "price_cny": null,
-      "launch_date": "2026-04-09",
-      "codecs": [],
-      "bluetooth": null,
-      "major_chips": [],
-      "selling_point_tags": [
-        "长续航",
-        "旗舰定位",
-        "其他",
-        "舒适佩戴",
-        "全球首",
-        "旗舰",
-        "定制",
-        "超长续航",
-        "超长",
-        "第一"
-      ],
-      "sources": [
-        "report",
-        "video"
-      ],
+      "price_layer": null,
+      "main_chip": "",
+      "pmic": "",
+      "battery_ear": "3.85V/270mAh锂电池",
+      "battery_case": "3.7V/1000mAh锂电池",
+      "speaker": "",
+      "materials": "PC",
+      "weight_g": "55.8g",
+      "ip_rating": "",
+      "bluetooth": "",
+      "bom_rows": 13,
+      "layer_badges": "technical",
+      "data_completeness": 0.5,
+      "best_report_id": "272443",
       "has_report": true,
       "has_video": true,
-      "source": "report",
-      "data_completeness": 0.33
+      "cost_fields": {
+        "main_chip": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "3.85V/270mAh锂电池",
+          "evidence": "主要配置上，眼镜搭载3.85V/270mAh锂电池、15mmx6mm双扬声器、4颗MEMS麦克风、1300万像素摄像头，采用单光机搭配衍射光波导技术，实现双目单绿屏幕显示。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "3.7V/1000mAh锂电池",
+          "evidence": "充电盒内部搭载贵航新能源3.7V/1000mAh锂离子聚合物电池组，采用了SinhMicro昇生微电子SS88D9H POWER MCU负责充放电管理和整机控制，采用Prisemi芯导科技P14C5N过压过流保护芯片，防止后级器件受损。",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "3.85V/270mAh锂电池",
+          "evidence": "主要配置上，眼镜搭载3.85V/270mAh锂电池、15mmx6mm双扬声器、4颗MEMS麦克风、1300万像素摄像头，采用单光机搭配衍射光波导技术，实现双目单绿屏幕显示。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "充电盒背面设置有Type-C充电接口和指示灯。",
+          "evidence": "充电盒背面设置有Type-C充电接口和指示灯。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "13",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "PC",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "55.8g",
+          "evidence": "55.8g",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "AI眼镜及穿戴设备",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "其他",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "270 mAh",
+          "evidence": "270mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "充电盒背面设置有Type-C充电接口和指示灯。",
+          "evidence": "充电盒背面设置有Type-C充电接口和指示灯。",
+          "source_layer": "technical"
+        }
+      }
     },
     {
       "canonical_id": "dpvr--vision-ray",
       "brand": "DPVR大朋",
       "model": "Vision Ray",
       "price_cny": null,
-      "launch_date": "2026-06-11",
-      "codecs": [],
-      "bluetooth": null,
-      "major_chips": [],
-      "selling_point_tags": [
-        "舒适佩戴",
-        "其他",
-        "旗舰定位",
-        "降噪",
-        "旗舰",
-        "第一",
-        "轻量化"
-      ],
-      "sources": [
-        "report",
-        "video"
-      ],
+      "price_layer": null,
+      "main_chip": "",
+      "pmic": "",
+      "battery_ear": "赣锋 3.89V/210mAh锂电池",
+      "battery_case": "电池",
+      "speaker": "",
+      "materials": "硅胶、PC",
+      "weight_g": "54.4g",
+      "ip_rating": "",
+      "bluetooth": "",
+      "bom_rows": 10,
+      "layer_badges": "technical",
+      "data_completeness": 0.5,
+      "best_report_id": "279183",
       "has_report": true,
       "has_video": true,
-      "source": "report",
-      "data_completeness": 0.33
+      "cost_fields": {
+        "main_chip": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "赣锋 3.89V/210mAh锂电池",
+          "evidence": "内部主要配置方面，搭载新余赣锋3.89V/210mAh锂电池，为整机稳定供电。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "电池",
+          "evidence": "腔体内部结构一览，设置电池单元。",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "赣锋 3.89V/210mAh锂电池",
+          "evidence": "内部主要配置方面，搭载新余赣锋3.89V/210mAh锂电池，为整机稳定供电。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "10",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶、PC",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "54.4g",
+          "evidence": "54.4g",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "AI眼镜及穿戴设备",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "开放",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "210 mAh",
+          "evidence": "210mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        }
+      }
     },
     {
       "canonical_id": "unknown--livis",
       "brand": "理想",
       "model": "Livis",
       "price_cny": null,
-      "launch_date": "2026-06-26",
-      "codecs": [],
+      "price_layer": null,
+      "main_chip": "BES2800BP",
+      "pmic": "",
+      "battery_ear": "2V/40mAh锂电池",
+      "battery_case": "3.85V/1700mAh锂电池",
+      "speaker": "",
+      "materials": "硅胶、钛合金、PC、皮革",
+      "weight_g": "174.2g",
+      "ip_rating": "",
       "bluetooth": "5.4",
-      "major_chips": [
-        "BES2800BP",
-        "ConvenientPower易冲半导体CPS4021",
-        "AB4"
-      ],
-      "selling_point_tags": [
-        "空间音频",
-        "其他",
-        "舒适佩戴",
-        "创新",
-        "定制"
-      ],
-      "sources": [
-        "report"
-      ],
+      "bom_rows": 17,
+      "layer_badges": "technical",
+      "data_completeness": 0.67,
+      "best_report_id": "280668",
       "has_report": true,
       "has_video": false,
-      "source": "report",
-      "data_completeness": 0.67
+      "cost_fields": {
+        "main_chip": {
+          "value": "BES2800BP",
+          "evidence": "芯片方案包括ADI亚德诺MAX17332电源管理芯片，CirrusLogic凌云逻辑CS35L42音频放大器，Azoteq IQS7222A多模态传感控制器，研极微SA62105X2 ISP芯片，BES恒玄科技BES2800BP智能穿戴SoC，BIWIN佰维存储器，艾为电子AW21104 LED驱动器，TDK 6轴传感器等。",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "2V/40mAh锂电池",
+          "evidence": "内部主要配置方面，AI眼镜共搭载3块豪鹏科技的锂电池，总容量达到了240mAh；",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "3.85V/1700mAh锂电池",
+          "evidence": "充电盒内部搭载豪鹏科技3.85V/1700mAh锂电池组，Type-C充电端口设置OmniVision豪威集团ESD56241D TVS保护管；",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "2V/40mAh锂电池",
+          "evidence": "内部主要配置方面，AI眼镜共搭载3块豪鹏科技的锂电池，总容量达到了240mAh；",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "正面设置有环形指示灯，底部设置Type-C充电接口。",
+          "evidence": "正面设置有环形指示灯，底部设置Type-C充电接口。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "17",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "打开包装盒，取出内部所有物品，包括了AI眼镜、眼镜盒、清洁布、鼻托和产品说明书等。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶、钛合金、PC、皮革",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "174.2g",
+          "evidence": "174.2g",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "AI眼镜及穿戴设备",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "其他",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "5.4",
+          "evidence": "蓝牙5.4",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "5.4",
+          "evidence": "蓝牙5.4",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "480 mAh",
+          "evidence": "480mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "正面设置有环形指示灯，底部设置Type-C充电接口。",
+          "evidence": "正面设置有环形指示灯，底部设置Type-C充电接口。",
+          "source_layer": "technical"
+        }
+      }
     }
   ]
 }

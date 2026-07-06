@@ -1,0 +1,69 @@
+{
+  "default_profile": "tws",
+  "profiles": {
+    "tws": {
+      "label": "TWS / 开放式 / 耳夹",
+      "categories": ["真无线耳机TWS", "开放式耳机"],
+      "p0": [
+        "price_cny",
+        "main_chip",
+        "pmic",
+        "battery_ear",
+        "battery_case",
+        "speaker",
+        "materials",
+        "weight_g",
+        "bluetooth",
+        "bom_rows"
+      ],
+      "p1": [
+        "ip_rating"
+      ]
+    },
+    "bone": {
+      "label": "骨传导",
+      "categories": ["骨传导耳机"],
+      "p0": [
+        "price_cny",
+        "main_chip",
+        "battery_ear",
+        "speaker",
+        "materials",
+        "weight_g",
+        "bluetooth",
+        "bom_rows"
+      ],
+      "p1": ["pmic", "battery_case", "ip_rating"]
+    },
+    "default": {
+      "label": "通用",
+      "categories": ["*"],
+      "p0": [
+        "price_cny",
+        "main_chip",
+        "pmic",
+        "battery_ear",
+        "battery_case",
+        "speaker",
+        "materials",
+        "weight_g",
+        "bluetooth",
+        "bom_rows"
+      ],
+      "p1": ["ip_rating"]
+    }
+  },
+  "param_labels": {
+    "price_cny": { "label": "渠道售价", "why": "竞品定位与成本锚点" },
+    "main_chip": { "label": "耳机主控 SoC", "why": "平台选型 — 成本结构核心" },
+    "pmic": { "label": "充电仓 PMIC", "why": "仓电源管理 IC" },
+    "battery_ear": { "label": "耳机电池", "why": "耳机侧电芯规格与供应商" },
+    "battery_case": { "label": "仓电池", "why": "充电仓电芯容量" },
+    "speaker": { "label": "喇叭/振动单元", "why": "声学 BOM 关键差异" },
+    "materials": { "label": "关键材料", "why": "结构件与外壳成本信号" },
+    "weight_g": { "label": "重量", "why": "材料与佩戴形态" },
+    "ip_rating": { "label": "防护等级", "why": "密封工艺成本" },
+    "bluetooth": { "label": "蓝牙版本", "why": "主控世代参考" },
+    "bom_rows": { "label": "物料项数", "why": "BOM 拆解完整度参考" }
+  }
+}

@@ -1,22 +1,20 @@
-"""P4 人工售价 CSV 导入 → data/enrich/prices/{id}.json
+"""渠道层 enrich 导入：按 canonical_id 写入 data/enrich/channel/{id}.json
 
-将运营补录的售价批量写入 enrich 层，与爬虫主数据解耦；`scripts/build_site.py` 构建时
-通过 `core.ingest.merge_price_into_record` 合并进 `views.market`。
-
-CSV 格式（UTF-8，首行表头）：
-  id,price_cny,price_source,price_url,price_note
+CSV 格式（UTF-8，首行表头）— 二选一 ID 列：
+  canonical_id,price_cny,price_source,channel_url,sales_hint,price_note
+  id,price_cny,price_source,channel_url,sales_hint,price_note   # 报告 ID，自动映射到产品
 
 字段说明：
-  - id          报告/视频 ID（必填），对应 data/reports|videos/{id}.json
-  - price_cny   人民币售价，数字或留空
-  - price_source 来源标识，默认 manual_csv（如 jd / tmall / official）
-  - price_url   标价页 URL
-  - price_note  备注（活动价、首发价等）
-
-示例见 data/enrich/prices/README.md 与 example.csv。
+  - canonical_id / id  产品 canonical ID 或报告 ID（必填其一）
+  - price_cny          人民币现价
+  - price_source       来源：jd / tmall / pdd / manual_csv
+  - channel_url        渠道 SKU 页 URL
+  - sales_hint         销量区间或备注
+  - price_note         活动价等备注
 
 用法：
-  python scripts/import_prices.py data/enrich/prices/example.csv
+  python scripts/import_prices.py data/enrich/channel/example.csv
+  python scripts/import_prices.py data/enrich/prices/example.csv --legacy
 """
 from __future__ import annotations
 
@@ -30,30 +28,88 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-OUT_DIR = ROOT / "data" / "enrich" / "prices"
+from core.ingest import REPORTS_DIR, load_all_records  # noqa: E402
+from core.products import canonical_product_id, normalize_brand, normalize_model  # noqa: E402
+
+PRICES_DIR = ROOT / "data" / "enrich" / "prices"
+CHANNEL_DIR = ROOT / "data" / "enrich" / "channel"
+
+
+def _canonical_from_report_id(report_id: str) -> str | None:
+    path = REPORTS_DIR / f"{report_id}.json"
+    if path.exists():
+        try:
+            r = json.loads(path.read_text(encoding="utf-8"))
+            brand = normalize_brand(r.get("brand") or "")
+            model = normalize_model(r.get("model") or "", brand)
+            return canonical_product_id(brand, model)
+        except Exception:
+            return None
+    for r in load_all_records("report"):
+        if r["id"] == report_id:
+            brand = normalize_brand(r.get("brand") or "")
+            model = normalize_model(r.get("model") or "", brand)
+            return canonical_product_id(brand, model)
+    return None
+
+
+def _write_channel(canonical_id: str, row: dict) -> None:
+    CHANNEL_DIR.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "canonical_id": canonical_id,
+        "price_cny": float(row["price_cny"]) if row.get("price_cny") else None,
+        "price_source": row.get("price_source") or row.get("channel") or "manual_csv",
+        "channel_url": row.get("channel_url") or row.get("price_url") or "",
+        "sales_hint": row.get("sales_hint") or "",
+        "price_note": row.get("price_note") or "",
+        "captured_at": datetime.now(timezone.utc).date().isoformat(),
+        "source_layer": "channel",
+    }
+    (CHANNEL_DIR / f"{canonical_id}.json").write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+
+
+def _write_legacy_price(report_id: str, row: dict) -> None:
+    PRICES_DIR.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "price_cny": float(row["price_cny"]) if row.get("price_cny") else None,
+        "price_source": row.get("price_source", "manual_csv"),
+        "price_url": row.get("price_url") or row.get("channel_url") or "",
+        "price_note": row.get("price_note", ""),
+        "price_captured_at": datetime.now(timezone.utc).date().isoformat(),
+    }
+    (PRICES_DIR / f"{report_id}.json").write_text(
+        json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
 
 
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("csv_path", help="售价 CSV 文件路径")
+    parser.add_argument("--legacy", action="store_true", help="写入 data/enrich/prices/{report_id}.json（旧格式）")
     args = parser.parse_args()
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
-    n = 0
+
+    n_channel = 0
+    n_legacy = 0
     with open(args.csv_path, encoding="utf-8-sig") as f:
         for row in csv.DictReader(f):
-            item_id = row.get("id", "").strip()
-            if not item_id:
+            cid = (row.get("canonical_id") or "").strip()
+            report_id = (row.get("id") or "").strip()
+
+            if args.legacy and report_id:
+                _write_legacy_price(report_id, row)
+                n_legacy += 1
                 continue
-            payload = {
-                "price_cny": float(row["price_cny"]) if row.get("price_cny") else None,
-                "price_source": row.get("price_source", "manual_csv"),
-                "price_url": row.get("price_url", ""),
-                "price_note": row.get("price_note", ""),
-                "price_captured_at": datetime.now(timezone.utc).date().isoformat(),
-            }
-            (OUT_DIR / f"{item_id}.json").write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-            n += 1
-    print(f"Imported {n} price records")
+
+            if not cid and report_id:
+                cid = _canonical_from_report_id(report_id) or ""
+            if not cid:
+                continue
+            _write_channel(cid, row)
+            n_channel += 1
+
+    print(f"Imported channel={n_channel}, legacy_prices={n_legacy}")
 
 
 if __name__ == "__main__":

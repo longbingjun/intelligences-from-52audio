@@ -11,6 +11,7 @@ DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 REPORTS_DIR = DATA_DIR / "reports"
 VIDEOS_DIR = DATA_DIR / "videos"
 ENRICH_DIR = DATA_DIR / "enrich"
+CHANNEL_ENRICH_DIR = ENRICH_DIR / "channel"
 INDEX_PATH = DATA_DIR / "index.json"
 
 
@@ -97,6 +98,16 @@ def load_price_enrich(item_id: str) -> dict | None:
 
 def load_video_asr(item_id: str) -> dict | None:
     path = ENRICH_DIR / "videos" / f"{item_id}.asr.json"
+    if not path.exists():
+        return None
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+
+
+def load_channel_enrich(canonical_id: str) -> dict | None:
+    path = CHANNEL_ENRICH_DIR / f"{canonical_id}.json"
     if not path.exists():
         return None
     try:

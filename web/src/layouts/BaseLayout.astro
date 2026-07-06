@@ -1,0 +1,49 @@
+---
+import "../styles/global.css";
+
+interface Props {
+  title?: string;
+  activeNav?: string;
+}
+
+const { title = "竞品成本情报", activeNav = "" } = Astro.props;
+const fullTitle = title.includes("情报") ? title : `${title} · 竞品成本情报`;
+---
+
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{fullTitle}</title>
+  </head>
+  <body>
+    <header class="sticky top-0 z-50 border-b border-[var(--line)] bg-white/90 backdrop-blur-md">
+      <div class="mx-auto flex max-w-[1400px] flex-wrap items-center justify-between gap-3 px-5 py-3">
+        <a href="/" class="text-lg font-bold text-[var(--text)] no-underline hover:no-underline">
+          竞品成本情报
+        </a>
+        <nav class="flex flex-wrap gap-1 text-sm">
+          <a
+            href="/"
+            class:list={["rounded-full px-3 py-1.5 no-underline", activeNav === "home" ? "bg-[var(--primary)] text-white" : "text-[var(--muted)] hover:bg-[#eef3ff]"]}
+          >工作台</a>
+          <a
+            href="/category/开放式耳机"
+            class:list={["rounded-full px-3 py-1.5 no-underline", activeNav === "category" ? "bg-[var(--primary)] text-white" : "text-[var(--muted)] hover:bg-[#eef3ff]"]}
+          >品类对比</a>
+        </nav>
+      </div>
+    </header>
+    <main class="mx-auto max-w-[1400px] px-5 py-6">
+      <slot />
+    </main>
+    <footer class="border-t border-[var(--line)] py-6 text-center text-sm text-[var(--muted)]">
+      <p>
+        数据来源：
+        <a href="https://www.52audio.com/archives/category/teardowns" target="_blank" rel="noopener">我爱音频网拆解</a>
+        · 仅供内部成本研究
+      </p>
+    </footer>
+  </body>
+</html>

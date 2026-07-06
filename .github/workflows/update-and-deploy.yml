@@ -12,6 +12,10 @@ on:
           - daily
           - backfill-2026
         default: daily
+      run_merge_ocr:
+        description: 是否合并 OCR 结果到 BOM（较慢，默认 false）
+        type: boolean
+        default: false
   push:
     branches: [main, master]
 
@@ -36,6 +40,12 @@ jobs:
           cache: pip
           cache-dependency-path: requirements.txt
 
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+          cache: npm
+          cache-dependency-path: web/package.json
+
       - name: 安装依赖
         run: pip install -r requirements.txt
 
@@ -45,17 +55,27 @@ jobs:
           MODE="${{ github.event.inputs.crawl_mode || 'daily' }}"
           python scripts/crawl_v2.py --mode "$MODE"
 
-      - name: 可选预处理（搜索索引 / 产品库 / 矩阵）
+      - name: 可选预处理（搜索索引 / 产品库 / 矩阵 / 信源标签）
         run: |
-          for script in build_search_index build_products build_matrix; do
+          for script in build_search_index build_products build_matrix tag_source_layer; do
             if [ -f "scripts/${script}.py" ]; then
               echo "Running scripts/${script}.py"
               python "scripts/${script}.py"
             fi
           done
 
-      - name: 生成静态站点
-        run: python scripts/build_site.py
+      - name: 可选 OCR 合并（手动触发 workflow 时）
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.run_merge_ocr == 'true'
+        run: python scripts/merge_ocr.py --all
+
+      - name: 同步前端数据并构建站点
+        run: |
+          python scripts/prepare_web_data.py
+          cd web
+          npm install
+          npm run build
+          cd ..
+          cp web/public/.nojekyll site/.nojekyll 2>/dev/null || true
 
       - name: 上传 Pages 产物
         uses: actions/upload-pages-artifact@v3

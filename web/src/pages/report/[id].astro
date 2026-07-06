@@ -1,0 +1,72 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import fs from "node:fs";
+import path from "node:path";
+
+export function getStaticPaths() {
+  const reportsDir = path.join(process.cwd(), "..", "data", "reports");
+  if (!fs.existsSync(reportsDir)) return [];
+  return fs
+    .readdirSync(reportsDir)
+    .filter((f) => f.endsWith(".json"))
+    .map((file) => {
+      const report = JSON.parse(fs.readFileSync(path.join(reportsDir, file), "utf-8"));
+      return { params: { id: report.id }, props: { report } };
+    });
+}
+
+const { report } = Astro.props;
+const v = report.views || {};
+const cost = v.cost || {};
+const bom = (cost.bom_table || []).filter(
+  (r: { model?: string }) => (r.model || "").trim()
+);
+---
+
+<BaseLayout title={`${report.brand} ${report.model} 拆解`} activeNav="category">
+  <p class="text-sm">
+    <a href={`/category/${encodeURIComponent(report.category || "")}`} class="text-[var(--muted)]">
+      ← 返回 {report.category || "品类对比"}
+    </a>
+  </p>
+  <div class="rounded-2xl border border-[var(--line)] bg-white p-6 shadow-sm">
+    <h1 class="text-2xl font-bold">{report.brand} {report.model}</h1>
+    <p class="text-sm text-[var(--muted)]">
+      发布 {report.published_at} · 作者 {report.author || "未知"}
+    </p>
+    <p class="mt-3">{report.summary}</p>
+    <p class="mt-4">
+      <a href={report.url} target="_blank" rel="noopener" class="font-medium">
+        查看 52audio 原文 →
+      </a>
+    </p>
+  </div>
+
+  <h2 class="mt-8 text-lg font-bold">BOM 摘要（{bom.length} 项）</h2>
+  <div class="overflow-x-auto rounded-xl border border-[var(--line)] bg-white">
+    <table class="w-full text-sm">
+      <thead>
+        <tr class="bg-[#f8faff] text-left">
+          <th class="px-3 py-2">侧别</th>
+          <th class="px-3 py-2">部件</th>
+          <th class="px-3 py-2">型号</th>
+          <th class="px-3 py-2">角色</th>
+        </tr>
+      </thead>
+      <tbody>
+        {
+          bom.slice(0, 40).map(
+            (r: { side: string; component: string; model: string; role: string }) => (
+              <tr class="border-t border-[var(--line)]">
+                <td class="px-3 py-2">{r.side}</td>
+                <td class="px-3 py-2">{r.component}</td>
+                <td class="px-3 py-2">{r.model}</td>
+                <td class="px-3 py-2">{r.role}</td>
+              </tr>
+            )
+          )
+        }
+      </tbody>
+    </table>
+  </div>
+</BaseLayout>

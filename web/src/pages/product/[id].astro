@@ -1,0 +1,158 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import fs from "node:fs";
+import path from "node:path";
+
+export function getStaticPaths() {
+  const productsDir = path.join(process.cwd(), "public", "data", "products");
+  const files = fs.readdirSync(productsDir).filter((f) => f.endsWith(".json") && f !== "index.json");
+  return files.map((file) => {
+    const product = JSON.parse(fs.readFileSync(path.join(productsDir, file), "utf-8"));
+    return { params: { id: product.canonical_id }, props: { product } };
+  });
+}
+
+const { product } = Astro.props;
+const snap = product.cost_snapshot || {};
+const bom = (product.bom_table || []).filter(
+  (r: { model?: string; component?: string }) => (r.model || "").trim() || (r.component || "").trim()
+);
+
+const caseRows = bom.filter((r: { side?: string }) => r.side === "充电盒");
+const earRows = bom.filter((r: { side?: string }) => r.side === "耳机");
+
+const priceTxt =
+  snap.price_cny != null
+    ? `¥${snap.price_cny}${snap.price_layer === "channel" ? " (渠道)" : ""}`
+    : "待补充";
+---
+
+<BaseLayout title={`${product.brand} ${product.model}`} activeNav="category">
+  <div class="mb-4 text-sm">
+    <a href={`/category/${encodeURIComponent(product.category)}`} class="text-[var(--muted)]">
+      ← 返回 {product.category} 对比
+    </a>
+  </div>
+
+  <div class="rounded-2xl border border-[var(--line)] bg-white p-6 shadow-sm">
+    <span class="rounded-full bg-[#eef3ff] px-2 py-0.5 text-xs font-semibold text-[var(--primary-dark)]">
+      {product.category}
+    </span>
+    <h1 class="mt-2 text-2xl font-bold">{product.brand} {product.model}</h1>
+    <p class="text-sm text-[var(--muted)]">
+      成本完整度 {Math.round((snap.data_completeness || 0) * 100)}%
+      {snap.channel_url && (
+        <>
+          {" "}
+          · <a href={snap.channel_url} target="_blank" rel="noopener">渠道页</a>
+        </>
+      )}
+    </p>
+  </div>
+
+  <div class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
+    {
+      [
+        ["主控芯片", snap.main_chip],
+        ["PMIC", snap.pmic_case],
+        ["耳机电池", snap.battery_ear],
+        ["仓电池", snap.battery_case],
+        ["喇叭", snap.speaker],
+        ["材料", snap.materials],
+        ["重量", snap.weight_g],
+        ["售价", priceTxt],
+      ].map(([label, val]) => (
+        <div class="rounded-xl border border-[var(--line)] bg-white p-4">
+          <div class="text-xs text-[var(--muted)]">{label}</div>
+          <div class="mt-1 font-semibold">{val || "—"}</div>
+        </div>
+      ))
+    }
+  </div>
+
+  <h2 class="mt-8 text-lg font-bold">物料清单（BOM）</h2>
+  {caseRows.length > 0 && (
+    <>
+      <h3 class="text-sm font-semibold text-[var(--muted)]">充电盒</h3>
+      <div class="overflow-x-auto rounded-xl border border-[var(--line)] bg-white">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-[#f8faff] text-left">
+              <th class="px-3 py-2">部件</th>
+              <th class="px-3 py-2">厂商</th>
+              <th class="px-3 py-2">型号</th>
+              <th class="px-3 py-2">角色</th>
+            </tr>
+          </thead>
+          <tbody>
+            {caseRows.map((r: { component: string; brand: string; model: string; role: string }) => (
+              <tr class="border-t border-[var(--line)]">
+                <td class="px-3 py-2">{r.component}</td>
+                <td class="px-3 py-2">{r.brand}</td>
+                <td class="px-3 py-2">{r.model}</td>
+                <td class="px-3 py-2">{r.role}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </>
+  )}
+  {earRows.length > 0 && (
+    <>
+      <h3 class="mt-4 text-sm font-semibold text-[var(--muted)]">耳机</h3>
+      <div class="overflow-x-auto rounded-xl border border-[var(--line)] bg-white">
+        <table class="w-full text-sm">
+          <thead>
+            <tr class="bg-[#f8faff] text-left">
+              <th class="px-3 py-2">部件</th>
+              <th class="px-3 py-2">厂商</th>
+              <th class="px-3 py-2">型号</th>
+              <th class="px-3 py-2">角色</th>
+            </tr>
+          </thead>
+          <tbody>
+            {earRows.map((r: { component: string; brand: string; model: string; role: string }) => (
+              <tr class="border-t border-[var(--line)]">
+                <td class="px-3 py-2">{r.component}</td>
+                <td class="px-3 py-2">{r.brand}</td>
+                <td class="px-3 py-2">{r.model}</td>
+                <td class="px-3 py-2">{r.role}</td>
+              </tr>
+            ))}
+          </tbody>
+        </table>
+      </div>
+    </>
+  )}
+
+  {
+    (product.summary_image_urls || []).length > 0 && (
+      <div class="mt-6 flex flex-wrap gap-3">
+        {product.summary_image_urls.map((img: { url: string; alt?: string }) => (
+          <a href={img.url} target="_blank" rel="noopener">
+            <img
+              src={img.url}
+              alt={img.alt || "物料图"}
+              class="max-h-40 rounded-lg border border-[var(--line)]"
+              loading="lazy"
+            />
+          </a>
+        ))}
+      </div>
+    )
+  }
+
+  <div class="mt-8 text-sm">
+    <h2 class="text-lg font-bold">关联情报</h2>
+    <ul class="list-disc pl-5 text-[var(--muted)]">
+      {
+        (product.report_ids || []).map((rid: string) => (
+          <li>
+            <a href={`/report/${rid}`}>拆解报告 {rid}</a>
+          </li>
+        ))
+      }
+    </ul>
+  </div>
+</BaseLayout>

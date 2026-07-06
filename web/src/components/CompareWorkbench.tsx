@@ -1,0 +1,394 @@
+import { useCallback, useEffect, useMemo, useState } from "react";
+import type {
+  CompareData,
+  CompareProduct,
+  CompareProfiles,
+  ParamLabel,
+} from "../lib/types";
+import {
+  emptyHint,
+  productDisplayName,
+  profileForCategory,
+  sourceLabel,
+} from "../lib/types";
+
+const STORAGE_KEY = "cost-compare-selection-v5";
+
+interface Props {
+  category: string;
+  compareData: CompareData;
+  profiles: CompareProfiles;
+  allCategories: { name: string; slug: string }[];
+}
+
+function loadStored(category: string): string[] {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    if (!raw) return [];
+    const map = JSON.parse(raw) as Record<string, string[]>;
+    return map[category] || [];
+  } catch {
+    return [];
+  }
+}
+
+function saveStored(category: string, ids: string[]) {
+  try {
+    const raw = localStorage.getItem(STORAGE_KEY);
+    const map = raw ? (JSON.parse(raw) as Record<string, string[]>) : {};
+    map[category] = ids;
+    localStorage.setItem(STORAGE_KEY, JSON.stringify(map));
+  } catch {
+    /* ignore */
+  }
+}
+
+function defaultSelection(products: CompareProduct[]): string[] {
+  const scored = [...products].sort((a, b) => {
+    const aFilled = Object.values(a.cells).filter((c) => !emptyHint(c.value)).length;
+    const bFilled = Object.values(b.cells).filter((c) => !emptyHint(c.value)).length;
+    return bFilled - aFilled;
+  });
+  return scored.slice(0, 4).map((p) => p.canonical_id);
+}
+
+export default function CompareWorkbench({
+  category,
+  compareData,
+  profiles,
+  allCategories,
+}: Props) {
+  const { p0, p1 } = profileForCategory(profiles, category);
+  const [showP1, setShowP1] = useState(false);
+  const [search, setSearch] = useState("");
+  const [brandFilter, setBrandFilter] = useState<string>("");
+  const [onlyWithReport, setOnlyWithReport] = useState(false);
+  const [selected, setSelected] = useState<string[]>([]);
+  const [drawer, setDrawer] = useState<{
+    product: CompareProduct;
+    param: string;
+    label: string;
+  } | null>(null);
+
+  const paramRows = useMemo(() => (showP1 ? [...p0, ...p1] : p0), [showP1, p0, p1]);
+
+  const brands = useMemo(() => {
+    const set = new Set<string>();
+    compareData.products.forEach((p) => {
+      const b = (p.brand || "").trim() || "未知品牌";
+      set.add(b);
+    });
+    return Array.from(set).sort((a, b) => a.localeCompare(b, "zh-CN"));
+  }, [compareData.products]);
+
+  const filteredPool = useMemo(() => {
+    return compareData.products.filter((p) => {
+      const name = productDisplayName(p).toLowerCase();
+      const q = search.trim().toLowerCase();
+      if (q && !name.includes(q) && !p.canonical_id.includes(q)) return false;
+      if (brandFilter && ((p.brand || "").trim() || "未知品牌") !== brandFilter) return false;
+      if (onlyWithReport && !p.best_report_id) return false;
+      return true;
+    });
+  }, [compareData.products, search, brandFilter, onlyWithReport]);
+
+  const selectedProducts = useMemo(
+    () => compareData.products.filter((p) => selected.includes(p.canonical_id)),
+    [compareData.products, selected]
+  );
+
+  // init selection from URL or localStorage
+  useEffect(() => {
+    const params = new URLSearchParams(window.location.search);
+    const fromUrl = params.get("ids");
+    let ids: string[] = [];
+    if (fromUrl) {
+      ids = fromUrl.split(",").filter((id) => compareData.products.some((p) => p.canonical_id === id));
+    }
+    if (!ids.length) ids = loadStored(category);
+    if (!ids.length) ids = defaultSelection(compareData.products);
+    setSelected(ids);
+  }, [category, compareData.products]);
+
+  const syncUrl = useCallback(
+    (ids: string[]) => {
+      const url = new URL(window.location.href);
+      if (ids.length) url.searchParams.set("ids", ids.join(","));
+      else url.searchParams.delete("ids");
+      window.history.replaceState({}, "", url.toString());
+      saveStored(category, ids);
+    },
+    [category]
+  );
+
+  const toggleProduct = (id: string) => {
+    setSelected((prev) => {
+      const next = prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id];
+      syncUrl(next);
+      return next;
+    });
+  };
+
+  const clearSelection = () => {
+    setSelected([]);
+    syncUrl([]);
+  };
+
+  const selectAllFiltered = () => {
+    const ids = filteredPool.map((p) => p.canonical_id);
+    setSelected(ids);
+    syncUrl(ids);
+  };
+
+  const labelFor = (key: string): ParamLabel =>
+    profiles.param_labels[key] || { label: key };
+
+  return (
+    <div className="space-y-5">
+      {/* 品类切换 */}
+      <div className="flex flex-wrap items-center gap-2">
+        <span className="text-sm text-[var(--muted)]">品类</span>
+        {allCategories.map((c) => (
+          <a
+            key={c.slug}
+            href={`/category/${encodeURIComponent(c.name)}`}
+            className={`rounded-full border px-3 py-1 text-sm no-underline hover:no-underline ${
+              c.name === category
+                ? "border-[var(--primary)] bg-[#eef3ff] text-[var(--primary-dark)] font-semibold"
+                : "border-[var(--line)] bg-white text-[var(--muted)]"
+            }`}
+          >
+            {c.name}
+          </a>
+        ))}
+      </div>
+
+      <div className="rounded-2xl border border-[var(--line)] bg-white p-5 shadow-sm">
+        <h1 className="m-0 text-2xl font-bold">{category}</h1>
+        <p className="mt-1 text-sm text-[var(--muted)]">
+          共 {compareData.products.length} 款产品 · 已选 {selectedProducts.length} 款参与对比
+        </p>
+
+        {/* 筛选栏 */}
+        <div className="mt-4 flex flex-wrap gap-3">
+          <input
+            type="search"
+            placeholder="搜索品牌 / 型号…"
+            value={search}
+            onChange={(e) => setSearch(e.target.value)}
+            className="min-w-[200px] flex-1 rounded-xl border border-[var(--line)] px-3 py-2 text-sm outline-none focus:border-[var(--primary)]"
+          />
+          <select
+            value={brandFilter}
+            onChange={(e) => setBrandFilter(e.target.value)}
+            className="rounded-xl border border-[var(--line)] px-3 py-2 text-sm"
+          >
+            <option value="">全部品牌</option>
+            {brands.map((b) => (
+              <option key={b} value={b}>
+                {b}
+              </option>
+            ))}
+          </select>
+          <label className="flex items-center gap-2 text-sm text-[var(--muted)]">
+            <input
+              type="checkbox"
+              checked={onlyWithReport}
+              onChange={(e) => setOnlyWithReport(e.target.checked)}
+            />
+            仅有拆解报告
+          </label>
+          <button
+            type="button"
+            onClick={() => setShowP1((v) => !v)}
+            className="rounded-xl border border-[var(--line)] bg-white px-3 py-2 text-sm hover:bg-[#f8faff]"
+          >
+            {showP1 ? "收起扩展参数" : "展开扩展参数"}
+          </button>
+        </div>
+
+        {/* 已选 chips */}
+        <div className="mt-4 flex flex-wrap items-center gap-2">
+          <span className="text-sm font-medium text-[var(--muted)]">已选对比</span>
+          {selectedProducts.length === 0 && (
+            <span className="text-sm text-[var(--warn)]">请在下方的列表中勾选产品</span>
+          )}
+          {selectedProducts.map((p) => (
+            <button
+              key={p.canonical_id}
+              type="button"
+              onClick={() => toggleProduct(p.canonical_id)}
+              className="rounded-full bg-[#eef3ff] px-3 py-1 text-sm text-[var(--primary-dark)] hover:bg-[#dce6ff]"
+            >
+              {productDisplayName(p)} ×
+            </button>
+          ))}
+          <button
+            type="button"
+            onClick={clearSelection}
+            className="text-sm text-[var(--muted)] underline"
+          >
+            清空
+          </button>
+          <button
+            type="button"
+            onClick={selectAllFiltered}
+            className="text-sm text-[var(--primary)] underline"
+          >
+            全选当前筛选结果
+          </button>
+        </div>
+
+        {/* 产品勾选列表 */}
+        <details className="mt-4 rounded-xl border border-[var(--line)] bg-[#fafbff] p-3" open>
+          <summary className="cursor-pointer text-sm font-semibold text-[var(--text)]">
+            选择要对比的产品（{filteredPool.length} 款可选）
+          </summary>
+          <div className="mt-3 max-h-48 overflow-y-auto grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-2">
+            {filteredPool.map((p) => (
+              <label
+                key={p.canonical_id}
+                className="flex cursor-pointer items-start gap-2 rounded-lg border border-transparent bg-white px-2 py-1.5 text-sm hover:border-[var(--line)]"
+              >
+                <input
+                  type="checkbox"
+                  checked={selected.includes(p.canonical_id)}
+                  onChange={() => toggleProduct(p.canonical_id)}
+                  className="mt-0.5"
+                />
+                <span>
+                  <span className="font-medium">{productDisplayName(p)}</span>
+                  {!p.best_report_id && (
+                    <span className="ml-1 text-xs text-[var(--warn)]">无报告</span>
+                  )}
+                </span>
+              </label>
+            ))}
+          </div>
+        </details>
+      </div>
+
+      {/* 对比表 */}
+      {selectedProducts.length > 0 ? (
+        <div className="overflow-x-auto rounded-2xl border border-[var(--line)] bg-white shadow-sm">
+          <table className="w-full min-w-[640px] border-collapse text-sm">
+            <thead>
+              <tr className="bg-[#f8faff]">
+                <th className="sticky left-0 z-10 min-w-[120px] border-b border-[var(--line)] bg-[#f8faff] px-4 py-3 text-left font-semibold">
+                  参数
+                </th>
+                {selectedProducts.map((p) => (
+                  <th
+                    key={p.canonical_id}
+                    className="min-w-[140px] border-b border-[var(--line)] px-4 py-3 text-left font-semibold"
+                  >
+                    <a
+                      href={`/product/${p.canonical_id}`}
+                      className="text-[var(--primary-dark)] no-underline hover:underline"
+                    >
+                      {productDisplayName(p)}
+                    </a>
+                  </th>
+                ))}
+              </tr>
+            </thead>
+            <tbody>
+              {paramRows.map((param) => {
+                const meta = labelFor(param);
+                return (
+                  <tr key={param} className="hover:bg-[#fafbff]">
+                    <td
+                      className="sticky left-0 z-10 border-b border-[var(--line)] bg-white px-4 py-3 font-medium text-[var(--muted)]"
+                      title={meta.why}
+                    >
+                      {meta.label}
+                    </td>
+                    {selectedProducts.map((p) => {
+                      const cell = p.cells[param] || { value: "", evidence: "", source_layer: "" };
+                      const missing = emptyHint(cell.value);
+                      return (
+                        <td
+                          key={p.canonical_id + param}
+                          className="border-b border-[var(--line)] px-4 py-3 align-top"
+                        >
+                          {missing ? (
+                            <span className="rounded-full bg-[#fff6ed] px-2 py-0.5 text-xs text-[var(--warn)]">
+                              待补充
+                            </span>
+                          ) : (
+                            <button
+                              type="button"
+                              onClick={() =>
+                                setDrawer({ product: p, param, label: meta.label })
+                              }
+                              className="group text-left"
+                            >
+                              <span className="font-medium text-[var(--text)] group-hover:text-[var(--primary)]">
+                                {cell.value}
+                              </span>
+                              {cell.source_layer && (
+                                <span className="ml-1 text-xs text-[var(--muted)]">
+                                  [{sourceLabel(cell.source_layer)}]
+                                </span>
+                              )}
+                            </button>
+                          )}
+                        </td>
+                      );
+                    })}
+                  </tr>
+                );
+              })}
+            </tbody>
+          </table>
+        </div>
+      ) : (
+        <div className="rounded-2xl border border-dashed border-[var(--line)] bg-white p-10 text-center text-[var(--muted)]">
+          请在上方勾选至少一款产品，对比表将只显示您选择的产品列。
+        </div>
+      )}
+
+      {/* 证据抽屉 */}
+      {drawer && (
+        <div
+          className="fixed inset-0 z-[100] flex justify-end bg-black/30"
+          onClick={() => setDrawer(null)}
+          role="presentation"
+        >
+          <div
+            className="h-full w-full max-w-md overflow-y-auto bg-white p-6 shadow-xl"
+            onClick={(e) => e.stopPropagation()}
+          >
+            <button
+              type="button"
+              className="mb-4 text-sm text-[var(--muted)]"
+              onClick={() => setDrawer(null)}
+            >
+              ← 关闭
+            </button>
+            <h2 className="text-lg font-bold">{drawer.label}</h2>
+            <p className="text-sm text-[var(--muted)]">{productDisplayName(drawer.product)}</p>
+            <p className="mt-4 text-2xl font-semibold text-[var(--primary-dark)]">
+              {drawer.product.cells[drawer.param]?.value || "—"}
+            </p>
+            <p className="mt-2 text-xs text-[var(--muted)]">
+              来源：
+              {sourceLabel(drawer.product.cells[drawer.param]?.source_layer || "technical")}
+            </p>
+            {drawer.product.cells[drawer.param]?.evidence && (
+              <blockquote className="mt-4 rounded-xl bg-[#f6f7fb] p-4 text-sm leading-relaxed text-[var(--muted)]">
+                {drawer.product.cells[drawer.param].evidence}
+              </blockquote>
+            )}
+            <div className="mt-6 flex flex-col gap-2 text-sm">
+              <a href={`/product/${drawer.product.canonical_id}`}>查看产品成本档案 →</a>
+              {drawer.product.best_report_id && (
+                <a href={`/report/${drawer.product.best_report_id}`}>查看拆解报告 →</a>
+              )}
+            </div>
+          </div>
+        </div>
+      )}
+    </div>
+  );
+}

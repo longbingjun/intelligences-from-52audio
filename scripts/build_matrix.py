@@ -1,4 +1,4 @@
-"""按品类生成竞品矩阵 JSON，供前端矩阵页使用。"""
+"""按品类生成成本工程师优先的竞品矩阵 JSON 与同品类对比 JSON。"""
 
 from __future__ import annotations
 
@@ -12,103 +12,46 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
+from core.cost_extract import extract_cost_fields  # noqa: E402
 from core.ingest import load_all_records, merge_price_into_record  # noqa: E402
-from core.products import canonical_product_id, guess_brand_from_text, normalize_brand, normalize_model  # noqa: E402
-from sources.audio52.lexicon import SELLING_POINT_KEYWORDS  # noqa: E402
+from core.products import canonical_product_id, load_channel_enrich, normalize_brand, normalize_model  # noqa: E402
 
 MATRIX_DIR = ROOT / "data" / "matrix"
+COMPARE_DIR = ROOT / "data" / "compare"
 PRODUCTS_DIR = ROOT / "data" / "products"
 
-MATRIX_FIELDS = ("price_cny", "launch_date", "codecs", "bluetooth", "major_chips", "selling_point_tags")
+# V4 成本工程师矩阵列
+COST_MATRIX_COLUMNS = [
+    "brand",
+    "model",
+    "price_cny",
+    "main_chip",
+    "pmic",
+    "battery_ear",
+    "battery_case",
+    "speaker",
+    "materials",
+    "weight_g",
+    "ip_rating",
+    "bluetooth",
+    "bom_rows",
+    "layer_badges",
+    "data_completeness",
+]
 
-
-def _record_identity(record: dict) -> tuple[str, str, str]:
-    brand = normalize_brand(record.get("brand") or record.get("views", {}).get("market", {}).get("brand", ""))
-    model = record.get("model") or record.get("views", {}).get("market", {}).get("model", "")
-    title = record.get("title") or record.get("product_title", "")
-    if not brand:
-        brand = guess_brand_from_text(title) or guess_brand_from_text(model)
-    model = normalize_model(model, brand)
-    category = (
-        record.get("category")
-        or record.get("views", {}).get("market", {}).get("category")
-        or "其他音频设备"
-    )
-    return brand, model, category
-
-
-def _selling_point_texts(selling_points: list) -> list[str]:
-    texts = []
-    for sp in selling_points:
-        if isinstance(sp, str):
-            texts.append(sp)
-        elif isinstance(sp, dict):
-            texts.append(sp.get("text", "") or "")
-            if sp.get("tag"):
-                texts.append(str(sp["tag"]))
-    return [t for t in texts if t]
-
-
-def _extract_selling_point_tags(selling_points: list) -> list[str]:
-    tags = []
-    for sp in selling_points:
-        if isinstance(sp, dict) and sp.get("tag"):
-            tags.append(sp["tag"])
-    text = " ".join(_selling_point_texts(selling_points))
-    for kw in SELLING_POINT_KEYWORDS:
-        if kw in text and kw not in tags:
-            tags.append(kw)
-    return tags[:12]
-
-
-def _merge_views(target: dict, record: dict) -> None:
-    views = record.get("views", {})
-    market = views.get("market", {})
-    software = views.get("software", {})
-    cost = views.get("cost", {})
-
-    if market.get("price_cny") is not None and target["price_cny"] is None:
-        target["price_cny"] = market["price_cny"]
-    if market.get("launch_date") and not target["launch_date"]:
-        target["launch_date"] = market["launch_date"]
-    if not target["launch_date"] and record.get("published_at"):
-        target["launch_date"] = record["published_at"]
-
-    for codec in software.get("codecs", []):
-        if codec and codec not in target["codecs"]:
-            target["codecs"].append(codec)
-
-    bt = software.get("bluetooth_version")
-    if bt and not target["bluetooth"]:
-        target["bluetooth"] = bt
-
-    for chip in cost.get("chip_modules", []):
-        model_name = chip.get("model") or chip.get("part", "")
-        if model_name and model_name not in target["major_chips"]:
-            target["major_chips"].append(model_name)
-
-    tags = _extract_selling_point_tags(market.get("selling_points", []))
-    for t in tags:
-        if t not in target["selling_point_tags"]:
-            target["selling_point_tags"].append(t)
-
-    dc = record.get("data_completeness")
-    if dc is not None:
-        target["data_completeness"] = max(target.get("data_completeness") or 0, float(dc))
-
-
-def _completeness(row: dict) -> float:
-    filled = 0
-    for field in MATRIX_FIELDS:
-        val = row.get(field)
-        if val is None:
-            continue
-        if isinstance(val, list) and not val:
-            continue
-        if isinstance(val, str) and not val.strip():
-            continue
-        filled += 1
-    return round(filled / len(MATRIX_FIELDS), 2)
+COMPARE_PARAM_ROWS = [
+    "price_cny",
+    "main_chip",
+    "pmic",
+    "battery_ear",
+    "battery_case",
+    "speaker",
+    "materials",
+    "weight_g",
+    "ip_rating",
+    "bluetooth",
+    "bom_rows",
+]
 
 
 def _category_filename(category: str) -> str:
@@ -116,81 +59,85 @@ def _category_filename(category: str) -> str:
     return f"{safe}.json"
 
 
+def _layer_badges(layer_refs: dict) -> str:
+    badges = []
+    for layer, refs in (layer_refs or {}).items():
+        if refs:
+            badges.append(layer)
+    return "、".join(badges)
+
+
+def _price_display(price: float | None, layer: str | None) -> str:
+    if price is None:
+        return ""
+    txt = f"¥{price}"
+    if layer == "channel":
+        return f"{txt} (渠道)"
+    return txt
+
+
 def build_matrix() -> dict:
     MATRIX_DIR.mkdir(parents=True, exist_ok=True)
+    COMPARE_DIR.mkdir(parents=True, exist_ok=True)
 
-    # canonical_id -> merged row data
-    rows_by_id: dict[str, dict] = {}
-    category_map: dict[str, str] = {}
-
-    if PRODUCTS_DIR.exists():
-        for path in PRODUCTS_DIR.glob("*.json"):
-            if path.name == "index.json":
-                continue
-            try:
-                product = json.loads(path.read_text(encoding="utf-8"))
-            except Exception:
-                continue
-            cid = product["canonical_id"]
-            category_map[cid] = product.get("category", "其他音频设备")
-            rows_by_id[cid] = {
-                "canonical_id": cid,
-                "brand": product.get("brand", ""),
-                "model": product.get("model", ""),
-                "price_cny": None,
-                "launch_date": None,
-                "codecs": [],
-                "bluetooth": None,
-                "major_chips": [],
-                "selling_point_tags": [],
-                "sources": [],
-                "has_report": False,
-                "has_video": False,
-                "source": "video",
-            }
-
-    for kind in ("report", "video"):
-        for record in load_all_records(kind):
-            if kind == "report":
-                record = merge_price_into_record(record)
-            brand, model, category = _record_identity(record)
-            cid = canonical_product_id(brand, model)
-            if cid not in rows_by_id:
-                rows_by_id[cid] = {
-                    "canonical_id": cid,
-                    "brand": brand,
-                    "model": model,
-                    "price_cny": None,
-                    "launch_date": None,
-                    "codecs": [],
-                    "bluetooth": None,
-                    "major_chips": [],
-                    "selling_point_tags": [],
-                    "sources": [],
-                    "has_report": False,
-                    "has_video": False,
-                    "source": "video",
-                }
-                category_map[cid] = category
-            # 报告数据优先；视频只在尚未有报告时填充字段
-            if kind == "report" or not rows_by_id[cid].get("_has_report"):
-                _merge_views(rows_by_id[cid], record)
-                if kind == "report":
-                    rows_by_id[cid]["_has_report"] = True
-                    rows_by_id[cid]["has_report"] = True
-            if kind == "video":
-                rows_by_id[cid]["has_video"] = True
-            src_kind = "report" if kind == "report" else "video"
-            if src_kind not in rows_by_id[cid]["sources"]:
-                rows_by_id[cid]["sources"].append(src_kind)
+    if not PRODUCTS_DIR.exists():
+        return {"matrices": 0, "files": []}
 
     by_category: dict[str, list[dict]] = defaultdict(list)
-    for cid, row in rows_by_id.items():
-        row.pop("_has_report", None)
-        # 主 source：有报告则记 report，否则 video（完整度低）
-        row["source"] = "report" if row.get("has_report") else "video"
-        row["data_completeness"] = _completeness(row)
-        by_category[category_map.get(cid, "其他音频设备")].append(row)
+
+    for path in sorted(PRODUCTS_DIR.glob("*.json")):
+        if path.name == "index.json":
+            continue
+        try:
+            product = json.loads(path.read_text(encoding="utf-8"))
+        except Exception:
+            continue
+
+        cid = product["canonical_id"]
+        snap = product.get("cost_snapshot") or {}
+        fields = {}
+        best_rid = snap.get("best_report_id")
+        if best_rid:
+            report_path = ROOT / "data" / "reports" / f"{best_rid}.json"
+            if report_path.exists():
+                try:
+                    report = json.loads(report_path.read_text(encoding="utf-8"))
+                    report = merge_price_into_record(report)
+                    fields = extract_cost_fields(report.get("views") or {})
+                except Exception:
+                    pass
+
+        channel = load_channel_enrich(cid)
+        price = snap.get("price_cny")
+        price_layer = snap.get("price_layer")
+        if channel and channel.get("price_cny") is not None:
+            price = channel["price_cny"]
+            price_layer = "channel"
+
+        row = {
+            "canonical_id": cid,
+            "brand": product.get("brand", ""),
+            "model": product.get("model", ""),
+            "price_cny": price,
+            "price_layer": price_layer,
+            "main_chip": snap.get("main_chip") or (fields.get("main_chip") or {}).get("value"),
+            "pmic": snap.get("pmic_case") or (fields.get("pmic") or {}).get("value"),
+            "battery_ear": snap.get("battery_ear") or (fields.get("battery_ear") or {}).get("value"),
+            "battery_case": snap.get("battery_case") or (fields.get("battery_case") or {}).get("value"),
+            "speaker": snap.get("speaker") or (fields.get("speaker") or {}).get("value"),
+            "materials": snap.get("materials") or (fields.get("materials") or {}).get("value"),
+            "weight_g": snap.get("weight_g") or (fields.get("weight_g") or {}).get("value"),
+            "ip_rating": snap.get("ip_rating") or (fields.get("ip_rating") or {}).get("value"),
+            "bluetooth": snap.get("bluetooth") or (fields.get("bluetooth") or {}).get("value"),
+            "bom_rows": snap.get("bom_row_count") or len(product.get("bom_table") or []),
+            "layer_badges": _layer_badges(product.get("layer_refs")),
+            "data_completeness": snap.get("data_completeness"),
+            "best_report_id": best_rid,
+            "has_report": bool(product.get("report_ids")),
+            "has_video": bool(product.get("video_ids")),
+            "cost_fields": fields,
+        }
+        by_category[product.get("category", "其他音频设备")].append(row)
 
     written = []
     for category, rows in sorted(by_category.items()):
@@ -198,12 +145,61 @@ def build_matrix() -> dict:
         payload = {
             "category": category,
             "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
-            "columns": list(MATRIX_FIELDS) + ["data_completeness", "source"],
+            "default_role": "cost",
+            "columns": COST_MATRIX_COLUMNS,
             "rows": rows,
         }
         out_path = MATRIX_DIR / _category_filename(category)
         out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
         written.append({"category": category, "rows": len(rows), "path": str(out_path)})
+
+        # 对比 JSON：行=参数，列=产品
+        compare_cols = []
+        compare_rows = []
+        for row in rows:
+            cells = {}
+            for param in COMPARE_PARAM_ROWS:
+                val = row.get(param)
+                if param == "price_cny":
+                    display = _price_display(val, row.get("price_layer"))
+                elif param == "bom_rows":
+                    display = str(val) if val is not None else ""
+                else:
+                    display = str(val) if val else ""
+                field_ev = (row.get("cost_fields") or {}).get(param, {})
+                cells[param] = {
+                    "value": display,
+                    "evidence": field_ev.get("evidence", "") if isinstance(field_ev, dict) else "",
+                    "source_layer": field_ev.get("source_layer", "technical") if isinstance(field_ev, dict) else "technical",
+                }
+            compare_cols.append(
+                {
+                    "canonical_id": row["canonical_id"],
+                    "brand": row.get("brand"),
+                    "model": row.get("model"),
+                    "best_report_id": row.get("best_report_id"),
+                    "cells": cells,
+                }
+            )
+
+        for param in COMPARE_PARAM_ROWS:
+            compare_rows.append(
+                {
+                    "param": param,
+                    "cells": {c["canonical_id"]: c["cells"].get(param, {}) for c in compare_cols},
+                }
+            )
+
+        compare_payload = {
+            "category": category,
+            "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
+            "default_role": "cost",
+            "param_rows": COMPARE_PARAM_ROWS,
+            "products": compare_cols,
+            "rows": compare_rows,
+        }
+        compare_path = COMPARE_DIR / _category_filename(category)
+        compare_path.write_text(json.dumps(compare_payload, ensure_ascii=False, indent=2), encoding="utf-8")
 
     return {"matrices": len(written), "files": written}
 

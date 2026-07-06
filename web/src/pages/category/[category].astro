@@ -1,0 +1,41 @@
+---
+import BaseLayout from "../../layouts/BaseLayout.astro";
+import CompareWorkbench from "../../components/CompareWorkbench";
+import fs from "node:fs";
+import path from "node:path";
+
+export function getStaticPaths() {
+  const dataDir = path.join(process.cwd(), "public", "data");
+  const manifest = JSON.parse(
+    fs.readFileSync(path.join(dataDir, "categories.json"), "utf-8")
+  );
+  const categories = manifest.categories as { name: string; file: string }[];
+
+  return categories.map((c) => {
+    const comparePath = path.join(dataDir, "compare", c.file);
+    const compareData = JSON.parse(fs.readFileSync(comparePath, "utf-8"));
+    return {
+      params: { category: c.name },
+      props: { compareData, categoryName: c.name, allCategories: manifest.categories },
+    };
+  });
+}
+
+const { compareData, categoryName, allCategories } = Astro.props;
+const profiles = JSON.parse(
+  fs.readFileSync(path.join(process.cwd(), "public", "data", "compare_profiles.json"), "utf-8")
+);
+---
+
+<BaseLayout title={`${categoryName} 对比`} activeNav="category">
+  <CompareWorkbench
+    client:load
+    category={categoryName}
+    compareData={compareData}
+    profiles={profiles}
+    allCategories={allCategories.map((c: { name: string; slug: string }) => ({
+      name: c.name,
+      slug: c.slug,
+    }))}
+  />
+</BaseLayout>

@@ -1,15 +1,23 @@
 {
   "category": "真无线耳机TWS",
-  "generated_at": "2026-07-06T11:00:42+08:00",
+  "generated_at": "2026-07-06T12:16:15+08:00",
+  "default_role": "cost",
   "columns": [
+    "brand",
+    "model",
     "price_cny",
-    "launch_date",
-    "codecs",
+    "main_chip",
+    "pmic",
+    "battery_ear",
+    "battery_case",
+    "speaker",
+    "materials",
+    "weight_g",
+    "ip_rating",
     "bluetooth",
-    "major_chips",
-    "selling_point_tags",
-    "data_completeness",
-    "source"
+    "bom_rows",
+    "layer_badges",
+    "data_completeness"
   ],
   "rows": [
     {
@@ -17,1126 +25,2207 @@
       "brand": "",
       "model": "MARTUBE马克图布Hello Kitty带屏",
       "price_cny": null,
-      "launch_date": "2026-05-11",
-      "codecs": [],
+      "price_layer": null,
+      "main_chip": "AB5691",
+      "pmic": "",
+      "battery_ear": "3.7V/30mAh锂电池",
+      "battery_case": "3.7V/320mAh锂电池",
+      "speaker": "喇叭单元",
+      "materials": "硅胶",
+      "weight_g": "67.7g",
+      "ip_rating": "",
       "bluetooth": "6.0",
-      "major_chips": [
-        "AB5691",
-        "AB5636"
-      ],
-      "selling_point_tags": [
-        "降噪"
-      ],
-      "sources": [
-        "report"
-      ],
+      "bom_rows": 17,
+      "layer_badges": "technical",
+      "data_completeness": 0.83,
+      "best_report_id": "275493",
       "has_report": true,
       "has_video": false,
-      "source": "report",
-      "data_completeness": 0.67
+      "cost_fields": {
+        "main_chip": {
+          "value": "AB5691",
+          "evidence": "采用Bluetrum中科蓝讯AB5691F智能穿戴芯片和AXS爱协生AXS5106L自电容触控芯片，用于屏幕功能。",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "3.7V/30mAh锂电池",
+          "evidence": "耳机内部搭载了10mm动圈喇叭，单耳内置1颗聆麦声学MEMS麦克风拾音，采用3.7V/30mAh锂电池供电，采用Bluetrum中科蓝讯AB5636H蓝牙音频SoC，用于无线连接和音频数据处理。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "3.7V/320mAh锂电池",
+          "evidence": "充电盒搭载3.7V/320mAh锂电池组，内置动圈扬声器，采用了LPS微源半导体LP7812C电源管理芯片负责内置电池的充放电管理；",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "3.7V/30mAh锂电池",
+          "evidence": "耳机内部搭载了10mm动圈喇叭，单耳内置1颗聆麦声学MEMS麦克风拾音，采用3.7V/30mAh锂电池供电，采用Bluetrum中科蓝讯AB5636H蓝牙音频SoC，用于无线连接和音频数据处理。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "喇叭单元",
+          "evidence": "前腔内部结构一览，打胶固定扬声器单元。",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "随机标配的充电线，采用了USB-A to Type-C接口。",
+          "evidence": "随机标配的充电线，采用了USB-A to Type-C接口。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "17",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "打开包装盒，取出内部所有物品，包括了主机、耳塞、充电线和说明书。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "67.7g",
+          "evidence": "67.7g",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "真无线耳机TWS",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "入耳",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "6.0",
+          "evidence": "蓝牙6.0",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "6.0",
+          "evidence": "蓝牙6.0",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "320 mAh",
+          "evidence": "320mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "随机标配的充电线，采用了USB-A to Type-C接口。",
+          "evidence": "随机标配的充电线，采用了USB-A to Type-C接口。",
+          "source_layer": "technical"
+        }
+      }
     },
     {
       "canonical_id": "unknown--oppo-enco-air5-pro",
       "brand": "",
       "model": "OPPO Enco Air5 Pro",
       "price_cny": null,
-      "launch_date": "2026-05-11",
-      "codecs": [
-        {
-          "value": "LHDC",
-          "evidence": {
-            "value": "LHDC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "详细功能配置方面，\nOPPO Enco Air5 Pro真无线降噪耳机\n搭载12mm大振幅高动态动圈，支持LHDC 5.0高清音频传输协议，通过了QQ音乐臻品音质、酷狗蝰蛇高解析和Hi-Res AUDIO WIRELESS认证；升级10段式自定义EQ，提供个性化听感；支持全场景空间音效，带来更具沉浸感的环绕聆听体验；新增疗愈白噪音，不仅能够用于助眠，还可以提升专注力。"
-          }
-        },
-        {
-          "value": "LC3",
-          "evidence": {
-            "value": "LC3",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "主要包括兼容多协议：支持蓝牙BT/BLE6.0双模模式和蓝牙多连接；支持蓝牙广播Auracast（和经典蓝牙共存的音频分享）；支持LE Audio新技术标准和 LC3编解码器；射频性能优秀：发射功率最高到15dBm, 接收灵敏度到达-99dBm；高性能音频算法：支持自适应Hybrid ANC及各种上下行复杂音频算法；超低功耗水平：在复杂音频算法的同时，依然保持超低功耗；生态系统丰富：更大SRAM和FLASH空间，实现应用特性更广覆盖；平台开放，支持更多产品形态。"
-          }
-        },
-        {
-          "value": "Hi-Res",
-          "evidence": {
-            "value": "Hi-Res",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "详细功能配置方面，\nOPPO Enco Air5 Pro真无线降噪耳机\n搭载12mm大振幅高动态动圈，支持LHDC 5.0高清音频传输协议，通过了QQ音乐臻品音质、酷狗蝰蛇高解析和Hi-Res AUDIO WIRELESS认证；升级10段式自定义EQ，提供个性化听感；支持全场景空间音效，带来更具沉浸感的环绕聆听体验；新增疗愈白噪音，不仅能够用于助眠，还可以提升专注力。"
-          }
-        }
-      ],
+      "price_layer": null,
+      "main_chip": "思远半导体SY8702",
+      "pmic": "思远半导体 思远半导体SY8702",
+      "battery_ear": "电池",
+      "battery_case": "3.89V/530mAh锂电池",
+      "speaker": "钛振膜",
+      "materials": "硅胶",
+      "weight_g": "43.7g",
+      "ip_rating": "",
       "bluetooth": "6.0",
-      "major_chips": [
-        "思远半导体SY8702"
-      ],
-      "selling_point_tags": [
-        "降噪",
-        "其他",
-        "领先",
-        "旗舰",
-        "升级",
-        "高端",
-        "顶级",
-        "超长续航"
-      ],
-      "sources": [
-        "report"
-      ],
+      "bom_rows": 16,
+      "layer_badges": "technical",
+      "data_completeness": 1.0,
+      "best_report_id": "275411",
       "has_report": true,
       "has_video": false,
-      "source": "report",
-      "data_completeness": 0.83
+      "cost_fields": {
+        "main_chip": {
+          "value": "思远半导体SY8702",
+          "evidence": "丝印“02AT9”的思远半导体SY8702低侧过压保护（OVP）IC，采用SOT23-6封装，内部集成28mΩ开关NMOS，采用低压侧开关拓扑结构，极低导通电阻有效的减小输入压降，保护电压外部设置使应用更加灵活，提供最简单实用的低成本OVP解决方案。",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "思远半导体 思远半导体SY8702",
+          "evidence": "充电盒内部搭载VDL紫建电子3.89V/530mAh锂电池，采用了WINSEMI稳先微WSDY3302E锂电保护IC，思远半导体SY8702低侧过压保护（OVP）IC，ETA钰泰ETA9030V电源管理芯片，Cmsemicon中微半导体CMS8S5880单片机等方案。",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "电池",
+          "evidence": "沿合模线打开音腔，内部通过排线连接电池、扬声器和反馈麦克风。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "3.89V/530mAh锂电池",
+          "evidence": "充电盒内部搭载VDL紫建电子3.89V/530mAh锂电池，采用了WINSEMI稳先微WSDY3302E锂电保护IC，思远半导体SY8702低侧过压保护（OVP）IC，ETA钰泰ETA9030V电源管理芯片，Cmsemicon中微半导体CMS8S5880单片机等方案。",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "电池",
+          "evidence": "沿合模线打开音腔，内部通过排线连接电池、扬声器和反馈麦克风。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "钛振膜",
+          "evidence": "耳机搭载12mm镀钛振膜动圈单元，内置三颗MEMS麦克风拾音，采用VDL紫建电子62mAh软包扣式电池供电；",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "机身底部设置有Type-C充电接口和蓝牙配对功能按键。",
+          "evidence": "机身底部设置有Type-C充电接口和蓝牙配对功能按键。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "16",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "43.7g",
+          "evidence": "43.7g",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "真无线耳机TWS",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "入耳",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "6.0",
+          "evidence": "蓝牙6.0",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "6.0",
+          "evidence": "蓝牙6.0",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "LHDC、LC3、Hi-Res",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "530 mAh",
+          "evidence": "530mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "机身底部设置有Type-C充电接口和蓝牙配对功能按键。",
+          "evidence": "机身底部设置有Type-C充电接口和蓝牙配对功能按键。",
+          "source_layer": "technical"
+        }
+      }
     },
     {
       "canonical_id": "unknown--real-young-h700jws",
       "brand": "",
       "model": "REAL YOUNG H700真无线JWS智美",
       "price_cny": null,
-      "launch_date": "2026-04-28",
-      "codecs": [
-        {
-          "value": "aptX",
-          "evidence": {
-            "value": "aptX",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "在功能配置方面，\nREAL YOUNG H700真无线JWS智美耳机\n搭载圈铁双单元，搭配电子分频专利技术，提供低音澎湃、高音清澈、层次分明的音乐体验，通过Hi-Res Wireless AUDIO和QQ音乐臻品音质双认证；搭载高通QCC3091旗舰芯片，支持aptX Adaptive高清自适应解码，提供稳定、低延迟的无线连接；支持cVc8.0降噪技术，精准识别风噪和环境噪音，带来清晰通话效果。"
-          }
-        },
-        {
-          "value": "Hi-Res",
-          "evidence": {
-            "value": "Hi-Res",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "在功能配置方面，\nREAL YOUNG H700真无线JWS智美耳机\n搭载圈铁双单元，搭配电子分频专利技术，提供低音澎湃、高音清澈、层次分明的音乐体验，通过Hi-Res Wireless AUDIO和QQ音乐臻品音质双认证；搭载高通QCC3091旗舰芯片，支持aptX Adaptive高清自适应解码，提供稳定、低延迟的无线连接；支持cVc8.0降噪技术，精准识别风噪和环境噪音，带来清晰通话效果。"
-          }
-        }
-      ],
+      "price_layer": null,
+      "main_chip": "高通QCC3091",
+      "pmic": "",
+      "battery_ear": "3.85V/70mAh软包扣式",
+      "battery_case": "3.85V/605mAh锂电池",
+      "speaker": "双单元",
+      "materials": "硅胶、铝合金",
+      "weight_g": "156.1g",
+      "ip_rating": "IPX7",
       "bluetooth": "5.4",
-      "major_chips": [
-        "高通QCC3091",
-        "Qualcomm AI",
-        "高通TrueWireless",
-        "高通ANC",
-        "高通QCC30xx",
-        "QCC30"
-      ],
-      "selling_point_tags": [
-        "降噪",
-        "其他",
-        "旗舰定位",
-        "旗舰",
-        "创新",
-        "通话降噪"
-      ],
-      "sources": [
-        "report",
-        "video"
-      ],
+      "bom_rows": 21,
+      "layer_badges": "technical",
+      "data_completeness": 0.83,
+      "best_report_id": "274360",
       "has_report": true,
       "has_video": true,
-      "source": "report",
-      "data_completeness": 0.83
+      "cost_fields": {
+        "main_chip": {
+          "value": "高通QCC3091",
+          "evidence": "核心无线方案则选用高通QCC3091蓝牙音频SoC，提供稳定的无线连接与高效的音频数据处理。",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "3.85V/70mAh软包扣式",
+          "evidence": "耳机内置3.85V/70mAh大容量软包扣式电池，配备ICM创芯微CM1126B-WAC单节电池保护IC。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "3.85V/605mAh锂电池",
+          "evidence": "充电盒搭载了HT恒泰科技3.85V/605mAh锂电池，配备苏州赛芯电子科技股份XB5153M2S一体化锂电保护IC，负责电池的过充电、过放电、过电流等保护；",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "3.85V/70mAh软包扣式",
+          "evidence": "耳机内置3.85V/70mAh大容量软包扣式电池，配备ICM创芯微CM1126B-WAC单节电池保护IC。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "双单元",
+          "evidence": "发声单元采用12mm动圈+BELLSING倍声声学动铁双单元配置，单耳配备两颗MEMS麦克风；",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "随机标配的Type-C充电线。",
+          "evidence": "随机标配的Type-C充电线。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "21",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶、铝合金",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "IPX7",
+          "evidence": "IPX7",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "156.1g",
+          "evidence": "156.1g",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "真无线耳机TWS",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "入耳",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "5.4",
+          "evidence": "蓝牙5.4",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "5.4",
+          "evidence": "蓝牙5.4",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "aptX、Hi-Res",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "590 mAh",
+          "evidence": "590mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "随机标配的Type-C充电线。",
+          "evidence": "随机标配的Type-C充电线。",
+          "source_layer": "technical"
+        }
+      }
     },
     {
       "canonical_id": "unknown--soundpeatsair5-lite",
       "brand": "",
       "model": "SOUNDPEATS泥炭Air5 Lite",
       "price_cny": null,
-      "launch_date": "2026-01-14",
-      "codecs": [
-        {
-          "value": "LDAC",
-          "evidence": {
-            "value": "LDAC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "此次将要拆解的SOUNDPEATS泥炭Air5 Lite真无线耳机，是一款主打音质的半入耳式产品，其搭载进口碳纤维复合振膜单元，支持LDAC高清音频解码，支持96kHz/24bit传输速率，提供Hi-Res金标认证的高清音频体验。"
-          }
-        },
-        {
-          "value": "Hi-Res",
-          "evidence": {
-            "value": "Hi-Res",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "此次将要拆解的SOUNDPEATS泥炭Air5 Lite真无线耳机，是一款主打音质的半入耳式产品，其搭载进口碳纤维复合振膜单元，支持LDAC高清音频解码，支持96kHz/24bit传输速率，提供Hi-Res金标认证的高清音频体验。"
-          }
-        }
-      ],
+      "price_layer": null,
+      "main_chip": "Bluetrum中科蓝讯BT8932F",
+      "pmic": "Prisemi芯导 Prisemi芯导P14C1S",
+      "battery_ear": "微电新能源 3.7V/35mAh钢壳扣式",
+      "battery_case": "3.7V/400mAh锂电池",
+      "speaker": "振膜动圈",
+      "materials": "",
+      "weight_g": "44.3g",
+      "ip_rating": "",
       "bluetooth": "6.0",
-      "major_chips": [
-        "Prisemi芯导P14C1S",
-        "Bluetrum中科蓝讯BT8932F"
-      ],
-      "selling_point_tags": [
-        "降噪",
-        "音质认证",
-        "其他",
-        "认证",
-        "Hi-Res",
-        "空间音效",
-        "快充",
-        "沉浸式",
-        "臻品音质"
-      ],
-      "sources": [
-        "report",
-        "video"
-      ],
+      "bom_rows": 18,
+      "layer_badges": "technical",
+      "data_completeness": 1.0,
+      "best_report_id": "266169",
       "has_report": true,
       "has_video": true,
-      "source": "report",
-      "data_completeness": 0.83
+      "cost_fields": {
+        "main_chip": {
+          "value": "Bluetrum中科蓝讯BT8932F",
+          "evidence": "耳机内置MIC-POWER微电新能源3.7V/35mAh钢壳扣式电池，搭载13mm碳纤维复合振膜动圈单元和两颗敏芯微电子的MEMS，采用了Bluetrum中科蓝讯BT8932F蓝牙音频SoC，用于无线连接和音频数据处理等功能控制。",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "Prisemi芯导 Prisemi芯导P14C1S",
+          "evidence": "主板上，搭载了Prisemi芯导P14C1S过压过流保护IC，SinhMicro昇生微电子SSD101R2可编程低功耗BOOST，以及霍尔元件等方案。",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "微电新能源 3.7V/35mAh钢壳扣式",
+          "evidence": "耳机内置MIC-POWER微电新能源3.7V/35mAh钢壳扣式电池，搭载13mm碳纤维复合振膜动圈单元和两颗敏芯微电子的MEMS，采用了Bluetrum中科蓝讯BT8932F蓝牙音频SoC，用于无线连接和音频数据处理等功能控制。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "3.7V/400mAh锂电池",
+          "evidence": "充电盒搭载了ST神通天下3.7V/400mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护；",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "微电新能源 3.7V/35mAh钢壳扣式",
+          "evidence": "耳机内置MIC-POWER微电新能源3.7V/35mAh钢壳扣式电池，搭载13mm碳纤维复合振膜动圈单元和两颗敏芯微电子的MEMS，采用了Bluetrum中科蓝讯BT8932F蓝牙音频SoC，用于无线连接和音频数据处理等功能控制。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "振膜动圈",
+          "evidence": "耳机内置MIC-POWER微电新能源3.7V/35mAh钢壳扣式电池，搭载13mm碳纤维复合振膜动圈单元和两颗敏芯微电子的MEMS，采用了Bluetrum中科蓝讯BT8932F蓝牙音频SoC，用于无线连接和音频数据处理等功能控制。",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "随机标配的充电线，采用了USB-A to Type-C接口。",
+          "evidence": "随机标配的充电线，采用了USB-A to Type-C接口。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "18",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "取出包装盒内部所有物品，包括了耳机、充电线、产品说明书和使用指南。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "44.3g",
+          "evidence": "44.3g",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "真无线耳机TWS",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "入耳",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "6.0",
+          "evidence": "蓝牙6.0",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "6.0",
+          "evidence": "蓝牙6.0",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "LDAC、Hi-Res",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "35 mAh",
+          "evidence": "35mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "随机标配的充电线，采用了USB-A to Type-C接口。",
+          "evidence": "随机标配的充电线，采用了USB-A to Type-C接口。",
+          "source_layer": "technical"
+        }
+      }
     },
     {
       "canonical_id": "unknown--soundpeatsh3",
       "brand": "",
       "model": "SOUNDPEATS泥炭H3",
       "price_cny": null,
-      "launch_date": "2026-02-28",
-      "codecs": [
-        {
-          "value": "LDAC",
-          "evidence": {
-            "value": "LDAC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "SOUNDPEATS泥炭H3真无线降噪耳机\n是该品牌旗下的一款旗舰产品，其搭载一圈两铁3单元的Hi-Fi级声学架构，搭配精准的数字分频技术，提供层次感丰富的高保真音质；同时支持aptX Lossless & LDAC高清音频编解码，三倍SBC音质解析力，呈现更丰富的音频细节，并通过了Hi-Res AUDIO WIRELESS和Snapdragon Sound骁龙畅听双认证。"
-          }
-        },
-        {
-          "value": "aptX",
-          "evidence": {
-            "value": "aptX",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "SOUNDPEATS泥炭H3真无线降噪耳机\n是该品牌旗下的一款旗舰产品，其搭载一圈两铁3单元的Hi-Fi级声学架构，搭配精准的数字分频技术，提供层次感丰富的高保真音质；同时支持aptX Lossless & LDAC高清音频编解码，三倍SBC音质解析力，呈现更丰富的音频细节，并通过了Hi-Res AUDIO WIRELESS和Snapdragon Sound骁龙畅听双认证。"
-          }
-        },
-        {
-          "value": "SBC",
-          "evidence": {
-            "value": "SBC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "SOUNDPEATS泥炭H3真无线降噪耳机\n是该品牌旗下的一款旗舰产品，其搭载一圈两铁3单元的Hi-Fi级声学架构，搭配精准的数字分频技术，提供层次感丰富的高保真音质；同时支持aptX Lossless & LDAC高清音频编解码，三倍SBC音质解析力，呈现更丰富的音频细节，并通过了Hi-Res AUDIO WIRELESS和Snapdragon Sound骁龙畅听双认证。"
-          }
-        },
-        {
-          "value": "Hi-Res",
-          "evidence": {
-            "value": "Hi-Res",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "SOUNDPEATS泥炭H3真无线降噪耳机\n是该品牌旗下的一款旗舰产品，其搭载一圈两铁3单元的Hi-Fi级声学架构，搭配精准的数字分频技术，提供层次感丰富的高保真音质；同时支持aptX Lossless & LDAC高清音频编解码，三倍SBC音质解析力，呈现更丰富的音频细节，并通过了Hi-Res AUDIO WIRELESS和Snapdragon Sound骁龙畅听双认证。"
-          }
-        }
-      ],
+      "price_layer": null,
+      "main_chip": "高通QCC3091",
+      "pmic": "Prisemi芯导 Prisemi芯导P14C1S",
+      "battery_ear": "微电新能源 3.85V/35mAh钢壳扣式",
+      "battery_case": "WEL旭航诚 3.7V/400mAh锂电池",
+      "speaker": "动圈单元",
+      "materials": "硅胶、铝合金、PC、皮革",
+      "weight_g": "53.8g",
+      "ip_rating": "",
       "bluetooth": "5.4",
-      "major_chips": [
-        "Prisemi芯导P14C1S",
-        "高通QCC3091",
-        "Qualcomm AI",
-        "高通TrueWireless",
-        "高通ANC",
-        "高通QCC30xx",
-        "QCC30"
-      ],
-      "selling_point_tags": [
-        "游戏低延迟",
-        "降噪",
-        "定制",
-        "低延迟",
-        "游戏模式",
-        "通话降噪",
-        "风噪"
-      ],
-      "sources": [
-        "report",
-        "video"
-      ],
+      "bom_rows": 23,
+      "layer_badges": "technical",
+      "data_completeness": 1.0,
+      "best_report_id": "268880",
       "has_report": true,
       "has_video": true,
-      "source": "report",
-      "data_completeness": 0.83
+      "cost_fields": {
+        "main_chip": {
+          "value": "高通QCC3091",
+          "evidence": "耳机内置MIC-POWER微电新能源3.85V/35mAh钢壳扣式电池，搭载了12mm低音动圈单元和BELLSING倍声声学双动铁单元，以及三颗瑞勤电子的MEMS麦克风，采用了高通QCC3091蓝牙音频SoC（第一代骁龙S3音频平台），用于无线连接和音频数据处理。",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "Prisemi芯导 Prisemi芯导P14C1S",
+          "evidence": "采用了Prisemi芯导P14C1S过压过流保护IC，保护后级器件。",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "微电新能源 3.85V/35mAh钢壳扣式",
+          "evidence": "耳机内置MIC-POWER微电新能源3.85V/35mAh钢壳扣式电池，搭载了12mm低音动圈单元和BELLSING倍声声学双动铁单元，以及三颗瑞勤电子的MEMS麦克风，采用了高通QCC3091蓝牙音频SoC（第一代骁龙S3音频平台），用于无线连接和音频数据处理。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "WEL旭航诚 3.7V/400mAh锂电池",
+          "evidence": "充电盒搭载了WEL旭航诚3.7V/400mAh锂电池组，配备有电池保护板，负责过充过放过流等保护；",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "微电新能源 3.85V/35mAh钢壳扣式",
+          "evidence": "耳机内置MIC-POWER微电新能源3.85V/35mAh钢壳扣式电池，搭载了12mm低音动圈单元和BELLSING倍声声学双动铁单元，以及三颗瑞勤电子的MEMS麦克风，采用了高通QCC3091蓝牙音频SoC（第一代骁龙S3音频平台），用于无线连接和音频数据处理。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "动圈单元",
+          "evidence": "耳机内置MIC-POWER微电新能源3.85V/35mAh钢壳扣式电池，搭载了12mm低音动圈单元和BELLSING倍声声学双动铁单元，以及三颗瑞勤电子的MEMS麦克风，采用了高通QCC3091蓝牙音频SoC（第一代骁龙S3音频平台），用于无线连接和音频数据处理。",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "充电盒充电线，采用了USB-A to Type-C接口。",
+          "evidence": "充电盒充电线，采用了USB-A to Type-C接口。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "23",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "打开包装盒，取出内部所有物品，包括了主机、耳塞、充电线、产品说明书和使用指南。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶、铝合金、PC、皮革",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "53.8g",
+          "evidence": "53.8g",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "真无线耳机TWS",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "入耳",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "5.4",
+          "evidence": "蓝牙5.4",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "5.4",
+          "evidence": "蓝牙5.4",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "LDAC、aptX、SBC、Hi-Res",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "35 mAh",
+          "evidence": "35mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "充电盒充电线，采用了USB-A to Type-C接口。",
+          "evidence": "充电盒充电线，采用了USB-A to Type-C接口。",
+          "source_layer": "technical"
+        }
+      }
     },
     {
       "canonical_id": "unknown--ugreenhitune-t6s",
       "brand": "",
       "model": "UGREEN绿联Hitune T6s",
       "price_cny": null,
-      "launch_date": "2026-01-12",
-      "codecs": [
-        {
-          "value": "LDAC",
-          "evidence": {
-            "value": "LDAC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "绿联Hitune T6s真无线降噪耳机是其推出的一款高性价比产品，不但具备-52dB深度降噪，还支持LDAC高清解码，提供Hi-Res音质，获得了许多用户的好评。"
-          }
-        },
-        {
-          "value": "AAC",
-          "evidence": {
-            "value": "AAC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "功能配置上，该产品搭载了10mm镀钛振膜动圈喇叭，支持AAC、SBC、LDAC音频解码，提供出色的音频效果；支持360°空间音效，可实现影院级的环绕式沉浸听感。"
-          }
-        },
-        {
-          "value": "SBC",
-          "evidence": {
-            "value": "SBC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "功能配置上，该产品搭载了10mm镀钛振膜动圈喇叭，支持AAC、SBC、LDAC音频解码，提供出色的音频效果；支持360°空间音效，可实现影院级的环绕式沉浸听感。"
-          }
-        },
-        {
-          "value": "Hi-Res",
-          "evidence": {
-            "value": "Hi-Res",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "绿联Hitune T6s真无线降噪耳机是其推出的一款高性价比产品，不但具备-52dB深度降噪，还支持LDAC高清解码，提供Hi-Res音质，获得了许多用户的好评。"
-          }
-        }
-      ],
-      "bluetooth": null,
-      "major_chips": [
-        "JL7016"
-      ],
-      "selling_point_tags": [
-        "降噪",
-        "长续航",
-        "Hi-Res",
-        "低延迟",
-        "游戏模式",
-        "通话降噪"
-      ],
-      "sources": [
-        "report"
-      ],
+      "price_layer": null,
+      "main_chip": "JL7016",
+      "pmic": "",
+      "battery_ear": "赣锋 3.7V/40mAh软包扣式",
+      "battery_case": "WEL旭航诚 3.7V/400mAh锂电池",
+      "speaker": "钛振膜",
+      "materials": "硅胶",
+      "weight_g": "45.0g",
+      "ip_rating": "",
+      "bluetooth": "",
+      "bom_rows": 17,
+      "layer_badges": "technical",
+      "data_completeness": 0.83,
+      "best_report_id": "265875",
       "has_report": true,
       "has_video": false,
-      "source": "report",
-      "data_completeness": 0.67
+      "cost_fields": {
+        "main_chip": {
+          "value": "JL7016",
+          "evidence": "耳机采用10mm镀钛振膜动圈喇叭，内置3颗敏芯微电子的MEMS麦克风，采用了JL杰理科技JL7016G6蓝牙音频SoC。",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "赣锋 3.7V/40mAh软包扣式",
+          "evidence": "耳机内部搭载GF新余赣锋3.7V/40mAh软包扣式电池，配备ICM创芯微CM1126B-GAC带船运模式二合一单节电池保护IC。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "WEL旭航诚 3.7V/400mAh锂电池",
+          "evidence": "充电盒搭载了WEL旭航诚3.7/400mAh锂电池，采用了ICM创芯微CM1125系列集成MOSFET单节锂电池保护IC，负责内置电池的过充电、过放电、过电流等保护；",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "赣锋 3.7V/40mAh软包扣式",
+          "evidence": "耳机内部搭载GF新余赣锋3.7V/40mAh软包扣式电池，配备ICM创芯微CM1126B-GAC带船运模式二合一单节电池保护IC。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "钛振膜",
+          "evidence": "耳机采用10mm镀钛振膜动圈喇叭，内置3颗敏芯微电子的MEMS麦克风，采用了JL杰理科技JL7016G6蓝牙音频SoC。",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "充电线采用了USB-A to Type-C接口。",
+          "evidence": "充电线采用了USB-A to Type-C接口。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "17",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "打开包装盒，取出内部所有物品，包括了主机、耳塞、充电线和产品说明书。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "45.0g",
+          "evidence": "45.0g",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "真无线耳机TWS",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "入耳",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "LDAC、AAC、SBC、Hi-Res",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "40 mAh",
+          "evidence": "40mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "充电线采用了USB-A to Type-C接口。",
+          "evidence": "充电线采用了USB-A to Type-C接口。",
+          "source_layer": "technical"
+        }
+      }
     },
     {
       "canonical_id": "unknown--technics-az40m2",
       "brand": "",
       "model": "松下Technics AZ40M2",
       "price_cny": null,
-      "launch_date": "2026-04-09",
-      "codecs": [
-        {
-          "value": "LDAC",
-          "evidence": {
-            "value": "LDAC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "在功能配置上，搭载6mm驱动单元，支持LDAC高清音频解码，获得了Hi-Res Audio WIRELESS金标认证；支持蓝牙5.3，支持多点连接，可同时连接3台设备使用。"
-          }
-        },
-        {
-          "value": "Hi-Res",
-          "evidence": {
-            "value": "Hi-Res",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "在功能配置上，搭载6mm驱动单元，支持LDAC高清音频解码，获得了Hi-Res Audio WIRELESS金标认证；支持蓝牙5.3，支持多点连接，可同时连接3台设备使用。"
-          }
-        }
-      ],
-      "bluetooth": "5.3",
-      "major_chips": [],
-      "selling_point_tags": [
-        "降噪"
-      ],
-      "sources": [
-        "video"
-      ],
+      "price_layer": null,
+      "main_chip": null,
+      "pmic": null,
+      "battery_ear": null,
+      "battery_case": null,
+      "speaker": null,
+      "materials": null,
+      "weight_g": null,
+      "ip_rating": null,
+      "bluetooth": null,
+      "bom_rows": 0,
+      "layer_badges": "technical",
+      "data_completeness": 0.0,
+      "best_report_id": null,
       "has_report": false,
       "has_video": true,
-      "source": "video",
-      "data_completeness": 0.67
+      "cost_fields": {}
     },
     {
       "canonical_id": "unknown--beats-solo-buds",
       "brand": "",
       "model": "苹果Beats Solo Buds",
       "price_cny": null,
-      "launch_date": "2026-03-30",
-      "codecs": [],
+      "price_layer": null,
+      "main_chip": null,
+      "pmic": null,
+      "battery_ear": null,
+      "battery_case": null,
+      "speaker": null,
+      "materials": null,
+      "weight_g": null,
+      "ip_rating": null,
       "bluetooth": null,
-      "major_chips": [],
-      "selling_point_tags": [
-        "其他",
-        "定制"
-      ],
-      "sources": [
-        "video"
-      ],
+      "bom_rows": 0,
+      "layer_badges": "technical",
+      "data_completeness": 0.0,
+      "best_report_id": null,
       "has_report": false,
       "has_video": true,
-      "source": "video",
-      "data_completeness": 0.33
+      "cost_fields": {}
     },
     {
       "canonical_id": "baseus--bowie-wm02",
       "brand": "Baseus倍思",
       "model": "Bowie WM02+",
       "price_cny": null,
-      "launch_date": "2026-04-21",
-      "codecs": [],
-      "bluetooth": "5.3",
-      "major_chips": [],
-      "selling_point_tags": [],
-      "sources": [
-        "video"
-      ],
+      "price_layer": null,
+      "main_chip": null,
+      "pmic": null,
+      "battery_ear": null,
+      "battery_case": null,
+      "speaker": null,
+      "materials": null,
+      "weight_g": null,
+      "ip_rating": null,
+      "bluetooth": null,
+      "bom_rows": 0,
+      "layer_badges": "technical",
+      "data_completeness": 0.0,
+      "best_report_id": null,
       "has_report": false,
       "has_video": true,
-      "source": "video",
-      "data_completeness": 0.33
+      "cost_fields": {}
     },
     {
       "canonical_id": "edifier--lolli3-anc",
       "brand": "EDIFIER漫步者",
       "model": "Lolli3 ANC",
       "price_cny": null,
-      "launch_date": "2026-06-12",
-      "codecs": [],
+      "price_layer": null,
+      "main_chip": null,
+      "pmic": null,
+      "battery_ear": null,
+      "battery_case": null,
+      "speaker": null,
+      "materials": null,
+      "weight_g": null,
+      "ip_rating": null,
       "bluetooth": null,
-      "major_chips": [],
-      "selling_point_tags": [
-        "降噪",
-        "通话降噪"
-      ],
-      "sources": [
-        "video"
-      ],
+      "bom_rows": 0,
+      "layer_badges": "technical",
+      "data_completeness": 0.0,
+      "best_report_id": null,
       "has_report": false,
       "has_video": true,
-      "source": "video",
-      "data_completeness": 0.33
+      "cost_fields": {}
     },
     {
       "canonical_id": "huawei--freebuds-6i",
       "brand": "HUAWEI华为",
       "model": "FreeBuds 6i",
       "price_cny": null,
-      "launch_date": "2026-01-16",
-      "codecs": [],
+      "price_layer": null,
+      "main_chip": null,
+      "pmic": null,
+      "battery_ear": null,
+      "battery_case": null,
+      "speaker": null,
+      "materials": null,
+      "weight_g": null,
+      "ip_rating": null,
       "bluetooth": null,
-      "major_chips": [],
-      "selling_point_tags": [
-        "降噪",
-        "升级",
-        "沉浸式"
-      ],
-      "sources": [
-        "video"
-      ],
+      "bom_rows": 0,
+      "layer_badges": "technical",
+      "data_completeness": 0.0,
+      "best_report_id": null,
       "has_report": false,
       "has_video": true,
-      "source": "video",
-      "data_completeness": 0.33
+      "cost_fields": {}
     },
     {
       "canonical_id": "moondrop--2",
       "brand": "MOONDROP水月雨",
       "model": "梦回2",
       "price_cny": null,
-      "launch_date": "2026-06-11",
-      "codecs": [
-        {
-          "value": "LDAC",
-          "evidence": {
-            "value": "LDAC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "详细功能配置方面，MOONDROP水月雨梦回2真无线降噪耳机搭载专利13mm超线性全频双悬挂环形平面磁单元和TWS-01定制音频SoC，全面兼容LDAC、LHDC-V、LC3等高解析编解码协议，还原细腻音频细节，提供超低延迟无线传输；同时配备3D空间音频功能，提供“静态/小角度/全方位”三种模式，进一步提升沉浸式聆听体验。"
-          }
-        },
-        {
-          "value": "AAC",
-          "evidence": {
-            "value": "AAC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "其他方面，水月雨梦回2还支持音乐/游戏双模式，游戏模式下传输延迟低至55ms；支持开盖自动回连，支持双设备连接，使用方便快捷；耳机单次续航时间可达8小时（AAC），充电盒可提供约24小时额外续航；支持无线充电功能，随放随充。"
-          }
-        },
-        {
-          "value": "LHDC",
-          "evidence": {
-            "value": "LHDC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "详细功能配置方面，MOONDROP水月雨梦回2真无线降噪耳机搭载专利13mm超线性全频双悬挂环形平面磁单元和TWS-01定制音频SoC，全面兼容LDAC、LHDC-V、LC3等高解析编解码协议，还原细腻音频细节，提供超低延迟无线传输；同时配备3D空间音频功能，提供“静态/小角度/全方位”三种模式，进一步提升沉浸式聆听体验。"
-          }
-        },
-        {
-          "value": "SBC",
-          "evidence": {
-            "value": "SBC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "产品名称：水月雨梦回2，型号：MD-TWS-039，蓝牙版本：6.0，蓝牙传输协议：A2DP/AVRCP/HFP/HSP，编解码协议：SBC/AAC/LDAC/LHDC/LC3，输入：5V-1A，输出：5V-0.25A，工作距离：10米 (无障碍空旷环境)，耳机电池容量：3.7V/40mAh，充电盒电池容量：3.7V/400mAh，耳机单次续航：约8H（AAC），充电盒可提供续航：约24H（AAC），成都水月雨科技有限公司 设计/开发/制造。"
-          }
-        },
-        {
-          "value": "LC3",
-          "evidence": {
-            "value": "LC3",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "详细功能配置方面，MOONDROP水月雨梦回2真无线降噪耳机搭载专利13mm超线性全频双悬挂环形平面磁单元和TWS-01定制音频SoC，全面兼容LDAC、LHDC-V、LC3等高解析编解码协议，还原细腻音频细节，提供超低延迟无线传输；同时配备3D空间音频功能，提供“静态/小角度/全方位”三种模式，进一步提升沉浸式聆听体验。"
-          }
-        },
-        {
-          "value": "AAC",
-          "evidence": {
-            "value": "AAC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "续航方面，耳机单次播放时长约7小时（AAC），搭配充电仓可提供约24小时续航。"
-          }
-        },
-        {
-          "value": "SBC",
-          "evidence": {
-            "value": "SBC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "产品名称：水月雨太空漫游2（黑绿），产品型号：MD-TWS-046，蓝牙版本：6.0，编解码协议：SBC/AAC，蓝牙编解码协议：A2DP/AVRCP/HFP/HSP，工作距离：10米 (无障碍空旷环境)，耳机电池容量：3.7V/35mAh，充电仓电池容量：3.7V/380mAh，耳机单次续航：约7H（AAC），充电层可提供续航：约24H（AAC），输入：5V-A，输出：5V-0.25A，成都水月雨科技有限公司 设计/开发/制造。"
-          }
-        }
-      ],
+      "price_layer": null,
+      "main_chip": "INJOINIC英集芯IP6818",
+      "pmic": "INJOINIC英集芯 INJOINIC英集芯IP6818",
+      "battery_ear": "3.7V/40mAh锂电池",
+      "battery_case": "3.7V/400mAh锂电池",
+      "speaker": "喇叭单元",
+      "materials": "硅胶、皮革",
+      "weight_g": "52.2g",
+      "ip_rating": "",
       "bluetooth": "6.0",
-      "major_chips": [
-        "INJOINIC英集芯IP6818",
-        "Prisemi芯导P14C1",
-        "INJOINIC英集芯IP5516",
-        "Bluetrum中科蓝讯BT8932F",
-        "AB3"
-      ],
-      "selling_point_tags": [
-        "降噪",
-        "舒适佩戴",
-        "升级",
-        "全新",
-        "定制",
-        "高端",
-        "游戏模式"
-      ],
-      "sources": [
-        "report"
-      ],
+      "bom_rows": 19,
+      "layer_badges": "technical",
+      "data_completeness": 1.0,
+      "best_report_id": "279046",
       "has_report": true,
       "has_video": false,
-      "source": "report",
-      "data_completeness": 0.83
+      "cost_fields": {
+        "main_chip": {
+          "value": "INJOINIC英集芯IP6818",
+          "evidence": "INJOINIC英集芯IP6818 TWS耳机充电仓管理SoC，是一款集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "INJOINIC英集芯 INJOINIC英集芯IP6818",
+          "evidence": "充电盒搭载ST神通天下3.7V/400mAh锂电池组，采用INJOINIC英集芯IP6818 TWS耳机充电仓管理SoC，集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示等多功能，单芯片负责内置电池的有线、无线充电，放电为耳机充电及整机控制功能；",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "3.7V/40mAh锂电池",
+          "evidence": "耳机内部搭载ST神通天下3.7V/40mAh锂电池组，采用专利超线性全频双悬挂环形13mm平面磁单元，2颗瑞勤电子的MEMS麦克风。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "3.7V/400mAh锂电池",
+          "evidence": "充电盒搭载ST神通天下3.7V/400mAh锂电池组，采用INJOINIC英集芯IP6818 TWS耳机充电仓管理SoC，集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示等多功能，单芯片负责内置电池的有线、无线充电，放电为耳机充电及整机控制功能；",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "3.7V/40mAh锂电池",
+          "evidence": "耳机内部搭载ST神通天下3.7V/40mAh锂电池组，采用专利超线性全频双悬挂环形13mm平面磁单元，2颗瑞勤电子的MEMS麦克风。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "喇叭单元",
+          "evidence": "前腔内部的扬声器单元结构一览。",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "标配的充电线，采用USB-A to Type-C接口。",
+          "evidence": "标配的充电线，采用USB-A to Type-C接口。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "19",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "打开包装盒，取出内部所有物品，包括了主机、耳塞、充电线、保护套、耳机佩戴示意图及产品说明书等文档。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶、皮革",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "52.2g",
+          "evidence": "52.2g",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "真无线耳机TWS",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "入耳",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "6.0",
+          "evidence": "蓝牙6.0",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "6.0",
+          "evidence": "蓝牙6.0",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "LDAC、AAC、LHDC、SBC、LC3",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "40 mAh",
+          "evidence": "40mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "标配的充电线，采用USB-A to Type-C接口。",
+          "evidence": "标配的充电线，采用USB-A to Type-C接口。",
+          "source_layer": "technical"
+        }
+      }
     },
     {
       "canonical_id": "moondrop--unknown",
       "brand": "MOONDROP水月雨",
       "model": "超声波",
       "price_cny": null,
-      "launch_date": "2026-06-03",
-      "codecs": [
-        {
-          "value": "LDAC",
-          "evidence": {
-            "value": "LDAC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "此次将要拆解的水月雨超声波（UltraSonic）真无线降噪耳机，即是一款搭载圈铁混合单元的产品，同时支持LDAC高清无损传输，为用户提供软硬件结合的高解析音质。"
-          }
-        },
-        {
-          "value": "AAC",
-          "evidence": {
-            "value": "AAC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "产品名称：水月雨超声波（TES-UltraSonic），型号：MD-TWS-031，蓝牙版本：5.3，蓝牙传输协议：A2DP/AVRCP/HFP/HSP，编解码协议：SBC/AAC/LDAC/LC3，工作距离：10米 (无障碍空旷环境)，耳机电池容量：3.7V/37mAh，充电盒电池容量：3.7V/380mAh，耳机单次续航：约6小时，充电盒可提供续航：约18小时，输入：5V-1A，输出：5V-0.25A，成都水月雨科技有限公司 设计/开发/制造。"
-          }
-        },
-        {
-          "value": "SBC",
-          "evidence": {
-            "value": "SBC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "产品名称：水月雨超声波（TES-UltraSonic），型号：MD-TWS-031，蓝牙版本：5.3，蓝牙传输协议：A2DP/AVRCP/HFP/HSP，编解码协议：SBC/AAC/LDAC/LC3，工作距离：10米 (无障碍空旷环境)，耳机电池容量：3.7V/37mAh，充电盒电池容量：3.7V/380mAh，耳机单次续航：约6小时，充电盒可提供续航：约18小时，输入：5V-1A，输出：5V-0.25A，成都水月雨科技有限公司 设计/开发/制造。"
-          }
-        },
-        {
-          "value": "LC3",
-          "evidence": {
-            "value": "LC3",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "详细功能配置方面，水月雨超声波真无线降噪耳机搭载13mm全频动圈单元+定制FRA动铁单元，支持LDAC高清音频解码，可传输24bit/96kHz高解析度音乐；支持新一代蓝牙音频LE Audio的LC3编解码协议，搭配同样兼容标准LC3的设备时，可提供更低延迟、更高保真音质的无线传输。"
-          }
-        }
-      ],
+      "price_layer": null,
+      "main_chip": "Bluetrum中科蓝讯BT8952F",
+      "pmic": "INJOINIC英集芯 INJOINIC英集芯IP5516",
+      "battery_ear": "3.7V/35mAh锂电池",
+      "battery_case": "3.7V/380mAh锂电池",
+      "speaker": "振膜动圈",
+      "materials": "硅胶、镁合金",
+      "weight_g": "42.3g",
+      "ip_rating": "",
       "bluetooth": "6.0",
-      "major_chips": [
-        "INJOINIC英集芯IP5516",
-        "Bluetrum中科蓝讯BT8952F",
-        "AB3"
-      ],
-      "selling_point_tags": [
-        "降噪",
-        "其他",
-        "显著提升",
-        "低延迟",
-        "圈铁",
-        "解析力",
-        "游戏模式"
-      ],
-      "sources": [
-        "report"
-      ],
+      "bom_rows": 20,
+      "layer_badges": "technical",
+      "data_completeness": 1.0,
+      "best_report_id": "278245",
       "has_report": true,
       "has_video": false,
-      "source": "report",
-      "data_completeness": 0.83
+      "cost_fields": {
+        "main_chip": {
+          "value": "Bluetrum中科蓝讯BT8952F",
+          "evidence": "主板上，搭载了1颗敏芯微电子的MEMS麦克风，Bluetrum中科蓝讯BT8952F蓝牙音频SoC和Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "INJOINIC英集芯 INJOINIC英集芯IP5516",
+          "evidence": "充电盒搭载ST神通天下3.7V/380mAh锂离子聚合物电池，采用INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，负责内置电池的充放电管理和整机控制。",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "3.7V/35mAh锂电池",
+          "evidence": "耳机内部采用了ST神通天下3.7V/35mAh锂电池，13mm TiN陶瓷镀层球顶复合振膜动圈单元+定制FRA动铁单元；",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "3.7V/380mAh锂电池",
+          "evidence": "充电盒搭载ST神通天下3.7V/380mAh锂离子聚合物电池，采用INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，负责内置电池的充放电管理和整机控制。",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "3.7V/35mAh锂电池",
+          "evidence": "耳机内部采用了ST神通天下3.7V/35mAh锂电池，13mm TiN陶瓷镀层球顶复合振膜动圈单元+定制FRA动铁单元；",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "振膜动圈",
+          "evidence": "耳机内部采用了ST神通天下3.7V/35mAh锂电池，13mm TiN陶瓷镀层球顶复合振膜动圈单元+定制FRA动铁单元；",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "标配的充电线，采用了USB-A to Type-C接口。",
+          "evidence": "标配的充电线，采用了USB-A to Type-C接口。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "20",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "打开包装盒，取出内部所有物品，包括了主机、充电线、耳塞、保护壳、水月友希塔罗牌及产品使用说明书等文档。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶、镁合金",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "42.3g",
+          "evidence": "42.3g",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "真无线耳机TWS",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "入耳",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "6.0",
+          "evidence": "蓝牙6.0",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "6.0",
+          "evidence": "蓝牙6.0",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "LDAC、AAC、SBC、LC3",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "37 mAh",
+          "evidence": "37mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "标配的充电线，采用了USB-A to Type-C接口。",
+          "evidence": "标配的充电线，采用了USB-A to Type-C接口。",
+          "source_layer": "technical"
+        }
+      }
     },
     {
       "canonical_id": "nothing--ear-2",
       "brand": "Nothing",
       "model": "Ear（2）",
       "price_cny": null,
-      "launch_date": "2026-06-05",
-      "codecs": [
-        {
-          "value": "LHDC",
-          "evidence": {
-            "value": "LHDC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "功能配置方面，搭载11.6mm动态驱动单元，升级LHDC5.0超清传输协议，可支持24bit/192kHz的高分辨率音频，通过了Hi-Res高清晰度音频认证。"
-          }
-        },
-        {
-          "value": "Hi-Res",
-          "evidence": {
-            "value": "Hi-Res",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "功能配置方面，搭载11.6mm动态驱动单元，升级LHDC5.0超清传输协议，可支持24bit/192kHz的高分辨率音频，通过了Hi-Res高清晰度音频认证。"
-          }
-        }
-      ],
+      "price_layer": null,
+      "main_chip": null,
+      "pmic": null,
+      "battery_ear": null,
+      "battery_case": null,
+      "speaker": null,
+      "materials": null,
+      "weight_g": null,
+      "ip_rating": null,
       "bluetooth": null,
-      "major_chips": [],
-      "selling_point_tags": [
-        "降噪",
-        "音质认证",
-        "升级",
-        "认证",
-        "Hi-Res",
-        "防水",
-        "防尘"
-      ],
-      "sources": [
-        "video"
-      ],
+      "bom_rows": 0,
+      "layer_badges": "technical",
+      "data_completeness": 0.0,
+      "best_report_id": null,
       "has_report": false,
       "has_video": true,
-      "source": "video",
-      "data_completeness": 0.5
+      "cost_fields": {}
     },
     {
       "canonical_id": "philips--tat2520",
       "brand": "PHILIPS飞利浦",
       "model": "TAT2520",
       "price_cny": null,
-      "launch_date": "2026-06-23",
-      "codecs": [],
+      "price_layer": null,
+      "main_chip": "JL7006",
+      "pmic": "INJOINIC英集芯 INJOINIC英集芯IP5516",
+      "battery_ear": "3.7V/40mAh锂电池",
+      "battery_case": "3.7V/350mAh锂电池",
+      "speaker": "喇叭单元",
+      "materials": "硅胶",
+      "weight_g": "40.1g",
+      "ip_rating": "",
       "bluetooth": "5.4",
-      "major_chips": [
-        "INJOINIC英集芯IP5516",
-        "WINSEMI稳先微WSDF23A",
-        "JL7006"
-      ],
-      "selling_point_tags": [
-        "降噪",
-        "通话降噪"
-      ],
-      "sources": [
-        "report"
-      ],
+      "bom_rows": 19,
+      "layer_badges": "technical",
+      "data_completeness": 1.0,
+      "best_report_id": "280087",
       "has_report": true,
       "has_video": false,
-      "source": "report",
-      "data_completeness": 0.67
+      "cost_fields": {
+        "main_chip": {
+          "value": "JL7006",
+          "evidence": "搭载10mm复合振膜喇叭，内置两颗MEMS麦克风，采用JL杰理JL7006F8蓝牙音频SoC，用于无线连接和音频信号处理。",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "INJOINIC英集芯 INJOINIC英集芯IP5516",
+          "evidence": "充电盒搭载3.7V/350mAh锂电池组，采用INJOINIC英集芯IP5516充电仓管理SoC，集成MCU，支持300mA同步升压输出，500mA线性充电，支持数码管电量显示，为充电盒提供了完整的电源解决方案。",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "3.7V/40mAh锂电池",
+          "evidence": "耳机内部搭载3.7V/40mAh锂电池，配备WINSEMI稳先微WSDF23A2N2H全集成锂电保护IC；",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "3.7V/350mAh锂电池",
+          "evidence": "充电盒搭载3.7V/350mAh锂电池组，采用INJOINIC英集芯IP5516充电仓管理SoC，集成MCU，支持300mA同步升压输出，500mA线性充电，支持数码管电量显示，为充电盒提供了完整的电源解决方案。",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "3.7V/40mAh锂电池",
+          "evidence": "耳机内部搭载3.7V/40mAh锂电池，配备WINSEMI稳先微WSDF23A2N2H全集成锂电保护IC；",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "喇叭单元",
+          "evidence": "详细功能配置方面，PHILIPS飞利浦TAT2520真无线降噪耳机搭载10mm复合振膜动圈单元，支持蓝牙5.4无线连接，可提供单次约6小时，综合约20小时的音乐聆听；支持主动降噪功能、通透模式，支持双麦AI通话抗风噪，为户外通勤等场景提供更清晰的音频效果；充电盒搭载LED数字电量屏显，为用户直观反馈剩余电量信息。下面就来看看这款产品的详细拆解报告吧~",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "充电盒底部设置有Type-C充电接口。",
+          "evidence": "充电盒底部设置有Type-C充电接口。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "19",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "打开包装盒，取出内部所有物品，包括了主机、充电线、耳塞、产品说明书和保修卡等。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "40.1g",
+          "evidence": "40.1g",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "真无线耳机TWS",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "入耳",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "5.4",
+          "evidence": "蓝牙5.4",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "5.4",
+          "evidence": "蓝牙5.4",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "350 mAh",
+          "evidence": "350mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "充电盒底部设置有Type-C充电接口。",
+          "evidence": "充电盒底部设置有Type-C充电接口。",
+          "source_layer": "technical"
+        }
+      }
     },
     {
       "canonical_id": "qcy--ailybuds-e50",
       "brand": "QCY意象",
       "model": "AilyBuds E50",
       "price_cny": null,
-      "launch_date": "2026-05-28",
-      "codecs": [
-        {
-          "value": "LDAC",
-          "evidence": {
-            "value": "LDAC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "QCY AilyBuds E50搭载LCP液态高分子振膜动圈喇叭，搭配独立前后腔声学结构，提供出色的音质并优化漏音；支持AI自适应音频，补偿低频，改善因耳道、佩戴、音量的不同所带来的听感差异；支持LDAC高清音频解码，提供更丰富的音频细节，获得了Hi-Res AUDIO WIRELESS认证。"
-          }
-        },
-        {
-          "value": "LC3",
-          "evidence": {
-            "value": "LC3",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "主要包括兼容多协议：支持蓝牙BT/BLE6.0双模模式和蓝牙多连接；支持蓝牙广播Auracast（和经典蓝牙共存的音频分享）；支持LE Audio新技术标准和 LC3编解码器；射频性能优秀：发射功率最高到15dBm, 接收灵敏度到达-99dBm；高性能音频算法：支持自适应Hybrid ANC及各种上下行复杂音频算法；超低功耗水平：在复杂音频算法的同时，依然保持超低功耗；生态系统丰富：更大SRAM和FLASH空间，实现应用特性更广覆盖；平台开放，支持更多产品形态。"
-          }
-        },
-        {
-          "value": "Hi-Res",
-          "evidence": {
-            "value": "Hi-Res",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "近期，QCY意象发布了一款半入耳降噪耳机——AilyBuds E50，主打强降噪体验，同时具备Hi-Res金标好声音，AI翻译、记录转写、问答等功能，为用户提供全场景的出色体验。"
-          }
-        }
-      ],
+      "price_layer": null,
+      "main_chip": "INJOINIC英集芯IP5529",
+      "pmic": "WINSEMI稳先微 WINSEMI稳先微WSDF2320B",
+      "battery_ear": "微电新能源 3.85V/35mAh钢壳扣式",
+      "battery_case": "弘捷 3.7V/450mAh锂电池",
+      "speaker": "振膜动圈",
+      "materials": "塑料",
+      "weight_g": "42.9g",
+      "ip_rating": "",
       "bluetooth": "6.0",
-      "major_chips": [
-        "INJOINIC英集芯IP5529",
-        "WINSEMI稳先微WSDF2320B"
-      ],
-      "selling_point_tags": [
-        "降噪",
-        "音质认证",
-        "其他",
-        "领先",
-        "超长续航",
-        "超长",
-        "认证",
-        "Hi-Res",
-        "沉浸式"
-      ],
-      "sources": [
-        "report"
-      ],
+      "bom_rows": 19,
+      "layer_badges": "technical",
+      "data_completeness": 1.0,
+      "best_report_id": "277498",
       "has_report": true,
       "has_video": false,
-      "source": "report",
-      "data_completeness": 0.83
+      "cost_fields": {
+        "main_chip": {
+          "value": "INJOINIC英集芯IP5529",
+          "evidence": "充电盒搭载了弘捷新能源3.7V/450mAh锂电池，采用了INJOINIC英集芯IP5529充电仓电源管理SoC，集成升压转换器、锂电池充电管理、高性能MCU等功能，负责内置电池的充放电管理和整机控制；",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "WINSEMI稳先微 WINSEMI稳先微WSDF2320B",
+          "evidence": "主控芯片为WUQI物奇WQ7035AX-B智能音频SoC，其他还采用了WINSEMI稳先微WSDF2320B锂电池保护IC，HX天易合芯HX9031A距离传感器等。",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "微电新能源 3.85V/35mAh钢壳扣式",
+          "evidence": "耳机内部搭载MIC-POWER微电新能源3.85V/35mAh钢壳扣式电池，采用了LCP液态高分子振膜动圈喇叭，内置三颗MEMS麦克风；",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "弘捷 3.7V/450mAh锂电池",
+          "evidence": "充电盒搭载了弘捷新能源3.7V/450mAh锂电池，采用了INJOINIC英集芯IP5529充电仓电源管理SoC，集成升压转换器、锂电池充电管理、高性能MCU等功能，负责内置电池的充放电管理和整机控制；",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "微电新能源 3.85V/35mAh钢壳扣式",
+          "evidence": "耳机内部搭载MIC-POWER微电新能源3.85V/35mAh钢壳扣式电池，采用了LCP液态高分子振膜动圈喇叭，内置三颗MEMS麦克风；",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "振膜动圈",
+          "evidence": "耳机内部搭载MIC-POWER微电新能源3.85V/35mAh钢壳扣式电池，采用了LCP液态高分子振膜动圈喇叭，内置三颗MEMS麦克风；",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "随机标配的充电线采用了USB-A to Type-C插头。",
+          "evidence": "随机标配的充电线采用了USB-A to Type-C插头。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "19",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "塑料",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "42.9g",
+          "evidence": "42.9g",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "真无线耳机TWS",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "入耳",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "6.0",
+          "evidence": "蓝牙6.0",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "6.0",
+          "evidence": "蓝牙6.0",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "LDAC、LC3、Hi-Res",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "450 mAh",
+          "evidence": "450mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "随机标配的充电线采用了USB-A to Type-C插头。",
+          "evidence": "随机标配的充电线采用了USB-A to Type-C插头。",
+          "source_layer": "technical"
+        }
+      }
     },
     {
       "canonical_id": "qcy--melobuds-n70",
       "brand": "QCY意象",
       "model": "MeloBuds N70",
       "price_cny": null,
-      "launch_date": "2026-04-08",
-      "codecs": [
-        {
-          "value": "LDAC",
-          "evidence": {
-            "value": "LDAC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "一、\nQCY意象MeloBuds N70真无线降噪耳机开箱\nQCY意象MeloBuds N70真无线降噪耳机包装盒采用了新一代简约设计风格，正面展示有产品外观，品牌LOGO和产品名称，3麦自适应深度降噪、声学双单元HiFi音质、便捷无线充电的产品特点，以及Hi-Res Wireless认证、QQ音乐臻品音质认证、LDAC、Fast Pair的标识。"
-          }
-        },
-        {
-          "value": "LC3",
-          "evidence": {
-            "value": "LC3",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "主要包括兼容多协议：支持蓝牙BT/BLE6.0双模模式和蓝牙多连接；支持蓝牙广播Auracast（和经典蓝牙共存的音频分享）；支持LE Audio新技术标准和 LC3编解码器；射频性能优秀：发射功率最高到15dBm, 接收灵敏度到达-99dBm；高性能音频算法：支持自适应Hybrid ANC及各种上下行复杂音频算法；超低功耗水平：在复杂音频算法的同时，依然保持超低功耗；生态系统丰富：更大SRAM和FLASH空间，实现应用特性更广覆盖；平台开放，支持更多产品形态。"
-          }
-        },
-        {
-          "value": "Hi-Res",
-          "evidence": {
-            "value": "Hi-Res",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "近期，QCY意象正式发布了年度旗舰Hi-Fi耳机——MeloBuds N70，其搭载超瞬态半导体MEMS喇叭+液态硅胶动圈喇叭双单元，搭配专利双导音管结构设计，为用户提供卓越的音频效果，并获得了Hi-Res Wireless、QQ音乐臻品音质双认证。"
-          }
-        }
-      ],
-      "bluetooth": null,
-      "major_chips": [
-        "INJOINIC英集芯IP5529"
-      ],
-      "selling_point_tags": [
-        "降噪",
-        "音质认证",
-        "其他",
-        "专利",
-        "领先",
-        "旗舰",
-        "定制",
-        "认证",
-        "Hi-Res"
-      ],
-      "sources": [
-        "report"
-      ],
+      "price_layer": null,
+      "main_chip": "INJOINIC英集芯IP5529",
+      "pmic": "INJOINIC英集芯 INJOINIC英集芯IP5529",
+      "battery_ear": "3.85V/46mAh钢壳扣式",
+      "battery_case": "HJ弘捷新能源 3.7V/490mAh锂电池",
+      "speaker": "喇叭单元",
+      "materials": "硅胶、液态硅胶",
+      "weight_g": "48.9g",
+      "ip_rating": "",
+      "bluetooth": "",
+      "bom_rows": 16,
+      "layer_badges": "technical",
+      "data_completeness": 1.0,
+      "best_report_id": "272139",
       "has_report": true,
       "has_video": false,
-      "source": "report",
-      "data_completeness": 0.67
+      "cost_fields": {
+        "main_chip": {
+          "value": "INJOINIC英集芯IP5529",
+          "evidence": "INJOINIC英集芯IP5529是一款集成升压转换器、锂电池充电管理、高性能MCU的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "INJOINIC英集芯 INJOINIC英集芯IP5529",
+          "evidence": "充电盒搭载HJ弘捷新能源3.7V/490mAh锂电子，支持有线、无线两种方式输入电源，采用了苏州赛芯电子科技股份XB5332B锂电池一体化保护芯片，INJOINIC英集芯IP5529电源管理SOC，NuVolta伏达半导体NU1680无线电源接收器，以及霍尔元件等方案，为充电盒的各项功能提供支持。",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "3.85V/46mAh钢壳扣式",
+          "evidence": "耳机单耳内置三颗瑞勤电子的MEMS麦克风拾音，采用3.85V/46mAh钢壳扣式电池供电，主控芯片为WUQI物奇WQ7035AX-B智能音频SoC，其他还采用了USound UC-P3010音频放大器，HX天易合芯HX9031A电容式距离传感器，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "HJ弘捷新能源 3.7V/490mAh锂电池",
+          "evidence": "充电盒搭载HJ弘捷新能源3.7V/490mAh锂电子，支持有线、无线两种方式输入电源，采用了苏州赛芯电子科技股份XB5332B锂电池一体化保护芯片，INJOINIC英集芯IP5529电源管理SOC，NuVolta伏达半导体NU1680无线电源接收器，以及霍尔元件等方案，为充电盒的各项功能提供支持。",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "3.85V/46mAh钢壳扣式",
+          "evidence": "耳机单耳内置三颗瑞勤电子的MEMS麦克风拾音，采用3.85V/46mAh钢壳扣式电池供电，主控芯片为WUQI物奇WQ7035AX-B智能音频SoC，其他还采用了USound UC-P3010音频放大器，HX天易合芯HX9031A电容式距离传感器，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "喇叭单元",
+          "evidence": "耳机内置的同轴双喇叭单元正面特写。据官方介绍，采用了超瞬态半导体MEMS喇叭（中间）+液态硅胶动圈喇叭（外围）。前者将高频延展性提升300%，后者将低频下潜至20Hz，带来更通透的高音和更饱满的低音。",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "打开包装盒，取出内部的所有物品，包括了主机、USB-A to Type-C充电线、耳塞和产品说明书。",
+          "evidence": "打开包装盒，取出内部的所有物品，包括了主机、USB-A to Type-C充电线、耳塞和产品说明书。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "16",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "打开包装盒，取出内部的所有物品，包括了主机、USB-A to Type-C充电线、耳塞和产品说明书。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶、液态硅胶",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "48.9g",
+          "evidence": "48.9g",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "真无线耳机TWS",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "入耳",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "LDAC、LC3、Hi-Res",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "490 mAh",
+          "evidence": "490mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "打开包装盒，取出内部的所有物品，包括了主机、USB-A to Type-C充电线、耳塞和产品说明书。",
+          "evidence": "打开包装盒，取出内部的所有物品，包括了主机、USB-A to Type-C充电线、耳塞和产品说明书。",
+          "source_layer": "technical"
+        }
+      }
     },
     {
       "canonical_id": "roseselsa--ceramics-ultra",
       "brand": "ROSESELSA弱水时砂",
       "model": "CERAMICS Ultra",
       "price_cny": null,
-      "launch_date": "2026-01-05",
-      "codecs": [
-        {
-          "value": "LHDC",
-          "evidence": {
-            "value": "LHDC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "CERAMICS Ultra（琉璃Ultra）是该品牌旗下的旗舰级产品，拥有着出众的质感设计，超宽频深海降噪，以及HR+普朗克技术单元和LHDC高清解码，提供全方位的出色音频体验。"
-          }
-        },
-        {
-          "value": "LC3",
-          "evidence": {
-            "value": "LC3",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "主要包括兼容多协议：支持蓝牙BT/BLE5.4双模模式和蓝牙多连接；支持蓝牙广播Auracast（和经典蓝牙共存的音频分享）；支持LE Audio新技术标准和LC3编解码器；射频性能优秀：发射功率最高到15dBm, 接收灵敏度到达-99dBm；高性能音频算法：支持自适应Hybrid ANC及各种上下行复杂音频算法；超低功耗水平：在复杂音频算法的同时，依然保持超低功耗；生态系统丰富：更大SRAM和FLASH空间，实现应用特性更广覆盖；平台开放，支持更多产品形态。"
-          }
-        }
-      ],
-      "bluetooth": null,
-      "major_chips": [],
-      "selling_point_tags": [
-        "降噪",
-        "其他",
-        "领先",
-        "旗舰",
-        "游戏模式",
-        "通话降噪",
-        "风噪"
-      ],
-      "sources": [
-        "report"
-      ],
+      "price_layer": null,
+      "main_chip": "",
+      "pmic": "",
+      "battery_ear": "3.6V/50mAh钢壳扣式",
+      "battery_case": "3.7V/400mAh锂电池",
+      "speaker": "",
+      "materials": "硅胶",
+      "weight_g": "47.2g",
+      "ip_rating": "IPX4",
+      "bluetooth": "",
+      "bom_rows": 13,
+      "layer_badges": "technical",
+      "data_completeness": 0.5,
+      "best_report_id": "264801",
       "has_report": true,
       "has_video": false,
-      "source": "report",
-      "data_completeness": 0.5
+      "cost_fields": {
+        "main_chip": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "3.6V/50mAh钢壳扣式",
+          "evidence": "内置钢壳扣式电池容量3.6V/50mAh，来自LIDEA电的电子；",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "3.7V/400mAh锂电池",
+          "evidence": "充电盒搭载了3.7V/400mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护。",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "3.6V/50mAh钢壳扣式",
+          "evidence": "内置钢壳扣式电池容量3.6V/50mAh，来自LIDEA电的电子；",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "充电盒底部设置Type-C充电接口和蓝牙配对功能键。",
+          "evidence": "充电盒底部设置Type-C充电接口和蓝牙配对功能键。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "13",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "打开包装盒，取出内部所有物品，包括了主机、耳塞、充电线和说明书。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "IPX4",
+          "evidence": "IPX4",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "47.2g",
+          "evidence": "47.2g",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "真无线耳机TWS",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "入耳",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "LHDC、LC3",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "50 mAh",
+          "evidence": "50mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "充电盒底部设置Type-C充电接口和蓝牙配对功能键。",
+          "evidence": "充电盒底部设置Type-C充电接口和蓝牙配对功能键。",
+          "source_layer": "technical"
+        }
+      }
     },
     {
       "canonical_id": "soundcore--liberty-4-nc",
       "brand": "Soundcore声阔",
       "model": "Liberty 4 NC",
       "price_cny": null,
-      "launch_date": "2026-06-22",
-      "codecs": [
-        {
-          "value": "LDAC",
-          "evidence": {
-            "value": "LDAC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "在音乐体验方面，Soundcore声阔Liberty 4 NC真无线降噪耳机搭载自研11mm高性能喇叭，支持LDAC高清音频解码，能够还原更丰富的音频细节，获得了Hi-Res AUDIO WIRELESS金标认证；还支持HearID声纹技术，为用户定制专属听音曲线，匹配最佳的听音效果。"
-          }
-        },
-        {
-          "value": "LC3",
-          "evidence": {
-            "value": "LC3",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "主要包括兼容多协议：支持蓝牙BT/BLE6.0双模模式和蓝牙多连接；支持蓝牙广播Auracast（和经典蓝牙共存的音频分享）；支持LE Audio新技术标准和 LC3编解码器；射频性能优秀：发射功率最高到15dBm, 接收灵敏度到达-99dBm；高性能音频算法：支持自适应Hybrid ANC及各种上下行复杂音频算法；超低功耗水平：在复杂音频算法的同时，依然保持超低功耗；生态系统丰富：更大SRAM和FLASH空间，实现应用特性更广覆盖；平台开放，支持更多产品形态。"
-          }
-        },
-        {
-          "value": "Hi-Res",
-          "evidence": {
-            "value": "Hi-Res",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "在音乐体验方面，Soundcore声阔Liberty 4 NC真无线降噪耳机搭载自研11mm高性能喇叭，支持LDAC高清音频解码，能够还原更丰富的音频细节，获得了Hi-Res AUDIO WIRELESS金标认证；还支持HearID声纹技术，为用户定制专属听音曲线，匹配最佳的听音效果。"
-          }
-        }
-      ],
-      "bluetooth": null,
-      "major_chips": [
-        "INJOINIC英集芯IP5528"
-      ],
-      "selling_point_tags": [
-        "降噪",
-        "防水防尘",
-        "创新",
-        "定制",
-        "认证",
-        "Hi-Res",
-        "防水",
-        "防尘"
-      ],
-      "sources": [
-        "report"
-      ],
+      "price_layer": null,
+      "main_chip": "INJOINIC英集芯IP5528",
+      "pmic": "INJOINIC英集芯 INJOINIC英集芯IP5528",
+      "battery_ear": "电池",
+      "battery_case": "3.72V/800mAh锂电池",
+      "speaker": "11mm 动圈单元",
+      "materials": "硅胶",
+      "weight_g": "60.7g",
+      "ip_rating": "IPX4",
+      "bluetooth": "",
+      "bom_rows": 17,
+      "layer_badges": "technical",
+      "data_completeness": 1.0,
+      "best_report_id": "279876",
       "has_report": true,
       "has_video": false,
-      "source": "report",
-      "data_completeness": 0.67
+      "cost_fields": {
+        "main_chip": {
+          "value": "INJOINIC英集芯IP5528",
+          "evidence": "INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，是一款集成MCU、升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "INJOINIC英集芯 INJOINIC英集芯IP5528",
+          "evidence": "有线采用INJOINIC英集芯IP5528充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示等多功能；",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "电池",
+          "evidence": "盒盖内侧标注有产品参数信息。名称：蓝牙耳机，型号：A3947，电池容量：800mAh/2.976Wh，输入：5V-0.8A，输出：5V-0.3A（0.15A每个端口），无线充输入：4W。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "3.72V/800mAh锂电池",
+          "evidence": "充电盒搭载VDL紫建电子3.72V/800mAh锂电池组，支持有线、无线两种方式充电。",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "电池",
+          "evidence": "盒盖内侧标注有产品参数信息。名称：蓝牙耳机，型号：A3947，电池容量：800mAh/2.976Wh，输入：5V-0.8A，输出：5V-0.3A（0.15A每个端口），无线充输入：4W。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "11mm 动圈单元",
+          "evidence": "耳机内置11mm动圈单元，单耳配备3颗瑞勤电子的MEMS麦克风用于拾音；",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "标配的充电线采用了USB-A to Type-C接口。",
+          "evidence": "标配的充电线采用了USB-A to Type-C接口。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "17",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "打开包装盒，取出内部所有物品，包括主机、充电线、耳塞和产品说明书。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "IPX4",
+          "evidence": "IPX4",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "60.7g",
+          "evidence": "60.7g",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "真无线耳机TWS",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "入耳",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "LDAC、LC3、Hi-Res",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "800 mAh",
+          "evidence": "800mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "标配的充电线采用了USB-A to Type-C接口。",
+          "evidence": "标配的充电线采用了USB-A to Type-C接口。",
+          "source_layer": "technical"
+        }
+      }
     },
     {
       "canonical_id": "yobybo--card20-pro",
       "brand": "YOBYBO",
       "model": "Card20 Pro",
       "price_cny": null,
-      "launch_date": "2026-07-01",
-      "codecs": [],
+      "price_layer": null,
+      "main_chip": null,
+      "pmic": null,
+      "battery_ear": null,
+      "battery_case": null,
+      "speaker": null,
+      "materials": null,
+      "weight_g": null,
+      "ip_rating": null,
       "bluetooth": null,
-      "major_chips": [],
-      "selling_point_tags": [
-        "其他",
-        "降噪",
-        "极致"
-      ],
-      "sources": [
-        "video"
-      ],
+      "bom_rows": 0,
+      "layer_badges": "technical",
+      "data_completeness": 0.0,
+      "best_report_id": null,
       "has_report": false,
       "has_video": true,
-      "source": "video",
-      "data_completeness": 0.33
+      "cost_fields": {}
     },
     {
       "canonical_id": "realme--buds-air-5-pro",
       "brand": "realme真我",
       "model": "Buds Air 5 Pro",
       "price_cny": null,
-      "launch_date": "2026-06-17",
-      "codecs": [
-        {
-          "value": "LDAC",
-          "evidence": {
-            "value": "LDAC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "在音频方面，其搭载了HiFi级同轴双单元，覆盖20-40KHz超宽频响范围，并支持LDAC高清音频格式，通过了Hi-Res Audio小金标认证，可提供录音室级的原声听感。"
-          }
-        },
-        {
-          "value": "Hi-Res",
-          "evidence": {
-            "value": "Hi-Res",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "在音频方面，其搭载了HiFi级同轴双单元，覆盖20-40KHz超宽频响范围，并支持LDAC高清音频格式，通过了Hi-Res Audio小金标认证，可提供录音室级的原声听感。"
-          }
-        },
-        {
-          "value": "小金标",
-          "evidence": {
-            "value": "小金标",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "在音频方面，其搭载了HiFi级同轴双单元，覆盖20-40KHz超宽频响范围，并支持LDAC高清音频格式，通过了Hi-Res Audio小金标认证，可提供录音室级的原声听感。"
-          }
-        }
-      ],
+      "price_layer": null,
+      "main_chip": null,
+      "pmic": null,
+      "battery_ear": null,
+      "battery_case": null,
+      "speaker": null,
+      "materials": null,
+      "weight_g": null,
+      "ip_rating": null,
       "bluetooth": null,
-      "major_chips": [],
-      "selling_point_tags": [
-        "音质认证",
-        "空间音频",
-        "降噪",
-        "定制",
-        "认证",
-        "小金标",
-        "Hi-Res",
-        "空间音效"
-      ],
-      "sources": [
-        "video"
-      ],
+      "bom_rows": 0,
+      "layer_badges": "technical",
+      "data_completeness": 0.0,
+      "best_report_id": null,
       "has_report": false,
       "has_video": true,
-      "source": "video",
-      "data_completeness": 0.5
+      "cost_fields": {}
     },
     {
       "canonical_id": "realme--buds-air8",
       "brand": "realme真我",
       "model": "Buds Air8",
       "price_cny": null,
-      "launch_date": "2026-01-30",
-      "codecs": [
-        {
-          "value": "LHDC",
-          "evidence": {
-            "value": "LHDC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "详细功能配置方面，realme真我Buds Air8真无线降噪耳机搭载11mm低音+6mm高音双单元，支持自研NextBass音质算法，支持LHDC5.0高清传输协议，获得了Hi-Res小金标认证；还支持3D空间动态音效，能够自定义不同频段强度表现，打造个性化的沉浸式听感。"
-          }
-        },
-        {
-          "value": "Hi-Res",
-          "evidence": {
-            "value": "Hi-Res",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "详细功能配置方面，realme真我Buds Air8真无线降噪耳机搭载11mm低音+6mm高音双单元，支持自研NextBass音质算法，支持LHDC5.0高清传输协议，获得了Hi-Res小金标认证；还支持3D空间动态音效，能够自定义不同频段强度表现，打造个性化的沉浸式听感。"
-          }
-        },
-        {
-          "value": "小金标",
-          "evidence": {
-            "value": "小金标",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "详细功能配置方面，realme真我Buds Air8真无线降噪耳机搭载11mm低音+6mm高音双单元，支持自研NextBass音质算法，支持LHDC5.0高清传输协议，获得了Hi-Res小金标认证；还支持3D空间动态音效，能够自定义不同频段强度表现，打造个性化的沉浸式听感。"
-          }
-        }
-      ],
-      "bluetooth": null,
-      "major_chips": [
-        "思远半导体SY8835",
-        "BES2710IHC"
-      ],
-      "selling_point_tags": [
-        "降噪",
-        "升级",
-        "创新",
-        "超长续航",
-        "超长",
-        "认证",
-        "小金标"
-      ],
-      "sources": [
-        "report"
-      ],
+      "price_layer": null,
+      "main_chip": "思远半导体SY8835",
+      "pmic": "",
+      "battery_ear": "电池",
+      "battery_case": "赣锋 3.89V/530mAh锂电池",
+      "speaker": "动圈单元",
+      "materials": "硅胶",
+      "weight_g": "46.0g",
+      "ip_rating": "",
+      "bluetooth": "",
+      "bom_rows": 19,
+      "layer_badges": "technical",
+      "data_completeness": 0.83,
+      "best_report_id": "267421",
       "has_report": true,
       "has_video": false,
-      "source": "report",
-      "data_completeness": 0.67
+      "cost_fields": {
+        "main_chip": {
+          "value": "思远半导体SY8835",
+          "evidence": "充电盒内置新余赣锋3.89V/530mAh锂电池，主板上搭载了思远半导体SY8835蓝牙耳机充电仓解决方案，集成充电模块、放电模块，集成MCU模块和通讯模块，负责电池的充放电管理和整机控制；",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "电池",
+          "evidence": "座舱底部结构一览，包括了主板、电池和电源输入输出排线。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "赣锋 3.89V/530mAh锂电池",
+          "evidence": "充电盒内置新余赣锋3.89V/530mAh锂电池，主板上搭载了思远半导体SY8835蓝牙耳机充电仓解决方案，集成充电模块、放电模块，集成MCU模块和通讯模块，负责电池的充放电管理和整机控制；",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "电池",
+          "evidence": "座舱底部结构一览，包括了主板、电池和电源输入输出排线。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "动圈单元",
+          "evidence": "耳机内置VDL紫建电子62mAh软包扣式电池，搭载了11mm低音动圈单元+6mm高音动圈单元双喇叭，内置瑞勤电子的三颗MEMS麦克风，主控芯片为BES恒玄科技BES2710IHC蓝牙音频SoC。",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "充电盒背面设置有Type-C充电接口。",
+          "evidence": "充电盒背面设置有Type-C充电接口。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "19",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "46.0g",
+          "evidence": "46.0g",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "真无线耳机TWS",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "入耳",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "LHDC、Hi-Res、小金标",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "530 mAh",
+          "evidence": "530mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "充电盒背面设置有Type-C充电接口。",
+          "evidence": "充电盒背面设置有Type-C充电接口。",
+          "source_layer": "technical"
+        }
+      }
     },
     {
       "canonical_id": "vivo--tws-5i",
       "brand": "vivo",
       "model": "TWS 5i",
       "price_cny": null,
-      "launch_date": "2026-05-15",
-      "codecs": [],
+      "price_layer": null,
+      "main_chip": "思远半导体SY8835",
+      "pmic": "",
+      "battery_ear": "赣锋 3.85V/51mAh软包扣式",
+      "battery_case": "赣锋 3.87V/513mAh锂电池",
+      "speaker": "10mm 动圈单元",
+      "materials": "硅胶",
+      "weight_g": "41.1g",
+      "ip_rating": "",
       "bluetooth": "5.4",
-      "major_chips": [
-        "思远半导体SY8835",
-        "BES2710IUC"
-      ],
-      "selling_point_tags": [
-        "降噪",
-        "其他",
-        "旗舰定位",
-        "旗舰",
-        "创新",
-        "高端",
-        "高保真",
-        "空间音频",
-        "通话降噪",
-        "风噪"
-      ],
-      "sources": [
-        "report"
-      ],
+      "bom_rows": 17,
+      "layer_badges": "technical",
+      "data_completeness": 0.83,
+      "best_report_id": "276011",
       "has_report": true,
       "has_video": false,
-      "source": "report",
-      "data_completeness": 0.67
+      "cost_fields": {
+        "main_chip": {
+          "value": "思远半导体SY8835",
+          "evidence": "充电盒搭载了GF新余赣锋3.87V/513mAh锂电池，主板上采用思远半导体SY8835蓝牙耳机充电仓解决方案，负责内置电池的充放电管理，同时集成通信模块，可以实现耳机仓到耳机端的高速通信；",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "赣锋 3.85V/51mAh软包扣式",
+          "evidence": "采用GF新余赣锋3.85V/51mAh软包扣式电池供电。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "赣锋 3.87V/513mAh锂电池",
+          "evidence": "充电盒搭载了GF新余赣锋3.87V/513mAh锂电池，主板上采用思远半导体SY8835蓝牙耳机充电仓解决方案，负责内置电池的充放电管理，同时集成通信模块，可以实现耳机仓到耳机端的高速通信；",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "赣锋 3.85V/51mAh软包扣式",
+          "evidence": "采用GF新余赣锋3.85V/51mAh软包扣式电池供电。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "10mm 动圈单元",
+          "evidence": "耳机内部搭载了10mm动圈单元发声，单耳内置1颗瑞勤电子的MEMS麦克风拾音；",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "充电盒底部设置USB-C充电接口。",
+          "evidence": "充电盒底部设置USB-C充电接口。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "17",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "41.1g",
+          "evidence": "41.1g",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "真无线耳机TWS",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "入耳",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "5.4",
+          "evidence": "蓝牙5.4",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "5.4",
+          "evidence": "蓝牙5.4",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "513 mAh",
+          "evidence": "513mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "充电盒底部设置USB-C充电接口。",
+          "evidence": "充电盒底部设置USB-C充电接口。",
+          "source_layer": "technical"
+        }
+      }
     },
     {
       "canonical_id": "unknown--ban-ear-plus",
       "brand": "半至",
       "model": "BAN EAR PLUS",
       "price_cny": null,
-      "launch_date": "2026-05-29",
-      "codecs": [
-        {
-          "value": "LDAC",
-          "evidence": {
-            "value": "LDAC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "包装盒背面介绍了产品的详细功能特点：56dB六麦深海降噪、30mW超大推力、LDAC高清解码、防油污、双重防丢、35mS超低延迟、隐藏式转轴、按键自定义、OTA升级，以及深圳半至科技有限公司介绍和APP下载二维码。"
-          }
-        }
-      ],
+      "price_layer": null,
+      "main_chip": "INJOINIC英集芯IP5518",
+      "pmic": "",
+      "battery_ear": "3.7V/40mAh锂电池",
+      "battery_case": "3.7V/520mAh锂电池",
+      "speaker": "喇叭单元",
+      "materials": "硅胶",
+      "weight_g": "49.3g",
+      "ip_rating": "",
       "bluetooth": "6.0",
-      "major_chips": [
-        "INJOINIC英集芯IP5518",
-        "Bluetrum中科蓝讯BT8932H"
-      ],
-      "selling_point_tags": [
-        "降噪",
-        "旗舰",
-        "低延迟",
-        "游戏模式",
-        "通话降噪"
-      ],
-      "sources": [
-        "report"
-      ],
+      "bom_rows": 18,
+      "layer_badges": "technical",
+      "data_completeness": 0.83,
+      "best_report_id": "277837",
       "has_report": true,
       "has_video": false,
-      "source": "report",
-      "data_completeness": 0.83
+      "cost_fields": {
+        "main_chip": {
+          "value": "INJOINIC英集芯IP5518",
+          "evidence": "充电盒搭载了ST神通天下3.7V/520mAh锂电池组，采用INJOINIC英集芯IP5518电源管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，且支持智能双向通讯，带来耳机秒回联手机的优质体验；",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "3.7V/40mAh锂电池",
+          "evidence": "耳机内置ST神通天下3.7V/40mAh锂电池供电；",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "3.7V/520mAh锂电池",
+          "evidence": "充电盒搭载了ST神通天下3.7V/520mAh锂电池组，采用INJOINIC英集芯IP5518电源管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，且支持智能双向通讯，带来耳机秒回联手机的优质体验；",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "3.7V/40mAh锂电池",
+          "evidence": "耳机内置ST神通天下3.7V/40mAh锂电池供电；",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "喇叭单元",
+          "evidence": "前腔内部扬声器单元结构一览。",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "充电线采用了USB-A to Type-C插头。",
+          "evidence": "充电线采用了USB-A to Type-C插头。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "18",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "打开包装盒，取出内部所有物品，包括了主机、充电线、耳塞和使用说明书。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "49.3g",
+          "evidence": "49.3g",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "真无线耳机TWS",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "入耳",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "6.0",
+          "evidence": "蓝牙6.0",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "6.0",
+          "evidence": "蓝牙6.0",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "LDAC",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "45 mAh",
+          "evidence": "45mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "充电线采用了USB-A to Type-C插头。",
+          "evidence": "充电线采用了USB-A to Type-C插头。",
+          "source_layer": "technical"
+        }
+      }
     },
     {
       "canonical_id": "unknown--earbuds-4",
       "brand": "荣耀",
       "model": "Earbuds 4",
       "price_cny": null,
-      "launch_date": "2026-04-01",
-      "codecs": [],
-      "bluetooth": null,
-      "major_chips": [
-        "BES2600IHC3-4X",
-        "BES2600IHC"
-      ],
-      "selling_point_tags": [
-        "空间音频",
-        "降噪",
-        "旗舰定位",
-        "旗舰",
-        "全新",
-        "高端",
-        "大幅提升",
-        "认证",
-        "低延迟"
-      ],
-      "sources": [
-        "report"
-      ],
+      "price_layer": null,
+      "main_chip": "BES2600IHC3-4X",
+      "pmic": "",
+      "battery_ear": "微电新能源 3.7V/40mAh钢壳扣式",
+      "battery_case": "3.8V/500mAh锂电池",
+      "speaker": "喇叭单元",
+      "materials": "硅胶",
+      "weight_g": "49.8g",
+      "ip_rating": "",
+      "bluetooth": "",
+      "bom_rows": 18,
+      "layer_badges": "technical",
+      "data_completeness": 0.83,
+      "best_report_id": "271556",
       "has_report": true,
       "has_video": false,
-      "source": "report",
-      "data_completeness": 0.5
+      "cost_fields": {
+        "main_chip": {
+          "value": "BES2600IHC3-4X",
+          "evidence": "采用MIC-POWER微电新能源3.7V/40mAh钢壳扣式电池供电，采用BES恒玄科技BES2600IHC3-4X蓝牙音频SoC负责无线连接和音频数据处理，采用Spacetouch普林芯驰SPT5111触摸检测IC用于触摸控制和入耳检测功能；",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "微电新能源 3.7V/40mAh钢壳扣式",
+          "evidence": "采用MIC-POWER微电新能源3.7V/40mAh钢壳扣式电池供电，采用BES恒玄科技BES2600IHC3-4X蓝牙音频SoC负责无线连接和音频数据处理，采用Spacetouch普林芯驰SPT5111触摸检测IC用于触摸控制和入耳检测功能；",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "3.8V/500mAh锂电池",
+          "evidence": "充电盒搭载了长虹聚和源3.8V/500mAh锂电池，配备了ICM创芯微CM1137系列集成MOSFET单节锂电池保护IC；",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "微电新能源 3.7V/40mAh钢壳扣式",
+          "evidence": "采用MIC-POWER微电新能源3.7V/40mAh钢壳扣式电池供电，采用BES恒玄科技BES2600IHC3-4X蓝牙音频SoC负责无线连接和音频数据处理，采用Spacetouch普林芯驰SPT5111触摸检测IC用于触摸控制和入耳检测功能；",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "喇叭单元",
+          "evidence": "HONOR荣耀Earbuds 4真无线降噪耳机是荣耀数字系列的新一代产品，外观上，质感相较于上代大幅提升。功能配置上，该产品搭载了双镀钛动圈单元，高低分频设计，呈现开阔饱满的声场和声声分明的音频细节；支持空间声场，增强空间环绕声，带来更具临场感的听音乐、观影体验，通过了QQ音乐臻品音质空间音频认证。",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "充电盒底部设置有Type-C充电接口和蓝牙配对功能按键。",
+          "evidence": "充电盒底部设置有Type-C充电接口和蓝牙配对功能按键。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "18",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "49.8g",
+          "evidence": "49.8g",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "真无线耳机TWS",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "入耳",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "500 mAh",
+          "evidence": "500mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "充电盒底部设置有Type-C充电接口和蓝牙配对功能按键。",
+          "evidence": "充电盒底部设置有Type-C充电接口和蓝牙配对功能按键。",
+          "source_layer": "technical"
+        }
+      }
     }
   ]
 }

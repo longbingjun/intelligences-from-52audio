@@ -68,8 +68,66 @@ def extract_specs_from_ocr_text(text: str) -> list[dict]:
     return specs
 
 
-def _fetch_content_html_for_report(report: dict, session: requests.Session) -> str:
-    """从 RSS feed 或文章页按 URL 找回正文 HTML。"""
+_BOM_LINE_SPLIT = re.compile(r"[\t|｜]+")
+_BOM_CHIP_IN_LINE = re.compile(
+    r"(INJOINIC英集芯|英集芯|Bluetrum中科蓝讯|中科蓝讯|Qualcomm高通|BES恒玄|恒玄|"
+    r"JL杰理|杰理|SY\d+|IP\d+|BT\d+)[^\n，。；]*",
+    re.I,
+)
+
+
+def parse_bom_table_from_ocr(text: str) -> list[dict]:
+    """从 OCR 文本解析 BOM 行。"""
+    if not text or not text.strip():
+        return []
+    rows: list[dict] = []
+    seen: set[tuple[str, str, str]] = set()
+
+    def add_row(component: str, brand: str, model: str, side: str = "", role: str = "") -> None:
+        key = (component, brand, model)
+        if key in seen or not (component or model):
+            return
+        seen.add(key)
+        rows.append(
+            {
+                "component": component or "部件",
+                "brand": brand,
+                "model": model,
+                "qty_hint": "",
+                "side": side,
+                "role": role,
+                "evidence": {
+                    "value": model or component,
+                    "confidence": 0.72,
+                    "source_type": "summary_ocr",
+                    "source_text": (text[:120] + "…") if len(text) > 120 else text,
+                },
+            }
+        )
+
+    for line in text.splitlines():
+        line = line.strip()
+        if not line or len(line) < 4:
+            continue
+        parts = [p.strip() for p in _BOM_LINE_SPLIT.split(line) if p.strip()]
+        if len(parts) >= 3:
+            add_row(parts[0], parts[1], parts[2])
+            continue
+        if "电池" in line and "mAh" in line:
+            m = re.search(r"(\d+)\s*mAh", line, re.I)
+            vendor = re.search(r"([A-Za-z\u4e00-\u9fff]{2,12})", line)
+            add_row("电池", vendor.group(1) if vendor else "", m.group(0) if m else "", side="")
+        for m in _BOM_CHIP_IN_LINE.finditer(line):
+            frag = m.group(0)
+            chip_m = re.search(r"([A-Z]{1,4}\d+[A-Z0-9]*)", frag, re.I)
+            if chip_m:
+                role = "PMIC/充电仓管理" if chip_m.group(1).upper().startswith("IP") else "主控/蓝牙"
+                add_row("芯片/模组", "", chip_m.group(1), role=role)
+
+    return rows[:40]
+
+
+def _fetch_content_html_for_report(report: dict, session: requests.Session) -> str:    """从 RSS feed 或文章页按 URL 找回正文 HTML。"""
     article_url = report.get("url", "")
     if not article_url:
         return ""
@@ -126,9 +184,19 @@ def _urls_from_images_queue(report: dict) -> list[str]:
 
 
 def resolve_image_urls(report: dict, session: requests.Session) -> list[str]:
-    """优先 report.key_image_urls，否则从正文 HTML 抽图；queue 中有则优先用已知文本密集图。"""
-    key_urls = report.get("key_image_urls")
-    if isinstance(key_urls, list) and key_urls:
+    """优先 summary_image_urls，其次 key_image_urls，再正文/queue。"""
+    views = report.get("views") or {}
+    cost = views.get("cost") or {}
+    summary_urls: list[str] = []
+    for item in cost.get("summary_image_urls") or []:
+        if isinstance(item, str) and item.strip():
+            summary_urls.append(item.strip())
+        elif isinstance(item, dict) and item.get("url"):
+            summary_urls.append(item["url"])
+    if summary_urls:
+        return summary_urls
+
+    key_urls = report.get("key_image_urls")    if isinstance(key_urls, list) and key_urls:
         return [u for u in key_urls if isinstance(u, str) and u.strip()]
 
     queue_urls = _urls_from_images_queue(report)
@@ -158,8 +226,16 @@ def _download_image(url: str, session: requests.Session, timeout: int = 15) -> b
 
 def enrich_one_report(report: dict, session: requests.Session, *, delay_sec: float = 0.4) -> dict:
     """对单篇报告跑 OCR enrich，返回写入 JSON 的 payload。"""
-    urls = resolve_image_urls(report, session)
-    images_out: list[dict] = []
+    views = report.get("views") or {}
+    cost = views.get("cost") or {}
+    summary_url_set = set()
+    for item in cost.get("summary_image_urls") or []:
+        if isinstance(item, str):
+            summary_url_set.add(item)
+        elif isinstance(item, dict) and item.get("url"):
+            summary_url_set.add(item["url"])
+
+    urls = resolve_image_urls(report, session)    images_out: list[dict] = []
 
     for url in urls:
         entry: dict = {
@@ -179,17 +255,19 @@ def enrich_one_report(report: dict, session: requests.Session, *, delay_sec: flo
         entry["classification"] = info.get("classification", "unknown")
 
         if info.get("classification") != "text_dense":
-            entry["ocr_status"] = "skipped"
-            images_out.append(entry)
-            if delay_sec:
-                time.sleep(delay_sec)
-            continue
+            is_summary = url in summary_url_set
+            if not is_summary:                entry["ocr_status"] = "skipped"
+                images_out.append(entry)
+                if delay_sec:
+                    time.sleep(delay_sec)
+                continue
 
         status, text = _run_ocr(img_bytes)
         entry["ocr_status"] = status
         entry["ocr_text"] = text
         if text:
             entry["specs_extracted"] = extract_specs_from_ocr_text(text)
+            entry["bom_rows_extracted"] = parse_bom_table_from_ocr(text)
         images_out.append(entry)
         if delay_sec:
             time.sleep(delay_sec)
