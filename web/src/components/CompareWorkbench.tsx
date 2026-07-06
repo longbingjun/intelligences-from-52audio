@@ -11,6 +11,7 @@ import {
   profileForCategory,
   sourceLabel,
 } from "../lib/types";
+import { withBase } from "../lib/paths";
 
 const STORAGE_KEY = "cost-compare-selection-v5";
 
@@ -58,6 +59,7 @@ export default function CompareWorkbench({
   profiles,
   allCategories,
 }: Props) {
+  const link = (path: string) => withBase(path);
   const { p0, p1 } = profileForCategory(profiles, category);
   const [showP1, setShowP1] = useState(false);
   const [search, setSearch] = useState("");
@@ -151,7 +153,7 @@ export default function CompareWorkbench({
         {allCategories.map((c) => (
           <a
             key={c.slug}
-            href={`/category/${encodeURIComponent(c.name)}`}
+            href={link(`/category/${encodeURIComponent(c.name)}`)}
             className={`rounded-full border px-3 py-1 text-sm no-underline hover:no-underline ${
               c.name === category
                 ? "border-[var(--primary)] bg-[#eef3ff] text-[var(--primary-dark)] font-semibold"
@@ -283,7 +285,7 @@ export default function CompareWorkbench({
                     className="min-w-[140px] border-b border-[var(--line)] px-4 py-3 text-left font-semibold"
                   >
                     <a
-                      href={`/product/${p.canonical_id}`}
+                      href={link(`/product/${p.canonical_id}`)}
                       className="text-[var(--primary-dark)] no-underline hover:underline"
                     >
                       {productDisplayName(p)}
@@ -381,9 +383,9 @@ export default function CompareWorkbench({
               </blockquote>
             )}
             <div className="mt-6 flex flex-col gap-2 text-sm">
-              <a href={`/product/${drawer.product.canonical_id}`}>查看产品成本档案 →</a>
+              <a href={link(`/product/${drawer.product.canonical_id}`)}>查看产品成本档案 →</a>
               {drawer.product.best_report_id && (
-                <a href={`/report/${drawer.product.best_report_id}`}>查看拆解报告 →</a>
+                <a href={link(`/report/${drawer.product.best_report_id}`)}>查看拆解报告 →</a>
               )}
             </div>
           </div>

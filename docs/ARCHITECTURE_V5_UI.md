@@ -22,7 +22,10 @@ py scripts/build_products.py
 py scripts/build_matrix.py
 py scripts/prepare_web_data.py
 cd web && npm install && npm run build
+python scripts/generate_legacy_redirects.py
 ```
+
+GitHub Pages 项目站需配置 `base: /intelligences-from-52audio/`（见 `web/astro.config.mjs`）。
 
 产物输出到 `site/`（GitHub Pages 根目录）。
 

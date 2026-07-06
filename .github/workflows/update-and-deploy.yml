@@ -75,7 +75,8 @@ jobs:
           npm install
           npm run build
           cd ..
-          cp web/public/.nojekyll site/.nojekyll 2>/dev/null || true
+          python scripts/generate_legacy_redirects.py
+          touch site/.nojekyll
 
       - name: 上传 Pages 产物
         uses: actions/upload-pages-artifact@v3

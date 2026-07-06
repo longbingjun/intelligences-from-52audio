@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import { withBase } from "../lib/paths";
 import fs from "node:fs";
 import path from "node:path";
 
@@ -38,7 +39,7 @@ const topProducts = [...productIndex.products]
     {
       categories.map((c) => (
         <a
-          href={`/category/${encodeURIComponent(c.name)}`}
+          href={withBase(`/category/${encodeURIComponent(c.name)}`)}
           class="block rounded-2xl border border-[var(--line)] bg-white p-5 no-underline shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
         >
           <h3 class="m-0 text-lg font-bold text-[var(--text)]">{c.name}</h3>
@@ -54,7 +55,7 @@ const topProducts = [...productIndex.products]
     {
       topProducts.map((p: { canonical_id: string; brand: string; model: string; category: string }) => (
         <a
-          href={`/product/${p.canonical_id}`}
+          href={withBase(`/product/${p.canonical_id}`)}
           class="rounded-xl border border-[var(--line)] bg-white p-4 no-underline hover:border-[var(--primary)]"
         >
           <div class="text-xs text-[var(--muted)]">{p.category}</div>
