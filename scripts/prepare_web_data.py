@@ -19,7 +19,8 @@ LEGACY_SITE_PATHS = (
     "compare",
     "matrix",
     "products",
-    "assets",
+    "_astro",  # Astro 旧默认资源目录
+    "assets",  # 构建前清空，npm run build 会重新生成
     "about.html",
 )
 
