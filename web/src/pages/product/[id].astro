@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { withBase } from "../../lib/paths";
 import fs from "node:fs";
 import path from "node:path";
 
@@ -29,7 +30,7 @@ const priceTxt =
 
 <BaseLayout title={`${product.brand} ${product.model}`} activeNav="category">
   <div class="mb-4 text-sm">
-    <a href={`/category/${encodeURIComponent(product.category)}`} class="text-[var(--muted)]">
+    <a href={withBase(`/category/${encodeURIComponent(product.category)}`)} class="text-[var(--muted)]">
       ← 返回 {product.category} 对比
     </a>
   </div>
@@ -149,7 +150,7 @@ const priceTxt =
       {
         (product.report_ids || []).map((rid: string) => (
           <li>
-            <a href={`/report/${rid}`}>拆解报告 {rid}</a>
+            <a href={withBase(`/report/${rid}`)}>拆解报告 {rid}</a>
           </li>
         ))
       }

@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
+import { withBase } from "../../lib/paths";
 import fs from "node:fs";
 import path from "node:path";
 
@@ -25,7 +26,7 @@ const bom = (cost.bom_table || []).filter(
 
 <BaseLayout title={`${report.brand} ${report.model} 拆解`} activeNav="category">
   <p class="text-sm">
-    <a href={`/category/${encodeURIComponent(report.category || "")}`} class="text-[var(--muted)]">
+    <a href={withBase(`/category/${encodeURIComponent(report.category || "")}`)} class="text-[var(--muted)]">
       ← 返回 {report.category || "品类对比"}
     </a>
   </p>

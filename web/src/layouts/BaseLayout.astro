@@ -1,5 +1,6 @@
 ---
 import "../styles/global.css";
+import { withBase } from "../lib/paths";
 
 interface Props {
   title?: string;
@@ -8,6 +9,8 @@ interface Props {
 
 const { title = "竞品成本情报", activeNav = "" } = Astro.props;
 const fullTitle = title.includes("情报") ? title : `${title} · 竞品成本情报`;
+const home = withBase("/");
+const category = withBase("/category/开放式耳机");
 ---
 
 <!DOCTYPE html>
@@ -20,16 +23,16 @@ const fullTitle = title.includes("情报") ? title : `${title} · 竞品成本�
   <body>
     <header class="sticky top-0 z-50 border-b border-[var(--line)] bg-white/90 backdrop-blur-md">
       <div class="mx-auto flex max-w-[1400px] flex-wrap items-center justify-between gap-3 px-5 py-3">
-        <a href="/" class="text-lg font-bold text-[var(--text)] no-underline hover:no-underline">
+        <a href={home} class="text-lg font-bold text-[var(--text)] no-underline hover:no-underline">
           竞品成本情报
         </a>
         <nav class="flex flex-wrap gap-1 text-sm">
           <a
-            href="/"
+            href={home}
             class:list={["rounded-full px-3 py-1.5 no-underline", activeNav === "home" ? "bg-[var(--primary)] text-white" : "text-[var(--muted)] hover:bg-[#eef3ff]"]}
           >工作台</a>
           <a
-            href="/category/开放式耳机"
+            href={category}
             class:list={["rounded-full px-3 py-1.5 no-underline", activeNav === "category" ? "bg-[var(--primary)] text-white" : "text-[var(--muted)] hover:bg-[#eef3ff]"]}
           >品类对比</a>
         </nav>
