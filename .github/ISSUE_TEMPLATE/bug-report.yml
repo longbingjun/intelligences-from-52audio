@@ -1,0 +1,44 @@
+name: Bug 报告
+description: 站点、构建流水线或数据抽取问题
+title: "[Bug] "
+labels:
+  - bug
+body:
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 发生了什么？期望是什么？
+    validations:
+      required: true
+
+  - type: dropdown
+    id: area
+    attributes:
+      label: 影响范围
+      options:
+        - 静态站点 / UI（web/、site/）
+        - 数据构建（scripts/、data/）
+        - 爬虫 / 抽取（sources/、core/）
+        - GitHub Actions / 部署
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: 复现步骤
+      placeholder: |
+        1. py scripts/build_products.py
+        2. ...
+    validations:
+      required: true
+
+  - type: textarea
+    id: environment
+    attributes:
+      label: 环境
+      placeholder: "OS、Python/Node 版本、分支名"
+    validations:
+      required: false

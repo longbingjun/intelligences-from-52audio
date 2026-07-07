@@ -59,4 +59,5 @@ py scripts/build_matrix.py
 | [docs/DESIGN.md](docs/DESIGN.md) | 数据源与抽取设计 |
 | [docs/README.md](docs/README.md) | 完整文档索引 |
 
-开发新功能前请先阅读 [PROJECT_ROADMAP.md](docs/PROJECT_ROADMAP.md) 中的开发宪章与 Gate 规则。
+开发新功能前请先阅读 [PROJECT_ROADMAP.md](docs/PROJECT_ROADMAP.md) 中的开发宪章与 Gate 规则。  
+规划任务可在 GitHub **Issues → New issue** 选择 V6 模板或「迭代工作单」。
