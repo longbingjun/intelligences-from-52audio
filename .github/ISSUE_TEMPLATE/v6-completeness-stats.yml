@@ -1,0 +1,54 @@
+name: "V6: P0 完整度统计"
+description: 按品类统计 P0 字段完整度，矩阵/UI 展示 data_completeness
+title: "[V6] P0 完整度统计 — "
+labels:
+  - v6
+  - layer-b
+  - layer-e
+  - data-quality
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **目标版本：** V6 数据质量闭环  
+        **层级：** Layer B 信息契约 + Layer E 工程  
+        **相关数据：** `data/matrix/*.json` 中的 `data_completeness`
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述
+      value: |
+        矩阵 JSON 已有 `data_completeness`（约 0.17–0.83），但缺少按品类的汇总统计与 UI 展示，用户不知道哪些产品/品类数据可信、哪些需要补录。
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 验收标准
+      value: |
+        - [ ] 构建脚本输出各品类 P0 字段完整度汇总（均值、中位数、样本数）
+        - [ ] 对比画布：产品行或列显示完整度徽章（如 &lt;50% 提示）
+        - [ ] 定义完整度计算公式并文档化（哪些字段计入 P0）
+        - [ ] CI 或本地构建日志可看到品类完整度基线，便于回归对比
+        - [ ] （可选）`scripts/` 生成 `data/stats/completeness.json` 供 About 页展示
+    validations:
+      required: true
+
+  - type: textarea
+    id: p0_definition
+    attributes:
+      label: P0 字段定义（本 Issue 采用的计分字段）
+      value: |
+        brand, model, price_cny, main_chip, pmic, battery_ear, battery_case, bom_table（≥1 行）
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: gates
+    attributes:
+      label: Gate 相关
+      options:
+        - label: G2 信息 — P0 定义明确
+        - label: G5 工程 — 统计可自动化

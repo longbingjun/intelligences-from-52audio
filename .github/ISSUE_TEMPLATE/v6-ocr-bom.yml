@@ -1,0 +1,53 @@
+name: "V6: OCR BOM 闭环"
+description: OCR merge 常态化，提升 BOM 表覆盖率
+title: "[V6] OCR BOM 闭环 — "
+labels:
+  - v6
+  - layer-c
+  - data-quality
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **目标版本：** V6 数据质量闭环  
+        **层级：** Layer C 信源与采集  
+        **相关代码：** `enrichers/ocr.py`、`scripts/merge_ocr.py`、`.github/workflows/ocr-enrich.yml`
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述
+      value: |
+        BOM 物料表大量依赖「我爱音频网总结」段 PNG，当前 OCR 框架已搭但 merge 非常态化，导致 `bom_table` 覆盖率低、`data_completeness` 偏低。
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 验收标准
+      value: |
+        - [ ] Tesseract 或云端 OCR 在 CI/本地可稳定跑通
+        - [ ] `merge_ocr.py` 合并进 `views.cost.bom_table`，不覆盖高置信度 summary_prose
+        - [ ] CI 支持可选/定期触发 OCR merge（`workflow_dispatch` 或 schedule）
+        - [ ] 抽样 ≥10 款开放式耳机，BOM 行数或完整度有可度量提升
+        - [ ] 文档更新：OCR 运行方式写入 README 或 docs
+    validations:
+      required: true
+
+  - type: dropdown
+    id: layer
+    attributes:
+      label: 主信源层
+      options:
+        - technical（52audio + OCR）
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: gates
+    attributes:
+      label: Gate 相关
+      options:
+        - label: G3 信源 — 主信源可半自动更新
+        - label: G5 工程 — CI 可复现
