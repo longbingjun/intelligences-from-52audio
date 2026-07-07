@@ -49,4 +49,14 @@ py scripts/build_matrix.py
 
 推送到 `master` 后 GitHub Actions 自动：预处理数据 → `npm run build` → 部署 Pages。
 
-详见 `docs/ARCHITECTURE_V5_UI.md`。
+## 文档
+
+| 文档 | 说明 |
+|------|------|
+| [docs/PROJECT_ROADMAP.md](docs/PROJECT_ROADMAP.md) | 项目目标、五层开发框架、现状与路线图 |
+| [docs/ARCHITECTURE_V5_UI.md](docs/ARCHITECTURE_V5_UI.md) | 当前 UI 与构建说明 |
+| [docs/ARCHITECTURE_V4.md](docs/ARCHITECTURE_V4.md) | 四层信源与成本矩阵 |
+| [docs/DESIGN.md](docs/DESIGN.md) | 数据源与抽取设计 |
+| [docs/README.md](docs/README.md) | 完整文档索引 |
+
+开发新功能前请先阅读 [PROJECT_ROADMAP.md](docs/PROJECT_ROADMAP.md) 中的开发宪章与 Gate 规则。
