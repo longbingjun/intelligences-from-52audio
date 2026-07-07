@@ -1,0 +1,55 @@
+name: "V6: 字段来源标注"
+description: 对比表与产品页展示字段的数据来源（技术层/渠道层/OCR）
+title: "[V6] 字段来源标注 — "
+labels:
+  - v6
+  - layer-b
+  - layer-d
+  - data-quality
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **目标版本：** V6 数据质量闭环  
+        **层级：** Layer B 信息契约 + Layer D 体验  
+        **相关数据：** `layer_refs`、`field_annotations.json`、`data/products/*.json`
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述
+      value: |
+        用户无法判断对比表中的售价、芯片、BOM 来自渠道 CSV、报告正文还是 OCR，降低信任感。开发宪章第 5 条要求完整度、来源、可信度在 UI 可见。
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 验收标准
+      value: |
+        - [ ] P0 字段（price_cny、main_chip、pmic、battery_*、bom_table）有 `source_layer` 或等价 provenance 写入产品 JSON
+        - [ ] 品类对比画布：列头或单元格 tooltip 显示来源（技术层 / 渠道层 / OCR）
+        - [ ] 产品档案页：成本快照区块标注各字段来源
+        - [ ] 融合规则与 UI 文案一致（渠道价优先、BOM 取完整度最高）
+        - [ ] 更新 `field_annotations.json` 或文档中的「字段 × 信源」表
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: p0_fields
+    attributes:
+      label: 覆盖 P0 字段
+      options:
+        - label: price_cny
+        - label: main_chip / pmic
+        - label: battery_ear / battery_case
+        - label: bom_table
+
+  - type: checkboxes
+    id: gates
+    attributes:
+      label: Gate 相关
+      options:
+        - label: G2 信息 — 每字段有主信源
+        - label: G4 体验 — 来源可见且不干扰对比阅读

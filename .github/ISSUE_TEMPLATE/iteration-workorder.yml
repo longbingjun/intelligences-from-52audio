@@ -1,0 +1,78 @@
+name: 迭代工作单
+description: 新迭代启动时使用，对照 Gate 自检后再开发
+title: "[迭代] "
+labels:
+  - planning
+body:
+  - type: markdown
+    attributes:
+      value: |
+        参考 [PROJECT_ROADMAP.md](docs/PROJECT_ROADMAP.md) 第六节。每个版本只闭合一个用户可感知的能力环。
+
+  - type: dropdown
+    id: milestone
+    attributes:
+      label: 目标版本
+      options:
+        - V6 数据质量闭环
+        - V7 扩覆盖与巡检
+        - V8 官方/评测层
+        - 其他
+    validations:
+      required: true
+
+  - type: textarea
+    id: user_task
+    attributes:
+      label: 主用户任务
+      description: 成本工程师在什么场景下要完成什么？
+      placeholder: "例：立项对标耳夹旗舰，30 分钟内拉出 5 款 BOM 对比"
+    validations:
+      required: true
+
+  - type: textarea
+    id: p0_fields
+    attributes:
+      label: P0 字段（本迭代只保证这些）
+      description: 表格：字段 | 主信源 | 缺失策略
+      value: |
+        | 字段 | 主信源 | 缺失策略 |
+        |------|--------|----------|
+        |      |        |          |
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope_in
+    attributes:
+      label: 本迭代做
+      placeholder: "- "
+    validations:
+      required: true
+
+  - type: textarea
+    id: scope_out
+    attributes:
+      label: 本迭代不做
+      placeholder: "- 不做五角色前端\n- 不做登录协作"
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: gates
+    attributes:
+      label: Gate 自检
+      options:
+        - label: G1 用户 — 有具体任务 + 成功标准 + 不做清单
+        - label: G2 信息 — P0 ≤15，每字段有信源与缺失策略
+        - label: G3 信源 — 主信源可日更/半自动更新
+        - label: G4 体验 — 主路径 ≤3 次点击
+        - label: G5 工程 — CI 稳定、构建可复现
+
+  - type: textarea
+    id: verification
+    attributes:
+      label: 验证方式
+      placeholder: |
+        - 数据：≥70% 产品有 P0 字段
+        - 体验：主路径演示通过

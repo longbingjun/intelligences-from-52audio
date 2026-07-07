@@ -1,0 +1,60 @@
+name: "V6: 缺失值 UI 统一"
+description: 对比表与产品页统一空值/缺失文案与展示策略
+title: "[V6] 缺失值 UI 统一 — "
+labels:
+  - v6
+  - layer-b
+  - layer-d
+  - ui
+body:
+  - type: markdown
+    attributes:
+      value: |
+        **目标版本：** V6 数据质量闭环  
+        **层级：** Layer B 信息契约 + Layer D 体验  
+        **参考：** [PROJECT_ROADMAP.md § Layer B P0 字段表](docs/PROJECT_ROADMAP.md)
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: 问题描述
+      value: |
+        对比表中部分字段直接空白，用户无法区分「未拆解」「待补录」「未识别」与「字段不适用」。需按字段契约统一缺失策略与 UI 文案。
+    validations:
+      required: true
+
+  - type: textarea
+    id: missing_policy
+    attributes:
+      label: 缺失策略表（目标状态）
+      value: |
+        | 字段 | 缺失时展示 |
+        |------|------------|
+        | price_cny | 待补录 |
+        | main_chip / pmic | 未识别 |
+        | battery_* | — |
+        | bom_table | 无拆解报告 |
+        | P1 空字段 | 隐藏行或 — |
+    validations:
+      required: true
+
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: 验收标准
+      value: |
+        - [ ] `CompareWorkbench` 对比表：P0 空值使用统一文案，非空白
+        - [ ] 产品档案页与对比表文案一致
+        - [ ] P1 字段：空值行可配置为隐藏或显示「—」
+        - [ ] 样式区分：缺失值使用次要色/斜体，与有效值可辨
+        - [ ] 文档更新 PROJECT_ROADMAP 或 field_annotations 中的缺失策略列
+    validations:
+      required: true
+
+  - type: checkboxes
+    id: gates
+    attributes:
+      label: Gate 相关
+      options:
+        - label: G2 信息 — 每字段有缺失策略
+        - label: G4 体验 — 空值展示统一
