@@ -14,11 +14,12 @@ sys.path.insert(0, str(ROOT))
 
 from core.cost_extract import extract_cost_fields  # noqa: E402
 from core.ingest import load_all_records, merge_price_into_record  # noqa: E402
+from core.paths import compare_dir, matrix_dir, products_dir  # noqa: E402
 from core.products import canonical_product_id, load_channel_enrich, normalize_brand, normalize_model  # noqa: E402
 
-MATRIX_DIR = ROOT / "data" / "matrix"
-COMPARE_DIR = ROOT / "data" / "compare"
-PRODUCTS_DIR = ROOT / "data" / "products"
+MATRIX_DIR = matrix_dir()
+COMPARE_DIR = compare_dir()
+PRODUCTS_DIR = products_dir()
 
 # V4 成本工程师矩阵列
 COST_MATRIX_COLUMNS = [

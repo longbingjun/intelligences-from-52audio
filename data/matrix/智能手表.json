@@ -1,15 +1,22 @@
 {
   "category": "智能手表",
-  "generated_at": "2026-07-06T05:20:38+00:00",
+  "generated_at": "2026-07-09T15:45:36+08:00",
   "columns": [
+    "brand",
+    "model",
     "price_cny",
-    "launch_date",
-    "codecs",
+    "main_chip",
+    "pmic",
+    "battery_ear",
+    "battery_case",
+    "speaker",
+    "materials",
+    "weight_g",
+    "ip_rating",
     "bluetooth",
-    "major_chips",
-    "selling_point_tags",
-    "data_completeness",
-    "source"
+    "bom_rows",
+    "layer_badges",
+    "data_completeness"
   ],
   "rows": [
     {
@@ -17,121 +24,307 @@
       "brand": "",
       "model": "NOHON诺希鸿蒙OS智能手表N19",
       "price_cny": null,
-      "launch_date": "2026-03-05",
-      "codecs": [],
-      "bluetooth": null,
-      "major_chips": [],
-      "selling_point_tags": [],
-      "sources": [
-        "report",
-        "video"
-      ],
+      "price_layer": null,
+      "main_chip": "",
+      "pmic": "",
+      "battery_ear": "3.8V/300mAh锂电池",
+      "battery_case": "电池",
+      "speaker": "喇叭单元",
+      "materials": "硅胶、皮革",
+      "weight_g": "61.8g",
+      "ip_rating": "",
+      "bluetooth": "",
+      "bom_rows": 9,
+      "layer_badges": "technical",
+      "data_completeness": 0.67,
+      "best_report_id": "269357",
       "has_report": true,
       "has_video": true,
-      "source": "report",
-      "data_completeness": 0.17
+      "cost_fields": {
+        "main_chip": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "3.8V/300mAh锂电池",
+          "evidence": "内部主要配置方面，NOHON诺希鸿蒙OS智能手表N19内置ST神通天下3.8V/300mAh锂电池，搭载了扬声器、驻极体麦克风、振动马达、健康检测传感器等，屏幕触摸采用了HYNITRON海栎创CST820高性能自电容触控芯片。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "电池",
+          "evidence": "盖板内侧结构一览，通过导电布和高温胶带覆盖，中间固定有主板、电池，四周连接扬声器、麦克风、振动马达等元器件。",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "3.8V/300mAh锂电池",
+          "evidence": "内部主要配置方面，NOHON诺希鸿蒙OS智能手表N19内置ST神通天下3.8V/300mAh锂电池，搭载了扬声器、驻极体麦克风、振动马达、健康检测传感器等，屏幕触摸采用了HYNITRON海栎创CST820高性能自电容触控芯片。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "喇叭单元",
+          "evidence": "手表内置方形扬声器正面特写，拆解过程中振膜受损。",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "USB-A",
+          "evidence": "USB-A",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "9",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶、皮革",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "61.8g",
+          "evidence": "61.8g",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "智能手表",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "其他",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "300 mAh",
+          "evidence": "300mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "USB-A",
+          "evidence": "USB-A",
+          "source_layer": "technical"
+        }
+      }
     },
     {
       "canonical_id": "unknown--oppo-watch-se",
       "brand": "",
       "model": "OPPO Watch SE",
       "price_cny": null,
-      "launch_date": "2026-01-21",
-      "codecs": [],
+      "price_layer": null,
+      "main_chip": null,
+      "pmic": null,
+      "battery_ear": null,
+      "battery_case": null,
+      "speaker": null,
+      "materials": null,
+      "weight_g": null,
+      "ip_rating": null,
       "bluetooth": null,
-      "major_chips": [],
-      "selling_point_tags": [
-        "旗舰定位",
-        "旗舰"
-      ],
-      "sources": [
-        "video"
-      ],
+      "bom_rows": 0,
+      "layer_badges": "technical",
+      "data_completeness": 0.0,
+      "best_report_id": null,
       "has_report": false,
       "has_video": true,
-      "source": "video",
-      "data_completeness": 0.33
+      "cost_fields": {}
     },
     {
       "canonical_id": "unknown--oneplus-2",
       "brand": "",
       "model": "OnePlus一加手表 2",
       "price_cny": null,
-      "launch_date": "2026-04-08",
-      "codecs": [],
+      "price_layer": null,
+      "main_chip": null,
+      "pmic": null,
+      "battery_ear": null,
+      "battery_case": null,
+      "speaker": null,
+      "materials": null,
+      "weight_g": null,
+      "ip_rating": null,
       "bluetooth": null,
-      "major_chips": [],
-      "selling_point_tags": [
-        "其他",
-        "升级",
-        "大幅提升"
-      ],
-      "sources": [
-        "video"
-      ],
+      "bom_rows": 0,
+      "layer_badges": "technical",
+      "data_completeness": 0.0,
+      "best_report_id": null,
       "has_report": false,
       "has_video": true,
-      "source": "video",
-      "data_completeness": 0.33
+      "cost_fields": {}
     },
     {
       "canonical_id": "nothing--cmf-watch-3-pro",
       "brand": "Nothing",
       "model": "CMF Watch 3 Pro",
       "price_cny": null,
-      "launch_date": "2026-01-06",
-      "codecs": [],
+      "price_layer": null,
+      "main_chip": null,
+      "pmic": null,
+      "battery_ear": null,
+      "battery_case": null,
+      "speaker": null,
+      "materials": null,
+      "weight_g": null,
+      "ip_rating": null,
       "bluetooth": null,
-      "major_chips": [],
-      "selling_point_tags": [
-        "降噪"
-      ],
-      "sources": [
-        "video"
-      ],
+      "bom_rows": 0,
+      "layer_badges": "technical",
+      "data_completeness": 0.0,
+      "best_report_id": null,
       "has_report": false,
       "has_video": true,
-      "source": "video",
-      "data_completeness": 0.33
+      "cost_fields": {}
     },
     {
       "canonical_id": "xiaomi--watch-s5",
       "brand": "Xiaomi小米",
       "model": "Watch S5",
       "price_cny": null,
-      "launch_date": "2026-06-17",
-      "codecs": [
-        {
-          "value": "AAC",
-          "evidence": {
-            "value": "AAC",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "手表内置扬声器特写，丝印“AAC 5CGM”。"
-          }
-        }
-      ],
-      "bluetooth": null,
-      "major_chips": [
-        "思远半导体SY5951",
-        "SY5112",
-        "BES2800BP"
-      ],
-      "selling_point_tags": [
-        "其他",
-        "降噪",
-        "升级",
-        "全新",
-        "创新",
-        "第一"
-      ],
-      "sources": [
-        "report"
-      ],
+      "price_layer": null,
+      "main_chip": "思远半导体SY5951",
+      "pmic": "",
+      "battery_ear": "3.79V/815mAh锂电池",
+      "battery_case": "电池",
+      "speaker": "",
+      "materials": "PC、不锈钢",
+      "weight_g": "",
+      "ip_rating": "",
+      "bluetooth": "",
+      "bom_rows": 10,
+      "layer_badges": "technical",
+      "data_completeness": 0.67,
+      "best_report_id": "279485",
       "has_report": true,
       "has_video": false,
-      "source": "report",
-      "data_completeness": 0.67
+      "cost_fields": {
+        "main_chip": {
+          "value": "思远半导体SY5951",
+          "evidence": "主板上，采用思远半导体SY5951同步升压转换器和SY5112高效同步降压转换器，CellWise赛微微电CW2215E锂电池电量计，Southchip南芯SC89620开关模式降压充电器，SGMicro圣邦微SGM38046屏幕供电芯片等电源类芯片。",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "3.79V/815mAh锂电池",
+          "evidence": "主要配置上，内置AAC瑞声科技SPS0613A扬声器、敏芯微MEMS麦克风、气压计、振动马达，采用欣旺达3.79V/815mAh锂电池；",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "电池",
+          "evidence": "CellWise赛微微电CW2215E锂电池电量计芯片，具有5μA超低功耗，支持电流检测。",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "3.79V/815mAh锂电池",
+          "evidence": "主要配置上，内置AAC瑞声科技SPS0613A扬声器、敏芯微MEMS麦克风、气压计、振动马达，采用欣旺达3.79V/815mAh锂电池；",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "USB-A",
+          "evidence": "USB-A",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "10",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "包装盒内部配件：使用说明书和充电器。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "PC、不锈钢",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "智能手表",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "其他",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "AAC",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "815 mAh",
+          "evidence": "815mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "USB-A",
+          "evidence": "USB-A",
+          "source_layer": "technical"
+        }
+      }
     }
   ]
 }

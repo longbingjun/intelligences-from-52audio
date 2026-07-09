@@ -308,6 +308,7 @@ gantt
 
 | 文档 | 内容 |
 |------|------|
+| [ARCHITECTURE_THINKING_FRAMEWORK.md](./ARCHITECTURE_THINKING_FRAMEWORK.md) | 跨项目通用架构思考框架（八维、演进触发器、任务卡片） |
 | [DESIGN.md](./DESIGN.md) | 数据源侦察、抽取算法、OCR/ASR 调研、时间线方案 |
 | [ARCHITECTURE_V3.md](./ARCHITECTURE_V3.md) | 多角色透镜与 12 字段卖点框架（历史设计参考） |
 | [ARCHITECTURE_V4.md](./ARCHITECTURE_V4.md) | 四层信源、成本矩阵、BOM OCR 闭环 |

@@ -21,8 +21,13 @@ from core.products import (  # noqa: E402
     normalize_model,
 )
 
-PRODUCTS_DIR = ROOT / "data" / "products"
-INDEX_PATH = PRODUCTS_DIR / "index.json"
+from core.paths import (
+    products_dir,
+    products_index_path,
+    update_manifest,
+    write_product_json,
+    write_products_index,
+)
 
 
 def _record_identity(record: dict) -> tuple[str, str, str]:
@@ -55,7 +60,7 @@ def _pick_category(categories: list[str]) -> str:
 
 
 def build_products() -> dict:
-    PRODUCTS_DIR.mkdir(parents=True, exist_ok=True)
+    products_dir(for_write=True)
 
     reports_by_id: dict[str, dict] = {}
     for r in load_all_records("report"):
@@ -134,9 +139,7 @@ def build_products() -> dict:
             "summary_text": cost_data["summary_text"],
             "layer_refs": cost_data["layer_refs"],
         }
-        (PRODUCTS_DIR / f"{cid}.json").write_text(
-            json.dumps(product, ensure_ascii=False, indent=2), encoding="utf-8"
-        )
+        write_product_json(cid, product)
         index_items.append(
             {
                 "canonical_id": cid,
@@ -158,9 +161,11 @@ def build_products() -> dict:
         "count": len(index_items),
         "products": index_items,
     }
-    INDEX_PATH.write_text(json.dumps(index, ensure_ascii=False, indent=2), encoding="utf-8")
+    write_products_index(index)
+    update_manifest(step="build_products", stats={"products": len(index_items)})
 
-    return {"products": len(index_items), "index_path": str(INDEX_PATH)}
+    idx_path = products_index_path()
+    return {"products": len(index_items), "index_path": str(idx_path)}
 
 
 def main() -> None:

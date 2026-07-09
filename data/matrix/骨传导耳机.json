@@ -1,15 +1,22 @@
 {
   "category": "骨传导耳机",
-  "generated_at": "2026-07-06T05:20:38+00:00",
+  "generated_at": "2026-07-09T15:45:36+08:00",
   "columns": [
+    "brand",
+    "model",
     "price_cny",
-    "launch_date",
-    "codecs",
+    "main_chip",
+    "pmic",
+    "battery_ear",
+    "battery_case",
+    "speaker",
+    "materials",
+    "weight_g",
+    "ip_rating",
     "bluetooth",
-    "major_chips",
-    "selling_point_tags",
-    "data_completeness",
-    "source"
+    "bom_rows",
+    "layer_badges",
+    "data_completeness"
   ],
   "rows": [
     {
@@ -17,50 +24,142 @@
       "brand": "",
       "model": "优乐生活Me-300S+",
       "price_cny": null,
-      "launch_date": "2026-04-08",
-      "codecs": [],
+      "price_layer": null,
+      "main_chip": "JL7006",
+      "pmic": "",
+      "battery_ear": "3.7V/150mAh锂电池",
+      "battery_case": "电池",
+      "speaker": "",
+      "materials": "硅胶、钛合金、液态硅胶",
+      "weight_g": "22.3g",
+      "ip_rating": "",
       "bluetooth": "5.3",
-      "major_chips": [
-        "JL7006"
-      ],
-      "selling_point_tags": [
-        "长续航",
-        "舒适佩戴",
-        "防水防尘",
-        "防水",
-        "防尘",
-        "轻量化"
-      ],
-      "sources": [
-        "report"
-      ],
+      "bom_rows": 10,
+      "layer_badges": "technical、channel、official",
+      "data_completeness": 0.67,
+      "best_report_id": "272011",
       "has_report": true,
       "has_video": false,
-      "source": "report",
-      "data_completeness": 0.67
+      "cost_fields": {
+        "main_chip": {
+          "value": "JL7006",
+          "evidence": "耳机搭载3.7V/150mAh锂电池，采用跑道型震动发生模组，内置一颗MEMS麦克风，主控芯片为JL杰理科技JL7006F蓝牙音频SoC，其他还采用了LPS微源半导体LP5305A过压过流保护IC等芯片。",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "3.7V/150mAh锂电池",
+          "evidence": "耳机搭载3.7V/150mAh锂电池，采用跑道型震动发生模组，内置一颗MEMS麦克风，主控芯片为JL杰理科技JL7006F蓝牙音频SoC，其他还采用了LPS微源半导体LP5305A过压过流保护IC等芯片。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "电池",
+          "evidence": "包装盒背面介绍了产品的详细功能特点和参数信息。可折叠易收纳、舒适佩戴、IP66级防尘防水、长续航、12个月质保；产品型号：Me-300S，电源输入：DC 5V-500mA，产品功率：0.3W x 2，电池容量：150mAh，蓝牙版本：BT5.3，通讯距离：约10米，频响：50Hz-18KHz，优乐生活（深圳）科技有限公司。",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "3.7V/150mAh锂电池",
+          "evidence": "耳机搭载3.7V/150mAh锂电池，采用跑道型震动发生模组，内置一颗MEMS麦克风，主控芯片为JL杰理科技JL7006F蓝牙音频SoC，其他还采用了LPS微源半导体LP5305A过压过流保护IC等芯片。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "耳机充电线，采用了USB-A to Type-C接口。",
+          "evidence": "耳机充电线，采用了USB-A to Type-C接口。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "10",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "打开包装盒，取出内部所有物品，包括了耳机、充电线、产品说明书、保修卡和合格证。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶、钛合金、液态硅胶",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "22.3g",
+          "evidence": "22.3g",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "骨传导耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "其他",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "5.3",
+          "evidence": "蓝牙5.3",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "5.3",
+          "evidence": "蓝牙5.3",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "150 mAh",
+          "evidence": "150mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "耳机充电线，采用了USB-A to Type-C接口。",
+          "evidence": "耳机充电线，采用了USB-A to Type-C接口。",
+          "source_layer": "technical"
+        }
+      }
     },
     {
       "canonical_id": "kaiboaudio--verse-plus",
       "brand": "kaiboaudio凯博",
       "model": "VERSE Plus",
       "price_cny": null,
-      "launch_date": "2026-06-30",
-      "codecs": [],
-      "bluetooth": "5.0",
-      "major_chips": [],
-      "selling_point_tags": [
-        "防水防尘",
-        "升级",
-        "防水",
-        "防尘"
-      ],
-      "sources": [
-        "video"
-      ],
+      "price_layer": null,
+      "main_chip": null,
+      "pmic": null,
+      "battery_ear": null,
+      "battery_case": null,
+      "speaker": null,
+      "materials": null,
+      "weight_g": null,
+      "ip_rating": null,
+      "bluetooth": null,
+      "bom_rows": 0,
+      "layer_badges": "technical、channel、official",
+      "data_completeness": 0.0,
+      "best_report_id": null,
       "has_report": false,
       "has_video": true,
-      "source": "video",
-      "data_completeness": 0.5
+      "cost_fields": {}
     }
   ]
 }

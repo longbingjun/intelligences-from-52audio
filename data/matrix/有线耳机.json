@@ -1,15 +1,22 @@
 {
   "category": "有线耳机",
-  "generated_at": "2026-07-06T05:20:38+00:00",
+  "generated_at": "2026-07-09T15:45:36+08:00",
   "columns": [
+    "brand",
+    "model",
     "price_cny",
-    "launch_date",
-    "codecs",
+    "main_chip",
+    "pmic",
+    "battery_ear",
+    "battery_case",
+    "speaker",
+    "materials",
+    "weight_g",
+    "ip_rating",
     "bluetooth",
-    "major_chips",
-    "selling_point_tags",
-    "data_completeness",
-    "source"
+    "bom_rows",
+    "layer_badges",
+    "data_completeness"
   ],
   "rows": [
     {
@@ -17,52 +24,238 @@
       "brand": "COLORFLY七彩虹",
       "model": "SR",
       "price_cny": null,
-      "launch_date": "2026-05-11",
-      "codecs": [],
-      "bluetooth": null,
-      "major_chips": [],
-      "selling_point_tags": [
-        "开放佩戴",
-        "旗舰定位",
-        "降噪",
-        "旗舰",
-        "定制",
-        "高端",
-        "大幅提升",
-        "灵敏度"
-      ],
-      "sources": [
-        "report",
-        "video"
-      ],
+      "price_layer": null,
+      "main_chip": "",
+      "pmic": "",
+      "battery_ear": "",
+      "battery_case": "",
+      "speaker": "动圈单元",
+      "materials": "硅胶、皮革",
+      "weight_g": "15.7g",
+      "ip_rating": "",
+      "bluetooth": "",
+      "bom_rows": 3,
+      "layer_badges": "technical、channel、official",
+      "data_completeness": 0.33,
+      "best_report_id": "275297",
       "has_report": true,
       "has_video": true,
-      "source": "report",
-      "data_completeness": 0.33
+      "cost_fields": {
+        "main_chip": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "动圈单元",
+          "evidence": "配置上，耳机标配4.4mm平衡无氧铜镀银线，采用10mm碳基高音单元+10mm生物膜动圈单元+6mm金属钛膜动圈单元的三单元组合，搭配专为三动圈架构优化的气流内腔设计，带来通透细腻、层次丰富的高品质聆听体验。",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "3",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶、皮革",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "15.7g",
+          "evidence": "15.7g",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "有线耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "入耳",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        }
+      }
     },
     {
       "canonical_id": "moondrop--rays",
       "brand": "MOONDROP水月雨",
       "model": "RAYS游戏",
       "price_cny": null,
-      "launch_date": "2026-01-12",
-      "codecs": [],
-      "bluetooth": null,
-      "major_chips": [],
-      "selling_point_tags": [
-        "降噪",
-        "其他",
-        "全新",
-        "定制",
-        "沉浸式"
-      ],
-      "sources": [
-        "report"
-      ],
+      "price_layer": null,
+      "main_chip": "",
+      "pmic": "",
+      "battery_ear": "",
+      "battery_case": "",
+      "speaker": "10mm 动圈单元",
+      "materials": "硅胶、皮革",
+      "weight_g": "",
+      "ip_rating": "",
+      "bluetooth": "",
+      "bom_rows": 7,
+      "layer_badges": "technical、channel、official",
+      "data_completeness": 0.33,
+      "best_report_id": "265770",
       "has_report": true,
       "has_video": false,
-      "source": "report",
-      "data_completeness": 0.33
+      "cost_fields": {
+        "main_chip": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "10mm 动圈单元",
+          "evidence": "耳机搭载10mm动圈单元+6mm平板单元，内置一颗MEMS麦克风拾音；",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "USB-A",
+          "evidence": "USB-A",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "7",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "打开包装盒，取出内部所有物品，包括了耳机、耳机线、延长线、耳塞、收纳包、束线器和产品说明书等。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶、皮革",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "有线耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "其他",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "USB-A",
+          "evidence": "USB-A",
+          "source_layer": "technical"
+        }
+      }
     }
   ]
 }

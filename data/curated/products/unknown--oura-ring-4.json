@@ -1,0 +1,125 @@
+{
+  "canonical_id": "unknown--oura-ring-4",
+  "brand": "",
+  "model": "OURA Ring 4智能戒指",
+  "category": "其他音频设备",
+  "report_ids": [
+    "266388"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "266388"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2026-01-16",
+  "latest_published": "2026-01-16",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "5 mAh",
+    "speaker": "",
+    "materials": "钛合金、塑料",
+    "weight_g": "5.2克",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 5,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.5,
+    "best_report_id": "266388"
+  },
+  "bom_table": [
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部结构一览，通过卡槽和定柱固定异形主板。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "柔性主板与电池中间通过空心海绵柱填充，从而实现戒指尺寸的调节。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "ADI亚德诺MAX20345为具有超低IQ电压调节器、升/降压调节器（用于光学检测）和充电器（用于小型锂离子系统）的PMIC，是低功耗可穿戴应用的理想选择。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电底座指示灯特写，通电后白灯亮起。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆掉固定戒指的立柱结构，底座中框结构一览。"
+      }
+    }
+  ],
+  "summary_image_urls": [
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/01/2026011610172025.png",
+      "alt": "拆解报告：OURA Ring 4智能戒指-我爱音频网",
+      "caption": "",
+      "section_hint": "summary_bom",
+      "score": 10
+    }
+  ],
+  "summary_text": "三、智研所总结 最后附上OURA Ring 4智能戒指的已知物料清单，方便大家查阅。 OURA Ring 4智能戒指在外观设计方面，体积小巧轻薄，佩戴舒适；钛合金机身，质感出众，佩戴时尚。采用无线充电设计，配备充电底座，充电方便快捷，也避免了触点式的长期佩戴汗渍侵扰问题。 内部主要配置方面，充电底座采用了Infineon英飞凌CY8C6145FNI-S3F11微控制器，用于整机控制。智能戒指内置GREPOW格瑞普3.53V/17.5mAh电池，采用了ADI亚德诺MAX20345电源管理芯片负责充放电管理；采用亚德诺MAX86178健康监测IC，用于心率、血氧等监测功能；采用英飞凌CY8C6347FMI-BLD53微控制器，实现无线连接和控制。",
+  "layer_refs": {
+    "technical": [
+      "report:266388"
+    ],
+    "channel": [],
+    "official": [],
+    "review": []
+  }
+}

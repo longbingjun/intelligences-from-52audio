@@ -28,15 +28,15 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-from core.ingest import REPORTS_DIR, load_all_records  # noqa: E402
+from core.ingest import load_all_records, reports_dir  # noqa: E402
+from core.paths import write_channel_enrich  # noqa: E402
 from core.products import canonical_product_id, normalize_brand, normalize_model  # noqa: E402
 
 PRICES_DIR = ROOT / "data" / "enrich" / "prices"
-CHANNEL_DIR = ROOT / "data" / "enrich" / "channel"
 
 
 def _canonical_from_report_id(report_id: str) -> str | None:
-    path = REPORTS_DIR / f"{report_id}.json"
+    path = reports_dir() / f"{report_id}.json"
     if path.exists():
         try:
             r = json.loads(path.read_text(encoding="utf-8"))
@@ -54,7 +54,6 @@ def _canonical_from_report_id(report_id: str) -> str | None:
 
 
 def _write_channel(canonical_id: str, row: dict) -> None:
-    CHANNEL_DIR.mkdir(parents=True, exist_ok=True)
     payload = {
         "canonical_id": canonical_id,
         "price_cny": float(row["price_cny"]) if row.get("price_cny") else None,
@@ -65,9 +64,7 @@ def _write_channel(canonical_id: str, row: dict) -> None:
         "captured_at": datetime.now(timezone.utc).date().isoformat(),
         "source_layer": "channel",
     }
-    (CHANNEL_DIR / f"{canonical_id}.json").write_text(
-        json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
+    write_channel_enrich(canonical_id, payload)
 
 
 def _write_legacy_price(report_id: str, row: dict) -> None:

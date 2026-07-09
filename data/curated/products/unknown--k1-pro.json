@@ -1,0 +1,131 @@
+{
+  "canonical_id": "unknown--k1-pro",
+  "brand": "",
+  "model": "徕芬儿童扫振电动牙刷 K1 Pro",
+  "category": "其他音频设备",
+  "report_ids": [
+    "281549"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "281549"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2026-07-03",
+  "latest_published": "2026-07-03",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "650 mAh",
+    "speaker": "",
+    "materials": "PC",
+    "weight_g": "",
+    "ip_rating": "IPX7",
+    "bluetooth": "",
+    "bom_row_count": 6,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.5,
+    "best_report_id": "281549"
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒底部贴有产品标签，标出了内部清单、参数信息，警告和注意事项，以及制造商、生产商等信息。型号：LTFC01，额定输入功率：2W，电压：3.7V，手柄电池容量：650mAh，充电底座电池容量：2400mAh。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "框架上通过螺丝固定主板。主板上通过支架固定无线充电发射线圈和固定磁铁。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "SGMICRO圣邦微SGM41519是一款电池充电器和系统电源路径管理设备，带有集成转换器和电源开关，适用于单节锂离子或锂聚合物电池。这种高度集成的3A设备能够快速充电，并支持适用于智能手机、平板电脑和便携式系统的宽输入电压范围。I2C编程使其成为一种非常灵活的电源和充电器设计解决方案。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身正面设置有一个功能按键和三颗震动模式指示灯。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身背部设置有功能按键、充电接口和扬声器出音孔。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "电机外壳通过橡胶垫与压力传感器接触，用于监测刷牙力度。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:281549"
+    ],
+    "channel": [],
+    "official": [],
+    "review": []
+  }
+}

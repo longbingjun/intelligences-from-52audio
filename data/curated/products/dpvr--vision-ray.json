@@ -1,0 +1,200 @@
+{
+  "canonical_id": "dpvr--vision-ray",
+  "brand": "DPVR大朋",
+  "model": "Vision Ray",
+  "category": "AI眼镜及穿戴设备",
+  "report_ids": [
+    "279183"
+  ],
+  "video_ids": [
+    "280551"
+  ],
+  "related_report_ids": [
+    "279183"
+  ],
+  "related_video_ids": [
+    "280551"
+  ],
+  "first_seen": "2026-06-11",
+  "latest_published": "2026-06-25",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "",
+    "pmic_case": "",
+    "battery_ear": "赣锋 3.89V/210mAh锂电池",
+    "battery_case": "电池",
+    "speaker": "",
+    "materials": "硅胶、PC",
+    "weight_g": "54.4g",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 10,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.5,
+    "best_report_id": "279183"
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "赣锋",
+      "model": "3.89V/210mAh锂电池",
+      "qty_hint": "1",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "3.89V/210mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内部主要配置方面，搭载新余赣锋3.89V/210mAh锂电池，为整机稳定供电。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "采用3颗MEMS麦克风阵列，实现精准收音。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "大朋Vision Ray音频搭载三麦阵列+定向开放式空间扬声单元，嘈杂环境下精准拾音，清晰通话；内置“Hey Sunny”语音AI助手，支持语音操作、识图问答、智能对话、80+语种实时翻译、语音备忘录、智能会议纪要等AI功能，提供全场景便捷体验。续航方面，支持30分钟拍摄，2.5小时通话/音乐，支持边拍边充。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部结构一览，设置电池单元。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧结构一览，右端设置有滑动开关的小板，露铜连接主板。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "右镜腿内部结构一览，设置有主板、扬声器和同轴天线。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "右侧镜腿外观一览，设计有银色品牌LOGO。靠后位置为触控区域，支持滑动、点击等操作。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "镜框正面外观一览，左右两侧对称设计摄像头和指示灯。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "右侧镜腿外观一览，设计有银色品牌LOGO。靠后位置为触控区域，支持滑动、点击等操作。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "镜腿末端设置充电触点。"
+      }
+    }
+  ],
+  "summary_image_urls": [
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/06/2026061110020116.png",
+      "alt": "拆解报告：DPVR大朋Vision Ray AI眼镜-我爱音频网",
+      "caption": "",
+      "section_hint": "summary_bom",
+      "score": 10
+    }
+  ],
+  "summary_text": "三、我爱音频网总结 最后附上DPVR大朋Vision Ray AI眼镜的已知物料清单，方便大家查阅。 DPVR大朋Vision Ray AI眼镜在外观上，采用了类似太阳镜的设计，体积控制属于目前的主流水平。镜框采用了独特的可拆卸式鼻托设计，可以根据脸型自由替换，同时还设计有气囊鼻垫，用于进一步提升个性化佩戴需求。 内部主要配置方面，搭载新余赣锋3.89V/210mAh锂电池，为整机稳定供电。声学部分采用双水滴型喇叭，搭配两颗艾为电子AW88166音频功放驱动；采用3颗MEMS麦克风阵列，实现精准收音。影像方面，采用索尼1200万像素IMX681摄像头模组，并搭载ST意法半导体LSM6DSOWTR 六轴传感器，实现防抖功能。 大朋Vision Ray采用ePoP封装的Longsys江波龙FAPEA3216-58C2930 ePOP4x存储器和紫光展锐W517旗舰级智能穿戴平台，外围电源管理芯片配套Sunlord顺络电子MWTC系列功率电感，射频电路上采用顺络电子SDCL0603Q系列叠层陶瓷电感；其他还采用NationalChip杭州国芯微GX8002 AI语音芯片，提升语音交互性能；采用艾为电子AW93208 Cap Sensor，用于佩戴检测和触摸控制。",
+  "layer_refs": {
+    "technical": [
+      "report:279183",
+      "video:280551"
+    ],
+    "channel": [],
+    "official": [],
+    "review": []
+  }
+}

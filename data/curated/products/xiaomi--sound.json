@@ -1,0 +1,223 @@
+{
+  "canonical_id": "xiaomi--sound",
+  "brand": "Xiaomi小米",
+  "model": "Sound无线音频连接器",
+  "category": "其他音频设备",
+  "report_ids": [
+    "276875"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "276875"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2026-05-21",
+  "latest_published": "2026-05-21",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "昆腾KT0726",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "",
+    "speaker": "",
+    "materials": "PC",
+    "weight_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.2",
+    "bom_row_count": 12,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.5,
+    "best_report_id": "276875"
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "昆腾",
+      "model": "昆腾KT0726",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "昆腾KT0726",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内部主要配置方面，主板搭载了KTMicro昆腾KT0726音频DSP和2个KT0656M UHF发射/接收器，射频电路上采用大量Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "昆腾",
+      "model": "KT0656M",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "KT0656M",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内部主要配置方面，主板搭载了KTMicro昆腾KT0726音频DSP和2个KT0656M UHF发射/接收器，射频电路上采用大量Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "BES2610WD",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2610WD",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "另外还采用了BES恒玄科技BES2610WD无线连接芯片，AICSEMI爱科微AIC8800D40双频WiFi6与蓝牙5.4 SoC，Amlogic晶晨A113X-B智能音频芯片，Winbond华邦W632GU6RB-11 SDRAM存储器和W29N02KVSIAF NAND型闪存，以及GSCoolink基石酷联GSV1501S HDMI接口芯片，LPS微源半导体LP5280S过压保护IC，Sunlord顺络电子MWTC系列功率电感等。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "晶晨",
+      "model": "晶晨A113X",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "晶晨A113X",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "另外还采用了BES恒玄科技BES2610WD无线连接芯片，AICSEMI爱科微AIC8800D40双频WiFi6与蓝牙5.4 SoC，Amlogic晶晨A113X-B智能音频芯片，Winbond华邦W632GU6RB-11 SDRAM存储器和W29N02KVSIAF NAND型闪存，以及GSCoolink基石酷联GSV1501S HDMI接口芯片，LPS微源半导体LP5280S过压保护IC，Sunlord顺络电子MWTC系列功率电感等。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "爱科微",
+      "model": "AIC8800",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AIC8800",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "另外还采用了BES恒玄科技BES2610WD无线连接芯片，AICSEMI爱科微AIC8800D40双频WiFi6与蓝牙5.4 SoC，Amlogic晶晨A113X-B智能音频芯片，Winbond华邦W632GU6RB-11 SDRAM存储器和W29N02KVSIAF NAND型闪存，以及GSCoolink基石酷联GSV1501S HDMI接口芯片，LPS微源半导体LP5280S过压保护IC，Sunlord顺络电子MWTC系列功率电感等。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部结构一览，主板通过螺丝固定，与排线通过连接器连接。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体壁上的两个天线特写，露铜连接主板。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "KTMicro昆腾KT0656M UHF发射/接收器，集成模拟音频输出和数字音频输出接口，可以直接输出数字音频到DSP做音效处理；支持真分集功能，极大地提高了发射接收距离；集成啸叫抑制功能，可以有效改善啸叫造成刺耳噪声、设备损坏的情况发生；集成电池电压检测报警功能，满足用户在便携产品上的电池电压监测需求；采用了低功耗技术，大幅度降低功耗。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "无线连接器二合一数据线，金属外壳，编织线缆，持久耐用。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "功能按键内侧结构特写。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身正面的功能键特写，设置有环形指示灯反馈工作状态。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "昆腾KT0726",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "昆腾KT0726",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "KTMicro昆腾KT0726是一款高性能，高集成度，低功耗的音频DSP，集成高性能双精度浮点DSP，双模蓝牙BT5.4/2.4GHz射频收发系统，多路DCDC和LDO，振荡电路和PLL，4路高品质音频ADC和PGA，3路高品音频DAC和2路甲乙类耳机功率放大器。"
+      }
+    }
+  ],
+  "summary_image_urls": [
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/05/2026052110350946.png",
+      "alt": "拆解报告：Xiaomi小米Sound无线音频连接器-我爱音频网",
+      "caption": "",
+      "section_hint": "summary_bom",
+      "score": 10
+    }
+  ],
+  "summary_text": "三、我爱音频网总结 最后附上Xiaomi小米Sound无线音频连接器的已知物料清单，方便大家查阅。 Xiaomi小米Sound无线音频连接器外观简约，一体成型金属外壳，质感出色，还设计有魔术贴，便于与电视设备固定使用。内部主要配置方面，主板搭载了KTMicro昆腾KT0726音频DSP和2个KT0656M UHF发射/接收器，射频电路上采用大量Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感。 另外还采用了BES恒玄科技BES2610WD无线连接芯片，AICSEMI爱科微AIC8800D40双频WiFi6与蓝牙5.4 SoC，Amlogic晶晨A113X-B智能音频芯片，Winbond华邦W632GU6RB-11 SDRAM存储器和W29N02KVSIAF NAND型闪存，以及GSCoolink基石酷联GSV1501S HDMI接口芯片，LPS微源半导体LP5280S过压保护IC，Sunlord顺络电子MWTC系列功率电感等。",
+  "layer_refs": {
+    "technical": [
+      "report:276875"
+    ],
+    "channel": [],
+    "official": [],
+    "review": []
+  }
+}

@@ -7,11 +7,13 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Literal
 
+from core.paths import channel_enrich_dir, reports_dir, videos_dir
+
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
-REPORTS_DIR = DATA_DIR / "reports"
-VIDEOS_DIR = DATA_DIR / "videos"
+REPORTS_DIR = reports_dir()
+VIDEOS_DIR = videos_dir()
 ENRICH_DIR = DATA_DIR / "enrich"
-CHANNEL_ENRICH_DIR = ENRICH_DIR / "channel"
+CHANNEL_ENRICH_DIR = channel_enrich_dir()
 INDEX_PATH = DATA_DIR / "index.json"
 
 
@@ -49,7 +51,7 @@ def exists(kind: Literal["report", "video"], item_id: str) -> bool:
 
 
 def _path_for(kind: Literal["report", "video"], item_id: str) -> Path:
-    base = REPORTS_DIR if kind == "report" else VIDEOS_DIR
+    base = reports_dir() if kind == "report" else videos_dir()
     return base / f"{item_id}.json"
 
 
@@ -74,7 +76,7 @@ def append_record(kind: Literal["report", "video"], record: dict) -> bool:
 
 
 def load_all_records(kind: Literal["report", "video"]) -> list[dict]:
-    base = REPORTS_DIR if kind == "report" else VIDEOS_DIR
+    base = reports_dir() if kind == "report" else videos_dir()
     if not base.exists():
         return []
     records = []
@@ -107,7 +109,7 @@ def load_video_asr(item_id: str) -> dict | None:
 
 
 def load_channel_enrich(canonical_id: str) -> dict | None:
-    path = CHANNEL_ENRICH_DIR / f"{canonical_id}.json"
+    path = channel_enrich_dir() / f"{canonical_id}.json"
     if not path.exists():
         return None
     try:

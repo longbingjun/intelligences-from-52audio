@@ -14,35 +14,55 @@
 ```powershell
 py -3 -m pip install -r requirements.txt
 
-py scripts/build_products.py
-py scripts/build_matrix.py
-py scripts/prepare_web_data.py
+# 推荐：一键 ETL（产品 → 矩阵 → Web 数据）
+py -3 scripts/build_all.py
+
+# 或分步执行
+py -3 scripts/build_products.py
+py -3 scripts/build_matrix.py
+py -3 scripts/prepare_web_data.py
 cd web; npm install; npm run build
 ```
 
 产物输出到 `site/`（GitHub Pages 根目录）。`prepare_web_data.py` 会同步 JSON 并清理旧版多角色静态页。
 
-## 数据布局
+## 渠道价 enrich（ZOL / 京东 / 官网）
+
+```powershell
+# 单产品
+py -3 scripts/enrich_commerce.py huawei--freebuds-pro-5
+
+# 批量耳机（全部）
+py -3 scripts/enrich_commerce.py --headphones
+
+# 重建产品主数据（价格写入 cost_snapshot，enrich 独立存 staging）
+py -3 scripts/build_products.py
+py -3 scripts/list_commerce_unresolved.py
+```
+
+## 数据布局（ETL Phase 1）
+
+路径由 `core/paths.py` 统一管理；迁移期**双写** `curated/` + 遗留目录。
 
 ```
 data/
-  index.json
-  reports/{id}.json
-  videos/{id}.json
-  products/{canonical_id}.json
-  compare/{品类}.json
-  matrix/{品类}.json
-  enrich/prices/
-  enrich/ocr/
-  enrich/channel/
+  raw/reports/          # 目标：拆解报告（当前仍可用 reports/）
+  staging/channel/      # 渠道价 enrich（镜像 enrich/channel/）
+  staging/official/     # 官网 enrich
+  curated/products/     # 产品主数据（镜像 products/）
+  compare/              # 品类对比 JSON
+  matrix/               # 成本矩阵 JSON
+  manifest.json         # 构建步骤记录
 ```
+
+产品 JSON **不再内嵌** `channel_enrich` / `official_enrich`，仅保留 `layer_refs` 与 `cost_snapshot` 中的价格字段。
 
 ## 售价 / 渠道价补录
 
 ```powershell
-py scripts/import_prices.py data/enrich/channel/example.csv
-py scripts/build_products.py
-py scripts/build_matrix.py
+py -3 scripts/import_prices.py data/enrich/channel/example.csv
+py -3 scripts/build_products.py
+py -3 scripts/build_matrix.py
 ```
 
 ## 部署

@@ -8,8 +8,12 @@ import shutil
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
+import sys
+
+sys.path.insert(0, str(ROOT))
+
+from core.paths import compare_dir, products_dir, products_index_path, update_manifest, WEB_DATA
 DATA = ROOT / "data"
-WEB_DATA = ROOT / "web" / "public" / "data"
 SITE = ROOT / "site"
 
 # V3/V4 多角色静态页目录（V5 Astro 不再生成，构建前清理避免 Pages 残留旧入口）
@@ -55,7 +59,7 @@ def prepare() -> dict:
     (SITE / ".nojekyll").touch(exist_ok=True)
 
     # compare
-    compare_src = DATA / "compare"
+    compare_src = compare_dir()
     compare_dst = WEB_DATA / "compare"
     compare_dst.mkdir(parents=True, exist_ok=True)
     categories = []
@@ -80,10 +84,10 @@ def prepare() -> dict:
     # products index + files
     products_dst = WEB_DATA / "products"
     products_dst.mkdir(parents=True, exist_ok=True)
-    idx_src = DATA / "products" / "index.json"
+    products_src = products_dir()
+    idx_src = products_index_path()
     if idx_src.exists():
         shutil.copy2(idx_src, products_dst / "index.json")
-    products_src = DATA / "products"
     n_products = 0
     if products_src.exists():
         for path in products_src.glob("*.json"):
@@ -108,6 +112,7 @@ def prepare() -> dict:
     (WEB_DATA / "categories.json").write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8"
     )
+    update_manifest(step="prepare_web_data", stats={"categories": len(categories), "products": n_products})
     return {
         "categories": len(categories),
         "products": n_products,

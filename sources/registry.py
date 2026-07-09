@@ -4,6 +4,8 @@ from __future__ import annotations
 
 from sources.base import SourceDescriptor
 from sources.channel.jd_import import CHANNEL_SOURCE
+from sources.channel.jd_client import fetch_jd_price, search_jd  # noqa: F401
+from sources.channel.zol_client import fetch_zol_prices, search_zol_products  # noqa: F401
 from sources.official import OFFICIAL_SOURCE
 from sources.review import REVIEW_SOURCE
 

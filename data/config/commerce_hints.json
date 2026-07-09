@@ -1,0 +1,48 @@
+{
+  "_comment": "电商/官网抓取失败时的已知 SKU 与 URL（可手工维护或通过 enrich_commerce.py --seed 更新）",
+    "huawei--freebuds-pro-5": {
+    "brand": "HUAWEI华为",
+    "model": "FreeBuds Pro 5悦彰",
+    "zol": {
+      "product_id": "2148490",
+      "product_url": "https://detail.zol.com.cn/microphone/index2148490.shtml"
+    },
+    "jd": {
+      "sku_id": "10209757825458",
+      "channel_url": "https://item.jd.com/10209757825458.html",
+      "shop_hint": "京东官方旗舰店",
+      "price_cny": 1449,
+      "msrp_cny": 1499,
+      "price_note": "2026-03 检索：京东官方旗舰店标价，活动价以页面为准；华为商城雪域白曾显示 1399 活动价"
+    },
+    "official": {
+      "url": "https://consumer.huawei.com/cn/headphones/freebuds-pro-5/",
+      "vmall_url": "https://www.vmall.com/product/10086903289940.html",
+      "msrp_cny": 1499,
+      "tagline": "母带级无损音质丨双擎 AI 感知降噪丨星闪™超稳定连接",
+      "highlights": [
+        "4.6 Mbps 母带级无损音质",
+        "双擎 AI 感知降噪",
+        "星闪™超稳定连接",
+        "AI 录音转写",
+        "空间构型稳固佩戴"
+      ]
+    }
+  },
+    "baseus--bowie-mc2": {
+    "brand": "Baseus倍思",
+    "model": "Bowie MC2",
+    "jd": {
+      "sku_id": "100249935595",
+      "channel_url": "https://item.jd.com/100249935595.html",
+      "shop_hint": "倍思京东自营/旗舰店",
+      "price_cny": 349,
+      "msrp_cny": 349,
+      "price_note": "2026-04 IT之家首发价 349 元；京东活动价以页面为准，需本机打开链接确认"
+    },
+    "official": {
+      "url": "https://www.baseus.com/products/bowie-mc2-open-ear-true-wireless-earbuds",
+      "msrp_cny": 429
+    }
+  }
+}

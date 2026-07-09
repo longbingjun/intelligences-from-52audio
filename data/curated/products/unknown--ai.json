@@ -1,0 +1,245 @@
+{
+  "canonical_id": "unknown--ai",
+  "brand": "",
+  "model": "安克 AI 录音豆",
+  "category": "音箱及其他音频设备",
+  "report_ids": [
+    "269266"
+  ],
+  "video_ids": [
+    "270300",
+    "275294"
+  ],
+  "related_report_ids": [
+    "269266"
+  ],
+  "related_video_ids": [
+    "270300",
+    "275294"
+  ],
+  "first_seen": "2026-03-04",
+  "latest_published": "2026-05-11",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "BES2710IMP",
+    "pmic_case": "",
+    "battery_ear": "400 mAh",
+    "battery_case": "3.7V/400mAh锂电池",
+    "speaker": "",
+    "materials": "",
+    "weight_g": "10克",
+    "ip_rating": "IPX4",
+    "bluetooth": "",
+    "bom_row_count": 13,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.67,
+    "best_report_id": "269266"
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "BES2710IMP",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2710IMP",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了2颗MEMS麦克风，采用了KOWIN康盈KAS03111 eMMC5.1存储器、LPS微源半导体LP4081线性充电器、ICM创芯微CM1126C-DDC锂电池保护IC，Realtek瑞昱半导体RTL8711DAF WiFi芯片和BES恒玄科技BES2710IMP蓝牙可穿戴SoC。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3.7V/400mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3.7V/400mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载了VDL紫建电子3.7V/400mAh可充式锂离子电池组，配备有电池保护板负责过充电、过放电、过电流等保护；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3.85V/90mAh钢壳扣式",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3.85V/90mAh钢壳扣式",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "录音豆搭载了VDL紫建电子3.85V/90mAh钢壳扣式电池供电，内置了振动马达和蜂鸣器提供实时反馈。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了2颗MEMS麦克风，采用了KOWIN康盈KAS03111 eMMC5.1存储器、LPS微源半导体LP4081线性充电器、ICM创芯微CM1126C-DDC锂电池保护IC，Realtek瑞昱半导体RTL8711DAF WiFi芯片和BES恒玄科技BES2710IMP蓝牙可穿戴SoC。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "安克 AI 录音豆是近期安克联合飞书发布的一款全新穿戴式AI录音设备，其采用了纽扣式设计，重量仅10克，且支持随心夹、项链式、磁吸式多种佩戴方式，能够轻松适配不同场景便携使用。在配置方面，该产品搭载2 MEMS全向麦克风阵列，5m半径清晰收音；内置大容量电池，标配充电盒，拥有单次8小时，综合32小时的持久续航；支持高速蓝牙和极速WiFi快传，录音内容极速传输。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "安克 AI 录音豆是近期安克联合飞书发布的一款全新穿戴式AI录音设备，其采用了纽扣式设计，重量仅10克，且支持随心夹、项链式、磁吸式多种佩戴方式，能够轻松适配不同场景便携使用。在配置方面，该产品搭载2 MEMS全向麦克风阵列，5m半径清晰收音；内置大容量电池，标配充电盒，拥有单次8小时，综合32小时的持久续航；支持高速蓝牙和极速WiFi快传，录音内容极速传输。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒腔体内部结构一览，设置有主板、电池和一条排线。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "安克 AI 录音豆是近期安克联合飞书发布的一款全新穿戴式AI录音设备，其采用了纽扣式设计，重量仅10克，且支持随心夹、项链式、磁吸式多种佩戴方式，能够轻松适配不同场景便携使用。在配置方面，该产品搭载2 MEMS全向麦克风阵列，5m半径清晰收音；内置大容量电池，标配充电盒，拥有单次8小时，综合32小时的持久续航；支持高速蓝牙和极速WiFi快传，录音内容极速传输。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "面板底部结构一览，印刷有LDS镭射天线。麦克风拾音孔内侧通过丝网防护，指示灯设置有遮光罩密封。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒侧边设置有三颗指示灯、Type-C充电接口和配对按键。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒侧边设置有三颗指示灯、Type-C充电接口和配对按键。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身另外一侧设置有充电触点和蜂鸣器开孔。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2710IMP",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2710IMP",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄科技BES2710IMP超低功耗、高性能蓝牙可穿戴SoC。"
+      }
+    }
+  ],
+  "summary_image_urls": [
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/03/2026030403555328.png",
+      "alt": "拆解报告：安克 AI 录音豆-我爱音频网",
+      "caption": "",
+      "section_hint": "summary_bom",
+      "score": 10
+    }
+  ],
+  "summary_text": "三、我爱音频网总结 最后附上安克 AI 录音豆的已知物料清单，方便大家查阅。 安克 AI 录音豆在外观方面，采用了纽扣式设计，体积小巧轻盈，且支持领夹式、挂脖式、磁吸式多种佩戴方式，使用便携，佩戴无感。同时还标配了充电盒，不仅能够提供移动充电，还可以吸附在手机等物品上，方便录音豆收音。 内部主要配置方面，充电盒搭载了VDL紫建电子3.7V/400mAh可充式锂离子电池组，配备有电池保护板负责过充电、过放电、过电流等保护；主板上，采用了SinhMicro昇生微电子SS88D8H POWER MCU，负责内置电池的充放电管理和整机控制。 录音豆搭载了VDL紫建电子3.85V/90mAh钢壳扣式电池供电，内置了振动马达和蜂鸣器提供实时反馈。主板上，搭载了2颗MEMS麦克风，采用了KOWIN康盈KAS03111 eMMC5.1存储器、LPS微源半导体LP4081线性充电器、ICM创芯微CM1126C-DDC锂电池保护IC，Realtek瑞昱半导体RTL8711DAF WiFi芯片和BES恒玄科技BES2710IMP蓝牙可穿戴SoC。",
+  "layer_refs": {
+    "technical": [
+      "report:269266",
+      "video:270300",
+      "video:275294"
+    ],
+    "channel": [],
+    "official": [],
+    "review": []
+  }
+}

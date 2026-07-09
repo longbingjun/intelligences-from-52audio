@@ -8,10 +8,8 @@ import unicodedata
 from pathlib import Path
 
 from core.cost_extract import compute_cost_completeness, extract_cost_fields, pick_best_report
+from core.paths import channel_enrich_dir, official_enrich_dir
 from sources.audio52.lexicon import BRAND_ALIASES
-
-DATA_DIR = Path(__file__).resolve().parent.parent / "data"
-CHANNEL_ENRICH_DIR = DATA_DIR / "enrich" / "channel"
 
 _SLUG_RE = re.compile(r"[^a-z0-9]+")
 
@@ -83,9 +81,19 @@ def guess_brand_from_text(text: str) -> str:
     return best[2] if best else ""
 
 
+def load_official_enrich(canonical_id: str) -> dict | None:
+    path = official_enrich_dir() / f"{canonical_id}.json"
+    if not path.exists():
+        return None
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+
+
 def load_channel_enrich(canonical_id: str) -> dict | None:
     """读取渠道层 enrich（按 canonical_id）。"""
-    path = CHANNEL_ENRICH_DIR / f"{canonical_id}.json"
+    path = channel_enrich_dir() / f"{canonical_id}.json"
     if not path.exists():
         return None
     try:
@@ -121,11 +129,15 @@ def merge_cost_snapshot(
     fields = extract_cost_fields(views, row_fallback=row_fallback) if best else {}
 
     channel = load_channel_enrich(canonical_id)
+    official = load_official_enrich(canonical_id)
     price_cny = None
     price_layer = None
     if channel and channel.get("price_cny") is not None:
         price_cny = channel.get("price_cny")
         price_layer = "channel"
+    elif official and official.get("msrp_cny") is not None:
+        price_cny = official.get("msrp_cny")
+        price_layer = "official"
     elif market_price is not None:
         price_cny = market_price
         price_layer = "technical"
@@ -133,7 +145,7 @@ def merge_cost_snapshot(
     layer_refs: dict[str, list[str]] = {
         "technical": [f"report:{r['id']}" for r in reports] + [f"video:{vid}" for vid in video_ids],
         "channel": [f"channel:{canonical_id}"] if channel else [],
-        "official": [],
+        "official": [f"official:{canonical_id}"] if official else [],
         "review": [],
     }
 
@@ -163,5 +175,4 @@ def merge_cost_snapshot(
         "summary_image_urls": summary_image_urls,
         "summary_text": summary_text,
         "layer_refs": layer_refs,
-        "channel_enrich": channel,
     }
