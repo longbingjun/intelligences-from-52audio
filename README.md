@@ -45,6 +45,27 @@ py -3 scripts/report_video_asr_impact.py
 
 依赖：`yt-dlp`、`faster-whisper`（已写入 requirements.txt）。首条会下载 Whisper 模型，约 10 分钟/视频。
 
+**ASR 失败 / empty 排查**（常见原因：B 站限流、未登录、视频下架）：
+
+```powershell
+# 1. 浏览器导出 Netscape cookies.txt 后重试（推荐）
+py -3 scripts/enrich_video.py --retry-empty --cookies data/cookies.txt
+
+# 2. 关闭 Edge/Chrome 后从浏览器读取 cookies
+py -3 scripts/enrich_video.py --retry-empty --cookies-from-browser edge
+
+# 3. 加大请求间隔，降低限流概率
+py -3 scripts/enrich_video.py --retry-empty --delay 60 --delay-jitter 30
+
+# 4. 更新 yt-dlp
+py -3 -m pip install -U yt-dlp
+
+# 5. 手动：本地下载音频后用 faster-whisper 转写，写入 data/enrich/videos/{id}.asr.json
+
+# 6. 兜底：同产品 ID 的 52audio 拆解报告文字常覆盖视频要点，可用 report 信源补全 views
+py -3 scripts/reprocess_views.py --videos-only
+```
+
 ```powershell
 # 单产品
 py -3 scripts/enrich_commerce.py huawei--freebuds-pro-5

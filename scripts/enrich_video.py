@@ -6,6 +6,14 @@
   python scripts/enrich_video.py --pending --limit 20   # 只处理前 20 条 pending
   python scripts/enrich_video.py --retry-empty          # 重试 ASR 为 empty/failed 的视频
   python scripts/enrich_video.py --retry-empty --cookies-from-browser edge
+
+ASR 失败 / empty 排查（B 站限流、未登录、视频下架等）：
+  1. 导出 cookies.txt，用 --cookies path/to/cookies.txt（优先于浏览器读取）
+  2. 关闭浏览器后：--retry-empty --cookies-from-browser edge
+  3. 加大间隔：--delay 60 --delay-jitter 30
+  4. 更新 yt-dlp：py -3 -m pip install -U yt-dlp
+  5. 手动：yt-dlp 下载音频到本地，faster-whisper 转写后写入 data/enrich/videos/{id}.asr.json
+  6. 兜底：同产品 ID 的 52audio 拆解报告文字常覆盖视频要点，可用 report 信源补全 views
 """
 from __future__ import annotations
 
@@ -290,6 +298,8 @@ def main() -> None:
         action="store_true",
         help="重试时覆盖已有 done 且含 transcript 的 ASR 结果",
     )
+    parser.add_argument(
+        "--delay",
         type=float,
         default=45.0,
         help="批量处理时，每条视频之间的等待秒数（默认 45，0=不等待）",

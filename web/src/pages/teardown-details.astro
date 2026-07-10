@@ -12,6 +12,8 @@ type TeardownItem = {
   category: string;
 };
 
+const PAGE_SIZE = 15;
+
 const dataPath = path.join(process.cwd(), "public", "data", "teardown_details.json");
 const payload = fs.existsSync(dataPath)
   ? JSON.parse(fs.readFileSync(dataPath, "utf-8"))
@@ -19,6 +21,27 @@ const payload = fs.existsSync(dataPath)
 
 const reports = (payload.reports || []) as TeardownItem[];
 const videos = (payload.videos || []) as TeardownItem[];
+
+function pageSlice<T>(items: T[], page: number): T[] {
+  const start = (page - 1) * PAGE_SIZE;
+  return items.slice(start, start + PAGE_SIZE);
+}
+
+function pageHref(reportPage: number, videoPage: number): string {
+  const params = new URLSearchParams();
+  if (reportPage > 1) params.set("reportPage", String(reportPage));
+  if (videoPage > 1) params.set("videoPage", String(videoPage));
+  const qs = params.toString();
+  return qs ? `?${qs}` : "";
+}
+
+// Static build defaults to page 1; client script applies URL query params after load.
+const reportPage = 1;
+const videoPage = 1;
+const reportTotalPages = Math.max(1, Math.ceil(reports.length / PAGE_SIZE));
+const videoTotalPages = Math.max(1, Math.ceil(videos.length / PAGE_SIZE));
+const pagedReports = pageSlice(reports, reportPage);
+const pagedVideos = pageSlice(videos, videoPage);
 ---
 
 <BaseLayout title="拆解视频、报告明细" activeNav="teardown">
@@ -37,32 +60,68 @@ const videos = (payload.videos || []) as TeardownItem[];
         reports.length === 0 ? (
           <p class="text-sm text-[var(--muted)]">暂无耳机拆解报告。</p>
         ) : (
-          <ul class="m-0 list-none space-y-4 p-0">
-            {
-              reports.map((item) => (
-                <li class="border-b border-[var(--line)] pb-4 last:border-b-0 last:pb-0">
-                  <a
-                    href={item.url}
-                    target="_blank"
-                    rel="noopener"
-                    class="font-semibold text-[var(--primary)] no-underline hover:underline"
-                  >
-                    {item.title}
-                  </a>
-                  <div class="mt-1 text-sm text-[var(--muted)]">
-                    <span>发布者：{item.publisher || "未知"}</span>
-                    <span class="mx-2">·</span>
-                    <span>发布日期：{item.published_at || "未知"}</span>
-                  </div>
-                  <div class="mt-1 truncate text-xs text-[var(--muted)]">
-                    <a href={item.url} target="_blank" rel="noopener" class="text-[var(--muted)]">
-                      {item.url}
+          <>
+            <p id="report-page-info" class="mb-4 text-sm text-[var(--muted)]">
+              第 {reportPage}/{reportTotalPages} 页，共 {reports.length} 条
+            </p>
+            <ul id="report-list" class="m-0 list-none space-y-4 p-0">
+              {
+                pagedReports.map((item) => (
+                  <li class="border-b border-[var(--line)] pb-4 last:border-b-0 last:pb-0">
+                    <a
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener"
+                      class="font-semibold text-[var(--primary)] no-underline hover:underline"
+                    >
+                      {item.title}
                     </a>
-                  </div>
-                </li>
-              ))
-            }
-          </ul>
+                    <div class="mt-1 text-sm text-[var(--muted)]">
+                      <span>发布者：{item.publisher || "未知"}</span>
+                      <span class="mx-2">·</span>
+                      <span>发布日期：{item.published_at || "未知"}</span>
+                    </div>
+                    <div class="mt-1 truncate text-xs text-[var(--muted)]">
+                      <a href={item.url} target="_blank" rel="noopener" class="text-[var(--muted)]">
+                        {item.url}
+                      </a>
+                    </div>
+                  </li>
+                ))
+              }
+            </ul>
+            <nav
+              id="report-pagination"
+              class="mt-6 flex flex-wrap items-center justify-between gap-3 border-t border-[var(--line)] pt-4"
+              aria-label="拆解报告分页"
+            >
+              {
+                reportPage > 1 ? (
+                  <a
+                    href={pageHref(reportPage - 1, videoPage)}
+                    class="rounded-full border border-[var(--line)] px-3 py-1.5 text-sm text-[var(--primary)] no-underline hover:bg-[#eef3ff] hover:no-underline"
+                  >
+                    上一页
+                  </a>
+                ) : (
+                  <span class="rounded-full px-3 py-1.5 text-sm text-[var(--muted)] opacity-50">上一页</span>
+                )
+              }
+              <span class="text-sm text-[var(--muted)]">{reportPage} / {reportTotalPages}</span>
+              {
+                reportPage < reportTotalPages ? (
+                  <a
+                    href={pageHref(reportPage + 1, videoPage)}
+                    class="rounded-full border border-[var(--line)] px-3 py-1.5 text-sm text-[var(--primary)] no-underline hover:bg-[#eef3ff] hover:no-underline"
+                  >
+                    下一页
+                  </a>
+                ) : (
+                  <span class="rounded-full px-3 py-1.5 text-sm text-[var(--muted)] opacity-50">下一页</span>
+                )
+              }
+            </nav>
+          </>
         )
       }
     </section>
@@ -73,34 +132,188 @@ const videos = (payload.videos || []) as TeardownItem[];
         videos.length === 0 ? (
           <p class="text-sm text-[var(--muted)]">暂无耳机拆解视频。</p>
         ) : (
-          <ul class="m-0 list-none space-y-4 p-0">
-            {
-              videos.map((item) => (
-                <li class="border-b border-[var(--line)] pb-4 last:border-b-0 last:pb-0">
-                  <a
-                    href={item.url}
-                    target="_blank"
-                    rel="noopener"
-                    class="font-semibold text-[var(--primary)] no-underline hover:underline"
-                  >
-                    {item.title}
-                  </a>
-                  <div class="mt-1 text-sm text-[var(--muted)]">
-                    <span>发布者：{item.publisher || "未知"}</span>
-                    <span class="mx-2">·</span>
-                    <span>发布日期：{item.published_at || "未知"}</span>
-                  </div>
-                  <div class="mt-1 truncate text-xs text-[var(--muted)]">
-                    <a href={item.url} target="_blank" rel="noopener" class="text-[var(--muted)]">
-                      {item.url}
+          <>
+            <p id="video-page-info" class="mb-4 text-sm text-[var(--muted)]">
+              第 {videoPage}/{videoTotalPages} 页，共 {videos.length} 条
+            </p>
+            <ul id="video-list" class="m-0 list-none space-y-4 p-0">
+              {
+                pagedVideos.map((item) => (
+                  <li class="border-b border-[var(--line)] pb-4 last:border-b-0 last:pb-0">
+                    <a
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener"
+                      class="font-semibold text-[var(--primary)] no-underline hover:underline"
+                    >
+                      {item.title}
                     </a>
-                  </div>
-                </li>
-              ))
-            }
-          </ul>
+                    <div class="mt-1 text-sm text-[var(--muted)]">
+                      <span>发布者：{item.publisher || "未知"}</span>
+                      <span class="mx-2">·</span>
+                      <span>发布日期：{item.published_at || "未知"}</span>
+                    </div>
+                    <div class="mt-1 truncate text-xs text-[var(--muted)]">
+                      <a href={item.url} target="_blank" rel="noopener" class="text-[var(--muted)]">
+                        {item.url}
+                      </a>
+                    </div>
+                  </li>
+                ))
+              }
+            </ul>
+            <nav
+              id="video-pagination"
+              class="mt-6 flex flex-wrap items-center justify-between gap-3 border-t border-[var(--line)] pt-4"
+              aria-label="拆解视频分页"
+            >
+              {
+                videoPage > 1 ? (
+                  <a
+                    href={pageHref(reportPage, videoPage - 1)}
+                    class="rounded-full border border-[var(--line)] px-3 py-1.5 text-sm text-[var(--primary)] no-underline hover:bg-[#eef3ff] hover:no-underline"
+                  >
+                    上一页
+                  </a>
+                ) : (
+                  <span class="rounded-full px-3 py-1.5 text-sm text-[var(--muted)] opacity-50">上一页</span>
+                )
+              }
+              <span class="text-sm text-[var(--muted)]">{videoPage} / {videoTotalPages}</span>
+              {
+                videoPage < videoTotalPages ? (
+                  <a
+                    href={pageHref(reportPage, videoPage + 1)}
+                    class="rounded-full border border-[var(--line)] px-3 py-1.5 text-sm text-[var(--primary)] no-underline hover:bg-[#eef3ff] hover:no-underline"
+                  >
+                    下一页
+                  </a>
+                ) : (
+                  <span class="rounded-full px-3 py-1.5 text-sm text-[var(--muted)] opacity-50">下一页</span>
+                )
+              }
+            </nav>
+          </>
         )
       }
     </section>
   </div>
+
+  <script id="teardown-data" type="application/json" set:html={JSON.stringify({ reports, videos, pageSize: PAGE_SIZE })} />
+
+  <script>
+    type TeardownItem = {
+      id: string;
+      title: string;
+      publisher: string;
+      published_at: string;
+      url: string;
+      category: string;
+    };
+
+    const dataEl = document.getElementById("teardown-data");
+    if (!dataEl?.textContent) throw new Error("teardown data missing");
+
+    const { reports, videos, pageSize } = JSON.parse(dataEl.textContent) as {
+      reports: TeardownItem[];
+      videos: TeardownItem[];
+      pageSize: number;
+    };
+
+    function parsePage(value: string | null, total: number): number {
+      const n = Number.parseInt(value || "1", 10);
+      const maxPage = Math.max(1, Math.ceil(total / pageSize));
+      if (!Number.isFinite(n) || n < 1) return 1;
+      return Math.min(n, maxPage);
+    }
+
+    function pageHref(reportPage: number, videoPage: number): string {
+      const params = new URLSearchParams();
+      if (reportPage > 1) params.set("reportPage", String(reportPage));
+      if (videoPage > 1) params.set("videoPage", String(videoPage));
+      const qs = params.toString();
+      return qs ? `?${qs}` : window.location.pathname;
+    }
+
+    function renderItem(item: TeardownItem): string {
+      const publisher = item.publisher || "未知";
+      const publishedAt = item.published_at || "未知";
+      return `
+        <li class="border-b border-[var(--line)] pb-4 last:border-b-0 last:pb-0">
+          <a href="${item.url}" target="_blank" rel="noopener" class="font-semibold text-[var(--primary)] no-underline hover:underline">${item.title}</a>
+          <div class="mt-1 text-sm text-[var(--muted)]">
+            <span>发布者：${publisher}</span>
+            <span class="mx-2">·</span>
+            <span>发布日期：${publishedAt}</span>
+          </div>
+          <div class="mt-1 truncate text-xs text-[var(--muted)]">
+            <a href="${item.url}" target="_blank" rel="noopener" class="text-[var(--muted)]">${item.url}</a>
+          </div>
+        </li>
+      `;
+    }
+
+    function renderPagination(
+      containerId: string,
+      currentPage: number,
+      totalPages: number,
+      reportPage: number,
+      videoPage: number,
+      section: "report" | "video",
+    ): void {
+      const nav = document.getElementById(containerId);
+      if (!nav) return;
+
+      const prevPage = section === "report" ? currentPage - 1 : videoPage - 1;
+      const nextPage = section === "report" ? currentPage + 1 : videoPage + 1;
+      const prevHref =
+        section === "report"
+          ? pageHref(prevPage, videoPage)
+          : pageHref(reportPage, prevPage);
+      const nextHref =
+        section === "report"
+          ? pageHref(nextPage, videoPage)
+          : pageHref(reportPage, nextPage);
+
+      const prev =
+        currentPage > 1
+          ? `<a href="${prevHref}" class="rounded-full border border-[var(--line)] px-3 py-1.5 text-sm text-[var(--primary)] no-underline hover:bg-[#eef3ff] hover:no-underline">上一页</a>`
+          : `<span class="rounded-full px-3 py-1.5 text-sm text-[var(--muted)] opacity-50">上一页</span>`;
+
+      const next =
+        currentPage < totalPages
+          ? `<a href="${nextHref}" class="rounded-full border border-[var(--line)] px-3 py-1.5 text-sm text-[var(--primary)] no-underline hover:bg-[#eef3ff] hover:no-underline">下一页</a>`
+          : `<span class="rounded-full px-3 py-1.5 text-sm text-[var(--muted)] opacity-50">下一页</span>`;
+
+      nav.innerHTML = `${prev}<span class="text-sm text-[var(--muted)]">${currentPage} / ${totalPages}</span>${next}`;
+    }
+
+    const params = new URLSearchParams(window.location.search);
+    const reportPage = parsePage(params.get("reportPage"), reports.length);
+    const videoPage = parsePage(params.get("videoPage"), videos.length);
+    const reportTotalPages = Math.max(1, Math.ceil(reports.length / pageSize));
+    const videoTotalPages = Math.max(1, Math.ceil(videos.length / pageSize));
+
+    const reportStart = (reportPage - 1) * pageSize;
+    const videoStart = (videoPage - 1) * pageSize;
+    const pagedReports = reports.slice(reportStart, reportStart + pageSize);
+    const pagedVideos = videos.slice(videoStart, videoStart + pageSize);
+
+    const reportList = document.getElementById("report-list");
+    const videoList = document.getElementById("video-list");
+    const reportInfo = document.getElementById("report-page-info");
+    const videoInfo = document.getElementById("video-page-info");
+
+    if (reportList && reports.length > 0) {
+      reportList.innerHTML = pagedReports.map(renderItem).join("");
+      reportInfo!.textContent = `第 ${reportPage}/${reportTotalPages} 页，共 ${reports.length} 条`;
+      renderPagination("report-pagination", reportPage, reportTotalPages, reportPage, videoPage, "report");
+    }
+
+    if (videoList && videos.length > 0) {
+      videoList.innerHTML = pagedVideos.map(renderItem).join("");
+      videoInfo!.textContent = `第 ${videoPage}/${videoTotalPages} 页，共 ${videos.length} 条`;
+      renderPagination("video-pagination", videoPage, videoTotalPages, reportPage, videoPage, "video");
+    }
+  </script>
 </BaseLayout>
