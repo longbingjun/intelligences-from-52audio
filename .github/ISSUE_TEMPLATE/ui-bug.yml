@@ -1,0 +1,65 @@
+name: 页面问题
+description: 页面显示异常、链接失效、对比表错乱等 UI 问题
+title: "[页面] "
+labels:
+  - bug
+  - ui
+body:
+  - type: markdown
+    attributes:
+      value: |
+        请描述**哪个页面**出了什么问题，以及您使用的浏览器。如有截图可贴在补充说明中。
+
+  - type: input
+    id: page_url
+    attributes:
+      label: 页面地址
+      description: 浏览器地址栏完整 URL，或说明从哪个入口进入
+      placeholder: "https://longbingjun.github.io/intelligences-from-52audio/category/真无线耳机TWS"
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: 问题描述
+      description: 实际看到什么？期望看到什么？
+      placeholder: |
+        例：勾选 3 款产品后对比表只显示 2 列；或产品页 BOM 表格与 52audio 原文不一致。
+    validations:
+      required: true
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: 截图说明
+      description: 可在此描述截图内容，或将截图拖入 Issue 评论区
+      placeholder: "例：对比表右侧出现横向滚动条且最后一列被裁切"
+    validations:
+      required: false
+
+  - type: dropdown
+    id: browser
+    attributes:
+      label: 浏览器
+      options:
+        - Chrome
+        - Edge
+        - Firefox
+        - Safari
+        - 手机浏览器（iOS）
+        - 手机浏览器（Android）
+        - 其他 / 不确定
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: 复现步骤（选填）
+      placeholder: |
+        1. 打开品类对比页
+        2. 搜索「华为」并勾选两款产品
+        3. 点击「生成对比表」
+    validations:
+      required: false

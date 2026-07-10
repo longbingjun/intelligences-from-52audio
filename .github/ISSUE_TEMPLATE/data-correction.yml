@@ -1,0 +1,69 @@
+name: 数据纠错
+description: 产品名称、参数、BOM 字段等有误，请提供正确值与来源
+title: "[纠错] "
+labels:
+  - data
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢帮忙校对数据！请尽量附上**来源链接**（52audio 拆解报告、官网规格页等），便于核实后更新。
+
+  - type: input
+    id: product_name
+    attributes:
+      label: 产品名称
+      description: 站点上显示的产品名，或产品页 URL 中的型号
+      placeholder: "例：华为 FreeBuds Pro 5"
+    validations:
+      required: true
+
+  - type: input
+    id: product_url
+    attributes:
+      label: 产品页链接（如有）
+      placeholder: "https://longbingjun.github.io/intelligences-from-52audio/product/huawei--freebuds-pro-5"
+    validations:
+      required: false
+
+  - type: input
+    id: field_name
+    attributes:
+      label: 有误的字段
+      description: 对比表或产品档案中的字段名
+      placeholder: "例：主控芯片、电池容量、售价、BOM 某一行"
+    validations:
+      required: true
+
+  - type: textarea
+    id: current_value
+    attributes:
+      label: 当前显示的值
+      placeholder: "例：AB1565"
+    validations:
+      required: true
+
+  - type: textarea
+    id: correct_value
+    attributes:
+      label: 正确值
+      placeholder: "例：麒麟 A2"
+    validations:
+      required: true
+
+  - type: input
+    id: source_url
+    attributes:
+      label: 来源链接
+      description: 拆解报告、官网、评测文章等可核实来源
+      placeholder: "https://www.52audio.com/archives/xxxxx"
+    validations:
+      required: true
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: 补充说明
+      placeholder: 截图、段落引用、是否影响多款产品等（选填）
+    validations:
+      required: false

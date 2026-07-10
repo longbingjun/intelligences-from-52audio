@@ -118,4 +118,5 @@ py -3 scripts/build_matrix.py
 | [docs/README.md](docs/README.md) | 完整文档索引 |
 
 开发新功能前请先阅读 [PROJECT_ROADMAP.md](docs/PROJECT_ROADMAP.md) 中的开发宪章与 Gate 规则。  
-规划任务可在 GitHub **Issues → New issue** 选择 V6 模板或「迭代工作单」。
+规划任务可在 GitHub **Issues → New issue** 选择 V6 模板或「迭代工作单」。  
+站点访客可通过页脚 **反馈建议** 或 [Issues 模板选择页](https://github.com/longbingjun/intelligences-from-52audio/issues/new/choose) 提交数据纠错与功能建议。

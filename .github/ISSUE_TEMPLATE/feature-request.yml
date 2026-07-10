@@ -1,0 +1,46 @@
+name: 功能建议
+description: 希望站点增加或改进的功能、对比维度、筛选方式等
+title: "[建议] "
+labels:
+  - enhancement
+body:
+  - type: markdown
+    attributes:
+      value: |
+        感谢反馈！请尽量描述**使用场景**和**期望效果**，方便我们评估优先级。
+
+  - type: textarea
+    id: scenario
+    attributes:
+      label: 使用场景
+      description: 您在什么情况下需要这个功能？
+      placeholder: |
+        例：对标耳夹旗舰立项时，希望能按「主控芯片」筛选产品，快速缩小候选范围。
+    validations:
+      required: true
+
+  - type: textarea
+    id: proposal
+    attributes:
+      label: 期望功能
+      description: 您希望站点如何改进？
+      placeholder: |
+        例：在品类对比页增加「主控芯片」下拉筛选，支持多选。
+    validations:
+      required: true
+
+  - type: textarea
+    id: page_url
+    attributes:
+      label: 相关页面（如有）
+      placeholder: "https://longbingjun.github.io/intelligences-from-52audio/category/开放式耳机"
+    validations:
+      required: false
+
+  - type: textarea
+    id: extra
+    attributes:
+      label: 补充说明
+      placeholder: 截图说明、参考竞品站点、优先级等（选填）
+    validations:
+      required: false
