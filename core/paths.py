@@ -151,6 +151,12 @@ def write_official_enrich(canonical_id: str, payload: dict) -> None:
     write_json_dual(primary, mirror, payload)
 
 
+def write_unboxing_enrich(report_id: str, payload: dict) -> None:
+    primary = unboxing_enrich_dir(for_write=True) / f"{report_id}.json"
+    mirror = LEGACY_ENRICH / "unboxing" / f"{report_id}.json"
+    write_json_dual(primary, mirror, payload)
+
+
 def update_manifest(*, step: str, stats: dict) -> None:
     """追加构建步骤到 data/manifest.json。"""
     manifest: dict = {}

@@ -11,6 +11,7 @@ const { title = "竞品成本情报", activeNav = "" } = Astro.props;
 const fullTitle = title.includes("情报") ? title : `${title} · 竞品成本情报`;
 const home = withBase("/");
 const category = withBase("/category/开放式耳机");
+const teardown = withBase("/teardown-details");
 ---
 
 <!DOCTYPE html>
@@ -35,6 +36,10 @@ const category = withBase("/category/开放式耳机");
             href={category}
             class:list={["rounded-full px-3 py-1.5 no-underline", activeNav === "category" ? "bg-[var(--primary)] text-white" : "text-[var(--muted)] hover:bg-[#eef3ff]"]}
           >品类对比</a>
+          <a
+            href={teardown}
+            class:list={["rounded-full px-3 py-1.5 no-underline", activeNav === "teardown" ? "bg-[var(--primary)] text-white" : "text-[var(--muted)] hover:bg-[#eef3ff]"]}
+          >拆解视频、报告明细</a>
         </nav>
       </div>
     </header>

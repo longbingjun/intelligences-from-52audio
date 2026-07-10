@@ -42,14 +42,9 @@ from core.paths import (
     write_channel_enrich,
     write_official_enrich,
 )
+from core.scope import HEADPHONE_CATEGORIES  # noqa: E402
 
-HEADPHONE_CATEGORIES = {
-    "真无线耳机TWS",
-    "开放式耳机",
-    "头戴式耳机",
-    "有线耳机",
-    "骨传导耳机",
-}
+INDEX_PATH = products_index_path()
 
 
 def _load_hints() -> dict:

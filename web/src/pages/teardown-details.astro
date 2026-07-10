@@ -1,0 +1,106 @@
+---
+import BaseLayout from "../layouts/BaseLayout.astro";
+import fs from "node:fs";
+import path from "node:path";
+
+type TeardownItem = {
+  id: string;
+  title: string;
+  publisher: string;
+  published_at: string;
+  url: string;
+  category: string;
+};
+
+const dataPath = path.join(process.cwd(), "public", "data", "teardown_details.json");
+const payload = fs.existsSync(dataPath)
+  ? JSON.parse(fs.readFileSync(dataPath, "utf-8"))
+  : { reports: [], videos: [], report_count: 0, video_count: 0 };
+
+const reports = (payload.reports || []) as TeardownItem[];
+const videos = (payload.videos || []) as TeardownItem[];
+---
+
+<BaseLayout title="拆解视频、报告明细" activeNav="teardown">
+  <section class="rounded-3xl bg-gradient-to-br from-[#1f3fbf] via-[#335cff] to-[#7357ff] p-8 text-white shadow-lg">
+    <p class="m-0 text-sm uppercase tracking-wider opacity-80">Teardown Catalog</p>
+    <h1 class="mt-2 mb-2 text-3xl font-bold">拆解视频、报告明细</h1>
+    <p class="m-0 max-w-2xl text-base opacity-90">
+      耳机品类拆解报告与拆解视频一览。共 {reports.length} 篇报告、{videos.length} 条视频。
+    </p>
+  </section>
+
+  <div class="mt-8 grid gap-8 lg:grid-cols-2">
+    <section class="rounded-2xl border border-[var(--line)] bg-white p-6 shadow-sm">
+      <h2 class="mt-0 mb-4 text-xl font-bold">拆解报告</h2>
+      {
+        reports.length === 0 ? (
+          <p class="text-sm text-[var(--muted)]">暂无耳机拆解报告。</p>
+        ) : (
+          <ul class="m-0 list-none space-y-4 p-0">
+            {
+              reports.map((item) => (
+                <li class="border-b border-[var(--line)] pb-4 last:border-b-0 last:pb-0">
+                  <a
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener"
+                    class="font-semibold text-[var(--primary)] no-underline hover:underline"
+                  >
+                    {item.title}
+                  </a>
+                  <div class="mt-1 text-sm text-[var(--muted)]">
+                    <span>发布者：{item.publisher || "未知"}</span>
+                    <span class="mx-2">·</span>
+                    <span>发布日期：{item.published_at || "未知"}</span>
+                  </div>
+                  <div class="mt-1 truncate text-xs text-[var(--muted)]">
+                    <a href={item.url} target="_blank" rel="noopener" class="text-[var(--muted)]">
+                      {item.url}
+                    </a>
+                  </div>
+                </li>
+              ))
+            }
+          </ul>
+        )
+      }
+    </section>
+
+    <section class="rounded-2xl border border-[var(--line)] bg-white p-6 shadow-sm">
+      <h2 class="mt-0 mb-4 text-xl font-bold">拆解视频</h2>
+      {
+        videos.length === 0 ? (
+          <p class="text-sm text-[var(--muted)]">暂无耳机拆解视频。</p>
+        ) : (
+          <ul class="m-0 list-none space-y-4 p-0">
+            {
+              videos.map((item) => (
+                <li class="border-b border-[var(--line)] pb-4 last:border-b-0 last:pb-0">
+                  <a
+                    href={item.url}
+                    target="_blank"
+                    rel="noopener"
+                    class="font-semibold text-[var(--primary)] no-underline hover:underline"
+                  >
+                    {item.title}
+                  </a>
+                  <div class="mt-1 text-sm text-[var(--muted)]">
+                    <span>发布者：{item.publisher || "未知"}</span>
+                    <span class="mx-2">·</span>
+                    <span>发布日期：{item.published_at || "未知"}</span>
+                  </div>
+                  <div class="mt-1 truncate text-xs text-[var(--muted)]">
+                    <a href={item.url} target="_blank" rel="noopener" class="text-[var(--muted)]">
+                      {item.url}
+                    </a>
+                  </div>
+                </li>
+              ))
+            }
+          </ul>
+        )
+      }
+    </section>
+  </div>
+</BaseLayout>

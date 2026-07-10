@@ -152,7 +152,8 @@ def reprocess_video(source: Audio52SourceV2, record: dict, feed_index: dict[str,
     asr = load_video_asr(item_id)
     asr_html = ""
     if asr and asr.get("transcript"):
-        asr_html = f"<p>{asr['transcript']}</p>"
+        lines = [ln.strip() for ln in asr["transcript"].splitlines() if ln.strip()]
+        asr_html = "".join(f"<p>{ln}</p>" for ln in lines)
 
     if not content_html and not asr_html:
         return {"id": item_id, "status": "no_content", "completeness_before": record.get("data_completeness", 0)}
@@ -192,7 +193,9 @@ def reprocess_video(source: Audio52SourceV2, record: dict, feed_index: dict[str,
         "completeness_before": record.get("data_completeness", 0),
         "completeness_after": completeness,
         "has_embed": bool(record.get("video_embed_url")),
-        "has_asr": bool(asr),
+        "chips": len(views_dict.get("cost", {}).get("chip_modules", [])),
+        "bom_rows": len(views_dict.get("cost", {}).get("bom_table", [])),
+        "chip_models": [c.get("model") for c in views_dict.get("cost", {}).get("chip_modules", [])[:8]],
     }
 
 

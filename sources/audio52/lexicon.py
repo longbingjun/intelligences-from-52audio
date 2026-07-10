@@ -227,6 +227,15 @@ CHIP_PATTERNS = [
     r"昆腾\s*KT\d+[A-Z]?",
     r"KT0656M",
     r"KT\d{4}[A-Z]?",
+    # 拆解视频 ASR 常见型号（含简繁/口误变体）
+    r"SS-?88[01]",
+    r"ETA\d{4}[A-Z]?",
+    r"CM\d{4}[A-Z]?",
+    r"IP\d{4}[A-Z]?",
+    r"WP-?\d{4}[A-Z]?",
+    r"BES\d{3,}[A-Z0-9]*",
+    r"CSU\d{2}[A-Z0-9]+",
+    r"SY\d{4}[A-Z]?",
 ]
 
 # 芯片型号 → 厂商展示名（用于 BOM 行 brand 字段归一化）。

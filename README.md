@@ -14,19 +14,36 @@
 ```powershell
 py -3 -m pip install -r requirements.txt
 
-# 推荐：一键 ETL（产品 → 矩阵 → Web 数据）
+# 推荐：耳机专用 ETL（产品 → 开箱 → 矩阵 → Web）
 py -3 scripts/build_all.py
 
-# 或分步执行
+# 或分步
+py -3 scripts/build_products.py
+py -3 scripts/enrich_unboxing.py --headphones
 py -3 scripts/build_products.py
 py -3 scripts/build_matrix.py
 py -3 scripts/prepare_web_data.py
 cd web; npm install; npm run build
 ```
 
+**数据范围**：仅保留耳机品类（TWS / 开放式 / 头戴 / 有线 / 骨传导 / 颈挂）。爬虫与新入库会自动跳过音箱、手表、眼镜等。
+
 产物输出到 `site/`（GitHub Pages 根目录）。`prepare_web_data.py` 会同步 JSON 并清理旧版多角色静态页。
 
-## 渠道价 enrich（ZOL / 京东 / 官网）
+## 拆解视频 ASR（B 站）
+
+```powershell
+# 批量转写（yt-dlp 拉音频 + faster-whisper，B 站字幕需登录故走 ASR）
+py -3 scripts/enrich_video.py --pending
+
+# 合并转写稿到 views，刷新芯片/BOM 抽取
+py -3 scripts/reprocess_views.py --videos-only
+
+py -3 scripts/build_products.py
+py -3 scripts/report_video_asr_impact.py
+```
+
+依赖：`yt-dlp`、`faster-whisper`（已写入 requirements.txt）。首条会下载 Whisper 模型，约 10 分钟/视频。
 
 ```powershell
 # 单产品

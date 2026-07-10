@@ -18,6 +18,7 @@ from sources.audio52.lexicon import (
     DEFAULT_CATEGORY,
     PRODUCT_TYPE_SUFFIXES,
 )
+from core.scope import HEADPHONE_CATEGORIES, infer_headphone_category
 
 _REPORT_PREFIXES = ["拆解报告：", "拆解报告:"]
 _VIDEO_PREFIXES = ["拆解视频：", "拆解视频:"]
@@ -38,6 +39,9 @@ def classify_category(text: str) -> str:
     for category, keywords in CATEGORY_RULES:
         if any(kw in text for kw in keywords):
             return category
+    inferred = infer_headphone_category(text)
+    if inferred:
+        return inferred
     return DEFAULT_CATEGORY
 
 

@@ -16,6 +16,7 @@ from core.cost_extract import extract_cost_fields  # noqa: E402
 from core.ingest import load_all_records, merge_price_into_record  # noqa: E402
 from core.paths import compare_dir, matrix_dir, products_dir  # noqa: E402
 from core.products import canonical_product_id, load_channel_enrich, normalize_brand, normalize_model  # noqa: E402
+from core.scope import HEADPHONE_CATEGORIES  # noqa: E402
 
 MATRIX_DIR = matrix_dir()
 COMPARE_DIR = compare_dir()
@@ -95,6 +96,9 @@ def build_matrix() -> dict:
             continue
 
         cid = product["canonical_id"]
+        category = product.get("category", "")
+        if category not in HEADPHONE_CATEGORIES:
+            continue
         snap = product.get("cost_snapshot") or {}
         fields = {}
         best_rid = snap.get("best_report_id")
@@ -138,8 +142,9 @@ def build_matrix() -> dict:
             "has_video": bool(product.get("video_ids")),
             "cost_fields": fields,
         }
-        by_category[product.get("category", "其他音频设备")].append(row)
+        by_category[category].append(row)
 
+    written_names: set[str] = set()
     written = []
     for category, rows in sorted(by_category.items()):
         rows.sort(key=lambda r: (r.get("brand", ""), r.get("model", "")))
@@ -151,6 +156,7 @@ def build_matrix() -> dict:
         }
         out_path = MATRIX_DIR / _category_filename(category)
         out_path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+        written_names.add(_category_filename(category))
         written.append({"category": category, "rows": len(rows), "path": str(out_path)})
 
         # 对比 JSON：行=参数，列=产品
@@ -199,6 +205,14 @@ def build_matrix() -> dict:
         }
         compare_path = COMPARE_DIR / _category_filename(category)
         compare_path.write_text(json.dumps(compare_payload, ensure_ascii=False, indent=2), encoding="utf-8")
+
+    # 移除非耳机品类遗留矩阵/对比文件
+    for folder in (MATRIX_DIR, COMPARE_DIR):
+        if not folder.exists():
+            continue
+        for path in folder.glob("*.json"):
+            if path.name not in written_names:
+                path.unlink()
 
     return {"matrices": len(written), "files": written}
 

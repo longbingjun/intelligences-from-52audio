@@ -1,9 +1,9 @@
 #!/usr/bin/env python3
-"""一键跑通 ETL 主链路：产品主数据 → 矩阵/对比 → Web 发布数据。
+"""一键跑通 ETL 主链路：产品主数据 → 开箱 enrich → 矩阵/对比 → Web 发布数据。
 
 用法:
   py -3 scripts/build_all.py
-  py -3 scripts/build_all.py --skip-matrix
+  py -3 scripts/build_all.py --skip-unboxing
 """
 
 from __future__ import annotations
@@ -32,10 +32,17 @@ def _run(script: str, *args: str) -> dict:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("--skip-matrix", action="store_true")
+    parser.add_argument("--skip-unboxing", action="store_true")
+    parser.add_argument("--skip-prune", action="store_true")
     args = parser.parse_args()
 
     stats: dict = {}
     stats["build_products"] = _run("build_products.py")
+    if not args.skip_prune:
+        stats["prune_non_headphones"] = _run("prune_non_headphones.py")
+    if not args.skip_unboxing:
+        stats["enrich_unboxing"] = _run("enrich_unboxing.py", "--headphones")
+        stats["build_products_after_unboxing"] = _run("build_products.py")
     if not args.skip_matrix:
         stats["build_matrix"] = _run("build_matrix.py")
     stats["prepare_web_data"] = _run("prepare_web_data.py")

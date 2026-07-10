@@ -24,23 +24,143 @@
     "weight_g": null,
     "ip_rating": null,
     "bluetooth": null,
-    "bom_row_count": 0,
-    "price_cny": null,
-    "price_layer": null,
-    "channel_url": null,
+    "bom_row_count": 8,
+    "price_cny": 1799.0,
+    "price_layer": "channel",
+    "channel_url": "https://detail.zol.com.cn/microphone/index2004956.shtml",
     "sales_hint": null,
     "data_completeness": 0.0,
-    "best_report_id": null
+    "best_report_id": null,
+    "best_video_id": "271331"
   },
-  "bom_table": [],
+  "bom_table": [
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机充电盒采用了长条型的统元型设计"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒为内置理电池"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "设置有主板单元"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "同时也是麦克风的实音孔"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板下方设置有蓝牙天线和功能按键小板"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "下方隐藏有一颗屋里按键"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "排线连接充电触点"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "金透红配色的搬透明外壳"
+      }
+    }
+  ],
   "summary_image_urls": [],
   "summary_text": "",
   "layer_refs": {
     "technical": [
       "video:271331"
     ],
-    "channel": [],
-    "official": [],
+    "channel": [
+      "channel:unknown--beats-solo-buds"
+    ],
+    "official": [
+      "official:unknown--beats-solo-buds"
+    ],
+    "unboxing": [],
     "review": []
-  }
+  },
+  "unboxing": null
 }

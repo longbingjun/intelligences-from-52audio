@@ -18,6 +18,7 @@ const snap = product.cost_snapshot || {};
 const bom = (product.bom_table || []).filter(
   (r: { model?: string; component?: string }) => (r.model || "").trim() || (r.component || "").trim()
 );
+const unboxing = product.unboxing || null;
 
 const caseRows = bom.filter((r: { side?: string }) => r.side === "充电盒");
 const earRows = bom.filter((r: { side?: string }) => r.side === "耳机");
@@ -26,6 +27,18 @@ const priceTxt =
   snap.price_cny != null
     ? `¥${snap.price_cny}${snap.price_layer === "channel" ? " (渠道)" : ""}`
     : "待补充";
+
+type UnboxModule = {
+  description?: string;
+  accessories?: string[];
+  appearance_images?: { url: string; caption?: string; alt?: string }[];
+};
+
+const unboxSections: { key: string; title: string; mod: UnboxModule | null }[] = [
+  { key: "packaging", title: "包装", mod: unboxing?.packaging ?? null },
+  { key: "charging_case", title: "充电盒", mod: unboxing?.charging_case ?? null },
+  { key: "earbuds", title: "耳机", mod: unboxing?.earbuds ?? null },
+];
 ---
 
 <BaseLayout title={`${product.brand} ${product.model}`} activeNav="category">
@@ -42,6 +55,9 @@ const priceTxt =
     <h1 class="mt-2 text-2xl font-bold">{product.brand} {product.model}</h1>
     <p class="text-sm text-[var(--muted)]">
       成本完整度 {Math.round((snap.data_completeness || 0) * 100)}%
+      {unboxing?.completeness != null && (
+        <> · 开箱图完整度 {Math.round((unboxing.completeness || 0) * 100)}%</>
+      )}
       {snap.channel_url && (
         <>
           {" "}
@@ -50,6 +66,53 @@ const priceTxt =
       )}
     </p>
   </div>
+
+  {
+    unboxing && (
+      <section class="mt-8">
+        <h2 class="text-lg font-bold">开箱 · 外观</h2>
+        <div class="mt-4 grid gap-6 lg:grid-cols-3">
+          {unboxSections.map(({ title, mod }) =>
+            mod ? (
+              <div class="rounded-xl border border-[var(--line)] bg-white p-4">
+                <h3 class="m-0 text-base font-semibold">{title}</h3>
+                {mod.description && (
+                  <p class="mt-2 text-sm leading-relaxed text-[var(--muted)]">{mod.description}</p>
+                )}
+                {title === "包装" && (mod.accessories || []).length > 0 && (
+                  <p class="mt-2 text-sm">
+                    <span class="font-medium">配件：</span>
+                    {(mod.accessories || []).join("、")}
+                  </p>
+                )}
+                {(mod.appearance_images || []).length > 0 && (
+                  <div class="mt-3 flex flex-col gap-3">
+                    {(mod.appearance_images || []).map((img) => (
+                      <figure class="m-0">
+                        <a href={img.url} target="_blank" rel="noopener">
+                          <img
+                            src={img.url}
+                            alt={img.alt || img.caption || title}
+                            class="w-full rounded-lg border border-[var(--line)] object-cover"
+                            loading="lazy"
+                          />
+                        </a>
+                        {img.caption && (
+                          <figcaption class="mt-1 text-xs leading-snug text-[var(--muted)]">
+                            {img.caption}
+                          </figcaption>
+                        )}
+                      </figure>
+                    ))}
+                  </div>
+                )}
+              </div>
+            ) : null
+          )}
+        </div>
+      </section>
+    )
+  }
 
   <div class="mt-6 grid gap-3 sm:grid-cols-2 lg:grid-cols-4">
     {
@@ -129,18 +192,21 @@ const priceTxt =
 
   {
     (product.summary_image_urls || []).length > 0 && (
-      <div class="mt-6 flex flex-wrap gap-3">
-        {product.summary_image_urls.map((img: { url: string; alt?: string }) => (
-          <a href={img.url} target="_blank" rel="noopener">
-            <img
-              src={img.url}
-              alt={img.alt || "物料图"}
-              class="max-h-40 rounded-lg border border-[var(--line)]"
-              loading="lazy"
-            />
-          </a>
-        ))}
-      </div>
+      <>
+        <h2 class="mt-8 text-lg font-bold">物料总结图</h2>
+        <div class="mt-3 flex flex-wrap gap-3">
+          {product.summary_image_urls.map((img: { url: string; alt?: string }) => (
+            <a href={img.url} target="_blank" rel="noopener">
+              <img
+                src={img.url}
+                alt={img.alt || "物料图"}
+                class="max-h-40 rounded-lg border border-[var(--line)]"
+                loading="lazy"
+              />
+            </a>
+          ))}
+        </div>
+      </>
     )
   }
 

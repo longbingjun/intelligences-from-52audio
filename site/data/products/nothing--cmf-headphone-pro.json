@@ -24,23 +24,45 @@
     "weight_g": null,
     "ip_rating": null,
     "bluetooth": null,
-    "bom_row_count": 0,
+    "bom_row_count": 1,
     "price_cny": null,
     "price_layer": null,
-    "channel_url": null,
+    "channel_url": "",
     "sales_hint": null,
     "data_completeness": 0.0,
-    "best_report_id": null
+    "best_report_id": null,
+    "best_video_id": "265077"
   },
-  "bom_table": [],
+  "bom_table": [
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "CMF Headphone Pro头戴式降噪耳机搭载40mm镀镍振膜驱动单元，声音饱满清晰，支持LDAC高清音频解码，获得了Hi-Res Audio Wireless高清音频认证；支持Audiodo技术，能够根据用户耳朵对频率的响应，轻松定制专属音效；还支持独特的低音/高音模式调节，通过耳机能量滑控键便捷控制，打造个性化的听音体验。"
+      }
+    }
+  ],
   "summary_image_urls": [],
   "summary_text": "",
   "layer_refs": {
     "technical": [
       "video:265077"
     ],
-    "channel": [],
-    "official": [],
+    "channel": [
+      "channel:nothing--cmf-headphone-pro"
+    ],
+    "official": [
+      "official:nothing--cmf-headphone-pro"
+    ],
+    "unboxing": [],
     "review": []
-  }
+  },
+  "unboxing": null
 }

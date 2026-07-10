@@ -10,18 +10,23 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from core.ingest import append_record, load_index, save_index  # noqa: E402
+from core.scope import is_headphone_record  # noqa: E402
 from sources.audio52.source_v2 import Audio52SourceV2  # noqa: E402
 
 
 def run_backfill_2026(source: Audio52SourceV2) -> dict:
-    stats = {"mode": "backfill-2026", "new_reports": 0, "new_videos": 0, "skipped": 0, "errors": 0}
+    stats = {"mode": "backfill-2026", "new_reports": 0, "new_videos": 0, "skipped": 0, "errors": 0, "non_headphone": 0}
     for item in source.iter_feed_items(year=2026):
         try:
             record = source.parse_item(item)
             if record is None:
                 continue
+            rec_dict = record.to_dict()
+            if not is_headphone_record(rec_dict):
+                stats["non_headphone"] += 1
+                continue
             kind = "report" if record.type == "report" else "video"
-            if append_record(kind, record.to_dict()):
+            if append_record(kind, rec_dict):
                 if kind == "report":
                     stats["new_reports"] += 1
                 else:
@@ -41,14 +46,18 @@ def run_backfill_2026(source: Audio52SourceV2) -> dict:
 
 
 def run_daily(source: Audio52SourceV2) -> dict:
-    stats = {"mode": "daily", "new_reports": 0, "new_videos": 0, "skipped": 0, "errors": 0}
+    stats = {"mode": "daily", "new_reports": 0, "new_videos": 0, "skipped": 0, "errors": 0, "non_headphone": 0}
     for item in source.iter_feed_items(max_pages=1):
         try:
             record = source.parse_item(item)
             if record is None:
                 continue
+            rec_dict = record.to_dict()
+            if not is_headphone_record(rec_dict):
+                stats["non_headphone"] += 1
+                continue
             kind = "report" if record.type == "report" else "video"
-            if append_record(kind, record.to_dict()):
+            if append_record(kind, rec_dict):
                 if kind == "report":
                     stats["new_reports"] += 1
                 else:

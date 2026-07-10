@@ -24,23 +24,45 @@
     "weight_g": null,
     "ip_rating": null,
     "bluetooth": null,
-    "bom_row_count": 0,
-    "price_cny": null,
-    "price_layer": null,
-    "channel_url": null,
+    "bom_row_count": 1,
+    "price_cny": 388.0,
+    "price_layer": "channel",
+    "channel_url": "https://union-click.jd.com/jdc?e=jd_100214990686&p=JF8BAR4JK1olXwIBV19dC08SA18IGloWXQMKXF9aAUwnRzBQRQQlBENHFRxWFlVPRjtUBABAQlRcCEBdCUoUA2oAE1oSVAEdDRsBVXtVUT9VSSZTLmRrLlYrCBVoBm13T1l1UQoyUV5cCEsfAG0JEmsWXAQBV1dUCUsVM18KGlwUXQEyFjACVg5OWzBeGFoWWAcLV1yJnd3PiPg4GVsUXA8AU1ZaAXsXBWgJGlMWXwMKV15bOEsfBF9DztCIXAYCXW5tOEgnM18IK1glA2gDB1heCkxAVgFUTQFUBlBUFTBUCUgfAmgBHGsXXAcAVm5tOANUYxJaGz0SK0IKLiwpWxlJVRNfWh5KHmgAAgcjXCxiZhV-eSlhKVALNi1tC3sQB2w4",
     "sales_hint": null,
     "data_completeness": 0.0,
-    "best_report_id": null
+    "best_report_id": null,
+    "best_video_id": "278763"
   },
-  "bom_table": [],
+  "bom_table": [
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Nothing Ear（2）真无线降噪耳机，在外观方面延续了家族式的透明元素设计，防水性能得到提升，耳机防汗防尘等级达到了IP54，同时充电盒也支持了IP55防护。功能配置方面，搭载11.6mm动态驱动单元，升级LHDC5.0超清传输协议，可支持24bit/192kHz的高分辨率音频，通过了Hi-Res高清晰度音频认证。"
+      }
+    }
+  ],
   "summary_image_urls": [],
   "summary_text": "",
   "layer_refs": {
     "technical": [
       "video:278763"
     ],
-    "channel": [],
-    "official": [],
+    "channel": [
+      "channel:nothing--ear-2"
+    ],
+    "official": [
+      "official:nothing--ear-2"
+    ],
+    "unboxing": [],
     "review": []
-  }
+  },
+  "unboxing": null
 }

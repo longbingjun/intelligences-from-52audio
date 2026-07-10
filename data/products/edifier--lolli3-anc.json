@@ -24,15 +24,45 @@
     "weight_g": null,
     "ip_rating": null,
     "bluetooth": null,
-    "bom_row_count": 0,
+    "bom_row_count": 2,
     "price_cny": null,
     "price_layer": null,
     "channel_url": "",
     "sales_hint": null,
     "data_completeness": 0.0,
-    "best_report_id": null
+    "best_report_id": null,
+    "best_video_id": "279288"
   },
-  "bom_table": [],
+  "bom_table": [
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Lolli3 ANC延续了Lolli 3的第3代半入耳佩戴结构，提供舒适通透的佩戴体验。搭载AI多模态自适应系统，包括自适应ANC+自适应ENC+自适应EQ，实现降噪、通话、音效三重自适应。自适应降噪通过耳道检测技术智能识别每一次佩戴的耳部结构和佩戴状态，自动生成符合当前状态的降噪参数，从而实现了更优的半入耳式的降噪效果；自适应通话降噪通过内置的三麦克风系统，搭配AI算法，精准分离环境噪音并智能消除，带来清晰的人声。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Lolli3 ANC延续了Lolli 3的第3代半入耳佩戴结构，提供舒适通透的佩戴体验。搭载AI多模态自适应系统，包括自适应ANC+自适应ENC+自适应EQ，实现降噪、通话、音效三重自适应。自适应降噪通过耳道检测技术智能识别每一次佩戴的耳部结构和佩戴状态，自动生成符合当前状态的降噪参数，从而实现了更优的半入耳式的降噪效果；自适应通话降噪通过内置的三麦克风系统，搭配AI算法，精准分离环境噪音并智能消除，带来清晰的人声。"
+      }
+    }
+  ],
   "summary_image_urls": [],
   "summary_text": "",
   "layer_refs": {
@@ -45,6 +75,8 @@
     "official": [
       "official:edifier--lolli3-anc"
     ],
+    "unboxing": [],
     "review": []
-  }
+  },
+  "unboxing": null
 }

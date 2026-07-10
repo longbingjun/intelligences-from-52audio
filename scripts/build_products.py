@@ -17,11 +17,14 @@ from core.products import (  # noqa: E402
     canonical_product_id,
     guess_brand_from_text,
     merge_cost_snapshot,
+    merge_unboxing_snapshot,
     normalize_brand,
     normalize_model,
 )
+from core.scope import HEADPHONE_CATEGORIES, is_headphone_record, normalize_headphone_category  # noqa: E402
 
 from core.paths import (
+    LEGACY_PRODUCTS,
     products_dir,
     products_index_path,
     update_manifest,
@@ -41,20 +44,24 @@ def _record_identity(record: dict) -> tuple[str, str, str]:
     if not model and title:
         model = normalize_model(title.replace(brand, "", 1) if brand else title, brand)
 
-    category = (
+    text = title or f"{brand} {model}".strip()
+    existing = (
         record.get("category")
         or record.get("views", {}).get("market", {}).get("category")
         or record.get("views", {}).get("structure", {}).get("form_factor", "")
-        or "其他音频设备"
+        or ""
     )
+    category = normalize_headphone_category(text, existing)
     return brand, model, category
 
 
 def _pick_category(categories: list[str]) -> str:
     if not categories:
-        return "其他音频设备"
+        return "真无线耳机TWS"
+    hp = [c for c in categories if c in HEADPHONE_CATEGORIES]
+    pool = hp or categories
     counts: dict[str, int] = defaultdict(int)
-    for c in categories:
+    for c in pool:
         counts[c] += 1
     return max(counts, key=lambda k: (counts[k], k))
 
@@ -66,13 +73,21 @@ def build_products() -> dict:
     for r in load_all_records("report"):
         reports_by_id[r["id"]] = merge_price_into_record(r)
 
+    videos_by_id: dict[str, dict] = {}
+    for v in load_all_records("video"):
+        videos_by_id[v["id"]] = v
+
     aggregates: dict[str, dict] = {}
 
     for kind in ("report", "video"):
         for record in load_all_records(kind):
+            if not is_headphone_record(record):
+                continue
             if kind == "report":
                 record = reports_by_id.get(record["id"], record)
             brand, model, category = _record_identity(record)
+            if category not in HEADPHONE_CATEGORIES:
+                continue
             cid = canonical_product_id(brand, model)
             published = record.get("published_at", "")
 
@@ -118,8 +133,11 @@ def build_products() -> dict:
             report_ids=report_ids,
             video_ids=video_ids,
             reports_by_id=reports_by_id,
+            videos_by_id=videos_by_id,
             market_price=market_price,
         )
+
+        unboxing = merge_unboxing_snapshot(report_ids)
 
         product = {
             "canonical_id": cid,
@@ -138,6 +156,7 @@ def build_products() -> dict:
             "summary_image_urls": cost_data["summary_image_urls"],
             "summary_text": cost_data["summary_text"],
             "layer_refs": cost_data["layer_refs"],
+            "unboxing": unboxing,
         }
         write_product_json(cid, product)
         index_items.append(
@@ -163,6 +182,16 @@ def build_products() -> dict:
     }
     write_products_index(index)
     update_manifest(step="build_products", stats={"products": len(index_items)})
+
+    # 移除不再生成的产品 JSON（非耳机等）
+    keep_ids = set(aggregates.keys())
+    for base in (products_dir(), LEGACY_PRODUCTS):
+        if not base.exists():
+            continue
+        for path in base.glob("*.json"):
+            if path.name == "index.json" or path.stem in keep_ids:
+                continue
+            path.unlink()
 
     idx_path = products_index_path()
     return {"products": len(index_items), "index_path": str(idx_path)}

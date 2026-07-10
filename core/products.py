@@ -8,7 +8,7 @@ import unicodedata
 from pathlib import Path
 
 from core.cost_extract import compute_cost_completeness, extract_cost_fields, pick_best_report
-from core.paths import channel_enrich_dir, official_enrich_dir
+from core.paths import channel_enrich_dir, official_enrich_dir, unboxing_enrich_dir
 from sources.audio52.lexicon import BRAND_ALIASES
 
 _SLUG_RE = re.compile(r"[^a-z0-9]+")
@@ -102,18 +102,91 @@ def load_channel_enrich(canonical_id: str) -> dict | None:
         return None
 
 
+def load_unboxing_enrich(report_id: str) -> dict | None:
+    path = unboxing_enrich_dir() / f"{report_id}.json"
+    if not path.exists():
+        return None
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+
+
+def _slim_unboxing_module(mod: dict | None, *, max_images: int = 8) -> dict:
+    mod = mod or {}
+    images = mod.get("appearance_images") or mod.get("images") or []
+    if isinstance(images, list) and len(images) > max_images:
+        images = images[:max_images]
+    return {
+        "description": mod.get("description") or "",
+        "accessories": mod.get("accessories") or [],
+        "appearance_images": images,
+        "image_count": len(mod.get("images") or []),
+        "teardown_image_count": mod.get("teardown_image_count") or 0,
+    }
+
+
+def merge_unboxing_snapshot(report_ids: list[str]) -> dict | None:
+    """从最佳报告的 unboxing enrich 生成产品页摘要。"""
+    best: tuple[int, dict] | None = None
+    for rid in report_ids:
+        raw = load_unboxing_enrich(rid)
+        if not raw:
+            continue
+        pkg = raw.get("packaging") or {}
+        score = len(pkg.get("images") or []) + len(pkg.get("accessories") or [])
+        if best is None or score > best[0]:
+            best = (score, raw)
+    if not best:
+        return None
+    raw = best[1]
+    gaps = raw.get("gaps") or []
+    modules = {
+        "packaging": _slim_unboxing_module(raw.get("packaging")),
+        "charging_case": _slim_unboxing_module(raw.get("charging_case")),
+        "earbuds": _slim_unboxing_module(raw.get("earbuds")),
+    }
+    filled = sum(1 for m in modules.values() if m.get("appearance_images"))
+    return {
+        "report_id": raw.get("report_id"),
+        "packaging": modules["packaging"],
+        "charging_case": modules["charging_case"],
+        "earbuds": modules["earbuds"],
+        "gaps": gaps,
+        "completeness": round(filled / 3, 2),
+    }
+
+
+def _views_cost_score(views: dict) -> int:
+    cost = views.get("cost") or {}
+    return len(cost.get("bom_table") or []) + 2 * len(cost.get("chip_modules") or [])
+
+
 def merge_cost_snapshot(
     *,
     canonical_id: str,
     report_ids: list[str],
     video_ids: list[str],
     reports_by_id: dict[str, dict],
+    videos_by_id: dict[str, dict] | None = None,
     market_price: float | None = None,
 ) -> dict:
-    """从产品关联报告中融合成本快照与 BOM。"""
+    """从产品关联报告/视频中融合成本快照与 BOM。"""
     reports = [reports_by_id[rid] for rid in report_ids if rid in reports_by_id]
     best = pick_best_report(reports)
     views = (best or {}).get("views") or {}
+    best_video_id = ""
+
+    if videos_by_id:
+        videos = [videos_by_id[vid] for vid in video_ids if vid in videos_by_id]
+        if videos:
+            best_video = max(videos, key=lambda v: _views_cost_score(v.get("views") or {}))
+            vviews = best_video.get("views") or {}
+            if _views_cost_score(vviews) > _views_cost_score(views):
+                views = vviews
+                best_video_id = best_video.get("id", "")
+                best = None  # 成本主信源切到视频
+
     cost = views.get("cost") or {}
     bom_table = list(cost.get("bom_table") or [])
     summary_image_urls = list(cost.get("summary_image_urls") or [])
@@ -146,6 +219,7 @@ def merge_cost_snapshot(
         "technical": [f"report:{r['id']}" for r in reports] + [f"video:{vid}" for vid in video_ids],
         "channel": [f"channel:{canonical_id}"] if channel else [],
         "official": [f"official:{canonical_id}"] if official else [],
+        "unboxing": [f"unboxing:{rid}" for rid in report_ids if load_unboxing_enrich(rid)],
         "review": [],
     }
 
@@ -165,7 +239,8 @@ def merge_cost_snapshot(
         "channel_url": (channel or {}).get("channel_url"),
         "sales_hint": (channel or {}).get("sales_hint"),
         "data_completeness": compute_cost_completeness(fields) if fields else 0.0,
-        "best_report_id": (best or {}).get("id"),
+        "best_report_id": (best or {}).get("id") if best else None,
+        "best_video_id": best_video_id or None,
     }
 
     return {

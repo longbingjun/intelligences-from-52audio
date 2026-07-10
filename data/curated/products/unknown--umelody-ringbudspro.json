@@ -24,15 +24,45 @@
     "weight_g": null,
     "ip_rating": null,
     "bluetooth": null,
-    "bom_row_count": 0,
+    "bom_row_count": 2,
     "price_cny": null,
     "price_layer": null,
     "channel_url": "",
     "sales_hint": null,
     "data_completeness": 0.0,
-    "best_report_id": null
+    "best_report_id": null,
+    "best_video_id": "269057"
   },
-  "bom_table": [],
+  "bom_table": [
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "UMELODY悠律声学Ringbuds Pro还搭载了歌尔声学降噪麦克风，用于提供精准拾音，搭配降噪算法，提供清晰通话效果；支持蓝牙5.3，支持双设备连接，使用方便快捷。续航方面，耳机单次音乐播放时长可达9小时（LDAC模式约6.5小时），搭配充电盒综合续航约40小时。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "UMELODY悠律声学Ringbuds Pro还搭载了歌尔声学降噪麦克风，用于提供精准拾音，搭配降噪算法，提供清晰通话效果；支持蓝牙5.3，支持双设备连接，使用方便快捷。续航方面，耳机单次音乐播放时长可达9小时（LDAC模式约6.5小时），搭配充电盒综合续航约40小时。"
+      }
+    }
+  ],
   "summary_image_urls": [],
   "summary_text": "",
   "layer_refs": {
@@ -45,6 +75,8 @@
     "official": [
       "official:unknown--umelody-ringbudspro"
     ],
+    "unboxing": [],
     "review": []
-  }
+  },
+  "unboxing": null
 }

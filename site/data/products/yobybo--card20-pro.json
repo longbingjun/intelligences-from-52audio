@@ -24,23 +24,59 @@
     "weight_g": null,
     "ip_rating": null,
     "bluetooth": null,
-    "bom_row_count": 0,
+    "bom_row_count": 2,
     "price_cny": null,
     "price_layer": null,
-    "channel_url": null,
+    "channel_url": "",
     "sales_hint": null,
     "data_completeness": 0.0,
-    "best_report_id": null
+    "best_report_id": null,
+    "best_video_id": "281250"
   },
-  "bom_table": [],
+  "bom_table": [
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "YOBYBO Card20 Pro真无线耳机是YOBYBO旗下一款高颜值的轻薄产品，外观设计极致紧凑，并采用了全铝合金外壳打造，呈现很强的质感，还获得了红点、iF和红星设计奖。功能配置方面，采用13mm动圈喇叭，支持双耳四麦ENC降噪，提供单次超过5小时的续航时间。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "YOBYBO Card20 Pro真无线耳机是YOBYBO旗下一款高颜值的轻薄产品，外观设计极致紧凑，并采用了全铝合金外壳打造，呈现很强的质感，还获得了红点、iF和红星设计奖。功能配置方面，采用13mm动圈喇叭，支持双耳四麦ENC降噪，提供单次超过5小时的续航时间。"
+      }
+    }
+  ],
   "summary_image_urls": [],
   "summary_text": "",
   "layer_refs": {
     "technical": [
       "video:281250"
     ],
-    "channel": [],
-    "official": [],
+    "channel": [
+      "channel:yobybo--card20-pro"
+    ],
+    "official": [
+      "official:yobybo--card20-pro"
+    ],
+    "unboxing": [],
     "review": []
-  }
+  },
+  "unboxing": null
 }

@@ -5,6 +5,7 @@ from __future__ import annotations
 import json
 import re
 import shutil
+from datetime import datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -12,7 +13,9 @@ import sys
 
 sys.path.insert(0, str(ROOT))
 
+from core.ingest import load_all_records  # noqa: E402
 from core.paths import compare_dir, products_dir, products_index_path, update_manifest, WEB_DATA
+from core.scope import is_headphone_record  # noqa: E402
 DATA = ROOT / "data"
 SITE = ROOT / "site"
 
@@ -48,6 +51,42 @@ def clean_legacy_site() -> list[str]:
             target.unlink()
         removed.append(rel)
     return removed
+
+
+def _teardown_list_item(record: dict, *, kind: str) -> dict:
+    title = record.get("title") or record.get("product_title") or ""
+    publisher = record.get("publisher") or record.get("author") or record.get("source_site") or ""
+    return {
+        "id": record.get("id", ""),
+        "kind": kind,
+        "title": title,
+        "publisher": publisher,
+        "published_at": record.get("published_at", ""),
+        "url": record.get("url", ""),
+        "category": record.get("category", ""),
+    }
+
+
+def _build_teardown_manifest() -> dict:
+    reports = [
+        _teardown_list_item(r, kind="report")
+        for r in load_all_records("report")
+        if is_headphone_record(r)
+    ]
+    videos = [
+        _teardown_list_item(v, kind="video")
+        for v in load_all_records("video")
+        if is_headphone_record(v)
+    ]
+    reports.sort(key=lambda x: x.get("published_at", ""), reverse=True)
+    videos.sort(key=lambda x: x.get("published_at", ""), reverse=True)
+    return {
+        "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
+        "report_count": len(reports),
+        "video_count": len(videos),
+        "reports": reports,
+        "videos": videos,
+    }
 
 
 def prepare() -> dict:
@@ -112,10 +151,26 @@ def prepare() -> dict:
     (WEB_DATA / "categories.json").write_text(
         json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8"
     )
-    update_manifest(step="prepare_web_data", stats={"categories": len(categories), "products": n_products})
+
+    teardown = _build_teardown_manifest()
+    (WEB_DATA / "teardown_details.json").write_text(
+        json.dumps(teardown, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+
+    update_manifest(
+        step="prepare_web_data",
+        stats={
+            "categories": len(categories),
+            "products": n_products,
+            "teardown_reports": teardown["report_count"],
+            "teardown_videos": teardown["video_count"],
+        },
+    )
     return {
         "categories": len(categories),
         "products": n_products,
+        "teardown_reports": teardown["report_count"],
+        "teardown_videos": teardown["video_count"],
         "legacy_site_removed": legacy_removed,
         "out": str(WEB_DATA),
     }

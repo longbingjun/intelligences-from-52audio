@@ -15,3 +15,7 @@ numpy>=1.26
 # OCR（可选，框架已预留；本机若未安装 tesseract 可执行文件，
 # 相关代码会自动降级为 "pending" 状态，不影响其余功能）
 pytesseract>=0.3.10
+
+# 拆解视频：字幕 / ASR（可选）
+yt-dlp>=2024.1
+faster-whisper>=1.0; python_version >= "3.10"

@@ -24,15 +24,45 @@
     "weight_g": null,
     "ip_rating": null,
     "bluetooth": null,
-    "bom_row_count": 0,
+    "bom_row_count": 2,
     "price_cny": 399.0,
     "price_layer": "channel",
     "channel_url": "https://s.click.taobao.com/t?e=m%3D2%26s%3DPk%2BsdQ0VHjhw4vFB6t2Z2ueEDrYVVa64Dne87AjQPk9yINtkUhsv0BFPPacelt3HQuGHafTLC863X1ppMM1K6W43HgsOowWtE8vsFAIYQZxrXvJ6%2BqFxFKAWqcsq3MkwFBoMXOGuG5DkaqczTKGnOkzzDq6FT6wuRwvS4P9VTBgkjOMpGrETx7BCtjQdN%2F1PJ%2FWNqUue%2FGaiPTLlA268CfEJcSxRPTgXPS5KNXAvts6jlDsFn0TTmf6qIzoglYnGh3%2FC0mPmfShBJHfTTaxjScYl7w3%2FA2kb&union_lens=lensId%3AMAPI%401783554786%40213fe05b_0ed0_19f4426434d_c5be%4001%40eyJmbG9vcklkIjo4MDMwOX0ie",
     "sales_hint": null,
     "data_completeness": 0.0,
-    "best_report_id": null
+    "best_report_id": null,
+    "best_video_id": "279793"
   },
-  "bom_table": [],
+  "bom_table": [
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "做艙底部通過螺絲固定主板單元"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5128",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5128",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "大家好,這裡是我艾英平網\n今天我們來拆解\n蒸我Buds Air 5 Pro 蒸無線降噪耳機\n耳機包裝和設計簡約\n採用了蒸我標誌性的量黃色配色\n正面展示有對應產品配色的產品外觀設計\n產品名稱\n以及 High-Race Audio Wireless 和LDAC 標誌\n包裝和背面標籤上信息\n型號,2-1-2-0\n產品類型,藍牙耳機\n顏色,日出支撐\n製造商,日有密重慶移動通信有限公司\n產地,中國\n包裝和側邊展示有產品的功能特點\nHigh-Fi 及銅軸雙單元\n50DB 身海降噪2.0\n4000Hz 超寬頻降噪\n另外一側展示的功能特點\n3D 空間影響\n40行秒遊戲低延遲\n40小時常續行\n包裝和內部物品有TWS耳機\n耳塞和充電線\nUSB A2-Type-C充電線\n採用了爭吾品牌標誌性的黃色配色\n兩般插頭上設計有品牌\nLogo 和充電標誌\n隨機標配的耳塞\n總共有SMI-3種尺寸\n內部同樣採用了黃色配色\n並設計有防護網\n阻擋大顆粒15\n耳機充電盒採用了圓潤的妥原型設計\n考氣公益質感\n日出支撐呈現高級女灰色\n觀感時上彈牙\n充電盒正面設置有一顆指示燈\n用於反饋藍牙配對和充電狀態\n充電盒背面\n一體式賺軸設計\n"
+      }
+    }
+  ],
   "summary_image_urls": [],
   "summary_text": "",
   "layer_refs": {
@@ -45,6 +75,8 @@
     "official": [
       "official:realme--buds-air-5-pro"
     ],
+    "unboxing": [],
     "review": []
-  }
+  },
+  "unboxing": null
 }
