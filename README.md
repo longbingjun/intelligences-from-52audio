@@ -45,13 +45,13 @@ py -3 scripts/report_video_asr_impact.py
 
 依赖：`yt-dlp`、`faster-whisper`（已写入 requirements.txt）。首条会下载 Whisper 模型，约 10 分钟/视频。
 
-**ASR 失败 / empty 排查**（常见原因：B 站限流、未登录、视频下架）：
+**ASR 失败 / empty 排查**（常见：B 站 HTTP 412、Windows 无法读取浏览器 cookie、限流、视频下架）：
 
 ```powershell
 # 1. 浏览器导出 Netscape cookies.txt 后重试（推荐）
 py -3 scripts/enrich_video.py --retry-empty --cookies data/cookies.txt
 
-# 2. 关闭 Edge/Chrome 后从浏览器读取 cookies
+# 2. 完全关闭 Edge/Chrome 后从浏览器读取 cookies
 py -3 scripts/enrich_video.py --retry-empty --cookies-from-browser edge
 
 # 3. 加大请求间隔，降低限流概率

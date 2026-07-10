@@ -31,27 +31,27 @@ const teardown = withBase("/teardown-details");
           <a
             href={home}
             class:list={[
-              "rounded-full px-3 py-1.5 no-underline hover:no-underline",
+              "nav-link rounded-full px-3 py-1.5 no-underline",
               activeNav === "home"
-                ? "bg-[var(--primary)] text-white hover:text-white"
+                ? "nav-link--active bg-[var(--primary)] text-white"
                 : "text-[var(--muted)] hover:bg-[#eef3ff] hover:text-[var(--primary)]",
             ]}
           >工作台</a>
           <a
             href={category}
             class:list={[
-              "rounded-full px-3 py-1.5 no-underline hover:no-underline",
+              "nav-link rounded-full px-3 py-1.5 no-underline",
               activeNav === "category"
-                ? "bg-[var(--primary)] text-white hover:text-white"
+                ? "nav-link--active bg-[var(--primary)] text-white"
                 : "text-[var(--muted)] hover:bg-[#eef3ff] hover:text-[var(--primary)]",
             ]}
           >品类对比</a>
           <a
             href={teardown}
             class:list={[
-              "rounded-full px-3 py-1.5 no-underline hover:no-underline",
+              "nav-link rounded-full px-3 py-1.5 no-underline",
               activeNav === "teardown"
-                ? "bg-[var(--primary)] text-white hover:text-white"
+                ? "nav-link--active bg-[var(--primary)] text-white"
                 : "text-[var(--muted)] hover:bg-[#eef3ff] hover:text-[var(--primary)]",
             ]}
           >拆解视频、报告明细</a>

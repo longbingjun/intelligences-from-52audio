@@ -29,3 +29,14 @@ body {
     text-decoration: underline;
   }
 }
+
+/* Nav pills: active state must beat global link color */
+header nav a.nav-link {
+  text-decoration: none;
+}
+header nav a.nav-link:hover {
+  text-decoration: none;
+}
+header nav a.nav-link--active {
+  color: #fff;
+}

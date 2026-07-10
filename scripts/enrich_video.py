@@ -7,13 +7,13 @@
   python scripts/enrich_video.py --retry-empty          # 重试 ASR 为 empty/failed 的视频
   python scripts/enrich_video.py --retry-empty --cookies-from-browser edge
 
-ASR 失败 / empty 排查（B 站限流、未登录、视频下架等）：
-  1. 导出 cookies.txt，用 --cookies path/to/cookies.txt（优先于浏览器读取）
-  2. 关闭浏览器后：--retry-empty --cookies-from-browser edge
+ASR 失败 / empty 排查（B 站 HTTP 412、限流、未登录、Windows cookie 读取失败等）：
+  1. 导出 Netscape cookies.txt，用 --cookies path/to/cookies.txt（优先于浏览器读取）
+  2. 完全关闭 Edge/Chrome 后：--retry-empty --cookies-from-browser edge
   3. 加大间隔：--delay 60 --delay-jitter 30
   4. 更新 yt-dlp：py -3 -m pip install -U yt-dlp
   5. 手动：yt-dlp 下载音频到本地，faster-whisper 转写后写入 data/enrich/videos/{id}.asr.json
-  6. 兜底：同产品 ID 的 52audio 拆解报告文字常覆盖视频要点，可用 report 信源补全 views
+  6. 兜底：同产品 ID 的 52audio 拆解报告/embed 页常覆盖视频要点，可用 report 信源补全 views
 """
 from __future__ import annotations
 
