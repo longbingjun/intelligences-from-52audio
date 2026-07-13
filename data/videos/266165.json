@@ -14,7 +14,7 @@
   "source_site": "哔哩哔哩 (Bilibili)",
   "video_embed_url": "https://player.bilibili.com/player.html?bvid=BV1x1rpBLEfH&page=1&as_wide=1",
   "captured_at": "2026-07-02T08:58:43+00:00",
-  "asr_status": "pending",
+  "asr_status": "done",
   "views": {
     "market": {
       "brand": "",
@@ -41,9 +41,41 @@
       "price_evidence": null
     },
     "cost": {
-      "major_parts": [],
+      "major_parts": [
+        "主板/PCBA",
+        "降噪系统"
+      ],
       "chip_modules": [],
-      "bom_table": [],
+      "bom_table": [
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "槍體內部結構,通過熱容住固定主板單元。"
+          }
+        },
+        {
+          "component": "降噪系统",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "降噪系统",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "DSP Group DBM2降噪芯片,是一個高性能低功耗的音頻,DSP平台。"
+          }
+        }
+      ],
       "supply_hints": [],
       "packaging_notes": [],
       "process_hints": [],
@@ -53,9 +85,11 @@
     "structure": {
       "form_factor": "其他音频设备",
       "earbud_type": "入耳",
-      "materials": [],
+      "materials": [
+        "PC"
+      ],
       "ip_rating": null,
-      "weight_g": null,
+      "weight_g": "181.7克",
       "dimensions": [],
       "internal_structure": [
         {
@@ -68,7 +102,17 @@
           }
         }
       ],
-      "fastener_type": [],
+      "fastener_type": [
+        {
+          "value": "耳機內側,槍體上有卡扣結構,用於與頭顯的頭帶閉固定,設計有L、耳左右標時,便於用戶快速區分。",
+          "evidence": {
+            "value": "耳機內側,槍體上有卡扣結構,用於與頭顯的頭帶閉固定,設計有L、耳左右標時,便於用戶快速區分。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "耳機內側,槍體上有卡扣結構,用於與頭顯的頭帶閉固定,設計有L、耳左右標時,便於用戶快速區分。"
+          }
+        }
+      ],
       "sealing_method": [],
       "wear_design": [],
       "key_image_urls": [],
@@ -76,14 +120,29 @@
         "Logitech罗技Chorus离耳式耳机采用了贴合Quest 2头带臂的设计，使用时固定在头带臂上，通过USB-C连接头显，即插即用；同时耳机配备USB-C接口，不影响头显充电。"
       ],
       "ip_rating_evidence": null,
-      "weight_evidence": null
+      "weight_evidence": {
+        "value": "181.7克",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "181.7克"
+      }
     },
     "hardware": {
       "specs": []
     },
     "software": {
       "bluetooth_version": null,
-      "codecs": [],
+      "codecs": [
+        {
+          "value": "SBC",
+          "evidence": {
+            "value": "SBC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "USBC接口母座,用於連接外接電源。"
+          }
+        }
+      ],
       "multipoint": [],
       "app_name": "",
       "app_features": [],
@@ -92,6 +151,6 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.076,
+  "data_completeness": 0.194,
   "source_layer": "technical"
 }
