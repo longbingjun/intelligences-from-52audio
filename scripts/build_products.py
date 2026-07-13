@@ -17,6 +17,7 @@ from core.products import (  # noqa: E402
     canonical_product_id,
     guess_brand_from_text,
     merge_cost_snapshot,
+    merge_market_snapshot,
     merge_unboxing_snapshot,
     normalize_brand,
     normalize_model,
@@ -138,6 +139,12 @@ def build_products() -> dict:
         )
 
         unboxing = merge_unboxing_snapshot(report_ids)
+        market = merge_market_snapshot(
+            report_ids=report_ids,
+            video_ids=video_ids,
+            reports_by_id=reports_by_id,
+            videos_by_id=videos_by_id,
+        )
 
         product = {
             "canonical_id": cid,
@@ -157,6 +164,7 @@ def build_products() -> dict:
             "summary_text": cost_data["summary_text"],
             "layer_refs": cost_data["layer_refs"],
             "unboxing": unboxing,
+            "market": market,
         }
         write_product_json(cid, product)
         index_items.append(

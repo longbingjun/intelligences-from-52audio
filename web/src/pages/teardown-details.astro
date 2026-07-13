@@ -10,6 +10,7 @@ type TeardownItem = {
   published_at: string;
   url: string;
   category: string;
+  brand?: string;
 };
 
 const PAGE_SIZE = 15;
@@ -42,6 +43,13 @@ const reportTotalPages = Math.max(1, Math.ceil(reports.length / PAGE_SIZE));
 const videoTotalPages = Math.max(1, Math.ceil(videos.length / PAGE_SIZE));
 const pagedReports = pageSlice(reports, reportPage);
 const pagedVideos = pageSlice(videos, videoPage);
+
+const categories = Array.from(
+  new Set([...reports, ...videos].map((i) => (i.category || "").trim()).filter(Boolean))
+).sort((a, b) => a.localeCompare(b, "zh-CN"));
+const brands = Array.from(
+  new Set([...reports, ...videos].map((i) => (i.brand || "").trim()).filter(Boolean))
+).sort((a, b) => a.localeCompare(b, "zh-CN"));
 ---
 
 <BaseLayout title="拆解视频、报告明细" activeNav="teardown">
@@ -52,6 +60,29 @@ const pagedVideos = pageSlice(videos, videoPage);
       耳机品类拆解报告与拆解视频一览。共 {reports.length} 篇报告、{videos.length} 条视频。
     </p>
   </section>
+
+  <div class="mt-6 flex flex-wrap items-center gap-3 rounded-2xl border border-[var(--line)] bg-white p-4 shadow-sm">
+    <span class="text-sm font-medium text-[var(--muted)]">筛选</span>
+    <select id="category-filter" class="rounded-xl border border-[var(--line)] px-3 py-2 text-sm">
+      <option value="">全部品类</option>
+      {categories.map((c) => (
+        <option value={c}>{c}</option>
+      ))}
+    </select>
+    <select id="brand-filter" class="rounded-xl border border-[var(--line)] px-3 py-2 text-sm">
+      <option value="">全部品牌</option>
+      {brands.map((b) => (
+        <option value={b}>{b}</option>
+      ))}
+    </select>
+    <button
+      id="filter-reset"
+      type="button"
+      class="rounded-full border border-[var(--line)] px-3 py-1.5 text-sm text-[var(--muted)] hover:bg-[#f8faff]"
+    >
+      重置筛选
+    </button>
+  </div>
 
   <div class="mt-8 grid gap-8 lg:grid-cols-2">
     <section class="rounded-2xl border border-[var(--line)] bg-white p-6 shadow-sm">
@@ -209,16 +240,21 @@ const pagedVideos = pageSlice(videos, videoPage);
       published_at: string;
       url: string;
       category: string;
+      brand?: string;
     };
 
     const dataEl = document.getElementById("teardown-data");
     if (!dataEl?.textContent) throw new Error("teardown data missing");
 
-    const { reports, videos, pageSize } = JSON.parse(dataEl.textContent) as {
+    const { reports: allReports, videos: allVideos, pageSize } = JSON.parse(dataEl.textContent) as {
       reports: TeardownItem[];
       videos: TeardownItem[];
       pageSize: number;
     };
+
+    const categoryFilterEl = document.getElementById("category-filter") as HTMLSelectElement | null;
+    const brandFilterEl = document.getElementById("brand-filter") as HTMLSelectElement | null;
+    const resetFilterEl = document.getElementById("filter-reset");
 
     function parsePage(value: string | null, total: number): number {
       const n = Number.parseInt(value || "1", 10);
@@ -227,12 +263,28 @@ const pagedVideos = pageSlice(videos, videoPage);
       return Math.min(n, maxPage);
     }
 
+    function currentFilters(): { category: string; brand: string } {
+      const params = new URLSearchParams(window.location.search);
+      return { category: params.get("category") || "", brand: params.get("brand") || "" };
+    }
+
     function pageHref(reportPage: number, videoPage: number): string {
+      const { category, brand } = currentFilters();
       const params = new URLSearchParams();
+      if (category) params.set("category", category);
+      if (brand) params.set("brand", brand);
       if (reportPage > 1) params.set("reportPage", String(reportPage));
       if (videoPage > 1) params.set("videoPage", String(videoPage));
       const qs = params.toString();
       return qs ? `?${qs}` : window.location.pathname;
+    }
+
+    function filterItems(items: TeardownItem[], category: string, brand: string): TeardownItem[] {
+      return items.filter((item) => {
+        if (category && item.category !== category) return false;
+        if (brand && (item.brand || "") !== brand) return false;
+        return true;
+      });
     }
 
     function renderItem(item: TeardownItem): string {
@@ -288,32 +340,76 @@ const pagedVideos = pageSlice(videos, videoPage);
       nav.innerHTML = `${prev}<span class="text-sm text-[var(--muted)]">${currentPage} / ${totalPages}</span>${next}`;
     }
 
-    const params = new URLSearchParams(window.location.search);
-    const reportPage = parsePage(params.get("reportPage"), reports.length);
-    const videoPage = parsePage(params.get("videoPage"), videos.length);
-    const reportTotalPages = Math.max(1, Math.ceil(reports.length / pageSize));
-    const videoTotalPages = Math.max(1, Math.ceil(videos.length / pageSize));
+    function render(): void {
+      const params = new URLSearchParams(window.location.search);
+      const { category, brand } = currentFilters();
+      const reports = filterItems(allReports, category, brand);
+      const videos = filterItems(allVideos, category, brand);
 
-    const reportStart = (reportPage - 1) * pageSize;
-    const videoStart = (videoPage - 1) * pageSize;
-    const pagedReports = reports.slice(reportStart, reportStart + pageSize);
-    const pagedVideos = videos.slice(videoStart, videoStart + pageSize);
+      const reportPage = parsePage(params.get("reportPage"), reports.length);
+      const videoPage = parsePage(params.get("videoPage"), videos.length);
+      const reportTotalPages = Math.max(1, Math.ceil(reports.length / pageSize));
+      const videoTotalPages = Math.max(1, Math.ceil(videos.length / pageSize));
 
-    const reportList = document.getElementById("report-list");
-    const videoList = document.getElementById("video-list");
-    const reportInfo = document.getElementById("report-page-info");
-    const videoInfo = document.getElementById("video-page-info");
+      const reportStart = (reportPage - 1) * pageSize;
+      const videoStart = (videoPage - 1) * pageSize;
+      const pagedReports = reports.slice(reportStart, reportStart + pageSize);
+      const pagedVideos = videos.slice(videoStart, videoStart + pageSize);
 
-    if (reportList && reports.length > 0) {
-      reportList.innerHTML = pagedReports.map(renderItem).join("");
-      reportInfo!.textContent = `第 ${reportPage}/${reportTotalPages} 页，共 ${reports.length} 条`;
-      renderPagination("report-pagination", reportPage, reportTotalPages, reportPage, videoPage, "report");
+      const reportList = document.getElementById("report-list");
+      const videoList = document.getElementById("video-list");
+      const reportInfo = document.getElementById("report-page-info");
+      const videoInfo = document.getElementById("video-page-info");
+      const reportEmpty = `<p class="text-sm text-[var(--muted)]">当前筛选条件下暂无拆解报告。</p>`;
+      const videoEmpty = `<p class="text-sm text-[var(--muted)]">当前筛选条件下暂无拆解视频。</p>`;
+
+      if (reportList) {
+        reportList.innerHTML = reports.length > 0 ? pagedReports.map(renderItem).join("") : reportEmpty;
+        if (reportInfo) {
+          reportInfo.textContent =
+            reports.length > 0 ? `第 ${reportPage}/${reportTotalPages} 页，共 ${reports.length} 条` : "共 0 条";
+        }
+        renderPagination("report-pagination", reportPage, reportTotalPages, reportPage, videoPage, "report");
+      }
+
+      if (videoList) {
+        videoList.innerHTML = videos.length > 0 ? pagedVideos.map(renderItem).join("") : videoEmpty;
+        if (videoInfo) {
+          videoInfo.textContent =
+            videos.length > 0 ? `第 ${videoPage}/${videoTotalPages} 页，共 ${videos.length} 条` : "共 0 条";
+        }
+        renderPagination("video-pagination", videoPage, videoTotalPages, reportPage, videoPage, "video");
+      }
     }
 
-    if (videoList && videos.length > 0) {
-      videoList.innerHTML = pagedVideos.map(renderItem).join("");
-      videoInfo!.textContent = `第 ${videoPage}/${videoTotalPages} 页，共 ${videos.length} 条`;
-      renderPagination("video-pagination", videoPage, videoTotalPages, reportPage, videoPage, "video");
+    function updateFilters(next: { category?: string; brand?: string }): void {
+      const url = new URL(window.location.href);
+      const { category, brand } = currentFilters();
+      const nextCategory = next.category ?? category;
+      const nextBrand = next.brand ?? brand;
+      if (nextCategory) url.searchParams.set("category", nextCategory);
+      else url.searchParams.delete("category");
+      if (nextBrand) url.searchParams.set("brand", nextBrand);
+      else url.searchParams.delete("brand");
+      // 筛选条件变化时回到第一页，避免停留在超出范围的页码
+      url.searchParams.delete("reportPage");
+      url.searchParams.delete("videoPage");
+      window.history.replaceState({}, "", url.toString());
+      render();
     }
+
+    const { category: initCategory, brand: initBrand } = currentFilters();
+    if (categoryFilterEl) categoryFilterEl.value = initCategory;
+    if (brandFilterEl) brandFilterEl.value = initBrand;
+
+    categoryFilterEl?.addEventListener("change", () => updateFilters({ category: categoryFilterEl.value }));
+    brandFilterEl?.addEventListener("change", () => updateFilters({ brand: brandFilterEl.value }));
+    resetFilterEl?.addEventListener("click", () => {
+      if (categoryFilterEl) categoryFilterEl.value = "";
+      if (brandFilterEl) brandFilterEl.value = "";
+      updateFilters({ category: "", brand: "" });
+    });
+
+    render();
   </script>
 </BaseLayout>

@@ -1,6 +1,6 @@
 {
   "category": "骨传导耳机",
-  "generated_at": "2026-07-09T16:51:24+08:00",
+  "generated_at": "2026-07-13T17:53:24+08:00",
   "param_rows": [
     "price_cny",
     "main_chip",
@@ -12,7 +12,10 @@
     "weight_g",
     "ip_rating",
     "bluetooth",
-    "bom_rows"
+    "bom_rows",
+    "selling_point_tags",
+    "scenarios",
+    "positioning_summary"
   ],
   "products": [
     {
@@ -75,6 +78,21 @@
           "value": "10",
           "evidence": "",
           "source_layer": "technical"
+        },
+        "selling_point_tags": {
+          "value": "长续航、舒适佩戴、防水防尘",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "scenarios": {
+          "value": "运动、通话",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "positioning_summary": {
+          "value": "可折叠易收纳、舒适佩戴、IP66级防尘防水、长续航、12个月质保；产品型号：Me-300S，电源输入：DC 5V-500…",
+          "evidence": "",
+          "source_layer": "technical"
         }
       }
     },
@@ -135,7 +153,22 @@
           "source_layer": "technical"
         },
         "bom_rows": {
-          "value": "0",
+          "value": "6",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "selling_point_tags": {
+          "value": "防水防尘",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "scenarios": {
+          "value": "运动、通话、健身",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "positioning_summary": {
+          "value": "kaiboaudio KAIBO VERSE Plus骨传导耳机是其新一代产品，在音质、续航、防水等方面进行了升级，带来…",
           "evidence": "",
           "source_layer": "technical"
         }
@@ -302,7 +335,52 @@
           "source_layer": "technical"
         },
         "kaiboaudio--verse-plus": {
-          "value": "0",
+          "value": "6",
+          "evidence": "",
+          "source_layer": "technical"
+        }
+      }
+    },
+    {
+      "param": "selling_point_tags",
+      "cells": {
+        "unknown--me-300s": {
+          "value": "长续航、舒适佩戴、防水防尘",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "kaiboaudio--verse-plus": {
+          "value": "防水防尘",
+          "evidence": "",
+          "source_layer": "technical"
+        }
+      }
+    },
+    {
+      "param": "scenarios",
+      "cells": {
+        "unknown--me-300s": {
+          "value": "运动、通话",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "kaiboaudio--verse-plus": {
+          "value": "运动、通话、健身",
+          "evidence": "",
+          "source_layer": "technical"
+        }
+      }
+    },
+    {
+      "param": "positioning_summary",
+      "cells": {
+        "unknown--me-300s": {
+          "value": "可折叠易收纳、舒适佩戴、IP66级防尘防水、长续航、12个月质保；产品型号：Me-300S，电源输入：DC 5V-500…",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "kaiboaudio--verse-plus": {
+          "value": "kaiboaudio KAIBO VERSE Plus骨传导耳机是其新一代产品，在音质、续航、防水等方面进行了升级，带来…",
           "evidence": "",
           "source_layer": "technical"
         }

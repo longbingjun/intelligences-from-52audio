@@ -23,6 +23,42 @@ const topProducts = [...productIndex.products]
     (b.latest_published || "").localeCompare(a.latest_published || "")
   )
   .slice(0, 6);
+
+// 数据覆盖度：报告/视频总量、已转写视频数、已知售价产品数——均来自实际磁盘数据，非估算值。
+const teardownPath = path.join(dataDir, "teardown_details.json");
+const teardown = fs.existsSync(teardownPath)
+  ? JSON.parse(fs.readFileSync(teardownPath, "utf-8"))
+  : { report_count: 0, video_count: 0 };
+
+const enrichVideosDir = path.join(process.cwd(), "..", "data", "enrich", "videos");
+let transcribedCount = 0;
+if (fs.existsSync(enrichVideosDir)) {
+  for (const file of fs.readdirSync(enrichVideosDir)) {
+    if (!file.endsWith(".asr.json")) continue;
+    try {
+      const asr = JSON.parse(fs.readFileSync(path.join(enrichVideosDir, file), "utf-8"));
+      if (asr.status === "done") transcribedCount += 1;
+    } catch {
+      // 忽略损坏的单个 ASR 文件，不影响整体统计
+    }
+  }
+}
+
+const productsDataDir = path.join(dataDir, "products");
+let productTotal = 0;
+let productPriced = 0;
+if (fs.existsSync(productsDataDir)) {
+  for (const file of fs.readdirSync(productsDataDir)) {
+    if (file === "index.json" || !file.endsWith(".json")) continue;
+    productTotal += 1;
+    try {
+      const p = JSON.parse(fs.readFileSync(path.join(productsDataDir, file), "utf-8"));
+      if (p?.cost_snapshot?.price_cny != null) productPriced += 1;
+    } catch {
+      // 忽略损坏的单个产品文件
+    }
+  }
+}
 ---
 
 <BaseLayout title="成本工作台" activeNav="home">
@@ -31,6 +67,14 @@ const topProducts = [...productIndex.products]
     <h1 class="mt-2 mb-2 text-3xl font-bold">竞品成本工作台</h1>
     <p class="m-0 max-w-xl text-base opacity-90">
       先选品类，再勾选要对比的产品型号。对比表只显示您选择的产品，不再一次铺满几十列。
+    </p>
+  </section>
+
+  <section class="mt-6 rounded-2xl border border-[var(--line)] bg-white p-5 shadow-sm">
+    <h2 class="m-0 text-sm font-semibold text-[var(--muted)]">数据覆盖度</h2>
+    <p class="mt-2 mb-0 text-sm text-[var(--text)]">
+      报告 {teardown.report_count} 篇 · 视频 {teardown.video_count} 条（已转写 {transcribedCount} 条）·
+      已知售价 {productPriced}/{productTotal}
     </p>
   </section>
 

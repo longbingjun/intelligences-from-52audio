@@ -24,16 +24,129 @@
     "weight_g": null,
     "ip_rating": null,
     "bluetooth": null,
-    "bom_row_count": 0,
+    "bom_row_count": 8,
     "price_cny": null,
     "price_layer": null,
     "channel_url": "",
     "sales_hint": null,
     "data_completeness": 0.0,
     "best_report_id": null,
-    "best_video_id": null
+    "best_video_id": "266352"
   },
-  "bom_table": [],
+  "bom_table": [
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "军设置有前盔降噪麦克风时音孔"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "电池容量720毫安时"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "用耳枪体内部设置主板单元"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "40毫米类钻石动圈单元"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "右侧耳殼上的A&C主动降噪模式切换按键"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "左侧边缘印刷蓝牙天线"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳殼侧边设置有功能按键和功能接口"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电接口旁边设置有指示灯"
+      }
+    }
+  ],
   "summary_image_urls": [],
   "summary_text": "",
   "layer_refs": {
@@ -49,5 +162,36 @@
     "unboxing": [],
     "review": []
   },
-  "unboxing": null
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "1MORE SonoFlow SE支持QuietMax双馈智能降噪，能够消除35dB以上外界噪音，通过通透模式，佩戴耳机也能轻松与外界交流；还支持智能通话降噪功能，AI精准是别人声，消除环境噪音，提供清晰通话。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "1MORE SonoFlow SE支持QuietMax双馈智能降噪，能够消除35dB以上外界噪音，通过通透模式，佩戴耳机也能轻松与外界交流；还支持智能通话降噪功能，AI精准是别人声，消除环境噪音，提供清晰通话。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "1MORE SonoFlow SE支持QuietMax双馈智能降噪，能够消除35dB以上外界噪音，通过通透模式，佩戴耳机也能轻松与外界交流；还支持智能通话降噪功能，AI精准是别人声，消除环境噪音，提供清晰通话。"
+        }
+      },
+      {
+        "text": "续航方面，最高可提供70小时的连续播放，支持快充，充电5分钟听歌5小时。",
+        "tag": "长续航",
+        "evidence": {
+          "value": "续航方面，最高可提供70小时的连续播放，支持快充，充电5分钟听歌5小时。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "续航方面，最高可提供70小时的连续播放，支持快充，充电5分钟听歌5小时。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "1MORE SonoFlow SE支持QuietMax双馈智能降噪，能够消除35dB以上外界噪音，通过通透模式，佩戴耳机也能轻松与外界交流；还支持智能通话降噪功能，AI精准是别人声，消除环境噪音，提供清晰通话。",
+    "launch_date": null,
+    "best_report_id": null,
+    "best_video_id": "266352"
+  }
 }

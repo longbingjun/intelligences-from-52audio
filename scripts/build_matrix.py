@@ -53,7 +53,13 @@ COMPARE_PARAM_ROWS = [
     "ip_rating",
     "bluetooth",
     "bom_rows",
+    "selling_point_tags",
+    "scenarios",
+    "positioning_summary",
 ]
+
+# 定位摘要在对比表格里只展示一行，超长时截断（详情仍可在产品页看全文）
+_POSITIONING_SUMMARY_MAX_LEN = 60
 
 
 def _category_filename(category: str) -> str:
@@ -76,6 +82,25 @@ def _price_display(price: float | None, layer: str | None) -> str:
     if layer == "channel":
         return f"{txt} (渠道)"
     return txt
+
+
+def _market_fields(product: dict) -> dict:
+    """从产品 market 快照提取对比表可用的展示字段（卖点标签 / 场景 / 定位摘要）。"""
+    market = product.get("market") or {}
+    tags: list[str] = []
+    for sp in market.get("selling_points") or []:
+        tag = (sp or {}).get("tag")
+        if tag and tag not in tags:
+            tags.append(tag)
+    scenarios = list(market.get("scenarios") or [])
+    summary = market.get("positioning_summary") or ""
+    if len(summary) > _POSITIONING_SUMMARY_MAX_LEN:
+        summary = summary[:_POSITIONING_SUMMARY_MAX_LEN] + "…"
+    return {
+        "selling_point_tags": "、".join(tags),
+        "scenarios": "、".join(scenarios),
+        "positioning_summary": summary,
+    }
 
 
 def build_matrix() -> dict:
@@ -141,6 +166,7 @@ def build_matrix() -> dict:
             "has_report": bool(product.get("report_ids")),
             "has_video": bool(product.get("video_ids")),
             "cost_fields": fields,
+            **_market_fields(product),
         }
         by_category[category].append(row)
 

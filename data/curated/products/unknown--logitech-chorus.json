@@ -24,16 +24,45 @@
     "weight_g": null,
     "ip_rating": null,
     "bluetooth": null,
-    "bom_row_count": 0,
+    "bom_row_count": 2,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
     "sales_hint": null,
     "data_completeness": 0.0,
     "best_report_id": null,
-    "best_video_id": null
+    "best_video_id": "266165"
   },
-  "bom_table": [],
+  "bom_table": [
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "槍體內部結構,通過熱容住固定主板單元。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "DSP Group DBM2降噪芯片,是一個高性能低功耗的音頻,DSP平台。"
+      }
+    }
+  ],
   "summary_image_urls": [],
   "summary_text": "",
   "layer_refs": {
@@ -45,5 +74,24 @@
     "unboxing": [],
     "review": []
   },
-  "unboxing": null
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "Chorus基于全新定制的非入耳式音响系统，为VR体验带来身临其境的超逼真音频体验；耳机支持快速旋转静音，使用也非常便捷。",
+        "tag": "其他",
+        "evidence": {
+          "value": "Chorus基于全新定制的非入耳式音响系统，为VR体验带来身临其境的超逼真音频体验；耳机支持快速旋转静音，使用也非常便捷。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "Chorus基于全新定制的非入耳式音响系统，为VR体验带来身临其境的超逼真音频体验；耳机支持快速旋转静音，使用也非常便捷。"
+        }
+      }
+    ],
+    "scenarios": [],
+    "positioning_summary": "Chorus基于全新定制的非入耳式音响系统，为VR体验带来身临其境的超逼真音频体验；耳机支持快速旋转静音，使用也非常便捷。",
+    "launch_date": null,
+    "best_report_id": null,
+    "best_video_id": "266165"
+  }
 }

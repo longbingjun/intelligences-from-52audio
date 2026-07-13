@@ -162,6 +162,66 @@ def _views_cost_score(views: dict) -> int:
     return len(cost.get("bom_table") or []) + 2 * len(cost.get("chip_modules") or [])
 
 
+def _views_market_score(views: dict) -> int:
+    market = views.get("market") or {}
+    return len(market.get("selling_points") or []) + len(market.get("scenarios") or [])
+
+
+def merge_market_snapshot(
+    *,
+    report_ids: list[str],
+    video_ids: list[str],
+    reports_by_id: dict[str, dict],
+    videos_by_id: dict[str, dict] | None = None,
+) -> dict | None:
+    """从产品关联报告/视频中选出市场信息（卖点/场景/定位）最丰富的一条，生成产品页市场快照。
+
+    与 merge_cost_snapshot 类似地"择优"而非机械拼接：卖点句多来自同一篇文章的连续表述，
+    跨源合并容易产生重复或语义割裂，因此选单一最佳信源更稳妥。
+    """
+    candidates: list[tuple[int, dict, str, str]] = []  # (score, views, source_type, source_id)
+    for rid in report_ids:
+        r = reports_by_id.get(rid)
+        if not r:
+            continue
+        views = r.get("views") or {}
+        score = _views_market_score(views)
+        if score:
+            candidates.append((score, views, "report", rid))
+
+    if videos_by_id:
+        for vid in video_ids:
+            v = videos_by_id.get(vid)
+            if not v:
+                continue
+            views = v.get("views") or {}
+            score = _views_market_score(views)
+            if score:
+                candidates.append((score, views, "video", vid))
+
+    if not candidates:
+        return None
+
+    candidates.sort(key=lambda c: c[0], reverse=True)
+    _, views, source_type, source_id = candidates[0]
+    market = views.get("market") or {}
+    selling_points = list(market.get("selling_points") or [])[:6]
+    scenarios = list(market.get("scenarios") or [])
+    positioning_summary = market.get("positioning_summary") or ""
+
+    if not (selling_points or scenarios or positioning_summary):
+        return None
+
+    return {
+        "selling_points": selling_points,
+        "scenarios": scenarios,
+        "positioning_summary": positioning_summary,
+        "launch_date": market.get("launch_date"),
+        "best_report_id": source_id if source_type == "report" else None,
+        "best_video_id": source_id if source_type == "video" else None,
+    }
+
+
 def merge_cost_snapshot(
     *,
     canonical_id: str,

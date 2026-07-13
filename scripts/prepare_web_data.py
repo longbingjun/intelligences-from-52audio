@@ -56,6 +56,7 @@ def clean_legacy_site() -> list[str]:
 def _teardown_list_item(record: dict, *, kind: str) -> dict:
     title = record.get("title") or record.get("product_title") or ""
     publisher = record.get("publisher") or record.get("author") or record.get("source_site") or ""
+    brand = record.get("brand") or (record.get("views") or {}).get("market", {}).get("brand", "")
     return {
         "id": record.get("id", ""),
         "kind": kind,
@@ -64,6 +65,7 @@ def _teardown_list_item(record: dict, *, kind: str) -> dict:
         "published_at": record.get("published_at", ""),
         "url": record.get("url", ""),
         "category": record.get("category", ""),
+        "brand": brand,
     }
 
 
