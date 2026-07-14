@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import os
 import re
 import shutil
 from datetime import datetime
@@ -14,8 +15,30 @@ import sys
 sys.path.insert(0, str(ROOT))
 
 from core.ingest import load_all_records  # noqa: E402
-from core.paths import compare_dir, products_dir, products_index_path, update_manifest, WEB_DATA
+from core.paths import compare_dir, last_step_stats, products_dir, products_index_path, update_manifest, WEB_DATA
 from core.scope import is_headphone_record  # noqa: E402
+
+# 单次构建产出的拆解报告数相比上一次意外下降超过该比例时，视为可能的抓取/合并回归
+DROP_ALERT_THRESHOLD = 0.3
+
+
+def _check_teardown_count_regression(new_count: int) -> None:
+    prev_stats = last_step_stats("prepare_web_data")
+    if not prev_stats:
+        return
+    prev_count = prev_stats.get("teardown_reports")
+    if not prev_count:
+        return
+    drop_ratio = (prev_count - new_count) / prev_count
+    if drop_ratio > DROP_ALERT_THRESHOLD:
+        message = (
+            f"[prepare_web_data] 数据质量警告：拆解报告数从 {prev_count} 骤降至 {new_count} "
+            f"（降幅 {drop_ratio:.0%}，超过 {DROP_ALERT_THRESHOLD:.0%} 阈值），"
+            "可能是抓取失败或合并逻辑回归，请检查后再发布"
+        )
+        print(message, file=sys.stderr)
+        if os.environ.get("CI"):
+            sys.exit(1)
 DATA = ROOT / "data"
 SITE = ROOT / "site"
 
@@ -159,6 +182,7 @@ def prepare() -> dict:
         json.dumps(teardown, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
+    _check_teardown_count_regression(teardown["report_count"])
     update_manifest(
         step="prepare_web_data",
         stats={

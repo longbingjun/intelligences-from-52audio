@@ -129,6 +129,15 @@ def run_daily(source: Audio52SourceV2) -> dict:
             print(f"[crawl] 解析失败 {item.get('url')}: {e}")
             stats["errors"] += 1
 
+    total_items = stats["new_reports"] + stats["new_videos"] + stats["skipped"] + stats["errors"] + stats["non_headphone"]
+    error_rate = stats["errors"] / max(total_items, 1)
+    if total_items > 0 and error_rate > 0.5:
+        print(
+            f"[crawl] 解析错误率过高：{stats['errors']}/{total_items} ({error_rate:.0%})，"
+            "可能是 52audio 站点模板变更导致解析器失效，终止并返回非零退出码"
+        )
+        sys.exit(1)
+
     index = load_index()
     from datetime import datetime, timezone
 

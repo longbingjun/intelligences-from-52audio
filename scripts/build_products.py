@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import os
 import sys
 from collections import defaultdict
 from datetime import datetime
@@ -26,12 +27,36 @@ from core.scope import HEADPHONE_CATEGORIES, is_headphone_record, normalize_head
 
 from core.paths import (
     LEGACY_PRODUCTS,
+    last_step_stats,
     products_dir,
     products_index_path,
     update_manifest,
     write_product_json,
     write_products_index,
 )
+
+# 单次构建产出的产品数相比上一次意外下降超过该比例时，视为可能的抓取/合并回归
+DROP_ALERT_THRESHOLD = 0.3
+
+
+def _check_product_count_regression(new_count: int) -> None:
+    """对比上一次 build_products 的产品数，产出异常骤降时发出警示（CI 环境下直接失败）。"""
+    prev_stats = last_step_stats("build_products")
+    if not prev_stats:
+        return
+    prev_count = prev_stats.get("products")
+    if not prev_count:
+        return
+    drop_ratio = (prev_count - new_count) / prev_count
+    if drop_ratio > DROP_ALERT_THRESHOLD:
+        message = (
+            f"[build_products] 数据质量警告：产品数从 {prev_count} 骤降至 {new_count} "
+            f"（降幅 {drop_ratio:.0%}，超过 {DROP_ALERT_THRESHOLD:.0%} 阈值），"
+            "可能是抓取失败或合并逻辑回归，请检查后再发布"
+        )
+        print(message, file=sys.stderr)
+        if os.environ.get("CI"):
+            sys.exit(1)
 
 
 def _record_identity(record: dict) -> tuple[str, str, str]:
@@ -189,6 +214,7 @@ def build_products() -> dict:
         "products": index_items,
     }
     write_products_index(index)
+    _check_product_count_regression(len(index_items))
     update_manifest(step="build_products", stats={"products": len(index_items)})
 
     # 移除不再生成的产品 JSON（非耳机等）

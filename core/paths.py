@@ -157,6 +157,20 @@ def write_unboxing_enrich(report_id: str, payload: dict) -> None:
     write_json_dual(primary, mirror, payload)
 
 
+def last_step_stats(step: str) -> dict | None:
+    """读取 data/manifest.json 中指定 step 最近一次记录的 stats（用于构建前后对比校验）。"""
+    if not MANIFEST_PATH.exists():
+        return None
+    try:
+        manifest = json.loads(MANIFEST_PATH.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+    for entry in reversed(manifest.get("steps", [])):
+        if entry.get("step") == step:
+            return entry.get("stats")
+    return None
+
+
 def update_manifest(*, step: str, stats: dict) -> None:
     """追加构建步骤到 data/manifest.json。"""
     manifest: dict = {}
