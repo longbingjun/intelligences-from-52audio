@@ -17,7 +17,16 @@ const STORAGE_KEY = "cost-compare-selection-v5";
 
 interface Props {
   category: string;
+  /**
+   * 首屏数据：可能只是完整品类数据的一个切片（用于避免把整个品类的对比数据
+   * 序列化进页面 HTML）。当 totalCount 大于此切片长度时，组件会在挂载后
+   * 通过 fetch 从 compareDataUrl 拉取完整数据并替换。
+   */
   compareData: CompareData;
+  /** 完整品类对比数据的静态 JSON 地址（例如 /data/compare/xxx.json） */
+  compareDataUrl?: string;
+  /** 该品类的完整产品数，用于判断 compareData 是否已经是全量、以及首屏文案展示 */
+  totalCount?: number;
   profiles: CompareProfiles;
   allCategories: { name: string; slug: string }[];
 }
@@ -55,7 +64,9 @@ function defaultSelection(products: CompareProduct[]): string[] {
 
 export default function CompareWorkbench({
   category,
-  compareData,
+  compareData: initialCompareData,
+  compareDataUrl,
+  totalCount,
   profiles,
   allCategories,
 }: Props) {
@@ -66,11 +77,42 @@ export default function CompareWorkbench({
   const [brandFilter, setBrandFilter] = useState<string>("");
   const [onlyWithReport, setOnlyWithReport] = useState(false);
   const [selected, setSelected] = useState<string[]>([]);
+  const [compareData, setCompareData] = useState<CompareData>(initialCompareData);
+  const [fullDataLoading, setFullDataLoading] = useState(
+    Boolean(compareDataUrl) && initialCompareData.products.length < (totalCount ?? 0)
+  );
   const [drawer, setDrawer] = useState<{
     product: CompareProduct;
     param: string;
     label: string;
   } | null>(null);
+
+  // 首屏只内嵌了该品类对比数据的一个切片（避免把上百款产品的完整数据序列化进页面 HTML），
+  // 挂载后再通过 fetch 拉取该品类的完整静态 JSON，加载完成后无缝替换成全量数据。
+  useEffect(() => {
+    if (!compareDataUrl) return;
+    if (initialCompareData.products.length >= (totalCount ?? 0)) return;
+    let cancelled = false;
+    fetch(compareDataUrl)
+      .then((res) => {
+        if (!res.ok) throw new Error(`fetch compare data failed: ${res.status}`);
+        return res.json();
+      })
+      .then((full: CompareData) => {
+        if (!cancelled) {
+          setCompareData(full);
+          setFullDataLoading(false);
+        }
+      })
+      .catch((err) => {
+        console.error("加载完整产品列表失败", err);
+        if (!cancelled) setFullDataLoading(false);
+      });
+    return () => {
+      cancelled = true;
+    };
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [compareDataUrl]);
 
   const paramRows = useMemo(() => (showP1 ? [...p0, ...p1] : p0), [showP1, p0, p1]);
 
@@ -99,18 +141,21 @@ export default function CompareWorkbench({
     [compareData.products, selected]
   );
 
-  // init selection from URL or localStorage
+  // 初始化选择：只在挂载时基于首屏切片计算一次，避免完整数据加载完成后
+  // 默认选中的产品发生跳变。已选中的产品 id 是否存在于当前 compareData
+  // 由下方 selectedProducts 的 filter 负责，不在这里做存在性校验。
   useEffect(() => {
     const params = new URLSearchParams(window.location.search);
     const fromUrl = params.get("ids");
     let ids: string[] = [];
     if (fromUrl) {
-      ids = fromUrl.split(",").filter((id) => compareData.products.some((p) => p.canonical_id === id));
+      ids = fromUrl.split(",").filter(Boolean);
     }
     if (!ids.length) ids = loadStored(category);
-    if (!ids.length) ids = defaultSelection(compareData.products);
+    if (!ids.length) ids = defaultSelection(initialCompareData.products);
     setSelected(ids);
-  }, [category, compareData.products]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [category]);
 
   const syncUrl = useCallback(
     (ids: string[]) => {
@@ -168,7 +213,10 @@ export default function CompareWorkbench({
       <div className="rounded-2xl border border-[var(--line)] bg-white p-5 shadow-sm">
         <h1 className="m-0 text-2xl font-bold">{category}</h1>
         <p className="mt-1 text-sm text-[var(--muted)]">
-          共 {compareData.products.length} 款产品 · 已选 {selectedProducts.length} 款参与对比
+          共 {totalCount ?? compareData.products.length} 款产品 · 已选 {selectedProducts.length} 款参与对比
+          {fullDataLoading && (
+            <span className="ml-2 text-xs text-[var(--primary)]">完整产品列表加载中…</span>
+          )}
         </p>
 
         {/* 筛选栏 */}

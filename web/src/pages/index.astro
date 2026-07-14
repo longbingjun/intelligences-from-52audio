@@ -43,6 +43,19 @@ const defaultCategory = [...categories].sort((a, b) => b.product_count - a.produ
 const defaultCompareData = defaultCategory
   ? JSON.parse(fs.readFileSync(path.join(dataDir, "compare", defaultCategory.file), "utf-8"))
   : { category: "", param_rows: [], products: [] };
+
+// 首页只内嵌该品类对比数据的一个小切片用于首屏渲染，避免把全部产品（TWS 品类已有
+// 700+ 款）的完整对比数据序列化进首页 HTML；完整数据由 CompareWorkbench 挂载后
+// 通过 fetch 从 /data/compare/{file} 静态 JSON 拉取。
+// 注意：compare JSON 里还有一个 `rows`（按参数转置的全量数据，供另一套 legacy
+// build_site.py 静态页兜底用）字段，CompareWorkbench 完全不用它——这里显式只挑选
+// 组件需要的字段，避免用 `...defaultCompareData` 把这份未裁剪的全量数据也带进来。
+const HOMEPAGE_COMPARE_PREVIEW_SIZE = 24;
+const defaultCompareDataPreview = {
+  category: defaultCompareData.category,
+  param_rows: defaultCompareData.param_rows,
+  products: defaultCompareData.products.slice(0, HOMEPAGE_COMPARE_PREVIEW_SIZE),
+};
 const profiles = JSON.parse(
   fs.readFileSync(path.join(dataDir, "compare_profiles.json"), "utf-8")
 );
@@ -143,7 +156,9 @@ if (fs.existsSync(productsDataDir)) {
     <CompareWorkbench
       client:load
       category={defaultCategory.name}
-      compareData={defaultCompareData}
+      compareData={defaultCompareDataPreview}
+      compareDataUrl={withBase(`/data/compare/${defaultCategory.file}`)}
+      totalCount={defaultCategory.product_count}
       profiles={profiles}
       allCategories={categories.map((c) => ({ name: c.name, slug: c.slug }))}
     />
