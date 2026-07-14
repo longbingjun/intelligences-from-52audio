@@ -3,37 +3,155 @@
   "brand": "Nothing",
   "model": "CMF Headphone Pro",
   "category": "头戴式耳机",
-  "report_ids": [],
+  "report_ids": [
+    "263900"
+  ],
   "video_ids": [
     "265077"
   ],
-  "related_report_ids": [],
+  "related_report_ids": [
+    "263900"
+  ],
   "related_video_ids": [
     "265077"
   ],
-  "first_seen": "2026-01-06",
+  "first_seen": "2025-12-23",
   "latest_published": "2026-01-06",
   "internal_match_suggestions": [],
   "cost_snapshot": {
-    "main_chip": null,
-    "pmic_case": null,
-    "battery_ear": null,
-    "battery_case": null,
-    "speaker": null,
-    "materials": null,
-    "weight_g": null,
-    "ip_rating": null,
-    "bluetooth": null,
-    "bom_row_count": 1,
+    "main_chip": "BES2710Y",
+    "pmic_case": "思远半导体 思远半导体SY5326",
+    "battery_ear": "微电新能源 3.7V/720mAh锂电池",
+    "battery_case": "电池",
+    "speaker": "喇叭单元",
+    "materials": "PC、皮革",
+    "weight_g": "284.5g",
+    "weight_case_g": "",
+    "weight_earbud_g": "284.5g",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 15,
     "price_cny": null,
     "price_layer": null,
     "channel_url": "",
     "sales_hint": null,
-    "data_completeness": 0.0,
-    "best_report_id": null,
-    "best_video_id": "265077"
+    "data_completeness": 1.0,
+    "best_report_id": "263900",
+    "best_video_id": null
   },
   "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "BES2710Y",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2710Y",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "左耳设置主板单元，采用了BES恒玄科技BES2710Y蓝牙音频SoC，Everest顺芯ES7243L频模数转换器。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "思远半导体",
+      "model": "思远半导体SY5326",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "保护IC",
+      "evidence": {
+        "value": "思远半导体SY5326",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "右耳内部设置WD微电新能源3.7V/720mAh锂电池组和电源输入小板，采用了思远半导体SY5326过压过流保护IC，思远半导体SY6201充电管理芯片，以及CHIPSEA芯海科技CS8M320F3V6单片机等方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "思远半导体",
+      "model": "思远半导体SY6201",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "保护IC",
+      "evidence": {
+        "value": "思远半导体SY6201",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "右耳内部设置WD微电新能源3.7V/720mAh锂电池组和电源输入小板，采用了思远半导体SY5326过压过流保护IC，思远半导体SY6201充电管理芯片，以及CHIPSEA芯海科技CS8M320F3V6单片机等方案。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "微电新能源",
+      "model": "3.7V/720mAh锂电池",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "3.7V/720mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "右耳内部设置WD微电新能源3.7V/720mAh锂电池组和电源输入小板，采用了思远半导体SY5326过压过流保护IC，思远半导体SY6201充电管理芯片，以及CHIPSEA芯海科技CS8M320F3V6单片机等方案。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "主要配置上，双耳搭载40mm镀镍振膜驱动单元，内置5颗驻极体麦克风。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "左侧耳壳侧边的降噪麦克风拾音孔特写，通过金属盖板防护。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳壳与耳罩固定的卡扣结构特写。耳机采用了双腔体设计，上方音腔结构和下方电路板的耳壳腔体隔离。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部结构一览，设置有电源输入小板、音量调节滚轮的小板、麦克风和电池单元。"
+      }
+    },
     {
       "component": "喇叭单元",
       "brand": "",
@@ -45,14 +163,107 @@
         "value": "喇叭单元",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "CMF Headphone Pro头戴式降噪耳机搭载40mm镀镍振膜驱动单元，声音饱满清晰，支持LDAC高清音频解码，获得了Hi-Res Audio Wireless高清音频认证；支持Audiodo技术，能够根据用户耳朵对频率的响应，轻松定制专属音效；还支持独特的低音/高音模式调节，通过耳机能量滑控键便捷控制，打造个性化的听音体验。"
+        "source_text": "在功能配置上，CMF Headphone Pro头戴式降噪耳机搭载40mm镀镍振膜驱动单元，声音饱满清晰，支持LDAC高清音频解码，获得了Hi-Res Audio Wireless高清音频认证；支持Audiodo技术，能够根据用户耳朵对频率的响应，轻松定制专属音效；还支持独特的低音/高音模式调节，通过耳机能量滑控键便捷控制，打造个性化的听音体验。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "CMF Headphone Pro支持混合式主动降噪功能，最大降噪深度可达-40dB；支持自适应降噪，可根据周围环境噪音，自动切换强、中、弱降噪模式。支持空间音频功能，拥有剧院和演唱会等模式，能够提供更具临场感的听觉体验。续航方面，支持长达100小时的音乐播放（降噪模式50小时），快充5分钟，可聆听4小时。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面展示有耳机的功能按键和功能接口，标注了产品主要功能特点，贴有产品标签。无线耳机，型号：B175，颜色：浅灰，输入：5V-1A，制造商：深圳纳欣科技有限公司，NOTHING授权生产，中国制造。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "电源开关/蓝牙配对按键特写，左右设计有指示灯和标识反馈。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Nothing CMF Headphone Pro头戴式降噪耳机在外观设计上简约而富有个性，同时展现出精致质感。头梁采用一体式皮革包裹，与耳壳通过隐藏式结构衔接。耳机呈圆形设计，外壳质感温润如陶瓷，耳罩采用亲肤材质包裹，搭配柔软记忆棉，为用户带来舒适佩戴体验。此外，独特的能量滑控键和音量调节滚轮设计，提供了便捷的操控体验。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY5326",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY5326",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "思远半导体SY5326过压过流保护IC，具有140mΩ低导通电阻，输入电压范围3.0V~30V，当输入电压超过过压保护阈值时，可以在50nS内快速关断内部MOSFET，以保护后端低压系统免受异常高输入电压的影响。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY6201",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY6201",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "思远半导体SY6201针对小容量锂电池快充应用进行了优化，支持最大2A充电电流并且支持最低10mA的充电截止电流，同时芯片待机功耗小于13uA，ship mode模式下小于2uA。"
       }
     }
   ],
-  "summary_image_urls": [],
-  "summary_text": "",
+  "summary_image_urls": [
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/12/2025122310455345.png",
+      "alt": "拆解报告：Nothing CMF Headphone Pro头戴式降噪耳机-我爱音频网",
+      "caption": "",
+      "section_hint": "summary_bom",
+      "score": 10
+    }
+  ],
+  "summary_text": "三、我爱音频网总结 最后附上Nothing CMF Headphone Pro头戴式降噪耳机已知的物料清单，方便大家查阅。 Nothing CMF Headphone Pro头戴式降噪耳机在外观设计上简约而富有个性，同时展现出精致质感。头梁采用一体式皮革包裹，与耳壳通过隐藏式结构衔接。耳机呈圆形设计，外壳质感温润如陶瓷，耳罩采用亲肤材质包裹，搭配柔软记忆棉，为用户带来舒适佩戴体验。此外，独特的能量滑控键和音量调节滚轮设计，提供了便捷的操控体验。 内部结构方面，耳机采用了双腔体设计，音腔独立于电路板腔体。主要配置上，双耳搭载40mm镀镍振膜驱动单元，内置5颗驻极体麦克风。左耳设置主板单元，采用了BES恒玄科技BES2710Y蓝牙音频SoC，Everest顺芯ES7243L频模数转换器。 右耳内部设置WD微电新能源3.7V/720mAh锂电池组和电源输入小板，采用了思远半导体SY5326过压过流保护IC，思远半导体SY6201充电管理芯片，以及CHIPSEA芯海科技CS8M320F3V6单片机等方案。",
   "layer_refs": {
     "technical": [
+      "report:263900",
       "video:265077"
     ],
     "channel": [
@@ -68,22 +279,72 @@
   "market": {
     "selling_points": [
       {
-        "text": "CMF Headphone Pro头戴式降噪耳机搭载40mm镀镍振膜驱动单元，声音饱满清晰，支持LDAC高清音频解码，获得了Hi-Res Audio Wireless高清音频认证；支持Audiodo技术，能够根据用户耳朵对频率的响应，轻松定制专属音效；还支持独特的低音/高音模式调节，通过耳机能量滑控键便捷控制，打造个性化的听音体验。",
+        "text": "在功能配置上，CMF Headphone Pro头戴式降噪耳机搭载40mm镀镍振膜驱动单元，声音饱满清晰，支持LDAC高清音频解码，获得了Hi-Res Audio Wireless高清音频认证；支持Audiodo技术，能够根据用户耳朵对频率的响应，轻松定制专属音效；还支持独特的低音/高音模式调节，通过耳机能量滑控键便捷控制，打造个性化的听音体验。",
         "tag": "降噪",
         "evidence": {
-          "value": "CMF Headphone Pro头戴式降噪耳机搭载40mm镀镍振膜驱动单元，声音饱满清晰，支持LDAC高清音频解码，获得了Hi-Res Audio Wireless高清音频认证；支持Audiodo技术，能够根据用户耳朵对频率的响应，轻松定制专属音效；还支持独特的低音/高音模式调节，通过耳机能量滑控键便捷控制，打造个性化的听音体验。",
-          "confidence": 0.71,
+          "value": "在功能配置上，CMF Headphone Pro头戴式降噪耳机搭载40mm镀镍振膜驱动单元，声音饱满清晰，支持LDAC高清音频解码，获得了Hi-Res Audio Wireless高清音频认证；支持Audiodo技术，能够根据用户耳朵对频率的响应，轻松定制专属音效；还支持独特的低音/高音模式调节，通过耳机能量滑控键便捷控制，打造个性化的听音体验。",
+          "confidence": 0.75,
           "source_type": "text",
-          "source_text": "CMF Headphone Pro头戴式降噪耳机搭载40mm镀镍振膜驱动单元，声音饱满清晰，支持LDAC高清音频解码，获得了Hi-Res Audio Wireless高清音频认证；支持Audiodo技术，能够根据用户耳朵对频率的响应，轻松定制专属音效；还支持独特的低音/高音模式调节，通过耳机能量滑控键便捷控制，打造个性化的听音体验。"
+          "source_text": "在功能配置上，CMF Headphone Pro头戴式降噪耳机搭载40mm镀镍振膜驱动单元，声音饱满清晰，支持LDAC高清音频解码，获得了Hi-Res Audio Wireless高清音频认证；支持Audiodo技术，能够根据用户耳朵对频率的响应，轻松定制专属音效；还支持独特的低音/高音模式调节，通过耳机能量滑控键便捷控制，打造个性化的听音体验。"
+        }
+      },
+      {
+        "text": "CMF Headphone Pro是该品牌近期推出的旗舰级头戴式降噪耳机，外观上延续了家族式的极简风格设计，搭配时尚多彩配色，极具个性化。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "CMF Headphone Pro是该品牌近期推出的旗舰级头戴式降噪耳机，外观上延续了家族式的极简风格设计，搭配时尚多彩配色，极具个性化。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "CMF Headphone Pro是该品牌近期推出的旗舰级头戴式降噪耳机，外观上延续了家族式的极简风格设计，搭配时尚多彩配色，极具个性化。"
+        }
+      },
+      {
+        "text": "Nothing CMF Headphone Pro头戴式降噪耳机外侧外观一览，耳壳采用了简约的圆形几何造型，质感温润如陶瓷，与一体式设计的头梁通过穿插式结构衔接，极致简约，但又不失精致感。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "Nothing CMF Headphone Pro头戴式降噪耳机外侧外观一览，耳壳采用了简约的圆形几何造型，质感温润如陶瓷，与一体式设计的头梁通过穿插式结构衔接，极致简约，但又不失精致感。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "Nothing CMF Headphone Pro头戴式降噪耳机外侧外观一览，耳壳采用了简约的圆形几何造型，质感温润如陶瓷，与一体式设计的头梁通过穿插式结构衔接，极致简约，但又不失精致感。"
+        }
+      },
+      {
+        "text": "续航方面，支持长达100小时的音乐播放（降噪模式50小时），快充5分钟，可聆听4小时。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "续航方面，支持长达100小时的音乐播放（降噪模式50小时），快充5分钟，可聆听4小时。",
+          "confidence": 0.68,
+          "source_type": "text",
+          "source_text": "续航方面，支持长达100小时的音乐播放（降噪模式50小时），快充5分钟，可聆听4小时。"
+        }
+      },
+      {
+        "text": "二、\nNothing CMF Headphone Pro头戴式降噪耳机拆解\n通过开箱，我们详细了解Nothing CMF Headphone Pro头戴式降噪耳机的独特外观设计，下面进入拆解部分，看看内部结构配置信息~\n旋转解开卡扣取掉耳罩，下方音腔盖板上通过海绵垫覆盖，同时起到调音和防尘作用。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "二、\nNothing CMF Headphone Pro头戴式降噪耳机拆解\n通过开箱，我们详细了解Nothing CMF Headphone Pro头戴式降噪耳机的独特外观设计，下面进入拆解部分，看看内部结构配置信息~\n旋转解开卡扣取掉耳罩，下方音腔盖板上通过海绵垫覆盖，同时起到调音和防尘作用。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "二、\nNothing CMF Headphone Pro头戴式降噪耳机拆解\n通过开箱，我们详细了解Nothing CMF Headphone Pro头戴式降噪耳机的独特外观设计，下面进入拆解部分，看看内部结构配置信息~\n旋转解开卡扣取掉耳罩，下方音腔盖板上通过海绵垫覆盖，同时起到调音和防尘作用。"
+        }
+      },
+      {
+        "text": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n万魔\n、\nOPPO\n、\n小米\n、\nREDMI\n、\n韶音\n、\n神牛\n、\n优篮子\n、\n西圣\n、\n三星、一加、字节跳动、JBL、小天才、倍思、韶音、猛玛、Cleer、Nothing、捷波朗、斯莫格、NuPhy、高驰、翡声、枫笛、海尔兄弟、泥炭、左点、TG\n、\niQOO、漫步者、联想、传音、科大讯飞、用维、公牛、Fiio、翡声、MEES、YOBYBO、HAYLOU、DENON、Oladance、XTOUR、final、酷睿视、Skullcandy\n、\nvivo\n、\nQCY\n、\n声阔\n、\n绿联\n、\nrealme、魅族、百度、网易、哈曼、\n万魔、233621、魔宴、创新科技\n等国内外知名品牌采用。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n万魔\n、\nOPPO\n、\n小米\n、\nREDMI\n、\n韶音\n、\n神牛\n、\n优篮子\n、\n西圣\n、\n三星、一加、字节跳动、JBL、小天才、倍思、韶音、猛玛、Cleer、Nothing、捷波朗、斯莫格、NuPhy、高驰、翡声、枫笛、海尔兄弟、泥炭、左点、TG\n、\niQOO、漫步者、联想、传音、科大讯飞、用维、公牛、Fiio、翡声、MEES、YOBYBO、HAYLOU、DENON、Oladance、XTOUR、final、酷睿视、Skullcandy\n、\nvivo\n、\nQCY\n、\n声阔\n、\n绿联\n、\nrealme、魅族、百度、网易、哈曼、\n万魔、233621、魔宴、创新科技\n等国内外知名品牌采用。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n万魔\n、\nOPPO\n、\n小米\n、\nREDMI\n、\n韶音\n、\n神牛\n、\n优篮子\n、\n西圣\n、\n三星、一加、字节跳动、JBL、小天才、倍思、韶音、猛玛、Cleer、Nothing、捷波朗、斯莫格、NuPhy、高驰、翡声、枫笛、海尔兄弟、泥炭、左点、TG\n、\niQOO、漫步者、联想、传音、科大讯飞、用维、公牛、Fiio、翡声、MEES、YOBYBO、HAYLOU、DENON、Oladance、XTOUR、final、酷睿视、Skullcandy\n、\nvivo\n、\nQCY\n、\n声阔\n、\n绿联\n、\nrealme、魅族、百度、网易、哈曼、\n万魔、233621、魔宴、创新科技\n等国内外知名品牌采用。"
         }
       }
     ],
     "scenarios": [
       "通话"
     ],
-    "positioning_summary": "CMF Headphone Pro头戴式降噪耳机搭载40mm镀镍振膜驱动单元，声音饱满清晰，支持LDAC高清音频解码，获得了Hi-Res Audio Wireless高清音频认证；支持Audiodo技术，能够根据用户耳朵对频率的响应，轻松定制专属音效；还支持独特的低音/高音模式调节，通过耳机能量滑控键便捷控制，打造个性化的听音体验。",
+    "positioning_summary": "在功能配置上，CMF Headphone Pro头戴式降噪耳机搭载40mm镀镍振膜驱动单元，声音饱满清晰，支持LDAC高清音频解码，获得了Hi-Res Audio Wireless高清音频认证；支持Audiodo技术，能够根据用户耳朵对频率的响应，轻松定制专属音效；还支持独特的低音/高音模式调节，通过耳机能量滑控键便捷控制，打造个性化的听音体验。",
     "launch_date": null,
-    "best_report_id": null,
-    "best_video_id": "265077"
+    "best_report_id": "263900",
+    "best_video_id": null
   }
 }

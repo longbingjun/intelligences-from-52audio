@@ -1,0 +1,258 @@
+{
+  "canonical_id": "huawei--freelace-pro-2",
+  "brand": "HUAWEI华为",
+  "model": "FreeLace Pro 2",
+  "category": "颈挂式蓝牙耳机",
+  "report_ids": [
+    "200282"
+  ],
+  "video_ids": [
+    "213544"
+  ],
+  "related_report_ids": [
+    "200282"
+  ],
+  "related_video_ids": [
+    "213544"
+  ],
+  "first_seen": "2024-05-24",
+  "latest_published": "2024-09-27",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "",
+    "pmic_case": "",
+    "battery_ear": "1V/50mAh锂电池",
+    "battery_case": "电池",
+    "speaker": "喇叭单元",
+    "materials": "硅胶、塑料、液态硅胶",
+    "weight_g": "34.6g",
+    "weight_case_g": "",
+    "weight_earbud_g": "34.6g",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 10,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.67,
+    "best_report_id": "200282",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "1V/50mAh锂电池",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "1V/50mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内部结构配置方面，颈戴线上左侧腔体内置150mAh锂电池；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "还搭载了一颗MEMS麦克风，用于语音通话拾音。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在降噪方面，华为FreeLace Pro 2升级智慧动态降噪2.0，支持深度、均衡、轻度三种降噪模式，支持自适应环境噪音识别，智能切换更适合的降噪模式；升级AI通话降噪，五麦克风系统，搭配四重降噪算法，保障打电话、视频通话等场景下的清晰语音效果。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆掉右侧腔体的线控板，颈戴线内部排线通过BTB连接器连接右侧腔体内部主板。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "抽出腔体内部设置的电池单元。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "WUQI物奇WQ7036AX蓝牙音频SoC。WQ7036系列是物奇新一代高端蓝牙音频芯片，具备强大的平台能力，拥有领先的性能优势：包括兼容多协议：支持蓝牙BT/BLE5.3双模模式和蓝牙多接；支持蓝牙广播Auracast（和经典蓝牙共存的音频分享）；支持LE Audio新技术标准和 LC3编解码器；射频性能优秀：优异的射频性能，发射功率最高到15dBm, 接收灵敏度到达-99dBm；高性能音频算法：支持自适应Hybrid ANC及各种上下行复杂音频算法；超低功耗水平：在复杂音频算法的同时，依然保持超低功耗；生态系统丰富：更大SRAM和FLASH空间，实现应用特性更广覆盖；平台开放，支持更多产品形态。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "经我爱音频网实测，扬声器单元直径约10.75mm。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "切割开线控板腔体的金属外壳，下方保护壳上设置有两颗金属弹片接地。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面介绍了产品的详细功能特点，功能按键操作指南，注意事项，以及华为终端有限公司部分信息。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "电源键右侧还设置有一颗指示灯，用于反馈充电及蓝牙配对状态。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 HUAWEI华为FreeLace Pro 2颈挂式耳机在外观方面，采用了独具辨识度的经典设计，扁平颈戴线，采用液态硅胶覆盖，佩戴舒适亲肤、不易滚动和一侧脱落；内部采用镍钛金属合金材质，可随意弯曲，便于携带。耳机采用了一体式耳套，提供舒适稳固的佩戴；磁吸设计，自动控制连接，节省不必要的电量消耗。还有独特的嵌入式HiPair USB-C直连快充接口，提供了非常便捷的使用体验。 内部结构配置方面，颈戴线上左侧腔体内置150mAh锂电池；右侧腔体内置主板单元，搭载了WUQi物奇WQ7036AX蓝牙音频SoC，具备强大的平台能力，领先的性能优势，支持蓝牙BT/BLE5.3双模模式和蓝牙多接，支持自适应Hybrid ANC及各种上下行复杂音频算法；还搭载了一颗MEMS麦克风，用于语音通话拾音。 左右耳机内部均搭载了直径约10.75mm超磁感澎湃单元，内置了两颗MEMS麦克风用于降噪功能拾音。不同之处在于，左耳还设置有触摸检测传感器，用于降噪功能控制；设置有霍尔元件，用于磁吸开关功能，实现吸合时快速断连，分开后快速回连。 相关阅读： 1、 拆解报告：华为 FreeLace Pro 降噪脖挂蓝牙耳机 2、 拆解报告：华为FREE LACE无线耳机 3、 华为智能眼镜 2 拆解，轻巧时尚设计，同向双振膜澎湃单元",
+  "layer_refs": {
+    "technical": [
+      "report:200282",
+      "video:213544"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "在降噪方面，华为FreeLace Pro 2升级智慧动态降噪2.0，支持深度、均衡、轻度三种降噪模式，支持自适应环境噪音识别，智能切换更适合的降噪模式；升级AI通话降噪，五麦克风系统，搭配四重降噪算法，保障打电话、视频通话等场景下的清晰语音效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "在降噪方面，华为FreeLace Pro 2升级智慧动态降噪2.0，支持深度、均衡、轻度三种降噪模式，支持自适应环境噪音识别，智能切换更适合的降噪模式；升级AI通话降噪，五麦克风系统，搭配四重降噪算法，保障打电话、视频通话等场景下的清晰语音效果。",
+          "confidence": 0.67,
+          "source_type": "text",
+          "source_text": "在降噪方面，华为FreeLace Pro 2升级智慧动态降噪2.0，支持深度、均衡、轻度三种降噪模式，支持自适应环境噪音识别，智能切换更适合的降噪模式；升级AI通话降噪，五麦克风系统，搭配四重降噪算法，保障打电话、视频通话等场景下的清晰语音效果。"
+        }
+      },
+      {
+        "text": "在音质方面，其搭载了超磁感澎湃单元，低频下潜可达15Hz，支持L2HC和LDAC双高清音频解码，传输码率最高达990kbps，获得了HWA及Hi-Res双金标认证；还支持等响自适应算法，保障不同音量大小下的听音一致性；预设多种音效，支持10段均衡器调节，提供个性化听感。",
+        "tag": "音质认证",
+        "evidence": {
+          "value": "在音质方面，其搭载了超磁感澎湃单元，低频下潜可达15Hz，支持L2HC和LDAC双高清音频解码，传输码率最高达990kbps，获得了HWA及Hi-Res双金标认证；还支持等响自适应算法，保障不同音量大小下的听音一致性；预设多种音效，支持10段均衡器调节，提供个性化听感。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "在音质方面，其搭载了超磁感澎湃单元，低频下潜可达15Hz，支持L2HC和LDAC双高清音频解码，传输码率最高达990kbps，获得了HWA及Hi-Res双金标认证；还支持等响自适应算法，保障不同音量大小下的听音一致性；预设多种音效，支持10段均衡器调节，提供个性化听感。"
+        }
+      },
+      {
+        "text": "前馈降噪麦克风背部拾音孔特写，防尘网防护，外围通过橡胶圈密封，对应外壳上拾音孔。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "前馈降噪麦克风背部拾音孔特写，防尘网防护，外围通过橡胶圈密封，对应外壳上拾音孔。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "前馈降噪麦克风背部拾音孔特写，防尘网防护，外围通过橡胶圈密封，对应外壳上拾音孔。"
+        }
+      },
+      {
+        "text": "还有独特的嵌入式HiPair USB-C直连快充接口，提供了非常便捷的使用体验。",
+        "tag": "长续航",
+        "evidence": {
+          "value": "还有独特的嵌入式HiPair USB-C直连快充接口，提供了非常便捷的使用体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "还有独特的嵌入式HiPair USB-C直连快充接口，提供了非常便捷的使用体验。"
+        }
+      },
+      {
+        "text": "另外一颗镭雕S508的MEMS麦克风特写，为前馈降噪麦克风，用于拾取外部环境噪音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "另外一颗镭雕S508的MEMS麦克风特写，为前馈降噪麦克风，用于拾取外部环境噪音。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "另外一颗镭雕S508的MEMS麦克风特写，为前馈降噪麦克风，用于拾取外部环境噪音。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "在降噪方面，华为FreeLace Pro 2升级智慧动态降噪2.0，支持深度、均衡、轻度三种降噪模式，支持自适应环境噪音识别，智能切换更适合的降噪模式；升级AI通话降噪，五麦克风系统，搭配四重降噪算法，保障打电话、视频通话等场景下的清晰语音效果。",
+    "launch_date": null,
+    "best_report_id": "200282",
+    "best_video_id": null
+  }
+}

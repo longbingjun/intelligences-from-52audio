@@ -15,25 +15,69 @@
   "latest_published": "2026-07-03",
   "internal_match_suggestions": [],
   "cost_snapshot": {
-    "main_chip": "",
+    "main_chip": "INJOINIC英集芯IP6818",
     "pmic_case": "",
     "battery_ear": "电池",
-    "battery_case": "35 mAh",
+    "battery_case": "3.7V/450mAh锂电池",
     "speaker": "喇叭单元",
     "materials": "硅胶",
     "weight_g": "38.0g",
-    "ip_rating": "IP6",
+    "weight_case_g": "",
+    "weight_earbud_g": "3.2g",
+    "ip_rating": "",
     "bluetooth": "5.4",
-    "bom_row_count": 11,
+    "bom_row_count": 16,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
     "sales_hint": null,
-    "data_completeness": 0.67,
+    "data_completeness": 0.83,
     "best_report_id": "281471",
     "best_video_id": null
   },
   "bom_table": [
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机搭载35mAh钢壳扣式电池、6mm动圈喇叭，内置3麦克风拾音系统；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "INJOINIC英集芯IP6818",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP6818",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片为INJOINIC英集芯IP6818 TWS耳机充电仓管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等多功能，为充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3.7V/450mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3.7V/450mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内部搭载3.7V/450mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护；"
+      }
+    },
     {
       "component": "充电仓",
       "brand": "",
@@ -187,10 +231,46 @@
         "source_type": "text",
         "source_text": "拆解耳机部分。撬开外壳，取出座舱结构。"
       }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP6818",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP6818",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "INJOINIC英集芯IP6818 TWS耳机充电仓管理SoC，是一款集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "英集芯IP6818",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "英集芯IP6818",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "英集芯IP6818还内置了MCU，可灵活定制4/3/2/1颗LED电量显示；内置12bit ADC，可准确计算电池电量。"
+      }
     }
   ],
-  "summary_image_urls": [],
-  "summary_text": "",
+  "summary_image_urls": [
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/07/2026070310121812.png",
+      "alt": "拆解报告：NANK南卡Deep Sleep睡眠耳机-我爱音频网",
+      "caption": "",
+      "section_hint": "summary_bom",
+      "score": 10
+    }
+  ],
+  "summary_text": "三、我爱音频网总结 最后附上NANK南卡Deep Sleep睡眠耳机的已知核心物料清单，方便大家查阅。 NANK南卡Deep Sleep睡眠耳机在外观方面，整体设计非常的小巧轻盈；椭圆椭圆形充电盒，设计圆润，体积轻巧便携；豆状的入耳式耳机，外观极致小巧轻薄，且重量仅3.2g，搭配三种尺寸的亲肤硅胶耳套，提供了非常舒适的佩戴体验，侧睡不硌耳、不易滑落。 内部主要配置方面，耳机搭载35mAh钢壳扣式电池、6mm动圈喇叭，内置3麦克风拾音系统；主控芯片采用WUQI物奇微WQ7035AX-B智能音频SoC，具备强大的平台能力，拥有领先的性能优势，为耳机的各项功能提供高效支持；其他还采用了ST意法半导体LIS2DW12TR加速度传感器等。 充电盒内部搭载3.7V/450mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护；主控芯片为INJOINIC英集芯IP6818 TWS耳机充电仓管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等多功能，为充电仓提供完整的电源解决方案。",
   "layer_refs": {
     "technical": [
       "report:281471"

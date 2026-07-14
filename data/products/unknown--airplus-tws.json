@@ -1,0 +1,295 @@
+{
+  "canonical_id": "unknown--airplus-tws",
+  "brand": "",
+  "model": "昂达AirPlus TWS蓝牙",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "43470"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "43470"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2020-05-11",
+  "latest_published": "2020-05-11",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "络达 AB1536U",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "30 mAh",
+    "speaker": "",
+    "materials": "塑料",
+    "weight_g": "40.6克",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.1",
+    "bom_row_count": 13,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.67,
+    "best_report_id": "43470",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面信息，昂达AirPlus TWS蓝牙耳机，支持蓝牙5.1，支持手机弹窗和敲击操作；耳机电池容量，3.8V，30mAh；充电盒电池，3.7V，400mAh；广州致乐电子科技有限公司制造。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面信息，昂达AirPlus TWS蓝牙耳机，支持蓝牙5.1，支持手机弹窗和敲击操作；耳机电池容量，3.8V，30mAh；充电盒电池，3.7V，400mAh；广州致乐电子科技有限公司制造。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "指示灯&霍尔元件副板通过排线和插座连接到主板。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "底部的充电正负极触点，触点环抱着通话麦克风拾音孔，有防尘网。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "蓝牙天线通过双面胶固定在一块隆起的塑料支架上。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒不支持无线充电功能，指示灯位于充电盒内部。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒背面特写，金属合页、配对按键。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA1061",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA1061",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "钰泰 ETA1061 1μA超低静态电流的同步整流升压IC，SOT23封装，将内置锂电池升压到5V输出，非常适合TWS耳机充电盒升压为耳机充电。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA1061",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA1061",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "钰泰 ETA1061 详细资料。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "络达 AB1536U",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "络达 AB1536U",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "主控芯片为络达 AB1536U，目前白牌AirPods 2“顶配版”使用频率最高的一款芯片，内部集成存储器，支持安卓苹果应用，内置电容触摸控制器，集成锂电池充电器，支持过放保护，内置开关降压和LDO。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB1536",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB1536",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "主控芯片为络达 AB1536U，目前白牌AirPods 2“顶配版”使用频率最高的一款芯片，内部集成存储器，支持安卓苹果应用，内置电容触摸控制器，集成锂电池充电器，支持过放保护，内置开关降压和LDO。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "络达AB1536U",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "络达AB1536U",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "耳机采用络达AB1536U，其内部集成LDO和开关降压，并且内置存储器，锂电池充电器，可以大大减少耳机元件数量。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB1536",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB1536",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "耳机采用络达AB1536U，其内部集成LDO和开关降压，并且内置存储器，锂电池充电器，可以大大减少耳机元件数量。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:43470"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "耳机柄上的装饰开孔，能看到内部电路，正品此处为通话降噪麦克风开孔。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "耳机柄上的装饰开孔，能看到内部电路，正品此处为通话降噪麦克风开孔。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "耳机柄上的装饰开孔，能看到内部电路，正品此处为通话降噪麦克风开孔。"
+        }
+      },
+      {
+        "text": "支持2496高清音频，支持降噪和回声消除，提供4x5.5mm BGA封装，非常节省占板面积。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "支持2496高清音频，支持降噪和回声消除，提供4x5.5mm BGA封装，非常节省占板面积。",
+          "confidence": 0.63,
+          "source_type": "text",
+          "source_text": "支持2496高清音频，支持降噪和回声消除，提供4x5.5mm BGA封装，非常节省占板面积。"
+        }
+      },
+      {
+        "text": "耳机内侧的泄压孔有防尘网。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "耳机内侧的泄压孔有防尘网。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "耳机内侧的泄压孔有防尘网。"
+        }
+      },
+      {
+        "text": "耳机出音孔处的防尘网。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "耳机出音孔处的防尘网。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "耳机出音孔处的防尘网。"
+        }
+      },
+      {
+        "text": "底部的充电正负极触点，触点环抱着通话麦克风拾音孔，有防尘网。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "底部的充电正负极触点，触点环抱着通话麦克风拾音孔，有防尘网。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "底部的充电正负极触点，触点环抱着通话麦克风拾音孔，有防尘网。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "耳机柄上的装饰开孔，能看到内部电路，正品此处为通话降噪麦克风开孔。",
+    "launch_date": null,
+    "best_report_id": "43470",
+    "best_video_id": null
+  }
+}

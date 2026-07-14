@@ -1,0 +1,328 @@
+{
+  "canonical_id": "unknown--monsterairmars-xkt08",
+  "brand": "",
+  "model": "MONSTER魔声AIRMARS XKT08",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "148153"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "148153"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-02-10",
+  "latest_published": "2023-02-10",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "Prisemi芯导P14C1S",
+    "pmic_case": "Prisemi芯导 Prisemi芯导P14C1S",
+    "battery_ear": "300 mAh",
+    "battery_case": "3V/00mAh",
+    "speaker": "动圈单元",
+    "materials": "PC",
+    "weight_g": "37.4g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 16,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "148153",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "Prisemi芯导",
+      "model": "Prisemi芯导P14C1S",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "Prisemi芯导P14C1S",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "还采用了Prisemi芯导P14C1S过压过流保护IC，支持高达32V的输入耐压。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3V/00mAh",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3V/00mAh",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置YD亿等新能源300mAh电池，由Type-C接口输入电源，采用了LPS微源半导体LP7806五合一耳机充电仓专用芯片，单芯片负责充放电管理；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部主要配置方面，采用了13mm PU羊绒复合振膜大动圈单元输出音频，一颗MEMS麦克风用于语音通话拾音；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部主要配置方面，采用了13mm PU羊绒复合振膜大动圈单元输出音频，一颗MEMS麦克风用于语音通话拾音；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "麦克风",
+      "qty_hint": "2",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片采用了JL杰理AD6973D蓝牙音频SoC，支持蓝牙5.3，支持AAC，SBC解码，支持神经网络噪声抑制和回声消除，支持单/双麦克风降噪，为耳机各项功能提供支持。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面详细介绍了产品的功能参数，包括：人体工学设计、综合续航长达24小时、透明PC充电盒、Monster定制音效、音乐/游戏双模式和硅麦技术高清通话；传输距离：10m，喇叭直径：13mm，喇叭阻抗：32Ω±15%，灵敏度：109±3dB，频响范围：20Hz-20kHz，电池容量（充电盒）：3.7V 300mAh。电池容量(耳机):3.7V 33mAh。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "MONSTER魔声是一家成立于1979年的国际知名老牌音频厂商，致力于开发设计创造性产品以提升音乐音质。此次将要拆解的是魔声旗下一款设计非常独特的真无线耳机——AIRMARS XKT08“小冰块”，其充电盒采用了形似口红盒的方形外观，高透水晶设计，体积迷你小巧，手感丝滑；耳机采用了半入耳式的人体工学设计，提供舒适佩戴。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒主板有螺丝固定，座舱上为耳机充电小板的导线焊接在主板上，焊点饱满圆润。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄底部设置为耳机充电的金属触点和通话麦克风拾音孔。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在功能配置方面，魔声AIRMARS XKT08真无线耳机搭载了13mm PU羊绒复合振膜动圈喇叭，通过专业调音师进行调校三频均衡，还原丰富的音频细节；支持蓝牙5.3技术，提供稳定快速、低延迟传输；支持ENC通话降噪，能够有效削弱环境噪音；还支持自动配对，触摸控制，提供便捷使用体验。耳机单次续航时间4小时，搭配充电盒综合续航20小时。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在功能配置方面，魔声AIRMARS XKT08真无线耳机搭载了13mm PU羊绒复合振膜动圈喇叭，通过专业调音师进行调校三频均衡，还原丰富的音频细节；支持蓝牙5.3技术，提供稳定快速、低延迟传输；支持ENC通话降噪，能够有效削弱环境噪音；还支持自动配对，触摸控制，提供便捷使用体验。耳机单次续航时间4小时，搭配充电盒综合续航20小时。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "魔声AIRMARS XKT08真无线耳机充电盒采用了小巧的方形盒设计，透明外壳，开放式座舱结构，便捷取放耳机。中间设计有L/R左右标识，便于用户快速分辨。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身一侧设置Type-C充电接口，以及一颗充电指示灯。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "LP7806充电管理内置过压保护功能，内置功率MOS，充电电流310mA，充电状态指示功能。放电管理内置同步升压，负载接入识别、按键开启功能；放电电流检测功能，放电电流小于4mA自动截止放电；内置放电指示、低电提示功能；针对小容量锂电池系统的应用，提供简单易用的解决方案；LP7806采用的封装形式为ESOP8。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "为耳机充电的Pogo Pin连接器特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Prisemi芯导P14C1S",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Prisemi芯导P14C1S",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Prisemi芯导P14C1S过压过流保护IC，输入耐压高达32V，过压保护点为固定6V。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 MONSTER魔声AIRMARS XKT08真无线耳机在外观方面，突破了传统的TWS耳机设计，小巧的充电盒采用了开放式座舱结构，透明外壳，极具个性和辨识度；柄状的半入耳式耳机经过了上万次人体工学仿真测试，入耳曲线圆润饱满，搭配仅3.6g的重量，能够提供舒适贴合、稳固的佩戴效果。 充电盒内部结构基于独特的外观设计打造，保证了功能应用的同时，有效控制了产品的体积。主要配置上，充电盒内置YD亿等新能源300mAh电池，由Type-C接口输入电源，采用了LPS微源半导体LP7806五合一耳机充电仓专用芯片，单芯片负责充放电管理；还采用了Prisemi芯导P14C1S过压过流保护IC，支持高达32V的输入耐压。 耳机内部主要配置方面，采用了13mm PU羊绒复合振膜大动圈单元输出音频，一颗MEMS麦克风用于语音通话拾音；耳机内置33mAh软包锂电池，同样来自YD亿等新能源；主控芯片采用了JL杰理AD6973D蓝牙音频SoC，支持蓝牙5.3，支持AAC，SBC解码，支持神经网络噪声抑制和回声消除，支持单/双麦克风降噪，为耳机各项功能提供支持。",
+  "layer_refs": {
+    "technical": [
+      "report:148153"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "此次将要拆解的是魔声旗下一款设计非常独特的真无线耳机——AIRMARS XKT08“小冰块”，其充电盒采用了形似口红盒的方形外观，高透水晶设计，体积迷你小巧，手感丝滑；耳机采用了半入耳式的人体工学设计，提供舒适佩戴。",
+        "tag": "舒适佩戴",
+        "evidence": {
+          "value": "此次将要拆解的是魔声旗下一款设计非常独特的真无线耳机——AIRMARS XKT08“小冰块”，其充电盒采用了形似口红盒的方形外观，高透水晶设计，体积迷你小巧，手感丝滑；耳机采用了半入耳式的人体工学设计，提供舒适佩戴。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "此次将要拆解的是魔声旗下一款设计非常独特的真无线耳机——AIRMARS XKT08“小冰块”，其充电盒采用了形似口红盒的方形外观，高透水晶设计，体积迷你小巧，手感丝滑；耳机采用了半入耳式的人体工学设计，提供舒适佩戴。"
+        }
+      },
+      {
+        "text": "三、我爱音频网总结\nMONSTER魔声AIRMARS XKT08真无线耳机在外观方面，突破了传统的TWS耳机设计，小巧的充电盒采用了开放式座舱结构，透明外壳，极具个性和辨识度；柄状的半入耳式耳机经过了上万次人体工学仿真测试，入耳曲线圆润饱满，搭配仅3.6g的重量，能够提供舒适贴合、稳固的佩戴效果。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "三、我爱音频网总结\nMONSTER魔声AIRMARS XKT08真无线耳机在外观方面，突破了传统的TWS耳机设计，小巧的充电盒采用了开放式座舱结构，透明外壳，极具个性和辨识度；柄状的半入耳式耳机经过了上万次人体工学仿真测试，入耳曲线圆润饱满，搭配仅3.6g的重量，能够提供舒适贴合、稳固的佩戴效果。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\nMONSTER魔声AIRMARS XKT08真无线耳机在外观方面，突破了传统的TWS耳机设计，小巧的充电盒采用了开放式座舱结构，透明外壳，极具个性和辨识度；柄状的半入耳式耳机经过了上万次人体工学仿真测试，入耳曲线圆润饱满，搭配仅3.6g的重量，能够提供舒适贴合、稳固的佩戴效果。"
+        }
+      },
+      {
+        "text": "支持单/双麦克风降噪，支持两路模拟麦克风放大，内置麦克风偏置。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "支持单/双麦克风降噪，支持两路模拟麦克风放大，内置麦克风偏置。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "支持单/双麦克风降噪，支持两路模拟麦克风放大，内置麦克风偏置。"
+        }
+      },
+      {
+        "text": "出音嘴特写，细密防尘网防护，防止异物进入音腔。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "出音嘴特写，细密防尘网防护，防止异物进入音腔。",
+          "confidence": 0.63,
+          "source_type": "text",
+          "source_text": "出音嘴特写，细密防尘网防护，防止异物进入音腔。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "此次将要拆解的是魔声旗下一款设计非常独特的真无线耳机——AIRMARS XKT08“小冰块”，其充电盒采用了形似口红盒的方形外观，高透水晶设计，体积迷你小巧，手感丝滑；耳机采用了半入耳式的人体工学设计，提供舒适佩戴。",
+    "launch_date": null,
+    "best_report_id": "148153",
+    "best_video_id": null
+  }
+}

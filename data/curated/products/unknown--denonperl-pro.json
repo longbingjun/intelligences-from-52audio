@@ -1,0 +1,475 @@
+{
+  "canonical_id": "unknown--denonperl-pro",
+  "brand": "",
+  "model": "DENON天龙PerL Pro",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "182076"
+  ],
+  "video_ids": [
+    "185242"
+  ],
+  "related_report_ids": [
+    "182076"
+  ],
+  "related_video_ids": [
+    "185242"
+  ],
+  "first_seen": "2023-11-20",
+  "latest_published": "2023-12-20",
+  "internal_match_suggestions": [
+    {
+      "sku": "OpenRun Pro 2",
+      "score": 0.48,
+      "reason": "型号相似度 48%（匹配 OpenRun Pro 2）"
+    }
+  ],
+  "cost_snapshot": {
+    "main_chip": "思远半导体SY8809",
+    "pmic_case": "ETA1061",
+    "battery_ear": "500 mAh",
+    "battery_case": "5V/00mAh锂电池",
+    "speaker": "振膜动圈",
+    "materials": "硅胶、钛合金、PC、ABS",
+    "weight_g": "68.8g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 25,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "182076",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "思远半导体",
+      "model": "思远半导体SY8809",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8809",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "有线采用了思远半导体SY8809蓝牙耳机充电仓解决方案，无线搭载了CELFRAS江西联智的无线充电接收芯片；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA1061",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "ETA1061",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "还采用了UNICMICRO广芯微UM8006 MCU单片机，ETA钰泰ETA1061同步升压转换器，永阜康CS5801T过压过流保护IC，Heroic禾润HTR3212 12路LED PWM驱动器等。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "5V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "5V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置500mAh锂电池，支持有线和无线两种方式输入电源。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "Qualcomm高通",
+      "model": "高通S5",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通S5",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了10mm钛合金振膜动圈单元，单耳内置三颗MEMS麦克风+VPU语音拾取单元，VDL紫建电子85mAh软包扣式电池，主控芯片采用了高通S5音频平台（QCC5171），支持蓝牙5.3双模，支持全新的LE Audio用例，支持Snapdragon Sound骁龙畅听技术，可提供16bit/44.1kHz CD级无损蓝牙音质、24bit/96KHz高分辨率音频，以及主动降噪、通话降噪等功能；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "Qualcomm高通",
+      "model": "QCC5171",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "QCC5171",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了10mm钛合金振膜动圈单元，单耳内置三颗MEMS麦克风+VPU语音拾取单元，VDL紫建电子85mAh软包扣式电池，主控芯片采用了高通S5音频平台（QCC5171），支持蓝牙5.3双模，支持全新的LE Audio用例，支持Snapdragon Sound骁龙畅听技术，可提供16bit/44.1kHz CD级无损蓝牙音质、24bit/96KHz高分辨率音频，以及主动降噪、通话降噪等功能；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "振膜动圈",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "振膜动圈",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了10mm钛合金振膜动圈单元，单耳内置三颗MEMS麦克风+VPU语音拾取单元，VDL紫建电子85mAh软包扣式电池，主控芯片采用了高通S5音频平台（QCC5171），支持蓝牙5.3双模，支持全新的LE Audio用例，支持Snapdragon Sound骁龙畅听技术，可提供16bit/44.1kHz CD级无损蓝牙音质、24bit/96KHz高分辨率音频，以及主动降噪、通话降噪等功能；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "3",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了10mm钛合金振膜动圈单元，单耳内置三颗MEMS麦克风+VPU语音拾取单元，VDL紫建电子85mAh软包扣式电池，主控芯片采用了高通S5音频平台（QCC5171），支持蓝牙5.3双模，支持全新的LE Audio用例，支持Snapdragon Sound骁龙畅听技术，可提供16bit/44.1kHz CD级无损蓝牙音质、24bit/96KHz高分辨率音频，以及主动降噪、通话降噪等功能；"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒充电线采用了USB-A to Type-C接口。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒底部为无线充电接收区域，介绍有产品参数信息，型号：AH-C15PL，输入：5V-0.8A，电池参数：3.7V 500mAh 1.85Wh，中国制造。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱背面结构一览，通过支架固定主板单元。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒侧边图文介绍了产品的功能特点，包括个性化声音、CD 级无损音质、空间音频、多点连接、自适应 ANC 主动降噪、32 小时总续航、无线充电、防水防汗、自定义控制、8麦克风、沉浸低频和社交模式。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "天龙PerL Pro还搭载了Masimo AAT自适应声学技术，通过全耳建模，发掘用户听觉特征，为用户带来定制化的音频体验；搭载SPATIAL AUDIO技术，能够将标准的立体声内容转化为360°沉浸式体验；支持主动降噪和社交模式，满足不同场景的降噪需求；支持Qi无线充电/有线快速充电，满电状态下，耳机单次续航8小时，综合续航32小时。下面就让我们来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "DENON天龙PerL Pro真无线降噪耳机采用10mm三层钛合金HiFi动圈单元，带来纯净听感；支持Snapdragon Sound骁龙畅听技术，带来了高通aptX Lossless无损音频传输、aptX Adaptive自适应音频、aptX Voice超宽带语音等技术，保障稳定连接的同时，为音乐、通话、游戏等多场景提供高品质音质。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧结构一览，设置有蓝牙天线和触摸检测的PCB小板。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面外观一览，设置有三颗隐藏的指示灯。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "天龙PerL Pro耳机外侧外观一览，“圆饼状”腔体背部触控区域采用哑光质感，设计有“DENON”品牌LOGO，外围采用了高亮的金属环装饰，极具质感和辨识度。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开卡扣式固定的充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "用于连接耳机为其充电的Pogo Pin连接器。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通aptX",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通aptX",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "DENON天龙PerL Pro真无线降噪耳机\n采用10mm三层钛合金HiFi动圈单元，带来纯净听感；支持Snapdragon Sound骁龙畅听技术，带来了高通aptX Lossless无损音频传输、aptX Adaptive自适应音频、aptX Voice超宽带语音等技术，保障稳定连接的同时，为音乐、通话、游戏等多场景提供高品质音质。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8809",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8809",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "思远半导体SY8809蓝牙耳机充电仓解决方案，芯片内部集成充电模块和放电模块，充电模块采用NVDC架构，电池端充电电流I2C可以调节；放电模块输出电压I2C可以调节，集成两路输出限流开关，提供了独立的负载存在检测和负载插入检测，同时支持输出电流检测。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SY8809",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SY8809",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "SY8809集成了标准的I2C接口和中断信号，方便实现芯片和MCU之间的通讯，控制充电、放电功能。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA1061",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA1061",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "ETA钰泰ETA1061 1μA静态电流的1A同步升压转换器，采用SOT23-6小封装，集成5V高效率同步升压变换器；5V升压常开，功耗低至1.7uA，可支持0.4A最大升压输出，支持低电池电压升压输出，可实现耳机充电时间更长，且可以通过控制ENBST引脚，来开关5V输出；内置1.4MHz的开关频率，可以使用小体积的2.2uH电感器。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA1061",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA1061",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "ETA钰泰ETA1061详细资料图。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC5171",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC5171",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm高通QCC5171蓝牙音频SoC，隶属于高通S5（QCC517x）音频平台。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通S5",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通S5",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "高通S5音频平台针对AI进行了优化，提供超低功耗性能的同时，计算能力相较于上代提升了两倍。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 DENON天龙PerL Pro真无线降噪耳机在外观方面，充电盒采用了“跑道型”设计，磨砂质感，体积小巧轻便；三颗隐藏指示灯，能够直观反馈剩余电量信息。耳机外观设计非常有特色，“圆饼状”的腔体独具辨识度，并通过三种不同的工艺、两种材质的结合，呈现了出色的质感。佩戴稳定性上相较于主流外观较弱，所以使用时要选择比较适合自己的耳塞和耳翼。 内部主要配置方面，充电盒内置500mAh锂电池，支持有线和无线两种方式输入电源。有线采用了思远半导体SY8809蓝牙耳机充电仓解决方案，无线搭载了CELFRAS江西联智的无线充电接收芯片；还采用了UNICMICRO广芯微UM8006 MCU单片机，ETA钰泰ETA1061同步升压转换器，永阜康CS5801T过压过流保护IC，Heroic禾润HTR3212 12路LED PWM驱动器等。 耳机内部搭载了10mm钛合金振膜动圈单元，单耳内置三颗MEMS麦克风+VPU语音拾取单元，VDL紫建电子85mAh软包扣式电池，主控芯片采用了高通S5音频平台（QCC5171），支持蓝牙5.3双模，支持全新的LE Audio用例，支持Snapdragon Sound骁龙畅听技术，可提供16bit/44.1kHz CD级无损蓝牙音质、24bit/96KHz高分辨率音频，以及主动降噪、通话降噪等功能；触摸检测由Vinka永嘉VKD233DH触摸板检测IC负责。",
+  "layer_refs": {
+    "technical": [
+      "report:182076",
+      "video:185242"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "近期，天龙再次推出了DENON PerL和DENON PerL Pro两款采用全新设计的TWS降噪耳机新品，其中“Pro”定位于旗舰，拥有着多项创新应用和更为完善的用户体验。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "近期，天龙再次推出了DENON PerL和DENON PerL Pro两款采用全新设计的TWS降噪耳机新品，其中“Pro”定位于旗舰，拥有着多项创新应用和更为完善的用户体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "近期，天龙再次推出了DENON PerL和DENON PerL Pro两款采用全新设计的TWS降噪耳机新品，其中“Pro”定位于旗舰，拥有着多项创新应用和更为完善的用户体验。"
+        }
+      },
+      {
+        "text": "天龙PerL Pro还搭载了Masimo AAT自适应声学技术，通过全耳建模，发掘用户听觉特征，为用户带来定制化的音频体验；搭载SPATIAL AUDIO技术，能够将标准的立体声内容转化为360°沉浸式体验；支持主动降噪和社交模式，满足不同场景的降噪需求；支持Qi无线充电/有线快速充电，满电状态下，耳机单次续航8小时，综合续航32小时。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "天龙PerL Pro还搭载了Masimo AAT自适应声学技术，通过全耳建模，发掘用户听觉特征，为用户带来定制化的音频体验；搭载SPATIAL AUDIO技术，能够将标准的立体声内容转化为360°沉浸式体验；支持主动降噪和社交模式，满足不同场景的降噪需求；支持Qi无线充电/有线快速充电，满电状态下，耳机单次续航8小时，综合续航32小时。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "天龙PerL Pro还搭载了Masimo AAT自适应声学技术，通过全耳建模，发掘用户听觉特征，为用户带来定制化的音频体验；搭载SPATIAL AUDIO技术，能够将标准的立体声内容转化为360°沉浸式体验；支持主动降噪和社交模式，满足不同场景的降噪需求；支持Qi无线充电/有线快速充电，满电状态下，耳机单次续航8小时，综合续航32小时。"
+        }
+      },
+      {
+        "text": "VPU语音拾取单元特写，镭雕型号“VPU14DB01A”，用于骨传导通话降噪功能检测声音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "VPU语音拾取单元特写，镭雕型号“VPU14DB01A”，用于骨传导通话降噪功能检测声音。",
+          "confidence": 0.64,
+          "source_type": "text",
+          "source_text": "VPU语音拾取单元特写，镭雕型号“VPU14DB01A”，用于骨传导通话降噪功能检测声音。"
+        }
+      },
+      {
+        "text": "天龙PerL Pro真无线降噪耳机充电盒外观一览，“跑道型”外观设计，哑光质感，体积小巧轻便。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "天龙PerL Pro真无线降噪耳机充电盒外观一览，“跑道型”外观设计，哑光质感，体积小巧轻便。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "天龙PerL Pro真无线降噪耳机充电盒外观一览，“跑道型”外观设计，哑光质感，体积小巧轻便。"
+        }
+      },
+      {
+        "text": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\nOPPO\n、\nvivo\n、\nRedmi\n、\niQOO\n、\n漫步者\n、\n讯飞\n、\nQCY\n、\n倍思\n、\nFiiO\n、\nfinal\n、\n猛玛\n、\n声阔\n、\n绿联\n、\nNothing\n、\nXTOUR秘语\n、\n公牛\n、\n万魔、233621、传音、魔宴、创新科技、一加、\n小米、realme、魅族、百度、网易、JBL、哈曼、联想\n等国内外知名品牌采用。",
+        "tag": "其他",
+        "evidence": {
+          "value": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\nOPPO\n、\nvivo\n、\nRedmi\n、\niQOO\n、\n漫步者\n、\n讯飞\n、\nQCY\n、\n倍思\n、\nFiiO\n、\nfinal\n、\n猛玛\n、\n声阔\n、\n绿联\n、\nNothing\n、\nXTOUR秘语\n、\n公牛\n、\n万魔、233621、传音、魔宴、创新科技、一加、\n小米、realme、魅族、百度、网易、JBL、哈曼、联想\n等国内外知名品牌采用。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\nOPPO\n、\nvivo\n、\nRedmi\n、\niQOO\n、\n漫步者\n、\n讯飞\n、\nQCY\n、\n倍思\n、\nFiiO\n、\nfinal\n、\n猛玛\n、\n声阔\n、\n绿联\n、\nNothing\n、\nXTOUR秘语\n、\n公牛\n、\n万魔、233621、传音、魔宴、创新科技、一加、\n小米、realme、魅族、百度、网易、JBL、哈曼、联想\n等国内外知名品牌采用。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "近期，天龙再次推出了DENON PerL和DENON PerL Pro两款采用全新设计的TWS降噪耳机新品，其中“Pro”定位于旗舰，拥有着多项创新应用和更为完善的用户体验。",
+    "launch_date": null,
+    "best_report_id": "182076",
+    "best_video_id": null
+  }
+}

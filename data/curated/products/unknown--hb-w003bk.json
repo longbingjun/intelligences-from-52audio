@@ -1,0 +1,334 @@
+{
+  "canonical_id": "unknown--hb-w003bk",
+  "brand": "",
+  "model": "海尔兄弟HB-W003BK",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "150486"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "150486"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-02-28",
+  "latest_published": "2023-02-28",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "INJOINIC英集芯IP5513",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "3V/00mAh锂电池",
+    "speaker": "10mm 动圈单元",
+    "materials": "硅胶",
+    "weight_g": "52g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 15,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "150486",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "INJOINIC英集芯IP5513",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5513",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上采用了Type-C接口输入电源，由INJOINIC英集芯IP5513芯片负责为内置电池充电，并集成了5V升压转换器、锂电池充电管理、电池电量指示等功能，单芯片为充电盒提供了完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置JYZ金宇宙300mAh锂电池，配备有电路保护板防护。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "10mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "10mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机头内部采用了10mm动圈单元，JYZ金宇宙40mAh软包锂电池，分别通过导线连接到耳机柄内主板。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "此次将要拆解的HB-W003BK真无线耳机是海尔兄弟在启动仪式上发布的首系列TWS耳机产品之一，在外观上采用了独特的滑盖式充电仓设计，配置上搭载了10mm发声单元，支持蓝牙5.3，支持超低延时游戏模式，支持ENC通话降噪功能，提供单次约6h，综合约20h的续航。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，主板通过螺丝固定，电池通过双面胶固定，电池导线与主板焊接连接。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，主板通过螺丝固定，电池通过双面胶固定，电池导线与主板焊接连接。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄上方的降噪麦克风开孔特写，同时也是指示灯开孔。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "此次将要拆解的HB-W003BK真无线耳机是海尔兄弟在启动仪式上发布的首系列TWS耳机产品之一，在外观上采用了独特的滑盖式充电仓设计，配置上搭载了10mm发声单元，支持蓝牙5.3，支持超低延时游戏模式，支持ENC通话降噪功能，提供单次约6h，综合约20h的续航。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "此次将要拆解的HB-W003BK真无线耳机是海尔兄弟在启动仪式上发布的首系列TWS耳机产品之一，在外观上采用了独特的滑盖式充电仓设计，配置上搭载了10mm发声单元，支持蓝牙5.3，支持超低延时游戏模式，支持ENC通话降噪功能，提供单次约6h，综合约20h的续航。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "取出耳机，座舱内部结构一览，中间设置有指示灯。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机外侧外观一览，耳机柄背部设计有“HAIER BROS.”品牌LOGO，上方是触控区域。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒为耳机充电的两颗Pogo Pin连接器特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP5513",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5513",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5513",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5513",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 海尔兄弟HB-W003BK真无线耳机在外观设计方面，整体体积小巧轻便，质感光滑圆润。充电盒滑盖式开关，便捷单手开合，轻松取放耳机，四颗指示灯能够更直观的反馈剩余电量信息；柄状的入耳式耳机重量仅为3.9g，提供了轻盈舒适的佩戴体验。 内部结构配置方面，充电盒内置JYZ金宇宙300mAh锂电池，配备有电路保护板防护。主板上采用了Type-C接口输入电源，由INJOINIC英集芯IP5513芯片负责为内置电池充电，并集成了5V升压转换器、锂电池充电管理、电池电量指示等功能，单芯片为充电盒提供了完整的电源解决方案。 耳机头内部采用了10mm动圈单元，JYZ金宇宙40mAh软包锂电池，分别通过导线连接到耳机柄内主板。主板上搭载了两颗MEMS硅麦，用于语音通话和降噪功能拾音；采用了JL杰理AD6976D蓝牙音频SoC，支持蓝牙5.3，支持噪声抑制和回声消除，支持杰理自研双麦ENC降噪算法，支持触摸等，为耳机各项功能提供支持。",
+  "layer_refs": {
+    "technical": [
+      "report:150486"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "镭雕SE59 221S的MEMS硅麦特写，用于通话降噪功能拾音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "镭雕SE59 221S的MEMS硅麦特写，用于通话降噪功能拾音。",
+          "confidence": 0.69,
+          "source_type": "text",
+          "source_text": "镭雕SE59 221S的MEMS硅麦特写，用于通话降噪功能拾音。"
+        }
+      },
+      {
+        "text": "电池背面丝印有印度BIS认证标识。",
+        "tag": "其他",
+        "evidence": {
+          "value": "电池背面丝印有印度BIS认证标识。",
+          "confidence": 0.71,
+          "source_type": "text",
+          "source_text": "电池背面丝印有印度BIS认证标识。"
+        }
+      },
+      {
+        "text": "支持单/双麦克风降噪和杰理自研双麦ENC降噪算法。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "支持单/双麦克风降噪和杰理自研双麦ENC降噪算法。",
+          "confidence": 0.7,
+          "source_type": "text",
+          "source_text": "支持单/双麦克风降噪和杰理自研双麦ENC降噪算法。"
+        }
+      },
+      {
+        "text": "耳机柄上方的降噪麦克风开孔特写，同时也是指示灯开孔。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "耳机柄上方的降噪麦克风开孔特写，同时也是指示灯开孔。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "耳机柄上方的降噪麦克风开孔特写，同时也是指示灯开孔。"
+        }
+      },
+      {
+        "text": "电池背面丝印有“BIS”认证标识。",
+        "tag": "其他",
+        "evidence": {
+          "value": "电池背面丝印有“BIS”认证标识。",
+          "confidence": 0.63,
+          "source_type": "text",
+          "source_text": "电池背面丝印有“BIS”认证标识。"
+        }
+      },
+      {
+        "text": "机身顶部泄压孔特写，内部防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "机身顶部泄压孔特写，内部防尘网防护。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "机身顶部泄压孔特写，内部防尘网防护。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "镭雕SE59 221S的MEMS硅麦特写，用于通话降噪功能拾音。",
+    "launch_date": null,
+    "best_report_id": "150486",
+    "best_video_id": null
+  }
+}

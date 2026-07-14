@@ -1,0 +1,331 @@
+{
+  "canonical_id": "unknown--monsteropen-ear-101",
+  "brand": "",
+  "model": "Monster魔声Open Ear 101开放式蓝牙",
+  "category": "开放式耳机",
+  "report_ids": [
+    "165315"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "165315"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-07-05",
+  "latest_published": "2023-07-05",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "INJOINIC英集芯IP5513",
+    "pmic_case": "",
+    "battery_ear": "3V/00mAh锂电池",
+    "battery_case": "电池",
+    "speaker": "10mm 动圈单元",
+    "materials": "硅胶",
+    "weight_g": "41.3g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 17,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "165315",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "INJOINIC英集芯IP5513",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5513",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上搭载了INJOINIC英集芯IP5513多功能电源管理SoC，集成了5V升压转换器、锂电池充电管理、电池电量指示等功能，单芯片为充电盒提供了完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "3V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内置锂电池容量300mAh，配备有电路保护板负责充放电保护；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "10mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "10mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了10mm动圈单元，来自YD亿等新能源的35mAh锂电池，主板上采用了一颗MEMS麦克风拾音，主控芯片为Bluetrum中科蓝讯B1618A蓝牙音频SoC，采用32位高性能RISC-V处理器，支持蓝牙5.4，支持单声道MIC放大器输入，支持低功耗触摸键，内置PMU。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了10mm动圈单元，来自YD亿等新能源的35mAh锂电池，主板上采用了一颗MEMS麦克风拾音，主控芯片为Bluetrum中科蓝讯B1618A蓝牙音频SoC，采用32位高性能RISC-V处理器，支持蓝牙5.4，支持单声道MIC放大器输入，支持低功耗触摸键，内置PMU。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "MONSTER魔声OPEN EAR101开放式蓝牙耳机拥有着与TWS耳机相同的设计，由充电盒+两只独立的耳机组成，耳机采用了耳夹式的独特设计。功能配置上，搭载10mm动圈喇叭，支持魔声PURE音效；支持蓝牙5.3，支持单/双耳模式；支持通话降噪，淡化环境噪音，提供清晰通话；续航方面，耳机单次续航时间约6小时，搭配充电盒整体续航时间约18小时。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，电池固定在主板上，主板通过螺丝固定在座舱上。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，电池固定在主板上，主板通过螺丝固定在座舱上。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机外侧腔体外观一览，水滴形设计，设置有麦克风拾音孔。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机内侧发声单元腔体外观一览，体积相较于外侧偏小。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网此前还拆解过魔声Open Ear Lite开放式耳机、魔声Monster Aria ANC钻石之泪、魔声MISSION V1 TWS耳机、魔声Clarity 108 ANC TWS耳机、魔声CLARITY 8.0 ANC真无线耳机、魔声MONSTER iSport ACHIEVE 脖挂蓝牙耳机等，下面再来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "取出耳机，座舱内部结构一览。座舱中间圆形镜面内设置有魔声LOGO指示灯。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出内部座舱结构。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "为耳机充电的Pogo Pin连接器特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP5513",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5513",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5513",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5513",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB5656",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB5656",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Bluetrum中科蓝讯AB5656A2蓝牙音频SoC，内置32位高性能RISC-V处理器，支持DSP指令，运行频率最高125MHz，内置2Mbit闪存，113KB RAM，带可编程上拉和下拉电阻器的柔性GPIO引脚，支持GPIO唤醒和中断。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB5656",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB5656",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "AB5656A2支持蓝牙5.4，TX最大输出功率+9dBm，RX灵敏度-90.5@ Basic Rate/-94@ EDR；具有16bit单声道DAC（信噪比102dB，带耳机放大器输出）和16bit单通道ADC（信噪比94dB）的音频编加码器，支持灵活的音频均衡器调整；支持单声道MIC放大器输入；支持低功耗触摸键，内置看门狗，内置PMU，如充电器/降压/LDO等。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Monster魔声Open Ear 101开放式蓝牙耳机充电盒体积小巧圆润，握持舒适、外出便携；机身为黑色哑光质感，设计有金色品牌LOGO和银色开盖扣。开放式耳机采用了耳夹式设计，佩戴使用时夹在耳廓上，出音嘴正对耳道，从而实现开放式聆听体验；耳机弯臂具有弹性，可以适应个性化佩戴需求，并采用了硅胶材质，提升贴合皮肤的舒适性。 内部结构配置方面，充电盒结构非常简洁，仅包括主板和电池单元。内置锂电池容量300mAh，配备有电路保护板负责充放电保护；主板上搭载了INJOINIC英集芯IP5513多功能电源管理SoC，集成了5V升压转换器、锂电池充电管理、电池电量指示等功能，单芯片为充电盒提供了完整的电源解决方案。 耳机内部搭载了10mm动圈单元，来自YD亿等新能源的35mAh锂电池，主板上采用了一颗MEMS麦克风拾音，主控芯片为Bluetrum中科蓝讯B1618A蓝牙音频SoC，采用32位高性能RISC-V处理器，支持蓝牙5.4，支持单声道MIC放大器输入，支持低功耗触摸键，内置PMU。",
+  "layer_refs": {
+    "technical": [
+      "report:165315"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "麦克风拾音孔特写，内部防尘网防护，同时也是指示灯开孔。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "麦克风拾音孔特写，内部防尘网防护，同时也是指示灯开孔。",
+          "confidence": 0.6,
+          "source_type": "text",
+          "source_text": "麦克风拾音孔特写，内部防尘网防护，同时也是指示灯开孔。"
+        }
+      },
+      {
+        "text": "耳机出音嘴特写，内部防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "耳机出音嘴特写，内部防尘网防护。",
+          "confidence": 0.59,
+          "source_type": "text",
+          "source_text": "耳机出音嘴特写，内部防尘网防护。"
+        }
+      },
+      {
+        "text": "盖板内侧结构一览，中间设置有导电布，用于触摸控制；上方麦克风拾音孔通过防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "盖板内侧结构一览，中间设置有导电布，用于触摸控制；上方麦克风拾音孔通过防尘网防护。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "盖板内侧结构一览，中间设置有导电布，用于触摸控制；上方麦克风拾音孔通过防尘网防护。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "麦克风拾音孔特写，内部防尘网防护，同时也是指示灯开孔。",
+    "launch_date": null,
+    "best_report_id": "165315",
+    "best_video_id": null
+  }
+}

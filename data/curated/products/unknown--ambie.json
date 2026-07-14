@@ -1,0 +1,276 @@
+{
+  "canonical_id": "unknown--ambie",
+  "brand": "",
+  "model": "ambie",
+  "category": "开放式耳机",
+  "report_ids": [
+    "111662"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "111662"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2022-03-20",
+  "latest_published": "2022-03-20",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "高通QCC3040",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "270 mAh",
+    "speaker": "喇叭单元",
+    "materials": "PC",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.2",
+    "bom_row_count": 13,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "111662",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机充电座舱正面一览，在充电座舱底部为充电盒主板以及电池。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网在此前已经和小伙伴们分享了Ambie公司新发布的ambie sound earcuffs 耳夹式真无线耳机这一款产品，耳机采用了耳夹式设计，但这一次升级为无线耳机，由深圳市迈斯高科技有限公司（MEES）研发及生产。功能上，耳机设计了低延迟模式，支持单/双耳使用；配置方面，耳机采用了高通QCC3040蓝牙主控芯片，及最新的蓝牙5.2规范，支持SBC、AAC音频编解码；支持CVC8.0通话降噪，搭配内置的麦克风单元，实现清晰的通话效果。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机充电座舱正面一览，在充电座舱底部为充电盒主板以及电池。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网在此前已经和小伙伴们分享了Ambie公司新发布的ambie sound earcuffs 耳夹式真无线耳机这一款产品，耳机采用了耳夹式设计，但这一次升级为无线耳机，由深圳市迈斯高科技有限公司（MEES）研发及生产。功能上，耳机设计了低延迟模式，支持单/双耳使用；配置方面，耳机采用了高通QCC3040蓝牙主控芯片，及最新的蓝牙5.2规范，支持SBC、AAC音频编解码；支持CVC8.0通话降噪，搭配内置的麦克风单元，实现清晰的通话效果。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "QCC3040 针对耳塞和耳戴式设备进行了优化，QCC3040 是一款单芯片解决方案，旨在提升真正的无线消费者体验，并实现强大的连接性、全天佩戴和舒适性、集成主动降噪 （ANC）、语音助手支持和高通 TrueWireless镜像技术。‎"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机扬声器单元一览，通过FPC排线连接到耳机主板上。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机背面设有用于指示工作的指示灯以及麦克风开孔。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC3040",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC3040",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "功能上，耳机设计了低延迟模式，支持单/双耳使用；配置方面，耳机采用了高通QCC3040蓝牙主控芯片，及最新的蓝牙5.2规范，支持SBC、AAC音频编解码；支持CVC8.0通话降噪，搭配内置的麦克风单元，实现清晰的通话效果。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通 TrueWireless",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通 TrueWireless",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "QCC3040 针对耳塞和耳戴式设备进行了优化，QCC3040 是一款单芯片解决方案，旨在提升真正的无线消费者体验，并实现强大的连接性、全天佩戴和舒适性、集成主动降噪 （ANC）、语音助手支持和高通 TrueWireless镜像技术。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "QCC3040",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "QCC3040",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "QCC3040 针对耳塞和耳戴式设备进行了优化，QCC3040 是一款单芯片解决方案，旨在提升真正的无线消费者体验，并实现强大的连接性、全天佩戴和舒适性、集成主动降噪 （ANC）、语音助手支持和高通 TrueWireless镜像技术。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通 TrueWireless",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通 TrueWireless",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "‎\n耳机在内部配置上，‎电池采用LIDEA电的电子型号LIR1040，额定电压3.6V；蓝牙音频 SoC采用Qualcomm高通型号QCC3040，拥有强大的连接性、全天佩戴和舒适性，集成主动降噪 （ANC）、语音助手支持和高通 TrueWireless镜像技术。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯 IP5516",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯 IP5516",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "充电接口：Type-C\n标记/认证：INJOINIC英集芯 IP5516 充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5516",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5516",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "标记/认证：IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应\n调节\n，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:111662"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "Ambie 是索尼旗下专注于提供全新音乐体验的品牌，区别于大行其道的入耳式耳机，Ambie公司旗下产品均采用了 […]\n近日，我爱音频网拿到了ambie sound earcuffs 耳夹式真无线耳机这款蓝牙耳机并对其进行了拆解，感兴趣的小伙伴们一起来看看这款产品吧~\n我爱音频网拆解过\n的索尼真无线耳机产品包括：\nSONY WF-C500真无线耳机\n、\n索尼\nWF-1000XM4真无线降噪耳机\n、\nWF-XB700重低音真无线耳机\n、\nWF-H800真无线耳机\n、\n索尼WF-SP900真无线防水运动耳机\n、\nXPERIA Ear Duo开放式真无线耳机\n以及\n更早期的TWS耳机\n等。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "Ambie 是索尼旗下专注于提供全新音乐体验的品牌，区别于大行其道的入耳式耳机，Ambie公司旗下产品均采用了 […]\n近日，我爱音频网拿到了ambie sound earcuffs 耳夹式真无线耳机这款蓝牙耳机并对其进行了拆解，感兴趣的小伙伴们一起来看看这款产品吧~\n我爱音频网拆解过\n的索尼真无线耳机产品包括：\nSONY WF-C500真无线耳机\n、\n索尼\nWF-1000XM4真无线降噪耳机\n、\nWF-XB700重低音真无线耳机\n、\nWF-H800真无线耳机\n、\n索尼WF-SP900真无线防水运动耳机\n、\nXPERIA Ear Duo开放式真无线耳机\n以及\n更早期的TWS耳机\n等。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "Ambie 是索尼旗下专注于提供全新音乐体验的品牌，区别于大行其道的入耳式耳机，Ambie公司旗下产品均采用了 […]\n近日，我爱音频网拿到了ambie sound earcuffs 耳夹式真无线耳机这款蓝牙耳机并对其进行了拆解，感兴趣的小伙伴们一起来看看这款产品吧~\n我爱音频网拆解过\n的索尼真无线耳机产品包括：\nSONY WF-C500真无线耳机\n、\n索尼\nWF-1000XM4真无线降噪耳机\n、\nWF-XB700重低音真无线耳机\n、\nWF-H800真无线耳机\n、\n索尼WF-SP900真无线防水运动耳机\n、\nXPERIA Ear Duo开放式真无线耳机\n以及\n更早期的TWS耳机\n等。"
+        }
+      },
+      {
+        "text": "Ambie 是索尼旗下专注于提供全新音乐体验的品牌，区别于大行其道的入耳式耳机，Ambie公司旗下产品均采用了独特的耳夹式佩戴方式，但不同于骨传导耳机，ambie 耳机依旧是气导的传播方式，拥有开放式的音频体验。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "Ambie 是索尼旗下专注于提供全新音乐体验的品牌，区别于大行其道的入耳式耳机，Ambie公司旗下产品均采用了独特的耳夹式佩戴方式，但不同于骨传导耳机，ambie 耳机依旧是气导的传播方式，拥有开放式的音频体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "Ambie 是索尼旗下专注于提供全新音乐体验的品牌，区别于大行其道的入耳式耳机，Ambie公司旗下产品均采用了独特的耳夹式佩戴方式，但不同于骨传导耳机，ambie 耳机依旧是气导的传播方式，拥有开放式的音频体验。"
+        }
+      },
+      {
+        "text": "标记/认证：IP5516 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "标记/认证：IP5516 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "标记/认证：IP5516 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "通话"
+    ],
+    "positioning_summary": "Ambie 是索尼旗下专注于提供全新音乐体验的品牌，区别于大行其道的入耳式耳机，Ambie公司旗下产品均采用了 […]\n近日，我爱音频网拿到了ambie sound earcuffs 耳夹式真无线耳机这款蓝牙耳机并对其进行了拆解，感兴趣的小伙伴们一起来看看这款产品吧~\n我爱音频网拆解过\n的索尼真无线耳机产品包括：\nSONY WF-C500真无线耳机\n、\n索尼\nWF-1000XM4真无线降噪耳机\n、\nWF-XB700重低音真无线耳机\n、\nWF-H800真无线耳机\n、\n索尼WF-SP900真无线防水运动耳机\n、\nXPERIA Ear Duo开放式真无线耳机\n以及\n更早期的TWS耳机\n等。",
+    "launch_date": null,
+    "best_report_id": "111662",
+    "best_video_id": null
+  }
+}

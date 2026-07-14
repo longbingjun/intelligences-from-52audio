@@ -1,0 +1,249 @@
+{
+  "canonical_id": "huawei--freebuds-4freebuds-4e",
+  "brand": "HUAWEI华为",
+  "model": "拆解对比：FreeBuds 4和FreeBuds 4E",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "124642"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "124642"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2022-07-12",
+  "latest_published": "2022-07-12",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "恒玄BES2500YP",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "410 mAh",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.2",
+    "bom_row_count": 9,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "124642",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "华为FreeBuds 4和4E耳机均采用了艾为AW32001A带功率路径管理的锂电池充电IC为内置电池充电，输入耐压28V，支持2-500mA充电电流，参数可由I²C接口设置，内置丰富完善的保护功能，支持船运模式。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电方式：华为FreeBuds 4真无线耳机 无线充版充电盒还支持无线充电功能，提供更便捷的充电体验。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在目前的TWS耳机产品中，主动降噪功能为用户屏蔽了外界环境噪音干扰，带来了沉浸式的无线音频体验，获得了大众的认 […]"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "麦克风\n华为FreeBuds 4和4E耳机均内置三颗MEMS麦克风，用于语音通话、主动降噪功能拾音。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "蓝牙音频SoC"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "扬声器上，华为FreeBuds 4和4E真无线耳机均搭载了14.3mm大尺寸宽音域动圈单元，声音频率范围高达40kHz，高音通透，更好地还原真是的音频效果。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WP5101G",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "WP5101G",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "充电方式：其他方面\n华为FreeBuds 4真无线耳机 无线充版充电盒支持无线充电功能，采用了WP5101GC 无线充电接收芯片，为内置锂电池充电。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2500YP",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2500YP",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：410\n芯片 恒玄BES2500YP\n芯片 WP5101G"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WP5101G",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "WP5101G",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：410\n芯片 恒玄BES2500YP\n芯片 WP5101G"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:124642"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "在目前的TWS耳机产品中，主动降噪功能为用户屏蔽了外界环境噪音干扰，带来了沉浸式的无线音频体验，获得了大众的认 […]\n在目前的TWS耳机产品中，主动降噪功能为用户屏蔽了外界环境噪音干扰，带来了沉浸式的无线音频体验，获得了大众的认可。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "在目前的TWS耳机产品中，主动降噪功能为用户屏蔽了外界环境噪音干扰，带来了沉浸式的无线音频体验，获得了大众的认 […]\n在目前的TWS耳机产品中，主动降噪功能为用户屏蔽了外界环境噪音干扰，带来了沉浸式的无线音频体验，获得了大众的认可。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "在目前的TWS耳机产品中，主动降噪功能为用户屏蔽了外界环境噪音干扰，带来了沉浸式的无线音频体验，获得了大众的认 […]\n在目前的TWS耳机产品中，主动降噪功能为用户屏蔽了外界环境噪音干扰，带来了沉浸式的无线音频体验，获得了大众的认可。"
+        }
+      },
+      {
+        "text": "电池\n在目前的TWS耳机产品中，主动降噪功能为用户屏蔽了外界环境噪音干扰，带来了沉浸式的无线音频体验，获得了大众的认可。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "电池\n在目前的TWS耳机产品中，主动降噪功能为用户屏蔽了外界环境噪音干扰，带来了沉浸式的无线音频体验，获得了大众的认可。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "电池\n在目前的TWS耳机产品中，主动降噪功能为用户屏蔽了外界环境噪音干扰，带来了沉浸式的无线音频体验，获得了大众的认可。"
+        }
+      },
+      {
+        "text": "华为FreeBuds系列是目前TWS耳机市场唯一持续迭代升级的半入耳式降噪耳机产品，相继推出了\nFreeBuds 3\n、\nFreeBuds 4\n、\nFreeBuds Lipstick\n、\nFreeBuds 4E\n真无线降噪耳机，我爱音频网此前均进行了详细的拆解报道。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "华为FreeBuds系列是目前TWS耳机市场唯一持续迭代升级的半入耳式降噪耳机产品，相继推出了\nFreeBuds 3\n、\nFreeBuds 4\n、\nFreeBuds Lipstick\n、\nFreeBuds 4E\n真无线降噪耳机，我爱音频网此前均进行了详细的拆解报道。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "华为FreeBuds系列是目前TWS耳机市场唯一持续迭代升级的半入耳式降噪耳机产品，相继推出了\nFreeBuds 3\n、\nFreeBuds 4\n、\nFreeBuds Lipstick\n、\nFreeBuds 4E\n真无线降噪耳机，我爱音频网此前均进行了详细的拆解报道。"
+        }
+      },
+      {
+        "text": "标记/认证：MCU\n华为FreeBuds 4和4E真无线耳机均采用了意法半导体 STM32F411CE 带DSP和FPU的高性能基本型系列ARM Cortex-M4 MCU，具有512 KB Flash、100 MHz CPU和ART加速器，用于充电盒整机控制。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：MCU\n华为FreeBuds 4和4E真无线耳机均采用了意法半导体 STM32F411CE 带DSP和FPU的高性能基本型系列ARM Cortex-M4 MCU，具有512 KB Flash、100 MHz CPU和ART加速器，用于充电盒整机控制。",
+          "confidence": 0.7,
+          "source_type": "text",
+          "source_text": "标记/认证：MCU\n华为FreeBuds 4和4E真无线耳机均采用了意法半导体 STM32F411CE 带DSP和FPU的高性能基本型系列ARM Cortex-M4 MCU，具有512 KB Flash、100 MHz CPU和ART加速器，用于充电盒整机控制。"
+        }
+      },
+      {
+        "text": "充电接口：Type-C\n标记/认证：出厂标签\nHUAWEI FreeBuds 4无线耳机 无线充版，耳机型号：T0004，充电盒型号：T0004C，颜色：冰霜银。",
+        "tag": "其他",
+        "evidence": {
+          "value": "充电接口：Type-C\n标记/认证：出厂标签\nHUAWEI FreeBuds 4无线耳机 无线充版，耳机型号：T0004，充电盒型号：T0004C，颜色：冰霜银。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "充电接口：Type-C\n标记/认证：出厂标签\nHUAWEI FreeBuds 4无线耳机 无线充版，耳机型号：T0004，充电盒型号：T0004C，颜色：冰霜银。"
+        }
+      },
+      {
+        "text": "麦克风\n华为FreeBuds 4和4E耳机均内置三颗MEMS麦克风，用于语音通话、主动降噪功能拾音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "麦克风\n华为FreeBuds 4和4E耳机均内置三颗MEMS麦克风，用于语音通话、主动降噪功能拾音。",
+          "confidence": 0.65,
+          "source_type": "text",
+          "source_text": "麦克风\n华为FreeBuds 4和4E耳机均内置三颗MEMS麦克风，用于语音通话、主动降噪功能拾音。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "在目前的TWS耳机产品中，主动降噪功能为用户屏蔽了外界环境噪音干扰，带来了沉浸式的无线音频体验，获得了大众的认 […]\n在目前的TWS耳机产品中，主动降噪功能为用户屏蔽了外界环境噪音干扰，带来了沉浸式的无线音频体验，获得了大众的认可。",
+    "launch_date": null,
+    "best_report_id": "124642",
+    "best_video_id": null
+  }
+}

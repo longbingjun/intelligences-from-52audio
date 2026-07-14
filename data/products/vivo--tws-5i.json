@@ -16,20 +16,22 @@
   "internal_match_suggestions": [],
   "cost_snapshot": {
     "main_chip": "思远半导体SY8835",
-    "pmic_case": "",
+    "pmic_case": "CM1137",
     "battery_ear": "赣锋 3.85V/51mAh软包扣式",
     "battery_case": "赣锋 3.87V/513mAh锂电池",
     "speaker": "10mm 动圈单元",
     "materials": "硅胶",
     "weight_g": "41.1g",
+    "weight_case_g": "",
+    "weight_earbud_g": "3.8g",
     "ip_rating": "",
     "bluetooth": "5.4",
-    "bom_row_count": 17,
+    "bom_row_count": 19,
     "price_cny": 299.0,
     "price_layer": "channel",
     "channel_url": "https://union-click.jd.com/jdc?e=jd_10098346347207&p=JF8BARMJK1olXwAGXFlVDUIXCl8IGlodVAQHU1xYDkgWBV9MRANLAjZbERscSkAJHTdNTwcKBlMdBgABFksWAmcBGV4SXwMEV19bFxJSXzI4eAIWOHFaJkQ-SFERdwkLWjwSDUYGJFJROE4XAm8IE1gXXA8yV19fC0geCm4IGWslXwcFVV5aOAp5BWkNGF0SbQQCVV9UCkwfBGY4G10SXAcKV1pUC0MVAF8IE1wlFtOJyV9dCEInM18LK2slXTYBZAAzCRgfA24KTlN7AVBYFQALSgl5Cm4KGlkUXQUyVl9cCkknM19oEzBxJGd-FxkNfCpfVRlBaQtNPWZQLhUzCiliBS1USwh9GmUDN1kjYA5uM2w4HF8WbQ",
     "sales_hint": null,
-    "data_completeness": 0.83,
+    "data_completeness": 1.0,
     "best_report_id": "276011",
     "best_video_id": null
   },
@@ -46,6 +48,20 @@
         "confidence": 0.85,
         "source_type": "summary_prose",
         "source_text": "充电盒搭载了GF新余赣锋3.87V/513mAh锂电池，主板上采用思远半导体SY8835蓝牙耳机充电仓解决方案，负责内置电池的充放电管理，同时集成通信模块，可以实现耳机仓到耳机端的高速通信；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1137",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "CM1137",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "采用ICM创芯微CM1137-CCS锂电池保护IC，负责内置电池的充放电保护。"
       }
     },
     {
@@ -256,6 +272,20 @@
         "confidence": 0.78,
         "source_type": "text",
         "source_text": "思远半导体SY8835集成了MCU模块，内核为8bit RISC CPU，兼容RISC-52指令集，内置16k Bytes FLASH空间，4k Bytes NVR空间，1k Bytes SRAM，一个10bit SAR ADC，1路4通道PWM，2个16bit Timer，3个半双工UART。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1137",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM1137",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "ICM创芯微CM1137-CCS集成MOSFET单节锂电池保护IC，负责电池的过充电、过放电、过电流等保护。"
       }
     },
     {

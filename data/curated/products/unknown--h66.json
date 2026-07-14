@@ -1,0 +1,327 @@
+{
+  "canonical_id": "unknown--h66",
+  "brand": "",
+  "model": "H66",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "176422"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "176422"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-09-28",
+  "latest_published": "2023-09-28",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "INJOINIC英集芯IP5333",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "12V/00mAh锂电池",
+    "speaker": "6mm 动圈单元",
+    "materials": "硅胶",
+    "weight_g": "76.8g",
+    "weight_case_g": "",
+    "weight_earbud_g": "4.4g",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 16,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "176422",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "INJOINIC英集芯IP5333",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5333",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了INJOINIC英集芯IP5333多功能电源管理SoC，集成升压转换器、锂电池充电管理、电池电量指示和TYPE-C协议等功能，单芯片为充电盒提供了完整的解决方案。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "12V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "12V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内置1200mAh 18500圆柱型锂电池，配备有短路保护板负责过充电、过放电、过电流等保护；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "6mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "6mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了6mm动圈单元，内置ST神通天下0.19Wh软包电池，设置有电路保护板负责充电保护。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了一颗MEMS麦克风，用于语音通话功能拾音；"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在TWS耳机中，充电盒作为其重要组成部分，一方面为耳机提供了便捷收纳，降低了没有线材连接的耳机的丢失风险；另一方面又是耳机的移动充电站，为耳机提供更持久的续航时间；同时充电盒还兼具了蓝牙配对、电量指示、开盖即连等功能，为用户提供了便捷的使用体验。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "随着TWS耳机的不断发展，用户及产品差异化需求的提升，许多产品拓展了新的功能。此次将要拆解的H66真无线耳机便是这样的一款产品，其采用了智能双向通讯仓，可以提供开盖即连功能耳机秒回联手机；搭载了数字显示屏，能够直观反馈剩余电量信息；还内置了大容量电池，支持“充电宝”功能，可以为其它设备应急充电。下面就让我们来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，搭载了圆柱形锂电池，主板通过定位柱固定。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "H66耳机外侧外观一览，盖板采用了光滑的烤漆质感，背部触控区域设计有环形指示灯和麦克风拾音孔。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机扬声器正面特写，振膜通过金属盖板防护。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "蓝牙天线特写，用于无线信号收发。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "撬开卡扣式固定的充电盒外壳，取出耳机座舱结构。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "H66耳机外侧外观一览，盖板采用了光滑的烤漆质感，背部触控区域设计有环形指示灯和麦克风拾音孔。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "H66耳机外侧外观一览，盖板采用了光滑的烤漆质感，背部触控区域设计有环形指示灯和麦克风拾音孔。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机内侧的充电触点特写，旁边设计有L/左标识。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP5333",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5333",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "INJOINIC英集芯IP5333多功能电源管理SoC，集成升压转换器、锂电池充电管理、电池电量指示和TYPE-C协议等功能，为TWS充电仓提供完整的解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5333",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5333",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "IP5333非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 H66真无线耳机在外观方面，充电盒曲线设计非常独特，机身采用了IML工艺处理，触感光滑圆润，观感晶莹通透，拥有着出色的质感表现，同时还不易沾染指纹和出现划痕。耳机采用了豆状的入耳式设计，体积轻巧，入耳较深，有着舒适稳固的佩戴效果；机身背部触控区域设计环形指示灯，使观感更加酷炫。 内部主要配置方面，充电盒内部搭载数字显示屏，支持充电盒百分比、左右耳机档位电量显示；内置1200mAh 18500圆柱型锂电池，配备有短路保护板负责过充电、过放电、过电流等保护；主板上，搭载了INJOINIC英集芯IP5333多功能电源管理SoC，集成升压转换器、锂电池充电管理、电池电量指示和TYPE-C协议等功能，单芯片为充电盒提供了完整的解决方案。 耳机内部搭载了6mm动圈单元，内置ST神通天下0.19Wh软包电池，设置有电路保护板负责充电保护。主板上，搭载了一颗MEMS麦克风，用于语音通话功能拾音；采用了Vinka永嘉VKD233HH的触摸检测IC，用于实现便捷的触摸控制功能。",
+  "layer_refs": {
+    "technical": [
+      "report:176422"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "耳机麦克风拾音孔特写，内部防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "耳机麦克风拾音孔特写，内部防尘网防护。",
+          "confidence": 0.69,
+          "source_type": "text",
+          "source_text": "耳机麦克风拾音孔特写，内部防尘网防护。"
+        }
+      },
+      {
+        "text": "充电盒底部印有产品参数信息，以及各种认证标识。",
+        "tag": "其他",
+        "evidence": {
+          "value": "充电盒底部印有产品参数信息，以及各种认证标识。",
+          "confidence": 0.61,
+          "source_type": "text",
+          "source_text": "充电盒底部印有产品参数信息，以及各种认证标识。"
+        }
+      },
+      {
+        "text": "取掉耳塞，耳机出音嘴特写，通过细密防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "取掉耳塞，耳机出音嘴特写，通过细密防尘网防护。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "取掉耳塞，耳机出音嘴特写，通过细密防尘网防护。"
+        }
+      },
+      {
+        "text": "IP5333非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "IP5333非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "IP5333非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "耳机麦克风拾音孔特写，内部防尘网防护。",
+    "launch_date": null,
+    "best_report_id": "176422",
+    "best_video_id": null
+  }
+}

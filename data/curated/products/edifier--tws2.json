@@ -1,0 +1,257 @@
+{
+  "canonical_id": "edifier--tws2",
+  "brand": "EDIFIER漫步者",
+  "model": "TWS2",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "12502"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "12502"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2018-12-24",
+  "latest_published": "2018-12-24",
+  "internal_match_suggestions": [
+    {
+      "sku": "OpenFit 2",
+      "score": 0.455,
+      "reason": "型号相似度 45%（匹配 OpenFit 2）"
+    }
+  ],
+  "cost_snapshot": {
+    "main_chip": "络达AB1526P",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "500 mAh",
+    "speaker": "喇叭单元",
+    "materials": "硅胶",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "IPX4",
+    "bluetooth": "5.0",
+    "bom_row_count": 12,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "12502",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "开始拆开耳机充电盒，电池固定在底盖内。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "这款漫步者TWS2采用充电仓充电，内置8mm动圈单元，支持蓝牙5.0，支持IPX4防水，耳机续航可高达3小时。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机充电盒主板正面特写。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机背后有一个通话麦克风。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "这款漫步者TWS2采用充电仓充电，内置8mm动圈单元，支持蓝牙5.0，支持IPX4防水，耳机续航可高达3小时。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在主板背面边缘的贴片蓝牙天线。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机盒中间有一条不同于磨砂的上下盖，是亮黑色的，并且有电量指示灯。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机内侧，是两个充电触点。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "背盖上的按键，按键采用CD纹理，并且有一个漫步者LOGO的浮雕。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA9640",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA9640",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "ETA钰泰ETA9640 5V1A充放电、LED三合一芯片。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "络达AB1526P",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "络达AB1526P",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "这款漫步者TWS2采用Airoha络达AB1526P。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB1526",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB1526",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "这款漫步者TWS2采用Airoha络达AB1526P。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:12502"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "EDIFIER漫步者在前段时间推出了旗下第一款TWS真无线蓝牙耳机TWS3，作为一家拥有20余年音箱和耳机生产和研发经验的老牌音频厂商，推出的第一款真无线蓝牙耳机产品就获得了不错的反响。",
+        "tag": "其他",
+        "evidence": {
+          "value": "EDIFIER漫步者在前段时间推出了旗下第一款TWS真无线蓝牙耳机TWS3，作为一家拥有20余年音箱和耳机生产和研发经验的老牌音频厂商，推出的第一款真无线蓝牙耳机产品就获得了不错的反响。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "EDIFIER漫步者在前段时间推出了旗下第一款TWS真无线蓝牙耳机TWS3，作为一家拥有20余年音箱和耳机生产和研发经验的老牌音频厂商，推出的第一款真无线蓝牙耳机产品就获得了不错的反响。"
+        }
+      },
+      {
+        "text": "耳机上的防尘滤网。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "耳机上的防尘滤网。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "耳机上的防尘滤网。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "EDIFIER漫步者在前段时间推出了旗下第一款TWS真无线蓝牙耳机TWS3，作为一家拥有20余年音箱和耳机生产和研发经验的老牌音频厂商，推出的第一款真无线蓝牙耳机产品就获得了不错的反响。",
+    "launch_date": null,
+    "best_report_id": "12502",
+    "best_video_id": null
+  }
+}

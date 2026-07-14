@@ -1,0 +1,254 @@
+{
+  "canonical_id": "qcy--ailypods",
+  "brand": "QCY意象",
+  "model": "AilyPods",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "125902"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "125902"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2022-07-18",
+  "latest_published": "2022-07-18",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "SY8812",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "220 mAh",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 10,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "125902",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "卸掉螺丝取出主板，电池导线焊接在主板上。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部通过螺丝固定主板单元。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "镭雕iA131 2223的MEMS通话降噪麦克风特写。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电接口：Type-C充电接口位于充电盒底部。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网近期为大家分享了QCY AilyPods真无线蓝牙耳机的详细体验，在外观上，小巧迷你的身材，短柄半入耳式设计，提供了轻盈舒适的佩戴体验。配置上，搭载了13mm LCP复合镀钛振膜动圈单元，支持新一代蓝牙5.3，支持4麦+ENC高清通话降噪，提供20小时的综合续航。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网近期为大家分享了QCY AilyPods真无线蓝牙耳机的详细体验，在外观上，小巧迷你的身材，短柄半入耳式设计，提供了轻盈舒适的佩戴体验。配置上，搭载了13mm LCP复合镀钛振膜动圈单元，支持新一代蓝牙5.3，支持4麦+ENC高清通话降噪，提供20小时的综合续航。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "蓝牙天线特写，用于无线信号传输。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄背部麦克风拾音孔特写，采用了金属蚀刻网工艺，同时也是指示灯开孔和调音孔。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SY8812",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SY8812",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "充电接口：内部结构配置方面比较简洁，充电盒内置紫建电子220mAh锂电池，采用了Type-C输入电源，由思远SY8812充电仓SoC单芯片负责电池的充放电管理，输入耐压高达30V，集成NTC电池温度保护功能；由赛芯电子科技股份有限公司XB5332B锂电池一体化保护芯片负责电池的过充电、过放电、过电流和负载短路等保护功能。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SY8812",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SY8812",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "标记/认证：思远SY8812优化了产品应用设计可靠性的性能，输入耐压高达DC30V，并且芯片已经通过了IEC62368安规认证。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:125902"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "QC […]\n正面展示有产品整体外观，“QCY意象”品牌LOGO和产品名称，以及双麦通话降噪、迷你小巧、游戏模式三项产品特点。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "QC […]\n正面展示有产品整体外观，“QCY意象”品牌LOGO和产品名称，以及双麦通话降噪、迷你小巧、游戏模式三项产品特点。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "QC […]\n正面展示有产品整体外观，“QCY意象”品牌LOGO和产品名称，以及双麦通话降噪、迷你小巧、游戏模式三项产品特点。"
+        }
+      },
+      {
+        "text": "镭雕iA131 2223的MEMS通话降噪麦克风特写。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "镭雕iA131 2223的MEMS通话降噪麦克风特写。",
+          "confidence": 0.67,
+          "source_type": "text",
+          "source_text": "镭雕iA131 2223的MEMS通话降噪麦克风特写。"
+        }
+      },
+      {
+        "text": "QCY是“去创意・去超越“的拼音首字母组合，用以表达致力于为新一代年轻人打造科技型、创新型的智能电子设备。",
+        "tag": "其他",
+        "evidence": {
+          "value": "QCY是“去创意・去超越“的拼音首字母组合，用以表达致力于为新一代年轻人打造科技型、创新型的智能电子设备。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "QCY是“去创意・去超越“的拼音首字母组合，用以表达致力于为新一代年轻人打造科技型、创新型的智能电子设备。"
+        }
+      },
+      {
+        "text": "QCY意象\n在2016年TWS耳机市场爆发之前，便以超前的市场预判力进入了蓝牙耳机市场，凭借多年的产业积累优势产品销量屡创新高。",
+        "tag": "其他",
+        "evidence": {
+          "value": "QCY意象\n在2016年TWS耳机市场爆发之前，便以超前的市场预判力进入了蓝牙耳机市场，凭借多年的产业积累优势产品销量屡创新高。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "QCY意象\n在2016年TWS耳机市场爆发之前，便以超前的市场预判力进入了蓝牙耳机市场，凭借多年的产业积累优势产品销量屡创新高。"
+        }
+      },
+      {
+        "text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：型号：VDL501233PN2，电压：3.7V，容量：220mAh/0.814Wh，来自VDL紫建电子。",
+        "tag": "其他",
+        "evidence": {
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：型号：VDL501233PN2，电压：3.7V，容量：220mAh/0.814Wh，来自VDL紫建电子。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：型号：VDL501233PN2，电压：3.7V，容量：220mAh/0.814Wh，来自VDL紫建电子。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "QC […]\n正面展示有产品整体外观，“QCY意象”品牌LOGO和产品名称，以及双麦通话降噪、迷你小巧、游戏模式三项产品特点。",
+    "launch_date": null,
+    "best_report_id": "125902",
+    "best_video_id": null
+  }
+}

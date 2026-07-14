@@ -1,0 +1,109 @@
+{
+  "canonical_id": "unknown--rockusb-c",
+  "brand": "",
+  "model": "ROCK双USB-C口耳机转接器",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "25881"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "25881"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2019-08-14",
+  "latest_published": "2019-08-14",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "",
+    "pmic_case": "",
+    "battery_ear": "",
+    "battery_case": "",
+    "speaker": "",
+    "materials": "PC",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 2,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.17,
+    "best_report_id": "25881",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "继续将内部注塑件拆开，我们发现这里并非直接在PCBA上注塑，而是预先制作好的壳套，直接与PCBA进行组装。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "ROCK这款USB-C耳机转转换器采用纯黑色的机身，扁平的外观，主体部分采用纯金属材质的外壳，表面为磨砂和阳极氧化处理。正面印有ROCK的logo以及闪电和耳机的标识。此外还自带一根USB-C弯头短线，用于连接USB-C接口的手机。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:25881"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "我爱音频网通过拆解发现，这款产品采用钰群EJ899M控制芯片同时实现USB PD快充和USB-C数字耳机功能的控制，集成度非常高。",
+        "tag": "长续航",
+        "evidence": {
+          "value": "我爱音频网通过拆解发现，这款产品采用钰群EJ899M控制芯片同时实现USB PD快充和USB-C数字耳机功能的控制，集成度非常高。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "我爱音频网通过拆解发现，这款产品采用钰群EJ899M控制芯片同时实现USB PD快充和USB-C数字耳机功能的控制，集成度非常高。"
+        }
+      },
+      {
+        "text": "钰群的EJ899M控制芯片，支持USB PD快充以及USB-C 数字耳机。",
+        "tag": "长续航",
+        "evidence": {
+          "value": "钰群的EJ899M控制芯片，支持USB PD快充以及USB-C 数字耳机。",
+          "confidence": 0.69,
+          "source_type": "text",
+          "source_text": "钰群的EJ899M控制芯片，支持USB PD快充以及USB-C 数字耳机。"
+        }
+      }
+    ],
+    "scenarios": [],
+    "positioning_summary": "我爱音频网通过拆解发现，这款产品采用钰群EJ899M控制芯片同时实现USB PD快充和USB-C数字耳机功能的控制，集成度非常高。",
+    "launch_date": null,
+    "best_report_id": "25881",
+    "best_video_id": null
+  }
+}

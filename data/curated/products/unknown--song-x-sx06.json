@@ -1,0 +1,347 @@
+{
+  "canonical_id": "unknown--song-x-sx06",
+  "brand": "",
+  "model": "SONG X SX06",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "63803"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "63803"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2020-11-26",
+  "latest_published": "2020-11-26",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "络达AB1536U",
+    "pmic_case": "",
+    "battery_ear": "440 mAh",
+    "battery_case": "电池",
+    "speaker": "喇叭单元",
+    "materials": "硅胶、铝合金、PC",
+    "weight_g": "54.9克",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "IPX5",
+    "bluetooth": "5.0",
+    "bom_row_count": 16,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "63803",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "这款名为SONG X SX06的真无线蓝牙耳机，充电盒为旋转设计，第三方电商平台的宣传资料称其为“星环”设计，外环采用铝合金及加工一体成型，支持开盒即连和无线充电功能；耳机采用蓝牙5.0芯片，内置G-Sensor用于敲击控制，支持IPX5级防水抗汗，续航表现为5h+25h。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "外环内侧印有部分产品信息，型号SONG X SX06，充电盒电池容量440mAh/1.63Wh，输入5V⎓1A，输出5V⎓500mA。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "霍尔元件所在的位置，用于判断充电盒的开启状态，通过FPC与主板相连。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒底部是产品的部分信息，中英文对照。产品名称SONGX（SX06）真无线蓝牙耳机，蓝牙版本V5.0，频率范围20Hz-20000Hz，喇叭阻抗16Ω，麦克风灵敏度90±3dB。单耳机续航音乐播放5小时以上，配合充电盒音乐播放25小时以上。充电接口：Type-C/无线充电。公司名称：深圳音准科技有限公司。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "动圈单元尺寸约为6mm。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "外壳内侧展示，环形的FPC天线，用于传输蓝牙信号。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒外观展示，正面有一个圆环，是充电盒的状态指示灯。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电座舱内侧展示，两根给耳机充电的Pogo Pin一上一下分开放置。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机外壳上有一个红点的是右耳，便于用户区分。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8803",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8803",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "TPS思远半导体SY8803是一款专为智能TWS耳机充电仓设计的高性能SoC级别芯片，采用QFN-16封装。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8803",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8803",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "思远半导体SY8803在确保高安全、高可靠性能的设计基础上（高达28V输入耐压，内置全功能的充放电过压、过流、过温、短路保护等功能），还集成了I2C通讯控制功能。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SY8803",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SY8803",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "一颗无标MCU，与思远SY8803合作，负责充电盒整机控制。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB1536",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB1536",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "SONG X SX06 真无线蓝牙耳机的蓝牙音频SoC采用了Airoha络达的AB1536U。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "络达AB1536U",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "络达AB1536U",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "络达AB1536U内部集成存储器，内置电容触摸控制器，集成锂电池充电器，支持过放保护，内置开关降压和LDO。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB1536",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB1536",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "络达AB1536U内部集成存储器，内置电容触摸控制器，集成锂电池充电器，支持过放保护，内置开关降压和LDO。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "络达AB1536U",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "络达AB1536U",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "耳机部分，SONG X SX06 真无线蓝牙耳机的主控芯片采用了络达AB1536U，功能完善、集成度高，节省占板面积。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:63803"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "据我爱音频网拆解了解到，思远半导体的TWS耳机充电盒电源管理芯片目前已被\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、索爱、乐蚁等众多知名品牌\n采用。",
+        "tag": "其他",
+        "evidence": {
+          "value": "据我爱音频网拆解了解到，思远半导体的TWS耳机充电盒电源管理芯片目前已被\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、索爱、乐蚁等众多知名品牌\n采用。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "据我爱音频网拆解了解到，思远半导体的TWS耳机充电盒电源管理芯片目前已被\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、索爱、乐蚁等众多知名品牌\n采用。"
+        }
+      },
+      {
+        "text": "支持2496高清音频，支持降噪和回声消除，提供4×5.5mm BGA封装，非常节省占板面积。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "支持2496高清音频，支持降噪和回声消除，提供4×5.5mm BGA封装，非常节省占板面积。",
+          "confidence": 0.63,
+          "source_type": "text",
+          "source_text": "支持2496高清音频，支持降噪和回声消除，提供4×5.5mm BGA封装，非常节省占板面积。"
+        }
+      },
+      {
+        "text": "泄压孔内侧的防尘网。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "泄压孔内侧的防尘网。",
+          "confidence": 0.62,
+          "source_type": "text",
+          "source_text": "泄压孔内侧的防尘网。"
+        }
+      },
+      {
+        "text": "出音嘴采用金属防尘网，同时与金属壳体组成了给耳机电池充电的正、负极。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "出音嘴采用金属防尘网，同时与金属壳体组成了给耳机电池充电的正、负极。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "出音嘴采用金属防尘网，同时与金属壳体组成了给耳机电池充电的正、负极。"
+        }
+      },
+      {
+        "text": "耳机出音孔处的金属防尘网，同时也是给耳机充电的触点。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "耳机出音孔处的金属防尘网，同时也是给耳机充电的触点。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "耳机出音孔处的金属防尘网，同时也是给耳机充电的触点。"
+        }
+      },
+      {
+        "text": "产品名称SONGX（SX06）真无线蓝牙耳机，蓝牙版本V5.0，频率范围20Hz-20000Hz，喇叭阻抗16Ω，麦克风灵敏度90±3dB。",
+        "tag": "其他",
+        "evidence": {
+          "value": "产品名称SONGX（SX06）真无线蓝牙耳机，蓝牙版本V5.0，频率范围20Hz-20000Hz，喇叭阻抗16Ω，麦克风灵敏度90±3dB。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "产品名称SONGX（SX06）真无线蓝牙耳机，蓝牙版本V5.0，频率范围20Hz-20000Hz，喇叭阻抗16Ω，麦克风灵敏度90±3dB。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "据我爱音频网拆解了解到，思远半导体的TWS耳机充电盒电源管理芯片目前已被\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、索爱、乐蚁等众多知名品牌\n采用。",
+    "launch_date": null,
+    "best_report_id": "63803",
+    "best_video_id": null
+  }
+}

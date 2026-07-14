@@ -1,0 +1,307 @@
+{
+  "canonical_id": "baseus--bowie-h1i",
+  "brand": "Baseus倍思",
+  "model": "Bowie H1i",
+  "category": "头戴式耳机",
+  "report_ids": [
+    "225571"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "225571"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2025-01-17",
+  "latest_published": "2025-01-17",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "Bluetrum中科蓝讯BT8951H",
+    "pmic_case": "思远半导体 思远半导体SY6101",
+    "battery_ear": "6V/00mAh锂电池",
+    "battery_case": "600 mAh",
+    "speaker": "喇叭单元",
+    "materials": "PC、ABS",
+    "weight_g": "225.1g",
+    "weight_case_g": "",
+    "weight_earbud_g": "225.1g",
+    "ip_rating": "",
+    "bluetooth": "6.0",
+    "bom_row_count": 13,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "225571",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "Bluetrum中科蓝讯",
+      "model": "Bluetrum中科蓝讯BT8951H",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Bluetrum中科蓝讯BT8951H",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内置主板单元，采用了Bluetrum中科蓝讯BT8951H蓝牙音频SoC，思远半导体SY6101线性充电IC和SY5320过压过流保护IC；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "思远半导体",
+      "model": "思远半导体SY6101",
+      "qty_hint": "1",
+      "side": "",
+      "role": "保护IC",
+      "evidence": {
+        "value": "思远半导体SY6101",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内置主板单元，采用了Bluetrum中科蓝讯BT8951H蓝牙音频SoC，思远半导体SY6101线性充电IC和SY5320过压过流保护IC；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "思远半导体",
+      "model": "SY5320",
+      "qty_hint": "1",
+      "side": "",
+      "role": "保护IC",
+      "evidence": {
+        "value": "SY5320",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内置主板单元，采用了Bluetrum中科蓝讯BT8951H蓝牙音频SoC，思远半导体SY6101线性充电IC和SY5320过压过流保护IC；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "6V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "6V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "左耳内部600mAh锂电池，配备电路保护板负责充放电保护。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "内部主要配置方面，左右耳机均搭载了40mm动圈喇叭，内置了MEMS麦克风，用于降噪功能拾音。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面设计有扬声器的结构示意图、产品参数和公司信息。名称：倍思头戴式蓝牙耳机，型号：Baseus Bowie H1i ，材质：ABS+PC+金属，蓝牙版本：V5.3，通讯距离：10米，听歌时间：约100小时（降噪关，70%电量）/70小时（降噪开，70%电量），电池容量：600mAh/2.22Wh，耳机额定输入：DC5V-600mA，耳机额定消耗电流：8mA，充电时间：约2小时，频响范围：20Hz-40kHz，充电接口：Type-C，制造商：深圳市倍思科技有限公司。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "右耳",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "右耳底部的功能接口和开孔。从左到右依次为指示灯、Type-C充电接口、3.5mm音频输入接口和通话麦克风拾音孔。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "右耳",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部结构一览，右耳设置主板单元，与连接左耳的导线焊接。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "倍思Bowie H1i支持主动降噪功能，降噪深度可达-38dB，有效降低外界轰鸣、喧闹、交谈等环境噪音，带来沉浸式的音频体验。倍思H1i还支持双设备连接、倍思低延迟技术，满足游戏、办公等各种场景使用。续航方面，降噪关闭续航时间长达约100小时，开启降噪，续航时间约70小时。下面来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Bowie H1i是倍思旗下一款非常热销的头戴式降噪耳机，外观上采用轻量化设计，提供舒适佩戴；功能配置上，搭载40mm羊毛生物振膜喇叭，采用LHDC高清音频解码，支持24bit/96kHz无线传输，传输码率可达900kbps，能够更好地还原音频细节，获得了Hi-Res和QQ音乐“臻品音质”双认证；还支持倍思空间音效（BISA），拥有音乐、影院两种模式，能够营造如临现场般的立体声效。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "板载蓝牙天线特写，用于无线通讯。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "左耳",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳壳底部外观一览，左耳上设置ANC的滑动开关，右耳上设置功能接口和功能按键。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "右耳",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "右耳底部的功能接口和开孔。从左到右依次为指示灯、Type-C充电接口、3.5mm音频输入接口和通话麦克风拾音孔。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Baseus倍思Bowie H1i头戴式降噪耳机在外观方面，采用了轻量化设计，穿插式悬挂设计，搭配米白+米灰色拼接的配色，呈现简约时尚的复古质感。耳机结构功能性完整，耳壳支持上下左右四向旋转，头梁支持长短伸缩调节，能够适配不同用户的使用需求，搭配柔软亲肤的蛋白皮耳罩，提供舒适佩戴；另外还支持折叠功能，便于携带。 内部主要配置方面，左右耳机均搭载了40mm动圈喇叭，内置了MEMS麦克风，用于降噪功能拾音。其他方面，右耳内置一颗驻极体麦克风，用于语音通话拾音；内置主板单元，采用了Bluetrum中科蓝讯BT8951H蓝牙音频SoC，思远半导体SY6101线性充电IC和SY5320过压过流保护IC；左耳内部600mAh锂电池，配备电路保护板负责充放电保护。",
+  "layer_refs": {
+    "technical": [
+      "report:225571"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "Bowie H1i是倍思旗下一款非常热销的头戴式降噪耳机，外观上采用轻量化设计，提供舒适佩戴；功能配置上，搭载40mm羊毛生物振膜喇叭，采用LHDC高清音频解码，支持24bit/96kHz无线传输，传输码率可达900kbps，能够更好地还原音频细节，获得了Hi-Res和QQ音乐“臻品音质”双认证；还支持倍思空间音效（BISA），拥有音乐、影院两种模式，能够营造如临现场般的立体声效。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "Bowie H1i是倍思旗下一款非常热销的头戴式降噪耳机，外观上采用轻量化设计，提供舒适佩戴；功能配置上，搭载40mm羊毛生物振膜喇叭，采用LHDC高清音频解码，支持24bit/96kHz无线传输，传输码率可达900kbps，能够更好地还原音频细节，获得了Hi-Res和QQ音乐“臻品音质”双认证；还支持倍思空间音效（BISA），拥有音乐、影院两种模式，能够营造如临现场般的立体声效。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "Bowie H1i是倍思旗下一款非常热销的头戴式降噪耳机，外观上采用轻量化设计，提供舒适佩戴；功能配置上，搭载40mm羊毛生物振膜喇叭，采用LHDC高清音频解码，支持24bit/96kHz无线传输，传输码率可达900kbps，能够更好地还原音频细节，获得了Hi-Res和QQ音乐“臻品音质”双认证；还支持倍思空间音效（BISA），拥有音乐、影院两种模式，能够营造如临现场般的立体声效。"
+        }
+      },
+      {
+        "text": "经我爱音频网实测，Baseus倍思Bowie H1i头戴式降噪耳机重量仅约为225.1g，轻量化设计，提供舒适佩戴。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "经我爱音频网实测，Baseus倍思Bowie H1i头戴式降噪耳机重量仅约为225.1g，轻量化设计，提供舒适佩戴。",
+          "confidence": 0.61,
+          "source_type": "text",
+          "source_text": "经我爱音频网实测，Baseus倍思Bowie H1i头戴式降噪耳机重量仅约为225.1g，轻量化设计，提供舒适佩戴。"
+        }
+      },
+      {
+        "text": "三、我爱音频网总结\nBaseus倍思Bowie H1i头戴式降噪耳机在外观方面，采用了轻量化设计，穿插式悬挂设计，搭配米白+米灰色拼接的配色，呈现简约时尚的复古质感。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "三、我爱音频网总结\nBaseus倍思Bowie H1i头戴式降噪耳机在外观方面，采用了轻量化设计，穿插式悬挂设计，搭配米白+米灰色拼接的配色，呈现简约时尚的复古质感。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\nBaseus倍思Bowie H1i头戴式降噪耳机在外观方面，采用了轻量化设计，穿插式悬挂设计，搭配米白+米灰色拼接的配色，呈现简约时尚的复古质感。"
+        }
+      },
+      {
+        "text": "倍思Bowie H1i支持主动降噪功能，降噪深度可达-38dB，有效降低外界轰鸣、喧闹、交谈等环境噪音，带来沉浸式的音频体验。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "倍思Bowie H1i支持主动降噪功能，降噪深度可达-38dB，有效降低外界轰鸣、喧闹、交谈等环境噪音，带来沉浸式的音频体验。",
+          "confidence": 0.59,
+          "source_type": "text",
+          "source_text": "倍思Bowie H1i支持主动降噪功能，降噪深度可达-38dB，有效降低外界轰鸣、喧闹、交谈等环境噪音，带来沉浸式的音频体验。"
+        }
+      },
+      {
+        "text": "右耳底部的功能按键，包括音量加减键，同时用于上/下曲切换，以及多功能按键，通过单击、双击、三击、长按，实现暂停播放、低延迟模式切换、空间音效模式切换和拒接等功能控制。",
+        "tag": "空间音频",
+        "evidence": {
+          "value": "右耳底部的功能按键，包括音量加减键，同时用于上/下曲切换，以及多功能按键，通过单击、双击、三击、长按，实现暂停播放、低延迟模式切换、空间音效模式切换和拒接等功能控制。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "右耳底部的功能按键，包括音量加减键，同时用于上/下曲切换，以及多功能按键，通过单击、双击、三击、长按，实现暂停播放、低延迟模式切换、空间音效模式切换和拒接等功能控制。"
+        }
+      },
+      {
+        "text": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n猛玛\n、\n字节跳动\n、\n一加\n、\n小米\n、\nJBL\n、\nOPPO、Redmi、iQOO、漫步者、联想、传音、倍思、科大讯飞、用维、公牛、小天才、Cleer、Fiio、JadeAudio、MEES、YOBYBO、HAYLOU、DENON、Oladance、Nothing、XTOUR、final、酷睿视、Skullcandy\n、\nvivo\n、\nQCY\n、\n声阔\n、\n绿联\n、\nrealme、魅族、百度、网易、哈曼、\n万魔、233621、魔宴、创新科技\n等国内外知名品牌采用。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n猛玛\n、\n字节跳动\n、\n一加\n、\n小米\n、\nJBL\n、\nOPPO、Redmi、iQOO、漫步者、联想、传音、倍思、科大讯飞、用维、公牛、小天才、Cleer、Fiio、JadeAudio、MEES、YOBYBO、HAYLOU、DENON、Oladance、Nothing、XTOUR、final、酷睿视、Skullcandy\n、\nvivo\n、\nQCY\n、\n声阔\n、\n绿联\n、\nrealme、魅族、百度、网易、哈曼、\n万魔、233621、魔宴、创新科技\n等国内外知名品牌采用。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n猛玛\n、\n字节跳动\n、\n一加\n、\n小米\n、\nJBL\n、\nOPPO、Redmi、iQOO、漫步者、联想、传音、倍思、科大讯飞、用维、公牛、小天才、Cleer、Fiio、JadeAudio、MEES、YOBYBO、HAYLOU、DENON、Oladance、Nothing、XTOUR、final、酷睿视、Skullcandy\n、\nvivo\n、\nQCY\n、\n声阔\n、\n绿联\n、\nrealme、魅族、百度、网易、哈曼、\n万魔、233621、魔宴、创新科技\n等国内外知名品牌采用。"
+        }
+      }
+    ],
+    "scenarios": [
+      "办公",
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "Bowie H1i是倍思旗下一款非常热销的头戴式降噪耳机，外观上采用轻量化设计，提供舒适佩戴；功能配置上，搭载40mm羊毛生物振膜喇叭，采用LHDC高清音频解码，支持24bit/96kHz无线传输，传输码率可达900kbps，能够更好地还原音频细节，获得了Hi-Res和QQ音乐“臻品音质”双认证；还支持倍思空间音效（BISA），拥有音乐、影院两种模式，能够营造如临现场般的立体声效。",
+    "launch_date": null,
+    "best_report_id": "225571",
+    "best_video_id": null
+  }
+}

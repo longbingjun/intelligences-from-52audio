@@ -1,0 +1,407 @@
+{
+  "canonical_id": "unknown--groove-onn",
+  "brand": "",
+  "model": "groove onn.",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "172206"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "172206"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-09-01",
+  "latest_published": "2023-09-01",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "Prisemi芯导P14C1S",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "4V/50mAh",
+    "speaker": "动圈单元",
+    "materials": "",
+    "weight_g": "45.0g",
+    "weight_case_g": "",
+    "weight_earbud_g": "4.0g",
+    "ip_rating": "IPX4",
+    "bluetooth": "5.2",
+    "bom_row_count": 21,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "172206",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "Prisemi芯导",
+      "model": "Prisemi芯导P14C1S",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Prisemi芯导P14C1S",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置了YD亿等新能源450mAh电池，采用了Type-C接口输入电源，由Prisemi芯导P14C1S芯片负责过压过流保护；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "Injoinic英集芯IP5518",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Injoinic英集芯IP5518",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片为Injoinic英集芯IP5518 TWS耳机充电仓管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等多功能，为充电仓提供了完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BT8922D",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BT8922D",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片为中科蓝讯“讯龙二代”BT8922D蓝牙音频SoC，支持蓝牙5.4双模，支持声加单MIC DNN通话算法，集成降压及锂电池充电、低功耗触摸按键功能。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "4V/50mAh",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "4V/50mAh",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置了YD亿等新能源450mAh电池，采用了Type-C接口输入电源，由Prisemi芯导P14C1S芯片负责过压过流保护；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机部分，音腔内搭载了13mm大动圈单元，40mAh软包扣式电池，分别通过导线连接到耳机柄内部主板；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了一颗MEMS麦克风拾音，采用了Spacetouch普林芯驰SPT513N芯片负责入耳检测；"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "groove onn.真无线耳机采用了圆角方形设计，哑光质感，纯净白色配色，体积非常小巧轻盈。充电盒正面设置有一颗指示灯，用于反馈蓝牙配对和充电状态。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部通过螺丝固定主板单元。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱一侧结构一览，设置有电池单元。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄底部设置有充电触点和麦克风拾音孔。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "前腔内部扬声器单元结构一览。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧结构一览，设置有蓝牙天线和触摸检测贴片，以及最右侧的指示灯导光柱。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒底部设置Type-C充电接口和蓝牙配对按键。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "撬开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "groove onn.真无线耳机采用了圆角方形设计，哑光质感，纯净白色配色，体积非常小巧轻盈。充电盒正面设置有一颗指示灯，用于反馈蓝牙配对和充电状态。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄底部设置有充电触点和麦克风拾音孔。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Injoinic英集芯IP5518",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Injoinic英集芯IP5518",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Injoinic英集芯IP5518 TWS耳机充电仓管理SoC，是一款集成MCU，集成了5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5518",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5518",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "IP5518的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Prisemi芯导P14C1S",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Prisemi芯导P14C1S",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Prisemi芯导P14C1S过压过流保护IC，输入耐压高达32V，过压保护点为固定6V。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BT8922D",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BT8922D",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "中科蓝讯“讯龙二代”BT8922D蓝牙音频SoC，采用40nm ULP工艺，内置32位高性能RISC-V CPU，支持DSP指令与神经网络加速器，内置多个小核组成多核架构，有效降低功耗。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BT8922D",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BT8922D",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BT8922D支持声加单MIC DNN通话算法，为用户提供清晰的通话体验；支持蓝牙5.4双模，集成降压及锂电池充电功能，内置低功耗触摸按键，有助于实现精简的耳机设计。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 groove onn.真无线耳机在外观方面，设计简约，体积轻巧。充电盒采用了圆角方形设计，哑光质感，体积迷你，外出使用便携；耳机采用了柄状的半入耳式设计，重量仅为4.0g，长久佩戴依然舒适。 内部结构配置方面，电路设计非常简洁。充电盒内置了YD亿等新能源450mAh电池，采用了Type-C接口输入电源，由Prisemi芯导P14C1S芯片负责过压过流保护；主控芯片为Injoinic英集芯IP5518 TWS耳机充电仓管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等多功能，为充电仓提供了完整的电源解决方案。 耳机部分，音腔内搭载了13mm大动圈单元，40mAh软包扣式电池，分别通过导线连接到耳机柄内部主板；主板上，搭载了一颗MEMS麦克风拾音，采用了Spacetouch普林芯驰SPT513N芯片负责入耳检测；主控芯片为中科蓝讯“讯龙二代”BT8922D蓝牙音频SoC，支持蓝牙5.4双模，支持声加单MIC DNN通话算法，集成降压及锂电池充电、低功耗触摸按键功能。",
+  "layer_refs": {
+    "technical": [
+      "report:172206"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "IP5518可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至20uA；可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "IP5518可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至20uA；可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "IP5518可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至20uA；可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。"
+        }
+      },
+      {
+        "text": "耳机椭圆形出音嘴特写，细密防尘网防护，防止异物进入音腔。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "耳机椭圆形出音嘴特写，细密防尘网防护，防止异物进入音腔。",
+          "confidence": 0.59,
+          "source_type": "text",
+          "source_text": "耳机椭圆形出音嘴特写，细密防尘网防护，防止异物进入音腔。"
+        }
+      },
+      {
+        "text": "耳机侧边的泄压孔特写，防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "耳机侧边的泄压孔特写，防尘网防护。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "耳机侧边的泄压孔特写，防尘网防护。"
+        }
+      },
+      {
+        "text": "内建高性能蓝牙射频电路，无线接收灵敏度达到-94dBm，发射功率大于10dBm的级别，满足不同的产品设计及天线结构。",
+        "tag": "其他",
+        "evidence": {
+          "value": "内建高性能蓝牙射频电路，无线接收灵敏度达到-94dBm，发射功率大于10dBm的级别，满足不同的产品设计及天线结构。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "内建高性能蓝牙射频电路，无线接收灵敏度达到-94dBm，发射功率大于10dBm的级别，满足不同的产品设计及天线结构。"
+        }
+      },
+      {
+        "text": "IP5518非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "IP5518非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "IP5518非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "IP5518可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至20uA；可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+    "launch_date": null,
+    "best_report_id": "172206",
+    "best_video_id": null
+  }
+}

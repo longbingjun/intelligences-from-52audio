@@ -1,0 +1,344 @@
+{
+  "canonical_id": "unknown--hhogene-gpods",
+  "brand": "",
+  "model": "HHOGene GPods",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "142970"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "142970"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2022-12-15",
+  "latest_published": "2022-12-15",
+  "internal_match_suggestions": [
+    {
+      "sku": "OpenDots 2",
+      "score": 0.476,
+      "reason": "型号相似度 48%（匹配 OpenDots 2）"
+    }
+  ],
+  "cost_snapshot": {
+    "main_chip": "恒玄BES2500IZ",
+    "pmic_case": "",
+    "battery_ear": "600 mAh",
+    "battery_case": "6V/00mAh",
+    "speaker": "喇叭单元",
+    "materials": "硅胶、PC",
+    "weight_g": "54g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "IPX4",
+    "bluetooth": "5.2",
+    "bom_row_count": 16,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "142970",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "恒玄BES2500IZ",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2500IZ",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片为BES恒玄BES2500IZ蓝牙音频SoC，搭配两颗MEMS麦克风，提供主动降噪和清晰通话；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "2",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片为BES恒玄BES2500IZ蓝牙音频SoC，搭配两颗MEMS麦克风，提供主动降噪和清晰通话；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "6V/00mAh",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "6V/00mAh",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内部采用了600mAh大电池，配备有电路保护板负责充放电保护；"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "电池固定在充电盒侧边，通过导线连接到主板。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "其他方面，HHOGene GPods还支持主动降噪功能，降噪深度可达25dB；搭载10mm动态驱动单元，支持蓝牙5.2，支持AAC高清音频解码；采用触摸控制，拥有丰富的操控模式；续航方面，耳机单次续航时间5小时，搭配充电盒综合续航时间20小时。下面就来看看这款产品的详细外观设计和内部结构配置信息吧~"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "电池固定在充电盒侧边，通过导线连接到主板。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄顶部的降噪麦克风开孔特写。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "其他方面，HHOGene GPods还支持主动降噪功能，降噪深度可达25dB；搭载10mm动态驱动单元，支持蓝牙5.2，支持AAC高清音频解码；采用触摸控制，拥有丰富的操控模式；续航方面，耳机单次续航时间5小时，搭配充电盒综合续航时间20小时。下面就来看看这款产品的详细外观设计和内部结构配置信息吧~"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "LED灯导光柱特写，上方印刷有LDS镭射天线，两端有麦克风开孔。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "取出扬声器，正面振膜覆盖有金属盖板。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "HHOGene GPods真无线耳机内部搭载了6颗RGB LED灯，支持超过30万种色彩组合，支持双向、单向、常亮和呼吸4种亮光模式，以及亮度调节。还可以在“HHOGene APP”内导入图片，通过内置AI算法，自动提取颜色转化为光谱应用于耳机灯光显示。还配备有可拆卸耳机柄外壳，通过不同的色彩纹理，呈现个性化的视觉观感，具有着极高的可玩性。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "HHOGene GPods真无线耳机内部搭载了6颗RGB LED灯，支持超过30万种色彩组合，支持双向、单向、常亮和呼吸4种亮光模式，以及亮度调节。还可以在“HHOGene APP”内导入图片，通过内置AI算法，自动提取颜色转化为光谱应用于耳机灯光显示。还配备有可拆卸耳机柄外壳，通过不同的色彩纹理，呈现个性化的视觉观感，具有着极高的可玩性。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱上用于蓝牙配对的功能按键特写。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "为耳机充电的Pogo Pin连接器特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2500IZ",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2500IZ",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄BES2500IZ蓝牙音频SoC，BES2500系列不同后缀配置和功能不相同。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2500IUC",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2500IUC",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "恒玄BES2500IUC/IU/IZ系列，支持蓝牙5.2，超低底噪，512K SRAM, 2M/4M FLASH，为高性价比方案。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 作为全球首款支持数字化光控的真无线耳机，HHOGene GPods在外观方面，通过能够千变万化的光效，结合可拆卸外壳，以及双向、单向、常亮和呼吸4种模式，为TWS耳机市场投入了一款新潮“炸弹”，将个性化表达提升到了极致，使TWS耳机也能融入潮流圈，成为时尚单品。 内部结构配置方面，耳机搭载了6颗RGB LED灯珠，采用了艾为AW22127智能LED驱动SoC，集成丰富的功能和LED驱动电路，可支持驱动多达27个LED或9个RGB LED，支持亮度和颜色混合，支持调光，还支持音频同步照明等。主控芯片为BES恒玄BES2500IZ蓝牙音频SoC，搭配两颗MEMS麦克风，提供主动降噪和清晰通话；入耳检测由Spacetouch普林芯驰SPT513N精密入耳检测芯片负责，还采用了LY来远电子ICP1205线性充电IC为内置电池充电。 充电盒内部采用了600mAh大电池，配备有电路保护板负责充放电保护；主板上，搭载了LY来远电子ICP1106电源管理芯片，集成了开关充电、同步升压、双耳独立插拔检测等丰富功能，负责充电盒内置电池的充放电管理。还采用了LPS微源半导体LP5305A过压过流保护IC，UNICMICRO广芯微UM8005处理器等。",
+  "layer_refs": {
+    "technical": [
+      "report:142970"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "三、我爱音频网总结\n作为全球首款支持数字化光控的真无线耳机，HHOGene GPods在外观方面，通过能够千变万化的光效，结合可拆卸外壳，以及双向、单向、常亮和呼吸4种模式，为TWS耳机市场投入了一款新潮“炸弹”，将个性化表达提升到了极致，使TWS耳机也能融入潮流圈，成为时尚单品。",
+        "tag": "其他",
+        "evidence": {
+          "value": "三、我爱音频网总结\n作为全球首款支持数字化光控的真无线耳机，HHOGene GPods在外观方面，通过能够千变万化的光效，结合可拆卸外壳，以及双向、单向、常亮和呼吸4种模式，为TWS耳机市场投入了一款新潮“炸弹”，将个性化表达提升到了极致，使TWS耳机也能融入潮流圈，成为时尚单品。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\n作为全球首款支持数字化光控的真无线耳机，HHOGene GPods在外观方面，通过能够千变万化的光效，结合可拆卸外壳，以及双向、单向、常亮和呼吸4种模式，为TWS耳机市场投入了一款新潮“炸弹”，将个性化表达提升到了极致，使TWS耳机也能融入潮流圈，成为时尚单品。"
+        }
+      },
+      {
+        "text": "并且，AW22127内置了艾为领先的“音随我动”声光同步算法，可以准确的抓取音乐节奏，并且驱动呼吸灯实现光随音动的效果。",
+        "tag": "其他",
+        "evidence": {
+          "value": "并且，AW22127内置了艾为领先的“音随我动”声光同步算法，可以准确的抓取音乐节奏，并且驱动呼吸灯实现光随音动的效果。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "并且，AW22127内置了艾为领先的“音随我动”声光同步算法，可以准确的抓取音乐节奏，并且驱动呼吸灯实现光随音动的效果。"
+        }
+      },
+      {
+        "text": "来远ICP1106输入端支持28V耐压，实际应用中无需输入抗浪涌器件；充电电压，充电电流，输出电压能通过I2C灵活配置，方便的实现TWS快充，效率充电；同时支持电力线载波双向通信，UART双向通信这两种通信模式，能可靠的满足充电仓和耳机的信息交互需求，实现耳机和充电仓的智能控制。",
+        "tag": "长续航",
+        "evidence": {
+          "value": "来远ICP1106输入端支持28V耐压，实际应用中无需输入抗浪涌器件；充电电压，充电电流，输出电压能通过I2C灵活配置，方便的实现TWS快充，效率充电；同时支持电力线载波双向通信，UART双向通信这两种通信模式，能可靠的满足充电仓和耳机的信息交互需求，实现耳机和充电仓的智能控制。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "来远ICP1106输入端支持28V耐压，实际应用中无需输入抗浪涌器件；充电电压，充电电流，输出电压能通过I2C灵活配置，方便的实现TWS快充，效率充电；同时支持电力线载波双向通信，UART双向通信这两种通信模式，能可靠的满足充电仓和耳机的信息交互需求，实现耳机和充电仓的智能控制。"
+        }
+      },
+      {
+        "text": "镭雕二维码的MEMS麦克风特写，用于降噪功能拾取外部环境噪音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "镭雕二维码的MEMS麦克风特写，用于降噪功能拾取外部环境噪音。",
+          "confidence": 0.71,
+          "source_type": "text",
+          "source_text": "镭雕二维码的MEMS麦克风特写，用于降噪功能拾取外部环境噪音。"
+        }
+      },
+      {
+        "text": "据我爱音频网拆解了解到，\nSudio E2\n真无线耳机\n、\n贝尔金SOUNDFORM Freedom真无线耳机\n、\nomthing AirFree2 真无线降噪耳机\n、\nTOZO NC7真无线降噪耳机\n也采用了来远电子的电源管理芯片。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "据我爱音频网拆解了解到，\nSudio E2\n真无线耳机\n、\n贝尔金SOUNDFORM Freedom真无线耳机\n、\nomthing AirFree2 真无线降噪耳机\n、\nTOZO NC7真无线降噪耳机\n也采用了来远电子的电源管理芯片。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "据我爱音频网拆解了解到，\nSudio E2\n真无线耳机\n、\n贝尔金SOUNDFORM Freedom真无线耳机\n、\nomthing AirFree2 真无线降噪耳机\n、\nTOZO NC7真无线降噪耳机\n也采用了来远电子的电源管理芯片。"
+        }
+      }
+    ],
+    "scenarios": [
+      "睡眠",
+      "通话"
+    ],
+    "positioning_summary": "三、我爱音频网总结\n作为全球首款支持数字化光控的真无线耳机，HHOGene GPods在外观方面，通过能够千变万化的光效，结合可拆卸外壳，以及双向、单向、常亮和呼吸4种模式，为TWS耳机市场投入了一款新潮“炸弹”，将个性化表达提升到了极致，使TWS耳机也能融入潮流圈，成为时尚单品。",
+    "launch_date": null,
+    "best_report_id": "142970",
+    "best_video_id": null
+  }
+}

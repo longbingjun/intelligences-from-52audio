@@ -1,0 +1,255 @@
+{
+  "canonical_id": "unknown--aukey-key-series-b60",
+  "brand": "",
+  "model": "AUKEY傲基 Key Series B60",
+  "category": "颈挂式蓝牙耳机",
+  "report_ids": [
+    "77337"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "77337"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2021-04-07",
+  "latest_published": "2021-04-07",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "高通 QCC3003",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "120 mAh",
+    "speaker": "喇叭单元",
+    "materials": "硅胶",
+    "weight_g": "16g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "IPX6",
+    "bluetooth": "5.0",
+    "bom_row_count": 10,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "77337",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "蓝牙技术：蓝牙5.0——EDR，支持A2DP、AVRCP、HFP、HSP，音频协议：支持SBC、AAC，充电接口USB-C，电源输入：DC 5V 500mA，充电时间：1.5小时，播放时间：＜8小时，电池：锂聚合物电池组120mAh，蓝牙距离：10m，重量：16g。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部元器件一览，主板单元通过胶水和卡槽立柱固定。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "背部有麦克风开孔，用于语音通话功能。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机扬声器单元固定在出音管内，胶水加固。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "陶瓷蓝牙天线特写。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "线控正面有三颗功能按键和状态指示灯。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "线控正面有三颗功能按键和状态指示灯。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机腔体内部电池单元和扬声器分别位于前后腔内，通过导线连接。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通 QCC3003",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通 QCC3003",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm高通 QCC3003 蓝牙音频SOC，是一款单芯片双模蓝牙5.0系统，采用第8代高通cVc\n噪音消除技术有一个和两个麦克风输入；增强的GAIA设计用于更好地与移动设备通信；并具有外部QSPI闪存用于配置和语音提示。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC3003",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC3003",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "内部结构配置上，主板位于线控板内，主控芯片采用了高通QCC3003蓝牙音频SOC，是一款单芯片双模蓝牙5.0系统，支持第8代高通cVc\n噪音消除技术；电池单元位于耳机壳体内，左右两侧分别配备有一颗60mAh软包电池，软包电池有保护板\n进行过充过放保护\n；耳机内小板上配置有一颗检测磁吸状态的霍尔元件，用于磁吸开关功能。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:77337"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "耳机配备了耳塞、耳翼二合一的耳套设计，提升佩戴舒适度和稳定性，搭配IPX6级防水，非常适合运动健身佩戴。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "耳机配备了耳塞、耳翼二合一的耳套设计，提升佩戴舒适度和稳定性，搭配IPX6级防水，非常适合运动健身佩戴。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "耳机配备了耳塞、耳翼二合一的耳套设计，提升佩戴舒适度和稳定性，搭配IPX6级防水，非常适合运动健身佩戴。"
+        }
+      },
+      {
+        "text": "腔体内部泄压孔特写，防尘网覆盖，保证腔体内空气流通，防止异物进入。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "腔体内部泄压孔特写，防尘网覆盖，保证腔体内空气流通，防止异物进入。",
+          "confidence": 0.64,
+          "source_type": "text",
+          "source_text": "腔体内部泄压孔特写，防尘网覆盖，保证腔体内空气流通，防止异物进入。"
+        }
+      },
+      {
+        "text": "出音嘴有圆形防尘网罩覆盖，防止异物进入腔体。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "出音嘴有圆形防尘网罩覆盖，防止异物进入腔体。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "出音嘴有圆形防尘网罩覆盖，防止异物进入腔体。"
+        }
+      },
+      {
+        "text": "耳机线标签正面信息有CE、BC认证和可循环利用标识等。",
+        "tag": "其他",
+        "evidence": {
+          "value": "耳机线标签正面信息有CE、BC认证和可循环利用标识等。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "耳机线标签正面信息有CE、BC认证和可循环利用标识等。"
+        }
+      },
+      {
+        "text": "底部Type-C充电接口有防尘塞覆盖，防止异物进入。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "底部Type-C充电接口有防尘塞覆盖，防止异物进入。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "底部Type-C充电接口有防尘塞覆盖，防止异物进入。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "通话",
+      "健身"
+    ],
+    "positioning_summary": "耳机配备了耳塞、耳翼二合一的耳套设计，提升佩戴舒适度和稳定性，搭配IPX6级防水，非常适合运动健身佩戴。",
+    "launch_date": null,
+    "best_report_id": "77337",
+    "best_video_id": null
+  }
+}

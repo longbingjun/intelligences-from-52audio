@@ -1,0 +1,281 @@
+{
+  "canonical_id": "sony--inzone-h9",
+  "brand": "SONY索尼",
+  "model": "INZONE H9无线降噪游戏",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "157154"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "157154"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-04-23",
+  "latest_published": "2023-04-23",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "",
+    "pmic_case": "",
+    "battery_ear": "3.85V/520mAh锂电池",
+    "battery_case": "电池",
+    "speaker": "喇叭单元",
+    "materials": "塑料、PC、ABS、皮革",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.0",
+    "bom_row_count": 11,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.67,
+    "best_report_id": "157154",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3.85V/520mAh锂电池",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "3.85V/520mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "其他方面，右耳内置曙鹏科技3.85V 520mAh锂离子电池，配备电路保护板负责充放电保护；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳壳采用符合人手形状的独特椭圆形设计，配备悬挂式可自由调节麦克风，还有支持13种颜色的环形LED指示灯，为用户营造更为沉浸的游戏氛围。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "SONY INZONE H9无线降噪游戏耳机正面外观一览，采用了与PS5系列相同的黑白配色，耳壳采用了符合人手形状的独特椭圆形设计，配备悬挂式可调节麦克风；头梁宽厚舒适，耳罩柔软减压。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "USB无线接收器内部结构一侧一览，主板通过支架固定。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Kinetis KL27系列针对需要低功耗USB连接的成本敏感和电池供电的应用进行了优化，在极低功率运行模式下降至54uA/MHz，在深度睡眠模式下降至1.96uA（保留RAM+RTC）。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "SONY INZONE H9还搭载了与1000X系列相同的降噪黑科技，支持主动降噪功能，可提供不受外界干扰的沉浸游戏体验；支持20级可调节环境声，佩戴耳机轻松获取外界声音；无线连接方面，支持2.4G接收器和蓝牙两种方式，支持多点连接无缝切换；充电续航上，支持快速充电，支持充电时使用，单次续航时间可达约32小时。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "PCB印刷天线特写，用与无线信号传输。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "SONY INZONE H9无线降噪游戏耳机搭载了40mm高保真振膜动圈单元，对称式结构设计，支持节奏响应控制，提供澎湃的低频效果；支持10档均衡器自定义调节，提供个性化聆听体验；支持360游戏空间音效，基于索尼空间音频技术和真实人耳HRTF数据库，提供7.1声道虚拟环绕声；支持Game/Chat模式切换，可根据需求突出游戏音效或队友沟通声音。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身尾部黑色配对按键外圈是环形指示灯，用于反馈工作状态。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身尾部黑色配对按键外圈是环形指示灯，用于反馈工作状态。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "抽取外壳内部结构。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 SONY INZONE H9无线降噪游戏耳机在外观设计方面非常的有特点，与PS5系列相同的黑白配色，简约时尚；耳壳采用符合人手形状的独特椭圆形设计，配备悬挂式可自由调节麦克风，还有支持13种颜色的环形LED指示灯，为用户营造更为沉浸的游戏氛围。宽厚舒适的头垫、柔软减压型皮革耳罩，可旋转、伸缩调节的头梁，则提供了舒适的个性化佩戴体验。 内部结构配置方面，左右耳均搭载了40mm动圈式扬声器，前馈+后馈降噪麦克风单元。其他方面，右耳内置曙鹏科技3.85V 520mAh锂离子电池，配备电路保护板负责充放电保护；左耳内置主板单元，搭载了MEDIATEK联发科MT2811BA蓝牙音频SoC，用于蓝牙模式连接；采用NXP恩智浦NxH3670超低功耗2.4 GHz无线收发器，用于与USB无线接收器低延迟无线传输。 还采用了SONY索尼CXD3782GF超低功耗主动降噪解决方案，支持混合降噪技术；Cirrus-Logic凌云逻辑CS47L35带低功耗音频数字信号处理器 (DSP) 的智能编解码器；NXP恩智浦M27P8V微控制器；MXIC旺宏MX25U3232F 1.8V 32M串行NOR闪存，罗姆RGB LED驱动器等。USB无线收发器内部主板搭载了用于连接耳机的NXP恩智浦NxH3670 2.4GHz无线收发器和NXP恩智浦M27P8V微控制器。",
+  "layer_refs": {
+    "technical": [
+      "report:157154"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "SONY INZONE H9无线降噪游戏耳机搭载了40mm高保真振膜动圈单元，对称式结构设计，支持节奏响应控制，提供澎湃的低频效果；支持10档均衡器自定义调节，提供个性化聆听体验；支持360游戏空间音效，基于索尼空间音频技术和真实人耳HRTF数据库，提供7.1声道虚拟环绕声；支持Game/Chat模式切换，可根据需求突出游戏音效或队友沟通声音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "SONY INZONE H9无线降噪游戏耳机搭载了40mm高保真振膜动圈单元，对称式结构设计，支持节奏响应控制，提供澎湃的低频效果；支持10档均衡器自定义调节，提供个性化聆听体验；支持360游戏空间音效，基于索尼空间音频技术和真实人耳HRTF数据库，提供7.1声道虚拟环绕声；支持Game/Chat模式切换，可根据需求突出游戏音效或队友沟通声音。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "SONY INZONE H9无线降噪游戏耳机搭载了40mm高保真振膜动圈单元，对称式结构设计，支持节奏响应控制，提供澎湃的低频效果；支持10档均衡器自定义调节，提供个性化聆听体验；支持360游戏空间音效，基于索尼空间音频技术和真实人耳HRTF数据库，提供7.1声道虚拟环绕声；支持Game/Chat模式切换，可根据需求突出游戏音效或队友沟通声音。"
+        }
+      },
+      {
+        "text": "INZONE是索尼在2022年\n“破界，开局”发布会\n上推出的全新电竞品牌，同时发布的首系列产品包括了采用相同设计的INZONE H9、INZONE H7和INZONE H3头戴式电竞耳机，并均支持360游戏空间音效，为游戏玩家打造沉浸式的游戏体验。",
+        "tag": "空间音频",
+        "evidence": {
+          "value": "INZONE是索尼在2022年\n“破界，开局”发布会\n上推出的全新电竞品牌，同时发布的首系列产品包括了采用相同设计的INZONE H9、INZONE H7和INZONE H3头戴式电竞耳机，并均支持360游戏空间音效，为游戏玩家打造沉浸式的游戏体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "INZONE是索尼在2022年\n“破界，开局”发布会\n上推出的全新电竞品牌，同时发布的首系列产品包括了采用相同设计的INZONE H9、INZONE H7和INZONE H3头戴式电竞耳机，并均支持360游戏空间音效，为游戏玩家打造沉浸式的游戏体验。"
+        }
+      },
+      {
+        "text": "CS47L35具有带内嵌SoundClear软件技术的高性能4/3声道、24位高保真编解码器的450 MIPS架构三核音频信号处理器，支持多种并发音频功能，包括多麦克风宽带降噪、扬声器保护、声学回音消除 (AEC)、低功耗单个和多个触发器话语检测和引擎支持，以及高级语音和媒体增强。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "CS47L35具有带内嵌SoundClear软件技术的高性能4/3声道、24位高保真编解码器的450 MIPS架构三核音频信号处理器，支持多种并发音频功能，包括多麦克风宽带降噪、扬声器保护、声学回音消除 (AEC)、低功耗单个和多个触发器话语检测和引擎支持，以及高级语音和媒体增强。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "CS47L35具有带内嵌SoundClear软件技术的高性能4/3声道、24位高保真编解码器的450 MIPS架构三核音频信号处理器，支持多种并发音频功能，包括多麦克风宽带降噪、扬声器保护、声学回音消除 (AEC)、低功耗单个和多个触发器话语检测和引擎支持，以及高级语音和媒体增强。"
+        }
+      },
+      {
+        "text": "其中，INZONE H9是此系列旗舰级降噪无线电竞耳机产品。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "其中，INZONE H9是此系列旗舰级降噪无线电竞耳机产品。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "其中，INZONE H9是此系列旗舰级降噪无线电竞耳机产品。"
+        }
+      },
+      {
+        "text": "SONY INZONE H9无线降噪游戏耳机正面外观一览，采用了与PS5系列相同的黑白配色，耳壳采用了符合人手形状的独特椭圆形设计，配备悬挂式可调节麦克风；头梁宽厚舒适，耳罩柔软减压。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "SONY INZONE H9无线降噪游戏耳机正面外观一览，采用了与PS5系列相同的黑白配色，耳壳采用了符合人手形状的独特椭圆形设计，配备悬挂式可调节麦克风；头梁宽厚舒适，耳罩柔软减压。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "SONY INZONE H9无线降噪游戏耳机正面外观一览，采用了与PS5系列相同的黑白配色，耳壳采用了符合人手形状的独特椭圆形设计，配备悬挂式可调节麦克风；头梁宽厚舒适，耳罩柔软减压。"
+        }
+      },
+      {
+        "text": "三、我爱音频网总结\nSONY INZONE H9无线降噪游戏耳机在外观设计方面非常的有特点，与PS5系列相同的黑白配色，简约时尚；耳壳采用符合人手形状的独特椭圆形设计，配备悬挂式可自由调节麦克风，还有支持13种颜色的环形LED指示灯，为用户营造更为沉浸的游戏氛围。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "三、我爱音频网总结\nSONY INZONE H9无线降噪游戏耳机在外观设计方面非常的有特点，与PS5系列相同的黑白配色，简约时尚；耳壳采用符合人手形状的独特椭圆形设计，配备悬挂式可自由调节麦克风，还有支持13种颜色的环形LED指示灯，为用户营造更为沉浸的游戏氛围。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\nSONY INZONE H9无线降噪游戏耳机在外观设计方面非常的有特点，与PS5系列相同的黑白配色，简约时尚；耳壳采用符合人手形状的独特椭圆形设计，配备悬挂式可自由调节麦克风，还有支持13种颜色的环形LED指示灯，为用户营造更为沉浸的游戏氛围。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "游戏",
+      "睡眠",
+      "通话",
+      "电竞"
+    ],
+    "positioning_summary": "SONY INZONE H9无线降噪游戏耳机搭载了40mm高保真振膜动圈单元，对称式结构设计，支持节奏响应控制，提供澎湃的低频效果；支持10档均衡器自定义调节，提供个性化聆听体验；支持360游戏空间音效，基于索尼空间音频技术和真实人耳HRTF数据库，提供7.1声道虚拟环绕声；支持Game/Chat模式切换，可根据需求突出游戏音效或队友沟通声音。",
+    "launch_date": null,
+    "best_report_id": "157154",
+    "best_video_id": null
+  }
+}

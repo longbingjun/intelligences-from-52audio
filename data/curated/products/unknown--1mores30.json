@@ -1,0 +1,450 @@
+{
+  "canonical_id": "unknown--1mores30",
+  "brand": "",
+  "model": "1MORE万魔运动蓝牙耳机S30",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "170293"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "170293"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-08-15",
+  "latest_published": "2023-08-15",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "恒玄BES2600IHC-4X",
+    "pmic_case": "INJOINIC英集芯 Injoinic英集芯IP5518",
+    "battery_ear": "电池",
+    "battery_case": "6V/00mAh",
+    "speaker": "振膜动圈",
+    "materials": "硅胶",
+    "weight_g": "83.3g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "IPX5",
+    "bluetooth": "5.3",
+    "bom_row_count": 24,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "170293",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "Injoinic英集芯IP5518",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "PMIC/充电仓管理",
+      "evidence": {
+        "value": "Injoinic英集芯IP5518",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，采用了Injoinic英集芯IP5518 TWS耳机充电仓管理SoC，集成MCU，5V升压转换器、锂电池充电管理、电池电量指示等多功能，支持耳独立入仓检测，开盖即连功能耳机秒回联手机；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "6V/00mAh",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "6V/00mAh",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内置电池容量600mAh，来自湖南亿等新能源，配备有电路保护板负责充放电保护；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "恒玄BES2600IHC-4X",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2600IHC-4X",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内置HJ弘捷0.3145Wh软包扣式电池，主控芯片为BES恒玄BES2600IHC-4X蓝牙SoC，支持双模蓝牙5.3，支持环境降噪和AI ENC通话，具备强大的应用程序处理能力；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "BES2600IHC-4X",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2600IHC-4X",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内置HJ弘捷0.3145Wh软包扣式电池，主控芯片为BES恒玄BES2600IHC-4X蓝牙SoC，支持双模蓝牙5.3，支持环境降噪和AI ENC通话，具备强大的应用程序处理能力；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "BES2600IHC",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2600IHC",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内置HJ弘捷0.3145Wh软包扣式电池，主控芯片为BES恒玄BES2600IHC-4X蓝牙SoC，支持双模蓝牙5.3，支持环境降噪和AI ENC通话，具备强大的应用程序处理能力；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "振膜动圈",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "振膜动圈",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "音腔内部搭载14.2mm类钻石振膜动圈单元，采用独立密封结构和导音管设计，降低漏音，提升低频性能。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "2",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "单耳还搭载了两颗MEMS麦克风拾音。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "1MORE万魔运动蓝牙耳机S30在外观上同样采用了耳挂式的开放式设计，提供舒适的佩戴体验。功能配置上，搭载了14.2mm类钻石振膜动圈单元，通过定向物理发声设计，配合低音增强算法，带来清晰动感的音乐体验；整机搭载四麦克风单元，融合智能通话降噪算法，实现清晰的语音通话效果。续航方面，支持单次10小时，配合充电盒30小时的播放时长。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面详细介绍了产品特点：创新开放式气导科技、定向发声技术、四麦ENC通话降噪和IPX5级防水抗汗；产品参数信息，产品名称：无线耳机、型号：EF606，单耳电池容量：85mAh，充电盒电池容量：600mAh，喇叭阻抗：16Ω，通讯距离：10米（在空旷环境下），蓝牙规范：5.3；以及制造商万魔声学股份有限公司的部分信息。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，异性主板设计，通过螺丝固定，中间镂空放置电池单元。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "1MORE万魔运动蓝牙耳机S30在外观上同样采用了耳挂式的开放式设计，提供舒适的佩戴体验。功能配置上，搭载了14.2mm类钻石振膜动圈单元，通过定向物理发声设计，配合低音增强算法，带来清晰动感的音乐体验；整机搭载四麦克风单元，融合智能通话降噪算法，实现清晰的语音通话效果。续航方面，支持单次10小时，配合充电盒30小时的播放时长。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "1MORE万魔运动蓝牙耳机S30在外观上同样采用了耳挂式的开放式设计，提供舒适的佩戴体验。功能配置上，搭载了14.2mm类钻石振膜动圈单元，通过定向物理发声设计，配合低音增强算法，带来清晰动感的音乐体验；整机搭载四麦克风单元，融合智能通话降噪算法，实现清晰的语音通话效果。续航方面，支持单次10小时，配合充电盒30小时的播放时长。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网此前还拆解过万魔S50开放式运动蓝牙耳机、万魔ComfoBuds Pro真无线主动降噪耳机、万魔ComfoBuds真无线蓝牙耳机、万魔ColorBuds真无线蓝牙耳机、万魔圈铁主动降噪真无线耳机、万魔Stylish时尚真无线耳机、万魔三单元圈铁蓝牙耳机、万魔高清降噪圈铁蓝牙耳机等产品，下面再来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "后腔内部结构一览，贴有蓝牙天线和触摸检测传感器，露铜连接到主板。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒背面设置Type-C充电接口和蓝牙配对按键。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "1MORE万魔运动蓝牙耳机S30在外观上同样采用了耳挂式的开放式设计，提供舒适的佩戴体验。功能配置上，搭载了14.2mm类钻石振膜动圈单元，通过定向物理发声设计，配合低音增强算法，带来清晰动感的音乐体验；整机搭载四麦克风单元，融合智能通话降噪算法，实现清晰的语音通话效果。续航方面，支持单次10小时，配合充电盒30小时的播放时长。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机内侧外观一览，腔体上设计有出音孔和充电触点；雕刻有L/R左右标识。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面设计有一颗指示灯，用于反馈充电及蓝牙配对状态。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Injoinic英集芯IP5518",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Injoinic英集芯IP5518",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Injoinic英集芯IP5518 TWS耳机充电仓管理SoC，是一款集成MCU，集成了5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5518",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5518",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "IP5518的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2600IHC-4X",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2600IHC-4X",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄BES2600IHC-4X是一款高度集成的蓝牙SoC，支持双模蓝牙5.3。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2600IHC-4X",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2600IHC-4X",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄BES2600IHC-4X是一款高度集成的蓝牙SoC，支持双模蓝牙5.3。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2600IHC",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2600IHC",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄BES2600IHC-4X是一款高度集成的蓝牙SoC，支持双模蓝牙5.3。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 1MORE万魔运动蓝牙耳机S30在外观方面，充电盒采用了相对扁平的“鹅卵石”状设计，哑光质感，握持舒适外出便携。开放式耳机为耳挂式设计，耳挂采用TPEE软塑材质+硅胶外皮，佩戴方便，与耳廓贴合舒适稳固；机身上设计有透亮的1MORE铭牌装饰，搭配珍珠白配色，佩戴时尚。 充电盒内部电路简洁，仅包括了主板和电池单元。内置电池容量600mAh，来自湖南亿等新能源，配备有电路保护板负责充放电保护；主板上，采用了Injoinic英集芯IP5518 TWS耳机充电仓管理SoC，集成MCU，5V升压转换器、锂电池充电管理、电池电量指示等多功能，支持耳独立入仓检测，开盖即连功能耳机秒回联手机；还采用了Prisemi芯导科技P14C1N过压过流保护IC等。 耳机内置HJ弘捷0.3145Wh软包扣式电池，主控芯片为BES恒玄BES2600IHC-4X蓝牙SoC，支持双模蓝牙5.3，支持环境降噪和AI ENC通话，具备强大的应用程序处理能力；触摸控制采用了HYNITRON海栎创HK01BP低功耗单通道触控芯片；单耳还搭载了两颗MEMS麦克风拾音。音腔内部搭载14.2mm类钻石振膜动圈单元，采用独立密封结构和导音管设计，降低漏音，提升低频性能。",
+  "layer_refs": {
+    "technical": [
+      "report:170293"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "功能配置上，搭载了14.2mm类钻石振膜动圈单元，通过定向物理发声设计，配合低音增强算法，带来清晰动感的音乐体验；整机搭载四麦克风单元，融合智能通话降噪算法，实现清晰的语音通话效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "功能配置上，搭载了14.2mm类钻石振膜动圈单元，通过定向物理发声设计，配合低音增强算法，带来清晰动感的音乐体验；整机搭载四麦克风单元，融合智能通话降噪算法，实现清晰的语音通话效果。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "功能配置上，搭载了14.2mm类钻石振膜动圈单元，通过定向物理发声设计，配合低音增强算法，带来清晰动感的音乐体验；整机搭载四麦克风单元，融合智能通话降噪算法，实现清晰的语音通话效果。"
+        }
+      },
+      {
+        "text": "镭雕SG92的MEMS麦克风特写，用于通话降噪功能拾音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "镭雕SG92的MEMS麦克风特写，用于通话降噪功能拾音。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "镭雕SG92的MEMS麦克风特写，用于通话降噪功能拾音。"
+        }
+      },
+      {
+        "text": "机身顶部的通话降噪麦克风拾音孔特写。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "机身顶部的通话降噪麦克风拾音孔特写。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "机身顶部的通话降噪麦克风拾音孔特写。"
+        }
+      },
+      {
+        "text": "支持环境降噪和AI ENC通话，具备强大的应用程序处理能力，有效提升耳机的单次续航时间。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "支持环境降噪和AI ENC通话，具备强大的应用程序处理能力，有效提升耳机的单次续航时间。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "支持环境降噪和AI ENC通话，具备强大的应用程序处理能力，有效提升耳机的单次续航时间。"
+        }
+      },
+      {
+        "text": "IP5518可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至20uA；可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "IP5518可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至20uA；可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "IP5518可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至20uA；可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "通话"
+    ],
+    "positioning_summary": "功能配置上，搭载了14.2mm类钻石振膜动圈单元，通过定向物理发声设计，配合低音增强算法，带来清晰动感的音乐体验；整机搭载四麦克风单元，融合智能通话降噪算法，实现清晰的语音通话效果。",
+    "launch_date": null,
+    "best_report_id": "170293",
+    "best_video_id": null
+  }
+}

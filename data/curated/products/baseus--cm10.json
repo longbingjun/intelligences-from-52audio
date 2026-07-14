@@ -1,0 +1,375 @@
+{
+  "canonical_id": "baseus--cm10",
+  "brand": "Baseus倍思",
+  "model": "CM10车载智能单边蓝牙",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "185421"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "185421"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-12-22",
+  "latest_published": "2023-12-22",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "INJOINIC英集芯IP2331",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "4V/00mAh锂电池",
+    "speaker": "10mm 动圈单元",
+    "materials": "皮革",
+    "weight_g": "37.2g",
+    "weight_case_g": "",
+    "weight_earbud_g": "4.7g",
+    "ip_rating": "",
+    "bluetooth": "5.4",
+    "bom_row_count": 18,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "185421",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "INJOINIC英集芯IP2331",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP2331",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置400mAh锂电池，采用了INJOINIC英集芯IP2331电源管理方案，集成充电器和升压转换器，支持快充，开关充电提供最大2A充电电流，升压提供最大400mA输出电流，支持I2C通讯，支持NTC监控电池电压，VIN耐压高达20V；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "4V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "4V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置400mAh锂电池，采用了INJOINIC英集芯IP2331电源管理方案，集成充电器和升压转换器，支持快充，开关充电提供最大2A充电电流，升压提供最大400mA输出电流，支持I2C通讯，支持NTC监控电池电压，VIN耐压高达20V；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "Bluetrum中科蓝讯",
+      "model": "Bluetrum中科蓝讯BT8952G",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Bluetrum中科蓝讯BT8952G",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片为Bluetrum中科蓝讯BT8952G蓝牙音频SoC，内置高性能32位RISC-V处理器核心和HIFI 4 DSP，内置声加通话算法，集成入耳检测、触摸检测、PMU等功能；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "10mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "10mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了10mm动圈单元，内置30mAh软包扣式电池，采用了两颗MEMS麦克风拾音；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "2",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了10mm动圈单元，内置30mAh软包扣式电池，采用了两颗MEMS麦克风拾音；"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "倍思CM10在充电续航方面，耳机单次续航时间约6小时，搭配充电盒综合续航时间长达约50小时，约1.5h即可为耳机充满电。同时，针对于车载场景，还配备了太阳能充电底座，外出随时补电，无感充电保持持续续航。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面介绍了产品的参数信息，名称：倍思车载智能单边蓝牙耳机，型号：Baseus C-Mic CM10，电池容量：30mAh/0.111Wh（耳机），400mAh/1.48Wh（充电盒），耳机额定输入：DC5V-800mA，耳机额定消耗电流：5mA，充电仓额定消耗电流：120mA，充电接口：Type-C；以及深圳市倍思科技有限公司部分介绍。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部结构一览，顶层通过螺丝固定主板单元。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄侧边的麦克风拾音孔特写，防尘网防护。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "前腔内部扬声器单元结构一览，固定在白色支架上。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧结构一览，贴有蓝牙天线，露铜连接主板。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "中科蓝讯BT8952G内置24bit双声道DAC（信噪比106dB，支持单端和差分模式）和24bit单声道ADC（信噪比103dB，支持单端和差分模式），支持灵活的音频均衡器调整，支持2路MIC放大器输入；BT8952G内置了声加大模型双麦AI通话降噪算法，可实现双麦beamforming通话降噪，或者1+1麦通话降噪；支持前馈、及混合主动降噪功能；集成低功耗入耳检测、触摸按键，内置PMU等模块。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "取出耳机，座舱结构一览，座舱外围设置有环形指示灯，中间有为耳机充电的金属顶针。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机背部设计有环形指示灯，同时也是功能按键，通过单击、双击、长按实现多功能控制。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "前腔内部扬声器单元结构一览，固定在白色支架上。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒背面凹槽设计，契合太阳能充电底座进行磁吸固定，设置有充电触点与太阳能充电底座连接充电。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP2331",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP2331",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "INJOINIC英集芯IP2331是一款支持快充的电源管理方案\n，专为TWS充电仓和智能穿戴设备等单个锂电池供电的手持设备开发，集成充电器和升压转换器。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Bluetrum中科蓝讯BT8952G",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Bluetrum中科蓝讯BT8952G",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Bluetrum中科蓝讯BT8952G蓝牙音频SoC，属于“蓝讯讯龙”三代BT895x系列，基于22nm先进低功耗工艺，支持蓝牙5.4 LE Audio协议（已全系通过最新蓝牙®低功耗音频标准LE（Low Energy）Audio规格认证）及LC3（低复杂度通信编解码器）的编解码功能。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Baseus倍思CM10车载智能单边蓝牙耳机在外观方面，针对于行车场景进行了多项优化设计，首先在充电盒方面，外观通过皮革纹理、珠光点缀工艺装饰，观感精致，更契合车内场景；开放式座舱结构，磁吸固定，保障了在行车过程中的轻松取放；同时还配备了太阳能充电底座，让充电便捷无感。耳机采用了单边的半入耳式设计，长久佩戴舒适，同时不阻塞耳道，保障行车安全。 内部主要配置方面，充电盒内置400mAh锂电池，采用了INJOINIC英集芯IP2331电源管理方案，集成充电器和升压转换器，支持快充，开关充电提供最大2A充电电流，升压提供最大400mA输出电流，支持I2C通讯，支持NTC监控电池电压，VIN耐压高达20V；还采用了Puya普冉PY32F003F16P6单片机用于整机控制。 耳机内部搭载了10mm动圈单元，内置30mAh软包扣式电池，采用了两颗MEMS麦克风拾音；主控芯片为Bluetrum中科蓝讯BT8952G蓝牙音频SoC，内置高性能32位RISC-V处理器核心和HIFI 4 DSP，内置声加通话算法，集成入耳检测、触摸检测、PMU等功能；还采用了一颗丝印C120 B13B的传感器，用于检测车门关闭时产生的震动。",
+  "layer_refs": {
+    "technical": [
+      "report:185421"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "Baseus倍思CM10车载智能单边蓝牙耳机外观上采用了半入耳式的设计，搭配精心设计的曲率，提供持久舒适、通透的佩戴体验；功能配置上，支持双麦通话降噪，智能削弱环境噪声、风声，保障行车中的清晰通话；支持双通道分离，手机连接车载蓝牙播放音乐，来电自动切换至耳机接听；支持振动传感连接，耳机检测到车门关闭产生的震动，自动回连设备；还支持入耳检测、触摸控制，使用非常便捷。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "Baseus倍思CM10车载智能单边蓝牙耳机外观上采用了半入耳式的设计，搭配精心设计的曲率，提供持久舒适、通透的佩戴体验；功能配置上，支持双麦通话降噪，智能削弱环境噪声、风声，保障行车中的清晰通话；支持双通道分离，手机连接车载蓝牙播放音乐，来电自动切换至耳机接听；支持振动传感连接，耳机检测到车门关闭产生的震动，自动回连设备；还支持入耳检测、触摸控制，使用非常便捷。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "Baseus倍思CM10车载智能单边蓝牙耳机外观上采用了半入耳式的设计，搭配精心设计的曲率，提供持久舒适、通透的佩戴体验；功能配置上，支持双麦通话降噪，智能削弱环境噪声、风声，保障行车中的清晰通话；支持双通道分离，手机连接车载蓝牙播放音乐，来电自动切换至耳机接听；支持振动传感连接，耳机检测到车门关闭产生的震动，自动回连设备；还支持入耳检测、触摸控制，使用非常便捷。"
+        }
+      },
+      {
+        "text": "丝印3074 2071的MEMS麦克风，用于通话降噪功能拾音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "丝印3074 2071的MEMS麦克风，用于通话降噪功能拾音。",
+          "confidence": 0.67,
+          "source_type": "text",
+          "source_text": "丝印3074 2071的MEMS麦克风，用于通话降噪功能拾音。"
+        }
+      },
+      {
+        "text": "中科蓝讯BT8952G内置24bit双声道DAC（信噪比106dB，支持单端和差分模式）和24bit单声道ADC（信噪比103dB，支持单端和差分模式），支持灵活的音频均衡器调整，支持2路MIC放大器输入；BT8952G内置了声加大模型双麦AI通话降噪算法，可实现双麦beamforming通话降噪，或者1+1麦通话降噪；支持前馈、及混合主动降噪功能；集成低功耗入耳检测、触摸按键，内置PMU等模块。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "中科蓝讯BT8952G内置24bit双声道DAC（信噪比106dB，支持单端和差分模式）和24bit单声道ADC（信噪比103dB，支持单端和差分模式），支持灵活的音频均衡器调整，支持2路MIC放大器输入；BT8952G内置了声加大模型双麦AI通话降噪算法，可实现双麦beamforming通话降噪，或者1+1麦通话降噪；支持前馈、及混合主动降噪功能；集成低功耗入耳检测、触摸按键，内置PMU等模块。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "中科蓝讯BT8952G内置24bit双声道DAC（信噪比106dB，支持单端和差分模式）和24bit单声道ADC（信噪比103dB，支持单端和差分模式），支持灵活的音频均衡器调整，支持2路MIC放大器输入；BT8952G内置了声加大模型双麦AI通话降噪算法，可实现双麦beamforming通话降噪，或者1+1麦通话降噪；支持前馈、及混合主动降噪功能；集成低功耗入耳检测、触摸按键，内置PMU等模块。"
+        }
+      },
+      {
+        "text": "镭雕3035 2371的MEMS麦克风，用于语音通话功能拾音，两颗麦克风协同拾音，搭配抗风噪算法，提供清晰通话效果。",
+        "tag": "其他",
+        "evidence": {
+          "value": "镭雕3035 2371的MEMS麦克风，用于语音通话功能拾音，两颗麦克风协同拾音，搭配抗风噪算法，提供清晰通话效果。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "镭雕3035 2371的MEMS麦克风，用于语音通话功能拾音，两颗麦克风协同拾音，搭配抗风噪算法，提供清晰通话效果。"
+        }
+      },
+      {
+        "text": "INJOINIC英集芯IP2331是一款支持快充的电源管理方案\n，专为TWS充电仓和智能穿戴设备等单个锂电池供电的手持设备开发，集成充电器和升压转换器。",
+        "tag": "长续航",
+        "evidence": {
+          "value": "INJOINIC英集芯IP2331是一款支持快充的电源管理方案\n，专为TWS充电仓和智能穿戴设备等单个锂电池供电的手持设备开发，集成充电器和升压转换器。",
+          "confidence": 0.7,
+          "source_type": "text",
+          "source_text": "INJOINIC英集芯IP2331是一款支持快充的电源管理方案\n，专为TWS充电仓和智能穿戴设备等单个锂电池供电的手持设备开发，集成充电器和升压转换器。"
+        }
+      },
+      {
+        "text": "耳机柄侧边的麦克风拾音孔特写，防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "耳机柄侧边的麦克风拾音孔特写，防尘网防护。",
+          "confidence": 0.7,
+          "source_type": "text",
+          "source_text": "耳机柄侧边的麦克风拾音孔特写，防尘网防护。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "Baseus倍思CM10车载智能单边蓝牙耳机外观上采用了半入耳式的设计，搭配精心设计的曲率，提供持久舒适、通透的佩戴体验；功能配置上，支持双麦通话降噪，智能削弱环境噪声、风声，保障行车中的清晰通话；支持双通道分离，手机连接车载蓝牙播放音乐，来电自动切换至耳机接听；支持振动传感连接，耳机检测到车门关闭产生的震动，自动回连设备；还支持入耳检测、触摸控制，使用非常便捷。",
+    "launch_date": null,
+    "best_report_id": "185421",
+    "best_video_id": null
+  }
+}

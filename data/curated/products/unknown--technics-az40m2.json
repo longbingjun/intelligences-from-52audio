@@ -3,63 +3,97 @@
   "brand": "",
   "model": "松下Technics AZ40M2",
   "category": "真无线耳机TWS",
-  "report_ids": [],
+  "report_ids": [
+    "173050"
+  ],
   "video_ids": [
     "272301"
   ],
-  "related_report_ids": [],
+  "related_report_ids": [
+    "173050"
+  ],
   "related_video_ids": [
     "272301"
   ],
-  "first_seen": "2026-04-09",
+  "first_seen": "2023-09-07",
   "latest_published": "2026-04-09",
   "internal_match_suggestions": [],
   "cost_snapshot": {
-    "main_chip": null,
-    "pmic_case": null,
-    "battery_ear": null,
-    "battery_case": null,
-    "speaker": null,
-    "materials": null,
-    "weight_g": null,
-    "ip_rating": null,
-    "bluetooth": null,
-    "bom_row_count": 11,
+    "main_chip": "AB1565",
+    "pmic_case": "",
+    "battery_ear": "450 mAh",
+    "battery_case": "4V/50mAh锂电池",
+    "speaker": "喇叭单元",
+    "materials": "硅胶、PC",
+    "weight_g": "39.3g",
+    "weight_case_g": "",
+    "weight_earbud_g": "4.5g",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 17,
     "price_cny": null,
     "price_layer": null,
     "channel_url": "",
     "sales_hint": null,
-    "data_completeness": 0.0,
-    "best_report_id": null,
-    "best_video_id": "272301"
+    "data_completeness": 0.83,
+    "best_report_id": "173050",
+    "best_video_id": null
   },
   "bom_table": [
     {
-      "component": "电池",
+      "component": "麦克风",
       "brand": "",
-      "model": "",
+      "model": "麦克风",
       "qty_hint": "",
-      "side": "",
+      "side": "耳机",
       "role": "major",
       "evidence": {
-        "value": "电池",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电和底部固定有电池单元"
+        "value": "麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机采用了类金属+哑光质感，背部设计CD纹理，麦克风拾音孔通过金属盖板防护，做工精致，细节到位，带来了出色的质感表现；"
       }
     },
     {
-      "component": "主板/PCBA",
+      "component": "电池",
       "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
+      "model": "4V/50mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
       "role": "major",
       "evidence": {
-        "value": "主板/PCBA",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "通过导现插座连接主板"
+        "value": "4V/50mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置紫建电子450mAh锂电池，配备有电路保护板负责充放电保护；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB1565",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB1565",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片为AIROHA达发（络达）AB1565M蓝牙音频SoC，支持蓝牙5.3，支持多点连接，以及Hybrid主动降噪功能。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "2",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了两颗MEMS麦克风用于语音通话和降噪功能拾音；"
       }
     },
     {
@@ -67,13 +101,41 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "充电盒",
       "role": "major",
       "evidence": {
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机充电盒"
+        "source_text": "充电盒充电线，采用了Type-C to Type-C插头。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒底部固定有电池单元，通过导线插座连接主板。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒底部固定有电池单元，通过导线插座连接主板。"
       }
     },
     {
@@ -87,7 +149,7 @@
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "外壳底部的通话麦克风实音孔"
+        "source_text": "外壳底部的通话麦克风拾音孔特写，金属网罩防护。"
       }
     },
     {
@@ -101,7 +163,7 @@
         "value": "降噪系统",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "包括 ANC主动降噪"
+        "source_text": "Technics AZ40M2支持智能降噪功能，采用全新语音捕捉技术，提供出色的主动降噪效果和清晰地语音通话效果。续航方面，AAC解码开启ANC，支持单次约5.5小时，综合18小时的续航；关闭ANC，支持约7h/24h的续航时间。下面就让我们来看看这款产品的详细拆解报告吧~"
       }
     },
     {
@@ -115,7 +177,7 @@
         "value": "天线",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "后枪底部还设置有一块触摸控制和天线小板"
+        "source_text": "取出主板，后腔底部还设置有一块触摸控制和天线小板。"
       }
     },
     {
@@ -129,21 +191,7 @@
         "value": "喇叭单元",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "还设置有电源输入小板和扬声器单元"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "内部设置指示灯"
+        "source_text": "前腔内部结构一览，还设置有电源输入小板和扬声器单元，分别通过排线和导线连接到主板。"
       }
     },
     {
@@ -157,7 +205,35 @@
         "value": "外壳结构",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "外壳底部的通话麦克风实音孔"
+        "source_text": "外壳底部的通话麦克风拾音孔特写，金属网罩防护。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面开盖处设计有倒角，内部设置指示灯。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒为耳机充电/通讯的Pogo Pin连接器特写。"
       }
     },
     {
@@ -165,13 +241,27 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
+      "side": "耳机",
       "role": "minor",
       "evidence": {
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "背部触控区域设计有CD纹理设计盒"
+        "source_text": "耳机外侧外观一览，盖板采用了类金属质感，背部触控区域设计有CD纹理设计和“Technics”品牌LOGO。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB1565",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB1565",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "AIROHA达发（络达）AB1565M蓝牙音频SoC。"
       }
     },
     {
@@ -185,14 +275,15 @@
         "value": "AB1565",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "大家好,这里是我爱英平网\n今天我们来拆解\n松下Technics S40M2争无线降噪耳机\n耳机包装和设计小巧减约\n正面展示有品牌,logo产品型号和耳机的外观\n包装和背面展示了整体外观设计\n介绍有产品的功能特点\n包括 ANC主动降噪\n5.5小时加12.5小时续航时间\nHiRace Audio Wireless金标和LEDAC标志\n包装和底部贴有出场标签\n型号,ENS40M2\n颜色,玫瑰金\n制造商,松下娱乐互动诸势会社\n进口商,松下家店中国有限公司\n原产地,马兰西亚\n包装和内部物品有TWS耳机耳塞\n充电线产品说明书和其他文档\n随机标配的三户不同尺寸归角耳塞\n耳机上预装一副\n耳塞自带防程棉\n防止义务进入耳机\n充电和充电线\n采用了Type-C2Type-C插头\n耳机充电盒\n体积非常小巧,玫瑰金配色采用了喷杀工艺处理\n拥有着出色的质感\n充电盒正面开盖处设计有道角\n内部设置指示灯\n充电盒指示灯\n用于反馈充电状态\n充电盒背面设置Type-C充电接口\n充电盒顶部跑道型平面设计\n标课有Type-X品牌logo\n充电盒底部\n边缘圆软过度\n中间应有产品部分信息\n打开充电盒盖\n内部耳机左右对称是放置\n突出于"
+        "source_text": "AB1565x系列是Airoha蓝牙进阶款音讯解决方案，支持蓝牙5.3，有能力支持LE audio；最新的multi-point for TWS，可同时连接笔记本和手机轻松切换；提供超低功耗和超低延时表现，平均功耗可达~4.x mA，为目前蓝牙音讯市场上领先的功耗水准；AB1565x还拥有稳定的蓝牙连接及清晰音质及Hybrid主动降噪功能，为蓝牙耳机提供丰富及强大的表现。"
       }
     }
   ],
   "summary_image_urls": [],
-  "summary_text": "",
+  "summary_text": "三、我爱音频网总结 松下Technics AZ40M2真无线降噪耳机在外观方面，整体设计小巧迷你，精致时尚。充电盒采用了喷砂工艺处理，体积轻巧便携。耳机采用了类金属+哑光质感，背部设计CD纹理，麦克风拾音孔通过金属盖板防护，做工精致，细节到位，带来了出色的质感表现；内侧机身曲线佩戴与耳道紧密贴合，搭配多种尺寸硅胶耳塞，保障了舒适佩戴和沉浸式音频体验。 内部结构配置方面，充电盒内置紫建电子450mAh锂电池，配备有电路保护板负责充放电保护；主板上，采用了TI德州仪器BQ24075 1.5A线性电池充电芯片，用于充电盒内置电池充电；还搭载了MPS芯源MP1601同步降压转换器，以及用于整机控制的MCU单片机。TI德州仪器BQ24075 1.5A线性电池充电芯片，用于充电盒内置电池充电。 耳机结构设计复杂，内部主要包括了扬声器、电池、主板、电源输入小板和触摸控制小板。扬声器尺寸约为6mm，内置软包扣式电池能量0.2Wh，同样来自紫建电子；主板上，搭载了两颗MEMS麦克风用于语音通话和降噪功能拾音；主控芯片为AIROHA达发（络达）AB1565M蓝牙音频SoC，支持蓝牙5.3，支持多点连接，以及Hybrid主动降噪功能。",
   "layer_refs": {
     "technical": [
+      "report:173050",
       "video:272301"
     ],
     "channel": [
@@ -208,22 +299,62 @@
   "market": {
     "selling_points": [
       {
-        "text": "Technics AZ40M2真无线降噪耳机，在外观上延续了该系列的精致设计，具有着出色的质感。",
-        "tag": "降噪",
+        "text": "耳机采用了类金属+哑光质感，背部设计CD纹理，麦克风拾音孔通过金属盖板防护，做工精致，细节到位，带来了出色的质感表现；内侧机身曲线佩戴与耳道紧密贴合，搭配多种尺寸硅胶耳塞，保障了舒适佩戴和沉浸式音频体验。",
+        "tag": "舒适佩戴",
         "evidence": {
-          "value": "Technics AZ40M2真无线降噪耳机，在外观上延续了该系列的精致设计，具有着出色的质感。",
+          "value": "耳机采用了类金属+哑光质感，背部设计CD纹理，麦克风拾音孔通过金属盖板防护，做工精致，细节到位，带来了出色的质感表现；内侧机身曲线佩戴与耳道紧密贴合，搭配多种尺寸硅胶耳塞，保障了舒适佩戴和沉浸式音频体验。",
           "confidence": 0.75,
           "source_type": "text",
-          "source_text": "Technics AZ40M2真无线降噪耳机，在外观上延续了该系列的精致设计，具有着出色的质感。"
+          "source_text": "耳机采用了类金属+哑光质感，背部设计CD纹理，麦克风拾音孔通过金属盖板防护，做工精致，细节到位，带来了出色的质感表现；内侧机身曲线佩戴与耳道紧密贴合，搭配多种尺寸硅胶耳塞，保障了舒适佩戴和沉浸式音频体验。"
+        }
+      },
+      {
+        "text": "Technics AZ40M2支持智能降噪功能，采用全新语音捕捉技术，提供出色的主动降噪效果和清晰地语音通话效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "Technics AZ40M2支持智能降噪功能，采用全新语音捕捉技术，提供出色的主动降噪效果和清晰地语音通话效果。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "Technics AZ40M2支持智能降噪功能，采用全新语音捕捉技术，提供出色的主动降噪效果和清晰地语音通话效果。"
+        }
+      },
+      {
+        "text": "此次将要拆解的\nTechnics AZ40M2真无线降噪耳机\n，在外观上延续了该系列的精致设计，具有着出色的质感。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "此次将要拆解的\nTechnics AZ40M2真无线降噪耳机\n，在外观上延续了该系列的精致设计，具有着出色的质感。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "此次将要拆解的\nTechnics AZ40M2真无线降噪耳机\n，在外观上延续了该系列的精致设计，具有着出色的质感。"
+        }
+      },
+      {
+        "text": "三、我爱音频网总结\n松下Technics AZ40M2真无线降噪耳机在外观方面，整体设计小巧迷你，精致时尚。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "三、我爱音频网总结\n松下Technics AZ40M2真无线降噪耳机在外观方面，整体设计小巧迷你，精致时尚。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\n松下Technics AZ40M2真无线降噪耳机在外观方面，整体设计小巧迷你，精致时尚。"
+        }
+      },
+      {
+        "text": "Technics是松下旗下的高端HiFi品牌，诞生于1965年，旗下产品包括了高端唱片机、功放设备、CD机、音响设备、耳机等。",
+        "tag": "旗舰定位",
+        "evidence": {
+          "value": "Technics是松下旗下的高端HiFi品牌，诞生于1965年，旗下产品包括了高端唱片机、功放设备、CD机、音响设备、耳机等。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "Technics是松下旗下的高端HiFi品牌，诞生于1965年，旗下产品包括了高端唱片机、功放设备、CD机、音响设备、耳机等。"
         }
       }
     ],
     "scenarios": [
       "通话"
     ],
-    "positioning_summary": "Technics AZ40M2真无线降噪耳机，在外观上延续了该系列的精致设计，具有着出色的质感。",
+    "positioning_summary": "耳机采用了类金属+哑光质感，背部设计CD纹理，麦克风拾音孔通过金属盖板防护，做工精致，细节到位，带来了出色的质感表现；内侧机身曲线佩戴与耳道紧密贴合，搭配多种尺寸硅胶耳塞，保障了舒适佩戴和沉浸式音频体验。",
     "launch_date": null,
-    "best_report_id": null,
-    "best_video_id": "272301"
+    "best_report_id": "173050",
+    "best_video_id": null
   }
 }

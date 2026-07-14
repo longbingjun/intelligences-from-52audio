@@ -1,0 +1,233 @@
+{
+  "canonical_id": "unknown--bose-ultra",
+  "brand": "",
+  "model": "华强北版BOSE ULTRA",
+  "category": "开放式耳机",
+  "report_ids": [
+    "234896"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "234896"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2025-04-18",
+  "latest_published": "2025-04-18",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "IP5416P",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "230 mAh",
+    "speaker": "喇叭单元",
+    "materials": "硅胶",
+    "weight_g": "51.5g",
+    "weight_case_g": "",
+    "weight_earbud_g": "5.5g",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 10,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "234896",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "华强北版BOSE ULTRA开放式耳机充电盒正面外观一览，完全复刻了正版的“盾牌型”设计，哑光质感。区别在于品牌LOGO为灰色，正版为金色。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱一侧结构一览，固定有主板单元，通过胶带增强固定。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱另外一侧设置电池，以及提升手感的铁块。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体上的麦克风拾音孔特写。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机扬声器正面特写，振膜通过金属盖板防护。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒背面设置有蓝牙配对功能按键。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "用于反馈耳机耳机电量信息的指示灯特写。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机通过硅胶柔性带连接前后腔体，佩戴时扣在耳廓上，出音孔正对耳道，实现开放式聆听。相较于正版，华强北版BOSE ULTRA开放式耳机柔性带弹性不足，因此夹持力更弱，佩戴更容易脱落。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身另外一侧外观一览，后端腔体上设置有充电触点。触点做工差，有缝隙且凹陷于腔体。正版触点与腔体完美融合。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5416P",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5416P",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "丝印IP5416P的电源管理SOC，集成5V升压转换器、锂电池充电管理、电池电量指示等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 通过这篇文章，相信大家对华强北版BOSE ULTRA开放式耳机有了全面的了解。在外观上，它几乎做到了与正版1:1复刻，初看之下很难区分。但仔细观察，其做工的粗糙之处便一目了然。在重量方面，由于用料的极度简化，明显比正版轻了许多，消费者也可以通过这一点辨别真伪。 在内部结构配置上，其本质更是暴露无遗。其结构设计与市面上百元杂牌产品无异，用料更是大幅缩水。为了增加重量感，还特意加上了华强北仿品常见的大铁块配重，试图掩盖其假身。",
+  "layer_refs": {
+    "technical": [
+      "report:234896"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "BOSE ULTRA OPENBUDS\n是国际知名音频品牌BOSE博士推出的一款极具创新性的开放式耳机产品，基于颠覆性的新颖外观设计，OpenAudio开放式音频、Snapdragon Sound骁龙畅听等技术，不但提供了持久的舒适佩戴体验，还带来了高品质的开放式聆听效果。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "BOSE ULTRA OPENBUDS\n是国际知名音频品牌BOSE博士推出的一款极具创新性的开放式耳机产品，基于颠覆性的新颖外观设计，OpenAudio开放式音频、Snapdragon Sound骁龙畅听等技术，不但提供了持久的舒适佩戴体验，还带来了高品质的开放式聆听效果。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "BOSE ULTRA OPENBUDS\n是国际知名音频品牌BOSE博士推出的一款极具创新性的开放式耳机产品，基于颠覆性的新颖外观设计，OpenAudio开放式音频、Snapdragon Sound骁龙畅听等技术，不但提供了持久的舒适佩戴体验，还带来了高品质的开放式聆听效果。"
+        }
+      },
+      {
+        "text": "音腔出音孔特写，内部防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "音腔出音孔特写，内部防尘网防护。",
+          "confidence": 0.63,
+          "source_type": "text",
+          "source_text": "音腔出音孔特写，内部防尘网防护。"
+        }
+      },
+      {
+        "text": "背面标注有几个根本不支持的产品特点，包括取得MFi认证、兼容Android和iPhone iPad等设备、蓝牙技术，以及支持Snapdragon Sound骁龙畅听技术等。",
+        "tag": "其他",
+        "evidence": {
+          "value": "背面标注有几个根本不支持的产品特点，包括取得MFi认证、兼容Android和iPhone iPad等设备、蓝牙技术，以及支持Snapdragon Sound骁龙畅听技术等。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "背面标注有几个根本不支持的产品特点，包括取得MFi认证、兼容Android和iPhone iPad等设备、蓝牙技术，以及支持Snapdragon Sound骁龙畅听技术等。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "BOSE ULTRA OPENBUDS\n是国际知名音频品牌BOSE博士推出的一款极具创新性的开放式耳机产品，基于颠覆性的新颖外观设计，OpenAudio开放式音频、Snapdragon Sound骁龙畅听等技术，不但提供了持久的舒适佩戴体验，还带来了高品质的开放式聆听效果。",
+    "launch_date": null,
+    "best_report_id": "234896",
+    "best_video_id": null
+  }
+}

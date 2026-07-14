@@ -1,0 +1,113 @@
+{
+  "canonical_id": "unknown--sec-e221bttws",
+  "brand": "",
+  "model": "先锋SEC-E221BT真无线TWS",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "1015"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "1015"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2018-04-28",
+  "latest_published": "2018-04-28",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "络达\nAB1526",
+    "pmic_case": "",
+    "battery_ear": "1250 mAh",
+    "battery_case": "",
+    "speaker": "",
+    "materials": "硅胶、塑料、PC",
+    "weight_g": "4.6g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "4.2",
+    "bom_row_count": 3,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.5,
+    "best_report_id": "1015",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5305",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5305",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "据悉，这是\n英集芯\n专门为\nTWS\n蓝牙耳机充电盒设计的电源管理芯片\nIP5305\n，可监测到5mA级别电流，是一款集成升压转换器、锂电池充电管理、电池电量指示的多功能电源SOC。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "英集芯\nIP5305",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "英集芯\nIP5305",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "英集芯\nIP5305\n详细资料。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "络达\nAB1526",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "络达\nAB1526",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "据我爱音频网拆解，这款先锋\nSEC-E221BT\n采用\n络达\nAB1526\n单芯片解决方案，内部集成了SPI内存，支持蓝牙4.2双模认证。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:1015"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "Mic孔内壁有防尘网。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "Mic孔内壁有防尘网。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "Mic孔内壁有防尘网。"
+        }
+      }
+    ],
+    "scenarios": [],
+    "positioning_summary": "Mic孔内壁有防尘网。",
+    "launch_date": null,
+    "best_report_id": "1015",
+    "best_video_id": null
+  }
+}

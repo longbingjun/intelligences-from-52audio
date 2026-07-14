@@ -1,0 +1,266 @@
+{
+  "canonical_id": "unknown--lp6",
+  "brand": "",
+  "model": "联想LP6",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "107902"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "107902"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2022-02-22",
+  "latest_published": "2022-02-22",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "IP5518",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "35 mAh",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 10,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "107902",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒主板设于充电座舱底部。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "产品信息：型号LP6；蓝牙版本V5.0（可升级支持5.3）；有效距离≥10m；喇叭直径13mm；频率响应20Hz-20KHz；额定输入5V⎓300mA；耳机电池容量35mAh；充电仓电池容量300mAh。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒主板设于充电座舱底部。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "内部配置上，耳机采用了三频均衡解析的13mm生物振膜支持自动均衡调节。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机陶瓷蓝牙天线特写，用于无线信号传输。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "镭雕2113 FX62的MEMS麦克风特写，用于为耳机提供语音通话的拾音功能。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "产品特点：一键触控，13mm单元，持久续航，高清通话，舒适佩戴，游戏耳机。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机头外壳内设有耳机的动圈单元。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5518",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5518",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "内置 IC 温度和输入\n电\n压智能调节\n充电电\n流功能；\nIP5518 可实现\nTWS 对\n耳\n独立入仓\n检测，\n检测到\n耳机入\n仓后\n自动进入\n耳\n机\n充电\n模式，耳机\n充满后自动进\n入\n休眠状态\n，\n静态电流最低可降至 20uA；可灵活定制耳机充满判饱电流\n，\n充满电流\n检测\n精\n度\n高达\n1\nmA\n。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5518",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5518",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "标记/认证：IP5518 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低 BOM 成本。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:107902"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "TWS […]\n内部配置上，耳机采用了三频均衡解析的13mm生物振膜支持自动均衡调节。",
+        "tag": "其他",
+        "evidence": {
+          "value": "TWS […]\n内部配置上，耳机采用了三频均衡解析的13mm生物振膜支持自动均衡调节。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "TWS […]\n内部配置上，耳机采用了三频均衡解析的13mm生物振膜支持自动均衡调节。"
+        }
+      },
+      {
+        "text": "内部配置上，耳机采用了三频均衡解析的13mm生物振膜支持自动均衡调节。",
+        "tag": "其他",
+        "evidence": {
+          "value": "内部配置上，耳机采用了三频均衡解析的13mm生物振膜支持自动均衡调节。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "内部配置上，耳机采用了三频均衡解析的13mm生物振膜支持自动均衡调节。"
+        }
+      },
+      {
+        "text": "标记/认证：内置 IC 温度和输入\n电\n压智能调节\n充电电\n流功能；\nIP5518 可实现\nTWS 对\n耳\n独立入仓\n检测，\n检测到\n耳机入\n仓后\n自动进入\n耳\n机\n充电\n模式，耳机\n充满后自动进\n入\n休眠状态\n，\n静态电流最低可降至 20uA；可灵活定制耳机充满判饱电流\n，\n充满电流\n检测\n精\n度\n高达\n1\nmA\n。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "标记/认证：内置 IC 温度和输入\n电\n压智能调节\n充电电\n流功能；\nIP5518 可实现\nTWS 对\n耳\n独立入仓\n检测，\n检测到\n耳机入\n仓后\n自动进入\n耳\n机\n充电\n模式，耳机\n充满后自动进\n入\n休眠状态\n，\n静态电流最低可降至 20uA；可灵活定制耳机充满判饱电流\n，\n充满电流\n检测\n精\n度\n高达\n1\nmA\n。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "标记/认证：内置 IC 温度和输入\n电\n压智能调节\n充电电\n流功能；\nIP5518 可实现\nTWS 对\n耳\n独立入仓\n检测，\n检测到\n耳机入\n仓后\n自动进入\n耳\n机\n充电\n模式，耳机\n充满后自动进\n入\n休眠状态\n，\n静态电流最低可降至 20uA；可灵活定制耳机充满判饱电流\n，\n充满电流\n检测\n精\n度\n高达\n1\nmA\n。"
+        }
+      },
+      {
+        "text": "标记/认证：IP5518内置 IC 温度和输入电压智能调节充电电流功能；IP5518 可实现 TWS 对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至 20uA；可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "标记/认证：IP5518内置 IC 温度和输入电压智能调节充电电流功能；IP5518 可实现 TWS 对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至 20uA；可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "标记/认证：IP5518内置 IC 温度和输入电压智能调节充电电流功能；IP5518 可实现 TWS 对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至 20uA；可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。"
+        }
+      },
+      {
+        "text": "充电接口：Type-C\n标记/认证：产品信息：型号LP6；蓝牙版本V5.0（可升级支持5.3）；有效距离≥10m；喇叭直径13mm；频率响应20Hz-20KHz；额定输入5V⎓300mA；耳机电池容量35mAh；充电仓电池容量300mAh。",
+        "tag": "其他",
+        "evidence": {
+          "value": "充电接口：Type-C\n标记/认证：产品信息：型号LP6；蓝牙版本V5.0（可升级支持5.3）；有效距离≥10m；喇叭直径13mm；频率响应20Hz-20KHz；额定输入5V⎓300mA；耳机电池容量35mAh；充电仓电池容量300mAh。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "充电接口：Type-C\n标记/认证：产品信息：型号LP6；蓝牙版本V5.0（可升级支持5.3）；有效距离≥10m；喇叭直径13mm；频率响应20Hz-20KHz；额定输入5V⎓300mA；耳机电池容量35mAh；充电仓电池容量300mAh。"
+        }
+      },
+      {
+        "text": "标记/认证：IP5518 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低 BOM 成本。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "标记/认证：IP5518 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低 BOM 成本。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "标记/认证：IP5518 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低 BOM 成本。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "游戏",
+      "睡眠",
+      "通话"
+    ],
+    "positioning_summary": "TWS […]\n内部配置上，耳机采用了三频均衡解析的13mm生物振膜支持自动均衡调节。",
+    "launch_date": null,
+    "best_report_id": "107902",
+    "best_video_id": null
+  }
+}

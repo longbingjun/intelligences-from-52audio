@@ -1,0 +1,258 @@
+{
+  "canonical_id": "edifier--minibuds2",
+  "brand": "EDIFIER漫步者",
+  "model": "花再MiniBuds2",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "120802"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "120802"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2022-06-14",
+  "latest_published": "2022-06-14",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "Qualcomm aptX",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "350 mAh",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.2",
+    "bom_row_count": 11,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "120802",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "底部通过螺丝固定固定主板，电池导线焊接在主板上。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄底部为耳机充电的金属触点和通话降噪麦克风拾音孔特写。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "功能配置上，搭载了13mm大尺寸复合振膜单元，高通QCC3056蓝牙芯片，支持蓝牙5.2，支持aptX Adaptive和aptX音频解码，带来24bit/96KHz的高清音频传输，89ms的全链路低延时；支持aptX Voice通话降噪，提供32KHz采样率，实现清晰通话；还支持IP54级防尘防水，拥有27小时的综合续航。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "撬开充电盒外壳，取出内部座舱结构。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "功能配置上，搭载了13mm大尺寸复合振膜单元，高通QCC3056蓝牙芯片，支持蓝牙5.2，支持aptX Adaptive和aptX音频解码，带来24bit/96KHz的高清音频传输，89ms的全链路低延时；支持aptX Voice通话降噪，提供32KHz采样率，实现清晰通话；还支持IP54级防尘防水，拥有27小时的综合续航。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机陶瓷蓝牙天线特写，用于无线信号传输。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "撬开充电盒外壳，取出内部座舱结构。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒外壳内侧指示灯开孔设置有黑色橡胶罩，防止漏光。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC3056",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC3056",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "功能配置上，搭载了13mm大尺寸复合振膜单元，高通QCC3056蓝牙芯片，支持蓝牙5.2，支持aptX Adaptive和aptX音频解码，带来24bit/96KHz的高清音频传输，89ms的全链路低延时；支持aptX Voice通话降噪，提供32KHz采样率，实现清晰通话；还支持IP54级防尘防水，拥有27小时的综合续航。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Qualcomm aptX",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Qualcomm aptX",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "标记/认证：下面再来看看这款产品的拆解报告吧~\n一、\n花再\nMiniBuds2真无线耳机开箱\n花再MiniBuds2真无线耳机包装盒延续了类似精致礼盒的设计，正面展示有品牌和产品名称，高通骁龙畅听认证级Qualcomm aptX\n、Qualcomm aptX\nAdaptive、Qualcomm aptX\nVoice标志。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Qualcomm aptX",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Qualcomm aptX",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：350\n芯片 Qualcomm aptX\n芯片 Qualcomm TrueWireless\n芯片 高通QCC3056\n芯片 高通Q\n芯片 高通Snapdragon"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:120802"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "我爱音频网此前为大家分享了漫步者旗舰级TWS耳机，同时也是旗下首款支持高通骁龙畅听技术平台的产品NeoBuds […]\n我爱音频网此前拆解过漫步者\nNeoBuds S\n、\nNeoBuds Pro\n、\nLolliPods Pro\n、\nFunBuds\n、\nTWS NB2\n真无线降噪耳机；与冇心联合产品\n漫步者TO-U2\n、\n漫步者MiniBuds\n真无线耳机；漫步者\nHECATE GM45\n、\nHECATE GM4 MINI\n游戏耳机；\n漫步者DreamPods\nAI骨传导通话降噪耳机；声迈系列\nX6\n、\nX5\n、\nX3\n真无线耳机；\n漫步者辅听1号\n助听/辅听耳机，以及\n10款其他的漫步者耳机产品\n。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "我爱音频网此前为大家分享了漫步者旗舰级TWS耳机，同时也是旗下首款支持高通骁龙畅听技术平台的产品NeoBuds […]\n我爱音频网此前拆解过漫步者\nNeoBuds S\n、\nNeoBuds Pro\n、\nLolliPods Pro\n、\nFunBuds\n、\nTWS NB2\n真无线降噪耳机；与冇心联合产品\n漫步者TO-U2\n、\n漫步者MiniBuds\n真无线耳机；漫步者\nHECATE GM45\n、\nHECATE GM4 MINI\n游戏耳机；\n漫步者DreamPods\nAI骨传导通话降噪耳机；声迈系列\nX6\n、\nX5\n、\nX3\n真无线耳机；\n漫步者辅听1号\n助听/辅听耳机，以及\n10款其他的漫步者耳机产品\n。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "我爱音频网此前为大家分享了漫步者旗舰级TWS耳机，同时也是旗下首款支持高通骁龙畅听技术平台的产品NeoBuds […]\n我爱音频网此前拆解过漫步者\nNeoBuds S\n、\nNeoBuds Pro\n、\nLolliPods Pro\n、\nFunBuds\n、\nTWS NB2\n真无线降噪耳机；与冇心联合产品\n漫步者TO-U2\n、\n漫步者MiniBuds\n真无线耳机；漫步者\nHECATE GM45\n、\nHECATE GM4 MINI\n游戏耳机；\n漫步者DreamPods\nAI骨传导通话降噪耳机；声迈系列\nX6\n、\nX5\n、\nX3\n真无线耳机；\n漫步者辅听1号\n助听/辅听耳机，以及\n10款其他的漫步者耳机产品\n。"
+        }
+      },
+      {
+        "text": "耳机柄底部为耳机充电的金属触点和通话降噪麦克风拾音孔特写。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "耳机柄底部为耳机充电的金属触点和通话降噪麦克风拾音孔特写。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "耳机柄底部为耳机充电的金属触点和通话降噪麦克风拾音孔特写。"
+        }
+      },
+      {
+        "text": "花再是漫步者于2022年3月份联合冇心推出的全新独立品牌，希望为年轻消费者提供美学与人体工学完美结合的科技产品。",
+        "tag": "舒适佩戴",
+        "evidence": {
+          "value": "花再是漫步者于2022年3月份联合冇心推出的全新独立品牌，希望为年轻消费者提供美学与人体工学完美结合的科技产品。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "花再是漫步者于2022年3月份联合冇心推出的全新独立品牌，希望为年轻消费者提供美学与人体工学完美结合的科技产品。"
+        }
+      },
+      {
+        "text": "侧边泄压孔内侧同样采用细密防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "侧边泄压孔内侧同样采用细密防尘网防护。",
+          "confidence": 0.7,
+          "source_type": "text",
+          "source_text": "侧边泄压孔内侧同样采用细密防尘网防护。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "我爱音频网此前为大家分享了漫步者旗舰级TWS耳机，同时也是旗下首款支持高通骁龙畅听技术平台的产品NeoBuds […]\n我爱音频网此前拆解过漫步者\nNeoBuds S\n、\nNeoBuds Pro\n、\nLolliPods Pro\n、\nFunBuds\n、\nTWS NB2\n真无线降噪耳机；与冇心联合产品\n漫步者TO-U2\n、\n漫步者MiniBuds\n真无线耳机；漫步者\nHECATE GM45\n、\nHECATE GM4 MINI\n游戏耳机；\n漫步者DreamPods\nAI骨传导通话降噪耳机；声迈系列\nX6\n、\nX5\n、\nX3\n真无线耳机；\n漫步者辅听1号\n助听/辅听耳机，以及\n10款其他的漫步者耳机产品\n。",
+    "launch_date": null,
+    "best_report_id": "120802",
+    "best_video_id": null
+  }
+}

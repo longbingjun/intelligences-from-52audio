@@ -1,0 +1,422 @@
+{
+  "canonical_id": "unknown--iflybuds-air",
+  "brand": "",
+  "model": "iFLYBUDS Air讯飞开放式办公",
+  "category": "开放式耳机",
+  "report_ids": [
+    "149898"
+  ],
+  "video_ids": [
+    "241124"
+  ],
+  "related_report_ids": [
+    "149898"
+  ],
+  "related_video_ids": [
+    "241124"
+  ],
+  "first_seen": "2023-02-24",
+  "latest_published": "2025-06-05",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "恒玄BES2600YP",
+    "pmic_case": "CM1126B",
+    "battery_ear": "1V/00mAh锂电池",
+    "battery_case": "5V/00mAh锂电池",
+    "speaker": "动圈单元",
+    "materials": "PC",
+    "weight_g": "97.7g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 22,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "149898",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1126B",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "保护IC",
+      "evidence": {
+        "value": "CM1126B",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机采用了MBT微宙100mAhCTSS锂离子电池，配备有iCM创芯微CM1126B-GAC带船运模式二合一锂电保护IC；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "恒玄BES2600YP",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2600YP",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片为BES恒玄BES2600YP蓝牙音频SOC，支持双模蓝牙5.3和多点连接；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "1V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "1V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机采用了MBT微宙100mAhCTSS锂离子电池，配备有iCM创芯微CM1126B-GAC带船运模式二合一锂电保护IC；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "搭载了16.2mm超大动圈单元，两颗高灵敏度MEMS麦克风单元；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "搭载了16.2mm超大动圈单元，两颗高灵敏度MEMS麦克风单元；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "思远半导体",
+      "model": "思远半导体SY8801",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8801",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上搭载了思远半导体SY8801蓝牙耳机智能充电仓解决方案，负责电池的充放电管理，充电电流和放电截止电流外部可以调节，还支持耳机仓和耳机之间的通讯；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "5V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "5V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置500mAh锂电池，配备有独立的电路保护板负责充电保护。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "iFLYBUDS Air讯飞开放式办公耳机搭载了16.2mm大动圈单元，支持定向消声防漏音，通过反向声波抵消技术，防止耳机漏音问题；支持蓝牙5.3，支持同时连接两台设备，来电自动切换；支持游戏模式，提供声画同步的超低延迟游戏体验。耳机支持单次15小时的续航，搭配充电盒综合续航约40小时，并且针对两种不同的佩戴方式，提供了不同的充电方式，充电更便捷。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "掀开主板，下方铜鼓定位槽固定扬声器和电池单元，上方均设置有海绵垫与主板隔离。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "FPC蓝牙天线特写，用于无线信号传输，露铜连接到主板，型号“ATL-30-ANT”。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网此前还拆解过iFLYBUDS Pro录音降噪会议耳机、真无线智能耳机iFLYBUDS、iFLYBUDS Lite智能录音耳机、iFLYPODS PY1讯飞降噪点歌耳机，讯飞智能无线麦克风C1、科大讯飞智能录音笔 H1、科大讯飞智能鼠标 Pro、科大讯飞翻译机1.0等产品，下面再来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "iFLYBUDS Air讯飞开放式办公耳机搭载了16.2mm大动圈单元，支持定向消声防漏音，通过反向声波抵消技术，防止耳机漏音问题；支持蓝牙5.3，支持同时连接两台设备，来电自动切换；支持游戏模式，提供声画同步的超低延迟游戏体验。耳机支持单次15小时的续航，搭配充电盒综合续航约40小时，并且针对两种不同的佩戴方式，提供了不同的充电方式，充电更便捷。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "FPC蓝牙天线特写，用于无线信号传输，露铜连接到主板，型号“ATL-30-ANT”。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒开盖处内部座舱结构设计倒角，便于开启，同时形成了亮面腰线，提升了产品的层次感。正面设置有一颗指示灯，用于反馈蓝牙配对状态和剩余电量信息。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆解耳机部分，取掉耳机外壳，腔体内部结构一览。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "用于连接蓝牙天线的Pogo Pin连接器。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒背面采用了金属转轴，上面设计标有“iFLYBUDS”。背部还设置有蓝牙配对功能按键和Type-C充电接口。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机外侧外观一览，耳挂采用了TPU软胶+TR90硬胶材质，外层舒适亲肤，内层更具韧性。耳机主体是光滑的亮面质感，背部品牌LOGO设计有金色装饰环，同时也是触控区域，用于功能控制。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1126B",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM1126B",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "iCM创芯微CM1126B-GAC带船运模式二合一单节电池保护IC，内置有高精度电压检测电路和延迟电路，通过检测电池的电压、电流，实现对电池的过充电、过放电、过电流等保护，适用于单节锂离子/锂聚合物可充电电池的保护电路，更带有船运模式，使小容量电池包满足海运运输及长期存储需求。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2600YP",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2600YP",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄BES2600YP蓝牙音频SOC，蓝牙+降噪+入耳检测三合一单芯片方案，支持双模蓝牙5.3和多点连接，内部集成双核ARM STAR-MC1 CPU和超低功耗Sensor Hub子系统，具备强大的应用处理能力，支持开放式自适应降噪和AI降噪，支持辅听功能和空间音频，支持语音唤醒和交互等功能。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8801",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8801",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "思远半导体SY8801蓝牙耳机智能充电仓解决方案，集成充电模块和放电模块，充电电流和放电截止电流外部可以调节。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8801",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8801",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "思远半导体SY8801详细资料图。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 iFLYBUDS Air讯飞开放式办公耳机在外观方面，整体观感非常的精致，砂岩白配色，低调且优雅。开放式设计，佩戴不入耳，保障了长久使用的舒适性，同时也提升了户外使用耳机的安全性。创新性的两种形态，TWS耳机形态更加轻巧便携，更具灵活性；颈挂形态多点位均衡受力，佩戴更加舒适。针对两种形态还配备了独立的充电器，带来更优秀的使用体验。 内部主要配置方面，耳机采用了MBT微宙100mAhCTSS锂离子电池，配备有iCM创芯微CM1126B-GAC带船运模式二合一锂电保护IC；搭载了16.2mm超大动圈单元，两颗高灵敏度MEMS麦克风单元；主控芯片为BES恒玄BES2600YP蓝牙音频SOC，支持双模蓝牙5.3和多点连接；触摸IC采用了Spacetouch普林芯驰SPT513S多功能入耳触摸压感检测芯片。 充电部分，充电盒内置500mAh锂电池，配备有独立的电路保护板负责充电保护。主板上搭载了思远半导体SY8801蓝牙耳机智能充电仓解决方案，负责电池的充放电管理，充电电流和放电截止电流外部可以调节，还支持耳机仓和耳机之间的通讯；还采用了Zbit恒烁CX32L003微控制器，用于充电盒整机控制。便携式充电夹内部仅搭载了用于电源输入的Type-C母座和为耳机充电的Pogo Pin连接器。",
+  "layer_refs": {
+    "technical": [
+      "report:149898",
+      "video:241124"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\n漫步者\n、\n倍思\n、\n猛玛\n、\n声阔\n、\n万魔、233621、传音、魔宴、创新科技、一加、\n小米、OPPO、realme、魅族、百度、网易、JBL、哈曼、联想等国内外知名品牌\n采用。",
+        "tag": "其他",
+        "evidence": {
+          "value": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\n漫步者\n、\n倍思\n、\n猛玛\n、\n声阔\n、\n万魔、233621、传音、魔宴、创新科技、一加、\n小米、OPPO、realme、魅族、百度、网易、JBL、哈曼、联想等国内外知名品牌\n采用。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\n漫步者\n、\n倍思\n、\n猛玛\n、\n声阔\n、\n万魔、233621、传音、魔宴、创新科技、一加、\n小米、OPPO、realme、魅族、百度、网易、JBL、哈曼、联想等国内外知名品牌\n采用。"
+        }
+      },
+      {
+        "text": "创新性的两种形态，TWS耳机形态更加轻巧便携，更具灵活性；颈挂形态多点位均衡受力，佩戴更加舒适。",
+        "tag": "其他",
+        "evidence": {
+          "value": "创新性的两种形态，TWS耳机形态更加轻巧便携，更具灵活性；颈挂形态多点位均衡受力，佩戴更加舒适。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "创新性的两种形态，TWS耳机形态更加轻巧便携，更具灵活性；颈挂形态多点位均衡受力，佩戴更加舒适。"
+        }
+      },
+      {
+        "text": "并且创新性的支持了两种佩戴方式，满足办公、运动场景的不同使用需求。",
+        "tag": "其他",
+        "evidence": {
+          "value": "并且创新性的支持了两种佩戴方式，满足办公、运动场景的不同使用需求。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "并且创新性的支持了两种佩戴方式，满足办公、运动场景的不同使用需求。"
+        }
+      },
+      {
+        "text": "电池另外一侧特写，采用了微宙GTSS锂离子电池，基于微宙玻封锂离子电池技术、壳盖环缝激光焊结构技术及玻封防爆阀技术等专利技术打造，具有同体积能量密度高、使用寿命长、充电快、安全可靠、应用灵活等特征。",
+        "tag": "其他",
+        "evidence": {
+          "value": "电池另外一侧特写，采用了微宙GTSS锂离子电池，基于微宙玻封锂离子电池技术、壳盖环缝激光焊结构技术及玻封防爆阀技术等专利技术打造，具有同体积能量密度高、使用寿命长、充电快、安全可靠、应用灵活等特征。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "电池另外一侧特写，采用了微宙GTSS锂离子电池，基于微宙玻封锂离子电池技术、壳盖环缝激光焊结构技术及玻封防爆阀技术等专利技术打造，具有同体积能量密度高、使用寿命长、充电快、安全可靠、应用灵活等特征。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "办公",
+      "游戏",
+      "通勤",
+      "通话",
+      "健身",
+      "户外"
+    ],
+    "positioning_summary": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\n漫步者\n、\n倍思\n、\n猛玛\n、\n声阔\n、\n万魔、233621、传音、魔宴、创新科技、一加、\n小米、OPPO、realme、魅族、百度、网易、JBL、哈曼、联想等国内外知名品牌\n采用。",
+    "launch_date": null,
+    "best_report_id": "149898",
+    "best_video_id": null
+  }
+}

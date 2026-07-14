@@ -1,0 +1,161 @@
+{
+  "canonical_id": "unknown--bragi-the-headphone-tws",
+  "brand": "",
+  "model": "BRAGI The Headphone TWS蓝牙",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "2247"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "2247"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2018-05-16",
+  "latest_published": "2018-05-16",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "高通CSR8670",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "50 mAh",
+    "speaker": "喇叭单元",
+    "materials": "硅胶",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 5,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "2247",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "电池厚度对比。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "动铁单元。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "两只耳机和充电盒拆解内容，可以看到充电盒内没有电池。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拾音麦克风。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通CSR8670",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通CSR8670",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "高通CSR8670 蓝牙音频SOC。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:2247"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "降噪麦克风。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "降噪麦克风。",
+          "confidence": 0.59,
+          "source_type": "text",
+          "source_text": "降噪麦克风。"
+        }
+      },
+      {
+        "text": "换个角度看，一侧是动铁单元，一侧是降噪麦克风。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "换个角度看，一侧是动铁单元，一侧是降噪麦克风。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "换个角度看，一侧是动铁单元，一侧是降噪麦克风。"
+        }
+      },
+      {
+        "text": "取出耳机电池与电路板，分开降噪麦克风，充电触点，动铁单元的排线。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "取出耳机电池与电路板，分开降噪麦克风，充电触点，动铁单元的排线。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "取出耳机电池与电路板，分开降噪麦克风，充电触点，动铁单元的排线。"
+        }
+      }
+    ],
+    "scenarios": [],
+    "positioning_summary": "降噪麦克风。",
+    "launch_date": null,
+    "best_report_id": "2247",
+    "best_video_id": null
+  }
+}

@@ -1,0 +1,392 @@
+{
+  "canonical_id": "edifier--comfo-se",
+  "brand": "EDIFIER漫步者",
+  "model": "Comfo SE",
+  "category": "开放式耳机",
+  "report_ids": [
+    "255210"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "255210"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2025-10-11",
+  "latest_published": "2025-10-11",
+  "internal_match_suggestions": [
+    {
+      "sku": "OpenDots 2",
+      "score": 0.458,
+      "reason": "型号相似度 46%（匹配 OpenDots 2）；品类一致"
+    }
+  ],
+  "cost_snapshot": {
+    "main_chip": "BES2710IHC",
+    "pmic_case": "",
+    "battery_ear": "3.85V/60mAh软包扣式",
+    "battery_case": "3.7V/600mAh锂电池",
+    "speaker": "钛振膜",
+    "materials": "",
+    "weight_g": "71.8g",
+    "weight_case_g": "",
+    "weight_earbud_g": "6.4g",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 18,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "255210",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3.7V/600mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3.7V/600mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载了金赛尔3.7V/600mAh锂电池，采用了SinhMicro昇生微电子SS88D8HE Power MCU，集成OVP、Charger、Boost和MCU，提供更高效、更智能、更安全的充放电管理。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "BES2710IHC",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2710IHC",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "采用了BES恒玄科技BES2710IHC蓝牙音频SoC，用于无线连接和音频数据处理。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3.85V/60mAh软包扣式",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "3.85V/60mAh软包扣式",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载12mm镀钛振膜动圈喇叭，内置3.85V/60mAh软包扣式电池；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "钛振膜",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "钛振膜",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载12mm镀钛振膜动圈喇叭，内置3.85V/60mAh软包扣式电池；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "主板上，采用了一颗MEMS麦克风拾音；"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面展示了4种潮流配色，APP下载二维码，以及部分产品和公司信息。型号：EDF200217，产品名称：Comfo SE开放式真无线蓝牙耳机，输入：5V-200mA（耳机），输出：5V-1A（充电盒），北京爱德发科技有限公司。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部结构一览，设置有主板、电池和功能按键小板。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部结构一览，设置有主板、电池和功能按键小板。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "主要功能配置方面，EDIFIER漫步者Comfo SE开放式耳机搭载12mm镀钛振膜动圈喇叭，高解析力带来更优的中高频表现；支持动态低频补偿，呈现均衡饱满的低频效果；支持定向传音，让音质更清晰，同时减少漏音；支持音乐、游戏、运动、听书、影院五种模式，适配不同场景，提供出色音频体验。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "麦克风拾音孔特写，通过金属盖板防护。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧设置有蓝牙天线和触摸检测贴片。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网此前还拆解过漫步者Lolli Clip、Comfo Clip、FitFree、Comfo Fit II、花再Zero Clip开放式耳机，漫步者X1 Evo、Lolli3 ANC、TWS5 PRO、NeoBuds S、NeoBuds Pro、LolliPods Pro真无线耳机，HECATE GX07、HECATE GX05真无线游戏耳机，W830NB、W820NB、HECATE G4S雷霆版头戴式耳机，漫步者辅听1号，花再NEW-X光冷能量音箱、HECATE G100磁吸蓝牙音响、M125、M0便携式蓝牙音箱等产品。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "用于蓝牙配对的功能按键特写。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "EDIFIER漫步者Comfo SE开放式耳机整体外观一览，耳机采用了耳挂式设计，由音腔和耳挂两部分组成。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "EDIFIER漫步者Comfo SE开放式耳机充电盒采用了扁平的圆角方形设计，磨砂+亮面质感相结合。机身正面设计有便于开启的倒角，内部设置条形指示灯。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "沿合模线拆掉前腔。扬声器腔体内部设置有盖板与电池单元隔离。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "为耳机充电的Pogo Pin连接器，设置有两组，对应两只耳机。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2710IHC",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2710IHC",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄科技BES2710IHC蓝牙音频SoC，用于无线连接和音频数据处理。"
+      }
+    }
+  ],
+  "summary_image_urls": [
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/10/2025101110272356.png",
+      "alt": "拆解报告：EDIFIER漫步者Comfo SE开放式耳机-我爱音频网",
+      "caption": "",
+      "section_hint": "summary_bom",
+      "score": 10
+    }
+  ],
+  "summary_text": "三、我爱音频网总结 最后附上EDIFIER漫步者Comfo SE开放式耳机的物料清单，方便大家查阅。 EDIFIER漫步者Comfo SE开放式耳机在外观方面，充电盒采用了扁平设计，便于携带。耳机采用了耳挂式设计，符合人耳轮廓的机身曲线，搭配末端镂空降低重量，提供了舒适轻盈、稳固不易脱落的佩戴体验。 内部主要配置方面，充电盒搭载了金赛尔3.7V/600mAh锂电池，采用了SinhMicro昇生微电子SS88D8HE Power MCU，集成OVP、Charger、Boost和MCU，提供更高效、更智能、更安全的充放电管理。 耳机内部搭载12mm镀钛振膜动圈喇叭，内置3.85V/60mAh软包扣式电池；主板上，采用了一颗MEMS麦克风拾音；采用了BES恒玄科技BES2710IHC蓝牙音频SoC，用于无线连接和音频数据处理。",
+  "layer_refs": {
+    "technical": [
+      "report:255210"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "漫步者Comfo SE开放式耳机升级蓝牙V6.1，提供更强的信号传输抗干扰能力，保持稳定连接；支持低延迟游戏模式，音画同步，游戏体验更流畅；支持AI通话降噪，搭配双重抗风噪结构，提供各种场景下的清晰通话效果；通过APP还支持找回耳机、跑步/健走运动记录、21种语言互译等功能。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "漫步者Comfo SE开放式耳机升级蓝牙V6.1，提供更强的信号传输抗干扰能力，保持稳定连接；支持低延迟游戏模式，音画同步，游戏体验更流畅；支持AI通话降噪，搭配双重抗风噪结构，提供各种场景下的清晰通话效果；通过APP还支持找回耳机、跑步/健走运动记录、21种语言互译等功能。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "漫步者Comfo SE开放式耳机升级蓝牙V6.1，提供更强的信号传输抗干扰能力，保持稳定连接；支持低延迟游戏模式，音画同步，游戏体验更流畅；支持AI通话降噪，搭配双重抗风噪结构，提供各种场景下的清晰通话效果；通过APP还支持找回耳机、跑步/健走运动记录、21种语言互译等功能。"
+        }
+      },
+      {
+        "text": "主要功能配置方面，EDIFIER漫步者Comfo SE开放式耳机搭载12mm镀钛振膜动圈喇叭，高解析力带来更优的中高频表现；支持动态低频补偿，呈现均衡饱满的低频效果；支持定向传音，让音质更清晰，同时减少漏音；支持音乐、游戏、运动、听书、影院五种模式，适配不同场景，提供出色音频体验。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "主要功能配置方面，EDIFIER漫步者Comfo SE开放式耳机搭载12mm镀钛振膜动圈喇叭，高解析力带来更优的中高频表现；支持动态低频补偿，呈现均衡饱满的低频效果；支持定向传音，让音质更清晰，同时减少漏音；支持音乐、游戏、运动、听书、影院五种模式，适配不同场景，提供出色音频体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "主要功能配置方面，EDIFIER漫步者Comfo SE开放式耳机搭载12mm镀钛振膜动圈喇叭，高解析力带来更优的中高频表现；支持动态低频补偿，呈现均衡饱满的低频效果；支持定向传音，让音质更清晰，同时减少漏音；支持音乐、游戏、运动、听书、影院五种模式，适配不同场景，提供出色音频体验。"
+        }
+      },
+      {
+        "text": "近期，该系列新品漫步者Comfo SE开放式耳机发布，在外观上采用了全新的设计风格，搭配多彩配色，呈现独特的潮搭属性。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "近期，该系列新品漫步者Comfo SE开放式耳机发布，在外观上采用了全新的设计风格，搭配多彩配色，呈现独特的潮搭属性。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "近期，该系列新品漫步者Comfo SE开放式耳机发布，在外观上采用了全新的设计风格，搭配多彩配色，呈现独特的潮搭属性。"
+        }
+      },
+      {
+        "text": "针对充放电模式切换、功耗控制、智能监测等TWS产品的核心需求，SS88DX通过创新设计全面提升充电效率与使用体验，为行业带来更高效、更智能、更安全的解决方案。",
+        "tag": "其他",
+        "evidence": {
+          "value": "针对充放电模式切换、功耗控制、智能监测等TWS产品的核心需求，SS88DX通过创新设计全面提升充电效率与使用体验，为行业带来更高效、更智能、更安全的解决方案。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "针对充放电模式切换、功耗控制、智能监测等TWS产品的核心需求，SS88DX通过创新设计全面提升充电效率与使用体验，为行业带来更高效、更智能、更安全的解决方案。"
+        }
+      },
+      {
+        "text": "另外一侧的功能特点介绍：开放式舒适佩戴、12mm大尺寸单元、APP功能拓展、持久续航、APP同声传译。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "另外一侧的功能特点介绍：开放式舒适佩戴、12mm大尺寸单元、APP功能拓展、持久续航、APP同声传译。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "另外一侧的功能特点介绍：开放式舒适佩戴、12mm大尺寸单元、APP功能拓展、持久续航、APP同声传译。"
+        }
+      },
+      {
+        "text": "续航上，支持单次9.5小时/综合38小时的音乐播放，15分钟快充可使用3小时。",
+        "tag": "长续航",
+        "evidence": {
+          "value": "续航上，支持单次9.5小时/综合38小时的音乐播放，15分钟快充可使用3小时。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "续航上，支持单次9.5小时/综合38小时的音乐播放，15分钟快充可使用3小时。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "游戏",
+      "通话",
+      "跑步"
+    ],
+    "positioning_summary": "漫步者Comfo SE开放式耳机升级蓝牙V6.1，提供更强的信号传输抗干扰能力，保持稳定连接；支持低延迟游戏模式，音画同步，游戏体验更流畅；支持AI通话降噪，搭配双重抗风噪结构，提供各种场景下的清晰通话效果；通过APP还支持找回耳机、跑步/健走运动记录、21种语言互译等功能。",
+    "launch_date": null,
+    "best_report_id": "255210",
+    "best_video_id": null
+  }
+}

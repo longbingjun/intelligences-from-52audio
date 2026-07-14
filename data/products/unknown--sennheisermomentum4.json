@@ -1,0 +1,356 @@
+{
+  "canonical_id": "unknown--sennheisermomentum4",
+  "brand": "",
+  "model": "Sennheiser森海塞尔MOMENTUM真无线4代",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "200402"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "200402"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2024-05-24",
+  "latest_published": "2024-05-24",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "高通QCC5181",
+    "pmic_case": "",
+    "battery_ear": "820 mAh",
+    "battery_case": "8V/20mAh锂电池",
+    "speaker": "",
+    "materials": "硅胶、PC、ABS",
+    "weight_g": "77.2g",
+    "weight_case_g": "",
+    "weight_earbud_g": "6.0g",
+    "ip_rating": "",
+    "bluetooth": "5.4",
+    "bom_row_count": 18,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.67,
+    "best_report_id": "200402",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "Qualcomm高通",
+      "model": "高通QCC5181",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC5181",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，采用了Qualcomm高通QCC5181蓝牙音频SoC，ADI亚德诺ADAU1788音频DSP芯片，以及Vinka永嘉微电VKD233HS触摸检测IC等。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "8V/20mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "8V/20mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载豪鹏科技820mAh圆柱形可充式锂离子电池组，有线充电采用了SGMICRO圣邦微SGM41523D锂电池充电器，无线充电由NuVolta伏达NU1680无线电源接收器负责；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "3",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "主要配置上，搭载了7mm动圈喇叭，单耳内置三颗MEMS麦克风拾音；"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在降噪方面，MOMENTUM真无线4代耳机支持自适应降噪功能，为不同使用场景匹配更舒适的降噪效果；同时支持可调节透明聆听模式，可根据使用场景预设环境音强度；采用三麦克风系统，提供高品质语音拾取，保障清晰通话。续航方面，单次续航时间7.5小时，搭配充电盒可提供30小时降噪聆听。还支持Qi无线充电，进一步摆脱线缆束缚。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出座舱结构及内部电池单元。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，通过螺丝固定主板单元。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在降噪方面，MOMENTUM真无线4代耳机支持自适应降噪功能，为不同使用场景匹配更舒适的降噪效果；同时支持可调节透明聆听模式，可根据使用场景预设环境音强度；采用三麦克风系统，提供高品质语音拾取，保障清晰通话。续航方面，单次续航时间7.5小时，搭配充电盒可提供30小时降噪聆听。还支持Qi无线充电，进一步摆脱线缆束缚。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "ADI亚德诺ADAU1788音频DSP芯片，双通道ADC，独立DAC，用于耳机的主动降噪功能。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "后腔底部结构一览，印刷有LDS蓝牙天线和触摸检测电极。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出座舱结构及内部电池单元。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面外观一览，设置有Type-C充电接口和指示灯。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机外侧外观一览，机身背部腔体呈现金属光泽，具有很强的质感。中间雕刻品牌LOGO，同时也是触控区域；LOGO两侧设置两颗麦克风拾音孔。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机充电触点特写，上下两侧是用于固定的磁铁。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通aptX",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通aptX",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "森海塞尔MOMENTUM真无线4代耳机\n在功能配置上，搭载TrueResponse换能器系统+7mm动圈驱动单元，带来森海塞尔标志性声音；搭配高通aptX Lossless无损音频技术，提供CD级音质体验；还与德国弗劳恩霍夫数字媒体技术研究所（IDMT）合作开发全新声音个性化功能，智能定制个性化音频配置文件，打造专属听感；支持5段均衡器调节，可以自适应音频内容，确保不同音量大小下相同的优质体验。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Qualcomm aptX",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Qualcomm aptX",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "包装盒背面设计有各种认证标志，包括Qualcomm aptX、Qualcomm aptX Adaptive、AAC编解码，AURACAST广播音频技术（待版本升级），蓝牙标志，以及低延时音频、Qi无线充电和IP54防尘防水。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC5181",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC5181",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm高通QCC5181蓝牙音频SoC，隶属于\n第二代高通S5音频平台\n，支持蓝牙5.4，充分符合支持全新蓝牙LE Audio（低功耗音频）用例的要求，包括Auracast广播音频；还可支持Snapdragon Sound骁龙畅听技术。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC51xx",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC51xx",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm高通QCC51xx系列详细资料图。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "QCC51",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "QCC51",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm高通QCC51xx系列详细资料图。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 森海塞尔MOMENTUM真无线4代耳机在外观设计方面，延续了独具品牌特色的家族式设计，具有很高的辨识度。圆角方形充电盒，体积小巧便携，通过织物面料覆盖，带来了柔软舒适的质感。耳机采用了豆状的入耳式设计，机身类金属工艺处理，呈现出色质感；人体工学设计，搭配多副硅胶耳塞和飞鳍，提供舒适、稳固的佩戴体验。 内部主要配置方面，充电盒搭载豪鹏科技820mAh圆柱形可充式锂离子电池组，有线充电采用了SGMICRO圣邦微SGM41523D锂电池充电器，无线充电由NuVolta伏达NU1680无线电源接收器负责；还采用了LPS微源半导体LP5305过压过流保护IC，以及一颗用于整机控制的MCU等。 耳机内部结构高度集成，通过软硬板结合工艺，提升了内部空间的利用率。主要配置上，搭载了7mm动圈喇叭，单耳内置三颗MEMS麦克风拾音；内置钢壳扣式电池容量72mAh，来自MBT微宙电子；主板上，采用了Qualcomm高通QCC5181蓝牙音频SoC，ADI亚德诺ADAU1788音频DSP芯片，以及Vinka永嘉微电VKD233HS触摸检测IC等。",
+  "layer_refs": {
+    "technical": [
+      "report:200402"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "透过防尘网可以看到出音管内部的后馈降噪麦克风，用于从耳道内部拾音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "透过防尘网可以看到出音管内部的后馈降噪麦克风，用于从耳道内部拾音。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "透过防尘网可以看到出音管内部的后馈降噪麦克风，用于从耳道内部拾音。"
+        }
+      },
+      {
+        "text": "在降噪方面，MOMENTUM真无线4代耳机支持自适应降噪功能，为不同使用场景匹配更舒适的降噪效果；同时支持可调节透明聆听模式，可根据使用场景预设环境音强度；采用三麦克风系统，提供高品质语音拾取，保障清晰通话。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "在降噪方面，MOMENTUM真无线4代耳机支持自适应降噪功能，为不同使用场景匹配更舒适的降噪效果；同时支持可调节透明聆听模式，可根据使用场景预设环境音强度；采用三麦克风系统，提供高品质语音拾取，保障清晰通话。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "在降噪方面，MOMENTUM真无线4代耳机支持自适应降噪功能，为不同使用场景匹配更舒适的降噪效果；同时支持可调节透明聆听模式，可根据使用场景预设环境音强度；采用三麦克风系统，提供高品质语音拾取，保障清晰通话。"
+        }
+      },
+      {
+        "text": "Sennheiser森海塞尔MOMENTUM真无线4代耳机整体外观一览，耳机同样延续了家族式的设计风格，极具品牌辨识度；人体工学设计，保障持久的舒适佩戴。",
+        "tag": "舒适佩戴",
+        "evidence": {
+          "value": "Sennheiser森海塞尔MOMENTUM真无线4代耳机整体外观一览，耳机同样延续了家族式的设计风格，极具品牌辨识度；人体工学设计，保障持久的舒适佩戴。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "Sennheiser森海塞尔MOMENTUM真无线4代耳机整体外观一览，耳机同样延续了家族式的设计风格，极具品牌辨识度；人体工学设计，保障持久的舒适佩戴。"
+        }
+      },
+      {
+        "text": "据我爱音频网拆解了解到，目前已有\n华为\n、\nBose\n、\n万魔、亚马逊、小鸟\n等品牌的多款真无线耳机采用了ADI亚德诺半导体的DSP用于主动降噪。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "据我爱音频网拆解了解到，目前已有\n华为\n、\nBose\n、\n万魔、亚马逊、小鸟\n等品牌的多款真无线耳机采用了ADI亚德诺半导体的DSP用于主动降噪。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "据我爱音频网拆解了解到，目前已有\n华为\n、\nBose\n、\n万魔、亚马逊、小鸟\n等品牌的多款真无线耳机采用了ADI亚德诺半导体的DSP用于主动降噪。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "通话"
+    ],
+    "positioning_summary": "透过防尘网可以看到出音管内部的后馈降噪麦克风，用于从耳道内部拾音。",
+    "launch_date": null,
+    "best_report_id": "200402",
+    "best_video_id": null
+  }
+}

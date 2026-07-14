@@ -1,0 +1,314 @@
+{
+  "canonical_id": "unknown--s03",
+  "brand": "",
+  "model": "诺必行S03开放式",
+  "category": "开放式耳机",
+  "report_ids": [
+    "165536"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "165536"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-07-07",
+  "latest_published": "2023-07-07",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "INJOINIC英集芯IP6818",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "35 mAh",
+    "speaker": "喇叭单元",
+    "materials": "硅胶",
+    "weight_g": "52.9g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 15,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "165536",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "INJOINIC英集芯IP6818",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP6818",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，采用了INJOINIC英集芯IP6818多功能电源管理SoC，集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示等功能，单芯片为充电盒提供完整的电源解决方案；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB5616",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB5616",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，采用了BLUETRUM中科蓝讯AB5616E2蓝牙音频SoC，内置带DSP指令的32位高性能RISC-V处理器，支持蓝牙5.3，支持单声道麦克风放大器输入，集成PMU；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "麦克风",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "主板上，采用了BLUETRUM中科蓝讯AB5616E2蓝牙音频SoC，内置带DSP指令的32位高性能RISC-V处理器，支持蓝牙5.3，支持单声道麦克风放大器输入，集成PMU；"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "功能配置方面，诺必行S03开放式真无线耳机搭载大振膜喇叭单元，支持蓝牙5.3，独立双主机，单双耳随意切换；支持通话降噪，提供清晰通话；还支持极速秒连，触摸控制，使用轻松便捷。充电盒搭载LED智能显示屏，能够实时反馈充电盒和耳机剩余电量信息。下面就让我们来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "另外一侧座舱背部固定主板和电池单元。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面展示有产品的参数信息，耳机电池容量：3.7V/35mAh，充电盒电池容量：3.7V/300mAh，双耳通话：3.5-4.5小时，音乐播放：3.5-4.5小时，总续航：16小时。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "功能配置方面，诺必行S03开放式真无线耳机搭载大振膜喇叭单元，支持蓝牙5.3，独立双主机，单双耳随意切换；支持通话降噪，提供清晰通话；还支持极速秒连，触摸控制，使用轻松便捷。充电盒搭载LED智能显示屏，能够实时反馈充电盒和耳机剩余电量信息。下面就让我们来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "麦克风拾音孔特写，同时也是指示灯开孔。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "贴片蓝牙天线特写，用于无线信号收发。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "麦克风拾音孔特写，同时也是指示灯开孔。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "撬开充电盒外壳取出座舱结构。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP6818",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP6818",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "INJOINIC英集芯IP6818多功能电源管理SoC，集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示等，集成度非常高，单颗芯片即可为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP6818",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP6818",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "IP6818 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸， 降低BOM成本。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB5616",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB5616",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BLUETRUM中科蓝讯AB5616E2蓝牙音频SoC，内置32位高性能RISC-V处理器，支持DSP指令，运行频率最高125MHz。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB5616",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB5616",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "AB5616E2具有16位单声道DAC和16位单通道DAC的音频编解码器，支持灵活的音频均衡器调节；支持采样率8、11.025、12、16、22.05、32、44.1和48KHz；支持单声道麦克风放大器输入；高性能单声道音频ADC，具有91分贝信噪比；高性能单声道音频DAC，具有97dB信噪比，带耳机放大器输出。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 诺必行S03开放式真无线耳机在外观方面，充电盒采用了类似“胶囊”的外形，体积轻巧，外出便携；还搭载有数显屏，能够直观获悉剩余电量信息。专利耳机外观设计非常的独特，耳夹式结构由弹性弯臂衔接两侧腔体，并采用了硅胶材质，佩戴与耳廓舒适贴合；出音嘴犹如“茶壶嘴”设计，佩戴时更靠近耳道，但不堵塞耳道，从而保障舒适佩戴的同时尽可能降低音频传输损耗。 主要电路方面，充电盒内部包括数显屏小板、主板和电池单元。数显屏小板上搭载53颗LED灯珠，通过不同的灯光组合，来反馈实时电量信息。主板上，采用了INJOINIC英集芯IP6818多功能电源管理SoC，集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示等功能，单芯片为充电盒提供完整的电源解决方案；还采用了丝印FH8208的二合一锂电保护IC，负责电池的充放电保护。 耳机内部，内侧发声单元腔体设置10mm动圈喇叭，通过导线穿过弯臂连接到外侧腔体内主板。主板上，采用了BLUETRUM中科蓝讯AB5616E2蓝牙音频SoC，内置带DSP指令的32位高性能RISC-V处理器，支持蓝牙5.3，支持单声道麦克风放大器输入，集成PMU；配备单颗MEMS麦克风，用于语音通话功能拾音。",
+  "layer_refs": {
+    "technical": [
+      "report:165536"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "专利耳机外观设计非常的独特，耳夹式结构由弹性弯臂衔接两侧腔体，并采用了硅胶材质，佩戴与耳廓舒适贴合；出音嘴犹如“茶壶嘴”设计，佩戴时更靠近耳道，但不堵塞耳道，从而保障舒适佩戴的同时尽可能降低音频传输损耗。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "专利耳机外观设计非常的独特，耳夹式结构由弹性弯臂衔接两侧腔体，并采用了硅胶材质，佩戴与耳廓舒适贴合；出音嘴犹如“茶壶嘴”设计，佩戴时更靠近耳道，但不堵塞耳道，从而保障舒适佩戴的同时尽可能降低音频传输损耗。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "专利耳机外观设计非常的独特，耳夹式结构由弹性弯臂衔接两侧腔体，并采用了硅胶材质，佩戴与耳廓舒适贴合；出音嘴犹如“茶壶嘴”设计，佩戴时更靠近耳道，但不堵塞耳道，从而保障舒适佩戴的同时尽可能降低音频传输损耗。"
+        }
+      },
+      {
+        "text": "充电盒底部印有产品信息，品牌：诺必行，型号：S03，制造商：馨兰仕（东莞）电子有限公司，耳机电池：35mah，充电仓电池：300mah，输入电压：5V-300mA，以及专利号等。",
+        "tag": "其他",
+        "evidence": {
+          "value": "充电盒底部印有产品信息，品牌：诺必行，型号：S03，制造商：馨兰仕（东莞）电子有限公司，耳机电池：35mah，充电仓电池：300mah，输入电压：5V-300mA，以及专利号等。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "充电盒底部印有产品信息，品牌：诺必行，型号：S03，制造商：馨兰仕（东莞）电子有限公司，耳机电池：35mah，充电仓电池：300mah，输入电压：5V-300mA，以及专利号等。"
+        }
+      },
+      {
+        "text": "内侧腔体内置发声单元，出音嘴通过防尘网防护，防止异物进入音腔。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "内侧腔体内置发声单元，出音嘴通过防尘网防护，防止异物进入音腔。",
+          "confidence": 0.65,
+          "source_type": "text",
+          "source_text": "内侧腔体内置发声单元，出音嘴通过防尘网防护，防止异物进入音腔。"
+        }
+      },
+      {
+        "text": "IP6818内置MCU，可灵活定制 4/3/2/1颗LED电量显示；内置12bit ADC，可准确计算电池电量。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "IP6818内置MCU，可灵活定制 4/3/2/1颗LED电量显示；内置12bit ADC，可准确计算电池电量。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "IP6818内置MCU，可灵活定制 4/3/2/1颗LED电量显示；内置12bit ADC，可准确计算电池电量。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "通话"
+    ],
+    "positioning_summary": "专利耳机外观设计非常的独特，耳夹式结构由弹性弯臂衔接两侧腔体，并采用了硅胶材质，佩戴与耳廓舒适贴合；出音嘴犹如“茶壶嘴”设计，佩戴时更靠近耳道，但不堵塞耳道，从而保障舒适佩戴的同时尽可能降低音频传输损耗。",
+    "launch_date": null,
+    "best_report_id": "165536",
+    "best_video_id": null
+  }
+}

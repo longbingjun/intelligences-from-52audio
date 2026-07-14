@@ -1,0 +1,331 @@
+{
+  "canonical_id": "unknown--monsteropen-ear-lite",
+  "brand": "",
+  "model": "Monster魔声Open Ear Lite",
+  "category": "开放式耳机",
+  "report_ids": [
+    "148623"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "148623"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-02-14",
+  "latest_published": "2023-02-14",
+  "internal_match_suggestions": [
+    {
+      "sku": "OpenFit 2",
+      "score": 0.579,
+      "reason": "型号相似度 58%（匹配 OpenFit 2）；品类一致"
+    },
+    {
+      "sku": "OpenDots 2",
+      "score": 0.495,
+      "reason": "型号相似度 49%（匹配 OpenDots 2）；品类一致"
+    }
+  ],
+  "cost_snapshot": {
+    "main_chip": "AB5616",
+    "pmic_case": "",
+    "battery_ear": "1V/00mAh锂电池",
+    "battery_case": "100 mAh",
+    "speaker": "动圈单元",
+    "materials": "钛合金",
+    "weight_g": "13.2g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "IPX5",
+    "bluetooth": "5.0",
+    "bom_row_count": 14,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "148623",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB5616",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB5616",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片为中科蓝讯AB5616B蓝牙音频SoC，内置32位高性能处理器，支持DSP指令集，支持蓝牙5.0和BLE，内置16位ADC和DAC，集成耳机放大器、PMU；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "1V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "1V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内置锂电池容量100mAh。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "内部结构配置方面，搭载了14.15mm大尺寸动圈单元，采用了MEMS麦克风进行通话拾音；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "内部结构配置方面，搭载了14.15mm大尺寸动圈单元，采用了MEMS麦克风进行通话拾音；"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "左耳",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "后腔内部设置主板单元，扬声器和连接左耳的导线焊接在主板上。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "前腔内部扬声器单元结构一览。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机麦克风拾音孔特写，通过防尘网防护。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "打开左侧耳机腔体，内部设置电池单元。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网此前还拆解过魔声Monster Aria ANC钻石之泪、魔声MISSION V1 TWS耳机、魔声Clarity 108 ANC TWS耳机、魔声CLARITY 8.0 ANC真无线耳机、魔声MONSTER iSport ACHIEVE 脖挂蓝牙耳机等，下面再来看看这款开放式耳机的外观设计和内部结构配置信息吧~"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "前腔内部扬声器单元结构一览。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机外侧采用了透明盖板，右耳为触控区域，贴有标识提醒。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "连接导电布的Pogo Pin连接器特写。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "麦克风两端设置有两颗指示灯，用于反馈耳机蓝牙配对状态。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB5616",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB5616",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "中科蓝讯AB5616B蓝牙音频SoC，芯片内置32位高性能处理器，支持DSP指令集，内置2Mb容量Flash存储器，GPIO引脚可编程设置上拉或下拉电阻，支持GPIO引脚唤醒或中断。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Monster魔声Open Ear Lite开放式耳机外观上采用了轻量化的挂耳式设计，13.2g轻盈机身佩戴舒适无压力；记忆钛合金材质头梁支持任意弯曲，提升个性化佩戴体验和外出携带的便携性。开放式听音效果解放了双耳，避免了长久使用耳道胀痛和听诊器效应。 内部结构配置方面，搭载了14.15mm大尺寸动圈单元，采用了MEMS麦克风进行通话拾音；主控芯片为中科蓝讯AB5616B蓝牙音频SoC，内置32位高性能处理器，支持DSP指令集，支持蓝牙5.0和BLE，内置16位ADC和DAC，集成耳机放大器、PMU；内置锂电池容量100mAh。",
+  "layer_refs": {
+    "technical": [
+      "report:148623"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "三、我爱音频网总结\nMonster魔声Open Ear Lite开放式耳机外观上采用了轻量化的挂耳式设计，13.2g轻盈机身佩戴舒适无压力；记忆钛合金材质头梁支持任意弯曲，提升个性化佩戴体验和外出携带的便携性。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "三、我爱音频网总结\nMonster魔声Open Ear Lite开放式耳机外观上采用了轻量化的挂耳式设计，13.2g轻盈机身佩戴舒适无压力；记忆钛合金材质头梁支持任意弯曲，提升个性化佩戴体验和外出携带的便携性。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\nMonster魔声Open Ear Lite开放式耳机外观上采用了轻量化的挂耳式设计，13.2g轻盈机身佩戴舒适无压力；记忆钛合金材质头梁支持任意弯曲，提升个性化佩戴体验和外出携带的便携性。"
+        }
+      },
+      {
+        "text": "出品商：深圳市玖木通科技有限公司，经销商：深圳市魔声创新技术有限公司。",
+        "tag": "其他",
+        "evidence": {
+          "value": "出品商：深圳市玖木通科技有限公司，经销商：深圳市魔声创新技术有限公司。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "出品商：深圳市玖木通科技有限公司，经销商：深圳市魔声创新技术有限公司。"
+        }
+      },
+      {
+        "text": "耳机麦克风拾音孔特写，通过防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "耳机麦克风拾音孔特写，通过防尘网防护。",
+          "confidence": 0.7,
+          "source_type": "text",
+          "source_text": "耳机麦克风拾音孔特写，通过防尘网防护。"
+        }
+      },
+      {
+        "text": "耳机内侧出音孔采用了类似“WiFi”信号的设计，佩戴时正对耳道，高效集束声波，定向传音入耳，提供开放式聆听体验。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "耳机内侧出音孔采用了类似“WiFi”信号的设计，佩戴时正对耳道，高效集束声波，定向传音入耳，提供开放式聆听体验。",
+          "confidence": 0.69,
+          "source_type": "text",
+          "source_text": "耳机内侧出音孔采用了类似“WiFi”信号的设计，佩戴时正对耳道，高效集束声波，定向传音入耳，提供开放式聆听体验。"
+        }
+      },
+      {
+        "text": "经我爱音频网实测，扬声器尺寸约为14.15mm，大动圈提供更澎湃的音频效果，降低开放式听音的影响。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "经我爱音频网实测，扬声器尺寸约为14.15mm，大动圈提供更澎湃的音频效果，降低开放式听音的影响。",
+          "confidence": 0.69,
+          "source_type": "text",
+          "source_text": "经我爱音频网实测，扬声器尺寸约为14.15mm，大动圈提供更澎湃的音频效果，降低开放式听音的影响。"
+        }
+      },
+      {
+        "text": "右耳上的Type-C充电接口特写，设计有防尘塞防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "右耳上的Type-C充电接口特写，设计有防尘塞防护。",
+          "confidence": 0.65,
+          "source_type": "text",
+          "source_text": "右耳上的Type-C充电接口特写，设计有防尘塞防护。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "通话"
+    ],
+    "positioning_summary": "三、我爱音频网总结\nMonster魔声Open Ear Lite开放式耳机外观上采用了轻量化的挂耳式设计，13.2g轻盈机身佩戴舒适无压力；记忆钛合金材质头梁支持任意弯曲，提升个性化佩戴体验和外出携带的便携性。",
+    "launch_date": null,
+    "best_report_id": "148623",
+    "best_video_id": null
+  }
+}

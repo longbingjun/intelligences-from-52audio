@@ -1,0 +1,247 @@
+{
+  "canonical_id": "xiaomi--mini",
+  "brand": "Xiaomi小米",
+  "model": "蓝牙耳机mini",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "8816"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "8816"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2018-10-16",
+  "latest_published": "2018-10-16",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "高通 CSR8610",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "40 mAh",
+    "speaker": "喇叭单元",
+    "materials": "硅胶",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "IPX4",
+    "bluetooth": "4.1",
+    "bom_row_count": 11,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "8816",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "小米蓝牙耳机mini，最长连续播放时间：约三小时，电池类型：锂离子聚合物电池，产品型号：LYEJ05LM，电池容量：40mAh，充电时间：约1小时，通讯距离：约10米，无线连接：蓝牙4.1。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆解之后可以发现，耳机由外壳、主板和电池组成。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机顶部有通话麦克风孔。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "据我爱音频网拆解，小米蓝牙耳机mini采用采用了强磁面积占比更大的动圈单元，配合后腔发声的结构设计，使得在小体积下同样拥有不错的低音表现。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Unictron咏业科技 CW503 蓝牙天线。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机充电座正面特写，有两个充电触点。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆解之后可以发现，耳机由外壳、主板和电池组成。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机为纯白色，造型圆润，背面有一个按键。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "侧面LED指示灯。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通 CSR8610",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通 CSR8610",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "据我爱音频网拆解，小米蓝牙耳机mini采用Qualcomm高通 CSR8610单芯片蓝牙主控。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通 CSR8610",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通 CSR8610",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm高通 CSR8610详细参数。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:8816"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "小米近日在官方商城上架了小米蓝牙耳机mini，这款耳机在设计上更加轻巧，采用直流供电触点充电的方式，同时也带来了IPX4的防水能力，让这款耳机更加从容地应对各种环境。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "小米近日在官方商城上架了小米蓝牙耳机mini，这款耳机在设计上更加轻巧，采用直流供电触点充电的方式，同时也带来了IPX4的防水能力，让这款耳机更加从容地应对各种环境。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "小米近日在官方商城上架了小米蓝牙耳机mini，这款耳机在设计上更加轻巧，采用直流供电触点充电的方式，同时也带来了IPX4的防水能力，让这款耳机更加从容地应对各种环境。"
+        }
+      },
+      {
+        "text": "支持CVC降噪，内置锂电池充电功能。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "支持CVC降噪，内置锂电池充电功能。",
+          "confidence": 0.65,
+          "source_type": "text",
+          "source_text": "支持CVC降噪，内置锂电池充电功能。"
+        }
+      },
+      {
+        "text": "MEMS贴片硅麦采用硅胶套保护，可以防风噪。",
+        "tag": "其他",
+        "evidence": {
+          "value": "MEMS贴片硅麦采用硅胶套保护，可以防风噪。",
+          "confidence": 0.59,
+          "source_type": "text",
+          "source_text": "MEMS贴片硅麦采用硅胶套保护，可以防风噪。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "小米近日在官方商城上架了小米蓝牙耳机mini，这款耳机在设计上更加轻巧，采用直流供电触点充电的方式，同时也带来了IPX4的防水能力，让这款耳机更加从容地应对各种环境。",
+    "launch_date": null,
+    "best_report_id": "8816",
+    "best_video_id": null
+  }
+}

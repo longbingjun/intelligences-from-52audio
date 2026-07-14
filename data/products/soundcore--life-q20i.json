@@ -1,0 +1,312 @@
+{
+  "canonical_id": "soundcore--life-q20i",
+  "brand": "Soundcore声阔",
+  "model": "Life Q20i",
+  "category": "头戴式耳机",
+  "report_ids": [
+    "217720"
+  ],
+  "video_ids": [
+    "219984"
+  ],
+  "related_report_ids": [
+    "217720"
+  ],
+  "related_video_ids": [
+    "219984"
+  ],
+  "first_seen": "2024-11-06",
+  "latest_published": "2024-11-27",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "恒玄BES2300YP",
+    "pmic_case": "",
+    "battery_ear": "8V/00mAh锂电池",
+    "battery_case": "电池",
+    "speaker": "喇叭单元",
+    "materials": "PC、ABS",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.0",
+    "bom_row_count": 13,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "217720",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "恒玄BES2300YP",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2300YP",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "右耳内置主板单元，采用了BES恒玄BES2300YP蓝牙音频SoC，LPS微源LPA4722A立体声头戴式耳机放大器，Hypwr瀚昕微HP2603的过压过流保护IC等。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "8V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "8V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "左耳内置800mAh锂离子电池组，采用了Chiplink智浦芯联CL4056D充电IC；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机搭载40mm动圈喇叭，双耳内置5颗驻极体麦克风，用于语音通话和降噪功能拾音。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "左侧耳壳上的降噪麦克风拾音孔特写。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "底部标签上介绍有产品信息，产品名称：Soundcore Q20i，产品型号：A3004，颜色：米色，输入：5V-0.75A，电池容量：800mA，制造商：安科创新科技股份有限公司。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部结构一览，设置有主板单元和两颗驻极体麦克风。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Soundcore声阔Life Q20i头戴式降噪耳机搭载了40mm高弹振膜动圈喇叭，支持BassUp低音增强技术，带来浑厚、深沉的低音效果；支持主动降噪功能，包括深度降噪、中度降噪和通透模式，满足多场景降噪需求；支持AI通话降噪，保障复杂场景下的清晰通话效果。续航方面，可支持40h（开启降噪）/60h（关闭降噪）的持久聆听，并搭载闪充技术，充电5分钟畅听4小时。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Soundcore声阔Life Q20i头戴式降噪耳机搭载了40mm高弹振膜动圈喇叭，支持BassUp低音增强技术，带来浑厚、深沉的低音效果；支持主动降噪功能，包括深度降噪、中度降噪和通透模式，满足多场景降噪需求；支持AI通话降噪，保障复杂场景下的清晰通话效果。续航方面，可支持40h（开启降噪）/60h（关闭降噪）的持久聆听，并搭载闪充技术，充电5分钟畅听4小时。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "板载蓝牙天线特写。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机正面外观一览，对称式设计，右侧耳壳上设置功能接口和功能按键。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机指示灯特写，用于工作状态。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2300YP",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2300YP",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄BES2300YP蓝牙音频SoC，集成自适应主动降噪方案，支持蓝牙5.0，用于无线连接和音频数据处理。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2300YP",
+      "qty_hint": "1",
+      "side": "左耳",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2300YP",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "左耳内置800mAh锂离子电池组，采用了Chiplink智浦芯联CL4056D充电IC；右耳内置主板单元，采用了BES恒玄BES2300YP蓝牙音频SoC，LPS微源LPA4722A立体声头戴式耳机放大器，Hypwr瀚昕微HP2603的过压过流保护IC等。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Soundcore声阔Life Q20i头戴式降噪耳机在外观方面，采用了市场主流的设计，米色配色观感简约纯净。亲肤蛋白皮耳罩，佩戴柔软舒适不夹耳；柔软头垫，佩戴有效分散头部压力，提升舒适性。耳机结构功能也非常完整，耳罩支持四向旋转，头梁支持伸缩调节，满足不同头型的舒适佩戴需求；还支持折叠功能，提升便携性。 内部主要配置方面，耳机搭载40mm动圈喇叭，双耳内置5颗驻极体麦克风，用于语音通话和降噪功能拾音。左耳内置800mAh锂离子电池组，采用了Chiplink智浦芯联CL4056D充电IC；右耳内置主板单元，采用了BES恒玄BES2300YP蓝牙音频SoC，LPS微源LPA4722A立体声头戴式耳机放大器，Hypwr瀚昕微HP2603的过压过流保护IC等。",
+  "layer_refs": {
+    "technical": [
+      "report:217720",
+      "video:219984"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "Soundcore声阔是安克创新旗下音频品牌，旗下产品涵盖了TWS耳机、头戴式耳机、降噪耳机和便携式蓝牙音箱等，此次将要拆解的声阔Life Q20i头戴式降噪耳机，是其一款高性价比的热销产品，不但拥有双重深度降噪，还获得了Hi-Res金标认证和QQ音乐臻品认证，能够为用户提供不俗的无线音频体验。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "Soundcore声阔是安克创新旗下音频品牌，旗下产品涵盖了TWS耳机、头戴式耳机、降噪耳机和便携式蓝牙音箱等，此次将要拆解的声阔Life Q20i头戴式降噪耳机，是其一款高性价比的热销产品，不但拥有双重深度降噪，还获得了Hi-Res金标认证和QQ音乐臻品认证，能够为用户提供不俗的无线音频体验。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "Soundcore声阔是安克创新旗下音频品牌，旗下产品涵盖了TWS耳机、头戴式耳机、降噪耳机和便携式蓝牙音箱等，此次将要拆解的声阔Life Q20i头戴式降噪耳机，是其一款高性价比的热销产品，不但拥有双重深度降噪，还获得了Hi-Res金标认证和QQ音乐臻品认证，能够为用户提供不俗的无线音频体验。"
+        }
+      },
+      {
+        "text": "下面就来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过\n声阔漫游S1头戴式降噪耳机\n，声阔\nSport X20\n、\nLiberty 3 Pro真无线降噪耳机\n、\n声阔降噪舱Liberty Air 2 Pro\n、\nSoundcoreLife P3\n、\nSoundcore R100\n、\nSoundcore Life Dot 2\n、\nLIFE P2 MINI\n、\nLiberty 2 Pro\n、\nLiberty Air 2\n真无线耳机，\nSoundcore Spirit Pro运动防水蓝牙耳机\n，\n声阔x喜马拉雅智能眼镜\n，\n声阔睡眠耳机A20\n等。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "下面就来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过\n声阔漫游S1头戴式降噪耳机\n，声阔\nSport X20\n、\nLiberty 3 Pro真无线降噪耳机\n、\n声阔降噪舱Liberty Air 2 Pro\n、\nSoundcoreLife P3\n、\nSoundcore R100\n、\nSoundcore Life Dot 2\n、\nLIFE P2 MINI\n、\nLiberty 2 Pro\n、\nLiberty Air 2\n真无线耳机，\nSoundcore Spirit Pro运动防水蓝牙耳机\n，\n声阔x喜马拉雅智能眼镜\n，\n声阔睡眠耳机A20\n等。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "下面就来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过\n声阔漫游S1头戴式降噪耳机\n，声阔\nSport X20\n、\nLiberty 3 Pro真无线降噪耳机\n、\n声阔降噪舱Liberty Air 2 Pro\n、\nSoundcoreLife P3\n、\nSoundcore R100\n、\nSoundcore Life Dot 2\n、\nLIFE P2 MINI\n、\nLiberty 2 Pro\n、\nLiberty Air 2\n真无线耳机，\nSoundcore Spirit Pro运动防水蓝牙耳机\n，\n声阔x喜马拉雅智能眼镜\n，\n声阔睡眠耳机A20\n等。"
+        }
+      },
+      {
+        "text": "音频线采用了3.5mm to 3.5mm插头，有线连接获得了Hi-Res AUDIO高清音频认证。",
+        "tag": "音质认证",
+        "evidence": {
+          "value": "音频线采用了3.5mm to 3.5mm插头，有线连接获得了Hi-Res AUDIO高清音频认证。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "音频线采用了3.5mm to 3.5mm插头，有线连接获得了Hi-Res AUDIO高清音频认证。"
+        }
+      },
+      {
+        "text": "Soundcore声阔Life Q20i头戴式降噪耳机搭载了40mm高弹振膜动圈喇叭，支持BassUp低音增强技术，带来浑厚、深沉的低音效果；支持主动降噪功能，包括深度降噪、中度降噪和通透模式，满足多场景降噪需求；支持AI通话降噪，保障复杂场景下的清晰通话效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "Soundcore声阔Life Q20i头戴式降噪耳机搭载了40mm高弹振膜动圈喇叭，支持BassUp低音增强技术，带来浑厚、深沉的低音效果；支持主动降噪功能，包括深度降噪、中度降噪和通透模式，满足多场景降噪需求；支持AI通话降噪，保障复杂场景下的清晰通话效果。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "Soundcore声阔Life Q20i头戴式降噪耳机搭载了40mm高弹振膜动圈喇叭，支持BassUp低音增强技术，带来浑厚、深沉的低音效果；支持主动降噪功能，包括深度降噪、中度降噪和通透模式，满足多场景降噪需求；支持AI通话降噪，保障复杂场景下的清晰通话效果。"
+        }
+      },
+      {
+        "text": "耳机结构功能也非常完整，耳罩支持四向旋转，头梁支持伸缩调节，满足不同头型的舒适佩戴需求；还支持折叠功能，提升便携性。",
+        "tag": "舒适佩戴",
+        "evidence": {
+          "value": "耳机结构功能也非常完整，耳罩支持四向旋转，头梁支持伸缩调节，满足不同头型的舒适佩戴需求；还支持折叠功能，提升便携性。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "耳机结构功能也非常完整，耳罩支持四向旋转，头梁支持伸缩调节，满足不同头型的舒适佩戴需求；还支持折叠功能，提升便携性。"
+        }
+      },
+      {
+        "text": "耳机结构功能完整，支持旋转、伸缩调节，提供个性化舒适佩戴；支持折叠，提升便携性。",
+        "tag": "舒适佩戴",
+        "evidence": {
+          "value": "耳机结构功能完整，支持旋转、伸缩调节，提供个性化舒适佩戴；支持折叠，提升便携性。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "耳机结构功能完整，支持旋转、伸缩调节，提供个性化舒适佩戴；支持折叠，提升便携性。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "睡眠",
+      "通话"
+    ],
+    "positioning_summary": "Soundcore声阔是安克创新旗下音频品牌，旗下产品涵盖了TWS耳机、头戴式耳机、降噪耳机和便携式蓝牙音箱等，此次将要拆解的声阔Life Q20i头戴式降噪耳机，是其一款高性价比的热销产品，不但拥有双重深度降噪，还获得了Hi-Res金标认证和QQ音乐臻品认证，能够为用户提供不俗的无线音频体验。",
+    "launch_date": null,
+    "best_report_id": "217720",
+    "best_video_id": null
+  }
+}

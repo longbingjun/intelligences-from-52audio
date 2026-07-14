@@ -1,0 +1,319 @@
+{
+  "canonical_id": "unknown--boat-airdopes-131",
+  "brand": "",
+  "model": "boAt Airdopes 131",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "92360"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "92360"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2021-10-01",
+  "latest_published": "2021-10-01",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "INJOINIC英集芯IP6816",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "650 mAh",
+    "speaker": "喇叭单元",
+    "materials": "PC",
+    "weight_g": "40g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.0",
+    "bom_row_count": 14,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "92360",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部通过螺丝固定主板，FPC排线通过ZIF连接器连接到主板，电池导线焊接在主板上。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电座舱另外一侧电路一览，固定有电池单元。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒采用了立式的圆角方形设计，整机表面光滑圆润。正面开盖处设置有凹槽，下方3颗LED指示灯和boAt品牌LOGO。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "下方有一颗LED指示灯开孔，通过红蓝不同颜色反馈耳机配对状态。同时也是麦克风开孔，用于语音通话拾音。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "boAt Airdopes 131是boAt旗下Airdopes真无线耳机系列的一款产品，外观上采用了柄状的半入耳式设计，配置上采用13mm动圈单元，蓝牙5.0音频芯片，支持多功能控制，唤醒语音助手等功能，拥有3+12小时的整体续航。下面就来看看这款产品的内部结构配置吧~"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "JL杰理AD6976D蓝牙音频SoC，可支持蓝牙5.1，支持AAC、SBC编解码。内置32位 DSP，处理器运行频率最高160MHz，支持噪声抑制和回声消除，支持多波段均衡器。支持单/双麦克风降噪，在此款产品上采用了双麦降噪方案和杰理自研双麦ENC降噪算法。支持两路模拟麦克风放大，内置麦克风偏置。内置双路触摸功能。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "主板上陶瓷蓝牙天线特写。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒采用了立式的圆角方形设计，整机表面光滑圆润。正面开盖处设置有凹槽，下方3颗LED指示灯和boAt品牌LOGO。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "前腔内扬声器通过胶水固定，右侧多颗调音孔，通过防尘网防护。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机背部设置了一颗物理按键，按键上设计有boAt品牌LOGO。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "底部采用了亮银色尾塞，中间正负极充电触点。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP6816",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP6816",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "INJOINIC英集芯IP6816 TWS耳机充电仓管理SoC，是一款集成 Qi 无线充接收、5V升压转\n换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，支持双路耳机独立入仓自动检测，1-4LED呼吸灯效果以及188数码管电量显示，同时支持客制化5V通讯功能，为无线充 TWS 蓝牙耳机充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP6816",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP6816",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "IP6816的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低 BOM 成本。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "英集芯IP6816",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "英集芯IP6816",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "充电盒内部电路非常精简，内置650mAh软包电池，采用了Type-C接口输入电源，由英集芯IP6816电源管理SoC提供完整的TWS耳机充电仓解决方案，集成了5V 升压转换器、锂电池充电管理、\n支持双路耳机独立入仓自动检测，1-4LED呼吸灯效果以及188数码管电量显示，同时支持客制化5V通讯功能\n。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:92360"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "boAt是一个印度消费类数码产品本土品牌，旗下产品包括了耳机、扬声器、可穿戴产品、音箱、旅行充电器和高级电缆等.依托强大的中国制造能力，凭借着良好的产品定位，良好的客户体验感以及优越竞争力的性能和价格，2020在印度个人音频市场份额排名第一。",
+        "tag": "其他",
+        "evidence": {
+          "value": "boAt是一个印度消费类数码产品本土品牌，旗下产品包括了耳机、扬声器、可穿戴产品、音箱、旅行充电器和高级电缆等.依托强大的中国制造能力，凭借着良好的产品定位，良好的客户体验感以及优越竞争力的性能和价格，2020在印度个人音频市场份额排名第一。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "boAt是一个印度消费类数码产品本土品牌，旗下产品包括了耳机、扬声器、可穿戴产品、音箱、旅行充电器和高级电缆等.依托强大的中国制造能力，凭借着良好的产品定位，良好的客户体验感以及优越竞争力的性能和价格，2020在印度个人音频市场份额排名第一。"
+        }
+      },
+      {
+        "text": "耳机内侧泄压孔特写，内部防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "耳机内侧泄压孔特写，内部防尘网防护。",
+          "confidence": 0.66,
+          "source_type": "text",
+          "source_text": "耳机内侧泄压孔特写，内部防尘网防护。"
+        }
+      },
+      {
+        "text": "支持单/双麦克风降噪，在此款产品上采用了双麦降噪方案和杰理自研双麦ENC降噪算法。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "支持单/双麦克风降噪，在此款产品上采用了双麦降噪方案和杰理自研双麦ENC降噪算法。",
+          "confidence": 0.63,
+          "source_type": "text",
+          "source_text": "支持单/双麦克风降噪，在此款产品上采用了双麦降噪方案和杰理自研双麦ENC降噪算法。"
+        }
+      },
+      {
+        "text": "取出扬声器，前腔泄压孔有细密防尘\n网\n防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "取出扬声器，前腔泄压孔有细密防尘\n网\n防护。",
+          "confidence": 0.6,
+          "source_type": "text",
+          "source_text": "取出扬声器，前腔泄压孔有细密防尘\n网\n防护。"
+        }
+      },
+      {
+        "text": "耳机出音嘴特写，贴有防尘网，防止异物进入音腔。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "耳机出音嘴特写，贴有防尘网，防止异物进入音腔。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "耳机出音嘴特写，贴有防尘网，防止异物进入音腔。"
+        }
+      },
+      {
+        "text": "前腔内扬声器通过胶水固定，右侧多颗调音孔，通过防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "前腔内扬声器通过胶水固定，右侧多颗调音孔，通过防尘网防护。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "前腔内扬声器通过胶水固定，右侧多颗调音孔，通过防尘网防护。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "boAt是一个印度消费类数码产品本土品牌，旗下产品包括了耳机、扬声器、可穿戴产品、音箱、旅行充电器和高级电缆等.依托强大的中国制造能力，凭借着良好的产品定位，良好的客户体验感以及优越竞争力的性能和价格，2020在印度个人音频市场份额排名第一。",
+    "launch_date": null,
+    "best_report_id": "92360",
+    "best_video_id": null
+  }
+}

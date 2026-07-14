@@ -35,16 +35,18 @@
     }
   ],
   "cost_snapshot": {
-    "main_chip": "WINSEMI稳先微WSDF23A",
+    "main_chip": "SS881",
     "pmic_case": "WINSEMI稳先微 WINSEMI稳先微WSDF23A",
     "battery_ear": "3.7V/65mAh锂电池",
     "battery_case": "3.85V/720mAh锂电池",
     "speaker": "振膜动圈",
     "materials": "硅胶",
     "weight_g": "114.0g",
+    "weight_case_g": "",
+    "weight_earbud_g": "11.7g",
     "ip_rating": "IPX5",
     "bluetooth": "5.3",
-    "bom_row_count": 18,
+    "bom_row_count": 21,
     "price_cny": null,
     "price_layer": null,
     "channel_url": "",
@@ -54,6 +56,20 @@
     "best_video_id": null
   },
   "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SS881",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "MCU",
+      "evidence": {
+        "value": "SS881",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了SinhMicro昇生微电子SS881A POWER MCU，以及为耳机充电的升压IC和霍尔元件等方案。"
+      }
+    },
     {
       "component": "电池",
       "brand": "",
@@ -295,6 +311,20 @@
     {
       "component": "芯片/模组",
       "brand": "",
+      "model": "SS881",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SS881",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "SinhMicro昇生微电子SS881A POWER MCU，是一颗集成了充放电管理的AD型Flash单片机。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
       "model": "WINSEMI稳先微WSDF23A",
       "qty_hint": "1",
       "side": "",
@@ -304,6 +334,20 @@
         "confidence": 0.78,
         "source_type": "text",
         "source_text": "WINSEMI稳先微WSDF23A2N2H全集成锂电保护IC，具有过充、过放、过流、短路等电池需要的所有保护功能。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SS881",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SS881",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "内部主要配置方面，充电盒搭载了CEL金赛尔3.85V/720mAh锂电池，设置有电路保护板负责过充电、过放电、过电流等保护；主板上，搭载了SinhMicro昇生微电子SS881A POWER MCU，以及为耳机充电的升压IC和霍尔元件等方案。"
       }
     }
   ],

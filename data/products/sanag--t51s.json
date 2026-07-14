@@ -1,0 +1,363 @@
+{
+  "canonical_id": "sanag--t51s",
+  "brand": "SANAG塞那",
+  "model": "T51S",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "202364"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "202364"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2024-06-12",
+  "latest_published": "2024-06-12",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "INJOINIC英集芯IP6818",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "4V/00mAh锂电池",
+    "speaker": "13mm 动圈单元",
+    "materials": "硅胶",
+    "weight_g": "53.2g",
+    "weight_case_g": "",
+    "weight_earbud_g": "4.2g",
+    "ip_rating": "",
+    "bluetooth": "5.4",
+    "bom_row_count": 17,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "202364",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "INJOINIC英集芯IP6818",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP6818",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上搭载了INJOINIC英集芯IP6818多功能电源管理SoC，集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示等功能，单芯片为充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "4V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "4V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置400mAh锂电池，支持有线、无线两种方式输入电源；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "13mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "13mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了13mm动圈单元，内置3颗MEMS麦克风拾音，软包锂电池容量40mAh。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了13mm动圈单元，内置3颗MEMS麦克风拾音，软包锂电池容量40mAh。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "sanag塞那T51S真无线耳机搭载13mm动圈单元，「ACAVITY声学腔体」，提供高解析音质；支持「ACS全景音效」，提供360°环绕式音频体验。在连接方面，支持蓝牙5.4，支持开盖秒连、低延迟游戏模式；在续航方面，单次续航时间7小时，搭配充电盒综合续航30小时；支持闪充、无线充，充电10分钟畅听2小时。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面贴有防伪标签，介绍了产品的功能参数信息。名称：ANC降噪蓝牙耳机，型号：sanag T151S，蓝牙版本：V5.4，连接范围：≥15M，耳机电池容量：40mAh，充电仓电池容量：400mAh，充电电压：5V-1A MAX，生产商：深圳市智创一切科技有限公司。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部通过螺丝固定主板单元，主板下方设置电池。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在功能配置上，sanag塞那T51S真无线耳机搭载6麦克风矩阵，「ANC 3.0三频声波降噪技术」，支持主动降噪功能，降噪深度可达-50dB，降噪频宽达到了4000Hz；同时支持6麦AI通话降噪，搭配抗风噪设计，保障各种场景下的清晰通话。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "sanag塞那T51S真无线耳机搭载13mm动圈单元，「ACAVITY声学腔体」，提供高解析音质；支持「ACS全景音效」，提供360°环绕式音频体验。在连接方面，支持蓝牙5.4，支持开盖秒连、低延迟游戏模式；在续航方面，单次续航时间7小时，搭配充电盒综合续航30小时；支持闪充、无线充，充电10分钟畅听2小时。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在功能配置上，sanag塞那T51S真无线耳机搭载6麦克风矩阵，「ANC 3.0三频声波降噪技术」，支持主动降噪功能，降噪深度可达-50dB，降噪频宽达到了4000Hz；同时支持6麦AI通话降噪，搭配抗风噪设计，保障各种场景下的清晰通话。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "sanag塞那T51S充电盒采用了圆角矩形的撞色设计，质感光滑圆润。银色盒盖上设计有品牌LOGO，下方机身设置一颗LED指示灯，用于反馈蓝牙配对和充电状态。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒底部设置Type-C充电接口和蓝牙配对按键。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄底部充电触点特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP6818",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP6818",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "INJOINIC英集芯IP6818多功能电源管理SoC，集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示等，集成度非常高，单颗芯片即可为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP6818",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP6818",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "IP6818 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸， 降低BOM成本。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "JL7016",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "JL7016",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "JL杰理JL7016G5的蓝牙音频SoC，用于无线传输和音频数据处理。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 sanag塞那T51S真无线降噪耳机在外观方面，充电盒采用了圆角矩形设计，银白撞色，质感圆润，体积轻巧便携；同时采用了开放式座舱结构，能够便捷取放耳机。耳机采用了柄状的入耳式设计，质感与充电盒相同，重量仅有4.2g，搭配三种尺寸的柔软硅胶耳塞，提供舒适轻盈的佩戴体验。 内部主要配置方面，充电盒内置400mAh锂电池，支持有线、无线两种方式输入电源；主板上搭载了INJOINIC英集芯IP6818多功能电源管理SoC，集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示等功能，单芯片为充电仓提供完整的电源解决方案。耳机内部搭载了13mm动圈单元，内置3颗MEMS麦克风拾音，软包锂电池容量40mAh。",
+  "layer_refs": {
+    "technical": [
+      "report:202364"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "在功能配置上，sanag塞那T51S真无线耳机搭载6麦克风矩阵，「ANC 3.0三频声波降噪技术」，支持主动降噪功能，降噪深度可达-50dB，降噪频宽达到了4000Hz；同时支持6麦AI通话降噪，搭配抗风噪设计，保障各种场景下的清晰通话。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "在功能配置上，sanag塞那T51S真无线耳机搭载6麦克风矩阵，「ANC 3.0三频声波降噪技术」，支持主动降噪功能，降噪深度可达-50dB，降噪频宽达到了4000Hz；同时支持6麦AI通话降噪，搭配抗风噪设计，保障各种场景下的清晰通话。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "在功能配置上，sanag塞那T51S真无线耳机搭载6麦克风矩阵，「ANC 3.0三频声波降噪技术」，支持主动降噪功能，降噪深度可达-50dB，降噪频宽达到了4000Hz；同时支持6麦AI通话降噪，搭配抗风噪设计，保障各种场景下的清晰通话。"
+        }
+      },
+      {
+        "text": "丝印二维码的MEMS麦克风，用于通话降噪功能拾音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "丝印二维码的MEMS麦克风，用于通话降噪功能拾音。",
+          "confidence": 0.71,
+          "source_type": "text",
+          "source_text": "丝印二维码的MEMS麦克风，用于通话降噪功能拾音。"
+        }
+      },
+      {
+        "text": "T51S是塞那旗下一款主打降噪的真无线耳机，为用户提供全场景的沉浸式聆听体验。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "T51S是塞那旗下一款主打降噪的真无线耳机，为用户提供全场景的沉浸式聆听体验。",
+          "confidence": 0.68,
+          "source_type": "text",
+          "source_text": "T51S是塞那旗下一款主打降噪的真无线耳机，为用户提供全场景的沉浸式聆听体验。"
+        }
+      },
+      {
+        "text": "三、我爱音频网总结\nsanag塞那T51S真无线降噪耳机在外观方面，充电盒采用了圆角矩形设计，银白撞色，质感圆润，体积轻巧便携；同时采用了开放式座舱结构，能够便捷取放耳机。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "三、我爱音频网总结\nsanag塞那T51S真无线降噪耳机在外观方面，充电盒采用了圆角矩形设计，银白撞色，质感圆润，体积轻巧便携；同时采用了开放式座舱结构，能够便捷取放耳机。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\nsanag塞那T51S真无线降噪耳机在外观方面，充电盒采用了圆角矩形设计，银白撞色，质感圆润，体积轻巧便携；同时采用了开放式座舱结构，能够便捷取放耳机。"
+        }
+      },
+      {
+        "text": "丝印二维码的MEMS麦克风，为前馈降噪麦克风，用于拾取外界环境噪音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "丝印二维码的MEMS麦克风，为前馈降噪麦克风，用于拾取外界环境噪音。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "丝印二维码的MEMS麦克风，为前馈降噪麦克风，用于拾取外界环境噪音。"
+        }
+      },
+      {
+        "text": "名称：ANC降噪蓝牙耳机，型号：sanag T151S，蓝牙版本：V5.4，连接范围：≥15M，耳机电池容量：40mAh，充电仓电池容量：400mAh，充电电压：5V-1A MAX，生产商：深圳市智创一切科技有限公司。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "名称：ANC降噪蓝牙耳机，型号：sanag T151S，蓝牙版本：V5.4，连接范围：≥15M，耳机电池容量：40mAh，充电仓电池容量：400mAh，充电电压：5V-1A MAX，生产商：深圳市智创一切科技有限公司。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "名称：ANC降噪蓝牙耳机，型号：sanag T151S，蓝牙版本：V5.4，连接范围：≥15M，耳机电池容量：40mAh，充电仓电池容量：400mAh，充电电压：5V-1A MAX，生产商：深圳市智创一切科技有限公司。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "在功能配置上，sanag塞那T51S真无线耳机搭载6麦克风矩阵，「ANC 3.0三频声波降噪技术」，支持主动降噪功能，降噪深度可达-50dB，降噪频宽达到了4000Hz；同时支持6麦AI通话降噪，搭配抗风噪设计，保障各种场景下的清晰通话。",
+    "launch_date": null,
+    "best_report_id": "202364",
+    "best_video_id": null
+  }
+}

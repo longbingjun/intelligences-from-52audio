@@ -1,0 +1,235 @@
+{
+  "canonical_id": "unknown--ip5333mcun98",
+  "brand": "",
+  "model": "英集芯IP5333充电盒MCU获n98游戏耳机采用",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "111658"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "111658"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2022-03-20",
+  "latest_published": "2022-03-20",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "INJOINIC英集芯IP53",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "",
+    "speaker": "",
+    "materials": "",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "IP5",
+    "bluetooth": "",
+    "bom_row_count": 8,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.5,
+    "best_report_id": "111658",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "IP5\n333内置12位ADC，可精确计量电池电量，支持\n1\n/2/\n3\n/4颗LED电量显示，并支持定制188数码管电量显示。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网拆解后发现，这款耳机的充电仓管理SoC来自英集芯IP5333，集成升压转换器、锂电池充电管理、电池电量指示和TYPE-C协议等功能，IP5333的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网拆解后发现，这款耳机的充电仓管理SoC来自英集芯IP5333，集成升压转换器、锂电池充电管理、电池电量指示和TYPE-C协议等功能，IP5333的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机还通过IP5333的内置 MCU，实现多达28颗LED灯的控制营造多种不同灯效。芯片的MCU配合内置的12bit ADC，还可准确计算电池电量，实现电量准确显示。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "英集芯IP5333",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "英集芯IP5333",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "我爱音频网拆解后发现，这款耳机的充电仓管理SoC来自英集芯IP5333，集成升压转换器、锂电池充电管理、电池电量指示和TYPE-C协议等功能，IP5333的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP53",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP53",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "标记/认证：INJOINIC英集芯IP53\n33多功能\n电\n源\n管理S\nO\nC，集成升压转换器、锂电池充电管理、电池电量指示\n和TYPE-C协议等\n功能，为TWS充电仓提供完整的解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5333",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5333",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "标记/认证：IP5333只需一个电感实现充电与升压功能。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP53",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP53",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "标记/认证：相关阅读：\n联想LP6真无线蓝牙耳机\n喜马拉雅AI真无线耳机1S\nKiss me Q8真无线耳机\nAMOi夏新S19 TWS蓝牙耳机\n英集芯推出集成Type-C协议的TWS充电盒SOC芯片IP5333\n芯片 INJOINIC英集芯IP53\n芯片 INJOINIC英集芯IP5333"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:111658"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "标记/认证：IP5\n333内置12位ADC，可精确计量电池电量，支持\n1\n/2/\n3\n/4颗LED电量显示，并支持定制188数码管电量显示。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "标记/认证：IP5\n333内置12位ADC，可精确计量电池电量，支持\n1\n/2/\n3\n/4颗LED电量显示，并支持定制188数码管电量显示。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "标记/认证：IP5\n333内置12位ADC，可精确计量电池电量，支持\n1\n/2/\n3\n/4颗LED电量显示，并支持定制188数码管电量显示。"
+        }
+      },
+      {
+        "text": "年轻人是使用TWS耳机的一大群体，目前有许多年轻人习惯用耳机进行“吃鸡”、“王者”等热门游戏的游玩，但是耳机的 […]\n芯片内部集成双路UART接口，\n可\n通过定制功能\n实现\n与\n耳\n机通信。",
+        "tag": "其他",
+        "evidence": {
+          "value": "年轻人是使用TWS耳机的一大群体，目前有许多年轻人习惯用耳机进行“吃鸡”、“王者”等热门游戏的游玩，但是耳机的 […]\n芯片内部集成双路UART接口，\n可\n通过定制功能\n实现\n与\n耳\n机通信。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "年轻人是使用TWS耳机的一大群体，目前有许多年轻人习惯用耳机进行“吃鸡”、“王者”等热门游戏的游玩，但是耳机的 […]\n芯片内部集成双路UART接口，\n可\n通过定制功能\n实现\n与\n耳\n机通信。"
+        }
+      },
+      {
+        "text": "标记/认证：IP5\n33\n3的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "标记/认证：IP5\n33\n3的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "标记/认证：IP5\n33\n3的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+        }
+      },
+      {
+        "text": "标记/认证：轻载时，自动进入休眠状态，静态电流降至20uA以内；IP5333采用开关充电技术，提供额定1A充电电流，充电效率高至91%。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "标记/认证：轻载时，自动进入休眠状态，静态电流降至20uA以内；IP5333采用开关充电技术，提供额定1A充电电流，充电效率高至91%。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "标记/认证：轻载时，自动进入休眠状态，静态电流降至20uA以内；IP5333采用开关充电技术，提供额定1A充电电流，充电效率高至91%。"
+        }
+      },
+      {
+        "text": "标记/认证：IP5333只需一个电感实现充电与升压功能。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "标记/认证：IP5333只需一个电感实现充电与升压功能。",
+          "confidence": 0.64,
+          "source_type": "text",
+          "source_text": "标记/认证：IP5333只需一个电感实现充电与升压功能。"
+        }
+      },
+      {
+        "text": "标记/认证：INJOINIC英集芯IP5333详细资料图。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "标记/认证：INJOINIC英集芯IP5333详细资料图。",
+          "confidence": 0.62,
+          "source_type": "text",
+          "source_text": "标记/认证：INJOINIC英集芯IP5333详细资料图。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏"
+    ],
+    "positioning_summary": "标记/认证：IP5\n333内置12位ADC，可精确计量电池电量，支持\n1\n/2/\n3\n/4颗LED电量显示，并支持定制188数码管电量显示。",
+    "launch_date": null,
+    "best_report_id": "111658",
+    "best_video_id": null
+  }
+}

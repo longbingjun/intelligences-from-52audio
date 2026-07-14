@@ -1,0 +1,253 @@
+{
+  "canonical_id": "unknown--earsopen-docodemospeaker-sp-1",
+  "brand": "",
+  "model": "earsopen逸鸥 docodemoSPEAKER SP-1骨传导蓝牙",
+  "category": "骨传导耳机",
+  "report_ids": [
+    "86440"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "86440"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2021-07-23",
+  "latest_published": "2021-07-23",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "AB1805",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "1000 mAh",
+    "speaker": "喇叭单元",
+    "materials": "硅胶、塑料、ABS",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "3.0",
+    "bom_row_count": 10,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "86440",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒标签上展示有产品的参数信息，包括型号：docodemoSPEAKER SP-1，适用机型：通用，电源：充电式锂电池，输入5V-0.5A，蓝牙：4.1，传输距离：10m，进口商：布谷鸟（上海）智能科技有限公司，制造商BOCO株式会社。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "骨传导传感器和电池导线均通过插座连接到主板。"
+      }
+    },
+    {
+      "component": "骨传导振子",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "骨传导振子",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "音箱底部中间位置便是支撑其能够让介质发声的骨传导动态振子，上方标签信息与包装盒上一致。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "主板上焊接有一块邮票板，邮票板一大半被屏蔽罩覆盖，另外一半印刷板载天线。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "消费者对于蓝牙音箱的传统印象多为通过蓝牙的方式传输音频，再通过喇叭单元输出。而今天将要拆解的这个蓝牙音箱earsopen逸鸥 docodemoSPEAKER SP-1却非常的与众不同，其内部并未搭载具体的发声单元，而是通过直接振动传导介质发声。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "集成了蓝牙1M/2M/3Mbps RF、单周期8位MCU、TX/RX调制解调器、5端口内存控制器、任务/跳频控制器、UART接口和MICROCHIP自己的蓝牙软件堆栈，以实现所需的具有EDR功能的BT4.1。还集成了DSP协处理器、PLL和专用于语音和音频应用的编解码器。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "音箱顶部采用了圆环的设计，四周分布有电源开关、加减音量和暂停播放四颗功能按键。长按电源开关即可通过蓝牙的形式与手机连接使用，中间区域是docodemoSPEAKER骨传导音箱的品牌标志。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "振子和外壳通过弹片连接，螺丝固定，黑色防尘网防止异物进入单元腔体。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "指示灯导光柱特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB1805",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB1805",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "丝印4AB1805的存储器IC。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:86440"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "振子和外壳通过弹片连接，螺丝固定，\n黑色防尘网防止异物进入单元腔体。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "振子和外壳通过弹片连接，螺丝固定，\n黑色防尘网防止异物进入单元腔体。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "振子和外壳通过弹片连接，螺丝固定，\n黑色防尘网防止异物进入单元腔体。"
+        }
+      },
+      {
+        "text": "音箱侧边功能接口有防尘塞保护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "音箱侧边功能接口有防尘塞保护。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "音箱侧边功能接口有防尘塞保护。"
+        }
+      },
+      {
+        "text": "防尘网使用双面胶固定，一旦发生破损也方便更换。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "防尘网使用双面胶固定，一旦发生破损也方便更换。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "防尘网使用双面胶固定，一旦发生破损也方便更换。"
+        }
+      },
+      {
+        "text": "打开防尘塞、内部是Micro-USB充电接口，3.5mm音频接口用于有线的方式输入音频。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "打开防尘塞、内部是Micro-USB充电接口，3.5mm音频接口用于有线的方式输入音频。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "打开防尘塞、内部是Micro-USB充电接口，3.5mm音频接口用于有线的方式输入音频。"
+        }
+      },
+      {
+        "text": "撕掉外层透明防尘贴，下方是具有很强粘性的硅胶垫，用以黏贴在其他物质上，使其伴随音箱震动，实现扩音的效果。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "撕掉外层透明防尘贴，下方是具有很强粘性的硅胶垫，用以黏贴在其他物质上，使其伴随音箱震动，实现扩音的效果。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "撕掉外层透明防尘贴，下方是具有很强粘性的硅胶垫，用以黏贴在其他物质上，使其伴随音箱震动，实现扩音的效果。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动"
+    ],
+    "positioning_summary": "振子和外壳通过弹片连接，螺丝固定，\n黑色防尘网防止异物进入单元腔体。",
+    "launch_date": null,
+    "best_report_id": "86440",
+    "best_video_id": null
+  }
+}

@@ -1,0 +1,309 @@
+{
+  "canonical_id": "unknown--haylou-gt7",
+  "brand": "",
+  "model": "Haylou GT7",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "159123"
+  ],
+  "video_ids": [
+    "259054"
+  ],
+  "related_report_ids": [
+    "159123"
+  ],
+  "related_video_ids": [
+    "259054"
+  ],
+  "first_seen": "2023-05-06",
+  "latest_published": "2025-11-13",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "恒玄BES2500IUC",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "3V/10mAh锂电池",
+    "speaker": "振膜动圈",
+    "materials": "硅胶、PC",
+    "weight_g": "42.0g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.2",
+    "bom_row_count": 15,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "159123",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3V/10mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3V/10mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置310mAh锂电池，采用了Type-C接口输入电源，由LPSemi微源LPS LP4067T芯片为内置电池充电，支持30V输入耐压，最大充电电流为800mA。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "恒玄BES2500IUC",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2500IUC",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载8mm复合振膜动圈单元，内置EVE亿纬锂能35mAh钢壳扣式电池，主控芯片为BES恒玄BES2500IUC蓝牙音频SoC，还采用了一颗意芯微电子MEMS麦克风用于语音通话拾音。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "振膜动圈",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "振膜动圈",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载8mm复合振膜动圈单元，内置EVE亿纬锂能35mAh钢壳扣式电池，主控芯片为BES恒玄BES2500IUC蓝牙音频SoC，还采用了一颗意芯微电子MEMS麦克风用于语音通话拾音。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载8mm复合振膜动圈单元，内置EVE亿纬锂能35mAh钢壳扣式电池，主控芯片为BES恒玄BES2500IUC蓝牙音频SoC，还采用了一颗意芯微电子MEMS麦克风用于语音通话拾音。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱背部结构一览，通过螺丝固定主板单元。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒底部出厂标签上参数信息，通讯距离：10米(无障碍空旷环境)，充电时间：约2小时，播放时间：约5小时，输入参数：5V⎓300mA，输出参数：5V⎓100mA，充电时间：约2小时，电池容量：310mAh，制造商：东莞市猎声电子科技有限公司，中国制造。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Haylou GT7充电盒外观一览，采用了“鹅卵石”状的椭圆形设计，非常洁净的纯白色机身，哑光质感，机身顶部有嘿喽品牌LOGO。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄底部的麦克风拾音孔特写。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "扬声器特写，设置有金属盖板防护，内部采用高品质复合振膜。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧设置蓝牙天线和触摸检测贴片，露铜连接到主板。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄内侧的充电触点特写。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身侧边设置Type-C充电接口和指示灯。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面介绍有产品的功能特点：AAC音频解码，低延迟模式、AI通话降噪、蓝牙5.2、20h续航、智能触控。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2500IUC",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2500IUC",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄BES2500IUC蓝牙音频SoC，BES2500系列不同后缀配置和功能不相同。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Haylou GT7真无线耳机在外观设计方面，充电盒采用了“鹅卵石”状的椭圆形设计，机身腰线设计了“跑道”增加层次感，通体采用了纯白色配色，拥有着非常洁净的观感；耳机采用了柄状入耳式设计，音腔设计圆润顺滑，搭配柔软舒适的透明硅胶耳塞，佩戴与耳廓舒适贴合，同时提供了优秀的密闭性，使音乐听感更加的饱满纯净。 内部主要配置方面，充电盒内置310mAh锂电池，采用了Type-C接口输入电源，由LPSemi微源LPS LP4067T芯片为内置电池充电，支持30V输入耐压，最大充电电流为800mA。耳机内部搭载8mm复合振膜动圈单元，内置EVE亿纬锂能35mAh钢壳扣式电池，主控芯片为BES恒玄BES2500IUC蓝牙音频SoC，还采用了一颗意芯微电子MEMS麦克风用于语音通话拾音。",
+  "layer_refs": {
+    "technical": [
+      "report:159123",
+      "video:259054"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "此次将要拆解的Haylou GT7真无线耳机（潮音小巨蛋）是嘿喽推出的一款入门级TWS耳机产品，以优惠的价格提供了舒适的佩戴体验，超低延迟游戏模式、AAC高清音频解码、AI通话降噪等功能，以及20小时的续航时间，满足用户日常听歌、游戏、通话等场景的使用需求。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "此次将要拆解的Haylou GT7真无线耳机（潮音小巨蛋）是嘿喽推出的一款入门级TWS耳机产品，以优惠的价格提供了舒适的佩戴体验，超低延迟游戏模式、AAC高清音频解码、AI通话降噪等功能，以及20小时的续航时间，满足用户日常听歌、游戏、通话等场景的使用需求。",
+          "confidence": 0.63,
+          "source_type": "text",
+          "source_text": "此次将要拆解的Haylou GT7真无线耳机（潮音小巨蛋）是嘿喽推出的一款入门级TWS耳机产品，以优惠的价格提供了舒适的佩戴体验，超低延迟游戏模式、AAC高清音频解码、AI通话降噪等功能，以及20小时的续航时间，满足用户日常听歌、游戏、通话等场景的使用需求。"
+        }
+      },
+      {
+        "text": "其中，真无线蓝牙耳机产品以“创新，高性价比”为设计理念，在国外电商平台有着不俗的销量。",
+        "tag": "其他",
+        "evidence": {
+          "value": "其中，真无线蓝牙耳机产品以“创新，高性价比”为设计理念，在国外电商平台有着不俗的销量。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "其中，真无线蓝牙耳机产品以“创新，高性价比”为设计理念，在国外电商平台有着不俗的销量。"
+        }
+      },
+      {
+        "text": "取掉耳塞，耳机椭圆形出音嘴特写，白色细密防尘网防护，防止异物进入音腔。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "取掉耳塞，耳机椭圆形出音嘴特写，白色细密防尘网防护，防止异物进入音腔。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "取掉耳塞，耳机椭圆形出音嘴特写，白色细密防尘网防护，防止异物进入音腔。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "此次将要拆解的Haylou GT7真无线耳机（潮音小巨蛋）是嘿喽推出的一款入门级TWS耳机产品，以优惠的价格提供了舒适的佩戴体验，超低延迟游戏模式、AAC高清音频解码、AI通话降噪等功能，以及20小时的续航时间，满足用户日常听歌、游戏、通话等场景的使用需求。",
+    "launch_date": null,
+    "best_report_id": "159123",
+    "best_video_id": null
+  }
+}

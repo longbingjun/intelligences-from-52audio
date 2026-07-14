@@ -16,20 +16,22 @@
   "internal_match_suggestions": [],
   "cost_snapshot": {
     "main_chip": "INJOINIC英集芯IP5513",
-    "pmic_case": "",
+    "pmic_case": "WP1230",
     "battery_ear": "3.7V/50mAh锂电池",
     "battery_case": "3.7V/400mAh锂电池",
     "speaker": "振膜动圈",
     "materials": "",
     "weight_g": "48.8g",
+    "weight_case_g": "",
+    "weight_earbud_g": "5.5g",
     "ip_rating": "",
     "bluetooth": "5.4",
-    "bom_row_count": 17,
+    "bom_row_count": 19,
     "price_cny": null,
     "price_layer": null,
     "channel_url": "",
     "sales_hint": null,
-    "data_completeness": 0.83,
+    "data_completeness": 1.0,
     "best_report_id": "278933",
     "best_video_id": null
   },
@@ -46,6 +48,20 @@
         "confidence": 0.85,
         "source_type": "summary_prose",
         "source_text": "主板上，搭载INJOINIC英集芯IP5513电源管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，负责内置电池的充放电管理和整机控制；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WP1230",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "WP1230",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "其他还采用了Wayon维安WP1230过压保护IC等。"
       }
     },
     {
@@ -261,15 +277,29 @@
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "英集芯IP5513",
+      "model": "IP5513",
       "qty_hint": "1",
       "side": "",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "英集芯IP5513",
+        "value": "IP5513",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。"
+        "source_text": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WP1230",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "WP1230",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Wayon维安WP1230过压保护IC，当检测到错误的输入操作条件时，自动断开系统与其输出引脚（OUT）的连接。"
       }
     }
   ],

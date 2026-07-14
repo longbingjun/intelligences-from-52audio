@@ -1,0 +1,431 @@
+{
+  "canonical_id": "baseus--bowie-m3",
+  "brand": "Baseus倍思",
+  "model": "Bowie M3真无线半入耳降噪",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "175319"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "175319"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-09-21",
+  "latest_published": "2023-09-21",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "INJOINIC英集芯IP5333",
+    "pmic_case": "Prisemi芯导 Prisemi芯导P14C1S",
+    "battery_ear": "电池",
+    "battery_case": "4V/00mAh锂电池",
+    "speaker": "生物振膜",
+    "materials": "PC",
+    "weight_g": "49.3g",
+    "weight_case_g": "",
+    "weight_earbud_g": "4.4g",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 22,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "175319",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "INJOINIC英集芯IP5333",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5333",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置旭航诚电子400mAh，支持有线和无线两种方式输入电源，有线采用了INJOINIC英集芯IP5333多功能电源管理SoC，集成升压转换器、锂电池充电管理、电池电量指示和TYPE-C协议等功能，支持1A充放电；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "Prisemi芯导",
+      "model": "Prisemi芯导P14C1S",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "Prisemi芯导P14C1S",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "还采用了Prisemi芯导P14C1S过压过流保护IC等。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "WINSEMI稳先微",
+      "model": "WINSEMI稳先微WSDF13F",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "WINSEMI稳先微WSDF13F",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内置0.135Wh钢壳扣式电池，来自MIC-POWER微电新能源，配备了WINSEMI稳先微WSDF13F2N2H锂电保护IC负责充电保护；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "Bluetrum中科蓝讯",
+      "model": "Bluetrum中科蓝讯BT8951H",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Bluetrum中科蓝讯BT8951H",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片为Bluetrum中科蓝讯BT8951H蓝牙音频SoC，内置高性能32位RISC-V处理器内核和HIFI 4 DSP，支持蓝牙5.4和BLE规范，支持灵活的音频均衡器调节，三通道MIC放大器输入，集成锂电池充电功能。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "4V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "4V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置旭航诚电子400mAh，支持有线和无线两种方式输入电源，有线采用了INJOINIC英集芯IP5333多功能电源管理SoC，集成升压转换器、锂电池充电管理、电池电量指示和TYPE-C协议等功能，支持1A充放电；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "生物振膜",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "生物振膜",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部12mm羊毛生物振膜动圈单元，内置通话+前馈+后馈三颗瑞勤电子的MEMS麦克风拾音；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部12mm羊毛生物振膜动圈单元，内置通话+前馈+后馈三颗瑞勤电子的MEMS麦克风拾音；"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "倍思Bowie M3搭载12mm生物振膜喇叭，提供出色的低频层次感和动态变化；支持空间音效，能够营造更具沉浸感的立体声场。在无线连接方面，支持蓝牙5.3，支持双设备智慧连接，支持倍思双通道低延迟技术，延迟可低至0.06秒。续航上，耳机单次续航时间约6.5小时，搭配充电盒综合续航约30小时，支持无线充电，支持倍思瞬时闪充，提供便捷快速的充电体验。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面通过多种文字介绍有产品的参数信息，名称：倍思TWS真无线蓝牙耳机；型号：Baseus Bowie M3；电池容量：35mAh/0.135Wh（耳机），400mAh/1.48Wh（充电盒）；耳机额定输入：DC5V-65mA；充电仓额定输入：DC5V-650mA；充电接口：Type-C。以及制造商深圳市倍思科技有限公司的部分信息。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部通过螺丝固定主板单元。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机外侧外观一览，盖板采用了与充电盒盖相同的珠宝工艺设计，提升了产品的时尚感和辨识度。耳机柄上方为触控区域，下方设置有通话麦克风和指示灯开孔，通过金属网防护。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "倍思Bowie M3搭载12mm生物振膜喇叭，提供出色的低频层次感和动态变化；支持空间音效，能够营造更具沉浸感的立体声场。在无线连接方面，支持蓝牙5.3，支持双设备智慧连接，支持倍思双通道低延迟技术，延迟可低至0.06秒。续航上，耳机单次续航时间约6.5小时，搭配充电盒综合续航约30小时，支持无线充电，支持倍思瞬时闪充，提供便捷快速的充电体验。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在TWS耳机市场，半入耳式耳机基于轻巧的外观设计，不封闭耳道的舒适佩戴体验，拥有着众多的用户群体，因此也成为了品牌在布局市场时的主要产品线之一。近期，Baseus倍思举办了“2023全场景数码生活秋季发布会”，众多新品正式亮相，其中包括了一款半入耳式TWS耳机，且支持主动降噪功能，兼具舒适佩戴和沉浸式音频体验。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖版内侧结构一览，设置有蓝牙天线和触摸检测贴片，以及通话麦克风声学结构和指示灯导光柱。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "撬开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面机身上设置有一颗条形指示灯，用于蓝牙配对和充电状态。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒底部设置有Type-C充电接口和一颗功能按键。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄底部的充电触点特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP5333",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5333",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "INJOINIC英集芯IP5333多功能电源管理SoC，集成升压转换器、锂电池充电管理、电池电量指示和TYPE-C协议等功能，为TWS充电仓提供完整的解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5333",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5333",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "IP5333非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Prisemi芯导P14C1S",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Prisemi芯导P14C1S",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Prisemi芯导P14C1S过压过流保护IC，输入耐压高达32V，过压保护点为固定6V。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Bluetrum中科蓝讯BT8951H",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Bluetrum中科蓝讯BT8951H",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Bluetrum中科蓝讯BT8951H蓝牙音频SoC，QFN40 4*6封装，内置高性能32位RISC-V处理器内核和HIFI 4 DSP，RISC-V包含浮点单元 (FPU) ，支持浮点运算，RISC-V最高速度125MHz，HIFI 4最高速度270MHz；内部16Mbit闪存，892KB RAM；具有可编程上拉和下拉电阻的灵活GPIO引脚，支持GPIO唤醒或中断。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Baseus倍思Bowie M3真无线降噪耳机在外观设计方面，整体体积小巧轻便，新增珠光工艺，进一步提升了产品的时尚感和质感。充电盒采用开放式座舱结构，更加便于取放和清洁；耳机采用了柄状的半入耳式设计，搭配仅约4.4g的机身重量，拥有着舒适的佩戴体验。 内部主要配置方面，充电盒内置旭航诚电子400mAh，支持有线和无线两种方式输入电源，有线采用了INJOINIC英集芯IP5333多功能电源管理SoC，集成升压转换器、锂电池充电管理、电池电量指示和TYPE-C协议等功能，支持1A充放电；无线采用了NuVolta伏达NU1680C无线充电接收芯片，具有高效率和低成本的特点；还采用了Prisemi芯导P14C1S过压过流保护IC等。 耳机内部12mm羊毛生物振膜动圈单元，内置通话+前馈+后馈三颗瑞勤电子的MEMS麦克风拾音；内置0.135Wh钢壳扣式电池，来自MIC-POWER微电新能源，配备了WINSEMI稳先微WSDF13F2N2H锂电保护IC负责充电保护；主控芯片为Bluetrum中科蓝讯BT8951H蓝牙音频SoC，内置高性能32位RISC-V处理器内核和HIFI 4 DSP，支持蓝牙5.4和BLE规范，支持灵活的音频均衡器调节，三通道MIC放大器输入，集成锂电池充电功能。",
+  "layer_refs": {
+    "technical": [
+      "report:175319"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "近期，Baseus倍思举办了“2023全场景数码生活秋季发布会”，众多新品正式亮相，其中包括了一款半入耳式TWS耳机，且支持主动降噪功能，兼具舒适佩戴和沉浸式音频体验。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "近期，Baseus倍思举办了“2023全场景数码生活秋季发布会”，众多新品正式亮相，其中包括了一款半入耳式TWS耳机，且支持主动降噪功能，兼具舒适佩戴和沉浸式音频体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "近期，Baseus倍思举办了“2023全场景数码生活秋季发布会”，众多新品正式亮相，其中包括了一款半入耳式TWS耳机，且支持主动降噪功能，兼具舒适佩戴和沉浸式音频体验。"
+        }
+      },
+      {
+        "text": "Baseus倍思Bowie M3是倍思旗下首款支持主动降噪的半入耳式产品，搭载了自适应降噪算法，每一次佩戴时都会自动检测耳道结构与佩戴状态，智能匹配适合的降噪深度，从而平衡耳压与噪声，达到舒适降噪的效果；还支持六麦通话降噪功能，搭配AI抗风噪算法，保障各种场景下的清晰通话质量。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "Baseus倍思Bowie M3是倍思旗下首款支持主动降噪的半入耳式产品，搭载了自适应降噪算法，每一次佩戴时都会自动检测耳道结构与佩戴状态，智能匹配适合的降噪深度，从而平衡耳压与噪声，达到舒适降噪的效果；还支持六麦通话降噪功能，搭配AI抗风噪算法，保障各种场景下的清晰通话质量。",
+          "confidence": 0.59,
+          "source_type": "text",
+          "source_text": "Baseus倍思Bowie M3是倍思旗下首款支持主动降噪的半入耳式产品，搭载了自适应降噪算法，每一次佩戴时都会自动检测耳道结构与佩戴状态，智能匹配适合的降噪深度，从而平衡耳压与噪声，达到舒适降噪的效果；还支持六麦通话降噪功能，搭配AI抗风噪算法，保障各种场景下的清晰通话质量。"
+        }
+      },
+      {
+        "text": "倍思Bowie M3搭载12mm生物振膜喇叭，提供出色的低频层次感和动态变化；支持空间音效，能够营造更具沉浸感的立体声场。",
+        "tag": "空间音频",
+        "evidence": {
+          "value": "倍思Bowie M3搭载12mm生物振膜喇叭，提供出色的低频层次感和动态变化；支持空间音效，能够营造更具沉浸感的立体声场。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "倍思Bowie M3搭载12mm生物振膜喇叭，提供出色的低频层次感和动态变化；支持空间音效，能够营造更具沉浸感的立体声场。"
+        }
+      },
+      {
+        "text": "正面展示有耳机外观，品牌LOGO和产品名称，以及自适应主动降噪、Drop Top方案设计和空间音效的产品功能特点。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "正面展示有耳机外观，品牌LOGO和产品名称，以及自适应主动降噪、Drop Top方案设计和空间音效的产品功能特点。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "正面展示有耳机外观，品牌LOGO和产品名称，以及自适应主动降噪、Drop Top方案设计和空间音效的产品功能特点。"
+        }
+      },
+      {
+        "text": "另外一侧展示有三项产品特点：倍思智慧双连、30小时长续航和六麦通话降噪，以及防伪标签。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "另外一侧展示有三项产品特点：倍思智慧双连、30小时长续航和六麦通话降噪，以及防伪标签。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "另外一侧展示有三项产品特点：倍思智慧双连、30小时长续航和六麦通话降噪，以及防伪标签。"
+        }
+      },
+      {
+        "text": "在TWS耳机市场，半入耳式耳机基于轻巧的外观设计，不封闭耳道的舒适佩戴体验，拥有着众多的用户群体，因此也成为了品牌在布局市场时的主要产品线之一。",
+        "tag": "舒适佩戴",
+        "evidence": {
+          "value": "在TWS耳机市场，半入耳式耳机基于轻巧的外观设计，不封闭耳道的舒适佩戴体验，拥有着众多的用户群体，因此也成为了品牌在布局市场时的主要产品线之一。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "在TWS耳机市场，半入耳式耳机基于轻巧的外观设计，不封闭耳道的舒适佩戴体验，拥有着众多的用户群体，因此也成为了品牌在布局市场时的主要产品线之一。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "近期，Baseus倍思举办了“2023全场景数码生活秋季发布会”，众多新品正式亮相，其中包括了一款半入耳式TWS耳机，且支持主动降噪功能，兼具舒适佩戴和沉浸式音频体验。",
+    "launch_date": null,
+    "best_report_id": "175319",
+    "best_video_id": null
+  }
+}

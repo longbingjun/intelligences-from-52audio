@@ -1,0 +1,241 @@
+{
+  "canonical_id": "unknown--233621-sense",
+  "brand": "",
+  "model": "233621 SENSE 颈挂式体温心率监测",
+  "category": "颈挂式蓝牙耳机",
+  "report_ids": [
+    "72718"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "72718"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2021-02-18",
+  "latest_published": "2021-02-18",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "高通QCC3034",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "130 mAh",
+    "speaker": "喇叭单元",
+    "materials": "硅胶、PC",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "IPX5",
+    "bluetooth": "5.1",
+    "bom_row_count": 9,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "72718",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "配置方面，采用高通QCC3034蓝牙芯片，支持蓝牙5.1技术，支持aptX-HD高清音频解码、第八代cVc通话降噪技术，IPX5级防水和10小时的续航时间。下面就让我们一起来看看这款产品内部结构配置吧~"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "线材标签信息有型号：233621 SENSE；CMIIT ID：2020DP6993；电池容量：130mAh以及深圳市冠旭电子股份有限公司，中国制造等信息。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机整体外观一览，白色配色。U性记忆项圈两侧分别有两个腔体，线材上还有一个麦克风腔体。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "扬声器单元导线和体温心率检测单元排线分别与小板连接。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "侧边蓝牙天线小板与主板焊接。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "左侧腔体外侧同样设计有233621品牌名和品牌LOGO，与右侧不同的是，233621还兼具了指示灯功能，用于体温心率监测和异常预警。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "内侧有L/左标识，中间三颗功能按键兼具了听音乐、通话和体温心率检测多项功能，右侧有蓝牙连接指示灯和智能语音键。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC3034",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC3034",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "配置方面，采用高通QCC3034蓝牙芯片，支持蓝牙5.1技术，支持aptX-HD高清音频解码、第八代cVc通话降噪技术，IPX5级防水和10小时的续航时间。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC3034",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC3034",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "右侧腔体内为电池单元，电池容量130mAh，来自CEL金赛尔，为耳机提供10h的续航；左侧腔体内有主板单元和体温心率监测指示灯，主板上主控芯片为高通QCC3034低功耗蓝牙音频SoC，支持高通aptX HD音频编码，支持高通的TWS+低延迟技术；还有一颗丝印U64A的存储器，用于存储主控芯片的蓝牙配置等硬件信息，主板上有输入过压保护芯片。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:72718"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "ADI亚德诺半导体ADT7420数字温度传感器，采用4mm × 4mm LFCSP封装，可在较宽的工业温度范围内提供突破性的性能。",
+        "tag": "其他",
+        "evidence": {
+          "value": "ADI亚德诺半导体ADT7420数字温度传感器，采用4mm × 4mm LFCSP封装，可在较宽的工业温度范围内提供突破性的性能。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "ADI亚德诺半导体ADT7420数字温度传感器，采用4mm × 4mm LFCSP封装，可在较宽的工业温度范围内提供突破性的性能。"
+        }
+      },
+      {
+        "text": "整体而言，233621 SENSE 颈挂式体温心率监测耳机是一款创新型应用产品，通过保证基础功能优异的同时在耳机内部新增了体温心率检测传感器单元，扩展了蓝牙耳机的功能，提升了用户的使用场景，为蓝牙音频产品与用户健康的结合进行开拓性探索，更提供了新的发展方向。",
+        "tag": "其他",
+        "evidence": {
+          "value": "整体而言，233621 SENSE 颈挂式体温心率监测耳机是一款创新型应用产品，通过保证基础功能优异的同时在耳机内部新增了体温心率检测传感器单元，扩展了蓝牙耳机的功能，提升了用户的使用场景，为蓝牙音频产品与用户健康的结合进行开拓性探索，更提供了新的发展方向。",
+          "confidence": 0.62,
+          "source_type": "text",
+          "source_text": "整体而言，233621 SENSE 颈挂式体温心率监测耳机是一款创新型应用产品，通过保证基础功能优异的同时在耳机内部新增了体温心率检测传感器单元，扩展了蓝牙耳机的功能，提升了用户的使用场景，为蓝牙音频产品与用户健康的结合进行开拓性探索，更提供了新的发展方向。"
+        }
+      },
+      {
+        "text": "腔体内泄压孔有防尘网覆盖，防止异物进入腔体。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "腔体内泄压孔有防尘网覆盖，防止异物进入腔体。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "腔体内泄压孔有防尘网覆盖，防止异物进入腔体。"
+        }
+      },
+      {
+        "text": "耳机出音嘴特写，有防尘网覆盖，防止异物进入腔体。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "耳机出音嘴特写，有防尘网覆盖，防止异物进入腔体。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "耳机出音嘴特写，有防尘网覆盖，防止异物进入腔体。"
+        }
+      },
+      {
+        "text": "还支持高通的TWS+低延迟技术，不过手机端需要高通骁龙855及以上平台才可支持。",
+        "tag": "游戏低延迟",
+        "evidence": {
+          "value": "还支持高通的TWS+低延迟技术，不过手机端需要高通骁龙855及以上平台才可支持。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "还支持高通的TWS+低延迟技术，不过手机端需要高通骁龙855及以上平台才可支持。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "通话",
+      "健身"
+    ],
+    "positioning_summary": "ADI亚德诺半导体ADT7420数字温度传感器，采用4mm × 4mm LFCSP封装，可在较宽的工业温度范围内提供突破性的性能。",
+    "launch_date": null,
+    "best_report_id": "72718",
+    "best_video_id": null
+  }
+}

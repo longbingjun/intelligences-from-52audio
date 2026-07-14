@@ -1,0 +1,235 @@
+{
+  "canonical_id": "unknown--cleer-du-wireless",
+  "brand": "",
+  "model": "CLEER DU Wireless 头戴蓝牙",
+  "category": "头戴式耳机",
+  "report_ids": [
+    "71198"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "71198"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2021-01-29",
+  "latest_published": "2021-01-29",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "高通CSR8645",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "450 mAh",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "4.1",
+    "bom_row_count": 8,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "71198",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "插头分为三段式和四段式两种，分别对应左右声道、接地和线控麦克风。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "左耳",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "左耳腔体内结构一览，有3.5mm音频输入小板和主板单元。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Cleer，成立于2012年，是一家专注于智能耳机、智能音箱研发、制造和销售的高端声学品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CES科技创新奖在内的全球各类大奖，拥有多项专利技术。此次我爱音频网为大家带来的是Cleer旗下的一款双单元的头戴式蓝牙耳机——CLEER DU Wireless。在外观设计，头梁采用了金属材质，头垫和耳罩由人工蛋白皮制成，搭配内部柔软填充物，触感柔润，佩戴舒适；可伸缩式头梁结构设计独特，支持折叠功能，搭配多向转轴，携带便捷佩戴舒适。功能配置上，CLEER DU Wireless内置40mm定制双发声单元分别负责中高频和低频，采用高品质蓝牙传输技术，支持aptX数字音频编解码，有效提升蓝牙音频的播放效果。支持NFC近场通讯技术，与同样支持NFC功能的手机实现一触即连，配对简单便捷；并且配备了3.5mm耳机接口，支持有线连接方式输入。此前我爱音频网曾还拆解过Cleer ALLY PLUS 真无线降噪耳机、Cleer ALLY 真无线蓝牙耳机、Cleer FLOW 降噪头戴蓝牙耳机和Cleer无线颈挂智能音箱HALO等，产品类型较为丰"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Qualcomm高通CSR8645双模ROM音频SoC，蓝牙版本4.1。集成双模蓝牙无线电，低功耗DSP，应用处理器，电池充电器，存储器以及各种音频和硬件接口，支持cVc语音处理技术和aptX编解码器技术，以基于ROM的经济型单芯片封装提供高质量的语音和音乐功能，适用于较小设计的集成单芯片解决方案。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "NFC天线内侧有屏蔽纸覆盖，防止受到干扰。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "正面有一个功能按键，用于暂停播放和接听挂断来电。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "四颗指示灯特写，用于查看耳机剩余电量。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通CSR8645",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通CSR8645",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm高通CSR8645双模ROM音频SoC，蓝牙版本4.1。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:71198"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "Cleer，成立于2012年，是一家专注于智能耳机、智能音箱研发、制造和销售的高端声学品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CES科技创新奖在内的全球各类大奖，拥有多项专利技术。",
+        "tag": "旗舰定位",
+        "evidence": {
+          "value": "Cleer，成立于2012年，是一家专注于智能耳机、智能音箱研发、制造和销售的高端声学品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CES科技创新奖在内的全球各类大奖，拥有多项专利技术。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "Cleer，成立于2012年，是一家专注于智能耳机、智能音箱研发、制造和销售的高端声学品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CES科技创新奖在内的全球各类大奖，拥有多项专利技术。"
+        }
+      },
+      {
+        "text": "采用获专利的Impedance Track\n算法支持电量监测，可提供剩余电池容量（mAh），充电状态（％）和电池电压（mV）等信息，用于精确电量显示。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "采用获专利的Impedance Track\n算法支持电量监测，可提供剩余电池容量（mAh），充电状态（％）和电池电压（mV）等信息，用于精确电量显示。",
+          "confidence": 0.69,
+          "source_type": "text",
+          "source_text": "采用获专利的Impedance Track\n算法支持电量监测，可提供剩余电池容量（mAh），充电状态（％）和电池电压（mV）等信息，用于精确电量显示。"
+        }
+      },
+      {
+        "text": "线控内侧腔体上麦克风开孔有防尘棉覆盖，防止异物进入。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "线控内侧腔体上麦克风开孔有防尘棉覆盖，防止异物进入。",
+          "confidence": 0.67,
+          "source_type": "text",
+          "source_text": "线控内侧腔体上麦克风开孔有防尘棉覆盖，防止异物进入。"
+        }
+      },
+      {
+        "text": "底部有设计公司，商标版权说明，以及FCC、CE认证，可循环和禁止丢弃标识。",
+        "tag": "其他",
+        "evidence": {
+          "value": "底部有设计公司，商标版权说明，以及FCC、CE认证，可循环和禁止丢弃标识。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "底部有设计公司，商标版权说明，以及FCC、CE认证，可循环和禁止丢弃标识。"
+        }
+      },
+      {
+        "text": "正面有产品左耳外观渲染图，产品名称CLEER DU Wireless 双单元蓝牙耳机，HD高清音频和2018年TNT新技术大奖认证。",
+        "tag": "其他",
+        "evidence": {
+          "value": "正面有产品左耳外观渲染图，产品名称CLEER DU Wireless 双单元蓝牙耳机，HD高清音频和2018年TNT新技术大奖认证。",
+          "confidence": 0.63,
+          "source_type": "text",
+          "source_text": "正面有产品左耳外观渲染图，产品名称CLEER DU Wireless 双单元蓝牙耳机，HD高清音频和2018年TNT新技术大奖认证。"
+        }
+      },
+      {
+        "text": "耳罩内侧防尘网特写。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "耳罩内侧防尘网特写。",
+          "confidence": 0.62,
+          "source_type": "text",
+          "source_text": "耳罩内侧防尘网特写。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "Cleer，成立于2012年，是一家专注于智能耳机、智能音箱研发、制造和销售的高端声学品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CES科技创新奖在内的全球各类大奖，拥有多项专利技术。",
+    "launch_date": null,
+    "best_report_id": "71198",
+    "best_video_id": null
+  }
+}

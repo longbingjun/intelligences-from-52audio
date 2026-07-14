@@ -1,0 +1,278 @@
+{
+  "canonical_id": "unknown--swonderalpha",
+  "brand": "",
+  "model": "Swonder鲸语Alpha防水",
+  "category": "骨传导耳机",
+  "report_ids": [
+    "163679"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "163679"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-06-16",
+  "latest_published": "2023-06-16",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "",
+    "pmic_case": "",
+    "battery_ear": "2V/50mAh锂电池",
+    "battery_case": "电池",
+    "speaker": "喇叭单元",
+    "materials": "硅胶、钛合金、PC",
+    "weight_g": "43.5g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 11,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.67,
+    "best_report_id": "163679",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "2V/50mAh锂电池",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "2V/50mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "右侧腔体内部设置主板单元、指示灯和功能按键小板，左侧腔体内置250mAh锂电池组，以及指示灯小板和一颗驱动IC。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "内部结构配置方面，发声单元腔体采用双层结构设计，搭载了直径约16mm的超大骨传导振子，右耳内部还设置有麦克风用于语音通话拾音。"
+      }
+    },
+    {
+      "component": "骨传导振子",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "骨传导振子",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Swonder鲸语Alpha防水骨传导耳机外观方面采用了挂耳式结构设计，环保硅胶+钛合金材质，提供长久舒适、稳定的佩戴体验。功能配置方面，支持IP68深度防水，满足游泳、冲浪、浮潜等多种水上运动场景；搭载超大骨传导振子，搭配炬芯音响级芯片，以及鲸语专业品质调音，带来三频均衡的优质音频体验。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "挑开连接器，分离主板单元。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身底部外观一览，右侧腔体底部设置有功能按键，耳机底部设置麦克风拾音孔。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "丝印LTH7u的锂电池线性充电IC，用于为内置锂电池充电。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "右耳",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "发声单元腔体外观一览，同样通过硅胶材质包裹，保障佩戴舒适性；较大的体积，则能够更好地贴合皮肤，以保障水下使用的音频效果。右耳外侧设计有浮雕品牌LOGO，同时也是多功能按键。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "右耳",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "发声单元腔体外观一览，同样通过硅胶材质包裹，保障佩戴舒适性；较大的体积，则能够更好地贴合皮肤，以保障水下使用的音频效果。右耳外侧设计有浮雕品牌LOGO，同时也是多功能按键。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "透明腔体另外一侧内部固定LED灯小板和功能按键小板。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "鲸语Alpha骨传导耳机整体外观一览，采用挂耳式设计，黑色+灰色配色。耳挂和颈带均采用了环保硅胶+钛合金材质，佩戴贴合皮肤舒适，弹性强随意弯曲，可以适应不同用户的佩戴需求。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "右耳",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "首先来看右耳拆解部分，撬开外壳，取掉盖板。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Swonder鲸语Alpha防水骨传导耳机在外观设计方面，采用了目前骨传导耳机主流的挂耳式设计，能够提供稳定的佩戴效果；同时在耳挂、颈带、发声单元等与皮肤接触的位置采用环保硅胶材质，保障了长久佩戴的舒适性。机身两侧腔体上，创新设计了可以跟随音乐节奏变幻的LED流光夜跑呼吸灯，营造夜跑氛围感的同时，也提升了安全性。 内部结构配置方面，发声单元腔体采用双层结构设计，搭载了直径约16mm的超大骨传导振子，右耳内部还设置有麦克风用于语音通话拾音。左右两侧腔体采用了多层盖板结构，同时通过大量胶水填充和密封，以保障防水性能。右侧腔体内部设置主板单元、指示灯和功能按键小板，左侧腔体内置250mAh锂电池组，以及指示灯小板和一颗驱动IC。 耳机主控芯片为Actions炬芯ATS2853蓝牙音频SoC，集成了高性能收发器、功能丰富的基带处理器和蓝牙音频模式，支持双模蓝牙5.3，支持PLC技术和AEC，提供高质量音频和语音通话；功率放大器采用了ANATEK安耐科ANT8112 AB/D类双模音频功放，内置两颗分别驱动两侧发声单元。",
+  "layer_refs": {
+    "technical": [
+      "report:163679"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "功能配置方面，支持IP68深度防水，满足游泳、冲浪、浮潜等多种水上运动场景；搭载超大骨传导振子，搭配炬芯音响级芯片，以及鲸语专业品质调音，带来三频均衡的优质音频体验。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "功能配置方面，支持IP68深度防水，满足游泳、冲浪、浮潜等多种水上运动场景；搭载超大骨传导振子，搭配炬芯音响级芯片，以及鲸语专业品质调音，带来三频均衡的优质音频体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "功能配置方面，支持IP68深度防水，满足游泳、冲浪、浮潜等多种水上运动场景；搭载超大骨传导振子，搭配炬芯音响级芯片，以及鲸语专业品质调音，带来三频均衡的优质音频体验。"
+        }
+      },
+      {
+        "text": "腔体内侧产品信息，产品：骨传导防水耳机，型号：鲸语Alpha，深圳市星链创想科技有限公司，输入：5V-1000mA，以及IP68标志和CE、FCC认证等。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "腔体内侧产品信息，产品：骨传导防水耳机，型号：鲸语Alpha，深圳市星链创想科技有限公司，输入：5V-1000mA，以及IP68标志和CE、FCC认证等。",
+          "confidence": 0.64,
+          "source_type": "text",
+          "source_text": "腔体内侧产品信息，产品：骨传导防水耳机，型号：鲸语Alpha，深圳市星链创想科技有限公司，输入：5V-1000mA，以及IP68标志和CE、FCC认证等。"
+        }
+      },
+      {
+        "text": "近期，鲸语推出了首款消费级专业防水骨传导耳机——鲸语Alpha，兼顾日常使用与水下运动使用，拥有着专业的防水能力和更高品质的音乐体验。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "近期，鲸语推出了首款消费级专业防水骨传导耳机——鲸语Alpha，兼顾日常使用与水下运动使用，拥有着专业的防水能力和更高品质的音乐体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "近期，鲸语推出了首款消费级专业防水骨传导耳机——鲸语Alpha，兼顾日常使用与水下运动使用，拥有着专业的防水能力和更高品质的音乐体验。"
+        }
+      },
+      {
+        "text": "机身两侧腔体上，创新设计了可以跟随音乐节奏变幻的LED流光夜跑呼吸灯，营造夜跑氛围感的同时，也提升了安全性。",
+        "tag": "其他",
+        "evidence": {
+          "value": "机身两侧腔体上，创新设计了可以跟随音乐节奏变幻的LED流光夜跑呼吸灯，营造夜跑氛围感的同时，也提升了安全性。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "机身两侧腔体上，创新设计了可以跟随音乐节奏变幻的LED流光夜跑呼吸灯，营造夜跑氛围感的同时，也提升了安全性。"
+        }
+      },
+      {
+        "text": "Swonder鲸语Alpha防水骨传导耳机外观方面采用了挂耳式结构设计，环保硅胶+钛合金材质，提供长久舒适、稳定的佩戴体验。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "Swonder鲸语Alpha防水骨传导耳机外观方面采用了挂耳式结构设计，环保硅胶+钛合金材质，提供长久舒适、稳定的佩戴体验。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "Swonder鲸语Alpha防水骨传导耳机外观方面采用了挂耳式结构设计，环保硅胶+钛合金材质，提供长久舒适、稳定的佩戴体验。"
+        }
+      },
+      {
+        "text": "麦克风拾音孔特写，内部防水透气膜防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "麦克风拾音孔特写，内部防水透气膜防护。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "麦克风拾音孔特写，内部防水透气膜防护。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "通话"
+    ],
+    "positioning_summary": "功能配置方面，支持IP68深度防水，满足游泳、冲浪、浮潜等多种水上运动场景；搭载超大骨传导振子，搭配炬芯音响级芯片，以及鲸语专业品质调音，带来三频均衡的优质音频体验。",
+    "launch_date": null,
+    "best_report_id": "163679",
+    "best_video_id": null
+  }
+}

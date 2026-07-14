@@ -1,0 +1,328 @@
+{
+  "canonical_id": "kaiboaudio--flex",
+  "brand": "kaiboaudio凯博",
+  "model": "FLEX",
+  "category": "骨传导耳机",
+  "report_ids": [
+    "160834"
+  ],
+  "video_ids": [
+    "259051"
+  ],
+  "related_report_ids": [
+    "160834"
+  ],
+  "related_video_ids": [
+    "259051"
+  ],
+  "first_seen": "2023-05-19",
+  "latest_published": "2025-11-13",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "Injoinic英集芯IP5518",
+    "pmic_case": "INJOINIC英集芯 Injoinic英集芯IP5518",
+    "battery_ear": "电池",
+    "battery_case": "5V/00mAh锂电池",
+    "speaker": "",
+    "materials": "塑料、PC",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.2",
+    "bom_row_count": 15,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "160834",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "Injoinic英集芯IP5518",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "PMIC/充电仓管理",
+      "evidence": {
+        "value": "Injoinic英集芯IP5518",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内部配置方面，无线充电座内置500mAh锂电池，支持有线和无线两种方式输入电源，有线采用了Type-C接口，配备Injoinic英集芯IP5518 TWS耳机充电仓管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等功能，支持最大500mA充电电流和300mA输出电流；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "5V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "5V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内部配置方面，无线充电座内置500mAh锂电池，支持有线和无线两种方式输入电源，有线采用了Type-C接口，配备Injoinic英集芯IP5518 TWS耳机充电仓管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等功能，支持最大500mA充电电流和300mA输出电流；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机内侧外观一览，颈带上设置电池单元腔体。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体另外一侧结构一览，主板通过螺丝固定，导线焊接在主板上。"
+      }
+    },
+    {
+      "component": "骨传导振子",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "骨传导振子",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "骨传导振子外壳同样采用了亲肤橡胶材质，耳机柄上设置有光学佩戴检测传感器和为耳机充电的金属触点。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机背部触控区域椭圆形凹槽设计，两侧有麦克风拾音孔和指示灯。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机无线充电座外观设计独特，正面银色铭牌装饰，设计有三颗指示灯，用于反馈剩余电量信息。内置锂电池单元，可以为耳机提供额外续航时间（可以看做是开放式座舱设计的充电盒）。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "陶瓷蓝牙天线特写，用于无线信号收发。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机背部触控区域椭圆形凹槽设计，两侧有麦克风拾音孔和指示灯。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "kaiboaudio KAIBO FLEX耳机采用了一体的耳挂式设计，对称式结构，黑色配色搭配银色品牌LOGO，颈带和耳挂均采用了柔软的橡胶材质，佩戴亲肤舒适。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "骨传导振子外壳同样采用了亲肤橡胶材质，耳机柄上设置有光学佩戴检测传感器和为耳机充电的金属触点。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机背部触控区域椭圆形凹槽设计，两侧有麦克风拾音孔和指示灯。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "为耳机充电小板上的Pogo Pin连接器特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Injoinic英集芯IP5518",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Injoinic英集芯IP5518",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Injoinic英集芯IP5518 TWS耳机充电仓管理SoC，是一款集成MCU，集成了5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5518",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5518",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "IP5518的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 kaiboaudio KAIBO FLEX骨传导耳机在外观方面采用了左右对称的耳挂式设计，重量均衡，佩戴稳定；耳挂、颈带和骨传导振子均采用了柔软亲肤的橡胶材质，佩戴舒适贴合皮肤。无线充电座外观设计独特，观感极具未来科技感；开放式磁吸接口，实现为耳机便捷充电，同时提供了更持久的续航时间。 内部配置方面，无线充电座内置500mAh锂电池，支持有线和无线两种方式输入电源，有线采用了Type-C接口，配备Injoinic英集芯IP5518 TWS耳机充电仓管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等功能，支持最大500mA充电电流和300mA输出电流；无线充电采用了COPO酷珀微CP2022芯片，符合Qi V1.2.4标准，可提供3W的输入功率。 耳机内部采用了和TWS耳机相同的设计，左右两侧电路互相独立，通过无线连接。主要配置方面，搭载直径14mm的圆形骨传导振子，内置LIR1654钢壳扣式电池，主控芯片为Realtek瑞昱RTL8753EFE蓝牙音频SoC，用于无线信号传输和音频数据处理。",
+  "layer_refs": {
+    "technical": [
+      "report:160834",
+      "video:259051"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "镭雕2126 FX17的MEMS麦克风特写，用于通话降噪功能拾取环境噪音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "镭雕2126 FX17的MEMS麦克风特写，用于通话降噪功能拾取环境噪音。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "镭雕2126 FX17的MEMS麦克风特写，用于通话降噪功能拾取环境噪音。"
+        }
+      },
+      {
+        "text": "kaiboaudio是一个跨境品牌，基于自研专利骨传导技术，打造了多款不同形态的骨传导蓝牙耳机产品。",
+        "tag": "其他",
+        "evidence": {
+          "value": "kaiboaudio是一个跨境品牌，基于自研专利骨传导技术，打造了多款不同形态的骨传导蓝牙耳机产品。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "kaiboaudio是一个跨境品牌，基于自研专利骨传导技术，打造了多款不同形态的骨传导蓝牙耳机产品。"
+        }
+      },
+      {
+        "text": "IP5518内置IC温度和输入电压智能调节充电电流功能；内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示；内置12bit ADC，可准确计算电池电量。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "IP5518内置IC温度和输入电压智能调节充电电流功能；内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示；内置12bit ADC，可准确计算电池电量。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "IP5518内置IC温度和输入电压智能调节充电电流功能；内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示；内置12bit ADC，可准确计算电池电量。"
+        }
+      },
+      {
+        "text": "耳机柄末端设置通话拾音麦克风开孔，通过防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "耳机柄末端设置通话拾音麦克风开孔，通过防尘网防护。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "耳机柄末端设置通话拾音麦克风开孔，通过防尘网防护。"
+        }
+      },
+      {
+        "text": "用于连接无线充电座的金属铜柱，底部橡胶圈密封防水。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "用于连接无线充电座的金属铜柱，底部橡胶圈密封防水。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "用于连接无线充电座的金属铜柱，底部橡胶圈密封防水。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "镭雕2126 FX17的MEMS麦克风特写，用于通话降噪功能拾取环境噪音。",
+    "launch_date": null,
+    "best_report_id": "160834",
+    "best_video_id": null
+  }
+}

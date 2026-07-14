@@ -1,0 +1,278 @@
+{
+  "canonical_id": "unknown--fiil-key",
+  "brand": "",
+  "model": "FIIL Key",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "121545"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "121545"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2022-06-14",
+  "latest_published": "2022-06-14",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "AB1562",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "31 mAh",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "IPX4",
+    "bluetooth": "5.3",
+    "bom_row_count": 11,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "121545",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "S\ninhMicro昇生微S\nS809\n是一款集成了充放电管理的AD型单片机，内置线性充电单元为锂电池充电，同时有专门的耳机通信接口，实现充电盒跟耳机双向通信功能；SS809集成了MCU微处理器和嵌入式闪存，可以更容易地升级其固件，便于工程师加入个性化的定制功能。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "S\ninhMicro昇生微S\nS809\n是一款集成了充放电管理的AD型单片机，内置线性充电单元为锂电池充电，同时有专门的耳机通信接口，实现充电盒跟耳机双向通信功能；SS809集成了MCU微处理器和嵌入式闪存，可以更容易地升级其固件，便于工程师加入个性化的定制功能。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "另外一颗同样规格的MEMS通话降噪麦克风特写，两颗麦克风协同拾音，搭配降噪算法，提供清晰地语音通话效果。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机内部采用了\n13mm定制镀钛振膜单元，0.114Wh软包扣试电池，主板上设置有稳先微WSDF3311锂电保护IC。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "扬声器正面定制镀钛振膜特写。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网此前还拆解过FIILCC Pro真无线降噪蓝牙耳机、FIIL CC 真无线蓝牙耳机、FIIL T1 真无线入耳式蓝牙耳机、FIIL DRIIFTER PRO颈挂式主动降噪蓝牙耳机，下面再来一起看看这款产品的详细外观设计和内部结构配置信息吧~"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "撬开充电盒外壳，腔体内部结构一览，后盖固定有电池单元，通过导线连接到座舱上的主板。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "稳先微WSDF3311",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "稳先微WSDF3311",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "耳机内部采用了\n13mm定制镀钛振膜单元，0.114Wh软包扣试电池，主板上设置有稳先微WSDF3311锂电保护IC。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB1562",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB1562",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：31\n芯片 AB1562\n芯片 WINSEMI稳先微WSDF3311\n芯片 SS881"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WINSEMI稳先微WSDF3311",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "WINSEMI稳先微WSDF3311",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：31\n芯片 AB1562\n芯片 WINSEMI稳先微WSDF3311\n芯片 SS881"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SS881",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SS881",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：31\n芯片 AB1562\n芯片 WINSEMI稳先微WSDF3311\n芯片 SS881"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:121545"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "FIIL是摇滚音乐人汪峰参与创立的耳机品牌，中文名斐耳，旗下产品包括了真无线耳机系列、随身星系列颈挂式耳机、D […]\n另外一颗同样规格的MEMS通话降噪麦克风特写，两颗麦克风协同拾音，搭配降噪算法，提供清晰地语音通话效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "FIIL是摇滚音乐人汪峰参与创立的耳机品牌，中文名斐耳，旗下产品包括了真无线耳机系列、随身星系列颈挂式耳机、D […]\n另外一颗同样规格的MEMS通话降噪麦克风特写，两颗麦克风协同拾音，搭配降噪算法，提供清晰地语音通话效果。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "FIIL是摇滚音乐人汪峰参与创立的耳机品牌，中文名斐耳，旗下产品包括了真无线耳机系列、随身星系列颈挂式耳机、D […]\n另外一颗同样规格的MEMS通话降噪麦克风特写，两颗麦克风协同拾音，搭配降噪算法，提供清晰地语音通话效果。"
+        }
+      },
+      {
+        "text": "通话降噪麦克风拾音孔特写。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "通话降噪麦克风拾音孔特写。",
+          "confidence": 0.64,
+          "source_type": "text",
+          "source_text": "通话降噪麦克风拾音孔特写。"
+        }
+      },
+      {
+        "text": "支持新一代回声消除和降噪方案，提高耳机产品语音通话的音频质量；还支持 Airoha MCSync技术，允许耳塞在左右耳塞之间无缝切换，以获得更平衡的声音和低延迟。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "支持新一代回声消除和降噪方案，提高耳机产品语音通话的音频质量；还支持 Airoha MCSync技术，允许耳塞在左右耳塞之间无缝切换，以获得更平衡的声音和低延迟。",
+          "confidence": 0.61,
+          "source_type": "text",
+          "source_text": "支持新一代回声消除和降噪方案，提高耳机产品语音通话的音频质量；还支持 Airoha MCSync技术，允许耳塞在左右耳塞之间无缝切换，以获得更平衡的声音和低延迟。"
+        }
+      },
+      {
+        "text": "S\ninhMicro昇生微S\nS809\n是一款集成了充放电管理的AD型单片机，内置线性充电单元为锂电池充电，同时有专门的耳机通信接口，实现充电盒跟耳机双向通信功能；SS809集成了MCU微处理器和嵌入式闪存，可以更容易地升级其固件，便于工程师加入个性化的定制功能。",
+        "tag": "其他",
+        "evidence": {
+          "value": "S\ninhMicro昇生微S\nS809\n是一款集成了充放电管理的AD型单片机，内置线性充电单元为锂电池充电，同时有专门的耳机通信接口，实现充电盒跟耳机双向通信功能；SS809集成了MCU微处理器和嵌入式闪存，可以更容易地升级其固件，便于工程师加入个性化的定制功能。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "S\ninhMicro昇生微S\nS809\n是一款集成了充放电管理的AD型单片机，内置线性充电单元为锂电池充电，同时有专门的耳机通信接口，实现充电盒跟耳机双向通信功能；SS809集成了MCU微处理器和嵌入式闪存，可以更容易地升级其固件，便于工程师加入个性化的定制功能。"
+        }
+      },
+      {
+        "text": "扬声器正面定制镀钛振膜特写。",
+        "tag": "其他",
+        "evidence": {
+          "value": "扬声器正面定制镀钛振膜特写。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "扬声器正面定制镀钛振膜特写。"
+        }
+      },
+      {
+        "text": "耳机内部采用了\n13mm定制镀钛振膜单元，0.114Wh软包扣试电池，主板上设置有稳先微WSDF3311锂电保护IC。",
+        "tag": "其他",
+        "evidence": {
+          "value": "耳机内部采用了\n13mm定制镀钛振膜单元，0.114Wh软包扣试电池，主板上设置有稳先微WSDF3311锂电保护IC。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "耳机内部采用了\n13mm定制镀钛振膜单元，0.114Wh软包扣试电池，主板上设置有稳先微WSDF3311锂电保护IC。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "FIIL是摇滚音乐人汪峰参与创立的耳机品牌，中文名斐耳，旗下产品包括了真无线耳机系列、随身星系列颈挂式耳机、D […]\n另外一颗同样规格的MEMS通话降噪麦克风特写，两颗麦克风协同拾音，搭配降噪算法，提供清晰地语音通话效果。",
+    "launch_date": null,
+    "best_report_id": "121545",
+    "best_video_id": null
+  }
+}

@@ -1,0 +1,393 @@
+{
+  "canonical_id": "baseus--as01",
+  "brand": "Baseus倍思",
+  "model": "AS01开放式",
+  "category": "开放式耳机",
+  "report_ids": [
+    "192227"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "192227"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2024-03-11",
+  "latest_published": "2024-03-11",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "思远半导体SY8815",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "4V/00mAh锂电池",
+    "speaker": "喇叭单元",
+    "materials": "PC",
+    "weight_g": "50.5g",
+    "weight_case_g": "",
+    "weight_earbud_g": "5.1g",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 20,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "192227",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "思远半导体",
+      "model": "思远半导体SY8815",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8815",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，采用了思远半导体SY8815蓝牙耳机充电仓解决方案，集成充电模块和放电模块，支持放电使能控制，MCU可以直接通过EN来灵活控制芯片的放电功能；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB5636",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB5636",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部，音腔内搭载10mm动圈喇叭和主板单元，采用了Bluetrum中科蓝讯AB5636D蓝牙音频SoC，符合蓝牙5.4和BLE规范，支持1路MIC放大器输入，支持低功耗触摸键、入耳检测，内置PMU；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "4V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "4V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载了400mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "搭载了一颗MEMS麦克风用于语音通话功能拾音；"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面介绍有产品的参数信息，名称：倍思开放式真无线耳机，型号：Baseus AirGo AS01，蓝牙版本：V5.3，听歌时间：约6小时（70%音量），配合充电盒听歌时间：约25小时，电池容量：40mAh/0.148Wh（耳机），400mAh/1.48Wh（充电盒），耳机额定输入：5V-80mA，充电盒额定输入：5V-400mA，耳机额定消耗电流：6.7mA，充电盒额定消耗电流：280mA，频响范围：20Hz~20kHz，充电接口：Type-C；制造商：深圳市倍思科技有限公司。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面介绍有产品的参数信息，名称：倍思开放式真无线耳机，型号：Baseus AirGo AS01，蓝牙版本：V5.3，听歌时间：约6小时（70%音量），配合充电盒听歌时间：约25小时，电池容量：40mAh/0.148Wh（耳机），400mAh/1.48Wh（充电盒），耳机额定输入：5V-80mA，充电盒额定输入：5V-400mA，耳机额定消耗电流：6.7mA，充电盒额定消耗电流：280mA，频响范围：20Hz~20kHz，充电接口：Type-C；制造商：深圳市倍思科技有限公司。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部固定主板，排线通过ZIF连接器连接主板，电池导线与主板焊接。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机内侧音腔外侧外观一览，中间触控区域采用透明盖板设计，设置有指示灯和麦克风拾音孔。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "后腔底部结构一览，贴有蓝牙天线和触摸检测贴片。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "前腔内部扬声器单元结构一览。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身正面设计有“baseus”品牌LOGO，设置有一颗指示灯，用于反馈剩余电量和蓝牙配对状态。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身底部设置Type-C充电接口和用于蓝牙配对的功能按键。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机底部外观一览，外侧腔体设置有充电触点。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "开放式耳机基于全新结构设计为用户提供的持久舒适聆听体验，成为了目前TWS耳机市场的热点，并且随着众多品牌纷纷入场，开放式耳机的市场占有率快速提升。针对于这一市场，倍思相继发布了Eli Sport 1和AirGo AG20两款耳挂式产品，并在近期又推出了耳夹式的AS01，来满足不同消费者的使用喜好。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8815",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8815",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "思远半导体SY8815蓝牙耳机充电仓解决方案，专为蓝牙耳机仓设计，内部集成充电模块和放电模块。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SY8815",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SY8815",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "SY8815放电使能控制，MCU可以直接通过EN来灵活控制芯片的放电功能。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB5636",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB5636",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Bluetrum中科蓝讯AB5636D蓝牙音频SoC，内置32位高性能RISC-V处理器，支持DSP指令，运行频率最高125MHz；内置8Mbits闪存，256KB RAM，具有可编程上拉和下拉电阻的灵活GPIO引脚；支持GPIO唤醒或中断；AB5636D符合蓝牙5.4和BLE规范，最大发射输出功率+9dBm，接受灵敏度-94dBm，支持具有平衡效率的TWS通信功耗，支持TWS主从交换机。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WINSEMI稳先微WSDF2311A",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "WINSEMI稳先微WSDF2311A",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "WINSEMI稳先微WSDF2311A锂电保护IC。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WINSEMI稳先微WSDF2311",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "WINSEMI稳先微WSDF2311",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "WINSEMI稳先微WSDF2311系列详细资料图。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Baseus倍思AS01开放式真无线耳机在外观方面，整体体积相较于耳挂式耳机更加轻巧，与主流TWS耳机相当。充电盒采用了鹅卵石状的圆润设计，质感简约纯净，使用便携；耳机采用了耳夹式设计，重量仅5.1g，搭配高弹性TPU亲肤耳环，能够为不同用户提供舒适、轻盈、稳固的佩戴体验。 内部主要配置方面，充电盒搭载了400mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护；主板上，采用了思远半导体SY8815蓝牙耳机充电仓解决方案，集成充电模块和放电模块，支持放电使能控制，MCU可以直接通过EN来灵活控制芯片的放电功能；还采用了一颗MCU负责整机控制。 耳机内部，音腔内搭载10mm动圈喇叭和主板单元，采用了Bluetrum中科蓝讯AB5636D蓝牙音频SoC，符合蓝牙5.4和BLE规范，支持1路MIC放大器输入，支持低功耗触摸键、入耳检测，内置PMU；搭载了一颗MEMS麦克风用于语音通话功能拾音；后腔内部设置电池电源和电源输入小板，电池容量40mAh。",
+  "layer_refs": {
+    "technical": [
+      "report:192227"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "开放式耳机基于全新结构设计为用户提供的持久舒适聆听体验，成为了目前TWS耳机市场的热点，并且随着众多品牌纷纷入场，开放式耳机的市场占有率快速提升。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "开放式耳机基于全新结构设计为用户提供的持久舒适聆听体验，成为了目前TWS耳机市场的热点，并且随着众多品牌纷纷入场，开放式耳机的市场占有率快速提升。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "开放式耳机基于全新结构设计为用户提供的持久舒适聆听体验，成为了目前TWS耳机市场的热点，并且随着众多品牌纷纷入场，开放式耳机的市场占有率快速提升。"
+        }
+      },
+      {
+        "text": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n一加\n、\n小米、OPPO、Redmi、iQOO、漫步者、联想、传音、倍思、科大讯飞、用维、公牛、小天才、Cleer、Fiio、JadeAudio翡声、MEES、YOBYBO、HAYLOU、DENON天龙、Oladance、Nothing、XTOUR、final、酷睿视、Skullcandy\n、\nvivo\n、\nQCY\n、\n猛玛\n、\n声阔\n、\n绿联\n、\nNothing\n、\nrealme、魅族、百度、网易、JBL、哈曼、联想\n、\n万魔、233621、传音、魔宴、创新科技\n等国内外知名品牌采用。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n一加\n、\n小米、OPPO、Redmi、iQOO、漫步者、联想、传音、倍思、科大讯飞、用维、公牛、小天才、Cleer、Fiio、JadeAudio翡声、MEES、YOBYBO、HAYLOU、DENON天龙、Oladance、Nothing、XTOUR、final、酷睿视、Skullcandy\n、\nvivo\n、\nQCY\n、\n猛玛\n、\n声阔\n、\n绿联\n、\nNothing\n、\nrealme、魅族、百度、网易、JBL、哈曼、联想\n、\n万魔、233621、传音、魔宴、创新科技\n等国内外知名品牌采用。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n一加\n、\n小米、OPPO、Redmi、iQOO、漫步者、联想、传音、倍思、科大讯飞、用维、公牛、小天才、Cleer、Fiio、JadeAudio翡声、MEES、YOBYBO、HAYLOU、DENON天龙、Oladance、Nothing、XTOUR、final、酷睿视、Skullcandy\n、\nvivo\n、\nQCY\n、\n猛玛\n、\n声阔\n、\n绿联\n、\nNothing\n、\nrealme、魅族、百度、网易、JBL、哈曼、联想\n、\n万魔、233621、传音、魔宴、创新科技\n等国内外知名品牌采用。"
+        }
+      },
+      {
+        "text": "弧形麦克风拾音孔特写，内部防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "弧形麦克风拾音孔特写，内部防尘网防护。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "弧形麦克风拾音孔特写，内部防尘网防护。"
+        }
+      },
+      {
+        "text": "前腔底部结构一览，出音孔和调音孔均设置有防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "前腔底部结构一览，出音孔和调音孔均设置有防尘网防护。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "前腔底部结构一览，出音孔和调音孔均设置有防尘网防护。"
+        }
+      },
+      {
+        "text": "另外一侧盒盖上印有CE认证标志，可循环使用和禁止丢弃标识。",
+        "tag": "其他",
+        "evidence": {
+          "value": "另外一侧盒盖上印有CE认证标志，可循环使用和禁止丢弃标识。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "另外一侧盒盖上印有CE认证标志，可循环使用和禁止丢弃标识。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "开放式耳机基于全新结构设计为用户提供的持久舒适聆听体验，成为了目前TWS耳机市场的热点，并且随着众多品牌纷纷入场，开放式耳机的市场占有率快速提升。",
+    "launch_date": null,
+    "best_report_id": "192227",
+    "best_video_id": null
+  }
+}

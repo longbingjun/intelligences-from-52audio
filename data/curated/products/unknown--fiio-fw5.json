@@ -1,0 +1,415 @@
+{
+  "canonical_id": "unknown--fiio-fw5",
+  "brand": "",
+  "model": "飞傲FiiO FW5",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "149331"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "149331"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-02-20",
+  "latest_published": "2023-02-20",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "思远半导体SY8821",
+    "pmic_case": "",
+    "battery_ear": "3V/80mAh锂电池",
+    "battery_case": "电池",
+    "speaker": "振膜动圈",
+    "materials": "硅胶、PC",
+    "weight_g": "55.6g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "IPX4",
+    "bluetooth": "5.2",
+    "bom_row_count": 23,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "149331",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "思远半导体",
+      "model": "思远半导体SY8821",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8821",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内置锂电池容量380mAh，配备有电池保护板防护，主板上采用了SY思远半导体SY8821电源管理SoC负责电池的充放电管理，充电电流外部可以调节，放电模块集成两路输出限流开关，并集成NTC保护功能，更安全的对电池进行充放电。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "Qualcomm高通",
+      "model": "高通QCC5141",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC5141",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片为高通QCC5141蓝牙音频SoC，支持蓝牙5.2，支持高通Snapdragon Sound骁龙畅听技术，兼具高性能音频与低功耗的特点；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "Qualcomm高通",
+      "model": "高通Snapdragon",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通Snapdragon",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片为高通QCC5141蓝牙音频SoC，支持蓝牙5.2，支持高通Snapdragon Sound骁龙畅听技术，兼具高性能音频与低功耗的特点；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3V/80mAh锂电池",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "3V/80mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内置锂电池容量380mAh，配备有电池保护板防护，主板上采用了SY思远半导体SY8821电源管理SoC负责电池的充放电管理，充电电流外部可以调节，放电模块集成两路输出限流开关，并集成NTC保护功能，更安全的对电池进行充放电。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "振膜动圈",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "振膜动圈",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部结构设计层叠有序，配置上采用了10mm DLC球顶+PU悬边振膜动圈单元+两颗楼氏动铁单元，两颗MEMS麦克风用于语音通话拾音；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "2",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部结构设计层叠有序，配置上采用了10mm DLC球顶+PU悬边振膜动圈单元+两颗楼氏动铁单元，两颗MEMS麦克风用于语音通话拾音；"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "FiiO FW5是飞傲新一代旗舰TWS耳机产品，外观上采用了FD5/FD7/FDX系列的“火山堆”设计，极具特点和辨识度。功能配置上，继承了飞傲对高品质音频体验的追求，集高端蓝牙芯片、独立DAC芯片和专业声学架构于一身，提供全链路HiFi体验。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "FiiO FW5充电盒采用了磨砂质感，正面设置有4颗指示灯，能够更直观的反馈充电盒电量信息。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒底部印有产品的部分参数信息和认证标志。产品型号：FW5，输入：5V⎓1A，输出：5V⎓0.2A，充电盒电池参数：380mAh/3.7V 1.4Wh，耳机电池参数：65mAh/3.7V。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "出音管内设置两颗动铁单元，分别通过漆包铜线连接到FPC小板。通过摆放在音嘴，使用时更加靠近耳膜，能够有效减少高频在传播时的损失。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "FiiO FW5真无线耳机搭载了一圈两铁声学架构，保障低频下潜和中高频细节表现；采用了高通QCC5141蓝牙音频SoC，获得Snapdragon Sound骁龙畅听认证，支持aptX Adaptive/LHDC等高清蓝牙格式；内置独立DAC芯片，提供高性能的解码能力、高信噪比、高动态范围和低失真；内置双麦克风单元，支持cVc回声消除和降噪技术，提供清晰通话；还支持独立音量控制，IPX4级防水，拥有单次7h，综合21h的续航。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧设置FPC天线，丝印型号“FW5-ANT-L-V01”，露铜连接到主板。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "高通QCC5141将高性能音频与低功耗相结合，支持24bit/96KHz高解析度音频，支持高通aptX音频编码，包括aptX Adaptive技术；支持aptX Voice优化通话语音和第八代高通cVc回声消除和噪声抑制技术；还可支持高通自适应主动降噪功能（在本款产品上未应用），包括前馈，后馈，混合和自适应，通过高通扩展程序支持第三方创新。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "FiiO FW5充电盒采用了磨砂质感，正面设置有4颗指示灯，能够更直观的反馈充电盒电量信息。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身侧边设置有四颗实体按键，能够实现各项功能的便捷控制。单耳一颗按键上设置有凸点，便于盲操作时区分。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开卡扣式固定的充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身内侧采用了细腻的磨砂质感，提升佩戴的舒适性和稳定性。设置有L/R左右标识和充电触点。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网此前还拆解过飞傲FiiO UTWS5真无线耳挂、FiiO飞傲EH3 NC 降噪头戴蓝牙耳机、FiiO飞傲 M3 Pro便携式无损音乐播放器、FiiO飞傲μBTR蓝牙音频接收器、FiiO飞傲UTWS1真无线蓝牙接收器等产品，下面再来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Qualcomm aptX",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Qualcomm aptX",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "包装盒背面展示有蓝牙、Qualcomm aptX\nAdaptive、AAC、SBC标志，以及产品的其它部分信息，制造商：广州飞傲电子科技有限公司，型号：FW5，额定输入：5V⎓1A，中国制造。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8821",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8821",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "思远半导体SY8821电源管理SoC，内部集成充电模块和放电模块。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC5141",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC5141",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "高通QCC5141将高性能音频与低功耗相结合，支持24bit/96KHz高解析度音频，支持高通aptX音频编码，包括aptX Adaptive技术；支持aptX Voice优化通话语音和第八代高通cVc回声消除和噪声抑制技术；还可支持高通自适应主动降噪功能（在本款产品上未应用），包括前馈，后馈，混合和自适应，通过高通扩展程序支持第三方创新。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC51XX",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC51XX",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm高通QCC51XX框图。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "QCC51",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "QCC51",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm高通QCC51XX框图。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 飞傲FiiO FW5真无线耳机在外观方面，充电盒采用了磨砂质感，机身曲线圆润握持舒适，4颗指示灯设计，能够更直观的反馈剩余电量信息。豆状的入耳式耳机采用了类金属和磨砂两种工艺处理，面板设计“火山堆结构”，有效提升了产品质感和辨识度。标配6副硅胶耳塞，满足个性化需求，HS18耳套提供了更加舒适的佩戴体验。 内部结构配置方面，充电盒包括主板、电池和一条FPC排线连接指示灯和霍尔元件。内置锂电池容量380mAh，配备有电池保护板防护，主板上采用了SY思远半导体SY8821电源管理SoC负责电池的充放电管理，充电电流外部可以调节，放电模块集成两路输出限流开关，并集成NTC保护功能，更安全的对电池进行充放电。 耳机内部结构设计层叠有序，配置上采用了10mm DLC球顶+PU悬边振膜动圈单元+两颗楼氏动铁单元，两颗MEMS麦克风用于语音通话拾音；主控芯片为高通QCC5141蓝牙音频SoC，支持蓝牙5.2，支持高通Snapdragon Sound骁龙畅听技术，兼具高性能音频与低功耗的特点；独立DAC采用了AKM AK4332芯片，内置耳机放大器，提供更好的音质，实现低失真特性和宽动态范围。",
+  "layer_refs": {
+    "technical": [
+      "report:149331"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "镭雕FI4J的MEMS硅麦，用于通话降噪功能拾取环境噪音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "镭雕FI4J的MEMS硅麦，用于通话降噪功能拾取环境噪音。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "镭雕FI4J的MEMS硅麦，用于通话降噪功能拾取环境噪音。"
+        }
+      },
+      {
+        "text": "FiiO FW5\n是飞傲新一代旗舰TWS耳机产品，外观上采用了FD5/FD7/FDX系列的“火山堆”设计，极具特点和辨识度。",
+        "tag": "旗舰定位",
+        "evidence": {
+          "value": "FiiO FW5\n是飞傲新一代旗舰TWS耳机产品，外观上采用了FD5/FD7/FDX系列的“火山堆”设计，极具特点和辨识度。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "FiiO FW5\n是飞傲新一代旗舰TWS耳机产品，外观上采用了FD5/FD7/FDX系列的“火山堆”设计，极具特点和辨识度。"
+        }
+      },
+      {
+        "text": "机身另外一侧设置有通话麦克风拾音孔，内部防尘网防护，防止异物进入腔体。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "机身另外一侧设置有通话麦克风拾音孔，内部防尘网防护，防止异物进入腔体。",
+          "confidence": 0.66,
+          "source_type": "text",
+          "source_text": "机身另外一侧设置有通话麦克风拾音孔，内部防尘网防护，防止异物进入腔体。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "镭雕FI4J的MEMS硅麦，用于通话降噪功能拾取环境噪音。",
+    "launch_date": null,
+    "best_report_id": "149331",
+    "best_video_id": null
+  }
+}

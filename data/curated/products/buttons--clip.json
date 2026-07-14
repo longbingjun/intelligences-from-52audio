@@ -22,6 +22,8 @@
     "speaker": "动圈单元",
     "materials": "硅胶、PC、皮革",
     "weight_g": "100.3g",
+    "weight_case_g": "87.0g",
+    "weight_earbud_g": "6.6g",
     "ip_rating": "",
     "bluetooth": "5.4",
     "bom_row_count": 21,
@@ -50,6 +52,20 @@
     },
     {
       "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1125",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "CM1125",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "采用ICM创芯微CM1125系列锂电池保护IC，负责电池的过充电、过放电、过电流等保护；"
+      }
+    },
+    {
+      "component": "芯片/模组",
       "brand": "Prisemi芯导",
       "model": "Prisemi芯导P14C1S",
       "qty_hint": "1",
@@ -74,6 +90,20 @@
         "confidence": 0.85,
         "source_type": "summary_prose",
         "source_text": "充电盒搭载3.7V/480mAh锂电池，采用INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，负责内置电池的充放电管理和整机控制；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1126B",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "保护IC",
+      "evidence": {
+        "value": "CM1126B",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载GF新余赣锋3.7V/45mAh软包扣式电池，配备ICM创芯微CM1126B-GAC锂电池保护IC；"
       }
     },
     {
@@ -298,34 +328,6 @@
         "confidence": 0.78,
         "source_type": "text",
         "source_text": "得益于IP5528的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸， 降低BOM成本。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "Prisemi芯导P14C1S",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "Prisemi芯导P14C1S",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "Prisemi芯导P14C1S过压过流保护IC，输入耐压高达32V，过压保护点为固定6V。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "BES2710IHC",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "BES2710IHC",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "BES恒玄科技BES2710IHC蓝牙音频SoC，用于无线连接和音频数据处理。"
       }
     }
   ],

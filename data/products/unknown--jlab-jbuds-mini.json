@@ -1,0 +1,339 @@
+{
+  "canonical_id": "unknown--jlab-jbuds-mini",
+  "brand": "",
+  "model": "JLab JBuds Mini",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "181323"
+  ],
+  "video_ids": [
+    "193092"
+  ],
+  "related_report_ids": [
+    "181323"
+  ],
+  "related_video_ids": [
+    "193092"
+  ],
+  "first_seen": "2023-11-09",
+  "latest_published": "2024-03-17",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "JL7006",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "HJ弘捷新能源 2V/50mAh锂电池",
+    "speaker": "6mm 动圈单元",
+    "materials": "硅胶",
+    "weight_g": "28.7g",
+    "weight_case_g": "",
+    "weight_earbud_g": "3.4g",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 15,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "181323",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "HJ弘捷新能源",
+      "model": "2V/50mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "2V/50mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置HJ弘捷新能源250mAh锂电池，"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "6mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "6mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了6mm动圈单元，单"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "2",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内置两颗MEMS麦克风协同拾音，搭配通话降噪算法消除背景噪音，从而确保清晰通话效果。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在极致小巧的机身下，JLab JBuds Mini还拥有着不错的续航体验，单次续航时间可达约5.5h，搭配充电盒综合续航20小时，能够满足日常1-2天的使用。我爱音频网此前还拆解过JLab Go Air真无线运动耳机、JLab Epic Air 真无线运动耳机等，下面再来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，主板通过螺丝固定，电池通过双面胶垫固定在主板上。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，主板通过螺丝固定，电池通过双面胶垫固定在主板上。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "JLab JBuds Mini真无线耳机在功能方面，支持多设备连接无缝切换；支持环境音增强的安全聆听模式，佩戴耳机的同时也能清晰获取外界声音；耳机内置降噪麦克风，用于保障清晰通话；通过JLab APP，还可以进行EQ、触控、听力安全限定自定义设置，切换音乐/影视模式及固件升级等。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧结构一览，中间印刷有蓝牙天线和触摸检测电极，两段是麦克风拾音孔。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "声学配置方面，耳机内部搭载了6mm动圈单元，单耳机内置两颗MEMS麦克风协同拾音，搭配通话降噪算法消除背景噪音，从而确保清晰通话效果。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面外观一览，设置有凹槽便于开启，内部有指示灯用于反馈充电状态。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出内部座舱结构。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "JLab JBuds Mini真无线耳机在功能方面，支持多设备连接无缝切换；支持环境音增强的安全聆听模式，佩戴耳机的同时也能清晰获取外界声音；耳机内置降噪麦克风，用于保障清晰通话；通过JLab APP，还可以进行EQ、触控、听力安全限定自定义设置，切换音乐/影视模式及固件升级等。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机内侧外观一览，雕刻有L/R左右标识，设置有充电触点。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "JL7006",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "JL7006",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "JL杰理JL7006F6蓝牙音频SoC，用于无线连接和音频数据处理。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WINSEMI稳先微WSDF23C",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "WINSEMI稳先微WSDF23C",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "WINSEMI稳先微WSDF23C2N2H的一体化锂电保护IC。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 JLab JBuds Mini真无线耳机在外观方面，采用了极致小巧迷你的设计，整机重量仅28.7g，搭配自带的便携钥匙环，提供了极佳的便携体验；豆状的入耳式耳机，单耳重量仅为3.4g，佩戴深入耳廓舒适贴合，不突出耳廓，看起来也更加协调美观。 内部主要配置方面，充电盒内置HJ弘捷新能源250mAh锂电池，耳机内置弘捷0.135Wh软包扣式电池，电源管理采用了微源半导体的LP7810（充电盒端）+LP4080H（耳机端）超高效率快充方案，两者配合可实现93%的电池端到电池端的系统效率，充电仓电池的续航时间可延长20%，从而能够在超迷你机身下，保障20小时的续航时间。 声学配置方面，耳机内部搭载了6mm动圈单元，单耳机内置两颗MEMS麦克风协同拾音，搭配通话降噪算法消除背景噪音，从而确保清晰通话效果。",
+  "layer_refs": {
+    "technical": [
+      "report:181323",
+      "video:193092"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "声学配置方面，耳机内部搭载了6mm动圈单元，单耳机内置两颗MEMS麦克风协同拾音，搭配通话降噪算法消除背景噪音，从而确保清晰通话效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "声学配置方面，耳机内部搭载了6mm动圈单元，单耳机内置两颗MEMS麦克风协同拾音，搭配通话降噪算法消除背景噪音，从而确保清晰通话效果。",
+          "confidence": 0.68,
+          "source_type": "text",
+          "source_text": "声学配置方面，耳机内部搭载了6mm动圈单元，单耳机内置两颗MEMS麦克风协同拾音，搭配通话降噪算法消除背景噪音，从而确保清晰通话效果。"
+        }
+      },
+      {
+        "text": "耳机背部的指示灯和降噪麦克风开孔特写，内部防尘网防护。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "耳机背部的指示灯和降噪麦克风开孔特写，内部防尘网防护。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "耳机背部的指示灯和降噪麦克风开孔特写，内部防尘网防护。"
+        }
+      },
+      {
+        "text": "LPS微源半导体LP4080H超高效率的线性充电快充芯片，它包含一个线性充电器，用于为耳机中的锂离子电池充电，带有CHGb充电状态指示和ENb输入，以便在需要时禁用充电器。",
+        "tag": "长续航",
+        "evidence": {
+          "value": "LPS微源半导体LP4080H超高效率的线性充电快充芯片，它包含一个线性充电器，用于为耳机中的锂离子电池充电，带有CHGb充电状态指示和ENb输入，以便在需要时禁用充电器。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "LPS微源半导体LP4080H超高效率的线性充电快充芯片，它包含一个线性充电器，用于为耳机中的锂离子电池充电，带有CHGb充电状态指示和ENb输入，以便在需要时禁用充电器。"
+        }
+      },
+      {
+        "text": "镭雕3454 2381的MEMS麦克风，两颗麦克风协同拾音，搭配降噪算法，实现清晰通话效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "镭雕3454 2381的MEMS麦克风，两颗麦克风协同拾音，搭配降噪算法，实现清晰通话效果。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "镭雕3454 2381的MEMS麦克风，两颗麦克风协同拾音，搭配降噪算法，实现清晰通话效果。"
+        }
+      },
+      {
+        "text": "在极致小巧的机身下，JLab JBuds Mini还拥有着不错的续航体验，单次续航时间可达约5.5h，搭配充电盒综合续航20小时，能够满足日常1-2天的使用。",
+        "tag": "长续航",
+        "evidence": {
+          "value": "在极致小巧的机身下，JLab JBuds Mini还拥有着不错的续航体验，单次续航时间可达约5.5h，搭配充电盒综合续航20小时，能够满足日常1-2天的使用。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "在极致小巧的机身下，JLab JBuds Mini还拥有着不错的续航体验，单次续航时间可达约5.5h，搭配充电盒综合续航20小时，能够满足日常1-2天的使用。"
+        }
+      },
+      {
+        "text": "经我爱音频网实测，JLab JBuds Mini真无线耳机整机重量仅为28.7g，极致轻巧，外出便携。",
+        "tag": "其他",
+        "evidence": {
+          "value": "经我爱音频网实测，JLab JBuds Mini真无线耳机整机重量仅为28.7g，极致轻巧，外出便携。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "经我爱音频网实测，JLab JBuds Mini真无线耳机整机重量仅为28.7g，极致轻巧，外出便携。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "通话"
+    ],
+    "positioning_summary": "声学配置方面，耳机内部搭载了6mm动圈单元，单耳机内置两颗MEMS麦克风协同拾音，搭配通话降噪算法消除背景噪音，从而确保清晰通话效果。",
+    "launch_date": null,
+    "best_report_id": "181323",
+    "best_video_id": null
+  }
+}

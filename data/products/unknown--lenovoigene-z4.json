@@ -1,0 +1,331 @@
+{
+  "canonical_id": "unknown--lenovoigene-z4",
+  "brand": "",
+  "model": "Lenovo联想iGene-Z4",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "161941"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "161941"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-05-30",
+  "latest_published": "2023-05-30",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "思远半导体SY8825",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "2V/80mAh锂电池",
+    "speaker": "8mm 动圈单元",
+    "materials": "硅胶",
+    "weight_g": "36.6g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 16,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "161941",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "思远半导体",
+      "model": "思远半导体SY8825",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8825",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，采用Type-C接口输入电源，采用思远半导体SY8825蓝牙耳机充电仓SoC负责电池的充放电管理，集成单线的状态码输出，方便实现芯片向MCU上报芯片状态。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "2V/80mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "2V/80mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置YD亿等新能源280mAh锂电池，配备有保护板负责充放电保护。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "8mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "8mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载8mm动圈单元，内置JYZ金宇宙45mAh锂电池，由SiliconWisdom矽睿半导体SWD1828A二合一锂电保护IC负责电池的过充电、过放电、过电流等保护；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "还搭载有一颗MEMS麦克风，用于语音通话拾音。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Lenovo联想iGene-Z4真无线耳机是其旗下一款主打通话降噪的产品，内置降噪麦克风和ENC降噪算法，高清还原人声，实现家中、办公、通勤、大风天气等多场景的清晰通话效果；还支持游戏模式，提供低延迟和游戏音效；支持触摸控制，轻松、便捷操控；支持蓝牙5.3，传输更快速稳定，续航时间更持久，单次听歌时长可达约8h，搭配充电盒综合续航约32小时。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，通过螺丝固定主板，主板上通过双面胶固定电池单元。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，通过螺丝固定主板，主板上通过双面胶固定电池单元。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Lenovo联想iGene-Z4真无线耳机是其旗下一款主打通话降噪的产品，内置降噪麦克风和ENC降噪算法，高清还原人声，实现家中、办公、通勤、大风天气等多场景的清晰通话效果；还支持游戏模式，提供低延迟和游戏音效；支持触摸控制，轻松、便捷操控；支持蓝牙5.3，传输更快速稳定，续航时间更持久，单次听歌时长可达约8h，搭配充电盒综合续航约32小时。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面介绍有产品参数和公司信息，产品型号：iGene-Z4，耳机类型：真无线蓝牙耳机，喇叭单元：8mm，喇叭阻抗：16Ω，频响范围：20Hz-20KHz，灵敏度：96±3dB@1KHz，制造商：敲敲声学科技（东莞）有限公司。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Lenovo联想iGene-Z4真无线耳机是其旗下一款主打通话降噪的产品，内置降噪麦克风和ENC降噪算法，高清还原人声，实现家中、办公、通勤、大风天气等多场景的清晰通话效果；还支持游戏模式，提供低延迟和游戏音效；支持触摸控制，轻松、便捷操控；支持蓝牙5.3，传输更快速稳定，续航时间更持久，单次听歌时长可达约8h，搭配充电盒综合续航约32小时。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "贴片蓝牙天线特写，用于无线信号收发。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身正面开盖处设计凸起，便于用户开启。机身上一颗指示灯，用于反馈充电状态。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身内侧的充电触点特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8825",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8825",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "思远半导体SY8825蓝牙耳机充电仓SoC，内部集成充电模块和放电模块。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SY8825",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SY8825",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "SY8825采用的封装形式为ESSOP10。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Lenovo联想iGene-Z4真无线耳机在外观方面，充电盒采用了“澡盆”型的椭圆设计，黑色配色磨砂质感，体积轻巧，外出使用便携；耳机采用了豆状的入耳式设计，小巧机身，重量仅为4.0g，搭配柔软硅胶耳塞和360度防滑圈，提供舒适稳定的佩戴体验。 内部主要配置方面，充电盒内置YD亿等新能源280mAh锂电池，配备有保护板负责充放电保护。主板上，采用Type-C接口输入电源，采用思远半导体SY8825蓝牙耳机充电仓SoC负责电池的充放电管理，集成单线的状态码输出，方便实现芯片向MCU上报芯片状态。 耳机内部搭载8mm动圈单元，内置JYZ金宇宙45mAh锂电池，由SiliconWisdom矽睿半导体SWD1828A二合一锂电保护IC负责电池的过充电、过放电、过电流等保护；主控芯片为JL杰理AD6973D蓝牙音频SoC，用于无线连接和音频处理；还搭载有一颗MEMS麦克风，用于语音通话拾音。",
+  "layer_refs": {
+    "technical": [
+      "report:161941"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "iGene击音是敲敲科技旗下互联网影音品牌，敲敲科技成立于2015年，于2016年获得联想3000万投资，使之产品开发及生产实力全面增强，后于2020年又成立了敲敲声学，专注于创新视听设备的生产。",
+        "tag": "其他",
+        "evidence": {
+          "value": "iGene击音是敲敲科技旗下互联网影音品牌，敲敲科技成立于2015年，于2016年获得联想3000万投资，使之产品开发及生产实力全面增强，后于2020年又成立了敲敲声学，专注于创新视听设备的生产。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "iGene击音是敲敲科技旗下互联网影音品牌，敲敲科技成立于2015年，于2016年获得联想3000万投资，使之产品开发及生产实力全面增强，后于2020年又成立了敲敲声学，专注于创新视听设备的生产。"
+        }
+      },
+      {
+        "text": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nOPPO、vivo、realme、一加、\n漫步者、\nQCY、\n倍思、猛玛、声阔、\nJBL、飞利浦、Jabra、Nothing、Marshall、DENON\n，\n小米、\n万魔、233621、传音、魔宴、创新科技、魅族、百度、网易、哈曼、联想\n等国内外知名品牌采用。",
+        "tag": "其他",
+        "evidence": {
+          "value": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nOPPO、vivo、realme、一加、\n漫步者、\nQCY、\n倍思、猛玛、声阔、\nJBL、飞利浦、Jabra、Nothing、Marshall、DENON\n，\n小米、\n万魔、233621、传音、魔宴、创新科技、魅族、百度、网易、哈曼、联想\n等国内外知名品牌采用。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nOPPO、vivo、realme、一加、\n漫步者、\nQCY、\n倍思、猛玛、声阔、\nJBL、飞利浦、Jabra、Nothing、Marshall、DENON\n，\n小米、\n万魔、233621、传音、魔宴、创新科技、魅族、百度、网易、哈曼、联想\n等国内外知名品牌采用。"
+        }
+      },
+      {
+        "text": "据我爱音频网拆解了解到，目前已有\n倍思\n、\nSANAG\n、\nHiBy海贝\n、\niWalk声恋\n、\nVANKYO\n、\nAWEI用维\n、Creative创新科技等品牌旗下的TWS耳机采用了矽睿半导体的产品。",
+        "tag": "其他",
+        "evidence": {
+          "value": "据我爱音频网拆解了解到，目前已有\n倍思\n、\nSANAG\n、\nHiBy海贝\n、\niWalk声恋\n、\nVANKYO\n、\nAWEI用维\n、Creative创新科技等品牌旗下的TWS耳机采用了矽睿半导体的产品。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "据我爱音频网拆解了解到，目前已有\n倍思\n、\nSANAG\n、\nHiBy海贝\n、\niWalk声恋\n、\nVANKYO\n、\nAWEI用维\n、Creative创新科技等品牌旗下的TWS耳机采用了矽睿半导体的产品。"
+        }
+      },
+      {
+        "text": "取掉耳塞，椭圆形出音嘴特写，防尘网防护，防止异物进入音腔。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "取掉耳塞，椭圆形出音嘴特写，防尘网防护，防止异物进入音腔。",
+          "confidence": 0.59,
+          "source_type": "text",
+          "source_text": "取掉耳塞，椭圆形出音嘴特写，防尘网防护，防止异物进入音腔。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "办公",
+      "游戏",
+      "通勤",
+      "通话"
+    ],
+    "positioning_summary": "iGene击音是敲敲科技旗下互联网影音品牌，敲敲科技成立于2015年，于2016年获得联想3000万投资，使之产品开发及生产实力全面增强，后于2020年又成立了敲敲声学，专注于创新视听设备的生产。",
+    "launch_date": null,
+    "best_report_id": "161941",
+    "best_video_id": null
+  }
+}

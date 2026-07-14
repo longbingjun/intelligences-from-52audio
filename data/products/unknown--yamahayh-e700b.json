@@ -1,0 +1,352 @@
+{
+  "canonical_id": "unknown--yamahayh-e700b",
+  "brand": "",
+  "model": "YAMAHA雅马哈YH-E700B",
+  "category": "头戴式耳机",
+  "report_ids": [
+    "192736"
+  ],
+  "video_ids": [
+    "225065"
+  ],
+  "related_report_ids": [
+    "192736"
+  ],
+  "related_video_ids": [
+    "225065"
+  ],
+  "first_seen": "2024-03-13",
+  "latest_published": "2025-01-10",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "高通QCC5144",
+    "pmic_case": "",
+    "battery_ear": "8V/00mAh锂电池",
+    "battery_case": "800 mAh",
+    "speaker": "喇叭单元",
+    "materials": "PC、皮革",
+    "weight_g": "342.3g",
+    "weight_case_g": "",
+    "weight_earbud_g": "342.3g",
+    "ip_rating": "",
+    "bluetooth": "5.2",
+    "bom_row_count": 16,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "192736",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "Qualcomm高通",
+      "model": "高通QCC5144",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC5144",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，采用了Qualcomm高通QCC5144蓝牙音频SoC，结合了高性能音频与低功耗特性；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "Qualcomm高通",
+      "model": "高通Snapdragon",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通Snapdragon",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "支持蓝牙5.2，支持高通Snapdragon Sound骁龙畅听技术；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "8V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "8V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "左耳内置800mAh锂电池组，设置有前馈和反馈降噪麦克风。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "内部结构配置方面，双耳均搭载了40mm动圈喇叭，右耳设置主板和电源输入小板，四颗用于语音通话和降噪等功能拾音的麦克风，以及光学佩戴检测传感器；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳壳背面的降噪麦克风拾音孔特写，金属盖板防护。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "伸缩结构内侧印有产品的参数信息，耳机输入：5V-0.5A，电池参数：3.7V 800mAh 2.96Wh，中国制造。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部结构一览，设置有主板和电源输入小板，通过排线和连接器连接。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "作为全球知名的音频品牌，YAMAHA雅马哈旗下产品涵盖了键盘乐器、管乐器、打击乐器、专业音响设备，以及个人音频等众多领域，广受音乐创作人、音频发烧友的青睐。此次将要拆解的YH-E700B，是其旗下旗舰级头戴式蓝牙耳机产品，融入了雅马哈的声学和电子技术，提供更为还原的音色，同时拥有不俗的主动降噪能力。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "音腔盖板内侧的扬声器单元结构一览。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "YAMAHA雅马哈YH-E700B头戴式降噪耳机外观一览，月牙米配色色泽温暖，品牌LOGO、悬挂、功能按键等位置通过金属光泽点缀，观感时尚雅致；外观结构功能完善，支持伸缩、旋转、折叠等，满足不同用户的舒适佩戴和便携使用。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "YAMAHA雅马哈YH-E700B头戴式降噪耳机外观上采用了全新设计，能够更好的适应不同头型的舒适佩戴需求。在功能配置方面，YH-E700B采用了低失真驱动单元，搭配抑制共振的外壳设计，能够大幅减少多余的声音；同时，通过外壳内反射板设计，防止耳机左右偏音；通过精确控制从驱动单元后部传导的气流，调节低频和高频之间的干扰，从而更好地还原真实音色。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳壳上的电源开关和指示灯特写，采用了金属材质，边缘打磨亮面倒角，提升产品质感和细节感。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Qualcomm aptX",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Qualcomm aptX",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "包装盒背面介绍了产品的部分功能特点：聆听关怀、听感优化、环境声、免操作接听电话和语音助手，包装盒内部物品信息，以及APP下载二维码，AAC、SBC、Qualcomm aptX Adaptive解码格式和Snapdragon Sound骁龙畅听认证标识。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC5144",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC5144",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm高通QCC5144蓝牙音频SoC，是一款超低功耗单芯片解决方案，采用WLCSP封装，拥有更小的体积；支持蓝牙5.2，支持高通Snapdragon Sound骁龙畅听技术，带有可编程DSP，针对真无线耳机和听觉设备进行了优化。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC51xx",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC51xx",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm高通QCC51xx系列详细资料图。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "QCC51",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "QCC51",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm高通QCC51xx系列详细资料图。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 YAMAHA雅马哈YH-E700B头戴式降噪耳机在外观设计方面，独具品牌特点，具有很高的辨识度。月牙米配色采用了卡其色系，搭配金属质感的玫瑰金点缀，观感时尚雅致；结构设计上功能也非常完善，支持头梁长短调节和耳罩上下左右旋转，搭配柔软亲肤的头垫和耳罩，能够满足不同用户的舒适佩戴需求；还支持折叠，便于外出携带。 内部结构配置方面，双耳均搭载了40mm动圈喇叭，右耳设置主板和电源输入小板，四颗用于语音通话和降噪等功能拾音的麦克风，以及光学佩戴检测传感器；左耳内置800mAh锂电池组，设置有前馈和反馈降噪麦克风。 主板上，采用了Qualcomm高通QCC5144蓝牙音频SoC，结合了高性能音频与低功耗特性；支持蓝牙5.2，支持高通Snapdragon Sound骁龙畅听技术；YAMAHA雅马哈YMU831数字降噪IC，内置DSP数字信号处理技术，用于通话、降噪和音乐处理；还采用了永阜康CS5801T过压过流保护IC等。",
+  "layer_refs": {
+    "technical": [
+      "report:192736",
+      "video:225065"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "雅马哈YH-E700B支持Snapdragon Sound骁龙畅听技术，可进一步发挥耳机的高解析音质属性，同时带来低延迟、通话降噪和稳定连接的高品质无线频体验；支持高清原音主动降噪（增强型）功能，通过特优算法，能够分离外部噪音并有效滤除，同时不影响音乐品质；支持环境声效功能，佩戴耳机也能听到自然的环境声音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "雅马哈YH-E700B支持Snapdragon Sound骁龙畅听技术，可进一步发挥耳机的高解析音质属性，同时带来低延迟、通话降噪和稳定连接的高品质无线频体验；支持高清原音主动降噪（增强型）功能，通过特优算法，能够分离外部噪音并有效滤除，同时不影响音乐品质；支持环境声效功能，佩戴耳机也能听到自然的环境声音。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "雅马哈YH-E700B支持Snapdragon Sound骁龙畅听技术，可进一步发挥耳机的高解析音质属性，同时带来低延迟、通话降噪和稳定连接的高品质无线频体验；支持高清原音主动降噪（增强型）功能，通过特优算法，能够分离外部噪音并有效滤除，同时不影响音乐品质；支持环境声效功能，佩戴耳机也能听到自然的环境声音。"
+        }
+      },
+      {
+        "text": "YAMAHA雅马哈YH-E700B头戴式降噪耳机\n外观上采用了全新设计，能够更好的适应不同头型的舒适佩戴需求。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "YAMAHA雅马哈YH-E700B头戴式降噪耳机\n外观上采用了全新设计，能够更好的适应不同头型的舒适佩戴需求。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "YAMAHA雅马哈YH-E700B头戴式降噪耳机\n外观上采用了全新设计，能够更好的适应不同头型的舒适佩戴需求。"
+        }
+      },
+      {
+        "text": "此次将要拆解的YH-E700B，是其旗下旗舰级头戴式蓝牙耳机产品，融入了雅马哈的声学和电子技术，提供更为还原的音色，同时拥有不俗的主动降噪能力。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "此次将要拆解的YH-E700B，是其旗下旗舰级头戴式蓝牙耳机产品，融入了雅马哈的声学和电子技术，提供更为还原的音色，同时拥有不俗的主动降噪能力。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "此次将要拆解的YH-E700B，是其旗下旗舰级头戴式蓝牙耳机产品，融入了雅马哈的声学和电子技术，提供更为还原的音色，同时拥有不俗的主动降噪能力。"
+        }
+      },
+      {
+        "text": "YAMAHA雅马哈YH-E700B头戴式降噪耳机外观一览，月牙米配色色泽温暖，品牌LOGO、悬挂、功能按键等位置通过金属光泽点缀，观感时尚雅致；外观结构功能完善，支持伸缩、旋转、折叠等，满足不同用户的舒适佩戴和便携使用。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "YAMAHA雅马哈YH-E700B头戴式降噪耳机外观一览，月牙米配色色泽温暖，品牌LOGO、悬挂、功能按键等位置通过金属光泽点缀，观感时尚雅致；外观结构功能完善，支持伸缩、旋转、折叠等，满足不同用户的舒适佩戴和便携使用。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "YAMAHA雅马哈YH-E700B头戴式降噪耳机外观一览，月牙米配色色泽温暖，品牌LOGO、悬挂、功能按键等位置通过金属光泽点缀，观感时尚雅致；外观结构功能完善，支持伸缩、旋转、折叠等，满足不同用户的舒适佩戴和便携使用。"
+        }
+      },
+      {
+        "text": "镭雕226 ALC的降噪麦克风特写，用于主动降噪、通话降噪等功能拾音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "镭雕226 ALC的降噪麦克风特写，用于主动降噪、通话降噪等功能拾音。",
+          "confidence": 0.61,
+          "source_type": "text",
+          "source_text": "镭雕226 ALC的降噪麦克风特写，用于主动降噪、通话降噪等功能拾音。"
+        }
+      },
+      {
+        "text": "月牙米配色采用了卡其色系，搭配金属质感的玫瑰金点缀，观感时尚雅致；结构设计上功能也非常完善，支持头梁长短调节和耳罩上下左右旋转，搭配柔软亲肤的头垫和耳罩，能够满足不同用户的舒适佩戴需求；还支持折叠，便于外出携带。",
+        "tag": "舒适佩戴",
+        "evidence": {
+          "value": "月牙米配色采用了卡其色系，搭配金属质感的玫瑰金点缀，观感时尚雅致；结构设计上功能也非常完善，支持头梁长短调节和耳罩上下左右旋转，搭配柔软亲肤的头垫和耳罩，能够满足不同用户的舒适佩戴需求；还支持折叠，便于外出携带。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "月牙米配色采用了卡其色系，搭配金属质感的玫瑰金点缀，观感时尚雅致；结构设计上功能也非常完善，支持头梁长短调节和耳罩上下左右旋转，搭配柔软亲肤的头垫和耳罩，能够满足不同用户的舒适佩戴需求；还支持折叠，便于外出携带。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "雅马哈YH-E700B支持Snapdragon Sound骁龙畅听技术，可进一步发挥耳机的高解析音质属性，同时带来低延迟、通话降噪和稳定连接的高品质无线频体验；支持高清原音主动降噪（增强型）功能，通过特优算法，能够分离外部噪音并有效滤除，同时不影响音乐品质；支持环境声效功能，佩戴耳机也能听到自然的环境声音。",
+    "launch_date": null,
+    "best_report_id": "192736",
+    "best_video_id": null
+  }
+}

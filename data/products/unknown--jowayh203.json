@@ -3,49 +3,111 @@
   "brand": "",
   "model": "JOWAY乔威H203",
   "category": "开放式耳机",
-  "report_ids": [],
+  "report_ids": [
+    "171305"
+  ],
   "video_ids": [
     "271923"
   ],
-  "related_report_ids": [],
+  "related_report_ids": [
+    "171305"
+  ],
   "related_video_ids": [
     "271923"
   ],
-  "first_seen": "2026-04-03",
+  "first_seen": "2023-08-28",
   "latest_published": "2026-04-03",
   "internal_match_suggestions": [],
   "cost_snapshot": {
-    "main_chip": null,
-    "pmic_case": null,
-    "battery_ear": null,
-    "battery_case": null,
-    "speaker": null,
-    "materials": null,
-    "weight_g": null,
-    "ip_rating": null,
-    "bluetooth": null,
-    "bom_row_count": 4,
+    "main_chip": "INJOINIC英集芯IP5513",
+    "pmic_case": "Prisemi芯导 Prisemi芯导P14C1S",
+    "battery_ear": "电池",
+    "battery_case": "5V/00mAh锂电池",
+    "speaker": "动圈单元",
+    "materials": "",
+    "weight_g": "87.4g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 20,
     "price_cny": null,
     "price_layer": null,
     "channel_url": "",
     "sales_hint": null,
-    "data_completeness": 0.0,
-    "best_report_id": null,
-    "best_video_id": "271923"
+    "data_completeness": 1.0,
+    "best_report_id": "171305",
+    "best_video_id": null
   },
   "bom_table": [
     {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "INJOINIC英集芯IP5513",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "MCU",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5513",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载了500mAh锂电池，采用了INJOINIC英集芯IP5513电源管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等多功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "Prisemi芯导",
+      "model": "Prisemi芯导P14C1S",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "Prisemi芯导P14C1S",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "还采用了Prisemi芯导P14C1S过压过流保护IC，输入耐压高达32V。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "5V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "5V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载了500mAh锂电池，采用了INJOINIC英集芯IP5513电源管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等多功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案；"
+      }
+    },
+    {
       "component": "喇叭单元",
       "brand": "",
-      "model": "",
+      "model": "动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了14.2mm大动圈单元，JYZ金宇宙0.407Wh软包锂电池；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
       "qty_hint": "",
       "side": "耳机",
       "role": "major",
       "evidence": {
-        "value": "喇叭单元",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "JOWAY乔威H203开放式耳机在功能配置方面，搭载了14.2mm大动圈复合振膜喇叭，提供更强劲有力的低音表现；支持蓝牙5.3连接，带来更低功耗和更低延迟；支持ENC通话降噪，保障清晰的语音通话效果；支持智能触控、语音助手，实现便捷操控。续航方面，耳机单次续航时间可达9小时，搭配充电盒综合续航36小时。"
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "单耳内置1颗MEMS麦克风拾音；"
       }
     },
     {
@@ -59,7 +121,63 @@
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "JOWAY乔威H203开放式耳机在功能配置方面，搭载了14.2mm大动圈复合振膜喇叭，提供更强劲有力的低音表现；支持蓝牙5.3连接，带来更低功耗和更低延迟；支持ENC通话降噪，保障清晰的语音通话效果；支持智能触控、语音助手，实现便捷操控。续航方面，耳机单次续航时间可达9小时，搭配充电盒综合续航36小时。"
+        "source_text": "JOWAY乔威H203开放式耳机在功能配置方面，搭载了14.2mm大动圈复合振膜喇叭，提供更强劲有力的低音表现；支持蓝牙5.3连接，带来更低功耗和更低延迟；支持ENC通话降噪，保障清晰的语音通话效果；支持智能触控、语音助手，实现便捷操控。续航方面，耳机单次续航时间可达9小时，搭配充电盒综合续航36小时。下面就让我们来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面设计有模特佩戴场景图，产品参数和产品的功能特点。耳机，无线版本：蓝牙5.3，输出阻抗：32Ω，喇叭单元：14.2mm，电池容量：110mAh，充电时间：约2小时，通话时间：约9小时（80%）音量，音乐时间：约9小时（80%）音量；充电盒，电池容量：500mAh，充电接口：USB-C，充电时间：约2小时。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，通过螺丝固定主板单元，电池通过双面胶固定在主板上。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "JOWAY乔威H203开放式耳机在功能配置方面，搭载了14.2mm大动圈复合振膜喇叭，提供更强劲有力的低音表现；支持蓝牙5.3连接，带来更低功耗和更低延迟；支持ENC通话降噪，保障清晰的语音通话效果；支持智能触控、语音助手，实现便捷操控。续航方面，耳机单次续航时间可达9小时，搭配充电盒综合续航36小时。下面就让我们来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机外侧外观一览，橙色配色，烤漆质感，机身曲线设计流畅，观感独特，极具辨识度。音腔盖板上设置有麦克风出音孔、指示灯和触摸控制图标。"
       }
     },
     {
@@ -73,7 +191,77 @@
         "value": "降噪系统",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "JOWAY乔威H203开放式耳机在功能配置方面，搭载了14.2mm大动圈复合振膜喇叭，提供更强劲有力的低音表现；支持蓝牙5.3连接，带来更低功耗和更低延迟；支持ENC通话降噪，保障清晰的语音通话效果；支持智能触控、语音助手，实现便捷操控。续航方面，耳机单次续航时间可达9小时，搭配充电盒综合续航36小时。"
+        "source_text": "JOWAY乔威H203开放式耳机在功能配置方面，搭载了14.2mm大动圈复合振膜喇叭，提供更强劲有力的低音表现；支持蓝牙5.3连接，带来更低功耗和更低延迟；支持ENC通话降噪，保障清晰的语音通话效果；支持智能触控、语音助手，实现便捷操控。续航方面，耳机单次续航时间可达9小时，搭配充电盒综合续航36小时。下面就让我们来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "蓝牙天线特写，用于无线信号收发。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面外观一览，外壳镂空露出内部橙色座舱结构，同时设置四颗指示灯，用于反馈剩余电量信息。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面外观一览，外壳镂空露出内部橙色座舱结构，同时设置四颗指示灯，用于反馈剩余电量信息。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "JOWAY乔威H203开放式耳机整体外观一览，耳机采用了耳挂式设计，提供稳定的舒适佩戴体验。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒为耳机充电的Pogo Pin连接器特写。"
       }
     },
     {
@@ -87,14 +275,57 @@
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "JOWAY乔威H203开放式耳机在功能配置方面，搭载了14.2mm大动圈复合振膜喇叭，提供更强劲有力的低音表现；支持蓝牙5.3连接，带来更低功耗和更低延迟；支持ENC通话降噪，保障清晰的语音通话效果；支持智能触控、语音助手，实现便捷操控。续航方面，耳机单次续航时间可达9小时，搭配充电盒综合续航36小时。"
+        "source_text": "JOWAY乔威H203开放式耳机在功能配置方面，搭载了14.2mm大动圈复合振膜喇叭，提供更强劲有力的低音表现；支持蓝牙5.3连接，带来更低功耗和更低延迟；支持ENC通话降噪，保障清晰的语音通话效果；支持智能触控、语音助手，实现便捷操控。续航方面，耳机单次续航时间可达9小时，搭配充电盒综合续航36小时。下面就让我们来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP5513",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5513",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5513",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5513",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Prisemi芯导P14C1S",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Prisemi芯导P14C1S",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Prisemi芯导P14C1S过压过流保护IC，输入耐压高达32V，过压保护点为固定6V。"
       }
     }
   ],
   "summary_image_urls": [],
-  "summary_text": "",
+  "summary_text": "三、我爱音频网总结 JOWAY乔威H203开放式耳机在外观方面，蓝色配色整机均采用了深蓝+橙色撞色设计，充满了运动活力。充电盒圆润无棱角，形态扁平，外出便携；挂耳式耳机独特的曲线设计，观感简约时尚，极具辨识度；佩戴舒适贴合耳朵弧度，同时保障了稳定性，能够满足各种场景使用。 内部主要配置方面，充电盒搭载了500mAh锂电池，采用了INJOINIC英集芯IP5513电源管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等多功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案；还采用了Prisemi芯导P14C1S过压过流保护IC，输入耐压高达32V。 耳机内部搭载了14.2mm大动圈单元，JYZ金宇宙0.407Wh软包锂电池；单耳内置1颗MEMS麦克风拾音；主控芯片为JL杰理AD6973D蓝牙音频SoC，支持蓝牙5.3，支持神经网络噪声抑制和回声消除，支持单/双麦克风降噪；还采用了HEROIC禾润HT4832立体声耳机放大器，用于提供更优的音质。",
   "layer_refs": {
     "technical": [
+      "report:171305",
       "video:271923"
     ],
     "channel": [
@@ -108,13 +339,66 @@
   },
   "unboxing": null,
   "market": {
-    "selling_points": [],
-    "scenarios": [
-      "通话"
+    "selling_points": [
+      {
+        "text": "随着不入耳、开放式舒适聆听的OWS耳机爆发，乔威在2023年也相继推出了H196、H203两款产品，定位户外运动场景，通过挂耳式设计提供稳定舒适佩戴，通过开放式聆听，实时感知环境更安全。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "随着不入耳、开放式舒适聆听的OWS耳机爆发，乔威在2023年也相继推出了H196、H203两款产品，定位户外运动场景，通过挂耳式设计提供稳定舒适佩戴，通过开放式聆听，实时感知环境更安全。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "随着不入耳、开放式舒适聆听的OWS耳机爆发，乔威在2023年也相继推出了H196、H203两款产品，定位户外运动场景，通过挂耳式设计提供稳定舒适佩戴，通过开放式聆听，实时感知环境更安全。"
+        }
+      },
+      {
+        "text": "JOWAY乔威H203开放式耳机整体外观一览，耳机采用了耳挂式设计，提供稳定的舒适佩戴体验。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "JOWAY乔威H203开放式耳机整体外观一览，耳机采用了耳挂式设计，提供稳定的舒适佩戴体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "JOWAY乔威H203开放式耳机整体外观一览，耳机采用了耳挂式设计，提供稳定的舒适佩戴体验。"
+        }
+      },
+      {
+        "text": "支持单/双麦克风降噪，支持两路模拟麦克风放大，内置麦克风偏置。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "支持单/双麦克风降噪，支持两路模拟麦克风放大，内置麦克风偏置。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "支持单/双麦克风降噪，支持两路模拟麦克风放大，内置麦克风偏置。"
+        }
+      },
+      {
+        "text": "可灵 活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+        "tag": "其他",
+        "evidence": {
+          "value": "可灵 活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "可灵 活定制耳机充满判饱电流，充满电流检测精度高达1mA。"
+        }
+      },
+      {
+        "text": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。"
+        }
+      }
     ],
-    "positioning_summary": "",
+    "scenarios": [
+      "运动",
+      "通话",
+      "户外"
+    ],
+    "positioning_summary": "随着不入耳、开放式舒适聆听的OWS耳机爆发，乔威在2023年也相继推出了H196、H203两款产品，定位户外运动场景，通过挂耳式设计提供稳定舒适佩戴，通过开放式聆听，实时感知环境更安全。",
     "launch_date": null,
-    "best_report_id": null,
-    "best_video_id": "271923"
+    "best_report_id": "171305",
+    "best_video_id": null
   }
 }

@@ -1,0 +1,411 @@
+{
+  "canonical_id": "unknown--unknown",
+  "brand": "荣耀",
+  "model": "中国国际航空公司机载",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "104499",
+    "106748",
+    "1294",
+    "159225",
+    "28831",
+    "32062",
+    "32852",
+    "37477",
+    "5048",
+    "54795",
+    "58027",
+    "60257",
+    "67679",
+    "70511",
+    "78060",
+    "8034",
+    "82854"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "104499",
+    "106748",
+    "1294",
+    "159225",
+    "28831",
+    "32062",
+    "32852",
+    "37477",
+    "5048",
+    "54795",
+    "58027",
+    "60257",
+    "67679",
+    "70511",
+    "78060",
+    "8034",
+    "82854"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2018-05-03",
+  "latest_published": "2023-05-08",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "恒玄BES2300-ZP",
+    "pmic_case": "",
+    "battery_ear": "400 mAh",
+    "battery_case": "电池",
+    "speaker": "喇叭单元",
+    "materials": "塑料、PC",
+    "weight_g": "50.4克",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.0",
+    "bom_row_count": 17,
+    "price_cny": 399.0,
+    "price_layer": "technical",
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "58027",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "今天我爱音频网就来拆解一下这款小度真无线智能耳机，参数方面，耳机采用柄式半入耳设计，支持入耳检测功能和双麦克风通话降噪功能，内置13mm动圈单元，单次续航约7小时，充电盒可额外充电三次。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "小度真无线智能耳机内置蓝牙5.0芯片、稳定低延迟，官方宣传在研发时，为了解决翻译数据流传输问题，从芯片到硬件和软件花了很长的时间和精力调试和优化，下面一起通过拆解看看这款蓝牙芯片是谁、以及产品内部的结构设计如何吧~"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒内部结构背面展示，软包电池使用双面胶粘贴在主板上。主板下方有两颗螺丝固定在正面的塑料保护壳上。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "今天我爱音频网就来拆解一下这款小度真无线智能耳机，参数方面，耳机采用柄式半入耳设计，支持入耳检测功能和双麦克风通话降噪功能，内置13mm动圈单元，单次续航约7小时，充电盒可额外充电三次。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "今天我爱音频网就来拆解一下这款小度真无线智能耳机，参数方面，耳机采用柄式半入耳设计，支持入耳检测功能和双麦克风通话降噪功能，内置13mm动圈单元，单次续航约7小时，充电盒可额外充电三次。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄内部结构展示，顶部是蓝牙天线模块，主板上有Pogo Pin与其相连；耳机柄内置圆柱型锂电池。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "恒玄BES2300是一款全集成自适应主动降噪方案，支持蓝牙 5.0、IBRT低频转发技术和双模蓝牙 4.2，它还支持第三代 FWS 全无线立体声技术、双麦克风等，采用 28nm HKMG CMOS工艺、BGA 封装。恒玄BES2300支持外接心率传感器、加速度传感器等外接传感器设备和 eMMC 闪存。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机的配对按键位于充电盒右侧，上方是一个状态指示灯。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒底部，给耳机充电的Pogo Pin所在的小板使用螺丝固定在塑料保护壳上，通过FPC与主板相连。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机的配对按键位于充电盒右侧，上方是一个状态指示灯。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒顶部有一个挂钩，便于线下店铺内展示。顶部盒体采用了一种渐变色涂层，体现一种迷幻的未来感。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SY8801",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SY8801",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "小度真无线智能耳机充电盒采用了思远半导体专为TWS耳机充电仓设计的SY8801芯片。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SY8801",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SY8801",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "思远SY8801在确保安全、高可靠性能的设计基础上（支持28V输入耐压，内置全功能的充放电过压、过流、过温、短路保护等功能），还集成了I2C通讯功能和内部通讯隔离功能。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2300-ZP",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2300-ZP",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "耳机的主控芯片是恒玄BES2300-ZP，BES2300有多个版本、后缀不同配置也不尽相同。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2300-ZP",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2300-ZP",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "耳机的主控芯片是恒玄BES2300-ZP，BES2300有多个版本、后缀不同配置也不尽相同。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2300",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2300",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "耳机的主控芯片是恒玄BES2300-ZP，BES2300有多个版本、后缀不同配置也不尽相同。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2300",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2300",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "恒玄BES2300是一款全集成自适应主动降噪方案，支持蓝牙 5.0、IBRT低频转发技术和双模蓝牙 4.2，它还支持第三代 FWS 全无线立体声技术、双麦克风等，采用 28nm HKMG CMOS工艺、BGA 封装。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:104499",
+      "report:106748",
+      "report:1294",
+      "report:159225",
+      "report:28831",
+      "report:32062",
+      "report:32852",
+      "report:37477",
+      "report:5048",
+      "report:54795",
+      "report:58027",
+      "report:60257",
+      "report:67679",
+      "report:70511",
+      "report:78060",
+      "report:8034",
+      "report:82854"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "旗下产品从手游玩家的需 […]\n前腔内采用14.2mm大动圈单元和入耳检测传感器；后腔内部设置\n35mAh钢壳扣式电池和通话降噪麦克风；耳机柄内PCBA采用软硬板结合方案，更好的利用了耳机内部空间，并降低了主板尺寸和重量。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "旗下产品从手游玩家的需 […]\n前腔内采用14.2mm大动圈单元和入耳检测传感器；后腔内部设置\n35mAh钢壳扣式电池和通话降噪麦克风；耳机柄内PCBA采用软硬板结合方案，更好的利用了耳机内部空间，并降低了主板尺寸和重量。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "旗下产品从手游玩家的需 […]\n前腔内采用14.2mm大动圈单元和入耳检测传感器；后腔内部设置\n35mAh钢壳扣式电池和通话降噪麦克风；耳机柄内PCBA采用软硬板结合方案，更好的利用了耳机内部空间，并降低了主板尺寸和重量。"
+        }
+      },
+      {
+        "text": "其他方面还支持双麦克风ENC通话降噪，语音通话、语音开黑，提供清晰的通话效果；支持智能触控检测和入耳检测，提供更便捷智能的交互体验；搭配黑鲨手机还支持开盖弹窗快速配对；续航方面，单次续航时间约6小时，搭配充电盒整体续航约28小时。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "其他方面还支持双麦克风ENC通话降噪，语音通话、语音开黑，提供清晰的通话效果；支持智能触控检测和入耳检测，提供更便捷智能的交互体验；搭配黑鲨手机还支持开盖弹窗快速配对；续航方面，单次续航时间约6小时，搭配充电盒整体续航约28小时。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "其他方面还支持双麦克风ENC通话降噪，语音通话、语音开黑，提供清晰的通话效果；支持智能触控检测和入耳检测，提供更便捷智能的交互体验；搭配黑鲨手机还支持开盖弹窗快速配对；续航方面，单次续航时间约6小时，搭配充电盒整体续航约28小时。"
+        }
+      },
+      {
+        "text": "镭雕MD06 R111的MEMS降噪麦克风特写，用于双麦克风ENC通话降噪功能。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "镭雕MD06 R111的MEMS降噪麦克风特写，用于双麦克风ENC通话降噪功能。",
+          "confidence": 0.65,
+          "source_type": "text",
+          "source_text": "镭雕MD06 R111的MEMS降噪麦克风特写，用于双麦克风ENC通话降噪功能。"
+        }
+      },
+      {
+        "text": "中间位置设置了有降噪麦克风开孔，用于通话降噪功能。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "中间位置设置了有降噪麦克风开孔，用于通话降噪功能。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "中间位置设置了有降噪麦克风开孔，用于通话降噪功能。"
+        }
+      },
+      {
+        "text": "标记/认证：电池另外一侧雕刻有电池型号：ICB1040，额定电压：3.7V，来自EVE亿纬锂能。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：电池另外一侧雕刻有电池型号：ICB1040，额定电压：3.7V，来自EVE亿纬锂能。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "标记/认证：电池另外一侧雕刻有电池型号：ICB1040，额定电压：3.7V，来自EVE亿纬锂能。"
+        }
+      },
+      {
+        "text": "Type-C充电接口母座特写，接口处设置有密封海绵防水。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "Type-C充电接口母座特写，接口处设置有密封海绵防水。",
+          "confidence": 0.64,
+          "source_type": "text",
+          "source_text": "Type-C充电接口母座特写，接口处设置有密封海绵防水。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话",
+      "电竞"
+    ],
+    "positioning_summary": "旗下产品从手游玩家的需 […]\n前腔内采用14.2mm大动圈单元和入耳检测传感器；后腔内部设置\n35mAh钢壳扣式电池和通话降噪麦克风；耳机柄内PCBA采用软硬板结合方案，更好的利用了耳机内部空间，并降低了主板尺寸和重量。",
+    "launch_date": null,
+    "best_report_id": "104499",
+    "best_video_id": null
+  }
+}

@@ -1,0 +1,278 @@
+{
+  "canonical_id": "unknown--sansuitw17",
+  "brand": "",
+  "model": "SANSUI山水TW17真无线游戏",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "118094"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "118094"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2022-05-20",
+  "latest_published": "2022-05-20",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "Injoinic英集芯IP5518",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "40 mAh",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 11,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "118094",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "最上层设置有电池，下层主板，垂直于主板的为指示灯小板。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "镭雕174 0S2的MEMS麦克风，用于通话降噪功能拾音。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "主板上，搭载了两颗MEMS麦克风，搭配ENC降噪算法，实现清晰通话效果。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电接口：Type-C充电接口位于充电盒背部。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "主板上，搭载了两颗MEMS麦克风，搭配ENC降噪算法，实现清晰通话效果。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧设置有触摸检测贴片和蓝牙天线，麦克风拾音孔设置有橡胶密封结构，提升收音性能。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机内部采用了10mm动圈单元、内置40mAh软包锂电池，分别通过导线连接到主板。主板上，搭载了两颗MEMS麦克风，搭配ENC降噪算法，实现清晰通话效果。主控芯片为瑞昱RTL8753B蓝牙音频SoC，采用双核心架构，独立DSP做音效和降噪处理，提升了音乐品质和通话降噪效果。且支持游戏模式，提供低延时的无线音频体验。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "最上层设置有电池，下层主板，垂直于主板的为指示灯小板。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "随着手游玩家的快速提升，众多品牌开始推出相应的外设产品，用以提供更佳的游戏体验。其中包括了外设按键、散热背夹、 […]"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5518",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5518",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "内置IC温度和输入电压智能调节充电电流功能；IP5518可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至20uA；可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5518",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5518",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "标记/认证：IP5518的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:118094"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "其中包括了外设按键、散热背夹、 […]\n采用双核心架构，独立DSP\n进行\n音效和降噪处理，提升了音乐品质和通话降噪效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "其中包括了外设按键、散热背夹、 […]\n采用双核心架构，独立DSP\n进行\n音效和降噪处理，提升了音乐品质和通话降噪效果。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "其中包括了外设按键、散热背夹、 […]\n采用双核心架构，独立DSP\n进行\n音效和降噪处理，提升了音乐品质和通话降噪效果。"
+        }
+      },
+      {
+        "text": "镭雕174 0S2的MEMS麦克风，用于通话降噪功能拾音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "镭雕174 0S2的MEMS麦克风，用于通话降噪功能拾音。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "镭雕174 0S2的MEMS麦克风，用于通话降噪功能拾音。"
+        }
+      },
+      {
+        "text": "标记/认证：内置IC温度和输入电压智能调节充电电流功能；IP5518可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至20uA；可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "标记/认证：内置IC温度和输入电压智能调节充电电流功能；IP5518可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至20uA；可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "标记/认证：内置IC温度和输入电压智能调节充电电流功能；IP5518可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至20uA；可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。"
+        }
+      },
+      {
+        "text": "耳机通话降噪麦克风开孔特写，用于语音通话功能拾音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "耳机通话降噪麦克风开孔特写，用于语音通话功能拾音。",
+          "confidence": 0.65,
+          "source_type": "text",
+          "source_text": "耳机通话降噪麦克风开孔特写，用于语音通话功能拾音。"
+        }
+      },
+      {
+        "text": "标记/认证：IP5518 内置 MCU，可灵活定制 4/3/2/1颗LED或188数码管电量显示。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "标记/认证：IP5518 内置 MCU，可灵活定制 4/3/2/1颗LED或188数码管电量显示。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "标记/认证：IP5518 内置 MCU，可灵活定制 4/3/2/1颗LED或188数码管电量显示。"
+        }
+      },
+      {
+        "text": "配置上，支持蓝牙版本5.1，支持游戏/音乐双模式，支持ENC环境降噪；配备有APP，实现扩展功能；续航方面，单次续航时间约5小时，综合续航时间约30小时；下面就来看看这款产品的详细外观设计及内部结构配置信息吧~\n盖板内侧设置有触摸检测贴片和蓝牙天线，麦克风拾音孔设置有橡胶密封结构，提升收音性能。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "配置上，支持蓝牙版本5.1，支持游戏/音乐双模式，支持ENC环境降噪；配备有APP，实现扩展功能；续航方面，单次续航时间约5小时，综合续航时间约30小时；下面就来看看这款产品的详细外观设计及内部结构配置信息吧~\n盖板内侧设置有触摸检测贴片和蓝牙天线，麦克风拾音孔设置有橡胶密封结构，提升收音性能。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "配置上，支持蓝牙版本5.1，支持游戏/音乐双模式，支持ENC环境降噪；配备有APP，实现扩展功能；续航方面，单次续航时间约5小时，综合续航时间约30小时；下面就来看看这款产品的详细外观设计及内部结构配置信息吧~\n盖板内侧设置有触摸检测贴片和蓝牙天线，麦克风拾音孔设置有橡胶密封结构，提升收音性能。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "其中包括了外设按键、散热背夹、 […]\n采用双核心架构，独立DSP\n进行\n音效和降噪处理，提升了音乐品质和通话降噪效果。",
+    "launch_date": null,
+    "best_report_id": "118094",
+    "best_video_id": null
+  }
+}

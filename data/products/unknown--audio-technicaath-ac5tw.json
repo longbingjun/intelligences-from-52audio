@@ -1,0 +1,314 @@
+{
+  "canonical_id": "unknown--audio-technicaath-ac5tw",
+  "brand": "",
+  "model": "Audio-Technica铁三角ATH-AC5TW开放式耳挂",
+  "category": "开放式耳机",
+  "report_ids": [
+    "242287"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "242287"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2025-06-17",
+  "latest_published": "2025-06-17",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "WINSEMI稳先微WSDF23A",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "4V/80mAh锂电池",
+    "speaker": "喇叭单元",
+    "materials": "硅胶、PC",
+    "weight_g": "81.6g",
+    "weight_case_g": "",
+    "weight_earbud_g": "10.5g",
+    "ip_rating": "IPX4",
+    "bluetooth": "5.4",
+    "bom_row_count": 15,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "242287",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "2",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "单耳内置两颗MEMS麦克风，用于语音通话功能拾音；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "4V/80mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "4V/80mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内部搭载了HT恒泰科技480mAh锂电池，配备有电路保护板负责充放电保护；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身底部标注了产品信息，型号：ATH-AC5TW，输入：5V-0.5A，输出：5V-0.1A*2，电池参数：3.7V 480mAh 1.78Wh，中国制造。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在无线连接方面，铁三角ATH-AC5TW开放式耳机支持蓝牙5.4，支持SBC、AAC蓝牙音频编解码，支持双设备连接，支持开盖即连，带来稳定、快速的传输和便捷的使用体验。续航方面，耳机单次连续播放时间长达13小时，搭配充电盒综合续航可达34小时。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部结构一览，主板通过定位柱固定，与导线焊接，打胶防护。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "ATH-AC5TW是铁三角近期推出的旗下首款气传导的开放式耳机，外观上采用了耳挂式设计，柔软耳挂，提供持久的舒适佩戴体验。功能配置上，搭载17x12mm跑道型喇叭，支持双重低音增强技术（数字处理低音增强算法和动态EQ算法），提供澎湃的低音效果和均衡的声音；搭载双麦克风，结合波束成型麦克风技术，提供清晰地通话效果。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧结构一览，设置有蓝牙天线和触摸检测贴片。麦克风拾音孔和指示灯开孔内侧均设置有橡胶罩密封。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机搭载的跑道型动圈喇叭正面特写，采用了复合纤维振膜。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "物奇WQ703X芯片平台拥有更加开放的应用生态，具备强大的平台能力，能够提供丰富的自定义音频方案和算法移植支持，拥有领先的性能优势。主要包括兼容多协议：支持蓝牙BT/BLE5.4双模模式和蓝牙多连接；支持蓝牙广播Auracast（和经典蓝牙共存的音频分享）；支持LE Audio新技术标准和LC3编解码器；射频性能优秀：发射功率最高到15dBm, 接收灵敏度到达-99dBm；高性能音频算法：支持自适应Hybrid ANC及各种上下行复杂音频算法；超低功耗水平：在复杂音频算法的同时，依然保持超低功耗；生态系统丰富：更大SRAM和FLASH空间，实现应用特性更广覆盖；平台开放，支持更多产品形态。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "ATH-AC5TW是铁三角近期推出的旗下首款气传导的开放式耳机，外观上采用了耳挂式设计，柔软耳挂，提供持久的舒适佩戴体验。功能配置上，搭载17x12mm跑道型喇叭，支持双重低音增强技术（数字处理低音增强算法和动态EQ算法），提供澎湃的低音效果和均衡的声音；搭载双麦克风，结合波束成型麦克风技术，提供清晰地通话效果。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱上的蓝牙配对功能按键特写。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面外观一览，设计有倒角，便于用户开启。下方机身上一颗指示灯，用于反馈蓝牙配对及充电状态。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机的充电触点特点，中间雕刻L/左标识。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WINSEMI稳先微WSDF23A",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "WINSEMI稳先微WSDF23A",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "WINSEMI稳先微WSDF23A2N2H全集成锂电保护IC，具有过充、过放、过流、短路等电池需要的所有保护功能。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 铁三角ATH-AC5TW开放式耳机在外观设计方面，充电盒采用了磨砂质感，扁平的轻薄设计，便于携带。耳机采用了耳挂式结构，记忆耳挂通过柔软亲肤的硅胶材质包裹，佩戴与耳廓舒适贴合，稳定不掉。 内部主要配置方面，耳机内置95mAh锂电池，搭载了17mm x 12mm跑道型动圈喇叭，复合纤维振膜；单耳内置两颗MEMS麦克风，用于语音通话功能拾音；主控芯片为WUQi物奇WQ7034MX蓝牙音频SoC，外围采用多颗Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感。 充电盒内部搭载了HT恒泰科技480mAh锂电池，配备有电路保护板负责充放电保护；主板上，采用了SinhMicro昇生微电子SS88F8H Power MCU和昇生微电子SSD101X可编程升压IC，用于为内置电池充电及升压为耳机充电。",
+  "layer_refs": {
+    "technical": [
+      "report:242287"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "镭雕4157的MEMS麦克风特写，用于通话降噪功能拾音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "镭雕4157的MEMS麦克风特写，用于通话降噪功能拾音。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "镭雕4157的MEMS麦克风特写，用于通话降噪功能拾音。"
+        }
+      },
+      {
+        "text": "音腔顶部的通话降噪麦克风拾音孔特写。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "音腔顶部的通话降噪麦克风拾音孔特写。",
+          "confidence": 0.59,
+          "source_type": "text",
+          "source_text": "音腔顶部的通话降噪麦克风拾音孔特写。"
+        }
+      },
+      {
+        "text": "物奇WQ703X芯片平台拥有更加开放的应用生态，具备强大的平台能力，能够提供丰富的自定义音频方案和算法移植支持，拥有领先的性能优势。",
+        "tag": "其他",
+        "evidence": {
+          "value": "物奇WQ703X芯片平台拥有更加开放的应用生态，具备强大的平台能力，能够提供丰富的自定义音频方案和算法移植支持，拥有领先的性能优势。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "物奇WQ703X芯片平台拥有更加开放的应用生态，具备强大的平台能力，能够提供丰富的自定义音频方案和算法移植支持，拥有领先的性能优势。"
+        }
+      },
+      {
+        "text": "ATH-AC5TW是铁三角近期推出的旗下首款气传导的开放式耳机，外观上采用了耳挂式设计，柔软耳挂，提供持久的舒适佩戴体验。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "ATH-AC5TW是铁三角近期推出的旗下首款气传导的开放式耳机，外观上采用了耳挂式设计，柔软耳挂，提供持久的舒适佩戴体验。",
+          "confidence": 0.7,
+          "source_type": "text",
+          "source_text": "ATH-AC5TW是铁三角近期推出的旗下首款气传导的开放式耳机，外观上采用了耳挂式设计，柔软耳挂，提供持久的舒适佩戴体验。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "通话"
+    ],
+    "positioning_summary": "镭雕4157的MEMS麦克风特写，用于通话降噪功能拾音。",
+    "launch_date": null,
+    "best_report_id": "242287",
+    "best_video_id": null
+  }
+}

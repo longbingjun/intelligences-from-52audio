@@ -1,0 +1,297 @@
+{
+  "canonical_id": "unknown--oppo-enco-air2",
+  "brand": "",
+  "model": "OPPO Enco Air2",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "107686"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "107686"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2022-02-21",
+  "latest_published": "2022-02-21",
+  "internal_match_suggestions": [
+    {
+      "sku": "OpenFit 2",
+      "score": 0.6,
+      "reason": "型号相似度 60%（匹配 OpenFit 2）"
+    },
+    {
+      "sku": "OpenDots 2",
+      "score": 0.571,
+      "reason": "型号相似度 57%（匹配 OpenDots 2）"
+    },
+    {
+      "sku": "OpenRun Pro 2",
+      "score": 0.522,
+      "reason": "型号相似度 52%（匹配 OpenRun Pro 2）"
+    }
+  ],
+  "cost_snapshot": {
+    "main_chip": "恒玄BES2500",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "",
+    "speaker": "喇叭单元",
+    "materials": "PC",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 12,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.67,
+    "best_report_id": "107686",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机座舱支架正面固定了电池、集成LED灯和霍尔元件的FPC排线。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "OPPO Enco Air2真无线耳机及其充电盒拥有“外观精美，设计精巧，日常使用中，能够提供24小时的长续航时间，声音耐听，久戴不累”的特点，作为OPPO Enco Air的升级产品其表现的出众让小编印象深刻的同时也对产品的内部结构产生了好奇。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "主板上麦克风拾音孔特写，设置有防尘网及垫圈包裹，在防尘的同时提升收音性能。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机头后腔上的降噪麦克风拾音孔一览，设有细密的防尘网。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "采用12.91mm的复合镀钛振膜大动圈单元提供更加澎湃的听音体验。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄后盖板内设有电容触摸贴片，用于实现耳机的触摸功能。在触摸检测贴片外圈是耳机的蓝牙天线，通过主板上的金属触点连接。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机头后腔上的降噪麦克风拾音孔一览，设有细密的防尘网。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机座舱支架正面固定了电池、集成LED灯和霍尔元件的FPC排线。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SS881",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SS881",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "SinhMicro昇生微SS881A属于昇生微POWR MCU SS881X系列的产品之一，具有丰富的接口功能和灵活的配置模式，支持不同的低功耗选项，适用于需要电池充电以及智能控制的便携式电子产品，可通过软件灵活配置电池的充电电压和电流，同时还内置完善的保护功能，而且芯片本身已经通过了IEC62368认证。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SY8602",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SY8602",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "标记/认证：SY8602芯片已经通过了最新的IEC62368-1安全法规认证，为用户实现高品质要求的产品设计提供了可靠的保障。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2500",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2500",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：440\n芯片 恒玄BES2500\n芯片 恒玄BES2500IUC\n芯片 SY8602\n芯片 SS881\n芯片 ETA1061"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA1061",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA1061",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：440\n芯片 恒玄BES2500\n芯片 恒玄BES2500IUC\n芯片 SY8602\n芯片 SS881\n芯片 ETA1061"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:107686"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "OPPO Enco Air2真无 […]\n采用12.91mm的复合镀钛振膜大动圈单元提供更加澎湃的听音体验。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "OPPO Enco Air2真无 […]\n采用12.91mm的复合镀钛振膜大动圈单元提供更加澎湃的听音体验。",
+          "confidence": 0.59,
+          "source_type": "text",
+          "source_text": "OPPO Enco Air2真无 […]\n采用12.91mm的复合镀钛振膜大动圈单元提供更加澎湃的听音体验。"
+        }
+      },
+      {
+        "text": "耳机头后腔上的降噪麦克风拾音孔一览，设有细密的防尘网。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "耳机头后腔上的降噪麦克风拾音孔一览，设有细密的防尘网。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "耳机头后腔上的降噪麦克风拾音孔一览，设有细密的防尘网。"
+        }
+      },
+      {
+        "text": "耳机柄顶部的降噪麦克风拾音孔，收集环境声音用于通话降噪。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "耳机柄顶部的降噪麦克风拾音孔，收集环境声音用于通话降噪。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "耳机柄顶部的降噪麦克风拾音孔，收集环境声音用于通话降噪。"
+        }
+      },
+      {
+        "text": "OPPO Enco Air2真无线耳机及其充电盒拥有“外观精美，设计精巧，日常使用中，能够提供24小时的长续航时间，声音耐听，久戴不累”的特点，作为OPPO Enco Air的升级产品其表现的出众让小编印象深刻的同时也对产品的内部结构产生了好奇。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "OPPO Enco Air2真无线耳机及其充电盒拥有“外观精美，设计精巧，日常使用中，能够提供24小时的长续航时间，声音耐听，久戴不累”的特点，作为OPPO Enco Air的升级产品其表现的出众让小编印象深刻的同时也对产品的内部结构产生了好奇。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "OPPO Enco Air2真无线耳机及其充电盒拥有“外观精美，设计精巧，日常使用中，能够提供24小时的长续航时间，声音耐听，久戴不累”的特点，作为OPPO Enco Air的升级产品其表现的出众让小编印象深刻的同时也对产品的内部结构产生了好奇。"
+        }
+      },
+      {
+        "text": "主板上麦克风拾音孔特写，设置有防尘网及垫圈包裹，在防尘的同时提升收音性能。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "主板上麦克风拾音孔特写，设置有防尘网及垫圈包裹，在防尘的同时提升收音性能。",
+          "confidence": 0.68,
+          "source_type": "text",
+          "source_text": "主板上麦克风拾音孔特写，设置有防尘网及垫圈包裹，在防尘的同时提升收音性能。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "OPPO Enco Air2真无 […]\n采用12.91mm的复合镀钛振膜大动圈单元提供更加澎湃的听音体验。",
+    "launch_date": null,
+    "best_report_id": "107686",
+    "best_video_id": null
+  }
+}

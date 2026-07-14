@@ -1,0 +1,363 @@
+{
+  "canonical_id": "unknown--goovisge10xr",
+  "brand": "",
+  "model": "GOOVIS酷睿视GE10无线XR",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "181853"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "181853"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-11-20",
+  "latest_published": "2023-11-20",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "SY5501",
+    "pmic_case": "思远半导体 思远半导体SY5501",
+    "battery_ear": "电池",
+    "battery_case": "5V/00mAh",
+    "speaker": "10mm 动圈单元",
+    "materials": "硅胶、PC",
+    "weight_g": "60.3g",
+    "weight_case_g": "",
+    "weight_earbud_g": "5.3g",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 17,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "181853",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "5V/00mAh",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "5V/00mAh",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内置电池容量500mAh，采用了LPS微源半导体LP7812C TWS充电仓电源管理芯片负责充放电管理，支持高效率电压跟随放电，可提升15%左右的电池转换效率，从而提升产品15%的综合续航时间，还集成了温度管理、霍尔检测、按键检测以及LED显示等多功能；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "思远半导体",
+      "model": "思远半导体SY5501",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "PMIC/充电仓管理",
+      "evidence": {
+        "value": "思远半导体SY5501",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内置软包扣式电池容量0.250Wh，采用了WINSEMI稳先微WSDF13F2N2H锂电保护IC负责过充、过放、过流、短路等保护，思远半导体SY5501电源管理PMIC负责为其充电。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "WINSEMI稳先微",
+      "model": "WINSEMI稳先微WSDF13F",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "保护IC",
+      "evidence": {
+        "value": "WINSEMI稳先微WSDF13F",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内置软包扣式电池容量0.250Wh，采用了WINSEMI稳先微WSDF13F2N2H锂电保护IC负责过充、过放、过流、短路等保护，思远半导体SY5501电源管理PMIC负责为其充电。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "10mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "10mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了10mm动圈单元，两颗MEMS麦克风。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "2",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了10mm动圈单元，两颗MEMS麦克风。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "GOOVIS酷睿视GE10无线XR耳机支持双麦智慧降噪功能，实时增强人声，过滤嘈杂环境干扰，提供清晰通话效果。续航方面，单耳机单次最长续航约6小时，搭配充电舱综合续航时间约20小时，支持快充功能，充电10分钟，可使用1.5小时。下面就让我们来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，元器件相对较为复杂，包括了主板、电池、指示灯小板和为耳机充电的电源输出小板。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，元器件相对较为复杂，包括了主板、电池、指示灯小板和为耳机充电的电源输出小板。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机顶部的降噪麦克风拾音孔特写，三角形设计。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧结构一览，设置有蓝牙天线和用于触摸检测的导电海绵。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "前腔内部扬声器单元结构一览。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面采用黑色光亮面板，中间设计有条形指示灯，用于反馈蓝牙配对及充电状态。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒底部设置蓝牙配对功能按键。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "取掉充电盒底部卡扣式固定的外壳。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄内侧的充电触点特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SY5501",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SY5501",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "SY5501最大充电电流外部电阻可调，同时支持恒流充电ICC、浮充电压VFLOAT档位I2C调节；芯片集成NTC检测和保护功能，更安全地对电池进行充放电管理。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WINSEMI稳先微WSDF13F",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "WINSEMI稳先微WSDF13F",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "WINSEMI稳先微WSDF13F2N2H锂电保护IC，是单节锂离子/锂聚合物可充电电池组保护的高集成度解决方案。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 GOOVIS酷睿视GE10无线XR耳机在外观方面，充电盒体积紧凑，采用了烤漆工艺设计，拥有出色质感；座舱内可收纳耳机和闪连器，外出使用更加便携。柄状的入耳式耳机，采用了两种质感相结合，拥有不错辨识度的同时，提供舒适稳固的佩戴体验。闪连器体积小巧轻便，搭配音乐设备使用无负担，USB-C接口即插即用非常便捷。 内部主要配置方面，充电盒包括了主板、电池、指示灯小板和为耳机充电小板。内置电池容量500mAh，采用了LPS微源半导体LP7812C TWS充电仓电源管理芯片负责充放电管理，支持高效率电压跟随放电，可提升15%左右的电池转换效率，从而提升产品15%的综合续航时间，还集成了温度管理、霍尔检测、按键检测以及LED显示等多功能；还采用了FMD辉芒微FT61E143A MCU单片机负责整机控制。 耳机内部搭载了10mm动圈单元，两颗MEMS麦克风。内置软包扣式电池容量0.250Wh，采用了WINSEMI稳先微WSDF13F2N2H锂电保护IC负责过充、过放、过流、短路等保护，思远半导体SY5501电源管理PMIC负责为其充电。主控芯片为Telink泰凌微电子TLSR9516A多标准无线音频SoC，支持蓝牙5.3，单芯片集成高质量无线音频设备所需的特性和功能；搭配闪连器内部泰凌微电子TLSR9517B，实现低于30ms的超低延时无线传输。",
+  "layer_refs": {
+    "technical": [
+      "report:181853"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "另外一颗镭雕N6 29117的MEMS麦克风，用于通话降噪功能拾音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "另外一颗镭雕N6 29117的MEMS麦克风，用于通话降噪功能拾音。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "另外一颗镭雕N6 29117的MEMS麦克风，用于通话降噪功能拾音。"
+        }
+      },
+      {
+        "text": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\nOPPO\n、\nvivo\n、\nRedmi\n、\niQOO\n、\n漫步者\n、\n讯飞\n、\nQCY\n、\n倍思\n、\nFiiO\n、\nfinal\n、\n猛玛\n、\n声阔\n、\n绿联\n、\nNothing\n、\nXTOUR秘语\n、\n公牛\n、\ncleer\n、\n万魔、233621、传音、魔宴、创新科技、一加、\n小米、realme、魅族、百度、网易、JBL、哈曼、联想\n等国内外知名品牌采用。",
+        "tag": "其他",
+        "evidence": {
+          "value": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\nOPPO\n、\nvivo\n、\nRedmi\n、\niQOO\n、\n漫步者\n、\n讯飞\n、\nQCY\n、\n倍思\n、\nFiiO\n、\nfinal\n、\n猛玛\n、\n声阔\n、\n绿联\n、\nNothing\n、\nXTOUR秘语\n、\n公牛\n、\ncleer\n、\n万魔、233621、传音、魔宴、创新科技、一加、\n小米、realme、魅族、百度、网易、JBL、哈曼、联想\n等国内外知名品牌采用。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\nOPPO\n、\nvivo\n、\nRedmi\n、\niQOO\n、\n漫步者\n、\n讯飞\n、\nQCY\n、\n倍思\n、\nFiiO\n、\nfinal\n、\n猛玛\n、\n声阔\n、\n绿联\n、\nNothing\n、\nXTOUR秘语\n、\n公牛\n、\ncleer\n、\n万魔、233621、传音、魔宴、创新科技、一加、\n小米、realme、魅族、百度、网易、JBL、哈曼、联想\n等国内外知名品牌采用。"
+        }
+      },
+      {
+        "text": "据我爱音频网了解到，为了让电压跟随更普及消费者体验更好，微源半导体通过不断创新，同步推出了7812A/7812B等无需外挂MCU系列产品，能够轻松实现效率提升15%左右，从而不增加客户的任何成本。",
+        "tag": "其他",
+        "evidence": {
+          "value": "据我爱音频网了解到，为了让电压跟随更普及消费者体验更好，微源半导体通过不断创新，同步推出了7812A/7812B等无需外挂MCU系列产品，能够轻松实现效率提升15%左右，从而不增加客户的任何成本。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "据我爱音频网了解到，为了让电压跟随更普及消费者体验更好，微源半导体通过不断创新，同步推出了7812A/7812B等无需外挂MCU系列产品，能够轻松实现效率提升15%左右，从而不增加客户的任何成本。"
+        }
+      },
+      {
+        "text": "GOOVIS酷睿视GE10无线XR耳机支持双麦智慧降噪功能，实时增强人声，过滤嘈杂环境干扰，提供清晰通话效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "GOOVIS酷睿视GE10无线XR耳机支持双麦智慧降噪功能，实时增强人声，过滤嘈杂环境干扰，提供清晰通话效果。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "GOOVIS酷睿视GE10无线XR耳机支持双麦智慧降噪功能，实时增强人声，过滤嘈杂环境干扰，提供清晰通话效果。"
+        }
+      },
+      {
+        "text": "后腔内部结构一览，固定电池单元，泄压孔内侧贴有防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "后腔内部结构一览，固定电池单元，泄压孔内侧贴有防尘网防护。",
+          "confidence": 0.6,
+          "source_type": "text",
+          "source_text": "后腔内部结构一览，固定电池单元，泄压孔内侧贴有防尘网防护。"
+        }
+      },
+      {
+        "text": "续航方面，单耳机单次最长续航约6小时，搭配充电舱综合续航时间约20小时，支持快充功能，充电10分钟，可使用1.5小时。",
+        "tag": "长续航",
+        "evidence": {
+          "value": "续航方面，单耳机单次最长续航约6小时，搭配充电舱综合续航时间约20小时，支持快充功能，充电10分钟，可使用1.5小时。",
+          "confidence": 0.59,
+          "source_type": "text",
+          "source_text": "续航方面，单耳机单次最长续航约6小时，搭配充电舱综合续航时间约20小时，支持快充功能，充电10分钟，可使用1.5小时。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话",
+      "电竞"
+    ],
+    "positioning_summary": "另外一颗镭雕N6 29117的MEMS麦克风，用于通话降噪功能拾音。",
+    "launch_date": null,
+    "best_report_id": "181853",
+    "best_video_id": null
+  }
+}

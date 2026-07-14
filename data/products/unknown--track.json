@@ -1,0 +1,277 @@
+{
+  "canonical_id": "unknown--track",
+  "brand": "",
+  "model": "小鸟TRACK+挂颈入耳式",
+  "category": "有线耳机",
+  "report_ids": [
+    "29312"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "29312"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2019-10-10",
+  "latest_published": "2019-10-10",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "Qualcomm CSR8670",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "120 mAh",
+    "speaker": "喇叭单元",
+    "materials": "硅胶、铝合金、PC",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 11,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "29312",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "通话麦克风拾音孔。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "首先拆解耳机线上的电路板和电池组。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "首先拆解耳机线上的电路板和电池组。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "摘下耳机硅胶耳塞后可见防尘网孔，防止异物进入单元振膜上。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "陶瓷蓝牙天线，增益高，连接距离和连接质量都有保障。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "位于线控部分的开关机按键。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "小鸟音响的英文品牌LIBRATONE，由于线控为铝合金外壳，logo采用激光镭射方式设计上去，摸上去有质感。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "位于线控上的LED指示灯孔，用于电量、工作状态显色。线控外壳材质为铝合金，这里采用了激光镂空工艺，孔位均匀，对生产工艺要求非常高。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面分别是产品卖点、线控部分特写、产品编码等，值得一提的是这款耳机获得了苹果MFi认证。包装盒的顶部有挂钩，便于卖场陈列、展示。通过与我爱音频网卡片对比，可见包装盒非常大。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Qualcomm CSR8670",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Qualcomm CSR8670",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm CSR8670的双核架构包括一个应用程序处理器、一个超低功耗Kalimba DSP，以及嵌入式闪存，使得CSR8670能够提供非常灵活的解决方案，实现产品的高度差异化。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通CSR8670",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通CSR8670",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "这款耳机采用高通CSR8670作为蓝牙接收，支持aptX HiFi音频。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:29312"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "小鸟TRACK+挂颈入耳式无线降噪耳机左右耳特写，设计方面，延续了家族风格，这个ID已经成为小鸟家族语言，融合到了有线耳机、脖挂耳机、TWS耳机当中。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "小鸟TRACK+挂颈入耳式无线降噪耳机左右耳特写，设计方面，延续了家族风格，这个ID已经成为小鸟家族语言，融合到了有线耳机、脖挂耳机、TWS耳机当中。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "小鸟TRACK+挂颈入耳式无线降噪耳机左右耳特写，设计方面，延续了家族风格，这个ID已经成为小鸟家族语言，融合到了有线耳机、脖挂耳机、TWS耳机当中。"
+        }
+      },
+      {
+        "text": "得益于通过苹果MFi认证，可以跟iPhone、iPod的配合使用。",
+        "tag": "其他",
+        "evidence": {
+          "value": "得益于通过苹果MFi认证，可以跟iPhone、iPod的配合使用。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "得益于通过苹果MFi认证，可以跟iPhone、iPod的配合使用。"
+        }
+      },
+      {
+        "text": "小鸟近期在无线降噪耳机市场发布了多款新品，我爱音频网已经对小鸟TRACK AIR、TRACK AIR+真无线耳机做了深度拆解，设计方面获得了业内从业人员和发烧友的认可。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "小鸟近期在无线降噪耳机市场发布了多款新品，我爱音频网已经对小鸟TRACK AIR、TRACK AIR+真无线耳机做了深度拆解，设计方面获得了业内从业人员和发烧友的认可。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "小鸟近期在无线降噪耳机市场发布了多款新品，我爱音频网已经对小鸟TRACK AIR、TRACK AIR+真无线耳机做了深度拆解，设计方面获得了业内从业人员和发烧友的认可。"
+        }
+      },
+      {
+        "text": "我爱音频网总结\n在脖挂降噪蓝牙耳机当中，尤其是千元级的档位，小鸟通过TRACK+挂颈入耳式无线降噪耳机切入市场，凭借着惊喜的做工和产品性能，在这一段位占有一席地。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "我爱音频网总结\n在脖挂降噪蓝牙耳机当中，尤其是千元级的档位，小鸟通过TRACK+挂颈入耳式无线降噪耳机切入市场，凭借着惊喜的做工和产品性能，在这一段位占有一席地。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "我爱音频网总结\n在脖挂降噪蓝牙耳机当中，尤其是千元级的档位，小鸟通过TRACK+挂颈入耳式无线降噪耳机切入市场，凭借着惊喜的做工和产品性能，在这一段位占有一席地。"
+        }
+      },
+      {
+        "text": "丝印486 3959 1733的芯片是一颗苹果认证芯片。",
+        "tag": "其他",
+        "evidence": {
+          "value": "丝印486 3959 1733的芯片是一颗苹果认证芯片。",
+          "confidence": 0.71,
+          "source_type": "text",
+          "source_text": "丝印486 3959 1733的芯片是一颗苹果认证芯片。"
+        }
+      },
+      {
+        "text": "位于耳机上的另一个麦克风，降噪耳机通常会有多个麦克风，用于配合算法消除噪音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "位于耳机上的另一个麦克风，降噪耳机通常会有多个麦克风，用于配合算法消除噪音。",
+          "confidence": 0.69,
+          "source_type": "text",
+          "source_text": "位于耳机上的另一个麦克风，降噪耳机通常会有多个麦克风，用于配合算法消除噪音。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "小鸟TRACK+挂颈入耳式无线降噪耳机左右耳特写，设计方面，延续了家族风格，这个ID已经成为小鸟家族语言，融合到了有线耳机、脖挂耳机、TWS耳机当中。",
+    "launch_date": null,
+    "best_report_id": "29312",
+    "best_video_id": null
+  }
+}

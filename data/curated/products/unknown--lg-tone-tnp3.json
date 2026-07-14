@@ -1,0 +1,310 @@
+{
+  "canonical_id": "unknown--lg-tone-tnp3",
+  "brand": "",
+  "model": "LG TONE-TNP3",
+  "category": "颈挂式蓝牙耳机",
+  "report_ids": [
+    "144913"
+  ],
+  "video_ids": [
+    "259131"
+  ],
+  "related_report_ids": [
+    "144913"
+  ],
+  "related_video_ids": [
+    "259131"
+  ],
+  "first_seen": "2023-01-04",
+  "latest_published": "2025-11-14",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "",
+    "pmic_case": "",
+    "battery_ear": "2V/10mAh锂电池",
+    "battery_case": "电池",
+    "speaker": "8mm 动圈单元",
+    "materials": "硅胶、PC",
+    "weight_g": "50g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.0",
+    "bom_row_count": 13,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.67,
+    "best_report_id": "144913",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "2V/10mAh锂电池",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "2V/10mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机搭载了8mm动圈单元，内置豪鹏科技210mAh大容量超窄锂电池，为耳机提供了高达22h的持久续航。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "8mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "8mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机搭载了8mm动圈单元，内置豪鹏科技210mAh大容量超窄锂电池，为耳机提供了高达22h的持久续航。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "麦克风",
+      "qty_hint": "2",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机主控芯片采用了Realtek瑞昱RTL8763BFP方案，支持蓝牙5.0，内置32位ARM处理器，集成锂电池充电管理、LED驱动，支持支持双麦克风，具有双耳通话功能；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部设置一块PCB板和电池单元。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机左侧腔体外观一览，设置多功能按键和通话麦克风拾音孔。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "蓝牙天线特写，丝印型号“TONE-NP3 ANT 1.0A”，末端露铜与主板连接。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "扬声器采用的动圈单元正面振膜特写。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧结构一览，贴有蓝牙天线。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "LG TONE+是LG旗下蓝牙耳机系列产品，包括了TWS耳机、颈挂式耳机类型。其中TWS耳机主打杀菌功能，配备具备杀菌功能的UVnano充电盒；颈挂式耳机能够满足日常工作、娱乐等众多场景，提供舒适稳固的佩戴和高清无线音频体验。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "第二颗楼氏电子镭雕S2797 4564的MEMS麦克风，两颗麦克风协同拾音，搭配ENC降噪算法，提供清晰的语音通话效果。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机右侧腔体外观一览，设置有加/减功能按键。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱腔体上的的电源开关特写，左侧有一颗指示灯反馈状态。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "多功能按键特写，圆形凸起，便于盲操作区分。外壳上设计铆钉纹理，提升产品质感。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 LG TONE-TNP3颈挂式蓝牙耳机在外观方面通过创新设计，使耳机能够在使用和未使用的状态下自由伸缩，既保障了舒适的佩戴性，又实现了很好的收纳，有效提升了产品的用户体验。记忆颈带采用了硅胶材质，佩戴舒适亲肤，豆式耳机小巧轻便，配备三副硅胶耳塞，满足个性化佩戴需求。 内部结构配置方面，耳机搭载了8mm动圈单元，内置豪鹏科技210mAh大容量超窄锂电池，为耳机提供了高达22h的持久续航。耳机主控芯片采用了Realtek瑞昱RTL8763BFP方案，支持蓝牙5.0，内置32位ARM处理器，集成锂电池充电管理、LED驱动，支持支持双麦克风，具有双耳通话功能；配合两颗楼氏电子镭雕S2797 4564的MEMS麦克风，提供清晰的通话体验。",
+  "layer_refs": {
+    "technical": [
+      "report:144913",
+      "video:259131"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "腔体侧边的通话降噪麦克风开孔特写。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "腔体侧边的通话降噪麦克风开孔特写。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "腔体侧边的通话降噪麦克风开孔特写。"
+        }
+      },
+      {
+        "text": "Type-C充电接口特写，通过橡胶塞密封，防尘防水。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "Type-C充电接口特写，通过橡胶塞密封，防尘防水。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "Type-C充电接口特写，通过橡胶塞密封，防尘防水。"
+        }
+      },
+      {
+        "text": "此次将要拆解的LG TONE-TNP3颈挂式蓝牙耳机在外观上延续了家族式的设计，记忆型宽颈带提供全天候舒适佩戴，可伸缩的耳机拥有更好的收纳效果。",
+        "tag": "舒适佩戴",
+        "evidence": {
+          "value": "此次将要拆解的LG TONE-TNP3颈挂式蓝牙耳机在外观上延续了家族式的设计，记忆型宽颈带提供全天候舒适佩戴，可伸缩的耳机拥有更好的收纳效果。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "此次将要拆解的LG TONE-TNP3颈挂式蓝牙耳机在外观上延续了家族式的设计，记忆型宽颈带提供全天候舒适佩戴，可伸缩的耳机拥有更好的收纳效果。"
+        }
+      },
+      {
+        "text": "第二颗楼氏电子镭雕S2797 4564的MEMS麦克风，两颗麦克风协同拾音，搭配ENC降噪算法，提供清晰的语音通话效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "第二颗楼氏电子镭雕S2797 4564的MEMS麦克风，两颗麦克风协同拾音，搭配ENC降噪算法，提供清晰的语音通话效果。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "第二颗楼氏电子镭雕S2797 4564的MEMS麦克风，两颗麦克风协同拾音，搭配ENC降噪算法，提供清晰的语音通话效果。"
+        }
+      },
+      {
+        "text": "三、我爱音频网总结\nLG TONE-TNP3颈挂式蓝牙耳机在外观方面通过创新设计，使耳机能够在使用和未使用的状态下自由伸缩，既保障了舒适的佩戴性，又实现了很好的收纳，有效提升了产品的用户体验。",
+        "tag": "其他",
+        "evidence": {
+          "value": "三、我爱音频网总结\nLG TONE-TNP3颈挂式蓝牙耳机在外观方面通过创新设计，使耳机能够在使用和未使用的状态下自由伸缩，既保障了舒适的佩戴性，又实现了很好的收纳，有效提升了产品的用户体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\nLG TONE-TNP3颈挂式蓝牙耳机在外观方面通过创新设计，使耳机能够在使用和未使用的状态下自由伸缩，既保障了舒适的佩戴性，又实现了很好的收纳，有效提升了产品的用户体验。"
+        }
+      },
+      {
+        "text": "取掉耳塞，出音嘴特写，采用了细密的防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "取掉耳塞，出音嘴特写，采用了细密的防尘网防护。",
+          "confidence": 0.62,
+          "source_type": "text",
+          "source_text": "取掉耳塞，出音嘴特写，采用了细密的防尘网防护。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "腔体侧边的通话降噪麦克风开孔特写。",
+    "launch_date": null,
+    "best_report_id": "144913",
+    "best_video_id": null
+  }
+}

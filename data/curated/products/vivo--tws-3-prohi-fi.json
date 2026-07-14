@@ -1,0 +1,423 @@
+{
+  "canonical_id": "vivo--tws-3-prohi-fi",
+  "brand": "vivo",
+  "model": "TWS 3 Pro真无线Hi-Fi",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "150978"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "150978"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-03-03",
+  "latest_published": "2023-03-03",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "高通 S5",
+    "pmic_case": "CM1126B",
+    "battery_ear": "电池",
+    "battery_case": "4V/95mAh锂电池",
+    "speaker": "喇叭单元",
+    "materials": "PC",
+    "weight_g": "45.2g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 22,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "150978",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1126B",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "CM1126B",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "采用了MIC-POWER微电新能源0.185Wh钢壳扣式电池，配备iCM创芯微CM1126B-GAC带船运模式二合一单节电池保护IC，负责电池的过充电、过放电、过电流等保护。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "Qualcomm高通",
+      "model": "高通 S5",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通 S5",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机主板上，搭载 Qualcomm高通 S5音频平台（QCC5171蓝牙音频SoC），支持蓝牙5.3，支持Snapdragon Sound高通骁龙畅听技术，提供16-bit 44.1kHz CD级无损音频传输；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "Qualcomm高通",
+      "model": "QCC5171",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "QCC5171",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机主板上，搭载 Qualcomm高通 S5音频平台（QCC5171蓝牙音频SoC），支持蓝牙5.3，支持Snapdragon Sound高通骁龙畅听技术，提供16-bit 44.1kHz CD级无损音频传输；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "4V/95mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "4V/95mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒采用了Type-C接口输入电源，内置电池容量495mAh，来自东莞锂威能源；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "3",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部，搭载了vivo自研的12.2mm超宽频声音单元，前馈+后馈+通话三颗MEMS麦克风单元；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "另外一侧印有参数信息，输入：5V-0.7A，输出：5V-0.3A，电池信息：3.8V 510mAh 1.93Wh。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒采用了圆角矩形设计，边缘过渡圆润，手感舒适，蓝图配色呈现渐变蓝色彩，通过多重工艺打造，带来流动镜面光泽。充电盒正面设计有vivo品牌LOGO和一颗指示灯。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒座舱正面结构一览，固定有主板单元，通过三条排线连接为耳机充电的小板、功能按键和指示灯单元。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在降噪方面，vivo TWS 3 Pro获得了CAIA A级降噪认证，具有49dB降噪深度和4000Hz降噪频宽；支持智能动态降噪，自动调节三种降噪模式；支持环境声透传和辅听模式，通过音量补偿，佩戴耳机依然清晰获取外界信息；vivo TWS 3 Pro还通过三麦克风系统，搭配降噪算法，提供了清晰的语音通话和高清录音效果。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "镭雕222 ANC的MEMS麦克风，为后馈降噪麦克风，用于从耳道内部拾取环境噪音。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "连接蓝牙天线的金属弹片特写。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "扬声器单元结构一览。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒侧边设置有一颗椭圆形的蓝牙配对按键。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出内部座舱结构。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒采用了圆角矩形设计，边缘过渡圆润，手感舒适，蓝图配色呈现渐变蓝色彩，通过多重工艺打造，带来流动镜面光泽。充电盒正面设计有vivo品牌LOGO和一颗指示灯。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通S5",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通S5",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "功能配置上，vivo TWS 3 Pro搭载12.2mm自研超宽频声音单元，独立专业音频芯片实现超低的全链路噪声失真；采用高通S5平台，支持Snapdragon Sound骁龙畅听技术，支持aptX Lossless无损传输，1.2Mbps超高码流、2倍超高带宽，提供稳定CD级无损音频。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1126B",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM1126B",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "iCM创芯微CM1126B-GAC带船运模式二合一单节电池保护IC，内置有高精度电压检测电路和延迟电路，通过检测电池的电压、电流，实现对电池的过充电、过放电、过电流等保护，适用于单节锂离子/锂聚合物可充电电池的保护电路，更带有船运模式，使小容量电池包满足海运运输及长期存储需求。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通\nQCC5171",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通\nQCC5171",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm高通\nQCC5171蓝牙音频SoC，属于高通最新的S5（QCC517x）音频平台的一员。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通aptX",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通aptX",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "高通骁龙畅听技术还支持24bit/96KHz高分辨率音频，高通aptX音频编码，包括aptX\nAdaptive技术；支持aptX\nVoice优化通话语音和第八代高通cVc回声消除和噪声抑制技术；集成高通自适应主动降噪，包括前馈，后馈，混合和自适应，通过高通扩展程序支持第三方创新。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC51xx",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC51xx",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm高通QCC51xx系列详细资料图。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "QCC51",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "QCC51",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm高通QCC51xx系列详细资料图。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1126B",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM1126B",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "耳机内部，搭载了vivo自研的12.2mm超宽频声音单元，前馈+后馈+通话三颗MEMS麦克风单元；采用了MIC-POWER微电新能源0.185Wh钢壳扣式电池，配备iCM创芯微CM1126B-GAC带船运模式二合一单节电池保护IC，负责电池的过充电、过放电、过电流等保护。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 vivo TWS 3 Pro真无线Hi-Fi耳机在外观方面，充电盒采用了圆角矩形设计，边缘过渡圆润，体积轻巧便携。基于多重工艺打造的机身，呈现流动镜面光泽，搭配渐变蓝配色，具有很强的质感。柄状的入耳式耳机，独具特色的流线水滴型小耳柄设计，拥有着很高的辨识度。 内部结构配置方面，充电盒采用了Type-C接口输入电源，内置电池容量495mAh，来自东莞锂威能源；主板上，采用了TI德州仪器BQ25619电源管理芯片，集成充电、升压转换器和电压保护功能，用于为电池和耳机充电；Chipsea芯海科技CS32F031K8U6 MCU单片机，负责整机控制。 耳机内部，搭载了vivo自研的12.2mm超宽频声音单元，前馈+后馈+通话三颗MEMS麦克风单元；采用了MIC-POWER微电新能源0.185Wh钢壳扣式电池，配备iCM创芯微CM1126B-GAC带船运模式二合一单节电池保护IC，负责电池的过充电、过放电、过电流等保护。 耳机主板上，搭载 Qualcomm高通 S5音频平台（QCC5171蓝牙音频SoC），支持蓝牙5.3，支持Snapdragon Sound高通骁龙畅听技术，提供16-bit 44.1kHz CD级无损音频传输；采用ADI亚德诺AU1860音频芯片，是一款具有三个输入和一个输出的编解码器，集成了两个数字信号处理器 (DSP)；还采用了两颗GOODiX汇顶科技GH6212高精度多合一交互传感器，用于交互控制；以及ST意法半导体LSM6DSOWTR六轴传感器，用于360°环绕空间音频功能，实现动态头部跟踪。",
+  "layer_refs": {
+    "technical": [
+      "report:150978"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "TWS耳机市场，vivo在2022年相继推出了3款产品，包括了主打舒适佩戴的\nvivo TWS Air\n真无线耳机，以及首发搭载全链路无线真Hi-Fi技术的\nvivo TWS 3\n和\nvivo TWS 3 Pro\n真无线降噪耳机。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "TWS耳机市场，vivo在2022年相继推出了3款产品，包括了主打舒适佩戴的\nvivo TWS Air\n真无线耳机，以及首发搭载全链路无线真Hi-Fi技术的\nvivo TWS 3\n和\nvivo TWS 3 Pro\n真无线降噪耳机。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "TWS耳机市场，vivo在2022年相继推出了3款产品，包括了主打舒适佩戴的\nvivo TWS Air\n真无线耳机，以及首发搭载全链路无线真Hi-Fi技术的\nvivo TWS 3\n和\nvivo TWS 3 Pro\n真无线降噪耳机。"
+        }
+      },
+      {
+        "text": "其中，作为vivo TWS系列的首款“Pro”产品，vivo TWS 3 Pro带来了全方位的升级，为用户打造顶级的无线音频体验。",
+        "tag": "旗舰定位",
+        "evidence": {
+          "value": "其中，作为vivo TWS系列的首款“Pro”产品，vivo TWS 3 Pro带来了全方位的升级，为用户打造顶级的无线音频体验。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "其中，作为vivo TWS系列的首款“Pro”产品，vivo TWS 3 Pro带来了全方位的升级，为用户打造顶级的无线音频体验。"
+        }
+      },
+      {
+        "text": "可支持Hybrid ANC、自适应ANC降噪，以及动态均衡、空间音频等功能。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "可支持Hybrid ANC、自适应ANC降噪，以及动态均衡、空间音频等功能。",
+          "confidence": 0.67,
+          "source_type": "text",
+          "source_text": "可支持Hybrid ANC、自适应ANC降噪，以及动态均衡、空间音频等功能。"
+        }
+      },
+      {
+        "text": "前馈降噪麦克风声学结构特写，细密防尘网防护，防止异物进入。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "前馈降噪麦克风声学结构特写，细密防尘网防护，防止异物进入。",
+          "confidence": 0.59,
+          "source_type": "text",
+          "source_text": "前馈降噪麦克风声学结构特写，细密防尘网防护，防止异物进入。"
+        }
+      },
+      {
+        "text": "在降噪方面，vivo TWS 3 Pro获得了CAIA A级降噪认证，具有49dB降噪深度和4000Hz降噪频宽；支持智能动态降噪，自动调节三种降噪模式；支持环境声透传和辅听模式，通过音量补偿，佩戴耳机依然清晰获取外界信息；vivo TWS 3 Pro还通过三麦克风系统，搭配降噪算法，提供了清晰的语音通话和高清录音效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "在降噪方面，vivo TWS 3 Pro获得了CAIA A级降噪认证，具有49dB降噪深度和4000Hz降噪频宽；支持智能动态降噪，自动调节三种降噪模式；支持环境声透传和辅听模式，通过音量补偿，佩戴耳机依然清晰获取外界信息；vivo TWS 3 Pro还通过三麦克风系统，搭配降噪算法，提供了清晰的语音通话和高清录音效果。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "在降噪方面，vivo TWS 3 Pro获得了CAIA A级降噪认证，具有49dB降噪深度和4000Hz降噪频宽；支持智能动态降噪，自动调节三种降噪模式；支持环境声透传和辅听模式，通过音量补偿，佩戴耳机依然清晰获取外界信息；vivo TWS 3 Pro还通过三麦克风系统，搭配降噪算法，提供了清晰的语音通话和高清录音效果。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "TWS耳机市场，vivo在2022年相继推出了3款产品，包括了主打舒适佩戴的\nvivo TWS Air\n真无线耳机，以及首发搭载全链路无线真Hi-Fi技术的\nvivo TWS 3\n和\nvivo TWS 3 Pro\n真无线降噪耳机。",
+    "launch_date": null,
+    "best_report_id": "150978",
+    "best_video_id": null
+  }
+}

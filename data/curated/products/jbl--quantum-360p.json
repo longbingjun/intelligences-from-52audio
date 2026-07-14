@@ -3,41 +3,189 @@
   "brand": "JBL",
   "model": "Quantum 360P无线头戴式游戏",
   "category": "头戴式耳机",
-  "report_ids": [],
+  "report_ids": [
+    "158661"
+  ],
   "video_ids": [
     "282142"
   ],
-  "related_report_ids": [],
+  "related_report_ids": [
+    "158661"
+  ],
   "related_video_ids": [
     "282142"
   ],
-  "first_seen": "2026-07-08",
+  "first_seen": "2023-05-05",
   "latest_published": "2026-07-08",
   "internal_match_suggestions": [],
   "cost_snapshot": {
-    "main_chip": null,
-    "pmic_case": null,
-    "battery_ear": null,
-    "battery_case": null,
-    "speaker": null,
-    "materials": null,
-    "weight_g": null,
-    "ip_rating": null,
-    "bluetooth": null,
-    "bom_row_count": 0,
+    "main_chip": "",
+    "pmic_case": "",
+    "battery_ear": "5V/00mAh锂电池",
+    "battery_case": "电池",
+    "speaker": "喇叭单元",
+    "materials": "PC、ABS、皮革",
+    "weight_g": "259.9g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "IP5",
+    "bluetooth": "5.3",
+    "bom_row_count": 10,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
     "sales_hint": null,
-    "data_completeness": 0.0,
-    "best_report_id": null,
+    "data_completeness": 0.67,
+    "best_report_id": "158661",
     "best_video_id": null
   },
-  "bom_table": [],
+  "bom_table": [
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "吊杆麦克风采用可拆卸设计，线缆支持弯曲调节，满足个性化使用需求。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "5V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "5V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机采用了40mm驱动单元，右耳内置锂电池，容量500mAh，配备有电路保护板负责充放电保护。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "其他配置上，JBL Quantum 360P搭载了40mm驱动单元，可拆卸、定向语音聚焦吊杆麦克风，提供清晰响亮的上行和下行音质；支持双声卡功能，可以实现游戏背景音和人声平衡调节；续航方面，支持22h（2.4G）/26h（蓝牙）的电池续航时间，支持快速充电，充电5分钟可增加播放1小时，还支持使用USB充电线边玩边充电。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "其他配置上，JBL Quantum 360P搭载了40mm驱动单元，可拆卸、定向语音聚焦吊杆麦克风，提供清晰响亮的上行和下行音质；支持双声卡功能，可以实现游戏背景音和人声平衡调节；续航方面，支持22h（2.4G）/26h（蓝牙）的电池续航时间，支持快速充电，充电5分钟可增加播放1小时，还支持使用USB充电线边玩边充电。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部主板单元通过螺丝固定，腔体壁上贴有同轴蓝牙天线。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部主板单元通过螺丝固定，腔体壁上贴有同轴蓝牙天线。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "扬声器单元结构一览，导线焊接。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "左侧耳壳上的电源开/关和蓝牙配对滑块，以及一颗指示灯。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身侧边设置有一颗2.4G无线连接配对按键。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开无线收发器外壳，内部结构一览。"
+      }
+    }
+  ],
   "summary_image_urls": [],
-  "summary_text": "",
+  "summary_text": "三、我爱音频网总结 JBL Quantum 360P无线头戴式游戏耳机在外观设计方面，黑白蓝配色，简约而又不单调，雕刻装饰以及品牌LOGO，使产品更具质感和辨识度。头梁支持伸缩调节，耳壳支持左右旋转，搭配柔软的头梁衬垫和耳罩，拥有着舒适的佩戴体验。吊杆麦克风采用可拆卸设计，线缆支持弯曲调节，满足个性化使用需求。 内部主要配置方面，耳机采用了40mm驱动单元，右耳内置锂电池，容量500mAh，配备有电路保护板负责充放电保护。左耳内置主板单元，搭载了Telink泰凌微电子TLSR9517C多标准无线SoC，单芯片集成高质量无线音频设备所需的特性和功能，提供2.4G、蓝牙双模无线连接和超低延时的游戏体验；还采用了Cellwise赛微CW6305B低功耗线性充电芯片，LPS微源LP5308过压过流保护IC等。 无线收发器体积轻巧，使用便捷，内部主要搭载了Telink泰凌微电子TLSR9517B无线SoC和LPS微源LP5308过压过流保护IC，以及用于无线收发的陶瓷蓝牙天线。收发器与耳机通过泰凌微电子TLSR9517B+TLSR9517C的组合，实现20+ms的超低延时和高品质的无线音频传输，满足了用户对于游戏场景的使用需求；同时支持的蓝牙连接和双模在线，则进一步提升了使用场景和用户体验。",
   "layer_refs": {
     "technical": [
+      "report:158661",
       "video:282142"
     ],
     "channel": [],
@@ -47,14 +195,45 @@
   },
   "unboxing": null,
   "market": {
-    "selling_points": [],
+    "selling_points": [
+      {
+        "text": "此前我爱音频网还拆解过\nJBL LIVE660NC头戴式降噪耳机\n、\nJBL TUNE 130NC\n、\nJBL LIVE PRO+\n真无线降噪耳机，\nJBL WAVE FLEX\n、\nJBL FLASH\n、\nJBL TUNE 225\n、\nJBL FREE II\n、\nJBL Free\n真无线耳机，\nJBL CHARGE4冲击波\n和\nJBL FLIP5音乐万花筒\n蓝牙音箱，\nJBL KMC300无线一体式K歌麦克风\n，下面再来看看这款产品的拆解报告吧~\n一、JBL Quantum 360P无线头戴式游戏耳机外观\nJBL Quantum 360P无线头戴式游戏耳机外观延续了该系列的家族式设计，此款皓月白采用了黑白蓝配色，头梁采用磨砂质感，耳壳表面光滑，背部雕刻有条纹装饰以及JBL品牌LOGO，安装有可拆卸麦克风。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "此前我爱音频网还拆解过\nJBL LIVE660NC头戴式降噪耳机\n、\nJBL TUNE 130NC\n、\nJBL LIVE PRO+\n真无线降噪耳机，\nJBL WAVE FLEX\n、\nJBL FLASH\n、\nJBL TUNE 225\n、\nJBL FREE II\n、\nJBL Free\n真无线耳机，\nJBL CHARGE4冲击波\n和\nJBL FLIP5音乐万花筒\n蓝牙音箱，\nJBL KMC300无线一体式K歌麦克风\n，下面再来看看这款产品的拆解报告吧~\n一、JBL Quantum 360P无线头戴式游戏耳机外观\nJBL Quantum 360P无线头戴式游戏耳机外观延续了该系列的家族式设计，此款皓月白采用了黑白蓝配色，头梁采用磨砂质感，耳壳表面光滑，背部雕刻有条纹装饰以及JBL品牌LOGO，安装有可拆卸麦克风。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "此前我爱音频网还拆解过\nJBL LIVE660NC头戴式降噪耳机\n、\nJBL TUNE 130NC\n、\nJBL LIVE PRO+\n真无线降噪耳机，\nJBL WAVE FLEX\n、\nJBL FLASH\n、\nJBL TUNE 225\n、\nJBL FREE II\n、\nJBL Free\n真无线耳机，\nJBL CHARGE4冲击波\n和\nJBL FLIP5音乐万花筒\n蓝牙音箱，\nJBL KMC300无线一体式K歌麦克风\n，下面再来看看这款产品的拆解报告吧~\n一、JBL Quantum 360P无线头戴式游戏耳机外观\nJBL Quantum 360P无线头戴式游戏耳机外观延续了该系列的家族式设计，此款皓月白采用了黑白蓝配色，头梁采用磨砂质感，耳壳表面光滑，背部雕刻有条纹装饰以及JBL品牌LOGO，安装有可拆卸麦克风。"
+        }
+      },
+      {
+        "text": "耳罩内侧结构一览，设计有防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "耳罩内侧结构一览，设计有防尘网防护。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "耳罩内侧结构一览，设计有防尘网防护。"
+        }
+      },
+      {
+        "text": "背面印有认证标志和参数信息，USB无线Dongle，型号：输入：5V-0.5A。",
+        "tag": "其他",
+        "evidence": {
+          "value": "背面印有认证标志和参数信息，USB无线Dongle，型号：输入：5V-0.5A。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "背面印有认证标志和参数信息，USB无线Dongle，型号：输入：5V-0.5A。"
+        }
+      }
+    ],
     "scenarios": [
       "游戏",
       "电竞"
     ],
-    "positioning_summary": "",
+    "positioning_summary": "此前我爱音频网还拆解过\nJBL LIVE660NC头戴式降噪耳机\n、\nJBL TUNE 130NC\n、\nJBL LIVE PRO+\n真无线降噪耳机，\nJBL WAVE FLEX\n、\nJBL FLASH\n、\nJBL TUNE 225\n、\nJBL FREE II\n、\nJBL Free\n真无线耳机，\nJBL CHARGE4冲击波\n和\nJBL FLIP5音乐万花筒\n蓝牙音箱，\nJBL KMC300无线一体式K歌麦克风\n，下面再来看看这款产品的拆解报告吧~\n一、JBL Quantum 360P无线头戴式游戏耳机外观\nJBL Quantum 360P无线头戴式游戏耳机外观延续了该系列的家族式设计，此款皓月白采用了黑白蓝配色，头梁采用磨砂质感，耳壳表面光滑，背部雕刻有条纹装饰以及JBL品牌LOGO，安装有可拆卸麦克风。",
     "launch_date": null,
-    "best_report_id": null,
-    "best_video_id": "282142"
+    "best_report_id": "158661",
+    "best_video_id": null
   }
 }

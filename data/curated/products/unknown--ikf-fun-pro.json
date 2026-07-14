@@ -1,0 +1,369 @@
+{
+  "canonical_id": "unknown--ikf-fun-pro",
+  "brand": "",
+  "model": "iKF-Fun Pro",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "202868"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "202868"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2024-06-18",
+  "latest_published": "2024-06-18",
+  "internal_match_suggestions": [
+    {
+      "sku": "OpenRun Pro 2",
+      "score": 0.476,
+      "reason": "型号相似度 48%（匹配 OpenRun Pro 2）"
+    }
+  ],
+  "cost_snapshot": {
+    "main_chip": "INJOINIC英集芯IP6818",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "4V/00mAh锂电池",
+    "speaker": "动圈单元",
+    "materials": "硅胶、皮革、液态硅胶",
+    "weight_g": "58.8g",
+    "weight_case_g": "",
+    "weight_earbud_g": "4.6g",
+    "ip_rating": "",
+    "bluetooth": "5.4",
+    "bom_row_count": 17,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "202868",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "INJOINIC英集芯IP6818",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP6818",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置400mAh锂电池，采用了INJOINIC英集芯IP6818多功能电源管理SoC，集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示等功能，单颗芯片即可为充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "4V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "4V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置400mAh锂电池，采用了INJOINIC英集芯IP6818多功能电源管理SoC，集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示等功能，单颗芯片即可为充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载40mAh锂电池，13mm大尺寸动圈单元，单耳内置三颗MEMS麦克风，用于语音通话和降噪功能拾音；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "3",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载40mAh锂电池，13mm大尺寸动圈单元，单耳内置三颗MEMS麦克风，用于语音通话和降噪功能拾音；"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "封套背面设计有iKF-APP下载二维码和详细参数信息。蓝牙连接名称：iKF-Fun Pro，电源输入：DC 5.2V，充电接口：Type-C，电池容量：40mAh，播放时间：约6-7小时；充电时间：约1小时；充电舱容量：400mAh，支持协议：HSP/HFP/A2DP/AVRCP，品牌商：东莞市欧木科技有限公司，授权生产商：东莞市欧木科技有限公司。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱一侧结构一览，垂直于主板焊接霍尔元件和指示灯小板，还设置有配重铁块。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "封套背面设计有iKF-APP下载二维码和详细参数信息。蓝牙连接名称：iKF-Fun Pro，电源输入：DC 5.2V，充电接口：Type-C，电池容量：40mAh，播放时间：约6-7小时；充电时间：约1小时；充电舱容量：400mAh，支持协议：HSP/HFP/A2DP/AVRCP，品牌商：东莞市欧木科技有限公司，授权生产商：东莞市欧木科技有限公司。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "iKF-Fun Pro真无线降噪耳机在外观上同样拥有高颜值设计，轻奢质感，时尚精致。功能配置上，搭载iKF全频降噪技术，提供-49dB的深度降噪效果；双边搭载六麦克风，支持ENC通话降噪、CVC抗风噪，提供清晰通话效果；搭载13mm大动圈单元，经过iKF声学大师团队调音，带来澎湃音质和丰富的细节表现。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "iKF-Fun Pro真无线降噪耳机在外观上同样拥有高颜值设计，轻奢质感，时尚精致。功能配置上，搭载iKF全频降噪技术，提供-49dB的深度降噪效果；双边搭载六麦克风，支持ENC通话降噪、CVC抗风噪，提供清晰通话效果；搭载13mm大动圈单元，经过iKF声学大师团队调音，带来澎湃音质和丰富的细节表现。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "iKF是一个电子类轻潮奢设计品牌，致力于为Z时代年轻人提供更加个性化、极致性价比、优质的电子数码产品解决方案，旗下产品涵盖蓝牙耳机、有线耳机、数码配件等音乐/智能硬件。近期，我爱音频网拆解了iKF旗下采用复古设计的iKF Retro Air真无线耳机，此次再来拆解一款支持主动降噪的iKF-Fun Pro。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "撬开充电盒外壳，取出卡扣式固定的座舱结构。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "iKF-Fun Pro在无线连接方面，采用全新一代蓝牙V5.4，支持iKF智能双连技术，支持38ms低延迟游戏模式，提供单次6小时/综合32小时的续航时间。其他方面，还支持APP智联互动，实现寻找耳机、私人闹钟、定制EQ、DIY触控、睡眠模式、定时关机等扩展功能。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "正面指示灯特写，用于反馈蓝牙配对和充电状态。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄底部的充电触点特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP6818",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP6818",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "INJOINIC英集芯IP6818多功能电源管理SoC，集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示等，集成度非常高，单颗芯片即可为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP6818",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP6818",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "IP6818 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸， 降低BOM成本。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "JL7016",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "JL7016",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "JL杰理JL7016G6的蓝牙音频SoC，用于无线传输和音频数据处理。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 iKF-Fun Pro真无线降噪耳机在外观方面，充电盒采用了圆角方形设计，类皮革纹理，搭配金绿色腰线和艺术字体装饰，质感出众。柄状的入耳式耳机，背部同样通过金绿色亮面盖板装饰，内侧采用光滑圆润的烤漆质感，搭配人体工学设计，提供长久舒适的佩戴体验。 内部主要配置方面，充电盒内置400mAh锂电池，采用了INJOINIC英集芯IP6818多功能电源管理SoC，集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示等功能，单颗芯片即可为充电仓提供完整的电源解决方案。耳机内部搭载40mAh锂电池，13mm大尺寸动圈单元，单耳内置三颗MEMS麦克风，用于语音通话和降噪功能拾音；还采用了Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等元器件。",
+  "layer_refs": {
+    "technical": [
+      "report:202868"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "功能配置上，搭载iKF全频降噪技术，提供-49dB的深度降噪效果；双边搭载六麦克风，支持ENC通话降噪、CVC抗风噪，提供清晰通话效果；搭载13mm大动圈单元，经过iKF声学大师团队调音，带来澎湃音质和丰富的细节表现。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "功能配置上，搭载iKF全频降噪技术，提供-49dB的深度降噪效果；双边搭载六麦克风，支持ENC通话降噪、CVC抗风噪，提供清晰通话效果；搭载13mm大动圈单元，经过iKF声学大师团队调音，带来澎湃音质和丰富的细节表现。",
+          "confidence": 0.68,
+          "source_type": "text",
+          "source_text": "功能配置上，搭载iKF全频降噪技术，提供-49dB的深度降噪效果；双边搭载六麦克风，支持ENC通话降噪、CVC抗风噪，提供清晰通话效果；搭载13mm大动圈单元，经过iKF声学大师团队调音，带来澎湃音质和丰富的细节表现。"
+        }
+      },
+      {
+        "text": "iKF-Fun Pro在无线连接方面，采用全新一代蓝牙V5.4，支持iKF智能双连技术，支持38ms低延迟游戏模式，提供单次6小时/综合32小时的续航时间。",
+        "tag": "长续航",
+        "evidence": {
+          "value": "iKF-Fun Pro在无线连接方面，采用全新一代蓝牙V5.4，支持iKF智能双连技术，支持38ms低延迟游戏模式，提供单次6小时/综合32小时的续航时间。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "iKF-Fun Pro在无线连接方面，采用全新一代蓝牙V5.4，支持iKF智能双连技术，支持38ms低延迟游戏模式，提供单次6小时/综合32小时的续航时间。"
+        }
+      },
+      {
+        "text": "封套侧边介绍了产品的四项功能特点：iKF智能双连技术、高端皮革质感、-49db深海降噪、APP智能互联。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "封套侧边介绍了产品的四项功能特点：iKF智能双连技术、高端皮革质感、-49db深海降噪、APP智能互联。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "封套侧边介绍了产品的四项功能特点：iKF智能双连技术、高端皮革质感、-49db深海降噪、APP智能互联。"
+        }
+      },
+      {
+        "text": "iKF是一个电子类轻潮奢设计品牌，致力于为Z时代年轻人提供更加个性化、极致性价比、优质的电子数码产品解决方案，旗下产品涵盖蓝牙耳机、有线耳机、数码配件等音乐/智能硬件。",
+        "tag": "其他",
+        "evidence": {
+          "value": "iKF是一个电子类轻潮奢设计品牌，致力于为Z时代年轻人提供更加个性化、极致性价比、优质的电子数码产品解决方案，旗下产品涵盖蓝牙耳机、有线耳机、数码配件等音乐/智能硬件。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "iKF是一个电子类轻潮奢设计品牌，致力于为Z时代年轻人提供更加个性化、极致性价比、优质的电子数码产品解决方案，旗下产品涵盖蓝牙耳机、有线耳机、数码配件等音乐/智能硬件。"
+        }
+      },
+      {
+        "text": "iKF-Fun Pro真无线降噪耳机在外观上同样拥有高颜值设计，轻奢质感，时尚精致。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "iKF-Fun Pro真无线降噪耳机在外观上同样拥有高颜值设计，轻奢质感，时尚精致。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "iKF-Fun Pro真无线降噪耳机在外观上同样拥有高颜值设计，轻奢质感，时尚精致。"
+        }
+      },
+      {
+        "text": "三、我爱音频网总结\niKF-Fun Pro真无线降噪耳机在外观方面，充电盒采用了圆角方形设计，类皮革纹理，搭配金绿色腰线和艺术字体装饰，质感出众。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "三、我爱音频网总结\niKF-Fun Pro真无线降噪耳机在外观方面，充电盒采用了圆角方形设计，类皮革纹理，搭配金绿色腰线和艺术字体装饰，质感出众。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\niKF-Fun Pro真无线降噪耳机在外观方面，充电盒采用了圆角方形设计，类皮革纹理，搭配金绿色腰线和艺术字体装饰，质感出众。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "睡眠",
+      "通话"
+    ],
+    "positioning_summary": "功能配置上，搭载iKF全频降噪技术，提供-49dB的深度降噪效果；双边搭载六麦克风，支持ENC通话降噪、CVC抗风噪，提供清晰通话效果；搭载13mm大动圈单元，经过iKF声学大师团队调音，带来澎湃音质和丰富的细节表现。",
+    "launch_date": null,
+    "best_report_id": "202868",
+    "best_video_id": null
+  }
+}

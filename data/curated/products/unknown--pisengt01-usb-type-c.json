@@ -1,0 +1,143 @@
+{
+  "canonical_id": "unknown--pisengt01-usb-type-c",
+  "brand": "",
+  "model": "PISEN品胜GT01 USB Type-C",
+  "category": "有线耳机",
+  "report_ids": [
+    "16529"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "16529"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2019-03-07",
+  "latest_published": "2019-03-07",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "BES3100",
+    "pmic_case": "",
+    "battery_ear": "",
+    "battery_case": "",
+    "speaker": "喇叭单元",
+    "materials": "塑料、PC",
+    "weight_g": "13.4g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 5,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.5,
+    "best_report_id": "16529",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "背后有麦克风图示，麦克风藏在线控里面。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在拆解时直接把喇叭的振膜与盆架分开了。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "据悉，品胜这款USB-C耳机的数字音频PCBA由深圳市腾腾高科电子技术有限公司设计开发。这款PCBA用料精良，PCB，电阻，电容等物料均选用业界优质物料，同时内置ESD防护芯片，对Type-C接口进行防护。并且它还具有良好的兼容特性，完美支持市面主流Type-C 接口手机的音乐，通话以及相关的耳机线控功能。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "线控部分，拥有音量+、-和中间的多功能按键。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES3100",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES3100",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "另一面是芯片的一面，可以看到上面有一颗BES3100立体声数字编解码芯片，最高支持96kHz 24bit 的解码率，满足Hi-Res 音质标准。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:16529"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "音腔底部的调音孔，内有防尘网。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "音腔底部的调音孔，内有防尘网。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "音腔底部的调音孔，内有防尘网。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "音腔底部的调音孔，内有防尘网。",
+    "launch_date": null,
+    "best_report_id": "16529",
+    "best_video_id": null
+  }
+}

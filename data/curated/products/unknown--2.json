@@ -1,0 +1,291 @@
+{
+  "canonical_id": "unknown--2",
+  "brand": "",
+  "model": "一加云耳2 颈挂式无线",
+  "category": "颈挂式蓝牙耳机",
+  "report_ids": [
+    "41216"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "41216"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2020-04-14",
+  "latest_published": "2020-04-14",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "Qualcomm aptX",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "129 mAh",
+    "speaker": "喇叭单元",
+    "materials": "硅胶、塑料、PC、不锈钢",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 12,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "41216",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "扬声器结构，我们首先看到的是动圈扬声器，圆环型PCB上有电容分频元件，分频后送往动铁单元。导线外有热缩管保护。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "电池导线焊接在小板上，另一侧主板的导线通过插座连接，便于组装。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "下面来拆解颈带，一侧没有开孔的里面是电池。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "主板背面的蓝牙天线。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "通话麦克风拾音开孔。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "线控部分特写，有三个控制按键。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "配对按键特写，注意左边隐藏的LED指示灯。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "外壳上的泄压孔，里面的防尘网也是红色的。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通aptX",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通aptX",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "包装盒背面，顶部是楼氏平衡电枢技术的认证，耳机支持高通aptX HD音频技术。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Qualcomm aptX",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Qualcomm aptX",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "主控芯片为高通QCC3034，采用VFBGA封装，是一款基于超低功耗架构的入门级蓝牙音频SoC，支持Qualcomm aptX\n和aptX HD音频编码。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC3034",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC3034",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "主控芯片为高通QCC3034，采用VFBGA封装，是一款基于超低功耗架构的入门级蓝牙音频SoC，支持Qualcomm aptX\n和aptX HD音频编码。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC3034",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC3034",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "我爱音频网总结\n一加云耳2与前代相比有了不小的升级，发声单元由单动圈升级为楼氏双单元动铁搭配10mm动圈的圈铁组合，内部导线通过插座连接，防尘防水、电路保护等细节处理也十分到位；耳机还支持十分钟快速充电；主控芯片升级为高通QCC3034，较低功耗，支持aptX HD音频编码，是一款出色的颈挂式无线耳机。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:41216"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "像此次拆解的一加云耳2就采用了楼氏双单元动铁搭配10mm动圈的圈铁组合，并且支持快充。",
+        "tag": "长续航",
+        "evidence": {
+          "value": "像此次拆解的一加云耳2就采用了楼氏双单元动铁搭配10mm动圈的圈铁组合，并且支持快充。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "像此次拆解的一加云耳2就采用了楼氏双单元动铁搭配10mm动圈的圈铁组合，并且支持快充。"
+        }
+      },
+      {
+        "text": "USB-C充电接口外侧有防尘防水的胶圈。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "USB-C充电接口外侧有防尘防水的胶圈。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "USB-C充电接口外侧有防尘防水的胶圈。"
+        }
+      },
+      {
+        "text": "外侧盖板采用了防尘防水的双面胶，从拆解后的形变可见粘贴的十分牢固。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "外侧盖板采用了防尘防水的双面胶，从拆解后的形变可见粘贴的十分牢固。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "外侧盖板采用了防尘防水的双面胶，从拆解后的形变可见粘贴的十分牢固。"
+        }
+      },
+      {
+        "text": "动铁的中高频与动圈的低频在相位和分频上互补，这也是一些高端耳机的经典组合，可以提升动态和延伸。",
+        "tag": "旗舰定位",
+        "evidence": {
+          "value": "动铁的中高频与动圈的低频在相位和分频上互补，这也是一些高端耳机的经典组合，可以提升动态和延伸。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "动铁的中高频与动圈的低频在相位和分频上互补，这也是一些高端耳机的经典组合，可以提升动态和延伸。"
+        }
+      },
+      {
+        "text": "假如近期即将发布的一加云耳Z以此为基础进行了升级，是完全可以理解的，期待一加的TWS真无线耳机产品早日到来。",
+        "tag": "其他",
+        "evidence": {
+          "value": "假如近期即将发布的一加云耳Z以此为基础进行了升级，是完全可以理解的，期待一加的TWS真无线耳机产品早日到来。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "假如近期即将发布的一加云耳Z以此为基础进行了升级，是完全可以理解的，期待一加的TWS真无线耳机产品早日到来。"
+        }
+      },
+      {
+        "text": "耳机内侧的泄压孔，防尘网是黑色。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "耳机内侧的泄压孔，防尘网是黑色。",
+          "confidence": 0.59,
+          "source_type": "text",
+          "source_text": "耳机内侧的泄压孔，防尘网是黑色。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "像此次拆解的一加云耳2就采用了楼氏双单元动铁搭配10mm动圈的圈铁组合，并且支持快充。",
+    "launch_date": null,
+    "best_report_id": "41216",
+    "best_video_id": null
+  }
+}

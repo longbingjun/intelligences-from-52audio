@@ -1,0 +1,324 @@
+{
+  "canonical_id": "unknown--kef-mu7",
+  "brand": "",
+  "model": "KEF Mu7",
+  "category": "头戴式耳机",
+  "report_ids": [
+    "189553"
+  ],
+  "video_ids": [
+    "223146"
+  ],
+  "related_report_ids": [
+    "189553"
+  ],
+  "related_video_ids": [
+    "223146"
+  ],
+  "first_seen": "2024-02-02",
+  "latest_published": "2024-12-20",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "高通QCC3034",
+    "pmic_case": "",
+    "battery_ear": "11V/00mAh锂电池",
+    "battery_case": "电池",
+    "speaker": "喇叭单元",
+    "materials": "PC、皮革",
+    "weight_g": "306.8g",
+    "weight_case_g": "",
+    "weight_earbud_g": "306.8g",
+    "ip_rating": "",
+    "bluetooth": "5.1",
+    "bom_row_count": 14,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "189553",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "Qualcomm高通",
+      "model": "高通QCC3034",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC3034",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上搭载了Qualcomm高通QCC3034蓝牙音频SoC，SONY索尼CXD3782GF降噪IC，RUNIC润石RS550隔离开关，以及SGMICRO圣邦微‎SGM41511充电IC，LPS微源半导体LP5305过压过流保护IC，微源LP3201降压芯片等。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "11V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "11V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内部主要配置方面，双耳均搭载了40mm动圈喇叭和前馈+后馈降噪拾音麦克风，左耳还内置了VDL紫建电子1100mAh锂电池，配备有电路板负责电池的过充电、过放电、过电流等保护；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "内部主要配置方面，双耳均搭载了40mm动圈喇叭和前馈+后馈降噪拾音麦克风，左耳还内置了VDL紫建电子1100mAh锂电池，配备有电路板负责电池的过充电、过放电、过电流等保护；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳壳顶部外观一览，设置有条形降噪麦克风拾音孔和泄压孔。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "卸掉螺丝，打开右侧耳机，腔体内部设置有拾音麦克风，主板单元，以及电源输入、功能按键和触摸按键的小板。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "音腔背部固定电池和PCB小板。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "KEF Mu7支持智能主动降噪功能，能够基于周围环境状况，自动调节消除噪音效果；支持环境音增强通透模式，可将外界声音实时传入耳内，方便在需要和外界交互的场景下使用；支持CVC通话降噪技术，保障清晰地语音效果。续航方面，可提供40小时的全天候聆听，且支持快充，充电15分钟，可使用约8小时。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "扬声器腔体壁上的同轴蓝牙天线，丝印“CC-BTH-1323-V8”。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机扬声器正面振膜特写。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面设计有产品线框图，介绍了产品功能特点，包括：智能主动降噪、Qualcomm aptX HD、蓝牙5.1、触控控制、铝金属结构、40小时长续航、快充功能及通话降噪。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "3.5mm音频接口特写，右侧设置有指示灯。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Qualcomm aptX",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Qualcomm aptX",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "包装盒背面设计有产品线框图，介绍了产品功能特点，包括：智能主动降噪、Qualcomm aptX HD、蓝牙5.1、触控控制、铝金属结构、40小时长续航、快充功能及通话降噪。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC303X",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC303X",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm高通QCC303X详细资料图。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "QCC303",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "QCC303",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm高通QCC303X详细资料图。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 KEF Mu7头戴式降噪耳机在外观方面极富特点，基于Ross Lovegrove的流线感雕塑设计，赋予了耳机十分流畅优雅的机身曲线，并通过铝制材料和精密做工，进一步提升产品质感。同时，KEF Mu7柔软亲肤的记忆头垫和耳罩，以及多向调节的头梁结构，能够更好地适应不同人群的佩戴需求，提升佩戴舒适性。 内部主要配置方面，双耳均搭载了40mm动圈喇叭和前馈+后馈降噪拾音麦克风，左耳还内置了VDL紫建电子1100mAh锂电池，配备有电路板负责电池的过充电、过放电、过电流等保护；右耳设置了通话麦克风、主板单元、电源输入小板、功能按键小板和触摸控制小板。 触摸控制小板上搭载了Azoteq IQS572电容触摸控制器；主板上搭载了Qualcomm高通QCC3034蓝牙音频SoC，SONY索尼CXD3782GF降噪IC，RUNIC润石RS550隔离开关，以及SGMICRO圣邦微‎SGM41511充电IC，LPS微源半导体LP5305过压过流保护IC，微源LP3201降压芯片等。",
+  "layer_refs": {
+    "technical": [
+      "report:189553",
+      "video:223146"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "KEF Mu7支持智能主动降噪功能，能够基于周围环境状况，自动调节消除噪音效果；支持环境音增强通透模式，可将外界声音实时传入耳内，方便在需要和外界交互的场景下使用；支持CVC通话降噪技术，保障清晰地语音效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "KEF Mu7支持智能主动降噪功能，能够基于周围环境状况，自动调节消除噪音效果；支持环境音增强通透模式，可将外界声音实时传入耳内，方便在需要和外界交互的场景下使用；支持CVC通话降噪技术，保障清晰地语音效果。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "KEF Mu7支持智能主动降噪功能，能够基于周围环境状况，自动调节消除噪音效果；支持环境音增强通透模式，可将外界声音实时传入耳内，方便在需要和外界交互的场景下使用；支持CVC通话降噪技术，保障清晰地语音效果。"
+        }
+      },
+      {
+        "text": "KEF Mu7头戴式降噪耳机外侧外观一览，半环形悬挂，设计非常纤细，支持左右90°旋转平方，提升便携性；支持耳壳上下小角度旋转，提供个性化的舒适佩戴体验。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "KEF Mu7头戴式降噪耳机外侧外观一览，半环形悬挂，设计非常纤细，支持左右90°旋转平方，提升便携性；支持耳壳上下小角度旋转，提供个性化的舒适佩戴体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "KEF Mu7头戴式降噪耳机外侧外观一览，半环形悬挂，设计非常纤细，支持左右90°旋转平方，提升便携性；支持耳壳上下小角度旋转，提供个性化的舒适佩戴体验。"
+        }
+      },
+      {
+        "text": "在2022年，二者再度联手推出KEF Mu7头戴式降噪耳机，将创新声学和匠心设计带到了移动音频市场。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "在2022年，二者再度联手推出KEF Mu7头戴式降噪耳机，将创新声学和匠心设计带到了移动音频市场。",
+          "confidence": 0.65,
+          "source_type": "text",
+          "source_text": "在2022年，二者再度联手推出KEF Mu7头戴式降噪耳机，将创新声学和匠心设计带到了移动音频市场。"
+        }
+      },
+      {
+        "text": "撕掉防尘网，音腔正面结构一览，中间固定有后馈降噪面麦克风，打胶密封。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "撕掉防尘网，音腔正面结构一览，中间固定有后馈降噪面麦克风，打胶密封。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "撕掉防尘网，音腔正面结构一览，中间固定有后馈降噪面麦克风，打胶密封。"
+        }
+      },
+      {
+        "text": "KEF是一个源自于英国的知名音响品牌，成立于1961年，致力于声学创新，提供悦耳的音效，以重现原音的神韵。",
+        "tag": "其他",
+        "evidence": {
+          "value": "KEF是一个源自于英国的知名音响品牌，成立于1961年，致力于声学创新，提供悦耳的音效，以重现原音的神韵。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "KEF是一个源自于英国的知名音响品牌，成立于1961年，致力于声学创新，提供悦耳的音效，以重现原音的神韵。"
+        }
+      },
+      {
+        "text": "三、我爱音频网总结\nKEF Mu7头戴式降噪耳机在外观方面极富特点，基于Ross Lovegrove的流线感雕塑设计，赋予了耳机十分流畅优雅的机身曲线，并通过铝制材料和精密做工，进一步提升产品质感。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "三、我爱音频网总结\nKEF Mu7头戴式降噪耳机在外观方面极富特点，基于Ross Lovegrove的流线感雕塑设计，赋予了耳机十分流畅优雅的机身曲线，并通过铝制材料和精密做工，进一步提升产品质感。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\nKEF Mu7头戴式降噪耳机在外观方面极富特点，基于Ross Lovegrove的流线感雕塑设计，赋予了耳机十分流畅优雅的机身曲线，并通过铝制材料和精密做工，进一步提升产品质感。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "KEF Mu7支持智能主动降噪功能，能够基于周围环境状况，自动调节消除噪音效果；支持环境音增强通透模式，可将外界声音实时传入耳内，方便在需要和外界交互的场景下使用；支持CVC通话降噪技术，保障清晰地语音效果。",
+    "launch_date": null,
+    "best_report_id": "189553",
+    "best_video_id": null
+  }
+}

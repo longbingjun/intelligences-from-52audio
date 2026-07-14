@@ -1,0 +1,264 @@
+{
+  "canonical_id": "unknown--tronsmart-encore-s6",
+  "brand": "",
+  "model": "Tronsmart Encore S6 头戴降噪",
+  "category": "头戴式耳机",
+  "report_ids": [
+    "75992"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "75992"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2021-04-08",
+  "latest_published": "2021-04-08",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "高通CSR8645",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "450 mAh",
+    "speaker": "喇叭单元",
+    "materials": "PC",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 10,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "75992",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Tronsmart Encore S6是其旗下一款头戴式降噪耳机产品，外观上采用了紧凑型设计，支持折叠功能，整体体积小巧便携。功能配置上，内置有源降噪芯片，支持ANC主动降噪功能，最大降噪深度23dB；支持蓝牙和3.5mm音频线两种输出模式，并且在这两种模式下均支持主动降噪；续航时间可达24小时。下面就让来看看这款产品的外观设计以及内部结构配置吧~"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "左耳",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "左耳内PCB板正面特写，焊接有与右耳主板、扬声器、降噪麦克风、电池单元连接的数十根导线，焊点圆润饱满。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "右耳",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "右耳底部有Micro USB充电接口，麦克风开孔和3.5mm音频输入接口。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部结构一览，设置有一张PCB板和电池单元。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "音腔盖板上覆盖有防尘棉，防止异物进入并附着在单元振膜表面影响音质。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "两颗不同颜色LED指示灯和印刷蓝牙天线。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面信息有Tronsmart品牌LOGO，耳机功能按键操作指南，以及产品参数信息。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "左耳",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "左耳背板特写，设计比较独特，背板边缘位置设计有装饰环，ANC降噪开关和耳机状态指示灯位于中间装饰条上。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通CSR8645",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通CSR8645",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm高通CSR8645双模ROM音频SoC，蓝牙版本4.1。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通CSR8645",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通CSR8645",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "主控芯片采用了高通CSR8645双模ROM音频SoC，蓝牙版本4.1，支持cVc语音处理技术和aptX编解码器技术；艾迈斯AS3435降噪芯片，集成有源噪声消除解决方案，提供主动降噪功能；\n耳机扬声器驱动采用\nPAM P8908立体声耳机放大器，\n内置扩流管用于锂电池充电。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:75992"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "取掉防尘棉，音腔盖板采用了圆形出音孔阵列，并固定有降噪麦克风。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "取掉防尘棉，音腔盖板采用了圆形出音孔阵列，并固定有降噪麦克风。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "取掉防尘棉，音腔盖板采用了圆形出音孔阵列，并固定有降噪麦克风。"
+        }
+      },
+      {
+        "text": "三、我爱音频网总结\nTronsmart Encore S6 头戴降噪耳机在外观上采用了紧凑型设计，整体体积小巧便携。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "三、我爱音频网总结\nTronsmart Encore S6 头戴降噪耳机在外观上采用了紧凑型设计，整体体积小巧便携。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\nTronsmart Encore S6 头戴降噪耳机在外观上采用了紧凑型设计，整体体积小巧便携。"
+        }
+      },
+      {
+        "text": "Tronsmart Encore S6是其旗下一款头戴式降噪耳机产品，外观上采用了紧凑型设计，支持折叠功能，整体体积小巧便携。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "Tronsmart Encore S6是其旗下一款头戴式降噪耳机产品，外观上采用了紧凑型设计，支持折叠功能，整体体积小巧便携。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "Tronsmart Encore S6是其旗下一款头戴式降噪耳机产品，外观上采用了紧凑型设计，支持折叠功能，整体体积小巧便携。"
+        }
+      },
+      {
+        "text": "头梁内侧印制信息有产品名称：\nTronsmart Encore S6，FCC、CE认证标志和禁止丢弃标识，中国制造。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "头梁内侧印制信息有产品名称：\nTronsmart Encore S6，FCC、CE认证标志和禁止丢弃标识，中国制造。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "头梁内侧印制信息有产品名称：\nTronsmart Encore S6，FCC、CE认证标志和禁止丢弃标识，中国制造。"
+        }
+      },
+      {
+        "text": "旗下蓝牙耳机产品涵盖了多种形态，功能上拥有降噪耳机、游戏耳机等不同的产品类型。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "旗下蓝牙耳机产品涵盖了多种形态，功能上拥有降噪耳机、游戏耳机等不同的产品类型。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "旗下蓝牙耳机产品涵盖了多种形态，功能上拥有降噪耳机、游戏耳机等不同的产品类型。"
+        }
+      },
+      {
+        "text": "Tronsmart Encore S6 头戴降噪耳机头垫特写，采用了蛋白皮材质，内部柔软物填充。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "Tronsmart Encore S6 头戴降噪耳机头垫特写，采用了蛋白皮材质，内部柔软物填充。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "Tronsmart Encore S6 头戴降噪耳机头垫特写，采用了蛋白皮材质，内部柔软物填充。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "取掉防尘棉，音腔盖板采用了圆形出音孔阵列，并固定有降噪麦克风。",
+    "launch_date": null,
+    "best_report_id": "75992",
+    "best_video_id": null
+  }
+}

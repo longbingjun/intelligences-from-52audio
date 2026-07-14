@@ -1,0 +1,269 @@
+{
+  "canonical_id": "unknown--trukehb005",
+  "brand": "",
+  "model": "TRÜKE充客HB005运动蓝牙",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "157776"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "157776"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-04-26",
+  "latest_published": "2023-04-26",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "AB5635",
+    "pmic_case": "",
+    "battery_ear": "1V/45mAh",
+    "battery_case": "280 mAh",
+    "speaker": "10mm 动圈单元",
+    "materials": "硅胶",
+    "weight_g": "31.7g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.2",
+    "bom_row_count": 11,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "157776",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB5635",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB5635",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板位于线控板内，采用了中科蓝讯AB5635B蓝牙音频SoC，用于无线连接和音频数据处理；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "1V/45mAh",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "1V/45mAh",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "颈带两侧腔体均内置了145mAh电池，组成280mAh的大容量，为耳机35h的超长续航提供支持。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "10mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "10mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "内部结构配置方面，耳机内搭载10mm动圈单元；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "TRÜKE充客HB005运动蓝牙耳机是充客旗下的一款脖挂式产品，搭载了10mm镀钛动圈单元，高分子复合振膜，搭配私家调音，提供澎湃有力的音频效果；支持蓝牙5.2，提供更快速的传输和稳定的连接，以及0.038秒的超低延迟，满足游戏竞技使用。续航方面，内置大容量电池，提供35小时的超长音乐播放。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开线控盖板，内部设置主板单元。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "TRÜKE充客HB005运动蓝牙耳机是充客旗下的一款脖挂式产品，搭载了10mm镀钛动圈单元，高分子复合振膜，搭配私家调音，提供澎湃有力的音频效果；支持蓝牙5.2，提供更快速的传输和稳定的连接，以及0.038秒的超低延迟，满足游戏竞技使用。续航方面，内置大容量电池，提供35小时的超长音乐播放。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "线控底部设置有麦克风开孔，用于语音通话拾音。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "陶瓷蓝牙天线特写，用于无线信号传输。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "金属腔体外壳上设计有智小兜和TRÜKE充客的品牌LOGO。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "主板另外一侧电路一览，设置有三颗微动按键。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "指示灯开孔特写，用于反馈蓝牙配对及充电状态。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 TRÜKE充客HB005运动蓝牙耳机在外观方面采用了脖挂式设计，扁平化U型记忆项圈，对称式腔体，佩戴舒适平衡，不易滚动。金属磁吸设计的耳机，未使用时自动吸附，防止丢失和线材缠绕打结；45度倾斜入耳设计，搭配柔软硅胶耳塞，提供舒适的长久佩戴体验。 内部结构配置方面，耳机内搭载10mm动圈单元；颈带两侧腔体均内置了145mAh电池，组成280mAh的大容量，为耳机35h的超长续航提供支持。主板位于线控板内，采用了中科蓝讯AB5635B蓝牙音频SoC，用于无线连接和音频数据处理；丝印LTH7u的锂电池线性充电IC，为内置电池充电。",
+  "layer_refs": {
+    "technical": [
+      "report:157776"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "内部结构配置方面，耳机内搭载10mm动圈单元；颈带两侧腔体均内置了145mAh电池，组成280mAh的大容量，为耳机35h的超长续航提供支持。",
+        "tag": "长续航",
+        "evidence": {
+          "value": "内部结构配置方面，耳机内搭载10mm动圈单元；颈带两侧腔体均内置了145mAh电池，组成280mAh的大容量，为耳机35h的超长续航提供支持。",
+          "confidence": 0.62,
+          "source_type": "text",
+          "source_text": "内部结构配置方面，耳机内搭载10mm动圈单元；颈带两侧腔体均内置了145mAh电池，组成280mAh的大容量，为耳机35h的超长续航提供支持。"
+        }
+      },
+      {
+        "text": "耳机搭载的锂离子电池型号：HE 529235，额定电压：3.7V，额定容量：145mAh 0.536Wh，两块电池总容量280mAh，大容量电池为耳机35h的超长续航提供了支持。",
+        "tag": "长续航",
+        "evidence": {
+          "value": "耳机搭载的锂离子电池型号：HE 529235，额定电压：3.7V，额定容量：145mAh 0.536Wh，两块电池总容量280mAh，大容量电池为耳机35h的超长续航提供了支持。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "耳机搭载的锂离子电池型号：HE 529235，额定电压：3.7V，额定容量：145mAh 0.536Wh，两块电池总容量280mAh，大容量电池为耳机35h的超长续航提供了支持。"
+        }
+      },
+      {
+        "text": "续航方面，内置大容量电池，提供35小时的超长音乐播放。",
+        "tag": "其他",
+        "evidence": {
+          "value": "续航方面，内置大容量电池，提供35小时的超长音乐播放。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "续航方面，内置大容量电池，提供35小时的超长音乐播放。"
+        }
+      },
+      {
+        "text": "取掉耳塞，圆形出音嘴特写，细密防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "取掉耳塞，圆形出音嘴特写，细密防尘网防护。",
+          "confidence": 0.61,
+          "source_type": "text",
+          "source_text": "取掉耳塞，圆形出音嘴特写，细密防尘网防护。"
+        }
+      },
+      {
+        "text": "线控侧边设置充电接口，通过防尘塞防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "线控侧边设置充电接口，通过防尘塞防护。",
+          "confidence": 0.61,
+          "source_type": "text",
+          "source_text": "线控侧边设置充电接口，通过防尘塞防护。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "内部结构配置方面，耳机内搭载10mm动圈单元；颈带两侧腔体均内置了145mAh电池，组成280mAh的大容量，为耳机35h的超长续航提供支持。",
+    "launch_date": null,
+    "best_report_id": "157776",
+    "best_video_id": null
+  }
+}

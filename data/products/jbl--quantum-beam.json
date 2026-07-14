@@ -1,0 +1,404 @@
+{
+  "canonical_id": "jbl--quantum-beam",
+  "brand": "JBL",
+  "model": "QUANTUM BEAM真无线降噪游戏",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "230055"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "230055"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2025-03-04",
+  "latest_published": "2025-03-04",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "恒玄BES2600IHC3-6X",
+    "pmic_case": "INJOINIC英集芯 INJOINIC英集芯IP5528",
+    "battery_ear": "500 mAh",
+    "battery_case": "5V/00mAh锂电池",
+    "speaker": "振膜动圈",
+    "materials": "",
+    "weight_g": "52.9g",
+    "weight_case_g": "",
+    "weight_earbud_g": "5.0g",
+    "ip_rating": "IP4",
+    "bluetooth": "",
+    "bom_row_count": 20,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "230055",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "INJOINIC英集芯IP5528",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "PMIC/充电仓管理",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5528",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置AEC国光电子500mAh可充电锂离子电池组，主板上搭载了INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示等多功能，支持跟随充电，有效提升15%~20%的TWS耳机综合续航时间。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "5V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "5V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置AEC国光电子500mAh可充电锂离子电池组，主板上搭载了INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示等多功能，支持跟随充电，有效提升15%~20%的TWS耳机综合续航时间。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "恒玄BES2600IHC3-6X",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2600IHC3-6X",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，采用了BES恒玄BES2600IHC3-6X蓝牙音频SoC，HYNITRON海栎创HK11BP触控芯片，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "BES2600IHC3-6X",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2600IHC3-6X",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，采用了BES恒玄BES2600IHC3-6X蓝牙音频SoC，HYNITRON海栎创HK11BP触控芯片，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "BES2600IHC",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2600IHC",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，采用了BES恒玄BES2600IHC3-6X蓝牙音频SoC，HYNITRON海栎创HK11BP触控芯片，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "振膜动圈",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "振膜动圈",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载11mm镀钛复合振膜动圈喇叭，内置3颗意芯微电子的MEMS麦克风（双耳6颗），用于语音通话和降噪功能拾音；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载11mm镀钛复合振膜动圈喇叭，内置3颗意芯微电子的MEMS麦克风（双耳6颗），用于语音通话和降噪功能拾音；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒背面标注有产品参数信息，型号：Quantum Beam，输入：5V-A，输出：5V-150mA*2，电池容量：3.8V 500mAh 1.9Wh，中国制造。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在功能配置上，JBL QUANTUM BEAM真无线降噪游戏耳机搭载11mm驱动单元，支持游戏音乐双模式，提供身临其境的JBL标志性游戏音效；搭载双麦混合降噪功能，有效隔绝外部噪音，提供沉浸式游戏体验；支持AI通话降噪，团队“开黑”提供清晰通话。续航方面，耳机提供长达8小时的播放，搭配充电盒总续航24小时。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱内部结构一览，设置有主板和电池单元，以及环绕座舱的灯条。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网此前还拆解过JBL Tour Pro 3、JBL TUNE Beam、JBL TUNE 130NC、JBL WAVE FLEX、JBL FLASH真无线耳机，JBL Quantum 360P、JBL LIVE660NC头戴式耳机，JBL GO ESSENTIAL、JBL PULSE 5、JBL FLIP ESSENTIAL 2、JBL CLIP4、JBL CHARGE4蓝牙音箱，JBL KMC300 K歌麦克风，JBL Soundgear Frames智能音频眼镜，JBL Quantum Stream Wireless无线领夹麦克风等。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "JBL QUANTUM BEAM真无线降噪游戏耳机包装盒延续了家族式的设计风格，正面展示有产品外观，品牌LOGO和产品名称，以及主动降噪、智能环境音、游戏模式&音乐模式的产品特点。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "前腔内部扬声器单元结构一览。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧结构一览，贴有蓝牙天线和触摸检测传感器。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "打开充电盒盖，内部座舱采用了开放式设计，耳机磁吸固定，能够便捷取放。耳机柄上设计有炫酷的品牌LOGO指示灯。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "撬开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机外侧外观一览，设计有银色铭牌，同时也是触控区域，通过单击、双击、长按实现多功能控制。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机内侧外观一览，耳机柄上设置有充电触点，雕刻L/R左右标识，便于用户区分。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP5528",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5528",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，是一款集成MCU、升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5528",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5528",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "得益于IP5528的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸， 降低BOM成本。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 JBL QUANTUM BEAM量子风暴真无线降噪游戏耳机在外观方面，设计非常独特。圆角方形充电盒，设计有格栅式“悬窗”，搭配炫彩灯带，更具游戏科技感。耳机采用了柄状的入耳式设计，通过银色铭牌装饰，搭配品牌LOGO指示灯，极具辨识度。 内部主要配置方面，充电盒内置AEC国光电子500mAh可充电锂离子电池组，主板上搭载了INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示等多功能，支持跟随充电，有效提升15%~20%的TWS耳机综合续航时间。 耳机内部搭载11mm镀钛复合振膜动圈喇叭，内置3颗意芯微电子的MEMS麦克风（双耳6颗），用于语音通话和降噪功能拾音；主板上，采用了BES恒玄BES2600IHC3-6X蓝牙音频SoC，HYNITRON海栎创HK11BP触控芯片，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等；耳机内置0.21Wh软包扣式电池，同样来自国光电子，配备锂电保护IC负责充放电保护。",
+  "layer_refs": {
+    "technical": [
+      "report:230055"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "在功能配置上，JBL QUANTUM BEAM真无线降噪游戏耳机搭载11mm驱动单元，支持游戏音乐双模式，提供身临其境的JBL标志性游戏音效；搭载双麦混合降噪功能，有效隔绝外部噪音，提供沉浸式游戏体验；支持AI通话降噪，团队“开黑”提供清晰通话。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "在功能配置上，JBL QUANTUM BEAM真无线降噪游戏耳机搭载11mm驱动单元，支持游戏音乐双模式，提供身临其境的JBL标志性游戏音效；搭载双麦混合降噪功能，有效隔绝外部噪音，提供沉浸式游戏体验；支持AI通话降噪，团队“开黑”提供清晰通话。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "在功能配置上，JBL QUANTUM BEAM真无线降噪游戏耳机搭载11mm驱动单元，支持游戏音乐双模式，提供身临其境的JBL标志性游戏音效；搭载双麦混合降噪功能，有效隔绝外部噪音，提供沉浸式游戏体验；支持AI通话降噪，团队“开黑”提供清晰通话。"
+        }
+      },
+      {
+        "text": "近期，JBL推出了一款全新的真无线降噪游戏耳机——JBL QUANTUM BEAM量子风暴。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "近期，JBL推出了一款全新的真无线降噪游戏耳机——JBL QUANTUM BEAM量子风暴。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "近期，JBL推出了一款全新的真无线降噪游戏耳机——JBL QUANTUM BEAM量子风暴。"
+        }
+      },
+      {
+        "text": "详细介绍了产品的主要特点：主动降噪（4麦克风），智能环境音；IPX4防水，佩戴贴合；清晰通话（6麦克风），游戏音效优化；8小时+16小时续航，充电10分钟听歌2小时。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "详细介绍了产品的主要特点：主动降噪（4麦克风），智能环境音；IPX4防水，佩戴贴合；清晰通话（6麦克风），游戏音效优化；8小时+16小时续航，充电10分钟听歌2小时。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "详细介绍了产品的主要特点：主动降噪（4麦克风），智能环境音；IPX4防水，佩戴贴合；清晰通话（6麦克风），游戏音效优化；8小时+16小时续航，充电10分钟听歌2小时。"
+        }
+      },
+      {
+        "text": "连接充电盒充电的金属连接器，底部设置海绵垫密封，防尘防水。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "连接充电盒充电的金属连接器，底部设置海绵垫密封，防尘防水。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "连接充电盒充电的金属连接器，底部设置海绵垫密封，防尘防水。"
+        }
+      },
+      {
+        "text": "三、我爱音频网总结\nJBL QUANTUM BEAM量子风暴真无线降噪游戏耳机在外观方面，设计非常独特。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "三、我爱音频网总结\nJBL QUANTUM BEAM量子风暴真无线降噪游戏耳机在外观方面，设计非常独特。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\nJBL QUANTUM BEAM量子风暴真无线降噪游戏耳机在外观方面，设计非常独特。"
+        }
+      },
+      {
+        "text": "镭雕iC161的MEMS麦克风，为前馈降噪麦克风，用于降噪功能拾取外界环境噪音，来自意芯微电子。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "镭雕iC161的MEMS麦克风，为前馈降噪麦克风，用于降噪功能拾取外界环境噪音，来自意芯微电子。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "镭雕iC161的MEMS麦克风，为前馈降噪麦克风，用于降噪功能拾取外界环境噪音，来自意芯微电子。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "在功能配置上，JBL QUANTUM BEAM真无线降噪游戏耳机搭载11mm驱动单元，支持游戏音乐双模式，提供身临其境的JBL标志性游戏音效；搭载双麦混合降噪功能，有效隔绝外部噪音，提供沉浸式游戏体验；支持AI通话降噪，团队“开黑”提供清晰通话。",
+    "launch_date": null,
+    "best_report_id": "230055",
+    "best_video_id": null
+  }
+}

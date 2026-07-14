@@ -1,0 +1,454 @@
+{
+  "canonical_id": "edifier--zero-pro",
+  "brand": "EDIFIER漫步者",
+  "model": "花再Zero Pro",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "171190"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "171190"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-08-28",
+  "latest_published": "2023-08-28",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "恒玄BES2600IHC3-4X",
+    "pmic_case": "INJOINIC英集芯 INJOINIC英集芯IP5516",
+    "battery_ear": "350 mAh",
+    "battery_case": "3V/50mAh锂电池",
+    "speaker": "8mm 动圈单元",
+    "materials": "硅胶、PC",
+    "weight_g": "43.1g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 25,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "171190",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "INJOINIC英集芯IP5516",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "PMIC/充电仓管理",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5516",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "搭载了INJOINIC英集芯IP5516充电盒管理SoC单芯片为充电盒提供完整的电源解决方案，包括500mA线性充电、300mA同步升压输出、电池电量指示、5V单向通讯等。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3V/50mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3V/50mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置金赛尔350mAh锂电池，配备有电路保护板负责充放电保护。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1124",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "保护IC",
+      "evidence": {
+        "value": "CM1124",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "采用旭航诚电子37mAh软包电池，配备iCM创芯微CM1124-EAC锂电保护IC；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "恒玄BES2600IHC3-4X",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2600IHC3-4X",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片为BES恒玄BES2600IHC3-4X蓝牙音频SoC，支持BT5.3规范，集成混合主动降噪功能；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "BES2600IHC3-4X",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2600IHC3-4X",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片为BES恒玄BES2600IHC3-4X蓝牙音频SoC，支持BT5.3规范，集成混合主动降噪功能；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "BES2600IHC",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2600IHC",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片为BES恒玄BES2600IHC3-4X蓝牙音频SoC，支持BT5.3规范，集成混合主动降噪功能；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "8mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "8mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了8mm动圈单元，两颗新港电子MEMS麦克风；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了8mm动圈单元，两颗新港电子MEMS麦克风；"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面展示有产品的三种配色和部分参数信息。产品型号：EDF280029，蓝牙版本：V5.3，有效距离：10m，频响范围：20Hz-20KHz，声压级：92+3dB SPL(A)，工作时长：约4.5h+13.5h（降噪开）/约65h+19.5h（降噪关），输入：5V-200mA（耳机）/5V-1A（充电盒）。深圳市漫步者心造科技有限公司出品。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部主板通过螺丝固定。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒座舱一侧结构一览，内部设置电池单元，通过框架固定保护。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄底部设置有充电触点和麦克风拾音孔。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在音质方面，漫步者花再Zero Pro真无线耳机搭载了8mm动圈宽音域发声单元，背向倒声架构，扩展振膜引发的空气震动幅频，提供更澎湃、更具下潜的低频效果；并经由漫步者声学实验室调音，为不同喜好用户打造了4种大师级预设音效。无线连接方面，支持蓝牙5.3，具有低功耗、低延时、高传输的特征；支持游戏模式，可提供0.08S低延迟，带来声画同步的流畅游戏体验。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "花再是漫步者于2022年3月份联合冇心推出的全新独立品牌，致力于为年轻消费者提供美学与人体工学完美结合的科技产品。漫步者花再Zero Pro真无线耳机是一款主打主动降噪的产品，支持深度、舒适、抗风噪3种降噪模式，最大降噪深度可达-43dB；同时还支持6档环境声调节，AI通话降噪模式，满足各种场景下的降噪需求。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "主板背部固定有支架，上方引述LDS镭射天线和触摸检测电极。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开卡扣式固定的充电盒外壳。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒底部设置Type-C充电接口和充电指示灯。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "HYNITRON海栎创HK01BP低功耗单通道触控芯片，内置稳压模块/低压复位模块，支持硬件去抖动/环境自适应算法等，有较强的抗干扰性能；可通过引脚配置成多种模式。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄底部设置有充电触点和麦克风拾音孔。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5516",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5516",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1124",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM1124",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "iCM创芯微CM1124-EAC集成MOSFET单节锂电保护IC，内置有高精度电压检测电路和延迟电路，通过检测电池的电压、电流，实现对电池的过充电、过放电，过电流等保护。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2600IHC3-4X",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2600IHC3-4X",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄BES2600IHC3-4X蓝牙音频SoC。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2600IHC3-4X",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2600IHC3-4X",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄BES2600IHC3-4X蓝牙音频SoC。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2600IHC",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2600IHC",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄BES2600IHC3-4X蓝牙音频SoC。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2600IHC3",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2600IHC3",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄BES2600IHC3-4X蓝牙音频SoC。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 漫步者花再Zero Pro真无线降噪耳机外观设计简约时尚，轻巧便携。充电盒采用了圆角方形设计，细腻哑光质感，使用不易沾染指纹、不易出现划痕。柄状的入耳式耳机大面积采用烤漆工艺处理，佩戴舒适亲肤；耳机柄顶部穿插类金属质感结构，使之更具设计感和辨识度。 内部主要配置方面，充电盒内置金赛尔350mAh锂电池，配备有电路保护板负责充放电保护。主板上，采用了Type-C接口输入电源，端口设置有过压保护IC；搭载了INJOINIC英集芯IP5516充电盒管理SoC单芯片为充电盒提供完整的电源解决方案，包括500mA线性充电、300mA同步升压输出、电池电量指示、5V单向通讯等。 耳机内部搭载了8mm动圈单元，两颗新港电子MEMS麦克风；采用旭航诚电子37mAh软包电池，配备iCM创芯微CM1124-EAC锂电保护IC；主控芯片为BES恒玄BES2600IHC3-4X蓝牙音频SoC，支持BT5.3规范，集成混合主动降噪功能；触摸控制采用了HYNITRON海栎创HK01BP低功耗单通道触控芯片。",
+  "layer_refs": {
+    "technical": [
+      "report:171190"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "漫步者花再Zero Pro真无线耳机是一款主打主动降噪的产品，支持深度、舒适、抗风噪3种降噪模式，最大降噪深度可达-43dB；同时还支持6档环境声调节，AI通话降噪模式，满足各种场景下的降噪需求。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "漫步者花再Zero Pro真无线耳机是一款主打主动降噪的产品，支持深度、舒适、抗风噪3种降噪模式，最大降噪深度可达-43dB；同时还支持6档环境声调节，AI通话降噪模式，满足各种场景下的降噪需求。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "漫步者花再Zero Pro真无线耳机是一款主打主动降噪的产品，支持深度、舒适、抗风噪3种降噪模式，最大降噪深度可达-43dB；同时还支持6档环境声调节，AI通话降噪模式，满足各种场景下的降噪需求。"
+        }
+      },
+      {
+        "text": "续航方面，支持6.5+19.5小时（降噪关）/4.5+13.5小时（降噪开）的音乐播放时间；支持闪电快充技术，充电15分钟，可聆听1小时。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "续航方面，支持6.5+19.5小时（降噪关）/4.5+13.5小时（降噪开）的音乐播放时间；支持闪电快充技术，充电15分钟，可聆听1小时。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "续航方面，支持6.5+19.5小时（降噪关）/4.5+13.5小时（降噪开）的音乐播放时间；支持闪电快充技术，充电15分钟，可聆听1小时。"
+        }
+      },
+      {
+        "text": "花再是漫步者于2022年3月份联合冇心推出的全新独立品牌，致力于为年轻消费者提供美学与人体工学完美结合的科技产品。",
+        "tag": "舒适佩戴",
+        "evidence": {
+          "value": "花再是漫步者于2022年3月份联合冇心推出的全新独立品牌，致力于为年轻消费者提供美学与人体工学完美结合的科技产品。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "花再是漫步者于2022年3月份联合冇心推出的全新独立品牌，致力于为年轻消费者提供美学与人体工学完美结合的科技产品。"
+        }
+      },
+      {
+        "text": "同样来自新港电子的镭雕2311 MX04的MEMS麦克风，用于语音通话和降噪功能拾音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "同样来自新港电子的镭雕2311 MX04的MEMS麦克风，用于语音通话和降噪功能拾音。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "同样来自新港电子的镭雕2311 MX04的MEMS麦克风，用于语音通话和降噪功能拾音。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "漫步者花再Zero Pro真无线耳机是一款主打主动降噪的产品，支持深度、舒适、抗风噪3种降噪模式，最大降噪深度可达-43dB；同时还支持6档环境声调节，AI通话降噪模式，满足各种场景下的降噪需求。",
+    "launch_date": null,
+    "best_report_id": "171190",
+    "best_video_id": null
+  }
+}

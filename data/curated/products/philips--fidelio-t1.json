@@ -1,0 +1,277 @@
+{
+  "canonical_id": "philips--fidelio-t1",
+  "brand": "PHILIPS飞利浦",
+  "model": "Fidelio T1",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "101237"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "101237"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2022-01-01",
+  "latest_published": "2022-01-01",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "AB1565",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "650 mAh",
+    "speaker": "喇叭单元",
+    "materials": "铝合金、皮革",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "IPX4",
+    "bluetooth": "5.2",
+    "bom_row_count": 11,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "101237",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "支持ANC混合主动降噪，拥有高、低、降低风噪三种模式，支持通透模式自定义调节，以及三麦克风ENC通话降噪；其他方面还支持佩戴感应、多点连接、触控操控、IPX4级防水，无线充电等。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机座舱一侧结构一览，顶部有固定无线充电接收线圈的支架，支架下方主板设置主板单元，电池位于座舱腹部。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电方式：充电盒内主板、无线充电接收线圈和电池电路一侧一览。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "支持ANC混合主动降噪，拥有高、低、降低风噪三种模式，支持通透模式自定义调节，以及三麦克风ENC通话降噪；其他方面还支持佩戴感应、多点连接、触控操控、IPX4级防水，无线充电等。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机座舱一侧结构一览，顶部有固定无线充电接收线圈的支架，支架下方主板设置主板单元，电池位于座舱腹部。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "取出动圈扬声器和红外线传感器，音腔内部还设置有内向式麦克风和动铁单元。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "支持ANC混合主动降噪，拥有高、低、降低风噪三种模式，支持通透模式自定义调节，以及三麦克风ENC通话降噪；其他方面还支持佩戴感应、多点连接、触控操控、IPX4级防水，无线充电等。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "标记/认证：二、PHILIPS Fidelio T1真无线耳机拆解\n从开箱我们了解到了这款产品的精致外观设计，下面进入拆解部分，看看内部结构配置信息~\n充电盒拆解\n撬开充电盒外壳，取出耳机座舱结构。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SY8801",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SY8801",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "充电方式：内部结构设计方面，充电盒组件均通过排线和BTB连接器连接到主板，内置小锂新能源650mAh大容量电池，支持有线和无线两种方式为电池充电，有线采用了思远SY8801充电仓SOC，集成了I2C通讯功能和内部通讯隔离功能；无线采用了酷珀微CP2022无线充电传输芯片，符合Qi V1.2.4标准，提供高达3W的功率。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB1565",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB1565",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：650\n芯片 AB1565\n芯片 思远半导体\nSY8801\n芯片 SY5320"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体\nSY8801",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体\nSY8801",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：650\n芯片 AB1565\n芯片 思远半导体\nSY8801\n芯片 SY5320"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:101237"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "Fidelio是飞利浦影音旗下的于2011年推出高端系列，包括了X、L、M和S四个系列，此前已推出多款头戴式有 […]\n支持ANC混合主动降噪，拥有高、低、降低风噪三种模式，支持通透模式自定义调节，以及三麦克风ENC通话降噪；其他方面还支持佩戴感应、多点连接、触控操控、IPX4级防水，无线充电等。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "Fidelio是飞利浦影音旗下的于2011年推出高端系列，包括了X、L、M和S四个系列，此前已推出多款头戴式有 […]\n支持ANC混合主动降噪，拥有高、低、降低风噪三种模式，支持通透模式自定义调节，以及三麦克风ENC通话降噪；其他方面还支持佩戴感应、多点连接、触控操控、IPX4级防水，无线充电等。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "Fidelio是飞利浦影音旗下的于2011年推出高端系列，包括了X、L、M和S四个系列，此前已推出多款头戴式有 […]\n支持ANC混合主动降噪，拥有高、低、降低风噪三种模式，支持通透模式自定义调节，以及三麦克风ENC通话降噪；其他方面还支持佩戴感应、多点连接、触控操控、IPX4级防水，无线充电等。"
+        }
+      },
+      {
+        "text": "标记/认证：支持ANC混合主动降噪，拥有高、低、降低风噪三种模式，支持通透模式自定义调节，以及三麦克风ENC通话降噪；其他方面还支持佩戴感应、多点连接、触控操控、IPX4级防水，无线充电等。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "标记/认证：支持ANC混合主动降噪，拥有高、低、降低风噪三种模式，支持通透模式自定义调节，以及三麦克风ENC通话降噪；其他方面还支持佩戴感应、多点连接、触控操控、IPX4级防水，无线充电等。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "标记/认证：支持ANC混合主动降噪，拥有高、低、降低风噪三种模式，支持通透模式自定义调节，以及三麦克风ENC通话降噪；其他方面还支持佩戴感应、多点连接、触控操控、IPX4级防水，无线充电等。"
+        }
+      },
+      {
+        "text": "支持ANC混合主动降噪，拥有高、低、降低风噪三种模式，支持通透模式自定义调节，以及三麦克风ENC通话降噪；其他方面还支持佩戴感应、多点连接、触控操控、IPX4级防水，无线充电等。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "支持ANC混合主动降噪，拥有高、低、降低风噪三种模式，支持通透模式自定义调节，以及三麦克风ENC通话降噪；其他方面还支持佩戴感应、多点连接、触控操控、IPX4级防水，无线充电等。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "支持ANC混合主动降噪，拥有高、低、降低风噪三种模式，支持通透模式自定义调节，以及三麦克风ENC通话降噪；其他方面还支持佩戴感应、多点连接、触控操控、IPX4级防水，无线充电等。"
+        }
+      },
+      {
+        "text": "充电方式：支持ANC混合主动降噪，拥有高、低、降低风噪三种模式，支持通透模式自定义调节，以及三麦克风ENC通话降噪；其他方面还支持佩戴感应、多点连接、触控操控、IPX4级防水，无线充电等。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "充电方式：支持ANC混合主动降噪，拥有高、低、降低风噪三种模式，支持通透模式自定义调节，以及三麦克风ENC通话降噪；其他方面还支持佩戴感应、多点连接、触控操控、IPX4级防水，无线充电等。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "充电方式：支持ANC混合主动降噪，拥有高、低、降低风噪三种模式，支持通透模式自定义调节，以及三麦克风ENC通话降噪；其他方面还支持佩戴感应、多点连接、触控操控、IPX4级防水，无线充电等。"
+        }
+      },
+      {
+        "text": "飞利浦Fidelio T1真无线降噪耳机在外观设计上延续着Fidelio高端系列的精致感，采用了金属机身搭配皮革材质，呈现低调的奢华气息。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "飞利浦Fidelio T1真无线降噪耳机在外观设计上延续着Fidelio高端系列的精致感，采用了金属机身搭配皮革材质，呈现低调的奢华气息。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "飞利浦Fidelio T1真无线降噪耳机在外观设计上延续着Fidelio高端系列的精致感，采用了金属机身搭配皮革材质，呈现低调的奢华气息。"
+        }
+      },
+      {
+        "text": "正面设计有耳机的外观渲染图，品牌LOGO和产品名称，LDAC标识和Hi-Res AUDIO无线高解析音频认证标志，以及“匠心杰作，精彩生活”的产品宣传语。",
+        "tag": "音质认证",
+        "evidence": {
+          "value": "正面设计有耳机的外观渲染图，品牌LOGO和产品名称，LDAC标识和Hi-Res AUDIO无线高解析音频认证标志，以及“匠心杰作，精彩生活”的产品宣传语。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "正面设计有耳机的外观渲染图，品牌LOGO和产品名称，LDAC标识和Hi-Res AUDIO无线高解析音频认证标志，以及“匠心杰作，精彩生活”的产品宣传语。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "Fidelio是飞利浦影音旗下的于2011年推出高端系列，包括了X、L、M和S四个系列，此前已推出多款头戴式有 […]\n支持ANC混合主动降噪，拥有高、低、降低风噪三种模式，支持通透模式自定义调节，以及三麦克风ENC通话降噪；其他方面还支持佩戴感应、多点连接、触控操控、IPX4级防水，无线充电等。",
+    "launch_date": null,
+    "best_report_id": "101237",
+    "best_video_id": null
+  }
+}

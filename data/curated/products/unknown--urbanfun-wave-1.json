@@ -1,0 +1,316 @@
+{
+  "canonical_id": "unknown--urbanfun-wave-1",
+  "brand": "",
+  "model": "Urbanfun Wave 1真无线",
+  "category": "骨传导耳机",
+  "report_ids": [
+    "160751"
+  ],
+  "video_ids": [
+    "177065"
+  ],
+  "related_report_ids": [
+    "160751"
+  ],
+  "related_video_ids": [
+    "177065"
+  ],
+  "first_seen": "2023-05-19",
+  "latest_published": "2023-10-08",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "Injoinic英集芯IP5518",
+    "pmic_case": "INJOINIC英集芯 Injoinic英集芯IP5518",
+    "battery_ear": "电池",
+    "battery_case": "5V/00mAh",
+    "speaker": "",
+    "materials": "硅胶、塑料、PC",
+    "weight_g": "17g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.0",
+    "bom_row_count": 14,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "160751",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "Injoinic英集芯IP5518",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "PMIC/充电仓管理",
+      "evidence": {
+        "value": "Injoinic英集芯IP5518",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内置电池容量500mAh，主板上采用Type-C接口输入电源，由Injoinic英集芯IP5518 TWS耳机充电仓管理SoC负责电池的充放电管理，并集成MCU、电池电量指示等功能，单芯片为充电盒提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "5V/00mAh",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "5V/00mAh",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内置电池容量500mAh，主板上采用Type-C接口输入电源，由Injoinic英集芯IP5518 TWS耳机充电仓管理SoC负责电池的充放电管理，并集成MCU、电池电量指示等功能，单芯片为充电盒提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载骨传导扬声器，70mAh钢壳扣式电池，以及用于拾音的驻极体麦克风。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "目前蓝牙耳机市场，TWS耳机和骨传导耳机是其中的两个重要品类。TWS耳机基于完全摒弃线材的连接方式，为用户提供了便捷、灵活的使用体验；骨传导耳机则基于骨传导技术，实现了开放式聆听，提供舒适的佩戴。此次将要拆解的Urbanfun Wave 1是一款结合了TWS和骨传导的产品，左右耳机分体式设计，骨传导传音，配备充电盒，提供更持久的续航。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面有产品参数信息，型号：Wave 1，扬声器：骨传导扬声器，耳机充饱时间：约60分钟，充电盒充饱时间：约90分钟，耳机重量：17g ，充电盒重量：50g，防水等级：IP55，耳机电池容量：70mAH，充电盒电池容量：500mAH，麦克风灵敏度：-40dB±2dB，耳机播放时间：音乐播放时间约4小时，通话时间约3.5小时，待机时间约5天(充电盒给耳机充电大约可充3-4次)，东莞市纯音乐科技有限公司，中国制造。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，主板契合腔体设计，通过螺丝固定，主板上固定电池单元。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "功能配置方面，Urbanfun Wave 1真无线骨传导耳机搭载专利骨传导扬声器，支持蓝牙5.0无线连接，自动配对，单/双耳灵活切换；内置高抗噪麦克风，提供清晰的双耳通话功能；续航方面，耳机单次支持音乐播放约4小时，通话约3.5小时，充电盒可提供3~4次充电；还支持IP55防尘防水，无惧运动健身汗水，以及生活泼溅和偶遇下雨。下面来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "贴片蓝牙天线特写，用于无线信号收发。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机外侧外观一览，顶部耳挂采用了可拆卸的记忆硅胶材质，支持旋转。耳挂末端设计有L/R左右标识，垂直于耳挂的耳机上设计有品牌LOGO和指示灯。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "撬开充电盒外壳，取出卡扣式固定的座舱结构。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Urbanfun Wave 1充电盒采用了扁平的圆角方形设计，采用哑光质感，通过“泼溅法”设计散点图案，呈现独一无二的视觉效果。机身正面设计有便于开启的倒角，以及一颗反馈剩余电量信息的指示灯。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒为耳机充电的Pogo Pin连接器特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Injoinic英集芯IP5518",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Injoinic英集芯IP5518",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Injoinic英集芯IP5518 TWS耳机充电仓管理SoC，是一款集成MCU，集成了5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5518",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5518",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "IP5518的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Urbanfun Wave 1真无线骨传导耳机在外观设计方面，充电盒采用圆角方形设计，哑光质感，机身通过“泼溅法”设计散点图案，使产品更具个性化特征。耳机采用了独特的耳挂式结构，分体式设计搭配单/双耳模式，提供灵活便捷使用体验；贴合皮肤的耳挂和骨传导扬声器腔体均采用了硅胶材质，还设计有耳翼结构，提供舒适稳固的佩戴效果。 内部结构配置方面，充电盒电路设计简洁，仅有主板和电池单元。内置电池容量500mAh，主板上采用Type-C接口输入电源，由Injoinic英集芯IP5518 TWS耳机充电仓管理SoC负责电池的充放电管理，并集成MCU、电池电量指示等功能，单芯片为充电盒提供完整的电源解决方案。另外搭载一颗霍尔元件，用于检测耳机出入仓状态，自动充电、开盖即连等功能。 耳机内部搭载骨传导扬声器，70mAh钢壳扣式电池，以及用于拾音的驻极体麦克风。主板上，采用了Realtek瑞昱RTL8763BFP蓝牙音频SoC，用于蓝牙无线传输和音频处理；Heroic禾润HT97180耳机放大器，用于驱动骨传导扬声器；以及用于触摸控制的Chiprise昕科微BH7212电容式触摸检测IC等。",
+  "layer_refs": {
+    "technical": [
+      "report:160751",
+      "video:177065"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "通话麦克风拾音孔特写，内部细密防尘网防护，防止异物进入腔体。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "通话麦克风拾音孔特写，内部细密防尘网防护，防止异物进入腔体。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "通话麦克风拾音孔特写，内部细密防尘网防护，防止异物进入腔体。"
+        }
+      },
+      {
+        "text": "器件可通过外部电阻调节增益（固定增益6dB版本需要提前定制）。",
+        "tag": "其他",
+        "evidence": {
+          "value": "器件可通过外部电阻调节增益（固定增益6dB版本需要提前定制）。",
+          "confidence": 0.67,
+          "source_type": "text",
+          "source_text": "器件可通过外部电阻调节增益（固定增益6dB版本需要提前定制）。"
+        }
+      },
+      {
+        "text": "IP5518内置IC温度和输入电压智能调节充电电流功能；内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示；内置12bit ADC，可准确计算电池电量。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "IP5518内置IC温度和输入电压智能调节充电电流功能；内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示；内置12bit ADC，可准确计算电池电量。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "IP5518内置IC温度和输入电压智能调节充电电流功能；内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示；内置12bit ADC，可准确计算电池电量。"
+        }
+      },
+      {
+        "text": "充电盒底部印有监管信息、序列号、各种认证标识，以及出厂条形码等信息。",
+        "tag": "其他",
+        "evidence": {
+          "value": "充电盒底部印有监管信息、序列号、各种认证标识，以及出厂条形码等信息。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "充电盒底部印有监管信息、序列号、各种认证标识，以及出厂条形码等信息。"
+        }
+      },
+      {
+        "text": "机身背部贴有产品参数信息，型号：Wave 1，输入：5V/0.5A，输出：5V/70mA*2，充电盒容量：3.7V，500mAh，1.85Wh，耳机容量：3.7V，70mAh，0.259Wh，以及各种认证标识。",
+        "tag": "其他",
+        "evidence": {
+          "value": "机身背部贴有产品参数信息，型号：Wave 1，输入：5V/0.5A，输出：5V/70mA*2，充电盒容量：3.7V，500mAh，1.85Wh，耳机容量：3.7V，70mAh，0.259Wh，以及各种认证标识。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "机身背部贴有产品参数信息，型号：Wave 1，输入：5V/0.5A，输出：5V/70mA*2，充电盒容量：3.7V，500mAh，1.85Wh，耳机容量：3.7V，70mAh，0.259Wh，以及各种认证标识。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "通话",
+      "健身"
+    ],
+    "positioning_summary": "通话麦克风拾音孔特写，内部细密防尘网防护，防止异物进入腔体。",
+    "launch_date": null,
+    "best_report_id": "160751",
+    "best_video_id": null
+  }
+}

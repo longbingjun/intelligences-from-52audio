@@ -1,0 +1,347 @@
+{
+  "canonical_id": "edifier--hecate-gt2",
+  "brand": "EDIFIER漫步者",
+  "model": "HECATE GT2真无线游戏",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "170528"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "170528"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-08-17",
+  "latest_published": "2023-08-17",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "INJOINIC英集芯IP5513",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "4V/00mAh锂电池",
+    "speaker": "13mm 动圈单元",
+    "materials": "",
+    "weight_g": "34.5g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 18,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "170528",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "INJOINIC英集芯IP5513",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5513",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，采用了Type-C充电接口，搭载了INJOINIC英集芯IP5513电源管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "4V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "4V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置旭航诚电子400mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "Bluetrum中科蓝讯",
+      "model": "BLUETRUM中科蓝讯BT8926B",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BLUETRUM中科蓝讯BT8926B",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了13mm动圈单元，旭航诚电子30mAh软包电池，主控芯片为BLUETRUM中科蓝讯BT8926B蓝牙音频SoC，带DSP指令的高性能32位RISC-V处理器核心，符合蓝牙5.4和BLE规范，支持单声道MIC放大器输入，集成低功耗触摸键和PMU；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "13mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "13mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了13mm动圈单元，旭航诚电子30mAh软包电池，主控芯片为BLUETRUM中科蓝讯BT8926B蓝牙音频SoC，带DSP指令的高性能32位RISC-V处理器核心，符合蓝牙5.4和BLE规范，支持单声道MIC放大器输入，集成低功耗触摸键和PMU；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "单耳还采用了一颗MEMS麦克风拾音。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "HECATE是EDIFIER漫步者旗下专业电竞品牌，产品涵盖了有线耳机、蓝牙耳机、2.4G无线耳机、音箱和鼠标键盘等，基于炫酷的外观设计和灯效，为用户提供沉浸式的游戏氛围。此次将要拆解的HECATE GT2是一款轻巧的半入耳式的TWS耳机，提供轻若无感的舒适佩戴体验。充电盒融入了超跑元素，支持灵动灯效，呈现未来科技感。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱另外一侧结构一览，设置有电池单元。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部通过螺丝固定主板，导线连接热敏电阻，用于检测电池温度。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "漫步者HECATE GT2真无线游戏耳机搭载13mm动圈单元，支持蓝牙5.3，提供更快速、更稳定的无线连接；支持游戏/音乐双音效，游戏模式下超低延时，声画同步，听声辨位，带来更沉浸的游戏体验；支持通话降噪功能，内置灵敏麦克风，搭配声加算法，自适应降低环境噪音，增强人声清晰度。续航上，支持单次约4.5小时，综合约22.5小时的使用。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "漫步者HECATE GT2真无线游戏耳机搭载13mm动圈单元，支持蓝牙5.3，提供更快速、更稳定的无线连接；支持游戏/音乐双音效，游戏模式下超低延时，声画同步，听声辨位，带来更沉浸的游戏体验；支持通话降噪功能，内置灵敏麦克风，搭配声加算法，自适应降低环境噪音，增强人声清晰度。续航上，支持单次约4.5小时，综合约22.5小时的使用。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网此前还拆解过漫步者HECATE GX05、HECATE GM45、HECATE GM4 MINI真无线游戏耳机，Lolli3 ANC、TWS5 PRO、NeoBuds S、NeoBuds Pro、LolliPods Pro、FunBuds、Lolli 3、TO-U2、MiniBuds真无线耳机，声迈系列X6、X5、X3真无线耳机，漫步者辅听1号助听/辅听耳机，HECATE G4S雷霆版、W820NB头戴式耳机，以及漫步者M0便携式蓝牙音箱等产品。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "贴片蓝牙天线特写，用于无线信号收发。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出内部座舱结构。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面设计有碳纤维纹理装饰，雕刻有品牌LOGO，设置有条形指示灯，支持多种灵动灯效。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄尾塞上的充电触点特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP5513",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5513",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5513",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5513",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BLUETRUM中科蓝讯BT8926B",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BLUETRUM中科蓝讯BT8926B",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BLUETRUM中科蓝讯BT8926B蓝牙音频SoC，采用带DSP指令的高性能32位RISC-V处理器核心，处理器最大速度125MHz，内置8Mbit闪存，256KB RAM，具有可编程上拉和下拉电阻的灵活GPIO引脚；支持GPIO唤醒或中断。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 漫步者HECATE GT2真无线游戏耳机在外观方面，充电盒体积小巧，轻盈便携；机身上采用碳纤维纹理装饰，设置有灵动灯效，拥有着不错的质感；柄状的半入耳式耳机，采用了亮面+哑光两种质感相结合，重量仅有3.4g，佩戴舒适，简约时尚。 内部主要配置方面，充电盒内置旭航诚电子400mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护。主板上，采用了Type-C充电接口，搭载了INJOINIC英集芯IP5513电源管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。 耳机内部搭载了13mm动圈单元，旭航诚电子30mAh软包电池，主控芯片为BLUETRUM中科蓝讯BT8926B蓝牙音频SoC，带DSP指令的高性能32位RISC-V处理器核心，符合蓝牙5.4和BLE规范，支持单声道MIC放大器输入，集成低功耗触摸键和PMU；单耳还采用了一颗MEMS麦克风拾音。",
+  "layer_refs": {
+    "technical": [
+      "report:170528"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "HECATE是EDIFIER漫步者旗下专业电竞品牌，产品涵盖了有线耳机、蓝牙耳机、2.4G无线耳机、音箱和鼠标键盘等，基于炫酷的外观设计和灯效，为用户提供沉浸式的游戏氛围。",
+        "tag": "其他",
+        "evidence": {
+          "value": "HECATE是EDIFIER漫步者旗下专业电竞品牌，产品涵盖了有线耳机、蓝牙耳机、2.4G无线耳机、音箱和鼠标键盘等，基于炫酷的外观设计和灯效，为用户提供沉浸式的游戏氛围。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "HECATE是EDIFIER漫步者旗下专业电竞品牌，产品涵盖了有线耳机、蓝牙耳机、2.4G无线耳机、音箱和鼠标键盘等，基于炫酷的外观设计和灯效，为用户提供沉浸式的游戏氛围。"
+        }
+      },
+      {
+        "text": "此次将要拆解的HECATE GT2是一款轻巧的半入耳式的TWS耳机，提供轻若无感的舒适佩戴体验。",
+        "tag": "舒适佩戴",
+        "evidence": {
+          "value": "此次将要拆解的HECATE GT2是一款轻巧的半入耳式的TWS耳机，提供轻若无感的舒适佩戴体验。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "此次将要拆解的HECATE GT2是一款轻巧的半入耳式的TWS耳机，提供轻若无感的舒适佩戴体验。"
+        }
+      },
+      {
+        "text": "耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。",
+          "confidence": 0.59,
+          "source_type": "text",
+          "source_text": "耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话",
+      "电竞"
+    ],
+    "positioning_summary": "HECATE是EDIFIER漫步者旗下专业电竞品牌，产品涵盖了有线耳机、蓝牙耳机、2.4G无线耳机、音箱和鼠标键盘等，基于炫酷的外观设计和灯效，为用户提供沉浸式的游戏氛围。",
+    "launch_date": null,
+    "best_report_id": "170528",
+    "best_video_id": null
+  }
+}

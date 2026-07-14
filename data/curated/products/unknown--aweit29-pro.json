@@ -1,0 +1,334 @@
+{
+  "canonical_id": "unknown--aweit29-pro",
+  "brand": "",
+  "model": "AWEI用维T29 Pro",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "149751"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "149751"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-02-21",
+  "latest_published": "2023-02-21",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "思远半导体SY8825",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "3V/00mAh",
+    "speaker": "10mm 动圈单元",
+    "materials": "硅胶、PC",
+    "weight_g": "42.3g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "IPX6",
+    "bluetooth": "5.1",
+    "bom_row_count": 15,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "149751",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "思远半导体",
+      "model": "思远半导体SY8825",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8825",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上采用了思远半导体SY8825蓝牙耳机充电仓SoC，内集成充电模块和放电模块，负责电池的充放电管理。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3V/00mAh",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3V/00mAh",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置电池容量300mAh，配备有电路保护板负责充放电保护。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "10mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "10mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机扬声器为10mm动圈单元，还采用了一颗MEMS麦克风用于语音通话拾音。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "麦克风",
+      "qty_hint": "2",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机主控芯片JL杰理AD6973D蓝牙音频SoC，支持蓝牙5.3，支持AAC解码，支持单/双麦克风降噪；"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "此次将要拆解的AWEI用维T29 Pro真无线耳机充电盒配备了RGB炫彩呼吸灯，支持开盖即连，支持快速充电；耳机采用了柄状的入耳式设计，搭载了10mm动圈单元，支持蓝牙5.1，支持低延迟游戏模式，采用了触摸控制，拥有单次7小时的续航时间。下面就让我们来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "用维T29 Pro真无线耳机包装盒采用了游戏背景设计，正面展示有产品的外观设计，产品名称，以及蓝牙5.1版本、IPX6级防水、内置500mAh充电仓和电池保护IC的产品功能特点。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，通过螺丝固定主板单元。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "此次将要拆解的AWEI用维T29 Pro真无线耳机充电盒配备了RGB炫彩呼吸灯，支持开盖即连，支持快速充电；耳机采用了柄状的入耳式设计，搭载了10mm动圈单元，支持蓝牙5.1，支持低延迟游戏模式，采用了触摸控制，拥有单次7小时的续航时间。下面就让我们来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机外侧外观一览，耳机头与耳机柄过渡自然，背部触摸位置设计有图标指示，旁边有麦克风和指示灯的开孔。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "陶瓷蓝牙天线特写，用于无线信号传输。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒底部设置有Type-C充电接口和充电指示灯。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "取掉充电盒盖，拆开充电盒外壳，取出内部座舱结构。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒为耳机充电的Pogo Pin连接器特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8825",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8825",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "思远半导体SY8825蓝牙耳机充电仓SoC，内部集成充电模块和放电模块。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SY8825",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SY8825",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "SY8825采用的封装形式为ESSOP10。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 AWEI用维T29 Pro真无线耳机在外观方面，充电盒采用了圆角矩形设计，两种不同的工艺结合，机身为透明材质，通过蓝灰色磨砂涂层遮光，露出部分形成电路纹，支持7种颜色的RGB炫彩呼吸灯效；耳机采用了柄状的入耳式设计，质感光滑，重量仅3.9g，搭配多种不同尺寸的硅胶耳塞，提供个性化的舒适佩戴体验。 内部配置方面，充电盒设置了两块垂直的PCB板，炫彩灯小板上搭载了8颗RGB灯珠，以及用于开盖即连的SiliconWisdom矽睿半导体SWU254N N极微功耗霍尔效应开关。主板上采用了思远半导体SY8825蓝牙耳机充电仓SoC，内集成充电模块和放电模块，负责电池的充放电管理。充电盒内置电池容量300mAh，配备有电路保护板负责充放电保护。 耳机内部采用了45mAh锂电池，配备了SiliconWisdom矽睿半导体SWD1811A锂电保护IC，对电池的过充电、过放电和过电流进行保护；耳机主控芯片JL杰理AD6973D蓝牙音频SoC，支持蓝牙5.3，支持AAC解码，支持单/双麦克风降噪；耳机扬声器为10mm动圈单元，还采用了一颗MEMS麦克风用于语音通话拾音。",
+  "layer_refs": {
+    "technical": [
+      "report:149751"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\n漫步者\n、\n倍思\n、\n猛玛\n、\n声阔\n、\n万魔、233621、传音、魔宴、创新科技、一加、\n小米、OPPO、realme、魅族、百度、网易、JBL、哈曼、联想等国内外知名品牌\n采用。",
+        "tag": "其他",
+        "evidence": {
+          "value": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\n漫步者\n、\n倍思\n、\n猛玛\n、\n声阔\n、\n万魔、233621、传音、魔宴、创新科技、一加、\n小米、OPPO、realme、魅族、百度、网易、JBL、哈曼、联想等国内外知名品牌\n采用。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\n漫步者\n、\n倍思\n、\n猛玛\n、\n声阔\n、\n万魔、233621、传音、魔宴、创新科技、一加、\n小米、OPPO、realme、魅族、百度、网易、JBL、哈曼、联想等国内外知名品牌\n采用。"
+        }
+      },
+      {
+        "text": "三、我爱音频网总结\nAWEI用维T29 Pro真无线耳机在外观方面，充电盒采用了圆角矩形设计，两种不同的工艺结合，机身为透明材质，通过蓝灰色磨砂涂层遮光，露出部分形成电路纹，支持7种颜色的RGB炫彩呼吸灯效；耳机采用了柄状的入耳式设计，质感光滑，重量仅3.9g，搭配多种不同尺寸的硅胶耳塞，提供个性化的舒适佩戴体验。",
+        "tag": "舒适佩戴",
+        "evidence": {
+          "value": "三、我爱音频网总结\nAWEI用维T29 Pro真无线耳机在外观方面，充电盒采用了圆角矩形设计，两种不同的工艺结合，机身为透明材质，通过蓝灰色磨砂涂层遮光，露出部分形成电路纹，支持7种颜色的RGB炫彩呼吸灯效；耳机采用了柄状的入耳式设计，质感光滑，重量仅3.9g，搭配多种不同尺寸的硅胶耳塞，提供个性化的舒适佩戴体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\nAWEI用维T29 Pro真无线耳机在外观方面，充电盒采用了圆角矩形设计，两种不同的工艺结合，机身为透明材质，通过蓝灰色磨砂涂层遮光，露出部分形成电路纹，支持7种颜色的RGB炫彩呼吸灯效；耳机采用了柄状的入耳式设计，质感光滑，重量仅3.9g，搭配多种不同尺寸的硅胶耳塞，提供个性化的舒适佩戴体验。"
+        }
+      },
+      {
+        "text": "支持单/双麦克风降噪，支持两路模拟麦克风放大，内置麦克风偏置。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "支持单/双麦克风降噪，支持两路模拟麦克风放大，内置麦克风偏置。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "支持单/双麦克风降噪，支持两路模拟麦克风放大，内置麦克风偏置。"
+        }
+      },
+      {
+        "text": "用维在全球范围内建立了100多家品牌旗舰店，拥有超过1000个销售网点，遍及70个国家和地区的108个城市。",
+        "tag": "旗舰定位",
+        "evidence": {
+          "value": "用维在全球范围内建立了100多家品牌旗舰店，拥有超过1000个销售网点，遍及70个国家和地区的108个城市。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "用维在全球范围内建立了100多家品牌旗舰店，拥有超过1000个销售网点，遍及70个国家和地区的108个城市。"
+        }
+      },
+      {
+        "text": "蓝牙版本：5.1，支持协议：HSP、HFP、A2DP、AVRCP；待机时间：300h，通话时间：8h，音乐播放时间：7h，充电时间：2h，充电电压：DC 5V，传输距离：10m，耳塞电池容量：45mAh/3.7V，充电仓电池容量：500mAh/3.7V，驱动单元：10mm，灵敏度：93±3dB，阻抗：32ohms，频率响应：20~20000Hz。",
+        "tag": "其他",
+        "evidence": {
+          "value": "蓝牙版本：5.1，支持协议：HSP、HFP、A2DP、AVRCP；待机时间：300h，通话时间：8h，音乐播放时间：7h，充电时间：2h，充电电压：DC 5V，传输距离：10m，耳塞电池容量：45mAh/3.7V，充电仓电池容量：500mAh/3.7V，驱动单元：10mm，灵敏度：93±3dB，阻抗：32ohms，频率响应：20~20000Hz。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "蓝牙版本：5.1，支持协议：HSP、HFP、A2DP、AVRCP；待机时间：300h，通话时间：8h，音乐播放时间：7h，充电时间：2h，充电电压：DC 5V，传输距离：10m，耳塞电池容量：45mAh/3.7V，充电仓电池容量：500mAh/3.7V，驱动单元：10mm，灵敏度：93±3dB，阻抗：32ohms，频率响应：20~20000Hz。"
+        }
+      },
+      {
+        "text": "SiliconWisdom矽睿半导体SWU254N N极微功耗霍尔效应开关，是一颗微功耗、高灵敏度N极单极性的霍尔开关传感装置，内部电路包含了霍尔薄片、电压稳压模块、信号放大处理模块、动态失调消除模块以及CMOS输出级。",
+        "tag": "其他",
+        "evidence": {
+          "value": "SiliconWisdom矽睿半导体SWU254N N极微功耗霍尔效应开关，是一颗微功耗、高灵敏度N极单极性的霍尔开关传感装置，内部电路包含了霍尔薄片、电压稳压模块、信号放大处理模块、动态失调消除模块以及CMOS输出级。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "SiliconWisdom矽睿半导体SWU254N N极微功耗霍尔效应开关，是一颗微功耗、高灵敏度N极单极性的霍尔开关传感装置，内部电路包含了霍尔薄片、电压稳压模块、信号放大处理模块、动态失调消除模块以及CMOS输出级。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\n漫步者\n、\n倍思\n、\n猛玛\n、\n声阔\n、\n万魔、233621、传音、魔宴、创新科技、一加、\n小米、OPPO、realme、魅族、百度、网易、JBL、哈曼、联想等国内外知名品牌\n采用。",
+    "launch_date": null,
+    "best_report_id": "149751",
+    "best_video_id": null
+  }
+}

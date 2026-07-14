@@ -1,0 +1,250 @@
+{
+  "canonical_id": "unknown--n98",
+  "brand": "",
+  "model": "N98游戏",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "111554"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "111554"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2022-03-20",
+  "latest_published": "2022-03-20",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "INJOINIC英集芯IP53",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "1200 mAh",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "4g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "IP5",
+    "bluetooth": "",
+    "bom_row_count": 9,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "111554",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "取下充电盒上壳腔体内的电路板。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "IP5333内置12位ADC，可精确计量电池电量，支持1/2/3/4颗LED电量显示，并支持定制188数码管电量显示。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "取下充电盒上壳腔体内的电路板。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机在内部配置上，采用8mm石墨烯振膜动圈单元带来良好的听音表现。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机后壳特写，磨砂银质感，中间位置设有特别符号开窗透光，符号下方为2个麦克风拾音孔。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "电路板正面设置了Pogo pin连接器用于和充电盒底壳的电路接触通电，实现上壳LED灯组亮。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5333",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5333",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "IP5333内置12位ADC，可精确计量电池电量，支持1/2/3/4颗LED电量显示，并支持定制188数码管电量显示。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP53",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP53",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "标记/认证：INJOINIC英集芯IP53\n33多功能\n电\n源\n管理S\nO\nC，集成升压转换器、锂电池充电管理、电池电量指示\n和TYPE-C协议等\n功能，为TWS充电仓提供完整的解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "英集芯IP5333",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "英集芯IP5333",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "标记/认证：充电盒在内部配置上，充电盒主控芯片使用英集芯IP5333 TWS耳机充电仓管理SoC，内置开关充电功能支持1.2A充电电流，充电电流可调且支持自适应调节，并支持4.2、4.3、4.35和4.4V电池，满足多种电池的使用需求。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:111554"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "标记/认证：IP5333内置12位ADC，可精确计量电池电量，支持1/2/3/4颗LED电量显示，并支持定制188数码管电量显示。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "标记/认证：IP5333内置12位ADC，可精确计量电池电量，支持1/2/3/4颗LED电量显示，并支持定制188数码管电量显示。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "标记/认证：IP5333内置12位ADC，可精确计量电池电量，支持1/2/3/4颗LED电量显示，并支持定制188数码管电量显示。"
+        }
+      },
+      {
+        "text": "年轻人是使用TWS耳机的一大群体，目前有许多年轻人习惯用耳机进行“吃鸡”、“王者”等热门游戏的游玩，但是耳机的 […]\nTWS耳机实现低延迟游戏成为了部分消费者的新需求。",
+        "tag": "游戏低延迟",
+        "evidence": {
+          "value": "年轻人是使用TWS耳机的一大群体，目前有许多年轻人习惯用耳机进行“吃鸡”、“王者”等热门游戏的游玩，但是耳机的 […]\nTWS耳机实现低延迟游戏成为了部分消费者的新需求。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "年轻人是使用TWS耳机的一大群体，目前有许多年轻人习惯用耳机进行“吃鸡”、“王者”等热门游戏的游玩，但是耳机的 […]\nTWS耳机实现低延迟游戏成为了部分消费者的新需求。"
+        }
+      },
+      {
+        "text": "标记/认证：IP5\n33\n3的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "标记/认证：IP5\n33\n3的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "标记/认证：IP5\n33\n3的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+        }
+      },
+      {
+        "text": "充电接口：TypeC\n充电接口：Micro USB\n标记/认证：功能用途：通讯蓝牙耳机，音乐蓝牙耳机，双耳通话；频响范围：20HZ~20KHZ；耳机尺寸32.5x5x8mm；蓝牙接收距离：≥10米（标准环境下）；重量：4g（不含充电仓）。",
+        "tag": "其他",
+        "evidence": {
+          "value": "充电接口：TypeC\n充电接口：Micro USB\n标记/认证：功能用途：通讯蓝牙耳机，音乐蓝牙耳机，双耳通话；频响范围：20HZ~20KHZ；耳机尺寸32.5x5x8mm；蓝牙接收距离：≥10米（标准环境下）；重量：4g（不含充电仓）。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "充电接口：TypeC\n充电接口：Micro USB\n标记/认证：功能用途：通讯蓝牙耳机，音乐蓝牙耳机，双耳通话；频响范围：20HZ~20KHZ；耳机尺寸32.5x5x8mm；蓝牙接收距离：≥10米（标准环境下）；重量：4g（不含充电仓）。"
+        }
+      },
+      {
+        "text": "标记/认证：充电仓底部信息一览，商品名称：无线蓝牙音乐耳机；充电仓额定容量：1200mAh；型号：N98；耳机输入：5V⎓50mA；充电仓电流输入：5V⎓800mA。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：充电仓底部信息一览，商品名称：无线蓝牙音乐耳机；充电仓额定容量：1200mAh；型号：N98；耳机输入：5V⎓50mA；充电仓电流输入：5V⎓800mA。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "标记/认证：充电仓底部信息一览，商品名称：无线蓝牙音乐耳机；充电仓额定容量：1200mAh；型号：N98；耳机输入：5V⎓50mA；充电仓电流输入：5V⎓800mA。"
+        }
+      },
+      {
+        "text": "标记/认证：轻载时，自动进入休眠状态，静态电流降至20uA以内；IP5333采用开关充电技术，提供额定1A充电电流，充电效率高至91%。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "标记/认证：轻载时，自动进入休眠状态，静态电流降至20uA以内；IP5333采用开关充电技术，提供额定1A充电电流，充电效率高至91%。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "标记/认证：轻载时，自动进入休眠状态，静态电流降至20uA以内；IP5333采用开关充电技术，提供额定1A充电电流，充电效率高至91%。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "标记/认证：IP5333内置12位ADC，可精确计量电池电量，支持1/2/3/4颗LED电量显示，并支持定制188数码管电量显示。",
+    "launch_date": null,
+    "best_report_id": "111554",
+    "best_video_id": null
+  }
+}

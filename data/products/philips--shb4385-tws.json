@@ -1,0 +1,102 @@
+{
+  "canonical_id": "philips--shb4385-tws",
+  "brand": "PHILIPS飞利浦",
+  "model": "SHB4385 TWS",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "5665"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "5665"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2018-08-03",
+  "latest_published": "2018-08-03",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "络达\nAB1526",
+    "pmic_case": "",
+    "battery_ear": "350 mAh",
+    "battery_case": "",
+    "speaker": "",
+    "materials": "PC、尼龙",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "4.2",
+    "bom_row_count": 2,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.5,
+    "best_report_id": "5665",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA9640",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA9640",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "钰泰\nETA9640\n线性充电加同步升压方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "络达\nAB1526",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "络达\nAB1526",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "据我爱音频网拆解分析，这款PHILIPS 飞利浦SHB2426 使用\n络达\nAB1526\n单芯片解决方案，内部集成了SPI内存，支持蓝牙4.2双模认证。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:5665"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "耳机为中国制造，通过了各种安规认证。",
+        "tag": "其他",
+        "evidence": {
+          "value": "耳机为中国制造，通过了各种安规认证。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "耳机为中国制造，通过了各种安规认证。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "通话"
+    ],
+    "positioning_summary": "耳机为中国制造，通过了各种安规认证。",
+    "launch_date": null,
+    "best_report_id": "5665",
+    "best_video_id": null
+  }
+}

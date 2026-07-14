@@ -1,0 +1,331 @@
+{
+  "canonical_id": "huawei--freebuds-pro-2",
+  "brand": "HUAWEI华为",
+  "model": "FreeBuds Pro 2+",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "127143",
+    "156839"
+  ],
+  "video_ids": [
+    "161785",
+    "169333"
+  ],
+  "related_report_ids": [
+    "127143",
+    "156839"
+  ],
+  "related_video_ids": [
+    "161785",
+    "169333"
+  ],
+  "first_seen": "2022-08-03",
+  "latest_published": "2023-08-03",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "恒玄BES2700YP",
+    "pmic_case": "",
+    "battery_ear": "5V/80mAh",
+    "battery_case": "电池",
+    "speaker": "喇叭单元",
+    "materials": "硅胶、塑料",
+    "weight_g": "64.2g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 14,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "156839",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "5V/80mAh",
+      "qty_hint": "1",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "5V/80mAh",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内置电池容量580mAh，电芯来自LISHEN力神；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "恒玄BES2700YP",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2700YP",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片为BES恒玄BES2700YP蓝牙音频SoC，还采用了艾为AW86862压力感应IC，以及用于空间音频和通话降噪功能的ST意法半导体LSM6DSV16BX 6轴IMU、骨传导二合一芯片。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机搭载11mm四磁体动圈+微平板高音单元，2颗耳外+1颗耳内MEMS麦克风；"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部设置主板单元。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "连接电池排线的BTB连接器母座特写。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "HUAWEI FreeBuds Pro 2+外观上采用了全新羽沙白配色，充电盒沿用“鹅卵石”造型，机身光滑圆润，握持舒适。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄与耳机头衔接位置的降噪麦克风拾音孔特写，与机身保持曲线一致的弧形金属网罩防护。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "四磁体动圈单元正面特写，低频可下潜至14Hz。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧结构一览，设置有白色框架印刷LDS镭射天线。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "镭雕S811的MEMS麦克风特写，用于主动降噪功能从耳道内部拾取噪音。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒底部有Type-C充电接口和充电指示灯。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒外壳内侧结构一览，底部设置有指示灯光学结构，侧边无线充电位置贴有屏蔽贴纸。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒侧边设置用于蓝牙配对的功能按键。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2700YP",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2700YP",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄BES2700YP蓝牙音频SoC，具有超低功耗、高集成度的特点，采用12nm工艺制程，集成双模蓝牙5.3，支持BT&BLE，主处理器内置Arm Cortex-M55 CPU和Tensilica HiFi 4 DSP，极大提升了芯片的运算性能，sensor hub子系统内置STAR-MC1 MCU和恒玄自研的神经网络处理器BECO NPU，在显著降低功耗的同时，实现丰富的应用处理能力。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 HUAWEI FreeBuds Pro 2+真无线降噪耳机在外观方面，整体延续了上代的设计，“鹅卵石”状的充电盒和方形柄状的入耳式耳机。全新羽沙白配色，与上代陶瓷白质感相似，触感光滑圆润，佩戴舒适亲肤。不同点在于在铭牌、LOGO、耳机柄边缘采用了鎏金工艺处理，使整机质感得到了进一步提升，观感更加高雅华丽。 内部结构配置方面，充电盒结构与上代相似，但电源解决方案有所不同。内置电池容量580mAh，电芯来自LISHEN力神；有线和无线两种充电方式均采用了Renesas瑞萨旗下产品，包括Renesas瑞萨DA9168电池充电管理芯片和Renesas瑞萨 IDT P9221无线充电接收芯片；MCU依旧采用了Nations国民技术N32G4FRHE芯片，用于充电盒的整机控制。 耳机内部，在上代的基础上加入了心率、体温检测传感器单元，包括右耳内部的红外和绿光双波段心率监测传感器和左耳内部的三颗温度传感器，配备GOODiX汇顶科技GH3020健康监测IC，提供超低功耗、超高精度的心率检测功能。 其他方面，单只耳机搭载11mm四磁体动圈+微平板高音单元，2颗耳外+1颗耳内MEMS麦克风；主控芯片为BES恒玄BES2700YP蓝牙音频SoC，还采用了艾为AW86862压力感应IC，以及用于空间音频和通话降噪功能的ST意法半导体LSM6DSV16BX 6轴IMU、骨传导二合一芯片。",
+  "layer_refs": {
+    "technical": [
+      "report:127143",
+      "report:156839",
+      "video:161785",
+      "video:169333"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "时隔将近两年，华为TWS耳机系列新一代旗舰产品——HUAWEI FreeBuds Pro 2于2022年7月2 […]\n功能配置方面，\nHUAWEI FreeBuds Pro 2真无线降噪耳机\n在音质方面进行了系统性全链路升级，搭载TWS全球首发的四磁体动圈单元和微平板单元，搭配数字分频技术、L2HC和LDAC双高清音频解码、三重听感优化算法等多项音频技术，以及联合帝瓦雷调音，完美重现声音本质，获得了HWA及Hi-Res双金标认证。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "时隔将近两年，华为TWS耳机系列新一代旗舰产品——HUAWEI FreeBuds Pro 2于2022年7月2 […]\n功能配置方面，\nHUAWEI FreeBuds Pro 2真无线降噪耳机\n在音质方面进行了系统性全链路升级，搭载TWS全球首发的四磁体动圈单元和微平板单元，搭配数字分频技术、L2HC和LDAC双高清音频解码、三重听感优化算法等多项音频技术，以及联合帝瓦雷调音，完美重现声音本质，获得了HWA及Hi-Res双金标认证。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "时隔将近两年，华为TWS耳机系列新一代旗舰产品——HUAWEI FreeBuds Pro 2于2022年7月2 […]\n功能配置方面，\nHUAWEI FreeBuds Pro 2真无线降噪耳机\n在音质方面进行了系统性全链路升级，搭载TWS全球首发的四磁体动圈单元和微平板单元，搭配数字分频技术、L2HC和LDAC双高清音频解码、三重听感优化算法等多项音频技术，以及联合帝瓦雷调音，完美重现声音本质，获得了HWA及Hi-Res双金标认证。"
+        }
+      },
+      {
+        "text": "标记/认证：功能配置方面，\nHUAWEI FreeBuds Pro 2真无线降噪耳机\n在音质方面进行了系统性全链路升级，搭载TWS全球首发的四磁体动圈单元和微平板单元，搭配数字分频技术、L2HC和LDAC双高清音频解码、三重听感优化算法等多项音频技术，以及联合帝瓦雷调音，完美重现声音本质，获得了HWA及Hi-Res双金标认证。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "标记/认证：功能配置方面，\nHUAWEI FreeBuds Pro 2真无线降噪耳机\n在音质方面进行了系统性全链路升级，搭载TWS全球首发的四磁体动圈单元和微平板单元，搭配数字分频技术、L2HC和LDAC双高清音频解码、三重听感优化算法等多项音频技术，以及联合帝瓦雷调音，完美重现声音本质，获得了HWA及Hi-Res双金标认证。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "标记/认证：功能配置方面，\nHUAWEI FreeBuds Pro 2真无线降噪耳机\n在音质方面进行了系统性全链路升级，搭载TWS全球首发的四磁体动圈单元和微平板单元，搭配数字分频技术、L2HC和LDAC双高清音频解码、三重听感优化算法等多项音频技术，以及联合帝瓦雷调音，完美重现声音本质，获得了HWA及Hi-Res双金标认证。"
+        }
+      },
+      {
+        "text": "HUAWEI FreeBuds Pro 2还是全球首款3麦克风主动降噪的TWS耳机，实现了47dB的最大降噪深度；全新升级的智慧动态降噪2.0，自动切换降噪模式；同时运用3颗麦克风单元和骨传导麦克风精准拾音，搭配降噪算法和抗风噪结构设计，实现全场景的清晰通话效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "HUAWEI FreeBuds Pro 2还是全球首款3麦克风主动降噪的TWS耳机，实现了47dB的最大降噪深度；全新升级的智慧动态降噪2.0，自动切换降噪模式；同时运用3颗麦克风单元和骨传导麦克风精准拾音，搭配降噪算法和抗风噪结构设计，实现全场景的清晰通话效果。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "HUAWEI FreeBuds Pro 2还是全球首款3麦克风主动降噪的TWS耳机，实现了47dB的最大降噪深度；全新升级的智慧动态降噪2.0，自动切换降噪模式；同时运用3颗麦克风单元和骨传导麦克风精准拾音，搭配降噪算法和抗风噪结构设计，实现全场景的清晰通话效果。"
+        }
+      },
+      {
+        "text": "ST意法半导体LSM6DSV16BX 6轴IMU、骨传导二合一芯片，6轴IMU用于空间音频功能，骨传导用于上行通话降噪，同时软件可以支持头部追踪，VAD算法。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "ST意法半导体LSM6DSV16BX 6轴IMU、骨传导二合一芯片，6轴IMU用于空间音频功能，骨传导用于上行通话降噪，同时软件可以支持头部追踪，VAD算法。",
+          "confidence": 0.61,
+          "source_type": "text",
+          "source_text": "ST意法半导体LSM6DSV16BX 6轴IMU、骨传导二合一芯片，6轴IMU用于空间音频功能，骨传导用于上行通话降噪，同时软件可以支持头部追踪，VAD算法。"
+        }
+      },
+      {
+        "text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：外观方面，延续了上代的经典设计，但充电盒体积缩小11%，重量降低13%，更加便携；流线型设计的耳机，有效降低风噪，耳机柄也更加短小，且支持IP54抗水溅，无惧运动汗水和雨水。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：外观方面，延续了上代的经典设计，但充电盒体积缩小11%，重量降低13%，更加便携；流线型设计的耳机，有效降低风噪，耳机柄也更加短小，且支持IP54抗水溅，无惧运动汗水和雨水。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：外观方面，延续了上代的经典设计，但充电盒体积缩小11%，重量降低13%，更加便携；流线型设计的耳机，有效降低风噪，耳机柄也更加短小，且支持IP54抗水溅，无惧运动汗水和雨水。"
+        }
+      },
+      {
+        "text": "时隔将近两年，华为TWS耳机系列新一代旗舰产品——HUAWEI FreeBuds Pro 2于2022年7月28日正式发布，迎来了全方位的升级。",
+        "tag": "旗舰定位",
+        "evidence": {
+          "value": "时隔将近两年，华为TWS耳机系列新一代旗舰产品——HUAWEI FreeBuds Pro 2于2022年7月28日正式发布，迎来了全方位的升级。",
+          "confidence": 0.62,
+          "source_type": "text",
+          "source_text": "时隔将近两年，华为TWS耳机系列新一代旗舰产品——HUAWEI FreeBuds Pro 2于2022年7月28日正式发布，迎来了全方位的升级。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "通话"
+    ],
+    "positioning_summary": "时隔将近两年，华为TWS耳机系列新一代旗舰产品——HUAWEI FreeBuds Pro 2于2022年7月2 […]\n功能配置方面，\nHUAWEI FreeBuds Pro 2真无线降噪耳机\n在音质方面进行了系统性全链路升级，搭载TWS全球首发的四磁体动圈单元和微平板单元，搭配数字分频技术、L2HC和LDAC双高清音频解码、三重听感优化算法等多项音频技术，以及联合帝瓦雷调音，完美重现声音本质，获得了HWA及Hi-Res双金标认证。",
+    "launch_date": null,
+    "best_report_id": "127143",
+    "best_video_id": null
+  }
+}

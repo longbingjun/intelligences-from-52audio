@@ -1,0 +1,280 @@
+{
+  "canonical_id": "huawei--freebuds-pro-3",
+  "brand": "HUAWEI华为",
+  "model": "FreeBuds Pro 3",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "178857"
+  ],
+  "video_ids": [
+    "180499"
+  ],
+  "related_report_ids": [
+    "178857"
+  ],
+  "related_video_ids": [
+    "180499"
+  ],
+  "first_seen": "2023-10-24",
+  "latest_published": "2023-11-02",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "WINSEMI稳先微WSDF2310",
+    "pmic_case": "WINSEMI稳先微 WINSEMI稳先微WSDF2310",
+    "battery_ear": "5V/10mAh锂电池",
+    "battery_case": "电池",
+    "speaker": "喇叭单元",
+    "materials": "硅胶、塑料、PC",
+    "weight_g": "57.5g",
+    "weight_case_g": "",
+    "weight_earbud_g": "11.9g",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 13,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "178857",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "5V/10mAh锂电池",
+      "qty_hint": "1",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "5V/10mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主要配置上，内置510mAh锂电池，电芯来自ATL新能源科技；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "3",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "内置三颗MEMS麦克风+骨传导VPU单元，用于降噪和语音通话功能精准拾音；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "WINSEMI稳先微",
+      "model": "WINSEMI稳先微WSDF2310",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "保护IC",
+      "evidence": {
+        "value": "WINSEMI稳先微WSDF2310",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内置55.5mAh 3.89V高电压钢壳扣式电池，采用了WINSEMI稳先微WSDF2310一体化锂电保护IC；"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "智慧动态降噪3.0降噪能力提升了50%，内置三麦克风混合降噪系统，搭配再升级的AI自适应降噪算法，精准识别并实时计算耳内外噪音，动态定制降噪效果，带来安静舒适的降噪体验。其他方面，HUAWEI FreeBuds Pro 3搭载HarmonyOS系统，支持多设备畅联、音频共享；还支持离线查找，并且充电盒配备了扬声器，具备了独立的查找能力。续航方面，整机播放音乐长达33小时，声音质量优先模式可达30小时，同时支持无线充电功能。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒盖内侧印有认证标识，以及参数信息。型号：T0018S，输入：5V-1.5A，输出：4.8V-400mAh，电池：3.87V 510mAh 1.97Wh，华为终端有限公司。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部通过螺丝固定主板单元，元器件及焊点打胶防护。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "高清空间音频2.0采用高分辨率空间模型算法，依托麒麟A2强大算力，分辨精度提升40度，时延降低25%，搭配六轴姿态传感器，带来更真实、人声更清晰、层次更分明的的空间音频体验。静谧通话2.0搭载4麦克风系统，升级骨传导VPU，精准识别骨导震动声音，拾音效果提升2.5倍；搭配内置三麦克风和多通道深度神经（DNN）网络通话降噪算法，带来清晰的通话效果；同时，通话抗风噪能力提升80%，满足多场景使用。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "主板边缘的蓝牙天线特写，用于无线信号传输。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "用于查找功能的扬声器单元，设置有海绵垫密封，丝网防尘。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出内部座舱结构。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒侧边外观一览，可以发现座舱采用了倾斜的结构设计，开盖后耳机能够露出更多的面积，提升拿取的便捷性；同时设置有一颗功能按键，用于蓝牙配对等功能控制。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "HUAWEI华为FreeBuds Pro 3充电盒延续了上代的“鹅卵石”造型，体积再次缩小了4.5%，更加的精致小巧；雅川青配色，涂层细腻温润，观感清新淡雅。充电盒正面设置有一颗指示灯，用于反馈蓝牙配对及充电状态。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WINSEMI稳先微WSDF2310",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "WINSEMI稳先微WSDF2310",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "WINSEMI稳先微WSDF2310一体化锂电保护IC，是一款单节锂离子/锂聚合物可充电电池组保护的高集成度解决方案。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 HUAWEI华为FreeBuds Pro 3真无线降噪耳机在外观方面，整体延续了系列设计风格，但做了进一步优化。充电盒体积再次缩小了4.5%，更加的小巧便携；全新雅川青配色，涂层细腻温润，观感清新淡雅。柄状的入耳式耳机，采用了光滑圆润的高亮质感，搭配相较于上代更轻的重量，以及4副不同尺寸的硅胶耳塞，提供更加舒适的佩戴体验；耳机柄压感按键也升级了凹槽设计，触控更精准。 内部结构方面，做工精致，保护到位。主要配置上，内置510mAh锂电池，电芯来自ATL新能源科技；支持有线和无线两种方式为内置电池充电，有线采用了Renesas瑞萨DA9168电池充电管理芯片，无线采用了Maxic美芯晟MT5705无线充电接收芯片；以及两颗Southchip南芯半导体SC8753升降压转换器，分别用于为两只耳机直通充电；内部还搭载了扬声器单元，搭配一颗无线SoC，用于与手机无线通讯，实现查找功能。 耳机内部搭载11mm动圈低音单元+微平板高音单元，低频可下潜至14Hz，高音可上探至48kHz；内置三颗MEMS麦克风+骨传导VPU单元，用于降噪和语音通话功能精准拾音；采用了光学入耳检测传感器，实现摘取自动暂停播放，佩戴自动恢复播放功能；采用压力感应传感器和艾为AW86862压力感应IC，用于实现精准、便捷的压感控制。 主控采用了华为自研SiP封装的Kirin麒麟A2芯片，传输效率提升4倍，抗干扰能力提升2倍，算力提升50%，为耳机的各项功能运行提供强大支持；还采用了ST意法半导体LSM6DSV16BX 6轴IMU、骨传导二合一芯片，用于空间音频和通话降噪功能。耳机内置55.5mAh 3.89V高电压钢壳扣式电池，采用了WINSEMI稳先微WSDF2310一体化锂电保护IC；Southchip南芯半导体SC7289线性充电IC，配合充电盒内SC8753升降压芯片，实现直通大倍率超高效率充电。",
+  "layer_refs": {
+    "technical": [
+      "report:178857",
+      "video:180499"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "静谧通话2.0搭载4麦克风系统，升级骨传导VPU，精准识别骨导震动声音，拾音效果提升2.5倍；搭配内置三麦克风和多通道深度神经（DNN）网络通话降噪算法，带来清晰的通话效果；同时，通话抗风噪能力提升80%，满足多场景使用。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "静谧通话2.0搭载4麦克风系统，升级骨传导VPU，精准识别骨导震动声音，拾音效果提升2.5倍；搭配内置三麦克风和多通道深度神经（DNN）网络通话降噪算法，带来清晰的通话效果；同时，通话抗风噪能力提升80%，满足多场景使用。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "静谧通话2.0搭载4麦克风系统，升级骨传导VPU，精准识别骨导震动声音，拾音效果提升2.5倍；搭配内置三麦克风和多通道深度神经（DNN）网络通话降噪算法，带来清晰的通话效果；同时，通话抗风噪能力提升80%，满足多场景使用。"
+        }
+      },
+      {
+        "text": "ST意法半导体LSM6DSV16BX 6轴IMU、骨传导二合一芯片，6轴IMU用于空间音频功能，骨传导用于上行通话降噪，同时软件可以支持头部追踪，VAD算法。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "ST意法半导体LSM6DSV16BX 6轴IMU、骨传导二合一芯片，6轴IMU用于空间音频功能，骨传导用于上行通话降噪，同时软件可以支持头部追踪，VAD算法。",
+          "confidence": 0.61,
+          "source_type": "text",
+          "source_text": "ST意法半导体LSM6DSV16BX 6轴IMU、骨传导二合一芯片，6轴IMU用于空间音频功能，骨传导用于上行通话降噪，同时软件可以支持头部追踪，VAD算法。"
+        }
+      },
+      {
+        "text": "智慧动态降噪3.0降噪能力提升了50%，内置三麦克风混合降噪系统，搭配再升级的AI自适应降噪算法，精准识别并实时计算耳内外噪音，动态定制降噪效果，带来安静舒适的降噪体验。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "智慧动态降噪3.0降噪能力提升了50%，内置三麦克风混合降噪系统，搭配再升级的AI自适应降噪算法，精准识别并实时计算耳内外噪音，动态定制降噪效果，带来安静舒适的降噪体验。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "智慧动态降噪3.0降噪能力提升了50%，内置三麦克风混合降噪系统，搭配再升级的AI自适应降噪算法，精准识别并实时计算耳内外噪音，动态定制降噪效果，带来安静舒适的降噪体验。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "静谧通话2.0搭载4麦克风系统，升级骨传导VPU，精准识别骨导震动声音，拾音效果提升2.5倍；搭配内置三麦克风和多通道深度神经（DNN）网络通话降噪算法，带来清晰的通话效果；同时，通话抗风噪能力提升80%，满足多场景使用。",
+    "launch_date": null,
+    "best_report_id": "178857",
+    "best_video_id": null
+  }
+}

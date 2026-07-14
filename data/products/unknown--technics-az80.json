@@ -1,0 +1,314 @@
+{
+  "canonical_id": "unknown--technics-az80",
+  "brand": "",
+  "model": "松下Technics AZ80",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "174753"
+  ],
+  "video_ids": [
+    "234966"
+  ],
+  "related_report_ids": [
+    "174753"
+  ],
+  "related_video_ids": [
+    "234966"
+  ],
+  "first_seen": "2023-10-07",
+  "latest_published": "2025-04-18",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "AB1565",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "7V/00mAh",
+    "speaker": "喇叭单元",
+    "materials": "硅胶、PC",
+    "weight_g": "60.1g",
+    "weight_case_g": "",
+    "weight_earbud_g": "6.1g",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 14,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "174753",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "7V/00mAh",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "7V/00mAh",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置紫建电子700mAh大容量电池，支持有线、无线两种方式为内置电池充电。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB1565",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB1565",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片为AIROHA达发（络达）AB1565M蓝牙音频SoC，支持蓝牙5.3，支持多点连接，以及Hybrid主动降噪功能；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "3",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载10mm动圈喇叭，内置三颗MEMS麦克风+Vesper VA1210加速度传感器，用于语音通话和降噪功能；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱正面结构一览，电池固定在中间位置，主板位于座舱最顶部。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在智能降噪方面，Technics AZ80采用前卫声学结构设计，搭配先进的降噪技术，提供纯净的沉浸式聆听体验；支持JustMyVoice通话技术，通过全新语音技术捕捉声音，实现更清晰的通话；充电续航方面，支持Qi无线充电技术，满电状态下，开启ANC，单次续航时间约7小时，搭配充电盒综合续航时间约24小时。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱正面结构一览，电池固定在中间位置，主板位于座舱最顶部。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板侧边的前馈降噪麦克风拾音孔特写，金属盖板防护。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在智能降噪方面，Technics AZ80采用前卫声学结构设计，搭配先进的降噪技术，提供纯净的沉浸式聆听体验；支持JustMyVoice通话技术，通过全新语音技术捕捉声音，实现更清晰的通话；充电续航方面，支持Qi无线充电技术，满电状态下，开启ANC，单次续航时间约7小时，搭配充电盒综合续航时间约24小时。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "扬声器单元结构一览。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "外壳上的通话麦克风拾音孔特写。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面开盖处设计有凹槽，内部设置指示灯。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Technics AZ80耳机外侧外观一览，采用了类金属质感，背部触控区域CD纹理设计，印有金色“Technics”品牌LOGO。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒为耳机充电/通讯的Pogo Pin连接器特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB1565",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB1565",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "AIROHA达发（络达）AB1565M蓝牙音频SoC。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 松下Technics AZ80真无线降噪耳机在外观方面，相较于前几代产品质感得到了进一步升级，充电盒采用了类金属涂层，设计有金属拉丝纹理提升细节感；豆状的入耳式耳机采用了两种工艺结合，既提升了产品质感，又保障了佩戴舒适性。但同时由于众多配置的加入，以及为支持新功能内置了更大容量电池，使之体积和重量也明显提升。 内部主要配置方面，充电盒内置紫建电子700mAh大容量电池，支持有线、无线两种方式为内置电池充电。有线采用了TI德州仪器BQ25616J电池充电器，集成3A开关模式电池充电管理和系统电源路径管理，低阻抗功率路径优化开关模式运行效率，减少电池充电时间，延长电池在放电阶段的运行时间；无线采用了德州仪器BQ51003无线接收器电源，符合WPC V1.2标准，针对2.5W应用进行了优化，整体峰值交流/直流转换效率93％。 耳机内部搭载10mm动圈喇叭，内置三颗MEMS麦克风+Vesper VA1210加速度传感器，用于语音通话和降噪功能；采用红外距离传感器实现入耳检测，电容式触摸传感器实现触摸控制；采用紫建电子0.32Wh软包扣式电池；主控芯片为AIROHA达发（络达）AB1565M蓝牙音频SoC，支持蓝牙5.3，支持多点连接，以及Hybrid主动降噪功能；还搭载了两颗DSP芯片用于提升音质表现。",
+  "layer_refs": {
+    "technical": [
+      "report:174753",
+      "video:234966"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "Technics AZ80真无线降噪耳机\n是该系列的旗舰款产品，在功能配置上，搭载10mm驱动单元，拥有更强大动力，高音澎湃、低音浑厚；支持LDAC技术，有效削减音频传输时的损耗，提供更丰富的音频细节，获得了Hi-Res Audio WIRELESS金标认证；支持3台设备同时连接，不同设备间快速、无缝切换。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "Technics AZ80真无线降噪耳机\n是该系列的旗舰款产品，在功能配置上，搭载10mm驱动单元，拥有更强大动力，高音澎湃、低音浑厚；支持LDAC技术，有效削减音频传输时的损耗，提供更丰富的音频细节，获得了Hi-Res Audio WIRELESS金标认证；支持3台设备同时连接，不同设备间快速、无缝切换。",
+          "confidence": 0.65,
+          "source_type": "text",
+          "source_text": "Technics AZ80真无线降噪耳机\n是该系列的旗舰款产品，在功能配置上，搭载10mm驱动单元，拥有更强大动力，高音澎湃、低音浑厚；支持LDAC技术，有效削减音频传输时的损耗，提供更丰富的音频细节，获得了Hi-Res Audio WIRELESS金标认证；支持3台设备同时连接，不同设备间快速、无缝切换。"
+        }
+      },
+      {
+        "text": "在智能降噪方面，Technics AZ80采用前卫声学结构设计，搭配先进的降噪技术，提供纯净的沉浸式聆听体验；支持JustMyVoice通话技术，通过全新语音技术捕捉声音，实现更清晰的通话；充电续航方面，支持Qi无线充电技术，满电状态下，开启ANC，单次续航时间约7小时，搭配充电盒综合续航时间约24小时。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "在智能降噪方面，Technics AZ80采用前卫声学结构设计，搭配先进的降噪技术，提供纯净的沉浸式聆听体验；支持JustMyVoice通话技术，通过全新语音技术捕捉声音，实现更清晰的通话；充电续航方面，支持Qi无线充电技术，满电状态下，开启ANC，单次续航时间约7小时，搭配充电盒综合续航时间约24小时。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "在智能降噪方面，Technics AZ80采用前卫声学结构设计，搭配先进的降噪技术，提供纯净的沉浸式聆听体验；支持JustMyVoice通话技术，通过全新语音技术捕捉声音，实现更清晰的通话；充电续航方面，支持Qi无线充电技术，满电状态下，开启ANC，单次续航时间约7小时，搭配充电盒综合续航时间约24小时。"
+        }
+      },
+      {
+        "text": "三、我爱音频网总结\n松下Technics AZ80真无线降噪耳机在外观方面，相较于前几代产品质感得到了进一步升级，充电盒采用了类金属涂层，设计有金属拉丝纹理提升细节感；豆状的入耳式耳机采用了两种工艺结合，既提升了产品质感，又保障了佩戴舒适性。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "三、我爱音频网总结\n松下Technics AZ80真无线降噪耳机在外观方面，相较于前几代产品质感得到了进一步升级，充电盒采用了类金属涂层，设计有金属拉丝纹理提升细节感；豆状的入耳式耳机采用了两种工艺结合，既提升了产品质感，又保障了佩戴舒适性。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\n松下Technics AZ80真无线降噪耳机在外观方面，相较于前几代产品质感得到了进一步升级，充电盒采用了类金属涂层，设计有金属拉丝纹理提升细节感；豆状的入耳式耳机采用了两种工艺结合，既提升了产品质感，又保障了佩戴舒适性。"
+        }
+      },
+      {
+        "text": "Technics是松下旗下的高端HiFi品牌，诞生于1965年，旗下产品包括了高端唱片机、功放设备、CD机、音响设备、耳机等。",
+        "tag": "旗舰定位",
+        "evidence": {
+          "value": "Technics是松下旗下的高端HiFi品牌，诞生于1965年，旗下产品包括了高端唱片机、功放设备、CD机、音响设备、耳机等。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "Technics是松下旗下的高端HiFi品牌，诞生于1965年，旗下产品包括了高端唱片机、功放设备、CD机、音响设备、耳机等。"
+        }
+      },
+      {
+        "text": "镭雕6D5 W28的前馈降噪麦克风，用于降噪功能拾取外界环境噪音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "镭雕6D5 W28的前馈降噪麦克风，用于降噪功能拾取外界环境噪音。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "镭雕6D5 W28的前馈降噪麦克风，用于降噪功能拾取外界环境噪音。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "Technics AZ80真无线降噪耳机\n是该系列的旗舰款产品，在功能配置上，搭载10mm驱动单元，拥有更强大动力，高音澎湃、低音浑厚；支持LDAC技术，有效削减音频传输时的损耗，提供更丰富的音频细节，获得了Hi-Res Audio WIRELESS金标认证；支持3台设备同时连接，不同设备间快速、无缝切换。",
+    "launch_date": null,
+    "best_report_id": "174753",
+    "best_video_id": null
+  }
+}

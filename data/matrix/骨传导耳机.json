@@ -1,6 +1,6 @@
 {
   "category": "骨传导耳机",
-  "generated_at": "2026-07-13T10:05:27+00:00",
+  "generated_at": "2026-07-14T10:17:12+08:00",
   "columns": [
     "brand",
     "model",
@@ -12,6 +12,8 @@
     "speaker",
     "materials",
     "weight_g",
+    "weight_case_g",
+    "weight_earbud_g",
     "ip_rating",
     "bluetooth",
     "bom_rows",
@@ -19,6 +21,1480 @@
     "data_completeness"
   ],
   "rows": [
+    {
+      "canonical_id": "unknown--dailings600",
+      "brand": "",
+      "model": "DAILING戴灵S600",
+      "price_cny": null,
+      "price_layer": null,
+      "main_chip": "",
+      "pmic": "",
+      "battery_ear": "1V/50mAh",
+      "battery_case": "电池",
+      "speaker": "",
+      "materials": "硅胶、PC",
+      "weight_g": "26.4g",
+      "weight_case_g": "",
+      "weight_earbud_g": "26.4g",
+      "ip_rating": "IPX5",
+      "bluetooth": "",
+      "bom_rows": 12,
+      "layer_badges": "technical",
+      "data_completeness": 0.5,
+      "best_report_id": "213585",
+      "has_report": true,
+      "has_video": false,
+      "cost_fields": {
+        "main_chip": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "1V/50mAh",
+          "evidence": "内置电池容量150mAh，来自ST神通天下。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "电池",
+          "evidence": "丝印LTH7R的锂电池线性充电IC，用于为内置锂电池充电。",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "1V/50mAh",
+          "evidence": "内置电池容量150mAh，来自ST神通天下。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "随机标配的充电线，采用了USB-A to Type-C接口。",
+          "evidence": "随机标配的充电线，采用了USB-A to Type-C接口。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "12",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "包装盒内部物品有耳机、充电线、耳塞和使用说明书，此款为高雅灰配色。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶、PC",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "IPX5",
+          "evidence": "IPX5",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "26.4g",
+          "evidence": "26.4g",
+          "source_layer": "technical"
+        },
+        "weight_case_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_earbud_g": {
+          "value": "26.4g",
+          "evidence": "网实测，DAILING戴灵S600骨传导耳机重量约为26.4g，佩戴轻盈",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "骨传导耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "其他",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "450 mAh",
+          "evidence": "450mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "随机标配的充电线，采用了USB-A to Type-C接口。",
+          "evidence": "随机标配的充电线，采用了USB-A to Type-C接口。",
+          "source_layer": "technical"
+        }
+      },
+      "selling_point_tags": "降噪、防水防尘、长续航",
+      "scenarios": "运动、通话",
+      "positioning_summary": "近期，我爱音频网关注到DAILING戴灵推出的一款骨传导蓝牙耳机S600，其主打高性价比体验，搭载了高性能振子单元，支持…"
+    },
+    {
+      "canonical_id": "unknown--earsopenbt-5",
+      "brand": "",
+      "model": "Earsopen逸鸥BT-5骨传导蓝牙",
+      "price_cny": null,
+      "price_layer": null,
+      "main_chip": "",
+      "pmic": "",
+      "battery_ear": "电池",
+      "battery_case": "300 mAh",
+      "speaker": "",
+      "materials": "PC",
+      "weight_g": "48g",
+      "weight_case_g": "",
+      "weight_earbud_g": "",
+      "ip_rating": "",
+      "bluetooth": "",
+      "bom_rows": 9,
+      "layer_badges": "technical",
+      "data_completeness": 0.5,
+      "best_report_id": "48484",
+      "has_report": true,
+      "has_video": false,
+      "cost_fields": {
+        "main_chip": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "电池",
+          "evidence": "可以看到右侧盖板下有锂聚合物电池和小板。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "300 mAh",
+          "evidence": "300mAh",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "电池",
+          "evidence": "可以看到右侧盖板下有锂聚合物电池和小板。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "充电线为USB-A to Micro USB接口。",
+          "evidence": "充电线为USB-A to Micro USB接口。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "9",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "包装盒内有耳机、充电线、说明书、保修卡、收纳包和2种耳机垫片。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "PC",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "48g",
+          "evidence": "48g",
+          "source_layer": "technical"
+        },
+        "weight_case_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_earbud_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "骨传导耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "其他",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "SBC",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "300 mAh",
+          "evidence": "300mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "充电线为USB-A to Micro USB接口。",
+          "evidence": "充电线为USB-A to Micro USB接口。",
+          "source_layer": "technical"
+        }
+      },
+      "selling_point_tags": "防水防尘、其他",
+      "scenarios": "运动",
+      "positioning_summary": "麦克风开孔特写，有一层防尘网覆盖，防止异物进入。"
+    },
+    {
+      "canonical_id": "unknown--mojawarun-plus",
+      "brand": "",
+      "model": "MOJAWA墨觉Run Plus骨传导运动",
+      "price_cny": null,
+      "price_layer": null,
+      "main_chip": "JL7006",
+      "pmic": "",
+      "battery_ear": "1V/50mAh",
+      "battery_case": "电池",
+      "speaker": "",
+      "materials": "硅胶、钛合金、PC",
+      "weight_g": "28.8g",
+      "weight_case_g": "",
+      "weight_earbud_g": "28.8g",
+      "ip_rating": "",
+      "bluetooth": "",
+      "bom_rows": 12,
+      "layer_badges": "technical",
+      "data_completeness": 0.67,
+      "best_report_id": "209675",
+      "has_report": true,
+      "has_video": true,
+      "cost_fields": {
+        "main_chip": {
+          "value": "JL7006",
+          "evidence": "JL7006",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "1V/50mAh",
+          "evidence": "左侧腔体内置电池单元，容量150mAh，来自YD亿等新能源。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "电池",
+          "evidence": "包装盒背面介绍了产品的详细功能特点：佩戴不入耳、磁浮震撼低音、8小时综合续航、钛合金骨架、IP68游泳级防水、32G高速存储，以及部分参数信息。型号：M2101，输入：5V-500mA，电池：3.7V/150mAh，制造商：苏州墨觉智能电子有限公司。",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "1V/50mAh",
+          "evidence": "左侧腔体内置电池单元，容量150mAh，来自YD亿等新能源。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "USB-A",
+          "evidence": "USB-A",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "12",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "取出包装盒内所有物品，包括了耳机、充电线、游泳耳塞和使用说明书，此款为黑色配色。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶、钛合金、PC",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "28.8g",
+          "evidence": "28.8g",
+          "source_layer": "technical"
+        },
+        "weight_case_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_earbud_g": {
+          "value": "28.8g",
+          "evidence": "OJAWA墨觉Run Plus骨传导运动耳机重量约为28.8g。\n二、\n",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "骨传导耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "其他",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "150 mAh",
+          "evidence": "150mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "USB-A",
+          "evidence": "USB-A",
+          "source_layer": "technical"
+        }
+      },
+      "selling_point_tags": "降噪、防水防尘",
+      "scenarios": "运动、通话",
+      "positioning_summary": "墨觉Run Plus还支持均衡、水下运动、低音增强、人声增强4种音效模式，可以根据多场景需求在APP种自由切换；支持EN…"
+    },
+    {
+      "canonical_id": "unknown--suuntowing",
+      "brand": "",
+      "model": "SUUNTO颂拓Wing",
+      "price_cny": null,
+      "price_layer": null,
+      "main_chip": "高通QCC3044",
+      "pmic": "",
+      "battery_ear": "1V/70mAh",
+      "battery_case": "电池",
+      "speaker": "",
+      "materials": "硅胶、PC",
+      "weight_g": "33.4g",
+      "weight_case_g": "",
+      "weight_earbud_g": "33.4g",
+      "ip_rating": "",
+      "bluetooth": "5.2",
+      "bom_rows": 18,
+      "layer_badges": "technical",
+      "data_completeness": 0.67,
+      "best_report_id": "181967",
+      "has_report": true,
+      "has_video": false,
+      "cost_fields": {
+        "main_chip": {
+          "value": "高通QCC3044",
+          "evidence": "主控芯片为Qualcomm高通QCC3044蓝牙音频SoC，专为蓝牙立体声耳机，极低功耗实现更持久的续航；",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "1V/70mAh",
+          "evidence": "内置电池来自AEC国光电子，容量170mAh；",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "电池",
+          "evidence": "Cellwise赛微CW2215B 5μA单节锂电池电量计芯片，支持电流检测。芯片监测电池在充放电状态下的电压，电流和温度，运行专利“FastCali”电量计算法，结合电池建模信息，可准确计算电池的剩余电量。CW2215B适用于包括锂锰，锂钴和聚合物等多种类型的锂电池应用。",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "1V/70mAh",
+          "evidence": "内置电池来自AEC国光电子，容量170mAh；",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "无线充电舱背部设置有Type-C充电接口。",
+          "evidence": "无线充电舱背部设置有Type-C充电接口。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "18",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "包装盒内部物品有耳机、无线充电舱、耳塞、充电线、收纳袋和产品说明书。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶、PC",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "33.4g",
+          "evidence": "33.4g",
+          "source_layer": "technical"
+        },
+        "weight_case_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_earbud_g": {
+          "value": "33.4g",
+          "evidence": "频网实测，SUUNTO颂拓Wing骨传导耳机重量约为33.4g。\n二、S",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "骨传导耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "其他",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "5.2",
+          "evidence": "蓝牙5.2",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "5.2",
+          "evidence": "蓝牙5.2",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "aptX",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "500 mAh",
+          "evidence": "500mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "无线充电舱背部设置有Type-C充电接口。",
+          "evidence": "无线充电舱背部设置有Type-C充电接口。",
+          "source_layer": "technical"
+        }
+      },
+      "selling_point_tags": "防水防尘、降噪、长续航、其他",
+      "scenarios": "运动、通话、户外",
+      "positioning_summary": "SUUNTO颂拓Wing骨传导耳机\n针对于户外场景应用，做了全方位设计，通过骨传导不入耳技术，保护耳道的同时能够随时感知…"
+    },
+    {
+      "canonical_id": "unknown--swonderalpha",
+      "brand": "",
+      "model": "Swonder鲸语Alpha防水",
+      "price_cny": null,
+      "price_layer": null,
+      "main_chip": "",
+      "pmic": "",
+      "battery_ear": "2V/50mAh锂电池",
+      "battery_case": "电池",
+      "speaker": "喇叭单元",
+      "materials": "硅胶、钛合金、PC",
+      "weight_g": "43.5g",
+      "weight_case_g": "",
+      "weight_earbud_g": "",
+      "ip_rating": "",
+      "bluetooth": "5.3",
+      "bom_rows": 11,
+      "layer_badges": "technical",
+      "data_completeness": 0.67,
+      "best_report_id": "163679",
+      "has_report": true,
+      "has_video": false,
+      "cost_fields": {
+        "main_chip": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "2V/50mAh锂电池",
+          "evidence": "右侧腔体内部设置主板单元、指示灯和功能按键小板，左侧腔体内置250mAh锂电池组，以及指示灯小板和一颗驱动IC。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "电池",
+          "evidence": "丝印LTH7u的锂电池线性充电IC，用于为内置锂电池充电。",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "2V/50mAh锂电池",
+          "evidence": "右侧腔体内部设置主板单元、指示灯和功能按键小板，左侧腔体内置250mAh锂电池组，以及指示灯小板和一颗驱动IC。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "喇叭单元",
+          "evidence": "发声单元腔体外观一览，同样通过硅胶材质包裹，保障佩戴舒适性；较大的体积，则能够更好地贴合皮肤，以保障水下使用的音频效果。右耳外侧设计有浮雕品牌LOGO，同时也是多功能按键。",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "USB-A",
+          "evidence": "USB-A",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "11",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "包装盒内部物品有耳机、耳塞、充电线和产品说明书。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶、钛合金、PC",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "43.5g",
+          "evidence": "43.5g",
+          "source_layer": "technical"
+        },
+        "weight_case_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_earbud_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "骨传导耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "其他",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "5.3",
+          "evidence": "蓝牙5.3",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "5.3",
+          "evidence": "蓝牙5.3",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "SBC",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "250 mAh",
+          "evidence": "250mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "USB-A",
+          "evidence": "USB-A",
+          "source_layer": "technical"
+        }
+      },
+      "selling_point_tags": "防水防尘、其他、开放佩戴",
+      "scenarios": "运动、通话",
+      "positioning_summary": "功能配置方面，支持IP68深度防水，满足游泳、冲浪、浮潜等多种水上运动场景；搭载超大骨传导振子，搭配炬芯音响级芯片，以及…"
+    },
+    {
+      "canonical_id": "unknown--urbanfun-wave-1",
+      "brand": "",
+      "model": "Urbanfun Wave 1真无线",
+      "price_cny": null,
+      "price_layer": null,
+      "main_chip": "Injoinic英集芯IP5518",
+      "pmic": "INJOINIC英集芯 Injoinic英集芯IP5518",
+      "battery_ear": "电池",
+      "battery_case": "5V/00mAh",
+      "speaker": "",
+      "materials": "硅胶、塑料、PC",
+      "weight_g": "17g",
+      "weight_case_g": "",
+      "weight_earbud_g": "",
+      "ip_rating": "",
+      "bluetooth": "5.0",
+      "bom_rows": 14,
+      "layer_badges": "technical",
+      "data_completeness": 0.83,
+      "best_report_id": "160751",
+      "has_report": true,
+      "has_video": true,
+      "cost_fields": {
+        "main_chip": {
+          "value": "Injoinic英集芯IP5518",
+          "evidence": "Injoinic英集芯IP5518 TWS耳机充电仓管理SoC，是一款集成MCU，集成了5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "INJOINIC英集芯 Injoinic英集芯IP5518",
+          "evidence": "内置电池容量500mAh，主板上采用Type-C接口输入电源，由Injoinic英集芯IP5518 TWS耳机充电仓管理SoC负责电池的充放电管理，并集成MCU、电池电量指示等功能，单芯片为充电盒提供完整的电源解决方案。",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "电池",
+          "evidence": "包装盒背面有产品参数信息，型号：Wave 1，扬声器：骨传导扬声器，耳机充饱时间：约60分钟，充电盒充饱时间：约90分钟，耳机重量：17g ，充电盒重量：50g，防水等级：IP55，耳机电池容量：70mAH，充电盒电池容量：500mAH，麦克风灵敏度：-40dB±2dB，耳机播放时间：音乐播放时间约4小时，通话时间约3.5小时，待机时间约5天(充电盒给耳机充电大约可充3-4次)，东莞市纯音乐科技有限公司，中国制造。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "5V/00mAh",
+          "evidence": "内置电池容量500mAh，主板上采用Type-C接口输入电源，由Injoinic英集芯IP5518 TWS耳机充电仓管理SoC负责电池的充放电管理，并集成MCU、电池电量指示等功能，单芯片为充电盒提供完整的电源解决方案。",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "电池",
+          "evidence": "包装盒背面有产品参数信息，型号：Wave 1，扬声器：骨传导扬声器，耳机充饱时间：约60分钟，充电盒充饱时间：约90分钟，耳机重量：17g ，充电盒重量：50g，防水等级：IP55，耳机电池容量：70mAH，充电盒电池容量：500mAH，麦克风灵敏度：-40dB±2dB，耳机播放时间：音乐播放时间约4小时，通话时间约3.5小时，待机时间约5天(充电盒给耳机充电大约可充3-4次)，东莞市纯音乐科技有限公司，中国制造。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "USB-A to Type-C充电线。",
+          "evidence": "USB-A to Type-C充电线。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "14",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "包装盒内部物品有耳机、充电线、收纳袋和产品使用手册。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶、塑料、PC",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "17g",
+          "evidence": "17g",
+          "source_layer": "technical"
+        },
+        "weight_case_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_earbud_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "骨传导耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "其他",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "5.0",
+          "evidence": "蓝牙5.0",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "5.0",
+          "evidence": "蓝牙5.0",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "70 mAh",
+          "evidence": "70mAH",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "USB-A to Type-C充电线。",
+          "evidence": "USB-A to Type-C充电线。",
+          "source_layer": "technical"
+        }
+      },
+      "selling_point_tags": "防水防尘、其他",
+      "scenarios": "运动、通话、健身",
+      "positioning_summary": "通话麦克风拾音孔特写，内部细密防尘网防护，防止异物进入腔体。"
+    },
+    {
+      "canonical_id": "unknown--bocoicepro",
+      "brand": "",
+      "model": "bocoice蜂鸟Pro骨传导蓝牙",
+      "price_cny": null,
+      "price_layer": null,
+      "main_chip": "JL7016",
+      "pmic": "",
+      "battery_ear": "4V/50mAh锂电池",
+      "battery_case": "电池",
+      "speaker": "喇叭单元",
+      "materials": "硅胶",
+      "weight_g": "56.5g",
+      "weight_case_g": "",
+      "weight_earbud_g": "",
+      "ip_rating": "",
+      "bluetooth": "5.0",
+      "bom_rows": 11,
+      "layer_badges": "technical",
+      "data_completeness": 0.83,
+      "best_report_id": "207306",
+      "has_report": true,
+      "has_video": false,
+      "cost_fields": {
+        "main_chip": {
+          "value": "JL7016",
+          "evidence": "JL7016",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "4V/50mAh锂电池",
+          "evidence": "内置450mAh锂电池，采用LPS微源半导体LP4054充电IC负责为其充电；",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "电池",
+          "evidence": "包装盒背面介绍了产品规格和包装清单。蓝牙版本：5.0，A2DP，HFP：支持TWS立体声对箱模式；支持多音箱（CSB广播）模式，多达100台音箱同时播放；骨传导换能器功率:：4瓦（最大）；内置幻彩音乐氛围灯；播放频率范围：100Hz~18kHz；内置高灵敏度麦克风；内置聚合物锂电池：容量450mAh。",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "4V/50mAh锂电池",
+          "evidence": "内置450mAh锂电池，采用LPS微源半导体LP4054充电IC负责为其充电；",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "喇叭单元",
+          "evidence": "骨传导耳机相信大家或多或少都有所接触，通过将电信号转化为骨传导振子的机械振动，再将声音通过颅骨传至听觉神经，实现与传统空气传导不同的听音方式。骨传导音箱便是采用了类似的发声单元，在使用时搭载的骨传导振子，附着在介质平面上，通过振动接触面实现扩音效果，不同介质，还能够呈现不同的音色，因此带来了更多的可玩性。",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "音箱充电线，采用了USB-A to Type-C接口。",
+          "evidence": "音箱充电线，采用了USB-A to Type-C接口。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "11",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "包装盒内部物品有主机、纳米胶贴、挂绳、充电线、磁吸片、硅胶吸盒和说明书。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "56.5g",
+          "evidence": "56.5g",
+          "source_layer": "technical"
+        },
+        "weight_case_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_earbud_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "骨传导耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "其他",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "5.0",
+          "evidence": "蓝牙5.0",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "5.0",
+          "evidence": "蓝牙5.0",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "450 mAh",
+          "evidence": "450mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "音箱充电线，采用了USB-A to Type-C接口。",
+          "evidence": "音箱充电线，采用了USB-A to Type-C接口。",
+          "source_layer": "technical"
+        }
+      },
+      "selling_point_tags": "防水防尘、其他",
+      "scenarios": "通话",
+      "positioning_summary": "Type-C充电母座特写，设置有橡胶圈防尘防水。"
+    },
+    {
+      "canonical_id": "unknown--earsopen-fit-bt-1",
+      "brand": "",
+      "model": "earsopen逸鸥 FIT BT-1 骨传导运动",
+      "price_cny": null,
+      "price_layer": null,
+      "main_chip": "络达 AB1520",
+      "pmic": "",
+      "battery_ear": "电池",
+      "battery_case": "200 mAh",
+      "speaker": "",
+      "materials": "硅胶、PC",
+      "weight_g": "34g",
+      "weight_case_g": "",
+      "weight_earbud_g": "",
+      "ip_rating": "IPX7",
+      "bluetooth": "4.2",
+      "bom_rows": 8,
+      "layer_badges": "technical",
+      "data_completeness": 0.67,
+      "best_report_id": "40648",
+      "has_report": true,
+      "has_video": false,
+      "cost_fields": {
+        "main_chip": {
+          "value": "络达 AB1520",
+          "evidence": "络达 AB1520",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "电池",
+          "evidence": "撬开耳机两侧的盖板，可以看到左耳部分主要是电池，右耳部分是主板。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "200 mAh",
+          "evidence": "200mAh",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "电池",
+          "evidence": "撬开耳机两侧的盖板，可以看到左耳部分主要是电池，右耳部分是主板。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "充电线为USB-A to Micro USB接口。",
+          "evidence": "充电线为USB-A to Micro USB接口。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "8",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "包装盒内物品，耳机、充电线、说明书和保修卡等。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶、PC",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "IPX7",
+          "evidence": "IPX7",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "34g",
+          "evidence": "34g",
+          "source_layer": "technical"
+        },
+        "weight_case_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_earbud_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "骨传导耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "其他",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "4.2",
+          "evidence": "蓝牙4.2",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "4.2",
+          "evidence": "蓝牙4.2",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "200 mAh",
+          "evidence": "200mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "充电线为USB-A to Micro USB接口。",
+          "evidence": "充电线为USB-A to Micro USB接口。",
+          "source_layer": "technical"
+        }
+      },
+      "selling_point_tags": "长续航、其他、防水防尘",
+      "scenarios": "运动",
+      "positioning_summary": "我爱音频网总结\nearsopen逸鸥 FIT BT-1提供了骨传导耳机的另一种设计思路，外型为人体工学设计，佩戴时贴合后…"
+    },
+    {
+      "canonical_id": "unknown--earsopen-peace-tw-1",
+      "brand": "",
+      "model": "earsopen逸鸥 PEACE TW-1 真无线",
+      "price_cny": null,
+      "price_layer": null,
+      "main_chip": "络达AB1532",
+      "pmic": "",
+      "battery_ear": "电池",
+      "battery_case": "430 mAh",
+      "speaker": "喇叭单元",
+      "materials": "塑料、PC",
+      "weight_g": "10g",
+      "weight_case_g": "",
+      "weight_earbud_g": "",
+      "ip_rating": "IPX7",
+      "bluetooth": "5.0",
+      "bom_rows": 11,
+      "layer_badges": "technical",
+      "data_completeness": 0.83,
+      "best_report_id": "64234",
+      "has_report": true,
+      "has_video": false,
+      "cost_fields": {
+        "main_chip": {
+          "value": "络达AB1532",
+          "evidence": "络达AB1532",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "电池",
+          "evidence": "目前市面上主流的骨传导蓝牙耳机都采用的是挂耳式设计，因为发声方式特殊，挂耳式设计可以巧妙地将电池和主板电路各放置在耳机一侧，分担重量，同时也能保障佩戴的舒适度和声音传播的最佳效果，颈挂式骨传导蓝牙耳机同理。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "430 mAh",
+          "evidence": "430mAh",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "电池",
+          "evidence": "目前市面上主流的骨传导蓝牙耳机都采用的是挂耳式设计，因为发声方式特殊，挂耳式设计可以巧妙地将电池和主板电路各放置在耳机一侧，分担重量，同时也能保障佩戴的舒适度和声音传播的最佳效果，颈挂式骨传导蓝牙耳机同理。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "喇叭单元",
+          "evidence": "耳机内部结构展示。骨传导发声单元通过黑白色的导线和连接器与主板连接，电路板顶部白色胶水用于固定蓝牙天线。",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "充电线为USB-A to USB Type-C接口。",
+          "evidence": "充电线为USB-A to USB Type-C接口。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "11",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "包装盒内物品，耳机和充电仓、充电线、中文版的使用说明书和注意事项。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "塑料、PC",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "IPX7",
+          "evidence": "IPX7",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "10g",
+          "evidence": "10g",
+          "source_layer": "technical"
+        },
+        "weight_case_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_earbud_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "骨传导耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "其他",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "5.0",
+          "evidence": "蓝牙5.0",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "5.0",
+          "evidence": "蓝牙5.0",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "430 mAh",
+          "evidence": "430mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "充电线为USB-A to USB Type-C接口。",
+          "evidence": "充电线为USB-A to USB Type-C接口。",
+          "source_layer": "technical"
+        }
+      },
+      "selling_point_tags": "降噪、防水防尘",
+      "scenarios": "运动、游戏、通话",
+      "positioning_summary": "机身上的另一麦克风开孔，用于辅助通话降噪功能。"
+    },
+    {
+      "canonical_id": "unknown--earsopen-docodemospeaker-sp-1",
+      "brand": "",
+      "model": "earsopen逸鸥 docodemoSPEAKER SP-1骨传导蓝牙",
+      "price_cny": null,
+      "price_layer": null,
+      "main_chip": "AB1805",
+      "pmic": "",
+      "battery_ear": "电池",
+      "battery_case": "1000 mAh",
+      "speaker": "喇叭单元",
+      "materials": "硅胶、塑料、ABS",
+      "weight_g": "",
+      "weight_case_g": "",
+      "weight_earbud_g": "",
+      "ip_rating": "",
+      "bluetooth": "3.0",
+      "bom_rows": 10,
+      "layer_badges": "technical",
+      "data_completeness": 0.83,
+      "best_report_id": "86440",
+      "has_report": true,
+      "has_video": false,
+      "cost_fields": {
+        "main_chip": {
+          "value": "AB1805",
+          "evidence": "AB1805",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "电池",
+          "evidence": "包装盒标签上展示有产品的参数信息，包括型号：docodemoSPEAKER SP-1，适用机型：通用，电源：充电式锂电池，输入5V-0.5A，蓝牙：4.1，传输距离：10m，进口商：布谷鸟（上海）智能科技有限公司，制造商BOCO株式会社。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "1000 mAh",
+          "evidence": "1000mAh",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "电池",
+          "evidence": "包装盒标签上展示有产品的参数信息，包括型号：docodemoSPEAKER SP-1，适用机型：通用，电源：充电式锂电池，输入5V-0.5A，蓝牙：4.1，传输距离：10m，进口商：布谷鸟（上海）智能科技有限公司，制造商BOCO株式会社。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "喇叭单元",
+          "evidence": "消费者对于蓝牙音箱的传统印象多为通过蓝牙的方式传输音频，再通过喇叭单元输出。而今天将要拆解的这个蓝牙音箱earsopen逸鸥 docodemoSPEAKER SP-1却非常的与众不同，其内部并未搭载具体的发声单元，而是通过直接振动传导介质发声。",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "打开防尘塞、内部是Micro-USB充电接口，3.5mm音频接口用于有线的方式输入音频。",
+          "evidence": "打开防尘塞、内部是Micro-USB充电接口，3.5mm音频接口用于有线的方式输入音频。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "10",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "包装盒内配件有充电线、操控指南、产品说明书和使用注意事项说明。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶、塑料、ABS",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_case_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_earbud_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "骨传导耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "其他",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "3.0",
+          "evidence": "蓝牙3.0",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "3.0",
+          "evidence": "蓝牙3.0",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "1000 mAh",
+          "evidence": "1000mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "打开防尘塞、内部是Micro-USB充电接口，3.5mm音频接口用于有线的方式输入音频。",
+          "evidence": "打开防尘塞、内部是Micro-USB充电接口，3.5mm音频接口用于有线的方式输入音频。",
+          "source_layer": "technical"
+        }
+      },
+      "selling_point_tags": "防水防尘",
+      "scenarios": "运动",
+      "positioning_summary": "振子和外壳通过弹片连接，螺丝固定，\n黑色防尘网防止异物进入单元腔体。"
+    },
+    {
+      "canonical_id": "unknown--earsopenss900",
+      "brand": "",
+      "model": "earsopen骨聆SS900真无线",
+      "price_cny": null,
+      "price_layer": null,
+      "main_chip": "高通QCC3040",
+      "pmic": "",
+      "battery_ear": "450 mAh",
+      "battery_case": "电池",
+      "speaker": "喇叭单元",
+      "materials": "PC",
+      "weight_g": "",
+      "weight_case_g": "",
+      "weight_earbud_g": "",
+      "ip_rating": "IPX7",
+      "bluetooth": "5.2",
+      "bom_rows": 11,
+      "layer_badges": "technical",
+      "data_completeness": 0.83,
+      "best_report_id": "128362",
+      "has_report": true,
+      "has_video": true,
+      "cost_fields": {
+        "main_chip": {
+          "value": "高通QCC3040",
+          "evidence": "高通QCC3040",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "450 mAh",
+          "evidence": "450mAh",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "电池",
+          "evidence": "充电盒内主板通过螺丝固定，主板下方设置电池单元。",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "450 mAh",
+          "evidence": "450mAh",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "喇叭单元",
+          "evidence": "内侧腔体是骨传导振子发声单元，雕刻有“EO”品牌LOGO。",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "充电接口：充电线采用了USB-A to Type-C接口。",
+          "evidence": "充电接口：充电线采用了USB-A to Type-C接口。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "11",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "包装盒内部物品有耳机、充电线、操控指南、产品说明书和保修卡。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "PC",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "IPX7",
+          "evidence": "IPX7",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_case_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_earbud_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "骨传导耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "其他",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "5.2",
+          "evidence": "蓝牙5.2",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "5.2",
+          "evidence": "蓝牙5.2",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "aptX",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "450 mAh",
+          "evidence": "450mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "充电接口：充电线采用了USB-A to Type-C接口。",
+          "evidence": "充电接口：充电线采用了USB-A to Type-C接口。",
+          "source_layer": "technical"
+        }
+      },
+      "selling_point_tags": "降噪、其他、开放佩戴",
+      "scenarios": "通话",
+      "positioning_summary": "下面就来看看这款产品的详细拆解报告吧~\n外侧腔体体积相对更大，背部设计有earsopen品牌LOGO，以及通话降噪麦克风…"
+    },
     {
       "canonical_id": "unknown--me-300s",
       "brand": "",
@@ -32,6 +1508,8 @@
       "speaker": "",
       "materials": "硅胶、钛合金、液态硅胶",
       "weight_g": "22.3g",
+      "weight_case_g": "",
+      "weight_earbud_g": "22.3g",
       "ip_rating": "",
       "bluetooth": "5.3",
       "bom_rows": 10,
@@ -101,6 +1579,16 @@
           "evidence": "22.3g",
           "source_layer": "technical"
         },
+        "weight_case_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_earbud_g": {
+          "value": "22.3g",
+          "evidence": "频网实测，优乐生活Me-300S+骨传导耳机重量约为22.3g。\n我爱音",
+          "source_layer": "technical"
+        },
         "form_factor": {
           "value": "骨传导耳机",
           "evidence": "",
@@ -142,28 +1630,1208 @@
       "positioning_summary": "可折叠易收纳、舒适佩戴、IP66级防尘防水、长续航、12个月质保；产品型号：Me-300S，电源输入：DC 5V-500…"
     },
     {
+      "canonical_id": "unknown--haylou-purfree",
+      "brand": "",
+      "model": "嘿喽Haylou PurFree",
+      "price_cny": null,
+      "price_layer": null,
+      "main_chip": "Qualcomm aptX",
+      "pmic": "",
+      "battery_ear": "电池",
+      "battery_case": "165 mAh",
+      "speaker": "喇叭单元",
+      "materials": "硅胶、钛合金",
+      "weight_g": "",
+      "weight_case_g": "",
+      "weight_earbud_g": "",
+      "ip_rating": "",
+      "bluetooth": "",
+      "bom_rows": 9,
+      "layer_badges": "technical",
+      "data_completeness": 0.83,
+      "best_report_id": "127670",
+      "has_report": true,
+      "has_video": false,
+      "cost_fields": {
+        "main_chip": {
+          "value": "Qualcomm aptX",
+          "evidence": "Qualcomm aptX",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "电池",
+          "evidence": "撬开盖板，腔体内部设置电池单元。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "165 mAh",
+          "evidence": "165mAh",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "电池",
+          "evidence": "撬开盖板，腔体内部设置电池单元。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "喇叭单元",
+          "evidence": "主板内侧同样通过插座连接发声单元和左侧组件，侧边腔体壁上电源输出小板通过导线焊接连接主板。",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "充电方式：磁吸充电接口特写。",
+          "evidence": "充电方式：磁吸充电接口特写。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "9",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶、钛合金",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_case_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_earbud_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "骨传导耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "其他",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "aptX",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "165 mAh",
+          "evidence": "165mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "充电方式：磁吸充电接口特写。",
+          "evidence": "充电方式：磁吸充电接口特写。",
+          "source_layer": "technical"
+        }
+      },
+      "selling_point_tags": "降噪、开放佩戴",
+      "scenarios": "通话",
+      "positioning_summary": "功能配置上，采用高质量密闭振子，360°封闭式音腔，避免漏音；通过Directional audio定向技术，保证声音集…"
+    },
+    {
+      "canonical_id": "shokz--as600",
+      "brand": "SHOKZ韶音",
+      "model": "AS600骨传导运动",
+      "price_cny": null,
+      "price_layer": null,
+      "main_chip": "高通CSR8640",
+      "pmic": "",
+      "battery_ear": "2V/00mAh",
+      "battery_case": "电池",
+      "speaker": "喇叭单元",
+      "materials": "硅胶、PC",
+      "weight_g": "36.9g",
+      "weight_case_g": "",
+      "weight_earbud_g": "36.9g",
+      "ip_rating": "",
+      "bluetooth": "4.0",
+      "bom_rows": 11,
+      "layer_badges": "technical",
+      "data_completeness": 0.83,
+      "best_report_id": "177859",
+      "has_report": true,
+      "has_video": false,
+      "cost_fields": {
+        "main_chip": {
+          "value": "高通CSR8640",
+          "evidence": "主控芯片为Qualcomm高通CSR8640双模ROM音频SoC，支持蓝牙4.0 ，支持第6代双麦CVC降噪技术；",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "2V/00mAh",
+          "evidence": "内置电池容量200mAh，来自VDL紫建电子；",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "电池",
+          "evidence": "CSR8640是CSR86xx产品组合的一部分，CSR86xx产品组合适用于无线音频应用程序的一系列硅平台，该平台将双模蓝牙无线电，低功耗DSP，应用处理器，电池充电器，存储器以及各种音频和硬件接口集成到单个中芯片解决方案。",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "2V/00mAh",
+          "evidence": "内置电池容量200mAh，来自VDL紫建电子；",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "喇叭单元",
+          "evidence": "发声单元外观一览，右侧设计有韶音品牌LOGO，左侧设置有一颗多功能按键；内侧骨传导振子同样通过硅胶材质包裹，保障佩戴舒适性。",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "耳机充电线，采用了USB-A to Micro USB接口。",
+          "evidence": "耳机充电线，采用了USB-A to Micro USB接口。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "11",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "包装盒内部物品有骨传导耳机、充电线、耳塞、收纳袋、产品说明书和保修卡。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶、PC",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "36.9g",
+          "evidence": "36.9g",
+          "source_layer": "technical"
+        },
+        "weight_case_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_earbud_g": {
+          "value": "36.9g",
+          "evidence": "实测，SHOKZ韶音AS600骨传导运动耳机重量约为36.9g。\n我爱音",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "骨传导耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "其他",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "4.0",
+          "evidence": "蓝牙4.0",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "4.0",
+          "evidence": "蓝牙4.0",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "200 mAh",
+          "evidence": "200mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "耳机充电线，采用了USB-A to Micro USB接口。",
+          "evidence": "耳机充电线，采用了USB-A to Micro USB接口。",
+          "source_layer": "technical"
+        }
+      },
+      "selling_point_tags": "长续航、防水防尘、其他、降噪",
+      "scenarios": "运动、通话",
+      "positioning_summary": "在功能配置上，韶音AS600骨传导运动耳机搭载PremiumPitch双悬挂传振系统及悬浮减震专利技术，带来高品质的立体…"
+    },
+    {
+      "canonical_id": "shokz--trekz-air-as650",
+      "brand": "SHOKZ韶音",
+      "model": "TREKZ AIR AS650 骨传导蓝牙",
+      "price_cny": null,
+      "price_layer": null,
+      "main_chip": "",
+      "pmic": "",
+      "battery_ear": "电池",
+      "battery_case": "183 mAh",
+      "speaker": "喇叭单元",
+      "materials": "钛合金、PC",
+      "weight_g": "30克",
+      "weight_case_g": "",
+      "weight_earbud_g": "",
+      "ip_rating": "",
+      "bluetooth": "",
+      "bom_rows": 8,
+      "layer_badges": "technical",
+      "data_completeness": 0.67,
+      "best_report_id": "61069",
+      "has_report": true,
+      "has_video": false,
+      "cost_fields": {
+        "main_chip": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "电池",
+          "evidence": "电池一侧的产品信息：型号AS650，输入5.0V⎓150mA，中国制造。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "183 mAh",
+          "evidence": "183mAh",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "电池",
+          "evidence": "电池一侧的产品信息：型号AS650，输入5.0V⎓150mA，中国制造。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "喇叭单元",
+          "evidence": "骨传导发声单元壳体上的通话麦克风开孔。",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "音量+/-按键特写，音量+键同时也是电源键；充电接口处有保护盖，减少进水几率。",
+          "evidence": "音量+/-按键特写，音量+键同时也是电源键；充电接口处有保护盖，减少进水几率。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "8",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "钛合金、PC",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "30克",
+          "evidence": "30克",
+          "source_layer": "technical"
+        },
+        "weight_case_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_earbud_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "骨传导耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "其他",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "AAC、SBC",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "183 mAh",
+          "evidence": "183mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "音量+/-按键特写，音量+键同时也是电源键；充电接口处有保护盖，减少进水几率。",
+          "evidence": "音量+/-按键特写，音量+键同时也是电源键；充电接口处有保护盖，减少进水几率。",
+          "source_layer": "technical"
+        }
+      },
+      "selling_point_tags": "开放佩戴、其他、旗舰定位",
+      "scenarios": "运动、通话",
+      "positioning_summary": "我爱音频网总结\n韶音TREKZ AIR AS650采用经典的挂耳式设计，机身为轻量化的一体式钛合金骨架，整机只有30克重…"
+    },
+    {
+      "canonical_id": "shokz--trekz-titanium",
+      "brand": "SHOKZ韶音",
+      "model": "TREKZ TITANIUM骨传导运动",
+      "price_cny": null,
+      "price_layer": null,
+      "main_chip": "高通 CSR8640",
+      "pmic": "",
+      "battery_ear": "电池",
+      "battery_case": "200 mAh",
+      "speaker": "喇叭单元",
+      "materials": "硅胶、钛合金、塑料",
+      "weight_g": "",
+      "weight_case_g": "",
+      "weight_earbud_g": "",
+      "ip_rating": "",
+      "bluetooth": "4.0",
+      "bom_rows": 12,
+      "layer_badges": "technical",
+      "data_completeness": 0.83,
+      "best_report_id": "40477",
+      "has_report": true,
+      "has_video": false,
+      "cost_fields": {
+        "main_chip": {
+          "value": "高通 CSR8640",
+          "evidence": "高通 CSR8640",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "电池",
+          "evidence": "拆解一侧的耳机，骨传导扬声器、电池通过导线相连。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "200 mAh",
+          "evidence": "200mAh",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "电池",
+          "evidence": "拆解一侧的耳机，骨传导扬声器、电池通过导线相连。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "喇叭单元",
+          "evidence": "韶音TREKZ TITANIUM骨传导运动耳机 拆解全家福。我爱音频网总结韶音的骨传导耳机外型设计非常经典，挂耳式设计，后挂为高强度钛合金，重量轻且不怕弯折；耳机支持IP55级防水防汗，对于爱运动的人来说是一种不错的选择。开放式的佩戴方式使得户外运动时能够听清环境音，开放耳道也有利于卫生健康。韶音TREKZ TITANIUM骨传导运动耳机内部采用高通CSR8640蓝牙方案，配合TI德州仪器TPA2012D2驱动骨传导传感器。 骨传导耳机喇叭单元采用韶音Premium Pitch+专利技术，可以给用户带去高品质的立体声。",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "Micro-USB充电接口有保护盖，右侧是指示灯。",
+          "evidence": "Micro-USB充电接口有保护盖，右侧是指示灯。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "12",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "包装内物品，耳机、配件袋、产品保修卡、快速上手指南、产品说明书。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶、钛合金、塑料",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_case_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_earbud_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "骨传导耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "其他",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "4.0",
+          "evidence": "蓝牙4.0",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "4.0",
+          "evidence": "蓝牙4.0",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "200 mAh",
+          "evidence": "200mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "Micro-USB充电接口有保护盖，右侧是指示灯。",
+          "evidence": "Micro-USB充电接口有保护盖，右侧是指示灯。",
+          "source_layer": "technical"
+        }
+      },
+      "selling_point_tags": "开放佩戴、其他、防水防尘",
+      "scenarios": "运动、跑步、户外",
+      "positioning_summary": "我爱音频网总结\n韶音的骨传导耳机外型设计非常经典，挂耳式设计，后挂为高强度钛合金，重量轻且不怕弯折；耳机支持IP55级防…"
+    },
+    {
+      "canonical_id": "shokz--unknown",
+      "brand": "SHOKZ韶音",
+      "model": "骨传导运动太阳",
+      "price_cny": null,
+      "price_layer": null,
+      "main_chip": "高通QCC3024",
+      "pmic": "",
+      "battery_ear": "电池",
+      "battery_case": "180 mAh",
+      "speaker": "",
+      "materials": "塑料、PC",
+      "weight_g": "",
+      "weight_case_g": "",
+      "weight_earbud_g": "",
+      "ip_rating": "",
+      "bluetooth": "",
+      "bom_rows": 9,
+      "layer_badges": "technical",
+      "data_completeness": 0.67,
+      "best_report_id": "31008",
+      "has_report": true,
+      "has_video": false,
+      "cost_fields": {
+        "main_chip": {
+          "value": "高通QCC3024",
+          "evidence": "高通QCC3024",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "电池",
+          "evidence": "左侧镜架内部有一块锂聚合物电池。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "180 mAh",
+          "evidence": "180mAh",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "电池",
+          "evidence": "左侧镜架内部有一块锂聚合物电池。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "镜架内侧Micro-USB充电接口特写，接口有橡胶盖密封。",
+          "evidence": "镜架内侧Micro-USB充电接口特写，接口有橡胶盖密封。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "9",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "塑料、PC",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_case_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_earbud_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "骨传导耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "其他",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "180 mAh",
+          "evidence": "180mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "镜架内侧Micro-USB充电接口特写，接口有橡胶盖密封。",
+          "evidence": "镜架内侧Micro-USB充电接口特写，接口有橡胶盖密封。",
+          "source_layer": "technical"
+        }
+      },
+      "selling_point_tags": "其他、防水防尘",
+      "scenarios": "运动",
+      "positioning_summary": "这款极具创新性的可穿戴设备，收获了众多海外用户的疯狂追捧，最终，超过5500名全球用户参与了Revvez太阳眼镜的海外众…"
+    },
+    {
+      "canonical_id": "xiaomi--gcdejo1ls",
+      "brand": "Xiaomi小米",
+      "model": "GCDEJO1LS",
+      "price_cny": null,
+      "price_layer": null,
+      "main_chip": "高通QCC3044",
+      "pmic": "",
+      "battery_ear": "1V/65mAh",
+      "battery_case": "电池",
+      "speaker": "喇叭单元",
+      "materials": "硅胶、PC、液态硅胶",
+      "weight_g": "28g",
+      "weight_case_g": "",
+      "weight_earbud_g": "",
+      "ip_rating": "",
+      "bluetooth": "5.2",
+      "bom_rows": 14,
+      "layer_badges": "technical",
+      "data_completeness": 0.83,
+      "best_report_id": "144459",
+      "has_report": true,
+      "has_video": true,
+      "cost_fields": {
+        "main_chip": {
+          "value": "Qualcomm aptX",
+          "evidence": "Qualcomm aptX",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "电池",
+          "evidence": "LPS微源半导体LP5305过压过流保护IC，用于保护低压系统免受异常高输入电压的影响。在工作时，IC持续检查输入电压、输入电流和电池电压。当保护状态发生时，电源MOS将同时关闭。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "165 mAh",
+          "evidence": "165mAh",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "电池",
+          "evidence": "LPS微源半导体LP5305过压过流保护IC，用于保护低压系统免受异常高输入电压的影响。在工作时，IC持续检查输入电压、输入电流和电池电压。当保护状态发生时，电源MOS将同时关闭。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "喇叭单元",
+          "evidence": "骨传导发声单元腔体外观一览，与耳挂采用了穿插式结构设计，左耳上设置有一颗多功能按键，右耳上设置麦克风开孔。",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "Type-C充电接口特写，设置有橡胶塞防尘防水。",
+          "evidence": "Type-C充电接口特写，设置有橡胶塞防尘防水。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "10",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "包装盒内部物品有小米骨传导耳机、耳塞、Type-C充电线和产品说明书。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶、液态硅胶",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_case_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_earbud_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "骨传导耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "其他",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "5.2",
+          "evidence": "蓝牙5.2",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "5.2",
+          "evidence": "蓝牙5.2",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "aptX",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "165 mAh",
+          "evidence": "165mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "Type-C充电接口特写，设置有橡胶塞防尘防水。",
+          "evidence": "Type-C充电接口特写，设置有橡胶塞防尘防水。",
+          "source_layer": "technical"
+        }
+      },
+      "selling_point_tags": "降噪、防水防尘",
+      "scenarios": "通话",
+      "positioning_summary": "镭雕iA066 2224的硅麦克风来自意芯微电子， IM2819B381-N22系列型号下进声模拟输出硅麦克风是一款特别…"
+    },
+    {
+      "canonical_id": "xiaomi--2",
+      "brand": "Xiaomi小米",
+      "model": "骨传导耳机2",
+      "price_cny": null,
+      "price_layer": null,
+      "main_chip": "恒玄BES2700YH",
+      "pmic": "",
+      "battery_ear": "1V/40mAh锂电池",
+      "battery_case": "140 mAh",
+      "speaker": "",
+      "materials": "硅胶、钛合金",
+      "weight_g": "33.6g",
+      "weight_case_g": "",
+      "weight_earbud_g": "33.6g",
+      "ip_rating": "",
+      "bluetooth": "5.3",
+      "bom_rows": 15,
+      "layer_badges": "technical",
+      "data_completeness": 0.67,
+      "best_report_id": "251940",
+      "has_report": true,
+      "has_video": true,
+      "cost_fields": {
+        "main_chip": {
+          "value": "恒玄BES2700YH",
+          "evidence": "主板上，搭载了BES恒玄BES2700YH蓝牙音频SoC，BIWIN佰维BWCTA3B11G32G存储器，ST意法半导体LSM6DSOWTR 6轴传感器，思远半导体SY5112降压转换器和思远半导体SY6103线性充电管理芯片等。",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "1V/40mAh锂电池",
+          "evidence": "内部主要配置方面，搭载140mAh/3.8V锂电池，24.4x14.45mm大尺寸跑道型振子和两颗瑞勤电子的MEMS麦克风。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "140 mAh",
+          "evidence": "140mAh",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "1V/40mAh锂电池",
+          "evidence": "内部主要配置方面，搭载140mAh/3.8V锂电池，24.4x14.45mm大尺寸跑道型振子和两颗瑞勤电子的MEMS麦克风。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "产品型号：M2447E1，产品名称：骨传导耳机，充电接口：磁吸充电，输入参数：5V-400mA，电池容量：140mAh，无线连接：蓝牙5.3，通讯距离：10米（无障碍空旷环境），制造商：小米通讯技术有限公司。",
+          "evidence": "产品型号：M2447E1，产品名称：骨传导耳机，充电接口：磁吸充电，输入参数：5V-400mA，电池容量：140mAh，无线连接：蓝牙5.3，通讯距离：10米（无障碍空旷环境），制造商：小米通讯技术有限公司。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "15",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "包括耳机、耳塞、充电线和使用说明书，此款为黑色配色。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶、钛合金",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "33.6g",
+          "evidence": "33.6g",
+          "source_layer": "technical"
+        },
+        "weight_case_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_earbud_g": {
+          "value": "33.6g",
+          "evidence": "，通过硅胶材质包裹，佩戴舒适亲肤。同时，耳机重量控制在了33.6g，佩戴较为",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "骨传导耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "其他",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "5.3",
+          "evidence": "蓝牙5.3",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "5.3",
+          "evidence": "蓝牙5.3",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "140 mAh",
+          "evidence": "140mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "产品型号：M2447E1，产品名称：骨传导耳机，充电接口：磁吸充电，输入参数：5V-400mA，电池容量：140mAh，无线连接：蓝牙5.3，通讯距离：10米（无障碍空旷环境），制造商：小米通讯技术有限公司。",
+          "evidence": "产品型号：M2447E1，产品名称：骨传导耳机，充电接口：磁吸充电，输入参数：5V-400mA，电池容量：140mAh，无线连接：蓝牙5.3，通讯距离：10米（无障碍空旷环境），制造商：小米通讯技术有限公司。",
+          "source_layer": "technical"
+        }
+      },
+      "selling_point_tags": "降噪、防水防尘、开放佩戴、其他",
+      "scenarios": "运动、通话、户外",
+      "positioning_summary": "详细功能配置方面，Xiaomi小米骨传导耳机2搭载24.4x14.45mm大尺寸跑道型振子，支持日常（均衡听感）、户外（…"
+    },
+    {
+      "canonical_id": "kaiboaudio--flex",
+      "brand": "kaiboaudio凯博",
+      "model": "FLEX",
+      "price_cny": null,
+      "price_layer": null,
+      "main_chip": "Injoinic英集芯IP5518",
+      "pmic": "INJOINIC英集芯 Injoinic英集芯IP5518",
+      "battery_ear": "电池",
+      "battery_case": "5V/00mAh锂电池",
+      "speaker": "",
+      "materials": "塑料、PC",
+      "weight_g": "",
+      "weight_case_g": "",
+      "weight_earbud_g": "",
+      "ip_rating": "",
+      "bluetooth": "5.2",
+      "bom_rows": 15,
+      "layer_badges": "technical",
+      "data_completeness": 0.83,
+      "best_report_id": "160834",
+      "has_report": true,
+      "has_video": true,
+      "cost_fields": {
+        "main_chip": {
+          "value": "Injoinic英集芯IP5518",
+          "evidence": "Injoinic英集芯IP5518 TWS耳机充电仓管理SoC，是一款集成MCU，集成了5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "INJOINIC英集芯 Injoinic英集芯IP5518",
+          "evidence": "内部配置方面，无线充电座内置500mAh锂电池，支持有线和无线两种方式输入电源，有线采用了Type-C接口，配备Injoinic英集芯IP5518 TWS耳机充电仓管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等功能，支持最大500mA充电电流和300mA输出电流；",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "电池",
+          "evidence": "耳机内侧外观一览，颈带上设置电池单元腔体。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "5V/00mAh锂电池",
+          "evidence": "内部配置方面，无线充电座内置500mAh锂电池，支持有线和无线两种方式输入电源，有线采用了Type-C接口，配备Injoinic英集芯IP5518 TWS耳机充电仓管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等功能，支持最大500mA充电电流和300mA输出电流；",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "电池",
+          "evidence": "耳机内侧外观一览，颈带上设置电池单元腔体。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "充电线采用了USB-A to Type-C接口。",
+          "evidence": "充电线采用了USB-A to Type-C接口。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "15",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "包装盒内部物品有耳机、无线充电座、充电线、收纳袋和产品使用说明书。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "塑料、PC",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_case_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_earbud_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "骨传导耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "其他",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "5.2",
+          "evidence": "蓝牙5.2",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "5.2",
+          "evidence": "蓝牙5.2",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "500 mAh",
+          "evidence": "500mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "充电线采用了USB-A to Type-C接口。",
+          "evidence": "充电线采用了USB-A to Type-C接口。",
+          "source_layer": "technical"
+        }
+      },
+      "selling_point_tags": "降噪、其他、防水防尘",
+      "scenarios": "通话",
+      "positioning_summary": "镭雕2126 FX17的MEMS麦克风特写，用于通话降噪功能拾取环境噪音。"
+    },
+    {
       "canonical_id": "kaiboaudio--verse-plus",
       "brand": "kaiboaudio凯博",
       "model": "VERSE Plus",
       "price_cny": null,
       "price_layer": null,
-      "main_chip": null,
-      "pmic": null,
-      "battery_ear": null,
-      "battery_case": null,
-      "speaker": null,
-      "materials": null,
-      "weight_g": null,
-      "ip_rating": null,
-      "bluetooth": null,
-      "bom_rows": 6,
+      "main_chip": "",
+      "pmic": "",
+      "battery_ear": "电池",
+      "battery_case": "150 mAh",
+      "speaker": "喇叭单元",
+      "materials": "硅胶、钛合金、皮革",
+      "weight_g": "27.1g",
+      "weight_case_g": "",
+      "weight_earbud_g": "",
+      "ip_rating": "",
+      "bluetooth": "5.0",
+      "bom_rows": 10,
       "layer_badges": "technical、channel、official",
-      "data_completeness": 0.0,
-      "best_report_id": null,
-      "has_report": false,
+      "data_completeness": 0.67,
+      "best_report_id": "160921",
+      "has_report": true,
       "has_video": true,
-      "cost_fields": {},
-      "selling_point_tags": "防水防尘",
+      "cost_fields": {
+        "main_chip": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "电池",
+          "evidence": "包装盒背面展示有产品的整体外观，介绍有产品功能特点和技术规范。频响范围：100Hz~20KHz，麦克风：ENC麦克风，麦克风灵敏度：40dB±2dB，电池容量：150mAh，电池类型：2C快速充电锂电池，无线范围：10m/33英尺，充电时间：1小时，待机时间：10天，蓝牙版本：5.0，防水等级：IP55等。",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "150 mAh",
+          "evidence": "150mAh",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "电池",
+          "evidence": "包装盒背面展示有产品的整体外观，介绍有产品功能特点和技术规范。频响范围：100Hz~20KHz，麦克风：ENC麦克风，麦克风灵敏度：40dB±2dB，电池容量：150mAh，电池类型：2C快速充电锂电池，无线范围：10m/33英尺，充电时间：1小时，待机时间：10天，蓝牙版本：5.0，防水等级：IP55等。",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "喇叭单元",
+          "evidence": "电池单元结构一览，电路板与连接主板和左耳发声单元的导线焊接。",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "充电线采用了USB-A to Type-C接口，拥有更广泛的兼容性。",
+          "evidence": "充电线采用了USB-A to Type-C接口，拥有更广泛的兼容性。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "10",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "包装盒内部物品有耳机、充电线、产品使用说明书和收纳袋。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "硅胶、钛合金、皮革",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "27.1g",
+          "evidence": "27.1g",
+          "source_layer": "technical"
+        },
+        "weight_case_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_earbud_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "骨传导耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "其他",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "5.0",
+          "evidence": "蓝牙5.0",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "5.0",
+          "evidence": "蓝牙5.0",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "150 mAh",
+          "evidence": "150mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "充电线采用了USB-A to Type-C接口，拥有更广泛的兼容性。",
+          "evidence": "充电线采用了USB-A to Type-C接口，拥有更广泛的兼容性。",
+          "source_layer": "technical"
+        }
+      },
+      "selling_point_tags": "防水防尘、降噪、开放佩戴",
       "scenarios": "运动、通话、健身",
       "positioning_summary": "kaiboaudio KAIBO VERSE Plus骨传导耳机是其新一代产品，在音质、续航、防水等方面进行了升级，带来…"
     }

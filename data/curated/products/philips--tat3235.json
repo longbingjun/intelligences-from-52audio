@@ -1,0 +1,318 @@
+{
+  "canonical_id": "philips--tat3235",
+  "brand": "PHILIPS飞利浦",
+  "model": "TAT3235",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "76289"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "76289"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2021-03-26",
+  "latest_published": "2021-03-26",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "高通QCC3046",
+    "pmic_case": "",
+    "battery_ear": "460 mAh",
+    "battery_case": "电池",
+    "speaker": "喇叭单元",
+    "materials": "PC",
+    "weight_g": "4.3克",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "IPX4",
+    "bluetooth": "5.2",
+    "bom_row_count": 16,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "76289",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒是飞利浦品牌既有的淡雅风格，从色彩搭配到排版都比较有特色。左上角有一个产品标签：PHILIPS耳机，3000系列，13mm扬声器、双麦克风通话降噪、24小时播放时间。耳机和充电盒的渲染图在靠下位置，图片颜色即里面产品的颜色。顶部是产品类别“真无线耳机”，左下角是蓝牙认证标识。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "今天我爱音频网要拆解的是Philips TAT3235 真无线蓝牙耳机，耳机采用柄式半入耳设计，出音嘴处贴合耳廓，提高佩戴的稳定性；耳机采用蓝牙5.2主控芯片，双麦克风拾音用于实现通话降噪功能，耳机还搭载了13mm驱动单元，支持IPX4级防水，是一款小巧时尚的产品。下面一起来看我爱音频网的详细拆解。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒内部结构背面展示，电池与壳体之间有一块缓震泡棉。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "今天我爱音频网要拆解的是Philips TAT3235 真无线蓝牙耳机，耳机采用柄式半入耳设计，出音嘴处贴合耳廓，提高佩戴的稳定性；耳机采用蓝牙5.2主控芯片，双麦克风拾音用于实现通话降噪功能，耳机还搭载了13mm驱动单元，支持IPX4级防水，是一款小巧时尚的产品。下面一起来看我爱音频网的详细拆解。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄盖板内侧特写，有触摸触点和蓝牙天线。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机内部主电路展示，扬声器单元和电池通过导线连接主板，入耳检测FPC焊接至主板。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "右耳",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "高通QCC304x系列蓝牙音频SoC集稳定性、好音质、可扩展性、低时延和低比特率音频传输等增强特性于一身；该系列芯片还支持全新的高通TrueWirelessMirroring技术，左右耳塞可以在多个使用场景下快速切换。此外，高通QCC304x系列蓝牙音频SoC还集成了混合主动降噪技术，支持cVc通话降噪技术，能够通过触控或按键唤醒手机的语音助手。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒机身为亮面设计，比较光滑。盒盖开启处有一道凹槽便于开启，下面的指示灯可以显示充电盒的充电状态。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "给耳机充电的Pogo Pin在耳机柄底部位置。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "右耳",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "高通QCC304x系列蓝牙音频SoC集稳定性、好音质、可扩展性、低时延和低比特率音频传输等增强特性于一身；该系列芯片还支持全新的高通TrueWirelessMirroring技术，左右耳塞可以在多个使用场景下快速切换。此外，高通QCC304x系列蓝牙音频SoC还集成了混合主动降噪技术，支持cVc通话降噪技术，能够通过触控或按键唤醒手机的语音助手。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机后腔壳体上的泄压孔，内侧有防尘网。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC3046",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC3046",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Philips TAT3235 真无线蓝牙耳机的主控芯片是高通QCC3046，采用WLCSP封装，支持蓝牙5.2，支持高通aptX\nAdaptive编解码器。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC304x",
+      "qty_hint": "1",
+      "side": "右耳",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC304x",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "高通QCC304x系列蓝牙音频SoC集稳定性、好音质、可扩展性、低时延和低比特率音频传输等增强特性于一身；该系列芯片还支持全新的高通TrueWireless\nMirroring技术，左右耳塞可以在多个使用场景下快速切换。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "QCC304",
+      "qty_hint": "1",
+      "side": "右耳",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "QCC304",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "高通QCC304x系列蓝牙音频SoC集稳定性、好音质、可扩展性、低时延和低比特率音频传输等增强特性于一身；该系列芯片还支持全新的高通TrueWireless\nMirroring技术，左右耳塞可以在多个使用场景下快速切换。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC304x",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC304x",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "此外，高通QCC304x系列蓝牙音频SoC还集成了混合主动降噪技术，支持cVc通话降噪技术，能够通过触控或按键唤醒手机的语音助手。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "QCC304",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "QCC304",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "此外，高通QCC304x系列蓝牙音频SoC还集成了混合主动降噪技术，支持cVc通话降噪技术，能够通过触控或按键唤醒手机的语音助手。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:76289"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "镭雕MC40 DLL3的MEMS硅麦，用于拾取环境音辅助通话降噪。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "镭雕MC40 DLL3的MEMS硅麦，用于拾取环境音辅助通话降噪。",
+          "confidence": 0.66,
+          "source_type": "text",
+          "source_text": "镭雕MC40 DLL3的MEMS硅麦，用于拾取环境音辅助通话降噪。"
+        }
+      },
+      {
+        "text": "左上角有一个产品标签：PHILIPS耳机，3000系列，13mm扬声器、双麦克风通话降噪、24小时播放时间。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "左上角有一个产品标签：PHILIPS耳机，3000系列，13mm扬声器、双麦克风通话降噪、24小时播放时间。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "左上角有一个产品标签：PHILIPS耳机，3000系列，13mm扬声器、双麦克风通话降噪、24小时播放时间。"
+        }
+      },
+      {
+        "text": "耳机采用柄式半入耳设计，双麦通话降噪方案，支持触摸控制。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "耳机采用柄式半入耳设计，双麦通话降噪方案，支持触摸控制。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "耳机采用柄式半入耳设计，双麦通话降噪方案，支持触摸控制。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "通话"
+    ],
+    "positioning_summary": "镭雕MC40 DLL3的MEMS硅麦，用于拾取环境音辅助通话降噪。",
+    "launch_date": null,
+    "best_report_id": "76289",
+    "best_video_id": null
+  }
+}

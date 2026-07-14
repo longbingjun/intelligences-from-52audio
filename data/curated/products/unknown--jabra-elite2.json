@@ -1,0 +1,277 @@
+{
+  "canonical_id": "unknown--jabra-elite2",
+  "brand": "",
+  "model": "Jabra Elite2",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "111935"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "111935"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2022-03-23",
+  "latest_published": "2022-03-23",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "高通 TrueWireless",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "360 mAh",
+    "speaker": "喇叭单元",
+    "materials": "PC",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "IPX5",
+    "bluetooth": "",
+    "bom_row_count": 11,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "111935",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "续航方面，耳机单次续航可达7小时，充电盒能够为耳机提供额外21小时的续航时长以及“充电10分钟听歌1小时”的快充。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机主板背面电路一览，耳机主板背面固定耳机电池，电池上设有定制支架固定FPC排线。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机主板背面电路一览，耳机主板背面固定耳机电池，电池上设有定制支架固定FPC排线。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "设计方面，耳机扫描了全球62000个人耳模型进行耳机的人体工程学设计，更加贴合人耳。耳机内置2颗MEMS麦克风，采用双波束成形技术从而达到“精准拾音，高清通话”的目的。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "据我爱音频网拆解了解到，目前已有OnePlus Buds Pro、OnePlus Buds Z、OnePlus Buds、OPPO Enco W31、小度主动降噪智能耳机Pro、Soundcore声阔R100、Skullcandy Sesh小魔豆等真无线耳机产品采用了创芯微的锂电保护IC。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "扬声器正面特写，设有保护罩，保护振膜。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通 TrueWireless",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通 TrueWireless",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "QCC3040 针对耳塞和耳戴式设备进行了优化，QCC3040 是一款单芯片解决方案，旨在提升真正的无线消费者体验，并实现强大的连接性、全天佩戴和舒适性、集成主动降噪 （ANC）、语音助手支持和高通 TrueWireless镜像技术。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "QCC3040",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "QCC3040",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "QCC3040 针对耳塞和耳戴式设备进行了优化，QCC3040 是一款单芯片解决方案，旨在提升真正的无线消费者体验，并实现强大的连接性、全天佩戴和舒适性、集成主动降噪 （ANC）、语音助手支持和高通 TrueWireless镜像技术。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通aptX",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通aptX",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：360\n芯片 高通aptX\n芯片 高通QCC3040\n芯片 高通 TrueWireless\n芯片 SY8803\n芯片 CM1112G\n芯片 CM1112"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SY8803",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SY8803",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：360\n芯片 高通aptX\n芯片 高通QCC3040\n芯片 高通 TrueWireless\n芯片 SY8803\n芯片 CM1112G\n芯片 CM1112"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1112G",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM1112G",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：360\n芯片 高通aptX\n芯片 高通QCC3040\n芯片 高通 TrueWireless\n芯片 SY8803\n芯片 CM1112G\n芯片 CM1112"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:111935"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "充电接口：Type-C\n标记/认证：其他方面，耳机支持IPX5级防水，降低雨水汗水损坏耳机的风险，同时捷波朗还提供2年防尘防水延保的服务。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "充电接口：Type-C\n标记/认证：其他方面，耳机支持IPX5级防水，降低雨水汗水损坏耳机的风险，同时捷波朗还提供2年防尘防水延保的服务。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "充电接口：Type-C\n标记/认证：其他方面，耳机支持IPX5级防水，降低雨水汗水损坏耳机的风险，同时捷波朗还提供2年防尘防水延保的服务。"
+        }
+      },
+      {
+        "text": "找到一款贴合自己耳朵的耳 […]\n首先沿合模线撬开耳机后壳，后壳上涂有密封胶水，用于防水防尘。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "找到一款贴合自己耳朵的耳 […]\n首先沿合模线撬开耳机后壳，后壳上涂有密封胶水，用于防水防尘。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "找到一款贴合自己耳朵的耳 […]\n首先沿合模线撬开耳机后壳，后壳上涂有密封胶水，用于防水防尘。"
+        }
+      },
+      {
+        "text": "其他方面，耳机支持IPX5级防水，降低雨水汗水损坏耳机的风险，同时捷波朗还提供2年防尘防水延保的服务。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "其他方面，耳机支持IPX5级防水，降低雨水汗水损坏耳机的风险，同时捷波朗还提供2年防尘防水延保的服务。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "其他方面，耳机支持IPX5级防水，降低雨水汗水损坏耳机的风险，同时捷波朗还提供2年防尘防水延保的服务。"
+        }
+      },
+      {
+        "text": "芯片已经通过了最新的IEC62368-1安全法规认证，为用户实现高品质要求的产品设计提供了可靠的保障。",
+        "tag": "其他",
+        "evidence": {
+          "value": "芯片已经通过了最新的IEC62368-1安全法规认证，为用户实现高品质要求的产品设计提供了可靠的保障。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "芯片已经通过了最新的IEC62368-1安全法规认证，为用户实现高品质要求的产品设计提供了可靠的保障。"
+        }
+      },
+      {
+        "text": "标记/认证：芯片已经通过了最新的IEC62368-1安全法规认证，为用户实现高品质要求的产品设计提供了可靠的保障。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：芯片已经通过了最新的IEC62368-1安全法规认证，为用户实现高品质要求的产品设计提供了可靠的保障。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "标记/认证：芯片已经通过了最新的IEC62368-1安全法规认证，为用户实现高品质要求的产品设计提供了可靠的保障。"
+        }
+      },
+      {
+        "text": "耳机主板背面电路一览，耳机主板背面固定耳机电池，电池上设有定制支架固定FPC排线。",
+        "tag": "其他",
+        "evidence": {
+          "value": "耳机主板背面电路一览，耳机主板背面固定耳机电池，电池上设有定制支架固定FPC排线。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "耳机主板背面电路一览，耳机主板背面固定耳机电池，电池上设有定制支架固定FPC排线。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "充电接口：Type-C\n标记/认证：其他方面，耳机支持IPX5级防水，降低雨水汗水损坏耳机的风险，同时捷波朗还提供2年防尘防水延保的服务。",
+    "launch_date": null,
+    "best_report_id": "111935",
+    "best_video_id": null
+  }
+}

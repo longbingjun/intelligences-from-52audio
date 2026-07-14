@@ -1,0 +1,367 @@
+{
+  "canonical_id": "huawei--freeclip",
+  "brand": "HUAWEI华为",
+  "model": "FreeClip",
+  "category": "开放式耳机",
+  "report_ids": [
+    "188379"
+  ],
+  "video_ids": [
+    "192123"
+  ],
+  "related_report_ids": [
+    "188379"
+  ],
+  "related_video_ids": [
+    "192123"
+  ],
+  "first_seen": "2024-01-25",
+  "latest_published": "2024-03-08",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "ConvenientPower易冲半导体CPS4019",
+    "pmic_case": "",
+    "battery_ear": "510 mAh",
+    "battery_case": "5V/10mAh锂电池",
+    "speaker": "喇叭单元",
+    "materials": "PC",
+    "weight_g": "55.5g",
+    "weight_case_g": "",
+    "weight_earbud_g": "5.6g",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 17,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "188379",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "ConvenientPower易冲半导体",
+      "model": "ConvenientPower易冲半导体CPS4019",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "无线充电IC",
+      "evidence": {
+        "value": "ConvenientPower易冲半导体CPS4019",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "采用了ConvenientPower易冲半导体CPS4019高效无线充电接收芯片，Renesas瑞萨DA9168电池充电管理芯片，以及两颗负责为耳机充电的Southchip南芯半导体SC8753高效直充芯片。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "5V/10mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "5V/10mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒主要配置方面，搭载了510mAh锂电池，电芯来自ATL新能源科技；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部配置方面，聆听球内部搭载10.8mm双磁路高灵敏度单元、骨传导麦克风和通话麦克风，舒适豆内置55.5mAh钢壳扣式电池、防风麦克风和主板。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部固定主板和扬声器单元。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒底部贴有出厂标签，耳机型号：T0017，充电盒型号：T0017C，颜色：星空黑。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盒盖内侧印有产品参数信息，型号：T0017C，充电盒输入：5V-1.5A，输出：4.8V-400mA，电池：3.87V 510mAh 1.97Wh，华为终端有限公司。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "HUAWEI华为FreeClip开放式耳机在外观方面，采用极简主义几何设计，兼具了全天候舒适佩戴和时尚佩饰属性。在功能配置上，搭载了10.8mm双磁路高灵敏度单元提供强劲动力，通过近耳定向声波降低声音外溢；内置通话Mic+骨传导Mic+防风Mic三麦克风，支持深度神经网络 (DNN) 算法，搭配防风结构设计，保障全场景的清晰通话效果。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部固定主板和扬声器单元。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "FPC蓝牙天线特写，用于与手机通讯。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "WQ7036系列是物奇新一代高端蓝牙音频芯片，在上一代的基础上全新升级了底层软硬件方案，构建了更加开放的Open DSP应用生态，具备强大的平台能力，拥有领先的性能优势：包括兼容多协议：支持蓝牙BT/BLE5.3双模模式和蓝牙多接；支持蓝牙广播Auracast（和经典蓝牙共存的音频分享）；支持LE Audio新技术标准和 LC3编解码器；射频性能优秀：优异的射频性能，发射功率最高到15dBm, 接收灵敏度到达-99dBm；高性能音频算法：支持自适应Hybrid ANC及各种上下行复杂音频算法；超低功耗水平：在复杂音频算法的同时，依然保持超低功耗；生态系统丰富：更大SRAM和FLASH空间，实现应用特性更广覆盖；平台开放，支持更多产品形态。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出座舱结构，座舱通过支架固定所有元器件。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "华为FreeClip充电盒采用了鹅卵石状的椭圆形设计，外观圆润，体积小巧，磨砂涂层极具质感。充电盒正面设计有“HUAWEI”品牌LOGO，以及一颗指示灯。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒侧边外观一览，盒盖采用了倾斜设计，机身上设置有用于蓝牙配对的功能按键。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机底部外观一览，聆听球圆形出音孔通过金属盖板防护，舒适豆底部设置充电触点。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "打开充电盒盖，内部耳机竖立于座舱内，磁吸固定，通过C型耳挂，能够非常轻松取出。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ConvenientPower易冲半导体CPS4019",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ConvenientPower易冲半导体CPS4019",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "ConvenientPower易冲半导体CPS4019高效无线充电接收芯片，支持5W无线充电接收。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ConvenientPower易冲半导体CPS4019",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ConvenientPower易冲半导体CPS4019",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "充电盒主要配置方面，搭载了510mAh锂电池，电芯来自ATL新能源科技；采用了ConvenientPower易冲半导体CPS4019高效无线充电接收芯片，Renesas瑞萨DA9168电池充电管理芯片，以及两颗负责为耳机充电的Southchip南芯半导体SC8753高效直充芯片。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 HUAWEI华为FreeClip开放式耳机在外观方面，整体体积非常小巧轻盈，鹅卵石状充电盒采用了磨砂处理，机身圆润，质感出色。耳夹式耳机采用了创新C桥设计，极简主义风格，佩戴时尚优雅；同时基于人因工程学原理进行结构优化，带来舒适稳定的开放式聆听体验。 充电盒主要配置方面，搭载了510mAh锂电池，电芯来自ATL新能源科技；采用了ConvenientPower易冲半导体CPS4019高效无线充电接收芯片，Renesas瑞萨DA9168电池充电管理芯片，以及两颗负责为耳机充电的Southchip南芯半导体SC8753高效直充芯片。同时还搭载了无线SoC，用于与手机通讯，实现查找功能；内置了方形扬声器，用于查找功能发声提醒。 耳机内部配置方面，聆听球内部搭载10.8mm双磁路高灵敏度单元、骨传导麦克风和通话麦克风，舒适豆内置55.5mAh钢壳扣式电池、防风麦克风和主板。主板上，搭载了WUQi物奇WQ7036AX蓝牙音频SoC，采用了ST意法半导体LSM6DSV16BX 6轴IMU、骨传导二合一芯片，Southchip南芯半导体SC7289线性充电IC等。",
+  "layer_refs": {
+    "technical": [
+      "report:188379",
+      "video:192123"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "同时，HUAWEI FreeClip通过全新的外观设计，以及多项创新功能，能够为用户提供新颖的无线聆听体验。",
+        "tag": "其他",
+        "evidence": {
+          "value": "同时，HUAWEI FreeClip通过全新的外观设计，以及多项创新功能，能够为用户提供新颖的无线聆听体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "同时，HUAWEI FreeClip通过全新的外观设计，以及多项创新功能，能够为用户提供新颖的无线聆听体验。"
+        }
+      },
+      {
+        "text": "ST意法半导体LSM6DSV16BX 6轴IMU、骨传导二合一芯片，用于敲击控制和骨传导通话降噪功能。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "ST意法半导体LSM6DSV16BX 6轴IMU、骨传导二合一芯片，用于敲击控制和骨传导通话降噪功能。",
+          "confidence": 0.66,
+          "source_type": "text",
+          "source_text": "ST意法半导体LSM6DSV16BX 6轴IMU、骨传导二合一芯片，用于敲击控制和骨传导通话降噪功能。"
+        }
+      },
+      {
+        "text": "HUAWEI华为FreeClip开放式耳机\n在外观方面，采用极简主义几何设计，兼具了全天候舒适佩戴和时尚佩饰属性。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "HUAWEI华为FreeClip开放式耳机\n在外观方面，采用极简主义几何设计，兼具了全天候舒适佩戴和时尚佩饰属性。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "HUAWEI华为FreeClip开放式耳机\n在外观方面，采用极简主义几何设计，兼具了全天候舒适佩戴和时尚佩饰属性。"
+        }
+      },
+      {
+        "text": "在功能配置上，搭载了10.8mm双磁路高灵敏度单元提供强劲动力，通过近耳定向声波降低声音外溢；内置通话Mic+骨传导Mic+防风Mic三麦克风，支持深度神经网络 (DNN) 算法，搭配防风结构设计，保障全场景的清晰通话效果。",
+        "tag": "其他",
+        "evidence": {
+          "value": "在功能配置上，搭载了10.8mm双磁路高灵敏度单元提供强劲动力，通过近耳定向声波降低声音外溢；内置通话Mic+骨传导Mic+防风Mic三麦克风，支持深度神经网络 (DNN) 算法，搭配防风结构设计，保障全场景的清晰通话效果。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "在功能配置上，搭载了10.8mm双磁路高灵敏度单元提供强劲动力，通过近耳定向声波降低声音外溢；内置通话Mic+骨传导Mic+防风Mic三麦克风，支持深度神经网络 (DNN) 算法，搭配防风结构设计，保障全场景的清晰通话效果。"
+        }
+      },
+      {
+        "text": "舒适豆背部的防风麦克风拾音孔特写，佩戴使用时，通过耳廓形成的天然屏障，可有效降低风噪对于麦克风的影响，从而保障户外的清晰通话，\n经我爱音频网实测，HUAWEI华为FreeClip开放式耳机整机重量约为55.5g，体积轻巧，便于携带。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "舒适豆背部的防风麦克风拾音孔特写，佩戴使用时，通过耳廓形成的天然屏障，可有效降低风噪对于麦克风的影响，从而保障户外的清晰通话，\n经我爱音频网实测，HUAWEI华为FreeClip开放式耳机整机重量约为55.5g，体积轻巧，便于携带。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "舒适豆背部的防风麦克风拾音孔特写，佩戴使用时，通过耳廓形成的天然屏障，可有效降低风噪对于麦克风的影响，从而保障户外的清晰通话，\n经我爱音频网实测，HUAWEI华为FreeClip开放式耳机整机重量约为55.5g，体积轻巧，便于携带。"
+        }
+      },
+      {
+        "text": "耳夹式耳机采用了创新C桥设计，极简主义风格，佩戴时尚优雅；同时基于人因工程学原理进行结构优化，带来舒适稳定的开放式聆听体验。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "耳夹式耳机采用了创新C桥设计，极简主义风格，佩戴时尚优雅；同时基于人因工程学原理进行结构优化，带来舒适稳定的开放式聆听体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "耳夹式耳机采用了创新C桥设计，极简主义风格，佩戴时尚优雅；同时基于人因工程学原理进行结构优化，带来舒适稳定的开放式聆听体验。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话",
+      "户外"
+    ],
+    "positioning_summary": "同时，HUAWEI FreeClip通过全新的外观设计，以及多项创新功能，能够为用户提供新颖的无线聆听体验。",
+    "launch_date": null,
+    "best_report_id": "188379",
+    "best_video_id": null
+  }
+}

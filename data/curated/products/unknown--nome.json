@@ -1,0 +1,241 @@
+{
+  "canonical_id": "unknown--nome",
+  "brand": "",
+  "model": "NOME诺米 迷你无线蓝牙平耳",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "84922"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "84922"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2021-07-06",
+  "latest_published": "2021-07-06",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "中科蓝讯 BT8892B",
+    "pmic_case": "",
+    "battery_ear": "300 mAh",
+    "battery_case": "电池",
+    "speaker": "喇叭单元",
+    "materials": "PC",
+    "weight_g": "32.8g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.0",
+    "bom_row_count": 12,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "84922",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "NOME诺米无线蓝牙耳机充电盒外观一览，此款为白色配色，整体触感光滑。充电盒盖开盖处曲线独特，正面有凹槽便于开启。以及一颗状态指示灯。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "主板位于充电座舱底部，通过螺丝固定。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒内主要电路一览。电池与主板之间设置有海绵缓冲垫。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "底部为耳机充电的金属结构，中间为麦克风开孔，用于语音通话拾音。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "BT8892B专为TWS耳机应用设计，芯片高度集成化，PCB外围物料精简。通讯协议支持蓝牙5.0 双模，支持APP应用。解码格式支持SBC/mSBC、AAC，内置10段参量式均衡器。内置5V充电触点单线通讯、内置锂电池充电管理电路，适用于智能充电仓应用。支持主副耳无缝切换。通话部分内置单MIC ENC降噪/AEC回音消除算法。原厂提供配置化编程工具，方便客户产品迅速投入市场。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "陶瓷蓝牙天线特写。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机部分，耳机头内配备了13mm大尺寸动圈单元和25mAh软包电池，通过导线焊接与主板连接。主板上，主控芯片采用了专为TWS耳机设计的中科蓝讯 BT8892B 蓝牙音频SoC，具有32位RISC-V处理器，支持DSP指令集，支持蓝牙5.0 双模，支持单MIC ENC降噪/AEC回音消除算法。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "扬声器背面特写，边缘设置有调音孔，通过胶水固定在前腔内。与主板连接的导线焊接在扬声器的PCB板上。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒采用了开窗的设计，能够直接看到内部产品外观。包装盒上信息有NOME品牌LOGO，产品名称迷你无线蓝牙平耳耳机，以及触控设计、迷你小巧、自动配对、高清通话等功能特点。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "NOME诺米无线蓝牙耳机充电盒外观一览，此款为白色配色，整体触感光滑。充电盒盖开盖处曲线独特，正面有凹槽便于开启。以及一颗状态指示灯。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "BT8892B专为TWS耳机应用设计，芯片高度集成化，PCB外围物料精简。通讯协议支持蓝牙5.0 双模，支持APP应用。解码格式支持SBC/mSBC、AAC，内置10段参量式均衡器。内置5V充电触点单线通讯、内置锂电池充电管理电路，适用于智能充电仓应用。支持主副耳无缝切换。通话部分内置单MIC ENC降噪/AEC回音消除算法。原厂提供配置化编程工具，方便客户产品迅速投入市场。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "中科蓝讯 BT8892B",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "中科蓝讯 BT8892B",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "中科蓝讯 BT8892B 蓝牙音频SoC\n，为中科蓝讯讯龙系列，主要针对TWS耳机市场。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:84922"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "通话部分内置单MIC ENC降噪/AEC回音消除算法。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "通话部分内置单MIC ENC降噪/AEC回音消除算法。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "通话部分内置单MIC ENC降噪/AEC回音消除算法。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "通话部分内置单MIC ENC降噪/AEC回音消除算法。",
+    "launch_date": null,
+    "best_report_id": "84922",
+    "best_video_id": null
+  }
+}

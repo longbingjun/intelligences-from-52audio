@@ -1,0 +1,263 @@
+{
+  "canonical_id": "unknown--ugreenhitune-t3",
+  "brand": "",
+  "model": "UGREEN绿联HiTune T3",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "101383"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "101383"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2022-01-01",
+  "latest_published": "2022-01-01",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "恒玄BES2500",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "100 mAh",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "44.2g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.2",
+    "bom_row_count": 10,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "101383",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "S\ninhMicro昇生微S\nS809\n是一款集成了充放电管理的AD型单片机，内置线性充电单元为锂电池充电，同时有专门的耳机通信接口，实现充电盒跟耳机双向通信功能；SS809集成了MCU微处理器和嵌入式闪存，可以更容易地升级其固件，便于工程师加入个性化的定制功能。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "S\ninhMicro昇生微S\nS809\n是一款集成了充放电管理的AD型单片机，内置线性充电单元为锂电池充电，同时有专门的耳机通信接口，实现充电盒跟耳机双向通信功能；SS809集成了MCU微处理器和嵌入式闪存，可以更容易地升级其固件，便于工程师加入个性化的定制功能。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒盖内侧丝印信息有产品名称：HiTune T3主动降噪真无线蓝牙耳机，型号：WS106，输出：5V-100mAh，输入：5V-320mAh，P/N：90206，电池容量：400mAh/1.48Wh。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，通过螺丝固定主板单元。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "镭雕MD26 D148的MEMS麦克风特写，用于降噪功能和语音通话拾音。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机扬声器正面特写，采用PU+羊毛纸复合振膜，拥有更好的强度和韧性。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电接口：Type-C充电接口位于充电盒底部，侧边设置有一颗蓝牙配对功能按键。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2500",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2500",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：320\n芯片 恒玄BES2500\n芯片 恒玄BES2500IUC\n芯片 恒玄BES2500IZ\n芯片 WINSEMI稳先微WSDF13D\n芯片 SS881"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WINSEMI稳先微WSDF13D",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "WINSEMI稳先微WSDF13D",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：320\n芯片 恒玄BES2500\n芯片 恒玄BES2500IUC\n芯片 恒玄BES2500IZ\n芯片 WINSEMI稳先微WSDF13D\n芯片 SS881"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SS881",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SS881",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：320\n芯片 恒玄BES2500\n芯片 恒玄BES2500IUC\n芯片 恒玄BES2500IZ\n芯片 WINSEMI稳先微WSDF13D\n芯片 SS881"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:101383"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "作为知名数码品牌，绿联在TWS耳机市场做了深度布局，目前已经推出了HiTune“X”“T”“H”等多个系列产品 […]\nS\ninhMicro昇生微S\nS809\n是一款集成了充放电管理的AD型单片机，内置线性充电单元为锂电池充电，同时有专门的耳机通信接口，实现充电盒跟耳机双向通信功能；SS809集成了MCU微处理器和嵌入式闪存，可以更容易地升级其固件，便于工程师加入个性化的定制功能。",
+        "tag": "其他",
+        "evidence": {
+          "value": "作为知名数码品牌，绿联在TWS耳机市场做了深度布局，目前已经推出了HiTune“X”“T”“H”等多个系列产品 […]\nS\ninhMicro昇生微S\nS809\n是一款集成了充放电管理的AD型单片机，内置线性充电单元为锂电池充电，同时有专门的耳机通信接口，实现充电盒跟耳机双向通信功能；SS809集成了MCU微处理器和嵌入式闪存，可以更容易地升级其固件，便于工程师加入个性化的定制功能。",
+          "confidence": 0.68,
+          "source_type": "text",
+          "source_text": "作为知名数码品牌，绿联在TWS耳机市场做了深度布局，目前已经推出了HiTune“X”“T”“H”等多个系列产品 […]\nS\ninhMicro昇生微S\nS809\n是一款集成了充放电管理的AD型单片机，内置线性充电单元为锂电池充电，同时有专门的耳机通信接口，实现充电盒跟耳机双向通信功能；SS809集成了MCU微处理器和嵌入式闪存，可以更容易地升级其固件，便于工程师加入个性化的定制功能。"
+        }
+      },
+      {
+        "text": "标记/认证：充电盒盖内侧丝印信息有产品名称：HiTune T3主动降噪真无线蓝牙耳机，型号：WS106，输出：5V-100mAh，输入：5V-320mAh，P/N：90206，电池容量：400mAh/1.48Wh。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "标记/认证：充电盒盖内侧丝印信息有产品名称：HiTune T3主动降噪真无线蓝牙耳机，型号：WS106，输出：5V-100mAh，输入：5V-320mAh，P/N：90206，电池容量：400mAh/1.48Wh。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "标记/认证：充电盒盖内侧丝印信息有产品名称：HiTune T3主动降噪真无线蓝牙耳机，型号：WS106，输出：5V-100mAh，输入：5V-320mAh，P/N：90206，电池容量：400mAh/1.48Wh。"
+        }
+      },
+      {
+        "text": "我爱音频网此前还拆解过绿联旗下的、绿联HiTune X6真无线降噪耳机、绿联 HiTune T2、HiTune T1、HiTune WS100真无线蓝牙耳机，无线领夹麦克风、苹果入耳式有线耳机和USB车载蓝牙音频接收器等，下面再来看看这款产品的详细拆解报告吧~\n耳机柄外侧底部设置了麦克风开孔，用于语音通话拾音，内部通过防尘网防护。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "我爱音频网此前还拆解过绿联旗下的、绿联HiTune X6真无线降噪耳机、绿联 HiTune T2、HiTune T1、HiTune WS100真无线蓝牙耳机，无线领夹麦克风、苹果入耳式有线耳机和USB车载蓝牙音频接收器等，下面再来看看这款产品的详细拆解报告吧~\n耳机柄外侧底部设置了麦克风开孔，用于语音通话拾音，内部通过防尘网防护。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "我爱音频网此前还拆解过绿联旗下的、绿联HiTune X6真无线降噪耳机、绿联 HiTune T2、HiTune T1、HiTune WS100真无线蓝牙耳机，无线领夹麦克风、苹果入耳式有线耳机和USB车载蓝牙音频接收器等，下面再来看看这款产品的详细拆解报告吧~\n耳机柄外侧底部设置了麦克风开孔，用于语音通话拾音，内部通过防尘网防护。"
+        }
+      },
+      {
+        "text": "配置\n和\n性能上，\n绿联\n耳机在同价位产品中表现出色，音质\n、\n降噪、续航、佩戴等方面都能带来不错\n的\n体验\n。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "配置\n和\n性能上，\n绿联\n耳机在同价位产品中表现出色，音质\n、\n降噪、续航、佩戴等方面都能带来不错\n的\n体验\n。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "配置\n和\n性能上，\n绿联\n耳机在同价位产品中表现出色，音质\n、\n降噪、续航、佩戴等方面都能带来不错\n的\n体验\n。"
+        }
+      },
+      {
+        "text": "镭雕MD26 D148的MEMS麦克风特写，用于降噪功能和语音通话拾音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "镭雕MD26 D148的MEMS麦克风特写，用于降噪功能和语音通话拾音。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "镭雕MD26 D148的MEMS麦克风特写，用于降噪功能和语音通话拾音。"
+        }
+      },
+      {
+        "text": "尤其是电量显示方面，除了控制1-5颗灯显示外，还支持RGB灯效、LED 188数码管、定制图案等，为工程师提供了自由编程的发挥空间。",
+        "tag": "其他",
+        "evidence": {
+          "value": "尤其是电量显示方面，除了控制1-5颗灯显示外，还支持RGB灯效、LED 188数码管、定制图案等，为工程师提供了自由编程的发挥空间。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "尤其是电量显示方面，除了控制1-5颗灯显示外，还支持RGB灯效、LED 188数码管、定制图案等，为工程师提供了自由编程的发挥空间。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "作为知名数码品牌，绿联在TWS耳机市场做了深度布局，目前已经推出了HiTune“X”“T”“H”等多个系列产品 […]\nS\ninhMicro昇生微S\nS809\n是一款集成了充放电管理的AD型单片机，内置线性充电单元为锂电池充电，同时有专门的耳机通信接口，实现充电盒跟耳机双向通信功能；SS809集成了MCU微处理器和嵌入式闪存，可以更容易地升级其固件，便于工程师加入个性化的定制功能。",
+    "launch_date": null,
+    "best_report_id": "101383",
+    "best_video_id": null
+  }
+}

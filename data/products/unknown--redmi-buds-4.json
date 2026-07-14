@@ -1,0 +1,428 @@
+{
+  "canonical_id": "unknown--redmi-buds-4",
+  "brand": "",
+  "model": "Redmi Buds 4 活力版",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "121237",
+    "149168",
+    "165194"
+  ],
+  "video_ids": [
+    "160552"
+  ],
+  "related_report_ids": [
+    "121237",
+    "149168",
+    "165194"
+  ],
+  "related_video_ids": [
+    "160552"
+  ],
+  "first_seen": "2022-06-14",
+  "latest_published": "2023-07-04",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "SS880",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "3V/20mAh锂电池",
+    "speaker": "12mm 动圈单元",
+    "materials": "塑料",
+    "weight_g": "34.4g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 21,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "149168",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SS880",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SS880",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "由SinhMicro昇生微SS880MH低功耗微控制负责为内置电池充电和电源管理，通过SinhMicro昇生微SS61-C同步升压转换器为内置电池升压给耳机充电。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3V/20mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3V/20mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒采用了Type-C接口输入电源，内置锂威新能源的320mAh锂电池，主板上搭载了苏州赛芯电子XB5152I2SZR一体化锂电保护IC负责电池充电保护；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "恒玄BES2600IHC3",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2600IHC3",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部采用了12mm动圈单元，35mAh扣式锂电池，主控芯片采用了BES恒玄BES2600IHC3蓝牙音频SoC，支持蓝牙5.3，支持AI降噪通话算法，集成Charge功能；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "BES2600IHC",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2600IHC",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部采用了12mm动圈单元，35mAh扣式锂电池，主控芯片采用了BES恒玄BES2600IHC3蓝牙音频SoC，支持蓝牙5.3，支持AI降噪通话算法，集成Charge功能；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "12mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "12mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部采用了12mm动圈单元，35mAh扣式锂电池，主控芯片采用了BES恒玄BES2600IHC3蓝牙音频SoC，支持蓝牙5.3，支持AI降噪通话算法，集成Charge功能；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "以及一颗MEMS麦克风用于语音通话拾音。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体底部结构一览，与电池对应位置设置有海绵垫防滑。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在功能配置方面，Redmi Buds 4青春版搭载12mm双层复合振膜动圈单元，升级蓝牙5.3技术，具备更强的抗干扰性，更稳定的连接和更低延迟。支持通话降噪，内置高灵敏麦克风，搭配通话降噪算法，提供清晰通话效果。续航方面，耳机单次可支持5小时使用，搭配充电盒综合续航时间20小时。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，主板通过塑料柱热熔固定，主板上通过双面胶固定电池。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在功能配置方面，Redmi Buds 4青春版搭载12mm双层复合振膜动圈单元，升级蓝牙5.3技术，具备更强的抗干扰性，更稳定的连接和更低延迟。支持通话降噪，内置高灵敏麦克风，搭配通话降噪算法，提供清晰通话效果。续航方面，耳机单次可支持5小时使用，搭配充电盒综合续航时间20小时。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在功能配置方面，Redmi Buds 4青春版搭载12mm双层复合振膜动圈单元，升级蓝牙5.3技术，具备更强的抗干扰性，更稳定的连接和更低延迟。支持通话降噪，内置高灵敏麦克风，搭配通话降噪算法，提供清晰通话效果。续航方面，耳机单次可支持5小时使用，搭配充电盒综合续航时间20小时。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "镭雕R2AL 0LDK的MEMS麦克风，用于语音通话拾音，边缘为印刷蓝牙天线。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "BES恒玄BES2600IHC3蓝牙音频SoC。BES2600IHC系列采用双核Arm MCU，支持蓝牙5.3，集成BES自研的AI降噪通话算法、混合ANC降噪算法和产线ANC自校准算法，集成Charge，功耗低至4.5mA，是一款主打低成本、高性价比的产品。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机外侧外观一览，耳机柄采用了类似于Redmi Buds 4 Pro的梯形斜面设计，上半部分是触控区域，便捷的进行操作控制。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄内侧的充电触点，中间雕刻有L/R左右标识，便于用户快速区分。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "LED指示灯特写，外套泡棉垫遮光。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SS880",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SS880",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "SinhMicro昇生微SS880MH集成电源管理功能的低功耗微控制器，SS880X的核心是一颗兼容8051指令集的8位MCU，最高主频为12MHz，集成了电源管理单元和充电管理单元，支持电池或者5V适配器供电，支持对不同规格、不同容量的电池充电。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2600IHC3",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2600IHC3",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄BES2600IHC3蓝牙音频SoC。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2600IHC",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2600IHC",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄BES2600IHC3蓝牙音频SoC。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SS880",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SS880",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "内部结构配置方面，充电盒采用了Type-C接口输入电源，内置锂威新能源的320mAh锂电池，主板上搭载了苏州赛芯电子XB5152I2SZR一体化锂电保护IC负责电池充电保护；由SinhMicro昇生微SS880MH低功耗微控制负责为内置电池充电和电源管理，通过SinhMicro昇生微SS61-C同步升压转换器为内置电池升压给耳机充电。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Redmi Buds 4青春版真无线耳机在外观设计方面，充电盒体积小巧轻便；柄状的半入耳式耳机，采用了光滑的亮面材质，机身曲线佩戴贴合耳廓，重量也仅为4.0g，持久佩戴依然能够保障舒适的体验。 内部结构配置方面，充电盒采用了Type-C接口输入电源，内置锂威新能源的320mAh锂电池，主板上搭载了苏州赛芯电子XB5152I2SZR一体化锂电保护IC负责电池充电保护；由SinhMicro昇生微SS880MH低功耗微控制负责为内置电池充电和电源管理，通过SinhMicro昇生微SS61-C同步升压转换器为内置电池升压给耳机充电。 耳机内部采用了12mm动圈单元，35mAh扣式锂电池，主控芯片采用了BES恒玄BES2600IHC3蓝牙音频SoC，支持蓝牙5.3，支持AI降噪通话算法，集成Charge功能；还采用了HYNITRON海栎创HK31BP高性能自电容触控芯片，用于触摸控制功能；以及一颗MEMS麦克风用于语音通话拾音。",
+  "layer_refs": {
+    "technical": [
+      "report:121237",
+      "report:149168",
+      "report:165194",
+      "video:160552"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "功能配置方面，搭载10mm动圈单元，小米声学实验室定制调节；支持三档自适应35dB智能主动降噪/双通透模式，支持双麦AI通话降噪，拥有30小时的综合续航。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "功能配置方面，搭载10mm动圈单元，小米声学实验室定制调节；支持三档自适应35dB智能主动降噪/双通透模式，支持双麦AI通话降噪，拥有30小时的综合续航。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "功能配置方面，搭载10mm动圈单元，小米声学实验室定制调节；支持三档自适应35dB智能主动降噪/双通透模式，支持双麦AI通话降噪，拥有30小时的综合续航。"
+        }
+      },
+      {
+        "text": "近期，Redmi在Redmi note 11T系列新品发布会上推出了Redmi Buds 4两款TWS耳机产品 […]\n功能配置方面，搭载10mm动圈单元，\n小米声学实验室定制调节；\n支持三\n档\n自适应35dB智能主动降噪/双通透模式，支持双麦AI通话降噪，拥有30小时的综合续航。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "近期，Redmi在Redmi note 11T系列新品发布会上推出了Redmi Buds 4两款TWS耳机产品 […]\n功能配置方面，搭载10mm动圈单元，\n小米声学实验室定制调节；\n支持三\n档\n自适应35dB智能主动降噪/双通透模式，支持双麦AI通话降噪，拥有30小时的综合续航。",
+          "confidence": 0.71,
+          "source_type": "text",
+          "source_text": "近期，Redmi在Redmi note 11T系列新品发布会上推出了Redmi Buds 4两款TWS耳机产品 […]\n功能配置方面，搭载10mm动圈单元，\n小米声学实验室定制调节；\n支持三\n档\n自适应35dB智能主动降噪/双通透模式，支持双麦AI通话降噪，拥有30小时的综合续航。"
+        }
+      },
+      {
+        "text": "近期，Redmi在Redmi note 11T系列新品发布会上推出了\nRedmi Buds 4 Pro\n和\nRedmi Buds 4\n两款TWS耳机产品，两者采用了完全不同的设计，前者定位于\n旗舰级TWS降噪耳机，后者以\n199元的首发价格，打造入门级TWS降噪耳机\n首选\n。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "近期，Redmi在Redmi note 11T系列新品发布会上推出了\nRedmi Buds 4 Pro\n和\nRedmi Buds 4\n两款TWS耳机产品，两者采用了完全不同的设计，前者定位于\n旗舰级TWS降噪耳机，后者以\n199元的首发价格，打造入门级TWS降噪耳机\n首选\n。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "近期，Redmi在Redmi note 11T系列新品发布会上推出了\nRedmi Buds 4 Pro\n和\nRedmi Buds 4\n两款TWS耳机产品，两者采用了完全不同的设计，前者定位于\n旗舰级TWS降噪耳机，后者以\n199元的首发价格，打造入门级TWS降噪耳机\n首选\n。"
+        }
+      },
+      {
+        "text": "通话降噪麦克风声学结构特写，设置\n泡棉\n垫密封，提升收音性能。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "通话降噪麦克风声学结构特写，设置\n泡棉\n垫密封，提升收音性能。",
+          "confidence": 0.59,
+          "source_type": "text",
+          "source_text": "通话降噪麦克风声学结构特写，设置\n泡棉\n垫密封，提升收音性能。"
+        }
+      },
+      {
+        "text": "耳机顶部通话降噪麦克风拾音孔特写。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "耳机顶部通话降噪麦克风拾音孔特写。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "耳机顶部通话降噪麦克风拾音孔特写。"
+        }
+      },
+      {
+        "text": "三、我爱音频网总结\nRedmi Buds 4真无线降噪耳机在外观设计上，充电盒体积小巧圆润，立式椭圆形设计可以轻松单手开合；耳机采用光滑亮面和哑光质感两种工艺结合，在一定程度上提升了产品的质感。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "三、我爱音频网总结\nRedmi Buds 4真无线降噪耳机在外观设计上，充电盒体积小巧圆润，立式椭圆形设计可以轻松单手开合；耳机采用光滑亮面和哑光质感两种工艺结合，在一定程度上提升了产品的质感。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\nRedmi Buds 4真无线降噪耳机在外观设计上，充电盒体积小巧圆润，立式椭圆形设计可以轻松单手开合；耳机采用光滑亮面和哑光质感两种工艺结合，在一定程度上提升了产品的质感。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "功能配置方面，搭载10mm动圈单元，小米声学实验室定制调节；支持三档自适应35dB智能主动降噪/双通透模式，支持双麦AI通话降噪，拥有30小时的综合续航。",
+    "launch_date": null,
+    "best_report_id": "121237",
+    "best_video_id": null
+  }
+}

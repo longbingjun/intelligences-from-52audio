@@ -1,0 +1,434 @@
+{
+  "canonical_id": "unknown--lg-tone-free-t90q",
+  "brand": "",
+  "model": "LG TONE Free T90Q",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "159726"
+  ],
+  "video_ids": [
+    "161050"
+  ],
+  "related_report_ids": [
+    "159726"
+  ],
+  "related_video_ids": [
+    "161050"
+  ],
+  "first_seen": "2023-05-11",
+  "latest_published": "2023-05-22",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "高通QCC3056",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "3V/90mAh锂电池",
+    "speaker": "11mm 动圈单元",
+    "materials": "硅胶、塑料、PC",
+    "weight_g": "50.5g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "IPX4",
+    "bluetooth": "5.3",
+    "bom_row_count": 24,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "159726",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "Qualcomm高通",
+      "model": "高通QCC3056",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC3056",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "采用了一颗Qualcomm高通QCC3056蓝牙音频SoC，用于与耳机内部蓝牙芯片无线连接，实现无线收发器功能。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3V/90mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3V/90mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒电源方面，内置曙鹏科技390mAh可充式锂离子电池组，支持有线和无线两种方式为内置电池充电，采用了Renesas瑞萨电子IDT P9222-R无线电源接收器IC，可提供高达5W的充电功率；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "Qualcomm高通",
+      "model": "高通S3",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通S3",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了11mm动圈单元，内置三颗MEMS麦克风+1颗VPU语音拾取单元协同拾音，采用了光学入耳检测传感器，紫建电子51mAh 3.85V钢壳扣式电池，主控芯片为高通S3音频平台（QCC3071），结合了传统蓝牙无线音频和全新LE Audio技术标准，支持蓝牙5.3，支持Snapdragon Sound骁龙畅听技术，为高清无线传输、高清通话效果、自适应主动降噪等功能提供支持。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "Qualcomm高通",
+      "model": "QCC3071",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "QCC3071",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了11mm动圈单元，内置三颗MEMS麦克风+1颗VPU语音拾取单元协同拾音，采用了光学入耳检测传感器，紫建电子51mAh 3.85V钢壳扣式电池，主控芯片为高通S3音频平台（QCC3071），结合了传统蓝牙无线音频和全新LE Audio技术标准，支持蓝牙5.3，支持Snapdragon Sound骁龙畅听技术，为高清无线传输、高清通话效果、自适应主动降噪等功能提供支持。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "11mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "11mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了11mm动圈单元，内置三颗MEMS麦克风+1颗VPU语音拾取单元协同拾音，采用了光学入耳检测传感器，紫建电子51mAh 3.85V钢壳扣式电池，主控芯片为高通S3音频平台（QCC3071），结合了传统蓝牙无线音频和全新LE Audio技术标准，支持蓝牙5.3，支持Snapdragon Sound骁龙畅听技术，为高清无线传输、高清通话效果、自适应主动降噪等功能提供支持。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "3",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了11mm动圈单元，内置三颗MEMS麦克风+1颗VPU语音拾取单元协同拾音，采用了光学入耳检测传感器，紫建电子51mAh 3.85V钢壳扣式电池，主控芯片为高通S3音频平台（QCC3071），结合了传统蓝牙无线音频和全新LE Audio技术标准，支持蓝牙5.3，支持Snapdragon Sound骁龙畅听技术，为高清无线传输、高清通话效果、自适应主动降噪等功能提供支持。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "LG TONE+是LG旗下蓝牙耳机系列产品，包括了TWS耳机、颈挂式耳机等类型。其中，TONE Free系列高端真无线蓝牙耳机拥有独特的UV杀菌功能，通过配备的UVnano充电盒，能够杀灭耳塞上99.9%的细菌，为用户提供更加健康的使用体验。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱另外一侧结构一览，主板位于框架与座舱中间。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱正面结构一览，框架内部固定电池单元，起到很好的防护。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "LG TONE Free T90Q支持自适应主动降噪功能，能够根据佩戴状态自动优化降噪效果；支持环境模式和对话模式，无需摘掉耳塞即可轻松获取外界信息及沟通交流；支持双麦克风+骨传导通话降噪，提供清晰通话效果。UVnano充电盒除了杀菌功能之外，还可以充当无线收发器，带来即插即用的便捷连接体验，以及满足连接不支持蓝牙功能的音频终端使用。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "LG TONE Free T90Q支持自适应主动降噪功能，能够根据佩戴状态自动优化降噪效果；支持环境模式和对话模式，无需摘掉耳塞即可轻松获取外界信息及沟通交流；支持双麦克风+骨传导通话降噪，提供清晰通话效果。UVnano充电盒除了杀菌功能之外，还可以充当无线收发器，带来即插即用的便捷连接体验，以及满足连接不支持蓝牙功能的音频终端使用。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒天线特写，用于无线信号收发。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机内部搭载了11mm动圈单元，内置三颗MEMS麦克风+1颗VPU语音拾取单元协同拾音，采用了光学入耳检测传感器，紫建电子51mAh 3.85V钢壳扣式电池，主控芯片为高通S3音频平台（QCC3071），结合了传统蓝牙无线音频和全新LE Audio技术标准，支持蓝牙5.3，支持Snapdragon Sound骁龙畅听技术，为高清无线传输、高清通话效果、自适应主动降噪等功能提供支持。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出内部座舱结构。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "LG TONE Free T90Q UVnano充电盒采用了类似于圆形“粉饼盒”的设计，哑光质感，边缘过渡圆润，机身开盖处设计有便于开启的倒角，正面有两个指示灯，用于反馈充电和蓝牙配对状态。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机外侧外观一览，耳机柄短小，且呈现向内弯曲状态，佩戴贴合面部，不外翘更美观。耳机柄上方设置有条形降噪麦克风拾音孔，靠下位置式触控区域。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒为耳机充电/通讯的Pogo Pin连接器特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通\nSnapdragon",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通\nSnapdragon",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "此次将要拆解的LG TONE Free T90Q真无线耳机是TONE Free系列的旗舰级产品，外观上依旧采用了家族式的设计风格；功能配置上，搭载了Dolby Atmos杜比音效和Dolby Head Tracking杜比头部追踪技术，带来身临其境的音频效果；支持\n高通\nSnapdragon Sound骁龙畅听技术，提供超低功耗、超低延迟、高抗干扰的稳定传输和高清无线音频体验。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Qualcomm TrueWireless",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Qualcomm TrueWireless",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm\n高通\nQCC3056蓝牙音频SoC，是一款超低功耗、单芯片解决方案，采用WLCSP封装，内置强大的四核处理器架构，支持蓝牙5.3和Qualcomm TrueWireless\n镜像技术，提供稳定的连接；支持\n高通\nSnapdragon Sound骁龙畅听音频技术平台，支持aptX\nAdaptive音频解码、aptX Voice语音通话技术，cVc回声消除和噪声抑制等。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通\nQCC3056",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通\nQCC3056",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm\n高通\nQCC3056蓝牙音频SoC，是一款超低功耗、单芯片解决方案，采用WLCSP封装，内置强大的四核处理器架构，支持蓝牙5.3和Qualcomm TrueWireless\n镜像技术，提供稳定的连接；支持\n高通\nSnapdragon Sound骁龙畅听音频技术平台，支持aptX\nAdaptive音频解码、aptX Voice语音通话技术，cVc回声消除和噪声抑制等。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通\nQCC30XX",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通\nQCC30XX",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm\n高通\nQCC30XX系列详细资料图。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "QCC30",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "QCC30",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm\n高通\nQCC30XX系列详细资料图。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通\nS3",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通\nS3",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "高通\nS3音频平台支持Snapdragon Sound骁龙畅听技术，经过优化并支持双蓝牙模式，结合了传统蓝牙无线音频、全新LE Audio技术标准，全链路延迟低至55ms；并首次支持了aptX Lossless无损传输，提供CD级无损音质。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC3056",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC3056",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "内部结构配置方面，相较于其他主流产品，LG TONE Free T90Q创新性的在充电盒内部搭载了两颗紫外线灯，配合艾为AW9962E WLED驱动芯片，用于为耳机耳塞杀菌；采用了一颗Qualcomm高通QCC3056蓝牙音频SoC，用于与耳机内部蓝牙芯片无线连接，实现无线收发器功能。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 LG TONE Free T90Q真无线耳机在外观设计方面，UVnano充电盒采用了小巧的圆形“粉饼盒”设计，哑光质感，机身边缘过渡圆润，握持舒适，外出便携。耳机采用了柄状的入耳式设计，钢琴烤漆工艺，质感光滑圆润，佩戴舒适亲肤；并配备有三种不同尺寸的医疗级硅胶耳塞，搭配充电盒紫外杀菌功能，提供舒适又卫生的佩戴体验。 内部结构配置方面，相较于其他主流产品，LG TONE Free T90Q创新性的在充电盒内部搭载了两颗紫外线灯，配合艾为AW9962E WLED驱动芯片，用于为耳机耳塞杀菌；采用了一颗Qualcomm高通QCC3056蓝牙音频SoC，用于与耳机内部蓝牙芯片无线连接，实现无线收发器功能。 充电盒电源方面，内置曙鹏科技390mAh可充式锂离子电池组，支持有线和无线两种方式为内置电池充电，采用了Renesas瑞萨电子IDT P9222-R无线电源接收器IC，可提供高达5W的充电功率；还采用了Silicon Labs芯科EFM8BB31F32G高性能8位微控制器，用于充电盒整机控制。 耳机内部搭载了11mm动圈单元，内置三颗MEMS麦克风+1颗VPU语音拾取单元协同拾音，采用了光学入耳检测传感器，紫建电子51mAh 3.85V钢壳扣式电池，主控芯片为高通S3音频平台（QCC3071），结合了传统蓝牙无线音频和全新LE Audio技术标准，支持蓝牙5.3，支持Snapdragon Sound骁龙畅听技术，为高清无线传输、高清通话效果、自适应主动降噪等功能提供支持。",
+  "layer_refs": {
+    "technical": [
+      "report:159726",
+      "video:161050"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "LG TONE Free T90Q支持自适应主动降噪功能，能够根据佩戴状态自动优化降噪效果；支持环境模式和对话模式，无需摘掉耳塞即可轻松获取外界信息及沟通交流；支持双麦克风+骨传导通话降噪，提供清晰通话效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "LG TONE Free T90Q支持自适应主动降噪功能，能够根据佩戴状态自动优化降噪效果；支持环境模式和对话模式，无需摘掉耳塞即可轻松获取外界信息及沟通交流；支持双麦克风+骨传导通话降噪，提供清晰通话效果。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "LG TONE Free T90Q支持自适应主动降噪功能，能够根据佩戴状态自动优化降噪效果；支持环境模式和对话模式，无需摘掉耳塞即可轻松获取外界信息及沟通交流；支持双麦克风+骨传导通话降噪，提供清晰通话效果。"
+        }
+      },
+      {
+        "text": "VPU语音拾取单元特写，镭雕型号“VPU14DB01A”，用于骨传导通话降噪功能检测声音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "VPU语音拾取单元特写，镭雕型号“VPU14DB01A”，用于骨传导通话降噪功能检测声音。",
+          "confidence": 0.64,
+          "source_type": "text",
+          "source_text": "VPU语音拾取单元特写，镭雕型号“VPU14DB01A”，用于骨传导通话降噪功能检测声音。"
+        }
+      },
+      {
+        "text": "镭雕223 AQC的MEMS麦克风特写，为后馈降噪麦克风，用于从耳道内部拾取环境噪音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "镭雕223 AQC的MEMS麦克风特写，为后馈降噪麦克风，用于从耳道内部拾取环境噪音。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "镭雕223 AQC的MEMS麦克风特写，为后馈降噪麦克风，用于从耳道内部拾取环境噪音。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "LG TONE Free T90Q支持自适应主动降噪功能，能够根据佩戴状态自动优化降噪效果；支持环境模式和对话模式，无需摘掉耳塞即可轻松获取外界信息及沟通交流；支持双麦克风+骨传导通话降噪，提供清晰通话效果。",
+    "launch_date": null,
+    "best_report_id": "159726",
+    "best_video_id": null
+  }
+}

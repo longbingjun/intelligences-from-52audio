@@ -38,9 +38,11 @@
     "speaker": "双单元",
     "materials": "钛合金",
     "weight_g": "46.5g",
+    "weight_case_g": "",
+    "weight_earbud_g": "5.5g",
     "ip_rating": "IP2",
     "bluetooth": "6.1",
-    "bom_row_count": 19,
+    "bom_row_count": 20,
     "price_cny": 394.0,
     "price_layer": "channel",
     "channel_url": "https://union-click.jd.com/jdc?e=jd_100155425935&p=JF8BAQoJK1olXDYCVV9dDE8SAGsAGV8lGVlaCgFtUQ5SQi0DBUVNGFJeSwUIFxlJX3EIGloVWQIHV1pVCk8IWipURmsPBGQAID4LCC5fSxZjHyxxHXx2DisLBEcnBm8JG1sdXgQDXW5eCUkUAGYBGlsXbTYAVVlcCEwnVQEIGloUXAcHVVlZOEkXAm4BGVwdWg8yVFhaCUofAG0OElMQWjYCXFltQ56cnm4IG1IlbTYBZG5tCHsUMzFmGggTXwYHU14zVB1NQjUKTwJ7VQUHXFheAE4nAW4JGVklbTZ0LxcfDxBAARR4YVoSGg5dUAINYUt_fWtmGSlyJnhmUCxfcxRPQCp2WzsSbQUyU1peOA",
@@ -115,6 +117,20 @@
       "role": "保护IC",
       "evidence": {
         "value": "思远半导体SY8702",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置VDL紫建电子3.89V/530mAh锂电池，采用了WINSEMI稳先微WSDY3302E锂电保护IC，思远半导体SY8702低侧过压保护（OVP）IC，ETA钰泰ETA9030V电源管理芯片，Cmsemicon中微CMS8S5889单片机等方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA9030V",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "PMIC/充电仓管理",
+      "evidence": {
+        "value": "ETA9030V",
         "confidence": 0.85,
         "source_type": "summary_prose",
         "source_text": "充电盒内置VDL紫建电子3.89V/530mAh锂电池，采用了WINSEMI稳先微WSDY3302E锂电保护IC，思远半导体SY8702低侧过压保护（OVP）IC，ETA钰泰ETA9030V电源管理芯片，Cmsemicon中微CMS8S5889单片机等方案。"

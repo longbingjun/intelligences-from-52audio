@@ -1,0 +1,385 @@
+{
+  "canonical_id": "edifier--comfo-clip",
+  "brand": "EDIFIER漫步者",
+  "model": "Comfo Clip",
+  "category": "开放式耳机",
+  "report_ids": [
+    "221268"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "221268"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2024-12-06",
+  "latest_published": "2024-12-06",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "恒玄BES2700IHC",
+    "pmic_case": "",
+    "battery_ear": "3.85V/48mAh软包扣式",
+    "battery_case": "5V/00mAh锂电池",
+    "speaker": "振膜动圈",
+    "materials": "PC",
+    "weight_g": "55.8g",
+    "weight_case_g": "",
+    "weight_earbud_g": "5.9g",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 20,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "221268",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "5V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "5V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载500mAh锂电池，配备有电路保护板负责电池的过充电、过放电、过电流等保护。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "恒玄BES2700IHC",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2700IHC",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了一颗MEMS麦克风拾音，采用了BES恒玄BES2700IHC蓝牙音频SoC，Sunlord顺络电子MPHM系列功率电感等元器件。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "BES2700IH",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2700IH",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了一颗MEMS麦克风拾音，采用了BES恒玄BES2700IHC蓝牙音频SoC，Sunlord顺络电子MPHM系列功率电感等元器件。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3.85V/48mAh软包扣式",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "3.85V/48mAh软包扣式",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内置12mm复合振膜动圈单元，采用了3.85V 48mAh软包扣式电池；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "振膜动圈",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "振膜动圈",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内置12mm复合振膜动圈单元，采用了3.85V 48mAh软包扣式电池；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了一颗MEMS麦克风拾音，采用了BES恒玄BES2700IHC蓝牙音频SoC，Sunlord顺络电子MPHM系列功率电感等元器件。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面展示4种配色的整体外观，APP下载二维码，以及部分产品和公司信息。输入：5V-200mA（耳机），输出：5V-1A（充电盒），北京爱德发科技有限公司。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，上层通过双面胶固定电池单元，设置有泡棉缓冲防护。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "取掉电池，下方主板上设置有海绵垫防护。主板通过螺丝固定，与电池导线焊接。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "弯臂前侧的腔体外观一览，设置有麦克风拾音孔。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆解耳机部分，首先打开音腔，内部仅设置有扬声器单元。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体底部结构一览，设置有FPC蓝牙天线。麦克风拾音孔内侧有声学橡胶罩，提升收音效果。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网此前还拆解过漫步者Comfo Fit II开放式耳机、Lolli3 ANC、TWS5 PRO、NeoBuds S、NeoBuds Pro、LolliPods Pro、FunBuds、Lolli 3、TO-U2真无线耳机，HECATE GX07、HECATE GX05、HECATE GM45真无线游戏耳机，W830NB、W820NB、HECATE G4S雷霆版头戴式耳机，漫步者辅听1号助听/辅听耳机，花再NEW-X光冷能量音箱、HECATE G100磁吸蓝牙音响、M125、M0便携式蓝牙音箱等产品。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "随着用户使用耳机时长的持续增加，能够提供持久舒适佩戴的开放式耳机开始大范围普及。目前主流的开放式耳机，包括了耳挂式和耳夹式两种形态，而随着华为、BOSE等头部品牌相继发布耳夹式耳机，该形态的产品如春笋般快速增长。我爱音频网近期对11款热门的耳夹式耳机进行了横评，后续将再次通过拆解，为大家分享它们的内部硬件配置。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "漫步者Comfo Clip开放式耳机充电盒采用了鹅卵石状的圆润设计，类金属喷砂的质感，不沾染指纹。正面开盖处设计倒角便于开启，下方机身上一颗指示灯用于反馈蓝牙配对和充电状态。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒背面设置Type-C充电接口和蓝牙配对功能按键。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机底部外观一览，音腔出音孔通过金属盖板防护，后侧腔体上设置充电触点。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "撬开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2700IHC",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2700IHC",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄BES2700IHC蓝牙音频SoC，支持蓝牙双模V5.4，用于无线连接和音频数据处理。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2700IH",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2700IH",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄BES2700IHC蓝牙音频SoC，支持蓝牙双模V5.4，用于无线连接和音频数据处理。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 漫步者Comfo Clip开放式耳机在外观方面，整体设计简约时尚，质感比较出色。充电盒采用了鹅卵石状的设计，圆润无棱角，类金属喷砂质感，不易沾染指纹；耳夹式耳机，弹性弯臂采用了柔软亲肤材质包裹，腔体采用了光滑的烤漆工艺处理，佩戴舒适轻盈无感。 内部主要配置方面，充电盒搭载500mAh锂电池，配备有电路保护板负责电池的过充电、过放电、过电流等保护。耳机内置12mm复合振膜动圈单元，采用了3.85V 48mAh软包扣式电池；主板上，搭载了一颗MEMS麦克风拾音，采用了BES恒玄BES2700IHC蓝牙音频SoC，Sunlord顺络电子MPHM系列功率电感等元器件。",
+  "layer_refs": {
+    "technical": [
+      "report:221268"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "该耳机还支持AI通话降噪，提供清晰通话；支持双设备连接，低延迟游戏模式，带来声画同步的游戏体验；支持单次大于7小时，综合28小时的续航，支持快速充电，充电15分钟听歌约2.5小时；新增运动模式，通过专属APP，可以查看时间/里程/路线/配速/卡路里等运动数据。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "该耳机还支持AI通话降噪，提供清晰通话；支持双设备连接，低延迟游戏模式，带来声画同步的游戏体验；支持单次大于7小时，综合28小时的续航，支持快速充电，充电15分钟听歌约2.5小时；新增运动模式，通过专属APP，可以查看时间/里程/路线/配速/卡路里等运动数据。",
+          "confidence": 0.62,
+          "source_type": "text",
+          "source_text": "该耳机还支持AI通话降噪，提供清晰通话；支持双设备连接，低延迟游戏模式，带来声画同步的游戏体验；支持单次大于7小时，综合28小时的续航，支持快速充电，充电15分钟听歌约2.5小时；新增运动模式，通过专属APP，可以查看时间/里程/路线/配速/卡路里等运动数据。"
+        }
+      },
+      {
+        "text": "另外一侧的功能特点介绍：IP56防尘防水、12mm大尺寸单元、持久续航、空气感佩戴、双设备连接。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "另外一侧的功能特点介绍：IP56防尘防水、12mm大尺寸单元、持久续航、空气感佩戴、双设备连接。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "另外一侧的功能特点介绍：IP56防尘防水、12mm大尺寸单元、持久续航、空气感佩戴、双设备连接。"
+        }
+      },
+      {
+        "text": "为内置电池充电的金属连接器，设置有橡胶垫防尘防水。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "为内置电池充电的金属连接器，设置有橡胶垫防尘防水。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "为内置电池充电的金属连接器，设置有橡胶垫防尘防水。"
+        }
+      },
+      {
+        "text": "随着用户使用耳机时长的持续增加，能够提供持久舒适佩戴的\n开放式耳机\n开始大范围普及。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "随着用户使用耳机时长的持续增加，能够提供持久舒适佩戴的\n开放式耳机\n开始大范围普及。",
+          "confidence": 0.61,
+          "source_type": "text",
+          "source_text": "随着用户使用耳机时长的持续增加，能够提供持久舒适佩戴的\n开放式耳机\n开始大范围普及。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "该耳机还支持AI通话降噪，提供清晰通话；支持双设备连接，低延迟游戏模式，带来声画同步的游戏体验；支持单次大于7小时，综合28小时的续航，支持快速充电，充电15分钟听歌约2.5小时；新增运动模式，通过专属APP，可以查看时间/里程/路线/配速/卡路里等运动数据。",
+    "launch_date": null,
+    "best_report_id": "221268",
+    "best_video_id": null
+  }
+}

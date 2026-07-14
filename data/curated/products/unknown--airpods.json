@@ -1,0 +1,240 @@
+{
+  "canonical_id": "unknown--airpods",
+  "brand": "",
+  "model": "华强北AirPods",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "11467",
+    "230837"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "11467",
+    "230837"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2018-12-05",
+  "latest_published": "2025-03-10",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "ETA9640",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "360 mAh",
+    "speaker": "喇叭单元",
+    "materials": "塑料",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.0",
+    "bom_row_count": 11,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "11467",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "从正面看电池盒，缝隙处还算比较紧密。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "打开电池仓可以看到两只耳机竖直状态摆放在充电仓内，中间还有一个指示灯。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机充电盒的主板，左边是一颗无标单片机，右边是电源管理IC，ETA9640，负责对内部电池充电及升压输出。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "主板背面，塑料支撑框上贴有触摸条及蓝牙天线。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "底部通话麦克风。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "2、采用大动圈羊毛纸盆动圈单元，一定程度上可以加强音质；"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电仓最底下是充电触点。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "背面看到缝隙就比较大了，金属合页部分做工也不是很好，下面有一个圆形按键。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "打开电池仓可以看到两只耳机竖直状态摆放在充电仓内，中间还有一个指示灯。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA9640",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA9640",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "耳机充电盒的主板，左边是一颗无标单片机，右边是电源管理IC，ETA9640，负责对内部电池充电及升压输出。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA9640",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA9640",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "ETA钰泰 ETA9640，ETA9640是一颗专门针对移动电源设计的单芯片集成所有充电，放电以及空载识别，电量显示功能的PMU。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:11467",
+      "report:230837"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "在降噪方面，支持降噪功能和环境音监听模式，可以说是一款高性能的全能的TWS真无线蓝牙耳机一体化方案。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "在降噪方面，支持降噪功能和环境音监听模式，可以说是一款高性能的全能的TWS真无线蓝牙耳机一体化方案。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "在降噪方面，支持降噪功能和环境音监听模式，可以说是一款高性能的全能的TWS真无线蓝牙耳机一体化方案。"
+        }
+      },
+      {
+        "text": "半入耳式的耳塞，一侧有防尘滤网。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "半入耳式的耳塞，一侧有防尘滤网。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "半入耳式的耳塞，一侧有防尘滤网。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "在降噪方面，支持降噪功能和环境音监听模式，可以说是一款高性能的全能的TWS真无线蓝牙耳机一体化方案。",
+    "launch_date": null,
+    "best_report_id": "11467",
+    "best_video_id": null
+  }
+}

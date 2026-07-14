@@ -1,0 +1,449 @@
+{
+  "canonical_id": "unknown--e3",
+  "brand": "",
+  "model": "小天才耳机E3",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "147490",
+    "30718"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "147490",
+    "30718"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2019-11-08",
+  "latest_published": "2023-02-07",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "SS881",
+    "pmic_case": "思远半导体 思远半导体SY5320",
+    "battery_ear": "电池",
+    "battery_case": "赣锋 4V/25mAh锂电池",
+    "speaker": "12mm 动圈单元",
+    "materials": "硅胶、PC",
+    "weight_g": "40.9g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.2",
+    "bom_row_count": 23,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "147490",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "思远半导体",
+      "model": "思远半导体SY5320",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "思远半导体SY5320",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内部采用了新余赣锋的425mAh锂电池，Type-C端口处设置有一颗思远半导体SY5320过压过流保护IC；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SS881",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "MCU",
+      "evidence": {
+        "value": "SS881",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了SinhMicro昇生微电子SS881A POWER MCU，负责为内置电池充电和整机控制；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "赣锋",
+      "model": "4V/25mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "4V/25mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内部采用了新余赣锋的425mAh锂电池，Type-C端口处设置有一颗思远半导体SY5320过压过流保护IC；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1126B",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "保护IC",
+      "evidence": {
+        "value": "CM1126B",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机采用了EVE亿纬锂能的钢壳扣式电池，容量40mAh，配备了iCM创芯微CM1126B-GAC锂电保护IC，实现对电池的过充电、过放电、过电流等保护，还支持船运模式，使小容量电池包满足海运运输及长期存储需求。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "恒玄BES2500IU",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2500IU",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片采用了BES恒玄BES2500IU蓝牙音频SoC，低功耗设计，超低底噪，支持蓝牙5.2，内置512K SRAM, 2M/4M FLASH。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "12mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "12mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "内侧腔体内部搭载12mm动圈单元，羊毛纸复合材料振膜，提供细腻、清亮的音频效果；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "搭载了两颗敏芯微电子的MEMS麦克风，用于语音通话拾音；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面介绍有产品的功能特点和详细参数信息。包括：非凡音质、舒适佩戴、护耳设置、夹耳佩戴；产品名称:小天才耳机 E3，耳机型号：E2202AC，充电盒型号：E2202ACB，耳机电池容量：38mAh，充电盒电池容量：425mAh，充电盒充电输入：5V⎓0.45A，蓝牙版本：5.2，颜色：皓白，制造商：广东小天才科技有限公司。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "针对于儿童使用，小天才耳机E3配备了家长端APP，可以通过APP为耳机设置不同的音量模式，超时佩戴提醒等，以防止儿童耳朵疲劳受损；通过使用报告，还可以了解孩子使用情况，引导孩子合理用耳，养成好习惯。续航方面，耳机单次续航时间4.5h，搭配充电仓综合续航20h。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部结构一览，主板和电源输入小板均通过螺丝固定，导线焊点打胶防护。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体侧边的麦克风拾音孔特写，内部防尘网防护。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "小天才耳机E3在功能配置方面，采用了12mm扬声器和羊毛纸复合材料振膜，声场广阔，声音清亮；支持ENC智能降噪，提供清晰通话；支持一键发音功能，方便丢失找寻。搭配小天才、步步高系列产品使用，还支持个性化弹窗快速连接。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "小天才耳机E3在功能配置方面，采用了12mm扬声器和羊毛纸复合材料振膜，声场广阔，声音清亮；支持ENC智能降噪，提供清晰通话；支持一键发音功能，方便丢失找寻。搭配小天才、步步高系列产品使用，还支持个性化弹窗快速连接。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "后腔底部结构一览，设置有蓝牙天线，通过印刷电极连接到主板。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "内侧腔体上的出音嘴特写，防尘网防护，防止异物进入音腔。外壳上还设计有R右标志，便于用户快速区分。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒背面设置有一颗蓝牙配对功能按键，以及用于反馈配对和充电状态的指示灯。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒背面设置有一颗蓝牙配对功能按键，以及用于反馈配对和充电状态的指示灯。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒为耳机充电的小板特写，设置有两颗Pogo Pin连接器。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SS881",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SS881",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "SinhMicro昇生微电子SS881A POWER MCU，是一颗集成了充放电管理的AD型Flash单片机，集成了电源管理单元和充电管理单元，提供全软件实时可配置的充电电压电流设置。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY5320",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY5320",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "思远半导体SY5320过压过流保护IC，是一款具有输入欠压和过压保护、锂电池前端过压保护、负载电流异常保护以及过温保护等特点集一身的高集成保护IC，支持28V输入耐压，过压关断保护小于1uS，支持高精度电池过压保护功能，采用DFN-2x2-8L封装。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1126B",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM1126B",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "iCM创芯微CM1126B-GAC带船运模式二合一单节电池保护IC，内置有高精度电压检测电路和延迟电路，通过检测电池的电压、电流，实现对电池的过充电、过放电、过电流等保护，适用于单节锂离子/锂聚合物可充电电池的保护电路，更带有船运模式，使小容量电池包满足海运运输及长期存储需求。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2500",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2500",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "耳机内部的主控芯片采用了BES恒玄BES2500系列蓝牙音频SoC，不同后缀配置和功能不相同。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2500IUC",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2500IUC",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "恒玄BES2500IUC/IU/IZ系列，支持蓝牙5.2，超低底噪，512K SRAM, 2M/4M FLASH，为高性价比方案。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 小天才耳机E3作为一款专为儿童设计的产品，通过开放式聆听音乐的方式，有效降低了对正在生长发育的儿童的影响，同时佩戴耳机依然能够轻松获取外部信息，提升了使用耳机的安全性。耳机耳夹式的结构设计，弹性弯臂搭配亲肤硅胶材质，保障了佩戴的舒适性和稳定性；充电盒外观圆润，体积小巧轻便，开放式的座舱结构，通过磁吸稳定固定，取放非常便捷。 内部结构配置方面，结构契合独特腔体设计，极大利用了内部空间，保障了产品的便携性。充电盒内部采用了新余赣锋的425mAh锂电池，Type-C端口处设置有一颗思远半导体SY5320过压过流保护IC；主板上，搭载了SinhMicro昇生微电子SS881A POWER MCU，负责为内置电池充电和整机控制；LPS微源半导体LP6261超低静态电流同步升压转换器，用于将充电盒内置电池升压为耳机充电。 耳机内部，外侧腔体内部设置电池和佩戴检测传感器单元，通过排线穿过弯臂连接到内侧腔体的主板。耳机采用了EVE亿纬锂能的钢壳扣式电池，容量40mAh，配备了iCM创芯微CM1126B-GAC锂电保护IC，实现对电池的过充电、过放电、过电流等保护，还支持船运模式，使小容量电池包满足海运运输及长期存储需求。 内侧腔体内部搭载12mm动圈单元，羊毛纸复合材料振膜，提供细腻、清亮的音频效果；搭载了两颗敏芯微电子的MEMS麦克风，用于语音通话拾音；主控芯片采用了BES恒玄BES2500IU蓝牙音频SoC，低功耗设计，超低底噪，支持蓝牙5.2，内置512K SRAM, 2M/4M FLASH。",
+  "layer_refs": {
+    "technical": [
+      "report:147490",
+      "report:30718"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "据我爱音频网拆解了解到，目前已有\n漫步者\n、\n倍思\n、\n猛玛\n、\n万魔、233621、传音、魔宴、创新科技、一加、\n小米、OPPO、realme、魅族、百度、网易、JBL、哈曼、联想等\n国内外知名品牌采用思远半导体的电源管理芯片。",
+        "tag": "其他",
+        "evidence": {
+          "value": "据我爱音频网拆解了解到，目前已有\n漫步者\n、\n倍思\n、\n猛玛\n、\n万魔、233621、传音、魔宴、创新科技、一加、\n小米、OPPO、realme、魅族、百度、网易、JBL、哈曼、联想等\n国内外知名品牌采用思远半导体的电源管理芯片。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "据我爱音频网拆解了解到，目前已有\n漫步者\n、\n倍思\n、\n猛玛\n、\n万魔、233621、传音、魔宴、创新科技、一加、\n小米、OPPO、realme、魅族、百度、网易、JBL、哈曼、联想等\n国内外知名品牌采用思远半导体的电源管理芯片。"
+        }
+      },
+      {
+        "text": "小天才耳机E3在功能配置方面，采用了12mm扬声器和羊毛纸复合材料振膜，声场广阔，声音清亮；支持ENC智能降噪，提供清晰通话；支持一键发音功能，方便丢失找寻。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "小天才耳机E3在功能配置方面，采用了12mm扬声器和羊毛纸复合材料振膜，声场广阔，声音清亮；支持ENC智能降噪，提供清晰通话；支持一键发音功能，方便丢失找寻。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "小天才耳机E3在功能配置方面，采用了12mm扬声器和羊毛纸复合材料振膜，声场广阔，声音清亮；支持ENC智能降噪，提供清晰通话；支持一键发音功能，方便丢失找寻。"
+        }
+      },
+      {
+        "text": "腔体侧边的麦克风拾音孔特写，内部防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "腔体侧边的麦克风拾音孔特写，内部防尘网防护。",
+          "confidence": 0.7,
+          "source_type": "text",
+          "source_text": "腔体侧边的麦克风拾音孔特写，内部防尘网防护。"
+        }
+      },
+      {
+        "text": "内侧腔体上的出音嘴特写，防尘网防护，防止异物进入音腔。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "内侧腔体上的出音嘴特写，防尘网防护，防止异物进入音腔。",
+          "confidence": 0.69,
+          "source_type": "text",
+          "source_text": "内侧腔体上的出音嘴特写，防尘网防护，防止异物进入音腔。"
+        }
+      },
+      {
+        "text": "另外一颗相同型号的MEMS麦克风特写，两颗麦克风协同，搭配ENC降噪算法，提供高清通话效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "另外一颗相同型号的MEMS麦克风特写，两颗麦克风协同，搭配ENC降噪算法，提供高清通话效果。",
+          "confidence": 0.68,
+          "source_type": "text",
+          "source_text": "另外一颗相同型号的MEMS麦克风特写，两颗麦克风协同，搭配ENC降噪算法，提供高清通话效果。"
+        }
+      },
+      {
+        "text": "包括：非凡音质、舒适佩戴、护耳设置、夹耳佩戴；产品名称:小天才耳机 E3，耳机型号：E2202AC，充电盒型号：E2202ACB，耳机电池容量：38mAh，充电盒电池容量：425mAh，充电盒充电输入：5V⎓0.45A，蓝牙版本：5.2，颜色：皓白，制造商：广东小天才科技有限公司。",
+        "tag": "舒适佩戴",
+        "evidence": {
+          "value": "包括：非凡音质、舒适佩戴、护耳设置、夹耳佩戴；产品名称:小天才耳机 E3，耳机型号：E2202AC，充电盒型号：E2202ACB，耳机电池容量：38mAh，充电盒电池容量：425mAh，充电盒充电输入：5V⎓0.45A，蓝牙版本：5.2，颜色：皓白，制造商：广东小天才科技有限公司。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "包括：非凡音质、舒适佩戴、护耳设置、夹耳佩戴；产品名称:小天才耳机 E3，耳机型号：E2202AC，充电盒型号：E2202ACB，耳机电池容量：38mAh，充电盒电池容量：425mAh，充电盒充电输入：5V⎓0.45A，蓝牙版本：5.2，颜色：皓白，制造商：广东小天才科技有限公司。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "通话"
+    ],
+    "positioning_summary": "据我爱音频网拆解了解到，目前已有\n漫步者\n、\n倍思\n、\n猛玛\n、\n万魔、233621、传音、魔宴、创新科技、一加、\n小米、OPPO、realme、魅族、百度、网易、JBL、哈曼、联想等\n国内外知名品牌采用思远半导体的电源管理芯片。",
+    "launch_date": null,
+    "best_report_id": "147490",
+    "best_video_id": null
+  }
+}

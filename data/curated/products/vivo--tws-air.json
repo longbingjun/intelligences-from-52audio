@@ -1,0 +1,277 @@
+{
+  "canonical_id": "vivo--tws-air",
+  "brand": "vivo",
+  "model": "TWS Air",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "122844"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "122844"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2022-06-21",
+  "latest_published": "2022-06-21",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "恒玄BES2500IU",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "430 mAh",
+    "speaker": "喇叭单元",
+    "materials": "PC",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.2",
+    "bom_row_count": 11,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "122844",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "另外一侧印有输入：5V-0.5A，输出：5V-0.2A，电池：3.8V 430mAh 1.63Wh，SN：300C4S008M11100。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "通话降噪麦克风拾音孔特写，抗风噪设计，避免了麦克风被风直吹，降低风噪影响。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部设置主板单元。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电接口：充电盒底部Type-C充电接口特写。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "功能配置方面，vivo TWS Air真无线耳机采用了14.2mm大动圈单元，支持DeepX 2.0立体声效，拥有超重低音、清澈人声、清亮高音三种调音风格；支持双麦AI通话降噪，清晰收录人声并过滤杂音，提供清晰地语音通话效果；支持蓝牙5.2，支持AAC/SBC音频解码，提供25小时的综合续航。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱一侧结构一览，设置有一条FPC排线，连接指示灯。腔体内部固定电池单元，设置海绵垫保护。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "后腔内部泄压孔特写，细密防尘网防护。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2500IU",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2500IU",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：430\n芯片 SY8815\n芯片 CM1126B\n芯片 思远半导体SY8602\n芯片 恒玄BES2500IU\n芯片 恒玄BES2500IUC\n芯片 BES2500"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8602",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8602",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：430\n芯片 SY8815\n芯片 CM1126B\n芯片 思远半导体SY8602\n芯片 恒玄BES2500IU\n芯片 恒玄BES2500IUC\n芯片 BES2500"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SY8815",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SY8815",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：430\n芯片 SY8815\n芯片 CM1126B\n芯片 思远半导体SY8602\n芯片 恒玄BES2500IU\n芯片 恒玄BES2500IUC\n芯片 BES2500"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1126B",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM1126B",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：430\n芯片 SY8815\n芯片 CM1126B\n芯片 思远半导体SY8602\n芯片 恒玄BES2500IU\n芯片 恒玄BES2500IUC\n芯片 BES2500"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:122844"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "vivo TWS 2真无线降噪耳机、vivo TWS Earphone真无线耳机，以及vivo X70 Pro […]\nvivo TWS Air真无线耳机\n是vivo近期推出的一款主打轻巧舒适佩戴、好听音质、双麦AI通话降噪的产品。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "vivo TWS 2真无线降噪耳机、vivo TWS Earphone真无线耳机，以及vivo X70 Pro […]\nvivo TWS Air真无线耳机\n是vivo近期推出的一款主打轻巧舒适佩戴、好听音质、双麦AI通话降噪的产品。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "vivo TWS 2真无线降噪耳机、vivo TWS Earphone真无线耳机，以及vivo X70 Pro […]\nvivo TWS Air真无线耳机\n是vivo近期推出的一款主打轻巧舒适佩戴、好听音质、双麦AI通话降噪的产品。"
+        }
+      },
+      {
+        "text": "通话降噪麦克风拾音孔特写，抗风噪设计，避免了麦克风被风直吹，降低风噪影响。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "通话降噪麦克风拾音孔特写，抗风噪设计，避免了麦克风被风直吹，降低风噪影响。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "通话降噪麦克风拾音孔特写，抗风噪设计，避免了麦克风被风直吹，降低风噪影响。"
+        }
+      },
+      {
+        "text": "镭雕MD24 D141的MEMS麦克风特写，用于通话降噪功能拾音，来自敏芯微电子，型号MSM381ACBB10-020，是一款全方位、底端口、模拟输出MEMS话筒。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "镭雕MD24 D141的MEMS麦克风特写，用于通话降噪功能拾音，来自敏芯微电子，型号MSM381ACBB10-020，是一款全方位、底端口、模拟输出MEMS话筒。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "镭雕MD24 D141的MEMS麦克风特写，用于通话降噪功能拾音，来自敏芯微电子，型号MSM381ACBB10-020，是一款全方位、底端口、模拟输出MEMS话筒。"
+        }
+      },
+      {
+        "text": "机身顶部有一颗麦克风开孔，用于通话降噪功能拾音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "机身顶部有一颗麦克风开孔，用于通话降噪功能拾音。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "机身顶部有一颗麦克风开孔，用于通话降噪功能拾音。"
+        }
+      },
+      {
+        "text": "通话拾音麦克风声学结构特写，用于提升收音性能，同样为抗风噪结构设计。",
+        "tag": "其他",
+        "evidence": {
+          "value": "通话拾音麦克风声学结构特写，用于提升收音性能，同样为抗风噪结构设计。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "通话拾音麦克风声学结构特写，用于提升收音性能，同样为抗风噪结构设计。"
+        }
+      },
+      {
+        "text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：盒盖内一侧印有产品名称：vivo TWS Air，型号：XE W25，CMIIT ID：2022DP4715，维沃移动通信有限公司，中国制造。",
+        "tag": "其他",
+        "evidence": {
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：盒盖内一侧印有产品名称：vivo TWS Air，型号：XE W25，CMIIT ID：2022DP4715，维沃移动通信有限公司，中国制造。",
+          "confidence": 0.7,
+          "source_type": "text",
+          "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：盒盖内一侧印有产品名称：vivo TWS Air，型号：XE W25，CMIIT ID：2022DP4715，维沃移动通信有限公司，中国制造。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "vivo TWS 2真无线降噪耳机、vivo TWS Earphone真无线耳机，以及vivo X70 Pro […]\nvivo TWS Air真无线耳机\n是vivo近期推出的一款主打轻巧舒适佩戴、好听音质、双麦AI通话降噪的产品。",
+    "launch_date": null,
+    "best_report_id": "122844",
+    "best_video_id": null
+  }
+}

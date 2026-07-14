@@ -1,0 +1,419 @@
+{
+  "canonical_id": "unknown--iqoo-tws-air",
+  "brand": "",
+  "model": "iQOO TWS Air",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "147615"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "147615"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-02-07",
+  "latest_published": "2023-02-07",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "思远半导体SY8815",
+    "pmic_case": "思远半导体 思远半导体SY8602",
+    "battery_ear": "电池",
+    "battery_case": "4V/20mAh锂电池",
+    "speaker": "动圈单元",
+    "materials": "PC",
+    "weight_g": "37.5g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.2",
+    "bom_row_count": 21,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "147615",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "思远半导体",
+      "model": "思远半导体SY8815",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8815",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上采用了思远半导体SY8815蓝牙耳机充电仓解决方案负责电池的充放电管理，还采用了Nations国民技术N32G031K8Q7 MCU单片机，用于充电盒的整机控制。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "恒玄BES2500IU",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2500IU",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了BES恒玄BES2500IU蓝牙音频SoC，iCM创芯微CM1126B-WAC带船运模式二合一单节电池保护IC，思远半导体SY8602线性锂电池充电器，YNITRON海栎创HK01PP低功耗单通道触控芯片，以及两颗敏芯微的MEMS麦克风用于语音通话拾音。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "思远半导体",
+      "model": "思远半导体SY8602",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "思远半导体SY8602",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了BES恒玄BES2500IU蓝牙音频SoC，iCM创芯微CM1126B-WAC带船运模式二合一单节电池保护IC，思远半导体SY8602线性锂电池充电器，YNITRON海栎创HK01PP低功耗单通道触控芯片，以及两颗敏芯微的MEMS麦克风用于语音通话拾音。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1126B",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "CM1126B",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了BES恒玄BES2500IU蓝牙音频SoC，iCM创芯微CM1126B-WAC带船运模式二合一单节电池保护IC，思远半导体SY8602线性锂电池充电器，YNITRON海栎创HK01PP低功耗单通道触控芯片，以及两颗敏芯微的MEMS麦克风用于语音通话拾音。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "4V/20mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "4V/20mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置了VDL紫建电子420mAh锂电池，Type-C输入端口配备了一颗WillSemi韦尔半导体ESD56241D18 TVS保护管，用于输入过压保护；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机头内部搭载了14.2mm超大动圈单元和27mAh软包扣式电池，排线通过连接器连接到耳机柄内部主板，有效提升了组装生产的便捷性。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了BES恒玄BES2500IU蓝牙音频SoC，iCM创芯微CM1126B-WAC带船运模式二合一单节电池保护IC，思远半导体SY8602线性锂电池充电器，YNITRON海栎创HK01PP低功耗单通道触控芯片，以及两颗敏芯微的MEMS麦克风用于语音通话拾音。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "iQOO TWS Air搭配vivo系的手机、平板等产品使用，支持一键闪连功能，不同设备同一账号，耳机开盖自动弹窗连接，无需再次配对；还支持Jovi语音助手、来电播报、消息播报、实时翻译、查找耳机等功能。在续航方面，耳机支持单次4.8h聆听，搭配充电盒最长续航时间25小时。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "另外一侧参数信息，输入： 5V-0.5A，输出：5V-0.2A，电池：3.8V 430mAh 1.63Wh。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部设置主板单元，Type-C母座设计有橡胶垫缓冲。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄底部设置为耳机充电的金属触点，以及语音通话麦克风拾音孔。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "iQOO TWS Air真无线耳机在功能配置方面，搭载了14.2mm超大动圈单元，生物碳纤维复合振膜，更好的动态范围带来更丰富的细节表现；还经由金耳朵专家与电竞发烧友联合调音，提供身临其境的电竞音效；支持的双麦AI通话降噪功能，使游戏开黑始终保持清晰的语音沟通；支持蓝牙5.2，支持游戏低延迟，提供声画同步的流畅体验。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "取出主板，盖板内侧结构一览，还设置有一层白色盖板，下方设置蓝牙天线和触摸检测传感器，排线露铜连接到主板。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒背面设置有一颗功能按键，用于蓝牙配对。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "iQOO TWS Air真无线耳机充电盒采用了黑黄撞色设计，环形腰线贯穿前后，观感极具活力。机身通过三层喷涂工艺处理，带来细腻磨砂质感。正面还设计有“iQOO”品牌LOGO和一颗指示灯。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒外壳内侧结构一览，腔体壁上设置有定位槽用于固定座舱。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8815",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8815",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "思远半导体SY8815蓝牙耳机充电仓解决方案，专为蓝牙耳机仓设计，内部集成充电模块和放电模块。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SY8815",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SY8815",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "SY8815放电使能控制，MCU可以直接通过EN来灵活控制芯片的放电功能。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2500IU",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2500IU",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄BES2500IU蓝牙音频SoC，BES2500系列不同后缀配置和功能不相同。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2500IUC",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2500IUC",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "恒玄BES2500IUC/IU/IZ系列，支持蓝牙5.2，超低底噪，512K SRAM, 2M/4M FLASH，为高性价比方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1126B",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM1126B",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "iCM创芯微CM1126B-WAC带船运模式二合一单节电池保护IC，内置有高精度电压检测电路和延迟电路，通过检测电池的电压、电流，实现对电池的过充电、过放电、过电流等保护，适用于单节锂离子/锂聚合物可充电电池的保护电路，更带有船运模式，使小容量电池包满足海运运输及长期存储需求。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 从外观设计和内部结构配置方面不难看出，iQOO TWS Air真无线耳机与老大哥旗下的 vivo TWS Air 产品有着千丝万缕的联系，不过采用的更加符合iQOO电竞风格的前卫黑黄撞色设计，搭配上3.6g轻巧半入耳式设计带来的舒适佩戴体验，也算为vivo系手机用户提供了一种不错的新选择。 内部主要配置方面，充电盒内置了VDL紫建电子420mAh锂电池，Type-C输入端口配备了一颗WillSemi韦尔半导体ESD56241D18 TVS保护管，用于输入过压保护；主板上采用了思远半导体SY8815蓝牙耳机充电仓解决方案负责电池的充放电管理，还采用了Nations国民技术N32G031K8Q7 MCU单片机，用于充电盒的整机控制。 耳机头内部搭载了14.2mm超大动圈单元和27mAh软包扣式电池，排线通过连接器连接到耳机柄内部主板，有效提升了组装生产的便捷性。主板上，搭载了BES恒玄BES2500IU蓝牙音频SoC，iCM创芯微CM1126B-WAC带船运模式二合一单节电池保护IC，思远半导体SY8602线性锂电池充电器，YNITRON海栎创HK01PP低功耗单通道触控芯片，以及两颗敏芯微的MEMS麦克风用于语音通话拾音。",
+  "layer_refs": {
+    "technical": [
+      "report:147615"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "通话降噪麦克风声学结构特写，“L”型抗风噪设计，避免直吹，降低风噪影响。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "通话降噪麦克风声学结构特写，“L”型抗风噪设计，避免直吹，降低风噪影响。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "通话降噪麦克风声学结构特写，“L”型抗风噪设计，避免直吹，降低风噪影响。"
+        }
+      },
+      {
+        "text": "通话降噪麦克风采用了与通话拾音麦克风相同的型号，两颗麦克风协同，搭配AI通话降噪算法，为游戏开黑、语音通话等场景提供清晰的音频效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "通话降噪麦克风采用了与通话拾音麦克风相同的型号，两颗麦克风协同，搭配AI通话降噪算法，为游戏开黑、语音通话等场景提供清晰的音频效果。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "通话降噪麦克风采用了与通话拾音麦克风相同的型号，两颗麦克风协同，搭配AI通话降噪算法，为游戏开黑、语音通话等场景提供清晰的音频效果。"
+        }
+      },
+      {
+        "text": "耳机顶部的通话降噪麦克风拾音孔特写。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "耳机顶部的通话降噪麦克风拾音孔特写。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "耳机顶部的通话降噪麦克风拾音孔特写。"
+        }
+      },
+      {
+        "text": "iQOO作为vivo旗下子品牌，专注于年轻人群，通过顶级性能+顶级电竞的配置，致力于为消费者提供一流的操控体验。",
+        "tag": "旗舰定位",
+        "evidence": {
+          "value": "iQOO作为vivo旗下子品牌，专注于年轻人群，通过顶级性能+顶级电竞的配置，致力于为消费者提供一流的操控体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "iQOO作为vivo旗下子品牌，专注于年轻人群，通过顶级性能+顶级电竞的配置，致力于为消费者提供一流的操控体验。"
+        }
+      },
+      {
+        "text": "据我爱音频网拆解了解到，目前已有\n一加\n、\n漫步者\n、\n倍思\n、\nQCY\n、\n猛玛\n、\n万魔、233621、传音、魔宴、创新科技、\n小米、OPPO、realme、魅族、百度、网易、JBL、哈曼、联想等\n国内外知名品牌采用思远半导体的电源管理芯片。",
+        "tag": "其他",
+        "evidence": {
+          "value": "据我爱音频网拆解了解到，目前已有\n一加\n、\n漫步者\n、\n倍思\n、\nQCY\n、\n猛玛\n、\n万魔、233621、传音、魔宴、创新科技、\n小米、OPPO、realme、魅族、百度、网易、JBL、哈曼、联想等\n国内外知名品牌采用思远半导体的电源管理芯片。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "据我爱音频网拆解了解到，目前已有\n一加\n、\n漫步者\n、\n倍思\n、\nQCY\n、\n猛玛\n、\n万魔、233621、传音、魔宴、创新科技、\n小米、OPPO、realme、魅族、百度、网易、JBL、哈曼、联想等\n国内外知名品牌采用思远半导体的电源管理芯片。"
+        }
+      },
+      {
+        "text": "三、我爱音频网总结\n从外观设计和内部结构配置方面不难看出，iQOO TWS Air真无线耳机与老大哥旗下的\nvivo TWS Air\n产品有着千丝万缕的联系，不过采用的更加符合iQOO电竞风格的前卫黑黄撞色设计，搭配上3.6g轻巧半入耳式设计带来的舒适佩戴体验，也算为vivo系手机用户提供了一种不错的新选择。",
+        "tag": "舒适佩戴",
+        "evidence": {
+          "value": "三、我爱音频网总结\n从外观设计和内部结构配置方面不难看出，iQOO TWS Air真无线耳机与老大哥旗下的\nvivo TWS Air\n产品有着千丝万缕的联系，不过采用的更加符合iQOO电竞风格的前卫黑黄撞色设计，搭配上3.6g轻巧半入耳式设计带来的舒适佩戴体验，也算为vivo系手机用户提供了一种不错的新选择。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\n从外观设计和内部结构配置方面不难看出，iQOO TWS Air真无线耳机与老大哥旗下的\nvivo TWS Air\n产品有着千丝万缕的联系，不过采用的更加符合iQOO电竞风格的前卫黑黄撞色设计，搭配上3.6g轻巧半入耳式设计带来的舒适佩戴体验，也算为vivo系手机用户提供了一种不错的新选择。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话",
+      "电竞"
+    ],
+    "positioning_summary": "通话降噪麦克风声学结构特写，“L”型抗风噪设计，避免直吹，降低风噪影响。",
+    "launch_date": null,
+    "best_report_id": "147615",
+    "best_video_id": null
+  }
+}

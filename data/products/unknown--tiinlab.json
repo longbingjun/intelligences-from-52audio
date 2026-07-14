@@ -1,0 +1,377 @@
+{
+  "canonical_id": "unknown--tiinlab",
+  "brand": "荣耀",
+  "model": "TiinLab",
+  "category": "开放式耳机",
+  "report_ids": [
+    "196430"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "196430"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2024-04-19",
+  "latest_published": "2024-04-19",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "恒玄BES2600IHC-4X",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "6V/00mAh锂电池",
+    "speaker": "振膜动圈",
+    "materials": "硅胶",
+    "weight_g": "65g",
+    "weight_case_g": "",
+    "weight_earbud_g": "7.2g",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 18,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "196430",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "恒玄BES2600IHC-4X",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2600IHC-4X",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，设置有两颗MEMS麦克风拾音，采用了BES恒玄BES2600IHC-4X蓝牙音频SoC。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "BES2600IHC-4X",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2600IHC-4X",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，设置有两颗MEMS麦克风拾音，采用了BES恒玄BES2600IHC-4X蓝牙音频SoC。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "BES2600IHC",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2600IHC",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，设置有两颗MEMS麦克风拾音，采用了BES恒玄BES2600IHC-4X蓝牙音频SoC。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "6V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "6V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内部结构设计简洁，充电盒仅包括主板和电池单元，采用了600mAh锂电池，配备苏州赛芯电子科技股份XB5352A一体化锂电保护IC，负责过充电、过放电、过电流等保护。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "振膜动圈",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "振膜动圈",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "主要配置上，搭载13.4mm钛金属复合振膜动圈单元，内置60mAh锂电池；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "2",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "主板上，设置有两颗MEMS麦克风拾音，采用了BES恒玄BES2600IHC-4X蓝牙音频SoC。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "荣耀亲选TiinLab开放式耳机支持蓝牙5.3，提供低功耗和稳定的无线连接；支持低延时游戏模式，提供趋近于音画同步的游戏体验；另外耳机还支持IP54级防尘防水，无惧雨水、尘土。续航方面，耳机单次续航可达10小时，搭配充电盒使用，综合续航时间40小时；支持快充，充电10分钟，可听2小时。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盒盖内侧设置有橡胶条，用于更好的固定耳机。印有产品参数信息，型号：ORL-ME00，电池容量：600mAh 2.22Wh，输入：5V-1A，输出：5V-0.3A，中国制造。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，主板通过螺丝固定，电池设置在独立腔体内，导线与主板焊接。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在功能配置上，荣耀亲选TiinLab开放式耳机搭载内置定制级13.4mm大动圈，支持低音增强算法引擎，可自动识别音量变化，实时优化低音变现；支持空气定向传声，声音精准不漏音，保证听音私密性。搭载双麦克风AI通话降噪技术，提高嘈杂环境下的抗干扰能力，保证拾音清晰度。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧结构一览，设置有蓝牙天线和触摸检测传感器，露铜连接到主板。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "扬声器正面振膜特写，采用了钛金属复合振膜，低音强劲富有弹性，中高频更透亮，搭配双调音孔，提供更均衡的自然听感。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "BES恒玄BES2600IHC-4X是一款高度集成的蓝牙SoC，支持双模蓝牙5.3。芯片内置STAR-MC1 CPU，集成2MB Flash、高性能PMU及充电Charger。支持环境降噪和AI ENC通话，具备强大的应用程序处理能力，有效提升耳机的单次续航时间。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "荣耀亲选TiinLab开放式耳机整体外观一览，耳机采用了挂耳式设计，由富有弹性的耳挂和音腔组成，观感同样非常简约。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒背面设置Type-C充电接口和蓝牙配对按键。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面外观一览，开盖处设计有倒角，便于开启。设置有一颗指示灯，用于蓝牙配对和反馈充电状态。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电的外壳，取出内部座舱结构。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SS881",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SS881",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "SinhMicro昇生微电子SS881AH POWER MCU，是一颗集成了充放电管理的AD型Flash单片机，集成了电源管理单元和充电管理单元，提供全软件实时可配置的充电电压电流设置。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 荣耀亲选TiinLab开放式耳机在外观方面，整体设计简约，体积轻巧，喷砂工艺处理，拥有着不错的质感。耳挂式耳机，采用了内嵌记忆金属丝，搭配硅胶材质包裹，佩戴稳固的同时可适配不同耳形用户，提供长久佩戴的舒适聆听。 内部结构设计简洁，充电盒仅包括主板和电池单元，采用了600mAh锂电池，配备苏州赛芯电子科技股份XB5352A一体化锂电保护IC，负责过充电、过放电、过电流等保护。 耳机所有元器件均位于腔体内，扬声器设置独立音腔，降低干扰，提升音质。主要配置上，搭载13.4mm钛金属复合振膜动圈单元，内置60mAh锂电池；主板上，设置有两颗MEMS麦克风拾音，采用了BES恒玄BES2600IHC-4X蓝牙音频SoC。",
+  "layer_refs": {
+    "technical": [
+      "report:196430"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "在功能配置上，荣耀亲选TiinLab开放式耳机搭载内置定制级13.4mm大动圈，支持低音增强算法引擎，可自动识别音量变化，实时优化低音变现；支持空气定向传声，声音精准不漏音，保证听音私密性。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "在功能配置上，荣耀亲选TiinLab开放式耳机搭载内置定制级13.4mm大动圈，支持低音增强算法引擎，可自动识别音量变化，实时优化低音变现；支持空气定向传声，声音精准不漏音，保证听音私密性。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "在功能配置上，荣耀亲选TiinLab开放式耳机搭载内置定制级13.4mm大动圈，支持低音增强算法引擎，可自动识别音量变化，实时优化低音变现；支持空气定向传声，声音精准不漏音，保证听音私密性。"
+        }
+      },
+      {
+        "text": "镭雕MF47 D174的MEMS麦克风特写，用于通话降噪功能拾音，来自敏芯微电子。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "镭雕MF47 D174的MEMS麦克风特写，用于通话降噪功能拾音，来自敏芯微电子。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "镭雕MF47 D174的MEMS麦克风特写，用于通话降噪功能拾音，来自敏芯微电子。"
+        }
+      },
+      {
+        "text": "搭载双麦克风AI通话降噪技术，提高嘈杂环境下的抗干扰能力，保证拾音清晰度。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "搭载双麦克风AI通话降噪技术，提高嘈杂环境下的抗干扰能力，保证拾音清晰度。",
+          "confidence": 0.64,
+          "source_type": "text",
+          "source_text": "搭载双麦克风AI通话降噪技术，提高嘈杂环境下的抗干扰能力，保证拾音清晰度。"
+        }
+      },
+      {
+        "text": "另外一颗镭雕MF47 D174的MEMS麦克风特写，用于语音通话拾取人声，两颗麦克风协同，搭配降噪算法，提供清晰通话。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "另外一颗镭雕MF47 D174的MEMS麦克风特写，用于语音通话拾取人声，两颗麦克风协同，搭配降噪算法，提供清晰通话。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "另外一颗镭雕MF47 D174的MEMS麦克风特写，用于语音通话拾取人声，两颗麦克风协同，搭配降噪算法，提供清晰通话。"
+        }
+      },
+      {
+        "text": "在近期的荣耀春季旗舰新品发布会上，荣耀发布了旗下首款开放式耳机——荣耀亲选TiinLab，外观上采用挂耳式耳机，解放了耳道，佩戴轻透不夹耳，舒适更安全。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "在近期的荣耀春季旗舰新品发布会上，荣耀发布了旗下首款开放式耳机——荣耀亲选TiinLab，外观上采用挂耳式耳机，解放了耳道，佩戴轻透不夹耳，舒适更安全。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "在近期的荣耀春季旗舰新品发布会上，荣耀发布了旗下首款开放式耳机——荣耀亲选TiinLab，外观上采用挂耳式耳机，解放了耳道，佩戴轻透不夹耳，舒适更安全。"
+        }
+      },
+      {
+        "text": "下面就来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过\n荣耀亲选Wingcloud X5s Pro\n、\n荣耀Earbuds 3 Pro\n、\n荣耀亲选Earbuds X3\n、\n荣耀Earbuds 2 SE\n真无线降噪耳机，\n荣耀Earbuds X5\n、\n荣耀亲选Earbuds X3i\n、\n荣耀亲选Earbuds X2\n真无线耳机，\n荣耀手表4 Pro\n、\n荣耀手表4\n、\n荣耀手环7\n，\n荣耀亲选LCHSE运动蓝牙耳机\n，\n荣耀亲选 迪士尼便携蓝牙音箱\n等产品。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "下面就来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过\n荣耀亲选Wingcloud X5s Pro\n、\n荣耀Earbuds 3 Pro\n、\n荣耀亲选Earbuds X3\n、\n荣耀Earbuds 2 SE\n真无线降噪耳机，\n荣耀Earbuds X5\n、\n荣耀亲选Earbuds X3i\n、\n荣耀亲选Earbuds X2\n真无线耳机，\n荣耀手表4 Pro\n、\n荣耀手表4\n、\n荣耀手环7\n，\n荣耀亲选LCHSE运动蓝牙耳机\n，\n荣耀亲选 迪士尼便携蓝牙音箱\n等产品。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "下面就来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过\n荣耀亲选Wingcloud X5s Pro\n、\n荣耀Earbuds 3 Pro\n、\n荣耀亲选Earbuds X3\n、\n荣耀Earbuds 2 SE\n真无线降噪耳机，\n荣耀Earbuds X5\n、\n荣耀亲选Earbuds X3i\n、\n荣耀亲选Earbuds X2\n真无线耳机，\n荣耀手表4 Pro\n、\n荣耀手表4\n、\n荣耀手环7\n，\n荣耀亲选LCHSE运动蓝牙耳机\n，\n荣耀亲选 迪士尼便携蓝牙音箱\n等产品。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "在功能配置上，荣耀亲选TiinLab开放式耳机搭载内置定制级13.4mm大动圈，支持低音增强算法引擎，可自动识别音量变化，实时优化低音变现；支持空气定向传声，声音精准不漏音，保证听音私密性。",
+    "launch_date": null,
+    "best_report_id": "196430",
+    "best_video_id": null
+  }
+}

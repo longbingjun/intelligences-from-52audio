@@ -1,0 +1,382 @@
+{
+  "canonical_id": "unknown--jabraelite-8-active",
+  "brand": "",
+  "model": "Jabra捷波朗Elite 8 Active",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "199093"
+  ],
+  "video_ids": [
+    "200899"
+  ],
+  "related_report_ids": [
+    "199093"
+  ],
+  "related_video_ids": [
+    "200899"
+  ],
+  "first_seen": "2024-05-11",
+  "latest_published": "2024-05-27",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "思远半导体SY8803",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "6V/80mAh锂电池",
+    "speaker": "钛振膜",
+    "materials": "硅胶、PC、液态硅胶",
+    "weight_g": "56.6g",
+    "weight_case_g": "",
+    "weight_earbud_g": "5.1g",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 18,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "199093",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "思远半导体",
+      "model": "思远半导体SY8803",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8803",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "有线采用了Type-C接口，集成充电模块和放电模块的思远半导体SY8803智能充电仓解决方案；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "6V/80mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "6V/80mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置680mAh锂电池，支持有线/无线两种方式输入电源。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB1585",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB1585",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片为AIROHA达发（络达）AB1585蓝牙音频SoC，支持LE Audio及蓝牙5.3，支持混合主动降噪 (ANC)、新一代回声消除和AI降噪方案，为耳机各项功能提供支持。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "钛振膜",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "钛振膜",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载70mAh软包扣式电池，6mm镀钛振膜动圈喇叭，单耳内置三颗敏芯微电子的MEMS麦克风，用于语音通话、降噪等功能拾音；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载70mAh软包扣式电池，6mm镀钛振膜动圈喇叭，单耳内置三颗敏芯微电子的MEMS麦克风，用于语音通话、降噪等功能拾音；"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "封套背面展示有产品的整体外观设计，以及三项特点：全防尘防水耳机（IP68）和充电盒（IP54），采用Jabra Shake Grip亲肤液体硅胶材质稳固贴合和自适应混合主动降噪。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "框架顶部结构一览，设置有为耳机充电的小板和霍尔元件、指示灯排线；框架内部设置电池单元，起到很好的保护作用。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "框架底部固定主板单元，Type-C充电母座设置有橡胶罩防护。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在降噪方面，支持自适应双馈降噪，相较于上一代降噪效果提升1.6倍；支持智能风噪平衡技术，检测到外部风声过大时自动启用，抑制风声干扰。支持6麦克风通话降噪，基于双馈降噪技术和指向性超清麦克风收音，提供清晰通话效果。续航方面，关闭降噪，支持单次14小时，综合56h的超长续航；还支持极速充电，无线充电功能。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "封套背面展示有产品的整体外观设计，以及三项特点：全防尘防水耳机（IP68）和充电盒（IP54），采用Jabra Shake Grip亲肤液体硅胶材质稳固贴合和自适应混合主动降噪。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Jabra Elite 8 Active是其主打户外场景的新一代「三防」真无线运动耳机，支持IP68级防水防尘，通过了军用测试认证，防水耐寒抗冲击，无惧任何使用场景。在音质方面，搭载了6mm镀钛动圈单元，支持杜比音效，提供更具震撼力的沉浸式环绕声。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "取掉液态硅胶耳机套，耳机背部盖板上印刷有LDS镭射天线。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Jabra捷波朗Elite 8 Active充电盒采用了全新的上方下圆设计，磨砂质感。正面雕刻有“Jabra”品牌LOGO，设置有一颗充电指示灯。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "对应充电盒外壳上LED指示灯特写。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒为耳机充电的Pogo Pin连接器特写。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Jabra捷波朗Elite 8 Active耳机外侧外观一览，机身采用了亲肤液体硅胶涂层一体化全包裹，增加耳机抓附力的同时，提供柔软舒适的佩戴体验。中间“Jabra”品牌LOGO处设置一颗物理按键，用于各项功能控制。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8803",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8803",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "思远半导体SY8803蓝牙耳机智能充电仓解决方案，是一款专为蓝牙耳机仓设计的单芯片解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SY8803",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SY8803",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "SY8803采用QFN16封装。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Jabra捷波朗Elite 8 Active真无线降噪耳机在外观方面，延续了家族式的设计风格，具有着很高的品牌特色。充电盒采用了全新的上方下圆设计，内部独特硅胶座舱，很好的保护了耳机，防止划伤，同时降低跌落损伤；耳机采用了水滴形无耳翼设计，体积小巧，亲肤液体硅胶涂层一体化全包裹，佩戴舒适稳固。 内部电路方面，充电盒内置680mAh锂电池，支持有线/无线两种方式输入电源。有线采用了Type-C接口，集成充电模块和放电模块的思远半导体SY8803智能充电仓解决方案；无线采用了NuVolta伏达NU1680无线电源接收器；还搭载了Chipsea芯海CS32F035微控制器，用于充电盒整机控制。 耳机内部搭载70mAh软包扣式电池，6mm镀钛振膜动圈喇叭，单耳内置三颗敏芯微电子的MEMS麦克风，用于语音通话、降噪等功能拾音；主控芯片为AIROHA达发（络达）AB1585蓝牙音频SoC，支持LE Audio及蓝牙5.3，支持混合主动降噪 (ANC)、新一代回声消除和AI降噪方案，为耳机各项功能提供支持。",
+  "layer_refs": {
+    "technical": [
+      "report:199093",
+      "video:200899"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "续航方面，关闭降噪，支持单次14小时，综合56h的超长续航；还支持极速充电，无线充电功能。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "续航方面，关闭降噪，支持单次14小时，综合56h的超长续航；还支持极速充电，无线充电功能。",
+          "confidence": 0.59,
+          "source_type": "text",
+          "source_text": "续航方面，关闭降噪，支持单次14小时，综合56h的超长续航；还支持极速充电，无线充电功能。"
+        }
+      },
+      {
+        "text": "Jabra Elite 8 Active\n是其主打户外场景的新一代「三防」真无线运动耳机，支持IP68级防水防尘，通过了军用测试认证，防水耐寒抗冲击，无惧任何使用场景。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "Jabra Elite 8 Active\n是其主打户外场景的新一代「三防」真无线运动耳机，支持IP68级防水防尘，通过了军用测试认证，防水耐寒抗冲击，无惧任何使用场景。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "Jabra Elite 8 Active\n是其主打户外场景的新一代「三防」真无线运动耳机，支持IP68级防水防尘，通过了军用测试认证，防水耐寒抗冲击，无惧任何使用场景。"
+        }
+      },
+      {
+        "text": "封套背面展示有产品的整体外观设计，以及三项特点：全防尘防水耳机（IP68）和充电盒（IP54），采用Jabra Shake Grip亲肤液体硅胶材质稳固贴合和自适应混合主动降噪。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "封套背面展示有产品的整体外观设计，以及三项特点：全防尘防水耳机（IP68）和充电盒（IP54），采用Jabra Shake Grip亲肤液体硅胶材质稳固贴合和自适应混合主动降噪。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "封套背面展示有产品的整体外观设计，以及三项特点：全防尘防水耳机（IP68）和充电盒（IP54），采用Jabra Shake Grip亲肤液体硅胶材质稳固贴合和自适应混合主动降噪。"
+        }
+      },
+      {
+        "text": "支持6麦克风通话降噪，基于双馈降噪技术和指向性超清麦克风收音，提供清晰通话效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "支持6麦克风通话降噪，基于双馈降噪技术和指向性超清麦克风收音，提供清晰通话效果。",
+          "confidence": 0.68,
+          "source_type": "text",
+          "source_text": "支持6麦克风通话降噪，基于双馈降噪技术和指向性超清麦克风收音，提供清晰通话效果。"
+        }
+      },
+      {
+        "text": "在降噪方面，支持自适应双馈降噪，相较于上一代降噪效果提升1.6倍；支持智能风噪平衡技术，检测到外部风声过大时自动启用，抑制风声干扰。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "在降噪方面，支持自适应双馈降噪，相较于上一代降噪效果提升1.6倍；支持智能风噪平衡技术，检测到外部风声过大时自动启用，抑制风声干扰。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "在降噪方面，支持自适应双馈降噪，相较于上一代降噪效果提升1.6倍；支持智能风噪平衡技术，检测到外部风声过大时自动启用，抑制风声干扰。"
+        }
+      },
+      {
+        "text": "Jabra捷波朗Elite 8 Active真无线降噪耳机整体外观一览，耳机延续了家族式的水滴形无耳翼设计，体积非常小巧，佩戴舒适稳固。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "Jabra捷波朗Elite 8 Active真无线降噪耳机整体外观一览，耳机延续了家族式的水滴形无耳翼设计，体积非常小巧，佩戴舒适稳固。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "Jabra捷波朗Elite 8 Active真无线降噪耳机整体外观一览，耳机延续了家族式的水滴形无耳翼设计，体积非常小巧，佩戴舒适稳固。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "通话",
+      "户外"
+    ],
+    "positioning_summary": "续航方面，关闭降噪，支持单次14小时，综合56h的超长续航；还支持极速充电，无线充电功能。",
+    "launch_date": null,
+    "best_report_id": "199093",
+    "best_video_id": null
+  }
+}

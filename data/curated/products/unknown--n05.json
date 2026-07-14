@@ -1,0 +1,341 @@
+{
+  "canonical_id": "unknown--n05",
+  "brand": "",
+  "model": "N05",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "160395"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "160395"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-05-17",
+  "latest_published": "2023-05-17",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "BT8922E",
+    "pmic_case": "INJOINIC英集芯 INJOINIC英集芯IP5516",
+    "battery_ear": "380 mAh",
+    "battery_case": "3V/80mAh锂电池",
+    "speaker": "10mm 动圈单元",
+    "materials": "硅胶",
+    "weight_g": "45.0g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 17,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "160395",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "INJOINIC英集芯IP5516",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "PMIC/充电仓管理",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5516",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板电路非常简洁，通过高度集成的INJOINIC英集芯IP5516充电盒管理SoC，单芯片为充电盒提供完整的电源解决方案，应用时仅需极少的外围器件，有效减小整体方案的尺寸，降低BOM成本。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3V/80mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3V/80mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内部主要配置方面，充电盒包括380mAh锂电池、为耳机充电的小板和主板单元。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BT8922E",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BT8922E",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载10mm动圈单元，LIDEA电的电子LIR1154钢壳扣式电池，主控芯片为中科蓝讯“讯龙二代”BT8922E蓝牙音频SoC，内置32位高性能RISC-V CPU，支持蓝牙5.3双模，支持声加双MIC Beamforming ENC通话算法，集成降压及锂电池充电功能；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "10mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "10mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载10mm动圈单元，LIDEA电的电子LIR1154钢壳扣式电池，主控芯片为中科蓝讯“讯龙二代”BT8922E蓝牙音频SoC，内置32位高性能RISC-V CPU，支持蓝牙5.3双模，支持声加双MIC Beamforming ENC通话算法，集成降压及锂电池充电功能；"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "TWS耳机作为目前发展消费电子市场上“正当红”的产品之一，基于完全摒弃了线材连接的方式，以及随机标配的充电盒，为用户提供了便捷的使用体验。其中，充电盒作为TWS耳机的黄金搭档，一方面为耳机提供了便捷收纳，另外一方面还带来了更持久的综合续航，以及开盖即连等功能。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒内部包括了电源管理IC、MCU、锂电保护、升降压IC、过压过流保护IC等多种配置，用于为充电盒内置电池充电、充电盒为耳机充电、充电盒与手机/耳机通讯，电量显示等充电盒功能控制。而随着TWS耳机的持续发展，集成所有功能的充电盒系统级单芯片解决方案开始被大量采用。此次将要拆解的N05真无线耳机便是一款采用了充电盒管理SoC芯片的产品，下面就来看看它的解决方案及应用吧~"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒内部包括了电源管理IC、MCU、锂电保护、升降压IC、过压过流保护IC等多种配置，用于为充电盒内置电池充电、充电盒为耳机充电、充电盒与手机/耳机通讯，电量显示等充电盒功能控制。而随着TWS耳机的持续发展，集成所有功能的充电盒系统级单芯片解决方案开始被大量采用。此次将要拆解的N05真无线耳机便是一款采用了充电盒管理SoC芯片的产品，下面就来看看它的解决方案及应用吧~"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身顶部的通话降噪麦克风拾音孔特写。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "取出主板单元，背部焊接有四根导线，分别连接电池和扬声器单元。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧结构一览，设置有蓝牙天线和触摸检测贴片，露铜连接到主板，丝印型号“N05 V0.4”。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "BT8922E支持声加双MIC Beamforming ENC通话算法，为用户提供清晰的通话体验；支持高计算精度ANC控制器，优化了对特殊边界条件的适应性，防止如挤压啸叫及突发大噪声引起的系统不稳定等用户不良体验问题；集成降压及锂电池充电功能，可实现精简的耳机设计。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "N05真无线耳机充电盒采用了圆角方形设计，磨砂质感结合亮面点缀，边缘过渡圆润，握持舒适。正面开盖处设计光亮倒角，便于开盖的同时提升了产品的层次感；还有三颗指示灯，用于更直观的反馈剩余电量信息。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒底部设置Type-C充电触点，机身两侧有光亮条带装饰。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄背部触控区域设计有“跑道型”圆环指示，中间有一颗指示灯用于反馈蓝牙配对状态。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5516",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5516",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BT8922E",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BT8922E",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "中科蓝讯“讯龙二代”BT8922E蓝牙音频SoC，采用40nm ULP工艺，内置32位高性能RISC-V CPU，支持DSP指令与神经网络加速器。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 N05真无线耳机在外观方面，充电盒采用了圆角方形，体积轻巧，黑色磨砂质感结合亮面点缀，有着不错的质感。耳机采用了柄状的入耳式设计，“跑道型”耳机柄非常短，带来了极高的辨识度；机身质感光滑圆润，搭配三副不同尺寸的柔软硅胶耳塞，提供舒适的佩戴体验。 内部主要配置方面，充电盒包括380mAh锂电池、为耳机充电的小板和主板单元。主板电路非常简洁，通过高度集成的INJOINIC英集芯IP5516充电盒管理SoC，单芯片为充电盒提供完整的电源解决方案，应用时仅需极少的外围器件，有效减小整体方案的尺寸，降低BOM成本。另外还有一颗霍尔元件，为开盖即连功能提供支持。 耳机内部搭载10mm动圈单元，LIDEA电的电子LIR1154钢壳扣式电池，主控芯片为中科蓝讯“讯龙二代”BT8922E蓝牙音频SoC，内置32位高性能RISC-V CPU，支持蓝牙5.3双模，支持声加双MIC Beamforming ENC通话算法，集成降压及锂电池充电功能；触摸控制采用了CSC-IC菉华CT8323K电容式单按键触摸检测IC。",
+  "layer_refs": {
+    "technical": [
+      "report:160395"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "镭雕iA191 2223的MEMS麦克风特写，用于通话降噪功能拾取环境噪音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "镭雕iA191 2223的MEMS麦克风特写，用于通话降噪功能拾取环境噪音。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "镭雕iA191 2223的MEMS麦克风特写，用于通话降噪功能拾取环境噪音。"
+        }
+      },
+      {
+        "text": "机身顶部的通话降噪麦克风拾音孔特写。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "机身顶部的通话降噪麦克风拾音孔特写。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "机身顶部的通话降噪麦克风拾音孔特写。"
+        }
+      },
+      {
+        "text": "前腔内部结构一览，调音孔通过细密防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "前腔内部结构一览，调音孔通过细密防尘网防护。",
+          "confidence": 0.59,
+          "source_type": "text",
+          "source_text": "前腔内部结构一览，调音孔通过细密防尘网防护。"
+        }
+      },
+      {
+        "text": "取掉耳塞，耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "取掉耳塞，耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "取掉耳塞，耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "镭雕iA191 2223的MEMS麦克风特写，用于通话降噪功能拾取环境噪音。",
+    "launch_date": null,
+    "best_report_id": "160395",
+    "best_video_id": null
+  }
+}

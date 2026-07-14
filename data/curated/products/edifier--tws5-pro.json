@@ -1,0 +1,412 @@
+{
+  "canonical_id": "edifier--tws5-pro",
+  "brand": "EDIFIER漫步者",
+  "model": "TWS5 PRO真无线主动降噪",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "161640"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "161640"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-05-26",
+  "latest_published": "2023-05-26",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "Injoinic英集芯IP2501",
+    "pmic_case": "SS881",
+    "battery_ear": "电池",
+    "battery_case": "5V/00mAh锂电池",
+    "speaker": "动圈单元",
+    "materials": "硅胶、PC",
+    "weight_g": "49.6g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 22,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "161640",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "Injoinic英集芯IP2501",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "MCU",
+      "evidence": {
+        "value": "Injoinic英集芯IP2501",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置CEL金赛尔500mAh锂电池，采用了Type-C接口输入电源，端口设置Wayon维安WP1430过压保护IC，由SinhMicro昇生微电子SS881A POWER MCU负责整机控制和为内置电池充电，由Injoinic英集芯IP2501升压IC为内置电池升压给耳机充电。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SS881",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "SS881",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置CEL金赛尔500mAh锂电池，采用了Type-C接口输入电源，端口设置Wayon维安WP1430过压保护IC，由SinhMicro昇生微电子SS881A POWER MCU负责整机控制和为内置电池充电，由Injoinic英集芯IP2501升压IC为内置电池升压给耳机充电。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WP1430",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "WP1430",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置CEL金赛尔500mAh锂电池，采用了Type-C接口输入电源，端口设置Wayon维安WP1430过压保护IC，由SinhMicro昇生微电子SS881A POWER MCU负责整机控制和为内置电池充电，由Injoinic英集芯IP2501升压IC为内置电池升压给耳机充电。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "5V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "5V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置CEL金赛尔500mAh锂电池，采用了Type-C接口输入电源，端口设置Wayon维安WP1430过压保护IC，由SinhMicro昇生微电子SS881A POWER MCU负责整机控制和为内置电池充电，由Injoinic英集芯IP2501升压IC为内置电池升压给耳机充电。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "恒玄BES2600",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2600",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，采用了BES恒玄BES2600蓝牙音频SoC，eta钰泰ETA4030充电IC，以及HYNITRON海栎创HK01BP低功耗单通道触控芯片等。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA4030",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA4030",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，采用了BES恒玄BES2600蓝牙音频SoC，eta钰泰ETA4030充电IC，以及HYNITRON海栎创HK01BP低功耗单通道触控芯片等。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载6+10mm同轴双动圈单元，两颗新港电子MEMS麦克风协同拾音；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载6+10mm同轴双动圈单元，两颗新港电子MEMS麦克风协同拾音；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部固定电池单元，通过高温绝缘胶带包裹，底部设置有海绵垫缓冲防护。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面展示有产品的三种配色，规格参数和包装清单。产品型号：EDF200115，蓝牙版本：V5.3，有效距离：10m，频响范围：20Hz-40KHz，输入：5V--200mA（耳机），5V--1A（充电盒），声压级：92±3dB（A），工作时长：降噪开：约4.5h（耳机）+16h（充电盒)，降噪关：约5.5h（耳机）+19h（充电盒）。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "取掉电池，下方通过螺丝固定主板，电池导线与主板焊接。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "功能配置方面，搭载同轴双动圈驱动单元，蓝牙5.3芯片，支持LDAC高清音频解码，通过了Hi-Res Audio Wireless金标认证；采用多模宽频混合主动降噪技术，提供-43dB最高降噪深度，支持深度降噪和宽频降噪，以及环境声模式，可根据使用场景自由切换；支持AI通话降噪功能，精准识别通话过程中的噪音信号并消除，提供清晰通话人声。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "背部腔体底部的通话麦克风拾音孔特写，内部防尘网防护。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒侧边图文介绍有产品功能特点：混合主动降噪、6mm+10mm复合振膜、IP54级防尘防水、支持EDIFIER CONNECT。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧结构一览，设置有蓝牙天线和触摸检测贴片，以及通话麦克风拾音声学结构。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出内部座舱。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒背面同样为平面设计，设置有Type-C充电接口和蓝牙配对功能按键。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "漫步者TWS5 PRO充电盒采用了圆角方形设计，哑光质感，触感细腻，薄雾蓝配色观感清新淡雅。机身正面为平面设计，开盖处设计有便于开启的凹槽，内部设置条形指示灯。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WP1430",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "WP1430",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Wayon维安WP1430过压保护IC，当检测到错误的输入操作条件时自动断开系统与其输出引脚（OUT）的连接。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SS881",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SS881",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "SinhMicro昇生微电子SS881A POWER MCU，是一颗集成了充放电管理的AD型Flash单片机，集成了电源管理单元和充电管理单元，提供全软件实时可配置的充电电压电流设置。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Injoinic英集芯IP2501",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Injoinic英集芯IP2501",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Injoinic英集芯IP2501升压IC，是一款采用固定工作频率的高效升压转换器，主要针对采用单节、双节或三节碱性电池、镍镉电池或镍氢电池供电的产品或单节锂离子电池供电的设备或锂聚合物电池供电的产品提供了一款电源解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA4030",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA4030",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "丝印“VmBN”的eta钰泰ETA4030充电IC，是一款单电池、完全集成的恒流（CC）/恒压（CV）锂离子电池充电器，紧凑的封装和最低的外部组件要求使其成为便携式应用的理想选择。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 作为漫步者进入真无线耳机市场的初始系列，漫步者TWS (数字) 经过了三年多的沉寂，再次被以之命名，相继推出了Pro、ANC等版本，外观质感得到了大幅度提升，功能也得到了全面升级，从而为用户提供更优的使用体验。此次拆解的漫步者TWS5 PRO相较于四年前的 TWS5 ，除了在名字上的精神延续，其他方面拥有很大的不同， 漫步者TWS5 PRO全新的耳机外观设计，通过类金属后腔+圆润前腔的工艺拼接，使之兼具质感和佩戴舒适性。内部主要配置方面，充电盒内置CEL金赛尔500mAh锂电池，采用了Type-C接口输入电源，端口设置Wayon维安WP1430过压保护IC，由SinhMicro昇生微电子SS881A POWER MCU负责整机控制和为内置电池充电，由Injoinic英集芯IP2501升压IC为内置电池升压给耳机充电。 耳机内部搭载6+10mm同轴双动圈单元，两颗新港电子MEMS麦克风协同拾音；内置MIC-POWER微电新能源3.85V 0.173Wh钢壳扣式电池供能。主板上，采用了BES恒玄BES2600蓝牙音频SoC，eta钰泰ETA4030充电IC，以及HYNITRON海栎创HK01BP低功耗单通道触控芯片等。",
+  "layer_refs": {
+    "technical": [
+      "report:161640"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "近期，漫步者推出了一款迭代升级的TWS耳机产品——TWS5 PRO，在外观方面采用了全新的设计风格，拥有云白、薄雾蓝和雅黑三款时尚配色。",
+        "tag": "其他",
+        "evidence": {
+          "value": "近期，漫步者推出了一款迭代升级的TWS耳机产品——TWS5 PRO，在外观方面采用了全新的设计风格，拥有云白、薄雾蓝和雅黑三款时尚配色。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "近期，漫步者推出了一款迭代升级的TWS耳机产品——TWS5 PRO，在外观方面采用了全新的设计风格，拥有云白、薄雾蓝和雅黑三款时尚配色。"
+        }
+      },
+      {
+        "text": "同轴双动圈扬声器正面特写，顶部是钛振膜高频单元，下方大尺寸中低频单元，中低频单元相辅相成，相较于传统单动圈拥有更开阔的声场和更出色的解析力。",
+        "tag": "其他",
+        "evidence": {
+          "value": "同轴双动圈扬声器正面特写，顶部是钛振膜高频单元，下方大尺寸中低频单元，中低频单元相辅相成，相较于传统单动圈拥有更开阔的声场和更出色的解析力。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "同轴双动圈扬声器正面特写，顶部是钛振膜高频单元，下方大尺寸中低频单元，中低频单元相辅相成，相较于传统单动圈拥有更开阔的声场和更出色的解析力。"
+        }
+      },
+      {
+        "text": "续航方面，标准模式可支持5.5+19h的音乐播放，降噪模式续航时间4.5+16h，支持快充，充电15分钟可使用2小时。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "续航方面，标准模式可支持5.5+19h的音乐播放，降噪模式续航时间4.5+16h，支持快充，充电15分钟可使用2小时。",
+          "confidence": 0.71,
+          "source_type": "text",
+          "source_text": "续航方面，标准模式可支持5.5+19h的音乐播放，降噪模式续航时间4.5+16h，支持快充，充电15分钟可使用2小时。"
+        }
+      },
+      {
+        "text": "二、漫步者TWS5 PRO真无线主动降噪耳机拆解\n通过开箱我们详细了解了漫步者TWS5 PRO真无线主动降噪耳机的全新外观设计，下面进入拆解部分，看看内部结构配置信息~\n充电盒拆解\n拆开充电盒外壳，取出内部座舱。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "二、漫步者TWS5 PRO真无线主动降噪耳机拆解\n通过开箱我们详细了解了漫步者TWS5 PRO真无线主动降噪耳机的全新外观设计，下面进入拆解部分，看看内部结构配置信息~\n充电盒拆解\n拆开充电盒外壳，取出内部座舱。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "二、漫步者TWS5 PRO真无线主动降噪耳机拆解\n通过开箱我们详细了解了漫步者TWS5 PRO真无线主动降噪耳机的全新外观设计，下面进入拆解部分，看看内部结构配置信息~\n充电盒拆解\n拆开充电盒外壳，取出内部座舱。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "近期，漫步者推出了一款迭代升级的TWS耳机产品——TWS5 PRO，在外观方面采用了全新的设计风格，拥有云白、薄雾蓝和雅黑三款时尚配色。",
+    "launch_date": null,
+    "best_report_id": "161640",
+    "best_video_id": null
+  }
+}

@@ -1,0 +1,352 @@
+{
+  "canonical_id": "edifier--zero-clip",
+  "brand": "EDIFIER漫步者",
+  "model": "花再Zero Clip",
+  "category": "开放式耳机",
+  "report_ids": [
+    "223793"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "223793"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2024-12-26",
+  "latest_published": "2024-12-26",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "恒玄BES2700IHC",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "5V/50mAh锂电池",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "54.0g",
+    "weight_case_g": "",
+    "weight_earbud_g": "6.3g",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 17,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "223793",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "5V/50mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "5V/50mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载了CEL金赛尔550mAh锂电池，配备有电池保护板负责过充电、过放电、过电流等保护。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "恒玄BES2700IHC",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2700IHC",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了3.85V 0.189Wh钢壳扣式电池，采用了12mm镀钛复合振膜和一颗敏芯微电子的MEMS麦克风，主控芯片为BES恒玄BES2700IHC蓝牙音频SoC，外围配备了Sunlord顺络电子MPHM系列功率电感、SDCL0603Q系列叠层陶瓷电感等元器件。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "BES2700IH",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2700IH",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了3.85V 0.189Wh钢壳扣式电池，采用了12mm镀钛复合振膜和一颗敏芯微电子的MEMS麦克风，主控芯片为BES恒玄BES2700IHC蓝牙音频SoC，外围配备了Sunlord顺络电子MPHM系列功率电感、SDCL0603Q系列叠层陶瓷电感等元器件。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了3.85V 0.189Wh钢壳扣式电池，采用了12mm镀钛复合振膜和一颗敏芯微电子的MEMS麦克风，主控芯片为BES恒玄BES2700IHC蓝牙音频SoC，外围配备了Sunlord顺络电子MPHM系列功率电感、SDCL0603Q系列叠层陶瓷电感等元器件。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "花再Zero Clip开放式耳机搭载AI智能通话降噪技术，有效分离人声和环境音，保障清晰通话效果；耳机对称式设计，支持智能声道检测功能，自动校准声场，无需区分左右耳，可随意佩戴；搭载SwiftAgileTouch迅敏敲击传感技术，支持多部位手势敲击控制，带来更便捷的交互。续航方面，耳机单次续航时间7小时，搭配充电盒综合续航35小时。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，设置有主板、电池和一条排线。电池上覆盖海绵垫防护。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，设置有主板、电池和一条排线。电池上覆盖海绵垫防护。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机后端腔体外观一览，背部设置有麦克风拾音孔。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在功能配置方面，漫步者花再Zero Clip开放式耳机搭载了12mm镀钛复合振膜，搭配创新空气声腔架构，大幅提升听音体验；支持BassTurbo低音增压引擎技术，带来更加澎湃动感的低音；支持定向声波传音技术，减少漏音，保护隐私；还预设了经典、清晰人声、高音增强和低音增强4种大师级EQ音效，满足个性化听音喜好。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "连接蓝牙天线的金属弹片特写。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网此前还拆解过漫步者Comfo Clip、FitFree、Comfo Fit II开放式耳机，Lolli3 ANC、TWS5 PRO、NeoBuds S、NeoBuds Pro、LolliPods Pro真无线耳机，HECATE GX07、HECATE GX05真无线游戏耳机，W830NB、W820NB、HECATE G4S雷霆版头戴式耳机，漫步者辅听1号，花再NEW-X光冷能量音箱、HECATE G100磁吸蓝牙音响、M125、M0便携式蓝牙音箱等产品。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "漫步者花再Zero Clip开放式耳机充电盒采用了圆角方形设计，磨砂质感，正面搭载一颗指示灯，用于反馈蓝牙配对及充电状态。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身右侧设置有蓝牙配对的功能按键。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开卡扣式固定的充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "后端腔体底部设置充电触点。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2700IHC",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2700IHC",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄BES2700IHC蓝牙音频SoC，支持蓝牙双模V5.4，用于无线连接和音频数据处理。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2700IH",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2700IH",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄BES2700IHC蓝牙音频SoC，支持蓝牙双模V5.4，用于无线连接和音频数据处理。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 漫步者花再Zero Clip开放式耳机在外观方面，圆角方形充电盒体积轻巧，携带方便；耳夹式耳机，采用了12°夹角设计，搭配高品质TPU亲肤材质，0.6mm超细镍钛记忆钢丝，以及符合耳廓结构的机身曲线，提供了稳固贴合，夹持力适中的舒适佩戴体验。 内部主要配置方面，充电盒搭载了CEL金赛尔550mAh锂电池，配备有电池保护板负责过充电、过放电、过电流等保护。主板上，采用了LPS微源半导体LP7820B TWS充电仓解决方案，集成MCU、充放电管理、电量检测等丰富功能，支持电压跟随充电，有效提升20％以上充电仓的电池续航时间，从而带来更持久的整机续航。 耳机内部搭载了3.85V 0.189Wh钢壳扣式电池，采用了12mm镀钛复合振膜和一颗敏芯微电子的MEMS麦克风，主控芯片为BES恒玄BES2700IHC蓝牙音频SoC，外围配备了Sunlord顺络电子MPHM系列功率电感、SDCL0603Q系列叠层陶瓷电感等元器件。",
+  "layer_refs": {
+    "technical": [
+      "report:223793"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "在功能配置方面，漫步者花再Zero Clip开放式耳机搭载了12mm镀钛复合振膜，搭配创新空气声腔架构，大幅提升听音体验；支持BassTurbo低音增压引擎技术，带来更加澎湃动感的低音；支持定向声波传音技术，减少漏音，保护隐私；还预设了经典、清晰人声、高音增强和低音增强4种大师级EQ音效，满足个性化听音喜好。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "在功能配置方面，漫步者花再Zero Clip开放式耳机搭载了12mm镀钛复合振膜，搭配创新空气声腔架构，大幅提升听音体验；支持BassTurbo低音增压引擎技术，带来更加澎湃动感的低音；支持定向声波传音技术，减少漏音，保护隐私；还预设了经典、清晰人声、高音增强和低音增强4种大师级EQ音效，满足个性化听音喜好。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "在功能配置方面，漫步者花再Zero Clip开放式耳机搭载了12mm镀钛复合振膜，搭配创新空气声腔架构，大幅提升听音体验；支持BassTurbo低音增压引擎技术，带来更加澎湃动感的低音；支持定向声波传音技术，减少漏音，保护隐私；还预设了经典、清晰人声、高音增强和低音增强4种大师级EQ音效，满足个性化听音喜好。"
+        }
+      },
+      {
+        "text": "花再Zero Clip开放式耳机搭载AI智能通话降噪技术，有效分离人声和环境音，保障清晰通话效果；耳机对称式设计，支持智能声道检测功能，自动校准声场，无需区分左右耳，可随意佩戴；搭载SwiftAgileTouch迅敏敲击传感技术，支持多部位手势敲击控制，带来更便捷的交互。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "花再Zero Clip开放式耳机搭载AI智能通话降噪技术，有效分离人声和环境音，保障清晰通话效果；耳机对称式设计，支持智能声道检测功能，自动校准声场，无需区分左右耳，可随意佩戴；搭载SwiftAgileTouch迅敏敲击传感技术，支持多部位手势敲击控制，带来更便捷的交互。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "花再Zero Clip开放式耳机搭载AI智能通话降噪技术，有效分离人声和环境音，保障清晰通话效果；耳机对称式设计，支持智能声道检测功能，自动校准声场，无需区分左右耳，可随意佩戴；搭载SwiftAgileTouch迅敏敲击传感技术，支持多部位手势敲击控制，带来更便捷的交互。"
+        }
+      },
+      {
+        "text": "三、我爱音频网总结\n漫步者花再Zero Clip开放式耳机在外观方面，圆角方形充电盒体积轻巧，携带方便；耳夹式耳机，采用了12°夹角设计，搭配高品质TPU亲肤材质，0.6mm超细镍钛记忆钢丝，以及符合耳廓结构的机身曲线，提供了稳固贴合，夹持力适中的舒适佩戴体验。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "三、我爱音频网总结\n漫步者花再Zero Clip开放式耳机在外观方面，圆角方形充电盒体积轻巧，携带方便；耳夹式耳机，采用了12°夹角设计，搭配高品质TPU亲肤材质，0.6mm超细镍钛记忆钢丝，以及符合耳廓结构的机身曲线，提供了稳固贴合，夹持力适中的舒适佩戴体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\n漫步者花再Zero Clip开放式耳机在外观方面，圆角方形充电盒体积轻巧，携带方便；耳夹式耳机，采用了12°夹角设计，搭配高品质TPU亲肤材质，0.6mm超细镍钛记忆钢丝，以及符合耳廓结构的机身曲线，提供了稳固贴合，夹持力适中的舒适佩戴体验。"
+        }
+      },
+      {
+        "text": "针对于不入耳佩戴的开放式耳机市场，花再近期推出了一款全新产品——Zero Clip，外观上采用了耳夹式设计，佩戴舒适贴合，珠光工艺处理，时尚美观。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "针对于不入耳佩戴的开放式耳机市场，花再近期推出了一款全新产品——Zero Clip，外观上采用了耳夹式设计，佩戴舒适贴合，珠光工艺处理，时尚美观。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "针对于不入耳佩戴的开放式耳机市场，花再近期推出了一款全新产品——Zero Clip，外观上采用了耳夹式设计，佩戴舒适贴合，珠光工艺处理，时尚美观。"
+        }
+      },
+      {
+        "text": "15个可多功能复用IO，12路复用ADC，6路独立占空比PWM，两路独立串口，支持带电在线升级烧录，可灵活适配客户多应用场景。",
+        "tag": "其他",
+        "evidence": {
+          "value": "15个可多功能复用IO，12路复用ADC，6路独立占空比PWM，两路独立串口，支持带电在线升级烧录，可灵活适配客户多应用场景。",
+          "confidence": 0.67,
+          "source_type": "text",
+          "source_text": "15个可多功能复用IO，12路复用ADC，6路独立占空比PWM，两路独立串口，支持带电在线升级烧录，可灵活适配客户多应用场景。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "在功能配置方面，漫步者花再Zero Clip开放式耳机搭载了12mm镀钛复合振膜，搭配创新空气声腔架构，大幅提升听音体验；支持BassTurbo低音增压引擎技术，带来更加澎湃动感的低音；支持定向声波传音技术，减少漏音，保护隐私；还预设了经典、清晰人声、高音增强和低音增强4种大师级EQ音效，满足个性化听音喜好。",
+    "launch_date": null,
+    "best_report_id": "223793",
+    "best_video_id": null
+  }
+}

@@ -1,0 +1,366 @@
+{
+  "canonical_id": "baseus--bowie-m2s-pro",
+  "brand": "Baseus倍思",
+  "model": "Bowie M2s Pro",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "198921"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "198921"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2024-05-11",
+  "latest_published": "2024-05-11",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "Bluetrum中科蓝讯BT8932H",
+    "pmic_case": "INJOINIC英集芯 Injoinic英集芯IP5528",
+    "battery_ear": "电池",
+    "battery_case": "4V/00mAh锂电池",
+    "speaker": "喇叭单元",
+    "materials": "硅胶",
+    "weight_g": "51.8g",
+    "weight_case_g": "",
+    "weight_earbud_g": "4.6g",
+    "ip_rating": "",
+    "bluetooth": "5.4",
+    "bom_row_count": 18,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "198921",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "4V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "4V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置旭航诚400mAh锂电池，"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "Injoinic英集芯IP5528",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "PMIC/充电仓管理",
+      "evidence": {
+        "value": "Injoinic英集芯IP5528",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内置35mAh钢壳扣式电池，电源管理采用了Injoinic英集芯IP5528 SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示，支持跟随充电功能，可有效提升15%~20%充电盒电池到耳机电池的转换效率，从而实现了从30小时提升到35小时的综合续航。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "Bluetrum中科蓝讯",
+      "model": "Bluetrum中科蓝讯BT8932H",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Bluetrum中科蓝讯BT8932H",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了10mm高动态振膜喇叭，单耳内置两颗瑞勤电子的MEMS麦克风拾音，主控芯片为Bluetrum中科蓝讯BT8932H蓝牙音频SoC，支持蓝牙5.4，支持主动降噪、AI通话降噪，触摸和入耳检测，集成PMU。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了10mm高动态振膜喇叭，单耳内置两颗瑞勤电子的MEMS麦克风拾音，主控芯片为Bluetrum中科蓝讯BT8932H蓝牙音频SoC，支持蓝牙5.4，支持主动降噪、AI通话降噪，触摸和入耳检测，集成PMU。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面介绍有产品的部分产品参数和公司信息，包装清单，以及APP下载二维码。型号：Baseus PM87-A，蓝牙版本：V5.4，通讯距离：10米，听歌时间：约7小时（关闭ANC，空间音效默认状态，50%电量），配合充电仓听歌时间：约35小时，电池容量：35mAh/0.135Wh（耳机），400mAh/1.48Wh（充电仓），耳机额定输入：DC5V-70mA，充电盒额定输入：DC5V-700mA，耳机额定消耗电流：6mA，充电盒额定消耗电流：220mA，充电时间：约1小时，频响范围：20Hz-20kHz，充电接口：Type-C，制造商：深圳市倍思科技有限公司。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面介绍有产品的部分产品参数和公司信息，包装清单，以及APP下载二维码。型号：Baseus PM87-A，蓝牙版本：V5.4，通讯距离：10米，听歌时间：约7小时（关闭ANC，空间音效默认状态，50%电量），配合充电仓听歌时间：约35小时，电池容量：35mAh/0.135Wh（耳机），400mAh/1.48Wh（充电仓），耳机额定输入：DC5V-70mA，充电盒额定输入：DC5V-700mA，耳机额定消耗电流：6mA，充电盒额定消耗电流：220mA，充电时间：约1小时，频响范围：20Hz-20kHz，充电接口：Type-C，制造商：深圳市倍思科技有限公司。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，通过螺丝固定主板单元。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄底部的麦克风拾音孔特写。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Baseus倍思是一个消费电子品牌，旗下产品涵盖了充电、音频、车品、智能家居、智能家电等众多领域。近期，倍思旗下Bowie系列TWS耳机更新了一款新品——M2s Pro，相较于上代Bowie M2s，在外观配色，蓝牙传输延迟、音质，主动降噪、通话降噪能力，以及续航方面进行了全面升级。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄盖板内侧结构一览，夹层内设置蓝牙天线和触摸检测传感器，露铜连接主板。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机扬声器特写，采用了高动态振膜喇叭，具有高灵敏度、低失真的特点，能够更好地还原声音。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出内部座舱结构。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面外观一览，盒盖上设计有“Baseus”品牌LOGO，机身上银色类金属条装饰，同时也是指示灯。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒底部设置Type-C充电接口和蓝牙配对功能按键。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电触点内侧连接主板的金属连接器特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Injoinic英集芯IP5528",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Injoinic英集芯IP5528",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Injoinic英集芯IP5528 TWS耳机充电仓管理SoC，是一款集成MCU、升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5528",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5528",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "得益于IP5528的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸， 降低BOM成本。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Bluetrum中科蓝讯BT8932H",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Bluetrum中科蓝讯BT8932H",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Bluetrum中科蓝讯BT8932H蓝牙音频SoC，内置32位高性能RISC-V处理器核心，支持DSP指令，运行频率最高140MHz；内置16Mbits闪存，320KB RAM；具有可编程上拉和下拉电阻的灵活GPIO引脚；支持GPIO唤醒或中断。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Baseus倍思Bowie M2s Pro真无线降噪耳机外观设计方面，在上代的基础上，采用了全新的色彩与膜片工艺处理，带来了更优的质感表现。圆角方形充电盒，体积轻巧，质感温润，呈现珠光般光泽；柄状的入耳式耳机，采用了与充电盒相同的工艺设计，新增银色边框和品牌LOGO装饰，观感时尚，更具辨识度。 内部主要配置方面，充电盒和耳机均搭载了与上代相同的电池规格，充电盒内置旭航诚400mAh锂电池，耳机内置35mAh钢壳扣式电池，电源管理采用了Injoinic英集芯IP5528 SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示，支持跟随充电功能，可有效提升15%~20%充电盒电池到耳机电池的转换效率，从而实现了从30小时提升到35小时的综合续航。 耳机内部搭载了10mm高动态振膜喇叭，单耳内置两颗瑞勤电子的MEMS麦克风拾音，主控芯片为Bluetrum中科蓝讯BT8932H蓝牙音频SoC，支持蓝牙5.4，支持主动降噪、AI通话降噪，触摸和入耳检测，集成PMU。",
+  "layer_refs": {
+    "technical": [
+      "report:198921"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "倍思Bowie M2s Pro降噪能力进一步提升，主动降噪最大可提供-52dB降噪深度，5000Hz降噪频宽，还支持通勤、室内、室外三种模式和自定义1-10级降噪深度调节，满足多场景降噪需求；通话降噪全新升级AI抗风噪算法，自动检测、智能抵消，保障大风天气的清晰通话效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "倍思Bowie M2s Pro降噪能力进一步提升，主动降噪最大可提供-52dB降噪深度，5000Hz降噪频宽，还支持通勤、室内、室外三种模式和自定义1-10级降噪深度调节，满足多场景降噪需求；通话降噪全新升级AI抗风噪算法，自动检测、智能抵消，保障大风天气的清晰通话效果。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "倍思Bowie M2s Pro降噪能力进一步提升，主动降噪最大可提供-52dB降噪深度，5000Hz降噪频宽，还支持通勤、室内、室外三种模式和自定义1-10级降噪深度调节，满足多场景降噪需求；通话降噪全新升级AI抗风噪算法，自动检测、智能抵消，保障大风天气的清晰通话效果。"
+        }
+      },
+      {
+        "text": "近期，倍思旗下Bowie系列TWS耳机更新了一款新品——M2s Pro，相较于上代\nBowie M2s\n，在外观配色，蓝牙传输延迟、音质，主动降噪、通话降噪能力，以及续航方面进行了全面升级。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "近期，倍思旗下Bowie系列TWS耳机更新了一款新品——M2s Pro，相较于上代\nBowie M2s\n，在外观配色，蓝牙传输延迟、音质，主动降噪、通话降噪能力，以及续航方面进行了全面升级。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "近期，倍思旗下Bowie系列TWS耳机更新了一款新品——M2s Pro，相较于上代\nBowie M2s\n，在外观配色，蓝牙传输延迟、音质，主动降噪、通话降噪能力，以及续航方面进行了全面升级。"
+        }
+      },
+      {
+        "text": "三、我爱音频网总结\nBaseus倍思Bowie M2s Pro真无线降噪耳机外观设计方面，在上代的基础上，采用了全新的色彩与膜片工艺处理，带来了更优的质感表现。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "三、我爱音频网总结\nBaseus倍思Bowie M2s Pro真无线降噪耳机外观设计方面，在上代的基础上，采用了全新的色彩与膜片工艺处理，带来了更优的质感表现。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\nBaseus倍思Bowie M2s Pro真无线降噪耳机外观设计方面，在上代的基础上，采用了全新的色彩与膜片工艺处理，带来了更优的质感表现。"
+        }
+      },
+      {
+        "text": "内部设置有降噪麦克风，用于主动降噪、通话降噪等功能拾音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "内部设置有降噪麦克风，用于主动降噪、通话降噪等功能拾音。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "内部设置有降噪麦克风，用于主动降噪、通话降噪等功能拾音。"
+        }
+      },
+      {
+        "text": "Baseus倍思Bowie M2s Pro充电盒延续了上代的圆角方形设计，但采用了全新的色彩与膜片工艺，质感温润，且呈现出珠光般光泽。",
+        "tag": "其他",
+        "evidence": {
+          "value": "Baseus倍思Bowie M2s Pro充电盒延续了上代的圆角方形设计，但采用了全新的色彩与膜片工艺，质感温润，且呈现出珠光般光泽。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "Baseus倍思Bowie M2s Pro充电盒延续了上代的圆角方形设计，但采用了全新的色彩与膜片工艺，质感温润，且呈现出珠光般光泽。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通勤",
+      "通话"
+    ],
+    "positioning_summary": "倍思Bowie M2s Pro降噪能力进一步提升，主动降噪最大可提供-52dB降噪深度，5000Hz降噪频宽，还支持通勤、室内、室外三种模式和自定义1-10级降噪深度调节，满足多场景降噪需求；通话降噪全新升级AI抗风噪算法，自动检测、智能抵消，保障大风天气的清晰通话效果。",
+    "launch_date": null,
+    "best_report_id": "198921",
+    "best_video_id": null
+  }
+}

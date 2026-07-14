@@ -1,0 +1,437 @@
+{
+  "canonical_id": "vivo--tws-4-hi-fi",
+  "brand": "vivo",
+  "model": "TWS 4 Hi-Fi版",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "208437"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "208437"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2024-08-12",
+  "latest_published": "2024-08-12",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "ETA9030",
+    "pmic_case": "",
+    "battery_ear": "3.85V/54mAh钢壳扣式",
+    "battery_case": "5V/13mAh锂电池",
+    "speaker": "振膜动圈",
+    "materials": "硅胶",
+    "weight_g": "42.8g",
+    "weight_case_g": "",
+    "weight_earbud_g": "5.3g",
+    "ip_rating": "",
+    "bluetooth": "5.4",
+    "bom_row_count": 23,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "208437",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA9030",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA9030",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "还采用了赛芯XB5225M2SZ锂电池一体化保护芯片，ETA钰泰ETA9030 TWS充电仓PMU，Nations国民技术N32G031K8Q7 MCU单片机，以及霍尔元件等。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "5V/13mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "5V/13mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置513mAh锂电池，主板上采用Type-C接口输入电源，端口设置有WillSemi韦尔半导体ESD56241D TVS保护管；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "Qualcomm高通",
+      "model": "高通S3",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通S3",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片为第三代高通S3音频平台，支持蓝牙5.4，支持Snapdragon Sound骁龙畅听技术，可提供24-bit 48kHz无损音乐串流。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3.85V/54mAh钢壳扣式",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "3.85V/54mAh钢壳扣式",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载陶瓷钨原声耳机振膜动圈单元，内置3颗MEMS麦克风，采用了3.85V 54mAh钢壳扣式电池；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "振膜动圈",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "振膜动圈",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载陶瓷钨原声耳机振膜动圈单元，内置3颗MEMS麦克风，采用了3.85V 54mAh钢壳扣式电池；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载陶瓷钨原声耳机振膜动圈单元，内置3颗MEMS麦克风，采用了3.85V 54mAh钢壳扣式电池；"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "vivo TWS 4 Hi-Fi版充电盒采用了圆角方形设计，亮面质感，触感光滑圆润；开盖处新增银色饰条，提升质感。至臻蓝配色，在普通光线下呈现很深的墨蓝色，在灯光下呈现深蓝色。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部通过螺丝固定主板，电池导线和排线焊接，打胶密封。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盒盖内侧印有产品参数信息，vivo TWS 4 Hi-Fi，型号：XE W32，输入：5V-1A，输出：5V-0.4A，电池信息：3.8V，525mAh 2.04Wh，维沃移动通讯有限公司，中国制造。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在降噪方面，vivo TWS 4 Hi-Fi版采用智能主动降噪方案，最大降噪深度可达55dB、降噪频宽5000Hz，获得了CAIA A+降噪认证；支持飞机、地铁、公交定制通勤降噪场景，支持轻度、常规、深度三种模式AI自适应调节，以及AI双通透模式，AI智能抗风噪，三麦克风AI通话降噪，提供全场景的优质降噪体验。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "vivo在“vivo X Fold3系列手机发布会”上，正式推出新一代TWS耳机，包括了vivo TWS 4标准版和vivo TWS 4 Hi-Fi版。其中，Hi-Fi版搭载高通第三代S3音频平台，支持Snapdragon Sound骁龙畅听技术，支持LDAC、aptX Lossless双高清无损音频传输，搭配陶瓷钨原声振膜动圈单元，提供高保真Hi-Fi级音质。还支持3D全景音频、自适应音频2.0、音频超分、人耳定制音效等功能，获得了酷狗、QQ音乐、网易云音乐平台音质认证。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部还设置有盖板，上面印刷LDS镭射天线。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在降噪方面，vivo TWS 4 Hi-Fi版采用智能主动降噪方案，最大降噪深度可达55dB、降噪频宽5000Hz，获得了CAIA A+降噪认证；支持飞机、地铁、公交定制通勤降噪场景，支持轻度、常规、深度三种模式AI自适应调节，以及AI双通透模式，AI智能抗风噪，三麦克风AI通话降噪，提供全场景的优质降噪体验。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身右侧设置有一颗蓝牙配对的功能按键。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面vivo品牌LOGO和指示灯特写。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄底部的通话麦克风拾音孔和两侧充电触点特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA9030",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA9030",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "ETA钰泰ETA9030\nTWS充电仓PMU，负责内置电池的充放电管理。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Qualcomm AI",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Qualcomm AI",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm\n高通\nQCC3091蓝牙音频SoC，即\n第三代高通S3音频平台\n，采用四核处理器架构，包括双核32位处理器应用子系统（最高80MHz），双核240MHz可配置DSP音频子系统（从ROM运行），支持Qualcomm AI引擎，支持蓝牙5.4，蓝牙LE Audio，支持\n高通\nTrueWireless Mirroring镜像技术，支持Snapdragon Sound骁龙畅听技术和24-bit 48kHz无损音乐串流。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通\nQCC3091",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通\nQCC3091",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm\n高通\nQCC3091蓝牙音频SoC，即\n第三代高通S3音频平台\n，采用四核处理器架构，包括双核32位处理器应用子系统（最高80MHz），双核240MHz可配置DSP音频子系统（从ROM运行），支持Qualcomm AI引擎，支持蓝牙5.4，蓝牙LE Audio，支持\n高通\nTrueWireless Mirroring镜像技术，支持Snapdragon Sound骁龙畅听技术和24-bit 48kHz无损音乐串流。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通\nANC",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通\nANC",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Snapdragon Sound骁龙畅听是一整套来自\n高通\n的音频技术，包括aptX音频技术、aptX Adaptive自适应音频技术、aptX Lossless无损音频技术，aptX Voice语音通话技术、cVc回声消除和噪声抑制技术，以及\n高通\nANC主动降噪技术（前馈、反馈、混合和自适应）等，最高能够支持24-bit 96kHz高分辨率蓝牙串流。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC30xx",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC30xx",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm高通QCC30xx系列详细资料图。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "QCC30",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "QCC30",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm高通QCC30xx系列详细资料图。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 vivo TWS 4 Hi-Fi版真无线降噪耳机在外观方面，延续了家族式的设计，圆角方形充电盒，采用光滑圆润的亮面质感，搭配银色饰条，质感进一步提升。柄状的入耳式耳机，入耳曲线圆润饱满，搭配三种尺寸的抗菌硅胶耳塞，佩戴舒适稳固；水滴小耳柄设计，相较于上代线条更简约，但同时也降低了辨识度。 内部主要配置方面，充电盒内置513mAh锂电池，主板上采用Type-C接口输入电源，端口设置有WillSemi韦尔半导体ESD56241D TVS保护管；还采用了赛芯XB5225M2SZ锂电池一体化保护芯片，ETA钰泰ETA9030 TWS充电仓PMU，Nations国民技术N32G031K8Q7 MCU单片机，以及霍尔元件等。 耳机内部搭载陶瓷钨原声耳机振膜动圈单元，内置3颗MEMS麦克风，采用了3.85V 54mAh钢壳扣式电池；主控芯片为第三代高通S3音频平台，支持蓝牙5.4，支持Snapdragon Sound骁龙畅听技术，可提供24-bit 48kHz无损音乐串流。",
+  "layer_refs": {
+    "technical": [
+      "report:208437"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "在降噪方面，vivo TWS 4 Hi-Fi版采用智能主动降噪方案，最大降噪深度可达55dB、降噪频宽5000Hz，获得了CAIA A+降噪认证；支持飞机、地铁、公交定制通勤降噪场景，支持轻度、常规、深度三种模式AI自适应调节，以及AI双通透模式，AI智能抗风噪，三麦克风AI通话降噪，提供全场景的优质降噪体验。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "在降噪方面，vivo TWS 4 Hi-Fi版采用智能主动降噪方案，最大降噪深度可达55dB、降噪频宽5000Hz，获得了CAIA A+降噪认证；支持飞机、地铁、公交定制通勤降噪场景，支持轻度、常规、深度三种模式AI自适应调节，以及AI双通透模式，AI智能抗风噪，三麦克风AI通话降噪，提供全场景的优质降噪体验。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "在降噪方面，vivo TWS 4 Hi-Fi版采用智能主动降噪方案，最大降噪深度可达55dB、降噪频宽5000Hz，获得了CAIA A+降噪认证；支持飞机、地铁、公交定制通勤降噪场景，支持轻度、常规、深度三种模式AI自适应调节，以及AI双通透模式，AI智能抗风噪，三麦克风AI通话降噪，提供全场景的优质降噪体验。"
+        }
+      },
+      {
+        "text": "还支持3D全景音频、自适应音频2.0、音频超分、人耳定制音效等功能，获得了酷狗、QQ音乐、网易云音乐平台音质认证。",
+        "tag": "其他",
+        "evidence": {
+          "value": "还支持3D全景音频、自适应音频2.0、音频超分、人耳定制音效等功能，获得了酷狗、QQ音乐、网易云音乐平台音质认证。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "还支持3D全景音频、自适应音频2.0、音频超分、人耳定制音效等功能，获得了酷狗、QQ音乐、网易云音乐平台音质认证。"
+        }
+      },
+      {
+        "text": "三、我爱音频网总结\nvivo TWS 4 Hi-Fi版真无线降噪耳机在外观方面，延续了家族式的设计，圆角方形充电盒，采用光滑圆润的亮面质感，搭配银色饰条，质感进一步提升。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "三、我爱音频网总结\nvivo TWS 4 Hi-Fi版真无线降噪耳机在外观方面，延续了家族式的设计，圆角方形充电盒，采用光滑圆润的亮面质感，搭配银色饰条，质感进一步提升。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\nvivo TWS 4 Hi-Fi版真无线降噪耳机在外观方面，延续了家族式的设计，圆角方形充电盒，采用光滑圆润的亮面质感，搭配银色饰条，质感进一步提升。"
+        }
+      },
+      {
+        "text": "镭雕o409的MEMS后馈降噪麦克风特写，用于从耳道内部拾音，进一步降低噪音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "镭雕o409的MEMS后馈降噪麦克风特写，用于从耳道内部拾音，进一步降低噪音。",
+          "confidence": 0.7,
+          "source_type": "text",
+          "source_text": "镭雕o409的MEMS后馈降噪麦克风特写，用于从耳道内部拾音，进一步降低噪音。"
+        }
+      },
+      {
+        "text": "耳机前馈降噪麦克风拾音孔特写，金属网罩防护。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "耳机前馈降噪麦克风拾音孔特写，金属网罩防护。",
+          "confidence": 0.68,
+          "source_type": "text",
+          "source_text": "耳机前馈降噪麦克风拾音孔特写，金属网罩防护。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通勤",
+      "通话"
+    ],
+    "positioning_summary": "在降噪方面，vivo TWS 4 Hi-Fi版采用智能主动降噪方案，最大降噪深度可达55dB、降噪频宽5000Hz，获得了CAIA A+降噪认证；支持飞机、地铁、公交定制通勤降噪场景，支持轻度、常规、深度三种模式AI自适应调节，以及AI双通透模式，AI智能抗风噪，三麦克风AI通话降噪，提供全场景的优质降噪体验。",
+    "launch_date": null,
+    "best_report_id": "208437",
+    "best_video_id": null
+  }
+}

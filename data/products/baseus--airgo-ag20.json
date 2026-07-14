@@ -1,0 +1,416 @@
+{
+  "canonical_id": "baseus--airgo-ag20",
+  "brand": "Baseus倍思",
+  "model": "AirGo AG20",
+  "category": "开放式耳机",
+  "report_ids": [
+    "188554"
+  ],
+  "video_ids": [
+    "199991",
+    "226473"
+  ],
+  "related_report_ids": [
+    "188554"
+  ],
+  "related_video_ids": [
+    "199991",
+    "226473"
+  ],
+  "first_seen": "2024-01-25",
+  "latest_published": "2025-01-21",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "WINSEMI稳先微WSDF2311",
+    "pmic_case": "INJOINIC英集芯 INJOINIC英集芯IP5333",
+    "battery_ear": "电池",
+    "battery_case": "10V/00mAh",
+    "speaker": "动圈单元",
+    "materials": "硅胶、钛合金",
+    "weight_g": "89.1g",
+    "weight_case_g": "",
+    "weight_earbud_g": "11.8g",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 21,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "188554",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "INJOINIC英集芯IP5333",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5333",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置了JYZ金宇宙1000mAh大容量电池，采用了Type-C接口输入电源，由Prisemi芯导科技P14C5N芯片负责过压过流保护，由INJOINIC英集芯IP5333多功能电源管理SoC负责充放电管理，充电效率高至91%，升压转换效率高至92%，同时集成丰富的功能，为充电盒提供完整的解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "WINSEMI稳先微",
+      "model": "WINSEMI稳先微WSDF2311A",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "WINSEMI稳先微WSDF2311A",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "还采用了WINSEMI稳先微WSDF2311A锂电保护IC。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "10V/00mAh",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "10V/00mAh",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置了JYZ金宇宙1000mAh大容量电池，采用了Type-C接口输入电源，由Prisemi芯导科技P14C5N芯片负责过压过流保护，由INJOINIC英集芯IP5333多功能电源管理SoC负责充放电管理，充电效率高至91%，升压转换效率高至92%，同时集成丰富的功能，为充电盒提供完整的解决方案。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部，耳挂末端内置JYZ金宇宙90mAh锂电池，音腔内搭载16.2mm大动圈单元，分别通过导线连接主板。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "2",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了两颗MEMS麦克风拾音，采用了Actions炬芯ATS3019E蓝牙音频SoC，支持蓝牙5.3双模，支持回声消除，双麦克风环境降噪，集成线性电池充电器；"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "倍思AirGo AG20还搭载了倍思3项智能音频技术，支持DCLL倍思双通道低延迟，提供音画同步的游戏体验；支持BSC倍思智慧双连，无缝切换；支持BRC倍思瞬时闪充，充电10分钟，可播放2小时。满电状态下，耳机单次续航时间约6小时，配合充电盒综合续航约26小时。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面介绍有产品的参数信息，名称：倍思开放式真无线耳机，型号：Baseus PM66-A，蓝牙版本：V5.3，听歌时间：约6小时（50%音量），配合充电盒听歌时间：约26小时（50%音量），电池容量：90mAh/0.33Wh（耳机），1000mAh/3.7Wh（充电盒），耳机额定输入：5V-120mA，充电盒额定输入：5V-1000mA，耳机额定消耗电流：15mA，充电盒额定消耗电流：360mA，频响范围：20Hz~20kHz，充电接口：Type-C；制造商：深圳市倍思科技有限公司。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部电路一览，主板通过螺丝固定，通过导线连接电池和为耳机充电的连接器。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "音腔上方的通话降噪麦克风拾音孔特写。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "此次将要拆解的Baseus倍思AirGo AG20开放式耳机，搭载了16.2mm大动圈单元，通过定向传音技术，有效降低音质损失，较少漏音；还搭载了低频增强技术，用于实时调整低频强度和深度。在通话上，支持双麦通话降噪，智能分离人声与背景声，实现高清通话效果。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "后腔底部结构一览，还贴有蓝牙天线和触摸检测传感器，露铜连接主板。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Baseus倍思是一个消费电子品牌，旗下产品涵盖了充电、音频、车品、智能家居、智能家电等众多领域。近期，针对于开放式耳机市场，倍思相继发布了Eli Sport 1和AirGo AG20两款新品，均采用了耳挂式设计，佩戴无需入耳，提供开放式的舒适聆听体验。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "连接充电盒的充电触点特写。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身正面外观一览，设置有4颗LED指示灯，能够直观的反馈剩余电量信息。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Actions炬芯ATS3019E蓝牙音频SoC，支持蓝牙5.3双模，支持AAC、SBC音频解码；内核采用RISC32精简指令集结构，内置248KB RAM、1MB SPI串行闪存、支持预置EQ，支持回声消除，支持双麦克风环境降噪，支持风噪声降低，支持电容式触摸按键；集成线性电池充电器，充电电流可达300mA。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP5333",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5333",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "INJOINIC英集芯IP5333多功能电源管理SoC，集成升压转换器、锂电池充电管理、电池电量指示和TYPE-C协议等功能，为TWS充电仓提供完整的解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5333",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5333",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "IP5333非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Prisemi芯导P14C5N",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Prisemi芯导P14C5N",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Prisemi芯导P14C5N详细资料图。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WINSEMI稳先微WSDF2311A",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "WINSEMI稳先微WSDF2311A",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "WINSEMI稳先微WSDF2311A锂电保护IC。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WINSEMI稳先微WSDF2311",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "WINSEMI稳先微WSDF2311",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "WINSEMI稳先微WSDF2311系列详细资料图。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Baseus倍思AirGo AG20开放式耳机在外观方面，长条形的“鹅卵石”状充电盒，体积扁平，便于携带。挂耳式耳机的耳挂和前腔采用了亲肤硅胶材质覆盖，佩戴与耳朵舒适贴合；内部采用钛合金记忆钢丝，弹性十足，能够适应不同人群佩戴；腔体采用了电镀工艺处理，呈现精致的亮面质感。 内部电路方面，充电盒内置了JYZ金宇宙1000mAh大容量电池，采用了Type-C接口输入电源，由Prisemi芯导科技P14C5N芯片负责过压过流保护，由INJOINIC英集芯IP5333多功能电源管理SoC负责充放电管理，充电效率高至91%，升压转换效率高至92%，同时集成丰富的功能，为充电盒提供完整的解决方案。 耳机内部，耳挂末端内置JYZ金宇宙90mAh锂电池，音腔内搭载16.2mm大动圈单元，分别通过导线连接主板。主板上，搭载了两颗MEMS麦克风拾音，采用了Actions炬芯ATS3019E蓝牙音频SoC，支持蓝牙5.3双模，支持回声消除，双麦克风环境降噪，集成线性电池充电器；还采用了WINSEMI稳先微WSDF2311A锂电保护IC。",
+  "layer_refs": {
+    "technical": [
+      "report:188554",
+      "video:199991",
+      "video:226473"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "在通话上，支持双麦通话降噪，智能分离人声与背景声，实现高清通话效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "在通话上，支持双麦通话降噪，智能分离人声与背景声，实现高清通话效果。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "在通话上，支持双麦通话降噪，智能分离人声与背景声，实现高清通话效果。"
+        }
+      },
+      {
+        "text": "此次将要拆解的Baseus倍思AirGo AG20开放式耳机，搭载了16.2mm大动圈单元，通过定向传音技术，有效降低音质损失，较少漏音；还搭载了低频增强技术，用于实时调整低频强度和深度。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "此次将要拆解的Baseus倍思AirGo AG20开放式耳机，搭载了16.2mm大动圈单元，通过定向传音技术，有效降低音质损失，较少漏音；还搭载了低频增强技术，用于实时调整低频强度和深度。",
+          "confidence": 0.6,
+          "source_type": "text",
+          "source_text": "此次将要拆解的Baseus倍思AirGo AG20开放式耳机，搭载了16.2mm大动圈单元，通过定向传音技术，有效降低音质损失，较少漏音；还搭载了低频增强技术，用于实时调整低频强度和深度。"
+        }
+      },
+      {
+        "text": "音腔上方的通话降噪麦克风拾音孔特写。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "音腔上方的通话降噪麦克风拾音孔特写。",
+          "confidence": 0.6,
+          "source_type": "text",
+          "source_text": "音腔上方的通话降噪麦克风拾音孔特写。"
+        }
+      },
+      {
+        "text": "盒盖内侧丝印参数信息和认证标识。",
+        "tag": "其他",
+        "evidence": {
+          "value": "盒盖内侧丝印参数信息和认证标识。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "盒盖内侧丝印参数信息和认证标识。"
+        }
+      },
+      {
+        "text": "倍思AirGo AG20还搭载了倍思3项智能音频技术，支持DCLL倍思双通道低延迟，提供音画同步的游戏体验；支持BSC倍思智慧双连，无缝切换；支持BRC倍思瞬时闪充，充电10分钟，可播放2小时。",
+        "tag": "游戏低延迟",
+        "evidence": {
+          "value": "倍思AirGo AG20还搭载了倍思3项智能音频技术，支持DCLL倍思双通道低延迟，提供音画同步的游戏体验；支持BSC倍思智慧双连，无缝切换；支持BRC倍思瞬时闪充，充电10分钟，可播放2小时。",
+          "confidence": 0.6,
+          "source_type": "text",
+          "source_text": "倍思AirGo AG20还搭载了倍思3项智能音频技术，支持DCLL倍思双通道低延迟，提供音画同步的游戏体验；支持BSC倍思智慧双连，无缝切换；支持BRC倍思瞬时闪充，充电10分钟，可播放2小时。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "在通话上，支持双麦通话降噪，智能分离人声与背景声，实现高清通话效果。",
+    "launch_date": null,
+    "best_report_id": "188554",
+    "best_video_id": null
+  }
+}

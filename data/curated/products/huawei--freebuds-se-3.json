@@ -1,0 +1,351 @@
+{
+  "canonical_id": "huawei--freebuds-se-3",
+  "brand": "HUAWEI华为",
+  "model": "FreeBuds SE 3",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "231674"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "231674"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2025-03-18",
+  "latest_published": "2025-03-18",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "CM1125",
+    "pmic_case": "CM1125",
+    "battery_ear": "电池",
+    "battery_case": "5V/10mAh锂电池",
+    "speaker": "喇叭单元",
+    "materials": "皮革",
+    "weight_g": "40.5g",
+    "weight_case_g": "",
+    "weight_earbud_g": "3.8g",
+    "ip_rating": "",
+    "bluetooth": "5.4",
+    "bom_row_count": 17,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "231674",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1125",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "CM1125",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载了510mAh锂电池，采用了iCM创芯微CM1125系列集成MOSFET单节锂电池保护IC，负责对电池的过充电、过放电、过电流等保护；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "WINSEMI稳先微",
+      "model": "WINSEMI稳先微WSDF2310",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "WINSEMI稳先微WSDF2310",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，采用WINSEMI稳先微WSDF2310锂电保护IC负责电池的充放电保护；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "5V/10mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "5V/10mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载了510mAh锂电池，采用了iCM创芯微CM1125系列集成MOSFET单节锂电池保护IC，负责对电池的过充电、过放电、过电流等保护；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "搭载一颗MEMS麦克风，用于语音通话功能拾音。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盒盖内部标注有产品信息，型号：T0016L，输入：5V-1A，输出：5V-0.2A，电池：3.8V 510mAh 1.97Wh。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒底部贴有产品标签，HUAWEI FreeBuds SE 3 耳机，耳机型号：T0016，充电盒型号：T0016L，颜色：流光金。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱正面结构一览，通过框架固有电池单元，底部通过螺丝固定主板。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄底部的充电触点和麦克风拾音孔特写。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧结构一览，设置有蓝牙天线和触摸检测贴片。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "扬声器正面特写，采用了镀钛复合振膜。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在功能配置方面，华为FreeBuds SE 3真无线耳机搭载精选声学单元，提供清晰耐听的音质；预设多种EQ，满足个性化听音需求；升级蓝牙5.4，提供稳定的连接和低延时播放；搭配华为系手机/平板，支持自动弹窗；通过华为智慧生活App，还可以自定义触控指令、查找耳机等。续航方面，支持单次9小时，综合42小的音乐播放。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身正面的指示灯特写，通过不同颜色，反馈蓝牙配对及剩余电量信息。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄底部的充电触点和麦克风拾音孔特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1125",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM1125",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "iCM创芯微CM1125系列集成MOSFET单节锂电池保护IC，负责对电池的过充电、过放电、过电流等保护。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WINSEMI稳先微WSDF2310",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "WINSEMI稳先微WSDF2310",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "WINSEMI稳先微WSDF2310锂电保护IC，采用DFN-1*1超小体积封装，具有过充、过放、过流、短路等所有电池需要的保护功能。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WINSEMI稳先微WSDF2310",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "WINSEMI稳先微WSDF2310",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "耳机内部，搭载了41mAh软包扣式电池，10mm动圈喇叭；主板上，采用WINSEMI稳先微WSDF2310锂电保护IC负责电池的充放电保护；采用WQ7031M蓝牙音频SoC，用于无线连接和音频数据处理，外围配备Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感；搭载一颗MEMS麦克风，用于语音通话功能拾音。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 HUAWEI华为FreeBuds SE 3真无线耳机此次最大的升级在外观方面，充电盒在保持了轻巧便携的体积的同时，通过全新的金属色+仿皮革纹理拼接设计，带来了更加时尚精致的质感。柄状的半入耳式耳机，同样采用了金属色盖板装饰，佩戴时尚百搭；重量仅3.8g，佩戴轻若无物。 内部主要配置方面，充电盒搭载了510mAh锂电池，采用了iCM创芯微CM1125系列集成MOSFET单节锂电池保护IC，负责对电池的过充电、过放电、过电流等保护；采用了SinhMicro昇生微电子SS888AH Power MCU，负责充放电管理和整机控制。 耳机内部，搭载了41mAh软包扣式电池，10mm动圈喇叭；主板上，采用WINSEMI稳先微WSDF2310锂电保护IC负责电池的充放电保护；采用WQ7031M蓝牙音频SoC，用于无线连接和音频数据处理，外围配备Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感；搭载一颗MEMS麦克风，用于语音通话功能拾音。",
+  "layer_refs": {
+    "technical": [
+      "report:231674"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "三、我爱音频网总结\nHUAWEI华为FreeBuds SE 3真无线耳机此次最大的升级在外观方面，充电盒在保持了轻巧便携的体积的同时，通过全新的金属色+仿皮革纹理拼接设计，带来了更加时尚精致的质感。",
+        "tag": "其他",
+        "evidence": {
+          "value": "三、我爱音频网总结\nHUAWEI华为FreeBuds SE 3真无线耳机此次最大的升级在外观方面，充电盒在保持了轻巧便携的体积的同时，通过全新的金属色+仿皮革纹理拼接设计，带来了更加时尚精致的质感。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\nHUAWEI华为FreeBuds SE 3真无线耳机此次最大的升级在外观方面，充电盒在保持了轻巧便携的体积的同时，通过全新的金属色+仿皮革纹理拼接设计，带来了更加时尚精致的质感。"
+        }
+      },
+      {
+        "text": "据官方介绍，机身曲线基于1万+耳道特征大数据和人体工学仿真分析设计，实现轻盈无负担的舒适佩戴。",
+        "tag": "舒适佩戴",
+        "evidence": {
+          "value": "据官方介绍，机身曲线基于1万+耳道特征大数据和人体工学仿真分析设计，实现轻盈无负担的舒适佩戴。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "据官方介绍，机身曲线基于1万+耳道特征大数据和人体工学仿真分析设计，实现轻盈无负担的舒适佩戴。"
+        }
+      },
+      {
+        "text": "FreeBuds SE系列是HUAWEI华为旗下入门级真无线耳机产品，目前已相继更新了三代，自上市以来，累积发货量突破了500万副。",
+        "tag": "其他",
+        "evidence": {
+          "value": "FreeBuds SE系列是HUAWEI华为旗下入门级真无线耳机产品，目前已相继更新了三代，自上市以来，累积发货量突破了500万副。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "FreeBuds SE系列是HUAWEI华为旗下入门级真无线耳机产品，目前已相继更新了三代，自上市以来，累积发货量突破了500万副。"
+        }
+      },
+      {
+        "text": "下面就来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过华为\nFreeClip开放式耳机\n，\nFreeBuds Pro 3\n、\nFreeBuds SE 2\n、\nFreeBuds 5\n真无线耳机，\nFreeBuds Studio\n降噪头戴式耳机，\nFreeLace Pro 2\n颈挂式耳机，\nSound SE\n、\nSound Joy\n智能音箱，\nMate 70智能手机\n、\nPocket 2折叠屏手机\n，\nMateBook X Pro 2024笔记本电脑\n，\n华为WATCH GT5\n、\nWATCH FIT 3\n、\nWATCH Buds\n、\nWATCH GT Cyber\n智能手表，\n华为手环 9\n、\n华为通话手环B7\n，\nTag无线追踪器\n等产品。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "下面就来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过华为\nFreeClip开放式耳机\n，\nFreeBuds Pro 3\n、\nFreeBuds SE 2\n、\nFreeBuds 5\n真无线耳机，\nFreeBuds Studio\n降噪头戴式耳机，\nFreeLace Pro 2\n颈挂式耳机，\nSound SE\n、\nSound Joy\n智能音箱，\nMate 70智能手机\n、\nPocket 2折叠屏手机\n，\nMateBook X Pro 2024笔记本电脑\n，\n华为WATCH GT5\n、\nWATCH FIT 3\n、\nWATCH Buds\n、\nWATCH GT Cyber\n智能手表，\n华为手环 9\n、\n华为通话手环B7\n，\nTag无线追踪器\n等产品。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "下面就来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过华为\nFreeClip开放式耳机\n，\nFreeBuds Pro 3\n、\nFreeBuds SE 2\n、\nFreeBuds 5\n真无线耳机，\nFreeBuds Studio\n降噪头戴式耳机，\nFreeLace Pro 2\n颈挂式耳机，\nSound SE\n、\nSound Joy\n智能音箱，\nMate 70智能手机\n、\nPocket 2折叠屏手机\n，\nMateBook X Pro 2024笔记本电脑\n，\n华为WATCH GT5\n、\nWATCH FIT 3\n、\nWATCH Buds\n、\nWATCH GT Cyber\n智能手表，\n华为手环 9\n、\n华为通话手环B7\n，\nTag无线追踪器\n等产品。"
+        }
+      },
+      {
+        "text": "耳机出音嘴特写，边缘过渡圆润无毛刺，内部防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "耳机出音嘴特写，边缘过渡圆润无毛刺，内部防尘网防护。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "耳机出音嘴特写，边缘过渡圆润无毛刺，内部防尘网防护。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "三、我爱音频网总结\nHUAWEI华为FreeBuds SE 3真无线耳机此次最大的升级在外观方面，充电盒在保持了轻巧便携的体积的同时，通过全新的金属色+仿皮革纹理拼接设计，带来了更加时尚精致的质感。",
+    "launch_date": null,
+    "best_report_id": "231674",
+    "best_video_id": null
+  }
+}

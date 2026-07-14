@@ -1,0 +1,216 @@
+{
+  "canonical_id": "unknown--appleairpods-4airpods-3",
+  "brand": "",
+  "model": "拆解对比：Apple苹果AirPods 4标准版和AirPods 3",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "214716"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "214716"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2024-10-11",
+  "latest_published": "2024-10-11",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "1 mAh",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "40.6g",
+    "weight_case_g": "",
+    "weight_earbud_g": "4.4g",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 6,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.67,
+    "best_report_id": "214716",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "相较于苹果AirPods 3，苹果AirPods 4标准版在多方面进行了升级，包括搭载全新Apple设计的低失真度驱动单元，新一代的SiP封装H2芯片，新增语音突显功能，提供清晰通话，支持Siri智能对话和头部控制，提供更便捷的交互。但同时，苹果AirPods 4标准版充电盒取消了无线充电功能。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "电池"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "主控芯片"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "麦克风"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "苹果AirPods 4和AirPods 3耳机内部均搭载了Apple定制发声单元。其中，苹果AirPods 4采用了Apple设计的低失真度驱动单元，能够提供丰富的音频细节；苹果AirPods 3采用了Apple定制的高振幅驱动单元特写。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "苹果AirPods 4和AirPods 3均采用了压力感应按键，通过内置的贴片式压力感应传感器，捏一捏即可实现各项功能的控制，相较于触摸/敲击键，避免了误触，操控也更加精准。"
+      }
+    }
+  ],
+  "summary_image_urls": [
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/10/2024101106223150.png",
+      "alt": "拆解对比：Apple苹果AirPods 4标准版和AirPods 3-我爱音频网",
+      "caption": "",
+      "section_hint": "summary_bom",
+      "score": 10
+    }
+  ],
+  "summary_text": "我爱音频网总结 通过上文我们可以了解到，苹果AirPods 4标准版和AirPods 3在外观方面，都采用了家族式的设计风格，体积轻巧，质感光滑圆润，独具品牌辨识度。其中，苹果AirPods 4标准版充电盒更加小巧，耳机通过进一步优化佩戴贴合度，提供更长久的舒适佩戴体验。 内部配置的主要区别上，苹果AirPods 4耳机从H1芯片升级到了H2芯片，提供更强大的处理能力，支持更高的蓝牙5.3版本；搭载的扬声器从Apple定制驱动单元替换为了Apple设计的低失真度驱动单元；佩戴检测由皮肤识别传感器回归到了光学传感器。充电盒内置电池容量相同，苹果AirPods 4电源管理由NXP恩智浦610A3B充电IC替换为了TI德州仪器BQ25118B充电器，不再支持无线充电功能。",
+  "layer_refs": {
+    "technical": [
+      "report:214716"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "时隔三年，新一代苹果AirPods 4真无线耳机在\n2024 Apple秋季特别活动\n上终于发布，此次最大升级在于采用了双线战略，推出了\n标准版\n和\n降噪版\n两个版本。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "时隔三年，新一代苹果AirPods 4真无线耳机在\n2024 Apple秋季特别活动\n上终于发布，此次最大升级在于采用了双线战略，推出了\n标准版\n和\n降噪版\n两个版本。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "时隔三年，新一代苹果AirPods 4真无线耳机在\n2024 Apple秋季特别活动\n上终于发布，此次最大升级在于采用了双线战略，推出了\n标准版\n和\n降噪版\n两个版本。"
+        }
+      },
+      {
+        "text": "相较于苹果AirPods 3，苹果AirPods 4标准版在多方面进行了升级，包括搭载全新Apple设计的低失真度驱动单元，新一代的SiP封装H2芯片，新增语音突显功能，提供清晰通话，支持Siri智能对话和头部控制，提供更便捷的交互。",
+        "tag": "其他",
+        "evidence": {
+          "value": "相较于苹果AirPods 3，苹果AirPods 4标准版在多方面进行了升级，包括搭载全新Apple设计的低失真度驱动单元，新一代的SiP封装H2芯片，新增语音突显功能，提供清晰通话，支持Siri智能对话和头部控制，提供更便捷的交互。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "相较于苹果AirPods 3，苹果AirPods 4标准版在多方面进行了升级，包括搭载全新Apple设计的低失真度驱动单元，新一代的SiP封装H2芯片，新增语音突显功能，提供清晰通话，支持Siri智能对话和头部控制，提供更便捷的交互。"
+        }
+      },
+      {
+        "text": "其中，标准版为\n苹果AirPods 3\n的真正升级款，降噪版则可以看做是\n苹果AirPods Pro 2\n的半入耳式版本。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "其中，标准版为\n苹果AirPods 3\n的真正升级款，降噪版则可以看做是\n苹果AirPods Pro 2\n的半入耳式版本。",
+          "confidence": 0.67,
+          "source_type": "text",
+          "source_text": "其中，标准版为\n苹果AirPods 3\n的真正升级款，降噪版则可以看做是\n苹果AirPods Pro 2\n的半入耳式版本。"
+        }
+      },
+      {
+        "text": "麦克风\n苹果AirPods 4和AirPods 3内部均搭载了3颗MEMS麦克风单元，包括音腔内部的内向式麦克风，耳机柄内部的降噪麦克风和通话麦克风，主要用于自适应均衡、语音通话、通话降噪、智能对话等功能拾音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "麦克风\n苹果AirPods 4和AirPods 3内部均搭载了3颗MEMS麦克风单元，包括音腔内部的内向式麦克风，耳机柄内部的降噪麦克风和通话麦克风，主要用于自适应均衡、语音通话、通话降噪、智能对话等功能拾音。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "麦克风\n苹果AirPods 4和AirPods 3内部均搭载了3颗MEMS麦克风单元，包括音腔内部的内向式麦克风，耳机柄内部的降噪麦克风和通话麦克风，主要用于自适应均衡、语音通话、通话降噪、智能对话等功能拾音。"
+        }
+      },
+      {
+        "text": "不过苹果AirPods 4相较于AirPods 3舒适性进一步优化，带来更出色的佩戴贴合度，实现更长久地舒适佩戴体验。",
+        "tag": "舒适佩戴",
+        "evidence": {
+          "value": "不过苹果AirPods 4相较于AirPods 3舒适性进一步优化，带来更出色的佩戴贴合度，实现更长久地舒适佩戴体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "不过苹果AirPods 4相较于AirPods 3舒适性进一步优化，带来更出色的佩戴贴合度，实现更长久地舒适佩戴体验。"
+        }
+      },
+      {
+        "text": "产品重量\n苹果AirPods 4和AirPods 3在重量方面都非常的轻巧，提供极致便携和舒适轻盈佩戴体验。",
+        "tag": "其他",
+        "evidence": {
+          "value": "产品重量\n苹果AirPods 4和AirPods 3在重量方面都非常的轻巧，提供极致便携和舒适轻盈佩戴体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "产品重量\n苹果AirPods 4和AirPods 3在重量方面都非常的轻巧，提供极致便携和舒适轻盈佩戴体验。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话",
+      "户外"
+    ],
+    "positioning_summary": "时隔三年，新一代苹果AirPods 4真无线耳机在\n2024 Apple秋季特别活动\n上终于发布，此次最大升级在于采用了双线战略，推出了\n标准版\n和\n降噪版\n两个版本。",
+    "launch_date": null,
+    "best_report_id": "214716",
+    "best_video_id": null
+  }
+}

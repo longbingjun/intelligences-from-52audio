@@ -1,0 +1,403 @@
+{
+  "canonical_id": "unknown--clear",
+  "brand": "",
+  "model": "听象科技Clear",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "182419"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "182419"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-11-24",
+  "latest_published": "2023-11-24",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "恒玄BES2300YP",
+    "pmic_case": "ETA9697",
+    "battery_ear": "电池",
+    "battery_case": "6V/00mAh锂电池",
+    "speaker": "10mm 动圈单元",
+    "materials": "硅胶",
+    "weight_g": "55.8g",
+    "weight_case_g": "",
+    "weight_earbud_g": "5.3g",
+    "ip_rating": "",
+    "bluetooth": "5.0",
+    "bom_row_count": 20,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "182419",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA9697",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "PMIC/充电仓管理",
+      "evidence": {
+        "value": "ETA9697",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "采用了ETA钰泰半导体ETA9697电源管理芯片负责充放电管理，HDSC华大半导体HC32F003C4UA单片机用于整机控制，以及LPS微源半导体LP5305A过压过流保护IC保护低压系统免受异常高输入电压的影响。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "6V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "6V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置了600MAh锂电池，配备有电路保护板负责充放电保护；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "恒玄BES2300YP",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2300YP",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载10mm动圈单元，内置LIDEA电的电子LIR1054钢壳扣式电池，单耳配备3颗意芯微电子的MEMS麦克风和ST意法半导体LIS25BA高带宽语音加速度传感器拾音，主控芯片为BES恒玄BES2300YP蓝牙音频SoC，集成自适应主动降噪方案，搭载搭载 VoClear技术算法，支持外接心率传感器、加速度传感器。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "10mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "10mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载10mm动圈单元，内置LIDEA电的电子LIR1054钢壳扣式电池，单耳配备3颗意芯微电子的MEMS麦克风和ST意法半导体LIS25BA高带宽语音加速度传感器拾音，主控芯片为BES恒玄BES2300YP蓝牙音频SoC，集成自适应主动降噪方案，搭载搭载 VoClear技术算法，支持外接心率传感器、加速度传感器。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载10mm动圈单元，内置LIDEA电的电子LIR1054钢壳扣式电池，单耳配备3颗意芯微电子的MEMS麦克风和ST意法半导体LIS25BA高带宽语音加速度传感器拾音，主控芯片为BES恒玄BES2300YP蓝牙音频SoC，集成自适应主动降噪方案，搭载搭载 VoClear技术算法，支持外接心率传感器、加速度传感器。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "本次拆解的听象科技Clear真无线降噪耳机是一款基于3麦克风+骨传导方案打造的消费级产品，搭载Hybrid ANC混合降噪技术，支持-35dB最大降噪深度和通透模式；搭载第三代AI骨传导通话降噪，搭配风噪抑制技术，提供全场景的高品质通话效果；续航方面，单次续航时间6小时，搭配充电盒综合续航30小时。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱结构一览，底部固定主板，中间设置电池单元，一条排线连接霍尔元件。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱结构一览，底部固定主板，中间设置电池单元，一条排线连接霍尔元件。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "本次拆解的听象科技Clear真无线降噪耳机是一款基于3麦克风+骨传导方案打造的消费级产品，搭载Hybrid ANC混合降噪技术，支持-35dB最大降噪深度和通透模式；搭载第三代AI骨传导通话降噪，搭配风噪抑制技术，提供全场景的高品质通话效果；续航方面，单次续航时间6小时，搭配充电盒综合续航30小时。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "本次拆解的听象科技Clear真无线降噪耳机是一款基于3麦克风+骨传导方案打造的消费级产品，搭载Hybrid ANC混合降噪技术，支持-35dB最大降噪深度和通透模式；搭载第三代AI骨传导通话降噪，搭配风噪抑制技术，提供全场景的高品质通话效果；续航方面，单次续航时间6小时，搭配充电盒综合续航30小时。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机扬声器正面特写，振膜设置有金属罩防护。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧结构一览，贴有蓝牙天线和触摸检测传感器。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开卡扣式固定的充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒底部设置有蓝牙配对功能按键、Type-C充电接口和指示灯。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒底部设置有蓝牙配对功能按键、Type-C充电接口和指示灯。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄底部的通话麦克风拾音孔及充电触点特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA9697",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA9697",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "ETA9697采用ESOP8封装，集成了16V耐压的线性充电器和5V同步升压变换器；5V升压常开，功耗低至1.7uA，可支持0.4A最大升压输出，且可以通过控制ENBST引脚，来开关5V输出；内置1.4MHz的开关转换器，可以使用小体积的2.2uH电感器，是理想的蓝牙充电仓二合一解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2300YP",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2300YP",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄BES2300YP蓝牙音频SoC，集成自适应主动降噪方案，支持蓝牙5.0、IBRT蓝牙监听技术和双模蓝牙4.2，支持第三代FWS全无线立体声技术、双麦克风等，还支持外接心率传感器、加速度传感器等外接传感器设备。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2300",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2300",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES2300可以给耳机和家庭音响输出声音，也可以从外部麦克风录音。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2300",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2300",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES2300可支持听象科技的VoClear声学算法，能够实时分离人声和背景噪声，提取清晰人声。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 听象科技Clear真无线降噪耳机在外观方面，整体设计相对比较有特点，圆角矩形充电盒采用了硅胶涂层，触感柔软细腻；银色腰线搭配银色品牌LOGO，有效提升了产品质感。柄状的入耳式耳机同样采用了两种质感相结合，外侧银色喷砂涂层，呈现类金属质感；内侧硅胶涂层，佩戴舒适亲肤稳定。 内部主要配置方面，充电盒内置了600MAh锂电池，配备有电路保护板负责充放电保护；采用了ETA钰泰半导体ETA9697电源管理芯片负责充放电管理，HDSC华大半导体HC32F003C4UA单片机用于整机控制，以及LPS微源半导体LP5305A过压过流保护IC保护低压系统免受异常高输入电压的影响。 耳机内部搭载10mm动圈单元，内置LIDEA电的电子LIR1054钢壳扣式电池，单耳配备3颗意芯微电子的MEMS麦克风和ST意法半导体LIS25BA高带宽语音加速度传感器拾音，主控芯片为BES恒玄BES2300YP蓝牙音频SoC，集成自适应主动降噪方案，搭载搭载 VoClear技术算法，支持外接心率传感器、加速度传感器。",
+  "layer_refs": {
+    "technical": [
+      "report:182419"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "ST意法半导体LIS25BA高带宽语音加速度传感器，用于耳机的骨传导通话降噪功能，提供更好的风噪/环境噪声抑制。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "ST意法半导体LIS25BA高带宽语音加速度传感器，用于耳机的骨传导通话降噪功能，提供更好的风噪/环境噪声抑制。",
+          "confidence": 0.69,
+          "source_type": "text",
+          "source_text": "ST意法半导体LIS25BA高带宽语音加速度传感器，用于耳机的骨传导通话降噪功能，提供更好的风噪/环境噪声抑制。"
+        }
+      },
+      {
+        "text": "本次拆解的听象科技Clear真无线降噪耳机是一款基于3麦克风+骨传导方案打造的消费级产品，搭载Hybrid ANC混合降噪技术，支持-35dB最大降噪深度和通透模式；搭载第三代AI骨传导通话降噪，搭配风噪抑制技术，提供全场景的高品质通话效果；续航方面，单次续航时间6小时，搭配充电盒综合续航30小时。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "本次拆解的听象科技Clear真无线降噪耳机是一款基于3麦克风+骨传导方案打造的消费级产品，搭载Hybrid ANC混合降噪技术，支持-35dB最大降噪深度和通透模式；搭载第三代AI骨传导通话降噪，搭配风噪抑制技术，提供全场景的高品质通话效果；续航方面，单次续航时间6小时，搭配充电盒综合续航30小时。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "本次拆解的听象科技Clear真无线降噪耳机是一款基于3麦克风+骨传导方案打造的消费级产品，搭载Hybrid ANC混合降噪技术，支持-35dB最大降噪深度和通透模式；搭载第三代AI骨传导通话降噪，搭配风噪抑制技术，提供全场景的高品质通话效果；续航方面，单次续航时间6小时，搭配充电盒综合续航30小时。"
+        }
+      },
+      {
+        "text": "听象科技是全球领先的机器听觉人工智能公司之一，致力于提供尖端的智能语音增强和语音交互解决方案，打造更自然的人机交互体验。",
+        "tag": "其他",
+        "evidence": {
+          "value": "听象科技是全球领先的机器听觉人工智能公司之一，致力于提供尖端的智能语音增强和语音交互解决方案，打造更自然的人机交互体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "听象科技是全球领先的机器听觉人工智能公司之一，致力于提供尖端的智能语音增强和语音交互解决方案，打造更自然的人机交互体验。"
+        }
+      },
+      {
+        "text": "三、我爱音频网总结\n听象科技Clear真无线降噪耳机在外观方面，整体设计相对比较有特点，圆角矩形充电盒采用了硅胶涂层，触感柔软细腻；银色腰线搭配银色品牌LOGO，有效提升了产品质感。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "三、我爱音频网总结\n听象科技Clear真无线降噪耳机在外观方面，整体设计相对比较有特点，圆角矩形充电盒采用了硅胶涂层，触感柔软细腻；银色腰线搭配银色品牌LOGO，有效提升了产品质感。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\n听象科技Clear真无线降噪耳机在外观方面，整体设计相对比较有特点，圆角矩形充电盒采用了硅胶涂层，触感柔软细腻；银色腰线搭配银色品牌LOGO，有效提升了产品质感。"
+        }
+      },
+      {
+        "text": "另外一颗镭雕i1401的MEMS麦克风，为前馈降噪麦克风，用于拾取外界环境噪音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "另外一颗镭雕i1401的MEMS麦克风，为前馈降噪麦克风，用于拾取外界环境噪音。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "另外一颗镭雕i1401的MEMS麦克风，为前馈降噪麦克风，用于拾取外界环境噪音。"
+        }
+      },
+      {
+        "text": "听象科技Clear真无线降噪耳机充电盒采用了圆角方形设计，硅胶涂层，质地细腻柔软，握持舒适亲肤，银色腰线进一步提升了质感。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "听象科技Clear真无线降噪耳机充电盒采用了圆角方形设计，硅胶涂层，质地细腻柔软，握持舒适亲肤，银色腰线进一步提升了质感。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "听象科技Clear真无线降噪耳机充电盒采用了圆角方形设计，硅胶涂层，质地细腻柔软，握持舒适亲肤，银色腰线进一步提升了质感。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "ST意法半导体LIS25BA高带宽语音加速度传感器，用于耳机的骨传导通话降噪功能，提供更好的风噪/环境噪声抑制。",
+    "launch_date": null,
+    "best_report_id": "182419",
+    "best_video_id": null
+  }
+}

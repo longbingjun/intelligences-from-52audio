@@ -1,0 +1,122 @@
+{
+  "canonical_id": "unknown--samsunggear-iconx",
+  "brand": "",
+  "model": "SAMSUNG三星无线智能运动跟踪耳机Gear IconX",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "6905"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "6905"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2018-08-23",
+  "latest_published": "2018-08-23",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "CM4343",
+    "pmic_case": "",
+    "battery_ear": "55 mAh",
+    "battery_case": "",
+    "speaker": "",
+    "materials": "硅胶、塑料、PC",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 2,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.5,
+    "best_report_id": "6905",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM4343",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM4343",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BOARDCOM博通 BCM43436，单声道蓝牙音频芯片。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM4343",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM4343",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "三、我爱音频网拆解总结：\n1、三星这款无线智能运动跟踪耳机Gear IconX功能强大，内部自然复杂，主板分为三层的结构，主板之间用软排线连接，电池使用单独的塑料壳保护；\n2、内置4GB eMMC存储IC，支持本地音频文件播放；\n3、采用BOARDCOM博通 BCM43436蓝牙通信IC和ON Semiconductor LC823450XD组成的蓝牙无线耳机平台，可以实现本地播放和TWS真无线蓝牙音频播放的无缝切换。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:6905"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "第一层主板正面特写。",
+        "tag": "其他",
+        "evidence": {
+          "value": "第一层主板正面特写。",
+          "confidence": 0.6,
+          "source_type": "text",
+          "source_text": "第一层主板正面特写。"
+        }
+      },
+      {
+        "text": "第一层主板，可以看到采用触点与天线的软排线接触。",
+        "tag": "其他",
+        "evidence": {
+          "value": "第一层主板，可以看到采用触点与天线的软排线接触。",
+          "confidence": 0.59,
+          "source_type": "text",
+          "source_text": "第一层主板，可以看到采用触点与天线的软排线接触。"
+        }
+      },
+      {
+        "text": "三星的Gear IconX耳机，首创性地在蓝牙耳机内增加存储空间，让耳机能够直接播放耳机内的音乐，解决了蓝牙传输音质较差的问题。",
+        "tag": "旗舰定位",
+        "evidence": {
+          "value": "三星的Gear IconX耳机，首创性地在蓝牙耳机内增加存储空间，让耳机能够直接播放耳机内的音乐，解决了蓝牙传输音质较差的问题。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "三星的Gear IconX耳机，首创性地在蓝牙耳机内增加存储空间，让耳机能够直接播放耳机内的音乐，解决了蓝牙传输音质较差的问题。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "通话"
+    ],
+    "positioning_summary": "第一层主板正面特写。",
+    "launch_date": null,
+    "best_report_id": "6905",
+    "best_video_id": null
+  }
+}
