@@ -30,6 +30,20 @@ export interface ParamLabel {
   why?: string;
 }
 
+/** 首页/发现页使用的轻量产品索引条目，来自 products/index.json（不含 cells/evidence）。 */
+export interface IndexProduct {
+  canonical_id: string;
+  brand: string;
+  model: string;
+  category: string;
+  report_count?: number;
+  video_count?: number;
+  first_seen?: string;
+  latest_published?: string;
+  cost_completeness?: number;
+  bom_row_count?: number;
+}
+
 export interface CompareProfiles {
   default_profile: string;
   profiles: Record<
@@ -39,7 +53,13 @@ export interface CompareProfiles {
   param_labels: Record<string, ParamLabel>;
 }
 
-export function productDisplayName(p: CompareProduct): string {
+/** productDisplayName 只需要这三个字段，用最小形状而非 CompareProduct，
+ * 这样 IndexProduct（无 cells 字段）等轻量产品对象也能直接复用同一函数。 */
+export function productDisplayName(p: {
+  canonical_id: string;
+  brand: string;
+  model: string;
+}): string {
   const b = (p.brand || "").trim();
   const m = (p.model || "").trim();
   return `${b} ${m}`.trim() || p.canonical_id;

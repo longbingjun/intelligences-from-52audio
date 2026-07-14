@@ -1,7 +1,8 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
-import CompareWorkbench from "../components/CompareWorkbench";
+import ProductBrowser from "../components/ProductBrowser";
 import { withBase } from "../lib/paths";
+import type { IndexProduct } from "../lib/types";
 import fs from "node:fs";
 import path from "node:path";
 
@@ -20,42 +21,48 @@ const categories = manifest.categories as {
   product_count: number;
 }[];
 
-type IndexProduct = {
-  canonical_id: string;
-  brand: string;
-  model: string;
-  category: string;
-  first_seen?: string;
-  latest_published?: string;
-};
+const allProducts = productIndex.products as IndexProduct[];
 
 // “最新产品”：以 first_seen（首次入库年份）筛出当年新品，用于首页顶部突出展示，
 // 方便用户在决定要对比谁之前先看到今年新出的型号。
 const currentYear = String(new Date().getFullYear());
-const newestProducts = (productIndex.products as IndexProduct[])
+const newestProducts = allProducts
   .filter((p) => (p.first_seen || "").startsWith(currentYear))
   .sort((a, b) => (b.latest_published || "").localeCompare(a.latest_published || ""))
   .slice(0, 10);
 
-// 对比工作台默认展示产品数最多的品类，让用户落地首页就能直接选型号，
-// 不必先点进品类页才能看到可勾选的产品列表。
-const defaultCategory = [...categories].sort((a, b) => b.product_count - a.product_count)[0];
-const defaultCompareData = defaultCategory
-  ? JSON.parse(fs.readFileSync(path.join(dataDir, "compare", defaultCategory.file), "utf-8"))
-  : { category: "", param_rows: [], products: [] };
+// 品牌聚合（构建期算好，发现层侧边栏直接用，不用等客户端拉完整索引再算一遍）：
+// 只统计有非空 brand 的产品，未知品牌单独计数、作为透明可点的筛选项展示。
+const brandCounts = new Map<string, number>();
+let unknownBrandCount = 0;
+for (const p of allProducts) {
+  const b = (p.brand || "").trim();
+  if (!b) {
+    unknownBrandCount += 1;
+    continue;
+  }
+  brandCounts.set(b, (brandCounts.get(b) || 0) + 1);
+}
+const brands = Array.from(brandCounts.entries())
+  .map(([name, count]) => ({ name, count }))
+  .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, "zh-CN"));
 
-// 首页只内嵌该品类对比数据的一个小切片用于首屏渲染，避免把全部产品（TWS 品类已有
-// 700+ 款）的完整对比数据序列化进首页 HTML；完整数据由 CompareWorkbench 挂载后
-// 通过 fetch 从 /data/compare/{file} 静态 JSON 拉取。
-// 注意：compare JSON 里还有一个 `rows`（按参数转置的全量数据，供另一套 legacy
-// build_site.py 静态页兜底用）字段，CompareWorkbench 完全不用它——这里显式只挑选
-// 组件需要的字段，避免用 `...defaultCompareData` 把这份未裁剪的全量数据也带进来。
-const HOMEPAGE_COMPARE_PREVIEW_SIZE = 24;
-const defaultCompareDataPreview = {
-  category: defaultCompareData.category,
-  param_rows: defaultCompareData.param_rows,
-  products: defaultCompareData.products.slice(0, HOMEPAGE_COMPARE_PREVIEW_SIZE),
-};
+// 默认（未筛选）状态下每个品类展示一小段代表性切片（按成本数据完整度/报告数排序取
+// 前几名），6 个品类合计约 50~60 款——远小于全量 1027 款，避免把完整索引内嵌进
+// 首页 HTML。完整索引由 ProductBrowser 挂载后通过 fetch 拉取，用于搜索/筛选。
+const CATEGORY_SLICE_SIZE = 9;
+const initialSlices = categories.map((c) => {
+  const products = allProducts
+    .filter((p) => p.category === c.name)
+    .sort(
+      (a, b) =>
+        (b.cost_completeness ?? 0) - (a.cost_completeness ?? 0) ||
+        (b.report_count ?? 0) - (a.report_count ?? 0)
+    )
+    .slice(0, CATEGORY_SLICE_SIZE);
+  return { category: c.name, products };
+});
+
 const profiles = JSON.parse(
   fs.readFileSync(path.join(dataDir, "compare_profiles.json"), "utf-8")
 );
@@ -150,17 +157,16 @@ if (fs.existsSync(productsDataDir)) {
 
   <h2 class="mt-10 mb-4 text-xl font-bold">选类型 · 选产品 · 开始对比</h2>
   <p class="mt-0 mb-4 text-sm text-[var(--muted)]">
-    点击下方的耳机类型切换品类，勾选想对比的产品型号，对比表会立即出现在下方——无需先进入品类页。
+    搜索品牌/型号，或在左侧按类型、品牌筛选，勾选想对比的产品型号，即可一键跳转到对比表。
   </p>
-  {defaultCategory && (
-    <CompareWorkbench
-      client:load
-      category={defaultCategory.name}
-      compareData={defaultCompareDataPreview}
-      compareDataUrl={withBase(`/data/compare/${defaultCategory.file}`)}
-      totalCount={defaultCategory.product_count}
-      profiles={profiles}
-      allCategories={categories.map((c) => ({ name: c.name, slug: c.slug }))}
-    />
-  )}
+  <ProductBrowser
+    client:load
+    categories={categories.map((c) => ({ name: c.name, slug: c.slug, product_count: c.product_count }))}
+    totalCount={manifest.product_count}
+    brands={brands}
+    unknownBrandCount={unknownBrandCount}
+    initialSlices={initialSlices}
+    fullIndexUrl={withBase("/data/products/index.json")}
+    profiles={profiles}
+  />
 </BaseLayout>
