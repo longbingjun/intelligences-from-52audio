@@ -1,0 +1,439 @@
+{
+  "canonical_id": "shokz--openfit-2",
+  "brand": "SHOKZ韶音",
+  "model": "OPENFIT 2",
+  "category": "开放式耳机",
+  "report_ids": [
+    "228094"
+  ],
+  "video_ids": [
+    "229765"
+  ],
+  "related_report_ids": [
+    "228094"
+  ],
+  "related_video_ids": [
+    "229765"
+  ],
+  "first_seen": "2025-02-13",
+  "latest_published": "2025-02-27",
+  "internal_match_suggestions": [
+    {
+      "sku": "OpenFit 2",
+      "score": 0.95,
+      "reason": "型号相似度 95%（匹配 韶音 OpenFit 2）；品类一致"
+    },
+    {
+      "sku": "OpenDots 2",
+      "score": 0.765,
+      "reason": "型号相似度 77%（匹配 韶音 OpenDots 2）；品类一致"
+    },
+    {
+      "sku": "OpenRun Pro 2",
+      "score": 0.5,
+      "reason": "型号相似度 50%（匹配 韶音 OpenRun Pro 2）"
+    }
+  ],
+  "cost_snapshot": {
+    "main_chip": "思远半导体SY8809",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "亿纬 6V/00mAh锂电池",
+    "speaker": "动圈单元",
+    "materials": "硅胶、钛合金、塑料、液态硅胶",
+    "weight_g": "71.5g",
+    "weight_case_g": "",
+    "weight_earbud_g": "9.4g",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 21,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "228094",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "思远半导体",
+      "model": "思远半导体SY8809",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8809",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了思远半导体SY8809蓝牙耳机充电仓解决方案，集成充电模块和放电模块，负责内置电池的充放电管理；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "XHSC小华半导体",
+      "model": "XHSC小华半导体HC32F170",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "MCU",
+      "evidence": {
+        "value": "XHSC小华半导体HC32F170",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "采用了XHSC小华半导体HC32F170系列MCU，负责整机控制。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "恒玄BES2700IH",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2700IH",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "采用了BES恒玄BES2700IH蓝牙音频SoC，用于无线连接和音频数据处理。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "亿纬",
+      "model": "6V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "6V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载了EVE亿纬锂能600mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部，采用了56mAh圆柱形钢壳电池，21mmx11mm低音动圈单元+5.5mm高音平板单元，单耳内置两颗MEMS麦克风（双耳4颗），用于通话功能拾音；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "2",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部，采用了56mAh圆柱形钢壳电池，21mmx11mm低音动圈单元+5.5mm高音平板单元，单耳内置两颗MEMS麦克风（双耳4颗），用于通话功能拾音；"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在通话方面，搭载4麦麦克风阵列精准拾音，通过AI通话降噪技术，过滤环境噪音，提供清晰人声。续航方面，单次播放时间提升到了11小时，搭配充电盒综合续航达到了48小时；支持快充功能，闪充10分钟可使用2小时。交互方面，新增实体按键，避免误触，操控更加精准；其他还支持双设备连接、IP55级防护，通过APP可进行EQ、操控等各种功能预设，使用简单便捷。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部结构一览，主板通过螺丝固定，与Pogo Pin连接器和电池导线焊接。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部结构一览，主板通过螺丝固定，与Pogo Pin连接器和电池导线焊接。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在通话方面，搭载4麦麦克风阵列精准拾音，通过AI通话降噪技术，过滤环境噪音，提供清晰人声。续航方面，单次播放时间提升到了11小时，搭配充电盒综合续航达到了48小时；支持快充功能，闪充10分钟可使用2小时。交互方面，新增实体按键，避免误触，操控更加精准；其他还支持双设备连接、IP55级防护，通过APP可进行EQ、操控等各种功能预设，使用简单便捷。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧结构一览，夹层内印刷LDS蓝牙天线，露出电极连接主板。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机搭载的超大动圈喇叭正面特写，采用了复合振膜，提供澎湃的低音效果。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "SHOKZ韶音OPENFIT 2开放式耳机外观延续了上代的设计风格，同时采用全新海豚弧耳挂，搭配超零度硅胶材质，提供持久舒适的佩戴体验。功能上，搭载SHOKZ DualBoost双引擎技术，双喇叭分频处理，呈现丰富的音质细节；并通过SHOKZ OpenBass 2.0算法，实时根据全频段音量优化听感，补偿EQ均衡；还支持DirectPitch2.0分频降漏音技术，高效传声，精准入耳，保护用户隐私。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在通话方面，搭载4麦麦克风阵列精准拾音，通过AI通话降噪技术，过滤环境噪音，提供清晰人声。续航方面，单次播放时间提升到了11小时，搭配充电盒综合续航达到了48小时；支持快充功能，闪充10分钟可使用2小时。交互方面，新增实体按键，避免误触，操控更加精准；其他还支持双设备连接、IP55级防护，通过APP可进行EQ、操控等各种功能预设，使用简单便捷。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机的充电触点特写。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面外观一览，开盖处设计有凹槽，内部设置指示灯，用于反馈蓝牙配对及充电状态。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8809",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8809",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "思远半导体SY8809蓝牙耳机充电仓解决方案，芯片内部集成充电模块和放电模块，充电模块采用NVDC架构，电池端充电电流I2C可以调节；放电模块输出电压I2C可以调节，集成两路输出限流开关，提供了独立的负载存在检测和负载插入检测，同时支持输出电流检测。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SY8809",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SY8809",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "SY8809集成了标准的I2C接口和中断信号，方便实现芯片和MCU之间的通讯，控制充电、放电功能。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "XHSC小华半导体HC32F170FAUA",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "XHSC小华半导体HC32F170FAUA",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "XHSC小华半导体HC32F170FAUA MCU单片机。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "XHSC小华半导体HC32F170",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "XHSC小华半导体HC32F170",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "XHSC小华半导体HC32F170系列详细资料图。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2700IH",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2700IH",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄BES2700IH蓝牙音频SoC，支持蓝牙双模V5.4，用于无线连接和音频数据处理。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 SHOKZ韶音OPENFIT 2开放式耳机在外观方面，延续了该系列的经典设计，独具品牌特色。同时针对于舒适佩戴需求，做了进一步的精细化调整，通过全新海豚弧耳挂设计，独特“气囊”结构，液态亲肤硅胶和超零度硅胶材质，保障用户的长久舒适佩戴。 内部主要配置方面，充电盒搭载了EVE亿纬锂能600mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护。主板上，搭载了思远半导体SY8809蓝牙耳机充电仓解决方案，集成充电模块和放电模块，负责内置电池的充放电管理；采用了XHSC小华半导体HC32F170系列MCU，负责整机控制。 耳机内部，采用了56mAh圆柱形钢壳电池，21mmx11mm低音动圈单元+5.5mm高音平板单元，单耳内置两颗MEMS麦克风（双耳4颗），用于通话功能拾音；采用了BES恒玄BES2700IH蓝牙音频SoC，用于无线连接和音频数据处理。",
+  "layer_refs": {
+    "technical": [
+      "report:228094",
+      "video:229765"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "近日，迭代升级的\nOPENFIT 2开放式耳机\n正式发布，在佩戴舒适性、音质、续航等方面均得到了大幅提升。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "近日，迭代升级的\nOPENFIT 2开放式耳机\n正式发布，在佩戴舒适性、音质、续航等方面均得到了大幅提升。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "近日，迭代升级的\nOPENFIT 2开放式耳机\n正式发布，在佩戴舒适性、音质、续航等方面均得到了大幅提升。"
+        }
+      },
+      {
+        "text": "同时针对于舒适佩戴需求，做了进一步的精细化调整，通过全新海豚弧耳挂设计，独特“气囊”结构，液态亲肤硅胶和超零度硅胶材质，保障用户的长久舒适佩戴。",
+        "tag": "舒适佩戴",
+        "evidence": {
+          "value": "同时针对于舒适佩戴需求，做了进一步的精细化调整，通过全新海豚弧耳挂设计，独特“气囊”结构，液态亲肤硅胶和超零度硅胶材质，保障用户的长久舒适佩戴。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "同时针对于舒适佩戴需求，做了进一步的精细化调整，通过全新海豚弧耳挂设计，独特“气囊”结构，液态亲肤硅胶和超零度硅胶材质，保障用户的长久舒适佩戴。"
+        }
+      },
+      {
+        "text": "镭雕446o的MEMS麦克风特写，用于通话降噪功能拾音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "镭雕446o的MEMS麦克风特写，用于通话降噪功能拾音。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "镭雕446o的MEMS麦克风特写，用于通话降噪功能拾音。"
+        }
+      },
+      {
+        "text": "在通话方面，搭载4麦麦克风阵列精准拾音，通过AI通话降噪技术，过滤环境噪音，提供清晰人声。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "在通话方面，搭载4麦麦克风阵列精准拾音，通过AI通话降噪技术，过滤环境噪音，提供清晰人声。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "在通话方面，搭载4麦麦克风阵列精准拾音，通过AI通话降噪技术，过滤环境噪音，提供清晰人声。"
+        }
+      },
+      {
+        "text": "封套背面介绍了产品的详细功能特点：双引擎技术、多功能实体按键、海豚弧耳挂、超零度硅胶、整机48小时超长续航和IP55抗水抗汗；型号：SHOKZ T920，产品名称：OPENFIT 2开放式耳机，生产商：深圳市韶音科技有限公司。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "封套背面介绍了产品的详细功能特点：双引擎技术、多功能实体按键、海豚弧耳挂、超零度硅胶、整机48小时超长续航和IP55抗水抗汗；型号：SHOKZ T920，产品名称：OPENFIT 2开放式耳机，生产商：深圳市韶音科技有限公司。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "封套背面介绍了产品的详细功能特点：双引擎技术、多功能实体按键、海豚弧耳挂、超零度硅胶、整机48小时超长续航和IP55抗水抗汗；型号：SHOKZ T920，产品名称：OPENFIT 2开放式耳机，生产商：深圳市韶音科技有限公司。"
+        }
+      },
+      {
+        "text": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n三星、小米、OPPO、Redmi、一加、字节跳动、JBL、小天才、倍思、韶音、猛玛、Cleer、Nothing、捷波朗、斯莫格、NuPhy、高驰、翡声、枫笛、海尔兄弟、泥炭、左点、TG\n、\niQOO、漫步者、联想、传音、科大讯飞、用维、公牛、Fiio、翡声、MEES、YOBYBO、HAYLOU、DENON、Oladance、XTOUR、final、酷睿视、Skullcandy\n、\nvivo\n、\nQCY\n、\n声阔\n、\n绿联\n、\nrealme、魅族、百度、网易、哈曼、\n万魔、233621、魔宴、创新科技\n等国内外知名品牌采用。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n三星、小米、OPPO、Redmi、一加、字节跳动、JBL、小天才、倍思、韶音、猛玛、Cleer、Nothing、捷波朗、斯莫格、NuPhy、高驰、翡声、枫笛、海尔兄弟、泥炭、左点、TG\n、\niQOO、漫步者、联想、传音、科大讯飞、用维、公牛、Fiio、翡声、MEES、YOBYBO、HAYLOU、DENON、Oladance、XTOUR、final、酷睿视、Skullcandy\n、\nvivo\n、\nQCY\n、\n声阔\n、\n绿联\n、\nrealme、魅族、百度、网易、哈曼、\n万魔、233621、魔宴、创新科技\n等国内外知名品牌采用。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n三星、小米、OPPO、Redmi、一加、字节跳动、JBL、小天才、倍思、韶音、猛玛、Cleer、Nothing、捷波朗、斯莫格、NuPhy、高驰、翡声、枫笛、海尔兄弟、泥炭、左点、TG\n、\niQOO、漫步者、联想、传音、科大讯飞、用维、公牛、Fiio、翡声、MEES、YOBYBO、HAYLOU、DENON、Oladance、XTOUR、final、酷睿视、Skullcandy\n、\nvivo\n、\nQCY\n、\n声阔\n、\n绿联\n、\nrealme、魅族、百度、网易、哈曼、\n万魔、233621、魔宴、创新科技\n等国内外知名品牌采用。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "通话"
+    ],
+    "positioning_summary": "近日，迭代升级的\nOPENFIT 2开放式耳机\n正式发布，在佩戴舒适性、音质、续航等方面均得到了大幅提升。",
+    "launch_date": null,
+    "best_report_id": "228094",
+    "best_video_id": null
+  }
+}

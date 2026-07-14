@@ -1,0 +1,333 @@
+{
+  "canonical_id": "edifier--lolli-3",
+  "brand": "EDIFIER漫步者",
+  "model": "Lolli 3",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "140391"
+  ],
+  "video_ids": [
+    "186075"
+  ],
+  "related_report_ids": [
+    "140391"
+  ],
+  "related_video_ids": [
+    "186075"
+  ],
+  "first_seen": "2022-12-01",
+  "latest_published": "2023-12-28",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "Qualcomm aptX",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "350 mAh",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 16,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "140391",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "卸掉螺丝，取掉主板和电池单元。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "功能配置方面，升级蓝牙5.3，搭配LDS镭雕天线，提供快速稳定传输和连接；搭载Snapdragon Sound骁龙畅听技术，支持aptX Adaptive音频编解码，支持24bit/96kHz高解析力，全链路延迟低至89ms；还支持aptX Voice宽频语音和cVc双麦通话降噪等。续航上，单次支持约6小时播放，搭配充电盒实现24小时的综合续航。下面来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "另外一颗相同型号的MEMS麦克风特写，两颗麦克风协同拾音，搭配降噪算法，提供清晰通话效果。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，主板单元通过螺丝固定。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "动圈单元正面振膜特写，据官方介绍采用了液晶复合振膜，解析度、平衡度更优质。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "功能配置方面，升级蓝牙5.3，搭配LDS镭雕天线，提供快速稳定传输和连接；搭载Snapdragon Sound骁龙畅听技术，支持aptX Adaptive音频编解码，支持24bit/96kHz高解析力，全链路延迟低至89ms；还支持aptX Voice宽频语音和cVc双麦通话降噪等。续航上，单次支持约6小时播放，搭配充电盒实现24小时的综合续航。下面来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "外壳内侧结构一览，Type-C接口设置有密封胶圈防水和缓冲。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱另外一侧结构一览，设置电池电源和指示灯小板，有支架进行防护。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SS881",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SS881",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "充电接口：内部主要配置反面，充电盒内置金赛尔350mAh锂电池，采用Type-C接口输入电源，端口设置维安WP1430过压保护IC，支持高达36V的正过电压保护；采用昇生微电子SS881A POWER MCU负责内置电池的充放电管理，集成了电源管理和充电管理单元，提供全软件实时可配置的充电电压电流设置。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WP1430",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "WP1430",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "充电接口：内部主要配置反面，充电盒内置金赛尔350mAh锂电池，采用Type-C接口输入电源，端口设置维安WP1430过压保护IC，支持高达36V的正过电压保护；采用昇生微电子SS881A POWER MCU负责内置电池的充放电管理，集成了电源管理和充电管理单元，提供全软件实时可配置的充电电压电流设置。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Qualcomm aptX",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Qualcomm aptX",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：包装盒背面介绍了产品的规格参数信息，产品型号：EDF200089，蓝牙版本：Bluetooth V5.3，音频解码：Snapdragon Sound骁龙畅听、Qualcomm aptX Adaptive、Qualcomm aptX、SBC，工作时长：约6h（耳机）+18h（充电盒），频响范围：20Hz~40KHz，输入：5V=200mA（耳机）/5V=1A（充电盒），配色：薄雾蓝。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SS881",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SS881",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "标记/认证：SS881X系列是昇生微POWER MCU系列的产品之一，具有丰富的接口功能和灵活的配置模式，支持不同的低功耗选项，适用于需要电池充电以及智能控制的便携式电子产品，可通过软件灵活配置电池的充电电压和电流，同时还内置完善的保护功能，而且芯片本身已经通过了IEC62368认证。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CSU18M68",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CSU18M68",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "标记/认证：CHIPSEA芯海CSU18M68压力传感器检测IC，是一款具有双通道压力传感测量功能的SOC，可用于手机、可穿戴、笔记本、工业、家电等领域，支持AFE模式和MCU模式。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Qualcomm aptX",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Qualcomm aptX",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：350\n芯片 WP1430\n芯片 SS881\n芯片 高通QCC3056\n芯片 CSU18M68\n芯片 Qualcomm aptX\n芯片 Qualcomm TrueWireless\n芯片 高通Snapdragon\n芯片 高通QCC30XX\n芯片 QCC30"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC3056",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC3056",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：350\n芯片 WP1430\n芯片 SS881\n芯片 高通QCC3056\n芯片 CSU18M68\n芯片 Qualcomm aptX\n芯片 Qualcomm TrueWireless\n芯片 高通Snapdragon\n芯片 高通QCC30XX\n芯片 QCC30"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WP1430",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "WP1430",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：350\n芯片 WP1430\n芯片 SS881\n芯片 高通QCC3056\n芯片 CSU18M68\n芯片 Qualcomm aptX\n芯片 Qualcomm TrueWireless\n芯片 高通Snapdragon\n芯片 高通QCC30XX\n芯片 QCC30"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:140391",
+      "video:186075"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "Lollipods系列是漫步者旗下非常畅销的TWS耳机产品，以出色的性能和高性价比体验，获得了众多消费者的认可 […]\n下面来看看这款产品的详细拆解报告吧~\n我爱音频网此前拆解过漫步者\nNeoBuds S\n、\nNeoBuds Pro\n、\nLolliPods Pro\n、\nFunBuds\n、\nTWS NB2\n降噪耳机；\n漫步者HECATE G4S雷霆版\n、\n漫步者W820NB\n头戴式耳机；与冇心联合产品\n漫步者TO-U2\n、\n漫步者MiniBuds\n；漫步者\nHECATE GM45\n、\nHECATE GM4 MINI\n游戏耳机；\n漫步者DreamPods\nAI骨传导通话降噪耳机；声迈系列\nX6\n、\nX5\n、\nX3\n真无线耳机；\n漫步者辅听1号\n助听/辅听耳机，以及\n10款其他的漫步者耳机产品\n。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "Lollipods系列是漫步者旗下非常畅销的TWS耳机产品，以出色的性能和高性价比体验，获得了众多消费者的认可 […]\n下面来看看这款产品的详细拆解报告吧~\n我爱音频网此前拆解过漫步者\nNeoBuds S\n、\nNeoBuds Pro\n、\nLolliPods Pro\n、\nFunBuds\n、\nTWS NB2\n降噪耳机；\n漫步者HECATE G4S雷霆版\n、\n漫步者W820NB\n头戴式耳机；与冇心联合产品\n漫步者TO-U2\n、\n漫步者MiniBuds\n；漫步者\nHECATE GM45\n、\nHECATE GM4 MINI\n游戏耳机；\n漫步者DreamPods\nAI骨传导通话降噪耳机；声迈系列\nX6\n、\nX5\n、\nX3\n真无线耳机；\n漫步者辅听1号\n助听/辅听耳机，以及\n10款其他的漫步者耳机产品\n。",
+          "confidence": 0.68,
+          "source_type": "text",
+          "source_text": "Lollipods系列是漫步者旗下非常畅销的TWS耳机产品，以出色的性能和高性价比体验，获得了众多消费者的认可 […]\n下面来看看这款产品的详细拆解报告吧~\n我爱音频网此前拆解过漫步者\nNeoBuds S\n、\nNeoBuds Pro\n、\nLolliPods Pro\n、\nFunBuds\n、\nTWS NB2\n降噪耳机；\n漫步者HECATE G4S雷霆版\n、\n漫步者W820NB\n头戴式耳机；与冇心联合产品\n漫步者TO-U2\n、\n漫步者MiniBuds\n；漫步者\nHECATE GM45\n、\nHECATE GM4 MINI\n游戏耳机；\n漫步者DreamPods\nAI骨传导通话降噪耳机；声迈系列\nX6\n、\nX5\n、\nX3\n真无线耳机；\n漫步者辅听1号\n助听/辅听耳机，以及\n10款其他的漫步者耳机产品\n。"
+        }
+      },
+      {
+        "text": "EDIFIER Lolli 3真无线耳机\n是该系列2022年的新一代产品，外观方面升级第3代半入耳结构，基于漫步者人机工学耳型数据库精心打磨，大幅减少耳道压感，提供舒适无感佩戴体验。",
+        "tag": "其他",
+        "evidence": {
+          "value": "EDIFIER Lolli 3真无线耳机\n是该系列2022年的新一代产品，外观方面升级第3代半入耳结构，基于漫步者人机工学耳型数据库精心打磨，大幅减少耳道压感，提供舒适无感佩戴体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "EDIFIER Lolli 3真无线耳机\n是该系列2022年的新一代产品，外观方面升级第3代半入耳结构，基于漫步者人机工学耳型数据库精心打磨，大幅减少耳道压感，提供舒适无感佩戴体验。"
+        }
+      },
+      {
+        "text": "耳机内侧外观一览，采用第3代半入耳结构，基于漫步者人机工学耳型数据库精心打磨，大幅减少耳道压感，提供轻稳舒适佩戴。",
+        "tag": "舒适佩戴",
+        "evidence": {
+          "value": "耳机内侧外观一览，采用第3代半入耳结构，基于漫步者人机工学耳型数据库精心打磨，大幅减少耳道压感，提供轻稳舒适佩戴。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "耳机内侧外观一览，采用第3代半入耳结构，基于漫步者人机工学耳型数据库精心打磨，大幅减少耳道压感，提供轻稳舒适佩戴。"
+        }
+      },
+      {
+        "text": "另外一颗相同型号的MEMS麦克风特写，两颗麦克风协同拾音，搭配降噪算法，提供清晰通话效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "另外一颗相同型号的MEMS麦克风特写，两颗麦克风协同拾音，搭配降噪算法，提供清晰通话效果。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "另外一颗相同型号的MEMS麦克风特写，两颗麦克风协同拾音，搭配降噪算法，提供清晰通话效果。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "Lollipods系列是漫步者旗下非常畅销的TWS耳机产品，以出色的性能和高性价比体验，获得了众多消费者的认可 […]\n下面来看看这款产品的详细拆解报告吧~\n我爱音频网此前拆解过漫步者\nNeoBuds S\n、\nNeoBuds Pro\n、\nLolliPods Pro\n、\nFunBuds\n、\nTWS NB2\n降噪耳机；\n漫步者HECATE G4S雷霆版\n、\n漫步者W820NB\n头戴式耳机；与冇心联合产品\n漫步者TO-U2\n、\n漫步者MiniBuds\n；漫步者\nHECATE GM45\n、\nHECATE GM4 MINI\n游戏耳机；\n漫步者DreamPods\nAI骨传导通话降噪耳机；声迈系列\nX6\n、\nX5\n、\nX3\n真无线耳机；\n漫步者辅听1号\n助听/辅听耳机，以及\n10款其他的漫步者耳机产品\n。",
+    "launch_date": null,
+    "best_report_id": "140391",
+    "best_video_id": null
+  }
+}

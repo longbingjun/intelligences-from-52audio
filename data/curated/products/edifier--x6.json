@@ -21,12 +21,12 @@
     "battery_case": "电池",
     "speaker": "喇叭单元",
     "materials": "塑料、PC",
-    "weight_g": "41.8克",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
     "bluetooth": "",
-    "bom_row_count": 17,
+    "bom_row_count": 11,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -41,13 +41,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "充电盒",
       "role": "major",
       "evidence": {
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "今天我们要拆解的是漫步者 X6 真无线蓝牙耳机，它的充电盒为“心”型设计，耳机外观与前代相比也进行了细节上的优化，整体更具质感。漫步者X6采用高通芯片，支持16bit/44.1KHz的aptX编码，内置13mm TPU+碳生物纤维复合振膜；耳机采用双麦降噪方案，IP54级防尘防水，单次续航约5小时，充电盒可提供额外19小时续航。下面一起来看详细的拆解报告吧~"
+        "source_text": "充电盒正面结构展示，电池竖置，内侧使用双面胶固定在中框上，外侧使用泡棉胶与外壳之间充当缓冲。"
       }
     },
     {
@@ -89,21 +89,7 @@
         "value": "喇叭单元",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "今天我们要拆解的是漫步者 X6 真无线蓝牙耳机，它的充电盒为“心”型设计，耳机外观与前代相比也进行了细节上的优化，整体更具质感。漫步者X6采用高通芯片，支持16bit/44.1KHz的aptX编码，内置13mm TPU+碳生物纤维复合振膜；耳机采用双麦降噪方案，IP54级防尘防水，单次续航约5小时，充电盒可提供额外19小时续航。下面一起来看详细的拆解报告吧~"
-      }
-    },
-    {
-      "component": "天线",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "天线",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "主板另一侧展示，耳机采用FPC天线传输无线信号。"
+        "source_text": "总体而言，漫步者X6真无线蓝牙耳机进一步完善了产品的细节设计，接口、扬声器单元、续航等配置也进行了升级，是一款不错的产品。"
       }
     },
     {
@@ -121,59 +107,17 @@
       }
     },
     {
-      "component": "降噪系统",
+      "component": "天线",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "耳机",
       "role": "major",
       "evidence": {
-        "value": "降噪系统",
+        "value": "天线",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "我爱音频网拆解过的漫步者音频产品还有：漫步者TO-U2真无线蓝牙耳机冇心版、漫步者MiniBuds真无线耳机冇心版、漫步者DreamPods 真无线蓝牙耳机、漫步者TWS NB2 真无线主动降噪耳机、漫步者Xemal声迈X5和声迈X3以及10款其他的漫步者耳机产品。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "快速配对按键特写。"
-      }
-    },
-    {
-      "component": "充电触点",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "给耳机充电的Pogo Pin特写。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒底部接口位置，有一个隐藏的指示灯开孔，内有导光柱和避免漏光的保护罩。"
+        "source_text": "主板另一侧展示，耳机采用FPC天线传输无线信号。"
       }
     },
     {
@@ -193,34 +137,6 @@
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "高通aptX",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "高通aptX",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "音频解码：高通aptX、SBC。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "英集芯IP5516",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "英集芯IP5516",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "充电盒主控芯片为英集芯IP5516，单芯片集成MCU/充电管理/Boost升压，更有内置专门针对TWS充电仓方案独身定制的双耳独立检测电路。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
       "model": "英集芯IP5516",
       "qty_hint": "1",
       "side": "耳机",
@@ -235,6 +151,20 @@
     {
       "component": "芯片/模组",
       "brand": "",
+      "model": "英集芯IP5516",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "英集芯IP5516",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "标记/认证：充电盒主控芯片为英集芯IP5516，单芯片集成MCU/充电管理/Boost升压，更有内置专门针对TWS充电仓方案独身定制的双耳独立检测电路。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
       "model": "IP5516",
       "qty_hint": "1",
       "side": "",
@@ -243,35 +173,21 @@
         "value": "IP5516",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "INJOINIC英集芯科技IP5516详细资料。"
+        "source_text": "标记/认证：INJOINIC英集芯科技IP5516详细资料。"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "高通QCC3020",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "高通QCC3020",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "漫步者 X6 真无线蓝牙耳机的主控芯片是高通QCC3020，这是一款低功耗蓝牙音频SoC，采用FBGA封装，专为TWS真无线耳机而设计。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "高通QCC3020",
+      "model": "高通aptX",
       "qty_hint": "1",
       "side": "",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "高通QCC3020",
+        "value": "高通aptX",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "除此之外，高通QCC3020还支持第八代cVc通话环境降噪，通过算法精确识别背景噪音并消除，通话体验更纯净。"
+        "source_text": "电池容量：350\n芯片 高通aptX\n芯片 高通QCC3020\n芯片 INJOINIC英集芯IP5516"
       }
     }
   ],
@@ -290,13 +206,23 @@
   "market": {
     "selling_points": [
       {
-        "text": "镭雕0063 1731的MEMS硅麦，用于拾取环境音，辅助通话降噪。",
+        "text": "标记/认证：漫步者X6支持IP54级防尘防水，内部使用了大量封胶，适合运动佩戴。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "标记/认证：漫步者X6支持IP54级防尘防水，内部使用了大量封胶，适合运动佩戴。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "标记/认证：漫步者X6支持IP54级防尘防水，内部使用了大量封胶，适合运动佩戴。"
+        }
+      },
+      {
+        "text": "EDIFIER漫步者是中国音频产品领域代表性的品牌，近期漫步者的TWS新品密集发布，我爱音频网已先后为大家拆解 […]\n镭雕0063 1731的MEMS硅麦，用于拾取环境音，辅助通话降噪。",
         "tag": "降噪",
         "evidence": {
-          "value": "镭雕0063 1731的MEMS硅麦，用于拾取环境音，辅助通话降噪。",
-          "confidence": 0.66,
+          "value": "EDIFIER漫步者是中国音频产品领域代表性的品牌，近期漫步者的TWS新品密集发布，我爱音频网已先后为大家拆解 […]\n镭雕0063 1731的MEMS硅麦，用于拾取环境音，辅助通话降噪。",
+          "confidence": 0.75,
           "source_type": "text",
-          "source_text": "镭雕0063 1731的MEMS硅麦，用于拾取环境音，辅助通话降噪。"
+          "source_text": "EDIFIER漫步者是中国音频产品领域代表性的品牌，近期漫步者的TWS新品密集发布，我爱音频网已先后为大家拆解 […]\n镭雕0063 1731的MEMS硅麦，用于拾取环境音，辅助通话降噪。"
         }
       },
       {
@@ -318,34 +244,13 @@
           "source_type": "text",
           "source_text": "漫步者X6支持IP54级防尘防水，内部使用了大量封胶，适合运动佩戴。"
         }
-      },
-      {
-        "text": "耳机柄外侧特写，上方有一个麦克风拾音孔，用于拾取环境音辅助通话降噪，耳机支持敲击控制。",
-        "tag": "降噪",
-        "evidence": {
-          "value": "耳机柄外侧特写，上方有一个麦克风拾音孔，用于拾取环境音辅助通话降噪，耳机支持敲击控制。",
-          "confidence": 0.55,
-          "source_type": "text",
-          "source_text": "耳机柄外侧特写，上方有一个麦克风拾音孔，用于拾取环境音辅助通话降噪，耳机支持敲击控制。"
-        }
-      },
-      {
-        "text": "总体而言，漫步者X6真无线蓝牙耳机进一步完善了产品的细节设计，接口、扬声器单元、续航等配置也进行了升级，是一款不错的产品。",
-        "tag": "其他",
-        "evidence": {
-          "value": "总体而言，漫步者X6真无线蓝牙耳机进一步完善了产品的细节设计，接口、扬声器单元、续航等配置也进行了升级，是一款不错的产品。",
-          "confidence": 0.75,
-          "source_type": "text",
-          "source_text": "总体而言，漫步者X6真无线蓝牙耳机进一步完善了产品的细节设计，接口、扬声器单元、续航等配置也进行了升级，是一款不错的产品。"
-        }
       }
     ],
     "scenarios": [
       "运动",
-      "游戏",
       "通话"
     ],
-    "positioning_summary": "镭雕0063 1731的MEMS硅麦，用于拾取环境音，辅助通话降噪。",
+    "positioning_summary": "标记/认证：漫步者X6支持IP54级防尘防水，内部使用了大量封胶，适合运动佩戴。",
     "launch_date": null,
     "best_report_id": "67403",
     "best_video_id": null

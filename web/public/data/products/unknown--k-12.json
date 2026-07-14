@@ -1,0 +1,254 @@
+{
+  "canonical_id": "unknown--k-12",
+  "brand": "",
+  "model": "诺必行K-12电竞版",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "124782"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "124782"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2022-07-13",
+  "latest_published": "2022-07-13",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "INJOINIC英集芯IP5516",
+    "pmic_case": "",
+    "battery_ear": "",
+    "battery_case": "电池",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 10,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.67,
+    "best_report_id": "124782",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "卸掉螺丝，取掉充电盒内主要组件，包括一块异形主板和电池单元。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "卸掉螺丝，取掉充电盒内主要组件，包括一块异形主板和电池单元。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "卸掉螺丝，取掉充电盒内主要组件，包括一块异形主板和电池单元。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "打开耳机头腔体，内部仅设置有扬声器单元。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "麦克风拾音孔特写，用于语音通话功能拾音。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "陶瓷蓝牙天线特写，用于无线信号传输。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄背部为触控区域，同时设计有菱形的指示灯，提升游戏氛围。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄背部为触控区域，同时设计有菱形的指示灯，提升游戏氛围。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP5516",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5516",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5516",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5516",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "标记/认证：IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:124782"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "游戏耳机是目前TWS耳机市场的一个细分领域，基于无线连接的便捷性，为游戏玩家提供了更加灵活的使用方式；超低延时 […]\n游戏耳机是目前TWS耳机市场的一个细分领域，基于无线连接的便捷性，为游戏玩家提供了更加灵活的使用方式；超低延时游戏模式，带来声画同步的流畅游戏体验；以及炫酷的外观设计，增添了游戏时的氛围感。",
+        "tag": "游戏低延迟",
+        "evidence": {
+          "value": "游戏耳机是目前TWS耳机市场的一个细分领域，基于无线连接的便捷性，为游戏玩家提供了更加灵活的使用方式；超低延时 […]\n游戏耳机是目前TWS耳机市场的一个细分领域，基于无线连接的便捷性，为游戏玩家提供了更加灵活的使用方式；超低延时游戏模式，带来声画同步的流畅游戏体验；以及炫酷的外观设计，增添了游戏时的氛围感。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "游戏耳机是目前TWS耳机市场的一个细分领域，基于无线连接的便捷性，为游戏玩家提供了更加灵活的使用方式；超低延时 […]\n游戏耳机是目前TWS耳机市场的一个细分领域，基于无线连接的便捷性，为游戏玩家提供了更加灵活的使用方式；超低延时游戏模式，带来声画同步的流畅游戏体验；以及炫酷的外观设计，增添了游戏时的氛围感。"
+        }
+      },
+      {
+        "text": "标记/认证：IP5516 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "标记/认证：IP5516 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "标记/认证：IP5516 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+        }
+      },
+      {
+        "text": "标记/认证：INJOINIC英集芯IP5516详细资料图。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "标记/认证：INJOINIC英集芯IP5516详细资料图。",
+          "confidence": 0.62,
+          "source_type": "text",
+          "source_text": "标记/认证：INJOINIC英集芯IP5516详细资料图。"
+        }
+      },
+      {
+        "text": "耳机调音孔特写，内部防尘网防护，侧边雕刻有L/R左右标识。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "耳机调音孔特写，内部防尘网防护，侧边雕刻有L/R左右标识。",
+          "confidence": 0.61,
+          "source_type": "text",
+          "source_text": "耳机调音孔特写，内部防尘网防护，侧边雕刻有L/R左右标识。"
+        }
+      },
+      {
+        "text": "扬声器背部特写，导线焊接，背部设置有调音孔，通过细密防尘网覆盖。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "扬声器背部特写，导线焊接，背部设置有调音孔，通过细密防尘网覆盖。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "扬声器背部特写，导线焊接，背部设置有调音孔，通过细密防尘网覆盖。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "游戏耳机是目前TWS耳机市场的一个细分领域，基于无线连接的便捷性，为游戏玩家提供了更加灵活的使用方式；超低延时 […]\n游戏耳机是目前TWS耳机市场的一个细分领域，基于无线连接的便捷性，为游戏玩家提供了更加灵活的使用方式；超低延时游戏模式，带来声画同步的流畅游戏体验；以及炫酷的外观设计，增添了游戏时的氛围感。",
+    "launch_date": null,
+    "best_report_id": "124782",
+    "best_video_id": null
+  }
+}

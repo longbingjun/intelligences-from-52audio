@@ -1,0 +1,430 @@
+{
+  "canonical_id": "baseus--inspire-xc1",
+  "brand": "Baseus倍思",
+  "model": "Inspire XC1",
+  "category": "开放式耳机",
+  "report_ids": [
+    "257473"
+  ],
+  "video_ids": [
+    "258225"
+  ],
+  "related_report_ids": [
+    "257473"
+  ],
+  "related_video_ids": [
+    "258225"
+  ],
+  "first_seen": "2025-10-29",
+  "latest_published": "2025-11-05",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "INJOINIC英集芯IP5529",
+    "pmic_case": "Prisemi芯导 Prisemi芯导P14C1S",
+    "battery_ear": "微电新能源 3.85V/48mAh软包扣式",
+    "battery_case": "WEL旭航诚 3.7V/600mAh锂电池",
+    "speaker": "双单元",
+    "materials": "硅胶、钛合金",
+    "weight_g": "54.2g",
+    "weight_case_g": "",
+    "weight_earbud_g": "6.2g",
+    "ip_rating": "",
+    "bluetooth": "6.1",
+    "bom_row_count": 21,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "257473",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "INJOINIC英集芯IP5529",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5529",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，采用了INJOINIC英集芯IP5529 TWS耳机充电仓电源管理SOC，集成升压转换器、锂电池充电管理、高性能MCU，负责电池的充放电管理和整机控制；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "Prisemi芯导",
+      "model": "Prisemi芯导P14C1S",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "Prisemi芯导P14C1S",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "还采用了Prisemi芯导P14C1S过压过流保护IC，保护后级器件。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "WEL旭航诚",
+      "model": "3.7V/600mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3.7V/600mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载WEL旭航诚3.7V/600mAh锂电池，配备有电路保护板负责过充电过放电过电流等保护。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "BES2710IHC",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2710IHC",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片为BES恒玄科技BES2710IHC蓝牙音频SoC。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "微电新能源",
+      "model": "3.85V/48mAh软包扣式",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "3.85V/48mAh软包扣式",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内置WD微电新能源3.85V/48mAh软包扣式电池，搭载Knowles楼氏电子RAN-34902-B148动铁+三磁路高灵敏动圈双单元，采用两颗MEMS麦克风拾音。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "双单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "双单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内置WD微电新能源3.85V/48mAh软包扣式电池，搭载Knowles楼氏电子RAN-34902-B148动铁+三磁路高灵敏动圈双单元，采用两颗MEMS麦克风拾音。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "2",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内置WD微电新能源3.85V/48mAh软包扣式电池，搭载Knowles楼氏电子RAN-34902-B148动铁+三磁路高灵敏动圈双单元，采用两颗MEMS麦克风拾音。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "倍思Inspire XC1耳夹耳机支持左右声道自适应，佩戴不分左右耳；支持蓝牙V6.1协议，双设备连接，通信稳定、使用便捷；支持AI智能通话降噪，四麦克风搭配深度神经网络通话算法，保障清晰通话；搭配手机APP，还支持AI随身助理，实现随时问答，翻译等功能。续航方面，耳机单次播放时长约8小时，搭配充电仓综合续航约40小时，充电10分钟，可畅听2.5小时。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部通过螺丝固定主板，与排线通过连接器连接。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱背面结构一览，腹部设置电池单元，起到很好的保护。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "倍思Inspire XC1耳夹耳机支持左右声道自适应，佩戴不分左右耳；支持蓝牙V6.1协议，双设备连接，通信稳定、使用便捷；支持AI智能通话降噪，四麦克风搭配深度神经网络通话算法，保障清晰通话；搭配手机APP，还支持AI随身助理，实现随时问答，翻译等功能。续航方面，耳机单次播放时长约8小时，搭配充电仓综合续航约40小时，充电10分钟，可畅听2.5小时。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "掀开扬声器，排线末端连接动铁单元和麦克风，通过金属板固定。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体底部结构一览。背部盖板和腔体之间内嵌蓝牙天线，露铜连接主板。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒底部设置有Type-C充电接口和蓝牙配对功能按键。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "撬开充电盒外壳，取出内部座舱结构。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Baseus倍思Inspire XC1开放式耳机充电盒采用了圆润的设计，液态金属漆喷涂工艺，双拼配色，带来出众的质感。机身正面设计有倍思品牌LOGO和SOUND BY BOSE标识，以及反馈蓝牙配对及充电状态的LED指示灯。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部的充电触点特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Prisemi芯导P14C1S",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Prisemi芯导P14C1S",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Prisemi芯导P14C1S过压过流保护IC，输入耐压高达32V，过压保护点为固定6V。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP5529",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5529",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "INJOINIC英集芯IP5529是一款集成升压转换器、锂电池充电管理、高性能MCU的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2710IHC",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2710IHC",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄科技BES2710IHC蓝牙音频SoC，支持蓝牙6.1，用于无线连接和音频数据处理。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP5529",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5529",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "主板上，采用了INJOINIC英集芯IP5529 TWS耳机充电仓电源管理SOC，集成升压转换器、锂电池充电管理、高性能MCU，负责电池的充放电管理和整机控制；还采用了Prisemi芯导P14C1S过压过流保护IC，保护后级器件。"
+      }
+    }
+  ],
+  "summary_image_urls": [
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/10/2025102910063187.png",
+      "alt": "拆解报告：Baseus倍思Inspire XC1开放式耳机-我爱音频网",
+      "caption": "",
+      "section_hint": "summary_bom",
+      "score": 10
+    }
+  ],
+  "summary_text": "三、我爱音频网总结 最后附上Baseus倍思Inspire XC1开放式耳机的已知核心物料清单，方便大家查阅。 Baseus倍思Inspire XC1开放式耳机在外观方面，延续了家族式耳夹耳机的结构设计，同时通过液态金属漆喷涂工艺和双拼配色，赋予了产品更加出色的质感和辨识度。此外，该耳机的专利云朵气囊结构进一步升级，采用超柔软硅胶一体成型，能够自适应贴合不同耳型，为用户提供舒适且稳固的佩戴体验。 内部主要配置方面，充电盒搭载WEL旭航诚3.7V/600mAh锂电池，配备有电路保护板负责过充电过放电过电流等保护。主板上，采用了INJOINIC英集芯IP5529 TWS耳机充电仓电源管理SOC，集成升压转换器、锂电池充电管理、高性能MCU，负责电池的充放电管理和整机控制；还采用了Prisemi芯导P14C1S过压过流保护IC，保护后级器件。 耳机内置WD微电新能源3.85V/48mAh软包扣式电池，搭载Knowles楼氏电子RAN-34902-B148动铁+三磁路高灵敏动圈双单元，采用两颗MEMS麦克风拾音。主控芯片为BES恒玄科技BES2710IHC蓝牙音频SoC。其他还采用了Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等方案。",
+  "layer_refs": {
+    "technical": [
+      "report:257473",
+      "video:258225"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "在声学配置上，耳机搭载楼氏动铁+三磁路高灵敏动圈双单元，由Bose声学团队专业调音，搭配LDAC高清音频格式，带来旗舰音质，并获得了Hi-Res和QQ音乐臻品音质双认证；还支持杜比音效、动态低音增强3.0、动态音质均衡3.0，为不同场景提供最优听感。",
+        "tag": "音质认证",
+        "evidence": {
+          "value": "在声学配置上，耳机搭载楼氏动铁+三磁路高灵敏动圈双单元，由Bose声学团队专业调音，搭配LDAC高清音频格式，带来旗舰音质，并获得了Hi-Res和QQ音乐臻品音质双认证；还支持杜比音效、动态低音增强3.0、动态音质均衡3.0，为不同场景提供最优听感。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "在声学配置上，耳机搭载楼氏动铁+三磁路高灵敏动圈双单元，由Bose声学团队专业调音，搭配LDAC高清音频格式，带来旗舰音质，并获得了Hi-Res和QQ音乐臻品音质双认证；还支持杜比音效、动态低音增强3.0、动态音质均衡3.0，为不同场景提供最优听感。"
+        }
+      },
+      {
+        "text": "近期，倍思举办了\nInspire系列旗舰音频新品发布会\n，正式推出了三款「Sound by Bose」产品——XC1、XH1和XP1，其中Inspire XC1还是全球首款圈铁双单元的耳夹耳机，大幅提升了音质效果。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "近期，倍思举办了\nInspire系列旗舰音频新品发布会\n，正式推出了三款「Sound by Bose」产品——XC1、XH1和XP1，其中Inspire XC1还是全球首款圈铁双单元的耳夹耳机，大幅提升了音质效果。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "近期，倍思举办了\nInspire系列旗舰音频新品发布会\n，正式推出了三款「Sound by Bose」产品——XC1、XH1和XP1，其中Inspire XC1还是全球首款圈铁双单元的耳夹耳机，大幅提升了音质效果。"
+        }
+      },
+      {
+        "text": "此外，该耳机的专利云朵气囊结构进一步升级，采用超柔软硅胶一体成型，能够自适应贴合不同耳型，为用户提供舒适且稳固的佩戴体验。",
+        "tag": "其他",
+        "evidence": {
+          "value": "此外，该耳机的专利云朵气囊结构进一步升级，采用超柔软硅胶一体成型，能够自适应贴合不同耳型，为用户提供舒适且稳固的佩戴体验。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "此外，该耳机的专利云朵气囊结构进一步升级，采用超柔软硅胶一体成型，能够自适应贴合不同耳型，为用户提供舒适且稳固的佩戴体验。"
+        }
+      },
+      {
+        "text": "倍思Inspire XC1耳夹耳机支持左右声道自适应，佩戴不分左右耳；支持蓝牙V6.1协议，双设备连接，通信稳定、使用便捷；支持AI智能通话降噪，四麦克风搭配深度神经网络通话算法，保障清晰通话；搭配手机APP，还支持AI随身助理，实现随时问答，翻译等功能。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "倍思Inspire XC1耳夹耳机支持左右声道自适应，佩戴不分左右耳；支持蓝牙V6.1协议，双设备连接，通信稳定、使用便捷；支持AI智能通话降噪，四麦克风搭配深度神经网络通话算法，保障清晰通话；搭配手机APP，还支持AI随身助理，实现随时问答，翻译等功能。",
+          "confidence": 0.59,
+          "source_type": "text",
+          "source_text": "倍思Inspire XC1耳夹耳机支持左右声道自适应，佩戴不分左右耳；支持蓝牙V6.1协议，双设备连接，通信稳定、使用便捷；支持AI智能通话降噪，四麦克风搭配深度神经网络通话算法，保障清晰通话；搭配手机APP，还支持AI随身助理，实现随时问答，翻译等功能。"
+        }
+      },
+      {
+        "text": "Baseus倍思Inspire XC1耳夹耳机在外观设计上，继承了倍思专利云朵气囊结构，佩戴轻盈无感、舒适稳固。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "Baseus倍思Inspire XC1耳夹耳机在外观设计上，继承了倍思专利云朵气囊结构，佩戴轻盈无感、舒适稳固。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "Baseus倍思Inspire XC1耳夹耳机在外观设计上，继承了倍思专利云朵气囊结构，佩戴轻盈无感、舒适稳固。"
+        }
+      },
+      {
+        "text": "在CES 2025期间，\n倍思宣布了与音频创新先驱Bose建立战略级合作伙伴关系\n，以进一步提升其在全球消费电子市场的竞争力和影响力。",
+        "tag": "其他",
+        "evidence": {
+          "value": "在CES 2025期间，\n倍思宣布了与音频创新先驱Bose建立战略级合作伙伴关系\n，以进一步提升其在全球消费电子市场的竞争力和影响力。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "在CES 2025期间，\n倍思宣布了与音频创新先驱Bose建立战略级合作伙伴关系\n，以进一步提升其在全球消费电子市场的竞争力和影响力。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "在声学配置上，耳机搭载楼氏动铁+三磁路高灵敏动圈双单元，由Bose声学团队专业调音，搭配LDAC高清音频格式，带来旗舰音质，并获得了Hi-Res和QQ音乐臻品音质双认证；还支持杜比音效、动态低音增强3.0、动态音质均衡3.0，为不同场景提供最优听感。",
+    "launch_date": null,
+    "best_report_id": "257473",
+    "best_video_id": null
+  }
+}

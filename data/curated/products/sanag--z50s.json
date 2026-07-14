@@ -15,95 +15,39 @@
   "latest_published": "2023-01-10",
   "internal_match_suggestions": [],
   "cost_snapshot": {
-    "main_chip": "IP5516",
-    "pmic_case": "INJOINIC英集芯 INJOINIC英集芯IP5516",
+    "main_chip": "INJOINIC英集芯IP5516",
+    "pmic_case": "",
     "battery_ear": "电池",
-    "battery_case": "4V/00mAh锂电池",
-    "speaker": "10mm 动圈单元",
+    "battery_case": "50 mAh",
+    "speaker": "喇叭单元",
     "materials": "",
-    "weight_g": "65.9g",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "IPX5",
     "bluetooth": "5.3",
-    "bom_row_count": 14,
+    "bom_row_count": 10,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
     "sales_hint": null,
-    "data_completeness": 1.0,
+    "data_completeness": 0.83,
     "best_report_id": "146082",
     "best_video_id": null
   },
   "bom_table": [
     {
-      "component": "芯片/模组",
-      "brand": "INJOINIC英集芯",
-      "model": "INJOINIC英集芯IP5516",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "PMIC/充电仓管理",
-      "evidence": {
-        "value": "INJOINIC英集芯IP5516",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "主板上采用了INJOINIC英集芯IP5516充电盒管理SoC，高度集成为充电仓提供了完整的电源解决方案；"
-      }
-    },
-    {
-      "component": "电池",
-      "brand": "",
-      "model": "4V/00mAh锂电池",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "4V/00mAh锂电池",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "充电盒内部搭载了金宇宙400mAh锂电池，配备DW01锂电保护IC；"
-      }
-    },
-    {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "10mm 动圈单元",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "10mm 动圈单元",
-        "confidence": 0.8,
-        "source_type": "summary_prose",
-        "source_text": "耳机内部内侧腔体设置有10mm动圈单元，外侧腔体设置电池和主板单元。"
-      }
-    },
-    {
-      "component": "麦克风",
-      "brand": "",
-      "model": "麦克风",
-      "qty_hint": "2",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "麦克风",
-        "confidence": 0.78,
-        "source_type": "summary_prose",
-        "source_text": "主板上采用JL杰理AD6973D蓝牙音频SoC，支持蓝牙5.3，支持AAC，SBC解码，支持单/双麦克风降噪；"
-      }
-    },
-    {
       "component": "充电仓",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "充电盒",
       "role": "major",
       "evidence": {
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "包装盒背面贴有防伪标签，介绍了产品的功能参数信息。名称：TWS蓝牙耳机，型号：Z50S系列，蓝牙版本：V5.2，蓝牙距离：≥10M，工作电压：3-4.2V，灵敏度：-38dbv/pa，耳机电池容量：50mAh，充电仓电池容量：400mAh，耳机充电时间：约1小时，生产商：深圳市怕锐特科技有限公司，中国制造。"
+        "source_text": "充电盒盖上印制有产品型号：Z50S，输入：5V-1A，中国制造，以及多种认证标志。"
       }
     },
     {
@@ -111,13 +55,27 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "电池",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "包装盒背面贴有防伪标签，介绍了产品的功能参数信息。名称：TWS蓝牙耳机，型号：Z50S系列，蓝牙版本：V5.2，蓝牙距离：≥10M，工作电压：3-4.2V，灵敏度：-38dbv/pa，耳机电池容量：50mAh，充电仓电池容量：400mAh，耳机充电时间：约1小时，生产商：深圳市怕锐特科技有限公司，中国制造。"
+        "source_text": "座舱底部结构一览，主板通过螺丝固定，主板上贴有电池和配重铁块。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "支持单/双麦克风降噪，支持两路模拟麦克风放大，内置麦克风偏置。"
       }
     },
     {
@@ -135,20 +93,6 @@
       }
     },
     {
-      "component": "麦克风",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "麦克风",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "sanag塞那Z50S支持新一代蓝牙5.3技术，传输稳定，延迟可低至40ms，带来声画同步的无线音频体验；支持高清通话，通过内置麦克风准确拾音，搭配降噪算法大幅滤除噪音，提供清晰通话效果；还支持IPX5级防水，提供48小时的超长综合续航。下面就来看看这款产品的详细拆解报告吧~"
-      }
-    },
-    {
       "component": "喇叭单元",
       "brand": "",
       "model": "",
@@ -160,34 +104,6 @@
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "扬声器采用了动圈单元，正面振膜覆盖有金属盖板防护。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "sanag塞那Z50S耳夹式真无线耳机充电盒采用了圆润饱满的设计，象牙白配色观感纯净。充电盒腰线采用了曲线设计，正面开盖处设计有倒角便于开启，下方机身上有一颗条形指示灯，用于反馈充电状态。"
-      }
-    },
-    {
-      "component": "外壳结构",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "外壳结构",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "拆开充电盒外壳，取出座舱结构。"
       }
     },
     {
@@ -205,17 +121,45 @@
       }
     },
     {
-      "component": "充电触点",
+      "component": "外壳结构",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "充电盒",
       "role": "minor",
       "evidence": {
-        "value": "充电触点",
+        "value": "外壳结构",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "为耳机充电的Pogo Pin连接器特写。"
+        "source_text": "拆开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒外壳内侧结构一览，腔体壁上设置有指示灯导光柱。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP5516",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5516",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "标记/认证：INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
       }
     },
     {
@@ -229,12 +173,12 @@
         "value": "IP5516",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。"
+        "source_text": "标记/认证：IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。"
       }
     }
   ],
   "summary_image_urls": [],
-  "summary_text": "三、我爱音频网总结 sanag塞那Z50S耳夹式真无线耳机在外观方面，相比传统的入耳式耳机，采用了开放式的设计，佩戴远离耳道避免了长久佩戴耳廓胀痛的问题，同时在听歌时不影响接收外界声音，使用耳机更加安全。而相较于传统的挂耳式设计，独立的两只耳机体积更加小巧轻便，使用更便捷，也更便于收纳。 内部结构配置方面设计简洁明了，充电盒内部搭载了金宇宙400mAh锂电池，配备DW01锂电保护IC；主板上采用了INJOINIC英集芯IP5516充电盒管理SoC，高度集成为充电仓提供了完整的电源解决方案；还采用了一颗M5201的霍尔元件，用于开盖即连功能。 耳机内部内侧腔体设置有10mm动圈单元，外侧腔体设置电池和主板单元。电池同样来自于金宇宙，容量40mAh；主板上采用JL杰理AD6973D蓝牙音频SoC，支持蓝牙5.3，支持AAC，SBC解码，支持单/双麦克风降噪；触摸控制由PinTeng品腾PT2042A芯片负责；还搭载有一颗MEMS麦克风，用于通话拾音。",
+  "summary_text": "",
   "layer_refs": {
     "technical": [
       "report:146082"
@@ -248,13 +192,33 @@
   "market": {
     "selling_points": [
       {
-        "text": "耳机采用脉冲DT3.0自适应定向传音技术，通过检测耳道形状，自动调整集成声束的传播角度，确保声音高效传入耳道，有效降低漏音；吸音内腔阻隔设计，配合第三代sanag-Acavity声学腔体，以及数字声音增强技术，提供三频均衡的全息原声。",
+        "text": "sanag塞那是一个来自英国的新锐无线蓝牙耳机品牌，也是目前市场上少数同时兼具骨传导和气传导耳机产品的品牌之一 […]\n耳机采用脉冲DT3.0自适应定向传音技术，通过检测耳道形状，自动调整集成声束的传播角度，确保声音高效传入耳道，有效降低漏音；吸音内腔阻隔设计，配合第三代sanag-Acavity声学腔体，以及数字声音增强技术，提供三频均衡的全息原声。",
         "tag": "开放佩戴",
         "evidence": {
-          "value": "耳机采用脉冲DT3.0自适应定向传音技术，通过检测耳道形状，自动调整集成声束的传播角度，确保声音高效传入耳道，有效降低漏音；吸音内腔阻隔设计，配合第三代sanag-Acavity声学腔体，以及数字声音增强技术，提供三频均衡的全息原声。",
-          "confidence": 0.59,
+          "value": "sanag塞那是一个来自英国的新锐无线蓝牙耳机品牌，也是目前市场上少数同时兼具骨传导和气传导耳机产品的品牌之一 […]\n耳机采用脉冲DT3.0自适应定向传音技术，通过检测耳道形状，自动调整集成声束的传播角度，确保声音高效传入耳道，有效降低漏音；吸音内腔阻隔设计，配合第三代sanag-Acavity声学腔体，以及数字声音增强技术，提供三频均衡的全息原声。",
+          "confidence": 0.74,
           "source_type": "text",
-          "source_text": "耳机采用脉冲DT3.0自适应定向传音技术，通过检测耳道形状，自动调整集成声束的传播角度，确保声音高效传入耳道，有效降低漏音；吸音内腔阻隔设计，配合第三代sanag-Acavity声学腔体，以及数字声音增强技术，提供三频均衡的全息原声。"
+          "source_text": "sanag塞那是一个来自英国的新锐无线蓝牙耳机品牌，也是目前市场上少数同时兼具骨传导和气传导耳机产品的品牌之一 […]\n耳机采用脉冲DT3.0自适应定向传音技术，通过检测耳道形状，自动调整集成声束的传播角度，确保声音高效传入耳道，有效降低漏音；吸音内腔阻隔设计，配合第三代sanag-Acavity声学腔体，以及数字声音增强技术，提供三频均衡的全息原声。"
+        }
+      },
+      {
+        "text": "标记/认证：名称：TWS蓝牙耳机，型号：Z50S系列，蓝牙版本：V5.2，蓝牙距离：≥10M，工作电压：3-4.2V，灵敏度：-38dbv/pa，耳机电池容量：50mAh，充电仓电池容量：400mAh，耳机充电时间：约1小时，生产商：深圳市怕锐特科技有限公司，中国制造。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：名称：TWS蓝牙耳机，型号：Z50S系列，蓝牙版本：V5.2，蓝牙距离：≥10M，工作电压：3-4.2V，灵敏度：-38dbv/pa，耳机电池容量：50mAh，充电仓电池容量：400mAh，耳机充电时间：约1小时，生产商：深圳市怕锐特科技有限公司，中国制造。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "标记/认证：名称：TWS蓝牙耳机，型号：Z50S系列，蓝牙版本：V5.2，蓝牙距离：≥10M，工作电压：3-4.2V，灵敏度：-38dbv/pa，耳机电池容量：50mAh，充电仓电池容量：400mAh，耳机充电时间：约1小时，生产商：深圳市怕锐特科技有限公司，中国制造。"
+        }
+      },
+      {
+        "text": "标记/认证：耳机内置软包锂电池型号：JYZ501015，容量：50mAh 0.185Wh，电压：3.7V，同样来自金宇宙。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：耳机内置软包锂电池型号：JYZ501015，容量：50mAh 0.185Wh，电压：3.7V，同样来自金宇宙。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "标记/认证：耳机内置软包锂电池型号：JYZ501015，容量：50mAh 0.185Wh，电压：3.7V，同样来自金宇宙。"
         }
       },
       {
@@ -268,51 +232,30 @@
         }
       },
       {
-        "text": "腔体内侧结构一览，底部拾音孔有防尘网防护，设置有导电海绵用于触摸控制。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "腔体内侧结构一览，底部拾音孔有防尘网防护，设置有导电海绵用于触摸控制。",
-          "confidence": 0.73,
-          "source_type": "text",
-          "source_text": "腔体内侧结构一览，底部拾音孔有防尘网防护，设置有导电海绵用于触摸控制。"
-        }
-      },
-      {
-        "text": "充电盒盖上印制有产品型号：Z50S，输入：5V-1A，中国制造，以及多种认证标志。",
+        "text": "标记/认证：充电盒内置锂电池型号：JYZ 502040，电压：3.7V，容量：400mAh，来自JYZ金宇宙。",
         "tag": "其他",
         "evidence": {
-          "value": "充电盒盖上印制有产品型号：Z50S，输入：5V-1A，中国制造，以及多种认证标志。",
-          "confidence": 0.71,
+          "value": "标记/认证：充电盒内置锂电池型号：JYZ 502040，电压：3.7V，容量：400mAh，来自JYZ金宇宙。",
+          "confidence": 0.74,
           "source_type": "text",
-          "source_text": "充电盒盖上印制有产品型号：Z50S，输入：5V-1A，中国制造，以及多种认证标志。"
+          "source_text": "标记/认证：充电盒内置锂电池型号：JYZ 502040，电压：3.7V，容量：400mAh，来自JYZ金宇宙。"
         }
       },
       {
-        "text": "耳机底部结构一览，外侧腔体设置有为耳机充电的金属触点；内侧音腔采用了条形出音嘴设计，配合脉冲DT3.0自适应定向传音技术，自动调整集成声束的传播角度。",
-        "tag": "开放佩戴",
-        "evidence": {
-          "value": "耳机底部结构一览，外侧腔体设置有为耳机充电的金属触点；内侧音腔采用了条形出音嘴设计，配合脉冲DT3.0自适应定向传音技术，自动调整集成声束的传播角度。",
-          "confidence": 0.64,
-          "source_type": "text",
-          "source_text": "耳机底部结构一览，外侧腔体设置有为耳机充电的金属触点；内侧音腔采用了条形出音嘴设计，配合脉冲DT3.0自适应定向传音技术，自动调整集成声束的传播角度。"
-        }
-      },
-      {
-        "text": "内部通过防尘网防护，防止异物进入音腔。",
+        "text": "标记/认证：IP5516 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
         "tag": "防水防尘",
         "evidence": {
-          "value": "内部通过防尘网防护，防止异物进入音腔。",
-          "confidence": 0.63,
+          "value": "标记/认证：IP5516 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+          "confidence": 0.74,
           "source_type": "text",
-          "source_text": "内部通过防尘网防护，防止异物进入音腔。"
+          "source_text": "标记/认证：IP5516 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
         }
       }
     ],
     "scenarios": [
-      "运动",
       "通话"
     ],
-    "positioning_summary": "耳机采用脉冲DT3.0自适应定向传音技术，通过检测耳道形状，自动调整集成声束的传播角度，确保声音高效传入耳道，有效降低漏音；吸音内腔阻隔设计，配合第三代sanag-Acavity声学腔体，以及数字声音增强技术，提供三频均衡的全息原声。",
+    "positioning_summary": "sanag塞那是一个来自英国的新锐无线蓝牙耳机品牌，也是目前市场上少数同时兼具骨传导和气传导耳机产品的品牌之一 […]\n耳机采用脉冲DT3.0自适应定向传音技术，通过检测耳道形状，自动调整集成声束的传播角度，确保声音高效传入耳道，有效降低漏音；吸音内腔阻隔设计，配合第三代sanag-Acavity声学腔体，以及数字声音增强技术，提供三频均衡的全息原声。",
     "launch_date": null,
     "best_report_id": "146082",
     "best_video_id": null

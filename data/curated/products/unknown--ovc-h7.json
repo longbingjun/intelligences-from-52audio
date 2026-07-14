@@ -37,6 +37,20 @@
   },
   "bom_table": [
     {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "塑料腔体内侧麦克风开孔位置防尘棉覆盖。"
+      }
+    },
+    {
       "component": "喇叭单元",
       "brand": "",
       "model": "",
@@ -51,31 +65,17 @@
       }
     },
     {
-      "component": "麦克风",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "麦克风",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "线控背面有红色OVC品牌LOGO和一颗麦克风开孔。"
-      }
-    },
-    {
       "component": "触控/按键",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "minor",
       "evidence": {
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机线控特写，有三颗功能按键，实现暂停播放、加减音量、上下曲切换和来电接听/拒接。"
+        "source_text": "取掉塑料腔体，线控板正面有三颗微动按键和一颗用于通话的麦克风。"
       }
     },
     {
@@ -108,13 +108,13 @@
   "market": {
     "selling_points": [
       {
-        "text": "下面就来看看吧~\n首先取掉HIFI均衡版耳壳压耳式耳罩，耳罩内侧蓝色防尘网覆盖。",
+        "text": "但蓝牙耳机在音质传输上还是会有或多或少损失，因此还 […]\n下面就来看看吧~\n首先取掉HIFI均衡版耳壳压耳式耳罩，耳罩内侧蓝色防尘网覆盖。",
         "tag": "防水防尘",
         "evidence": {
-          "value": "下面就来看看吧~\n首先取掉HIFI均衡版耳壳压耳式耳罩，耳罩内侧蓝色防尘网覆盖。",
-          "confidence": 0.74,
+          "value": "但蓝牙耳机在音质传输上还是会有或多或少损失，因此还 […]\n下面就来看看吧~\n首先取掉HIFI均衡版耳壳压耳式耳罩，耳罩内侧蓝色防尘网覆盖。",
+          "confidence": 0.75,
           "source_type": "text",
-          "source_text": "下面就来看看吧~\n首先取掉HIFI均衡版耳壳压耳式耳罩，耳罩内侧蓝色防尘网覆盖。"
+          "source_text": "但蓝牙耳机在音质传输上还是会有或多或少损失，因此还 […]\n下面就来看看吧~\n首先取掉HIFI均衡版耳壳压耳式耳罩，耳罩内侧蓝色防尘网覆盖。"
         }
       },
       {
@@ -148,6 +148,16 @@
         }
       },
       {
+        "text": "标记/认证：喇叭类型：32mm动圈喇叭；喇叭材质：碳纤复合振膜（均衡版）、PET复合振膜（低音版）；阻抗：32Ω±15%；频响范围：20-20kHz；额定功率：20mW；最大承载功率：50mW。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：喇叭类型：32mm动圈喇叭；喇叭材质：碳纤复合振膜（均衡版）、PET复合振膜（低音版）；阻抗：32Ω±15%；频响范围：20-20kHz；额定功率：20mW；最大承载功率：50mW。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "标记/认证：喇叭类型：32mm动圈喇叭；喇叭材质：碳纤复合振膜（均衡版）、PET复合振膜（低音版）；阻抗：32Ω±15%；频响范围：20-20kHz；额定功率：20mW；最大承载功率：50mW。"
+        }
+      },
+      {
         "text": "音腔盖板内侧泄压孔有一层防尘棉覆盖。",
         "tag": "防水防尘",
         "evidence": {
@@ -156,23 +166,12 @@
           "source_type": "text",
           "source_text": "音腔盖板内侧泄压孔有一层防尘棉覆盖。"
         }
-      },
-      {
-        "text": "耳壳背面泄压孔特写，内部有防尘网覆盖。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "耳壳背面泄压孔特写，内部有防尘网覆盖。",
-          "confidence": 0.56,
-          "source_type": "text",
-          "source_text": "耳壳背面泄压孔特写，内部有防尘网覆盖。"
-        }
       }
     ],
     "scenarios": [
-      "游戏",
       "通话"
     ],
-    "positioning_summary": "下面就来看看吧~\n首先取掉HIFI均衡版耳壳压耳式耳罩，耳罩内侧蓝色防尘网覆盖。",
+    "positioning_summary": "但蓝牙耳机在音质传输上还是会有或多或少损失，因此还 […]\n下面就来看看吧~\n首先取掉HIFI均衡版耳壳压耳式耳罩，耳罩内侧蓝色防尘网覆盖。",
     "launch_date": null,
     "best_report_id": "67722",
     "best_video_id": null

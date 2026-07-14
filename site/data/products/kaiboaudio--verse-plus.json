@@ -3,35 +3,41 @@
   "brand": "kaiboaudio凯博",
   "model": "VERSE Plus",
   "category": "骨传导耳机",
-  "report_ids": [],
+  "report_ids": [
+    "160921"
+  ],
   "video_ids": [
     "281067"
   ],
-  "related_report_ids": [],
+  "related_report_ids": [
+    "160921"
+  ],
   "related_video_ids": [
     "281067"
   ],
-  "first_seen": "2026-06-30",
+  "first_seen": "2023-05-19",
   "latest_published": "2026-06-30",
   "internal_match_suggestions": [],
   "cost_snapshot": {
-    "main_chip": null,
-    "pmic_case": null,
-    "battery_ear": null,
-    "battery_case": null,
-    "speaker": null,
-    "materials": null,
-    "weight_g": null,
-    "ip_rating": null,
-    "bluetooth": null,
-    "bom_row_count": 6,
+    "main_chip": "",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "150 mAh",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.0",
+    "bom_row_count": 9,
     "price_cny": null,
     "price_layer": null,
     "channel_url": "",
     "sales_hint": null,
-    "data_completeness": 0.0,
-    "best_report_id": null,
-    "best_video_id": "281067"
+    "data_completeness": 0.67,
+    "best_report_id": "160921",
+    "best_video_id": null
   },
   "bom_table": [
     {
@@ -45,7 +51,21 @@
         "value": "电池",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "电池容量150毫安时"
+        "source_text": "频响范围：100Hz~20KHz，麦克风：ENC麦克风，麦克风灵敏度：40dB±2dB，电池容量：150mAh，电池类型：2C快速充电锂电池，无线范围：10m/33英尺，充电时间：1小时，待机时间：10天，蓝牙版本：5.0，防水等级：IP55等。"
+      }
+    },
+    {
+      "component": "骨传导振子",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "骨传导振子",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "ADI亚德诺半导体MAX98306 D类功放芯片，能够以D类放大器的效率提供AB类放大器的音频性能，能够提供5种可选增益(6dB、9dB、12dB、15dB和18dB)，由一个增益选择输入(GAIN)设置，用于骨传导振子驱动。"
       }
     },
     {
@@ -59,7 +79,7 @@
         "value": "主板/PCBA",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "内部设置主板单元"
+        "source_text": "拆开右侧腔体盖板，内部设置主板单元。"
       }
     },
     {
@@ -73,7 +93,35 @@
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "用耳耳挂墨断的通话麦克风时音孔"
+        "source_text": "频响范围：100Hz~20KHz，麦克风：ENC麦克风，麦克风灵敏度：40dB±2dB，电池容量：150mAh，电池类型：2C快速充电锂电池，无线范围：10m/33英尺，充电时间：1小时，待机时间：10天，蓝牙版本：5.0，防水等级：IP55等。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "频响范围：100Hz~20KHz，麦克风：ENC麦克风，麦克风灵敏度：40dB±2dB，电池容量：150mAh，电池类型：2C快速充电锂电池，无线范围：10m/33英尺，充电时间：1小时，待机时间：10天，蓝牙版本：5.0，防水等级：IP55等。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "陶瓷蓝牙天线特写，用于无线信号收发。"
       }
     },
     {
@@ -87,7 +135,7 @@
         "value": "喇叭单元",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "电路板与连接主板和左耳发声单元的导线"
+        "source_text": "电池单元结构一览，电路板与连接主板和左耳发声单元的导线焊接。"
       }
     },
     {
@@ -95,13 +143,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "右耳",
       "role": "minor",
       "evidence": {
         "value": "耳挂/挂钩",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳挂和耳机内侧贴合皮膚"
+        "source_text": "右耳耳挂末端的通话麦克风拾音孔特写。"
       }
     },
     {
@@ -109,13 +157,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
+      "side": "耳机",
       "role": "minor",
       "evidence": {
         "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "相体上设计有K-Bowodoo品牌Logo和指示灯"
+        "source_text": "充电接口：耳机右侧外观一览，腔体上设计有“kaiboaudio”品牌LOGO和指示灯，底部设置Type-C充电接口和电源开关。"
       }
     }
   ],
@@ -123,6 +171,7 @@
   "summary_text": "",
   "layer_refs": {
     "technical": [
+      "report:160921",
       "video:281067"
     ],
     "channel": [
@@ -138,13 +187,63 @@
   "market": {
     "selling_points": [
       {
-        "text": "kaiboaudio KAIBO VERSE Plus骨传导耳机是其新一代产品，在音质、续航、防水等方面进行了升级，带来更佳的用户体验。",
+        "text": "kaiboaudio是一个海外跨境品牌，专注于骨传导耳机市场，基于自研专利骨传导技术，相继推出了多款不同形态的 […]\nkaiboaudio KAIBO VERSE Plus骨传导耳机是其新一代产品，在音质、续航、防水等方面进行了升级，带来更佳的用户体验。",
         "tag": "防水防尘",
         "evidence": {
-          "value": "kaiboaudio KAIBO VERSE Plus骨传导耳机是其新一代产品，在音质、续航、防水等方面进行了升级，带来更佳的用户体验。",
+          "value": "kaiboaudio是一个海外跨境品牌，专注于骨传导耳机市场，基于自研专利骨传导技术，相继推出了多款不同形态的 […]\nkaiboaudio KAIBO VERSE Plus骨传导耳机是其新一代产品，在音质、续航、防水等方面进行了升级，带来更佳的用户体验。",
           "confidence": 0.75,
           "source_type": "text",
-          "source_text": "kaiboaudio KAIBO VERSE Plus骨传导耳机是其新一代产品，在音质、续航、防水等方面进行了升级，带来更佳的用户体验。"
+          "source_text": "kaiboaudio是一个海外跨境品牌，专注于骨传导耳机市场，基于自研专利骨传导技术，相继推出了多款不同形态的 […]\nkaiboaudio KAIBO VERSE Plus骨传导耳机是其新一代产品，在音质、续航、防水等方面进行了升级，带来更佳的用户体验。"
+        }
+      },
+      {
+        "text": "标记/认证：频响范围：100Hz~20KHz，麦克风：ENC麦克风，麦克风灵敏度：40dB±2dB，电池容量：150mAh，电池类型：2C快速充电锂电池，无线范围：10m/33英尺，充电时间：1小时，待机时间：10天，蓝牙版本：5.0，防水等级：IP55等。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "标记/认证：频响范围：100Hz~20KHz，麦克风：ENC麦克风，麦克风灵敏度：40dB±2dB，电池容量：150mAh，电池类型：2C快速充电锂电池，无线范围：10m/33英尺，充电时间：1小时，待机时间：10天，蓝牙版本：5.0，防水等级：IP55等。",
+          "confidence": 0.59,
+          "source_type": "text",
+          "source_text": "标记/认证：频响范围：100Hz~20KHz，麦克风：ENC麦克风，麦克风灵敏度：40dB±2dB，电池容量：150mAh，电池类型：2C快速充电锂电池，无线范围：10m/33英尺，充电时间：1小时，待机时间：10天，蓝牙版本：5.0，防水等级：IP55等。"
+        }
+      },
+      {
+        "text": "Type-C充电接口特写，外部设计有橡胶塞防尘防水。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "Type-C充电接口特写，外部设计有橡胶塞防尘防水。",
+          "confidence": 0.6,
+          "source_type": "text",
+          "source_text": "Type-C充电接口特写，外部设计有橡胶塞防尘防水。"
+        }
+      },
+      {
+        "text": "频响范围：100Hz~20KHz，麦克风：ENC麦克风，麦克风灵敏度：40dB±2dB，电池容量：150mAh，电池类型：2C快速充电锂电池，无线范围：10m/33英尺，充电时间：1小时，待机时间：10天，蓝牙版本：5.0，防水等级：IP55等。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "频响范围：100Hz~20KHz，麦克风：ENC麦克风，麦克风灵敏度：40dB±2dB，电池容量：150mAh，电池类型：2C快速充电锂电池，无线范围：10m/33英尺，充电时间：1小时，待机时间：10天，蓝牙版本：5.0，防水等级：IP55等。",
+          "confidence": 0.59,
+          "source_type": "text",
+          "source_text": "频响范围：100Hz~20KHz，麦克风：ENC麦克风，麦克风灵敏度：40dB±2dB，电池容量：150mAh，电池类型：2C快速充电锂电池，无线范围：10m/33英尺，充电时间：1小时，待机时间：10天，蓝牙版本：5.0，防水等级：IP55等。"
+        }
+      },
+      {
+        "text": "充电接口：Type-C充电接口特写，外部设计有橡胶塞防尘防水。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "充电接口：Type-C充电接口特写，外部设计有橡胶塞防尘防水。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "充电接口：Type-C充电接口特写，外部设计有橡胶塞防尘防水。"
+        }
+      },
+      {
+        "text": "kaiboaudio是一个海外跨境品牌，专注于骨传导耳机市场，基于自研专利骨传导技术，相继推出了多款不同形态的骨传导蓝牙耳机产品，为用户提供开放式的聆听体验，从而有效降低对耳膜的伤害，以及解决了入耳式耳机听诊器效应、长时间佩戴耳朵胀痛等问题，还能够在佩戴耳机时更好地获取周围环境声音，提升安全性。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "kaiboaudio是一个海外跨境品牌，专注于骨传导耳机市场，基于自研专利骨传导技术，相继推出了多款不同形态的骨传导蓝牙耳机产品，为用户提供开放式的聆听体验，从而有效降低对耳膜的伤害，以及解决了入耳式耳机听诊器效应、长时间佩戴耳朵胀痛等问题，还能够在佩戴耳机时更好地获取周围环境声音，提升安全性。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "kaiboaudio是一个海外跨境品牌，专注于骨传导耳机市场，基于自研专利骨传导技术，相继推出了多款不同形态的骨传导蓝牙耳机产品，为用户提供开放式的聆听体验，从而有效降低对耳膜的伤害，以及解决了入耳式耳机听诊器效应、长时间佩戴耳朵胀痛等问题，还能够在佩戴耳机时更好地获取周围环境声音，提升安全性。"
         }
       }
     ],
@@ -153,9 +252,9 @@
       "通话",
       "健身"
     ],
-    "positioning_summary": "kaiboaudio KAIBO VERSE Plus骨传导耳机是其新一代产品，在音质、续航、防水等方面进行了升级，带来更佳的用户体验。",
+    "positioning_summary": "kaiboaudio是一个海外跨境品牌，专注于骨传导耳机市场，基于自研专利骨传导技术，相继推出了多款不同形态的 […]\nkaiboaudio KAIBO VERSE Plus骨传导耳机是其新一代产品，在音质、续航、防水等方面进行了升级，带来更佳的用户体验。",
     "launch_date": null,
-    "best_report_id": null,
-    "best_video_id": "281067"
+    "best_report_id": "160921",
+    "best_video_id": null
   }
 }

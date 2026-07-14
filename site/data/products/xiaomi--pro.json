@@ -1,0 +1,382 @@
+{
+  "canonical_id": "xiaomi--pro",
+  "brand": "Xiaomi小米",
+  "model": "开放式耳机Pro",
+  "category": "开放式耳机",
+  "report_ids": [
+    "249958"
+  ],
+  "video_ids": [
+    "251419"
+  ],
+  "related_report_ids": [
+    "249958"
+  ],
+  "related_video_ids": [
+    "251419"
+  ],
+  "first_seen": "2025-08-19",
+  "latest_published": "2025-08-27",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "Prisemi芯导P14C2N",
+    "pmic_case": "Prisemi芯导 Prisemi芯导P14C2N",
+    "battery_ear": "电池",
+    "battery_case": "7V/88mAh锂电池",
+    "speaker": "动圈单元",
+    "materials": "硅胶、液态硅胶",
+    "weight_g": "72.2g",
+    "weight_case_g": "",
+    "weight_earbud_g": "9.7g",
+    "ip_rating": "",
+    "bluetooth": "5.4",
+    "bom_row_count": 18,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "249958",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "Prisemi芯导",
+      "model": "Prisemi芯导P14C2N",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "Prisemi芯导P14C2N",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "采用了Prisemi芯导P14C2N过压过流保护IC，用于保护后级器件。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "7V/88mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "7V/88mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载了锂威新能源788mAh/3.89V锂电池，主板上采用了SinhMicro昇生微电子SSP707电源管理芯片，负责内置电池的充放电管理；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "BES2710IHC",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "传感器",
+      "evidence": {
+        "value": "BES2710IHC",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，采用了BES恒玄科技BES2710IHC蓝牙音频SoC，HX天易合芯HX9031A电容式距离传感器，以及BOSCH博世六轴陀螺仪等方案。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载微电新能源56mAh/3.85V圆柱形钢壳电池，定制1813低音动圈单元+超高频压电陶瓷单元+双动铁单元+防漏音动圈单元5单元系统，两颗瑞勤电子的MEMS麦克风；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载微电新能源56mAh/3.85V圆柱形钢壳电池，定制1813低音动圈单元+超高频压电陶瓷单元+双动铁单元+防漏音动圈单元5单元系统，两颗瑞勤电子的MEMS麦克风；"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面展示有产品的整体外观，以及功能功能特点和参数信息。功能特点：稳固舒适佩戴、多单元声学系统、哈曼专业调音、防漏音隐私保护、耳机独立录音2.0、小米澎湃OS生态互联；产品型号：M2503E1，充电盒输入参数：5V-1200mA，充电盒输出参数：5V-260mA，无线连接：蓝牙5.4，耳机输入：5V-130mA；制造商：小米通讯技术有限公司。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部结构一览，设置有主板、电池、指示灯和霍尔元件小板，以及功能按键。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "小米开放式耳机Pro整体外观一览，耳机采用了挂耳式设计，由音腔、耳挂和电池仓三部分组成。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "掀开主板，下方是定制1813超大动圈单元。腔体左侧排线连接双麦克风。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "音腔底部的通话麦克风拾音孔特写。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧结构一览，印刷有LDS镭射天线，贴有触摸检测传感器。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身正面设计有凹槽，便于用户开盖。设置有一颗指示灯，用于反馈蓝牙配对及充电状态。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "小米开放式耳机Pro整体外观一览，耳机采用了挂耳式设计，由音腔、耳挂和电池仓三部分组成。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身右侧一颗功能按键，用于蓝牙配对和查看电量等功能控制。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机充电触点特写，中间设计R/右标识。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Prisemi芯导P14C2N",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Prisemi芯导P14C2N",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Prisemi芯导P14C2N过压过流保护IC，用于保护后级器件。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2710IHC",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2710IHC",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄科技BES2710IHC蓝牙音频SoC，用于无线连接和音频数据处理。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Xiaomi小米开放式耳机Pro在外观方面，充电盒采用了圆角方形设计，体积小巧轻薄，便于携带；科纳皮+类金属磨砂的双拼材质，以及座舱内部的仿生麂皮，触感细腻，质感出色。耳机延续了标准版的耳挂式结构，人体工学设计，佩戴与耳廓舒适贴合；NCVM工艺设计的音腔，呈现亮银色金属质感，佩戴简约时尚。 内部主要配置方面，充电盒搭载了锂威新能源788mAh/3.89V锂电池，主板上采用了SinhMicro昇生微电子SSP707电源管理芯片，负责内置电池的充放电管理；采用Chipsea芯海科技CS32F031K8V6 MCU单片机，用于整机控制；采用了Prisemi芯导P14C2N过压过流保护IC，用于保护后级器件。 耳机内部搭载微电新能源56mAh/3.85V圆柱形钢壳电池，定制1813低音动圈单元+超高频压电陶瓷单元+双动铁单元+防漏音动圈单元5单元系统，两颗瑞勤电子的MEMS麦克风；主板上，采用了BES恒玄科技BES2710IHC蓝牙音频SoC，HX天易合芯HX9031A电容式距离传感器，以及BOSCH博世六轴陀螺仪等方案。",
+  "layer_refs": {
+    "technical": [
+      "report:249958",
+      "video:251419"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "详细功能配置上，搭载开放式五单元声学系统，协同配合实现高解析力和防漏音；升级LHDC 5.0超清传输协议，真实还原音频细节，并获得了Hi-Res金标认证；升级独立空间音频，360°头部追踪环绕音效，让观影、游戏更具临场感。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "详细功能配置上，搭载开放式五单元声学系统，协同配合实现高解析力和防漏音；升级LHDC 5.0超清传输协议，真实还原音频细节，并获得了Hi-Res金标认证；升级独立空间音频，360°头部追踪环绕音效，让观影、游戏更具临场感。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "详细功能配置上，搭载开放式五单元声学系统，协同配合实现高解析力和防漏音；升级LHDC 5.0超清传输协议，真实还原音频细节，并获得了Hi-Res金标认证；升级独立空间音频，360°头部追踪环绕音效，让观影、游戏更具临场感。"
+        }
+      },
+      {
+        "text": "其中，小米开放式耳机Pro相较于标准版，升级五单元声学系统，联合哈曼金耳朵调音，同时新增独立空间音频、独立录音2.0、AI智能翻译等功能，带来音质更出色、使用场景更丰富的无线音频体验。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "其中，小米开放式耳机Pro相较于标准版，升级五单元声学系统，联合哈曼金耳朵调音，同时新增独立空间音频、独立录音2.0、AI智能翻译等功能，带来音质更出色、使用场景更丰富的无线音频体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "其中，小米开放式耳机Pro相较于标准版，升级五单元声学系统，联合哈曼金耳朵调音，同时新增独立空间音频、独立录音2.0、AI智能翻译等功能，带来音质更出色、使用场景更丰富的无线音频体验。"
+        }
+      },
+      {
+        "text": "腔体内部结构一览，上层固定有主板和防漏音\n掀开主板，下方是定制1813超大动圈单元。",
+        "tag": "其他",
+        "evidence": {
+          "value": "腔体内部结构一览，上层固定有主板和防漏音\n掀开主板，下方是定制1813超大动圈单元。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "腔体内部结构一览，上层固定有主板和防漏音\n掀开主板，下方是定制1813超大动圈单元。"
+        }
+      },
+      {
+        "text": "小米开放式耳机Pro\n在外观方面，采用了更加轻巧的设计，通过仿生人体耳廓造型，三点支撑，提供贴合不压耳的长久舒适佩戴体验。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "小米开放式耳机Pro\n在外观方面，采用了更加轻巧的设计，通过仿生人体耳廓造型，三点支撑，提供贴合不压耳的长久舒适佩戴体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "小米开放式耳机Pro\n在外观方面，采用了更加轻巧的设计，通过仿生人体耳廓造型，三点支撑，提供贴合不压耳的长久舒适佩戴体验。"
+        }
+      },
+      {
+        "text": "下面就来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过\n小米开放式耳机\n，\n小米Buds 5\n、\nRedmi Buds 5 Pro\n、\nRedmi Buds 4\n、\nRedmi Buds 4青春版\n真无线耳机；\n小米骨传导耳机\n，小米\nWatch S4 Sport\n、\nWatch S3\n、\n小米手环9 Pro\n、\n小米手环9\n，\nMIJIA智能音频眼镜\n，\n小米AI眼镜\n，\nREDMI Watch 5\n、\nRedmi手环3\n；\n小米运动对讲机\n、\n小米公网对讲机mini\n，\n小米智能音箱Pro\n，\nxiaomi Sound\n、\nSound Move\n高保真智能音箱，\nRedmi电脑音箱\n，\n小爱随身音箱\n等\n蓝牙音箱\n产品。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "下面就来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过\n小米开放式耳机\n，\n小米Buds 5\n、\nRedmi Buds 5 Pro\n、\nRedmi Buds 4\n、\nRedmi Buds 4青春版\n真无线耳机；\n小米骨传导耳机\n，小米\nWatch S4 Sport\n、\nWatch S3\n、\n小米手环9 Pro\n、\n小米手环9\n，\nMIJIA智能音频眼镜\n，\n小米AI眼镜\n，\nREDMI Watch 5\n、\nRedmi手环3\n；\n小米运动对讲机\n、\n小米公网对讲机mini\n，\n小米智能音箱Pro\n，\nxiaomi Sound\n、\nSound Move\n高保真智能音箱，\nRedmi电脑音箱\n，\n小爱随身音箱\n等\n蓝牙音箱\n产品。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "下面就来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过\n小米开放式耳机\n，\n小米Buds 5\n、\nRedmi Buds 5 Pro\n、\nRedmi Buds 4\n、\nRedmi Buds 4青春版\n真无线耳机；\n小米骨传导耳机\n，小米\nWatch S4 Sport\n、\nWatch S3\n、\n小米手环9 Pro\n、\n小米手环9\n，\nMIJIA智能音频眼镜\n，\n小米AI眼镜\n，\nREDMI Watch 5\n、\nRedmi手环3\n；\n小米运动对讲机\n、\n小米公网对讲机mini\n，\n小米智能音箱Pro\n，\nxiaomi Sound\n、\nSound Move\n高保真智能音箱，\nRedmi电脑音箱\n，\n小爱随身音箱\n等\n蓝牙音箱\n产品。"
+        }
+      },
+      {
+        "text": "据官方介绍，采用高分子复合振膜、内外双磁设计，低频灵敏度提升了一倍，带来更澎湃的低音效果。",
+        "tag": "其他",
+        "evidence": {
+          "value": "据官方介绍，采用高分子复合振膜、内外双磁设计，低频灵敏度提升了一倍，带来更澎湃的低音效果。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "据官方介绍，采用高分子复合振膜、内外双磁设计，低频灵敏度提升了一倍，带来更澎湃的低音效果。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "详细功能配置上，搭载开放式五单元声学系统，协同配合实现高解析力和防漏音；升级LHDC 5.0超清传输协议，真实还原音频细节，并获得了Hi-Res金标认证；升级独立空间音频，360°头部追踪环绕音效，让观影、游戏更具临场感。",
+    "launch_date": null,
+    "best_report_id": "249958",
+    "best_video_id": null
+  }
+}

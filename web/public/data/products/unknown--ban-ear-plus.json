@@ -16,20 +16,22 @@
   "internal_match_suggestions": [],
   "cost_snapshot": {
     "main_chip": "INJOINIC英集芯IP5518",
-    "pmic_case": "",
+    "pmic_case": "WP1230",
     "battery_ear": "3.7V/40mAh锂电池",
     "battery_case": "3.7V/520mAh锂电池",
     "speaker": "喇叭单元",
     "materials": "硅胶",
     "weight_g": "49.3g",
+    "weight_case_g": "",
+    "weight_earbud_g": "4.5g",
     "ip_rating": "",
     "bluetooth": "6.0",
-    "bom_row_count": 18,
+    "bom_row_count": 20,
     "price_cny": null,
     "price_layer": null,
     "channel_url": "",
     "sales_hint": null,
-    "data_completeness": 0.83,
+    "data_completeness": 1.0,
     "best_report_id": "277837",
     "best_video_id": null
   },
@@ -46,6 +48,20 @@
         "confidence": 0.85,
         "source_type": "summary_prose",
         "source_text": "充电盒搭载了ST神通天下3.7V/520mAh锂电池组，采用INJOINIC英集芯IP5518电源管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，且支持智能双向通讯，带来耳机秒回联手机的优质体验；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WP1230",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "WP1230",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "其他还采用了Wayon维安WP1230过压保护IC、霍尔元件等方案。"
       }
     },
     {
@@ -270,6 +286,20 @@
         "confidence": 0.78,
         "source_type": "text",
         "source_text": "英集芯IP5518的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WP1230",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "WP1230",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Wayon维安WP1230过压保护IC，当检测到错误的输入操作条件时，自动断开系统与其输出引脚（OUT）的连接。"
       }
     },
     {

@@ -21,12 +21,12 @@
     "battery_case": "300 mAh",
     "speaker": "喇叭单元",
     "materials": "",
-    "weight_g": "38g",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
-    "bluetooth": "5.0",
-    "bom_row_count": 10,
+    "bluetooth": "",
+    "bom_row_count": 7,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -36,20 +36,6 @@
     "best_video_id": null
   },
   "bom_table": [
-    {
-      "component": "充电仓",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "充电仓",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒正面外观。"
-      }
-    },
     {
       "component": "电池",
       "brand": "",
@@ -79,17 +65,31 @@
       }
     },
     {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒主板通过螺丝固定在座舱底。"
+      }
+    },
+    {
       "component": "麦克风",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机柄底部充电触点特写。中央的防尘网是起到装饰作用，拾音麦克风不在这里。"
+        "source_text": "中央的防尘网是起到装饰作用，拾音麦克风不在这里\n。"
       }
     },
     {
@@ -107,31 +107,17 @@
       }
     },
     {
-      "component": "天线",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "天线",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "陶瓷蓝牙天线。"
-      }
-    },
-    {
       "component": "充电触点",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "充电盒",
+      "side": "耳机",
       "role": "minor",
       "evidence": {
         "value": "充电触点",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒耳机凹槽内充电触点。"
+        "source_text": "耳机柄底部充电触点特写。中央的防尘网是起到装饰作用，拾音麦克风不在这里。"
       }
     },
     {
@@ -139,41 +125,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
+      "side": "充电盒",
       "role": "minor",
       "evidence": {
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "FM富满 FM9688 电源管理IC，集成了锂电池充电管理，高效率的升压输出， LED 灯指示和按键功能模块。 以线性方式进行充电，集成了包括涓流充电，恒流充电和恒压充电全过程的充电方式，浮充电压精度在全温度范围可达±1%，并且具有充电电流纹波小，输出电压稳定等优点。"
-      }
-    },
-    {
-      "component": "外壳结构",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "外壳结构",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "取掉充电盒外壳。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "LED指示灯有黑色泡棉包裹，防止漏光。"
+        "source_text": "充电接口：内部结构配置上也非常的简单，充电盒内置锂离子软包电池容量300mAh，采用Micro USB充电接口，富满 FM9688 电源管理IC以线性方式为电池充电，并集成了充电管理，高效率的升压输出， LED 灯指示和按键功能模块；微源半导体LP5300芯片提供过压和过流保护。"
       }
     }
   ],
@@ -192,13 +150,23 @@
   "market": {
     "selling_points": [
       {
-        "text": "中央的防尘网是起到装饰作用，拾音麦克风不在这里\n。",
+        "text": "中央的防尘网是起到装饰作用，拾音麦克风不在这里。",
         "tag": "防水防尘",
         "evidence": {
-          "value": "中央的防尘网是起到装饰作用，拾音麦克风不在这里\n。",
+          "value": "中央的防尘网是起到装饰作用，拾音麦克风不在这里。",
           "confidence": 0.59,
           "source_type": "text",
-          "source_text": "中央的防尘网是起到装饰作用，拾音麦克风不在这里\n。"
+          "source_text": "中央的防尘网是起到装饰作用，拾音麦克风不在这里。"
+        }
+      },
+      {
+        "text": "TW […]\n中央的防尘网是起到装饰作用，拾音麦克风不在这里\n。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "TW […]\n中央的防尘网是起到装饰作用，拾音麦克风不在这里\n。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "TW […]\n中央的防尘网是起到装饰作用，拾音麦克风不在这里\n。"
         }
       },
       {
@@ -220,12 +188,30 @@
           "source_type": "text",
           "source_text": "耳机出音嘴特写，防尘网覆盖。"
         }
+      },
+      {
+        "text": "标记/认证：电池型号LB 401010，额定电压3.7V，额定容量30mAh。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：电池型号LB 401010，额定电压3.7V，额定容量30mAh。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "标记/认证：电池型号LB 401010，额定电压3.7V，额定容量30mAh。"
+        }
+      },
+      {
+        "text": "标记/认证：锂离子软包电池型号LB 602030，额定容量：3.7V，额定电压：300mAh。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：锂离子软包电池型号LB 602030，额定容量：3.7V，额定电压：300mAh。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "标记/认证：锂离子软包电池型号LB 602030，额定容量：3.7V，额定电压：300mAh。"
+        }
       }
     ],
-    "scenarios": [
-      "通话"
-    ],
-    "positioning_summary": "中央的防尘网是起到装饰作用，拾音麦克风不在这里\n。",
+    "scenarios": [],
+    "positioning_summary": "中央的防尘网是起到装饰作用，拾音麦克风不在这里。",
     "launch_date": null,
     "best_report_id": "80175",
     "best_video_id": null

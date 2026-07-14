@@ -16,110 +16,26 @@
   "internal_match_suggestions": [],
   "cost_snapshot": {
     "main_chip": "恒玄BES2600IUC",
-    "pmic_case": "INJOINIC英集芯 Injoinic英集芯IP5528",
+    "pmic_case": "",
     "battery_ear": "电池",
-    "battery_case": "4V/10mAh锂电池",
-    "speaker": "振膜动圈",
+    "battery_case": "410 mAh",
+    "speaker": "喇叭单元",
     "materials": "",
-    "weight_g": "43.3g",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
-    "bluetooth": "5.3",
-    "bom_row_count": 18,
+    "bluetooth": "",
+    "bom_row_count": 11,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
     "sales_hint": null,
-    "data_completeness": 1.0,
+    "data_completeness": 0.83,
     "best_report_id": "165450",
     "best_video_id": null
   },
   "bom_table": [
-    {
-      "component": "芯片/模组",
-      "brand": "INJOINIC英集芯",
-      "model": "Injoinic英集芯IP5528",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "PMIC/充电仓管理",
-      "evidence": {
-        "value": "Injoinic英集芯IP5528",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "主板上搭载了Injoinic英集芯IP5528 TWS耳机充电仓管理SoC，支持特有的全集成电压跟随充技术，有效提升产品的整机续航；"
-      }
-    },
-    {
-      "component": "电池",
-      "brand": "",
-      "model": "4V/10mAh锂电池",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "4V/10mAh锂电池",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "充电盒内置410mAh锂电池，电芯来自ATL东莞新能源；"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "CM1126B",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "保护IC",
-      "evidence": {
-        "value": "CM1126B",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "采用契合耳机柄的条形软包电池，配备有iCM创芯微CM1126B-DAC二合一单节电池保护IC，负责电池的过充电、过放电、过电流等保护，带有船运模式，使小容量电池包满足海运运输及长期存储需求；"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "BES恒玄科技",
-      "model": "恒玄BES2600IUC",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "恒玄BES2600IUC",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "主控芯片为BES恒玄BES2600IUC蓝牙音频SoC，支持蓝牙5.3，支持一拖二连接，具备强大的应用程序处理能力。"
-      }
-    },
-    {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "振膜动圈",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "振膜动圈",
-        "confidence": 0.8,
-        "source_type": "summary_prose",
-        "source_text": "耳机内部搭载13.4mm高灵敏复合振膜动圈单元，一颗瑞勤电子的MEMS麦克风拾音；"
-      }
-    },
-    {
-      "component": "麦克风",
-      "brand": "",
-      "model": "MEMS麦克风",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "MEMS麦克风",
-        "confidence": 0.78,
-        "source_type": "summary_prose",
-        "source_text": "耳机内部搭载13.4mm高灵敏复合振膜动圈单元，一颗瑞勤电子的MEMS麦克风拾音；"
-      }
-    },
     {
       "component": "充电仓",
       "brand": "",
@@ -131,7 +47,21 @@
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "荣耀Earbuds X5真无线耳机在外观上采用了全新的设计，圆形充电盒搭配半入耳式耳机。在功能配置上，搭载13.4mm大动圈单元，提供澎湃音质表现；支持通话降噪，提供清晰通话效果；支持双设备连接、触摸控制、智能佩戴检测，提供便捷使用体验。续航方面，可提供27小时的综合续航，且支持快充功能，“充电一刻钟，听歌4小时”。"
+        "source_text": "耳机采用了全新的柄状的半入耳式设计，质感与充电盒一致，佩戴舒适亲肤；并将发声单元和电池分布在耳机头和耳机柄内，大幅减少了入耳体积，实现了空气感的舒适佩戴体验。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机采用了全新的柄状的半入耳式设计，质感与充电盒一致，佩戴舒适亲肤；并将发声单元和电池分布在耳机头和耳机柄内，大幅减少了入耳体积，实现了空气感的舒适佩戴体验。"
       }
     },
     {
@@ -149,17 +79,17 @@
       }
     },
     {
-      "component": "电池",
+      "component": "喇叭单元",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "",
       "role": "major",
       "evidence": {
-        "value": "电池",
+        "value": "喇叭单元",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "座舱另外一侧固定有电池单元，设置有海绵垫防护。"
+        "source_text": "在功能配置上，搭载13.4mm大动圈单元，提供澎湃音质表现；支持通话降噪，提供清晰通话效果；支持双设备连接、触摸控制、智能佩戴检测，提供便捷使用体验。"
       }
     },
     {
@@ -177,73 +107,17 @@
       }
     },
     {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "喇叭单元",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "荣耀Earbuds X5真无线耳机在外观上采用了全新的设计，圆形充电盒搭配半入耳式耳机。在功能配置上，搭载13.4mm大动圈单元，提供澎湃音质表现；支持通话降噪，提供清晰通话效果；支持双设备连接、触摸控制、智能佩戴检测，提供便捷使用体验。续航方面，可提供27小时的综合续航，且支持快充功能，“充电一刻钟，听歌4小时”。"
-      }
-    },
-    {
-      "component": "天线",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "天线",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "连接蓝牙天线的金属弹片特写。"
-      }
-    },
-    {
       "component": "外壳结构",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "充电盒",
+      "side": "",
       "role": "minor",
       "evidence": {
         "value": "外壳结构",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "撬开充电盒外壳，取出内部座舱结构。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "荣耀Earbuds X5充电盒采用了全新的圆形设计，釉白色配色，烤漆工艺处理，质感温润如玉。充电盒正面设计有“HONOR”品牌LOGO，以及一颗用于反馈工作状态的指示灯。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒底部设置Type-C充电接口，以及蓝牙配对功能按键。"
+        "source_text": "前腔内部扬声器单元结构一览，排线通过BTB连接器连接到主板。"
       }
     },
     {
@@ -261,6 +135,20 @@
       }
     },
     {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电接口：充电盒底部设置Type-C充电接口，以及蓝牙配对功能按键。"
+      }
+    },
+    {
       "component": "芯片/模组",
       "brand": "",
       "model": "Injoinic英集芯IP5528",
@@ -271,7 +159,7 @@
         "value": "Injoinic英集芯IP5528",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "Injoinic英集芯IP5528 TWS耳机充电仓管理SoC，是一款集成MCU、升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。"
+        "source_text": "标记/认证：Injoinic英集芯IP5528 TWS耳机充电仓管理SoC，是一款集成MCU、升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。"
       }
     },
     {
@@ -285,12 +173,26 @@
         "value": "IP5528",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "得益于IP5528的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸， 降低BOM成本。"
+        "source_text": "标记/认证：得益于IP5528的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸， 降低BOM成本。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Injoinic英集芯IP5528",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Injoinic英集芯IP5528",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "标记/认证：内部结构配置方面，充电盒内置410mAh锂电池，电芯来自ATL东莞新能源；主板上搭载了Injoinic英集芯IP5528 TWS耳机充电仓管理SoC，支持特有的全集成电压跟随充技术，有效提升产品的整机续航；同时丰富的功能，支持1A同步开关充电，400mA同步升压转换，3.2V~5.2V宽范围输出电压，单芯片为充电盒提供高性价比快速充电解决方案。"
       }
     }
   ],
   "summary_image_urls": [],
-  "summary_text": "三、我爱音频网总结 荣耀Earbuds X5真无线耳机在外观设计方面，充电盒体积轻巧，外出使用便携；全新的圆形设计，质感光滑圆润，握持舒适。耳机采用了全新的柄状的半入耳式设计，质感与充电盒一致，佩戴舒适亲肤；并将发声单元和电池分布在耳机头和耳机柄内，大幅减少了入耳体积，实现了空气感的舒适佩戴体验。 内部结构配置方面，充电盒内置410mAh锂电池，电芯来自ATL东莞新能源；主板上搭载了Injoinic英集芯IP5528 TWS耳机充电仓管理SoC，支持特有的全集成电压跟随充技术，有效提升产品的整机续航；同时丰富的功能，支持1A同步开关充电，400mA同步升压转换，3.2V~5.2V宽范围输出电压，单芯片为充电盒提供高性价比快速充电解决方案。还采用了Prisemi芯导科技P14C1N过压过流保护IC、TVS管等。 耳机内部搭载13.4mm高灵敏复合振膜动圈单元，一颗瑞勤电子的MEMS麦克风拾音；采用契合耳机柄的条形软包电池，配备有iCM创芯微CM1126B-DAC二合一单节电池保护IC，负责电池的过充电、过放电、过电流等保护，带有船运模式，使小容量电池包满足海运运输及长期存储需求；主控芯片为BES恒玄BES2600IUC蓝牙音频SoC，支持蓝牙5.3，支持一拖二连接，具备强大的应用程序处理能力。",
+  "summary_text": "",
   "layer_refs": {
     "technical": [
       "report:165450"
@@ -303,6 +205,16 @@
   "unboxing": null,
   "market": {
     "selling_points": [
+      {
+        "text": "HONOR荣耀是目前消费电子市场非常活跃的品牌之一，旗下产品快速迭代更新，持续不断优化，为消费者提供了优质的选 […]\n在功能配置上，搭载13.4mm大动圈单元，提供澎湃音质表现；支持通话降噪，提供清晰通话效果；支持双设备连接、触摸控制、智能佩戴检测，提供便捷使用体验。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "HONOR荣耀是目前消费电子市场非常活跃的品牌之一，旗下产品快速迭代更新，持续不断优化，为消费者提供了优质的选 […]\n在功能配置上，搭载13.4mm大动圈单元，提供澎湃音质表现；支持通话降噪，提供清晰通话效果；支持双设备连接、触摸控制、智能佩戴检测，提供便捷使用体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "HONOR荣耀是目前消费电子市场非常活跃的品牌之一，旗下产品快速迭代更新，持续不断优化，为消费者提供了优质的选 […]\n在功能配置上，搭载13.4mm大动圈单元，提供澎湃音质表现；支持通话降噪，提供清晰通话效果；支持双设备连接、触摸控制、智能佩戴检测，提供便捷使用体验。"
+        }
+      },
       {
         "text": "在功能配置上，搭载13.4mm大动圈单元，提供澎湃音质表现；支持通话降噪，提供清晰通话效果；支持双设备连接、触摸控制、智能佩戴检测，提供便捷使用体验。",
         "tag": "降噪",
@@ -352,23 +264,12 @@
           "source_type": "text",
           "source_text": "续航方面，可提供27小时的综合续航，且支持快充功能，“充电一刻钟，听歌4小时”。"
         }
-      },
-      {
-        "text": "荣耀Earbuds X5充电盒采用了全新的圆形设计，釉白色配色，烤漆工艺处理，质感温润如玉。",
-        "tag": "其他",
-        "evidence": {
-          "value": "荣耀Earbuds X5充电盒采用了全新的圆形设计，釉白色配色，烤漆工艺处理，质感温润如玉。",
-          "confidence": 0.75,
-          "source_type": "text",
-          "source_text": "荣耀Earbuds X5充电盒采用了全新的圆形设计，釉白色配色，烤漆工艺处理，质感温润如玉。"
-        }
       }
     ],
     "scenarios": [
-      "运动",
       "通话"
     ],
-    "positioning_summary": "在功能配置上，搭载13.4mm大动圈单元，提供澎湃音质表现；支持通话降噪，提供清晰通话效果；支持双设备连接、触摸控制、智能佩戴检测，提供便捷使用体验。",
+    "positioning_summary": "HONOR荣耀是目前消费电子市场非常活跃的品牌之一，旗下产品快速迭代更新，持续不断优化，为消费者提供了优质的选 […]\n在功能配置上，搭载13.4mm大动圈单元，提供澎湃音质表现；支持通话降噪，提供清晰通话效果；支持双设备连接、触摸控制、智能佩戴检测，提供便捷使用体验。",
     "launch_date": null,
     "best_report_id": "165450",
     "best_video_id": null

@@ -21,12 +21,12 @@
     "battery_case": "520 mAh",
     "speaker": "喇叭单元",
     "materials": "硅胶、塑料、PC",
-    "weight_g": "59.6g",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "IPX5",
     "bluetooth": "5.2",
-    "bom_row_count": 15,
+    "bom_row_count": 9,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -36,6 +36,20 @@
     "best_video_id": null
   },
   "bom_table": [
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "ICP1106的充电电压，充电电流，输出电压能通过I2C灵活配置，能方便的实现TWS 快充，效率充电；同时支持电力线载波双向通信，UART 双向通信这两种通信模式，能可靠的满足充电仓和耳机的信息交互需求，实现耳机和充电仓的智能控制。"
+      }
+    },
     {
       "component": "主板/PCBA",
       "brand": "",
@@ -51,20 +65,6 @@
       }
     },
     {
-      "component": "充电仓",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "充电仓",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "贝尔金SOUNDFORM Freedom真无线耳机是贝尔金进入TWS耳机领域后推出的第二款产品，主打卖点是支持苹果Find My查找功能，可通过苹果iPhone、iPad等产品上“Find My查找” APP实时跟踪和定位充电盒位置，还可以使耳机播放提示音，便于用户在遗忘耳机位置时快速查找。"
-      }
-    },
-    {
       "component": "电池",
       "brand": "",
       "model": "",
@@ -75,7 +75,7 @@
         "value": "电池",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "正面能够看到电池单元。"
+        "source_text": "电池侧边\n是\n通话降噪麦克风，有橡胶罩覆盖，提升收音性能。"
       }
     },
     {
@@ -89,7 +89,7 @@
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机底部设置了锥形结构盖板，中间为通话麦克风，旁边还有一颗指示灯。"
+        "source_text": "耳机头侧边用于通话降噪功能的麦克风开孔，有金属防尘网覆盖，防止异物进入腔体。"
       }
     },
     {
@@ -121,31 +121,17 @@
       }
     },
     {
-      "component": "外壳结构",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "外壳结构",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "电池单元通过导线焊接在FPC板上，前腔内部组件通过BTB连接器连接到FPC板。均打胶固定。"
-      }
-    },
-    {
       "component": "指示灯",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "充电盒",
+      "side": "耳机",
       "role": "minor",
       "evidence": {
         "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒正面开盖处设置有倒角，便于开启。下方有一颗指示灯，用于反馈充电盒状态。"
+        "source_text": "耳机底部设置了锥形结构盖板，中间为通话麦克风，旁边还有一颗指示灯。"
       }
     },
     {
@@ -159,21 +145,7 @@
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒背面有Type-C充电接口和一颗功能按键，用于恢复出厂设置，开启/关闭Find My查找功能等。"
-      }
-    },
-    {
-      "component": "充电触点",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机内侧两颗镀金充电触点，中间位置是光学传感器开窗。"
+        "source_text": "充电接口：充电盒背面有Type-C充电接口和一颗功能按键，用于恢复出厂设置，开启/关闭Find My查找功能等。"
       }
     },
     {
@@ -187,63 +159,7 @@
         "value": "高通QCC3040",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "Qualcomm高通QCC3040蓝牙音频SoC，QCC304X系列蓝牙音频SoC支持蓝牙5.2，支持高通aptX\nAdaptive编解码器，可以基于终端上所播放内容类型，通过独特的技术自动调节提供最佳音质或低时延，带来沉浸式视频和游戏无线聆听体验。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "高通TrueWireless",
-      "qty_hint": "1",
-      "side": "右耳",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "高通TrueWireless",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "该系列芯片还支持全新的高通TrueWireless\nMirroring技术，左右耳塞可以在多个使用场景下快速切换。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "高通QCC304x",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "高通QCC304x",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "此外，高通QCC304x系列蓝牙音频SoC还支持cVc通话降噪技术，能够通过触控或按键唤醒手机的语音助手。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "QCC304",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "QCC304",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "此外，高通QCC304x系列蓝牙音频SoC还支持cVc通话降噪技术，能够通过触控或按键唤醒手机的语音助手。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "高通QCC3040",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "高通QCC3040",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "后腔排线连接有电池、触摸传感器以及通话降噪麦克风，主板上采用了高通QCC3040蓝牙音频SoC，支持蓝牙5.2，支持高通多种音频技术；晟矽微 MC9934 8位单片机，用于蓝牙耳机在连接发生故障时，触发复位再次发射蓝牙信号，保障蓝牙不死机。"
+        "source_text": "电池容量：520\n芯片 高通QCC3040\n芯片 高通aptX\n芯片 高通TrueWireless\n芯片 高通QCC304x\n芯片 QCC304"
       }
     }
   ],
@@ -261,6 +177,16 @@
   "unboxing": null,
   "market": {
     "selling_points": [
+      {
+        "text": "贝尔金SOUNDFORM ELITE 智能音箱、ChargerLAB POWER-Z KM001C便携式电源测 […]\n耳机头侧边用于通话降噪功能的麦克风开孔，有金属防尘网覆盖，防止异物进入腔体。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "贝尔金SOUNDFORM ELITE 智能音箱、ChargerLAB POWER-Z KM001C便携式电源测 […]\n耳机头侧边用于通话降噪功能的麦克风开孔，有金属防尘网覆盖，防止异物进入腔体。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "贝尔金SOUNDFORM ELITE 智能音箱、ChargerLAB POWER-Z KM001C便携式电源测 […]\n耳机头侧边用于通话降噪功能的麦克风开孔，有金属防尘网覆盖，防止异物进入腔体。"
+        }
+      },
       {
         "text": "耳机头侧边用于通话降噪功能的麦克风开孔，有金属防尘网覆盖，防止异物进入腔体。",
         "tag": "降噪",
@@ -303,11 +229,9 @@
       }
     ],
     "scenarios": [
-      "游戏",
-      "睡眠",
       "通话"
     ],
-    "positioning_summary": "耳机头侧边用于通话降噪功能的麦克风开孔，有金属防尘网覆盖，防止异物进入腔体。",
+    "positioning_summary": "贝尔金SOUNDFORM ELITE 智能音箱、ChargerLAB POWER-Z KM001C便携式电源测 […]\n耳机头侧边用于通话降噪功能的麦克风开孔，有金属防尘网覆盖，防止异物进入腔体。",
     "launch_date": null,
     "best_report_id": "88778",
     "best_video_id": null

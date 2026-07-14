@@ -28,9 +28,11 @@
     "speaker": "钛振膜",
     "materials": "硅胶",
     "weight_g": "43.7g",
+    "weight_case_g": "",
+    "weight_earbud_g": "4.5g",
     "ip_rating": "",
     "bluetooth": "6.0",
-    "bom_row_count": 16,
+    "bom_row_count": 18,
     "price_cny": 219.0,
     "price_layer": "channel",
     "channel_url": "https://union-click.jd.com/jdc?e=jd_100112893142&p=JF8BAQoJK1olXDYCVV9dCEgeC20IHlglGVlaCgFtUQ5SQi0DBUVNGFJeSwUIFxlJX3EIGloVXQULXFxdDUgIWipURmteNlEGMyg5bShTeQhBRg9RJEEYAQgLBEcnBm8JG1sdXgQDXW5eCUkUAGYBGlsXbTYAVVlcCEwnVQEIGloUXAcHVVlZOEkXAm4BGVwdWg8yVFhaCUofAGsMGV0cWzYCXFltQ56cnm4IG1IlbTYBZG5tCHsUMzFmGggXCQADXVozVB1NQjBMSFJ7VQUEV1ZbDEgnAW4JGVklbTZEDCgkVT1oBwZcWyhWFXtDIyAWSwxFXDRmGQtXVH9EDj8UYTMUB2dOYRxcbQUyU1peOA",
@@ -77,6 +79,20 @@
       "role": "保护IC",
       "evidence": {
         "value": "思远半导体SY8702",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内部搭载VDL紫建电子3.89V/530mAh锂电池，采用了WINSEMI稳先微WSDY3302E锂电保护IC，思远半导体SY8702低侧过压保护（OVP）IC，ETA钰泰ETA9030V电源管理芯片，Cmsemicon中微半导体CMS8S5880单片机等方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA9030V",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "PMIC/充电仓管理",
+      "evidence": {
+        "value": "ETA9030V",
         "confidence": 0.85,
         "source_type": "summary_prose",
         "source_text": "充电盒内部搭载VDL紫建电子3.89V/530mAh锂电池，采用了WINSEMI稳先微WSDY3302E锂电保护IC，思远半导体SY8702低侧过压保护（OVP）IC，ETA钰泰ETA9030V电源管理芯片，Cmsemicon中微半导体CMS8S5880单片机等方案。"
@@ -262,6 +278,20 @@
         "confidence": 0.78,
         "source_type": "text",
         "source_text": "丝印“02AT9”的思远半导体SY8702低侧过压保护（OVP）IC，采用SOT23-6封装，内部集成28mΩ开关NMOS，采用低压侧开关拓扑结构，极低导通电阻有效的减小输入压降，保护电压外部设置使应用更加灵活，提供最简单实用的低成本OVP解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA9030V",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA9030V",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "ETA钰泰ETA9030V电源管理芯片，负责内置电池的充放电管理。"
       }
     }
   ],

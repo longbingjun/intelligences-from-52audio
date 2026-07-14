@@ -1,0 +1,267 @@
+{
+  "canonical_id": "realme--buds-q2",
+  "brand": "realme真我",
+  "model": "微源半导体电源管理芯片获 Buds Q2",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "107465",
+    "108307"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "107465",
+    "108307"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2022-02-19",
+  "latest_published": "2022-03-01",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "BES2500",
+    "pmic_case": "",
+    "battery_ear": "400 mAh",
+    "battery_case": "电池",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 10,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "107465",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒主板背面贴有电池，主板通过螺丝固定在耳机座舱背面。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒主板背面贴有电池，主板通过螺丝固定在耳机座舱背面。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒主板背面贴有电池，主板通过螺丝固定在耳机座舱背面。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "功能配置上搭载了10mm低音动圈单元，支持DBB增强技术，支持高清通话降噪、低延迟游戏模式，拥有20h的续航。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机另一侧麦克风拾音孔一览。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机后盖板内设有电容触摸贴片，用于实现耳机的触摸功能。在触摸检测贴片外圈是耳机的蓝牙天线，通过主板上的金属触点连接。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "LWS661S内建税压电路，提供稳定的电压给触摸感应电路使用，稳定的触摸检测效果可以广泛的满足不同应用的需求，此触摸检测芯片是专为取代传统按键而设计，触摸检测 PAD 的大小可 依不同的灵敏度设计在合理的范内，低功托与究工作电压，是此触摸芯片在 DC 或 AC 应用上的特性。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "接着让我们一起来看一下耳机音腔内的布局，音腔内部的元器件通过胶水固定。在音腔内部右侧为吸附充电盒的磁铁，左侧是扬声器单元，磁铁与扬声器中间是充电触点所在的小板，两者均通过导线与主板相连。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机后盖板内设有电容触摸贴片，用于实现耳机的触摸功能。在触摸检测贴片外圈是耳机的蓝牙天线，通过主板上的金属触点连接。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2500",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2500",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：400\n芯片 BES2500"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:107465",
+      "report:108307"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "realme品牌成立于2018年5月，专注于生产智能手机和IoT产品，凭借”敢越级”的品牌态度和较高性价比的产 […]\n功能配置上搭载了10mm低音动圈单元，支持DBB增强技术，支持高清通话降噪、低延迟游戏模式，拥有20h的续航。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "realme品牌成立于2018年5月，专注于生产智能手机和IoT产品，凭借”敢越级”的品牌态度和较高性价比的产 […]\n功能配置上搭载了10mm低音动圈单元，支持DBB增强技术，支持高清通话降噪、低延迟游戏模式，拥有20h的续航。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "realme品牌成立于2018年5月，专注于生产智能手机和IoT产品，凭借”敢越级”的品牌态度和较高性价比的产 […]\n功能配置上搭载了10mm低音动圈单元，支持DBB增强技术，支持高清通话降噪、低延迟游戏模式，拥有20h的续航。"
+        }
+      },
+      {
+        "text": "功能配置上搭载了10mm低音动圈单元，支持DBB增强技术，支持高清通话降噪、低延迟游戏模式，拥有20h的续航。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "功能配置上搭载了10mm低音动圈单元，支持DBB增强技术，支持高清通话降噪、低延迟游戏模式，拥有20h的续航。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "功能配置上搭载了10mm低音动圈单元，支持DBB增强技术，支持高清通话降噪、低延迟游戏模式，拥有20h的续航。"
+        }
+      },
+      {
+        "text": "LWS661S内建税压电路，提供稳定的电压给触摸感应电路使用，稳定的触摸检测效果可以广泛的满足不同应用的需求，此触摸检测芯片是专为取代传统按键而设计，触摸检测 PAD 的大小可 依不同的灵敏度设计在合理的范内，低功托与究工作电压，是此触摸芯片在 DC 或 AC 应用上的特性。",
+        "tag": "其他",
+        "evidence": {
+          "value": "LWS661S内建税压电路，提供稳定的电压给触摸感应电路使用，稳定的触摸检测效果可以广泛的满足不同应用的需求，此触摸检测芯片是专为取代传统按键而设计，触摸检测 PAD 的大小可 依不同的灵敏度设计在合理的范内，低功托与究工作电压，是此触摸芯片在 DC 或 AC 应用上的特性。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "LWS661S内建税压电路，提供稳定的电压给触摸感应电路使用，稳定的触摸检测效果可以广泛的满足不同应用的需求，此触摸检测芯片是专为取代传统按键而设计，触摸检测 PAD 的大小可 依不同的灵敏度设计在合理的范内，低功托与究工作电压，是此触摸芯片在 DC 或 AC 应用上的特性。"
+        }
+      },
+      {
+        "text": "标记/认证：充电盒电池来自ZWD众旺德新能源，型号ZWD802028，电池额定容量400mAh/1.480Wh，额定电压4.2\nV\n，额定工作电压3.7\nV\n。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：充电盒电池来自ZWD众旺德新能源，型号ZWD802028，电池额定容量400mAh/1.480Wh，额定电压4.2\nV\n，额定工作电压3.7\nV\n。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "标记/认证：充电盒电池来自ZWD众旺德新能源，型号ZWD802028，电池额定容量400mAh/1.480Wh，额定电压4.2\nV\n，额定工作电压3.7\nV\n。"
+        }
+      },
+      {
+        "text": "标记/认证：触控方面，耳机采用了LONGWECHIP隆微半导体型号LW8661S单按键触摸检测芯片，具有“功耗低，响应快，电源噪声抑制强且一致性高”等特点，能够实现耳机快速响应触摸操控。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：触控方面，耳机采用了LONGWECHIP隆微半导体型号LW8661S单按键触摸检测芯片，具有“功耗低，响应快，电源噪声抑制强且一致性高”等特点，能够实现耳机快速响应触摸操控。",
+          "confidence": 0.6,
+          "source_type": "text",
+          "source_text": "标记/认证：触控方面，耳机采用了LONGWECHIP隆微半导体型号LW8661S单按键触摸检测芯片，具有“功耗低，响应快，电源噪声抑制强且一致性高”等特点，能够实现耳机快速响应触摸操控。"
+        }
+      },
+      {
+        "text": "充电接口：USB-A\n标记/认证：盒盖内侧的产品信息，产品名称“realme Buds Q2”，型号“RMA2010”，输入“5V⎓0.5A”，电池容量“400mAh/1.48Wh”，额定电压“3.7V”。",
+        "tag": "其他",
+        "evidence": {
+          "value": "充电接口：USB-A\n标记/认证：盒盖内侧的产品信息，产品名称“realme Buds Q2”，型号“RMA2010”，输入“5V⎓0.5A”，电池容量“400mAh/1.48Wh”，额定电压“3.7V”。",
+          "confidence": 0.6,
+          "source_type": "text",
+          "source_text": "充电接口：USB-A\n标记/认证：盒盖内侧的产品信息，产品名称“realme Buds Q2”，型号“RMA2010”，输入“5V⎓0.5A”，电池容量“400mAh/1.48Wh”，额定电压“3.7V”。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "realme品牌成立于2018年5月，专注于生产智能手机和IoT产品，凭借”敢越级”的品牌态度和较高性价比的产 […]\n功能配置上搭载了10mm低音动圈单元，支持DBB增强技术，支持高清通话降噪、低延迟游戏模式，拥有20h的续航。",
+    "launch_date": null,
+    "best_report_id": "107465",
+    "best_video_id": null
+  }
+}

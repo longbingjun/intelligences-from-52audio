@@ -20,13 +20,13 @@
     "battery_ear": "电池",
     "battery_case": "220 mAh",
     "speaker": "喇叭单元",
-    "materials": "硅胶、PC",
+    "materials": "PC",
     "weight_g": "4.1克",
     "weight_case_g": "",
-    "weight_earbud_g": "",
+    "weight_earbud_g": "4.1g",
     "ip_rating": "IPX5",
     "bluetooth": "5.0",
-    "bom_row_count": 11,
+    "bom_row_count": 10,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -37,17 +37,17 @@
   },
   "bom_table": [
     {
-      "component": "充电仓",
+      "component": "电池",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
-        "value": "充电仓",
+        "value": "电池",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "233621 Droplet真无线耳机内置蓝牙5.0芯片，双主耳机连接迅速，扬声器为5.88mm高品质钕铁动圈单元，有宽广的全频动态表现；耳机的单次续航约4小时，搭配充电盒可实现12小时续航，耳机支持快充，充电10分钟续航1小时。此外耳机支持触控操作，便于使用。下面请看详细的拆解报告。"
+        "source_text": "我爱音频网拆解了解到，目前已有\n漫步者\n、\nJLab\n、\n东芝\n、\n摩托罗拉\n、\n派美特\n、\nMOMAX摩米士\n、\nU&I 由我\n、\n创新科技\n、\nomthing\n等品牌大量采用了金赛尔的电池方案。"
       }
     },
     {
@@ -65,17 +65,17 @@
       }
     },
     {
-      "component": "电池",
+      "component": "充电仓",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
+      "side": "充电盒",
       "role": "major",
       "evidence": {
-        "value": "电池",
+        "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电接口竖置既可以利用内部空间，同时也起到了固定电池的作用。"
+        "source_text": "充电盒内部结构展示，电路板采用螺丝和胶水固定。"
       }
     },
     {
@@ -89,7 +89,7 @@
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "通话麦克风的拾音孔。"
+        "source_text": "通话麦克风位置使用大量白胶固定，起到防尘防水的保护作用。"
       }
     },
     {
@@ -97,13 +97,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "喇叭单元",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "233621 Droplet真无线耳机内置蓝牙5.0芯片，双主耳机连接迅速，扬声器为5.88mm高品质钕铁动圈单元，有宽广的全频动态表现；耳机的单次续航约4小时，搭配充电盒可实现12小时续航，耳机支持快充，充电10分钟续航1小时。此外耳机支持触控操作，便于使用。下面请看详细的拆解报告。"
+        "source_text": "出音嘴处的细密防尘网，阻止异物进入，具有一定防水能力；隐约可以看到扬声器单元。"
       }
     },
     {
@@ -131,21 +131,7 @@
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "233621 Droplet真无线耳机内置蓝牙5.0芯片，双主耳机连接迅速，扬声器为5.88mm高品质钕铁动圈单元，有宽广的全频动态表现；耳机的单次续航约4小时，搭配充电盒可实现12小时续航，耳机支持快充，充电10分钟续航1小时。此外耳机支持触控操作，便于使用。下面请看详细的拆解报告。"
-      }
-    },
-    {
-      "component": "充电触点",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "给耳机充电的Pogo Pin特写。"
+        "source_text": "耳机盖板内侧展示，外圈是蓝牙天线，中间区域是触控感应的箔片，指示灯位置有导光板，泡棉内侧接缝处使用胶水填充，提高防尘防水的能力。"
       }
     },
     {
@@ -153,13 +139,27 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "充电盒",
+      "side": "耳机",
       "role": "minor",
       "evidence": {
         "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒正面的四颗电量指示灯。"
+        "source_text": "耳机盖板内侧展示，外圈是蓝牙天线，中间区域是触控感应的箔片，指示灯位置有导光板，泡棉内侧接缝处使用胶水填充，提高防尘防水的能力。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA7014",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA7014",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "标记/认证：充电盒功能由SinhMicro昇生微电子SS215X负责，它集成了充放电管理、电源路径管理、高精度ADC，接口丰富，外围器件精简，输入端采用钰泰ETA7014进行过压保护；软包电池来自CEL金赛尔，容量220mAh。"
       }
     },
     {
@@ -173,21 +173,7 @@
         "value": "ETA7014",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "钰泰半导体 ETA7014 耐压36V的高侧过压保护芯片，保护电压可由分压电阻编程，用于输入过压保护。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "ETA7014",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "ETA7014",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "充电盒功能由SinhMicro昇生微电子SS215X负责，它集成了充放电管理、电源路径管理、高精度ADC，接口丰富，外围器件精简，输入端采用钰泰ETA7014进行过压保护；软包电池来自CEL金赛尔，容量220mAh。"
+        "source_text": "电池容量：220\n芯片 ETA7014"
       }
     }
   ],
@@ -206,6 +192,16 @@
   "market": {
     "selling_points": [
       {
+        "text": "今天我爱音频网要拆解的是233621 Droplet真无线蓝牙耳机，Droplet意为“小滴，微滴”，耳机单耳 […]\n耳机盖板内侧展示，外圈是蓝牙天线，中间区域是触控感应的箔片，指示灯位置有导光板，泡棉内侧接缝处使用胶水填充，提高防尘防水的能力。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "今天我爱音频网要拆解的是233621 Droplet真无线蓝牙耳机，Droplet意为“小滴，微滴”，耳机单耳 […]\n耳机盖板内侧展示，外圈是蓝牙天线，中间区域是触控感应的箔片，指示灯位置有导光板，泡棉内侧接缝处使用胶水填充，提高防尘防水的能力。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "今天我爱音频网要拆解的是233621 Droplet真无线蓝牙耳机，Droplet意为“小滴，微滴”，耳机单耳 […]\n耳机盖板内侧展示，外圈是蓝牙天线，中间区域是触控感应的箔片，指示灯位置有导光板，泡棉内侧接缝处使用胶水填充，提高防尘防水的能力。"
+        }
+      },
+      {
         "text": "耳机盖板内侧展示，外圈是蓝牙天线，中间区域是触控感应的箔片，指示灯位置有导光板，泡棉内侧接缝处使用胶水填充，提高防尘防水的能力。",
         "tag": "防水防尘",
         "evidence": {
@@ -213,6 +209,16 @@
           "confidence": 0.55,
           "source_type": "text",
           "source_text": "耳机盖板内侧展示，外圈是蓝牙天线，中间区域是触控感应的箔片，指示灯位置有导光板，泡棉内侧接缝处使用胶水填充，提高防尘防水的能力。"
+        }
+      },
+      {
+        "text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：今天我爱音频网要拆解的是233621 Droplet真无线蓝牙耳机，Droplet意为“小滴，微滴”，耳机单耳重量约为4.1克，比较轻巧，支持IPX5级防水防汗，适合运动佩戴，这两个特点与其产品名契合。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：今天我爱音频网要拆解的是233621 Droplet真无线蓝牙耳机，Droplet意为“小滴，微滴”，耳机单耳重量约为4.1克，比较轻巧，支持IPX5级防水防汗，适合运动佩戴，这两个特点与其产品名契合。",
+          "confidence": 0.64,
+          "source_type": "text",
+          "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：今天我爱音频网要拆解的是233621 Droplet真无线蓝牙耳机，Droplet意为“小滴，微滴”，耳机单耳重量约为4.1克，比较轻巧，支持IPX5级防水防汗，适合运动佩戴，这两个特点与其产品名契合。"
         }
       },
       {
@@ -244,34 +250,14 @@
           "source_type": "text",
           "source_text": "我爱音频网拆解了解到，目前已有\n漫步者\n、\nJLab\n、\n东芝\n、\n摩托罗拉\n、\n派美特\n、\nMOMAX摩米士\n、\nU&I 由我\n、\n创新科技\n、\nomthing\n等品牌大量采用了金赛尔的电池方案。"
         }
-      },
-      {
-        "text": "“来自深圳国际低碳城的创新与设计”和Logo，凸显品牌环保理念。",
-        "tag": "其他",
-        "evidence": {
-          "value": "“来自深圳国际低碳城的创新与设计”和Logo，凸显品牌环保理念。",
-          "confidence": 0.75,
-          "source_type": "text",
-          "source_text": "“来自深圳国际低碳城的创新与设计”和Logo，凸显品牌环保理念。"
-        }
-      },
-      {
-        "text": "今天我爱音频网要拆解的是233621 Droplet真无线蓝牙耳机，Droplet意为“小滴，微滴”，耳机单耳重量约为4.1克，比较轻巧，支持IPX5级防水防汗，适合运动佩戴，这两个特点与其产品名契合。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "今天我爱音频网要拆解的是233621 Droplet真无线蓝牙耳机，Droplet意为“小滴，微滴”，耳机单耳重量约为4.1克，比较轻巧，支持IPX5级防水防汗，适合运动佩戴，这两个特点与其产品名契合。",
-          "confidence": 0.72,
-          "source_type": "text",
-          "source_text": "今天我爱音频网要拆解的是233621 Droplet真无线蓝牙耳机，Droplet意为“小滴，微滴”，耳机单耳重量约为4.1克，比较轻巧，支持IPX5级防水防汗，适合运动佩戴，这两个特点与其产品名契合。"
-        }
       }
     ],
     "scenarios": [
       "运动",
       "通话"
     ],
-    "positioning_summary": "耳机盖板内侧展示，外圈是蓝牙天线，中间区域是触控感应的箔片，指示灯位置有导光板，泡棉内侧接缝处使用胶水填充，提高防尘防水的能力。",
-    "launch_date": "2010-4-22",
+    "positioning_summary": "今天我爱音频网要拆解的是233621 Droplet真无线蓝牙耳机，Droplet意为“小滴，微滴”，耳机单耳 […]\n耳机盖板内侧展示，外圈是蓝牙天线，中间区域是触控感应的箔片，指示灯位置有导光板，泡棉内侧接缝处使用胶水填充，提高防尘防水的能力。",
+    "launch_date": null,
     "best_report_id": "67907",
     "best_video_id": null
   }

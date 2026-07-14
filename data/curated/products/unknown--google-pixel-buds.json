@@ -17,39 +17,25 @@
   "cost_snapshot": {
     "main_chip": "Qualcomm CSR8675",
     "pmic_case": "",
-    "battery_ear": "120 mAh",
+    "battery_ear": "",
     "battery_case": "电池",
     "speaker": "喇叭单元",
-    "materials": "塑料、PC",
-    "weight_g": "58.4克",
+    "materials": "塑料",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
     "bluetooth": "",
-    "bom_row_count": 12,
+    "bom_row_count": 11,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
     "sales_hint": null,
-    "data_completeness": 0.83,
+    "data_completeness": 0.67,
     "best_report_id": "82934",
     "best_video_id": null
   },
   "bom_table": [
-    {
-      "component": "主板/PCBA",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "主板/PCBA",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒内部结构展示，电池在底部，与壳体接触位置有一圈泡棉缓冲；主板使用多颗螺丝固定。"
-      }
-    },
     {
       "component": "电池",
       "brand": "",
@@ -75,7 +61,21 @@
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "谷歌 Pixel Buds 是谷歌推出的首代蓝牙耳机，其充电盒采用布艺材质包裹，左右耳机之间有一条挂绳连接，内有导线传输音频信号；耳机看上去像入耳式设计，但佩戴时是半入耳的状态，是一款比较有特色的产品。"
+        "source_text": "谷歌 Pixel Buds 是谷歌推出的首代蓝牙耳机，其充电盒采用布艺材质包裹，左右耳机之间有一条挂绳连接，内 […]"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "USB Type-C充电接口过孔焊接至主板，有防尘 防水胶圈。"
       }
     },
     {
@@ -121,6 +121,20 @@
       }
     },
     {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "取出主板电路后的充电座舱壳体。左上角是按键的壳体，右上角是指示灯的导光板。"
+      }
+    },
+    {
       "component": "触控/按键",
       "brand": "",
       "model": "",
@@ -131,7 +145,7 @@
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电座舱壳体上的快速配对按键。"
+        "source_text": "取出主板电路后的充电座舱壳体。左上角是按键的壳体，右上角是指示灯的导光板。"
       }
     },
     {
@@ -145,21 +159,7 @@
         "value": "充电触点",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "固定耳机的凹槽，内有充电触点，耳机通过磁铁吸附，磁铁上印有L/R左右标识。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电座舱壳体内隐藏式指示灯设计。"
+        "source_text": "给耳机充电的镀金Pogo Pin特写，有防尘防水胶圈。"
       }
     },
     {
@@ -173,7 +173,7 @@
         "value": "外壳结构",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机外壳是圆形，刻有谷歌的字母\"G\"Logo。"
+        "source_text": "另一只耳机的外壳特写，中间区域是触摸PAD，外侧是LDS蓝牙天线。"
       }
     },
     {
@@ -187,21 +187,7 @@
         "value": "Qualcomm CSR8675",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "高通CSR8675支持蓝牙V5.0版本，包含一个升级版数字信号处理器内核，与前一代的80MIPS DSP相比，其处理性能高达120MIPS，所以新的Qualcomm CSR8675可以支持高级音频处理算法，从而提供具备超高品质的增强型音频性能。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "高通CSR8675",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "高通CSR8675",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "耳机部分，谷歌 Pixel Buds采用了高通CSR8675蓝牙主控芯片，支持蓝牙V5.0，支持24bit数字音频，是一代经典产品，通过LDS天线传输蓝牙信号；美信MAX8971G开关充电IC用于为内置电池充电，德州仪器TPS62743用于电池输出降压为耳机内部芯片供电，扣式电池来自瓦尔塔，容量120mAh；耳机内置12.7mm动圈扬声器，支持敲击和触控两种交互方式，有入耳检测功能，其中敲击控制由加速度传感器实现，触控和入耳检测采用电容方案，控制芯片是赛普拉斯CY8C4146FNI-S433；耳机内置两颗硅麦用于通话拾音；整体设计独特，用料较好。"
+        "source_text": "标记/认证：高通CSR8675支持蓝牙V5.0版本，包含一个升级版数字信号处理器内核，与前一代的80MIPS DSP相比，其处理性能高达120MIPS，所以新的Qualcomm CSR8675可以支持高级音频处理算法，从而提供具备超高品质的增强型音频性能。"
       }
     }
   ],
@@ -220,13 +206,13 @@
   "market": {
     "selling_points": [
       {
-        "text": "USB Type-C充电接口过孔焊接至主板，有防尘 防水胶圈。",
+        "text": "充电接口：USB Type-C充电接口过孔焊接至主板，有防尘 防水胶圈。",
         "tag": "防水防尘",
         "evidence": {
-          "value": "USB Type-C充电接口过孔焊接至主板，有防尘 防水胶圈。",
+          "value": "充电接口：USB Type-C充电接口过孔焊接至主板，有防尘 防水胶圈。",
           "confidence": 0.58,
           "source_type": "text",
-          "source_text": "USB Type-C充电接口过孔焊接至主板，有防尘 防水胶圈。"
+          "source_text": "充电接口：USB Type-C充电接口过孔焊接至主板，有防尘 防水胶圈。"
         }
       },
       {
@@ -240,6 +226,26 @@
         }
       },
       {
+        "text": "谷歌 Pixel Buds 是谷歌推出的首代蓝牙耳机，其充电盒采用布艺材质包裹，左右耳机之间有一条挂绳连接，内 […]\nUSB Type-C充电接口过孔焊接至主板，有防尘 防水胶圈。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "谷歌 Pixel Buds 是谷歌推出的首代蓝牙耳机，其充电盒采用布艺材质包裹，左右耳机之间有一条挂绳连接，内 […]\nUSB Type-C充电接口过孔焊接至主板，有防尘 防水胶圈。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "谷歌 Pixel Buds 是谷歌推出的首代蓝牙耳机，其充电盒采用布艺材质包裹，左右耳机之间有一条挂绳连接，内 […]\nUSB Type-C充电接口过孔焊接至主板，有防尘 防水胶圈。"
+        }
+      },
+      {
+        "text": "标记/认证：扣式电池来自VARTA瓦尔塔，型号CP1654A3，直径16mm、高度5.4mm，额定电压3.7V，能量0.4Wh。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：扣式电池来自VARTA瓦尔塔，型号CP1654A3，直径16mm、高度5.4mm，额定电压3.7V，能量0.4Wh。",
+          "confidence": 0.61,
+          "source_type": "text",
+          "source_text": "标记/认证：扣式电池来自VARTA瓦尔塔，型号CP1654A3，直径16mm、高度5.4mm，额定电压3.7V，能量0.4Wh。"
+        }
+      },
+      {
         "text": "出音嘴位置的防尘网，阻止异物进入。",
         "tag": "防水防尘",
         "evidence": {
@@ -248,12 +254,22 @@
           "source_type": "text",
           "source_text": "出音嘴位置的防尘网，阻止异物进入。"
         }
+      },
+      {
+        "text": "充电接口：Type-C\n标记/认证：充电盒内置的软包电池来自ATL新能源，型号632235，额定电压3.8V，能量2.39Wh。",
+        "tag": "其他",
+        "evidence": {
+          "value": "充电接口：Type-C\n标记/认证：充电盒内置的软包电池来自ATL新能源，型号632235，额定电压3.8V，能量2.39Wh。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "充电接口：Type-C\n标记/认证：充电盒内置的软包电池来自ATL新能源，型号632235，额定电压3.8V，能量2.39Wh。"
+        }
       }
     ],
     "scenarios": [
       "通话"
     ],
-    "positioning_summary": "USB Type-C充电接口过孔焊接至主板，有防尘 防水胶圈。",
+    "positioning_summary": "充电接口：USB Type-C充电接口过孔焊接至主板，有防尘 防水胶圈。",
     "launch_date": null,
     "best_report_id": "82934",
     "best_video_id": null

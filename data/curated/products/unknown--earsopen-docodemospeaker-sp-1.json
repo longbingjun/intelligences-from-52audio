@@ -20,13 +20,13 @@
     "battery_ear": "电池",
     "battery_case": "1000 mAh",
     "speaker": "喇叭单元",
-    "materials": "硅胶、塑料、ABS",
+    "materials": "硅胶",
     "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
-    "bluetooth": "3.0",
-    "bom_row_count": 10,
+    "bluetooth": "",
+    "bom_row_count": 8,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -47,7 +47,7 @@
         "value": "电池",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "包装盒标签上展示有产品的参数信息，包括型号：docodemoSPEAKER SP-1，适用机型：通用，电源：充电式锂电池，输入5V-0.5A，蓝牙：4.1，传输距离：10m，进口商：布谷鸟（上海）智能科技有限公司，制造商BOCO株式会社。"
+        "source_text": "用于隔离骨传导传感器和电池单元的屏蔽缓冲垫。"
       }
     },
     {
@@ -75,7 +75,7 @@
         "value": "骨传导振子",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "音箱底部中间位置便是支撑其能够让介质发声的骨传导动态振子，上方标签信息与包装盒上一致。"
+        "source_text": "振子和外壳通过弹片连接，螺丝固定，\n黑色防尘网防止异物进入单元腔体。"
       }
     },
     {
@@ -93,20 +93,6 @@
       }
     },
     {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "喇叭单元",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "消费者对于蓝牙音箱的传统印象多为通过蓝牙的方式传输音频，再通过喇叭单元输出。而今天将要拆解的这个蓝牙音箱earsopen逸鸥 docodemoSPEAKER SP-1却非常的与众不同，其内部并未搭载具体的发声单元，而是通过直接振动传导介质发声。"
-      }
-    },
-    {
       "component": "麦克风",
       "brand": "",
       "model": "",
@@ -121,17 +107,17 @@
       }
     },
     {
-      "component": "触控/按键",
+      "component": "喇叭单元",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "",
-      "role": "minor",
+      "role": "major",
       "evidence": {
-        "value": "触控/按键",
+        "value": "喇叭单元",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "音箱顶部采用了圆环的设计，四周分布有电源开关、加减音量和暂停播放四颗功能按键。长按电源开关即可通过蓝牙的形式与手机连接使用，中间区域是docodemoSPEAKER骨传导音箱的品牌标志。"
+        "source_text": "消费者对于蓝牙音箱的传统印象多为通过蓝牙的方式传输音频，再通过喇叭单元输出。而今天将要拆解的这个蓝牙音箱earsopen逸鸥 docodemoSPEAKER SP-1却非常的与众不同，其内部并未搭载具体的发声单元，而是通过直接振动传导介质发声。"
       }
     },
     {
@@ -145,21 +131,7 @@
         "value": "外壳结构",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "振子和外壳通过弹片连接，螺丝固定，黑色防尘网防止异物进入单元腔体。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "指示灯导光柱特写。"
+        "source_text": "振子和外壳通过弹片连接，螺丝固定，\n黑色防尘网防止异物进入单元腔体。"
       }
     },
     {
@@ -173,7 +145,7 @@
         "value": "AB1805",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "丝印4AB1805的存储器IC。"
+        "source_text": "电池容量：1000\n芯片 AB1805"
       }
     }
   ],
@@ -192,13 +164,43 @@
   "market": {
     "selling_points": [
       {
-        "text": "振子和外壳通过弹片连接，螺丝固定，\n黑色防尘网防止异物进入单元腔体。",
+        "text": "标记/认证：独特的发音方式必定会改变传统蓝牙音箱的内部结构，而今天便是来拆解看看这款产品的内部结构配置~\n我爱音频网此前还拆解过earsopen逸鸥品牌的\nearsopen逸鸥 PEACE TW-1 真无线骨传导耳机\n、\nearsopen逸鸥 FIT BT-1 骨传导运动耳机\n和\nEarsopen逸鸥BT-5骨传导蓝牙耳机\n等。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：独特的发音方式必定会改变传统蓝牙音箱的内部结构，而今天便是来拆解看看这款产品的内部结构配置~\n我爱音频网此前还拆解过earsopen逸鸥品牌的\nearsopen逸鸥 PEACE TW-1 真无线骨传导耳机\n、\nearsopen逸鸥 FIT BT-1 骨传导运动耳机\n和\nEarsopen逸鸥BT-5骨传导蓝牙耳机\n等。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "标记/认证：独特的发音方式必定会改变传统蓝牙音箱的内部结构，而今天便是来拆解看看这款产品的内部结构配置~\n我爱音频网此前还拆解过earsopen逸鸥品牌的\nearsopen逸鸥 PEACE TW-1 真无线骨传导耳机\n、\nearsopen逸鸥 FIT BT-1 骨传导运动耳机\n和\nEarsopen逸鸥BT-5骨传导蓝牙耳机\n等。"
+        }
+      },
+      {
+        "text": "振子和外壳通过弹片连接，螺丝固定，黑色防尘网防止异物进入单元腔体。",
         "tag": "防水防尘",
         "evidence": {
-          "value": "振子和外壳通过弹片连接，螺丝固定，\n黑色防尘网防止异物进入单元腔体。",
+          "value": "振子和外壳通过弹片连接，螺丝固定，黑色防尘网防止异物进入单元腔体。",
           "confidence": 0.55,
           "source_type": "text",
-          "source_text": "振子和外壳通过弹片连接，螺丝固定，\n黑色防尘网防止异物进入单元腔体。"
+          "source_text": "振子和外壳通过弹片连接，螺丝固定，黑色防尘网防止异物进入单元腔体。"
+        }
+      },
+      {
+        "text": "标记/认证：集成了蓝牙1M/2M/3Mbps RF、单周期8位MCU、TX/RX调制解调器、5端口内存控制器、任务/跳频控制器、UART接口和MICROCHIP自己的蓝牙软件堆栈，以实现所需的具有EDR功能的BT4.1。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：集成了蓝牙1M/2M/3Mbps RF、单周期8位MCU、TX/RX调制解调器、5端口内存控制器、任务/跳频控制器、UART接口和MICROCHIP自己的蓝牙软件堆栈，以实现所需的具有EDR功能的BT4.1。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "标记/认证：集成了蓝牙1M/2M/3Mbps RF、单周期8位MCU、TX/RX调制解调器、5端口内存控制器、任务/跳频控制器、UART接口和MICROCHIP自己的蓝牙软件堆栈，以实现所需的具有EDR功能的BT4.1。"
+        }
+      },
+      {
+        "text": "随着蓝牙技术的快速发展，蓝牙音箱作为其主要的终端产品之一性能也在快速提升，并且在朝向着更加便携、更加智能的方向 […]\n振子和外壳通过弹片连接，螺丝固定，\n黑色防尘网防止异物进入单元腔体。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "随着蓝牙技术的快速发展，蓝牙音箱作为其主要的终端产品之一性能也在快速提升，并且在朝向着更加便携、更加智能的方向 […]\n振子和外壳通过弹片连接，螺丝固定，\n黑色防尘网防止异物进入单元腔体。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "随着蓝牙技术的快速发展，蓝牙音箱作为其主要的终端产品之一性能也在快速提升，并且在朝向着更加便携、更加智能的方向 […]\n振子和外壳通过弹片连接，螺丝固定，\n黑色防尘网防止异物进入单元腔体。"
         }
       },
       {
@@ -212,40 +214,20 @@
         }
       },
       {
-        "text": "防尘网使用双面胶固定，一旦发生破损也方便更换。",
-        "tag": "防水防尘",
+        "text": "标记/认证：锂离子软包电池型号BOCO002，容量1000mAh/3.7Wh，额定电压3.7V。",
+        "tag": "其他",
         "evidence": {
-          "value": "防尘网使用双面胶固定，一旦发生破损也方便更换。",
-          "confidence": 0.55,
+          "value": "标记/认证：锂离子软包电池型号BOCO002，容量1000mAh/3.7Wh，额定电压3.7V。",
+          "confidence": 0.56,
           "source_type": "text",
-          "source_text": "防尘网使用双面胶固定，一旦发生破损也方便更换。"
-        }
-      },
-      {
-        "text": "打开防尘塞、内部是Micro-USB充电接口，3.5mm音频接口用于有线的方式输入音频。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "打开防尘塞、内部是Micro-USB充电接口，3.5mm音频接口用于有线的方式输入音频。",
-          "confidence": 0.55,
-          "source_type": "text",
-          "source_text": "打开防尘塞、内部是Micro-USB充电接口，3.5mm音频接口用于有线的方式输入音频。"
-        }
-      },
-      {
-        "text": "撕掉外层透明防尘贴，下方是具有很强粘性的硅胶垫，用以黏贴在其他物质上，使其伴随音箱震动，实现扩音的效果。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "撕掉外层透明防尘贴，下方是具有很强粘性的硅胶垫，用以黏贴在其他物质上，使其伴随音箱震动，实现扩音的效果。",
-          "confidence": 0.55,
-          "source_type": "text",
-          "source_text": "撕掉外层透明防尘贴，下方是具有很强粘性的硅胶垫，用以黏贴在其他物质上，使其伴随音箱震动，实现扩音的效果。"
+          "source_text": "标记/认证：锂离子软包电池型号BOCO002，容量1000mAh/3.7Wh，额定电压3.7V。"
         }
       }
     ],
     "scenarios": [
       "运动"
     ],
-    "positioning_summary": "振子和外壳通过弹片连接，螺丝固定，\n黑色防尘网防止异物进入单元腔体。",
+    "positioning_summary": "标记/认证：独特的发音方式必定会改变传统蓝牙音箱的内部结构，而今天便是来拆解看看这款产品的内部结构配置~\n我爱音频网此前还拆解过earsopen逸鸥品牌的\nearsopen逸鸥 PEACE TW-1 真无线骨传导耳机\n、\nearsopen逸鸥 FIT BT-1 骨传导运动耳机\n和\nEarsopen逸鸥BT-5骨传导蓝牙耳机\n等。",
     "launch_date": null,
     "best_report_id": "86440",
     "best_video_id": null

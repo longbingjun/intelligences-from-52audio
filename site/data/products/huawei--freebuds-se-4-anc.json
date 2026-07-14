@@ -1,0 +1,398 @@
+{
+  "canonical_id": "huawei--freebuds-se-4-anc",
+  "brand": "HUAWEI华为",
+  "model": "FreeBuds SE 4 ANC",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "257390"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "257390"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2025-10-30",
+  "latest_published": "2025-10-30",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "WINSEMI稳先微WSDF2310",
+    "pmic_case": "WINSEMI稳先微 WINSEMI稳先微WSDF2310",
+    "battery_ear": "3.8V/41mAh软包扣式",
+    "battery_case": "3.87V/510mAh锂电池",
+    "speaker": "钛振膜",
+    "materials": "硅胶",
+    "weight_g": "43.3g",
+    "weight_case_g": "",
+    "weight_earbud_g": "4.3g",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 19,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "257390",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "WINSEMI稳先微",
+      "model": "WINSEMI稳先微WSDF2310",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "保护IC",
+      "evidence": {
+        "value": "WINSEMI稳先微WSDF2310",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内置VDL紫建电子的软包扣式电池，容量3.8V/41mAh，配备了WINSEMI稳先微WSDF2310锂电保护IC。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3.8V/41mAh软包扣式",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "3.8V/41mAh软包扣式",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内置VDL紫建电子的软包扣式电池，容量3.8V/41mAh，配备了WINSEMI稳先微WSDF2310锂电保护IC。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "钛振膜",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "钛振膜",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机搭载10mm镀钛振膜动圈喇叭，内置三颗MEMS麦克风拾音（通话麦来自瑞勤电子）；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "3",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机搭载10mm镀钛振膜动圈喇叭，内置三颗MEMS麦克风拾音（通话麦来自瑞勤电子）；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1125",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "CM1125",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上采用iCM创芯微CM1125系列锂电池保护IC，SinhMicro昇生微电子SS888AH POWER MCU和SSD10X可编程升压IC，以及过压过流保护和霍尔元件等方案。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3.87V/510mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3.87V/510mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内部搭载了3.87V/510mAh锂电池，电芯来自ATL新能源；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盒盖内侧标注有认证标识和参数信息。型号：T0026L，充电盒输入：5V-1A，输出：5.1V-0.4A，电池：3.87V，510mAh/1.97Wh。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "华为FreeBuds SE 4 ANC支持ANC主动降噪功能，提供深度/均衡/轻度三种降噪模式，全频段平均降噪深度可达24dB；支持三麦克风通话降噪，定向拾音，准确区分人声并消减环境噪音，提供清晰通话效果。续航方面，耳机单次续航时间可达10小时，开启降噪续航依旧能保持7小时，搭配充电盒综合续航可达50小时，且充电10分钟，可畅听4小时。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "HUAWEI FreeBuds SE系列是华为旗下相对更亲民的TWS耳机产品，加之出色的基础体验，获得了大量消费者的认可。近期，该系列的第四代产品——FreeBuds SE 4 ANC正式发布，在音质、续航方面进一步优化，同时首次支持了ANC主动降噪功能，进一步扩展了使用场景，为用户提供沉浸式的无线音频体验。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部结构一览，设置有主板单元，打胶固定密封。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "华为FreeBuds SE 4 ANC支持ANC主动降噪功能，提供深度/均衡/轻度三种降噪模式，全频段平均降噪深度可达24dB；支持三麦克风通话降噪，定向拾音，准确区分人声并消减环境噪音，提供清晰通话效果。续航方面，耳机单次续航时间可达10小时，开启降噪续航依旧能保持7小时，搭配充电盒综合续航可达50小时，且充电10分钟，可畅听4小时。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "HUAWEI华为FreeBuds SE 4 ANC真无线降噪耳机在外观方面，首次采用了入耳式设计，但重量仅4.3g，拥有着轻盈舒适的佩戴体验。在功能配置上，搭载全新强劲10mm动圈单元，预设有4种EQ音效，同时支持自定义，能够更好地匹配不同音乐风格；支持蓝牙技术5.4，提供稳定的音频传输和声画同步的低延迟游戏体验。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧结构一览，设置有蓝牙天线和触摸检测贴片。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "打开充电盒外壳，内部耳机磁吸固定，左右正序，取出即可佩戴。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "华为FreeBuds SE 4 ANC充电盒采用了圆角方形设计，烤漆质感，光滑圆润，触感舒适但易沾染指纹。机身正面下方设置有一颗功能按键，用于反馈蓝牙配对和充电状态。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄底部设置有通话麦克风拾音孔和充电触点，以及R/右标识。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "用于反馈蓝牙配对及充电状态的LED指示灯特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WINSEMI稳先微WSDF2310",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "WINSEMI稳先微WSDF2310",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "WINSEMI稳先微WSDF2310锂电保护IC，具有过充、过放、过流、短路等所有电池需要的保护功能。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1125",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM1125",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "iCM创芯微CM1125系列集成MOSFET单节锂电池保护IC，负责对电池的过充电、过放电、过电流等保护。"
+      }
+    }
+  ],
+  "summary_image_urls": [
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/10/2025102909590052.png",
+      "alt": "拆解报告：HUAWEI华为FreeBuds SE 4 ANC真无线降噪耳机-我爱音频网",
+      "caption": "",
+      "section_hint": "summary_bom",
+      "score": 10
+    }
+  ],
+  "summary_text": "三、我爱音频网总结 最后附上HUAWEI华为FreeBuds SE 4 ANC真无线降噪耳机的已知核心物料清单，方便大家查阅。 HUAWEI华为FreeBuds SE 4 ANC真无线降噪耳机在外观方面，相较于上代回归了主流设计风格，但缺少了一定的特点。圆角矩形充电盒，烤漆质感，光滑圆润，轻巧便携；柄状的入耳式耳机，设计圆润无棱角，重量也仅4.3g，佩戴舒适稳固贴合耳廓。 内部主要配置方面，耳机搭载10mm镀钛振膜动圈喇叭，内置三颗MEMS麦克风拾音（通话麦来自瑞勤电子）；主控芯片为WUQI物奇WQ7031AX蓝牙音频SoC，外围采用多颗Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感；内置VDL紫建电子的软包扣式电池，容量3.8V/41mAh，配备了WINSEMI稳先微WSDF2310锂电保护IC。 充电盒内部搭载了3.87V/510mAh锂电池，电芯来自ATL新能源；主板上采用iCM创芯微CM1125系列锂电池保护IC，SinhMicro昇生微电子SS888AH POWER MCU和SSD10X可编程升压IC，以及过压过流保护和霍尔元件等方案。",
+  "layer_refs": {
+    "technical": [
+      "report:257390"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "在功能配置上，搭载全新强劲10mm动圈单元，预设有4种EQ音效，同时支持自定义，能够更好地匹配不同音乐风格；支持蓝牙技术5.4，提供稳定的音频传输和声画同步的低延迟游戏体验。",
+        "tag": "游戏低延迟",
+        "evidence": {
+          "value": "在功能配置上，搭载全新强劲10mm动圈单元，预设有4种EQ音效，同时支持自定义，能够更好地匹配不同音乐风格；支持蓝牙技术5.4，提供稳定的音频传输和声画同步的低延迟游戏体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "在功能配置上，搭载全新强劲10mm动圈单元，预设有4种EQ音效，同时支持自定义，能够更好地匹配不同音乐风格；支持蓝牙技术5.4，提供稳定的音频传输和声画同步的低延迟游戏体验。"
+        }
+      },
+      {
+        "text": "近期，该系列的第四代产品——FreeBuds SE 4 ANC正式发布，在音质、续航方面进一步优化，同时首次支持了ANC主动降噪功能，进一步扩展了使用场景，为用户提供沉浸式的无线音频体验。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "近期，该系列的第四代产品——FreeBuds SE 4 ANC正式发布，在音质、续航方面进一步优化，同时首次支持了ANC主动降噪功能，进一步扩展了使用场景，为用户提供沉浸式的无线音频体验。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "近期，该系列的第四代产品——FreeBuds SE 4 ANC正式发布，在音质、续航方面进一步优化，同时首次支持了ANC主动降噪功能，进一步扩展了使用场景，为用户提供沉浸式的无线音频体验。"
+        }
+      },
+      {
+        "text": "华为FreeBuds SE 4 ANC支持ANC主动降噪功能，提供深度/均衡/轻度三种降噪模式，全频段平均降噪深度可达24dB；支持三麦克风通话降噪，定向拾音，准确区分人声并消减环境噪音，提供清晰通话效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "华为FreeBuds SE 4 ANC支持ANC主动降噪功能，提供深度/均衡/轻度三种降噪模式，全频段平均降噪深度可达24dB；支持三麦克风通话降噪，定向拾音，准确区分人声并消减环境噪音，提供清晰通话效果。",
+          "confidence": 0.69,
+          "source_type": "text",
+          "source_text": "华为FreeBuds SE 4 ANC支持ANC主动降噪功能，提供深度/均衡/轻度三种降噪模式，全频段平均降噪深度可达24dB；支持三麦克风通话降噪，定向拾音，准确区分人声并消减环境噪音，提供清晰通话效果。"
+        }
+      },
+      {
+        "text": "HUAWEI华为FreeBuds SE 4 ANC真无线降噪耳机在外观方面，相较于上代回归了主流设计风格，但缺少了一定的特点。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "HUAWEI华为FreeBuds SE 4 ANC真无线降噪耳机在外观方面，相较于上代回归了主流设计风格，但缺少了一定的特点。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "HUAWEI华为FreeBuds SE 4 ANC真无线降噪耳机在外观方面，相较于上代回归了主流设计风格，但缺少了一定的特点。"
+        }
+      },
+      {
+        "text": "后腔另外一侧同样设计有前馈降噪麦克风拾音孔，双向开孔，提供更优的收音效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "后腔另外一侧同样设计有前馈降噪麦克风拾音孔，双向开孔，提供更优的收音效果。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "后腔另外一侧同样设计有前馈降噪麦克风拾音孔，双向开孔，提供更优的收音效果。"
+        }
+      },
+      {
+        "text": "镭雕G236的MEMS麦克风特写，为前馈降噪麦克风，用于降噪功能拾取外界环境噪音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "镭雕G236的MEMS麦克风特写，为前馈降噪麦克风，用于降噪功能拾取外界环境噪音。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "镭雕G236的MEMS麦克风特写，为前馈降噪麦克风，用于降噪功能拾取外界环境噪音。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "在功能配置上，搭载全新强劲10mm动圈单元，预设有4种EQ音效，同时支持自定义，能够更好地匹配不同音乐风格；支持蓝牙技术5.4，提供稳定的音频传输和声画同步的低延迟游戏体验。",
+    "launch_date": null,
+    "best_report_id": "257390",
+    "best_video_id": null
+  }
+}

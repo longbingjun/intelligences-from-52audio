@@ -1,0 +1,207 @@
+{
+  "canonical_id": "unknown--verb",
+  "brand": "",
+  "model": "爱奇艺Verb",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "28327"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "28327"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2019-09-20",
+  "latest_published": "2019-09-20",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "高通QCC3005",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "",
+    "speaker": "喇叭单元",
+    "materials": "硅胶",
+    "weight_g": "17g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.0",
+    "bom_row_count": 9,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.67,
+    "best_report_id": "28327",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机的主板位于线控内部。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机头内部电池与一元硬币的比较。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机线控区域采用喷砂设计。线控区域的麦克风开口一面丝印有iQIYI Verb字样。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "内部导线与扬声器单元焊接连接。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "主板背面，上面有Micro USB母座，主控芯片，陶瓷蓝牙天线，麦克风。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "线控区域的按键一面，音量键和多功能键都采用了上凸设计。按住多功能按键，蓝灯闪烁可进行蓝牙配对连接。音乐模式，短按多功能键播放/暂停操作，短按两下进入下一首音乐，短按三下则为上一首。长按2s多功能按键唤醒手机语音助手，长按4s关机。操作音量键时，耳机会有相应的语音提示，体验好评。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "被黑色海绵包裹的LED指示灯。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC3005",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC3005",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm高通QCC3005蓝牙主控芯片。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC3005",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC3005",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "耳机内置了高通QCC3005蓝牙音频芯片，支持蓝牙5.0，aptX音频格式和专业DRC编码技术。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:28327"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "整体设计密封性强，支持IP65防水。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "整体设计密封性强，支持IP65防水。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "整体设计密封性强，支持IP65防水。"
+        }
+      },
+      {
+        "text": "扬声器开口有被高密度的网罩覆盖，有效防尘透音。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "扬声器开口有被高密度的网罩覆盖，有效防尘透音。",
+          "confidence": 0.61,
+          "source_type": "text",
+          "source_text": "扬声器开口有被高密度的网罩覆盖，有效防尘透音。"
+        }
+      }
+    ],
+    "scenarios": [],
+    "positioning_summary": "整体设计密封性强，支持IP65防水。",
+    "launch_date": null,
+    "best_report_id": "28327",
+    "best_video_id": null
+  }
+}

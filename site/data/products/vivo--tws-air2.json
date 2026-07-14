@@ -1,0 +1,362 @@
+{
+  "canonical_id": "vivo--tws-air2",
+  "brand": "vivo",
+  "model": "TWS Air2",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "183975"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "183975"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-12-06",
+  "latest_published": "2023-12-06",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "恒玄BES2600IZC",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "4V/20mAh锂电池",
+    "speaker": "14.2mm 动圈单元",
+    "materials": "",
+    "weight_g": "37.8g",
+    "weight_case_g": "",
+    "weight_earbud_g": "3.8g",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 17,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "183975",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "4V/20mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "4V/20mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置锂威能420mAh锂电池，主板上搭载了内置Charger、30V耐压OVP、ADC等丰富的功能和接口的SinhMicro昇生微电子SS888QH微控制器，丝印5225J2SZ的锂电池一体化保护芯片，以及WillSemi韦尔半导体ESD56241D TVS保护管等。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "恒玄BES2600IZC",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2600IZC",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，采用了BES恒玄BES2600IZC蓝牙音频SoC，以及一颗用于语音通话功能拾音的MEMS麦克风。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "14.2mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "14.2mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内置14.2mm动圈单元，MIC-POWER微电新能源0.119Wh钢壳扣式电池。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "2、 12.2mm自研超宽频声音单元，支持骁龙畅听及aptX Lossless无损传输，vivo TWS 3 Pro拆解 3、 vivo TWS Air真无线耳机拆解，14.2mm大动圈单元，双麦AI通话降噪"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "主板上，采用了BES恒玄BES2600IZC蓝牙音频SoC，以及一颗用于语音通话功能拾音的MEMS麦克风。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "vivo TWS Air2真无线耳机支持AI通话降噪，强化人声，去除噪音，实现清晰语音通话效果；延迟方面也得到了提升，通过深度优化手机端到耳机端音频处理，实现55ms全链路游戏低延迟；续航方面，单次续航时间6小时，搭配充电盒综合续航提升到了30小时，支持耳机闪充，充电10分钟可听2小时。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，通过螺丝固定主板单元。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "另外一侧产品参数信息，输入：5V-0.5A，输出：5V-0.2A，电池：3.8V 430mAh 1.64Wh。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄底部的麦克风拾音孔特写，L型抗风噪设计。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机扬声器正面特写，采用生物碳纤维复合振膜，呈现更丰富的中高频细节。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "vivo TWS Air系列是vivo旗下半入耳式真无线耳机产品，目前已相继发布了vivo TWS Air、vivo TWS Air Pro（半入耳式主动降噪耳机）和vivo TWS Air2三款产品，主打轻盈舒适的佩戴体验，同时为用户提供好听的音质效果。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板底部结构一览，设置有蓝牙天线和触摸检测传感器，末端麦克风拾音孔采用了“L”设计，有效降低风噪影响。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开卡扣式固定的充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "vivo TWS Air2真无线耳机充电盒采用了立式的椭圆形设计，钢琴烤漆质感，体积非常轻薄，相较于上代，座舱采用了曲线设计，观感更加灵动。机身正面设计有vivo品牌LOGO和一颗指示灯。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒背面外观一览，取消了蓝牙配对按键，首次使用开盖自动开机进入配对状态，后续开盖自动回连手机。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "断开与尾塞的充电触点连接，取出主板。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2600IZC",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2600IZC",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄BES2600IZC蓝牙音频SoC，支持蓝牙5.3，用于无线连接和音频数据处理。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 vivo TWS Air2真无线耳机在外观方面，拥有着极致轻巧便携的设计，充电盒体积轻薄，烤漆质感光滑圆润，曲线开盖设计，观感更加灵动。柄状的半入耳式耳机，延续了家族式的流线水滴型耳机柄设计，体积轻盈，佩戴舒适无感。 内部主要配置方面，充电盒内置锂威能420mAh锂电池，主板上搭载了内置Charger、30V耐压OVP、ADC等丰富的功能和接口的SinhMicro昇生微电子SS888QH微控制器，丝印5225J2SZ的锂电池一体化保护芯片，以及WillSemi韦尔半导体ESD56241D TVS保护管等。 耳机内置14.2mm动圈单元，MIC-POWER微电新能源0.119Wh钢壳扣式电池。主板上，采用了BES恒玄BES2600IZC蓝牙音频SoC，以及一颗用于语音通话功能拾音的MEMS麦克风。 相关阅读： ​1、 vivo TWS Air Pro评测：不到三百的半入耳式+主动降噪，性价比出众！ 2、 12.2mm自研超宽频声音单元，支持骁龙畅听及aptX Lossless无损传输，vivo TWS 3 Pro拆解 3、 vivo TWS Air真无线耳机拆解，14.2mm大动圈单元，双麦AI通话降噪",
+  "layer_refs": {
+    "technical": [
+      "report:183975"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "2、\n12.2mm自研超宽频声音单元，支持骁龙畅听及aptX Lossless无损传输，vivo TWS 3 Pro拆解\n3、\nvivo TWS Air真无线耳机拆解，14.2mm大动圈单元，双麦AI通话降噪",
+        "tag": "降噪",
+        "evidence": {
+          "value": "2、\n12.2mm自研超宽频声音单元，支持骁龙畅听及aptX Lossless无损传输，vivo TWS 3 Pro拆解\n3、\nvivo TWS Air真无线耳机拆解，14.2mm大动圈单元，双麦AI通话降噪",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "2、\n12.2mm自研超宽频声音单元，支持骁龙畅听及aptX Lossless无损传输，vivo TWS 3 Pro拆解\n3、\nvivo TWS Air真无线耳机拆解，14.2mm大动圈单元，双麦AI通话降噪"
+        }
+      },
+      {
+        "text": "vivo TWS Air2真无线耳机支持AI通话降噪，强化人声，去除噪音，实现清晰语音通话效果；延迟方面也得到了提升，通过深度优化手机端到耳机端音频处理，实现55ms全链路游戏低延迟；续航方面，单次续航时间6小时，搭配充电盒综合续航提升到了30小时，支持耳机闪充，充电10分钟可听2小时。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "vivo TWS Air2真无线耳机支持AI通话降噪，强化人声，去除噪音，实现清晰语音通话效果；延迟方面也得到了提升，通过深度优化手机端到耳机端音频处理，实现55ms全链路游戏低延迟；续航方面，单次续航时间6小时，搭配充电盒综合续航提升到了30小时，支持耳机闪充，充电10分钟可听2小时。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "vivo TWS Air2真无线耳机支持AI通话降噪，强化人声，去除噪音，实现清晰语音通话效果；延迟方面也得到了提升，通过深度优化手机端到耳机端音频处理，实现55ms全链路游戏低延迟；续航方面，单次续航时间6小时，搭配充电盒综合续航提升到了30小时，支持耳机闪充，充电10分钟可听2小时。"
+        }
+      },
+      {
+        "text": "三、我爱音频网总结\nvivo TWS Air2真无线耳机在外观方面，拥有着极致轻巧便携的设计，充电盒体积轻薄，烤漆质感光滑圆润，曲线开盖设计，观感更加灵动。",
+        "tag": "其他",
+        "evidence": {
+          "value": "三、我爱音频网总结\nvivo TWS Air2真无线耳机在外观方面，拥有着极致轻巧便携的设计，充电盒体积轻薄，烤漆质感光滑圆润，曲线开盖设计，观感更加灵动。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\nvivo TWS Air2真无线耳机在外观方面，拥有着极致轻巧便携的设计，充电盒体积轻薄，烤漆质感光滑圆润，曲线开盖设计，观感更加灵动。"
+        }
+      },
+      {
+        "text": "相关阅读：\n​1、\nvivo TWS Air Pro评测：不到三百的半入耳式+主动降噪，性价比出众！",
+        "tag": "降噪",
+        "evidence": {
+          "value": "相关阅读：\n​1、\nvivo TWS Air Pro评测：不到三百的半入耳式+主动降噪，性价比出众！",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "相关阅读：\n​1、\nvivo TWS Air Pro评测：不到三百的半入耳式+主动降噪，性价比出众！"
+        }
+      },
+      {
+        "text": "vivo TWS Air系列是vivo旗下半入耳式真无线耳机产品，目前已相继发布了\nvivo TWS Air\n、\nvivo TWS Air Pro\n（半入耳式主动降噪耳机）和vivo TWS Air2三款产品，主打轻盈舒适的佩戴体验，同时为用户提供好听的音质效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "vivo TWS Air系列是vivo旗下半入耳式真无线耳机产品，目前已相继发布了\nvivo TWS Air\n、\nvivo TWS Air Pro\n（半入耳式主动降噪耳机）和vivo TWS Air2三款产品，主打轻盈舒适的佩戴体验，同时为用户提供好听的音质效果。",
+          "confidence": 0.65,
+          "source_type": "text",
+          "source_text": "vivo TWS Air系列是vivo旗下半入耳式真无线耳机产品，目前已相继发布了\nvivo TWS Air\n、\nvivo TWS Air Pro\n（半入耳式主动降噪耳机）和vivo TWS Air2三款产品，主打轻盈舒适的佩戴体验，同时为用户提供好听的音质效果。"
+        }
+      },
+      {
+        "text": "前腔内部结构一览，调音孔内侧通过防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "前腔内部结构一览，调音孔内侧通过防尘网防护。",
+          "confidence": 0.64,
+          "source_type": "text",
+          "source_text": "前腔内部结构一览，调音孔内侧通过防尘网防护。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "2、\n12.2mm自研超宽频声音单元，支持骁龙畅听及aptX Lossless无损传输，vivo TWS 3 Pro拆解\n3、\nvivo TWS Air真无线耳机拆解，14.2mm大动圈单元，双麦AI通话降噪",
+    "launch_date": null,
+    "best_report_id": "183975",
+    "best_video_id": null
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "canonical_id": "unknown--pihen-g5-tws",
+  "brand": "",
+  "model": "PIHEN品恒 G5 TWS",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "18609"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "18609"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2019-04-09",
+  "latest_published": "2019-04-09",
+  "internal_match_suggestions": [
+    {
+      "sku": "OpenDots 2",
+      "score": 0.476,
+      "reason": "型号相似度 48%（匹配 OpenDots 2）"
+    }
+  ],
+  "cost_snapshot": {
+    "main_chip": "IP5305",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "500 mAh",
+    "speaker": "喇叭单元",
+    "materials": "硅胶、塑料、PC",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.0",
+    "bom_row_count": 11,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "18609",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "一眼看上去包装内容较为丰富，有多达6套额外的硅胶耳塞，以及Micro USB充电线和耳机充电盒、耳机本体、挂绳。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "内置电池型号为SL802035，容量500mAh。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开耳机充电盖的耳机仓模块，可以看到底下的是主板。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机背部是麦克风拾音孔。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Unictron詠业科技 AA029蓝牙天线。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "接下来看看耳机向里一侧这边的拆解，从右边依次是3个充电触点，用于吸附到充电盒。接下来是耳机的扬声器，是一个动圈单元，采用导线连接。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "打开充电盒的盖子，可以看到耳机舱位内采用不同的光滑塑料材质，每边采用3个充电触点充电，并且C面上有标明“L”、“R” 。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "这款PIHEN的耳机充电盒采用圆润的造型，外壳为磨砂材质。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "采用USB-C接口充电，上面有一颗电量指示灯。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "位于主板中间的微动按键。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5305",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5305",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "IP5305是英集芯专门为TWS蓝牙耳机充电盒设计的电源管理芯片，可监测到5mA级别电流，是一款集成升压转换器、锂电池充电管理、电池电量指示的多功能电源SOC。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:18609"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "耳机上有防尘滤网。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "耳机上有防尘滤网。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "耳机上有防尘滤网。"
+        }
+      }
+    ],
+    "scenarios": [],
+    "positioning_summary": "耳机上有防尘滤网。",
+    "launch_date": null,
+    "best_report_id": "18609",
+    "best_video_id": null
+  }
+}

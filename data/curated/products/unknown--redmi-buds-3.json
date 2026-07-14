@@ -17,41 +17,27 @@
   "latest_published": "2021-11-28",
   "internal_match_suggestions": [],
   "cost_snapshot": {
-    "main_chip": "恒玄BES2500IUC",
+    "main_chip": "高通QCC3040",
     "pmic_case": "",
     "battery_ear": "电池",
-    "battery_case": "315 mAh",
+    "battery_case": "310 mAh",
     "speaker": "喇叭单元",
-    "materials": "硅胶、PC",
-    "weight_g": "35.3g",
+    "materials": "塑料",
+    "weight_g": "4.5g",
     "weight_case_g": "",
-    "weight_earbud_g": "",
+    "weight_earbud_g": "4.5g",
     "ip_rating": "",
     "bluetooth": "5.2",
-    "bom_row_count": 12,
+    "bom_row_count": 15,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
     "sales_hint": null,
     "data_completeness": 0.83,
-    "best_report_id": "96702",
+    "best_report_id": "93601",
     "best_video_id": null
   },
   "bom_table": [
-    {
-      "component": "充电仓",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "充电仓",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "Redmi Buds 3青春版充电盒为类似“鹅卵石”的椭圆形，体积小巧，圆润无棱角。耳机为豆状的入耳式方案，但整体设计与AirDots系列有着很大的不同，配备有柔软的硅胶“猫耳”，提供更加舒适稳固的佩戴效果。"
-      }
-    },
     {
       "component": "电池",
       "brand": "",
@@ -63,21 +49,7 @@
         "value": "电池",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "座舱一侧结构一览，上下两层PCB板通过导线连接，中间固定电池单元。"
-      }
-    },
-    {
-      "component": "主板/PCBA",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "主板/PCBA",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "主板通过螺丝固定在座舱底部。"
+        "source_text": "下层结构上固定主板、霍尔元件小板、电池单元等重要组件。"
       }
     },
     {
@@ -85,27 +57,41 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机麦克风开孔特写，用于语音通话拾音。"
+        "source_text": "通话降噪麦克风开孔特写，采用黑色金属网罩防护。"
       }
     },
     {
-      "component": "天线",
+      "component": "主板/PCBA",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
+      "side": "耳机",
       "role": "major",
       "evidence": {
-        "value": "天线",
+        "value": "主板/PCBA",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "取出主板，后腔底部设置了触摸检测贴片和蓝牙天线。"
+        "source_text": "配置方面，Redmi Buds 3真无线耳机采用了12mm复合振膜大尺寸动圈，高通QCC3040蓝牙音频SoC，支持蓝牙5.2，支持aptXAdaptive高清解码、cVc通话降噪技术；配备了红外光学传感器，支持入耳检测功能；还支持完整的MIUI互联生态，拥有弹窗模式连接和查看剩余电量功能。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "据我爱音频网拆解了解到，目前已有公牛、捷波朗、华米科技等品牌的真无线耳机充电盒采用了恒泰科技的软包电池；Cleer TREK主动降噪入耳式有线耳机也采用了恒泰科技的小型方形电池。"
       }
     },
     {
@@ -119,35 +105,35 @@
         "value": "喇叭单元",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机内部采用了5.5mm动圈扬声器单元，36mAh软包扣式电池，分别通过导线连接到主板。主板上，主控芯片为恒玄BES2500IUC，支持蓝牙5.2，具有超低底噪，512K SRAM, 2M/4M FLASH；单颗MEMS麦克风，用于语音通话功能拾音。"
+        "source_text": "配置方面，Redmi Buds 3真无线耳机采用了12mm复合振膜大尺寸动圈，高通QCC3040蓝牙音频SoC，支持蓝牙5.2，支持aptXAdaptive高清解码、cVc通话降噪技术；配备了红外光学传感器，支持入耳检测功能；还支持完整的MIUI互联生态，拥有弹窗模式连接和查看剩余电量功能。"
       }
     },
     {
-      "component": "外壳结构",
+      "component": "降噪系统",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
-      "role": "minor",
+      "side": "耳机",
+      "role": "major",
       "evidence": {
-        "value": "外壳结构",
+        "value": "降噪系统",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "外壳上指示灯导光柱特写。"
+        "source_text": "据我爱音频网拆解了解到，目前已有公牛、捷波朗、华米科技等品牌的真无线耳机充电盒采用了恒泰科技的软包电池；Cleer TREK主动降噪入耳式有线耳机也采用了恒泰科技的小型方形电池。"
       }
     },
     {
-      "component": "指示灯",
+      "component": "天线",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
+      "side": "耳机",
+      "role": "major",
       "evidence": {
-        "value": "指示灯",
+        "value": "天线",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒正面设置有一颗指示灯，用于反馈剩余电量信息。"
+        "source_text": "耳机柄内部主板一侧设置有塑料框架，框架上贴有触控传感器和蓝牙天线。"
       }
     },
     {
@@ -161,7 +147,7 @@
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "功能配置上，采用了蓝牙5.2芯片，支持通话降噪功能，提供清晰通话；支持游戏低延迟模式，提升游戏体验；采用触控操作，支持多种操控模式，使用便捷；还支持IP54防尘防水，日常通勤、健身运动均可使用；拥有单次5小时，整体18小时的续航时间。"
+        "source_text": "通话降噪麦克风开孔特写，采用黑色金属网罩防护。旁边圆形凹面是触控区域，提升盲操作的便捷性。"
       }
     },
     {
@@ -175,35 +161,91 @@
         "value": "充电触点",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机内侧设置有充电触点和L/R左右标识。"
+        "source_text": "耳机柄底部是金属充电触点和通话麦克风开孔。"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "恒玄BES2500IUC",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "恒玄BES2500IUC",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "主控芯片采用了恒玄BES2500IUC，\nBES2500系列\n是恒玄新一代蓝牙音频SoC，均支持蓝牙5.2，不同后缀配置和功能不相同。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "BES2500",
+      "model": "高通QCC3040",
       "qty_hint": "1",
       "side": "耳机",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "BES2500",
+        "value": "高通QCC3040",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "据我爱音频网拆解了解到，目前\n荣耀、OPPO等品牌旗下多款产品已采用了BES2500系列\n，\n三星、小米、OPPO、JBL、万魔、荣耀、百度、一加、传音等品牌\n的真无线耳机大量采用了恒玄的方案。"
+        "source_text": "配置方面，Redmi Buds 3真无线耳机采用了12mm复合振膜大尺寸动圈，高通QCC3040蓝牙音频SoC，支持蓝牙5.2，支持aptXAdaptive高清解码、cVc通话降噪技术；配备了红外光学传感器，支持入耳检测功能；还支持完整的MIUI互联生态，拥有弹窗模式连接和查看剩余电量功能。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通TrueWirelessMirroring",
+      "qty_hint": "1",
+      "side": "右耳",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通TrueWirelessMirroring",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "QCC304x芯片还支持全新的高通TrueWirelessMirroring技术，左右耳塞可以在多个使用场景下快速切换；支持cVc通话降噪技术，支持触控或按键唤醒手机的语音助手；还可集成了混合主动降噪技术。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "QCC304",
+      "qty_hint": "1",
+      "side": "右耳",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "QCC304",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "QCC304x芯片还支持全新的高通TrueWirelessMirroring技术，左右耳塞可以在多个使用场景下快速切换；支持cVc通话降噪技术，支持触控或按键唤醒手机的语音助手；还可集成了混合主动降噪技术。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA9897",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA9897",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "充电接口：主板上采用Type-C接口输入电源，由钰泰ETA9897电源管理IC为内置310mAh软包电池充电，以及放电为耳机充电；由苏州赛芯电子科技股份的XB5335A锂电池充电保护IC，负责内置电池的过充过放保护。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC3040",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC3040",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：35\n芯片 高通QCC3040\n芯片 高通aptX\n芯片 高通TrueWireless\n芯片 QCC304\n芯片 ETA9897"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA9897",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA9897",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：35\n芯片 高通QCC3040\n芯片 高通aptX\n芯片 高通TrueWireless\n芯片 QCC304\n芯片 ETA9897"
       }
     }
   ],
@@ -223,13 +265,13 @@
   "market": {
     "selling_points": [
       {
-        "text": "继AirDots系列产品之后，Redmi在今年又推出了Buds系列TWS耳机，首款产品\nRedmi Buds 3真无线耳机\n突破了原有的外观，\n采用了全新的设计。",
+        "text": "继AirDots系列产品之后，Redmi在今年又推出了Buds系列TWS耳机，首款产品小米 FlipBuds  […]\n继AirDots系列产品之后，Redmi在今年又推出了Buds系列TWS耳机，首款产品\nRedmi Buds 3真无线耳机\n突破了原有的外观，\n采用了全新的设计。",
         "tag": "其他",
         "evidence": {
-          "value": "继AirDots系列产品之后，Redmi在今年又推出了Buds系列TWS耳机，首款产品\nRedmi Buds 3真无线耳机\n突破了原有的外观，\n采用了全新的设计。",
+          "value": "继AirDots系列产品之后，Redmi在今年又推出了Buds系列TWS耳机，首款产品小米 FlipBuds  […]\n继AirDots系列产品之后，Redmi在今年又推出了Buds系列TWS耳机，首款产品\nRedmi Buds 3真无线耳机\n突破了原有的外观，\n采用了全新的设计。",
           "confidence": 0.75,
           "source_type": "text",
-          "source_text": "继AirDots系列产品之后，Redmi在今年又推出了Buds系列TWS耳机，首款产品\nRedmi Buds 3真无线耳机\n突破了原有的外观，\n采用了全新的设计。"
+          "source_text": "继AirDots系列产品之后，Redmi在今年又推出了Buds系列TWS耳机，首款产品小米 FlipBuds  […]\n继AirDots系列产品之后，Redmi在今年又推出了Buds系列TWS耳机，首款产品\nRedmi Buds 3真无线耳机\n突破了原有的外观，\n采用了全新的设计。"
         }
       },
       {
@@ -243,6 +285,26 @@
         }
       },
       {
+        "text": "标记/认证：盒盖内侧印有产品名称：Redmi Buds 3青春版，产品型号：M2110E1，以及SN、CMIIT ID编号。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：盒盖内侧印有产品名称：Redmi Buds 3青春版，产品型号：M2110E1，以及SN、CMIIT ID编号。",
+          "confidence": 0.7,
+          "source_type": "text",
+          "source_text": "标记/认证：盒盖内侧印有产品名称：Redmi Buds 3青春版，产品型号：M2110E1，以及SN、CMIIT ID编号。"
+        }
+      },
+      {
+        "text": "标记/认证：充电盒内采用了聚合物锂离子软包电池，型号：BW30，额定容量：315mAh/1.17Wh，标称电压：3.7V，充电限制电压：4.2V，制造商：东莞锂威能源科技有限公司，中国制造。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：充电盒内采用了聚合物锂离子软包电池，型号：BW30，额定容量：315mAh/1.17Wh，标称电压：3.7V，充电限制电压：4.2V，制造商：东莞锂威能源科技有限公司，中国制造。",
+          "confidence": 0.68,
+          "source_type": "text",
+          "source_text": "标记/认证：充电盒内采用了聚合物锂离子软包电池，型号：BW30，额定容量：315mAh/1.17Wh，标称电压：3.7V，充电限制电压：4.2V，制造商：东莞锂威能源科技有限公司，中国制造。"
+        }
+      },
+      {
         "text": "耳机出音嘴特写，采用防尘网覆盖，防止异物进入音腔。",
         "tag": "防水防尘",
         "evidence": {
@@ -250,16 +312,6 @@
           "confidence": 0.56,
           "source_type": "text",
           "source_text": "耳机出音嘴特写，采用防尘网覆盖，防止异物进入音腔。"
-        }
-      },
-      {
-        "text": "耳机扬声器背面特写，中间位置设置有调音孔，通过防尘网覆盖。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "耳机扬声器背面特写，中间位置设置有调音孔，通过防尘网覆盖。",
-          "confidence": 0.55,
-          "source_type": "text",
-          "source_text": "耳机扬声器背面特写，中间位置设置有调音孔，通过防尘网覆盖。"
         }
       }
     ],
@@ -270,7 +322,7 @@
       "通话",
       "健身"
     ],
-    "positioning_summary": "继AirDots系列产品之后，Redmi在今年又推出了Buds系列TWS耳机，首款产品\nRedmi Buds 3真无线耳机\n突破了原有的外观，\n采用了全新的设计。",
+    "positioning_summary": "继AirDots系列产品之后，Redmi在今年又推出了Buds系列TWS耳机，首款产品小米 FlipBuds  […]\n继AirDots系列产品之后，Redmi在今年又推出了Buds系列TWS耳机，首款产品\nRedmi Buds 3真无线耳机\n突破了原有的外观，\n采用了全新的设计。",
     "launch_date": null,
     "best_report_id": "96702",
     "best_video_id": null

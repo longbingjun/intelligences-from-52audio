@@ -17,16 +17,16 @@
   "cost_snapshot": {
     "main_chip": "思远半导体SY8810",
     "pmic_case": "",
-    "battery_ear": "电池",
-    "battery_case": "155 mAh",
+    "battery_ear": "155 mAh",
+    "battery_case": "电池",
     "speaker": "喇叭单元",
-    "materials": "硅胶、塑料、PC",
-    "weight_g": "38.3克",
+    "materials": "",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "IPX5",
     "bluetooth": "5.0",
-    "bom_row_count": 13,
+    "bom_row_count": 10,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -47,7 +47,21 @@
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "USB Type-C接口支持正反盲插，可以避免错插或者误插导致的部件受损，并且拥有强大的兼容性，支持高速数据传输和大功率供电，近年来随着智能手机的普遍采用已经被大众所熟悉，目前TWS耳机充电盒也正逐步统一采用Type-C接口，方便用户使用。"
+        "source_text": "据我爱音频网拆解了解到，思远半导体的TWS耳机充电盒电源管理芯片目前已被\nOPPO、小米、realme、百度、万魔、233621、传音、魔宴、创新科技等众多知名品牌\n采用。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒内布局展示，软包电池细长，粘贴固定在主板上。"
       }
     },
     {
@@ -65,31 +79,17 @@
       }
     },
     {
-      "component": "电池",
+      "component": "麦克风",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "",
       "role": "major",
       "evidence": {
-        "value": "电池",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "我爱音频网采用ChargerLAB POWER-Z KT002便携式电源测试仪对摩托罗拉 MOTO BUDS CHARGE自带的充电线缆进行充电测试，输入功率约为0.6W，两种充电方式的输入功率没有太大差别，功率较低是因为电池电量较高。"
-      }
-    },
-    {
-      "component": "麦克风",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "包装盒侧面的图例介绍了耳机的卖点，包括：10小时续航、IPX5级防水、麦克风通话、蓝牙5.0等。"
+        "source_text": "触控区域有摩托罗拉的经典Logo，下面是通话麦克风的拾音孔和指示灯开孔。"
       }
     },
     {
@@ -121,17 +121,31 @@
       }
     },
     {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "触控区域有摩托罗拉的经典Logo，下面是通话麦克风的拾音孔和指示灯开孔。"
+      }
+    },
+    {
       "component": "指示灯",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "充电盒",
+      "side": "",
       "role": "minor",
       "evidence": {
         "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒正面展示，USB Type-C充电接口和充电线缆的接口位于同一侧，旁边有充电盒状态指示灯。"
+        "source_text": "触控区域有摩托罗拉的经典Logo，下面是通话麦克风的拾音孔和指示灯开孔。"
       }
     },
     {
@@ -139,55 +153,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "minor",
       "evidence": {
         "value": "充电触点",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "给耳机充电的Pogo Pin。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "思远半导体SY8810还集成了充电仓的智能控制管理功能，包括按键控制开关及支持HALL传感器检测充电仓开盒关盒；双路独立的耳机入仓、出仓检测功能；耳机放入自动启动充电输出-耳机充满自动关闭输出进入待机模式；多种LED指示灯UI功能-支持1~4颗LED灯状态指示。SY8810极大地简化了TWS充电仓的产品设计，无需复杂的外围电路，只需要单芯片和简单的外围被动器件，就能够实现TWS充电仓产品设计。"
-      }
-    },
-    {
-      "component": "耳挂/挂钩",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "耳挂/挂钩",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "此次摩托罗拉采用了一种新的包装风格，以深蓝色调为主，渲染图直观地展示了充电盒自带线缆的使用场景，使用手机为其供电。包装盒左上角是摩托罗拉的品牌Logo，产品名“MOTO BUDS CHARGE”真无线耳机，底部有蓝牙认证。包装盒顶部有挂钩，便于线下店铺展示。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "思远半导体SY8810",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "思远半导体SY8810",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "TPS思远半导体SY8810是一款专为TWS耳机充电仓设计的高性价比SoC芯片。"
+        "source_text": "连接蓝牙天线和触控区域的两根Pogo Pin。"
       }
     },
     {
@@ -201,21 +173,7 @@
         "value": "思远半导体SY8810",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "思远半导体SY8810采用QFN-16封装，集成了智能化的电池充放电管理功能和充电仓的控制管理功能。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "SY8810",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "SY8810",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "充电盒采用思远半导体的SY8810，集成了智能化的电池充放电管理功能和充电仓的控制管理功能，大大简化了TWS充电仓的产品设计；充电盒软包电池容量只有155mAh，由赛芯微XB5332A9B负责电池过充过放保护；充电仓内部有TVS进行防护，防止静电击穿。"
+        "source_text": "电池容量：155\n芯片 思远半导体SY8810"
       }
     }
   ],
@@ -234,13 +192,13 @@
   "market": {
     "selling_points": [
       {
-        "text": "据我爱音频网拆解了解到，思远半导体的TWS耳机充电盒电源管理芯片目前已被\nOPPO、小米、realme、百度、万魔、233621、传音、魔宴、创新科技等众多知名品牌\n采用。",
+        "text": "USB Type-C接口支持正反盲插，可以避免错插或者误插导致的部件受损，并且拥有强大的兼容性，支持高速数据传 […]\n据我爱音频网拆解了解到，思远半导体的TWS耳机充电盒电源管理芯片目前已被\nOPPO、小米、realme、百度、万魔、233621、传音、魔宴、创新科技等众多知名品牌\n采用。",
         "tag": "其他",
         "evidence": {
-          "value": "据我爱音频网拆解了解到，思远半导体的TWS耳机充电盒电源管理芯片目前已被\nOPPO、小米、realme、百度、万魔、233621、传音、魔宴、创新科技等众多知名品牌\n采用。",
+          "value": "USB Type-C接口支持正反盲插，可以避免错插或者误插导致的部件受损，并且拥有强大的兼容性，支持高速数据传 […]\n据我爱音频网拆解了解到，思远半导体的TWS耳机充电盒电源管理芯片目前已被\nOPPO、小米、realme、百度、万魔、233621、传音、魔宴、创新科技等众多知名品牌\n采用。",
           "confidence": 0.75,
           "source_type": "text",
-          "source_text": "据我爱音频网拆解了解到，思远半导体的TWS耳机充电盒电源管理芯片目前已被\nOPPO、小米、realme、百度、万魔、233621、传音、魔宴、创新科技等众多知名品牌\n采用。"
+          "source_text": "USB Type-C接口支持正反盲插，可以避免错插或者误插导致的部件受损，并且拥有强大的兼容性，支持高速数据传 […]\n据我爱音频网拆解了解到，思远半导体的TWS耳机充电盒电源管理芯片目前已被\nOPPO、小米、realme、百度、万魔、233621、传音、魔宴、创新科技等众多知名品牌\n采用。"
         }
       },
       {
@@ -252,12 +210,32 @@
           "source_type": "text",
           "source_text": "出音嘴处的防尘网特写，阻止异物进入。"
         }
+      },
+      {
+        "text": "标记/认证：软包电池的型号为BZ501035，额定电压3.7V，额定容量155mAh。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：软包电池的型号为BZ501035，额定电压3.7V，额定容量155mAh。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "标记/认证：软包电池的型号为BZ501035，额定电压3.7V，额定容量155mAh。"
+        }
+      },
+      {
+        "text": "标记/认证：耳机采用软包电池，型号NY581013P，额定电压3.7V，额定容量50mAh/0.19Wh。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：耳机采用软包电池，型号NY581013P，额定电压3.7V，额定容量50mAh/0.19Wh。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "标记/认证：耳机采用软包电池，型号NY581013P，额定电压3.7V，额定容量50mAh/0.19Wh。"
+        }
       }
     ],
     "scenarios": [
       "通话"
     ],
-    "positioning_summary": "据我爱音频网拆解了解到，思远半导体的TWS耳机充电盒电源管理芯片目前已被\nOPPO、小米、realme、百度、万魔、233621、传音、魔宴、创新科技等众多知名品牌\n采用。",
+    "positioning_summary": "USB Type-C接口支持正反盲插，可以避免错插或者误插导致的部件受损，并且拥有强大的兼容性，支持高速数据传 […]\n据我爱音频网拆解了解到，思远半导体的TWS耳机充电盒电源管理芯片目前已被\nOPPO、小米、realme、百度、万魔、233621、传音、魔宴、创新科技等众多知名品牌\n采用。",
     "launch_date": null,
     "best_report_id": "63741",
     "best_video_id": null

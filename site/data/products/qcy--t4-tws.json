@@ -1,0 +1,278 @@
+{
+  "canonical_id": "qcy--t4-tws",
+  "brand": "QCY意象",
+  "model": "T4 TWS蓝牙",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "43331"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "43331"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2020-05-08",
+  "latest_published": "2020-05-08",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "",
+    "pmic_case": "",
+    "battery_ear": "380 mAh",
+    "battery_case": "电池",
+    "speaker": "喇叭单元",
+    "materials": "硅胶",
+    "weight_g": "39.8g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.0",
+    "bom_row_count": 11,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.67,
+    "best_report_id": "43331",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒风格与T1系列相比更加多彩，左上角为QCY的品牌Logo，底部是产品名称“T4 TWS蓝牙耳机”，耳机和充电盒的渲染图占据主要位置，外圈彩色图案形似一把吉他。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒底部信息，型号：In1945，输入：5V⎓400mA，电池容量：380mAh，1.406Wh。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "电池和充电盒主板叠放在一起，用缓震泡棉间隔。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "通话拾音麦克风开孔。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "主板外侧特写，右侧是蓝牙天线。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "QCY品牌创立于2009年，以 “乐在其中” 为核心产品理念，旨在创造舒适且具有潮流性的无线产品，其中Q代表Quality品质，​​C代表Creative创造，Y代表Young年轻。QCY的产品以较高的性价比在国内乃至世界范围内都取得了不错的销量，其总公司和乐电子为小米真无线耳机提供代工服务。 此前我爱音频网曾经拆解过QCY T1S TWS蓝牙耳机（无线充电版）、QCY T1青春版真无线蓝牙耳机、QCY Q29 TWS真无线蓝牙耳机、QCY-L2主动降噪无线挂脖耳机共四款产品。此次我爱音频网要拆解的是QCY T4 TWS蓝牙耳机，与T1系列一样也是主打百元入门级真无线耳机市场的产品，不过T4主打游戏模式超低延迟功能，内置6mm动圈单元，支持安卓系统的弹窗功能，支持通话降噪、按键控制和唤醒语音助手等功能。下面就通过我们的详细拆解来看看这款产品的内部结构吧~一、QCY T4 TWS蓝牙耳机 开箱"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "QCY品牌创立于2009年，以 “乐在其中” 为核心产品理念，旨在创造舒适且具有潮流性的无线产品，其中Q代表Quality品质，​​C代表Creative创造，Y代表Young年轻。QCY的产品以较高的性价比在国内乃至世界范围内都取得了不错的销量，其总公司和乐电子为小米真无线耳机提供代工服务。 此前我爱音频网曾经拆解过QCY T1S TWS蓝牙耳机（无线充电版）、QCY T1青春版真无线蓝牙耳机、QCY Q29 TWS真无线蓝牙耳机、QCY-L2主动降噪无线挂脖耳机共四款产品。此次我爱音频网要拆解的是QCY T4 TWS蓝牙耳机，与T1系列一样也是主打百元入门级真无线耳机市场的产品，不过T4主打游戏模式超低延迟功能，内置6mm动圈单元，支持安卓系统的弹窗功能，支持通话降噪、按键控制和唤醒语音助手等功能。下面就通过我们的详细拆解来看看这款产品的内部结构吧~一、QCY T4 TWS蓝牙耳机 开箱"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面隐藏的LED指示灯开孔。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "QCY品牌创立于2009年，以 “乐在其中” 为核心产品理念，旨在创造舒适且具有潮流性的无线产品，其中Q代表Quality品质，​​C代表Creative创造，Y代表Young年轻。QCY的产品以较高的性价比在国内乃至世界范围内都取得了不错的销量，其总公司和乐电子为小米真无线耳机提供代工服务。 此前我爱音频网曾经拆解过QCY T1S TWS蓝牙耳机（无线充电版）、QCY T1青春版真无线蓝牙耳机、QCY Q29 TWS真无线蓝牙耳机、QCY-L2主动降噪无线挂脖耳机共四款产品。此次我爱音频网要拆解的是QCY T4 TWS蓝牙耳机，与T1系列一样也是主打百元入门级真无线耳机市场的产品，不过T4主打游戏模式超低延迟功能，内置6mm动圈单元，支持安卓系统的弹窗功能，支持通话降噪、按键控制和唤醒语音助手等功能。下面就通过我们的详细拆解来看看这款产品的内部结构吧~一、QCY T4 TWS蓝牙耳机 开箱"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒是比较常见的“肥皂盒”型，外壳为磨砂手感，顶部印有QCY的品牌Logo。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机内侧的充电触点，下面有L/R左右标识。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:43331"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "此次我爱音频网要拆解的是QCY T4 TWS蓝牙耳机，与T1系列一样也是主打百元入门级真无线耳机市场的产品，不过T4主打游戏模式超低延迟功能，内置6mm动圈单元，支持安卓系统的弹窗功能，支持通话降噪、按键控制和唤醒语音助手等功能。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "此次我爱音频网要拆解的是QCY T4 TWS蓝牙耳机，与T1系列一样也是主打百元入门级真无线耳机市场的产品，不过T4主打游戏模式超低延迟功能，内置6mm动圈单元，支持安卓系统的弹窗功能，支持通话降噪、按键控制和唤醒语音助手等功能。",
+          "confidence": 0.62,
+          "source_type": "text",
+          "source_text": "此次我爱音频网要拆解的是QCY T4 TWS蓝牙耳机，与T1系列一样也是主打百元入门级真无线耳机市场的产品，不过T4主打游戏模式超低延迟功能，内置6mm动圈单元，支持安卓系统的弹窗功能，支持通话降噪、按键控制和唤醒语音助手等功能。"
+        }
+      },
+      {
+        "text": "我爱音频网总结\nQCY T4 TWS蓝牙耳机与T1系列的设计风格没有太大区别，充电盒比较圆润，耳机为入耳式，体积比较小巧；QCY T4主打游戏低延时功能，点按三下可以开启游戏模式。",
+        "tag": "游戏低延迟",
+        "evidence": {
+          "value": "我爱音频网总结\nQCY T4 TWS蓝牙耳机与T1系列的设计风格没有太大区别，充电盒比较圆润，耳机为入耳式，体积比较小巧；QCY T4主打游戏低延时功能，点按三下可以开启游戏模式。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "我爱音频网总结\nQCY T4 TWS蓝牙耳机与T1系列的设计风格没有太大区别，充电盒比较圆润，耳机为入耳式，体积比较小巧；QCY T4主打游戏低延时功能，点按三下可以开启游戏模式。"
+        }
+      },
+      {
+        "text": "据我爱音频网拆解了解到，\n雷蛇战锤狂鲨真无线入耳式耳机\n、\n漫步者GM4真无线蓝牙游戏耳机\n、\nJOWAY乔威H96真无线蓝牙耳机\n均采用了原相方案，低延迟是其共同的卖点。",
+        "tag": "游戏低延迟",
+        "evidence": {
+          "value": "据我爱音频网拆解了解到，\n雷蛇战锤狂鲨真无线入耳式耳机\n、\n漫步者GM4真无线蓝牙游戏耳机\n、\nJOWAY乔威H96真无线蓝牙耳机\n均采用了原相方案，低延迟是其共同的卖点。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "据我爱音频网拆解了解到，\n雷蛇战锤狂鲨真无线入耳式耳机\n、\n漫步者GM4真无线蓝牙游戏耳机\n、\nJOWAY乔威H96真无线蓝牙耳机\n均采用了原相方案，低延迟是其共同的卖点。"
+        }
+      },
+      {
+        "text": "此外还有一些认证信息和防伪查询信息等。",
+        "tag": "其他",
+        "evidence": {
+          "value": "此外还有一些认证信息和防伪查询信息等。",
+          "confidence": 0.62,
+          "source_type": "text",
+          "source_text": "此外还有一些认证信息和防伪查询信息等。"
+        }
+      },
+      {
+        "text": "电池背面是KC认证信息。",
+        "tag": "其他",
+        "evidence": {
+          "value": "电池背面是KC认证信息。",
+          "confidence": 0.59,
+          "source_type": "text",
+          "source_text": "电池背面是KC认证信息。"
+        }
+      },
+      {
+        "text": "出音孔处有防尘网，防止异物进入。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "出音孔处有防尘网，防止异物进入。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "出音孔处有防尘网，防止异物进入。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "此次我爱音频网要拆解的是QCY T4 TWS蓝牙耳机，与T1系列一样也是主打百元入门级真无线耳机市场的产品，不过T4主打游戏模式超低延迟功能，内置6mm动圈单元，支持安卓系统的弹窗功能，支持通话降噪、按键控制和唤醒语音助手等功能。",
+    "launch_date": null,
+    "best_report_id": "43331",
+    "best_video_id": null
+  }
+}

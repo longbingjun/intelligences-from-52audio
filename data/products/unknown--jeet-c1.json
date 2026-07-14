@@ -19,18 +19,18 @@
   "latest_published": "2026-07-09",
   "internal_match_suggestions": [],
   "cost_snapshot": {
-    "main_chip": "高通CSR8645",
+    "main_chip": "Qualcomm aptX",
     "pmic_case": "",
-    "battery_ear": "1V/40mAh锂电池",
-    "battery_case": "电池",
+    "battery_ear": "电池",
+    "battery_case": "140 mAh",
     "speaker": "喇叭单元",
-    "materials": "皮革",
-    "weight_g": "14.8g",
+    "materials": "",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "IPX5",
     "bluetooth": "",
-    "bom_row_count": 14,
+    "bom_row_count": 11,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -40,34 +40,6 @@
     "best_video_id": null
   },
   "bom_table": [
-    {
-      "component": "芯片/模组",
-      "brand": "Qualcomm高通",
-      "model": "高通CSR8645",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "高通CSR8645",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "线控板内主板单元搭载了Qualcomm高通CSR8645双模ROM音频SoC，支持cVc语音处理技术和aptX编解码器技术，提供高质量的语音和音乐功能。"
-      }
-    },
-    {
-      "component": "电池",
-      "brand": "",
-      "model": "1V/40mAh锂电池",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "1V/40mAh锂电池",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "耳机采用了13mm大动圈喇叭，内置VDL紫建电子140mAh锂电池，配备有电路保护板负责充放电保护；"
-      }
-    },
     {
       "component": "主板/PCBA",
       "brand": "",
@@ -125,31 +97,17 @@
       }
     },
     {
-      "component": "天线",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "天线",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "陶瓷蓝牙天线特写，用于无线传输。"
-      }
-    },
-    {
       "component": "触控/按键",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "右耳",
+      "side": "",
       "role": "minor",
       "evidence": {
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "右耳线控板上设置有指示灯、音量加减按键和一颗多功能电源开关。"
+        "source_text": "首先拆解线控板。取掉功能按键盖板，内部设置主板单元。"
       }
     },
     {
@@ -157,13 +115,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "右耳",
+      "side": "",
       "role": "minor",
       "evidence": {
         "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "右耳线控板上设置有指示灯、音量加减按键和一颗多功能电源开关。"
+        "source_text": "腔体内部主板单元结构一览，左侧指示灯设置有橡胶罩密封，防止漏光。"
       }
     },
     {
@@ -183,6 +141,20 @@
     {
       "component": "芯片/模组",
       "brand": "",
+      "model": "高通CSR8645",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通CSR8645",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm高通CSR8645双模ROM音频SoC，集成双模蓝牙无线电，低功耗DSP，应用处理器，电池充电器，存储器以及各种音频和硬件接口，支持cVc语音处理技术和aptX编解码器技术，以基于ROM的经济型单芯片封装提供高质量的语音和音乐功能。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
       "model": "Qualcomm aptX",
       "qty_hint": "1",
       "side": "",
@@ -191,7 +163,7 @@
         "value": "Qualcomm aptX",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "在功能配置上，搭载高通CRS芯片，支持Qualcomm aptX技术，提供卓越的音质表现和11小时的持久续航，还支持IPX5防水防汗，满足运动使用需求。"
+        "source_text": "充电接口：Micro USB\n充电接口：USB-A\n标记/认证：在功能配置上，搭载高通CRS芯片，支持Qualcomm aptX技术，提供卓越的音质表现和11小时的持久续航，还支持IPX5防水防汗，满足运动使用需求。"
       }
     },
     {
@@ -205,7 +177,7 @@
         "value": "高通CRS",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "在功能配置上，搭载高通CRS芯片，支持Qualcomm aptX技术，提供卓越的音质表现和11小时的持久续航，还支持IPX5防水防汗，满足运动使用需求。"
+        "source_text": "充电接口：Micro USB\n充电接口：USB-A\n标记/认证：在功能配置上，搭载高通CRS芯片，支持Qualcomm aptX技术，提供卓越的音质表现和11小时的持久续航，还支持IPX5防水防汗，满足运动使用需求。"
       }
     },
     {
@@ -219,26 +191,12 @@
         "value": "高通CSR",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "包装盒背面介绍有产品功能特点：多用线控、持久续航、IPX5防水防汗、音质卓越和高通CSR芯片，以及制造商小捷科技（深圳）有限公司部分信息。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "高通CSR8645",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "高通CSR8645",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "Qualcomm高通CSR8645双模ROM音频SoC，集成双模蓝牙无线电，低功耗DSP，应用处理器，电池充电器，存储器以及各种音频和硬件接口，支持cVc语音处理技术和aptX编解码器技术，以基于ROM的经济型单芯片封装提供高质量的语音和音乐功能。"
+        "source_text": "标记/认证：包装盒背面介绍有产品功能特点：多用线控、持久续航、IPX5防水防汗、音质卓越和高通CSR芯片，以及制造商小捷科技（深圳）有限公司部分信息。"
       }
     }
   ],
   "summary_image_urls": [],
-  "summary_text": "三、我爱音频网总结 JEET C1颈挂式蓝牙耳机在外观设计方面，白色配色观感时尚简约。耳机小巧紧凑，圆润质感佩戴舒适亲肤；整机重量也仅为14.8g，运动佩戴轻盈无感；还专门配备有领夹，防止佩戴使用时晃动或未使用时掉落遗失。耳机线控三大按键，满足各项功能控制。 内部主要配置方面，耳机采用了13mm大动圈喇叭，内置VDL紫建电子140mAh锂电池，配备有电路保护板负责充放电保护；线控板内主板单元搭载了Qualcomm高通CSR8645双模ROM音频SoC，支持cVc语音处理技术和aptX编解码器技术，提供高质量的语音和音乐功能。",
+  "summary_text": "",
   "layer_refs": {
     "technical": [
       "report:157904",
@@ -253,13 +211,43 @@
   "market": {
     "selling_points": [
       {
-        "text": "侧边充电接口，采用防尘塞防护，贴有标签提示“支持IPX5级防水，充电后请盖紧USB口”。",
+        "text": "标记/认证：侧边充电接口，采用防尘塞防护，贴有标签提示“支持IPX5级防水，充电后请盖紧USB口”。",
         "tag": "防水防尘",
         "evidence": {
-          "value": "侧边充电接口，采用防尘塞防护，贴有标签提示“支持IPX5级防水，充电后请盖紧USB口”。",
+          "value": "标记/认证：侧边充电接口，采用防尘塞防护，贴有标签提示“支持IPX5级防水，充电后请盖紧USB口”。",
           "confidence": 0.55,
           "source_type": "text",
-          "source_text": "侧边充电接口，采用防尘塞防护，贴有标签提示“支持IPX5级防水，充电后请盖紧USB口”。"
+          "source_text": "标记/认证：侧边充电接口，采用防尘塞防护，贴有标签提示“支持IPX5级防水，充电后请盖紧USB口”。"
+        }
+      },
+      {
+        "text": "JEET隶属于小捷科技（泰捷），是一个以“音价比、无设计、务实、有取有舍和坚持原则”为产品理念的蓝牙耳机品牌， […]\n侧边充电接口，采用防尘塞防护，贴有标签提示“支持IPX5级防水，充电后请盖紧USB口”。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "JEET隶属于小捷科技（泰捷），是一个以“音价比、无设计、务实、有取有舍和坚持原则”为产品理念的蓝牙耳机品牌， […]\n侧边充电接口，采用防尘塞防护，贴有标签提示“支持IPX5级防水，充电后请盖紧USB口”。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "JEET隶属于小捷科技（泰捷），是一个以“音价比、无设计、务实、有取有舍和坚持原则”为产品理念的蓝牙耳机品牌， […]\n侧边充电接口，采用防尘塞防护，贴有标签提示“支持IPX5级防水，充电后请盖紧USB口”。"
+        }
+      },
+      {
+        "text": "充电接口：侧边充电接口，采用防尘塞防护，贴有标签提示“支持IPX5级防水，充电后请盖紧USB口”。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "充电接口：侧边充电接口，采用防尘塞防护，贴有标签提示“支持IPX5级防水，充电后请盖紧USB口”。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "充电接口：侧边充电接口，采用防尘塞防护，贴有标签提示“支持IPX5级防水，充电后请盖紧USB口”。"
+        }
+      },
+      {
+        "text": "标记/认证：耳机内置锂电池型号：VDL 500838，电压：3.7V，容量：140mAh 0.52Wh，来自VDL紫建电子。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：耳机内置锂电池型号：VDL 500838，电压：3.7V，容量：140mAh 0.52Wh，来自VDL紫建电子。",
+          "confidence": 0.69,
+          "source_type": "text",
+          "source_text": "标记/认证：耳机内置锂电池型号：VDL 500838，电压：3.7V，容量：140mAh 0.52Wh，来自VDL紫建电子。"
         }
       },
       {
@@ -281,23 +269,12 @@
           "source_type": "text",
           "source_text": "耳机出音嘴特写，金属防尘网防护，防止异物进入音腔。"
         }
-      },
-      {
-        "text": "掀开防尘塞，内部Micro USB接口特写。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "掀开防尘塞，内部Micro USB接口特写。",
-          "confidence": 0.56,
-          "source_type": "text",
-          "source_text": "掀开防尘塞，内部Micro USB接口特写。"
-        }
       }
     ],
     "scenarios": [
-      "运动",
-      "通话"
+      "运动"
     ],
-    "positioning_summary": "侧边充电接口，采用防尘塞防护，贴有标签提示“支持IPX5级防水，充电后请盖紧USB口”。",
+    "positioning_summary": "标记/认证：侧边充电接口，采用防尘塞防护，贴有标签提示“支持IPX5级防水，充电后请盖紧USB口”。",
     "launch_date": null,
     "best_report_id": "157904",
     "best_video_id": null

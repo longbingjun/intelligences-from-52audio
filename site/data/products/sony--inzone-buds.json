@@ -1,0 +1,326 @@
+{
+  "canonical_id": "sony--inzone-buds",
+  "brand": "SONY索尼",
+  "model": "INZONE Buds无线降噪游戏",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "187168"
+  ],
+  "video_ids": [
+    "230996"
+  ],
+  "related_report_ids": [
+    "187168"
+  ],
+  "related_video_ids": [
+    "230996"
+  ],
+  "first_seen": "2024-01-15",
+  "latest_published": "2025-03-12",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "AB1565",
+    "pmic_case": "",
+    "battery_ear": "450 mAh",
+    "battery_case": "4V/50mAh锂电池",
+    "speaker": "喇叭单元",
+    "materials": "硅胶、塑料、PC",
+    "weight_g": "65.2g",
+    "weight_case_g": "",
+    "weight_earbud_g": "6.5g",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 14,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "187168",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "4V/50mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "4V/50mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置紫建电子450mAh可充电锂离子电池组，采用了TI德州仪器BQ25618充电IC，集成了开关充电，同步升压转换器和电压保护功能，用于为内置锂电池充电，以及为耳机充电；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB1565",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB1565",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "适配器内部无线模组采用了AIROHA达发（络达）AB1565D蓝牙音频SoC，用于与耳机2.4G无线通讯，且支持LE audio音频技术。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "2",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载ZeniPower至力0.366Wh钢壳扣式电池，采用了8.4mm驱动单元X和两颗MEMS麦克风，采用红外距离传感器用于入耳检测功能，采用索尼L1低功耗处理器，用于无线连接和音频数据处理。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒底部印有产品的参数信息，索尼公司，型号：YY2977，电池参数：3.85V/450mAh/1.73Wh。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，通过支架固定主板和电池单元，电池覆盖有海绵垫防护。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒内部物品有充电盒、耳机、耳塞、充电线、品牌贴纸、参考指南和保修卡。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机外侧外观一览，采用了亮面处理，耳机柄较为宽厚，上方设计有“SONY”LOGO，下方有较大的圆形麦克风拾音孔金属盖板。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "INZONE是索尼（SONY）旗下的电竞品牌，目前已相继推出了INZONE H9、INZONE H7、INZONE H5、INZONE H3头戴式电竞耳机，以及INZONE Buds旗舰降噪真无线耳机，基于低延迟无线连接、主动降噪、360游戏空间音效等核心功能，为游戏玩家打造沉浸式的流畅游戏体验。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧结构一览，印刷有蓝牙天线和触摸检测电极。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机前腔内部扬声器单元结构一览。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面开盖处设置有便于开启的凹槽，机身上设置有一颗指示灯，用于反馈蓝牙配对及充电状态。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒背面设置Type-C充电接口和蓝牙配对功能按键。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB1565",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB1565",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "AIROHA达发（络达）AB1565D蓝牙音频SoC。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 索尼INZONE Buds无线降噪游戏耳机在外观方面非常的有特色，充电盒设计紧凑，内部容纳了耳机和适配器，外出使用便携。柄状的入耳式耳机，黑白撞色设计，亮面+哑光工艺处理，极具质感和辨识度；并且基于游戏长时间佩戴需求设计的新入耳结构，减少了与耳朵接触，搭配四种尺寸的耳塞，提供了个性化的舒适佩戴体验。 内部主要配置方面，充电盒内置紫建电子450mAh可充电锂离子电池组，采用了TI德州仪器BQ25618充电IC，集成了开关充电，同步升压转换器和电压保护功能，用于为内置锂电池充电，以及为耳机充电；采用了NXP恩智浦K32 L2B系列微控制器，负责充电盒整机控制。 耳机内部搭载ZeniPower至力0.366Wh钢壳扣式电池，采用了8.4mm驱动单元X和两颗MEMS麦克风，采用红外距离传感器用于入耳检测功能，采用索尼L1低功耗处理器，用于无线连接和音频数据处理。适配器内部无线模组采用了AIROHA达发（络达）AB1565D蓝牙音频SoC，用于与耳机2.4G无线通讯，且支持LE audio音频技术。",
+  "layer_refs": {
+    "technical": [
+      "report:187168",
+      "video:230996"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "INZONE是索尼（SONY）旗下的电竞品牌，目前已相继推出了\nINZONE H9\n、\nINZONE H7\n、\nINZONE H5\n、\nINZONE H3\n头戴式电竞耳机，以及\nINZONE Buds旗舰降噪真无线耳机\n，基于低延迟无线连接、主动降噪、360游戏空间音效等核心功能，为游戏玩家打造沉浸式的流畅游戏体验。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "INZONE是索尼（SONY）旗下的电竞品牌，目前已相继推出了\nINZONE H9\n、\nINZONE H7\n、\nINZONE H5\n、\nINZONE H3\n头戴式电竞耳机，以及\nINZONE Buds旗舰降噪真无线耳机\n，基于低延迟无线连接、主动降噪、360游戏空间音效等核心功能，为游戏玩家打造沉浸式的流畅游戏体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "INZONE是索尼（SONY）旗下的电竞品牌，目前已相继推出了\nINZONE H9\n、\nINZONE H7\n、\nINZONE H5\n、\nINZONE H3\n头戴式电竞耳机，以及\nINZONE Buds旗舰降噪真无线耳机\n，基于低延迟无线连接、主动降噪、360游戏空间音效等核心功能，为游戏玩家打造沉浸式的流畅游戏体验。"
+        }
+      },
+      {
+        "text": "在游戏体验方面，INZONE Buds支持360游戏空间音效，可将声音虚拟输出为7.1声道，带来更精准的声场定位和更沉浸式的体验；新增空间音效个性化功能，包括声场个性化和声调个性化，提供更适合自己的空间音频聆听体验。",
+        "tag": "空间音频",
+        "evidence": {
+          "value": "在游戏体验方面，INZONE Buds支持360游戏空间音效，可将声音虚拟输出为7.1声道，带来更精准的声场定位和更沉浸式的体验；新增空间音效个性化功能，包括声场个性化和声调个性化，提供更适合自己的空间音频聆听体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "在游戏体验方面，INZONE Buds支持360游戏空间音效，可将声音虚拟输出为7.1声道，带来更精准的声场定位和更沉浸式的体验；新增空间音效个性化功能，包括声场个性化和声调个性化，提供更适合自己的空间音频聆听体验。"
+        }
+      },
+      {
+        "text": "INZONE Buds还采用了双噪声传感器技术，支持主动降噪功能，支持20级可调节环境声；搭载深度神经网络学习（DNN）技术，支持AI通话降噪，游戏语音通话让人声更清晰。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "INZONE Buds还采用了双噪声传感器技术，支持主动降噪功能，支持20级可调节环境声；搭载深度神经网络学习（DNN）技术，支持AI通话降噪，游戏语音通话让人声更清晰。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "INZONE Buds还采用了双噪声传感器技术，支持主动降噪功能，支持20级可调节环境声；搭载深度神经网络学习（DNN）技术，支持AI通话降噪，游戏语音通话让人声更清晰。"
+        }
+      },
+      {
+        "text": "取掉耳塞，耳机出音嘴特写，防尘网防护，内部还设置有降噪麦克风，用于从耳道内部拾音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "取掉耳塞，耳机出音嘴特写，防尘网防护，内部还设置有降噪麦克风，用于从耳道内部拾音。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "取掉耳塞，耳机出音嘴特写，防尘网防护，内部还设置有降噪麦克风，用于从耳道内部拾音。"
+        }
+      },
+      {
+        "text": "镭雕M3 37696的MEMS麦克风特写，用于从耳道内部拾音，两颗麦克风协同，提供更精准的主动降噪和更清晰的语音通话效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "镭雕M3 37696的MEMS麦克风特写，用于从耳道内部拾音，两颗麦克风协同，提供更精准的主动降噪和更清晰的语音通话效果。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "镭雕M3 37696的MEMS麦克风特写，用于从耳道内部拾音，两颗麦克风协同，提供更精准的主动降噪和更清晰的语音通话效果。"
+        }
+      },
+      {
+        "text": "镭雕M3 37612的MEMS麦克风特写，用于语音通话和主动降噪功能拾音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "镭雕M3 37612的MEMS麦克风特写，用于语音通话和主动降噪功能拾音。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "镭雕M3 37612的MEMS麦克风特写，用于语音通话和主动降噪功能拾音。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话",
+      "电竞"
+    ],
+    "positioning_summary": "INZONE是索尼（SONY）旗下的电竞品牌，目前已相继推出了\nINZONE H9\n、\nINZONE H7\n、\nINZONE H5\n、\nINZONE H3\n头戴式电竞耳机，以及\nINZONE Buds旗舰降噪真无线耳机\n，基于低延迟无线连接、主动降噪、360游戏空间音效等核心功能，为游戏玩家打造沉浸式的流畅游戏体验。",
+    "launch_date": null,
+    "best_report_id": "187168",
+    "best_video_id": null
+  }
+}

@@ -12,7 +12,7 @@
   "author": "Wen5",
   "summary": "omthing是万魔声学旗下的子品牌，专注于为用户提供简约设计与高实用性集一身的智能数码及周边产品。近日，om […]",
   "captured_at": "2026-07-14T02:10:10+00:00",
-  "data_completeness": 0.774,
+  "data_completeness": 0.752,
   "views": {
     "market": {
       "brand": "",
@@ -22,6 +22,16 @@
       "price_cny": null,
       "price_note": "",
       "selling_points": [
+        {
+          "text": "近日，om […]\n近日，omthing推出了首款支持主动降噪的TWS耳机产品——omthing AirFree2真无线耳机，在外观质感和功能配置上均进行了全面升级。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "近日，om […]\n近日，omthing推出了首款支持主动降噪的TWS耳机产品——omthing AirFree2真无线耳机，在外观质感和功能配置上均进行了全面升级。",
+            "confidence": 0.75,
+            "source_type": "text",
+            "source_text": "近日，om […]\n近日，omthing推出了首款支持主动降噪的TWS耳机产品——omthing AirFree2真无线耳机，在外观质感和功能配置上均进行了全面升级。"
+          }
+        },
         {
           "text": "近日，omthing推出了首款支持主动降噪的TWS耳机产品——omthing AirFree2真无线耳机，在外观质感和功能配置上均进行了全面升级。",
           "tag": "降噪",
@@ -51,23 +61,33 @@
             "source_type": "text",
             "source_text": "三、我爱音频网总结\nomthing AirFree2 真无线降噪耳机在外观上双色碰撞设计，观感简约时尚，且使得整机更加的活泼不拘束。"
           }
+        },
+        {
+          "text": "标记/认证：充电盒底部印制信息有产品型号：EO006，输入：5V-600mA，输出：5V-130mA，充电盒容量：410mAh/1.52Wh，中国制造。",
+          "tag": "其他",
+          "evidence": {
+            "value": "标记/认证：充电盒底部印制信息有产品型号：EO006，输入：5V-600mA，输出：5V-130mA，充电盒容量：410mAh/1.52Wh，中国制造。",
+            "confidence": 0.69,
+            "source_type": "text",
+            "source_text": "标记/认证：充电盒底部印制信息有产品型号：EO006，输入：5V-600mA，输出：5V-130mA，充电盒容量：410mAh/1.52Wh，中国制造。"
+          }
         }
       ],
       "scenarios": [
         "通话"
       ],
-      "positioning_summary": "近日，omthing推出了首款支持主动降噪的TWS耳机产品——omthing AirFree2真无线耳机，在外观质感和功能配置上均进行了全面升级。",
+      "positioning_summary": "近日，om […]\n近日，omthing推出了首款支持主动降噪的TWS耳机产品——omthing AirFree2真无线耳机，在外观质感和功能配置上均进行了全面升级。",
       "launch_date_evidence": null,
       "price_evidence": null
     },
     "cost": {
       "major_parts": [
-        "充电仓",
-        "主板/PCBA",
         "电池",
+        "主板/PCBA",
         "降噪系统",
         "喇叭单元",
         "麦克风",
+        "充电仓",
         "天线"
       ],
       "chip_modules": [
@@ -130,17 +150,17 @@
       ],
       "bom_table": [
         {
-          "component": "充电仓",
+          "component": "电池",
           "brand": "",
           "model": "",
           "qty_hint": "",
-          "side": "充电盒",
+          "side": "",
           "role": "major",
           "evidence": {
-            "value": "充电仓",
+            "value": "电池",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "充电盒内物品有耳机、充电线、耳塞和产品说明书。"
+            "source_text": "底部是无线充电接收线圈，电池位于中间位置，起到很好的保护作用。"
           }
         },
         {
@@ -158,20 +178,6 @@
           }
         },
         {
-          "component": "电池",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "",
-          "role": "major",
-          "evidence": {
-            "value": "电池",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "底部是无线充电接收线圈，电池位于中间位置，起到很好的保护作用。"
-          }
-        },
-        {
           "component": "降噪系统",
           "brand": "",
           "model": "",
@@ -182,7 +188,7 @@
             "value": "降噪系统",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "omthing是万魔声学旗下的子品牌，专注于为用户提供简约设计与高实用性集一身的智能数码及周边产品。近日，omthing推出了首款支持主动降噪的TWS耳机产品——omthing AirFree2真无线耳机，在外观质感和功能配置上均进行了全面升级。"
+            "source_text": "近日，omthing推出了首款支持主动降噪的TWS耳机产品——omthing AirFree2真无线耳机，在外观质感和功能配置上均进行了全面升级。"
           }
         },
         {
@@ -204,13 +210,27 @@
           "brand": "",
           "model": "",
           "qty_hint": "",
-          "side": "耳机",
+          "side": "",
           "role": "major",
           "evidence": {
             "value": "麦克风",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "耳机柄背部特写，银色配色，左右两端为通话拾音和降噪麦克风开孔，中间设计有“omthing”品牌LOGO。"
+            "source_text": "新港电子2718上进音降噪麦克风，型号是SA2718T421-NB01，用于主动降噪和通话降噪拾取外部环境噪音。"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒内物品有耳机、充电线、耳塞和产品说明书。"
           }
         },
         {
@@ -228,59 +248,17 @@
           }
         },
         {
-          "component": "指示灯",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "minor",
-          "evidence": {
-            "value": "指示灯",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "omthing AirFree2 真无线降噪耳机充电盒整体外观一览，充电盒盖和耳机座舱分别采用了两种工艺处理。正面设置有一颗指示灯，用于反馈充电盒剩余电量状态。"
-          }
-        },
-        {
-          "component": "触控/按键",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "充电盒",
-          "role": "minor",
-          "evidence": {
-            "value": "触控/按键",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "打开充电盒盖，内部设置有一颗蓝牙配对功能按键，两侧有L/R左右标识。"
-          }
-        },
-        {
           "component": "外壳结构",
           "brand": "",
           "model": "",
           "qty_hint": "",
-          "side": "",
+          "side": "耳机",
           "role": "minor",
           "evidence": {
             "value": "外壳结构",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "前腔内光学入耳检测传感器黑色滤镜特写。"
-          }
-        },
-        {
-          "component": "充电触点",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "minor",
-          "evidence": {
-            "value": "充电触点",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "耳机上金属充电触点特写。"
+            "source_text": "扬声器单元正面特写，胶水固定到耳机腔体内，金属外壳保护。"
           }
         },
         {
@@ -308,35 +286,7 @@
             "value": "高通aptX",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "另外一侧展示了支持蓝牙5.2，支持快充、无线充电功能，以及高通aptX音频解码标志。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "QCC304",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "QCC304",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "QCC304x支持蓝牙V5.2，支持高通aptX\nAdaptive音频编码，集稳定性、好音质、可扩展性、低时延和低比特率音频传输等增强特性于一身。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "高通TrueWireless",
-          "qty_hint": "1",
-          "side": "右耳",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "高通TrueWireless",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "支持高通TrueWireless\nMirroring技术，左右耳塞可以在多个使用场景下快速切换。"
+            "source_text": "充电方式：另外一侧展示了支持蓝牙5.2，支持快充、无线充电功能，以及高通aptX音频解码标志。"
           }
         }
       ],
@@ -344,26 +294,7 @@
       "packaging_notes": [
         "充电盒内物品有耳机、充电线、耳塞和产品说明书。"
       ],
-      "process_hints": [
-        {
-          "value": "电池配备有电路保护板和\n一体化\n保护IC\n，保护板上还有热敏电阻进行温度检测\n。",
-          "evidence": {
-            "value": "电池配备有电路保护板和\n一体化\n保护IC\n，保护板上还有热敏电阻进行温度检测\n。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "电池配备有电路保护板和\n一体化\n保护IC\n，保护板上还有热敏电阻进行温度检测\n。"
-          }
-        },
-        {
-          "value": "腔体壁上主控芯片位置贴有\n屏蔽贴纸\n，底部充电触点直接焊接在主板上。",
-          "evidence": {
-            "value": "腔体壁上主控芯片位置贴有\n屏蔽贴纸\n，底部充电触点直接焊接在主板上。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "腔体壁上主控芯片位置贴有\n屏蔽贴纸\n，底部充电触点直接焊接在主板上。"
-          }
-        }
-      ],
+      "process_hints": [],
       "summary_image_urls": [],
       "summary_text": ""
     },
@@ -371,35 +302,16 @@
       "form_factor": "真无线耳机TWS",
       "earbud_type": "入耳",
       "materials": [
-        "硅胶",
         "PC"
       ],
       "ip_rating": "IPX5",
-      "weight_g": "48.5g",
+      "weight_g": null,
       "dimensions": [
         "功能配置上搭载了7mm石墨烯振膜动圈单元，高通QCC3040蓝牙芯片，支持蓝牙5.2，AAC、aptX高音质解码；支持ANC主动降噪和四麦智能通话降噪，以及无线充电等。",
-        "三副不同尺寸的硅胶耳塞。",
-        "经我爱音频网实测，扬声器单元尺寸约为7mm。"
+        "功能配置上搭载了7mm石墨烯振膜动圈单元，高通QCC3040蓝牙芯片，支持蓝牙5.2，AAC、aptX高音质解码；支持ANC主动降噪和四麦智能通话降噪，以及无线充电等。",
+        "充电方式：功能配置上搭载了7mm石墨烯振膜动圈单元，高通QCC3040蓝牙芯片，支持蓝牙5.2，AAC、aptX高音质解码；支持ANC主动降噪和四麦智能通话降噪，以及无线充电等。"
       ],
       "internal_structure": [
-        {
-          "value": "omthing AirFree2真无线耳机采用了撞色设计，整体观感简约时尚。耳机为柄状的入耳式设计，机身体积小巧轻盈。功能配置上搭载了7mm石墨烯振膜动圈单元，高通QCC3040蓝牙芯片，支持蓝牙5.2，AAC、aptX高音质解码；支持ANC主动降噪和四麦智能通话降噪，以及无线充电等。",
-          "evidence": {
-            "value": "omthing AirFree2真无线耳机采用了撞色设计，整体观感简约时尚。耳机为柄状的入耳式设计，机身体积小巧轻盈。功能配置上搭载了7mm石墨烯振膜动圈单元，高通QCC3040蓝牙芯片，支持蓝牙5.2，AAC、aptX高音质解码；支持ANC主动降噪和四麦智能通话降噪，以及无线充电等。",
-            "confidence": 0.74,
-            "source_type": "text",
-            "source_text": "omthing AirFree2真无线耳机采用了撞色设计，整体观感简约时尚。耳机为柄状的入耳式设计，机身体积小巧轻盈。功能配置上搭载了7mm石墨烯振膜动圈单元，高通QCC3040蓝牙芯片，支持蓝牙5.2，AAC、aptX高音质解码；支持ANC主动降噪和四麦智能通话降噪，以及无线充电等。"
-          }
-        },
-        {
-          "value": "框架顶部固定主板单元，主板下方贴有一条FPC排线，通过ZIF连接器连接到主板，排线两端是充电顶针。",
-          "evidence": {
-            "value": "框架顶部固定主板单元，主板下方贴有一条FPC排线，通过ZIF连接器连接到主板，排线两端是充电顶针。",
-            "confidence": 0.74,
-            "source_type": "text",
-            "source_text": "框架顶部固定主板单元，主板下方贴有一条FPC排线，通过ZIF连接器连接到主板，排线两端是充电顶针。"
-          }
-        },
         {
           "value": "底部是无线充电接收线圈，电池位于中间位置，起到很好的保护作用。",
           "evidence": {
@@ -419,21 +331,39 @@
           }
         },
         {
-          "value": "omthing是万魔声学旗下的子品牌，专注于为用户提供简约设计与高实用性集一身的智能数码及周边产品。近日，omthing推出了首款支持主动降噪的TWS耳机产品——omthing AirFree2真无线耳机，在外观质感和功能配置上均进行了全面升级。",
+          "value": "omthing AirFree2真无线耳机采用了撞色设计，整体观感简约时尚。耳机为柄状的入耳式设计，机身体积小巧轻盈。功能配置上搭载了7mm石墨烯振膜动圈单元，高通QCC3040蓝牙芯片，支持蓝牙5.2，AAC、aptX高音质解码；支持ANC主动降噪和四麦智能通话降噪，以及无线充电等。",
           "evidence": {
-            "value": "omthing是万魔声学旗下的子品牌，专注于为用户提供简约设计与高实用性集一身的智能数码及周边产品。近日，omthing推出了首款支持主动降噪的TWS耳机产品——omthing AirFree2真无线耳机，在外观质感和功能配置上均进行了全面升级。",
+            "value": "omthing AirFree2真无线耳机采用了撞色设计，整体观感简约时尚。耳机为柄状的入耳式设计，机身体积小巧轻盈。功能配置上搭载了7mm石墨烯振膜动圈单元，高通QCC3040蓝牙芯片，支持蓝牙5.2，AAC、aptX高音质解码；支持ANC主动降噪和四麦智能通话降噪，以及无线充电等。",
             "confidence": 0.74,
             "source_type": "text",
-            "source_text": "omthing是万魔声学旗下的子品牌，专注于为用户提供简约设计与高实用性集一身的智能数码及周边产品。近日，omthing推出了首款支持主动降噪的TWS耳机产品——omthing AirFree2真无线耳机，在外观质感和功能配置上均进行了全面升级。"
+            "source_text": "omthing AirFree2真无线耳机采用了撞色设计，整体观感简约时尚。耳机为柄状的入耳式设计，机身体积小巧轻盈。功能配置上搭载了7mm石墨烯振膜动圈单元，高通QCC3040蓝牙芯片，支持蓝牙5.2，AAC、aptX高音质解码；支持ANC主动降噪和四麦智能通话降噪，以及无线充电等。"
           }
         },
         {
-          "value": "扬声器单元正面特写，胶水固定到耳机腔体内，金属外壳保护。",
+          "value": "框架顶部固定主板单元，主板下方贴有一条FPC排线，通过ZIF连接器连接到主板，排线两端是充电顶针。",
           "evidence": {
-            "value": "扬声器单元正面特写，胶水固定到耳机腔体内，金属外壳保护。",
+            "value": "框架顶部固定主板单元，主板下方贴有一条FPC排线，通过ZIF连接器连接到主板，排线两端是充电顶针。",
             "confidence": 0.74,
             "source_type": "text",
-            "source_text": "扬声器单元正面特写，胶水固定到耳机腔体内，金属外壳保护。"
+            "source_text": "框架顶部固定主板单元，主板下方贴有一条FPC排线，通过ZIF连接器连接到主板，排线两端是充电顶针。"
+          }
+        },
+        {
+          "value": "近日，omthing推出了首款支持主动降噪的TWS耳机产品——omthing AirFree2真无线耳机，在外观质感和功能配置上均进行了全面升级。",
+          "evidence": {
+            "value": "近日，omthing推出了首款支持主动降噪的TWS耳机产品——omthing AirFree2真无线耳机，在外观质感和功能配置上均进行了全面升级。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "近日，omthing推出了首款支持主动降噪的TWS耳机产品——omthing AirFree2真无线耳机，在外观质感和功能配置上均进行了全面升级。"
+          }
+        },
+        {
+          "value": "新港电子2718上进音降噪麦克风，型号是SA2718T421-NB01，用于主动降噪和通话降噪拾取外部环境噪音。",
+          "evidence": {
+            "value": "新港电子2718上进音降噪麦克风，型号是SA2718T421-NB01，用于主动降噪和通话降噪拾取外部环境噪音。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "新港电子2718上进音降噪麦克风，型号是SA2718T421-NB01，用于主动降噪和通话降噪拾取外部环境噪音。"
           }
         },
         {
@@ -457,68 +387,23 @@
       ],
       "fastener_type": [
         {
-          "value": "腔体底部框架通过四颗螺丝固定在壳体上。",
+          "value": "扬声器单元正面特写，胶水固定到耳机腔体内，金属外壳保护。",
           "evidence": {
-            "value": "腔体底部框架通过四颗螺丝固定在壳体上。",
+            "value": "扬声器单元正面特写，胶水固定到耳机腔体内，金属外壳保护。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "腔体底部框架通过四颗螺丝固定在壳体上。"
-          }
-        },
-        {
-          "value": "卸掉螺丝取出充电盒内元器件。",
-          "evidence": {
-            "value": "卸掉螺丝取出充电盒内元器件。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "卸掉螺丝取出充电盒内元器件。"
-          }
-        },
-        {
-          "value": "扬声器单元正面特写，\n胶水固定到耳机腔体内，金属外壳保护。",
-          "evidence": {
-            "value": "扬声器单元正面特写，\n胶水固定到耳机腔体内，金属外壳保护。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "扬声器单元正面特写，\n胶水固定到耳机腔体内，金属外壳保护。"
+            "source_text": "扬声器单元正面特写，胶水固定到耳机腔体内，金属外壳保护。"
           }
         }
       ],
       "sealing_method": [
         {
-          "value": "包装盒一侧图文展示了ANC主动降噪、ENC四麦通话降噪、IPX5防水等级三项亮点和蓝牙标志。",
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：包装盒一侧图文展示了ANC主动降噪、ENC四麦通话降噪、IPX5防水等级三项亮点和蓝牙标志。",
           "evidence": {
-            "value": "包装盒一侧图文展示了ANC主动降噪、ENC四麦通话降噪、IPX5防水等级三项亮点和蓝牙标志。",
+            "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：包装盒一侧图文展示了ANC主动降噪、ENC四麦通话降噪、IPX5防水等级三项亮点和蓝牙标志。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "包装盒一侧图文展示了ANC主动降噪、ENC四麦通话降噪、IPX5防水等级三项亮点和蓝牙标志。"
-          }
-        },
-        {
-          "value": "耳机出音嘴特写，金属网罩防护，内部还覆盖有一层防尘网。",
-          "evidence": {
-            "value": "耳机出音嘴特写，金属网罩防护，内部还覆盖有一层防尘网。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "耳机出音嘴特写，金属网罩防护，内部还覆盖有一层防尘网。"
-          }
-        },
-        {
-          "value": "出音管侧边还设置有一颗调音孔，内部防尘网防护。",
-          "evidence": {
-            "value": "出音管侧边还设置有一颗调音孔，内部防尘网防护。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "出音管侧边还设置有一颗调音孔，内部防尘网防护。"
-          }
-        },
-        {
-          "value": "扬声器单元背部特写，设置有一个调音孔，\n贴\n防尘网防护。",
-          "evidence": {
-            "value": "扬声器单元背部特写，设置有一个调音孔，\n贴\n防尘网防护。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "扬声器单元背部特写，设置有一个调音孔，\n贴\n防尘网防护。"
+            "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：包装盒一侧图文展示了ANC主动降噪、ENC四麦通话降噪、IPX5防水等级三项亮点和蓝牙标志。"
           }
         }
       ],
@@ -531,77 +416,14 @@
             "source_type": "text",
             "source_text": "充电盒内物品有耳机、充电线、耳塞和产品说明书。"
           }
-        },
-        {
-          "value": "三副不同尺寸的硅胶耳塞。",
-          "evidence": {
-            "value": "三副不同尺寸的硅胶耳塞。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "三副不同尺寸的硅胶耳塞。"
-          }
-        },
-        {
-          "value": "佩戴耳塞的单只耳机重量仅约为4.1g，非常的轻盈，提升佩戴的舒适性。",
-          "evidence": {
-            "value": "佩戴耳塞的单只耳机重量仅约为4.1g，非常的轻盈，提升佩戴的舒适性。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "佩戴耳塞的单只耳机重量仅约为4.1g，非常的轻盈，提升佩戴的舒适性。"
-          }
-        },
-        {
-          "value": "红外光学距离传感器特写，用于入耳检测功能，实现摘取自动暂停、佩戴自动恢复播放。",
-          "evidence": {
-            "value": "红外光学距离传感器特写，用于入耳检测功能，实现摘取自动暂停、佩戴自动恢复播放。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "红外光学距离传感器特写，用于入耳检测功能，实现摘取自动暂停、佩戴自动恢复播放。"
-          }
         }
       ],
-      "key_image_urls": [
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/10/2021102201120163.png",
-          "alt": "拆解报告：omthing AirFree2 真无线降噪耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/10/2021102201120421.png",
-          "alt": "拆解报告：omthing AirFree2 真无线降噪耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/10/2021102201120765.png",
-          "alt": "拆解报告：omthing AirFree2 真无线降噪耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/10/2021102201120919.png",
-          "alt": "拆解报告：omthing AirFree2 真无线降噪耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/10/2021102201121187.png",
-          "alt": "拆解报告：omthing AirFree2 真无线降噪耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        }
-      ],
+      "key_image_urls": [],
       "assembly_notes": [
-        "omthing AirFree2真无线耳机采用了撞色设计，整体观感简约时尚。耳机为柄状的入耳式设计，机身体积小巧轻盈。功能配置上搭载了7mm石墨烯振膜动圈单元，高通QCC3040蓝牙芯片，支持蓝牙5.2，AAC、aptX高音质解码；支持ANC主动降噪和四麦智能通话降噪，以及无线充电等。",
-        "框架顶部固定主板单元，主板下方贴有一条FPC排线，通过ZIF连接器连接到主板，排线两端是充电顶针。",
         "底部是无线充电接收线圈，电池位于中间位置，起到很好的保护作用。",
-        "主板、电池和无线充电接收线圈电路一览。"
+        "主板、电池和无线充电接收线圈电路一览。",
+        "omthing AirFree2真无线耳机采用了撞色设计，整体观感简约时尚。耳机为柄状的入耳式设计，机身体积小巧轻盈。功能配置上搭载了7mm石墨烯振膜动圈单元，高通QCC3040蓝牙芯片，支持蓝牙5.2，AAC、aptX高音质解码；支持ANC主动降噪和四麦智能通话降噪，以及无线充电等。",
+        "框架顶部固定主板单元，主板下方贴有一条FPC排线，通过ZIF连接器连接到主板，排线两端是充电顶针。"
       ],
       "ip_rating_evidence": {
         "value": "IPX5",
@@ -609,12 +431,11 @@
         "source_type": "text",
         "source_text": "IPX5"
       },
-      "weight_evidence": {
-        "value": "48.5g",
-        "confidence": 0.75,
-        "source_type": "text",
-        "source_text": "48.5g"
-      }
+      "weight_evidence": null,
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": null,
+      "weight_earbud_evidence": null
     },
     "hardware": {
       "specs": [
@@ -626,33 +447,6 @@
           "model": "",
           "confidence": 0.75,
           "source_ref": "功能配置上搭载了7mm石墨烯振膜动圈单元，高通QCC3040蓝牙芯片，支持蓝牙5.2，AAC、aptX高音质解码；支持ANC主动降噪和四麦智能通话降噪，以及无线充电等。"
-        },
-        {
-          "param": "充电方式",
-          "value": "另外一侧展示了支持蓝牙5.2，支持快充、无线充电功能，以及高通aptX音频解码标志。",
-          "unit": "",
-          "brand": "",
-          "model": "",
-          "confidence": 0.75,
-          "source_ref": "另外一侧展示了支持蓝牙5.2，支持快充、无线充电功能，以及高通aptX音频解码标志。"
-        },
-        {
-          "param": "充电方式",
-          "value": "我爱音频网采用\nChargerLAB POWER-Z KT002便携式电源测试仪\n对omthing AirFree\n2\n真无线耳机进行有线充电测试，输入功率约为3.29W。",
-          "unit": "",
-          "brand": "",
-          "model": "",
-          "confidence": 0.75,
-          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KT002便携式电源测试仪\n对omthing AirFree\n2\n真无线耳机进行有线充电测试，输入功率约为3.29W。"
-        },
-        {
-          "param": "充电方式",
-          "value": "我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对omthing AirFree\n2\n真无线耳机进行无线充电测试，充电功率约为1.57W。",
-          "unit": "",
-          "brand": "",
-          "model": "",
-          "confidence": 0.75,
-          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对omthing AirFree\n2\n真无线耳机进行无线充电测试，充电功率约为1.57W。"
         },
         {
           "param": "充电方式",
@@ -674,66 +468,147 @@
         },
         {
           "param": "充电方式",
-          "value": "C\nOPO酷珀微C\nP2021\n高集成度2.5W无线充电接收芯片，符合WPC 1.2.4版本Qi协议；输出电压5V，输出电流可调，最大可到500mA；集成外部电源输入检测功能；集成过温，过压和输出过流保护；集成温度监测、充电完成及和主机故障控制的多功能NTC控制引脚。",
+          "value": "充电方式：功能配置上搭载了7mm石墨烯振膜动圈单元，高通QCC3040蓝牙芯片，支持蓝牙5.2，AAC、aptX高音质解码；支持ANC主动降噪和四麦智能通话降噪，以及无线充电等。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "C\nOPO酷珀微C\nP2021\n高集成度2.5W无线充电接收芯片，符合WPC 1.2.4版本Qi协议；输出电压5V，输出电流可调，最大可到500mA；集成外部电源输入检测功能；集成过温，过压和输出过流保护；集成温度监测、充电完成及和主机故障"
+          "source_ref": "充电方式：功能配置上搭载了7mm石墨烯振膜动圈单元，高通QCC3040蓝牙芯片，支持蓝牙5.2，AAC、aptX高音质解码；支持ANC主动降噪和四麦智能通话降噪，以及无线充电等。"
         },
         {
           "param": "充电方式",
-          "value": "据我爱音频网拆解了解到，酷珀微的无线充电接收方案目前已被\nHaylou\n、\nOPPO\n、\n漫步者\n、\nrealme\n、\n倍思\n、\n贝尔金\n、\n魔宴\n、\nomthing\n、\niWALK\n等品牌的TWS耳机大量采用。",
+          "value": "充电方式：另外一侧展示了支持蓝牙5.2，支持快充、无线充电功能，以及高通aptX音频解码标志。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "据我爱音频网拆解了解到，酷珀微的无线充电接收方案目前已被\nHaylou\n、\nOPPO\n、\n漫步者\n、\nrealme\n、\n倍思\n、\n贝尔金\n、\n魔宴\n、\nomthing\n、\niWALK\n等品牌的TWS耳机大量采用。"
+          "source_ref": "充电方式：另外一侧展示了支持蓝牙5.2，支持快充、无线充电功能，以及高通aptX音频解码标志。"
         },
         {
           "param": "充电方式",
-          "value": "有线采用了Type-C接口输入电源，由来远电子ICP1106电源管理芯片为内置410mAh电池提供充放电管理，还支持运输模式，待机功耗最低可以做到1uA；无线充电采用了酷珀微CP2021高集成度2.5W无线充电接收芯片；还配备了微源半导体LP5305过压过流保护IC，意法半导体 STM8S003F3 MCU单片机等。",
+          "value": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KT002便携式电源测试仪\n对omthing AirFree\n2\n真无线耳机进行有线充电测试，输入功率约为3.29W。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "有线采用了Type-C接口输入电源，由来远电子ICP1106电源管理芯片为内置410mAh电池提供充放电管理，还支持运输模式，待机功耗最低可以做到1uA；无线充电采用了酷珀微CP2021高集成度2.5W无线充电接收芯片；还配备了微源半导体L"
+          "source_ref": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KT002便携式电源测试仪\n对omthing AirFree\n2\n真无线耳机进行有线充电测试，输入功率约为3.29W。"
+        },
+        {
+          "param": "充电方式",
+          "value": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对omthing AirFree\n2\n真无线耳机进行无线充电测试，充电功率约为1.57W。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对omthing AirFree\n2\n真无线耳机进行无线充电测试，充电功率约为1.57W。"
+        },
+        {
+          "param": "充电方式",
+          "value": "充电方式：底部是无线充电接收线圈，电池位于中间位置，起到很好的保护作用。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电方式：底部是无线充电接收线圈，电池位于中间位置，起到很好的保护作用。"
+        },
+        {
+          "param": "充电方式",
+          "value": "充电方式：主板、电池和无线充电接收线圈电路一览。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电方式：主板、电池和无线充电接收线圈电路一览。"
+        },
+        {
+          "param": "充电方式",
+          "value": "充电方式：C\nOPO酷珀微C\nP2021\n高集成度2.5W无线充电接收芯片，符合WPC 1.2.4版本Qi协议；输出电压5V，输出电流可调，最大可到500mA；集成外部电源输入检测功能；集成过温，过压和输出过流保护；集成温度监测、充电完成及和主机故障控制的多功能NTC控制引脚。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电方式：C\nOPO酷珀微C\nP2021\n高集成度2.5W无线充电接收芯片，符合WPC 1.2.4版本Qi协议；输出电压5V，输出电流可调，最大可到500mA；集成外部电源输入检测功能；集成过温，过压和输出过流保护；集成温度监测、充电完成及"
+        },
+        {
+          "param": "充电方式",
+          "value": "充电方式：据我爱音频网拆解了解到，酷珀微的无线充电接收方案目前已被\nHaylou\n、\nOPPO\n、\n漫步者\n、\nrealme\n、\n倍思\n、\n贝尔金\n、\n魔宴\n、\nomthing\n、\niWALK\n等品牌的TWS耳机大量采用。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电方式：据我爱音频网拆解了解到，酷珀微的无线充电接收方案目前已被\nHaylou\n、\nOPPO\n、\n漫步者\n、\nrealme\n、\n倍思\n、\n贝尔金\n、\n魔宴\n、\nomthing\n、\niWALK\n等品牌的TWS耳机大量采用。"
+        },
+        {
+          "param": "充电方式",
+          "value": "充电方式：有线采用了Type-C接口输入电源，由来远电子ICP1106电源管理芯片为内置410mAh电池提供充放电管理，还支持运输模式，待机功耗最低可以做到1uA；无线充电采用了酷珀微CP2021高集成度2.5W无线充电接收芯片；还配备了微源半导体LP5305过压过流保护IC，意法半导体 STM8S003F3 MCU单片机等。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电方式：有线采用了Type-C接口输入电源，由来远电子ICP1106电源管理芯片为内置410mAh电池提供充放电管理，还支持运输模式，待机功耗最低可以做到1uA；无线充电采用了酷珀微CP2021高集成度2.5W无线充电接收芯片；还配备了微"
+        },
+        {
+          "param": "充电方式",
+          "value": "充电接口：有线采用了Type-C接口输入电源，由来远电子ICP1106电源管理芯片为内置410mAh电池提供充放电管理，还支持运输模式，待机功耗最低可以做到1uA；无线充电采用了酷珀微CP2021高集成度2.5W无线充电接收芯片；还配备了微源半导体LP5305过压过流保护IC，意法半导体 STM8S003F3 MCU单片机等。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电接口：有线采用了Type-C接口输入电源，由来远电子ICP1106电源管理芯片为内置410mAh电池提供充放电管理，还支持运输模式，待机功耗最低可以做到1uA；无线充电采用了酷珀微CP2021高集成度2.5W无线充电接收芯片；还配备了微"
         },
         {
           "param": "充电接口",
-          "value": "充电线采用了USB-A to USB Type-C接口。",
+          "value": "充电方式：有线采用了Type-C接口输入电源，由来远电子ICP1106电源管理芯片为内置410mAh电池提供充放电管理，还支持运输模式，待机功耗最低可以做到1uA；无线充电采用了酷珀微CP2021高集成度2.5W无线充电接收芯片；还配备了微源半导体LP5305过压过流保护IC，意法半导体 STM8S003F3 MCU单片机等。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "充电线采用了USB-A to USB Type-C接口。"
+          "source_ref": "充电方式：有线采用了Type-C接口输入电源，由来远电子ICP1106电源管理芯片为内置410mAh电池提供充放电管理，还支持运输模式，待机功耗最低可以做到1uA；无线充电采用了酷珀微CP2021高集成度2.5W无线充电接收芯片；还配备了微"
         },
         {
           "param": "充电接口",
-          "value": "Type-C充电接口充电盒背部。",
+          "value": "充电接口：充电线采用了USB-A to USB Type-C接口。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "Type-C充电接口充电盒背部。"
+          "source_ref": "充电接口：充电线采用了USB-A to USB Type-C接口。"
         },
         {
           "param": "充电接口",
-          "value": "背面是Type-C充电接口。",
+          "value": "充电接口：Type-C充电接口充电盒背部。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "背面是Type-C充电接口。"
+          "source_ref": "充电接口：Type-C充电接口充电盒背部。"
         },
         {
           "param": "充电接口",
-          "value": "有线采用了Type-C接口输入电源，由来远电子ICP1106电源管理芯片为内置410mAh电池提供充放电管理，还支持运输模式，待机功耗最低可以做到1uA；无线充电采用了酷珀微CP2021高集成度2.5W无线充电接收芯片；还配备了微源半导体LP5305过压过流保护IC，意法半导体 STM8S003F3 MCU单片机等。",
+          "value": "充电接口：背面是Type-C充电接口。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "有线采用了Type-C接口输入电源，由来远电子ICP1106电源管理芯片为内置410mAh电池提供充放电管理，还支持运输模式，待机功耗最低可以做到1uA；无线充电采用了酷珀微CP2021高集成度2.5W无线充电接收芯片；还配备了微源半导体L"
+          "source_ref": "充电接口：背面是Type-C充电接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电接口：有线采用了Type-C接口输入电源，由来远电子ICP1106电源管理芯片为内置410mAh电池提供充放电管理，还支持运输模式，待机功耗最低可以做到1uA；无线充电采用了酷珀微CP2021高集成度2.5W无线充电接收芯片；还配备了微源半导体LP5305过压过流保护IC，意法半导体 STM8S003F3 MCU单片机等。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电接口：有线采用了Type-C接口输入电源，由来远电子ICP1106电源管理芯片为内置410mAh电池提供充放电管理，还支持运输模式，待机功耗最低可以做到1uA；无线充电采用了酷珀微CP2021高集成度2.5W无线充电接收芯片；还配备了微"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：包装盒一侧图文展示了ANC主动降噪、ENC四麦通话降噪、IPX5防水等级三项亮点和蓝牙标志。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：包装盒一侧图文展示了ANC主动降噪、ENC四麦通话降噪、IPX5防水等级三项亮点和蓝牙标志。"
         },
         {
           "param": "充电接口",
@@ -755,30 +630,30 @@
         },
         {
           "param": "标记/认证",
-          "value": "包装盒一侧图文展示了ANC主动降噪、ENC四麦通话降噪、IPX5防水等级三项亮点和蓝牙标志。",
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：包装盒一侧图文展示了ANC主动降噪、ENC四麦通话降噪、IPX5防水等级三项亮点和蓝牙标志。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "包装盒一侧图文展示了ANC主动降噪、ENC四麦通话降噪、IPX5防水等级三项亮点和蓝牙标志。"
+          "source_ref": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：包装盒一侧图文展示了ANC主动降噪、ENC四麦通话降噪、IPX5防水等级三项亮点和蓝牙标志。"
         },
         {
           "param": "标记/认证",
-          "value": "充电盒底部印制信息有产品型号：EO006，输入：5V-600mA，输出：5V-130mA，充电盒容量：410mAh/1.52Wh，中国制造。",
+          "value": "标记/认证：充电盒底部印制信息有产品型号：EO006，输入：5V-600mA，输出：5V-130mA，充电盒容量：410mAh/1.52Wh，中国制造。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "充电盒底部印制信息有产品型号：EO006，输入：5V-600mA，输出：5V-130mA，充电盒容量：410mAh/1.52Wh，中国制造。"
+          "source_ref": "标记/认证：充电盒底部印制信息有产品型号：EO006，输入：5V-600mA，输出：5V-130mA，充电盒容量：410mAh/1.52Wh，中国制造。"
         },
         {
           "param": "标记/认证",
-          "value": "锂离子软包电池型号751830PL，额定容量：410mAh/1.51Wh，额定电压：3.7V。",
+          "value": "标记/认证：锂离子软包电池型号751830PL，额定容量：410mAh/1.51Wh，额定电压：3.7V。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "锂离子软包电池型号751830PL，额定容量：410mAh/1.51Wh，额定电压：3.7V。"
+          "source_ref": "标记/认证：锂离子软包电池型号751830PL，额定容量：410mAh/1.51Wh，额定电压：3.7V。"
         },
         {
           "param": "电池容量",
@@ -818,21 +693,21 @@
       "app_features": [],
       "ota_support": [
         {
+          "value": "近日，om […]\n近日，omthing推出了首款支持主动降噪的TWS耳机产品——omthing AirFree2真无线耳机，在外观质感和功能配置上均进行了全面升级。",
+          "evidence": {
+            "value": "近日，om […]\n近日，omthing推出了首款支持主动降噪的TWS耳机产品——omthing AirFree2真无线耳机，在外观质感和功能配置上均进行了全面升级。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "近日，om […]\n近日，omthing推出了首款支持主动降噪的TWS耳机产品——omthing AirFree2真无线耳机，在外观质感和功能配置上均进行了全面升级。"
+          }
+        },
+        {
           "value": "近日，omthing推出了首款支持主动降噪的TWS耳机产品——omthing AirFree2真无线耳机，在外观质感和功能配置上均进行了全面升级。",
           "evidence": {
             "value": "近日，omthing推出了首款支持主动降噪的TWS耳机产品——omthing AirFree2真无线耳机，在外观质感和功能配置上均进行了全面升级。",
             "confidence": 0.68,
             "source_type": "text",
             "source_text": "近日，omthing推出了首款支持主动降噪的TWS耳机产品——omthing AirFree2真无线耳机，在外观质感和功能配置上均进行了全面升级。"
-          }
-        },
-        {
-          "value": "芯片支持多重完善的保护功能，并支持蓝牙主控固件升级和数据传输功能。",
-          "evidence": {
-            "value": "芯片支持多重完善的保护功能，并支持蓝牙主控固件升级和数据传输功能。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "芯片支持多重完善的保护功能，并支持蓝牙主控固件升级和数据传输功能。"
           }
         }
       ],

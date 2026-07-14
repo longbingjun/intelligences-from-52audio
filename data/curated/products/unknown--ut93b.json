@@ -17,25 +17,39 @@
   "cost_snapshot": {
     "main_chip": "恒玄WT230-U",
     "pmic_case": "",
-    "battery_ear": "2000 mAh",
-    "battery_case": "电池",
-    "speaker": "喇叭单元",
-    "materials": "塑料",
-    "weight_g": "59.9g",
-    "weight_case_g": "",
+    "battery_ear": "电池",
+    "battery_case": "2000 mAh",
+    "speaker": "",
+    "materials": "",
+    "weight_g": "52.7g",
+    "weight_case_g": "52.7g",
     "weight_earbud_g": "",
     "ip_rating": "",
-    "bluetooth": "5.0",
-    "bom_row_count": 14,
+    "bluetooth": "",
+    "bom_row_count": 10,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
     "sales_hint": null,
-    "data_completeness": 0.83,
+    "data_completeness": 0.67,
     "best_report_id": "83125",
     "best_video_id": null
   },
   "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "HDSC华大半导体 HC32\nL130F8UA\n单片机，用于充放电模块管理、电池电量管理、耳机通讯、在线升级及产测等充电盒控制功能。"
+      }
+    },
     {
       "component": "充电仓",
       "brand": "",
@@ -47,21 +61,7 @@
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒与目前主流TWS耳机相当的体积内设置了2000mAh大电池，还支持剩余电量数字显示功能。下面就让我们来看看这款产品的外观设计及内部结构配置吧~"
-      }
-    },
-    {
-      "component": "电池",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "电池",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒与目前主流TWS耳机相当的体积内设置了2000mAh大电池，还支持剩余电量数字显示功能。下面就让我们来看看这款产品的外观设计及内部结构配置吧~"
+        "source_text": "外观的创新必定也会带动内部结构的变化，下面就让我们看看这款产品的内部结构设计怎么样吧~\n充电盒拆解\n沿合模线撬开充电盒底部盖板。"
       }
     },
     {
@@ -107,34 +107,6 @@
       }
     },
     {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "喇叭单元",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机头内部结构一览，有扬声器单元和圆形磁铁。"
-      }
-    },
-    {
-      "component": "降噪系统",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "降噪系统",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "悟品科技是一家TWS全站式整机解决方案商，提供从产品规划咨询，整机系统设计，工业设计，结构设计，声学设计（ANC），硬件设计，软件设计，手机端APP开发，产线工艺方案支持，整机产品测试等为一体的全站式解决方案。"
-      }
-    },
-    {
       "component": "触控/按键",
       "brand": "",
       "model": "",
@@ -145,21 +117,7 @@
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "Type-C充电接口下方设置有凹点，是一个触摸按键。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "背部设置有一颗LED指示灯。"
+        "source_text": "充电接口：Type-C充电接口下方设置有\n凹点，是一个触摸按键\n。"
       }
     },
     {
@@ -181,27 +139,13 @@
       "brand": "",
       "model": "HC32L130F",
       "qty_hint": "1",
-      "side": "",
+      "side": "耳机",
       "role": "主控/蓝牙",
       "evidence": {
         "value": "HC32L130F",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "HDSC华大半导体 HC32L130F8UA 详细资料图。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "恒玄WT230-U",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "恒玄WT230-U",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "BES恒玄WT230-U 低功耗蓝牙音频SoC，支持双模蓝牙5.0，集成了高性能Cortex-M4F MCU和串行闪存，用以支持耳机的各项功能。"
+        "source_text": "充电接口：内置电池采用了3块软包电池并联，组成了2000mAh的大容量电池，通过Type-C接口输入电源，思远 MP5330 电源管理芯片为内置电池充电、以及放电为耳机充电，并且支持全面的保护功能；华大半导体 HC32L130F8UA 单片机用于充放电模块管理、电池电量管理、耳机通讯等充电盒控制功能。"
       }
     },
     {
@@ -215,7 +159,7 @@
         "value": "恒玄WT230-U",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "BES恒玄WT230-U详细资料图。"
+        "source_text": "电池容量：2000\n芯片 恒玄WT230-U\n芯片 HC32L130F"
       }
     },
     {
@@ -223,13 +167,13 @@
       "brand": "",
       "model": "HC32L130F",
       "qty_hint": "1",
-      "side": "耳机",
+      "side": "",
       "role": "主控/蓝牙",
       "evidence": {
         "value": "HC32L130F",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "内置电池采用了3块软包电池并联，组成了2000mAh的大容量电池，通过Type-C接口输入电源，思远 MP5330 电源管理芯片为内置电池充电、以及放电为耳机充电，并且支持全面的保护功能；华大半导体 HC32L130F8UA 单片机用于充放电模块管理、电池电量管理、耳机通讯等充电盒控制功能。"
+        "source_text": "电池容量：2000\n芯片 恒玄WT230-U\n芯片 HC32L130F"
       }
     }
   ],
@@ -248,13 +192,23 @@
   "market": {
     "selling_points": [
       {
-        "text": "悟品科技 UT93B 真无线耳机是其旗下自主研发的一款非常独特的TWS耳机产品，在外观设计上采用了全球首创的完全契合体设计，拥有着独一无二的取放方式。",
+        "text": "随着TWS耳机的快速发展，产品功能不断丰富，性能也得到了快速的提升，但在产品外观差异性上却越来越小，因此，一款 […]\n悟品科技 UT93B 真无线耳机是其旗下自主研发的一款非常独特的TWS耳机产品，在外观设计上采用了全球首创的完全契合体设计，拥有着独一无二的取放方式。",
         "tag": "旗舰定位",
         "evidence": {
-          "value": "悟品科技 UT93B 真无线耳机是其旗下自主研发的一款非常独特的TWS耳机产品，在外观设计上采用了全球首创的完全契合体设计，拥有着独一无二的取放方式。",
+          "value": "随着TWS耳机的快速发展，产品功能不断丰富，性能也得到了快速的提升，但在产品外观差异性上却越来越小，因此，一款 […]\n悟品科技 UT93B 真无线耳机是其旗下自主研发的一款非常独特的TWS耳机产品，在外观设计上采用了全球首创的完全契合体设计，拥有着独一无二的取放方式。",
           "confidence": 0.75,
           "source_type": "text",
-          "source_text": "悟品科技 UT93B 真无线耳机是其旗下自主研发的一款非常独特的TWS耳机产品，在外观设计上采用了全球首创的完全契合体设计，拥有着独一无二的取放方式。"
+          "source_text": "随着TWS耳机的快速发展，产品功能不断丰富，性能也得到了快速的提升，但在产品外观差异性上却越来越小，因此，一款 […]\n悟品科技 UT93B 真无线耳机是其旗下自主研发的一款非常独特的TWS耳机产品，在外观设计上采用了全球首创的完全契合体设计，拥有着独一无二的取放方式。"
+        }
+      },
+      {
+        "text": "充电接口：Type-C\n标记/认证：在我爱音频网前段时间举办的\n2021跨境电商3C配件选品大会\n上，我们看到了一家产品设计理念非常独特的方案商\n悟品科技\n，今天来带大家一起看看这家的作品。",
+        "tag": "其他",
+        "evidence": {
+          "value": "充电接口：Type-C\n标记/认证：在我爱音频网前段时间举办的\n2021跨境电商3C配件选品大会\n上，我们看到了一家产品设计理念非常独特的方案商\n悟品科技\n，今天来带大家一起看看这家的作品。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "充电接口：Type-C\n标记/认证：在我爱音频网前段时间举办的\n2021跨境电商3C配件选品大会\n上，我们看到了一家产品设计理念非常独特的方案商\n悟品科技\n，今天来带大家一起看看这家的作品。"
         }
       },
       {
@@ -288,20 +242,20 @@
         }
       },
       {
-        "text": "HDSC华大半导体 HC32\nL130F8UA\n单片机，用于充放电模块管理、电池电量管理、耳机通讯、在线升级及产测等充电盒控制功能。",
+        "text": "标记/认证：锂离子软包电池型号BP501012，额定电压3.7V，额定容量40mAh。",
         "tag": "其他",
         "evidence": {
-          "value": "HDSC华大半导体 HC32\nL130F8UA\n单片机，用于充放电模块管理、电池电量管理、耳机通讯、在线升级及产测等充电盒控制功能。",
-          "confidence": 0.55,
+          "value": "标记/认证：锂离子软包电池型号BP501012，额定电压3.7V，额定容量40mAh。",
+          "confidence": 0.56,
           "source_type": "text",
-          "source_text": "HDSC华大半导体 HC32\nL130F8UA\n单片机，用于充放电模块管理、电池电量管理、耳机通讯、在线升级及产测等充电盒控制功能。"
+          "source_text": "标记/认证：锂离子软包电池型号BP501012，额定电压3.7V，额定容量40mAh。"
         }
       }
     ],
     "scenarios": [
       "通话"
     ],
-    "positioning_summary": "悟品科技 UT93B 真无线耳机是其旗下自主研发的一款非常独特的TWS耳机产品，在外观设计上采用了全球首创的完全契合体设计，拥有着独一无二的取放方式。",
+    "positioning_summary": "随着TWS耳机的快速发展，产品功能不断丰富，性能也得到了快速的提升，但在产品外观差异性上却越来越小，因此，一款 […]\n悟品科技 UT93B 真无线耳机是其旗下自主研发的一款非常独特的TWS耳机产品，在外观设计上采用了全球首创的完全契合体设计，拥有着独一无二的取放方式。",
     "launch_date": null,
     "best_report_id": "83125",
     "best_video_id": null

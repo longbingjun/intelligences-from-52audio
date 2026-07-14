@@ -17,16 +17,16 @@
   "cost_snapshot": {
     "main_chip": "恒玄\nWT230",
     "pmic_case": "",
-    "battery_ear": "50 mAh",
-    "battery_case": "电池",
+    "battery_ear": "电池",
+    "battery_case": "50 mAh",
     "speaker": "喇叭单元",
-    "materials": "硅胶、PC",
-    "weight_g": "48g",
+    "materials": "",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "IPX5",
     "bluetooth": "5.0",
-    "bom_row_count": 18,
+    "bom_row_count": 13,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -36,6 +36,20 @@
     "best_video_id": null
   },
   "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱一侧结构一览，主板位于座舱底部，电池位于中间位置，上下贴有双面胶，起到很好的保护作用。"
+      }
+    },
     {
       "component": "充电仓",
       "brand": "",
@@ -47,7 +61,7 @@
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "包装盒背面展示有产品整体外观图，产品的多项功能特点：25小时续航，听书音效更佳、快充、IPX5防水，以及充电盒内物品信息。"
+        "source_text": "充电盒盖内侧丝印信息，产品型号：A3981，输入：DC5V，0.5A，制造商：安克创新科技股份有限公司，中国制造。"
       }
     },
     {
@@ -62,20 +76,6 @@
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "座舱一侧结构一览，主板位于座舱底部，电池位于中间位置，上下贴有双面胶，起到很好的保护作用。"
-      }
-    },
-    {
-      "component": "电池",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "电池",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒底部标签展示有产品的部分参数信息，产品名称：Soundcore R100，型号：A3981，输入：5V-0.5A，电池容量：50mAh x 2（耳机），500mAh（充电盒），充电时间：2小时，播放时间：6.5小时/25小时，额定输出功率：5mW，驱动单元尺寸：10mm X 2，制造商：安克创新科技股份有限公司等。"
       }
     },
     {
@@ -125,41 +125,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "minor",
       "evidence": {
         "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "声阔R100真无线耳机充电盒外观一览，充电盒盖采用了弧形曲线设计，正面开盖处设置了凹面，能够单手轻松开启。正面还设置有一颗指示灯，用于反馈充电盒状态。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒底部设置有Type-C充电接口和一颗功能按键。"
-      }
-    },
-    {
-      "component": "外壳结构",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "外壳结构",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "后腔内设置有隔离层，分离电池和主板单元。"
+        "source_text": "主板通过螺丝固定在充电座舱底部，霍尔元件和LED指示灯排线通过ZIF连接器连接到主板，电池单元导线焊接到主板上。"
       }
     },
     {
@@ -177,31 +149,17 @@
       }
     },
     {
-      "component": "芯片/模组",
+      "component": "触控/按键",
       "brand": "",
-      "model": "SY8815",
-      "qty_hint": "1",
+      "model": "",
+      "qty_hint": "",
       "side": "充电盒",
-      "role": "主控/蓝牙",
+      "role": "minor",
       "evidence": {
-        "value": "SY8815",
-        "confidence": 0.78,
+        "value": "触控/按键",
+        "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒内部采用了\nTPS思远\nSY8815\n蓝牙耳机充电仓解决方案。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "SY8815",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "SY8815",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "SY8815支持放电使能控制，MCU可以直接通过EN来灵活控制芯片的放电功能。"
+        "source_text": "充电接口：充电盒底部设置有Type-C充电接口和一颗功能按键。"
       }
     },
     {
@@ -215,7 +173,7 @@
         "value": "SY8815",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "SY8815非常适合蓝牙耳机充电仓的设计，极大简化了外围电路和元器件，为蓝牙耳机充电仓的应用提供了简单易用的方案。"
+        "source_text": "充电接口：采用了Type-C充电接口接入电源，由思远 SY8815蓝牙耳机充电仓解决方案，提供充放电管理功能；一颗无标的MCU负责充电盒的整机控制。"
       }
     },
     {
@@ -223,41 +181,27 @@
       "brand": "",
       "model": "恒玄\nWT230",
       "qty_hint": "1",
-      "side": "耳机",
+      "side": "",
       "role": "主控/蓝牙",
       "evidence": {
         "value": "恒玄\nWT230",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "BES恒玄\nWT230\n-U 低功耗蓝牙音频SoC，支持双模蓝牙5.0，集成了高性能Cortex-M4F MCU和串行闪存，用以支持耳机的各项功能。"
+        "source_text": "电池容量：50\n芯片 恒玄\nWT230\n芯片 恒玄WT230-U\n芯片 SY8815\n芯片 CM1124"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "恒玄WT230-U",
+      "model": "SY8815",
       "qty_hint": "1",
       "side": "",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "恒玄WT230-U",
+        "value": "SY8815",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "BES恒玄WT230-U详细资料图。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "CM1124",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "CM1124",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "耳机内置电池保护芯片采用创芯微CM1124-EAC，丝印EA，是一颗内部集成MOS的单节锂电池保护芯片。"
+        "source_text": "电池容量：50\n芯片 恒玄\nWT230\n芯片 恒玄WT230-U\n芯片 SY8815\n芯片 CM1124"
       }
     },
     {
@@ -271,21 +215,7 @@
         "value": "CM1124",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "创芯微 CM1124-EAC 详细资料。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "恒玄WT230-U",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "恒玄WT230-U",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "耳机部分，采用了10mm动圈扬声器，0.222Wh新余赣锋软包扣式电池，分别通过导线连接到主板，由创芯微CM1124-EAC锂电池保护芯片负责过充、过放、过流等保护功能；主控芯片为恒玄WT230-U 低功耗蓝牙音频SoC，支持双模蓝牙5.0，集成了高性能Cortex-M4F MCU和串行闪存，用以支持耳机的各项功能。"
+        "source_text": "电池容量：50\n芯片 恒玄\nWT230\n芯片 恒玄WT230-U\n芯片 SY8815\n芯片 CM1124"
       }
     }
   ],
@@ -304,13 +234,33 @@
   "market": {
     "selling_points": [
       {
-        "text": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\n声阔\n、\n奋达\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、一加等众多知名品牌\n采用。",
-        "tag": "其他",
+        "text": "声阔降噪舱Liberty Air 2 Pro，Anker Liberty 2 Pro、Anker Soundc […]\n据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\n声阔\n、\n奋达\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、一加等众多知名品牌\n采用。",
+        "tag": "降噪",
         "evidence": {
-          "value": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\n声阔\n、\n奋达\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、一加等众多知名品牌\n采用。",
+          "value": "声阔降噪舱Liberty Air 2 Pro，Anker Liberty 2 Pro、Anker Soundc […]\n据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\n声阔\n、\n奋达\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、一加等众多知名品牌\n采用。",
           "confidence": 0.75,
           "source_type": "text",
-          "source_text": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\n声阔\n、\n奋达\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、一加等众多知名品牌\n采用。"
+          "source_text": "声阔降噪舱Liberty Air 2 Pro，Anker Liberty 2 Pro、Anker Soundc […]\n据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\n声阔\n、\n奋达\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、一加等众多知名品牌\n采用。"
+        }
+      },
+      {
+        "text": "标记/认证：充电盒盖内侧丝印信息，产品型号：A3981，输入：DC5V，0.5A，制造商：安克创新科技股份有限公司，中国制造。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：充电盒盖内侧丝印信息，产品型号：A3981，输入：DC5V，0.5A，制造商：安克创新科技股份有限公司，中国制造。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "标记/认证：充电盒盖内侧丝印信息，产品型号：A3981，输入：DC5V，0.5A，制造商：安克创新科技股份有限公司，中国制造。"
+        }
+      },
+      {
+        "text": "标记/认证：充电盒底部标签展示有产品的部分参数信息，产品名称：\nSoundcore R100，型号：A3981，输入：5V-0.5A，电池容量：50mAh x 2（耳机），500mAh（充电盒），充电时间：2小时，播放时间：6.5小时/25小时，额定输出功率：5mW，驱动单元尺寸：10mm X 2，制造商：安克创新科技股份有限公司等。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：充电盒底部标签展示有产品的部分参数信息，产品名称：\nSoundcore R100，型号：A3981，输入：5V-0.5A，电池容量：50mAh x 2（耳机），500mAh（充电盒），充电时间：2小时，播放时间：6.5小时/25小时，额定输出功率：5mW，驱动单元尺寸：10mm X 2，制造商：安克创新科技股份有限公司等。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "标记/认证：充电盒底部标签展示有产品的部分参数信息，产品名称：\nSoundcore R100，型号：A3981，输入：5V-0.5A，电池容量：50mAh x 2（耳机），500mAh（充电盒），充电时间：2小时，播放时间：6.5小时/25小时，额定输出功率：5mW，驱动单元尺寸：10mm X 2，制造商：安克创新科技股份有限公司等。"
         }
       },
       {
@@ -332,33 +282,12 @@
           "source_type": "text",
           "source_text": "充电盒盖内侧丝印信息，产品型号：A3981，输入：DC5V，0.5A，制造商：安克创新科技股份有限公司，中国制造。"
         }
-      },
-      {
-        "text": "Soundcore声阔\n是安克创新旗下的音频品牌，随着TWS耳机市场的快速发展，声阔也加入了这一市场，并持续不断的推出创新产品，成为首个冲进全球TWS耳机销量TOP10的中国耳机品牌。",
-        "tag": "其他",
-        "evidence": {
-          "value": "Soundcore声阔\n是安克创新旗下的音频品牌，随着TWS耳机市场的快速发展，声阔也加入了这一市场，并持续不断的推出创新产品，成为首个冲进全球TWS耳机销量TOP10的中国耳机品牌。",
-          "confidence": 0.67,
-          "source_type": "text",
-          "source_text": "Soundcore声阔\n是安克创新旗下的音频品牌，随着TWS耳机市场的快速发展，声阔也加入了这一市场，并持续不断的推出创新产品，成为首个冲进全球TWS耳机销量TOP10的中国耳机品牌。"
-        }
-      },
-      {
-        "text": "耳机出音嘴特写，采用了同样为白色的细密的防尘网防护，防止异物进入音腔。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "耳机出音嘴特写，采用了同样为白色的细密的防尘网防护，防止异物进入音腔。",
-          "confidence": 0.61,
-          "source_type": "text",
-          "source_text": "耳机出音嘴特写，采用了同样为白色的细密的防尘网防护，防止异物进入音腔。"
-        }
       }
     ],
     "scenarios": [
-      "运动",
       "通话"
     ],
-    "positioning_summary": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\n声阔\n、\n奋达\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、一加等众多知名品牌\n采用。",
+    "positioning_summary": "声阔降噪舱Liberty Air 2 Pro，Anker Liberty 2 Pro、Anker Soundc […]\n据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\n声阔\n、\n奋达\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、一加等众多知名品牌\n采用。",
     "launch_date": null,
     "best_report_id": "92220",
     "best_video_id": null

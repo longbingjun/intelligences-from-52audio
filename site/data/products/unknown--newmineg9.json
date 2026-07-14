@@ -1,0 +1,311 @@
+{
+  "canonical_id": "unknown--newmineg9",
+  "brand": "",
+  "model": "Newmine纽曼G9带屏",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "236715"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "236715"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2025-04-27",
+  "latest_published": "2025-04-27",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "JL7012",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "4V/00mAh锂电池",
+    "speaker": "动圈单元",
+    "materials": "PC",
+    "weight_g": "50.1g",
+    "weight_case_g": "",
+    "weight_earbud_g": "3.3g",
+    "ip_rating": "",
+    "bluetooth": "5.4",
+    "bom_row_count": 17,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "236715",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "JL杰理",
+      "model": "JL7012",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "JL7012",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内部主要配置方面，充电盒触摸显示屏采用了JL杰理JL7012F蓝牙音频SoC，Puya普冉PY25Q128HA闪存，为其各项功能提供支持；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "4V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "4V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内置了400mAh锂离子电池，采用了JL杰理AC982A充电仓SoC，负责电池的充放电管理和整机控制。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "JL杰理",
+      "model": "JL7003",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "JL7003",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了JL杰理JL7003D蓝牙音频SoC，用于无线连接和音频数据处理；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了35mAh钢壳扣式电池，采用了13mm大尺寸动圈单元；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "设置有一颗MEMS麦克风，用于语音通话、翻译等功能拾音。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "此次将要拆解的Newmine纽曼G9带屏真无线耳机， 充电盒搭载了智慧大屏，支持操控方式、空间音效、主题背景、喝水提醒、闹钟设置、查找耳机等18项功能控制，提供便捷的交互体验。耳机搭载13mm大动圈单元，支持蓝牙5.4无线连接，支持ENC通话降噪；搭配独立AI萝卜助理APP，还支持AI转写、AI翻译、同声传译、AI总结，以及智能问答等功能。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，上下两侧设置电池、主板和电源输入小板，排线通过连接器连接。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面介绍了产品参数信息，产品名称：TWS智能蓝牙触屏耳机，产品型号：G9，蓝牙版本：V5.4，有效距离：约10米，充电输入：5V-300mA，充电箱电池容量：400mAh，耳机电池容量：35mAh，充电时间：约1h。品牌方：北京纽曼腾飞科技有限公司，制造商：麦吉工场（北京）信息技术有限公司。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "纽曼创立于1996年，是一家集研发、制造、销售、服务为一体的高新技术企业，旗下自主品牌Newmine（纽曼）于2010年进入国内3C数码配件市场，推出的音频产品涵盖了蓝牙耳机、有线耳机、麦克风、蓝牙音箱和录音笔等许多种类，为消费者提供了高性价比的体验。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "此次将要拆解的Newmine纽曼G9带屏真无线耳机， 充电盒搭载了智慧大屏，支持操控方式、空间音效、主题背景、喝水提醒、闹钟设置、查找耳机等18项功能控制，提供便捷的交互体验。耳机搭载13mm大动圈单元，支持蓝牙5.4无线连接，支持ENC通话降噪；搭配独立AI萝卜助理APP，还支持AI转写、AI翻译、同声传译、AI总结，以及智能问答等功能。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "此次将要拆解的Newmine纽曼G9带屏真无线耳机， 充电盒搭载了智慧大屏，支持操控方式、空间音效、主题背景、喝水提醒、闹钟设置、查找耳机等18项功能控制，提供便捷的交互体验。耳机搭载13mm大动圈单元，支持蓝牙5.4无线连接，支持ENC通话降噪；搭配独立AI萝卜助理APP，还支持AI转写、AI翻译、同声传译、AI总结，以及智能问答等功能。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "主板连接的天线特写。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱内部的蓝牙配对功能按键特写。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "撬开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄内侧的充电触点特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "JL7012",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "JL7012",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "JL杰理JL7012F6详细资料图。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "JL7003",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "JL7003",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "JL杰理JL7003D蓝牙音频SoC，内置32位双核DSP，最大速度160MHz；符合蓝牙5.3+BR+EDR+BLE规范，支持SBC、AAC音频解码，支持mSBC语音编解码器，支持单/双麦克风ENC，支持20波段EQ配置；内置双通道24bit DAC（信噪比≥102dB），双通道24bit ADC（信噪比≥95dB），内置两个模拟麦克风放大器，内置麦克风偏置，支持16ohm和32ohm扬声器负载；集成用于内部数字和模拟电路电源的低压LDO和DC-DC等。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Newmine纽曼G9带屏真无线耳机在外观设计方面，充电盒采用了滑盖设计，开合便捷；电镀工艺处理，拥有着出色质感；同时搭载了大尺寸触摸显示屏，进一步丰富用户体验。耳机采用了柄状的半入耳式设计，光滑圆润的烤漆质感，体积小巧迷你，重量仅3.3g，佩戴舒适轻盈。 内部主要配置方面，充电盒触摸显示屏采用了JL杰理JL7012F蓝牙音频SoC，Puya普冉PY25Q128HA闪存，为其各项功能提供支持；内置了400mAh锂离子电池，采用了JL杰理AC982A充电仓SoC，负责电池的充放电管理和整机控制。 耳机内部搭载了35mAh钢壳扣式电池，采用了13mm大尺寸动圈单元；主板上，搭载了JL杰理JL7003D蓝牙音频SoC，用于无线连接和音频数据处理；采用iCM创芯微CM112E-BAC集成MOSFET单节锂电保护IC，负责对电池的过充电、过放电、过电流等保护；设置有一颗MEMS麦克风，用于语音通话、翻译等功能拾音。",
+  "layer_refs": {
+    "technical": [
+      "report:236715"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "此次将要拆解的Newmine纽曼G9带屏真无线耳机， 充电盒搭载了智慧大屏，支持操控方式、空间音效、主题背景、喝水提醒、闹钟设置、查找耳机等18项功能控制，提供便捷的交互体验。",
+        "tag": "空间音频",
+        "evidence": {
+          "value": "此次将要拆解的Newmine纽曼G9带屏真无线耳机， 充电盒搭载了智慧大屏，支持操控方式、空间音效、主题背景、喝水提醒、闹钟设置、查找耳机等18项功能控制，提供便捷的交互体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "此次将要拆解的Newmine纽曼G9带屏真无线耳机， 充电盒搭载了智慧大屏，支持操控方式、空间音效、主题背景、喝水提醒、闹钟设置、查找耳机等18项功能控制，提供便捷的交互体验。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "此次将要拆解的Newmine纽曼G9带屏真无线耳机， 充电盒搭载了智慧大屏，支持操控方式、空间音效、主题背景、喝水提醒、闹钟设置、查找耳机等18项功能控制，提供便捷的交互体验。",
+    "launch_date": null,
+    "best_report_id": "236715",
+    "best_video_id": null
+  }
+}

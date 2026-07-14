@@ -1,0 +1,409 @@
+{
+  "canonical_id": "unknown--ola-friend",
+  "brand": "",
+  "model": "字节跳动Ola Friend智能体",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "216879"
+  ],
+  "video_ids": [
+    "217604"
+  ],
+  "related_report_ids": [
+    "216879"
+  ],
+  "related_video_ids": [
+    "217604"
+  ],
+  "first_seen": "2024-10-29",
+  "latest_published": "2024-11-06",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "思远半导体SY8809",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "5V/00mAh锂电池",
+    "speaker": "10mm 动圈单元",
+    "materials": "硅胶、皮革",
+    "weight_g": "69.1g",
+    "weight_case_g": "",
+    "weight_earbud_g": "6.9g",
+    "ip_rating": "",
+    "bluetooth": "5.4",
+    "bom_row_count": 20,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "216879",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "思远半导体",
+      "model": "思远半导体SY8809",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8809",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒采用500mAh锂电池，主板上搭载了思远半导体SY8809蓝牙耳机充电仓解决方案，集成充电模块和放电模块，集成NTC保护功能，以及标准的I2C接口和中断信号，方便实现芯片和MCU之间的通讯，控制充电、放电功能；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "BES2700ZP",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2700ZP",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了BES恒玄科技BES2700ZP蓝牙音频SoC，GigaDevice兆易创新GD25LE128E串行闪存，艾为电子AW32001A充电IC，以及Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等元器件。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "5V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "5V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒采用500mAh锂电池，主板上搭载了思远半导体SY8809蓝牙耳机充电仓解决方案，集成充电模块和放电模块，集成NTC保护功能，以及标准的I2C接口和中断信号，方便实现芯片和MCU之间的通讯，控制充电、放电功能；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "10mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "10mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部，采用59mAh软包电池，10mm动圈单元，内置两颗新港电子的MEMS麦克风，用于语音通话、豆包AI助手等功能拾音；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部，采用59mAh软包电池，10mm动圈单元，内置两颗新港电子的MEMS麦克风，用于语音通话、豆包AI助手等功能拾音；"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "封套背面展示了苹果MFI认证，贴有产品标签。Ola Friend智能体耳机丨小钱包，产品名称：无线耳机，型号：OLA10，输入：5V-0.7A，充电盒电池容量：500mAh，蓝牙版本：5.4，配色：轻羽白，客户服务：深圳市大十未来科技有限公司，中国制造。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "封套背面展示了苹果MFI认证，贴有产品标签。Ola Friend智能体耳机丨小钱包，产品名称：无线耳机，型号：OLA10，输入：5V-0.7A，充电盒电池容量：500mAh，蓝牙版本：5.4，配色：轻羽白，客户服务：深圳市大十未来科技有限公司，中国制造。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部结构一览，主板通过螺丝固定，与排线通过连接连接。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "音腔前端的通话麦克风拾音孔特写，独特的错位结构设计，使之能够巧妙的隐藏在耳屏下方，从而降低风噪影响。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "其他方面，Ola Friend搭载10mm分子级仿生复合振膜动圈单元，采用5核专业音频芯片，支持动态EQ和动态低音补偿技术，提供细节丰富的卓越音质效果；采用物理防风噪设计，搭配ENC智能降噪算法，提供清晰透亮的通话效果；支持蓝牙5.4，支持多点连接，可提供单次8小时，综合28小时的续航。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧结构一览，贴有蓝牙天线和触摸检测的贴片。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "其他方面，Ola Friend搭载10mm分子级仿生复合振膜动圈单元，采用5核专业音频芯片，支持动态EQ和动态低音补偿技术，提供细节丰富的卓越音质效果；采用物理防风噪设计，搭配ENC智能降噪算法，提供清晰透亮的通话效果；支持蓝牙5.4，支持多点连接，可提供单次8小时，综合28小时的续航。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Type-C充电接口上方一颗指示灯，用于反馈充电状态。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Ola Friend智能体耳机外侧外观一览，整体风格延续了Oladance OWS Pro的设计，线条更加的简约流畅。轻羽白采用了经典黑白配色，音腔背部类陶瓷盖板，质感温润细腻；耳挂十分纤细，并通过亲肤硅胶材质包裹，提供轻盈无感的舒适佩戴体验。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体底部外观一览，耳挂末端设置有充电触点。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "另外一侧未设置功能按键和接口。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8809",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8809",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "思远半导体SY8809蓝牙耳机充电仓解决方案，芯片内部集成充电模块和放电模块， 充电模块采用NVDC架构，电池端充电电流I2C可以调节；放电模块输出电压I2C可以调节，集成两路输出限流开关，提供了独立的负载存在检测和负载插入检测，同时支持输出电流检测。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SY8809",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SY8809",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "SY8809集成了标准的I2C接口和中断信号，方便实现芯片和MCU之间的通讯，控制充电、放电功能。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2700ZP",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2700ZP",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄科技BES2700ZP蓝牙音频SoC，用于无线连接和音频数据处理。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2700ZP",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2700ZP",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "耳机内部，采用59mAh软包电池，10mm动圈单元，内置两颗新港电子的MEMS麦克风，用于语音通话、豆包AI助手等功能拾音；主板上，搭载了BES恒玄科技BES2700ZP蓝牙音频SoC，GigaDevice兆易创新GD25LE128E串行闪存，艾为电子AW32001A充电IC，以及Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等元器件。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Ola Friend智能体耳机在外观方面极富创新，充电盒采用了独特的“小钱包”设计，外观新颖，小巧便携，同时拥有“鹅卵石状”标准款可以选择。耳挂式耳机，设计简约时尚，机身曲线与耳廓舒适贴合，搭配亲肤材质，以及超轻的体积，能够提供持久的舒适佩戴体验。 内部主要配置方面，充电盒采用500mAh锂电池，主板上搭载了思远半导体SY8809蓝牙耳机充电仓解决方案，集成充电模块和放电模块，集成NTC保护功能，以及标准的I2C接口和中断信号，方便实现芯片和MCU之间的通讯，控制充电、放电功能；还采用了Cmsemicon中微CMS8S5889单片机，Willsemi韦尔半导体ESD5641D TVS保护管，Sunlord顺络电子WPN系列绕线功率电感等。 耳机内部，采用59mAh软包电池，10mm动圈单元，内置两颗新港电子的MEMS麦克风，用于语音通话、豆包AI助手等功能拾音；主板上，搭载了BES恒玄科技BES2700ZP蓝牙音频SoC，GigaDevice兆易创新GD25LE128E串行闪存，艾为电子AW32001A充电IC，以及Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等元器件。 相关阅读： 1、 时刻陪伴在耳边的朋友，字节豆包发布AI智能体耳机Ola Friend 2、 Oladance OWS Sports开放式运动耳机拆解，高精度叠层喇叭，双芯驱动 3、 开放式耳机拆解分析｜Oladance OWS Pro",
+  "layer_refs": {
+    "technical": [
+      "report:216879",
+      "video:217604"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "镭雕2416 MX19的MEMS麦克风特写，用于通话降噪功能拾音，来自新港电子。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "镭雕2416 MX19的MEMS麦克风特写，用于通话降噪功能拾音，来自新港电子。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "镭雕2416 MX19的MEMS麦克风特写，用于通话降噪功能拾音，来自新港电子。"
+        }
+      },
+      {
+        "text": "近日，收购后的首款产品Ola Friend智能体耳机正式发布，外观延续了Oladance的开放式设计风格，提供全天候的舒适佩戴体验；功能上主要特征是接入了豆包AI大模型，提供了一个随时陪伴耳边的AI朋友。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "近日，收购后的首款产品Ola Friend智能体耳机正式发布，外观延续了Oladance的开放式设计风格，提供全天候的舒适佩戴体验；功能上主要特征是接入了豆包AI大模型，提供了一个随时陪伴耳边的AI朋友。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "近日，收购后的首款产品Ola Friend智能体耳机正式发布，外观延续了Oladance的开放式设计风格，提供全天候的舒适佩戴体验；功能上主要特征是接入了豆包AI大模型，提供了一个随时陪伴耳边的AI朋友。"
+        }
+      },
+      {
+        "text": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n一加\n、\n小米\n、\nJBL\n、\nOPPO、Redmi、iQOO、漫步者、联想、传音、倍思、科大讯飞、用维、公牛、小天才、Cleer、Fiio、JadeAudio、MEES、YOBYBO、HAYLOU、DENON、Oladance、Nothing、XTOUR、final、酷睿视、Skullcandy\n、\nvivo\n、\nQCY\n、\n猛玛\n、\n声阔\n、\n绿联\n、\nrealme、魅族、百度、网易、哈曼、\n万魔、233621、魔宴、创新科技\n等国内外知名品牌采用。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n一加\n、\n小米\n、\nJBL\n、\nOPPO、Redmi、iQOO、漫步者、联想、传音、倍思、科大讯飞、用维、公牛、小天才、Cleer、Fiio、JadeAudio、MEES、YOBYBO、HAYLOU、DENON、Oladance、Nothing、XTOUR、final、酷睿视、Skullcandy\n、\nvivo\n、\nQCY\n、\n猛玛\n、\n声阔\n、\n绿联\n、\nrealme、魅族、百度、网易、哈曼、\n万魔、233621、魔宴、创新科技\n等国内外知名品牌采用。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n一加\n、\n小米\n、\nJBL\n、\nOPPO、Redmi、iQOO、漫步者、联想、传音、倍思、科大讯飞、用维、公牛、小天才、Cleer、Fiio、JadeAudio、MEES、YOBYBO、HAYLOU、DENON、Oladance、Nothing、XTOUR、final、酷睿视、Skullcandy\n、\nvivo\n、\nQCY\n、\n猛玛\n、\n声阔\n、\n绿联\n、\nrealme、魅族、百度、网易、哈曼、\n万魔、233621、魔宴、创新科技\n等国内外知名品牌采用。"
+        }
+      },
+      {
+        "text": "音腔前端的通话麦克风拾音孔特写，独特的错位结构设计，使之能够巧妙的隐藏在耳屏下方，从而降低风噪影响。",
+        "tag": "其他",
+        "evidence": {
+          "value": "音腔前端的通话麦克风拾音孔特写，独特的错位结构设计，使之能够巧妙的隐藏在耳屏下方，从而降低风噪影响。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "音腔前端的通话麦克风拾音孔特写，独特的错位结构设计，使之能够巧妙的隐藏在耳屏下方，从而降低风噪影响。"
+        }
+      },
+      {
+        "text": "三、我爱音频网总结\nOla Friend智能体耳机在外观方面极富创新，充电盒采用了独特的“小钱包”设计，外观新颖，小巧便携，同时拥有“鹅卵石状”标准款可以选择。",
+        "tag": "其他",
+        "evidence": {
+          "value": "三、我爱音频网总结\nOla Friend智能体耳机在外观方面极富创新，充电盒采用了独特的“小钱包”设计，外观新颖，小巧便携，同时拥有“鹅卵石状”标准款可以选择。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\nOla Friend智能体耳机在外观方面极富创新，充电盒采用了独特的“小钱包”设计，外观新颖，小巧便携，同时拥有“鹅卵石状”标准款可以选择。"
+        }
+      },
+      {
+        "text": "封套侧边图文介绍了产品特点：单只6.6克舒适无感，5核音频芯片、高清降噪通话、8h+20h续航时间。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "封套侧边图文介绍了产品特点：单只6.6克舒适无感，5核音频芯片、高清降噪通话、8h+20h续航时间。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "封套侧边图文介绍了产品特点：单只6.6克舒适无感，5核音频芯片、高清降噪通话、8h+20h续航时间。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "通话"
+    ],
+    "positioning_summary": "镭雕2416 MX19的MEMS麦克风特写，用于通话降噪功能拾音，来自新港电子。",
+    "launch_date": null,
+    "best_report_id": "216879",
+    "best_video_id": null
+  }
+}

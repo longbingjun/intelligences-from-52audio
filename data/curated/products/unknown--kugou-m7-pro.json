@@ -15,111 +15,27 @@
   "latest_published": "2023-05-11",
   "internal_match_suggestions": [],
   "cost_snapshot": {
-    "main_chip": "BT8922C",
-    "pmic_case": "INJOINIC英集芯 Injoinic英集芯IP5518",
+    "main_chip": "Injoinic英集芯IP5518",
+    "pmic_case": "",
     "battery_ear": "电池",
-    "battery_case": "4V/00mAh锂电池",
-    "speaker": "10mm 动圈单元",
+    "battery_case": "400 mAh",
+    "speaker": "喇叭单元",
     "materials": "硅胶",
-    "weight_g": "43.6g",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
-    "bluetooth": "5.3",
-    "bom_row_count": 19,
+    "bluetooth": "",
+    "bom_row_count": 11,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
     "sales_hint": null,
-    "data_completeness": 1.0,
+    "data_completeness": 0.83,
     "best_report_id": "159642",
     "best_video_id": null
   },
   "bom_table": [
-    {
-      "component": "芯片/模组",
-      "brand": "INJOINIC英集芯",
-      "model": "Injoinic英集芯IP5518",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "PMIC/充电仓管理",
-      "evidence": {
-        "value": "Injoinic英集芯IP5518",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "主板上，采用Type-C充电接口，搭载Injoinic英集芯IP5518 TWS耳机充电仓管理SoC，集成了5V升压转换器、锂电池充电管理、电池电量指示的多功能，单芯片为充电盒提供完整的电源解决方案。"
-      }
-    },
-    {
-      "component": "电池",
-      "brand": "",
-      "model": "4V/00mAh锂电池",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "4V/00mAh锂电池",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "充电盒内置XD鑫电400mAh锂电池，配备电路保护板负责过充电、过放电、过电流等保护；"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "BT8922C",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "BT8922C",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "耳机内部搭载了10mm动圈单元，单耳内置两颗MEMS麦克风拾音，主控芯片为Bluetrum中科蓝讯“讯龙二代”BT8922C2蓝牙音频SoC，内置32位高性能RISC-V CPU，支持DSP指令，具有高性能立体声DAC和双通道高性能ADC，符合蓝牙5.3和BLE规范，集成PMU；"
-      }
-    },
-    {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "10mm 动圈单元",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "10mm 动圈单元",
-        "confidence": 0.8,
-        "source_type": "summary_prose",
-        "source_text": "耳机内部搭载了10mm动圈单元，单耳内置两颗MEMS麦克风拾音，主控芯片为Bluetrum中科蓝讯“讯龙二代”BT8922C2蓝牙音频SoC，内置32位高性能RISC-V CPU，支持DSP指令，具有高性能立体声DAC和双通道高性能ADC，符合蓝牙5.3和BLE规范，集成PMU；"
-      }
-    },
-    {
-      "component": "麦克风",
-      "brand": "",
-      "model": "MEMS麦克风",
-      "qty_hint": "2",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "MEMS麦克风",
-        "confidence": 0.78,
-        "source_type": "summary_prose",
-        "source_text": "耳机内部搭载了10mm动圈单元，单耳内置两颗MEMS麦克风拾音，主控芯片为Bluetrum中科蓝讯“讯龙二代”BT8922C2蓝牙音频SoC，内置32位高性能RISC-V CPU，支持DSP指令，具有高性能立体声DAC和双通道高性能ADC，符合蓝牙5.3和BLE规范，集成PMU；"
-      }
-    },
-    {
-      "component": "充电仓",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "充电仓",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "小酷M7 Pro真无线降噪耳机充电盒采用了椭圆形设计，哑光质感，正面设计有金色品牌LOGO，以及一颗用于反馈充电和蓝牙配对状态的指示灯。"
-      }
-    },
     {
       "component": "电池",
       "brand": "",
@@ -149,17 +65,31 @@
       }
     },
     {
-      "component": "麦克风",
+      "component": "充电仓",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "耳机",
       "role": "major",
       "evidence": {
-        "value": "麦克风",
+        "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机内侧外观一览，音腔采用亮面工艺处理，搭配柔软硅胶耳塞，提供舒适佩戴。麦克风拾音孔设计在耳机柄上方内侧，用于提升抗风噪性能。"
+        "source_text": "三、我爱音频网总结\n小酷M7 Pro真无线降噪耳机在外观方面，充电盒采用了椭圆形设计，哑光质感，轻巧便携；金色品牌LOGO和银色转轴结构，使产品更具质感。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "小酷M7 Pro还支持38ms超低延时游戏模式，搭配主动降噪功能，带来更具沉浸感的游戏体验。"
       }
     },
     {
@@ -173,49 +103,21 @@
         "value": "喇叭单元",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "音质方面，小酷M7 Pro真无线耳机搭载了钕铁硼仿生物振膜单元，带来更优的动态和瞬态响应，提供更丰富的音频细节，从而可以适配各种曲风和音效的变化；酷狗APP还为其个性化定制了300+款蝰蛇音效，满足用户的各种爱好和需求。小酷M7 Pro还支持38ms超低延时游戏模式，搭配主动降噪功能，带来更具沉浸感的游戏体验。续航上，支持单次约6-7小时，综合24小时的播放时间。下面就来看看这款产品的详细拆解报告吧~"
+        "source_text": "音质方面，小酷M7 Pro真无线耳机搭载了钕铁硼仿生物振膜单元，带来更优的动态和瞬态响应，提供更丰富的音频细节，从而可以适配各种曲风和音效的变化；酷狗APP还为其个性化定制了300+款蝰蛇音效，满足用户的各种爱好和需求。"
       }
     },
     {
-      "component": "降噪系统",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "降噪系统",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "小酷M7 Pro真无线耳机是酷狗旗下新一代智能ANC主动降噪耳机，采用DualMIX滤噪系统，搭配Audio酷狗音频互消算法技术，提供高达约-42dB的深度降噪效果，并可抗4级以下风噪干扰；支持4级降噪深度调节，满足不同噪音场景下的舒适降噪体验。通话降噪方面，搭载神经网络算法滤化杂音，能够提供清晰精准的人声。"
-      }
-    },
-    {
-      "component": "天线",
+      "component": "麦克风",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "",
       "role": "major",
       "evidence": {
-        "value": "天线",
+        "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "Bluetrum中科蓝讯“讯龙二代”BT8922C2蓝牙音频SoC，采用40nm ULP工艺，内置32位高性能RISC-V CPU，支持DSP指令，运行频率最高125MHz；内置8M bit闪存，256KB RAM；内建高性能蓝牙射频电路，符合蓝牙5.3和BLE规范，无线接收灵敏度达到-94dBm，发射功率最大值+9dBm，适应不同的产品形态及天线结构。"
-      }
-    },
-    {
-      "component": "外壳结构",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "外壳结构",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "拆开充电盒外壳，取出座舱结构。"
+        "source_text": "镭雕SC52 219S的MEMS麦克风特写，用于主动降噪、语音通话等功能拾音。"
       }
     },
     {
@@ -229,35 +131,21 @@
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒底部设置Type-C充电接口和蓝牙配对功能按键。"
+        "source_text": "充电接口：充电盒底部设置Type-C充电接口和蓝牙配对功能按键。"
       }
     },
     {
-      "component": "指示灯",
+      "component": "芯片/模组",
       "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "小酷M7 Pro真无线降噪耳机充电盒采用了椭圆形设计，哑光质感，正面设计有金色品牌LOGO，以及一颗用于反馈充电和蓝牙配对状态的指示灯。"
-      }
-    },
-    {
-      "component": "充电触点",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
+      "model": "Injoinic英集芯IP5518",
+      "qty_hint": "1",
       "side": "充电盒",
-      "role": "minor",
+      "role": "主控/蓝牙",
       "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
+        "value": "Injoinic英集芯IP5518",
+        "confidence": 0.78,
         "source_type": "text",
-        "source_text": "充电盒为耳机充电的Pogo Pin连接器特写。"
+        "source_text": "充电接口：内部主要配置方面，充电盒内置XD鑫电400mAh锂电池，配备电路保护板负责过充电、过放电、过电流等保护；主板上，采用Type-C充电接口，搭载Injoinic英集芯IP5518 TWS耳机充电仓管理SoC，集成了5V升压转换器、锂电池充电管理、电池电量指示的多功能，单芯片为充电盒提供完整的电源解决方案。"
       }
     },
     {
@@ -271,7 +159,7 @@
         "value": "Injoinic英集芯IP5518",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "Injoinic英集芯IP5518 TWS耳机充电仓管理SoC，是一款集成MCU，集成了5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+        "source_text": "标记/认证：Injoinic英集芯IP5518 TWS耳机充电仓管理SoC，是一款集成MCU，集成了5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
       }
     },
     {
@@ -285,7 +173,7 @@
         "value": "IP5518",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "IP5518的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+        "source_text": "标记/认证：IP5518的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
       }
     },
     {
@@ -299,12 +187,12 @@
         "value": "BT8922C",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "Bluetrum中科蓝讯“讯龙二代”BT8922C2蓝牙音频SoC，采用40nm ULP工艺，内置32位高性能RISC-V CPU，支持DSP指令，运行频率最高125MHz；内置8M bit闪存，256KB RAM；内建高性能蓝牙射频电路，符合蓝牙5.3和BLE规范，无线接收灵敏度达到-94dBm，发射功率最大值+9dBm，适应不同的产品形态及天线结构。"
+        "source_text": "电池容量：400\n芯片 Injoinic英集芯IP5518\n芯片 BT8922C"
       }
     }
   ],
   "summary_image_urls": [],
-  "summary_text": "三、我爱音频网总结 小酷M7 Pro真无线降噪耳机在外观方面，充电盒采用了椭圆形设计，哑光质感，轻巧便携；金色品牌LOGO和银色转轴结构，使产品更具质感。耳机采用了柄状的入耳式设计，入耳曲线圆润饱满，佩戴舒适贴合耳廓；耳机外侧触控区域环形设计，搭配品牌LOGO，使其更具辨识度。 内部主要配置方面，充电盒内置XD鑫电400mAh锂电池，配备电路保护板负责过充电、过放电、过电流等保护；主板上，采用Type-C充电接口，搭载Injoinic英集芯IP5518 TWS耳机充电仓管理SoC，集成了5V升压转换器、锂电池充电管理、电池电量指示的多功能，单芯片为充电盒提供完整的电源解决方案。 耳机内部搭载了10mm动圈单元，单耳内置两颗MEMS麦克风拾音，主控芯片为Bluetrum中科蓝讯“讯龙二代”BT8922C2蓝牙音频SoC，内置32位高性能RISC-V CPU，支持DSP指令，具有高性能立体声DAC和双通道高性能ADC，符合蓝牙5.3和BLE规范，集成PMU；内置电池容量45mAh，来自亿等新能源。",
+  "summary_text": "",
   "layer_refs": {
     "technical": [
       "report:159642"
@@ -317,6 +205,16 @@
   "unboxing": null,
   "market": {
     "selling_points": [
+      {
+        "text": "随着消费电子科技的快速发展，许多的互联网内容及服务提供商也进入了终端市场，旗下产品搭配自身成熟的软件应用，能够 […]\n音质方面，小酷M7 Pro真无线耳机搭载了钕铁硼仿生物振膜单元，带来更优的动态和瞬态响应，提供更丰富的音频细节，从而可以适配各种曲风和音效的变化；酷狗APP还为其个性化定制了300+款蝰蛇音效，满足用户的各种爱好和需求。",
+        "tag": "其他",
+        "evidence": {
+          "value": "随着消费电子科技的快速发展，许多的互联网内容及服务提供商也进入了终端市场，旗下产品搭配自身成熟的软件应用，能够 […]\n音质方面，小酷M7 Pro真无线耳机搭载了钕铁硼仿生物振膜单元，带来更优的动态和瞬态响应，提供更丰富的音频细节，从而可以适配各种曲风和音效的变化；酷狗APP还为其个性化定制了300+款蝰蛇音效，满足用户的各种爱好和需求。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "随着消费电子科技的快速发展，许多的互联网内容及服务提供商也进入了终端市场，旗下产品搭配自身成熟的软件应用，能够 […]\n音质方面，小酷M7 Pro真无线耳机搭载了钕铁硼仿生物振膜单元，带来更优的动态和瞬态响应，提供更丰富的音频细节，从而可以适配各种曲风和音效的变化；酷狗APP还为其个性化定制了300+款蝰蛇音效，满足用户的各种爱好和需求。"
+        }
+      },
       {
         "text": "音质方面，小酷M7 Pro真无线耳机搭载了钕铁硼仿生物振膜单元，带来更优的动态和瞬态响应，提供更丰富的音频细节，从而可以适配各种曲风和音效的变化；酷狗APP还为其个性化定制了300+款蝰蛇音效，满足用户的各种爱好和需求。",
         "tag": "其他",
@@ -348,6 +246,16 @@
         }
       },
       {
+        "text": "标记/认证：内置IC温度和输入电压智能调节充电电流功能；IP5518可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至20uA；可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "标记/认证：内置IC温度和输入电压智能调节充电电流功能；IP5518可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至20uA；可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "标记/认证：内置IC温度和输入电压智能调节充电电流功能；IP5518可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至20uA；可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。"
+        }
+      },
+      {
         "text": "通话降噪方面，搭载神经网络算法滤化杂音，能够提供清晰精准的人声。",
         "tag": "降噪",
         "evidence": {
@@ -356,33 +264,13 @@
           "source_type": "text",
           "source_text": "通话降噪方面，搭载神经网络算法滤化杂音，能够提供清晰精准的人声。"
         }
-      },
-      {
-        "text": "三、我爱音频网总结\n小酷M7 Pro真无线降噪耳机在外观方面，充电盒采用了椭圆形设计，哑光质感，轻巧便携；金色品牌LOGO和银色转轴结构，使产品更具质感。",
-        "tag": "降噪",
-        "evidence": {
-          "value": "三、我爱音频网总结\n小酷M7 Pro真无线降噪耳机在外观方面，充电盒采用了椭圆形设计，哑光质感，轻巧便携；金色品牌LOGO和银色转轴结构，使产品更具质感。",
-          "confidence": 0.75,
-          "source_type": "text",
-          "source_text": "三、我爱音频网总结\n小酷M7 Pro真无线降噪耳机在外观方面，充电盒采用了椭圆形设计，哑光质感，轻巧便携；金色品牌LOGO和银色转轴结构，使产品更具质感。"
-        }
-      },
-      {
-        "text": "镭雕SC52 219S的MEMS麦克风特写，用于主动降噪、语音通话等功能拾音。",
-        "tag": "降噪",
-        "evidence": {
-          "value": "镭雕SC52 219S的MEMS麦克风特写，用于主动降噪、语音通话等功能拾音。",
-          "confidence": 0.75,
-          "source_type": "text",
-          "source_text": "镭雕SC52 219S的MEMS麦克风特写，用于主动降噪、语音通话等功能拾音。"
-        }
       }
     ],
     "scenarios": [
       "游戏",
       "通话"
     ],
-    "positioning_summary": "音质方面，小酷M7 Pro真无线耳机搭载了钕铁硼仿生物振膜单元，带来更优的动态和瞬态响应，提供更丰富的音频细节，从而可以适配各种曲风和音效的变化；酷狗APP还为其个性化定制了300+款蝰蛇音效，满足用户的各种爱好和需求。",
+    "positioning_summary": "随着消费电子科技的快速发展，许多的互联网内容及服务提供商也进入了终端市场，旗下产品搭配自身成熟的软件应用，能够 […]\n音质方面，小酷M7 Pro真无线耳机搭载了钕铁硼仿生物振膜单元，带来更优的动态和瞬态响应，提供更丰富的音频细节，从而可以适配各种曲风和音效的变化；酷狗APP还为其个性化定制了300+款蝰蛇音效，满足用户的各种爱好和需求。",
     "launch_date": null,
     "best_report_id": "159642",
     "best_video_id": null

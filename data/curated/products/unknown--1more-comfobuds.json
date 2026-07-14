@@ -17,16 +17,16 @@
   "cost_snapshot": {
     "main_chip": "络达 AB1536",
     "pmic_case": "",
-    "battery_ear": "410 mAh",
-    "battery_case": "电池",
+    "battery_ear": "电池",
+    "battery_case": "35 mAh",
     "speaker": "喇叭单元",
-    "materials": "塑料、PC、不锈钢",
-    "weight_g": "3.8克",
+    "materials": "PC、不锈钢",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "IPX5",
     "bluetooth": "5.0",
-    "bom_row_count": 17,
+    "bom_row_count": 15,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -36,6 +36,20 @@
     "best_video_id": null
   },
   "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机采用FPC式蓝牙天线传输信号，双天线设计，抗干扰能力更强；整机四麦克风用于通话降噪，动圈单元尺寸约13.5mm，有红外线距离传感器用于智能入耳侦测功能，有用于敲击检测的加速度传感器，软包电池容量35mAh，功能齐全。"
+      }
+    },
     {
       "component": "充电仓",
       "brand": "",
@@ -47,21 +61,35 @@
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "万魔ComfoBuds充电盒体积非常小巧，与一只口红相当，耳机的单耳重量约3.8克，佩戴无感，此前我爱音频网已经进行了全面的体验评测。硬件配置方面，耳机采用了蓝牙5.0芯片，整机四麦通话降噪提升语音清晰度，有入耳检测功能；耳机支持IPX5级防水防汗，运动时也可佩戴，单次续航约4小时，搭配充电盒总续航可达18小时。下面一起来看看如此轻巧的万魔“舒适豆” 内部结构是如何设计的吧~"
+        "source_text": "充电盒底部有多种认证标志，产品型号ESS3001T，充电盒电池型号682723，额定电压3.7V，额定容量410mAh/1.558Wh；输入5V⎓0.5A，输出5V⎓0.2A。"
       }
     },
     {
-      "component": "电池",
+      "component": "喇叭单元",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "充电盒",
+      "side": "",
       "role": "major",
       "evidence": {
-        "value": "电池",
+        "value": "喇叭单元",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒底部有多种认证标志，产品型号ESS3001T，充电盒电池型号682723，额定电压3.7V，额定容量410mAh/1.558Wh；输入5V⎓0.5A，输出5V⎓0.2A。"
+        "source_text": "产品亮点：13.4mm动圈单元、半入耳式无感佩戴、双麦克风通话降噪、智能入耳侦测和IPX5级防水防汗。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "产品亮点：13.4mm动圈单元、半入耳式无感佩戴、双麦克风通话降噪、智能入耳侦测和IPX5级防水防汗。"
       }
     },
     {
@@ -79,45 +107,17 @@
       }
     },
     {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "喇叭单元",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "左下角是产品信息，万魔舒适豆真无线耳机。产品亮点：13.4mm动圈单元、半入耳式无感佩戴、双麦克风通话降噪、智能入耳侦测和IPX5级防水防汗。"
-      }
-    },
-    {
-      "component": "麦克风",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "麦克风",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "左下角是产品信息，万魔舒适豆真无线耳机。产品亮点：13.4mm动圈单元、半入耳式无感佩戴、双麦克风通话降噪、智能入耳侦测和IPX5级防水防汗。"
-      }
-    },
-    {
       "component": "天线",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
+      "side": "耳机",
       "role": "major",
       "evidence": {
         "value": "天线",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "顶部的薄膜蓝牙天线。"
+        "source_text": "耳机采用FPC式蓝牙天线传输信号，双天线设计，抗干扰能力更强；整机四麦克风用于通话降噪，动圈单元尺寸约13.5mm，有红外线距离传感器用于智能入耳侦测功能，有用于敲击检测的加速度传感器，软包电池容量35mAh，功能齐全。"
       }
     },
     {
@@ -131,35 +131,7 @@
         "value": "降噪系统",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "此前我爱音频网曾经拆解过1MORE万魔ColorBuds真无线蓝牙耳机、1MORE万魔圈铁主动降噪真无线耳机、1MORE万魔 Stylish 时尚真无线耳机、1MORE万魔三单元圈铁蓝牙耳机、1MORE万魔 高清降噪圈铁蓝牙耳机。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒高度与一元硬币的直径相当，正面盒盖开启处有一道凹槽便于开启，下面是一个充电盒状态指示灯。"
-      }
-    },
-    {
-      "component": "充电触点",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "给耳机充电的Pogo Pin在耳机柄位置。"
+        "source_text": "下面一起来看看如此轻巧的万魔“舒适豆” 内部结构是如何设计的吧~\n下面一起来看看如此轻巧的万魔“舒适豆” 内部结构是如何设计的吧~\n此前我爱音频网曾经拆解过\n1MORE万魔ColorBuds真无线蓝牙耳机\n、\n1MORE万魔圈铁主动降噪真无线耳机\n、\n1MORE万魔 Stylish 时尚真无线耳机\n、\n1MORE万魔三单元圈铁蓝牙耳机\n、\n1MORE万魔 高清降噪圈铁蓝牙耳机\n。"
       }
     },
     {
@@ -181,13 +153,27 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
+      "side": "充电盒",
       "role": "minor",
       "evidence": {
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "配对按钮，设计得较为隐蔽，长按即可配对新设备。"
+        "source_text": "充电接口：充电盒主电路展示，顶部为Type-C电源输入接口，\n微动按键特写。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电接口：充电盒采用Type-C接口输入电源，输入端有微源LP5306进行过压过流保护，钰泰ETA9084功能丰富，负责电池的充放电和保护，带指示灯控制，芯海科技的CSU32P20单片机负责充电盒其他功能控制；采用的软包电池来自重庆紫建，容量410mAh。"
       }
     },
     {
@@ -195,13 +181,27 @@
       "brand": "",
       "model": "ETA9084",
       "qty_hint": "1",
-      "side": "",
+      "side": "充电盒",
       "role": "主控/蓝牙",
       "evidence": {
         "value": "ETA9084",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "钰泰半导体ETA9084超低功耗TWS充电仓芯片，带充电、充满、放电和电量4颗指示灯。"
+        "source_text": "充电接口：充电盒采用Type-C接口输入电源，输入端有微源LP5306进行过压过流保护，钰泰ETA9084功能丰富，负责电池的充放电和保护，带指示灯控制，芯海科技的CSU32P20单片机负责充电盒其他功能控制；采用的软包电池来自重庆紫建，容量410mAh。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CSU32P20",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CSU32P20",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "充电接口：充电盒采用Type-C接口输入电源，输入端有微源LP5306进行过压过流保护，钰泰ETA9084功能丰富，负责电池的充放电和保护，带指示灯控制，芯海科技的CSU32P20单片机负责充电盒其他功能控制；采用的软包电池来自重庆紫建，容量410mAh。"
       }
     },
     {
@@ -215,7 +215,7 @@
         "value": "CSU32P20",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "CHIPSEA芯海科技CSU32P20，带12-bit ADC的8位CMOS单芯片RISC MCU，内置2K×16位OTP程序存储器，104字节SRAM。"
+        "source_text": "标记/认证：CHIPSEA芯海科技CSU32P20，带12-bit ADC的8位CMOS单芯片RISC MCU，内置2K×16位OTP程序存储器，104字节SRAM。"
       }
     },
     {
@@ -229,7 +229,7 @@
         "value": "络达 AB1536",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "万魔 ComfoBuds的主控芯片为络达 AB1536，支持蓝牙5.0，支持络达的MCSync连接方式，连线更稳定，减少断音跳音，支撑高解析音频码流，低延时，两耳耗电更平衡。"
+        "source_text": "电池容量：410\n芯片 络达 AB1536\n芯片 络达MCSync\n芯片 ETA9084\n芯片 CSU32P20"
       }
     },
     {
@@ -237,41 +237,13 @@
       "brand": "",
       "model": "ETA9084",
       "qty_hint": "1",
-      "side": "充电盒",
+      "side": "",
       "role": "主控/蓝牙",
       "evidence": {
         "value": "ETA9084",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "充电盒采用Type-C接口输入电源，输入端有微源LP5306进行过压过流保护，钰泰ETA9084功能丰富，负责电池的充放电和保护，带指示灯控制，芯海科技的CSU32P20单片机负责充电盒其他功能控制；采用的软包电池来自重庆紫建，容量410mAh。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "CSU32P20",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "CSU32P20",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "充电盒采用Type-C接口输入电源，输入端有微源LP5306进行过压过流保护，钰泰ETA9084功能丰富，负责电池的充放电和保护，带指示灯控制，芯海科技的CSU32P20单片机负责充电盒其他功能控制；采用的软包电池来自重庆紫建，容量410mAh。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "络达AB1536",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "络达AB1536",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "耳机的主控芯片为络达AB1536，支持蓝牙5.0和络达MCSync真无线连接技术，集成存储器、锂电池充电器等，支持降噪和回声消除，集成度高、外围电路精简。"
+        "source_text": "电池容量：410\n芯片 络达 AB1536\n芯片 络达MCSync\n芯片 ETA9084\n芯片 CSU32P20"
       }
     }
   ],
@@ -289,6 +261,26 @@
   "unboxing": null,
   "market": {
     "selling_points": [
+      {
+        "text": "标记/认证：产品亮点：13.4mm动圈单元、半入耳式无感佩戴、双麦克风通话降噪、智能入耳侦测和IPX5级防水防汗。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "标记/认证：产品亮点：13.4mm动圈单元、半入耳式无感佩戴、双麦克风通话降噪、智能入耳侦测和IPX5级防水防汗。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "标记/认证：产品亮点：13.4mm动圈单元、半入耳式无感佩戴、双麦克风通话降噪、智能入耳侦测和IPX5级防水防汗。"
+        }
+      },
+      {
+        "text": "1MORE万魔近期推出了一款新品ComfoBuds真无线蓝牙耳机，昵称为“舒适豆”，但它没有采用万魔真无线耳机 […]\n产品亮点：13.4mm动圈单元、半入耳式无感佩戴、双麦克风通话降噪、智能入耳侦测和IPX5级防水防汗。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "1MORE万魔近期推出了一款新品ComfoBuds真无线蓝牙耳机，昵称为“舒适豆”，但它没有采用万魔真无线耳机 […]\n产品亮点：13.4mm动圈单元、半入耳式无感佩戴、双麦克风通话降噪、智能入耳侦测和IPX5级防水防汗。",
+          "confidence": 0.67,
+          "source_type": "text",
+          "source_text": "1MORE万魔近期推出了一款新品ComfoBuds真无线蓝牙耳机，昵称为“舒适豆”，但它没有采用万魔真无线耳机 […]\n产品亮点：13.4mm动圈单元、半入耳式无感佩戴、双麦克风通话降噪、智能入耳侦测和IPX5级防水防汗。"
+        }
+      },
       {
         "text": "产品亮点：13.4mm动圈单元、半入耳式无感佩戴、双麦克风通话降噪、智能入耳侦测和IPX5级防水防汗。",
         "tag": "降噪",
@@ -328,33 +320,13 @@
           "source_type": "text",
           "source_text": "耳机采用FPC式蓝牙天线传输信号，双天线设计，抗干扰能力更强；整机四麦克风用于通话降噪，动圈单元尺寸约13.5mm，有红外线距离传感器用于智能入耳侦测功能，有用于敲击检测的加速度传感器，软包电池容量35mAh，功能齐全。"
         }
-      },
-      {
-        "text": "降噪麦克风的拾音孔位置，外侧防尘网也是不锈钢材质。",
-        "tag": "降噪",
-        "evidence": {
-          "value": "降噪麦克风的拾音孔位置，外侧防尘网也是不锈钢材质。",
-          "confidence": 0.55,
-          "source_type": "text",
-          "source_text": "降噪麦克风的拾音孔位置，外侧防尘网也是不锈钢材质。"
-        }
-      },
-      {
-        "text": "C口支持正反插，可以盲操作，使用方便，随着手机快充技术的发展目前已经比较普及。",
-        "tag": "长续航",
-        "evidence": {
-          "value": "C口支持正反插，可以盲操作，使用方便，随着手机快充技术的发展目前已经比较普及。",
-          "confidence": 0.73,
-          "source_type": "text",
-          "source_text": "C口支持正反插，可以盲操作，使用方便，随着手机快充技术的发展目前已经比较普及。"
-        }
       }
     ],
     "scenarios": [
       "运动",
       "通话"
     ],
-    "positioning_summary": "产品亮点：13.4mm动圈单元、半入耳式无感佩戴、双麦克风通话降噪、智能入耳侦测和IPX5级防水防汗。",
+    "positioning_summary": "标记/认证：产品亮点：13.4mm动圈单元、半入耳式无感佩戴、双麦克风通话降噪、智能入耳侦测和IPX5级防水防汗。",
     "launch_date": null,
     "best_report_id": "58879",
     "best_video_id": null

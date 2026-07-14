@@ -21,53 +21,53 @@
   "latest_published": "2021-09-02",
   "internal_match_suggestions": [],
   "cost_snapshot": {
-    "main_chip": "恒玄BES2500",
+    "main_chip": "络达AIROHA",
     "pmic_case": "",
-    "battery_ear": "电池",
-    "battery_case": "40 mAh",
+    "battery_ear": "700 mAh",
+    "battery_case": "电池",
     "speaker": "喇叭单元",
-    "materials": "塑料、PC",
-    "weight_g": "45g",
+    "materials": "硅胶",
+    "weight_g": "87.9g",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
-    "bluetooth": "5.2",
-    "bom_row_count": 16,
+    "bluetooth": "4.2",
+    "bom_row_count": 13,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
     "sales_hint": null,
     "data_completeness": 0.83,
-    "best_report_id": "89339",
+    "best_report_id": "27539",
     "best_video_id": null
   },
   "bom_table": [
-    {
-      "component": "主板/PCBA",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "主板/PCBA",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "主板位于充电座舱底部，Type-C充电接口母座焊接在主板中间位置。"
-      }
-    },
     {
       "component": "充电仓",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "充电盒",
       "role": "major",
       "evidence": {
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "飞智X1低延迟蓝牙耳机充电盒正面特写，采用了立式的圆角方形设计，内部结构显露形成不规则腰线，腰线中间位置是指示灯。赛博灰配色，机身采用了哑光材质，触感细腻，握持舒适。"
+        "source_text": "充电盒顶部有酷我的英文logo。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒的内部，电池叠放在主板上。"
       }
     },
     {
@@ -75,13 +75,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "充电盒",
       "role": "major",
       "evidence": {
         "value": "电池",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "侧边是中英文介绍的产品部分参数信息。型号：FLYDIGI Cyberfox X1，发声单元：13.4mm动圈，电池类型：可充电锂离子电池，电池容量：40mAh（耳机）/400mAh（耳机盒），音乐播放时间：6h，充电时间：1.5h（整机），生产商：上海飞智电子科技有限公司。"
+        "source_text": "充电盒底部有产品的相关信息，产品名称：酷我真无线蓝牙耳机，型号：KUWO-X1，充电盒电池额定容量：700mAh 输出：5V---300mA 输入：5V---1A，CMIT ID：2019DP0535，酷我科技。"
       }
     },
     {
@@ -89,41 +89,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
+      "side": "耳机",
       "role": "major",
       "evidence": {
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "通话降噪麦克风开孔特写。"
-      }
-    },
-    {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "喇叭单元",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "飞智X1采用了121dB超高灵敏度的13.4mm大动圈单元，搭配PU复合镀钛振膜喇叭，提供高灵敏度和高解析力；搭载了自研的第三代Foxspeed低延迟技术，全链路延迟可低至50ms；还支持ENC通话降噪，配备有专属APP，拥有6h的单次续航和30h的整体续航。下面就来看看这款产品的内部结构配置吧~"
-      }
-    },
-    {
-      "component": "降噪系统",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "降噪系统",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "飞智X1采用了121dB超高灵敏度的13.4mm大动圈单元，搭配PU复合镀钛振膜喇叭，提供高灵敏度和高解析力；搭载了自研的第三代Foxspeed低延迟技术，全链路延迟可低至50ms；还支持ENC通话降噪，配备有专属APP，拥有6h的单次续航和30h的整体续航。下面就来看看这款产品的内部结构配置吧~"
+        "source_text": "耳机上的麦克风口。"
       }
     },
     {
@@ -137,7 +109,49 @@
         "value": "天线",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "主板背部还设置有契合耳机柄外壳的框架，起到固定和保护主板的作用。上方还贴有FPC蓝牙天线。"
+        "source_text": "耳机主板内的立体结构天线。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "酷我X1升级版真无线蓝牙耳机配备了石墨烯振膜单元，带来更好的音质表现。配备双全指向拾音麦克风，搭配智能降噪技术，保证声音稳定清晰。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面有三颗LED指示灯，分别是左耳机充电指示灯，充电盒充电指示灯，右耳机充电指示灯。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒内部的耳机座仓和充电触点特写。"
       }
     },
     {
@@ -151,119 +165,63 @@
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "飞智X1在外观设计上延续了上代银狐T1的赛博朋克风格，但在细节上做了更进一步的优化。耳机为柄状的半入耳式设计，耳机曲线与耳廓贴合紧密，以提供舒适稳固的佩戴；而背部触控板采用了全新的“三角能量柱”设计，搭配赛博灰配色和机甲型号，整体观感极为炫酷。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "飞智X1低延迟蓝牙耳机充电盒正面特写，采用了立式的圆角方形设计，内部结构显露形成不规则腰线，腰线中间位置是指示灯。赛博灰配色，机身采用了哑光材质，触感细腻，握持舒适。"
-      }
-    },
-    {
-      "component": "外壳结构",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "外壳结构",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "前腔内扬声器背部设置有海绵垫，四周调音孔通过防尘网覆盖。"
-      }
-    },
-    {
-      "component": "充电触点",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "为耳机充电的Pogo Pin连接器。"
+        "source_text": "耳机上的按键采用凹口型唱片圆纹式样的设计。"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "思远半导体\nSY8801",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "思远半导体\nSY8801",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "TPS思远半导体\nSY8801\nTWS耳机充电仓SOC，专为TWS耳机充电仓设计，在确保安全、高可靠性能的设计基础上（支持28V输入耐压，内置全功能的充放电过压、过流、过温、短路保护等功能），还集成了I2C通讯功能和内部通讯隔离功能。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "SY8801",
+      "model": "络达AIROHA",
       "qty_hint": "1",
       "side": "",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "SY8801",
+        "value": "络达AIROHA",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "思远SY8801集成的内部通讯隔离模块，极大地优化了智能TWS充电仓的功能设计，无需复杂的外围电路，MCU通过连接控制SY8801即可实现。"
+        "source_text": "络达AIROHA AB1526P IC。"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "恒玄BES2500",
+      "model": "AB1526",
       "qty_hint": "1",
       "side": "",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "恒玄BES2500",
+        "value": "AB1526",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "BES恒玄BES2500系列蓝牙音频SoC，是恒玄新一代蓝牙音频SoC，均支持蓝牙5.2，不同后缀配置和功能不相同。"
+        "source_text": "络达AIROHA AB1526P IC。"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "恒玄BES2500IUC",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "恒玄BES2500IUC",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "恒玄BES2500IUC/IU/IZ系列，支持蓝牙5.2，超低底噪，512K SRAM, 2M/4M FLASH，为高性价比方案。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "BES2500",
+      "model": "AB1526",
       "qty_hint": "1",
       "side": "耳机",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "BES2500",
+        "value": "AB1526",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "据我爱音频网拆解了解到，目前\n荣耀、OPPO等品牌旗下多款产品已采用了BES2500系列\n，\n三星、小米、OPPO、JBL、万魔、荣耀、百度、一加、传音等品牌\n的真无线耳机大量采用了恒玄的方案。"
+        "source_text": "AB1526P是AIROHA络达公司推出的TWS真无线蓝牙耳机解决方案，AB1526是新一代的单芯片音频解决方案，里面内置了用于高保真音频应用的基带和发射器。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "络达AIROHA",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "络达AIROHA",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "酷我X1升级版真无线蓝牙耳机络达AIROHA AB1526P蓝牙耳机解决方案，具有低功耗、高性能的特点，并且支持降噪、外接存储等功能，兼容性强等特点。"
       }
     }
   ],
@@ -291,6 +249,16 @@
           "confidence": 0.67,
           "source_type": "text",
           "source_text": "飞智X1采用了121dB超高灵敏度的13.4mm大动圈单元，搭配PU复合镀钛振膜喇叭，提供高灵敏度和高解析力；搭载了自研的第三代Foxspeed低延迟技术，全链路延迟可低至50ms；还支持ENC通话降噪，配备有专属APP，拥有6h的单次续航和30h的整体续航。"
+        }
+      },
+      {
+        "text": "耳机为柄状的半入耳式设计，耳机曲线与耳廓贴合紧 […]\n飞智X1采用了121dB超高灵敏度的13.4mm大动圈单元，搭配PU复合镀钛振膜喇叭，提供高灵敏度和高解析力；搭载了自研的第三代Foxspeed低延迟技术，全链路延迟可低至50ms；还支持ENC通话降噪，配备有专属APP，拥有6h的单次续航和30h的整体续航。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "耳机为柄状的半入耳式设计，耳机曲线与耳廓贴合紧 […]\n飞智X1采用了121dB超高灵敏度的13.4mm大动圈单元，搭配PU复合镀钛振膜喇叭，提供高灵敏度和高解析力；搭载了自研的第三代Foxspeed低延迟技术，全链路延迟可低至50ms；还支持ENC通话降噪，配备有专属APP，拥有6h的单次续航和30h的整体续航。",
+          "confidence": 0.63,
+          "source_type": "text",
+          "source_text": "耳机为柄状的半入耳式设计，耳机曲线与耳廓贴合紧 […]\n飞智X1采用了121dB超高灵敏度的13.4mm大动圈单元，搭配PU复合镀钛振膜喇叭，提供高灵敏度和高解析力；搭载了自研的第三代Foxspeed低延迟技术，全链路延迟可低至50ms；还支持ENC通话降噪，配备有专属APP，拥有6h的单次续航和30h的整体续航。"
         }
       },
       {
@@ -331,16 +299,6 @@
           "confidence": 0.75,
           "source_type": "text",
           "source_text": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、一加等众多知名品牌\n采用。"
-        }
-      },
-      {
-        "text": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被一加、\n公牛\n、\nMarshall\n、\n声阔\n、\nJBL\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技等众多知名品牌\n采用。",
-        "tag": "其他",
-        "evidence": {
-          "value": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被一加、\n公牛\n、\nMarshall\n、\n声阔\n、\nJBL\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技等众多知名品牌\n采用。",
-          "confidence": 0.75,
-          "source_type": "text",
-          "source_text": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被一加、\n公牛\n、\nMarshall\n、\n声阔\n、\nJBL\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技等众多知名品牌\n采用。"
         }
       }
     ],

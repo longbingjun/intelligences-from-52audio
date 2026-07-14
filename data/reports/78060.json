@@ -12,7 +12,7 @@
   "author": "GiGi24",
   "summary": "TWS耳机白牌市场体量非常庞大，据我爱音频网在2020年10月根据供应链信息做的不完全统计，白牌AirPods […]",
   "captured_at": "2026-07-14T02:10:53+00:00",
-  "data_completeness": 0.706,
+  "data_completeness": 0.598,
   "views": {
     "market": {
       "brand": "",
@@ -40,6 +40,16 @@
             "confidence": 0.68,
             "source_type": "text",
             "source_text": "一、外观展示\n壳体上贴有一张保护膜，印有产品特点“终极版本，六轴陀螺仪，三咪混噪，通话降噪”。"
+          }
+        },
+        {
+          "text": "TWS耳机白牌市场体量非常庞大，据我爱音频网在2020年10月根据供应链信息做的不完全统计，白牌AirPods […]\n主动降噪效果不错，通话降噪和通透模式一般，基本的按压触控、音频共享、查找定位功能都有。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "TWS耳机白牌市场体量非常庞大，据我爱音频网在2020年10月根据供应链信息做的不完全统计，白牌AirPods […]\n主动降噪效果不错，通话降噪和通透模式一般，基本的按压触控、音频共享、查找定位功能都有。",
+            "confidence": 0.6,
+            "source_type": "text",
+            "source_text": "TWS耳机白牌市场体量非常庞大，据我爱音频网在2020年10月根据供应链信息做的不完全统计，白牌AirPods […]\n主动降噪效果不错，通话降噪和通透模式一般，基本的按压触控、音频共享、查找定位功能都有。"
           }
         },
         {
@@ -82,13 +92,12 @@
     },
     "cost": {
       "major_parts": [
-        "主板/PCBA",
-        "麦克风",
         "充电仓",
         "电池",
-        "喇叭单元",
+        "麦克风",
         "降噪系统",
-        "天线"
+        "主板/PCBA",
+        "喇叭单元"
       ],
       "chip_modules": [
         {
@@ -136,34 +145,6 @@
       ],
       "bom_table": [
         {
-          "component": "主板/PCBA",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "充电盒",
-          "role": "major",
-          "evidence": {
-            "value": "主板/PCBA",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "主板位于充电盒底部，使用螺丝固定。"
-          }
-        },
-        {
-          "component": "麦克风",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "major",
-          "evidence": {
-            "value": "麦克风",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "除空间音频外，卖家宣传耳机采用恒玄芯片，支持主动降噪，三麦克风通话降噪方案，有抗风噪设计；耳机还采用液态硅胶喇叭提升音质，看起来成本很高，具体用料如何一起来看我爱音频网的详细拆解。"
-          }
-        },
-        {
           "component": "充电仓",
           "brand": "",
           "model": "",
@@ -174,7 +155,7 @@
             "value": "充电仓",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "充电盒底部特写。"
+            "source_text": "主板位于充电盒底部，使用螺丝固定。"
           }
         },
         {
@@ -192,6 +173,48 @@
           }
         },
         {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "这颗MEMS硅麦是意芯微电子的IM2718T381-G21A，专为ANC主动降噪功能设计，是一颗高性能高可靠性的全向模拟MEMS麦克风，其内部集成了MEMS麦克风，阻抗转换器和输出放大器，具有高灵敏度和高信噪比。"
+          }
+        },
+        {
+          "component": "降噪系统",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "降噪系统",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "主动降噪效果不错，通话降噪和通透模式一般，基本的按压触控、音频共享、查找定位功能都有。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "主板位于充电盒底部，使用螺丝固定。"
+          }
+        },
+        {
           "component": "喇叭单元",
           "brand": "",
           "model": "",
@@ -206,34 +229,6 @@
           }
         },
         {
-          "component": "降噪系统",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "major",
-          "evidence": {
-            "value": "降噪系统",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "除空间音频外，卖家宣传耳机采用恒玄芯片，支持主动降噪，三麦克风通话降噪方案，有抗风噪设计；耳机还采用液态硅胶喇叭提升音质，看起来成本很高，具体用料如何一起来看我爱音频网的详细拆解。"
-          }
-        },
-        {
-          "component": "天线",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "",
-          "role": "major",
-          "evidence": {
-            "value": "天线",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "丝印A0730A的BLE广播芯片，用于弹窗显示，旁边是其板载天线。"
-          }
-        },
-        {
           "component": "触控/按键",
           "brand": "",
           "model": "",
@@ -244,21 +239,7 @@
             "value": "触控/按键",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "实际体验过程中，这款白牌AirPods Pro的确可以实现空间音频功能，对音源没有要求，播放音乐时也可以开启，看视频时体验与正品相近，身体移动声音效果切换的也比较自然。主动降噪效果不错，通话降噪和通透模式一般，基本的按压触控、音频共享、查找定位功能都有。"
-          }
-        },
-        {
-          "component": "指示灯",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "充电盒",
-          "role": "minor",
-          "evidence": {
-            "value": "指示灯",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "充电盒指示灯位置没有漏光。"
+            "source_text": "主动降噪效果不错，通话降噪和通透模式一般，基本的按压触控、音频共享、查找定位功能都有。"
           }
         },
         {
@@ -272,7 +253,7 @@
             "value": "外壳结构",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "电池没有固定，可直接取出，通过导线与主板相连。另外一条FPC上有前馈麦克风，还连接着前腔的元器件。"
+            "source_text": "前腔结构展示，扬声器单元固定在一个黑色支架上。"
           }
         },
         {
@@ -280,13 +261,13 @@
           "brand": "",
           "model": "恒玄BES2300HP3",
           "qty_hint": "1",
-          "side": "耳机",
+          "side": "",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "恒玄BES2300HP3",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "这款白牌AirPods Pro的主控芯片是恒玄BES2300HP3，近期有不少品牌降噪耳机也采用了这颗芯片，据悉这是BES2300系列支持双馈降噪型号中性价比较高的一款。"
+            "source_text": "电池容量：300\n芯片 恒玄BES2300HP3\n芯片 BES2300\n芯片 BES2300HP"
           }
         },
         {
@@ -294,76 +275,29 @@
           "brand": "",
           "model": "BES2300HP",
           "qty_hint": "1",
-          "side": "耳机",
+          "side": "",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "BES2300HP",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "这款白牌AirPods Pro的主控芯片是恒玄BES2300HP3，近期有不少品牌降噪耳机也采用了这颗芯片，据悉这是BES2300系列支持双馈降噪型号中性价比较高的一款。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "BES2300",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "BES2300",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "BES2300系列是全集成自适应主动降噪方案，支持蓝牙 5.0、IBRT低频转发技术和双模蓝牙 4.2，它还支持第三代 FWS 全无线立体声技术、双麦克风等，采用 28nm HKMG CMOS工艺、BGA 封装。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "BES2300",
-          "qty_hint": "1",
-          "side": "耳机",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "BES2300",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "BES2300支持高性能的自适应主动降噪技术，可以让高端主动降噪耳机使用一颗全集成芯片实现高音质和主动降噪。"
+            "source_text": "电池容量：300\n芯片 恒玄BES2300HP3\n芯片 BES2300\n芯片 BES2300HP"
           }
         }
       ],
       "supply_hints": [
         {
-          "value": "TWS耳机白牌市场体量非常庞大，据我爱音频网在2020年10月根据供应链信息做的不完全统计，\n白牌AirPods出货量有6亿之多\n，在数量上远超品牌TWS耳机销量，在中低端市场中占据大量份额。",
+          "value": "TWS耳机白牌市场体量非常庞大，据我爱音频网在2020年10月根据供应链信息做的不完全统计，白牌AirPods […]\n主动降噪效果不错，通话降噪和通透模式一般，基本的按压触控、音频共享、查找定位功能都有。",
           "evidence": {
-            "value": "TWS耳机白牌市场体量非常庞大，据我爱音频网在2020年10月根据供应链信息做的不完全统计，\n白牌AirPods出货量有6亿之多\n，在数量上远超品牌TWS耳机销量，在中低端市场中占据大量份额。",
+            "value": "TWS耳机白牌市场体量非常庞大，据我爱音频网在2020年10月根据供应链信息做的不完全统计，白牌AirPods […]\n主动降噪效果不错，通话降噪和通透模式一般，基本的按压触控、音频共享、查找定位功能都有。",
             "confidence": 0.6,
             "source_type": "text",
-            "source_text": "TWS耳机白牌市场体量非常庞大，据我爱音频网在2020年10月根据供应链信息做的不完全统计，\n白牌AirPods出货量有6亿之多\n，在数量上远超品牌TWS耳机销量，在中低端市场中占据大量份额。"
-          }
-        },
-        {
-          "value": "除了错综复杂的利益关系外，白牌AirPods的存在还有一个原因，很多方案商用这类产品测试产品或者算法等，以实现某些功能或者与正品相近的效果。",
-          "evidence": {
-            "value": "除了错综复杂的利益关系外，白牌AirPods的存在还有一个原因，很多方案商用这类产品测试产品或者算法等，以实现某些功能或者与正品相近的效果。",
-            "confidence": 0.6,
-            "source_type": "text",
-            "source_text": "除了错综复杂的利益关系外，白牌AirPods的存在还有一个原因，很多方案商用这类产品测试产品或者算法等，以实现某些功能或者与正品相近的效果。"
+            "source_text": "TWS耳机白牌市场体量非常庞大，据我爱音频网在2020年10月根据供应链信息做的不完全统计，白牌AirPods […]\n主动降噪效果不错，通话降噪和通透模式一般，基本的按压触控、音频共享、查找定位功能都有。"
           }
         }
       ],
       "packaging_notes": [],
-      "process_hints": [
-        {
-          "value": "金属尾塞正负极焊接至主板。",
-          "evidence": {
-            "value": "金属尾塞正负极焊接至主板。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "金属尾塞正负极焊接至主板。"
-          }
-        }
-      ],
+      "process_hints": [],
       "summary_image_urls": [],
       "summary_text": ""
     },
@@ -372,25 +306,12 @@
       "earbud_type": "入耳",
       "materials": [
         "硅胶",
-        "塑料",
-        "PC",
         "液态硅胶"
       ],
       "ip_rating": null,
-      "weight_g": "55.5克",
-      "dimensions": [
-        "扬声器单元尺寸约12.1mm。"
-      ],
+      "weight_g": null,
+      "dimensions": [],
       "internal_structure": [
-        {
-          "value": "主板位于充电盒底部，使用螺丝固定。",
-          "evidence": {
-            "value": "主板位于充电盒底部，使用螺丝固定。",
-            "confidence": 0.74,
-            "source_type": "text",
-            "source_text": "主板位于充电盒底部，使用螺丝固定。"
-          }
-        },
         {
           "value": "充电盒内给左右耳机充电的金属弹片正负极分别通过导线与主板连接，电池、无线充电接收线圈也分别通过导线与主板相连。",
           "evidence": {
@@ -398,6 +319,15 @@
             "confidence": 0.74,
             "source_type": "text",
             "source_text": "充电盒内给左右耳机充电的金属弹片正负极分别通过导线与主板连接，电池、无线充电接收线圈也分别通过导线与主板相连。"
+          }
+        },
+        {
+          "value": "这颗MEMS硅麦是意芯微电子的IM2718T381-G21A，专为ANC主动降噪功能设计，是一颗高性能高可靠性的全向模拟MEMS麦克风，其内部集成了MEMS麦克风，阻抗转换器和输出放大器，具有高灵敏度和高信噪比。",
+          "evidence": {
+            "value": "这颗MEMS硅麦是意芯微电子的IM2718T381-G21A，专为ANC主动降噪功能设计，是一颗高性能高可靠性的全向模拟MEMS麦克风，其内部集成了MEMS麦克风，阻抗转换器和输出放大器，具有高灵敏度和高信噪比。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "这颗MEMS硅麦是意芯微电子的IM2718T381-G21A，专为ANC主动降噪功能设计，是一颗高性能高可靠性的全向模拟MEMS麦克风，其内部集成了MEMS麦克风，阻抗转换器和输出放大器，具有高灵敏度和高信噪比。"
           }
         },
         {
@@ -410,21 +340,21 @@
           }
         },
         {
-          "value": "前馈麦克风的拾音孔，有防尘网。",
+          "value": "主动降噪效果不错，通话降噪和通透模式一般，基本的按压触控、音频共享、查找定位功能都有。",
           "evidence": {
-            "value": "前馈麦克风的拾音孔，有防尘网。",
+            "value": "主动降噪效果不错，通话降噪和通透模式一般，基本的按压触控、音频共享、查找定位功能都有。",
             "confidence": 0.74,
             "source_type": "text",
-            "source_text": "前馈麦克风的拾音孔，有防尘网。"
+            "source_text": "主动降噪效果不错，通话降噪和通透模式一般，基本的按压触控、音频共享、查找定位功能都有。"
           }
         },
         {
-          "value": "15μH的贴片电感，用于电池升压。",
+          "value": "主板位于充电盒底部，使用螺丝固定。",
           "evidence": {
-            "value": "15μH的贴片电感，用于电池升压。",
+            "value": "主板位于充电盒底部，使用螺丝固定。",
             "confidence": 0.74,
             "source_type": "text",
-            "source_text": "15μH的贴片电感，用于电池升压。"
+            "source_text": "主板位于充电盒底部，使用螺丝固定。"
           }
         },
         {
@@ -457,15 +387,6 @@
       ],
       "fastener_type": [
         {
-          "value": "耳塞为槽式卡扣设计，与正品相似。",
-          "evidence": {
-            "value": "耳塞为槽式卡扣设计，与正品相似。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "耳塞为槽式卡扣设计，与正品相似。"
-          }
-        },
-        {
           "value": "主板位于充电盒底部，使用螺丝固定。",
           "evidence": {
             "value": "主板位于充电盒底部，使用螺丝固定。",
@@ -475,12 +396,12 @@
           }
         },
         {
-          "value": "固定前馈麦克风的胶水。",
+          "value": "主板位于充电盒底部，使用螺丝固定。",
           "evidence": {
-            "value": "固定前馈麦克风的胶水。",
+            "value": "主板位于充电盒底部，使用螺丝固定。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "固定前馈麦克风的胶水。"
+            "source_text": "主板位于充电盒底部，使用螺丝固定。"
           }
         }
       ],
@@ -493,103 +414,34 @@
             "source_type": "text",
             "source_text": "前馈麦克风的拾音孔，有防尘网。"
           }
-        }
-      ],
-      "wear_design": [
-        {
-          "value": "耳塞特写，比较光滑但不够细腻。",
-          "evidence": {
-            "value": "耳塞特写，比较光滑但不够细腻。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "耳塞特写，比较光滑但不够细腻。"
-          }
         },
         {
-          "value": "耳塞为槽式卡扣设计，与正品相似。",
+          "value": "前馈麦克风的拾音孔，有防尘网。",
           "evidence": {
-            "value": "耳塞为槽式卡扣设计，与正品相似。",
-            "confidence": 0.7,
+            "value": "前馈麦克风的拾音孔，有防尘网。",
+            "confidence": 0.68,
             "source_type": "text",
-            "source_text": "耳塞为槽式卡扣设计，与正品相似。"
-          }
-        },
-        {
-          "value": "硅胶耳塞内侧特写。",
-          "evidence": {
-            "value": "硅胶耳塞内侧特写。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "硅胶耳塞内侧特写。"
+            "source_text": "前馈麦克风的拾音孔，有防尘网。"
           }
         }
       ],
-      "key_image_urls": [
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/04/2021041611102592.jpg",
-          "alt": "除了苹果、三星，第一个搞定空间音频的真无线耳机竟然是这款！-我爱音频网",
-          "caption": "",
-          "section_hint": "其他",
-          "score": 1
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/04/2021041611103133.jpg",
-          "alt": "除了苹果、三星，第一个搞定空间音频的真无线耳机竟然是这款！-我爱音频网",
-          "caption": "",
-          "section_hint": "其他",
-          "score": 1
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/04/2021041611103694.jpg",
-          "alt": "除了苹果、三星，第一个搞定空间音频的真无线耳机竟然是这款！-我爱音频网",
-          "caption": "",
-          "section_hint": "其他",
-          "score": 1
-        }
-      ],
+      "wear_design": [],
+      "key_image_urls": [],
       "assembly_notes": [
-        "主板位于充电盒底部，使用螺丝固定。",
         "充电盒内给左右耳机充电的金属弹片正负极分别通过导线与主板连接，电池、无线充电接收线圈也分别通过导线与主板相连。",
+        "这颗MEMS硅麦是意芯微电子的IM2718T381-G21A，专为ANC主动降噪功能设计，是一颗高性能高可靠性的全向模拟MEMS麦克风，其内部集成了MEMS麦克风，阻抗转换器和输出放大器，具有高灵敏度和高信噪比。",
         "除空间音频外，卖家宣传耳机采用恒玄芯片，支持主动降噪，三麦克风通话降噪方案，有抗风噪设计；耳机还采用液态硅胶喇叭提升音质，看起来成本很高，具体用料如何一起来看我爱音频网的详细拆解。",
-        "前馈麦克风的拾音孔，有防尘网。"
+        "主动降噪效果不错，通话降噪和通透模式一般，基本的按压触控、音频共享、查找定位功能都有。"
       ],
       "ip_rating_evidence": null,
-      "weight_evidence": {
-        "value": "55.5克",
-        "confidence": 0.75,
-        "source_type": "text",
-        "source_text": "55.5克"
-      }
+      "weight_evidence": null,
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": null,
+      "weight_earbud_evidence": null
     },
     "hardware": {
       "specs": [
-        {
-          "param": "充电方式",
-          "value": "我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对其进行有线充电测试，充电功率约1.2W。",
-          "unit": "",
-          "brand": "",
-          "model": "",
-          "confidence": 0.75,
-          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对其进行有线充电测试，充电功率约1.2W。"
-        },
-        {
-          "param": "充电方式",
-          "value": "充电盒支持无线充电功能，无线充电时机身温度较高。",
-          "unit": "",
-          "brand": "",
-          "model": "",
-          "confidence": 0.75,
-          "source_ref": "充电盒支持无线充电功能，无线充电时机身温度较高。"
-        },
-        {
-          "param": "充电方式",
-          "value": "背部结构展示，胶带缠绕在了无线充电接收线圈上。",
-          "unit": "",
-          "brand": "",
-          "model": "",
-          "confidence": 0.75,
-          "source_ref": "背部结构展示，胶带缠绕在了无线充电接收线圈上。"
-        },
         {
           "param": "充电方式",
           "value": "充电盒内给左右耳机充电的金属弹片正负极分别通过导线与主板连接，电池、无线充电接收线圈也分别通过导线与主板相连。",
@@ -601,39 +453,84 @@
         },
         {
           "param": "充电方式",
-          "value": "无线充电接收线圈特写。",
+          "value": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对其进行有线充电测试，充电功率约1.2W。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "无线充电接收线圈特写。"
+          "source_ref": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对其进行有线充电测试，充电功率约1.2W。"
         },
         {
           "param": "充电方式",
-          "value": "无线充电接收芯片，丝印G68 QC13。",
+          "value": "充电方式：充电盒支持无线充电功能，无线充电时机身温度较高。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "无线充电接收芯片，丝印G68 QC13。"
+          "source_ref": "充电方式：充电盒支持无线充电功能，无线充电时机身温度较高。"
+        },
+        {
+          "param": "充电方式",
+          "value": "充电方式：背部结构展示，胶带缠绕在了无线充电接收线圈上。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电方式：背部结构展示，胶带缠绕在了无线充电接收线圈上。"
+        },
+        {
+          "param": "充电方式",
+          "value": "充电方式：充电盒内给左右耳机充电的金属弹片正负极分别通过导线与主板连接，电池、无线充电接收线圈也分别通过导线与主板相连。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电方式：充电盒内给左右耳机充电的金属弹片正负极分别通过导线与主板连接，电池、无线充电接收线圈也分别通过导线与主板相连。"
+        },
+        {
+          "param": "充电方式",
+          "value": "充电方式：无线充电接收线圈特写。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电方式：无线充电接收线圈特写。"
+        },
+        {
+          "param": "充电方式",
+          "value": "充电方式：无线充电接收芯片，丝印G68 QC13。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电方式：无线充电接收芯片，丝印G68 QC13。"
         },
         {
           "param": "充电接口",
-          "value": "充电接口特写，外面接口有金属环保护，内部接口用料一般。",
+          "value": "充电接口：充电接口特写，外面接口有金属环保护，内部接口用料一般。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "充电接口特写，外面接口有金属环保护，内部接口用料一般。"
+          "source_ref": "充电接口：充电接口特写，外面接口有金属环保护，内部接口用料一般。"
         },
         {
           "param": "充电接口",
-          "value": "Lightning充电接口特写。",
+          "value": "充电接口：Lightning充电接口特写。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "Lightning充电接口特写。"
+          "source_ref": "充电接口：Lightning充电接口特写。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电接口：Lightning\n标记/认证：充电盒采用软包电池，型号为CYZY 701230，额定电压3.7V，容量300mAh，能量1.110Wh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电接口：Lightning\n标记/认证：充电盒采用软包电池，型号为CYZY 701230，额定电压3.7V，容量300mAh，能量1.110Wh。"
         },
         {
           "param": "充电接口",
@@ -646,21 +543,21 @@
         },
         {
           "param": "标记/认证",
-          "value": "充电盒采用软包电池，型号为CYZY 701230，额定电压3.7V，容量300mAh，能量1.110Wh。",
+          "value": "充电接口：Lightning\n标记/认证：充电盒采用软包电池，型号为CYZY 701230，额定电压3.7V，容量300mAh，能量1.110Wh。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "充电盒采用软包电池，型号为CYZY 701230，额定电压3.7V，容量300mAh，能量1.110Wh。"
+          "source_ref": "充电接口：Lightning\n标记/认证：充电盒采用软包电池，型号为CYZY 701230，额定电压3.7V，容量300mAh，能量1.110Wh。"
         },
         {
           "param": "标记/认证",
-          "value": "软包电池信息，型号ZYD 400911，额定电压3.7V，容量25mAh。",
+          "value": "标记/认证：软包电池信息，型号ZYD 400911，额定电压3.7V，容量25mAh。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "软包电池信息，型号ZYD 400911，额定电压3.7V，容量25mAh。"
+          "source_ref": "标记/认证：软包电池信息，型号ZYD 400911，额定电压3.7V，容量25mAh。"
         },
         {
           "param": "电池容量",
@@ -674,19 +571,14 @@
       ]
     },
     "software": {
-      "bluetooth_version": "5.0",
+      "bluetooth_version": null,
       "codecs": [],
       "multipoint": [],
       "app_name": "",
       "app_features": [],
       "ota_support": [],
       "latency_notes": [],
-      "bluetooth_evidence": {
-        "value": "5.0",
-        "confidence": 0.85,
-        "source_type": "text",
-        "source_text": "蓝牙 5.0"
-      }
+      "bluetooth_evidence": null
     }
   }
 }

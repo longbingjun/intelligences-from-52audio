@@ -17,16 +17,16 @@
   "cost_snapshot": {
     "main_chip": "INJOINIC英集芯IP6818",
     "pmic_case": "",
-    "battery_ear": "40 mAh",
-    "battery_case": "4V/00mAh锂电池",
-    "speaker": "8.2mm 动圈单元",
-    "materials": "硅胶",
+    "battery_ear": "电池",
+    "battery_case": "40 mAh",
+    "speaker": "喇叭单元",
+    "materials": "",
     "weight_g": "48.4g",
     "weight_case_g": "",
-    "weight_earbud_g": "",
+    "weight_earbud_g": "4.1g",
     "ip_rating": "",
     "bluetooth": "5.3",
-    "bom_row_count": 16,
+    "bom_row_count": 10,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -37,59 +37,17 @@
   },
   "bom_table": [
     {
-      "component": "芯片/模组",
-      "brand": "INJOINIC英集芯",
-      "model": "INJOINIC英集芯IP6818",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "INJOINIC英集芯IP6818",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "主板上，采用了INJOINIC英集芯IP6818多功能电源管理SoC，集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示等功能，单芯片为充电盒提供完整的电源解决方案。"
-      }
-    },
-    {
       "component": "电池",
       "brand": "",
-      "model": "4V/00mAh锂电池",
-      "qty_hint": "1",
-      "side": "充电盒",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
       "role": "major",
       "evidence": {
-        "value": "4V/00mAh锂电池",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "充电盒内置400mAh锂电池，支持有线和无线两种方式输入电源。"
-      }
-    },
-    {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "8.2mm 动圈单元",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "8.2mm 动圈单元",
-        "confidence": 0.8,
-        "source_type": "summary_prose",
-        "source_text": "耳机内部搭载8.2mm动圈单元，内置LIDEA电的电子40mAh钢壳扣式电池，主控芯片采用了JL杰理AD6976D蓝牙音频SoC，支持蓝牙5.3，支持AAC、SBC编解码，支持噪声抑制和回声消除，以及单/双麦克风降噪；"
-      }
-    },
-    {
-      "component": "麦克风",
-      "brand": "",
-      "model": "麦克风",
-      "qty_hint": "2",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "麦克风",
-        "confidence": 0.78,
-        "source_type": "summary_prose",
-        "source_text": "耳机内部搭载8.2mm动圈单元，内置LIDEA电的电子40mAh钢壳扣式电池，主控芯片采用了JL杰理AD6976D蓝牙音频SoC，支持蓝牙5.3，支持AAC、SBC编解码，支持噪声抑制和回声消除，以及单/双麦克风降噪；"
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "IP6818内置MCU，可灵活定制 4/3/2/1颗LED电量显示；内置12bit ADC，可准确计算电池电量。"
       }
     },
     {
@@ -103,21 +61,7 @@
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "此次将要拆解的MOZOTER DBK02真无线耳机便是一款仅在海外销售的产品，充电盒设计有LED电量显示屏，可以实时查看剩余电量信息；耳机支持蓝牙5.3，提供Hi-Fi立体声音质和清晰通话效果，拥有单次4小时的音乐播放时间，还支持无线充电功能，提供便捷充电体验。下面就来看看这款产品的详细拆解报告吧~"
-      }
-    },
-    {
-      "component": "电池",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "电池",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "包装盒背面介绍有产品功能特点：运动佩戴、高清麦克风和轻量化设计；产品参数信息，蓝牙版本：V5.3+EDR，支持类型：A2DP/HFP/HSP/VARCP，扬声器：8.2mm*2，阻抗：16Ω，充电盒输入：5V/0.5A，传输距离：10米，耳机电池：40mAh/3.7V*2，充电盒电池：400mAh，待机时间：60小时，音乐播放时间：4小时；以及CE、FCC、RoHS认证标志等信息。"
+        "source_text": "三、我爱音频网总结\nMOZOTER DBK02真无线耳机在外观方面，圆角方形充电盒和柄状的入耳式耳机均采用了轻量化设计，整机重量约为48.4g，单只耳机重量仅约为4.1g，外出使用便携，佩戴轻盈舒适。"
       }
     },
     {
@@ -131,7 +75,7 @@
         "value": "主板/PCBA",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "取掉无线充电接收线圈，下方主板通过螺丝固定，主板上通过双面胶固定主板。"
+        "source_text": "取掉电池，下方主板结构一览。"
       }
     },
     {
@@ -139,13 +83,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "充电盒",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "包装盒背面介绍有产品功能特点：运动佩戴、高清麦克风和轻量化设计；产品参数信息，蓝牙版本：V5.3+EDR，支持类型：A2DP/HFP/HSP/VARCP，扬声器：8.2mm*2，阻抗：16Ω，充电盒输入：5V/0.5A，传输距离：10米，耳机电池：40mAh/3.7V*2，充电盒电池：400mAh，待机时间：60小时，音乐播放时间：4小时；以及CE、FCC、RoHS认证标志等信息。"
+        "source_text": "支持单/双麦克风降噪和杰理自研双麦ENC降噪算法。"
       }
     },
     {
@@ -173,7 +117,7 @@
         "value": "降噪系统",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "JL杰理AD6976D蓝牙音频SoC，支持蓝牙5.3，支持AAC、SBC编解码。内置32位 DSP，处理器运行频率最高160MHz，支持噪声抑制和回声消除，支持多波段均衡器。支持单/双麦克风降噪和杰理自研双麦ENC降噪算法。支持两路模拟麦克风放大，内置麦克风偏置。内置双路触摸功能。"
+        "source_text": "支持单/双麦克风降噪和杰理自研双麦ENC降噪算法。"
       }
     },
     {
@@ -191,45 +135,17 @@
       }
     },
     {
-      "component": "触控/按键",
+      "component": "芯片/模组",
       "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
+      "model": "IP6818",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
       "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
+        "value": "IP6818",
+        "confidence": 0.78,
         "source_type": "text",
-        "source_text": "耳机外侧外观一览，采用了亮面的烤漆质感，耳机柄背部设置有一颗用于功能控制的物理按键。"
-      }
-    },
-    {
-      "component": "充电触点",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "为耳机充电的Pogo Pin连接器特写。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机柄外侧指示灯特写，用于反馈蓝牙配对状态。"
+        "source_text": "IP6818内置MCU，可灵活定制 4/3/2/1颗LED电量显示；内置12bit ADC，可准确计算电池电量。"
       }
     },
     {
@@ -243,26 +159,26 @@
         "value": "INJOINIC英集芯IP6818",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "INJOINIC英集芯IP6818多功能电源管理SoC，集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示等，集成度非常高，单颗芯片即可为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+        "source_text": "标记/认证：INJOINIC英集芯IP6818多功能电源管理SoC，集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示等，集成度非常高，单颗芯片即可为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "IP6818",
+      "model": "INJOINIC英集芯IP6818",
       "qty_hint": "1",
-      "side": "",
+      "side": "充电盒",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "IP6818",
+        "value": "INJOINIC英集芯IP6818",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "IP6818 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸， 降低BOM成本。"
+        "source_text": "标记/认证：主板上，采用了INJOINIC英集芯IP6818多功能电源管理SoC，集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示等功能，单芯片为充电盒提供完整的电源解决方案。"
       }
     }
   ],
   "summary_image_urls": [],
-  "summary_text": "三、我爱音频网总结 MOZOTER DBK02真无线耳机在外观方面，圆角方形充电盒和柄状的入耳式耳机均采用了轻量化设计，整机重量约为48.4g，单只耳机重量仅约为4.1g，外出使用便携，佩戴轻盈舒适。充电盒搭载LED数字显示屏，能够更直观的获取充电盒和耳机的剩余电量信息。 内部主要配置方面，充电盒内置400mAh锂电池，支持有线和无线两种方式输入电源。主板上，采用了INJOINIC英集芯IP6818多功能电源管理SoC，集成Qi无线充接收、5V升压转换器、锂电池充电管理、电池电量指示等功能，单芯片为充电盒提供完整的电源解决方案。 耳机内部搭载8.2mm动圈单元，内置LIDEA电的电子40mAh钢壳扣式电池，主控芯片采用了JL杰理AD6976D蓝牙音频SoC，支持蓝牙5.3，支持AAC、SBC编解码，支持噪声抑制和回声消除，以及单/双麦克风降噪；配备有一颗MEMS麦克风拾音。",
+  "summary_text": "",
   "layer_refs": {
     "technical": [
       "report:160680"
@@ -276,6 +192,36 @@
   "market": {
     "selling_points": [
       {
+        "text": "标记/认证：IP6818内置MCU，可灵活定制 4/3/2/1颗LED电量显示；内置12bit ADC，可准确计算电池电量。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "标记/认证：IP6818内置MCU，可灵活定制 4/3/2/1颗LED电量显示；内置12bit ADC，可准确计算电池电量。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "标记/认证：IP6818内置MCU，可灵活定制 4/3/2/1颗LED电量显示；内置12bit ADC，可准确计算电池电量。"
+        }
+      },
+      {
+        "text": "跨境电商是国内产品销往海外市场的重要途径之一，近年来，我国跨境电商行业不断发展，市场规模持续扩大，产品种类也越 […]\n支持单/双麦克风降噪和杰理自研双麦ENC降噪算法。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "跨境电商是国内产品销往海外市场的重要途径之一，近年来，我国跨境电商行业不断发展，市场规模持续扩大，产品种类也越 […]\n支持单/双麦克风降噪和杰理自研双麦ENC降噪算法。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "跨境电商是国内产品销往海外市场的重要途径之一，近年来，我国跨境电商行业不断发展，市场规模持续扩大，产品种类也越 […]\n支持单/双麦克风降噪和杰理自研双麦ENC降噪算法。"
+        }
+      },
+      {
+        "text": "标记/认证：IP6818 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸， 降低BOM成本。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "标记/认证：IP6818 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸， 降低BOM成本。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "标记/认证：IP6818 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸， 降低BOM成本。"
+        }
+      },
+      {
         "text": "支持单/双麦克风降噪和杰理自研双麦ENC降噪算法。",
         "tag": "降噪",
         "evidence": {
@@ -286,33 +232,13 @@
         }
       },
       {
-        "text": "IP6818内置MCU，可灵活定制 4/3/2/1颗LED电量显示；内置12bit ADC，可准确计算电池电量。",
+        "text": "标记/认证：INJOINIC英集芯IP6818详细资料图。",
         "tag": "防水防尘",
         "evidence": {
-          "value": "IP6818内置MCU，可灵活定制 4/3/2/1颗LED电量显示；内置12bit ADC，可准确计算电池电量。",
-          "confidence": 0.58,
+          "value": "标记/认证：INJOINIC英集芯IP6818详细资料图。",
+          "confidence": 0.62,
           "source_type": "text",
-          "source_text": "IP6818内置MCU，可灵活定制 4/3/2/1颗LED电量显示；内置12bit ADC，可准确计算电池电量。"
-        }
-      },
-      {
-        "text": "取掉耳塞，耳机出音嘴特写，细密防尘网防护。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "取掉耳塞，耳机出音嘴特写，细密防尘网防护。",
-          "confidence": 0.58,
-          "source_type": "text",
-          "source_text": "取掉耳塞，耳机出音嘴特写，细密防尘网防护。"
-        }
-      },
-      {
-        "text": "三、我爱音频网总结\nMOZOTER DBK02真无线耳机在外观方面，圆角方形充电盒和柄状的入耳式耳机均采用了轻量化设计，整机重量约为48.4g，单只耳机重量仅约为4.1g，外出使用便携，佩戴轻盈舒适。",
-        "tag": "舒适佩戴",
-        "evidence": {
-          "value": "三、我爱音频网总结\nMOZOTER DBK02真无线耳机在外观方面，圆角方形充电盒和柄状的入耳式耳机均采用了轻量化设计，整机重量约为48.4g，单只耳机重量仅约为4.1g，外出使用便携，佩戴轻盈舒适。",
-          "confidence": 0.55,
-          "source_type": "text",
-          "source_text": "三、我爱音频网总结\nMOZOTER DBK02真无线耳机在外观方面，圆角方形充电盒和柄状的入耳式耳机均采用了轻量化设计，整机重量约为48.4g，单只耳机重量仅约为4.1g，外出使用便携，佩戴轻盈舒适。"
+          "source_text": "标记/认证：INJOINIC英集芯IP6818详细资料图。"
         }
       }
     ],
@@ -320,7 +246,7 @@
       "运动",
       "通话"
     ],
-    "positioning_summary": "支持单/双麦克风降噪和杰理自研双麦ENC降噪算法。",
+    "positioning_summary": "标记/认证：IP6818内置MCU，可灵活定制 4/3/2/1颗LED电量显示；内置12bit ADC，可准确计算电池电量。",
     "launch_date": null,
     "best_report_id": "160680",
     "best_video_id": null

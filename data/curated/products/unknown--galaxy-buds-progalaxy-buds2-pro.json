@@ -21,7 +21,7 @@
     "battery_case": "58 mAh",
     "speaker": "",
     "materials": "PC",
-    "weight_g": "57.4g",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "IPX7",
@@ -36,20 +36,6 @@
     "best_video_id": null
   },
   "bom_table": [
-    {
-      "component": "充电仓",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "充电仓",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "三星Galaxy Buds Pro和Galaxy Buds2 Pro在外观方面，延续了家族式的设计风格，采用了圆角矩形充电盒+豆式入耳式耳机的组合，具有很高的辨识度。Galaxy Buds Pro梵梦紫配色充电盒采用了具有金属光泽的磨砂质感，耳机还采用了光滑的亮面腔体，整体相较于Galaxy Buds2 Pro质感更强。"
-      }
-    },
     {
       "component": "电池",
       "brand": "",
@@ -69,13 +55,41 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "降噪系统",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "在刚刚过去的2022年，三星8月份发布了年度旗舰产品三星Galaxy Buds2 Pro，相较于上代产品三星Galaxy Buds Pro又迎来了多方面的升级，耳机体积缩小了15%，并通过优化通风孔，提供更舒适的佩戴；功能上升级蓝牙5.3标准，在未来还将可以支持LE Audio低功耗音频；支持三星SSC编解码器，可提供24bit/48kHz高保真音频；智能主动降噪、语音检测和语音通话等功能也得到了进一步提升。"
+        "source_text": "三星Galaxy Buds Pro：双向扬声器，音质细腻；主动降噪；5-18小时音乐播放；防水等级IPX7；三星Galaxy Buds2 Pro：带双扬声器的高保真音效；主动降噪；舒适佩戴；5-18H音乐播放。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Galaxy Buds Pro梵梦紫配色充电盒采用了具有金属光泽的磨砂质感，耳机还采用了光滑的亮面腔体，整体相较于Galaxy Buds2 Pro质感更强。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "麦克风\n三星Galaxy Buds Pro和Galaxy Buds2 Pro内部都搭载了三颗MEMS麦克风单元，Galaxy Buds2 Pro三颗均为高信噪比麦克风，Galaxy Buds Pro通话麦采用了高信噪比麦克风，三颗麦克风协同，用于主动降噪、通话降噪和环境音模式等功能拾音。"
       }
     },
     {
@@ -93,31 +107,17 @@
       }
     },
     {
-      "component": "麦克风",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "麦克风",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "麦克风"
-      }
-    },
-    {
       "component": "芯片/模组",
       "brand": "",
       "model": "恒玄BES2700YP",
       "qty_hint": "1",
-      "side": "耳机",
+      "side": "",
       "role": "主控/蓝牙",
       "evidence": {
         "value": "恒玄BES2700YP",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "三星Galaxy Buds2 Pro耳机主控芯片替换为了BES恒玄BES2700YP，是恒玄最新一代超低功耗、高集成度的蓝牙音频SoC，采用12nm工艺制程，集成双模蓝牙5.3，支持BT&BLE，主处理器内置Arm Cortex-M55 CPU，极大提升了芯片的运算性能，sensor hub子系统内置STAR-MC1 MCU和恒玄自研的神经网络处理器BECO NPU，在显著降低功耗的同时，实现丰富的应用处理能力。"
+        "source_text": "电池容量：58\n芯片 恒玄BES2700YP"
       }
     }
   ],
@@ -136,13 +136,23 @@
   "market": {
     "selling_points": [
       {
-        "text": "三星Galaxy Buds Pro：双向扬声器，音质细腻；主动降噪；5-18小时音乐播放；防水等级IPX7；三星Galaxy Buds2 Pro：带双扬声器的高保真音效；主动降噪；舒适佩戴；5-18H音乐播放。",
+        "text": "充电接口：Type-C\n标记/认证：三星Galaxy Buds Pro：双向扬声器，音质细腻；主动降噪；5-18小时音乐播放；防水等级IPX7；三星Galaxy Buds2 Pro：带双扬声器的高保真音效；主动降噪；舒适佩戴；5-18H音乐播放。",
         "tag": "降噪",
         "evidence": {
-          "value": "三星Galaxy Buds Pro：双向扬声器，音质细腻；主动降噪；5-18小时音乐播放；防水等级IPX7；三星Galaxy Buds2 Pro：带双扬声器的高保真音效；主动降噪；舒适佩戴；5-18H音乐播放。",
-          "confidence": 0.61,
+          "value": "充电接口：Type-C\n标记/认证：三星Galaxy Buds Pro：双向扬声器，音质细腻；主动降噪；5-18小时音乐播放；防水等级IPX7；三星Galaxy Buds2 Pro：带双扬声器的高保真音效；主动降噪；舒适佩戴；5-18H音乐播放。",
+          "confidence": 0.58,
           "source_type": "text",
-          "source_text": "三星Galaxy Buds Pro：双向扬声器，音质细腻；主动降噪；5-18小时音乐播放；防水等级IPX7；三星Galaxy Buds2 Pro：带双扬声器的高保真音效；主动降噪；舒适佩戴；5-18H音乐播放。"
+          "source_text": "充电接口：Type-C\n标记/认证：三星Galaxy Buds Pro：双向扬声器，音质细腻；主动降噪；5-18小时音乐播放；防水等级IPX7；三星Galaxy Buds2 Pro：带双扬声器的高保真音效；主动降噪；舒适佩戴；5-18H音乐播放。"
+        }
+      },
+      {
+        "text": "作为全球消费电子市场安卓阵营的头部品牌，三星在TWS耳机市场同样保持高标准，旗下“Galaxy Buds”系列 […]\n三星Galaxy Buds Pro：双向扬声器，音质细腻；主动降噪；5-18小时音乐播放；防水等级IPX7；三星Galaxy Buds2 Pro：带双扬声器的高保真音效；主动降噪；舒适佩戴；5-18H音乐播放。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "作为全球消费电子市场安卓阵营的头部品牌，三星在TWS耳机市场同样保持高标准，旗下“Galaxy Buds”系列 […]\n三星Galaxy Buds Pro：双向扬声器，音质细腻；主动降噪；5-18小时音乐播放；防水等级IPX7；三星Galaxy Buds2 Pro：带双扬声器的高保真音效；主动降噪；舒适佩戴；5-18H音乐播放。",
+          "confidence": 0.7,
+          "source_type": "text",
+          "source_text": "作为全球消费电子市场安卓阵营的头部品牌，三星在TWS耳机市场同样保持高标准，旗下“Galaxy Buds”系列 […]\n三星Galaxy Buds Pro：双向扬声器，音质细腻；主动降噪；5-18小时音乐播放；防水等级IPX7；三星Galaxy Buds2 Pro：带双扬声器的高保真音效；主动降噪；舒适佩戴；5-18H音乐播放。"
         }
       },
       {
@@ -184,22 +194,12 @@
           "source_type": "text",
           "source_text": "配置上用料十分的扎实，Galaxy Buds2 Pro在主要配置方面均进行了升级，并且相较于Galaxy Buds Pro许多功能由单芯片支持，具有着更高的集成度，从而降低了布板面积，能够进一步优化外观体积。"
         }
-      },
-      {
-        "text": "通话拾音搭配意法半导体的语音拾取单元，实现了对风噪/环境噪声更好的抑制，通话更清晰。",
-        "tag": "其他",
-        "evidence": {
-          "value": "通话拾音搭配意法半导体的语音拾取单元，实现了对风噪/环境噪声更好的抑制，通话更清晰。",
-          "confidence": 0.75,
-          "source_type": "text",
-          "source_text": "通话拾音搭配意法半导体的语音拾取单元，实现了对风噪/环境噪声更好的抑制，通话更清晰。"
-        }
       }
     ],
     "scenarios": [
       "通话"
     ],
-    "positioning_summary": "三星Galaxy Buds Pro：双向扬声器，音质细腻；主动降噪；5-18小时音乐播放；防水等级IPX7；三星Galaxy Buds2 Pro：带双扬声器的高保真音效；主动降噪；舒适佩戴；5-18H音乐播放。",
+    "positioning_summary": "充电接口：Type-C\n标记/认证：三星Galaxy Buds Pro：双向扬声器，音质细腻；主动降噪；5-18小时音乐播放；防水等级IPX7；三星Galaxy Buds2 Pro：带双扬声器的高保真音效；主动降噪；舒适佩戴；5-18H音乐播放。",
     "launch_date": null,
     "best_report_id": "146224",
     "best_video_id": null

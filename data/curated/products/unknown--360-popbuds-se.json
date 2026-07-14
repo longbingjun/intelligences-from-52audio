@@ -20,13 +20,13 @@
     "battery_ear": "300 mAh",
     "battery_case": "电池",
     "speaker": "喇叭单元",
-    "materials": "硅胶、PC",
-    "weight_g": "37克",
+    "materials": "",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "IPX4",
     "bluetooth": "5.0",
-    "bom_row_count": 13,
+    "bom_row_count": 10,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -37,20 +37,6 @@
   },
   "bom_table": [
     {
-      "component": "充电仓",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "充电仓",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "包装盒内物品，耳机和充电盒、充电线，以及说明书。"
-      }
-    },
-    {
       "component": "电池",
       "brand": "",
       "model": "",
@@ -59,6 +45,20 @@
       "role": "major",
       "evidence": {
         "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒内部背面展示，电池竖置。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "充电盒内部背面展示，电池竖置。"
@@ -79,6 +79,20 @@
       }
     },
     {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "通话部分内置单MIC ENC降噪/AEC回音消除算法。"
+      }
+    },
+    {
       "component": "喇叭单元",
       "brand": "",
       "model": "",
@@ -93,73 +107,17 @@
       }
     },
     {
-      "component": "麦克风",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "麦克风",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机柄底部的充电触点和通话麦克风拾音孔。"
-      }
-    },
-    {
       "component": "降噪系统",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "降噪系统",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "中科蓝讯AB5376A专为TWS耳机应用设计，芯片高度集成化，PCB外围物料精简。内置5V充电触点单线通讯、内置锂电池充电管理电路，适用于智能充电仓应用。通讯协议支持蓝牙5.0 EDR/BLE。支持主副耳无缝切换。通话部分内置单MIC ENC降噪/AEC回音消除算法。原厂提供配置化编程工具，方便客户产品迅速投入市场。"
-      }
-    },
-    {
-      "component": "天线",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "",
       "role": "major",
       "evidence": {
-        "value": "天线",
+        "value": "降噪系统",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "贴片陶瓷蓝牙天线特写，用于传输无线信号。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机和充电盒的指示灯均采用了隐藏设计。"
-      }
-    },
-    {
-      "component": "充电触点",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机新品充电触点处有绝缘纸，减少开封前的电量损耗，使用时需撕下。"
+        "source_text": "通话部分内置单MIC ENC降噪/AEC回音消除算法。"
       }
     },
     {
@@ -177,31 +135,31 @@
       }
     },
     {
-      "component": "外壳结构",
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "接近圆形的箔片，用于感知触摸操作；指示灯位置有保护罩防止漏光，内有防尘网。"
+      }
+    },
+    {
+      "component": "充电触点",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "耳机",
       "role": "minor",
       "evidence": {
-        "value": "外壳结构",
+        "value": "充电触点",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机外壳内侧展示。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "AB5376",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "AB5376",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "360 PopBuds SE 真无线耳机的主控芯片是中科蓝讯AB5376A 蓝牙音频SoC，AB5376A主要针对TWS耳机市场。"
+        "source_text": "耳机柄底部的充电触点和通话麦克风拾音孔。"
       }
     },
     {
@@ -215,7 +173,7 @@
         "value": "AB5376",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "中科蓝讯AB5376A详细信息。"
+        "source_text": "电池容量：300\n芯片 AB5376"
       }
     }
   ],
@@ -234,13 +192,23 @@
   "market": {
     "selling_points": [
       {
-        "text": "耳机内侧的条形泄压孔，内有防尘网。",
+        "text": "360近年来积极 […]\n耳机内侧的条形泄压孔，内有防尘网。",
         "tag": "防水防尘",
         "evidence": {
-          "value": "耳机内侧的条形泄压孔，内有防尘网。",
+          "value": "360近年来积极 […]\n耳机内侧的条形泄压孔，内有防尘网。",
+          "confidence": 0.62,
+          "source_type": "text",
+          "source_text": "360近年来积极 […]\n耳机内侧的条形泄压孔，内有防尘网。"
+        }
+      },
+      {
+        "text": "标记/认证：型号CE-2089B，输入电压DC 5V，蓝牙版本5.0，无障碍传输距离10米。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：型号CE-2089B，输入电压DC 5V，蓝牙版本5.0，无障碍传输距离10米。",
           "confidence": 0.58,
           "source_type": "text",
-          "source_text": "耳机内侧的条形泄压孔，内有防尘网。"
+          "source_text": "标记/认证：型号CE-2089B，输入电压DC 5V，蓝牙版本5.0，无障碍传输距离10米。"
         }
       },
       {
@@ -264,23 +232,23 @@
         }
       },
       {
-        "text": "通话部分内置单MIC ENC降噪/AEC回音消除算法。",
-        "tag": "降噪",
+        "text": "标记/认证：软包电池型号M501340，额定电压3.7V，额定容量300mAh/1.11Wh。",
+        "tag": "其他",
         "evidence": {
-          "value": "通话部分内置单MIC ENC降噪/AEC回音消除算法。",
+          "value": "标记/认证：软包电池型号M501340，额定电压3.7V，额定容量300mAh/1.11Wh。",
           "confidence": 0.56,
           "source_type": "text",
-          "source_text": "通话部分内置单MIC ENC降噪/AEC回音消除算法。"
+          "source_text": "标记/认证：软包电池型号M501340，额定电压3.7V，额定容量300mAh/1.11Wh。"
         }
       },
       {
-        "text": "接近圆形的箔片，用于感知触摸操作；指示灯位置有保护罩防止漏光，内有防尘网。",
-        "tag": "防水防尘",
+        "text": "标记/认证：软包电池型号N501010，额定电压3.7V，额定容量40mAh/0.148Wh。",
+        "tag": "其他",
         "evidence": {
-          "value": "接近圆形的箔片，用于感知触摸操作；指示灯位置有保护罩防止漏光，内有防尘网。",
-          "confidence": 0.55,
+          "value": "标记/认证：软包电池型号N501010，额定电压3.7V，额定容量40mAh/0.148Wh。",
+          "confidence": 0.56,
           "source_type": "text",
-          "source_text": "接近圆形的箔片，用于感知触摸操作；指示灯位置有保护罩防止漏光，内有防尘网。"
+          "source_text": "标记/认证：软包电池型号N501010，额定电压3.7V，额定容量40mAh/0.148Wh。"
         }
       }
     ],
@@ -288,7 +256,7 @@
       "运动",
       "通话"
     ],
-    "positioning_summary": "耳机内侧的条形泄压孔，内有防尘网。",
+    "positioning_summary": "360近年来积极 […]\n耳机内侧的条形泄压孔，内有防尘网。",
     "launch_date": null,
     "best_report_id": "66135",
     "best_video_id": null

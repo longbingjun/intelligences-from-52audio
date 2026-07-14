@@ -12,15 +12,15 @@
   "author": "GiGi24",
   "summary": "紫米ZMI PurPods真无线蓝牙耳机。 一、ZMI PurPods Pro 耀悦版 开箱 包装盒采用了新的 […]",
   "captured_at": "2026-07-14T02:10:44+00:00",
-  "data_completeness": 0.762,
+  "data_completeness": 0.666,
   "views": {
     "market": {
       "brand": "",
       "model": "紫米 ZMI PurPods Pro 真无线降噪耳机矅悦版",
       "category": "真无线耳机TWS",
       "launch_date": null,
-      "price_cny": 399.0,
-      "price_note": "正文标注售价",
+      "price_cny": null,
+      "price_note": "",
       "selling_points": [
         {
           "text": "紫米 ZMI PurPods Pro 还支持压感触控功能，耳机搭载3麦克风通话降噪算法，拥有独立前腔模组设计，以及降噪模式7小时、降噪关闭10小时的超长续航和充电5分钟听歌2小时的快充功能，整体配置在同价位产品中较高。",
@@ -43,6 +43,16 @@
           }
         },
         {
+          "text": "标记/认证：盒盖内侧信息：环保期限10年的认证标识；产品型号TW100ZM；有线输入5V⎓0.5A MAX；支持无线输入；额定能量2.15Wh；ZMI PurPods Pro 真无线降噪耳机，江苏紫米电子技术有限公司制造。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "标记/认证：盒盖内侧信息：环保期限10年的认证标识；产品型号TW100ZM；有线输入5V⎓0.5A MAX；支持无线输入；额定能量2.15Wh；ZMI PurPods Pro 真无线降噪耳机，江苏紫米电子技术有限公司制造。",
+            "confidence": 0.59,
+            "source_type": "text",
+            "source_text": "标记/认证：盒盖内侧信息：环保期限10年的认证标识；产品型号TW100ZM；有线输入5V⎓0.5A MAX；支持无线输入；额定能量2.15Wh；ZMI PurPods Pro 真无线降噪耳机，江苏紫米电子技术有限公司制造。"
+          }
+        },
+        {
           "text": "出音嘴特写，防尘网阻止异物进入，内有后馈麦克风拾取耳道内的声音用于主动降噪等功能。",
           "tag": "降噪",
           "evidence": {
@@ -59,20 +69,15 @@
       ],
       "positioning_summary": "紫米 ZMI PurPods Pro 还支持压感触控功能，耳机搭载3麦克风通话降噪算法，拥有独立前腔模组设计，以及降噪模式7小时、降噪关闭10小时的超长续航和充电5分钟听歌2小时的快充功能，整体配置在同价位产品中较高。",
       "launch_date_evidence": null,
-      "price_evidence": {
-        "value": 399.0,
-        "confidence": 0.9,
-        "source_type": "text",
-        "source_text": "售价399元"
-      }
+      "price_evidence": null
     },
     "cost": {
       "major_parts": [
-        "充电仓",
         "电池",
-        "主板/PCBA",
-        "麦克风",
+        "充电仓",
         "降噪系统",
+        "麦克风",
+        "主板/PCBA",
         "喇叭单元",
         "天线"
       ],
@@ -150,20 +155,6 @@
       ],
       "bom_table": [
         {
-          "component": "充电仓",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "major",
-          "evidence": {
-            "value": "充电仓",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "紫米 ZMI PurPods Pro 真无线降噪耳机近日推出了一款矅悦版，其耳机和充电盒新采用黑灰色的哑光工艺处理，有如深邃静谧的暗夜里绽放的星光，在价格上与白色版本保持一致，售价399元。"
-          }
-        },
-        {
           "component": "电池",
           "brand": "",
           "model": "",
@@ -178,17 +169,31 @@
           }
         },
         {
-          "component": "主板/PCBA",
+          "component": "充电仓",
           "brand": "",
           "model": "",
           "qty_hint": "",
           "side": "耳机",
           "role": "major",
           "evidence": {
-            "value": "主板/PCBA",
+            "value": "充电仓",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "紫米 ZMI PurPods Pro 矅悦版在功能上与白色版本别无二致，支持ANC双重主动降噪，官方宣传最大降噪深度35dB，还有专门的降风噪模式；耳机搭载蓝牙5.2主控芯片，搭配紫米自研的EQsmart⾃适应技术，可以自适应调节耳机⾳量、降噪模式，玩游戏时自动进入低延迟的游戏模式。"
+            "source_text": "包装盒内物品，ZMI PurPods Pro耀悦版耳机和充电盒、充电线、替换耳塞和使用说明书。"
+          }
+        },
+        {
+          "component": "降噪系统",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "降噪系统",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "出音嘴特写，防尘网阻止异物进入，内有后馈麦克风拾取耳道内的声音用于主动降噪等功能。"
           }
         },
         {
@@ -202,18 +207,18 @@
             "value": "麦克风",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "紫米 ZMI PurPods Pro 还支持压感触控功能，耳机搭载3麦克风通话降噪算法，拥有独立前腔模组设计，以及降噪模式7小时、降噪关闭10小时的超长续航和充电5分钟听歌2小时的快充功能，整体配置在同价位产品中较高。下面一起来看我爱音频网对紫米 ZMI PurPods Pro 矅悦版的详细拆解。"
+            "source_text": "紫米 ZMI PurPods Pro 还支持压感触控功能，耳机搭载3麦克风通话降噪算法，拥有独立前腔模组设计，以及降噪模式7小时、降噪关闭10小时的超长续航和充电5分钟听歌2小时的快充功能，整体配置在同价位产品中较高。"
           }
         },
         {
-          "component": "降噪系统",
+          "component": "主板/PCBA",
           "brand": "",
           "model": "",
           "qty_hint": "",
           "side": "耳机",
           "role": "major",
           "evidence": {
-            "value": "降噪系统",
+            "value": "主板/PCBA",
             "confidence": 0.72,
             "source_type": "text",
             "source_text": "紫米 ZMI PurPods Pro 矅悦版在功能上与白色版本别无二致，支持ANC双重主动降噪，官方宣传最大降噪深度35dB，还有专门的降风噪模式；耳机搭载蓝牙5.2主控芯片，搭配紫米自研的EQsmart⾃适应技术，可以自适应调节耳机⾳量、降噪模式，玩游戏时自动进入低延迟的游戏模式。"
@@ -258,7 +263,7 @@
             "value": "触控/按键",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "紫米 ZMI PurPods Pro 还支持压感触控功能，耳机搭载3麦克风通话降噪算法，拥有独立前腔模组设计，以及降噪模式7小时、降噪关闭10小时的超长续航和充电5分钟听歌2小时的快充功能，整体配置在同价位产品中较高。下面一起来看我爱音频网对紫米 ZMI PurPods Pro 矅悦版的详细拆解。"
+            "source_text": "紫米 ZMI PurPods Pro 还支持压感触控功能，耳机搭载3麦克风通话降噪算法，拥有独立前腔模组设计，以及降噪模式7小时、降噪关闭10小时的超长续航和充电5分钟听歌2小时的快充功能，整体配置在同价位产品中较高。"
           }
         },
         {
@@ -272,49 +277,7 @@
             "value": "外壳结构",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "紫米 ZMI PurPods Pro 还支持压感触控功能，耳机搭载3麦克风通话降噪算法，拥有独立前腔模组设计，以及降噪模式7小时、降噪关闭10小时的超长续航和充电5分钟听歌2小时的快充功能，整体配置在同价位产品中较高。下面一起来看我爱音频网对紫米 ZMI PurPods Pro 矅悦版的详细拆解。"
-          }
-        },
-        {
-          "component": "充电触点",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "minor",
-          "evidence": {
-            "value": "充电触点",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "充电仓底部给耳机充电的Pogo Pin。"
-          }
-        },
-        {
-          "component": "指示灯",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "充电盒",
-          "role": "minor",
-          "evidence": {
-            "value": "指示灯",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "ZMI PurPods Pro耀悦版的机身在强光下呈深灰色，日常光线下偏黑灰色。充电盒正面是一个平面设计，右下角有一个同色按键点缀，非常简洁。按键是耳机的快速配对按键，上面有紫米的品牌Logo，镂空设计，同时也是充电盒的状态指示灯，二合一比较巧妙。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "ETA7014",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "ETA7014",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "钰泰半导体 ETA7014 耐压36V的高侧过压保护芯片，保护电压可由分压电阻编程。"
+            "source_text": "紫米 ZMI PurPods Pro 还支持压感触控功能，耳机搭载3麦克风通话降噪算法，拥有独立前腔模组设计，以及降噪模式7小时、降噪关闭10小时的超长续航和充电5分钟听歌2小时的快充功能，整体配置在同价位产品中较高。"
           }
         },
         {
@@ -328,77 +291,7 @@
             "value": "SS881",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "昇生微电子SS881Q-W，集成无线充电 RX 控制器的低功耗 MCU 芯片，采用QFN 4x4 封装节省空间，可广泛适用于各类带无线充电接收及电池充放电管理的智能硬件设备。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "络达AB1562A",
-          "qty_hint": "1",
-          "side": "耳机",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "络达AB1562A",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "紫米 ZMI PurPods Pro真无线降噪耳机的主控芯片是络达AB1562A，其具有超低功耗，稳定蓝牙连接及Hybrid主动降噪功能，集全部功能为一身，芯片内建Hybrid ANC主动降噪，并且提供了新一代三麦克风降噪技术，搭配Airoha降噪算法，能明显的降低风噪，提高通话质量。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "AB1562",
-          "qty_hint": "1",
-          "side": "耳机",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "AB1562",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "紫米 ZMI PurPods Pro真无线降噪耳机的主控芯片是络达AB1562A，其具有超低功耗，稳定蓝牙连接及Hybrid主动降噪功能，集全部功能为一身，芯片内建Hybrid ANC主动降噪，并且提供了新一代三麦克风降噪技术，搭配Airoha降噪算法，能明显的降低风噪，提高通话质量。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "络达AB1562A",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "络达AB1562A",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "络达AB1562A内置Tensilica HiFi mini DSP，2MB/4MB闪存，整合锂电池充电控制器及电源管理电路。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "AB1562",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "AB1562",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "络达AB1562A内置Tensilica HiFi mini DSP，2MB/4MB闪存，整合锂电池充电控制器及电源管理电路。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "CSU18M65",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "CSU18M65",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "CHIPSEA芯海科技的CSU18M65压力触控芯片，内置高精度ADC和低噪声PGA，可检测μV级信号，最小可检测1μm的形变和1克的力度变化；关机功耗0.5μA；支持固件升级。"
+            "source_text": "充电方式：昇生微电子SS881Q-W，集成无线充电 RX 控制器的低功耗 MCU 芯片，采用QFN 4x4 封装节省空间，可广泛适用于各类带无线充电接收及电池充放电管理的智能硬件设备。"
           }
         },
         {
@@ -412,7 +305,7 @@
             "value": "SS881",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "内部电路方面，紫米ZMI PurPods Pro矅悦版的充电盒通过精睿兴业的Type-C接口输入电源，输入端有TVS用于输入浪涌防护，钰泰半导体ETA7014负责输入过压保护，昇生微电子SS881Q MCU负责电池充放电及充电盒整机控制；无线充电接收采用模拟前端整流电路+SS881Q的Qi协议功率控制模块共同实现；软包电池来自鹏辉能源，容量500mAh，电池输出由升压IC负责为耳机充电，保护电路齐全。"
+            "source_text": "充电方式：内部电路方面，紫米ZMI PurPods Pro矅悦版的充电盒通过精睿兴业的Type-C接口输入电源，输入端有TVS用于输入浪涌防护，钰泰半导体ETA7014负责输入过压保护，昇生微电子SS881Q MCU负责电池充放电及充电盒整机控制；无线充电接收采用模拟前端整流电路+SS881Q的Qi协议功率控制模块共同实现；软包电池来自鹏辉能源，容量500mAh，电池输出由升压IC负责为耳机充电，保护电路齐全。"
           }
         },
         {
@@ -426,7 +319,7 @@
             "value": "ETA7014",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "内部电路方面，紫米ZMI PurPods Pro矅悦版的充电盒通过精睿兴业的Type-C接口输入电源，输入端有TVS用于输入浪涌防护，钰泰半导体ETA7014负责输入过压保护，昇生微电子SS881Q MCU负责电池充放电及充电盒整机控制；无线充电接收采用模拟前端整流电路+SS881Q的Qi协议功率控制模块共同实现；软包电池来自鹏辉能源，容量500mAh，电池输出由升压IC负责为耳机充电，保护电路齐全。"
+            "source_text": "充电方式：内部电路方面，紫米ZMI PurPods Pro矅悦版的充电盒通过精睿兴业的Type-C接口输入电源，输入端有TVS用于输入浪涌防护，钰泰半导体ETA7014负责输入过压保护，昇生微电子SS881Q MCU负责电池充放电及充电盒整机控制；无线充电接收采用模拟前端整流电路+SS881Q的Qi协议功率控制模块共同实现；软包电池来自鹏辉能源，容量500mAh，电池输出由升压IC负责为耳机充电，保护电路齐全。"
           }
         },
         {
@@ -434,67 +327,84 @@
           "brand": "",
           "model": "CSU18M65",
           "qty_hint": "1",
-          "side": "耳机",
+          "side": "",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "CSU18M65",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "耳机部分，紫米ZMI PurPods Pro矅悦版的主控芯片是络达AB1562A，支持蓝牙5.2，支持三麦克风通话降噪技术；耳机的主动降噪功能采用前馈麦克风+后馈麦克风的混合降噪方案，搭配芯片内置的EQsmart⾃适应技术，可根据外界环境切换降噪模式，并且有特殊优化的降风噪模式；耳机的压感控制方案由压力传感器和芯海科技CSU18M65检测芯片共同实现；入耳检测采用电容方案，合泰半导体的MCU用于相关控制；耳机采用的扣式电池来自亿纬锂能，容量48mAh。"
+            "source_text": "标记/认证：CHIPSEA芯海科技的CSU18M65压力触控芯片，内置高精度ADC和低噪声PGA，可检测μV级信号，最小可检测1μm的形变和1克的力度变化；关机功耗0.5μA；支持固件升级。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "络达AB1562A",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "络达AB1562A",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "电池容量：500\n芯片 络达AB1562A\n芯片 AB1562\n芯片 SS881\n芯片 ETA7014\n芯片 CSU18M65"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB1562",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB1562",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "电池容量：500\n芯片 络达AB1562A\n芯片 AB1562\n芯片 SS881\n芯片 ETA7014\n芯片 CSU18M65"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA7014",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA7014",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "电池容量：500\n芯片 络达AB1562A\n芯片 AB1562\n芯片 SS881\n芯片 ETA7014\n芯片 CSU18M65"
           }
         }
       ],
       "supply_hints": [
         {
-          "value": "充电盒通过USB Type-C接口输入电源，供应商是KRCONN深圳市精睿兴业科技有限公司。",
+          "value": "充电接口：充电盒通过USB Type-C接口输入电源，供应商是KRCONN深圳市精睿兴业科技有限公司。",
           "evidence": {
-            "value": "充电盒通过USB Type-C接口输入电源，供应商是KRCONN深圳市精睿兴业科技有限公司。",
+            "value": "充电接口：充电盒通过USB Type-C接口输入电源，供应商是KRCONN深圳市精睿兴业科技有限公司。",
             "confidence": 0.6,
             "source_type": "text",
-            "source_text": "充电盒通过USB Type-C接口输入电源，供应商是KRCONN深圳市精睿兴业科技有限公司。"
+            "source_text": "充电接口：充电盒通过USB Type-C接口输入电源，供应商是KRCONN深圳市精睿兴业科技有限公司。"
           }
         }
       ],
       "packaging_notes": [
         "包装盒内物品，ZMI PurPods Pro耀悦版耳机和充电盒、充电线、替换耳塞和使用说明书。"
       ],
-      "process_hints": [
-        {
-          "value": "入耳检测箔片焊接在PCBA上。",
-          "evidence": {
-            "value": "入耳检测箔片焊接在PCBA上。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "入耳检测箔片焊接在PCBA上。"
-          }
-        },
-        {
-          "value": "前腔小板上丝印CPF K28的一体化锂电保护IC，还有ESD管用于静电防护。",
-          "evidence": {
-            "value": "前腔小板上丝印CPF K28的一体化锂电保护IC，还有ESD管用于静电防护。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "前腔小板上丝印CPF K28的一体化锂电保护IC，还有ESD管用于静电防护。"
-          }
-        }
-      ],
+      "process_hints": [],
       "summary_image_urls": [],
       "summary_text": ""
     },
     "structure": {
       "form_factor": "真无线耳机TWS",
       "earbud_type": "入耳",
-      "materials": [
-        "硅胶",
-        "塑料",
-        "PC"
-      ],
+      "materials": [],
       "ip_rating": null,
-      "weight_g": "56.1克",
+      "weight_g": "1克",
       "dimensions": [
-        "扣式电池与一元硬币的尺寸对比。",
-        "扣式电池来自EVE亿纬锂能，型号ICB1154，直径11mm，厚度5.4mm，额定电压3.7V。",
-        "动圈单元的直径约为9.3mm，与宣传一致。"
+        "标记/认证：扣式电池来自EVE亿纬锂能，型号ICB1154，直径11mm，厚度5.4mm，额定电压3.7V。"
       ],
       "internal_structure": [
         {
@@ -516,6 +426,15 @@
           }
         },
         {
+          "value": "出音嘴特写，防尘网阻止异物进入，内有后馈麦克风拾取耳道内的声音用于主动降噪等功能。",
+          "evidence": {
+            "value": "出音嘴特写，防尘网阻止异物进入，内有后馈麦克风拾取耳道内的声音用于主动降噪等功能。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "出音嘴特写，防尘网阻止异物进入，内有后馈麦克风拾取耳道内的声音用于主动降噪等功能。"
+          }
+        },
+        {
           "value": "紫米 ZMI PurPods Pro 矅悦版在功能上与白色版本别无二致，支持ANC双重主动降噪，官方宣传最大降噪深度35dB，还有专门的降风噪模式；耳机搭载蓝牙5.2主控芯片，搭配紫米自研的EQsmart⾃适应技术，可以自适应调节耳机⾳量、降噪模式，玩游戏时自动进入低延迟的游戏模式。",
           "evidence": {
             "value": "紫米 ZMI PurPods Pro 矅悦版在功能上与白色版本别无二致，支持ANC双重主动降噪，官方宣传最大降噪深度35dB，还有专门的降风噪模式；耳机搭载蓝牙5.2主控芯片，搭配紫米自研的EQsmart⾃适应技术，可以自适应调节耳机⾳量、降噪模式，玩游戏时自动进入低延迟的游戏模式。",
@@ -525,21 +444,21 @@
           }
         },
         {
+          "value": "紫米 ZMI PurPods Pro 还支持压感触控功能，耳机搭载3麦克风通话降噪算法，拥有独立前腔模组设计，以及降噪模式7小时、降噪关闭10小时的超长续航和充电5分钟听歌2小时的快充功能，整体配置在同价位产品中较高。",
+          "evidence": {
+            "value": "紫米 ZMI PurPods Pro 还支持压感触控功能，耳机搭载3麦克风通话降噪算法，拥有独立前腔模组设计，以及降噪模式7小时、降噪关闭10小时的超长续航和充电5分钟听歌2小时的快充功能，整体配置在同价位产品中较高。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "紫米 ZMI PurPods Pro 还支持压感触控功能，耳机搭载3麦克风通话降噪算法，拥有独立前腔模组设计，以及降噪模式7小时、降噪关闭10小时的超长续航和充电5分钟听歌2小时的快充功能，整体配置在同价位产品中较高。"
+          }
+        },
+        {
           "value": "主板一侧电路展示，主板元器件都集中在这面。",
           "evidence": {
             "value": "主板一侧电路展示，主板元器件都集中在这面。",
             "confidence": 0.74,
             "source_type": "text",
             "source_text": "主板一侧电路展示，主板元器件都集中在这面。"
-          }
-        },
-        {
-          "value": "紫米 ZMI PurPods Pro 还支持压感触控功能，耳机搭载3麦克风通话降噪算法，拥有独立前腔模组设计，以及降噪模式7小时、降噪关闭10小时的超长续航和充电5分钟听歌2小时的快充功能，整体配置在同价位产品中较高。下面一起来看我爱音频网对紫米 ZMI PurPods Pro 矅悦版的详细拆解。",
-          "evidence": {
-            "value": "紫米 ZMI PurPods Pro 还支持压感触控功能，耳机搭载3麦克风通话降噪算法，拥有独立前腔模组设计，以及降噪模式7小时、降噪关闭10小时的超长续航和充电5分钟听歌2小时的快充功能，整体配置在同价位产品中较高。下面一起来看我爱音频网对紫米 ZMI PurPods Pro 矅悦版的详细拆解。",
-            "confidence": 0.74,
-            "source_type": "text",
-            "source_text": "紫米 ZMI PurPods Pro 还支持压感触控功能，耳机搭载3麦克风通话降噪算法，拥有独立前腔模组设计，以及降噪模式7小时、降噪关闭10小时的超长续航和充电5分钟听歌2小时的快充功能，整体配置在同价位产品中较高。下面一起来看我爱音频网对紫米 ZMI PurPods Pro 矅悦版的详细拆解。"
           }
         },
         {
@@ -559,74 +478,20 @@
             "source_type": "text",
             "source_text": "音腔内部结构展示，导线焊点处使用大量红色胶水加固，扬声器单元上有调音孔。"
           }
-        },
-        {
-          "value": "壳体上集成较大面积的LDS天线，用于蓝牙信号的传输。",
-          "evidence": {
-            "value": "壳体上集成较大面积的LDS天线，用于蓝牙信号的传输。",
-            "confidence": 0.74,
-            "source_type": "text",
-            "source_text": "壳体上集成较大面积的LDS天线，用于蓝牙信号的传输。"
-          }
         }
       ],
       "fastener_type": [
         {
-          "value": "撬开充电座舱，内部结构通过壳体上的卡扣连接。",
+          "value": "音腔内部结构展示，导线焊点处使用大量红色胶水加固，扬声器单元上有调音孔。",
           "evidence": {
-            "value": "撬开充电座舱，内部结构通过壳体上的卡扣连接。",
+            "value": "音腔内部结构展示，导线焊点处使用大量红色胶水加固，扬声器单元上有调音孔。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "撬开充电座舱，内部结构通过壳体上的卡扣连接。"
-          }
-        },
-        {
-          "value": "按键位置内侧展示，塑料件使用塑料柱热熔的方式固定。",
-          "evidence": {
-            "value": "按键位置内侧展示，塑料件使用塑料柱热熔的方式固定。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "按键位置内侧展示，塑料件使用塑料柱热熔的方式固定。"
-          }
-        },
-        {
-          "value": "充电盒内部结构背面展示，两侧由螺丝连接内部的支架结构。",
-          "evidence": {
-            "value": "充电盒内部结构背面展示，两侧由螺丝连接内部的支架结构。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "充电盒内部结构背面展示，两侧由螺丝连接内部的支架结构。"
-          }
-        },
-        {
-          "value": "充电盒内部结构底部展示，有一颗螺丝固定充电顶针副板。",
-          "evidence": {
-            "value": "充电盒内部结构底部展示，有一颗螺丝固定充电顶针副板。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "充电盒内部结构底部展示，有一颗螺丝固定充电顶针副板。"
-          }
-        },
-        {
-          "value": "充电座舱内侧展示，盒盖和金属合页使用螺丝固定，耳机位置有两颗磁铁吸附固定耳机，盒盖开启处机身两侧各有一颗磁铁吸附盒盖。",
-          "evidence": {
-            "value": "充电座舱内侧展示，盒盖和金属合页使用螺丝固定，耳机位置有两颗磁铁吸附固定耳机，盒盖开启处机身两侧各有一颗磁铁吸附盒盖。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "充电座舱内侧展示，盒盖和金属合页使用螺丝固定，耳机位置有两颗磁铁吸附固定耳机，盒盖开启处机身两侧各有一颗磁铁吸附盒盖。"
+            "source_text": "音腔内部结构展示，导线焊点处使用大量红色胶水加固，扬声器单元上有调音孔。"
           }
         }
       ],
       "sealing_method": [
-        {
-          "value": "耳机顶部的泄压孔，内有防尘网。",
-          "evidence": {
-            "value": "耳机顶部的泄压孔，内有防尘网。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "耳机顶部的泄压孔，内有防尘网。"
-          }
-        },
         {
           "value": "出音嘴特写，防尘网阻止异物进入，内有后馈麦克风拾取耳道内的声音用于主动降噪等功能。",
           "evidence": {
@@ -646,124 +511,29 @@
             "source_type": "text",
             "source_text": "包装盒内物品，ZMI PurPods Pro耀悦版耳机和充电盒、充电线、替换耳塞和使用说明书。"
           }
-        },
-        {
-          "value": "可替换的两对硅胶耳塞，耳机上自带的是中号，用户可根据自己的耳道大小更换耳塞，以实现更好的佩戴和主动降噪效果。",
-          "evidence": {
-            "value": "可替换的两对硅胶耳塞，耳机上自带的是中号，用户可根据自己的耳道大小更换耳塞，以实现更好的佩戴和主动降噪效果。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "可替换的两对硅胶耳塞，耳机上自带的是中号，用户可根据自己的耳道大小更换耳塞，以实现更好的佩戴和主动降噪效果。"
-          }
-        },
-        {
-          "value": "Holtek合泰半导体的MCU，用于佩戴检测功能。",
-          "evidence": {
-            "value": "Holtek合泰半导体的MCU，用于佩戴检测功能。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "Holtek合泰半导体的MCU，用于佩戴检测功能。"
-          }
         }
       ],
-      "key_image_urls": [
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/05/2021051308064333.jpg",
-          "alt": "拆解报告：紫米 ZMI PurPods Pro 真无线降噪耳机矅悦版-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/05/2021051308064934.jpg",
-          "alt": "拆解报告：紫米 ZMI PurPods Pro 真无线降噪耳机矅悦版-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/05/2021051308065463.jpg",
-          "alt": "拆解报告：紫米 ZMI PurPods Pro 真无线降噪耳机矅悦版-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/05/2021051308065958.jpg",
-          "alt": "拆解报告：紫米 ZMI PurPods Pro 真无线降噪耳机矅悦版-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/05/2021051308070588.jpg",
-          "alt": "拆解报告：紫米 ZMI PurPods Pro 真无线降噪耳机矅悦版-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        }
-      ],
+      "key_image_urls": [],
       "assembly_notes": [
         "无线充电接收线圈侧面有导热胶固定热敏电阻，用于检测电池温度。",
         "电池使用双面胶固定在背面的支架上。",
-        "紫米 ZMI PurPods Pro 矅悦版在功能上与白色版本别无二致，支持ANC双重主动降噪，官方宣传最大降噪深度35dB，还有专门的降风噪模式；耳机搭载蓝牙5.2主控芯片，搭配紫米自研的EQsmart⾃适应技术，可以自适应调节耳机⾳量、降噪模式，玩游戏时自动进入低延迟的游戏模式。",
-        "主板一侧电路展示，主板元器件都集中在这面。"
+        "出音嘴特写，防尘网阻止异物进入，内有后馈麦克风拾取耳道内的声音用于主动降噪等功能。",
+        "紫米 ZMI PurPods Pro 矅悦版在功能上与白色版本别无二致，支持ANC双重主动降噪，官方宣传最大降噪深度35dB，还有专门的降风噪模式；耳机搭载蓝牙5.2主控芯片，搭配紫米自研的EQsmart⾃适应技术，可以自适应调节耳机⾳量、降噪模式，玩游戏时自动进入低延迟的游戏模式。"
       ],
       "ip_rating_evidence": null,
       "weight_evidence": {
-        "value": "56.1克",
+        "value": "1克",
         "confidence": 0.75,
         "source_type": "text",
-        "source_text": "56.1克"
-      }
+        "source_text": "1克"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": null,
+      "weight_earbud_evidence": null
     },
     "hardware": {
       "specs": [
-        {
-          "param": "充电方式",
-          "value": "ZMI PurPods Pro 真无线降噪耳机，产品型号TW100ZM，充电端口USB-C，有线输入5V⎓0.5A MAX，无线输入支持5W及以上功率无线充电器，无线连接：蓝牙5.2。",
-          "unit": "",
-          "brand": "",
-          "model": "",
-          "confidence": 0.75,
-          "source_ref": "ZMI PurPods Pro 真无线降噪耳机，产品型号TW100ZM，充电端口USB-C，有线输入5V⎓0.5A MAX，无线输入支持5W及以上功率无线充电器，无线连接：蓝牙5.2。"
-        },
-        {
-          "param": "充电方式",
-          "value": "包装盒侧边罗列了产品的特色功能：ANC双重主动降噪、真无线立体声、三麦克风通话降噪、自适应音量调节、支持无线充电、耳机持久续航10小时。",
-          "unit": "",
-          "brand": "",
-          "model": "",
-          "confidence": 0.75,
-          "source_ref": "包装盒侧边罗列了产品的特色功能：ANC双重主动降噪、真无线立体声、三麦克风通话降噪、自适应音量调节、支持无线充电、耳机持久续航10小时。"
-        },
-        {
-          "param": "充电方式",
-          "value": "充电盒背面过渡自然，比较圆滑，无线充电接收线圈位于这一位置。",
-          "unit": "",
-          "brand": "",
-          "model": "",
-          "confidence": 0.75,
-          "source_ref": "充电盒背面过渡自然，比较圆滑，无线充电接收线圈位于这一位置。"
-        },
-        {
-          "param": "充电方式",
-          "value": "我爱音频网采用\nChargerLAB POWER-Z KT002便携式电源测试仪\n对ZMI PurPods Pro耀悦版进行无线充电测试，输入功率约为2.6W，实际充电功率没有这么高。",
-          "unit": "",
-          "brand": "",
-          "model": "",
-          "confidence": 0.75,
-          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KT002便携式电源测试仪\n对ZMI PurPods Pro耀悦版进行无线充电测试，输入功率约为2.6W，实际充电功率没有这么高。"
-        },
-        {
-          "param": "充电方式",
-          "value": "我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对ZMI PurPods Pro耀悦版进行有线充电测试，充电功率约为1.6W。",
-          "unit": "",
-          "brand": "",
-          "model": "",
-          "confidence": 0.75,
-          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对ZMI PurPods Pro耀悦版进行有线充电测试，充电功率约为1.6W。"
-        },
         {
           "param": "充电方式",
           "value": "无线充电接收线圈侧面有导热胶固定热敏电阻，用于检测电池温度。",
@@ -775,84 +545,174 @@
         },
         {
           "param": "充电方式",
-          "value": "无线充电接收线圈特写，多股漆包线并绕。",
+          "value": "充电方式：ZMI PurPods Pro 真无线降噪耳机，产品型号TW100ZM，充电端口USB-C，有线输入5V⎓0.5A MAX，无线输入支持5W及以上功率无线充电器，无线连接：蓝牙5.2。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "无线充电接收线圈特写，多股漆包线并绕。"
+          "source_ref": "充电方式：ZMI PurPods Pro 真无线降噪耳机，产品型号TW100ZM，充电端口USB-C，有线输入5V⎓0.5A MAX，无线输入支持5W及以上功率无线充电器，无线连接：蓝牙5.2。"
         },
         {
           "param": "充电方式",
-          "value": "昇生微电子SS881Q-W，集成无线充电 RX 控制器的低功耗 MCU 芯片，采用QFN 4x4 封装节省空间，可广泛适用于各类带无线充电接收及电池充放电管理的智能硬件设备。",
+          "value": "充电方式：包装盒侧边罗列了产品的特色功能：ANC双重主动降噪、真无线立体声、三麦克风通话降噪、自适应音量调节、支持无线充电、耳机持久续航10小时。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "昇生微电子SS881Q-W，集成无线充电 RX 控制器的低功耗 MCU 芯片，采用QFN 4x4 封装节省空间，可广泛适用于各类带无线充电接收及电池充放电管理的智能硬件设备。"
+          "source_ref": "充电方式：包装盒侧边罗列了产品的特色功能：ANC双重主动降噪、真无线立体声、三麦克风通话降噪、自适应音量调节、支持无线充电、耳机持久续航10小时。"
         },
         {
           "param": "充电方式",
-          "value": "SS881X-W系列内置无线充电 RX 端兼容 Qi 协议的通信信源编码模块和无线充电功率自适应控制模块（可支持Qi认证），以及线性充电单元和电源管理单元，同时具有丰富的接口功能，灵活的配置模式，和不同的低功耗选项。",
+          "value": "充电方式：充电盒背面过渡自然，比较圆滑，无线充电接收线圈位于这一位置。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "SS881X-W系列内置无线充电 RX 端兼容 Qi 协议的通信信源编码模块和无线充电功率自适应控制模块（可支持Qi认证），以及线性充电单元和电源管理单元，同时具有丰富的接口功能，灵活的配置模式，和不同的低功耗选项。"
+          "source_ref": "充电方式：充电盒背面过渡自然，比较圆滑，无线充电接收线圈位于这一位置。"
         },
         {
           "param": "充电方式",
-          "value": "内部电路方面，紫米ZMI PurPods Pro矅悦版的充电盒通过精睿兴业的Type-C接口输入电源，输入端有TVS用于输入浪涌防护，钰泰半导体ETA7014负责输入过压保护，昇生微电子SS881Q MCU负责电池充放电及充电盒整机控制；无线充电接收采用模拟前端整流电路+SS881Q的Qi协议功率控制模块共同实现；软包电池来自鹏辉能源，容量500mAh，电池输出由升压IC负责为耳机充电，保护电路齐全。",
+          "value": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KT002便携式电源测试仪\n对ZMI PurPods Pro耀悦版进行无线充电测试，输入功率约为2.6W，实际充电功率没有这么高。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "内部电路方面，紫米ZMI PurPods Pro矅悦版的充电盒通过精睿兴业的Type-C接口输入电源，输入端有TVS用于输入浪涌防护，钰泰半导体ETA7014负责输入过压保护，昇生微电子SS881Q MCU负责电池充放电及充电盒整机控制；无"
+          "source_ref": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KT002便携式电源测试仪\n对ZMI PurPods Pro耀悦版进行无线充电测试，输入功率约为2.6W，实际充电功率没有这么高。"
+        },
+        {
+          "param": "充电方式",
+          "value": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对ZMI PurPods Pro耀悦版进行有线充电测试，充电功率约为1.6W。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对ZMI PurPods Pro耀悦版进行有线充电测试，充电功率约为1.6W。"
+        },
+        {
+          "param": "充电方式",
+          "value": "充电方式：无线充电接收线圈侧面有导热胶固定热敏电阻，用于检测电池温度。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电方式：无线充电接收线圈侧面有导热胶固定热敏电阻，用于检测电池温度。"
+        },
+        {
+          "param": "充电方式",
+          "value": "充电方式：无线充电接收线圈特写，多股漆包线并绕。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电方式：无线充电接收线圈特写，多股漆包线并绕。"
+        },
+        {
+          "param": "充电方式",
+          "value": "充电方式：昇生微电子SS881Q-W，集成无线充电 RX 控制器的低功耗 MCU 芯片，采用QFN 4x4 封装节省空间，可广泛适用于各类带无线充电接收及电池充放电管理的智能硬件设备。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电方式：昇生微电子SS881Q-W，集成无线充电 RX 控制器的低功耗 MCU 芯片，采用QFN 4x4 封装节省空间，可广泛适用于各类带无线充电接收及电池充放电管理的智能硬件设备。"
+        },
+        {
+          "param": "充电方式",
+          "value": "充电方式：SS881X-W系列内置无线充电 RX 端兼容 Qi 协议的通信信源编码模块和无线充电功率自适应控制模块（可支持Qi认证），以及线性充电单元和电源管理单元，同时具有丰富的接口功能，灵活的配置模式，和不同的低功耗选项。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电方式：SS881X-W系列内置无线充电 RX 端兼容 Qi 协议的通信信源编码模块和无线充电功率自适应控制模块（可支持Qi认证），以及线性充电单元和电源管理单元，同时具有丰富的接口功能，灵活的配置模式，和不同的低功耗选项。"
+        },
+        {
+          "param": "充电方式",
+          "value": "充电方式：内部电路方面，紫米ZMI PurPods Pro矅悦版的充电盒通过精睿兴业的Type-C接口输入电源，输入端有TVS用于输入浪涌防护，钰泰半导体ETA7014负责输入过压保护，昇生微电子SS881Q MCU负责电池充放电及充电盒整机控制；无线充电接收采用模拟前端整流电路+SS881Q的Qi协议功率控制模块共同实现；软包电池来自鹏辉能源，容量500mAh，电池输出由升压IC负责为耳机充电，保护电路齐全。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电方式：内部电路方面，紫米ZMI PurPods Pro矅悦版的充电盒通过精睿兴业的Type-C接口输入电源，输入端有TVS用于输入浪涌防护，钰泰半导体ETA7014负责输入过压保护，昇生微电子SS881Q MCU负责电池充放电及充电盒整"
+        },
+        {
+          "param": "充电方式",
+          "value": "充电接口：内部电路方面，紫米ZMI PurPods Pro矅悦版的充电盒通过精睿兴业的Type-C接口输入电源，输入端有TVS用于输入浪涌防护，钰泰半导体ETA7014负责输入过压保护，昇生微电子SS881Q MCU负责电池充放电及充电盒整机控制；无线充电接收采用模拟前端整流电路+SS881Q的Qi协议功率控制模块共同实现；软包电池来自鹏辉能源，容量500mAh，电池输出由升压IC负责为耳机充电，保护电路齐全。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电接口：内部电路方面，紫米ZMI PurPods Pro矅悦版的充电盒通过精睿兴业的Type-C接口输入电源，输入端有TVS用于输入浪涌防护，钰泰半导体ETA7014负责输入过压保护，昇生微电子SS881Q MCU负责电池充放电及充电盒整"
+        },
+        {
+          "param": "充电方式",
+          "value": "标记/认证：SS881X-W系列内置无线充电 RX 端兼容 Qi 协议的通信信源编码模块和无线充电功率自适应控制模块（可支持Qi认证），以及线性充电单元和电源管理单元，同时具有丰富的接口功能，灵活的配置模式，和不同的低功耗选项。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "标记/认证：SS881X-W系列内置无线充电 RX 端兼容 Qi 协议的通信信源编码模块和无线充电功率自适应控制模块（可支持Qi认证），以及线性充电单元和电源管理单元，同时具有丰富的接口功能，灵活的配置模式，和不同的低功耗选项。"
         },
         {
           "param": "充电接口",
-          "value": "充电线为USB-A to USB Type-C接口。",
+          "value": "充电方式：内部电路方面，紫米ZMI PurPods Pro矅悦版的充电盒通过精睿兴业的Type-C接口输入电源，输入端有TVS用于输入浪涌防护，钰泰半导体ETA7014负责输入过压保护，昇生微电子SS881Q MCU负责电池充放电及充电盒整机控制；无线充电接收采用模拟前端整流电路+SS881Q的Qi协议功率控制模块共同实现；软包电池来自鹏辉能源，容量500mAh，电池输出由升压IC负责为耳机充电，保护电路齐全。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "充电线为USB-A to USB Type-C接口。"
+          "source_ref": "充电方式：内部电路方面，紫米ZMI PurPods Pro矅悦版的充电盒通过精睿兴业的Type-C接口输入电源，输入端有TVS用于输入浪涌防护，钰泰半导体ETA7014负责输入过压保护，昇生微电子SS881Q MCU负责电池充放电及充电盒整"
         },
         {
           "param": "充电接口",
-          "value": "USB Type-C充电接口位于充电盒底部，外侧有一个装饰金属圈，也可以避免充电线插拔外壳磨损影响美观。",
+          "value": "充电接口：充电线为USB-A to USB Type-C接口。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "USB Type-C充电接口位于充电盒底部，外侧有一个装饰金属圈，也可以避免充电线插拔外壳磨损影响美观。"
+          "source_ref": "充电接口：充电线为USB-A to USB Type-C接口。"
         },
         {
           "param": "充电接口",
-          "value": "充电接口位置的金属件。",
+          "value": "充电接口：USB Type-C充电接口位于充电盒底部，外侧有一个装饰金属圈，也可以避免充电线插拔外壳磨损影响美观。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "充电接口位置的金属件。"
+          "source_ref": "充电接口：USB Type-C充电接口位于充电盒底部，外侧有一个装饰金属圈，也可以避免充电线插拔外壳磨损影响美观。"
         },
         {
           "param": "充电接口",
-          "value": "充电盒通过USB Type-C接口输入电源，供应商是KRCONN深圳市精睿兴业科技有限公司。",
+          "value": "充电接口：充电接口位置的金属件。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "充电盒通过USB Type-C接口输入电源，供应商是KRCONN深圳市精睿兴业科技有限公司。"
+          "source_ref": "充电接口：充电接口位置的金属件。"
         },
         {
           "param": "充电接口",
-          "value": "内部电路方面，紫米ZMI PurPods Pro矅悦版的充电盒通过精睿兴业的Type-C接口输入电源，输入端有TVS用于输入浪涌防护，钰泰半导体ETA7014负责输入过压保护，昇生微电子SS881Q MCU负责电池充放电及充电盒整机控制；无线充电接收采用模拟前端整流电路+SS881Q的Qi协议功率控制模块共同实现；软包电池来自鹏辉能源，容量500mAh，电池输出由升压IC负责为耳机充电，保护电路齐全。",
+          "value": "充电接口：充电盒通过USB Type-C接口输入电源，供应商是KRCONN深圳市精睿兴业科技有限公司。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "内部电路方面，紫米ZMI PurPods Pro矅悦版的充电盒通过精睿兴业的Type-C接口输入电源，输入端有TVS用于输入浪涌防护，钰泰半导体ETA7014负责输入过压保护，昇生微电子SS881Q MCU负责电池充放电及充电盒整机控制；无"
+          "source_ref": "充电接口：充电盒通过USB Type-C接口输入电源，供应商是KRCONN深圳市精睿兴业科技有限公司。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电接口：内部电路方面，紫米ZMI PurPods Pro矅悦版的充电盒通过精睿兴业的Type-C接口输入电源，输入端有TVS用于输入浪涌防护，钰泰半导体ETA7014负责输入过压保护，昇生微电子SS881Q MCU负责电池充放电及充电盒整机控制；无线充电接收采用模拟前端整流电路+SS881Q的Qi协议功率控制模块共同实现；软包电池来自鹏辉能源，容量500mAh，电池输出由升压IC负责为耳机充电，保护电路齐全。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电接口：内部电路方面，紫米ZMI PurPods Pro矅悦版的充电盒通过精睿兴业的Type-C接口输入电源，输入端有TVS用于输入浪涌防护，钰泰半导体ETA7014负责输入过压保护，昇生微电子SS881Q MCU负责电池充放电及充电盒整"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：一、ZMI PurPods Pro 耀悦版 开箱\n包装盒采用了新的设计，耳机渲染图在画面中心，背景字体有渐变效果，看起来比较有潮流感，左下角是产品名“紫米 ZMI PurPods Pro 真无线降噪耳机矅悦版”，右下角有小爱同学的认证标识。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：一、ZMI PurPods Pro 耀悦版 开箱\n包装盒采用了新的设计，耳机渲染图在画面中心，背景字体有渐变效果，看起来比较有潮流感，左下角是产品名“紫米 ZMI PurPods P"
         },
         {
           "param": "充电接口",
@@ -874,15 +734,6 @@
         },
         {
           "param": "标记/认证",
-          "value": "一、ZMI PurPods Pro 耀悦版 开箱\n包装盒采用了新的设计，耳机渲染图在画面中心，背景字体有渐变效果，看起来比较有潮流感，左下角是产品名“紫米 ZMI PurPods Pro 真无线降噪耳机矅悦版”，右下角有小爱同学的认证标识。",
-          "unit": "",
-          "brand": "",
-          "model": "",
-          "confidence": 0.7,
-          "source_ref": "一、ZMI PurPods Pro 耀悦版 开箱\n包装盒采用了新的设计，耳机渲染图在画面中心，背景字体有渐变效果，看起来比较有潮流感，左下角是产品名“紫米 ZMI PurPods Pro 真无线降噪耳机矅悦版”，右下角有小爱同学的认证标识。"
-        },
-        {
-          "param": "标记/认证",
           "value": "盒盖内侧信息：环保期限10年的认证标识；产品型号TW100ZM；有线输入5V⎓0.5A MAX；支持无线输入；额定能量2.15Wh；ZMI PurPods Pro 真无线降噪耳机，江苏紫米电子技术有限公司制造。",
           "unit": "",
           "brand": "",
@@ -892,39 +743,66 @@
         },
         {
           "param": "标记/认证",
-          "value": "SS881X-W系列内置无线充电 RX 端兼容 Qi 协议的通信信源编码模块和无线充电功率自适应控制模块（可支持Qi认证），以及线性充电单元和电源管理单元，同时具有丰富的接口功能，灵活的配置模式，和不同的低功耗选项。",
+          "value": "充电方式：SS881X-W系列内置无线充电 RX 端兼容 Qi 协议的通信信源编码模块和无线充电功率自适应控制模块（可支持Qi认证），以及线性充电单元和电源管理单元，同时具有丰富的接口功能，灵活的配置模式，和不同的低功耗选项。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "SS881X-W系列内置无线充电 RX 端兼容 Qi 协议的通信信源编码模块和无线充电功率自适应控制模块（可支持Qi认证），以及线性充电单元和电源管理单元，同时具有丰富的接口功能，灵活的配置模式，和不同的低功耗选项。"
+          "source_ref": "充电方式：SS881X-W系列内置无线充电 RX 端兼容 Qi 协议的通信信源编码模块和无线充电功率自适应控制模块（可支持Qi认证），以及线性充电单元和电源管理单元，同时具有丰富的接口功能，灵活的配置模式，和不同的低功耗选项。"
         },
         {
           "param": "标记/认证",
-          "value": "软包电池来自GreatPower鹏辉能源，额定电压3.7V，充电限制电压4.2V，额定容量500mAh，能量1.85Wh。",
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：一、ZMI PurPods Pro 耀悦版 开箱\n包装盒采用了新的设计，耳机渲染图在画面中心，背景字体有渐变效果，看起来比较有潮流感，左下角是产品名“紫米 ZMI PurPods Pro 真无线降噪耳机矅悦版”，右下角有小爱同学的认证标识。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "软包电池来自GreatPower鹏辉能源，额定电压3.7V，充电限制电压4.2V，额定容量500mAh，能量1.85Wh。"
+          "source_ref": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：一、ZMI PurPods Pro 耀悦版 开箱\n包装盒采用了新的设计，耳机渲染图在画面中心，背景字体有渐变效果，看起来比较有潮流感，左下角是产品名“紫米 ZMI PurPods P"
         },
         {
           "param": "标记/认证",
-          "value": "扣式电池来自EVE亿纬锂能，型号ICB1154，直径11mm，厚度5.4mm，额定电压3.7V。",
+          "value": "标记/认证：盒盖内侧信息：环保期限10年的认证标识；产品型号TW100ZM；有线输入5V⎓0.5A MAX；支持无线输入；额定能量2.15Wh；ZMI PurPods Pro 真无线降噪耳机，江苏紫米电子技术有限公司制造。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "扣式电池来自EVE亿纬锂能，型号ICB1154，直径11mm，厚度5.4mm，额定电压3.7V。"
+          "source_ref": "标记/认证：盒盖内侧信息：环保期限10年的认证标识；产品型号TW100ZM；有线输入5V⎓0.5A MAX；支持无线输入；额定能量2.15Wh；ZMI PurPods Pro 真无线降噪耳机，江苏紫米电子技术有限公司制造。"
         },
         {
           "param": "标记/认证",
-          "value": "CHIPSEA芯海科技的CSU18M65压力触控芯片，内置高精度ADC和低噪声PGA，可检测μV级信号，最小可检测1μm的形变和1克的力度变化；关机功耗0.5μA；支持固件升级。",
+          "value": "标记/认证：SS881X-W系列内置无线充电 RX 端兼容 Qi 协议的通信信源编码模块和无线充电功率自适应控制模块（可支持Qi认证），以及线性充电单元和电源管理单元，同时具有丰富的接口功能，灵活的配置模式，和不同的低功耗选项。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "CHIPSEA芯海科技的CSU18M65压力触控芯片，内置高精度ADC和低噪声PGA，可检测μV级信号，最小可检测1μm的形变和1克的力度变化；关机功耗0.5μA；支持固件升级。"
+          "source_ref": "标记/认证：SS881X-W系列内置无线充电 RX 端兼容 Qi 协议的通信信源编码模块和无线充电功率自适应控制模块（可支持Qi认证），以及线性充电单元和电源管理单元，同时具有丰富的接口功能，灵活的配置模式，和不同的低功耗选项。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "标记/认证：软包电池来自GreatPower鹏辉能源，额定电压3.7V，充电限制电压4.2V，额定容量500mAh，能量1.85Wh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "标记/认证：软包电池来自GreatPower鹏辉能源，额定电压3.7V，充电限制电压4.2V，额定容量500mAh，能量1.85Wh。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "标记/认证：扣式电池来自EVE亿纬锂能，型号ICB1154，直径11mm，厚度5.4mm，额定电压3.7V。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "标记/认证：扣式电池来自EVE亿纬锂能，型号ICB1154，直径11mm，厚度5.4mm，额定电压3.7V。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "标记/认证：CHIPSEA芯海科技的CSU18M65压力触控芯片，内置高精度ADC和低噪声PGA，可检测μV级信号，最小可检测1μm的形变和1克的力度变化；关机功耗0.5μA；支持固件升级。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "标记/认证：CHIPSEA芯海科技的CSU18M65压力触控芯片，内置高精度ADC和低噪声PGA，可检测μV级信号，最小可检测1μm的形变和1克的力度变化；关机功耗0.5μA；支持固件升级。"
         },
         {
           "param": "电池容量",
@@ -945,16 +823,25 @@
       "app_features": [],
       "ota_support": [
         {
-          "value": "CHIPSEA芯海科技的CSU18M65压力触控芯片，内置高精度ADC和低噪声PGA，可检测μV级信号，最小可检测1μm的形变和1克的力度变化；关机功耗0.5μA；支持固件升级。",
+          "value": "标记/认证：CHIPSEA芯海科技的CSU18M65压力触控芯片，内置高精度ADC和低噪声PGA，可检测μV级信号，最小可检测1μm的形变和1克的力度变化；关机功耗0.5μA；支持固件升级。",
           "evidence": {
-            "value": "CHIPSEA芯海科技的CSU18M65压力触控芯片，内置高精度ADC和低噪声PGA，可检测μV级信号，最小可检测1μm的形变和1克的力度变化；关机功耗0.5μA；支持固件升级。",
+            "value": "标记/认证：CHIPSEA芯海科技的CSU18M65压力触控芯片，内置高精度ADC和低噪声PGA，可检测μV级信号，最小可检测1μm的形变和1克的力度变化；关机功耗0.5μA；支持固件升级。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "CHIPSEA芯海科技的CSU18M65压力触控芯片，内置高精度ADC和低噪声PGA，可检测μV级信号，最小可检测1μm的形变和1克的力度变化；关机功耗0.5μA；支持固件升级。"
+            "source_text": "标记/认证：CHIPSEA芯海科技的CSU18M65压力触控芯片，内置高精度ADC和低噪声PGA，可检测μV级信号，最小可检测1μm的形变和1克的力度变化；关机功耗0.5μA；支持固件升级。"
           }
         }
       ],
       "latency_notes": [
+        {
+          "value": "紫米 ZMI PurPods Pro 矅悦版在功能上与白色版本别无二致，支持ANC双重主动降噪，官方宣传最大降噪深度35dB，还有专门的降风噪模式；耳机搭载蓝牙5.2主控芯片，搭配紫米自研的EQsmart⾃适应技术，可以自适应调节耳机⾳量、降噪模式，玩游戏时自动进入低延迟的游戏模式。",
+          "evidence": {
+            "value": "紫米 ZMI PurPods Pro 矅悦版在功能上与白色版本别无二致，支持ANC双重主动降噪，官方宣传最大降噪深度35dB，还有专门的降风噪模式；耳机搭载蓝牙5.2主控芯片，搭配紫米自研的EQsmart⾃适应技术，可以自适应调节耳机⾳量、降噪模式，玩游戏时自动进入低延迟的游戏模式。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "紫米 ZMI PurPods Pro 矅悦版在功能上与白色版本别无二致，支持ANC双重主动降噪，官方宣传最大降噪深度35dB，还有专门的降风噪模式；耳机搭载蓝牙5.2主控芯片，搭配紫米自研的EQsmart⾃适应技术，可以自适应调节耳机⾳量、降噪模式，玩游戏时自动进入低延迟的游戏模式。"
+          }
+        },
         {
           "value": "紫米 ZMI PurPods Pro 矅悦版在功能上与白色版本别无二致，支持ANC双重主动降噪，官方宣传最大降噪深度35dB，还有专门的降风噪模式；耳机搭载蓝牙5.2主控芯片，搭配紫米自研的EQsmart⾃适应技术，可以自适应调节耳机⾳量、降噪模式，玩游戏时自动进入低延迟的游戏模式。",
           "evidence": {

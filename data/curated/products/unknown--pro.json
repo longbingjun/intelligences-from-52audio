@@ -20,13 +20,13 @@
     "battery_ear": "电池",
     "battery_case": "",
     "speaker": "喇叭单元",
-    "materials": "硅胶、塑料、PC",
-    "weight_g": "56.7g",
+    "materials": "",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
     "bluetooth": "5.2",
-    "bom_row_count": 18,
+    "bom_row_count": 11,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -41,13 +41,27 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "降噪系统",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "百度小度在近期发布了最新一代TWS耳机小度主动降噪智能耳机 Pro，相较于前两代外观设计上更加精致，但由于主动降噪功能的加入，耳机替换为了柄状的入耳式设计。功能配置方面，内置12mm大动圈单元，支持音质均衡和增益调校；升级蓝牙5.2，新增主动降噪/通透模式，三麦通话降噪，支持入耳检测，压感操控。"
+        "source_text": "镭雕1077 0471的MEMS麦克风，用于主动降噪和通话降噪功能。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机部分，内部采用了12mm动圈单元，新余赣锋的0.148Wh软包扣式电池，以及单耳3颗MEMS麦克风用于主动降噪和通话降噪功能拾音。"
       }
     },
     {
@@ -55,13 +69,27 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "充电盒",
       "role": "major",
       "evidence": {
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "小度主动降噪智能耳机Pro充电盒外观一览，采用了光滑圆润的工艺处理，机身质感厚重，没有廉价的塑料感。正面开盖处设计有倒角，便于开启。下方有一颗指示灯和小度品牌LOGO。"
+        "source_text": "充电盒内座舱底部是主板单元。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "镭雕1077 0471的MEMS麦克风，用于主动降噪和通话降噪功能。"
       }
     },
     {
@@ -79,34 +107,6 @@
       }
     },
     {
-      "component": "电池",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "电池",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "电池位于座舱支架中间位置，起到很好的保护作用。"
-      }
-    },
-    {
-      "component": "麦克风",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "麦克风",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机柄底部设置为耳机充电的金属触点，中间一颗椭圆形麦克风开孔，用于语音通话拾音。"
-      }
-    },
-    {
       "component": "喇叭单元",
       "brand": "",
       "model": "",
@@ -117,35 +117,7 @@
         "value": "喇叭单元",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "百度小度在近期发布了最新一代TWS耳机小度主动降噪智能耳机 Pro，相较于前两代外观设计上更加精致，但由于主动降噪功能的加入，耳机替换为了柄状的入耳式设计。功能配置方面，内置12mm大动圈单元，支持音质均衡和增益调校；升级蓝牙5.2，新增主动降噪/通透模式，三麦通话降噪，支持入耳检测，压感操控。"
-      }
-    },
-    {
-      "component": "天线",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "天线",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "腔体内部还设置有一层黑色盖板，盖板上印刷LDS镭射天线。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "右侧是一颗蓝牙配对按键。"
+        "source_text": "耳机部分，内部采用了12mm动圈单元，新余赣锋的0.148Wh软包扣式电池，以及单耳3颗MEMS麦克风用于主动降噪和通话降噪功能拾音。"
       }
     },
     {
@@ -153,69 +125,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "充电盒",
+      "side": "",
       "role": "minor",
       "evidence": {
         "value": "外壳结构",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "撬开充电盒外壳，取出内部结构。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "小度主动降噪智能耳机Pro充电盒外观一览，采用了光滑圆润的工艺处理，机身质感厚重，没有廉价的塑料感。正面开盖处设计有倒角，便于开启。下方有一颗指示灯和小度品牌LOGO。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "SS881",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "SS881",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "SinhMicro昇生微电子SS881A单片机。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "CM1003",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "CM1003",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "iCM创芯微CM1003-S07EA锂电池保护IC，内置有高精度电压检测电路和延迟电路，通过检测电池的电压、电流，实现对电池的过充电、过放电、过电流等保护。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "CM1124",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "CM1124",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "iCM创芯微CM1124-EAC集成 MOSFET 单节锂电池保护 IC，CM1124 系列内置有高精度电压检测电路和延迟电路，通过检测电池的电压、电流，实现对电池的过充电、过放电、过\n电流等保护。"
+        "source_text": "充电接口：外壳上Type-C接口开孔内侧特写。"
       }
     },
     {
@@ -229,21 +145,7 @@
         "value": "恒玄 BES2500YP",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "BES恒玄 BES2500YP 超低功耗蓝牙音频SoC，支持双模蓝牙5.2，自适应ANC主动降噪功能，内部集成了高保真音频DAC和ADC；通过集成高性能双核STAR-MC1 MCU子系统和超低功耗Sensor Hub子系统，极大地降低了功耗，同时还具备强大的应用程序处理能力。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "BES2500",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "BES2500",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "据我爱音频网拆解了解到，目前BES2500系列主控芯片已被\n一加\n、\nOPPO、荣耀等品牌旗下多款TWS耳机产品采用\n；还有\n三星、小米、OPPO、JBL、万魔、荣耀、百度、一加、传音等品牌\n的真无线耳机大量采用了恒玄的方案。"
+        "source_text": "芯片 恒玄 BES2500YP\n芯片 BES2500\n芯片 芯导P14C5N\n芯片 SS881\n芯片 CM1003\n芯片 CM1124"
       }
     },
     {
@@ -251,13 +153,13 @@
       "brand": "",
       "model": "芯导P14C5N",
       "qty_hint": "1",
-      "side": "充电盒",
+      "side": "",
       "role": "主控/蓝牙",
       "evidence": {
         "value": "芯导P14C5N",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "充电盒电池固定在支架内部，与其他组件分离，电池容量2.01Wh，来自新余赣锋，配备有电路保护板和创芯微CM1003-S07EA锂电保护IC，由昇生微电子SS881A单片机为内置电池充电，集成了电源管理单元和充电管理单元，提供全软件实时可配置的充电电压电流设置；由芯导P14C5N芯片提供过压保护；微源半导体LP6261升压芯片升压为耳机充电。"
+        "source_text": "芯片 恒玄 BES2500YP\n芯片 BES2500\n芯片 芯导P14C5N\n芯片 SS881\n芯片 CM1003\n芯片 CM1124"
       }
     },
     {
@@ -265,13 +167,13 @@
       "brand": "",
       "model": "SS881",
       "qty_hint": "1",
-      "side": "充电盒",
+      "side": "",
       "role": "主控/蓝牙",
       "evidence": {
         "value": "SS881",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "充电盒电池固定在支架内部，与其他组件分离，电池容量2.01Wh，来自新余赣锋，配备有电路保护板和创芯微CM1003-S07EA锂电保护IC，由昇生微电子SS881A单片机为内置电池充电，集成了电源管理单元和充电管理单元，提供全软件实时可配置的充电电压电流设置；由芯导P14C5N芯片提供过压保护；微源半导体LP6261升压芯片升压为耳机充电。"
+        "source_text": "芯片 恒玄 BES2500YP\n芯片 BES2500\n芯片 芯导P14C5N\n芯片 SS881\n芯片 CM1003\n芯片 CM1124"
       }
     },
     {
@@ -279,13 +181,13 @@
       "brand": "",
       "model": "CM1003",
       "qty_hint": "1",
-      "side": "充电盒",
+      "side": "",
       "role": "主控/蓝牙",
       "evidence": {
         "value": "CM1003",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "充电盒电池固定在支架内部，与其他组件分离，电池容量2.01Wh，来自新余赣锋，配备有电路保护板和创芯微CM1003-S07EA锂电保护IC，由昇生微电子SS881A单片机为内置电池充电，集成了电源管理单元和充电管理单元，提供全软件实时可配置的充电电压电流设置；由芯导P14C5N芯片提供过压保护；微源半导体LP6261升压芯片升压为耳机充电。"
+        "source_text": "芯片 恒玄 BES2500YP\n芯片 BES2500\n芯片 芯导P14C5N\n芯片 SS881\n芯片 CM1003\n芯片 CM1124"
       }
     }
   ],
@@ -304,13 +206,23 @@
   "market": {
     "selling_points": [
       {
-        "text": "镭雕1077 0471的MEMS麦克风，用于主动降噪和通话降噪功能。",
+        "text": "百度小度是依托于百度DuerOS智能语音系统的蓝牙音频品牌，旗下产品主要包括智能音箱、智能真无线耳机、学习平板 […]\n镭雕1077 0471的MEMS麦克风，用于主动降噪和通话降噪功能。",
         "tag": "降噪",
         "evidence": {
-          "value": "镭雕1077 0471的MEMS麦克风，用于主动降噪和通话降噪功能。",
-          "confidence": 0.64,
+          "value": "百度小度是依托于百度DuerOS智能语音系统的蓝牙音频品牌，旗下产品主要包括智能音箱、智能真无线耳机、学习平板 […]\n镭雕1077 0471的MEMS麦克风，用于主动降噪和通话降噪功能。",
+          "confidence": 0.72,
           "source_type": "text",
-          "source_text": "镭雕1077 0471的MEMS麦克风，用于主动降噪和通话降噪功能。"
+          "source_text": "百度小度是依托于百度DuerOS智能语音系统的蓝牙音频品牌，旗下产品主要包括智能音箱、智能真无线耳机、学习平板 […]\n镭雕1077 0471的MEMS麦克风，用于主动降噪和通话降噪功能。"
+        }
+      },
+      {
+        "text": "标记/认证：充电盒盖内侧丝印产品名称：小度主动降噪智能耳机Pro，型号：XD-SWA15-2101，输入功率：5V-0.5A，上海小度技术有限公司，CMIIT ID：2021DP9091。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "标记/认证：充电盒盖内侧丝印产品名称：小度主动降噪智能耳机Pro，型号：XD-SWA15-2101，输入功率：5V-0.5A，上海小度技术有限公司，CMIIT ID：2021DP9091。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "标记/认证：充电盒盖内侧丝印产品名称：小度主动降噪智能耳机Pro，型号：XD-SWA15-2101，输入功率：5V-0.5A，上海小度技术有限公司，CMIIT ID：2021DP9091。"
         }
       },
       {
@@ -342,13 +254,23 @@
           "source_type": "text",
           "source_text": "三、我爱音频网总结\n小度主动降噪智能耳机Pro在外观设计上相较于前两代有了大的改变，整体质感表现得到了很大提升。"
         }
+      },
+      {
+        "text": "标记/认证：S881X系列是昇生微POWR MCU系列的产品之一，单片机具有丰富的接口功能和灵活的配置模式，支持不同的低功耗选项，适用于需要电池充电以及智能控制的便携式电子产品，可通过软件灵活配置电池的充电电压和电流，同时还内置完善的保护功能，而且芯片本身已经通过了IEC62368认证。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：S881X系列是昇生微POWR MCU系列的产品之一，单片机具有丰富的接口功能和灵活的配置模式，支持不同的低功耗选项，适用于需要电池充电以及智能控制的便携式电子产品，可通过软件灵活配置电池的充电电压和电流，同时还内置完善的保护功能，而且芯片本身已经通过了IEC62368认证。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "标记/认证：S881X系列是昇生微POWR MCU系列的产品之一，单片机具有丰富的接口功能和灵活的配置模式，支持不同的低功耗选项，适用于需要电池充电以及智能控制的便携式电子产品，可通过软件灵活配置电池的充电电压和电流，同时还内置完善的保护功能，而且芯片本身已经通过了IEC62368认证。"
+        }
       }
     ],
     "scenarios": [
       "办公",
       "通话"
     ],
-    "positioning_summary": "镭雕1077 0471的MEMS麦克风，用于主动降噪和通话降噪功能。",
+    "positioning_summary": "百度小度是依托于百度DuerOS智能语音系统的蓝牙音频品牌，旗下产品主要包括智能音箱、智能真无线耳机、学习平板 […]\n镭雕1077 0471的MEMS麦克风，用于主动降噪和通话降噪功能。",
     "launch_date": null,
     "best_report_id": "94628",
     "best_video_id": null

@@ -1,0 +1,165 @@
+{
+  "canonical_id": "unknown--oppo-o-free-tws",
+  "brand": "",
+  "model": "OPPO O-Free TWS",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "7160"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "7160"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2018-08-30",
+  "latest_published": "2018-08-30",
+  "internal_match_suggestions": [
+    {
+      "sku": "OpenDots 2",
+      "score": 0.455,
+      "reason": "型号相似度 45%（匹配 OpenDots 2）"
+    }
+  ],
+  "cost_snapshot": {
+    "main_chip": "高通\nQCC3026",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "35 mAh",
+    "speaker": "",
+    "materials": "塑料、PC",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 4,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.67,
+    "best_report_id": "7160",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网对OPPOO-Free进行长度测量，耳机充电盒长度约6cm，耳机长度约3cm。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "接在接地的FPC，推测是天线。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "TI德州仪器 24232H USB 供能锂电池充电器。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通\nQCC3026",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通\nQCC3026",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "据我爱音频网拆解，OPPO O-Free采用\nQualcomm\n高通\nQCC3026\nTWS\n真无线立体声蓝牙耳机方案，支持蓝牙V5.0，内置120MHz Kalimba DPS。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:7160"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "位于左侧的是耳机的泄压孔，用于调节内外气压，右侧的孔是CVC通话降噪的麦克风。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "位于左侧的是耳机的泄压孔，用于调节内外气压，右侧的孔是CVC通话降噪的麦克风。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "位于左侧的是耳机的泄压孔，用于调节内外气压，右侧的孔是CVC通话降噪的麦克风。"
+        }
+      },
+      {
+        "text": "顶部用于CVC通话降噪的麦克风。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "顶部用于CVC通话降噪的麦克风。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "顶部用于CVC通话降噪的麦克风。"
+        }
+      },
+      {
+        "text": "支持第八代CVC通话降噪，双耳主耳机和从耳机智能切换。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "支持第八代CVC通话降噪，双耳主耳机和从耳机智能切换。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "支持第八代CVC通话降噪，双耳主耳机和从耳机智能切换。"
+        }
+      },
+      {
+        "text": "总体上具有低延迟，低功耗，立体声通话的特点。",
+        "tag": "游戏低延迟",
+        "evidence": {
+          "value": "总体上具有低延迟，低功耗，立体声通话的特点。",
+          "confidence": 0.69,
+          "source_type": "text",
+          "source_text": "总体上具有低延迟，低功耗，立体声通话的特点。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "位于左侧的是耳机的泄压孔，用于调节内外气压，右侧的孔是CVC通话降噪的麦克风。",
+    "launch_date": null,
+    "best_report_id": "7160",
+    "best_video_id": null
+  }
+}

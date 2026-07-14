@@ -1,0 +1,345 @@
+{
+  "canonical_id": "baseus--bowie-w04",
+  "brand": "Baseus倍思",
+  "model": "Bowie W04",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "222985"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "222985"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2024-12-19",
+  "latest_published": "2024-12-19",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "JL7006",
+    "pmic_case": "WINSEMI稳先微 Winsemi稳先微WSDF2311C",
+    "battery_ear": "电池",
+    "battery_case": "WEL旭航诚 5V/00mAh锂电池",
+    "speaker": "动圈单元",
+    "materials": "",
+    "weight_g": "38.1g",
+    "weight_case_g": "",
+    "weight_earbud_g": "3.6g",
+    "ip_rating": "",
+    "bluetooth": "5.4",
+    "bom_row_count": 18,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "222985",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "WEL旭航诚",
+      "model": "5V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "5V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载了WEL旭航诚500mAh锂电池组，采用了LPS微源半导体LP7813智能TWS充电仓管理IC负责充放电管理，支持30V高耐压，支持耳机电压跟随充电，有效提升充电效率15%左右，从而延长整机续航时间；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "JL杰理",
+      "model": "JL7006",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "JL7006",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了一颗MEMS麦克风拾音，采用了JL杰理JL7006F6的蓝牙音频SoC，用于无线连接和音频数据处理；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "WINSEMI稳先微",
+      "model": "Winsemi稳先微WSDF2311C",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "保护IC",
+      "evidence": {
+        "value": "Winsemi稳先微WSDF2311C",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "Winsemi稳先微WSDF2311C锂电保护IC负责电池的过充、过放、过流、短路等保护。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部采用了13mm大尺寸动圈单元，内置MIC-POWER微电新能源35mAh钢壳扣式电池；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了一颗MEMS麦克风拾音，采用了JL杰理JL7006F6的蓝牙音频SoC，用于无线连接和音频数据处理；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面展示有佩戴场景图，以及产品的参数信息。型号：Baseus PM169，蓝牙版本：V5.4，通讯距离：10米，听歌时间：约6.5小时（空间音效默认状态，50%电量），配合充电仓听歌时间：约41小时（空间音效默认状态，50%电量），耳机电池容量：35mAh/0.135Wh，耳机额定输入：DC5V-50mA，充电仓电池容量：500mAh/1.85Wh，充电仓额定输入：DC5V-500mA，耳机额定消耗电流：6.1mA，充电时间：约1小时，频响范围：20Hz-20kHz，充电接口：Type-C，制造商：深圳市倍思科技有限公司。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面展示有佩戴场景图，以及产品的参数信息。型号：Baseus PM169，蓝牙版本：V5.4，通讯距离：10米，听歌时间：约6.5小时（空间音效默认状态，50%电量），配合充电仓听歌时间：约41小时（空间音效默认状态，50%电量），耳机电池容量：35mAh/0.135Wh，耳机额定输入：DC5V-50mA，充电仓电池容量：500mAh/1.85Wh，充电仓额定输入：DC5V-500mA，耳机额定消耗电流：6.1mA，充电时间：约1小时，频响范围：20Hz-20kHz，充电接口：Type-C，制造商：深圳市倍思科技有限公司。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部通过螺丝固定主板，电池导线与主板焊接，排线与主板通过连接器连接。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄底部设置充电尾塞，中间是麦克风拾音孔，通过丝网防护。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机扬声器正面振膜特写。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "陶瓷蓝牙天线特写。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出卡扣式固定的座舱结构。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Baseus倍思Bowie W04真无线耳机充电盒采用了圆角方形设计，磨砂质感，体积圆润，小巧便携。机身正面设置有四颗指示灯，用于反馈蓝牙配对和剩余电量信息。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身底部设置有Type-C充电接口和蓝牙配对功能按键。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Prisemi芯导P14C1S",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Prisemi芯导P14C1S",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Prisemi芯导P14C1S过压过流保护IC，输入耐压高达32V，过压保护点为固定6V。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "JL7006",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "JL7006",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "JL杰理JL7006F6的蓝牙音频SoC，用于无线连接和音频数据处理。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Winsemi稳先微WSDF2311C",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Winsemi稳先微WSDF2311C",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Winsemi稳先微WSDF2311C锂电保护IC。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Winsemi稳先微WSDF2311",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Winsemi稳先微WSDF2311",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Winsemi稳先微WSDF2311系列详细资料图。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Baseus倍思Bowie W04真无线耳机在外观方面，充电盒体积小巧圆润，还设计有挂绳孔，无论是握持，塞进口袋或是悬挂到其他物品上，都非常的便携。耳机采用了柄状的入耳式设计，皓月白配色，简洁时尚，重量仅3.6g，佩戴舒适轻盈。 内部主要配置方面，充电盒搭载了WEL旭航诚500mAh锂电池组，采用了LPS微源半导体LP7813智能TWS充电仓管理IC负责充放电管理，支持30V高耐压，支持耳机电压跟随充电，有效提升充电效率15%左右，从而延长整机续航时间；还采用了Cmsemicon中微半导体SC8F073系列单片机，负责整机控制。 耳机内部采用了13mm大尺寸动圈单元，内置MIC-POWER微电新能源35mAh钢壳扣式电池；主板上，搭载了一颗MEMS麦克风拾音，采用了JL杰理JL7006F6的蓝牙音频SoC，用于无线连接和音频数据处理；Winsemi稳先微WSDF2311C锂电保护IC负责电池的过充、过放、过流、短路等保护。",
+  "layer_refs": {
+    "technical": [
+      "report:222985"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "下面来看看这款产品的详细拆解报告吧~\n我爱音频网还拆解过倍思\nEli Sport 1\n、\nAirGo AG20\n、\nAS01\n开放式耳机，\n倍思AeQur G10真无线双模耳机\n，\n倍思Bowie M3\n、\nBowie MA10\n、\nBowie M2s\n、\nBowie M2\n真无线降噪耳机，倍思\nBowie W04 Plus\n、\nBowie E5x\n、\nBowie E9\n、\nBowie E2\n、\nAirNora\n、\nEncok W01\n、\nEncok W04 Pro\n真无线耳机，\n倍思H1S头戴式降噪耳机\n，\n倍思AeQur V2便携式蓝牙音箱\n等产品。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "下面来看看这款产品的详细拆解报告吧~\n我爱音频网还拆解过倍思\nEli Sport 1\n、\nAirGo AG20\n、\nAS01\n开放式耳机，\n倍思AeQur G10真无线双模耳机\n，\n倍思Bowie M3\n、\nBowie MA10\n、\nBowie M2s\n、\nBowie M2\n真无线降噪耳机，倍思\nBowie W04 Plus\n、\nBowie E5x\n、\nBowie E9\n、\nBowie E2\n、\nAirNora\n、\nEncok W01\n、\nEncok W04 Pro\n真无线耳机，\n倍思H1S头戴式降噪耳机\n，\n倍思AeQur V2便携式蓝牙音箱\n等产品。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "下面来看看这款产品的详细拆解报告吧~\n我爱音频网还拆解过倍思\nEli Sport 1\n、\nAirGo AG20\n、\nAS01\n开放式耳机，\n倍思AeQur G10真无线双模耳机\n，\n倍思Bowie M3\n、\nBowie MA10\n、\nBowie M2s\n、\nBowie M2\n真无线降噪耳机，倍思\nBowie W04 Plus\n、\nBowie E5x\n、\nBowie E9\n、\nBowie E2\n、\nAirNora\n、\nEncok W01\n、\nEncok W04 Pro\n真无线耳机，\n倍思H1S头戴式降噪耳机\n，\n倍思AeQur V2便携式蓝牙音箱\n等产品。"
+        }
+      },
+      {
+        "text": "型号：Baseus PM169，蓝牙版本：V5.4，通讯距离：10米，听歌时间：约6.5小时（空间音效默认状态，50%电量），配合充电仓听歌时间：约41小时（空间音效默认状态，50%电量），耳机电池容量：35mAh/0.135Wh，耳机额定输入：DC5V-50mA，充电仓电池容量：500mAh/1.85Wh，充电仓额定输入：DC5V-500mA，耳机额定消耗电流：6.1mA，充电时间：约1小时，频响范围：20Hz-20kHz，充电接口：Type-C，制造商：深圳市倍思科技有限公司。",
+        "tag": "空间音频",
+        "evidence": {
+          "value": "型号：Baseus PM169，蓝牙版本：V5.4，通讯距离：10米，听歌时间：约6.5小时（空间音效默认状态，50%电量），配合充电仓听歌时间：约41小时（空间音效默认状态，50%电量），耳机电池容量：35mAh/0.135Wh，耳机额定输入：DC5V-50mA，充电仓电池容量：500mAh/1.85Wh，充电仓额定输入：DC5V-500mA，耳机额定消耗电流：6.1mA，充电时间：约1小时，频响范围：20Hz-20kHz，充电接口：Type-C，制造商：深圳市倍思科技有限公司。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "型号：Baseus PM169，蓝牙版本：V5.4，通讯距离：10米，听歌时间：约6.5小时（空间音效默认状态，50%电量），配合充电仓听歌时间：约41小时（空间音效默认状态，50%电量），耳机电池容量：35mAh/0.135Wh，耳机额定输入：DC5V-50mA，充电仓电池容量：500mAh/1.85Wh，充电仓额定输入：DC5V-500mA，耳机额定消耗电流：6.1mA，充电时间：约1小时，频响范围：20Hz-20kHz，充电接口：Type-C，制造商：深圳市倍思科技有限公司。"
+        }
+      },
+      {
+        "text": "LPS微源半导体LP7813智能TWS充电仓管理IC，支持输入30V高耐压，过压保护5.85V，可编程充电电流高达1A，升压转换器输出电流高达0.6A，两路独立串口，支持左右耳独立双向通讯，内置看门狗功能，NTC管理，HALL检测，集成丰富的保护模块；支持船运模式，船运模式下功耗低至0.7μA，满足超长时间海运需求。",
+        "tag": "其他",
+        "evidence": {
+          "value": "LPS微源半导体LP7813智能TWS充电仓管理IC，支持输入30V高耐压，过压保护5.85V，可编程充电电流高达1A，升压转换器输出电流高达0.6A，两路独立串口，支持左右耳独立双向通讯，内置看门狗功能，NTC管理，HALL检测，集成丰富的保护模块；支持船运模式，船运模式下功耗低至0.7μA，满足超长时间海运需求。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "LPS微源半导体LP7813智能TWS充电仓管理IC，支持输入30V高耐压，过压保护5.85V，可编程充电电流高达1A，升压转换器输出电流高达0.6A，两路独立串口，支持左右耳独立双向通讯，内置看门狗功能，NTC管理，HALL检测，集成丰富的保护模块；支持船运模式，船运模式下功耗低至0.7μA，满足超长时间海运需求。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "下面来看看这款产品的详细拆解报告吧~\n我爱音频网还拆解过倍思\nEli Sport 1\n、\nAirGo AG20\n、\nAS01\n开放式耳机，\n倍思AeQur G10真无线双模耳机\n，\n倍思Bowie M3\n、\nBowie MA10\n、\nBowie M2s\n、\nBowie M2\n真无线降噪耳机，倍思\nBowie W04 Plus\n、\nBowie E5x\n、\nBowie E9\n、\nBowie E2\n、\nAirNora\n、\nEncok W01\n、\nEncok W04 Pro\n真无线耳机，\n倍思H1S头戴式降噪耳机\n，\n倍思AeQur V2便携式蓝牙音箱\n等产品。",
+    "launch_date": null,
+    "best_report_id": "222985",
+    "best_video_id": null
+  }
+}

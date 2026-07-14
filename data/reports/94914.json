@@ -12,7 +12,7 @@
   "author": "Wen5",
   "summary": "Bose QuietComfort Earbuds 真无线降噪耳机、Bose SOUNDSPORT FREE  […]",
   "captured_at": "2026-07-14T02:10:00+00:00",
-  "data_completeness": 0.692,
+  "data_completeness": 0.59,
   "views": {
     "market": {
       "brand": "",
@@ -40,6 +40,16 @@
             "confidence": 0.74,
             "source_type": "text",
             "source_text": "三、我爱音频网总结\nBOSE QuietComfort 45头戴降噪耳机在外观上延续了上代的设计，耳壳采用了抗撞击的玻璃纤维尼龙材料具有很强的韧性，耳罩和头垫采用了高级蛋白质皮革材质，提供全天候的舒适佩戴。"
+          }
+        },
+        {
+          "text": "Bose QuietComfort Earbuds 真无线降噪耳机、Bose SOUNDSPORT FREE  […]\n近期，BOSE正式发布了新一代旗舰级头戴降噪耳机产品QuietComfort 45，外观延续了QuietComfort 35系列的设计，耳罩取消了褶皱。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "Bose QuietComfort Earbuds 真无线降噪耳机、Bose SOUNDSPORT FREE  […]\n近期，BOSE正式发布了新一代旗舰级头戴降噪耳机产品QuietComfort 45，外观延续了QuietComfort 35系列的设计，耳罩取消了褶皱。",
+            "confidence": 0.66,
+            "source_type": "text",
+            "source_text": "Bose QuietComfort Earbuds 真无线降噪耳机、Bose SOUNDSPORT FREE  […]\n近期，BOSE正式发布了新一代旗舰级头戴降噪耳机产品QuietComfort 45，外观延续了QuietComfort 35系列的设计，耳罩取消了褶皱。"
           }
         },
         {
@@ -71,20 +81,9 @@
             "source_type": "text",
             "source_text": "外观功能性上，采用了更加坚固耐用的定制金属转轴结构，支持旋转和折叠功能，提升个性化佩戴的舒适性和外出携带的便捷性。"
           }
-        },
-        {
-          "text": "功能上依旧主打主动降噪，新增AWARE MODE（感知模式），配备四颗外向麦克风实现更清晰的通话效果，拥有24h的续航时间。",
-          "tag": "降噪",
-          "evidence": {
-            "value": "功能上依旧主打主动降噪，新增AWARE MODE（感知模式），配备四颗外向麦克风实现更清晰的通话效果，拥有24h的续航时间。",
-            "confidence": 0.75,
-            "source_type": "text",
-            "source_text": "功能上依旧主打主动降噪，新增AWARE MODE（感知模式），配备四颗外向麦克风实现更清晰的通话效果，拥有24h的续航时间。"
-          }
         }
       ],
       "scenarios": [
-        "睡眠",
         "通话"
       ],
       "positioning_summary": "近期，BOSE正式发布了新一代旗舰级头戴降噪耳机产品QuietComfort 45，外观延续了QuietComfort 35系列的设计，耳罩取消了褶皱。",
@@ -94,11 +93,10 @@
     "cost": {
       "major_parts": [
         "麦克风",
+        "降噪系统",
         "主板/PCBA",
         "电池",
-        "降噪系统",
-        "喇叭单元",
-        "天线"
+        "喇叭单元"
       ],
       "chip_modules": [
         {
@@ -136,13 +134,27 @@
           "brand": "",
           "model": "",
           "qty_hint": "",
-          "side": "耳机",
+          "side": "",
           "role": "major",
           "evidence": {
             "value": "麦克风",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "作为降噪耳机的开端，BOSE降噪耳机产品一直是行业内的标杆。近期，BOSE正式发布了新一代旗舰级头戴降噪耳机产品QuietComfort 45，外观延续了QuietComfort 35系列的设计，耳罩取消了褶皱。功能上依旧主打主动降噪，新增AWARE MODE（感知模式），配备四颗外向麦克风实现更清晰的通话效果，拥有24h的续航时间。"
+            "source_text": "掀开防尘网布，下方还覆盖有一块硬质金属网，起到支撑和反射声音的作用给降噪麦克风。"
+          }
+        },
+        {
+          "component": "降噪系统",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "降噪系统",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "功能上依旧主打主动降噪，新增AWARE MODE（感知模式），配备四颗外向麦克风实现更清晰的通话效果，拥有24h的续航时间。"
           }
         },
         {
@@ -174,20 +186,6 @@
           }
         },
         {
-          "component": "降噪系统",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "major",
-          "evidence": {
-            "value": "降噪系统",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "作为降噪耳机的开端，BOSE降噪耳机产品一直是行业内的标杆。近期，BOSE正式发布了新一代旗舰级头戴降噪耳机产品QuietComfort 45，外观延续了QuietComfort 35系列的设计，耳罩取消了褶皱。功能上依旧主打主动降噪，新增AWARE MODE（感知模式），配备四颗外向麦克风实现更清晰的通话效果，拥有24h的续航时间。"
-          }
-        },
-        {
           "component": "喇叭单元",
           "brand": "",
           "model": "",
@@ -202,62 +200,6 @@
           }
         },
         {
-          "component": "天线",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "",
-          "role": "major",
-          "evidence": {
-            "value": "天线",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "板载蓝牙天线特写。"
-          }
-        },
-        {
-          "component": "触控/按键",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "",
-          "role": "minor",
-          "evidence": {
-            "value": "触控/按键",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "切换降噪等级的功能按键特写。"
-          }
-        },
-        {
-          "component": "指示灯",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "minor",
-          "evidence": {
-            "value": "指示灯",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "开关内侧还隐藏有一颗指示灯，用于反馈耳机配对状态。"
-          }
-        },
-        {
-          "component": "外壳结构",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "",
-          "role": "minor",
-          "evidence": {
-            "value": "外壳结构",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "外壳由PC+ABS材质组成，印有BOSE LOGO。"
-          }
-        },
-        {
           "component": "芯片/模组",
           "brand": "",
           "model": "高通QCC5127",
@@ -268,37 +210,13 @@
             "value": "高通QCC5127",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "主控芯片采用了Qualcomm高通QCC5127蓝牙音频SoC，高通QCC5100系列采用了集成在SoC中的数字有源噪声消除(ANC)技术，四核处理器架构，内置双核DSP音频子系统，支持最新的TWS+技术，即双通道同步传输技术，无线延迟更低，更难能可贵的是，在语音通话和音乐流传输方面与此前相比可以降低高达65%的功耗。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "高通QCC5100",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "高通QCC5100",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "Qualcomm高通QCC5100系列详细资料图。"
+            "source_text": "电池容量：445\n芯片 高通QCC5127\n芯片 高通QCC5100"
           }
         }
       ],
       "supply_hints": [],
       "packaging_notes": [],
-      "process_hints": [
-        {
-          "value": "电源输入接口排线连接点特写，点胶加固。",
-          "evidence": {
-            "value": "电源输入接口排线连接点特写，点胶加固。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "电源输入接口排线连接点特写，点胶加固。"
-          }
-        }
-      ],
+      "process_hints": [],
       "summary_image_urls": [],
       "summary_text": ""
     },
@@ -306,19 +224,31 @@
       "form_factor": "头戴式耳机",
       "earbud_type": "头戴",
       "materials": [
-        "PC",
-        "ABS",
         "尼龙",
         "皮革"
       ],
       "ip_rating": null,
       "weight_g": null,
-      "dimensions": [
-        "3.5mm to 2.5mm音频线特写。",
-        "耳机滑轨内侧特写，设计有刻度尺，便于调节佩戴尺寸。",
-        "2\n.5mm音频线接口特写。"
-      ],
+      "dimensions": [],
       "internal_structure": [
+        {
+          "value": "掀开防尘网布，下方还覆盖有一块硬质金属网，起到支撑和反射声音的作用给降噪麦克风。",
+          "evidence": {
+            "value": "掀开防尘网布，下方还覆盖有一块硬质金属网，起到支撑和反射声音的作用给降噪麦克风。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "掀开防尘网布，下方还覆盖有一块硬质金属网，起到支撑和反射声音的作用给降噪麦克风。"
+          }
+        },
+        {
+          "value": "功能上依旧主打主动降噪，新增AWARE MODE（感知模式），配备四颗外向麦克风实现更清晰的通话效果，拥有24h的续航时间。",
+          "evidence": {
+            "value": "功能上依旧主打主动降噪，新增AWARE MODE（感知模式），配备四颗外向麦克风实现更清晰的通话效果，拥有24h的续航时间。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "功能上依旧主打主动降噪，新增AWARE MODE（感知模式），配备四颗外向麦克风实现更清晰的通话效果，拥有24h的续航时间。"
+          }
+        },
         {
           "value": "作为降噪耳机的开端，BOSE降噪耳机产品一直是行业内的标杆。近期，BOSE正式发布了新一代旗舰级头戴降噪耳机产品QuietComfort 45，外观延续了QuietComfort 35系列的设计，耳罩取消了褶皱。功能上依旧主打主动降噪，新增AWARE MODE（感知模式），配备四颗外向麦克风实现更清晰的通话效果，拥有24h的续航时间。",
           "evidence": {
@@ -326,15 +256,6 @@
             "confidence": 0.74,
             "source_type": "text",
             "source_text": "作为降噪耳机的开端，BOSE降噪耳机产品一直是行业内的标杆。近期，BOSE正式发布了新一代旗舰级头戴降噪耳机产品QuietComfort 45，外观延续了QuietComfort 35系列的设计，耳罩取消了褶皱。功能上依旧主打主动降噪，新增AWARE MODE（感知模式），配备四颗外向麦克风实现更清晰的通话效果，拥有24h的续航时间。"
-          }
-        },
-        {
-          "value": "耳罩背部特写，设计有BOSE品牌LOGO，两侧有圆形矩阵的麦克风开孔。",
-          "evidence": {
-            "value": "耳罩背部特写，设计有BOSE品牌LOGO，两侧有圆形矩阵的麦克风开孔。",
-            "confidence": 0.74,
-            "source_type": "text",
-            "source_text": "耳罩背部特写，设计有BOSE品牌LOGO，两侧有圆形矩阵的麦克风开孔。"
           }
         },
         {
@@ -374,15 +295,6 @@
           }
         },
         {
-          "value": "我爱音频网拆解过的Bose音频产品有：Bose QuietComfort Earbuds 真无线降噪耳机、Bose Sport Earbuds真无线蓝牙耳机、Bose SOUNDSPORT FREE 真无线蓝牙耳机、Bose NC700头戴式主动降噪蓝牙耳机、Bose QuietComfort 35 II 头戴式主动降噪蓝牙耳机和Bose智能音频眼镜等，下面再来看看这款产品的详细拆解报告吧~",
-          "evidence": {
-            "value": "我爱音频网拆解过的Bose音频产品有：Bose QuietComfort Earbuds 真无线降噪耳机、Bose Sport Earbuds真无线蓝牙耳机、Bose SOUNDSPORT FREE 真无线蓝牙耳机、Bose NC700头戴式主动降噪蓝牙耳机、Bose QuietComfort 35 II 头戴式主动降噪蓝牙耳机和Bose智能音频眼镜等，下面再来看看这款产品的详细拆解报告吧~",
-            "confidence": 0.74,
-            "source_type": "text",
-            "source_text": "我爱音频网拆解过的Bose音频产品有：Bose QuietComfort Earbuds 真无线降噪耳机、Bose Sport Earbuds真无线蓝牙耳机、Bose SOUNDSPORT FREE 真无线蓝牙耳机、Bose NC700头戴式主动降噪蓝牙耳机、Bose QuietComfort 35 II 头戴式主动降噪蓝牙耳机和Bose智能音频眼镜等，下面再来看看这款产品的详细拆解报告吧~"
-          }
-        },
-        {
           "value": "扬声器单元背部结构一览，设计有多处调音孔，四周贴有阻尼纸提升声学性能。",
           "evidence": {
             "value": "扬声器单元背部结构一览，设计有多处调音孔，四周贴有阻尼纸提升声学性能。",
@@ -392,36 +304,8 @@
           }
         }
       ],
-      "fastener_type": [
-        {
-          "value": "腔体内用于调音的倒相管特写，通过大量胶水固定。",
-          "evidence": {
-            "value": "腔体内用于调音的倒相管特写，通过大量胶水固定。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "腔体内用于调音的倒相管特写，通过大量胶水固定。"
-          }
-        },
-        {
-          "value": "盖板通过大量胶水固定。",
-          "evidence": {
-            "value": "盖板通过大量胶水固定。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "盖板通过大量胶水固定。"
-          }
-        }
-      ],
+      "fastener_type": [],
       "sealing_method": [
-        {
-          "value": "扬声器防尘网布贴在音腔盖板上，上方印刷有L/左标识。",
-          "evidence": {
-            "value": "扬声器防尘网布贴在音腔盖板上，上方印刷有L/左标识。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "扬声器防尘网布贴在音腔盖板上，上方印刷有L/左标识。"
-          }
-        },
         {
           "value": "掀开防尘网布，下方还覆盖有一块硬质金属网，起到支撑和反射声音的作用给降噪麦克风。",
           "evidence": {
@@ -430,54 +314,9 @@
             "source_type": "text",
             "source_text": "掀开防尘网布，下方还覆盖有一块硬质金属网，起到支撑和反射声音的作用给降噪麦克风。"
           }
-        },
-        {
-          "value": "右耳防尘网布特写，\n印刷\nR/右标识。",
-          "evidence": {
-            "value": "右耳防尘网布特写，\n印刷\nR/右标识。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "右耳防尘网布特写，\n印刷\nR/右标识。"
-          }
-        },
-        {
-          "value": "右耳防尘网布下方结构与左耳相同。",
-          "evidence": {
-            "value": "右耳防尘网布下方结构与左耳相同。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "右耳防尘网布下方结构与左耳相同。"
-          }
-        },
-        {
-          "value": "电源输入接口排线连接点特写，点胶加固。",
-          "evidence": {
-            "value": "电源输入接口排线连接点特写，点胶加固。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "电源输入接口排线连接点特写，点胶加固。"
-          }
         }
       ],
       "wear_design": [
-        {
-          "value": "旗下个人消费电子产品也包括了智能音频眼镜、智能音箱、头戴式耳机、TWS耳机及睡眠耳塞等各个种类。",
-          "evidence": {
-            "value": "旗下个人消费电子产品也包括了智能音频眼镜、智能音箱、头戴式耳机、TWS耳机及睡眠耳塞等各个种类。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "旗下个人消费电子产品也包括了智能音频眼镜、智能音箱、头戴式耳机、TWS耳机及睡眠耳塞等各个种类。"
-          }
-        },
-        {
-          "value": "耳机滑轨内侧特写，设计有刻度尺，便于调节佩戴尺寸。",
-          "evidence": {
-            "value": "耳机滑轨内侧特写，设计有刻度尺，便于调节佩戴尺寸。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "耳机滑轨内侧特写，设计有刻度尺，便于调节佩戴尺寸。"
-          }
-        },
         {
           "value": "三、我爱音频网总结\nBOSE QuietComfort 45头戴降噪耳机在外观上延续了上代的设计，耳壳采用了抗撞击的玻璃纤维尼龙材料具有很强的韧性，耳罩和头垫采用了高级蛋白质皮革材质，提供全天候的舒适佩戴。",
           "evidence": {
@@ -497,98 +336,75 @@
           }
         }
       ],
-      "key_image_urls": [
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/11/2021110910132651.png",
-          "alt": "拆解报告：BOSE QuietComfort 45 头戴式降噪耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/11/2021110910132726.png",
-          "alt": "拆解报告：BOSE QuietComfort 45 头戴式降噪耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/11/2021110910132789.png",
-          "alt": "拆解报告：BOSE QuietComfort 45 头戴式降噪耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/11/2021110910132846.png",
-          "alt": "拆解报告：BOSE QuietComfort 45 头戴式降噪耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/11/2021110910132821.png",
-          "alt": "拆解报告：BOSE QuietComfort 45 头戴式降噪耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        }
-      ],
+      "key_image_urls": [],
       "assembly_notes": [
+        "掀开防尘网布，下方还覆盖有一块硬质金属网，起到支撑和反射声音的作用给降噪麦克风。",
+        "功能上依旧主打主动降噪，新增AWARE MODE（感知模式），配备四颗外向麦克风实现更清晰的通话效果，拥有24h的续航时间。",
         "作为降噪耳机的开端，BOSE降噪耳机产品一直是行业内的标杆。近期，BOSE正式发布了新一代旗舰级头戴降噪耳机产品QuietComfort 45，外观延续了QuietComfort 35系列的设计，耳罩取消了褶皱。功能上依旧主打主动降噪，新增AWARE MODE（感知模式），配备四颗外向麦克风实现更清晰的通话效果，拥有24h的续航时间。",
-        "耳罩背部特写，设计有BOSE品牌LOGO，两侧有圆形矩阵的麦克风开孔。",
-        "取掉耳机背部盖板，盖板内侧固定有两颗降噪麦克风，通过排线连接到主板。",
-        "掀开左耳主板，下方没有设置重要元器件。"
+        "取掉耳机背部盖板，盖板内侧固定有两颗降噪麦克风，通过排线连接到主板。"
       ],
       "ip_rating_evidence": null,
-      "weight_evidence": null
+      "weight_evidence": null,
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": null,
+      "weight_earbud_evidence": null
     },
     "hardware": {
       "specs": [
         {
           "param": "充电方式",
-          "value": "我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对BOSE QuietComfort 45 头戴式降噪耳机进行有线充电测试，充电功率约为1.68W。",
+          "value": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对BOSE QuietComfort 45 头戴式降噪耳机进行有线充电测试，充电功率约为1.68W。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对BOSE QuietComfort 45 头戴式降噪耳机进行有线充电测试，充电功率约为1.68W。"
+          "source_ref": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对BOSE QuietComfort 45 头戴式降噪耳机进行有线充电测试，充电功率约为1.68W。"
         },
         {
           "param": "充电接口",
-          "value": "USB-A to Type-C充电线。",
+          "value": "充电接口：USB-A to Type-C充电线。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "USB-A to Type-C充电线。"
+          "source_ref": "充电接口：USB-A to Type-C充电线。"
         },
         {
           "param": "充电接口",
-          "value": "充电接口由上代Micro USB替换为了目前使用更加便捷的USB Type-C接口。",
+          "value": "充电接口：充电接口由上代Micro USB替换为了目前使用更加便捷的USB Type-C接口。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "充电接口由上代Micro USB替换为了目前使用更加便捷的USB Type-C接口。"
+          "source_ref": "充电接口：充电接口由上代Micro USB替换为了目前使用更加便捷的USB Type-C接口。"
         },
         {
           "param": "充电接口",
-          "value": "Type-C电源输入小板正面特写。",
+          "value": "充电接口：Type-C电源输入小板正面特写。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "Type-C电源输入小板正面特写。"
+          "source_ref": "充电接口：Type-C电源输入小板正面特写。"
         },
         {
           "param": "充电接口",
-          "value": "Type-C电源输入小板背面特写。",
+          "value": "充电接口：Type-C电源输入小板背面特写。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "Type-C电源输入小板背面特写。"
+          "source_ref": "充电接口：Type-C电源输入小板背面特写。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电接口：Type-C\n充电接口：Micro USB\n充电接口：USB-A\n标记/认证：腰封背面是不同语言版本的产品特色功能介绍，靠下位置的图标依次是苹果的MFi认证、Android和蓝牙标识。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电接口：Type-C\n充电接口：Micro USB\n充电接口：USB-A\n标记/认证：腰封背面是不同语言版本的产品特色功能介绍，靠下位置的图标依次是苹果的MFi认证、Android和蓝牙标识。"
         },
         {
           "param": "充电接口",
@@ -619,39 +435,39 @@
         },
         {
           "param": "标记/认证",
-          "value": "腰封背面是不同语言版本的产品特色功能介绍，靠下位置的图标依次是苹果的MFi认证、Android和蓝牙标识。",
+          "value": "充电接口：Type-C\n充电接口：Micro USB\n充电接口：USB-A\n标记/认证：腰封背面是不同语言版本的产品特色功能介绍，靠下位置的图标依次是苹果的MFi认证、Android和蓝牙标识。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "腰封背面是不同语言版本的产品特色功能介绍，靠下位置的图标依次是苹果的MFi认证、Android和蓝牙标识。"
+          "source_ref": "充电接口：Type-C\n充电接口：Micro USB\n充电接口：USB-A\n标记/认证：腰封背面是不同语言版本的产品特色功能介绍，靠下位置的图标依次是苹果的MFi认证、Android和蓝牙标识。"
         },
         {
           "param": "标记/认证",
-          "value": "底部出厂标签信息有型号：866724-0200，名称：BOSE QuietComfort 45消噪耳机 雾白，进口商：博士视听系统（上海）有限公司，以及Bose售后维修中心地址、客服热线、保修卡等。",
+          "value": "标记/认证：底部出厂标签信息有型号：866724-0200，名称：BOSE QuietComfort 45消噪耳机 雾白，进口商：博士视听系统（上海）有限公司，以及Bose售后维修中心地址、客服热线、保修卡等。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "底部出厂标签信息有型号：866724-0200，名称：BOSE QuietComfort 45消噪耳机 雾白，进口商：博士视听系统（上海）有限公司，以及Bose售后维修中心地址、客服热线、保修卡等。"
+          "source_ref": "标记/认证：底部出厂标签信息有型号：866724-0200，名称：BOSE QuietComfort 45消噪耳机 雾白，进口商：博士视听系统（上海）有限公司，以及Bose售后维修中心地址、客服热线、保修卡等。"
         },
         {
           "param": "标记/认证",
-          "value": "腔体标签上有产品名称：QC45蓝牙耳机，型号：437310，输入：5V-0.5A，产地：泰国，以及各种认证标志。",
+          "value": "标记/认证：腔体标签上有产品名称：QC45蓝牙耳机，型号：437310，输入：5V-0.5A，产地：泰国，以及各种认证标志。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "腔体标签上有产品名称：QC45蓝牙耳机，型号：437310，输入：5V-0.5A，产地：泰国，以及各种认证标志。"
+          "source_ref": "标记/认证：腔体标签上有产品名称：QC45蓝牙耳机，型号：437310，输入：5V-0.5A，产地：泰国，以及各种认证标志。"
         },
         {
           "param": "标记/认证",
-          "value": "电池上标签信息，电池型号：AHB110520CPS-02，额定电压：3.7V，充电限制电压：4.1V，额定容量：445mAh，来自兴能高科技股份有限公司，中国制造。",
+          "value": "标记/认证：电池上标签信息，电池型号：AHB110520CPS-02，额定电压：3.7V，充电限制电压：4.1V，额定容量：445mAh，来自兴能高科技股份有限公司，中国制造。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "电池上标签信息，电池型号：AHB110520CPS-02，额定电压：3.7V，充电限制电压：4.1V，额定容量：445mAh，来自兴能高科技股份有限公司，中国制造。"
+          "source_ref": "标记/认证：电池上标签信息，电池型号：AHB110520CPS-02，额定电压：3.7V，充电限制电压：4.1V，额定容量：445mAh，来自兴能高科技股份有限公司，中国制造。"
         },
         {
           "param": "电池容量",
@@ -670,28 +486,8 @@
       "multipoint": [],
       "app_name": "",
       "app_features": [],
-      "ota_support": [
-        {
-          "value": "外置的Q128J存储器，用于存储固件信息。",
-          "evidence": {
-            "value": "外置的Q128J存储器，用于存储固件信息。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "外置的Q128J存储器，用于存储固件信息。"
-          }
-        }
-      ],
-      "latency_notes": [
-        {
-          "value": "主控芯片采用了Qualcomm高通QCC5127蓝牙音频SoC，高通QCC5100系列采用了集成在SoC中的数字有源噪声消除(ANC)技术，四核处理器架构，内置双核DSP音频子系统，支持最新的TWS+技术，即双通道同步传输技术，无线延迟更低，更难能可贵的是，在语音通话和音乐流传输方面与此前相比可以降低高达65%的功耗。",
-          "evidence": {
-            "value": "主控芯片采用了Qualcomm高通QCC5127蓝牙音频SoC，高通QCC5100系列采用了集成在SoC中的数字有源噪声消除(ANC)技术，四核处理器架构，内置双核DSP音频子系统，支持最新的TWS+技术，即双通道同步传输技术，无线延迟更低，更难能可贵的是，在语音通话和音乐流传输方面与此前相比可以降低高达65%的功耗。",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "主控芯片采用了Qualcomm高通QCC5127蓝牙音频SoC，高通QCC5100系列采用了集成在SoC中的数字有源噪声消除(ANC)技术，四核处理器架构，内置双核DSP音频子系统，支持最新的TWS+技术，即双通道同步传输技术，无线延迟更低，更难能可贵的是，在语音通话和音乐流传输方面与此前相比可以降低高达65%的功耗。"
-          }
-        }
-      ],
+      "ota_support": [],
+      "latency_notes": [],
       "bluetooth_evidence": null
     }
   }

@@ -1,0 +1,376 @@
+{
+  "canonical_id": "unknown--skullcandy-smokin-buds-xt",
+  "brand": "",
+  "model": "Skullcandy SMOKIN BUDS XT",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "172122"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "172122"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-08-31",
+  "latest_published": "2023-08-31",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "思远半导体SY5320",
+    "pmic_case": "INJOINIC英集芯 Injoinic英集芯IP5518",
+    "battery_ear": "250 mAh",
+    "battery_case": "2V/50mAh锂电池",
+    "speaker": "6mm 动圈单元",
+    "materials": "硅胶",
+    "weight_g": "41.2g",
+    "weight_case_g": "",
+    "weight_earbud_g": "4.3g",
+    "ip_rating": "IPX4",
+    "bluetooth": "5.2",
+    "bom_row_count": 18,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "172122",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "Injoinic英集芯IP5518",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "PMIC/充电仓管理",
+      "evidence": {
+        "value": "Injoinic英集芯IP5518",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置250mAh锂电池，采用了Injoinic英集芯IP5518 TWS耳机充电仓管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等多功能，支持耳机独立入仓检测，开盖即连功能耳机秒回联手机，为TWS蓝牙耳机充电仓提供完整的电源解决方案；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "思远半导体",
+      "model": "思远半导体SY5320",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY5320",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "还采用了思远半导体SY5320芯片负责过压过流保护。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "2V/50mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "2V/50mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置250mAh锂电池，采用了Injoinic英集芯IP5518 TWS耳机充电仓管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等多功能，支持耳机独立入仓检测，开盖即连功能耳机秒回联手机，为TWS蓝牙耳机充电仓提供完整的电源解决方案；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "6mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "6mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机头内部搭载了6mm动圈单元，45mAh软包扣式电池，单耳内置1颗MEMS麦克风。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机头内部搭载了6mm动圈单元，45mAh软包扣式电池，单耳内置1颗MEMS麦克风。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Skullcandy SMOKIN BUDS XT真无线耳机是骷髅头旗下一款高性价比的产品，支持蓝牙5.2技术，声音传输快速稳定；支持音乐、电影和广播三种模式，为不同场景提供最佳的音频效果；支持双麦克风通话，带来清晰地语音沟通。续航方面，单次续航时间8小时，搭配充电盒综合续航20小时。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒外壳内部结构一览，固定有电池单元。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，主板通过螺丝固定，电池导线与主板焊接。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Skullcandy SMOKIN BUDS XT真无线耳机是骷髅头旗下一款高性价比的产品，支持蓝牙5.2技术，声音传输快速稳定；支持音乐、电影和广播三种模式，为不同场景提供最佳的音频效果；支持双麦克风通话，带来清晰地语音沟通。续航方面，单次续航时间8小时，搭配充电盒综合续航20小时。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "扬声器正面特写，振膜通过金属盖板防护。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧设置有蓝牙天线和触摸检测贴片，以及指示灯导光柱。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面外观一览，开盖处设计有便于开启的倒角，机身上设置Type-C充电接口和指示灯。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "撬开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄内侧的充电触点特写。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机外侧外观一览，机身采用了与充电盒相同的磨砂质感，耳机柄扁平，背部上方设计有“骷髅头”品牌LOGO，同时也是触控区域。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Injoinic英集芯IP5518",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Injoinic英集芯IP5518",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Injoinic英集芯IP5518 TWS耳机充电仓管理SoC，是一款集成MCU，集成了5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5518",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5518",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "IP5518的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY5320",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY5320",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "思远半导体SY5320过压过流保护IC，是一款具有输入欠压和过压保护、锂电池前端过压保护、负载电流异常保护以及过温保护等特点集一身的高集成保护IC，支持28V输入耐压，过压关断保护小于1uS，支持高精度电池过压保护功能。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Skullcandy SMOKIN BUDS XT真无线耳机在外观设计方面，充电盒体积轻巧便携，细腻磨砂质感，不易沾染指纹和出现划痕；内部采用开放式座舱结构，能够便捷取放耳机。耳机采用了柄状的入耳式设计，重量仅约为4.3g，搭配入耳机身的光滑质感和硅胶耳塞，拥有着舒适的佩戴体验。 内部主要配置方面，充电盒内置250mAh锂电池，采用了Injoinic英集芯IP5518 TWS耳机充电仓管理SoC，集成MCU、5V升压转换器、锂电池充电管理、电池电量指示等多功能，支持耳机独立入仓检测，开盖即连功能耳机秒回联手机，为TWS蓝牙耳机充电仓提供完整的电源解决方案；还采用了思远半导体SY5320芯片负责过压过流保护。耳机头内部搭载了6mm动圈单元，45mAh软包扣式电池，单耳内置1颗MEMS麦克风。",
+  "layer_refs": {
+    "technical": [
+      "report:172122"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "Skullcandy骷髅头是源自于美国的知名音频品牌，旗下产品类型丰富，包括传统有线耳机、蓝牙耳机、降噪耳机、运动耳机以及蓝牙音响等，以新颖的外观设计，大胆独特的配色，结合高品质音质，获得了众多年轻消费群体的喜爱。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "Skullcandy骷髅头是源自于美国的知名音频品牌，旗下产品类型丰富，包括传统有线耳机、蓝牙耳机、降噪耳机、运动耳机以及蓝牙音响等，以新颖的外观设计，大胆独特的配色，结合高品质音质，获得了众多年轻消费群体的喜爱。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "Skullcandy骷髅头是源自于美国的知名音频品牌，旗下产品类型丰富，包括传统有线耳机、蓝牙耳机、降噪耳机、运动耳机以及蓝牙音响等，以新颖的外观设计，大胆独特的配色，结合高品质音质，获得了众多年轻消费群体的喜爱。"
+        }
+      },
+      {
+        "text": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nRedmi\n、\nOPPO、vivo、realme、一加、漫步者、QCY、倍思、猛玛、声阔、JBL、飞利浦、Jabra、Nothing、Marshall、DENON\n，\n小米、万魔、233621、传音、魔宴、创新科技、魅族、百度、网易、哈曼、联想\n等国内外知名品牌采用。",
+        "tag": "其他",
+        "evidence": {
+          "value": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nRedmi\n、\nOPPO、vivo、realme、一加、漫步者、QCY、倍思、猛玛、声阔、JBL、飞利浦、Jabra、Nothing、Marshall、DENON\n，\n小米、万魔、233621、传音、魔宴、创新科技、魅族、百度、网易、哈曼、联想\n等国内外知名品牌采用。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nRedmi\n、\nOPPO、vivo、realme、一加、漫步者、QCY、倍思、猛玛、声阔、JBL、飞利浦、Jabra、Nothing、Marshall、DENON\n，\n小米、万魔、233621、传音、魔宴、创新科技、魅族、百度、网易、哈曼、联想\n等国内外知名品牌采用。"
+        }
+      },
+      {
+        "text": "IP5518可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至20uA；可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "IP5518可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至20uA；可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "IP5518可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至20uA；可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。"
+        }
+      },
+      {
+        "text": "取掉耳塞，耳机出音嘴特写，细密防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "取掉耳塞，耳机出音嘴特写，细密防尘网防护。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "取掉耳塞，耳机出音嘴特写，细密防尘网防护。"
+        }
+      },
+      {
+        "text": "充电盒底部印有产品参数和认证标志。",
+        "tag": "其他",
+        "evidence": {
+          "value": "充电盒底部印有产品参数和认证标志。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "充电盒底部印有产品参数和认证标志。"
+        }
+      },
+      {
+        "text": "IP5518非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "IP5518非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "IP5518非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "通话"
+    ],
+    "positioning_summary": "Skullcandy骷髅头是源自于美国的知名音频品牌，旗下产品类型丰富，包括传统有线耳机、蓝牙耳机、降噪耳机、运动耳机以及蓝牙音响等，以新颖的外观设计，大胆独特的配色，结合高品质音质，获得了众多年轻消费群体的喜爱。",
+    "launch_date": null,
+    "best_report_id": "172122",
+    "best_video_id": null
+  }
+}

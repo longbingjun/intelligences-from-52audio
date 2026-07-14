@@ -20,13 +20,13 @@
     "battery_ear": "1500 mAh",
     "battery_case": "电池",
     "speaker": "喇叭单元",
-    "materials": "塑料",
-    "weight_g": "118.6g",
+    "materials": "",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "IPX7",
     "bluetooth": "",
-    "bom_row_count": 12,
+    "bom_row_count": 10,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -47,7 +47,7 @@
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "此次将要拆解的是安德玛联名款，外观上充电盒采用了金属磨砂材质，滑动开关仓设计，雕刻有安德玛品牌标志。耳机为豆状的入耳式设计，设置有耳翼，提升运动佩戴的稳定性；还支持IPX7级防水，保障运动大汗淋漓的情况下正常使用；还支持智能感知功能，无需摘掉耳机即可获悉外界声音，提升佩戴安全性。"
+        "source_text": "充电盒座舱一端设置Micro USB充电接口，设置有防尘塞，上方有四颗指示灯。"
       }
     },
     {
@@ -79,20 +79,6 @@
       }
     },
     {
-      "component": "麦克风",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "麦克风",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机底部有一颗麦克风开孔，用于语音通话功能。"
-      }
-    },
-    {
       "component": "喇叭单元",
       "brand": "",
       "model": "",
@@ -104,6 +90,20 @@
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "卸掉后腔外壳，前腔充电小板和扬声器单元通过排线连接在主板上。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机底部有一颗麦克风开孔，用于语音通话功能。"
       }
     },
     {
@@ -121,45 +121,17 @@
       }
     },
     {
-      "component": "降噪系统",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "降噪系统",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "恒玄BES2000蓝牙音频SoC，支持蓝牙v4.2标准、最高支持192KHz/24bit音频，支持EQ以及重低音增强等各种音效技术，音频输出信噪比高达-105db，扩展性方面，可以支持自适应主动降噪功能。"
-      }
-    },
-    {
       "component": "外壳结构",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "充电盒",
+      "side": "",
       "role": "minor",
       "evidence": {
         "value": "外壳结构",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "取掉充电盒金属外壳。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "JBL FLASH耳机外观一览，背部设计有浮雕的安德玛品牌LOGO，同时也是功能按键。"
+        "source_text": "卸掉后腔外壳，前腔充电小板和扬声器单元通过排线连接在主板上。"
       }
     },
     {
@@ -177,6 +149,20 @@
       }
     },
     {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "主板单元正面电路一览，有麦克风的声学结构和按键开关等。"
+      }
+    },
+    {
       "component": "芯片/模组",
       "brand": "",
       "model": "恒玄BES2000",
@@ -187,21 +173,7 @@
         "value": "恒玄BES2000",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "恒玄BES2000蓝牙音频SoC，支持蓝牙v4.2标准、最高支持192KHz/24bit音频，支持EQ以及重低音增强等各种音效技术，音频输出信噪比高达-105db，扩展性方面，可以支持自适应主动降噪功能。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "恒玄BES2000",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "恒玄BES2000",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "耳机采用了钢壳扣式电池，主控芯片为恒玄BES2000蓝牙音频SoC，支持蓝牙v4.2、最高支持192KHz/24bit音频，支持EQ以及重低音增强等各种音效技术；一颗MEMS麦克风，用于语音通话拾音。"
+        "source_text": "电池容量：1500\n芯片 恒玄BES2000"
       }
     }
   ],
@@ -220,13 +192,43 @@
   "market": {
     "selling_points": [
       {
-        "text": "耳机为豆状的入耳式设计，设置有耳翼，提升运动佩戴的稳定性；还支持IPX7级防水，保障运动大汗淋漓的情况下正常使用；还支持智能感知功能，无需摘掉耳机即可获悉外界声音，提升佩戴安全性。",
+        "text": "充电接口：Micro USB\n标记/认证：耳机为豆状的入耳式设计，设置有耳翼，提升运动佩戴的稳定性；还支持IPX7级防水，保障运动大汗淋漓的情况下正常使用；还支持智能感知功能，无需摘掉耳机即可获悉外界声音，提升佩戴安全性。",
         "tag": "防水防尘",
         "evidence": {
-          "value": "耳机为豆状的入耳式设计，设置有耳翼，提升运动佩戴的稳定性；还支持IPX7级防水，保障运动大汗淋漓的情况下正常使用；还支持智能感知功能，无需摘掉耳机即可获悉外界声音，提升佩戴安全性。",
-          "confidence": 0.65,
+          "value": "充电接口：Micro USB\n标记/认证：耳机为豆状的入耳式设计，设置有耳翼，提升运动佩戴的稳定性；还支持IPX7级防水，保障运动大汗淋漓的情况下正常使用；还支持智能感知功能，无需摘掉耳机即可获悉外界声音，提升佩戴安全性。",
+          "confidence": 0.57,
           "source_type": "text",
-          "source_text": "耳机为豆状的入耳式设计，设置有耳翼，提升运动佩戴的稳定性；还支持IPX7级防水，保障运动大汗淋漓的情况下正常使用；还支持智能感知功能，无需摘掉耳机即可获悉外界声音，提升佩戴安全性。"
+          "source_text": "充电接口：Micro USB\n标记/认证：耳机为豆状的入耳式设计，设置有耳翼，提升运动佩戴的稳定性；还支持IPX7级防水，保障运动大汗淋漓的情况下正常使用；还支持智能感知功能，无需摘掉耳机即可获悉外界声音，提升佩戴安全性。"
+        }
+      },
+      {
+        "text": "标记/认证：豆状的入耳式耳机外观同样极具特色，耳翼和IPX7级防水，运动健身佩戴稳固不怕汗水。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "标记/认证：豆状的入耳式耳机外观同样极具特色，耳翼和IPX7级防水，运动健身佩戴稳固不怕汗水。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "标记/认证：豆状的入耳式耳机外观同样极具特色，耳翼和IPX7级防水，运动健身佩戴稳固不怕汗水。"
+        }
+      },
+      {
+        "text": "标记/认证：此前我爱音频网还拆解过\nJBL LIVE\n660NC头戴式降噪耳机\n、\nJBL LIVE PRO+ 真无线降噪耳机\n、\nJBL TUNE 225\n、\nJBL FREE II\n、\nJBL Free\n真无线蓝牙耳机，\nJBL CHARGE4冲击波\n和\nJBL FLIP5 音乐万花筒\n蓝牙音箱，下面再来看看这款产品的外观设计及内部结构配置吧~\n一、JBL FLASH 真无线耳机外观\nJBL FLASH 真无线耳机充电盒采用了长方体的外观，金属材质，设置有提耳和挂绳，提升外出携带的便携性。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "标记/认证：此前我爱音频网还拆解过\nJBL LIVE\n660NC头戴式降噪耳机\n、\nJBL LIVE PRO+ 真无线降噪耳机\n、\nJBL TUNE 225\n、\nJBL FREE II\n、\nJBL Free\n真无线蓝牙耳机，\nJBL CHARGE4冲击波\n和\nJBL FLIP5 音乐万花筒\n蓝牙音箱，下面再来看看这款产品的外观设计及内部结构配置吧~\n一、JBL FLASH 真无线耳机外观\nJBL FLASH 真无线耳机充电盒采用了长方体的外观，金属材质，设置有提耳和挂绳，提升外出携带的便携性。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "标记/认证：此前我爱音频网还拆解过\nJBL LIVE\n660NC头戴式降噪耳机\n、\nJBL LIVE PRO+ 真无线降噪耳机\n、\nJBL TUNE 225\n、\nJBL FREE II\n、\nJBL Free\n真无线蓝牙耳机，\nJBL CHARGE4冲击波\n和\nJBL FLIP5 音乐万花筒\n蓝牙音箱，下面再来看看这款产品的外观设计及内部结构配置吧~\n一、JBL FLASH 真无线耳机外观\nJBL FLASH 真无线耳机充电盒采用了长方体的外观，金属材质，设置有提耳和挂绳，提升外出携带的便携性。"
+        }
+      },
+      {
+        "text": "标记/认证：充电盒内部锂电池型号：GSP723292，电压：3.7V，容量：1500mAh/5.55Wh，\n来自鹏辉，\n中国制造。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：充电盒内部锂电池型号：GSP723292，电压：3.7V，容量：1500mAh/5.55Wh，\n来自鹏辉，\n中国制造。",
+          "confidence": 0.69,
+          "source_type": "text",
+          "source_text": "标记/认证：充电盒内部锂电池型号：GSP723292，电压：3.7V，容量：1500mAh/5.55Wh，\n来自鹏辉，\n中国制造。"
         }
       },
       {
@@ -240,33 +242,13 @@
         }
       },
       {
-        "text": "充电盒座舱一侧刻有产品的部分参数和各种认证信息。",
-        "tag": "其他",
-        "evidence": {
-          "value": "充电盒座舱一侧刻有产品的部分参数和各种认证信息。",
-          "confidence": 0.61,
-          "source_type": "text",
-          "source_text": "充电盒座舱一侧刻有产品的部分参数和各种认证信息。"
-        }
-      },
-      {
-        "text": "豆状的入耳式耳机外观同样极具特色，耳翼和IPX7级防水，运动健身佩戴稳固不怕汗水。",
+        "text": "充电接口：充电盒座舱一端设置Micro USB充电接口，设置有防尘塞，上方有四颗指示灯。",
         "tag": "防水防尘",
         "evidence": {
-          "value": "豆状的入耳式耳机外观同样极具特色，耳翼和IPX7级防水，运动健身佩戴稳固不怕汗水。",
-          "confidence": 0.56,
-          "source_type": "text",
-          "source_text": "豆状的入耳式耳机外观同样极具特色，耳翼和IPX7级防水，运动健身佩戴稳固不怕汗水。"
-        }
-      },
-      {
-        "text": "此前我爱音频网还拆解过\nJBL LIVE\n660NC头戴式降噪耳机\n、\nJBL LIVE PRO+ 真无线降噪耳机\n、\nJBL TUNE 225\n、\nJBL FREE II\n、\nJBL Free\n真无线蓝牙耳机，\nJBL CHARGE4冲击波\n和\nJBL FLIP5 音乐万花筒\n蓝牙音箱，下面再来看看这款产品的外观设计及内部结构配置吧~\n一、JBL FLASH 真无线耳机外观\nJBL FLASH 真无线耳机充电盒采用了长方体的外观，金属材质，设置有提耳和挂绳，提升外出携带的便携性。",
-        "tag": "降噪",
-        "evidence": {
-          "value": "此前我爱音频网还拆解过\nJBL LIVE\n660NC头戴式降噪耳机\n、\nJBL LIVE PRO+ 真无线降噪耳机\n、\nJBL TUNE 225\n、\nJBL FREE II\n、\nJBL Free\n真无线蓝牙耳机，\nJBL CHARGE4冲击波\n和\nJBL FLIP5 音乐万花筒\n蓝牙音箱，下面再来看看这款产品的外观设计及内部结构配置吧~\n一、JBL FLASH 真无线耳机外观\nJBL FLASH 真无线耳机充电盒采用了长方体的外观，金属材质，设置有提耳和挂绳，提升外出携带的便携性。",
+          "value": "充电接口：充电盒座舱一端设置Micro USB充电接口，设置有防尘塞，上方有四颗指示灯。",
           "confidence": 0.55,
           "source_type": "text",
-          "source_text": "此前我爱音频网还拆解过\nJBL LIVE\n660NC头戴式降噪耳机\n、\nJBL LIVE PRO+ 真无线降噪耳机\n、\nJBL TUNE 225\n、\nJBL FREE II\n、\nJBL Free\n真无线蓝牙耳机，\nJBL CHARGE4冲击波\n和\nJBL FLIP5 音乐万花筒\n蓝牙音箱，下面再来看看这款产品的外观设计及内部结构配置吧~\n一、JBL FLASH 真无线耳机外观\nJBL FLASH 真无线耳机充电盒采用了长方体的外观，金属材质，设置有提耳和挂绳，提升外出携带的便携性。"
+          "source_text": "充电接口：充电盒座舱一端设置Micro USB充电接口，设置有防尘塞，上方有四颗指示灯。"
         }
       }
     ],
@@ -275,7 +257,7 @@
       "通话",
       "健身"
     ],
-    "positioning_summary": "耳机为豆状的入耳式设计，设置有耳翼，提升运动佩戴的稳定性；还支持IPX7级防水，保障运动大汗淋漓的情况下正常使用；还支持智能感知功能，无需摘掉耳机即可获悉外界声音，提升佩戴安全性。",
+    "positioning_summary": "充电接口：Micro USB\n标记/认证：耳机为豆状的入耳式设计，设置有耳翼，提升运动佩戴的稳定性；还支持IPX7级防水，保障运动大汗淋漓的情况下正常使用；还支持智能感知功能，无需摘掉耳机即可获悉外界声音，提升佩戴安全性。",
     "launch_date": null,
     "best_report_id": "96396",
     "best_video_id": null

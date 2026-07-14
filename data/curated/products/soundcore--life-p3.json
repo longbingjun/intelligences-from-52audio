@@ -20,13 +20,13 @@
     "battery_ear": "电池",
     "battery_case": "800 mAh",
     "speaker": "喇叭单元",
-    "materials": "硅胶、塑料、PC",
+    "materials": "",
     "weight_g": "60.2g",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "IPX5",
-    "bluetooth": "5.0",
-    "bom_row_count": 18,
+    "bluetooth": "",
+    "bom_row_count": 14,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -36,20 +36,6 @@
     "best_video_id": null
   },
   "bom_table": [
-    {
-      "component": "充电仓",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "充电仓",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "声阔Life P3真无线降噪耳机充电盒外观一览，采用了翻盖设计，开盖处采用了亮面工艺处理，呈现出不同的质感。"
-      }
-    },
     {
       "component": "麦克风",
       "brand": "",
@@ -61,18 +47,18 @@
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "背面详细介绍了产品的多项功能配置，包括：多模式有源噪声消除、11mm驱动器、6麦克风清晰通话、无线充电、7h续航/35小时整体续航和IPX5防水。"
+        "source_text": "镭雕14K08的MEMS降噪麦克风，拾取外部环境噪音，用于混合主动降噪和通话降噪功能。"
       }
     },
     {
-      "component": "主板/PCBA",
+      "component": "充电仓",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "充电盒",
       "role": "major",
       "evidence": {
-        "value": "主板/PCBA",
+        "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "充电盒内主板一侧电路一览。"
@@ -93,6 +79,20 @@
       }
     },
     {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "主板上降噪麦克风\n防尘网\n结构特写。"
+      }
+    },
+    {
       "component": "降噪系统",
       "brand": "",
       "model": "",
@@ -103,7 +103,7 @@
         "value": "降噪系统",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "超能小彩蛋在外观设计上拥有多款个性时尚配色，整体观感较为活泼，更具年轻化气质。配置上，采用11mm动态单元，羊毛纸生物纤维复合振膜；支持三维深度主动降噪/双通透模式，拥有通勤、户外、室内多种应用场景，最大降噪深度35dB；支持6麦抗风通话降噪，提供清晰语音通话效果。"
+        "source_text": "镭雕14K08的MEMS降噪麦克风，拾取外部环境噪音，用于混合主动降噪和通话降噪功能。"
       }
     },
     {
@@ -117,77 +117,7 @@
         "value": "喇叭单元",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "超能小彩蛋在外观设计上拥有多款个性时尚配色，整体观感较为活泼，更具年轻化气质。配置上，采用11mm动态单元，羊毛纸生物纤维复合振膜；支持三维深度主动降噪/双通透模式，拥有通勤、户外、室内多种应用场景，最大降噪深度35dB；支持6麦抗风通话降噪，提供清晰语音通话效果。"
-      }
-    },
-    {
-      "component": "天线",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "天线",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "盖板采用了双层结构，内部是触摸检测贴片和蓝牙天线。"
-      }
-    },
-    {
-      "component": "外壳结构",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "外壳结构",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒外壳内侧结构一览。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "开盖处设置有三颗指示灯，用于更直观的反馈充电盒电量状态。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "内部有一颗功能按键，用于蓝牙配对。"
-      }
-    },
-    {
-      "component": "充电触点",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机柄内侧金属充电触点设置了凹槽，便于固定。中间雕刻有R右标识。"
+        "source_text": "配置上，采用11mm动态单元，羊毛纸生物纤维复合振膜；支持三维深度主动降噪/双通透模式，拥有通勤、户外、室内多种应用场景，最大降噪深度35dB；支持6麦抗风通话降噪，提供清晰语音通话效果。"
       }
     },
     {
@@ -207,20 +137,6 @@
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "ETA1061",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "ETA1061",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "ETA钰泰 ETA1061详细资料图。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
       "model": "SS881",
       "qty_hint": "1",
       "side": "",
@@ -229,7 +145,35 @@
         "value": "SS881",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "Sinhmicro\n昇生微电子\nSS881Q\n-W，集成无线充电 RX 控制器的低功耗 MCU 芯片，采用QFN 4x4 封装节省空间，可广泛适用于各类带无线充电接收及电池充放电管理的智能硬件设备。"
+        "source_text": "Sinhmicro昇生微电子SS881Q-W，集成无线充电 RX 控制器的低功耗 MCU 芯片，采用QFN 4x4 封装节省空间，可广泛适用于各类带无线充电接收及电池充放电管理的智能硬件设备。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SS881",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SS881",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "充电方式：内部电路方面，充电盒内置了来自紫建电子的800mAh锂电池，支持有线和无线两种方式输入电源，由昇生微电子SS881Q-W 集成无线充电 RX 控制器的低功耗 MCU 单芯片负责两种方式为内置电池充电；芯导14C1N芯片提供过压保护；ETA钰泰 ETA1061压转换器，用于将内置电池升压输出为耳机充电。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA1061",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA1061",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "充电方式：内部电路方面，充电盒内置了来自紫建电子的800mAh锂电池，支持有线和无线两种方式输入电源，由昇生微电子SS881Q-W 集成无线充电 RX 控制器的低功耗 MCU 单芯片负责两种方式为内置电池充电；芯导14C1N芯片提供过压保护；ETA钰泰 ETA1061压转换器，用于将内置电池升压输出为耳机充电。"
       }
     },
     {
@@ -243,49 +187,49 @@
         "value": "恒玄BES",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "BES\n恒玄BES\n2300YP\n蓝牙音频SoC，BES2300有多个版本、后缀不同配置也不尽相同，BES2300Y/YP两种型号均支持主动降噪功能。"
+        "source_text": "电池容量：800\n芯片 恒玄BES\n芯片 恒玄BES2300YP\n芯片 BES2300\n芯片 BES2300Y\n芯片 SY5500\n芯片 SS881\n芯片 ETA1061"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "BES\n2300YP",
+      "model": "BES2300YP",
       "qty_hint": "1",
       "side": "",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "BES\n2300YP",
+        "value": "BES2300YP",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "BES\n恒玄BES\n2300YP\n蓝牙音频SoC，BES2300有多个版本、后缀不同配置也不尽相同，BES2300Y/YP两种型号均支持主动降噪功能。"
+        "source_text": "电池容量：800\n芯片 恒玄BES\n芯片 恒玄BES2300YP\n芯片 BES2300\n芯片 BES2300Y\n芯片 SY5500\n芯片 SS881\n芯片 ETA1061"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "BES2300",
+      "model": "SY5500",
       "qty_hint": "1",
       "side": "",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "BES2300",
+        "value": "SY5500",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "BES\n恒玄BES\n2300YP\n蓝牙音频SoC，BES2300有多个版本、后缀不同配置也不尽相同，BES2300Y/YP两种型号均支持主动降噪功能。"
+        "source_text": "电池容量：800\n芯片 恒玄BES\n芯片 恒玄BES2300YP\n芯片 BES2300\n芯片 BES2300Y\n芯片 SY5500\n芯片 SS881\n芯片 ETA1061"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "BES2300",
+      "model": "ETA1061",
       "qty_hint": "1",
-      "side": "耳机",
+      "side": "",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "BES2300",
+        "value": "ETA1061",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "BES2300支持高性能的自适应主动降噪技术，可以让高端主动降噪耳机使用一颗全集成芯片实现高音质和主动降噪。"
+        "source_text": "电池容量：800\n芯片 恒玄BES\n芯片 恒玄BES2300YP\n芯片 BES2300\n芯片 BES2300Y\n芯片 SY5500\n芯片 SS881\n芯片 ETA1061"
       }
     }
   ],
@@ -304,13 +248,53 @@
   "market": {
     "selling_points": [
       {
-        "text": "其他方面，游戏模式可有效降低延迟，提升音效表现；内置22种EQ预设音效，支持自定义调节；以及白噪音DIY，耳机丢失查找，IPX5防水等。",
+        "text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：其他方面，游戏模式可有效降低延迟，提升音效表现；内置22种EQ预设音效，支持自定义调节；以及白噪音DIY，耳机丢失查找，IPX5防水等。",
         "tag": "游戏低延迟",
         "evidence": {
-          "value": "其他方面，游戏模式可有效降低延迟，提升音效表现；内置22种EQ预设音效，支持自定义调节；以及白噪音DIY，耳机丢失查找，IPX5防水等。",
-          "confidence": 0.74,
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：其他方面，游戏模式可有效降低延迟，提升音效表现；内置22种EQ预设音效，支持自定义调节；以及白噪音DIY，耳机丢失查找，IPX5防水等。",
+          "confidence": 0.69,
           "source_type": "text",
-          "source_text": "其他方面，游戏模式可有效降低延迟，提升音效表现；内置22种EQ预设音效，支持自定义调节；以及白噪音DIY，耳机丢失查找，IPX5防水等。"
+          "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：其他方面，游戏模式可有效降低延迟，提升音效表现；内置22种EQ预设音效，支持自定义调节；以及白噪音DIY，耳机丢失查找，IPX5防水等。"
+        }
+      },
+      {
+        "text": "而今天将要为大家拆解的是“超能小彩蛋”声阔Life  […]\n其他方面，游戏模式可有效降低延迟，提升音效表现；内置22种EQ预设音效，支持自定义调节；以及白噪音DIY，耳机丢失查找，IPX5防水等。",
+        "tag": "游戏低延迟",
+        "evidence": {
+          "value": "而今天将要为大家拆解的是“超能小彩蛋”声阔Life  […]\n其他方面，游戏模式可有效降低延迟，提升音效表现；内置22种EQ预设音效，支持自定义调节；以及白噪音DIY，耳机丢失查找，IPX5防水等。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "而今天将要为大家拆解的是“超能小彩蛋”声阔Life  […]\n其他方面，游戏模式可有效降低延迟，提升音效表现；内置22种EQ预设音效，支持自定义调节；以及白噪音DIY，耳机丢失查找，IPX5防水等。"
+        }
+      },
+      {
+        "text": "标记/认证：充电盒底部雕刻信息有产品名称：Soundcore Life P3，型号：A3939，输入：DC 5V，0.35A，制造商：安克创新科技股份有限公司，中国制造。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：充电盒底部雕刻信息有产品名称：Soundcore Life P3，型号：A3939，输入：DC 5V，0.35A，制造商：安克创新科技股份有限公司，中国制造。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "标记/认证：充电盒底部雕刻信息有产品名称：Soundcore Life P3，型号：A3939，输入：DC 5V，0.35A，制造商：安克创新科技股份有限公司，中国制造。"
+        }
+      },
+      {
+        "text": "标记/认证：背面详细介绍了产品的多项功能配置，包括：多模式有源噪声消除、11mm驱动器、6麦克风清晰通话、无线充电、7h续航/35小时整体续航和IPX5防水。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "标记/认证：背面详细介绍了产品的多项功能配置，包括：多模式有源噪声消除、11mm驱动器、6麦克风清晰通话、无线充电、7h续航/35小时整体续航和IPX5防水。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "标记/认证：背面详细介绍了产品的多项功能配置，包括：多模式有源噪声消除、11mm驱动器、6麦克风清晰通话、无线充电、7h续航/35小时整体续航和IPX5防水。"
+        }
+      },
+      {
+        "text": "标记/认证：底部标签上贴有产品的部分参数信息，产品型号：A3939，重量：60.2g，输入：DC 5V-0.35A，输出：5V-0.36A，产地：中国，制造商：安克创新科技股份有限公司。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：底部标签上贴有产品的部分参数信息，产品型号：A3939，重量：60.2g，输入：DC 5V-0.35A，输出：5V-0.36A，产地：中国，制造商：安克创新科技股份有限公司。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "标记/认证：底部标签上贴有产品的部分参数信息，产品型号：A3939，重量：60.2g，输入：DC 5V-0.35A，输出：5V-0.36A，产地：中国，制造商：安克创新科技股份有限公司。"
         }
       },
       {
@@ -322,56 +306,15 @@
           "source_type": "text",
           "source_text": "镭雕14K08的MEMS降噪麦克风，拾取外部环境噪音，用于混合主动降噪和通话降噪功能。"
         }
-      },
-      {
-        "text": "配置上，采用11mm动态单元，羊毛纸生物纤维复合振膜；支持三维深度主动降噪/双通透模式，拥有通勤、户外、室内多种应用场景，最大降噪深度35dB；支持6麦抗风通话降噪，提供清晰语音通话效果。",
-        "tag": "降噪",
-        "evidence": {
-          "value": "配置上，采用11mm动态单元，羊毛纸生物纤维复合振膜；支持三维深度主动降噪/双通透模式，拥有通勤、户外、室内多种应用场景，最大降噪深度35dB；支持6麦抗风通话降噪，提供清晰语音通话效果。",
-          "confidence": 0.58,
-          "source_type": "text",
-          "source_text": "配置上，采用11mm动态单元，羊毛纸生物纤维复合振膜；支持三维深度主动降噪/双通透模式，拥有通勤、户外、室内多种应用场景，最大降噪深度35dB；支持6麦抗风通话降噪，提供清晰语音通话效果。"
-        }
-      },
-      {
-        "text": "Soundcore Life P3耳机采用了柄状的入耳式设计，耳机柄设计较为独特，同样设计了亮面装饰，盖板未完全覆盖，露出部分为降噪麦克风开孔位置，通过防尘网防护。",
-        "tag": "降噪",
-        "evidence": {
-          "value": "Soundcore Life P3耳机采用了柄状的入耳式设计，耳机柄设计较为独特，同样设计了亮面装饰，盖板未完全覆盖，露出部分为降噪麦克风开孔位置，通过防尘网防护。",
-          "confidence": 0.56,
-          "source_type": "text",
-          "source_text": "Soundcore Life P3耳机采用了柄状的入耳式设计，耳机柄设计较为独特，同样设计了亮面装饰，盖板未完全覆盖，露出部分为降噪麦克风开孔位置，通过防尘网防护。"
-        }
-      },
-      {
-        "text": "主板上降噪麦克风\n防尘网\n结构特写。",
-        "tag": "降噪",
-        "evidence": {
-          "value": "主板上降噪麦克风\n防尘网\n结构特写。",
-          "confidence": 0.55,
-          "source_type": "text",
-          "source_text": "主板上降噪麦克风\n防尘网\n结构特写。"
-        }
-      },
-      {
-        "text": "耳机底部通话降噪麦克风开孔特写。",
-        "tag": "降噪",
-        "evidence": {
-          "value": "耳机底部通话降噪麦克风开孔特写。",
-          "confidence": 0.55,
-          "source_type": "text",
-          "source_text": "耳机底部通话降噪麦克风开孔特写。"
-        }
       }
     ],
     "scenarios": [
-      "运动",
       "游戏",
       "通勤",
       "通话",
       "户外"
     ],
-    "positioning_summary": "其他方面，游戏模式可有效降低延迟，提升音效表现；内置22种EQ预设音效，支持自定义调节；以及白噪音DIY，耳机丢失查找，IPX5防水等。",
+    "positioning_summary": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：其他方面，游戏模式可有效降低延迟，提升音效表现；内置22种EQ预设音效，支持自定义调节；以及白噪音DIY，耳机丢失查找，IPX5防水等。",
     "launch_date": null,
     "best_report_id": "94246",
     "best_video_id": null

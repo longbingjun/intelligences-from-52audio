@@ -30,6 +30,18 @@ const unboxing = product.unboxing || null;
 const caseRows = bom.filter((r: { side?: string }) => r.side === "充电盒");
 const earRows = bom.filter((r: { side?: string }) => r.side === "耳机");
 
+// TWS / 开放式耳机（含耳夹式）需要拆分整机/充电盒/单只耳机重量；
+// 头戴式/骨传导/有线/颈挂式等单一整机形态只展示一个总重。
+const MULTI_PART_WEIGHT_CATEGORIES = new Set(["真无线耳机TWS", "开放式耳机"]);
+const isMultiPartWeight = MULTI_PART_WEIGHT_CATEGORIES.has(product.category);
+const weightCards = isMultiPartWeight
+  ? [
+      ["整机重量", snap.weight_g],
+      ["充电盒重量", snap.weight_case_g],
+      ["单只耳机重量", snap.weight_earbud_g],
+    ]
+  : [["重量", snap.weight_g]];
+
 const priceTxt =
   snap.price_cny != null
     ? `¥${snap.price_cny}${snap.price_layer === "channel" ? " (渠道)" : ""}`
@@ -175,7 +187,7 @@ const resolvedSummaryImages: ResolvedImage[] = resolveImages(
         ["仓电池", snap.battery_case],
         ["喇叭", snap.speaker],
         ["材料", snap.materials],
-        ["重量", snap.weight_g],
+        ...weightCards,
         ["售价", priceTxt],
       ].map(([label, val]) => (
         <div class="rounded-xl border border-[var(--line)] bg-white p-4">

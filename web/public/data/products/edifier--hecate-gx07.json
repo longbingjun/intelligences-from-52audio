@@ -1,0 +1,371 @@
+{
+  "canonical_id": "edifier--hecate-gx07",
+  "brand": "EDIFIER漫步者",
+  "model": "HECATE GX07真无线降噪游戏",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "173455"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "173455"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-09-08",
+  "latest_published": "2023-09-08",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "恒玄BES2600Z",
+    "pmic_case": "INJOINIC英集芯 Injoinic英集芯IP5528",
+    "battery_ear": "电池",
+    "battery_case": "5V/00mAh锂电池",
+    "speaker": "8mm 动圈单元",
+    "materials": "硅胶、PC、皮革",
+    "weight_g": "62.5g",
+    "weight_case_g": "",
+    "weight_earbud_g": "5.1g",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 19,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "173455",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "Injoinic英集芯IP5528",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "PMIC/充电仓管理",
+      "evidence": {
+        "value": "Injoinic英集芯IP5528",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒采用了Injoinic英集芯IP5528 TWS耳机充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示等多功能，为TWS充电仓提供完整的解决方案；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "恒玄BES2600Z",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2600Z",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部，主控芯片为BES恒玄BES2600Z蓝牙音频SoC，支持蓝牙5.3，支持混合主动降噪和AI通话降噪，具备强大的应用处理能力；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "WINSEMI稳先微",
+      "model": "Winsemi稳先微WSDF13A",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Winsemi稳先微WSDF13A",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "锂电保护采用了Winsemi稳先微WSDF13A2N2H方案，具有过充、过放、过流、短路等所有电池需要的保护功能；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "5V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "5V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内置锂离子电池容量500mAh，由东莞小锂新能源科技有限公司供应。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "8mm 动圈单元",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "8mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "声学配置上，采用了8mm动圈单元，单耳内置了3颗MEMS麦克风，用于语音通话和降噪功能精准拾音。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "声学配置上，采用了8mm动圈单元，单耳内置了3颗MEMS麦克风，用于语音通话和降噪功能精准拾音。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面设计有操控指南，以及产品参数信息。型号：EDF700051；工作时长：降澡开，约5小时（耳机）+约20小时（充电盒）/降噪关，约6.5小时（耳机）+约26小时（充电盒）；输入：5V-200mA（耳机），5V-1A（充电盒）；喇以单元：8mm动圈；防尘防水：IP54；蓝牙版本：V5.3；有效距离：10m；蓝牙协议：HFP、A2DP、AVRCP；音频解码：SBC、LHDC；系统频响范围：20Hz-20KHz；声压级：94±3dBsPL(A)。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "外壳内侧结构一览，固定有电池单元。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒主板一侧电路一览。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "HECATE GX07支持混合主动降噪技术，最大降噪深度可达-38dB；支持环境声模式，无需摘掉耳机即可获取外界信息；支持ENC双麦降噪功能，通过内置麦克风阵列，精准的波束算法，过滤通话过程中的环境噪音，使通话更清晰。续航方面，降噪模式下支持5+15h的续航，关闭降噪整体续航时间为6.5+19.5小时；还支持快速充电功能，充电15分钟，可使用2小时。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "HECATE GX07支持混合主动降噪技术，最大降噪深度可达-38dB；支持环境声模式，无需摘掉耳机即可获取外界信息；支持ENC双麦降噪功能，通过内置麦克风阵列，精准的波束算法，过滤通话过程中的环境噪音，使通话更清晰。续航方面，降噪模式下支持5+15h的续航，关闭降噪整体续航时间为6.5+19.5小时；还支持快速充电功能，充电15分钟，可使用2小时。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在功能配置上，HECATE GX07采用了8mm复合振膜单元，支持AAC、LHDC双高清音频解码；支持游戏和音乐两种模式，音乐模式提供三频均衡、细节丰富的HiFi级音乐体验，游戏模式提供60ms低延时和针对枪声、脚步声特殊优化的专属游戏音效，提供畅快淋漓的游戏体验。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧结构一览，中间固定蓝牙天线和指示灯导光柱，两端有麦克风声学橡胶罩。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开卡扣式固定的充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面外观一览，设计有类似跑车的“进气格栅”，以及“跑车标志”的亮银色装饰，上面是“START”开启标识，但并非物理按键一键开启，还需要手动展开充电盒盖。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "主板上LED指示灯特写，两侧共设置有6颗，为充电盒呼吸灯效提供光源。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄内侧的充电触点特写，旁边印有L/左标识。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Injoinic英集芯IP5528",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Injoinic英集芯IP5528",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Injoinic英集芯IP5528 TWS耳机充电仓管理SoC，是一款集成MCU、升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5528",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5528",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "得益于IP5528的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸， 降低BOM成本。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 漫步者HECATE GX07真无线降噪游戏耳机在外观方面，以跑车为设计灵感，充电盒融入了如飞翼门、进气格栅、前大灯、贯穿式尾灯等众多跑车元素，棱角分明、立体感十足，极具未来科技感；耳机同样采用了硬朗的设计风格，搭配冰蓝呼吸灯和红色GX系列标志，观感炫酷，极具辨识度。 内部主要配置方面，充电盒采用了Injoinic英集芯IP5528 TWS耳机充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示等多功能，为TWS充电仓提供完整的解决方案；还采用Prisemi芯导科技P14C1N芯片负责过压过流保护；内置锂离子电池容量500mAh，由东莞小锂新能源科技有限公司供应。 耳机内部，主控芯片为BES恒玄BES2600Z蓝牙音频SoC，支持蓝牙5.3，支持混合主动降噪和AI通话降噪，具备强大的应用处理能力；锂电保护采用了Winsemi稳先微WSDF13A2N2H方案，具有过充、过放、过流、短路等所有电池需要的保护功能；声学配置上，采用了8mm动圈单元，单耳内置了3颗MEMS麦克风，用于语音通话和降噪功能精准拾音。",
+  "layer_refs": {
+    "technical": [
+      "report:173455"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "此次将要拆解的HECATE GX07真无线降噪游戏耳机，外观设计灵感来源于跑车，通过融入跑车元素，呈现了极强的个性化赛博朋克风格。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "此次将要拆解的HECATE GX07真无线降噪游戏耳机，外观设计灵感来源于跑车，通过融入跑车元素，呈现了极强的个性化赛博朋克风格。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "此次将要拆解的HECATE GX07真无线降噪游戏耳机，外观设计灵感来源于跑车，通过融入跑车元素，呈现了极强的个性化赛博朋克风格。"
+        }
+      },
+      {
+        "text": "三、我爱音频网总结\n漫步者HECATE GX07真无线降噪游戏耳机在外观方面，以跑车为设计灵感，充电盒融入了如飞翼门、进气格栅、前大灯、贯穿式尾灯等众多跑车元素，棱角分明、立体感十足，极具未来科技感；耳机同样采用了硬朗的设计风格，搭配冰蓝呼吸灯和红色GX系列标志，观感炫酷，极具辨识度。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "三、我爱音频网总结\n漫步者HECATE GX07真无线降噪游戏耳机在外观方面，以跑车为设计灵感，充电盒融入了如飞翼门、进气格栅、前大灯、贯穿式尾灯等众多跑车元素，棱角分明、立体感十足，极具未来科技感；耳机同样采用了硬朗的设计风格，搭配冰蓝呼吸灯和红色GX系列标志，观感炫酷，极具辨识度。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\n漫步者HECATE GX07真无线降噪游戏耳机在外观方面，以跑车为设计灵感，充电盒融入了如飞翼门、进气格栅、前大灯、贯穿式尾灯等众多跑车元素，棱角分明、立体感十足，极具未来科技感；耳机同样采用了硬朗的设计风格，搭配冰蓝呼吸灯和红色GX系列标志，观感炫酷，极具辨识度。"
+        }
+      },
+      {
+        "text": "HECATE GX07支持混合主动降噪技术，最大降噪深度可达-38dB；支持环境声模式，无需摘掉耳机即可获取外界信息；支持ENC双麦降噪功能，通过内置麦克风阵列，精准的波束算法，过滤通话过程中的环境噪音，使通话更清晰。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "HECATE GX07支持混合主动降噪技术，最大降噪深度可达-38dB；支持环境声模式，无需摘掉耳机即可获取外界信息；支持ENC双麦降噪功能，通过内置麦克风阵列，精准的波束算法，过滤通话过程中的环境噪音，使通话更清晰。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "HECATE GX07支持混合主动降噪技术，最大降噪深度可达-38dB；支持环境声模式，无需摘掉耳机即可获取外界信息；支持ENC双麦降噪功能，通过内置麦克风阵列，精准的波束算法，过滤通话过程中的环境噪音，使通话更清晰。"
+        }
+      },
+      {
+        "text": "HECATE是EDIFIER漫步者旗下专业电竞品牌，产品涵盖了有线耳机、蓝牙耳机、2.4G无线耳机、音箱和鼠标键盘等，基于炫酷的外观设计和灯效，为用户提供沉浸式的游戏氛围。",
+        "tag": "其他",
+        "evidence": {
+          "value": "HECATE是EDIFIER漫步者旗下专业电竞品牌，产品涵盖了有线耳机、蓝牙耳机、2.4G无线耳机、音箱和鼠标键盘等，基于炫酷的外观设计和灯效，为用户提供沉浸式的游戏氛围。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "HECATE是EDIFIER漫步者旗下专业电竞品牌，产品涵盖了有线耳机、蓝牙耳机、2.4G无线耳机、音箱和鼠标键盘等，基于炫酷的外观设计和灯效，为用户提供沉浸式的游戏氛围。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话",
+      "电竞"
+    ],
+    "positioning_summary": "此次将要拆解的HECATE GX07真无线降噪游戏耳机，外观设计灵感来源于跑车，通过融入跑车元素，呈现了极强的个性化赛博朋克风格。",
+    "launch_date": null,
+    "best_report_id": "173455",
+    "best_video_id": null
+  }
+}

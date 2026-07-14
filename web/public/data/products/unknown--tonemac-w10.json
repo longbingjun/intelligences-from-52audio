@@ -1,0 +1,264 @@
+{
+  "canonical_id": "unknown--tonemac-w10",
+  "brand": "",
+  "model": "唐麦TONEMAC W10",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "125023"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "125023"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2022-07-14",
+  "latest_published": "2022-07-14",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "SS881",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "370 mAh",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "8.2g",
+    "weight_case_g": "",
+    "weight_earbud_g": "8.2g",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 10,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "125023",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "右耳",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "SSP707可为充电舱电池提供高效率快充，左右耳机独立超轻载检测、独立跟随供电，缩短用电时间，耳机出入舱检测更灵敏可靠、提高耳机用电效率续航时间，显著提升用户体验。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "右耳",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "SSP707可为充电舱电池提供高效率快充，左右耳机独立超轻载检测、独立跟随供电，缩短用电时间，耳机出入舱检测更灵敏可靠、提高耳机用电效率续航时间，显著提升用户体验。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "撬开充电盒，取出座舱。座舱底部有为耳机充电的排线，通过连接器连接到主板。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "ATS3015E采用RISC32核心架构，嵌入大容量RAM，内置16-bits ADC和20-bits DAC，支持单麦克风环境降噪（ENC），支持风噪声降低，支持语音提示和电容式触摸检测。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "其他功能配置方面，耳机采用了8mm动圈单元，采用PEEK+有机硅+PU复合膜片，提供更优的音质表现；支持低延迟模式，提供流畅游戏体验；内置MEMS硅麦，通过通话算法，保障清晰通话；支持触控操作、快速充电，拥有22小时的综合续航。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "ATS3015E采用RISC32核心架构，嵌入大容量RAM，内置16-bits ADC和20-bits DAC，支持单麦克风环境降噪（ENC），支持风噪声降低，支持语音提示和电容式触摸检测。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "蓝牙天线和触摸检测贴片露铜连接到主板。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "其他功能配置方面，耳机采用了8mm动圈单元，采用PEEK+有机硅+PU复合膜片，提供更优的音质表现；支持低延迟模式，提供流畅游戏体验；内置MEMS硅麦，通过通话算法，保障清晰通话；支持触控操作、快速充电，拥有22小时的综合续航。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SS881",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SS881",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "充电方式：内部结构配置方面，充电盒采用了Type-C接口为内置370mAh锂电池输入电源，采用了昇生微电子SSP707电源管理芯片，支持38V耐压，内置高效开关充电模块，输出电压可调的升压模块，满足智能充电仓的快充和耳机跟随充电需求；昇生微SS881AH POWER MCU，用于LED驱动，以及充电盒整机控制。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SS881",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SS881",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "标记/认证：SS881X系列是昇生微POWR MCU系列的产品之一，具有丰富的接口功能和灵活的配置模式，支持不同的低功耗选项，适用于需要电池充电以及智能控制的便携式电子产品，可通过软件灵活配置电池的充电电压和电流，同时还内置完善的保护功能，而且芯片本身已经通过了IEC62368认证。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:125023"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "此次将要拆解的是唐麦旗 […]\nATS3015E采用RISC32核心架构，嵌入大容量RAM，内置16-bits ADC和20-bits DAC，支持单麦克风环境降噪（ENC），支持风噪声降低，支持语音提示和电容式触摸检测。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "此次将要拆解的是唐麦旗 […]\nATS3015E采用RISC32核心架构，嵌入大容量RAM，内置16-bits ADC和20-bits DAC，支持单麦克风环境降噪（ENC），支持风噪声降低，支持语音提示和电容式触摸检测。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "此次将要拆解的是唐麦旗 […]\nATS3015E采用RISC32核心架构，嵌入大容量RAM，内置16-bits ADC和20-bits DAC，支持单麦克风环境降噪（ENC），支持风噪声降低，支持语音提示和电容式触摸检测。"
+        }
+      },
+      {
+        "text": "SSP707可为充电舱电池提供高效率快充，左右耳机独立超轻载检测、独立跟随供电，缩短用电时间，耳机出入舱检测更灵敏可靠、提高耳机用电效率续航时间，显著提升用户体验。",
+        "tag": "长续航",
+        "evidence": {
+          "value": "SSP707可为充电舱电池提供高效率快充，左右耳机独立超轻载检测、独立跟随供电，缩短用电时间，耳机出入舱检测更灵敏可靠、提高耳机用电效率续航时间，显著提升用户体验。",
+          "confidence": 0.6,
+          "source_type": "text",
+          "source_text": "SSP707可为充电舱电池提供高效率快充，左右耳机独立超轻载检测、独立跟随供电，缩短用电时间，耳机出入舱检测更灵敏可靠、提高耳机用电效率续航时间，显著提升用户体验。"
+        }
+      },
+      {
+        "text": "其他功能配置方面，耳机采用了8mm动圈单元，采用PEEK+有机硅+PU复合膜片，提供更优的音质表现；支持低延迟模式，提供流畅游戏体验；内置MEMS硅麦，通过通话算法，保障清晰通话；支持触控操作、快速充电，拥有22小时的综合续航。",
+        "tag": "长续航",
+        "evidence": {
+          "value": "其他功能配置方面，耳机采用了8mm动圈单元，采用PEEK+有机硅+PU复合膜片，提供更优的音质表现；支持低延迟模式，提供流畅游戏体验；内置MEMS硅麦，通过通话算法，保障清晰通话；支持触控操作、快速充电，拥有22小时的综合续航。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "其他功能配置方面，耳机采用了8mm动圈单元，采用PEEK+有机硅+PU复合膜片，提供更优的音质表现；支持低延迟模式，提供流畅游戏体验；内置MEMS硅麦，通过通话算法，保障清晰通话；支持触控操作、快速充电，拥有22小时的综合续航。"
+        }
+      },
+      {
+        "text": "耳机重量约为8.2g，小巧轻盈，提供舒适佩戴。",
+        "tag": "舒适佩戴",
+        "evidence": {
+          "value": "耳机重量约为8.2g，小巧轻盈，提供舒适佩戴。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "耳机重量约为8.2g，小巧轻盈，提供舒适佩戴。"
+        }
+      },
+      {
+        "text": "标记/认证：Type-C充电接口位于充电盒底部，印制产品型号：W10，输入：5V-1A，输出：5V-0.2A，容量：370mAh。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：Type-C充电接口位于充电盒底部，印制产品型号：W10，输入：5V-1A，输出：5V-0.2A，容量：370mAh。",
+          "confidence": 0.65,
+          "source_type": "text",
+          "source_text": "标记/认证：Type-C充电接口位于充电盒底部，印制产品型号：W10，输入：5V-1A，输出：5V-0.2A，容量：370mAh。"
+        }
+      },
+      {
+        "text": "扬声器背面特写，设计有一颗调音孔，通过细密防尘网防护，用于提升声学性能。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "扬声器背面特写，设计有一颗调音孔，通过细密防尘网防护，用于提升声学性能。",
+          "confidence": 0.61,
+          "source_type": "text",
+          "source_text": "扬声器背面特写，设计有一颗调音孔，通过细密防尘网防护，用于提升声学性能。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "此次将要拆解的是唐麦旗 […]\nATS3015E采用RISC32核心架构，嵌入大容量RAM，内置16-bits ADC和20-bits DAC，支持单麦克风环境降噪（ENC），支持风噪声降低，支持语音提示和电容式触摸检测。",
+    "launch_date": null,
+    "best_report_id": "125023",
+    "best_video_id": null
+  }
+}

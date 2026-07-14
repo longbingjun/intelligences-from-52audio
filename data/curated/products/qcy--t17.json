@@ -20,13 +20,13 @@
     "battery_ear": "380 mAh",
     "battery_case": "电池",
     "speaker": "喇叭单元",
-    "materials": "硅胶、塑料、PC",
-    "weight_g": "34.4g",
+    "materials": "",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
-    "bluetooth": "5.1",
-    "bom_row_count": 15,
+    "bluetooth": "",
+    "bom_row_count": 11,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -47,20 +47,6 @@
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒整体外观一览，采用了一种类长条形设计，磨砂材质，体积小巧纤细。"
-      }
-    },
-    {
-      "component": "主板/PCBA",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "主板/PCBA",
-        "confidence": 0.72,
-        "source_type": "text",
         "source_text": "充电盒座舱底部通过螺丝固定主板。"
       }
     },
@@ -79,6 +65,20 @@
       }
     },
     {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒座舱底部通过螺丝固定主板。"
+      }
+    },
+    {
       "component": "麦克风",
       "brand": "",
       "model": "",
@@ -89,7 +89,7 @@
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "背板侧边设置有麦克风开孔，用于语音通话拾音。"
+        "source_text": "支持单/双麦克风降噪，支持两路模拟麦克风放大，内置麦克风偏置。"
       }
     },
     {
@@ -111,13 +111,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "降噪系统",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "QCY T17真无线耳机是其在近期推出的一款为小耳朵设计的豆式产品，拥有着小巧轻盈、高颜值的外观设计，并提供了舒适稳固的佩戴效果。功能配置上通过新一代蓝牙技术，带来了更佳的传输和连接表现；支持低延迟模式，支持ENC通话降噪、拥有单次7.5小时，综合26小时的续航时间。"
+        "source_text": "功能配置上通过新一代蓝牙技术，带来了更佳的传输和连接表现；支持低延迟模式，支持ENC通话降噪、拥有单次7.5小时，综合26小时的续航时间。"
       }
     },
     {
@@ -139,83 +139,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "充电盒",
+      "side": "",
       "role": "minor",
       "evidence": {
         "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒正面开盖处设置有倒角，便于开启。下方有一颗指示灯，用于反馈充电盒剩余电量信息。"
-      }
-    },
-    {
-      "component": "外壳结构",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "外壳结构",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "取掉耳翼，耳机结构一览，前后腔之间采用了独特的卡扣式结构固定。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机背板为触控区域，设计有“QCY”品牌标识，以及一颗指示灯开孔，用于反馈耳机状态。"
-      }
-    },
-    {
-      "component": "充电触点",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机内侧外观一览，设置有两颗充电触点，雕刻有L/R左右标识。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "SY8812",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "SY8812",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "TPS思远SY8812是一款专为蓝牙耳机充电仓设计的SoC芯片，采用3mmx3mm QFN16封装。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "SY8812",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "SY8812",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "思远SY8812优化了产品应用设计可靠性的性能，输入耐压高达DC30V，并且芯片已经通过了IEC62368安规认证。"
+        "source_text": "盖板内侧结构一览，底部设置有蓝牙天线和触摸检测贴片，左上方为麦克风声学结构，用于提升收音性能；右下方为指示灯导光柱。"
       }
     },
     {
@@ -223,27 +153,41 @@
       "brand": "",
       "model": "稳先微WSDF13D",
       "qty_hint": "1",
-      "side": "耳机",
+      "side": "",
       "role": "主控/蓝牙",
       "evidence": {
         "value": "稳先微WSDF13D",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "耳机内部采用了稳先微WSDF13D2N2H的锂电保护芯片，保护单节可充电锂电池不会因为过充电压、过放电压、充电过流、放电过流以及短路等情况而损坏。"
+        "source_text": "主板上，设置有稳先微WSDF13D2N2H的锂电保护芯片对内置电池进行充放电保护；主控芯片为杰理AD6973D4蓝牙音频SoC，内置32位DSP，支持单/双麦克风降噪，外围配备有一颗三体微电子SDHL1608F100MT全磁屏蔽精密绕线电感供电，相比普通绕线电感，大大降低了干扰。"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "WINSEMI稳先微WSDF13D",
+      "model": "SY8812",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SY8812",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "充电接口：采用了Type-C接口输入电源，由思远SY8812充电仓SoC为内置电池充电，并集成了\n升压\n模块为耳机内部电池充电；芯片还集成NTC保护功能，更安全的对电池进行充放电。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SY8812",
       "qty_hint": "1",
       "side": "",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "WINSEMI稳先微WSDF13D",
+        "value": "SY8812",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "WINSEMI稳先微WSDF13D2N2H详细资料图。"
+        "source_text": "标记/认证：思远SY8812优化了产品应用设计可靠性的性能，输入耐压高达DC30V，并且芯片已经通过了IEC62368安规认证。"
       }
     }
   ],
@@ -262,13 +206,13 @@
   "market": {
     "selling_points": [
       {
-        "text": "功能配置上通过新一代蓝牙技术，带来了更佳的传输和连接表现；支持低延迟模式，支持ENC通话降噪、拥有单次7.5小时，综合26小时的续航时间。",
+        "text": "QCY是“去创意・去超越“的拼音首字母组合，用以表达QCY致力于为新一代年轻人打造科技型、创新型的智能电子设备 […]\n功能配置上通过新一代蓝牙技术，带来了更佳的传输和连接表现；支持低延迟模式，支持ENC通话降噪、拥有单次7.5小时，综合26小时的续航时间。",
         "tag": "降噪",
         "evidence": {
-          "value": "功能配置上通过新一代蓝牙技术，带来了更佳的传输和连接表现；支持低延迟模式，支持ENC通话降噪、拥有单次7.5小时，综合26小时的续航时间。",
+          "value": "QCY是“去创意・去超越“的拼音首字母组合，用以表达QCY致力于为新一代年轻人打造科技型、创新型的智能电子设备 […]\n功能配置上通过新一代蓝牙技术，带来了更佳的传输和连接表现；支持低延迟模式，支持ENC通话降噪、拥有单次7.5小时，综合26小时的续航时间。",
           "confidence": 0.75,
           "source_type": "text",
-          "source_text": "功能配置上通过新一代蓝牙技术，带来了更佳的传输和连接表现；支持低延迟模式，支持ENC通话降噪、拥有单次7.5小时，综合26小时的续航时间。"
+          "source_text": "QCY是“去创意・去超越“的拼音首字母组合，用以表达QCY致力于为新一代年轻人打造科技型、创新型的智能电子设备 […]\n功能配置上通过新一代蓝牙技术，带来了更佳的传输和连接表现；支持低延迟模式，支持ENC通话降噪、拥有单次7.5小时，综合26小时的续航时间。"
         }
       },
       {
@@ -310,12 +254,22 @@
           "source_type": "text",
           "source_text": "支持单/双麦克风降噪，支持两路模拟麦克风放大，内置麦克风偏置。"
         }
+      },
+      {
+        "text": "标记/认证：丝印信息有型号：In2031A，输入：5V-400mA，额定容量：380mAh/1.406Wh，CMIIT ID：2021DP7953，东莞市和乐电子有限公司，中国制造。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：丝印信息有型号：In2031A，输入：5V-400mA，额定容量：380mAh/1.406Wh，CMIIT ID：2021DP7953，东莞市和乐电子有限公司，中国制造。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "标记/认证：丝印信息有型号：In2031A，输入：5V-400mA，额定容量：380mAh/1.406Wh，CMIIT ID：2021DP7953，东莞市和乐电子有限公司，中国制造。"
+        }
       }
     ],
     "scenarios": [
       "通话"
     ],
-    "positioning_summary": "功能配置上通过新一代蓝牙技术，带来了更佳的传输和连接表现；支持低延迟模式，支持ENC通话降噪、拥有单次7.5小时，综合26小时的续航时间。",
+    "positioning_summary": "QCY是“去创意・去超越“的拼音首字母组合，用以表达QCY致力于为新一代年轻人打造科技型、创新型的智能电子设备 […]\n功能配置上通过新一代蓝牙技术，带来了更佳的传输和连接表现；支持低延迟模式，支持ENC通话降噪、拥有单次7.5小时，综合26小时的续航时间。",
     "launch_date": null,
     "best_report_id": "97539",
     "best_video_id": null

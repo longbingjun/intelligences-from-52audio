@@ -16,24 +16,40 @@
   "internal_match_suggestions": [],
   "cost_snapshot": {
     "main_chip": "BES2600IHC3-4X",
-    "pmic_case": "",
+    "pmic_case": "CM1137",
     "battery_ear": "微电新能源 3.7V/40mAh钢壳扣式",
     "battery_case": "3.8V/500mAh锂电池",
     "speaker": "喇叭单元",
     "materials": "硅胶",
     "weight_g": "49.8g",
+    "weight_case_g": "",
+    "weight_earbud_g": "5.4g",
     "ip_rating": "",
     "bluetooth": "",
-    "bom_row_count": 18,
+    "bom_row_count": 22,
     "price_cny": 149.0,
     "price_layer": "channel",
     "channel_url": "https://union-click.jd.com/jdc?e=jd_100222986420&p=JF8BAQoJK1olXDYCVV9eC0gfCmgNGFolGVlaCgFtUQ5SQi0DBUVNGFJeSwUIFxlJX3EIGloWXgUKXVlYC0oIWipURmtnNFgYXB5eUitlZQlOYCNMVA5-CCsLBEcnBm8JG1sdXgQDXW5eCUkUAGYBGlsXbTYAVVlcCEwnVQEIGloUXAcDXF9YOEkXAm4BGVwdWg8yVFhaCUofAG0IGloTXjYCXFltQ56cnm4IG1IlbTYBZG5tCHsUMzFmGggdXQUCXAwzVB1NQjdUEw57VAcBUldVCUsnAW4JGVklbTZrLTlVWghNUxJyUClDWVx5DlwDSzZqVwxmGSJuHwFrND0idRZAdTFjUAgTbQUyU1peOA",
     "sales_hint": null,
-    "data_completeness": 0.83,
+    "data_completeness": 1.0,
     "best_report_id": "271556",
     "best_video_id": null
   },
   "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1137",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "CM1137",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载了长虹聚和源3.8V/500mAh锂电池，配备了ICM创芯微CM1137系列集成MOSFET单节锂电池保护IC；"
+      }
+    },
     {
       "component": "电池",
       "brand": "",
@@ -261,6 +277,20 @@
     {
       "component": "芯片/模组",
       "brand": "",
+      "model": "CM1137",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM1137",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "ICM创芯微CM1137系列集成MOSFET单节锂电池保护IC，负责电池的过充电、过放电、过电流等保护。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
       "model": "BES2600IHC3-4X",
       "qty_hint": "1",
       "side": "",
@@ -284,6 +314,34 @@
         "confidence": 0.78,
         "source_type": "text",
         "source_text": "BES恒玄科技BES2600IHC3-4X蓝牙音频SoC，采用双核Arm MCU，搭载BES自研AI降噪通话算法，混合ANC降噪算法，功耗低至4.5mA。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2600IHC3",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2600IHC3",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄科技BES2600IHC3-4X蓝牙音频SoC，采用双核Arm MCU，搭载BES自研AI降噪通话算法，混合ANC降噪算法，功耗低至4.5mA。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2600IHC3",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2600IHC3",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "耳机内部搭载了6mm双磁路高频单元+11mm纯铜线圈低频单元，单耳内置三颗MEMS麦克风；采用MIC-POWER微电新能源3.7V/40mAh钢壳扣式电池供电，采用BES恒玄科技BES2600IHC3-4X蓝牙音频SoC负责无线连接和音频数据处理，采用Spacetouch普林芯驰SPT5111触摸检测IC用于触摸控制和入耳检测功能；其他还采用了Sunlord顺络电子SDCL0603Q系列和SDCL0402H-01系列叠层陶瓷电感等方案。"
       }
     }
   ],

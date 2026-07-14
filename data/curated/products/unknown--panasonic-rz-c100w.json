@@ -18,15 +18,15 @@
     "main_chip": "恒玄BES2300IZ",
     "pmic_case": "",
     "battery_ear": "电池",
-    "battery_case": "420 mAh",
+    "battery_case": "35 mAh",
     "speaker": "喇叭单元",
     "materials": "塑料、PC",
-    "weight_g": "50.4克",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
-    "bluetooth": "5.0",
-    "bom_row_count": 16,
+    "bluetooth": "",
+    "bom_row_count": 12,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -51,6 +51,20 @@
       }
     },
     {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "软包电池固定在塑料壳体内。"
+      }
+    },
+    {
       "component": "主板/PCBA",
       "brand": "",
       "model": "",
@@ -65,17 +79,17 @@
       }
     },
     {
-      "component": "电池",
+      "component": "麦克风",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "",
       "role": "major",
       "evidence": {
-        "value": "电池",
+        "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "软包电池固定在塑料壳体内。"
+        "source_text": "充电触点和通话麦克风，麦克风外有防尘网。"
       }
     },
     {
@@ -93,14 +107,14 @@
       }
     },
     {
-      "component": "麦克风",
+      "component": "降噪系统",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "耳机",
       "role": "major",
       "evidence": {
-        "value": "麦克风",
+        "value": "降噪系统",
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "今天我爱音频网要拆解的是Panasonic松下RZ-C100W真无线蓝牙耳机，这款耳机为半入耳式设计，耳机柄处有一定弯曲弧度为专利设计；耳机内置13mm动圈单元，蓝牙芯片支持双路传输技术，连接稳定；耳机采用波束成形技术的单麦克风，配合ENC降噪算法，可以实现通话降噪功能；耳机支持入耳检测，敲击控制，续航数据为4+12小时，充电盒支持无线充电，功能较为全面。下面一起来看详细的拆解吧~"
@@ -121,59 +135,17 @@
       }
     },
     {
-      "component": "降噪系统",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "降噪系统",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "今天我爱音频网要拆解的是Panasonic松下RZ-C100W真无线蓝牙耳机，这款耳机为半入耳式设计，耳机柄处有一定弯曲弧度为专利设计；耳机内置13mm动圈单元，蓝牙芯片支持双路传输技术，连接稳定；耳机采用波束成形技术的单麦克风，配合ENC降噪算法，可以实现通话降噪功能；耳机支持入耳检测，敲击控制，续航数据为4+12小时，充电盒支持无线充电，功能较为全面。下面一起来看详细的拆解吧~"
-      }
-    },
-    {
       "component": "充电触点",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "minor",
       "evidence": {
         "value": "充电触点",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电座舱底部给耳机充电的Pogo Pin。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒正面展示，配对按键在中间位置，上面有一个状态指示灯，底部是Panasonic松下品牌Logo。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒正面展示，配对按键在中间位置，上面有一个状态指示灯，底部是Panasonic松下品牌Logo。"
+        "source_text": "充电触点和通话麦克风，麦克风外有防尘网。"
       }
     },
     {
@@ -195,13 +167,13 @@
       "brand": "",
       "model": "ETA9697",
       "qty_hint": "1",
-      "side": "",
+      "side": "充电盒",
       "role": "主控/蓝牙",
       "evidence": {
         "value": "ETA9697",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "钰泰半导体的ETA9697超低功耗双通道PMU，采用ESOP8封装：集成了16V耐压的线性充电器和5V同步升压变换器。"
+        "source_text": "充电方式：内部电路方面，松下 RZ-C100W充电盒的有线充电接收采用Type-C接口，无线充电接收采用COPO酷珀微CP2021，输入电源通过钰泰ETA9697为电池充电，并且升压为耳机充电。"
       }
     },
     {
@@ -215,21 +187,7 @@
         "value": "恒玄BES2300IZ",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "松下 RZ-C100W的蓝牙音频SoC是恒玄BES2300IZ，不同后缀信息配置不尽相同。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "恒玄BES2300",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "恒玄BES2300",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "恒玄BES2300是一款全集成自适应主动降噪方案，支持蓝牙5.0、IBRT低频转发技术和双模蓝牙4.2，它还支持第三代FWS全无线立体声技术、双麦克风等，采用28nm工艺，BGA封装。"
+        "source_text": "电池容量：420\n芯片 恒玄BES2300IZ\n芯片 恒玄BES2300\n芯片 ETA9697"
       }
     },
     {
@@ -237,27 +195,13 @@
       "brand": "",
       "model": "ETA9697",
       "qty_hint": "1",
-      "side": "充电盒",
+      "side": "",
       "role": "主控/蓝牙",
       "evidence": {
         "value": "ETA9697",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "内部电路方面，松下 RZ-C100W充电盒的有线充电接收采用Type-C接口，无线充电接收采用COPO酷珀微CP2021，输入电源通过钰泰ETA9697为电池充电，并且升压为耳机充电。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "恒玄BES2300IZ",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "恒玄BES2300IZ",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "松下RZ-C100W真无线耳机的主控芯片是恒玄BES2300IZ，支持蓝牙5.0和低频双传技术，耳机采用贴片式陶瓷蓝牙天线传输信号；内置红外线距离传感器用于入耳检测功能，支持敲击控制；圣邦微 SGM40561负责为内置锂电池充电，圆柱型软包锂电池的供应商同样来自重庆紫建，容量35mAh。"
+        "source_text": "电池容量：420\n芯片 恒玄BES2300IZ\n芯片 恒玄BES2300\n芯片 ETA9697"
       }
     }
   ],
@@ -276,13 +220,33 @@
   "market": {
     "selling_points": [
       {
-        "text": "半入耳式结构特写，为专利设计。",
+        "text": "Panasonic 品牌名称创立于 1955 年，一开始用来做为音响喇叭的品牌，Panasonic结合 “Pa […]\n半入耳式结构特写，为专利设计。",
         "tag": "其他",
         "evidence": {
-          "value": "半入耳式结构特写，为专利设计。",
+          "value": "Panasonic 品牌名称创立于 1955 年，一开始用来做为音响喇叭的品牌，Panasonic结合 “Pa […]\n半入耳式结构特写，为专利设计。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "Panasonic 品牌名称创立于 1955 年，一开始用来做为音响喇叭的品牌，Panasonic结合 “Pa […]\n半入耳式结构特写，为专利设计。"
+        }
+      },
+      {
+        "text": "标记/认证：华大半导体 HC32F003C4UA 详细资料。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：华大半导体 HC32F003C4UA 详细资料。",
           "confidence": 0.71,
           "source_type": "text",
-          "source_text": "半入耳式结构特写，为专利设计。"
+          "source_text": "标记/认证：华大半导体 HC32F003C4UA 详细资料。"
+        }
+      },
+      {
+        "text": "标记/认证：华大半导体 HC32F003C4UA单片机，用于充电盒整机控制。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：华大半导体 HC32F003C4UA单片机，用于充电盒整机控制。",
+          "confidence": 0.66,
+          "source_type": "text",
+          "source_text": "标记/认证：华大半导体 HC32F003C4UA单片机，用于充电盒整机控制。"
         }
       },
       {
@@ -314,34 +278,13 @@
           "source_type": "text",
           "source_text": "充电触点和通话麦克风，麦克风外有防尘网。"
         }
-      },
-      {
-        "text": "出音孔相对较小，内有金属防尘网阻止异物进入。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "出音孔相对较小，内有金属防尘网阻止异物进入。",
-          "confidence": 0.57,
-          "source_type": "text",
-          "source_text": "出音孔相对较小，内有金属防尘网阻止异物进入。"
-        }
-      },
-      {
-        "text": "壳体上的泄压孔，有白色防尘网。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "壳体上的泄压孔，有白色防尘网。",
-          "confidence": 0.56,
-          "source_type": "text",
-          "source_text": "壳体上的泄压孔，有白色防尘网。"
-        }
       }
     ],
     "scenarios": [
       "运动",
-      "办公",
       "通话"
     ],
-    "positioning_summary": "半入耳式结构特写，为专利设计。",
+    "positioning_summary": "Panasonic 品牌名称创立于 1955 年，一开始用来做为音响喇叭的品牌，Panasonic结合 “Pa […]\n半入耳式结构特写，为专利设计。",
     "launch_date": null,
     "best_report_id": "60843",
     "best_video_id": null

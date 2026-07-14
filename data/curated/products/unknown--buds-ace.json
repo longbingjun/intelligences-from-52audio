@@ -16,152 +16,26 @@
   "internal_match_suggestions": [],
   "cost_snapshot": {
     "main_chip": "恒玄BES2600IHC3",
-    "pmic_case": "思远半导体 思远半导体SY8801",
+    "pmic_case": "",
     "battery_ear": "电池",
-    "battery_case": "4V/80mAh",
-    "speaker": "振膜动圈",
-    "materials": "硅胶",
-    "weight_g": "48.6g",
+    "battery_case": "480 mAh",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
     "bluetooth": "5.3",
-    "bom_row_count": 24,
+    "bom_row_count": 12,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
     "sales_hint": null,
-    "data_completeness": 1.0,
+    "data_completeness": 0.83,
     "best_report_id": "151095",
     "best_video_id": null
   },
   "bom_table": [
-    {
-      "component": "芯片/模组",
-      "brand": "思远半导体",
-      "model": "思远半导体SY8801",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "PMIC/充电仓管理",
-      "evidence": {
-        "value": "思远半导体SY8801",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "主板上搭载了思远半导体SY8801电源管理芯片，集成充电模块和放电模块，负责电池的充放电管理；"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "CM1112",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "保护IC",
-      "evidence": {
-        "value": "CM1112",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "iCM创芯微CM1112-WAE锂电保护IC负责充电保护；"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "思远半导体",
-      "model": "思远半导体SY8702",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "保护IC",
-      "evidence": {
-        "value": "思远半导体SY8702",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "还采用了思远半导体SY8702低侧过压保护（OVP）IC，Cmsemicon中微CMS8S5889 MCU单片机等。"
-      }
-    },
-    {
-      "component": "电池",
-      "brand": "",
-      "model": "4V/80mAh",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "4V/80mAh",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "内置电池容量480mAh，来自紫建电子；"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "BES恒玄科技",
-      "model": "恒玄BES2600IHC3",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "恒玄BES2600IHC3",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "耳机内部搭载了镀钛复合振膜动圈单元，两颗敏芯微的MEMS硅麦，主控芯片为BES恒玄BES2600IHC3蓝牙音频SoC，低功耗设计，支持蓝牙5.3，集成BES自研的AI降噪通话算法、混合ANC降噪算法；"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "BES恒玄科技",
-      "model": "BES2600IHC",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "BES2600IHC",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "耳机内部搭载了镀钛复合振膜动圈单元，两颗敏芯微的MEMS硅麦，主控芯片为BES恒玄BES2600IHC3蓝牙音频SoC，低功耗设计，支持蓝牙5.3，集成BES自研的AI降噪通话算法、混合ANC降噪算法；"
-      }
-    },
-    {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "振膜动圈",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "振膜动圈",
-        "confidence": 0.8,
-        "source_type": "summary_prose",
-        "source_text": "耳机内部搭载了镀钛复合振膜动圈单元，两颗敏芯微的MEMS硅麦，主控芯片为BES恒玄BES2600IHC3蓝牙音频SoC，低功耗设计，支持蓝牙5.3，集成BES自研的AI降噪通话算法、混合ANC降噪算法；"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "CM1126B",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "保护IC",
-      "evidence": {
-        "value": "CM1126B",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "耳机内置GF赣锋锂业41mAh软包扣式电池，配备了iCM创芯微CM1126B-WAC带船运模式二合一单节电池保护IC。"
-      }
-    },
-    {
-      "component": "充电仓",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "充电仓",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "包装盒背面展示有耳机外观渲染图，介绍了产品的部分信息，产品名称：一加 Buds Ace，产品颜色：独白，产品型号：E508A，耳机输入：5V-0.15A，充电盒输入：5V-0.9A，充电盒输出：5V-0.3A，充电盒额定容量：480mAh。OPPO广东移动通信有限公司，中国制造。"
-      }
-    },
     {
       "component": "电池",
       "brand": "",
@@ -174,6 +48,20 @@
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "腔体内部结构一览，主板通过螺丝固定在底部，电池固定在侧边腔体壁上。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "还支持通透模式，佩戴耳机无障碍交流；内置双麦克风单元精准拾音，并放大增强人声，搭配AI降噪算法和物理抗风噪设计，保障清晰流畅的游戏语音沟通。"
       }
     },
     {
@@ -191,31 +79,31 @@
       }
     },
     {
-      "component": "麦克风",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "麦克风",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "一加 Buds Ace真无线耳机支持ANC主动降噪功能，搭载双核降噪芯片，通过生成反向降噪声波，有效隔离噪音。还支持通透模式，佩戴耳机无障碍交流；内置双麦克风单元精准拾音，并放大增强人声，搭配AI降噪算法和物理抗风噪设计，保障清晰流畅的游戏语音沟通。续航方面，单次续航时间7小时，综合续航36小时，支持超级快充，充电10分钟，可播放5小时。"
-      }
-    },
-    {
       "component": "降噪系统",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "降噪系统",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "一加 Buds Ace真无线耳机支持ANC主动降噪功能，搭载双核降噪芯片，通过生成反向降噪声波，有效隔离噪音。还支持通透模式，佩戴耳机无障碍交流；内置双麦克风单元精准拾音，并放大增强人声，搭配AI降噪算法和物理抗风噪设计，保障清晰流畅的游戏语音沟通。续航方面，单次续航时间7小时，综合续航36小时，支持超级快充，充电10分钟，可播放5小时。"
+        "source_text": "另外一颗镭雕ME45 D127的MEMS麦克风，用于主动降噪、通话降噪功能拾取外部环境噪音。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电接口：充电盒背面有Type-C充电接口和蓝牙配对功能按键。"
       }
     },
     {
@@ -257,63 +145,35 @@
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒背面有Type-C充电接口和蓝牙配对功能按键。"
-      }
-    },
-    {
-      "component": "外壳结构",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "外壳结构",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "首先拆解充电盒部分，撬开外壳，取出座舱结构。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "一加 Buds Ace独白配色采用了两种不同的工艺处理，充电盒盖呈现银色的类金属质感，磨砂质感的机身通过环保撒点材料装饰，提升了产品的个性化。充电盒正面设计有一颗指示灯，用于反馈工作状态。"
-      }
-    },
-    {
-      "component": "充电触点",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "为耳机充电的两颗Pogo Pin连接器特写，底部设置有海绵垫密封防水。"
+        "source_text": "充电接口：充电盒背面有Type-C充电接口和蓝牙配对功能按键。"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "思远半导体SY8801",
+      "model": "恒玄BES2600IHC3",
       "qty_hint": "1",
-      "side": "耳机",
+      "side": "",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "思远半导体SY8801",
+        "value": "恒玄BES2600IHC3",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "思远半导体SY8801蓝牙耳机智能充电仓解决方案，集成充电模块和放电模块，充电电流和放电截止电流外部可以调节。"
+        "source_text": "BES恒玄BES2600IHC3蓝牙音频SoC。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2600IHC",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2600IHC",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄BES2600IHC3蓝牙音频SoC。"
       }
     },
     {
@@ -327,35 +187,7 @@
         "value": "思远半导体SY8801",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "思远半导体SY8801详细资料图。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "思远半导体SY8702",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "思远半导体SY8702",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "思远半导体SY8702低侧过压保护（OVP）IC，采用SOT23-6封装，内部集成28mΩ开关NMOS，采用低压侧开关拓扑结构，极低导通电阻有效的减小输入压降，保护电压外部设置使应用更加灵活，提供最简单实用的低成本OVP解决方案。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "CM1112",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "CM1112",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "iCM创芯微CM1112-WAE锂电保护IC，CM1112系列二合一保护芯片专为TWS耳机充电仓电池设计，内置有高精度电压检测电路和延迟电路，通过检测电池的电压、电流，实现对电池的过充电、过放电、过电流等保护。"
+        "source_text": "电池容量：480\n芯片 思远半导体SY8801\n芯片 CM1112\n芯片 思远半导体SY8702\n芯片 恒玄BES2600IHC3\n芯片 BES2600IHC\n芯片 CM1126B"
       }
     },
     {
@@ -369,12 +201,12 @@
         "value": "CM1112",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "iCM创芯微CM1112-WAE详细资料图。"
+        "source_text": "电池容量：480\n芯片 思远半导体SY8801\n芯片 CM1112\n芯片 思远半导体SY8702\n芯片 恒玄BES2600IHC3\n芯片 BES2600IHC\n芯片 CM1126B"
       }
     }
   ],
   "summary_image_urls": [],
-  "summary_text": "三、我爱音频网总结 一加 Buds Ace真无线耳机在外观方面，采用了与 OnePlus Buds N 相同的设计，“跑道型”充电盒采用了两种不同的工艺碰撞拼搭，搭配撒点装饰，具有了个性化特征。柄状的入耳式耳机，耳机柄同样采用了椭圆形“跑道”设计，具有着很高的辨识度。触控区域通过与机身不同质感的装饰片和CD纹理，使产品观感更精致。 内部结构配置方面，充电盒内部包括电池和主板单元。内置电池容量480mAh，来自紫建电子；主板上搭载了思远半导体SY8801电源管理芯片，集成充电模块和放电模块，负责电池的充放电管理；iCM创芯微CM1112-WAE锂电保护IC负责充电保护；还采用了思远半导体SY8702低侧过压保护（OVP）IC，Cmsemicon中微CMS8S5889 MCU单片机等。 耳机内部搭载了镀钛复合振膜动圈单元，两颗敏芯微的MEMS硅麦，主控芯片为BES恒玄BES2600IHC3蓝牙音频SoC，低功耗设计，支持蓝牙5.3，集成BES自研的AI降噪通话算法、混合ANC降噪算法；触摸检测采用了HYNITRON海栎创HK31BP芯片；耳机内置GF赣锋锂业41mAh软包扣式电池，配备了iCM创芯微CM1126B-WAC带船运模式二合一单节电池保护IC。",
+  "summary_text": "",
   "layer_refs": {
     "technical": [
       "report:151095"
@@ -387,6 +219,16 @@
   "unboxing": null,
   "market": {
     "selling_points": [
+      {
+        "text": "一加在近期举办了一加 Ace 2智能手机的新品发布会，随之还推出了首款Ace系列真无线耳机“一加 Buds A […]\n还支持通透模式，佩戴耳机无障碍交流；内置双麦克风单元精准拾音，并放大增强人声，搭配AI降噪算法和物理抗风噪设计，保障清晰流畅的游戏语音沟通。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "一加在近期举办了一加 Ace 2智能手机的新品发布会，随之还推出了首款Ace系列真无线耳机“一加 Buds A […]\n还支持通透模式，佩戴耳机无障碍交流；内置双麦克风单元精准拾音，并放大增强人声，搭配AI降噪算法和物理抗风噪设计，保障清晰流畅的游戏语音沟通。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "一加在近期举办了一加 Ace 2智能手机的新品发布会，随之还推出了首款Ace系列真无线耳机“一加 Buds A […]\n还支持通透模式，佩戴耳机无障碍交流；内置双麦克风单元精准拾音，并放大增强人声，搭配AI降噪算法和物理抗风噪设计，保障清晰流畅的游戏语音沟通。"
+        }
+      },
       {
         "text": "还支持通透模式，佩戴耳机无障碍交流；内置双麦克风单元精准拾音，并放大增强人声，搭配AI降噪算法和物理抗风噪设计，保障清晰流畅的游戏语音沟通。",
         "tag": "降噪",
@@ -436,23 +278,13 @@
           "source_type": "text",
           "source_text": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nOPPO、vivo、realme、一加、漫步者、QCY、倍思、猛玛、声阔、JBL、飞利浦、Jabra、Nothing、Marshall、DENON\n，\n小米、万魔、233621、传音、魔宴、创新科技、魅族、百度、网易、哈曼、联想\n等国内外知名品牌采用。"
         }
-      },
-      {
-        "text": "续航方面，单次续航时间7小时，综合续航36小时，支持超级快充，充电10分钟，可播放5小时。",
-        "tag": "长续航",
-        "evidence": {
-          "value": "续航方面，单次续航时间7小时，综合续航36小时，支持超级快充，充电10分钟，可播放5小时。",
-          "confidence": 0.74,
-          "source_type": "text",
-          "source_text": "续航方面，单次续航时间7小时，综合续航36小时，支持超级快充，充电10分钟，可播放5小时。"
-        }
       }
     ],
     "scenarios": [
       "游戏",
       "通话"
     ],
-    "positioning_summary": "还支持通透模式，佩戴耳机无障碍交流；内置双麦克风单元精准拾音，并放大增强人声，搭配AI降噪算法和物理抗风噪设计，保障清晰流畅的游戏语音沟通。",
+    "positioning_summary": "一加在近期举办了一加 Ace 2智能手机的新品发布会，随之还推出了首款Ace系列真无线耳机“一加 Buds A […]\n还支持通透模式，佩戴耳机无障碍交流；内置双麦克风单元精准拾音，并放大增强人声，搭配AI降噪算法和物理抗风噪设计，保障清晰流畅的游戏语音沟通。",
     "launch_date": null,
     "best_report_id": "151095",
     "best_video_id": null

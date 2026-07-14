@@ -20,13 +20,13 @@
     "battery_ear": "电池",
     "battery_case": "120 mAh",
     "speaker": "喇叭单元",
-    "materials": "硅胶",
+    "materials": "",
     "weight_g": "16g",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "IPX6",
     "bluetooth": "5.0",
-    "bom_row_count": 10,
+    "bom_row_count": 7,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -75,7 +75,7 @@
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "背部有麦克风开孔，用于语音通话功能。"
+        "source_text": "取掉主板，腔体内部麦克风单元卡槽结构特写。"
       }
     },
     {
@@ -107,34 +107,6 @@
       }
     },
     {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "线控正面有三颗功能按键和状态指示灯。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "线控正面有三颗功能按键和状态指示灯。"
-      }
-    },
-    {
       "component": "外壳结构",
       "brand": "",
       "model": "",
@@ -159,21 +131,7 @@
         "value": "高通 QCC3003",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "Qualcomm高通 QCC3003 蓝牙音频SOC，是一款单芯片双模蓝牙5.0系统，采用第8代高通cVc\n噪音消除技术有一个和两个麦克风输入；增强的GAIA设计用于更好地与移动设备通信；并具有外部QSPI闪存用于配置和语音提示。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "高通QCC3003",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "高通QCC3003",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "内部结构配置上，主板位于线控板内，主控芯片采用了高通QCC3003蓝牙音频SOC，是一款单芯片双模蓝牙5.0系统，支持第8代高通cVc\n噪音消除技术；电池单元位于耳机壳体内，左右两侧分别配备有一颗60mAh软包电池，软包电池有保护板\n进行过充过放保护\n；耳机内小板上配置有一颗检测磁吸状态的霍尔元件，用于磁吸开关功能。"
+        "source_text": "电池容量：120\n芯片 高通 QCC3003\n芯片 高通cVc"
       }
     }
   ],
@@ -192,13 +150,43 @@
   "market": {
     "selling_points": [
       {
-        "text": "耳机配备了耳塞、耳翼二合一的耳套设计，提升佩戴舒适度和稳定性，搭配IPX6级防水，非常适合运动健身佩戴。",
+        "text": "标记/认证：耳机配备了耳塞、耳翼二合一的耳套设计，提升佩戴舒适度和稳定性，搭配IPX6级防水，非常适合运动健身佩戴。",
         "tag": "防水防尘",
         "evidence": {
-          "value": "耳机配备了耳塞、耳翼二合一的耳套设计，提升佩戴舒适度和稳定性，搭配IPX6级防水，非常适合运动健身佩戴。",
+          "value": "标记/认证：耳机配备了耳塞、耳翼二合一的耳套设计，提升佩戴舒适度和稳定性，搭配IPX6级防水，非常适合运动健身佩戴。",
           "confidence": 0.72,
           "source_type": "text",
-          "source_text": "耳机配备了耳塞、耳翼二合一的耳套设计，提升佩戴舒适度和稳定性，搭配IPX6级防水，非常适合运动健身佩戴。"
+          "source_text": "标记/认证：耳机配备了耳塞、耳翼二合一的耳套设计，提升佩戴舒适度和稳定性，搭配IPX6级防水，非常适合运动健身佩戴。"
+        }
+      },
+      {
+        "text": "AUKEY傲基是知名的跨境电商公司，主要从事自主品牌科技消费品的研发、设计和销售，并且实现了产品的研发设计、营 […]\n耳机配备了耳塞、耳翼二合一的耳套设计，提升佩戴舒适度和稳定性，搭配IPX6级防水，非常适合运动健身佩戴。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "AUKEY傲基是知名的跨境电商公司，主要从事自主品牌科技消费品的研发、设计和销售，并且实现了产品的研发设计、营 […]\n耳机配备了耳塞、耳翼二合一的耳套设计，提升佩戴舒适度和稳定性，搭配IPX6级防水，非常适合运动健身佩戴。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "AUKEY傲基是知名的跨境电商公司，主要从事自主品牌科技消费品的研发、设计和销售，并且实现了产品的研发设计、营 […]\n耳机配备了耳塞、耳翼二合一的耳套设计，提升佩戴舒适度和稳定性，搭配IPX6级防水，非常适合运动健身佩戴。"
+        }
+      },
+      {
+        "text": "标记/认证：底部标签展示有产品的部分功能参数信息，型号：AUKEY EP-B60，颜色：深灰色，执行标准：GB/T14471-2013，制造商：傲基科技股份有限公司。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：底部标签展示有产品的部分功能参数信息，型号：AUKEY EP-B60，颜色：深灰色，执行标准：GB/T14471-2013，制造商：傲基科技股份有限公司。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "标记/认证：底部标签展示有产品的部分功能参数信息，型号：AUKEY EP-B60，颜色：深灰色，执行标准：GB/T14471-2013，制造商：傲基科技股份有限公司。"
+        }
+      },
+      {
+        "text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：AUKEY傲基是知名的跨境电商公司，主要从事自主品牌科技消费品的研发、设计和销售，并且实现了产品的研发设计、营销推广、仓储配送等环节的全流程管控，旗下产品涵盖蓝牙耳机、充电头、充电宝等3C配件，其TWS真无线耳机产品在海外销量较高，此前我爱音频网曾拆解过\nAUKEY EP-T10\n和\nAUKEY EP-M1\n两款真无线耳机产品。",
+        "tag": "其他",
+        "evidence": {
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：AUKEY傲基是知名的跨境电商公司，主要从事自主品牌科技消费品的研发、设计和销售，并且实现了产品的研发设计、营销推广、仓储配送等环节的全流程管控，旗下产品涵盖蓝牙耳机、充电头、充电宝等3C配件，其TWS真无线耳机产品在海外销量较高，此前我爱音频网曾拆解过\nAUKEY EP-T10\n和\nAUKEY EP-M1\n两款真无线耳机产品。",
+          "confidence": 0.67,
+          "source_type": "text",
+          "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：AUKEY傲基是知名的跨境电商公司，主要从事自主品牌科技消费品的研发、设计和销售，并且实现了产品的研发设计、营销推广、仓储配送等环节的全流程管控，旗下产品涵盖蓝牙耳机、充电头、充电宝等3C配件，其TWS真无线耳机产品在海外销量较高，此前我爱音频网曾拆解过\nAUKEY EP-T10\n和\nAUKEY EP-M1\n两款真无线耳机产品。"
         }
       },
       {
@@ -212,33 +200,13 @@
         }
       },
       {
-        "text": "出音嘴有圆形防尘网罩覆盖，防止异物进入腔体。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "出音嘴有圆形防尘网罩覆盖，防止异物进入腔体。",
-          "confidence": 0.57,
-          "source_type": "text",
-          "source_text": "出音嘴有圆形防尘网罩覆盖，防止异物进入腔体。"
-        }
-      },
-      {
-        "text": "耳机线标签正面信息有CE、BC认证和可循环利用标识等。",
+        "text": "标记/认证：标签背面有产品型号：EP-B60，输入：5V-500mA，FCC ID：2AFHP-EPB60，IC：24100-EPB60，中国制造。",
         "tag": "其他",
         "evidence": {
-          "value": "耳机线标签正面信息有CE、BC认证和可循环利用标识等。",
-          "confidence": 0.56,
+          "value": "标记/认证：标签背面有产品型号：EP-B60，输入：5V-500mA，FCC ID：2AFHP-EPB60，IC：24100-EPB60，中国制造。",
+          "confidence": 0.6,
           "source_type": "text",
-          "source_text": "耳机线标签正面信息有CE、BC认证和可循环利用标识等。"
-        }
-      },
-      {
-        "text": "底部Type-C充电接口有防尘塞覆盖，防止异物进入。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "底部Type-C充电接口有防尘塞覆盖，防止异物进入。",
-          "confidence": 0.56,
-          "source_type": "text",
-          "source_text": "底部Type-C充电接口有防尘塞覆盖，防止异物进入。"
+          "source_text": "标记/认证：标签背面有产品型号：EP-B60，输入：5V-500mA，FCC ID：2AFHP-EPB60，IC：24100-EPB60，中国制造。"
         }
       }
     ],
@@ -247,7 +215,7 @@
       "通话",
       "健身"
     ],
-    "positioning_summary": "耳机配备了耳塞、耳翼二合一的耳套设计，提升佩戴舒适度和稳定性，搭配IPX6级防水，非常适合运动健身佩戴。",
+    "positioning_summary": "标记/认证：耳机配备了耳塞、耳翼二合一的耳套设计，提升佩戴舒适度和稳定性，搭配IPX6级防水，非常适合运动健身佩戴。",
     "launch_date": null,
     "best_report_id": "77337",
     "best_video_id": null

@@ -20,20 +20,22 @@
   "internal_match_suggestions": [],
   "cost_snapshot": {
     "main_chip": "高通QCC3091",
-    "pmic_case": "",
+    "pmic_case": "CM1126B",
     "battery_ear": "3.85V/70mAh软包扣式",
     "battery_case": "3.85V/605mAh锂电池",
     "speaker": "双单元",
     "materials": "硅胶、铝合金",
     "weight_g": "156.1g",
+    "weight_case_g": "",
+    "weight_earbud_g": "10.6g",
     "ip_rating": "IPX7",
     "bluetooth": "5.4",
-    "bom_row_count": 21,
+    "bom_row_count": 23,
     "price_cny": null,
     "price_layer": null,
     "channel_url": "",
     "sales_hint": null,
-    "data_completeness": 0.83,
+    "data_completeness": 1.0,
     "best_report_id": "274360",
     "best_video_id": null
   },
@@ -50,6 +52,20 @@
         "confidence": 0.85,
         "source_type": "summary_prose",
         "source_text": "充电盒搭载了HT恒泰科技3.85V/605mAh锂电池，配备苏州赛芯电子科技股份XB5153M2S一体化锂电保护IC，负责电池的过充电、过放电、过电流等保护；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1126B",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "保护IC",
+      "evidence": {
+        "value": "CM1126B",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内置3.85V/70mAh大容量软包扣式电池，配备ICM创芯微CM1126B-WAC单节电池保护IC。"
       }
     },
     {
@@ -330,6 +346,20 @@
         "confidence": 0.78,
         "source_type": "text",
         "source_text": "Qualcomm高通QCC30xx系列详细资料图。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1126B",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM1126B",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "ICM创芯微CM1126B-WAC带船运模式二合一单节电池保护IC，负责电池的过充电、过放电、过电流等保护。"
       }
     }
   ],

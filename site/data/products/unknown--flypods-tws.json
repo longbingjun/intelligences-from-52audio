@@ -1,0 +1,280 @@
+{
+  "canonical_id": "unknown--flypods-tws",
+  "brand": "荣耀",
+  "model": "FlyPods青春版 TWS蓝牙",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "10957",
+    "15995"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "10957",
+    "15995"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2018-11-22",
+  "latest_published": "2019-02-27",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "恒玄 BES2000IZ",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "55 mAh",
+    "speaker": "",
+    "materials": "硅胶、塑料",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 11,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.67,
+    "best_report_id": "15995",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "荣耀的HONOR英文logo为充电盒上方，整体简约大气。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "电池负极触点。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "传感器、耳机单元、电池副板连接主板的插座。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "降噪麦克风孔。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "蓝牙天线特写。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面带有一颗LED指示灯，打开充电盒，指示灯就会亮起，拿出耳机就可以与手机自动完成配对。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机充电触点，旁边乳白色触发开关当耳机放入充电位时充电盒开盖状态为配对模式、关盖为耳机充电。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机充电盒主板边缘集成了微动按键和Micro USB充电接口。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机外壳同样采用钢琴烤漆材质，与充电盒配色非常统一，给人一种干净整洁的印象，但是这种材质同样也比较容易沾染指纹。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄 BES2000IZ",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄 BES2000IZ",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄 BES2000IZ。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2000IZ",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2000IZ",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄科技BES2000IZ是一款新一代全集成自适应双模蓝牙耳机解决方案，具有全集成、高性能、低功耗等特点，支持经典蓝牙V2.1和BLE 4.2双模。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:10957",
+      "report:15995"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "支持降噪技术，尤其是高性能的自适应主动降噪技术，可以让高端主动降噪耳机使用一颗全集成芯片实现高音质和主动降噪。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "支持降噪技术，尤其是高性能的自适应主动降噪技术，可以让高端主动降噪耳机使用一颗全集成芯片实现高音质和主动降噪。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "支持降噪技术，尤其是高性能的自适应主动降噪技术，可以让高端主动降噪耳机使用一颗全集成芯片实现高音质和主动降噪。"
+        }
+      },
+      {
+        "text": "2018年10月，荣耀发布了全新的荣耀Magic2手机，与此同时荣耀品牌的首款TWS真无线蓝牙耳机FlyPods也闪亮登场。",
+        "tag": "其他",
+        "evidence": {
+          "value": "2018年10月，荣耀发布了全新的荣耀Magic2手机，与此同时荣耀品牌的首款TWS真无线蓝牙耳机FlyPods也闪亮登场。",
+          "confidence": 0.65,
+          "source_type": "text",
+          "source_text": "2018年10月，荣耀发布了全新的荣耀Magic2手机，与此同时荣耀品牌的首款TWS真无线蓝牙耳机FlyPods也闪亮登场。"
+        }
+      },
+      {
+        "text": "HWA，全称Hi-Res WIRELESS AUDIO。",
+        "tag": "音质认证",
+        "evidence": {
+          "value": "HWA，全称Hi-Res WIRELESS AUDIO。",
+          "confidence": 0.61,
+          "source_type": "text",
+          "source_text": "HWA，全称Hi-Res WIRELESS AUDIO。"
+        }
+      },
+      {
+        "text": "USB-C充电接口特写，四周有防尘盖。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "USB-C充电接口特写，四周有防尘盖。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "USB-C充电接口特写，四周有防尘盖。"
+        }
+      },
+      {
+        "text": "右下角还有华为自主的HWA认证金标。",
+        "tag": "其他",
+        "evidence": {
+          "value": "右下角还有华为自主的HWA认证金标。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "右下角还有华为自主的HWA认证金标。"
+        }
+      },
+      {
+        "text": "背面可以看到一些产品特性，支持智能语音助理，随时召唤；HWA高清音质，真无线立体声；无线充电，随放随充；最长20小时播放，全天无忧；IP54防尘抗水溅。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "背面可以看到一些产品特性，支持智能语音助理，随时召唤；HWA高清音质，真无线立体声；无线充电，随放随充；最长20小时播放，全天无忧；IP54防尘抗水溅。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "背面可以看到一些产品特性，支持智能语音助理，随时召唤；HWA高清音质，真无线立体声；无线充电，随放随充；最长20小时播放，全天无忧；IP54防尘抗水溅。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "支持降噪技术，尤其是高性能的自适应主动降噪技术，可以让高端主动降噪耳机使用一颗全集成芯片实现高音质和主动降噪。",
+    "launch_date": null,
+    "best_report_id": "10957",
+    "best_video_id": null
+  }
+}

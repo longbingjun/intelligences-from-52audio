@@ -20,13 +20,13 @@
     "battery_ear": "电池",
     "battery_case": "545 mAh",
     "speaker": "喇叭单元",
-    "materials": "硅胶、PC",
-    "weight_g": "77.9克",
+    "materials": "PC",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "IPX4",
-    "bluetooth": "5.0",
-    "bom_row_count": 18,
+    "bluetooth": "",
+    "bom_row_count": 15,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -36,20 +36,6 @@
     "best_video_id": null
   },
   "bom_table": [
-    {
-      "component": "主板/PCBA",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "主板/PCBA",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "今天我们要拆解的是Cleer ALLY PLUS 真无线降噪耳机，作为一款旗舰级产品，它搭载了高通QCC5124蓝牙音频SoC，可对耳机内两颗麦克风收集的噪音进行降噪处理，并通过实时的调校确保用户听到准确、清晰的音乐；耳机在开启主动降噪的情况下有8小时长续航，并且支持充电5分钟聆听1小时的快充技术，搭配充电盒提供的30小时额外续航，能够保证一天的高强度使用。"
-      }
-    },
     {
       "component": "充电仓",
       "brand": "",
@@ -79,17 +65,31 @@
       }
     },
     {
-      "component": "麦克风",
+      "component": "主板/PCBA",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "耳机",
       "role": "major",
       "evidence": {
-        "value": "麦克风",
+        "value": "主板/PCBA",
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "今天我们要拆解的是Cleer ALLY PLUS 真无线降噪耳机，作为一款旗舰级产品，它搭载了高通QCC5124蓝牙音频SoC，可对耳机内两颗麦克风收集的噪音进行降噪处理，并通过实时的调校确保用户听到准确、清晰的音乐；耳机在开启主动降噪的情况下有8小时长续航，并且支持充电5分钟聆听1小时的快充技术，搭配充电盒提供的30小时额外续航，能够保证一天的高强度使用。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "前馈麦克风采用驻极体麦克风，拾取环境音用于主动降噪和通话降噪。"
       }
     },
     {
@@ -97,13 +97,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "降噪系统",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "今天我们要拆解的是Cleer ALLY PLUS 真无线降噪耳机，作为一款旗舰级产品，它搭载了高通QCC5124蓝牙音频SoC，可对耳机内两颗麦克风收集的噪音进行降噪处理，并通过实时的调校确保用户听到准确、清晰的音乐；耳机在开启主动降噪的情况下有8小时长续航，并且支持充电5分钟聆听1小时的快充技术，搭配充电盒提供的30小时额外续航，能够保证一天的高强度使用。"
+        "source_text": "前馈麦克风采用驻极体麦克风，拾取环境音用于主动降噪和通话降噪。"
       }
     },
     {
@@ -135,20 +135,6 @@
       }
     },
     {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒外观展示，依旧采用前代的透明开窗设计，可以看到内部的耳机和状态指示灯。玻璃上有一层保护膜，可自行选择撕下或保留。"
-      }
-    },
-    {
       "component": "充电触点",
       "brand": "",
       "model": "",
@@ -163,17 +149,31 @@
       }
     },
     {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "标记/认证：充电座舱壳体展示，Cleer ALLY PLUS把充电盒上的各项认证标识放进了耳机仓内，保证了产品的美观性；左右耳机一侧均有L/R左右标识，中间是一个状态指示灯。"
+      }
+    },
+    {
       "component": "触控/按键",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
+      "side": "耳机",
       "role": "minor",
       "evidence": {
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "并且，Cleer ALLY PLUS支持的触控操作方式更加多样，有单击/双击/长按，以及上下划动调节音量，使用起来脱离手机更加方便。"
+        "source_text": "标记/认证：Cleer ALLY PLUS采用物理结构密封+PCBA板级纳米涂层，可实现IPX4防水防汗，可以运动佩戴；耳机触控面积较大，支持点击/长按/划动操作，脱离手机使用更便捷，这是通过大面积的电容贴片和赛普拉斯PSoC 4000S系列触控MCU实现的；耳机内还单独加入了霍尔元件，可以更精准的检测耳机放入/离开充电盒的状态；耳机采用的扣式电池同样来自重庆紫建，容量85mAh，配合低功耗的高通QCC5124芯片，即便在降噪模式下也有8小时的长续航表现；10mm钕磁铁驱动单元配合智能环境音模式，在不同使用环境下都能获得始终如一的高品质声音。"
       }
     },
     {
@@ -193,6 +193,20 @@
     {
       "component": "芯片/模组",
       "brand": "",
+      "model": "ETA7014",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA7014",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "充电接口：内部电路方面，充电盒通过Type-C接口输入电源，输入端有钰泰ETA7014提供过压保护，一颗电源管理芯片负责为电池充电，电池输出经由钰泰ETA1061升压为耳机充电； 新唐科技的MCU用于开盖检测和电量显示等功能。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
       "model": "高通aptX",
       "qty_hint": "1",
       "side": "",
@@ -201,63 +215,7 @@
         "value": "高通aptX",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "下方还有AAC和高通aptX音频编码的认证标识，包装盒内物品通过图例的方式展示。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "ETA7014",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "ETA7014",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "钰泰半导体 ETA7014 耐压36V的高侧过压保护芯片，保护电压可由分压电阻编程。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "ETA1061",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "ETA1061",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "钰泰半导体ETA1061 1μA超低静态电流，1A同步整流升压转换器，将电池输出升压为耳机充电。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "ETA1061",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "ETA1061",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "ETA1061全集成了上、下侧功率管，实现了单芯片同步升压。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "高通QCC5100",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "高通QCC5100",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "高通QCC5100系列芯片采用了集成在SoC中的数字有源噪声消除(ANC)技术，四核处理器架构，内置双核DSP音频子系统，支持最新的TWS+技术，即双通道同步传输技术，无线延迟更低，更难能可贵的是，在语音通话和音乐流传输方面与此前相比可以降低高达65%的功耗。"
+        "source_text": "标记/认证：下方还有AAC和高通aptX音频编码的认证标识，包装盒内物品通过图例的方式展示。"
       }
     },
     {
@@ -271,7 +229,7 @@
         "value": "高通QCC5124",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "高通QCC5124资料图。"
+        "source_text": "电池容量：545\n芯片 高通QCC5124\n芯片 高通aptX\n芯片 高通QCC5100\n芯片 ETA7014\n芯片 ETA1061"
       }
     },
     {
@@ -279,13 +237,13 @@
       "brand": "",
       "model": "ETA7014",
       "qty_hint": "1",
-      "side": "充电盒",
+      "side": "",
       "role": "主控/蓝牙",
       "evidence": {
         "value": "ETA7014",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "内部电路方面，充电盒通过Type-C接口输入电源，输入端有钰泰ETA7014提供过压保护，一颗电源管理芯片负责为电池充电，电池输出经由钰泰ETA1061升压为耳机充电； 新唐科技的MCU用于开盖检测和电量显示等功能。"
+        "source_text": "电池容量：545\n芯片 高通QCC5124\n芯片 高通aptX\n芯片 高通QCC5100\n芯片 ETA7014\n芯片 ETA1061"
       }
     }
   ],
@@ -304,13 +262,33 @@
   "market": {
     "selling_points": [
       {
-        "text": "Cleer是来自美国加州的声学音响品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CES科技创新奖在内的全球各类大奖，拥有多项专利技术。",
+        "text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：Cleer是来自美国加州的声学音响品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CES科技创新奖在内的全球各类大奖，拥有多项专利技术。",
         "tag": "其他",
         "evidence": {
-          "value": "Cleer是来自美国加州的声学音响品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CES科技创新奖在内的全球各类大奖，拥有多项专利技术。",
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：Cleer是来自美国加州的声学音响品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CES科技创新奖在内的全球各类大奖，拥有多项专利技术。",
           "confidence": 0.75,
           "source_type": "text",
-          "source_text": "Cleer是来自美国加州的声学音响品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CES科技创新奖在内的全球各类大奖，拥有多项专利技术。"
+          "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：Cleer是来自美国加州的声学音响品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CES科技创新奖在内的全球各类大奖，拥有多项专利技术。"
+        }
+      },
+      {
+        "text": "标记/认证：Cleer ALLY PLUS可根据用户不同的使用环境切换不同的降噪模式，耳机支持点击、长按和划动三种操作方式，IPX4防水可在运动状态下佩戴，人体工学设计贴合耳廓，种种细节均体现了品牌对用户需求的准确洞察。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "标记/认证：Cleer ALLY PLUS可根据用户不同的使用环境切换不同的降噪模式，耳机支持点击、长按和划动三种操作方式，IPX4防水可在运动状态下佩戴，人体工学设计贴合耳廓，种种细节均体现了品牌对用户需求的准确洞察。",
+          "confidence": 0.69,
+          "source_type": "text",
+          "source_text": "标记/认证：Cleer ALLY PLUS可根据用户不同的使用环境切换不同的降噪模式，耳机支持点击、长按和划动三种操作方式，IPX4防水可在运动状态下佩戴，人体工学设计贴合耳廓，种种细节均体现了品牌对用户需求的准确洞察。"
+        }
+      },
+      {
+        "text": "Cleer是来自美国加州的声学音响品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CE […]\nCleer是来自美国加州的声学音响品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CES科技创新奖在内的全球各类大奖，拥有多项专利技术。",
+        "tag": "其他",
+        "evidence": {
+          "value": "Cleer是来自美国加州的声学音响品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CE […]\nCleer是来自美国加州的声学音响品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CES科技创新奖在内的全球各类大奖，拥有多项专利技术。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "Cleer是来自美国加州的声学音响品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CE […]\nCleer是来自美国加州的声学音响品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CES科技创新奖在内的全球各类大奖，拥有多项专利技术。"
         }
       },
       {
@@ -332,23 +310,13 @@
           "source_type": "text",
           "source_text": "前馈麦克风采用驻极体麦克风，拾取环境音用于主动降噪和通话降噪。"
         }
-      },
-      {
-        "text": "通话麦克风的开槽，拾音孔内侧有防尘网。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "通话麦克风的开槽，拾音孔内侧有防尘网。",
-          "confidence": 0.7,
-          "source_type": "text",
-          "source_text": "通话麦克风的开槽，拾音孔内侧有防尘网。"
-        }
       }
     ],
     "scenarios": [
       "运动",
       "通话"
     ],
-    "positioning_summary": "Cleer是来自美国加州的声学音响品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CES科技创新奖在内的全球各类大奖，拥有多项专利技术。",
+    "positioning_summary": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：Cleer是来自美国加州的声学音响品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CES科技创新奖在内的全球各类大奖，拥有多项专利技术。",
     "launch_date": null,
     "best_report_id": "69381",
     "best_video_id": null

@@ -26,6 +26,13 @@ _BT_RE = re.compile(r"蓝牙\s*([0-9]\.[0-9]+)|Bluetooth\s*([0-9]\.[0-9]+)", re.
 # 芯片型号（如 INJOINIC 英集芯 IP5528、IP5516）被误判为 IP 等级。
 _IP_RE = re.compile(r"IP\s*X?\d(?!\d)", re.I)
 _WEIGHT_RE = re.compile(r"(\d+(?:\.\d+)?)\s*(?:g|克)")
+# 分体重量：52audio 拆解报告常用固定表述"整机重量约为 X g""单只耳机重量约为 X g""充电盒重量约为 X g"。
+# TWS/开放式/耳夹式产品通常三项都会各出现一次，头戴式/骨传导等形态一般只有整机重量。
+_WEIGHT_TOTAL_RE = re.compile(r"(?:整机重量|总重量|裸机总重)\D{0,12}?(\d+(?:\.\d+)?)\s*(?:g|克)")
+_WEIGHT_CASE_RE = re.compile(r"(?:充电盒重量|充电仓重量|盒子重量)\D{0,12}?(\d+(?:\.\d+)?)\s*(?:g|克)")
+_WEIGHT_EARBUD_RE = re.compile(
+    r"(?:单只耳机重量|耳机单只重量|单只重量|单耳重量|耳机重量)\D{0,12}?(\d+(?:\.\d+)?)\s*(?:g|克)"
+)
 _BATT_RE = re.compile(r"(\d+)\s*mAh", re.I)
 _SIDE_RE = re.compile(r"(左耳|右耳|左腔|右腔|充电盒|耳机|仓体)")
 
@@ -165,6 +172,52 @@ def _extract_weight(plain: str) -> tuple[str | None, dict | None]:
     if not m:
         return None, None
     return m.group(0), make_evidence(m.group(0), m.group(0), confidence=0.75)
+
+
+def _weight_context(plain: str, match: re.Match) -> str:
+    start = max(0, match.start() - 20)
+    end = min(len(plain), match.end() + 5)
+    return plain[start:end]
+
+
+#  只有耳机主体与充电盒可拆分的形态，才需要区分"单只耳机重量"，避免头戴式等单一整
+# 机形态里出现的"耳机重量"（其实就是整机重量）被误判为单只耳机重量。
+_MULTI_PART_WEIGHT_CATEGORIES = frozenset({"真无线耳机TWS", "开放式耳机"})
+
+
+def _extract_weight_breakdown(plain: str, category: str = "") -> dict:
+    """按标签抽取整机/单只耳机/充电盒重量；无标签命中时回退到旧版单一重量。
+
+    返回 {total, case, earbud} -> (value_str, evidence) | (None, None)。
+    case/earbud 仅在 TWS/开放式耳机等"耳机+充电盒"形态下抽取，头戴式/骨传导/有线/
+    颈挂式等单一整机形态只保留 total，避免"耳机重量"这类表述被误当成单只耳机重量。
+    """
+    result: dict[str, tuple[str | None, dict | None]] = {
+        "total": (None, None),
+        "case": (None, None),
+        "earbud": (None, None),
+    }
+    m = _WEIGHT_TOTAL_RE.search(plain)
+    if m:
+        val = f"{m.group(1)}g"
+        ctx = _weight_context(plain, m)
+        result["total"] = (val, make_evidence(val, ctx, confidence=0.85))
+
+    if category in _MULTI_PART_WEIGHT_CATEGORIES:
+        for key, pattern in (("case", _WEIGHT_CASE_RE), ("earbud", _WEIGHT_EARBUD_RE)):
+            m = pattern.search(plain)
+            if m:
+                val = f"{m.group(1)}g"
+                ctx = _weight_context(plain, m)
+                result[key] = (val, make_evidence(val, ctx, confidence=0.85))
+
+    if result["total"][0] is None:
+        # 没有"整机重量"这种标签句式时，回退旧版首个 g/克 数字匹配作为总重
+        fallback_val, fallback_ev = _extract_weight(plain)
+        if fallback_val:
+            result["total"] = (fallback_val, fallback_ev)
+
+    return result
 
 
 def _guess_earbud_type(category: str, plain: str) -> str:
@@ -612,7 +665,10 @@ def extract_role_views(
     launch, launch_ev = extract_launch_date(plain)
     bt_ver, bt_ev = _extract_bluetooth_version(plain)
     ip_rating, ip_ev = _extract_ip_rating(plain)
-    weight, weight_ev = _extract_weight(plain)
+    weight_breakdown = _extract_weight_breakdown(plain, category)
+    weight, weight_ev = weight_breakdown["total"]
+    weight_case, weight_case_ev = weight_breakdown["case"]
+    weight_earbud, weight_earbud_ev = weight_breakdown["earbud"]
 
     market_points = _market_selling_points(selling_raw)
     positioning = market_points[0]["text"] if market_points else ""
@@ -707,6 +763,10 @@ def extract_role_views(
         ip_rating_evidence=ip_ev,
         weight_g=weight,
         weight_evidence=weight_ev,
+        weight_case_g=weight_case,
+        weight_case_evidence=weight_case_ev,
+        weight_earbud_g=weight_earbud,
+        weight_earbud_evidence=weight_earbud_ev,
         dimensions=[s for s in split_sentences(plain) if "尺寸" in s or "mm" in s][:3],
         internal_structure=internal,
         fastener_type=_fastener_type(plain),

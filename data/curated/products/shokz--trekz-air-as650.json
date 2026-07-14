@@ -37,6 +37,20 @@
   },
   "bom_table": [
     {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "电池一侧的产品信息：型号AS650，输入5.0V⎓150mA，中国制造。"
+      }
+    },
+    {
       "component": "主板/PCBA",
       "brand": "",
       "model": "",
@@ -51,17 +65,17 @@
       }
     },
     {
-      "component": "电池",
+      "component": "天线",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
+      "side": "耳机",
       "role": "major",
       "evidence": {
-        "value": "电池",
+        "value": "天线",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "电池一侧的产品信息：型号AS650，输入5.0V⎓150mA，中国制造。"
+        "source_text": "耳机的主板电路展示，金属条为蓝牙天线。"
       }
     },
     {
@@ -93,20 +107,6 @@
       }
     },
     {
-      "component": "天线",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "天线",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机的主板电路展示，金属条为蓝牙天线。"
-      }
-    },
-    {
       "component": "触控/按键",
       "brand": "",
       "model": "",
@@ -117,7 +117,21 @@
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机一侧为按键控制区域。"
+        "source_text": "拆开按键控制区域的壳体，可以看到耳机的主板电路。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网总结\n韶音TREKZ AIR AS650采用经典的挂耳式设计，机身为轻量化的一体式钛合金骨架，整机只有30克重，外壳为亲肤质感，耳机支持IP55级防水防汗，适合日常及运动佩戴。"
       }
     },
     {
@@ -131,21 +145,7 @@
         "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电接口一侧的充电指示灯，充电时显示为红色。"
-      }
-    },
-    {
-      "component": "外壳结构",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "外壳结构",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "外壳内部驻极体麦克风特写。"
+        "source_text": "充电接口：充电接口一侧的充电指示灯，充电时显示为红色。"
       }
     }
   ],
@@ -164,13 +164,23 @@
   "market": {
     "selling_points": [
       {
-        "text": "我爱音频网总结\n韶音TREKZ AIR AS650采用经典的挂耳式设计，机身为轻量化的一体式钛合金骨架，整机只有30克重，外壳为亲肤质感，耳机支持IP55级防水防汗，适合日常及运动佩戴。",
+        "text": "标记/认证：我爱音频网总结\n韶音TREKZ AIR AS650采用经典的挂耳式设计，机身为轻量化的一体式钛合金骨架，整机只有30克重，外壳为亲肤质感，耳机支持IP55级防水防汗，适合日常及运动佩戴。",
         "tag": "开放佩戴",
         "evidence": {
-          "value": "我爱音频网总结\n韶音TREKZ AIR AS650采用经典的挂耳式设计，机身为轻量化的一体式钛合金骨架，整机只有30克重，外壳为亲肤质感，耳机支持IP55级防水防汗，适合日常及运动佩戴。",
+          "value": "标记/认证：我爱音频网总结\n韶音TREKZ AIR AS650采用经典的挂耳式设计，机身为轻量化的一体式钛合金骨架，整机只有30克重，外壳为亲肤质感，耳机支持IP55级防水防汗，适合日常及运动佩戴。",
           "confidence": 0.74,
           "source_type": "text",
-          "source_text": "我爱音频网总结\n韶音TREKZ AIR AS650采用经典的挂耳式设计，机身为轻量化的一体式钛合金骨架，整机只有30克重，外壳为亲肤质感，耳机支持IP55级防水防汗，适合日常及运动佩戴。"
+          "source_text": "标记/认证：我爱音频网总结\n韶音TREKZ AIR AS650采用经典的挂耳式设计，机身为轻量化的一体式钛合金骨架，整机只有30克重，外壳为亲肤质感，耳机支持IP55级防水防汗，适合日常及运动佩戴。"
+        }
+      },
+      {
+        "text": "人听到声音的方式主要有两种，一种是空气传导的方式，声音经过耳道震动耳膜，触发听觉；还有一种是骨传导，通过颅骨将 […]\n我爱音频网总结\n韶音TREKZ AIR AS650采用经典的挂耳式设计，机身为轻量化的一体式钛合金骨架，整机只有30克重，外壳为亲肤质感，耳机支持IP55级防水防汗，适合日常及运动佩戴。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "人听到声音的方式主要有两种，一种是空气传导的方式，声音经过耳道震动耳膜，触发听觉；还有一种是骨传导，通过颅骨将 […]\n我爱音频网总结\n韶音TREKZ AIR AS650采用经典的挂耳式设计，机身为轻量化的一体式钛合金骨架，整机只有30克重，外壳为亲肤质感，耳机支持IP55级防水防汗，适合日常及运动佩戴。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "人听到声音的方式主要有两种，一种是空气传导的方式，声音经过耳道震动耳膜，触发听觉；还有一种是骨传导，通过颅骨将 […]\n我爱音频网总结\n韶音TREKZ AIR AS650采用经典的挂耳式设计，机身为轻量化的一体式钛合金骨架，整机只有30克重，外壳为亲肤质感，耳机支持IP55级防水防汗，适合日常及运动佩戴。"
         }
       },
       {
@@ -181,6 +191,16 @@
           "confidence": 0.75,
           "source_type": "text",
           "source_text": "骨传导耳机市场的知名品牌相对较少，大家最熟悉的莫过于AfterShokz韶音了，韶音拥有自主研发的骨传导音频技术，具有持续技术和产品迭代创新的实力，骨传导耳机产品种类丰富。"
+        }
+      },
+      {
+        "text": "标记/认证：软包电池的供应商来自AEC国光电子，型号541328，额定容量183mAh，额定电压3.8V。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：软包电池的供应商来自AEC国光电子，型号541328，额定容量183mAh，额定电压3.8V。",
+          "confidence": 0.61,
+          "source_type": "text",
+          "source_text": "标记/认证：软包电池的供应商来自AEC国光电子，型号541328，额定容量183mAh，额定电压3.8V。"
         }
       },
       {
@@ -198,7 +218,7 @@
       "运动",
       "通话"
     ],
-    "positioning_summary": "我爱音频网总结\n韶音TREKZ AIR AS650采用经典的挂耳式设计，机身为轻量化的一体式钛合金骨架，整机只有30克重，外壳为亲肤质感，耳机支持IP55级防水防汗，适合日常及运动佩戴。",
+    "positioning_summary": "标记/认证：我爱音频网总结\n韶音TREKZ AIR AS650采用经典的挂耳式设计，机身为轻量化的一体式钛合金骨架，整机只有30克重，外壳为亲肤质感，耳机支持IP55级防水防汗，适合日常及运动佩戴。",
     "launch_date": null,
     "best_report_id": "61069",
     "best_video_id": null

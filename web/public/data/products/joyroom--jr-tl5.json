@@ -1,0 +1,303 @@
+{
+  "canonical_id": "joyroom--jr-tl5",
+  "brand": "JOYROOM机乐堂",
+  "model": "JR-TL5",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "185843"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "185843"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-12-27",
+  "latest_published": "2023-12-27",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "IP5516",
+    "pmic_case": "INJOINIC英集芯 INJOINIC英集芯IP5516",
+    "battery_ear": "电池",
+    "battery_case": "3V/00mAh锂电池",
+    "speaker": "6mm 动圈单元",
+    "materials": "硅胶",
+    "weight_g": "32.6g",
+    "weight_case_g": "",
+    "weight_earbud_g": "3.6g",
+    "ip_rating": "",
+    "bluetooth": "5.0",
+    "bom_row_count": 15,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "185843",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "INJOINIC英集芯IP5516",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "PMIC/充电仓管理",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5516",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了INJOINIC英集芯IP5516充电盒管理SoC，高集成度与丰富功能，实现了单芯片提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置300mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "6mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "6mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载6mm动圈单元，一颗MEMS麦克风拾音，软包电池容量40mAh。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载6mm动圈单元，一颗MEMS麦克风拾音，软包电池容量40mAh。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "功能配置上，JOYROOM机乐堂JR-TL5真无线耳机支持蓝牙5.0，蓝牙配对自动回连；采用触摸控制，操控便捷；内置麦克风，支持清晰通话；充电盒还搭载了LED电源显示屏，能够直观获取剩余电量信息。续航方面，单次使用时长约3小时，充电盒可提供2次额外充电。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部结构一览，主板通过螺丝固定。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒侧边介绍了产品参数信息，产品名称：三数显真无线双耳蓝牙耳机，产品型号：JR-TL5，蓝牙版本：V5.0，支持蓝牙协议：A2DP、AVRCP、HSP、HFP，蓝牙工作频率：2.402GHz-2.480GHz，接收灵敏度：-89dBm，蓝牙有效距离：≥10米，耳机最大功率：2mW，音频信噪比：≥90dB，扬声器单元：6mm、16Ω，麦克风灵敏度：42dB±3dB，耳机电池：3.7V 140mAH，充电盒电池：3.7V/300mAH，音乐时间：约3小时( 80%音量)，通话时间：约2.5小时(80%音量)，充电输入：DC-5V/300m，充电仓给耳机充电次数：约2次等。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "功能配置上，JOYROOM机乐堂JR-TL5真无线耳机支持蓝牙5.0，蓝牙配对自动回连；采用触摸控制，操控便捷；内置麦克风，支持清晰通话；充电盒还搭载了LED电源显示屏，能够直观获取剩余电量信息。续航方面，单次使用时长约3小时，充电盒可提供2次额外充电。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒侧边介绍了产品参数信息，产品名称：三数显真无线双耳蓝牙耳机，产品型号：JR-TL5，蓝牙版本：V5.0，支持蓝牙协议：A2DP、AVRCP、HSP、HFP，蓝牙工作频率：2.402GHz-2.480GHz，接收灵敏度：-89dBm，蓝牙有效距离：≥10米，耳机最大功率：2mW，音频信噪比：≥90dB，扬声器单元：6mm、16Ω，麦克风灵敏度：42dB±3dB，耳机电池：3.7V 140mAH，充电盒电池：3.7V/300mAH，音乐时间：约3小时( 80%音量)，通话时间：约2.5小时(80%音量)，充电输入：DC-5V/300m，充电仓给耳机充电次数：约2次等。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "陶瓷蓝牙天线特写。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出座舱。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "金属充电触点特写。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机外侧外观一览，背部为触控区域，设计有亮面跑道环装饰。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "两颗LED指示灯特写，用于反馈蓝牙配对及充电状态。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5516",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5516",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 JOYROOM机乐堂JR-TL5真无线耳机在外观设计方面，机身线条圆润，体积小巧，整机重量仅为32.6g，单只耳机重量仅约为3.6g，外出使用便携，佩戴舒适稳固。充电盒搭载LED显示屏，让用户能够更直观的获取电量信息，使用更便捷。 内部主要配置方面，充电盒内置300mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护；主板上，搭载了INJOINIC英集芯IP5516充电盒管理SoC，高集成度与丰富功能，实现了单芯片提供完整的电源解决方案。耳机内部搭载6mm动圈单元，一颗MEMS麦克风拾音，软包电池容量40mAh。",
+  "layer_refs": {
+    "technical": [
+      "report:185843"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "JOYROOM机乐堂是国内外消费类3C电子产品的一线高端品牌，旗下产品包括了手机周边类、电子功能类、生活创意家居类等。",
+        "tag": "旗舰定位",
+        "evidence": {
+          "value": "JOYROOM机乐堂是国内外消费类3C电子产品的一线高端品牌，旗下产品包括了手机周边类、电子功能类、生活创意家居类等。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "JOYROOM机乐堂是国内外消费类3C电子产品的一线高端品牌，旗下产品包括了手机周边类、电子功能类、生活创意家居类等。"
+        }
+      },
+      {
+        "text": "充电盒底部印有参数和认证标识。",
+        "tag": "其他",
+        "evidence": {
+          "value": "充电盒底部印有参数和认证标识。",
+          "confidence": 0.62,
+          "source_type": "text",
+          "source_text": "充电盒底部印有参数和认证标识。"
+        }
+      },
+      {
+        "text": "取掉耳塞，耳机出音嘴特写，防尘网防护，防止异物进入音腔。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "取掉耳塞，耳机出音嘴特写，防尘网防护，防止异物进入音腔。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "取掉耳塞，耳机出音嘴特写，防尘网防护，防止异物进入音腔。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "JOYROOM机乐堂是国内外消费类3C电子产品的一线高端品牌，旗下产品包括了手机周边类、电子功能类、生活创意家居类等。",
+    "launch_date": null,
+    "best_report_id": "185843",
+    "best_video_id": null
+  }
+}

@@ -51,7 +51,7 @@ class StructureView:
     earbud_type: str = ""
     materials: list[str] = field(default_factory=list)
     ip_rating: Optional[str] = None
-    weight_g: Optional[str] = None
+    weight_g: Optional[str] = None  # 整机/总重（头戴式等单一形态直接用此字段）
     dimensions: list[str] = field(default_factory=list)
     internal_structure: list[dict] = field(default_factory=list)
     fastener_type: list[dict] = field(default_factory=list)
@@ -61,6 +61,11 @@ class StructureView:
     assembly_notes: list[str] = field(default_factory=list)
     ip_rating_evidence: Optional[dict] = None
     weight_evidence: Optional[dict] = None
+    # TWS/开放式/耳夹式：整机重量之外再拆出充电盒/单只耳机重量
+    weight_case_g: Optional[str] = None
+    weight_case_evidence: Optional[dict] = None
+    weight_earbud_g: Optional[str] = None
+    weight_earbud_evidence: Optional[dict] = None
 
 
 @dataclass

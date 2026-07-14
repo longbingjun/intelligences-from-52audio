@@ -1,0 +1,312 @@
+{
+  "canonical_id": "qcy--ailybuds-lite",
+  "brand": "QCY意象",
+  "model": "AilyBuds Lite",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "191349"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "191349"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2024-02-29",
+  "latest_published": "2024-02-29",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "CM1125",
+    "pmic_case": "CM1125",
+    "battery_ear": "电池",
+    "battery_case": "HJ弘捷新能源 3V/50mAh锂电池",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "33.8g",
+    "weight_case_g": "",
+    "weight_earbud_g": "3.9g",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 14,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "191349",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1125",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "CM1125",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "还采用了iCM创芯微CM1125-BAC锂电保护IC负责电池充放电保护。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "HJ弘捷新能源",
+      "model": "3V/50mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3V/50mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置HJ弘捷新能源350mAh锂电池，采用了LPS微源半导体LP7812A多合一智能TWS充电仓电源管理IC，集成电池充电，耳机充电，温度管理，霍尔检测，按键检测以及LED显示等功能，支持高效率电压跟随放电，能够显著提升续航时间；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了13mm钛金属振膜喇叭，一颗MEMS麦克风拾音，内置弘捷0.10Wh锂电池。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "QCY AilyBuds Lite真无线耳机支持蓝牙5.3，提供稳定的连接和更快的传输速率，全链路延迟低至68ms，带来音画同步的流畅游戏体验；还支持ENC通话降噪功能，能够有效消除周围环境噪音，保障清晰通话效果。续航方面，单次续航时间5h，搭配充电盒综合续航28小时。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部通过螺丝固定主板单元。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱另外一侧结构一览，设置电池单元，通过海绵垫防护。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄底部的通话麦克风拾音孔特写，防尘网防护。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "取出前腔内部的扬声器单元。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "QCY AilyBuds Lite真无线耳机支持蓝牙5.3，提供稳定的连接和更快的传输速率，全链路延迟低至68ms，带来音画同步的流畅游戏体验；还支持ENC通话降噪功能，能够有效消除周围环境噪音，保障清晰通话效果。续航方面，单次续航时间5h，搭配充电盒综合续航28小时。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "陶瓷蓝牙天线特写，用于无线传输。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出内部座舱结构。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "QCY AilyBuds Lite耳机外侧外观一览，圆柱形耳机柄背部设置有指示灯开孔，靠下为触控区域，通过双击、三击、长按实现便捷控制。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "QCY AilyBuds Lite耳机外侧外观一览，圆柱形耳机柄背部设置有指示灯开孔，靠下为触控区域，通过双击、三击、长按实现便捷控制。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1125",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM1125",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "iCM创芯微CM1125-BAC集成MOSFET单节锂电池保护IC，内置有高精度电压检测电路和延迟电路，通过检测电池的电压、电流，实现对电池的过充电、过放电、过电流等保护。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 QCY AilyBuds Lite真无线耳机外观设计简约，圆角方形充电盒体积小巧便携，柄状的半入耳式耳机采用了海豚仿生弧形设计，佩戴与耳廓舒适贴合，3.9g机身重量，轻盈无感，同时出音孔深入耳道，有效增强了低频效果，听感更立体饱满。 内部主要配置方面，充电盒内置HJ弘捷新能源350mAh锂电池，采用了LPS微源半导体LP7812A多合一智能TWS充电仓电源管理IC，集成电池充电，耳机充电，温度管理，霍尔检测，按键检测以及LED显示等功能，支持高效率电压跟随放电，能够显著提升续航时间；还采用了iCM创芯微CM1125-BAC锂电保护IC负责电池充放电保护。耳机内部搭载了13mm钛金属振膜喇叭，一颗MEMS麦克风拾音，内置弘捷0.10Wh锂电池。",
+  "layer_refs": {
+    "technical": [
+      "report:191349"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "QCY是东莞市和乐电子有限公司旗下品牌，成立于2009年，致力于为新一代年轻人创造技术创新的无线蓝牙产品。",
+        "tag": "其他",
+        "evidence": {
+          "value": "QCY是东莞市和乐电子有限公司旗下品牌，成立于2009年，致力于为新一代年轻人创造技术创新的无线蓝牙产品。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "QCY是东莞市和乐电子有限公司旗下品牌，成立于2009年，致力于为新一代年轻人创造技术创新的无线蓝牙产品。"
+        }
+      },
+      {
+        "text": "QCY AilyBuds Lite真无线耳机是其近期推出的一款基础款产品，外观轻巧迷你，半入耳式设计，提供长久舒适佩戴。",
+        "tag": "舒适佩戴",
+        "evidence": {
+          "value": "QCY AilyBuds Lite真无线耳机是其近期推出的一款基础款产品，外观轻巧迷你，半入耳式设计，提供长久舒适佩戴。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "QCY AilyBuds Lite真无线耳机是其近期推出的一款基础款产品，外观轻巧迷你，半入耳式设计，提供长久舒适佩戴。"
+        }
+      },
+      {
+        "text": "经我爱音频网实测，QCY AilyBuds Lite真无线耳机整机重量约为33.8g，极致轻巧便携。",
+        "tag": "其他",
+        "evidence": {
+          "value": "经我爱音频网实测，QCY AilyBuds Lite真无线耳机整机重量约为33.8g，极致轻巧便携。",
+          "confidence": 0.69,
+          "source_type": "text",
+          "source_text": "经我爱音频网实测，QCY AilyBuds Lite真无线耳机整机重量约为33.8g，极致轻巧便携。"
+        }
+      },
+      {
+        "text": "耳机柄底部的通话麦克风拾音孔特写，防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "耳机柄底部的通话麦克风拾音孔特写，防尘网防护。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "耳机柄底部的通话麦克风拾音孔特写，防尘网防护。"
+        }
+      },
+      {
+        "text": "内部主要配置方面，充电盒内置HJ弘捷新能源350mAh锂电池，采用了LPS微源半导体LP7812A多合一智能TWS充电仓电源管理IC，集成电池充电，耳机充电，温度管理，霍尔检测，按键检测以及LED显示等功能，支持高效率电压跟随放电，能够显著提升续航时间；还采用了iCM创芯微CM1125-BAC锂电保护IC负责电池充放电保护。",
+        "tag": "长续航",
+        "evidence": {
+          "value": "内部主要配置方面，充电盒内置HJ弘捷新能源350mAh锂电池，采用了LPS微源半导体LP7812A多合一智能TWS充电仓电源管理IC，集成电池充电，耳机充电，温度管理，霍尔检测，按键检测以及LED显示等功能，支持高效率电压跟随放电，能够显著提升续航时间；还采用了iCM创芯微CM1125-BAC锂电保护IC负责电池充放电保护。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "内部主要配置方面，充电盒内置HJ弘捷新能源350mAh锂电池，采用了LPS微源半导体LP7812A多合一智能TWS充电仓电源管理IC，集成电池充电，耳机充电，温度管理，霍尔检测，按键检测以及LED显示等功能，支持高效率电压跟随放电，能够显著提升续航时间；还采用了iCM创芯微CM1125-BAC锂电保护IC负责电池充放电保护。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "游戏",
+      "通话",
+      "电竞"
+    ],
+    "positioning_summary": "QCY是东莞市和乐电子有限公司旗下品牌，成立于2009年，致力于为新一代年轻人创造技术创新的无线蓝牙产品。",
+    "launch_date": null,
+    "best_report_id": "191349",
+    "best_video_id": null
+  }
+}

@@ -20,13 +20,13 @@
     "battery_ear": "400 mAh",
     "battery_case": "电池",
     "speaker": "喇叭单元",
-    "materials": "硅胶、塑料、PC",
-    "weight_g": "45.8克",
+    "materials": "硅胶、PC",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "IPX4",
     "bluetooth": "5.0",
-    "bom_row_count": 17,
+    "bom_row_count": 13,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -41,13 +41,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "充电盒",
       "role": "major",
       "evidence": {
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "此次我爱音频网要拆解的是Defunc True系列真无线耳机的一款，名为Defunc True Go，耳机为柄式半入耳设计，机身壳体为磨砂质感，内置蓝牙5.0芯片，支持触控，耳机搭配充电盒的总续航时间约为22小时，49美元的售价并不便宜。其内部结构和用料如何，一起来看我爱音频网的详细拆解吧~"
+        "source_text": "充电盒背面展示，上面有部分产品信息。型号，Defunc True Go  输入/输出，DC 5V⎓0.4A，电池容量400mAh/1.48Wh，中国制造。"
       }
     },
     {
@@ -83,13 +83,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "包装盒上的渲染图展示了耳机的两个角度，图片看起来是比较有质感的。顶部是品牌名称“Defunc”，渲染图下面是产品名“True Go 真无线耳机”, 底部是四个产品特色功能：Powerful sound、稳定佩戴、微型麦克风和14小时续航。包装盒顶部有挂钩便于线下店铺展示。"
+        "source_text": "通话部分内置单MIC ENC降噪/AEC回音消除算法。"
       }
     },
     {
@@ -125,13 +125,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "降噪系统",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "Defunc True Go 真无线蓝牙耳机采用了中科蓝讯的BT8892B蓝牙音频SoC。主控芯片为中科蓝讯讯龙系列BT8892B蓝牙音频SoC。BT8892B主要针对TWS耳机市场。芯片具有32位RISC-V处理器，支持DSP指令集，运行频率最高125MHz。芯片采用QFN32 4×4小型封装，适用于各种TWS小型耳机。BT8892B专为TWS耳机应用设计，芯片高度集成化，PCB外围物料精简。通讯协议支持蓝牙5.0 双模，支持APP应用。解码格式支持SBC/mSBC、AAC，内置10段参量式均衡器。内置5V充电触点单线通讯、内置锂电池充电管理电路，适用于智能充电仓应用。支持主副耳无缝切换。通话部分内置单MIC ENC降噪/AEC回音消除算法。原厂提供配置化编程工具，方便客户产品迅速投入市场。据我爱音频网拆解了解到，目前已有铁三角、联想、飞利浦、夏新、山水、梵蒂尼等品牌的TWS耳机大量采用中科蓝讯的方案。"
+        "source_text": "通话部分内置单MIC ENC降噪/AEC回音消除算法。"
       }
     },
     {
@@ -145,7 +145,7 @@
         "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒正面展示，盒盖开启处有一道凹槽便于打开，四个充电盒电量指示灯竖向排列，下面有Defunc的品牌名。壳体为塑料材质，磨砂手感。"
+        "source_text": "充电盒内部结构正面展示，指示灯所在的PCBA竖向放置，通过导线与底部主板相连。"
       }
     },
     {
@@ -159,105 +159,21 @@
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "此次我爱音频网要拆解的是Defunc True系列真无线耳机的一款，名为Defunc True Go，耳机为柄式半入耳设计，机身壳体为磨砂质感，内置蓝牙5.0芯片，支持触控，耳机搭配充电盒的总续航时间约为22小时，49美元的售价并不便宜。其内部结构和用料如何，一起来看我爱音频网的详细拆解吧~"
-      }
-    },
-    {
-      "component": "充电触点",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "给耳机充电的Pogo Pin。"
-      }
-    },
-    {
-      "component": "耳挂/挂钩",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "耳挂/挂钩",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "包装盒上的渲染图展示了耳机的两个角度，图片看起来是比较有质感的。顶部是品牌名称“Defunc”，渲染图下面是产品名“True Go 真无线耳机”, 底部是四个产品特色功能：Powerful sound、稳定佩戴、微型麦克风和14小时续航。包装盒顶部有挂钩便于线下店铺展示。"
-      }
-    },
-    {
-      "component": "外壳结构",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "外壳结构",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机内侧也有一个“X”形状的泄压孔，双层壳体，外壳为曲面增加佩戴的舒适度。"
+        "source_text": "耳机部分，Defunc True Go采用了中科蓝讯BT8892B蓝牙音频SoC，支持蓝牙5.0 EDR/BLE双模，支持AAC、SBC编码，它还内置锂电池充电管理，QFN32 4×4小型封装；耳机内的软包电池同样来自金宇宙，容量40mAh；耳机通过陶瓷蓝牙天线传输信号，支持触控，一颗硅麦用于通话拾音，羊毛盆动圈扬声器尺寸14mm。"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "ETA9640",
+      "model": "中科蓝讯BT8892B",
       "qty_hint": "1",
       "side": "耳机",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "ETA9640",
+        "value": "中科蓝讯BT8892B",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "钰泰半导体ETA9640 电源管理IC，1A线性充电，1A同步整流升压，内置多种保护功能，适用于移动电源及蓝牙耳机充电盒。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "ETA9640",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "ETA9640",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "钰泰半导体ETA9640 详细资料。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "BT8892B",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "BT8892B",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "Defunc True Go 真无线蓝牙耳机采用了中科蓝讯的BT8892B蓝牙音频SoC。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "BT8892B",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "BT8892B",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "主控芯片为中科蓝讯讯龙系列BT8892B蓝牙音频SoC。"
+        "source_text": "耳机部分，Defunc True Go采用了中科蓝讯BT8892B蓝牙音频SoC，支持蓝牙5.0 EDR/BLE双模，支持AAC、SBC编码，它还内置锂电池充电管理，QFN32 4×4小型封装；耳机内的软包电池同样来自金宇宙，容量40mAh；耳机通过陶瓷蓝牙天线传输信号，支持触控，一颗硅麦用于通话拾音，羊毛盆动圈扬声器尺寸14mm。"
       }
     },
     {
@@ -271,7 +187,35 @@
         "value": "ETA9640",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "充电盒采用Type-C接口输入电源，钰泰半导体ETA9640电源管理IC负责电池的充放电，内置多种保护功能；软包电池来自金宇宙，容量400mAh；苏州赛芯\n5352A9p为软包电池提供过充、过放、短路、过流等保护功能；一颗无标MCU负责充电盒的整机控制。"
+        "source_text": "充电接口：充电盒采用Type-C接口输入电源，钰泰半导体ETA9640电源管理IC负责电池的充放电，内置多种保护功能；软包电池来自金宇宙，容量400mAh；苏州赛芯\n5352A9p为软包电池提供过充、过放、短路、过流等保护功能；一颗无标MCU负责充电盒的整机控制。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "中科蓝讯BT8892B",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "中科蓝讯BT8892B",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：400\n芯片 中科蓝讯BT8892B\n芯片 ETA9640"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA9640",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA9640",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：400\n芯片 中科蓝讯BT8892B\n芯片 ETA9640"
       }
     }
   ],
@@ -290,13 +234,33 @@
   "market": {
     "selling_points": [
       {
-        "text": "“X”形状的泄压孔，有一定装饰作用，内有金属防尘网防止异物进入。",
+        "text": "Defunc是一个来自瑞典的音频品牌，其品牌宣言是“Existensberttigande”，意为“生存的权力 […]\n“X”形状的泄压孔，有一定装饰作用，内有金属防尘网防止异物进入。",
         "tag": "防水防尘",
         "evidence": {
-          "value": "“X”形状的泄压孔，有一定装饰作用，内有金属防尘网防止异物进入。",
+          "value": "Defunc是一个来自瑞典的音频品牌，其品牌宣言是“Existensberttigande”，意为“生存的权力 […]\n“X”形状的泄压孔，有一定装饰作用，内有金属防尘网防止异物进入。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "Defunc是一个来自瑞典的音频品牌，其品牌宣言是“Existensberttigande”，意为“生存的权力 […]\n“X”形状的泄压孔，有一定装饰作用，内有金属防尘网防止异物进入。"
+        }
+      },
+      {
+        "text": "标记/认证：耳机内的软包电池也来自金宇宙，型号JYZ501013，额定电压3.7V，额定容量40mAh/0.148Wh。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：耳机内的软包电池也来自金宇宙，型号JYZ501013，额定电压3.7V，额定容量40mAh/0.148Wh。",
+          "confidence": 0.69,
+          "source_type": "text",
+          "source_text": "标记/认证：耳机内的软包电池也来自金宇宙，型号JYZ501013，额定电压3.7V，额定容量40mAh/0.148Wh。"
+        }
+      },
+      {
+        "text": "标记/认证：软包电池来自深圳市金宇宙能源有限公司，型号JYZ902025，额定电压3.7V，额定容量400mAh/1.48Wh。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：软包电池来自深圳市金宇宙能源有限公司，型号JYZ902025，额定电压3.7V，额定容量400mAh/1.48Wh。",
           "confidence": 0.62,
           "source_type": "text",
-          "source_text": "“X”形状的泄压孔，有一定装饰作用，内有金属防尘网防止异物进入。"
+          "source_text": "标记/认证：软包电池来自深圳市金宇宙能源有限公司，型号JYZ902025，额定电压3.7V，额定容量400mAh/1.48Wh。"
         }
       },
       {
@@ -323,7 +287,7 @@
     "scenarios": [
       "通话"
     ],
-    "positioning_summary": "“X”形状的泄压孔，有一定装饰作用，内有金属防尘网防止异物进入。",
+    "positioning_summary": "Defunc是一个来自瑞典的音频品牌，其品牌宣言是“Existensberttigande”，意为“生存的权力 […]\n“X”形状的泄压孔，有一定装饰作用，内有金属防尘网防止异物进入。",
     "launch_date": null,
     "best_report_id": "62698",
     "best_video_id": null

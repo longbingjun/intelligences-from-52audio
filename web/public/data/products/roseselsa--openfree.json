@@ -1,0 +1,394 @@
+{
+  "canonical_id": "roseselsa--openfree",
+  "brand": "ROSESELSA弱水时砂",
+  "model": "OpenFree",
+  "category": "开放式耳机",
+  "report_ids": [
+    "256044"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "256044"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2025-10-20",
+  "latest_published": "2025-10-20",
+  "internal_match_suggestions": [
+    {
+      "sku": "OpenFit 2",
+      "score": 0.495,
+      "reason": "型号相似度 49%（匹配 OpenFit 2）；品类一致"
+    }
+  ],
+  "cost_snapshot": {
+    "main_chip": "Bluetrum中科蓝讯BT8952F",
+    "pmic_case": "INJOINIC英集芯 INJOINIC英集芯IP5333",
+    "battery_ear": "3.6V/45mAh钢壳扣式",
+    "battery_case": "3.7V/500mAh锂电池",
+    "speaker": "喇叭单元",
+    "materials": "硅胶",
+    "weight_g": "56.5g",
+    "weight_case_g": "",
+    "weight_earbud_g": "5.5g",
+    "ip_rating": "",
+    "bluetooth": "6.0",
+    "bom_row_count": 19,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "256044",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "INJOINIC英集芯IP5333",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "PMIC/充电仓管理",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5333",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置3.7V/500mAh锂电池，采用了INJOINIC英集芯IP5333 TWS耳机充电仓管理SoC，集成升压转换器、锂电池充电管理、电池电量指示和TYPE-C协议等多功能，支持智能双向通讯应用，大幅提升开盖回连体验。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3.7V/500mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3.7V/500mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置3.7V/500mAh锂电池，采用了INJOINIC英集芯IP5333 TWS耳机充电仓管理SoC，集成升压转换器、锂电池充电管理、电池电量指示和TYPE-C协议等多功能，支持智能双向通讯应用，大幅提升开盖回连体验。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "Bluetrum中科蓝讯",
+      "model": "Bluetrum中科蓝讯BT8952F",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Bluetrum中科蓝讯BT8952F",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了LIDEA电的电子3.6V/45mAh钢壳扣式电池，采用了12mm Planck动态永磁单元和一颗瑞勤电子的MEMS麦克风，主控芯片为Bluetrum中科蓝讯BT8952F蓝牙音频SoC。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3.6V/45mAh钢壳扣式",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "3.6V/45mAh钢壳扣式",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了LIDEA电的电子3.6V/45mAh钢壳扣式电池，采用了12mm Planck动态永磁单元和一颗瑞勤电子的MEMS麦克风，主控芯片为Bluetrum中科蓝讯BT8952F蓝牙音频SoC。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了LIDEA电的电子3.6V/45mAh钢壳扣式电池，采用了12mm Planck动态永磁单元和一颗瑞勤电子的MEMS麦克风，主控芯片为Bluetrum中科蓝讯BT8952F蓝牙音频SoC。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "通话方面，弱水时砂OpenFree开放式耳机搭载AI算法，支持AI通话降噪和抗风噪，有效降低环境噪音，提升通话清晰度。续航方面，耳机支持单次约10小时的持久聆听，搭配充电盒综合续航可达52小时。其他方面还支持听力保护系统，控制响度防止损伤听力；支持双设备连接，切换更便捷。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，设置有电池、主板和一条排线。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，设置有电池、主板和一条排线。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "后端腔体采用了圆柱形设计。背部设置有麦克风拾音孔和触摸控制按键。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开音腔。腔体内部仅设置有扬声器单元。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "中科蓝讯BT8952F内置32位高性能RISC-V处理器核心和HIFI 4 DSP，内置16Mbits闪存，892KB RAM，具有可编程上拉和下拉电阻的灵活GPIO引脚；内置24bit双声道DAC和24bit单声道ADC，支持灵活的音频均衡器调整，支持2路MIC放大器输入；支持AI通话降噪算法，支持前馈、及混合主动降噪功能；集成触控，PMU等模块。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身背面设置Type-C充电接口和蓝牙配对按键。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "ROSESELSA弱水时砂OpenFree开放式耳机充电盒外观一览，采用了钢琴烤漆工艺处理，拥有着类陶瓷的温润质感。机身正面设计有品牌LOGO和指示灯。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "音腔底部的出音孔特写，与外壳曲率一致的金属盖板防护。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体底部的充电触点特写。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "打开充电盒盖，内部座舱较深，耳机通过磁吸固定，耳挂露出便于取放。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP5333",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5333",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "INJOINIC英集芯IP5333多功能电源管理SoC，集成升压转换器、锂电池充电管理、电池电量指示和TYPE-C协议等功能，为TWS充电仓提供完整的解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5333",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5333",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "IP5333非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Bluetrum中科蓝讯BT8952F",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Bluetrum中科蓝讯BT8952F",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Bluetrum中科蓝讯BT8952F蓝牙音频SoC，属于“蓝讯讯龙”三代BT895x系列，基于22nm先进低功耗工艺，支持蓝牙6.0 LE Audio协议（已全系通过最新蓝牙®低功耗音频标准LE（Low Energy）Audio规格认证）及LC3（低复杂度通信编解码器）的编解码功能。"
+      }
+    }
+  ],
+  "summary_image_urls": [
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/10/2025102009403858.png",
+      "alt": "拆解报告：ROSESELSA弱水时砂OpenFree开放式耳机-我爱音频网",
+      "caption": "",
+      "section_hint": "summary_bom",
+      "score": 10
+    }
+  ],
+  "summary_text": "三、我爱音频网总结 最后附上ROSESELSA弱水时砂OpenFree开放式耳机的已知核心物料清单，方便大家查阅。 ROSESELSA弱水时砂OpenFree开放式耳机在外观方面，整机采用了钢琴烤漆工艺处理，质感出众，触感温润亲肤。耳机采用了耳夹式设计，C型弯臂夹角适中，搭配抗菌硅胶材质包裹，佩戴持久舒适；同时，弯臂柔韧不易变形，搭配音腔独特结构，佩戴稳定不易脱落。 内部主要配置方面，充电盒内置3.7V/500mAh锂电池，采用了INJOINIC英集芯IP5333 TWS耳机充电仓管理SoC，集成升压转换器、锂电池充电管理、电池电量指示和TYPE-C协议等多功能，支持智能双向通讯应用，大幅提升开盖回连体验。 耳机内部搭载了LIDEA电的电子3.6V/45mAh钢壳扣式电池，采用了12mm Planck动态永磁单元和一颗瑞勤电子的MEMS麦克风，主控芯片为Bluetrum中科蓝讯BT8952F蓝牙音频SoC。",
+  "layer_refs": {
+    "technical": [
+      "report:256044"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "通话方面，弱水时砂OpenFree开放式耳机搭载AI算法，支持AI通话降噪和抗风噪，有效降低环境噪音，提升通话清晰度。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "通话方面，弱水时砂OpenFree开放式耳机搭载AI算法，支持AI通话降噪和抗风噪，有效降低环境噪音，提升通话清晰度。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "通话方面，弱水时砂OpenFree开放式耳机搭载AI算法，支持AI通话降噪和抗风噪，有效降低环境噪音，提升通话清晰度。"
+        }
+      },
+      {
+        "text": "中科蓝讯BT8952F内置32位高性能RISC-V处理器核心和HIFI 4 DSP，内置16Mbits闪存，892KB RAM，具有可编程上拉和下拉电阻的灵活GPIO引脚；内置24bit双声道DAC和24bit单声道ADC，支持灵活的音频均衡器调整，支持2路MIC放大器输入；支持AI通话降噪算法，支持前馈、及混合主动降噪功能；集成触控，PMU等模块。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "中科蓝讯BT8952F内置32位高性能RISC-V处理器核心和HIFI 4 DSP，内置16Mbits闪存，892KB RAM，具有可编程上拉和下拉电阻的灵活GPIO引脚；内置24bit双声道DAC和24bit单声道ADC，支持灵活的音频均衡器调整，支持2路MIC放大器输入；支持AI通话降噪算法，支持前馈、及混合主动降噪功能；集成触控，PMU等模块。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "中科蓝讯BT8952F内置32位高性能RISC-V处理器核心和HIFI 4 DSP，内置16Mbits闪存，892KB RAM，具有可编程上拉和下拉电阻的灵活GPIO引脚；内置24bit双声道DAC和24bit单声道ADC，支持灵活的音频均衡器调整，支持2路MIC放大器输入；支持AI通话降噪算法，支持前馈、及混合主动降噪功能；集成触控，PMU等模块。"
+        }
+      },
+      {
+        "text": "OpenFree是其旗下一款热销的开放式耳机产品，能够提供舒适佩戴的同时，带来出色的聆听体验和持久的续航时间。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "OpenFree是其旗下一款热销的开放式耳机产品，能够提供舒适佩戴的同时，带来出色的聆听体验和持久的续航时间。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "OpenFree是其旗下一款热销的开放式耳机产品，能够提供舒适佩戴的同时，带来出色的聆听体验和持久的续航时间。"
+        }
+      },
+      {
+        "text": "电池另外一侧雕刻有CCC认证标志，以及45mAh容量信息。",
+        "tag": "其他",
+        "evidence": {
+          "value": "电池另外一侧雕刻有CCC认证标志，以及45mAh容量信息。",
+          "confidence": 0.69,
+          "source_type": "text",
+          "source_text": "电池另外一侧雕刻有CCC认证标志，以及45mAh容量信息。"
+        }
+      },
+      {
+        "text": "盒盖内侧标注有产品参数和认证标识。",
+        "tag": "其他",
+        "evidence": {
+          "value": "盒盖内侧标注有产品参数和认证标识。",
+          "confidence": 0.69,
+          "source_type": "text",
+          "source_text": "盒盖内侧标注有产品参数和认证标识。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "通话方面，弱水时砂OpenFree开放式耳机搭载AI算法，支持AI通话降噪和抗风噪，有效降低环境噪音，提升通话清晰度。",
+    "launch_date": null,
+    "best_report_id": "256044",
+    "best_video_id": null
+  }
+}

@@ -1,0 +1,419 @@
+{
+  "canonical_id": "unknown--saramonicsr-bh40",
+  "brand": "",
+  "model": "Saramonic枫笛SR-BH40",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "204147"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "204147"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2024-06-28",
+  "latest_published": "2024-06-28",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "高通QCC3040",
+    "pmic_case": "",
+    "battery_ear": "60 mAh",
+    "battery_case": "3V/20mAh锂电池",
+    "speaker": "6mm 动圈单元",
+    "materials": "硅胶",
+    "weight_g": "4.0g",
+    "weight_case_g": "",
+    "weight_earbud_g": "4.0g",
+    "ip_rating": "IPX5",
+    "bluetooth": "5.2",
+    "bom_row_count": 24,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "204147",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "Qualcomm高通",
+      "model": "高通QCC3040",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC3040",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机采用了6mm动圈单元，0.204Wh软包扣式电池，主板上，搭载了一颗MEMS麦克风拾音，采用了Qualcomm高通QCC3040 蓝牙音频SoC，支持蓝牙5.2，支持高通aptX音频编码，支持cVc通话降噪技术等丰富功能。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "Qualcomm高通",
+      "model": "高通aptX",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通aptX",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机采用了6mm动圈单元，0.204Wh软包扣式电池，主板上，搭载了一颗MEMS麦克风拾音，采用了Qualcomm高通QCC3040 蓝牙音频SoC，支持蓝牙5.2，支持高通aptX音频编码，支持cVc通话降噪技术等丰富功能。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "6mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "6mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机采用了6mm动圈单元，0.204Wh软包扣式电池，主板上，搭载了一颗MEMS麦克风拾音，采用了Qualcomm高通QCC3040 蓝牙音频SoC，支持蓝牙5.2，支持高通aptX音频编码，支持cVc通话降噪技术等丰富功能。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机采用了6mm动圈单元，0.204Wh软包扣式电池，主板上，搭载了一颗MEMS麦克风拾音，采用了Qualcomm高通QCC3040 蓝牙音频SoC，支持蓝牙5.2，支持高通aptX音频编码，支持cVc通话降噪技术等丰富功能。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "思远半导体",
+      "model": "思远半导体SY8821",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8821",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，采用了思远半导体SY8821电源管理SoC，集成充电模块和放电模块，集成NTC保护功能，支持1~4灯灵活配置，无需外部MCU，单芯片即可实现充电仓应用设计。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3V/20mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3V/20mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置320mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "前腔内部结构一览，通过螺丝固定主板，主板下方设置电池。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Saramonic枫笛是一个致力于为消费者提供更为优质的音频产品和服务的品牌，旗下产品包括了有线麦克风、无线麦克风、混音器、录音笔，以及耳机等。此次将要拆解的SR-BH40真无线耳机是一款体积非常小巧的产品，同时采用了独特的充电盒设计，提供便携的使用体验。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒外壳采用了光滑的烤漆质感，背部贴有产品标签。型号：SR-BH40，输入：5V-300mA，耳机电池容量：60mAh*2，充电盒电池容量：320mAh 1.184Wh。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Saramonic枫笛是一个致力于为消费者提供更为优质的音频产品和服务的品牌，旗下产品包括了有线麦克风、无线麦克风、混音器、录音笔，以及耳机等。此次将要拆解的SR-BH40真无线耳机是一款体积非常小巧的产品，同时采用了独特的充电盒设计，提供便携的使用体验。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "后腔内部结构一览，夹层内设置有蓝牙天线和触摸检测贴片，露铜连接主板。麦克风拾音孔设置有透明橡胶罩密封。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机扬声器正面特写，振膜通过金属盖板防护。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "右耳",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "QCC304x芯片还支持高通TrueWireless Mirroring技术，左右耳塞可以在多个使用场景下快速切换；支持cVc通话降噪技术，支持触控或按键唤醒手机的语音助手；还可集成了主动降噪功能。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒外壳采用了光滑的烤漆质感，背部贴有产品标签。型号：SR-BH40，输入：5V-300mA，耳机电池容量：60mAh*2，充电盒电池容量：320mAh 1.184Wh。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Saramonic枫笛SR-BH40真无线耳机充电盒采用了独特的“胶囊”结构设计，旋转座舱。座舱背部设计凹凸条纹，提升摩擦力，实现更好的打开座舱。座舱背部设置有充电接口，通过防尘塞防护。两侧设置蓝牙配对按键和指示灯。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒底部介绍了产品的详细功能特点：旋转胶囊结构设计、符合人体工程学设计、单/双耳模式切换、自动重新连接、支持aptX adaptive/AAC音频编解码、防腐防汗充电触点、硅胶挂绳、10+15小时续航。制造商：深圳市长丰影像器材有限公司。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Saramonic枫笛SR-BH40真无线耳机充电盒采用了独特的“胶囊”结构设计，旋转座舱。座舱背部设计凹凸条纹，提升摩擦力，实现更好的打开座舱。座舱背部设置有充电接口，通过防尘塞防护。两侧设置蓝牙配对按键和指示灯。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通aptX",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通aptX",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "包装盒顶部展示有产品外观设计，品牌LOGO和产品名称，以及低延迟模式、高通aptX和蓝牙标志。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8821",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8821",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "思远半导体SY8821电源管理SoC，是一款专为蓝牙耳机仓设计的芯片，内部集成充电模块和放电模块。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SY8821",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SY8821",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "SY8821能够匹配所有蓝牙主控对电源特性的要求，5V常开及掉电压模式可选，常输出功耗低至3uA，1~4灯灵活配置，无需定制料号，按键、Hall控制可选，无需外部MCU，单芯片即可实现充电仓应用设计，大大降低备货的风险。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC3040",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC3040",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm高通QCC3040 BGA封装超低功耗蓝牙音频SoC。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "QCC304",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "QCC304",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "QCC304x支持蓝牙5.2，支持高通aptX音频编码，集稳定性、好音质、可扩展性、低时延和低比特率音频传输等增强特性于一身。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通TrueWireless",
+      "qty_hint": "1",
+      "side": "右耳",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通TrueWireless",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "QCC304x芯片还支持高通TrueWireless Mirroring技术，左右耳塞可以在多个使用场景下快速切换；支持cVc通话降噪技术，支持触控或按键唤醒手机的语音助手；还可集成了主动降噪功能。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "QCC304",
+      "qty_hint": "1",
+      "side": "右耳",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "QCC304",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "QCC304x芯片还支持高通TrueWireless Mirroring技术，左右耳塞可以在多个使用场景下快速切换；支持cVc通话降噪技术，支持触控或按键唤醒手机的语音助手；还可集成了主动降噪功能。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Saramonic枫笛SR-BH40真无线耳机在外观方面，充电盒采用了独特的“胶囊”设计，旋转座舱结构，使用便捷。同时也可以充当解压神器，在手中旋转把玩。耳机采用了豆状的入耳式设计，体积轻巧，佩戴舒适；光滑圆润的机身，搭配红色圆环装饰，质感出色，颜值出众。 内部主要配置方面，耳机采用了6mm动圈单元，0.204Wh软包扣式电池，主板上，搭载了一颗MEMS麦克风拾音，采用了Qualcomm高通QCC3040 蓝牙音频SoC，支持蓝牙5.2，支持高通aptX音频编码，支持cVc通话降噪技术等丰富功能。 充电盒内置320mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护。主板上，采用了思远半导体SY8821电源管理SoC，集成充电模块和放电模块，集成NTC保护功能，支持1~4灯灵活配置，无需外部MCU，单芯片即可实现充电仓应用设计。",
+  "layer_refs": {
+    "technical": [
+      "report:204147"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n韶音\n、\n一加\n、\n小米、OPPO、Redmi、iQOO、漫步者、联想、传音、倍思、科大讯飞、用维、公牛、小天才、Cleer、Fiio、JadeAudio、MEES、YOBYBO、HAYLOU、DENON、Oladance、Nothing、XTOUR、final、酷睿视、Skullcandy\n、\nvivo\n、\nQCY\n、\n猛玛\n、\n声阔\n、\n绿联\n、\nrealme、魅族、百度、网易、JBL、哈曼、\n万魔、233621、魔宴、创新科技\n等国内外知名品牌采用。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n韶音\n、\n一加\n、\n小米、OPPO、Redmi、iQOO、漫步者、联想、传音、倍思、科大讯飞、用维、公牛、小天才、Cleer、Fiio、JadeAudio、MEES、YOBYBO、HAYLOU、DENON、Oladance、Nothing、XTOUR、final、酷睿视、Skullcandy\n、\nvivo\n、\nQCY\n、\n猛玛\n、\n声阔\n、\n绿联\n、\nrealme、魅族、百度、网易、JBL、哈曼、\n万魔、233621、魔宴、创新科技\n等国内外知名品牌采用。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n韶音\n、\n一加\n、\n小米、OPPO、Redmi、iQOO、漫步者、联想、传音、倍思、科大讯飞、用维、公牛、小天才、Cleer、Fiio、JadeAudio、MEES、YOBYBO、HAYLOU、DENON、Oladance、Nothing、XTOUR、final、酷睿视、Skullcandy\n、\nvivo\n、\nQCY\n、\n猛玛\n、\n声阔\n、\n绿联\n、\nrealme、魅族、百度、网易、JBL、哈曼、\n万魔、233621、魔宴、创新科技\n等国内外知名品牌采用。"
+        }
+      },
+      {
+        "text": "取掉耳塞，耳机出音嘴特写，防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "取掉耳塞，耳机出音嘴特写，防尘网防护。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "取掉耳塞，耳机出音嘴特写，防尘网防护。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n韶音\n、\n一加\n、\n小米、OPPO、Redmi、iQOO、漫步者、联想、传音、倍思、科大讯飞、用维、公牛、小天才、Cleer、Fiio、JadeAudio、MEES、YOBYBO、HAYLOU、DENON、Oladance、Nothing、XTOUR、final、酷睿视、Skullcandy\n、\nvivo\n、\nQCY\n、\n猛玛\n、\n声阔\n、\n绿联\n、\nrealme、魅族、百度、网易、JBL、哈曼、\n万魔、233621、魔宴、创新科技\n等国内外知名品牌采用。",
+    "launch_date": null,
+    "best_report_id": "204147",
+    "best_video_id": null
+  }
+}

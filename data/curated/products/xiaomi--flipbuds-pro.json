@@ -20,13 +20,13 @@
     "battery_ear": "电池",
     "battery_case": "570 mAh",
     "speaker": "喇叭单元",
-    "materials": "硅胶、塑料、PC",
-    "weight_g": "57.3g",
+    "materials": "塑料、PC",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
-    "bluetooth": "5.2",
-    "bom_row_count": 14,
+    "bluetooth": "",
+    "bom_row_count": 9,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -51,20 +51,6 @@
       }
     },
     {
-      "component": "充电仓",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "充电仓",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒采用了高光纳米NCVM镀膜工艺处理，呈现出如镜面一样的流线光感，手感也非常的光滑圆润。不过也因此，又是一款指纹收集器。正面有一颗状态指示灯，用于充电盒电量反馈。"
-      }
-    },
-    {
       "component": "电池",
       "brand": "",
       "model": "",
@@ -76,6 +62,20 @@
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "TI德州仪器TPS61023 同步升压转换器，用于内置电池升压为耳机充电。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "主板通过多颗螺丝固定在腔体底部，主板上设置有防护贴纸，使之与座舱隔离，防止磨损；无线充电线圈固定在充电盒背部腔体壁上。"
       }
     },
     {
@@ -103,7 +103,7 @@
         "value": "降噪系统",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "包装盒背面有小米FlipBuds Pro降噪耳机的整体外观，最高40dB主动降噪、快速充电、通透模式、智能低延时、11mm超线性动圈、多设备互联互通6项产品功能特点；制造商：小米通讯技术有限公司。"
+        "source_text": "据我爱音频网拆解了解到，小米真无线蓝牙耳机Air 2s、荣耀Flypods 3真无线主动降噪耳机、小米真无线蓝牙耳机Air 2等多款耳机均采用了赛微的电量计芯片。"
       }
     },
     {
@@ -121,20 +121,6 @@
       }
     },
     {
-      "component": "天线",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "天线",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机柄盖板内蓝牙天线和两颗麦克风。"
-      }
-    },
-    {
       "component": "触控/按键",
       "brand": "",
       "model": "",
@@ -145,49 +131,7 @@
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "蓝牙配对按键和Type-C充电接口都放置在了充电盒底部，使充电盒整体观感上一体性更强。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒采用了高光纳米NCVM镀膜工艺处理，呈现出如镜面一样的流线光感，手感也非常的光滑圆润。不过也因此，又是一款指纹收集器。正面有一颗状态指示灯，用于充电盒电量反馈。"
-      }
-    },
-    {
-      "component": "外壳结构",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "外壳结构",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "前后腔之间有排线通过BTB连接器连接。"
-      }
-    },
-    {
-      "component": "充电触点",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机柄底部主板通过胶水加固，充电触点焊接在主板上。"
+        "source_text": "充电接口：蓝牙配对按键和Type-C充电接口都放置在了充电盒底部，使充电盒整体观感上一体性更强。"
       }
     },
     {
@@ -201,35 +145,21 @@
         "value": "高通QCC5151",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "近期，小米又发布了首款旗舰级降噪耳机小米 FlipBuds Pro，采用11mm超动态扬声器，全球首发搭载高通QCC5151旗舰芯片；支持三档降噪模式和双通透模式，最大降噪深度40dB；还支持双设备连接、无线充电等。"
+        "source_text": "充电方式：近期，小米又发布了首款旗舰级降噪耳机小米 FlipBuds Pro，采用11mm超动态扬声器，全球首发搭载高通QCC5151旗舰芯片；支持三档降噪模式和双通透模式，最大降噪深度40dB；还支持双设备连接、无线充电等。"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "高通aptX",
+      "model": "高通QCC5151",
       "qty_hint": "1",
       "side": "",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "高通aptX",
+        "value": "高通QCC5151",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "支持高通自适应主动降噪（ANC），高通aptX自适应音频、高通TrueWireless镜像技术和高通第八代cVc回声消除和噪声抑制。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "QCC5151",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "QCC5151",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "主板上主控蓝牙芯片首发高通最新的QCC5151旗舰SoC，支持蓝牙5.2，支持自适应主动降噪、高通aptX自适应音频、高通TrueWireless镜像技术和高通第八代cVc通话降噪技术；外挂一颗独立的ADI71251音频 codec，提升主动降噪的效果的同时保证高质量的音质。"
+        "source_text": "电池容量：570\n芯片 高通QCC5151\n芯片 高通aptX\n芯片 高通TrueWireless"
       }
     }
   ],
@@ -248,13 +178,13 @@
   "market": {
     "selling_points": [
       {
-        "text": "三、我爱音频网总结\n小米FlipBuds Pro真无线降噪耳机在外观上一改前几代产品的设计，采用了全新的方案。",
+        "text": "旗下产品秉持着 […]\n三、我爱音频网总结\n小米FlipBuds Pro真无线降噪耳机在外观上一改前几代产品的设计，采用了全新的方案。",
         "tag": "降噪",
         "evidence": {
-          "value": "三、我爱音频网总结\n小米FlipBuds Pro真无线降噪耳机在外观上一改前几代产品的设计，采用了全新的方案。",
-          "confidence": 0.74,
+          "value": "旗下产品秉持着 […]\n三、我爱音频网总结\n小米FlipBuds Pro真无线降噪耳机在外观上一改前几代产品的设计，采用了全新的方案。",
+          "confidence": 0.75,
           "source_type": "text",
-          "source_text": "三、我爱音频网总结\n小米FlipBuds Pro真无线降噪耳机在外观上一改前几代产品的设计，采用了全新的方案。"
+          "source_text": "旗下产品秉持着 […]\n三、我爱音频网总结\n小米FlipBuds Pro真无线降噪耳机在外观上一改前几代产品的设计，采用了全新的方案。"
         }
       },
       {
@@ -296,12 +226,22 @@
           "source_type": "text",
           "source_text": "前馈降噪麦克风开孔，用于拾取外部环境噪音。"
         }
+      },
+      {
+        "text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：充电盒盖内侧印制信息有小米真无线蓝牙耳机FlipBuds Pro产品型号：TWSEJ20GT，CMIIT ID：2021DP2158，充电盒输入：5V\n⎓2.2A，SN：34137/00000766；小米通讯技术有限公司，中国制造。",
+        "tag": "其他",
+        "evidence": {
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：充电盒盖内侧印制信息有小米真无线蓝牙耳机FlipBuds Pro产品型号：TWSEJ20GT，CMIIT ID：2021DP2158，充电盒输入：5V\n⎓2.2A，SN：34137/00000766；小米通讯技术有限公司，中国制造。",
+          "confidence": 0.62,
+          "source_type": "text",
+          "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：充电盒盖内侧印制信息有小米真无线蓝牙耳机FlipBuds Pro产品型号：TWSEJ20GT，CMIIT ID：2021DP2158，充电盒输入：5V\n⎓2.2A，SN：34137/00000766；小米通讯技术有限公司，中国制造。"
+        }
       }
     ],
     "scenarios": [
       "通话"
     ],
-    "positioning_summary": "三、我爱音频网总结\n小米FlipBuds Pro真无线降噪耳机在外观上一改前几代产品的设计，采用了全新的方案。",
+    "positioning_summary": "旗下产品秉持着 […]\n三、我爱音频网总结\n小米FlipBuds Pro真无线降噪耳机在外观上一改前几代产品的设计，采用了全新的方案。",
     "launch_date": null,
     "best_report_id": "81082",
     "best_video_id": null

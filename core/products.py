@@ -291,6 +291,8 @@ def merge_cost_snapshot(
         "speaker": (fields.get("speaker") or {}).get("value"),
         "materials": (fields.get("materials") or {}).get("value"),
         "weight_g": (fields.get("weight_g") or {}).get("value"),
+        "weight_case_g": (fields.get("weight_case_g") or {}).get("value"),
+        "weight_earbud_g": (fields.get("weight_earbud_g") or {}).get("value"),
         "ip_rating": (fields.get("ip_rating") or {}).get("value"),
         "bluetooth": (fields.get("bluetooth") or {}).get("value"),
         "bom_row_count": len(bom_table),

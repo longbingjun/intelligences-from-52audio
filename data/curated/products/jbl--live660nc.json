@@ -19,49 +19,49 @@
     "pmic_case": "",
     "battery_ear": "电池",
     "battery_case": "750 mAh",
-    "speaker": "喇叭单元",
-    "materials": "塑料、PC、皮革",
+    "speaker": "",
+    "materials": "PC",
     "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "IP5",
     "bluetooth": "5.0",
-    "bom_row_count": 13,
+    "bom_row_count": 7,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
     "sales_hint": null,
-    "data_completeness": 0.83,
+    "data_completeness": 0.67,
     "best_report_id": "94805",
     "best_video_id": null
   },
   "bom_table": [
     {
-      "component": "麦克风",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "左耳",
-      "role": "major",
-      "evidence": {
-        "value": "麦克风",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "左耳降噪麦克风开孔特写。"
-      }
-    },
-    {
       "component": "降噪系统",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "降噪系统",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "JBL对于关注音频产品的小伙伴们应该很熟悉了，作为哈曼卡顿旗下的知名音频品牌，产品涵盖了音箱/音响和耳机方面的各种类型。近期，JBL推出了LIVE系列头戴式耳机的迭代升级款——JBL LIVE660NC，主打ANC自适应主动降噪和全新聆听体验。"
+        "source_text": "功能配置上采用了40mm大\n尺寸\n单元，支持JBL标志性音效；升级ANC自适应降噪，支持智能环境音感知和自由交谈模式；以及全面立体声通话技术提升通话质量；并拥有了50小时的超长续航。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "驻极体麦克风正面特写，外部设置有橡胶套，内部防尘棉防护，提升收音性能。"
       }
     },
     {
@@ -93,48 +93,6 @@
       }
     },
     {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "喇叭单元",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "扬声器单元背面特写，四周贴有阻尼纸，用于声学调音。"
-      }
-    },
-    {
-      "component": "天线",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "天线",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "板载蓝牙天线特写。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "底部电源开关和蓝牙配对按键特写，标识图案凸起，便于盲操作。"
-      }
-    },
-    {
       "component": "指示灯",
       "brand": "",
       "model": "",
@@ -145,7 +103,7 @@
         "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "Type-C充电接口也位于左侧耳机上，旁边是一颗充电指示灯。"
+        "source_text": "充电接口：Type-C充电接口也位于左侧耳机上，旁边是一颗充电指示灯。"
       }
     },
     {
@@ -159,63 +117,21 @@
         "value": "恒玄BES",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "BES\n恒玄BES\n2300YP\n蓝牙音频SoC，BES2300有多个版本、后缀不同配置也不尽相同，此前我爱音频网对此进行了详细归类，BES2300Y/YP两种型号均支持主动降噪功能。"
+        "source_text": "电池容量：750\n芯片 恒玄BES\n芯片 恒玄BES2300YP\n芯片 BES2300\n芯片 BES2300Y"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "BES\n2300YP",
+      "model": "BES2300YP",
       "qty_hint": "1",
       "side": "",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "BES\n2300YP",
+        "value": "BES2300YP",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "BES\n恒玄BES\n2300YP\n蓝牙音频SoC，BES2300有多个版本、后缀不同配置也不尽相同，此前我爱音频网对此进行了详细归类，BES2300Y/YP两种型号均支持主动降噪功能。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "BES2300",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "BES2300",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "BES\n恒玄BES\n2300YP\n蓝牙音频SoC，BES2300有多个版本、后缀不同配置也不尽相同，此前我爱音频网对此进行了详细归类，BES2300Y/YP两种型号均支持主动降噪功能。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "BES2300",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "BES2300",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "BES2300支持高性能的自适应主动降噪技术，可以让高端主动降噪耳机使用一颗全集成芯片实现高音质和主动降噪。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "恒玄BES2300YP",
-      "qty_hint": "1",
-      "side": "右耳",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "恒玄BES2300YP",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "右耳内部主板上，采用了恒玄BES2300YP蓝牙音频SoC，集成自适应主动降噪方案，支持蓝牙5.0、IBRT蓝牙监听技术和双模蓝牙4.2，支持第三代FWS全无线立体声技术、双麦克风等；芯智汇科技AC107 双路ADC芯片，用于麦克风模数转换，送至处理器处理；以及智浦欣TK0450D立体声耳机放大器等。"
+        "source_text": "电池容量：750\n芯片 恒玄BES\n芯片 恒玄BES2300YP\n芯片 BES2300\n芯片 BES2300Y"
       }
     }
   ],
@@ -234,13 +150,23 @@
   "market": {
     "selling_points": [
       {
-        "text": "功能配置上采用了40mm大\n尺寸\n单元，支持JBL标志性音效；升级ANC自适应降噪，支持智能环境音感知和自由交谈模式；以及全面立体声通话技术提升通话质量；并拥有了50小时的超长续航。",
+        "text": "JBL对于关注音频产品的小伙伴们应该很熟悉了，作为哈曼卡顿旗下的知名音频品牌，产品涵盖了音箱/音响和耳机方面的 […]\n功能配置上采用了40mm大\n尺寸\n单元，支持JBL标志性音效；升级ANC自适应降噪，支持智能环境音感知和自由交谈模式；以及全面立体声通话技术提升通话质量；并拥有了50小时的超长续航。",
         "tag": "降噪",
         "evidence": {
-          "value": "功能配置上采用了40mm大\n尺寸\n单元，支持JBL标志性音效；升级ANC自适应降噪，支持智能环境音感知和自由交谈模式；以及全面立体声通话技术提升通话质量；并拥有了50小时的超长续航。",
+          "value": "JBL对于关注音频产品的小伙伴们应该很熟悉了，作为哈曼卡顿旗下的知名音频品牌，产品涵盖了音箱/音响和耳机方面的 […]\n功能配置上采用了40mm大\n尺寸\n单元，支持JBL标志性音效；升级ANC自适应降噪，支持智能环境音感知和自由交谈模式；以及全面立体声通话技术提升通话质量；并拥有了50小时的超长续航。",
           "confidence": 0.75,
           "source_type": "text",
-          "source_text": "功能配置上采用了40mm大\n尺寸\n单元，支持JBL标志性音效；升级ANC自适应降噪，支持智能环境音感知和自由交谈模式；以及全面立体声通话技术提升通话质量；并拥有了50小时的超长续航。"
+          "source_text": "JBL对于关注音频产品的小伙伴们应该很熟悉了，作为哈曼卡顿旗下的知名音频品牌，产品涵盖了音箱/音响和耳机方面的 […]\n功能配置上采用了40mm大\n尺寸\n单元，支持JBL标志性音效；升级ANC自适应降噪，支持智能环境音感知和自由交谈模式；以及全面立体声通话技术提升通话质量；并拥有了50小时的超长续航。"
+        }
+      },
+      {
+        "text": "功能配置上采用了40mm大尺寸单元，支持JBL标志性音效；升级ANC自适应降噪，支持智能环境音感知和自由交谈模式；以及全面立体声通话技术提升通话质量；并拥有了50小时的超长续航。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "功能配置上采用了40mm大尺寸单元，支持JBL标志性音效；升级ANC自适应降噪，支持智能环境音感知和自由交谈模式；以及全面立体声通话技术提升通话质量；并拥有了50小时的超长续航。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "功能配置上采用了40mm大尺寸单元，支持JBL标志性音效；升级ANC自适应降噪，支持智能环境音感知和自由交谈模式；以及全面立体声通话技术提升通话质量；并拥有了50小时的超长续航。"
         }
       },
       {
@@ -287,7 +213,7 @@
     "scenarios": [
       "通话"
     ],
-    "positioning_summary": "功能配置上采用了40mm大\n尺寸\n单元，支持JBL标志性音效；升级ANC自适应降噪，支持智能环境音感知和自由交谈模式；以及全面立体声通话技术提升通话质量；并拥有了50小时的超长续航。",
+    "positioning_summary": "JBL对于关注音频产品的小伙伴们应该很熟悉了，作为哈曼卡顿旗下的知名音频品牌，产品涵盖了音箱/音响和耳机方面的 […]\n功能配置上采用了40mm大\n尺寸\n单元，支持JBL标志性音效；升级ANC自适应降噪，支持智能环境音感知和自由交谈模式；以及全面立体声通话技术提升通话质量；并拥有了50小时的超长续航。",
     "launch_date": null,
     "best_report_id": "94805",
     "best_video_id": null

@@ -1,0 +1,254 @@
+{
+  "canonical_id": "sony--wi-1000xm2",
+  "brand": "SONY索尼",
+  "model": "WI-1000XM2 颈挂式",
+  "category": "颈挂式蓝牙耳机",
+  "report_ids": [
+    "34464"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "34464"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2019-12-31",
+  "latest_published": "2019-12-31",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "络达AB155x",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "290 mAh",
+    "speaker": "喇叭单元",
+    "materials": "硅胶、塑料",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.0",
+    "bom_row_count": 10,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "34464",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆掉扬声器外的黑色框架，左侧小板为分频电路板，中低频交由动圈单元，高频交由动铁单元；右侧小孔为倒相孔，内有调音海绵；整个结构采用硬胶密封，动圈和动铁单元都位于其中。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "取出项圈右侧主板，整体被固定在一个塑料框架中；NFC感应器位于电池上方，型号E226251 H-1。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机腔体外侧的前反馈降噪麦克风开孔特写。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机出音孔特写，上面有防尘网罩。透过网罩可隐约看见音腔内的动铁单元。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "分离主板与塑料框架，框架内侧有蓝牙天线。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "线控按键特写，从左至右依次为自定义按钮C（默认为切换降噪模式），音量减，播放/通话按键，音量加。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "电源键下方区域，指示灯、充电接口和3.5mm音频接口。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "电源键内部的微动开关特写，固定在3.5mm接口的外壳上。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "络达AB155x",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "络达AB155x",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "据我爱音频网拆解了解，SONY索尼WF-1000XM3采用的就是同款芯片，MT2811是络达AB155x平台系列中一款高效能芯片。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB155",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB155",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "据我爱音频网拆解了解，SONY索尼WF-1000XM3采用的就是同款芯片，MT2811是络达AB155x平台系列中一款高效能芯片。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:34464"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "我爱音频网总结\nSONY索尼WI-1000XM2 颈挂式无线降噪耳机采用硅胶材质，可随意折叠，耳机为磁吸式设计，整体更便携；耳机腔体的外形与前代WI-1000X相比变化较大，但内部同样是前后双反馈麦克风和圈铁混合驱动单元的结构，具体配置有无差异暂不明确；充电接口升级为Type-C；增加了线控功能，内有独立的通话麦克风，还有一个自定义按钮，使用起来更方便。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "我爱音频网总结\nSONY索尼WI-1000XM2 颈挂式无线降噪耳机采用硅胶材质，可随意折叠，耳机为磁吸式设计，整体更便携；耳机腔体的外形与前代WI-1000X相比变化较大，但内部同样是前后双反馈麦克风和圈铁混合驱动单元的结构，具体配置有无差异暂不明确；充电接口升级为Type-C；增加了线控功能，内有独立的通话麦克风，还有一个自定义按钮，使用起来更方便。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "我爱音频网总结\nSONY索尼WI-1000XM2 颈挂式无线降噪耳机采用硅胶材质，可随意折叠，耳机为磁吸式设计，整体更便携；耳机腔体的外形与前代WI-1000X相比变化较大，但内部同样是前后双反馈麦克风和圈铁混合驱动单元的结构，具体配置有无差异暂不明确；充电接口升级为Type-C；增加了线控功能，内有独立的通话麦克风，还有一个自定义按钮，使用起来更方便。"
+        }
+      },
+      {
+        "text": "时隔两年，索尼终于发布了WI-1000X颈挂式无线降噪耳机的继任者索尼WI-1000XM2 ，外观得到了重新设计，耳机主体采用硅胶亲肤材质，支持线控，保留了3.5mm音频接口；同时，在外观设计上融合了 WF-1000XM3 的部分设计元素。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "时隔两年，索尼终于发布了WI-1000X颈挂式无线降噪耳机的继任者索尼WI-1000XM2 ，外观得到了重新设计，耳机主体采用硅胶亲肤材质，支持线控，保留了3.5mm音频接口；同时，在外观设计上融合了 WF-1000XM3 的部分设计元素。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "时隔两年，索尼终于发布了WI-1000X颈挂式无线降噪耳机的继任者索尼WI-1000XM2 ，外观得到了重新设计，耳机主体采用硅胶亲肤材质，支持线控，保留了3.5mm音频接口；同时，在外观设计上融合了 WF-1000XM3 的部分设计元素。"
+        }
+      },
+      {
+        "text": "此前，我爱音频网曾经拆解过索尼的多款音频产品：\n索尼WH-1000XM3头戴降噪蓝牙耳机\n、\nSONY索尼WF-1000XM3真无线降噪耳机\n、\nSONY索尼 SRS-WS1 无线可穿戴扬声器\n、\nSONY运动豆WF-SP700N真无线蓝牙耳机\n、\nSONY索尼SBH24无线蓝牙音频接收器\n、\nSony索尼WF-1000X“降噪豆”真无线降噪耳机\n、\n索尼WH-XB900N无线降噪立体声耳机\n。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "此前，我爱音频网曾经拆解过索尼的多款音频产品：\n索尼WH-1000XM3头戴降噪蓝牙耳机\n、\nSONY索尼WF-1000XM3真无线降噪耳机\n、\nSONY索尼 SRS-WS1 无线可穿戴扬声器\n、\nSONY运动豆WF-SP700N真无线蓝牙耳机\n、\nSONY索尼SBH24无线蓝牙音频接收器\n、\nSony索尼WF-1000X“降噪豆”真无线降噪耳机\n、\n索尼WH-XB900N无线降噪立体声耳机\n。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "此前，我爱音频网曾经拆解过索尼的多款音频产品：\n索尼WH-1000XM3头戴降噪蓝牙耳机\n、\nSONY索尼WF-1000XM3真无线降噪耳机\n、\nSONY索尼 SRS-WS1 无线可穿戴扬声器\n、\nSONY运动豆WF-SP700N真无线蓝牙耳机\n、\nSONY索尼SBH24无线蓝牙音频接收器\n、\nSony索尼WF-1000X“降噪豆”真无线降噪耳机\n、\n索尼WH-XB900N无线降噪立体声耳机\n。"
+        }
+      },
+      {
+        "text": "后反馈降噪麦克风位于音腔侧面，双反馈降噪麦克风全面捕捉环境噪音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "后反馈降噪麦克风位于音腔侧面，双反馈降噪麦克风全面捕捉环境噪音。",
+          "confidence": 0.62,
+          "source_type": "text",
+          "source_text": "后反馈降噪麦克风位于音腔侧面，双反馈降噪麦克风全面捕捉环境噪音。"
+        }
+      },
+      {
+        "text": "索尼 CXD90050 ，此颗IC正是索尼研发的HD降噪处理器QN1，采用了32位音频信号处理技术，QN1内集成的数模转换器和模拟功率放大器使耳机实现出色的信噪比和低失真带来出色的音质表现。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "索尼 CXD90050 ，此颗IC正是索尼研发的HD降噪处理器QN1，采用了32位音频信号处理技术，QN1内集成的数模转换器和模拟功率放大器使耳机实现出色的信噪比和低失真带来出色的音质表现。",
+          "confidence": 0.6,
+          "source_type": "text",
+          "source_text": "索尼 CXD90050 ，此颗IC正是索尼研发的HD降噪处理器QN1，采用了32位音频信号处理技术，QN1内集成的数模转换器和模拟功率放大器使耳机实现出色的信噪比和低失真带来出色的音质表现。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "通话"
+    ],
+    "positioning_summary": "我爱音频网总结\nSONY索尼WI-1000XM2 颈挂式无线降噪耳机采用硅胶材质，可随意折叠，耳机为磁吸式设计，整体更便携；耳机腔体的外形与前代WI-1000X相比变化较大，但内部同样是前后双反馈麦克风和圈铁混合驱动单元的结构，具体配置有无差异暂不明确；充电接口升级为Type-C；增加了线控功能，内有独立的通话麦克风，还有一个自定义按钮，使用起来更方便。",
+    "launch_date": null,
+    "best_report_id": "34464",
+    "best_video_id": null
+  }
+}

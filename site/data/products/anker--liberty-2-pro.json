@@ -1,0 +1,278 @@
+{
+  "canonical_id": "anker--liberty-2-pro",
+  "brand": "Anker",
+  "model": "Liberty 2 Pro",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "39980"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "39980"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2020-03-24",
+  "latest_published": "2020-03-24",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "高通QCC3020",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "500 mAh",
+    "speaker": "喇叭单元",
+    "materials": "硅胶、塑料、PC",
+    "weight_g": "68.9克",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.0",
+    "bom_row_count": 11,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "39980",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "最底部是无线充电线圈，向内是主板和电池。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面由三部分信息组成，顶部的产品型号为Soundcore声阔，Liberty 2 Pro；使用HearID个性化定制声音功能，需要下载Soundcore的APP，在安静环境下测试听力，就会生成一项个性化的EQ方案。中间区域是耳机和充电盒的渲染图，有五大产品特色功能：同轴圈铁技术，耳机续航8小时+充电盒额外三次充电共计32小时续航，HearID个性化定制声音，无线充电功能，以及清晰通话。包装盒底部是产品的配件图和APP的下载方式，其圈铁同轴腔体的设计方案来自楼氏电子。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "最底部是无线充电线圈，向内是主板和电池。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "麦克风开孔特写。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "动圈单元的振膜。动圈单元主要负责中低频。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "金属化蓝牙天线的触点。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电接口的保护盖和旁边的配对按钮，位于充电盒背部。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "三颗LED指示灯，外围泡棉可以防止漏光。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC3020",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC3020",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "此外这款产品还搭载高通QCC3020芯片，拥有8+32小时长续航、支持Qi无线充电功能。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CSU32P20",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CSU32P20",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "芯海科技 CSU32P20 内置12Bit ADC的8位MCU，用于电量显示和整机控制。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC3020",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC3020",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "高通QCC3020是一款低功耗的蓝牙音频SOC，采用FBGA封装，专为TWS真无线耳机而设计。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:39980"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "此次我爱音频网拆解的是Liberty 2 Pro真无线耳机，它凭借出色的同轴圈铁技术，HearID个性化定制声音，获得了10位格莱美大师的推荐，在海外市场受到较多好评。",
+        "tag": "其他",
+        "evidence": {
+          "value": "此次我爱音频网拆解的是Liberty 2 Pro真无线耳机，它凭借出色的同轴圈铁技术，HearID个性化定制声音，获得了10位格莱美大师的推荐，在海外市场受到较多好评。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "此次我爱音频网拆解的是Liberty 2 Pro真无线耳机，它凭借出色的同轴圈铁技术，HearID个性化定制声音，获得了10位格莱美大师的推荐，在海外市场受到较多好评。"
+        }
+      },
+      {
+        "text": "中间区域是耳机和充电盒的渲染图，有五大产品特色功能：同轴圈铁技术，耳机续航8小时+充电盒额外三次充电共计32小时续航，HearID个性化定制声音，无线充电功能，以及清晰通话。",
+        "tag": "其他",
+        "evidence": {
+          "value": "中间区域是耳机和充电盒的渲染图，有五大产品特色功能：同轴圈铁技术，耳机续航8小时+充电盒额外三次充电共计32小时续航，HearID个性化定制声音，无线充电功能，以及清晰通话。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "中间区域是耳机和充电盒的渲染图，有五大产品特色功能：同轴圈铁技术，耳机续航8小时+充电盒额外三次充电共计32小时续航，HearID个性化定制声音，无线充电功能，以及清晰通话。"
+        }
+      },
+      {
+        "text": "ANKER Liberty 2 Pro采用了同轴圈铁技术，11mm动圈+楼氏定制的动铁单元，分别负责中低频和高频，获取更宽的频宽范围，得到更好的高低频延伸和信息量，在保持小巧体积的同时提高了音质。",
+        "tag": "其他",
+        "evidence": {
+          "value": "ANKER Liberty 2 Pro采用了同轴圈铁技术，11mm动圈+楼氏定制的动铁单元，分别负责中低频和高频，获取更宽的频宽范围，得到更好的高低频延伸和信息量，在保持小巧体积的同时提高了音质。",
+          "confidence": 0.7,
+          "source_type": "text",
+          "source_text": "ANKER Liberty 2 Pro采用了同轴圈铁技术，11mm动圈+楼氏定制的动铁单元，分别负责中低频和高频，获取更宽的频宽范围，得到更好的高低频延伸和信息量，在保持小巧体积的同时提高了音质。"
+        }
+      },
+      {
+        "text": "同轴圈铁结构外侧，是一个防尘网和泄压孔，腔体外侧密封。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "同轴圈铁结构外侧，是一个防尘网和泄压孔，腔体外侧密封。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "同轴圈铁结构外侧，是一个防尘网和泄压孔，腔体外侧密封。"
+        }
+      },
+      {
+        "text": "同轴圈铁和后置低频振膜的独特设计让动铁的中高频与动圈的低频在相位和分频上配合更为合理。",
+        "tag": "其他",
+        "evidence": {
+          "value": "同轴圈铁和后置低频振膜的独特设计让动铁的中高频与动圈的低频在相位和分频上配合更为合理。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "同轴圈铁和后置低频振膜的独特设计让动铁的中高频与动圈的低频在相位和分频上配合更为合理。"
+        }
+      },
+      {
+        "text": "除此之外，还支持第八代CVC通话环境降噪，通过算法精确识别背景噪音并消除，通话体验更纯净。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "除此之外，还支持第八代CVC通话环境降噪，通过算法精确识别背景噪音并消除，通话体验更纯净。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "除此之外，还支持第八代CVC通话环境降噪，通过算法精确识别背景噪音并消除，通话体验更纯净。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "通话"
+    ],
+    "positioning_summary": "此次我爱音频网拆解的是Liberty 2 Pro真无线耳机，它凭借出色的同轴圈铁技术，HearID个性化定制声音，获得了10位格莱美大师的推荐，在海外市场受到较多好评。",
+    "launch_date": null,
+    "best_report_id": "39980",
+    "best_video_id": null
+  }
+}

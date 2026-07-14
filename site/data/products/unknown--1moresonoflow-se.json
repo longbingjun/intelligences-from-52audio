@@ -3,37 +3,99 @@
   "brand": "",
   "model": "1MORE万魔SonoFlow SE",
   "category": "头戴式耳机",
-  "report_ids": [],
+  "report_ids": [
+    "190102"
+  ],
   "video_ids": [
     "266352"
   ],
-  "related_report_ids": [],
+  "related_report_ids": [
+    "190102"
+  ],
   "related_video_ids": [
     "266352"
   ],
-  "first_seen": "2026-01-16",
+  "first_seen": "2024-02-19",
   "latest_published": "2026-01-16",
   "internal_match_suggestions": [],
   "cost_snapshot": {
-    "main_chip": null,
-    "pmic_case": null,
-    "battery_ear": null,
-    "battery_case": null,
-    "speaker": null,
-    "materials": null,
-    "weight_g": null,
-    "ip_rating": null,
-    "bluetooth": null,
-    "bom_row_count": 8,
+    "main_chip": "恒玄BES2300YP",
+    "pmic_case": "",
+    "battery_ear": "7V/20mAh",
+    "battery_case": "720 mAh",
+    "speaker": "动圈单元",
+    "materials": "",
+    "weight_g": "240g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.0",
+    "bom_row_count": 16,
     "price_cny": null,
     "price_layer": null,
     "channel_url": "",
     "sales_hint": null,
-    "data_completeness": 0.0,
-    "best_report_id": null,
-    "best_video_id": "266352"
+    "data_completeness": 0.83,
+    "best_report_id": "190102",
+    "best_video_id": null
   },
   "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "恒玄BES2300YP",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2300YP",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "其他方面，右耳内置通话麦克风和主板单元，采用了BES恒玄BES2300YP蓝牙音频SoC，HEROIC禾润HT97220B线路驱动器；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "7V/20mAh",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "7V/20mAh",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "左耳内置众旺德720mAh电池单元和电源输入小板，采用了LY来远ICP3171电源管理芯片。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "内部主要配置方面，双耳搭载了40mm类钻石动圈单元，内置了前馈+后馈双降噪麦克风。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "内部主要配置方面，双耳搭载了40mm类钻石动圈单元，内置了前馈+后馈双降噪麦克风。"
+      }
+    },
     {
       "component": "麦克风",
       "brand": "",
@@ -45,7 +107,7 @@
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "军设置有前盔降噪麦克风时音孔"
+        "source_text": "两只耳壳顶部、悬挂下方均设置有前馈降噪麦克风拾音孔。"
       }
     },
     {
@@ -53,13 +115,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
+      "side": "耳机",
       "role": "major",
       "evidence": {
         "value": "电池",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "电池容量720毫安时"
+        "source_text": "包装盒背面介绍了产品的功能特点和参数信息，产品名称：无线耳机，型号：HC306，电池容量：720毫安时，充电时长：80分钟，满电播放（降噪关）：70小时，满电播放（降噪开）：50小时，喇叭阻抗：32欧，通讯距离：10米（在空旷环境下），蓝牙规范：Bluetooth 5.0，蓝牙协议：HFP/A2DP/AVRCP，输入：5V-1.1A，最大功率：20毫瓦；制造商：万魔声学股份有限公司。"
       }
     },
     {
@@ -67,13 +129,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
+      "side": "右耳",
       "role": "major",
       "evidence": {
         "value": "主板/PCBA",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "用耳枪体内部设置主板单元"
+        "source_text": "右耳腔体内部设置主板单元，主板上方通过导线连接前馈降噪麦克风，下方连接语音通话麦克风。"
       }
     },
     {
@@ -81,13 +143,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
+      "side": "耳机",
       "role": "major",
       "evidence": {
         "value": "喇叭单元",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "40毫米类钻石动圈单元"
+        "source_text": "1MORE万魔SonoFlow SE头戴式降噪耳机外观延续了标准版的设计，通过轻量化机身，亲肤蛋白皮耳罩，提供舒适的佩戴体验。在功能配置上，保留了自研40mm类钻石动圈单元，提供澎湃均衡的音质，同时定制了12种预设音效，为用户提供个性化的音乐风格。"
       }
     },
     {
@@ -95,13 +157,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
+      "side": "耳机",
       "role": "major",
       "evidence": {
         "value": "降噪系统",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "右侧耳殼上的A&C主动降噪模式切换按键"
+        "source_text": "我爱音频网此前还拆解过1MORE万魔PistonBuds Pro真无线耳机、万魔开放式运动蓝牙耳机S50、S30，万魔ComfoBuds Pro真无线降噪耳机、万魔ComfoBuds真无线耳机、万魔ColorBuds真无线耳机、万魔圈铁主动降噪真无线耳机、万魔Stylish时尚真无线耳机、万魔三单元圈铁蓝牙耳机、万魔高清降噪圈铁蓝牙耳机等产品。"
       }
     },
     {
@@ -109,13 +171,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
+      "side": "耳机",
       "role": "major",
       "evidence": {
         "value": "天线",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "左侧边缘印刷蓝牙天线"
+        "source_text": "耳机主板一侧电路一览，上方边缘印刷蓝牙天线。"
       }
     },
     {
@@ -123,13 +185,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
+      "side": "耳机",
       "role": "minor",
       "evidence": {
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳殼侧边设置有功能按键和功能接口"
+        "source_text": "耳机底部外观一览，耳壳侧边设置有功能按键和功能接口。"
       }
     },
     {
@@ -143,14 +205,71 @@
         "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电接口旁边设置有指示灯"
+        "source_text": "充电接口旁边设置有指示灯，用于反馈充电状态。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2300YP",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2300YP",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄BES2300YP蓝牙音频SoC，集成自适应主动降噪方案，支持蓝牙5.0、IBRT蓝牙监听技术和双模蓝牙4.2，支持第三代FWS全无线立体声技术、双麦克风等，还支持外接心率传感器、加速度传感器等外接传感器设备。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2300",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2300",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES2300可以给耳机和家庭音响输出声音，也可以从外部麦克风录音。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2300",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2300",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES2300可支持听象科技的VoClear声学算法，能够实时分离人声和背景噪声，提取清晰人声。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2300YP",
+      "qty_hint": "1",
+      "side": "右耳",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2300YP",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "其他方面，右耳内置通话麦克风和主板单元，采用了BES恒玄BES2300YP蓝牙音频SoC，HEROIC禾润HT97220B线路驱动器；左耳内置众旺德720mAh电池单元和电源输入小板，采用了LY来远ICP3171电源管理芯片。"
       }
     }
   ],
   "summary_image_urls": [],
-  "summary_text": "",
+  "summary_text": "三、我爱音频网总结 1MORE万魔SonoFlow SE头戴式降噪耳机在外观方面采用了简约时尚的轻量化设计，重量仅约为240g，搭配可自由调节的头梁和自适应的耳罩旋转结构，以及柔软亲肤的耳罩和头垫，能够提供非常舒适的佩戴体验。 内部主要配置方面，双耳搭载了40mm类钻石动圈单元，内置了前馈+后馈双降噪麦克风。其他方面，右耳内置通话麦克风和主板单元，采用了BES恒玄BES2300YP蓝牙音频SoC，HEROIC禾润HT97220B线路驱动器；左耳内置众旺德720mAh电池单元和电源输入小板，采用了LY来远ICP3171电源管理芯片。",
   "layer_refs": {
     "technical": [
+      "report:190102",
       "video:266352"
     ],
     "channel": [
@@ -166,32 +285,73 @@
   "market": {
     "selling_points": [
       {
-        "text": "1MORE SonoFlow SE支持QuietMax双馈智能降噪，能够消除35dB以上外界噪音，通过通透模式，佩戴耳机也能轻松与外界交流；还支持智能通话降噪功能，AI精准是别人声，消除环境噪音，提供清晰通话。",
+        "text": "在2022年，万魔发布旗下首款头戴式降噪耳机\n1MORE SonoFlow\n，通过Hi-Res双金标认证的高清音质、沉浸式的聆听体验、超长续航时间等亮点获得了众多消费者的认可。",
         "tag": "降噪",
         "evidence": {
-          "value": "1MORE SonoFlow SE支持QuietMax双馈智能降噪，能够消除35dB以上外界噪音，通过通透模式，佩戴耳机也能轻松与外界交流；还支持智能通话降噪功能，AI精准是别人声，消除环境噪音，提供清晰通话。",
-          "confidence": 0.73,
+          "value": "在2022年，万魔发布旗下首款头戴式降噪耳机\n1MORE SonoFlow\n，通过Hi-Res双金标认证的高清音质、沉浸式的聆听体验、超长续航时间等亮点获得了众多消费者的认可。",
+          "confidence": 0.75,
           "source_type": "text",
-          "source_text": "1MORE SonoFlow SE支持QuietMax双馈智能降噪，能够消除35dB以上外界噪音，通过通透模式，佩戴耳机也能轻松与外界交流；还支持智能通话降噪功能，AI精准是别人声，消除环境噪音，提供清晰通话。"
+          "source_text": "在2022年，万魔发布旗下首款头戴式降噪耳机\n1MORE SonoFlow\n，通过Hi-Res双金标认证的高清音质、沉浸式的聆听体验、超长续航时间等亮点获得了众多消费者的认可。"
         }
       },
       {
-        "text": "续航方面，最高可提供70小时的连续播放，支持快充，充电5分钟听歌5小时。",
-        "tag": "长续航",
+        "text": "下面再来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过\n1MORE万魔PistonBuds Pro真无线耳机\n、\n万魔开放式运动蓝牙耳机S50\n、\nS30\n，\n万魔ComfoBuds Pro真无线降噪耳机\n、\n万魔ComfoBuds真无线耳机\n、\n万魔ColorBuds真无线耳机\n、\n万魔圈铁主动降噪真无线耳机\n、\n万魔Stylish时尚真无线耳机\n、\n万魔三单元圈铁蓝牙耳机\n、\n万魔高清降噪圈铁蓝牙耳机\n等产品。",
+        "tag": "降噪",
         "evidence": {
-          "value": "续航方面，最高可提供70小时的连续播放，支持快充，充电5分钟听歌5小时。",
-          "confidence": 0.74,
+          "value": "下面再来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过\n1MORE万魔PistonBuds Pro真无线耳机\n、\n万魔开放式运动蓝牙耳机S50\n、\nS30\n，\n万魔ComfoBuds Pro真无线降噪耳机\n、\n万魔ComfoBuds真无线耳机\n、\n万魔ColorBuds真无线耳机\n、\n万魔圈铁主动降噪真无线耳机\n、\n万魔Stylish时尚真无线耳机\n、\n万魔三单元圈铁蓝牙耳机\n、\n万魔高清降噪圈铁蓝牙耳机\n等产品。",
+          "confidence": 0.75,
           "source_type": "text",
-          "source_text": "续航方面，最高可提供70小时的连续播放，支持快充，充电5分钟听歌5小时。"
+          "source_text": "下面再来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过\n1MORE万魔PistonBuds Pro真无线耳机\n、\n万魔开放式运动蓝牙耳机S50\n、\nS30\n，\n万魔ComfoBuds Pro真无线降噪耳机\n、\n万魔ComfoBuds真无线耳机\n、\n万魔ColorBuds真无线耳机\n、\n万魔圈铁主动降噪真无线耳机\n、\n万魔Stylish时尚真无线耳机\n、\n万魔三单元圈铁蓝牙耳机\n、\n万魔高清降噪圈铁蓝牙耳机\n等产品。"
+        }
+      },
+      {
+        "text": "三、我爱音频网总结\n1MORE万魔SonoFlow SE头戴式降噪耳机在外观方面采用了简约时尚的轻量化设计，重量仅约为240g，搭配可自由调节的头梁和自适应的耳罩旋转结构，以及柔软亲肤的耳罩和头垫，能够提供非常舒适的佩戴体验。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "三、我爱音频网总结\n1MORE万魔SonoFlow SE头戴式降噪耳机在外观方面采用了简约时尚的轻量化设计，重量仅约为240g，搭配可自由调节的头梁和自适应的耳罩旋转结构，以及柔软亲肤的耳罩和头垫，能够提供非常舒适的佩戴体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\n1MORE万魔SonoFlow SE头戴式降噪耳机在外观方面采用了简约时尚的轻量化设计，重量仅约为240g，搭配可自由调节的头梁和自适应的耳罩旋转结构，以及柔软亲肤的耳罩和头垫，能够提供非常舒适的佩戴体验。"
+        }
+      },
+      {
+        "text": "1MORE万魔SonoFlow SE头戴式降噪耳机外观延续了标准版的设计，通过轻量化机身，亲肤蛋白皮耳罩，提供舒适的佩戴体验。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "1MORE万魔SonoFlow SE头戴式降噪耳机外观延续了标准版的设计，通过轻量化机身，亲肤蛋白皮耳罩，提供舒适的佩戴体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "1MORE万魔SonoFlow SE头戴式降噪耳机外观延续了标准版的设计，通过轻量化机身，亲肤蛋白皮耳罩，提供舒适的佩戴体验。"
+        }
+      },
+      {
+        "text": "正面还设计有品牌LOGO，产品设计和产品，以及QuietMax智能降噪、格莱美获奖大师调音、快充三项功能特点。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "正面还设计有品牌LOGO，产品设计和产品，以及QuietMax智能降噪、格莱美获奖大师调音、快充三项功能特点。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "正面还设计有品牌LOGO，产品设计和产品，以及QuietMax智能降噪、格莱美获奖大师调音、快充三项功能特点。"
+        }
+      },
+      {
+        "text": "1MORE SonoFlow SE支持QuietMax双馈智能降噪，能够消除35dB以上外界噪音，通过通透模式，佩戴耳机也能轻松与外界交流；还支持智能通话降噪功能，AI精准识别人声，消除环境噪音，提供清晰通话。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "1MORE SonoFlow SE支持QuietMax双馈智能降噪，能够消除35dB以上外界噪音，通过通透模式，佩戴耳机也能轻松与外界交流；还支持智能通话降噪功能，AI精准识别人声，消除环境噪音，提供清晰通话。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "1MORE SonoFlow SE支持QuietMax双馈智能降噪，能够消除35dB以上外界噪音，通过通透模式，佩戴耳机也能轻松与外界交流；还支持智能通话降噪功能，AI精准识别人声，消除环境噪音，提供清晰通话。"
         }
       }
     ],
     "scenarios": [
+      "运动",
       "通话"
     ],
-    "positioning_summary": "1MORE SonoFlow SE支持QuietMax双馈智能降噪，能够消除35dB以上外界噪音，通过通透模式，佩戴耳机也能轻松与外界交流；还支持智能通话降噪功能，AI精准是别人声，消除环境噪音，提供清晰通话。",
+    "positioning_summary": "在2022年，万魔发布旗下首款头戴式降噪耳机\n1MORE SonoFlow\n，通过Hi-Res双金标认证的高清音质、沉浸式的聆听体验、超长续航时间等亮点获得了众多消费者的认可。",
     "launch_date": null,
-    "best_report_id": null,
-    "best_video_id": "266352"
+    "best_report_id": "190102",
+    "best_video_id": null
   }
 }

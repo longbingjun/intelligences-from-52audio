@@ -21,7 +21,7 @@
     "battery_case": "310 mAh",
     "speaker": "喇叭单元",
     "materials": "硅胶、PC",
-    "weight_g": "37.7克",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
@@ -37,20 +37,6 @@
   },
   "bom_table": [
     {
-      "component": "充电仓",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "充电仓",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "今天我们要拆解的是Haylou嘿喽另一GT系列的GT1真无线蓝牙耳机 ，GT寓意该系列产品均为爆款而生。GT1是一款百元级的TWS耳机，采用蓝牙5.0芯片，不区分主副耳，支持游戏模式，支持AAC音频编码；耳机内置7.2mm动圈单元，支持触控，可唤醒手机语音助手，耳机+充电盒总续航约12小时。下面一起来看详细的拆解吧~"
-      }
-    },
-    {
       "component": "电池",
       "brand": "",
       "model": "",
@@ -59,6 +45,20 @@
       "role": "major",
       "evidence": {
         "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Haylou嘿喽 GT1 真无线蓝牙耳机支持蓝牙5.0、支持智能触控、充电盒收纳/充电二合一，耳机为分体式无线设计。耳机型号Haylou GT1，充电时间约1.5小时，工作时间约3.5小时，输入参数5V⎓100mA。充电盒基本参数，输入参数5V⎓500mA，输出参数5V⎓150mA，充电时间约2小时，电池容量310mAh。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "Haylou嘿喽 GT1 真无线蓝牙耳机支持蓝牙5.0、支持智能触控、充电盒收纳/充电二合一，耳机为分体式无线设计。耳机型号Haylou GT1，充电时间约1.5小时，工作时间约3.5小时，输入参数5V⎓100mA。充电盒基本参数，输入参数5V⎓500mA，输出参数5V⎓150mA，充电时间约2小时，电池容量310mAh。"
@@ -131,21 +131,7 @@
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "今天我们要拆解的是Haylou嘿喽另一GT系列的GT1真无线蓝牙耳机 ，GT寓意该系列产品均为爆款而生。GT1是一款百元级的TWS耳机，采用蓝牙5.0芯片，不区分主副耳，支持游戏模式，支持AAC音频编码；耳机内置7.2mm动圈单元，支持触控，可唤醒手机语音助手，耳机+充电盒总续航约12小时。下面一起来看详细的拆解吧~"
-      }
-    },
-    {
-      "component": "充电触点",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒外有一层保护膜，提示耳机充电触点处有隔离膜，使用时需撕掉。"
+        "source_text": "Haylou嘿喽 GT1 真无线蓝牙耳机支持蓝牙5.0、支持智能触控、充电盒收纳/充电二合一，耳机为分体式无线设计。耳机型号Haylou GT1，充电时间约1.5小时，工作时间约3.5小时，输入参数5V⎓100mA。充电盒基本参数，输入参数5V⎓500mA，输出参数5V⎓150mA，充电时间约2小时，电池容量310mAh。"
       }
     },
     {
@@ -153,13 +139,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "充电盒",
+      "side": "",
       "role": "minor",
       "evidence": {
         "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电接口位于充电盒背部，旁边是充电指示灯。"
+        "source_text": "外壳内侧有麦克风的保护罩和指示灯的遮光罩。"
       }
     },
     {
@@ -167,13 +153,27 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "minor",
       "evidence": {
         "value": "外壳结构",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机为豆式入耳设计，外壳过渡处非常光滑，外侧壳体支持触控。"
+        "source_text": "外壳内侧有麦克风的保护罩和指示灯的遮光罩。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机内部结构展示。扬声器单元、充电触点所在的小板和电池均通过导线连接至主板。"
       }
     }
   ],
@@ -192,13 +192,13 @@
   "market": {
     "selling_points": [
       {
-        "text": "猎声目前已成为国内领先的消费级智能运动产品自主品牌和ODM方案提供商，此前我爱音频网曾经拆解过\nHaylou嘿喽 T16 真无线降噪耳机\n，性价比较高让人印象深刻。",
+        "text": "Haylou嘿喽是东莞市猎声电子科技旗下的音频品牌，公司成立于2015年5月，A轮融资获得小米科技领投注资，是 […]\n猎声目前已成为国内领先的消费级智能运动产品自主品牌和ODM方案提供商，此前我爱音频网曾经拆解过\nHaylou嘿喽 T16 真无线降噪耳机\n，性价比较高让人印象深刻。",
         "tag": "降噪",
         "evidence": {
-          "value": "猎声目前已成为国内领先的消费级智能运动产品自主品牌和ODM方案提供商，此前我爱音频网曾经拆解过\nHaylou嘿喽 T16 真无线降噪耳机\n，性价比较高让人印象深刻。",
+          "value": "Haylou嘿喽是东莞市猎声电子科技旗下的音频品牌，公司成立于2015年5月，A轮融资获得小米科技领投注资，是 […]\n猎声目前已成为国内领先的消费级智能运动产品自主品牌和ODM方案提供商，此前我爱音频网曾经拆解过\nHaylou嘿喽 T16 真无线降噪耳机\n，性价比较高让人印象深刻。",
           "confidence": 0.75,
           "source_type": "text",
-          "source_text": "猎声目前已成为国内领先的消费级智能运动产品自主品牌和ODM方案提供商，此前我爱音频网曾经拆解过\nHaylou嘿喽 T16 真无线降噪耳机\n，性价比较高让人印象深刻。"
+          "source_text": "Haylou嘿喽是东莞市猎声电子科技旗下的音频品牌，公司成立于2015年5月，A轮融资获得小米科技领投注资，是 […]\n猎声目前已成为国内领先的消费级智能运动产品自主品牌和ODM方案提供商，此前我爱音频网曾经拆解过\nHaylou嘿喽 T16 真无线降噪耳机\n，性价比较高让人印象深刻。"
         }
       },
       {
@@ -210,14 +210,23 @@
           "source_type": "text",
           "source_text": "出音嘴处细密的防尘网，阻止异物进入。"
         }
+      },
+      {
+        "text": "充电接口：USB-A\n标记/认证：耳机采用软包电池，型号651729，额定容量1.15Wh/310mAh，额定电压3.7V。",
+        "tag": "其他",
+        "evidence": {
+          "value": "充电接口：USB-A\n标记/认证：耳机采用软包电池，型号651729，额定容量1.15Wh/310mAh，额定电压3.7V。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "充电接口：USB-A\n标记/认证：耳机采用软包电池，型号651729，额定容量1.15Wh/310mAh，额定电压3.7V。"
+        }
       }
     ],
     "scenarios": [
       "运动",
-      "游戏",
-      "通话"
+      "游戏"
     ],
-    "positioning_summary": "猎声目前已成为国内领先的消费级智能运动产品自主品牌和ODM方案提供商，此前我爱音频网曾经拆解过\nHaylou嘿喽 T16 真无线降噪耳机\n，性价比较高让人印象深刻。",
+    "positioning_summary": "Haylou嘿喽是东莞市猎声电子科技旗下的音频品牌，公司成立于2015年5月，A轮融资获得小米科技领投注资，是 […]\n猎声目前已成为国内领先的消费级智能运动产品自主品牌和ODM方案提供商，此前我爱音频网曾经拆解过\nHaylou嘿喽 T16 真无线降噪耳机\n，性价比较高让人印象深刻。",
     "launch_date": null,
     "best_report_id": "58160",
     "best_video_id": null

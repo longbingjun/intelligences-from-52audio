@@ -17,10 +17,10 @@
   "cost_snapshot": {
     "main_chip": "",
     "pmic_case": "",
-    "battery_ear": "345 mAh",
-    "battery_case": "电池",
+    "battery_ear": "电池",
+    "battery_case": "345 mAh",
     "speaker": "",
-    "materials": "硅胶、PC",
+    "materials": "PC",
     "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
@@ -41,27 +41,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "充电盒",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "电池",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒部分，两款产品的模块化都已经非常完善，组件之间均通过BTB连接器进行连接，小组件之间互不牵连。最大的区别在于AirPods 3由于从双电池更换为了单电池方案，充电仓内部空余出来了大量空间。如果不考虑重量、成本、产品周期等问题，内部完全可以再增加一块电池提升产品整体续航。"
-      }
-    },
-    {
-      "component": "充电仓",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "充电仓",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "苹果于近期正式发布了AirPods 3真无线耳机，在外观上采用了全新的轮廓设计，配备了MagSafe充电盒。在配置上，采用了定制的高振幅驱动单元、高动态范围放大器，H1芯片，搭载了皮肤识别传感器，运动加速、语音加速、力度感应器等。"
+        "source_text": "四、我爱音频网总结\n苹果AirPods 3发布，相较于上代AirPods 2得到了全方位的提升，其功能除了主动降噪/通透模式之外，与AirPods Pro几乎相同；半入耳式的外观设计，能够提供更加舒适的佩戴体验；并且随着系统方案的优化升级，AirPods 3虽然电池容量缩减，但续航时间得到了进一步的提升。"
       }
     },
     {
@@ -75,7 +61,21 @@
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机结构AirPods 3相较于AirPods Pro内部组件完全并联在了一条FPC排线上，顶端是入耳检测传感器，末端是拾音麦克风。"
+        "source_text": "AirPods Pro的三颗MEMS麦克风，内向式麦克风\n位于\n出音嘴防尘网罩上，另外两颗位于耳机柄顶部和底部，相较于AirPods 3除了用于自适应均衡功能、语音通话、语音操控等功能外，还用于主动降噪、通透模式功能拾取外部环境声音。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "苹果于近期正式发布了\nAirPods 3真无线耳机\n，在外观上采用了全新的轮廓设计，配备了MagSafe充电盒。"
       }
     },
     {
@@ -83,13 +83,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "降噪系统",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "AirPods Pro的三颗MEMS麦克风，内向式麦克风位于出音嘴防尘网罩上，另外两颗位于耳机柄顶部和底部，相较于AirPods 3除了用于自适应均衡功能、语音通话、语音操控等功能外，还用于主动降噪、通透模式功能拾取外部环境声音。"
+        "source_text": "四、我爱音频网总结\n苹果AirPods 3发布，相较于上代AirPods 2得到了全方位的提升，其功能除了主动降噪/通透模式之外，与AirPods Pro几乎相同；半入耳式的外观设计，能够提供更加舒适的佩戴体验；并且随着系统方案的优化升级，AirPods 3虽然电池容量缩减，但续航时间得到了进一步的提升。"
       }
     },
     {
@@ -150,13 +150,13 @@
   "market": {
     "selling_points": [
       {
-        "text": "语音加速度、运动加速感应器\n苹果AirPods 3 和AirPods Pro还都搭载了语音加速感应器和运动加速感应器，前者用于通话降噪、语音唤醒、语音交互功能，后者用于动态头部跟踪空间音频。",
+        "text": "随着对AirPods 3了解的加深，能够发现其在整体外观设计上和功能配置上 […]\n语音加速度、运动加速感应器\n苹果AirPods 3 和AirPods Pro还都搭载了语音加速感应器和运动加速感应器，前者用于通话降噪、语音唤醒、语音交互功能，后者用于动态头部跟踪空间音频。",
         "tag": "降噪",
         "evidence": {
-          "value": "语音加速度、运动加速感应器\n苹果AirPods 3 和AirPods Pro还都搭载了语音加速感应器和运动加速感应器，前者用于通话降噪、语音唤醒、语音交互功能，后者用于动态头部跟踪空间音频。",
-          "confidence": 0.61,
+          "value": "随着对AirPods 3了解的加深，能够发现其在整体外观设计上和功能配置上 […]\n语音加速度、运动加速感应器\n苹果AirPods 3 和AirPods Pro还都搭载了语音加速感应器和运动加速感应器，前者用于通话降噪、语音唤醒、语音交互功能，后者用于动态头部跟踪空间音频。",
+          "confidence": 0.75,
           "source_type": "text",
-          "source_text": "语音加速度、运动加速感应器\n苹果AirPods 3 和AirPods Pro还都搭载了语音加速感应器和运动加速感应器，前者用于通话降噪、语音唤醒、语音交互功能，后者用于动态头部跟踪空间音频。"
+          "source_text": "随着对AirPods 3了解的加深，能够发现其在整体外观设计上和功能配置上 […]\n语音加速度、运动加速感应器\n苹果AirPods 3 和AirPods Pro还都搭载了语音加速感应器和运动加速感应器，前者用于通话降噪、语音唤醒、语音交互功能，后者用于动态头部跟踪空间音频。"
         }
       },
       {
@@ -170,6 +170,16 @@
         }
       },
       {
+        "text": "苹果AirPods 3发布，相较于上代AirPods 2得到了全方位的提升，其功能除了主动降噪/通透模式之外，与AirPods Pro几乎相同；半入耳式的外观设计，能够提供更加舒适的佩戴体验；并且随着系统方案的优化升级，AirPods 3虽然电池容量缩减，但续航时间得到了进一步的提升。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "苹果AirPods 3发布，相较于上代AirPods 2得到了全方位的提升，其功能除了主动降噪/通透模式之外，与AirPods Pro几乎相同；半入耳式的外观设计，能够提供更加舒适的佩戴体验；并且随着系统方案的优化升级，AirPods 3虽然电池容量缩减，但续航时间得到了进一步的提升。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "苹果AirPods 3发布，相较于上代AirPods 2得到了全方位的提升，其功能除了主动降噪/通透模式之外，与AirPods Pro几乎相同；半入耳式的外观设计，能够提供更加舒适的佩戴体验；并且随着系统方案的优化升级，AirPods 3虽然电池容量缩减，但续航时间得到了进一步的提升。"
+        }
+      },
+      {
         "text": "AirPods Pro的三颗MEMS麦克风，内向式麦克风\n位于\n出音嘴防尘网罩上，另外两颗位于耳机柄顶部和底部，相较于AirPods 3除了用于自适应均衡功能、语音通话、语音操控等功能外，还用于主动降噪、通透模式功能拾取外部环境声音。",
         "tag": "降噪",
         "evidence": {
@@ -177,6 +187,16 @@
           "confidence": 0.71,
           "source_type": "text",
           "source_text": "AirPods Pro的三颗MEMS麦克风，内向式麦克风\n位于\n出音嘴防尘网罩上，另外两颗位于耳机柄顶部和底部，相较于AirPods 3除了用于自适应均衡功能、语音通话、语音操控等功能外，还用于主动降噪、通透模式功能拾取外部环境声音。"
+        }
+      },
+      {
+        "text": "AirPods Pro的三颗MEMS麦克风，内向式麦克风位于出音嘴防尘网罩上，另外两颗位于耳机柄顶部和底部，相较于AirPods 3除了用于自适应均衡功能、语音通话、语音操控等功能外，还用于主动降噪、通透模式功能拾取外部环境声音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "AirPods Pro的三颗MEMS麦克风，内向式麦克风位于出音嘴防尘网罩上，另外两颗位于耳机柄顶部和底部，相较于AirPods 3除了用于自适应均衡功能、语音通话、语音操控等功能外，还用于主动降噪、通透模式功能拾取外部环境声音。",
+          "confidence": 0.71,
+          "source_type": "text",
+          "source_text": "AirPods Pro的三颗MEMS麦克风，内向式麦克风位于出音嘴防尘网罩上，另外两颗位于耳机柄顶部和底部，相较于AirPods 3除了用于自适应均衡功能、语音通话、语音操控等功能外，还用于主动降噪、通透模式功能拾取外部环境声音。"
         }
       },
       {
@@ -188,33 +208,13 @@
           "source_type": "text",
           "source_text": "今天我爱音频网便根据拆解报告，来为大家分享一下两款产品的区别~\n一、外观设计\n外观设计方面，苹果AirPods 3采用了与AirPods Pro较为相似的设计方案，但在体积上更加的小巧轻便，AirPods 3还采用了全新的半入耳式轮廓设计，提供更加舒适的佩戴体验。"
         }
-      },
-      {
-        "text": "三、重要元器件\n苹果AirPods 3相较于AirPods Pro在内部原器件方面的区别主要包括SiP封装系统的苹果H1芯片、电池、入耳检测传感器方案、操控方案等，其他方面如苹果采用的芯片方案，由于其多为定制以及保密性问题，无法获取详细信息对两款产品进行对比。",
-        "tag": "其他",
-        "evidence": {
-          "value": "三、重要元器件\n苹果AirPods 3相较于AirPods Pro在内部原器件方面的区别主要包括SiP封装系统的苹果H1芯片、电池、入耳检测传感器方案、操控方案等，其他方面如苹果采用的芯片方案，由于其多为定制以及保密性问题，无法获取详细信息对两款产品进行对比。",
-          "confidence": 0.75,
-          "source_type": "text",
-          "source_text": "三、重要元器件\n苹果AirPods 3相较于AirPods Pro在内部原器件方面的区别主要包括SiP封装系统的苹果H1芯片、电池、入耳检测传感器方案、操控方案等，其他方面如苹果采用的芯片方案，由于其多为定制以及保密性问题，无法获取详细信息对两款产品进行对比。"
-        }
-      },
-      {
-        "text": "苹果于近期正式发布了\nAirPods 3真无线耳机\n，在外观上采用了全新的轮廓设计，配备了MagSafe充电盒。",
-        "tag": "其他",
-        "evidence": {
-          "value": "苹果于近期正式发布了\nAirPods 3真无线耳机\n，在外观上采用了全新的轮廓设计，配备了MagSafe充电盒。",
-          "confidence": 0.75,
-          "source_type": "text",
-          "source_text": "苹果于近期正式发布了\nAirPods 3真无线耳机\n，在外观上采用了全新的轮廓设计，配备了MagSafe充电盒。"
-        }
       }
     ],
     "scenarios": [
       "运动",
       "通话"
     ],
-    "positioning_summary": "语音加速度、运动加速感应器\n苹果AirPods 3 和AirPods Pro还都搭载了语音加速感应器和运动加速感应器，前者用于通话降噪、语音唤醒、语音交互功能，后者用于动态头部跟踪空间音频。",
+    "positioning_summary": "随着对AirPods 3了解的加深，能够发现其在整体外观设计上和功能配置上 […]\n语音加速度、运动加速感应器\n苹果AirPods 3 和AirPods Pro还都搭载了语音加速感应器和运动加速感应器，前者用于通话降噪、语音唤醒、语音交互功能，后者用于动态头部跟踪空间音频。",
     "launch_date": null,
     "best_report_id": "94225",
     "best_video_id": null

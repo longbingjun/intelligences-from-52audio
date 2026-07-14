@@ -1,0 +1,291 @@
+{
+  "canonical_id": "sony--wf-1000xm5",
+  "brand": "SONY索尼",
+  "model": "WF-1000XM5",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "179869"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "179869"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-11-07",
+  "latest_published": "2023-11-07",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "",
+    "pmic_case": "",
+    "battery_ear": "500 mAh",
+    "battery_case": "5V/00mAh锂电池",
+    "speaker": "喇叭单元",
+    "materials": "PC、ABS",
+    "weight_g": "49.2g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 12,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.67,
+    "best_report_id": "179869",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "5V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "5V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置豪鹏科技旗下子公司曙鹏科技的500mAh高电压锂离子电池，支持有线和无线两种方式充电。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "3",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "单耳内置三颗MEMS麦克风拾音；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒底部为无线充电接收区域，印有部分产品信息。型号：YY2963，制造商：索尼公司，电池参数：3.85V/500mAh/1.925Wh。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "SONY索尼WF-1000XM5真无线降噪耳机在外观方面延续了家族式的设计语言，但采用了全新的亮面质感，充电盒体积减少约15%，耳机体积减少了约25%，重量减少了约20%。在功能配置方面，搭载全新升级的集成处理器V2和HD降噪处理器QN2e，搭配6麦克风系统，降噪深度提升了约20%；同时支持AI智能降噪，可自动检测活动状态和地点，自动切换预设的环境声和降噪方案；还拥有20级可控环境声等。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "SONY索尼WF-1000XM5真无线降噪耳机在外观方面延续了家族式的设计语言，但采用了全新的亮面质感，充电盒体积减少约15%，耳机体积减少了约25%，重量减少了约20%。在功能配置方面，搭载全新升级的集成处理器V2和HD降噪处理器QN2e，搭配6麦克风系统，降噪深度提升了约20%；同时支持AI智能降噪，可自动检测活动状态和地点，自动切换预设的环境声和降噪方案；还拥有20级可控环境声等。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱一侧结构一览，主板位于中间，下方通过框架固定电池和无线充电接收线圈。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "框架一侧结构一览，印刷有蓝牙天线和触摸检测电极（中间圆形）。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "索尼全新研发设计的8.4mm驱动单元X正面特写，采用了全新设计结构，高刚性、高内损率的圆顶+高柔性的振膜边缘，两种不同材质结合以应对不同频段声音振动的特征，实现低失真与清澈透明的音质。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "SONY索尼WF-1000XM5充电盒机身曲线更加圆润，体积相较于上代减少约15%，更加的轻巧便携。充电盒正面设置有一颗LED指示灯，用于反馈蓝牙配对和充电状态。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒背面外观一览，设置有Type-C充电接口和蓝牙配对功能按键。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机内侧设计有L/R左右标识，充电触点和光学入耳检测传感器。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 SONY索尼WF-1000XM5真无线降噪耳机在外观方面，延续了家族式独具辨识度的设计语言，但相较于上代又做了进一步优化，充电盒机身更加圆润，体积更加小巧，外出使用更便携。豆状的入耳式耳机设计更加符合主流审美，光滑亮面质感，简约而又不失精致；大幅削减的体积和重量，使得佩戴更加轻盈，观感也更美观、协调。 内部主要配置方面，充电盒内置豪鹏科技旗下子公司曙鹏科技的500mAh高电压锂离子电池，支持有线和无线两种方式充电。有线采用了Type-C端口和TI德州仪器BQ25618充电IC；无线采用了Renesas瑞萨电子IDT P9222无线电源接收器IC；还搭载了ADI亚德诺MAX77857降压-升压转换器，负责为内置电池升压给耳机充电；NXP恩智浦K32 L2B系列微控制器，负责充电盒整机控制。 耳机内部结构设计非常紧凑，主要配置上，内置ZeniPower至力0.366Wh钢壳扣式电池；搭载了全新研发设计的8.4mm驱动单元X；单耳内置三颗MEMS麦克风拾音；采用了SiP封装的新一代集成处理器V2+HD降噪处理器QN2e；以及一颗BOSCH博世六轴陀螺仪IC，用于骨传导通话降噪、360临场音效等功能采集数据。",
+  "layer_refs": {
+    "technical": [
+      "report:179869"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "作为索尼旗下旗舰级TWS耳机“降噪豆”系列的新一代产品，SONY WF-1000XM5于2023年7月正式发布，相较于两年前的WF-1000XM4，在主打的降噪和音质性能方面得到了进一步大幅度提升，同时在设计、蓝牙连接、通话效果、智能功能上也带来了全新的突破，成为了索尼真无线耳机中的「六边形战士」。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "作为索尼旗下旗舰级TWS耳机“降噪豆”系列的新一代产品，SONY WF-1000XM5于2023年7月正式发布，相较于两年前的WF-1000XM4，在主打的降噪和音质性能方面得到了进一步大幅度提升，同时在设计、蓝牙连接、通话效果、智能功能上也带来了全新的突破，成为了索尼真无线耳机中的「六边形战士」。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "作为索尼旗下旗舰级TWS耳机“降噪豆”系列的新一代产品，SONY WF-1000XM5于2023年7月正式发布，相较于两年前的WF-1000XM4，在主打的降噪和音质性能方面得到了进一步大幅度提升，同时在设计、蓝牙连接、通话效果、智能功能上也带来了全新的突破，成为了索尼真无线耳机中的「六边形战士」。"
+        }
+      },
+      {
+        "text": "耳机内部结构设计非常紧凑，主要配置上，内置ZeniPower至力0.366Wh钢壳扣式电池；搭载了全新研发设计的8.4mm驱动单元X；单耳内置三颗MEMS麦克风拾音；采用了SiP封装的新一代集成处理器V2+HD降噪处理器QN2e；以及一颗BOSCH博世六轴陀螺仪IC，用于骨传导通话降噪、360临场音效等功能采集数据。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "耳机内部结构设计非常紧凑，主要配置上，内置ZeniPower至力0.366Wh钢壳扣式电池；搭载了全新研发设计的8.4mm驱动单元X；单耳内置三颗MEMS麦克风拾音；采用了SiP封装的新一代集成处理器V2+HD降噪处理器QN2e；以及一颗BOSCH博世六轴陀螺仪IC，用于骨传导通话降噪、360临场音效等功能采集数据。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "耳机内部结构设计非常紧凑，主要配置上，内置ZeniPower至力0.366Wh钢壳扣式电池；搭载了全新研发设计的8.4mm驱动单元X；单耳内置三颗MEMS麦克风拾音；采用了SiP封装的新一代集成处理器V2+HD降噪处理器QN2e；以及一颗BOSCH博世六轴陀螺仪IC，用于骨传导通话降噪、360临场音效等功能采集数据。"
+        }
+      },
+      {
+        "text": "全新升级的新一代集成处理器V2+HD降噪处理器QN2e，丝印型号“GSBR-0002 V5”，采用SiP（System in Package）系统级封装，进一步降低了产品的体积和重量；芯片外置金属屏蔽层，提升耳机抗干扰能力，降低噪声。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "全新升级的新一代集成处理器V2+HD降噪处理器QN2e，丝印型号“GSBR-0002 V5”，采用SiP（System in Package）系统级封装，进一步降低了产品的体积和重量；芯片外置金属屏蔽层，提升耳机抗干扰能力，降低噪声。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "全新升级的新一代集成处理器V2+HD降噪处理器QN2e，丝印型号“GSBR-0002 V5”，采用SiP（System in Package）系统级封装，进一步降低了产品的体积和重量；芯片外置金属屏蔽层，提升耳机抗干扰能力，降低噪声。"
+        }
+      },
+      {
+        "text": "续航方面，单次可提供约12小时的超长续航，综合续航时间约36小时；支持有线快充，Qi协议无线充电和智能手机为其反向无线充电。",
+        "tag": "长续航",
+        "evidence": {
+          "value": "续航方面，单次可提供约12小时的超长续航，综合续航时间约36小时；支持有线快充，Qi协议无线充电和智能手机为其反向无线充电。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "续航方面，单次可提供约12小时的超长续航，综合续航时间约36小时；支持有线快充，Qi协议无线充电和智能手机为其反向无线充电。"
+        }
+      },
+      {
+        "text": "在功能配置方面，搭载全新升级的集成处理器V2和HD降噪处理器QN2e，搭配6麦克风系统，降噪深度提升了约20%；同时支持AI智能降噪，可自动检测活动状态和地点，自动切换预设的环境声和降噪方案；还拥有20级可控环境声等。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "在功能配置方面，搭载全新升级的集成处理器V2和HD降噪处理器QN2e，搭配6麦克风系统，降噪深度提升了约20%；同时支持AI智能降噪，可自动检测活动状态和地点，自动切换预设的环境声和降噪方案；还拥有20级可控环境声等。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "在功能配置方面，搭载全新升级的集成处理器V2和HD降噪处理器QN2e，搭配6麦克风系统，降噪深度提升了约20%；同时支持AI智能降噪，可自动检测活动状态和地点，自动切换预设的环境声和降噪方案；还拥有20级可控环境声等。"
+        }
+      },
+      {
+        "text": "SONY索尼WF-1000XM5真无线降噪耳机\n在外观方面延续了家族式的设计语言，但采用了全新的亮面质感，充电盒体积减少约15%，耳机体积减少了约25%，重量减少了约20%。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "SONY索尼WF-1000XM5真无线降噪耳机\n在外观方面延续了家族式的设计语言，但采用了全新的亮面质感，充电盒体积减少约15%，耳机体积减少了约25%，重量减少了约20%。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "SONY索尼WF-1000XM5真无线降噪耳机\n在外观方面延续了家族式的设计语言，但采用了全新的亮面质感，充电盒体积减少约15%，耳机体积减少了约25%，重量减少了约20%。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "作为索尼旗下旗舰级TWS耳机“降噪豆”系列的新一代产品，SONY WF-1000XM5于2023年7月正式发布，相较于两年前的WF-1000XM4，在主打的降噪和音质性能方面得到了进一步大幅度提升，同时在设计、蓝牙连接、通话效果、智能功能上也带来了全新的突破，成为了索尼真无线耳机中的「六边形战士」。",
+    "launch_date": null,
+    "best_report_id": "179869",
+    "best_video_id": null
+  }
+}

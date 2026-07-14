@@ -20,13 +20,13 @@
     "battery_ear": "电池",
     "battery_case": "130 mAh",
     "speaker": "喇叭单元",
-    "materials": "硅胶",
+    "materials": "",
     "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "IPX5",
     "bluetooth": "5.0",
-    "bom_row_count": 16,
+    "bom_row_count": 13,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -36,20 +36,6 @@
     "best_video_id": null
   },
   "bom_table": [
-    {
-      "component": "主板/PCBA",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "主板/PCBA",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "主板正面一览，中间有三颗功能按键，右下角陶瓷蓝牙天线。"
-      }
-    },
     {
       "component": "电池",
       "brand": "",
@@ -65,17 +51,17 @@
       }
     },
     {
-      "component": "麦克风",
+      "component": "主板/PCBA",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "",
       "role": "major",
       "evidence": {
-        "value": "麦克风",
+        "value": "主板/PCBA",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "麦克风开孔特写，用于语音通话。"
+        "source_text": "主板正面一览，中间有三颗功能按键，右下角陶瓷蓝牙天线。"
       }
     },
     {
@@ -93,17 +79,17 @@
       }
     },
     {
-      "component": "喇叭单元",
+      "component": "麦克风",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "",
       "role": "major",
       "evidence": {
-        "value": "喇叭单元",
+        "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "扬声器单元背面特写，有一层阻尼纸覆盖，导线焊接。"
+        "source_text": "麦克风开孔特写，用于语音通话。"
       }
     },
     {
@@ -121,17 +107,17 @@
       }
     },
     {
-      "component": "触控/按键",
+      "component": "喇叭单元",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "",
-      "role": "minor",
+      "role": "major",
       "evidence": {
-        "value": "触控/按键",
+        "value": "喇叭单元",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "另外一侧三颗功能按键依次为减音量键、功能键、加音量键。实现加减音量、切换上下曲、暂停播放、接听挂断、唤醒语音助手等操作。"
+        "source_text": "扬声器单元背面特写，有一层阻尼纸覆盖，导线焊接。"
       }
     },
     {
@@ -149,17 +135,17 @@
       }
     },
     {
-      "component": "外壳结构",
+      "component": "触控/按键",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "minor",
       "evidence": {
-        "value": "外壳结构",
+        "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "233621 Wave plus颈挂蓝牙耳机在外观上采用了符合人体工学的设计，搭配亲肤材质，佩戴舒适；U型记忆项圈可实现随意弯曲，提升便携性。耳机机身上设计同样亲肤的硅胶耳套，增加佩戴的贴合度，提升佩戴稳固度。超声波焊接工艺保证IPX5 级防水， 兼顾日常使用和运动。内部配置上，扬声器单元尺寸约为10mm，在低频和中频有不俗表现；电池容量130mAh，结合高通QCC3034 极低功耗蓝牙SOC芯片加持， 保证15小时播放续航， 在同类竞品中有较大优势；线材上单独的驻极体麦克风腔体，搭载高通独家CVC通话降噪算法， 智能降风噪技术， 有效保证高清通话。主板上，主控芯片采用高通的QCC3034基于超低功耗架构的蓝牙音频SoC，结合软件搭载的高通aptX和aptX HD音频编码，提供高清音质和低延时；电路保护方面，钰泰 ETA7014输入过压保护IC，用于保护耳机内部电路，且按键与接线处均有TVS静电防护。其他方面，耳机腔体处和外壳内部均有防水防汗处理，麦克风密封到位。从整体来看，233621 Wave plus颈挂蓝牙耳机内部做工精良，用料十足，是一款非常用心打造的产品，配置的高通芯片ap"
+        "source_text": "主板正面一览，中间有三颗功能按键，右下角陶瓷蓝牙天线。"
       }
     },
     {
@@ -173,7 +159,7 @@
         "value": "高通cVc",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "正面上方印有233621品牌LOGO，蓝色贴纸上有产品名称WAVE PLUS颈挂式蓝牙立体声耳机；腾讯云小微LOGO；以及高通蓝牙5.0、高通cVc通话降噪、15小时续航、IPX5防水等级等功能特点。"
+        "source_text": "标记/认证：正面上方印有233621品牌LOGO，蓝色贴纸上有产品名称WAVE PLUS颈挂式蓝牙立体声耳机；腾讯云小微LOGO；以及高通蓝牙5.0、高通cVc通话降噪、15小时续航、IPX5防水等级等功能特点。"
       }
     },
     {
@@ -187,21 +173,21 @@
         "value": "高通aptX",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "底部有蓝牙和高通aptX HD标志，产品型号：233621 Wave Plus，制造商：深圳市冠旭电子股份有限公司等信息。"
+        "source_text": "标记/认证：底部有蓝牙和高通aptX HD标志，产品型号：233621 Wave Plus，制造商：深圳市冠旭电子股份有限公司等信息。"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "ETA7014",
+      "model": "高通cVc",
       "qty_hint": "1",
       "side": "",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "ETA7014",
+        "value": "高通cVc",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "钰泰 ETA7014，高侧过压保护芯片，保护点可调节，最高耐压36V，内阻35mΩ，支持过热保护，用于输入过压防护。"
+        "source_text": "电池容量：130\n芯片 高通cVc\n芯片 高通aptX\n芯片 高通QCC3034\n芯片 ETA7014"
       }
     },
     {
@@ -215,35 +201,7 @@
         "value": "QCC3034",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "主控方案来自QUALCOMM高通的QCC3034，它采用VFBGA封装，是一款基于超低功耗架构的蓝牙音频SoC，支持高通aptX\n和aptX HD音频编码，还支持高通的TWS+低延迟技术，不过手机端需要高通骁龙855及以上平台才可支持。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "高通aptX",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "高通aptX",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "主板上，主控芯片采用高通的QCC3034基于超低功耗架构的蓝牙音频SoC，结合软件搭载的高通aptX\n和aptX HD音频编码，提供高清音质和低延时；电路保护方面，钰泰 ETA7014输入过压保护IC，用于保护耳机内部电路，且按键与接线处均有TVS静电防护。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "QCC3034",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "QCC3034",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "主板上，主控芯片采用高通的QCC3034基于超低功耗架构的蓝牙音频SoC，结合软件搭载的高通aptX\n和aptX HD音频编码，提供高清音质和低延时；电路保护方面，钰泰 ETA7014输入过压保护IC，用于保护耳机内部电路，且按键与接线处均有TVS静电防护。"
+        "source_text": "电池容量：130\n芯片 高通cVc\n芯片 高通aptX\n芯片 高通QCC3034\n芯片 ETA7014"
       }
     },
     {
@@ -251,13 +209,13 @@
       "brand": "",
       "model": "ETA7014",
       "qty_hint": "1",
-      "side": "耳机",
+      "side": "",
       "role": "主控/蓝牙",
       "evidence": {
         "value": "ETA7014",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "主板上，主控芯片采用高通的QCC3034基于超低功耗架构的蓝牙音频SoC，结合软件搭载的高通aptX\n和aptX HD音频编码，提供高清音质和低延时；电路保护方面，钰泰 ETA7014输入过压保护IC，用于保护耳机内部电路，且按键与接线处均有TVS静电防护。"
+        "source_text": "电池容量：130\n芯片 高通cVc\n芯片 高通aptX\n芯片 高通QCC3034\n芯片 ETA7014"
       }
     }
   ],
@@ -276,13 +234,23 @@
   "market": {
     "selling_points": [
       {
-        "text": "233621品牌致力于为创新、创享、创续的年轻用户提供设计、音质出色的耳机产品，在产品设计、研发、制造等所有环节都将低碳理念融入其中，在音频产品市场掀起低碳环保的新风潮。",
-        "tag": "其他",
+        "text": "标记/认证：超声波焊接工艺保证IPX5 级防水， 兼顾日常使用和运动。",
+        "tag": "防水防尘",
         "evidence": {
-          "value": "233621品牌致力于为创新、创享、创续的年轻用户提供设计、音质出色的耳机产品，在产品设计、研发、制造等所有环节都将低碳理念融入其中，在音频产品市场掀起低碳环保的新风潮。",
+          "value": "标记/认证：超声波焊接工艺保证IPX5 级防水， 兼顾日常使用和运动。",
           "confidence": 0.75,
           "source_type": "text",
-          "source_text": "233621品牌致力于为创新、创享、创续的年轻用户提供设计、音质出色的耳机产品，在产品设计、研发、制造等所有环节都将低碳理念融入其中，在音频产品市场掀起低碳环保的新风潮。"
+          "source_text": "标记/认证：超声波焊接工艺保证IPX5 级防水， 兼顾日常使用和运动。"
+        }
+      },
+      {
+        "text": "颈挂蓝牙耳机作为目前市面上主要的三种蓝牙耳机形态之一，相交于TWS耳机由于续航更为持久，佩戴不易丢失等优点受到 […]\n233621品牌致力于为创新、创享、创续的年轻用户提供设计、音质出色的耳机产品，在产品设计、研发、制造等所有环节都将低碳理念融入其中，在音频产品市场掀起低碳环保的新风潮。",
+        "tag": "其他",
+        "evidence": {
+          "value": "颈挂蓝牙耳机作为目前市面上主要的三种蓝牙耳机形态之一，相交于TWS耳机由于续航更为持久，佩戴不易丢失等优点受到 […]\n233621品牌致力于为创新、创享、创续的年轻用户提供设计、音质出色的耳机产品，在产品设计、研发、制造等所有环节都将低碳理念融入其中，在音频产品市场掀起低碳环保的新风潮。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "颈挂蓝牙耳机作为目前市面上主要的三种蓝牙耳机形态之一，相交于TWS耳机由于续航更为持久，佩戴不易丢失等优点受到 […]\n233621品牌致力于为创新、创享、创续的年轻用户提供设计、音质出色的耳机产品，在产品设计、研发、制造等所有环节都将低碳理念融入其中，在音频产品市场掀起低碳环保的新风潮。"
         }
       },
       {
@@ -316,22 +284,21 @@
         }
       },
       {
-        "text": "233621是深圳市冠旭电子旗下耳机品牌，冠旭电子主要从事专业音频、智能耳机及智能音箱等智能终端产品的研发、制造及品牌营销，特别是在近几年火爆的主动降噪技术上有着多年的技术积累。",
-        "tag": "降噪",
+        "text": "充电接口：侧边充电接口有防尘塞保护，左侧黑点为充电指示灯。",
+        "tag": "防水防尘",
         "evidence": {
-          "value": "233621是深圳市冠旭电子旗下耳机品牌，冠旭电子主要从事专业音频、智能耳机及智能音箱等智能终端产品的研发、制造及品牌营销，特别是在近几年火爆的主动降噪技术上有着多年的技术积累。",
-          "confidence": 0.63,
+          "value": "充电接口：侧边充电接口有防尘塞保护，左侧黑点为充电指示灯。",
+          "confidence": 0.55,
           "source_type": "text",
-          "source_text": "233621是深圳市冠旭电子旗下耳机品牌，冠旭电子主要从事专业音频、智能耳机及智能音箱等智能终端产品的研发、制造及品牌营销，特别是在近几年火爆的主动降噪技术上有着多年的技术积累。"
+          "source_text": "充电接口：侧边充电接口有防尘塞保护，左侧黑点为充电指示灯。"
         }
       }
     ],
     "scenarios": [
       "运动",
-      "通话",
-      "跑步"
+      "通话"
     ],
-    "positioning_summary": "233621品牌致力于为创新、创享、创续的年轻用户提供设计、音质出色的耳机产品，在产品设计、研发、制造等所有环节都将低碳理念融入其中，在音频产品市场掀起低碳环保的新风潮。",
+    "positioning_summary": "标记/认证：超声波焊接工艺保证IPX5 级防水， 兼顾日常使用和运动。",
     "launch_date": null,
     "best_report_id": "64306",
     "best_video_id": null

@@ -19,23 +19,51 @@
     "pmic_case": "",
     "battery_ear": "电池",
     "battery_case": "770 mAh",
-    "speaker": "喇叭单元",
-    "materials": "硅胶、塑料、PC",
-    "weight_g": "110.5克",
+    "speaker": "",
+    "materials": "塑料、PC",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
-    "bluetooth": "5.0",
-    "bom_row_count": 16,
+    "bluetooth": "",
+    "bom_row_count": 11,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
     "sales_hint": null,
-    "data_completeness": 0.83,
+    "data_completeness": 0.67,
     "best_report_id": "71400",
     "best_video_id": null
   },
   "bom_table": [
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "今天我爱音频网要拆解的是RHA TrueControl ANC 真无线降噪耳机，这款产品来自英国耳机品牌RHA […]"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网总结\nRHA TrueControl ANC耳机和充电盒都采用相同的亲肤材质，提升手感的同时也具有一定的防尘防水能力；盒盖是金属材质，提升保护能力和品质感；耳机腔体为人体工学设计，形状不规则，以贴合耳廓。"
+      }
+    },
     {
       "component": "主板/PCBA",
       "brand": "",
@@ -61,35 +89,7 @@
         "value": "电池",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "包装盒顶部有一个挂钩，便于线下店铺展示。包装盒背面是各种语言版本的产品功能介绍，中文版本内容如下：主动降噪；快速激活环境音模式；运用科学数据模拟数种耳型；符合人体工学舒适佩戴；支持高通aptX和AAC高质量串流；5+15小时电池续航；含快充功能；无线充电；防水防溅；国际三年保修。右下角的图例代表包装内的“航空等级Comply海绵耳塞”。"
-      }
-    },
-    {
-      "component": "充电仓",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "充电仓",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "包装盒内所有物品包括：耳机和充电盒、USB Type-C接口充电线、耳塞和说明书。"
-      }
-    },
-    {
-      "component": "降噪系统",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "降噪系统",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "今天我爱音频网要拆解的是RHA TrueControl ANC 真无线降噪耳机，这款产品来自英国耳机品牌RHA，从HiFi耳机到真无线，RHA以英国设计、精密工程和高质量材质知名。"
+        "source_text": "电池使用大量胶水固定。"
       }
     },
     {
@@ -121,45 +121,17 @@
       }
     },
     {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "喇叭单元",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "动圈扬声器单元使用黑色胶水固定。"
-      }
-    },
-    {
       "component": "充电触点",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "充电盒",
+      "side": "耳机",
       "role": "minor",
       "evidence": {
         "value": "充电触点",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒内共有四根Pogo Pin连接耳机，外圈设计有磁铁，用于吸附固定耳机。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒壳体表面采用一种亲肤质感的涂层，可以防水防汗，正面有RHA的品牌名和三个电量指示灯。"
+        "source_text": "给耳机充电的Pogo Pin通过导线和连接器与主板相连。"
       }
     },
     {
@@ -173,35 +145,7 @@
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "RHA还为这款耳机开发了配套的APP，可以进行EQ调节、自定义按键、查找耳机、升级固件等设置，功能非常完善，给人感觉不像是一个HiFi品牌做出来的产品，此前我爱音频网已经对其进行了深度评测，下面一起来看详细拆解吧。"
-      }
-    },
-    {
-      "component": "外壳结构",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "外壳结构",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机外壳内部结构一览。"
-      }
-    },
-    {
-      "component": "耳挂/挂钩",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "耳挂/挂钩",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "包装盒顶部有一个挂钩，便于线下店铺展示。包装盒背面是各种语言版本的产品功能介绍，中文版本内容如下：主动降噪；快速激活环境音模式；运用科学数据模拟数种耳型；符合人体工学舒适佩戴；支持高通aptX和AAC高质量串流；5+15小时电池续航；含快充功能；无线充电；防水防溅；国际三年保修。右下角的图例代表包装内的“航空等级Comply海绵耳塞”。"
+        "source_text": "RHA还为这款耳机开发了配套的APP，可以进行EQ调节、自定义按键、查找耳机、升级固件等设置，功能非常完善，给人感觉不像是一个HiFi品牌做出来的产品，此前\n我爱音频网已经对其进行了深度评测\n，下面一起来看详细拆解吧。"
       }
     },
     {
@@ -215,21 +159,7 @@
         "value": "高通aptX",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "包装盒背面是各种语言版本的产品功能介绍，中文版本内容如下：主动降噪；快速激活环境音模式；运用科学数据模拟数种耳型；符合人体工学舒适佩戴；支持高通aptX和AAC高质量串流；5+15小时电池续航；含快充功能；无线充电；防水防溅；国际三年保修。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "高通QCC5121",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "高通QCC5121",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "RHA TrueControl ANC 真无线降噪耳机采用高通QCC5121 蓝牙音频SoC，该芯片旨在满足消费者对小型设备中强大，高质量无线蓝牙聆听体验的需求，同时具有低功耗特性，可实现更长的音频播放。"
+        "source_text": "充电方式：包装盒背面是各种语言版本的产品功能介绍，中文版本内容如下：主动降噪；快速激活环境音模式；运用科学数据模拟数种耳型；符合人体工学舒适佩戴；支持高通aptX和AAC高质量串流；5+15小时电池续航；含快充功能；无线充电；防水防溅；国际三年保修。"
       }
     },
     {
@@ -237,27 +167,27 @@
       "brand": "",
       "model": "Qualcomm Kaliimba",
       "qty_hint": "1",
-      "side": "耳机",
+      "side": "",
       "role": "主控/蓝牙",
       "evidence": {
         "value": "Qualcomm Kaliimba",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "高通QCC5121特性：极低功耗设计；蓝牙5.0；超小体形；2Mbps蓝牙低功耗（LE）；支持强大的四核处理器架构；双核32位处理器应用子系统；双核Qualcomm Kaliimba DSP音频子系统；嵌入式rom + RAM和外部Q-spi闪存；高性能低功耗音频；192kHz 24位 I2S和SPDIF接口；2-ch 98dBA耳机D级；2通道99dBA线路输入（单端）；可全面编程的数字ANC；灵活的软件平台，强大的新IDE支持；aptX，aptX HD和aptX Adaptive支持；旨在通过高度集成的SoC设计降低eBOM；支持Qualcomm TrueWireless立体声和Qualcomm TrueWireless立体声增强版；集成电池充电器，支持内部模式（最高200mA）和外部模式（最高1.8A）。"
+        "source_text": "电池容量：770\n芯片 Qualcomm Kaliimba\n芯片 Qualcomm TrueWireless\n芯片 高通aptX\n芯片 高通QCC5121"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "高通QCC5121",
+      "model": "QCC5121",
       "qty_hint": "1",
       "side": "",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "高通QCC5121",
+        "value": "QCC5121",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "高通QCC5121详细参数。"
+        "source_text": "电池容量：770\n芯片 Qualcomm Kaliimba\n芯片 Qualcomm TrueWireless\n芯片 高通aptX\n芯片 高通QCC5121"
       }
     }
   ],
@@ -276,13 +206,13 @@
   "market": {
     "selling_points": [
       {
-        "text": "我爱音频网总结\nRHA TrueControl ANC耳机和充电盒都采用相同的亲肤材质，提升手感的同时也具有一定的防尘防水能力；盒盖是金属材质，提升保护能力和品质感；耳机腔体为人体工学设计，形状不规则，以贴合耳廓。",
+        "text": "今天我爱音频网要拆解的是RHA TrueControl ANC 真无线降噪耳机，这款产品来自英国耳机品牌RHA […]\n我爱音频网总结\nRHA TrueControl ANC耳机和充电盒都采用相同的亲肤材质，提升手感的同时也具有一定的防尘防水能力；盒盖是金属材质，提升保护能力和品质感；耳机腔体为人体工学设计，形状不规则，以贴合耳廓。",
         "tag": "降噪",
         "evidence": {
-          "value": "我爱音频网总结\nRHA TrueControl ANC耳机和充电盒都采用相同的亲肤材质，提升手感的同时也具有一定的防尘防水能力；盒盖是金属材质，提升保护能力和品质感；耳机腔体为人体工学设计，形状不规则，以贴合耳廓。",
-          "confidence": 0.71,
+          "value": "今天我爱音频网要拆解的是RHA TrueControl ANC 真无线降噪耳机，这款产品来自英国耳机品牌RHA […]\n我爱音频网总结\nRHA TrueControl ANC耳机和充电盒都采用相同的亲肤材质，提升手感的同时也具有一定的防尘防水能力；盒盖是金属材质，提升保护能力和品质感；耳机腔体为人体工学设计，形状不规则，以贴合耳廓。",
+          "confidence": 0.69,
           "source_type": "text",
-          "source_text": "我爱音频网总结\nRHA TrueControl ANC耳机和充电盒都采用相同的亲肤材质，提升手感的同时也具有一定的防尘防水能力；盒盖是金属材质，提升保护能力和品质感；耳机腔体为人体工学设计，形状不规则，以贴合耳廓。"
+          "source_text": "今天我爱音频网要拆解的是RHA TrueControl ANC 真无线降噪耳机，这款产品来自英国耳机品牌RHA […]\n我爱音频网总结\nRHA TrueControl ANC耳机和充电盒都采用相同的亲肤材质，提升手感的同时也具有一定的防尘防水能力；盒盖是金属材质，提升保护能力和品质感；耳机腔体为人体工学设计，形状不规则，以贴合耳廓。"
         }
       },
       {
@@ -316,6 +246,16 @@
         }
       },
       {
+        "text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：ST意法半导体STM32F091CB，主流ARM Cortex-M0基本型系列MCU，具有128 KB Flash、48 MHz CPU、CAN和CEC功能。",
+        "tag": "其他",
+        "evidence": {
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：ST意法半导体STM32F091CB，主流ARM Cortex-M0基本型系列MCU，具有128 KB Flash、48 MHz CPU、CAN和CEC功能。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：ST意法半导体STM32F091CB，主流ARM Cortex-M0基本型系列MCU，具有128 KB Flash、48 MHz CPU、CAN和CEC功能。"
+        }
+      },
+      {
         "text": "今天我爱音频网要拆解的是RHA TrueControl ANC 真无线降噪耳机，这款产品来自英国耳机品牌RHA，从HiFi耳机到真无线，RHA以英国设计、精密工程和高质量材质知名。",
         "tag": "降噪",
         "evidence": {
@@ -329,7 +269,7 @@
     "scenarios": [
       "通话"
     ],
-    "positioning_summary": "我爱音频网总结\nRHA TrueControl ANC耳机和充电盒都采用相同的亲肤材质，提升手感的同时也具有一定的防尘防水能力；盒盖是金属材质，提升保护能力和品质感；耳机腔体为人体工学设计，形状不规则，以贴合耳廓。",
+    "positioning_summary": "今天我爱音频网要拆解的是RHA TrueControl ANC 真无线降噪耳机，这款产品来自英国耳机品牌RHA […]\n我爱音频网总结\nRHA TrueControl ANC耳机和充电盒都采用相同的亲肤材质，提升手感的同时也具有一定的防尘防水能力；盒盖是金属材质，提升保护能力和品质感；耳机腔体为人体工学设计，形状不规则，以贴合耳廓。",
     "launch_date": null,
     "best_report_id": "71400",
     "best_video_id": null

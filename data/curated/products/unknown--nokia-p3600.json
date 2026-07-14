@@ -20,13 +20,13 @@
     "battery_ear": "电池",
     "battery_case": "400 mAh",
     "speaker": "喇叭单元",
-    "materials": "硅胶、钛合金、塑料、PC",
-    "weight_g": "69.8克",
+    "materials": "",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
-    "bluetooth": "5.2",
-    "bom_row_count": 18,
+    "bluetooth": "",
+    "bom_row_count": 14,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -36,6 +36,20 @@
     "best_video_id": null
   },
   "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网总结\n诺基亚P3600真无线蓝牙耳机的充电盒采用金属材质，经阳极电镀工艺处理，呈现镜面效果，非常有质感；相比之下，耳机部分的外观设计要低调了许多，出音嘴处比较修长，圈铁单元和电池、主板几乎位于同一平面，在真无线耳机产品中比较少见。"
+      }
+    },
     {
       "component": "充电仓",
       "brand": "",
@@ -47,7 +61,7 @@
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "诺基亚P3600真无线蓝牙耳机的充电盒采用金属材质，经阳极电镀工艺处理，呈现镜面效果，非常有质感；耳机采用楼氏定制动铁单元+动圈单元的组合，主打三频均衡的HiFi级音效；耳机搭载了高通新一代QCC3040蓝牙音频SoC，蓝牙版本V5.2，支持高通aptX Adaptive解码和cVc通话降噪算法，在连接稳定性和功耗上都有新的优化。"
+        "source_text": "我爱音频网总结\n诺基亚P3600真无线蓝牙耳机的充电盒采用金属材质，经阳极电镀工艺处理，呈现镜面效果，非常有质感；相比之下，耳机部分的外观设计要低调了许多，出音嘴处比较修长，圈铁单元和电池、主板几乎位于同一平面，在真无线耳机产品中比较少见。"
       }
     },
     {
@@ -61,21 +75,7 @@
         "value": "主板/PCBA",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "诺基亚P3600真无线蓝牙耳机的充电盒采用金属材质，经阳极电镀工艺处理，呈现镜面效果，非常有质感；耳机采用楼氏定制动铁单元+动圈单元的组合，主打三频均衡的HiFi级音效；耳机搭载了高通新一代QCC3040蓝牙音频SoC，蓝牙版本V5.2，支持高通aptX Adaptive解码和cVc通话降噪算法，在连接稳定性和功耗上都有新的优化。"
-      }
-    },
-    {
-      "component": "电池",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "电池",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "取出主板，电池通过三股导线和连接器与主板相连。"
+        "source_text": "我爱音频网总结\n诺基亚P3600真无线蓝牙耳机的充电盒采用金属材质，经阳极电镀工艺处理，呈现镜面效果，非常有质感；相比之下，耳机部分的外观设计要低调了许多，出音嘴处比较修长，圈铁单元和电池、主板几乎位于同一平面，在真无线耳机产品中比较少见。"
       }
     },
     {
@@ -83,13 +83,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "喇叭单元",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "诺基亚P3600真无线蓝牙耳机的充电盒采用金属材质，经阳极电镀工艺处理，呈现镜面效果，非常有质感；耳机采用楼氏定制动铁单元+动圈单元的组合，主打三频均衡的HiFi级音效；耳机搭载了高通新一代QCC3040蓝牙音频SoC，蓝牙版本V5.2，支持高通aptX Adaptive解码和cVc通话降噪算法，在连接稳定性和功耗上都有新的优化。"
+        "source_text": "诺基亚定制的楼氏高音发声动铁单元，型号RAN-62462，动铁单元具有高解析高灵敏的特点，人声和高频密度高，能听到更多声音细节。"
       }
     },
     {
@@ -121,34 +121,6 @@
       }
     },
     {
-      "component": "降噪系统",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "右耳",
-      "role": "major",
-      "evidence": {
-        "value": "降噪系统",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "高通QCC304x系列蓝牙音频SoC，支持蓝牙V5.2，支持高通aptXAdaptive音频编码，集稳定性、好音质、可扩展性、低时延和低比特率音频传输等增强特性于一身；该系列芯片还支持全新的高通TrueWirelessMirroring技术，左右耳塞可以在多个使用场景下快速切换。此外，高通QCC304x系列蓝牙音频SoC还集成了混合主动降噪技术，支持cVc通话降噪技术，能够通过触控或按键唤醒手机的语音助手。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "左耳",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "诺基亚P3600支持触控功能，轻触两次左耳可将耳机切换至环境音模式，轻触三次右耳可唤醒手机的语音助手；满电状态下耳机的单次续航约6小时，搭配充电盒总续航为24小时。下面一起来看我爱音频网的详细拆解吧。"
-      }
-    },
-    {
       "component": "指示灯",
       "brand": "",
       "model": "",
@@ -159,21 +131,21 @@
         "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "盒盖和机身闭合的位置有黑色的塑料封边，正面位置有一颗状态指示灯。"
+        "source_text": "条形开孔，内有通话麦克风和指示灯，也起到了平衡气压和调音的作用。"
       }
     },
     {
-      "component": "充电触点",
+      "component": "触控/按键",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "耳机",
       "role": "minor",
       "evidence": {
-        "value": "充电触点",
+        "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "给耳机充电的Pogo Pin。"
+        "source_text": "耳机外壳内部展示，下面是耳机天线和触控感应的箔片。"
       }
     },
     {
@@ -181,13 +153,27 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "充电盒",
+      "side": "耳机",
       "role": "minor",
       "evidence": {
         "value": "外壳结构",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒为小方盒设计，外壳采用金属材质，表面经阳极电镀工艺处理，呈现镜面效果，盒盖中间位置有诺基亚的品牌名。"
+        "source_text": "耳机外壳内部展示，下面是耳机天线和触控感应的箔片。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "连接蓝牙天线和触控箔片的镀金Pogo Pin。"
       }
     },
     {
@@ -221,43 +207,15 @@
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "高通QCC304x",
-      "qty_hint": "1",
-      "side": "右耳",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "高通QCC304x",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "高通QCC304x系列蓝牙音频SoC，支持蓝牙V5.2，支持高通aptX\nAdaptive音频编码，集稳定性、好音质、可扩展性、低时延和低比特率音频传输等增强特性于一身；该系列芯片还支持全新的高通TrueWireless\nMirroring技术，左右耳塞可以在多个使用场景下快速切换。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "QCC304",
-      "qty_hint": "1",
-      "side": "右耳",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "QCC304",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "高通QCC304x系列蓝牙音频SoC，支持蓝牙V5.2，支持高通aptX\nAdaptive音频编码，集稳定性、好音质、可扩展性、低时延和低比特率音频传输等增强特性于一身；该系列芯片还支持全新的高通TrueWireless\nMirroring技术，左右耳塞可以在多个使用场景下快速切换。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "高通QCC304x",
+      "model": "高通aptX",
       "qty_hint": "1",
       "side": "",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "高通QCC304x",
+        "value": "高通aptX",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "此外，高通QCC304x系列蓝牙音频SoC还集成了混合主动降噪技术，支持cVc通话降噪技术，能够通过触控或按键唤醒手机的语音助手。"
+        "source_text": "电池容量：400\n芯片 高通aptX\n芯片 高通QCC304x\n芯片 高通TrueWireless\n芯片 高通QCC3040\n芯片 QCC304"
       }
     },
     {
@@ -271,21 +229,7 @@
         "value": "QCC304",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "此外，高通QCC304x系列蓝牙音频SoC还集成了混合主动降噪技术，支持cVc通话降噪技术，能够通过触控或按键唤醒手机的语音助手。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "高通QCC3040",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "高通QCC3040",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "高通QCC3040详细资料。"
+        "source_text": "电池容量：400\n芯片 高通aptX\n芯片 高通QCC304x\n芯片 高通TrueWireless\n芯片 高通QCC3040\n芯片 QCC304"
       }
     }
   ],
@@ -304,13 +248,13 @@
   "market": {
     "selling_points": [
       {
-        "text": "我爱音频网总结\n诺基亚P3600真无线蓝牙耳机的充电盒采用金属材质，经阳极电镀工艺处理，呈现镜面效果，非常有质感；相比之下，耳机部分的外观设计要低调了许多，出音嘴处比较修长，圈铁单元和电池、主板几乎位于同一平面，在真无线耳机产品中比较少见。",
+        "text": "今天我爱音频 […]\n我爱音频网总结\n诺基亚P3600真无线蓝牙耳机的充电盒采用金属材质，经阳极电镀工艺处理，呈现镜面效果，非常有质感；相比之下，耳机部分的外观设计要低调了许多，出音嘴处比较修长，圈铁单元和电池、主板几乎位于同一平面，在真无线耳机产品中比较少见。",
         "tag": "其他",
         "evidence": {
-          "value": "我爱音频网总结\n诺基亚P3600真无线蓝牙耳机的充电盒采用金属材质，经阳极电镀工艺处理，呈现镜面效果，非常有质感；相比之下，耳机部分的外观设计要低调了许多，出音嘴处比较修长，圈铁单元和电池、主板几乎位于同一平面，在真无线耳机产品中比较少见。",
-          "confidence": 0.73,
+          "value": "今天我爱音频 […]\n我爱音频网总结\n诺基亚P3600真无线蓝牙耳机的充电盒采用金属材质，经阳极电镀工艺处理，呈现镜面效果，非常有质感；相比之下，耳机部分的外观设计要低调了许多，出音嘴处比较修长，圈铁单元和电池、主板几乎位于同一平面，在真无线耳机产品中比较少见。",
+          "confidence": 0.72,
           "source_type": "text",
-          "source_text": "我爱音频网总结\n诺基亚P3600真无线蓝牙耳机的充电盒采用金属材质，经阳极电镀工艺处理，呈现镜面效果，非常有质感；相比之下，耳机部分的外观设计要低调了许多，出音嘴处比较修长，圈铁单元和电池、主板几乎位于同一平面，在真无线耳机产品中比较少见。"
+          "source_text": "今天我爱音频 […]\n我爱音频网总结\n诺基亚P3600真无线蓝牙耳机的充电盒采用金属材质，经阳极电镀工艺处理，呈现镜面效果，非常有质感；相比之下，耳机部分的外观设计要低调了许多，出音嘴处比较修长，圈铁单元和电池、主板几乎位于同一平面，在真无线耳机产品中比较少见。"
         }
       },
       {
@@ -342,12 +286,32 @@
           "source_type": "text",
           "source_text": "开孔内侧的防尘网。"
         }
+      },
+      {
+        "text": "标记/认证：耳机内的软包电池同样来自ST神通，型号ST501015，额定电压3.7V，能量0.19Wh。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：耳机内的软包电池同样来自ST神通，型号ST501015，额定电压3.7V，能量0.19Wh。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "标记/认证：耳机内的软包电池同样来自ST神通，型号ST501015，额定电压3.7V，能量0.19Wh。"
+        }
+      },
+      {
+        "text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：充电盒采用的软包电池来自ST深圳市神通天下科技有限公司，型号ST681345，额定电压3.7V，额定容量400mAh，能量1.48Wh。",
+        "tag": "其他",
+        "evidence": {
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：充电盒采用的软包电池来自ST深圳市神通天下科技有限公司，型号ST681345，额定电压3.7V，额定容量400mAh，能量1.48Wh。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：充电盒采用的软包电池来自ST深圳市神通天下科技有限公司，型号ST681345，额定电压3.7V，额定容量400mAh，能量1.48Wh。"
+        }
       }
     ],
     "scenarios": [
       "通话"
     ],
-    "positioning_summary": "我爱音频网总结\n诺基亚P3600真无线蓝牙耳机的充电盒采用金属材质，经阳极电镀工艺处理，呈现镜面效果，非常有质感；相比之下，耳机部分的外观设计要低调了许多，出音嘴处比较修长，圈铁单元和电池、主板几乎位于同一平面，在真无线耳机产品中比较少见。",
+    "positioning_summary": "今天我爱音频 […]\n我爱音频网总结\n诺基亚P3600真无线蓝牙耳机的充电盒采用金属材质，经阳极电镀工艺处理，呈现镜面效果，非常有质感；相比之下，耳机部分的外观设计要低调了许多，出音嘴处比较修长，圈铁单元和电池、主板几乎位于同一平面，在真无线耳机产品中比较少见。",
     "launch_date": null,
     "best_report_id": "74991",
     "best_video_id": null

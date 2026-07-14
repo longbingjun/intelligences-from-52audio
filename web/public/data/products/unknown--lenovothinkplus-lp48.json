@@ -1,0 +1,365 @@
+{
+  "canonical_id": "unknown--lenovothinkplus-lp48",
+  "brand": "",
+  "model": "Lenovo联想thinkplus LP48",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "203495"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "203495"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2024-06-21",
+  "latest_published": "2024-06-21",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "INJOINIC英集芯IP5513",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "3V/00mAh锂电池",
+    "speaker": "喇叭单元",
+    "materials": "PC",
+    "weight_g": "47.1g",
+    "weight_case_g": "",
+    "weight_earbud_g": "3.3g",
+    "ip_rating": "",
+    "bluetooth": "5.4",
+    "bom_row_count": 18,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "203495",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "INJOINIC英集芯IP5513",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5513",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了INJOINIC英集芯IP5513电源管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB5656",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB5656",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "采用了 Bluetrum中科蓝讯AB5656C2蓝牙音频SoC ，支持蓝牙5.4，支持单声道MIC放大器输入，低功耗触摸键，集成PMU等；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置300mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了一颗MEMS麦克风，用于语音通话拾音；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面展示有产品的功能特点和参数信息。型号：LP48，蓝牙版本：V5.4，耳机额定输入：5V-30mA，耳机额定功率：0.15W，耳机充电时长：约1.5小时，耳机使用时长：约5小时，耳机锂电池额定容量：30mAh；充电盒额定输入：5V-300mA，额定功率：1.5W，充电时长：约2小时，锂电池额定容量：300mAh；制造商：北京恒创互联科技有限公司。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面展示有产品的功能特点和参数信息。型号：LP48，蓝牙版本：V5.4，耳机额定输入：5V-30mA，耳机额定功率：0.15W，耳机充电时长：约1.5小时，耳机使用时长：约5小时，耳机锂电池额定容量：30mAh；充电盒额定输入：5V-300mA，额定功率：1.5W，充电时长：约2小时，锂电池额定容量：300mAh；制造商：北京恒创互联科技有限公司。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部通过螺丝固定主板，电源输入小板和电池导线与主板焊接。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网此前还拆解过联想小新魔豆真无线降噪耳机E5，iGene-Z4、thinkplus Liveods LP40、ThinkPlus TrackPods、LivePods LP12、LivePods LP6、HT38、QT83、TC03、S1真无线耳机，摩托罗拉Verve Buds 500、Verve Buds 800真无线耳机，MC550无线领夹麦克风、ThinkPad Stack蓝牙音箱等产品。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "断开导线，前腔内部扬声器单元结构一览。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "联想thinkplus LP48充电盒正面外观一览，采用了非常圆润的“鹅卵石”状设计，哑光质感。正面设计有品牌LOGO，设置有条形指示灯。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄底部的充电触点特写。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机外侧外观一览，耳机柄背部盖板中间为触控区域，下方设置有麦克风拾音孔。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP5513",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5513",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5513",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5513",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Prisemi芯导P14C1S",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Prisemi芯导P14C1S",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Prisemi芯导P14C1S过压过流保护IC，输入耐压高达32V，过压保护点为固定6V。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB5656",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB5656",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Bluetrum中科蓝讯AB5656C2蓝牙音频SoC\n，采用带DSP指令的高性能32位RISC-V处理器核心，处理器最大速度125MHz，内置1M bit（AB5656C2）闪存，113KB RAM，具有可编程上拉和下拉电阻的灵活GPIO引脚；支持GPIO唤醒或中断。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB5656",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB5656",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "中科蓝讯AB5656C2符合蓝牙5.4（QDID: 215269），TX最大输出功率+9dBm，RX灵敏度-90.5 @ Basic Rate/-94 @ EDR；具有16bit单声道DAC（信噪比102dB，带耳机放大器输出）和16bit单通道ADC（信噪比94dB）的音频编加码器，支持灵活的音频均衡器调整；支持8/11.025/12/16/22.05/32/44.1/48KHz采样率；支持单声道MIC放大器输入；支持低功耗触摸键，内置看门狗，内置PMU，如充电器/降压/LDO等。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Lenovo联想thinkplus LP48真无线耳机在外观方面，\"借鉴\"了 华为FreeBuds 5 的设计风格，整体外观曲线非常的圆润流畅，铁灰配色也拥有着类似“冰霜银”的哑光质感。「水滴造型」半入耳式耳机，重量仅3.3g，体积轻盈，佩戴舒适贴合脸颊和耳廓。 内部主要配置方面，充电盒内置300mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护；主板上，搭载了INJOINIC英集芯IP5513电源管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能；还有用于开盖即连的霍尔元件等。 音腔内部搭载13mm动圈喇叭和30mAh软包锂电池，分别通过导线连接耳机柄内部主板。主板上，搭载了一颗MEMS麦克风，用于语音通话拾音；采用了 Bluetrum中科蓝讯AB5656C2蓝牙音频SoC ，支持蓝牙5.4，支持单声道MIC放大器输入，低功耗触摸键，集成PMU等；还采用了Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等元器件。",
+  "layer_refs": {
+    "technical": [
+      "report:203495"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "近期，我爱音频网发现ThinkPlus推出了一款神似“\n华为FreeBuds 5\n”的产品——thinkplus LP48，其外观上同样采用了「全曲面流线设计，水滴造型」，轻盈机身，半入耳式结构，提供舒适佩戴。",
+        "tag": "舒适佩戴",
+        "evidence": {
+          "value": "近期，我爱音频网发现ThinkPlus推出了一款神似“\n华为FreeBuds 5\n”的产品——thinkplus LP48，其外观上同样采用了「全曲面流线设计，水滴造型」，轻盈机身，半入耳式结构，提供舒适佩戴。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "近期，我爱音频网发现ThinkPlus推出了一款神似“\n华为FreeBuds 5\n”的产品——thinkplus LP48，其外观上同样采用了「全曲面流线设计，水滴造型」，轻盈机身，半入耳式结构，提供舒适佩戴。"
+        }
+      },
+      {
+        "text": "耳机出音嘴特写，防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "耳机出音嘴特写，防尘网防护。",
+          "confidence": 0.6,
+          "source_type": "text",
+          "source_text": "耳机出音嘴特写，防尘网防护。"
+        }
+      },
+      {
+        "text": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+        "tag": "其他",
+        "evidence": {
+          "value": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。"
+        }
+      },
+      {
+        "text": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。"
+        }
+      },
+      {
+        "text": "下面就来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过\n联想小新魔豆真无线降噪耳机E5\n，\niGene-Z4\n、\nthinkplus Liveods LP40\n、\nThinkPlus TrackPods\n、\nLivePods LP12\n、\nLivePods LP6\n、\nHT38\n、\nQT83\n、\nTC03\n、\nS1\n真无线耳机，\n摩托罗拉Verve Buds 500\n、\nVerve Buds 800\n真无线耳机，\nMC550无线领夹麦克风\n、\nThinkPad Stack蓝牙音箱\n等产品。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "下面就来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过\n联想小新魔豆真无线降噪耳机E5\n，\niGene-Z4\n、\nthinkplus Liveods LP40\n、\nThinkPlus TrackPods\n、\nLivePods LP12\n、\nLivePods LP6\n、\nHT38\n、\nQT83\n、\nTC03\n、\nS1\n真无线耳机，\n摩托罗拉Verve Buds 500\n、\nVerve Buds 800\n真无线耳机，\nMC550无线领夹麦克风\n、\nThinkPad Stack蓝牙音箱\n等产品。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "下面就来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过\n联想小新魔豆真无线降噪耳机E5\n，\niGene-Z4\n、\nthinkplus Liveods LP40\n、\nThinkPlus TrackPods\n、\nLivePods LP12\n、\nLivePods LP6\n、\nHT38\n、\nQT83\n、\nTC03\n、\nS1\n真无线耳机，\n摩托罗拉Verve Buds 500\n、\nVerve Buds 800\n真无线耳机，\nMC550无线领夹麦克风\n、\nThinkPad Stack蓝牙音箱\n等产品。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "近期，我爱音频网发现ThinkPlus推出了一款神似“\n华为FreeBuds 5\n”的产品——thinkplus LP48，其外观上同样采用了「全曲面流线设计，水滴造型」，轻盈机身，半入耳式结构，提供舒适佩戴。",
+    "launch_date": null,
+    "best_report_id": "203495",
+    "best_video_id": null
+  }
+}

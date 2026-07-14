@@ -18,15 +18,15 @@
     "main_chip": "SY8821",
     "pmic_case": "",
     "battery_ear": "电池",
-    "battery_case": "300 mAh",
+    "battery_case": "30 mAh",
     "speaker": "喇叭单元",
-    "materials": "PC、ABS",
+    "materials": "",
     "weight_g": "3.35g",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "IPX4",
     "bluetooth": "5.1",
-    "bom_row_count": 13,
+    "bom_row_count": 12,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -37,17 +37,17 @@
   },
   "bom_table": [
     {
-      "component": "充电仓",
+      "component": "电池",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
-        "value": "充电仓",
+        "value": "电池",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "包装盒内物品包括： 耳机和充电盒、充电线塞和产品使用说明书。"
+        "source_text": "软包电池竖置在背部结构上。"
       }
     },
     {
@@ -65,17 +65,17 @@
       }
     },
     {
-      "component": "电池",
+      "component": "充电仓",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "",
       "role": "major",
       "evidence": {
-        "value": "电池",
+        "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "软包电池竖置在背部结构上。"
+        "source_text": "思远半导体全线充电仓解决方案都通过IEC62368认证要求，降低客户过认证风险。"
       }
     },
     {
@@ -111,13 +111,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
+      "side": "耳机",
       "role": "major",
       "evidence": {
         "value": "天线",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "贴片陶瓷蓝牙天线特写，用于传输无线信号。"
+        "source_text": "耳机部分，奋达E2真无线耳机的主控芯片是杰理AC6936D，集成度也比较高，支持蓝牙5.1，具有低功耗、自动配对、恒流充电、立体声双耳通话、智能双发主从无缝切换等特点。耳机采用贴片陶瓷天线传输蓝牙信号，电容式触控方案有独立检测IC，单麦克风用于通话拾音，软包电池容量30mAh同样来自金宇宙，有锂电保护IC。"
       }
     },
     {
@@ -135,17 +135,17 @@
       }
     },
     {
-      "component": "指示灯",
+      "component": "外壳结构",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "充电盒",
+      "side": "耳机",
       "role": "minor",
       "evidence": {
-        "value": "指示灯",
+        "value": "外壳结构",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒外观展示，鹅卵石造型，比较小巧；机身采用ABS+PC光滑材质，不易沾染指纹；盒盖开启处做了 一个突出的设计，增加线条感；底部有一个状态指示灯。"
+        "source_text": "前腔内有耳机的软包电池和扬声器单元。"
       }
     },
     {
@@ -163,45 +163,17 @@
       }
     },
     {
-      "component": "外壳结构",
+      "component": "指示灯",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "充电盒",
       "role": "minor",
       "evidence": {
-        "value": "外壳结构",
+        "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机前腔壳体上的泄压/调音孔。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "SY8821",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "SY8821",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "TPS思远 SY8821蓝牙耳机充电仓解决方案，内部集成充电模块和放电模块。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "SY8821",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "SY8821",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "SY8821能够匹配所有蓝牙主控对电源特性的要求，5V常开及掉电压模式可选，常输出功耗低至3uA，1~4灯灵活配置，无需定制料号，按键、Hall控制可选，无需外部MCU，单芯片即可实现TWS充电仓应用设计，大大降低备货的风险。"
+        "source_text": "充电接口：内部电路方面，充电盒通过USB Type-C接口输入电源，思远 SY8821集成度较高，支持输入过压保护，内部集成电池充放电模块，可配置指示灯，支持Hall控制，无需外部MCU，单芯片实现TWS充电仓应用设计；软包电池来自金宇宙，容量300mAh。"
       }
     },
     {
@@ -215,7 +187,21 @@
         "value": "SY8821",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "内部电路方面，充电盒通过USB Type-C接口输入电源，思远 SY8821集成度较高，支持输入过压保护，内部集成电池充放电模块，可配置指示灯，支持Hall控制，无需外部MCU，单芯片实现TWS充电仓应用设计；软包电池来自金宇宙，容量300mAh。"
+        "source_text": "充电接口：内部电路方面，充电盒通过USB Type-C接口输入电源，思远 SY8821集成度较高，支持输入过压保护，内部集成电池充放电模块，可配置指示灯，支持Hall控制，无需外部MCU，单芯片实现TWS充电仓应用设计；软包电池来自金宇宙，容量300mAh。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SY8821",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SY8821",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：300\n芯片 SY8821"
       }
     }
   ],
@@ -234,13 +220,33 @@
   "market": {
     "selling_points": [
       {
-        "text": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nMarshall\n、\n声阔\n、\nJBL\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、一加等众多知名品牌\n采用。",
+        "text": "奋达科技在电声领域拥有近30年经验积累， […]\n据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nMarshall\n、\n声阔\n、\nJBL\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、一加等众多知名品牌\n采用。",
         "tag": "其他",
         "evidence": {
-          "value": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nMarshall\n、\n声阔\n、\nJBL\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、一加等众多知名品牌\n采用。",
+          "value": "奋达科技在电声领域拥有近30年经验积累， […]\n据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nMarshall\n、\n声阔\n、\nJBL\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、一加等众多知名品牌\n采用。",
           "confidence": 0.75,
           "source_type": "text",
-          "source_text": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nMarshall\n、\n声阔\n、\nJBL\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、一加等众多知名品牌\n采用。"
+          "source_text": "奋达科技在电声领域拥有近30年经验积累， […]\n据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nMarshall\n、\n声阔\n、\nJBL\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、一加等众多知名品牌\n采用。"
+        }
+      },
+      {
+        "text": "标记/认证：软包电池来自深圳市金宇宙能源有限公司，型号JYZ602030，额定电压3.7V，额定容量300mAh/1.11Wh。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：软包电池来自深圳市金宇宙能源有限公司，型号JYZ602030，额定电压3.7V，额定容量300mAh/1.11Wh。",
+          "confidence": 0.62,
+          "source_type": "text",
+          "source_text": "标记/认证：软包电池来自深圳市金宇宙能源有限公司，型号JYZ602030，额定电压3.7V，额定容量300mAh/1.11Wh。"
+        }
+      },
+      {
+        "text": "标记/认证：耳机内采用的软包电池同样来自深圳市金宇宙能源有限公司，型号JYZ450911，额定电压3.7V，额定容量30mAh/0.111Wh。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：耳机内采用的软包电池同样来自深圳市金宇宙能源有限公司，型号JYZ450911，额定电压3.7V，额定容量30mAh/0.111Wh。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "标记/认证：耳机内采用的软包电池同样来自深圳市金宇宙能源有限公司，型号JYZ450911，额定电压3.7V，额定容量30mAh/0.111Wh。"
         }
       },
       {
@@ -251,6 +257,16 @@
           "confidence": 0.57,
           "source_type": "text",
           "source_text": "思远半导体全线充电仓解决方案都通过IEC62368认证要求，降低客户过认证风险。"
+        }
+      },
+      {
+        "text": "标记/认证：思远半导体全线充电仓解决方案都通过IEC62368认证要求，降低客户过认证风险。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：思远半导体全线充电仓解决方案都通过IEC62368认证要求，降低客户过认证风险。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "标记/认证：思远半导体全线充电仓解决方案都通过IEC62368认证要求，降低客户过认证风险。"
         }
       },
       {
@@ -267,7 +283,7 @@
     "scenarios": [
       "通话"
     ],
-    "positioning_summary": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nMarshall\n、\n声阔\n、\nJBL\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、一加等众多知名品牌\n采用。",
+    "positioning_summary": "奋达科技在电声领域拥有近30年经验积累， […]\n据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nMarshall\n、\n声阔\n、\nJBL\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、一加等众多知名品牌\n采用。",
     "launch_date": null,
     "best_report_id": "82761",
     "best_video_id": null

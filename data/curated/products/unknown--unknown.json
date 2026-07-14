@@ -47,24 +47,24 @@
   "latest_published": "2023-05-08",
   "internal_match_suggestions": [],
   "cost_snapshot": {
-    "main_chip": "恒玄BES2300-ZP",
+    "main_chip": "络达AB1536",
     "pmic_case": "",
-    "battery_ear": "400 mAh",
+    "battery_ear": "500 mAh",
     "battery_case": "电池",
     "speaker": "喇叭单元",
-    "materials": "塑料、PC",
-    "weight_g": "50.4克",
+    "materials": "硅胶",
+    "weight_g": "65.2g",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
     "bluetooth": "5.0",
-    "bom_row_count": 17,
-    "price_cny": 399.0,
-    "price_layer": "technical",
+    "bom_row_count": 15,
+    "price_cny": null,
+    "price_layer": null,
     "channel_url": null,
     "sales_hint": null,
     "data_completeness": 0.83,
-    "best_report_id": "58027",
+    "best_report_id": "32062",
     "best_video_id": null
   },
   "bom_table": [
@@ -73,13 +73,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "充电盒",
       "role": "major",
       "evidence": {
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "今天我爱音频网就来拆解一下这款小度真无线智能耳机，参数方面，耳机采用柄式半入耳设计，支持入耳检测功能和双麦克风通话降噪功能，内置13mm动圈单元，单次续航约7小时，充电盒可额外充电三次。"
+        "source_text": "充电盒顶盖特写，百灵声学的小鸟Logo置于顶盖中部，图标简洁且略带灵气。"
       }
     },
     {
@@ -87,13 +87,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "充电盒",
       "role": "major",
       "evidence": {
         "value": "主板/PCBA",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "小度真无线智能耳机内置蓝牙5.0芯片、稳定低延迟，官方宣传在研发时，为了解决翻译数据流传输问题，从芯片到硬件和软件花了很长的时间和精力调试和优化，下面一起通过拆解看看这款蓝牙芯片是谁、以及产品内部的结构设计如何吧~"
+        "source_text": "充电盒主板排线插座特写。"
       }
     },
     {
@@ -107,7 +107,7 @@
         "value": "电池",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒内部结构背面展示，软包电池使用双面胶粘贴在主板上。主板下方有两颗螺丝固定在正面的塑料保护壳上。"
+        "source_text": "充电盒内部结构解剖图，电池机器所有副板连接线都是用插座连接至主板。"
       }
     },
     {
@@ -121,7 +121,21 @@
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "今天我爱音频网就来拆解一下这款小度真无线智能耳机，参数方面，耳机采用柄式半入耳设计，支持入耳检测功能和双麦克风通话降噪功能，内置13mm动圈单元，单次续航约7小时，充电盒可额外充电三次。"
+        "source_text": "耳机内侧充电触点及通话麦克风开孔特写。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒底部内壁的NFC天线特写。"
       }
     },
     {
@@ -135,35 +149,35 @@
         "value": "喇叭单元",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "今天我爱音频网就来拆解一下这款小度真无线智能耳机，参数方面，耳机采用柄式半入耳设计，支持入耳检测功能和双麦克风通话降噪功能，内置13mm动圈单元，单次续航约7小时，充电盒可额外充电三次。"
+        "source_text": "耳机充电/麦克风/传感器副板用双面胶贴于扬声器单元背部。"
       }
     },
     {
-      "component": "天线",
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "位于USB Type-C接口对侧的充电盒充电指示灯特写。"
+      }
+    },
+    {
+      "component": "充电触点",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "耳机",
-      "role": "major",
+      "role": "minor",
       "evidence": {
-        "value": "天线",
+        "value": "充电触点",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机柄内部结构展示，顶部是蓝牙天线模块，主板上有Pogo Pin与其相连；耳机柄内置圆柱型锂电池。"
-      }
-    },
-    {
-      "component": "降噪系统",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "降噪系统",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "恒玄BES2300是一款全集成自适应主动降噪方案，支持蓝牙 5.0、IBRT低频转发技术和双模蓝牙 4.2，它还支持第三代 FWS 全无线立体声技术、双麦克风等，采用 28nm HKMG CMOS工艺、BGA 封装。恒玄BES2300支持外接心率传感器、加速度传感器等外接传感器设备和 eMMC 闪存。"
+        "source_text": "耳机内侧充电触点及通话麦克风开孔特写。"
       }
     },
     {
@@ -177,133 +191,91 @@
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机的配对按键位于充电盒右侧，上方是一个状态指示灯。"
+        "source_text": "耳机背板的Logo特写，耳机背板是耳机的触控区域。"
       }
     },
     {
-      "component": "充电触点",
+      "component": "外壳结构",
       "brand": "",
       "model": "",
       "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机外壳分拆出来的拼装模块一览。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA7014",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA7014",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "36V过电压保护IC（钰泰ETA7014 OVP IC），防止充电电压过高，损坏元件。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA4056",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA4056",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "钰泰ETA4056充电管理IC。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "络达AB1536",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "络达AB1536",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "耳机主控芯片采用络达AB1536蓝牙音频SoC。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "络达AB1536",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "络达AB1536",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "络达AB1536详细资料。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA4056",
+      "qty_hint": "1",
       "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒底部，给耳机充电的Pogo Pin所在的小板使用螺丝固定在塑料保护壳上，通过FPC与主板相连。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机的配对按键位于充电盒右侧，上方是一个状态指示灯。"
-      }
-    },
-    {
-      "component": "耳挂/挂钩",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "耳挂/挂钩",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "包装盒顶部有一个挂钩，便于线下店铺内展示。顶部盒体采用了一种渐变色涂层，体现一种迷幻的未来感。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "SY8801",
-      "qty_hint": "1",
-      "side": "耳机",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "SY8801",
+        "value": "ETA4056",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "小度真无线智能耳机充电盒采用了思远半导体专为TWS耳机充电仓设计的SY8801芯片。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "SY8801",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "SY8801",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "思远SY8801在确保安全、高可靠性能的设计基础上（支持28V输入耐压，内置全功能的充放电过压、过流、过温、短路保护等功能），还集成了I2C通讯功能和内部通讯隔离功能。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "恒玄BES2300-ZP",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "恒玄BES2300-ZP",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "耳机的主控芯片是恒玄BES2300-ZP，BES2300有多个版本、后缀不同配置也不尽相同。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "BES2300-ZP",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "BES2300-ZP",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "耳机的主控芯片是恒玄BES2300-ZP，BES2300有多个版本、后缀不同配置也不尽相同。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "BES2300",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "BES2300",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "耳机的主控芯片是恒玄BES2300-ZP，BES2300有多个版本、后缀不同配置也不尽相同。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "恒玄BES2300",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "恒玄BES2300",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "恒玄BES2300是一款全集成自适应主动降噪方案，支持蓝牙 5.0、IBRT低频转发技术和双模蓝牙 4.2，它还支持第三代 FWS 全无线立体声技术、双麦克风等，采用 28nm HKMG CMOS工艺、BGA 封装。"
+        "source_text": "充电盒耳机内部搭载NFC，让耳机与手机配对更快速，并搭载钰泰ETA4056充电管理IC，有效保障充电盒充电安全。"
       }
     }
   ],

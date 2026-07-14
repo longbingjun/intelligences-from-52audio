@@ -1,0 +1,346 @@
+{
+  "canonical_id": "baseus--bowie-e5x",
+  "brand": "Baseus倍思",
+  "model": "Bowie E5x",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "180640"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "180640"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-11-06",
+  "latest_published": "2023-11-06",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "INJOINIC英集芯IP5518V",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "3V/30mAh锂电池",
+    "speaker": "12mm 动圈单元",
+    "materials": "PC、ABS",
+    "weight_g": "46.6g",
+    "weight_case_g": "",
+    "weight_earbud_g": "4.1g",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 18,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "180640",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "INJOINIC英集芯IP5518V",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5518V",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "采用了INJOINIC英集芯IP5518V多功能电源管理SoC负责充放电管理，支持最大500mA充电电流，300mA输出电流，升压效率高至93%，同时集成MCU、电池电量指示、独立入仓检测等功能，单芯片为TWS蓝牙耳机充电仓提供了完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3V/30mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3V/30mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置旭航诚电子330mAh锂电池，配备有电路保护板负责充放电保护；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BT8922D",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BT8922D",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片为中科蓝讯“讯龙二代”BT8922D蓝牙音频SoC，内置32位高性能RISC-V CPU，支持蓝牙5.4双模，支持声加单MIC DNN通话算法，集成降压及锂电池充电、低功耗触摸按键功能；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "12mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "12mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载12mm动圈单元，MIC-POWER微电新能源0.135Wh钢壳扣式电池；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "单耳还采用了一颗MEMS麦克风，用于语音通话功能拾音。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面展示有产品的详细参数信息，名称：倍思TWS真无线蓝牙耳机，型号：Baseus Bowie E5x，材质：ABS+PC，蓝牙版本：V5.3，通讯距离：10米，听歌时间：约6小时（70%音量)，配合充电盒听歌时间：约25小时，电池容量：35mAh/0.135Wh（耳机），330mAh/1.22Wh（充电盒），耳机额定输入：DC5V-70mA，充电盒额定输入：DC5V-350mA等。制造商：深圳市倍思科技有限公司。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面展示有产品的详细参数信息，名称：倍思TWS真无线蓝牙耳机，型号：Baseus Bowie E5x，材质：ABS+PC，蓝牙版本：V5.3，通讯距离：10米，听歌时间：约6小时（70%音量)，配合充电盒听歌时间：约25小时，电池容量：35mAh/0.135Wh（耳机），330mAh/1.22Wh（充电盒），耳机额定输入：DC5V-70mA，充电盒额定输入：DC5V-350mA等。制造商：深圳市倍思科技有限公司。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "倍思Bowie E5x耳机外侧外观一览，耳机柄背部盖板外围采用了透明材质，可以看到内部主板单元及精密元器件。中间设计有“银色拾音孔”装饰，靠下为触控区域。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "倍思Bowie E5x真无线耳机在功能配置方面，采用PEEK+PU复合振膜，融合电镀彩色工艺，增强中高频细节，兼具美学外观和出色的声学表现；内置主副MIC阵列，搭配降噪算法，保障清晰通话；支持蓝牙5.3，支持BSC智慧双连，来电自动切换；支持DCLL倍思双通道低延迟技术，游戏延迟低至60ms；支持倍思瞬时闪充，充电10分钟，续航2小时，满电状态，支持6h/25h的续航时间。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "倍思Bowie E5x真无线耳机在功能配置方面，采用PEEK+PU复合振膜，融合电镀彩色工艺，增强中高频细节，兼具美学外观和出色的声学表现；内置主副MIC阵列，搭配降噪算法，保障清晰通话；支持蓝牙5.3，支持BSC智慧双连，来电自动切换；支持DCLL倍思双通道低延迟技术，游戏延迟低至60ms；支持倍思瞬时闪充，充电10分钟，续航2小时，满电状态，支持6h/25h的续航时间。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "中科蓝讯“讯龙二代”BT8922D蓝牙音频SoC，采用40nm ULP工艺，内置32位高性能RISC-V CPU，支持DSP指令与神经网络加速器，内置多个小核组成多核架构，有效降低功耗。内置2MB Flash存储单元，支持FOTA，终端用户可通过APP升级耳机固件。内置GPIO引脚，可灵活编程上拉或下拉，支持GPIO唤醒或中断。内建高性能蓝牙射频电路，无线接收灵敏度达到-94dBm，发射功率大于10dBm的级别，满足不同的产品设计及天线结构。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "透明外壳能够使产品具有一种清透的美感，同时能够展现产品内部精密结构、元器件的工业设计之美。在TWS耳机市场，从苹果旗下Beats品牌到新创品牌Nothing，以及其他许多品牌都推出了透明外壳设计的产品，并获得了不错的市场反馈。近期，Baseus倍思发布了Bowie E5x真无线耳机，采用了透明悬浮仓和独立透明前腔设计，潮酷个性，极具辨识度。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒背面外观一览，设置有蓝牙配对功能按键，内部结构上印有产品参数信息，与包装盒上一致。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱一侧结构一览，设置有电池单元和功能按键、指示灯排线。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "连接充电触点的金属弹片特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP5518V",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5518V",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "INJOINIC英集芯IP5518V是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5518V",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5518V",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "IP5518V的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BT8922D",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BT8922D",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "中科蓝讯“讯龙二代”BT8922D蓝牙音频SoC，采用40nm ULP工艺，内置32位高性能RISC-V CPU，支持DSP指令与神经网络加速器，内置多个小核组成多核架构，有效降低功耗。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Baseus倍思Bowie E5x真无线耳机在外观方面，充电盒采用了圆形设计，内部座舱和透明外壳通过双层结构处理，呈现了犹如悬浮的视觉效果；内部座舱还采用了“星轨”弧形设计，搭配双侧“月牙”形RGB灯光，极具未来科技感。柄状的入耳式耳机同样采用了透明元素设计，并通过电镀彩色振膜，带来了非常炫酷的视觉观感。 内部主要配置方面，充电盒内置旭航诚电子330mAh锂电池，配备有电路保护板负责充放电保护；采用了INJOINIC英集芯IP5518V多功能电源管理SoC负责充放电管理，支持最大500mA充电电流，300mA输出电流，升压效率高至93%，同时集成MCU、电池电量指示、独立入仓检测等功能，单芯片为TWS蓝牙耳机充电仓提供了完整的电源解决方案。 耳机内部搭载12mm动圈单元，MIC-POWER微电新能源0.135Wh钢壳扣式电池；主控芯片为中科蓝讯“讯龙二代”BT8922D蓝牙音频SoC，内置32位高性能RISC-V CPU，支持蓝牙5.4双模，支持声加单MIC DNN通话算法，集成降压及锂电池充电、低功耗触摸按键功能；单耳还采用了一颗MEMS麦克风，用于语音通话功能拾音。",
+  "layer_refs": {
+    "technical": [
+      "report:180640"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "内建高性能蓝牙射频电路，无线接收灵敏度达到-94dBm，发射功率大于10dBm的级别，满足不同的产品设计及天线结构。",
+        "tag": "其他",
+        "evidence": {
+          "value": "内建高性能蓝牙射频电路，无线接收灵敏度达到-94dBm，发射功率大于10dBm的级别，满足不同的产品设计及天线结构。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "内建高性能蓝牙射频电路，无线接收灵敏度达到-94dBm，发射功率大于10dBm的级别，满足不同的产品设计及天线结构。"
+        }
+      },
+      {
+        "text": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+        "tag": "其他",
+        "evidence": {
+          "value": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。"
+        }
+      },
+      {
+        "text": "IP5518V内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "IP5518V内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "IP5518V内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "内建高性能蓝牙射频电路，无线接收灵敏度达到-94dBm，发射功率大于10dBm的级别，满足不同的产品设计及天线结构。",
+    "launch_date": null,
+    "best_report_id": "180640",
+    "best_video_id": null
+  }
+}

@@ -26,7 +26,7 @@
     "weight_earbud_g": "",
     "ip_rating": "",
     "bluetooth": "",
-    "bom_row_count": 16,
+    "bom_row_count": 9,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -37,20 +37,6 @@
   },
   "bom_table": [
     {
-      "component": "充电仓",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "充电仓",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "今天我爱音频网拆解的是来自华米科技的一款支持睡眠健康监测功能的产品，Amazfit ZenBuds睡眠耳塞。这款睡眠耳塞单耳仅重2克左右，内部搭载楼氏全频动铁发声单元，可以播放手机或者耳机内储存的助眠音律；耳塞检测到用户熟睡后自动暂停播放，也可以定时停止播放；睡眠过程中耳塞可以监测心率，记录睡眠状态和阶段，用户可在APP内查看睡眠质量报告；耳塞的睡眠续航为12小时，睡眠音律可连续播放8小时，充电盒额外提供7次续航。在设计和功能定位上都不同于市面上的真无线耳机类产品。"
-      }
-    },
-    {
       "component": "电池",
       "brand": "",
       "model": "",
@@ -59,6 +45,20 @@
       "role": "major",
       "evidence": {
         "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盒盖内侧是部分产品信息。耳塞型号A1943，充电盒A1945，输入5V⎓0.2A，输出5V⎓0.02A，电池容量280mAh、1.06Wh。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "盒盖内侧是部分产品信息。耳塞型号A1943，充电盒A1945，输入5V⎓0.2A，输出5V⎓0.02A，电池容量280mAh、1.06Wh。"
@@ -83,13 +83,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "喇叭单元",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "今天我爱音频网拆解的是来自华米科技的一款支持睡眠健康监测功能的产品，Amazfit ZenBuds睡眠耳塞。这款睡眠耳塞单耳仅重2克左右，内部搭载楼氏全频动铁发声单元，可以播放手机或者耳机内储存的助眠音律；耳塞检测到用户熟睡后自动暂停播放，也可以定时停止播放；睡眠过程中耳塞可以监测心率，记录睡眠状态和阶段，用户可在APP内查看睡眠质量报告；耳塞的睡眠续航为12小时，睡眠音律可连续播放8小时，充电盒额外提供7次续航。在设计和功能定位上都不同于市面上的真无线耳机类产品。"
+        "source_text": "Amazfit ZenBuds 睡眠耳塞采用楼氏电子的动铁单元发声，型号33575，动铁单元具有体积小、功耗低、灵敏度高的特点，一直被广泛应用在助听器类产品上。"
       }
     },
     {
@@ -111,125 +111,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "充电盒",
+      "side": "",
       "role": "minor",
       "evidence": {
         "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒正面的三个电量指示灯。"
-      }
-    },
-    {
-      "component": "充电触点",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机充电座舱展示，两根金色Pogo Pin之间是吸附耳机的磁铁，也涂刷成了与壳体近似的颜色。"
-      }
-    },
-    {
-      "component": "外壳结构",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "外壳结构",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "外壳内侧展示，外壳和电池之间有胶水固定。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "SY7072",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "SY7072",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "矽力杰 SY7072A 超低电压输入升压转换器，工作频率1MHz，左侧为升压电感。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "SY7072A",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "SY7072A",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "矽力杰 SY7072A 超低电压输入升压转换器，工作频率1MHz，左侧为升压电感。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "SY6287",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "SY6287",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "矽力杰SY6287C低损耗功率开关，支持可编程的电流限制，检测耳机充电电流过大时关闭输出。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "SY6287C",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "SY6287C",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "矽力杰SY6287C低损耗功率开关，支持可编程的电流限制，检测耳机充电电流过大时关闭输出。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "SY6287",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "SY6287",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "矽力杰SY6287C详细资料。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "SY6287C",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "SY6287C",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "矽力杰SY6287C详细资料。"
+        "source_text": "充电接口：FPC连接指示灯、电池和充电接口。"
       }
     },
     {
@@ -243,7 +131,7 @@
         "value": "SY7072",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "内部电路方面，充电盒通过Type-C接口输入电源，TI德州仪器BQ24045支持输入过压保护并为内置电池充电；软包电池容量280mAh；矽力杰SY7072A负责电池输出升压为耳塞充电；充电盒采用ST意法半导体的STM32L071CB MCU负责整机控制。"
+        "source_text": "充电接口：内部电路方面，充电盒通过Type-C接口输入电源，TI德州仪器BQ24045支持输入过压保护并为内置电池充电；软包电池容量280mAh；矽力杰SY7072A负责电池输出升压为耳塞充电；充电盒采用ST意法半导体的STM32L071CB MCU负责整机控制。"
       }
     },
     {
@@ -257,7 +145,21 @@
         "value": "SY7072A",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "内部电路方面，充电盒通过Type-C接口输入电源，TI德州仪器BQ24045支持输入过压保护并为内置电池充电；软包电池容量280mAh；矽力杰SY7072A负责电池输出升压为耳塞充电；充电盒采用ST意法半导体的STM32L071CB MCU负责整机控制。"
+        "source_text": "充电接口：内部电路方面，充电盒通过Type-C接口输入电源，TI德州仪器BQ24045支持输入过压保护并为内置电池充电；软包电池容量280mAh；矽力杰SY7072A负责电池输出升压为耳塞充电；充电盒采用ST意法半导体的STM32L071CB MCU负责整机控制。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SY7072",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SY7072",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：280\n芯片 SY7072\n芯片 SY6287\n芯片 SY7072A\n芯片 SY6287C"
       }
     }
   ],
@@ -276,13 +178,23 @@
   "market": {
     "selling_points": [
       {
-        "text": "据我爱音频网拆解了解到，\n包括苹果、亚马逊、三星、小米、vivo、出门问问等品牌的旗舰TWS耳机均大量采用了ST意法半导体的传感器\n。",
+        "text": "健康监测功能对于智能穿戴设备来说一直是比较重要的发展方向，此前在手环、手表类产品上已经发展得较为成熟，耳机也具 […]\n据我爱音频网拆解了解到，\n包括苹果、亚马逊、三星、小米、vivo、出门问问等品牌的旗舰TWS耳机均大量采用了ST意法半导体的传感器\n。",
         "tag": "旗舰定位",
         "evidence": {
-          "value": "据我爱音频网拆解了解到，\n包括苹果、亚马逊、三星、小米、vivo、出门问问等品牌的旗舰TWS耳机均大量采用了ST意法半导体的传感器\n。",
-          "confidence": 0.73,
+          "value": "健康监测功能对于智能穿戴设备来说一直是比较重要的发展方向，此前在手环、手表类产品上已经发展得较为成熟，耳机也具 […]\n据我爱音频网拆解了解到，\n包括苹果、亚马逊、三星、小米、vivo、出门问问等品牌的旗舰TWS耳机均大量采用了ST意法半导体的传感器\n。",
+          "confidence": 0.75,
           "source_type": "text",
-          "source_text": "据我爱音频网拆解了解到，\n包括苹果、亚马逊、三星、小米、vivo、出门问问等品牌的旗舰TWS耳机均大量采用了ST意法半导体的传感器\n。"
+          "source_text": "健康监测功能对于智能穿戴设备来说一直是比较重要的发展方向，此前在手环、手表类产品上已经发展得较为成熟，耳机也具 […]\n据我爱音频网拆解了解到，\n包括苹果、亚马逊、三星、小米、vivo、出门问问等品牌的旗舰TWS耳机均大量采用了ST意法半导体的传感器\n。"
+        }
+      },
+      {
+        "text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：充电盒采用软包电池，供应商是恒泰科技，型号PL332135V，额定容量280mAh/1.06Wh，典型值290mAh，额定电压3.8V，充电限制电压4.35V，该电池可适用于TWS耳机充电盒及智能手表等3C电子产品。",
+        "tag": "其他",
+        "evidence": {
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：充电盒采用软包电池，供应商是恒泰科技，型号PL332135V，额定容量280mAh/1.06Wh，典型值290mAh，额定电压3.8V，充电限制电压4.35V，该电池可适用于TWS耳机充电盒及智能手表等3C电子产品。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：充电盒采用软包电池，供应商是恒泰科技，型号PL332135V，额定容量280mAh/1.06Wh，典型值290mAh，额定电压3.8V，充电限制电压4.35V，该电池可适用于TWS耳机充电盒及智能手表等3C电子产品。"
         }
       },
       {
@@ -293,6 +205,16 @@
           "confidence": 0.57,
           "source_type": "text",
           "source_text": "出音孔处细密的防尘网。"
+        }
+      },
+      {
+        "text": "标记/认证：扣式电池的供应商是重庆紫建，额定电压3.8V，额定容量10mAh/0.038Wh。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：扣式电池的供应商是重庆紫建，额定电压3.8V，额定容量10mAh/0.038Wh。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "标记/认证：扣式电池的供应商是重庆紫建，额定电压3.8V，额定容量10mAh/0.038Wh。"
         }
       },
       {
@@ -307,10 +229,9 @@
       }
     ],
     "scenarios": [
-      "运动",
       "睡眠"
     ],
-    "positioning_summary": "据我爱音频网拆解了解到，\n包括苹果、亚马逊、三星、小米、vivo、出门问问等品牌的旗舰TWS耳机均大量采用了ST意法半导体的传感器\n。",
+    "positioning_summary": "健康监测功能对于智能穿戴设备来说一直是比较重要的发展方向，此前在手环、手表类产品上已经发展得较为成熟，耳机也具 […]\n据我爱音频网拆解了解到，\n包括苹果、亚马逊、三星、小米、vivo、出门问问等品牌的旗舰TWS耳机均大量采用了ST意法半导体的传感器\n。",
     "launch_date": null,
     "best_report_id": "60161",
     "best_video_id": null

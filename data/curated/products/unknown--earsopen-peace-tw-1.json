@@ -26,13 +26,13 @@
     "battery_ear": "电池",
     "battery_case": "430 mAh",
     "speaker": "喇叭单元",
-    "materials": "塑料、PC",
+    "materials": "PC",
     "weight_g": "10g",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "IPX7",
     "bluetooth": "5.0",
-    "bom_row_count": 11,
+    "bom_row_count": 10,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -43,17 +43,31 @@
   },
   "bom_table": [
     {
-      "component": "充电仓",
+      "component": "电池",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "耳机",
       "role": "major",
       "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "目前市面上主流的骨传导蓝牙耳机都采用的是挂耳式设计，因为发声方式特殊，挂耳式设计可以巧妙地将电池和主板电路各放 […]"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "包装盒背面贴有中文标签。产品名称“earsopen真无线骨传导耳机”，型号“PEACE TW-1”，频率范围4Hz~40000Hz，蓝牙版本5.0。耳机尺寸为32*27*30mm，单边重量约9g；充电仓尺寸为70*43*36mm，重量约43g。耳机可连续使用约5小时，搭配充电仓使用可实现12小时的续航听音，耳机充满电约1.5小时，充电仓充满电约2小时。"
+        "source_text": "充电盒主板使用四颗螺丝固定，同时固定住下面的电池。"
       }
     },
     {
@@ -67,21 +81,7 @@
         "value": "主板/PCBA",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "目前市面上主流的骨传导蓝牙耳机都采用的是挂耳式设计，因为发声方式特殊，挂耳式设计可以巧妙地将电池和主板电路各放置在耳机一侧，分担重量，同时也能保障佩戴的舒适度和声音传播的最佳效果，颈挂式骨传导蓝牙耳机同理。"
-      }
-    },
-    {
-      "component": "电池",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "电池",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "目前市面上主流的骨传导蓝牙耳机都采用的是挂耳式设计，因为发声方式特殊，挂耳式设计可以巧妙地将电池和主板电路各放置在耳机一侧，分担重量，同时也能保障佩戴的舒适度和声音传播的最佳效果，颈挂式骨传导蓝牙耳机同理。"
+        "source_text": "目前市面上主流的骨传导蓝牙耳机都采用的是挂耳式设计，因为发声方式特殊，挂耳式设计可以巧妙地将电池和主板电路各放 […]"
       }
     },
     {
@@ -95,7 +95,7 @@
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "机身底部有两个按键，圆心处是指示灯，旁边的开孔是麦克风的拾音孔。"
+        "source_text": "机身上的另一麦克风开孔，用于辅助通话降噪功能。"
       }
     },
     {
@@ -127,59 +127,31 @@
       }
     },
     {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "逸鸥PEACE真无线骨传导耳机单耳重量约为10g，“T型结构”设计可以确保日常使用乃至运动场景的稳定佩戴；耳机支持取出即连，最多可保留2个配对记录，方便手机快速连接。逸鸥PEACE采用实体按键控制，有指示灯、提示音和英语人声相配合，考虑得非常全面，但也需要一定的学习成本。在较为安静的环境下，通话体验和游戏体验与传统TWS耳机相近。之前我爱音频网已经对这款产品进行了详细评测，下面我们一起来看看这款产品的深度拆解吧~"
-      }
-    },
-    {
       "component": "触控/按键",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "minor",
       "evidence": {
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "逸鸥PEACE真无线骨传导耳机单耳重量约为10g，“T型结构”设计可以确保日常使用乃至运动场景的稳定佩戴；耳机支持取出即连，最多可保留2个配对记录，方便手机快速连接。逸鸥PEACE采用实体按键控制，有指示灯、提示音和英语人声相配合，考虑得非常全面，但也需要一定的学习成本。在较为安静的环境下，通话体验和游戏体验与传统TWS耳机相近。之前我爱音频网已经对这款产品进行了详细评测，下面我们一起来看看这款产品的深度拆解吧~"
+        "source_text": "机身底部有两个按键，圆心处是指示灯，旁边的开孔是麦克风的拾音孔。"
       }
     },
     {
-      "component": "充电触点",
+      "component": "指示灯",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "minor",
       "evidence": {
-        "value": "充电触点",
+        "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机充电触点位置有绝缘膜，减少拆封前的电量损耗，使用前需要撕下。"
-      }
-    },
-    {
-      "component": "外壳结构",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "外壳结构",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "另一片外壳上是耳机的充电触点，通过插座连接到主板上，方便组装生产。"
+        "source_text": "机身底部有两个按键，圆心处是指示灯，旁边的开孔是麦克风的拾音孔。"
       }
     },
     {
@@ -193,7 +165,21 @@
         "value": "AB1532",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "逸鸥 PEACE TW-1 真无线骨传导耳机的蓝牙主控芯片是Airoha络达的AB1532，它支持蓝牙5.0双模，并且支持蓝牙低功耗模式，支持A2DP，HFP，AVRCP，SPP等功能。"
+        "source_text": "标记/认证：逸鸥 PEACE TW-1 真无线骨传导耳机的蓝牙主控芯片是Airoha络达的AB1532，它支持蓝牙5.0双模，并且支持蓝牙低功耗模式，支持A2DP，HFP，AVRCP，SPP等功能。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "络达AB1532",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "络达AB1532",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：430\n芯片 络达AB1532"
       }
     }
   ],
@@ -211,6 +197,26 @@
   "unboxing": null,
   "market": {
     "selling_points": [
+      {
+        "text": "目前市面上主流的骨传导蓝牙耳机都采用的是挂耳式设计，因为发声方式特殊，挂耳式设计可以巧妙地将电池和主板电路各放 […]\n机身上的另一麦克风开孔，用于辅助通话降噪功能。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "目前市面上主流的骨传导蓝牙耳机都采用的是挂耳式设计，因为发声方式特殊，挂耳式设计可以巧妙地将电池和主板电路各放 […]\n机身上的另一麦克风开孔，用于辅助通话降噪功能。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "目前市面上主流的骨传导蓝牙耳机都采用的是挂耳式设计，因为发声方式特殊，挂耳式设计可以巧妙地将电池和主板电路各放 […]\n机身上的另一麦克风开孔，用于辅助通话降噪功能。"
+        }
+      },
+      {
+        "text": "标记/认证：并且耳机支持IPX7级防水防汗，雨天和运动场景也能放心使用。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "标记/认证：并且耳机支持IPX7级防水防汗，雨天和运动场景也能放心使用。",
+          "confidence": 0.62,
+          "source_type": "text",
+          "source_text": "标记/认证：并且耳机支持IPX7级防水防汗，雨天和运动场景也能放心使用。"
+        }
+      },
       {
         "text": "机身上的另一麦克风开孔，用于辅助通话降噪功能。",
         "tag": "降噪",
@@ -232,42 +238,31 @@
         }
       },
       {
-        "text": "并且耳机支持IPX7级防水防汗，雨天和运动场景也能放心使用。",
-        "tag": "防水防尘",
+        "text": "标记/认证：三、逸鸥 PEACE TW-1 耳机拆解\n继续来拆解逸鸥 PEACE TW-1 的耳机部分，耳机的佩戴方式是夹在耳廓上，实际体验下来比想象中要舒适、自然。",
+        "tag": "其他",
         "evidence": {
-          "value": "并且耳机支持IPX7级防水防汗，雨天和运动场景也能放心使用。",
-          "confidence": 0.62,
+          "value": "标记/认证：三、逸鸥 PEACE TW-1 耳机拆解\n继续来拆解逸鸥 PEACE TW-1 的耳机部分，耳机的佩戴方式是夹在耳廓上，实际体验下来比想象中要舒适、自然。",
+          "confidence": 0.69,
           "source_type": "text",
-          "source_text": "并且耳机支持IPX7级防水防汗，雨天和运动场景也能放心使用。"
+          "source_text": "标记/认证：三、逸鸥 PEACE TW-1 耳机拆解\n继续来拆解逸鸥 PEACE TW-1 的耳机部分，耳机的佩戴方式是夹在耳廓上，实际体验下来比想象中要舒适、自然。"
         }
       },
       {
-        "text": "音频解码器支持24bit 96KHz采样率的解码，带有多段EQ调节；支持降噪和回声消除功能，可以增强语音通话体验。",
-        "tag": "降噪",
+        "text": "标记/认证：逸鸥PEACE采用实体按键控制，有指示灯、提示音和英语人声相配合，考虑得非常全面，但也需要一定的学习成本。",
+        "tag": "其他",
         "evidence": {
-          "value": "音频解码器支持24bit 96KHz采样率的解码，带有多段EQ调节；支持降噪和回声消除功能，可以增强语音通话体验。",
-          "confidence": 0.61,
+          "value": "标记/认证：逸鸥PEACE采用实体按键控制，有指示灯、提示音和英语人声相配合，考虑得非常全面，但也需要一定的学习成本。",
+          "confidence": 0.65,
           "source_type": "text",
-          "source_text": "音频解码器支持24bit 96KHz采样率的解码，带有多段EQ调节；支持降噪和回声消除功能，可以增强语音通话体验。"
-        }
-      },
-      {
-        "text": "机身内部壳体上的开孔位置有防尘网。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "机身内部壳体上的开孔位置有防尘网。",
-          "confidence": 0.55,
-          "source_type": "text",
-          "source_text": "机身内部壳体上的开孔位置有防尘网。"
+          "source_text": "标记/认证：逸鸥PEACE采用实体按键控制，有指示灯、提示音和英语人声相配合，考虑得非常全面，但也需要一定的学习成本。"
         }
       }
     ],
     "scenarios": [
       "运动",
-      "游戏",
       "通话"
     ],
-    "positioning_summary": "机身上的另一麦克风开孔，用于辅助通话降噪功能。",
+    "positioning_summary": "目前市面上主流的骨传导蓝牙耳机都采用的是挂耳式设计，因为发声方式特殊，挂耳式设计可以巧妙地将电池和主板电路各放 […]\n机身上的另一麦克风开孔，用于辅助通话降噪功能。",
     "launch_date": null,
     "best_report_id": "64234",
     "best_video_id": null

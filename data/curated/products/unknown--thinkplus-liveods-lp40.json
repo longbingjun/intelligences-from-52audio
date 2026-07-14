@@ -21,12 +21,12 @@
     "battery_case": "30 mAh",
     "speaker": "喇叭单元",
     "materials": "PC",
-    "weight_g": "36.3g",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
     "bluetooth": "5.3",
-    "bom_row_count": 12,
+    "bom_row_count": 11,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -51,6 +51,20 @@
       }
     },
     {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱另外一侧结构一览，设置有两片挡板，起到保护内部电池和固定主板的作用。"
+      }
+    },
+    {
       "component": "主板/PCBA",
       "brand": "",
       "model": "",
@@ -65,31 +79,17 @@
       }
     },
     {
-      "component": "电池",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "电池",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "包装盒背面展示有产品的部分参数信息，传输距离：≥10m，电池容量：30mAh，使用时长：约5小时（耳机），充电时间：约1.5小时（耳机），额定输入：5V-30mA；充电盒规格，电池容量：250mAh，充电时间：约1.5小时，额定输入：5V-300mA；制造商：联想（北京）有限公司。"
-      }
-    },
-    {
       "component": "麦克风",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机采用了尾塞的充电结构，中间设置有麦克风拾音孔。"
+        "source_text": "支持单/双麦克风降噪，支持两路模拟麦克风放大，内置麦克风偏置。"
       }
     },
     {
@@ -149,17 +149,17 @@
       }
     },
     {
-      "component": "指示灯",
+      "component": "芯片/模组",
       "brand": "",
-      "model": "",
-      "qty_hint": "",
+      "model": "英集芯IP5413",
+      "qty_hint": "1",
       "side": "充电盒",
-      "role": "minor",
+      "role": "主控/蓝牙",
       "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
+        "value": "英集芯IP5413",
+        "confidence": 0.78,
         "source_type": "text",
-        "source_text": "thinkplus Liveods LP40充电盒采用了采用了圆角方形设计，亮面工艺处理，体积非常小巧。正面开盖处设置有倒角，便于开盖。设计有“Lenovo”品牌LOGO和指示灯。"
+        "source_text": "充电接口：内部电路方面，充电盒采用了Type-C接口输入电源，内置250mAh锂离子软包电池，配备有电路保护板和锂电保护IC，由英集芯IP5413\n电源管理SOC为内置电池充电，最大充电电流可灵活配置，并提供锂电池充电管理、电量指示、升压为耳机充电等功能。"
       }
     },
     {
@@ -173,7 +173,7 @@
         "value": "Injoinic英集芯IP5413",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "Injoinic英集芯IP5413是一款\n集成 5V 升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SOC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+        "source_text": "标记/认证：Injoinic英集芯IP5413是一款\n集成 5V 升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SOC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
       }
     },
     {
@@ -187,21 +187,7 @@
         "value": "IP5413",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "IP5413的线性充电提供最大 400mA 充电电流，可灵活配置最大充电电流。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "英集芯IP5413",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "英集芯IP5413",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "内部电路方面，充电盒采用了Type-C接口输入电源，内置250mAh锂离子软包电池，配备有电路保护板和锂电保护IC，由英集芯IP5413\n电源管理SOC为内置电池充电，最大充电电流可灵活配置，并提供锂电池充电管理、电量指示、升压为耳机充电等功能。"
+        "source_text": "标记/认证：IP5413的线性充电提供最大 400mA 充电电流，可灵活配置最大充电电流。"
       }
     }
   ],
@@ -220,13 +206,23 @@
   "market": {
     "selling_points": [
       {
-        "text": "另外一侧图文介绍有四项产品功能特点，舒适佩戴、高清通话、持久续航、一键触控。",
+        "text": "ThinkPlus是联想旗下ThinkPad品牌创立25周年之际推出的智能生态战略，主要是在以PC的基础上，丰 […]\n另外一侧图文介绍有四项产品功能特点，舒适佩戴、高清通话、持久续航、一键触控。",
         "tag": "舒适佩戴",
         "evidence": {
-          "value": "另外一侧图文介绍有四项产品功能特点，舒适佩戴、高清通话、持久续航、一键触控。",
+          "value": "ThinkPlus是联想旗下ThinkPad品牌创立25周年之际推出的智能生态战略，主要是在以PC的基础上，丰 […]\n另外一侧图文介绍有四项产品功能特点，舒适佩戴、高清通话、持久续航、一键触控。",
           "confidence": 0.75,
           "source_type": "text",
-          "source_text": "另外一侧图文介绍有四项产品功能特点，舒适佩戴、高清通话、持久续航、一键触控。"
+          "source_text": "ThinkPlus是联想旗下ThinkPad品牌创立25周年之际推出的智能生态战略，主要是在以PC的基础上，丰 […]\n另外一侧图文介绍有四项产品功能特点，舒适佩戴、高清通话、持久续航、一键触控。"
+        }
+      },
+      {
+        "text": "标记/认证：IP\n5413可以使用PCB铜箔绕线的方式产生电感从而取代传统贴片电感以降低成本。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：IP\n5413可以使用PCB铜箔绕线的方式产生电感从而取代传统贴片电感以降低成本。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "标记/认证：IP\n5413可以使用PCB铜箔绕线的方式产生电感从而取代传统贴片电感以降低成本。"
         }
       },
       {
@@ -240,33 +236,23 @@
         }
       },
       {
-        "text": "耳机出音嘴特写，椭圆形设计，防尘网防护，防止异物进入音腔。",
-        "tag": "防水防尘",
+        "text": "标记/认证：充电盒盖内侧\n刻\n有产品型号：LP40，输入：5V-300mA，容量：250mAh，\n联想（北京）有限公司，\n中国制造。",
+        "tag": "其他",
         "evidence": {
-          "value": "耳机出音嘴特写，椭圆形设计，防尘网防护，防止异物进入音腔。",
-          "confidence": 0.61,
+          "value": "标记/认证：充电盒盖内侧\n刻\n有产品型号：LP40，输入：5V-300mA，容量：250mAh，\n联想（北京）有限公司，\n中国制造。",
+          "confidence": 0.72,
           "source_type": "text",
-          "source_text": "耳机出音嘴特写，椭圆形设计，防尘网防护，防止异物进入音腔。"
+          "source_text": "标记/认证：充电盒盖内侧\n刻\n有产品型号：LP40，输入：5V-300mA，容量：250mAh，\n联想（北京）有限公司，\n中国制造。"
         }
       },
       {
-        "text": "强强内部结构一览，调音孔内部防尘网覆盖。",
-        "tag": "防水防尘",
+        "text": "标记/认证：充电盒内采用了锂离子软包电池，型号：FD701230，额定电压：3.7V，额定容量：250mAh，出厂日期：2021年9月。",
+        "tag": "其他",
         "evidence": {
-          "value": "强强内部结构一览，调音孔内部防尘网覆盖。",
-          "confidence": 0.56,
-          "source_type": "text",
-          "source_text": "强强内部结构一览，调音孔内部防尘网覆盖。"
-        }
-      },
-      {
-        "text": "耳机调音孔特写，保持音腔内空气流通，内部有防尘网覆盖。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "耳机调音孔特写，保持音腔内空气流通，内部有防尘网覆盖。",
+          "value": "标记/认证：充电盒内采用了锂离子软包电池，型号：FD701230，额定电压：3.7V，额定容量：250mAh，出厂日期：2021年9月。",
           "confidence": 0.55,
           "source_type": "text",
-          "source_text": "耳机调音孔特写，保持音腔内空气流通，内部有防尘网覆盖。"
+          "source_text": "标记/认证：充电盒内采用了锂离子软包电池，型号：FD701230，额定电压：3.7V，额定容量：250mAh，出厂日期：2021年9月。"
         }
       }
     ],
@@ -274,7 +260,7 @@
       "游戏",
       "通话"
     ],
-    "positioning_summary": "另外一侧图文介绍有四项产品功能特点，舒适佩戴、高清通话、持久续航、一键触控。",
+    "positioning_summary": "ThinkPlus是联想旗下ThinkPad品牌创立25周年之际推出的智能生态战略，主要是在以PC的基础上，丰 […]\n另外一侧图文介绍有四项产品功能特点，舒适佩戴、高清通话、持久续航、一键触控。",
     "launch_date": null,
     "best_report_id": "97130",
     "best_video_id": null

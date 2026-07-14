@@ -17,27 +17,55 @@
   "latest_published": "2021-05-16",
   "internal_match_suggestions": [],
   "cost_snapshot": {
-    "main_chip": "思远半导体SY7636",
+    "main_chip": "思远半导体 SY7636",
     "pmic_case": "",
     "battery_ear": "400 mAh",
     "battery_case": "电池",
-    "speaker": "喇叭单元",
-    "materials": "硅胶",
-    "weight_g": "48.3g",
+    "speaker": "",
+    "materials": "",
+    "weight_g": "48g",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "IPX5",
     "bluetooth": "5.0",
-    "bom_row_count": 12,
+    "bom_row_count": 10,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
     "sales_hint": null,
-    "data_completeness": 0.83,
-    "best_report_id": "80280",
+    "data_completeness": 0.67,
+    "best_report_id": "30440",
     "best_video_id": null
   },
   "bom_table": [
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "网易云在8月份正式上市了自家的TWS新品—网易云音乐氧气真无线耳机LITE版，支持智能指纹触控，通话降噪等功能，并且搭载了炬芯最新的影音蓝牙芯片，支持蓝牙5.0技术。此前我爱音频网曾经拆解过网易云音乐真无线耳机—音乐π。现在，我爱音频网又对网易云TWS家族的网易云音乐氧气真无线耳机LITE版进行了拆解，一起来看看其内部都有哪些独到之处。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒顶盖有一个网易云音乐的logo。"
+      }
+    },
     {
       "component": "电池",
       "brand": "",
@@ -49,35 +77,7 @@
         "value": "电池",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒盖内侧信息有电池容量：400mAh 3.7V/1.48Wh（MAX）；输入：5V⎓1A，输出5V⎓300mA，DD；CMIIT ID：2020DP2250；型号：ME01TWS Pro。"
-      }
-    },
-    {
-      "component": "充电仓",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "充电仓",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "侧边还有部分产品参数信息。产品名称：网易云音乐氧气真无线蓝牙耳机Lite+版；产品型号：ME01TWS Pro；产品类型：真无线立体声耳机；蓝牙版本：V5.0；耳机充电时间：1小时；续航时间：单耳机不低于4.5小时（50%音量），搭配充电盒不低于20小时（50%音量）；无线传输距离：有效距离10米，喇叭阻抗：16Ω；麦克风灵敏度：-40±2dB；公司信息：杭州网易严选贸易有限公司等。"
-      }
-    },
-    {
-      "component": "主板/PCBA",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "主板/PCBA",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "电池单元下方是充电盒的电路主板。"
+        "source_text": "充电盒顶盖内部的参数信息，电池容量：400mAh，3.7V/1.48Wh（MAX），输入：5V⎓1A，输出：5V⎓0.3A，CMIIT ID：2019DP5810，型号：ME01TWS。"
       }
     },
     {
@@ -91,21 +91,7 @@
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "侧边还有部分产品参数信息。产品名称：网易云音乐氧气真无线蓝牙耳机Lite+版；产品型号：ME01TWS Pro；产品类型：真无线立体声耳机；蓝牙版本：V5.0；耳机充电时间：1小时；续航时间：单耳机不低于4.5小时（50%音量），搭配充电盒不低于20小时（50%音量）；无线传输距离：有效距离10米，喇叭阻抗：16Ω；麦克风灵敏度：-40±2dB；公司信息：杭州网易严选贸易有限公司等。"
-      }
-    },
-    {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "喇叭单元",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "前腔内部扬声器单元和充电小板点胶固定，通过导线与主板连接。"
+        "source_text": "耳机背面同样有一个网易云音乐logo，logo部分是耳机的触控区域，单击：播放/暂停，双击：下一曲/激活语音助手，logo旁边是LED/麦克风二合一开孔。"
       }
     },
     {
@@ -113,13 +99,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
+      "side": "耳机",
       "role": "major",
       "evidence": {
         "value": "天线",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "贴片蓝牙天线特写。"
+        "source_text": "耳机内部主板上是陶瓷蓝牙天线，触摸IC，指示灯和MEMS麦克风。"
       }
     },
     {
@@ -127,27 +113,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
+      "side": "耳机",
       "role": "minor",
       "evidence": {
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "包装盒背面展示信息有产品型号：ME01TWS Pro，6项产品功能特点：深度互动网易云音乐、蓝牙5.0芯片、超低延迟、先进触控技术、IPX5防水设计、20小时以上长续航。以及产品整体外观渲染图。"
-      }
-    },
-    {
-      "component": "外壳结构",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "外壳结构",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "从充电盒底部撬开卡扣式的后盖。"
+        "source_text": "网易云在8月份正式上市了自家的TWS新品—网易云音乐氧气真无线耳机LITE版，支持智能指纹触控，通话降噪等功能，并且搭载了炬芯最新的影音蓝牙芯片，支持蓝牙5.0技术。此前我爱音频网曾经拆解过网易云音乐真无线耳机—音乐π。现在，我爱音频网又对网易云TWS家族的网易云音乐氧气真无线耳机LITE版进行了拆解，一起来看看其内部都有哪些独到之处。"
       }
     },
     {
@@ -155,13 +127,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "充电盒",
       "role": "minor",
       "evidence": {
         "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电接口位于耳机背部，有四颗指示灯用于充电盒剩余电量显示。"
+        "source_text": "充电盒背部的Micro-USB充电接口和四颗电量指示灯特写。"
       }
     },
     {
@@ -169,41 +141,41 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "minor",
       "evidence": {
         "value": "充电触点",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "用于与耳机充电的Pogo Pin。"
+        "source_text": "主板上的Pogo Pin充电顶针特写。"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "思远半导体SY7636",
+      "model": "思远半导体 SY7636",
       "qty_hint": "1",
       "side": "",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "思远半导体SY7636",
+        "value": "思远半导体 SY7636",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "TPS思远半导体SY7636是一款专为小容量锂电池充电/放电应用设计的单芯片解决方案，集成了充电电流0.4A的线性充电管理模块，以及放电电流0.5A的同步升压放电管理模块，放电电流截止为10mA。"
+        "source_text": "思远半导体 SY7636\nSY7636是一款专为小容量锂电池充电/放电应用设计的单芯片解决方案IC,集成了充电电流0.4A的线性充电管理模块，以及放电电流0.5A的同步升压 放电管理模块，内置功率MOS。"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "思远半导体SY7636",
+      "model": "SY7636",
       "qty_hint": "1",
-      "side": "充电盒",
+      "side": "耳机",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "思远半导体SY7636",
+        "value": "SY7636",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "内部结构配置上相对比较简单，充电盒采用了Micro USB充电接口，主板上配备了一颗思远半导体SY7636的电源管理IC，为充电盒和耳机内的锂电池充电；电池容量400mAh，配备有电路保护板负责电池的过充过放过流保护。"
+        "source_text": "SY7636是一款蓝牙耳机充电盒（对耳耳机）的充电放电电芯片，可选择控制2/4LED指示灯，充电电流为0.4A，输出电流都为0.5A,放电电流截止为10mA。"
       }
     }
   ],
@@ -223,13 +195,23 @@
   "market": {
     "selling_points": [
       {
-        "text": "鲸孚科技隶属于南孚集团，依托南孚独有的多化学体系技术优势，创新性推出了全球首款大容量物联电池--传应。",
+        "text": "网易云音乐作为国内用户量众多的音乐平台，在TWS耳机爆火后，相继推出了氧气MINI版、ChargerLAB P […]\n鲸孚科技隶属于南孚集团，依托南孚独有的多化学体系技术优势，创新性推出了全球首款大容量物联电池--传应。",
         "tag": "其他",
         "evidence": {
-          "value": "鲸孚科技隶属于南孚集团，依托南孚独有的多化学体系技术优势，创新性推出了全球首款大容量物联电池--传应。",
+          "value": "网易云音乐作为国内用户量众多的音乐平台，在TWS耳机爆火后，相继推出了氧气MINI版、ChargerLAB P […]\n鲸孚科技隶属于南孚集团，依托南孚独有的多化学体系技术优势，创新性推出了全球首款大容量物联电池--传应。",
           "confidence": 0.75,
           "source_type": "text",
-          "source_text": "鲸孚科技隶属于南孚集团，依托南孚独有的多化学体系技术优势，创新性推出了全球首款大容量物联电池--传应。"
+          "source_text": "网易云音乐作为国内用户量众多的音乐平台，在TWS耳机爆火后，相继推出了氧气MINI版、ChargerLAB P […]\n鲸孚科技隶属于南孚集团，依托南孚独有的多化学体系技术优势，创新性推出了全球首款大容量物联电池--传应。"
+        }
+      },
+      {
+        "text": "标记/认证：产品名称：网易云音乐氧气真无线蓝牙耳机Lite+版；产品型号：ME01TWS Pro；产品类型：真无线立体声耳机；蓝牙版本：V5.0；耳机充电时间：1小时；续航时间：单耳机不低于4.5小时（50%\n音\n量），搭配充电盒不低于20小时（50%\n音\n量）；无线传输距离：有效距离10米，喇叭阻抗：16Ω；麦克风灵敏度：-40±2dB；公司信息：杭州网易严选贸易有限公司等。",
+        "tag": "长续航",
+        "evidence": {
+          "value": "标记/认证：产品名称：网易云音乐氧气真无线蓝牙耳机Lite+版；产品型号：ME01TWS Pro；产品类型：真无线立体声耳机；蓝牙版本：V5.0；耳机充电时间：1小时；续航时间：单耳机不低于4.5小时（50%\n音\n量），搭配充电盒不低于20小时（50%\n音\n量）；无线传输距离：有效距离10米，喇叭阻抗：16Ω；麦克风灵敏度：-40±2dB；公司信息：杭州网易严选贸易有限公司等。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "标记/认证：产品名称：网易云音乐氧气真无线蓝牙耳机Lite+版；产品型号：ME01TWS Pro；产品类型：真无线立体声耳机；蓝牙版本：V5.0；耳机充电时间：1小时；续航时间：单耳机不低于4.5小时（50%\n音\n量），搭配充电盒不低于20小时（50%\n音\n量）；无线传输距离：有效距离10米，喇叭阻抗：16Ω；麦克风灵敏度：-40±2dB；公司信息：杭州网易严选贸易有限公司等。"
         }
       },
       {
@@ -274,10 +256,9 @@
       }
     ],
     "scenarios": [
-      "游戏",
-      "通话"
+      "游戏"
     ],
-    "positioning_summary": "鲸孚科技隶属于南孚集团，依托南孚独有的多化学体系技术优势，创新性推出了全球首款大容量物联电池--传应。",
+    "positioning_summary": "网易云音乐作为国内用户量众多的音乐平台，在TWS耳机爆火后，相继推出了氧气MINI版、ChargerLAB P […]\n鲸孚科技隶属于南孚集团，依托南孚独有的多化学体系技术优势，创新性推出了全球首款大容量物联电池--传应。",
     "launch_date": null,
     "best_report_id": "80280",
     "best_video_id": null

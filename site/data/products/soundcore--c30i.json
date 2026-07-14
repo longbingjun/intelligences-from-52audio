@@ -1,0 +1,331 @@
+{
+  "canonical_id": "soundcore--c30i",
+  "brand": "Soundcore声阔",
+  "model": "C30i",
+  "category": "开放式耳机",
+  "report_ids": [
+    "222069"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "222069"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2024-12-12",
+  "latest_published": "2024-12-12",
+  "internal_match_suggestions": [
+    {
+      "sku": "OpenDots 2",
+      "score": 0.483,
+      "reason": "型号相似度 48%（匹配 OpenDots 2）；品类一致"
+    }
+  ],
+  "cost_snapshot": {
+    "main_chip": "WINSEMI稳先微WSDF2310",
+    "pmic_case": "WINSEMI稳先微 WINSEMI稳先微WSDF2310C",
+    "battery_ear": "电池",
+    "battery_case": "4V/70mAh锂电池",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "51.6g",
+    "weight_case_g": "",
+    "weight_earbud_g": "5.8g",
+    "ip_rating": "IPX4",
+    "bluetooth": "",
+    "bom_row_count": 15,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "222069",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "4V/70mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "4V/70mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置470mAh锂电池，配备电路保护板负责负责电池的过充电、过放电、过电流等保护。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "WINSEMI稳先微",
+      "model": "WINSEMI稳先微WSDF2310C",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "保护IC",
+      "evidence": {
+        "value": "WINSEMI稳先微WSDF2310C",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "采用了WINSEMI稳先微WSDF2310C锂电保护IC负责电池充放电保护；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载一颗MEMS麦克风拾音，采用了WUQI物奇WQ7034AX蓝牙音频SoC，用于无线连接和音频数据处理；"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒内部物品有充电盒、耳机、耳翼、充电线和使用说明书，此款为太空黑配色。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机后腔外观一览，可以看到内部的主板单元，中间金色圆，为触控区域。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "卸掉螺丝，取掉主板，下方固定电池单元，导线与主板焊接。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Soundcore声阔C30i开放式耳机在功能配置上，搭载了17mm跑道型喇叭，采用新型TPU+镀钛振膜，提供高解析力和澎湃听感；搭载高分辨率空间声场算法，提供360°环绕音；支持声波成束定向传声技术，减少漏音，保护隐私；支持双麦通话降噪，精准拾音，提供清晰通话；支持单次长达10小时，综合30小时的持久续航，满足日常使用需求。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Soundcore声阔C30i开放式耳机在功能配置上，搭载了17mm跑道型喇叭，采用新型TPU+镀钛振膜，提供高解析力和澎湃听感；搭载高分辨率空间声场算法，提供360°环绕音；支持声波成束定向传声技术，减少漏音，保护隐私；支持双麦通话降噪，精准拾音，提供清晰通话；支持单次长达10小时，综合30小时的持久续航，满足日常使用需求。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "WQ703X系列构建了更加开放的应用生态，具备强大的平台能力，拥有领先的性能优势。主要包括兼容多协议：支持蓝牙BT/BLE5.4双模模式和蓝牙多连接；支持蓝牙广播Auracast（和经典蓝牙共存的音频分享）；支持LE Audio新技术标准和 LC3编解码器；射频性能优秀：发射功率最高到15dBm, 接收灵敏度到达-99dBm；高性能音频算法：支持自适应Hybrid ANC及各种上下行复杂音频算法；超低功耗水平：在复杂音频算法的同时，依然保持超低功耗；生态系统丰富：更大SRAM和FLASH空间，实现应用特性更广覆盖；平台开放，支持更多产品形态。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Soundcore声阔C30i开放式耳机整体外观一览，耳机采用了耳夹式设计，透明外壳，光滑圆润，观感炫酷，非常具有科技感。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒底部设置蓝牙配对按键，标注产品信息，Soundcore C30i蓝牙耳机，型号：A3330，输入：5V-0.6A，输出：5V-0.25A（0.125A每个端口），安克创新科技股份有限公司，中国制造。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面外观一览，设计有倒角凹槽，便于用户开启。凹槽内部设置指示灯，用于反馈蓝牙配对及充电状态。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机底部外观一览，后腔底部设置充电触点，设计L/R左右标识。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WINSEMI稳先微WSDF2310C",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "WINSEMI稳先微WSDF2310C",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "WINSEMI稳先微WSDF2310C锂电保护IC。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WINSEMI稳先微WSDF2310",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "WINSEMI稳先微WSDF2310",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "WINSEMI稳先微WSDF2310系列详细资料图。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Soundcore声阔C30i开放式耳机在外观设计方面，圆角方形充电盒体积小巧便携；耳夹式耳机，透明外壳设计，观感炫酷，更具科技感。使用上，耳机采用人体工学结构调优，佩戴稳定贴合耳廓。不过由于采用了非主流的弹性材质，所以耳机的自适应能力不足，在佩戴上也更麻烦。也因此，配备有耳翼，来满足不同耳型的使用需求。 内部主要配置方面，充电盒内置470mAh锂电池，配备电路保护板负责负责电池的过充电、过放电、过电流等保护。主板上，搭载了LY来远ICP1105电源管理芯片负责电池的充放电管理，集成开关充电，同步BOOST升压输出，支持快充，集成多项保护保障充电过程的安全；还采用了单片机和霍尔元件，用于充电盒整机控制和开盖即连功能。 耳机内部搭载了TRANSOUND泉声电子17x12mm跑道型动圈喇叭，内置65mAh软包扣式电池。主板上，搭载一颗MEMS麦克风拾音，采用了WUQI物奇WQ7034AX蓝牙音频SoC，用于无线连接和音频数据处理；采用了WINSEMI稳先微WSDF2310C锂电保护IC负责电池充放电保护；其他还搭载了多颗Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感和MPHM系列功率电感等元器件。",
+  "layer_refs": {
+    "technical": [
+      "report:222069"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "Soundcore声阔C30i开放式耳机在功能配置上，搭载了17mm跑道型喇叭，采用新型TPU+镀钛振膜，提供高解析力和澎湃听感；搭载高分辨率空间声场算法，提供360°环绕音；支持声波成束定向传声技术，减少漏音，保护隐私；支持双麦通话降噪，精准拾音，提供清晰通话；支持单次长达10小时，综合30小时的持久续航，满足日常使用需求。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "Soundcore声阔C30i开放式耳机在功能配置上，搭载了17mm跑道型喇叭，采用新型TPU+镀钛振膜，提供高解析力和澎湃听感；搭载高分辨率空间声场算法，提供360°环绕音；支持声波成束定向传声技术，减少漏音，保护隐私；支持双麦通话降噪，精准拾音，提供清晰通话；支持单次长达10小时，综合30小时的持久续航，满足日常使用需求。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "Soundcore声阔C30i开放式耳机在功能配置上，搭载了17mm跑道型喇叭，采用新型TPU+镀钛振膜，提供高解析力和澎湃听感；搭载高分辨率空间声场算法，提供360°环绕音；支持声波成束定向传声技术，减少漏音，保护隐私；支持双麦通话降噪，精准拾音，提供清晰通话；支持单次长达10小时，综合30小时的持久续航，满足日常使用需求。"
+        }
+      },
+      {
+        "text": "据我爱音频网了解到，来自TRANSOUND泉声电子，是一款尺寸为17x12的动圈单元，采用了PU+钛振膜，超高张力铜线，提供高解析力；额定功率20mW，最大短时功率50mW，声压级105.0±3.0dB（at 1KHz Input：0.148V），带来澎湃音质。",
+        "tag": "音质认证",
+        "evidence": {
+          "value": "据我爱音频网了解到，来自TRANSOUND泉声电子，是一款尺寸为17x12的动圈单元，采用了PU+钛振膜，超高张力铜线，提供高解析力；额定功率20mW，最大短时功率50mW，声压级105.0±3.0dB（at 1KHz Input：0.148V），带来澎湃音质。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "据我爱音频网了解到，来自TRANSOUND泉声电子，是一款尺寸为17x12的动圈单元，采用了PU+钛振膜，超高张力铜线，提供高解析力；额定功率20mW，最大短时功率50mW，声压级105.0±3.0dB（at 1KHz Input：0.148V），带来澎湃音质。"
+        }
+      },
+      {
+        "text": "下面就来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过声阔\nSport X20\n、\nLiberty 3 Pro真无线降噪耳机\n、\n声阔降噪舱Liberty Air 2 Pro\n、\n声阔K20i\n、\nP3\n、\nR100\n、\nLife Dot 2\n、\nLIFE P2 MINI\n、\nLiberty 2 Pro\n、\nLiberty Air 2\n真无线耳机，\nSoundcore Spirit Pro运动防水蓝牙耳机\n，\n声阔x喜马拉雅智能眼镜\n，\n声阔睡眠耳机A20\n，\n声阔漫游S1头戴式降噪耳机\n等。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "下面就来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过声阔\nSport X20\n、\nLiberty 3 Pro真无线降噪耳机\n、\n声阔降噪舱Liberty Air 2 Pro\n、\n声阔K20i\n、\nP3\n、\nR100\n、\nLife Dot 2\n、\nLIFE P2 MINI\n、\nLiberty 2 Pro\n、\nLiberty Air 2\n真无线耳机，\nSoundcore Spirit Pro运动防水蓝牙耳机\n，\n声阔x喜马拉雅智能眼镜\n，\n声阔睡眠耳机A20\n，\n声阔漫游S1头戴式降噪耳机\n等。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "下面就来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过声阔\nSport X20\n、\nLiberty 3 Pro真无线降噪耳机\n、\n声阔降噪舱Liberty Air 2 Pro\n、\n声阔K20i\n、\nP3\n、\nR100\n、\nLife Dot 2\n、\nLIFE P2 MINI\n、\nLiberty 2 Pro\n、\nLiberty Air 2\n真无线耳机，\nSoundcore Spirit Pro运动防水蓝牙耳机\n，\n声阔x喜马拉雅智能眼镜\n，\n声阔睡眠耳机A20\n，\n声阔漫游S1头戴式降噪耳机\n等。"
+        }
+      },
+      {
+        "text": "WQ703X系列构建了更加开放的应用生态，具备强大的平台能力，拥有领先的性能优势。",
+        "tag": "其他",
+        "evidence": {
+          "value": "WQ703X系列构建了更加开放的应用生态，具备强大的平台能力，拥有领先的性能优势。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "WQ703X系列构建了更加开放的应用生态，具备强大的平台能力，拥有领先的性能优势。"
+        }
+      },
+      {
+        "text": "该耳机在11款产品中获得了★★★★☆推荐，不但拥有着独具特色的外观设计，还能够提供舒适佩戴和出色聆听体验。",
+        "tag": "舒适佩戴",
+        "evidence": {
+          "value": "该耳机在11款产品中获得了★★★★☆推荐，不但拥有着独具特色的外观设计，还能够提供舒适佩戴和出色聆听体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "该耳机在11款产品中获得了★★★★☆推荐，不但拥有着独具特色的外观设计，还能够提供舒适佩戴和出色聆听体验。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "睡眠",
+      "通话"
+    ],
+    "positioning_summary": "Soundcore声阔C30i开放式耳机在功能配置上，搭载了17mm跑道型喇叭，采用新型TPU+镀钛振膜，提供高解析力和澎湃听感；搭载高分辨率空间声场算法，提供360°环绕音；支持声波成束定向传声技术，减少漏音，保护隐私；支持双麦通话降噪，精准拾音，提供清晰通话；支持单次长达10小时，综合30小时的持久续航，满足日常使用需求。",
+    "launch_date": null,
+    "best_report_id": "222069",
+    "best_video_id": null
+  }
+}

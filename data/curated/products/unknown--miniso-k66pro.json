@@ -18,15 +18,15 @@
     "main_chip": "",
     "pmic_case": "",
     "battery_ear": "电池",
-    "battery_case": "350 mAh",
+    "battery_case": "220 mAh",
     "speaker": "喇叭单元",
     "materials": "",
-    "weight_g": "42.8g",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
     "bluetooth": "5.0",
-    "bom_row_count": 10,
+    "bom_row_count": 8,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -37,34 +37,6 @@
   },
   "bom_table": [
     {
-      "component": "主板/PCBA",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "主板/PCBA",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电座舱侧边一览，电池单元设置在座舱腹部，主板固定在底部。"
-      }
-    },
-    {
-      "component": "充电仓",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "充电仓",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "MINISO名创优品 K66Pro 是其旗下的一款TWS真无线耳机产品，在外观上遵循着苹果的设计风格，充电盒为矩形设计，耳机为柄状的入耳式设计，机身通体采用了纯白色配色。配置上采用蓝牙5.0芯片，支持自动连接，支持触控操作等。"
-      }
-    },
-    {
       "component": "电池",
       "brand": "",
       "model": "",
@@ -73,6 +45,20 @@
       "role": "major",
       "evidence": {
         "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电座舱侧边一览，电池单元设置在座舱腹部，主板固定在底部。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "充电座舱侧边一览，电池单元设置在座舱腹部，主板固定在底部。"
@@ -90,6 +76,20 @@
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "耳机柄底部为麦克风收音孔，外围金属充电触点。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "MINISO名创优品 K66Pro 是其旗下的一款TWS真无线耳机产品，在外观上遵循着苹果的设计风格，充电盒为矩形设计，耳机为柄状的入耳式设计，机身通体采用了纯白色配色。配置上采用蓝牙5.0芯片，支持自动连接，支持触控操作等。"
       }
     },
     {
@@ -121,48 +121,6 @@
       }
     },
     {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "MINISO名创优品 K66Pro 是其旗下的一款TWS真无线耳机产品，在外观上遵循着苹果的设计风格，充电盒为矩形设计，耳机为柄状的入耳式设计，机身通体采用了纯白色配色。配置上采用蓝牙5.0芯片，支持自动连接，支持触控操作等。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒正面外观一览，圆角方形设计，正面有一颗指示灯，开盖处设计有凹槽，便于开盖。"
-      }
-    },
-    {
-      "component": "外壳结构",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "外壳结构",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "后腔内电池下方设置有缓冲垫。"
-      }
-    },
-    {
       "component": "充电触点",
       "brand": "",
       "model": "",
@@ -174,6 +132,20 @@
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "耳机柄底部为麦克风收音孔，外围金属充电触点。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机方面，耳机头采用了10mm的动圈发声单元，电池容量30mAh，均通过导线焊接与耳机柄内主板连接。主板上，采用了杰理的蓝牙音频主控IC，用于蓝牙连接和蓝牙信号处理；以及一颗触摸检测芯片用于触控操作功能；一颗MEMS硅麦用于语音通话拾音。"
       }
     }
   ],
@@ -192,13 +164,33 @@
   "market": {
     "selling_points": [
       {
-        "text": "耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。",
+        "text": "M […]\n耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。",
         "tag": "防水防尘",
         "evidence": {
-          "value": "耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。",
-          "confidence": 0.59,
+          "value": "M […]\n耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。",
+          "confidence": 0.56,
           "source_type": "text",
-          "source_text": "耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。"
+          "source_text": "M […]\n耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。"
+        }
+      },
+      {
+        "text": "标记/认证：锂离子软包电池型号：701230，容量：220mAh，额定电压3.7V。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：锂离子软包电池型号：701230，容量：220mAh，额定电压3.7V。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "标记/认证：锂离子软包电池型号：701230，容量：220mAh，额定电压3.7V。"
+        }
+      },
+      {
+        "text": "充电接口：Micro USB\n充电接口：USB-A\n标记/认证：充电盒背面信息有MINISO品牌LOGO，产品型号：K66 Pro，输入：5V-350mAh，中国制造。",
+        "tag": "其他",
+        "evidence": {
+          "value": "充电接口：Micro USB\n充电接口：USB-A\n标记/认证：充电盒背面信息有MINISO品牌LOGO，产品型号：K66 Pro，输入：5V-350mAh，中国制造。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "充电接口：Micro USB\n充电接口：USB-A\n标记/认证：充电盒背面信息有MINISO品牌LOGO，产品型号：K66 Pro，输入：5V-350mAh，中国制造。"
         }
       },
       {
@@ -225,7 +217,7 @@
     "scenarios": [
       "通话"
     ],
-    "positioning_summary": "耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。",
+    "positioning_summary": "M […]\n耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。",
     "launch_date": null,
     "best_report_id": "86494",
     "best_video_id": null

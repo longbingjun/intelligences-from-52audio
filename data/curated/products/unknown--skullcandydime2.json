@@ -15,18 +15,18 @@
   "latest_published": "2022-12-26",
   "internal_match_suggestions": [],
   "cost_snapshot": {
-    "main_chip": "思远半导体SY5320",
+    "main_chip": "AB1562",
     "pmic_case": "",
     "battery_ear": "150 mAh",
-    "battery_case": "1V/50mAh",
-    "speaker": "6mm 动圈单元",
+    "battery_case": "电池",
+    "speaker": "喇叭单元",
     "materials": "",
-    "weight_g": "32.5g",
+    "weight_g": "3.9g",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
-    "bluetooth": "5.2",
-    "bom_row_count": 17,
+    "bluetooth": "",
+    "bom_row_count": 10,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -37,73 +37,17 @@
   },
   "bom_table": [
     {
-      "component": "芯片/模组",
-      "brand": "思远半导体",
-      "model": "思远半导体SY5320",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "思远半导体SY5320",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "思远半导体SY5320负责过压、过流，以及过温等保护，支持28V输入耐压，过压关断保护小于1uS。"
-      }
-    },
-    {
       "component": "电池",
       "brand": "",
-      "model": "1V/50mAh",
-      "qty_hint": "1",
+      "model": "",
+      "qty_hint": "",
       "side": "充电盒",
       "role": "major",
       "evidence": {
-        "value": "1V/50mAh",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "充电盒采用Micro USB接口输入电源，内置电池容量150mAh，由LPS微源半导体LP7801TE超低功耗充电升压单芯片负责电池的充放电管理，充电电流外部可编程，最大充电电流1A；"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "AB1562",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "AB1562",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "耳机内部搭载了6mm动圈单元，单颗用于语音通话拾音的MEMS麦克风，主控芯片为AIROHA达发（络达）AB1562U蓝牙音频SoC，支持蓝牙5.3，支持新一代回声消除和降噪方案，支持Airoha MCSync技术实现左右耳塞之间无缝切换。"
-      }
-    },
-    {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "6mm 动圈单元",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "6mm 动圈单元",
-        "confidence": 0.8,
-        "source_type": "summary_prose",
-        "source_text": "耳机内部搭载了6mm动圈单元，单颗用于语音通话拾音的MEMS麦克风，主控芯片为AIROHA达发（络达）AB1562U蓝牙音频SoC，支持蓝牙5.3，支持新一代回声消除和降噪方案，支持Airoha MCSync技术实现左右耳塞之间无缝切换。"
-      }
-    },
-    {
-      "component": "麦克风",
-      "brand": "",
-      "model": "MEMS麦克风",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "MEMS麦克风",
-        "confidence": 0.78,
-        "source_type": "summary_prose",
-        "source_text": "耳机内部搭载了6mm动圈单元，单颗用于语音通话拾音的MEMS麦克风，主控芯片为AIROHA达发（络达）AB1562U蓝牙音频SoC，支持蓝牙5.3，支持新一代回声消除和降噪方案，支持Airoha MCSync技术实现左右耳塞之间无缝切换。"
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒腔体内部结构一览，主板通过热熔柱固定在底部，电池在侧边通过导线与主板连接。"
       }
     },
     {
@@ -111,13 +55,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "充电盒",
       "role": "major",
       "evidence": {
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "此次将要拆解的是骷髅头旗下一款体积轻盈小巧，佩戴舒适稳定的TWS耳机产品——Skullcandy Dime2冒险岛联名款，外观上采用了极其丰富的色彩搭配。配置上支持蓝牙5.2，支持主从切换，提供稳定、快速的无线传输；智能配对一键秒连；新增Tile科技，通过APP快速查找耳机。续航方面，单次续航时间约3.5小时，配合充电盒累计可使用约12小时。"
+        "source_text": "充电盒盖内侧丝印有参数和认证标志。"
       }
     },
     {
@@ -129,20 +73,6 @@
       "role": "major",
       "evidence": {
         "value": "主板/PCBA",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒腔体内部结构一览，主板通过热熔柱固定在底部，电池在侧边通过导线与主板连接。"
-      }
-    },
-    {
-      "component": "电池",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "电池",
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "充电盒腔体内部结构一览，主板通过热熔柱固定在底部，电池在侧边通过导线与主板连接。"
@@ -201,49 +131,7 @@
         "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒背面设置Micro USB接口和充电指示灯。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机外侧外观一览，耳机柄橙色背板上设计有骷髅头的品牌LOGO，同时也是物理按键位置，用于各项功能控制。"
-      }
-    },
-    {
-      "component": "外壳结构",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "外壳结构",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "撬开充电盒外壳，取出座舱结构。"
-      }
-    },
-    {
-      "component": "充电触点",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "主板上为耳机充电的Pogo Pin连接器特写。"
+        "source_text": "充电接口：充电盒背面设置Micro USB接口和充电指示灯。"
       }
     },
     {
@@ -251,13 +139,13 @@
       "brand": "",
       "model": "思远半导体SY5320",
       "qty_hint": "1",
-      "side": "",
+      "side": "充电盒",
       "role": "主控/蓝牙",
       "evidence": {
         "value": "思远半导体SY5320",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "思远半导体SY5320过压过流保护IC，是一款具有输入欠压和过压保护、锂电池前端过压保护、负载电流异常保护以及过温保护等特点集一身的高集成保护IC，支持28V输入耐压，过压关断保护小于1uS，支持高精度电池过压保护功能，采用DFN-2x2-8L封装。"
+        "source_text": "充电接口：内部结构设计比较简洁，主要配置上，充电盒采用Micro USB接口输入电源，内置电池容量150mAh，由LPS微源半导体LP7801TE超低功耗充电升压单芯片负责电池的充放电管理，充电电流外部可编程，最大充电电流1A；思远半导体SY5320负责过压、过流，以及过温等保护，支持28V输入耐压，过压关断保护小于1uS。"
       }
     },
     {
@@ -271,12 +159,26 @@
         "value": "AB1562",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "AB1562内置Tensilica HiFi Mini处理器，用于AB1562/1561的 I/O外围控制、协议栈和DSP处理功能。"
+        "source_text": "电池容量：150\n芯片 思远半导体SY5320\n芯片 AB1562"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY5320",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY5320",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：150\n芯片 思远半导体SY5320\n芯片 AB1562"
       }
     }
   ],
   "summary_image_urls": [],
-  "summary_text": "三、我爱音频网总结 Skullcandy骷髅头Dime2真无线耳机在外观方面，延续了品牌大胆独特的设计风格。圆角矩形的充电盒，在盒盖上开窗露出内部耳机柄，彰显独特个性的同时，压缩了充电盒体积，使之能够更加小巧；同时设计有挂绳孔，进一步提升便携性。耳机采用了柄状的入耳式设计，橙黄蓝三色搭配，3.9g轻盈机身，提供舒适佩戴。 内部结构设计比较简洁，主要配置上，充电盒采用Micro USB接口输入电源，内置电池容量150mAh，由LPS微源半导体LP7801TE超低功耗充电升压单芯片负责电池的充放电管理，充电电流外部可编程，最大充电电流1A；思远半导体SY5320负责过压、过流，以及过温等保护，支持28V输入耐压，过压关断保护小于1uS。 耳机内部搭载了6mm动圈单元，单颗用于语音通话拾音的MEMS麦克风，主控芯片为AIROHA达发（络达）AB1562U蓝牙音频SoC，支持蓝牙5.3，支持新一代回声消除和降噪方案，支持Airoha MCSync技术实现左右耳塞之间无缝切换。内置20mAh软包电池，配备二合一锂电保护芯片，负责充放电保护。",
+  "summary_text": "",
   "layer_refs": {
     "technical": [
       "report:143898"
@@ -290,13 +192,13 @@
   "market": {
     "selling_points": [
       {
-        "text": "支持新一代回声消除和降噪方案，提高耳机产品语音通话的音频质量；还支持Airoha MCSync技术，允许耳塞在左右耳塞之间无缝切换，以获得更平衡的声音和低延迟。",
+        "text": "Skullcandy骷髅头是源自于美国的一个知名音频品牌，旗下产品以新颖的外观设计，大胆独特的配色，结合高品质 […]\n支持新一代回声消除和降噪方案，提高耳机产品语音通话的音频质量；还支持Airoha MCSync技术，允许耳塞在左右耳塞之间无缝切换，以获得更平衡的声音和低延迟。",
         "tag": "降噪",
         "evidence": {
-          "value": "支持新一代回声消除和降噪方案，提高耳机产品语音通话的音频质量；还支持Airoha MCSync技术，允许耳塞在左右耳塞之间无缝切换，以获得更平衡的声音和低延迟。",
-          "confidence": 0.61,
+          "value": "Skullcandy骷髅头是源自于美国的一个知名音频品牌，旗下产品以新颖的外观设计，大胆独特的配色，结合高品质 […]\n支持新一代回声消除和降噪方案，提高耳机产品语音通话的音频质量；还支持Airoha MCSync技术，允许耳塞在左右耳塞之间无缝切换，以获得更平衡的声音和低延迟。",
+          "confidence": 0.75,
           "source_type": "text",
-          "source_text": "支持新一代回声消除和降噪方案，提高耳机产品语音通话的音频质量；还支持Airoha MCSync技术，允许耳塞在左右耳塞之间无缝切换，以获得更平衡的声音和低延迟。"
+          "source_text": "Skullcandy骷髅头是源自于美国的一个知名音频品牌，旗下产品以新颖的外观设计，大胆独特的配色，结合高品质 […]\n支持新一代回声消除和降噪方案，提高耳机产品语音通话的音频质量；还支持Airoha MCSync技术，允许耳塞在左右耳塞之间无缝切换，以获得更平衡的声音和低延迟。"
         }
       },
       {
@@ -320,6 +222,16 @@
         }
       },
       {
+        "text": "标记/认证：充电盒盖内侧丝印有参数和认证标志。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：充电盒盖内侧丝印有参数和认证标志。",
+          "confidence": 0.67,
+          "source_type": "text",
+          "source_text": "标记/认证：充电盒盖内侧丝印有参数和认证标志。"
+        }
+      },
+      {
         "text": "耳机采用了柄状的入耳式设计，橙黄蓝三色搭配，3.9g轻盈机身，提供舒适佩戴。",
         "tag": "舒适佩戴",
         "evidence": {
@@ -330,31 +242,20 @@
         }
       },
       {
-        "text": "取掉耳塞，耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。",
-        "tag": "防水防尘",
+        "text": "标记/认证：充电盒内置锂电池型号：SL551135，电压：3.7V，容量：150mAh/0.555Wh。",
+        "tag": "其他",
         "evidence": {
-          "value": "取掉耳塞，耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。",
+          "value": "标记/认证：充电盒内置锂电池型号：SL551135，电压：3.7V，容量：150mAh/0.555Wh。",
           "confidence": 0.57,
           "source_type": "text",
-          "source_text": "取掉耳塞，耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。"
-        }
-      },
-      {
-        "text": "耳机柄底部通话拾音麦克风开孔，内部防尘网防护。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "耳机柄底部通话拾音麦克风开孔，内部防尘网防护。",
-          "confidence": 0.56,
-          "source_type": "text",
-          "source_text": "耳机柄底部通话拾音麦克风开孔，内部防尘网防护。"
+          "source_text": "标记/认证：充电盒内置锂电池型号：SL551135，电压：3.7V，容量：150mAh/0.555Wh。"
         }
       }
     ],
     "scenarios": [
-      "运动",
       "通话"
     ],
-    "positioning_summary": "支持新一代回声消除和降噪方案，提高耳机产品语音通话的音频质量；还支持Airoha MCSync技术，允许耳塞在左右耳塞之间无缝切换，以获得更平衡的声音和低延迟。",
+    "positioning_summary": "Skullcandy骷髅头是源自于美国的一个知名音频品牌，旗下产品以新颖的外观设计，大胆独特的配色，结合高品质 […]\n支持新一代回声消除和降噪方案，提高耳机产品语音通话的音频质量；还支持Airoha MCSync技术，允许耳塞在左右耳塞之间无缝切换，以获得更平衡的声音和低延迟。",
     "launch_date": null,
     "best_report_id": "143898",
     "best_video_id": null

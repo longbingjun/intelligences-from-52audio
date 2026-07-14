@@ -20,13 +20,13 @@
     "battery_ear": "400 mAh",
     "battery_case": "电池",
     "speaker": "喇叭单元",
-    "materials": "硅胶、塑料、PC",
-    "weight_g": "58.3克",
+    "materials": "硅胶、PC",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "IPX4",
     "bluetooth": "",
-    "bom_row_count": 11,
+    "bom_row_count": 10,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -36,20 +36,6 @@
     "best_video_id": null
   },
   "bom_table": [
-    {
-      "component": "主板/PCBA",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "主板/PCBA",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒内部结构展示，有一个支架固定电池和底部主板。"
-      }
-    },
     {
       "component": "电池",
       "brand": "",
@@ -61,7 +47,7 @@
         "value": "电池",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒内部结构展示，有一个支架固定电池和底部主板。"
+        "source_text": "充电盒采用USB Type-C 接口，对于非苹果用户来说充电更方便，接口内侧有防尘防水的胶圈；主板元器件均使用硬质胶水覆盖，以保护内部电路，是苹果和Beats真无线耳机产品的常规操作；充电盒内两块主板通过FPC和BTB连接器连接，电池通过导线和定制插座连接，便于生产组装；充电顶针采用金属弹片的结构也比较新颖；软包电池来自AEC国光电子，容量400mAh。"
       }
     },
     {
@@ -73,6 +59,34 @@
       "role": "major",
       "evidence": {
         "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Beats Studio Buds是Beats首款支持ANC主动降噪功能的真无线耳机，主打舒适佩戴和高品质音质，以及多场景降噪功能；新采用定制的双元件振膜驱动单元，支持Apple Music的空间音频和杜比全景声音效；有通透模式和通话降噪功能，并且耳机支持IPX4级防水，充电盒采用USB-C接口充电更方便，续航也长达8+16小时。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒采用USB Type-C 接口，对于非苹果用户来说充电更方便，接口内侧有防尘防水的胶圈；主板元器件均使用硬质胶水覆盖，以保护内部电路，是苹果和Beats真无线耳机产品的常规操作；充电盒内两块主板通过FPC和BTB连接器连接，电池通过导线和定制插座连接，便于生产组装；充电顶针采用金属弹片的结构也比较新颖；软包电池来自AEC国光电子，容量400mAh。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "Beats Studio Buds是Beats首款支持ANC主动降噪功能的真无线耳机，主打舒适佩戴和高品质音质，以及多场景降噪功能；新采用定制的双元件振膜驱动单元，支持Apple Music的空间音频和杜比全景声音效；有通透模式和通话降噪功能，并且耳机支持IPX4级防水，充电盒采用USB-C接口充电更方便，续航也长达8+16小时。"
@@ -93,20 +107,6 @@
       }
     },
     {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "喇叭单元",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "Beats Studio Buds是Beats首款支持ANC主动降噪功能的真无线耳机，主打舒适佩戴和高品质音质，以及多场景降噪功能；新采用定制的双元件振膜驱动单元，支持Apple Music的空间音频和杜比全景声音效；有通透模式和通话降噪功能，并且耳机支持IPX4级防水，充电盒采用USB-C接口充电更方便，续航也长达8+16小时。"
-      }
-    },
-    {
       "component": "降噪系统",
       "brand": "",
       "model": "",
@@ -117,7 +117,7 @@
         "value": "降噪系统",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "Beats Studio Buds是Beats首款支持ANC主动降噪功能的真无线耳机，主打舒适佩戴和高品质音质，以及多场景降噪功能；新采用定制的双元件振膜驱动单元，支持Apple Music的空间音频和杜比全景声音效；有通透模式和通话降噪功能，并且耳机支持IPX4级防水，充电盒采用USB-C接口充电更方便，续航也长达8+16小时。"
+        "source_text": "Beats Studio Buds是Beats首款支持ANC主动降噪功能的真无线耳机，主打舒适佩戴和高品质音质 […]"
       }
     },
     {
@@ -135,34 +135,6 @@
       }
     },
     {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电座舱上的快速配对按键，便于与新设备配对。"
-      }
-    },
-    {
-      "component": "充电触点",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机内侧银色的充电触点。"
-      }
-    },
-    {
       "component": "外壳结构",
       "brand": "",
       "model": "",
@@ -173,7 +145,21 @@
         "value": "外壳结构",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "沿前腔的合模线拆开耳机。"
+        "source_text": "前腔的扬声器单元、电池和主板均倾斜放置，由一条FPC串联起来，充分利用耳机内部空间。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "同轴线连接的是耳机的蓝牙天线，使用大量胶水固定。左侧是按键的物理结构，右侧是通话麦克风的密封保护罩。"
       }
     },
     {
@@ -181,13 +167,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "充电盒",
+      "side": "",
       "role": "minor",
       "evidence": {
         "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒外观展示，类鹅卵石的椭圆造型，手感细腻，正面有一个“b”品牌标志，下方是一个充电盒状态指示灯。"
+        "source_text": "充电接口：取出主板后，充电接口位置的内部结构，指示灯位置有导光结构，贴有黑色胶布避免漏光。"
       }
     }
   ],
@@ -205,6 +191,26 @@
   "unboxing": null,
   "market": {
     "selling_points": [
+      {
+        "text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：Beats Studio Buds是Beats首款支持ANC主动降噪功能的真无线耳机，主打舒适佩戴和高品质音质，以及多场景降噪功能；新采用定制的双元件振膜驱动单元，支持Apple Music的空间音频和杜比全景声音效；有通透模式和通话降噪功能，并且耳机支持IPX4级防水，充电盒采用USB-C接口充电更方便，续航也长达8+16小时。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：Beats Studio Buds是Beats首款支持ANC主动降噪功能的真无线耳机，主打舒适佩戴和高品质音质，以及多场景降噪功能；新采用定制的双元件振膜驱动单元，支持Apple Music的空间音频和杜比全景声音效；有通透模式和通话降噪功能，并且耳机支持IPX4级防水，充电盒采用USB-C接口充电更方便，续航也长达8+16小时。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：Beats Studio Buds是Beats首款支持ANC主动降噪功能的真无线耳机，主打舒适佩戴和高品质音质，以及多场景降噪功能；新采用定制的双元件振膜驱动单元，支持Apple Music的空间音频和杜比全景声音效；有通透模式和通话降噪功能，并且耳机支持IPX4级防水，充电盒采用USB-C接口充电更方便，续航也长达8+16小时。"
+        }
+      },
+      {
+        "text": "Beats Studio Buds是Beats首款支持ANC主动降噪功能的真无线耳机，主打舒适佩戴和高品质音质 […]\nBeats Studio Buds是Beats首款支持ANC主动降噪功能的真无线耳机，主打舒适佩戴和高品质音质，以及多场景降噪功能；新采用定制的双元件振膜驱动单元，支持Apple Music的空间音频和杜比全景声音效；有通透模式和通话降噪功能，并且耳机支持IPX4级防水，充电盒采用USB-C接口充电更方便，续航也长达8+16小时。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "Beats Studio Buds是Beats首款支持ANC主动降噪功能的真无线耳机，主打舒适佩戴和高品质音质 […]\nBeats Studio Buds是Beats首款支持ANC主动降噪功能的真无线耳机，主打舒适佩戴和高品质音质，以及多场景降噪功能；新采用定制的双元件振膜驱动单元，支持Apple Music的空间音频和杜比全景声音效；有通透模式和通话降噪功能，并且耳机支持IPX4级防水，充电盒采用USB-C接口充电更方便，续航也长达8+16小时。",
+          "confidence": 0.6,
+          "source_type": "text",
+          "source_text": "Beats Studio Buds是Beats首款支持ANC主动降噪功能的真无线耳机，主打舒适佩戴和高品质音质 […]\nBeats Studio Buds是Beats首款支持ANC主动降噪功能的真无线耳机，主打舒适佩戴和高品质音质，以及多场景降噪功能；新采用定制的双元件振膜驱动单元，支持Apple Music的空间音频和杜比全景声音效；有通透模式和通话降噪功能，并且耳机支持IPX4级防水，充电盒采用USB-C接口充电更方便，续航也长达8+16小时。"
+        }
+      },
       {
         "text": "Beats Studio Buds是Beats首款支持ANC主动降噪功能的真无线耳机，主打舒适佩戴和高品质音质，以及多场景降噪功能；新采用定制的双元件振膜驱动单元，支持Apple Music的空间音频和杜比全景声音效；有通透模式和通话降噪功能，并且耳机支持IPX4级防水，充电盒采用USB-C接口充电更方便，续航也长达8+16小时。",
         "tag": "降噪",
@@ -226,6 +232,16 @@
         }
       },
       {
+        "text": "充电接口：充电盒采用USB Type-C 接口，对于非苹果用户来说充电更方便，接口内侧有防尘防水的胶圈；主板元器件均使用硬质胶水覆盖，以保护内部电路，是苹果和Beats真无线耳机产品的常规操作；充电盒内两块主板通过FPC和BTB连接器连接，电池通过导线和定制插座连接，便于生产组装；充电顶针采用金属弹片的结构也比较新颖；软包电池来自AEC国光电子，容量400mAh。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "充电接口：充电盒采用USB Type-C 接口，对于非苹果用户来说充电更方便，接口内侧有防尘防水的胶圈；主板元器件均使用硬质胶水覆盖，以保护内部电路，是苹果和Beats真无线耳机产品的常规操作；充电盒内两块主板通过FPC和BTB连接器连接，电池通过导线和定制插座连接，便于生产组装；充电顶针采用金属弹片的结构也比较新颖；软包电池来自AEC国光电子，容量400mAh。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "充电接口：充电盒采用USB Type-C 接口，对于非苹果用户来说充电更方便，接口内侧有防尘防水的胶圈；主板元器件均使用硬质胶水覆盖，以保护内部电路，是苹果和Beats真无线耳机产品的常规操作；充电盒内两块主板通过FPC和BTB连接器连接，电池通过导线和定制插座连接，便于生产组装；充电顶针采用金属弹片的结构也比较新颖；软包电池来自AEC国光电子，容量400mAh。"
+        }
+      },
+      {
         "text": "Cirrus Logic 凌云逻辑 CS47L66 低功耗音频DSP，用于主动降噪功能，Beats定制型号。",
         "tag": "降噪",
         "evidence": {
@@ -234,43 +250,12 @@
           "source_type": "text",
           "source_text": "Cirrus Logic 凌云逻辑 CS47L66 低功耗音频DSP，用于主动降噪功能，Beats定制型号。"
         }
-      },
-      {
-        "text": "外圈橙色的是防尘防水的胶圈。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "外圈橙色的是防尘防水的胶圈。",
-          "confidence": 0.56,
-          "source_type": "text",
-          "source_text": "外圈橙色的是防尘防水的胶圈。"
-        }
-      },
-      {
-        "text": "据Beats官方资料，双元件振膜驱动单元的中间为刚性活塞，外部则采用柔性振膜环绕，以此带来强劲均衡的音效，再加上双室声学设计，具有出色的立体声分离效果和低谐波失真，使声音响亮清晰，同时确保纯净的降噪效果。",
-        "tag": "降噪",
-        "evidence": {
-          "value": "据Beats官方资料，双元件振膜驱动单元的中间为刚性活塞，外部则采用柔性振膜环绕，以此带来强劲均衡的音效，再加上双室声学设计，具有出色的立体声分离效果和低谐波失真，使声音响亮清晰，同时确保纯净的降噪效果。",
-          "confidence": 0.75,
-          "source_type": "text",
-          "source_text": "据Beats官方资料，双元件振膜驱动单元的中间为刚性活塞，外部则采用柔性振膜环绕，以此带来强劲均衡的音效，再加上双室声学设计，具有出色的立体声分离效果和低谐波失真，使声音响亮清晰，同时确保纯净的降噪效果。"
-        }
-      },
-      {
-        "text": "产品整体做工规整，用料较好，定制双元件振膜驱动单元能够带来出色音质。",
-        "tag": "其他",
-        "evidence": {
-          "value": "产品整体做工规整，用料较好，定制双元件振膜驱动单元能够带来出色音质。",
-          "confidence": 0.74,
-          "source_type": "text",
-          "source_text": "产品整体做工规整，用料较好，定制双元件振膜驱动单元能够带来出色音质。"
-        }
       }
     ],
     "scenarios": [
-      "运动",
       "通话"
     ],
-    "positioning_summary": "Beats Studio Buds是Beats首款支持ANC主动降噪功能的真无线耳机，主打舒适佩戴和高品质音质，以及多场景降噪功能；新采用定制的双元件振膜驱动单元，支持Apple Music的空间音频和杜比全景声音效；有通透模式和通话降噪功能，并且耳机支持IPX4级防水，充电盒采用USB-C接口充电更方便，续航也长达8+16小时。",
+    "positioning_summary": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：Beats Studio Buds是Beats首款支持ANC主动降噪功能的真无线耳机，主打舒适佩戴和高品质音质，以及多场景降噪功能；新采用定制的双元件振膜驱动单元，支持Apple Music的空间音频和杜比全景声音效；有通透模式和通话降噪功能，并且耳机支持IPX4级防水，充电盒采用USB-C接口充电更方便，续航也长达8+16小时。",
     "launch_date": null,
     "best_report_id": "85193",
     "best_video_id": null

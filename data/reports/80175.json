@@ -12,7 +12,7 @@
   "author": "Wen5",
   "summary": "名创优品是一家专注于年轻消费群体的品牌，旗下产品凭借着简约、自然、优质、实惠等特征受到了众多年轻人的喜爱。TW […]",
   "captured_at": "2026-07-14T02:10:44+00:00",
-  "data_completeness": 0.58,
+  "data_completeness": 0.51,
   "views": {
     "market": {
       "brand": "",
@@ -23,13 +23,23 @@
       "price_note": "",
       "selling_points": [
         {
-          "text": "中央的防尘网是起到装饰作用，拾音麦克风不在这里\n。",
+          "text": "中央的防尘网是起到装饰作用，拾音麦克风不在这里。",
           "tag": "防水防尘",
           "evidence": {
-            "value": "中央的防尘网是起到装饰作用，拾音麦克风不在这里\n。",
+            "value": "中央的防尘网是起到装饰作用，拾音麦克风不在这里。",
             "confidence": 0.59,
             "source_type": "text",
-            "source_text": "中央的防尘网是起到装饰作用，拾音麦克风不在这里\n。"
+            "source_text": "中央的防尘网是起到装饰作用，拾音麦克风不在这里。"
+          }
+        },
+        {
+          "text": "TW […]\n中央的防尘网是起到装饰作用，拾音麦克风不在这里\n。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "TW […]\n中央的防尘网是起到装饰作用，拾音麦克风不在这里\n。",
+            "confidence": 0.58,
+            "source_type": "text",
+            "source_text": "TW […]\n中央的防尘网是起到装饰作用，拾音麦克风不在这里\n。"
           }
         },
         {
@@ -51,40 +61,43 @@
             "source_type": "text",
             "source_text": "耳机出音嘴特写，防尘网覆盖。"
           }
+        },
+        {
+          "text": "标记/认证：电池型号LB 401010，额定电压3.7V，额定容量30mAh。",
+          "tag": "其他",
+          "evidence": {
+            "value": "标记/认证：电池型号LB 401010，额定电压3.7V，额定容量30mAh。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "标记/认证：电池型号LB 401010，额定电压3.7V，额定容量30mAh。"
+          }
+        },
+        {
+          "text": "标记/认证：锂离子软包电池型号LB 602030，额定容量：3.7V，额定电压：300mAh。",
+          "tag": "其他",
+          "evidence": {
+            "value": "标记/认证：锂离子软包电池型号LB 602030，额定容量：3.7V，额定电压：300mAh。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "标记/认证：锂离子软包电池型号LB 602030，额定容量：3.7V，额定电压：300mAh。"
+          }
         }
       ],
-      "scenarios": [
-        "通话"
-      ],
-      "positioning_summary": "中央的防尘网是起到装饰作用，拾音麦克风不在这里\n。",
+      "scenarios": [],
+      "positioning_summary": "中央的防尘网是起到装饰作用，拾音麦克风不在这里。",
       "launch_date_evidence": null,
       "price_evidence": null
     },
     "cost": {
       "major_parts": [
-        "充电仓",
         "电池",
         "主板/PCBA",
+        "充电仓",
         "麦克风",
-        "喇叭单元",
-        "天线"
+        "喇叭单元"
       ],
       "chip_modules": [],
       "bom_table": [
-        {
-          "component": "充电仓",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "充电盒",
-          "role": "major",
-          "evidence": {
-            "value": "充电仓",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "充电盒正面外观。"
-          }
-        },
         {
           "component": "电池",
           "brand": "",
@@ -114,17 +127,31 @@
           }
         },
         {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒主板通过螺丝固定在座舱底。"
+          }
+        },
+        {
           "component": "麦克风",
           "brand": "",
           "model": "",
           "qty_hint": "",
-          "side": "耳机",
+          "side": "",
           "role": "major",
           "evidence": {
             "value": "麦克风",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "耳机柄底部充电触点特写。中央的防尘网是起到装饰作用，拾音麦克风不在这里。"
+            "source_text": "中央的防尘网是起到装饰作用，拾音麦克风不在这里\n。"
           }
         },
         {
@@ -142,31 +169,17 @@
           }
         },
         {
-          "component": "天线",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "",
-          "role": "major",
-          "evidence": {
-            "value": "天线",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "陶瓷蓝牙天线。"
-          }
-        },
-        {
           "component": "充电触点",
           "brand": "",
           "model": "",
           "qty_hint": "",
-          "side": "充电盒",
+          "side": "耳机",
           "role": "minor",
           "evidence": {
             "value": "充电触点",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "充电盒耳机凹槽内充电触点。"
+            "source_text": "耳机柄底部充电触点特写。中央的防尘网是起到装饰作用，拾音麦克风不在这里。"
           }
         },
         {
@@ -174,41 +187,13 @@
           "brand": "",
           "model": "",
           "qty_hint": "",
-          "side": "",
+          "side": "充电盒",
           "role": "minor",
           "evidence": {
             "value": "触控/按键",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "FM富满 FM9688 电源管理IC，集成了锂电池充电管理，高效率的升压输出， LED 灯指示和按键功能模块。 以线性方式进行充电，集成了包括涓流充电，恒流充电和恒压充电全过程的充电方式，浮充电压精度在全温度范围可达±1%，并且具有充电电流纹波小，输出电压稳定等优点。"
-          }
-        },
-        {
-          "component": "外壳结构",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "充电盒",
-          "role": "minor",
-          "evidence": {
-            "value": "外壳结构",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "取掉充电盒外壳。"
-          }
-        },
-        {
-          "component": "指示灯",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "",
-          "role": "minor",
-          "evidence": {
-            "value": "指示灯",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "LED指示灯有黑色泡棉包裹，防止漏光。"
+            "source_text": "充电接口：内部结构配置上也非常的简单，充电盒内置锂离子软包电池容量300mAh，采用Micro USB充电接口，富满 FM9688 电源管理IC以线性方式为电池充电，并集成了充电管理，高效率的升压输出， LED 灯指示和按键功能模块；微源半导体LP5300芯片提供过压和过流保护。"
           }
         }
       ],
@@ -218,21 +203,12 @@
       ],
       "process_hints": [
         {
-          "value": "Micro USB充电接口母座\n垂直于主板焊接\n。",
+          "value": "充电接口：Micro USB充电接口母座\n垂直于主板焊接\n。",
           "evidence": {
-            "value": "Micro USB充电接口母座\n垂直于主板焊接\n。",
+            "value": "充电接口：Micro USB充电接口母座\n垂直于主板焊接\n。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "Micro USB充电接口母座\n垂直于主板焊接\n。"
-          }
-        },
-        {
-          "value": "底部充电触点与主板焊接。",
-          "evidence": {
-            "value": "底部充电触点与主板焊接。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "底部充电触点与主板焊接。"
+            "source_text": "充电接口：Micro USB充电接口母座\n垂直于主板焊接\n。"
           }
         }
       ],
@@ -244,10 +220,9 @@
       "earbud_type": "入耳",
       "materials": [],
       "ip_rating": null,
-      "weight_g": "38g",
+      "weight_g": null,
       "dimensions": [
-        "经我爱音频网实测，扬声器单元尺寸约为13mm。",
-        "耳机内部，动圈扬声器尺寸约为13mm，软包电池容量30mAh，采用电容式触控方案。"
+        "经我爱音频网实测，扬声器单元尺寸约为13mm。"
       ],
       "internal_structure": [
         {
@@ -287,21 +262,21 @@
           }
         },
         {
+          "value": "中央的防尘网是起到装饰作用，拾音麦克风不在这里\n。",
+          "evidence": {
+            "value": "中央的防尘网是起到装饰作用，拾音麦克风不在这里\n。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "中央的防尘网是起到装饰作用，拾音麦克风不在这里\n。"
+          }
+        },
+        {
           "value": "耳机柄底部充电触点特写。中央的防尘网是起到装饰作用，拾音麦克风不在这里。",
           "evidence": {
             "value": "耳机柄底部充电触点特写。中央的防尘网是起到装饰作用，拾音麦克风不在这里。",
             "confidence": 0.74,
             "source_type": "text",
             "source_text": "耳机柄底部充电触点特写。中央的防尘网是起到装饰作用，拾音麦克风不在这里。"
-          }
-        },
-        {
-          "value": "耳机柄背部麦克风开孔。",
-          "evidence": {
-            "value": "耳机柄背部麦克风开孔。",
-            "confidence": 0.74,
-            "source_type": "text",
-            "source_text": "耳机柄背部麦克风开孔。"
           }
         },
         {
@@ -334,23 +309,23 @@
           }
         },
         {
-          "value": "撕掉外层绝缘纸\n，\n两侧是胶水固定的配重金属块\n。",
+          "value": "充电盒主板通过螺丝固定在座舱底。",
           "evidence": {
-            "value": "撕掉外层绝缘纸\n，\n两侧是胶水固定的配重金属块\n。",
+            "value": "充电盒主板通过螺丝固定在座舱底。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "撕掉外层绝缘纸\n，\n两侧是胶水固定的配重金属块\n。"
+            "source_text": "充电盒主板通过螺丝固定在座舱底。"
           }
         }
       ],
       "sealing_method": [
         {
-          "value": "中央的防尘网是起到装饰作用，拾音麦克风不在这里\n。",
+          "value": "TW […]\n中央的防尘网是起到装饰作用，拾音麦克风不在这里\n。",
           "evidence": {
-            "value": "中央的防尘网是起到装饰作用，拾音麦克风不在这里\n。",
+            "value": "TW […]\n中央的防尘网是起到装饰作用，拾音麦克风不在这里\n。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "中央的防尘网是起到装饰作用，拾音麦克风不在这里\n。"
+            "source_text": "TW […]\n中央的防尘网是起到装饰作用，拾音麦克风不在这里\n。"
           }
         },
         {
@@ -370,32 +345,19 @@
             "source_type": "text",
             "source_text": "耳机出音嘴特写，防尘网覆盖。"
           }
+        },
+        {
+          "value": "中央的防尘网是起到装饰作用，拾音麦克风不在这里。",
+          "evidence": {
+            "value": "中央的防尘网是起到装饰作用，拾音麦克风不在这里。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "中央的防尘网是起到装饰作用，拾音麦克风不在这里。"
+          }
         }
       ],
       "wear_design": [],
-      "key_image_urls": [
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/05/2021051413242415.png",
-          "alt": "名创优品99.9元的真无线耳机，拆开看看做工怎么样-我爱音频网",
-          "caption": "",
-          "section_hint": "其他",
-          "score": 1
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/05/2021051413242432.png",
-          "alt": "名创优品99.9元的真无线耳机，拆开看看做工怎么样-我爱音频网",
-          "caption": "",
-          "section_hint": "其他",
-          "score": 1
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/05/2021051413242442.png",
-          "alt": "名创优品99.9元的真无线耳机，拆开看看做工怎么样-我爱音频网",
-          "caption": "",
-          "section_hint": "其他",
-          "score": 1
-        }
-      ],
+      "key_image_urls": [],
       "assembly_notes": [
         "另外一侧为电池单元。",
         "锂离子软包电池型号LB 602030，额定容量：3.7V，额定电压：300mAh。",
@@ -403,86 +365,94 @@
         "主板正面电路一览。"
       ],
       "ip_rating_evidence": null,
-      "weight_evidence": {
-        "value": "38g",
-        "confidence": 0.75,
-        "source_type": "text",
-        "source_text": "38g"
-      }
+      "weight_evidence": null,
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": null,
+      "weight_earbud_evidence": null
     },
     "hardware": {
       "specs": [
         {
           "param": "充电方式",
-          "value": "我爱音频网采用\nChargerLAB POWER-Z KT002便携式电源测试仪\n对名创优品K66 真无线蓝牙耳机进行有线充电测试，输入功率约为1.06W。",
+          "value": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KT002便携式电源测试仪\n对名创优品K66 真无线蓝牙耳机进行有线充电测试，输入功率约为1.06W。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KT002便携式电源测试仪\n对名创优品K66 真无线蓝牙耳机进行有线充电测试，输入功率约为1.06W。"
+          "source_ref": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KT002便携式电源测试仪\n对名创优品K66 真无线蓝牙耳机进行有线充电测试，输入功率约为1.06W。"
         },
         {
           "param": "充电方式",
-          "value": "主板上预留\n了无线充电接收芯片焊盘。",
+          "value": "充电方式：主板上预留\n了无线充电接收芯片焊盘。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "主板上预留\n了无线充电接收芯片焊盘。"
+          "source_ref": "充电方式：主板上预留\n了无线充电接收芯片焊盘。"
         },
         {
           "param": "充电方式",
-          "value": "以线性方式进行充电，集成了包括涓流充电，恒流充电和恒压充电全过程的充电方式，浮充电压精度在全温度范围可达±1%，并且具有充电电流纹波小，输出电压稳定等优点。",
+          "value": "充电方式：以线性方式进行充电，集成了包括涓流充电，恒流充电和恒压充电全过程的充电方式，浮充电压精度在全温度范围可达±1%，并且具有充电电流纹波小，输出电压稳定等优点。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "以线性方式进行充电，集成了包括涓流充电，恒流充电和恒压充电全过程的充电方式，浮充电压精度在全温度范围可达±1%，并且具有充电电流纹波小，输出电压稳定等优点。"
+          "source_ref": "充电方式：以线性方式进行充电，集成了包括涓流充电，恒流充电和恒压充电全过程的充电方式，浮充电压精度在全温度范围可达±1%，并且具有充电电流纹波小，输出电压稳定等优点。"
         },
         {
           "param": "充电接口",
-          "value": "USB-A to Micro USB充电线。",
+          "value": "充电接口：USB-A to Micro USB充电线。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "USB-A to Micro USB充电线。"
+          "source_ref": "充电接口：USB-A to Micro USB充电线。"
         },
         {
           "param": "充电接口",
-          "value": "Micro\nUSB\n充电接口位于充电盒底部\n，\n插座周围有镀铬装饰环做点缀\n。",
+          "value": "充电接口：Micro\nUSB\n充电接口位于充电盒底部\n，\n插座周围有镀铬装饰环做点缀\n。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "Micro\nUSB\n充电接口位于充电盒底部\n，\n插座周围有镀铬装饰环做点缀\n。"
+          "source_ref": "充电接口：Micro\nUSB\n充电接口位于充电盒底部\n，\n插座周围有镀铬装饰环做点缀\n。"
         },
         {
           "param": "充电接口",
-          "value": "分离装饰环与\nMicro USB充电接口\n。",
+          "value": "充电接口：分离装饰环与\nMicro USB充电接口\n。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "分离装饰环与\nMicro USB充电接口\n。"
+          "source_ref": "充电接口：分离装饰环与\nMicro USB充电接口\n。"
         },
         {
           "param": "充电接口",
-          "value": "Micro USB充电接口母座\n垂直于主板焊接\n。",
+          "value": "充电接口：Micro USB充电接口母座\n垂直于主板焊接\n。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "Micro USB充电接口母座\n垂直于主板焊接\n。"
+          "source_ref": "充电接口：Micro USB充电接口母座\n垂直于主板焊接\n。"
         },
         {
           "param": "充电接口",
-          "value": "内部结构配置上也非常的简单，充电盒内置锂离子软包电池容量300mAh，采用Micro USB充电接口，富满 FM9688 电源管理IC以线性方式为电池充电，并集成了充电管理，高效率的升压输出， LED 灯指示和按键功能模块；微源半导体LP5300芯片提供过压和过流保护。",
+          "value": "充电接口：内部结构配置上也非常的简单，充电盒内置锂离子软包电池容量300mAh，采用Micro USB充电接口，富满 FM9688 电源管理IC以线性方式为电池充电，并集成了充电管理，高效率的升压输出， LED 灯指示和按键功能模块；微源半导体LP5300芯片提供过压和过流保护。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "内部结构配置上也非常的简单，充电盒内置锂离子软包电池容量300mAh，采用Micro USB充电接口，富满 FM9688 电源管理IC以线性方式为电池充电，并集成了充电管理，高效率的升压输出， LED 灯指示和按键功能模块；微源半导体LP5"
+          "source_ref": "充电接口：内部结构配置上也非常的简单，充电盒内置锂离子软包电池容量300mAh，采用Micro USB充电接口，富满 FM9688 电源管理IC以线性方式为电池充电，并集成了充电管理，高效率的升压输出， LED 灯指示和按键功能模块；微源半"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电接口：Micro USB\n充电接口：USB-A\n标记/认证：包装盒背面产品名称：经典真无线蓝牙耳机 型号：K66（白色），以及产品特征、使用方法和注意事项；品牌商及地址：株式会社 名创优品产业；生产商：深圳市三德大康电子有限公司。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电接口：Micro USB\n充电接口：USB-A\n标记/认证：包装盒背面产品名称：经典真无线蓝牙耳机 型号：K66（白色），以及产品特征、使用方法和注意事项；品牌商及地址：株式会社 名创优品产业；生产商：深圳市三德大康电子有限公司。"
         },
         {
           "param": "充电接口",
@@ -504,15 +474,6 @@
         },
         {
           "param": "标记/认证",
-          "value": "包装盒背面产品名称：经典真无线蓝牙耳机 型号：K66（白色），以及产品特征、使用方法和注意事项；品牌商及地址：株式会社 名创优品产业；生产商：深圳市三德大康电子有限公司。",
-          "unit": "",
-          "brand": "",
-          "model": "",
-          "confidence": 0.7,
-          "source_ref": "包装盒背面产品名称：经典真无线蓝牙耳机 型号：K66（白色），以及产品特征、使用方法和注意事项；品牌商及地址：株式会社 名创优品产业；生产商：深圳市三德大康电子有限公司。"
-        },
-        {
-          "param": "标记/认证",
           "value": "锂离子软包电池型号LB 602030，额定容量：3.7V，额定电压：300mAh。",
           "unit": "",
           "brand": "",
@@ -522,12 +483,30 @@
         },
         {
           "param": "标记/认证",
-          "value": "电池型号LB 401010，额定电压3.7V，额定容量30mAh。",
+          "value": "充电接口：Micro USB\n充电接口：USB-A\n标记/认证：包装盒背面产品名称：经典真无线蓝牙耳机 型号：K66（白色），以及产品特征、使用方法和注意事项；品牌商及地址：株式会社 名创优品产业；生产商：深圳市三德大康电子有限公司。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "电池型号LB 401010，额定电压3.7V，额定容量30mAh。"
+          "source_ref": "充电接口：Micro USB\n充电接口：USB-A\n标记/认证：包装盒背面产品名称：经典真无线蓝牙耳机 型号：K66（白色），以及产品特征、使用方法和注意事项；品牌商及地址：株式会社 名创优品产业；生产商：深圳市三德大康电子有限公司。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "标记/认证：锂离子软包电池型号LB 602030，额定容量：3.7V，额定电压：300mAh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "标记/认证：锂离子软包电池型号LB 602030，额定容量：3.7V，额定电压：300mAh。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "标记/认证：电池型号LB 401010，额定电压3.7V，额定容量30mAh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "标记/认证：电池型号LB 401010，额定电压3.7V，额定容量30mAh。"
         },
         {
           "param": "电池容量",
@@ -541,19 +520,14 @@
       ]
     },
     "software": {
-      "bluetooth_version": "5.0",
+      "bluetooth_version": null,
       "codecs": [],
       "multipoint": [],
       "app_name": "",
       "app_features": [],
       "ota_support": [],
       "latency_notes": [],
-      "bluetooth_evidence": {
-        "value": "5.0",
-        "confidence": 0.85,
-        "source_type": "text",
-        "source_text": "蓝牙5.0"
-      }
+      "bluetooth_evidence": null
     }
   }
 }

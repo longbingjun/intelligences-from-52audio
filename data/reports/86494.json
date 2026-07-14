@@ -12,7 +12,7 @@
   "author": "Wen5",
   "summary": "名创优品是一家专注于年轻消费群体的品牌，旗下产品凭借着简约、自然、优质、实惠等特征受到了众多年轻人的喜爱。 M […]",
   "captured_at": "2026-07-14T02:10:26+00:00",
-  "data_completeness": 0.632,
+  "data_completeness": 0.59,
   "views": {
     "market": {
       "brand": "",
@@ -23,13 +23,33 @@
       "price_note": "",
       "selling_points": [
         {
-          "text": "耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。",
+          "text": "M […]\n耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。",
           "tag": "防水防尘",
           "evidence": {
-            "value": "耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。",
-            "confidence": 0.59,
+            "value": "M […]\n耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。",
+            "confidence": 0.56,
             "source_type": "text",
-            "source_text": "耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。"
+            "source_text": "M […]\n耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。"
+          }
+        },
+        {
+          "text": "标记/认证：锂离子软包电池型号：701230，容量：220mAh，额定电压3.7V。",
+          "tag": "其他",
+          "evidence": {
+            "value": "标记/认证：锂离子软包电池型号：701230，容量：220mAh，额定电压3.7V。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "标记/认证：锂离子软包电池型号：701230，容量：220mAh，额定电压3.7V。"
+          }
+        },
+        {
+          "text": "充电接口：Micro USB\n充电接口：USB-A\n标记/认证：充电盒背面信息有MINISO品牌LOGO，产品型号：K66 Pro，输入：5V-350mAh，中国制造。",
+          "tag": "其他",
+          "evidence": {
+            "value": "充电接口：Micro USB\n充电接口：USB-A\n标记/认证：充电盒背面信息有MINISO品牌LOGO，产品型号：K66 Pro，输入：5V-350mAh，中国制造。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "充电接口：Micro USB\n充电接口：USB-A\n标记/认证：充电盒背面信息有MINISO品牌LOGO，产品型号：K66 Pro，输入：5V-350mAh，中国制造。"
           }
         },
         {
@@ -56,49 +76,21 @@
       "scenarios": [
         "通话"
       ],
-      "positioning_summary": "耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。",
+      "positioning_summary": "M […]\n耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。",
       "launch_date_evidence": null,
       "price_evidence": null
     },
     "cost": {
       "major_parts": [
-        "主板/PCBA",
-        "充电仓",
         "电池",
+        "主板/PCBA",
         "麦克风",
+        "充电仓",
         "天线",
         "喇叭单元"
       ],
       "chip_modules": [],
       "bom_table": [
-        {
-          "component": "主板/PCBA",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "",
-          "role": "major",
-          "evidence": {
-            "value": "主板/PCBA",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "充电座舱侧边一览，电池单元设置在座舱腹部，主板固定在底部。"
-          }
-        },
-        {
-          "component": "充电仓",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "major",
-          "evidence": {
-            "value": "充电仓",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "MINISO名创优品 K66Pro 是其旗下的一款TWS真无线耳机产品，在外观上遵循着苹果的设计风格，充电盒为矩形设计，耳机为柄状的入耳式设计，机身通体采用了纯白色配色。配置上采用蓝牙5.0芯片，支持自动连接，支持触控操作等。"
-          }
-        },
         {
           "component": "电池",
           "brand": "",
@@ -108,6 +100,20 @@
           "role": "major",
           "evidence": {
             "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电座舱侧边一览，电池单元设置在座舱腹部，主板固定在底部。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
             "confidence": 0.72,
             "source_type": "text",
             "source_text": "充电座舱侧边一览，电池单元设置在座舱腹部，主板固定在底部。"
@@ -125,6 +131,20 @@
             "confidence": 0.72,
             "source_type": "text",
             "source_text": "耳机柄底部为麦克风收音孔，外围金属充电触点。"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "MINISO名创优品 K66Pro 是其旗下的一款TWS真无线耳机产品，在外观上遵循着苹果的设计风格，充电盒为矩形设计，耳机为柄状的入耳式设计，机身通体采用了纯白色配色。配置上采用蓝牙5.0芯片，支持自动连接，支持触控操作等。"
           }
         },
         {
@@ -156,48 +176,6 @@
           }
         },
         {
-          "component": "触控/按键",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "minor",
-          "evidence": {
-            "value": "触控/按键",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "MINISO名创优品 K66Pro 是其旗下的一款TWS真无线耳机产品，在外观上遵循着苹果的设计风格，充电盒为矩形设计，耳机为柄状的入耳式设计，机身通体采用了纯白色配色。配置上采用蓝牙5.0芯片，支持自动连接，支持触控操作等。"
-          }
-        },
-        {
-          "component": "指示灯",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "充电盒",
-          "role": "minor",
-          "evidence": {
-            "value": "指示灯",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "充电盒正面外观一览，圆角方形设计，正面有一颗指示灯，开盖处设计有凹槽，便于开盖。"
-          }
-        },
-        {
-          "component": "外壳结构",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "",
-          "role": "minor",
-          "evidence": {
-            "value": "外壳结构",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "后腔内电池下方设置有缓冲垫。"
-          }
-        },
-        {
           "component": "充电触点",
           "brand": "",
           "model": "",
@@ -210,6 +188,20 @@
             "source_type": "text",
             "source_text": "耳机柄底部为麦克风收音孔，外围金属充电触点。"
           }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机方面，耳机头采用了10mm的动圈发声单元，电池容量30mAh，均通过导线焊接与耳机柄内主板连接。主板上，采用了杰理的蓝牙音频主控IC，用于蓝牙连接和蓝牙信号处理；以及一颗触摸检测芯片用于触控操作功能；一颗MEMS硅麦用于语音通话拾音。"
+          }
         }
       ],
       "supply_hints": [],
@@ -217,33 +209,6 @@
         "包装盒内物品有耳机、充电线和产品说明书。"
       ],
       "process_hints": [
-        {
-          "value": "导线焊接在背部，焊点饱满。",
-          "evidence": {
-            "value": "导线焊接在背部，焊点饱满。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "导线焊接在背部，焊点饱满。"
-          }
-        },
-        {
-          "value": "缓冲垫下方所有导线焊接在主板上\n，外壳内部还有用于触摸操作的导电布\n。",
-          "evidence": {
-            "value": "缓冲垫下方所有导线焊接在主板上\n，外壳内部还有用于触摸操作的导电布\n。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "缓冲垫下方所有导线焊接在主板上\n，外壳内部还有用于触摸操作的导电布\n。"
-          }
-        },
-        {
-          "value": "为耳机充电的金属触点焊接在主板上。",
-          "evidence": {
-            "value": "为耳机充电的金属触点焊接在主板上。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "为耳机充电的金属触点焊接在主板上。"
-          }
-        },
         {
           "value": "耳机方面，耳机头采用了10mm的动圈发声单元，电池容量30mAh，均通过导线焊接与耳机柄内主板连接。",
           "evidence": {
@@ -262,11 +227,9 @@
       "earbud_type": "入耳",
       "materials": [],
       "ip_rating": null,
-      "weight_g": "42.8g",
+      "weight_g": null,
       "dimensions": [
-        "两幅不同尺寸的耳塞。",
-        "经我爱音频网实测，扬声器尺寸约为10mm。",
-        "JL杰理\nAC6936D\n蓝牙音频SoC\n，\n属于杰理AC693N系列，该系列芯片首创了充电脚通讯专利技术，并且采用QFN 4*4mm的超小封装设计。"
+        "耳机方面，耳机头采用了10mm的动圈发声单元，电池容量30mAh，均通过导线焊接与耳机柄内主板连接。"
       ],
       "internal_structure": [
         {
@@ -279,15 +242,6 @@
           }
         },
         {
-          "value": "主板单元通过螺丝固定，两侧是为耳机充电的小板。",
-          "evidence": {
-            "value": "主板单元通过螺丝固定，两侧是为耳机充电的小板。",
-            "confidence": 0.74,
-            "source_type": "text",
-            "source_text": "主板单元通过螺丝固定，两侧是为耳机充电的小板。"
-          }
-        },
-        {
           "value": "锂离子软包电池型号：701230，容量：220mAh，额定电压3.7V。",
           "evidence": {
             "value": "锂离子软包电池型号：701230，容量：220mAh，额定电压3.7V。",
@@ -297,21 +251,21 @@
           }
         },
         {
+          "value": "主板单元通过螺丝固定，两侧是为耳机充电的小板。",
+          "evidence": {
+            "value": "主板单元通过螺丝固定，两侧是为耳机充电的小板。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "主板单元通过螺丝固定，两侧是为耳机充电的小板。"
+          }
+        },
+        {
           "value": "耳机柄底部为麦克风收音孔，外围金属充电触点。",
           "evidence": {
             "value": "耳机柄底部为麦克风收音孔，外围金属充电触点。",
             "confidence": 0.74,
             "source_type": "text",
             "source_text": "耳机柄底部为麦克风收音孔，外围金属充电触点。"
-          }
-        },
-        {
-          "value": "主板末端MEMS硅麦克风，用于语音通话拾音。",
-          "evidence": {
-            "value": "主板末端MEMS硅麦克风，用于语音通话拾音。",
-            "confidence": 0.74,
-            "source_type": "text",
-            "source_text": "主板末端MEMS硅麦克风，用于语音通话拾音。"
           }
         },
         {
@@ -340,18 +294,18 @@
             "source_type": "text",
             "source_text": "MINISO名创优品 K66Pro 是其旗下的一款TWS真无线耳机产品，在外观上遵循着苹果的设计风格，充电盒为矩形设计，耳机为柄状的入耳式设计，机身通体采用了纯白色配色。配置上采用蓝牙5.0芯片，支持自动连接，支持触控操作等。"
           }
+        },
+        {
+          "value": "耳机背部有一颗泄压\n孔\n，内部防尘网覆盖。",
+          "evidence": {
+            "value": "耳机背部有一颗泄压\n孔\n，内部防尘网覆盖。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "耳机背部有一颗泄压\n孔\n，内部防尘网覆盖。"
+          }
         }
       ],
       "fastener_type": [
-        {
-          "value": "二、名创优品 K66Pro 真无线蓝牙耳机拆解\n充电盒拆解\n取出卡扣式固定的充电座舱。",
-          "evidence": {
-            "value": "二、名创优品 K66Pro 真无线蓝牙耳机拆解\n充电盒拆解\n取出卡扣式固定的充电座舱。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "二、名创优品 K66Pro 真无线蓝牙耳机拆解\n充电盒拆解\n取出卡扣式固定的充电座舱。"
-          }
-        },
         {
           "value": "主板单元通过螺丝固定，两侧是为耳机充电的小板。",
           "evidence": {
@@ -362,23 +316,23 @@
           }
         },
         {
-          "value": "耳机扬声器特写，通过蓝色胶水固定。",
+          "value": "主板单元通过螺丝固定，两侧是为耳机充电的小板。",
           "evidence": {
-            "value": "耳机扬声器特写，通过蓝色胶水固定。",
+            "value": "主板单元通过螺丝固定，两侧是为耳机充电的小板。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "耳机扬声器特写，通过蓝色胶水固定。"
+            "source_text": "主板单元通过螺丝固定，两侧是为耳机充电的小板。"
           }
         }
       ],
       "sealing_method": [
         {
-          "value": "耳机背部有一颗泄压\n孔\n，内部防尘网覆盖。",
+          "value": "M […]\n耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。",
           "evidence": {
-            "value": "耳机背部有一颗泄压\n孔\n，内部防尘网覆盖。",
+            "value": "M […]\n耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "耳机背部有一颗泄压\n孔\n，内部防尘网覆盖。"
+            "source_text": "M […]\n耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。"
           }
         },
         {
@@ -391,132 +345,76 @@
           }
         },
         {
-          "value": "耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。",
+          "value": "耳机背部有一颗泄压\n孔\n，内部防尘网覆盖。",
           "evidence": {
-            "value": "耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。",
+            "value": "耳机背部有一颗泄压\n孔\n，内部防尘网覆盖。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "耳机出音嘴特写，细密防尘网防护，防止异物进入音腔。"
+            "source_text": "耳机背部有一颗泄压\n孔\n，内部防尘网覆盖。"
           }
         }
       ],
-      "wear_design": [
-        {
-          "value": "两幅不同尺寸的耳塞。",
-          "evidence": {
-            "value": "两幅不同尺寸的耳塞。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "两幅不同尺寸的耳塞。"
-          }
-        },
-        {
-          "value": "打开充电盒盖，内部耳机立式放置，突出充电座舱便于取出佩戴。",
-          "evidence": {
-            "value": "打开充电盒盖，内部耳机立式放置，突出充电座舱便于取出佩戴。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "打开充电盒盖，内部耳机立式放置，突出充电座舱便于取出佩戴。"
-          }
-        },
-        {
-          "value": "机身则非常的轻盈，单耳重量不足4g，提升佩戴舒适度。",
-          "evidence": {
-            "value": "机身则非常的轻盈，单耳重量不足4g，提升佩戴舒适度。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "机身则非常的轻盈，单耳重量不足4g，提升佩戴舒适度。"
-          }
-        }
-      ],
-      "key_image_urls": [
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071611080654.png",
-          "alt": "拆解报告：MINISO名创优品 K66Pro 真无线蓝牙耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071611080817.png",
-          "alt": "拆解报告：MINISO名创优品 K66Pro 真无线蓝牙耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071611080852.png",
-          "alt": "拆解报告：MINISO名创优品 K66Pro 真无线蓝牙耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071611080888.png",
-          "alt": "拆解报告：MINISO名创优品 K66Pro 真无线蓝牙耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071611080827.png",
-          "alt": "拆解报告：MINISO名创优品 K66Pro 真无线蓝牙耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        }
-      ],
+      "wear_design": [],
+      "key_image_urls": [],
       "assembly_notes": [
         "充电座舱侧边一览，电池单元设置在座舱腹部，主板固定在底部。",
-        "主板单元通过螺丝固定，两侧是为耳机充电的小板。",
         "锂离子软包电池型号：701230，容量：220mAh，额定电压3.7V。",
+        "主板单元通过螺丝固定，两侧是为耳机充电的小板。",
         "耳机柄底部为麦克风收音孔，外围金属充电触点。"
       ],
       "ip_rating_evidence": null,
-      "weight_evidence": {
-        "value": "42.8g",
-        "confidence": 0.75,
-        "source_type": "text",
-        "source_text": "42.8g"
-      }
+      "weight_evidence": null,
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": null,
+      "weight_earbud_evidence": null
     },
     "hardware": {
       "specs": [
         {
           "param": "充电方式",
-          "value": "我爱音频网采用\nChargerLAB POWER-Z KT002便携式电源测试仪\n对名创优品 K66Pro 真无线蓝牙耳机进行有线充电测试，输入功率约为1.15W。",
+          "value": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KT002便携式电源测试仪\n对名创优品 K66Pro 真无线蓝牙耳机进行有线充电测试，输入功率约为1.15W。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KT002便携式电源测试仪\n对名创优品 K66Pro 真无线蓝牙耳机进行有线充电测试，输入功率约为1.15W。"
+          "source_ref": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KT002便携式电源测试仪\n对名创优品 K66Pro 真无线蓝牙耳机进行有线充电测试，输入功率约为1.15W。"
         },
         {
           "param": "充电接口",
-          "value": "USB-A to Micro USB充电线。",
+          "value": "充电接口：USB-A to Micro USB充电线。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "USB-A to Micro USB充电线。"
+          "source_ref": "充电接口：USB-A to Micro USB充电线。"
         },
         {
           "param": "充电接口",
-          "value": "Micro USB充电接口位于充电盒底部。",
+          "value": "充电接口：Micro USB充电接口位于充电盒底部。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "Micro USB充电接口位于充电盒底部。"
+          "source_ref": "充电接口：Micro USB充电接口位于充电盒底部。"
         },
         {
           "param": "充电接口",
-          "value": "内部结构配置上都相对比较简单，充电盒采用了Micro USB接口输入电源，内置220mAh聚合物软包电池，由华芯邦 PB1155A 电源管理SoC，为充电盒内置电池充电和放电为耳机充电，以及过压、过充、过放、过流和过温保护。",
+          "value": "充电接口：内部结构配置上都相对比较简单，充电盒采用了Micro USB接口输入电源，内置220mAh聚合物软包电池，由华芯邦 PB1155A 电源管理SoC，为充电盒内置电池充电和放电为耳机充电，以及过压、过充、过放、过流和过温保护。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "内部结构配置上都相对比较简单，充电盒采用了Micro USB接口输入电源，内置220mAh聚合物软包电池，由华芯邦 PB1155A 电源管理SoC，为充电盒内置电池充电和放电为耳机充电，以及过压、过充、过放、过流和过温保护。"
+          "source_ref": "充电接口：内部结构配置上都相对比较简单，充电盒采用了Micro USB接口输入电源，内置220mAh聚合物软包电池，由华芯邦 PB1155A 电源管理SoC，为充电盒内置电池充电和放电为耳机充电，以及过压、过充、过放、过流和过温保护。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电接口：Micro USB\n充电接口：USB-A\n标记/认证：充电盒背面信息有MINISO品牌LOGO，产品型号：K66 Pro，输入：5V-350mAh，中国制造。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电接口：Micro USB\n充电接口：USB-A\n标记/认证：充电盒背面信息有MINISO品牌LOGO，产品型号：K66 Pro，输入：5V-350mAh，中国制造。"
         },
         {
           "param": "充电接口",
@@ -538,15 +436,6 @@
         },
         {
           "param": "标记/认证",
-          "value": "充电盒背面信息有MINISO品牌LOGO，产品型号：K66 Pro，输入：5V-350mAh，中国制造。",
-          "unit": "",
-          "brand": "",
-          "model": "",
-          "confidence": 0.7,
-          "source_ref": "充电盒背面信息有MINISO品牌LOGO，产品型号：K66 Pro，输入：5V-350mAh，中国制造。"
-        },
-        {
-          "param": "标记/认证",
           "value": "锂离子软包电池型号：701230，容量：220mAh，额定电压3.7V。",
           "unit": "",
           "brand": "",
@@ -555,13 +444,31 @@
           "source_ref": "锂离子软包电池型号：701230，容量：220mAh，额定电压3.7V。"
         },
         {
+          "param": "标记/认证",
+          "value": "充电接口：Micro USB\n充电接口：USB-A\n标记/认证：充电盒背面信息有MINISO品牌LOGO，产品型号：K66 Pro，输入：5V-350mAh，中国制造。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电接口：Micro USB\n充电接口：USB-A\n标记/认证：充电盒背面信息有MINISO品牌LOGO，产品型号：K66 Pro，输入：5V-350mAh，中国制造。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "标记/认证：锂离子软包电池型号：701230，容量：220mAh，额定电压3.7V。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "标记/认证：锂离子软包电池型号：701230，容量：220mAh，额定电压3.7V。"
+        },
+        {
           "param": "电池容量",
-          "value": "350",
+          "value": "220",
           "unit": "mAh",
           "brand": "",
           "model": "",
           "confidence": 0.85,
-          "source_ref": "350mAh"
+          "source_ref": "220mAh"
         }
       ]
     },
@@ -571,17 +478,7 @@
       "multipoint": [],
       "app_name": "",
       "app_features": [],
-      "ota_support": [
-        {
-          "value": "杰理AC6936D支持蓝牙5.1，具有6mA超低功耗，自动配对、恒流充电、无损解码、HFi音质；支持立体声双耳通话，开机秒连，高清通话低延时，智能双发主从无缝切换，支持空中升级，智能充电仓，生产方便。",
-          "evidence": {
-            "value": "杰理AC6936D支持蓝牙5.1，具有6mA超低功耗，自动配对、恒流充电、无损解码、HFi音质；支持立体声双耳通话，开机秒连，高清通话低延时，智能双发主从无缝切换，支持空中升级，智能充电仓，生产方便。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "杰理AC6936D支持蓝牙5.1，具有6mA超低功耗，自动配对、恒流充电、无损解码、HFi音质；支持立体声双耳通话，开机秒连，高清通话低延时，智能双发主从无缝切换，支持空中升级，智能充电仓，生产方便。"
-          }
-        }
-      ],
+      "ota_support": [],
       "latency_notes": [],
       "bluetooth_evidence": {
         "value": "5.0",

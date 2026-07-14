@@ -20,13 +20,13 @@
     "battery_ear": "电池",
     "battery_case": "350 mAh",
     "speaker": "喇叭单元",
-    "materials": "PC",
-    "weight_g": "40g",
+    "materials": "",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
     "bluetooth": "5.1",
-    "bom_row_count": 15,
+    "bom_row_count": 12,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -36,20 +36,6 @@
     "best_video_id": null
   },
   "bom_table": [
-    {
-      "component": "主板/PCBA",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "主板/PCBA",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电座舱正面特写，电池单元位于中间位置，起到保护作用。主板通过螺丝固定在座舱底部。"
-      }
-    },
     {
       "component": "电池",
       "brand": "",
@@ -65,17 +51,45 @@
       }
     },
     {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电座舱正面特写，电池单元位于中间位置，起到保护作用。主板通过螺丝固定在座舱底部。"
+      }
+    },
+    {
       "component": "充电仓",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "充电盒",
+      "side": "耳机",
       "role": "major",
       "evidence": {
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒正面，开盖处设置有倒角，下方有四颗指示灯用于显示充电盒剩余电量。"
+        "source_text": "三、我爱音频网总结\n诺基亚E3101真无线耳机是一款主打轻量化设计的产品，在外观上无论是充电盒还是耳机体积都非常的小巧轻便，搭配符合人体工学的柄状半入耳式耳机设计，提供了更加舒适、轻盈、稳固的佩戴体验。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "随着主动降噪功能的加入，目前的TWS耳机市场中高端产品绝大多数采用了入耳式设计，从而能够为用户提供最佳的降噪效 […]"
       }
     },
     {
@@ -83,13 +97,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机柄底部是充电触点和通话麦克风。"
+        "source_text": "支持单/双麦克风降噪，支持两路模拟麦克风放大，内置麦克风偏置。"
       }
     },
     {
@@ -104,62 +118,6 @@
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "配置上，诺基亚E3101采用了13mm大动圈单元，蓝牙5.1芯片，支持ENC通话降噪，支持开盖即连、单双耳使用和触控操作。如此轻巧机身，单次续航时间达到了6.5h，整体拥有29小时续航。我爱音频网此前还拆解过NOKIA诺基亚 P3600圈铁蓝牙耳机，今天再来看看这款产品的外观设计和内部结构配置吧~"
-      }
-    },
-    {
-      "component": "降噪系统",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "降噪系统",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "随着主动降噪功能的加入，目前的TWS耳机市场中高端产品绝大多数采用了入耳式设计，从而能够为用户提供最佳的降噪效果。而半入耳式耳机凭借着轻巧的机身，以及舒适的佩戴体验也深受众多用户的喜爱。目前许多品牌也在做这一市场，推出了相应的产品。"
-      }
-    },
-    {
-      "component": "天线",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "天线",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "陶瓷蓝牙天线特写，用于蓝牙信号传输。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "配置上，诺基亚E3101采用了13mm大动圈单元，蓝牙5.1芯片，支持ENC通话降噪，支持开盖即连、单双耳使用和触控操作。如此轻巧机身，单次续航时间达到了6.5h，整体拥有29小时续航。我爱音频网此前还拆解过NOKIA诺基亚 P3600圈铁蓝牙耳机，今天再来看看这款产品的外观设计和内部结构配置吧~"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒正面，开盖处设置有倒角，下方有四颗指示灯用于显示充电盒剩余电量。"
       }
     },
     {
@@ -191,17 +149,45 @@
       }
     },
     {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "配置上，诺基亚E3101采用了13mm大动圈单元，蓝牙5.1芯片，支持ENC通话降噪，支持开盖即连、单双耳使用和触控操作。如此轻巧机身，单次续航时间达到了6.5h，整体拥有29小时续航。我爱音频网此前还拆解过NOKIA诺基亚 P3600圈铁蓝牙耳机，今天再来看看这款产品的外观设计和内部结构配置吧~"
+      }
+    },
+    {
       "component": "芯片/模组",
       "brand": "",
-      "model": "Injoinic英集芯 IP5516",
+      "model": "英集芯 IP5516",
       "qty_hint": "1",
       "side": "充电盒",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "Injoinic英集芯 IP5516",
+        "value": "英集芯 IP5516",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "Injoinic英集芯 IP5516 充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+        "source_text": "充电接口：内部电路方面，内置锂离子电池容量350mAh，充电盒采用了Type-C接口输入电源，输入端由钰泰ETA7008低侧过压保护芯片用于输入过压保护；主控芯片为英集芯 IP5516 充电盒管理SoC，单颗芯片集成了MCU、升压转换器、锂电池充电管理、电池电量指示等功能，应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低了BOM成本。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA7008",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA7008",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "充电接口：内部电路方面，内置锂离子电池容量350mAh，充电盒采用了Type-C接口输入电源，输入端由钰泰ETA7008低侧过压保护芯片用于输入过压保护；主控芯片为英集芯 IP5516 充电盒管理SoC，单颗芯片集成了MCU、升压转换器、锂电池充电管理、电池电量指示等功能，应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低了BOM成本。"
       }
     },
     {
@@ -215,35 +201,7 @@
         "value": "IP5516",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "IP5516支持300mA同步升压输出，500mA线性充电，输入电流自适应，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "ETA7008",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "ETA7008",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "输入端采用钰泰ETA7008低侧过压保护芯片用于输入过压保护，ETA7008耐压36V，内置34mΩ NMOS功率开关，保护电压和开启速度可调节。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "ETA7008",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "ETA7008",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "内部电路方面，内置锂离子电池容量350mAh，充电盒采用了Type-C接口输入电源，输入端由钰泰ETA7008低侧过压保护芯片用于输入过压保护；主控芯片为英集芯 IP5516 充电盒管理SoC，单颗芯片集成了MCU、升压转换器、锂电池充电管理、电池电量指示等功能，应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低了BOM成本。"
+        "source_text": "标记/认证：IP5516支持300mA同步升压输出，500mA线性充电，输入电流自适应，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。"
       }
     }
   ],
@@ -261,6 +219,16 @@
   "unboxing": null,
   "market": {
     "selling_points": [
+      {
+        "text": "随着主动降噪功能的加入，目前的TWS耳机市场中高端产品绝大多数采用了入耳式设计，从而能够为用户提供最佳的降噪效 […]\n随着主动降噪功能的加入，目前的TWS耳机市场中高端产品绝大多数采用了入耳式设计，从而能够为用户提供最佳的降噪效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "随着主动降噪功能的加入，目前的TWS耳机市场中高端产品绝大多数采用了入耳式设计，从而能够为用户提供最佳的降噪效 […]\n随着主动降噪功能的加入，目前的TWS耳机市场中高端产品绝大多数采用了入耳式设计，从而能够为用户提供最佳的降噪效果。",
+          "confidence": 0.63,
+          "source_type": "text",
+          "source_text": "随着主动降噪功能的加入，目前的TWS耳机市场中高端产品绝大多数采用了入耳式设计，从而能够为用户提供最佳的降噪效 […]\n随着主动降噪功能的加入，目前的TWS耳机市场中高端产品绝大多数采用了入耳式设计，从而能够为用户提供最佳的降噪效果。"
+        }
+      },
       {
         "text": "随着主动降噪功能的加入，目前的TWS耳机市场中高端产品绝大多数采用了入耳式设计，从而能够为用户提供最佳的降噪效果。",
         "tag": "降噪",
@@ -282,6 +250,16 @@
         }
       },
       {
+        "text": "我爱音频网此前还拆解过NOKIA诺基亚 P3600圈铁蓝牙耳机，今天再来看看这款产品的外观设计和内部结构配置吧~\n扬声器正面特写，振膜覆盖有一层羊毛纤维。",
+        "tag": "其他",
+        "evidence": {
+          "value": "我爱音频网此前还拆解过NOKIA诺基亚 P3600圈铁蓝牙耳机，今天再来看看这款产品的外观设计和内部结构配置吧~\n扬声器正面特写，振膜覆盖有一层羊毛纤维。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "我爱音频网此前还拆解过NOKIA诺基亚 P3600圈铁蓝牙耳机，今天再来看看这款产品的外观设计和内部结构配置吧~\n扬声器正面特写，振膜覆盖有一层羊毛纤维。"
+        }
+      },
+      {
         "text": "支持单/双麦克风降噪，支持两路模拟麦克风放大，内置麦克风偏置。",
         "tag": "降噪",
         "evidence": {
@@ -292,30 +270,20 @@
         }
       },
       {
-        "text": "耳机内侧\n设置\n有一颗较大的泄压孔，内部防尘网防护。",
+        "text": "标记/认证：IP5516 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
         "tag": "防水防尘",
         "evidence": {
-          "value": "耳机内侧\n设置\n有一颗较大的泄压孔，内部防尘网防护。",
-          "confidence": 0.62,
+          "value": "标记/认证：IP5516 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+          "confidence": 0.74,
           "source_type": "text",
-          "source_text": "耳机内侧\n设置\n有一颗较大的泄压孔，内部防尘网防护。"
-        }
-      },
-      {
-        "text": "耳机前腔内侧结构一览，泄压孔细密防尘网覆盖。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "耳机前腔内侧结构一览，泄压孔细密防尘网覆盖。",
-          "confidence": 0.61,
-          "source_type": "text",
-          "source_text": "耳机前腔内侧结构一览，泄压孔细密防尘网覆盖。"
+          "source_text": "标记/认证：IP5516 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
         }
       }
     ],
     "scenarios": [
       "通话"
     ],
-    "positioning_summary": "随着主动降噪功能的加入，目前的TWS耳机市场中高端产品绝大多数采用了入耳式设计，从而能够为用户提供最佳的降噪效果。",
+    "positioning_summary": "随着主动降噪功能的加入，目前的TWS耳机市场中高端产品绝大多数采用了入耳式设计，从而能够为用户提供最佳的降噪效 […]\n随着主动降噪功能的加入，目前的TWS耳机市场中高端产品绝大多数采用了入耳式设计，从而能够为用户提供最佳的降噪效果。",
     "launch_date": null,
     "best_report_id": "90541",
     "best_video_id": null

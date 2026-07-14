@@ -17,16 +17,16 @@
   "cost_snapshot": {
     "main_chip": "恒玄BES2300IU",
     "pmic_case": "",
-    "battery_ear": "400 mAh",
-    "battery_case": "电池",
+    "battery_ear": "电池",
+    "battery_case": "400 mAh",
     "speaker": "喇叭单元",
-    "materials": "硅胶、塑料、PC、ABS",
-    "weight_g": "45.9g",
+    "materials": "PC、ABS",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "IPX4",
     "bluetooth": "5.0",
-    "bom_row_count": 14,
+    "bom_row_count": 9,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -37,31 +37,17 @@
   },
   "bom_table": [
     {
-      "component": "麦克风",
+      "component": "电池",
       "brand": "",
-      "model": "MEMS麦克风",
+      "model": "",
       "qty_hint": "",
       "side": "耳机",
       "role": "major",
       "evidence": {
-        "value": "MEMS麦克风",
-        "confidence": 0.78,
-        "source_type": "summary_prose",
-        "source_text": "耳机内部搭载了10mm钕制发声单元，两颗敏芯微MEMS麦克风，内置软包扣式电池，容量0.222Wh，来自HJ弘捷。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "BES恒玄科技",
-      "model": "恒玄BES2300IU",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "恒玄BES2300IU",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "主控芯片为BES恒玄BES2300IU蓝牙音频SoC。"
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "ICP1106的充电电压，充电电流，输出电压能通过I2C灵活配置，能方便的实现TWS快充，效率充电；同时支持电力线载波双向通信，UART双向通信这两种通信模式，能可靠的满足充电仓和耳机的信息交互需求，实现耳机和充电仓的智能控制；还支持运输模式，待机功耗最低可以做到1uA，支持0V，2.4V，电池电压等多种电压输出待机模式。"
       }
     },
     {
@@ -75,21 +61,21 @@
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "创新科技ZEN AIR真无线耳机充电盒采用了横向结构，体积小巧的方形盒设计，棱角大弧线过渡，舒适握持；外壳通过钢琴烤漆工艺处理，质感光滑圆润。充电盒顶部设计有“CREATIVE”品牌LOGO和“SXFI READY”标志。"
+        "source_text": "创新科技ZEN AIR真无线耳机充电盒采用了横向结构，体积小巧的方形盒设计，棱角大弧线过渡，舒适握持；外壳通过钢琴烤漆工艺处理，质感光滑圆润。"
       }
     },
     {
-      "component": "电池",
+      "component": "麦克风",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "充电盒",
+      "side": "",
       "role": "major",
       "evidence": {
-        "value": "电池",
+        "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒底部为无线充电接收区域，平面设计，印有认证标志和产品参数信息。型号：EF1050，生产者：CREATIVE LABS PTE.LTD，充电盒电池额定值：3.7V/400mAh/1.48Wh，输入：5V-1A，中国制造。"
+        "source_text": "降噪麦克风拾音孔特写，内部防尘网防护，凹槽抗风噪设计，防止直吹。"
       }
     },
     {
@@ -104,20 +90,6 @@
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "座舱一侧结构一览，固定电池单元，通过绝缘纸包裹，与下方主板通过海绵垫隔离。"
-      }
-    },
-    {
-      "component": "麦克风",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "麦克风",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "创新科技ZEN AIR真无线耳机是其近期推出的新一代产品，外观上采用了全新的设计，配置上搭载10mm钕制发声单元，支持蓝牙5.0，支持AAC高清音频解码；双耳内置4麦克风单元，支持ANC主动降噪/环境模式，支持ENC通话降噪；还支持SXFI全息环绕音效，搭配支持的电视使用，带来身临其境的空间音频效果。充电续航方面，支持6h+12h的综合续航，支持无线充电，兼容Qi标准。"
       }
     },
     {
@@ -139,13 +111,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "降噪系统",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "创新科技ZEN AIR真无线耳机是其近期推出的新一代产品，外观上采用了全新的设计，配置上搭载10mm钕制发声单元，支持蓝牙5.0，支持AAC高清音频解码；双耳内置4麦克风单元，支持ANC主动降噪/环境模式，支持ENC通话降噪；还支持SXFI全息环绕音效，搭配支持的电视使用，带来身临其境的空间音频效果。充电续航方面，支持6h+12h的综合续航，支持无线充电，兼容Qi标准。"
+        "source_text": "镭雕ME38 D143的MEMS麦克风特写，为降噪麦克风，用于主动降噪、通话降噪、环境模式等功能拾取外界环境声音，来自敏芯微电子。"
       }
     },
     {
@@ -173,35 +145,7 @@
         "value": "外壳结构",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "创新科技ZEN AIR真无线耳机充电盒采用了横向结构，体积小巧的方形盒设计，棱角大弧线过渡，舒适握持；外壳通过钢琴烤漆工艺处理，质感光滑圆润。充电盒顶部设计有“CREATIVE”品牌LOGO和“SXFI READY”标志。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒正面开盖处设计有倒角，机身上有一颗指示灯，用于反馈充电和蓝牙配对状态。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "座舱，设置有一颗功能按键，用于蓝牙配对等功能。"
+        "source_text": "创新科技ZEN AIR真无线耳机充电盒采用了横向结构，体积小巧的方形盒设计，棱角大弧线过渡，舒适握持；外壳通过钢琴烤漆工艺处理，质感光滑圆润。"
       }
     },
     {
@@ -215,26 +159,12 @@
         "value": "恒玄BES2300IU",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "BES恒玄BES2300IU蓝牙音频SoC，BES2300系列有多个版本、后缀不同配置也不尽相同。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "BES2300",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "BES2300",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "BES2300系列支持蓝牙5.0、IBRT蓝牙技术，还支持第三代FWS全无线立体声技术、双麦克风等。"
+        "source_text": "电池容量：400\n芯片 恒玄BES2300IU\n芯片 BES2300"
       }
     }
   ],
   "summary_image_urls": [],
-  "summary_text": "三、我爱音频网总结 作为创新科技旗下新一代TWS耳机，Creative ZEN AIR以“轻！时尚”为主题，为消费者提供了一款轻巧便携，质感出色又具有品牌特色的产品。全新的外观设计，钢琴烤漆工艺打造的充电盒，质感厚重，没有廉价的塑料感；柄状的入耳式耳机，层次感丰富，佩戴舒适亲肤。 内部主要配置方面，充电盒支持有线、无线两种方式输入电源，有线采用了Type-C接口，由LY来远电子ICP1106电源管理芯片负责为内置锂电池充电，并集成了Boost同步升压，用于为内置电池升压给耳机充电，还支持电源路径管理，插拔检测，双向通信，OVP，OCP保护等功能；无线采用了COPO酷珀微CP2022无线充电传输芯片，可提供3W的充电功率，兼容Qi V1.2.4标准；还搭载有一颗SiliconWisdom矽睿半导体SWU254N N极微功耗霍尔效应开关，用于开盖即连功能。 耳机内部搭载了10mm钕制发声单元，两颗敏芯微MEMS麦克风，内置软包扣式电池，容量0.222Wh，来自HJ弘捷。主板上采用了LY来远电子ICP1205线性充电IC，内部集成丰富的功能，搭配充电盒内部ICP1106电源管理芯片，支持效率充电模式，提高充电仓电池容量转化率20%左右，从而带来更持久的续航；主控芯片为BES恒玄BES2300IU蓝牙音频SoC。",
+  "summary_text": "",
   "layer_refs": {
     "technical": [
       "report:161849"
@@ -248,13 +178,13 @@
   "market": {
     "selling_points": [
       {
-        "text": "降噪麦克风拾音孔特写，内部防尘网防护，凹槽抗风噪设计，防止直吹。",
+        "text": "Creative创新科技有限公司创建于1981年，是在世界多媒体及数码娱乐领域享有盛誉的领导厂商，其著名的声霸 […]\n降噪麦克风拾音孔特写，内部防尘网防护，凹槽抗风噪设计，防止直吹。",
         "tag": "降噪",
         "evidence": {
-          "value": "降噪麦克风拾音孔特写，内部防尘网防护，凹槽抗风噪设计，防止直吹。",
-          "confidence": 0.56,
+          "value": "Creative创新科技有限公司创建于1981年，是在世界多媒体及数码娱乐领域享有盛誉的领导厂商，其著名的声霸 […]\n降噪麦克风拾音孔特写，内部防尘网防护，凹槽抗风噪设计，防止直吹。",
+          "confidence": 0.75,
           "source_type": "text",
-          "source_text": "降噪麦克风拾音孔特写，内部防尘网防护，凹槽抗风噪设计，防止直吹。"
+          "source_text": "Creative创新科技有限公司创建于1981年，是在世界多媒体及数码娱乐领域享有盛誉的领导厂商，其著名的声霸 […]\n降噪麦克风拾音孔特写，内部防尘网防护，凹槽抗风噪设计，防止直吹。"
         }
       },
       {
@@ -288,13 +218,13 @@
         }
       },
       {
-        "text": "ICP1106的充电电压，充电电流，输出电压能通过I2C灵活配置，能方便的实现TWS快充，效率充电；同时支持电力线载波双向通信，UART双向通信这两种通信模式，能可靠的满足充电仓和耳机的信息交互需求，实现耳机和充电仓的智能控制；还支持运输模式，待机功耗最低可以做到1uA，支持0V，2.4V，电池电压等多种电压输出待机模式。",
-        "tag": "长续航",
+        "text": "标记/认证：据我爱音频网拆解了解到，酷珀微的无线充电接收方案目前已被\n小米\n、\nOPPO\n、\n漫步者\n、\nPHILIPS飞利浦\n、\nBaseus倍思\n、\n科大讯飞\n、\nSabbat魔宴\n、\nrealme\n、\nomthing\n、\niWALK\n、\nTOZO\n、\nSudio\n、\n派美特\n等品牌旗下TWS耳机产品采用。",
+        "tag": "其他",
         "evidence": {
-          "value": "ICP1106的充电电压，充电电流，输出电压能通过I2C灵活配置，能方便的实现TWS快充，效率充电；同时支持电力线载波双向通信，UART双向通信这两种通信模式，能可靠的满足充电仓和耳机的信息交互需求，实现耳机和充电仓的智能控制；还支持运输模式，待机功耗最低可以做到1uA，支持0V，2.4V，电池电压等多种电压输出待机模式。",
+          "value": "标记/认证：据我爱音频网拆解了解到，酷珀微的无线充电接收方案目前已被\n小米\n、\nOPPO\n、\n漫步者\n、\nPHILIPS飞利浦\n、\nBaseus倍思\n、\n科大讯飞\n、\nSabbat魔宴\n、\nrealme\n、\nomthing\n、\niWALK\n、\nTOZO\n、\nSudio\n、\n派美特\n等品牌旗下TWS耳机产品采用。",
           "confidence": 0.75,
           "source_type": "text",
-          "source_text": "ICP1106的充电电压，充电电流，输出电压能通过I2C灵活配置，能方便的实现TWS快充，效率充电；同时支持电力线载波双向通信，UART双向通信这两种通信模式，能可靠的满足充电仓和耳机的信息交互需求，实现耳机和充电仓的智能控制；还支持运输模式，待机功耗最低可以做到1uA，支持0V，2.4V，电池电压等多种电压输出待机模式。"
+          "source_text": "标记/认证：据我爱音频网拆解了解到，酷珀微的无线充电接收方案目前已被\n小米\n、\nOPPO\n、\n漫步者\n、\nPHILIPS飞利浦\n、\nBaseus倍思\n、\n科大讯飞\n、\nSabbat魔宴\n、\nrealme\n、\nomthing\n、\niWALK\n、\nTOZO\n、\nSudio\n、\n派美特\n等品牌旗下TWS耳机产品采用。"
         }
       }
     ],
@@ -302,7 +232,7 @@
       "游戏",
       "通话"
     ],
-    "positioning_summary": "降噪麦克风拾音孔特写，内部防尘网防护，凹槽抗风噪设计，防止直吹。",
+    "positioning_summary": "Creative创新科技有限公司创建于1981年，是在世界多媒体及数码娱乐领域享有盛誉的领导厂商，其著名的声霸 […]\n降噪麦克风拾音孔特写，内部防尘网防护，凹槽抗风噪设计，防止直吹。",
     "launch_date": null,
     "best_report_id": "161849",
     "best_video_id": null

@@ -15,18 +15,18 @@
   "latest_published": "2023-06-07",
   "internal_match_suggestions": [],
   "cost_snapshot": {
-    "main_chip": "BES2600YUC",
+    "main_chip": "恒玄 BES2500YP",
     "pmic_case": "",
     "battery_ear": "电池",
     "battery_case": "41 mAh",
-    "speaker": "动圈单元",
-    "materials": "PC",
-    "weight_g": "48.3g",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
     "bluetooth": "5.2",
-    "bom_row_count": 18,
+    "bom_row_count": 16,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -36,48 +36,6 @@
     "best_video_id": null
   },
   "bom_table": [
-    {
-      "component": "芯片/模组",
-      "brand": "BES恒玄科技",
-      "model": "BES2600YUC",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "BES2600YUC",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "升级BES恒玄新一代BES2600YUC超低功耗蓝牙音频SoC，支持蓝牙5.3，提供更强大的，搭配高灵敏麦克风，带来有更优的降噪性能。"
-      }
-    },
-    {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "动圈单元",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "动圈单元",
-        "confidence": 0.8,
-        "source_type": "summary_prose",
-        "source_text": "搭载了更大尺寸的动圈单元，并创新使用竹纤维材料制作高音球顶，搭配新增的LDAC、LC3高清音频格式，进一步提升了音频性能，不过取消了与丹拿的联合调音；"
-      }
-    },
-    {
-      "component": "麦克风",
-      "brand": "",
-      "model": "麦克风",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "麦克风",
-        "confidence": 0.78,
-        "source_type": "summary_prose",
-        "source_text": "升级BES恒玄新一代BES2600YUC超低功耗蓝牙音频SoC，支持蓝牙5.3，提供更强大的，搭配高灵敏麦克风，带来有更优的降噪性能。"
-      }
-    },
     {
       "component": "充电仓",
       "brand": "",
@@ -89,7 +47,35 @@
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "包装盒背面均介绍了产品功能特点及参数信息。OPPO Enco Free2真无线降噪：深度个性化降噪、OPPO联合丹拿调音、通透模式、三麦克风通话降噪、蓝牙5.2低延时传输、长达30小时音乐播放；耳机型号：ET171，充电盒型号：ET172，发声单元：10mm动圈，蓝牙版本：5.2，电池容量：41mAh（耳机）/480mAh（充电盒），充电输入（充电盒）：5V⎓1A等。"
+        "source_text": "OPPO Enco Free3真无线降噪耳机：竹纤维振膜、LDAC超清音质传输、49dB智能ANC降噪、双设备连接、快速充电，超长续航、蓝牙 5.3 低延时双传；耳机型号：ETE51，充电盒型号：ETE52，频率响应范围：20Hz~40kHz，充电输入 (充电盒)：5V-1A，蓝牙编解码：LDAC/LC3/AAC/SBC，蓝牙版本：5.3，蓝牙有效连接距离：10m，充电端口：USB Type-C。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "通过多麦克风协同拾音，为主动降噪、通话降噪等功能提供支持。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "扬声器\nOPPO Enco Free2耳机搭载10mm动圈单元；OPPO Enco Free3耳机扬声器扬声器尺寸约为12.4mm，创新使用竹纤维材料制作高音球顶，大幅提升高频细腻听感的同时，有效抑制失真。"
       }
     },
     {
@@ -97,13 +83,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "电池",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "包装盒背面均介绍了产品功能特点及参数信息。OPPO Enco Free2真无线降噪：深度个性化降噪、OPPO联合丹拿调音、通透模式、三麦克风通话降噪、蓝牙5.2低延时传输、长达30小时音乐播放；耳机型号：ET171，充电盒型号：ET172，发声单元：10mm动圈，蓝牙版本：5.2，电池容量：41mAh（耳机）/480mAh（充电盒），充电输入（充电盒）：5V⎓1A等。"
+        "source_text": "电池"
       }
     },
     {
@@ -121,45 +107,17 @@
       }
     },
     {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "喇叭单元",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "包装盒背面均介绍了产品功能特点及参数信息。OPPO Enco Free2真无线降噪：深度个性化降噪、OPPO联合丹拿调音、通透模式、三麦克风通话降噪、蓝牙5.2低延时传输、长达30小时音乐播放；耳机型号：ET171，充电盒型号：ET172，发声单元：10mm动圈，蓝牙版本：5.2，电池容量：41mAh（耳机）/480mAh（充电盒），充电输入（充电盒）：5V⎓1A等。"
-      }
-    },
-    {
       "component": "麦克风",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "包装盒背面均介绍了产品功能特点及参数信息。OPPO Enco Free2真无线降噪：深度个性化降噪、OPPO联合丹拿调音、通透模式、三麦克风通话降噪、蓝牙5.2低延时传输、长达30小时音乐播放；耳机型号：ET171，充电盒型号：ET172，发声单元：10mm动圈，蓝牙版本：5.2，电池容量：41mAh（耳机）/480mAh（充电盒），充电输入（充电盒）：5V⎓1A等。"
-      }
-    },
-    {
-      "component": "降噪系统",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "降噪系统",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "OPPO Enco Free3真无线降噪耳机：竹纤维振膜、LDAC超清音质传输、49dB智能ANC降噪、双设备连接、快速充电，超长续航、蓝牙 5.3 低延时双传；耳机型号：ETE51，充电盒型号：ETE52，频率响应范围：20Hz~40kHz，充电输入 (充电盒)：5V-1A，蓝牙编解码：LDAC/LC3/AAC/SBC，蓝牙版本：5.3，蓝牙有效连接距离：10m，充电端口：USB Type-C。"
+        "source_text": "通过多麦克风协同拾音，为主动降噪、通话降噪等功能提供支持。"
       }
     },
     {
@@ -201,21 +159,7 @@
         "value": "恒玄 BES2500YP",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "二、耳机\n蓝牙音频SoC\nOPPO Enco Free2真无线耳机搭载BES恒玄 BES2500YP 超低功耗蓝牙音频SoC，支持双模蓝牙5.2，自适应ANC主动降噪功能，内部集成了高保真音频DAC和ADC；由高性能双核ARM Cortex-M33 Star1 MCU子系统和超低功耗传感器集线器子系统供电，极大地降低了功耗，同时还具备强大的应用程序处理能力。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "恒玄BES2600YUC",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "恒玄BES2600YUC",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "OPPO Enco Free3真无线耳机升级BES恒玄BES2600YUC超低功耗蓝牙音频SoC，支持双模蓝牙5.3，支持LE Audio，支持无缝一拖二连接。"
+        "source_text": "电池\n蓝牙音频SoC\nOPPO Enco Free2真无线耳机搭载BES恒玄 BES2500YP 超低功耗蓝牙音频SoC，支持双模蓝牙5.2，自适应ANC主动降噪功能，内部集成了高保真音频DAC和ADC；由高性能双核ARM Cortex-M33 Star1 MCU子系统和超低功耗传感器集线器子系统供电，极大地降低了功耗，同时还具备强大的应用程序处理能力。"
       }
     },
     {
@@ -235,15 +179,57 @@
     {
       "component": "芯片/模组",
       "brand": "",
+      "model": "恒玄 BES2500YP",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄 BES2500YP",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：41\n芯片 BES2600YUC\n芯片 恒玄 BES2500YP\n芯片 AB0\n芯片 思远半导体SY8602\n芯片 思远半导体SY8801\n芯片 思远半导体SY8815\n芯片 WINSEMI稳先微WSDF23B\n芯片 CM1003"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2600YUC",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2600YUC",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：41\n芯片 BES2600YUC\n芯片 恒玄 BES2500YP\n芯片 AB0\n芯片 思远半导体SY8602\n芯片 思远半导体SY8801\n芯片 思远半导体SY8815\n芯片 WINSEMI稳先微WSDF23B\n芯片 CM1003"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB0",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB0",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：41\n芯片 BES2600YUC\n芯片 恒玄 BES2500YP\n芯片 AB0\n芯片 思远半导体SY8602\n芯片 思远半导体SY8801\n芯片 思远半导体SY8815\n芯片 WINSEMI稳先微WSDF23B\n芯片 CM1003"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
       "model": "思远半导体SY8602",
       "qty_hint": "1",
-      "side": "耳机",
+      "side": "",
       "role": "主控/蓝牙",
       "evidence": {
         "value": "思远半导体SY8602",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "充电IC\nOPPO Enco Free2耳机内部搭载思远半导体SY8602线性锂电池充电IC，用于为耳机内置电池充电，支持28V输入过压保护，支持4.2/4.35V电池，最大充电电流500mA；OPPO Enco Free3耳机充电功能由BES恒玄BES2600YUC超低功耗蓝牙音频SoC集成。"
+        "source_text": "电池容量：41\n芯片 BES2600YUC\n芯片 恒玄 BES2500YP\n芯片 AB0\n芯片 思远半导体SY8602\n芯片 思远半导体SY8801\n芯片 思远半导体SY8815\n芯片 WINSEMI稳先微WSDF23B\n芯片 CM1003"
       }
     },
     {
@@ -251,54 +237,32 @@
       "brand": "",
       "model": "WINSEMI稳先微WSDF23B",
       "qty_hint": "1",
-      "side": "耳机",
+      "side": "",
       "role": "主控/蓝牙",
       "evidence": {
         "value": "WINSEMI稳先微WSDF23B",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "锂电保护IC\nOPPO Enco Free2耳机内置锂电保护IC未能获取详细信息；OPPO Enco Free3耳机内部电池FPC板上设置有WINSEMI稳先微WSDF23B2N2H锂电保护IC，采用DFN-1*1超小体积封装，具有过充、过放、过流、短路等所有电池需要的保护功能。"
+        "source_text": "电池容量：41\n芯片 BES2600YUC\n芯片 恒玄 BES2500YP\n芯片 AB0\n芯片 思远半导体SY8602\n芯片 思远半导体SY8801\n芯片 思远半导体SY8815\n芯片 WINSEMI稳先微WSDF23B\n芯片 CM1003"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "思远半导体SY8801",
+      "model": "CM1003",
       "qty_hint": "1",
-      "side": "充电盒",
+      "side": "",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "思远半导体SY8801",
+        "value": "CM1003",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "三、充电盒\n电源管理芯片\nOPPO Enco Free2充电盒内部采用了思远半导体SY8801 TWS耳机充电仓SOC，专为TWS耳机充电仓设计，在确保安全、高可靠性能的设计基础上（支持28V输入耐压，内置全功能的充放电过压、过流、过温、短路保护等功能），还集成了I2C通讯功能和内部通讯隔离功能。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "思远半导体SY8815",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "思远半导体SY8815",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "OPPO Enco Free2充电盒搭载了思远半导体SY8815蓝牙耳机充电仓解决方案，专为蓝牙耳机仓设计，内部集成充电模块和放电模块。"
+        "source_text": "电池容量：41\n芯片 BES2600YUC\n芯片 恒玄 BES2500YP\n芯片 AB0\n芯片 思远半导体SY8602\n芯片 思远半导体SY8801\n芯片 思远半导体SY8815\n芯片 WINSEMI稳先微WSDF23B\n芯片 CM1003"
       }
     }
   ],
-  "summary_image_urls": [
-    {
-      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/06/2023060701392480.png",
-      "alt": "拆解对比：OPPO Enco Free2和OPPO Enco Free3真无线耳机-我爱音频网",
-      "caption": "",
-      "section_hint": "summary_bom",
-      "score": 10
-    }
-  ],
-  "summary_text": "四、我爱音频网总结 最后附上OPPO Enco Free2和OPPO Enco Free3真无线耳机的对比表格，方便大家更快速的了解两款产品的相同点和区别。 OPPO Enco Free2和OPPO Enco Free3真无线耳机在外观设计方面，均采用了“鹅卵石”状的椭圆形充电盒和柄状的入耳式耳机，整体体积轻巧，外出使用便携，佩戴轻盈舒适。在产品细节上，两者拥有着不同的特点，代表着OPPO TWS耳机的新旧设计风格，前者层次感更为丰富，更具质感和辨识度；后者更加简约时尚，更具年轻化气质。 内部主要配置方面，作为新一代产品，OPPO Enco Free3带来了多项升级。搭载了更大尺寸的动圈单元，并创新使用竹纤维材料制作高音球顶，搭配新增的LDAC、LC3高清音频格式，进一步提升了音频性能，不过取消了与丹拿的联合调音；升级BES恒玄新一代BES2600YUC超低功耗蓝牙音频SoC，支持蓝牙5.3，提供更强大的，搭配高灵敏麦克风，带来有更优的降噪性能。",
+  "summary_image_urls": [],
+  "summary_text": "",
   "layer_refs": {
     "technical": [
       "report:162835"
@@ -312,13 +276,13 @@
   "market": {
     "selling_points": [
       {
-        "text": "与\nOPPO Enco Free2\n发布相隔将近两年，OPPO在2023年3月21日的新品发布会上，才正式推出了\nOPPO Enco Free3真无线降噪耳机\n，相较于前代，产品设计风格有了非常大的改变，功能配置上也得到了全面升级。",
+        "text": "在TWS耳机市场，手机品牌中OPPO最为活跃，旗下拥有Enco X、Enco Free、Enco Air和En […]\n与\nOPPO Enco Free2\n发布相隔将近两年，OPPO在2023年3月21日的新品发布会上，才正式推出了\nOPPO Enco Free3真无线降噪耳机\n，相较于前代，产品设计风格有了非常大的改变，功能配置上也得到了全面升级。",
         "tag": "降噪",
         "evidence": {
-          "value": "与\nOPPO Enco Free2\n发布相隔将近两年，OPPO在2023年3月21日的新品发布会上，才正式推出了\nOPPO Enco Free3真无线降噪耳机\n，相较于前代，产品设计风格有了非常大的改变，功能配置上也得到了全面升级。",
-          "confidence": 0.73,
+          "value": "在TWS耳机市场，手机品牌中OPPO最为活跃，旗下拥有Enco X、Enco Free、Enco Air和En […]\n与\nOPPO Enco Free2\n发布相隔将近两年，OPPO在2023年3月21日的新品发布会上，才正式推出了\nOPPO Enco Free3真无线降噪耳机\n，相较于前代，产品设计风格有了非常大的改变，功能配置上也得到了全面升级。",
+          "confidence": 0.75,
           "source_type": "text",
-          "source_text": "与\nOPPO Enco Free2\n发布相隔将近两年，OPPO在2023年3月21日的新品发布会上，才正式推出了\nOPPO Enco Free3真无线降噪耳机\n，相较于前代，产品设计风格有了非常大的改变，功能配置上也得到了全面升级。"
+          "source_text": "在TWS耳机市场，手机品牌中OPPO最为活跃，旗下拥有Enco X、Enco Free、Enco Air和En […]\n与\nOPPO Enco Free2\n发布相隔将近两年，OPPO在2023年3月21日的新品发布会上，才正式推出了\nOPPO Enco Free3真无线降噪耳机\n，相较于前代，产品设计风格有了非常大的改变，功能配置上也得到了全面升级。"
         }
       },
       {
@@ -345,7 +309,7 @@
     "scenarios": [
       "通话"
     ],
-    "positioning_summary": "与\nOPPO Enco Free2\n发布相隔将近两年，OPPO在2023年3月21日的新品发布会上，才正式推出了\nOPPO Enco Free3真无线降噪耳机\n，相较于前代，产品设计风格有了非常大的改变，功能配置上也得到了全面升级。",
+    "positioning_summary": "在TWS耳机市场，手机品牌中OPPO最为活跃，旗下拥有Enco X、Enco Free、Enco Air和En […]\n与\nOPPO Enco Free2\n发布相隔将近两年，OPPO在2023年3月21日的新品发布会上，才正式推出了\nOPPO Enco Free3真无线降噪耳机\n，相较于前代，产品设计风格有了非常大的改变，功能配置上也得到了全面升级。",
     "launch_date": "2023-3-21",
     "best_report_id": "162835",
     "best_video_id": null

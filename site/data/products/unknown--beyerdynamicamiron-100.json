@@ -1,0 +1,356 @@
+{
+  "canonical_id": "unknown--beyerdynamicamiron-100",
+  "brand": "",
+  "model": "beyerdynamic拜雅AMIRON 100",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "225690"
+  ],
+  "video_ids": [
+    "227261"
+  ],
+  "related_report_ids": [
+    "225690"
+  ],
+  "related_video_ids": [
+    "227261"
+  ],
+  "first_seen": "2025-01-17",
+  "latest_published": "2025-02-08",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "WINSEMI稳先微WSDF2310",
+    "pmic_case": "WINSEMI稳先微 Winsemi稳先微WSDF2310D",
+    "battery_ear": "电池",
+    "battery_case": "4V/90mAh锂电池",
+    "speaker": "振膜动圈",
+    "materials": "硅胶",
+    "weight_g": "50.7g",
+    "weight_case_g": "",
+    "weight_earbud_g": "4.4g",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 17,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "225690",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "4V/90mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "4V/90mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载了蓝电新能源490mAh锂电池，支持有线无线两种方式输入电源。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "WINSEMI稳先微",
+      "model": "Winsemi稳先微WSDF2310D",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "保护IC",
+      "evidence": {
+        "value": "Winsemi稳先微WSDF2310D",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内置软包扣式电池能量0.167Wh，配备Winsemi稳先微WSDF2310D锂电保护IC负责充放电保护；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "振膜动圈",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "振膜动圈",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了10mm复合振膜动圈单元，内置了3颗MEMS麦克风，用于语音通话和降噪功能拾音；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了10mm复合振膜动圈单元，内置了3颗MEMS麦克风，用于语音通话和降噪功能拾音；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，中间固定电池单元，与主板通过插座连接。左侧还设置有一条排线，连接功能按键。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拜雅AMIRON 100真无线降噪耳机充电盒采用了椭圆形设计，哑光质感，体积非常的小巧轻便。机身正面设计有“beyerdynamic”品牌LOGO，设置有一颗指示灯用于反馈蓝牙配对及充电状态。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱正面结构一览，通过螺丝固定主板单元，设置有一条排线，连接指示灯、霍尔元件和为耳机充电的小板。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拜雅AMIRON 100搭载6个高品质麦克风精准拾音，保障多场景下的清晰语音通话；支持主动降噪，有效屏蔽噪音，提供沉浸式聆听体验；支持智能通透模式，佩戴耳机也能轻松与外界沟通；还支持多点连接、佩戴检测功能，使用更方便。续航方面，支持单次8小时，综合35小时的持久播放，支持快速充电、无线充电功能，便捷、快速恢复能量。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "此次将要拆解的拜雅AMIRON 100真无线降噪耳机是拜雅旗下首款采用柄状设计的产品，外观造型紧凑，能带来舒适贴合的佩戴体验。在功能配置上，搭载了10mm高性能32Ω动圈单元，支持AAC、SBC、LC3音频编解码，提供高品质音质和稳定流畅的蓝牙连接体验；通过beyerdynamic APP，可以进行EQ设置，带来个性化的声音体验。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拜雅AMIRON 100搭载6个高品质麦克风精准拾音，保障多场景下的清晰语音通话；支持主动降噪，有效屏蔽噪音，提供沉浸式聆听体验；支持智能通透模式，佩戴耳机也能轻松与外界沟通；还支持多点连接、佩戴检测功能，使用更方便。续航方面，支持单次8小时，综合35小时的持久播放，支持快速充电、无线充电功能，便捷、快速恢复能量。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧结构一览，贴有蓝牙天线和触摸检测贴片。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒侧边设置有蓝牙配对功能按键。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拜雅AMIRON 100真无线降噪耳机充电盒采用了椭圆形设计，哑光质感，体积非常的小巧轻便。机身正面设计有“beyerdynamic”品牌LOGO，设置有一颗指示灯用于反馈蓝牙配对及充电状态。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "撬开卡扣式固定的充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄内侧的充电触点特写，中间设置通话麦克风拾音孔。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Winsemi稳先微WSDF2310D",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Winsemi稳先微WSDF2310D",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Winsemi稳先微WSDF2310D锂电保护IC。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "稳先微WSDF2310",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "稳先微WSDF2310",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "稳先微WSDF2310系列是单节锂离子/锂聚合物可充电电池组保护的高集成度解决方案，包括了先进的功率 MOSFET，高精度的电压检测电路和延时电路，具有过充、过放、过流、短路等所有电池需要的保护功能，并且工作时功耗非常低，同时还支持CTL船运模式设置；无铅、无卤素。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 beyerdynamic拜雅AMIRON 100真无线降噪耳机外观设计非常的出众，椭圆形充电盒，体积小巧精致，外出使用便携。柄状的入耳式耳机，背部采用了类金属喷砂的涂层设计，质感出色，极具辨识度。耳机体积同样非常的轻巧，搭配标配的6种尺寸硅胶耳塞，提供个性化的舒适贴合佩戴体验。 内部主要配置方面，充电盒搭载了蓝电新能源490mAh锂电池，支持有线无线两种方式输入电源。主板上，有线充电采用了LY来远电子ICP1106电源管理芯片，无线由NuVolta伏达NU1680无线电源接收器负责；其他还采用了LPS微源半导体LP5305过压过流保护IC，APTCHIP爱普特APT32F1023B微控制器等。 耳机内部搭载了10mm复合振膜动圈单元，内置了3颗MEMS麦克风，用于语音通话和降噪功能拾音；内置软包扣式电池能量0.167Wh，配备Winsemi稳先微WSDF2310D锂电保护IC负责充放电保护；主板上，搭载WUQI物奇WQ7034AX蓝牙音频SoC，多颗Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等元器件。",
+  "layer_refs": {
+    "technical": [
+      "report:225690",
+      "video:227261"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "拜雅AMIRON 100搭载6个高品质麦克风精准拾音，保障多场景下的清晰语音通话；支持主动降噪，有效屏蔽噪音，提供沉浸式聆听体验；支持智能通透模式，佩戴耳机也能轻松与外界沟通；还支持多点连接、佩戴检测功能，使用更方便。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "拜雅AMIRON 100搭载6个高品质麦克风精准拾音，保障多场景下的清晰语音通话；支持主动降噪，有效屏蔽噪音，提供沉浸式聆听体验；支持智能通透模式，佩戴耳机也能轻松与外界沟通；还支持多点连接、佩戴检测功能，使用更方便。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "拜雅AMIRON 100搭载6个高品质麦克风精准拾音，保障多场景下的清晰语音通话；支持主动降噪，有效屏蔽噪音，提供沉浸式聆听体验；支持智能通透模式，佩戴耳机也能轻松与外界沟通；还支持多点连接、佩戴检测功能，使用更方便。"
+        }
+      },
+      {
+        "text": "取掉耳塞，耳机出音嘴特写，细密防尘网防护，内部设置有后馈降噪麦克风。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "取掉耳塞，耳机出音嘴特写，细密防尘网防护，内部设置有后馈降噪麦克风。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "取掉耳塞，耳机出音嘴特写，细密防尘网防护，内部设置有后馈降噪麦克风。"
+        }
+      },
+      {
+        "text": "物奇WQ703X芯片平台拥有更加开放的应用生态，具备强大的平台能力，能够提供丰富的自定义音频方案和算法移植支持，拥有领先的性能优势。",
+        "tag": "其他",
+        "evidence": {
+          "value": "物奇WQ703X芯片平台拥有更加开放的应用生态，具备强大的平台能力，能够提供丰富的自定义音频方案和算法移植支持，拥有领先的性能优势。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "物奇WQ703X芯片平台拥有更加开放的应用生态，具备强大的平台能力，能够提供丰富的自定义音频方案和算法移植支持，拥有领先的性能优势。"
+        }
+      },
+      {
+        "text": "三、我爱音频网总结\nbeyerdynamic拜雅AMIRON 100真无线降噪耳机外观设计非常的出众，椭圆形充电盒，体积小巧精致，外出使用便携。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "三、我爱音频网总结\nbeyerdynamic拜雅AMIRON 100真无线降噪耳机外观设计非常的出众，椭圆形充电盒，体积小巧精致，外出使用便携。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\nbeyerdynamic拜雅AMIRON 100真无线降噪耳机外观设计非常的出众，椭圆形充电盒，体积小巧精致，外出使用便携。"
+        }
+      },
+      {
+        "text": "拜雅AMIRON 100真无线降噪耳机充电盒采用了椭圆形设计，哑光质感，体积非常的小巧轻便。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "拜雅AMIRON 100真无线降噪耳机充电盒采用了椭圆形设计，哑光质感，体积非常的小巧轻便。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "拜雅AMIRON 100真无线降噪耳机充电盒采用了椭圆形设计，哑光质感，体积非常的小巧轻便。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "拜雅AMIRON 100搭载6个高品质麦克风精准拾音，保障多场景下的清晰语音通话；支持主动降噪，有效屏蔽噪音，提供沉浸式聆听体验；支持智能通透模式，佩戴耳机也能轻松与外界沟通；还支持多点连接、佩戴检测功能，使用更方便。",
+    "launch_date": null,
+    "best_report_id": "225690",
+    "best_video_id": null
+  }
+}

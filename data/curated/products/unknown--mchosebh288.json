@@ -15,81 +15,39 @@
   "latest_published": "2022-12-15",
   "internal_match_suggestions": [],
   "cost_snapshot": {
-    "main_chip": "IP5516",
-    "pmic_case": "INJOINIC英集芯 INJOINIC英集芯IP5516",
+    "main_chip": "INJOINIC英集芯IP5516",
+    "pmic_case": "",
     "battery_ear": "电池",
-    "battery_case": "3V/70mAh锂电池",
-    "speaker": "6.2mm 动圈单元",
-    "materials": "硅胶",
-    "weight_g": "94.7g",
+    "battery_case": "370 mAh",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
-    "bluetooth": "5.3",
-    "bom_row_count": 16,
+    "bluetooth": "",
+    "bom_row_count": 10,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
     "sales_hint": null,
-    "data_completeness": 1.0,
+    "data_completeness": 0.83,
     "best_report_id": "142802",
     "best_video_id": null
   },
   "bom_table": [
     {
-      "component": "芯片/模组",
-      "brand": "INJOINIC英集芯",
-      "model": "INJOINIC英集芯IP5516",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "PMIC/充电仓管理",
-      "evidence": {
-        "value": "INJOINIC英集芯IP5516",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "除此之外，主副仓内均内置了370mAh锂电池，配备有电路保护包负责充放电保护，由INJOINIC英集芯IP5516充电盒管理SoC负责充放电管理，同时集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
-      }
-    },
-    {
       "component": "电池",
       "brand": "",
-      "model": "3V/70mAh锂电池",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "3V/70mAh锂电池",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "除此之外，主副仓内均内置了370mAh锂电池，配备有电路保护包负责充放电保护，由INJOINIC英集芯IP5516充电盒管理SoC负责充放电管理，同时集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
-      }
-    },
-    {
-      "component": "麦克风",
-      "brand": "",
-      "model": "MEMS麦克风",
+      "model": "",
       "qty_hint": "",
       "side": "耳机",
       "role": "major",
       "evidence": {
-        "value": "MEMS麦克风",
-        "confidence": 0.78,
-        "source_type": "summary_prose",
-        "source_text": "两副耳机内部，均内置了LIDEA电的电子LIR1040钢壳扣式电池，主控芯片为Actions炬芯科技ATS3015E蓝牙音频SoC，支持蓝牙5.3，支持单麦克风环境降噪，搭配一颗MEMS麦克风用于清晰通话。"
-      }
-    },
-    {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "6.2mm 动圈单元",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "6.2mm 动圈单元",
-        "confidence": 0.8,
-        "source_type": "summary_prose",
-        "source_text": "耳机采用6.2mm动圈单元，杆状半入耳式耳机则搭载了更大的10mm动圈，以降低半入耳的佩戴方式带来的低频损失。"
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱腹部设置电池，通过海绵垫防护，起到很好的保护作用。主板上有排线连接到电池下方为耳机充电的小板。"
       }
     },
     {
@@ -107,31 +65,31 @@
       }
     },
     {
-      "component": "电池",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "电池",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "座舱腹部设置电池，通过海绵垫防护，起到很好的保护作用。主板上有排线连接到电池下方为耳机充电的小板。"
-      }
-    },
-    {
       "component": "充电仓",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "充电盒",
       "role": "major",
       "evidence": {
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "迈从BH288二合一真无线耳机充电盒整体采用圆角方形设计，熊猫元素黑白撞色，观感时尚个性。黑色为主机仓，上方设计有品牌LOGO，白色为副机仓，主副仓固定严丝合缝，磁吸式开关，轻松开合。"
+        "source_text": "充电接口：内部结构设计方面，充电盒分为主机仓和副机仓，主机仓设置Type-C充电接口，用于为内置电池充电，同时通过连接器实现为副机仓充电。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "ATS3015E采用RISC32核心架构，嵌入大容量RAM，内置16-bits ADC和20-bits DAC，支持单麦克风环境降噪（ENC），支持风噪声降低，支持语音提示和电容式触摸检测。"
       }
     },
     {
@@ -149,17 +107,17 @@
       }
     },
     {
-      "component": "麦克风",
+      "component": "降噪系统",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "",
       "role": "major",
       "evidence": {
-        "value": "麦克风",
+        "value": "降噪系统",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "通话麦克风拾音孔特写。"
+        "source_text": "ATS3015E采用RISC32核心架构，嵌入大容量RAM，内置16-bits ADC和20-bits DAC，支持单麦克风环境降噪（ENC），支持风噪声降低，支持语音提示和电容式触摸检测。"
       }
     },
     {
@@ -177,20 +135,6 @@
       }
     },
     {
-      "component": "降噪系统",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "降噪系统",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "Actions炬芯科技ATS3015E蓝牙音频SoC，是一款高度集成的单芯片蓝牙音频解决方案，支持蓝牙5.3，具有高性能、低成本和低功耗等特点。ATS3015E采用RISC32核心架构，嵌入大容量RAM，内置16-bits ADC和20-bits DAC，支持单麦克风环境降噪（ENC），支持风噪声降低，支持语音提示和电容式触摸检测。"
-      }
-    },
-    {
       "component": "指示灯",
       "brand": "",
       "model": "",
@@ -201,49 +145,21 @@
         "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "主机仓侧边设有Type-C充电接口，旁边又有一颗指示灯。"
+        "source_text": "充电接口：主机仓侧边设有Type-C充电接口，旁边又有一颗指示灯。"
       }
     },
     {
-      "component": "外壳结构",
+      "component": "芯片/模组",
       "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
+      "model": "INJOINIC英集芯IP5516",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
       "evidence": {
-        "value": "外壳结构",
-        "confidence": 0.72,
+        "value": "INJOINIC英集芯IP5516",
+        "confidence": 0.78,
         "source_type": "text",
-        "source_text": "撬开主机仓外壳，取出内部座舱结构。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "在功能配置方面，迈从BH288搭载全新蓝牙5.3版本，连接更稳定，抗干扰能力更强，同时延迟可低至46ms，提供流畅的音视频、游戏体验。每副耳机可连接2台不同设备，支持出仓即连，支持触控操作，使用上也非常便捷。下面就让我们来看看这款产品的详细外观设计和内部结构配置吧~"
-      }
-    },
-    {
-      "component": "充电触点",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "副机仓为耳机充电的Pogo Pin连接器特写。"
+        "source_text": "标记/认证：INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
       }
     },
     {
@@ -257,12 +173,12 @@
         "value": "IP5516",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。"
+        "source_text": "标记/认证：IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。"
       }
     }
   ],
   "summary_image_urls": [],
-  "summary_text": "三、我爱音频网总结 MCHOSE迈从BH288二合一真无线耳机在外观方面，巧妙地将两副耳机合二为一，主副仓磁吸式开合，使用非常便捷；两副耳机，两种结构设计，一种提供更优的低音效果，一种带来更加舒适无感的佩戴体验，让用户不再需要做“二选一”的选择，同时也避免了外出携带两副耳机的繁琐。而以熊猫元素为灵感的黑白撞色设计，为其增添了时尚感，让两副耳机能够相得益彰的融合，而不显得突兀。 内部结构设计方面，充电盒分为主机仓和副机仓，主机仓设置Type-C充电接口，用于为内置电池充电，同时通过连接器实现为副机仓充电。除此之外，主副仓内均内置了370mAh锂电池，配备有电路保护包负责充放电保护，由INJOINIC英集芯IP5516充电盒管理SoC负责充放电管理，同时集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。 两副耳机内部，均内置了LIDEA电的电子LIR1040钢壳扣式电池，主控芯片为Actions炬芯科技ATS3015E蓝牙音频SoC，支持蓝牙5.3，支持单麦克风环境降噪，搭配一颗MEMS麦克风用于清晰通话。不同点在于搭载了发声单元，豆式入耳式耳机采用6.2mm动圈单元，杆状半入耳式耳机则搭载了更大的10mm动圈，以降低半入耳的佩戴方式带来的低频损失。",
+  "summary_text": "",
   "layer_refs": {
     "technical": [
       "report:142802"
@@ -276,13 +192,13 @@
   "market": {
     "selling_points": [
       {
-        "text": "随着TWS耳机市场逐渐步入稳定发展阶段，为了提升产品竞争力，许多品牌开始进行大胆创新，突破常规TWS耳机设计，以期望为用户带了更优的使用体验。",
+        "text": "随着TWS耳机市场逐渐步入稳定发展阶段，为了提升产品竞争力，许多品牌开始进行大胆创新，突破常规TWS耳机设计， […]\n随着TWS耳机市场逐渐步入稳定发展阶段，为了提升产品竞争力，许多品牌开始进行大胆创新，突破常规TWS耳机设计，以期望为用户带了更优的使用体验。",
         "tag": "其他",
         "evidence": {
-          "value": "随着TWS耳机市场逐渐步入稳定发展阶段，为了提升产品竞争力，许多品牌开始进行大胆创新，突破常规TWS耳机设计，以期望为用户带了更优的使用体验。",
+          "value": "随着TWS耳机市场逐渐步入稳定发展阶段，为了提升产品竞争力，许多品牌开始进行大胆创新，突破常规TWS耳机设计， […]\n随着TWS耳机市场逐渐步入稳定发展阶段，为了提升产品竞争力，许多品牌开始进行大胆创新，突破常规TWS耳机设计，以期望为用户带了更优的使用体验。",
           "confidence": 0.75,
           "source_type": "text",
-          "source_text": "随着TWS耳机市场逐渐步入稳定发展阶段，为了提升产品竞争力，许多品牌开始进行大胆创新，突破常规TWS耳机设计，以期望为用户带了更优的使用体验。"
+          "source_text": "随着TWS耳机市场逐渐步入稳定发展阶段，为了提升产品竞争力，许多品牌开始进行大胆创新，突破常规TWS耳机设计， […]\n随着TWS耳机市场逐渐步入稳定发展阶段，为了提升产品竞争力，许多品牌开始进行大胆创新，突破常规TWS耳机设计，以期望为用户带了更优的使用体验。"
         }
       },
       {
@@ -296,51 +212,50 @@
         }
       },
       {
-        "text": "耳机调音孔特写，内侧有防尘网防护。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "耳机调音孔特写，内侧有防尘网防护。",
-          "confidence": 0.62,
-          "source_type": "text",
-          "source_text": "耳机调音孔特写，内侧有防尘网防护。"
-        }
-      },
-      {
-        "text": "耳机出音嘴特写，防尘网防护，防止异物进入音腔。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "耳机出音嘴特写，防尘网防护，防止异物进入音腔。",
-          "confidence": 0.59,
-          "source_type": "text",
-          "source_text": "耳机出音嘴特写，防尘网防护，防止异物进入音腔。"
-        }
-      },
-      {
-        "text": "耳机顶部泄压孔特写，防尘网防护。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "耳机顶部泄压孔特写，防尘网防护。",
-          "confidence": 0.58,
-          "source_type": "text",
-          "source_text": "耳机顶部泄压孔特写，防尘网防护。"
-        }
-      },
-      {
-        "text": "创新双仓耳机设计，主副仓可合可离，内置耳机一副采用杆状半入耳式设计，一副采用豆式入耳式设计，同时满足了消费者两种使用需求。",
+        "text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：型号：BH288，颜色：黑白款（豆黑+杆白），品 牌名：MC迈从，监制：深圳市志仕智能科技有限公司，制造商：志仕智能科技 (东莞市) 有限公司。",
         "tag": "其他",
         "evidence": {
-          "value": "创新双仓耳机设计，主副仓可合可离，内置耳机一副采用杆状半入耳式设计，一副采用豆式入耳式设计，同时满足了消费者两种使用需求。",
-          "confidence": 0.57,
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：型号：BH288，颜色：黑白款（豆黑+杆白），品 牌名：MC迈从，监制：深圳市志仕智能科技有限公司，制造商：志仕智能科技 (东莞市) 有限公司。",
+          "confidence": 0.75,
           "source_type": "text",
-          "source_text": "创新双仓耳机设计，主副仓可合可离，内置耳机一副采用杆状半入耳式设计，一副采用豆式入耳式设计，同时满足了消费者两种使用需求。"
+          "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：型号：BH288，颜色：黑白款（豆黑+杆白），品 牌名：MC迈从，监制：深圳市志仕智能科技有限公司，制造商：志仕智能科技 (东莞市) 有限公司。"
+        }
+      },
+      {
+        "text": "标记/认证：主机仓上丝印信息，型号：BH288，输入：5V-1A，制造商：志仕智能科技 (东莞市) 有限公司，中国制造。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：主机仓上丝印信息，型号：BH288，输入：5V-1A，制造商：志仕智能科技 (东莞市) 有限公司，中国制造。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "标记/认证：主机仓上丝印信息，型号：BH288，输入：5V-1A，制造商：志仕智能科技 (东莞市) 有限公司，中国制造。"
+        }
+      },
+      {
+        "text": "标记/认证：IP5516 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "标记/认证：IP5516 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "标记/认证：IP5516 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+        }
+      },
+      {
+        "text": "标记/认证：INJOINIC英集芯IP5516详细资料图。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "标记/认证：INJOINIC英集芯IP5516详细资料图。",
+          "confidence": 0.62,
+          "source_type": "text",
+          "source_text": "标记/认证：INJOINIC英集芯IP5516详细资料图。"
         }
       }
     ],
     "scenarios": [
-      "游戏",
       "通话"
     ],
-    "positioning_summary": "随着TWS耳机市场逐渐步入稳定发展阶段，为了提升产品竞争力，许多品牌开始进行大胆创新，突破常规TWS耳机设计，以期望为用户带了更优的使用体验。",
+    "positioning_summary": "随着TWS耳机市场逐渐步入稳定发展阶段，为了提升产品竞争力，许多品牌开始进行大胆创新，突破常规TWS耳机设计， […]\n随着TWS耳机市场逐渐步入稳定发展阶段，为了提升产品竞争力，许多品牌开始进行大胆创新，突破常规TWS耳机设计，以期望为用户带了更优的使用体验。",
     "launch_date": null,
     "best_report_id": "142802",
     "best_video_id": null

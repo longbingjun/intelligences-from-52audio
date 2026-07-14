@@ -17,16 +17,16 @@
   "cost_snapshot": {
     "main_chip": "SY8815",
     "pmic_case": "",
-    "battery_ear": "400 mAh",
+    "battery_ear": "100 mAh",
     "battery_case": "电池",
     "speaker": "喇叭单元",
-    "materials": "硅胶、PC",
-    "weight_g": "50.7g",
+    "materials": "PC",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "IPX5",
     "bluetooth": "5.1",
-    "bom_row_count": 16,
+    "bom_row_count": 11,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -36,20 +36,6 @@
     "best_video_id": null
   },
   "bom_table": [
-    {
-      "component": "主板/PCBA",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "主板/PCBA",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "座舱底部通过螺丝固定主板单元。"
-      }
-    },
     {
       "component": "电池",
       "brand": "",
@@ -65,31 +51,31 @@
       }
     },
     {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "主板上前馈降噪麦克风设置有声学橡胶结构，提升收音性能。"
+      }
+    },
+    {
       "component": "充电仓",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "充电盒",
       "role": "major",
       "evidence": {
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "包装盒背面介绍有产品的四项功能特点：35dB深度降噪、50ms超低延迟、六麦降噪，清晰畅聊、高清解析，震撼音质；产品的部分参数信息，名称：HiTune X6主动降噪真无线蓝牙耳机，型号：WS118，蓝牙版本：V5.1，音频解码：AAC、SBC，充电盒输入：5V-400mAh，充电盒输出：5V-100mAh，充电时长：1.5h（耳机）/2h（充电盒），续航时间：6h（单次）/26h（总续航）等。"
-      }
-    },
-    {
-      "component": "麦克风",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "麦克风",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "我爱音频网此前还拆解过绿联旗下的UGREEN绿联 HiTune T2、HiTune T1、HiTune WS100真无线蓝牙耳机，无线领夹麦克风、苹果入耳式有线耳机和USB车载蓝牙音频接收器等，下面再来看看这款产品的详细拆解报告吧~"
+        "source_text": "座舱内部印有充电盒的参数信息，型号：WS118，输出：5V-100mAh，输入：5V-400mAh，电池容量：500mAh/1.85Wh。"
       }
     },
     {
@@ -103,7 +89,21 @@
         "value": "降噪系统",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "TWS耳机的火爆，众多厂商都进入了这一市场。作为知名数码配件品牌的绿联也在TWS耳机市场作了深度布局，目前旗下已经推出了HiTune“X”“T”“H”等多个系列产品，包含了舒适佩戴的半入耳式耳机、ENC通话降噪耳机、以及此次将要拆解的首款ANC主动降噪耳机。"
+        "source_text": "作为\n知名数码配件品牌的绿联也在TWS耳机市场作了深度布局，目前旗下已经推出了\nHiTune\n“X”“T”“H”等多个系列产品，包含了舒适佩戴的半入耳式耳机、ENC通话降噪耳机、以及此次将要拆解的首款\nANC主动降噪耳机\n。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "主板上前馈降噪麦克风设置有声学橡胶结构，提升收音性能。"
       }
     },
     {
@@ -121,45 +121,17 @@
       }
     },
     {
-      "component": "天线",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "天线",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "盖板内侧结构一览，腔体壁上贴有蓝牙天线和触摸检测贴片。上下两端设置有声学结构，用以提升麦克风收音性能。"
-      }
-    },
-    {
-      "component": "外壳结构",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "外壳结构",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "撬开充电盒外壳，取出耳机座舱结构。"
-      }
-    },
-    {
       "component": "指示灯",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "充电盒",
+      "side": "",
       "role": "minor",
       "evidence": {
         "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒盖采用了弧形的腰线设计，正面设计有一颗指示灯，用于反馈充电盒剩余电量信息。"
+        "source_text": "座舱正面电路一览，固定有一条FPC排线，排线上设置了指示灯和霍尔元件。电池位于支架腹内，起到很好的保护作用。"
       }
     },
     {
@@ -173,21 +145,7 @@
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒背面有蓝牙配对功能按键，Type-C充电接口。"
-      }
-    },
-    {
-      "component": "充电触点",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "主板上为耳机充电的Pogo Pin连接器特写。"
+        "source_text": "充电接口：充电盒背面有蓝牙配对功能按键，Type-C充电接口。"
       }
     },
     {
@@ -195,13 +153,13 @@
       "brand": "",
       "model": "SY8815",
       "qty_hint": "1",
-      "side": "充电盒",
+      "side": "耳机",
       "role": "主控/蓝牙",
       "evidence": {
         "value": "SY8815",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "充电盒内部采用了TPS思远\nSY8815\n蓝牙耳机充电仓解决方案。"
+        "source_text": "充电接口：主板上采用了Type-C接口输入电源，内置软包电池容量500mAh，配备\n一体化锂电池保护IC，\n由思远 SY8815蓝牙耳机充电仓解决方案负责为内置电池充电，以及放电为耳机充电。"
       }
     },
     {
@@ -215,21 +173,7 @@
         "value": "SY8815",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "SY8815支持放电使能控制，MCU可以直接通过EN来灵活控制芯片的放电功能。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "SY8815",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "SY8815",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "SY8815非常适合蓝牙耳机充电仓的设计，极大简化了外围电路和元器件，为蓝牙耳机充电仓的应用提供了简单易用的方案。"
+        "source_text": "电池容量：400\n芯片 SY8815\n芯片 Winsemi稳先微WSDF13A"
       }
     },
     {
@@ -243,21 +187,7 @@
         "value": "Winsemi稳先微WSDF13A",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "Winsemi稳先微WSDF13A2N2N详细资料图。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "稳先微WSDF13A",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "稳先微WSDF13A",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "耳机采用了电的电子的钢壳扣式电池，配备稳先微WSDF13A2N2N锂电保护IC；主控芯片为瑞昱RTL8773BFE蓝牙音频SoC，支持蓝牙\n5.1\n，内置双核心架构，独立DSP实现音频编解码，ANC和ENC降噪功能，实现更好的音乐品质和降噪效果。"
+        "source_text": "电池容量：400\n芯片 SY8815\n芯片 Winsemi稳先微WSDF13A"
       }
     }
   ],
@@ -276,13 +206,23 @@
   "market": {
     "selling_points": [
       {
-        "text": "作为\n知名数码配件品牌的绿联也在TWS耳机市场作了深度布局，目前旗下已经推出了\nHiTune\n“X”“T”“H”等多个系列产品，包含了舒适佩戴的半入耳式耳机、ENC通话降噪耳机、以及此次将要拆解的首款\nANC主动降噪耳机\n。",
+        "text": "作为知名数码配件品牌的绿联也在TWS耳机市场作了深度布局，目前旗下 […]\n作为\n知名数码配件品牌的绿联也在TWS耳机市场作了深度布局，目前旗下已经推出了\nHiTune\n“X”“T”“H”等多个系列产品，包含了舒适佩戴的半入耳式耳机、ENC通话降噪耳机、以及此次将要拆解的首款\nANC主动降噪耳机\n。",
         "tag": "降噪",
         "evidence": {
-          "value": "作为\n知名数码配件品牌的绿联也在TWS耳机市场作了深度布局，目前旗下已经推出了\nHiTune\n“X”“T”“H”等多个系列产品，包含了舒适佩戴的半入耳式耳机、ENC通话降噪耳机、以及此次将要拆解的首款\nANC主动降噪耳机\n。",
+          "value": "作为知名数码配件品牌的绿联也在TWS耳机市场作了深度布局，目前旗下 […]\n作为\n知名数码配件品牌的绿联也在TWS耳机市场作了深度布局，目前旗下已经推出了\nHiTune\n“X”“T”“H”等多个系列产品，包含了舒适佩戴的半入耳式耳机、ENC通话降噪耳机、以及此次将要拆解的首款\nANC主动降噪耳机\n。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "作为知名数码配件品牌的绿联也在TWS耳机市场作了深度布局，目前旗下 […]\n作为\n知名数码配件品牌的绿联也在TWS耳机市场作了深度布局，目前旗下已经推出了\nHiTune\n“X”“T”“H”等多个系列产品，包含了舒适佩戴的半入耳式耳机、ENC通话降噪耳机、以及此次将要拆解的首款\nANC主动降噪耳机\n。"
+        }
+      },
+      {
+        "text": "作为知名数码配件品牌的绿联也在TWS耳机市场作了深度布局，目前旗下已经推出了HiTune“X”“T”“H”等多个系列产品，包含了舒适佩戴的半入耳式耳机、ENC通话降噪耳机、以及此次将要拆解的首款ANC主动降噪耳机。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "作为知名数码配件品牌的绿联也在TWS耳机市场作了深度布局，目前旗下已经推出了HiTune“X”“T”“H”等多个系列产品，包含了舒适佩戴的半入耳式耳机、ENC通话降噪耳机、以及此次将要拆解的首款ANC主动降噪耳机。",
           "confidence": 0.55,
           "source_type": "text",
-          "source_text": "作为\n知名数码配件品牌的绿联也在TWS耳机市场作了深度布局，目前旗下已经推出了\nHiTune\n“X”“T”“H”等多个系列产品，包含了舒适佩戴的半入耳式耳机、ENC通话降噪耳机、以及此次将要拆解的首款\nANC主动降噪耳机\n。"
+          "source_text": "作为知名数码配件品牌的绿联也在TWS耳机市场作了深度布局，目前旗下已经推出了HiTune“X”“T”“H”等多个系列产品，包含了舒适佩戴的半入耳式耳机、ENC通话降噪耳机、以及此次将要拆解的首款ANC主动降噪耳机。"
         }
       },
       {
@@ -314,26 +254,6 @@
           "source_type": "text",
           "source_text": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\n声阔\n、\n奋达\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、一加等众多知名品牌\n采用。"
         }
-      },
-      {
-        "text": "免费升级的听力增强功能(Real Hearing Enhancement, RHE)可提供如Airpods Pro相同的语音增强放大、双耳音量平衡、音质明亮低沉调整，可针对轻度听力受损族群，提供个人化的听力补偿调整。",
-        "tag": "降噪",
-        "evidence": {
-          "value": "免费升级的听力增强功能(Real Hearing Enhancement, RHE)可提供如Airpods Pro相同的语音增强放大、双耳音量平衡、音质明亮低沉调整，可针对轻度听力受损族群，提供个人化的听力补偿调整。",
-          "confidence": 0.75,
-          "source_type": "text",
-          "source_text": "免费升级的听力增强功能(Real Hearing Enhancement, RHE)可提供如Airpods Pro相同的语音增强放大、双耳音量平衡、音质明亮低沉调整，可针对轻度听力受损族群，提供个人化的听力补偿调整。"
-        }
-      },
-      {
-        "text": "主板上前馈降噪麦克风设置有声学橡胶结构，提升收音性能。",
-        "tag": "降噪",
-        "evidence": {
-          "value": "主板上前馈降噪麦克风设置有声学橡胶结构，提升收音性能。",
-          "confidence": 0.75,
-          "source_type": "text",
-          "source_text": "主板上前馈降噪麦克风设置有声学橡胶结构，提升收音性能。"
-        }
       }
     ],
     "scenarios": [
@@ -342,7 +262,7 @@
       "通话",
       "健身"
     ],
-    "positioning_summary": "作为\n知名数码配件品牌的绿联也在TWS耳机市场作了深度布局，目前旗下已经推出了\nHiTune\n“X”“T”“H”等多个系列产品，包含了舒适佩戴的半入耳式耳机、ENC通话降噪耳机、以及此次将要拆解的首款\nANC主动降噪耳机\n。",
+    "positioning_summary": "作为知名数码配件品牌的绿联也在TWS耳机市场作了深度布局，目前旗下 […]\n作为\n知名数码配件品牌的绿联也在TWS耳机市场作了深度布局，目前旗下已经推出了\nHiTune\n“X”“T”“H”等多个系列产品，包含了舒适佩戴的半入耳式耳机、ENC通话降噪耳机、以及此次将要拆解的首款\nANC主动降噪耳机\n。",
     "launch_date": null,
     "best_report_id": "96482",
     "best_video_id": null

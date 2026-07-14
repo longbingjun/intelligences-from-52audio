@@ -12,7 +12,7 @@
   "author": "Wen5",
   "summary": "贝尔金SOUNDFORM ELITE 智能音箱、ChargerLAB POWER-Z KM001C便携式电源测 […]",
   "captured_at": "2026-07-14T02:10:19+00:00",
-  "data_completeness": 0.802,
+  "data_completeness": 0.766,
   "views": {
     "market": {
       "brand": "",
@@ -22,6 +22,16 @@
       "price_cny": null,
       "price_note": "",
       "selling_points": [
+        {
+          "text": "贝尔金SOUNDFORM ELITE 智能音箱、ChargerLAB POWER-Z KM001C便携式电源测 […]\n耳机头侧边用于通话降噪功能的麦克风开孔，有金属防尘网覆盖，防止异物进入腔体。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "贝尔金SOUNDFORM ELITE 智能音箱、ChargerLAB POWER-Z KM001C便携式电源测 […]\n耳机头侧边用于通话降噪功能的麦克风开孔，有金属防尘网覆盖，防止异物进入腔体。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "贝尔金SOUNDFORM ELITE 智能音箱、ChargerLAB POWER-Z KM001C便携式电源测 […]\n耳机头侧边用于通话降噪功能的麦克风开孔，有金属防尘网覆盖，防止异物进入腔体。"
+          }
+        },
         {
           "text": "耳机头侧边用于通话降噪功能的麦克风开孔，有金属防尘网覆盖，防止异物进入腔体。",
           "tag": "降噪",
@@ -64,18 +74,16 @@
         }
       ],
       "scenarios": [
-        "游戏",
-        "睡眠",
         "通话"
       ],
-      "positioning_summary": "耳机头侧边用于通话降噪功能的麦克风开孔，有金属防尘网覆盖，防止异物进入腔体。",
+      "positioning_summary": "贝尔金SOUNDFORM ELITE 智能音箱、ChargerLAB POWER-Z KM001C便携式电源测 […]\n耳机头侧边用于通话降噪功能的麦克风开孔，有金属防尘网覆盖，防止异物进入腔体。",
       "launch_date_evidence": null,
       "price_evidence": null
     },
     "cost": {
       "major_parts": [
-        "主板/PCBA",
         "充电仓",
+        "主板/PCBA",
         "电池",
         "麦克风",
         "天线",
@@ -155,6 +163,20 @@
       ],
       "bom_table": [
         {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "ICP1106的充电电压，充电电流，输出电压能通过I2C灵活配置，能方便的实现TWS 快充，效率充电；同时支持电力线载波双向通信，UART 双向通信这两种通信模式，能可靠的满足充电仓和耳机的信息交互需求，实现耳机和充电仓的智能控制。"
+          }
+        },
+        {
           "component": "主板/PCBA",
           "brand": "",
           "model": "",
@@ -169,20 +191,6 @@
           }
         },
         {
-          "component": "充电仓",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "major",
-          "evidence": {
-            "value": "充电仓",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "贝尔金SOUNDFORM Freedom真无线耳机是贝尔金进入TWS耳机领域后推出的第二款产品，主打卖点是支持苹果Find My查找功能，可通过苹果iPhone、iPad等产品上“Find My查找” APP实时跟踪和定位充电盒位置，还可以使耳机播放提示音，便于用户在遗忘耳机位置时快速查找。"
-          }
-        },
-        {
           "component": "电池",
           "brand": "",
           "model": "",
@@ -193,7 +201,7 @@
             "value": "电池",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "正面能够看到电池单元。"
+            "source_text": "电池侧边\n是\n通话降噪麦克风，有橡胶罩覆盖，提升收音性能。"
           }
         },
         {
@@ -207,7 +215,7 @@
             "value": "麦克风",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "耳机底部设置了锥形结构盖板，中间为通话麦克风，旁边还有一颗指示灯。"
+            "source_text": "耳机头侧边用于通话降噪功能的麦克风开孔，有金属防尘网覆盖，防止异物进入腔体。"
           }
         },
         {
@@ -239,31 +247,17 @@
           }
         },
         {
-          "component": "外壳结构",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "",
-          "role": "minor",
-          "evidence": {
-            "value": "外壳结构",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "电池单元通过导线焊接在FPC板上，前腔内部组件通过BTB连接器连接到FPC板。均打胶固定。"
-          }
-        },
-        {
           "component": "指示灯",
           "brand": "",
           "model": "",
           "qty_hint": "",
-          "side": "充电盒",
+          "side": "耳机",
           "role": "minor",
           "evidence": {
             "value": "指示灯",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "充电盒正面开盖处设置有倒角，便于开启。下方有一颗指示灯，用于反馈充电盒状态。"
+            "source_text": "耳机底部设置了锥形结构盖板，中间为通话麦克风，旁边还有一颗指示灯。"
           }
         },
         {
@@ -277,21 +271,7 @@
             "value": "触控/按键",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "充电盒背面有Type-C充电接口和一颗功能按键，用于恢复出厂设置，开启/关闭Find My查找功能等。"
-          }
-        },
-        {
-          "component": "充电触点",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "minor",
-          "evidence": {
-            "value": "充电触点",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "耳机内侧两颗镀金充电触点，中间位置是光学传感器开窗。"
+            "source_text": "充电接口：充电盒背面有Type-C充电接口和一颗功能按键，用于恢复出厂设置，开启/关闭Find My查找功能等。"
           }
         },
         {
@@ -305,63 +285,7 @@
             "value": "高通QCC3040",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "Qualcomm高通QCC3040蓝牙音频SoC，QCC304X系列蓝牙音频SoC支持蓝牙5.2，支持高通aptX\nAdaptive编解码器，可以基于终端上所播放内容类型，通过独特的技术自动调节提供最佳音质或低时延，带来沉浸式视频和游戏无线聆听体验。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "高通TrueWireless",
-          "qty_hint": "1",
-          "side": "右耳",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "高通TrueWireless",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "该系列芯片还支持全新的高通TrueWireless\nMirroring技术，左右耳塞可以在多个使用场景下快速切换。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "高通QCC304x",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "高通QCC304x",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "此外，高通QCC304x系列蓝牙音频SoC还支持cVc通话降噪技术，能够通过触控或按键唤醒手机的语音助手。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "QCC304",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "QCC304",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "此外，高通QCC304x系列蓝牙音频SoC还支持cVc通话降噪技术，能够通过触控或按键唤醒手机的语音助手。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "高通QCC3040",
-          "qty_hint": "1",
-          "side": "耳机",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "高通QCC3040",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "后腔排线连接有电池、触摸传感器以及通话降噪麦克风，主板上采用了高通QCC3040蓝牙音频SoC，支持蓝牙5.2，支持高通多种音频技术；晟矽微 MC9934 8位单片机，用于蓝牙耳机在连接发生故障时，触发复位再次发射蓝牙信号，保障蓝牙不死机。"
+            "source_text": "电池容量：520\n芯片 高通QCC3040\n芯片 高通aptX\n芯片 高通TrueWireless\n芯片 高通QCC304x\n芯片 QCC304"
           }
         }
       ],
@@ -369,39 +293,12 @@
       "packaging_notes": [],
       "process_hints": [
         {
-          "value": "Type-C充电接口母座特写，\n过孔\n焊接\n。",
+          "value": "充电接口：Type-C充电接口母座特写，\n过孔\n焊接\n。",
           "evidence": {
-            "value": "Type-C充电接口母座特写，\n过孔\n焊接\n。",
+            "value": "充电接口：Type-C充电接口母座特写，\n过孔\n焊接\n。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "Type-C充电接口母座特写，\n过孔\n焊接\n。"
-          }
-        },
-        {
-          "value": "电池单元通过导线焊接在FPC板上，前腔内部组件通过BTB连接器连接到FPC板。",
-          "evidence": {
-            "value": "电池单元通过导线焊接在FPC板上，前腔内部组件通过BTB连接器连接到FPC板。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "电池单元通过导线焊接在FPC板上，前腔内部组件通过BTB连接器连接到FPC板。"
-          }
-        },
-        {
-          "value": "前腔内部结构一览，扬声器通过导线焊接在FPC板上。",
-          "evidence": {
-            "value": "前腔内部结构一览，扬声器通过导线焊接在FPC板上。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "前腔内部结构一览，扬声器通过导线焊接在FPC板上。"
-          }
-        },
-        {
-          "value": "丝印9u13的一体化电池保护IC。",
-          "evidence": {
-            "value": "丝印9u13的一体化电池保护IC。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "丝印9u13的一体化电池保护IC。"
+            "source_text": "充电接口：Type-C充电接口母座特写，\n过孔\n焊接\n。"
           }
         }
       ],
@@ -417,10 +314,10 @@
         "PC"
       ],
       "ip_rating": "IPX5",
-      "weight_g": "59.6g",
+      "weight_g": null,
       "dimensions": [
         "配置上，采用7mm双层复合驱动单元，搭载了高通新一代蓝牙芯片，支持蓝牙5.2，支持AptX技术；还支持双麦通话降噪、IPX5防汗防泼溅、无线充电等功能，拥有36小时的超长续航。",
-        "包装盒内配件有USB-A to Type-C充电线，两\n副\n不同尺寸的硅胶耳塞，产品说明\n书\n和使用指南。",
+        "配置上，采用7mm双层复合驱动单元，搭载了高通新一代蓝牙芯片，支持蓝牙5.2，支持AptX技术；还支持双麦通话降噪、IPX5防汗防泼溅、无线充电等功能，拥有36小时的超长续航。",
         "经我爱音频网实测，扬声器单元尺寸约为7mm。"
       ],
       "internal_structure": [
@@ -443,30 +340,21 @@
           }
         },
         {
+          "value": "电池侧边\n是\n通话降噪麦克风，有橡胶罩覆盖，提升收音性能。",
+          "evidence": {
+            "value": "电池侧边\n是\n通话降噪麦克风，有橡胶罩覆盖，提升收音性能。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "电池侧边\n是\n通话降噪麦克风，有橡胶罩覆盖，提升收音性能。"
+          }
+        },
+        {
           "value": "正面能够看到电池单元。",
           "evidence": {
             "value": "正面能够看到电池单元。",
             "confidence": 0.74,
             "source_type": "text",
             "source_text": "正面能够看到电池单元。"
-          }
-        },
-        {
-          "value": "ICP1106还支持运输模式，待机功耗最低可以做到1uA，支持0V，2.4V，电池电压等多种电压输出待机模式。ICP1106 凭借强大的功能，独有的技术，一经推出就获得了广大的客户的认可，接下来还有更多的产品应用跟大家见面，让我们共同期待。",
-          "evidence": {
-            "value": "ICP1106还支持运输模式，待机功耗最低可以做到1uA，支持0V，2.4V，电池电压等多种电压输出待机模式。ICP1106 凭借强大的功能，独有的技术，一经推出就获得了广大的客户的认可，接下来还有更多的产品应用跟大家见面，让我们共同期待。",
-            "confidence": 0.74,
-            "source_type": "text",
-            "source_text": "ICP1106还支持运输模式，待机功耗最低可以做到1uA，支持0V，2.4V，电池电压等多种电压输出待机模式。ICP1106 凭借强大的功能，独有的技术，一经推出就获得了广大的客户的认可，接下来还有更多的产品应用跟大家见面，让我们共同期待。"
-          }
-        },
-        {
-          "value": "耳机底部设置了锥形结构盖板，中间为通话麦克风，旁边还有一颗指示灯。",
-          "evidence": {
-            "value": "耳机底部设置了锥形结构盖板，中间为通话麦克风，旁边还有一颗指示灯。",
-            "confidence": 0.74,
-            "source_type": "text",
-            "source_text": "耳机底部设置了锥形结构盖板，中间为通话麦克风，旁边还有一颗指示灯。"
           }
         },
         {
@@ -495,20 +383,28 @@
             "source_type": "text",
             "source_text": "经我爱音频网实测，扬声器单元尺寸约为7mm。"
           }
-        }
-      ],
-      "fastener_type": [
+        },
         {
-          "value": "扬声器通过大量胶水固定在出音管内。",
+          "value": "充电接口：充电盒背面有Type-C充电接口和一颗功能按键，用于恢复出厂设置，开启/关闭Find My查找功能等。",
           "evidence": {
-            "value": "扬声器通过大量胶水固定在出音管内。",
-            "confidence": 0.68,
+            "value": "充电接口：充电盒背面有Type-C充电接口和一颗功能按键，用于恢复出厂设置，开启/关闭Find My查找功能等。",
+            "confidence": 0.74,
             "source_type": "text",
-            "source_text": "扬声器通过大量胶水固定在出音管内。"
+            "source_text": "充电接口：充电盒背面有Type-C充电接口和一颗功能按键，用于恢复出厂设置，开启/关闭Find My查找功能等。"
           }
         }
       ],
+      "fastener_type": [],
       "sealing_method": [
+        {
+          "value": "贝尔金SOUNDFORM ELITE 智能音箱、ChargerLAB POWER-Z KM001C便携式电源测 […]\n耳机头侧边用于通话降噪功能的麦克风开孔，有金属防尘网覆盖，防止异物进入腔体。",
+          "evidence": {
+            "value": "贝尔金SOUNDFORM ELITE 智能音箱、ChargerLAB POWER-Z KM001C便携式电源测 […]\n耳机头侧边用于通话降噪功能的麦克风开孔，有金属防尘网覆盖，防止异物进入腔体。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "贝尔金SOUNDFORM ELITE 智能音箱、ChargerLAB POWER-Z KM001C便携式电源测 […]\n耳机头侧边用于通话降噪功能的麦克风开孔，有金属防尘网覆盖，防止异物进入腔体。"
+          }
+        },
         {
           "value": "配置上，采用7mm双层复合驱动单元，搭载了高通新一代蓝牙芯片，支持蓝牙5.2，支持AptX技术；还支持双麦通话降噪、IPX5防汗防泼溅、无线充电等功能，拥有36小时的超长续航。",
           "evidence": {
@@ -519,12 +415,12 @@
           }
         },
         {
-          "value": "提示音\n开孔\n内侧设置有细密防尘网。",
+          "value": "配置上，采用7mm双层复合驱动单元，搭载了高通新一代蓝牙芯片，支持蓝牙5.2，支持AptX技术；还支持双麦通话降噪、IPX5防汗防泼溅、无线充电等功能，拥有36小时的超长续航。",
           "evidence": {
-            "value": "提示音\n开孔\n内侧设置有细密防尘网。",
+            "value": "配置上，采用7mm双层复合驱动单元，搭载了高通新一代蓝牙芯片，支持蓝牙5.2，支持AptX技术；还支持双麦通话降噪、IPX5防汗防泼溅、无线充电等功能，拥有36小时的超长续航。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "提示音\n开孔\n内侧设置有细密防尘网。"
+            "source_text": "配置上，采用7mm双层复合驱动单元，搭载了高通新一代蓝牙芯片，支持蓝牙5.2，支持AptX技术；还支持双麦通话降噪、IPX5防汗防泼溅、无线充电等功能，拥有36小时的超长续航。"
           }
         },
         {
@@ -535,88 +431,52 @@
             "source_type": "text",
             "source_text": "耳机头侧边用于通话降噪功能的麦克风开孔，有金属防尘网覆盖，防止异物进入腔体。"
           }
+        },
+        {
+          "value": "充电方式：配置上，采用7mm双层复合驱动单元，搭载了高通新一代蓝牙芯片，支持蓝牙5.2，支持AptX技术；还支持双麦通话降噪、IPX5防汗防泼溅、无线充电等功能，拥有36小时的超长续航。",
+          "evidence": {
+            "value": "充电方式：配置上，采用7mm双层复合驱动单元，搭载了高通新一代蓝牙芯片，支持蓝牙5.2，支持AptX技术；还支持双麦通话降噪、IPX5防汗防泼溅、无线充电等功能，拥有36小时的超长续航。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "充电方式：配置上，采用7mm双层复合驱动单元，搭载了高通新一代蓝牙芯片，支持蓝牙5.2，支持AptX技术；还支持双麦通话降噪、IPX5防汗防泼溅、无线充电等功能，拥有36小时的超长续航。"
+          }
         }
       ],
       "wear_design": [
         {
-          "value": "在外观设计上，SOUNDFORM Freedom充电盒和耳机均采用了钢琴烤漆搭配哑光两种工艺，\n既\n提升了产品质感，\n又\n带来了舒适的握持和佩戴体验。",
+          "value": "在外观设计上，SOUNDFORM Freedom充电盒和耳机均采用了钢琴烤漆搭配哑光两种工艺，既提升了产品质感，又带来了舒适的握持和佩戴体验。",
           "evidence": {
-            "value": "在外观设计上，SOUNDFORM Freedom充电盒和耳机均采用了钢琴烤漆搭配哑光两种工艺，\n既\n提升了产品质感，\n又\n带来了舒适的握持和佩戴体验。",
+            "value": "在外观设计上，SOUNDFORM Freedom充电盒和耳机均采用了钢琴烤漆搭配哑光两种工艺，既提升了产品质感，又带来了舒适的握持和佩戴体验。",
             "confidence": 0.7,
             "source_type": "text",
-            "source_text": "在外观设计上，SOUNDFORM Freedom充电盒和耳机均采用了钢琴烤漆搭配哑光两种工艺，\n既\n提升了产品质感，\n又\n带来了舒适的握持和佩戴体验。"
+            "source_text": "在外观设计上，SOUNDFORM Freedom充电盒和耳机均采用了钢琴烤漆搭配哑光两种工艺，既提升了产品质感，又带来了舒适的握持和佩戴体验。"
           }
         },
         {
-          "value": "包装盒背面详细介绍了产品的功能亮点，有模特佩戴场景图。",
+          "value": "在外观设计上，SOUNDFORM Freedom充电盒和耳机均采用了钢琴烤漆搭配哑光两种工艺，既提升了产品质感，又带来了舒适的握持和佩戴体验。",
           "evidence": {
-            "value": "包装盒背面详细介绍了产品的功能亮点，有模特佩戴场景图。",
+            "value": "在外观设计上，SOUNDFORM Freedom充电盒和耳机均采用了钢琴烤漆搭配哑光两种工艺，既提升了产品质感，又带来了舒适的握持和佩戴体验。",
             "confidence": 0.7,
             "source_type": "text",
-            "source_text": "包装盒背面详细介绍了产品的功能亮点，有模特佩戴场景图。"
+            "source_text": "在外观设计上，SOUNDFORM Freedom充电盒和耳机均采用了钢琴烤漆搭配哑光两种工艺，既提升了产品质感，又带来了舒适的握持和佩戴体验。"
           }
         },
         {
-          "value": "包装盒内配件有USB-A to Type-C充电线，两\n副\n不同尺寸的硅胶耳塞，产品说明\n书\n和使用指南。",
+          "value": "充电接口：包装盒内配件有USB-A to Type-C充电线，两\n副\n不同尺寸的硅胶耳塞，产品说明\n书\n和使用指南。",
           "evidence": {
-            "value": "包装盒内配件有USB-A to Type-C充电线，两\n副\n不同尺寸的硅胶耳塞，产品说明\n书\n和使用指南。",
+            "value": "充电接口：包装盒内配件有USB-A to Type-C充电线，两\n副\n不同尺寸的硅胶耳塞，产品说明\n书\n和使用指南。",
             "confidence": 0.7,
             "source_type": "text",
-            "source_text": "包装盒内配件有USB-A to Type-C充电线，两\n副\n不同尺寸的硅胶耳塞，产品说明\n书\n和使用指南。"
-          }
-        },
-        {
-          "value": "耳机头曲线采用了近似于椭圆形的设计，四周没有任何突出的结构设计，佩戴与耳道贴合紧密，舒适稳固。",
-          "evidence": {
-            "value": "耳机头曲线采用了近似于椭圆形的设计，四周没有任何突出的结构设计，佩戴与耳道贴合紧密，舒适稳固。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "耳机头曲线采用了近似于椭圆形的设计，四周没有任何突出的结构设计，佩戴与耳道贴合紧密，舒适稳固。"
+            "source_text": "充电接口：包装盒内配件有USB-A to Type-C充电线，两\n副\n不同尺寸的硅胶耳塞，产品说明\n书\n和使用指南。"
           }
         }
       ],
-      "key_image_urls": [
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/08/2021082009440046.png",
-          "alt": "拆解报告：贝尔金SOUNDFORM Freedom真无线耳机   -我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/08/2021082009440172.png",
-          "alt": "拆解报告：贝尔金SOUNDFORM Freedom真无线耳机   -我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/08/2021082009440191.png",
-          "alt": "拆解报告：贝尔金SOUNDFORM Freedom真无线耳机   -我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/08/2021082009440141.png",
-          "alt": "拆解报告：贝尔金SOUNDFORM Freedom真无线耳机   -我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/08/2021082009440239.png",
-          "alt": "拆解报告：贝尔金SOUNDFORM Freedom真无线耳机   -我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        }
-      ],
+      "key_image_urls": [],
       "assembly_notes": [
         "在外观设计上，SOUNDFORM Freedom充电盒和耳机均采用了钢琴烤漆搭配哑光两种工艺，既提升了产品质感，又带来了舒适的握持和佩戴体验。配置上，采用7mm双层复合驱动单元，搭载了高通新一代蓝牙芯片，支持蓝牙5.2，支持AptX技术；还支持双麦通话降噪、IPX5防汗防泼溅、无线充电等功能，拥有36小时的超长续航。",
         "座舱背面特写，Type-C充电接口设置在主板上。",
-        "正面能够看到电池单元。",
-        "ICP1106还支持运输模式，待机功耗最低可以做到1uA，支持0V，2.4V，电池电压等多种电压输出待机模式。ICP1106 凭借强大的功能，独有的技术，一经推出就获得了广大的客户的认可，接下来还有更多的产品应用跟大家见面，让我们共同期待。"
+        "电池侧边\n是\n通话降噪麦克风，有橡胶罩覆盖，提升收音性能。",
+        "正面能够看到电池单元。"
       ],
       "ip_rating_evidence": {
         "value": "IPX5",
@@ -624,12 +484,11 @@
         "source_type": "text",
         "source_text": "IPX5"
       },
-      "weight_evidence": {
-        "value": "59.6g",
-        "confidence": 0.75,
-        "source_type": "text",
-        "source_text": "59.6g"
-      }
+      "weight_evidence": null,
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": null,
+      "weight_earbud_evidence": null
     },
     "hardware": {
       "specs": [
@@ -644,111 +503,102 @@
         },
         {
           "param": "充电方式",
-          "value": "两只耳机座舱之间设计有无线充电标识。",
+          "value": "充电方式：配置上，采用7mm双层复合驱动单元，搭载了高通新一代蓝牙芯片，支持蓝牙5.2，支持AptX技术；还支持双麦通话降噪、IPX5防汗防泼溅、无线充电等功能，拥有36小时的超长续航。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "两只耳机座舱之间设计有无线充电标识。"
+          "source_ref": "充电方式：配置上，采用7mm双层复合驱动单元，搭载了高通新一代蓝牙芯片，支持蓝牙5.2，支持AptX技术；还支持双麦通话降噪、IPX5防汗防泼溅、无线充电等功能，拥有36小时的超长续航。"
         },
         {
           "param": "充电方式",
-          "value": "我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对SOUNDFORM Freedom进行有线充电测试，充电功率约为2.79W。",
+          "value": "充电方式：两只耳机座舱之间设计有无线充电标识。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对SOUNDFORM Freedom进行有线充电测试，充电功率约为2.79W。"
+          "source_ref": "充电方式：两只耳机座舱之间设计有无线充电标识。"
         },
         {
           "param": "充电方式",
-          "value": "我爱音频网采用\nChargerLAB POWER-Z KT001\n便携式电源测试仪对SOUNDFORM Freedom进行无线充电测试，充电功率约为2.15W。",
+          "value": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对SOUNDFORM Freedom进行有线充电测试，充电功率约为2.79W。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KT001\n便携式电源测试仪对SOUNDFORM Freedom进行无线充电测试，充电功率约为2.15W。"
+          "source_ref": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对SOUNDFORM Freedom进行有线充电测试，充电功率约为2.79W。"
         },
         {
           "param": "充电方式",
-          "value": "充电盒座舱底部特写，圆形无线充电接收线圈。",
+          "value": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KT001\n便携式电源测试仪对SOUNDFORM Freedom进行无线充电测试，充电功率约为2.15W。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "充电盒座舱底部特写，圆形无线充电接收线圈。"
+          "source_ref": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KT001\n便携式电源测试仪对SOUNDFORM Freedom进行无线充电测试，充电功率约为2.15W。"
         },
         {
           "param": "充电方式",
-          "value": "无线充电接收线圈特写，设置有隔磁贴纸，固定在塑料板上。",
+          "value": "充电方式：充电盒座舱底部特写，圆形无线充电接收线圈。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "无线充电接收线圈特写，设置有隔磁贴纸，固定在塑料板上。"
+          "source_ref": "充电方式：充电盒座舱底部特写，圆形无线充电接收线圈。"
         },
         {
           "param": "充电方式",
-          "value": "无线充电接收线圈固定塑料板特写。",
+          "value": "充电方式：无线充电接收线圈特写，设置有隔磁贴纸，固定在塑料板上。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "无线充电接收线圈固定塑料板特写。"
+          "source_ref": "充电方式：无线充电接收线圈特写，设置有隔磁贴纸，固定在塑料板上。"
         },
         {
           "param": "充电方式",
-          "value": "COPO\n酷珀微CP2021高集成度2.5W无线充电接收芯片，符合WPC 1.2.4版本Qi协议；输出电压5V，输出电流可调，最大可到500mA；集成外部电源输入检测功能；集成过温，过压和输出过流保护；集成温度监测、充电完成及和主机故障控制的多功能NTC控制引脚。",
+          "value": "充电方式：无线充电接收线圈固定塑料板特写。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "COPO\n酷珀微CP2021高集成度2.5W无线充电接收芯片，符合WPC 1.2.4版本Qi协议；输出电压5V，输出电流可调，最大可到500mA；集成外部电源输入检测功能；集成过温，过压和输出过流保护；集成温度监测、充电完成及和主机故障控制"
+          "source_ref": "充电方式：无线充电接收线圈固定塑料板特写。"
         },
         {
           "param": "充电方式",
-          "value": "据我爱音频网拆解了解到，酷珀微的无线充电接收方案目前已被\nHaylou\n、\nOPPO\n、\n漫步者\n、\nrealme\n、\n倍思\n、\n魔宴\n、\nomthing\n、\niWALK\n等品牌的TWS耳机大量采用。",
+          "value": "充电方式：COPO\n酷珀微CP2021高集成度2.5W无线充电接收芯片，符合WPC 1.2.4版本Qi协议；输出电压5V，输出电流可调，最大可到500mA；集成外部电源输入检测功能；集成过温，过压和输出过流保护；集成温度监测、充电完成及和主机故障控制的多功能NTC控制引脚。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "据我爱音频网拆解了解到，酷珀微的无线充电接收方案目前已被\nHaylou\n、\nOPPO\n、\n漫步者\n、\nrealme\n、\n倍思\n、\n魔宴\n、\nomthing\n、\niWALK\n等品牌的TWS耳机大量采用。"
+          "source_ref": "充电方式：COPO\n酷珀微CP2021高集成度2.5W无线充电接收芯片，符合WPC 1.2.4版本Qi协议；输出电压5V，输出电流可调，最大可到500mA；集成外部电源输入检测功能；集成过温，过压和输出过流保护；集成温度监测、充电完成及和主"
         },
         {
           "param": "充电方式",
-          "value": "有线输入采用了来远电子ICP1106电源管理芯片，无线采用了酷珀微CP2021无线充电接收芯片；新唐科技N76E003AQ20 主控单片机，用于开盖检测和电量显示等功能；以及两颗微源半导体LPM2301 2.6A PMOS，用于为耳机充电开关。",
+          "value": "充电方式：据我爱音频网拆解了解到，酷珀微的无线充电接收方案目前已被\nHaylou\n、\nOPPO\n、\n漫步者\n、\nrealme\n、\n倍思\n、\n魔宴\n、\nomthing\n、\niWALK\n等品牌的TWS耳机大量采用。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "有线输入采用了来远电子ICP1106电源管理芯片，无线采用了酷珀微CP2021无线充电接收芯片；新唐科技N76E003AQ20 主控单片机，用于开盖检测和电量显示等功能；以及两颗微源半导体LPM2301 2.6A PMOS，用于为耳机充电开"
+          "source_ref": "充电方式：据我爱音频网拆解了解到，酷珀微的无线充电接收方案目前已被\nHaylou\n、\nOPPO\n、\n漫步者\n、\nrealme\n、\n倍思\n、\n魔宴\n、\nomthing\n、\niWALK\n等品牌的TWS耳机大量采用。"
         },
         {
-          "param": "充电接口",
-          "value": "我爱音频网此前还拆解过\n贝尔金SOUNDFORM ELITE 智能音箱\n、\n贝尔金ROCKSTAR苹果Lightning耳机\n，下面再来看看这款产品的内部结构配置吧~\n一、贝尔金SOUNDFORM Freedom开箱\n包装盒延续了贝尔金的经典设计风格，正面大面积展示了产品外观，信息有“belkin”品牌LOGO，产品名称：SOUNDFORM Freedom真无线耳机，三项产品功能亮点：贝尔金标志性音效、清晰通话、8+28h续航，右下方是Apple Find My查找标志。",
+          "param": "充电方式",
+          "value": "充电方式：有线输入采用了来远电子ICP1106电源管理芯片，无线采用了酷珀微CP2021无线充电接收芯片；新唐科技N76E003AQ20 主控单片机，用于开盖检测和电量显示等功能；以及两颗微源半导体LPM2301 2.6A PMOS，用于为耳机充电开关。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "我爱音频网此前还拆解过\n贝尔金SOUNDFORM ELITE 智能音箱\n、\n贝尔金ROCKSTAR苹果Lightning耳机\n，下面再来看看这款产品的内部结构配置吧~\n一、贝尔金SOUNDFORM Freedom开箱\n包装盒延续了贝尔金的经"
+          "source_ref": "充电方式：有线输入采用了来远电子ICP1106电源管理芯片，无线采用了酷珀微CP2021无线充电接收芯片；新唐科技N76E003AQ20 主控单片机，用于开盖检测和电量显示等功能；以及两颗微源半导体LPM2301 2.6A PMOS，用于为"
         },
         {
-          "param": "充电接口",
-          "value": "包装盒内配件有USB-A to Type-C充电线，两\n副\n不同尺寸的硅胶耳塞，产品说明\n书\n和使用指南。",
+          "param": "充电方式",
+          "value": "充电接口：Type-C\n充电接口：Lightning\n充电接口：USB-A\n标记/认证：配置上，采用7mm双层复合驱动单元，搭载了高通新一代蓝牙芯片，支持蓝牙5.2，支持AptX技术；还支持双麦通话降噪、IPX5防汗防泼溅、无线充电等功能，拥有36小时的超长续航。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "包装盒内配件有USB-A to Type-C充电线，两\n副\n不同尺寸的硅胶耳塞，产品说明\n书\n和使用指南。"
-        },
-        {
-          "param": "充电接口",
-          "value": "充电盒背面有Type-C充电接口和一颗功能按键，用于恢复出厂设置，开启/关闭Find My查找功能等。",
-          "unit": "",
-          "brand": "",
-          "model": "",
-          "confidence": 0.75,
-          "source_ref": "充电盒背面有Type-C充电接口和一颗功能按键，用于恢复出厂设置，开启/关闭Find My查找功能等。"
+          "source_ref": "充电接口：Type-C\n充电接口：Lightning\n充电接口：USB-A\n标记/认证：配置上，采用7mm双层复合驱动单元，搭载了高通新一代蓝牙芯片，支持蓝牙5.2，支持AptX技术；还支持双麦通话降噪、IPX5防汗防泼溅、无线充电等功能，"
         },
         {
           "param": "充电接口",
@@ -761,12 +611,57 @@
         },
         {
           "param": "充电接口",
-          "value": "Type-C充电接口母座特写，\n过孔\n焊接\n。",
+          "value": "充电接口：我爱音频网此前还拆解过\n贝尔金SOUNDFORM ELITE 智能音箱\n、\n贝尔金ROCKSTAR苹果Lightning耳机\n，下面再来看看这款产品的内部结构配置吧~\n一、贝尔金SOUNDFORM Freedom开箱\n包装盒延续了贝尔金的经典设计风格，正面大面积展示了产品外观，信息有“belkin”品牌LOGO，产品名称：SOUNDFORM Freedom真无线耳机，三项产品功能亮点：贝尔金标志性音效、清晰通话、8+28h续航，右下方是Apple Find My查找标志。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "Type-C充电接口母座特写，\n过孔\n焊接\n。"
+          "source_ref": "充电接口：我爱音频网此前还拆解过\n贝尔金SOUNDFORM ELITE 智能音箱\n、\n贝尔金ROCKSTAR苹果Lightning耳机\n，下面再来看看这款产品的内部结构配置吧~\n一、贝尔金SOUNDFORM Freedom开箱\n包装盒延续了"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电接口：包装盒内配件有USB-A to Type-C充电线，两\n副\n不同尺寸的硅胶耳塞，产品说明\n书\n和使用指南。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电接口：包装盒内配件有USB-A to Type-C充电线，两\n副\n不同尺寸的硅胶耳塞，产品说明\n书\n和使用指南。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电接口：充电盒背面有Type-C充电接口和一颗功能按键，用于恢复出厂设置，开启/关闭Find My查找功能等。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电接口：充电盒背面有Type-C充电接口和一颗功能按键，用于恢复出厂设置，开启/关闭Find My查找功能等。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电接口：座舱背面特写，Type-C充电接口设置在主板上。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电接口：座舱背面特写，Type-C充电接口设置在主板上。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电接口：Type-C充电接口母座特写，\n过孔\n焊接\n。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电接口：Type-C充电接口母座特写，\n过孔\n焊接\n。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电接口：Type-C\n充电接口：Lightning\n充电接口：USB-A\n标记/认证：配置上，采用7mm双层复合驱动单元，搭载了高通新一代蓝牙芯片，支持蓝牙5.2，支持AptX技术；还支持双麦通话降噪、IPX5防汗防泼溅、无线充电等功能，拥有36小时的超长续航。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电接口：Type-C\n充电接口：Lightning\n充电接口：USB-A\n标记/认证：配置上，采用7mm双层复合驱动单元，搭载了高通新一代蓝牙芯片，支持蓝牙5.2，支持AptX技术；还支持双麦通话降噪、IPX5防汗防泼溅、无线充电等功能，"
         },
         {
           "param": "充电接口",
@@ -806,30 +701,48 @@
         },
         {
           "param": "标记/认证",
-          "value": "包装盒底部是产品经销商贝尔金贸易（上海）有限公司的部分信息和各种认证标志。",
+          "value": "充电方式：配置上，采用7mm双层复合驱动单元，搭载了高通新一代蓝牙芯片，支持蓝牙5.2，支持AptX技术；还支持双麦通话降噪、IPX5防汗防泼溅、无线充电等功能，拥有36小时的超长续航。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "包装盒底部是产品经销商贝尔金贸易（上海）有限公司的部分信息和各种认证标志。"
+          "source_ref": "充电方式：配置上，采用7mm双层复合驱动单元，搭载了高通新一代蓝牙芯片，支持蓝牙5.2，支持AptX技术；还支持双麦通话降噪、IPX5防汗防泼溅、无线充电等功能，拥有36小时的超长续航。"
         },
         {
           "param": "标记/认证",
-          "value": "充电盒底部展示有产品的部分参数信息，产品型号：AUC002，输入：5V-1000mA，充电电压3.7V，容量520mAh/1.924Wh。",
+          "value": "充电接口：Type-C\n充电接口：Lightning\n充电接口：USB-A\n标记/认证：配置上，采用7mm双层复合驱动单元，搭载了高通新一代蓝牙芯片，支持蓝牙5.2，支持AptX技术；还支持双麦通话降噪、IPX5防汗防泼溅、无线充电等功能，拥有36小时的超长续航。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "充电盒底部展示有产品的部分参数信息，产品型号：AUC002，输入：5V-1000mA，充电电压3.7V，容量520mAh/1.924Wh。"
+          "source_ref": "充电接口：Type-C\n充电接口：Lightning\n充电接口：USB-A\n标记/认证：配置上，采用7mm双层复合驱动单元，搭载了高通新一代蓝牙芯片，支持蓝牙5.2，支持AptX技术；还支持双麦通话降噪、IPX5防汗防泼溅、无线充电等功能，"
         },
         {
           "param": "标记/认证",
-          "value": "充电盒盖内侧印有众多的认证标志。",
+          "value": "标记/认证：包装盒底部是产品经销商贝尔金贸易（上海）有限公司的部分信息和各种认证标志。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "充电盒盖内侧印有众多的认证标志。"
+          "source_ref": "标记/认证：包装盒底部是产品经销商贝尔金贸易（上海）有限公司的部分信息和各种认证标志。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "标记/认证：充电盒底部展示有产品的部分参数信息，产品型号：AUC002，输入：5V-1000mA，充电电压3.7V，容量520mAh/1.924Wh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "标记/认证：充电盒底部展示有产品的部分参数信息，产品型号：AUC002，输入：5V-1000mA，充电电压3.7V，容量520mAh/1.924Wh。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "标记/认证：充电盒盖内侧印有众多的认证标志。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "标记/认证：充电盒盖内侧印有众多的认证标志。"
         },
         {
           "param": "电池容量",
@@ -859,21 +772,12 @@
       "app_name": "",
       "app_features": [
         {
-          "value": "贝尔金SOUNDFORM Freedom真无线耳机\n是贝尔金进入TWS耳机领域后推出的第二款产品，主打卖点是支持苹果Find My查找功能，可通过苹果iPhone、iPad等产品上“Find My查找” APP实时跟踪和定位充电盒位置，还可以使耳机播放提示音，便于用户在遗忘耳机位置时快速查找。",
+          "value": "ICP1106 凭借强大的功能，独有的技术，一经推出就获得了广大的客户的认可，接下来还有更多的产品应用跟大家见面，让我们共同期待。",
           "evidence": {
-            "value": "贝尔金SOUNDFORM Freedom真无线耳机\n是贝尔金进入TWS耳机领域后推出的第二款产品，主打卖点是支持苹果Find My查找功能，可通过苹果iPhone、iPad等产品上“Find My查找” APP实时跟踪和定位充电盒位置，还可以使耳机播放提示音，便于用户在遗忘耳机位置时快速查找。",
+            "value": "ICP1106 凭借强大的功能，独有的技术，一经推出就获得了广大的客户的认可，接下来还有更多的产品应用跟大家见面，让我们共同期待。",
             "confidence": 0.7,
             "source_type": "text",
-            "source_text": "贝尔金SOUNDFORM Freedom真无线耳机\n是贝尔金进入TWS耳机领域后推出的第二款产品，主打卖点是支持苹果Find My查找功能，可通过苹果iPhone、iPad等产品上“Find My查找” APP实时跟踪和定位充电盒位置，还可以使耳机播放提示音，便于用户在遗忘耳机位置时快速查找。"
-          }
-        },
-        {
-          "value": "我爱音频网此前还拆解过\n贝尔金SOUNDFORM ELITE 智能音箱\n、\n贝尔金ROCKSTAR苹果Lightning耳机\n，下面再来看看这款产品的内部结构配置吧~\n一、贝尔金SOUNDFORM Freedom开箱\n包装盒延续了贝尔金的经典设计风格，正面大面积展示了产品外观，信息有“belkin”品牌LOGO，产品名称：SOUNDFORM Freedom真无线耳机，三项产品功能亮点：贝尔金标志性音效、清晰通话、8+28h续航，右下方是Apple Find My查找标志。",
-          "evidence": {
-            "value": "我爱音频网此前还拆解过\n贝尔金SOUNDFORM ELITE 智能音箱\n、\n贝尔金ROCKSTAR苹果Lightning耳机\n，下面再来看看这款产品的内部结构配置吧~\n一、贝尔金SOUNDFORM Freedom开箱\n包装盒延续了贝尔金的经典设计风格，正面大面积展示了产品外观，信息有“belkin”品牌LOGO，产品名称：SOUNDFORM Freedom真无线耳机，三项产品功能亮点：贝尔金标志性音效、清晰通话、8+28h续航，右下方是Apple Find My查找标志。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "我爱音频网此前还拆解过\n贝尔金SOUNDFORM ELITE 智能音箱\n、\n贝尔金ROCKSTAR苹果Lightning耳机\n，下面再来看看这款产品的内部结构配置吧~\n一、贝尔金SOUNDFORM Freedom开箱\n包装盒延续了贝尔金的经典设计风格，正面大面积展示了产品外观，信息有“belkin”品牌LOGO，产品名称：SOUNDFORM Freedom真无线耳机，三项产品功能亮点：贝尔金标志性音效、清晰通话、8+28h续航，右下方是Apple Find My查找标志。"
+            "source_text": "ICP1106 凭借强大的功能，独有的技术，一经推出就获得了广大的客户的认可，接下来还有更多的产品应用跟大家见面，让我们共同期待。"
           }
         },
         {
@@ -886,35 +790,16 @@
           }
         },
         {
-          "value": "它的核心是运行频率为64MHz的ARM Cortex M4 CPU，能够在短时间内处理要求严苛的应用和通信任务使得CPU能够继续处理更多任务或返回到睡眠模式，从而节省了宝贵的电池能量。",
+          "value": "充电接口：我爱音频网此前还拆解过\n贝尔金SOUNDFORM ELITE 智能音箱\n、\n贝尔金ROCKSTAR苹果Lightning耳机\n，下面再来看看这款产品的内部结构配置吧~\n一、贝尔金SOUNDFORM Freedom开箱\n包装盒延续了贝尔金的经典设计风格，正面大面积展示了产品外观，信息有“belkin”品牌LOGO，产品名称：SOUNDFORM Freedom真无线耳机，三项产品功能亮点：贝尔金标志性音效、清晰通话、8+28h续航，右下方是Apple Find My查找标志。",
           "evidence": {
-            "value": "它的核心是运行频率为64MHz的ARM Cortex M4 CPU，能够在短时间内处理要求严苛的应用和通信任务使得CPU能够继续处理更多任务或返回到睡眠模式，从而节省了宝贵的电池能量。",
+            "value": "充电接口：我爱音频网此前还拆解过\n贝尔金SOUNDFORM ELITE 智能音箱\n、\n贝尔金ROCKSTAR苹果Lightning耳机\n，下面再来看看这款产品的内部结构配置吧~\n一、贝尔金SOUNDFORM Freedom开箱\n包装盒延续了贝尔金的经典设计风格，正面大面积展示了产品外观，信息有“belkin”品牌LOGO，产品名称：SOUNDFORM Freedom真无线耳机，三项产品功能亮点：贝尔金标志性音效、清晰通话、8+28h续航，右下方是Apple Find My查找标志。",
             "confidence": 0.7,
             "source_type": "text",
-            "source_text": "它的核心是运行频率为64MHz的ARM Cortex M4 CPU，能够在短时间内处理要求严苛的应用和通信任务使得CPU能够继续处理更多任务或返回到睡眠模式，从而节省了宝贵的电池能量。"
+            "source_text": "充电接口：我爱音频网此前还拆解过\n贝尔金SOUNDFORM ELITE 智能音箱\n、\n贝尔金ROCKSTAR苹果Lightning耳机\n，下面再来看看这款产品的内部结构配置吧~\n一、贝尔金SOUNDFORM Freedom开箱\n包装盒延续了贝尔金的经典设计风格，正面大面积展示了产品外观，信息有“belkin”品牌LOGO，产品名称：SOUNDFORM Freedom真无线耳机，三项产品功能亮点：贝尔金标志性音效、清晰通话、8+28h续航，右下方是Apple Find My查找标志。"
           }
         }
       ],
-      "ota_support": [
-        {
-          "value": "nRF52832以及nRF52系列中的所有SoC都是基干闪存，非常适合用于器件固件升级(DFU)。",
-          "evidence": {
-            "value": "nRF52832以及nRF52系列中的所有SoC都是基干闪存，非常适合用于器件固件升级(DFU)。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "nRF52832以及nRF52系列中的所有SoC都是基干闪存，非常适合用于器件固件升级(DFU)。"
-          }
-        },
-        {
-          "value": "DFU为您的产品中运行的固件提供全面的灵活性和控制，并且可以在现场启用新的安全更新、修复错误和添加功能。",
-          "evidence": {
-            "value": "DFU为您的产品中运行的固件提供全面的灵活性和控制，并且可以在现场启用新的安全更新、修复错误和添加功能。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "DFU为您的产品中运行的固件提供全面的灵活性和控制，并且可以在现场启用新的安全更新、修复错误和添加功能。"
-          }
-        }
-      ],
+      "ota_support": [],
       "latency_notes": [],
       "bluetooth_evidence": {
         "value": "5.2",

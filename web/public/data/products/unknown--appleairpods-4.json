@@ -1,0 +1,317 @@
+{
+  "canonical_id": "unknown--appleairpods-4",
+  "brand": "",
+  "model": "Apple苹果AirPods 4真无线耳机 标准版",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "214147",
+    "214334",
+    "216316"
+  ],
+  "video_ids": [
+    "216294"
+  ],
+  "related_report_ids": [
+    "214147",
+    "214334",
+    "216316"
+  ],
+  "related_video_ids": [
+    "216294"
+  ],
+  "first_seen": "2024-09-29",
+  "latest_published": "2024-10-24",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "3V/45mAh锂电池",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "43.0g",
+    "weight_case_g": "",
+    "weight_earbud_g": "4.4g",
+    "ip_rating": "",
+    "bluetooth": "5.0",
+    "bom_row_count": 13,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.67,
+    "best_report_id": "214147",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3V/45mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3V/45mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载了345mAh锂电池，有线充电采用了TI德州仪器BQ25118B充电器；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "3",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机搭载Apple设计的低失真度驱动单元，内置三颗MEMS麦克风，为主动降噪、通透模式、对话感知、自适应均衡等功能精准拾音；"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "其他方面，采用了压感按键，提供精准交互；同时支持“嘿 Siri”或“Siri”智能对话，支持“点头YES、摇头NO”头部控制，提供了便捷丰富的交互体验。降噪版配备USB-C无线充电盒，支持Apple Watch充电器和Qi认证充电器充电，内置扬声器，支持独立查找功能；续航方面，单次最长聆听5小时，搭配充电盒综合续航30小时。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "支架另外一侧固定电池单元。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机外侧外观一览，圆形耳机柄设计，上方设置有较大面积的前馈降噪麦克风拾音孔。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "支架一侧主板单元结构一览，通过排线连接无线充电接收线圈小板。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "苹果AirPods 4升级H2芯片，提供更强大的算力支持及众多的智能功能。包括支持主动降噪/通透模式；支持自适应音频，可以自动调整通透模式和主动降噪功能；支持对话感知，检测到交流时，自动降低媒体音量，对话结束，自动恢复；支持语音突显功能，降低背景噪音，提供清晰通话；支持自适应均衡功能，自动调整耳机中听到的音乐效果。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒的蓝牙天线特写，用于与手机通讯。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "内部主要配置方面，充电盒搭载了345mAh锂电池，有线充电采用了TI德州仪器BQ25118B充电器；无线充电由BROADCOM博通59356A2KUBG无线充电管理IC负责。搭载扬声器单元，采用Maxim美信半导体MAX98357B D类音频放大器驱动，Nordic nRF52832多协议通用SoC与手机无线通讯；还搭载了ST意法半导体STM32L496WGY6P微控制器，用于充电盒整机控制。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机内侧外观一览，采用了光学入耳检测传感器，调音孔相较于上代调整到了前腔盖板上。耳机柄内侧设计L/R左右标识。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "其他方面，采用了压感按键，提供精准交互；同时支持“嘿 Siri”或“Siri”智能对话，支持“点头YES、摇头NO”头部控制，提供了便捷丰富的交互体验。降噪版配备USB-C无线充电盒，支持Apple Watch充电器和Qi认证充电器充电，内置扬声器，支持独立查找功能；续航方面，单次最长聆听5小时，搭配充电盒综合续航30小时。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身正面开盖处设计有凹槽，下方一颗指示灯反馈蓝牙配对及充电状态。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄底部内侧的充电触点特写。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Apple苹果AirPods 4真无线降噪耳机在外观方面，延续了家族式的光滑圆润设计风格，手感舒适，但易出现划痕，易沾染指纹和油污。充电盒体积更加的小巧便携，但依然融入了AirPods Pro 2的独立查找功能；柄状的半入耳式耳机人体工学进一步优化，提供更出色的佩戴贴合度，来实现更优的降噪效果。同时重量也仅4.4g，佩戴舒适轻盈。 内部主要配置方面，充电盒搭载了345mAh锂电池，有线充电采用了TI德州仪器BQ25118B充电器；无线充电由BROADCOM博通59356A2KUBG无线充电管理IC负责。搭载扬声器单元，采用Maxim美信半导体MAX98357B D类音频放大器驱动，Nordic nRF52832多协议通用SoC与手机无线通讯；还搭载了ST意法半导体STM32L496WGY6P微控制器，用于充电盒整机控制。 耳机搭载Apple设计的低失真度驱动单元，内置三颗MEMS麦克风，为主动降噪、通透模式、对话感知、自适应均衡等功能精准拾音；内置钢壳扣式电池，容量32.1mAh；采用SiP封装的H2芯片，为各项功能提供强大算力支持；其他还搭载了光学入耳检测传感器、力度传感器等。",
+  "layer_refs": {
+    "technical": [
+      "report:214147",
+      "report:214334",
+      "report:216316",
+      "video:216294"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "功能配置上，采用全新的声学架构，Apple设计的低失真度驱动单元，以及定制的高动态范围放大器，带来更深的低音下潜和清透纯净的高音；同时支持动态头部追踪的个性化空间音频，提供环绕音效。",
+        "tag": "空间音频",
+        "evidence": {
+          "value": "功能配置上，采用全新的声学架构，Apple设计的低失真度驱动单元，以及定制的高动态范围放大器，带来更深的低音下潜和清透纯净的高音；同时支持动态头部追踪的个性化空间音频，提供环绕音效。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "功能配置上，采用全新的声学架构，Apple设计的低失真度驱动单元，以及定制的高动态范围放大器，带来更深的低音下潜和清透纯净的高音；同时支持动态头部追踪的个性化空间音频，提供环绕音效。"
+        }
+      },
+      {
+        "text": "Apple苹果AirPods 4真无线降噪耳机\n外观延续了上代的半入耳式设计，全新的内部耳腔构造与舒适轮廓，带来舒适清爽、牢固贴合的佩戴体验。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "Apple苹果AirPods 4真无线降噪耳机\n外观延续了上代的半入耳式设计，全新的内部耳腔构造与舒适轮廓，带来舒适清爽、牢固贴合的佩戴体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "Apple苹果AirPods 4真无线降噪耳机\n外观延续了上代的半入耳式设计，全新的内部耳腔构造与舒适轮廓，带来舒适清爽、牢固贴合的佩戴体验。"
+        }
+      },
+      {
+        "text": "其中AirPods 4在音质和佩戴舒适性上再次升级，同时还带来了降噪版，为用户提供更具沉浸感的舒适聆听。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "其中AirPods 4在音质和佩戴舒适性上再次升级，同时还带来了降噪版，为用户提供更具沉浸感的舒适聆听。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "其中AirPods 4在音质和佩戴舒适性上再次升级，同时还带来了降噪版，为用户提供更具沉浸感的舒适聆听。"
+        }
+      },
+      {
+        "text": "降噪版配备USB-C无线充电盒，支持Apple Watch充电器和Qi认证充电器充电，内置扬声器，支持独立查找功能；续航方面，单次最长聆听5小时，搭配充电盒综合续航30小时。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "降噪版配备USB-C无线充电盒，支持Apple Watch充电器和Qi认证充电器充电，内置扬声器，支持独立查找功能；续航方面，单次最长聆听5小时，搭配充电盒综合续航30小时。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "降噪版配备USB-C无线充电盒，支持Apple Watch充电器和Qi认证充电器充电，内置扬声器，支持独立查找功能；续航方面，单次最长聆听5小时，搭配充电盒综合续航30小时。"
+        }
+      },
+      {
+        "text": "充电盒体积更加的小巧便携，但依然融入了AirPods Pro 2的独立查找功能；柄状的半入耳式耳机人体工学进一步优化，提供更出色的佩戴贴合度，来实现更优的降噪效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "充电盒体积更加的小巧便携，但依然融入了AirPods Pro 2的独立查找功能；柄状的半入耳式耳机人体工学进一步优化，提供更出色的佩戴贴合度，来实现更优的降噪效果。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "充电盒体积更加的小巧便携，但依然融入了AirPods Pro 2的独立查找功能；柄状的半入耳式耳机人体工学进一步优化，提供更出色的佩戴贴合度，来实现更优的降噪效果。"
+        }
+      },
+      {
+        "text": "苹果AirPods 4升级H2芯片，提供更强大的算力支持及众多的智能功能。",
+        "tag": "其他",
+        "evidence": {
+          "value": "苹果AirPods 4升级H2芯片，提供更强大的算力支持及众多的智能功能。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "苹果AirPods 4升级H2芯片，提供更强大的算力支持及众多的智能功能。"
+        }
+      }
+    ],
+    "scenarios": [
+      "睡眠",
+      "通话"
+    ],
+    "positioning_summary": "功能配置上，采用全新的声学架构，Apple设计的低失真度驱动单元，以及定制的高动态范围放大器，带来更深的低音下潜和清透纯净的高音；同时支持动态头部追踪的个性化空间音频，提供环绕音效。",
+    "launch_date": null,
+    "best_report_id": "214147",
+    "best_video_id": null
+  }
+}

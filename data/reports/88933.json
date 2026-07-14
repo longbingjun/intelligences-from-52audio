@@ -12,7 +12,7 @@
   "author": "Wen5",
   "summary": "TWS耳机产品市场火爆，根据使用场景的不同目前已经扩展出了降噪耳机、商务办公耳机、游戏耳机等多种类型。作为知名 […]",
   "captured_at": "2026-07-14T02:10:19+00:00",
-  "data_completeness": 0.742,
+  "data_completeness": 0.666,
   "views": {
     "market": {
       "brand": "",
@@ -23,13 +23,13 @@
       "price_note": "",
       "selling_points": [
         {
-          "text": "作为知名电竞外设品牌，雷蛇也推出了战锤狂鲨系列TWS游戏耳机产品，主打超低延迟、沉浸式音效等功能。",
+          "text": "作为知名 […]\n作为知名电竞外设品牌，雷蛇也推出了战锤狂鲨系列TWS游戏耳机产品，主打超低延迟、沉浸式音效等功能。",
           "tag": "游戏低延迟",
           "evidence": {
-            "value": "作为知名电竞外设品牌，雷蛇也推出了战锤狂鲨系列TWS游戏耳机产品，主打超低延迟、沉浸式音效等功能。",
+            "value": "作为知名 […]\n作为知名电竞外设品牌，雷蛇也推出了战锤狂鲨系列TWS游戏耳机产品，主打超低延迟、沉浸式音效等功能。",
             "confidence": 0.75,
             "source_type": "text",
-            "source_text": "作为知名电竞外设品牌，雷蛇也推出了战锤狂鲨系列TWS游戏耳机产品，主打超低延迟、沉浸式音效等功能。"
+            "source_text": "作为知名 […]\n作为知名电竞外设品牌，雷蛇也推出了战锤狂鲨系列TWS游戏耳机产品，主打超低延迟、沉浸式音效等功能。"
           }
         },
         {
@@ -40,6 +40,16 @@
             "confidence": 0.68,
             "source_type": "text",
             "source_text": "而且芯片集成专门接口，支持USB整机升级和产测。"
+          }
+        },
+        {
+          "text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：可充电锂离子电池型号：682723，额定容量：410mAh/1.558Wh，标称电压：3.8V，充电限制电压：4.35V，出厂日期：2021年4月28日，来自重庆紫建电子股份有限公司。",
+          "tag": "其他",
+          "evidence": {
+            "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：可充电锂离子电池型号：682723，额定容量：410mAh/1.558Wh，标称电压：3.8V，充电限制电压：4.35V，出厂日期：2021年4月28日，来自重庆紫建电子股份有限公司。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：可充电锂离子电池型号：682723，额定容量：410mAh/1.558Wh，标称电压：3.8V，充电限制电压：4.35V，出厂日期：2021年4月28日，来自重庆紫建电子股份有限公司。"
           }
         },
         {
@@ -61,6 +71,16 @@
             "source_type": "text",
             "source_text": "耳机顶部泄压孔特写，内部防尘网覆盖。"
           }
+        },
+        {
+          "text": "TWS耳机产品市场火爆，根据使用场景的不同目前已经扩展出了降噪耳机、商务办公耳机、游戏耳机等多种类型。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "TWS耳机产品市场火爆，根据使用场景的不同目前已经扩展出了降噪耳机、商务办公耳机、游戏耳机等多种类型。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "TWS耳机产品市场火爆，根据使用场景的不同目前已经扩展出了降噪耳机、商务办公耳机、游戏耳机等多种类型。"
+          }
         }
       ],
       "scenarios": [
@@ -69,19 +89,17 @@
         "通话",
         "电竞"
       ],
-      "positioning_summary": "作为知名电竞外设品牌，雷蛇也推出了战锤狂鲨系列TWS游戏耳机产品，主打超低延迟、沉浸式音效等功能。",
+      "positioning_summary": "作为知名 […]\n作为知名电竞外设品牌，雷蛇也推出了战锤狂鲨系列TWS游戏耳机产品，主打超低延迟、沉浸式音效等功能。",
       "launch_date_evidence": null,
       "price_evidence": null
     },
     "cost": {
       "major_parts": [
-        "充电仓",
         "电池",
         "主板/PCBA",
         "麦克风",
         "喇叭单元",
-        "降噪系统",
-        "天线"
+        "充电仓"
       ],
       "chip_modules": [
         {
@@ -100,20 +118,6 @@
         }
       ],
       "bom_table": [
-        {
-          "component": "充电仓",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "充电盒",
-          "role": "major",
-          "evidence": {
-            "value": "充电仓",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "充电盒采用了圆角方形设计，磨砂质感。正面开盖处设计有倒角便于开启，下方是一颗电量指示灯。"
-          }
-        },
         {
           "component": "电池",
           "brand": "",
@@ -171,31 +175,17 @@
           }
         },
         {
-          "component": "降噪系统",
+          "component": "充电仓",
           "brand": "",
           "model": "",
           "qty_hint": "",
-          "side": "",
+          "side": "充电盒",
           "role": "major",
           "evidence": {
-            "value": "降噪系统",
+            "value": "充电仓",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "PXI原相PAU1823蓝牙音频SoC，PAU1800系列拥有多个型号，支持蓝牙5.2双模，内置2个CPU和2个DSP处理器，集成立体声音频编解码器、电池充电器，以及内存和主机接口外围设备等，部分型号还集成了低功耗数字有源噪声消除（ANC）技术。"
-          }
-        },
-        {
-          "component": "天线",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "",
-          "role": "major",
-          "evidence": {
-            "value": "天线",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "陶瓷蓝牙天线特写。"
+            "source_text": "充电接口：Type-C充电接口位于充电盒底部。"
           }
         },
         {
@@ -203,41 +193,13 @@
           "brand": "",
           "model": "",
           "qty_hint": "",
-          "side": "充电盒",
+          "side": "耳机",
           "role": "minor",
           "evidence": {
             "value": "指示灯",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "充电盒采用了圆角方形设计，磨砂质感。正面开盖处设计有倒角便于开启，下方是一颗电量指示灯。"
-          }
-        },
-        {
-          "component": "触控/按键",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "minor",
-          "evidence": {
-            "value": "触控/按键",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "战锤狂鲨真无线X是近期雷蛇推出的该系列第三款产品，在外观上延续了家族式的设计风格，耳机背部搭载了经典绿色雷蛇LOGO灯，充满电竞风；功能配置上，内置了13mm驱动单元，蓝牙5.2芯片，支持触控操作，支持60ms超低延迟；单次续航时间最长7小时，整体续航时间28小时。"
-          }
-        },
-        {
-          "component": "外壳结构",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "",
-          "role": "minor",
-          "evidence": {
-            "value": "外壳结构",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "前腔内部扬声器导线焊接在后腔FPC板上，FPC板上有BTB连接器连接主板。"
+            "source_text": "耳机部分，采用了13mm大尺寸动圈单元，电池丝印二维码，无明确信息。扬声器、电池、触摸传感器和LED指示灯小板连接在一条FPC板上，再通过排线和BTB连接到主板。主板上，主控芯片采用了原相PAU1623B1-S2蓝牙音频SoC，蓝牙5.2，集成电源管理；以及一颗MEMS硅麦用于语音通话拾音。"
           }
         },
         {
@@ -251,21 +213,7 @@
             "value": "SS881",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "SS881X是昇生微POWR MCU系列的产品之一，芯片集成了丰富的电源管理功能，满足产品对充电的灵活性、安全性的全面需求。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "SS881",
-          "qty_hint": "1",
-          "side": "耳机",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "SS881",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "针对TWS产品的智能化趋势，SS881X系列已经与各大主流耳机平台实现双向通信功能，产品可以快速迭代。"
+            "source_text": "电池容量：410\n芯片 SS881"
           }
         }
       ],
@@ -284,12 +232,21 @@
           }
         },
         {
-          "value": "前腔内部扬声器导线焊接在后腔FPC板上，FPC板上有BTB连接器连接主板。",
+          "value": "底部是焊接在主板上的Type-C充电接口。",
           "evidence": {
-            "value": "前腔内部扬声器导线焊接在后腔FPC板上，FPC板上有BTB连接器连接主板。",
+            "value": "底部是焊接在主板上的Type-C充电接口。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "前腔内部扬声器导线焊接在后腔FPC板上，FPC板上有BTB连接器连接主板。"
+            "source_text": "底部是焊接在主板上的Type-C充电接口。"
+          }
+        },
+        {
+          "value": "充电接口：底部是焊接在主板上的Type-C充电接口。",
+          "evidence": {
+            "value": "充电接口：底部是焊接在主板上的Type-C充电接口。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "充电接口：底部是焊接在主板上的Type-C充电接口。"
           }
         }
       ],
@@ -303,11 +260,9 @@
         "PC"
       ],
       "ip_rating": null,
-      "weight_g": "52.3g",
+      "weight_g": null,
       "dimensions": [
-        "战锤狂鲨真无线X是近期雷蛇推出的该系列第三款产品，在外观上延续了家族式的设计风格，耳机背部搭载了经典绿色雷蛇LOGO灯，充满电竞风；功能配置上，内置了13mm驱动单元，蓝牙5.2芯片，支持触控操作，支持60ms超低延迟；单次续航时间最长7小时，整体续航时间28小时。",
-        "包装盒底部信息有产品的品牌商和生产商介绍、产品包装盒内物品信息、产品尺寸重量以及出厂条形码等信息。",
-        "经我爱音频网实测，雷蛇战锤狂鲨真无线X入耳式耳机扬声器尺寸约为13mm。"
+        "耳机部分，采用了13mm大尺寸动圈单元，电池丝印二维码，无明确信息。"
       ],
       "internal_structure": [
         {
@@ -394,34 +349,16 @@
           }
         },
         {
-          "value": "扬声器通过胶水固定在前腔内。",
+          "value": "框架一侧通过螺丝固定主板单元。",
           "evidence": {
-            "value": "扬声器通过胶水固定在前腔内。",
+            "value": "框架一侧通过螺丝固定主板单元。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "扬声器通过胶水固定在前腔内。"
-          }
-        },
-        {
-          "value": "耳机内部磁铁单元通过胶水固定在腔体壁上，用于与充电盒吸附。",
-          "evidence": {
-            "value": "耳机内部磁铁单元通过胶水固定在腔体壁上，用于与充电盒吸附。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "耳机内部磁铁单元通过胶水固定在腔体壁上，用于与充电盒吸附。"
+            "source_text": "框架一侧通过螺丝固定主板单元。"
           }
         }
       ],
       "sealing_method": [
-        {
-          "value": "耳机顶部泄压孔特写，内部防尘网覆盖。",
-          "evidence": {
-            "value": "耳机顶部泄压孔特写，内部防尘网覆盖。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "耳机顶部泄压孔特写，内部防尘网覆盖。"
-          }
-        },
         {
           "value": "耳机出音嘴特写，内部金属防尘网防护，防止异物进入音腔。",
           "evidence": {
@@ -430,65 +367,19 @@
             "source_type": "text",
             "source_text": "耳机出音嘴特写，内部金属防尘网防护，防止异物进入音腔。"
           }
-        }
-      ],
-      "wear_design": [
-        {
-          "value": "耳机内侧还设置有一颗泄压孔，平衡内外耳压，提升佩戴舒适性。",
-          "evidence": {
-            "value": "耳机内侧还设置有一颗泄压孔，平衡内外耳压，提升佩戴舒适性。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "耳机内侧还设置有一颗泄压孔，平衡内外耳压，提升佩戴舒适性。"
-          }
         },
         {
-          "value": "耳机采用柄状的半入耳式设计，提升影音游戏长时间佩戴的舒适性。",
+          "value": "耳机顶部泄压孔特写，内部防尘网覆盖。",
           "evidence": {
-            "value": "耳机采用柄状的半入耳式设计，提升影音游戏长时间佩戴的舒适性。",
-            "confidence": 0.7,
+            "value": "耳机顶部泄压孔特写，内部防尘网覆盖。",
+            "confidence": 0.68,
             "source_type": "text",
-            "source_text": "耳机采用柄状的半入耳式设计，提升影音游戏长时间佩戴的舒适性。"
+            "source_text": "耳机顶部泄压孔特写，内部防尘网覆盖。"
           }
         }
       ],
-      "key_image_urls": [
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/08/2021082309392171.png",
-          "alt": "拆解报告：Razer雷蛇战锤狂鲨真无线X 入耳式耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/08/2021082309392239.png",
-          "alt": "拆解报告：Razer雷蛇战锤狂鲨真无线X 入耳式耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/08/2021082309384133.png",
-          "alt": "拆解报告：Razer雷蛇战锤狂鲨真无线X 入耳式耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/08/2021082309384274.png",
-          "alt": "拆解报告：Razer雷蛇战锤狂鲨真无线X 入耳式耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/08/2021082309384348.png",
-          "alt": "拆解报告：Razer雷蛇战锤狂鲨真无线X 入耳式耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        }
-      ],
+      "wear_design": [],
+      "key_image_urls": [],
       "assembly_notes": [
         "另外一侧是电池单元。",
         "可充电锂离子电池型号：682723，额定容量：410mAh/1.558Wh，标称电压：3.8V，充电限制电压：4.35V，出厂日期：2021年4月28日，来自重庆紫建电子股份有限公司。",
@@ -496,41 +387,22 @@
         "底部是焊接在主板上的Type-C充电接口。"
       ],
       "ip_rating_evidence": null,
-      "weight_evidence": {
-        "value": "52.3g",
-        "confidence": 0.75,
-        "source_type": "text",
-        "source_text": "52.3g"
-      }
+      "weight_evidence": null,
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": null,
+      "weight_earbud_evidence": null
     },
     "hardware": {
       "specs": [
         {
           "param": "充电方式",
-          "value": "我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对雷蛇战锤狂鲨真无线X 进行有线充电测试，充电功率约为1.93W。",
+          "value": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对雷蛇战锤狂鲨真无线X 进行有线充电测试，充电功率约为1.93W。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对雷蛇战锤狂鲨真无线X 进行有线充电测试，充电功率约为1.93W。"
-        },
-        {
-          "param": "充电接口",
-          "value": "充电线采用了USB-A to USB Type-C接口。",
-          "unit": "",
-          "brand": "",
-          "model": "",
-          "confidence": 0.75,
-          "source_ref": "充电线采用了USB-A to USB Type-C接口。"
-        },
-        {
-          "param": "充电接口",
-          "value": "Type-C充电接口位于充电盒底部。",
-          "unit": "",
-          "brand": "",
-          "model": "",
-          "confidence": 0.75,
-          "source_ref": "Type-C充电接口位于充电盒底部。"
+          "source_ref": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对雷蛇战锤狂鲨真无线X 进行有线充电测试，充电功率约为1.93W。"
         },
         {
           "param": "充电接口",
@@ -543,12 +415,48 @@
         },
         {
           "param": "充电接口",
-          "value": "充电盒内部，配备了410mAh锂离子软包电池，采用了Type-C充电接口输入电源，输入前端由韦尔半导体ESD56241D18 TVS保护管进行输入过压保护，微源 LP5305提供过压过流保护。",
+          "value": "充电接口：充电线采用了USB-A to USB Type-C接口。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "充电盒内部，配备了410mAh锂离子软包电池，采用了Type-C充电接口输入电源，输入前端由韦尔半导体ESD56241D18 TVS保护管进行输入过压保护，微源 LP5305提供过压过流保护。"
+          "source_ref": "充电接口：充电线采用了USB-A to USB Type-C接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电接口：Type-C充电接口位于充电盒底部。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电接口：Type-C充电接口位于充电盒底部。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电接口：底部是焊接在主板上的Type-C充电接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电接口：底部是焊接在主板上的Type-C充电接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电接口：充电盒内部，配备了410mAh锂离子软包电池，采用了Type-C充电接口输入电源，输入前端由韦尔半导体ESD56241D18 TVS保护管进行输入过压保护，微源 LP5305提供过压过流保护。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电接口：充电盒内部，配备了410mAh锂离子软包电池，采用了Type-C充电接口输入电源，输入前端由韦尔半导体ESD56241D18 TVS保护管进行输入过压保护，微源 LP5305提供过压过流保护。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：可充电锂离子电池型号：682723，额定容量：410mAh/1.558Wh，标称电压：3.8V，充电限制电压：4.35V，出厂日期：2021年4月28日，来自重庆紫建电子股份有限公司。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：可充电锂离子电池型号：682723，额定容量：410mAh/1.558Wh，标称电压：3.8V，充电限制电压：4.35V，出厂日期：2021年4月28日，来自重庆紫建电子股份有限公司"
         },
         {
           "param": "充电接口",
@@ -578,6 +486,15 @@
           "source_ref": "可充电锂离子电池型号：682723，额定容量：410mAh/1.558Wh，标称电压：3.8V，充电限制电压：4.35V，出厂日期：2021年4月28日，来自重庆紫建电子股份有限公司。"
         },
         {
+          "param": "标记/认证",
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：可充电锂离子电池型号：682723，额定容量：410mAh/1.558Wh，标称电压：3.8V，充电限制电压：4.35V，出厂日期：2021年4月28日，来自重庆紫建电子股份有限公司。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：可充电锂离子电池型号：682723，额定容量：410mAh/1.558Wh，标称电压：3.8V，充电限制电压：4.35V，出厂日期：2021年4月28日，来自重庆紫建电子股份有限公司"
+        },
+        {
           "param": "电池容量",
           "value": "410",
           "unit": "mAh",
@@ -593,35 +510,7 @@
       "codecs": [],
       "multipoint": [],
       "app_name": "",
-      "app_features": [
-        {
-          "value": "包装盒正面展示有耳机外观图，信息有雷蛇品牌“LOGO”，蓝牙标志，绿色背光灯标识，产品名称：雷蛇战锤狂鲨真无线X入耳式耳机，以及三项产品功能特点：60毫秒低延时游戏模式，手机应用程序自定义、定制调校的13毫米驱动单元。",
-          "evidence": {
-            "value": "包装盒正面展示有耳机外观图，信息有雷蛇品牌“LOGO”，蓝牙标志，绿色背光灯标识，产品名称：雷蛇战锤狂鲨真无线X入耳式耳机，以及三项产品功能特点：60毫秒低延时游戏模式，手机应用程序自定义、定制调校的13毫米驱动单元。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "包装盒正面展示有耳机外观图，信息有雷蛇品牌“LOGO”，蓝牙标志，绿色背光灯标识，产品名称：雷蛇战锤狂鲨真无线X入耳式耳机，以及三项产品功能特点：60毫秒低延时游戏模式，手机应用程序自定义、定制调校的13毫米驱动单元。"
-          }
-        },
-        {
-          "value": "包装盒背面展示有产品整体外观图和多项产品功能亮点：定制调校的13毫米驱动单元、具有自动配对功能的蓝牙5.2、60毫秒低延时游戏模式、手机应用程序自定义和支持触控功能。",
-          "evidence": {
-            "value": "包装盒背面展示有产品整体外观图和多项产品功能亮点：定制调校的13毫米驱动单元、具有自动配对功能的蓝牙5.2、60毫秒低延时游戏模式、手机应用程序自定义和支持触控功能。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "包装盒背面展示有产品整体外观图和多项产品功能亮点：定制调校的13毫米驱动单元、具有自动配对功能的蓝牙5.2、60毫秒低延时游戏模式、手机应用程序自定义和支持触控功能。"
-          }
-        },
-        {
-          "value": "另外一侧是雷蛇“RAZER”品牌LOGO和RAZER AUDIO APP下载链接。",
-          "evidence": {
-            "value": "另外一侧是雷蛇“RAZER”品牌LOGO和RAZER AUDIO APP下载链接。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "另外一侧是雷蛇“RAZER”品牌LOGO和RAZER AUDIO APP下载链接。"
-          }
-        }
-      ],
+      "app_features": [],
       "ota_support": [
         {
           "value": "而且芯片集成专门接口，支持USB整机升级和产测。",
@@ -635,30 +524,12 @@
       ],
       "latency_notes": [
         {
-          "value": "作为知名电竞外设品牌，雷蛇也推出了战锤狂鲨系列TWS游戏耳机产品，主打超低延迟、沉浸式音效等功能。",
+          "value": "作为知名 […]\n作为知名电竞外设品牌，雷蛇也推出了战锤狂鲨系列TWS游戏耳机产品，主打超低延迟、沉浸式音效等功能。",
           "evidence": {
-            "value": "作为知名电竞外设品牌，雷蛇也推出了战锤狂鲨系列TWS游戏耳机产品，主打超低延迟、沉浸式音效等功能。",
+            "value": "作为知名 […]\n作为知名电竞外设品牌，雷蛇也推出了战锤狂鲨系列TWS游戏耳机产品，主打超低延迟、沉浸式音效等功能。",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "作为知名电竞外设品牌，雷蛇也推出了战锤狂鲨系列TWS游戏耳机产品，主打超低延迟、沉浸式音效等功能。"
-          }
-        },
-        {
-          "value": "战锤狂鲨真无线X是近期雷蛇推出的该系列第三款产品，在外观上延续了家族式的设计风格，耳机背部搭载了经典绿色雷蛇LOGO灯，充满电竞风；功能配置上，内置了13mm驱动单元，蓝牙5.2芯片，支持触控操作，支持60ms超低延迟；单次续航时间最长7小时，整体续航时间28小时。",
-          "evidence": {
-            "value": "战锤狂鲨真无线X是近期雷蛇推出的该系列第三款产品，在外观上延续了家族式的设计风格，耳机背部搭载了经典绿色雷蛇LOGO灯，充满电竞风；功能配置上，内置了13mm驱动单元，蓝牙5.2芯片，支持触控操作，支持60ms超低延迟；单次续航时间最长7小时，整体续航时间28小时。",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "战锤狂鲨真无线X是近期雷蛇推出的该系列第三款产品，在外观上延续了家族式的设计风格，耳机背部搭载了经典绿色雷蛇LOGO灯，充满电竞风；功能配置上，内置了13mm驱动单元，蓝牙5.2芯片，支持触控操作，支持60ms超低延迟；单次续航时间最长7小时，整体续航时间28小时。"
-          }
-        },
-        {
-          "value": "包装盒正面展示有耳机外观图，信息有雷蛇品牌“LOGO”，蓝牙标志，绿色背光灯标识，产品名称：雷蛇战锤狂鲨真无线X入耳式耳机，以及三项产品功能特点：60毫秒低延时游戏模式，手机应用程序自定义、定制调校的13毫米驱动单元。",
-          "evidence": {
-            "value": "包装盒正面展示有耳机外观图，信息有雷蛇品牌“LOGO”，蓝牙标志，绿色背光灯标识，产品名称：雷蛇战锤狂鲨真无线X入耳式耳机，以及三项产品功能特点：60毫秒低延时游戏模式，手机应用程序自定义、定制调校的13毫米驱动单元。",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "包装盒正面展示有耳机外观图，信息有雷蛇品牌“LOGO”，蓝牙标志，绿色背光灯标识，产品名称：雷蛇战锤狂鲨真无线X入耳式耳机，以及三项产品功能特点：60毫秒低延时游戏模式，手机应用程序自定义、定制调校的13毫米驱动单元。"
+            "source_text": "作为知名 […]\n作为知名电竞外设品牌，雷蛇也推出了战锤狂鲨系列TWS游戏耳机产品，主打超低延迟、沉浸式音效等功能。"
           }
         }
       ],

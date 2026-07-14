@@ -12,7 +12,7 @@
   "author": "Wen5",
   "summary": "QCY旗下TWS耳机产品主打入门级市场，凭借较高的性价比优势取得了不错的口碑，在全球市场都有着非常高的销量。在 […]",
   "captured_at": "2026-07-14T02:10:27+00:00",
-  "data_completeness": 0.764,
+  "data_completeness": 0.718,
   "views": {
     "market": {
       "brand": "QCY意象",
@@ -23,13 +23,13 @@
       "price_note": "",
       "selling_points": [
         {
-          "text": "镭雕11503的硅麦，用于通话降噪功能。",
+          "text": "在 […]\n镭雕11503的硅麦，用于通话降噪功能。",
           "tag": "降噪",
           "evidence": {
-            "value": "镭雕11503的硅麦，用于通话降噪功能。",
+            "value": "在 […]\n镭雕11503的硅麦，用于通话降噪功能。",
             "confidence": 0.65,
             "source_type": "text",
-            "source_text": "镭雕11503的硅麦，用于通话降噪功能。"
+            "source_text": "在 […]\n镭雕11503的硅麦，用于通话降噪功能。"
           }
         },
         {
@@ -53,6 +53,16 @@
           }
         },
         {
+          "text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：充电盒盖上信息有输入功率：5V\n⎓\n400mA，型号：In2026，容量：380mAh/1.406Wh，中国制造，制造商：东莞市和乐电子有限公司。",
+          "tag": "其他",
+          "evidence": {
+            "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：充电盒盖上信息有输入功率：5V\n⎓\n400mA，型号：In2026，容量：380mAh/1.406Wh，中国制造，制造商：东莞市和乐电子有限公司。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：充电盒盖上信息有输入功率：5V\n⎓\n400mA，型号：In2026，容量：380mAh/1.406Wh，中国制造，制造商：东莞市和乐电子有限公司。"
+          }
+        },
+        {
           "text": "支持单/双麦克风降噪，\n在此款产品上采用了双麦降噪方案和杰理自研双麦ENC降噪算法。",
           "tag": "降噪",
           "evidence": {
@@ -67,7 +77,7 @@
         "睡眠",
         "通话"
       ],
-      "positioning_summary": "镭雕11503的硅麦，用于通话降噪功能。",
+      "positioning_summary": "在 […]\n镭雕11503的硅麦，用于通话降噪功能。",
       "launch_date_evidence": null,
       "price_evidence": null
     },
@@ -75,11 +85,11 @@
       "major_parts": [
         "主板/PCBA",
         "充电仓",
-        "电池",
         "麦克风",
+        "电池",
         "喇叭单元",
-        "天线",
-        "降噪系统"
+        "降噪系统",
+        "天线"
       ],
       "chip_modules": [
         {
@@ -117,13 +127,27 @@
           "brand": "",
           "model": "",
           "qty_hint": "",
-          "side": "耳机",
+          "side": "充电盒",
           "role": "major",
           "evidence": {
             "value": "充电仓",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "QCY T13真无线耳机在整体外观设计上有所改变，充电盒采用了扁平的圆角方形设计，柄状的入耳式耳机背部曲线也做了调整，加入了大弧度的曲线，整体设计依旧是非常简约的风格。"
+            "source_text": "充电盒座舱内部主要组件一览，主板通过螺丝固定。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "支持单/双麦克风降噪，\n在此款产品上采用了双麦降噪方案和杰理自研双麦ENC降噪算法。"
           }
         },
         {
@@ -141,31 +165,31 @@
           }
         },
         {
-          "component": "麦克风",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "major",
-          "evidence": {
-            "value": "麦克风",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "耳机整体外观一览，背板上设置有一颗指示灯，同时也是麦克风开孔。"
-          }
-        },
-        {
           "component": "喇叭单元",
           "brand": "",
           "model": "",
           "qty_hint": "",
-          "side": "耳机",
+          "side": "",
           "role": "major",
           "evidence": {
             "value": "喇叭单元",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "QCY旗下TWS耳机产品主打入门级市场，凭借较高的性价比优势取得了不错的口碑，在全球市场都有着非常高的销量。在经历了T10、T11两款产品的双动铁、圈铁发声单元尝试之后，在最新的T13上再次回归到百元档位。"
+            "source_text": "在经历了T10、T11两款产品的双动铁、圈铁发声单元尝试之后，在最新的T13上再次回归到百元档位。"
+          }
+        },
+        {
+          "component": "降噪系统",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "降噪系统",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "支持单/双麦克风降噪，\n在此款产品上采用了双麦降噪方案和杰理自研双麦ENC降噪算法。"
           }
         },
         {
@@ -183,17 +207,17 @@
           }
         },
         {
-          "component": "降噪系统",
+          "component": "指示灯",
           "brand": "",
           "model": "",
           "qty_hint": "",
-          "side": "",
-          "role": "major",
+          "side": "耳机",
+          "role": "minor",
           "evidence": {
-            "value": "降噪系统",
+            "value": "指示灯",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "JL杰理AD6976D8蓝牙音频SoC，支持蓝牙5.1，支持AAC、SBC编解码。内置32位 DSP，处理器运行频率最高160MHz，支持噪声抑制和回声消除，支持多波段均衡器。支持单/双麦克风降噪，在此款产品上采用了双麦降噪方案和杰理自研双麦ENC降噪算法。支持两路模拟麦克风放大，内置麦克风偏置。内置双路触摸功能。"
+            "source_text": "耳机整体外观一览，背板上设置有一颗指示灯，同时也是麦克风开孔。"
           }
         },
         {
@@ -211,48 +235,6 @@
           }
         },
         {
-          "component": "指示灯",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "充电盒",
-          "role": "minor",
-          "evidence": {
-            "value": "指示灯",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "充电盒采用了类似于“电饭煲”的整体造型，机身非常的光滑圆润。正面设置有凹槽便于开启，以及一颗充电盒电量指示灯。"
-          }
-        },
-        {
-          "component": "充电触点",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "minor",
-          "evidence": {
-            "value": "充电触点",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "耳机柄内侧充电触点特写。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "SY8815",
-          "qty_hint": "1",
-          "side": "耳机",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "SY8815",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "TPS思远 SY8815蓝牙耳机充电仓解决方案。"
-          }
-        },
-        {
           "component": "芯片/模组",
           "brand": "",
           "model": "SY8815",
@@ -263,21 +245,7 @@
             "value": "SY8815",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "SY8815\n支持\n放电使能控制，MCU可以直接通过EN来灵活控制芯片的放电功能。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "SY8815",
-          "qty_hint": "1",
-          "side": "充电盒",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "SY8815",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "内部结构较为简洁，充电盒内电池直接焊接在主板上，电池容量380mAh，主板上配备有赛芯电子锂电保护IC，用于过充，过放，短路，过流等保护功能；思远 SY8815蓝牙耳机充电仓解决方案，内部集成充电模块和放电模块，集成充电过压保护和放电过流、短路、过压和过温保护；以及一颗无标MCU用于电源管理、电量指示等充电盒控制功能\n。"
+            "source_text": "电池容量：380\n芯片 SY8815"
           }
         }
       ],
@@ -296,39 +264,21 @@
           }
         },
         {
-          "value": "Type-C充电接口特写\n，过孔焊接\n。",
+          "value": "电池通过镍片直接焊接在主板上。",
           "evidence": {
-            "value": "Type-C充电接口特写\n，过孔焊接\n。",
+            "value": "电池通过镍片直接焊接在主板上。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "Type-C充电接口特写\n，过孔焊接\n。"
+            "source_text": "电池通过镍片直接焊接在主板上。"
           }
         },
         {
-          "value": "取出电池，扬声器和电池导线\n均\n焊接在主板上。",
+          "value": "充电接口：Type-C充电接口特写\n，过孔焊接\n。",
           "evidence": {
-            "value": "取出电池，扬声器和电池导线\n均\n焊接在主板上。",
+            "value": "充电接口：Type-C充电接口特写\n，过孔焊接\n。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "取出电池，扬声器和电池导线\n均\n焊接在主板上。"
-          }
-        },
-        {
-          "value": "内部结构较为简洁，充电盒内电池直接焊接在主板上，电池容量380mAh，主板上配备有赛芯电子锂电保护IC，用于过充，过放，短路，过流等保护功能；思远 SY8815蓝牙耳机充电仓解决方案，内部集成充电模块和放电模块，集成充电过压保护和放电过流、短路、过压和过温保护；以及一颗无标MCU用于电源管理、电量指示等充电盒控制功能\n。",
-          "evidence": {
-            "value": "内部结构较为简洁，充电盒内电池直接焊接在主板上，电池容量380mAh，主板上配备有赛芯电子锂电保护IC，用于过充，过放，短路，过流等保护功能；思远 SY8815蓝牙耳机充电仓解决方案，内部集成充电模块和放电模块，集成充电过压保护和放电过流、短路、过压和过温保护；以及一颗无标MCU用于电源管理、电量指示等充电盒控制功能\n。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "内部结构较为简洁，充电盒内电池直接焊接在主板上，电池容量380mAh，主板上配备有赛芯电子锂电保护IC，用于过充，过放，短路，过流等保护功能；思远 SY8815蓝牙耳机充电仓解决方案，内部集成充电模块和放电模块，集成充电过压保护和放电过流、短路、过压和过温保护；以及一颗无标MCU用于电源管理、电量指示等充电盒控制功能\n。"
-          }
-        },
-        {
-          "value": "耳机部分，扬声器和电池都直接通过导线焊接在主板上，最意外的是采用了一颗45mAh的钢壳扣式电池，用以支持其8小时的单次续航时间；主板上，主控芯片采用了杰理的蓝牙音频SoC，支持蓝牙5.1，支持\n单/\n双麦通话降噪，搭配两颗MEMS硅麦克风，实现清晰的通话效果。",
-          "evidence": {
-            "value": "耳机部分，扬声器和电池都直接通过导线焊接在主板上，最意外的是采用了一颗45mAh的钢壳扣式电池，用以支持其8小时的单次续航时间；主板上，主控芯片采用了杰理的蓝牙音频SoC，支持蓝牙5.1，支持\n单/\n双麦通话降噪，搭配两颗MEMS硅麦克风，实现清晰的通话效果。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "耳机部分，扬声器和电池都直接通过导线焊接在主板上，最意外的是采用了一颗45mAh的钢壳扣式电池，用以支持其8小时的单次续航时间；主板上，主控芯片采用了杰理的蓝牙音频SoC，支持蓝牙5.1，支持\n单/\n双麦通话降噪，搭配两颗MEMS硅麦克风，实现清晰的通话效果。"
+            "source_text": "充电接口：Type-C充电接口特写\n，过孔焊接\n。"
           }
         }
       ],
@@ -338,15 +288,11 @@
     "structure": {
       "form_factor": "真无线耳机TWS",
       "earbud_type": "入耳",
-      "materials": [
-        "硅胶"
-      ],
+      "materials": [],
       "ip_rating": null,
-      "weight_g": "49.2g",
+      "weight_g": null,
       "dimensions": [
-        "配置方面，此次采用了一颗7.2mm动圈单元，蓝牙5.1芯片，支持AAC/SBC编解码，支持自由切换，极速回连；支持双耳4麦通话降噪功能，提供清晰通话；支持快速充电，耳机单次续航时间8小时，搭配充电盒整体续航达到40小时；采用触控操作，APP内新增防误触睡眠模式，开启后关闭触控功能。",
-        "展示信息包括T13真无线蓝牙耳机产品名称，蓝牙5.1，7.2mm动圈喇叭和40h超长总续航三项产品功能特点。",
-        "两幅不同尺寸的硅胶耳塞特写。"
+        "配置方面，此次采用了一颗7.2mm动圈单元，蓝牙5.1芯片，支持AAC/SBC编解码，支持自由切换，极速回连；支持双耳4麦通话降噪功能，提供清晰通话；支持快速充电，耳机单次续航时间8小时，搭配充电盒整体续航达到40小时；采用触控操作，APP内新增防误触睡眠模式，开启后关闭触控功能。"
       ],
       "internal_structure": [
         {
@@ -368,12 +314,12 @@
           }
         },
         {
-          "value": "电池通过镍片直接焊接在主板上。",
+          "value": "支持单/双麦克风降噪，\n在此款产品上采用了双麦降噪方案和杰理自研双麦ENC降噪算法。",
           "evidence": {
-            "value": "电池通过镍片直接焊接在主板上。",
+            "value": "支持单/双麦克风降噪，\n在此款产品上采用了双麦降噪方案和杰理自研双麦ENC降噪算法。",
             "confidence": 0.74,
             "source_type": "text",
-            "source_text": "电池通过镍片直接焊接在主板上。"
+            "source_text": "支持单/双麦克风降噪，\n在此款产品上采用了双麦降噪方案和杰理自研双麦ENC降噪算法。"
           }
         },
         {
@@ -386,12 +332,21 @@
           }
         },
         {
-          "value": "底部是用于语音通话的麦克风。",
+          "value": "电池通过镍片直接焊接在主板上。",
           "evidence": {
-            "value": "底部是用于语音通话的麦克风。",
+            "value": "电池通过镍片直接焊接在主板上。",
             "confidence": 0.74,
             "source_type": "text",
-            "source_text": "底部是用于语音通话的麦克风。"
+            "source_text": "电池通过镍片直接焊接在主板上。"
+          }
+        },
+        {
+          "value": "在经历了T10、T11两款产品的双动铁、圈铁发声单元尝试之后，在最新的T13上再次回归到百元档位。",
+          "evidence": {
+            "value": "在经历了T10、T11两款产品的双动铁、圈铁发声单元尝试之后，在最新的T13上再次回归到百元档位。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "在经历了T10、T11两款产品的双动铁、圈铁发声单元尝试之后，在最新的T13上再次回归到百元档位。"
           }
         },
         {
@@ -401,15 +356,6 @@
             "confidence": 0.74,
             "source_type": "text",
             "source_text": "QCY旗下TWS耳机产品主打入门级市场，凭借较高的性价比优势取得了不错的口碑，在全球市场都有着非常高的销量。在经历了T10、T11两款产品的双动铁、圈铁发声单元尝试之后，在最新的T13上再次回归到百元档位。"
-          }
-        },
-        {
-          "value": "配置方面，此次采用了一颗7.2mm动圈单元，蓝牙5.1芯片，支持AAC/SBC编解码，支持自由切换，极速回连；支持双耳4麦通话降噪功能，提供清晰通话；支持快速充电，耳机单次续航时间8小时，搭配充电盒整体续航达到40小时；采用触控操作，APP内新增防误触睡眠模式，开启后关闭触控功能。",
-          "evidence": {
-            "value": "配置方面，此次采用了一颗7.2mm动圈单元，蓝牙5.1芯片，支持AAC/SBC编解码，支持自由切换，极速回连；支持双耳4麦通话降噪功能，提供清晰通话；支持快速充电，耳机单次续航时间8小时，搭配充电盒整体续航达到40小时；采用触控操作，APP内新增防误触睡眠模式，开启后关闭触控功能。",
-            "confidence": 0.74,
-            "source_type": "text",
-            "source_text": "配置方面，此次采用了一颗7.2mm动圈单元，蓝牙5.1芯片，支持AAC/SBC编解码，支持自由切换，极速回连；支持双耳4麦通话降噪功能，提供清晰通话；支持快速充电，耳机单次续航时间8小时，搭配充电盒整体续航达到40小时；采用触控操作，APP内新增防误触睡眠模式，开启后关闭触控功能。"
           }
         },
         {
@@ -423,15 +369,6 @@
         }
       ],
       "fastener_type": [
-        {
-          "value": "二、QCY T13真无线耳机拆解\n充电盒拆解\n撬开卡扣固定的充电盒座舱。",
-          "evidence": {
-            "value": "二、QCY T13真无线耳机拆解\n充电盒拆解\n撬开卡扣固定的充电盒座舱。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "二、QCY T13真无线耳机拆解\n充电盒拆解\n撬开卡扣固定的充电盒座舱。"
-          }
-        },
         {
           "value": "充电盒座舱内部主要组件一览，主板通过螺丝固定。",
           "evidence": {
@@ -451,62 +388,25 @@
           }
         },
         {
-          "value": "扬声器通过胶水固定在出音管内。",
+          "value": "充电盒座舱内部主要组件一览，主板通过螺丝固定。",
           "evidence": {
-            "value": "扬声器通过胶水固定在出音管内。",
+            "value": "充电盒座舱内部主要组件一览，主板通过螺丝固定。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "扬声器通过胶水固定在出音管内。"
+            "source_text": "充电盒座舱内部主要组件一览，主板通过螺丝固定。"
           }
         },
         {
-          "value": "腔体内部结构一览，主板通过\n腔体热熔和胶水\n固定。",
+          "value": "卸掉螺丝取掉主板和电池单元。",
           "evidence": {
-            "value": "腔体内部结构一览，主板通过\n腔体热熔和胶水\n固定。",
+            "value": "卸掉螺丝取掉主板和电池单元。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "腔体内部结构一览，主板通过\n腔体热熔和胶水\n固定。"
+            "source_text": "卸掉螺丝取掉主板和电池单元。"
           }
         }
       ],
-      "sealing_method": [
-        {
-          "value": "一颗圆形泄压\n孔\n，内部防尘网覆盖。",
-          "evidence": {
-            "value": "一颗圆形泄压\n孔\n，内部防尘网覆盖。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "一颗圆形泄压\n孔\n，内部防尘网覆盖。"
-          }
-        },
-        {
-          "value": "耳机出音嘴特写，采用细密防尘网覆盖，防止异物进入音腔。",
-          "evidence": {
-            "value": "耳机出音嘴特写，采用细密防尘网覆盖，防止异物进入音腔。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "耳机出音嘴特写，采用细密防尘网覆盖，防止异物进入音腔。"
-          }
-        },
-        {
-          "value": "出音管上设置有一颗较大的调音孔，同样采用细密防尘网防护。",
-          "evidence": {
-            "value": "出音管上设置有一颗较大的调音孔，同样采用细密防尘网防护。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "出音管上设置有一颗较大的调音孔，同样采用细密防尘网防护。"
-          }
-        },
-        {
-          "value": "扬声器背面特写，中间设置有调音孔，通过防尘网覆盖。",
-          "evidence": {
-            "value": "扬声器背面特写，中间设置有调音孔，通过防尘网覆盖。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "扬声器背面特写，中间设置有调音孔，通过防尘网覆盖。"
-          }
-        }
-      ],
+      "sealing_method": [],
       "wear_design": [
         {
           "value": "包装盒内物品有耳机、充电线、两幅耳塞和产品说明书。",
@@ -516,132 +416,77 @@
             "source_type": "text",
             "source_text": "包装盒内物品有耳机、充电线、两幅耳塞和产品说明书。"
           }
-        },
-        {
-          "value": "两幅不同尺寸的硅胶耳塞特写。",
-          "evidence": {
-            "value": "两幅不同尺寸的硅胶耳塞特写。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "两幅不同尺寸的硅胶耳塞特写。"
-          }
-        },
-        {
-          "value": "耳机头内侧设计有L/R左右表示，便于用户取放佩戴。",
-          "evidence": {
-            "value": "耳机头内侧设计有L/R左右表示，便于用户取放佩戴。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "耳机头内侧设计有L/R左右表示，便于用户取放佩戴。"
-          }
-        },
-        {
-          "value": "充电盒采用了圆角方形，耳机为柄状的入耳式设计，整体机身光滑圆润，佩戴比较舒适稳固。",
-          "evidence": {
-            "value": "充电盒采用了圆角方形，耳机为柄状的入耳式设计，整体机身光滑圆润，佩戴比较舒适稳固。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "充电盒采用了圆角方形，耳机为柄状的入耳式设计，整体机身光滑圆润，佩戴比较舒适稳固。"
-          }
         }
       ],
-      "key_image_urls": [
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071211334981.png",
-          "alt": "拆解报告：QCY T13真无线耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071211340794.png",
-          "alt": "拆解报告：QCY T13真无线耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071211342410.png",
-          "alt": "拆解报告：QCY T13真无线耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071211344283.png",
-          "alt": "拆解报告：QCY T13真无线耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071211345874.png",
-          "alt": "拆解报告：QCY T13真无线耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        }
-      ],
+      "key_image_urls": [],
       "assembly_notes": [
         "充电盒座舱内部主要组件一览，主板通过螺丝固定。",
         "卸掉螺丝取掉主板和电池单元。",
-        "电池通过镍片直接焊接在主板上。",
+        "支持单/双麦克风降噪，\n在此款产品上采用了双麦降噪方案和杰理自研双麦ENC降噪算法。",
         "耳机整体外观一览，背板上设置有一颗指示灯，同时也是麦克风开孔。"
       ],
       "ip_rating_evidence": null,
-      "weight_evidence": {
-        "value": "49.2g",
-        "confidence": 0.75,
-        "source_type": "text",
-        "source_text": "49.2g"
-      }
+      "weight_evidence": null,
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": null,
+      "weight_earbud_evidence": null
     },
     "hardware": {
       "specs": [
         {
           "param": "充电方式",
-          "value": "我爱音频网此前还拆解过QCY旗下\nQCY T11 圈铁蓝牙耳机\n、\nQCY T10 双动铁蓝牙耳机\n，以及\nQCY T1C\n、\nQCY T1青春版\n、\nQCY T1S（无线充电版）\n、\nQCY T4 TWS\n、\nQCY T5\n、\nQCY T5S\n、\nQCY T6\n、\nQCY Q29 TWS\n等真无线耳机，下面再来看看这款产品的外观设计及内部结构配置吧~\n一、QCY T13真无线耳机开箱\nQCY T13此次在包装盒上做了全新的设计，品牌LOGO采用了全新的“QCY意象”，灰色背景“意象”底纹装饰。",
+          "value": "充电方式：我爱音频网此前还拆解过QCY旗下\nQCY T11 圈铁蓝牙耳机\n、\nQCY T10 双动铁蓝牙耳机\n，以及\nQCY T1C\n、\nQCY T1青春版\n、\nQCY T1S（无线充电版）\n、\nQCY T4 TWS\n、\nQCY T5\n、\nQCY T5S\n、\nQCY T6\n、\nQCY Q29 TWS\n等真无线耳机，下面再来看看这款产品的外观设计及内部结构配置吧~\n一、QCY T13真无线耳机开箱\nQCY T13此次在包装盒上做了全新的设计，品牌LOGO采用了全新的“QCY意象”，灰色背景“意象”底纹装饰。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "我爱音频网此前还拆解过QCY旗下\nQCY T11 圈铁蓝牙耳机\n、\nQCY T10 双动铁蓝牙耳机\n，以及\nQCY T1C\n、\nQCY T1青春版\n、\nQCY T1S（无线充电版）\n、\nQCY T4 TWS\n、\nQCY T5\n、\nQCY T"
+          "source_ref": "充电方式：我爱音频网此前还拆解过QCY旗下\nQCY T11 圈铁蓝牙耳机\n、\nQCY T10 双动铁蓝牙耳机\n，以及\nQCY T1C\n、\nQCY T1青春版\n、\nQCY T1S（无线充电版）\n、\nQCY T4 TWS\n、\nQCY T5\n、\n"
         },
         {
           "param": "充电方式",
-          "value": "我爱音频网采用\nChargerLAB POWER-Z KT001\n便携式电源测试仪对QCY T13真无线耳机进行有线充电测试，充电功率约为0.79W（充电盒接近满电状态）。",
+          "value": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KT001\n便携式电源测试仪对QCY T13真无线耳机进行有线充电测试，充电功率约为0.79W（充电盒接近满电状态）。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KT001\n便携式电源测试仪对QCY T13真无线耳机进行有线充电测试，充电功率约为0.79W（充电盒接近满电状态）。"
+          "source_ref": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KT001\n便携式电源测试仪对QCY T13真无线耳机进行有线充电测试，充电功率约为0.79W（充电盒接近满电状态）。"
         },
         {
           "param": "充电接口",
-          "value": "USB-A to Type-C充电线特写。",
+          "value": "充电接口：USB-A to Type-C充电线特写。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "USB-A to Type-C充电线特写。"
+          "source_ref": "充电接口：USB-A to Type-C充电线特写。"
         },
         {
           "param": "充电接口",
-          "value": "Type-C充电接口位于充电盒右侧，偏左非居中设计。",
+          "value": "充电接口：Type-C充电接口位于充电盒右侧，偏左非居中设计。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "Type-C充电接口位于充电盒右侧，偏左非居中设计。"
+          "source_ref": "充电接口：Type-C充电接口位于充电盒右侧，偏左非居中设计。"
         },
         {
           "param": "充电接口",
-          "value": "Type-C充电接口特写\n，过孔焊接\n。",
+          "value": "充电接口：Type-C充电接口特写\n，过孔焊接\n。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "Type-C充电接口特写\n，过孔焊接\n。"
+          "source_ref": "充电接口：Type-C充电接口特写\n，过孔焊接\n。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：充电盒盖上信息有输入功率：5V\n⎓\n400mA，型号：In2026，容量：380mAh/1.406Wh，中国制造，制造商：东莞市和乐电子有限公司。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：充电盒盖上信息有输入功率：5V\n⎓\n400mA，型号：In2026，容量：380mAh/1.406Wh，中国制造，制造商：东莞市和乐电子有限公司。"
         },
         {
           "param": "充电接口",
@@ -663,12 +508,12 @@
         },
         {
           "param": "标记/认证",
-          "value": "充电盒盖上信息有输入功率：5V\n⎓\n400mA，型号：In2026，容量：380mAh/1.406Wh，中国制造，制造商：东莞市和乐电子有限公司。",
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：充电盒盖上信息有输入功率：5V\n⎓\n400mA，型号：In2026，容量：380mAh/1.406Wh，中国制造，制造商：东莞市和乐电子有限公司。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "充电盒盖上信息有输入功率：5V\n⎓\n400mA，型号：In2026，容量：380mAh/1.406Wh，中国制造，制造商：东莞市和乐电子有限公司。"
+          "source_ref": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：充电盒盖上信息有输入功率：5V\n⎓\n400mA，型号：In2026，容量：380mAh/1.406Wh，中国制造，制造商：东莞市和乐电子有限公司。"
         },
         {
           "param": "电池容量",
@@ -713,15 +558,6 @@
             "confidence": 0.7,
             "source_type": "text",
             "source_text": "配置方面，此次采用了一颗7.2mm动圈单元，蓝牙5.1芯片，支持AAC/SBC编解码，支持自由切换，极速回连；支持双耳4麦通话降噪功能，提供清晰通话；支持快速充电，耳机单次续航时间8小时，搭配充电盒整体续航达到40小时；采用触控操作，APP内新增防误触睡眠模式，开启后关闭触控功能。"
-          }
-        },
-        {
-          "value": "SY8815非常适合蓝牙耳机充电仓的设计，极大简化 了外围电路和元器件，为蓝牙耳机充电仓的应用提供了简单易用的方案。",
-          "evidence": {
-            "value": "SY8815非常适合蓝牙耳机充电仓的设计，极大简化 了外围电路和元器件，为蓝牙耳机充电仓的应用提供了简单易用的方案。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "SY8815非常适合蓝牙耳机充电仓的设计，极大简化 了外围电路和元器件，为蓝牙耳机充电仓的应用提供了简单易用的方案。"
           }
         }
       ],

@@ -12,7 +12,7 @@
   "author": "Wen5",
   "summary": "NOME诺米由瑞典独立设计师及合作设计师组成，为品牌提供创意支持。诺米品牌产品包括家居、美护、零食、数码等众多 […]",
   "captured_at": "2026-07-14T02:10:29+00:00",
-  "data_completeness": 0.692,
+  "data_completeness": 0.698,
   "views": {
     "market": {
       "brand": "",
@@ -22,6 +22,46 @@
       "price_cny": null,
       "price_note": "",
       "selling_points": [
+        {
+          "text": "标记/认证：锂离子软包电池型号JYZ400911，额定电压：3.7V，额定容量25mAh，同样来自金宇宙。",
+          "tag": "其他",
+          "evidence": {
+            "value": "标记/认证：锂离子软包电池型号JYZ400911，额定电压：3.7V，额定容量25mAh，同样来自金宇宙。",
+            "confidence": 0.73,
+            "source_type": "text",
+            "source_text": "标记/认证：锂离子软包电池型号JYZ400911，额定电压：3.7V，额定容量25mAh，同样来自金宇宙。"
+          }
+        },
+        {
+          "text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：充电盒背面印有NOME品牌LOGO，迷你无线蓝牙平耳耳机的产品名称，型号：T02，充电输入：5V-1A等。",
+          "tag": "其他",
+          "evidence": {
+            "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：充电盒背面印有NOME品牌LOGO，迷你无线蓝牙平耳耳机的产品名称，型号：T02，充电输入：5V-1A等。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：充电盒背面印有NOME品牌LOGO，迷你无线蓝牙平耳耳机的产品名称，型号：T02，充电输入：5V-1A等。"
+          }
+        },
+        {
+          "text": "标记/认证：锂离子聚合物软包电池型号JYZ801328，额定容量：300mAh/1.11Wh，额定电压：3.7V。",
+          "tag": "其他",
+          "evidence": {
+            "value": "标记/认证：锂离子聚合物软包电池型号JYZ801328，额定容量：300mAh/1.11Wh，额定电压：3.7V。",
+            "confidence": 0.58,
+            "source_type": "text",
+            "source_text": "标记/认证：锂离子聚合物软包电池型号JYZ801328，额定容量：300mAh/1.11Wh，额定电压：3.7V。"
+          }
+        },
+        {
+          "text": "诺米品牌产品包括家居、美护、零食、数码等众多 […]\n通话部分内置单MIC ENC降噪/AEC回音消除算法。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "诺米品牌产品包括家居、美护、零食、数码等众多 […]\n通话部分内置单MIC ENC降噪/AEC回音消除算法。",
+            "confidence": 0.57,
+            "source_type": "text",
+            "source_text": "诺米品牌产品包括家居、美护、零食、数码等众多 […]\n通话部分内置单MIC ENC降噪/AEC回音消除算法。"
+          }
+        },
         {
           "text": "通话部分内置单MIC ENC降噪/AEC回音消除算法。",
           "tag": "降噪",
@@ -36,19 +76,19 @@
       "scenarios": [
         "通话"
       ],
-      "positioning_summary": "通话部分内置单MIC ENC降噪/AEC回音消除算法。",
+      "positioning_summary": "标记/认证：锂离子软包电池型号JYZ400911，额定电压：3.7V，额定容量25mAh，同样来自金宇宙。",
       "launch_date_evidence": null,
       "price_evidence": null
     },
     "cost": {
       "major_parts": [
-        "充电仓",
-        "主板/PCBA",
         "电池",
         "麦克风",
+        "充电仓",
+        "主板/PCBA",
         "降噪系统",
-        "天线",
-        "喇叭单元"
+        "喇叭单元",
+        "天线"
       ],
       "chip_modules": [
         {
@@ -68,34 +108,6 @@
       ],
       "bom_table": [
         {
-          "component": "充电仓",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "major",
-          "evidence": {
-            "value": "充电仓",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "NOME诺米无线蓝牙耳机充电盒外观一览，此款为白色配色，整体触感光滑。充电盒盖开盖处曲线独特，正面有凹槽便于开启。以及一颗状态指示灯。"
-          }
-        },
-        {
-          "component": "主板/PCBA",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "",
-          "role": "major",
-          "evidence": {
-            "value": "主板/PCBA",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "主板位于充电座舱底部，通过螺丝固定。"
-          }
-        },
-        {
           "component": "电池",
           "brand": "",
           "model": "",
@@ -114,13 +126,41 @@
           "brand": "",
           "model": "",
           "qty_hint": "",
-          "side": "耳机",
+          "side": "",
           "role": "major",
           "evidence": {
             "value": "麦克风",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "底部为耳机充电的金属结构，中间为麦克风开孔，用于语音通话拾音。"
+            "source_text": "通话部分内置单MIC ENC降噪/AEC回音消除算法。"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒内主要电路一览。电池与主板之间设置有海绵缓冲垫。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "主板位于充电座舱底部，通过螺丝固定。"
           }
         },
         {
@@ -128,27 +168,13 @@
           "brand": "",
           "model": "",
           "qty_hint": "",
-          "side": "耳机",
+          "side": "",
           "role": "major",
           "evidence": {
             "value": "降噪系统",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "BT8892B专为TWS耳机应用设计，芯片高度集成化，PCB外围物料精简。通讯协议支持蓝牙5.0 双模，支持APP应用。解码格式支持SBC/mSBC、AAC，内置10段参量式均衡器。内置5V充电触点单线通讯、内置锂电池充电管理电路，适用于智能充电仓应用。支持主副耳无缝切换。通话部分内置单MIC ENC降噪/AEC回音消除算法。原厂提供配置化编程工具，方便客户产品迅速投入市场。"
-          }
-        },
-        {
-          "component": "天线",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "",
-          "role": "major",
-          "evidence": {
-            "value": "天线",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "陶瓷蓝牙天线特写。"
+            "source_text": "通话部分内置单MIC ENC降噪/AEC回音消除算法。"
           }
         },
         {
@@ -166,45 +192,17 @@
           }
         },
         {
-          "component": "外壳结构",
+          "component": "天线",
           "brand": "",
           "model": "",
           "qty_hint": "",
           "side": "",
-          "role": "minor",
+          "role": "major",
           "evidence": {
-            "value": "外壳结构",
+            "value": "天线",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "扬声器背面特写，边缘设置有调音孔，通过胶水固定在前腔内。与主板连接的导线焊接在扬声器的PCB板上。"
-          }
-        },
-        {
-          "component": "触控/按键",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "minor",
-          "evidence": {
-            "value": "触控/按键",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "包装盒采用了开窗的设计，能够直接看到内部产品外观。包装盒上信息有NOME品牌LOGO，产品名称迷你无线蓝牙平耳耳机，以及触控设计、迷你小巧、自动配对、高清通话等功能特点。"
-          }
-        },
-        {
-          "component": "指示灯",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "minor",
-          "evidence": {
-            "value": "指示灯",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "NOME诺米无线蓝牙耳机充电盒外观一览，此款为白色配色，整体触感光滑。充电盒盖开盖处曲线独特，正面有凹槽便于开启。以及一颗状态指示灯。"
+            "source_text": "陶瓷蓝牙天线特写。"
           }
         },
         {
@@ -224,15 +222,29 @@
         {
           "component": "芯片/模组",
           "brand": "",
-          "model": "中科蓝讯 BT8892B",
+          "model": "BT8892B",
           "qty_hint": "1",
           "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BT8892B",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "BT8892B专为TWS耳机应用设计，芯片高度集成化，PCB外围物料精简。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "中科蓝讯 BT8892B",
+          "qty_hint": "1",
+          "side": "",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "中科蓝讯 BT8892B",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "中科蓝讯 BT8892B 蓝牙音频SoC\n，为中科蓝讯讯龙系列，主要针对TWS耳机市场。"
+            "source_text": "电池容量：300\n芯片 中科蓝讯 BT8892B"
           }
         }
       ],
@@ -251,33 +263,6 @@
         "包装盒内有耳机、充电线和产品说明书。"
       ],
       "process_hints": [
-        {
-          "value": "与主板连接的导线焊接在扬声器的PCB板上。",
-          "evidence": {
-            "value": "与主板连接的导线焊接在扬声器的PCB板上。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "与主板连接的导线焊接在扬声器的PCB板上。"
-          }
-        },
-        {
-          "value": "扬声器与电池导线焊接在主板上。",
-          "evidence": {
-            "value": "扬声器与电池导线焊接在主板上。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "扬声器与电池导线焊接在主板上。"
-          }
-        },
-        {
-          "value": "主板底部充电的金属结构焊接在主板上。",
-          "evidence": {
-            "value": "主板底部充电的金属结构焊接在主板上。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "主板底部充电的金属结构焊接在主板上。"
-          }
-        },
         {
           "value": "耳机部分，耳机头内配备了13mm大尺寸动圈单元和25mAh软包电池，通过导线焊接与主板连接。",
           "evidence": {
@@ -298,22 +283,11 @@
         "PC"
       ],
       "ip_rating": null,
-      "weight_g": "32.8g",
+      "weight_g": null,
       "dimensions": [
-        "包装盒背面印有操控指南，支持单击、双击、三击、长按等操控模式；产品特点：触控设计、蓝牙5.0、10米有效距离，单次续航时间3.5小时，整体续航时间24小时，13mm大尺寸单元等，品牌商：广州诺米品牌管理有限公司。",
-        "经我爱音频网实测，扬声器尺寸约为13mm，与官方宣传一致。",
         "耳机部分，耳机头内配备了13mm大尺寸动圈单元和25mAh软包电池，通过导线焊接与主板连接。"
       ],
       "internal_structure": [
-        {
-          "value": "主板位于充电座舱底部，通过螺丝固定。",
-          "evidence": {
-            "value": "主板位于充电座舱底部，通过螺丝固定。",
-            "confidence": 0.74,
-            "source_type": "text",
-            "source_text": "主板位于充电座舱底部，通过螺丝固定。"
-          }
-        },
         {
           "value": "充电盒内主要电路一览。电池与主板之间设置有海绵缓冲垫。",
           "evidence": {
@@ -333,6 +307,15 @@
           }
         },
         {
+          "value": "通话部分内置单MIC ENC降噪/AEC回音消除算法。",
+          "evidence": {
+            "value": "通话部分内置单MIC ENC降噪/AEC回音消除算法。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "通话部分内置单MIC ENC降噪/AEC回音消除算法。"
+          }
+        },
+        {
           "value": "底部为耳机充电的金属结构，中间为麦克风开孔，用于语音通话拾音。",
           "evidence": {
             "value": "底部为耳机充电的金属结构，中间为麦克风开孔，用于语音通话拾音。",
@@ -342,12 +325,12 @@
           }
         },
         {
-          "value": "镭雕G346的MEMS硅麦克风，用于语音通话拾音。",
+          "value": "主板位于充电座舱底部，通过螺丝固定。",
           "evidence": {
-            "value": "镭雕G346的MEMS硅麦克风，用于语音通话拾音。",
+            "value": "主板位于充电座舱底部，通过螺丝固定。",
             "confidence": 0.74,
             "source_type": "text",
-            "source_text": "镭雕G346的MEMS硅麦克风，用于语音通话拾音。"
+            "source_text": "主板位于充电座舱底部，通过螺丝固定。"
           }
         },
         {
@@ -389,133 +372,77 @@
           }
         },
         {
-          "value": "扬声器背面特写，边缘设置有调音孔，通过胶水固定在前腔内。",
+          "value": "主板位于充电座舱底部，通过螺丝固定。",
           "evidence": {
-            "value": "扬声器背面特写，边缘设置有调音孔，通过胶水固定在前腔内。",
+            "value": "主板位于充电座舱底部，通过螺丝固定。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "扬声器背面特写，边缘设置有调音孔，通过胶水固定在前腔内。"
-          }
-        },
-        {
-          "value": "腔体壁上还通过卡槽和胶水固定有圆形磁铁，用于与充电盒吸附。",
-          "evidence": {
-            "value": "腔体壁上还通过卡槽和胶水固定有圆形磁铁，用于与充电盒吸附。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "腔体壁上还通过卡槽和胶水固定有圆形磁铁，用于与充电盒吸附。"
+            "source_text": "主板位于充电座舱底部，通过螺丝固定。"
           }
         }
       ],
       "sealing_method": [],
-      "wear_design": [
-        {
-          "value": "两只耳机整体重量为6.3g，非常的轻便，提升佩戴的舒适度。",
-          "evidence": {
-            "value": "两只耳机整体重量为6.3g，非常的轻便，提升佩戴的舒适度。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "两只耳机整体重量为6.3g，非常的轻便，提升佩戴的舒适度。"
-          }
-        },
-        {
-          "value": "耳机头外观曲线一览，符合人体工学设计，佩戴较为舒适。",
-          "evidence": {
-            "value": "耳机头外观曲线一览，符合人体工学设计，佩戴较为舒适。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "耳机头外观曲线一览，符合人体工学设计，佩戴较为舒适。"
-          }
-        }
-      ],
-      "key_image_urls": [
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613111672.png",
-          "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613111755.png",
-          "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613111890.png",
-          "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613111874.png",
-          "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613111993.png",
-          "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        }
-      ],
+      "wear_design": [],
+      "key_image_urls": [],
       "assembly_notes": [
-        "主板位于充电座舱底部，通过螺丝固定。",
         "充电盒内主要电路一览。电池与主板之间设置有海绵缓冲垫。",
         "锂离子聚合物软包电池型号JYZ801328，额定容量：300mAh/1.11Wh，额定电压：3.7V。来自深圳市金宇宙能源有限公司。",
+        "通话部分内置单MIC ENC降噪/AEC回音消除算法。",
         "底部为耳机充电的金属结构，中间为麦克风开孔，用于语音通话拾音。"
       ],
       "ip_rating_evidence": null,
-      "weight_evidence": {
-        "value": "32.8g",
-        "confidence": 0.75,
-        "source_type": "text",
-        "source_text": "32.8g"
-      }
+      "weight_evidence": null,
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": null,
+      "weight_earbud_evidence": null
     },
     "hardware": {
       "specs": [
         {
           "param": "充电方式",
-          "value": "我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对NOME诺米 迷你无线蓝牙平耳耳机进行有线充电测试，充电功率约为2.17W。",
+          "value": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对NOME诺米 迷你无线蓝牙平耳耳机进行有线充电测试，充电功率约为2.17W。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对NOME诺米 迷你无线蓝牙平耳耳机进行有线充电测试，充电功率约为2.17W。"
+          "source_ref": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对NOME诺米 迷你无线蓝牙平耳耳机进行有线充电测试，充电功率约为2.17W。"
         },
         {
           "param": "充电接口",
-          "value": "USB-A to USB Type-C充电线。",
+          "value": "充电接口：USB-A to USB Type-C充电线。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "USB-A to USB Type-C充电线。"
+          "source_ref": "充电接口：USB-A to USB Type-C充电线。"
         },
         {
           "param": "充电接口",
-          "value": "Type-C充电接口位于充电盒底部，充电盒腰线做了弧形的凹槽，提升产品的层次感。",
+          "value": "充电接口：Type-C充电接口位于充电盒底部，充电盒腰线做了弧形的凹槽，提升产品的层次感。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "Type-C充电接口位于充电盒底部，充电盒腰线做了弧形的凹槽，提升产品的层次感。"
+          "source_ref": "充电接口：Type-C充电接口位于充电盒底部，充电盒腰线做了弧形的凹槽，提升产品的层次感。"
         },
         {
           "param": "充电接口",
-          "value": "内部结构上也相对较为简单，充电盒内置锂离子软包电池容量300mAh，来自金宇宙；采用了Type-C充电接口输入电源，丝印GR03A 3820J 的IC\n用于电池充电和放电为耳机充电。",
+          "value": "充电接口：内部结构上也相对较为简单，充电盒内置锂离子软包电池容量300mAh，来自金宇宙；采用了Type-C充电接口输入电源，丝印GR03A 3820J 的IC\n用于电池充电和放电为耳机充电。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "内部结构上也相对较为简单，充电盒内置锂离子软包电池容量300mAh，来自金宇宙；采用了Type-C充电接口输入电源，丝印GR03A 3820J 的IC\n用于电池充电和放电为耳机充电。"
+          "source_ref": "充电接口：内部结构上也相对较为简单，充电盒内置锂离子软包电池容量300mAh，来自金宇宙；采用了Type-C充电接口输入电源，丝印GR03A 3820J 的IC\n用于电池充电和放电为耳机充电。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：充电盒背面印有NOME品牌LOGO，迷你无线蓝牙平耳耳机的产品名称，型号：T02，充电输入：5V-1A等。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：充电盒背面印有NOME品牌LOGO，迷你无线蓝牙平耳耳机的产品名称，型号：T02，充电输入：5V-1A等。"
         },
         {
           "param": "充电接口",
@@ -537,15 +464,6 @@
         },
         {
           "param": "标记/认证",
-          "value": "充电盒背面印有NOME品牌LOGO，迷你无线蓝牙平耳耳机的产品名称，型号：T02，充电输入：5V-1A等。",
-          "unit": "",
-          "brand": "",
-          "model": "",
-          "confidence": 0.7,
-          "source_ref": "充电盒背面印有NOME品牌LOGO，迷你无线蓝牙平耳耳机的产品名称，型号：T02，充电输入：5V-1A等。"
-        },
-        {
-          "param": "标记/认证",
           "value": "锂离子聚合物软包电池型号JYZ801328，额定容量：300mAh/1.11Wh，额定电压：3.7V。",
           "unit": "",
           "brand": "",
@@ -555,12 +473,30 @@
         },
         {
           "param": "标记/认证",
-          "value": "锂离子软包电池型号JYZ400911，额定电压：3.7V，额定容量25mAh，同样来自金宇宙。",
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：充电盒背面印有NOME品牌LOGO，迷你无线蓝牙平耳耳机的产品名称，型号：T02，充电输入：5V-1A等。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "锂离子软包电池型号JYZ400911，额定电压：3.7V，额定容量25mAh，同样来自金宇宙。"
+          "source_ref": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：充电盒背面印有NOME品牌LOGO，迷你无线蓝牙平耳耳机的产品名称，型号：T02，充电输入：5V-1A等。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "标记/认证：锂离子聚合物软包电池型号JYZ801328，额定容量：300mAh/1.11Wh，额定电压：3.7V。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "标记/认证：锂离子聚合物软包电池型号JYZ801328，额定容量：300mAh/1.11Wh，额定电压：3.7V。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "标记/认证：锂离子软包电池型号JYZ400911，额定电压：3.7V，额定容量25mAh，同样来自金宇宙。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "标记/认证：锂离子软包电池型号JYZ400911，额定电压：3.7V，额定容量25mAh，同样来自金宇宙。"
         },
         {
           "param": "电池容量",

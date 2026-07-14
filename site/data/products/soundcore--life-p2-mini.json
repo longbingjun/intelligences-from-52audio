@@ -1,0 +1,376 @@
+{
+  "canonical_id": "soundcore--life-p2-mini",
+  "brand": "Soundcore声阔",
+  "model": "LIFE P2 MINI",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "182535"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "182535"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-11-27",
+  "latest_published": "2023-11-27",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "INJOINIC英集芯IP5518H",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "赣锋 5V/40mAh锂电池",
+    "speaker": "10mm 动圈单元",
+    "materials": "硅胶",
+    "weight_g": "46.7g",
+    "weight_case_g": "",
+    "weight_earbud_g": "4.4g",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 18,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "182535",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "INJOINIC英集芯IP5518H",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "MCU",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5518H",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上采用了INJOINIC英集芯IP5518H多功能电源管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示，支持30V高耐压，为充电仓提供完整的电源解决方案；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "恒玄WT250U",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄WT250U",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，采用了BES恒玄WT250U的蓝牙音频SoC，用于无线连接和音频数据处理；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "赣锋",
+      "model": "5V/40mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "5V/40mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置新余赣锋540mAh锂电池，配备有独立电路保护板负责充放电保护。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "10mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "10mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机头内置10mm动圈单元，新余赣锋0.222Wh软包扣式电池，分别通过导线连接到耳机柄内部主板。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "搭载了一颗MEMS麦克风用于语音通话功能拾音。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Soundcore声阔是安克创新旗下音频品牌，旗下产品涵盖了TWS耳机、头戴式耳机、降噪耳机和便携式蓝牙音箱等。LIFE P2 MINI是一款声阔海外在售的主打轻巧紧凑设计的真无线耳机产品，充电盒体积小巧便携，耳机重量仅为4.4g，提供轻若无物的舒适佩戴体验。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，电池通过双面胶垫包裹，固定在主板上，电源输入小板通过导线连接主板。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，电池通过双面胶垫包裹，固定在主板上，电源输入小板通过导线连接主板。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Soundcore声阔LIFE P2 MINI真无线耳机在音质方面，搭载了10mm驱动器，支持3种EQ模式，包括提供提供均衡声音的Signature模式，增强重低音音乐的Bass Booster模式，使中高频人声更清晰的Podcast模式；在语音通话方面，内置高灵敏度麦克风，支持AI降噪消除环境噪音，实现清晰通话；续航方面，支持单次8小时、综合32小时的音乐播放。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "前腔内部扬声器单元结构一览。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧结构一览，设置有蓝牙天线和触摸检测贴片。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开卡扣式固定的充电盒外壳，取出内部座舱结构。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "取出耳机，座舱内部结构一览，雕刻有L/R左右标识，设置有一颗功能按键。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机内侧外观一览，耳机柄内侧设置充电触点，雕刻有L/R左右标识。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面外观一览，设计有亮面腰线，机身上设置有3颗指示灯，用于反馈充电状态。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP5518H",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5518H",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "INJOINIC英集芯IP5518H是一款集成MCU、升压转换器、锂电池充电管理、电池电量指示，支持30V高耐压的多功能电源管理SoC，能够为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5518H",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5518H",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "IP5518H的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸， 降低BOM成本。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄WT250U",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄WT250U",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄WT250U的蓝牙音频SoC，用于无线连接和音频数据处理。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Soundcore声阔LIFE P2 MINI真无线耳机在外观设计方面，充电盒设计紧凑，体积轻巧，细腻磨砂质感，不易沾染指纹，不易出现划痕。耳机采用了柄状的入耳式设计，磨砂+亮面两种质感结合，搭配品牌品牌LOGO，具有很高的辨识度；耳机重量仅为4.4g，搭配5副不同尺寸的柔软硅胶耳塞，为不同用户提供轻盈舒适的佩戴体验。 内部结构配置方面，充电盒内置新余赣锋540mAh锂电池，配备有独立电路保护板负责充放电保护。主板上采用了INJOINIC英集芯IP5518H多功能电源管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示，支持30V高耐压，为充电仓提供完整的电源解决方案；还采用了SiliconWisdom矽睿半导体SWD255S霍尔元件，用于开盖即连功能。 耳机头内置10mm动圈单元，新余赣锋0.222Wh软包扣式电池，分别通过导线连接到耳机柄内部主板。主板上，采用了BES恒玄WT250U的蓝牙音频SoC，用于无线连接和音频数据处理；搭载了一颗MEMS麦克风用于语音通话功能拾音。",
+  "layer_refs": {
+    "technical": [
+      "report:182535"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "Soundcore声阔LIFE P2 MINI真无线耳机在音质方面，搭载了10mm驱动器，支持3种EQ模式，包括提供提供均衡声音的Signature模式，增强重低音音乐的Bass Booster模式，使中高频人声更清晰的Podcast模式；在语音通话方面，内置高灵敏度麦克风，支持AI降噪消除环境噪音，实现清晰通话；续航方面，支持单次8小时、综合32小时的音乐播放。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "Soundcore声阔LIFE P2 MINI真无线耳机在音质方面，搭载了10mm驱动器，支持3种EQ模式，包括提供提供均衡声音的Signature模式，增强重低音音乐的Bass Booster模式，使中高频人声更清晰的Podcast模式；在语音通话方面，内置高灵敏度麦克风，支持AI降噪消除环境噪音，实现清晰通话；续航方面，支持单次8小时、综合32小时的音乐播放。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "Soundcore声阔LIFE P2 MINI真无线耳机在音质方面，搭载了10mm驱动器，支持3种EQ模式，包括提供提供均衡声音的Signature模式，增强重低音音乐的Bass Booster模式，使中高频人声更清晰的Podcast模式；在语音通话方面，内置高灵敏度麦克风，支持AI降噪消除环境噪音，实现清晰通话；续航方面，支持单次8小时、综合32小时的音乐播放。"
+        }
+      },
+      {
+        "text": "Soundcore声阔是安克创新旗下音频品牌，旗下产品涵盖了TWS耳机、头戴式耳机、降噪耳机和便携式蓝牙音箱等。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "Soundcore声阔是安克创新旗下音频品牌，旗下产品涵盖了TWS耳机、头戴式耳机、降噪耳机和便携式蓝牙音箱等。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "Soundcore声阔是安克创新旗下音频品牌，旗下产品涵盖了TWS耳机、头戴式耳机、降噪耳机和便携式蓝牙音箱等。"
+        }
+      },
+      {
+        "text": "LIFE P2 MINI是一款声阔海外在售的主打轻巧紧凑设计的真无线耳机产品，充电盒体积小巧便携，耳机重量仅为4.4g，提供轻若无物的舒适佩戴体验。",
+        "tag": "舒适佩戴",
+        "evidence": {
+          "value": "LIFE P2 MINI是一款声阔海外在售的主打轻巧紧凑设计的真无线耳机产品，充电盒体积小巧便携，耳机重量仅为4.4g，提供轻若无物的舒适佩戴体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "LIFE P2 MINI是一款声阔海外在售的主打轻巧紧凑设计的真无线耳机产品，充电盒体积小巧便携，耳机重量仅为4.4g，提供轻若无物的舒适佩戴体验。"
+        }
+      },
+      {
+        "text": "\n据我爱音频网拆解了解到，目前已有\n联想\n、\nCreative创新科技\n、\n倍思\n、\nSANAG\n、\nHiBy海贝\n、\niWalk声恋\n、\nVANKYO\n、\nAWEI用维\n等品牌旗下的TWS耳机采用了矽睿半导体的霍尔IC、锂电保护IC等产品。",
+        "tag": "其他",
+        "evidence": {
+          "value": "\n据我爱音频网拆解了解到，目前已有\n联想\n、\nCreative创新科技\n、\n倍思\n、\nSANAG\n、\nHiBy海贝\n、\niWalk声恋\n、\nVANKYO\n、\nAWEI用维\n等品牌旗下的TWS耳机采用了矽睿半导体的霍尔IC、锂电保护IC等产品。",
+          "confidence": 0.71,
+          "source_type": "text",
+          "source_text": "\n据我爱音频网拆解了解到，目前已有\n联想\n、\nCreative创新科技\n、\n倍思\n、\nSANAG\n、\nHiBy海贝\n、\niWalk声恋\n、\nVANKYO\n、\nAWEI用维\n等品牌旗下的TWS耳机采用了矽睿半导体的霍尔IC、锂电保护IC等产品。"
+        }
+      },
+      {
+        "text": "SiliconWisdom矽睿半导体SWD255S霍尔元件，是一颗微功耗、高灵敏度S极单极性的霍尔开关传感装置，内部电路包含了霍尔薄片、电压稳压模块、信号放大处理模块、动态失调消除模块及CMOS输出级。",
+        "tag": "其他",
+        "evidence": {
+          "value": "SiliconWisdom矽睿半导体SWD255S霍尔元件，是一颗微功耗、高灵敏度S极单极性的霍尔开关传感装置，内部电路包含了霍尔薄片、电压稳压模块、信号放大处理模块、动态失调消除模块及CMOS输出级。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "SiliconWisdom矽睿半导体SWD255S霍尔元件，是一颗微功耗、高灵敏度S极单极性的霍尔开关传感装置，内部电路包含了霍尔薄片、电压稳压模块、信号放大处理模块、动态失调消除模块及CMOS输出级。"
+        }
+      },
+      {
+        "text": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+        "tag": "其他",
+        "evidence": {
+          "value": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "通话"
+    ],
+    "positioning_summary": "Soundcore声阔LIFE P2 MINI真无线耳机在音质方面，搭载了10mm驱动器，支持3种EQ模式，包括提供提供均衡声音的Signature模式，增强重低音音乐的Bass Booster模式，使中高频人声更清晰的Podcast模式；在语音通话方面，内置高灵敏度麦克风，支持AI降噪消除环境噪音，实现清晰通话；续航方面，支持单次8小时、综合32小时的音乐播放。",
+    "launch_date": null,
+    "best_report_id": "182535",
+    "best_video_id": null
+  }
+}

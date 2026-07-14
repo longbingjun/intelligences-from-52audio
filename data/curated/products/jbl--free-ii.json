@@ -20,13 +20,13 @@
     "battery_ear": "电池",
     "battery_case": "650 mAh",
     "speaker": "喇叭单元",
-    "materials": "硅胶、塑料、PC",
-    "weight_g": "62.8g",
+    "materials": "",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "IPX4",
     "bluetooth": "5.0",
-    "bom_row_count": 18,
+    "bom_row_count": 12,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -36,20 +36,6 @@
     "best_video_id": null
   },
   "bom_table": [
-    {
-      "component": "充电仓",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "充电仓",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "JBL FREE II 在外观设计上非常的小巧，充电盒采用了椭圆的鹅卵石造型，耳机为豆状的入耳式设计，搭配环状指示灯和JBL品牌LOGO，十分具有辨识度。配置上，采用了高品质5.8mm高灵敏度动圈单元，蓝牙5.0芯片，拥有JBL标志性音效；支持通话降噪、IPX4级防水，拥有6+18小时的续航时间。"
-      }
-    },
     {
       "component": "主板/PCBA",
       "brand": "",
@@ -75,7 +61,21 @@
         "value": "电池",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "电池单元与电源输入小板通过排线插座连接。"
+        "source_text": "电池与主板通过导线焊接连接，主板被多颗螺丝固定在腔体上。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒主板正面电路一览。"
       }
     },
     {
@@ -121,31 +121,17 @@
       }
     },
     {
-      "component": "降噪系统",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "降噪系统",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "BES2300系列是全集成自适应主动降噪方案，支持蓝牙 5.0、IBRT低频转发技术和双模蓝牙 4.2，它还支持第三代 FWS 全无线立体声技术、双麦克风等，采用 28nm HKMG CMOS工艺、BGA 封装。BES2300支持高性能的自适应主动降噪技术，可以让高端主动降噪耳机使用一颗全集成芯片实现高音质和主动降噪。"
-      }
-    },
-    {
       "component": "指示灯",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "充电盒",
+      "side": "耳机",
       "role": "minor",
       "evidence": {
         "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "JBL FREE II 在外观设计上非常的小巧，充电盒采用了椭圆的鹅卵石造型，耳机为豆状的入耳式设计，搭配环状指示灯和JBL品牌LOGO，十分具有辨识度。配置上，采用了高品质5.8mm高灵敏度动圈单元，蓝牙5.0芯片，拥有JBL标志性音效；支持通话降噪、IPX4级防水，拥有6+18小时的续航时间。"
+        "source_text": "取掉主板，耳机后腔内部结构一览。环形指示灯导光柱通过卡扣固定，边缘是金属化蓝牙天线。"
       }
     },
     {
@@ -159,35 +145,7 @@
         "value": "外壳结构",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机前后腔采用胶水固定。"
-      }
-    },
-    {
-      "component": "充电触点",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "小板上为耳机充电的Pogo Pin。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "主板上微动按键特写，支持单击、双击和长按，用于各项功能操控。"
+        "source_text": "取掉主板，耳机后腔内部结构一览。环形指示灯导光柱通过卡扣固定，边缘是金属化蓝牙天线。"
       }
     },
     {
@@ -201,7 +159,7 @@
         "value": "SY6918",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "Silergy\n矽力杰\nSY6918C电池充放电管理IC，支持18V耐压，支持2A充电，2.5A升压输出，支持4.2/4.35V电池，支持可编程的电流显示，动态功率管理，负责充电盒内部电池充电及升压输出为耳机充电。"
+        "source_text": "充电接口：充电盒采用Type-C充电接口输入电源，锂离子软包电池容量650mAh，配备有电路保护板，负责电池的过充过放过流等保护功能；电池与主板通过导线焊接，主板上配备了矽力杰 SY6918C电池充放电管理IC，负责充电盒内部电池充电及升压输出为耳机充电；一颗爱普特 APT32F101H6SV 微控制器，用于整机控制。"
       }
     },
     {
@@ -215,35 +173,7 @@
         "value": "SY6918C",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "Silergy\n矽力杰\nSY6918C电池充放电管理IC，支持18V耐压，支持2A充电，2.5A升压输出，支持4.2/4.35V电池，支持可编程的电流显示，动态功率管理，负责充电盒内部电池充电及升压输出为耳机充电。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "SY6918",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "SY6918",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "Silergy矽力杰 SY6918C详细资料图。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "SY6918C",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "SY6918C",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "Silergy矽力杰 SY6918C详细资料图。"
+        "source_text": "充电接口：充电盒采用Type-C充电接口输入电源，锂离子软包电池容量650mAh，配备有电路保护板，负责电池的过充过放过流等保护功能；电池与主板通过导线焊接，主板上配备了矽力杰 SY6918C电池充放电管理IC，负责充电盒内部电池充电及升压输出为耳机充电；一颗爱普特 APT32F101H6SV 微控制器，用于整机控制。"
       }
     },
     {
@@ -257,35 +187,21 @@
         "value": "恒玄BES2300IZ",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "BES恒玄BES2300IZ蓝牙音频SOC，BES2300有多个版本、后缀不同配置也不尽相同，此前我爱音频网对此进行了详细归类。"
+        "source_text": "电池容量：650\n芯片 恒玄BES2300IZ\n芯片 BES2300\n芯片 SY6918\n芯片 SY6918C"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "BES2300",
+      "model": "SY6918",
       "qty_hint": "1",
       "side": "",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "BES2300",
+        "value": "SY6918",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "BES2300系列是全集成自适应主动降噪方案，支持蓝牙 5.0、IBRT低频转发技术和双模蓝牙 4.2，它还支持第三代 FWS 全无线立体声技术、双麦克风等，采用 28nm HKMG CMOS工艺、BGA 封装。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "BES2300",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "BES2300",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "BES2300支持高性能的自适应主动降噪技术，可以让高端主动降噪耳机使用一颗全集成芯片实现高音质和主动降噪。"
+        "source_text": "电池容量：650\n芯片 恒玄BES2300IZ\n芯片 BES2300\n芯片 SY6918\n芯片 SY6918C"
       }
     }
   ],
@@ -304,13 +220,13 @@
   "market": {
     "selling_points": [
       {
-        "text": "三、我爱音频网总结\n作为JBL旗下首款真无线耳机 JBL FREE 时隔3年的升级产品，JBL FREE II 相较于上代产品在外观设计方面既有延续也有新的变化。",
+        "text": "随着TWS耳机的火爆，JBL也相继推出了多款产品 […]\n三、我爱音频网总结\n作为JBL旗下首款真无线耳机 JBL FREE 时隔3年的升级产品，JBL FREE II 相较于上代产品在外观设计方面既有延续也有新的变化。",
         "tag": "其他",
         "evidence": {
-          "value": "三、我爱音频网总结\n作为JBL旗下首款真无线耳机 JBL FREE 时隔3年的升级产品，JBL FREE II 相较于上代产品在外观设计方面既有延续也有新的变化。",
+          "value": "随着TWS耳机的火爆，JBL也相继推出了多款产品 […]\n三、我爱音频网总结\n作为JBL旗下首款真无线耳机 JBL FREE 时隔3年的升级产品，JBL FREE II 相较于上代产品在外观设计方面既有延续也有新的变化。",
           "confidence": 0.75,
           "source_type": "text",
-          "source_text": "三、我爱音频网总结\n作为JBL旗下首款真无线耳机 JBL FREE 时隔3年的升级产品，JBL FREE II 相较于上代产品在外观设计方面既有延续也有新的变化。"
+          "source_text": "随着TWS耳机的火爆，JBL也相继推出了多款产品 […]\n三、我爱音频网总结\n作为JBL旗下首款真无线耳机 JBL FREE 时隔3年的升级产品，JBL FREE II 相较于上代产品在外观设计方面既有延续也有新的变化。"
         }
       },
       {
@@ -324,20 +240,30 @@
         }
       },
       {
-        "text": "出音嘴为圆形设计，内部防尘网防护，防\n止灰\n尘异物进入音腔。",
-        "tag": "防水防尘",
+        "text": "标记/认证：以及不同国家的认证信息。",
+        "tag": "其他",
         "evidence": {
-          "value": "出音嘴为圆形设计，内部防尘网防护，防\n止灰\n尘异物进入音腔。",
-          "confidence": 0.65,
+          "value": "标记/认证：以及不同国家的认证信息。",
+          "confidence": 0.7,
           "source_type": "text",
-          "source_text": "出音嘴为圆形设计，内部防尘网防护，防\n止灰\n尘异物进入音腔。"
+          "source_text": "标记/认证：以及不同国家的认证信息。"
+        }
+      },
+      {
+        "text": "标记/认证：APTCHIP爱普特 APT32F101H6SV详细资料图。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：APTCHIP爱普特 APT32F101H6SV详细资料图。",
+          "confidence": 0.67,
+          "source_type": "text",
+          "source_text": "标记/认证：APTCHIP爱普特 APT32F101H6SV详细资料图。"
         }
       }
     ],
     "scenarios": [
       "通话"
     ],
-    "positioning_summary": "三、我爱音频网总结\n作为JBL旗下首款真无线耳机 JBL FREE 时隔3年的升级产品，JBL FREE II 相较于上代产品在外观设计方面既有延续也有新的变化。",
+    "positioning_summary": "随着TWS耳机的火爆，JBL也相继推出了多款产品 […]\n三、我爱音频网总结\n作为JBL旗下首款真无线耳机 JBL FREE 时隔3年的升级产品，JBL FREE II 相较于上代产品在外观设计方面既有延续也有新的变化。",
     "launch_date": null,
     "best_report_id": "79364",
     "best_video_id": null

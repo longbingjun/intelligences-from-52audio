@@ -1,0 +1,203 @@
+{
+  "canonical_id": "unknown--airpods-tws",
+  "brand": "",
+  "model": "苹果AirPods二代 TWS蓝牙耳机无线充电盒",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "17580"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "17580"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2019-03-29",
+  "latest_published": "2019-03-29",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "CM5935",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "",
+    "speaker": "",
+    "materials": "塑料",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 8,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.5,
+    "best_report_id": "17580",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "苹果无线耳机AirPods 二代堪称新一代小型化设备领域的奇迹，在如此轻小的机身内加入了蓝牙耳机所有功能，并引入了独家研发的H1智能芯片。最重要的是，在二代产品上还加入了对无线充电的支持，并且充电盒的外观、体积没有太明显的变化。想要了解它，最直观的方法就是通过拆解看看它的内部构造，下面我爱音频网就通过拆解来和大家一起来看看它是怎么样支持无线充电功能的。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆下耳机仓位之后，内部空出了一大部分空间，盒内套筒式结构，主板等元件都固定在塑料内筒上。内筒使用胶水与外壳固定。可见耳机仓位、电池以及主板各占充电盒内近1/3的空间。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆下耳机仓位之后，内部空出了一大部分空间，盒内套筒式结构，主板等元件都固定在塑料内筒上。内筒使用胶水与外壳固定。可见耳机仓位、电池以及主板各占充电盒内近1/3的空间。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "来看看无线充电部分，负责无线充电的线圈和耳机充电盒背部的按键模块一并固定在机身后面的内侧。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装背后是耳机放在充电盒内的样子，充电时耳机露出半边脸，充电盒正面的指示灯亮起。左下方是产品名称AirPods，下面是英、法、德、意、西、日等语言的“附带无线充电盒”。这个无线充电盒就是这款耳机的二代升级亮点之一。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆下耳机仓位之后，内部空出了一大部分空间，盒内套筒式结构，主板等元件都固定在塑料内筒上。内筒使用胶水与外壳固定。可见耳机仓位、电池以及主板各占充电盒内近1/3的空间。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "中框和外壳之间有一块垫片，耳机的仓位延伸到一根柱子下面，最下部分的充电触点是一个独立的模块，排线从主板出来分离成两部分一部分连接充电触点，一部分连接指示灯/霍尔传感器。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM5935",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM5935",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BROADCOM BCM59356 无线充电管理IC。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:17580"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "适用于 AirPower 充电枕和 Qi 认证的充电器。",
+        "tag": "其他",
+        "evidence": {
+          "value": "适用于 AirPower 充电枕和 Qi 认证的充电器。",
+          "confidence": 0.65,
+          "source_type": "text",
+          "source_text": "适用于 AirPower 充电枕和 Qi 认证的充电器。"
+        }
+      },
+      {
+        "text": "这个无线充电盒就是这款耳机的二代升级亮点之一。",
+        "tag": "其他",
+        "evidence": {
+          "value": "这个无线充电盒就是这款耳机的二代升级亮点之一。",
+          "confidence": 0.64,
+          "source_type": "text",
+          "source_text": "这个无线充电盒就是这款耳机的二代升级亮点之一。"
+        }
+      },
+      {
+        "text": "主板上都用了软质透明的防水胶覆盖，可以有效地增加这些微小元件的机械强度达到保护的目的。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "主板上都用了软质透明的防水胶覆盖，可以有效地增加这些微小元件的机械强度达到保护的目的。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "主板上都用了软质透明的防水胶覆盖，可以有效地增加这些微小元件的机械强度达到保护的目的。"
+        }
+      }
+    ],
+    "scenarios": [],
+    "positioning_summary": "适用于 AirPower 充电枕和 Qi 认证的充电器。",
+    "launch_date": null,
+    "best_report_id": "17580",
+    "best_video_id": null
+  }
+}

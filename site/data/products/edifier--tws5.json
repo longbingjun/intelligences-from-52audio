@@ -1,0 +1,243 @@
+{
+  "canonical_id": "edifier--tws5",
+  "brand": "EDIFIER漫步者",
+  "model": "TWS5",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "21020"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "21020"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2019-05-14",
+  "latest_published": "2019-05-14",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "高通 QCC3026",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "500 mAh",
+    "speaker": "",
+    "materials": "硅胶、塑料、PC",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.0",
+    "bom_row_count": 10,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.67,
+    "best_report_id": "21020",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "电池固定在C面背后，用导线连接主板。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盒内有两层PCBA。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装内是耳机充电盒、硅胶耳塞、Micro USB充电线和使用说明。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "背盖内最外层是蓝牙天线涂层，中间是一层框架，有按键的传动结构和LED灯的导光片。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "侧面的麦克风孔。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "三颗LED电量指示灯在正面。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "还支持蓝牙5.0、 32H续航、触控操作。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机面侧是三个充电触点和表示方向的R。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通 QCC3026",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通 QCC3026",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "本次的漫步者TWS5采用了全新的Qualcomm高通 QCC3026真无线蓝牙音频方案，同时它还是首款搭载这款方案的耳机。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通aptX",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通aptX",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "这款耳机支持Qualcomm高通aptX。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:21020"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "支持第八代CVC通话降噪，双耳主耳机和从耳机智能切换，内置锂电池充电器。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "支持第八代CVC通话降噪，双耳主耳机和从耳机智能切换，内置锂电池充电器。",
+          "confidence": 0.61,
+          "source_type": "text",
+          "source_text": "支持第八代CVC通话降噪，双耳主耳机和从耳机智能切换，内置锂电池充电器。"
+        }
+      },
+      {
+        "text": "对于全新的面孔，我们自然是迫不及待地想要拆解看看。",
+        "tag": "其他",
+        "evidence": {
+          "value": "对于全新的面孔，我们自然是迫不及待地想要拆解看看。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "对于全新的面孔，我们自然是迫不及待地想要拆解看看。"
+        }
+      },
+      {
+        "text": "总体上具有低延迟，低功耗，立体声通话的特点。",
+        "tag": "游戏低延迟",
+        "evidence": {
+          "value": "总体上具有低延迟，低功耗，立体声通话的特点。",
+          "confidence": 0.69,
+          "source_type": "text",
+          "source_text": "总体上具有低延迟，低功耗，立体声通话的特点。"
+        }
+      },
+      {
+        "text": "兆易创新GD25LQ64C 具有SPI 接口的NAND Flash 存储器。",
+        "tag": "其他",
+        "evidence": {
+          "value": "兆易创新GD25LQ64C 具有SPI 接口的NAND Flash 存储器。",
+          "confidence": 0.59,
+          "source_type": "text",
+          "source_text": "兆易创新GD25LQ64C 具有SPI 接口的NAND Flash 存储器。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "支持第八代CVC通话降噪，双耳主耳机和从耳机智能切换，内置锂电池充电器。",
+    "launch_date": null,
+    "best_report_id": "21020",
+    "best_video_id": null
+  }
+}

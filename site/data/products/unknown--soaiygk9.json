@@ -1,0 +1,299 @@
+{
+  "canonical_id": "unknown--soaiygk9",
+  "brand": "",
+  "model": "SOAIY索爱GK9",
+  "category": "开放式耳机",
+  "report_ids": [
+    "229588"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "229588"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2025-02-26",
+  "latest_published": "2025-02-26",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "AB5656",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "3V/00mAh锂电池",
+    "speaker": "12mm 动圈单元",
+    "materials": "硅胶",
+    "weight_g": "37.3g",
+    "weight_case_g": "",
+    "weight_earbud_g": "5.6g",
+    "ip_rating": "",
+    "bluetooth": "6.0",
+    "bom_row_count": 16,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "229588",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载了300mAh锂电池，采用了LPS微源半导体LP7800H TWS充电盒管理IC，负责内置电池的充放电管理；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB5656",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB5656",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部采用了12mm动圈单元，内置40mAh软包锂电池，主板上采用了一颗MEMS麦克风拾音，采用了Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，用于无线连接和音频数据处理。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "12mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "12mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部采用了12mm动圈单元，内置40mAh软包锂电池，主板上采用了一颗MEMS麦克风拾音，采用了Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，用于无线连接和音频数据处理。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部采用了12mm动圈单元，内置40mAh软包锂电池，主板上采用了一颗MEMS麦克风拾音，采用了Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，用于无线连接和音频数据处理。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒挂绳，采用了软胶材质，用于提升便携性。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，通过螺丝固定主板，通过双面胶固定电池。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，通过螺丝固定主板，通过双面胶固定电池。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "弯臂后端的腔体外侧外观一览，设置有麦克风拾音孔，同时也是触摸控制区域。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "打开耳机音腔，内部扬声器单元结构一览。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "此次将要拆解的SOAIY索爱GK9开放式耳机外观上非常的轻巧便携，功能配置上搭载了12mm动圈喇叭，支持三频数字增强技术，支持DT定向传音技术，提供清晰的音质效果；支持ENC通话降噪，让通话更加清晰；支持游戏/音乐双模式，满足不同场景使用需求。续航上，支持单次5小时，综合约32小时的音乐播放。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "陶瓷蓝牙天线特写，用于无线信号收发。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "SOAIY索爱GK9开放式耳机充电盒采用了椭圆形设计，透明盒盖，烤漆质感机身，体积非常小巧便携。机身正面设计有品牌LOGO，设置一颗指示灯，用于反馈充电状态。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体底部的充电触点特写。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "LPS微源半导体LP7800H TWS充电盒管理IC，集成了一个高压28V线性充电，支持300mA和200mA两种恒流充电模式；支持智能放电管理模块，以防止电池过度放电，从而最大化电池续航时间；具有高效率同步升压模块、自动负载检测和按键控制放电功能，当放电电流低于截止电流阈值时自动关闭。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB5656",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB5656",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Bluetrum中科蓝讯AB5656C2蓝牙音频SoC\n，采用带DSP指令的高性能32位RISC-V处理器核心，处理器最大速度125MHz，内置1M bit（AB5656C2）闪存，113KB RAM，具有可编程上拉和下拉电阻的灵活GPIO引脚；支持GPIO唤醒或中断。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 SOAIY索爱GK9开放式耳机在外观方面，充电盒体积非常的小巧，同时设计有挂绳，极具便携性。还采用了透明盒盖设计，能够直观获取内部耳机状态。耳夹式耳机也比较轻盈，拥有着不错的佩戴舒适性。但C型弯臂受力易变形，因此无法保持稳定的夹持力，需要用户使用时主动调节耳机夹角。 内部主要配置方面，充电盒搭载了300mAh锂电池，采用了LPS微源半导体LP7800H TWS充电盒管理IC，负责内置电池的充放电管理；搭载了一颗霍尔元件，用于开盖即连功能。 耳机内部采用了12mm动圈单元，内置40mAh软包锂电池，主板上采用了一颗MEMS麦克风拾音，采用了Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，用于无线连接和音频数据处理。",
+  "layer_refs": {
+    "technical": [
+      "report:229588"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "此次将要拆解的SOAIY索爱GK9开放式耳机外观上非常的轻巧便携，功能配置上搭载了12mm动圈喇叭，支持三频数字增强技术，支持DT定向传音技术，提供清晰的音质效果；支持ENC通话降噪，让通话更加清晰；支持游戏/音乐双模式，满足不同场景使用需求。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "此次将要拆解的SOAIY索爱GK9开放式耳机外观上非常的轻巧便携，功能配置上搭载了12mm动圈喇叭，支持三频数字增强技术，支持DT定向传音技术，提供清晰的音质效果；支持ENC通话降噪，让通话更加清晰；支持游戏/音乐双模式，满足不同场景使用需求。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "此次将要拆解的SOAIY索爱GK9开放式耳机外观上非常的轻巧便携，功能配置上搭载了12mm动圈喇叭，支持三频数字增强技术，支持DT定向传音技术，提供清晰的音质效果；支持ENC通话降噪，让通话更加清晰；支持游戏/音乐双模式，满足不同场景使用需求。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话",
+      "电竞"
+    ],
+    "positioning_summary": "此次将要拆解的SOAIY索爱GK9开放式耳机外观上非常的轻巧便携，功能配置上搭载了12mm动圈喇叭，支持三频数字增强技术，支持DT定向传音技术，提供清晰的音质效果；支持ENC通话降噪，让通话更加清晰；支持游戏/音乐双模式，满足不同场景使用需求。",
+    "launch_date": null,
+    "best_report_id": "229588",
+    "best_video_id": null
+  }
+}

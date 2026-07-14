@@ -1,0 +1,353 @@
+{
+  "canonical_id": "edifier--lolliclip",
+  "brand": "EDIFIER漫步者",
+  "model": "LolliClip云感智能耳夹",
+  "category": "开放式耳机",
+  "report_ids": [
+    "244386",
+    "256889"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "244386",
+    "256889"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2025-06-30",
+  "latest_published": "2025-10-24",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "BES2700iH",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "5V/50mAh锂电池",
+    "speaker": "钛振膜",
+    "materials": "钛合金",
+    "weight_g": "60.5g",
+    "weight_case_g": "",
+    "weight_earbud_g": "6.9g",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 16,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "244386",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "5V/50mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "5V/50mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载了CEL金赛尔550mAh锂电池，配备电池保护板电路负责过充电、过放电、过电流等保护。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "钛振膜",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "钛振膜",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了13mm镀钛振膜动圈单元，内置三颗MEMS麦克风拾音，其中前馈降噪麦克风和通话麦克风来自敏芯微电子。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "3",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了13mm镀钛振膜动圈单元，内置三颗MEMS麦克风拾音，其中前馈降噪麦克风和通话麦克风来自敏芯微电子。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "BES2700iH",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2700iH",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机主控芯片为BES恒玄科技BES2700iH蓝牙音频SoC。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，电池上贴有海绵垫防护，主板通过螺丝固定。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面展示了产品的两种配色，以及产品参数、公司信息和APP下载二维码。型号：EDF200184，产品名称：LolliClip开放式真无线降噪耳机，输入：5V-200mA（耳机）/5V-1A（充电盒），北京爱德发科技有限公司。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "音腔正面设置的通话麦克风拾音孔特写。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，电池上贴有海绵垫防护，主板通过螺丝固定。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "近期，市面上出现了一种融合开放式和半入耳式形态的产品。它采用耳夹式结构确保佩戴稳定，同时采用类似半入耳的音腔设计，可以通过调节与耳廓的贴合紧密度，实现开放式聆听或主动降噪两种体验。此次将要拆解的漫步者LolliClip云感智能耳夹便是这样一款产品，并且它还支持运动健康监测功能，可以记录跑步、健走运动数据，以及进行心率、血氧检测，更好地满足运动场景使用。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在音频体验方面，EDIFIER漫步者LolliClip耳夹式降噪耳机搭载13mm巨能钛动圈单元，支持LHDC5.0高清音频解码，最高可提供192kHz/24bit母带级超清传输，获得了Hi-Res金标认证；支持空间音频，提供身临其境的360°环绕声场；支持自适应主动降噪，能够根据佩戴状态自动匹配降噪系数；支持3+3Mic AI通话降噪，提供清晰地通话效果。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体底部结构一览，还固定有前馈降噪麦克风，印刷LDS镭射天线。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "漫步者LolliClip充电盒采用了鹅卵石状设计，烤漆质感，光滑圆润。机身正面设置有一颗指示灯，用于反馈蓝牙配对及充电状态。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身侧边设置有蓝牙配对功能按键。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体底部设置充电触点。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2700iH",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2700iH",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄科技BES2700iH蓝牙音频SoC，支持蓝牙双模V5.4，用于无线连接和音频数据处理。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 EDIFIER漫步者LolliClip耳夹式降噪耳机在外观设计上别具一格。充电盒采用鹅卵石状设计，经过烤漆工艺处理，体积圆润且小巧便携，质感厚重不显廉价。耳机采用了全新设计，融合了耳夹式和半入耳式耳机的结构，一机提供两种体验。耳夹角度适中，佩戴舒适，采用镍钛合金丝材质，柔韧且不易变形。 内部主要配置方面，充电盒搭载了CEL金赛尔550mAh锂电池，配备电池保护板电路负责过充电、过放电、过电流等保护。主板上，采用了SinhMicro昇生微电子SSP707电源管理芯片，负责内置电池的充放电管理；其他还采用了MCU单片机，用于整机控制；采用霍尔元件，用于开盖即连功能。 耳机内部搭载了13mm镀钛振膜动圈单元，内置三颗MEMS麦克风拾音，其中前馈降噪麦克风和通话麦克风来自敏芯微电子。耳机内置心率/血氧检测传感器和ST意法半导体LSM6DSOWTR 6轴传感器，用于运动健康监测功能。耳机内置MIC-POWER微电新能源49mAh钢壳扣式电池供电。耳机主控芯片为BES恒玄科技BES2700iH蓝牙音频SoC。",
+  "layer_refs": {
+    "technical": [
+      "report:244386",
+      "report:256889"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "在音频体验方面，EDIFIER漫步者LolliClip耳夹式降噪耳机搭载13mm巨能钛动圈单元，支持LHDC5.0高清音频解码，最高可提供192kHz/24bit母带级超清传输，获得了Hi-Res金标认证；支持空间音频，提供身临其境的360°环绕声场；支持自适应主动降噪，能够根据佩戴状态自动匹配降噪系数；支持3+3Mic AI通话降噪，提供清晰地通话效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "在音频体验方面，EDIFIER漫步者LolliClip耳夹式降噪耳机搭载13mm巨能钛动圈单元，支持LHDC5.0高清音频解码，最高可提供192kHz/24bit母带级超清传输，获得了Hi-Res金标认证；支持空间音频，提供身临其境的360°环绕声场；支持自适应主动降噪，能够根据佩戴状态自动匹配降噪系数；支持3+3Mic AI通话降噪，提供清晰地通话效果。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "在音频体验方面，EDIFIER漫步者LolliClip耳夹式降噪耳机搭载13mm巨能钛动圈单元，支持LHDC5.0高清音频解码，最高可提供192kHz/24bit母带级超清传输，获得了Hi-Res金标认证；支持空间音频，提供身临其境的360°环绕声场；支持自适应主动降噪，能够根据佩戴状态自动匹配降噪系数；支持3+3Mic AI通话降噪，提供清晰地通话效果。"
+        }
+      },
+      {
+        "text": "其他方面，漫步者LolliClip还支持智能声道检测，耳机左右对称设计，佩戴不分左右，自动校准声场；支持智能佩戴检测，佩戴自动播放、摘下自动暂停；支持低延迟游戏模式，提供音画同步的流畅体验。",
+        "tag": "游戏低延迟",
+        "evidence": {
+          "value": "其他方面，漫步者LolliClip还支持智能声道检测，耳机左右对称设计，佩戴不分左右，自动校准声场；支持智能佩戴检测，佩戴自动播放、摘下自动暂停；支持低延迟游戏模式，提供音画同步的流畅体验。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "其他方面，漫步者LolliClip还支持智能声道检测，耳机左右对称设计，佩戴不分左右，自动校准声场；支持智能佩戴检测，佩戴自动播放、摘下自动暂停；支持低延迟游戏模式，提供音画同步的流畅体验。"
+        }
+      },
+      {
+        "text": "另外一侧介绍的产品特点：双设备连接、佩戴检测、APP功能拓展、IP56级防尘防水、心率与血氧检测。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "另外一侧介绍的产品特点：双设备连接、佩戴检测、APP功能拓展、IP56级防尘防水、心率与血氧检测。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "另外一侧介绍的产品特点：双设备连接、佩戴检测、APP功能拓展、IP56级防尘防水、心率与血氧检测。"
+        }
+      },
+      {
+        "text": "耳机内部搭载了13mm镀钛振膜动圈单元，内置三颗MEMS麦克风拾音，其中前馈降噪麦克风和通话麦克风来自敏芯微电子。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "耳机内部搭载了13mm镀钛振膜动圈单元，内置三颗MEMS麦克风拾音，其中前馈降噪麦克风和通话麦克风来自敏芯微电子。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "耳机内部搭载了13mm镀钛振膜动圈单元，内置三颗MEMS麦克风拾音，其中前馈降噪麦克风和通话麦克风来自敏芯微电子。"
+        }
+      },
+      {
+        "text": "漫步者LolliClip耳夹式耳机外观一览，采用「专利多曲率空气弧佩戴」设计，具有更优的兼容性。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "漫步者LolliClip耳夹式耳机外观一览，采用「专利多曲率空气弧佩戴」设计，具有更优的兼容性。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "漫步者LolliClip耳夹式耳机外观一览，采用「专利多曲率空气弧佩戴」设计，具有更优的兼容性。"
+        }
+      },
+      {
+        "text": "后端腔体外侧外观一览，设计有“EDIFIER”品牌LOGO，设置有降噪麦克风拾音孔。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "后端腔体外侧外观一览，设计有“EDIFIER”品牌LOGO，设置有降噪麦克风拾音孔。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "后端腔体外侧外观一览，设计有“EDIFIER”品牌LOGO，设置有降噪麦克风拾音孔。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "游戏",
+      "通话",
+      "跑步"
+    ],
+    "positioning_summary": "在音频体验方面，EDIFIER漫步者LolliClip耳夹式降噪耳机搭载13mm巨能钛动圈单元，支持LHDC5.0高清音频解码，最高可提供192kHz/24bit母带级超清传输，获得了Hi-Res金标认证；支持空间音频，提供身临其境的360°环绕声场；支持自适应主动降噪，能够根据佩戴状态自动匹配降噪系数；支持3+3Mic AI通话降噪，提供清晰地通话效果。",
+    "launch_date": null,
+    "best_report_id": "244386",
+    "best_video_id": null
+  }
+}

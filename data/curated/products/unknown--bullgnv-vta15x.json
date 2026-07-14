@@ -19,18 +19,18 @@
   "latest_published": "2026-07-08",
   "internal_match_suggestions": [],
   "cost_snapshot": {
-    "main_chip": "思远半导体SY8821",
+    "main_chip": "AB5636",
     "pmic_case": "",
-    "battery_ear": "30 mAh",
-    "battery_case": "3V/60mAh锂电池",
-    "speaker": "动圈单元",
+    "battery_ear": "电池",
+    "battery_case": "30 mAh",
+    "speaker": "喇叭单元",
     "materials": "",
-    "weight_g": "34.5g",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
     "bluetooth": "5.3",
-    "bom_row_count": 16,
+    "bom_row_count": 11,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -41,101 +41,17 @@
   },
   "bom_table": [
     {
-      "component": "芯片/模组",
-      "brand": "思远半导体",
-      "model": "思远半导体SY8821",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "思远半导体SY8821",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "充电盒采用Type-C接口输入电源，内置亿等新能源360mAh锂电池，采用了思远半导体SY8821电源管理SoC，单芯片负责电池的充放电管理，充电电流外部可以调节，放电模块集成两路输出限流开关，并集成NTC保护功能，更安全的对电池进行充放电。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "AB5636",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "AB5636",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "主板上，采用了Bluetrum中科蓝讯AB5636A蓝牙音频SoC，内置带DSP指令的32位高性能RISC-V处理器，支持蓝牙5.3和BLE规范，支持1路MIC放大器输入，支持灵活的音频均衡器调整，集成PMU；"
-      }
-    },
-    {
       "component": "电池",
       "brand": "",
-      "model": "3V/60mAh锂电池",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "3V/60mAh锂电池",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "充电盒采用Type-C接口输入电源，内置亿等新能源360mAh锂电池，采用了思远半导体SY8821电源管理SoC，单芯片负责电池的充放电管理，充电电流外部可以调节，放电模块集成两路输出限流开关，并集成NTC保护功能，更安全的对电池进行充放电。"
-      }
-    },
-    {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "动圈单元",
-      "qty_hint": "1",
+      "model": "",
+      "qty_hint": "",
       "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "动圈单元",
-        "confidence": 0.8,
-        "source_type": "summary_prose",
-        "source_text": "耳机头内部搭载13mm大动圈单元，亿等新能源30mAh锂电池，分别通过导线连接到耳机柄内主板。"
-      }
-    },
-    {
-      "component": "麦克风",
-      "brand": "",
-      "model": "MEMS麦克风",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "MEMS麦克风",
-        "confidence": 0.78,
-        "source_type": "summary_prose",
-        "source_text": "搭载一颗MEMS麦克风用于语音通话拾音。"
-      }
-    },
-    {
-      "component": "充电仓",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "充电仓",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "包装盒背面介绍有产品特点：蓝牙5.3协议 稳如有线，13mm大动圈 声如天籁，指尖触控 随心切歌，智能降噪 品质通话；技术参数，产品型号：GNV-VTA15X，蓝牙版本：5.3，蓝牙有效距离：≤10m，充电盒输入：5V-350mA，频响范围：20Hz~20kHz，喇叭阻抗：16Ω±15%，喇叭单元：13mm，耳机电池：30mAh，充电盒电池：360mAh，颜色：远山蓝。"
-      }
-    },
-    {
-      "component": "电池",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
       "role": "major",
       "evidence": {
         "value": "电池",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "包装盒背面介绍有产品特点：蓝牙5.3协议 稳如有线，13mm大动圈 声如天籁，指尖触控 随心切歌，智能降噪 品质通话；技术参数，产品型号：GNV-VTA15X，蓝牙版本：5.3，蓝牙有效距离：≤10m，充电盒输入：5V-350mA，频响范围：20Hz~20kHz，喇叭阻抗：16Ω±15%，喇叭单元：13mm，耳机电池：30mAh，充电盒电池：360mAh，颜色：远山蓝。"
+        "source_text": "耳机头内部搭载13mm大动圈单元，亿等新能源30mAh锂电池，分别通过导线连接到耳机柄内主板。"
       }
     },
     {
@@ -143,13 +59,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
+      "side": "耳机",
       "role": "major",
       "evidence": {
         "value": "主板/PCBA",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "座舱底部结构一览，通过螺丝固定主板单元。"
+        "source_text": "耳机头内部搭载13mm大动圈单元，亿等新能源30mAh锂电池，分别通过导线连接到耳机柄内主板。"
       }
     },
     {
@@ -163,7 +79,21 @@
         "value": "喇叭单元",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "此次将要拆解的BULL公牛GNV-VTA15X真无线耳机是天籁系列的一款半入耳式产品，拥有着轻巧便携的外观设计和舒适的佩戴体验。功能配置上，搭载13mm大动圈单元，支持蓝牙5.3，支持智能降噪，提供稳定连接和品质通话；采用触摸控制，实现便捷操控体验。"
+        "source_text": "耳机头内部搭载13mm大动圈单元，亿等新能源30mAh锂电池，分别通过导线连接到耳机柄内主板。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电接口：充电盒底部设置Type-C充电接口。"
       }
     },
     {
@@ -199,27 +129,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "minor",
       "evidence": {
         "value": "外壳结构",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机内侧外观一览，前腔外壳采用了光滑的质感，佩戴更加舒适亲肤。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "公牛GNV-VTA15X真无线耳机充电盒采用哑光质感，体积小巧圆润，远山蓝配色淡雅清新，正面设计有“BULL”品牌LOGO，以及一颗指示灯。"
+        "source_text": "前腔内部结构一览，调音孔内侧细密防尘网防护。"
       }
     },
     {
@@ -233,7 +149,7 @@
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "包装盒背面介绍有产品特点：蓝牙5.3协议 稳如有线，13mm大动圈 声如天籁，指尖触控 随心切歌，智能降噪 品质通话；技术参数，产品型号：GNV-VTA15X，蓝牙版本：5.3，蓝牙有效距离：≤10m，充电盒输入：5V-350mA，频响范围：20Hz~20kHz，喇叭阻抗：16Ω±15%，喇叭单元：13mm，耳机电池：30mAh，充电盒电池：360mAh，颜色：远山蓝。"
+        "source_text": "标记/认证：包装盒背面介绍有产品特点：蓝牙5.3协议 稳如有线，13mm大动圈 声如天籁，指尖触控 随心切歌，智能降噪 品质通话；技术参数，产品型号：GNV-VTA15X，蓝牙版本：5.3，蓝牙有效距离：≤10m，充电盒输入：5V-350mA，频响范围：20Hz~20kHz，喇叭阻抗：16Ω±15%，喇叭单元：13mm，耳机电池：30mAh，充电盒电池：360mAh，颜色：远山蓝。"
       }
     },
     {
@@ -241,13 +157,13 @@
       "brand": "",
       "model": "思远半导体SY8821",
       "qty_hint": "1",
-      "side": "",
+      "side": "充电盒",
       "role": "主控/蓝牙",
       "evidence": {
         "value": "思远半导体SY8821",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "思远半导体SY8821电源管理SoC，内部集成充电模块和放电模块。"
+        "source_text": "充电接口：内部主要配置方面，充电盒采用Type-C接口输入电源，内置亿等新能源360mAh锂电池，采用了思远半导体SY8821电源管理SoC，单芯片负责电池的充放电管理，充电电流外部可以调节，放电模块集成两路输出限流开关，并集成NTC保护功能，更安全的对电池进行充放电。"
       }
     },
     {
@@ -261,12 +177,26 @@
         "value": "AB5636",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "Bluetrum中科蓝讯AB5636A蓝牙音频SoC，内置32位高性能RISC-V处理器，支持DSP指令，运行频率最高125MHz；符合蓝牙5.3和BLE规范，最大发射输出功率+9dBm，接受灵敏度-94dBm，支持具有平衡效率的TWS通信功耗，支持TWS主从交换机。"
+        "source_text": "电池容量：30\n芯片 思远半导体SY8821\n芯片 AB5636"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8821",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8821",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：30\n芯片 思远半导体SY8821\n芯片 AB5636"
       }
     }
   ],
   "summary_image_urls": [],
-  "summary_text": "三、我爱音频网总结 BULL公牛GNV-VTA15X真无线耳机在外观设计方面，充电盒体积小巧圆润，便于携带；耳机机身线条流畅简约，重量仅为3.4g，搭配半入耳的佩戴方式，提供舒适无感的佩戴体验。整机采用的远山蓝配色，观感清新淡雅，佩戴时尚。 内部主要配置方面，充电盒采用Type-C接口输入电源，内置亿等新能源360mAh锂电池，采用了思远半导体SY8821电源管理SoC，单芯片负责电池的充放电管理，充电电流外部可以调节，放电模块集成两路输出限流开关，并集成NTC保护功能，更安全的对电池进行充放电。 耳机头内部搭载13mm大动圈单元，亿等新能源30mAh锂电池，分别通过导线连接到耳机柄内主板。主板上，采用了Bluetrum中科蓝讯AB5636A蓝牙音频SoC，内置带DSP指令的32位高性能RISC-V处理器，支持蓝牙5.3和BLE规范，支持1路MIC放大器输入，支持灵活的音频均衡器调整，集成PMU；搭载一颗MEMS麦克风用于语音通话拾音。",
+  "summary_text": "",
   "layer_refs": {
     "technical": [
       "report:157277",
@@ -281,13 +211,13 @@
   "market": {
     "selling_points": [
       {
-        "text": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nOPPO、vivo、realme、一加、漫步者、QCY、倍思、猛玛、声阔、JBL、飞利浦、Jabra、Nothing、Marshall、DENON\n，\n小米、万魔、233621、传音、魔宴、创新科技、魅族、百度、网易、哈曼、联想\n等国内外知名品牌采用。",
+        "text": "BULL公牛是大家比较熟悉的安全用电品牌，专注于民用电工产品的研发、生产和销售，旗下产品包括了安全插座、安全开 […]\n据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nOPPO、vivo、realme、一加、漫步者、QCY、倍思、猛玛、声阔、JBL、飞利浦、Jabra、Nothing、Marshall、DENON\n，\n小米、万魔、233621、传音、魔宴、创新科技、魅族、百度、网易、哈曼、联想\n等国内外知名品牌采用。",
         "tag": "其他",
         "evidence": {
-          "value": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nOPPO、vivo、realme、一加、漫步者、QCY、倍思、猛玛、声阔、JBL、飞利浦、Jabra、Nothing、Marshall、DENON\n，\n小米、万魔、233621、传音、魔宴、创新科技、魅族、百度、网易、哈曼、联想\n等国内外知名品牌采用。",
+          "value": "BULL公牛是大家比较熟悉的安全用电品牌，专注于民用电工产品的研发、生产和销售，旗下产品包括了安全插座、安全开 […]\n据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nOPPO、vivo、realme、一加、漫步者、QCY、倍思、猛玛、声阔、JBL、飞利浦、Jabra、Nothing、Marshall、DENON\n，\n小米、万魔、233621、传音、魔宴、创新科技、魅族、百度、网易、哈曼、联想\n等国内外知名品牌采用。",
           "confidence": 0.75,
           "source_type": "text",
-          "source_text": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nOPPO、vivo、realme、一加、漫步者、QCY、倍思、猛玛、声阔、JBL、飞利浦、Jabra、Nothing、Marshall、DENON\n，\n小米、万魔、233621、传音、魔宴、创新科技、魅族、百度、网易、哈曼、联想\n等国内外知名品牌采用。"
+          "source_text": "BULL公牛是大家比较熟悉的安全用电品牌，专注于民用电工产品的研发、生产和销售，旗下产品包括了安全插座、安全开 […]\n据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nOPPO、vivo、realme、一加、漫步者、QCY、倍思、猛玛、声阔、JBL、飞利浦、Jabra、Nothing、Marshall、DENON\n，\n小米、万魔、233621、传音、魔宴、创新科技、魅族、百度、网易、哈曼、联想\n等国内外知名品牌采用。"
         }
       },
       {
@@ -319,13 +249,32 @@
           "source_type": "text",
           "source_text": "椭圆形耳机出音嘴特写，金属防尘网防护。"
         }
+      },
+      {
+        "text": "标记/认证：耳机内置软包锂电池型号：YD401012，标称电压：3.7V，额定容量：30mAh 0.111Wh，同样来自YD亿等新能源。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：耳机内置软包锂电池型号：YD401012，标称电压：3.7V，额定容量：30mAh 0.111Wh，同样来自YD亿等新能源。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "标记/认证：耳机内置软包锂电池型号：YD401012，标称电压：3.7V，额定容量：30mAh 0.111Wh，同样来自YD亿等新能源。"
+        }
+      },
+      {
+        "text": "标记/认证：充电盒内置锂电池型号：901430，标称电压：3.7V，充电限制电压：4.2V，额定容量：360mAh 1.332Wh，来自湖南亿等新能源有限公司。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：充电盒内置锂电池型号：901430，标称电压：3.7V，充电限制电压：4.2V，额定容量：360mAh 1.332Wh，来自湖南亿等新能源有限公司。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "标记/认证：充电盒内置锂电池型号：901430，标称电压：3.7V，充电限制电压：4.2V，额定容量：360mAh 1.332Wh，来自湖南亿等新能源有限公司。"
+        }
       }
     ],
     "scenarios": [
-      "通话",
-      "户外"
+      "通话"
     ],
-    "positioning_summary": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nOPPO、vivo、realme、一加、漫步者、QCY、倍思、猛玛、声阔、JBL、飞利浦、Jabra、Nothing、Marshall、DENON\n，\n小米、万魔、233621、传音、魔宴、创新科技、魅族、百度、网易、哈曼、联想\n等国内外知名品牌采用。",
+    "positioning_summary": "BULL公牛是大家比较熟悉的安全用电品牌，专注于民用电工产品的研发、生产和销售，旗下产品包括了安全插座、安全开 […]\n据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nOPPO、vivo、realme、一加、漫步者、QCY、倍思、猛玛、声阔、JBL、飞利浦、Jabra、Nothing、Marshall、DENON\n，\n小米、万魔、233621、传音、魔宴、创新科技、魅族、百度、网易、哈曼、联想\n等国内外知名品牌采用。",
     "launch_date": null,
     "best_report_id": "157277",
     "best_video_id": null

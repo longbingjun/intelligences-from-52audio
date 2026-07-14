@@ -18,20 +18,20 @@
     "main_chip": "恒玄BES2300ZP",
     "pmic_case": "",
     "battery_ear": "电池",
-    "battery_case": "900 mAh",
+    "battery_case": "",
     "speaker": "喇叭单元",
-    "materials": "PC、皮革",
+    "materials": "PC",
     "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
     "bluetooth": "5.0",
-    "bom_row_count": 13,
+    "bom_row_count": 8,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
     "sales_hint": null,
-    "data_completeness": 0.83,
+    "data_completeness": 0.67,
     "best_report_id": "76606",
     "best_video_id": null
   },
@@ -41,27 +41,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "包装盒背面以模特佩戴耳机场景图为背景，图文展示有主动降噪、麦克风和控件、27小时播放时间、扁平折叠四项产品功能特点，以及官方APP下载指引，Hi-Res高解析音频认证标志和介绍。"
-      }
-    },
-    {
-      "component": "主板/PCBA",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "右耳",
-      "role": "major",
-      "evidence": {
-        "value": "主板/PCBA",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "打开右耳腔体，扬声器导线过孔与主板连接，胶水密封。"
+        "source_text": "降噪麦克风开孔特写，内部防尘网防护，防止异物进入腔体。"
       }
     },
     {
@@ -79,6 +65,34 @@
       }
     },
     {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "右耳",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "打开右耳腔体，扬声器导线过孔与主板连接，胶水密封。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "右耳",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "右耳腔体内部结构一览，主板适应扬声器单元音腔结构，采用了不规则的月牙形主板，背板内侧覆盖有PCB触控板。"
+      }
+    },
+    {
       "component": "电池",
       "brand": "",
       "model": "",
@@ -90,34 +104,6 @@
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "卸掉螺丝打开左耳腔体，腔体内部为电池单元。"
-      }
-    },
-    {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "喇叭单元",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "经我爱音频网实测，扬声器单元尺寸约为40mm，与官方宣传一致。"
-      }
-    },
-    {
-      "component": "充电仓",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "充电仓",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "据我爱音频网拆解了解到，据我爱音频网拆解了解到，已有漫步者、JLab、小米、摩托罗拉、OPPO、QCY、联想、荣耀亲选声氏Earbuds等知名品牌的TWS耳机充电盒都大量采用了微源的电源方案。"
       }
     },
     {
@@ -139,27 +125,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "右耳",
       "role": "minor",
       "evidence": {
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "随着降噪耳机的火爆，飞利浦也连续推出了多款搭载主动降噪功能的产品，此次我爱音频网将要拆解的便是其中的一款PHILIPS TAH9505。这款产品搭载了混合主动降噪技术，支持主动降噪功能，拥有环境声模式；采用40mm驱动单元，蓝牙5.0技术，获得了Hi-Res高解析音频认证；物理按键+触控的操作模式，提升交互便捷性；续航方面达到了27个小时。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机状态指示灯特写。"
+        "source_text": "右耳腔体内部结构一览，主板适应扬声器单元音腔结构，采用了不规则的月牙形主板，背板内侧覆盖有PCB触控板。"
       }
     },
     {
@@ -173,49 +145,7 @@
         "value": "恒玄BES2300ZP",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "BES恒玄BES2300ZP主控芯片，全集成自适应主动降噪方案，支持蓝牙 5.0、IBRT低频转发技术和双模蓝牙 4.2，它还支持第三代 FWS 全无线立体声技术、双麦克风等，采用 28nm HKMG CMOS工艺、BGA 封装。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "BES2300",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "BES2300",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "BES2300支持高性能的自适应主动降噪技术，可以让高端主动降噪耳机使用一颗全集成芯片实现高音质和主动降噪。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "BES2300",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "BES2300",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "此外BES2300还支持外接心率传感器、加速度传感器等外接传感器设备和 eMMC 闪存，可以达到外接存储设备播放音乐的目的。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "恒玄BES2300ZP",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "恒玄BES2300ZP",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "主板上，主控芯片采用了恒玄BES2300ZP蓝牙音频SOC，全集成自适应主动降噪方案，支持蓝牙 5.0，支持第三代 FWS 全无线立体声技术、双麦克风等；雅马哈YMU831数字降噪IC，内置DSP数字信号处理技术，\n具备通话双麦降噪，耳机主动降噪功能。"
+        "source_text": "电池容量：900\n芯片 恒玄BES2300ZP\n芯片 BES2300"
       }
     }
   ],
@@ -234,60 +164,50 @@
   "market": {
     "selling_points": [
       {
-        "text": "中间大面积展示了产品外观，底部有腾讯小微、\nHi-Res高\n解析\n音频认证标志、蓝牙标志。",
-        "tag": "音质认证",
-        "evidence": {
-          "value": "中间大面积展示了产品外观，底部有腾讯小微、\nHi-Res高\n解析\n音频认证标志、蓝牙标志。",
-          "confidence": 0.74,
-          "source_type": "text",
-          "source_text": "中间大面积展示了产品外观，底部有腾讯小微、\nHi-Res高\n解析\n音频认证标志、蓝牙标志。"
-        }
-      },
-      {
-        "text": "降噪麦克风开孔特写，内部防尘网防护，防止异物进入腔体。",
+        "text": "标记/认证：三、我爱音频网总结\n飞利浦PHILIPS TAH9505头戴式降噪耳机在外观上头梁与耳壳采用了圆环的衔接结构，耳壳、耳罩同样为圆形设计，搭配一体化设计的头梁，整体观感非常的简洁时尚，并且具有很强的一体性。",
         "tag": "降噪",
         "evidence": {
-          "value": "降噪麦克风开孔特写，内部防尘网防护，防止异物进入腔体。",
-          "confidence": 0.57,
-          "source_type": "text",
-          "source_text": "降噪麦克风开孔特写，内部防尘网防护，防止异物进入腔体。"
-        }
-      },
-      {
-        "text": "降噪麦克风正面特写，有防尘棉覆盖。",
-        "tag": "降噪",
-        "evidence": {
-          "value": "降噪麦克风正面特写，有防尘棉覆盖。",
-          "confidence": 0.56,
-          "source_type": "text",
-          "source_text": "降噪麦克风正面特写，有防尘棉覆盖。"
-        }
-      },
-      {
-        "text": "降噪麦克风单元另外一侧防尘网覆盖。",
-        "tag": "降噪",
-        "evidence": {
-          "value": "降噪麦克风单元另外一侧防尘网覆盖。",
-          "confidence": 0.55,
-          "source_type": "text",
-          "source_text": "降噪麦克风单元另外一侧防尘网覆盖。"
-        }
-      },
-      {
-        "text": "三、我爱音频网总结\n飞利浦PHILIPS TAH9505头戴式降噪耳机在外观上头梁与耳壳采用了圆环的衔接结构，耳壳、耳罩同样为圆形设计，搭配一体化设计的头梁，整体观感非常的简洁时尚，并且具有很强的一体性。",
-        "tag": "降噪",
-        "evidence": {
-          "value": "三、我爱音频网总结\n飞利浦PHILIPS TAH9505头戴式降噪耳机在外观上头梁与耳壳采用了圆环的衔接结构，耳壳、耳罩同样为圆形设计，搭配一体化设计的头梁，整体观感非常的简洁时尚，并且具有很强的一体性。",
+          "value": "标记/认证：三、我爱音频网总结\n飞利浦PHILIPS TAH9505头戴式降噪耳机在外观上头梁与耳壳采用了圆环的衔接结构，耳壳、耳罩同样为圆形设计，搭配一体化设计的头梁，整体观感非常的简洁时尚，并且具有很强的一体性。",
           "confidence": 0.75,
           "source_type": "text",
-          "source_text": "三、我爱音频网总结\n飞利浦PHILIPS TAH9505头戴式降噪耳机在外观上头梁与耳壳采用了圆环的衔接结构，耳壳、耳罩同样为圆形设计，搭配一体化设计的头梁，整体观感非常的简洁时尚，并且具有很强的一体性。"
+          "source_text": "标记/认证：三、我爱音频网总结\n飞利浦PHILIPS TAH9505头戴式降噪耳机在外观上头梁与耳壳采用了圆环的衔接结构，耳壳、耳罩同样为圆形设计，搭配一体化设计的头梁，整体观感非常的简洁时尚，并且具有很强的一体性。"
+        }
+      },
+      {
+        "text": "标记/认证：中间大面积展示了产品外观，底部有腾讯小微、\nHi-Res高\n解析\n音频认证标志、蓝牙标志。",
+        "tag": "音质认证",
+        "evidence": {
+          "value": "标记/认证：中间大面积展示了产品外观，底部有腾讯小微、\nHi-Res高\n解析\n音频认证标志、蓝牙标志。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "标记/认证：中间大面积展示了产品外观，底部有腾讯小微、\nHi-Res高\n解析\n音频认证标志、蓝牙标志。"
+        }
+      },
+      {
+        "text": "蓝牙类耳机涵盖TWS真无 […]\n中间大面积展示了产品外观，底部有腾讯小微、\nHi-Res高\n解析\n音频认证标志、蓝牙标志。",
+        "tag": "音质认证",
+        "evidence": {
+          "value": "蓝牙类耳机涵盖TWS真无 […]\n中间大面积展示了产品外观，底部有腾讯小微、\nHi-Res高\n解析\n音频认证标志、蓝牙标志。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "蓝牙类耳机涵盖TWS真无 […]\n中间大面积展示了产品外观，底部有腾讯小微、\nHi-Res高\n解析\n音频认证标志、蓝牙标志。"
+        }
+      },
+      {
+        "text": "标记/认证：fortemedia\nFL123CE\n，麦克风ADC转换芯片，支持模拟麦克风阵列，将模拟声音信号转换成数字信号送至YMU831进行降噪处理\n。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "标记/认证：fortemedia\nFL123CE\n，麦克风ADC转换芯片，支持模拟麦克风阵列，将模拟声音信号转换成数字信号送至YMU831进行降噪处理\n。",
+          "confidence": 0.66,
+          "source_type": "text",
+          "source_text": "标记/认证：fortemedia\nFL123CE\n，麦克风ADC转换芯片，支持模拟麦克风阵列，将模拟声音信号转换成数字信号送至YMU831进行降噪处理\n。"
         }
       }
     ],
     "scenarios": [
       "通话"
     ],
-    "positioning_summary": "中间大面积展示了产品外观，底部有腾讯小微、\nHi-Res高\n解析\n音频认证标志、蓝牙标志。",
+    "positioning_summary": "标记/认证：三、我爱音频网总结\n飞利浦PHILIPS TAH9505头戴式降噪耳机在外观上头梁与耳壳采用了圆环的衔接结构，耳壳、耳罩同样为圆形设计，搭配一体化设计的头梁，整体观感非常的简洁时尚，并且具有很强的一体性。",
     "launch_date": null,
     "best_report_id": "76606",
     "best_video_id": null

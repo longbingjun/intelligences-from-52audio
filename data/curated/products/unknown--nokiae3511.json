@@ -19,19 +19,19 @@
     "pmic_case": "",
     "battery_ear": "350 mAh",
     "battery_case": "电池",
-    "speaker": "喇叭单元",
-    "materials": "硅胶",
-    "weight_g": "51.0g",
+    "speaker": "",
+    "materials": "",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
     "bluetooth": "5.2",
-    "bom_row_count": 15,
+    "bom_row_count": 11,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
     "sales_hint": null,
-    "data_completeness": 0.83,
+    "data_completeness": 0.67,
     "best_report_id": "95949",
     "best_video_id": null
   },
@@ -41,13 +41,27 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "充电盒",
       "role": "major",
       "evidence": {
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "NOKIA诺基亚E3511是其旗下的一款TWS降噪耳机产品，外观上充电盒采用了金属外壳，通过激光镭雕工艺处理，搭配北欧风配色，打造了非常出众的金属质感。耳机采用了柄状的入耳式设计，外观独特体积小巧。搭载蓝牙5,2芯片，支持ANC主动降噪、通透模式，支持自动切换通话EQ提供更清晰的通话效果，拥有25小时的整体续航。"
+        "source_text": "内部结构配置方面，充电盒采用了Type-C接口输入电源，内置金赛尔350mAh锂离子电池，由内置线性充电单元的昇生微SS809单片机为其充电，还支持充电盒跟耳机的双向通信功能；集成的MCU微处理器和嵌入式闪存，可以更容易地升级其固件，便于工程师加入个性化的定制功能。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "内部结构配置方面，充电盒采用了Type-C接口输入电源，内置金赛尔350mAh锂离子电池，由内置线性充电单元的昇生微SS809单片机为其充电，还支持充电盒跟耳机的双向通信功能；集成的MCU微处理器和嵌入式闪存，可以更容易地升级其固件，便于工程师加入个性化的定制功能。"
       }
     },
     {
@@ -65,31 +79,17 @@
       }
     },
     {
-      "component": "电池",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "电池",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒内主要组件一览，包括主板和电池单元。"
-      }
-    },
-    {
       "component": "降噪系统",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "降噪系统",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "NOKIA诺基亚E3511是其旗下的一款TWS降噪耳机产品，外观上充电盒采用了金属外壳，通过激光镭雕工艺处理，搭配北欧风配色，打造了非常出众的金属质感。耳机采用了柄状的入耳式设计，外观独特体积小巧。搭载蓝牙5,2芯片，支持ANC主动降噪、通透模式，支持自动切换通话EQ提供更清晰的通话效果，拥有25小时的整体续航。"
+        "source_text": "另外一侧详细介绍了产品的特点，高质感金属材质、一键主动降噪，沉浸式享受音乐。"
       }
     },
     {
@@ -121,20 +121,6 @@
       }
     },
     {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "喇叭单元",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机部分采用了10mm动圈单元，45mAh锂离子软包电池，分别通过导线连接到主板。主板上，主控芯片为恒玄BES2500系列蓝牙音频SoC，支持蓝牙5.2，拥有超低底噪，512K SRAM, 2M/4M FLASH；单颗MEMS麦克风，用于语音通话和主动降噪拾音。"
-      }
-    },
-    {
       "component": "外壳结构",
       "brand": "",
       "model": "",
@@ -145,21 +131,7 @@
         "value": "外壳结构",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "NOKIA诺基亚E3511是其旗下的一款TWS降噪耳机产品，外观上充电盒采用了金属外壳，通过激光镭雕工艺处理，搭配北欧风配色，打造了非常出众的金属质感。耳机采用了柄状的入耳式设计，外观独特体积小巧。搭载蓝牙5,2芯片，支持ANC主动降噪、通透模式，支持自动切换通话EQ提供更清晰的通话效果，拥有25小时的整体续航。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "包装盒一侧图文展是由25h续航、蓝牙5.2、触控操作、IP44防尘防水、ANC/通透模式。"
+        "source_text": "NOKIA诺基亚E3511是其旗下的一款TWS降噪耳机产品，外观上充电盒采用了金属外壳，通过激光镭雕工艺处理，搭配北欧风配色，打造了非常出众的金属质感。"
       }
     },
     {
@@ -173,35 +145,21 @@
         "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "Type-C接口位于充电盒正面，设置有一颗指示灯。开盖处设置有凸起结构，便于开启。"
+        "source_text": "充电接口：Type-C接口位于充电盒正面，设置有一颗指示灯。"
       }
     },
     {
-      "component": "充电触点",
+      "component": "触控/按键",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "minor",
       "evidence": {
-        "value": "充电触点",
+        "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "为耳机充电的Pogo Pin连接器。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "SS881",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "SS881",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "针对TWS产品的智能化趋势，SS881X系列已经与各大主流耳机平台实现双向通信功能，产品可以快速迭代。"
+        "source_text": "标记/认证：包装盒一侧图文展是由25h续航、蓝牙5.2、触控操作、IP44防尘防水、ANC/通透模式。"
       }
     },
     {
@@ -215,35 +173,21 @@
         "value": "恒玄\nBES2500",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "BES恒玄\nBES2500\n系列蓝牙音频SoC，是恒玄新一代蓝牙音频SoC，均支持蓝牙5.2，不同后缀配置和功能不相同。"
+        "source_text": "电池容量：350\n芯片 恒玄\nBES2500\n芯片 恒玄BES2500IUC\n芯片 SS881"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "恒玄BES2500IUC",
+      "model": "SS881",
       "qty_hint": "1",
       "side": "",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "恒玄BES2500IUC",
+        "value": "SS881",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "恒玄BES2500IUC/IU/\nIZ\n系列，支持蓝牙5.2，超低底噪，512K SRAM, 2M/4M FLASH，为高性价比方案。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "BES2500",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "BES2500",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "据我爱音频网拆解了解到，目前\n荣耀、OPPO等品牌旗下多款产品已采用了BES2500系列\n，\n三星、小米、OPPO、JBL、万魔、荣耀、百度、一加、传音等品牌\n的真无线耳机大量采用了恒玄的方案。"
+        "source_text": "电池容量：350\n芯片 恒玄\nBES2500\n芯片 恒玄BES2500IUC\n芯片 SS881"
       }
     }
   ],
@@ -262,13 +206,13 @@
   "market": {
     "selling_points": [
       {
-        "text": "另外一侧详细介绍了产品的特点，高质感金属材质、一键主动降噪，沉浸式享受音乐。",
+        "text": "随着 […]\n另外一侧详细介绍了产品的特点，高质感金属材质、一键主动降噪，沉浸式享受音乐。",
         "tag": "降噪",
         "evidence": {
-          "value": "另外一侧详细介绍了产品的特点，高质感金属材质、一键主动降噪，沉浸式享受音乐。",
+          "value": "随着 […]\n另外一侧详细介绍了产品的特点，高质感金属材质、一键主动降噪，沉浸式享受音乐。",
           "confidence": 0.75,
           "source_type": "text",
-          "source_text": "另外一侧详细介绍了产品的特点，高质感金属材质、一键主动降噪，沉浸式享受音乐。"
+          "source_text": "随着 […]\n另外一侧详细介绍了产品的特点，高质感金属材质、一键主动降噪，沉浸式享受音乐。"
         }
       },
       {
@@ -279,6 +223,16 @@
           "confidence": 0.74,
           "source_type": "text",
           "source_text": "内部结构配置方面，充电盒采用了Type-C接口输入电源，内置金赛尔350mAh锂离子电池，由内置线性充电单元的昇生微SS809单片机为其充电，还支持充电盒跟耳机的双向通信功能；集成的MCU微处理器和嵌入式闪存，可以更容易地升级其固件，便于工程师加入个性化的定制功能。"
+        }
+      },
+      {
+        "text": "充电接口：内部结构配置方面，充电盒采用了Type-C接口输入电源，内置金赛尔350mAh锂离子电池，由内置线性充电单元的昇生微SS809单片机为其充电，还支持充电盒跟耳机的双向通信功能；集成的MCU微处理器和嵌入式闪存，可以更容易地升级其固件，便于工程师加入个性化的定制功能。",
+        "tag": "其他",
+        "evidence": {
+          "value": "充电接口：内部结构配置方面，充电盒采用了Type-C接口输入电源，内置金赛尔350mAh锂离子电池，由内置线性充电单元的昇生微SS809单片机为其充电，还支持充电盒跟耳机的双向通信功能；集成的MCU微处理器和嵌入式闪存，可以更容易地升级其固件，便于工程师加入个性化的定制功能。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "充电接口：内部结构配置方面，充电盒采用了Type-C接口输入电源，内置金赛尔350mAh锂离子电池，由内置线性充电单元的昇生微SS809单片机为其充电，还支持充电盒跟耳机的双向通信功能；集成的MCU微处理器和嵌入式闪存，可以更容易地升级其固件，便于工程师加入个性化的定制功能。"
         }
       },
       {
@@ -310,22 +264,12 @@
           "source_type": "text",
           "source_text": "NOKIA诺基亚E3511是其旗下的一款TWS降噪耳机产品，外观上充电盒采用了金属外壳，通过激光镭雕工艺处理，搭配北欧风配色，打造了非常出众的金属质感。"
         }
-      },
-      {
-        "text": "三、我爱音频网总结\nNOKIA诺基亚E3511真无线降噪耳机在外观设计上，充电盒金属机身，以及喷砂、阳极上色、镭雕等不同工艺处理，为其带来了独具特色的质感表现。",
-        "tag": "降噪",
-        "evidence": {
-          "value": "三、我爱音频网总结\nNOKIA诺基亚E3511真无线降噪耳机在外观设计上，充电盒金属机身，以及喷砂、阳极上色、镭雕等不同工艺处理，为其带来了独具特色的质感表现。",
-          "confidence": 0.74,
-          "source_type": "text",
-          "source_text": "三、我爱音频网总结\nNOKIA诺基亚E3511真无线降噪耳机在外观设计上，充电盒金属机身，以及喷砂、阳极上色、镭雕等不同工艺处理，为其带来了独具特色的质感表现。"
-        }
       }
     ],
     "scenarios": [
       "通话"
     ],
-    "positioning_summary": "另外一侧详细介绍了产品的特点，高质感金属材质、一键主动降噪，沉浸式享受音乐。",
+    "positioning_summary": "随着 […]\n另外一侧详细介绍了产品的特点，高质感金属材质、一键主动降噪，沉浸式享受音乐。",
     "launch_date": null,
     "best_report_id": "95949",
     "best_video_id": null

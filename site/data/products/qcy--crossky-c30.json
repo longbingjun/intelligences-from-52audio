@@ -1,0 +1,368 @@
+{
+  "canonical_id": "qcy--crossky-c30",
+  "brand": "QCY意象",
+  "model": "Crossky C30",
+  "category": "开放式耳机",
+  "report_ids": [
+    "221350"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "221350"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2024-12-06",
+  "latest_published": "2024-12-06",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "Bluetrum中科蓝讯BT8932D",
+    "pmic_case": "CM1125",
+    "battery_ear": "电池",
+    "battery_case": "4V/00mAh锂电池",
+    "speaker": "喇叭单元",
+    "materials": "硅胶、钛合金",
+    "weight_g": "42.2g",
+    "weight_case_g": "",
+    "weight_earbud_g": "5.2g",
+    "ip_rating": "",
+    "bluetooth": "5.4",
+    "bom_row_count": 18,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "221350",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1125",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "CM1125",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载了400mAh锂电池，采用了iCM创芯微CM1125-BAC锂电池保护IC负责电池的过充电、过放电、过电流等保护。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "4V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "4V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载了400mAh锂电池，采用了iCM创芯微CM1125-BAC锂电池保护IC负责电池的过充电、过放电、过电流等保护。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "Bluetrum中科蓝讯",
+      "model": "Bluetrum中科蓝讯BT8932D",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Bluetrum中科蓝讯BT8932D",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片为Bluetrum中科蓝讯BT8932D蓝牙音频SoC；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了10.8mm动圈喇叭，单耳采用一颗MEMS麦克风拾音；"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱内部结构一览，电池固定在主板上，设置有海绵垫防护。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱内部结构一览，电池固定在主板上，设置有海绵垫防护。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "QCY意象Crossky C30开放式耳机充电盒采用了椭圆形设计，磨砂质感，体积轻巧便携。花语紫配色为饱和度较低的紫灰色，非常的淡雅。机身正面设计有品牌LOGO和一颗指示灯。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机后端腔体结构一览，外侧同样采用了紫色亮面盖板，设置有麦克风拾音孔。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网此前还拆解过QCY Crossky Link开放式运动耳机，QCY T13 ANC、QCY Melobuds ANC真无线降噪耳机、​QCY G1电竞游戏耳机、QCY T11圈铁蓝牙耳机、QCY T10双动铁蓝牙耳机，QCY AilyBuds Lite、​QCY FairyBuds、QCY AilyPods、QCY T18 MeloBuds、QCY T17、QCY T13真无线耳机，QCY H3 Pro头戴式耳机等产品。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "进入耳机拆解，取掉音腔盖板，腔体内部仅设置有扬声器单元。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "陶瓷蓝牙天线特写，用于无线信号的收发。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "QCY意象Crossky C30开放式耳机充电盒采用了椭圆形设计，磨砂质感，体积轻巧便携。花语紫配色为饱和度较低的紫灰色，非常的淡雅。机身正面设计有品牌LOGO和一颗指示灯。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机前端音腔外观一览，采用了类似水滴的造型，紫色亮面外壳。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "LPS微源半导体LP7812A多合一智能TWS充电仓电源管理IC。LP7812A集成电池充电，耳机充电，温度管理，霍尔检测，按键检测以及LED显示等功能。集成的线性充电电路给电池仓充电，同时支持高达28V的输入电压和最大0.8A的充电电流。两路独立的耳机充电电路支持电压跟随，能够提升仓电池到耳机电池15%左右的转换效率，即提升15%的整机续航时间，大大提升产品卖点及用户体验。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒为耳机充电的Pogo Pin连接器特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1125",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM1125",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "iCM创芯微CM1125-BAC集成MOSFET单节锂电池保护IC，内负责电池的过充电、过放电、过电流等保护。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Bluetrum中科蓝讯BT8932D",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Bluetrum中科蓝讯BT8932D",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Bluetrum中科蓝讯BT8932D蓝牙音频SoC，内置32位高性能RISC-V处理器核心，支持DSP指令，运行频率最高140MHz；内置16Mbits闪存，320KB RAM；具有可编程上拉和下拉电阻的灵活GPIO引脚；支持GPIO唤醒或中断。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB5",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB5",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "丝印4U AB5的一体化锂电保护IC。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 QCY意象Crossky C30开放式耳机在外观方面，整机体积轻巧，便于携带。花语紫配色清新淡雅，搭配水滴型设计，观感非常时尚。同时，耳夹式耳机采用了镍钛合金材质，具有很佳的弹性，弯曲不变形，搭配柔软硅胶材质，佩戴舒适亲肤。 内部主要配置方面，充电盒搭载了400mAh锂电池，采用了iCM创芯微CM1125-BAC锂电池保护IC负责电池的过充电、过放电、过电流等保护。主板上，搭载了LPS微源半导体LP7812A多合一智能TWS充电仓电源管理IC，集成丰富的功能，支持电压跟随技术，能够大大整机续航时间。 耳机内部搭载了10.8mm动圈喇叭，单耳采用一颗MEMS麦克风拾音；内置电池容量3.85V 0.123Wh；主控芯片为Bluetrum中科蓝讯BT8932D蓝牙音频SoC；其他还采用了Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感和MPHM系列功率电感等元器件。",
+  "layer_refs": {
+    "technical": [
+      "report:221350"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "其他方面，还支持双麦通话降噪，双设备连接，低延迟游戏模式，可提供单次5.5小时，综合25小时的续航时间。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "其他方面，还支持双麦通话降噪，双设备连接，低延迟游戏模式，可提供单次5.5小时，综合25小时的续航时间。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "其他方面，还支持双麦通话降噪，双设备连接，低延迟游戏模式，可提供单次5.5小时，综合25小时的续航时间。"
+        }
+      },
+      {
+        "text": "功能配置上，搭载高灵敏度双磁单元，支持动态低频调节，支持定向音频技术2.0，带来不错的音频表现力；支持360°全景空间音效，提供身临其境的环绕音。",
+        "tag": "空间音频",
+        "evidence": {
+          "value": "功能配置上，搭载高灵敏度双磁单元，支持动态低频调节，支持定向音频技术2.0，带来不错的音频表现力；支持360°全景空间音效，提供身临其境的环绕音。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "功能配置上，搭载高灵敏度双磁单元，支持动态低频调节，支持定向音频技术2.0，带来不错的音频表现力；支持360°全景空间音效，提供身临其境的环绕音。"
+        }
+      },
+      {
+        "text": "下面来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过\nQCY Crossky Link开放式运动耳机\n，\nQCY T13 ANC\n、\nQCY Melobuds ANC\n真无线降噪耳机、​\nQCY G1电竞游戏耳机\n、\nQCY T11圈铁蓝牙耳机\n、\nQCY T10双动铁蓝牙耳机\n，\nQCY AilyBuds Lite\n、​\nQCY FairyBuds\n、\nQCY AilyPods\n、\nQCY T18 MeloBuds\n、\nQCY T17\n、\nQCY T13\n真无线耳机，\nQCY H3 Pro头戴式耳机\n等产品。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "下面来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过\nQCY Crossky Link开放式运动耳机\n，\nQCY T13 ANC\n、\nQCY Melobuds ANC\n真无线降噪耳机、​\nQCY G1电竞游戏耳机\n、\nQCY T11圈铁蓝牙耳机\n、\nQCY T10双动铁蓝牙耳机\n，\nQCY AilyBuds Lite\n、​\nQCY FairyBuds\n、\nQCY AilyPods\n、\nQCY T18 MeloBuds\n、\nQCY T17\n、\nQCY T13\n真无线耳机，\nQCY H3 Pro头戴式耳机\n等产品。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "下面来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过\nQCY Crossky Link开放式运动耳机\n，\nQCY T13 ANC\n、\nQCY Melobuds ANC\n真无线降噪耳机、​\nQCY G1电竞游戏耳机\n、\nQCY T11圈铁蓝牙耳机\n、\nQCY T10双动铁蓝牙耳机\n，\nQCY AilyBuds Lite\n、​\nQCY FairyBuds\n、\nQCY AilyPods\n、\nQCY T18 MeloBuds\n、\nQCY T17\n、\nQCY T13\n真无线耳机，\nQCY H3 Pro头戴式耳机\n等产品。"
+        }
+      },
+      {
+        "text": "通话麦克风拾音孔特写，内部细密防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "通话麦克风拾音孔特写，内部细密防尘网防护。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "通话麦克风拾音孔特写，内部细密防尘网防护。"
+        }
+      },
+      {
+        "text": "BT8932D具有高性能立体声DAC，信噪比104dB，支持差分模式和VCMBUF模式；具有高性能单声道ADC，信噪比102dB；支持1路MIC放大器输入，支持灵活的音频均衡器调节，支持8、11.025、12、16、22.05、32、44.1、48、88.2、96、176.4和192KHz采样率；还支持AI DNN ENC降噪，支持低功耗触摸键、入耳检测，集成PMU，如充电器/降压/LDO。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "BT8932D具有高性能立体声DAC，信噪比104dB，支持差分模式和VCMBUF模式；具有高性能单声道ADC，信噪比102dB；支持1路MIC放大器输入，支持灵活的音频均衡器调节，支持8、11.025、12、16、22.05、32、44.1、48、88.2、96、176.4和192KHz采样率；还支持AI DNN ENC降噪，支持低功耗触摸键、入耳检测，集成PMU，如充电器/降压/LDO。",
+          "confidence": 0.64,
+          "source_type": "text",
+          "source_text": "BT8932D具有高性能立体声DAC，信噪比104dB，支持差分模式和VCMBUF模式；具有高性能单声道ADC，信噪比102dB；支持1路MIC放大器输入，支持灵活的音频均衡器调节，支持8、11.025、12、16、22.05、32、44.1、48、88.2、96、176.4和192KHz采样率；还支持AI DNN ENC降噪，支持低功耗触摸键、入耳检测，集成PMU，如充电器/降压/LDO。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "游戏",
+      "通话",
+      "电竞"
+    ],
+    "positioning_summary": "其他方面，还支持双麦通话降噪，双设备连接，低延迟游戏模式，可提供单次5.5小时，综合25小时的续航时间。",
+    "launch_date": null,
+    "best_report_id": "221350",
+    "best_video_id": null
+  }
+}

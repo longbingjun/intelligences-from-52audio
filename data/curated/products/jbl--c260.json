@@ -18,15 +18,15 @@
     "main_chip": "",
     "pmic_case": "",
     "battery_ear": "电池",
-    "battery_case": "400 mAh",
+    "battery_case": "35 mAh",
     "speaker": "喇叭单元",
     "materials": "",
-    "weight_g": "41.7g",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "IPX4",
     "bluetooth": "5.3",
-    "bom_row_count": 10,
+    "bom_row_count": 7,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -37,17 +37,17 @@
   },
   "bom_table": [
     {
-      "component": "充电仓",
+      "component": "电池",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
-        "value": "充电仓",
+        "value": "电池",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "JBL C260真无线耳机在外观上采用了柄状的半入耳式设计，充电盒非常的轻盈小巧，耳机符合人体工学设计，搭配轻量化机身，提供舒适稳定的佩戴效果。功能配置上，内置10mm驱动单元，拥有JBl纯正低频音效；搭载蓝牙5.3芯片，支持双路传输，支持AI通话降噪，支持低延迟游戏模式；还支持IPX4级防水。"
+        "source_text": "电池单元通过插座连接到主板。"
       }
     },
     {
@@ -65,31 +65,31 @@
       }
     },
     {
-      "component": "电池",
+      "component": "麦克风",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "",
       "role": "major",
       "evidence": {
-        "value": "电池",
+        "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "电池单元通过插座连接到主板。"
+        "source_text": "支持蓝牙免提通话，回声消除和降噪算法，搭配一颗MEMS麦克风，实现清晰通话效果。"
       }
     },
     {
-      "component": "麦克风",
+      "component": "充电仓",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "耳机",
       "role": "major",
       "evidence": {
-        "value": "麦克风",
+        "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机柄底部通话麦克风拾音孔特写。"
+        "source_text": "JBL C260真无线耳机在外观上采用了柄状的半入耳式设计，充电盒非常的轻盈小巧，耳机符合人体工学设计，搭配轻量化机身，提供舒适稳定的佩戴效果。"
       }
     },
     {
@@ -121,59 +121,17 @@
       }
     },
     {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒盖采用了不规则的腰线，座舱正面设置有倒角，便于用户开启。设置有三颗指示灯，用于反馈充电盒电量信息。"
-      }
-    },
-    {
       "component": "外壳结构",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "外壳结构",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机后腔设置软包电池。"
-      }
-    },
-    {
-      "component": "充电触点",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "为耳机充电的Pogo Pin连接器特写。"
-      }
-    },
-    {
-      "component": "触控/按键",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "",
       "role": "minor",
       "evidence": {
-        "value": "触控/按键",
+        "value": "外壳结构",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "Vinka永嘉VKD233DS单按键触摸检测IC，用于触摸控制。"
+        "source_text": "前腔内部结构一览，泄压孔设置有防尘网。"
       }
     }
   ],
@@ -192,13 +150,13 @@
   "market": {
     "selling_points": [
       {
-        "text": "此次将要拆解的是JBL旗下一款主打轻量化设计、舒适佩戴的产品——JBL C260真无线蓝牙耳机。",
+        "text": "此次将要拆解的是JBL旗下一款主 […]\n此次将要拆解的是JBL旗下一款主打轻量化设计、舒适佩戴的产品——JBL C260真无线蓝牙耳机。",
         "tag": "舒适佩戴",
         "evidence": {
-          "value": "此次将要拆解的是JBL旗下一款主打轻量化设计、舒适佩戴的产品——JBL C260真无线蓝牙耳机。",
-          "confidence": 0.72,
+          "value": "此次将要拆解的是JBL旗下一款主 […]\n此次将要拆解的是JBL旗下一款主打轻量化设计、舒适佩戴的产品——JBL C260真无线蓝牙耳机。",
+          "confidence": 0.74,
           "source_type": "text",
-          "source_text": "此次将要拆解的是JBL旗下一款主打轻量化设计、舒适佩戴的产品——JBL C260真无线蓝牙耳机。"
+          "source_text": "此次将要拆解的是JBL旗下一款主 […]\n此次将要拆解的是JBL旗下一款主打轻量化设计、舒适佩戴的产品——JBL C260真无线蓝牙耳机。"
         }
       },
       {
@@ -222,6 +180,16 @@
         }
       },
       {
+        "text": "标记/认证：耳机内部软包电池同样来自亿等电子，型号：YD451012，额定电压：3.7V，容量：35mAh。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：耳机内部软包电池同样来自亿等电子，型号：YD451012，额定电压：3.7V，容量：35mAh。",
+          "confidence": 0.61,
+          "source_type": "text",
+          "source_text": "标记/认证：耳机内部软包电池同样来自亿等电子，型号：YD451012，额定电压：3.7V，容量：35mAh。"
+        }
+      },
+      {
         "text": "耳机泄压孔特写，内部防尘网防护，防止异物进入腔体。",
         "tag": "防水防尘",
         "evidence": {
@@ -232,13 +200,13 @@
         }
       },
       {
-        "text": "前腔内部结构一览，泄压孔设置有防尘网。",
-        "tag": "防水防尘",
+        "text": "标记/认证：充电盒内部采用锂离子软包电池，型号：YD602035，额定电压：3.7V，额定容量：400mAh/1.48Wh，来自亿等电子。",
+        "tag": "其他",
         "evidence": {
-          "value": "前腔内部结构一览，泄压孔设置有防尘网。",
-          "confidence": 0.56,
+          "value": "标记/认证：充电盒内部采用锂离子软包电池，型号：YD602035，额定电压：3.7V，额定容量：400mAh/1.48Wh，来自亿等电子。",
+          "confidence": 0.6,
           "source_type": "text",
-          "source_text": "前腔内部结构一览，泄压孔设置有防尘网。"
+          "source_text": "标记/认证：充电盒内部采用锂离子软包电池，型号：YD602035，额定电压：3.7V，额定容量：400mAh/1.48Wh，来自亿等电子。"
         }
       }
     ],
@@ -246,7 +214,7 @@
       "游戏",
       "通话"
     ],
-    "positioning_summary": "此次将要拆解的是JBL旗下一款主打轻量化设计、舒适佩戴的产品——JBL C260真无线蓝牙耳机。",
+    "positioning_summary": "此次将要拆解的是JBL旗下一款主 […]\n此次将要拆解的是JBL旗下一款主打轻量化设计、舒适佩戴的产品——JBL C260真无线蓝牙耳机。",
     "launch_date": null,
     "best_report_id": "96193",
     "best_video_id": null

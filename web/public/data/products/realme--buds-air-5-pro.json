@@ -3,37 +3,71 @@
   "brand": "realme真我",
   "model": "Buds Air 5 Pro",
   "category": "真无线耳机TWS",
-  "report_ids": [],
+  "report_ids": [
+    "164578"
+  ],
   "video_ids": [
     "279793"
   ],
-  "related_report_ids": [],
+  "related_report_ids": [
+    "164578"
+  ],
   "related_video_ids": [
     "279793"
   ],
-  "first_seen": "2026-06-17",
+  "first_seen": "2023-06-27",
   "latest_published": "2026-06-17",
   "internal_match_suggestions": [],
   "cost_snapshot": {
-    "main_chip": null,
-    "pmic_case": null,
-    "battery_ear": null,
-    "battery_case": null,
-    "speaker": null,
-    "materials": null,
-    "weight_g": null,
-    "ip_rating": null,
-    "bluetooth": null,
-    "bom_row_count": 2,
+    "main_chip": "恒玄BES2600YUC3",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "460 mAh",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 8,
     "price_cny": 399.0,
     "price_layer": "channel",
     "channel_url": "https://s.click.taobao.com/t?e=m%3D2%26s%3DPk%2BsdQ0VHjhw4vFB6t2Z2ueEDrYVVa64Dne87AjQPk9yINtkUhsv0BFPPacelt3HQuGHafTLC863X1ppMM1K6W43HgsOowWtE8vsFAIYQZxrXvJ6%2BqFxFKAWqcsq3MkwFBoMXOGuG5DkaqczTKGnOkzzDq6FT6wuRwvS4P9VTBgkjOMpGrETx7BCtjQdN%2F1PJ%2FWNqUue%2FGaiPTLlA268CfEJcSxRPTgXPS5KNXAvts6jlDsFn0TTmf6qIzoglYnGh3%2FC0mPmfShBJHfTTaxjScYl7w3%2FA2kb&union_lens=lensId%3AMAPI%401783554786%40213fe05b_0ed0_19f4426434d_c5be%4001%40eyJmbG9vcklkIjo4MDMwOX0ie",
     "sales_hint": null,
-    "data_completeness": 0.0,
-    "best_report_id": null,
-    "best_video_id": "279793"
+    "data_completeness": 0.83,
+    "best_report_id": "164578",
+    "best_video_id": null
   },
   "bom_table": [
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "其他方面，还支持40ms低延迟游戏模式、双设备连接、开盖闪连，拥有单耳机使用11小时，耳机+充电盒使用40小时的超长续航。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱背面结构一览，电池位于腔体内部，起到很好的保护。"
+      }
+    },
     {
       "component": "主板/PCBA",
       "brand": "",
@@ -45,21 +79,77 @@
         "value": "主板/PCBA",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "做艙底部通過螺絲固定主板單元"
+        "source_text": "座舱底部通过螺丝固定主板单元。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "镭雕R33J 06YN的MEMS麦克风特写，为后馈降噪麦克风，用于主动降噪、通话降噪、定制化听感补偿等功能从耳道内部拾音，来自瑞勤电子。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "掀开扬声器单元。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "镭雕R33J 06YN的MEMS麦克风特写，为后馈降噪麦克风，用于主动降噪、通话降噪、定制化听感补偿等功能从耳道内部拾音，来自瑞勤电子。"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "IP5128",
+      "model": "Injoinic英集芯IP5528",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Injoinic英集芯IP5528",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Injoinic英集芯IP5528 TWS耳机充电仓管理SoC，是一款集成MCU、升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5528",
       "qty_hint": "1",
       "side": "",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "IP5128",
+        "value": "IP5528",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "大家好,這裡是我艾英平網\n今天我們來拆解\n蒸我Buds Air 5 Pro 蒸無線降噪耳機\n耳機包裝和設計簡約\n採用了蒸我標誌性的量黃色配色\n正面展示有對應產品配色的產品外觀設計\n產品名稱\n以及 High-Race Audio Wireless 和LDAC 標誌\n包裝和背面標籤上信息\n型號,2-1-2-0\n產品類型,藍牙耳機\n顏色,日出支撐\n製造商,日有密重慶移動通信有限公司\n產地,中國\n包裝和側邊展示有產品的功能特點\nHigh-Fi 及銅軸雙單元\n50DB 身海降噪2.0\n4000Hz 超寬頻降噪\n另外一側展示的功能特點\n3D 空間影響\n40行秒遊戲低延遲\n40小時常續行\n包裝和內部物品有TWS耳機\n耳塞和充電線\nUSB A2-Type-C充電線\n採用了爭吾品牌標誌性的黃色配色\n兩般插頭上設計有品牌\nLogo 和充電標誌\n隨機標配的耳塞\n總共有SMI-3種尺寸\n內部同樣採用了黃色配色\n並設計有防護網\n阻擋大顆粒15\n耳機充電盒採用了圓潤的妥原型設計\n考氣公益質感\n日出支撐呈現高級女灰色\n觀感時上彈牙\n充電盒正面設置有一顆指示燈\n用於反饋藍牙配對和充電狀態\n充電盒背面\n一體式賺軸設計\n"
+        "source_text": "得益于IP5528的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸， 降低BOM成本。"
       }
     }
   ],
@@ -67,6 +157,7 @@
   "summary_text": "",
   "layer_refs": {
     "technical": [
+      "report:164578",
       "video:279793"
     ],
     "channel": [
@@ -82,6 +173,46 @@
   "market": {
     "selling_points": [
       {
+        "text": "真我Buds Air 5 Pro是科技潮牌realme于5月10日“真我11系列新品发布会”上推出的一款真无线 […]\n其他方面，还支持40ms低延迟游戏模式、双设备连接、开盖闪连，拥有单耳机使用11小时，耳机+充电盒使用40小时的超长续航。",
+        "tag": "长续航",
+        "evidence": {
+          "value": "真我Buds Air 5 Pro是科技潮牌realme于5月10日“真我11系列新品发布会”上推出的一款真无线 […]\n其他方面，还支持40ms低延迟游戏模式、双设备连接、开盖闪连，拥有单耳机使用11小时，耳机+充电盒使用40小时的超长续航。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "真我Buds Air 5 Pro是科技潮牌realme于5月10日“真我11系列新品发布会”上推出的一款真无线 […]\n其他方面，还支持40ms低延迟游戏模式、双设备连接、开盖闪连，拥有单耳机使用11小时，耳机+充电盒使用40小时的超长续航。"
+        }
+      },
+      {
+        "text": "镭雕R33J 06YN的MEMS麦克风特写，为后馈降噪麦克风，用于主动降噪、通话降噪、定制化听感补偿等功能从耳道内部拾音，来自瑞勤电子。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "镭雕R33J 06YN的MEMS麦克风特写，为后馈降噪麦克风，用于主动降噪、通话降噪、定制化听感补偿等功能从耳道内部拾音，来自瑞勤电子。",
+          "confidence": 0.67,
+          "source_type": "text",
+          "source_text": "镭雕R33J 06YN的MEMS麦克风特写，为后馈降噪麦克风，用于主动降噪、通话降噪、定制化听感补偿等功能从耳道内部拾音，来自瑞勤电子。"
+        }
+      },
+      {
+        "text": "在降噪方面，真我Buds Air 5 Pro，升级深海降噪2.0，可提供最大50dB的降噪深度和4000Hz的降噪频宽，同时支持自适应场景降噪，可根据不同的使用场景，智能调节降噪档位，兼顾降噪效果和降噪舒适性；升级六麦AI深度通话降噪，保障清晰流畅的通话效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "在降噪方面，真我Buds Air 5 Pro，升级深海降噪2.0，可提供最大50dB的降噪深度和4000Hz的降噪频宽，同时支持自适应场景降噪，可根据不同的使用场景，智能调节降噪档位，兼顾降噪效果和降噪舒适性；升级六麦AI深度通话降噪，保障清晰流畅的通话效果。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "在降噪方面，真我Buds Air 5 Pro，升级深海降噪2.0，可提供最大50dB的降噪深度和4000Hz的降噪频宽，同时支持自适应场景降噪，可根据不同的使用场景，智能调节降噪档位，兼顾降噪效果和降噪舒适性；升级六麦AI深度通话降噪，保障清晰流畅的通话效果。"
+        }
+      },
+      {
+        "text": "真我Buds Air 5 Pro是科技潮牌realme于5月10日“真我11系列新品发布会”上推出的一款真无线降噪耳机，作为新一代“Pro”级产品，在降噪、音质、延迟、续航时间等核心功能上进行了全面升级，并新增了3D空间音效，为用户提供Pro级优质无线音频体验。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "真我Buds Air 5 Pro是科技潮牌realme于5月10日“真我11系列新品发布会”上推出的一款真无线降噪耳机，作为新一代“Pro”级产品，在降噪、音质、延迟、续航时间等核心功能上进行了全面升级，并新增了3D空间音效，为用户提供Pro级优质无线音频体验。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "真我Buds Air 5 Pro是科技潮牌realme于5月10日“真我11系列新品发布会”上推出的一款真无线降噪耳机，作为新一代“Pro”级产品，在降噪、音质、延迟、续航时间等核心功能上进行了全面升级，并新增了3D空间音效，为用户提供Pro级优质无线音频体验。"
+        }
+      },
+      {
         "text": "在音频方面，其搭载了HiFi级同轴双单元，覆盖20-40KHz超宽频响范围，并支持LDAC高清音频格式，通过了Hi-Res Audio小金标认证，可提供录音室级的原声听感。",
         "tag": "音质认证",
         "evidence": {
@@ -92,30 +223,23 @@
         }
       },
       {
-        "text": "同时还支持定制化听感补偿算法，3D空间音效，带来个性化的聆听体验。",
-        "tag": "空间音频",
+        "text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：在音频方面，其搭载了HiFi级同轴双单元，覆盖20-40KHz超宽频响范围，并支持LDAC高清音频格式，通过了Hi-Res Audio小金标认证，可提供录音室级的原声听感。",
+        "tag": "音质认证",
         "evidence": {
-          "value": "同时还支持定制化听感补偿算法，3D空间音效，带来个性化的聆听体验。",
-          "confidence": 0.75,
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：在音频方面，其搭载了HiFi级同轴双单元，覆盖20-40KHz超宽频响范围，并支持LDAC高清音频格式，通过了Hi-Res Audio小金标认证，可提供录音室级的原声听感。",
+          "confidence": 0.55,
           "source_type": "text",
-          "source_text": "同时还支持定制化听感补偿算法，3D空间音效，带来个性化的聆听体验。"
-        }
-      },
-      {
-        "text": "真我Buds Air 5 Pro真无线降噪耳机在外观方面，沿用了家族式的独特设计风格，配备有日出之城、星夜黑两款时尚配色。",
-        "tag": "降噪",
-        "evidence": {
-          "value": "真我Buds Air 5 Pro真无线降噪耳机在外观方面，沿用了家族式的独特设计风格，配备有日出之城、星夜黑两款时尚配色。",
-          "confidence": 0.75,
-          "source_type": "text",
-          "source_text": "真我Buds Air 5 Pro真无线降噪耳机在外观方面，沿用了家族式的独特设计风格，配备有日出之城、星夜黑两款时尚配色。"
+          "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：在音频方面，其搭载了HiFi级同轴双单元，覆盖20-40KHz超宽频响范围，并支持LDAC高清音频格式，通过了Hi-Res Audio小金标认证，可提供录音室级的原声听感。"
         }
       }
     ],
-    "scenarios": [],
-    "positioning_summary": "在音频方面，其搭载了HiFi级同轴双单元，覆盖20-40KHz超宽频响范围，并支持LDAC高清音频格式，通过了Hi-Res Audio小金标认证，可提供录音室级的原声听感。",
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "真我Buds Air 5 Pro是科技潮牌realme于5月10日“真我11系列新品发布会”上推出的一款真无线 […]\n其他方面，还支持40ms低延迟游戏模式、双设备连接、开盖闪连，拥有单耳机使用11小时，耳机+充电盒使用40小时的超长续航。",
     "launch_date": null,
-    "best_report_id": null,
-    "best_video_id": "279793"
+    "best_report_id": "164578",
+    "best_video_id": null
   }
 }

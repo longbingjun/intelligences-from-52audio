@@ -1,0 +1,344 @@
+{
+  "canonical_id": "jbl--zone",
+  "brand": "JBL",
+  "model": "ZONE悦动圈开放式运动",
+  "category": "开放式耳机",
+  "report_ids": [
+    "254350"
+  ],
+  "video_ids": [
+    "256855"
+  ],
+  "related_report_ids": [
+    "254350"
+  ],
+  "related_video_ids": [
+    "256855"
+  ],
+  "first_seen": "2025-09-29",
+  "latest_published": "2025-10-24",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "AB1563",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "5V/20mAh锂电池",
+    "speaker": "喇叭单元",
+    "materials": "硅胶、钛合金、液态硅胶",
+    "weight_g": "88.7g",
+    "weight_case_g": "",
+    "weight_earbud_g": "10.3g",
+    "ip_rating": "IP7",
+    "bluetooth": "",
+    "bom_row_count": 16,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "254350",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "5V/20mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "5V/20mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载了豪鹏520mAh/3.8V锂电池，配备有电路保护板负责过充电、过放电、过电流等保护；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB1563",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB1563",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机采用11mm*18mm跑道型驱动单元，主板上搭载了两颗瑞勤电子的MEMS麦克风拾音，主控芯片为AIROHA达发（络达）AB1563E蓝牙音频SoC。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机采用11mm*18mm跑道型驱动单元，主板上搭载了两颗瑞勤电子的MEMS麦克风拾音，主控芯片为AIROHA达发（络达）AB1563E蓝牙音频SoC。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "JBL ZONE悦动圈支持四麦AI通话降噪，保障户外场景的清晰通话；支持独特的PulseDry功能，通过驱动单元的微幅振动加速干燥，快速排除内部浸润液体，防止汗液对音频的干扰。续航方面，耳机单次续航时间约8小时，搭配充电盒综合续航约32小时。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部电池单元结构一览，导线与主板通过插座连接。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部结构一览，主板通过螺丝固定。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网此前还拆解过JBL Tour Pro 3、JBL TUNE Beam、JBL TUNE 130NC、JBL WAVE FLEX、JBL FLASH真无线耳机，JBL Quantum 360P、JBL LIVE660NC头戴式耳机，JBL CHARGE6、JBL FLIP7、JBL GO ESSENTIAL、JBL PULSE 5、JBL FLIP ESSENTIAL 2蓝牙音箱，JBL KMC300 K歌麦克风，JBL Soundgear Frames智能音频眼镜，JBL Quantum Stream Wireless无线领夹麦克风等。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧固定蓝牙天线和触摸检测贴片。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "掀开盖板，下方扬声器单元结构一拉。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳挂末端雕刻有“ENDURANCE”系列名称。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "JBL是哈曼卡顿旗下的知名音频品牌，产品以卓越的音质著称。在个人音频市场，JBL推出了蓝牙音箱、音乐耳机、运动耳机、电竞游戏系列等众多产品类型。近期，JBL发布了旗下首款开放式运动耳机——JBL ZONE悦动圈。该耳机外观上采用耳挂式设计，提供持久舒适佩戴；支持IP68防护，满足各类运动场景需求。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "JBL ZONE悦动圈开放式运动耳机充电盒采用了扁平设计，磨砂质感，正面三颗指示灯，用于反馈蓝牙配对及充电状态。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "JBL ZONE悦动圈耳机外观一览，采用了耳挂式设计，高强度硅胶外壳材质，经久耐用。“天鹅颈”耳挂结构，采用黄金角度拐点设计，液态亲肤硅胶材质，佩戴稳定舒适；内嵌高强度钛合金丝，柔韧不易变形。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒底部采用了防滑材质，设置有蓝牙配对的功能按键。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒为耳机充电的Pogo Pin连接器特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB1563",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB1563",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "AIROHA达发（络达）AB1563E蓝牙音频SoC，用于无线连接和音频数据处理。"
+      }
+    }
+  ],
+  "summary_image_urls": [
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/09/2025092907010047.png",
+      "alt": "拆解报告：JBL ZONE悦动圈开放式运动耳机-我爱音频网",
+      "caption": "",
+      "section_hint": "summary_bom",
+      "score": 10
+    }
+  ],
+  "summary_text": "三、我爱音频网总结 最后附上JBL ZONE悦动圈开放式运动耳机已知的物料清单，方便大家查阅。 JBL ZONE悦动圈开放式运动耳机在外观方面，采用了时尚的撞色设计，更富运动激情。充电盒采用扁平的圆角方形设计，搭配挂绳，拥有着极佳的便携性；充电盒底部还设计了防滑垫，便于户外使用放置。耳机采用了挂耳式设计，佩戴舒适贴合耳廓；腔体采用高强度硅胶外壳，经久耐用；耳挂采用高强度钛合金丝，外部液态硅胶材质包裹，佩戴亲肤，柔韧不易变形。 内部主要配置方面，充电盒搭载了豪鹏520mAh/3.8V锂电池，配备有电路保护板负责过充电、过放电、过电流等保护；采用了Puya普冉PY32F031系列MCU微控制器，用于充电盒整机控制。 耳机内置VDL紫建电子58mAh/3.85V锂电池，通过触点连接，便于后期维修；耳机采用11mm*18mm跑道型驱动单元，主板上搭载了两颗瑞勤电子的MEMS麦克风拾音，主控芯片为AIROHA达发（络达）AB1563E蓝牙音频SoC。",
+  "layer_refs": {
+    "technical": [
+      "report:254350",
+      "video:256855"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "功能配置上，JBL ZONE悦动圈开放式运动耳机搭载11mmx18mm定制赛道驱动单元，提供高保真音质；支持自适应低频增强算法，呈现动感低频听感；支持增强运动音效，让运动音乐根据节奏感；还支持JBL开放式定向音场，基于特殊音腔结构设计，精准传声，高效抑制漏音。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "功能配置上，JBL ZONE悦动圈开放式运动耳机搭载11mmx18mm定制赛道驱动单元，提供高保真音质；支持自适应低频增强算法，呈现动感低频听感；支持增强运动音效，让运动音乐根据节奏感；还支持JBL开放式定向音场，基于特殊音腔结构设计，精准传声，高效抑制漏音。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "功能配置上，JBL ZONE悦动圈开放式运动耳机搭载11mmx18mm定制赛道驱动单元，提供高保真音质；支持自适应低频增强算法，呈现动感低频听感；支持增强运动音效，让运动音乐根据节奏感；还支持JBL开放式定向音场，基于特殊音腔结构设计，精准传声，高效抑制漏音。"
+        }
+      },
+      {
+        "text": "JBL ZONE悦动圈支持四麦AI通话降噪，保障户外场景的清晰通话；支持独特的PulseDry功能，通过驱动单元的微幅振动加速干燥，快速排除内部浸润液体，防止汗液对音频的干扰。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "JBL ZONE悦动圈支持四麦AI通话降噪，保障户外场景的清晰通话；支持独特的PulseDry功能，通过驱动单元的微幅振动加速干燥，快速排除内部浸润液体，防止汗液对音频的干扰。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "JBL ZONE悦动圈支持四麦AI通话降噪，保障户外场景的清晰通话；支持独特的PulseDry功能，通过驱动单元的微幅振动加速干燥，快速排除内部浸润液体，防止汗液对音频的干扰。"
+        }
+      },
+      {
+        "text": "该耳机外观上采用耳挂式设计，提供持久舒适佩戴；支持IP68防护，满足各类运动场景需求。",
+        "tag": "舒适佩戴",
+        "evidence": {
+          "value": "该耳机外观上采用耳挂式设计，提供持久舒适佩戴；支持IP68防护，满足各类运动场景需求。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "该耳机外观上采用耳挂式设计，提供持久舒适佩戴；支持IP68防护，满足各类运动场景需求。"
+        }
+      },
+      {
+        "text": "据官方介绍，采用了高品质11mm*18mm驱动单元，高韧性复合振膜，高动态范围，太振幅依然能够保持高保真。",
+        "tag": "其他",
+        "evidence": {
+          "value": "据官方介绍，采用了高品质11mm*18mm驱动单元，高韧性复合振膜，高动态范围，太振幅依然能够保持高保真。",
+          "confidence": 0.59,
+          "source_type": "text",
+          "source_text": "据官方介绍，采用了高品质11mm*18mm驱动单元，高韧性复合振膜，高动态范围，太振幅依然能够保持高保真。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "游戏",
+      "通话",
+      "户外",
+      "电竞"
+    ],
+    "positioning_summary": "功能配置上，JBL ZONE悦动圈开放式运动耳机搭载11mmx18mm定制赛道驱动单元，提供高保真音质；支持自适应低频增强算法，呈现动感低频听感；支持增强运动音效，让运动音乐根据节奏感；还支持JBL开放式定向音场，基于特殊音腔结构设计，精准传声，高效抑制漏音。",
+    "launch_date": null,
+    "best_report_id": "254350",
+    "best_video_id": null
+  }
+}

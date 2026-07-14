@@ -1,0 +1,390 @@
+{
+  "canonical_id": "unknown--ikf-air-clip",
+  "brand": "",
+  "model": "iKF Air Clip",
+  "category": "开放式耳机",
+  "report_ids": [
+    "229514"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "229514"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2025-02-26",
+  "latest_published": "2025-02-26",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "INJOINIC英集芯IP5518",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "5V/00mAh锂电池",
+    "speaker": "振膜动圈",
+    "materials": "钛合金",
+    "weight_g": "46.6g",
+    "weight_case_g": "",
+    "weight_earbud_g": "5.1g",
+    "ip_rating": "IPX5",
+    "bluetooth": "5.4",
+    "bom_row_count": 19,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "229514",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "INJOINIC英集芯IP5518",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5518",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，采用了INJOINIC英集芯IP5518电源管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等丰富的功能，支持智能双向通讯仓应用；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "5V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "5V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载了500mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "JL杰理",
+      "model": "JL7003",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "JL7003",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "采用了JL杰理JL7003D蓝牙音频SoC，SiliconWisdom矽睿半导体SWD1811A锂电保护IC，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等元器件。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "振膜动圈",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "振膜动圈",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了12mm复合振膜动圈单元，内置40mAh软包电池。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了一颗MEMS麦克风，用于语音通话功能拾音；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面设计有佩戴示意图，介绍了产品的详细功能特点和参数信息。型号：iKF-Air Clip，输入电压：DC 5V，输入电流：400mA，充电舱电池容量：500mAh，品牌商：东莞市欧木科技有限公司。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部固定主板和电池单元。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面设计有佩戴示意图，介绍了产品的详细功能特点和参数信息。型号：iKF-Air Clip，输入电压：DC 5V，输入电流：400mA，充电舱电池容量：500mAh，品牌商：东莞市欧木科技有限公司。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "后腔外观一览，外侧设计有iKF品牌LOGO，设置有麦克风拾音孔，拾音孔上方为触控区域。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在功能配置上，iKF Air Clip开放式耳机搭载12mm复合振膜动圈单元，采用了iKF-Acavity 6.0创新声学腔体，降低音质损耗与失真；采用DT6.0脉冲定向传音技术，防止漏音；采用ENC通话降噪技术，提供清晰通话效果；还支持iKF空间音效算法，提供更具沉浸感的环绕音效；支持蓝牙V5.4，提供稳定连接和低延迟；还支持IPX5防水，满足运动使用需求。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在功能配置上，iKF Air Clip开放式耳机搭载12mm复合振膜动圈单元，采用了iKF-Acavity 6.0创新声学腔体，降低音质损耗与失真；采用DT6.0脉冲定向传音技术，防止漏音；采用ENC通话降噪技术，提供清晰通话效果；还支持iKF空间音效算法，提供更具沉浸感的环绕音效；支持蓝牙V5.4，提供稳定连接和低延迟；还支持IPX5防水，满足运动使用需求。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "陶瓷蓝牙天线特写。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "后腔外观一览，外侧设计有iKF品牌LOGO，设置有麦克风拾音孔，拾音孔上方为触控区域。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "iKF Air Clip开放式耳机充电盒采用了椭圆形设计，经典白配色，磨砂质感，极致简约。机身正面设置有一颗指示灯，用于反馈充电状态。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "后腔底部设置有充电触点。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "后腔外观一览，外侧设计有iKF品牌LOGO，设置有麦克风拾音孔，拾音孔上方为触控区域。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP5518",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5518",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "INJOINIC英集芯IP5518 TWS耳机充电仓管理SoC，是一款集成MCU，集成了5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "英集芯IP5518",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "英集芯IP5518",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "英集芯IP5518的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "JL7003",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "JL7003",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "JL杰理JL7003D蓝牙音频SoC，内置32位双核DSP，最大速度160MHz；符合蓝牙5.3+BR+EDR+BLE规范，支持SBC、AAC音频解码，支持mSBC语音编解码器，支持单/双麦克风ENC，支持20波段EQ配置；内置双通道24bit DAC（信噪比≥102dB），双通道24bit ADC（信噪比≥95dB），内置两个模拟麦克风放大器，内置麦克风偏置，支持16ohm和32ohm扬声器负载；集成用于内部数字和模拟电路电源的低压LDO和DC-DC等。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 iKF Air Clip开放式耳机在外观方面，采用了非常简洁的设计，椭圆形充电盒，体积轻巧便携；耳夹式耳机，外观简约时尚，重量仅5.1g，佩戴轻盈舒适。耳夹采用钛合金记忆钛丝材质，柔韧且长久使用不易变形。 内部主要配置方面，充电盒搭载了500mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护。主板上，采用了INJOINIC英集芯IP5518电源管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等丰富的功能，支持智能双向通讯仓应用；还采用了SiliconWisdom矽睿半导体SWF4013B过压过流保护IC、SWU254S霍尔元件等。 耳机内部搭载了12mm复合振膜动圈单元，内置40mAh软包电池。主板上，搭载了一颗MEMS麦克风，用于语音通话功能拾音；采用了JL杰理JL7003D蓝牙音频SoC，SiliconWisdom矽睿半导体SWD1811A锂电保护IC，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等元器件。",
+  "layer_refs": {
+    "technical": [
+      "report:229514"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "在功能配置上，iKF Air Clip开放式耳机搭载12mm复合振膜动圈单元，采用了iKF-Acavity 6.0创新声学腔体，降低音质损耗与失真；采用DT6.0脉冲定向传音技术，防止漏音；采用ENC通话降噪技术，提供清晰通话效果；还支持iKF空间音效算法，提供更具沉浸感的环绕音效；支持蓝牙V5.4，提供稳定连接和低延迟；还支持IPX5防水，满足运动使用需求。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "在功能配置上，iKF Air Clip开放式耳机搭载12mm复合振膜动圈单元，采用了iKF-Acavity 6.0创新声学腔体，降低音质损耗与失真；采用DT6.0脉冲定向传音技术，防止漏音；采用ENC通话降噪技术，提供清晰通话效果；还支持iKF空间音效算法，提供更具沉浸感的环绕音效；支持蓝牙V5.4，提供稳定连接和低延迟；还支持IPX5防水，满足运动使用需求。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "在功能配置上，iKF Air Clip开放式耳机搭载12mm复合振膜动圈单元，采用了iKF-Acavity 6.0创新声学腔体，降低音质损耗与失真；采用DT6.0脉冲定向传音技术，防止漏音；采用ENC通话降噪技术，提供清晰通话效果；还支持iKF空间音效算法，提供更具沉浸感的环绕音效；支持蓝牙V5.4，提供稳定连接和低延迟；还支持IPX5防水，满足运动使用需求。"
+        }
+      },
+      {
+        "text": "iKF是一个电子类轻潮奢设计品牌，致力于为Z时代年轻人提供更加个性化、极致性价比、优质的电子数码产品解决方案，旗下产品涵盖蓝牙耳机、有线耳机、数码配件等音乐/智能硬件。",
+        "tag": "其他",
+        "evidence": {
+          "value": "iKF是一个电子类轻潮奢设计品牌，致力于为Z时代年轻人提供更加个性化、极致性价比、优质的电子数码产品解决方案，旗下产品涵盖蓝牙耳机、有线耳机、数码配件等音乐/智能硬件。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "iKF是一个电子类轻潮奢设计品牌，致力于为Z时代年轻人提供更加个性化、极致性价比、优质的电子数码产品解决方案，旗下产品涵盖蓝牙耳机、有线耳机、数码配件等音乐/智能硬件。"
+        }
+      },
+      {
+        "text": "iKF Air Clip开放式耳机充电盒采用了椭圆形设计，经典白配色，磨砂质感，极致简约。",
+        "tag": "开放佩戴",
+        "evidence": {
+          "value": "iKF Air Clip开放式耳机充电盒采用了椭圆形设计，经典白配色，磨砂质感，极致简约。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "iKF Air Clip开放式耳机充电盒采用了椭圆形设计，经典白配色，磨砂质感，极致简约。"
+        }
+      },
+      {
+        "text": "英集芯IP5518可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至20uA；可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "英集芯IP5518可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至20uA；可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "英集芯IP5518可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至20uA；可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。"
+        }
+      },
+      {
+        "text": "英集芯IP5518非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "英集芯IP5518非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "英集芯IP5518非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。"
+        }
+      },
+      {
+        "text": "英集芯IP5518内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "英集芯IP5518内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "英集芯IP5518内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "通话"
+    ],
+    "positioning_summary": "在功能配置上，iKF Air Clip开放式耳机搭载12mm复合振膜动圈单元，采用了iKF-Acavity 6.0创新声学腔体，降低音质损耗与失真；采用DT6.0脉冲定向传音技术，防止漏音；采用ENC通话降噪技术，提供清晰通话效果；还支持iKF空间音效算法，提供更具沉浸感的环绕音效；支持蓝牙V5.4，提供稳定连接和低延迟；还支持IPX5防水，满足运动使用需求。",
+    "launch_date": null,
+    "best_report_id": "229514",
+    "best_video_id": null
+  }
+}

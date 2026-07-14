@@ -26,81 +26,39 @@
     }
   ],
   "cost_snapshot": {
-    "main_chip": "IP5516",
-    "pmic_case": "INJOINIC英集芯 INJOINIC英集芯IP5516",
+    "main_chip": "INJOINIC英集芯IP5516",
+    "pmic_case": "",
     "battery_ear": "电池",
-    "battery_case": "4V/00mAh锂电池",
-    "speaker": "12mm 动圈单元",
-    "materials": "铝合金",
-    "weight_g": "50.7g",
+    "battery_case": "400 mAh",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
-    "bluetooth": "5.3",
-    "bom_row_count": 15,
+    "bluetooth": "",
+    "bom_row_count": 11,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
     "sales_hint": null,
-    "data_completeness": 1.0,
+    "data_completeness": 0.83,
     "best_report_id": "143419",
     "best_video_id": null
   },
   "bom_table": [
     {
-      "component": "芯片/模组",
-      "brand": "INJOINIC英集芯",
-      "model": "INJOINIC英集芯IP5516",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "PMIC/充电仓管理",
-      "evidence": {
-        "value": "INJOINIC英集芯IP5516",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "充电盒内置JYZ金宇宙400mAh锂电池，采用了DW01锂电保护IC和8205S MOS管，采用了Type-C接口输入点有，由INJOINIC英集芯IP5516充电盒管理SoC负责充放电管理、电量支持、通讯等功能，支持500mA线性充电和300mA同步升压输出；"
-      }
-    },
-    {
       "component": "电池",
       "brand": "",
-      "model": "4V/00mAh锂电池",
-      "qty_hint": "1",
-      "side": "充电盒",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
       "role": "major",
       "evidence": {
-        "value": "4V/00mAh锂电池",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "充电盒内置JYZ金宇宙400mAh锂电池，采用了DW01锂电保护IC和8205S MOS管，采用了Type-C接口输入点有，由INJOINIC英集芯IP5516充电盒管理SoC负责充放电管理、电量支持、通讯等功能，支持500mA线性充电和300mA同步升压输出；"
-      }
-    },
-    {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "12mm 动圈单元",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "12mm 动圈单元",
-        "confidence": 0.8,
-        "source_type": "summary_prose",
-        "source_text": "内侧音腔内部搭载了12mm动圈单元，JYZ金宇宙35mAh软包锂电池和电池电路保护板。"
-      }
-    },
-    {
-      "component": "麦克风",
-      "brand": "",
-      "model": "麦克风",
-      "qty_hint": "2",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "麦克风",
-        "confidence": 0.78,
-        "source_type": "summary_prose",
-        "source_text": "外侧腔体内设置主板单元，上面搭载了JL杰理AD6973D蓝牙音频SoC，支持蓝牙5.3，支持AAC解码，单/双麦克风降噪；"
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，通过螺丝固定主板，电池固定在主板上。"
       }
     },
     {
@@ -108,13 +66,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "充电盒",
       "role": "major",
       "evidence": {
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "包装盒背面展示有佩戴方式图，以及产品规格参数，型号：蛇圣C5，喇叭外径: 12mm，阻抗：32Ω，频响范圈：20Hz-20KHz，灵敏度：104.5dB，有效距离：10米(无干扰)，耳机电池容量：35mAh，充电舱电池容量：400mAh，充电标值：5V 1A。中山市蛇圣电子有限公司，中国制造。"
+        "source_text": "充电盒底部印有品牌LOGO，产品参数和认证标志。"
       }
     },
     {
@@ -129,20 +87,6 @@
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "座舱底部结构一览，通过螺丝固定主板，电池固定在主板上。"
-      }
-    },
-    {
-      "component": "电池",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "电池",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "包装盒背面展示有佩戴方式图，以及产品规格参数，型号：蛇圣C5，喇叭外径: 12mm，阻抗：32Ω，频响范圈：20Hz-20KHz，灵敏度：104.5dB，有效距离：10米(无干扰)，耳机电池容量：35mAh，充电舱电池容量：400mAh，充电标值：5V 1A。中山市蛇圣电子有限公司，中国制造。"
       }
     },
     {
@@ -164,13 +108,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机外侧腔体结构一览，设置有通话拾音麦克风和指示灯共用的开孔，以及L/R左右标识。同时也是触控区域，用于人机交互。"
+        "source_text": "支持单/双麦克风降噪，支持两路模拟麦克风放大，内置麦克风偏置。"
       }
     },
     {
@@ -188,6 +132,20 @@
       }
     },
     {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机外侧腔体结构一览，设置有通话拾音麦克风和指示灯共用的开孔，以及L/R左右标识。同时也是触控区域，用于人机交互。"
+      }
+    },
+    {
       "component": "指示灯",
       "brand": "",
       "model": "",
@@ -198,7 +156,7 @@
         "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "蛇圣C5开放式蓝牙耳机充电盒采用了椭圆柱体设计，此款为雾霾蓝配色。正面设计有一颗条形指示灯，用于反馈充电状态。"
+        "source_text": "耳机外侧腔体结构一览，设置有通话拾音麦克风和指示灯共用的开孔，以及L/R左右标识。同时也是触控区域，用于人机交互。"
       }
     },
     {
@@ -216,31 +174,17 @@
       }
     },
     {
-      "component": "充电触点",
+      "component": "芯片/模组",
       "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
+      "model": "INJOINIC英集芯IP5516",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
       "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
+        "value": "INJOINIC英集芯IP5516",
+        "confidence": 0.78,
         "source_type": "text",
-        "source_text": "为耳机充电的Pogo Pin连接器特写。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机外侧腔体结构一览，设置有通话拾音麦克风和指示灯共用的开孔，以及L/R左右标识。同时也是触控区域，用于人机交互。"
+        "source_text": "充电接口：内部主要配置方面，充电盒内置JYZ金宇宙400mAh锂电池，采用了DW01锂电保护IC和8205S MOS管，采用了Type-C接口输入点有，由INJOINIC英集芯IP5516充电盒管理SoC负责充放电管理、电量支持、通讯等功能，支持500mA线性充电和300mA同步升压输出；搭载一颗霍尔元件用于开盖即连功能。"
       }
     },
     {
@@ -254,12 +198,12 @@
         "value": "IP5516",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。"
+        "source_text": "标记/认证：IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。"
       }
     }
   ],
   "summary_image_urls": [],
-  "summary_text": "三、我爱音频网总结 Holy serpent蛇圣C5开放式蓝牙耳机在外观方面，采用了创新的耳夹式结构，撞色设计，雾霾蓝配色，观感时尚简约。使用时耳机夹在耳朵轮廓上，与耳廓结构舒适贴合，稳固不易脱落。开放耳道的听音方式，避免了长期佩戴耳朵胀痛问题，同时也提升了使用耳机的安全性。但另一方面，也更容易受到外界因素干扰，使听音效果受到影响，所以更适合相对安静的场合使用。 内部主要配置方面，充电盒内置JYZ金宇宙400mAh锂电池，采用了DW01锂电保护IC和8205S MOS管，采用了Type-C接口输入点有，由INJOINIC英集芯IP5516充电盒管理SoC负责充放电管理、电量支持、通讯等功能，支持500mA线性充电和300mA同步升压输出；搭载一颗霍尔元件用于开盖即连功能。 耳机被分割为了内侧和外侧两个结构，导线穿过U型记忆弯臂连接。内侧音腔内部搭载了12mm动圈单元，JYZ金宇宙35mAh软包锂电池和电池电路保护板。外侧腔体内设置主板单元，上面搭载了JL杰理AD6973D蓝牙音频SoC，支持蓝牙5.3，支持AAC解码，单/双麦克风降噪；PinTeng品腾PT2042A单通道触摸检测IC；以及一颗MEMS麦克风用于通话拾音。",
+  "summary_text": "",
   "layer_refs": {
     "technical": [
       "report:143419"
@@ -273,13 +217,23 @@
   "market": {
     "selling_points": [
       {
-        "text": "三、我爱音频网总结\nHoly serpent蛇圣C5开放式蓝牙耳机在外观方面，采用了创新的耳夹式结构，撞色设计，雾霾蓝配色，观感时尚简约。",
+        "text": "随着TWS耳机使用时间的不断增涨，用户对于产品的佩戴舒适性提出了更高的要求，许多品牌也相继推出半入耳式产品以满 […]\n三、我爱音频网总结\nHoly serpent蛇圣C5开放式蓝牙耳机在外观方面，采用了创新的耳夹式结构，撞色设计，雾霾蓝配色，观感时尚简约。",
         "tag": "开放佩戴",
         "evidence": {
-          "value": "三、我爱音频网总结\nHoly serpent蛇圣C5开放式蓝牙耳机在外观方面，采用了创新的耳夹式结构，撞色设计，雾霾蓝配色，观感时尚简约。",
+          "value": "随着TWS耳机使用时间的不断增涨，用户对于产品的佩戴舒适性提出了更高的要求，许多品牌也相继推出半入耳式产品以满 […]\n三、我爱音频网总结\nHoly serpent蛇圣C5开放式蓝牙耳机在外观方面，采用了创新的耳夹式结构，撞色设计，雾霾蓝配色，观感时尚简约。",
           "confidence": 0.75,
           "source_type": "text",
-          "source_text": "三、我爱音频网总结\nHoly serpent蛇圣C5开放式蓝牙耳机在外观方面，采用了创新的耳夹式结构，撞色设计，雾霾蓝配色，观感时尚简约。"
+          "source_text": "随着TWS耳机使用时间的不断增涨，用户对于产品的佩戴舒适性提出了更高的要求，许多品牌也相继推出半入耳式产品以满 […]\n三、我爱音频网总结\nHoly serpent蛇圣C5开放式蓝牙耳机在外观方面，采用了创新的耳夹式结构，撞色设计，雾霾蓝配色，观感时尚简约。"
+        }
+      },
+      {
+        "text": "标记/认证：耳机内置锂电池型号：JYZ450912，电压：3.7V，容量35mAh，同样来自JYZ金宇宙。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：耳机内置锂电池型号：JYZ450912，电压：3.7V，容量35mAh，同样来自JYZ金宇宙。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "标记/认证：耳机内置锂电池型号：JYZ450912，电压：3.7V，容量35mAh，同样来自JYZ金宇宙。"
         }
       },
       {
@@ -293,6 +247,16 @@
         }
       },
       {
+        "text": "标记/认证：IP5516 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "标记/认证：IP5516 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "标记/认证：IP5516 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+        }
+      },
+      {
         "text": "充电盒底部印有品牌LOGO，产品参数和认证标志。",
         "tag": "其他",
         "evidence": {
@@ -303,21 +267,20 @@
         }
       },
       {
-        "text": "耳机出音嘴特写，金属细密防尘网防护，防止异物进入音腔。",
-        "tag": "防水防尘",
+        "text": "标记/认证：充电盒底部印有品牌LOGO，产品参数和认证标志。",
+        "tag": "其他",
         "evidence": {
-          "value": "耳机出音嘴特写，金属细密防尘网防护，防止异物进入音腔。",
-          "confidence": 0.61,
+          "value": "标记/认证：充电盒底部印有品牌LOGO，产品参数和认证标志。",
+          "confidence": 0.72,
           "source_type": "text",
-          "source_text": "耳机出音嘴特写，金属细密防尘网防护，防止异物进入音腔。"
+          "source_text": "标记/认证：充电盒底部印有品牌LOGO，产品参数和认证标志。"
         }
       }
     ],
     "scenarios": [
-      "游戏",
       "通话"
     ],
-    "positioning_summary": "三、我爱音频网总结\nHoly serpent蛇圣C5开放式蓝牙耳机在外观方面，采用了创新的耳夹式结构，撞色设计，雾霾蓝配色，观感时尚简约。",
+    "positioning_summary": "随着TWS耳机使用时间的不断增涨，用户对于产品的佩戴舒适性提出了更高的要求，许多品牌也相继推出半入耳式产品以满 […]\n三、我爱音频网总结\nHoly serpent蛇圣C5开放式蓝牙耳机在外观方面，采用了创新的耳夹式结构，撞色设计，雾霾蓝配色，观感时尚简约。",
     "launch_date": null,
     "best_report_id": "143419",
     "best_video_id": null

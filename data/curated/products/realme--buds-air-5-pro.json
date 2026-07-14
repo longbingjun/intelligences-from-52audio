@@ -20,110 +20,26 @@
   "internal_match_suggestions": [],
   "cost_snapshot": {
     "main_chip": "恒玄BES2600YUC3",
-    "pmic_case": "INJOINIC英集芯 Injoinic英集芯IP5528",
+    "pmic_case": "",
     "battery_ear": "电池",
-    "battery_case": "4V/60mAh锂电池",
-    "speaker": "双单元",
-    "materials": "塑料、PC",
-    "weight_g": "46.9g",
+    "battery_case": "460 mAh",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
-    "bluetooth": "5.3",
-    "bom_row_count": 18,
+    "bluetooth": "",
+    "bom_row_count": 8,
     "price_cny": 399.0,
     "price_layer": "channel",
     "channel_url": "https://s.click.taobao.com/t?e=m%3D2%26s%3DPk%2BsdQ0VHjhw4vFB6t2Z2ueEDrYVVa64Dne87AjQPk9yINtkUhsv0BFPPacelt3HQuGHafTLC863X1ppMM1K6W43HgsOowWtE8vsFAIYQZxrXvJ6%2BqFxFKAWqcsq3MkwFBoMXOGuG5DkaqczTKGnOkzzDq6FT6wuRwvS4P9VTBgkjOMpGrETx7BCtjQdN%2F1PJ%2FWNqUue%2FGaiPTLlA268CfEJcSxRPTgXPS5KNXAvts6jlDsFn0TTmf6qIzoglYnGh3%2FC0mPmfShBJHfTTaxjScYl7w3%2FA2kb&union_lens=lensId%3AMAPI%401783554786%40213fe05b_0ed0_19f4426434d_c5be%4001%40eyJmbG9vcklkIjo4MDMwOX0ie",
     "sales_hint": null,
-    "data_completeness": 1.0,
+    "data_completeness": 0.83,
     "best_report_id": "164578",
     "best_video_id": null
   },
   "bom_table": [
-    {
-      "component": "芯片/模组",
-      "brand": "INJOINIC英集芯",
-      "model": "Injoinic英集芯IP5528",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "PMIC/充电仓管理",
-      "evidence": {
-        "value": "Injoinic英集芯IP5528",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "充电盒使用英集芯IP5528特有的全集成电压跟随充技术，仅搭载紫建电子460mAh锂电池，整机续航却达到了40小时，Injoinic英集芯IP5528 TWS耳机充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示等多功能，支持1A同步开关充电，400mA同步升压转换，3.2V~5.2V宽范围输出电压，单芯片为充电盒提供高性价比快速充电解决方案。"
-      }
-    },
-    {
-      "component": "电池",
-      "brand": "",
-      "model": "4V/60mAh锂电池",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "4V/60mAh锂电池",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "充电盒使用英集芯IP5528特有的全集成电压跟随充技术，仅搭载紫建电子460mAh锂电池，整机续航却达到了40小时，Injoinic英集芯IP5528 TWS耳机充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示等多功能，支持1A同步开关充电，400mA同步升压转换，3.2V~5.2V宽范围输出电压，单芯片为充电盒提供高性价比快速充电解决方案。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "BES恒玄科技",
-      "model": "恒玄BES2600YUC3",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "恒玄BES2600YUC3",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "主控芯片为BES恒玄BES2600YUC3超低功耗蓝牙音频SoC，支持双模蓝牙5.3，支持无缝一拖二连接，自适应主动降噪和AI通话降噪；"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "BES恒玄科技",
-      "model": "BES2600YUC",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "BES2600YUC",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "主控芯片为BES恒玄BES2600YUC3超低功耗蓝牙音频SoC，支持双模蓝牙5.3，支持无缝一拖二连接，自适应主动降噪和AI通话降噪；"
-      }
-    },
-    {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "双单元",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "双单元",
-        "confidence": 0.8,
-        "source_type": "summary_prose",
-        "source_text": "耳机内部搭载了同轴双单元，由11mm低音单元+6mm微平面高音单元组成；"
-      }
-    },
-    {
-      "component": "麦克风",
-      "brand": "",
-      "model": "MEMS麦克风",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "MEMS麦克风",
-        "confidence": 0.78,
-        "source_type": "summary_prose",
-        "source_text": "单耳内置三颗瑞勤电子MEMS麦克风拾音；"
-      }
-    },
     {
       "component": "充电仓",
       "brand": "",
@@ -135,21 +51,7 @@
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "在降噪方面，真我Buds Air 5 Pro，升级深海降噪2.0，可提供最大50dB的降噪深度和4000Hz的降噪频宽，同时支持自适应场景降噪，可根据不同的使用场景，智能调节降噪档位，兼顾降噪效果和降噪舒适性；升级六麦AI深度通话降噪，保障清晰流畅的通话效果。其他方面，还支持40ms低延迟游戏模式、双设备连接、开盖闪连，拥有单耳机使用11小时，耳机+充电盒使用40小时的超长续航。"
-      }
-    },
-    {
-      "component": "主板/PCBA",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "主板/PCBA",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "座舱底部通过螺丝固定主板单元。"
+        "source_text": "其他方面，还支持40ms低延迟游戏模式、双设备连接、开盖闪连，拥有单耳机使用11小时，耳机+充电盒使用40小时的超长续航。"
       }
     },
     {
@@ -167,17 +69,31 @@
       }
     },
     {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部通过螺丝固定主板单元。"
+      }
+    },
+    {
       "component": "麦克风",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机内侧外观一览，耳机柄侧边设置降噪麦克风拾音孔，能够有效降低风噪影响；内侧设计L/R左右标识，便于用户快速区分。"
+        "source_text": "镭雕R33J 06YN的MEMS麦克风特写，为后馈降噪麦克风，用于主动降噪、通话降噪、定制化听感补偿等功能从耳道内部拾音，来自瑞勤电子。"
       }
     },
     {
@@ -206,62 +122,6 @@
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "镭雕R33J 06YN的MEMS麦克风特写，为后馈降噪麦克风，用于主动降噪、通话降噪、定制化听感补偿等功能从耳道内部拾音，来自瑞勤电子。"
-      }
-    },
-    {
-      "component": "天线",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "天线",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "支架外侧贴有蓝牙天线和触摸检测贴片。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒右侧设置有蓝牙配对功能按键，采用银色配色，设计亮面倒角，更显精致。"
-      }
-    },
-    {
-      "component": "外壳结构",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "外壳结构",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "撬开卡扣式固定的充电盒外壳，取出内部座舱结构。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "真我Buds Air 5 Pro充电盒采用了圆润的椭圆形设计，烤漆工艺质感，日出之城呈现高级米灰色，观感时尚淡雅。充电盒正面设置有一颗指示灯，用于反馈蓝牙配对和充电状态。"
       }
     },
     {
@@ -294,7 +154,7 @@
     }
   ],
   "summary_image_urls": [],
-  "summary_text": "三、我爱音频网总结 realme真我Buds Air 5 Pro真无线降噪耳机在外观方面，沿用了独具特色的家族式设计风格。入耳式耳机采用了圆柱形耳机柄设计，磨砂+烤漆两种工艺结合，拥有出色质感，日出之城配色，观感时尚淡雅；椭圆形的充电盒体积轻巧便携，质感光滑圆润，顶部“透明云顶”设计，有效提升了产品的精致度和辨识度。 内部主要配置方面，主板上设置有一体化锂电保护IC负责电池的充放电保护；充电盒使用英集芯IP5528特有的全集成电压跟随充技术，仅搭载紫建电子460mAh锂电池，整机续航却达到了40小时，Injoinic英集芯IP5528 TWS耳机充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示等多功能，支持1A同步开关充电，400mA同步升压转换，3.2V~5.2V宽范围输出电压，单芯片为充电盒提供高性价比快速充电解决方案。 耳机内部搭载了同轴双单元，由11mm低音单元+6mm微平面高音单元组成；单耳内置三颗瑞勤电子MEMS麦克风拾音；主控芯片为BES恒玄BES2600YUC3超低功耗蓝牙音频SoC，支持双模蓝牙5.3，支持无缝一拖二连接，自适应主动降噪和AI通话降噪；内置软包扣式电池能量0.231Wh，配备有WINSEMI稳先微2308B锂电保护IC。",
+  "summary_text": "",
   "layer_refs": {
     "technical": [
       "report:164578",
@@ -313,13 +173,13 @@
   "market": {
     "selling_points": [
       {
-        "text": "其他方面，还支持40ms低延迟游戏模式、双设备连接、开盖闪连，拥有单耳机使用11小时，耳机+充电盒使用40小时的超长续航。",
+        "text": "真我Buds Air 5 Pro是科技潮牌realme于5月10日“真我11系列新品发布会”上推出的一款真无线 […]\n其他方面，还支持40ms低延迟游戏模式、双设备连接、开盖闪连，拥有单耳机使用11小时，耳机+充电盒使用40小时的超长续航。",
         "tag": "长续航",
         "evidence": {
-          "value": "其他方面，还支持40ms低延迟游戏模式、双设备连接、开盖闪连，拥有单耳机使用11小时，耳机+充电盒使用40小时的超长续航。",
+          "value": "真我Buds Air 5 Pro是科技潮牌realme于5月10日“真我11系列新品发布会”上推出的一款真无线 […]\n其他方面，还支持40ms低延迟游戏模式、双设备连接、开盖闪连，拥有单耳机使用11小时，耳机+充电盒使用40小时的超长续航。",
           "confidence": 0.55,
           "source_type": "text",
-          "source_text": "其他方面，还支持40ms低延迟游戏模式、双设备连接、开盖闪连，拥有单耳机使用11小时，耳机+充电盒使用40小时的超长续航。"
+          "source_text": "真我Buds Air 5 Pro是科技潮牌realme于5月10日“真我11系列新品发布会”上推出的一款真无线 […]\n其他方面，还支持40ms低延迟游戏模式、双设备连接、开盖闪连，拥有单耳机使用11小时，耳机+充电盒使用40小时的超长续航。"
         }
       },
       {
@@ -363,13 +223,13 @@
         }
       },
       {
-        "text": "同时还支持定制化听感补偿算法，3D空间音效，带来个性化的聆听体验。",
-        "tag": "空间音频",
+        "text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：在音频方面，其搭载了HiFi级同轴双单元，覆盖20-40KHz超宽频响范围，并支持LDAC高清音频格式，通过了Hi-Res Audio小金标认证，可提供录音室级的原声听感。",
+        "tag": "音质认证",
         "evidence": {
-          "value": "同时还支持定制化听感补偿算法，3D空间音效，带来个性化的聆听体验。",
-          "confidence": 0.75,
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：在音频方面，其搭载了HiFi级同轴双单元，覆盖20-40KHz超宽频响范围，并支持LDAC高清音频格式，通过了Hi-Res Audio小金标认证，可提供录音室级的原声听感。",
+          "confidence": 0.55,
           "source_type": "text",
-          "source_text": "同时还支持定制化听感补偿算法，3D空间音效，带来个性化的聆听体验。"
+          "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：在音频方面，其搭载了HiFi级同轴双单元，覆盖20-40KHz超宽频响范围，并支持LDAC高清音频格式，通过了Hi-Res Audio小金标认证，可提供录音室级的原声听感。"
         }
       }
     ],
@@ -377,7 +237,7 @@
       "游戏",
       "通话"
     ],
-    "positioning_summary": "其他方面，还支持40ms低延迟游戏模式、双设备连接、开盖闪连，拥有单耳机使用11小时，耳机+充电盒使用40小时的超长续航。",
+    "positioning_summary": "真我Buds Air 5 Pro是科技潮牌realme于5月10日“真我11系列新品发布会”上推出的一款真无线 […]\n其他方面，还支持40ms低延迟游戏模式、双设备连接、开盖闪连，拥有单耳机使用11小时，耳机+充电盒使用40小时的超长续航。",
     "launch_date": null,
     "best_report_id": "164578",
     "best_video_id": null

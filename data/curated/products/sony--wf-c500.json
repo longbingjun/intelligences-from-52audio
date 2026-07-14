@@ -19,35 +19,49 @@
     "pmic_case": "",
     "battery_ear": "300 mAh",
     "battery_case": "电池",
-    "speaker": "喇叭单元",
-    "materials": "硅胶、塑料",
-    "weight_g": "44.5g",
+    "speaker": "",
+    "materials": "",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "IPX4",
     "bluetooth": "5.0",
-    "bom_row_count": 11,
+    "bom_row_count": 8,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
     "sales_hint": null,
-    "data_completeness": 0.83,
+    "data_completeness": 0.67,
     "best_report_id": "95502",
     "best_video_id": null
   },
   "bom_table": [
     {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒外壳内侧结构一览，电池位置设置有缓冲垫保护。"
+      }
+    },
+    {
       "component": "充电仓",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "充电盒",
       "role": "major",
       "evidence": {
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "索尼WF-C500真无线耳机在外观设计上拥有着小巧轻盈的体积，众多款的时尚潮流配色。胶囊型小巧充电盒采用了半透明设计，豆状的入耳式耳机圆润无棱角，搭配人体工学表面设计，提供舒适稳固的佩戴体验。"
+        "source_text": "充电盒外壳内侧结构一览，电池位置设置有缓冲垫保护。"
       }
     },
     {
@@ -62,20 +76,6 @@
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "主板通过卡扣固定在支架上。"
-      }
-    },
-    {
-      "component": "电池",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "电池",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒外壳内侧结构一览，电池位置设置有缓冲垫保护。"
       }
     },
     {
@@ -107,45 +107,17 @@
       }
     },
     {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "喇叭单元",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机内采用了5.8mm动圈单元和同样来自曙鹏科技的0.27Wh软包扣式电池，主板上主控芯片为AIROHA达发AB1562M蓝牙音频SoC，支持蓝牙5.2，具有超低功耗、稳定蓝牙连接及Passthrough功能；以及一颗MEMS麦克风，用于语音通话拾音等。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机指示灯特写，用于反馈蓝牙配对状态。"
-      }
-    },
-    {
       "component": "外壳结构",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "充电盒",
+      "side": "",
       "role": "minor",
       "evidence": {
         "value": "外壳结构",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒外壳内侧结构一览，电池位置设置有缓冲垫保护。"
+        "source_text": "前腔内部泄压孔特写，通过防尘网防护。"
       }
     },
     {
@@ -153,13 +125,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "minor",
       "evidence": {
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机背部是一颗功能按键。"
+        "source_text": "后腔内部结构一览，黑色盖板为功能按键缓冲结构，下方设置有蓝牙天线，通过金属触点连接到主板。"
       }
     },
     {
@@ -173,21 +145,7 @@
         "value": "AB1562",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "AIROHA达发（络达）AB1562M蓝牙音频SoC，支持蓝牙5.2规范，具有超低功耗、稳定蓝牙连接及Passthrough功能，还可支持三麦克风降噪，搭配Airoha降噪算法，能有效降低风噪，提高通话质量。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "AB1562",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "AB1562",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "耳机内采用了5.8mm动圈单元和同样来自曙鹏科技的0.27Wh软包扣式电池，主板上主控芯片为AIROHA达发AB1562M蓝牙音频SoC，支持蓝牙5.2，具有超低功耗、稳定蓝牙连接及Passthrough功能；以及一颗MEMS麦克风，用于语音通话拾音等。"
+        "source_text": "电池容量：300\n芯片 AB1562"
       }
     }
   ],
@@ -206,13 +164,13 @@
   "market": {
     "selling_points": [
       {
-        "text": "我爱音频网拆解过的索尼真无线耳机产品包括：\n索尼WF-1000XM4真无线降噪耳机\n、\nWF-XB700重低音真无线耳机\n、\nWF-H800真无线耳机\n、\n索尼WF-SP900真无线防水运动耳机\n、\nXPERIA Ear Duo开放式真无线耳机\n以及\n更早期的TWS耳机\n等。",
+        "text": "索尼WF-C500真无线耳机是索尼旗下一款入门级的产品，主打轻巧舒适，时尚佩戴，同时以更加优惠的价格提供了索尼 […]\n我爱音频网拆解过的索尼真无线耳机产品包括：\n索尼WF-1000XM4真无线降噪耳机\n、\nWF-XB700重低音真无线耳机\n、\nWF-H800真无线耳机\n、\n索尼WF-SP900真无线防水运动耳机\n、\nXPERIA Ear Duo开放式真无线耳机\n以及\n更早期的TWS耳机\n等。",
         "tag": "降噪",
         "evidence": {
-          "value": "我爱音频网拆解过的索尼真无线耳机产品包括：\n索尼WF-1000XM4真无线降噪耳机\n、\nWF-XB700重低音真无线耳机\n、\nWF-H800真无线耳机\n、\n索尼WF-SP900真无线防水运动耳机\n、\nXPERIA Ear Duo开放式真无线耳机\n以及\n更早期的TWS耳机\n等。",
-          "confidence": 0.55,
+          "value": "索尼WF-C500真无线耳机是索尼旗下一款入门级的产品，主打轻巧舒适，时尚佩戴，同时以更加优惠的价格提供了索尼 […]\n我爱音频网拆解过的索尼真无线耳机产品包括：\n索尼WF-1000XM4真无线降噪耳机\n、\nWF-XB700重低音真无线耳机\n、\nWF-H800真无线耳机\n、\n索尼WF-SP900真无线防水运动耳机\n、\nXPERIA Ear Duo开放式真无线耳机\n以及\n更早期的TWS耳机\n等。",
+          "confidence": 0.6,
           "source_type": "text",
-          "source_text": "我爱音频网拆解过的索尼真无线耳机产品包括：\n索尼WF-1000XM4真无线降噪耳机\n、\nWF-XB700重低音真无线耳机\n、\nWF-H800真无线耳机\n、\n索尼WF-SP900真无线防水运动耳机\n、\nXPERIA Ear Duo开放式真无线耳机\n以及\n更早期的TWS耳机\n等。"
+          "source_text": "索尼WF-C500真无线耳机是索尼旗下一款入门级的产品，主打轻巧舒适，时尚佩戴，同时以更加优惠的价格提供了索尼 […]\n我爱音频网拆解过的索尼真无线耳机产品包括：\n索尼WF-1000XM4真无线降噪耳机\n、\nWF-XB700重低音真无线耳机\n、\nWF-H800真无线耳机\n、\n索尼WF-SP900真无线防水运动耳机\n、\nXPERIA Ear Duo开放式真无线耳机\n以及\n更早期的TWS耳机\n等。"
         }
       },
       {
@@ -254,13 +212,23 @@
           "source_type": "text",
           "source_text": "前腔内部泄压孔特写，通过防尘网防护。"
         }
+      },
+      {
+        "text": "标记/认证：充电盒底部设置有防滑垫，上方丝印产品名称：WF-C500，型号：YY2952，索尼公司越南制造。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：充电盒底部设置有防滑垫，上方丝印产品名称：WF-C500，型号：YY2952，索尼公司越南制造。",
+          "confidence": 0.61,
+          "source_type": "text",
+          "source_text": "标记/认证：充电盒底部设置有防滑垫，上方丝印产品名称：WF-C500，型号：YY2952，索尼公司越南制造。"
+        }
       }
     ],
     "scenarios": [
       "运动",
       "通话"
     ],
-    "positioning_summary": "我爱音频网拆解过的索尼真无线耳机产品包括：\n索尼WF-1000XM4真无线降噪耳机\n、\nWF-XB700重低音真无线耳机\n、\nWF-H800真无线耳机\n、\n索尼WF-SP900真无线防水运动耳机\n、\nXPERIA Ear Duo开放式真无线耳机\n以及\n更早期的TWS耳机\n等。",
+    "positioning_summary": "索尼WF-C500真无线耳机是索尼旗下一款入门级的产品，主打轻巧舒适，时尚佩戴，同时以更加优惠的价格提供了索尼 […]\n我爱音频网拆解过的索尼真无线耳机产品包括：\n索尼WF-1000XM4真无线降噪耳机\n、\nWF-XB700重低音真无线耳机\n、\nWF-H800真无线耳机\n、\n索尼WF-SP900真无线防水运动耳机\n、\nXPERIA Ear Duo开放式真无线耳机\n以及\n更早期的TWS耳机\n等。",
     "launch_date": null,
     "best_report_id": "95502",
     "best_video_id": null

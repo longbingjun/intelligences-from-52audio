@@ -12,7 +12,7 @@
   "author": "GiGi24",
   "summary": "奇虎360（北京奇虎科技有限公司）创立于2005年，是国内互联网和移动安全产品及服务的提供商。360近年来积极 […]",
   "captured_at": "2026-07-14T02:11:19+00:00",
-  "data_completeness": 0.766,
+  "data_completeness": 0.676,
   "views": {
     "market": {
       "brand": "",
@@ -23,13 +23,23 @@
       "price_note": "",
       "selling_points": [
         {
-          "text": "耳机内侧的条形泄压孔，内有防尘网。",
+          "text": "360近年来积极 […]\n耳机内侧的条形泄压孔，内有防尘网。",
           "tag": "防水防尘",
           "evidence": {
-            "value": "耳机内侧的条形泄压孔，内有防尘网。",
+            "value": "360近年来积极 […]\n耳机内侧的条形泄压孔，内有防尘网。",
+            "confidence": 0.62,
+            "source_type": "text",
+            "source_text": "360近年来积极 […]\n耳机内侧的条形泄压孔，内有防尘网。"
+          }
+        },
+        {
+          "text": "标记/认证：型号CE-2089B，输入电压DC 5V，蓝牙版本5.0，无障碍传输距离10米。",
+          "tag": "其他",
+          "evidence": {
+            "value": "标记/认证：型号CE-2089B，输入电压DC 5V，蓝牙版本5.0，无障碍传输距离10米。",
             "confidence": 0.58,
             "source_type": "text",
-            "source_text": "耳机内侧的条形泄压孔，内有防尘网。"
+            "source_text": "标记/认证：型号CE-2089B，输入电压DC 5V，蓝牙版本5.0，无障碍传输距离10米。"
           }
         },
         {
@@ -53,23 +63,23 @@
           }
         },
         {
-          "text": "通话部分内置单MIC ENC降噪/AEC回音消除算法。",
-          "tag": "降噪",
+          "text": "标记/认证：软包电池型号M501340，额定电压3.7V，额定容量300mAh/1.11Wh。",
+          "tag": "其他",
           "evidence": {
-            "value": "通话部分内置单MIC ENC降噪/AEC回音消除算法。",
+            "value": "标记/认证：软包电池型号M501340，额定电压3.7V，额定容量300mAh/1.11Wh。",
             "confidence": 0.56,
             "source_type": "text",
-            "source_text": "通话部分内置单MIC ENC降噪/AEC回音消除算法。"
+            "source_text": "标记/认证：软包电池型号M501340，额定电压3.7V，额定容量300mAh/1.11Wh。"
           }
         },
         {
-          "text": "接近圆形的箔片，用于感知触摸操作；指示灯位置有保护罩防止漏光，内有防尘网。",
-          "tag": "防水防尘",
+          "text": "标记/认证：软包电池型号N501010，额定电压3.7V，额定容量40mAh/0.148Wh。",
+          "tag": "其他",
           "evidence": {
-            "value": "接近圆形的箔片，用于感知触摸操作；指示灯位置有保护罩防止漏光，内有防尘网。",
-            "confidence": 0.55,
+            "value": "标记/认证：软包电池型号N501010，额定电压3.7V，额定容量40mAh/0.148Wh。",
+            "confidence": 0.56,
             "source_type": "text",
-            "source_text": "接近圆形的箔片，用于感知触摸操作；指示灯位置有保护罩防止漏光，内有防尘网。"
+            "source_text": "标记/认证：软包电池型号N501010，额定电压3.7V，额定容量40mAh/0.148Wh。"
           }
         }
       ],
@@ -77,19 +87,18 @@
         "运动",
         "通话"
       ],
-      "positioning_summary": "耳机内侧的条形泄压孔，内有防尘网。",
+      "positioning_summary": "360近年来积极 […]\n耳机内侧的条形泄压孔，内有防尘网。",
       "launch_date_evidence": null,
       "price_evidence": null
     },
     "cost": {
       "major_parts": [
-        "充电仓",
         "电池",
+        "充电仓",
         "主板/PCBA",
-        "喇叭单元",
         "麦克风",
-        "降噪系统",
-        "天线"
+        "喇叭单元",
+        "降噪系统"
       ],
       "chip_modules": [
         {
@@ -109,20 +118,6 @@
       ],
       "bom_table": [
         {
-          "component": "充电仓",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "major",
-          "evidence": {
-            "value": "充电仓",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "包装盒内物品，耳机和充电盒、充电线，以及说明书。"
-          }
-        },
-        {
           "component": "电池",
           "brand": "",
           "model": "",
@@ -131,6 +126,20 @@
           "role": "major",
           "evidence": {
             "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒内部背面展示，电池竖置。"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
             "confidence": 0.72,
             "source_type": "text",
             "source_text": "充电盒内部背面展示，电池竖置。"
@@ -151,6 +160,20 @@
           }
         },
         {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "通话部分内置单MIC ENC降噪/AEC回音消除算法。"
+          }
+        },
+        {
           "component": "喇叭单元",
           "brand": "",
           "model": "",
@@ -165,73 +188,17 @@
           }
         },
         {
-          "component": "麦克风",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "major",
-          "evidence": {
-            "value": "麦克风",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "耳机柄底部的充电触点和通话麦克风拾音孔。"
-          }
-        },
-        {
           "component": "降噪系统",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "major",
-          "evidence": {
-            "value": "降噪系统",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "中科蓝讯AB5376A专为TWS耳机应用设计，芯片高度集成化，PCB外围物料精简。内置5V充电触点单线通讯、内置锂电池充电管理电路，适用于智能充电仓应用。通讯协议支持蓝牙5.0 EDR/BLE。支持主副耳无缝切换。通话部分内置单MIC ENC降噪/AEC回音消除算法。原厂提供配置化编程工具，方便客户产品迅速投入市场。"
-          }
-        },
-        {
-          "component": "天线",
           "brand": "",
           "model": "",
           "qty_hint": "",
           "side": "",
           "role": "major",
           "evidence": {
-            "value": "天线",
+            "value": "降噪系统",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "贴片陶瓷蓝牙天线特写，用于传输无线信号。"
-          }
-        },
-        {
-          "component": "指示灯",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "minor",
-          "evidence": {
-            "value": "指示灯",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "耳机和充电盒的指示灯均采用了隐藏设计。"
-          }
-        },
-        {
-          "component": "充电触点",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "minor",
-          "evidence": {
-            "value": "充电触点",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "耳机新品充电触点处有绝缘纸，减少开封前的电量损耗，使用时需撕下。"
+            "source_text": "通话部分内置单MIC ENC降噪/AEC回音消除算法。"
           }
         },
         {
@@ -249,31 +216,31 @@
           }
         },
         {
-          "component": "外壳结构",
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "接近圆形的箔片，用于感知触摸操作；指示灯位置有保护罩防止漏光，内有防尘网。"
+          }
+        },
+        {
+          "component": "充电触点",
           "brand": "",
           "model": "",
           "qty_hint": "",
           "side": "耳机",
           "role": "minor",
           "evidence": {
-            "value": "外壳结构",
+            "value": "充电触点",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "耳机外壳内侧展示。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "AB5376",
-          "qty_hint": "1",
-          "side": "耳机",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "AB5376",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "360 PopBuds SE 真无线耳机的主控芯片是中科蓝讯AB5376A 蓝牙音频SoC，AB5376A主要针对TWS耳机市场。"
+            "source_text": "耳机柄底部的充电触点和通话麦克风拾音孔。"
           }
         },
         {
@@ -287,32 +254,22 @@
             "value": "AB5376",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "中科蓝讯AB5376A详细信息。"
+            "source_text": "电池容量：300\n芯片 AB5376"
           }
         }
       ],
-      "supply_hints": [
-        {
-          "value": "原厂提供配置化编程工具，方便客户产品迅速投入市场。",
-          "evidence": {
-            "value": "原厂提供配置化编程工具，方便客户产品迅速投入市场。",
-            "confidence": 0.6,
-            "source_type": "text",
-            "source_text": "原厂提供配置化编程工具，方便客户产品迅速投入市场。"
-          }
-        }
-      ],
+      "supply_hints": [],
       "packaging_notes": [
         "包装盒内物品，耳机和充电盒、充电线，以及说明书。"
       ],
       "process_hints": [
         {
-          "value": "USB Type-C充电接口焊接在主板上。",
+          "value": "丝印LQAEA的一体化电池保护IC。",
           "evidence": {
-            "value": "USB Type-C充电接口焊接在主板上。",
+            "value": "丝印LQAEA的一体化电池保护IC。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "USB Type-C充电接口焊接在主板上。"
+            "source_text": "丝印LQAEA的一体化电池保护IC。"
           }
         },
         {
@@ -325,12 +282,12 @@
           }
         },
         {
-          "value": "软包电池型号M501340，容量300mAh，主板上有一颗一体化电池保护IC。",
+          "value": "充电接口：USB Type-C充电接口焊接在主板上。",
           "evidence": {
-            "value": "软包电池型号M501340，容量300mAh，主板上有一颗一体化电池保护IC。",
+            "value": "充电接口：USB Type-C充电接口焊接在主板上。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "软包电池型号M501340，容量300mAh，主板上有一颗一体化电池保护IC。"
+            "source_text": "充电接口：USB Type-C充电接口焊接在主板上。"
           }
         }
       ],
@@ -340,17 +297,10 @@
     "structure": {
       "form_factor": "真无线耳机TWS",
       "earbud_type": "入耳",
-      "materials": [
-        "硅胶",
-        "PC"
-      ],
+      "materials": [],
       "ip_rating": "IPX4",
-      "weight_g": "37克",
-      "dimensions": [
-        "扬声器单元尺寸约为9mm。",
-        "软包电池与一元硬币的尺寸对比。",
-        "耳机主板与一元硬币的尺寸对比。"
-      ],
+      "weight_g": null,
+      "dimensions": [],
       "internal_structure": [
         {
           "value": "充电盒内部背面展示，电池竖置。",
@@ -389,6 +339,24 @@
           }
         },
         {
+          "value": "通话部分内置单MIC ENC降噪/AEC回音消除算法。",
+          "evidence": {
+            "value": "通话部分内置单MIC ENC降噪/AEC回音消除算法。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "通话部分内置单MIC ENC降噪/AEC回音消除算法。"
+          }
+        },
+        {
+          "value": "耳机柄底部的充电触点和通话麦克风拾音孔。",
+          "evidence": {
+            "value": "耳机柄底部的充电触点和通话麦克风拾音孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机柄底部的充电触点和通话麦克风拾音孔。"
+          }
+        },
+        {
           "value": "今天我爱音频网拆解的是360 PopBuds SE 真无线蓝牙耳机，这款产品采用蓝牙5.0芯片，官方宣传支持智能降噪，支持快充，内置动圈单元，但没有具体说明；耳机支持IPX4级防水，可运动佩戴，支持触控。下面一起来看详细的拆解报告吧。",
           "evidence": {
             "value": "今天我爱音频网拆解的是360 PopBuds SE 真无线蓝牙耳机，这款产品采用蓝牙5.0芯片，官方宣传支持智能降噪，支持快充，内置动圈单元，但没有具体说明；耳机支持IPX4级防水，可运动佩戴，支持触控。下面一起来看详细的拆解报告吧。",
@@ -405,27 +373,18 @@
             "source_type": "text",
             "source_text": "动圈扬声器单元采用胶水固定。"
           }
-        },
-        {
-          "value": "耳机柄底部的充电触点和通话麦克风拾音孔。",
-          "evidence": {
-            "value": "耳机柄底部的充电触点和通话麦克风拾音孔。",
-            "confidence": 0.74,
-            "source_type": "text",
-            "source_text": "耳机柄底部的充电触点和通话麦克风拾音孔。"
-          }
-        },
-        {
-          "value": "通话麦克风的保护罩，提升密闭性和拾音能力。",
-          "evidence": {
-            "value": "通话麦克风的保护罩，提升密闭性和拾音能力。",
-            "confidence": 0.74,
-            "source_type": "text",
-            "source_text": "通话麦克风的保护罩，提升密闭性和拾音能力。"
-          }
         }
       ],
       "fastener_type": [
+        {
+          "value": "充电盒底部是主板电路，使用两颗螺丝固定，芯片上有一张二维码贴纸。",
+          "evidence": {
+            "value": "充电盒底部是主板电路，使用两颗螺丝固定，芯片上有一张二维码贴纸。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "充电盒底部是主板电路，使用两颗螺丝固定，芯片上有一张二维码贴纸。"
+          }
+        },
         {
           "value": "充电盒底部是主板电路，使用两颗螺丝固定，芯片上有一张二维码贴纸。",
           "evidence": {
@@ -447,21 +406,12 @@
       ],
       "sealing_method": [
         {
-          "value": "今天我爱音频网拆解的是360 PopBuds SE 真无线蓝牙耳机，这款产品采用蓝牙5.0芯片，官方宣传支持智能降噪，支持快充，内置动圈单元，但没有具体说明；耳机支持IPX4级防水，可运动佩戴，支持触控。",
+          "value": "360近年来积极 […]\n耳机内侧的条形泄压孔，内有防尘网。",
           "evidence": {
-            "value": "今天我爱音频网拆解的是360 PopBuds SE 真无线蓝牙耳机，这款产品采用蓝牙5.0芯片，官方宣传支持智能降噪，支持快充，内置动圈单元，但没有具体说明；耳机支持IPX4级防水，可运动佩戴，支持触控。",
+            "value": "360近年来积极 […]\n耳机内侧的条形泄压孔，内有防尘网。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "今天我爱音频网拆解的是360 PopBuds SE 真无线蓝牙耳机，这款产品采用蓝牙5.0芯片，官方宣传支持智能降噪，支持快充，内置动圈单元，但没有具体说明；耳机支持IPX4级防水，可运动佩戴，支持触控。"
-          }
-        },
-        {
-          "value": "耳机内侧的条形泄压孔，内有防尘网。",
-          "evidence": {
-            "value": "耳机内侧的条形泄压孔，内有防尘网。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "耳机内侧的条形泄压孔，内有防尘网。"
+            "source_text": "360近年来积极 […]\n耳机内侧的条形泄压孔，内有防尘网。"
           }
         },
         {
@@ -481,6 +431,24 @@
             "source_type": "text",
             "source_text": "接近圆形的箔片，用于感知触摸操作；指示灯位置有保护罩防止漏光，内有防尘网。"
           }
+        },
+        {
+          "value": "今天我爱音频网拆解的是360 PopBuds SE 真无线蓝牙耳机，这款产品采用蓝牙5.0芯片，官方宣传支持智能降噪，支持快充，内置动圈单元，但没有具体说明；耳机支持IPX4级防水，可运动佩戴，支持触控。",
+          "evidence": {
+            "value": "今天我爱音频网拆解的是360 PopBuds SE 真无线蓝牙耳机，这款产品采用蓝牙5.0芯片，官方宣传支持智能降噪，支持快充，内置动圈单元，但没有具体说明；耳机支持IPX4级防水，可运动佩戴，支持触控。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "今天我爱音频网拆解的是360 PopBuds SE 真无线蓝牙耳机，这款产品采用蓝牙5.0芯片，官方宣传支持智能降噪，支持快充，内置动圈单元，但没有具体说明；耳机支持IPX4级防水，可运动佩戴，支持触控。"
+          }
+        },
+        {
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：今天我爱音频网拆解的是360 PopBuds SE 真无线蓝牙耳机，这款产品采用蓝牙5.0芯片，官方宣传支持智能降噪，支持快充，内置动圈单元，但没有具体说明；耳机支持IPX4级防水，可运动佩戴，支持触控。",
+          "evidence": {
+            "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：今天我爱音频网拆解的是360 PopBuds SE 真无线蓝牙耳机，这款产品采用蓝牙5.0芯片，官方宣传支持智能降噪，支持快充，内置动圈单元，但没有具体说明；耳机支持IPX4级防水，可运动佩戴，支持触控。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：今天我爱音频网拆解的是360 PopBuds SE 真无线蓝牙耳机，这款产品采用蓝牙5.0芯片，官方宣传支持智能降噪，支持快充，内置动圈单元，但没有具体说明；耳机支持IPX4级防水，可运动佩戴，支持触控。"
+          }
         }
       ],
       "wear_design": [
@@ -494,61 +462,16 @@
           }
         },
         {
-          "value": "可替换的两对硅胶耳塞，耳机上自带的是中号。",
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：今天我爱音频网拆解的是360 PopBuds SE 真无线蓝牙耳机，这款产品采用蓝牙5.0芯片，官方宣传支持智能降噪，支持快充，内置动圈单元，但没有具体说明；耳机支持IPX4级防水，可运动佩戴，支持触控。",
           "evidence": {
-            "value": "可替换的两对硅胶耳塞，耳机上自带的是中号。",
+            "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：今天我爱音频网拆解的是360 PopBuds SE 真无线蓝牙耳机，这款产品采用蓝牙5.0芯片，官方宣传支持智能降噪，支持快充，内置动圈单元，但没有具体说明；耳机支持IPX4级防水，可运动佩戴，支持触控。",
             "confidence": 0.7,
             "source_type": "text",
-            "source_text": "可替换的两对硅胶耳塞，耳机上自带的是中号。"
-          }
-        },
-        {
-          "value": "我爱音频网总结\n360 PopBuds SE 真无线耳机外观设计比较简洁，耳机和充电盒的指示灯均采用了隐藏设计，只有充电盒机身上有一个品牌Logo；耳机和充电盒的重量都比较轻，利于佩戴和携带。",
-          "evidence": {
-            "value": "我爱音频网总结\n360 PopBuds SE 真无线耳机外观设计比较简洁，耳机和充电盒的指示灯均采用了隐藏设计，只有充电盒机身上有一个品牌Logo；耳机和充电盒的重量都比较轻，利于佩戴和携带。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "我爱音频网总结\n360 PopBuds SE 真无线耳机外观设计比较简洁，耳机和充电盒的指示灯均采用了隐藏设计，只有充电盒机身上有一个品牌Logo；耳机和充电盒的重量都比较轻，利于佩戴和携带。"
+            "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：今天我爱音频网拆解的是360 PopBuds SE 真无线蓝牙耳机，这款产品采用蓝牙5.0芯片，官方宣传支持智能降噪，支持快充，内置动圈单元，但没有具体说明；耳机支持IPX4级防水，可运动佩戴，支持触控。"
           }
         }
       ],
-      "key_image_urls": [
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/360-PopBuds-SE-1.jpg",
-          "alt": "拆解报告：360 PopBuds SE 真无线蓝牙耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/360-PopBuds-SE-2.jpg",
-          "alt": "拆解报告：360 PopBuds SE 真无线蓝牙耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/360-PopBuds-SE-3.jpg",
-          "alt": "拆解报告：360 PopBuds SE 真无线蓝牙耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/360-PopBuds-SE-4.jpg",
-          "alt": "拆解报告：360 PopBuds SE 真无线蓝牙耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/360-PopBuds-SE-5.jpg",
-          "alt": "拆解报告：360 PopBuds SE 真无线蓝牙耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        }
-      ],
+      "key_image_urls": [],
       "assembly_notes": [
         "充电盒内部背面展示，电池竖置。",
         "丝印LQAEA的一体化电池保护IC。",
@@ -561,59 +484,67 @@
         "source_type": "text",
         "source_text": "IPX4"
       },
-      "weight_evidence": {
-        "value": "37克",
-        "confidence": 0.75,
-        "source_type": "text",
-        "source_text": "37克"
-      }
+      "weight_evidence": null,
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": null,
+      "weight_earbud_evidence": null
     },
     "hardware": {
       "specs": [
         {
           "param": "充电方式",
-          "value": "我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对360 PopBuds SE 真无线耳机进行有线充电测试，充电功率约为1.6W。",
+          "value": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对360 PopBuds SE 真无线耳机进行有线充电测试，充电功率约为1.6W。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对360 PopBuds SE 真无线耳机进行有线充电测试，充电功率约为1.6W。"
+          "source_ref": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对360 PopBuds SE 真无线耳机进行有线充电测试，充电功率约为1.6W。"
         },
         {
           "param": "充电接口",
-          "value": "充电线为USB-A to USB Type-C接口。",
+          "value": "充电接口：充电线为USB-A to USB Type-C接口。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "充电线为USB-A to USB Type-C接口。"
+          "source_ref": "充电接口：充电线为USB-A to USB Type-C接口。"
         },
         {
           "param": "充电接口",
-          "value": "USB Type-C充电接口位于充电盒底部。",
+          "value": "充电接口：USB Type-C充电接口位于充电盒底部。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "USB Type-C充电接口位于充电盒底部。"
+          "source_ref": "充电接口：USB Type-C充电接口位于充电盒底部。"
         },
         {
           "param": "充电接口",
-          "value": "USB Type-C充电接口焊接在主板上。",
+          "value": "充电接口：USB Type-C充电接口焊接在主板上。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "USB Type-C充电接口焊接在主板上。"
+          "source_ref": "充电接口：USB Type-C充电接口焊接在主板上。"
         },
         {
           "param": "充电接口",
-          "value": "内部电路方面，360 PopBuds SE采用USB Type-C接口输入电源，微源半导体LP7802A支持1A线性充电、同步整流升压放电、负载识别、控制、状态指示、双通道独立放电功能，内置符合车规级标准的30V 过压保护，支持霍尔开关，左右耳独立识别独立充电，整仓无需MCU极简设计。",
+          "value": "充电接口：内部电路方面，360 PopBuds SE采用USB Type-C接口输入电源，微源半导体LP7802A支持1A线性充电、同步整流升压放电、负载识别、控制、状态指示、双通道独立放电功能，内置符合车规级标准的30V 过压保护，支持霍尔开关，左右耳独立识别独立充电，整仓无需MCU极简设计。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "内部电路方面，360 PopBuds SE采用USB Type-C接口输入电源，微源半导体LP7802A支持1A线性充电、同步整流升压放电、负载识别、控制、状态指示、双通道独立放电功能，内置符合车规级标准的30V 过压保护，支持霍尔开关，左"
+          "source_ref": "充电接口：内部电路方面，360 PopBuds SE采用USB Type-C接口输入电源，微源半导体LP7802A支持1A线性充电、同步整流升压放电、负载识别、控制、状态指示、双通道独立放电功能，内置符合车规级标准的30V 过压保护，支持霍"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：今天我爱音频网拆解的是360 PopBuds SE 真无线蓝牙耳机，这款产品采用蓝牙5.0芯片，官方宣传支持智能降噪，支持快充，内置动圈单元，但没有具体说明；耳机支持IPX4级防水，可运动佩戴，支持触控。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：今天我爱音频网拆解的是360 PopBuds SE 真无线蓝牙耳机，这款产品采用蓝牙5.0芯片，官方宣传支持智能降噪，支持快充，内置动圈单元，但没有具体说明；耳机支持IPX4级防水，"
         },
         {
           "param": "充电接口",
@@ -644,39 +575,48 @@
         },
         {
           "param": "标记/认证",
-          "value": "型号CE-2089B，输入电压DC 5V，蓝牙版本5.0，无障碍传输距离10米。",
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：今天我爱音频网拆解的是360 PopBuds SE 真无线蓝牙耳机，这款产品采用蓝牙5.0芯片，官方宣传支持智能降噪，支持快充，内置动圈单元，但没有具体说明；耳机支持IPX4级防水，可运动佩戴，支持触控。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "型号CE-2089B，输入电压DC 5V，蓝牙版本5.0，无障碍传输距离10米。"
+          "source_ref": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：今天我爱音频网拆解的是360 PopBuds SE 真无线蓝牙耳机，这款产品采用蓝牙5.0芯片，官方宣传支持智能降噪，支持快充，内置动圈单元，但没有具体说明；耳机支持IPX4级防水，"
         },
         {
           "param": "标记/认证",
-          "value": "充电盒背面的产品信息，型号CE-2089B，输入5V⎓290mA，输出5V⎓120mA。",
+          "value": "标记/认证：型号CE-2089B，输入电压DC 5V，蓝牙版本5.0，无障碍传输距离10米。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "充电盒背面的产品信息，型号CE-2089B，输入5V⎓290mA，输出5V⎓120mA。"
+          "source_ref": "标记/认证：型号CE-2089B，输入电压DC 5V，蓝牙版本5.0，无障碍传输距离10米。"
         },
         {
           "param": "标记/认证",
-          "value": "软包电池型号M501340，额定电压3.7V，额定容量300mAh/1.11Wh。",
+          "value": "标记/认证：充电盒背面的产品信息，型号CE-2089B，输入5V⎓290mA，输出5V⎓120mA。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "软包电池型号M501340，额定电压3.7V，额定容量300mAh/1.11Wh。"
+          "source_ref": "标记/认证：充电盒背面的产品信息，型号CE-2089B，输入5V⎓290mA，输出5V⎓120mA。"
         },
         {
           "param": "标记/认证",
-          "value": "软包电池型号N501010，额定电压3.7V，额定容量40mAh/0.148Wh。",
+          "value": "标记/认证：软包电池型号M501340，额定电压3.7V，额定容量300mAh/1.11Wh。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "软包电池型号N501010，额定电压3.7V，额定容量40mAh/0.148Wh。"
+          "source_ref": "标记/认证：软包电池型号M501340，额定电压3.7V，额定容量300mAh/1.11Wh。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "标记/认证：软包电池型号N501010，额定电压3.7V，额定容量40mAh/0.148Wh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "标记/认证：软包电池型号N501010，额定电压3.7V，额定容量40mAh/0.148Wh。"
         },
         {
           "param": "电池容量",
@@ -694,26 +634,7 @@
       "codecs": [],
       "multipoint": [],
       "app_name": "",
-      "app_features": [
-        {
-          "value": "中科蓝讯AB5376A专为TWS耳机应用设计，芯片高度集成化，PCB外围物料精简。",
-          "evidence": {
-            "value": "中科蓝讯AB5376A专为TWS耳机应用设计，芯片高度集成化，PCB外围物料精简。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "中科蓝讯AB5376A专为TWS耳机应用设计，芯片高度集成化，PCB外围物料精简。"
-          }
-        },
-        {
-          "value": "内置5V充电触点单线通讯、内置锂电池充电管理电路，适用于智能充电仓应用。",
-          "evidence": {
-            "value": "内置5V充电触点单线通讯、内置锂电池充电管理电路，适用于智能充电仓应用。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "内置5V充电触点单线通讯、内置锂电池充电管理电路，适用于智能充电仓应用。"
-          }
-        }
-      ],
+      "app_features": [],
       "ota_support": [
         {
           "value": "此前我爱音频网拆解过\n360可视门铃1C\n、\n360智能门铃\n、\n360行车记录仪尊享升级版\n、\n360 M1 AI智能音箱\n以及\n360 PlayBuds 真无线耳机\n。",

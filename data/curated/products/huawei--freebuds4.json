@@ -17,16 +17,16 @@
   "cost_snapshot": {
     "main_chip": "WP5101G",
     "pmic_case": "",
-    "battery_ear": "410 mAh",
-    "battery_case": "电池",
+    "battery_ear": "电池",
+    "battery_case": "410 mAh",
     "speaker": "喇叭单元",
     "materials": "塑料、PC",
-    "weight_g": "4.1克",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
     "bluetooth": "5.2",
-    "bom_row_count": 12,
+    "bom_row_count": 8,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -47,7 +47,49 @@
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "华为FreeBuds 4 充电盒延续了经典的“圆饼”式外观，相较于上代产品更加的小巧和轻薄，并且无线充电功能成为标配；耳机采用双麦克风混合降噪技术，搭配毫米级人耳空间声波检测，可以智能优化降噪效果；耳机的拾音麦克风采用半封闭防风噪设计，以降低风噪干扰；内置14.3mm宽音域发声单元，独立音腔设计，支持AEM人耳自适应音频技术，可以实现个性化的音乐体验。"
+        "source_text": "续航方面，华为FreeBuds 4在仅蓝牙模式下的单次续航时间为4小时，搭配充电盒总续航时间为22小时；开启降噪模式，耳机单次续航时间2.5小时，整体续航时间14小时；耳机支持快充功能，充电15分钟可播放音乐2.5小时。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "电池通过FPC与主板相连。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "半入耳式真无线耳机佩戴舒适，非常受到消费者的欢迎，但由于结构问题佩戴稳定性一般，想要支持ANC主动降噪功能也并 […]"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "前馈麦克风的拾音孔在耳机柄顶部，收集环境声音用于主动降噪、通话降噪、环境音模式等。"
       }
     },
     {
@@ -65,48 +107,6 @@
       }
     },
     {
-      "component": "电池",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "电池",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "盒盖内侧信息，充电盒型号T0004C，电池容量410mAh，华为终端有限公司设计，中国制造。"
-      }
-    },
-    {
-      "component": "麦克风",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "麦克风",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "华为FreeBuds 4 充电盒延续了经典的“圆饼”式外观，相较于上代产品更加的小巧和轻薄，并且无线充电功能成为标配；耳机采用双麦克风混合降噪技术，搭配毫米级人耳空间声波检测，可以智能优化降噪效果；耳机的拾音麦克风采用半封闭防风噪设计，以降低风噪干扰；内置14.3mm宽音域发声单元，独立音腔设计，支持AEM人耳自适应音频技术，可以实现个性化的音乐体验。"
-      }
-    },
-    {
-      "component": "降噪系统",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "降噪系统",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "半入耳式真无线耳机佩戴舒适，非常受到消费者的欢迎，但由于结构问题佩戴稳定性一般，想要支持ANC主动降噪功能也并不容易。华为在FreeBuds 3无线耳机上首先做了尝试，近来又发布了新款FreeBuds 4 无线耳机，业界首发半开放式自适应降噪技术（AEM），最大降噪深度可以达到25dB，实属不易。"
-      }
-    },
-    {
       "component": "喇叭单元",
       "brand": "",
       "model": "",
@@ -121,73 +121,17 @@
       }
     },
     {
-      "component": "天线",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "天线",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "传输蓝牙信号的LDS天线特写。"
-      }
-    },
-    {
       "component": "触控/按键",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "minor",
       "evidence": {
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "包装盒背面标有5个华为FreeBuds 4 无线耳机的功能特点，包括半开放主动降噪、舒适佩戴、高解析音质、设备双连接、触控操作、游戏低时延。"
-      }
-    },
-    {
-      "component": "外壳结构",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "外壳结构",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "入耳处壳体内侧展示，有用于入耳检测功能的光学传感器，旁边是前腔的泄压/调音孔。"
-      }
-    },
-    {
-      "component": "充电触点",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机柄底部有两个充电触点，底部通话麦克风位置采用半封闭结构，通话时可以降低风噪的干扰。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "这条FPC连接侧边的金属弹片、较小的PCB、指示灯和霍尔元件以及较大的PCB。"
+        "source_text": "微动按键所在的PCB通过金属弹片连接主板电路。"
       }
     },
     {
@@ -201,7 +145,7 @@
         "value": "WP5101G",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "WP5101GC 无线充电接收芯片。"
+        "source_text": "充电方式：WP5101GC 无线充电接收芯片。"
       }
     }
   ],
@@ -227,6 +171,16 @@
           "confidence": 0.7,
           "source_type": "text",
           "source_text": "左上角是产品名“华为FreeBuds 4 无线耳机”，耳机特色功能包括半开放主动降噪2.0、空气感舒适佩戴、高解析音质。"
+        }
+      },
+      {
+        "text": "半入耳式真无线耳机佩戴舒适，非常受到消费者的欢迎，但由于结构问题佩戴稳定性一般，想要支持ANC主动降噪功能也并 […]\n左上角是产品名“华为FreeBuds 4 无线耳机”，耳机特色功能包括半开放主动降噪2.0、空气感舒适佩戴、高解析音质。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "半入耳式真无线耳机佩戴舒适，非常受到消费者的欢迎，但由于结构问题佩戴稳定性一般，想要支持ANC主动降噪功能也并 […]\n左上角是产品名“华为FreeBuds 4 无线耳机”，耳机特色功能包括半开放主动降噪2.0、空气感舒适佩戴、高解析音质。",
+          "confidence": 0.69,
+          "source_type": "text",
+          "source_text": "半入耳式真无线耳机佩戴舒适，非常受到消费者的欢迎，但由于结构问题佩戴稳定性一般，想要支持ANC主动降噪功能也并 […]\n左上角是产品名“华为FreeBuds 4 无线耳机”，耳机特色功能包括半开放主动降噪2.0、空气感舒适佩戴、高解析音质。"
         }
       },
       {
@@ -268,20 +222,9 @@
           "source_type": "text",
           "source_text": "华为FreeBuds 4 充电盒延续了经典的“圆饼”式外观，相较于上代产品更加的小巧和轻薄，并且无线充电功能成为标配；耳机采用双麦克风混合降噪技术，搭配毫米级人耳空间声波检测，可以智能优化降噪效果；耳机的拾音麦克风采用半封闭防风噪设计，以降低风噪干扰；内置14.3mm宽音域发声单元，独立音腔设计，支持AEM人耳自适应音频技术，可以实现个性化的音乐体验。"
         }
-      },
-      {
-        "text": "华为在FreeBuds 3无线耳机上首先做了尝试，近来又发布了新款FreeBuds 4 无线耳机，业界首发半开放式自适应降噪技术（AEM），最大降噪深度可以达到25dB，实属不易。",
-        "tag": "降噪",
-        "evidence": {
-          "value": "华为在FreeBuds 3无线耳机上首先做了尝试，近来又发布了新款FreeBuds 4 无线耳机，业界首发半开放式自适应降噪技术（AEM），最大降噪深度可以达到25dB，实属不易。",
-          "confidence": 0.55,
-          "source_type": "text",
-          "source_text": "华为在FreeBuds 3无线耳机上首先做了尝试，近来又发布了新款FreeBuds 4 无线耳机，业界首发半开放式自适应降噪技术（AEM），最大降噪深度可以达到25dB，实属不易。"
-        }
       }
     ],
     "scenarios": [
-      "游戏",
       "通话"
     ],
     "positioning_summary": "左上角是产品名“华为FreeBuds 4 无线耳机”，耳机特色功能包括半开放主动降噪2.0、空气感舒适佩戴、高解析音质。",

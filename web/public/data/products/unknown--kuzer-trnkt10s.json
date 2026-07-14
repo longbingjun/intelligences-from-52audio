@@ -21,7 +21,9 @@
     "battery_case": "3.7V/400mAh锂电池",
     "speaker": "振膜动圈",
     "materials": "",
-    "weight_g": "5.5g",
+    "weight_g": "47.0g",
+    "weight_case_g": "",
+    "weight_earbud_g": "5.5g",
     "ip_rating": "IPX5",
     "bluetooth": "6.0",
     "bom_row_count": 21,
@@ -303,6 +305,20 @@
     {
       "component": "芯片/模组",
       "brand": "",
+      "model": "IP5333",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5333",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "IP5333非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
       "model": "WINSEMI稳先微WSDF2320A",
       "qty_hint": "1",
       "side": "",
@@ -312,20 +328,6 @@
         "confidence": 0.78,
         "source_type": "text",
         "source_text": "WINSEMI稳先微WSDF2320A锂电保护IC，具有过充、过放、过流、短路等电池需要的所有保护功能。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "Bluetrum中科蓝讯BT8952F",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "Bluetrum中科蓝讯BT8952F",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "Bluetrum中科蓝讯BT8952F蓝牙音频SoC，支持蓝牙6.0 LE Audio协议及LC3编解码，内置32位高性能RISC-V处理器核心和HIFI 4 DSP，内置24bit双声道DAC和24bit单声道ADC，支持2路MIC放大器输入，支持AI通话降噪算法，支持前馈、及混合主动降噪，集成触控，PMU等模块。"
       }
     }
   ],

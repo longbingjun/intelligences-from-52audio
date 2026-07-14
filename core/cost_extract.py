@@ -167,6 +167,16 @@ def extract_cost_fields(views: dict, *, row_fallback: dict | None = None) -> dic
         str(structure.get("weight_g") or ""),
         w_ev.get("source_text", "") if isinstance(w_ev, dict) else "",
     )
+    wc_ev = structure.get("weight_case_evidence") or {}
+    out["weight_case_g"] = cell(
+        str(structure.get("weight_case_g") or ""),
+        wc_ev.get("source_text", "") if isinstance(wc_ev, dict) else "",
+    )
+    we_ev = structure.get("weight_earbud_evidence") or {}
+    out["weight_earbud_g"] = cell(
+        str(structure.get("weight_earbud_g") or ""),
+        we_ev.get("source_text", "") if isinstance(we_ev, dict) else "",
+    )
     out["form_factor"] = cell(structure.get("form_factor") or "")
     out["earbud_type"] = cell(structure.get("earbud_type") or "")
 

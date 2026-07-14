@@ -3,37 +3,71 @@
   "brand": "",
   "model": "苹果Beats Solo Buds",
   "category": "真无线耳机TWS",
-  "report_ids": [],
+  "report_ids": [
+    "212545"
+  ],
   "video_ids": [
     "271331"
   ],
-  "related_report_ids": [],
+  "related_report_ids": [
+    "212545"
+  ],
   "related_video_ids": [
     "271331"
   ],
-  "first_seen": "2026-03-30",
+  "first_seen": "2024-09-19",
   "latest_published": "2026-03-30",
   "internal_match_suggestions": [],
   "cost_snapshot": {
-    "main_chip": null,
-    "pmic_case": null,
-    "battery_ear": null,
-    "battery_case": null,
-    "speaker": null,
-    "materials": null,
-    "weight_g": null,
-    "ip_rating": null,
-    "bluetooth": null,
-    "bom_row_count": 8,
+    "main_chip": "",
+    "pmic_case": "",
+    "battery_ear": "1V/05mAh钢壳扣式",
+    "battery_case": "105 mAh",
+    "speaker": "",
+    "materials": "硅胶、PC",
+    "weight_g": "32.3g",
+    "weight_case_g": "",
+    "weight_earbud_g": "5.7g",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 10,
     "price_cny": 1799.0,
     "price_layer": "channel",
     "channel_url": "https://detail.zol.com.cn/microphone/index2004956.shtml",
     "sales_hint": null,
-    "data_completeness": 0.0,
-    "best_report_id": null,
-    "best_video_id": "271331"
+    "data_completeness": 0.5,
+    "best_report_id": "212545",
+    "best_video_id": null
   },
   "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "1V/05mAh钢壳扣式",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "1V/05mAh钢壳扣式",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载105mAh大容量钢壳扣式电池，提供18小时的持久播放，弥补了部分续航的问题；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "其他配置多为定制型号，包括定制双层驱动单元，MediaTek联发科MT2827SA蓝牙音频SoC，以及一颗用于拾音的MEMS麦克风等。"
+      }
+    },
     {
       "component": "充电仓",
       "brand": "",
@@ -45,21 +79,7 @@
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机充电盒采用了长条型的统元型设计"
-      }
-    },
-    {
-      "component": "电池",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "电池",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒为内置理电池"
+        "source_text": "Beats Solo Buds真无线耳机充电盒采用了长条形的椭圆形设计，晶透红配色为半透明材质，能够看到内部耳机。充电盒未内置锂电池，因此实现了极致的轻巧便携。"
       }
     },
     {
@@ -73,7 +93,21 @@
         "value": "主板/PCBA",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "设置有主板单元"
+        "source_text": "后腔内部结构一览，设置有主板单元，排线通过BTB连接器连接。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Beats Solo Buds真无线耳机充电盒采用了长条形的椭圆形设计，晶透红配色为半透明材质，能够看到内部耳机。充电盒未内置锂电池，因此实现了极致的轻巧便携。"
       }
     },
     {
@@ -87,7 +121,7 @@
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "同时也是麦克风的实音孔"
+        "source_text": "其他方面，搭载定制设计的麦克风，采用先进的噪声学习算法，提供清晰通透的通话音质；兼容iOS和Android系统，搭配苹果手机、平板、笔记本等设备使用，支持一键配对，跨设备自动预先配对和查找等功能；安卓设备可通过Beats App进行各项功能控制。下面就来看看这款产品的详细拆解报告吧~"
       }
     },
     {
@@ -101,35 +135,7 @@
         "value": "天线",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "盖板下方设置有蓝牙天线和功能按键小板"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "下方隐藏有一颗屋里按键"
-      }
-    },
-    {
-      "component": "充电触点",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "排线连接充电触点"
+        "source_text": "盖板下方结构一览，设置有蓝牙天线和功能按键小板，下方开孔通过丝网防护。"
       }
     },
     {
@@ -137,20 +143,49 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
+      "side": "充电盒",
       "role": "minor",
       "evidence": {
         "value": "外壳结构",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "金透红配色的搬透明外壳"
+        "source_text": "撬开充电盒外壳，取出座舱结构。腔体内部设置有一天FPC排线连接所有组件。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机外侧外观一览，设计有“b”品牌LOGO。盖板采用了柔软的硅胶材质覆盖，下方隐藏有一颗物理按键，用于多功能控制。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机内侧设计有L/R左右标识，以及银色充电触点。"
       }
     }
   ],
   "summary_image_urls": [],
-  "summary_text": "",
+  "summary_text": "三、我爱音频网总结 Beats Solo Buds真无线耳机在外观方面，采用了非常轻盈小巧的的充电盒设计，带来了极致的便携性；晶透红配色的半透明外壳，使的观感更加潮流时尚。耳机延续了家族式的豆状设计，机身曲线在保证了舒适佩戴的同时，还能够帮助用户轻松拿捏。 内部主要配置方面，充电盒为了极致轻巧的外观设计，舍弃了内置锂电池，因此只相当于一个充电底座，需要连接电源为耳机充电。耳机内部搭载105mAh大容量钢壳扣式电池，提供18小时的持久播放，弥补了部分续航的问题；其他配置多为定制型号，包括定制双层驱动单元，MediaTek联发科MT2827SA蓝牙音频SoC，以及一颗用于拾音的MEMS麦克风等。",
   "layer_refs": {
     "technical": [
+      "report:212545",
       "video:271331"
     ],
     "channel": [
@@ -166,20 +201,72 @@
   "market": {
     "selling_points": [
       {
-        "text": "Beats Solo Buds真无线耳机主打音质体验，搭载定制声效系统，双层驱动单元设计，最大限度减少微失真；通过与出音嘴平行放置，实现更好地将声音传递到耳道；搭配激光切割的通风孔，进一步提高音频表现；还采用了清澈平衡的调音风格，呈现宽广音域和细腻的音乐细节。",
+        "text": "其他方面，搭载定制设计的麦克风，采用先进的噪声学习算法，提供清晰通透的通话音质；兼容iOS和Android系统，搭配苹果手机、平板、笔记本等设备使用，支持一键配对，跨设备自动预先配对和查找等功能；安卓设备可通过Beats App进行各项功能控制。",
         "tag": "其他",
         "evidence": {
-          "value": "Beats Solo Buds真无线耳机主打音质体验，搭载定制声效系统，双层驱动单元设计，最大限度减少微失真；通过与出音嘴平行放置，实现更好地将声音传递到耳道；搭配激光切割的通风孔，进一步提高音频表现；还采用了清澈平衡的调音风格，呈现宽广音域和细腻的音乐细节。",
-          "confidence": 0.71,
+          "value": "其他方面，搭载定制设计的麦克风，采用先进的噪声学习算法，提供清晰通透的通话音质；兼容iOS和Android系统，搭配苹果手机、平板、笔记本等设备使用，支持一键配对，跨设备自动预先配对和查找等功能；安卓设备可通过Beats App进行各项功能控制。",
+          "confidence": 0.75,
           "source_type": "text",
-          "source_text": "Beats Solo Buds真无线耳机主打音质体验，搭载定制声效系统，双层驱动单元设计，最大限度减少微失真；通过与出音嘴平行放置，实现更好地将声音传递到耳道；搭配激光切割的通风孔，进一步提高音频表现；还采用了清澈平衡的调音风格，呈现宽广音域和细腻的音乐细节。"
+          "source_text": "其他方面，搭载定制设计的麦克风，采用先进的噪声学习算法，提供清晰通透的通话音质；兼容iOS和Android系统，搭配苹果手机、平板、笔记本等设备使用，支持一键配对，跨设备自动预先配对和查找等功能；安卓设备可通过Beats App进行各项功能控制。"
+        }
+      },
+      {
+        "text": "耳机延续了家族式的豆状设计，机身曲线在保证了舒适佩戴的同时，还能够帮助用户轻松拿捏。",
+        "tag": "舒适佩戴",
+        "evidence": {
+          "value": "耳机延续了家族式的豆状设计，机身曲线在保证了舒适佩戴的同时，还能够帮助用户轻松拿捏。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "耳机延续了家族式的豆状设计，机身曲线在保证了舒适佩戴的同时，还能够帮助用户轻松拿捏。"
+        }
+      },
+      {
+        "text": "在2024年6月，苹果旗下Beats品牌上架了一款TWS耳机新品——Beats Solo Buds，采用了Beats有史以来最小的耳机盒，搭载了完全定制的声学架构，兼容iOS和Android系统，拥有长达18小时的续航时间。",
+        "tag": "长续航",
+        "evidence": {
+          "value": "在2024年6月，苹果旗下Beats品牌上架了一款TWS耳机新品——Beats Solo Buds，采用了Beats有史以来最小的耳机盒，搭载了完全定制的声学架构，兼容iOS和Android系统，拥有长达18小时的续航时间。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "在2024年6月，苹果旗下Beats品牌上架了一款TWS耳机新品——Beats Solo Buds，采用了Beats有史以来最小的耳机盒，搭载了完全定制的声学架构，兼容iOS和Android系统，拥有长达18小时的续航时间。"
+        }
+      },
+      {
+        "text": "充电盒未内置锂电池，因此实现了极致的轻巧便携。",
+        "tag": "其他",
+        "evidence": {
+          "value": "充电盒未内置锂电池，因此实现了极致的轻巧便携。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "充电盒未内置锂电池，因此实现了极致的轻巧便携。"
+        }
+      },
+      {
+        "text": "三、我爱音频网总结\nBeats Solo Buds真无线耳机在外观方面，采用了非常轻盈小巧的的充电盒设计，带来了极致的便携性；晶透红配色的半透明外壳，使的观感更加潮流时尚。",
+        "tag": "其他",
+        "evidence": {
+          "value": "三、我爱音频网总结\nBeats Solo Buds真无线耳机在外观方面，采用了非常轻盈小巧的的充电盒设计，带来了极致的便携性；晶透红配色的半透明外壳，使的观感更加潮流时尚。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\nBeats Solo Buds真无线耳机在外观方面，采用了非常轻盈小巧的的充电盒设计，带来了极致的便携性；晶透红配色的半透明外壳，使的观感更加潮流时尚。"
+        }
+      },
+      {
+        "text": "内部主要配置方面，充电盒为了极致轻巧的外观设计，舍弃了内置锂电池，因此只相当于一个充电底座，需要连接电源为耳机充电。",
+        "tag": "其他",
+        "evidence": {
+          "value": "内部主要配置方面，充电盒为了极致轻巧的外观设计，舍弃了内置锂电池，因此只相当于一个充电底座，需要连接电源为耳机充电。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "内部主要配置方面，充电盒为了极致轻巧的外观设计，舍弃了内置锂电池，因此只相当于一个充电底座，需要连接电源为耳机充电。"
         }
       }
     ],
-    "scenarios": [],
-    "positioning_summary": "Beats Solo Buds真无线耳机主打音质体验，搭载定制声效系统，双层驱动单元设计，最大限度减少微失真；通过与出音嘴平行放置，实现更好地将声音传递到耳道；搭配激光切割的通风孔，进一步提高音频表现；还采用了清澈平衡的调音风格，呈现宽广音域和细腻的音乐细节。",
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "其他方面，搭载定制设计的麦克风，采用先进的噪声学习算法，提供清晰通透的通话音质；兼容iOS和Android系统，搭配苹果手机、平板、笔记本等设备使用，支持一键配对，跨设备自动预先配对和查找等功能；安卓设备可通过Beats App进行各项功能控制。",
     "launch_date": null,
-    "best_report_id": null,
-    "best_video_id": "271331"
+    "best_report_id": "212545",
+    "best_video_id": null
   }
 }

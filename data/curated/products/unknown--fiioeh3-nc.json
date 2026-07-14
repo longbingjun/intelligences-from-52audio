@@ -20,13 +20,13 @@
     "battery_ear": "电池",
     "battery_case": "1000 mAh",
     "speaker": "喇叭单元",
-    "materials": "硅胶、PC、ABS、皮革",
+    "materials": "",
     "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
-    "bluetooth": "5.0",
-    "bom_row_count": 12,
+    "bluetooth": "",
+    "bom_row_count": 9,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -37,6 +37,20 @@
   },
   "bom_table": [
     {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "采用了45mm扬声器单元，有线输入和蓝牙输入均获得Hi-Res Audio高解析认证；1000mAh大电池，为耳机实现长久的续航，电池组保护板采用精工保护IC和8205A电池保护管，防止电池过充过放；内置NFC蓝牙天线，可在关机状态下实现唤醒连接。"
+      }
+    },
+    {
       "component": "麦克风",
       "brand": "",
       "model": "",
@@ -45,6 +59,34 @@
       "role": "major",
       "evidence": {
         "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "FiiO飞傲是一家专注于无损音乐播放器、耳机功率放大器、耳机等多种便携式音频产品的创新型科技企业，以“音乐，乐无限”为音乐主张，不断为喜爱音乐，追求时尚、高品质生活的消费者创造更多好用好玩好听的音频产品。此前我爱音频网拆解过FiiO飞傲 M3 Pro便携式无损音乐播放器、FiiO飞傲μBTR蓝牙音频接收器、FiiO飞傲UTWS1真无线蓝牙接收器等产品。今天为大家带来了飞傲最新推出的一款支持主动降噪的头戴蓝牙耳机FiiO飞傲EH3 NC。FiiO飞傲EH3 NC 在外观设计上简约时尚，功能性完整。耳机采用可拆换耳罩设计，透气性耳罩、头垫网布，填充物柔软舒适；耳机外壳2.5D碳纤维玻璃纹理面板提升质感和辨识度；耳机可实现翻转、折叠和拉伸，可根据个性化需求自由调节。配置上采用高通蓝牙芯片，支持aptX高清格式蓝牙编码；ADI专业降噪芯片，多麦克风协同实现主动降噪功能；支持USB DAC功能，可为数字音频解码，支持3.5mm音频输入；还内置NFC，支持一触即连；续航时间更是达到了超长的50小时，降噪模式下还可实现30小时的续航。下面就让我们一起看看这款产品的内部构造吧~一、FiiO飞傲EH3 "
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "采用了45mm扬声器单元，有线输入和蓝牙输入均获得Hi-Res Audio高解析认证；1000mAh大电池，为耳机实现长久的续航，电池组保护板采用精工保护IC和8205A电池保护管，防止电池过充过放；内置NFC蓝牙天线，可在关机状态下实现唤醒连接。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "FiiO飞傲是一家专注于无损音乐播放器、耳机功率放大器、耳机等多种便携式音频产品的创新型科技企业，以“音乐，乐无限”为音乐主张，不断为喜爱音乐，追求时尚、高品质生活的消费者创造更多好用好玩好听的音频产品。此前我爱音频网拆解过FiiO飞傲 M3 Pro便携式无损音乐播放器、FiiO飞傲μBTR蓝牙音频接收器、FiiO飞傲UTWS1真无线蓝牙接收器等产品。今天为大家带来了飞傲最新推出的一款支持主动降噪的头戴蓝牙耳机FiiO飞傲EH3 NC。FiiO飞傲EH3 NC 在外观设计上简约时尚，功能性完整。耳机采用可拆换耳罩设计，透气性耳罩、头垫网布，填充物柔软舒适；耳机外壳2.5D碳纤维玻璃纹理面板提升质感和辨识度；耳机可实现翻转、折叠和拉伸，可根据个性化需求自由调节。配置上采用高通蓝牙芯片，支持aptX高清格式蓝牙编码；ADI专业降噪芯片，多麦克风协同实现主动降噪功能；支持USB DAC功能，可为数字音频解码，支持3.5mm音频输入；还内置NFC，支持一触即连；续航时间更是达到了超长的50小时，降噪模式下还可实现30小时的续航。下面就让我们一起看看这款产品的内部构造吧~一、FiiO飞傲EH3 "
@@ -65,87 +107,17 @@
       }
     },
     {
-      "component": "主板/PCBA",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "主板/PCBA",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "FiiO飞傲是一家专注于无损音乐播放器、耳机功率放大器、耳机等多种便携式音频产品的创新型科技企业，以“音乐，乐无限”为音乐主张，不断为喜爱音乐，追求时尚、高品质生活的消费者创造更多好用好玩好听的音频产品。此前我爱音频网拆解过FiiO飞傲 M3 Pro便携式无损音乐播放器、FiiO飞傲μBTR蓝牙音频接收器、FiiO飞傲UTWS1真无线蓝牙接收器等产品。今天为大家带来了飞傲最新推出的一款支持主动降噪的头戴蓝牙耳机FiiO飞傲EH3 NC。FiiO飞傲EH3 NC 在外观设计上简约时尚，功能性完整。耳机采用可拆换耳罩设计，透气性耳罩、头垫网布，填充物柔软舒适；耳机外壳2.5D碳纤维玻璃纹理面板提升质感和辨识度；耳机可实现翻转、折叠和拉伸，可根据个性化需求自由调节。配置上采用高通蓝牙芯片，支持aptX高清格式蓝牙编码；ADI专业降噪芯片，多麦克风协同实现主动降噪功能；支持USB DAC功能，可为数字音频解码，支持3.5mm音频输入；还内置NFC，支持一触即连；续航时间更是达到了超长的50小时，降噪模式下还可实现30小时的续航。下面就让我们一起看看这款产品的内部构造吧~一、FiiO飞傲EH3 "
-      }
-    },
-    {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "喇叭单元",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机扬声器盖板周围有密封海绵，中间有降噪麦克风，动圈振膜有金属光泽。"
-      }
-    },
-    {
-      "component": "电池",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "电池",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "卸掉螺丝，取掉腔体背部盖板。左侧耳机内为电池单元。"
-      }
-    },
-    {
       "component": "天线",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
+      "side": "耳机",
       "role": "major",
       "evidence": {
         "value": "天线",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "NFC天线小板特写，导线焊点胶水加固。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机外侧整体外观一览，操控按键集中在右耳，背板采用2.5D玻璃，内侧印刷碳纤维纹理。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "五颗电量指示灯特写，可随时查看耳机电量状态。"
+        "source_text": "采用了45mm扬声器单元，有线输入和蓝牙输入均获得Hi-Res Audio高解析认证；1000mAh大电池，为耳机实现长久的续航，电池组保护板采用精工保护IC和8205A电池保护管，防止电池过充过放；内置NFC蓝牙天线，可在关机状态下实现唤醒连接。"
       }
     },
     {
@@ -173,35 +145,21 @@
         "value": "高通aptX",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "正面左侧上方有FiiO品牌LOGO，下方有产品名称：EH3 NC；右侧上方有有线输入和蓝牙输入双重Hi-Res Audio 认证标志，下方有高通aptX HD、LDAC ANC、蓝牙/SBC/NFC连接标识；中间区域有右耳外观渲染图。"
+        "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：正面左侧上方有FiiO品牌LOGO，下方有产品名称：EH3 NC；右侧上方有有线输入和蓝牙输入双重Hi-Res Audio 认证标志，下方有高通aptX HD、LDAC ANC、蓝牙/SBC/NFC连接标识；中间区域有右耳外观渲染图。"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "高通 CSR8675",
+      "model": "高通aptX",
       "qty_hint": "1",
       "side": "",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "高通 CSR8675",
+        "value": "高通aptX",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "Qualcomm高通 CSR8675 蓝牙音频系统级芯片，支持蓝牙5.0，支持模拟和数字拾音器。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "高通 CSR8675",
-      "qty_hint": "1",
-      "side": "右耳",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "高通 CSR8675",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "左右耳总共配备了5颗麦克风，4颗MEMS硅麦配合两颗内置数字处理器的亚德诺半导体ADAU1777音频编解码器，实现极具深度的ANC主动降噪效果；主控芯片采用了Qualcomm高通 CSR8675 蓝牙音频系统级芯片，支持蓝牙5.0，支持模拟和数字拾音器；另外一颗驻极体麦克风则用于通话拾音；耳机驱动采用美信的MAX97220A，内置电荷泵，无需输出隔直电容，可以得到更好的频率响应。"
+        "source_text": "电池容量：1000\n芯片 高通aptX\n芯片 高通 CSR8675"
       }
     }
   ],
@@ -220,13 +178,23 @@
   "market": {
     "selling_points": [
       {
-        "text": "背面有产品名称：EH3 NC 头戴式无线降噪耳机，注意事项，广州飞傲电子科技有限公司部分信息以及FCC、CE认证等。",
+        "text": "FiiO飞傲是一家专注于无损音乐播放器、耳机功率放大器、耳机等多种便携式音频产品的创新型科技企业，以“音乐，乐 […]\n背面有产品名称：EH3 NC 头戴式无线降噪耳机，注意事项，广州飞傲电子科技有限公司部分信息以及FCC、CE认证等。",
         "tag": "降噪",
         "evidence": {
-          "value": "背面有产品名称：EH3 NC 头戴式无线降噪耳机，注意事项，广州飞傲电子科技有限公司部分信息以及FCC、CE认证等。",
+          "value": "FiiO飞傲是一家专注于无损音乐播放器、耳机功率放大器、耳机等多种便携式音频产品的创新型科技企业，以“音乐，乐 […]\n背面有产品名称：EH3 NC 头戴式无线降噪耳机，注意事项，广州飞傲电子科技有限公司部分信息以及FCC、CE认证等。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "FiiO飞傲是一家专注于无损音乐播放器、耳机功率放大器、耳机等多种便携式音频产品的创新型科技企业，以“音乐，乐 […]\n背面有产品名称：EH3 NC 头戴式无线降噪耳机，注意事项，广州飞傲电子科技有限公司部分信息以及FCC、CE认证等。"
+        }
+      },
+      {
+        "text": "标记/认证：背面有产品名称：EH3 NC 头戴式无线降噪耳机，注意事项，广州飞傲电子科技有限公司部分信息以及FCC、CE认证等。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "标记/认证：背面有产品名称：EH3 NC 头戴式无线降噪耳机，注意事项，广州飞傲电子科技有限公司部分信息以及FCC、CE认证等。",
           "confidence": 0.59,
           "source_type": "text",
-          "source_text": "背面有产品名称：EH3 NC 头戴式无线降噪耳机，注意事项，广州飞傲电子科技有限公司部分信息以及FCC、CE认证等。"
+          "source_text": "标记/认证：背面有产品名称：EH3 NC 头戴式无线降噪耳机，注意事项，广州飞傲电子科技有限公司部分信息以及FCC、CE认证等。"
         }
       },
       {
@@ -250,6 +218,16 @@
         }
       },
       {
+        "text": "标记/认证：采用了45mm扬声器单元，有线输入和蓝牙输入均获得Hi-Res Audio高解析认证；1000mAh大电池，为耳机实现长久的续航，电池组保护板采用精工保护IC和8205A电池保护管，防止电池过充过放；内置NFC蓝牙天线，可在关机状态下实现唤醒连接。",
+        "tag": "音质认证",
+        "evidence": {
+          "value": "标记/认证：采用了45mm扬声器单元，有线输入和蓝牙输入均获得Hi-Res Audio高解析认证；1000mAh大电池，为耳机实现长久的续航，电池组保护板采用精工保护IC和8205A电池保护管，防止电池过充过放；内置NFC蓝牙天线，可在关机状态下实现唤醒连接。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "标记/认证：采用了45mm扬声器单元，有线输入和蓝牙输入均获得Hi-Res Audio高解析认证；1000mAh大电池，为耳机实现长久的续航，电池组保护板采用精工保护IC和8205A电池保护管，防止电池过充过放；内置NFC蓝牙天线，可在关机状态下实现唤醒连接。"
+        }
+      },
+      {
         "text": "左侧耳机铰链结构处交接环带上印有有线输入和蓝牙输入双重Hi-Res Audio 认证标志。",
         "tag": "音质认证",
         "evidence": {
@@ -258,22 +236,10 @@
           "source_type": "text",
           "source_text": "左侧耳机铰链结构处交接环带上印有有线输入和蓝牙输入双重Hi-Res Audio 认证标志。"
         }
-      },
-      {
-        "text": "FiiO飞傲是一家专注于无损音乐播放器、耳机功率放大器、耳机等多种便携式音频产品的创新型科技企业，以“音乐，乐无限”为音乐主张，不断为喜爱音乐，追求时尚、高品质生活的消费者创造更多好用好玩好听的音频产品。",
-        "tag": "其他",
-        "evidence": {
-          "value": "FiiO飞傲是一家专注于无损音乐播放器、耳机功率放大器、耳机等多种便携式音频产品的创新型科技企业，以“音乐，乐无限”为音乐主张，不断为喜爱音乐，追求时尚、高品质生活的消费者创造更多好用好玩好听的音频产品。",
-          "confidence": 0.75,
-          "source_type": "text",
-          "source_text": "FiiO飞傲是一家专注于无损音乐播放器、耳机功率放大器、耳机等多种便携式音频产品的创新型科技企业，以“音乐，乐无限”为音乐主张，不断为喜爱音乐，追求时尚、高品质生活的消费者创造更多好用好玩好听的音频产品。"
-        }
       }
     ],
-    "scenarios": [
-      "通话"
-    ],
-    "positioning_summary": "背面有产品名称：EH3 NC 头戴式无线降噪耳机，注意事项，广州飞傲电子科技有限公司部分信息以及FCC、CE认证等。",
+    "scenarios": [],
+    "positioning_summary": "FiiO飞傲是一家专注于无损音乐播放器、耳机功率放大器、耳机等多种便携式音频产品的创新型科技企业，以“音乐，乐 […]\n背面有产品名称：EH3 NC 头戴式无线降噪耳机，注意事项，广州飞傲电子科技有限公司部分信息以及FCC、CE认证等。",
     "launch_date": null,
     "best_report_id": "58408",
     "best_video_id": null

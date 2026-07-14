@@ -1,0 +1,393 @@
+{
+  "canonical_id": "baseus--mc1",
+  "brand": "Baseus倍思",
+  "model": "MC1",
+  "category": "开放式耳机",
+  "report_ids": [
+    "222800"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "222800"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2024-12-19",
+  "latest_published": "2024-12-19",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "Bluetrum中科蓝讯BT8932D",
+    "pmic_case": "INJOINIC英集芯 Injoinic英集芯IP5528",
+    "battery_ear": "3.85V/48mAh软包扣式",
+    "battery_case": "WEL旭航诚 6V/00mAh锂电池",
+    "speaker": "11mm 动圈单元",
+    "materials": "硅胶、钛合金、PC",
+    "weight_g": "54.8g",
+    "weight_case_g": "",
+    "weight_earbud_g": "5.5g",
+    "ip_rating": "IPX7",
+    "bluetooth": "6.0",
+    "bom_row_count": 20,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "222800",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "Injoinic英集芯IP5528",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "PMIC/充电仓管理",
+      "evidence": {
+        "value": "Injoinic英集芯IP5528",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，采用了 Injoinic英集芯IP5528 TWS耳机充电仓管理SoC单芯片提供完整的解决方案，支持跟随充电功能，能够有效提升15%~20%充电盒电池到耳机电池的转换效率，进而提升15%~20%的综合续航时间。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "Bluetrum中科蓝讯",
+      "model": "Bluetrum中科蓝讯BT8932D",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Bluetrum中科蓝讯BT8932D",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片为Bluetrum中科蓝讯BT8932D蓝牙音频SoC，外围配备多颗Sunlord顺络电子MPHM系列功率电感。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "WEL旭航诚",
+      "model": "6V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "6V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置WEL旭航诚600mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3.85V/48mAh软包扣式",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "3.85V/48mAh软包扣式",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部，采用了11mm动圈单元，内置3.85V 48mAh软包扣式电池；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "11mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "11mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部，采用了11mm动圈单元，内置3.85V 48mAh软包扣式电池；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了一颗MEMS麦克风，用于语音通话拾音；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面介绍了产品的参数信息，名称：倍思开放式真无线蓝牙耳机，型号：PM138，蓝牙版本：V5.4，电池容量：50mAh/0.185Wh（耳机），600mAh/2.22Wh（充电仓），输入：DC5V-1A，输出：3.85V-240mA（120mA per port），频响范围：20Hz~20kHz，充电接口：Type-C；适用：具有蓝牙功能的播放设备；以及内部清单和深圳市倍思科技有限公司部分介绍。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面介绍了产品的参数信息，名称：倍思开放式真无线蓝牙耳机，型号：PM138，蓝牙版本：V5.4，电池容量：50mAh/0.185Wh（耳机），600mAh/2.22Wh（充电仓），输入：DC5V-1A，输出：3.85V-240mA（120mA per port），频响范围：20Hz~20kHz，充电接口：Type-C；适用：具有蓝牙功能的播放设备；以及内部清单和深圳市倍思科技有限公司部分介绍。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱内侧结构一览，上层通过螺丝固定主板单元，中间设置电池单元，起到很好的保护作用。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机后端腔体结构一览，外侧设计有麦克风拾音孔。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "断开导线，前腔内部扬声器单元结构一览，通过胶水固定。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体底部结构一览，设置有FPC蓝牙天线，通过触点连接主板。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "中科蓝讯BT8932D具有高性能立体声DAC，信噪比104dB，支持差分模式和VCMBUF模式；具有高性能单声道ADC，信噪比102dB；支持1路MIC放大器输入，支持灵活的音频均衡器调节，支持8、11.025、12、16、22.05、32、44.1、48、88.2、96、176.4和192KHz采样率；还支持AI DNN ENC降噪，支持低功耗触摸键、入耳检测，集成PMU，如充电器/降压/LDO。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身底部外观一览，设置有Type-C充电接口和用于蓝牙配对的功能按键。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出内部座舱结构。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Baseus倍思MC1开放式耳机充电盒采用了采用了鹅卵石状的圆润设计，磨砂质感，机身正面设计倒角，便于用户开启，下方设置指示灯，设计品牌LOGO。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "底部设置充电触点。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "随着不入耳佩戴的开放式耳机爆火，消费电子品牌Baseus倍思也相继推出了Eli 1i Fit、Eli Sport 1、AirGo AG20、AS01等多款产品，其中包括了耳挂式和耳夹式两种主流形态，为消费者提供了丰富的选择。近期，倍思再次推出了一款耳夹式设计的产品——MC1，外观上做了进一步优化，新增云朵气囊，保障舒适稳固佩戴。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Injoinic英集芯IP5528",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Injoinic英集芯IP5528",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Injoinic英集芯IP5528\nTWS耳机充电仓管理SoC，是一款集成MCU、升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5528",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5528",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "得益于IP5528的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸， 降低BOM成本。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Baseus倍思MC1开放式耳机在外观设计方面，充电设计圆润，体积轻巧，便于携带。耳机采用了耳夹式设计，耳夹内嵌柔软钛合金丝，通过柔软亲肤材质包裹，提供自适应的夹持力。同时，创新设计了创新设计的“云朵气囊”，进一步提升不同耳型的适配度，带来舒适稳定的佩戴体验。 内部主要配置方面，充电盒内置WEL旭航诚600mAh锂电池，配备有电路保护板负责过充电、过放电、过电流等保护。主板上，采用了 Injoinic英集芯IP5528 TWS耳机充电仓管理SoC单芯片提供完整的解决方案，支持跟随充电功能，能够有效提升15%~20%充电盒电池到耳机电池的转换效率，进而提升15%~20%的综合续航时间。 耳机内部，采用了11mm动圈单元，内置3.85V 48mAh软包扣式电池；主板上，搭载了一颗MEMS麦克风，用于语音通话拾音；主控芯片为Bluetrum中科蓝讯BT8932D蓝牙音频SoC，外围配备多颗Sunlord顺络电子MPHM系列功率电感。",
+  "layer_refs": {
+    "technical": [
+      "report:222800"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "在功能配置上，Baseus倍思MC1开放式耳机搭载了三磁路高灵敏单元，支持AI动态低音增强算法，提供饱满有力的低音效果；支持定向传音技术，减少漏音，保障用户隐私；支持BISA空间音效，带来360°全景环绕声场；还搭载了DNN智感通话降噪算法，实现清晰通话。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "在功能配置上，Baseus倍思MC1开放式耳机搭载了三磁路高灵敏单元，支持AI动态低音增强算法，提供饱满有力的低音效果；支持定向传音技术，减少漏音，保障用户隐私；支持BISA空间音效，带来360°全景环绕声场；还搭载了DNN智感通话降噪算法，实现清晰通话。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "在功能配置上，Baseus倍思MC1开放式耳机搭载了三磁路高灵敏单元，支持AI动态低音增强算法，提供饱满有力的低音效果；支持定向传音技术，减少漏音，保障用户隐私；支持BISA空间音效，带来360°全景环绕声场；还搭载了DNN智感通话降噪算法，实现清晰通话。"
+        }
+      },
+      {
+        "text": "音腔内侧，创新设计的“云朵气囊”，采用柔软亲肤的硅胶材质，能够更好地适应不同耳型，带来舒适稳定的佩戴体验。",
+        "tag": "其他",
+        "evidence": {
+          "value": "音腔内侧，创新设计的“云朵气囊”，采用柔软亲肤的硅胶材质，能够更好地适应不同耳型，带来舒适稳定的佩戴体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "音腔内侧，创新设计的“云朵气囊”，采用柔软亲肤的硅胶材质，能够更好地适应不同耳型，带来舒适稳定的佩戴体验。"
+        }
+      },
+      {
+        "text": "同时，创新设计了创新设计的“云朵气囊”，进一步提升不同耳型的适配度，带来舒适稳定的佩戴体验。",
+        "tag": "其他",
+        "evidence": {
+          "value": "同时，创新设计了创新设计的“云朵气囊”，进一步提升不同耳型的适配度，带来舒适稳定的佩戴体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "同时，创新设计了创新设计的“云朵气囊”，进一步提升不同耳型的适配度，带来舒适稳定的佩戴体验。"
+        }
+      },
+      {
+        "text": "中科蓝讯BT8932D具有高性能立体声DAC，信噪比104dB，支持差分模式和VCMBUF模式；具有高性能单声道ADC，信噪比102dB；支持1路MIC放大器输入，支持灵活的音频均衡器调节，支持8、11.025、12、16、22.05、32、44.1、48、88.2、96、176.4和192KHz采样率；还支持AI DNN ENC降噪，支持低功耗触摸键、入耳检测，集成PMU，如充电器/降压/LDO。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "中科蓝讯BT8932D具有高性能立体声DAC，信噪比104dB，支持差分模式和VCMBUF模式；具有高性能单声道ADC，信噪比102dB；支持1路MIC放大器输入，支持灵活的音频均衡器调节，支持8、11.025、12、16、22.05、32、44.1、48、88.2、96、176.4和192KHz采样率；还支持AI DNN ENC降噪，支持低功耗触摸键、入耳检测，集成PMU，如充电器/降压/LDO。",
+          "confidence": 0.69,
+          "source_type": "text",
+          "source_text": "中科蓝讯BT8932D具有高性能立体声DAC，信噪比104dB，支持差分模式和VCMBUF模式；具有高性能单声道ADC，信噪比102dB；支持1路MIC放大器输入，支持灵活的音频均衡器调节，支持8、11.025、12、16、22.05、32、44.1、48、88.2、96、176.4和192KHz采样率；还支持AI DNN ENC降噪，支持低功耗触摸键、入耳检测，集成PMU，如充电器/降压/LDO。"
+        }
+      },
+      {
+        "text": "下面来看看这款产品的详细拆解报告吧~\n我爱音频网还拆解过倍思\nEli Sport 1\n、\nAirGo AG20\n、\nAS01\n开放式耳机，\n倍思AeQur G10真无线双模耳机\n，\n倍思Bowie M3\n、\nBowie MA10\n、\nBowie M2s\n、\nBowie M2\n真无线降噪耳机，倍思\nBowie W04 Plus\n、\nBowie E5x\n、\nBowie E9\n、\nBowie E2\n、\nAirNora\n、\nEncok W01\n、\nEncok W04 Pro\n真无线耳机，\n倍思H1S头戴式降噪耳机\n，\n倍思AeQur V2便携式蓝牙音箱\n等产品。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "下面来看看这款产品的详细拆解报告吧~\n我爱音频网还拆解过倍思\nEli Sport 1\n、\nAirGo AG20\n、\nAS01\n开放式耳机，\n倍思AeQur G10真无线双模耳机\n，\n倍思Bowie M3\n、\nBowie MA10\n、\nBowie M2s\n、\nBowie M2\n真无线降噪耳机，倍思\nBowie W04 Plus\n、\nBowie E5x\n、\nBowie E9\n、\nBowie E2\n、\nAirNora\n、\nEncok W01\n、\nEncok W04 Pro\n真无线耳机，\n倍思H1S头戴式降噪耳机\n，\n倍思AeQur V2便携式蓝牙音箱\n等产品。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "下面来看看这款产品的详细拆解报告吧~\n我爱音频网还拆解过倍思\nEli Sport 1\n、\nAirGo AG20\n、\nAS01\n开放式耳机，\n倍思AeQur G10真无线双模耳机\n，\n倍思Bowie M3\n、\nBowie MA10\n、\nBowie M2s\n、\nBowie M2\n真无线降噪耳机，倍思\nBowie W04 Plus\n、\nBowie E5x\n、\nBowie E9\n、\nBowie E2\n、\nAirNora\n、\nEncok W01\n、\nEncok W04 Pro\n真无线耳机，\n倍思H1S头戴式降噪耳机\n，\n倍思AeQur V2便携式蓝牙音箱\n等产品。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "在功能配置上，Baseus倍思MC1开放式耳机搭载了三磁路高灵敏单元，支持AI动态低音增强算法，提供饱满有力的低音效果；支持定向传音技术，减少漏音，保障用户隐私；支持BISA空间音效，带来360°全景环绕声场；还搭载了DNN智感通话降噪算法，实现清晰通话。",
+    "launch_date": null,
+    "best_report_id": "222800",
+    "best_video_id": null
+  }
+}

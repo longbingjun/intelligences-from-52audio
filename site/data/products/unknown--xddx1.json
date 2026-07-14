@@ -1,0 +1,264 @@
+{
+  "canonical_id": "unknown--xddx1",
+  "brand": "",
+  "model": "凡纪x熊霸弹弹熊DDX1",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "116152"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "116152"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2022-05-07",
+  "latest_published": "2022-05-07",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "思远半导体SY8821",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "50 mAh",
+    "speaker": "喇叭单元",
+    "materials": "PC",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.0",
+    "bom_row_count": 10,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "116152",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盒盖内侧丝印有产品型号：DDX1，耳机电池容量：50mAh，充电盒电池容量：360mAh。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "思远半导体全线充电仓解决方案都通过IEC62368认证要求，降低客户过认证风险。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱另外一侧结构一览，有一条FPC排线连接到主板，排线上设置指示灯。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机内部搭载了动圈单元。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄底部设计有银色的尾塞，尾塞上设置充电触点和麦克风开孔。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱另外一侧结构一览，有一条FPC排线连接到主板，排线上设置指示灯。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄底部设计有银色的尾塞，尾塞上设置充电触点和麦克风开孔。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电方式：功能上支持蓝牙5.0，双通道传输，支持单/双耳模式无缝切换使用；支持游戏/音乐双模式，支持无线充电，触控操作等功能，拥有18小时的持久续航。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8821",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8821",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "充电接口：内部电路方面，充电盒内置360mAh锂离子电池，配备有独立电路保护板，支持有线和无线两种方式输入电源，采用了思远半导体SY8821电源管理SoC，内部集成充电模块和放电模块，并集成NTC保护功能，更安全的对电池进行充放电；微源LP6498A 600KHz 36V/1.2A 同步降压转换器，用于Type-C接口电源输入降压。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8821",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8821",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：50\n芯片 思远半导体SY8821"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:116152"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "标记/认证：三、我爱音频网总结\n凡纪DDX1真无线耳机作为一款与潮流IP联名产品，在外观设计上融入了熊霸弹弹熊的卡通形象，使整体产品外观更具个性化特征，且具有了较强的趣味性。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：三、我爱音频网总结\n凡纪DDX1真无线耳机作为一款与潮流IP联名产品，在外观设计上融入了熊霸弹弹熊的卡通形象，使整体产品外观更具个性化特征，且具有了较强的趣味性。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "标记/认证：三、我爱音频网总结\n凡纪DDX1真无线耳机作为一款与潮流IP联名产品，在外观设计上融入了熊霸弹弹熊的卡通形象，使整体产品外观更具个性化特征，且具有了较强的趣味性。"
+        }
+      },
+      {
+        "text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：熊霸弹弹熊是萌科文创旗下的原创IP，圆滚滚的身材，可爱形象受到众多粉丝喜爱。",
+        "tag": "其他",
+        "evidence": {
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：熊霸弹弹熊是萌科文创旗下的原创IP，圆滚滚的身材，可爱形象受到众多粉丝喜爱。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：熊霸弹弹熊是萌科文创旗下的原创IP，圆滚滚的身材，可爱形象受到众多粉丝喜爱。"
+        }
+      },
+      {
+        "text": "fingertime凡纪是一个时尚消费类电子品牌，旗下产品包括了头戴蓝牙耳机、蓝牙音箱、TWS真无线耳机等，基 […]\n支持5.0双模，支持蓝牙音频播放，同时加载音效，支持蓝牙免提通话，回声消除和降噪算法。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "fingertime凡纪是一个时尚消费类电子品牌，旗下产品包括了头戴蓝牙耳机、蓝牙音箱、TWS真无线耳机等，基 […]\n支持5.0双模，支持蓝牙音频播放，同时加载音效，支持蓝牙免提通话，回声消除和降噪算法。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "fingertime凡纪是一个时尚消费类电子品牌，旗下产品包括了头戴蓝牙耳机、蓝牙音箱、TWS真无线耳机等，基 […]\n支持5.0双模，支持蓝牙音频播放，同时加载音效，支持蓝牙免提通话，回声消除和降噪算法。"
+        }
+      },
+      {
+        "text": "标记/认证：耳机内部采用了软包锂离子电池，型号：JLT581013，容量：50mAh/0.185Wh，电压：3.7V，出厂日期：2021年3月11日。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：耳机内部采用了软包锂离子电池，型号：JLT581013，容量：50mAh/0.185Wh，电压：3.7V，出厂日期：2021年3月11日。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "标记/认证：耳机内部采用了软包锂离子电池，型号：JLT581013，容量：50mAh/0.185Wh，电压：3.7V，出厂日期：2021年3月11日。"
+        }
+      },
+      {
+        "text": "取掉耳塞，耳机出音嘴特写，防尘网防护，\n防止\n异物进入音腔。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "取掉耳塞，耳机出音嘴特写，防尘网防护，\n防止\n异物进入音腔。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "取掉耳塞，耳机出音嘴特写，防尘网防护，\n防止\n异物进入音腔。"
+        }
+      },
+      {
+        "text": "标记/认证：盒盖内侧丝印有产品型号：DDX1，耳机电池容量：50mAh，充电盒电池容量：360mAh。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：盒盖内侧丝印有产品型号：DDX1，耳机电池容量：50mAh，充电盒电池容量：360mAh。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "标记/认证：盒盖内侧丝印有产品型号：DDX1，耳机电池容量：50mAh，充电盒电池容量：360mAh。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "标记/认证：三、我爱音频网总结\n凡纪DDX1真无线耳机作为一款与潮流IP联名产品，在外观设计上融入了熊霸弹弹熊的卡通形象，使整体产品外观更具个性化特征，且具有了较强的趣味性。",
+    "launch_date": null,
+    "best_report_id": "116152",
+    "best_video_id": null
+  }
+}

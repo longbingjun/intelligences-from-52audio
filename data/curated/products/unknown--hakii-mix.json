@@ -21,16 +21,16 @@
   "cost_snapshot": {
     "main_chip": "Prisemi芯导P14C1S",
     "pmic_case": "",
-    "battery_ear": "1V/70mAh锂电池",
-    "battery_case": "电池",
-    "speaker": "动圈单元",
-    "materials": "硅胶、PC、皮革",
-    "weight_g": "87.4g",
+    "battery_ear": "电池",
+    "battery_case": "170 mAh",
+    "speaker": "喇叭单元",
+    "materials": "PC",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "IPX5",
     "bluetooth": "5.3",
-    "bom_row_count": 11,
+    "bom_row_count": 7,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -43,48 +43,6 @@
     {
       "component": "电池",
       "brand": "",
-      "model": "1V/70mAh锂电池",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "1V/70mAh锂电池",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "其他方面，左侧腔体内置锂离子电池，容量170mAh，来自CEL金赛尔，配备有电路保护板负责过充电、过放电、过电流等保护。"
-      }
-    },
-    {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "动圈单元",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "动圈单元",
-        "confidence": 0.8,
-        "source_type": "summary_prose",
-        "source_text": "内部结构配置方面，左右腔体内部元器件通过排线穿过头带连接，均搭载了22mm大动圈单元，提供强劲饱满的音频效果。"
-      }
-    },
-    {
-      "component": "麦克风",
-      "brand": "",
-      "model": "MEMS麦克风",
-      "qty_hint": "2",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "MEMS麦克风",
-        "confidence": 0.78,
-        "source_type": "summary_prose",
-        "source_text": "右侧腔体内置主板单元，搭载了两颗MEMS麦克风运用波束成形技术组成陈列，用于双麦通话降噪功能；"
-      }
-    },
-    {
-      "component": "电池",
-      "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "",
@@ -93,7 +51,21 @@
         "value": "电池",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "包装盒背面展示有产品的简笔图，创新发带设计、空气传导技术、22mm超大扬声器、双麦高清通话、蓝牙5.3无线音频芯片和8小时长续航的功能特点，以及参数信息。型号：HAKII MIX，充电端口：Type-C，电池容量：170mAh，输入：5V-500mA，防水等级：IPX5，无线连接：蓝牙5.3，工作距离：15米（无障碍），充电时间：约1.5小时；制造商：广州海葳特科技有限公司。"
+        "source_text": "左侧腔体内部设置有扬声器和电池单元，以及一块PCB小板。小板通过ZIF连接器连接与右侧腔体内部元器件连接的排线。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "镭雕2102 1881的MEMS麦克风特写，用于通话降噪功能拾音。"
       }
     },
     {
@@ -108,20 +80,6 @@
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "左侧腔体底部结构一览，排线穿过头带连接到右侧主板。"
-      }
-    },
-    {
-      "component": "麦克风",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "麦克风",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "功能配置方面，哈氪·无界搭载了22mm低音大喇叭，通过abTube声平衡导管专利技术，强化低频效果，较小漏音；内置双麦克风单元，支持通话降噪功能，提供清晰地语音通话效果；支持蓝牙5.3，提供更快、更稳、更低延迟的无线传输；支持快速充电，充电10分钟，可运动使用75分钟，充满电单次续航达到了8小时。下面就让我们来看看这款产品的详细拆解报告吧~"
       }
     },
     {
@@ -153,20 +111,6 @@
       }
     },
     {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "主机顶部外观一览，均设置有椭圆形的通气孔，通过金属盖板防护。左侧还设置有电源开关，右侧设置加/减音量按键，加号键右侧有盲点，便于盲操作。"
-      }
-    },
-    {
       "component": "指示灯",
       "brand": "",
       "model": "",
@@ -191,12 +135,12 @@
         "value": "Prisemi芯导P14C1S",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "Prisemi芯导P14C1S过压过流保护IC，输入耐压高达32V，过压保护点为固定6V。"
+        "source_text": "电池容量：170\n芯片 Prisemi芯导P14C1S"
       }
     }
   ],
   "summary_image_urls": [],
-  "summary_text": "三、我爱音频网总结 HAKII MIX哈氪·无界智能发带耳机在外观设计方面，创新性的将耳机与吸汗发带相结合，兼具了两者的功能性，运动佩戴非常炫酷时尚。主机采用亲肤硅胶材质，佩戴与皮肤贴合舒适。吸汗发带弹力十足，并配备有S/M两条尺寸，搭配主机上的两档卡扣，能够满足所有头型的个性化佩戴需求；同时采用磁吸设计，能够快速定位便捷安装。 内部结构配置方面，左右腔体内部元器件通过排线穿过头带连接，均搭载了22mm大动圈单元，提供强劲饱满的音频效果。其他方面，左侧腔体内置锂离子电池，容量170mAh，来自CEL金赛尔，配备有电路保护板负责过充电、过放电、过电流等保护。 右侧腔体内置主板单元，搭载了两颗MEMS麦克风运用波束成形技术组成陈列，用于双麦通话降噪功能；主控芯片为Actions炬芯ATS3019E蓝牙音频SoC，支持蓝牙5.3双模，支持回声消除、双麦克风环境降噪和风噪声降低，集成线性电池充电器；还采用了Chipstar智浦欣TK0430D 110mW差分输入直接驱动耳机放大器，用于扬声器驱动，以提供更优的音质。",
+  "summary_text": "",
   "layer_refs": {
     "technical": [
       "report:164072",
@@ -211,13 +155,13 @@
   "market": {
     "selling_points": [
       {
-        "text": "镭雕2102 1881的MEMS麦克风特写，用于通话降噪功能拾音。",
+        "text": "HAKII哈氪是一个“轻运动音频厂牌”，基于动感自由的轻运动生活灵感，以前瞻设计、潮流精神、超越预期的态度，呈 […]\n镭雕2102 1881的MEMS麦克风特写，用于通话降噪功能拾音。",
         "tag": "降噪",
         "evidence": {
-          "value": "镭雕2102 1881的MEMS麦克风特写，用于通话降噪功能拾音。",
-          "confidence": 0.69,
+          "value": "HAKII哈氪是一个“轻运动音频厂牌”，基于动感自由的轻运动生活灵感，以前瞻设计、潮流精神、超越预期的态度，呈 […]\n镭雕2102 1881的MEMS麦克风特写，用于通话降噪功能拾音。",
+          "confidence": 0.75,
           "source_type": "text",
-          "source_text": "镭雕2102 1881的MEMS麦克风特写，用于通话降噪功能拾音。"
+          "source_text": "HAKII哈氪是一个“轻运动音频厂牌”，基于动感自由的轻运动生活灵感，以前瞻设计、潮流精神、超越预期的态度，呈 […]\n镭雕2102 1881的MEMS麦克风特写，用于通话降噪功能拾音。"
         }
       },
       {
@@ -228,6 +172,16 @@
           "confidence": 0.66,
           "source_type": "text",
           "source_text": "另外一颗在拆解过程中受损的通话降噪麦克风特写，两颗麦克风运用波束成形技术组成陈列，实现双麦通话降噪，提供清晰的语音通话效果。"
+        }
+      },
+      {
+        "text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：同时主机支持IPX5级防水，不用担心汗水影响。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：同时主机支持IPX5级防水，不用担心汗水影响。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：同时主机支持IPX5级防水，不用担心汗水影响。"
         }
       },
       {
@@ -256,7 +210,7 @@
       "通话",
       "户外"
     ],
-    "positioning_summary": "镭雕2102 1881的MEMS麦克风特写，用于通话降噪功能拾音。",
+    "positioning_summary": "HAKII哈氪是一个“轻运动音频厂牌”，基于动感自由的轻运动生活灵感，以前瞻设计、潮流精神、超越预期的态度，呈 […]\n镭雕2102 1881的MEMS麦克风特写，用于通话降噪功能拾音。",
     "launch_date": null,
     "best_report_id": "164072",
     "best_video_id": null

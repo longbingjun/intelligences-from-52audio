@@ -20,13 +20,13 @@
     "battery_ear": "300 mAh",
     "battery_case": "电池",
     "speaker": "喇叭单元",
-    "materials": "硅胶、塑料、PC",
-    "weight_g": "46.6克",
+    "materials": "PC",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "IPX5",
-    "bluetooth": "5.0",
-    "bom_row_count": 16,
+    "bluetooth": "",
+    "bom_row_count": 14,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -55,13 +55,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "主板/PCBA",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "今天我爱音频网要拆解的是绿联推出的首款真无线蓝牙耳机WS100，它采用了高通QCC3020蓝牙芯片，支持aptX音频编码和cVc8.0通话降噪算法；耳机支持IPX5级防水，支持触控；单耳续航约9小时，支持15分钟快充使用2小时；充电盒采用Type-C接口，可额外提供18小时续航。下面我们一起来看看新晋TWS厂商产品的设计和用料如何吧~"
+        "source_text": "壳体内侧特写，外圈是蓝牙天线，中间是触控感应的箔片，两者均通过主板上的Pogo Pin连接；开孔处有防尘网。"
       }
     },
     {
@@ -125,13 +125,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "minor",
       "evidence": {
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "今天我爱音频网要拆解的是绿联推出的首款真无线蓝牙耳机WS100，它采用了高通QCC3020蓝牙芯片，支持aptX音频编码和cVc8.0通话降噪算法；耳机支持IPX5级防水，支持触控；单耳续航约9小时，支持15分钟快充使用2小时；充电盒采用Type-C接口，可额外提供18小时续航。下面我们一起来看看新晋TWS厂商产品的设计和用料如何吧~"
+        "source_text": "壳体内侧特写，外圈是蓝牙天线，中间是触控感应的箔片，两者均通过主板上的Pogo Pin连接；开孔处有防尘网。"
       }
     },
     {
@@ -139,13 +139,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "minor",
       "evidence": {
         "value": "充电触点",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机充电触点处有绝缘胶带，减少耳机和充电仓在运输销售过程的电量消耗。"
+        "source_text": "壳体内侧特写，外圈是蓝牙天线，中间是触控感应的箔片，两者均通过主板上的Pogo Pin连接；开孔处有防尘网。"
       }
     },
     {
@@ -153,41 +153,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "充电盒",
+      "side": "耳机",
       "role": "minor",
       "evidence": {
         "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒正面有三个电量指示灯，上面有一道凹槽便于打开盒盖。"
-      }
-    },
-    {
-      "component": "外壳结构",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "外壳结构",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "拆掉耳机的外壳。"
-      }
-    },
-    {
-      "component": "耳挂/挂钩",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "耳挂/挂钩",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "包装盒没有使用品牌的主色调绿色，而是选择了比较沉稳的黑色。左上角是品牌名“UGREEN绿联”，产品名“HiTune”和耳机的渲染图占据画面中间位置，左下角是产品类型“真无线蓝牙耳机”，右下角是蓝牙认证和高通aptX认证的标识。包装盒顶部有一个三角挂钩便于线下店铺展示。"
+        "source_text": "耳机的指示灯开孔和通话麦克风的拾音孔，这一圈壳体是亮面的。"
       }
     },
     {
@@ -207,6 +179,20 @@
     {
       "component": "芯片/模组",
       "brand": "",
+      "model": "ETA9640",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA9640",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "充电接口：我爱音频网总结\nHiTune WS100是绿联推出的首款真无线蓝牙耳机，外观设计以简单实用为主，经拆解发现电路设计合理，用料较好：\n充电盒采用Type-C接口输入电源，输入端有微源LP5301过压过流保护芯片，保护内部电路和电池的安全；钰泰ETA9640同步整流升压IC负责电池的充放电；电池来自重庆紫建，容量300mAh；充电盒内有霍尔元件，用于实现开盖即连功能。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
       "model": "高通aptX",
       "qty_hint": "1",
       "side": "耳机",
@@ -215,35 +201,7 @@
         "value": "高通aptX",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "左上角是品牌名“UGREEN绿联”，产品名“HiTune”和耳机的渲染图占据画面中间位置，左下角是产品类型“真无线蓝牙耳机”，右下角是蓝牙认证和高通aptX认证的标识。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "ETA9640",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "ETA9640",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "钰泰半导体ETA9640 电源管理IC，1A线性充电，1A同步整流升压，内置多种保护功能，适用于移动电源及蓝牙耳机充电盒。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "ETA9640",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "ETA9640",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "钰泰半导体ETA9640 详细资料。"
+        "source_text": "标记/认证：左上角是品牌名“UGREEN绿联”，产品名“HiTune”和耳机的渲染图占据画面中间位置，左下角是产品类型“真无线蓝牙耳机”，右下角是蓝牙认证和高通aptX认证的标识。"
       }
     },
     {
@@ -257,7 +215,21 @@
         "value": "高通QCC3020",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "除此之外，高通QCC3020还支持第八代cVc通话环境降噪，通过算法精确识别背景噪音并消除，通话体验更纯净。"
+        "source_text": "电池容量：300\n芯片 高通QCC3020\n芯片 高通aptX\n芯片 ETA9640"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA9640",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA9640",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：300\n芯片 高通QCC3020\n芯片 高通aptX\n芯片 ETA9640"
       }
     }
   ],
@@ -276,13 +248,33 @@
   "market": {
     "selling_points": [
       {
-        "text": "出音孔处有细密的防尘网，阻止异物进入。",
+        "text": "TWS真无线耳机市场竞争日趋激烈，手机厂商是领头羊，也有传统音频厂商、互联网企业、手机配件品牌及越来越多的电商 […]\n出音孔处有细密的防尘网，阻止异物进入。",
         "tag": "防水防尘",
         "evidence": {
-          "value": "出音孔处有细密的防尘网，阻止异物进入。",
-          "confidence": 0.57,
+          "value": "TWS真无线耳机市场竞争日趋激烈，手机厂商是领头羊，也有传统音频厂商、互联网企业、手机配件品牌及越来越多的电商 […]\n出音孔处有细密的防尘网，阻止异物进入。",
+          "confidence": 0.58,
           "source_type": "text",
-          "source_text": "出音孔处有细密的防尘网，阻止异物进入。"
+          "source_text": "TWS真无线耳机市场竞争日趋激烈，手机厂商是领头羊，也有传统音频厂商、互联网企业、手机配件品牌及越来越多的电商 […]\n出音孔处有细密的防尘网，阻止异物进入。"
+        }
+      },
+      {
+        "text": "标记/认证：充电盒采用的软包电池来自VDL重庆紫建，型号662025，额定电压3.7V，额定容量300mAh/1.11Wh。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：充电盒采用的软包电池来自VDL重庆紫建，型号662025，额定电压3.7V，额定容量300mAh/1.11Wh。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "标记/认证：充电盒采用的软包电池来自VDL重庆紫建，型号662025，额定电压3.7V，额定容量300mAh/1.11Wh。"
+        }
+      },
+      {
+        "text": "标记/认证：耳机采用的扣式电池来自微电新能源，型号M1254S2，直径12mm、厚度5.4mm，额定电压3.7V，额定容量0.222Wh。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：耳机采用的扣式电池来自微电新能源，型号M1254S2，直径12mm、厚度5.4mm，额定电压3.7V，额定容量0.222Wh。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "标记/认证：耳机采用的扣式电池来自微电新能源，型号M1254S2，直径12mm、厚度5.4mm，额定电压3.7V，额定容量0.222Wh。"
         }
       },
       {
@@ -299,7 +291,7 @@
     "scenarios": [
       "通话"
     ],
-    "positioning_summary": "出音孔处有细密的防尘网，阻止异物进入。",
+    "positioning_summary": "TWS真无线耳机市场竞争日趋激烈，手机厂商是领头羊，也有传统音频厂商、互联网企业、手机配件品牌及越来越多的电商 […]\n出音孔处有细密的防尘网，阻止异物进入。",
     "launch_date": null,
     "best_report_id": "57770",
     "best_video_id": null

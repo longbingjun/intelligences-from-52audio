@@ -1,0 +1,230 @@
+{
+  "canonical_id": "unknown--pamu-z1-pro",
+  "brand": "",
+  "model": "派美特Pamu Z1 Pro",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "130219"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "130219"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2022-08-31",
+  "latest_published": "2022-08-31",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "ETA9697",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "500 mAh",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "IPX4",
+    "bluetooth": "5.2",
+    "bom_row_count": 9,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "130219",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "另外一侧贴有隔磁屏蔽贴纸，座舱内部设置电池单元。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "通话降噪麦克风拾音孔特写，内部防尘网防护。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出内部座舱结构。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "去掉螺丝，卸掉座舱上的组件，包括主板、电池和无线充电接收线圈。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Pamu Z1 Pro真无线降噪耳机是Pamu系列近期推出的新品，拥有着出众的颜值和出色的性能。外观方面延续了派美特一贯的特立独行设计风格；功能配置上，搭载定制10mm PEN+钛复合振膜动圈单元，支持蓝牙5.2，支持40db宽频主动降噪、ENC双麦克风通话降噪、低延迟游戏模式、无线充电等，拥有24小时的综合续航。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Pamu Z1 Pro真无线降噪耳机是Pamu系列近期推出的新品，拥有着出众的颜值和出色的性能。外观方面延续了派美特一贯的特立独行设计风格；功能配置上，搭载定制10mm PEN+钛复合振膜动圈单元，支持蓝牙5.2，支持40db宽频主动降噪、ENC双麦克风通话降噪、低延迟游戏模式、无线充电等，拥有24小时的综合续航。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出内部座舱结构。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA9697",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA9697",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "充电方式：有线充电采用了钰泰半导体ETA9697电源管理芯片，集成了16V耐压的线性充电器和5V同步升压变换器，负责充电盒内置电池的充放电管理；无线采用了酷珀微CP2022无线充电传输芯片，具有集成度高、效率高、功耗低等优点，符合Qi V1.2.4标准。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA9697",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA9697",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：500\n芯片 ETA9697\n芯片 ETA7014"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:130219"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "厦门市派美特科技有限公司是一个专注于音频和电子创新产品的高科技企业，拥有主品牌Padmate，旗舰音频产品Pa […]\n通话降噪麦克风拾音孔特写，内部防尘网防护。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "厦门市派美特科技有限公司是一个专注于音频和电子创新产品的高科技企业，拥有主品牌Padmate，旗舰音频产品Pa […]\n通话降噪麦克风拾音孔特写，内部防尘网防护。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "厦门市派美特科技有限公司是一个专注于音频和电子创新产品的高科技企业，拥有主品牌Padmate，旗舰音频产品Pa […]\n通话降噪麦克风拾音孔特写，内部防尘网防护。"
+        }
+      },
+      {
+        "text": "厦门市派美特科技有限公司是一个专注于音频和电子创新产品的高科技企业，拥有主品牌Padmate，旗舰音频产品Pamu系列，主打新奇特产品的MongDa系列和智能产品Harda系列，旗下产品基于艺术与科技的创新融合，多次获得国际性的设计奖。",
+        "tag": "旗舰定位",
+        "evidence": {
+          "value": "厦门市派美特科技有限公司是一个专注于音频和电子创新产品的高科技企业，拥有主品牌Padmate，旗舰音频产品Pamu系列，主打新奇特产品的MongDa系列和智能产品Harda系列，旗下产品基于艺术与科技的创新融合，多次获得国际性的设计奖。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "厦门市派美特科技有限公司是一个专注于音频和电子创新产品的高科技企业，拥有主品牌Padmate，旗舰音频产品Pamu系列，主打新奇特产品的MongDa系列和智能产品Harda系列，旗下产品基于艺术与科技的创新融合，多次获得国际性的设计奖。"
+        }
+      },
+      {
+        "text": "通话降噪麦克风设置有海绵垫密封，四周是用于触摸控制的导电布。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "通话降噪麦克风设置有海绵垫密封，四周是用于触摸控制的导电布。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "通话降噪麦克风设置有海绵垫密封，四周是用于触摸控制的导电布。"
+        }
+      },
+      {
+        "text": "Pamu Z1 Pro真无线降噪耳机是Pamu系列近期推出的新品，拥有着出众的颜值和出色的性能。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "Pamu Z1 Pro真无线降噪耳机是Pamu系列近期推出的新品，拥有着出众的颜值和出色的性能。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "Pamu Z1 Pro真无线降噪耳机是Pamu系列近期推出的新品，拥有着出众的颜值和出色的性能。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "厦门市派美特科技有限公司是一个专注于音频和电子创新产品的高科技企业，拥有主品牌Padmate，旗舰音频产品Pa […]\n通话降噪麦克风拾音孔特写，内部防尘网防护。",
+    "launch_date": null,
+    "best_report_id": "130219",
+    "best_video_id": null
+  }
+}

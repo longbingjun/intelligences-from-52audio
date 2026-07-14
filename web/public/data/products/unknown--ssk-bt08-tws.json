@@ -1,0 +1,247 @@
+{
+  "canonical_id": "unknown--ssk-bt08-tws",
+  "brand": "",
+  "model": "SSK飚王 BT08 TWS",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "17520"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "17520"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2019-03-28",
+  "latest_published": "2019-03-28",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "恒玄BES2000",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "45 mAh",
+    "speaker": "喇叭单元",
+    "materials": "塑料、PC",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 11,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "17520",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆下螺丝，里面是两个锂聚合物电池组成的电池组。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "这块小板和电池采用端子连接到耳机充电盒内的主板。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机充电盒采用旋转式开盖设计。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机外壳大部分采用亮面的黑色塑料，上面有麦克风孔，半透明的耳机套。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "主板上有一个触片用于接触耳机背盖内的蓝牙天线。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "2、耳塞部分采用尺寸较大的动圈单元，可以带来更好的低频效果；"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "电池之下是一块PCB，在另一面有数颗LED灯。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机充电触点，每边3个。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机外壳大部分采用亮面的黑色塑料，上面有麦克风孔，半透明的耳机套。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机背盖这边有用于操作主板上的微动按键的塑料弹片。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2000",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2000",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "据我爱音频网拆解，这款耳机采用BES恒玄BES2000 真无线蓝牙音频方案。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:17520"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "充电接口采用防尘盖保护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "充电接口采用防尘盖保护。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "充电接口采用防尘盖保护。"
+        }
+      },
+      {
+        "text": "在防尘盖保护下的Micro USB接口。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "在防尘盖保护下的Micro USB接口。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "在防尘盖保护下的Micro USB接口。"
+        }
+      },
+      {
+        "text": "耳机导管上有防尘网。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "耳机导管上有防尘网。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "耳机导管上有防尘网。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "充电接口采用防尘盖保护。",
+    "launch_date": null,
+    "best_report_id": "17520",
+    "best_video_id": null
+  }
+}

@@ -18,20 +18,20 @@
     "main_chip": "",
     "pmic_case": "",
     "battery_ear": "电池",
-    "battery_case": "985 mAh",
+    "battery_case": "",
     "speaker": "喇叭单元",
-    "materials": "塑料、PC",
+    "materials": "PC",
     "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
-    "bluetooth": "4.2",
-    "bom_row_count": 9,
-    "price_cny": 799.0,
-    "price_layer": "technical",
+    "bluetooth": "",
+    "bom_row_count": 7,
+    "price_cny": null,
+    "price_layer": null,
     "channel_url": null,
     "sales_hint": null,
-    "data_completeness": 0.67,
+    "data_completeness": 0.5,
     "best_report_id": "85340",
     "best_video_id": null
   },
@@ -47,7 +47,7 @@
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "Xbox无线耳机采用轻量化机身设计，头梁全包裹、可调节；旋转式耳罩转盘提供了一种快速、直观的方式来调节音量，平衡游戏/聊天之间的音效；耳机自带杆麦，配备双波束成型麦克风，支持背景噪声隔离功能，提升对话的清晰度，麦克风开关有独立按键，即便是开启状态，当玩家不发声时，麦克风可自动开启静音功能。"
+        "source_text": "Xbox无线耳机可通过Xbox Accessories 应用程序自定义音频设置，包括调节均衡器、重低音、自动静音灵敏度、麦克风音量监测等；耳机续航最高可达15小时，支持快充，充电30分钟可提供4小时续航。"
       }
     },
     {
@@ -55,13 +55,27 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
+      "side": "耳机",
       "role": "major",
       "evidence": {
         "value": "主板/PCBA",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "USB-C接口母座特写，过孔焊接至主板。"
+        "source_text": "耳机内部结构布局清晰，外侧是耳罩和内部电路，中间是扬声器单元独立密封，最内侧是耳垫；内部走线明了，左右耳机的接线使用插座形式连接至主板，便于组装；耳罩的旋转控制功能通过滑轨结构配合滑动变阻器实现；杆麦配备双波束成型麦克风用于通话降噪，不发声时麦克风可自动开启静音功能，游戏时还可以调节人声优先或是游戏声音优先，对于Xbox主机游戏玩家来说是一个非常好的选择。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机内部结构布局清晰，外侧是耳罩和内部电路，中间是扬声器单元独立密封，最内侧是耳垫；内部走线明了，左右耳机的接线使用插座形式连接至主板，便于组装；耳罩的旋转控制功能通过滑轨结构配合滑动变阻器实现；杆麦配备双波束成型麦克风用于通话降噪，不发声时麦克风可自动开启静音功能，游戏时还可以调节人声优先或是游戏声音优先，对于Xbox主机游戏玩家来说是一个非常好的选择。"
       }
     },
     {
@@ -79,34 +93,6 @@
       }
     },
     {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "喇叭单元",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "扬声器单元使用胶水固定在绿色壳体上。"
-      }
-    },
-    {
-      "component": "天线",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "天线",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "板载天线特写，这枚天线专门用于连接XBOX游戏主机专用。"
-      }
-    },
-    {
       "component": "降噪系统",
       "brand": "",
       "model": "",
@@ -117,7 +103,21 @@
         "value": "降噪系统",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "此前我爱音频网拆解过的其他微软音频产品包括：微软 Surface Headphones 2头戴降噪蓝牙耳机、微软 Surface Earbuds真无线蓝牙耳机、微软Surface头戴主动降噪蓝牙耳机、微软USB-C音频转换线。"
+        "source_text": "此前我爱音频网拆解过的其他微软音频产品包括：\n微软 Surface Headphones 2头戴降噪蓝牙耳机\n、\n微软 Surface Earbuds真无线蓝牙耳机\n、\n微软Surface头戴主动降噪蓝牙耳机\n、\n微软USB-C音频转换线\n。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "微软Xbox无线耳机支持三种连接方式：首先是耳机能够与自家的Xbox SeriesX/S，Xbox One主机设备通过2.4GHz的专用网络连接，经拆解发现，耳机里有一套定制的射频模块和专用天线，加密连接，可以与主机直连；另一种无线连接方式是蓝牙，耳机采用德州仪器CC2564C进行蓝牙连接，蓝牙版本4.2；还有一种是有线连接，耳机可以通过USB-A to USB-C线输入音频，在Win 10 PC上使用，实测耳机在有线连接和蓝牙连接时，可以同时播放音频。"
       }
     },
     {
@@ -132,34 +132,6 @@
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "Xbox无线耳机采用轻量化机身设计，头梁全包裹、可调节；旋转式耳罩转盘提供了一种快速、直观的方式来调节音量，平衡游戏/聊天之间的音效；耳机自带杆麦，配备双波束成型麦克风，支持背景噪声隔离功能，提升对话的清晰度，麦克风开关有独立按键，即便是开启状态，当玩家不发声时，麦克风可自动开启静音功能。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "绿色按钮是耳机的开关键，上方有一个隐藏的状态指示灯设计。"
-      }
-    },
-    {
-      "component": "外壳结构",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "外壳结构",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "外壳可旋转的结构设计。"
       }
     }
   ],
@@ -185,6 +157,16 @@
           "confidence": 0.55,
           "source_type": "text",
           "source_text": "Xbox无线耳机可通过Xbox Accessories 应用程序自定义音频设置，包括调节均衡器、重低音、自动静音灵敏度、麦克风音量监测等；耳机续航最高可达15小时，支持快充，充电30分钟可提供4小时续航。"
+        }
+      },
+      {
+        "text": "目前大家玩游戏的平台除了手机、PC端以外，主机游戏的受众也非常广泛，面向这一部分消费人群的耳机产品也经历了从有 […]\nXbox无线耳机可通过Xbox Accessories 应用程序自定义音频设置，包括调节均衡器、重低音、自动静音灵敏度、麦克风音量监测等；耳机续航最高可达15小时，支持快充，充电30分钟可提供4小时续航。",
+        "tag": "长续航",
+        "evidence": {
+          "value": "目前大家玩游戏的平台除了手机、PC端以外，主机游戏的受众也非常广泛，面向这一部分消费人群的耳机产品也经历了从有 […]\nXbox无线耳机可通过Xbox Accessories 应用程序自定义音频设置，包括调节均衡器、重低音、自动静音灵敏度、麦克风音量监测等；耳机续航最高可达15小时，支持快充，充电30分钟可提供4小时续航。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "目前大家玩游戏的平台除了手机、PC端以外，主机游戏的受众也非常广泛，面向这一部分消费人群的耳机产品也经历了从有 […]\nXbox无线耳机可通过Xbox Accessories 应用程序自定义音频设置，包括调节均衡器、重低音、自动静音灵敏度、麦克风音量监测等；耳机续航最高可达15小时，支持快充，充电30分钟可提供4小时续航。"
         }
       },
       {
@@ -225,16 +207,6 @@
           "confidence": 0.69,
           "source_type": "text",
           "source_text": "耳垫防尘网透光程度展示。"
-        }
-      },
-      {
-        "text": "微软Xbox无线耳机支持三种连接方式：首先是耳机能够与自家的Xbox SeriesX/S，Xbox One主机设备通过2.4GHz的专用网络连接，经拆解发现，耳机里有一套定制的射频模块和专用天线，加密连接，可以与主机直连；另一种无线连接方式是蓝牙，耳机采用德州仪器CC2564C进行蓝牙连接，蓝牙版本4.2；还有一种是有线连接，耳机可以通过USB-A to USB-C线输入音频，在Win 10 PC上使用，实测耳机在有线连接和蓝牙连接时，可以同时播放音频。",
-        "tag": "其他",
-        "evidence": {
-          "value": "微软Xbox无线耳机支持三种连接方式：首先是耳机能够与自家的Xbox SeriesX/S，Xbox One主机设备通过2.4GHz的专用网络连接，经拆解发现，耳机里有一套定制的射频模块和专用天线，加密连接，可以与主机直连；另一种无线连接方式是蓝牙，耳机采用德州仪器CC2564C进行蓝牙连接，蓝牙版本4.2；还有一种是有线连接，耳机可以通过USB-A to USB-C线输入音频，在Win 10 PC上使用，实测耳机在有线连接和蓝牙连接时，可以同时播放音频。",
-          "confidence": 0.55,
-          "source_type": "text",
-          "source_text": "微软Xbox无线耳机支持三种连接方式：首先是耳机能够与自家的Xbox SeriesX/S，Xbox One主机设备通过2.4GHz的专用网络连接，经拆解发现，耳机里有一套定制的射频模块和专用天线，加密连接，可以与主机直连；另一种无线连接方式是蓝牙，耳机采用德州仪器CC2564C进行蓝牙连接，蓝牙版本4.2；还有一种是有线连接，耳机可以通过USB-A to USB-C线输入音频，在Win 10 PC上使用，实测耳机在有线连接和蓝牙连接时，可以同时播放音频。"
         }
       }
     ],

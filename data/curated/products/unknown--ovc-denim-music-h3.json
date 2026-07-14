@@ -37,20 +37,6 @@
   },
   "bom_table": [
     {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "喇叭单元",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "扬声器单元正面特写，音腔盖板采用圆形蜂窝状出音孔。"
-      }
-    },
-    {
       "component": "麦克风",
       "brand": "",
       "model": "",
@@ -65,6 +51,34 @@
       }
     },
     {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "扬声器单元正面特写，音腔盖板采用圆形蜂窝状出音孔。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "卸掉螺丝取掉扬声器单元，腔体内部结构一览，腔体内侧有密封环，底部是固定外壳的螺丝。"
+      }
+    },
+    {
       "component": "触控/按键",
       "brand": "",
       "model": "",
@@ -76,20 +90,6 @@
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "耳机线控正面有一颗功能按键，通过单击、双击、三击和长按等实现不同的操作。"
-      }
-    },
-    {
-      "component": "外壳结构",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "外壳结构",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机中框结构有弧形凹槽，用于扬声器导线穿过。"
       }
     }
   ],
@@ -108,13 +108,23 @@
   "market": {
     "selling_points": [
       {
-        "text": "底部有OVC品牌公司信息以及产品认证信息。",
+        "text": "标记/认证：底部有OVC品牌公司信息以及产品认证信息。",
         "tag": "其他",
         "evidence": {
-          "value": "底部有OVC品牌公司信息以及产品认证信息。",
-          "confidence": 0.62,
+          "value": "标记/认证：底部有OVC品牌公司信息以及产品认证信息。",
+          "confidence": 0.61,
           "source_type": "text",
-          "source_text": "底部有OVC品牌公司信息以及产品认证信息。"
+          "source_text": "标记/认证：底部有OVC品牌公司信息以及产品认证信息。"
+        }
+      },
+      {
+        "text": "而今天，我爱音频网为大家带 […]\n底部有OVC品牌公司信息以及产品认证信息。",
+        "tag": "其他",
+        "evidence": {
+          "value": "而今天，我爱音频网为大家带 […]\n底部有OVC品牌公司信息以及产品认证信息。",
+          "confidence": 0.59,
+          "source_type": "text",
+          "source_text": "而今天，我爱音频网为大家带 […]\n底部有OVC品牌公司信息以及产品认证信息。"
         }
       },
       {
@@ -138,10 +148,8 @@
         }
       }
     ],
-    "scenarios": [
-      "通话"
-    ],
-    "positioning_summary": "底部有OVC品牌公司信息以及产品认证信息。",
+    "scenarios": [],
+    "positioning_summary": "标记/认证：底部有OVC品牌公司信息以及产品认证信息。",
     "launch_date": null,
     "best_report_id": "62209",
     "best_video_id": null

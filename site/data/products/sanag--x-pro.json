@@ -1,0 +1,265 @@
+{
+  "canonical_id": "sanag--x-pro",
+  "brand": "SANAG塞那",
+  "model": "X Pro",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "129365"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "129365"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2022-08-26",
+  "latest_published": "2022-08-26",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "思远半导体SY8825",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "300 mAh",
+    "speaker": "喇叭单元",
+    "materials": "PC",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 10,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "129365",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "取掉电池，下方主板通过螺丝固定，电池和电源输入小板导线焊接在主板上。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "SANAG X Pro是一款专为游戏玩家打造的电竞耳机产品，外观上时尚简约的配色搭配炫彩灯效，非常具有电竞氛围感；功能上，支持游戏、影音、通话三种模式，定制EQ增强，以适应不同的应用场景；续航上，单次使用时间可达9小时，充电仓还可提供5~7次充电。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "取掉电池，下方主板通过螺丝固定，电池和电源输入小板导线焊接在主板上。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄上R标识特写，下方是通话拾音麦克风开孔。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "取出扬声器单元，前腔内部结构一览。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "陶瓷蓝牙天线特写，用于无线信号传输。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧结构一览，左端是用于触控的金属泡棉，右端有麦克风独立腔体结构。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "取出扬声器单元，前腔内部结构一览。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8825",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8825",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "充电接口：内部结构配置方面，充电盒采用了Type-C接口输入电源，内置言九电子300mAh容量电池，并配备有电路保护板；主板上，采用了思远半导体SY8825充电仓SoC，内部集成充电模块和放电模块，充电电流外部可以调节，放电模块集成两路输出限流开关，支持输出电流检测；一颗丝印H269A的MCU单片机，用于充电盒整机控制。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8825",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8825",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：30\n芯片 思远半导体SY8825"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:129365"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "SANAG塞那是一个来自英国的新锐无线蓝牙耳机品牌，致力于给用户带来绝佳听觉体验的同时，让蓝牙耳机为用户生活的 […]\nSANAG X Pro是一款专为游戏玩家打造的电竞耳机产品，外观上时尚简约的配色搭配炫彩灯效，非常具有电竞氛围感；功能上，支持游戏、影音、通话三种模式，定制EQ增强，以适应不同的应用场景；续航上，单次使用时间可达9小时，充电仓还可提供5~7次充电。",
+        "tag": "其他",
+        "evidence": {
+          "value": "SANAG塞那是一个来自英国的新锐无线蓝牙耳机品牌，致力于给用户带来绝佳听觉体验的同时，让蓝牙耳机为用户生活的 […]\nSANAG X Pro是一款专为游戏玩家打造的电竞耳机产品，外观上时尚简约的配色搭配炫彩灯效，非常具有电竞氛围感；功能上，支持游戏、影音、通话三种模式，定制EQ增强，以适应不同的应用场景；续航上，单次使用时间可达9小时，充电仓还可提供5~7次充电。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "SANAG塞那是一个来自英国的新锐无线蓝牙耳机品牌，致力于给用户带来绝佳听觉体验的同时，让蓝牙耳机为用户生活的 […]\nSANAG X Pro是一款专为游戏玩家打造的电竞耳机产品，外观上时尚简约的配色搭配炫彩灯效，非常具有电竞氛围感；功能上，支持游戏、影音、通话三种模式，定制EQ增强，以适应不同的应用场景；续航上，单次使用时间可达9小时，充电仓还可提供5~7次充电。"
+        }
+      },
+      {
+        "text": "标记/认证：充电盒内置锂电池型号：YJ701435，容量：300mAh/1.11Wh，电压：3.7V，来自言九电子。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：充电盒内置锂电池型号：YJ701435，容量：300mAh/1.11Wh，电压：3.7V，来自言九电子。",
+          "confidence": 0.66,
+          "source_type": "text",
+          "source_text": "标记/认证：充电盒内置锂电池型号：YJ701435，容量：300mAh/1.11Wh，电压：3.7V，来自言九电子。"
+        }
+      },
+      {
+        "text": "椭圆形耳机出音嘴特写，细密防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "椭圆形耳机出音嘴特写，细密防尘网防护。",
+          "confidence": 0.6,
+          "source_type": "text",
+          "source_text": "椭圆形耳机出音嘴特写，细密防尘网防护。"
+        }
+      },
+      {
+        "text": "标记/认证：丝印33C8的触摸检测IC，搭配金属泡棉，用于触摸控制功能。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：丝印33C8的触摸检测IC，搭配金属泡棉，用于触摸控制功能。",
+          "confidence": 0.59,
+          "source_type": "text",
+          "source_text": "标记/认证：丝印33C8的触摸检测IC，搭配金属泡棉，用于触摸控制功能。"
+        }
+      },
+      {
+        "text": "标记/认证：耳机内置锂电池型号：BP401012，额定电压：3.7V，容量：30mAh/0.1111Wh。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：耳机内置锂电池型号：BP401012，额定电压：3.7V，容量：30mAh/0.1111Wh。",
+          "confidence": 0.59,
+          "source_type": "text",
+          "source_text": "标记/认证：耳机内置锂电池型号：BP401012，额定电压：3.7V，容量：30mAh/0.1111Wh。"
+        }
+      },
+      {
+        "text": "椭圆形耳机调音孔特写，内部防尘网防护，防止异物进入音腔。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "椭圆形耳机调音孔特写，内部防尘网防护，防止异物进入音腔。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "椭圆形耳机调音孔特写，内部防尘网防护，防止异物进入音腔。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话",
+      "电竞"
+    ],
+    "positioning_summary": "SANAG塞那是一个来自英国的新锐无线蓝牙耳机品牌，致力于给用户带来绝佳听觉体验的同时，让蓝牙耳机为用户生活的 […]\nSANAG X Pro是一款专为游戏玩家打造的电竞耳机产品，外观上时尚简约的配色搭配炫彩灯效，非常具有电竞氛围感；功能上，支持游戏、影音、通话三种模式，定制EQ增强，以适应不同的应用场景；续航上，单次使用时间可达9小时，充电仓还可提供5~7次充电。",
+    "launch_date": null,
+    "best_report_id": "129365",
+    "best_video_id": null
+  }
+}

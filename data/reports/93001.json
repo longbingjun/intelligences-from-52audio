@@ -12,7 +12,7 @@
   "author": "Wen5",
   "summary": "索尼Sony PlayStation 5家用电子游戏机于2020年11月正式上市，在硬件上迎来的大幅度提升。在 […]",
   "captured_at": "2026-07-14T02:10:10+00:00",
-  "data_completeness": 0.706,
+  "data_completeness": 0.616,
   "views": {
     "market": {
       "brand": "SONY索尼",
@@ -23,13 +23,13 @@
       "price_note": "",
       "selling_points": [
         {
-          "text": "悬挂式头垫根据不同用户人群呈现不同的弯曲状态，实现个性化的最舒适佩戴效果。",
+          "text": "在 […]\n悬挂式头垫根据不同用户人群呈现不同的弯曲状态，实现个性化的最舒适佩戴效果。",
           "tag": "舒适佩戴",
           "evidence": {
-            "value": "悬挂式头垫根据不同用户人群呈现不同的弯曲状态，实现个性化的最舒适佩戴效果。",
+            "value": "在 […]\n悬挂式头垫根据不同用户人群呈现不同的弯曲状态，实现个性化的最舒适佩戴效果。",
             "confidence": 0.74,
             "source_type": "text",
-            "source_text": "悬挂式头垫根据不同用户人群呈现不同的弯曲状态，实现个性化的最舒适佩戴效果。"
+            "source_text": "在 […]\n悬挂式头垫根据不同用户人群呈现不同的弯曲状态，实现个性化的最舒适佩戴效果。"
           }
         },
         {
@@ -40,6 +40,16 @@
             "confidence": 0.72,
             "source_type": "text",
             "source_text": "PS5主机针对PULSE 3D无线耳机组做了针对性优化，使其能够呈现PS5主机所实现的3D音效，为玩家\n提供\n沉浸式的游戏音频体验。"
+          }
+        },
+        {
+          "text": "PS5主机针对PULSE 3D无线耳机组做了针对性优化，使其能够呈现PS5主机所实现的3D音效，为玩家提供沉浸式的游戏音频体验。",
+          "tag": "空间音频",
+          "evidence": {
+            "value": "PS5主机针对PULSE 3D无线耳机组做了针对性优化，使其能够呈现PS5主机所实现的3D音效，为玩家提供沉浸式的游戏音频体验。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "PS5主机针对PULSE 3D无线耳机组做了针对性优化，使其能够呈现PS5主机所实现的3D音效，为玩家提供沉浸式的游戏音频体验。"
           }
         },
         {
@@ -71,31 +81,19 @@
             "source_type": "text",
             "source_text": "麦克风收音孔上还贴有防尘网，防止异物进入。"
           }
-        },
-        {
-          "text": "另外一颗驻极体降噪麦克风特写。",
-          "tag": "降噪",
-          "evidence": {
-            "value": "另外一颗驻极体降噪麦克风特写。",
-            "confidence": 0.57,
-            "source_type": "text",
-            "source_text": "另外一颗驻极体降噪麦克风特写。"
-          }
         }
       ],
       "scenarios": [
-        "运动",
-        "游戏",
-        "通话"
+        "游戏"
       ],
-      "positioning_summary": "悬挂式头垫根据不同用户人群呈现不同的弯曲状态，实现个性化的最舒适佩戴效果。",
+      "positioning_summary": "在 […]\n悬挂式头垫根据不同用户人群呈现不同的弯曲状态，实现个性化的最舒适佩戴效果。",
       "launch_date_evidence": null,
       "price_evidence": null
     },
     "cost": {
       "major_parts": [
-        "麦克风",
         "主板/PCBA",
+        "麦克风",
         "电池",
         "天线",
         "喇叭单元"
@@ -118,20 +116,6 @@
       ],
       "bom_table": [
         {
-          "component": "麦克风",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "major",
-          "evidence": {
-            "value": "麦克风",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "PS5主机针对PULSE 3D无线耳机组做了针对性优化，使其能够呈现PS5主机所实现的3D音效，为玩家提供沉浸式的游戏音频体验。PULSE 3D还配备了双降噪麦克风，确保游戏过程中与队友的清晰交流。便捷的控制功能支持麦克风静音，音量、音效调整，以及测试自己的声音是否传达到了队友的麦克风监测等。"
-          }
-        },
-        {
           "component": "主板/PCBA",
           "brand": "",
           "model": "",
@@ -146,17 +130,31 @@
           }
         },
         {
-          "component": "电池",
+          "component": "麦克风",
           "brand": "",
           "model": "",
           "qty_hint": "",
           "side": "",
           "role": "major",
           "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "PULSE 3D还配备了双降噪麦克风，确保游戏过程中与队友的清晰交流。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "右耳",
+          "role": "major",
+          "evidence": {
             "value": "电池",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "包装盒背面是产品的整体外观，以及多项产品功能特点：双隐藏式麦克风、内置可充电电池、快捷控制、3.5毫米插口、精致耳罩设计、无线适配器等。"
+            "source_text": "右耳后腔内是电池电源和一个转接板，便于耳机组装。"
           }
         },
         {
@@ -188,6 +186,20 @@
           }
         },
         {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "右耳",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "右耳后腔内是电池电源和一个转接板，便于耳机组装。"
+          }
+        },
+        {
           "component": "触控/按键",
           "brand": "",
           "model": "",
@@ -198,7 +210,7 @@
             "value": "触控/按键",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "无线适配器侧边设置了复位按键开孔。"
+            "source_text": "聊天/游戏模式切换按键，游戏模式提供3D音效。"
           }
         },
         {
@@ -212,21 +224,7 @@
             "value": "指示灯",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "通话麦克风拾音孔，同时也是指示灯开孔。"
-          }
-        },
-        {
-          "component": "外壳结构",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "",
-          "role": "minor",
-          "evidence": {
-            "value": "外壳结构",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "卸掉螺丝，打开腔体，前后腔之间有导线连接。"
+            "source_text": "主板末端印刷LDS镭射天线和指示灯。"
           }
         },
         {
@@ -240,7 +238,7 @@
             "value": "IP1522",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "锂离子电池组额定容量：1000mAh，型号：LIP1522，充电限制电压：4.V，制造商：索尼公司。"
+            "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：锂离子电池组额定容量：1000mAh，型号：LIP1522，充电限制电压：4.V，制造商：索尼公司。"
           }
         }
       ],
@@ -250,12 +248,12 @@
       ],
       "process_hints": [
         {
-          "value": "Type-C母座沉板焊接。",
+          "value": "充电接口：Type-C母座沉板焊接。",
           "evidence": {
-            "value": "Type-C母座沉板焊接。",
+            "value": "充电接口：Type-C母座沉板焊接。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "Type-C母座沉板焊接。"
+            "source_text": "充电接口：Type-C母座沉板焊接。"
           }
         }
       ],
@@ -265,27 +263,13 @@
     "structure": {
       "form_factor": "真无线耳机TWS",
       "earbud_type": "入耳",
-      "materials": [
-        "塑料",
-        "PC"
-      ],
+      "materials": [],
       "ip_rating": null,
       "weight_g": null,
       "dimensions": [
-        "耳机支持无线适配器和3.5mm音频线两种使用方式，支持12小时续航。",
-        "3.5mm to 3.5mm音频线特写，一侧为“L”型插头。",
-        "3.5mm音频输入接口。"
+        "经我爱音频网实测，扬声器单元尺寸约为40mm。"
       ],
       "internal_structure": [
-        {
-          "value": "PS5主机针对PULSE 3D无线耳机组做了针对性优化，使其能够呈现PS5主机所实现的3D音效，为玩家提供沉浸式的游戏音频体验。PULSE 3D还配备了双降噪麦克风，确保游戏过程中与队友的清晰交流。便捷的控制功能支持麦克风静音，音量、音效调整，以及测试自己的声音是否传达到了队友的麦克风监测等。",
-          "evidence": {
-            "value": "PS5主机针对PULSE 3D无线耳机组做了针对性优化，使其能够呈现PS5主机所实现的3D音效，为玩家提供沉浸式的游戏音频体验。PULSE 3D还配备了双降噪麦克风，确保游戏过程中与队友的清晰交流。便捷的控制功能支持麦克风静音，音量、音效调整，以及测试自己的声音是否传达到了队友的麦克风监测等。",
-            "confidence": 0.74,
-            "source_type": "text",
-            "source_text": "PS5主机针对PULSE 3D无线耳机组做了针对性优化，使其能够呈现PS5主机所实现的3D音效，为玩家提供沉浸式的游戏音频体验。PULSE 3D还配备了双降噪麦克风，确保游戏过程中与队友的清晰交流。便捷的控制功能支持麦克风静音，音量、音效调整，以及测试自己的声音是否传达到了队友的麦克风监测等。"
-          }
-        },
         {
           "value": "腔体内部结构一览，主板卡槽固定，可以轻松取出。",
           "evidence": {
@@ -302,6 +286,24 @@
             "confidence": 0.74,
             "source_type": "text",
             "source_text": "抽出内部主板，复位孔与对应的复位微动开关。"
+          }
+        },
+        {
+          "value": "PULSE 3D还配备了双降噪麦克风，确保游戏过程中与队友的清晰交流。",
+          "evidence": {
+            "value": "PULSE 3D还配备了双降噪麦克风，确保游戏过程中与队友的清晰交流。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "PULSE 3D还配备了双降噪麦克风，确保游戏过程中与队友的清晰交流。"
+          }
+        },
+        {
+          "value": "麦克风收音孔上还贴有防尘网，防止异物进入。",
+          "evidence": {
+            "value": "麦克风收音孔上还贴有防尘网，防止异物进入。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "麦克风收音孔上还贴有防尘网，防止异物进入。"
           }
         },
         {
@@ -339,27 +341,9 @@
             "source_type": "text",
             "source_text": "耳机扬声器单元背部特写，四周设置有多个调音孔，贴有阻尼纸。"
           }
-        },
-        {
-          "value": "经我爱音频网实测，扬声器单元尺寸约为40mm。",
-          "evidence": {
-            "value": "经我爱音频网实测，扬声器单元尺寸约为40mm。",
-            "confidence": 0.74,
-            "source_type": "text",
-            "source_text": "经我爱音频网实测，扬声器单元尺寸约为40mm。"
-          }
         }
       ],
       "fastener_type": [
-        {
-          "value": "底部盖板采用卡扣式结构，黑色半透明设计，兼具工作指示灯的导光作用。",
-          "evidence": {
-            "value": "底部盖板采用卡扣式结构，黑色半透明设计，兼具工作指示灯的导光作用。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "底部盖板采用卡扣式结构，黑色半透明设计，兼具工作指示灯的导光作用。"
-          }
-        },
         {
           "value": "腔体内部结构一览，主板卡槽固定，可以轻松取出。",
           "evidence": {
@@ -370,43 +354,16 @@
           }
         },
         {
-          "value": "耳机拆解\n取掉右侧耳机卡扣式固定的耳罩。",
+          "value": "腔体内部结构一览，主板卡槽固定，可以轻松取出。",
           "evidence": {
-            "value": "耳机拆解\n取掉右侧耳机卡扣式固定的耳罩。",
+            "value": "腔体内部结构一览，主板卡槽固定，可以轻松取出。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "耳机拆解\n取掉右侧耳机卡扣式固定的耳罩。"
-          }
-        },
-        {
-          "value": "撕开产品信息标签，下方是隐藏的固定螺丝。",
-          "evidence": {
-            "value": "撕开产品信息标签，下方是隐藏的固定螺丝。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "撕开产品信息标签，下方是隐藏的固定螺丝。"
-          }
-        },
-        {
-          "value": "卸掉螺丝，打开腔体，前后腔之间有导线连接。",
-          "evidence": {
-            "value": "卸掉螺丝，打开腔体，前后腔之间有导线连接。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "卸掉螺丝，打开腔体，前后腔之间有导线连接。"
+            "source_text": "腔体内部结构一览，主板卡槽固定，可以轻松取出。"
           }
         }
       ],
       "sealing_method": [
-        {
-          "value": "音腔盖板上设置有防尘网布。",
-          "evidence": {
-            "value": "音腔盖板上设置有防尘网布。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "音腔盖板上设置有防尘网布。"
-          }
-        },
         {
           "value": "麦克风收音孔上还贴有防尘网，防止异物进入。",
           "evidence": {
@@ -419,134 +376,84 @@
       ],
       "wear_design": [
         {
-          "value": "耳机头梁曲线独特，内侧设置悬挂式弹性软垫提升佩戴舒适性。",
+          "value": "在 […]\n悬挂式头垫根据不同用户人群呈现不同的弯曲状态，实现个性化的最舒适佩戴效果。",
           "evidence": {
-            "value": "耳机头梁曲线独特，内侧设置悬挂式弹性软垫提升佩戴舒适性。",
+            "value": "在 […]\n悬挂式头垫根据不同用户人群呈现不同的弯曲状态，实现个性化的最舒适佩戴效果。",
             "confidence": 0.7,
             "source_type": "text",
-            "source_text": "耳机头梁曲线独特，内侧设置悬挂式弹性软垫提升佩戴舒适性。"
-          }
-        },
-        {
-          "value": "索尼 PULSE 3D 头戴无线耳机右侧展示，头梁与耳壳交界处曲线设计优雅精致。",
-          "evidence": {
-            "value": "索尼 PULSE 3D 头戴无线耳机右侧展示，头梁与耳壳交界处曲线设计优雅精致。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "索尼 PULSE 3D 头戴无线耳机右侧展示，头梁与耳壳交界处曲线设计优雅精致。"
-          }
-        },
-        {
-          "value": "头梁内侧采用了悬挂式头垫设计，橡胶材质。",
-          "evidence": {
-            "value": "头梁内侧采用了悬挂式头垫设计，橡胶材质。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "头梁内侧采用了悬挂式头垫设计，橡胶材质。"
-          }
-        },
-        {
-          "value": "悬挂式头垫根据不同用户人群呈现不同的弯曲状态，实现个性化的最舒适佩戴效果。",
-          "evidence": {
-            "value": "悬挂式头垫根据不同用户人群呈现不同的弯曲状态，实现个性化的最舒适佩戴效果。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "悬挂式头垫根据不同用户人群呈现不同的弯曲状态，实现个性化的最舒适佩戴效果。"
+            "source_text": "在 […]\n悬挂式头垫根据不同用户人群呈现不同的弯曲状态，实现个性化的最舒适佩戴效果。"
           }
         }
       ],
-      "key_image_urls": [
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/10/2021101410240086.png",
-          "alt": "拆解报告：索尼Sony PlayStation 5 PULSE 3D 无线耳机组-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/10/2021101410240194.png",
-          "alt": "拆解报告：索尼Sony PlayStation 5 PULSE 3D 无线耳机组-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/10/2021101410240172.png",
-          "alt": "拆解报告：索尼Sony PlayStation 5 PULSE 3D 无线耳机组-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/10/2021101410240285.png",
-          "alt": "拆解报告：索尼Sony PlayStation 5 PULSE 3D 无线耳机组-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/10/2021101410240267.png",
-          "alt": "拆解报告：索尼Sony PlayStation 5 PULSE 3D 无线耳机组-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        }
-      ],
+      "key_image_urls": [],
       "assembly_notes": [
-        "PS5主机针对PULSE 3D无线耳机组做了针对性优化，使其能够呈现PS5主机所实现的3D音效，为玩家提供沉浸式的游戏音频体验。PULSE 3D还配备了双降噪麦克风，确保游戏过程中与队友的清晰交流。便捷的控制功能支持麦克风静音，音量、音效调整，以及测试自己的声音是否传达到了队友的麦克风监测等。",
         "腔体内部结构一览，主板卡槽固定，可以轻松取出。",
         "抽出内部主板，复位孔与对应的复位微动开关。",
-        "右耳后腔内是电池电源和一个转接板，便于耳机组装。"
+        "PULSE 3D还配备了双降噪麦克风，确保游戏过程中与队友的清晰交流。",
+        "麦克风收音孔上还贴有防尘网，防止异物进入。"
       ],
       "ip_rating_evidence": null,
-      "weight_evidence": null
+      "weight_evidence": null,
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": null,
+      "weight_earbud_evidence": null
     },
     "hardware": {
       "specs": [
         {
           "param": "充电方式",
-          "value": "我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对索尼 PULSE 3D 无线耳机组进行有线充电测试，充电功率约为2.8W。",
+          "value": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对索尼 PULSE 3D 无线耳机组进行有线充电测试，充电功率约为2.8W。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对索尼 PULSE 3D 无线耳机组进行有线充电测试，充电功率约为2.8W。"
+          "source_ref": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对索尼 PULSE 3D 无线耳机组进行有线充电测试，充电功率约为2.8W。"
         },
         {
           "param": "充电接口",
-          "value": "USB-A to USB Type-C充电线。",
+          "value": "充电接口：USB-A to USB Type-C充电线。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "USB-A to USB Type-C充电线。"
+          "source_ref": "充电接口：USB-A to USB Type-C充电线。"
         },
         {
           "param": "充电接口",
-          "value": "Type-C电源输入接口。",
+          "value": "充电接口：Type-C电源输入接口。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "Type-C电源输入接口。"
+          "source_ref": "充电接口：Type-C电源输入接口。"
         },
         {
           "param": "充电接口",
-          "value": "Type-C母座沉板焊接。",
+          "value": "充电接口：Type-C母座沉板焊接。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "Type-C母座沉板焊接。"
+          "source_ref": "充电接口：Type-C母座沉板焊接。"
         },
         {
           "param": "充电接口",
-          "value": "Type-C充电接口母座。",
+          "value": "充电接口：Type-C充电接口母座。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "Type-C充电接口母座。"
+          "source_ref": "充电接口：Type-C充电接口母座。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：锂离子电池组额定容量：1000mAh，型号：LIP1522，充电限制电压：4.V，制造商：索尼公司。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：锂离子电池组额定容量：1000mAh，型号：LIP1522，充电限制电压：4.V，制造商：索尼公司。"
         },
         {
           "param": "充电接口",
@@ -568,12 +475,21 @@
         },
         {
           "param": "标记/认证",
-          "value": "锂离子电池组额定容量：1000mAh，型号：LIP1522，充电限制电压：4.V，制造商：索尼公司。",
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：锂离子电池组额定容量：1000mAh，型号：LIP1522，充电限制电压：4.V，制造商：索尼公司。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "锂离子电池组额定容量：1000mAh，型号：LIP1522，充电限制电压：4.V，制造商：索尼公司。"
+          "source_ref": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：锂离子电池组额定容量：1000mAh，型号：LIP1522，充电限制电压：4.V，制造商：索尼公司。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "电池容量：1000\n芯片 IP1522",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "电池容量：1000\n芯片 IP1522"
         },
         {
           "param": "电池容量",
@@ -591,17 +507,7 @@
       "codecs": [],
       "multipoint": [],
       "app_name": "",
-      "app_features": [
-        {
-          "value": "AK4961具有五个音频I/F和SLIMbus I/F，可同时与应用处理器、最多两个基带处理器、蓝牙模块和数字输入D类放大器进行通信，并将异步信号与内置SRC进行混合。",
-          "evidence": {
-            "value": "AK4961具有五个音频I/F和SLIMbus I/F，可同时与应用处理器、最多两个基带处理器、蓝牙模块和数字输入D类放大器进行通信，并将异步信号与内置SRC进行混合。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "AK4961具有五个音频I/F和SLIMbus I/F，可同时与应用处理器、最多两个基带处理器、蓝牙模块和数字输入D类放大器进行通信，并将异步信号与内置SRC进行混合。"
-          }
-        }
-      ],
+      "app_features": [],
       "ota_support": [],
       "latency_notes": [
         {

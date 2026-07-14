@@ -29,15 +29,15 @@
     "main_chip": "恒玄BES2500YP",
     "pmic_case": "",
     "battery_ear": "600 mAh",
-    "battery_case": "亿纬 6V/00mAh锂电池",
+    "battery_case": "电池",
     "speaker": "喇叭单元",
     "materials": "硅胶、塑料",
-    "weight_g": "75.2g",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
-    "bluetooth": "5.2",
-    "bom_row_count": 15,
+    "bluetooth": "",
+    "bom_row_count": 7,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -47,48 +47,6 @@
     "best_video_id": null
   },
   "bom_table": [
-    {
-      "component": "电池",
-      "brand": "亿纬",
-      "model": "6V/00mAh锂电池",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "6V/00mAh锂电池",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "充电盒内置EVE亿纬锂能600mAh锂离子电池组，主板上由Type-C接口输入电源，采用了TI德州仪器BQ25619电源管理芯片，集成充电、升压转换器和电压保护功能，用于为电池和耳机充电；"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "BES恒玄科技",
-      "model": "恒玄BES2500YP",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "恒玄BES2500YP",
-        "confidence": 0.85,
-        "source_type": "summary_prose",
-        "source_text": "主板上采用了BES恒玄BES2500YP超低功耗蓝牙音频SoC，GOODiX汇顶科技GH611电容式入耳检测及触控2合1芯片等。"
-      }
-    },
-    {
-      "component": "麦克风",
-      "brand": "",
-      "model": "MEMS麦克风",
-      "qty_hint": "2",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "MEMS麦克风",
-        "confidence": 0.78,
-        "source_type": "summary_prose",
-        "source_text": "耳机内部搭载了定制超大动态驱动单元，两颗MEMS麦克风拾音；"
-      }
-    },
     {
       "component": "电池",
       "brand": "",
@@ -108,13 +66,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "充电盒",
       "role": "major",
       "evidence": {
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "近期，韶音在新品发布会上出其不意的推出了一款采用传统“气传导”的开放式耳机产品——OpenFit不入耳蓝牙耳机，类似TWS耳机的分体式设计，耳挂式结构，双层零度硅胶材质，佩戴不入耳，久戴不胀痛、不闷热，提供全方位舒适佩戴体验。还配备有充电盒，用于收纳耳机和为耳机充电，提升便携性和续航体验。"
+        "source_text": "外观上，充电盒采用圆角方形设计，触感细腻的哑光质感；耳机采用了分离式的耳挂式设计，使用更加自由灵活，搭配柔性钛丝记忆耳挂和双层零度亲肤硅胶材质，提供个性化的舒适佩戴体验。"
       }
     },
     {
@@ -160,87 +118,17 @@
       }
     },
     {
-      "component": "天线",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "天线",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "盖板内侧设置有支架印刷LDS镭射天线和触摸检测电极。"
-      }
-    },
-    {
-      "component": "降噪系统",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "降噪系统",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "BES恒玄BES2500YP超低功耗蓝牙音频SoC，支持双模蓝牙5.2，内部集成了高保真音频DAC和ADC；通过集成高性能双核STAR-MC1 MCU子系统和超低功耗Sensor Hub子系统，极大地降低了功耗，同时还具备强大的应用程序处理能力。并通过恒玄专利 IBRT 技术优化TWS应用，改善TWS系统中的RF性能。还可支持自适应ANC主动降噪等功能。"
-      }
-    },
-    {
       "component": "耳挂/挂钩",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "耳挂/挂钩",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "近期，韶音在新品发布会上出其不意的推出了一款采用传统“气传导”的开放式耳机产品——OpenFit不入耳蓝牙耳机，类似TWS耳机的分体式设计，耳挂式结构，双层零度硅胶材质，佩戴不入耳，久戴不胀痛、不闷热，提供全方位舒适佩戴体验。还配备有充电盒，用于收纳耳机和为耳机充电，提升便携性和续航体验。"
-      }
-    },
-    {
-      "component": "指示灯",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "充电盒",
       "role": "minor",
       "evidence": {
-        "value": "指示灯",
+        "value": "耳挂/挂钩",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒正面开盖处设计倒角便于开启，机身上有一颗指示灯，用于反馈充电状态。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "GOODiX汇顶科技GH611电容式入耳检测及触控2合1芯片，用于耳机的触摸控制功能。汇顶科技GH61x系列芯片，采用人体电容检测专利技术，可以辅助真无线耳机实现自动休眠、自动唤醒、主从切换、音乐自动启停等功能，提升用户体验，同时支持触控、滑动音量调节等丰富的人机交互功能。"
-      }
-    },
-    {
-      "component": "充电触点",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "Pogo Pin连接器特写。"
+        "source_text": "外观上，充电盒采用圆角方形设计，触感细腻的哑光质感；耳机采用了分离式的耳挂式设计，使用更加自由灵活，搭配柔性钛丝记忆耳挂和双层零度亲肤硅胶材质，提供个性化的舒适佩戴体验。"
       }
     },
     {
@@ -254,12 +142,12 @@
         "value": "恒玄BES2500YP",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "BES恒玄BES2500YP超低功耗蓝牙音频SoC，支持双模蓝牙5.2，内部集成了高保真音频DAC和ADC；通过集成高性能双核STAR-MC1 MCU子系统和超低功耗Sensor Hub子系统，极大地降低了功耗，同时还具备强大的应用程序处理能力。"
+        "source_text": "电池容量：600\n芯片 恒玄BES2500YP"
       }
     }
   ],
   "summary_image_urls": [],
-  "summary_text": "三、我爱音频网总结 韶音OpenFit不入耳蓝牙耳机作为韶音旗下首款非骨传导的产品，基于其创新探索和在声学领域的技术积累，依然带来了佩戴舒适且高音质的开放式无线聆听体验。外观上，充电盒采用圆角方形设计，触感细腻的哑光质感；耳机采用了分离式的耳挂式设计，使用更加自由灵活，搭配柔性钛丝记忆耳挂和双层零度亲肤硅胶材质，提供个性化的舒适佩戴体验。 内部主要配置方面，充电盒内置EVE亿纬锂能600mAh锂离子电池组，主板上由Type-C接口输入电源，采用了TI德州仪器BQ25619电源管理芯片，集成充电、升压转换器和电压保护功能，用于为电池和耳机充电；采用了GigaDevice兆易创新GD32L233CCT6 Arm Cortex-M23内核的新型32位微控制器，用于充电盒整机控制。 耳机内部设计精巧，内置的AEC国光电子0.22Wh锂电池位于耳挂末端，平衡了耳机重量，提升了耳机的佩戴舒适稳定性。耳机内部搭载了定制超大动态驱动单元，两颗MEMS麦克风拾音；主板上采用了BES恒玄BES2500YP超低功耗蓝牙音频SoC，GOODiX汇顶科技GH611电容式入耳检测及触控2合1芯片等。",
+  "summary_text": "",
   "layer_refs": {
     "technical": [
       "report:158749"
@@ -273,6 +161,16 @@
   "market": {
     "selling_points": [
       {
+        "text": "开放式是蓝牙耳机重要的一种产品形态，主要包括骨传导和气传导两种类型，使用无需入耳，解放了耳道，提升了长时间佩戴 […]\n功能配置方面，OpenFit 搭载定制高振幅、高灵敏度驱动单元，带来充沛的低音和强劲稳定的高频输出，配合Shokz OpenBass低频增强算法，DRC动态调节音质，带来量感充足的自然听感；内置双麦克风，支持AI智能通话降噪功能，保护人声的同时，有效消除环境噪声和通话回音，提供清晰的语音通话效果；还搭载了DirectPitch定向声场技术，精准高效传声，保护隐私。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "开放式是蓝牙耳机重要的一种产品形态，主要包括骨传导和气传导两种类型，使用无需入耳，解放了耳道，提升了长时间佩戴 […]\n功能配置方面，OpenFit 搭载定制高振幅、高灵敏度驱动单元，带来充沛的低音和强劲稳定的高频输出，配合Shokz OpenBass低频增强算法，DRC动态调节音质，带来量感充足的自然听感；内置双麦克风，支持AI智能通话降噪功能，保护人声的同时，有效消除环境噪声和通话回音，提供清晰的语音通话效果；还搭载了DirectPitch定向声场技术，精准高效传声，保护隐私。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "开放式是蓝牙耳机重要的一种产品形态，主要包括骨传导和气传导两种类型，使用无需入耳，解放了耳道，提升了长时间佩戴 […]\n功能配置方面，OpenFit 搭载定制高振幅、高灵敏度驱动单元，带来充沛的低音和强劲稳定的高频输出，配合Shokz OpenBass低频增强算法，DRC动态调节音质，带来量感充足的自然听感；内置双麦克风，支持AI智能通话降噪功能，保护人声的同时，有效消除环境噪声和通话回音，提供清晰的语音通话效果；还搭载了DirectPitch定向声场技术，精准高效传声，保护隐私。"
+        }
+      },
+      {
         "text": "功能配置方面，OpenFit 搭载定制高振幅、高灵敏度驱动单元，带来充沛的低音和强劲稳定的高频输出，配合Shokz OpenBass低频增强算法，DRC动态调节音质，带来量感充足的自然听感；内置双麦克风，支持AI智能通话降噪功能，保护人声的同时，有效消除环境噪声和通话回音，提供清晰的语音通话效果；还搭载了DirectPitch定向声场技术，精准高效传声，保护隐私。",
         "tag": "降噪",
         "evidence": {
@@ -280,6 +178,16 @@
           "confidence": 0.75,
           "source_type": "text",
           "source_text": "功能配置方面，OpenFit 搭载定制高振幅、高灵敏度驱动单元，带来充沛的低音和强劲稳定的高频输出，配合Shokz OpenBass低频增强算法，DRC动态调节音质，带来量感充足的自然听感；内置双麦克风，支持AI智能通话降噪功能，保护人声的同时，有效消除环境噪声和通话回音，提供清晰的语音通话效果；还搭载了DirectPitch定向声场技术，精准高效传声，保护隐私。"
+        }
+      },
+      {
+        "text": "标记/认证：GigaDevice兆易创新GD32L233CCT6微控制器，GD32L233xx系列是一款基于ARM Cortex-M23内核的新型32位通用微控制器，最高主频为64MHz；集成了64KB到256KB的嵌入式eFlash和16KB到32KB的SRAM，以及连接到两条APB总线的各类增强型I/O和外设资源。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：GigaDevice兆易创新GD32L233CCT6微控制器，GD32L233xx系列是一款基于ARM Cortex-M23内核的新型32位通用微控制器，最高主频为64MHz；集成了64KB到256KB的嵌入式eFlash和16KB到32KB的SRAM，以及连接到两条APB总线的各类增强型I/O和外设资源。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "标记/认证：GigaDevice兆易创新GD32L233CCT6微控制器，GD32L233xx系列是一款基于ARM Cortex-M23内核的新型32位通用微控制器，最高主频为64MHz；集成了64KB到256KB的嵌入式eFlash和16KB到32KB的SRAM，以及连接到两条APB总线的各类增强型I/O和外设资源。"
         }
       },
       {
@@ -293,6 +201,16 @@
         }
       },
       {
+        "text": "标记/认证：内部主要配置方面，充电盒内置EVE亿纬锂能600mAh锂离子电池组，主板上由Type-C接口输入电源，采用了TI德州仪器BQ25619电源管理芯片，集成充电、升压转换器和电压保护功能，用于为电池和耳机充电；采用了GigaDevice兆易创新GD32L233CCT6 Arm Cortex-M23内核的新型32位微控制器，用于充电盒整机控制。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：内部主要配置方面，充电盒内置EVE亿纬锂能600mAh锂离子电池组，主板上由Type-C接口输入电源，采用了TI德州仪器BQ25619电源管理芯片，集成充电、升压转换器和电压保护功能，用于为电池和耳机充电；采用了GigaDevice兆易创新GD32L233CCT6 Arm Cortex-M23内核的新型32位微控制器，用于充电盒整机控制。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "标记/认证：内部主要配置方面，充电盒内置EVE亿纬锂能600mAh锂离子电池组，主板上由Type-C接口输入电源，采用了TI德州仪器BQ25619电源管理芯片，集成充电、升压转换器和电压保护功能，用于为电池和耳机充电；采用了GigaDevice兆易创新GD32L233CCT6 Arm Cortex-M23内核的新型32位微控制器，用于充电盒整机控制。"
+        }
+      },
+      {
         "text": "三、我爱音频网总结\n韶音OpenFit不入耳蓝牙耳机作为韶音旗下首款非骨传导的产品，基于其创新探索和在声学领域的技术积累，依然带来了佩戴舒适且高音质的开放式无线聆听体验。",
         "tag": "开放佩戴",
         "evidence": {
@@ -301,43 +219,13 @@
           "source_type": "text",
           "source_text": "三、我爱音频网总结\n韶音OpenFit不入耳蓝牙耳机作为韶音旗下首款非骨传导的产品，基于其创新探索和在声学领域的技术积累，依然带来了佩戴舒适且高音质的开放式无线聆听体验。"
         }
-      },
-      {
-        "text": "SHOKZ韶音是一个专注声学科技创新的消费电子品牌，定位于专业运动耳机市场，此前旗下产品均基于骨传导技术，为用户提供开放式的无线音频体验。",
-        "tag": "开放佩戴",
-        "evidence": {
-          "value": "SHOKZ韶音是一个专注声学科技创新的消费电子品牌，定位于专业运动耳机市场，此前旗下产品均基于骨传导技术，为用户提供开放式的无线音频体验。",
-          "confidence": 0.75,
-          "source_type": "text",
-          "source_text": "SHOKZ韶音是一个专注声学科技创新的消费电子品牌，定位于专业运动耳机市场，此前旗下产品均基于骨传导技术，为用户提供开放式的无线音频体验。"
-        }
-      },
-      {
-        "text": "GigaDevice兆易创新GD32L233CCT6微控制器，GD32L233xx系列是一款基于ARM Cortex-M23内核的新型32位通用微控制器，最高主频为64MHz；集成了64KB到256KB的嵌入式eFlash和16KB到32KB的SRAM，以及连接到两条APB总线的各类增强型I/O和外设资源。",
-        "tag": "其他",
-        "evidence": {
-          "value": "GigaDevice兆易创新GD32L233CCT6微控制器，GD32L233xx系列是一款基于ARM Cortex-M23内核的新型32位通用微控制器，最高主频为64MHz；集成了64KB到256KB的嵌入式eFlash和16KB到32KB的SRAM，以及连接到两条APB总线的各类增强型I/O和外设资源。",
-          "confidence": 0.75,
-          "source_type": "text",
-          "source_text": "GigaDevice兆易创新GD32L233CCT6微控制器，GD32L233xx系列是一款基于ARM Cortex-M23内核的新型32位通用微控制器，最高主频为64MHz；集成了64KB到256KB的嵌入式eFlash和16KB到32KB的SRAM，以及连接到两条APB总线的各类增强型I/O和外设资源。"
-        }
-      },
-      {
-        "text": "外观上，充电盒采用圆角方形设计，触感细腻的哑光质感；耳机采用了分离式的耳挂式设计，使用更加自由灵活，搭配柔性钛丝记忆耳挂和双层零度亲肤硅胶材质，提供个性化的舒适佩戴体验。",
-        "tag": "舒适佩戴",
-        "evidence": {
-          "value": "外观上，充电盒采用圆角方形设计，触感细腻的哑光质感；耳机采用了分离式的耳挂式设计，使用更加自由灵活，搭配柔性钛丝记忆耳挂和双层零度亲肤硅胶材质，提供个性化的舒适佩戴体验。",
-          "confidence": 0.75,
-          "source_type": "text",
-          "source_text": "外观上，充电盒采用圆角方形设计，触感细腻的哑光质感；耳机采用了分离式的耳挂式设计，使用更加自由灵活，搭配柔性钛丝记忆耳挂和双层零度亲肤硅胶材质，提供个性化的舒适佩戴体验。"
-        }
       }
     ],
     "scenarios": [
       "运动",
       "通话"
     ],
-    "positioning_summary": "功能配置方面，OpenFit 搭载定制高振幅、高灵敏度驱动单元，带来充沛的低音和强劲稳定的高频输出，配合Shokz OpenBass低频增强算法，DRC动态调节音质，带来量感充足的自然听感；内置双麦克风，支持AI智能通话降噪功能，保护人声的同时，有效消除环境噪声和通话回音，提供清晰的语音通话效果；还搭载了DirectPitch定向声场技术，精准高效传声，保护隐私。",
+    "positioning_summary": "开放式是蓝牙耳机重要的一种产品形态，主要包括骨传导和气传导两种类型，使用无需入耳，解放了耳道，提升了长时间佩戴 […]\n功能配置方面，OpenFit 搭载定制高振幅、高灵敏度驱动单元，带来充沛的低音和强劲稳定的高频输出，配合Shokz OpenBass低频增强算法，DRC动态调节音质，带来量感充足的自然听感；内置双麦克风，支持AI智能通话降噪功能，保护人声的同时，有效消除环境噪声和通话回音，提供清晰的语音通话效果；还搭载了DirectPitch定向声场技术，精准高效传声，保护隐私。",
     "launch_date": null,
     "best_report_id": "158749",
     "best_video_id": null

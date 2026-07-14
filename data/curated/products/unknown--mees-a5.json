@@ -23,7 +23,7 @@
     "materials": "硅胶",
     "weight_g": "4.4克",
     "weight_case_g": "",
-    "weight_earbud_g": "",
+    "weight_earbud_g": "4.4g",
     "ip_rating": "",
     "bluetooth": "5.0",
     "bom_row_count": 10,
@@ -36,20 +36,6 @@
     "best_video_id": null
   },
   "bom_table": [
-    {
-      "component": "充电仓",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "充电仓",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "配置上，MEES A5真无线蓝牙耳机采用蓝牙5.0的主控芯片，支持主从切换和单耳使用；满电状态下耳机续航约6小时，充电盒提供额外30小时续航。耳机采用豆式入耳设计，单耳重量约4.4克，比较小巧。下面一起来看我爱音频网的全面拆解。"
-      }
-    },
     {
       "component": "电池",
       "brand": "",
@@ -65,17 +51,31 @@
       }
     },
     {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒内部结构展示，电池在底部位置。"
+      }
+    },
+    {
       "component": "主板/PCBA",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "主板/PCBA",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "配置上，MEES A5真无线蓝牙耳机采用蓝牙5.0的主控芯片，支持主从切换和单耳使用；满电状态下耳机续航约6小时，充电盒提供额外30小时续航。耳机采用豆式入耳设计，单耳重量约4.4克，比较小巧。下面一起来看我爱音频网的全面拆解。"
+        "source_text": "取下电池，主板背面没有元器件。"
       }
     },
     {
@@ -121,20 +121,6 @@
       }
     },
     {
-      "component": "充电触点",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "给耳机充电的Pogo Pin特写。"
-      }
-    },
-    {
       "component": "指示灯",
       "brand": "",
       "model": "",
@@ -145,7 +131,21 @@
         "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "机身壳体可以透光，指示灯为隐藏设计。"
+        "source_text": "麦克风拾音孔也是指示灯开孔，设计得较为隐蔽。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "扬声器单元、软包电池、主板从内向外、由低到高依次排列，主板上的Pogo Pin有高有低可同时连接，大大提高了组装生产的效率。"
       }
     },
     {
@@ -159,7 +159,7 @@
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "今天我爱音频网要拆解的是MEES A5真无线蓝牙耳机，这款耳机在功能上主打男女变声通话和动态环绕音频，可以在打电话和听音乐时通过触控功能开启/切换，增加了产品使用的趣味性，此前我爱音频网已经上手体验过。"
+        "source_text": "耳机外壳内侧展示，外圈是蓝牙天线，中间是触控感应的箔片，麦克风保护罩和指示灯的导光柱合二为一。"
       }
     },
     {
@@ -192,20 +192,38 @@
   "market": {
     "selling_points": [
       {
-        "text": "出音嘴细密的防尘网，外侧还有金属网罩，双重保护，阻止异物进入。",
+        "text": "MEES是深圳市迈斯高科技有限公司的音频品牌，该公司成立于2011年，是一家专业从事TWS耳机的设计、研究、开 […]\n出音嘴细密的防尘网，外侧还有金属网罩，双重保护，阻止异物进入。",
         "tag": "防水防尘",
         "evidence": {
-          "value": "出音嘴细密的防尘网，外侧还有金属网罩，双重保护，阻止异物进入。",
-          "confidence": 0.58,
+          "value": "MEES是深圳市迈斯高科技有限公司的音频品牌，该公司成立于2011年，是一家专业从事TWS耳机的设计、研究、开 […]\n出音嘴细密的防尘网，外侧还有金属网罩，双重保护，阻止异物进入。",
+          "confidence": 0.65,
           "source_type": "text",
-          "source_text": "出音嘴细密的防尘网，外侧还有金属网罩，双重保护，阻止异物进入。"
+          "source_text": "MEES是深圳市迈斯高科技有限公司的音频品牌，该公司成立于2011年，是一家专业从事TWS耳机的设计、研究、开 […]\n出音嘴细密的防尘网，外侧还有金属网罩，双重保护，阻止异物进入。"
+        }
+      },
+      {
+        "text": "标记/认证：耳机内的软包电池同样来自ST神通，型号ST501015，额定电压3.7V，能量0.19Wh，正负极触点同样贴有导电海绵。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：耳机内的软包电池同样来自ST神通，型号ST501015，额定电压3.7V，能量0.19Wh，正负极触点同样贴有导电海绵。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "标记/认证：耳机内的软包电池同样来自ST神通，型号ST501015，额定电压3.7V，能量0.19Wh，正负极触点同样贴有导电海绵。"
+        }
+      },
+      {
+        "text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：充电盒采用的软包电池来自ST深圳市神通天下科技有限公司，型号ST602030，额定电压3.7V，额定容量300mAh，能量1.11Wh。",
+        "tag": "其他",
+        "evidence": {
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：充电盒采用的软包电池来自ST深圳市神通天下科技有限公司，型号ST602030，额定电压3.7V，额定容量300mAh，能量1.11Wh。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：充电盒采用的软包电池来自ST深圳市神通天下科技有限公司，型号ST602030，额定电压3.7V，额定容量300mAh，能量1.11Wh。"
         }
       }
     ],
-    "scenarios": [
-      "通话"
-    ],
-    "positioning_summary": "出音嘴细密的防尘网，外侧还有金属网罩，双重保护，阻止异物进入。",
+    "scenarios": [],
+    "positioning_summary": "MEES是深圳市迈斯高科技有限公司的音频品牌，该公司成立于2011年，是一家专业从事TWS耳机的设计、研究、开 […]\n出音嘴细密的防尘网，外侧还有金属网罩，双重保护，阻止异物进入。",
     "launch_date": null,
     "best_report_id": "74912",
     "best_video_id": null

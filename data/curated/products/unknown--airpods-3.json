@@ -26,13 +26,13 @@
     "battery_ear": "电池",
     "battery_case": "345 mAh",
     "speaker": "喇叭单元",
-    "materials": "硅胶、塑料、PC",
-    "weight_g": "46.6g",
+    "materials": "",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
     "bluetooth": "",
-    "bom_row_count": 10,
+    "bom_row_count": 7,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -53,7 +53,21 @@
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "苹果AirPods 3真无线耳机从官方公布的信息来看，其内部搭载了Apple定制的高振幅驱动单元和高动态范围放大器，H1芯片，以及皮肤识别传感器，运动加速、语音加速、力度感应器，用以提供优质的音频效果、动态头部跟踪空间音频、压感控制、入耳检测等功能。并配备MagSafe充电盒，支持磁吸无线充电功能。下面就来看看这些硬件配置的“真面目”吧~"
+        "source_text": "取出耳机座舱，为耳机充电的金属弹片通过排线连接到主板。可见充电仓内部空间还是非常充裕的，这部分剩余空间足以提升至少双倍的电池容量。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄内组件固定在主板上，采用了全新的苹果H1封装系统，形状更加规整，体积也更为小巧；力度传感器固定在主板侧边，采用了贴片的形式，更加节省内部空间；以及大面积印刷的LDS镭射天线，提升蓝牙连接稳定性。"
       }
     },
     {
@@ -71,17 +85,17 @@
       }
     },
     {
-      "component": "主板/PCBA",
+      "component": "天线",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "耳机",
       "role": "major",
       "evidence": {
-        "value": "主板/PCBA",
+        "value": "天线",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "取出耳机座舱，为耳机充电的金属弹片通过排线连接到主板。可见充电仓内部空间还是非常充裕的，这部分剩余空间足以提升至少双倍的电池容量。"
+        "source_text": "耳机柄内组件固定在主板上，采用了全新的苹果H1封装系统，形状更加规整，体积也更为小巧；力度传感器固定在主板侧边，采用了贴片的形式，更加节省内部空间；以及大面积印刷的LDS镭射天线，提升蓝牙连接稳定性。"
       }
     },
     {
@@ -96,20 +110,6 @@
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "背部麦克风开孔特写，设计有与机身曲线同弧的麦克风声学网罩，用于降低风噪影响。"
-      }
-    },
-    {
-      "component": "天线",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "天线",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "后腔壁上LDS镭射蓝牙天线。"
       }
     },
     {
@@ -137,49 +137,7 @@
         "value": "外壳结构",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "由于胶水强度较大，使拆解造成的黑色塑料中框断裂。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机背面采用了金属合页，下方是一颗配对按键。中间丝印信息是“加州苹果公司设计，越南组装”。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "苹果AirPods 3 MagSafe充电盒，采用了圆角方形设计，正面开盖处设计有倒角便于开启，中间有一颗电量指示灯。"
-      }
-    },
-    {
-      "component": "充电触点",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "撬开耳机底部尾塞，充电触点通过排线连接到耳机内部。"
+        "source_text": "后腔壁上LDS镭射蓝牙天线。"
       }
     }
   ],
@@ -200,13 +158,23 @@
   "market": {
     "selling_points": [
       {
-        "text": "Lightning接口内部特写，\n周围环绕防尘防水泡棉\n。",
+        "text": "苹果A […]\nLightning接口内部特写，\n周围环绕防尘防水泡棉\n。",
         "tag": "防水防尘",
         "evidence": {
-          "value": "Lightning接口内部特写，\n周围环绕防尘防水泡棉\n。",
-          "confidence": 0.58,
+          "value": "苹果A […]\nLightning接口内部特写，\n周围环绕防尘防水泡棉\n。",
+          "confidence": 0.62,
           "source_type": "text",
-          "source_text": "Lightning接口内部特写，\n周围环绕防尘防水泡棉\n。"
+          "source_text": "苹果A […]\nLightning接口内部特写，\n周围环绕防尘防水泡棉\n。"
+        }
+      },
+      {
+        "text": "充电接口：Lightning接口内部特写，\n周围环绕防尘防水泡棉\n。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "充电接口：Lightning接口内部特写，\n周围环绕防尘防水泡棉\n。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "充电接口：Lightning接口内部特写，\n周围环绕防尘防水泡棉\n。"
         }
       },
       {
@@ -240,23 +208,13 @@
         }
       },
       {
-        "text": "可搭配MagSafe和Qi认证的充电器使用。",
+        "text": "标记/认证：Lightning充电接口母座上雕刻产品型号：FLK120115YPL689AJ。",
         "tag": "其他",
         "evidence": {
-          "value": "可搭配MagSafe和Qi认证的充电器使用。",
-          "confidence": 0.72,
+          "value": "标记/认证：Lightning充电接口母座上雕刻产品型号：FLK120115YPL689AJ。",
+          "confidence": 0.74,
           "source_type": "text",
-          "source_text": "可搭配MagSafe和Qi认证的充电器使用。"
-        }
-      },
-      {
-        "text": "耳机柄内组件固定在主板上，采用了全新的苹果H1封装系统，形状更加规整，体积也更为小巧；力度传感器固定在主板侧边，采用了贴片的形式，更加节省内部空间；以及大面积印刷的LDS镭射天线，提升蓝牙连接稳定性。",
-        "tag": "其他",
-        "evidence": {
-          "value": "耳机柄内组件固定在主板上，采用了全新的苹果H1封装系统，形状更加规整，体积也更为小巧；力度传感器固定在主板侧边，采用了贴片的形式，更加节省内部空间；以及大面积印刷的LDS镭射天线，提升蓝牙连接稳定性。",
-          "confidence": 0.69,
-          "source_type": "text",
-          "source_text": "耳机柄内组件固定在主板上，采用了全新的苹果H1封装系统，形状更加规整，体积也更为小巧；力度传感器固定在主板侧边，采用了贴片的形式，更加节省内部空间；以及大面积印刷的LDS镭射天线，提升蓝牙连接稳定性。"
+          "source_text": "标记/认证：Lightning充电接口母座上雕刻产品型号：FLK120115YPL689AJ。"
         }
       }
     ],
@@ -264,7 +222,7 @@
       "运动",
       "通话"
     ],
-    "positioning_summary": "Lightning接口内部特写，\n周围环绕防尘防水泡棉\n。",
+    "positioning_summary": "苹果A […]\nLightning接口内部特写，\n周围环绕防尘防水泡棉\n。",
     "launch_date": null,
     "best_report_id": "94035",
     "best_video_id": null

@@ -12,7 +12,7 @@
   "author": "GiGi24",
   "summary": "经过近几年的发展，漫步者的真无线耳机已经逐渐形成了几大产品线，主要包括：TWS系列、TWS NB降噪系列、Lo […]",
   "captured_at": "2026-07-14T02:10:46+00:00",
-  "data_completeness": 0.836,
+  "data_completeness": 0.726,
   "views": {
     "market": {
       "brand": "EDIFIER漫步者",
@@ -22,6 +22,16 @@
       "price_cny": null,
       "price_note": "",
       "selling_points": [
+        {
+          "text": "经过近几年的发展，漫步者的真无线耳机已经逐渐形成了几大产品线，主要包括：TWS系列、TWS NB降噪系列、Lo […]\n耳机可以在配套APP上调节环境音大小，开启低延时游戏模式；耳机在通话降噪方面与大象声科进行了深度合作。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "经过近几年的发展，漫步者的真无线耳机已经逐渐形成了几大产品线，主要包括：TWS系列、TWS NB降噪系列、Lo […]\n耳机可以在配套APP上调节环境音大小，开启低延时游戏模式；耳机在通话降噪方面与大象声科进行了深度合作。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "经过近几年的发展，漫步者的真无线耳机已经逐渐形成了几大产品线，主要包括：TWS系列、TWS NB降噪系列、Lo […]\n耳机可以在配套APP上调节环境音大小，开启低延时游戏模式；耳机在通话降噪方面与大象声科进行了深度合作。"
+          }
+        },
         {
           "text": "耳机可以在配套APP上调节环境音大小，开启低延时游戏模式；耳机在通话降噪方面与大象声科进行了深度合作。",
           "tag": "降噪",
@@ -77,19 +87,17 @@
         "游戏",
         "通话"
       ],
-      "positioning_summary": "耳机可以在配套APP上调节环境音大小，开启低延时游戏模式；耳机在通话降噪方面与大象声科进行了深度合作。",
+      "positioning_summary": "经过近几年的发展，漫步者的真无线耳机已经逐渐形成了几大产品线，主要包括：TWS系列、TWS NB降噪系列、Lo […]\n耳机可以在配套APP上调节环境音大小，开启低延时游戏模式；耳机在通话降噪方面与大象声科进行了深度合作。",
       "launch_date_evidence": null,
       "price_evidence": null
     },
     "cost": {
       "major_parts": [
-        "充电仓",
         "电池",
-        "主板/PCBA",
-        "麦克风",
         "降噪系统",
-        "喇叭单元",
-        "天线"
+        "充电仓",
+        "主板/PCBA",
+        "麦克风"
       ],
       "chip_modules": [
         {
@@ -151,20 +159,6 @@
       ],
       "bom_table": [
         {
-          "component": "充电仓",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "major",
-          "evidence": {
-            "value": "充电仓",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "包装盒内物品，耳机和充电盒、收纳袋、充电线、替换的耳塞和使用说明书。充电盒上有一层保护膜防止生产运输过程中刮花壳体。"
-          }
-        },
-        {
           "component": "电池",
           "brand": "",
           "model": "",
@@ -173,6 +167,34 @@
           "role": "major",
           "evidence": {
             "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒采用的软包锂电池来自惠州市超聚电池有限公司，型号SP751437，容量350mAh，能量1.33Wh，额定电压3.8V，充电限制电压4.35V。"
+          }
+        },
+        {
+          "component": "降噪系统",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "降噪系统",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "壳体上的防尘网，内有前馈麦克风拾音，用于主动降噪、通话降噪、环境音等功能。"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
             "confidence": 0.72,
             "source_type": "text",
             "source_text": "充电盒采用的软包锂电池来自惠州市超聚电池有限公司，型号SP751437，容量350mAh，能量1.33Wh，额定电压3.8V，充电限制电压4.35V。"
@@ -207,59 +229,17 @@
           }
         },
         {
-          "component": "降噪系统",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "major",
-          "evidence": {
-            "value": "降噪系统",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "今天我爱音频网要拆解的是漫步者 Lollipods Pro真无线降噪耳机，这是Lollipods系列首款支持主动降噪的产品，耳机采用混合主动降噪技术，官方宣传其最大降噪深度为-38dB。耳机可以在配套APP上调节环境音大小，开启低延时游戏模式；耳机在通话降噪方面与大象声科进行了深度合作。下面一起来看我爱音频网的详细拆解吧。"
-          }
-        },
-        {
-          "component": "喇叭单元",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "",
-          "role": "major",
-          "evidence": {
-            "value": "喇叭单元",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "焊开焊点，首先看到下面的扣式电池。壳体内有一个黑色中框固定电池，隔开扬声器单元。"
-          }
-        },
-        {
-          "component": "天线",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "major",
-          "evidence": {
-            "value": "天线",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "连接耳机柄内蓝牙天线的Pogo Pin。"
-          }
-        },
-        {
           "component": "触控/按键",
           "brand": "",
           "model": "",
           "qty_hint": "",
-          "side": "充电盒",
+          "side": "",
           "role": "minor",
           "evidence": {
             "value": "触控/按键",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "充电盒背面有一个快速配对按键。"
+            "source_text": "按键FPC与主板连接的焊点。"
           }
         },
         {
@@ -273,63 +253,21 @@
             "value": "充电触点",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "充电仓底部给耳机充电的Pogo Pin。"
+            "source_text": "耳机柄底部的充电触点和通话麦克风的拾音孔。"
           }
         },
         {
-          "component": "外壳结构",
+          "component": "芯片/模组",
           "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "",
-          "role": "minor",
-          "evidence": {
-            "value": "外壳结构",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "前腔内的零部件通过一条FPC与主板相连，电池上方位置有蛇形线屏蔽PCB。"
-          }
-        },
-        {
-          "component": "指示灯",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
+          "model": "SS881",
+          "qty_hint": "1",
           "side": "充电盒",
-          "role": "minor",
-          "evidence": {
-            "value": "指示灯",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "充电盒体积稍大，壳体是亮面的，正面凹印了漫步者的品牌名“EDIFIER”，上面是充电盒的状态指示灯。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "SS881",
-          "qty_hint": "1",
-          "side": "",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "SS881",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "昇生微电子SS881A是一颗集成了充放电管理的AD型Flash单片机，集成了电源管理单元和充电管理单元，提供全软件实时可配置的充电电压电流设置。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "SS881",
-          "qty_hint": "1",
-          "side": "耳机",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "SS881",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "针对TWS产品的智能化趋势，SS881X系列已经与各大主流耳机平台实现双向通信功能，产品可以快速迭代。"
+            "source_text": "充电接口：内部电路方面，充电盒通过USB Type-C接口输入电源，微源半导体LP5301B6F支持过压过流双重保护，避免充电器误操作产生的高电压冲击充电盒电路；昇生微电子SS881AAD型Flash单片机集成充放电管理功能，负责电池充放电，并且支持与耳机双向通信；充电盒采用的软包电池来自惠州超聚，容量350mAh；微源半导体LP6261负责将电池输出升压为耳机充电；充电盒内还有霍尔元件用于实现开盖即连功能。"
           }
         },
         {
@@ -337,13 +275,13 @@
           "brand": "",
           "model": "恒玄BES2300HP3",
           "qty_hint": "1",
-          "side": "耳机",
+          "side": "",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "恒玄BES2300HP3",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "漫步者Lollipods Pro真无线降噪耳机的主控芯片是恒玄BES2300HP3，近期有不少新款降噪耳机也采用了这颗芯片，据悉这是BES2300系列支持双馈降噪型号中性价比较高的一款。"
+            "source_text": "电池容量：350\n芯片 恒玄BES2300HP3\n芯片 BES2300\n芯片 BES2300HP\n芯片 SS881"
           }
         },
         {
@@ -351,41 +289,27 @@
           "brand": "",
           "model": "BES2300HP",
           "qty_hint": "1",
-          "side": "耳机",
+          "side": "",
           "role": "主控/蓝牙",
           "evidence": {
             "value": "BES2300HP",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "漫步者Lollipods Pro真无线降噪耳机的主控芯片是恒玄BES2300HP3，近期有不少新款降噪耳机也采用了这颗芯片，据悉这是BES2300系列支持双馈降噪型号中性价比较高的一款。"
+            "source_text": "电池容量：350\n芯片 恒玄BES2300HP3\n芯片 BES2300\n芯片 BES2300HP\n芯片 SS881"
           }
         },
         {
           "component": "芯片/模组",
           "brand": "",
-          "model": "BES2300",
+          "model": "SS881",
           "qty_hint": "1",
           "side": "",
           "role": "主控/蓝牙",
           "evidence": {
-            "value": "BES2300",
+            "value": "SS881",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "BES2300系列是全集成自适应主动降噪方案，支持蓝牙 5.0、IBRT低频转发技术和双模蓝牙 4.2，它还支持第三代 FWS 全无线立体声技术、双麦克风等，采用 28nm HKMG CMOS工艺、BGA 封装。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "BES2300",
-          "qty_hint": "1",
-          "side": "耳机",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "BES2300",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "BES2300支持高性能的自适应主动降噪技术，可以让高端主动降噪耳机使用一颗全集成芯片实现高音质和主动降噪。"
+            "source_text": "电池容量：350\n芯片 恒玄BES2300HP3\n芯片 BES2300\n芯片 BES2300HP\n芯片 SS881"
           }
         }
       ],
@@ -393,17 +317,7 @@
       "packaging_notes": [
         "包装盒内物品，耳机和充电盒、收纳袋、充电线、替换的耳塞和使用说明书。"
       ],
-      "process_hints": [
-        {
-          "value": "丝印0W14的一体化电池保护IC。",
-          "evidence": {
-            "value": "丝印0W14的一体化电池保护IC。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "丝印0W14的一体化电池保护IC。"
-          }
-        }
-      ],
+      "process_hints": [],
       "summary_image_urls": [],
       "summary_text": ""
     },
@@ -411,17 +325,11 @@
       "form_factor": "真无线耳机TWS",
       "earbud_type": "入耳",
       "materials": [
-        "硅胶",
-        "塑料",
         "PC"
       ],
       "ip_rating": null,
-      "weight_g": "44.3克",
-      "dimensions": [
-        "耳机主板与一元硬币的尺寸对比。",
-        "扣式电池与一元硬币的尺寸对比。",
-        "动圈扬声器单元尺寸约8mm。"
-      ],
+      "weight_g": null,
+      "dimensions": [],
       "internal_structure": [
         {
           "value": "充电盒采用的软包锂电池来自惠州市超聚电池有限公司，型号SP751437，容量350mAh，能量1.33Wh，额定电压3.8V，充电限制电压4.35V。",
@@ -439,6 +347,24 @@
             "confidence": 0.74,
             "source_type": "text",
             "source_text": "我爱音频网拆解了解到，超聚电池已被漫步者、摩托罗拉、233621、QCY、FIIL、酷我、艾特铭客、Taotronics等众多品牌的音频产品采用。"
+          }
+        },
+        {
+          "value": "壳体上的防尘网，内有前馈麦克风拾音，用于主动降噪、通话降噪、环境音等功能。",
+          "evidence": {
+            "value": "壳体上的防尘网，内有前馈麦克风拾音，用于主动降噪、通话降噪、环境音等功能。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "壳体上的防尘网，内有前馈麦克风拾音，用于主动降噪、通话降噪、环境音等功能。"
+          }
+        },
+        {
+          "value": "镭雕2024 3X09的MEMS硅麦，拾取耳道内的声音用于主动降噪和通话降噪。",
+          "evidence": {
+            "value": "镭雕2024 3X09的MEMS硅麦，拾取耳道内的声音用于主动降噪和通话降噪。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "镭雕2024 3X09的MEMS硅麦，拾取耳道内的声音用于主动降噪和通话降噪。"
           }
         },
         {
@@ -460,15 +386,6 @@
           }
         },
         {
-          "value": "壳体上的防尘网，内有前馈麦克风拾音，用于主动降噪、通话降噪、环境音等功能。",
-          "evidence": {
-            "value": "壳体上的防尘网，内有前馈麦克风拾音，用于主动降噪、通话降噪、环境音等功能。",
-            "confidence": 0.74,
-            "source_type": "text",
-            "source_text": "壳体上的防尘网，内有前馈麦克风拾音，用于主动降噪、通话降噪、环境音等功能。"
-          }
-        },
-        {
           "value": "耳机柄底部的充电触点和通话麦克风的拾音孔。",
           "evidence": {
             "value": "耳机柄底部的充电触点和通话麦克风的拾音孔。",
@@ -478,54 +395,17 @@
           }
         },
         {
-          "value": "今天我爱音频网要拆解的是漫步者 Lollipods Pro真无线降噪耳机，这是Lollipods系列首款支持主动降噪的产品，耳机采用混合主动降噪技术，官方宣传其最大降噪深度为-38dB。耳机可以在配套APP上调节环境音大小，开启低延时游戏模式；耳机在通话降噪方面与大象声科进行了深度合作。下面一起来看我爱音频网的详细拆解吧。",
+          "value": "今天我爱音频网要拆解的是漫步者 Lollipods Pro真无线降噪耳机，这是Lollipods系列首款支持主动降噪的产品，耳机采用混合主动降噪技术，官方宣传其最大降噪深度为-38dB。",
           "evidence": {
-            "value": "今天我爱音频网要拆解的是漫步者 Lollipods Pro真无线降噪耳机，这是Lollipods系列首款支持主动降噪的产品，耳机采用混合主动降噪技术，官方宣传其最大降噪深度为-38dB。耳机可以在配套APP上调节环境音大小，开启低延时游戏模式；耳机在通话降噪方面与大象声科进行了深度合作。下面一起来看我爱音频网的详细拆解吧。",
-            "confidence": 0.74,
+            "value": "今天我爱音频网要拆解的是漫步者 Lollipods Pro真无线降噪耳机，这是Lollipods系列首款支持主动降噪的产品，耳机采用混合主动降噪技术，官方宣传其最大降噪深度为-38dB。",
+            "confidence": 0.65,
             "source_type": "text",
-            "source_text": "今天我爱音频网要拆解的是漫步者 Lollipods Pro真无线降噪耳机，这是Lollipods系列首款支持主动降噪的产品，耳机采用混合主动降噪技术，官方宣传其最大降噪深度为-38dB。耳机可以在配套APP上调节环境音大小，开启低延时游戏模式；耳机在通话降噪方面与大象声科进行了深度合作。下面一起来看我爱音频网的详细拆解吧。"
-          }
-        },
-        {
-          "value": "我爱音频网拆解过的漫步者TWS耳机有：漫步者FunBuds真无线降噪耳机、漫步者HECATE GM45真无线游戏耳机、漫步者 X6 真无线蓝牙耳机、漫步者DreamPods 真无线蓝牙耳机、漫步者TO-U2真无线蓝牙耳机冇心版、漫步者MiniBuds真无线耳机冇心版、漫步者TWS NB2 真无线主动降噪耳机、漫步者Xemal声迈X5和声迈X3以及10款其他的漫步者耳机产品。",
-          "evidence": {
-            "value": "我爱音频网拆解过的漫步者TWS耳机有：漫步者FunBuds真无线降噪耳机、漫步者HECATE GM45真无线游戏耳机、漫步者 X6 真无线蓝牙耳机、漫步者DreamPods 真无线蓝牙耳机、漫步者TO-U2真无线蓝牙耳机冇心版、漫步者MiniBuds真无线耳机冇心版、漫步者TWS NB2 真无线主动降噪耳机、漫步者Xemal声迈X5和声迈X3以及10款其他的漫步者耳机产品。",
-            "confidence": 0.74,
-            "source_type": "text",
-            "source_text": "我爱音频网拆解过的漫步者TWS耳机有：漫步者FunBuds真无线降噪耳机、漫步者HECATE GM45真无线游戏耳机、漫步者 X6 真无线蓝牙耳机、漫步者DreamPods 真无线蓝牙耳机、漫步者TO-U2真无线蓝牙耳机冇心版、漫步者MiniBuds真无线耳机冇心版、漫步者TWS NB2 真无线主动降噪耳机、漫步者Xemal声迈X5和声迈X3以及10款其他的漫步者耳机产品。"
+            "source_text": "今天我爱音频网要拆解的是漫步者 Lollipods Pro真无线降噪耳机，这是Lollipods系列首款支持主动降噪的产品，耳机采用混合主动降噪技术，官方宣传其最大降噪深度为-38dB。"
           }
         }
       ],
-      "fastener_type": [
-        {
-          "value": "微动按键特写，橡胶柱热熔固定。",
-          "evidence": {
-            "value": "微动按键特写，橡胶柱热熔固定。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "微动按键特写，橡胶柱热熔固定。"
-          }
-        },
-        {
-          "value": "镭雕2018 3X04的MEMS硅麦，使用厚厚的胶水密封。",
-          "evidence": {
-            "value": "镭雕2018 3X04的MEMS硅麦，使用厚厚的胶水密封。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "镭雕2018 3X04的MEMS硅麦，使用厚厚的胶水密封。"
-          }
-        }
-      ],
+      "fastener_type": [],
       "sealing_method": [
-        {
-          "value": "机身以白色为主，黑色防尘网也起到一定装饰作用。",
-          "evidence": {
-            "value": "机身以白色为主，黑色防尘网也起到一定装饰作用。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "机身以白色为主，黑色防尘网也起到一定装饰作用。"
-          }
-        },
         {
           "value": "壳体上的防尘网，内有前馈麦克风拾音，用于主动降噪、通话降噪、环境音等功能。",
           "evidence": {
@@ -536,30 +416,12 @@
           }
         },
         {
-          "value": "出音嘴防尘网特写，阻止异物进入。",
+          "value": "壳体上的防尘网，内有前馈麦克风拾音，用于主动降噪、通话降噪、环境音等功能。",
           "evidence": {
-            "value": "出音嘴防尘网特写，阻止异物进入。",
+            "value": "壳体上的防尘网，内有前馈麦克风拾音，用于主动降噪、通话降噪、环境音等功能。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "出音嘴防尘网特写，阻止异物进入。"
-          }
-        },
-        {
-          "value": "前馈麦克风的防尘网。",
-          "evidence": {
-            "value": "前馈麦克风的防尘网。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "前馈麦克风的防尘网。"
-          }
-        },
-        {
-          "value": "耳机腔体顶部的泄压孔，内侧的防尘网特写。",
-          "evidence": {
-            "value": "耳机腔体顶部的泄压孔，内侧的防尘网特写。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "耳机腔体顶部的泄压孔，内侧的防尘网特写。"
+            "source_text": "壳体上的防尘网，内有前馈麦克风拾音，用于主动降噪、通话降噪、环境音等功能。"
           }
         }
       ],
@@ -572,114 +434,68 @@
             "source_type": "text",
             "source_text": "包装盒内物品，耳机和充电盒、收纳袋、充电线、替换的耳塞和使用说明书。"
           }
-        },
-        {
-          "value": "两对可替换的硅胶耳塞，耳机上默认的是中号。",
-          "evidence": {
-            "value": "两对可替换的硅胶耳塞，耳机上默认的是中号。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "两对可替换的硅胶耳塞，耳机上默认的是中号。"
-          }
-        },
-        {
-          "value": "选择合适的耳塞可以提高佩戴舒适度和耳道密封性。",
-          "evidence": {
-            "value": "选择合适的耳塞可以提高佩戴舒适度和耳道密封性。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "选择合适的耳塞可以提高佩戴舒适度和耳道密封性。"
-          }
         }
       ],
-      "key_image_urls": [
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/04/2021041911413165.jpg",
-          "alt": "拆解报告：漫步者 Lollipods Pro真无线降噪耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/04/2021041911413643.jpg",
-          "alt": "拆解报告：漫步者 Lollipods Pro真无线降噪耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/04/2021041911414870.jpg",
-          "alt": "拆解报告：漫步者 Lollipods Pro真无线降噪耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/04/2021041911415363.jpg",
-          "alt": "拆解报告：漫步者 Lollipods Pro真无线降噪耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/04/2021041911415732.jpg",
-          "alt": "拆解报告：漫步者 Lollipods Pro真无线降噪耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        }
-      ],
+      "key_image_urls": [],
       "assembly_notes": [
         "充电盒采用的软包锂电池来自惠州市超聚电池有限公司，型号SP751437，容量350mAh，能量1.33Wh，额定电压3.8V，充电限制电压4.35V。",
         "我爱音频网拆解了解到，超聚电池已被漫步者、摩托罗拉、233621、QCY、FIIL、酷我、艾特铭客、Taotronics等众多品牌的音频产品采用。",
-        "按键FPC与主板连接的焊点。",
-        "主板一侧电路展示。"
+        "壳体上的防尘网，内有前馈麦克风拾音，用于主动降噪、通话降噪、环境音等功能。",
+        "镭雕2024 3X09的MEMS硅麦，拾取耳道内的声音用于主动降噪和通话降噪。"
       ],
       "ip_rating_evidence": null,
-      "weight_evidence": {
-        "value": "44.3克",
-        "confidence": 0.75,
-        "source_type": "text",
-        "source_text": "44.3克"
-      }
+      "weight_evidence": null,
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": null,
+      "weight_earbud_evidence": null
     },
     "hardware": {
       "specs": [
         {
           "param": "充电方式",
-          "value": "我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对漫步者 Lollipods Pro真无线降噪耳机进行有线充电测试，充电功率约为1.4W。",
+          "value": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对漫步者 Lollipods Pro真无线降噪耳机进行有线充电测试，充电功率约为1.4W。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对漫步者 Lollipods Pro真无线降噪耳机进行有线充电测试，充电功率约为1.4W。"
+          "source_ref": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KM001C便携式电源测试仪\n对漫步者 Lollipods Pro真无线降噪耳机进行有线充电测试，充电功率约为1.4W。"
         },
         {
           "param": "充电接口",
-          "value": "充电线为USB-A to USB Type-C接口。",
+          "value": "充电接口：充电线为USB-A to USB Type-C接口。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "充电线为USB-A to USB Type-C接口。"
+          "source_ref": "充电接口：充电线为USB-A to USB Type-C接口。"
         },
         {
           "param": "充电接口",
-          "value": "由于腰线的存在，USB Type-C充电接口没有位于机身中间位置。",
+          "value": "充电接口：由于腰线的存在，USB Type-C充电接口没有位于机身中间位置。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "由于腰线的存在，USB Type-C充电接口没有位于机身中间位置。"
+          "source_ref": "充电接口：由于腰线的存在，USB Type-C充电接口没有位于机身中间位置。"
         },
         {
           "param": "充电接口",
-          "value": "内部电路方面，充电盒通过USB Type-C接口输入电源，微源半导体LP5301B6F支持过压过流双重保护，避免充电器误操作产生的高电压冲击充电盒电路；昇生微电子SS881AAD型Flash单片机集成充放电管理功能，负责电池充放电，并且支持与耳机双向通信；充电盒采用的软包电池来自惠州超聚，容量350mAh；微源半导体LP6261负责将电池输出升压为耳机充电；充电盒内还有霍尔元件用于实现开盖即连功能。",
+          "value": "充电接口：内部电路方面，充电盒通过USB Type-C接口输入电源，微源半导体LP5301B6F支持过压过流双重保护，避免充电器误操作产生的高电压冲击充电盒电路；昇生微电子SS881AAD型Flash单片机集成充放电管理功能，负责电池充放电，并且支持与耳机双向通信；充电盒采用的软包电池来自惠州超聚，容量350mAh；微源半导体LP6261负责将电池输出升压为耳机充电；充电盒内还有霍尔元件用于实现开盖即连功能。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "内部电路方面，充电盒通过USB Type-C接口输入电源，微源半导体LP5301B6F支持过压过流双重保护，避免充电器误操作产生的高电压冲击充电盒电路；昇生微电子SS881AAD型Flash单片机集成充放电管理功能，负责电池充放电，并且支持"
+          "source_ref": "充电接口：内部电路方面，充电盒通过USB Type-C接口输入电源，微源半导体LP5301B6F支持过压过流双重保护，避免充电器误操作产生的高电压冲击充电盒电路；昇生微电子SS881AAD型Flash单片机集成充放电管理功能，负责电池充放电"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：包装盒侧边信息，耳机支持：混合主动降噪、AI通话降噪、AAC高清解码、环境声监听、支持快充、20小时复合续航、IP54防尘防水、APP操控。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：包装盒侧边信息，耳机支持：混合主动降噪、AI通话降噪、AAC高清解码、环境声监听、支持快充、20小时复合续航、IP54防尘防水、APP操控。"
         },
         {
           "param": "充电接口",
@@ -701,15 +517,6 @@
         },
         {
           "param": "标记/认证",
-          "value": "包装盒侧边信息，耳机支持：混合主动降噪、AI通话降噪、AAC高清解码、环境声监听、支持快充、20小时复合续航、IP54防尘防水、APP操控。",
-          "unit": "",
-          "brand": "",
-          "model": "",
-          "confidence": 0.7,
-          "source_ref": "包装盒侧边信息，耳机支持：混合主动降噪、AI通话降噪、AAC高清解码、环境声监听、支持快充、20小时复合续航、IP54防尘防水、APP操控。"
-        },
-        {
-          "param": "标记/认证",
           "value": "充电盒采用的软包锂电池来自惠州市超聚电池有限公司，型号SP751437，容量350mAh，能量1.33Wh，额定电压3.8V，充电限制电压4.35V。",
           "unit": "",
           "brand": "",
@@ -719,21 +526,39 @@
         },
         {
           "param": "标记/认证",
-          "value": "扣式电池一侧的二维码认证信息。",
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：包装盒侧边信息，耳机支持：混合主动降噪、AI通话降噪、AAC高清解码、环境声监听、支持快充、20小时复合续航、IP54防尘防水、APP操控。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "扣式电池一侧的二维码认证信息。"
+          "source_ref": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：包装盒侧边信息，耳机支持：混合主动降噪、AI通话降噪、AAC高清解码、环境声监听、支持快充、20小时复合续航、IP54防尘防水、APP操控。"
         },
         {
           "param": "标记/认证",
-          "value": "额定电压3.8V。",
+          "value": "标记/认证：充电盒采用的软包锂电池来自惠州市超聚电池有限公司，型号SP751437，容量350mAh，能量1.33Wh，额定电压3.8V，充电限制电压4.35V。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "额定电压3.8V。"
+          "source_ref": "标记/认证：充电盒采用的软包锂电池来自惠州市超聚电池有限公司，型号SP751437，容量350mAh，能量1.33Wh，额定电压3.8V，充电限制电压4.35V。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "标记/认证：扣式电池一侧的二维码认证信息。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "标记/认证：扣式电池一侧的二维码认证信息。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "标记/认证：额定电压3.8V。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "标记/认证：额定电压3.8V。"
         },
         {
           "param": "电池容量",
@@ -747,7 +572,7 @@
       ]
     },
     "software": {
-      "bluetooth_version": "5.0",
+      "bluetooth_version": null,
       "codecs": [
         {
           "value": "AAC",
@@ -755,13 +580,22 @@
             "value": "AAC",
             "confidence": 0.8,
             "source_type": "text",
-            "source_text": "包装盒侧边信息，耳机支持：混合主动降噪、AI通话降噪、AAC高清解码、环境声监听、支持快充、20小时复合续航、IP54防尘防水、APP操控。"
+            "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：包装盒侧边信息，耳机支持：混合主动降噪、AI通话降噪、AAC高清解码、环境声监听、支持快充、20小时复合续航、IP54防尘防水、APP操控。"
           }
         }
       ],
       "multipoint": [],
       "app_name": "",
       "app_features": [
+        {
+          "value": "经过近几年的发展，漫步者的真无线耳机已经逐渐形成了几大产品线，主要包括：TWS系列、TWS NB降噪系列、Lo […]\n耳机可以在配套APP上调节环境音大小，开启低延时游戏模式；耳机在通话降噪方面与大象声科进行了深度合作。",
+          "evidence": {
+            "value": "经过近几年的发展，漫步者的真无线耳机已经逐渐形成了几大产品线，主要包括：TWS系列、TWS NB降噪系列、Lo […]\n耳机可以在配套APP上调节环境音大小，开启低延时游戏模式；耳机在通话降噪方面与大象声科进行了深度合作。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "经过近几年的发展，漫步者的真无线耳机已经逐渐形成了几大产品线，主要包括：TWS系列、TWS NB降噪系列、Lo […]\n耳机可以在配套APP上调节环境音大小，开启低延时游戏模式；耳机在通话降噪方面与大象声科进行了深度合作。"
+          }
+        },
         {
           "value": "耳机可以在配套APP上调节环境音大小，开启低延时游戏模式；耳机在通话降噪方面与大象声科进行了深度合作。",
           "evidence": {
@@ -772,12 +606,12 @@
           }
         },
         {
-          "value": "包装盒侧边信息，耳机支持：混合主动降噪、AI通话降噪、AAC高清解码、环境声监听、支持快充、20小时复合续航、IP54防尘防水、APP操控。",
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：包装盒侧边信息，耳机支持：混合主动降噪、AI通话降噪、AAC高清解码、环境声监听、支持快充、20小时复合续航、IP54防尘防水、APP操控。",
           "evidence": {
-            "value": "包装盒侧边信息，耳机支持：混合主动降噪、AI通话降噪、AAC高清解码、环境声监听、支持快充、20小时复合续航、IP54防尘防水、APP操控。",
+            "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：包装盒侧边信息，耳机支持：混合主动降噪、AI通话降噪、AAC高清解码、环境声监听、支持快充、20小时复合续航、IP54防尘防水、APP操控。",
             "confidence": 0.7,
             "source_type": "text",
-            "source_text": "包装盒侧边信息，耳机支持：混合主动降噪、AI通话降噪、AAC高清解码、环境声监听、支持快充、20小时复合续航、IP54防尘防水、APP操控。"
+            "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：包装盒侧边信息，耳机支持：混合主动降噪、AI通话降噪、AAC高清解码、环境声监听、支持快充、20小时复合续航、IP54防尘防水、APP操控。"
           }
         }
       ],
@@ -794,6 +628,15 @@
       ],
       "latency_notes": [
         {
+          "value": "经过近几年的发展，漫步者的真无线耳机已经逐渐形成了几大产品线，主要包括：TWS系列、TWS NB降噪系列、Lo […]\n耳机可以在配套APP上调节环境音大小，开启低延时游戏模式；耳机在通话降噪方面与大象声科进行了深度合作。",
+          "evidence": {
+            "value": "经过近几年的发展，漫步者的真无线耳机已经逐渐形成了几大产品线，主要包括：TWS系列、TWS NB降噪系列、Lo […]\n耳机可以在配套APP上调节环境音大小，开启低延时游戏模式；耳机在通话降噪方面与大象声科进行了深度合作。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "经过近几年的发展，漫步者的真无线耳机已经逐渐形成了几大产品线，主要包括：TWS系列、TWS NB降噪系列、Lo […]\n耳机可以在配套APP上调节环境音大小，开启低延时游戏模式；耳机在通话降噪方面与大象声科进行了深度合作。"
+          }
+        },
+        {
           "value": "耳机可以在配套APP上调节环境音大小，开启低延时游戏模式；耳机在通话降噪方面与大象声科进行了深度合作。",
           "evidence": {
             "value": "耳机可以在配套APP上调节环境音大小，开启低延时游戏模式；耳机在通话降噪方面与大象声科进行了深度合作。",
@@ -803,12 +646,7 @@
           }
         }
       ],
-      "bluetooth_evidence": {
-        "value": "5.0",
-        "confidence": 0.85,
-        "source_type": "text",
-        "source_text": "蓝牙 5.0"
-      }
+      "bluetooth_evidence": null
     }
   }
 }

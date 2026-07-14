@@ -1,5 +1,6 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
+import CompareWorkbench from "../components/CompareWorkbench";
 import { withBase } from "../lib/paths";
 import fs from "node:fs";
 import path from "node:path";
@@ -15,14 +16,36 @@ const productIndex = JSON.parse(
 const categories = manifest.categories as {
   name: string;
   slug: string;
+  file: string;
   product_count: number;
 }[];
 
-const topProducts = [...productIndex.products]
-  .sort((a: { latest_published?: string }, b: { latest_published?: string }) =>
-    (b.latest_published || "").localeCompare(a.latest_published || "")
-  )
-  .slice(0, 6);
+type IndexProduct = {
+  canonical_id: string;
+  brand: string;
+  model: string;
+  category: string;
+  first_seen?: string;
+  latest_published?: string;
+};
+
+// “最新产品”：以 first_seen（首次入库年份）筛出当年新品，用于首页顶部突出展示，
+// 方便用户在决定要对比谁之前先看到今年新出的型号。
+const currentYear = String(new Date().getFullYear());
+const newestProducts = (productIndex.products as IndexProduct[])
+  .filter((p) => (p.first_seen || "").startsWith(currentYear))
+  .sort((a, b) => (b.latest_published || "").localeCompare(a.latest_published || ""))
+  .slice(0, 10);
+
+// 对比工作台默认展示产品数最多的品类，让用户落地首页就能直接选型号，
+// 不必先点进品类页才能看到可勾选的产品列表。
+const defaultCategory = [...categories].sort((a, b) => b.product_count - a.product_count)[0];
+const defaultCompareData = defaultCategory
+  ? JSON.parse(fs.readFileSync(path.join(dataDir, "compare", defaultCategory.file), "utf-8"))
+  : { category: "", param_rows: [], products: [] };
+const profiles = JSON.parse(
+  fs.readFileSync(path.join(dataDir, "compare_profiles.json"), "utf-8")
+);
 
 // 数据覆盖度：报告/视频总量、已转写视频数、已知售价产品数——均来自实际磁盘数据，非估算值。
 const teardownPath = path.join(dataDir, "teardown_details.json");
@@ -66,9 +89,43 @@ if (fs.existsSync(productsDataDir)) {
     <p class="m-0 text-sm uppercase tracking-wider opacity-80">Cost Intelligence</p>
     <h1 class="mt-2 mb-2 text-3xl font-bold">竞品成本工作台</h1>
     <p class="m-0 max-w-xl text-base opacity-90">
-      先选品类，再勾选要对比的产品型号。对比表只显示您选择的产品，不再一次铺满几十列。
+      先选类型，再勾选要对比的产品型号——对比表只显示您选择的产品，不再一次铺满几十列。
     </p>
   </section>
+
+  {
+    newestProducts.length > 0 && (
+      <section class="mt-6 rounded-3xl border border-[#ffd9a8] bg-gradient-to-br from-[#fff8ef] via-[#fff3e0] to-[#ffe9cc] p-6 shadow-sm">
+        <div class="flex flex-wrap items-baseline justify-between gap-2">
+          <h2 class="m-0 flex items-center gap-2 text-xl font-bold text-[#92400e]">
+            <span class="rounded-full bg-[#f59e0b] px-2.5 py-0.5 text-xs font-semibold text-white">NEW</span>
+            {currentYear} 最新产品
+          </h2>
+          <span class="text-sm text-[#92400e]/80">
+            共 {newestProducts.length} 款 {currentYear} 年新入库产品 · 按最新拆解时间排序
+          </span>
+        </div>
+        <div class="mt-4 flex gap-3 overflow-x-auto pb-1">
+          {newestProducts.map((p) => (
+            <a
+              href={withBase(`/product/${p.canonical_id}`)}
+              class="block w-56 flex-shrink-0 rounded-2xl border border-[#ffe1b0] bg-white p-4 no-underline shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+            >
+              <div class="flex items-center justify-between">
+                <span class="rounded-full bg-[#fff3e0] px-2 py-0.5 text-xs font-medium text-[#b45309]">
+                  {p.category}
+                </span>
+                <span class="text-xs text-[var(--muted)]">{p.first_seen}</span>
+              </div>
+              <div class="mt-2 font-semibold text-[var(--text)]">
+                {p.brand} {p.model}
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )
+  }
 
   <section class="mt-6 rounded-2xl border border-[var(--line)] bg-white p-5 shadow-sm">
     <h2 class="m-0 text-sm font-semibold text-[var(--muted)]">数据覆盖度</h2>
@@ -78,36 +135,17 @@ if (fs.existsSync(productsDataDir)) {
     </p>
   </section>
 
-  <h2 class="mt-8 mb-4 text-xl font-bold">按品类进入对比</h2>
-  <div class="grid gap-4 sm:grid-cols-2 lg:grid-cols-3">
-    {
-      categories.map((c) => (
-        <a
-          href={withBase(`/category/${encodeURIComponent(c.name)}`)}
-          class="block rounded-2xl border border-[var(--line)] bg-white p-5 no-underline shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
-        >
-          <h3 class="m-0 text-lg font-bold text-[var(--text)]">{c.name}</h3>
-          <p class="mt-2 mb-0 text-sm text-[var(--muted)]">{c.product_count} 款产品可勾选对比</p>
-          <p class="mt-3 text-sm font-medium text-[var(--primary)]">进入对比画布 →</p>
-        </a>
-      ))
-    }
-  </div>
-
-  <h2 class="mt-10 mb-4 text-xl font-bold">最近入库产品</h2>
-  <div class="grid gap-3 sm:grid-cols-2 lg:grid-cols-3">
-    {
-      topProducts.map((p: { canonical_id: string; brand: string; model: string; category: string }) => (
-        <a
-          href={withBase(`/product/${p.canonical_id}`)}
-          class="rounded-xl border border-[var(--line)] bg-white p-4 no-underline hover:border-[var(--primary)]"
-        >
-          <div class="text-xs text-[var(--muted)]">{p.category}</div>
-          <div class="font-semibold text-[var(--text)]">
-            {p.brand} {p.model}
-          </div>
-        </a>
-      ))
-    }
-  </div>
+  <h2 class="mt-10 mb-4 text-xl font-bold">选类型 · 选产品 · 开始对比</h2>
+  <p class="mt-0 mb-4 text-sm text-[var(--muted)]">
+    点击下方的耳机类型切换品类，勾选想对比的产品型号，对比表会立即出现在下方——无需先进入品类页。
+  </p>
+  {defaultCategory && (
+    <CompareWorkbench
+      client:load
+      category={defaultCategory.name}
+      compareData={defaultCompareData}
+      profiles={profiles}
+      allCategories={categories.map((c) => ({ name: c.name, slug: c.slug }))}
+    />
+  )}
 </BaseLayout>

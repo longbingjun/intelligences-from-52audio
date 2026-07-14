@@ -25,8 +25,8 @@
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
-    "bluetooth": "4.1",
-    "bom_row_count": 8,
+    "bluetooth": "",
+    "bom_row_count": 6,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -36,6 +36,20 @@
     "best_video_id": null
   },
   "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "采用获专利的Impedance Track\n算法支持电量监测，可提供剩余电池容量（mAh），充电状态（％）和电池电压（mV）等信息，用于精确电量显示。"
+      }
+    },
     {
       "component": "麦克风",
       "brand": "",
@@ -47,7 +61,7 @@
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "插头分为三段式和四段式两种，分别对应左右声道、接地和线控麦克风。"
+        "source_text": "线控内侧腔体上麦克风开孔有防尘棉覆盖，防止异物进入。"
       }
     },
     {
@@ -79,34 +93,6 @@
       }
     },
     {
-      "component": "电池",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "电池",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "Qualcomm高通CSR8645双模ROM音频SoC，蓝牙版本4.1。集成双模蓝牙无线电，低功耗DSP，应用处理器，电池充电器，存储器以及各种音频和硬件接口，支持cVc语音处理技术和aptX编解码器技术，以基于ROM的经济型单芯片封装提供高质量的语音和音乐功能，适用于较小设计的集成单芯片解决方案。"
-      }
-    },
-    {
-      "component": "天线",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "天线",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "NFC天线内侧有屏蔽纸覆盖，防止受到干扰。"
-      }
-    },
-    {
       "component": "触控/按键",
       "brand": "",
       "model": "",
@@ -117,21 +103,7 @@
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "正面有一个功能按键，用于暂停播放和接听挂断来电。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "四颗指示灯特写，用于查看耳机剩余电量。"
+        "source_text": "充电接口：Micro-USB充电接口和查看剩余电量按钮。"
       }
     },
     {
@@ -163,6 +135,26 @@
   "unboxing": null,
   "market": {
     "selling_points": [
+      {
+        "text": "充电接口：USB-A\n标记/认证：Cleer，成立于2012年，是一家专注于智能耳机、智能音箱研发、制造和销售的高端声学品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CES科技创新奖在内的全球各类大奖，拥有多项专利技术。",
+        "tag": "旗舰定位",
+        "evidence": {
+          "value": "充电接口：USB-A\n标记/认证：Cleer，成立于2012年，是一家专注于智能耳机、智能音箱研发、制造和销售的高端声学品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CES科技创新奖在内的全球各类大奖，拥有多项专利技术。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "充电接口：USB-A\n标记/认证：Cleer，成立于2012年，是一家专注于智能耳机、智能音箱研发、制造和销售的高端声学品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CES科技创新奖在内的全球各类大奖，拥有多项专利技术。"
+        }
+      },
+      {
+        "text": "Cleer，成立于2012年，是一家专注于智能耳机、智能音箱研发、制造和销售的高端声学品牌，由音频行业资深设计 […]\nCleer，成立于2012年，是一家专注于智能耳机、智能音箱研发、制造和销售的高端声学品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CES科技创新奖在内的全球各类大奖，拥有多项专利技术。",
+        "tag": "旗舰定位",
+        "evidence": {
+          "value": "Cleer，成立于2012年，是一家专注于智能耳机、智能音箱研发、制造和销售的高端声学品牌，由音频行业资深设计 […]\nCleer，成立于2012年，是一家专注于智能耳机、智能音箱研发、制造和销售的高端声学品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CES科技创新奖在内的全球各类大奖，拥有多项专利技术。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "Cleer，成立于2012年，是一家专注于智能耳机、智能音箱研发、制造和销售的高端声学品牌，由音频行业资深设计 […]\nCleer，成立于2012年，是一家专注于智能耳机、智能音箱研发、制造和销售的高端声学品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CES科技创新奖在内的全球各类大奖，拥有多项专利技术。"
+        }
+      },
       {
         "text": "Cleer，成立于2012年，是一家专注于智能耳机、智能音箱研发、制造和销售的高端声学品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CES科技创新奖在内的全球各类大奖，拥有多项专利技术。",
         "tag": "旗舰定位",
@@ -202,32 +194,12 @@
           "source_type": "text",
           "source_text": "底部有设计公司，商标版权说明，以及FCC、CE认证，可循环和禁止丢弃标识。"
         }
-      },
-      {
-        "text": "正面有产品左耳外观渲染图，产品名称CLEER DU Wireless 双单元蓝牙耳机，HD高清音频和2018年TNT新技术大奖认证。",
-        "tag": "其他",
-        "evidence": {
-          "value": "正面有产品左耳外观渲染图，产品名称CLEER DU Wireless 双单元蓝牙耳机，HD高清音频和2018年TNT新技术大奖认证。",
-          "confidence": 0.63,
-          "source_type": "text",
-          "source_text": "正面有产品左耳外观渲染图，产品名称CLEER DU Wireless 双单元蓝牙耳机，HD高清音频和2018年TNT新技术大奖认证。"
-        }
-      },
-      {
-        "text": "耳罩内侧防尘网特写。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "耳罩内侧防尘网特写。",
-          "confidence": 0.62,
-          "source_type": "text",
-          "source_text": "耳罩内侧防尘网特写。"
-        }
       }
     ],
     "scenarios": [
       "通话"
     ],
-    "positioning_summary": "Cleer，成立于2012年，是一家专注于智能耳机、智能音箱研发、制造和销售的高端声学品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CES科技创新奖在内的全球各类大奖，拥有多项专利技术。",
+    "positioning_summary": "充电接口：USB-A\n标记/认证：Cleer，成立于2012年，是一家专注于智能耳机、智能音箱研发、制造和销售的高端声学品牌，由音频行业资深设计师、工程师组成核心团队，产品屡获包括红点设计奖、CES科技创新奖在内的全球各类大奖，拥有多项专利技术。",
     "launch_date": null,
     "best_report_id": "71198",
     "best_video_id": null

@@ -1,0 +1,351 @@
+{
+  "canonical_id": "unknown--noise-shots-xo",
+  "brand": "",
+  "model": "Noise Shots XO",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "51603"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "51603"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2020-08-02",
+  "latest_published": "2020-08-02",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "高通QCC3020",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "40 mAh",
+    "speaker": "喇叭单元",
+    "materials": "硅胶",
+    "weight_g": "60.8克",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "IPX7",
+    "bluetooth": "5.0",
+    "bom_row_count": 17,
+    "price_cny": 5499.0,
+    "price_layer": "technical",
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "51603",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网近期拆解了不少面向海外市场推出的TWS真无线耳机产品，它们的外观设计可能与国人的审美有所差异，但是内部电路的设计和元器件乃至生产大都是出自国内的知名厂商之手。今天我们要拆解的是Noise Shots XO真无线蓝牙耳机，这是一款在印度市场有比较高关注度的产品，售价5499卢比约500元人民币左右，不算便宜。硬件配置方面，充电盒为旋转滑盖设计，采用USB Type-C接口，支持无线充电功能；耳机采用高通QCC3020蓝牙芯片，支持aptX；耳机支持触控，防尘防水等级达到了IPX7，单次续航6小时，搭配充电盒续航达36小时。下面就通过我爱音频网的详细拆解看看其内部结构如何设计的，以及采用了哪些TWS方案吧~一、Noise Shots XO真无线蓝牙耳机 开箱"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网近期拆解了不少面向海外市场推出的TWS真无线耳机产品，它们的外观设计可能与国人的审美有所差异，但是内部电路的设计和元器件乃至生产大都是出自国内的知名厂商之手。今天我们要拆解的是Noise Shots XO真无线蓝牙耳机，这是一款在印度市场有比较高关注度的产品，售价5499卢比约500元人民币左右，不算便宜。硬件配置方面，充电盒为旋转滑盖设计，采用USB Type-C接口，支持无线充电功能；耳机采用高通QCC3020蓝牙芯片，支持aptX；耳机支持触控，防尘防水等级达到了IPX7，单次续航6小时，搭配充电盒续航达36小时。下面就通过我爱音频网的详细拆解看看其内部结构如何设计的，以及采用了哪些TWS方案吧~一、Noise Shots XO真无线蓝牙耳机 开箱"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面是产品的参数信息和条码信息，蓝牙版本5.0，使用距离10米，传输格式：HSP、HFP、A2DP、AVRCP。耳机电池容量40mAh，充电盒电池容量720mAh，播放/通话时间，6小时；防水等级，IPX7。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机外壳上凹陷进去的位置支持触控，上面有Noise的品牌Logo。耳机下方位置还有一个通话麦克风的开孔。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "沿合模线拆开耳机，可以看到耳机内部为主板+软包电池+扬声器单元的结构。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Unictron咏业科技的蓝牙天线，采用贴片封装，用于耳机与手机之间的蓝牙通讯。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网近期拆解了不少面向海外市场推出的TWS真无线耳机产品，它们的外观设计可能与国人的审美有所差异，但是内部电路的设计和元器件乃至生产大都是出自国内的知名厂商之手。今天我们要拆解的是Noise Shots XO真无线蓝牙耳机，这是一款在印度市场有比较高关注度的产品，售价5499卢比约500元人民币左右，不算便宜。硬件配置方面，充电盒为旋转滑盖设计，采用USB Type-C接口，支持无线充电功能；耳机采用高通QCC3020蓝牙芯片，支持aptX；耳机支持触控，防尘防水等级达到了IPX7，单次续航6小时，搭配充电盒续航达36小时。下面就通过我爱音频网的详细拆解看看其内部结构如何设计的，以及采用了哪些TWS方案吧~一、Noise Shots XO真无线蓝牙耳机 开箱"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒为抽拉式设计，外壳是白色打底，中间区域有耳机充电盒的渲染图，左侧有一个很大的字母X，巧妙地形成了产品名“SHOTS XO”，内部的壳体是黑色的，露出了“Noise”的品牌名。整体包装很有特色。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电座舱内的充电触点。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Type-C充电接口位于充电盒背部，为了美观外面有一个保护罩，也可以起到防尘作用。接口上写有“DC直流5V输入”，接口下方还有一个充电指示灯。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC3020",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC3020",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "硬件配置方面，充电盒为旋转滑盖设计，采用USB Type-C接口，支持无线充电功能；耳机采用高通QCC3020蓝牙芯片，支持aptX；耳机支持触控，防尘防水等级达到了IPX7，单次续航6小时，搭配充电盒续航达36小时。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通aptX",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通aptX",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "包装盒一侧有产品的五个特色功能：全触控、USB-C接口充电、高通aptX音频、舒适佩戴、支持无线充电。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA9640",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA9640",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "钰泰半导体ETA9640，电源管理IC，1A线性充电，1A同步整流升压，内置多种保护功能，适用于移动电源及蓝牙耳机充电盒，给内置电池充电。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA9640",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA9640",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "钰泰 ETA9640 详细资料。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "QCC3020",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "QCC3020",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "QCC3020内置稳压器外置的两颗降压电感。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC3020",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC3020",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Noise Shots XO真无线蓝牙耳机采用了高通QCC3020芯片，这是一款低功耗蓝牙音频SoC，采用FBGA封装，专为TWS真无线耳机而设计。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA9640",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA9640",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "有线充电方面，充电盒采用Type-C接口输入电源，输入经过微源LP5300输入过压保护IC，防止C口输入过压损坏耳机充电盒内部元件；钰泰半导体ETA9640负责给内置电池充电，同时也把电池输出电流升压给耳机充电；无线充电接收方案来自凌通科技的GPMQ8102A，支持有线及无线充电切换功能，最大输出功率4W。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:51603"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "总体来看，Noise Shots XO真无线蓝牙耳机充电盒外观比较有特色，硬件配置均衡，耳机的防尘防水等级达到了IPX7，续航时间也比较长，是一款不错的TWS耳机，放在国内市场也有一定的产品特色和竞争力。",
+        "tag": "长续航",
+        "evidence": {
+          "value": "总体来看，Noise Shots XO真无线蓝牙耳机充电盒外观比较有特色，硬件配置均衡，耳机的防尘防水等级达到了IPX7，续航时间也比较长，是一款不错的TWS耳机，放在国内市场也有一定的产品特色和竞争力。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "总体来看，Noise Shots XO真无线蓝牙耳机充电盒外观比较有特色，硬件配置均衡，耳机的防尘防水等级达到了IPX7，续航时间也比较长，是一款不错的TWS耳机，放在国内市场也有一定的产品特色和竞争力。"
+        }
+      },
+      {
+        "text": "Type-C 接口支持正反插，使用方便，随着手机快充技术的发展已经逐渐普及开来。",
+        "tag": "长续航",
+        "evidence": {
+          "value": "Type-C 接口支持正反插，使用方便，随着手机快充技术的发展已经逐渐普及开来。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "Type-C 接口支持正反插，使用方便，随着手机快充技术的发展已经逐渐普及开来。"
+        }
+      },
+      {
+        "text": "GigaDevice 兆易创新的SPI Nor Flash，用于存储蓝牙的配置信息等。",
+        "tag": "其他",
+        "evidence": {
+          "value": "GigaDevice 兆易创新的SPI Nor Flash，用于存储蓝牙的配置信息等。",
+          "confidence": 0.7,
+          "source_type": "text",
+          "source_text": "GigaDevice 兆易创新的SPI Nor Flash，用于存储蓝牙的配置信息等。"
+        }
+      },
+      {
+        "text": "出音孔处有细密的防尘网，防止异物进入。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "出音孔处有细密的防尘网，防止异物进入。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "出音孔处有细密的防尘网，防止异物进入。"
+        }
+      },
+      {
+        "text": "Type-C充电接口位于充电盒背部，为了美观外面有一个保护罩，也可以起到防尘作用。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "Type-C充电接口位于充电盒背部，为了美观外面有一个保护罩，也可以起到防尘作用。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "Type-C充电接口位于充电盒背部，为了美观外面有一个保护罩，也可以起到防尘作用。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "总体来看，Noise Shots XO真无线蓝牙耳机充电盒外观比较有特色，硬件配置均衡，耳机的防尘防水等级达到了IPX7，续航时间也比较长，是一款不错的TWS耳机，放在国内市场也有一定的产品特色和竞争力。",
+    "launch_date": null,
+    "best_report_id": "51603",
+    "best_video_id": null
+  }
+}

@@ -16,24 +16,40 @@
   "internal_match_suggestions": [],
   "cost_snapshot": {
     "main_chip": "JL7016",
-    "pmic_case": "",
+    "pmic_case": "CM1125",
     "battery_ear": "赣锋 3.7V/40mAh软包扣式",
     "battery_case": "WEL旭航诚 3.7V/400mAh锂电池",
     "speaker": "钛振膜",
     "materials": "硅胶",
     "weight_g": "45.0g",
+    "weight_case_g": "",
+    "weight_earbud_g": "4.5g",
     "ip_rating": "",
     "bluetooth": "",
-    "bom_row_count": 17,
+    "bom_row_count": 21,
     "price_cny": null,
     "price_layer": null,
     "channel_url": "",
     "sales_hint": null,
-    "data_completeness": 0.83,
+    "data_completeness": 1.0,
     "best_report_id": "265875",
     "best_video_id": null
   },
   "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1125",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "CM1125",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载了WEL旭航诚3.7/400mAh锂电池，采用了ICM创芯微CM1125系列集成MOSFET单节锂电池保护IC，负责内置电池的过充电、过放电、过电流等保护；"
+      }
+    },
     {
       "component": "电池",
       "brand": "WEL旭航诚",
@@ -46,6 +62,20 @@
         "confidence": 0.85,
         "source_type": "summary_prose",
         "source_text": "充电盒搭载了WEL旭航诚3.7/400mAh锂电池，采用了ICM创芯微CM1125系列集成MOSFET单节锂电池保护IC，负责内置电池的过充电、过放电、过电流等保护；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1126B",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "保护IC",
+      "evidence": {
+        "value": "CM1126B",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载GF新余赣锋3.7V/40mAh软包扣式电池，配备ICM创芯微CM1126B-GAC带船运模式二合一单节电池保护IC。"
       }
     },
     {
@@ -261,6 +291,20 @@
     {
       "component": "芯片/模组",
       "brand": "",
+      "model": "CM1125",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM1125",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "ICM创芯微CM1125系列集成MOSFET单节锂电池保护IC，负责对电池的过充电、过放电、过电流等保护。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
       "model": "JL7016",
       "qty_hint": "1",
       "side": "",
@@ -270,6 +314,20 @@
         "confidence": 0.78,
         "source_type": "text",
         "source_text": "JL杰理科技JL7016G6蓝牙音频SoC，用于无线传输和音频数据处理。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1126B",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM1126B",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "ICM创芯微CM1126B-GAC带船运模式二合一单节电池保护IC，负责电池的过充电、过放电、过电流等保护。"
       }
     }
   ],

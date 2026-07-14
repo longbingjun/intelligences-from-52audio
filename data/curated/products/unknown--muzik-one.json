@@ -18,7 +18,7 @@
     "main_chip": "高通CSR57E6",
     "pmic_case": "",
     "battery_ear": "电池",
-    "battery_case": "800 mAh",
+    "battery_case": "",
     "speaker": "喇叭单元",
     "materials": "",
     "weight_g": "",
@@ -26,12 +26,12 @@
     "weight_earbud_g": "",
     "ip_rating": "",
     "bluetooth": "",
-    "bom_row_count": 8,
+    "bom_row_count": 7,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
     "sales_hint": null,
-    "data_completeness": 0.83,
+    "data_completeness": 0.67,
     "best_report_id": "77483",
     "best_video_id": null
   },
@@ -47,7 +47,7 @@
         "value": "主板/PCBA",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "电池与主板延伸过来的导线通过导线插座连接。"
+        "source_text": "主板上Micro USB充电接口和3.5mm音频接口特写，均采用海绵包裹，提升\n密封\n防水性能。"
       }
     },
     {
@@ -55,13 +55,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "左耳",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "喇叭单元",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "进入拆解部分，卸掉螺丝取掉左耳扬声器单元结构。"
+        "source_text": "扬声器单元腔体背部中间位置同样设置有调音孔，防尘网覆盖。"
       }
     },
     {
@@ -69,13 +69,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "左耳",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "电池",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "左耳腔体内部为电池单元。"
+        "source_text": "电池与主板延伸过来的导线通过导线插座连接。"
       }
     },
     {
@@ -111,27 +111,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "minor",
       "evidence": {
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "配置方面，Muzik One头戴式蓝牙耳机采用无线连接方式，搭载了40mm的驱动单元，拥有高清音效。耳罩一侧采用电容式触控按键，支持点击暂停播放，上下滑动加减音量，左右滑动切换音乐；另外一侧则配置了4颗物理按键，可以自定义调节。整体续航时间达到了30小时。下面就让我们一起来看看这款产品的外观设计及内部结构配置吧~"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机指示灯集成在功能按键中央。"
+        "source_text": "主板与功能按键小板之间通过连接器插座连接。"
       }
     },
     {
@@ -145,7 +131,7 @@
         "value": "高通CSR57E6",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "Qualcomm高通CSR57E6 蓝牙音频SOC，\nBGA封装，搭配外置Flash，可以灵活配置满足不同功能需求。"
+        "source_text": "充电接口：Micro USB\n电池容量：800\n芯片 高通CSR57E6"
       }
     }
   ],
@@ -164,13 +150,23 @@
   "market": {
     "selling_points": [
       {
-        "text": "主板上Micro USB充电接口和3.5mm音频接口特写，均采用海绵包裹，提升\n密封\n防水性能。",
+        "text": "在外观设计上，头梁 […]\n主板上Micro USB充电接口和3.5mm音频接口特写，均采用海绵包裹，提升\n密封\n防水性能。",
         "tag": "防水防尘",
         "evidence": {
-          "value": "主板上Micro USB充电接口和3.5mm音频接口特写，均采用海绵包裹，提升\n密封\n防水性能。",
-          "confidence": 0.61,
+          "value": "在外观设计上，头梁 […]\n主板上Micro USB充电接口和3.5mm音频接口特写，均采用海绵包裹，提升\n密封\n防水性能。",
+          "confidence": 0.73,
           "source_type": "text",
-          "source_text": "主板上Micro USB充电接口和3.5mm音频接口特写，均采用海绵包裹，提升\n密封\n防水性能。"
+          "source_text": "在外观设计上，头梁 […]\n主板上Micro USB充电接口和3.5mm音频接口特写，均采用海绵包裹，提升\n密封\n防水性能。"
+        }
+      },
+      {
+        "text": "充电接口：主板上Micro USB充电接口和3.5mm音频接口特写，均采用海绵包裹，提升\n密封\n防水性能。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "充电接口：主板上Micro USB充电接口和3.5mm音频接口特写，均采用海绵包裹，提升\n密封\n防水性能。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "充电接口：主板上Micro USB充电接口和3.5mm音频接口特写，均采用海绵包裹，提升\n密封\n防水性能。"
         }
       },
       {
@@ -197,7 +193,7 @@
     "scenarios": [
       "通话"
     ],
-    "positioning_summary": "主板上Micro USB充电接口和3.5mm音频接口特写，均采用海绵包裹，提升\n密封\n防水性能。",
+    "positioning_summary": "在外观设计上，头梁 […]\n主板上Micro USB充电接口和3.5mm音频接口特写，均采用海绵包裹，提升\n密封\n防水性能。",
     "launch_date": null,
     "best_report_id": "77483",
     "best_video_id": null

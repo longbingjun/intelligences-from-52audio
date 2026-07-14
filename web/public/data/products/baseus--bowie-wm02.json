@@ -3,46 +3,108 @@
   "brand": "Baseus倍思",
   "model": "Bowie WM02+",
   "category": "真无线耳机TWS",
-  "report_ids": [],
+  "report_ids": [
+    "168730"
+  ],
   "video_ids": [
     "273681"
   ],
-  "related_report_ids": [],
+  "related_report_ids": [
+    "168730"
+  ],
   "related_video_ids": [
     "273681"
   ],
-  "first_seen": "2026-04-21",
+  "first_seen": "2023-07-31",
   "latest_published": "2026-04-21",
   "internal_match_suggestions": [],
   "cost_snapshot": {
-    "main_chip": null,
-    "pmic_case": null,
-    "battery_ear": null,
-    "battery_case": null,
-    "speaker": null,
-    "materials": null,
-    "weight_g": null,
-    "ip_rating": null,
-    "bluetooth": null,
-    "bom_row_count": 3,
+    "main_chip": "思远半导体SY8801",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "7V/00mAh",
+    "speaker": "6mm 动圈单元",
+    "materials": "硅胶",
+    "weight_g": "52.7g",
+    "weight_case_g": "",
+    "weight_earbud_g": "3.8g",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 16,
     "price_cny": null,
     "price_layer": null,
     "channel_url": "",
     "sales_hint": null,
-    "data_completeness": 0.0,
-    "best_report_id": null,
-    "best_video_id": "273681"
+    "data_completeness": 0.83,
+    "best_report_id": "168730",
+    "best_video_id": null
   },
   "bom_table": [
     {
+      "component": "芯片/模组",
+      "brand": "思远半导体",
+      "model": "思远半导体SY8801",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8801",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载数字显示屏，内置XD鑫电700mAh大容量电池，采用Type-C接口输入电源，由思远半导体SY8801蓝牙耳机智能充电仓解决方案负责充放电管理，充电电流和放电截止电流外部可以调节，还支持耳机仓和耳机之间的通讯；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "7V/00mAh",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "7V/00mAh",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载数字显示屏，内置XD鑫电700mAh大容量电池，采用Type-C接口输入电源，由思远半导体SY8801蓝牙耳机智能充电仓解决方案负责充放电管理，充电电流和放电截止电流外部可以调节，还支持耳机仓和耳机之间的通讯；"
+      }
+    },
+    {
       "component": "喇叭单元",
+      "brand": "",
+      "model": "6mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "6mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机搭载6mm动圈单元，JYZ金宇宙40mAh软包电池，分别通过导线连接到主板。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "主板上采用了HYNITRON海栎创HK01XS单通道电容式触控芯片，SiliconWisdom矽睿半导体SWD1828A二合一锂电保护IC，以及用于无线连接和音频数据处理的蓝牙主控和一颗MEMS麦克风。"
+      }
+    },
+    {
+      "component": "充电仓",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "耳机",
       "role": "major",
       "evidence": {
-        "value": "喇叭单元",
+        "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "Baseus倍思Bowie WM02+真无线耳机搭载6mm钛膜动圈单元，支持蓝牙5.3，提供更快速稳定的无线连接和更低的功耗；支持双通道低延迟模式，0.06s低延迟，保障游戏体验。充电盒搭载了LED智能数显屏，能够直观获取电量信息和充电状态；内置大容量电池，能够为耳机充电约7次；还支持倍思瞬时闪充技术，充电10分钟，可连续畅听约2小时。"
@@ -63,24 +125,151 @@
       }
     },
     {
-      "component": "充电仓",
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒腔体内部结构一览，主板通过螺丝固定，下方固定电池。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板边缘镂空，设置麦克风拾音孔，内部防尘网防护。"
+      }
+    },
+    {
+      "component": "喇叭单元",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "耳机",
       "role": "major",
       "evidence": {
-        "value": "充电仓",
+        "value": "喇叭单元",
         "confidence": 0.72,
         "source_type": "text",
         "source_text": "Baseus倍思Bowie WM02+真无线耳机搭载6mm钛膜动圈单元，支持蓝牙5.3，提供更快速稳定的无线连接和更低的功耗；支持双通道低延迟模式，0.06s低延迟，保障游戏体验。充电盒搭载了LED智能数显屏，能够直观获取电量信息和充电状态；内置大容量电池，能够为耳机充电约7次；还支持倍思瞬时闪充技术，充电10分钟，可连续畅听约2小时。"
       }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "后腔底部结构一览，贴有蓝牙天线和触摸检测贴片。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身背面外观一览，设置有Type-C充电接口和一个蓝牙配对按键。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身正面设置有一颗指示灯，用于反馈蓝牙配对状态和电量不足提醒"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱内部为耳机充电的Pogo Pin连接器特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8801",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8801",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "思远半导体SY8801蓝牙耳机智能充电仓解决方案，集成充电模块和放电模块，充电电流和放电截止电流外部可以调节。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8801",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8801",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "思远半导体SY8801详细资料图。"
+      }
     }
   ],
   "summary_image_urls": [],
-  "summary_text": "",
+  "summary_text": "三、我爱音频网总结 Baseus倍思Bowie WM02+真无线耳机在外观设计方面，整体体积轻巧便携，配色清新时尚。充电盒采用了哑光质感，透明盒盖，再搭配高亮数显屏座舱，拥有着非常不错的质感。耳机小巧迷你，重量仅为3.8g，提供轻若无物的舒适佩戴体验；背板还采用了高透材质，搭配星环指示灯，佩戴时尚。 内部电路方面比较简洁，充电盒搭载数字显示屏，内置XD鑫电700mAh大容量电池，采用Type-C接口输入电源，由思远半导体SY8801蓝牙耳机智能充电仓解决方案负责充放电管理，充电电流和放电截止电流外部可以调节，还支持耳机仓和耳机之间的通讯；还采用了Sinomcu晟矽微MC32F7062A0Y单片机，用于充电盒整机控制。 耳机搭载6mm动圈单元，JYZ金宇宙40mAh软包电池，分别通过导线连接到主板。主板上采用了HYNITRON海栎创HK01XS单通道电容式触控芯片，SiliconWisdom矽睿半导体SWD1828A二合一锂电保护IC，以及用于无线连接和音频数据处理的蓝牙主控和一颗MEMS麦克风。",
   "layer_refs": {
     "technical": [
+      "report:168730",
       "video:273681"
     ],
     "channel": [
@@ -94,13 +283,65 @@
   },
   "unboxing": null,
   "market": {
-    "selling_points": [],
-    "scenarios": [
-      "游戏"
+    "selling_points": [
+      {
+        "text": "此次将要拆解的Baseus倍思Bowie WM02+真无线耳机是一款轻巧灵动、持久聆听的产品，在提供舒适佩戴的同时，带来了约50h的超长综合续航时间。",
+        "tag": "长续航",
+        "evidence": {
+          "value": "此次将要拆解的Baseus倍思Bowie WM02+真无线耳机是一款轻巧灵动、持久聆听的产品，在提供舒适佩戴的同时，带来了约50h的超长综合续航时间。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "此次将要拆解的Baseus倍思Bowie WM02+真无线耳机是一款轻巧灵动、持久聆听的产品，在提供舒适佩戴的同时，带来了约50h的超长综合续航时间。"
+        }
+      },
+      {
+        "text": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\n漫步者\n、\nRedmi\n、\nXTOUR秘语\n、\nOPPO、vivo、realme、一加、QCY、倍思、猛玛、声阔、JBL、飞利浦、Jabra、Nothing、Marshall、DENON\n，\n小米、万魔、233621、传音、魔宴、创新科技、魅族、百度、网易、哈曼、联想\n等国内外知名品牌采用。",
+        "tag": "其他",
+        "evidence": {
+          "value": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\n漫步者\n、\nRedmi\n、\nXTOUR秘语\n、\nOPPO、vivo、realme、一加、QCY、倍思、猛玛、声阔、JBL、飞利浦、Jabra、Nothing、Marshall、DENON\n，\n小米、万魔、233621、传音、魔宴、创新科技、魅族、百度、网易、哈曼、联想\n等国内外知名品牌采用。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\n漫步者\n、\nRedmi\n、\nXTOUR秘语\n、\nOPPO、vivo、realme、一加、QCY、倍思、猛玛、声阔、JBL、飞利浦、Jabra、Nothing、Marshall、DENON\n，\n小米、万魔、233621、传音、魔宴、创新科技、魅族、百度、网易、哈曼、联想\n等国内外知名品牌采用。"
+        }
+      },
+      {
+        "text": "据我爱音频网拆解了解到，目前已有\n联想\n、\nCreative创新科技\n、\n倍思\n、\nSANAG\n、\nHiBy海贝\n、\niWalk声恋\n、\nVANKYO\n、\nAWEI用维\n等品牌旗下的TWS耳机采用了矽睿半导体的霍尔IC、锂电保护IC等产品。",
+        "tag": "其他",
+        "evidence": {
+          "value": "据我爱音频网拆解了解到，目前已有\n联想\n、\nCreative创新科技\n、\n倍思\n、\nSANAG\n、\nHiBy海贝\n、\niWalk声恋\n、\nVANKYO\n、\nAWEI用维\n等品牌旗下的TWS耳机采用了矽睿半导体的霍尔IC、锂电保护IC等产品。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "据我爱音频网拆解了解到，目前已有\n联想\n、\nCreative创新科技\n、\n倍思\n、\nSANAG\n、\nHiBy海贝\n、\niWalk声恋\n、\nVANKYO\n、\nAWEI用维\n等品牌旗下的TWS耳机采用了矽睿半导体的霍尔IC、锂电保护IC等产品。"
+        }
+      },
+      {
+        "text": "耳机小巧迷你，重量仅为3.8g，提供轻若无物的舒适佩戴体验；背板还采用了高透材质，搭配星环指示灯，佩戴时尚。",
+        "tag": "舒适佩戴",
+        "evidence": {
+          "value": "耳机小巧迷你，重量仅为3.8g，提供轻若无物的舒适佩戴体验；背板还采用了高透材质，搭配星环指示灯，佩戴时尚。",
+          "confidence": 0.68,
+          "source_type": "text",
+          "source_text": "耳机小巧迷你，重量仅为3.8g，提供轻若无物的舒适佩戴体验；背板还采用了高透材质，搭配星环指示灯，佩戴时尚。"
+        }
+      },
+      {
+        "text": "产品应用电路简单，灵敏度调整范围大，工作电流低，适用于电池供电的应用场景；适用于各类消费类电子、家用电器等产品中。",
+        "tag": "其他",
+        "evidence": {
+          "value": "产品应用电路简单，灵敏度调整范围大，工作电流低，适用于电池供电的应用场景；适用于各类消费类电子、家用电器等产品中。",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "产品应用电路简单，灵敏度调整范围大，工作电流低，适用于电池供电的应用场景；适用于各类消费类电子、家用电器等产品中。"
+        }
+      }
     ],
-    "positioning_summary": "",
+    "scenarios": [
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "此次将要拆解的Baseus倍思Bowie WM02+真无线耳机是一款轻巧灵动、持久聆听的产品，在提供舒适佩戴的同时，带来了约50h的超长综合续航时间。",
     "launch_date": null,
-    "best_report_id": null,
-    "best_video_id": "273681"
+    "best_report_id": "168730",
+    "best_video_id": null
   }
 }

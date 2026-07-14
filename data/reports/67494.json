@@ -12,7 +12,7 @@
   "author": "GiGi24",
   "summary": "HECATE“黑夜之神”是漫步者旗下游戏耳机子品牌，产品兼顾炫酷的造型和舒适的佩戴体验，专为游戏玩家打造。此前 […]",
   "captured_at": "2026-07-14T02:11:17+00:00",
-  "data_completeness": 0.748,
+  "data_completeness": 0.702,
   "views": {
     "market": {
       "brand": "EDIFIER漫步者",
@@ -23,13 +23,13 @@
       "price_note": "",
       "selling_points": [
         {
-          "text": "镭雕C36 504的MEMS硅麦，用于拾取环境声音辅助通话降噪。",
+          "text": "此前 […]\n镭雕C36 504的MEMS硅麦，用于拾取环境声音辅助通话降噪。",
           "tag": "降噪",
           "evidence": {
-            "value": "镭雕C36 504的MEMS硅麦，用于拾取环境声音辅助通话降噪。",
-            "confidence": 0.66,
+            "value": "此前 […]\n镭雕C36 504的MEMS硅麦，用于拾取环境声音辅助通话降噪。",
+            "confidence": 0.72,
             "source_type": "text",
-            "source_text": "镭雕C36 504的MEMS硅麦，用于拾取环境声音辅助通话降噪。"
+            "source_text": "此前 […]\n镭雕C36 504的MEMS硅麦，用于拾取环境声音辅助通话降噪。"
           }
         },
         {
@@ -40,6 +40,16 @@
             "confidence": 0.55,
             "source_type": "text",
             "source_text": "指示灯下方是降噪麦克风的拾音孔，收集环境声音用于通话降噪。"
+          }
+        },
+        {
+          "text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：6mm*4动圈单元，阻抗16Ω，频响范围20Hz-20KHz，灵敏度100dB。",
+          "tag": "其他",
+          "evidence": {
+            "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：6mm*4动圈单元，阻抗16Ω，频响范围20Hz-20KHz，灵敏度100dB。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：6mm*4动圈单元，阻抗16Ω，频响范围20Hz-20KHz，灵敏度100dB。"
           }
         },
         {
@@ -75,22 +85,20 @@
       ],
       "scenarios": [
         "游戏",
-        "通话",
-        "电竞"
+        "通话"
       ],
-      "positioning_summary": "镭雕C36 504的MEMS硅麦，用于拾取环境声音辅助通话降噪。",
+      "positioning_summary": "此前 […]\n镭雕C36 504的MEMS硅麦，用于拾取环境声音辅助通话降噪。",
       "launch_date_evidence": null,
       "price_evidence": null
     },
     "cost": {
       "major_parts": [
         "充电仓",
-        "主板/PCBA",
         "电池",
-        "喇叭单元",
+        "主板/PCBA",
         "麦克风",
         "降噪系统",
-        "天线"
+        "喇叭单元"
       ],
       "chip_modules": [],
       "bom_table": [
@@ -99,24 +107,10 @@
           "brand": "",
           "model": "",
           "qty_hint": "",
-          "side": "耳机",
-          "role": "major",
-          "evidence": {
-            "value": "充电仓",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "今天我们要拆解的是漫步者HECATE GM45 真无线蓝牙游戏耳机，这款产品在外观和配置上都比较特别。HECATE GM45充电盒机身有多处曲面设计，正面看上去像是一个鼠标，并且有RGB灯效设计；耳机内置双动圈单元，突出低频效果，增强玩家的游戏体验。GM45依旧搭载原相蓝牙5.0芯片，官方宣传游戏模式下延迟低至60ms；耳机还支持双麦通话降噪，支持触控，单次续航约为4.5小时，充电盒可额外提供18小时续航。"
-          }
-        },
-        {
-          "component": "主板/PCBA",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
           "side": "充电盒",
           "role": "major",
           "evidence": {
-            "value": "主板/PCBA",
+            "value": "充电仓",
             "confidence": 0.72,
             "source_type": "text",
             "source_text": "充电盒内部结构展示，电池粘贴在主板上，一块小的PCBA使用三颗螺丝固定。"
@@ -137,17 +131,17 @@
           }
         },
         {
-          "component": "喇叭单元",
+          "component": "主板/PCBA",
           "brand": "",
           "model": "",
           "qty_hint": "",
-          "side": "耳机",
+          "side": "充电盒",
           "role": "major",
           "evidence": {
-            "value": "喇叭单元",
+            "value": "主板/PCBA",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "今天我们要拆解的是漫步者HECATE GM45 真无线蓝牙游戏耳机，这款产品在外观和配置上都比较特别。HECATE GM45充电盒机身有多处曲面设计，正面看上去像是一个鼠标，并且有RGB灯效设计；耳机内置双动圈单元，突出低频效果，增强玩家的游戏体验。GM45依旧搭载原相蓝牙5.0芯片，官方宣传游戏模式下延迟低至60ms；耳机还支持双麦通话降噪，支持触控，单次续航约为4.5小时，充电盒可额外提供18小时续航。"
+            "source_text": "充电盒内部结构展示，电池粘贴在主板上，一块小的PCBA使用三颗螺丝固定。"
           }
         },
         {
@@ -175,21 +169,21 @@
             "value": "降噪系统",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "下面一起来看我爱音频网的详细拆解吧。我爱音频网拆解过的漫步者音频产品还有：漫步者FunBuds真无线降噪耳机、漫步者TO-U2真无线蓝牙耳机冇心版、漫步者MiniBuds真无线耳机冇心版、漫步者DreamPods 真无线蓝牙耳机、漫步者TWS NB2 真无线主动降噪耳机、漫步者Xemal声迈X5和声迈X3以及10款其他的漫步者耳机产品。"
+            "source_text": "我爱音频网拆解过的漫步者音频产品还有：\n漫步者FunBuds真无线降噪耳机\n、\n漫步者TO-U2真无线蓝牙耳机冇心版\n、\n漫步者MiniBuds真无线耳机冇心版\n、\n漫步者DreamPods 真无线蓝牙耳机\n、\n漫步者TWS NB2 真无线主动降噪耳机\n、\n漫步者Xemal声迈X5\n和\n声迈X3\n以及\n10款其他的漫步者耳机产品\n。"
           }
         },
         {
-          "component": "天线",
+          "component": "喇叭单元",
           "brand": "",
           "model": "",
           "qty_hint": "",
-          "side": "",
+          "side": "耳机",
           "role": "major",
           "evidence": {
-            "value": "天线",
+            "value": "喇叭单元",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "贴片陶瓷天线特写，用于传输无线信号。主板上有L/R左右标识，有产品型号GM45和主控芯片型号PAU1626。"
+            "source_text": "今天我们要拆解的是漫步者HECATE GM45 真无线蓝牙游戏耳机，这款产品在外观和配置上都比较特别。HECATE GM45充电盒机身有多处曲面设计，正面看上去像是一个鼠标，并且有RGB灯效设计；耳机内置双动圈单元，突出低频效果，增强玩家的游戏体验。GM45依旧搭载原相蓝牙5.0芯片，官方宣传游戏模式下延迟低至60ms；耳机还支持双麦通话降噪，支持触控，单次续航约为4.5小时，充电盒可额外提供18小时续航。"
           }
         },
         {
@@ -203,7 +197,7 @@
             "value": "指示灯",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "包装盒侧边展示，有网格纹理，RGB LED灯带可显示多种色彩。"
+            "source_text": "指示灯下方是降噪麦克风的拾音孔，收集环境声音用于通话降噪。"
           }
         },
         {
@@ -219,53 +213,16 @@
             "source_type": "text",
             "source_text": "今天我们要拆解的是漫步者HECATE GM45 真无线蓝牙游戏耳机，这款产品在外观和配置上都比较特别。HECATE GM45充电盒机身有多处曲面设计，正面看上去像是一个鼠标，并且有RGB灯效设计；耳机内置双动圈单元，突出低频效果，增强玩家的游戏体验。GM45依旧搭载原相蓝牙5.0芯片，官方宣传游戏模式下延迟低至60ms；耳机还支持双麦通话降噪，支持触控，单次续航约为4.5小时，充电盒可额外提供18小时续航。"
           }
-        },
-        {
-          "component": "充电触点",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "耳机",
-          "role": "minor",
-          "evidence": {
-            "value": "充电触点",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "给耳机充电的Pogo Pin。"
-          }
-        },
-        {
-          "component": "外壳结构",
-          "brand": "",
-          "model": "",
-          "qty_hint": "",
-          "side": "",
-          "role": "minor",
-          "evidence": {
-            "value": "外壳结构",
-            "confidence": 0.72,
-            "source_type": "text",
-            "source_text": "RGB LED指示灯的导光柱，外壳内塑料柱热熔固定。"
-          }
         }
       ],
       "supply_hints": [
         {
-          "value": "耳机采用的软包电池型号WEL501012，与充电盒软包电池是同一供应商，额定电压3.7V，额定容量40mAh/0.148Wh。",
+          "value": "标记/认证：耳机采用的软包电池型号WEL501012，与充电盒软包电池是同一供应商，额定电压3.7V，额定容量40mAh/0.148Wh。",
           "evidence": {
-            "value": "耳机采用的软包电池型号WEL501012，与充电盒软包电池是同一供应商，额定电压3.7V，额定容量40mAh/0.148Wh。",
+            "value": "标记/认证：耳机采用的软包电池型号WEL501012，与充电盒软包电池是同一供应商，额定电压3.7V，额定容量40mAh/0.148Wh。",
             "confidence": 0.6,
             "source_type": "text",
-            "source_text": "耳机采用的软包电池型号WEL501012，与充电盒软包电池是同一供应商，额定电压3.7V，额定容量40mAh/0.148Wh。"
-          }
-        },
-        {
-          "value": "耳机采用的软包电池与充电盒电池是同一供应商，容量为40mAh。",
-          "evidence": {
-            "value": "耳机采用的软包电池与充电盒电池是同一供应商，容量为40mAh。",
-            "confidence": 0.6,
-            "source_type": "text",
-            "source_text": "耳机采用的软包电池与充电盒电池是同一供应商，容量为40mAh。"
+            "source_text": "标记/认证：耳机采用的软包电池型号WEL501012，与充电盒软包电池是同一供应商，额定电压3.7V，额定容量40mAh/0.148Wh。"
           }
         }
       ],
@@ -280,16 +237,12 @@
       "form_factor": "真无线耳机TWS",
       "earbud_type": "入耳",
       "materials": [
-        "硅胶",
-        "塑料",
         "PC"
       ],
       "ip_rating": null,
-      "weight_g": "58.8克",
+      "weight_g": null,
       "dimensions": [
-        "6mm*4动圈单元，阻抗16Ω，频响范围20Hz-20KHz，灵敏度100dB。",
-        "单个动圈单元的尺寸约为6mm。",
-        "耳机主板和软包电池与一元硬币的尺寸对比。"
+        "充电接口：Type-C\n充电接口：USB-A\n标记/认证：6mm*4动圈单元，阻抗16Ω，频响范围20Hz-20KHz，灵敏度100dB。"
       ],
       "internal_structure": [
         {
@@ -302,15 +255,6 @@
           }
         },
         {
-          "value": "卸下螺丝，取出这块小的PCBA。",
-          "evidence": {
-            "value": "卸下螺丝，取出这块小的PCBA。",
-            "confidence": 0.74,
-            "source_type": "text",
-            "source_text": "卸下螺丝，取出这块小的PCBA。"
-          }
-        },
-        {
           "value": "揭开粘贴电池的双面胶，充电盒主PCBA使用两颗螺丝固定。",
           "evidence": {
             "value": "揭开粘贴电池的双面胶，充电盒主PCBA使用两颗螺丝固定。",
@@ -320,12 +264,12 @@
           }
         },
         {
-          "value": "今天我们要拆解的是漫步者HECATE GM45 真无线蓝牙游戏耳机，这款产品在外观和配置上都比较特别。HECATE GM45充电盒机身有多处曲面设计，正面看上去像是一个鼠标，并且有RGB灯效设计；耳机内置双动圈单元，突出低频效果，增强玩家的游戏体验。GM45依旧搭载原相蓝牙5.0芯片，官方宣传游戏模式下延迟低至60ms；耳机还支持双麦通话降噪，支持触控，单次续航约为4.5小时，充电盒可额外提供18小时续航。",
+          "value": "卸下螺丝，取出这块小的PCBA。",
           "evidence": {
-            "value": "今天我们要拆解的是漫步者HECATE GM45 真无线蓝牙游戏耳机，这款产品在外观和配置上都比较特别。HECATE GM45充电盒机身有多处曲面设计，正面看上去像是一个鼠标，并且有RGB灯效设计；耳机内置双动圈单元，突出低频效果，增强玩家的游戏体验。GM45依旧搭载原相蓝牙5.0芯片，官方宣传游戏模式下延迟低至60ms；耳机还支持双麦通话降噪，支持触控，单次续航约为4.5小时，充电盒可额外提供18小时续航。",
+            "value": "卸下螺丝，取出这块小的PCBA。",
             "confidence": 0.74,
             "source_type": "text",
-            "source_text": "今天我们要拆解的是漫步者HECATE GM45 真无线蓝牙游戏耳机，这款产品在外观和配置上都比较特别。HECATE GM45充电盒机身有多处曲面设计，正面看上去像是一个鼠标，并且有RGB灯效设计；耳机内置双动圈单元，突出低频效果，增强玩家的游戏体验。GM45依旧搭载原相蓝牙5.0芯片，官方宣传游戏模式下延迟低至60ms；耳机还支持双麦通话降噪，支持触控，单次续航约为4.5小时，充电盒可额外提供18小时续航。"
+            "source_text": "卸下螺丝，取出这块小的PCBA。"
           }
         },
         {
@@ -338,12 +282,21 @@
           }
         },
         {
-          "value": "耳机柄底部通话麦克风的拾音孔。",
+          "value": "顶部是降噪麦克风的保护罩，内侧有防尘网；下方条形的金属片用来感知触摸操作。",
           "evidence": {
-            "value": "耳机柄底部通话麦克风的拾音孔。",
+            "value": "顶部是降噪麦克风的保护罩，内侧有防尘网；下方条形的金属片用来感知触摸操作。",
             "confidence": 0.74,
             "source_type": "text",
-            "source_text": "耳机柄底部通话麦克风的拾音孔。"
+            "source_text": "顶部是降噪麦克风的保护罩，内侧有防尘网；下方条形的金属片用来感知触摸操作。"
+          }
+        },
+        {
+          "value": "我爱音频网拆解过的漫步者音频产品还有：\n漫步者FunBuds真无线降噪耳机\n、\n漫步者TO-U2真无线蓝牙耳机冇心版\n、\n漫步者MiniBuds真无线耳机冇心版\n、\n漫步者DreamPods 真无线蓝牙耳机\n、\n漫步者TWS NB2 真无线主动降噪耳机\n、\n漫步者Xemal声迈X5\n和\n声迈X3\n以及\n10款其他的漫步者耳机产品\n。",
+          "evidence": {
+            "value": "我爱音频网拆解过的漫步者音频产品还有：\n漫步者FunBuds真无线降噪耳机\n、\n漫步者TO-U2真无线蓝牙耳机冇心版\n、\n漫步者MiniBuds真无线耳机冇心版\n、\n漫步者DreamPods 真无线蓝牙耳机\n、\n漫步者TWS NB2 真无线主动降噪耳机\n、\n漫步者Xemal声迈X5\n和\n声迈X3\n以及\n10款其他的漫步者耳机产品\n。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "我爱音频网拆解过的漫步者音频产品还有：\n漫步者FunBuds真无线降噪耳机\n、\n漫步者TO-U2真无线蓝牙耳机冇心版\n、\n漫步者MiniBuds真无线耳机冇心版\n、\n漫步者DreamPods 真无线蓝牙耳机\n、\n漫步者TWS NB2 真无线主动降噪耳机\n、\n漫步者Xemal声迈X5\n和\n声迈X3\n以及\n10款其他的漫步者耳机产品\n。"
           }
         },
         {
@@ -356,12 +309,12 @@
           }
         },
         {
-          "value": "PixArt原相1600系列蓝牙音频SoC采用GreenRadio专利技术，支持双耳直连、不分主从共享模式，具有快速角色互换、超低延时、低辐射、低功耗、抗干扰等特性；支持 SBC/mSBC、AAC、10段EQ调整、双麦克风杂讯消除；内置锂电池充电管理 5~400mA 软件可调；部分型号支持数位式主动降噪与环境声倾听模式。",
+          "value": "今天我们要拆解的是漫步者HECATE GM45 真无线蓝牙游戏耳机，这款产品在外观和配置上都比较特别。HECATE GM45充电盒机身有多处曲面设计，正面看上去像是一个鼠标，并且有RGB灯效设计；耳机内置双动圈单元，突出低频效果，增强玩家的游戏体验。GM45依旧搭载原相蓝牙5.0芯片，官方宣传游戏模式下延迟低至60ms；耳机还支持双麦通话降噪，支持触控，单次续航约为4.5小时，充电盒可额外提供18小时续航。",
           "evidence": {
-            "value": "PixArt原相1600系列蓝牙音频SoC采用GreenRadio专利技术，支持双耳直连、不分主从共享模式，具有快速角色互换、超低延时、低辐射、低功耗、抗干扰等特性；支持 SBC/mSBC、AAC、10段EQ调整、双麦克风杂讯消除；内置锂电池充电管理 5~400mA 软件可调；部分型号支持数位式主动降噪与环境声倾听模式。",
+            "value": "今天我们要拆解的是漫步者HECATE GM45 真无线蓝牙游戏耳机，这款产品在外观和配置上都比较特别。HECATE GM45充电盒机身有多处曲面设计，正面看上去像是一个鼠标，并且有RGB灯效设计；耳机内置双动圈单元，突出低频效果，增强玩家的游戏体验。GM45依旧搭载原相蓝牙5.0芯片，官方宣传游戏模式下延迟低至60ms；耳机还支持双麦通话降噪，支持触控，单次续航约为4.5小时，充电盒可额外提供18小时续航。",
             "confidence": 0.74,
             "source_type": "text",
-            "source_text": "PixArt原相1600系列蓝牙音频SoC采用GreenRadio专利技术，支持双耳直连、不分主从共享模式，具有快速角色互换、超低延时、低辐射、低功耗、抗干扰等特性；支持 SBC/mSBC、AAC、10段EQ调整、双麦克风杂讯消除；内置锂电池充电管理 5~400mA 软件可调；部分型号支持数位式主动降噪与环境声倾听模式。"
+            "source_text": "今天我们要拆解的是漫步者HECATE GM45 真无线蓝牙游戏耳机，这款产品在外观和配置上都比较特别。HECATE GM45充电盒机身有多处曲面设计，正面看上去像是一个鼠标，并且有RGB灯效设计；耳机内置双动圈单元，突出低频效果，增强玩家的游戏体验。GM45依旧搭载原相蓝牙5.0芯片，官方宣传游戏模式下延迟低至60ms；耳机还支持双麦通话降噪，支持触控，单次续航约为4.5小时，充电盒可额外提供18小时续航。"
           }
         }
       ],
@@ -394,34 +347,25 @@
           }
         },
         {
-          "value": "RGB LED指示灯的导光柱，外壳内塑料柱热熔固定。",
+          "value": "充电盒内部结构展示，电池粘贴在主板上，一块小的PCBA使用三颗螺丝固定。",
           "evidence": {
-            "value": "RGB LED指示灯的导光柱，外壳内塑料柱热熔固定。",
+            "value": "充电盒内部结构展示，电池粘贴在主板上，一块小的PCBA使用三颗螺丝固定。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "RGB LED指示灯的导光柱，外壳内塑料柱热熔固定。"
+            "source_text": "充电盒内部结构展示，电池粘贴在主板上，一块小的PCBA使用三颗螺丝固定。"
           }
         },
         {
-          "value": "主板电路另一侧展示，底部是连接器插座，左下角电池导线焊点使用胶水加固。",
+          "value": "卸下螺丝，取出这块小的PCBA。",
           "evidence": {
-            "value": "主板电路另一侧展示，底部是连接器插座，左下角电池导线焊点使用胶水加固。",
+            "value": "卸下螺丝，取出这块小的PCBA。",
             "confidence": 0.68,
             "source_type": "text",
-            "source_text": "主板电路另一侧展示，底部是连接器插座，左下角电池导线焊点使用胶水加固。"
+            "source_text": "卸下螺丝，取出这块小的PCBA。"
           }
         }
       ],
       "sealing_method": [
-        {
-          "value": "出音嘴处的细密防尘网，阻止异物进入。",
-          "evidence": {
-            "value": "出音嘴处的细密防尘网，阻止异物进入。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "出音嘴处的细密防尘网，阻止异物进入。"
-          }
-        },
         {
           "value": "顶部是降噪麦克风的保护罩，内侧有防尘网；下方条形的金属片用来感知触摸操作。",
           "evidence": {
@@ -429,15 +373,6 @@
             "confidence": 0.68,
             "source_type": "text",
             "source_text": "顶部是降噪麦克风的保护罩，内侧有防尘网；下方条形的金属片用来感知触摸操作。"
-          }
-        },
-        {
-          "value": "圆形的泄压孔和防尘网，以及吸附充电座舱的磁铁。",
-          "evidence": {
-            "value": "圆形的泄压孔和防尘网，以及吸附充电座舱的磁铁。",
-            "confidence": 0.68,
-            "source_type": "text",
-            "source_text": "圆形的泄压孔和防尘网，以及吸附充电座舱的磁铁。"
           }
         }
       ],
@@ -459,105 +394,68 @@
             "source_type": "text",
             "source_text": "包装盒内物品，HECATE GM45耳机和充电盒、充电线、替换耳塞，以及使用说明书。"
           }
-        },
-        {
-          "value": "三对可替换的硅胶耳塞，耳机上自带一对，用户可根据自己耳道大小更换。",
-          "evidence": {
-            "value": "三对可替换的硅胶耳塞，耳机上自带一对，用户可根据自己耳道大小更换。",
-            "confidence": 0.7,
-            "source_type": "text",
-            "source_text": "三对可替换的硅胶耳塞，耳机上自带一对，用户可根据自己耳道大小更换。"
-          }
         }
       ],
-      "key_image_urls": [
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/漫步者GM45-1.jpg",
-          "alt": "拆解报告：漫步者HECATE GM45 真无线蓝牙游戏耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/漫步者GM45-2.jpg",
-          "alt": "拆解报告：漫步者HECATE GM45 真无线蓝牙游戏耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/漫步者GM45-3.jpg",
-          "alt": "拆解报告：漫步者HECATE GM45 真无线蓝牙游戏耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/漫步者GM45-4.jpg",
-          "alt": "拆解报告：漫步者HECATE GM45 真无线蓝牙游戏耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/漫步者GM45-5.jpg",
-          "alt": "拆解报告：漫步者HECATE GM45 真无线蓝牙游戏耳机-我爱音频网",
-          "caption": "",
-          "section_hint": "爆炸图",
-          "score": 8
-        }
-      ],
+      "key_image_urls": [],
       "assembly_notes": [
         "充电盒内部结构展示，电池粘贴在主板上，一块小的PCBA使用三颗螺丝固定。",
-        "卸下螺丝，取出这块小的PCBA。",
         "揭开粘贴电池的双面胶，充电盒主PCBA使用两颗螺丝固定。",
-        "今天我们要拆解的是漫步者HECATE GM45 真无线蓝牙游戏耳机，这款产品在外观和配置上都比较特别。HECATE GM45充电盒机身有多处曲面设计，正面看上去像是一个鼠标，并且有RGB灯效设计；耳机内置双动圈单元，突出低频效果，增强玩家的游戏体验。GM45依旧搭载原相蓝牙5.0芯片，官方宣传游戏模式下延迟低至60ms；耳机还支持双麦通话降噪，支持触控，单次续航约为4.5小时，充电盒可额外提供18小时续航。"
+        "卸下螺丝，取出这块小的PCBA。",
+        "指示灯下方是降噪麦克风的拾音孔，收集环境声音用于通话降噪。"
       ],
       "ip_rating_evidence": null,
-      "weight_evidence": {
-        "value": "58.8克",
-        "confidence": 0.75,
-        "source_type": "text",
-        "source_text": "58.8克"
-      }
+      "weight_evidence": null,
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": null,
+      "weight_earbud_evidence": null
     },
     "hardware": {
       "specs": [
         {
           "param": "充电方式",
-          "value": "我爱音频网采用\nChargerLAB POWER-Z KT002便携式电源测试仪\n对漫步者HECATE GM45 真无线蓝牙游戏耳机进行有线充电测试，充电功率约为2.5W。",
+          "value": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KT002便携式电源测试仪\n对漫步者HECATE GM45 真无线蓝牙游戏耳机进行有线充电测试，充电功率约为2.5W。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KT002便携式电源测试仪\n对漫步者HECATE GM45 真无线蓝牙游戏耳机进行有线充电测试，充电功率约为2.5W。"
+          "source_ref": "充电方式：我爱音频网采用\nChargerLAB POWER-Z KT002便携式电源测试仪\n对漫步者HECATE GM45 真无线蓝牙游戏耳机进行有线充电测试，充电功率约为2.5W。"
         },
         {
           "param": "充电接口",
-          "value": "充电线为USB-A to USB Type-C接口。",
+          "value": "充电接口：充电线为USB-A to USB Type-C接口。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "充电线为USB-A to USB Type-C接口。"
+          "source_ref": "充电接口：充电线为USB-A to USB Type-C接口。"
         },
         {
           "param": "充电接口",
-          "value": "USB Type-C充电接口位于充电盒背部，位置较深。",
+          "value": "充电接口：USB Type-C充电接口位于充电盒背部，位置较深。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "USB Type-C充电接口位于充电盒背部，位置较深。"
+          "source_ref": "充电接口：USB Type-C充电接口位于充电盒背部，位置较深。"
         },
         {
           "param": "充电接口",
-          "value": "充电盒通过USB Type-C接口输入电源，微源半导体LP7801T负责电池的充/放电，内置OVP省去了输入过压保护元件，固定5.1V输出，外围少；软包电池容量500mAh；主板上还有一颗无标MCU，负责指示灯控制等充电盒功能。",
+          "value": "充电接口：充电盒通过USB Type-C接口输入电源，微源半导体LP7801T负责电池的充/放电，内置OVP省去了输入过压保护元件，固定5.1V输出，外围少；软包电池容量500mAh；主板上还有一颗无标MCU，负责指示灯控制等充电盒功能。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.75,
-          "source_ref": "充电盒通过USB Type-C接口输入电源，微源半导体LP7801T负责电池的充/放电，内置OVP省去了输入过压保护元件，固定5.1V输出，外围少；软包电池容量500mAh；主板上还有一颗无标MCU，负责指示灯控制等充电盒功能。"
+          "source_ref": "充电接口：充电盒通过USB Type-C接口输入电源，微源半导体LP7801T负责电池的充/放电，内置OVP省去了输入过压保护元件，固定5.1V输出，外围少；软包电池容量500mAh；主板上还有一颗无标MCU，负责指示灯控制等充电盒功能。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：6mm*4动圈单元，阻抗16Ω，频响范围20Hz-20KHz，灵敏度100dB。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：6mm*4动圈单元，阻抗16Ω，频响范围20Hz-20KHz，灵敏度100dB。"
         },
         {
           "param": "充电接口",
@@ -579,48 +477,48 @@
         },
         {
           "param": "标记/认证",
-          "value": "6mm*4动圈单元，阻抗16Ω，频响范围20Hz-20KHz，灵敏度100dB。",
+          "value": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：6mm*4动圈单元，阻抗16Ω，频响范围20Hz-20KHz，灵敏度100dB。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "6mm*4动圈单元，阻抗16Ω，频响范围20Hz-20KHz，灵敏度100dB。"
+          "source_ref": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：6mm*4动圈单元，阻抗16Ω，频响范围20Hz-20KHz，灵敏度100dB。"
         },
         {
           "param": "标记/认证",
-          "value": "额定输入5V⎓500mA（充电盒），5V⎓40mA（耳机）。",
+          "value": "标记/认证：额定输入5V⎓500mA（充电盒），5V⎓40mA（耳机）。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "额定输入5V⎓500mA（充电盒），5V⎓40mA（耳机）。"
+          "source_ref": "标记/认证：额定输入5V⎓500mA（充电盒），5V⎓40mA（耳机）。"
         },
         {
           "param": "标记/认证",
-          "value": "盒盖内侧产品信息，型号EDF700008，额定输入5V⎓40mA（耳机），5V⎓500mA（充电盒）。",
+          "value": "标记/认证：盒盖内侧产品信息，型号EDF700008，额定输入5V⎓40mA（耳机），5V⎓500mA（充电盒）。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "盒盖内侧产品信息，型号EDF700008，额定输入5V⎓40mA（耳机），5V⎓500mA（充电盒）。"
+          "source_ref": "标记/认证：盒盖内侧产品信息，型号EDF700008，额定输入5V⎓40mA（耳机），5V⎓500mA（充电盒）。"
         },
         {
           "param": "标记/认证",
-          "value": "软包电池型号WEL702040，额定电压3.7V，额定容量500mAh/1.85Wh。",
+          "value": "标记/认证：软包电池型号WEL702040，额定电压3.7V，额定容量500mAh/1.85Wh。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "软包电池型号WEL702040，额定电压3.7V，额定容量500mAh/1.85Wh。"
+          "source_ref": "标记/认证：软包电池型号WEL702040，额定电压3.7V，额定容量500mAh/1.85Wh。"
         },
         {
           "param": "标记/认证",
-          "value": "耳机采用的软包电池型号WEL501012，与充电盒软包电池是同一供应商，额定电压3.7V，额定容量40mAh/0.148Wh。",
+          "value": "标记/认证：耳机采用的软包电池型号WEL501012，与充电盒软包电池是同一供应商，额定电压3.7V，额定容量40mAh/0.148Wh。",
           "unit": "",
           "brand": "",
           "model": "",
           "confidence": 0.7,
-          "source_ref": "耳机采用的软包电池型号WEL501012，与充电盒软包电池是同一供应商，额定电压3.7V，额定容量40mAh/0.148Wh。"
+          "source_ref": "标记/认证：耳机采用的软包电池型号WEL501012，与充电盒软包电池是同一供应商，额定电压3.7V，额定容量40mAh/0.148Wh。"
         },
         {
           "param": "电池容量",
@@ -642,7 +540,7 @@
             "value": "AAC",
             "confidence": 0.8,
             "source_type": "text",
-            "source_text": "PixArt原相1600系列蓝牙音频SoC采用GreenRadio\n专利技术，支持双耳直连、不分主从共享模式，具有快速角色互换、超低延时、低辐射、低功耗、抗干扰等特性；支持 SBC/mSBC、AAC、10段EQ调整、双麦克风杂讯消除；内置锂电池充电管理 5~400mA 软件可调；部分型号支持数位式主动降噪与环境声倾听模式。"
+            "source_text": "PixArt原相1600系列蓝牙音频SoC采用GreenRadio专利技术，支持双耳直连、不分主从共享模式，具有快速角色互换、超低延时、低辐射、低功耗、抗干扰等特性；支持 SBC/mSBC、AAC、10段EQ调整、双麦克风杂讯消除；内置锂电池充电管理 5~400mA 软件可调；部分型号支持数位式主动降噪与环境声倾听模式。"
           }
         },
         {
@@ -651,16 +549,7 @@
             "value": "SBC",
             "confidence": 0.8,
             "source_type": "text",
-            "source_text": "PixArt原相1600系列蓝牙音频SoC采用GreenRadio\n专利技术，支持双耳直连、不分主从共享模式，具有快速角色互换、超低延时、低辐射、低功耗、抗干扰等特性；支持 SBC/mSBC、AAC、10段EQ调整、双麦克风杂讯消除；内置锂电池充电管理 5~400mA 软件可调；部分型号支持数位式主动降噪与环境声倾听模式。"
-          }
-        },
-        {
-          "value": "小金标",
-          "evidence": {
-            "value": "小金标",
-            "confidence": 0.8,
-            "source_type": "text",
-            "source_text": "一、漫步者HECATE GM45 开箱\n包装盒延续了漫步者HECATE正代产品的风格，左上角有品牌Logo，左下角是产品名“GM45 真无线蓝牙游戏耳机”，右上角有一个小金标“四单元驱动”是产品特色，右下角“Made for GAMING”的图标表示这是一款游戏耳机。"
+            "source_text": "PixArt原相1600系列蓝牙音频SoC采用GreenRadio专利技术，支持双耳直连、不分主从共享模式，具有快速角色互换、超低延时、低辐射、低功耗、抗干扰等特性；支持 SBC/mSBC、AAC、10段EQ调整、双麦克风杂讯消除；内置锂电池充电管理 5~400mA 软件可调；部分型号支持数位式主动降噪与环境声倾听模式。"
           }
         }
       ],
@@ -669,6 +558,15 @@
       "app_features": [],
       "ota_support": [],
       "latency_notes": [
+        {
+          "value": "据我爱音频网拆解了解到，市面上有包括\nQCY\n、\n雷蛇\n、\n漫步者\n、\niWALK\n、\nJOWAY乔威\n、\nTOZO\n等品牌的TWS耳机均采用了原相方案，低延迟是其共同的卖点。",
+          "evidence": {
+            "value": "据我爱音频网拆解了解到，市面上有包括\nQCY\n、\n雷蛇\n、\n漫步者\n、\niWALK\n、\nJOWAY乔威\n、\nTOZO\n等品牌的TWS耳机均采用了原相方案，低延迟是其共同的卖点。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "据我爱音频网拆解了解到，市面上有包括\nQCY\n、\n雷蛇\n、\n漫步者\n、\niWALK\n、\nJOWAY乔威\n、\nTOZO\n等品牌的TWS耳机均采用了原相方案，低延迟是其共同的卖点。"
+          }
+        },
         {
           "value": "GM45依旧搭载原相蓝牙5.0芯片，官方宣传游戏模式下延迟低至60ms；耳机还支持双麦通话降噪，支持触控，单次续航约为4.5小时，充电盒可额外提供18小时续航。",
           "evidence": {
@@ -679,12 +577,12 @@
           }
         },
         {
-          "value": "据我爱音频网拆解了解到，市面上有包括\nQCY\n、\n雷蛇\n、\n漫步者\n、\niWALK\n、\nJOWAY乔威\n、\nTOZO\n等品牌的TWS耳机均采用了原相方案，低延迟是其共同的卖点。",
+          "value": "GM45依旧搭载原相蓝牙5.0芯片，官方宣传游戏模式下延迟低至60ms；耳机还支持双麦通话降噪，支持触控，单次续航约为4.5小时，充电盒可额外提供18小时续航。",
           "evidence": {
-            "value": "据我爱音频网拆解了解到，市面上有包括\nQCY\n、\n雷蛇\n、\n漫步者\n、\niWALK\n、\nJOWAY乔威\n、\nTOZO\n等品牌的TWS耳机均采用了原相方案，低延迟是其共同的卖点。",
+            "value": "GM45依旧搭载原相蓝牙5.0芯片，官方宣传游戏模式下延迟低至60ms；耳机还支持双麦通话降噪，支持触控，单次续航约为4.5小时，充电盒可额外提供18小时续航。",
             "confidence": 0.72,
             "source_type": "text",
-            "source_text": "据我爱音频网拆解了解到，市面上有包括\nQCY\n、\n雷蛇\n、\n漫步者\n、\niWALK\n、\nJOWAY乔威\n、\nTOZO\n等品牌的TWS耳机均采用了原相方案，低延迟是其共同的卖点。"
+            "source_text": "GM45依旧搭载原相蓝牙5.0芯片，官方宣传游戏模式下延迟低至60ms；耳机还支持双麦通话降噪，支持触控，单次续航约为4.5小时，充电盒可额外提供18小时续航。"
           }
         }
       ],

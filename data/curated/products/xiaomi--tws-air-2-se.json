@@ -21,12 +21,12 @@
     "battery_case": "电池",
     "speaker": "喇叭单元",
     "materials": "",
-    "weight_g": "47.2g",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
     "bluetooth": "5.0",
-    "bom_row_count": 15,
+    "bom_row_count": 10,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -47,7 +47,7 @@
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "小米Air2 SE真无线耳机是小米品牌目前在售的一款入门级蓝牙耳机产品，在外观上充电盒采用了方形的折叠开合设计，耳机依旧是Air系列的经典外观，柄状的半入耳式设计，用以稳固舒适的佩戴体验。"
+        "source_text": "小米Air2 SE真无线耳机是小米品牌目前在售的一款入门级蓝牙耳机产品，在外观上充电盒采用了方形的折叠开合设计 […]"
       }
     },
     {
@@ -55,13 +55,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机柄背部通话降噪麦克风，触控区域设置有条形凹槽，便于盲操作。"
+        "source_text": "镭雕R114 A72D的MEMS麦克风，用于通话降噪功能。"
       }
     },
     {
@@ -107,48 +107,6 @@
       }
     },
     {
-      "component": "天线",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "天线",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "板载蓝牙天线特写。"
-      }
-    },
-    {
-      "component": "降噪系统",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "降噪系统",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "BES恒玄BES2300蓝牙音频SoC，是一款全集成自适应主动降噪方案，支持蓝牙 5.0、IBRT智能转发技术和双模蓝牙 4.2，它还支持第三代 TWS 全无线立体声技术、双麦克风等。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒采用了类似“电饭煲”的扁平方形盒设计，正面开盖处设置有倒角便于开启，下方有一颗指示灯。"
-      }
-    },
-    {
       "component": "触控/按键",
       "brand": "",
       "model": "",
@@ -159,21 +117,21 @@
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "功能配置上，采用了14.2mm大尺寸的复合振膜动圈单元，支持AAC音频编解码。采用触控操作，并且支持佩戴检测功能；搭配小米手机使用支持开盒弹窗智能连接，查看充电盒和耳机剩余电量；还支持双麦通话降噪功能；续航上，单次充电为5小时，整体续航时间20小时。"
+        "source_text": "采用触控操作，并且支持佩戴检测功能；搭配小米手机使用支持开盒弹窗智能连接，查看充电盒和耳机剩余电量；还支持双麦通话降噪功能；续航上，单次\n充电\n为5小时，整体续航时间20小时。"
       }
     },
     {
-      "component": "外壳结构",
+      "component": "指示灯",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "",
       "role": "minor",
       "evidence": {
-        "value": "外壳结构",
+        "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "后腔壁上贴有大面积电容式入耳检测传感器，扬声器导线及排线过孔采用胶水密封。"
+        "source_text": "背板内侧设置有条形触摸检测传感器，两处黑色双面胶用于固定降噪麦克风\n防尘网\n和指示灯防漏光。"
       }
     },
     {
@@ -181,27 +139,13 @@
       "brand": "",
       "model": "SS881",
       "qty_hint": "1",
-      "side": "",
+      "side": "充电盒",
       "role": "主控/蓝牙",
       "evidence": {
         "value": "SS881",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "SinhMicro昇生微电子SS881A是一颗集成了充放电管理的AD型Flash单片机，集成了电源管理单元和充电管理单元，提供全软件实时可配置的充电电压电流设置。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "SS881",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "SS881",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "针对TWS产品的智能化趋势，SS881X系列已经与各大主流耳机平台实现双向通信功能，产品可以快速迭代。"
+        "source_text": "充电接口：内部电路方面，充电盒采用了Type-C接口输入电源，内置锂离子软包电池容量410mAh，由苏州赛芯电子科技股份有限公司 XB5352G 一体化锂电池保护IC，负责电池的过充过放过流短路等保护功能；充电仓主控芯片为昇生微电子SS881A AD型Flash单片机，集成了电源管理单元和充电管理单元，提供全软件实时可配置的充电电压电流设置。"
       }
     },
     {
@@ -215,21 +159,7 @@
         "value": "恒玄BES2300",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "BES恒玄BES2300蓝牙音频SoC，是一款全集成自适应主动降噪方案，支持蓝牙 5.0、IBRT智能转发技术和双模蓝牙 4.2，它还支持第三代 TWS 全无线立体声技术、双麦克风等。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "BES2300",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "BES2300",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "BES2300 可以给耳机和家庭音响输出声音，也可以从外部麦克风录音。"
+        "source_text": "电池容量：410\n芯片 恒玄BES2300\n芯片 SS881"
       }
     },
     {
@@ -237,13 +167,13 @@
       "brand": "",
       "model": "SS881",
       "qty_hint": "1",
-      "side": "充电盒",
+      "side": "",
       "role": "主控/蓝牙",
       "evidence": {
         "value": "SS881",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "内部电路方面，充电盒采用了Type-C接口输入电源，内置锂离子软包电池容量410mAh，由苏州赛芯电子科技股份有限公司 XB5352G 一体化锂电池保护IC，负责电池的过充过放过流短路等保护功能；充电仓主控芯片为昇生微电子SS881A AD型Flash单片机，集成了电源管理单元和充电管理单元，提供全软件实时可配置的充电电压电流设置。"
+        "source_text": "电池容量：410\n芯片 恒玄BES2300\n芯片 SS881"
       }
     }
   ],
@@ -262,13 +192,13 @@
   "market": {
     "selling_points": [
       {
-        "text": "镭雕R114 A72D的MEMS麦克风，用于通话降噪功能。",
+        "text": "小米Air2 SE真无线耳机是小米品牌目前在售的一款入门级蓝牙耳机产品，在外观上充电盒采用了方形的折叠开合设计 […]\n镭雕R114 A72D的MEMS麦克风，用于通话降噪功能。",
         "tag": "降噪",
         "evidence": {
-          "value": "镭雕R114 A72D的MEMS麦克风，用于通话降噪功能。",
-          "confidence": 0.71,
+          "value": "小米Air2 SE真无线耳机是小米品牌目前在售的一款入门级蓝牙耳机产品，在外观上充电盒采用了方形的折叠开合设计 […]\n镭雕R114 A72D的MEMS麦克风，用于通话降噪功能。",
+          "confidence": 0.74,
           "source_type": "text",
-          "source_text": "镭雕R114 A72D的MEMS麦克风，用于通话降噪功能。"
+          "source_text": "小米Air2 SE真无线耳机是小米品牌目前在售的一款入门级蓝牙耳机产品，在外观上充电盒采用了方形的折叠开合设计 […]\n镭雕R114 A72D的MEMS麦克风，用于通话降噪功能。"
         }
       },
       {
@@ -312,21 +242,20 @@
         }
       },
       {
-        "text": "而且芯片集成专门接口，支持USB整机升级和产测。",
-        "tag": "其他",
+        "text": "采用触控操作，并且支持佩戴检测功能；搭配小米手机使用支持开盒弹窗智能连接，查看充电盒和耳机剩余电量；还支持双麦通话降噪功能；续航上，单次充电为5小时，整体续航时间20小时。",
+        "tag": "降噪",
         "evidence": {
-          "value": "而且芯片集成专门接口，支持USB整机升级和产测。",
-          "confidence": 0.68,
+          "value": "采用触控操作，并且支持佩戴检测功能；搭配小米手机使用支持开盒弹窗智能连接，查看充电盒和耳机剩余电量；还支持双麦通话降噪功能；续航上，单次充电为5小时，整体续航时间20小时。",
+          "confidence": 0.56,
           "source_type": "text",
-          "source_text": "而且芯片集成专门接口，支持USB整机升级和产测。"
+          "source_text": "采用触控操作，并且支持佩戴检测功能；搭配小米手机使用支持开盒弹窗智能连接，查看充电盒和耳机剩余电量；还支持双麦通话降噪功能；续航上，单次充电为5小时，整体续航时间20小时。"
         }
       }
     ],
     "scenarios": [
-      "通话",
-      "跑步"
+      "通话"
     ],
-    "positioning_summary": "镭雕R114 A72D的MEMS麦克风，用于通话降噪功能。",
+    "positioning_summary": "小米Air2 SE真无线耳机是小米品牌目前在售的一款入门级蓝牙耳机产品，在外观上充电盒采用了方形的折叠开合设计 […]\n镭雕R114 A72D的MEMS麦克风，用于通话降噪功能。",
     "launch_date": null,
     "best_report_id": "90987",
     "best_video_id": null

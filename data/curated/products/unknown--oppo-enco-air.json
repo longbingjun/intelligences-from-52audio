@@ -28,13 +28,13 @@
     "battery_ear": "电池",
     "battery_case": "400 mAh",
     "speaker": "喇叭单元",
-    "materials": "硅胶、PC",
-    "weight_g": "45.3克",
+    "materials": "PC",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
-    "bluetooth": "5.2",
-    "bom_row_count": 17,
+    "bluetooth": "",
+    "bom_row_count": 12,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -55,7 +55,7 @@
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "今天我爱音频网拆解的这款OPPO Enco Air 灵动版 真无线蓝牙耳机，耳机采用了豆状的入耳式设计，体积小巧；芯片支持最新的蓝牙5.2标准，支持AI通话降噪，连接OPPO手机有低延迟的游戏模式；耳机满电可连续播放音乐6小时，搭配充电盒总续航约24小时，是一款不错的产品。此前我爱音频网已经为大家详细分析了OPPO Enco Air 灵动版售价只需149元对于OPPO意味着什么，今天我们再通过拆解看看其内部用料如何。"
+        "source_text": "耳机和充电盒内部有较多防尘防水的保护措施，在同价位产品中做工和用料较好。"
       }
     },
     {
@@ -91,13 +91,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "喇叭单元",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "包装盒底部是OPPO Enco Air 灵动版 真无线耳机的特色功能和部分参数信息。六大卖点：开盖秒连、24小时续航、双层振膜、AI通话降噪、游戏模式、IP54防尘防水。"
+        "source_text": "六大卖点：开盖秒连、24小时续航、双层振膜、AI通话降噪、游戏模式、IP54防尘防水。"
       }
     },
     {
@@ -129,31 +129,17 @@
       }
     },
     {
-      "component": "降噪系统",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "降噪系统",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "包装盒是一个小方盒，顶部有挂钩便于线下店铺展示。包装盒采用纯白色背景，左侧是“OPPO ENCO”真无线耳机产品线的名称，右侧是耳机外观的渲染图。"
-      }
-    },
-    {
       "component": "充电触点",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "minor",
       "evidence": {
         "value": "充电触点",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "给耳机充电的银色Pogo Pin；充电座舱壳体上有L/R左右标识。"
+        "source_text": "FPC连接了充电触点和扬声器单元。"
       }
     },
     {
@@ -171,20 +157,6 @@
       }
     },
     {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒正面外观展示，盒盖开启处有一道凹槽便于打开。下面是一个充电状态指示灯。"
-      }
-    },
-    {
       "component": "触控/按键",
       "brand": "",
       "model": "",
@@ -199,17 +171,31 @@
       }
     },
     {
-      "component": "耳挂/挂钩",
+      "component": "芯片/模组",
       "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
+      "model": "SS881",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
       "evidence": {
-        "value": "耳挂/挂钩",
-        "confidence": 0.72,
+        "value": "SS881",
+        "confidence": 0.78,
         "source_type": "text",
-        "source_text": "包装盒是一个小方盒，顶部有挂钩便于线下店铺展示。包装盒采用纯白色背景，左侧是“OPPO ENCO”真无线耳机产品线的名称，右侧是耳机外观的渲染图。"
+        "source_text": "充电接口：OPPO Enco Air 灵动版的充电盒通过USB Type-C接口输入电源，输入端有TVS用于输入浪涌防护，微源半导体LP5300输入耐压达36V，防止输入过压损坏耳机充电盒内部元件；昇生微电子SS881A单片机集成了电源管理单元和充电管理单元，负责电池充放电；微源半导体LP6261负责电池输出升压给耳机充电，内置短路保护；软包电池来自重庆紫建，容量400mAh。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2500IUC",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2500IUC",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：400\n芯片 恒玄BES2500IUC\n芯片 BES2500\n芯片 BES2300\n芯片 BES2300IU\n芯片 SS881"
       }
     },
     {
@@ -223,63 +209,7 @@
         "value": "SS881",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "昇生微电子SS881A是一颗集成了充放电管理的AD型Flash单片机，集成了电源管理单元和充电管理单元，提供全软件实时可配置的充电电压电流设置。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "SS881",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "SS881",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "针对TWS产品的智能化趋势，SS881X系列已经与各大主流耳机平台实现双向通信功能，产品可以快速迭代。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "恒玄BES2500IUC",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "恒玄BES2500IUC",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "OPPO Enco Air 灵动版 真无线耳机的主控芯片是恒玄BES2500IUC，BES2500系列是恒玄新一代蓝牙音频SoC，均支持蓝牙5.2，不同后缀配置和功能不相同。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "BES2300",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "BES2300",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "其命名方式与BES2300系列有相似之处，此前BES2300IU系列产品主要应用于入门级TWS耳机产品上。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "SS881",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "SS881",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "OPPO Enco Air 灵动版的充电盒通过USB Type-C接口输入电源，输入端有TVS用于输入浪涌防护，微源半导体LP5300输入耐压达36V，防止输入过压损坏耳机充电盒内部元件；昇生微电子SS881A单片机集成了电源管理单元和充电管理单元，负责电池充放电；微源半导体LP6261负责电池输出升压给耳机充电，内置短路保护；软包电池来自重庆紫建，容量400mAh。"
+        "source_text": "电池容量：400\n芯片 恒玄BES2500IUC\n芯片 BES2500\n芯片 BES2300\n芯片 BES2300IU\n芯片 SS881"
       }
     }
   ],
@@ -299,13 +229,23 @@
   "market": {
     "selling_points": [
       {
-        "text": "六大卖点：开盖秒连、24小时续航、双层振膜、AI通话降噪、游戏模式、IP54防尘防水。",
+        "text": "充电接口：Type-C\n标记/认证：六大卖点：开盖秒连、24小时续航、双层振膜、AI通话降噪、游戏模式、IP54防尘防水。",
         "tag": "降噪",
         "evidence": {
-          "value": "六大卖点：开盖秒连、24小时续航、双层振膜、AI通话降噪、游戏模式、IP54防尘防水。",
-          "confidence": 0.57,
+          "value": "充电接口：Type-C\n标记/认证：六大卖点：开盖秒连、24小时续航、双层振膜、AI通话降噪、游戏模式、IP54防尘防水。",
+          "confidence": 0.56,
           "source_type": "text",
-          "source_text": "六大卖点：开盖秒连、24小时续航、双层振膜、AI通话降噪、游戏模式、IP54防尘防水。"
+          "source_text": "充电接口：Type-C\n标记/认证：六大卖点：开盖秒连、24小时续航、双层振膜、AI通话降噪、游戏模式、IP54防尘防水。"
+        }
+      },
+      {
+        "text": "OPPO Enco Air 灵动版售价只需149元对于OPPO意味着什么，今天我们再通过拆解看看其内部用料如何 […]\n六大卖点：开盖秒连、24小时续航、双层振膜、AI通话降噪、游戏模式、IP54防尘防水。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "OPPO Enco Air 灵动版售价只需149元对于OPPO意味着什么，今天我们再通过拆解看看其内部用料如何 […]\n六大卖点：开盖秒连、24小时续航、双层振膜、AI通话降噪、游戏模式、IP54防尘防水。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "OPPO Enco Air 灵动版售价只需149元对于OPPO意味着什么，今天我们再通过拆解看看其内部用料如何 […]\n六大卖点：开盖秒连、24小时续航、双层振膜、AI通话降噪、游戏模式、IP54防尘防水。"
         }
       },
       {
@@ -329,6 +269,16 @@
         }
       },
       {
+        "text": "充电接口：充电接口位置有一个橡胶保护罩，提升防尘防水能力。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "充电接口：充电接口位置有一个橡胶保护罩，提升防尘防水能力。",
+          "confidence": 0.63,
+          "source_type": "text",
+          "source_text": "充电接口：充电接口位置有一个橡胶保护罩，提升防尘防水能力。"
+        }
+      },
+      {
         "text": "泡棉与壳体接触，提高防尘防水能力。",
         "tag": "防水防尘",
         "evidence": {
@@ -337,33 +287,13 @@
           "source_type": "text",
           "source_text": "泡棉与壳体接触，提高防尘防水能力。"
         }
-      },
-      {
-        "text": "我爱音频网总结\nOPPO Enco Air 灵动版 在外观设计上与OPPO去年推出的Enco W31灵动版较为相似，耳机采用豆式入耳设计，充电盒为胶囊造型，小巧便携，主打线上线下的入门级市场，此次在核心配置上进行了一年一度的升级。",
-        "tag": "降噪",
-        "evidence": {
-          "value": "我爱音频网总结\nOPPO Enco Air 灵动版 在外观设计上与OPPO去年推出的Enco W31灵动版较为相似，耳机采用豆式入耳设计，充电盒为胶囊造型，小巧便携，主打线上线下的入门级市场，此次在核心配置上进行了一年一度的升级。",
-          "confidence": 0.75,
-          "source_type": "text",
-          "source_text": "我爱音频网总结\nOPPO Enco Air 灵动版 在外观设计上与OPPO去年推出的Enco W31灵动版较为相似，耳机采用豆式入耳设计，充电盒为胶囊造型，小巧便携，主打线上线下的入门级市场，此次在核心配置上进行了一年一度的升级。"
-        }
-      },
-      {
-        "text": "而且芯片集成专门接口，支持USB整机升级和产测。",
-        "tag": "其他",
-        "evidence": {
-          "value": "而且芯片集成专门接口，支持USB整机升级和产测。",
-          "confidence": 0.68,
-          "source_type": "text",
-          "source_text": "而且芯片集成专门接口，支持USB整机升级和产测。"
-        }
       }
     ],
     "scenarios": [
       "游戏",
       "通话"
     ],
-    "positioning_summary": "六大卖点：开盖秒连、24小时续航、双层振膜、AI通话降噪、游戏模式、IP54防尘防水。",
+    "positioning_summary": "充电接口：Type-C\n标记/认证：六大卖点：开盖秒连、24小时续航、双层振膜、AI通话降噪、游戏模式、IP54防尘防水。",
     "launch_date": null,
     "best_report_id": "81534",
     "best_video_id": null

@@ -17,16 +17,16 @@
   "cost_snapshot": {
     "main_chip": "BT8896A",
     "pmic_case": "",
-    "battery_ear": "300 mAh",
-    "battery_case": "电池",
+    "battery_ear": "电池",
+    "battery_case": "300 mAh",
     "speaker": "喇叭单元",
-    "materials": "硅胶、PC",
-    "weight_g": "46克",
+    "materials": "PC",
+    "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
     "bluetooth": "5.0",
-    "bom_row_count": 18,
+    "bom_row_count": 13,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
@@ -41,13 +41,27 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "今天我爱音频网要拆解的是TECNO Buds 2 真无线蓝牙耳机，耳机与传音手机配对连接有弹窗功能，半入耳式设计提高佩戴舒适度，内置蓝牙5.0主控芯片，13 毫米动圈单元，支持重低音模式；充电盒提供额外12小时续航。下面一起来看我爱音频网的详细拆解。"
+        "source_text": "思远半导体全线充电仓解决方案都通过IEC62368认证要求，降低客户过认证风险。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "电池采用双面胶粘贴在主板上，主板使用螺丝固定在充电座舱的壳体上。"
       }
     },
     {
@@ -65,31 +79,17 @@
       }
     },
     {
-      "component": "电池",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "电池",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "盒盖内侧信息，型号BD02，充电盒输入5V⎓300mA，输出5V⎓100mA，电池容量300mAh/1.11Wh，耳机输入5V⎓40mA，中国制造。"
-      }
-    },
-    {
       "component": "麦克风",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "通话麦克风设计在了耳机柄外侧，旁边还有一个指示灯，开孔处有防尘网。"
+        "source_text": "左侧是触控感应的箔片，中间位置是麦克风拾音孔的防尘网，右侧是FPC式蓝牙天线。"
       }
     },
     {
@@ -97,13 +97,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "天线",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机柄外壳内部布局展示。左侧是触控感应的箔片，中间位置是麦克风拾音孔的防尘网，右侧是FPC式蓝牙天线。"
+        "source_text": "左侧是触控感应的箔片，中间位置是麦克风拾音孔的防尘网，右侧是FPC式蓝牙天线。"
       }
     },
     {
@@ -121,17 +121,17 @@
       }
     },
     {
-      "component": "降噪系统",
+      "component": "触控/按键",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
+      "side": "",
+      "role": "minor",
       "evidence": {
-        "value": "降噪系统",
+        "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "迅龙BT8896A专为TWS耳机应用设计，芯片高度集成化，PCB外围物料精简。通讯协议支持蓝牙5.0 双模，支持APP应用。解码格式支持SBC/mSBC、AAC，内置10段参量式均衡器。内置5V充电触点单线通讯、内置锂电池充电管理电路，适用于智能充电仓应用。支持主副耳无缝切换。通话部分内置单MIC ENC降噪/AEC回音消除算法。原厂提供配置化编程工具，方便客户产品迅速投入市场。"
+        "source_text": "左侧是触控感应的箔片，中间位置是麦克风拾音孔的防尘网，右侧是FPC式蓝牙天线。"
       }
     },
     {
@@ -139,27 +139,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "充电盒",
+      "side": "耳机",
       "role": "minor",
       "evidence": {
         "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒机身较扁，盒盖开启位置有指示灯，盒盖开启处有一道凹槽便于打开。"
-      }
-    },
-    {
-      "component": "充电触点",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "充电触点",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电触点在耳机柄一侧。"
+        "source_text": "通话麦克风设计在了耳机柄外侧，旁边还有一个指示灯，开孔处有防尘网。"
       }
     },
     {
@@ -173,21 +159,7 @@
         "value": "耳挂/挂钩",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电盒侧面有一个挂钩设计，可以通过绳子将充电盒挂在背包或钥匙扣上。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "SY8821能够匹配所有蓝牙主控对电源特性的要求，5V常开及掉电压模式可选，常输出功耗低至3uA，1~4灯灵活配置，无需定制料号，按键、Hall控制可选，无需外部MCU，单芯片即可实现TWS充电仓应用设计，大大降低备货的风险。在当前半导体供应紧缺的现实情况下，SY8821是保证交付的优选产品。思远半导体全线充电仓解决方案都通过IEC62368认证要求，降低客户过认证风险。"
+        "source_text": "经过前面的开箱，我们已经对TECNO Buds 2的外观有了全面印象，充电盒有挂钩设计，耳机通话麦克风设计在了耳机柄外侧，比较有特点。下面我们将进入拆解环节，看看其内部结构和芯片信息。"
       }
     },
     {
@@ -207,15 +179,15 @@
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "SY8821",
+      "model": "BT8896A",
       "qty_hint": "1",
-      "side": "耳机",
+      "side": "",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "SY8821",
+        "value": "BT8896A",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "思远 SY8821蓝牙耳机充电仓解决方案，内部集成充电模块和放电模块。"
+        "source_text": "电池容量：300\n芯片 BT8896A\n芯片 SY8821\n芯片 稳先微WSDF13"
       }
     },
     {
@@ -229,49 +201,7 @@
         "value": "SY8821",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "SY8821能够匹配所有蓝牙主控对电源特性的要求，5V常开及掉电压模式可选，常输出功耗低至3uA，1~4灯灵活配置，无需定制料号，按键、Hall控制可选，无需外部MCU，单芯片即可实现TWS充电仓应用设计，大大降低备货的风险。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "BT8896A",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "BT8896A",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "TECNO Buds 2 的主控芯片为中科蓝讯迅龙系列BT8896A蓝牙音频SoC。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "BT8896A",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "BT8896A",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "BT8896A主要针对TWS耳机市场。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "SY8821",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "SY8821",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "内部电路方面，充电盒通过Micro-USB接口输入电源，思远SY8821集成充电模块、放电模块以及NTC保护功能，可以安全地对电池进行充放电，同时SY8821能够匹配所有蓝牙主控对电源特性的要求，1~4灯灵活配置，无需外部MCU，单芯片即可实现TWS充电仓应用设计；软包电池容量300mAh；主板上设计有霍尔元件用于开盖即连功能，耳机与传音手机配对连接有弹窗显示。"
+        "source_text": "电池容量：300\n芯片 BT8896A\n芯片 SY8821\n芯片 稳先微WSDF13"
       }
     },
     {
@@ -279,13 +209,13 @@
       "brand": "",
       "model": "稳先微WSDF13",
       "qty_hint": "1",
-      "side": "耳机",
+      "side": "",
       "role": "主控/蓝牙",
       "evidence": {
         "value": "稳先微WSDF13",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "耳机部分，TECNO Buds 2的主控芯片是中科蓝讯讯龙BT8896A，芯片也是高度集成化，外围物料精简，支持蓝牙5.0 双模，内置5V充电触点单线通讯、内置锂电池充电管理电路，适用于智能充电仓应用，还内置单MIC ENC降噪/AEC回音消除算法；软包电池容量40mAh，稳先微WSDF13提供过充、过放、过流、短路等所有电池需要的保护功能，工作时功耗极低，DFN1x1-4超小封装可节省占板空间。"
+        "source_text": "电池容量：300\n芯片 BT8896A\n芯片 SY8821\n芯片 稳先微WSDF13"
       }
     }
   ],
@@ -304,13 +234,13 @@
   "market": {
     "selling_points": [
       {
-        "text": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nMarshall\n、\n声阔\n、\nJBL\n、\n倍思\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、一加等众多知名品牌\n采用。",
+        "text": "TECNO是传音控股旗下的一个手机品牌，了解海外新兴市场消费者的需求，并为他们提供融入本地化创新的智能机、平板 […]\n据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nMarshall\n、\n声阔\n、\nJBL\n、\n倍思\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、一加等众多知名品牌\n采用。",
         "tag": "其他",
         "evidence": {
-          "value": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nMarshall\n、\n声阔\n、\nJBL\n、\n倍思\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、一加等众多知名品牌\n采用。",
+          "value": "TECNO是传音控股旗下的一个手机品牌，了解海外新兴市场消费者的需求，并为他们提供融入本地化创新的智能机、平板 […]\n据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nMarshall\n、\n声阔\n、\nJBL\n、\n倍思\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、一加等众多知名品牌\n采用。",
           "confidence": 0.75,
           "source_type": "text",
-          "source_text": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nMarshall\n、\n声阔\n、\nJBL\n、\n倍思\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、一加等众多知名品牌\n采用。"
+          "source_text": "TECNO是传音控股旗下的一个手机品牌，了解海外新兴市场消费者的需求，并为他们提供融入本地化创新的智能机、平板 […]\n据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nMarshall\n、\n声阔\n、\nJBL\n、\n倍思\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、一加等众多知名品牌\n采用。"
         }
       },
       {
@@ -321,6 +251,16 @@
           "confidence": 0.75,
           "source_type": "text",
           "source_text": "TECNO是传音控股旗下的一个手机品牌，了解海外新兴市场消费者的需求，并为他们提供融入本地化创新的智能机、平板及其他智能终端产品，销售网络遍及全球60多个国家和地区。"
+        }
+      },
+      {
+        "text": "标记/认证：软包电池额定电压3.7V，额定容量40mAh/0.148Wh。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：软包电池额定电压3.7V，额定容量40mAh/0.148Wh。",
+          "confidence": 0.59,
+          "source_type": "text",
+          "source_text": "标记/认证：软包电池额定电压3.7V，额定容量40mAh/0.148Wh。"
         }
       },
       {
@@ -357,7 +297,7 @@
     "scenarios": [
       "通话"
     ],
-    "positioning_summary": "据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nMarshall\n、\n声阔\n、\nJBL\n、\n倍思\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、一加等众多知名品牌\n采用。",
+    "positioning_summary": "TECNO是传音控股旗下的一个手机品牌，了解海外新兴市场消费者的需求，并为他们提供融入本地化创新的智能机、平板 […]\n据我爱音频网拆解了解到，思远半导体的电源管理芯片目前已被\nMarshall\n、\n声阔\n、\nJBL\n、\n倍思\n、\nOPPO、小米、百度、万魔、233621、传音、魔宴、创新科技、一加等众多知名品牌\n采用。",
     "launch_date": null,
     "best_report_id": "87448",
     "best_video_id": null

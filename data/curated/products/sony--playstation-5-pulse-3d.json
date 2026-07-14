@@ -20,7 +20,7 @@
     "battery_ear": "电池",
     "battery_case": "1000 mAh",
     "speaker": "喇叭单元",
-    "materials": "塑料、PC",
+    "materials": "",
     "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
@@ -37,20 +37,6 @@
   },
   "bom_table": [
     {
-      "component": "麦克风",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "麦克风",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "PS5主机针对PULSE 3D无线耳机组做了针对性优化，使其能够呈现PS5主机所实现的3D音效，为玩家提供沉浸式的游戏音频体验。PULSE 3D还配备了双降噪麦克风，确保游戏过程中与队友的清晰交流。便捷的控制功能支持麦克风静音，音量、音效调整，以及测试自己的声音是否传达到了队友的麦克风监测等。"
-      }
-    },
-    {
       "component": "主板/PCBA",
       "brand": "",
       "model": "",
@@ -65,17 +51,31 @@
       }
     },
     {
-      "component": "电池",
+      "component": "麦克风",
       "brand": "",
       "model": "",
       "qty_hint": "",
       "side": "",
       "role": "major",
       "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "PULSE 3D还配备了双降噪麦克风，确保游戏过程中与队友的清晰交流。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "右耳",
+      "role": "major",
+      "evidence": {
         "value": "电池",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "包装盒背面是产品的整体外观，以及多项产品功能特点：双隐藏式麦克风、内置可充电电池、快捷控制、3.5毫米插口、精致耳罩设计、无线适配器等。"
+        "source_text": "右耳后腔内是电池电源和一个转接板，便于耳机组装。"
       }
     },
     {
@@ -107,6 +107,20 @@
       }
     },
     {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "右耳",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "右耳后腔内是电池电源和一个转接板，便于耳机组装。"
+      }
+    },
+    {
       "component": "触控/按键",
       "brand": "",
       "model": "",
@@ -117,7 +131,7 @@
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "无线适配器侧边设置了复位按键开孔。"
+        "source_text": "聊天/游戏模式切换按键，游戏模式提供3D音效。"
       }
     },
     {
@@ -131,21 +145,7 @@
         "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "通话麦克风拾音孔，同时也是指示灯开孔。"
-      }
-    },
-    {
-      "component": "外壳结构",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "外壳结构",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "卸掉螺丝，打开腔体，前后腔之间有导线连接。"
+        "source_text": "主板末端印刷LDS镭射天线和指示灯。"
       }
     },
     {
@@ -159,7 +159,7 @@
         "value": "IP1522",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "锂离子电池组额定容量：1000mAh，型号：LIP1522，充电限制电压：4.V，制造商：索尼公司。"
+        "source_text": "充电接口：Type-C\n充电接口：USB-A\n标记/认证：锂离子电池组额定容量：1000mAh，型号：LIP1522，充电限制电压：4.V，制造商：索尼公司。"
       }
     }
   ],
@@ -178,13 +178,13 @@
   "market": {
     "selling_points": [
       {
-        "text": "悬挂式头垫根据不同用户人群呈现不同的弯曲状态，实现个性化的最舒适佩戴效果。",
+        "text": "在 […]\n悬挂式头垫根据不同用户人群呈现不同的弯曲状态，实现个性化的最舒适佩戴效果。",
         "tag": "舒适佩戴",
         "evidence": {
-          "value": "悬挂式头垫根据不同用户人群呈现不同的弯曲状态，实现个性化的最舒适佩戴效果。",
+          "value": "在 […]\n悬挂式头垫根据不同用户人群呈现不同的弯曲状态，实现个性化的最舒适佩戴效果。",
           "confidence": 0.74,
           "source_type": "text",
-          "source_text": "悬挂式头垫根据不同用户人群呈现不同的弯曲状态，实现个性化的最舒适佩戴效果。"
+          "source_text": "在 […]\n悬挂式头垫根据不同用户人群呈现不同的弯曲状态，实现个性化的最舒适佩戴效果。"
         }
       },
       {
@@ -195,6 +195,16 @@
           "confidence": 0.72,
           "source_type": "text",
           "source_text": "PS5主机针对PULSE 3D无线耳机组做了针对性优化，使其能够呈现PS5主机所实现的3D音效，为玩家\n提供\n沉浸式的游戏音频体验。"
+        }
+      },
+      {
+        "text": "PS5主机针对PULSE 3D无线耳机组做了针对性优化，使其能够呈现PS5主机所实现的3D音效，为玩家提供沉浸式的游戏音频体验。",
+        "tag": "空间音频",
+        "evidence": {
+          "value": "PS5主机针对PULSE 3D无线耳机组做了针对性优化，使其能够呈现PS5主机所实现的3D音效，为玩家提供沉浸式的游戏音频体验。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "PS5主机针对PULSE 3D无线耳机组做了针对性优化，使其能够呈现PS5主机所实现的3D音效，为玩家提供沉浸式的游戏音频体验。"
         }
       },
       {
@@ -226,24 +236,12 @@
           "source_type": "text",
           "source_text": "麦克风收音孔上还贴有防尘网，防止异物进入。"
         }
-      },
-      {
-        "text": "另外一颗驻极体降噪麦克风特写。",
-        "tag": "降噪",
-        "evidence": {
-          "value": "另外一颗驻极体降噪麦克风特写。",
-          "confidence": 0.57,
-          "source_type": "text",
-          "source_text": "另外一颗驻极体降噪麦克风特写。"
-        }
       }
     ],
     "scenarios": [
-      "运动",
-      "游戏",
-      "通话"
+      "游戏"
     ],
-    "positioning_summary": "悬挂式头垫根据不同用户人群呈现不同的弯曲状态，实现个性化的最舒适佩戴效果。",
+    "positioning_summary": "在 […]\n悬挂式头垫根据不同用户人群呈现不同的弯曲状态，实现个性化的最舒适佩戴效果。",
     "launch_date": null,
     "best_report_id": "93001",
     "best_video_id": null
