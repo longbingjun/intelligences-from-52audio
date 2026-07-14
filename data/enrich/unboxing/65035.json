@@ -1,0 +1,798 @@
+{
+  "report_id": "65035",
+  "canonical_id": "unknown--tozo-t12",
+  "source": "audio52",
+  "extracted_at": "2026-07-14T06:24:07+00:00",
+  "intro_selling_points": [],
+  "packaging": {
+    "module": "packaging",
+    "description": "TOZO是一个3C数码配件品牌，主营真无线耳机、移动电源、充电器、手机保护壳膜等，在海外市场有着不错的销量。目前TOZO官网上架有五款真无线耳机，价格从22.99$到65.99$不等，并且其官网还单独售卖硅胶耳塞、简易的TWS耳机充电底座、单独的充电仓等物品，考虑的比较全面。",
+    "images": [],
+    "notes": [
+      "TOZO是一个3C数码配件品牌，主营真无线耳机、移动电源、充电器、手机保护壳膜等，在海外市场有着不错的销量。目前TOZO官网上架有五款真无线耳机，价格从22.99$到65.99$不等，并且其官网还单独售卖硅胶耳塞、简易的TWS耳机充电底座、单独的充电仓等物品，考虑的比较全面。",
+      "盒盖中间位置有银色的“TOZO”品牌名。",
+      "电量显示区域展示。",
+      "PCBA一侧电路展示。",
+      "PCBA另一侧电路展示。",
+      "酷珀微CP2022详细资料。",
+      "主板电路另一侧展示。",
+      "连接器接口特写。",
+      "钰泰半导体的ETA9697超低功耗双通道PMU，采用ESOP8封装：集成了16V耐压的线性充电器和5V同步升压变换器。5V升压常开，功耗低至1.7uA，可支持0.4A最大升压输出，且可以通过控制ENBST引脚，来开关5V输出。",
+      "据我爱音频网拆解了解到，目前已有包括漫步者、万魔、小米、紫米、realme、百度、摩托罗拉、JVC、杰士、松下、JBL等知名品牌的音频产品大量采用了钰泰半导体的电源管理芯片。",
+      "用于给电池充放电的2R2电感。",
+      "编号CYJ0720，供应商为深圳市鸥柏科技有限公司。",
+      "外壳内侧展示，有导电布用于感应触摸操作，外壳通过三根塑料柱固定。",
+      "主板外侧有一张绝缘纸，隔开主板电路和金属化棉，起绝缘保护作用。",
+      "音腔内部结构展示。",
+      "取出扬声器单元，内侧是振膜和线圈，外面有一个金属保护罩。",
+      "扬声器单元另一侧展示。",
+      "扬声器单元的尺寸约为9.9mm。",
+      "支架内侧也有绝缘纸，以及保护电池的缓震泡棉。",
+      "小板另一侧展示。",
+      "原相 PAU1603FB-S1支持SBC / mSBC、AAC，内置10频段均衡器；支持双麦克风降噪；内置锂离子电池充电器，充电电流达400mA。其专利GeendRadio™立体声（GRS）技术，具有快速切换、低延迟、低辐射、低功耗、抗干扰的特点。",
+      "据我爱音频网拆解了解到，目前已有包括QCY、iWALK、雷蛇、漫步者、JOWAY乔威等品牌的多款产品大量采用了原相方案。",
+      "主控芯片的外置降压电感。",
+      "贴片陶瓷蓝牙天线特写，用于传输信号。",
+      "一颗无标IC。",
+      "丝印233A0B的触摸IC，用于检测触摸操作。",
+      "接触导电布的铜柱。",
+      "镭雕9A64 GA06的MEMS硅麦，用于通话拾音。",
+      "为蓝牙芯片提供时钟的晶振特写。",
+      "拆解全家福。",
+      "我爱音频网总结"
+    ],
+    "accessories": [
+      "漫步者",
+      "万魔",
+      "小米",
+      "紫米",
+      "realme",
+      "百度",
+      "摩托罗拉",
+      "JVC",
+      "杰士",
+      "松下",
+      "JBL",
+      "QCY",
+      "iWALK",
+      "雷蛇",
+      "JOWAY乔威"
+    ],
+    "bom_side": "",
+    "appearance_images": [],
+    "teardown_image_count": 0
+  },
+  "charging_case": {
+    "module": "charging_case",
+    "description": "",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/22.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒为长条形，表面比较光滑，盒身边缘处有过渡，体积大小适中。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/04.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "机身正面开盖处有一道凹槽，便于打开盒盖，下面是一颗充电盒状态指示灯。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/23.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "USB Type-C充电接口位于机身背部。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/56.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒底部信息，型号T12，防水等级IPX8，中国制造；无线充电盒，电池500mAh/3.7V，1.85Wh。无线输入5V⎓0.4A，Type-C接口输入5V⎓0.5A，输出5V⎓0.2A。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/10.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "我爱音频网采用ChargerLAB POWER-Z KT002便携式电源测试仪对TOZO T12 真无线蓝牙耳机进行无线充电测试，输入功率约为1.9W，实际充电功率没有这么高。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/20.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "打开充电盒，左右耳机对称放置，内部空间充足。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/13.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电座舱内给耳机充电的三根Pogo Pin。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/14.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电座舱壳体磨砂质感，设计有隐藏式的电量显示功能，既有充电盒的数字电量，也有左右耳机的条形电量显示。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/25.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机和充电盒共重66.3克。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/46.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "经过了前面的开箱，我们已经对TOZO T12 真无线蓝牙耳机的外观设计有了全面了解，并且知道了充电盒支持无线充电功能，下面就通过拆解来看看其有线充电电源管理系统和无线充电电源管理系统分别采用了什么芯片。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/47.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "撬开充电座舱，壳体通过多处物理卡扣固定。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/48.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "软包电池粘贴在主板上，主板通过螺丝固定在充电座舱内侧。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/57.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电接口所在的PCBA和无线充电接收线圈被一个塑料支架固定在充电盒底部，通过多根导线与主板相连。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/109.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "取出充电盒底部的塑料支架，这个支架同时起到了固定软包电池的作用。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/51.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒壳体展示，比较厚实。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/53.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电座舱壳体展示，有两颗圆形磁铁吸附盒盖，有两颗条形磁铁吸附固定耳机。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/58.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电座舱的壳体为半透明状态，便于透光显示电量。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/72.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒内部电路展示。电池和电源输入的导线均通过连接器与主板相连。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/73.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "电源输入电路展示，有无线充电接收线圈和USB Type-C接口。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/78.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "USB Type-C接口特写，外壳上有金属架焊接固定。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/77.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "无线充电接收线圈特写。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "http://note.youdao.com/yws/public/resource/afc58c73ab9c7a1d751f140e79326d6d/xmlnote/4D08197C0F344AE0B130897B3A6D8305/198176",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "据我爱音频网拆解了解到，酷珀微的无线充电接收方案目前已被OPPO、漫步者、Baseus倍思、Sabbat魔宴、realme、omthing、iWALK等品牌的TWS耳机大量采用。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/60.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒主板电路展示。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/61-1024x683.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒采用软包电池，型号为M902030，额定电压3.7V，额定容量500mAh/1.85Wh。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/63.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "丝印001 Q2016的MCU，负责电量显示、指示灯控制等充电盒功能。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/64.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒数显模块特写。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/34.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "隐藏的耳机指示灯。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/83.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒内部元器件固定在一个塑料中框上。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/93.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒主板电路展示。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/101.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "两颗LED指示灯。",
+        "module": "charging_case",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "今天我爱音频网要拆解的是TOZO T12 真无线蓝牙耳机，它的充电盒带有LED电量显示屏，支持无线充电；耳机内置蓝牙5.0芯片，支持触控，防水级别为IPX8，单次续航约为5小时，充电盒提供额外18小时续航。下面一起来看详细的拆解报告。",
+      "充电盒为长条形，表面比较光滑，盒身边缘处有过渡，体积大小适中。",
+      "机身正面开盖处有一道凹槽，便于打开盒盖，下面是一颗充电盒状态指示灯。",
+      "USB Type-C充电接口位于机身背部。",
+      "充电盒底部信息，型号T12，防水等级IPX8，中国制造；无线充电盒，电池500mAh/3.7V，1.85Wh。无线输入5V⎓0.4A，Type-C接口输入5V⎓0.5A，输出5V⎓0.2A。",
+      "我爱音频网采用ChargerLAB POWER-Z KT002便携式电源测试仪对TOZO T12 真无线蓝牙耳机进行无线充电测试，输入功率约为1.9W，实际充电功率没有这么高。",
+      "打开充电盒，左右耳机对称放置，内部空间充足。",
+      "充电座舱内给耳机充电的三根Pogo Pin。",
+      "充电座舱壳体磨砂质感，设计有隐藏式的电量显示功能，既有充电盒的数字电量，也有左右耳机的条形电量显示。",
+      "耳机和充电盒共重66.3克。",
+      "二、TOZO T12 充电盒拆解",
+      "经过了前面的开箱，我们已经对TOZO T12 真无线蓝牙耳机的外观设计有了全面了解，并且知道了充电盒支持无线充电功能，下面就通过拆解来看看其有线充电电源管理系统和无线充电电源管理系统分别采用了什么芯片。",
+      "撬开充电座舱，壳体通过多处物理卡扣固定。",
+      "软包电池粘贴在主板上，主板通过螺丝固定在充电座舱内侧。",
+      "充电接口所在的PCBA和无线充电接收线圈被一个塑料支架固定在充电盒底部，通过多根导线与主板相连。",
+      "取出充电盒底部的塑料支架，这个支架同时起到了固定软包电池的作用。",
+      "充电盒壳体展示，比较厚实。",
+      "充电座舱壳体展示，有两颗圆形磁铁吸附盒盖，有两颗条形磁铁吸附固定耳机。",
+      "充电座舱的壳体为半透明状态，便于透光显示电量。",
+      "充电盒内部电路展示。电池和电源输入的导线均通过连接器与主板相连。",
+      "电源输入电路展示，有无线充电接收线圈和USB Type-C接口。",
+      "USB Type-C接口特写，外壳上有金属架焊接固定。",
+      "无线充电接收线圈特写。",
+      "COPO酷珀微CP2022是一款单芯片、先进、灵活、二次侧的无线充电传输芯片，可为便携式应用提供高达3W的功率，具有集成度高、效率高、功耗低等优点，符合Qi V1.2.4标准。芯片外侧是用于无线充电接收的谐振电容和滤波电容。",
+      "据我爱音频网拆解了解到，酷珀微的无线充电接收方案目前已被OPPO、漫步者、Baseus倍思、Sabbat魔宴、realme、omthing、iWALK等品牌的TWS耳机大量采用。",
+      "充电盒主板电路展示。",
+      "钰泰ETA9697内置1.4MHz的开关频率，可以使用小体积的2.2uH电感器，是理想的蓝牙充电仓二合一解决方案。",
+      "充电盒采用软包电池，型号为M902030，额定电压3.7V，额定容量500mAh/1.85Wh。",
+      "丝印001 Q2016的MCU，负责电量显示、指示灯控制等充电盒功能。",
+      "充电盒数显模块特写。",
+      "两颗LED指示灯，外圈用泡棉包裹减少漏光。",
+      "隐藏的耳机指示灯。",
+      "充电盒内部元器件固定在一个塑料中框上。",
+      "两颗LED指示灯。",
+      "TOZO T12 充电盒座舱壳体是半透明的，内有一个鸥柏科技的电量显示屏，使用时可以看到显示数字的充电盒的电量，以及条形显示的左右耳机的电量，强光下不易看清，好处是看起来比较美观；充电盒支持无线充电功能，酷珀微CP2022负责无线充电接收，支持Qi标准，输出功率可达3W；充电接口为USB Type-C，钰泰ETA9697负责输入保护和电池充放电，软包电池容量为500mAh；电路上还有一颗MCU负责电量显示、指示灯控制等充电盒功能。内部导线使用连接器插头，方便生产和组装。"
+    ],
+    "accessories": [],
+    "bom_side": "充电盒",
+    "appearance_images": [],
+    "teardown_image_count": 0,
+    "bom_rows": [
+      {
+        "component": "充电仓",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "充电盒",
+        "role": "major",
+        "evidence": {
+          "value": "充电仓",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "充电盒底部信息，型号T12，防水等级IPX8，中国制造；无线充电盒，电池500mAh/3.7V，1.85Wh。"
+        }
+      },
+      {
+        "component": "指示灯",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "充电盒",
+        "role": "minor",
+        "evidence": {
+          "value": "指示灯",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "充电方式：TOZO T12 充电盒座舱壳体是半透明的，内有一个鸥柏科技的电量显示屏，使用时可以看到显示数字的充电盒的电量，以及条形显示的左右耳机的电量，强光下不易看清，好处是看起来比较美观；充电盒支持无线充电功能，酷珀微CP2022负责无线充电接收，支持Qi标准，输出功率可达3W；充电接口为USB Type-C，钰泰ETA9697负责输入保护和电池充放电，软包电池容量为500mAh；电路上还有一颗MCU负责电量显示、指示灯控制等充电盒功能。"
+        }
+      },
+      {
+        "component": "芯片/模组",
+        "brand": "",
+        "model": "ETA9697",
+        "qty_hint": "1",
+        "side": "充电盒",
+        "role": "主控/蓝牙",
+        "evidence": {
+          "value": "ETA9697",
+          "confidence": 0.78,
+          "source_type": "text",
+          "source_text": "充电方式：TOZO T12 充电盒座舱壳体是半透明的，内有一个鸥柏科技的电量显示屏，使用时可以看到显示数字的充电盒的电量，以及条形显示的左右耳机的电量，强光下不易看清，好处是看起来比较美观；充电盒支持无线充电功能，酷珀微CP2022负责无线充电接收，支持Qi标准，输出功率可达3W；充电接口为USB Type-C，钰泰ETA9697负责输入保护和电池充放电，软包电池容量为500mAh；电路上还有一颗MCU负责电量显示、指示灯控制等充电盒功能。"
+        }
+      }
+    ]
+  },
+  "earbuds": {
+    "module": "earbuds",
+    "description": "",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/01.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "一、TOZO T12 真无线蓝牙耳机 外观展示",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/05.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "盒盖中间位置有银色的“TOZO”品牌名。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/18.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "我爱音频网采用ChargerLAB POWER-Z KT002便携式电源测试仪对ZMI PurPods Pro 真无线降噪耳机进行有线充电测试，输入功率约为1.5W。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/17.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "盒盖内侧是耳机的部分信息，型号TOZO T12，阻抗32Ω，防水等级IPX8，蓝牙版本V5.0，频率范围18Hz-20KHz，电池容量50mAh/3.7V，输入5V⎓0.2A。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/30.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "在暗光下看的更加清楚，还有耳机的L/R左右电量显示。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/24.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "TOZO T12 真无线蓝牙耳机 黑色版本。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/54.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "电量显示区域展示。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/75.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "PCBA一侧电路展示。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/76.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "PCBA另一侧电路展示。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/59.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "酷珀微CP2022详细资料。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/62.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "主板电路另一侧展示。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/65.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "连接器接口特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/66.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "据我爱音频网拆解了解到，目前已有包括漫步者、万魔、小米、紫米、realme、百度、摩托罗拉、JVC、杰士、松下、JBL等知名品牌的音频产品大量采用了钰泰半导体的电源管理芯片。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/69.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "用于给电池充放电的2R2电感。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/67.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "给耳机充电的Pogo Pin，底部有橡胶垫，起一定防尘防水的保护作用。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/68.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "编号CYJ0720，供应商为深圳市鸥柏科技有限公司。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/33.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "三、TOZO T12 耳机拆解",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/43.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "下面我们继续来拆解TOZO T12的耳机部分，耳机为豆式入耳设计，外侧壳体是亮面的，支持触控。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/35.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机内侧，充电触点所在区域略微内凹。上方有TOZO品牌名，下方有L/R左右标识。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/36.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机顶部的泄压孔。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/39.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机底部通话麦克风的拾音孔。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/40.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "出音嘴处细密的防尘网，阻止异物进入。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/44.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "出音嘴附近有编码信息，20200615，可能是生产日期。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/79.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机入耳处的壳体曲线展示，提升佩戴舒适度。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/80.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "沿合模线拆开耳机盖板。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/81.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "外壳内侧展示，有导电布用于感应触摸操作，外壳通过三根塑料柱固定。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/82.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "主板外侧有一张绝缘纸，隔开主板电路和金属化棉，起绝缘保护作用。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/84.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "音腔内部结构展示。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/85.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "取出扬声器单元，内侧是振膜和线圈，外面有一个金属保护罩。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/87.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "扬声器单元另一侧展示。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/88.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "扬声器单元的尺寸约为9.9mm。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/89.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机内部电路展示，塑料支架壳体上有产品型号T12和L/R左右标识，电池和扬声器单元通过导线与主板相连。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/90.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "支架内侧也有绝缘纸，以及保护电池的缓震泡棉。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/91.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "给耳机电池充电的Pogo Pin，底部同样有橡胶垫，起一定防尘防水作用。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/92.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "小板另一侧展示。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/94.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "主板电路另一侧展示。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/99-1024x683.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "据我爱音频网拆解了解到，目前已有包括QCY、iWALK、雷蛇、漫步者、JOWAY乔威等品牌的多款产品大量采用了原相方案。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/100.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "主控芯片的外置降压电感。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/95.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "贴片陶瓷蓝牙天线特写，用于传输信号。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/96.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "一颗无标IC。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/97-1024x683.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "丝印233A0B的触摸IC，用于检测触摸操作。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/98.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "接触导电布的铜柱。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/102.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "镭雕9A64 GA06的MEMS硅麦，用于通话拾音。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/105.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "为蓝牙芯片提供时钟的晶振特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/110.jpg",
+        "alt": "拆解报告：TOZO T12 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机采用软包电池，型号M501015，额定电压3.7V，额定容量50mAh/0.185Wh。",
+        "module": "earbuds",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "一、TOZO T12 真无线蓝牙耳机 外观展示",
+      "我爱音频网采用ChargerLAB POWER-Z KT002便携式电源测试仪对ZMI PurPods Pro 真无线降噪耳机进行有线充电测试，输入功率约为1.5W。",
+      "盒盖内侧是耳机的部分信息，型号TOZO T12，阻抗32Ω，防水等级IPX8，蓝牙版本V5.0，频率范围18Hz-20KHz，电池容量50mAh/3.7V，输入5V⎓0.2A。",
+      "在暗光下看的更加清楚，还有耳机的L/R左右电量显示。",
+      "TOZO T12 真无线蓝牙耳机 黑色版本。",
+      "单只耳机的重量约为6.3克。",
+      "给耳机充电的Pogo Pin，底部有橡胶垫，起一定防尘防水的保护作用。",
+      "三、TOZO T12 耳机拆解",
+      "下面我们继续来拆解TOZO T12的耳机部分，耳机为豆式入耳设计，外侧壳体是亮面的，支持触控。",
+      "耳机内侧，充电触点所在区域略微内凹。上方有TOZO品牌名，下方有L/R左右标识。",
+      "耳机顶部的泄压孔。",
+      "耳机底部通话麦克风的拾音孔。",
+      "出音嘴处细密的防尘网，阻止异物进入。",
+      "出音嘴附近有编码信息，20200615，可能是生产日期。",
+      "耳机入耳处的壳体曲线展示，提升佩戴舒适度。",
+      "沿合模线拆开耳机盖板。",
+      "耳机内部电路展示，塑料支架壳体上有产品型号T12和L/R左右标识，电池和扬声器单元通过导线与主板相连。",
+      "给耳机电池充电的Pogo Pin，底部同样有橡胶垫，起一定防尘防水作用。",
+      "TOZO T12 真无线蓝牙耳机采用了PixArt原相 PAU1603FB-S1蓝牙音频SoC，支持蓝牙5.0 EDR / BLE双模，采用QFN-40 5x5mm封装，适用于TWS耳机。",
+      "耳机采用软包电池，型号M501015，额定电压3.7V，额定容量50mAh/0.185Wh。",
+      "TOZO T12 真无线蓝牙耳机以黑色调为主，运用亮面和哑光的对比增加设计感，整体风格比较简约，面向海外市场的TWS耳机大都如此。",
+      "耳机部分，TOZO T12的蓝牙主控芯片是原相PAU1603，支持蓝牙5.0 EDR / BLE双模，支持AAC/SBC编码，内置锂离子电池充电器，有专利GeendRadio™立体声（GRS）连接技术，TWS游戏耳机类产品使用较多；耳机通过贴片陶瓷蓝牙天线传输信号，软包电池容量50mAh，一颗硅麦用于通话拾音，动圈扬声器尺寸约为10mm；耳机支持触控，由导电布和触控IC实现。"
+    ],
+    "accessories": [],
+    "bom_side": "耳机",
+    "appearance_images": [],
+    "teardown_image_count": 0,
+    "bom_rows": [
+      {
+        "component": "电池",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "major",
+        "evidence": {
+          "value": "电池",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "给耳机电池充电的Pogo Pin，底部同样有橡胶垫，起一定防尘防水作用。"
+        }
+      },
+      {
+        "component": "麦克风",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "major",
+        "evidence": {
+          "value": "麦克风",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "耳机底部通话麦克风的拾音孔。"
+        }
+      },
+      {
+        "component": "充电触点",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "minor",
+        "evidence": {
+          "value": "充电触点",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "给耳机充电的Pogo Pin，底部有橡胶垫，起一定防尘防水的保护作用。"
+        }
+      },
+      {
+        "component": "触控/按键",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "minor",
+        "evidence": {
+          "value": "触控/按键",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "充电方式：今天我爱音频网要拆解的是TOZO T12 真无线蓝牙耳机，它的充电盒带有LED电量显示屏，支持无线充电；耳机内置蓝牙5.0芯片，支持触控，防水级别为IPX8，单次续航约为5小时，充电盒提供额外18小时续航。"
+        }
+      }
+    ]
+  },
+  "gaps": [
+    "包装区：正文未匹配到包装图片（可能文章结构特殊）",
+    "导语卖点：开箱前无足够长的功能介绍段落"
+  ],
+  "product": {
+    "canonical_id": "unknown--tozo-t12",
+    "brand": "",
+    "model": "TOZO T12",
+    "category": "真无线耳机TWS",
+    "earbud_type": "入耳",
+    "report_url": "https://www.52audio.com/archives/65035.html",
+    "price_cny": null
+  },
+  "selling_points_by_tag": {
+    "游戏低延迟": [
+      "其专利GeendRadio立体声（GRS）技术，具有快速切换、低延迟、低辐射、低功耗、抗干扰的特点。",
+      "目 […]\n其专利GeendRadio\n立体声（GRS）技术，具有快速切换、低延迟、低辐射、低功耗、抗干扰的特点。"
+    ],
+    "防水防尘": [
+      "标记/认证：充电盒底部信息，型号T12，防水等级IPX8，中国制造；无线充电盒，电池500mAh/3.7V，1.85Wh。",
+      "给耳机充电的Pogo Pin，底部有橡胶垫，起一定防尘防水的保护作用。",
+      "给耳机电池充电的Pogo Pin，底部同样有橡胶垫，起一定防尘防水作用。",
+      "标记/认证：盒盖内侧是耳机的部分信息，型号TOZO T12，阻抗32Ω，防水等级IPX8，蓝牙版本V5.0，频率范围18Hz-20KHz，电池容量50mAh/3.7V，输入5V⎓0.2A。"
+    ]
+  }
+}

@@ -169,7 +169,12 @@ class Audio52SourceV2(BaseSource):
         )
         resp.raise_for_status()
         soup = BeautifulSoup(resp.text, "lxml")
-        node = soup.select_one(".entry-content") or soup.select_one("article .post-content") or soup.select_one("article")
+        node = (
+            soup.select_one(".entry-content")
+            or soup.select_one("article .post-content")
+            or soup.select_one(".post-content")
+            or soup.select_one("article")
+        )
         if not node:
             return ""
         return str(node)

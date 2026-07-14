@@ -1,0 +1,111 @@
+{
+  "report_id": "74801",
+  "canonical_id": "unknown--1morecomfobuds-pro",
+  "source": "audio52",
+  "extracted_at": "2026-07-14T06:25:46+00:00",
+  "intro_selling_points": [],
+  "packaging": {
+    "module": "packaging",
+    "description": "",
+    "images": [],
+    "notes": [],
+    "accessories": [],
+    "bom_side": "",
+    "appearance_images": [],
+    "teardown_image_count": 0
+  },
+  "charging_case": {
+    "module": "charging_case",
+    "description": "",
+    "images": [],
+    "notes": [],
+    "accessories": [],
+    "bom_side": "充电盒",
+    "appearance_images": [],
+    "teardown_image_count": 0,
+    "bom_rows": [
+      {
+        "component": "充电仓",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "充电盒",
+        "role": "major",
+        "evidence": {
+          "value": "充电仓",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "二、万魔舒适豆降噪版 充电盒拆解\n经过前面的开箱，我们已经对万魔ComfoBuds Pro 舒适豆降噪版的外观有了充分了解，在保留舒适豆外观设计的基础上，产品尺寸变大了一些。"
+        }
+      },
+      {
+        "component": "芯片/模组",
+        "brand": "",
+        "model": "ETA9084",
+        "qty_hint": "1",
+        "side": "充电盒",
+        "role": "主控/蓝牙",
+        "evidence": {
+          "value": "ETA9084",
+          "confidence": 0.78,
+          "source_type": "text",
+          "source_text": "充电接口：内部电路方面，充电盒通过USB Type-C接口输入电源，微源LP5305过压过流保护芯片，防止输入过压损坏耳机充电盒内部元件的同时还能防止电池过充；钰泰ETA9084负责电池的充放电，带EN使能控制，可以配合单片机做更多功能；负责充电盒控制功能的MCU来自芯海科技；充电盒采用的软包电池来自重庆紫建，容量450mAh。"
+        }
+      }
+    ]
+  },
+  "earbuds": {
+    "module": "earbuds",
+    "description": "",
+    "images": [],
+    "notes": [],
+    "accessories": [],
+    "bom_side": "耳机",
+    "appearance_images": [],
+    "teardown_image_count": 0,
+    "bom_rows": [
+      {
+        "component": "芯片/模组",
+        "brand": "",
+        "model": "CSU38M20",
+        "qty_hint": "1",
+        "side": "耳机",
+        "role": "主控/蓝牙",
+        "evidence": {
+          "value": "CSU38M20",
+          "confidence": 0.78,
+          "source_type": "text",
+          "source_text": "标记/认证：CHIPSEA芯海科技CSU38M20是一个带12bit ADC 的 8 位 RISC MCU，内置 8K×16 位 MTP 程序存储器，用于实现充放电模块管理、电池电量管理、耳机通讯、在线升级及产测等充电盒控制功能。"
+        }
+      }
+    ]
+  },
+  "gaps": [
+    "包装区：正文未匹配到包装图片（可能文章结构特殊）",
+    "充电盒：无配图（可能仅有文字描述）",
+    "耳机：无配图",
+    "包装配件清单：未能从「包括…等」句式解析出零件列表",
+    "导语卖点：开箱前无足够长的功能介绍段落"
+  ],
+  "product": {
+    "canonical_id": "unknown--1morecomfobuds-pro",
+    "brand": "",
+    "model": "1MORE万魔ComfoBuds Pro真无线主动降噪",
+    "category": "真无线耳机TWS",
+    "earbud_type": "入耳",
+    "report_url": "https://www.52audio.com/archives/74801.html",
+    "price_cny": null
+  },
+  "selling_points_by_tag": {
+    "降噪": [
+      "1MORE万魔在去 […]\n左下角小字是几个产品特色功能，包括：全场景主动降噪（强档降噪/均衡降噪/抗风噪）；三麦智能通话降噪；13.4mm超动态单元；快充15分钟使用2小时。",
+      "此前我爱音频网曾经拆解过\n万魔ComfoBuds真无线蓝牙耳机\n、\n万魔ColorBuds真无线蓝牙耳机\n、\n万魔圈铁主动降噪真无线耳机\n、\n万魔Stylish时尚真无线耳机\n、\n万魔三单元圈铁蓝牙耳机\n、\n万魔高清降噪圈铁蓝牙耳机\n。",
+      "由于主动降噪功能的加入和内部结构的升级，耳机体积变大，但在目前的TWS耳机市场中依旧属于相对小巧便携的一款产品。",
+      "耳机部分，ComfoBuds Pro“舒适豆降噪版”采用一体成型机身，盖板位于耳机柄顶部，壳体弧度较大，不易积攒水汽，内部也使用大量胶水密封，从而提升了耳机的防水能力。",
+      "二、万魔舒适豆降噪版 充电盒拆解\n经过前面的开箱，我们已经对万魔ComfoBuds Pro 舒适豆降噪版的外观有了充分了解，在保留舒适豆外观设计的基础上，产品尺寸变大了一些。"
+    ],
+    "其他": [
+      "标记/认证：CHIPSEA芯海科技CSU38M20是一个带12bit ADC 的 8 位 RISC MCU，内置 8K×16 位 MTP 程序存储器，用于实现充放电模块管理、电池电量管理、耳机通讯、在线升级及产测等充电盒控制功能。"
+    ]
+  }
+}

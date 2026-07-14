@@ -1,0 +1,574 @@
+{
+  "report_id": "98458",
+  "canonical_id": "unknown--lenovoht38",
+  "source": "audio52",
+  "extracted_at": "2026-07-14T06:29:55+00:00",
+  "intro_selling_points": [
+    {
+      "text": "功能配置上，联想HT38搭载了13mm的动圈单元，支持蓝牙5.0，双通道传输，单双耳模式均可使用；支持开盖即连，自动配对；采用触控操作，支持轻触1下、轻触2下、轻触3下和长触多种模式，提升使用便捷性。",
+      "tag": "其他",
+      "evidence": {
+        "value": "功能配置上，联想HT38搭载了13mm的动圈单元，支持蓝牙5.0，双通道传输，单双耳模式均可使用；支持开盖即连，自动配对；采用触控操作，支持轻触1下、轻触2下、轻触3下和长触多种模式，提升使用便捷性。",
+        "confidence": 0.72,
+        "source_type": "intro",
+        "source_text": "功能配置上，联想HT38搭载了13mm的动圈单元，支持蓝牙5.0，双通道传输，单双耳模式均可使用；支持开盖即连，自动配对；采用触控操作，支持轻触1下、轻触2下、轻触3下和长触多种模式，提升使用便捷性。"
+      }
+    }
+  ],
+  "packaging": {
+    "module": "packaging",
+    "description": "功能配置上，联想HT38搭载了13mm的动圈单元，支持蓝牙5.0，双通道传输，单双耳模式均可使用；支持开盖即连，自动配对；采用触控操作，支持轻触1下、轻触2下、轻触3下和长触多种模式，提升使用便捷性。",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/JREfs9nmwR0mbEHs.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "包装盒背面介绍有产品的部分参数信息，蓝牙版本：V5.0，耳机电池容量：30mAh，充电盒电池容量：250mAh，播放时间：3小时，扬声器尺寸：13mm等。以及联想商标介绍和产品出厂条形码标签等。",
+        "module": "packaging",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/geVRcjBGON2YAQUE.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "包装盒内物品有耳机、充电线和产品说明书。",
+        "module": "packaging",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "功能配置上，联想HT38搭载了13mm的动圈单元，支持蓝牙5.0，双通道传输，单双耳模式均可使用；支持开盖即连，自动配对；采用触控操作，支持轻触1下、轻触2下、轻触3下和长触多种模式，提升使用便捷性。",
+      "包装盒背面介绍有产品的部分参数信息，蓝牙版本：V5.0，耳机电池容量：30mAh，充电盒电池容量：250mAh，播放时间：3小时，扬声器尺寸：13mm等。以及联想商标介绍和产品出厂条形码标签等。",
+      "包装盒内物品有耳机、充电线和产品说明书。",
+      "电池配备有电路保护板，保护板上设置有锂电保护IC和MOS管。",
+      "FPC排线通过ZIF连接器连接到主板。",
+      "主板正面电路一览。",
+      "主板背面电路一览。",
+      "丝印W9的5.6V稳压管。",
+      "两颗丝印1AM的三极管和一颗丝印A19T的MOS管。",
+      "电量显示功能按键特写。",
+      "前腔内部扬声器单元特写。",
+      "后腔内部设置软包电池。",
+      "取出扬声器。",
+      "扬声器正面特写。",
+      "扬声器与一元硬币大小对比。",
+      "经我爱音频网实测，扬声器尺寸约为13mm。",
+      "前腔内部结构一览，调音孔内部还贴有调音棉。",
+      "取出电池，后腔内部结构一览。扬声器和电池分别通过导线连接到主板。",
+      "主板另外一侧电路一览。",
+      "触摸按键金属触点特写。",
+      "驻极体麦克风特写，焊接在主板上，用于语音通话拾音。",
+      "丝印601A7的触摸检测芯片，用于触摸操作。",
+      "AB中科蓝讯E1500T的蓝牙音频SoC。",
+      "为蓝牙芯片提供时钟的晶振特写。",
+      "陶瓷蓝牙天线特写，用于无线信号传输。"
+    ],
+    "accessories": [],
+    "bom_side": "",
+    "appearance_images": [],
+    "teardown_image_count": 0
+  },
+  "charging_case": {
+    "module": "charging_case",
+    "description": "",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/kCXNqqJplt60lHVP.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "USB-A to Type-C充电线。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/TLrv34S9LJk34so0.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "充电盒背面设置有一颗功能按键，用于显示电量信息。丝印信息有联想真无线耳机，型号：HT38，输入：5V-1000mA。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/tWxPURZXNvDdYuvj.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "Type-C充电接口位于充电盒底部。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/qt8qsDG7KLeLDw2o.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "打开充电盒盖，耳机放置状态展示。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/965gKkMO0Fe4Kw7l.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "进入拆解部分，撬开卡扣式固定的充电盒，取出耳机座舱。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/RoWwrlBICDsjE6RN.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "座舱一侧结构一览，中间固定有电池单元。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/RIpyPXuTgCgc8Na8.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "座舱另外一侧设置有一条FPC排线。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/HdKybDVzEq0ftQu6.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "座舱侧边结构一览。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/ByNR8TF6VwJLnbVm.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "座舱底部通过螺丝固定主板。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/ePDyNCu7nR7VqGHj.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "卸掉螺丝，取掉充电盒内主要组件。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/7dLtbeqjzF0sB55f.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "座舱底部设置有4颗磁铁用于吸附充电盒盖和耳机。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/SpkADC88u6hNm6Q9.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "充电盒内主要电路正面一览。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/AITRRHdkq3NKixZR.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "充电盒内主要电路背面一览。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/Xap38axEdJxYwo7o.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "充电盒内部采用了软包电池，型号：GX701230，额定电压：3.7V，额定容量：250mAh。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/A43FwlLqlLlykFLd.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "排线上两颗不同颜色的LED指示灯特写，有黑色海绵罩屏蔽，防止漏光。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/tw6izogBYzjrQ4SV.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "充电盒为耳机充电的金属弹片结构特写。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/SVPKBDEyud9x9m5F.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "Type-C充电接口母座特写。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/Lve7wghShq7X3ltG.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "后腔壁上用于吸附充电盒的磁铁特写。",
+        "module": "charging_case",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "USB-A to Type-C充电线。",
+      "联想HT38真无线耳机充电盒采用了非常小巧的圆形设计，机身触感光滑圆润，正面开盖处设置有倒角，便于开启。还设计有Lenovo品牌LOGO和一颗指示灯。",
+      "充电盒背面设置有一颗功能按键，用于显示电量信息。丝印信息有联想真无线耳机，型号：HT38，输入：5V-1000mA。",
+      "Type-C充电接口位于充电盒底部。",
+      "打开充电盒盖，耳机放置状态展示。",
+      "进入拆解部分，撬开卡扣式固定的充电盒，取出耳机座舱。",
+      "座舱一侧结构一览，中间固定有电池单元。",
+      "座舱另外一侧设置有一条FPC排线。",
+      "座舱侧边结构一览。",
+      "座舱底部通过螺丝固定主板。",
+      "卸掉螺丝，取掉充电盒内主要组件。",
+      "座舱底部设置有4颗磁铁用于吸附充电盒盖和耳机。",
+      "充电盒内主要电路正面一览。",
+      "充电盒内主要电路背面一览。",
+      "充电盒内部采用了软包电池，型号：GX701230，额定电压：3.7V，额定容量：250mAh。",
+      "排线上两颗不同颜色的LED指示灯特写，有黑色海绵罩屏蔽，防止漏光。",
+      "充电盒为耳机充电的金属弹片结构特写。",
+      "Type-C充电接口母座特写。",
+      "后腔壁上用于吸附充电盒的磁铁特写。",
+      "内部结构设计方面相对比较简单，充电盒采用了Type-C充电接口输入电源，内置电池容量250mAh，有一颗丝印GR02A的电源管理SoC为内置电池充电，并且集成了同步升压转换器、电池电量管理和保护功能。"
+    ],
+    "accessories": [],
+    "bom_side": "充电盒",
+    "appearance_images": [],
+    "teardown_image_count": 0,
+    "bom_rows": [
+      {
+        "component": "充电仓",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "充电盒",
+        "role": "major",
+        "evidence": {
+          "value": "充电仓",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "充电接口：Type-C充电接口位于充电盒底部。"
+        }
+      }
+    ]
+  },
+  "earbuds": {
+    "module": "earbuds",
+    "description": "",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/CQJsLQvyg9izgUQ1.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "此前我爱音频网曾经拆解过联想thinkplus Liveods LP40、联想蓝牙耳机QT83、联想真无线蓝牙耳机TC03、联想ThinkPlus TrackPods、联想TWS真无线耳机S1、摩托罗拉 Verve Ones+、摩托罗拉 Verve Buds 200、摩托罗拉 Verve Buds 500、摩托罗拉Verve Buds 800等真无线耳机，下面再来看看这款产品的拆解报告吧~",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/IdezENX8dCgS9bS8.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "联想HT38真无线耳机整体外观一览，耳机采用了柄状的半入耳式设计，外观与AirPods较为相似。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/qq4ieRSWGO5alQEo.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "耳机柄底部设置了为耳机充电的金属尾塞。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/C8SlTvoL7kb8u2eG.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "耳机柄底部设置了为耳机充电的金属尾塞。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/NFgRx6ZL6j17lezt.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "耳机内侧外观一览，耳机柄上设计有L/R左右标识。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/YbMciNqz3YfFqkEg.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "耳机柄内侧设计有平面，为触摸控制区域。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/P9woFSxFaXMZVSCX.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "耳机调音孔特写，保持音腔内空气流通。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/b3Y1YH7LyXcMLyjQ.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "耳机出音嘴特写，通过防尘网防护，防止异物进入音腔。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/KTXnn5FzKoXqmNJY.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "经我爱音频网实测，联想HT38真无线耳机整体重量约为28.0g，非常的轻盈便携。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/PPkkOkaIAexk7pJt.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "单只耳机重量仅为3.1g，拥有舒适的佩戴体验。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/Vdascu9ZEVmsocA4.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "我爱音频网采用ChargerLAB POWER-Z KT001便携式电源测试仪对联想HT38真无线耳机进行有线充电测试，充电功率约为2.38W。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/I9HSave5GMbOK9Qk.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "电池配备有电路保护板，保护板上设置有锂电保护IC和MOS管。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/JcBdbo8PRsAptCQw.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "FPC排线通过ZIF连接器连接到主板。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/V8ckIXFGfxu1ehrv.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "主板正面电路一览。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/qoN1NZwY1cVrEANo.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "主板背面电路一览。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/0FsApmy8paEtch3H.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "丝印GR02A的电源管理SoC，集成锂电池充电管理、同步升压转换器、电池电量管理和保护功能，用于为内置电池充电和放电为耳机充电。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/ppCPWD0DlUmsCsMl.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "1R5的升压电感特写，配合电源管理SoC升压为耳机充电。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/UGS2XqUTiBLZZPYH.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "丝印W9的5.6V稳压管。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/z6ALG1drY4RsOZ0U.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "两颗丝印1AM的三极管和一颗丝印A19T的MOS管。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/CcidpXNgwABhvn1g.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "电量显示功能按键特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/vosUQS9dd9K8nb8u.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "进入耳机拆解部分，沿合模线撬开腔体。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/RaG88AiTXb5D9bdF.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "前腔内部扬声器单元特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/tXGlQN3VwHbmAuKt.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "后腔内部设置软包电池。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/HW61XbvLytHRQxlW.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "取出扬声器。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/9bdEqauZ0iyy5fmi.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "扬声器正面特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/gkxtbagVFdq6bAZS.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "扬声器与一元硬币大小对比。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/vqbqaTj5QMlcxzkx.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "经我爱音频网实测，扬声器尺寸约为13mm。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/kTE1RG53fu82xrSg.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "前腔内部结构一览，调音孔内部还贴有调音棉。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/zEL0kQbQOMj1FCgm.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "取出电池，后腔内部结构一览。扬声器和电池分别通过导线连接到主板。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/lEWlSx9jEavygUxd.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "耳机内部软包电池型号GX450909，额定电压：3.7V，额定容量：30mAh。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/wG9TOoceOyfZzm01.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "耳机主板一侧电路一览。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/tR69tXCJCXvvPBJ4.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "主板另外一侧电路一览。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/zeSiJyx9TZWI34Z5.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "为耳机充电的金属尾塞焊接在主板末端。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/Ff6nLrCWg25BEM6v.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "触摸按键金属触点特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/EgnriBHy5MZ2ID2S.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "驻极体麦克风特写，焊接在主板上，用于语音通话拾音。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/6T4PctTi6BpfHh4L.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "丝印601A7的触摸检测芯片，用于触摸操作。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/RNWyxoKTNPzSh3LX.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "AB中科蓝讯E1500T的蓝牙音频SoC。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/g0hc9H67vtV9uutW.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "为蓝牙芯片提供时钟的晶振特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/12/gWr39pjZKxdnELDs.jpgthumbnail.jpg",
+        "alt": "拆解报告：Lenovo联想HT38真无线耳机-我爱音频网",
+        "caption": "陶瓷蓝牙天线特写，用于无线信号传输。",
+        "module": "earbuds",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "联想在TWS耳机市场推出过众多产品，凭借着优惠的价格和高性价比体验，获得了不错的销量。此次我爱音频网将要拆解的是一款外观设计非常小巧的产品——联想HT38真无线耳机，其采用了半入耳式设计，拥有众多款的可爱充电盒可供选择。",
+      "此前我爱音频网曾经拆解过联想thinkplus Liveods LP40、联想蓝牙耳机QT83、联想真无线蓝牙耳机TC03、联想ThinkPlus TrackPods、联想TWS真无线耳机S1、摩托罗拉 Verve Ones+、摩托罗拉 Verve Buds 200、摩托罗拉 Verve Buds 500、摩托罗拉Verve Buds 800等真无线耳机，下面再来看看这款产品的拆解报告吧~",
+      "Lenovo HT38真无线耳机包装盒采用了白色背景，浅蓝色配色，正面展示有产品外观渲染图，以及舒适轻便、半入耳式设计佩戴舒适、触摸控制使用便捷的产品特点。右下角是Lenovo品牌LOGO。",
+      "联想HT38真无线耳机整体外观一览，耳机采用了柄状的半入耳式设计，外观与AirPods较为相似。",
+      "耳机柄背部设置有一个装饰性的声学网罩。",
+      "耳机柄底部设置了为耳机充电的金属尾塞。",
+      "耳机内侧外观一览，耳机柄上设计有L/R左右标识。",
+      "耳机柄内侧设计有平面，为触摸控制区域。",
+      "耳机调音孔特写，保持音腔内空气流通。",
+      "耳机出音嘴特写，通过防尘网防护，防止异物进入音腔。",
+      "经我爱音频网实测，联想HT38真无线耳机整体重量约为28.0g，非常的轻盈便携。",
+      "单只耳机重量仅为3.1g，拥有舒适的佩戴体验。",
+      "我爱音频网采用ChargerLAB POWER-Z KT001便携式电源测试仪对联想HT38真无线耳机进行有线充电测试，充电功率约为2.38W。",
+      "丝印GR02A的电源管理SoC，集成锂电池充电管理、同步升压转换器、电池电量管理和保护功能，用于为内置电池充电和放电为耳机充电。",
+      "1R5的升压电感特写，配合电源管理SoC升压为耳机充电。",
+      "进入耳机拆解部分，沿合模线撬开腔体。",
+      "耳机内部软包电池型号GX450909，额定电压：3.7V，额定容量：30mAh。",
+      "耳机主板一侧电路一览。",
+      "为耳机充电的金属尾塞焊接在主板末端。",
+      "Lenovo联想HT38真无线耳机拆解全家福。",
+      "Lenovo联想HT38真无线耳机在外观设计上，充电盒采用了“圆饼”状的小巧设计，机身质感光滑圆润，耳机体积同样非常的小巧，且充电盒+耳机整机重量仅为28g，拥有很高的便携性和舒适的佩戴体验。",
+      "耳机内部采用了13mm动圈单元，30mAh软包电池，分别通过导线连接到主板。主板上采用了一颗驻极体麦克风用于语音通话拾音，主控芯片为中科蓝讯E1500T的蓝牙音频SoC。"
+    ],
+    "accessories": [],
+    "bom_side": "耳机",
+    "appearance_images": [],
+    "teardown_image_count": 0,
+    "bom_rows": []
+  },
+  "gaps": [
+    "包装配件清单：未能从「包括…等」句式解析出零件列表"
+  ],
+  "product": {
+    "canonical_id": "unknown--lenovoht38",
+    "brand": "",
+    "model": "Lenovo联想HT38",
+    "category": "真无线耳机TWS",
+    "earbud_type": "入耳",
+    "report_url": "https://www.52audio.com/archives/98458.html",
+    "price_cny": null
+  },
+  "selling_points_by_tag": {
+    "其他": [
+      "功能配置上，联想HT38搭载了13mm的动圈单元，支持蓝牙5.0，双通道传输，单双耳模式均可使用；支持开盖即连，自动配对；采用触控操作，支持轻触1下、轻触2下、轻触3下和长触多种模式，提升使用便捷性。",
+      "标记/认证：充电盒内部采用了软包电池，型号：GX701230，额定电压：3.7V，额定容量：250mAh。",
+      "标记/认证：耳机内部软包电池型号GX450909，额定电压：3.7V，额定容量：30mAh。",
+      "充电接口：Type-C\n充电接口：USB-A\n标记/认证：丝印信息有联想真无线耳机，型号：HT38，输入：5V-1000mA。"
+    ],
+    "防水防尘": [
+      "此次我爱音频网将要拆解的 […]\n耳机出音嘴特写，通过防尘网防护，防止异物进入音腔。"
+    ]
+  }
+}

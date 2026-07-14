@@ -1,0 +1,721 @@
+{
+  "report_id": "54731",
+  "canonical_id": "baseus--encok-w09",
+  "source": "audio52",
+  "extracted_at": "2026-07-14T06:16:02+00:00",
+  "intro_selling_points": [],
+  "packaging": {
+    "module": "packaging",
+    "description": "包装盒主体依旧是倍思特色的灰黄色调，左上角为Baseus倍思的品牌Logo，下方的ENCOK MUSIC是倍思音频系列产品的名称。中间区域为耳机和充电盒的渲染图；型号W09真无线耳机，底部三个图例分别代表高保真音频、主副耳机切换和双击控制。顶部有一个挂钩便于店铺内的展示。",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-3.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "包装盒为天地盖设计，背面是模特的实际佩戴效果图，下面是耳机部分参数的中英文对照信息，后面会介绍到。",
+        "module": "packaging",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-4.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "包装盒侧面信息，耳机支持蓝牙5.0，采用高保真复合膜声学技术，支持IP54级防尘防水。",
+        "module": "packaging",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-5.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "包装盒另一侧面是产品信息，内含无线蓝牙耳机、充电仓和充电线。",
+        "module": "packaging",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-6.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "包装盒内物品一览，耳机和充电仓、充电线，以及说明书等。",
+        "module": "packaging",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "包装盒主体依旧是倍思特色的灰黄色调，左上角为Baseus倍思的品牌Logo，下方的ENCOK MUSIC是倍思音频系列产品的名称。中间区域为耳机和充电盒的渲染图；型号W09真无线耳机，底部三个图例分别代表高保真音频、主副耳机切换和双击控制。顶部有一个挂钩便于店铺内的展示。",
+      "包装盒为天地盖设计，背面是模特的实际佩戴效果图，下面是耳机部分参数的中英文对照信息，后面会介绍到。",
+      "包装盒侧面信息，耳机支持蓝牙5.0，采用高保真复合膜声学技术，支持IP54级防尘防水。",
+      "包装盒另一侧面是产品信息，内含无线蓝牙耳机、充电仓和充电线。",
+      "包装盒内物品一览，耳机和充电仓、充电线，以及说明书等。",
+      "电池使用胶水固定在内部结构上，非专业人士拆解需要小心。",
+      "软包电池来自深圳市金宇宙能源有限公司，型号JYZ602040，额定电压3.7V，额定容量450mAh/1.665Wh。",
+      "鑫飞宏FHDW01锂电保护IC详细资料。",
+      "鑫飞宏FH8205A N-MOS管详细资料。",
+      "微动按键特写。",
+      "出音孔细密的金属防尘网，阻止异物进入。",
+      "软包电池和扬声器通过导线与主板相连。",
+      "动圈扬声器单元特写。",
+      "扬声器单元尺寸约10mm。",
+      "充电触点所在的小板，通过绝缘漆包线与主板相连。",
+      "主板外侧电路展示。",
+      "连接触摸感应区域的Pogo Pin。",
+      "丝印0332B1的触控感应IC。",
+      "杰理AC6936D脚位定义图。",
+      "主板内侧电路展示。",
+      "镭雕9C10 EH33的MEMS硅麦，用于通话拾音。",
+      "左侧是丝印3A9N的IC，右侧是频率24.000MHz的晶振，为蓝牙芯片提供时钟。"
+    ],
+    "accessories": [],
+    "bom_side": "",
+    "appearance_images": [],
+    "teardown_image_count": 0
+  },
+  "charging_case": {
+    "module": "charging_case",
+    "description": "",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-7.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电线缆为USB-A to USB Type-C接口，端口处有倍思的品牌名。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-8.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒体积较大，开盖处有凹槽便于开启。靠下方位置有倍思品牌名和充电盒指示灯。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-9.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "背面有一个配对按键，充电盒采用合页设计。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-15.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒底部产品信息，型号Baseus Encok W09，耳机电池容量40mAh/0.148Wh，输入5V⎓40mA；充电仓电池容量450mAh/1.66Wh，输入5V⎓250mA，中国制造。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-16.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机竖置在充电盒内。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-11.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电仓内给耳机充电的Pogo Pin。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-13.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机和充电盒共重38.5克。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-14.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒单重31.2克。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-17.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "左右耳机共重7.4克。二、倍思 Encok W09 充电盒拆解",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-18.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "首先来拆解充电盒，看一下内部的电源管理系统。撬开充电座舱即可看到内部结构。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-19.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "软包电池横置在充电盒背部。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-20.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "底部是充电仓的主板，电路很精简。主板通过外壳塑料柱热熔固定。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-22.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "取下电池，充电座舱内侧特写，两个圆形磁铁固定耳机，两个条形磁铁吸附盒盖。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-23.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电仓内部电路展示。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-26.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电仓内部电路另一侧展示。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-31.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "Type-C接口焊接在主板上，电源由此输入，电源管理电路由一颗主控芯片和一颗负责充放电的电感组成。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-24.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒主控芯片为INJOINIC英集芯IP5516，单芯片集成MCU/充电管理/Boost升压，更有内置专门针对TWS充电仓方案独身定制的双耳独立检测电路。英集芯IP5516整体方案只需要极少数电容电感等被动元器件， 即可实现完整的TWS充电仓功能。芯片的高度集成，方案BOM超简，可以带来生产加工的效率提升和成本的优化，更小的PCB尺寸使得TWS充电仓可以设计的更小巧，额外的空间可以放更大容量的电池。英集芯IP5516内置MCU，终端客户可定制各种差异化的应用场景，实现品牌客户的各类需求。据我爱音频网拆解了解到，目前已有JLab、海贝、网易云音乐、Pioneer先锋、PIHEN品恒等品牌的TWS耳机充电盒大量采用了英集芯的电源管理方案。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-28.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "主板另一侧电路展示，左侧是电池导线的焊点，右侧是充电仓主控芯片的露铜过孔，增强散热。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-32.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "两颗LED指示灯特写。三、倍思 Encok W09 耳机拆解",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-36.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机柄采用环形跑道纹理，指示灯开孔上方为敲击控制区域。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-42.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "吸附充电座舱的圆形磁铁。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-47.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "盖板内侧特写，顶部是触摸感应的箔片，下面是指示灯的开孔。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-56.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "LED指示灯上方有一块均光板。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-60.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "两颗LED指示灯特写。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://note.youdao.com/yws/public/resource/bf0a005abcf31047529848a55de1c797/xmlnote/EA7B091E7EB24F0ABD9A8D0461B3AF20/140104",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "倍思 Encok W09的主控芯片为杰理AC6936D，杰理AC693N系列芯片首创了充电脚通讯专利技术，并且采用QFN 4*4mm的超小封装设计。杰理AC6936D支持蓝牙5.1，具有6mA超低功耗，自动配对、恒流充电、无损解码、HFi音质；支持立体声双耳通话，开机秒连，高清通话低延时，智能双发主从无缝切换，支持空中升级，智能充电仓，生产方便。据我爱音频网拆解了解到，目前已经有联想thinkplus TrackPods真无线蓝牙耳机、HolyHigh圣高 ET2真无线蓝牙耳机、Baseus倍思W04 Pro真无线蓝牙耳机、索爱真无线蓝牙耳机A1S、白牌AirPods Pro（杰理版）等产品均采用了杰理的TWS方案。",
+        "module": "charging_case",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "充电线缆为USB-A to USB Type-C接口，端口处有倍思的品牌名。",
+      "充电盒体积较大，开盖处有凹槽便于开启。靠下方位置有倍思品牌名和充电盒指示灯。",
+      "背面有一个配对按键，充电盒采用合页设计。",
+      "充电盒底部产品信息，型号Baseus Encok W09，耳机电池容量40mAh/0.148Wh，输入5V⎓40mA；充电仓电池容量450mAh/1.66Wh，输入5V⎓250mA，中国制造。",
+      "耳机竖置在充电盒内。",
+      "充电仓内给耳机充电的Pogo Pin。",
+      "耳机和充电盒共重38.5克。",
+      "充电盒单重31.2克。",
+      "左右耳机共重7.4克。二、倍思 Encok W09 充电盒拆解",
+      "首先来拆解充电盒，看一下内部的电源管理系统。撬开充电座舱即可看到内部结构。",
+      "软包电池横置在充电盒背部。",
+      "底部是充电仓的主板，电路很精简。主板通过外壳塑料柱热熔固定。",
+      "取下电池，充电座舱内侧特写，两个圆形磁铁固定耳机，两个条形磁铁吸附盒盖。",
+      "充电仓内部电路展示。",
+      "充电仓内部电路另一侧展示。",
+      "Type-C接口焊接在主板上，电源由此输入，电源管理电路由一颗主控芯片和一颗负责充放电的电感组成。",
+      "充电盒主控芯片为INJOINIC英集芯IP5516，单芯片集成MCU/充电管理/Boost升压，更有内置专门针对TWS充电仓方案独身定制的双耳独立检测电路。英集芯IP5516整体方案只需要极少数电容电感等被动元器件， 即可实现完整的TWS充电仓功能。芯片的高度集成，方案BOM超简，可以带来生产加工的效率提升和成本的优化，更小的PCB尺寸使得TWS充电仓可以设计的更小巧，额外的空间可以放更大容量的电池。英集芯IP5516内置MCU，终端客户可定制各种差异化的应用场景，实现品牌客户的各类需求。据我爱音频网拆解了解到，目前已有JLab、海贝、网易云音乐、Pioneer先锋、PIHEN品恒等品牌的TWS耳机充电盒大量采用了英集芯的电源管理方案。",
+      "主板另一侧电路展示，左侧是电池导线的焊点，右侧是充电仓主控芯片的露铜过孔，增强散热。",
+      "两颗LED指示灯特写。三、倍思 Encok W09 耳机拆解",
+      "耳机柄采用环形跑道纹理，指示灯开孔上方为敲击控制区域。",
+      "吸附充电座舱的圆形磁铁。",
+      "盖板内侧特写，顶部是触摸感应的箔片，下面是指示灯的开孔。",
+      "LED指示灯上方有一块均光板。",
+      "两颗LED指示灯特写。",
+      "倍思 Encok W09的主控芯片为杰理AC6936D，杰理AC693N系列芯片首创了充电脚通讯专利技术，并且采用QFN 4*4mm的超小封装设计。杰理AC6936D支持蓝牙5.1，具有6mA超低功耗，自动配对、恒流充电、无损解码、HFi音质；支持立体声双耳通话，开机秒连，高清通话低延时，智能双发主从无缝切换，支持空中升级，智能充电仓，生产方便。据我爱音频网拆解了解到，目前已经有联想thinkplus TrackPods真无线蓝牙耳机、HolyHigh圣高 ET2真无线蓝牙耳机、Baseus倍思W04 Pro真无线蓝牙耳机、索爱真无线蓝牙耳机A1S、白牌AirPods Pro（杰理版）等产品均采用了杰理的TWS方案。"
+    ],
+    "accessories": [],
+    "bom_side": "充电盒",
+    "appearance_images": [],
+    "teardown_image_count": 0,
+    "bom_rows": [
+      {
+        "component": "指示灯",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "充电盒",
+        "role": "minor",
+        "evidence": {
+          "value": "指示灯",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "充电盒体积较大，开盖处有凹槽便于开启。靠下方位置有倍思品牌名和充电盒指示灯。"
+        }
+      },
+      {
+        "component": "触控/按键",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "充电盒",
+        "role": "minor",
+        "evidence": {
+          "value": "触控/按键",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "背面有一个配对按键，充电盒采用合页设计。"
+        }
+      },
+      {
+        "component": "芯片/模组",
+        "brand": "",
+        "model": "INJOINIC英集芯IP5516",
+        "qty_hint": "1",
+        "side": "充电盒",
+        "role": "主控/蓝牙",
+        "evidence": {
+          "value": "INJOINIC英集芯IP5516",
+          "confidence": 0.78,
+          "source_type": "text",
+          "source_text": "充电盒主控芯片为INJOINIC英集芯IP5516，单芯片集成MCU/充电管理/Boost升压，更有内置专门针对TWS充电仓方案独身定制的双耳独立检测电路。"
+        }
+      }
+    ]
+  },
+  "earbuds": {
+    "module": "earbuds",
+    "description": "",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-1.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "百元价位的入门级TWS真无线耳机竞争日趋激烈，近期我爱音频网拆解了很多款，发现不同品牌对待这类产品的态度差异还是很大的。今天我们再来拆解一款Baseus倍思的Encok W09 真无线蓝牙耳机，它采用柄式半入耳设计，重量较轻，内置蓝牙5.0芯片，主副耳自动切换；耳机支持敲击和长按控制，内置40mAh电池，搭配充电仓的450mAh电池总续航可达35小时。下面一起来看这款产品的详细拆解吧~此前我爱音频网曾经拆解过倍思 Encok WM01 真无线蓝牙耳机、倍思W04 Pro真无线蓝牙耳机、倍思W07真无线蓝牙耳机、倍思GAMO H08 3.5mm接口有线耳机和倍思 Q TWS真无线蓝牙音箱，品类较为丰富。一、倍思 Encok W09真无线蓝牙耳机 开箱",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-10.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "我爱音频网采用ChargerLAB POWER-Z KM001C便携式电源测试仪对倍思 Encok W09 真无线蓝牙耳机进行有线充电测试，充电功率约1.7W。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-12.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "Baseus倍思 Encok W09 真无线蓝牙耳机。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-21.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "电池使用胶水固定在内部结构上，非专业人士拆解需要小心。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-25.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "软包电池来自深圳市金宇宙能源有限公司，型号JYZ602040，额定电压3.7V，额定容量450mAh/1.665Wh。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://note.youdao.com/yws/public/resource/bf0a005abcf31047529848a55de1c797/xmlnote/8A6D916BE5034361A25D27798C8A1184/140222",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "降压后的电流进入电池之前还要经过一道电池保护板，由鑫飞宏的FHDW01高精度锂电池保护IC和一个FH8205S N-MOS管组成。鑫飞宏FHDW01系列电路集高精度过电压充电保护、过电压放电保护、过电流放电保护等性能于一身。采用SOT23-6小型化封装，外围元器件精简。据我爱音频网拆解了解到，鑫飞宏的锂电保护方案目前已被漫步者多款产品、倍思、联想等品牌的TWS耳机大量采用。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://note.youdao.com/yws/public/resource/bf0a005abcf31047529848a55de1c797/xmlnote/B101A5C896AA41F0AB356D365EFBCD58/142098",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "鑫飞宏FHDW01锂电保护IC详细资料。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-27.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "鑫飞宏FH8205A N-MOS管详细资料。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-29.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "给耳机充电的Pogo Pin。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-30.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "微动按键特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-33.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "下面我们再来拆解耳机，倍思 Encok W09采用柄式半入耳设计，支持双击和长按两种控制方式，单双耳使用时对应的按键功能不同。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-37.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机内侧音腔的泄压孔。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-35.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "出音孔细密的金属防尘网，阻止异物进入。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-34.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机柄内侧的通话麦克风拾音孔。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-38.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机柄底部的充电触点特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-39.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "沿耳机内外两侧的合模线拆开耳机，采用条形主板+软包电池+扬声器的结构。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-40.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机内部结构展示。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-41.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "软包电池和扬声器通过导线与主板相连。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-43.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "动圈扬声器单元特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-45.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "扬声器单元尺寸约10mm。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-46.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机内的软包电池同样来自深圳市金宇宙能源有限公司，型号JYZ501013，额定电压3.7V，额定容量40mAh/0.148Wh。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-48.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机外侧布局展示。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-49.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电触点所在的小板，通过绝缘漆包线与主板相连。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-51.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机的条形主板和软包电池与一元硬币的尺寸对比。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-54-1.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "主板外侧电路展示。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-58.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "连接触摸感应区域的Pogo Pin。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-55.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "丝印0332B1的触控感应IC。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-53.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "杰理AC6936D脚位定义图。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-50.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机采用陶瓷蓝牙天线传输数据。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-57.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "主板内侧电路展示。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-59.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "镭雕9C10 EH33的MEMS硅麦，用于通话拾音。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-52.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "左侧是丝印3A9N的IC，右侧是频率24.000MHz的晶振，为蓝牙芯片提供时钟。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/BASEUS倍思真无线W09-61.jpg",
+        "alt": "拆解报告：Baseus倍思 Encok W09 真无线蓝牙耳机-我爱音频网",
+        "caption": "给耳机电池充电的Pogo Pin特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "百元价位的入门级TWS真无线耳机竞争日趋激烈，近期我爱音频网拆解了很多款，发现不同品牌对待这类产品的态度差异还是很大的。今天我们再来拆解一款Baseus倍思的Encok W09 真无线蓝牙耳机，它采用柄式半入耳设计，重量较轻，内置蓝牙5.0芯片，主副耳自动切换；耳机支持敲击和长按控制，内置40mAh电池，搭配充电仓的450mAh电池总续航可达35小时。下面一起来看这款产品的详细拆解吧~此前我爱音频网曾经拆解过倍思 Encok WM01 真无线蓝牙耳机、倍思W04 Pro真无线蓝牙耳机、倍思W07真无线蓝牙耳机、倍思GAMO H08 3.5mm接口有线耳机和倍思 Q TWS真无线蓝牙音箱，品类较为丰富。一、倍思 Encok W09真无线蓝牙耳机 开箱",
+      "我爱音频网采用ChargerLAB POWER-Z KM001C便携式电源测试仪对倍思 Encok W09 真无线蓝牙耳机进行有线充电测试，充电功率约1.7W。",
+      "Baseus倍思 Encok W09 真无线蓝牙耳机。",
+      "降压后的电流进入电池之前还要经过一道电池保护板，由鑫飞宏的FHDW01高精度锂电池保护IC和一个FH8205S N-MOS管组成。鑫飞宏FHDW01系列电路集高精度过电压充电保护、过电压放电保护、过电流放电保护等性能于一身。采用SOT23-6小型化封装，外围元器件精简。据我爱音频网拆解了解到，鑫飞宏的锂电保护方案目前已被漫步者多款产品、倍思、联想等品牌的TWS耳机大量采用。",
+      "给耳机充电的Pogo Pin。",
+      "下面我们再来拆解耳机，倍思 Encok W09采用柄式半入耳设计，支持双击和长按两种控制方式，单双耳使用时对应的按键功能不同。",
+      "耳机内侧音腔的泄压孔。",
+      "耳机柄内侧的通话麦克风拾音孔。",
+      "耳机柄底部的充电触点特写。",
+      "沿耳机内外两侧的合模线拆开耳机，采用条形主板+软包电池+扬声器的结构。",
+      "耳机内部结构展示。",
+      "耳机内的软包电池同样来自深圳市金宇宙能源有限公司，型号JYZ501013，额定电压3.7V，额定容量40mAh/0.148Wh。",
+      "耳机外侧布局展示。",
+      "耳机的条形主板和软包电池与一元硬币的尺寸对比。",
+      "耳机采用陶瓷蓝牙天线传输数据。",
+      "给耳机电池充电的Pogo Pin特写。",
+      "拆解全家福。我爱音频网总结倍思 Encok W09 真无线蓝牙耳机的充电盒采用Type-C接口输入电源，内置英集芯IP5516单芯片方案，集成MCU/充电管理/Boost升压，负责电池的充放电管理，外围电路精简；充电盒内置金宇宙能源的450mAh软包电池，鑫飞宏的锂电IC保护防止电池过充过放。倍思 Encok W09耳机采用杰理AC6936D芯片，支持蓝牙5.0，智能双发主从无缝切换，低功耗，支持自动配对和恒流充电。耳机支持敲击控制，主板上有一颗触控IC；耳机采用单麦克风用于通话，软包电池同样来自金宇宙，容量40mAh。Baseus倍思 Encok系列真无线耳机在命名方式和产品定位上没有规律可循，这款W09真无线蓝牙耳机在配置上与此前我爱音频网拆解的倍思 Encok WM01 有相似之处，两者也都是百元价位的入门级产品，只不过一款是豆式入耳设计，W09则是柄式半入耳设计，以照顾不同消费者的佩戴习惯。"
+    ],
+    "accessories": [],
+    "bom_side": "耳机",
+    "appearance_images": [],
+    "teardown_image_count": 0,
+    "bom_rows": [
+      {
+        "component": "充电仓",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "major",
+        "evidence": {
+          "value": "充电仓",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "百元价位的入门级TWS真无线耳机竞争日趋激烈，近期我爱音频网拆解了很多款，发现不同品牌对待这类产品的态度差异还是很大的。今天我们再来拆解一款Baseus倍思的Encok W09 真无线蓝牙耳机，它采用柄式半入耳设计，重量较轻，内置蓝牙5.0芯片，主副耳自动切换；耳机支持敲击和长按控制，内置40mAh电池，搭配充电仓的450mAh电池总续航可达35小时。下面一起来看这款产品的详细拆解吧~此前我爱音频网曾经拆解过倍思 Encok WM01 真无线蓝牙耳机、倍思W04 Pro真无线蓝牙耳机、倍思W07真无线蓝牙耳机、倍思GAMO H08 3.5mm接口有线耳机和倍思 Q TWS真无线蓝牙音箱，品类较为丰富。一、倍思 Encok W09真无线蓝牙耳机 开箱"
+        }
+      },
+      {
+        "component": "电池",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "major",
+        "evidence": {
+          "value": "电池",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "百元价位的入门级TWS真无线耳机竞争日趋激烈，近期我爱音频网拆解了很多款，发现不同品牌对待这类产品的态度差异还是很大的。今天我们再来拆解一款Baseus倍思的Encok W09 真无线蓝牙耳机，它采用柄式半入耳设计，重量较轻，内置蓝牙5.0芯片，主副耳自动切换；耳机支持敲击和长按控制，内置40mAh电池，搭配充电仓的450mAh电池总续航可达35小时。下面一起来看这款产品的详细拆解吧~此前我爱音频网曾经拆解过倍思 Encok WM01 真无线蓝牙耳机、倍思W04 Pro真无线蓝牙耳机、倍思W07真无线蓝牙耳机、倍思GAMO H08 3.5mm接口有线耳机和倍思 Q TWS真无线蓝牙音箱，品类较为丰富。一、倍思 Encok W09真无线蓝牙耳机 开箱"
+        }
+      },
+      {
+        "component": "麦克风",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "major",
+        "evidence": {
+          "value": "麦克风",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "耳机柄内侧的通话麦克风拾音孔。"
+        }
+      },
+      {
+        "component": "降噪系统",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "major",
+        "evidence": {
+          "value": "降噪系统",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "包装盒主体依旧是倍思特色的灰黄色调，左上角为Baseus倍思的品牌Logo，下方的ENCOK MUSIC是倍思音频系列产品的名称。中间区域为耳机和充电盒的渲染图；型号W09真无线耳机，底部三个图例分别代表高保真音频、主副耳机切换和双击控制。顶部有一个挂钩便于店铺内的展示。"
+        }
+      },
+      {
+        "component": "天线",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "major",
+        "evidence": {
+          "value": "天线",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "耳机采用陶瓷蓝牙天线传输数据。"
+        }
+      },
+      {
+        "component": "充电触点",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "minor",
+        "evidence": {
+          "value": "充电触点",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "充电仓内给耳机充电的Pogo Pin。"
+        }
+      },
+      {
+        "component": "耳挂/挂钩",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "minor",
+        "evidence": {
+          "value": "耳挂/挂钩",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "包装盒主体依旧是倍思特色的灰黄色调，左上角为Baseus倍思的品牌Logo，下方的ENCOK MUSIC是倍思音频系列产品的名称。中间区域为耳机和充电盒的渲染图；型号W09真无线耳机，底部三个图例分别代表高保真音频、主副耳机切换和双击控制。顶部有一个挂钩便于店铺内的展示。"
+        }
+      },
+      {
+        "component": "芯片/模组",
+        "brand": "",
+        "model": "英集芯IP5516",
+        "qty_hint": "1",
+        "side": "耳机",
+        "role": "主控/蓝牙",
+        "evidence": {
+          "value": "英集芯IP5516",
+          "confidence": 0.78,
+          "source_type": "text",
+          "source_text": "我爱音频网总结\n倍思 Encok W09 真无线蓝牙耳机的充电盒采用Type-C接口输入电源，内置英集芯IP5516单芯片方案，集成MCU/充电管理/Boost升压，负责电池的充放电管理，外围电路精简；充电盒内置金宇宙能源的450mAh软包电池，鑫飞宏的锂电IC保护防止电池过充过放。"
+        }
+      }
+    ]
+  },
+  "gaps": [
+    "包装配件清单：未能从「包括…等」句式解析出零件列表",
+    "导语卖点：开箱前无足够长的功能介绍段落"
+  ],
+  "product": {
+    "canonical_id": "baseus--encok-w09",
+    "brand": "Baseus倍思",
+    "model": "Encok W09",
+    "category": "真无线耳机TWS",
+    "earbud_type": "入耳",
+    "report_url": "https://www.52audio.com/archives/54731.html",
+    "price_cny": null
+  },
+  "selling_points_by_tag": {
+    "防水防尘": [
+      "英集芯IP5516内置MCU，终端客户可定制各种差异化的应用场景，实现品牌客户的各类需求。",
+      "出音孔细密的金属防尘网，阻止异物进入。"
+    ],
+    "其他": [
+      "中间区域为耳机和充电盒的渲染图；型号W09真无线耳机，底部三个图例分别代表高保真音频、主副耳机切换和双击控制。"
+    ]
+  }
+}

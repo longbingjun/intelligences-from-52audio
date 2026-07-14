@@ -11,6 +11,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+import time
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -18,7 +19,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 from core.extract.unboxing_sections import extract_unboxing_sections  # noqa: E402
-from core.paths import products_index_path, reports_dir, write_unboxing_enrich  # noqa: E402
+from core.paths import products_index_path, reports_dir, unboxing_enrich_dir, write_unboxing_enrich  # noqa: E402
 from core.products import canonical_product_id  # noqa: E402
 from core.scope import HEADPHONE_CATEGORIES, is_headphone_record, normalize_headphone_category  # noqa: E402
 from sources.audio52.source_v2 import Audio52SourceV2  # noqa: E402
@@ -43,7 +44,13 @@ def _cache_path(report_id: str) -> Path:
     return CACHE_DIR / f"{report_id}.html"
 
 
-def _resolve_html(source: Audio52SourceV2, report: dict, feed_index: dict[str, str]) -> str:
+def _resolve_html(
+    source: Audio52SourceV2,
+    report: dict,
+    feed_index: dict[str, str],
+    *,
+    delay_sec: float = 0.0,
+) -> str:
     rid = report["id"]
     cached = _cache_path(rid)
     if cached.exists():
@@ -51,6 +58,9 @@ def _resolve_html(source: Audio52SourceV2, report: dict, feed_index: dict[str, s
         if html.strip():
             return html
     html = source.resolve_content_html(rid, report.get("url", ""), feed_index)
+    if delay_sec > 0:
+        # politeness delay: only applied on an actual network fetch (cache miss)
+        time.sleep(delay_sec)
     if html.strip():
         cached.parent.mkdir(parents=True, exist_ok=True)
         cached.write_text(html, encoding="utf-8")
@@ -63,8 +73,9 @@ def enrich_report(
     source: Audio52SourceV2,
     feed_index: dict[str, str],
     canonical_id: str | None = None,
+    delay_sec: float = 0.0,
 ) -> dict:
-    html = _resolve_html(source, report, feed_index)
+    html = _resolve_html(source, report, feed_index, delay_sec=delay_sec)
     if not html.strip():
         raise ValueError("no_content_html")
 
@@ -140,6 +151,8 @@ def main() -> None:
     parser.add_argument("report_id", nargs="?", help="单条报告 ID")
     parser.add_argument("--headphones", action="store_true", help="批量处理耳机产品关联报告")
     parser.add_argument("--limit", type=int, default=None)
+    parser.add_argument("--force", action="store_true", help="Re-process reports even if staging/unboxing output already exists")
+    parser.add_argument("--delay", type=float, default=0.8, help="Politeness delay (sec) after each real network fetch (cache hits are not delayed)")
     args = parser.parse_args()
 
     source = Audio52SourceV2()
@@ -152,8 +165,13 @@ def main() -> None:
     else:
         parser.error("请提供 report_id 或 --headphones")
 
-    ok, failed = 0, []
-    for rid in report_ids:
+    out_dir = unboxing_enrich_dir()
+    total = len(report_ids)
+    ok, skipped, failed = 0, 0, []
+    for i, rid in enumerate(report_ids, 1):
+        if not args.force and (out_dir / f"{rid}.json").exists():
+            skipped += 1
+            continue
         path = reports_dir() / f"{rid}.json"
         if not path.exists():
             failed.append({"report_id": rid, "error": "report_not_found"})
@@ -163,12 +181,23 @@ def main() -> None:
             failed.append({"report_id": rid, "error": "not_headphone"})
             continue
         try:
-            enrich_report(report, source=source, feed_index=feed_index)
+            enrich_report(report, source=source, feed_index=feed_index, delay_sec=args.delay)
             ok += 1
         except Exception as e:
             failed.append({"report_id": rid, "error": str(e)})
+        if i % 25 == 0 or i == total:
+            print(
+                f"[progress] {i}/{total} scanned | ok={ok} skipped={skipped} failed={len(failed)}",
+                flush=True,
+            )
 
-    print(json.dumps({"ok": ok, "failed": failed, "total": len(report_ids)}, ensure_ascii=False, indent=2))
+    print(
+        json.dumps(
+            {"ok": ok, "skipped": skipped, "failed": failed, "total": total},
+            ensure_ascii=False,
+            indent=2,
+        )
+    )
 
 
 if __name__ == "__main__":

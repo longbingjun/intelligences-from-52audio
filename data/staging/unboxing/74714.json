@@ -1,0 +1,195 @@
+{
+  "report_id": "74714",
+  "canonical_id": "unknown--aukey-ep-m1",
+  "source": "audio52",
+  "extracted_at": "2026-07-14T06:25:43+00:00",
+  "intro_selling_points": [],
+  "packaging": {
+    "module": "packaging",
+    "description": "",
+    "images": [],
+    "notes": [],
+    "accessories": [],
+    "bom_side": "",
+    "appearance_images": [],
+    "teardown_image_count": 0
+  },
+  "charging_case": {
+    "module": "charging_case",
+    "description": "",
+    "images": [],
+    "notes": [],
+    "accessories": [],
+    "bom_side": "充电盒",
+    "appearance_images": [],
+    "teardown_image_count": 0,
+    "bom_rows": [
+      {
+        "component": "充电仓",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "充电盒",
+        "role": "major",
+        "evidence": {
+          "value": "充电仓",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "二、AUKEY EP-M1 充电盒拆解\n首先来拆解充电盒，撬开充电座舱可取出完整结构。"
+        }
+      },
+      {
+        "component": "芯片/模组",
+        "brand": "",
+        "model": "英集芯IP5518",
+        "qty_hint": "1",
+        "side": "充电盒",
+        "role": "主控/蓝牙",
+        "evidence": {
+          "value": "英集芯IP5518",
+          "confidence": 0.78,
+          "source_type": "text",
+          "source_text": "充电接口：内部电路方面，充电盒通过USB Type-C接口输入电源，钰泰ETA7008负责输入过压保护；英集芯IP5518集成5V升压转换器、锂电池充电管理、电池电量指示、TWS对耳独立入仓检测等功能，集成度较高，外围器件精简；软包电池来自诺威新能源，容量500mAh。"
+        }
+      },
+      {
+        "component": "芯片/模组",
+        "brand": "",
+        "model": "ETA7008",
+        "qty_hint": "1",
+        "side": "充电盒",
+        "role": "主控/蓝牙",
+        "evidence": {
+          "value": "ETA7008",
+          "confidence": 0.78,
+          "source_type": "text",
+          "source_text": "充电接口：内部电路方面，充电盒通过USB Type-C接口输入电源，钰泰ETA7008负责输入过压保护；英集芯IP5518集成5V升压转换器、锂电池充电管理、电池电量指示、TWS对耳独立入仓检测等功能，集成度较高，外围器件精简；软包电池来自诺威新能源，容量500mAh。"
+        }
+      }
+    ]
+  },
+  "earbuds": {
+    "module": "earbuds",
+    "description": "",
+    "images": [],
+    "notes": [],
+    "accessories": [],
+    "bom_side": "耳机",
+    "appearance_images": [],
+    "teardown_image_count": 0,
+    "bom_rows": [
+      {
+        "component": "电池",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "major",
+        "evidence": {
+          "value": "电池",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "创芯微 CM1103 系列是为TWS 耳机，手表、手环等可穿戴设备小型锂电池专门设计的二合一保护芯片，采用超薄超小DFN2*2封装，内部集成有15V耐压、2KV ESD防护的低内阻充放电控制MOSFET，芯片内置高精度电压、电流检测和延迟电路，通过检测电池的电压、电流，实现对电池的过充电、过放电、充放电过流、短路等全方位保护。"
+        }
+      },
+      {
+        "component": "触控/按键",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "minor",
+        "evidence": {
+          "value": "触控/按键",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "今天我爱音频网要拆解的是AUKEY EP-M1 真无线蓝牙耳机，耳机采用柄式入耳设计，单支耳机重量轻至3.5g，有IPX4级防水可以运动佩戴，支持触控功能，可以唤醒手机语音助手；产品整体外观设计比较简约，可能是一款定位入门级的产品，下面一起来看详细的拆解报告吧。"
+        }
+      },
+      {
+        "component": "指示灯",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "minor",
+        "evidence": {
+          "value": "指示灯",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "耳机柄内部布局展示，顶部是指示灯，底部是充电触点和麦克风。"
+        }
+      },
+      {
+        "component": "充电触点",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "minor",
+        "evidence": {
+          "value": "充电触点",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "耳机柄内部布局展示，顶部是指示灯，底部是充电触点和麦克风。"
+        }
+      },
+      {
+        "component": "芯片/模组",
+        "brand": "",
+        "model": "CM1103",
+        "qty_hint": "1",
+        "side": "耳机",
+        "role": "主控/蓝牙",
+        "evidence": {
+          "value": "CM1103",
+          "confidence": 0.78,
+          "source_type": "text",
+          "source_text": "创芯微 CM1103 系列是为TWS 耳机，手表、手环等可穿戴设备小型锂电池专门设计的二合一保护芯片，采用超薄超小DFN2*2封装，内部集成有15V耐压、2KV ESD防护的低内阻充放电控制MOSFET，芯片内置高精度电压、电流检测和延迟电路，通过检测电池的电压、电流，实现对电池的过充电、过放电、充放电过流、短路等全方位保护。"
+        }
+      },
+      {
+        "component": "芯片/模组",
+        "brand": "",
+        "model": "英集芯IP5518",
+        "qty_hint": "1",
+        "side": "耳机",
+        "role": "主控/蓝牙",
+        "evidence": {
+          "value": "英集芯IP5518",
+          "confidence": 0.78,
+          "source_type": "text",
+          "source_text": "标记/认证：英集芯IP5518是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+        }
+      }
+    ]
+  },
+  "gaps": [
+    "包装区：正文未匹配到包装图片（可能文章结构特殊）",
+    "充电盒：无配图（可能仅有文字描述）",
+    "耳机：无配图",
+    "包装配件清单：未能从「包括…等」句式解析出零件列表",
+    "导语卖点：开箱前无足够长的功能介绍段落"
+  ],
+  "product": {
+    "canonical_id": "unknown--aukey-ep-m1",
+    "brand": "",
+    "model": "AUKEY傲基 EP-M1",
+    "category": "真无线耳机TWS",
+    "earbud_type": "入耳",
+    "report_url": "https://www.52audio.com/archives/74714.html",
+    "price_cny": null
+  },
+  "selling_points_by_tag": {
+    "防水防尘": [
+      "充电接口：Type-C\n充电接口：USB-A\n标记/认证：今天我爱音频网要拆解的是AUKEY EP-M1 真无线蓝牙耳机，耳机采用柄式入耳设计，单支耳机重量轻至3.5g，有IPX4级防水可以运动佩戴，支持触控功能，可以唤醒手机语音助手；产品整体外观设计比较简约，可能是一款定位入门级的产品，下面一起来看详细的拆解报告吧。",
+      "AUKEY傲基是知名的跨境电商公司，主要从事自主品牌科技消费品的研发、设计和销售，并且实现了产品的研发设计、营 […]\n今天我爱音频网要拆解的是AUKEY EP-M1 真无线蓝牙耳机，耳机采用柄式入耳设计，单支耳机重量轻至3.5g，有IPX4级防水可以运动佩戴，支持触控功能，可以唤醒手机语音助手；产品整体外观设计比较简约，可能是一款定位入门级的产品，下面一起来看详细的拆解报告吧。",
+      "今天我爱音频网要拆解的是AUKEY EP-M1 真无线蓝牙耳机，耳机采用柄式入耳设计，单支耳机重量轻至3.5g，有IPX4级防水可以运动佩戴，支持触控功能，可以唤醒手机语音助手；产品整体外观设计比较简约，可能是一款定位入门级的产品，下面一起来看详细的拆解报告吧。",
+      "标记/认证：IP5518可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至20uA。"
+    ],
+    "其他": [
+      "另一边是认证信息。",
+      "标记/认证：另一边是认证信息。"
+    ]
+  }
+}

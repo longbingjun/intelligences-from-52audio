@@ -1,0 +1,606 @@
+{
+  "report_id": "51391",
+  "canonical_id": "unknown--thinkplus-trackpods",
+  "source": "audio52",
+  "extracted_at": "2026-07-14T06:15:00+00:00",
+  "intro_selling_points": [],
+  "packaging": {
+    "module": "packaging",
+    "description": "包装盒是ThinkPlus系列标志性的黑红配色，左上角是产品名“thinkplus TrackPods真无线蓝牙耳机”，耳机的渲染图占据主体，右下角是联想的品牌Logo。虽然耳机渲染图是白色的，但我们手上的版本是“暗夜黑”。",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-3.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "包装盒为天地盖设计，内侧壳体是红色的。背面有五个产品特色功能：13mm单元、持久续航、语音唤醒、双耳高清通话、舒适佩戴。下面是部分产品参数，产品型号TW50，蓝牙版本5.0，喇叭直径13mm，电池容量，耳机30mAh，充电盒300mAh。",
+        "module": "packaging",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-4.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "包装盒内物品，耳机和充电盒，充电线、合格证及使用说明书。",
+        "module": "packaging",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "包装盒是ThinkPlus系列标志性的黑红配色，左上角是产品名“thinkplus TrackPods真无线蓝牙耳机”，耳机的渲染图占据主体，右下角是联想的品牌Logo。虽然耳机渲染图是白色的，但我们手上的版本是“暗夜黑”。",
+      "包装盒为天地盖设计，内侧壳体是红色的。背面有五个产品特色功能：13mm单元、持久续航、语音唤醒、双耳高清通话、舒适佩戴。下面是部分产品参数，产品型号TW50，蓝牙版本5.0，喇叭直径13mm，电池容量，耳机30mAh，充电盒300mAh。",
+      "包装盒内物品，耳机和充电盒，充电线、合格证及使用说明书。",
+      "充电线缆为USB-A to USB-C 接口。",
+      "我爱音频网采用ChargerLAB POWER-Z KM001C便携式电源测试仪对联想thinkplus TrackPods进行有线充电测试，功率约为1.1W，电池电量较高。",
+      "底部主板电路展示，UISB-C电源输入接口直接焊接在主板上。",
+      "电池和主板另一侧特写。",
+      "微源半导体LP7802A详细资料。",
+      "降压后的电流进入电池之前还要经过一道电池保护板。",
+      "扬声器单元通过蓝白色导线连接主板。",
+      "软包电池与一元硬币的尺寸对比，通过黑红色导线与主板连接。",
+      "动圈扬声器特写。",
+      "扬声器尺寸约13mm。",
+      "主板电路需从底部取出，图为与一元硬币的尺寸对比。",
+      "主板一侧电路展示，是蓝牙主控芯片及其相关电路。",
+      "杰理AC6936D脚位定义图。",
+      "充电金属弹片与主板连接的焊点。",
+      "按压区域内侧是一片感应铜箔。",
+      "连接感应铜箔的铜柱。",
+      "陶瓷蓝牙天线。",
+      "镭雕MB27 RLLD的MEMS硅麦，拾取通话时的人声。",
+      "丝印1392BD的触控IC，右侧是频率24.000MHz的晶振，为蓝牙芯片提供时钟。"
+    ],
+    "accessories": [],
+    "bom_side": "",
+    "appearance_images": [],
+    "teardown_image_count": 0
+  },
+  "charging_case": {
+    "module": "charging_case",
+    "description": "",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-1.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "2017年是ThinkPad品牌创立的25周年，联想向外界推出了ThinkPlus智能生态战略，将继续坚持以PC为核心，丰富ThinkPad周边产品，在持续提供强大生产力的同时，不断升级用户在办公、商旅和品质生活场景下的体验，面向音频市场推出了真无线耳机、颈挂式蓝牙耳机和蓝牙音箱多款产品。今天我爱音频网要拆解的是最新发布的联想thinkplus TrackPods真无线蓝牙耳机，这款产品耳机官方宣传采用了按压力度传感器控制，蓝牙主控芯片是杰理AC6936D，支持蓝牙5.0，不区分主副耳，喇叭尺寸13mm，耳机电池容量为30mAh；充电盒采用Type-C充电接口，电池容量300mAh，整体重量较轻，是一款定位入门级的TWS耳机。下面一起来看详细的拆解报告吧~此前我爱音频网曾经拆解过Lenovo联想TWS真无线耳机S1、摩托罗拉 Verve Ones+、摩托罗拉 Verve Buds 200 真无线耳机、摩托罗拉 Verve Buds 500 真无线耳机、摩托罗拉Verve Buds 800 真无线蓝牙耳机。一、联想thinkplus TrackPods 开箱",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-5-1.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒正面展示，开盖处有一凹槽便于开启，下面是充电盒指示灯。底部的序列号编码是一个贴纸，可以撕掉。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-13.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "USB-C充电接口位于充电盒底部，产品名称thinkplus 无线蓝牙耳机，型号TW50，额定输入DC 5V⎓1A，电池容量300mAh。联想（北京）有限公司，中国制造。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-9.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机竖置在充电盒内。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-10.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "联想thinkplus TrackPods真无线蓝牙耳机与充电盒。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-11.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "称重环节，联想thinkplus TrackPods耳机和充电盒共重：28.7克。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-12.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒单重：22.6克。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-14.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "左右耳机共重：6.4克。耳机和充电盒的重量都很轻。二、联想thinkplus TrackPods充电盒拆解",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-15.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "首先来拆解充电盒部分，看一下内部的结构设计和电源管理系统。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-16.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒前面指示灯的导光柱。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-17.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "盒盖连接处的金属转轴。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-18-1.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒结构，底部是主板，中间部分是电池，外面有胶带纸缠绕加固。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-21.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒正面结构展示。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-20.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "LED指示灯处特写，外面有一圈泡棉防止漏光。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-22.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "指示灯FPC通过连接器与底部主板相连。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-23.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "取下指示灯的FPC。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-19.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "两颗LED指示灯特写。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-25.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒电路一览，主板上只有芯片和电感等外围元件，十分精简。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://note.youdao.com/yws/public/resource/b37b5857fdfafa38927e89155555a503/xmlnote/2CA968A2BC2042B8B330B85EB01CB8BC/129159",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "单芯片搞定充电盒方案，联想thinkplus TrackPods采用了LPS微源半导体LP7802A，是一款支持1A线性充电、同步整流升压放电、负载识别、控制、状态指示、双通道独立放电功能的六合一单芯片解决方案。微源LP7802A是一款支持双通道充电状态独立输出，六合一充电仓专用芯片，输入端内置符合车规级标准的30V 过压保护，待机功耗低至23uA，支持霍尔开关，充满截止电流可调至1mA，左右耳独立识别独立充电，整仓无需MCU极简设计，SSOP16封装节省面积，让TWS充电盒的设计省时又省心。据我爱音频网拆解了解到，已有漫步者、JLab、小米、摩托罗拉、OPPO、QCY等知名品牌的TWS耳机充电仓都大量采用了微源的方案。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-28.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒采用软包电池，型号XW 751230，额定电压3.7V，额定容量300mAh/1.11Wh。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-40.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机壳体内侧吸附充电盒的圆形磁铁，采用白胶固定。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://note.youdao.com/yws/public/resource/b37b5857fdfafa38927e89155555a503/xmlnote/0A59F2D5460241DB8DFC1AB330090A94/129151",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "主控芯片为珠海杰理AC6936D芯片，杰理AC693N系列芯片首创了充电脚通讯专利技术，并且采用QFN 4*4mm的超小封装设计。杰理AC6936D支持蓝牙5.1，具有6mA超低功耗，自动配对、恒流充电、无损解码、HFi音质；支持立体声双耳通话，开机秒连，高清通话低延时，智能双发主从无缝切换，支持空中升级，智能充电仓，生产方便。据我爱音频网拆解了解到，HolyHigh圣高 ET2真无线蓝牙耳机、Baseus倍思W04 Pro真无线蓝牙耳机、索爱真无线蓝牙耳机A1S、白牌AirPods Pro（杰理版）等产品均采用了杰理的TWS方案。",
+        "module": "charging_case",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "2017年是ThinkPad品牌创立的25周年，联想向外界推出了ThinkPlus智能生态战略，将继续坚持以PC为核心，丰富ThinkPad周边产品，在持续提供强大生产力的同时，不断升级用户在办公、商旅和品质生活场景下的体验，面向音频市场推出了真无线耳机、颈挂式蓝牙耳机和蓝牙音箱多款产品。今天我爱音频网要拆解的是最新发布的联想thinkplus TrackPods真无线蓝牙耳机，这款产品耳机官方宣传采用了按压力度传感器控制，蓝牙主控芯片是杰理AC6936D，支持蓝牙5.0，不区分主副耳，喇叭尺寸13mm，耳机电池容量为30mAh；充电盒采用Type-C充电接口，电池容量300mAh，整体重量较轻，是一款定位入门级的TWS耳机。下面一起来看详细的拆解报告吧~此前我爱音频网曾经拆解过Lenovo联想TWS真无线耳机S1、摩托罗拉 Verve Ones+、摩托罗拉 Verve Buds 200 真无线耳机、摩托罗拉 Verve Buds 500 真无线耳机、摩托罗拉Verve Buds 800 真无线蓝牙耳机。一、联想thinkplus TrackPods 开箱",
+      "充电盒正面展示，开盖处有一凹槽便于开启，下面是充电盒指示灯。底部的序列号编码是一个贴纸，可以撕掉。",
+      "充电盒背面是联想ThinkPlus系列的Logo。",
+      "USB-C充电接口位于充电盒底部，产品名称thinkplus 无线蓝牙耳机，型号TW50，额定输入DC 5V⎓1A，电池容量300mAh。联想（北京）有限公司，中国制造。",
+      "耳机竖置在充电盒内。",
+      "联想thinkplus TrackPods真无线蓝牙耳机与充电盒。",
+      "称重环节，联想thinkplus TrackPods耳机和充电盒共重：28.7克。",
+      "充电盒单重：22.6克。",
+      "左右耳机共重：6.4克。耳机和充电盒的重量都很轻。二、联想thinkplus TrackPods充电盒拆解",
+      "首先来拆解充电盒部分，看一下内部的结构设计和电源管理系统。",
+      "充电盒前面指示灯的导光柱。",
+      "盒盖连接处的金属转轴。",
+      "充电盒结构，底部是主板，中间部分是电池，外面有胶带纸缠绕加固。",
+      "充电盒正面结构展示。",
+      "LED指示灯处特写，外面有一圈泡棉防止漏光。",
+      "指示灯FPC通过连接器与底部主板相连。",
+      "取下指示灯的FPC。",
+      "两颗LED指示灯特写。",
+      "充电盒电路一览，主板上只有芯片和电感等外围元件，十分精简。",
+      "单芯片搞定充电盒方案，联想thinkplus TrackPods采用了LPS微源半导体LP7802A，是一款支持1A线性充电、同步整流升压放电、负载识别、控制、状态指示、双通道独立放电功能的六合一单芯片解决方案。微源LP7802A是一款支持双通道充电状态独立输出，六合一充电仓专用芯片，输入端内置符合车规级标准的30V 过压保护，待机功耗低至23uA，支持霍尔开关，充满截止电流可调至1mA，左右耳独立识别独立充电，整仓无需MCU极简设计，SSOP16封装节省面积，让TWS充电盒的设计省时又省心。据我爱音频网拆解了解到，已有漫步者、JLab、小米、摩托罗拉、OPPO、QCY等知名品牌的TWS耳机充电仓都大量采用了微源的方案。",
+      "充电盒采用软包电池，型号XW 751230，额定电压3.7V，额定容量300mAh/1.11Wh。",
+      "耳机壳体内侧吸附充电盒的圆形磁铁，采用白胶固定。",
+      "主控芯片为珠海杰理AC6936D芯片，杰理AC693N系列芯片首创了充电脚通讯专利技术，并且采用QFN 4*4mm的超小封装设计。杰理AC6936D支持蓝牙5.1，具有6mA超低功耗，自动配对、恒流充电、无损解码、HFi音质；支持立体声双耳通话，开机秒连，高清通话低延时，智能双发主从无缝切换，支持空中升级，智能充电仓，生产方便。据我爱音频网拆解了解到，HolyHigh圣高 ET2真无线蓝牙耳机、Baseus倍思W04 Pro真无线蓝牙耳机、索爱真无线蓝牙耳机A1S、白牌AirPods Pro（杰理版）等产品均采用了杰理的TWS方案。"
+    ],
+    "accessories": [],
+    "bom_side": "充电盒",
+    "appearance_images": [],
+    "teardown_image_count": 0,
+    "bom_rows": [
+      {
+        "component": "指示灯",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "充电盒",
+        "role": "minor",
+        "evidence": {
+          "value": "指示灯",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "充电盒正面展示，开盖处有一凹槽便于开启，下面是充电盒指示灯。底部的序列号编码是一个贴纸，可以撕掉。"
+        }
+      }
+    ]
+  },
+  "earbuds": {
+    "module": "earbuds",
+    "description": "",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-6.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "充电线缆为USB-A to USB-C 接口。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-8.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "我爱音频网采用ChargerLAB POWER-Z KM001C便携式电源测试仪对联想thinkplus TrackPods进行有线充电测试，功率约为1.1W，电池电量较高。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-24.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "底部主板电路展示，UISB-C电源输入接口直接焊接在主板上。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-30.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "电池和主板另一侧特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-27.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "微源半导体LP7802A详细资料。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-26.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "降压后的电流进入电池之前还要经过一道电池保护板。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-31.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "三、联想thinkplus TrackPods耳机拆解",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-32.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "下面我们继续来拆解耳机部分，联想thinkplus TrackPods采用柄式入耳式设计，壳体上有棱面处理，增加立体感。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-33.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机底部是充电触点，中间是通话麦克风开孔，内有细密防尘网。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-34.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机的压感触控区域用红色标出，下面有L/R左右标识，黑红配色也是thinkplus系列的标志。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-35.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机柄外侧的泄压孔。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-36.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机内侧的泄压孔。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-37.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机出音孔处有防尘网防止异物进入。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-38.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "沿合模线拆开耳机，条形主板+软包电池+扬声器的设计。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-39.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "扬声器单元通过蓝白色导线连接主板。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-41.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "软包电池与一元硬币的尺寸对比，通过黑红色导线与主板连接。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-42.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机软包电池，型号SQX 401012，额定电压3.7V，额定容量30mAh/0.111Wh。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-43.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "导线直接焊接在电池正负极上，保护电路在耳机主板上。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-44.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "动圈扬声器特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-45.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "扬声器尺寸约13mm。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-46.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "主板电路需从底部取出，图为与一元硬币的尺寸对比。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-54.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "主板一侧电路展示，是蓝牙主控芯片及其相关电路。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-48.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "杰理AC6936D脚位定义图。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-49.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "充电金属弹片与主板连接的焊点。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-50.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "按压区域内侧是一片感应铜箔。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-51.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "连接感应铜箔的铜柱。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-47.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "陶瓷蓝牙天线。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-52.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "主板另一侧电路展示，耳机采用贴片蓝牙天线收发信号，蓝牙天线背面区域镂空，用于信号溢出。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-53.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "镭雕MB27 RLLD的MEMS硅麦，拾取通话时的人声。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/联想thinkplus真无线TW50-55.jpg",
+        "alt": "拆解报告：联想thinkplus TrackPods真无线蓝牙耳机-我爱音频网",
+        "caption": "丝印1392BD的触控IC，右侧是频率24.000MHz的晶振，为蓝牙芯片提供时钟。",
+        "module": "earbuds",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "电池输出的电流经微源LP7802A升压后给耳机充电，充电铜柱特写。",
+      "三、联想thinkplus TrackPods耳机拆解",
+      "下面我们继续来拆解耳机部分，联想thinkplus TrackPods采用柄式入耳式设计，壳体上有棱面处理，增加立体感。",
+      "耳机底部是充电触点，中间是通话麦克风开孔，内有细密防尘网。",
+      "耳机的压感触控区域用红色标出，下面有L/R左右标识，黑红配色也是thinkplus系列的标志。",
+      "耳机柄外侧的泄压孔。",
+      "耳机内侧的泄压孔。",
+      "耳机出音孔处有防尘网防止异物进入。",
+      "沿合模线拆开耳机，条形主板+软包电池+扬声器的设计。",
+      "耳机软包电池，型号SQX 401012，额定电压3.7V，额定容量30mAh/0.111Wh。",
+      "导线直接焊接在电池正负极上，保护电路在耳机主板上。",
+      "主板另一侧电路展示，耳机采用贴片蓝牙天线收发信号，蓝牙天线背面区域镂空，用于信号溢出。",
+      "拆解全家福。我爱音频网总结联想thinkplus TrackPods真无线蓝牙耳机，充电盒上印刷了“thinkplus”Logo，耳机采用黑红色搭配，瞬间就有ThinkPad那个感觉了。耳机采用柄式入耳式设计，有些像AirPods Pro，壳体上增加了棱面处理，增加立体感，并且在触控区域做了明显的颜色标识。充电盒采用USB-C接口输入电源，内部采用了微源的LP7802A充电盒单芯片解决方案，支持高达30V 过压保护，支持1A线性充电、同步整流升压放电，支持霍尔开关，充满截止电流可调至1mA，左右耳独立识别独立充电，整仓无需MCU极简设计；充电盒采用软包电池，容量300mAh。耳机部分的电路同样很精简，联想thinkplus TrackPods采用杰理AC6936D蓝牙音频SoC，可以支持蓝牙5.1，集成度高，支持自动配对、恒流充电、立体声双耳通话，智能双发主从无缝切换；主板上还有一颗触控IC检测触摸操作，单麦克风用于通话，软包电池容量30mAh。整体设计和硬件配置是同价位产品的水准。"
+    ],
+    "accessories": [],
+    "bom_side": "耳机",
+    "appearance_images": [],
+    "teardown_image_count": 0,
+    "bom_rows": [
+      {
+        "component": "充电仓",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "major",
+        "evidence": {
+          "value": "充电仓",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "2017年是ThinkPad品牌创立的25周年，联想向外界推出了ThinkPlus智能生态战略，将继续坚持以PC为核心，丰富ThinkPad周边产品，在持续提供强大生产力的同时，不断升级用户在办公、商旅和品质生活场景下的体验，面向音频市场推出了真无线耳机、颈挂式蓝牙耳机和蓝牙音箱多款产品。今天我爱音频网要拆解的是最新发布的联想thinkplus TrackPods真无线蓝牙耳机，这款产品耳机官方宣传采用了按压力度传感器控制，蓝牙主控芯片是杰理AC6936D，支持蓝牙5.0，不区分主副耳，喇叭尺寸13mm，耳机电池容量为30mAh；充电盒采用Type-C充电接口，电池容量300mAh，整体重量较轻，是一款定位入门级的TWS耳机。下面一起来看详细的拆解报告吧~此前我爱音频网曾经拆解过Lenovo联想TWS真无线耳机S1、摩托罗拉 Verve Ones+、摩托罗拉 Verve Buds 200 真无线耳机、摩托罗拉 Verve Buds 500 真无线耳机、摩托罗拉Verve Buds 800 真无线蓝牙耳机。一、联想thinkplus TrackPods 开箱"
+        }
+      },
+      {
+        "component": "主板/PCBA",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "major",
+        "evidence": {
+          "value": "主板/PCBA",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "2017年是ThinkPad品牌创立的25周年，联想向外界推出了ThinkPlus智能生态战略，将继续坚持以PC为核心，丰富ThinkPad周边产品，在持续提供强大生产力的同时，不断升级用户在办公、商旅和品质生活场景下的体验，面向音频市场推出了真无线耳机、颈挂式蓝牙耳机和蓝牙音箱多款产品。今天我爱音频网要拆解的是最新发布的联想thinkplus TrackPods真无线蓝牙耳机，这款产品耳机官方宣传采用了按压力度传感器控制，蓝牙主控芯片是杰理AC6936D，支持蓝牙5.0，不区分主副耳，喇叭尺寸13mm，耳机电池容量为30mAh；充电盒采用Type-C充电接口，电池容量300mAh，整体重量较轻，是一款定位入门级的TWS耳机。下面一起来看详细的拆解报告吧~此前我爱音频网曾经拆解过Lenovo联想TWS真无线耳机S1、摩托罗拉 Verve Ones+、摩托罗拉 Verve Buds 200 真无线耳机、摩托罗拉 Verve Buds 500 真无线耳机、摩托罗拉Verve Buds 800 真无线蓝牙耳机。一、联想thinkplus TrackPods 开箱"
+        }
+      },
+      {
+        "component": "电池",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "major",
+        "evidence": {
+          "value": "电池",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "2017年是ThinkPad品牌创立的25周年，联想向外界推出了ThinkPlus智能生态战略，将继续坚持以PC为核心，丰富ThinkPad周边产品，在持续提供强大生产力的同时，不断升级用户在办公、商旅和品质生活场景下的体验，面向音频市场推出了真无线耳机、颈挂式蓝牙耳机和蓝牙音箱多款产品。今天我爱音频网要拆解的是最新发布的联想thinkplus TrackPods真无线蓝牙耳机，这款产品耳机官方宣传采用了按压力度传感器控制，蓝牙主控芯片是杰理AC6936D，支持蓝牙5.0，不区分主副耳，喇叭尺寸13mm，耳机电池容量为30mAh；充电盒采用Type-C充电接口，电池容量300mAh，整体重量较轻，是一款定位入门级的TWS耳机。下面一起来看详细的拆解报告吧~此前我爱音频网曾经拆解过Lenovo联想TWS真无线耳机S1、摩托罗拉 Verve Ones+、摩托罗拉 Verve Buds 200 真无线耳机、摩托罗拉 Verve Buds 500 真无线耳机、摩托罗拉Verve Buds 800 真无线蓝牙耳机。一、联想thinkplus TrackPods 开箱"
+        }
+      },
+      {
+        "component": "麦克风",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "major",
+        "evidence": {
+          "value": "麦克风",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "耳机底部是充电触点，中间是通话麦克风开孔，内有细密防尘网。"
+        }
+      },
+      {
+        "component": "触控/按键",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "minor",
+        "evidence": {
+          "value": "触控/按键",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "耳机的压感触控区域用红色标出，下面有L/R左右标识，黑红配色也是thinkplus系列的标志。"
+        }
+      },
+      {
+        "component": "充电触点",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "minor",
+        "evidence": {
+          "value": "充电触点",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "耳机底部是充电触点，中间是通话麦克风开孔，内有细密防尘网。"
+        }
+      }
+    ]
+  },
+  "gaps": [
+    "包装配件清单：未能从「包括…等」句式解析出零件列表",
+    "导语卖点：开箱前无足够长的功能介绍段落"
+  ],
+  "product": {
+    "canonical_id": "unknown--thinkplus-trackpods",
+    "brand": "",
+    "model": "联想thinkplus TrackPods",
+    "category": "真无线耳机TWS",
+    "earbud_type": "入耳",
+    "report_url": "https://www.52audio.com/archives/51391.html",
+    "price_cny": null
+  },
+  "selling_points_by_tag": {
+    "其他": [
+      "2017年是ThinkPad品牌创立的25周年，联想向外界推出了ThinkPlus智能生态战略，将继续坚持以PC为核心，丰富ThinkPad周边产品，在持续提供强大生产力的同时，不断升级用户在办公、商旅和品质生活场景下的体验，面向音频市场推出了真无线耳机、颈挂式蓝牙耳机和蓝牙音箱多款产品。"
+    ],
+    "舒适佩戴": [
+      "背面有五个产品特色功能：13mm单元、持久续航、语音唤醒、双耳高清通话、舒适佩戴。"
+    ],
+    "防水防尘": [
+      "耳机出音孔处有防尘网防止异物进入。",
+      "耳机底部是充电触点，中间是通话麦克风开孔，内有细密防尘网。"
+    ]
+  }
+}

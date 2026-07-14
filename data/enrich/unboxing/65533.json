@@ -1,0 +1,803 @@
+{
+  "report_id": "65533",
+  "canonical_id": "unknown--haylou-gt5",
+  "source": "audio52",
+  "extracted_at": "2026-07-14T06:24:10+00:00",
+  "intro_selling_points": [],
+  "packaging": {
+    "module": "packaging",
+    "description": "包装盒相较于此前更为方正，外面的封皮是特色的白底蓝边。左上角是嘿喽的品牌Logo，中间区域是耳机和充电盒的渲染图，右下角是产品名“GT5真无线耳机”。",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/05-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "包装盒背面是耳机的部分参数。Haylou嘿喽GT5真无线蓝牙耳机，耳机充电时间约2小时，通话时间约4小时，输入参数5V⎓100mA；充电盒输入参数5V⎓500mA，输出参数5V⎓150mA，充电时间约3小时，电池容量580mAh。制造商：东莞市猎声电子科技有限公司。生产厂：东莞峥嵘电子有限公司。",
+        "module": "packaging",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/06.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "包装盒侧边是产品特色功能的介绍，包括：蓝牙5.0、入耳检测、低延迟游戏模式、无线充电、AAC高清音质。",
+        "module": "packaging",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/13-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "包装盒内物品展示，嘿喽GT5耳机和充电盒、额外附赠的硅胶耳套、充电线和使用说明书。",
+        "module": "packaging",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/15.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "可替换的两对硅胶耳塞，耳机上自带的是中号。",
+        "module": "packaging",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/56-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "经过了前面的开箱，我们已经对嘿喽GT5真无线蓝牙耳机的外观设计有了全面了解，依旧是品牌标志性的黑色极简风设计。下面再通过拆解来看看其内部设计，以及有线充电电源管理系统和无线充电电源管理系统分别采用了什么芯片。",
+        "module": "packaging",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "包装盒相较于此前更为方正，外面的封皮是特色的白底蓝边。左上角是嘿喽的品牌Logo，中间区域是耳机和充电盒的渲染图，右下角是产品名“GT5真无线耳机”。",
+      "包装盒背面是耳机的部分参数。Haylou嘿喽GT5真无线蓝牙耳机，耳机充电时间约2小时，通话时间约4小时，输入参数5V⎓100mA；充电盒输入参数5V⎓500mA，输出参数5V⎓150mA，充电时间约3小时，电池容量580mAh。制造商：东莞市猎声电子科技有限公司。生产厂：东莞峥嵘电子有限公司。",
+      "包装盒侧边是产品特色功能的介绍，包括：蓝牙5.0、入耳检测、低延迟游戏模式、无线充电、AAC高清音质。",
+      "Haylou嘿喽，品牌名称取自海螺谐音，同时也是英文单词“hello”的谐音。",
+      "包装盒内物品展示，嘿喽GT5耳机和充电盒、额外附赠的硅胶耳套、充电线和使用说明书。",
+      "可替换的两对硅胶耳塞，耳机上自带的是中号。",
+      "盒盖上有Haylou嘿喽的品牌Logo。",
+      "经过了前面的开箱，我们已经对嘿喽GT5真无线蓝牙耳机的外观设计有了全面了解，依旧是品牌标志性的黑色极简风设计。下面再通过拆解来看看其内部设计，以及有线充电电源管理系统和无线充电电源管理系统分别采用了什么芯片。",
+      "取下主板，内侧还有一块小的PCBA。",
+      "取出这块小的PCBA板。",
+      "PCBA板通过三根导线与主板相连。",
+      "主板另一侧电路展示，芯片背面过孔露铜散热。",
+      "LP7801D采用ESOP-8封装，内置OVP，输入耐压28V，省去了输入过压保护元件，待机电流1uA。",
+      "据我爱音频网拆解了解到，目前已有小米、OPPO、华为、联想、摩托罗拉、realme、漫步者、QCY、JLab、Skullcandy、Boltune等品牌的音频产品大量采用了微源的电源管理方案。",
+      "LowPowerSemi微源半导体LP7801D详细资料。",
+      "升压电感特写，得益于芯片内置转换器1.2MHz开关频率，可以用非常小的外置电感。",
+      "COPO南京酷珀微电子有限公司 CP2021 详细资料。",
+      "苏州赛芯电子科技 XB5335A 锂电保护IC，具有过充，过放，短路，过流等保护功能。",
+      "导线连接电池正负极镍片。",
+      "主板下方是电池和音腔内部空间。",
+      "扬声器单元使用大量胶水固定。",
+      "扬声器单元的尺寸约为7mm。",
+      "主控芯片的外围电路，包括降压电感和电容等。",
+      "为蓝牙芯片提供时钟的晶振特写。",
+      "丝印MK5的稳压IC。",
+      "丝印HH01K 2033的触控IC。",
+      "丝印OJD的电池保护IC。",
+      "主板另一侧，FPC焊接在主板上。",
+      "镭雕MC28 RLLK的MEMS硅麦，外面有保护罩提高密闭性。",
+      "FPC另一侧展示。",
+      "天易合芯HX3003M详细资料。",
+      "软包电池型号541112，额定容量0.16Wh。"
+    ],
+    "accessories": [
+      "：蓝牙5.0",
+      "入耳检测",
+      "低延迟游戏模式",
+      "无线充电",
+      "AAC高清音质",
+      "降压电感",
+      "电容"
+    ],
+    "bom_side": "",
+    "appearance_images": [],
+    "teardown_image_count": 0
+  },
+  "charging_case": {
+    "module": "charging_case",
+    "description": "",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/01-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "Haylou嘿喽是东莞市猎声电子科技旗下的音频品牌，公司成立于2015年5月，是最早一批小米生态链企业，猎声目前已成为国内领先的消费级智能运动产品自主品牌和ODM方案提供商。其TWS耳机产品主要有GT系列和T系列，此前我爱音频网曾经拆解过嘿喽 GT1 真无线蓝牙耳机和嘿喽 T16 真无线降噪耳机。今天我们要拆解的是嘿喽GT5真无线蓝牙耳机，这款耳机主打游戏低延迟，官方宣传耳机的游戏延迟可低至65ms。嘿喽GT5采用蓝牙5.0芯片，左右耳同步传输，支持AAC音频编码。耳机支持触控操作，还同时配备了光学入耳检测传感器和无线充电功能，在百元价位的产品中比较少见。续航方面，耳机的单次续航约4小时，充电盒电池容量580mAh，总续航约为24小时。Haylou嘿喽GT5真无线蓝牙耳机内部结构和用料如何，一起来看我爱音频网的详细拆解吧。一、Haylou嘿喽 GT5 真无线蓝牙耳机 开箱",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/14-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电线为USB-A to USB Type-C接口的短线。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/33-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒外观展示，此前多为胶囊状，GT5的充电盒更为扁平。正面开启处有一道凹槽便于打开。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/19.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "凹槽内壁是亮面的，充电盒正面还有三个电量指示灯。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/53-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "USB Type-C充电接口位于充电盒背部。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/20-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒底部产品信息，产品型号Haylou-GT5，输入5V⎓1.0A，输出5V⎓150mA，电池容量580mAh/2.15Wh。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/24-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机左右对称放置在充电盒内，空间比较紧凑。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/32.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机上的隐藏指示灯设计。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/28.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "给耳机充电的两根Pogo Pin，充电座舱内壁非常光滑。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/55.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机和充电盒共重46.3克。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/58-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "撬开充电座舱，卡扣式连接，能看到底部的软包电池。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/59-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "电池下方是无线充电接收线圈。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/61-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "USB Type-C充电接口的开孔和转轴位置展示。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/64-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒主板通过三颗螺丝固定在壳体内侧。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/80-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "丝印ALOBI的霍尔元件，上面还有两颗电容。充电盒盒盖开启、关闭时的磁场变化会被霍尔元件感知到，进而通知充电盒MCU和耳机与已连接设备配对或断开连接。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/62-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电座舱内侧展示，左右耳机位置各有两颗磁铁用于磁吸固定耳机，盒盖开启处有条形磁铁用于吸附盒盖。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/67-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "无线充电接收线圈特写。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/68-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒主PCBA电路展示。左上角是电池导线的焊点，右上角是无线充电接收线圈的焊点，左下角是霍尔元件导线的焊点。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/72-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "USB Type-C有线充电接口特写，黑色胶芯不露铜。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/69-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "用于无线充电接收的谐振电容和滤波电容。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/image-1-806x1024.png",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "COPO酷珀微CP2021高集成度2.5W无线充电接收芯片，符合WPC 1.2.4版本Qi协议；输出电压5V，输出电流可调，最大可到500mA；集成外部电源输入检测功能；集成过温，过压和输出过流保护；集成温度监测、充电完成及和主机故障控制的多功能NTC控制引脚。据我爱音频网拆解了解到，酷珀微的无线充电接收方案目前已被OPPO、漫步者、realme、倍思、魔宴、omthing、iWALK等品牌的TWS耳机大量采用。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/65-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "电池一面是3M贴纸，两侧涂胶粘贴在无线充电接收线圈背面。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/66-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒软包电池来自深圳市凯业盛能源有限公司，型号KYS 801844，额定电压3.7V，额定容量580mAh/2.15Wh。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/74.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "一颗无标MCU，负责电量显示、指示灯控制等充电盒功能。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/50.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "触控区域下方还有一个不太显眼的指示灯。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/107.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机壳体内部展示，两侧有吸附充电座舱的磁铁，被黑色胶水覆盖。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/89-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒主电路一侧展示。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/90-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒主电路另一侧展示。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/103.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "两颗LED指示灯。",
+        "module": "charging_case",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "Haylou嘿喽是东莞市猎声电子科技旗下的音频品牌，公司成立于2015年5月，是最早一批小米生态链企业，猎声目前已成为国内领先的消费级智能运动产品自主品牌和ODM方案提供商。其TWS耳机产品主要有GT系列和T系列，此前我爱音频网曾经拆解过嘿喽 GT1 真无线蓝牙耳机和嘿喽 T16 真无线降噪耳机。今天我们要拆解的是嘿喽GT5真无线蓝牙耳机，这款耳机主打游戏低延迟，官方宣传耳机的游戏延迟可低至65ms。嘿喽GT5采用蓝牙5.0芯片，左右耳同步传输，支持AAC音频编码。耳机支持触控操作，还同时配备了光学入耳检测传感器和无线充电功能，在百元价位的产品中比较少见。续航方面，耳机的单次续航约4小时，充电盒电池容量580mAh，总续航约为24小时。Haylou嘿喽GT5真无线蓝牙耳机内部结构和用料如何，一起来看我爱音频网的详细拆解吧。一、Haylou嘿喽 GT5 真无线蓝牙耳机 开箱",
+      "充电线为USB-A to USB Type-C接口的短线。",
+      "充电盒外观展示，此前多为胶囊状，GT5的充电盒更为扁平。正面开启处有一道凹槽便于打开。",
+      "凹槽内壁是亮面的，充电盒正面还有三个电量指示灯。",
+      "USB Type-C充电接口位于充电盒背部。",
+      "充电盒底部产品信息，产品型号Haylou-GT5，输入5V⎓1.0A，输出5V⎓150mA，电池容量580mAh/2.15Wh。",
+      "耳机左右对称放置在充电盒内，空间比较紧凑。",
+      "耳机上的隐藏指示灯设计。",
+      "给耳机充电的两根Pogo Pin，充电座舱内壁非常光滑。",
+      "耳机和充电盒共重46.3克。",
+      "耳机单重4.1克。耳机和充电盒的重量都比较轻。",
+      "二、Haylou嘿喽 GT5 充电盒拆解",
+      "撬开充电座舱，卡扣式连接，能看到底部的软包电池。",
+      "电池下方是无线充电接收线圈。",
+      "USB Type-C充电接口的开孔和转轴位置展示。",
+      "充电盒主板通过三颗螺丝固定在壳体内侧。",
+      "丝印ALOBI的霍尔元件，上面还有两颗电容。充电盒盒盖开启、关闭时的磁场变化会被霍尔元件感知到，进而通知充电盒MCU和耳机与已连接设备配对或断开连接。",
+      "充电座舱内侧展示，左右耳机位置各有两颗磁铁用于磁吸固定耳机，盒盖开启处有条形磁铁用于吸附盒盖。",
+      "无线充电接收线圈特写。",
+      "充电盒主PCBA电路展示。左上角是电池导线的焊点，右上角是无线充电接收线圈的焊点，左下角是霍尔元件导线的焊点。",
+      "USB Type-C有线充电接口特写，黑色胶芯不露铜。",
+      "用于无线充电接收的谐振电容和滤波电容。",
+      "COPO酷珀微CP2021高集成度2.5W无线充电接收芯片，符合WPC 1.2.4版本Qi协议；输出电压5V，输出电流可调，最大可到500mA；集成外部电源输入检测功能；集成过温，过压和输出过流保护；集成温度监测、充电完成及和主机故障控制的多功能NTC控制引脚。据我爱音频网拆解了解到，酷珀微的无线充电接收方案目前已被OPPO、漫步者、realme、倍思、魔宴、omthing、iWALK等品牌的TWS耳机大量采用。",
+      "电池一面是3M贴纸，两侧涂胶粘贴在无线充电接收线圈背面。",
+      "充电盒软包电池来自深圳市凯业盛能源有限公司，型号KYS 801844，额定电压3.7V，额定容量580mAh/2.15Wh。",
+      "一颗无标MCU，负责电量显示、指示灯控制等充电盒功能。",
+      "三颗LED指示灯特写。",
+      "触控区域下方还有一个不太显眼的指示灯。",
+      "耳机壳体内部展示，两侧有吸附充电座舱的磁铁，被黑色胶水覆盖。",
+      "充电盒主电路一侧展示。",
+      "充电盒主电路另一侧展示。",
+      "两颗LED指示灯。",
+      "拆解全家福。我爱音频网总结Haylou嘿喽GT5真无线蓝牙耳机在外观上延续了品牌特色的黑色极简风设计，不同型号的产品又各有特点。嘿喽GT5充电盒没有采用胶囊外型，改为扁盒设计，支持无线充电功能；耳机为豆式入耳设计，触控区域设计了一个圆形的弧面，整体重量较轻。内部电路方面，嘿喽GT5充电盒支持无线充电，无线充电接收芯片是酷珀微CP2021，支持Qi协议，最大输出功率2.5W；有线充电通过USB Type-C接口，微源LP7801D充电/放电单芯片负责电池的充放电，并且内置OVP可进行输入保护；软包电池来自凯业盛，容量580mAh；充电盒内有霍尔元件用于开盖即连功能；电路上还有一颗无标MCU，负责充电盒整机控制。耳机部分，嘿喽GT5的主控芯片是瑞昱RTL8763B，支持蓝牙5.0，集成了锂电池充电管理等电池防护装置，集成度较高，拓展性强；耳机采用了一颗MEMS硅麦用于通话拾音，动圈扬声器单元的尺寸约为7mm；触控方案为电容式，有触控IC检测；光学入耳检测传感器为天易合芯HX3003M，用于实现耳机的摘下暂停、戴上恢复播放的功能，外围精简，非常小巧。嘿喽GT5同时配备了光学入耳检测传感器和充电盒的无线充电功能，在百元价位的产品中比较少见。"
+    ],
+    "accessories": [],
+    "bom_side": "充电盒",
+    "appearance_images": [],
+    "teardown_image_count": 0,
+    "bom_rows": [
+      {
+        "component": "主板/PCBA",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "充电盒",
+        "role": "major",
+        "evidence": {
+          "value": "主板/PCBA",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "充电盒主板通过三颗螺丝固定在壳体内侧。"
+        }
+      }
+    ]
+  },
+  "earbuds": {
+    "module": "earbuds",
+    "description": "",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/12.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "Haylou嘿喽，品牌名称取自海螺谐音，同时也是英文单词“hello”的谐音。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/17-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "我爱音频网采用ChargerLAB POWER-Z KM001C便携式电源测试仪对嘿喽GT5真无线蓝牙耳机进行有线充电测试，充电功率约为1.9W。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/54-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "Haylou嘿喽GT5真无线蓝牙耳机，品牌设计风格独特。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/77-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "取下主板，内侧还有一块小的PCBA。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/78-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "取出这块小的PCBA板。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/79-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "PCBA板通过三根导线与主板相连。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/75-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "主板另一侧电路展示，芯片背面过孔露铜散热。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/image.png",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "据我爱音频网拆解了解到，目前已有小米、OPPO、华为、联想、摩托罗拉、realme、漫步者、QCY、JLab、Skullcandy、Boltune等品牌的音频产品大量采用了微源的电源管理方案。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/73-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "LowPowerSemi微源半导体LP7801D详细资料。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/微信图片_20201208103018.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "升压电感特写，得益于芯片内置转换器1.2MHz开关频率，可以用非常小的外置电感。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/70.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "COPO南京酷珀微电子有限公司 CP2021 详细资料。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/63-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "苏州赛芯电子科技 XB5335A 锂电保护IC，具有过充，过放，短路，过流等保护功能。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/76-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "导线连接电池正负极镍片。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/71.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "给耳机充电的Pogo Pin。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/38.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "三、Haylou嘿喽 GT5 耳机拆解",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/51-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "下面我们继续来拆解嘿喽GT5的耳机部分，耳机依旧是全黑色的壳体，豆式入耳设计，体积比较小巧。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/52.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机支持触控，触控区域是一个微弧面。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/41.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机底部通话麦克风的拾音孔。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/47-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机内侧展示，有同价位少见的光学入耳检测传感器，上面是充电触点和耳机的L/R左右标识。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/48-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "出音嘴处细密的防尘网，阻止异物进入。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/81-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "出音嘴附近壳体上有泄压/调音孔。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/82-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "沿合模线拆开耳机外侧壳体。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/83-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "壳体内侧展示，中间位置是触控感应区域，顶部是耳机的蓝牙天线。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/84-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机一侧展示，有两根Pogo Pin分别连接触控感应和蓝牙天线的触点。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/85-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "主板下方是电池和音腔内部空间。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/86.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电触点和光学入耳检测传感器所在的PCBA使用大量黑色胶水固定。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/87-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机内部电路展示，扬声器单元和电池通过导线与主板相连。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/109-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "扬声器单元使用大量胶水固定。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/88-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "扬声器单元的尺寸约为7mm。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/95-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "嘿喽GT5真无线蓝牙耳机采用Realtek瑞昱的RTL8763B方案，支持蓝牙5.0，内置32位ARM处理器，24位DSP，运行频率最高160MHz，内置8Mbits Flash内存，减小PCB面积。瑞昱RTL8763B内置锂电池充电管理、过压、过流、欠压保护等电池防护装置。在扩展性方面，支持三路LED驱动，支持触摸IC控制，支持模拟和数字麦克风输入，并且支持双麦克风，具有双耳通话功能。在降噪方面，支持降噪功能和环境音监听模式，是一款全能的TWS真无线蓝牙耳机一体化方案。据我爱音频网拆解了解到，目前已有亚马逊、Anker、FIIL、JLab、小米、红米、QCY、东芝等品牌大量采用了瑞昱的TWS耳机方案。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/91-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "主控芯片的外围电路，包括降压电感和电容等。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/92-2.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "为蓝牙芯片提供时钟的晶振特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/93-2.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "丝印MK5的稳压IC。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/94-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "丝印HH01K 2033的触控IC。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/98-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "丝印OJD的电池保护IC。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/104.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "主板另一侧，FPC焊接在主板上。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/99-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "镭雕MC28 RLLK的MEMS硅麦，外面有保护罩提高密闭性。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/100-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "FPC一侧展示，光学入耳检测传感器外面有一个滤光保护罩。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/101-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "FPC另一侧展示。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/微信截图_20201208201219.png",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "天易合芯HX3003M低功耗距离传感器，内置红外线激光二极管和I2C接口，设计为短距离检测，并且具有环境光和结构串扰噪声的自动消除。封装尺寸仅为2.0*1.6*0.7mm大小，OLGA-6封装，非常小巧，可以放入狭窄的空间中，为耳机增添自动暂停功能。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/102-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "天易合芯HX3003M详细资料。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/105-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "给耳机内置电池传输电力的Pogo Pin特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/110-1.jpg",
+        "alt": "拆解报告：Haylou嘿喽 GT5 真无线蓝牙耳机-我爱音频网",
+        "caption": "软包电池型号541112，额定容量0.16Wh。",
+        "module": "earbuds",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "我爱音频网采用ChargerLAB POWER-Z KM001C便携式电源测试仪对嘿喽GT5真无线蓝牙耳机进行有线充电测试，充电功率约为1.9W。",
+      "Haylou嘿喽GT5真无线蓝牙耳机，品牌设计风格独特。",
+      "LPS微源半导体LP7801D超低功耗充电/放电单芯片，集成了线性充电管理模块、低功耗同步升压放电管理模块，在5V常开时整个耳机仓<10uA的待机电流（含耳机，保护板）；为目前国内首颗通过IEC62368安全认证的多合一芯片。",
+      "给耳机充电的Pogo Pin。",
+      "三、Haylou嘿喽 GT5 耳机拆解",
+      "下面我们继续来拆解嘿喽GT5的耳机部分，耳机依旧是全黑色的壳体，豆式入耳设计，体积比较小巧。",
+      "耳机支持触控，触控区域是一个微弧面。",
+      "耳机底部通话麦克风的拾音孔。",
+      "耳机内侧展示，有同价位少见的光学入耳检测传感器，上面是充电触点和耳机的L/R左右标识。",
+      "出音嘴处细密的防尘网，阻止异物进入。",
+      "出音嘴附近壳体上有泄压/调音孔。",
+      "沿合模线拆开耳机外侧壳体。",
+      "壳体内侧展示，中间位置是触控感应区域，顶部是耳机的蓝牙天线。",
+      "耳机一侧展示，有两根Pogo Pin分别连接触控感应和蓝牙天线的触点。",
+      "充电触点和光学入耳检测传感器所在的PCBA使用大量黑色胶水固定。",
+      "耳机内部电路展示，扬声器单元和电池通过导线与主板相连。",
+      "嘿喽GT5真无线蓝牙耳机采用Realtek瑞昱的RTL8763B方案，支持蓝牙5.0，内置32位ARM处理器，24位DSP，运行频率最高160MHz，内置8Mbits Flash内存，减小PCB面积。瑞昱RTL8763B内置锂电池充电管理、过压、过流、欠压保护等电池防护装置。在扩展性方面，支持三路LED驱动，支持触摸IC控制，支持模拟和数字麦克风输入，并且支持双麦克风，具有双耳通话功能。在降噪方面，支持降噪功能和环境音监听模式，是一款全能的TWS真无线蓝牙耳机一体化方案。据我爱音频网拆解了解到，目前已有亚马逊、Anker、FIIL、JLab、小米、红米、QCY、东芝等品牌大量采用了瑞昱的TWS耳机方案。",
+      "FPC一侧展示，光学入耳检测传感器外面有一个滤光保护罩。",
+      "天易合芯HX3003M低功耗距离传感器，内置红外线激光二极管和I2C接口，设计为短距离检测，并且具有环境光和结构串扰噪声的自动消除。封装尺寸仅为2.0*1.6*0.7mm大小，OLGA-6封装，非常小巧，可以放入狭窄的空间中，为耳机增添自动暂停功能。",
+      "给耳机内置电池传输电力的Pogo Pin特写。"
+    ],
+    "accessories": [],
+    "bom_side": "耳机",
+    "appearance_images": [],
+    "teardown_image_count": 0,
+    "bom_rows": [
+      {
+        "component": "电池",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "major",
+        "evidence": {
+          "value": "电池",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "Haylou嘿喽是东莞市猎声电子科技旗下的音频品牌，公司成立于2015年5月，是最早一批小米生态链企业，猎声目前已成为国内领先的消费级智能运动产品自主品牌和ODM方案提供商。其TWS耳机产品主要有GT系列和T系列，此前我爱音频网曾经拆解过嘿喽 GT1 真无线蓝牙耳机和嘿喽 T16 真无线降噪耳机。今天我们要拆解的是嘿喽GT5真无线蓝牙耳机，这款耳机主打游戏低延迟，官方宣传耳机的游戏延迟可低至65ms。嘿喽GT5采用蓝牙5.0芯片，左右耳同步传输，支持AAC音频编码。耳机支持触控操作，还同时配备了光学入耳检测传感器和无线充电功能，在百元价位的产品中比较少见。续航方面，耳机的单次续航约4小时，充电盒电池容量580mAh，总续航约为24小时。Haylou嘿喽GT5真无线蓝牙耳机内部结构和用料如何，一起来看我爱音频网的详细拆解吧。一、Haylou嘿喽 GT5 真无线蓝牙耳机 开箱"
+        }
+      },
+      {
+        "component": "充电仓",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "major",
+        "evidence": {
+          "value": "充电仓",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "Haylou嘿喽是东莞市猎声电子科技旗下的音频品牌，公司成立于2015年5月，是最早一批小米生态链企业，猎声目前已成为国内领先的消费级智能运动产品自主品牌和ODM方案提供商。其TWS耳机产品主要有GT系列和T系列，此前我爱音频网曾经拆解过嘿喽 GT1 真无线蓝牙耳机和嘿喽 T16 真无线降噪耳机。今天我们要拆解的是嘿喽GT5真无线蓝牙耳机，这款耳机主打游戏低延迟，官方宣传耳机的游戏延迟可低至65ms。嘿喽GT5采用蓝牙5.0芯片，左右耳同步传输，支持AAC音频编码。耳机支持触控操作，还同时配备了光学入耳检测传感器和无线充电功能，在百元价位的产品中比较少见。续航方面，耳机的单次续航约4小时，充电盒电池容量580mAh，总续航约为24小时。Haylou嘿喽GT5真无线蓝牙耳机内部结构和用料如何，一起来看我爱音频网的详细拆解吧。一、Haylou嘿喽 GT5 真无线蓝牙耳机 开箱"
+        }
+      },
+      {
+        "component": "喇叭单元",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "major",
+        "evidence": {
+          "value": "喇叭单元",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "耳机内部电路展示，扬声器单元和电池通过导线与主板相连。"
+        }
+      },
+      {
+        "component": "麦克风",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "major",
+        "evidence": {
+          "value": "麦克风",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "耳机底部通话麦克风的拾音孔。"
+        }
+      },
+      {
+        "component": "天线",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "major",
+        "evidence": {
+          "value": "天线",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "壳体内侧展示，中间位置是触控感应区域，顶部是耳机的蓝牙天线。"
+        }
+      },
+      {
+        "component": "触控/按键",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "minor",
+        "evidence": {
+          "value": "触控/按键",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "Haylou嘿喽是东莞市猎声电子科技旗下的音频品牌，公司成立于2015年5月，是最早一批小米生态链企业，猎声目前已成为国内领先的消费级智能运动产品自主品牌和ODM方案提供商。其TWS耳机产品主要有GT系列和T系列，此前我爱音频网曾经拆解过嘿喽 GT1 真无线蓝牙耳机和嘿喽 T16 真无线降噪耳机。今天我们要拆解的是嘿喽GT5真无线蓝牙耳机，这款耳机主打游戏低延迟，官方宣传耳机的游戏延迟可低至65ms。嘿喽GT5采用蓝牙5.0芯片，左右耳同步传输，支持AAC音频编码。耳机支持触控操作，还同时配备了光学入耳检测传感器和无线充电功能，在百元价位的产品中比较少见。续航方面，耳机的单次续航约4小时，充电盒电池容量580mAh，总续航约为24小时。Haylou嘿喽GT5真无线蓝牙耳机内部结构和用料如何，一起来看我爱音频网的详细拆解吧。一、Haylou嘿喽 GT5 真无线蓝牙耳机 开箱"
+        }
+      }
+    ]
+  },
+  "gaps": [
+    "导语卖点：开箱前无足够长的功能介绍段落"
+  ],
+  "product": {
+    "canonical_id": "unknown--haylou-gt5",
+    "brand": "",
+    "model": "Haylou嘿喽 GT5",
+    "category": "真无线耳机TWS",
+    "earbud_type": "入耳",
+    "report_url": "https://www.52audio.com/archives/65533.html",
+    "price_cny": null
+  },
+  "selling_points_by_tag": {
+    "其他": [
+      "Haylou嘿喽是东莞市猎声电子科技旗下的音频品牌，公司成立于2015年5月，是最早一批小米生态链企业，猎声目 […]\nHaylou嘿喽是东莞市猎声电子科技旗下的音频品牌，公司成立于2015年5月，是最早一批小米生态链企业，猎声目前已成为国内领先的消费级智能运动产品自主品牌和ODM方案提供商。",
+      "Haylou嘿喽是东莞市猎声电子科技旗下的音频品牌，公司成立于2015年5月，是最早一批小米生态链企业，猎声目前已成为国内领先的消费级智能运动产品自主品牌和ODM方案提供商。"
+    ],
+    "降噪": [
+      "在降噪方面，支持降噪功能和环境音监听模式，是一款全能的TWS真无线蓝牙耳机一体化方案。",
+      "其TWS耳机产品主要有GT系列和T系列，此前我爱音频网曾经拆解过\n嘿喽 GT1 真无线蓝牙耳机\n和\n嘿喽 T16 真无线降噪耳机\n。",
+      "其TWS耳机产品主要有GT系列和T系列，此前我爱音频网曾经拆解过嘿喽 GT1 真无线蓝牙耳机和嘿喽 T16 真无线降噪耳机。"
+    ],
+    "防水防尘": [
+      "出音嘴处细密的防尘网，阻止异物进入。"
+    ]
+  }
+}

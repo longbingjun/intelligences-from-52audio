@@ -1,0 +1,643 @@
+{
+  "report_id": "114734",
+  "canonical_id": "unknown--md188",
+  "source": "audio52",
+  "extracted_at": "2026-07-14T06:01:26+00:00",
+  "intro_selling_points": [],
+  "packaging": {
+    "module": "packaging",
+    "description": "MD188蓝牙游戏耳机包装盒正面展示了产品外观渲染图和产品名称。",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407250246.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "MD188蓝牙游戏耳机包装盒正面展示了产品外观渲染图和产品名称。",
+        "module": "packaging",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407250318.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "包装盒内部物品有耳机、耳塞、充电线和产品说明书。",
+        "module": "packaging",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407252634.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "经过开箱我们了解了这款产品的外观设计，下面进入拆解部分看看其内部结构配置信息~",
+        "module": "packaging",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "MD188蓝牙游戏耳机包装盒正面展示了产品外观渲染图和产品名称。",
+      "包装盒内部物品有耳机、耳塞、充电线和产品说明书。",
+      "盒盖内侧用于吸附充电盖的磁铁特写。",
+      "取掉耳塞，椭圆形出音嘴特写，防尘网防护防止异物进入。",
+      "经过开箱我们了解了这款产品的外观设计，下面进入拆解部分看看其内部结构配置信息~",
+      "小板背面电路一览，与主板连接的导线焊接在小板上。",
+      "电池配备有电路保护板，采用了DW01A锂电保护IC和8205A MOS管。",
+      "IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。IP5516 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+      "INJOINIC英集芯IP5516详细资料图。",
+      "前腔内部扬声器单元背面特写。",
+      "取出扬声器，前腔内部结构一览。",
+      "扬声器单元正面特写。",
+      "后腔内部固定电池单元。",
+      "后腔内还设置有隔离层，扬声器和电池导线过孔连接到主板。",
+      "用于连接金属导电网布实现触摸功能的金属弹片。",
+      "JL杰理AD6986D蓝牙音频SoC，用于无线连接和音频数据处理。",
+      "24.000MHZ的晶振特写，为蓝牙芯片提供时钟。",
+      "陶瓷蓝牙天线特写，用于无线信号传输。",
+      "镭雕C37 307的MEMS麦克风特写，用于语音通话功能拾音。"
+    ],
+    "accessories": [],
+    "bom_side": "",
+    "appearance_images": [],
+    "teardown_image_count": 0
+  },
+  "charging_case": {
+    "module": "charging_case",
+    "description": "",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407250044.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "此次我爱音频网将要为大家拆解的MD188蓝牙游戏耳机，外观上采用了机甲风的充电盒设计，拥有三段式指示灯显示剩余电量，炫彩呼吸灯增强游戏氛围；功能上支持双模式双解码，支持开盖秒连、一键操作，以及64ms低延时体验。下面就来详细看看这款产品的拆解报告吧~",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407250467.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "充电线采用了USB-A to Type-C充电接口。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407250730.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "MD188蓝牙游戏耳机充电盒顶部外观一览，类似机甲的透明开窗设计。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407250522.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "MD188蓝牙游戏耳机炫彩呼吸灯效果展示，中间三颗箭头形灯光同时也是充电盒剩余电量指示灯。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407250652.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "充电盒开盖处设置有凹槽，便于开启。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407251047.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "充电盒背面设置有Type-C充电接口。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407250889.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "充电盒底部外观一览。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407251655.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "打开充电盒盖，耳机放置状态展示。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407251710.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "充电盒座舱上箭头型指示灯特写。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407252530.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "取出耳机，充电盒内部结构一览。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407251852.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "耳机座舱内部设置有凸起的缓冲垫。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407250962.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "耳机柄座舱内用于为耳机充电的金属顶针特写。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407252175.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "弧形结构错落处还设置有类似“回旋镖”造型的指示灯，用于反馈耳机的工作状态，以及营造游戏氛围。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407252762.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "撬开充电盒座舱，腔体内部结构一览。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407252891.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "充电盒主板通过螺丝固定在座舱背部。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407252918.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "卸掉螺丝，取出充电盒内主要组件。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407252916.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "座舱底部结构一览，中间箭头为指示灯导光柱，两侧设置有四颗磁铁用于吸附耳机和充电盒盖。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407253082.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "电源输入小板一侧电路一览，焊接有Type-C充电母座。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407253897.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "充电盒内锂离子电池型号ZH801530，电压：3.7V，容量：300mAh。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407253280.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "充电盒主板一侧电路一览。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407253450.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "充电盒主板另外一侧电路一览。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407253557.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "充电盒为耳机充电的Pogo pin连接器特写。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407253788.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "三颗LED指示灯特写，用于反馈充电盒剩余电量信息。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407301971.png",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "据我爱音频网拆解了解到，目前已有漫步者、JLab、海贝、倍思、网易云音乐、Pioneer先锋、PIHEN品恒、公牛、傲基、MPOW、BoAt、诺基亚、联想、Ambie等大量品牌的TWS耳机充电盒采用英集芯的电源管理方案。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407254713.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "盖板内侧设置有金属导电布，用于触摸控制。指示灯导光柱设置有黑色泡棉罩，防止漏光。底部是麦克风防尘罩。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407255264.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "耳机LED指示灯特写。",
+        "module": "charging_case",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "此次我爱音频网将要为大家拆解的MD188蓝牙游戏耳机，外观上采用了机甲风的充电盒设计，拥有三段式指示灯显示剩余电量，炫彩呼吸灯增强游戏氛围；功能上支持双模式双解码，支持开盖秒连、一键操作，以及64ms低延时体验。下面就来详细看看这款产品的拆解报告吧~",
+      "充电线采用了USB-A to Type-C充电接口。",
+      "MD188蓝牙游戏耳机充电盒顶部外观一览，类似机甲的透明开窗设计。",
+      "MD188蓝牙游戏耳机炫彩呼吸灯效果展示，中间三颗箭头形灯光同时也是充电盒剩余电量指示灯。",
+      "充电盒开盖处设置有凹槽，便于开启。",
+      "充电盒背面设置有Type-C充电接口。",
+      "充电盒底部外观一览。",
+      "打开充电盒盖，耳机放置状态展示。",
+      "充电盒座舱上箭头型指示灯特写。",
+      "取出耳机，充电盒内部结构一览。",
+      "耳机座舱内部设置有凸起的缓冲垫。",
+      "耳机柄座舱内用于为耳机充电的金属顶针特写。",
+      "弧形结构错落处还设置有类似“回旋镖”造型的指示灯，用于反馈耳机的工作状态，以及营造游戏氛围。",
+      "撬开充电盒座舱，腔体内部结构一览。",
+      "充电盒主板通过螺丝固定在座舱背部。",
+      "卸掉螺丝，取出充电盒内主要组件。",
+      "座舱底部结构一览，中间箭头为指示灯导光柱，两侧设置有四颗磁铁用于吸附耳机和充电盒盖。",
+      "电源输入小板一侧电路一览，焊接有Type-C充电母座。",
+      "充电盒内锂离子电池型号ZH801530，电压：3.7V，容量：300mAh。",
+      "充电盒主板一侧电路一览。",
+      "充电盒主板另外一侧电路一览。",
+      "充电盒为耳机充电的Pogo pin连接器特写。",
+      "三颗LED指示灯特写，用于反馈充电盒剩余电量信息。",
+      "INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
+      "据我爱音频网拆解了解到，目前已有漫步者、JLab、海贝、倍思、网易云音乐、Pioneer先锋、PIHEN品恒、公牛、傲基、MPOW、BoAt、诺基亚、联想、Ambie等大量品牌的TWS耳机充电盒采用英集芯的电源管理方案。",
+      "盖板内侧设置有金属导电布，用于触摸控制。指示灯导光柱设置有黑色泡棉罩，防止漏光。底部是麦克风防尘罩。",
+      "耳机LED指示灯特写。",
+      "内部结构配置方面，充电盒内置电池容量300mAh，采用了Type-C充电接口输入电源，搭载英集芯 IP5516 充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，提供了完整的充电盒电源解决方案。耳机内置40mAh电池，JL杰理AD6986D蓝牙音频SoC，用于无线连接和音频数据处理；搭配高灵敏MEMS麦克风，实现游戏时与队友的清晰沟通。"
+    ],
+    "accessories": [],
+    "bom_side": "充电盒",
+    "appearance_images": [],
+    "teardown_image_count": 0,
+    "bom_rows": [
+      {
+        "component": "电池",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "充电盒",
+        "role": "major",
+        "evidence": {
+          "value": "电池",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "充电盒内锂离子电池型号ZH801530，电压：3.7V，容量：300mAh。"
+        }
+      },
+      {
+        "component": "充电仓",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "充电盒",
+        "role": "major",
+        "evidence": {
+          "value": "充电仓",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "充电盒主板通过螺丝固定在座舱背部。"
+        }
+      },
+      {
+        "component": "主板/PCBA",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "充电盒",
+        "role": "major",
+        "evidence": {
+          "value": "主板/PCBA",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "充电盒主板通过螺丝固定在座舱背部。"
+        }
+      },
+      {
+        "component": "芯片/模组",
+        "brand": "",
+        "model": "英集芯 IP5516",
+        "qty_hint": "1",
+        "side": "充电盒",
+        "role": "主控/蓝牙",
+        "evidence": {
+          "value": "英集芯 IP5516",
+          "confidence": 0.78,
+          "source_type": "text",
+          "source_text": "充电接口：内部结构配置方面，充电盒内置电池容量300mAh，采用了Type-C充电接口输入电源，搭载\n英集芯 IP5516 充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，提供了完整的充电盒电源解决方案。"
+        }
+      }
+    ]
+  },
+  "earbuds": {
+    "module": "earbuds",
+    "description": "",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407250259.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "背面展示了耳机的外观渲染图以及部分功能特点介绍。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407250570.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "两副不同尺寸的硅胶耳塞，耳机预装一副，总共三种规格，满足不同人群的佩戴使用需求。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407250910.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "盒盖内侧用于吸附充电盖的磁铁特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407251240.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "MD188蓝牙游戏耳机整体外观一览。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407251398.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "MD188耳机整体外观一览，采用了柄状的入耳式设计。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407252248.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "耳机柄背部线条流畅，层次感丰富。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407252270.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "耳机泄压孔特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407251483.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "耳机麦克风拾音孔特写，用于语音通话功能。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407252372.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "耳机内侧外观一览。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407251943.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "耳机柄内侧金属充电触点特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407252030.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "取掉耳塞，椭圆形出音嘴特写，防尘网防护防止异物进入。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407251484.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "耳机调音孔特写，用于保障音腔内部空气流通。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407251592.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "经我爱音频网实测，MD188蓝牙游戏耳机整体重量约为37.6g。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407251679.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "单只耳机重量仅为4.1g，非常的轻盈，提升佩戴舒适性。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407253366.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "小板背面电路一览，与主板连接的导线焊接在小板上。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407253183.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "电池配备有电路保护板，采用了DW01A锂电保护IC和8205A MOS管。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407253652.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "INJOINIC英集芯IP5516详细资料图。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407254073.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "2R2升压电感，配合电源管理芯片升压为耳机充电。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407254119.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "进入耳机拆解部分，沿耳机头合模线撬开腔体。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407254398.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "前腔内部扬声器单元背面特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407254490.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "取出扬声器，前腔内部结构一览。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407254196.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "扬声器单元正面特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407254271.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "后腔内部固定电池单元。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407254578.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "后腔内还设置有隔离层，扬声器和电池导线过孔连接到主板。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407254666.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "撬开耳机柄背部盖板，腔体内部结构一览。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407255470.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "耳机主板一侧电路一览。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407254834.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "取出主板，耳机柄内部结构一览。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407254933.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "耳机主板另外一侧电路一览。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407254946.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "用于连接金属导电网布实现触摸功能的金属弹片。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407255368.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "JL杰理AD6986D蓝牙音频SoC，用于无线连接和音频数据处理。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407255011.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "24.000MHZ的晶振特写，为蓝牙芯片提供时钟。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407255145.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "陶瓷蓝牙天线特写，用于无线信号传输。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407255219.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "镭雕C37 307的MEMS麦克风特写，用于语音通话功能拾音。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407254721.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "为耳机充电的两颗金属铜柱特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/04/2022042407255516.jpg",
+        "alt": "拆解报告：MD188蓝牙游戏耳机-我爱音频网",
+        "caption": "耳机内部采用了软包锂离子电池，型号NY451010，容量40mAh，电压3.7V。",
+        "module": "earbuds",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "TWS耳机经过几年的快速发展，目前已经延伸出了许多的细分市场，其中游戏耳机基于更高的自由度、炫酷的外观设计、低延时、游戏音效等功能体验获得许多游戏玩家的喜爱，成为了这部分用户在购买TWS耳机时的首选。",
+      "背面展示了耳机的外观渲染图以及部分功能特点介绍。",
+      "两副不同尺寸的硅胶耳塞，耳机预装一副，总共三种规格，满足不同人群的佩戴使用需求。",
+      "MD188蓝牙游戏耳机整体外观一览。",
+      "MD188耳机整体外观一览，采用了柄状的入耳式设计。",
+      "耳机柄背部线条流畅，层次感丰富。",
+      "耳机泄压孔特写。",
+      "耳机麦克风拾音孔特写，用于语音通话功能。",
+      "耳机内侧外观一览。",
+      "耳机柄内侧金属充电触点特写。",
+      "耳机调音孔特写，用于保障音腔内部空气流通。",
+      "经我爱音频网实测，MD188蓝牙游戏耳机整体重量约为37.6g。",
+      "单只耳机重量仅为4.1g，非常的轻盈，提升佩戴舒适性。",
+      "我爱音频网采用CHARGERLAB POWER-Z KM002C对MD188蓝牙游戏耳机进行有线充电测试，充电功率约为1.25W。",
+      "2R2升压电感，配合电源管理芯片升压为耳机充电。",
+      "进入耳机拆解部分，沿耳机头合模线撬开腔体。",
+      "撬开耳机柄背部盖板，腔体内部结构一览。",
+      "耳机主板一侧电路一览。",
+      "取出主板，耳机柄内部结构一览。",
+      "耳机主板另外一侧电路一览。",
+      "为耳机充电的两颗金属铜柱特写。",
+      "耳机内部采用了软包锂离子电池，型号NY451010，容量40mAh，电压3.7V。",
+      "MD188蓝牙游戏耳机拆解全家福。",
+      "MD188蓝牙游戏耳机在外观设计上比较有特点，机甲风的充电盒设计，透明开窗结构，搭配炫彩呼吸灯，呈现超酷的视觉观感；耳机同样设计有炫酷呼吸灯提升游戏氛围。柄状的入耳式耳机重量仅为4.1g，搭配三种不同尺寸的硅胶耳塞，提供舒适的佩戴效果。"
+    ],
+    "accessories": [],
+    "bom_side": "耳机",
+    "appearance_images": [],
+    "teardown_image_count": 0,
+    "bom_rows": []
+  },
+  "gaps": [
+    "包装配件清单：未能从「包括…等」句式解析出零件列表",
+    "导语卖点：开箱前无足够长的功能介绍段落"
+  ],
+  "product": {
+    "canonical_id": "unknown--md188",
+    "brand": "",
+    "model": "MD188蓝牙游戏",
+    "category": "真无线耳机TWS",
+    "earbud_type": "入耳",
+    "report_url": "https://www.52audio.com/archives/114734.html",
+    "price_cny": null
+  },
+  "selling_points_by_tag": {
+    "防水防尘": [
+      "TWS耳机经过几年的快速发展，目前已经延伸出了许多的细分市场，其中游戏耳机基于更高的自由度、炫酷的外观设计、低 […]\n取掉耳塞，椭圆形出音嘴特写，防尘网防护防止异物进入。",
+      "标记/认证：IP5516 的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+      "标记/认证：INJOINIC英集芯IP5516\n详细资料图。",
+      "底部是麦克风防尘罩。",
+      "标记/认证：IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。"
+    ]
+  }
+}

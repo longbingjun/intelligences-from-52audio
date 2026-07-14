@@ -1,0 +1,543 @@
+{
+  "report_id": "84922",
+  "canonical_id": "unknown--nome",
+  "source": "audio52",
+  "extracted_at": "2026-07-14T06:27:34+00:00",
+  "intro_selling_points": [],
+  "packaging": {
+    "module": "packaging",
+    "description": "包装盒采用了开窗的设计，能够直接看到内部产品外观。包装盒上信息有NOME品牌LOGO，产品名称迷你无线蓝牙平耳耳机，以及触控设计、迷你小巧、自动配对、高清通话等功能特点。",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613111890.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "包装盒背面印有操控指南，支持单击、双击、三击、长按等操控模式；产品特点：触控设计、蓝牙5.0、10米有效距离，单次续航时间3.5小时，整体续航时间24小时，13mm大尺寸单元等，品牌商：广州诺米品牌管理有限公司。",
+        "module": "packaging",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613111874.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "包装盒内有耳机、充电线和产品说明书。",
+        "module": "packaging",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613112243.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "经过开箱，对大致外观有了了解，下面就进入拆解部分，看看这款产品的内部结构配置~",
+        "module": "packaging",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "包装盒采用了开窗的设计，能够直接看到内部产品外观。包装盒上信息有NOME品牌LOGO，产品名称迷你无线蓝牙平耳耳机，以及触控设计、迷你小巧、自动配对、高清通话等功能特点。",
+      "包装盒背面印有操控指南，支持单击、双击、三击、长按等操控模式；产品特点：触控设计、蓝牙5.0、10米有效距离，单次续航时间3.5小时，整体续航时间24小时，13mm大尺寸单元等，品牌商：广州诺米品牌管理有限公司。",
+      "包装盒内有耳机、充电线和产品说明书。",
+      "经过开箱，对大致外观有了了解，下面就进入拆解部分，看看这款产品的内部结构配置~",
+      "锂离子聚合物软包电池型号JYZ801328，额定容量：300mAh/1.11Wh，额定电压：3.7V。来自深圳市金宇宙能源有限公司。",
+      "电池配备有电路保护板，负责电池的过充过放过流保护功能。",
+      "扬声器背面特写，边缘设置有调音孔，通过胶水固定在前腔内。与主板连接的导线焊接在扬声器的PCB板上。",
+      "经我爱音频网实测，扬声器尺寸约为13mm，与官方宣传一致。",
+      "扬声器与电池导线焊接在主板上。",
+      "锂离子软包电池型号JYZ400911，额定电压：3.7V，额定容量25mAh，同样来自金宇宙。",
+      "主板正面电路一览。",
+      "主板背面电路一览。",
+      "主板侧边连接触摸传感器的金属触点。",
+      "丝印04335o的触摸检测IC。",
+      "陶瓷蓝牙天线特写。",
+      "主板底部充电的金属结构焊接在主板上。",
+      "镭雕G346的MEMS硅麦克风，用于语音通话拾音。"
+    ],
+    "accessories": [],
+    "bom_side": "",
+    "appearance_images": [],
+    "teardown_image_count": 0
+  },
+  "charging_case": {
+    "module": "charging_case",
+    "description": "",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613111993.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "USB-A to USB Type-C充电线。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613111971.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "NOME诺米无线蓝牙耳机充电盒外观一览，此款为白色配色，整体触感光滑。充电盒盖开盖处曲线独特，正面有凹槽便于开启。以及一颗状态指示灯。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613112022.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "Type-C充电接口位于充电盒底部，充电盒腰线做了弧形的凹槽，提升产品的层次感。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613112089.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "打开充电盒盖，耳机立式放置在充电盒内。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613112166.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "为耳机充电的金属弹片位于充电盒座舱底部。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613112118.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "充电盒重量约为26.6g。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613112212.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "撬开充电盒取出充电座舱。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613112358.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "充电座舱结构一览。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613112358-1.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "主板位于充电座舱底部，通过螺丝固定。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613112454.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "取掉充电座舱的主要电路，底部三颗圆形磁铁用于吸附充电盒盖和两只耳机。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613112427.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "充电盒内主要电路一览。电池与主板之间设置有海绵缓冲垫。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613125524.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "主板上两颗LED指示灯特写。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613125763.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "丝印 GR03A 3820J 的IC，用于充电盒内部电池充电及升压输出。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613130224.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "腔体壁上还通过卡槽和胶水固定有圆形磁铁，用于与充电盒吸附。",
+        "module": "charging_case",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "USB-A to USB Type-C充电线。",
+      "NOME诺米无线蓝牙耳机充电盒外观一览，此款为白色配色，整体触感光滑。充电盒盖开盖处曲线独特，正面有凹槽便于开启。以及一颗状态指示灯。",
+      "充电盒背面印有NOME品牌LOGO，迷你无线蓝牙平耳耳机的产品名称，型号：T02，充电输入：5V-1A等。",
+      "Type-C充电接口位于充电盒底部，充电盒腰线做了弧形的凹槽，提升产品的层次感。",
+      "打开充电盒盖，耳机立式放置在充电盒内。",
+      "为耳机充电的金属弹片位于充电盒座舱底部。",
+      "充电盒重量约为26.6g。",
+      "撬开充电盒取出充电座舱。",
+      "充电座舱结构一览。",
+      "主板位于充电座舱底部，通过螺丝固定。",
+      "取掉充电座舱的主要电路，底部三颗圆形磁铁用于吸附充电盒盖和两只耳机。",
+      "充电盒内主要电路一览。电池与主板之间设置有海绵缓冲垫。",
+      "主板上两颗LED指示灯特写。",
+      "丝印 GR03A 3820J 的IC，用于充电盒内部电池充电及升压输出。",
+      "腔体壁上还通过卡槽和胶水固定有圆形磁铁，用于与充电盒吸附。",
+      "BT8892B专为TWS耳机应用设计，芯片高度集成化，PCB外围物料精简。通讯协议支持蓝牙5.0 双模，支持APP应用。解码格式支持SBC/mSBC、AAC，内置10段参量式均衡器。内置5V充电触点单线通讯、内置锂电池充电管理电路，适用于智能充电仓应用。支持主副耳无缝切换。通话部分内置单MIC ENC降噪/AEC回音消除算法。原厂提供配置化编程工具，方便客户产品迅速投入市场。",
+      "内部结构上也相对较为简单，充电盒内置锂离子软包电池容量300mAh，来自金宇宙；采用了Type-C充电接口输入电源，丝印GR03A 3820J 的IC用于电池充电和放电为耳机充电。"
+    ],
+    "accessories": [],
+    "bom_side": "充电盒",
+    "appearance_images": [],
+    "teardown_image_count": 0,
+    "bom_rows": [
+      {
+        "component": "电池",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "充电盒",
+        "role": "major",
+        "evidence": {
+          "value": "电池",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "充电盒内主要电路一览。电池与主板之间设置有海绵缓冲垫。"
+        }
+      },
+      {
+        "component": "充电仓",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "充电盒",
+        "role": "major",
+        "evidence": {
+          "value": "充电仓",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "充电盒内主要电路一览。电池与主板之间设置有海绵缓冲垫。"
+        }
+      }
+    ]
+  },
+  "earbuds": {
+    "module": "earbuds",
+    "description": "",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613111672.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "TWS耳机的火爆，众多品牌都已跨界入行。作为一家创意设计品牌，诺米也给出了自家的解决方案。今天将要拆解的便是诺米的一款TWS耳机产品——迷你无线蓝牙平耳耳机。下面就来看看这款产品的外观设计及内部结构配置吧~",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613112191.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "NOME诺米 迷你无线蓝牙平耳耳机整体外观一览。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613112183.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "经我爱音频网实测，NOME诺米 迷你无线蓝牙平耳耳机整体重量约为32.8g。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613112277.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "两只耳机整体重量为6.3g，非常的轻便，提升佩戴的舒适度。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613112421.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "锂离子聚合物软包电池型号JYZ801328，额定容量：300mAh/1.11Wh，额定电压：3.7V。来自深圳市金宇宙能源有限公司。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613125540.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "电池配备有电路保护板，负责电池的过充过放过流保护功能。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613125672.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "主板上为耳机充电的金属弹片特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613125774.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "耳机采用了柄状的半入耳式设计，出音嘴设计较为独特，更加深入耳道。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613125785.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "耳机柄曲线设计也非常独特，顶部是触摸操控位置。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613125841.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "底部为耳机充电的金属结构，中间为麦克风开孔，用于语音通话拾音。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613125898.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "耳机头底部有一颗圆形泄压孔。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613125830.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "耳机正面还有一个独特的“十字星”泄压孔，内部金属网覆盖，防止异物进入。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613125927.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "耳机出音嘴也采用了金属网罩覆盖，防止异物进入音腔。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613125914.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "耳机头外观曲线一览，符合人体工学设计，佩戴较为舒适。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613125937.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "沿合模线撬开耳机。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613130074.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "耳机头内部结构一览。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613130012.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "扬声器背面特写，边缘设置有调音孔，通过胶水固定在前腔内。与主板连接的导线焊接在扬声器的PCB板上。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613130192.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "经我爱音频网实测，扬声器尺寸约为13mm，与官方宣传一致。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613130163.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "软包电池位于耳机后腔内。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613130217.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "扬声器与电池导线焊接在主板上。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613130338.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "耳机内软包电池与一元硬币大小对比。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613130397.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "锂离子软包电池型号JYZ400911，额定电压：3.7V，额定容量25mAh，同样来自金宇宙。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613152562.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "耳机后腔壁上贴有一块导电布，用于电容式触摸。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613152628.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "从耳机柄内取出主板，主板与一元硬币大小对比。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613152683.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "主板正面电路一览。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613152616.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "主板背面电路一览。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613152751.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "主板侧边连接触摸传感器的金属触点。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613152729.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "丝印04335o的触摸检测IC。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613152880.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "陶瓷蓝牙天线特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613152888.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "主板底部充电的金属结构焊接在主板上。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613152942.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "镭雕G346的MEMS硅麦克风，用于语音通话拾音。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070613153036.png",
+        "alt": "拆解报告：NOME诺米 迷你无线蓝牙平耳耳机-我爱音频网",
+        "caption": "据我爱音频网拆解了解到，目前已有联想、飞利浦、夏新、山水、梵蒂尼等品牌的TWS耳机大量采用中科蓝讯的方案。",
+        "module": "earbuds",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "NOME诺米由瑞典独立设计师及合作设计师组成，为品牌提供创意支持。诺米品牌产品包括家居、美护、零食、数码等众多领域，涵盖日常生活众多方面。旗下数码产品有耳机、音箱、充电器等。",
+      "TWS耳机的火爆，众多品牌都已跨界入行。作为一家创意设计品牌，诺米也给出了自家的解决方案。今天将要拆解的便是诺米的一款TWS耳机产品——迷你无线蓝牙平耳耳机。下面就来看看这款产品的外观设计及内部结构配置吧~",
+      "NOME诺米 迷你无线蓝牙平耳耳机整体外观一览。",
+      "经我爱音频网实测，NOME诺米 迷你无线蓝牙平耳耳机整体重量约为32.8g。",
+      "两只耳机整体重量为6.3g，非常的轻便，提升佩戴的舒适度。",
+      "我爱音频网采用ChargerLAB POWER-Z KM001C便携式电源测试仪对NOME诺米 迷你无线蓝牙平耳耳机进行有线充电测试，充电功率约为2.17W。",
+      "主板上为耳机充电的金属弹片特写。",
+      "耳机采用了柄状的半入耳式设计，出音嘴设计较为独特，更加深入耳道。",
+      "耳机柄曲线设计也非常独特，顶部是触摸操控位置。",
+      "底部为耳机充电的金属结构，中间为麦克风开孔，用于语音通话拾音。",
+      "耳机头底部有一颗圆形泄压孔。",
+      "耳机正面还有一个独特的“十字星”泄压孔，内部金属网覆盖，防止异物进入。",
+      "耳机出音嘴也采用了金属网罩覆盖，防止异物进入音腔。",
+      "耳机头外观曲线一览，符合人体工学设计，佩戴较为舒适。",
+      "沿合模线撬开耳机。",
+      "耳机头内部结构一览。",
+      "软包电池位于耳机后腔内。",
+      "耳机内软包电池与一元硬币大小对比。",
+      "耳机后腔壁上贴有一块导电布，用于电容式触摸。",
+      "从耳机柄内取出主板，主板与一元硬币大小对比。",
+      "中科蓝讯 BT8892B 蓝牙音频SoC，为中科蓝讯讯龙系列，主要针对TWS耳机市场。具有32位RISC-V处理器，支持DSP指令集，运行频率最高125MHz。芯片采用QFN32 4×4小型封装，适用于各种TWS小型耳机。",
+      "据我爱音频网拆解了解到，目前已有联想、飞利浦、夏新、山水、梵蒂尼等品牌的TWS耳机大量采用中科蓝讯的方案。",
+      "NOME诺米 迷你无线蓝牙平耳耳机拆解全家福。",
+      "NOME诺米 迷你无线蓝牙平耳耳机在整体外观设计上非常的简洁，并且非常的小巧轻盈。独特的耳机曲线，能够更加深入耳道，提升音频体验。“十字星”的泄压孔，提升产品的趣味性。",
+      "耳机部分，耳机头内配备了13mm大尺寸动圈单元和25mAh软包电池，通过导线焊接与主板连接。主板上，主控芯片采用了专为TWS耳机设计的中科蓝讯 BT8892B 蓝牙音频SoC，具有32位RISC-V处理器，支持DSP指令集，支持蓝牙5.0 双模，支持单MIC ENC降噪/AEC回音消除算法。"
+    ],
+    "accessories": [],
+    "bom_side": "耳机",
+    "appearance_images": [],
+    "teardown_image_count": 0,
+    "bom_rows": [
+      {
+        "component": "喇叭单元",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "major",
+        "evidence": {
+          "value": "喇叭单元",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "耳机部分，耳机头内配备了13mm大尺寸动圈单元和25mAh软包电池，通过导线焊接与主板连接。主板上，主控芯片采用了专为TWS耳机设计的中科蓝讯 BT8892B 蓝牙音频SoC，具有32位RISC-V处理器，支持DSP指令集，支持蓝牙5.0 双模，支持单MIC ENC降噪/AEC回音消除算法。"
+        }
+      },
+      {
+        "component": "充电触点",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "minor",
+        "evidence": {
+          "value": "充电触点",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "BT8892B专为TWS耳机应用设计，芯片高度集成化，PCB外围物料精简。通讯协议支持蓝牙5.0 双模，支持APP应用。解码格式支持SBC/mSBC、AAC，内置10段参量式均衡器。内置5V充电触点单线通讯、内置锂电池充电管理电路，适用于智能充电仓应用。支持主副耳无缝切换。通话部分内置单MIC ENC降噪/AEC回音消除算法。原厂提供配置化编程工具，方便客户产品迅速投入市场。"
+        }
+      },
+      {
+        "component": "芯片/模组",
+        "brand": "",
+        "model": "BT8892B",
+        "qty_hint": "1",
+        "side": "耳机",
+        "role": "主控/蓝牙",
+        "evidence": {
+          "value": "BT8892B",
+          "confidence": 0.78,
+          "source_type": "text",
+          "source_text": "BT8892B专为TWS耳机应用设计，芯片高度集成化，PCB外围物料精简。"
+        }
+      }
+    ]
+  },
+  "gaps": [
+    "包装配件清单：未能从「包括…等」句式解析出零件列表",
+    "导语卖点：开箱前无足够长的功能介绍段落"
+  ],
+  "product": {
+    "canonical_id": "unknown--nome",
+    "brand": "",
+    "model": "NOME诺米 迷你无线蓝牙平耳",
+    "category": "真无线耳机TWS",
+    "earbud_type": "入耳",
+    "report_url": "https://www.52audio.com/archives/84922.html",
+    "price_cny": null
+  },
+  "selling_points_by_tag": {
+    "其他": [
+      "标记/认证：锂离子软包电池型号JYZ400911，额定电压：3.7V，额定容量25mAh，同样来自金宇宙。",
+      "充电接口：Type-C\n充电接口：USB-A\n标记/认证：充电盒背面印有NOME品牌LOGO，迷你无线蓝牙平耳耳机的产品名称，型号：T02，充电输入：5V-1A等。",
+      "标记/认证：锂离子聚合物软包电池型号JYZ801328，额定容量：300mAh/1.11Wh，额定电压：3.7V。"
+    ],
+    "降噪": [
+      "诺米品牌产品包括家居、美护、零食、数码等众多 […]\n通话部分内置单MIC ENC降噪/AEC回音消除算法。",
+      "通话部分内置单MIC ENC降噪/AEC回音消除算法。"
+    ]
+  }
+}

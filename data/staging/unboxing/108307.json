@@ -1,0 +1,211 @@
+{
+  "report_id": "108307",
+  "canonical_id": "realme--buds-q2",
+  "source": "audio52",
+  "extracted_at": "2026-07-14T06:00:52+00:00",
+  "intro_selling_points": [
+    {
+      "text": "realme真我Buds Q2真无线耳机是realme公司不久前推出的真我Buds Q耳机的升级款，产品小巧轻盈的设计，拥有黑色和淡蓝色两款配色。功能配置上搭载了10mm低音动圈单元，支持DBB增强技术，支持高清通话降噪、低延迟游戏模式，拥有20h的续航。",
+      "tag": "降噪",
+      "evidence": {
+        "value": "realme真我Buds Q2真无线耳机是realme公司不久前推出的真我Buds Q耳机的升级款，产品小巧轻盈的设计，拥有黑色和淡蓝色两款配色。功能配置上搭载了10mm低音动圈单元，支持DBB增强技术，支持高清通话降噪、低延迟游戏模式，拥有20h的续航。",
+        "confidence": 0.72,
+        "source_type": "intro",
+        "source_text": "realme真我Buds Q2真无线耳机是realme公司不久前推出的真我Buds Q耳机的升级款，产品小巧轻盈的设计，拥有黑色和淡蓝色两款配色。功能配置上搭载了10mm低音动圈单元，支持DBB增强技术，支持高清通话降噪、低延迟游戏模式，拥有20h的续航。"
+      }
+    }
+  ],
+  "packaging": {
+    "module": "packaging",
+    "description": "微源LP5305是一颗输入耐压达26V的过压保护芯片，支持可调节的过电流保护。支持输入端过电压保护，电池过电压保护，具备高精度保护阈值，支持故障状态输出和使能开关控制。内置欠压闭锁和输出短路保护，支持器件过热保护。",
+    "images": [],
+    "notes": [
+      "微源LP5305是一颗输入耐压达26V的过压保护芯片，支持可调节的过电流保护。支持输入端过电压保护，电池过电压保护，具备高精度保护阈值，支持故障状态输出和使能开关控制。内置欠压闭锁和输出短路保护，支持器件过热保护。",
+      "相比传统过压过流保护芯片来说，LP5305支持锂电池电压检测，当电池电压超过4.35V，即自动切断电源输出，防止电池过充出现危险，为电池安全增添一道防线。LP5305支持0.3-1.5A电流设置，输入保护电压5.85V，芯片支持LDO模式，输出电压为5.5V，可在1μS之内对异常情况做出反应，切断输出电压。",
+      "‎‎LP28055具备热反馈调节功能，可调节充电电流，以限制高功率操作或高环境温度期间的芯片温度。充电电压固定在 4.2V，并且充电电流可利用单个电阻器在外部设定为 ISET。在达到最终浮动电压后，当充电电流降至1/10设置电流值时，LP28055会自动终止充电周期。",
+      "当输入电源被移除时，LP28055 会自动进入低电流状态，从而将电池漏极电流降至 1μA 以下。其他特点包括充电电流监视器、欠压锁定、自动再充电和一个状态引脚，用于指示充电终止和是否存在输入电压。‎",
+      "LP6260在轻负载条件下仅消耗1UA静态电流，在20uA负载下可实现高达75%的效率，在200mA负载下，从3.3V到5V的转换效率高达93%。",
+      "据我爱音频网拆解了解到，目前已有小米、OPPO、华为、联想、摩托罗拉、realme、漫步者、QCY、JLab、Skullcandy、Boltune等品牌的音频产品大量采用了微源的电源管理方案。",
+      "关于微源半导体",
+      "微源半导体是世界领先的模拟芯片设计公司，持续专注于电源管理芯片为主的模拟芯片领域。全球布局研发中心和销售中心，致力于为客户提供完整的电源管理解决方案和技术服务，广泛应用于电池系统、显示系统、无线通讯系统和个人穿戴系统等3C市场相关产品。",
+      "微源半导体产品涉及了消费类产品市场、通讯类产品市场、 电脑周边产品市场、穿戴式产品市场和物联网产品市场等领域，拥有电池充电芯片、电池管理系统芯片、升压芯片、降压芯片、电源管理芯片、过压/过流保护芯片、LED驱动芯片、屏显示电源芯片（PMIC），以及音频功放芯片、场效应管等。"
+    ],
+    "accessories": [
+      "充电电流监视器",
+      "欠压锁定",
+      "自动再充电",
+      "一个状态引脚",
+      "用于指示充电终止",
+      "是否存在输入电压"
+    ],
+    "bom_side": "",
+    "appearance_images": [],
+    "teardown_image_count": 0
+  },
+  "charging_case": {
+    "module": "charging_case",
+    "description": "",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/03/rXPn0kQhQdTj7cm2.jpgthumbnail.jpg",
+        "alt": "微源半导体电源管理芯片获realme Buds Q2真无线耳机-我爱音频网",
+        "caption": "我爱音频网在realme Buds Q2真无线耳机拆解中发现其充电盒内部采用了三颗来自微源半导体的芯片，它们分别为“LP5305过压过流保护IC”、“LP28055锂电池线性充电IC”以及“LP6260超低静态同步升压转换器”。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/03/FnSuEQ8OtwtbBC42.jpgthumbnail.jpg",
+        "alt": "微源半导体电源管理芯片获realme Buds Q2真无线耳机-我爱音频网",
+        "caption": "realme Buds Q2真无线耳机充电盒造型设计为鹅卵石状的椭圆形状，小巧玲珑，即便是女生也能够在单手握持时拥有舒适的手感，充电盒颜色则是采用了浅蓝色，养眼舒适。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/03/qPzmKyfqUzEPiYH1.jpgthumbnail.jpg",
+        "alt": "微源半导体电源管理芯片获realme Buds Q2真无线耳机-我爱音频网",
+        "caption": "拆开充电盒，取出内部电路板。主板上的主要元器件集中在了主板中间，为耳机充电的Pogo pin连接器位于主板的左右两侧。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/03/a0Ep9JVzit1NO0Y1.pngthumbnail.jpg",
+        "alt": "微源半导体电源管理芯片获realme Buds Q2真无线耳机-我爱音频网",
+        "caption": "在LP5305过压保护IC上方的为LPS微源型号LP28055的1A锂电池线性充电IC，最高耐压28V，输入过压保护7V，为充电盒内置电池充电，耐压28V，省掉了外接的输入过电压保护元件。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/03/9rvsfe9rEDpKNdHi.pngthumbnail.jpg",
+        "alt": "微源半导体电源管理芯片获realme Buds Q2真无线耳机-我爱音频网",
+        "caption": "位于无标电感下方的的LPS微源LP6260超低静志电流同步升压转换器，用于将充电盒内置电池升压为耳机充电。",
+        "module": "charging_case",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "我爱音频网在realme Buds Q2真无线耳机拆解中发现其充电盒内部采用了三颗来自微源半导体的芯片，它们分别为“LP5305过压过流保护IC”、“LP28055锂电池线性充电IC”以及“LP6260超低静态同步升压转换器”。",
+      "realme Buds Q2真无线耳机充电盒造型设计为鹅卵石状的椭圆形状，小巧玲珑，即便是女生也能够在单手握持时拥有舒适的手感，充电盒颜色则是采用了浅蓝色，养眼舒适。",
+      "拆开充电盒，取出内部电路板。主板上的主要元器件集中在了主板中间，为耳机充电的Pogo pin连接器位于主板的左右两侧。",
+      "在LP5305过压保护IC上方的为LPS微源型号LP28055的1A锂电池线性充电IC，最高耐压28V，输入过压保护7V，为充电盒内置电池充电，耐压28V，省掉了外接的输入过电压保护元件。",
+      "位于无标电感下方的的LPS微源LP6260超低静志电流同步升压转换器，用于将充电盒内置电池升压为耳机充电。"
+    ],
+    "accessories": [],
+    "bom_side": "充电盒",
+    "appearance_images": [],
+    "teardown_image_count": 0,
+    "bom_rows": [
+      {
+        "component": "主板/PCBA",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "充电盒",
+        "role": "major",
+        "evidence": {
+          "value": "主板/PCBA",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "拆开充电盒，取出内部电路板。主板上的主要元器件集中在了主板中间，为耳机充电的Pogo pin连接器位于主板的左右两侧。"
+        }
+      }
+    ]
+  },
+  "earbuds": {
+    "module": "earbuds",
+    "description": "",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/03/eLccDSRpBgGfkhSc.pngthumbnail.jpg",
+        "alt": "微源半导体电源管理芯片获realme Buds Q2真无线耳机-我爱音频网",
+        "caption": "Pogp pin连接器上方的LPS微源 LP5305过压过流保护IC特写，用于防止过高的电压进入耳机，造成耳机内部器件损坏。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/03/ENp0xPZC8K52Nrb1.pngthumbnail.jpg",
+        "alt": "微源半导体电源管理芯片获realme Buds Q2真无线耳机-我爱音频网",
+        "caption": "相比传统过压过流保护芯片来说，LP5305支持锂电池电压检测，当电池电压超过4.35V，即自动切断电源输出，防止电池过充出现危险，为电池安全增添一道防线。LP5305支持0.3-1.5A电流设置，输入保护电压5.85V，芯片支持LDO模式，输出电压为5.5V，可在1μS之内对异常情况做出反应，切断输出电压。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/03/RcdpFHjvN2BMhO6s.jpgthumbnail.jpg",
+        "alt": "微源半导体电源管理芯片获realme Buds Q2真无线耳机-我爱音频网",
+        "caption": "微源LP5305输出时序图，可看出当输入电压和电池电压分别超过阈值时，芯片会自动关闭电压输出，并输出故障状态信号。同时芯片内置LDO功能，确保输出电压稳定。微源LP5305采用DFN2*2-8封装，可用于空间狭窄的耳机及手持设备使用，确保输入过压不会对设备造成损坏。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/03/JaIKYmin7iS51ksy.jpgthumbnail.jpg",
+        "alt": "微源半导体电源管理芯片获realme Buds Q2真无线耳机-我爱音频网",
+        "caption": "当输入电源被移除时，LP28055 会自动进入低电流状态，从而将电池漏极电流降至 1μA 以下。其他特点包括充电电流监视器、欠压锁定、自动再充电和一个状态引脚，用于指示充电终止和是否存在输入电压。‎",
+        "module": "earbuds",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "realme真我Buds Q2真无线耳机是realme公司不久前推出的真我Buds Q耳机的升级款，产品小巧轻盈的设计，拥有黑色和淡蓝色两款配色。功能配置上搭载了10mm低音动圈单元，支持DBB增强技术，支持高清通话降噪、低延迟游戏模式，拥有20h的续航。",
+      "Pogp pin连接器上方的LPS微源 LP5305过压过流保护IC特写，用于防止过高的电压进入耳机，造成耳机内部器件损坏。",
+      "微源LP5305输出时序图，可看出当输入电压和电池电压分别超过阈值时，芯片会自动关闭电压输出，并输出故障状态信号。同时芯片内置LDO功能，确保输出电压稳定。微源LP5305采用DFN2*2-8封装，可用于空间狭窄的耳机及手持设备使用，确保输入过压不会对设备造成损坏。",
+      "LP6260具有TRUE真关闭功能，可在关闭和输出短路条件下断开输入和输出，1.2MHZ开关频率可以使用小体积的电感和电容；开关脚采用高压9V工艺，能有效的吸收耳机拔插时产能的高压尖峰；同时LP6260在全带载能力范国内(特别是轻载时）无啸叫声。"
+    ],
+    "accessories": [],
+    "bom_side": "耳机",
+    "appearance_images": [],
+    "teardown_image_count": 0,
+    "bom_rows": [
+      {
+        "component": "电池",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "major",
+        "evidence": {
+          "value": "电池",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "我爱音频网在realme Buds Q2真无线耳机拆解中发现其充电盒内部采用了三颗来自微源半导体的芯片，它们分别为“LP5305过压过流保护IC”、“LP28055锂电池线性充电IC”以及“LP6260超低静态同步升压转换器”。"
+        }
+      },
+      {
+        "component": "充电仓",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "major",
+        "evidence": {
+          "value": "充电仓",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "我爱音频网在realme Buds Q2真无线耳机拆解中发现其充电盒内部采用了三颗来自微源半导体的芯片，它们分别为“LP5305过压过流保护IC”、“LP28055锂电池线性充电IC”以及“LP6260超低静态同步升压转换器”。"
+        }
+      }
+    ]
+  },
+  "gaps": [
+    "包装区：正文未匹配到包装图片（可能文章结构特殊）"
+  ],
+  "product": {
+    "canonical_id": "realme--buds-q2",
+    "brand": "realme真我",
+    "model": "微源半导体电源管理芯片获 Buds Q2",
+    "category": "真无线耳机TWS",
+    "earbud_type": "入耳",
+    "report_url": "https://www.52audio.com/archives/108307.html",
+    "price_cny": null
+  },
+  "selling_points_by_tag": {
+    "降噪": [
+      "realme真我Buds Q2真无线耳机是realme公司不久前推出的真我Buds Q耳机的升级款，产品小巧轻盈的设计，拥有黑色和淡蓝色两款配色。功能配置上搭载了10mm低音动圈单元，支持DBB增强技术，支持高清通话降噪、低延迟游戏模式，拥有20h的续航。",
+      "realme真我Buds Q2真无线耳机是realme公司不久前推出的真我Buds Q耳机的升级款，产品小巧轻 […]\n功能配置上搭载了10mm低音动圈单元，支持DBB增强技术，支持高清通话降噪、低延迟游戏模式，拥有20h的续航。",
+      "功能配置上搭载了10mm低音动圈单元，支持DBB增强技术，支持高清通话降噪、低延迟游戏模式，拥有20h的续航。"
+    ],
+    "其他": [
+      "关于微源半导体\n微源半导体是世界领先的模拟芯片设计公司，持续专注于电源管理芯片为主的模拟芯片领域。",
+      "realme真我Buds Q2真无线耳机是realme公司不久前推出的真我Buds Q耳机的升级款，产品小巧轻盈的设计，拥有黑色和淡蓝色两款配色。",
+      "标记/认证：全球布局研发中心和销售中心，致力于为客户提供完整的电源管理解决方案和技术服务，广泛应用于电池系统、显示系统、无线通讯系统和个人穿戴系统等3C市场相关产品。"
+    ]
+  }
+}

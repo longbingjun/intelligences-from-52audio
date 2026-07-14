@@ -1,0 +1,242 @@
+{
+  "report_id": "25881",
+  "canonical_id": "unknown--rockusb-c",
+  "source": "audio52",
+  "extracted_at": "2026-07-14T06:09:16+00:00",
+  "intro_selling_points": [
+    {
+      "text": "ROCK这款双USB-C口耳机转换器由深圳腾腾高科技提供电路设计，产品恰到好处的解决了很多用户的痛点，尤其是对于部分经常做直播以及经常玩手游的用户，这款产品能够确保使用过程中手机的电量，提升使用体验。我爱音频网通过拆解发现，这款产品采用钰群EJ899M控制芯片同时实现USB PD快充和USB-C数字耳机功能的控制，集成度非常高。",
+      "tag": "长续航",
+      "evidence": {
+        "value": "ROCK这款双USB-C口耳机转换器由深圳腾腾高科技提供电路设计，产品恰到好处的解决了很多用户的痛点，尤其是对于部分经常做直播以及经常玩手游的用户，这款产品能够确保使用过程中手机的电量，提升使用体验。我爱音频网通过拆解发现，这款产品采用钰群EJ899M控制芯片同时实现USB PD快充和USB-C数字耳机功能的控制，集成度非常高。",
+        "confidence": 0.72,
+        "source_type": "intro",
+        "source_text": "ROCK这款双USB-C口耳机转换器由深圳腾腾高科技提供电路设计，产品恰到好处的解决了很多用户的痛点，尤其是对于部分经常做直播以及经常玩手游的用户，这款产品能够确保使用过程中手机的电量，提升使用体验。我爱音频网通过拆解发现，这款产品采用钰群EJ899M控制芯片同时实现USB PD快充和USB-C数字耳机功能的控制，集成度非常高。"
+      }
+    }
+  ],
+  "packaging": {
+    "module": "packaging",
+    "description": "ROCK这款产品可以将单USB-C接口的手机拓展成为USB-C接口，并且让手机充电、听歌两不误。接下来我爱音频网就为大家分享这款产品的拆解。",
+    "images": [],
+    "notes": [
+      "ROCK这款产品可以将单USB-C接口的手机拓展成为USB-C接口，并且让手机充电、听歌两不误。接下来我爱音频网就为大家分享这款产品的拆解。",
+      "产品背面没有丝印信息，很简洁，并在USB-C短线与外壳连接处采用了抗弯折处理。",
+      "金属外壳采用一体拉伸成型，侧面为弧面过渡，整体性好。",
+      "USB-C线材上的接口，内部针脚为满Pin设计。",
+      "外形尺寸比一元硬币稍大。",
+      "可搭配USB-C接口的iPad以及华为、小米、三星等手机使用，听歌、充电互不干扰。",
+      "切开拓展坞的外壳，将其与内部注塑件分离。",
+      "继续将内部注塑件拆开，我们发现这里并非直接在PCBA上注塑，而是预先制作好的壳套，直接与PCBA进行组装。",
+      "采用了一块黄色的PCB板，大小与一元硬币的尺寸相当。",
+      "PCB板正面两个USB-C接口采用沉板焊接，以降低产品的整体厚度。输入端线缆有5根线芯与PCB板焊接，并采用打胶处理；左侧是充电电路部分，两颗六角芯片和两颗贴片电感。右上角最大的一颗芯片是来自钰群科技。",
+      "USB-C短线焊点特写。",
+      "PCB板背面分布着两颗MOS管以及一些二极管、三极管等贴片元器件。",
+      "两颗MOS管特写。",
+      "丝印CAAHA。",
+      "丝印YUASA。",
+      "贴片电感。",
+      "全部拆解完毕。",
+      "我爱音频网拆解总结"
+    ],
+    "accessories": [],
+    "bom_side": "",
+    "appearance_images": [],
+    "teardown_image_count": 0
+  },
+  "charging_case": {
+    "module": "charging_case",
+    "description": "",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/08/13-1.jpeg",
+        "alt": "拆解报告：ROCK双USB-C口耳机转接器-我爱音频网",
+        "caption": "EJ899符合USB-IF协会最新的USB PD 3.0规范，最高传输功率可达到100W；最高速数据传输率为USB 3.1 10Gbps；高速传输Ultra High Definition 音视频，并且支持4K高画质显示；可满足满足多元应用需求，有助于加速USB Type-C界面普及应用。",
+        "module": "charging_case",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "EJ899符合USB-IF协会最新的USB PD 3.0规范，最高传输功率可达到100W；最高速数据传输率为USB 3.1 10Gbps；高速传输Ultra High Definition 音视频，并且支持4K高画质显示；可满足满足多元应用需求，有助于加速USB Type-C界面普及应用。"
+    ],
+    "accessories": [],
+    "bom_side": "充电盒",
+    "appearance_images": [],
+    "teardown_image_count": 0,
+    "bom_rows": []
+  },
+  "earbuds": {
+    "module": "earbuds",
+    "description": "",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/08/1-4.jpeg",
+        "alt": "拆解报告：ROCK双USB-C口耳机转接器-我爱音频网",
+        "caption": "一、ROCK双USB-C口耳机拓展坞外观",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/08/3-2.jpeg",
+        "alt": "拆解报告：ROCK双USB-C口耳机转接器-我爱音频网",
+        "caption": "产品背面没有丝印信息，很简洁，并在USB-C短线与外壳连接处采用了抗弯折处理。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/08/4-2.jpeg",
+        "alt": "拆解报告：ROCK双USB-C口耳机转接器-我爱音频网",
+        "caption": "输出端设有两个USB-C接口，分别是充电接口和耳机接口，均为黑色胶芯，端面不露铜。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/08/5-2.jpeg",
+        "alt": "拆解报告：ROCK双USB-C口耳机转接器-我爱音频网",
+        "caption": "金属外壳采用一体拉伸成型，侧面为弧面过渡，整体性好。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/08/6-2.jpeg",
+        "alt": "拆解报告：ROCK双USB-C口耳机转接器-我爱音频网",
+        "caption": "USB-C线材上的接口，内部针脚为满Pin设计。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/08/7-1.jpeg",
+        "alt": "拆解报告：ROCK双USB-C口耳机转接器-我爱音频网",
+        "caption": "外形尺寸比一元硬币稍大。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/08/8-1.jpeg",
+        "alt": "拆解报告：ROCK双USB-C口耳机转接器-我爱音频网",
+        "caption": "二、ROCK双USB-C口耳机拓展坞拆解",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/08/9-1.jpeg",
+        "alt": "拆解报告：ROCK双USB-C口耳机转接器-我爱音频网",
+        "caption": "切开拓展坞的外壳，将其与内部注塑件分离。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/08/10-1.jpeg",
+        "alt": "拆解报告：ROCK双USB-C口耳机转接器-我爱音频网",
+        "caption": "继续将内部注塑件拆开，我们发现这里并非直接在PCBA上注塑，而是预先制作好的壳套，直接与PCBA进行组装。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/08/11-1.jpeg",
+        "alt": "拆解报告：ROCK双USB-C口耳机转接器-我爱音频网",
+        "caption": "采用了一块黄色的PCB板，大小与一元硬币的尺寸相当。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/08/12-1.jpeg",
+        "alt": "拆解报告：ROCK双USB-C口耳机转接器-我爱音频网",
+        "caption": "PCB板正面两个USB-C接口采用沉板焊接，以降低产品的整体厚度。输入端线缆有5根线芯与PCB板焊接，并采用打胶处理；左侧是充电电路部分，两颗六角芯片和两颗贴片电感。右上角最大的一颗芯片是来自钰群科技。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/08/14-1.jpeg",
+        "alt": "拆解报告：ROCK双USB-C口耳机转接器-我爱音频网",
+        "caption": "USB-C短线焊点特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/08/15.jpeg",
+        "alt": "拆解报告：ROCK双USB-C口耳机转接器-我爱音频网",
+        "caption": "PCB板背面分布着两颗MOS管以及一些二极管、三极管等贴片元器件。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/08/16.jpeg",
+        "alt": "拆解报告：ROCK双USB-C口耳机转接器-我爱音频网",
+        "caption": "两颗MOS管特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/08/17-1.jpeg",
+        "alt": "拆解报告：ROCK双USB-C口耳机转接器-我爱音频网",
+        "caption": "丝印CAAHA。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/08/18-1.jpeg",
+        "alt": "拆解报告：ROCK双USB-C口耳机转接器-我爱音频网",
+        "caption": "丝印YUASA。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/08/19.jpeg",
+        "alt": "拆解报告：ROCK双USB-C口耳机转接器-我爱音频网",
+        "caption": "贴片电感。",
+        "module": "earbuds",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "现在市面很多手机都用上了主流的USB-C接口，并且取消了3.5mm耳机音频接口，直接将音频输出功能整合到了USB-C接口上。这样一来，USB-C接口便同时承载了充电、数据、音频等多种功能。虽然简化了设计，但却不能满足一边充电一边听歌的需求。所以市面上的很多UBS-C音频转换器应运而生，比如在这篇文章中我爱音频网将为大家介绍的ROCK双USB-C口耳机转换器。",
+      "一、ROCK双USB-C口耳机拓展坞外观",
+      "ROCK这款USB-C耳机转转换器采用纯黑色的机身，扁平的外观，主体部分采用纯金属材质的外壳，表面为磨砂和阳极氧化处理。正面印有ROCK的logo以及闪电和耳机的标识。此外还自带一根USB-C弯头短线，用于连接USB-C接口的手机。",
+      "输出端设有两个USB-C接口，分别是充电接口和耳机接口，均为黑色胶芯，端面不露铜。",
+      "二、ROCK双USB-C口耳机拓展坞拆解",
+      "钰群的EJ899M控制芯片，支持USB PD快充以及USB-C 数字耳机。",
+      "ROCK这款双USB-C口耳机转换器由深圳腾腾高科技提供电路设计，产品恰到好处的解决了很多用户的痛点，尤其是对于部分经常做直播以及经常玩手游的用户，这款产品能够确保使用过程中手机的电量，提升使用体验。我爱音频网通过拆解发现，这款产品采用钰群EJ899M控制芯片同时实现USB PD快充和USB-C数字耳机功能的控制，集成度非常高。"
+    ],
+    "accessories": [],
+    "bom_side": "耳机",
+    "appearance_images": [],
+    "teardown_image_count": 0,
+    "bom_rows": [
+      {
+        "component": "外壳结构",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "minor",
+        "evidence": {
+          "value": "外壳结构",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "ROCK这款USB-C耳机转转换器采用纯黑色的机身，扁平的外观，主体部分采用纯金属材质的外壳，表面为磨砂和阳极氧化处理。正面印有ROCK的logo以及闪电和耳机的标识。此外还自带一根USB-C弯头短线，用于连接USB-C接口的手机。"
+        }
+      }
+    ]
+  },
+  "gaps": [
+    "包装区：正文未匹配到包装图片（可能文章结构特殊）",
+    "包装配件清单：未能从「包括…等」句式解析出零件列表"
+  ],
+  "product": {
+    "canonical_id": "unknown--rockusb-c",
+    "brand": "",
+    "model": "ROCK双USB-C口耳机转接器",
+    "category": "真无线耳机TWS",
+    "earbud_type": "入耳",
+    "report_url": "https://www.52audio.com/archives/25881.html",
+    "price_cny": null
+  },
+  "selling_points_by_tag": {
+    "长续航": [
+      "ROCK这款双USB-C口耳机转换器由深圳腾腾高科技提供电路设计，产品恰到好处的解决了很多用户的痛点，尤其是对于部分经常做直播以及经常玩手游的用户，这款产品能够确保使用过程中手机的电量，提升使用体验。我爱音频网通过拆解发现，这款产品采用钰群EJ899M控制芯片同时实现USB PD快充和USB-C数字耳机功能的控制，集成度非常高。",
+      "我爱音频网通过拆解发现，这款产品采用钰群EJ899M控制芯片同时实现USB PD快充和USB-C数字耳机功能的控制，集成度非常高。",
+      "钰群的EJ899M控制芯片，支持USB PD快充以及USB-C 数字耳机。"
+    ]
+  }
+}

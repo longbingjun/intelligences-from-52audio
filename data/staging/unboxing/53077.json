@@ -1,0 +1,857 @@
+{
+  "report_id": "53077",
+  "canonical_id": "unknown--airplus-2",
+  "source": "audio52",
+  "extracted_at": "2026-07-14T06:15:33+00:00",
+  "intro_selling_points": [],
+  "packaging": {
+    "module": "packaging",
+    "description": "包装盒风格与一代相近，方形天地盖设计，顶部是耳机的平面渲染图，侧面可以看到印有“无线立体声蓝牙耳机”字样。",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-2_看图王.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "包装盒风格与一代相近，方形天地盖设计，顶部是耳机的平面渲染图，侧面可以看到印有“无线立体声蓝牙耳机”字样。",
+        "module": "packaging",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-3.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "包装盒背面信息，昂达AirPlus2 TWS蓝牙耳机，支持蓝牙5.1，支持触控；耳机电池容量30mAh，额定电压3.8V；充电盒电池300mAh，额定电压3.7V；广州致乐电子科技有限公司制造。",
+        "module": "packaging",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-4.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "包装盒内物品，耳机和充电盒及充电线。",
+        "module": "packaging",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "包装盒风格与一代相近，方形天地盖设计，顶部是耳机的平面渲染图，侧面可以看到印有“无线立体声蓝牙耳机”字样。",
+      "包装盒背面信息，昂达AirPlus2 TWS蓝牙耳机，支持蓝牙5.1，支持触控；耳机电池容量30mAh，额定电压3.8V；充电盒电池300mAh，额定电压3.7V；广州致乐电子科技有限公司制造。",
+      "包装盒内物品，耳机和充电盒及充电线。",
+      "充电线缆采用USB-A to Lightning接口。",
+      "Lightning接口特写，壳体上有ONDA昂达的品牌名。",
+      "断开连接器，取下FPC。",
+      "FPC背面展示。",
+      "断开排线后可以取下主板。",
+      "按键小板正面特写，是ETA9640芯片的外接按键。",
+      "金属按键特写。",
+      "背面是按键的焊点。",
+      "钰泰 ETA9640 详细资料。",
+      "电流进入电池前还会经过一道电路保护板，上面有锂电保护IC。",
+      "音腔内的结构展示。",
+      "壳体是双层的，外层白色壳体特写。",
+      "扬声器单元通过导线与主板相连。",
+      "扬声器背面T铁，以及导线正负极的焊点。",
+      "扬声器尺寸约为14mm。",
+      "电池FPC和扬声器导线与主板的连接处采用点胶固定。",
+      "壳体上泄压孔内侧的防尘网。",
+      "撕下黑色泡棉，下面是检测触摸的铜片。",
+      "蓝牙天线固定在一个隆起的塑料支架上。",
+      "蓝牙天线蛇形排布，增大收发面积。",
+      "塑料支架特写。",
+      "丝印FS 2003YAD的IC。",
+      "络达 AB1536 详细介绍。",
+      "想要取出电池需从底部入手，拆开后左右两侧是充电金属弹片与排线的焊点。",
+      "钢壳针状电池与一元硬币的尺寸对比。",
+      "钢壳针状电池来自AUCOPO万宝能源，万宝针型电池47250C1-30mAh，直径4.7mm，高度25.0mm，额定电压3.8V，容量30mAh。据了解该针型电池可实现3C快速充电，1C放电，500周循环，容量保持率≧ 90%。",
+      "FPC外侧印刷信息，连接着电池和底部的通话麦克风及充电触点。"
+    ],
+    "accessories": [],
+    "bom_side": "",
+    "appearance_images": [],
+    "teardown_image_count": 0
+  },
+  "charging_case": {
+    "module": "charging_case",
+    "description": "",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-1.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "昂达电子于1989年成立，是国内最早建立全国IT渠道体系的公司之一。近年来在基于良好的渠道经营理念和深厚的国际化产品技术背景支持下，推出自有品牌昂达（ONDA）系列产品，包括主板、显卡、光电产品及TWS耳机等品类，把握住了IT业数次重大的产业变革。今天我爱音频网要拆解的是昂达AirPlus 2 真无线蓝牙耳机，此前我爱音频网曾经拆解过昂达AirPlus TWS蓝牙耳机，两者都是类AirPods的设计，2代的耳机采用了光学入耳检测元件，支持设备改名和定位查找，支持触控，充电盒加入了无线充电功能。耳机扬声器尺寸两者都是14.2mm，都采用了钢壳针状电池确保续航，下面一起来看详细拆解还有哪些不同吧~一、昂达AirPlus 2 真无线蓝牙耳机 开箱",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-7.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒外观与前代一样，跟AirPods的充电盒比较接近。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-15.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒背面有金属合页、配对按键，合页小方的小字是产品型号AirPlus 2和序列号。背面内侧有无线充电线圈。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-8.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "我爱音频网采用ChargerLAB POWER-Z KT001便携式电源测试仪对昂达AirPlus 2 真无线蓝牙耳机进行无线充电测试，充电功率约为3.8W，实际输出功率没有这么高。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-14-1.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒底部的Lightning充电接口，里面是白色胶芯。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-10.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机竖置在充电盒内。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-11.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "昂达AirPlus 2 真无线蓝牙耳机与充电盒。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-12.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机和充电盒共重38.7克。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-13.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒单重31克。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-16.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "左右耳机共重7.7克。二、昂达AirPlus 2 充电盒拆解昂达AirPlus 2的充电盒加入了无线充电功能，为了维持体积，电池容量与前代相比减少了100mAh。下面我们将进入拆解环节，看看其内部电源管理系统的变化。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-17.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "撬开充电盒壳体。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-18.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒正面结构展示，可以看到电池固定处有大量白胶。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-19.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "电池背面是无线充电接收线圈。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-20.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒主板位于底部。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-21.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒正面的FPC通过连接器与主板相连。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-22.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "撕开充电盒正面的黑色固定贴纸。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-25.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "三颗LED指示灯特写。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-23-2.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "丝印211的霍尔元件。充电盒盖开启、关闭时的磁场变化会被霍尔元件感知到，进而通知MCU和耳机与已连接设备配对或断开连接。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-35.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒背面的按键小板和电池通过导线与主板相连。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-29.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电座舱内侧，圆形磁铁用来吸附耳机，另外两个不同尺寸的磁铁用来吸附盒盖，可以提供更好的开合体验。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-30.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒背面的金属合页特写。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-31.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒内部结构展示。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-38.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒内部结构另一侧展示。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-44.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "主板电路外侧一览，左下角是无线充电接收线圈的焊点，右下角是电池焊点，右侧是按键小板的焊点。我们先来看一下其有线充电的电源管理系统，充电盒采用Lightning接口输入电源，经钰泰ETA9640电源管理IC给内置电池充电。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://note.youdao.com/yws/public/resource/8301135c6f369926b428a8d6e1945dcc/xmlnote/3DB0214DA34942C7BBB70AFB2DD44295/125627",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "钰泰ETA9640 电源管理IC，1A充放电，同步整流升压，内置多种保护功能，适用于移动电源及蓝牙耳机充电盒。即钰泰ETA9640既负责给内置电池充电，也将电池输出电流升压为耳机和充电盒其他元器件供电。据我爱音频的拆解统计，漫步者，JBL、出门问问、U&I由我等品牌均有大量采用钰泰的TWS耳机充电盒方案。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-42.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒采用的软包电池来自诺威新能源，型号NV 502035，额定电压3.7V，额定容量300mAh/1.11Wh。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-34.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "一颗无标单片机，用于控制LED指示灯和给耳机充电。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-39.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "下面我们再来看一下无线充电电源管理系统，图为无线充电的接收线圈。无线充电器的发射线圈基于一定频率的交流电通过电磁感应效应在接收线圈中产生一定的电流，从而将电能量从发射端转移到接收端，进而给TWS充电盒里的电池供电。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-41.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "主板背面电路展示，右侧为无线充电相关电路。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-40.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "没有丝印信息的无线充电接收芯片。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-73.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "吸附充电盒的圆形磁铁。",
+        "module": "charging_case",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "昂达电子于1989年成立，是国内最早建立全国IT渠道体系的公司之一。近年来在基于良好的渠道经营理念和深厚的国际化产品技术背景支持下，推出自有品牌昂达（ONDA）系列产品，包括主板、显卡、光电产品及TWS耳机等品类，把握住了IT业数次重大的产业变革。今天我爱音频网要拆解的是昂达AirPlus 2 真无线蓝牙耳机，此前我爱音频网曾经拆解过昂达AirPlus TWS蓝牙耳机，两者都是类AirPods的设计，2代的耳机采用了光学入耳检测元件，支持设备改名和定位查找，支持触控，充电盒加入了无线充电功能。耳机扬声器尺寸两者都是14.2mm，都采用了钢壳针状电池确保续航，下面一起来看详细拆解还有哪些不同吧~一、昂达AirPlus 2 真无线蓝牙耳机 开箱",
+      "充电盒外观与前代一样，跟AirPods的充电盒比较接近。",
+      "充电盒背面有金属合页、配对按键，合页小方的小字是产品型号AirPlus 2和序列号。背面内侧有无线充电线圈。",
+      "我爱音频网采用ChargerLAB POWER-Z KT001便携式电源测试仪对昂达AirPlus 2 真无线蓝牙耳机进行无线充电测试，充电功率约为3.8W，实际输出功率没有这么高。",
+      "充电盒底部的Lightning充电接口，里面是白色胶芯。",
+      "耳机竖置在充电盒内。",
+      "昂达AirPlus 2 真无线蓝牙耳机与充电盒。",
+      "耳机和充电盒共重38.7克。",
+      "充电盒单重31克。",
+      "左右耳机共重7.7克。二、昂达AirPlus 2 充电盒拆解昂达AirPlus 2的充电盒加入了无线充电功能，为了维持体积，电池容量与前代相比减少了100mAh。下面我们将进入拆解环节，看看其内部电源管理系统的变化。",
+      "撬开充电盒壳体。",
+      "充电盒正面结构展示，可以看到电池固定处有大量白胶。",
+      "电池背面是无线充电接收线圈。",
+      "充电盒主板位于底部。",
+      "充电盒正面的FPC通过连接器与主板相连。",
+      "撕开充电盒正面的黑色固定贴纸。",
+      "三颗LED指示灯特写。",
+      "丝印211的霍尔元件。充电盒盖开启、关闭时的磁场变化会被霍尔元件感知到，进而通知MCU和耳机与已连接设备配对或断开连接。",
+      "充电盒背面的按键小板和电池通过导线与主板相连。",
+      "充电座舱内侧，圆形磁铁用来吸附耳机，另外两个不同尺寸的磁铁用来吸附盒盖，可以提供更好的开合体验。",
+      "充电盒背面的金属合页特写。",
+      "充电盒内部结构展示。",
+      "充电盒内部结构另一侧展示。",
+      "主板电路外侧一览，左下角是无线充电接收线圈的焊点，右下角是电池焊点，右侧是按键小板的焊点。我们先来看一下其有线充电的电源管理系统，充电盒采用Lightning接口输入电源，经钰泰ETA9640电源管理IC给内置电池充电。",
+      "钰泰ETA9640 电源管理IC，1A充放电，同步整流升压，内置多种保护功能，适用于移动电源及蓝牙耳机充电盒。即钰泰ETA9640既负责给内置电池充电，也将电池输出电流升压为耳机和充电盒其他元器件供电。据我爱音频的拆解统计，漫步者，JBL、出门问问、U&I由我等品牌均有大量采用钰泰的TWS耳机充电盒方案。",
+      "充电盒采用的软包电池来自诺威新能源，型号NV 502035，额定电压3.7V，额定容量300mAh/1.11Wh。",
+      "一颗无标单片机，用于控制LED指示灯和给耳机充电。",
+      "下面我们再来看一下无线充电电源管理系统，图为无线充电的接收线圈。无线充电器的发射线圈基于一定频率的交流电通过电磁感应效应在接收线圈中产生一定的电流，从而将电能量从发射端转移到接收端，进而给TWS充电盒里的电池供电。",
+      "主板背面电路展示，右侧为无线充电相关电路。",
+      "没有丝印信息的无线充电接收芯片。",
+      "吸附充电盒的圆形磁铁。",
+      "拆解全家福。我爱音频网总结昂达AirPlus 2 真无线蓝牙耳机与前代相比，在硬件上的差异之处主要有以下几点：充电盒支持无线充电功能，采用了一颗无标无线充电接收芯片实现；有线充电方面，采用Lightning接口输入电源，经钰泰ETA9640电源管理IC给内置电池充电和放电；充电盒软包电池来自诺威新能源，容量300mAh，比此前少了100mAh。耳机新加入光学入耳检测传感器和触摸感应贴片，此前为贴片式入耳检测方案和敲击控制。耳机的蓝牙主控芯片是络达AB1536U，采用14.2mm大尺寸扬声器单元，内置万宝能源的钢壳针状电池，容量30mAh，这些硬件配置都与前代相同。"
+    ],
+    "accessories": [],
+    "bom_side": "充电盒",
+    "appearance_images": [],
+    "teardown_image_count": 0,
+    "bom_rows": [
+      {
+        "component": "芯片/模组",
+        "brand": "",
+        "model": "ETA9640",
+        "qty_hint": "1",
+        "side": "充电盒",
+        "role": "主控/蓝牙",
+        "evidence": {
+          "value": "ETA9640",
+          "confidence": 0.78,
+          "source_type": "text",
+          "source_text": "我们先来看一下其有线充电的电源管理系统，充电盒采用Lightning接口输入电源，经钰泰ETA9640电源管理IC给内置电池充电。"
+        }
+      }
+    ]
+  },
+  "earbuds": {
+    "module": "earbuds",
+    "description": "",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-5.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电线缆采用USB-A to Lightning接口。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-6.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "Lightning接口特写，壳体上有ONDA昂达的品牌名。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-9.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "我爱音频网采用ChargerLAB POWER-Z KT002便携式电源测试仪对昂达AirPlus 2 真无线蓝牙耳机进行有线充电测试，充电功率约为3.2W。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-24.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "断开连接器，取下FPC。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-26.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "FPC背面展示。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-27.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "断开排线后可以取下主板。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-37.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "按键小板正面特写，是ETA9640芯片的外接按键。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-36.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "金属按键特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-28.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "背面是按键的焊点。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-43.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "丝印360A0 的Lightning取电IC，左侧两个3.3Ω电阻，配合单片机检测耳机的充电状态。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-33.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "钰泰 ETA9640 详细资料。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-32.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "电流进入电池前还会经过一道电路保护板，上面有锂电保护IC。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-45.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "给耳机充电的金属弹片特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-46.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "丝印T36H的IC。三、昂达AirPlus 2 耳机拆解",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-47.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "接下来继续拆解耳机部分，耳机为类AirPods的柄式半入耳设计。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-48.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "底部的充电正负极触点，触点环抱着通话麦克风拾音孔，有防尘网。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-49.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机柄上的装饰开孔，AirPods此处为通话降噪麦克风开孔。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-50.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机顶部的泄压网。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-52.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "入耳处外侧装饰性的黑点，AirPods此处为加速度感应器开窗。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-51.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "入耳处内侧，光学入耳检测传感器的开窗。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-53.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机内侧的泄压孔，内有防尘网。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-54.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机出音孔处特写，内有防尘网防止异物进入。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-55.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "沿合模线拆开耳机壳体。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-56.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "音腔内的结构展示。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-57.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "入耳处壳体内侧特写，可以看到泄压孔的防尘网。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-58.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "壳体是双层的，外层白色壳体特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-59.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "深色壳体外侧有光学入耳检测传感器，通过FPC与主板相连。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-74.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "光学入耳检测传感器特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-75.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "扬声器单元通过导线与主板相连。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-76.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "扬声器背面T铁，以及导线正负极的焊点。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-60.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "扬声器尺寸约为14mm。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-61.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机主板上有一层绝缘胶带。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-62-1.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "电池FPC和扬声器导线与主板的连接处采用点胶固定。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-65.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "断开电池FPC的连接器，耳机柄壳体内侧还有一根红色导线与主板相连。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-66.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "壳体上泄压孔内侧的防尘网。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-67.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "撕下黑色泡棉，下面是检测触摸的铜片。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-77-1.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机主电路与一元硬币的尺寸对比。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-78.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "蓝牙天线固定在一个隆起的塑料支架上。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-79.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "蓝牙天线蛇形排布，增大收发面积。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-80.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "塑料支架特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-81.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "丝印FS 2003YAD的IC。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://note.youdao.com/yws/public/resource/8301135c6f369926b428a8d6e1945dcc/xmlnote/18C74DEBC798482CBFC09CD4A04E243A/125779",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "主控芯片为络达AB1536U，内部集成存储器，内置电容触摸控制器，集成锂电池充电器，支持过放保护，内置开关降压和LDO。络达 AB1536U 支持多种接口，包括模拟和数字麦克风。支持2496高清音频，支持降噪和回声消除，提供4×5.5mm BGA封装，非常节省占板面积。据我爱音频网拆解了解到，市面上包括SONY索尼、漫步者、惠威、飞利浦等20余款TWS耳机均大量采用络达方案。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-63.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "络达 AB1536 详细介绍。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-64.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "想要取出电池需从底部入手，拆开后左右两侧是充电金属弹片与排线的焊点。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-68.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机与前代产品一样，采用的是钢壳针状电池。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-70.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "钢壳针状电池与一元硬币的尺寸对比。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-69.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "钢壳针状电池来自AUCOPO万宝能源，万宝针型电池47250C1-30mAh，直径4.7mm，高度25.0mm，额定电压3.8V，容量30mAh。据了解该针型电池可实现3C快速充电，1C放电，500周循环，容量保持率≧ 90%。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-71.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "FPC外侧印刷信息，连接着电池和底部的通话麦克风及充电触点。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-72.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机底部FPC的焊点。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/昂达TWS2-82.jpg",
+        "alt": "拆解报告：昂达AirPlus 2 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机采用一个驻极体麦克风用于通话。",
+        "module": "earbuds",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "我爱音频网采用ChargerLAB POWER-Z KT002便携式电源测试仪对昂达AirPlus 2 真无线蓝牙耳机进行有线充电测试，充电功率约为3.2W。",
+      "丝印360A0 的Lightning取电IC，左侧两个3.3Ω电阻，配合单片机检测耳机的充电状态。",
+      "给耳机充电的金属弹片特写。",
+      "丝印T36H的IC。三、昂达AirPlus 2 耳机拆解",
+      "接下来继续拆解耳机部分，耳机为类AirPods的柄式半入耳设计。",
+      "底部的充电正负极触点，触点环抱着通话麦克风拾音孔，有防尘网。",
+      "耳机柄上的装饰开孔，AirPods此处为通话降噪麦克风开孔。",
+      "耳机顶部的泄压网。",
+      "入耳处外侧装饰性的黑点，AirPods此处为加速度感应器开窗。",
+      "入耳处内侧，光学入耳检测传感器的开窗。",
+      "耳机内侧的泄压孔，内有防尘网。",
+      "耳机出音孔处特写，内有防尘网防止异物进入。",
+      "沿合模线拆开耳机壳体。",
+      "入耳处壳体内侧特写，可以看到泄压孔的防尘网。",
+      "深色壳体外侧有光学入耳检测传感器，通过FPC与主板相连。",
+      "光学入耳检测传感器特写。",
+      "耳机主板上有一层绝缘胶带。",
+      "断开电池FPC的连接器，耳机柄壳体内侧还有一根红色导线与主板相连。",
+      "耳机主电路与一元硬币的尺寸对比。",
+      "主控芯片为络达AB1536U，内部集成存储器，内置电容触摸控制器，集成锂电池充电器，支持过放保护，内置开关降压和LDO。络达 AB1536U 支持多种接口，包括模拟和数字麦克风。支持2496高清音频，支持降噪和回声消除，提供4×5.5mm BGA封装，非常节省占板面积。据我爱音频网拆解了解到，市面上包括SONY索尼、漫步者、惠威、飞利浦等20余款TWS耳机均大量采用络达方案。",
+      "耳机与前代产品一样，采用的是钢壳针状电池。",
+      "耳机底部FPC的焊点。",
+      "耳机采用一个驻极体麦克风用于通话。"
+    ],
+    "accessories": [],
+    "bom_side": "耳机",
+    "appearance_images": [],
+    "teardown_image_count": 0,
+    "bom_rows": [
+      {
+        "component": "充电仓",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "major",
+        "evidence": {
+          "value": "充电仓",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "昂达电子于1989年成立，是国内最早建立全国IT渠道体系的公司之一。近年来在基于良好的渠道经营理念和深厚的国际化产品技术背景支持下，推出自有品牌昂达（ONDA）系列产品，包括主板、显卡、光电产品及TWS耳机等品类，把握住了IT业数次重大的产业变革。今天我爱音频网要拆解的是昂达AirPlus 2 真无线蓝牙耳机，此前我爱音频网曾经拆解过昂达AirPlus TWS蓝牙耳机，两者都是类AirPods的设计，2代的耳机采用了光学入耳检测元件，支持设备改名和定位查找，支持触控，充电盒加入了无线充电功能。耳机扬声器尺寸两者都是14.2mm，都采用了钢壳针状电池确保续航，下面一起来看详细拆解还有哪些不同吧~一、昂达AirPlus 2 真无线蓝牙耳机 开箱"
+        }
+      },
+      {
+        "component": "电池",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "major",
+        "evidence": {
+          "value": "电池",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "昂达电子于1989年成立，是国内最早建立全国IT渠道体系的公司之一。近年来在基于良好的渠道经营理念和深厚的国际化产品技术背景支持下，推出自有品牌昂达（ONDA）系列产品，包括主板、显卡、光电产品及TWS耳机等品类，把握住了IT业数次重大的产业变革。今天我爱音频网要拆解的是昂达AirPlus 2 真无线蓝牙耳机，此前我爱音频网曾经拆解过昂达AirPlus TWS蓝牙耳机，两者都是类AirPods的设计，2代的耳机采用了光学入耳检测元件，支持设备改名和定位查找，支持触控，充电盒加入了无线充电功能。耳机扬声器尺寸两者都是14.2mm，都采用了钢壳针状电池确保续航，下面一起来看详细拆解还有哪些不同吧~一、昂达AirPlus 2 真无线蓝牙耳机 开箱"
+        }
+      },
+      {
+        "component": "主板/PCBA",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "major",
+        "evidence": {
+          "value": "主板/PCBA",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "昂达电子于1989年成立，是国内最早建立全国IT渠道体系的公司之一。近年来在基于良好的渠道经营理念和深厚的国际化产品技术背景支持下，推出自有品牌昂达（ONDA）系列产品，包括主板、显卡、光电产品及TWS耳机等品类，把握住了IT业数次重大的产业变革。今天我爱音频网要拆解的是昂达AirPlus 2 真无线蓝牙耳机，此前我爱音频网曾经拆解过昂达AirPlus TWS蓝牙耳机，两者都是类AirPods的设计，2代的耳机采用了光学入耳检测元件，支持设备改名和定位查找，支持触控，充电盒加入了无线充电功能。耳机扬声器尺寸两者都是14.2mm，都采用了钢壳针状电池确保续航，下面一起来看详细拆解还有哪些不同吧~一、昂达AirPlus 2 真无线蓝牙耳机 开箱"
+        }
+      },
+      {
+        "component": "触控/按键",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "minor",
+        "evidence": {
+          "value": "触控/按键",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "昂达电子于1989年成立，是国内最早建立全国IT渠道体系的公司之一。近年来在基于良好的渠道经营理念和深厚的国际化产品技术背景支持下，推出自有品牌昂达（ONDA）系列产品，包括主板、显卡、光电产品及TWS耳机等品类，把握住了IT业数次重大的产业变革。今天我爱音频网要拆解的是昂达AirPlus 2 真无线蓝牙耳机，此前我爱音频网曾经拆解过昂达AirPlus TWS蓝牙耳机，两者都是类AirPods的设计，2代的耳机采用了光学入耳检测元件，支持设备改名和定位查找，支持触控，充电盒加入了无线充电功能。耳机扬声器尺寸两者都是14.2mm，都采用了钢壳针状电池确保续航，下面一起来看详细拆解还有哪些不同吧~一、昂达AirPlus 2 真无线蓝牙耳机 开箱"
+        }
+      },
+      {
+        "component": "芯片/模组",
+        "brand": "",
+        "model": "ETA9640",
+        "qty_hint": "1",
+        "side": "耳机",
+        "role": "主控/蓝牙",
+        "evidence": {
+          "value": "ETA9640",
+          "confidence": 0.78,
+          "source_type": "text",
+          "source_text": "钰泰ETA9640 电源管理IC，1A充放电，同步整流升压，内置多种保护功能，适用于移动电源及蓝牙耳机充电盒。"
+        }
+      },
+      {
+        "component": "芯片/模组",
+        "brand": "",
+        "model": "络达AB1536U",
+        "qty_hint": "1",
+        "side": "耳机",
+        "role": "主控/蓝牙",
+        "evidence": {
+          "value": "络达AB1536U",
+          "confidence": 0.78,
+          "source_type": "text",
+          "source_text": "耳机的蓝牙主控芯片是络达AB1536U，采用14.2mm大尺寸扬声器单元，内置万宝能源的钢壳针状电池，容量30mAh，这些硬件配置都与前代相同。"
+        }
+      },
+      {
+        "component": "芯片/模组",
+        "brand": "",
+        "model": "AB1536",
+        "qty_hint": "1",
+        "side": "耳机",
+        "role": "主控/蓝牙",
+        "evidence": {
+          "value": "AB1536",
+          "confidence": 0.78,
+          "source_type": "text",
+          "source_text": "耳机的蓝牙主控芯片是络达AB1536U，采用14.2mm大尺寸扬声器单元，内置万宝能源的钢壳针状电池，容量30mAh，这些硬件配置都与前代相同。"
+        }
+      }
+    ]
+  },
+  "gaps": [
+    "包装配件清单：未能从「包括…等」句式解析出零件列表",
+    "导语卖点：开箱前无足够长的功能介绍段落"
+  ],
+  "product": {
+    "canonical_id": "unknown--airplus-2",
+    "brand": "",
+    "model": "昂达AirPlus 2",
+    "category": "真无线耳机TWS",
+    "earbud_type": "入耳",
+    "report_url": "https://www.52audio.com/archives/53077.html",
+    "price_cny": null
+  },
+  "selling_points_by_tag": {
+    "降噪": [
+      "耳机柄上的装饰开孔，AirPods此处为通话降噪麦克风开孔。",
+      "支持2496高清音频，支持降噪和回声消除，提供4×5.5mm BGA封装，非常节省占板面积。"
+    ],
+    "防水防尘": [
+      "耳机内侧的泄压孔，内有防尘网。",
+      "壳体上泄压孔内侧的防尘网。",
+      "入耳处壳体内侧特写，可以看到泄压孔的防尘网。",
+      "底部的充电正负极触点，触点环抱着通话麦克风拾音孔，有防尘网。"
+    ]
+  }
+}

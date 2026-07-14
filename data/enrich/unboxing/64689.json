@@ -1,0 +1,887 @@
+{
+  "report_id": "64689",
+  "canonical_id": "unknown--cleer-ally",
+  "source": "audio52",
+  "extracted_at": "2026-07-14T06:24:03+00:00",
+  "intro_selling_points": [],
+  "packaging": {
+    "module": "packaging",
+    "description": "一、Cleer ALLY 真无线蓝牙耳机 开箱",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-1.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "一、Cleer ALLY 真无线蓝牙耳机 开箱",
+        "module": "packaging",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-3.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "包装盒背面是耳机和充电盒的渲染图，并对五个产品特色功能做了进一步介绍。",
+        "module": "packaging",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-4.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "包装盒底部有蓝牙认证信息、环保信息和条码信息等。",
+        "module": "packaging",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-5.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "包装盒一侧，有耳机的简笔画，下面是三个产品特点：10小时音乐续航+充电盒额外提供20小时续航，安全稳固佩戴，触摸控制。",
+        "module": "packaging",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-6.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "包装盒另一侧面是包装盒内所有物品的图例。",
+        "module": "packaging",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-7.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "包装盒内物品，Cleer ALLY耳机和充电盒、便携收纳袋、充电线缆和使用指南。",
+        "module": "packaging",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "一、Cleer ALLY 真无线蓝牙耳机 开箱",
+      "包装盒突出耳机的渲染图，一近一远展现了耳机的两个角度，体现了产品的外观特色设计。左上角有Cleer的品牌Logo，右下角是产品名“ALLY真无线耳机”，下面还有几个图例，分别是：蓝牙认证、通话功能、防水防汗和10小时续航。",
+      "包装盒背面是耳机和充电盒的渲染图，并对五个产品特色功能做了进一步介绍。",
+      "包装盒底部有蓝牙认证信息、环保信息和条码信息等。",
+      "包装盒一侧，有耳机的简笔画，下面是三个产品特点：10小时音乐续航+充电盒额外提供20小时续航，安全稳固佩戴，触摸控制。",
+      "包装盒另一侧面是包装盒内所有物品的图例。",
+      "包装盒内物品，Cleer ALLY耳机和充电盒、便携收纳袋、充电线缆和使用指南。",
+      "充电线缆为USB-A to Micro-USB接口。这款产品发布有一段时间了，在当时采用Micro-USB接口较为常见。",
+      "边角处霍尔元件所在的PCBA，通过导线连接，导线外有绝缘导管。",
+      "PCBA一侧展示。",
+      "PCBA另一侧展示。",
+      "充电接口位置有一黑色绝缘胶布。",
+      "PCBA和电池另一侧展示。",
+      "软包电池来自VDL重庆紫建，型号602045，额定电压3.7V，额定容量545mAh/2.02Wh。",
+      "据我爱音频网拆解了解到，目前已有华为、小米、魅族、OPPO、小鸟音响等知名品牌大量采用紫建电子的电池。",
+      "电池保护板特写，上面有热敏电阻检测电池温度。",
+      "PCBA一侧电路展示，焊点干净饱满。",
+      "65Z5 3.0V稳压管，通过连接器给副板的霍尔传感器供电。",
+      "Texas Instruments德州仪器 TPS61240 详细资料。",
+      "TI德州仪器 BQ24040 详细资料。",
+      "充电触点和中间的红外线距离传感器。",
+      "壳体内部展示。外侧装饰壳体的卡扣处有胶水固定，兼顾防水，中间区域是用于触控感应的PCB。",
+      "壳体内侧的LDS天线，用于传输蓝牙信号。",
+      "连接触控感应PCB的Pogo Pin。",
+      "音腔内电路通过FPC和连接器与主板相连。",
+      "连接LDS天线的金属触点。",
+      "取出主板可以看到内部的扣式电池，主板和电池上都有一层绝缘膜。",
+      "塑料中框结构展示，起固定通话麦克风和主板的作用。",
+      "塑料中框另一侧结构展示。",
+      "通话麦克风内侧的防尘网特写。",
+      "通话麦克风以及胶框使用整圈胶水来进行密封处理，兼顾声学和防水要求。",
+      "通话麦克风所在的位置，通过导线与音腔内的电路连接。",
+      "取出扣式电池和主板，继续拆解。",
+      "取出音腔内的PCBA，通过FPC与主板相连。",
+      "音腔内的结构展示，扬声器通过导线焊接连接到电路板上。",
+      "扬声器单元通过导线与PCBA相连，使用黑色胶水密封。",
+      "动圈单元的尺寸与官方宣传的5.8mm规格一致。",
+      "音腔内PCBA一侧电路展示，电路板上涂有绝缘漆，可以起到一定的防水效果。",
+      "音腔内PCBA一侧电路展示，电路板正反面覆盖纳米防水涂层，在物理结构防水的基础上增加第二道保护层。据悉这种纳米涂层不仅防水，还有效防汗和防盐雾水汽，是Cleer ALLY支持IPX5防水防汗、满足运动需求的关键所在。",
+      "丝印MK2的IC，3.3V LDO 专为红外传感器供电。",
+      "丝印AAS 32的IC。",
+      "扣式电池和主PCBA与一元硬币的尺寸对比。",
+      "主PCBA一侧电路展示。",
+      "主PCBA另一侧电路展示，二维码标签下方是主控芯片。",
+      "高通 QCC3026资料图。",
+      "连接LDS天线的金属弹片。",
+      "丝印MI112B的锂电保护IC。",
+      "扣式电池的型号为LIZ ZJ1454C 19A，直径14mm，厚度5.4mm，额定电压3.7V，额定容量85mAh/0.315Wh。",
+      "Azoteq IQS227 触控IC，用于检测触摸操作。",
+      "Azoteq IQS227 详细资料。",
+      "拆解全家福。",
+      "我爱音频网总结"
+    ],
+    "accessories": [],
+    "bom_side": "",
+    "appearance_images": [],
+    "teardown_image_count": 0
+  },
+  "charging_case": {
+    "module": "charging_case",
+    "description": "",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-9.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "便携收纳袋为绒面布料，柔软细腻，对充电盒的保护很周到。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-12.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒机身较为方正，边角处过渡自然避免割手。正面盒盖开启处有凹槽便于打开，下面是充电盒的状态指示灯。充电盒喷漆工艺透着金属光泽，看起来很有质感，可以看出品牌对细节的重视。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-13.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒背部展示。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-14.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒底部有部分产品信息。Cleer ALLY 真无线蓝牙耳机，输入5V⎓100mA，电池型号602045，额定电压3.7V，容量545mAh/2.02Wh。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-19.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "Micro-USB接口位于充电盒机身一侧。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-17.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机在充电盒内的状态。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-21.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "最后来称一下重量，耳机和充电盒共重63.2克。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-22.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒单重48.7克。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-23.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "二、Cleer ALLY 充电盒拆解",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-24.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "首先拆解充电盒看一下其电源管理系统，撬开充电座舱，有多处物理卡扣连接。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-26.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电座舱内侧展示，PCBA使用螺丝固定，通过连接器与另一PCBA连接。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-32.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "丝印AAL 46的霍尔元件。充电盒盒盖开启、关闭时的磁场变化会被霍尔元件感知到，进而通知充电盒MCU和耳机与已连接设备配对或断开连接。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-27.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "卸下固定PCBA的螺丝，充电座舱壳体内侧展示。盒盖开启处有一个梯形磁铁用于吸附盒盖，两侧耳机位置有磁铁吸附固定耳机。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-29.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "连接充电盒内另一PCBA的金属插针。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-31.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "两颗丝印1AM的三极管，用于驱动LED指示灯。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-25.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "两颗LED指示灯特写。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-35.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电盒内部另一PCBA，使用螺丝固定，底部是电池。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-37.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "指示灯的导光柱设计。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-38.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "取出充电盒内的PCBA和电池。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/BQ24040-线性锂离子电池充电器.png",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "TI德州仪器 BQ24040 1A线性充电IC，输入支持30V过压保护，用于为充电盒电池充电。此充电芯片的主要特点是：具有集成OVP输入过压保护，充电电压精度高，低电（低于电池满电电压时）自动启动充电。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-58.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "指示灯透光孔的位置，贴有黑色网布，让指示灯光线更柔和。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-84.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "扣式电池与充电盒内软包电池均来自重庆紫建。",
+        "module": "charging_case",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-93.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "RGB LED指示灯特写。",
+        "module": "charging_case",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "便携收纳袋为绒面布料，柔软细腻，对充电盒的保护很周到。",
+      "充电盒外观展示，盒盖顶部为透明开窗设计，可以看到内部的耳机。盒盖上印有Cleer的品牌Logo和产品名称“ ALLY 真无线耳机”。",
+      "充电盒机身较为方正，边角处过渡自然避免割手。正面盒盖开启处有凹槽便于打开，下面是充电盒的状态指示灯。充电盒喷漆工艺透着金属光泽，看起来很有质感，可以看出品牌对细节的重视。",
+      "充电盒背部展示。",
+      "充电盒底部有部分产品信息。Cleer ALLY 真无线蓝牙耳机，输入5V⎓100mA，电池型号602045，额定电压3.7V，容量545mAh/2.02Wh。",
+      "Micro-USB接口位于充电盒机身一侧。",
+      "耳机在充电盒内的状态。",
+      "最后来称一下重量，耳机和充电盒共重63.2克。",
+      "充电盒单重48.7克。",
+      "二、Cleer ALLY 充电盒拆解",
+      "首先拆解充电盒看一下其电源管理系统，撬开充电座舱，有多处物理卡扣连接。",
+      "充电座舱内侧展示，PCBA使用螺丝固定，通过连接器与另一PCBA连接。",
+      "丝印AAL 46的霍尔元件。充电盒盒盖开启、关闭时的磁场变化会被霍尔元件感知到，进而通知充电盒MCU和耳机与已连接设备配对或断开连接。",
+      "卸下固定PCBA的螺丝，充电座舱壳体内侧展示。盒盖开启处有一个梯形磁铁用于吸附盒盖，两侧耳机位置有磁铁吸附固定耳机。",
+      "连接充电盒内另一PCBA的金属插针。",
+      "两颗丝印1AM的三极管，用于驱动LED指示灯。",
+      "两颗LED指示灯特写。",
+      "充电盒内部另一PCBA，使用螺丝固定，底部是电池。",
+      "指示灯的导光柱设计。",
+      "取出充电盒内的PCBA和电池。",
+      "TI德州仪器 BQ24040 1A线性充电IC，输入支持30V过压保护，用于为充电盒电池充电。此充电芯片的主要特点是：具有集成OVP输入过压保护，充电电压精度高，低电（低于电池满电电压时）自动启动充电。",
+      "一颗无标MCU，用于指示灯控制、开盖检测和电量指示等充电盒功能。",
+      "指示灯透光孔的位置，贴有黑色网布，让指示灯光线更柔和。",
+      "扣式电池与充电盒内软包电池均来自重庆紫建。",
+      "RGB LED指示灯特写。",
+      "内部电路方面，Cleer ALLY充电盒内有两块PCBA通过连接器相连，Micro-USB接口输入电源，TI德州仪器BQ24040支持输入过压保护功能，负责为电池充电；软包电池来自重庆紫建，容量545mAh；TI德州仪器TPS61240负责电池输出升压为耳机充电，主板上有三极管用于驱动LED指示灯，一颗无标MCU，用于指示灯控制、开盖检测和电量指示等充电盒功能。"
+    ],
+    "accessories": [],
+    "bom_side": "充电盒",
+    "appearance_images": [],
+    "teardown_image_count": 0,
+    "bom_rows": [
+      {
+        "component": "电池",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "充电盒",
+        "role": "major",
+        "evidence": {
+          "value": "电池",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "充电盒底部有部分产品信息。Cleer ALLY 真无线蓝牙耳机，输入5V⎓100mA，电池型号602045，额定电压3.7V，容量545mAh/2.02Wh。"
+        }
+      },
+      {
+        "component": "充电仓",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "充电盒",
+        "role": "major",
+        "evidence": {
+          "value": "充电仓",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "充电盒底部有部分产品信息。Cleer ALLY 真无线蓝牙耳机，输入5V⎓100mA，电池型号602045，额定电压3.7V，容量545mAh/2.02Wh。"
+        }
+      }
+    ]
+  },
+  "earbuds": {
+    "module": "earbuds",
+    "description": "",
+    "images": [
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-8.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电线缆为USB-A to Micro-USB接口。这款产品发布有一段时间了，在当时采用Micro-USB接口较为常见。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-10.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机配备了可替换的三对硅胶耳塞、三对硅胶耳翼以及一对中性无翼耳套，尺寸大小不同，可自由组合以适合不同人群的佩戴。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-15.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "我爱音频网采用ChargerLAB POWER-Z KT002便携式电源测试仪对Cleer ALLY 真无线蓝牙耳机进行有线充电测试，充电功率约为2.5W。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-18.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机的充电触点处有绝缘膜，减少存放时的电量损耗，使用前需撕掉。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-16.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "给耳机电池充电的Pogo Pin。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-20.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "Cleer ALLY 真无线蓝牙耳机 波尔多红 配色。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-33.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "边角处霍尔元件所在的PCBA，通过导线连接，导线外有绝缘导管。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-28.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "PCBA一侧展示。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-30.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "PCBA另一侧展示。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-34.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "给耳机充电的Pogo Pin，镀层光亮，品质较好。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-36.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电接口位置有一黑色绝缘胶布。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-39.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "PCBA和电池另一侧展示。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-40.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "据我爱音频网拆解了解到，目前已有华为、小米、魅族、OPPO、小鸟音响等知名品牌大量采用紫建电子的电池。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-41.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "电池保护板特写，上面有热敏电阻检测电池温度。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-42.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "PCBA一侧电路展示，焊点干净饱满。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-44.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "PCBA另一侧展示。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-45.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "两颗丝印A58A1的MOS管，控制耳机充电。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-46.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "65Z5 3.0V稳压管，通过连接器给副板的霍尔传感器供电。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/TPS61240-高效率同步整流升压IC.png",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "TI德州仪器 TPS61240 高效率同步整流升压IC，将内置电池升压为耳机充电，开关频率3.5MHz。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-47.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "Texas Instruments德州仪器 TPS61240 详细资料。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-43.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "TI德州仪器 BQ24040 详细资料。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-48.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "三、Cleer ALLY 耳机拆解",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-49.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "下面我们继续来拆解耳机部分，Cleer ALLY为豆式入耳设计，Freebit耳翼为专利设计，佩戴时支撑在耳廓内，分担耳机对耳道的压迫感。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-51-1.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "通话麦克风的拾音孔，内有防尘网。这一部分轻微突出于壳体，可以提高一些拾音能力，看起来也比较美观。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-52.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机壳体由几部分组成。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-53.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "充电触点和中间的红外线距离传感器。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-54.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "出音嘴处的防尘网，隐约可以看到内部的扬声器单元。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-55.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "首先拆开耳机最外侧的壳体。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-56.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "壳体内部展示。外侧装饰壳体的卡扣处有胶水固定，兼顾防水，中间区域是用于触控感应的PCB。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-57.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "壳体内侧的LDS天线，用于传输蓝牙信号。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-59.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "左右耳机主板外侧电路一致。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-60.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "连接触控感应PCB的Pogo Pin。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-61.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "音腔内电路通过FPC和连接器与主板相连。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-62.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "连接LDS天线的金属触点。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-63.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "取出主板可以看到内部的扣式电池，主板和电池上都有一层绝缘膜。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-64.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "分离耳机的塑料中框，扣式电池通过导线与主板相连。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-65.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "塑料中框结构展示，起固定通话麦克风和主板的作用。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-66.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "塑料中框另一侧结构展示。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-67.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "通话麦克风内侧的防尘网特写。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-68.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "通话麦克风以及胶框使用整圈胶水来进行密封处理，兼顾声学和防水要求。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-69.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "通话麦克风所在的位置，通过导线与音腔内的电路连接。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-70.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "取出扣式电池和主板，继续拆解。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-71.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "耳机内部还有一块PCBA，使用螺丝固定在壳体上，同时使用胶水密封。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-72.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "取下耳机的第二个塑料中框。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-73.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "取出音腔内的PCBA，通过FPC与主板相连。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-75.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "音腔内的结构展示，扬声器通过导线焊接连接到电路板上。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-76.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "给耳机电池充电的Pogo Pin，中间是红外线距离传感器的开窗。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-77.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "扬声器单元通过导线与PCBA相连，使用黑色胶水密封。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-79.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "动圈单元的尺寸与官方宣传的5.8mm规格一致。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-78.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "音腔内PCBA一侧电路展示，电路板上涂有绝缘漆，可以起到一定的防水效果。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-80.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "音腔内PCBA一侧电路展示，电路板正反面覆盖纳米防水涂层，在物理结构防水的基础上增加第二道保护层。据悉这种纳米涂层不仅防水，还有效防汗和防盐雾水汽，是Cleer ALLY支持IPX5防水防汗、满足运动需求的关键所在。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-81.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "红外线距离传感器特写，用于入耳检测功能，使耳机实现自动播放/暂停的功能。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-82.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "丝印MK2的IC，3.3V LDO 专为红外传感器供电。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-74.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "丝印AAS 32的IC。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-85.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "扣式电池和主PCBA与一元硬币的尺寸对比。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-86-1.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "主PCBA一侧电路展示。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://www.52audio.com/qiniu/62543/image/747bb4f41a00d6cc0f3812e65f40be9a.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "据我爱音频网拆解了解到，包括BOSE、SONY、万魔、漫步者、vivo等品牌在内的TWS耳机都大量采用了高通方案。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-91.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "高通 QCC3026资料图。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-87.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "邦定胶加固的IC为MX25U6435FBBI 1.8V 64Mb串口NOR存储器，用来存储耳机的配置信息等。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-90.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "连接LDS天线的金属弹片。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-83.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "丝印MI112B的锂电保护IC。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-89.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "扣式电池的型号为LIZ ZJ1454C 19A，直径14mm，厚度5.4mm，额定电压3.7V，额定容量85mAh/0.315Wh。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/clipboard.png",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "Azoteq IQS227 触控IC，用于检测触摸操作。",
+        "module": "earbuds",
+        "phase": "intro"
+      },
+      {
+        "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/Cleer-ALLY-真无线-88.jpg",
+        "alt": "拆解报告：Cleer ALLY 真无线蓝牙耳机-我爱音频网",
+        "caption": "Azoteq IQS227 详细资料。",
+        "module": "earbuds",
+        "phase": "intro"
+      }
+    ],
+    "notes": [
+      "今天我爱音频网要拆解的是Cleer ALLY 真无线蓝牙耳机，耳机采用了专利的Freebit耳翼设计，符合人体工学，可以提高佩戴的舒适性和稳固性；耳机内置高通蓝牙5.0芯片，支持高通第8代cVc通话降噪技术，有入耳检测和触摸控制功能，便于日常使用；耳机还支持IPX5级防水防汗，可以运动佩戴，续航数据为10+20小时，能够提供较长时间的音乐播放。下面一起来看我爱音频网的详细拆解吧~",
+      "音频品牌Cleer诞生于美国加州，秉承“Quality That Inspires”的品牌理念，致力于向人们传递纯净、清晰、自然的声音。Cleer潜心致力于声学开发以及产品设计，在发声单元、音频调教、降噪技术、无线连接、人体工学等多方面都具备自己独到的专利特色。其音频产品涵盖真无线耳机、头戴式蓝牙耳机、降噪耳机、无线智能音箱、高端家庭音响等，品类丰富。",
+      "耳机配备了可替换的三对硅胶耳塞、三对硅胶耳翼以及一对中性无翼耳套，尺寸大小不同，可自由组合以适合不同人群的佩戴。",
+      "我爱音频网采用ChargerLAB POWER-Z KT002便携式电源测试仪对Cleer ALLY 真无线蓝牙耳机进行有线充电测试，充电功率约为2.5W。",
+      "耳机的充电触点处有绝缘膜，减少存放时的电量损耗，使用前需撕掉。",
+      "给耳机电池充电的Pogo Pin。",
+      "Cleer ALLY 真无线蓝牙耳机 波尔多红 配色。",
+      "左右耳机共重14.5克。重量适中。",
+      "给耳机充电的Pogo Pin，镀层光亮，品质较好。",
+      "两颗丝印A58A1的MOS管，控制耳机充电。",
+      "TI德州仪器 TPS61240 高效率同步整流升压IC，将内置电池升压为耳机充电，开关频率3.5MHz。",
+      "三、Cleer ALLY 耳机拆解",
+      "下面我们继续来拆解耳机部分，Cleer ALLY为豆式入耳设计，Freebit耳翼为专利设计，佩戴时支撑在耳廓内，分担耳机对耳道的压迫感。",
+      "耳机外侧壳体支持触控，上面有Cleer的品牌Logo。耳机支持双击和长按两种交互方式。",
+      "通话麦克风的拾音孔，内有防尘网。这一部分轻微突出于壳体，可以提高一些拾音能力，看起来也比较美观。",
+      "耳机壳体由几部分组成。",
+      "出音嘴处的防尘网，隐约可以看到内部的扬声器单元。",
+      "首先拆开耳机最外侧的壳体。",
+      "左右耳机主板外侧电路一致。",
+      "分离耳机的塑料中框，扣式电池通过导线与主板相连。",
+      "耳机内部还有一块PCBA，使用螺丝固定在壳体上，同时使用胶水密封。",
+      "取下耳机的第二个塑料中框。",
+      "给耳机电池充电的Pogo Pin，中间是红外线距离传感器的开窗。",
+      "红外线距离传感器特写，用于入耳检测功能，使耳机实现自动播放/暂停的功能。",
+      "Cleer ALLY采用高通 QCC3026 TWS真无线立体声蓝牙耳机方案，支持蓝牙V5.0，内置120MHz Kalimba DPS。高通QCC3026支持第八代cVc通话降噪，双耳主耳机和从耳机智能切换，内置锂电池充电器；在扩展性能方面，支持外挂语音唤醒和心率检测；连接方面，支持SBC、AAC、aptX连接。总体上具有低延迟，低功耗，立体声通话的特点。",
+      "据我爱音频网拆解了解到，包括BOSE、SONY、万魔、漫步者、vivo等品牌在内的TWS耳机都大量采用了高通方案。",
+      "邦定胶加固的IC为MX25U6435FBBI 1.8V 64Mb串口NOR存储器，用来存储耳机的配置信息等。",
+      "Cleer ALLY 真无线蓝牙耳机充电盒机身较为方正，边角处过渡自然，盒盖为透明开窗，比较有特点；耳机为豆式入耳设计，Freebit耳翼为专利设计，可分担耳机对耳道的压迫感，提高佩戴舒适度和稳定性。耳机内部各腔体均独立密封，使用了大量封胶，支持IPX5级防水防汗，适合运动佩戴，整体的外观设计和波尔多红配色看起来比较有动感。",
+      "Cleer ALLY耳机内部为“汉堡包”结构，音腔内有一块PCBA，连接了扬声器单元、充电触点、用于入耳检测的红外线距离传感器和通话麦克风，该PCBA通过FPC与蓝牙芯片所在的PCBA相连。耳机的主控芯片为高通QCC3026，支持蓝牙V5.0和第八代cVc通话降噪，支持SBC、AAC、aptX编码；耳机通过LDS天线传输蓝牙信号，Azoteq IQS227负责触摸检测，扣式电池同样来自重庆紫建，容量85mAh，配合QCC3026低功耗特性，实现单次10小时超长续航。",
+      "从整体来看，Cleer ALLY真无线耳机做工精良，耳机采用物理结构密封+PCBA板级纳米涂层，可实现IPX5防水防汗，适合运动佩戴；10小时的续航能力在当前TWS耳机产品中处于领先水平。再配以富有质感的金属喷漆工艺，Cleer ALLY是一款质量过硬且颜值在线的产品。"
+    ],
+    "accessories": [],
+    "bom_side": "耳机",
+    "appearance_images": [],
+    "teardown_image_count": 0,
+    "bom_rows": [
+      {
+        "component": "主板/PCBA",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "major",
+        "evidence": {
+          "value": "主板/PCBA",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "从整体来看，Cleer ALLY真无线耳机做工精良，耳机采用物理结构密封+PCBA板级纳米涂层，可实现IPX5防水防汗，适合运动佩戴；10小时的续航能力在当前TWS耳机产品中处于领先水平。"
+        }
+      },
+      {
+        "component": "充电触点",
+        "brand": "",
+        "model": "",
+        "qty_hint": "",
+        "side": "耳机",
+        "role": "minor",
+        "evidence": {
+          "value": "充电触点",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "给耳机电池充电的Pogo Pin。"
+        }
+      }
+    ]
+  },
+  "gaps": [
+    "包装配件清单：未能从「包括…等」句式解析出零件列表",
+    "导语卖点：开箱前无足够长的功能介绍段落"
+  ],
+  "product": {
+    "canonical_id": "unknown--cleer-ally",
+    "brand": "",
+    "model": "Cleer ALLY",
+    "category": "真无线耳机TWS",
+    "earbud_type": "入耳",
+    "report_url": "https://www.52audio.com/archives/64689.html",
+    "price_cny": null
+  },
+  "selling_points_by_tag": {
+    "防水防尘": [
+      "标记/认证：从整体来看，Cleer ALLY真无线耳机做工精良，耳机采用物理结构密封+PCBA板级纳米涂层，可实现IPX5防水防汗，适合运动佩戴；10小时的续航能力在当前TWS耳机产品中处于领先水平。",
+      "今天我爱音频网要拆解的是Cleer ALLY 真无线蓝牙耳机，耳机采用了专利的Freebit耳翼设计，符合人体 […]\n从整体来看，Cleer ALLY真无线耳机做工精良，耳机采用物理结构密封+PCBA板级纳米涂层，可实现IPX5防水防汗，适合运动佩戴；10小时的续航能力在当前TWS耳机产品中处于领先水平。",
+      "标记/认证：据悉这种纳米涂层不仅防水，还有效防汗和防盐雾水汽，是Cleer ALLY支持IPX5防水防汗、满足运动需求的关键所在。",
+      "标记/认证：耳机内部各腔体均独立密封，使用了大量封胶，支持IPX5级防水防汗，适合运动佩戴，整体的外观设计和波尔多红配色看起来比较有动感。"
+    ],
+    "降噪": [
+      "Cleer潜心致力于声学开发以及产品设计，在发声单元、音频调教、降噪技术、无线连接、人体工学等多方面都具备自己独到的专利特色。",
+      "其音频产品涵盖真无线耳机、头戴式蓝牙耳机、降噪耳机、无线智能音箱、高端家庭音响等，品类丰富。"
+    ]
+  }
+}
