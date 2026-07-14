@@ -6,6 +6,12 @@ venv/
 .DS_Store
 Thumbs.db
 
+# Astro build output — regenerated fresh every CI run and uploaded directly
+# to Pages via actions/upload-pages-artifact before any git commit happens.
+# Committing it has zero functional purpose for deployment and only bloats
+# the repo (see .github/workflows/update-and-deploy.yml).
+site/
+
 # Browser cookies exported for yt-dlp (contains login session, never commit)
 data/cookies.txt
 cookies.txt
