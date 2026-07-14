@@ -4,7 +4,8 @@
   "version": "5.0.0",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "cache:images": "node scripts/cache-images.mjs",
+    "build": "node scripts/cache-images.mjs && astro build",
     "preview": "astro preview"
   },
   "dependencies": {
