@@ -141,6 +141,20 @@
             "source_type": "summary_prose",
             "source_text": "充电盒内置VDL紫建电子3.89V/530mAh锂电池，采用了WINSEMI稳先微WSDY3302E锂电保护IC，思远半导体SY8702低侧过压保护（OVP）IC，ETA钰泰ETA9030V电源管理芯片，Cmsemicon中微CMS8S5889单片机等方案。"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9030V",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "ETA9030V",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内置VDL紫建电子3.89V/530mAh锂电池，采用了WINSEMI稳先微WSDY3302E锂电保护IC，思远半导体SY8702低侧过压保护（OVP）IC，ETA钰泰ETA9030V电源管理芯片，Cmsemicon中微CMS8S5889单片机等方案。"
+          }
         }
       ],
       "bom_table": [
@@ -209,6 +223,20 @@
           "role": "保护IC",
           "evidence": {
             "value": "思远半导体SY8702",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内置VDL紫建电子3.89V/530mAh锂电池，采用了WINSEMI稳先微WSDY3302E锂电保护IC，思远半导体SY8702低侧过压保护（OVP）IC，ETA钰泰ETA9030V电源管理芯片，Cmsemicon中微CMS8S5889单片机等方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9030V",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "ETA9030V",
             "confidence": 0.85,
             "source_type": "summary_prose",
             "source_text": "充电盒内置VDL紫建电子3.89V/530mAh锂电池，采用了WINSEMI稳先微WSDY3302E锂电保护IC，思远半导体SY8702低侧过压保护（OVP）IC，ETA钰泰ETA9030V电源管理芯片，Cmsemicon中微CMS8S5889单片机等方案。"
@@ -712,9 +740,18 @@
       },
       "weight_evidence": {
         "value": "46.5g",
-        "confidence": 0.75,
+        "confidence": 0.85,
         "source_type": "text",
-        "source_text": "46.5g"
+        "source_text": "OPPO Enco Clip2开放式耳机整机重量约为46.5g，小巧轻盈"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "5.5g",
+      "weight_earbud_evidence": {
+        "value": "5.5g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "整机重量约为46.5g，小巧轻盈便携。\n单只耳机重量约为5.5g，佩戴舒适"
       }
     },
     "hardware": {
@@ -865,6 +902,6 @@
       }
     }
   },
-  "data_completeness": 0.82,
+  "data_completeness": 0.822,
   "source_layer": "technical"
 }

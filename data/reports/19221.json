@@ -1,0 +1,567 @@
+{
+  "id": "19221",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/19221.html",
+  "title": "努比亚nubia Pods TWS真无线蓝牙耳机",
+  "brand": "",
+  "model": "努比亚nubia Pods TWS",
+  "category": "真无线耳机TWS",
+  "published_at": "2019-04-17",
+  "author": "Vallière",
+  "summary": "此前，nubia努比亚在北京推出可穿戴智能手机努比亚α，在这次发布会临近尾声时，nubia为我们带来了一个彩蛋 […]",
+  "captured_at": "2026-07-14T02:14:48+00:00",
+  "data_completeness": 0.754,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "努比亚nubia Pods TWS",
+      "category": "真无线耳机TWS",
+      "launch_date": null,
+      "price_cny": 799.0,
+      "price_note": "正文标注售价",
+      "selling_points": [
+        {
+          "text": "港台地区的电波认证LOGO，输入：5.2V 1.1A，输出：5V 0.11A。",
+          "tag": "其他",
+          "evidence": {
+            "value": "港台地区的电波认证LOGO，输入：5.2V 1.1A，输出：5V 0.11A。",
+            "confidence": 0.75,
+            "source_type": "text",
+            "source_text": "港台地区的电波认证LOGO，输入：5.2V 1.1A，输出：5V 0.11A。"
+          }
+        },
+        {
+          "text": "合盖内侧有产品的认证信息等等。",
+          "tag": "其他",
+          "evidence": {
+            "value": "合盖内侧有产品的认证信息等等。",
+            "confidence": 0.71,
+            "source_type": "text",
+            "source_text": "合盖内侧有产品的认证信息等等。"
+          }
+        },
+        {
+          "text": "耳机导管前端有一层金属防尘网。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "耳机导管前端有一层金属防尘网。",
+            "confidence": 0.57,
+            "source_type": "text",
+            "source_text": "耳机导管前端有一层金属防尘网。"
+          }
+        },
+        {
+          "text": "耳机背盖内侧，黑色区域是LED透光窗和防尘网，银色区域是金属化蓝牙天线。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "耳机背盖内侧，黑色区域是LED透光窗和防尘网，银色区域是金属化蓝牙天线。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "耳机背盖内侧，黑色区域是LED透光窗和防尘网，银色区域是金属化蓝牙天线。"
+          }
+        },
+        {
+          "text": "耳机充电盒的主板特写，可以看到上面覆盖了一层防水胶。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "耳机充电盒的主板特写，可以看到上面覆盖了一层防水胶。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "耳机充电盒的主板特写，可以看到上面覆盖了一层防水胶。"
+          }
+        },
+        {
+          "text": "位于耳机侧面的一个调音孔，内有防尘网保护。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "位于耳机侧面的一个调音孔，内有防尘网保护。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "位于耳机侧面的一个调音孔，内有防尘网保护。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通话"
+      ],
+      "positioning_summary": "港台地区的电波认证LOGO，输入：5.2V 1.1A，输出：5V 0.11A。",
+      "launch_date_evidence": null,
+      "price_evidence": {
+        "value": 799.0,
+        "confidence": 0.9,
+        "source_type": "text",
+        "source_text": "售价799元"
+      }
+    },
+    "cost": {
+      "major_parts": [
+        "主板/PCBA",
+        "电池",
+        "充电仓",
+        "麦克风",
+        "天线"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm",
+          "model": "高通 QCC3020",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通 QCC3020",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "高通 QCC3020"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm",
+          "model": "高通aptX",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通aptX",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "高通aptX"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "C面盖背后的充电触点小板，采用排线连接到主板上。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "取出充电盒主板和电池组。"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装内包含耳机本体、耳机充电盒、数据线、硅胶耳套耳撑、使用说明等等。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机背盖上依然是nubia和1MORE的logo，还有一个通话麦克风。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机背盖内侧，黑色区域是LED透光窗和防尘网，银色区域是金属化蓝牙天线。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机的充电位比较浅，每边有两个充电触点。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机充电盒的弹性合盖开关按键，按键上方的小圆点是工作指示灯。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机充电盒的弹性合盖开关按键，按键上方的小圆点是工作指示灯。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "高通 QCC3020",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通 QCC3020",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Qualcomm高通 QCC3020蓝牙音频芯片，支持蓝牙5.0，内置120 MHz Qualcomm® Kalimba\nDSP。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [
+        "包装内包含耳机本体、耳机充电盒、数据线、硅胶耳套耳撑、使用说明等等。"
+      ],
+      "process_hints": [
+        {
+          "value": "电池使用镍带焊接在主板上，主板与电池之间使用一块塑料支撑架做隔离。",
+          "evidence": {
+            "value": "电池使用镍带焊接在主板上，主板与电池之间使用一块塑料支撑架做隔离。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "电池使用镍带焊接在主板上，主板与电池之间使用一块塑料支撑架做隔离。"
+          }
+        },
+        {
+          "value": "MI1锂电池一体化保护IC。",
+          "evidence": {
+            "value": "MI1锂电池一体化保护IC。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "MI1锂电池一体化保护IC。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": ""
+    },
+    "structure": {
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
+      "materials": [
+        "硅胶",
+        "塑料"
+      ],
+      "ip_rating": null,
+      "weight_g": null,
+      "dimensions": [
+        "Qualcomm高通 QCC3020蓝牙音频芯片，支持蓝牙5.0，内置120 MHz Qualcomm® Kalimba\nDSP。",
+        "三、我爱音频网拆解总结\n1、这款产品声音由大师调校，设计上荣获IF大奖，并且内部做工优秀，布局合理；\n2、内置Qualcomm高通QCC3020蓝牙音频芯片，支持蓝牙5.0，支持DSP智能通话降噪技术，支持高通aptX及AAC高清蓝牙，带来强大的功能和优秀的音质。"
+      ],
+      "internal_structure": [
+        {
+          "value": "C面盖背后的充电触点小板，采用排线连接到主板上。",
+          "evidence": {
+            "value": "C面盖背后的充电触点小板，采用排线连接到主板上。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "C面盖背后的充电触点小板，采用排线连接到主板上。"
+          }
+        },
+        {
+          "value": "耳机充电盒的主板特写，可以看到上面覆盖了一层防水胶。",
+          "evidence": {
+            "value": "耳机充电盒的主板特写，可以看到上面覆盖了一层防水胶。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机充电盒的主板特写，可以看到上面覆盖了一层防水胶。"
+          }
+        },
+        {
+          "value": "取出充电盒主板和电池组。",
+          "evidence": {
+            "value": "取出充电盒主板和电池组。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "取出充电盒主板和电池组。"
+          }
+        },
+        {
+          "value": "电池组和主板之间采用导线连接。",
+          "evidence": {
+            "value": "电池组和主板之间采用导线连接。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "电池组和主板之间采用导线连接。"
+          }
+        },
+        {
+          "value": "耳机背盖上依然是nubia和1MORE的logo，还有一个通话麦克风。",
+          "evidence": {
+            "value": "耳机背盖上依然是nubia和1MORE的logo，还有一个通话麦克风。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机背盖上依然是nubia和1MORE的logo，还有一个通话麦克风。"
+          }
+        },
+        {
+          "value": "麦克风特写。",
+          "evidence": {
+            "value": "麦克风特写。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "麦克风特写。"
+          }
+        },
+        {
+          "value": "耳机背盖内侧，黑色区域是LED透光窗和防尘网，银色区域是金属化蓝牙天线。",
+          "evidence": {
+            "value": "耳机背盖内侧，黑色区域是LED透光窗和防尘网，银色区域是金属化蓝牙天线。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机背盖内侧，黑色区域是LED透光窗和防尘网，银色区域是金属化蓝牙天线。"
+          }
+        },
+        {
+          "value": "蓝牙天线，两根顶针接触到耳机背盖上面。",
+          "evidence": {
+            "value": "蓝牙天线，两根顶针接触到耳机背盖上面。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "蓝牙天线，两根顶针接触到耳机背盖上面。"
+          }
+        }
+      ],
+      "fastener_type": [],
+      "sealing_method": [
+        {
+          "value": "耳机充电盒的主板特写，可以看到上面覆盖了一层防水胶。",
+          "evidence": {
+            "value": "耳机充电盒的主板特写，可以看到上面覆盖了一层防水胶。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "耳机充电盒的主板特写，可以看到上面覆盖了一层防水胶。"
+          }
+        },
+        {
+          "value": "位于耳机侧面的一个调音孔，内有防尘网保护。",
+          "evidence": {
+            "value": "位于耳机侧面的一个调音孔，内有防尘网保护。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "位于耳机侧面的一个调音孔，内有防尘网保护。"
+          }
+        },
+        {
+          "value": "耳机导管前端有一层金属防尘网。",
+          "evidence": {
+            "value": "耳机导管前端有一层金属防尘网。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "耳机导管前端有一层金属防尘网。"
+          }
+        },
+        {
+          "value": "耳机背盖内侧，黑色区域是LED透光窗和防尘网，银色区域是金属化蓝牙天线。",
+          "evidence": {
+            "value": "耳机背盖内侧，黑色区域是LED透光窗和防尘网，银色区域是金属化蓝牙天线。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "耳机背盖内侧，黑色区域是LED透光窗和防尘网，银色区域是金属化蓝牙天线。"
+          }
+        }
+      ],
+      "wear_design": [
+        {
+          "value": "入耳式耳机，Buds形状，有硅胶耳撑加强佩戴稳固。",
+          "evidence": {
+            "value": "入耳式耳机，Buds形状，有硅胶耳撑加强佩戴稳固。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "入耳式耳机，Buds形状，有硅胶耳撑加强佩戴稳固。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://note.youdao.com/yws/public/resource/3c83feec1938b9bc3d414587b45d399d/xmlnote/ADA1EA5F61AD4F9FA3B46718BF35C37E/12829",
+          "alt": "拆解报告：努比亚nubia Pods TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://note.youdao.com/yws/public/resource/3c83feec1938b9bc3d414587b45d399d/xmlnote/7A00F0EDA2D649CAA4DF1C9231CF8558/12838",
+          "alt": "拆解报告：努比亚nubia Pods TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://note.youdao.com/yws/public/resource/3c83feec1938b9bc3d414587b45d399d/xmlnote/7F4AE3EC0DFC4138A4C36EE8663A8BD5/12841",
+          "alt": "拆解报告：努比亚nubia Pods TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://note.youdao.com/yws/public/resource/3c83feec1938b9bc3d414587b45d399d/xmlnote/BC3A07787508424CB7C7AFF60981EF93/12845",
+          "alt": "拆解报告：努比亚nubia Pods TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://note.youdao.com/yws/public/resource/3c83feec1938b9bc3d414587b45d399d/xmlnote/6CA05B65D1834DDE8ABA7D5C5117B79F/12849",
+          "alt": "拆解报告：努比亚nubia Pods TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "C面盖背后的充电触点小板，采用排线连接到主板上。",
+        "耳机充电盒的主板特写，可以看到上面覆盖了一层防水胶。",
+        "取出充电盒主板和电池组。",
+        "电池组和主板之间采用导线连接。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": null
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "扁平Micro USB充电线。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "扁平Micro USB充电线。"
+        },
+        {
+          "param": "充电接口",
+          "value": "背部的Micro USB充电接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "背部的Micro USB充电接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Micro USB",
+          "unit": "",
+          "brand": "",
+          "model": "Micro USB",
+          "confidence": 0.8,
+          "source_ref": "Micro USB"
+        },
+        {
+          "param": "标记/认证",
+          "value": "合盖内侧有产品的认证信息等等。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "合盖内侧有产品的认证信息等等。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "港台地区的电波认证LOGO，输入：5.2V 1.1A，输出：5V 0.11A。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "港台地区的电波认证LOGO，输入：5.2V 1.1A，输出：5V 0.11A。"
+        },
+        {
+          "param": "电池容量",
+          "value": "410",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "410mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.0",
+      "codecs": [
+        {
+          "value": "AAC",
+          "evidence": {
+            "value": "AAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "三、我爱音频网拆解总结\n1、这款产品声音由大师调校，设计上荣获IF大奖，并且内部做工优秀，布局合理；\n2、内置Qualcomm高通QCC3020蓝牙音频芯片，支持蓝牙5.0，支持DSP智能通话降噪技术，支持高通aptX及AAC高清蓝牙，带来强大的功能和优秀的音质。"
+          }
+        },
+        {
+          "value": "aptX",
+          "evidence": {
+            "value": "aptX",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "三、我爱音频网拆解总结\n1、这款产品声音由大师调校，设计上荣获IF大奖，并且内部做工优秀，布局合理；\n2、内置Qualcomm高通QCC3020蓝牙音频芯片，支持蓝牙5.0，支持DSP智能通话降噪技术，支持高通aptX及AAC高清蓝牙，带来强大的功能和优秀的音质。"
+          }
+        }
+      ],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [],
+      "ota_support": [],
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "5.0",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.0"
+      }
+    }
+  }
+}

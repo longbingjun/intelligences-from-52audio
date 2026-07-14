@@ -1,0 +1,687 @@
+{
+  "id": "44870",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/44870.html",
+  "title": "Buttons Air真无线蓝牙耳机",
+  "brand": "",
+  "model": "Buttons Air",
+  "category": "真无线耳机TWS",
+  "published_at": "2020-06-02",
+  "author": "GiGi24",
+  "summary": "Buttons是一个来自美国的音频品牌，它由黑眼豆豆（The Black Eyed Peas）的创始人、全球知 […]",
+  "captured_at": "2026-07-14T02:12:58+00:00",
+  "data_completeness": 0.732,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "Buttons Air",
+      "category": "真无线耳机TWS",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "耳机顶部的麦克风开孔，拾取环境噪音，用于通话降噪。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "耳机顶部的麦克风开孔，拾取环境噪音，用于通话降噪。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "耳机顶部的麦克风开孔，拾取环境噪音，用于通话降噪。"
+          }
+        },
+        {
+          "text": "出音孔上的防尘网。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "出音孔上的防尘网。",
+            "confidence": 0.57,
+            "source_type": "text",
+            "source_text": "出音孔上的防尘网。"
+          }
+        },
+        {
+          "text": "这一耐高压IC的加入，可以有效避免PD、QC等快充误操作对耳机充电盒内部元件造成的高压冲击，能够提升产品使用的安全性和稳定性。",
+          "tag": "长续航",
+          "evidence": {
+            "value": "这一耐高压IC的加入，可以有效避免PD、QC等快充误操作对耳机充电盒内部元件造成的高压冲击，能够提升产品使用的安全性和稳定性。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "这一耐高压IC的加入，可以有效避免PD、QC等快充误操作对耳机充电盒内部元件造成的高压冲击，能够提升产品使用的安全性和稳定性。"
+          }
+        },
+        {
+          "text": "耳机还支持入耳检测、IPX5级防水，搭配充电盒续航约20小时。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "耳机还支持入耳检测、IPX5级防水，搭配充电盒续航约20小时。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "耳机还支持入耳检测、IPX5级防水，搭配充电盒续航约20小时。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通话"
+      ],
+      "positioning_summary": "耳机顶部的麦克风开孔，拾取环境噪音，用于通话降噪。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "充电仓",
+        "电池",
+        "主板/PCBA",
+        "喇叭单元",
+        "麦克风",
+        "天线"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm",
+          "model": "高通QCC5124",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通QCC5124",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "高通QCC5124"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm",
+          "model": "高通aptX",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通aptX",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "高通aptX"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA7014",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA7014",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "ETA7014"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA1061",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA1061",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "ETA1061"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "Buttons是一个来自美国的音频品牌，它由黑眼豆豆（The Black Eyed Peas）的创始人、全球知名音乐人、艺术家Will.i.am创立，致力于将时尚和音乐融入智能硬件产品和潮流生活方式之间。此前我爱音频网曾经拆解过一款Buttons Ceramic 颈挂式蓝牙无线耳机，外型为“圆盘唱片”，材质为陶瓷，图案为头脑+肩膀的拟人形象，整体设计很有艺术感。此次我爱音频网拆解的是Buttons Air真无线耳机，外观设计相比之前更加前卫，耳机外壳依旧采用陶瓷材质，外观像一颗硕大的钻石。耳机内置11mm动圈单元，主控芯片为高通QCC5124，蓝牙5.0，支持高通的cVc通话降噪技术和aptX蓝牙编码。耳机还支持入耳检测、IPX5级防水，搭配充电盒续航约20小时。下面就通过我爱音频网的详细拆解看看这家注重设计感的公司，其TWS耳机产品内部结构如何吧~一、Buttons Air真无线蓝牙耳机 开箱"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电小板上有一块缓震泡棉，充电盒底部还有一个圆柱形锂电池。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "Buttons是一个来自美国的音频品牌，它由黑眼豆豆（The Black Eyed Peas）的创始人、全球知名音乐人、艺术家Will.i.am创立，致力于将时尚和音乐融入智能硬件产品和潮流生活方式之间。此前我爱音频网曾经拆解过一款Buttons Ceramic 颈挂式蓝牙无线耳机，外型为“圆盘唱片”，材质为陶瓷，图案为头脑+肩膀的拟人形象，整体设计很有艺术感。此次我爱音频网拆解的是Buttons Air真无线耳机，外观设计相比之前更加前卫，耳机外壳依旧采用陶瓷材质，外观像一颗硕大的钻石。耳机内置11mm动圈单元，主控芯片为高通QCC5124，蓝牙5.0，支持高通的cVc通话降噪技术和aptX蓝牙编码。耳机还支持入耳检测、IPX5级防水，搭配充电盒续航约20小时。下面就通过我爱音频网的详细拆解看看这家注重设计感的公司，其TWS耳机产品内部结构如何吧~一、Buttons Air真无线蓝牙耳机 开箱"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "Buttons是一个来自美国的音频品牌，它由黑眼豆豆（The Black Eyed Peas）的创始人、全球知名音乐人、艺术家Will.i.am创立，致力于将时尚和音乐融入智能硬件产品和潮流生活方式之间。此前我爱音频网曾经拆解过一款Buttons Ceramic 颈挂式蓝牙无线耳机，外型为“圆盘唱片”，材质为陶瓷，图案为头脑+肩膀的拟人形象，整体设计很有艺术感。此次我爱音频网拆解的是Buttons Air真无线耳机，外观设计相比之前更加前卫，耳机外壳依旧采用陶瓷材质，外观像一颗硕大的钻石。耳机内置11mm动圈单元，主控芯片为高通QCC5124，蓝牙5.0，支持高通的cVc通话降噪技术和aptX蓝牙编码。耳机还支持入耳检测、IPX5级防水，搭配充电盒续航约20小时。下面就通过我爱音频网的详细拆解看看这家注重设计感的公司，其TWS耳机产品内部结构如何吧~一、Buttons Air真无线蓝牙耳机 开箱"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机底部突出部分附近的麦克风开孔，主要用于通话时拾取人声。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "陶瓷盖板内侧，中间是电容式触摸感应区域，有一个触点；盖板边缘还有耳机的蓝牙天线，用于收发蓝牙信号，有两个触点。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电座舱上有三个电量指示灯。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "Buttons是一个来自美国的音频品牌，它由黑眼豆豆（The Black Eyed Peas）的创始人、全球知名音乐人、艺术家Will.i.am创立，致力于将时尚和音乐融入智能硬件产品和潮流生活方式之间。此前我爱音频网曾经拆解过一款Buttons Ceramic 颈挂式蓝牙无线耳机，外型为“圆盘唱片”，材质为陶瓷，图案为头脑+肩膀的拟人形象，整体设计很有艺术感。此次我爱音频网拆解的是Buttons Air真无线耳机，外观设计相比之前更加前卫，耳机外壳依旧采用陶瓷材质，外观像一颗硕大的钻石。耳机内置11mm动圈单元，主控芯片为高通QCC5124，蓝牙5.0，支持高通的cVc通话降噪技术和aptX蓝牙编码。耳机还支持入耳检测、IPX5级防水，搭配充电盒续航约20小时。下面就通过我爱音频网的详细拆解看看这家注重设计感的公司，其TWS耳机产品内部结构如何吧~一、Buttons Air真无线蓝牙耳机 开箱"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒背面是蓝色的主色调，分四部分介绍了产品的特点：产品的设计理念、耳机表面支持触控、部分参数和高通的多项技术支持。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电触点特写。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "高通QCC5124",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通QCC5124",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "耳机内置11mm动圈单元，主控芯片为高通QCC5124，蓝牙5.0，支持高通的cVc通话降噪技术和aptX蓝牙编码。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA7014",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA7014",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "钰泰 ETA7014，36V耐压，高侧过压保护IC，用于充电盒输入保护。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA7014",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA7014",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "钰泰 ETA7014 详细资料。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA1061",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA1061",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "钰泰 ETA1061 1μA超低静态电流的同步整流升压IC，SOT23封装，将内置锂电池升压到5V输出，非常适合TWS耳机充电盒升压为耳机充电。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA1061",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA1061",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "钰泰 ETA1061 详细资料。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "高通QCC5124",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通QCC5124",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "高通QCC5124资料图。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [],
+      "process_hints": [],
+      "summary_image_urls": [],
+      "summary_text": ""
+    },
+    "structure": {
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
+      "materials": [
+        "硅胶",
+        "PC"
+      ],
+      "ip_rating": "IPX5",
+      "weight_g": "93.8克",
+      "dimensions": [
+        "耳机内置11mm动圈单元，主控芯片为高通QCC5124，蓝牙5.0，支持高通的cVc通话降噪技术和aptX蓝牙编码。",
+        "充电座舱内侧壳体，共有四个尺寸较大的磁铁用来吸附固定耳机。",
+        "耳机主板和电池与一元硬币的尺寸对比。"
+      ],
+      "internal_structure": [
+        {
+          "value": "充电小板上有一块缓震泡棉，充电盒底部还有一个圆柱形锂电池。",
+          "evidence": {
+            "value": "充电小板上有一块缓震泡棉，充电盒底部还有一个圆柱形锂电池。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "充电小板上有一块缓震泡棉，充电盒底部还有一个圆柱形锂电池。"
+          }
+        },
+        {
+          "value": "充电盒背部电路，有一条形缓震泡棉对应电池位置。",
+          "evidence": {
+            "value": "充电盒背部电路，有一条形缓震泡棉对应电池位置。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "充电盒背部电路，有一条形缓震泡棉对应电池位置。"
+          }
+        },
+        {
+          "value": "Buttons是一个来自美国的音频品牌，它由黑眼豆豆（The Black Eyed Peas）的创始人、全球知名音乐人、艺术家Will.i.am创立，致力于将时尚和音乐融入智能硬件产品和潮流生活方式之间。此前我爱音频网曾经拆解过一款Buttons Ceramic 颈挂式蓝牙无线耳机，外型为“圆盘唱片”，材质为陶瓷，图案为头脑+肩膀的拟人形象，整体设计很有艺术感。此次我爱音频网拆解的是Buttons Air真无线耳机，外观设计相比之前更加前卫，耳机外壳依旧采用陶瓷材质，外观像一颗硕大的钻石。耳机内置11mm动圈单元，主控芯片为高通QCC5124，蓝牙5.0，支持高通的cVc通话降噪技术和aptX蓝牙编码。耳机还支持入耳检测、IPX5级防水，搭配充电盒续航约20小时。下面就通过我爱音频网的详细拆解看看这家注重设计感的公司，其TWS耳机产品内部结构如何吧~一、Buttons Air真无线蓝牙耳机 开箱",
+          "evidence": {
+            "value": "Buttons是一个来自美国的音频品牌，它由黑眼豆豆（The Black Eyed Peas）的创始人、全球知名音乐人、艺术家Will.i.am创立，致力于将时尚和音乐融入智能硬件产品和潮流生活方式之间。此前我爱音频网曾经拆解过一款Buttons Ceramic 颈挂式蓝牙无线耳机，外型为“圆盘唱片”，材质为陶瓷，图案为头脑+肩膀的拟人形象，整体设计很有艺术感。此次我爱音频网拆解的是Buttons Air真无线耳机，外观设计相比之前更加前卫，耳机外壳依旧采用陶瓷材质，外观像一颗硕大的钻石。耳机内置11mm动圈单元，主控芯片为高通QCC5124，蓝牙5.0，支持高通的cVc通话降噪技术和aptX蓝牙编码。耳机还支持入耳检测、IPX5级防水，搭配充电盒续航约20小时。下面就通过我爱音频网的详细拆解看看这家注重设计感的公司，其TWS耳机产品内部结构如何吧~一、Buttons Air真无线蓝牙耳机 开箱",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "Buttons是一个来自美国的音频品牌，它由黑眼豆豆（The Black Eyed Peas）的创始人、全球知名音乐人、艺术家Will.i.am创立，致力于将时尚和音乐融入智能硬件产品和潮流生活方式之间。此前我爱音频网曾经拆解过一款Buttons Ceramic 颈挂式蓝牙无线耳机，外型为“圆盘唱片”，材质为陶瓷，图案为头脑+肩膀的拟人形象，整体设计很有艺术感。此次我爱音频网拆解的是Buttons Air真无线耳机，外观设计相比之前更加前卫，耳机外壳依旧采用陶瓷材质，外观像一颗硕大的钻石。耳机内置11mm动圈单元，主控芯片为高通QCC5124，蓝牙5.0，支持高通的cVc通话降噪技术和aptX蓝牙编码。耳机还支持入耳检测、IPX5级防水，搭配充电盒续航约20小时。下面就通过我爱音频网的详细拆解看看这家注重设计感的公司，其TWS耳机产品内部结构如何吧~一、Buttons Air真无线蓝牙耳机 开箱"
+          }
+        },
+        {
+          "value": "左下角是充电小板与主板连接导线的焊点，电流经过降压电路后给充电盒电池充电。底部手的位置是电池与主板连接导线的焊点。",
+          "evidence": {
+            "value": "左下角是充电小板与主板连接导线的焊点，电流经过降压电路后给充电盒电池充电。底部手的位置是电池与主板连接导线的焊点。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "左下角是充电小板与主板连接导线的焊点，电流经过降压电路后给充电盒电池充电。底部手的位置是电池与主板连接导线的焊点。"
+          }
+        },
+        {
+          "value": "扬声器单元独立腔体密封，通过导线与主板相连。",
+          "evidence": {
+            "value": "扬声器单元独立腔体密封，通过导线与主板相连。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "扬声器单元独立腔体密封，通过导线与主板相连。"
+          }
+        },
+        {
+          "value": "耳机底部突出部分附近的麦克风开孔，主要用于通话时拾取人声。",
+          "evidence": {
+            "value": "耳机底部突出部分附近的麦克风开孔，主要用于通话时拾取人声。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机底部突出部分附近的麦克风开孔，主要用于通话时拾取人声。"
+          }
+        },
+        {
+          "value": "耳机顶部的麦克风开孔，拾取环境噪音，用于通话降噪。",
+          "evidence": {
+            "value": "耳机顶部的麦克风开孔，拾取环境噪音，用于通话降噪。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机顶部的麦克风开孔，拾取环境噪音，用于通话降噪。"
+          }
+        },
+        {
+          "value": "陶瓷盖板内侧，中间是电容式触摸感应区域，有一个触点；盖板边缘还有耳机的蓝牙天线，用于收发蓝牙信号，有两个触点。",
+          "evidence": {
+            "value": "陶瓷盖板内侧，中间是电容式触摸感应区域，有一个触点；盖板边缘还有耳机的蓝牙天线，用于收发蓝牙信号，有两个触点。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "陶瓷盖板内侧，中间是电容式触摸感应区域，有一个触点；盖板边缘还有耳机的蓝牙天线，用于收发蓝牙信号，有两个触点。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "撬开充电盒底座，采用卡扣加胶水的方式固定。",
+          "evidence": {
+            "value": "撬开充电盒底座，采用卡扣加胶水的方式固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "撬开充电盒底座，采用卡扣加胶水的方式固定。"
+          }
+        },
+        {
+          "value": "耳机的音腔与电路部分是相对独立的，使用两颗螺丝固定连接。",
+          "evidence": {
+            "value": "耳机的音腔与电路部分是相对独立的，使用两颗螺丝固定连接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "耳机的音腔与电路部分是相对独立的，使用两颗螺丝固定连接。"
+          }
+        },
+        {
+          "value": "导线连接处采用胶水密封。",
+          "evidence": {
+            "value": "导线连接处采用胶水密封。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "导线连接处采用胶水密封。"
+          }
+        }
+      ],
+      "sealing_method": [
+        {
+          "value": "耳机还支持入耳检测、IPX5级防水，搭配充电盒续航约20小时。",
+          "evidence": {
+            "value": "耳机还支持入耳检测、IPX5级防水，搭配充电盒续航约20小时。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "耳机还支持入耳检测、IPX5级防水，搭配充电盒续航约20小时。"
+          }
+        },
+        {
+          "value": "出音孔上的防尘网。",
+          "evidence": {
+            "value": "出音孔上的防尘网。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "出音孔上的防尘网。"
+          }
+        }
+      ],
+      "wear_design": [
+        {
+          "value": "下面就通过我爱音频网的详细拆解看看这家注重设计感的公司，其TWS耳机产品内部结构如何吧~\n一、Buttons Air真无线蓝牙耳机 开箱\n包装盒依然极具品牌特色，真人佩戴耳机产品展示，图中是创始人Will.i.am本人。",
+          "evidence": {
+            "value": "下面就通过我爱音频网的详细拆解看看这家注重设计感的公司，其TWS耳机产品内部结构如何吧~\n一、Buttons Air真无线蓝牙耳机 开箱\n包装盒依然极具品牌特色，真人佩戴耳机产品展示，图中是创始人Will.i.am本人。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "下面就通过我爱音频网的详细拆解看看这家注重设计感的公司，其TWS耳机产品内部结构如何吧~\n一、Buttons Air真无线蓝牙耳机 开箱\n包装盒依然极具品牌特色，真人佩戴耳机产品展示，图中是创始人Will.i.am本人。"
+          }
+        },
+        {
+          "value": "耳机的配件单独占据一层，有一条USB-A to USB-C接口的充电线，还附赠了多对耳塞和耳翼，提升佩戴的稳定性。",
+          "evidence": {
+            "value": "耳机的配件单独占据一层，有一条USB-A to USB-C接口的充电线，还附赠了多对耳塞和耳翼，提升佩戴的稳定性。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "耳机的配件单独占据一层，有一条USB-A to USB-C接口的充电线，还附赠了多对耳塞和耳翼，提升佩戴的稳定性。"
+          }
+        },
+        {
+          "value": "红外线距离感应器，用于检测佩戴状态。",
+          "evidence": {
+            "value": "红外线距离感应器，用于检测佩戴状态。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "红外线距离感应器，用于检测佩戴状态。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/06/BUTTONS-AIR真无线-1.jpg",
+          "alt": "拆解报告：Buttons Air真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/06/BUTTONS-AIR真无线-2.jpg",
+          "alt": "拆解报告：Buttons Air真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/06/BUTTONS-AIR真无线-3.jpg",
+          "alt": "拆解报告：Buttons Air真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/06/BUTTONS-AIR真无线-4.jpg",
+          "alt": "拆解报告：Buttons Air真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/06/BUTTONS-AIR真无线-5.jpg",
+          "alt": "拆解报告：Buttons Air真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "充电小板上有一块缓震泡棉，充电盒底部还有一个圆柱形锂电池。",
+        "充电盒背部电路，有一条形缓震泡棉对应电池位置。",
+        "Buttons是一个来自美国的音频品牌，它由黑眼豆豆（The Black Eyed Peas）的创始人、全球知名音乐人、艺术家Will.i.am创立，致力于将时尚和音乐融入智能硬件产品和潮流生活方式之间。此前我爱音频网曾经拆解过一款Buttons Ceramic 颈挂式蓝牙无线耳机，外型为“圆盘唱片”，材质为陶瓷，图案为头脑+肩膀的拟人形象，整体设计很有艺术感。此次我爱音频网拆解的是Buttons Air真无线耳机，外观设计相比之前更加前卫，耳机外壳依旧采用陶瓷材质，外观像一颗硕大的钻石。耳机内置11mm动圈单元，主控芯片为高通QCC5124，蓝牙5.0，支持高通的cVc通话降噪技术和aptX蓝牙编码。耳机还支持入耳检测、IPX5级防水，搭配充电盒续航约20小时。下面就通过我爱音频网的详细拆解看看这家注重设计感的公司，其TWS耳机产品内部结构如何吧~一、Buttons Air真无线蓝牙耳机 开箱",
+        "左下角是充电小板与主板连接导线的焊点，电流经过降压电路后给充电盒电池充电。底部手的位置是电池与主板连接导线的焊点。"
+      ],
+      "ip_rating_evidence": {
+        "value": "IPX5",
+        "confidence": 0.8,
+        "source_type": "text",
+        "source_text": "IPX5"
+      },
+      "weight_evidence": {
+        "value": "93.8克",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "93.8克"
+      }
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电方式",
+          "value": "我爱音频网采用\nChargerLAB POWER-Z KM001C\n便携式电源测试仪对Buttons Air真无线蓝牙耳机进行有线充电测试，功率约为1.4W。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KM001C\n便携式电源测试仪对Buttons Air真无线蓝牙耳机进行有线充电测试，功率约为1.4W。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C充电接口位于充电盒背部。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充电接口位于充电盒背部。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C接口母座特写，负责电源输入，通过AtoC或者CtoC线缆与充电器、充电宝等搭配，可以给充电盒进行供电。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C接口母座特写，负责电源输入，通过AtoC或者CtoC线缆与充电器、充电宝等搭配，可以给充电盒进行供电。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "耳机还支持入耳检测、IPX5级防水，搭配充电盒续航约20小时。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "耳机还支持入耳检测、IPX5级防水，搭配充电盒续航约20小时。"
+        },
+        {
+          "param": "电池容量",
+          "value": "295",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "295mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.0",
+      "codecs": [
+        {
+          "value": "aptX",
+          "evidence": {
+            "value": "aptX",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "耳机内置11mm动圈单元，主控芯片为高通QCC5124，蓝牙5.0，支持高通的cVc通话降噪技术和aptX蓝牙编码。"
+          }
+        }
+      ],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [],
+      "ota_support": [],
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "5.0",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.0"
+      }
+    }
+  }
+}

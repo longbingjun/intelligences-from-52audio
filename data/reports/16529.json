@@ -1,0 +1,436 @@
+{
+  "id": "16529",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/16529.html",
+  "title": "PISEN品胜GT01 USB Type-C有线耳机",
+  "brand": "",
+  "model": "PISEN品胜GT01 USB Type-C",
+  "category": "有线耳机",
+  "published_at": "2019-03-07",
+  "author": "Vallière",
+  "summary": "PISEN品胜是一个无论在大城市还是一些比较偏远的小镇都能见到的数码品牌，它因为渠道广泛并且品质优良而在市场上 […]",
+  "captured_at": "2026-07-14T02:14:49+00:00",
+  "data_completeness": 0.532,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "PISEN品胜GT01 USB Type-C",
+      "category": "有线耳机",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "音腔底部的调音孔，内有防尘网。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "音腔底部的调音孔，内有防尘网。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "音腔底部的调音孔，内有防尘网。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通话"
+      ],
+      "positioning_summary": "音腔底部的调音孔，内有防尘网。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "麦克风",
+        "喇叭单元",
+        "主板/PCBA"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "BES3100",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES3100",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "BES3100"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "背后有麦克风图示，麦克风藏在线控里面。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "在拆解时直接把喇叭的振膜与盆架分开了。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "据悉，品胜这款USB-C耳机的数字音频PCBA由深圳市腾腾高科电子技术有限公司设计开发。这款PCBA用料精良，PCB，电阻，电容等物料均选用业界优质物料，同时内置ESD防护芯片，对Type-C接口进行防护。并且它还具有良好的兼容特性，完美支持市面主流Type-C 接口手机的音乐，通话以及相关的耳机线控功能。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "线控部分，拥有音量+、-和中间的多功能按键。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "BES3100",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES3100",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "另一面是芯片的一面，可以看到上面有一颗BES3100立体声数字编解码芯片，最高支持96kHz 24bit 的解码率，满足Hi-Res 音质标准。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [
+        "包装内包含装着耳机的盒子以及说明书。"
+      ],
+      "process_hints": [],
+      "summary_image_urls": [],
+      "summary_text": ""
+    },
+    "structure": {
+      "form_factor": "有线耳机",
+      "earbud_type": "入耳",
+      "materials": [
+        "塑料",
+        "PC"
+      ],
+      "ip_rating": null,
+      "weight_g": "13.4g",
+      "dimensions": [],
+      "internal_structure": [
+        {
+          "value": "背后有麦克风图示，麦克风藏在线控里面。",
+          "evidence": {
+            "value": "背后有麦克风图示，麦克风藏在线控里面。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "背后有麦克风图示，麦克风藏在线控里面。"
+          }
+        },
+        {
+          "value": "另一面是芯片的一面，可以看到上面有一颗BES3100立体声数字编解码芯片，最高支持96kHz 24bit 的解码率，满足Hi-Res 音质标准。采用左右声道和麦克风完全独立的平衡输出模式，失真度-84dB，信噪比-100dB，可以带给用户优秀的音质体验。",
+          "evidence": {
+            "value": "另一面是芯片的一面，可以看到上面有一颗BES3100立体声数字编解码芯片，最高支持96kHz 24bit 的解码率，满足Hi-Res 音质标准。采用左右声道和麦克风完全独立的平衡输出模式，失真度-84dB，信噪比-100dB，可以带给用户优秀的音质体验。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "另一面是芯片的一面，可以看到上面有一颗BES3100立体声数字编解码芯片，最高支持96kHz 24bit 的解码率，满足Hi-Res 音质标准。采用左右声道和麦克风完全独立的平衡输出模式，失真度-84dB，信噪比-100dB，可以带给用户优秀的音质体验。"
+          }
+        },
+        {
+          "value": "在拆解时直接把喇叭的振膜与盆架分开了。",
+          "evidence": {
+            "value": "在拆解时直接把喇叭的振膜与盆架分开了。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "在拆解时直接把喇叭的振膜与盆架分开了。"
+          }
+        },
+        {
+          "value": "据悉，品胜这款USB-C耳机的数字音频PCBA由深圳市腾腾高科电子技术有限公司设计开发。这款PCBA用料精良，PCB，电阻，电容等物料均选用业界优质物料，同时内置ESD防护芯片，对Type-C接口进行防护。并且它还具有良好的兼容特性，完美支持市面主流Type-C 接口手机的音乐，通话以及相关的耳机线控功能。",
+          "evidence": {
+            "value": "据悉，品胜这款USB-C耳机的数字音频PCBA由深圳市腾腾高科电子技术有限公司设计开发。这款PCBA用料精良，PCB，电阻，电容等物料均选用业界优质物料，同时内置ESD防护芯片，对Type-C接口进行防护。并且它还具有良好的兼容特性，完美支持市面主流Type-C 接口手机的音乐，通话以及相关的耳机线控功能。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "据悉，品胜这款USB-C耳机的数字音频PCBA由深圳市腾腾高科电子技术有限公司设计开发。这款PCBA用料精良，PCB，电阻，电容等物料均选用业界优质物料，同时内置ESD防护芯片，对Type-C接口进行防护。并且它还具有良好的兼容特性，完美支持市面主流Type-C 接口手机的音乐，通话以及相关的耳机线控功能。"
+          }
+        },
+        {
+          "value": "线控部分，拥有音量+、-和中间的多功能按键。",
+          "evidence": {
+            "value": "线控部分，拥有音量+、-和中间的多功能按键。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "线控部分，拥有音量+、-和中间的多功能按键。"
+          }
+        },
+        {
+          "value": "下面我爱音频网通过拆解来了解一下。",
+          "evidence": {
+            "value": "下面我爱音频网通过拆解来了解一下。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "下面我爱音频网通过拆解来了解一下。"
+          }
+        },
+        {
+          "value": "耳机腔体的的后面也有一个调音孔。",
+          "evidence": {
+            "value": "耳机腔体的的后面也有一个调音孔。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "耳机腔体的的后面也有一个调音孔。"
+          }
+        },
+        {
+          "value": "这个耳塞是由起码两部分组装成的，中间可以看到合并痕迹。",
+          "evidence": {
+            "value": "这个耳塞是由起码两部分组装成的，中间可以看到合并痕迹。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "这个耳塞是由起码两部分组装成的，中间可以看到合并痕迹。"
+          }
+        }
+      ],
+      "fastener_type": [],
+      "sealing_method": [
+        {
+          "value": "音腔底部的调音孔，内有防尘网。",
+          "evidence": {
+            "value": "音腔底部的调音孔，内有防尘网。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "音腔底部的调音孔，内有防尘网。"
+          }
+        }
+      ],
+      "wear_design": [
+        {
+          "value": "这个耳塞是由起码两部分组装成的，中间可以看到合并痕迹。",
+          "evidence": {
+            "value": "这个耳塞是由起码两部分组装成的，中间可以看到合并痕迹。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "这个耳塞是由起码两部分组装成的，中间可以看到合并痕迹。"
+          }
+        },
+        {
+          "value": "三、我爱音频网拆解总结\n1、采用白色防缠绕防滑线材，手感舒适，不易打结；\n2、采用半入耳式设计，大动圈，能带来比较清晰通透的听感；\n3、内置BES3100立体声数字编解码芯片，最高支持96kHz 24bit 的解码率，满足Hi-Res 音质标准。",
+          "evidence": {
+            "value": "三、我爱音频网拆解总结\n1、采用白色防缠绕防滑线材，手感舒适，不易打结；\n2、采用半入耳式设计，大动圈，能带来比较清晰通透的听感；\n3、内置BES3100立体声数字编解码芯片，最高支持96kHz 24bit 的解码率，满足Hi-Res 音质标准。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "三、我爱音频网拆解总结\n1、采用白色防缠绕防滑线材，手感舒适，不易打结；\n2、采用半入耳式设计，大动圈，能带来比较清晰通透的听感；\n3、内置BES3100立体声数字编解码芯片，最高支持96kHz 24bit 的解码率，满足Hi-Res 音质标准。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/03/1-6.jpg",
+          "alt": "拆解报告：PISEN品胜GT01 USB Type-C有线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/03/3-4.jpg",
+          "alt": "拆解报告：PISEN品胜GT01 USB Type-C有线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/03/4-4.jpg",
+          "alt": "拆解报告：PISEN品胜GT01 USB Type-C有线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/03/6-3.jpg",
+          "alt": "拆解报告：PISEN品胜GT01 USB Type-C有线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/03/7-2.jpg",
+          "alt": "拆解报告：PISEN品胜GT01 USB Type-C有线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "背后有麦克风图示，麦克风藏在线控里面。",
+        "另一面是芯片的一面，可以看到上面有一颗BES3100立体声数字编解码芯片，最高支持96kHz 24bit 的解码率，满足Hi-Res 音质标准。采用左右声道和麦克风完全独立的平衡输出模式，失真度-84dB，信噪比-100dB，可以带给用户优秀的音质体验。",
+        "在拆解时直接把喇叭的振膜与盆架分开了。",
+        "据悉，品胜这款USB-C耳机的数字音频PCBA由深圳市腾腾高科电子技术有限公司设计开发。这款PCBA用料精良，PCB，电阻，电容等物料均选用业界优质物料，同时内置ESD防护芯片，对Type-C接口进行防护。并且它还具有良好的兼容特性，完美支持市面主流Type-C 接口手机的音乐，通话以及相关的耳机线控功能。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": {
+        "value": "13.4g",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "13.4g"
+      }
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "而在USB Type-C接口输出音频越来越火爆的今天，品胜推出了一款USB Type-C接口的耳机。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "而在USB Type-C接口输出音频越来越火爆的今天，品胜推出了一款USB Type-C接口的耳机。"
+        },
+        {
+          "param": "充电接口",
+          "value": "我爱音频网之前也经常介绍，USB Type-C输出的音频有模拟和数字等等，那么这款耳机是采用哪种输出方式呢？",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "我爱音频网之前也经常介绍，USB Type-C输出的音频有模拟和数字等等，那么这款耳机是采用哪种输出方式呢？"
+        },
+        {
+          "param": "充电接口",
+          "value": "一、PISEN品胜 USB Type-C有线耳机开箱\n这款耳机采用透明塑料外包装，透明的橱窗内直接看到收纳着耳机的盒子。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "一、PISEN品胜 USB Type-C有线耳机开箱\n这款耳机采用透明塑料外包装，透明的橱窗内直接看到收纳着耳机的盒子。"
+        },
+        {
+          "param": "充电接口",
+          "value": "底面是一些参数，品名：品胜-爱声半入耳式立体声Type-C有线耳机，型号：GT01，阻抗：32Ω，频率响应：20Hz-20kHz。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "底面是一些参数，品名：品胜-爱声半入耳式立体声Type-C有线耳机，型号：GT01，阻抗：32Ω，频率响应：20Hz-20kHz。"
+        },
+        {
+          "param": "充电接口",
+          "value": "二、PISEN品胜 USB Type-C有线耳机拆解\n接下来开始拆解耳机，从中间拆开，动圈喇叭固定在面盖内。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "二、PISEN品胜 USB Type-C有线耳机拆解\n接下来开始拆解耳机，从中间拆开，动圈喇叭固定在面盖内。"
+        },
+        {
+          "param": "充电接口",
+          "value": "接下来拆解线控部分，首先看到PCB上面有“Type-C”、“PISEN”、“REV:00”、“2017/11/24”等字样。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "接下来拆解线控部分，首先看到PCB上面有“Type-C”、“PISEN”、“REV:00”、“2017/11/24”等字样。"
+        },
+        {
+          "param": "充电接口",
+          "value": "这款PCBA用料精良，PCB，电阻，电容等物料均选用业界优质物料，同时内置ESD防护芯片，对Type-C接口进行防护。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "这款PCBA用料精良，PCB，电阻，电容等物料均选用业界优质物料，同时内置ESD防护芯片，对Type-C接口进行防护。"
+        },
+        {
+          "param": "充电接口",
+          "value": "并且它还具有良好的兼容特性，完美支持市面主流Type-C 接口手机的音乐，通话以及相关的耳机线控功能。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "并且它还具有良好的兼容特性，完美支持市面主流Type-C 接口手机的音乐，通话以及相关的耳机线控功能。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "标记/认证",
+          "value": "包装正面是PISEN的LOGO，下面是型号：GT01\n包装侧面是PISEN品胜的LOGO。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "包装正面是PISEN的LOGO，下面是型号：GT01\n包装侧面是PISEN品胜的LOGO。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "底面是一些参数，品名：品胜-爱声半入耳式立体声Type-C有线耳机，型号：GT01，阻抗：32Ω，频率响应：20Hz-20kHz。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "底面是一些参数，品名：品胜-爱声半入耳式立体声Type-C有线耳机，型号：GT01，阻抗：32Ω，频率响应：20Hz-20kHz。"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": null,
+      "codecs": [
+        {
+          "value": "Hi-Res",
+          "evidence": {
+            "value": "Hi-Res",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "另一面是芯片的一面，可以看到上面有一颗BES3100立体声数字编解码芯片，最高支持96kHz 24bit 的解码率，满足Hi-Res 音质标准。"
+          }
+        }
+      ],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [],
+      "ota_support": [],
+      "latency_notes": [],
+      "bluetooth_evidence": null
+    }
+  }
+}

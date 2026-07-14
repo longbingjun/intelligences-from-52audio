@@ -1,0 +1,640 @@
+{
+  "id": "229588",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/229588.html",
+  "title": "SOAIY索爱GK9开放式耳机",
+  "brand": "",
+  "model": "SOAIY索爱GK9",
+  "category": "开放式耳机",
+  "published_at": "2025-02-26",
+  "author": "Wen5",
+  "summary": "开放式蓝牙耳机中，耳夹式设计凭借更加轻巧的体积，与眼镜不冲突的佩戴方式，赢得了许多用户的喜爱。我爱音频网近期也 […]",
+  "captured_at": "2026-07-14T02:04:02+00:00",
+  "data_completeness": 0.64,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "SOAIY索爱GK9",
+      "category": "开放式耳机",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "此次将要拆解的SOAIY索爱GK9开放式耳机外观上非常的轻巧便携，功能配置上搭载了12mm动圈喇叭，支持三频数字增强技术，支持DT定向传音技术，提供清晰的音质效果；支持ENC通话降噪，让通话更加清晰；支持游戏/音乐双模式，满足不同场景使用需求。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "此次将要拆解的SOAIY索爱GK9开放式耳机外观上非常的轻巧便携，功能配置上搭载了12mm动圈喇叭，支持三频数字增强技术，支持DT定向传音技术，提供清晰的音质效果；支持ENC通话降噪，让通话更加清晰；支持游戏/音乐双模式，满足不同场景使用需求。",
+            "confidence": 0.75,
+            "source_type": "text",
+            "source_text": "此次将要拆解的SOAIY索爱GK9开放式耳机外观上非常的轻巧便携，功能配置上搭载了12mm动圈喇叭，支持三频数字增强技术，支持DT定向传音技术，提供清晰的音质效果；支持ENC通话降噪，让通话更加清晰；支持游戏/音乐双模式，满足不同场景使用需求。"
+          }
+        }
+      ],
+      "scenarios": [
+        "游戏",
+        "通话",
+        "电竞"
+      ],
+      "positioning_summary": "此次将要拆解的SOAIY索爱GK9开放式耳机外观上非常的轻巧便携，功能配置上搭载了12mm动圈喇叭，支持三频数字增强技术，支持DT定向传音技术，提供清晰的音质效果；支持ENC通话降噪，让通话更加清晰；支持游戏/音乐双模式，满足不同场景使用需求。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "充电仓",
+        "电池",
+        "主板/PCBA",
+        "麦克风",
+        "喇叭单元",
+        "降噪系统",
+        "天线"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB5656",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB5656",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部采用了12mm动圈单元，内置40mAh软包锂电池，主板上采用了一颗MEMS麦克风拾音，采用了Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，用于无线连接和音频数据处理。"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3V/00mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3V/00mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了300mAh锂电池，采用了LPS微源半导体LP7800H TWS充电盒管理IC，负责内置电池的充放电管理；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB5656",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB5656",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部采用了12mm动圈单元，内置40mAh软包锂电池，主板上采用了一颗MEMS麦克风拾音，采用了Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，用于无线连接和音频数据处理。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "12mm 动圈单元",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "12mm 动圈单元",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部采用了12mm动圈单元，内置40mAh软包锂电池，主板上采用了一颗MEMS麦克风拾音，采用了Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，用于无线连接和音频数据处理。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部采用了12mm动圈单元，内置40mAh软包锂电池，主板上采用了一颗MEMS麦克风拾音，采用了Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，用于无线连接和音频数据处理。"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒挂绳，采用了软胶材质，用于提升便携性。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，通过螺丝固定主板，通过双面胶固定电池。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，通过螺丝固定主板，通过双面胶固定电池。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "弯臂后端的腔体外侧外观一览，设置有麦克风拾音孔，同时也是触摸控制区域。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "打开耳机音腔，内部扬声器单元结构一览。"
+          }
+        },
+        {
+          "component": "降噪系统",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "降噪系统",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "此次将要拆解的SOAIY索爱GK9开放式耳机外观上非常的轻巧便携，功能配置上搭载了12mm动圈喇叭，支持三频数字增强技术，支持DT定向传音技术，提供清晰的音质效果；支持ENC通话降噪，让通话更加清晰；支持游戏/音乐双模式，满足不同场景使用需求。续航上，支持单次5小时，综合约32小时的音乐播放。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "陶瓷蓝牙天线特写，用于无线信号收发。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "SOAIY索爱GK9开放式耳机充电盒采用了椭圆形设计，透明盒盖，烤漆质感机身，体积非常小巧便携。机身正面设计有品牌LOGO，设置一颗指示灯，用于反馈充电状态。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "腔体底部的充电触点特写。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "拆开充电盒外壳，取出座舱结构。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "LPS微源半导体LP7800H TWS充电盒管理IC，集成了一个高压28V线性充电，支持300mA和200mA两种恒流充电模式；支持智能放电管理模块，以防止电池过度放电，从而最大化电池续航时间；具有高效率同步升压模块、自动负载检测和按键控制放电功能，当放电电流低于截止电流阈值时自动关闭。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB5656",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB5656",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Bluetrum中科蓝讯AB5656C2蓝牙音频SoC\n，采用带DSP指令的高性能32位RISC-V处理器核心，处理器最大速度125MHz，内置1M bit（AB5656C2）闪存，113KB RAM，具有可编程上拉和下拉电阻的灵活GPIO引脚；支持GPIO唤醒或中断。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [
+        "包装盒内部物品有主机、充电线、便携挂绳和产品使用说明书。"
+      ],
+      "process_hints": [
+        {
+          "value": "Type-C充电母座特写，沉板焊接。",
+          "evidence": {
+            "value": "Type-C充电母座特写，沉板焊接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "Type-C充电母座特写，沉板焊接。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": "三、我爱音频网总结 SOAIY索爱GK9开放式耳机在外观方面，充电盒体积非常的小巧，同时设计有挂绳，极具便携性。还采用了透明盒盖设计，能够直观获取内部耳机状态。耳夹式耳机也比较轻盈，拥有着不错的佩戴舒适性。但C型弯臂受力易变形，因此无法保持稳定的夹持力，需要用户使用时主动调节耳机夹角。 内部主要配置方面，充电盒搭载了300mAh锂电池，采用了LPS微源半导体LP7800H TWS充电盒管理IC，负责内置电池的充放电管理；搭载了一颗霍尔元件，用于开盖即连功能。 耳机内部采用了12mm动圈单元，内置40mAh软包锂电池，主板上采用了一颗MEMS麦克风拾音，采用了Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，用于无线连接和音频数据处理。"
+    },
+    "structure": {
+      "form_factor": "开放式耳机",
+      "earbud_type": "开放",
+      "materials": [
+        "硅胶"
+      ],
+      "ip_rating": null,
+      "weight_g": "37.3g",
+      "dimensions": [
+        "此次将要拆解的SOAIY索爱GK9开放式耳机外观上非常的轻巧便携，功能配置上搭载了12mm动圈喇叭，支持三频数字增强技术，支持DT定向传音技术，提供清晰的音质效果；支持ENC通话降噪，让通话更加清晰；支持游戏/音乐双模式，满足不同场景使用需求。",
+        "经我爱音频网实测，扬声器直径约为12mm。",
+        "耳机内部采用了12mm动圈单元，内置40mAh软包锂电池，主板上采用了一颗MEMS麦克风拾音，采用了Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，用于无线连接和音频数据处理。"
+      ],
+      "internal_structure": [
+        {
+          "value": "座舱底部结构一览，通过螺丝固定主板，通过双面胶固定电池。",
+          "evidence": {
+            "value": "座舱底部结构一览，通过螺丝固定主板，通过双面胶固定电池。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，通过螺丝固定主板，通过双面胶固定电池。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，取掉主板和电池单元。",
+          "evidence": {
+            "value": "卸掉螺丝，取掉主板和电池单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取掉主板和电池单元。"
+          }
+        },
+        {
+          "value": "弯臂后端的腔体外侧外观一览，设置有麦克风拾音孔，同时也是触摸控制区域。",
+          "evidence": {
+            "value": "弯臂后端的腔体外侧外观一览，设置有麦克风拾音孔，同时也是触摸控制区域。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "弯臂后端的腔体外侧外观一览，设置有麦克风拾音孔，同时也是触摸控制区域。"
+          }
+        },
+        {
+          "value": "镭雕3J10的MEMS麦克风特写，用于语音通话功能拾音。左侧一颗指示灯，用于反馈耳机工作状态。",
+          "evidence": {
+            "value": "镭雕3J10的MEMS麦克风特写，用于语音通话功能拾音。左侧一颗指示灯，用于反馈耳机工作状态。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "镭雕3J10的MEMS麦克风特写，用于语音通话功能拾音。左侧一颗指示灯，用于反馈耳机工作状态。"
+          }
+        },
+        {
+          "value": "打开耳机音腔，内部扬声器单元结构一览。",
+          "evidence": {
+            "value": "打开耳机音腔，内部扬声器单元结构一览。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "打开耳机音腔，内部扬声器单元结构一览。"
+          }
+        },
+        {
+          "value": "断开导线，取出扬声器单元。",
+          "evidence": {
+            "value": "断开导线，取出扬声器单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "断开导线，取出扬声器单元。"
+          }
+        },
+        {
+          "value": "此次将要拆解的SOAIY索爱GK9开放式耳机外观上非常的轻巧便携，功能配置上搭载了12mm动圈喇叭，支持三频数字增强技术，支持DT定向传音技术，提供清晰的音质效果；支持ENC通话降噪，让通话更加清晰；支持游戏/音乐双模式，满足不同场景使用需求。续航上，支持单次5小时，综合约32小时的音乐播放。",
+          "evidence": {
+            "value": "此次将要拆解的SOAIY索爱GK9开放式耳机外观上非常的轻巧便携，功能配置上搭载了12mm动圈喇叭，支持三频数字增强技术，支持DT定向传音技术，提供清晰的音质效果；支持ENC通话降噪，让通话更加清晰；支持游戏/音乐双模式，满足不同场景使用需求。续航上，支持单次5小时，综合约32小时的音乐播放。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "此次将要拆解的SOAIY索爱GK9开放式耳机外观上非常的轻巧便携，功能配置上搭载了12mm动圈喇叭，支持三频数字增强技术，支持DT定向传音技术，提供清晰的音质效果；支持ENC通话降噪，让通话更加清晰；支持游戏/音乐双模式，满足不同场景使用需求。续航上，支持单次5小时，综合约32小时的音乐播放。"
+          }
+        },
+        {
+          "value": "陶瓷蓝牙天线特写，用于无线信号收发。",
+          "evidence": {
+            "value": "陶瓷蓝牙天线特写，用于无线信号收发。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "陶瓷蓝牙天线特写，用于无线信号收发。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "座舱底部结构一览，通过螺丝固定主板，通过双面胶固定电池。",
+          "evidence": {
+            "value": "座舱底部结构一览，通过螺丝固定主板，通过双面胶固定电池。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，通过螺丝固定主板，通过双面胶固定电池。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，取掉主板和电池单元。",
+          "evidence": {
+            "value": "卸掉螺丝，取掉主板和电池单元。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取掉主板和电池单元。"
+          }
+        },
+        {
+          "value": "腔体内部结构一览，通过热熔柱固定主板单元。",
+          "evidence": {
+            "value": "腔体内部结构一览，通过热熔柱固定主板单元。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "腔体内部结构一览，通过热熔柱固定主板单元。"
+          }
+        }
+      ],
+      "sealing_method": [],
+      "wear_design": [
+        {
+          "value": "开放式蓝牙耳机中，耳夹式设计凭借更加轻巧的体积，与眼镜不冲突的佩戴方式，赢得了许多用户的喜爱。",
+          "evidence": {
+            "value": "开放式蓝牙耳机中，耳夹式设计凭借更加轻巧的体积，与眼镜不冲突的佩戴方式，赢得了许多用户的喜爱。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "开放式蓝牙耳机中，耳夹式设计凭借更加轻巧的体积，与眼镜不冲突的佩戴方式，赢得了许多用户的喜爱。"
+          }
+        },
+        {
+          "value": "我爱音频网近期也对\n目前市场上的11款热门产品\n进行了横评，从便携性、佩戴体验、音质等角度分享实际的使用体验。",
+          "evidence": {
+            "value": "我爱音频网近期也对\n目前市场上的11款热门产品\n进行了横评，从便携性、佩戴体验、音质等角度分享实际的使用体验。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "我爱音频网近期也对\n目前市场上的11款热门产品\n进行了横评，从便携性、佩戴体验、音质等角度分享实际的使用体验。"
+          }
+        },
+        {
+          "value": "采用了曲面设计，更加符合耳廓结构，提升佩戴舒适性。",
+          "evidence": {
+            "value": "采用了曲面设计，更加符合耳廓结构，提升佩戴舒适性。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "采用了曲面设计，更加符合耳廓结构，提升佩戴舒适性。"
+          }
+        },
+        {
+          "value": "耳夹式耳机也比较轻盈，拥有着不错的佩戴舒适性。",
+          "evidence": {
+            "value": "耳夹式耳机也比较轻盈，拥有着不错的佩戴舒适性。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "耳夹式耳机也比较轻盈，拥有着不错的佩戴舒适性。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/02/2025022609272180.jpg",
+          "alt": "拆解报告：SOAIY索爱GK9开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/02/2025022609272825.jpg",
+          "alt": "拆解报告：SOAIY索爱GK9开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/02/2025022609272827.jpg",
+          "alt": "拆解报告：SOAIY索爱GK9开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/02/2025022609272667.jpg",
+          "alt": "拆解报告：SOAIY索爱GK9开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/02/2025022609273315.jpg",
+          "alt": "拆解报告：SOAIY索爱GK9开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "座舱底部结构一览，通过螺丝固定主板，通过双面胶固定电池。",
+        "卸掉螺丝，取掉主板和电池单元。",
+        "弯臂后端的腔体外侧外观一览，设置有麦克风拾音孔，同时也是触摸控制区域。",
+        "镭雕3J10的MEMS麦克风特写，用于语音通话功能拾音。左侧一颗指示灯，用于反馈耳机工作状态。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": {
+        "value": "37.3g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "频网实测，SOAIY索爱GK9开放式耳机整机重量约为37.3g，轻巧便携"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "5.6g",
+      "weight_earbud_evidence": {
+        "value": "5.6g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "耳机整机重量约为37.3g，轻巧便携。\n单只耳机重量约为5.6g。\n二、\n"
+      }
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "充电线采用了USB-A to Type-C接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电线采用了USB-A to Type-C接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "机身背面设置有Type-C充电接口，标注有产品参数信息，与外部包装盒上一致。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "机身背面设置有Type-C充电接口，标注有产品参数信息，与外部包装盒上一致。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C充电母座特写，沉板焊接。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充电母座特写，沉板焊接。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "包装盒背面介绍了产品的参数信息，产品型号：GK9，蓝牙版本：V5.4，输入：5V-450mAh，声压级：105±2dB SPL（A），深圳市索爱杰睿科技有限公司出品。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "包装盒背面介绍了产品的参数信息，产品型号：GK9，蓝牙版本：V5.4，输入：5V-450mAh，声压级：105±2dB SPL（A），深圳市索爱杰睿科技有限公司出品。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "充电盒内置锂离子电池组，型号：HR 701530，标称电压：3.7V，额定容量：300mAh 1.11Wh，充电限制电压：4.2V。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒内置锂离子电池组，型号：HR 701530，标称电压：3.7V，额定容量：300mAh 1.11Wh，充电限制电压：4.2V。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "据我爱音频网拆解了解到，目前已有\n小米、魅族、摩托罗拉、QQ音乐、小天才、森海塞尔、罗技、漫步者、倍思、QCY、声阔、网易有道、TOZO、JLab、MUJI、ikko、蜂鸟、KEF、乔安、KOHLER、\n荣耀、Redmi、realme、红魔、雷蛇、FIIL、1MORE、JBL、Bowers & Wilkins、酷睿视、Barbetsound、SUUNTO、Monster、七彩虹、Nothing、斯莫格、PHILIPS、RODE、重力星球、Haylou、如布、ELEVOC、HHOGene\n、\n黑鲨\n、\n泥炭\n、\n花再\n、\nOPPO、华为、联想、索尼、诺基亚、万魔、绿联、雷蛇\n等众多品牌旗下音频产品采用了微源的方案。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "据我爱音频网拆解了解到，目前已有\n小米、魅族、摩托罗拉、QQ音乐、小天才、森海塞尔、罗技、漫步者、倍思、QCY、声阔、网易有道、TOZO、JLab、MUJI、ikko、蜂鸟、KEF、乔安、KOHLER、\n荣耀、Redmi、realme、红魔"
+        },
+        {
+          "param": "标记/认证",
+          "value": "耳机内置锂电池型号：TR501012，标称电压：3.7V，额定容量：40mAh 0.148Wh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "耳机内置锂电池型号：TR501012，标称电压：3.7V，额定容量：40mAh 0.148Wh。"
+        },
+        {
+          "param": "电池容量",
+          "value": "450",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "450mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "6.0",
+      "codecs": [],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [],
+      "ota_support": [],
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "6.0",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙6.0"
+      }
+    }
+  }
+}

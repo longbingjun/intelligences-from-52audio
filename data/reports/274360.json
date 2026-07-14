@@ -81,6 +81,20 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
+          "brand": "",
+          "model": "CM1126B",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "CM1126B",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内置3.85V/70mAh大容量软包扣式电池，配备ICM创芯微CM1126B-WAC单节电池保护IC。"
+          }
+        },
+        {
+          "component": "芯片/模组",
           "brand": "Qualcomm高通",
           "model": "高通QCC3091",
           "qty_hint": "1",
@@ -177,6 +191,20 @@
             "confidence": 0.85,
             "source_type": "summary_prose",
             "source_text": "充电盒搭载了HT恒泰科技3.85V/605mAh锂电池，配备苏州赛芯电子科技股份XB5153M2S一体化锂电保护IC，负责电池的过充电、过放电、过电流等保护；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "CM1126B",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "CM1126B",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内置3.85V/70mAh大容量软包扣式电池，配备ICM创芯微CM1126B-WAC单节电池保护IC。"
           }
         },
         {
@@ -458,6 +486,20 @@
             "source_type": "text",
             "source_text": "Qualcomm高通QCC30xx系列详细资料图。"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "CM1126B",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "CM1126B",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "ICM创芯微CM1126B-WAC带船运模式二合一单节电池保护IC，负责电池的过充电、过放电、过电流等保护。"
+          }
         }
       ],
       "supply_hints": [],
@@ -717,9 +759,18 @@
       },
       "weight_evidence": {
         "value": "156.1g",
-        "confidence": 0.75,
+        "confidence": 0.85,
         "source_type": "text",
-        "source_text": "156.1g"
+        "source_text": "YOUNG H700真无线JWS智美耳机整机重量约为156.1g。\n单只耳"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "10.6g",
+      "weight_earbud_evidence": {
+        "value": "10.6g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "WS智美耳机整机重量约为156.1g。\n单只耳机重量约为10.6g。\n我爱音"
       }
     },
     "hardware": {

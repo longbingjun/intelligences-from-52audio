@@ -1,0 +1,674 @@
+{
+  "id": "38711",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/38711.html",
+  "title": "JVC真无线耳机HA-A10T",
+  "brand": "JVC",
+  "model": "真无线耳机HA-A10T",
+  "category": "真无线耳机TWS",
+  "published_at": "2020-03-09",
+  "author": "GiGi24",
+  "summary": "JVC 品牌在1927年成立于日本横滨市，素以技术开发能力及卓越研发成果而闻名。JVC以ONLY ONE的原则 […]",
+  "captured_at": "2026-07-14T02:13:28+00:00",
+  "data_completeness": 0.792,
+  "views": {
+    "market": {
+      "brand": "JVC",
+      "model": "真无线耳机HA-A10T",
+      "category": "真无线耳机TWS",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "左下角是蓝牙认证，右下角是耳机支持IPX5防水、支持语音助手和14小时续航的标识。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "左下角是蓝牙认证，右下角是耳机支持IPX5防水、支持语音助手和14小时续航的标识。",
+            "confidence": 0.63,
+            "source_type": "text",
+            "source_text": "左下角是蓝牙认证，右下角是耳机支持IPX5防水、支持语音助手和14小时续航的标识。"
+          }
+        },
+        {
+          "text": "在降噪方面，支持降噪功能和环境音监听模式，可以说是一款高性能的全能的TWS真无线蓝牙耳机一体化方案。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "在降噪方面，支持降噪功能和环境音监听模式，可以说是一款高性能的全能的TWS真无线蓝牙耳机一体化方案。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "在降噪方面，支持降噪功能和环境音监听模式，可以说是一款高性能的全能的TWS真无线蓝牙耳机一体化方案。"
+          }
+        },
+        {
+          "text": "底部是不同语言的产品信息，以及品牌信息、认证信息等。",
+          "tag": "其他",
+          "evidence": {
+            "value": "底部是不同语言的产品信息，以及品牌信息、认证信息等。",
+            "confidence": 0.62,
+            "source_type": "text",
+            "source_text": "底部是不同语言的产品信息，以及品牌信息、认证信息等。"
+          }
+        },
+        {
+          "text": "出音孔处特写，细密的防尘网。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "出音孔处特写，细密的防尘网。",
+            "confidence": 0.57,
+            "source_type": "text",
+            "source_text": "出音孔处特写，细密的防尘网。"
+          }
+        },
+        {
+          "text": "耳机外壳内侧，控制按键、LED导光柱和外围泡棉防漏光，最右侧是麦克风开孔、内侧有防尘网。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "耳机外壳内侧，控制按键、LED导光柱和外围泡棉防漏光，最右侧是麦克风开孔、内侧有防尘网。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "耳机外壳内侧，控制按键、LED导光柱和外围泡棉防漏光，最右侧是麦克风开孔、内侧有防尘网。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通话"
+      ],
+      "positioning_summary": "左下角是蓝牙认证，右下角是耳机支持IPX5防水、支持语音助手和14小时续航的标识。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "电池",
+        "充电仓",
+        "主板/PCBA",
+        "麦克风",
+        "喇叭单元",
+        "天线"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9697",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA9697",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "ETA9697"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "CSU32P20",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "CSU32P20",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "CSU32P20"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒底部信息，无线立体声耳机，型号：HA-A10T，输入：5V⎓360mA，电池容量：3.7V，520mAh，1.924Wh。中国制造，日本设计。"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "JVC 品牌在1927年成立于日本横滨市，素以技术开发能力及卓越研发成果而闻名。JVC以ONLY ONE的原则为方向，以生产出令人感动的影音生活产品为目标。 2008年JVC公司与另一日本品牌“建伍Kenwood”进行经营统合，于2011年10月正式改名为JVC建伍公司。 2017年杰伟世（中国）投资有限公司正式更名为杰伟世建伍（中国）投资有限公司。JVC在1930年代开始生产留声机，1965年首次推出高磁通量耳机，2007年开始至今推出了6代木振膜耳机，是实打实的老牌音频厂商。面对TWS耳机潮流，JVC也推出了多款产品。今天我爱音频网要拆解的是JVC真无线耳机HA-A10T。JVC真无线耳机HA-A10T，它采用钕磁铁单元，蓝牙5.0，支持通话降噪，附赠记忆棉耳塞，耳机加充电盒续航14小时左右，官方售价为448元。下面一起来看详细的拆解吧~一、JVC真无线耳机HA-A10T 开箱"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "取出主板和电池，正面特写。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "左耳",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "左耳机盖板上有一个麦克风开孔。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "JVC 品牌在1927年成立于日本横滨市，素以技术开发能力及卓越研发成果而闻名。JVC以ONLY ONE的原则为方向，以生产出令人感动的影音生活产品为目标。 2008年JVC公司与另一日本品牌“建伍Kenwood”进行经营统合，于2011年10月正式改名为JVC建伍公司。 2017年杰伟世（中国）投资有限公司正式更名为杰伟世建伍（中国）投资有限公司。JVC在1930年代开始生产留声机，1965年首次推出高磁通量耳机，2007年开始至今推出了6代木振膜耳机，是实打实的老牌音频厂商。面对TWS耳机潮流，JVC也推出了多款产品。今天我爱音频网要拆解的是JVC真无线耳机HA-A10T。JVC真无线耳机HA-A10T，它采用钕磁铁单元，蓝牙5.0，支持通话降噪，附赠记忆棉耳塞，耳机加充电盒续航14小时左右，官方售价为448元。下面一起来看详细的拆解吧~一、JVC真无线耳机HA-A10T 开箱"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "蓝牙天线特写。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒正面有四个电量指示灯。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "下面开始拆解耳机，耳机盖板上的突起为控制按键，旁边是“JVC”的品牌Logo。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机内侧的两个充电触点。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机外壳内侧，控制按键、LED导光柱和外围泡棉防漏光，最右侧是麦克风开孔、内侧有防尘网。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9697",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA9697",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "钰泰ETA9697采用ESOP8封装，是一个超低功耗的双通道PMU：集成了独立的16V耐压的线性充电器和5V同步升压变换器。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "CSU32P20",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "CSU32P20",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "芯海科技CSU32P20，是一款带12-bit ADC的8位CMOS单芯片RISC MCU，内置2K×16位OTP程序存储器，104字节SRAM。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9697",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA9697",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "耳机充电盒内置钰泰ETA9697电源管理方案，耳机主控芯片为瑞昱RTL8763B，耳机和充电盒电池都来自重庆紫建，均为比较成熟的TWS耳机应用方案。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [
+        "包装盒内物品，耳机、充电盒、附赠耳塞、充电线、合格证和说明书等。"
+      ],
+      "process_hints": [
+        {
+          "value": "电池保护电路，上面是一颗一体化保护IC。",
+          "evidence": {
+            "value": "电池保护电路，上面是一颗一体化保护IC。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "电池保护电路，上面是一颗一体化保护IC。"
+          }
+        },
+        {
+          "value": "耳机采用REALTEK瑞昱的RTL8763B方案，RTL8763B是REALTEK瑞昱首款完整的TWS真无线蓝牙耳机一体化方案，支持蓝牙5.0，支持HFP 1.7、HSP 1.2、A2DP 1.3、AVRDP 1.6、SPP 1.2、PDAP 1.0，具有双耳通话功能。",
+          "evidence": {
+            "value": "耳机采用REALTEK瑞昱的RTL8763B方案，RTL8763B是REALTEK瑞昱首款完整的TWS真无线蓝牙耳机一体化方案，支持蓝牙5.0，支持HFP 1.7、HSP 1.2、A2DP 1.3、AVRDP 1.6、SPP 1.2、PDAP 1.0，具有双耳通话功能。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "耳机采用REALTEK瑞昱的RTL8763B方案，RTL8763B是REALTEK瑞昱首款完整的TWS真无线蓝牙耳机一体化方案，支持蓝牙5.0，支持HFP 1.7、HSP 1.2、A2DP 1.3、AVRDP 1.6、SPP 1.2、PDAP 1.0，具有双耳通话功能。"
+          }
+        },
+        {
+          "value": "在降噪方面，支持降噪功能和环境音监听模式，可以说是一款高性能的全能的TWS真无线蓝牙耳机一体化方案。",
+          "evidence": {
+            "value": "在降噪方面，支持降噪功能和环境音监听模式，可以说是一款高性能的全能的TWS真无线蓝牙耳机一体化方案。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "在降噪方面，支持降噪功能和环境音监听模式，可以说是一款高性能的全能的TWS真无线蓝牙耳机一体化方案。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": ""
+    },
+    "structure": {
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
+      "materials": [
+        "硅胶",
+        "塑料",
+        "PC"
+      ],
+      "ip_rating": "IPX5",
+      "weight_g": "55.9克",
+      "dimensions": [
+        "扬声器尺寸6mm。",
+        "耳机主板、电池与一元硬币的尺寸对比。"
+      ],
+      "internal_structure": [
+        {
+          "value": "T型PCB板，电池在其下方。",
+          "evidence": {
+            "value": "T型PCB板，电池在其下方。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "T型PCB板，电池在其下方。"
+          }
+        },
+        {
+          "value": "取出主板和电池，正面特写。",
+          "evidence": {
+            "value": "取出主板和电池，正面特写。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "取出主板和电池，正面特写。"
+          }
+        },
+        {
+          "value": "主板和电池背面特写，主板背面没有元器件，电池背面有缓震泡棉。",
+          "evidence": {
+            "value": "主板和电池背面特写，主板背面没有元器件，电池背面有缓震泡棉。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "主板和电池背面特写，主板背面没有元器件，电池背面有缓震泡棉。"
+          }
+        },
+        {
+          "value": "左耳机盖板上有一个麦克风开孔。",
+          "evidence": {
+            "value": "左耳机盖板上有一个麦克风开孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "左耳机盖板上有一个麦克风开孔。"
+          }
+        },
+        {
+          "value": "耳机外壳内侧，控制按键、LED导光柱和外围泡棉防漏光，最右侧是麦克风开孔、内侧有防尘网。",
+          "evidence": {
+            "value": "耳机外壳内侧，控制按键、LED导光柱和外围泡棉防漏光，最右侧是麦克风开孔、内侧有防尘网。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机外壳内侧，控制按键、LED导光柱和外围泡棉防漏光，最右侧是麦克风开孔、内侧有防尘网。"
+          }
+        },
+        {
+          "value": "JVC 品牌在1927年成立于日本横滨市，素以技术开发能力及卓越研发成果而闻名。JVC以ONLY ONE的原则为方向，以生产出令人感动的影音生活产品为目标。 2008年JVC公司与另一日本品牌“建伍Kenwood”进行经营统合，于2011年10月正式改名为JVC建伍公司。 2017年杰伟世（中国）投资有限公司正式更名为杰伟世建伍（中国）投资有限公司。JVC在1930年代开始生产留声机，1965年首次推出高磁通量耳机，2007年开始至今推出了6代木振膜耳机，是实打实的老牌音频厂商。面对TWS耳机潮流，JVC也推出了多款产品。今天我爱音频网要拆解的是JVC真无线耳机HA-A10T。JVC真无线耳机HA-A10T，它采用钕磁铁单元，蓝牙5.0，支持通话降噪，附赠记忆棉耳塞，耳机加充电盒续航14小时左右，官方售价为448元。下面一起来看详细的拆解吧~一、JVC真无线耳机HA-A10T 开箱",
+          "evidence": {
+            "value": "JVC 品牌在1927年成立于日本横滨市，素以技术开发能力及卓越研发成果而闻名。JVC以ONLY ONE的原则为方向，以生产出令人感动的影音生活产品为目标。 2008年JVC公司与另一日本品牌“建伍Kenwood”进行经营统合，于2011年10月正式改名为JVC建伍公司。 2017年杰伟世（中国）投资有限公司正式更名为杰伟世建伍（中国）投资有限公司。JVC在1930年代开始生产留声机，1965年首次推出高磁通量耳机，2007年开始至今推出了6代木振膜耳机，是实打实的老牌音频厂商。面对TWS耳机潮流，JVC也推出了多款产品。今天我爱音频网要拆解的是JVC真无线耳机HA-A10T。JVC真无线耳机HA-A10T，它采用钕磁铁单元，蓝牙5.0，支持通话降噪，附赠记忆棉耳塞，耳机加充电盒续航14小时左右，官方售价为448元。下面一起来看详细的拆解吧~一、JVC真无线耳机HA-A10T 开箱",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "JVC 品牌在1927年成立于日本横滨市，素以技术开发能力及卓越研发成果而闻名。JVC以ONLY ONE的原则为方向，以生产出令人感动的影音生活产品为目标。 2008年JVC公司与另一日本品牌“建伍Kenwood”进行经营统合，于2011年10月正式改名为JVC建伍公司。 2017年杰伟世（中国）投资有限公司正式更名为杰伟世建伍（中国）投资有限公司。JVC在1930年代开始生产留声机，1965年首次推出高磁通量耳机，2007年开始至今推出了6代木振膜耳机，是实打实的老牌音频厂商。面对TWS耳机潮流，JVC也推出了多款产品。今天我爱音频网要拆解的是JVC真无线耳机HA-A10T。JVC真无线耳机HA-A10T，它采用钕磁铁单元，蓝牙5.0，支持通话降噪，附赠记忆棉耳塞，耳机加充电盒续航14小时左右，官方售价为448元。下面一起来看详细的拆解吧~一、JVC真无线耳机HA-A10T 开箱"
+          }
+        },
+        {
+          "value": "蓝牙天线特写。",
+          "evidence": {
+            "value": "蓝牙天线特写。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "蓝牙天线特写。"
+          }
+        },
+        {
+          "value": "下面开始拆解耳机，耳机盖板上的突起为控制按键，旁边是“JVC”的品牌Logo。",
+          "evidence": {
+            "value": "下面开始拆解耳机，耳机盖板上的突起为控制按键，旁边是“JVC”的品牌Logo。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "下面开始拆解耳机，耳机盖板上的突起为控制按键，旁边是“JVC”的品牌Logo。"
+          }
+        }
+      ],
+      "fastener_type": [],
+      "sealing_method": [
+        {
+          "value": "左下角是蓝牙认证，右下角是耳机支持IPX5防水、支持语音助手和14小时续航的标识。",
+          "evidence": {
+            "value": "左下角是蓝牙认证，右下角是耳机支持IPX5防水、支持语音助手和14小时续航的标识。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "左下角是蓝牙认证，右下角是耳机支持IPX5防水、支持语音助手和14小时续航的标识。"
+          }
+        },
+        {
+          "value": "包装盒背面布局紧凑，左上角介绍了三个特色功能：单耳4小时+充电盒10小时共14小时续航，IPX5防水、兼容语音助手。",
+          "evidence": {
+            "value": "包装盒背面布局紧凑，左上角介绍了三个特色功能：单耳4小时+充电盒10小时共14小时续航，IPX5防水、兼容语音助手。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "包装盒背面布局紧凑，左上角介绍了三个特色功能：单耳4小时+充电盒10小时共14小时续航，IPX5防水、兼容语音助手。"
+          }
+        },
+        {
+          "value": "出音孔处特写，细密的防尘网。",
+          "evidence": {
+            "value": "出音孔处特写，细密的防尘网。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "出音孔处特写，细密的防尘网。"
+          }
+        },
+        {
+          "value": "耳机外壳内侧，控制按键、LED导光柱和外围泡棉防漏光，最右侧是麦克风开孔、内侧有防尘网。",
+          "evidence": {
+            "value": "耳机外壳内侧，控制按键、LED导光柱和外围泡棉防漏光，最右侧是麦克风开孔、内侧有防尘网。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "耳机外壳内侧，控制按键、LED导光柱和外围泡棉防漏光，最右侧是麦克风开孔、内侧有防尘网。"
+          }
+        }
+      ],
+      "wear_design": [
+        {
+          "value": "JVC真无线耳机HA-A10T，它采用钕磁铁单元，蓝牙5.0，支持通话降噪，附赠记忆棉耳塞，耳机加充电盒续航14小时左右，官方售价为448元。",
+          "evidence": {
+            "value": "JVC真无线耳机HA-A10T，它采用钕磁铁单元，蓝牙5.0，支持通话降噪，附赠记忆棉耳塞，耳机加充电盒续航14小时左右，官方售价为448元。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "JVC真无线耳机HA-A10T，它采用钕磁铁单元，蓝牙5.0，支持通话降噪，附赠记忆棉耳塞，耳机加充电盒续航14小时左右，官方售价为448元。"
+          }
+        },
+        {
+          "value": "下面一起来看详细的拆解吧~\n一、JVC真无线耳机HA-A10T 开箱\n包装盒正面，左上角有JVC的品牌Logo，下面的文字是记忆棉耳塞，右侧还配了一张图，表明记忆棉耳塞可以自动适应人耳；下方是耳机型号HA-A10T，以及耳机的渲染图。",
+          "evidence": {
+            "value": "下面一起来看详细的拆解吧~\n一、JVC真无线耳机HA-A10T 开箱\n包装盒正面，左上角有JVC的品牌Logo，下面的文字是记忆棉耳塞，右侧还配了一张图，表明记忆棉耳塞可以自动适应人耳；下方是耳机型号HA-A10T，以及耳机的渲染图。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "下面一起来看详细的拆解吧~\n一、JVC真无线耳机HA-A10T 开箱\n包装盒正面，左上角有JVC的品牌Logo，下面的文字是记忆棉耳塞，右侧还配了一张图，表明记忆棉耳塞可以自动适应人耳；下方是耳机型号HA-A10T，以及耳机的渲染图。"
+          }
+        },
+        {
+          "value": "包装盒侧面印有耳机的配件图例，包括两对记忆棉耳塞、三对硅胶耳塞、充电线和充电盒。",
+          "evidence": {
+            "value": "包装盒侧面印有耳机的配件图例，包括两对记忆棉耳塞、三对硅胶耳塞、充电线和充电盒。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "包装盒侧面印有耳机的配件图例，包括两对记忆棉耳塞、三对硅胶耳塞、充电线和充电盒。"
+          }
+        },
+        {
+          "value": "包装盒内物品，耳机、充电盒、附赠耳塞、充电线、合格证和说明书等。",
+          "evidence": {
+            "value": "包装盒内物品，耳机、充电盒、附赠耳塞、充电线、合格证和说明书等。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "包装盒内物品，耳机、充电盒、附赠耳塞、充电线、合格证和说明书等。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/03/JVC真无线耳机HA-A10T-1.jpg",
+          "alt": "拆解报告：JVC真无线耳机HA-A10T-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/03/JVC真无线耳机HA-A10T-2.jpg",
+          "alt": "拆解报告：JVC真无线耳机HA-A10T-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/03/JVC真无线耳机HA-A10T-3.jpg",
+          "alt": "拆解报告：JVC真无线耳机HA-A10T-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/03/JVC真无线耳机HA-A10T-4.jpg",
+          "alt": "拆解报告：JVC真无线耳机HA-A10T-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/03/JVC真无线耳机HA-A10T-5.jpg",
+          "alt": "拆解报告：JVC真无线耳机HA-A10T-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "T型PCB板，电池在其下方。",
+        "取出主板和电池，正面特写。",
+        "主板和电池背面特写，主板背面没有元器件，电池背面有缓震泡棉。",
+        "左耳机盖板上有一个麦克风开孔。"
+      ],
+      "ip_rating_evidence": {
+        "value": "IPX5",
+        "confidence": 0.8,
+        "source_type": "text",
+        "source_text": "IPX5"
+      },
+      "weight_evidence": {
+        "value": "55.9克",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "55.9克"
+      }
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电方式",
+          "value": "我爱音频网采用\nChargerLAB POWER-Z KT001\n对JVC真无线耳机HA-A10T进行有线充电测试，充电电压5.0896V，电流0.3153A。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KT001\n对JVC真无线耳机HA-A10T进行有线充电测试，充电电压5.0896V，电流0.3153A。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电盒背面，合页下方的Micro-USB充电接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒背面，合页下方的Micro-USB充电接口。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "左下角是蓝牙认证，右下角是耳机支持IPX5防水、支持语音助手和14小时续航的标识。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "左下角是蓝牙认证，右下角是耳机支持IPX5防水、支持语音助手和14小时续航的标识。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "包装盒背面布局紧凑，左上角介绍了三个特色功能：单耳4小时+充电盒10小时共14小时续航，IPX5防水、兼容语音助手。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "包装盒背面布局紧凑，左上角介绍了三个特色功能：单耳4小时+充电盒10小时共14小时续航，IPX5防水、兼容语音助手。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "底部是不同语言的产品信息，以及品牌信息、认证信息等。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "底部是不同语言的产品信息，以及品牌信息、认证信息等。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "包装盒底部信息，无线立体声耳机，型号：HA-A10T，输入：5V⎓360mA，电池容量：3.7V，520mAh，1.924Wh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "包装盒底部信息，无线立体声耳机，型号：HA-A10T，输入：5V⎓360mA，电池容量：3.7V，520mAh，1.924Wh。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "电池上的信息标签，电池来自重庆紫建，型号：VDL 822230，3.7V，520mAh，1.924Wh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "电池上的信息标签，电池来自重庆紫建，型号：VDL 822230，3.7V，520mAh，1.924Wh。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "耳机内的软包电池同样来自重庆紫建，型号：601115，3.7V，60mAh，0.222Wh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "耳机内的软包电池同样来自重庆紫建，型号：601115，3.7V，60mAh，0.222Wh。"
+        },
+        {
+          "param": "电池容量",
+          "value": "520",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "520mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.0",
+      "codecs": [],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [
+        {
+          "value": "耳机充电盒内置钰泰ETA9697电源管理方案，耳机主控芯片为瑞昱RTL8763B，耳机和充电盒电池都来自重庆紫建，均为比较成熟的TWS耳机应用方案。",
+          "evidence": {
+            "value": "耳机充电盒内置钰泰ETA9697电源管理方案，耳机主控芯片为瑞昱RTL8763B，耳机和充电盒电池都来自重庆紫建，均为比较成熟的TWS耳机应用方案。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "耳机充电盒内置钰泰ETA9697电源管理方案，耳机主控芯片为瑞昱RTL8763B，耳机和充电盒电池都来自重庆紫建，均为比较成熟的TWS耳机应用方案。"
+          }
+        }
+      ],
+      "ota_support": [],
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "5.0",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.0"
+      }
+    }
+  }
+}

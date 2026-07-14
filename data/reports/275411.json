@@ -113,6 +113,20 @@
             "source_type": "summary_prose",
             "source_text": "充电盒内部搭载VDL紫建电子3.89V/530mAh锂电池，采用了WINSEMI稳先微WSDY3302E锂电保护IC，思远半导体SY8702低侧过压保护（OVP）IC，ETA钰泰ETA9030V电源管理芯片，Cmsemicon中微半导体CMS8S5880单片机等方案。"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9030V",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "ETA9030V",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内部搭载VDL紫建电子3.89V/530mAh锂电池，采用了WINSEMI稳先微WSDY3302E锂电保护IC，思远半导体SY8702低侧过压保护（OVP）IC，ETA钰泰ETA9030V电源管理芯片，Cmsemicon中微半导体CMS8S5880单片机等方案。"
+          }
         }
       ],
       "bom_table": [
@@ -153,6 +167,20 @@
           "role": "保护IC",
           "evidence": {
             "value": "思远半导体SY8702",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内部搭载VDL紫建电子3.89V/530mAh锂电池，采用了WINSEMI稳先微WSDY3302E锂电保护IC，思远半导体SY8702低侧过压保护（OVP）IC，ETA钰泰ETA9030V电源管理芯片，Cmsemicon中微半导体CMS8S5880单片机等方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9030V",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "ETA9030V",
             "confidence": 0.85,
             "source_type": "summary_prose",
             "source_text": "充电盒内部搭载VDL紫建电子3.89V/530mAh锂电池，采用了WINSEMI稳先微WSDY3302E锂电保护IC，思远半导体SY8702低侧过压保护（OVP）IC，ETA钰泰ETA9030V电源管理芯片，Cmsemicon中微半导体CMS8S5880单片机等方案。"
@@ -338,6 +366,20 @@
             "confidence": 0.78,
             "source_type": "text",
             "source_text": "丝印“02AT9”的思远半导体SY8702低侧过压保护（OVP）IC，采用SOT23-6封装，内部集成28mΩ开关NMOS，采用低压侧开关拓扑结构，极低导通电阻有效的减小输入压降，保护电压外部设置使应用更加灵活，提供最简单实用的低成本OVP解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9030V",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA9030V",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "ETA钰泰ETA9030V电源管理芯片，负责内置电池的充放电管理。"
           }
         }
       ],
@@ -564,9 +606,18 @@
       "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "43.7g",
-        "confidence": 0.75,
+        "confidence": 0.85,
         "source_type": "text",
-        "source_text": "43.7g"
+        "source_text": "Enco Air5 Pro真无线降噪耳机整机重量约为43.7g。\n单只耳"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "4.5g",
+      "weight_earbud_evidence": {
+        "value": "4.5g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "真无线降噪耳机整机重量约为43.7g。\n单只耳机重量仅为4.5g，佩戴轻盈"
       }
     },
     "hardware": {
@@ -809,6 +860,6 @@
       }
     }
   },
-  "data_completeness": 0.814,
+  "data_completeness": 0.84,
   "source_layer": "technical"
 }

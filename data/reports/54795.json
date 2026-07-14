@@ -1,0 +1,535 @@
+{
+  "id": "54795",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/54795.html",
+  "title": "足球/篮球造型真无线蓝牙耳机",
+  "brand": "",
+  "model": "足球/篮球造型",
+  "category": "真无线耳机TWS",
+  "published_at": "2020-08-25",
+  "author": "GiGi24",
+  "summary": "大家好，我爱音频网今天要为大家拆解的是一款推出市场“两年半”的TWS耳机，它的外型有足球和篮球两种，体积小巧， […]",
+  "captured_at": "2026-07-14T02:12:11+00:00",
+  "data_completeness": 0.608,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "足球/篮球造型",
+      "category": "真无线耳机TWS",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "出音孔有防尘网防止异物进入。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "出音孔有防尘网防止异物进入。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "出音孔有防尘网防止异物进入。"
+          }
+        },
+        {
+          "text": "耳机底部用于通话拾音的麦克风开孔，内有防尘网。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "耳机底部用于通话拾音的麦克风开孔，内有防尘网。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "耳机底部用于通话拾音的麦克风开孔，内有防尘网。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通话"
+      ],
+      "positioning_summary": "出音孔有防尘网防止异物进入。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "电池",
+        "充电仓",
+        "主板/PCBA",
+        "喇叭单元",
+        "麦克风",
+        "天线"
+      ],
+      "chip_modules": [],
+      "bom_table": [
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒内部结构，底部是电池，电池与主板之间有缓震泡棉，主板与壳体之间也有缓震泡棉。"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒是圆形的球体，外壳上涂有篮球和足球的颜色和图案，两个放在一起跟一张名片差不多大。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒内部结构，底部是电池，电池与主板之间有缓震泡棉，主板与壳体之间也有缓震泡棉。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机内的结构为主板+软包电池+扬声器单元，电池和扬声器通过导线与主板相连。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机底部用于通话拾音的麦克风开孔，内有防尘网。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "用于数据传输的陶瓷蓝牙天线，采用贴片封装。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电座舱上有四个电量指示灯。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "给耳机充电的Pogo Pin。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机外壳有篮球图案，也是耳机的按键控制区域。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒是圆形的球体，外壳上涂有篮球和足球的颜色和图案，两个放在一起跟一张名片差不多大。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [],
+      "process_hints": [],
+      "summary_image_urls": [],
+      "summary_text": ""
+    },
+    "structure": {
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
+      "materials": [],
+      "ip_rating": null,
+      "weight_g": "39.9克",
+      "dimensions": [
+        "电池和主板与一元硬币的尺寸对比。",
+        "扬声器单元尺寸为6mm。"
+      ],
+      "internal_structure": [
+        {
+          "value": "充电盒内部结构，底部是电池，电池与主板之间有缓震泡棉，主板与壳体之间也有缓震泡棉。",
+          "evidence": {
+            "value": "充电盒内部结构，底部是电池，电池与主板之间有缓震泡棉，主板与壳体之间也有缓震泡棉。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "充电盒内部结构，底部是电池，电池与主板之间有缓震泡棉，主板与壳体之间也有缓震泡棉。"
+          }
+        },
+        {
+          "value": "昇生微SS809是一款集成了充放电管理的AD型单片机，内置丰富的接口功能、灵活的配置模式和不同的低功耗选项。主要应用于需要充电和智能控制的便携式电子设备，带来精简的外围成本、优秀的性能和便捷的开发。昇生微 SS809内置线性充电单元为锂电池充电，同时有专门的耳机通信接口，实现充电盒跟耳机双向通信功能。还有支持无线充的QW系列，满足不同的产品规格需求。据我爱音频网拆解了解到，包括万魔、FIIL、阿思翠、漫步者、酷狗、聆耳、努比亚等品牌在内的多款TWS耳机充电盒均大量采用了昇生微的方案。",
+          "evidence": {
+            "value": "昇生微SS809是一款集成了充放电管理的AD型单片机，内置丰富的接口功能、灵活的配置模式和不同的低功耗选项。主要应用于需要充电和智能控制的便携式电子设备，带来精简的外围成本、优秀的性能和便捷的开发。昇生微 SS809内置线性充电单元为锂电池充电，同时有专门的耳机通信接口，实现充电盒跟耳机双向通信功能。还有支持无线充的QW系列，满足不同的产品规格需求。据我爱音频网拆解了解到，包括万魔、FIIL、阿思翠、漫步者、酷狗、聆耳、努比亚等品牌在内的多款TWS耳机充电盒均大量采用了昇生微的方案。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "昇生微SS809是一款集成了充放电管理的AD型单片机，内置丰富的接口功能、灵活的配置模式和不同的低功耗选项。主要应用于需要充电和智能控制的便携式电子设备，带来精简的外围成本、优秀的性能和便捷的开发。昇生微 SS809内置线性充电单元为锂电池充电，同时有专门的耳机通信接口，实现充电盒跟耳机双向通信功能。还有支持无线充的QW系列，满足不同的产品规格需求。据我爱音频网拆解了解到，包括万魔、FIIL、阿思翠、漫步者、酷狗、聆耳、努比亚等品牌在内的多款TWS耳机充电盒均大量采用了昇生微的方案。"
+          }
+        },
+        {
+          "value": "卸下固定主板的螺丝。",
+          "evidence": {
+            "value": "卸下固定主板的螺丝。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "卸下固定主板的螺丝。"
+          }
+        },
+        {
+          "value": "耳机内的结构为主板+软包电池+扬声器单元，电池和扬声器通过导线与主板相连。",
+          "evidence": {
+            "value": "耳机内的结构为主板+软包电池+扬声器单元，电池和扬声器通过导线与主板相连。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机内的结构为主板+软包电池+扬声器单元，电池和扬声器通过导线与主板相连。"
+          }
+        },
+        {
+          "value": "从外到内依次是吸附充电座舱的磁铁、充电触点所在的小板（热熔固定），以及最内侧的扬声器单元。",
+          "evidence": {
+            "value": "从外到内依次是吸附充电座舱的磁铁、充电触点所在的小板（热熔固定），以及最内侧的扬声器单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "从外到内依次是吸附充电座舱的磁铁、充电触点所在的小板（热熔固定），以及最内侧的扬声器单元。"
+          }
+        },
+        {
+          "value": "耳机底部用于通话拾音的麦克风开孔，内有防尘网。",
+          "evidence": {
+            "value": "耳机底部用于通话拾音的麦克风开孔，内有防尘网。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机底部用于通话拾音的麦克风开孔，内有防尘网。"
+          }
+        },
+        {
+          "value": "两个LED指示灯，通过麦克风开孔透光。",
+          "evidence": {
+            "value": "两个LED指示灯，通过麦克风开孔透光。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "两个LED指示灯，通过麦克风开孔透光。"
+          }
+        },
+        {
+          "value": "用于数据传输的陶瓷蓝牙天线，采用贴片封装。",
+          "evidence": {
+            "value": "用于数据传输的陶瓷蓝牙天线，采用贴片封装。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "用于数据传输的陶瓷蓝牙天线，采用贴片封装。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "二、足球/篮球真无线耳机 充电盒拆解\n首先来拆解充电盒部分，撬开充电座舱可以看到内部结构，物理卡扣连接。",
+          "evidence": {
+            "value": "二、足球/篮球真无线耳机 充电盒拆解\n首先来拆解充电盒部分，撬开充电座舱可以看到内部结构，物理卡扣连接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "二、足球/篮球真无线耳机 充电盒拆解\n首先来拆解充电盒部分，撬开充电座舱可以看到内部结构，物理卡扣连接。"
+          }
+        },
+        {
+          "value": "卸下固定主板的螺丝。",
+          "evidence": {
+            "value": "卸下固定主板的螺丝。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸下固定主板的螺丝。"
+          }
+        },
+        {
+          "value": "从外到内依次是吸附充电座舱的磁铁、充电触点所在的小板（热熔固定），以及最内侧的扬声器单元。",
+          "evidence": {
+            "value": "从外到内依次是吸附充电座舱的磁铁、充电触点所在的小板（热熔固定），以及最内侧的扬声器单元。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "从外到内依次是吸附充电座舱的磁铁、充电触点所在的小板（热熔固定），以及最内侧的扬声器单元。"
+          }
+        },
+        {
+          "value": "扬声器单元特写，外围有胶水固定。",
+          "evidence": {
+            "value": "扬声器单元特写，外围有胶水固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "扬声器单元特写，外围有胶水固定。"
+          }
+        }
+      ],
+      "sealing_method": [
+        {
+          "value": "耳机底部用于通话拾音的麦克风开孔，内有防尘网。",
+          "evidence": {
+            "value": "耳机底部用于通话拾音的麦克风开孔，内有防尘网。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "耳机底部用于通话拾音的麦克风开孔，内有防尘网。"
+          }
+        },
+        {
+          "value": "出音孔有防尘网防止异物进入。",
+          "evidence": {
+            "value": "出音孔有防尘网防止异物进入。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "出音孔有防尘网防止异物进入。"
+          }
+        }
+      ],
+      "wear_design": [
+        {
+          "value": "耳机外壳上也是足球/篮球的纹理，耳塞也是对应的配色，细节设计不错。",
+          "evidence": {
+            "value": "耳机外壳上也是足球/篮球的纹理，耳塞也是对应的配色，细节设计不错。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "耳机外壳上也是足球/篮球的纹理，耳塞也是对应的配色，细节设计不错。"
+          }
+        },
+        {
+          "value": "三、足球/篮球真无线耳机 耳机拆解\n耳机为豆式入耳设计，入耳处壳体过渡不是特别自然，耳塞为橘红色契合篮球主题。",
+          "evidence": {
+            "value": "三、足球/篮球真无线耳机 耳机拆解\n耳机为豆式入耳设计，入耳处壳体过渡不是特别自然，耳塞为橘红色契合篮球主题。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "三、足球/篮球真无线耳机 耳机拆解\n耳机为豆式入耳设计，入耳处壳体过渡不是特别自然，耳塞为橘红色契合篮球主题。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/足球真无线篮球真无线-1.jpg",
+          "alt": "拆解报告：足球/篮球造型真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/足球真无线篮球真无线-2-1.jpg",
+          "alt": "拆解报告：足球/篮球造型真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/足球真无线篮球真无线-3.jpg",
+          "alt": "拆解报告：足球/篮球造型真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/足球真无线篮球真无线-4.jpg",
+          "alt": "拆解报告：足球/篮球造型真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/08/足球真无线篮球真无线-7.jpg",
+          "alt": "拆解报告：足球/篮球造型真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "充电盒内部结构，底部是电池，电池与主板之间有缓震泡棉，主板与壳体之间也有缓震泡棉。",
+        "昇生微SS809是一款集成了充放电管理的AD型单片机，内置丰富的接口功能、灵活的配置模式和不同的低功耗选项。主要应用于需要充电和智能控制的便携式电子设备，带来精简的外围成本、优秀的性能和便捷的开发。昇生微 SS809内置线性充电单元为锂电池充电，同时有专门的耳机通信接口，实现充电盒跟耳机双向通信功能。还有支持无线充的QW系列，满足不同的产品规格需求。据我爱音频网拆解了解到，包括万魔、FIIL、阿思翠、漫步者、酷狗、聆耳、努比亚等品牌在内的多款TWS耳机充电盒均大量采用了昇生微的方案。",
+        "卸下固定主板的螺丝。",
+        "耳机内的结构为主板+软包电池+扬声器单元，电池和扬声器通过导线与主板相连。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": {
+        "value": "39.9克",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "39.9克"
+      }
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电方式",
+          "value": "我爱音频网采用\nChargerLAB POWER-Z KM001C\n便携式电源测试仪对其进行有线充电测试，充电功率约1.7W。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KM001C\n便携式电源测试仪对其进行有线充电测试，充电功率约1.7W。"
+        },
+        {
+          "param": "充电接口",
+          "value": "并且充电盒采用的是Type-C接口，便于使用。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "并且充电盒采用的是Type-C接口，便于使用。"
+        },
+        {
+          "param": "充电接口",
+          "value": "主板背面是Type-C电源输入接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "主板背面是Type-C电源输入接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电盒为球型设计，自带挂绳可以缠绕在手上或者包上当作饰品；充电盒采用Type-C接口输入电源，昇生微SS809单片机负责电池的充电管理和跟耳机的通信，电池容量1.48Wh约400mAh，一颗升压IC将内置电池升压输出为耳机充电。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒为球型设计，自带挂绳可以缠绕在手上或者包上当作饰品；充电盒采用Type-C接口输入电源，昇生微SS809单片机负责电池的充电管理和跟耳机的通信，电池容量1.48Wh约400mAh，一颗升压IC将内置电池升压输出为耳机充电。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "标记/认证",
+          "value": "丝印M902025的软包电池，额定电压3.7V，额定容量1.48Wh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "丝印M902025的软包电池，额定电压3.7V，额定容量1.48Wh。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "Actions 炬芯ATS300X 系列新品内置150MHz MIPS32处理器，支持数字麦克风和模拟麦克风输入，内置18mW的立体声耳机放大器，支持蓝牙V5.0并且兼容蓝牙V2.1~V4.2。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "Actions 炬芯ATS300X 系列新品内置150MHz MIPS32处理器，支持数字麦克风和模拟麦克风输入，内置18mW的立体声耳机放大器，支持蓝牙V5.0并且兼容蓝牙V2.1~V4.2。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "耳机软包电池型号为ST 581013，额定电压3.7V，额定容量0.19Wh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "耳机软包电池型号为ST 581013，额定电压3.7V，额定容量0.19Wh。"
+        },
+        {
+          "param": "电池容量",
+          "value": "50",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "50mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.0",
+      "codecs": [],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [
+        {
+          "value": "主要应用于需要充电和智能控制的便携式电子设备，带来精简的外围成本、优秀的性能和便捷的开发。",
+          "evidence": {
+            "value": "主要应用于需要充电和智能控制的便携式电子设备，带来精简的外围成本、优秀的性能和便捷的开发。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "主要应用于需要充电和智能控制的便携式电子设备，带来精简的外围成本、优秀的性能和便捷的开发。"
+          }
+        }
+      ],
+      "ota_support": [],
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "5.0",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.0"
+      }
+    }
+  }
+}

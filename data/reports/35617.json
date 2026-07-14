@@ -1,0 +1,721 @@
+{
+  "id": "35617",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/35617.html",
+  "title": "MOMAX摩米士 BT1 TWS真无线耳机",
+  "brand": "",
+  "model": "MOMAX摩米士 BT1 TWS",
+  "category": "真无线耳机TWS",
+  "published_at": "2020-02-07",
+  "author": "GiGi24",
+  "summary": "MOMAX摩米士是香港一个时尚数码品牌，主要生产和销售手机周边配件，并且不断利用这一优势扩大产品类别，此前我爱 […]",
+  "captured_at": "2026-07-14T02:13:51+00:00",
+  "data_completeness": 0.724,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "MOMAX摩米士 BT1 TWS",
+      "category": "真无线耳机TWS",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "同时，高性能的蓝牙还能为音乐播放应用提供更高的音乐质量；内置回声消除及上行降噪功能，搭配新增加的降风噪算法，可以增强语音通话体验。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "同时，高性能的蓝牙还能为音乐播放应用提供更高的音乐质量；内置回声消除及上行降噪功能，搭配新增加的降风噪算法，可以增强语音通话体验。",
+            "confidence": 0.75,
+            "source_type": "text",
+            "source_text": "同时，高性能的蓝牙还能为音乐播放应用提供更高的音乐质量；内置回声消除及上行降噪功能，搭配新增加的降风噪算法，可以增强语音通话体验。"
+          }
+        },
+        {
+          "text": "单元发声孔处有防尘网防止灰尘等异物进入。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "单元发声孔处有防尘网防止灰尘等异物进入。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "单元发声孔处有防尘网防止灰尘等异物进入。"
+          }
+        },
+        {
+          "text": "音频解码器支持24bit 96KHz采样率的解码，支持降噪和回声消除功能，带有多段EQ调节。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "音频解码器支持24bit 96KHz采样率的解码，支持降噪和回声消除功能，带有多段EQ调节。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "音频解码器支持24bit 96KHz采样率的解码，支持降噪和回声消除功能，带有多段EQ调节。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通话"
+      ],
+      "positioning_summary": "同时，高性能的蓝牙还能为音乐播放应用提供更高的音乐质量；内置回声消除及上行降噪功能，搭配新增加的降风噪算法，可以增强语音通话体验。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "充电仓",
+        "电池",
+        "主板/PCBA",
+        "天线",
+        "麦克风",
+        "喇叭单元"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "Airoha",
+          "model": "络达AB1532",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "络达AB1532",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "络达AB1532"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9640",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA9640",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "ETA9640"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒正面右下角有耳机的渲染图，右上角是防伪标，左侧英文自上至下依次为：MOMAX摩米士品牌名称，“TWS”真无线立体声，药丸型（充电盒形状）蓝牙耳机，IPX4级防水，蓝牙版本5.0。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "撬开充电仓，电池粘在外壳上，电路板用螺丝固定。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "撬开充电仓，电池粘在外壳上，电路板用螺丝固定。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "贴片陶瓷蓝牙天线。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机触控盖板上有一个麦克风开孔。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "扬声器单元，后面有调音孔。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒另一个侧面，有耳机和充电仓的渲染图，与实物是1：1的比例，这个设计非常巧妙；底部文字信息是耳机续航5小时，使用充电仓可达18小时，支持触控。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "打开充电仓可以看到一个环形设计的指示灯。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "撬开充电仓，电池粘在外壳上，电路板用螺丝固定。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机采用镀金充电触点，触点处有R代表右侧耳机。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9640",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA9640",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "钰泰 ETA9640 电源管理IC，1A充放电，同步整流升压，内置多种保护功能，适用于移动电源及蓝牙耳机充电盒。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9640",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA9640",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "钰泰 ETA9640 详细资料。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "络达AB1532",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "络达AB1532",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "络达AB1532是Airoha络达推出的灵活、性能强大、集成度高的无线音频解决方案，同时也是一款支持蓝牙5.0双模的单芯片蓝牙解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "络达 AB1532",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "络达 AB1532",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "耳机采用6mm扬声器，搭载络达 AB1532解决方案，支持诸多新技术，延迟更低；配合贴片陶瓷蓝牙天线，让连接更稳定。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [
+        "包装内物品有MOMAX摩米士BT1 TWS真无线耳机、充电线、两对耳塞、说明书和注意事项。"
+      ],
+      "process_hints": [
+        {
+          "value": "电池用双面胶固定在耳机主板上，几处焊点胶水加固。",
+          "evidence": {
+            "value": "电池用双面胶固定在耳机主板上，几处焊点胶水加固。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "电池用双面胶固定在耳机主板上，几处焊点胶水加固。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": ""
+    },
+    "structure": {
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
+      "materials": [],
+      "ip_rating": "IPX4",
+      "weight_g": "37.3g",
+      "dimensions": [
+        "侧面也有很多文字信息，上面是不同语言的“这款真无线立体声耳机可以让您享受音乐和通话”，下面有四个产品特色：蓝牙5.0、Type-C输入接口、续航18小时、三种尺寸的耳塞。",
+        "包装盒底部有部分产品信息，型号：BT1，Type-C输入：5V⎓0.25A，频率响应：20-20KHz，驱动单元：6mm，灵敏度：97db +/- 3db，蓝牙版本：5.0，无线频率：2.402GHz-2.480GHz，有效距离10米。",
+        "Type-C接口的充电线和两对不同尺寸的耳塞。"
+      ],
+      "internal_structure": [
+        {
+          "value": "撬开充电仓，电池粘在外壳上，电路板用螺丝固定。",
+          "evidence": {
+            "value": "撬开充电仓，电池粘在外壳上，电路板用螺丝固定。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "撬开充电仓，电池粘在外壳上，电路板用螺丝固定。"
+          }
+        },
+        {
+          "value": "内置一颗400mAh 3.7V锂电池，来自言九电子。",
+          "evidence": {
+            "value": "内置一颗400mAh 3.7V锂电池，来自言九电子。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "内置一颗400mAh 3.7V锂电池，来自言九电子。"
+          }
+        },
+        {
+          "value": "电路板背面是Type-C输入座子和一颗无标单片机。",
+          "evidence": {
+            "value": "电路板背面是Type-C输入座子和一颗无标单片机。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "电路板背面是Type-C输入座子和一颗无标单片机。"
+          }
+        },
+        {
+          "value": "贴片陶瓷蓝牙天线。",
+          "evidence": {
+            "value": "贴片陶瓷蓝牙天线。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "贴片陶瓷蓝牙天线。"
+          }
+        },
+        {
+          "value": "MOMAX摩米士 BT1 TWS真无线耳机的充电仓内部采用钰泰ETA9640电源管理IC对内置电池充电，并且升压输出为耳机充电，确保安全性。耳机采用6mm扬声器，搭载络达 AB1532解决方案，支持诸多新技术，延迟更低；配合贴片陶瓷蓝牙天线，让连接更稳定。",
+          "evidence": {
+            "value": "MOMAX摩米士 BT1 TWS真无线耳机的充电仓内部采用钰泰ETA9640电源管理IC对内置电池充电，并且升压输出为耳机充电，确保安全性。耳机采用6mm扬声器，搭载络达 AB1532解决方案，支持诸多新技术，延迟更低；配合贴片陶瓷蓝牙天线，让连接更稳定。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "MOMAX摩米士 BT1 TWS真无线耳机的充电仓内部采用钰泰ETA9640电源管理IC对内置电池充电，并且升压输出为耳机充电，确保安全性。耳机采用6mm扬声器，搭载络达 AB1532解决方案，支持诸多新技术，延迟更低；配合贴片陶瓷蓝牙天线，让连接更稳定。"
+          }
+        },
+        {
+          "value": "耳机触控盖板上有一个麦克风开孔。",
+          "evidence": {
+            "value": "耳机触控盖板上有一个麦克风开孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机触控盖板上有一个麦克风开孔。"
+          }
+        },
+        {
+          "value": "扬声器单元，后面有调音孔。",
+          "evidence": {
+            "value": "扬声器单元，后面有调音孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "扬声器单元，后面有调音孔。"
+          }
+        },
+        {
+          "value": "耳机在充电仓的状态，耳机的触控区域也采用了圆形的设计因素。",
+          "evidence": {
+            "value": "耳机在充电仓的状态，耳机的触控区域也采用了圆形的设计因素。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机在充电仓的状态，耳机的触控区域也采用了圆形的设计因素。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "二、MOMAX摩米士 BT1 拆解\n撬开充电仓，电池粘在外壳上，电路板用螺丝固定。",
+          "evidence": {
+            "value": "二、MOMAX摩米士 BT1 拆解\n撬开充电仓，电池粘在外壳上，电路板用螺丝固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "二、MOMAX摩米士 BT1 拆解\n撬开充电仓，电池粘在外壳上，电路板用螺丝固定。"
+          }
+        },
+        {
+          "value": "和充电仓吸附对位的磁铁，采用胶水固定。",
+          "evidence": {
+            "value": "和充电仓吸附对位的磁铁，采用胶水固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "和充电仓吸附对位的磁铁，采用胶水固定。"
+          }
+        },
+        {
+          "value": "充电触点，胶水固定在外壳上。",
+          "evidence": {
+            "value": "充电触点，胶水固定在外壳上。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "充电触点，胶水固定在外壳上。"
+          }
+        },
+        {
+          "value": "电池用双面胶固定在耳机主板上，几处焊点胶水加固。",
+          "evidence": {
+            "value": "电池用双面胶固定在耳机主板上，几处焊点胶水加固。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "电池用双面胶固定在耳机主板上，几处焊点胶水加固。"
+          }
+        }
+      ],
+      "sealing_method": [
+        {
+          "value": "一、MOMAX摩米士 BT1 开箱\n包装盒正面右下角有耳机的渲染图，右上角是防伪标，左侧英文自上至下依次为：MOMAX摩米士品牌名称，“TWS”真无线立体声，药丸型（充电盒形状）蓝牙耳机，IPX4级防水，蓝牙版本5.0。",
+          "evidence": {
+            "value": "一、MOMAX摩米士 BT1 开箱\n包装盒正面右下角有耳机的渲染图，右上角是防伪标，左侧英文自上至下依次为：MOMAX摩米士品牌名称，“TWS”真无线立体声，药丸型（充电盒形状）蓝牙耳机，IPX4级防水，蓝牙版本5.0。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "一、MOMAX摩米士 BT1 开箱\n包装盒正面右下角有耳机的渲染图，右上角是防伪标，左侧英文自上至下依次为：MOMAX摩米士品牌名称，“TWS”真无线立体声，药丸型（充电盒形状）蓝牙耳机，IPX4级防水，蓝牙版本5.0。"
+          }
+        },
+        {
+          "value": "单元发声孔处有防尘网防止灰尘等异物进入。",
+          "evidence": {
+            "value": "单元发声孔处有防尘网防止灰尘等异物进入。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "单元发声孔处有防尘网防止灰尘等异物进入。"
+          }
+        },
+        {
+          "value": "电池用双面胶固定在耳机主板上，几处焊点胶水加固。",
+          "evidence": {
+            "value": "电池用双面胶固定在耳机主板上，几处焊点胶水加固。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "电池用双面胶固定在耳机主板上，几处焊点胶水加固。"
+          }
+        }
+      ],
+      "wear_design": [
+        {
+          "value": "侧面也有很多文字信息，上面是不同语言的“这款真无线立体声耳机可以让您享受音乐和通话”，下面有四个产品特色：蓝牙5.0、Type-C输入接口、续航18小时、三种尺寸的耳塞。",
+          "evidence": {
+            "value": "侧面也有很多文字信息，上面是不同语言的“这款真无线立体声耳机可以让您享受音乐和通话”，下面有四个产品特色：蓝牙5.0、Type-C输入接口、续航18小时、三种尺寸的耳塞。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "侧面也有很多文字信息，上面是不同语言的“这款真无线立体声耳机可以让您享受音乐和通话”，下面有四个产品特色：蓝牙5.0、Type-C输入接口、续航18小时、三种尺寸的耳塞。"
+          }
+        },
+        {
+          "value": "包装内物品有MOMAX摩米士BT1 TWS真无线耳机、充电线、两对耳塞、说明书和注意事项。",
+          "evidence": {
+            "value": "包装内物品有MOMAX摩米士BT1 TWS真无线耳机、充电线、两对耳塞、说明书和注意事项。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "包装内物品有MOMAX摩米士BT1 TWS真无线耳机、充电线、两对耳塞、说明书和注意事项。"
+          }
+        },
+        {
+          "value": "Type-C接口的充电线和两对不同尺寸的耳塞。",
+          "evidence": {
+            "value": "Type-C接口的充电线和两对不同尺寸的耳塞。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "Type-C接口的充电线和两对不同尺寸的耳塞。"
+          }
+        },
+        {
+          "value": "我爱音频网总结\nMOMAX摩米士 BT1 TWS真无线耳机设计比较简单，充电仓和耳机腔体都是简单的线条轮廓；耳塞为浅灰色；耳机的触控区域有圆环装饰，充电仓内侧也有环状的指示灯开孔，进行了一点修饰。",
+          "evidence": {
+            "value": "我爱音频网总结\nMOMAX摩米士 BT1 TWS真无线耳机设计比较简单，充电仓和耳机腔体都是简单的线条轮廓；耳塞为浅灰色；耳机的触控区域有圆环装饰，充电仓内侧也有环状的指示灯开孔，进行了一点修饰。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "我爱音频网总结\nMOMAX摩米士 BT1 TWS真无线耳机设计比较简单，充电仓和耳机腔体都是简单的线条轮廓；耳塞为浅灰色；耳机的触控区域有圆环装饰，充电仓内侧也有环状的指示灯开孔，进行了一点修饰。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/02/MOMAX真无线耳机BT1-1.jpg",
+          "alt": "拆解报告：MOMAX摩米士 BT1 TWS真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/02/MOMAX真无线耳机BT1-2.jpg",
+          "alt": "拆解报告：MOMAX摩米士 BT1 TWS真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/02/MOMAX真无线耳机BT1-3.jpg",
+          "alt": "拆解报告：MOMAX摩米士 BT1 TWS真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/02/MOMAX真无线耳机BT1-4.jpg",
+          "alt": "拆解报告：MOMAX摩米士 BT1 TWS真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/02/MOMAX真无线耳机BT1-5.jpg",
+          "alt": "拆解报告：MOMAX摩米士 BT1 TWS真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "撬开充电仓，电池粘在外壳上，电路板用螺丝固定。",
+        "内置一颗400mAh 3.7V锂电池，来自言九电子。",
+        "电路板背面是Type-C输入座子和一颗无标单片机。",
+        "贴片陶瓷蓝牙天线。"
+      ],
+      "ip_rating_evidence": {
+        "value": "IPX4",
+        "confidence": 0.8,
+        "source_type": "text",
+        "source_text": "IPX4"
+      },
+      "weight_evidence": {
+        "value": "37.3g",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "37.3g"
+      }
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电方式",
+          "value": "MOMAX摩米士是香港一个时尚数码品牌，主要生产和销售手机周边配件，并且不断利用这一优势扩大产品类别，此前我爱音频网曾经拆解过\n摩米士的美妆镜台灯\n和\nTWS对箱\n，它们都巧妙地把产品形态与无线充电功能结合到了一起。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "MOMAX摩米士是香港一个时尚数码品牌，主要生产和销售手机周边配件，并且不断利用这一优势扩大产品类别，此前我爱音频网曾经拆解过\n摩米士的美妆镜台灯\n和\nTWS对箱\n，它们都巧妙地把产品形态与无线充电功能结合到了一起。"
+        },
+        {
+          "param": "充电方式",
+          "value": "我爱音频网采用\nChargerLAB POWER-Z KM001C\n对MOMAX摩米士BT1进行有线充电测试，充电电压：5.063V，充电电流：0.334A。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KM001C\n对MOMAX摩米士BT1进行有线充电测试，充电电压：5.063V，充电电流：0.334A。"
+        },
+        {
+          "param": "充电接口",
+          "value": "侧面也有很多文字信息，上面是不同语言的“这款真无线立体声耳机可以让您享受音乐和通话”，下面有四个产品特色：蓝牙5.0、Type-C输入接口、续航18小时、三种尺寸的耳塞。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "侧面也有很多文字信息，上面是不同语言的“这款真无线立体声耳机可以让您享受音乐和通话”，下面有四个产品特色：蓝牙5.0、Type-C输入接口、续航18小时、三种尺寸的耳塞。"
+        },
+        {
+          "param": "充电接口",
+          "value": "包装盒底部有部分产品信息，型号：BT1，Type-C输入：5V⎓0.25A，频率响应：20-20KHz，驱动单元：6mm，灵敏度：97db +/- 3db，蓝牙版本：5.0，无线频率：2.402GHz-2.480GHz，有效距离10米。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "包装盒底部有部分产品信息，型号：BT1，Type-C输入：5V⎓0.25A，频率响应：20-20KHz，驱动单元：6mm，灵敏度：97db +/- 3db，蓝牙版本：5.0，无线频率：2.402GHz-2.480GHz，有效距离10米。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C接口的充电线和两对不同尺寸的耳塞。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C接口的充电线和两对不同尺寸的耳塞。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电仓背部是Type-C的充电接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电仓背部是Type-C的充电接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "电路板背面是Type-C输入座子和一颗无标单片机。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "电路板背面是Type-C输入座子和一颗无标单片机。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "标记/认证",
+          "value": "一、MOMAX摩米士 BT1 开箱\n包装盒正面右下角有耳机的渲染图，右上角是防伪标，左侧英文自上至下依次为：MOMAX摩米士品牌名称，“TWS”真无线立体声，药丸型（充电盒形状）蓝牙耳机，IPX4级防水，蓝牙版本5.0。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "一、MOMAX摩米士 BT1 开箱\n包装盒正面右下角有耳机的渲染图，右上角是防伪标，左侧英文自上至下依次为：MOMAX摩米士品牌名称，“TWS”真无线立体声，药丸型（充电盒形状）蓝牙耳机，IPX4级防水，蓝牙版本5.0。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "包装盒底部有部分产品信息，型号：BT1，Type-C输入：5V⎓0.25A，频率响应：20-20KHz，驱动单元：6mm，灵敏度：97db +/- 3db，蓝牙版本：5.0，无线频率：2.402GHz-2.480GHz，有效距离10米。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "包装盒底部有部分产品信息，型号：BT1，Type-C输入：5V⎓0.25A，频率响应：20-20KHz，驱动单元：6mm，灵敏度：97db +/- 3db，蓝牙版本：5.0，无线频率：2.402GHz-2.480GHz，有效距离10米。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "充电仓底部信息，真无线耳机，型号：BT1，输入：5V⎓0.25A，中国制造。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电仓底部信息，真无线耳机，型号：BT1，输入：5V⎓0.25A，中国制造。"
+        },
+        {
+          "param": "电池容量",
+          "value": "400",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "400mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.0",
+      "codecs": [],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [
+        {
+          "value": "同时，高性能的蓝牙还能为音乐播放应用提供更高的音乐质量；内置回声消除及上行降噪功能，搭配新增加的降风噪算法，可以增强语音通话体验。",
+          "evidence": {
+            "value": "同时，高性能的蓝牙还能为音乐播放应用提供更高的音乐质量；内置回声消除及上行降噪功能，搭配新增加的降风噪算法，可以增强语音通话体验。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "同时，高性能的蓝牙还能为音乐播放应用提供更高的音乐质量；内置回声消除及上行降噪功能，搭配新增加的降风噪算法，可以增强语音通话体验。"
+          }
+        },
+        {
+          "value": "在硬件上络达AB1532内置Tensilica HiFi EP处理器，嵌入16Mb闪存，支持iOS和Android APP，内置电容触摸控制器，整合锂电池充电控制器。",
+          "evidence": {
+            "value": "在硬件上络达AB1532内置Tensilica HiFi EP处理器，嵌入16Mb闪存，支持iOS和Android APP，内置电容触摸控制器，整合锂电池充电控制器。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "在硬件上络达AB1532内置Tensilica HiFi EP处理器，嵌入16Mb闪存，支持iOS和Android APP，内置电容触摸控制器，整合锂电池充电控制器。"
+          }
+        }
+      ],
+      "ota_support": [],
+      "latency_notes": [
+        {
+          "value": "耳机采用6mm扬声器，搭载络达 AB1532解决方案，支持诸多新技术，延迟更低；配合贴片陶瓷蓝牙天线，让连接更稳定。",
+          "evidence": {
+            "value": "耳机采用6mm扬声器，搭载络达 AB1532解决方案，支持诸多新技术，延迟更低；配合贴片陶瓷蓝牙天线，让连接更稳定。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机采用6mm扬声器，搭载络达 AB1532解决方案，支持诸多新技术，延迟更低；配合贴片陶瓷蓝牙天线，让连接更稳定。"
+          }
+        }
+      ],
+      "bluetooth_evidence": {
+        "value": "5.0",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.0"
+      }
+    }
+  }
+}

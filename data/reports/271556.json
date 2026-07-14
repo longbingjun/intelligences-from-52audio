@@ -103,6 +103,20 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
+          "brand": "",
+          "model": "CM1137",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
+          "evidence": {
+            "value": "CM1137",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了长虹聚和源3.8V/500mAh锂电池，配备了ICM创芯微CM1137系列集成MOSFET单节锂电池保护IC；"
+          }
+        },
+        {
+          "component": "芯片/模组",
           "brand": "BES恒玄科技",
           "model": "BES2600IHC3-4X",
           "qty_hint": "1",
@@ -128,9 +142,37 @@
             "source_type": "summary_prose",
             "source_text": "采用MIC-POWER微电新能源3.7V/40mAh钢壳扣式电池供电，采用BES恒玄科技BES2600IHC3-4X蓝牙音频SoC负责无线连接和音频数据处理，采用Spacetouch普林芯驰SPT5111触摸检测IC用于触摸控制和入耳检测功能；"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "BES2600IHC3",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES2600IHC3",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "BES2600IHC3"
+          }
         }
       ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "CM1137",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
+          "evidence": {
+            "value": "CM1137",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了长虹聚和源3.8V/500mAh锂电池，配备了ICM创芯微CM1137系列集成MOSFET单节锂电池保护IC；"
+          }
+        },
         {
           "component": "电池",
           "brand": "",
@@ -358,6 +400,20 @@
         {
           "component": "芯片/模组",
           "brand": "",
+          "model": "CM1137",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "CM1137",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "ICM创芯微CM1137系列集成MOSFET单节锂电池保护IC，负责电池的过充电、过放电、过电流等保护。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
           "model": "BES2600IHC3-4X",
           "qty_hint": "1",
           "side": "",
@@ -381,6 +437,34 @@
             "confidence": 0.78,
             "source_type": "text",
             "source_text": "BES恒玄科技BES2600IHC3-4X蓝牙音频SoC，采用双核Arm MCU，搭载BES自研AI降噪通话算法，混合ANC降噪算法，功耗低至4.5mA。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "BES2600IHC3",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES2600IHC3",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "BES恒玄科技BES2600IHC3-4X蓝牙音频SoC，采用双核Arm MCU，搭载BES自研AI降噪通话算法，混合ANC降噪算法，功耗低至4.5mA。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "BES2600IHC3",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES2600IHC3",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "耳机内部搭载了6mm双磁路高频单元+11mm纯铜线圈低频单元，单耳内置三颗MEMS麦克风；采用MIC-POWER微电新能源3.7V/40mAh钢壳扣式电池供电，采用BES恒玄科技BES2600IHC3-4X蓝牙音频SoC负责无线连接和音频数据处理，采用Spacetouch普林芯驰SPT5111触摸检测IC用于触摸控制和入耳检测功能；其他还采用了Sunlord顺络电子SDCL0603Q系列和SDCL0402H-01系列叠层陶瓷电感等方案。"
           }
         }
       ],
@@ -598,9 +682,18 @@
       "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "49.8g",
-        "confidence": 0.75,
+        "confidence": 0.85,
         "source_type": "text",
-        "source_text": "49.8g"
+        "source_text": "OR荣耀Earbuds 4真无线降噪耳机整机重量约为49.8g。\n单只耳"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "5.4g",
+      "weight_earbud_evidence": {
+        "value": "5.4g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "真无线降噪耳机整机重量约为49.8g。\n单只耳机重量约为5.4g。\n我爱音"
       }
     },
     "hardware": {
@@ -773,6 +866,6 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.742,
+  "data_completeness": 0.76,
   "source_layer": "technical"
 }

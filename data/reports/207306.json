@@ -1,0 +1,537 @@
+{
+  "id": "207306",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/207306.html",
+  "title": "bocoice蜂鸟Pro骨传导蓝牙音箱",
+  "brand": "",
+  "model": "bocoice蜂鸟Pro骨传导蓝牙",
+  "category": "骨传导耳机",
+  "published_at": "2024-07-29",
+  "author": "Wen5",
+  "summary": "骨传导耳机相信大家或多或少都有所接触，通过将电信号转化为骨传导振子的机械振动，再将声音通过颅骨传至听觉神经，实 […]",
+  "captured_at": "2026-07-14T02:05:05+00:00",
+  "data_completeness": 0.654,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "bocoice蜂鸟Pro骨传导蓝牙",
+      "category": "骨传导耳机",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "Type-C充电母座特写，设置有橡胶圈防尘防水。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "Type-C充电母座特写，设置有橡胶圈防尘防水。",
+            "confidence": 0.61,
+            "source_type": "text",
+            "source_text": "Type-C充电母座特写，设置有橡胶圈防尘防水。"
+          }
+        },
+        {
+          "text": "蓝牙版本：5.0，A2DP，HFP：支持TWS立体声对箱模式；支持多音箱（CSB广播）模式，多达100台音箱同时播放；骨传导换能器功率:：4瓦（最大）；内置幻彩音乐氛围灯；播放频率范围：100Hz~18kHz；内置高灵敏度麦克风；内置聚合物锂电池：容量450mAh。",
+          "tag": "其他",
+          "evidence": {
+            "value": "蓝牙版本：5.0，A2DP，HFP：支持TWS立体声对箱模式；支持多音箱（CSB广播）模式，多达100台音箱同时播放；骨传导换能器功率:：4瓦（最大）；内置幻彩音乐氛围灯；播放频率范围：100Hz~18kHz；内置高灵敏度麦克风；内置聚合物锂电池：容量450mAh。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "蓝牙版本：5.0，A2DP，HFP：支持TWS立体声对箱模式；支持多音箱（CSB广播）模式，多达100台音箱同时播放；骨传导换能器功率:：4瓦（最大）；内置幻彩音乐氛围灯；播放频率范围：100Hz~18kHz；内置高灵敏度麦克风；内置聚合物锂电池：容量450mAh。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通话"
+      ],
+      "positioning_summary": "Type-C充电母座特写，设置有橡胶圈防尘防水。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "电池",
+        "主板/PCBA",
+        "麦克风",
+        "喇叭单元",
+        "骨传导振子",
+        "天线"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "JL7016",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL7016",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "JL7016"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "4V/50mAh锂电池",
+          "qty_hint": "1",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "4V/50mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内置450mAh锂电池，采用LPS微源半导体LP4054充电IC负责为其充电；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "还搭载了驻极体麦克风单元拾音，4颗LED幻彩灯提供音乐氛围。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒背面介绍了产品规格和包装清单。蓝牙版本：5.0，A2DP，HFP：支持TWS立体声对箱模式；支持多音箱（CSB广播）模式，多达100台音箱同时播放；骨传导换能器功率:：4瓦（最大）；内置幻彩音乐氛围灯；播放频率范围：100Hz~18kHz；内置高灵敏度麦克风；内置聚合物锂电池：容量450mAh。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，打开盖板，盖板内侧固定有拾音麦克风，导线与主板焊接。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "bocoice蜂鸟Pro骨传导蓝牙音箱支持蓝牙5.0，适配手机、平板、电脑、switch等音源设备，还支持多音箱同时播放；搭载霓虹灯效，提升音乐氛围；内置麦克风，可以进行语音通话。续航方面，可提供4-6小时的音乐播放。下面就来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "骨传导耳机相信大家或多或少都有所接触，通过将电信号转化为骨传导振子的机械振动，再将声音通过颅骨传至听觉神经，实现与传统空气传导不同的听音方式。骨传导音箱便是采用了类似的发声单元，在使用时搭载的骨传导振子，附着在介质平面上，通过振动接触面实现扩音效果，不同介质，还能够呈现不同的音色，因此带来了更多的可玩性。"
+          }
+        },
+        {
+          "component": "骨传导振子",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "骨传导振子",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "骨传导耳机相信大家或多或少都有所接触，通过将电信号转化为骨传导振子的机械振动，再将声音通过颅骨传至听觉神经，实现与传统空气传导不同的听音方式。骨传导音箱便是采用了类似的发声单元，在使用时搭载的骨传导振子，附着在介质平面上，通过振动接触面实现扩音效果，不同介质，还能够呈现不同的音色，因此带来了更多的可玩性。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "陶瓷蓝牙天线特写，用于无线信号收发。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "机身顶部是一颗金属旋钮按键，用于电源开关、音量调节、蓝牙配对等功能控制。通过CD纹理装饰，边缘亮面倒角，非常精致。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "LED充电指示灯和幻彩氛围灯特写。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "JL7016",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL7016",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "JL杰理JL7016C8蓝牙音频SoC，用于无线连接和音频数据处理。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [
+        "包装盒内部物品有主机、纳米胶贴、挂绳、充电线、磁吸片、硅胶吸盒和说明书。"
+      ],
+      "process_hints": [
+        {
+          "value": "卸掉螺丝，打开盖板，盖板内侧固定有拾音麦克风，导线与主板焊接。",
+          "evidence": {
+            "value": "卸掉螺丝，打开盖板，盖板内侧固定有拾音麦克风，导线与主板焊接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，打开盖板，盖板内侧固定有拾音麦克风，导线与主板焊接。"
+          }
+        },
+        {
+          "value": "取出电池，电池导线与主板焊接。",
+          "evidence": {
+            "value": "取出电池，电池导线与主板焊接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "取出电池，电池导线与主板焊接。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": "三、我爱音频网总结 bocoice蜂鸟Pro骨传导蓝牙音箱在外观方面，体积非常的小巧轻便，搭配磁吸功能和各种配件，能够轻松固定在各种物品上使用。音箱功能按键采用了一体式的金属旋钮设计，与机身协调统一，通过CD纹理装饰和亮面倒角装饰，质感出色。 内部主要配置方面，搭载了直径约28mm的骨传导单元，配备Heroic禾润HT8313 D类音频功率放大器驱动；内置450mAh锂电池，采用LPS微源半导体LP4054充电IC负责为其充电；还搭载了驻极体麦克风单元拾音，4颗LED幻彩灯提供音乐氛围。"
+    },
+    "structure": {
+      "form_factor": "骨传导耳机",
+      "earbud_type": "其他",
+      "materials": [
+        "硅胶"
+      ],
+      "ip_rating": null,
+      "weight_g": "56.5g",
+      "dimensions": [
+        "此次将要拆解的bocoice蜂鸟Pro骨传导蓝牙音箱，外观体积非常小巧，配置上搭载大尺寸骨传导单元，且支持磁吸功能，能够轻松固定在油烟机、冰箱、洗衣机等铁制物品上，搭配磁吸贴片，也能固定在轻薄的非铁制物品上发声。",
+        "经我爱音频网实测，骨传导单元的直径约为28.33mm。",
+        "内部主要配置方面，搭载了直径约28mm的骨传导单元，配备Heroic禾润HT8313 D类音频功率放大器驱动；内置450mAh锂电池，采用LPS微源半导体LP4054充电IC负责为其充电；还搭载了驻极体麦克风单元拾音，4颗LED幻彩灯提供音乐氛围。"
+      ],
+      "internal_structure": [
+        {
+          "value": "取出主板单元，下方设置电池。",
+          "evidence": {
+            "value": "取出主板单元，下方设置电池。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "取出主板单元，下方设置电池。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，打开盖板，盖板内侧固定有拾音麦克风，导线与主板焊接。",
+          "evidence": {
+            "value": "卸掉螺丝，打开盖板，盖板内侧固定有拾音麦克风，导线与主板焊接。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，打开盖板，盖板内侧固定有拾音麦克风，导线与主板焊接。"
+          }
+        },
+        {
+          "value": "腔体内部结构一览，上层固定主板单元。",
+          "evidence": {
+            "value": "腔体内部结构一览，上层固定主板单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "腔体内部结构一览，上层固定主板单元。"
+          }
+        },
+        {
+          "value": "bocoice蜂鸟Pro骨传导蓝牙音箱支持蓝牙5.0，适配手机、平板、电脑、switch等音源设备，还支持多音箱同时播放；搭载霓虹灯效，提升音乐氛围；内置麦克风，可以进行语音通话。续航方面，可提供4-6小时的音乐播放。下面就来看看这款产品的详细拆解报告吧~",
+          "evidence": {
+            "value": "bocoice蜂鸟Pro骨传导蓝牙音箱支持蓝牙5.0，适配手机、平板、电脑、switch等音源设备，还支持多音箱同时播放；搭载霓虹灯效，提升音乐氛围；内置麦克风，可以进行语音通话。续航方面，可提供4-6小时的音乐播放。下面就来看看这款产品的详细拆解报告吧~",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "bocoice蜂鸟Pro骨传导蓝牙音箱支持蓝牙5.0，适配手机、平板、电脑、switch等音源设备，还支持多音箱同时播放；搭载霓虹灯效，提升音乐氛围；内置麦克风，可以进行语音通话。续航方面，可提供4-6小时的音乐播放。下面就来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "value": "骨传导耳机相信大家或多或少都有所接触，通过将电信号转化为骨传导振子的机械振动，再将声音通过颅骨传至听觉神经，实现与传统空气传导不同的听音方式。骨传导音箱便是采用了类似的发声单元，在使用时搭载的骨传导振子，附着在介质平面上，通过振动接触面实现扩音效果，不同介质，还能够呈现不同的音色，因此带来了更多的可玩性。",
+          "evidence": {
+            "value": "骨传导耳机相信大家或多或少都有所接触，通过将电信号转化为骨传导振子的机械振动，再将声音通过颅骨传至听觉神经，实现与传统空气传导不同的听音方式。骨传导音箱便是采用了类似的发声单元，在使用时搭载的骨传导振子，附着在介质平面上，通过振动接触面实现扩音效果，不同介质，还能够呈现不同的音色，因此带来了更多的可玩性。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "骨传导耳机相信大家或多或少都有所接触，通过将电信号转化为骨传导振子的机械振动，再将声音通过颅骨传至听觉神经，实现与传统空气传导不同的听音方式。骨传导音箱便是采用了类似的发声单元，在使用时搭载的骨传导振子，附着在介质平面上，通过振动接触面实现扩音效果，不同介质，还能够呈现不同的音色，因此带来了更多的可玩性。"
+          }
+        },
+        {
+          "value": "陶瓷蓝牙天线特写，用于无线信号收发。",
+          "evidence": {
+            "value": "陶瓷蓝牙天线特写，用于无线信号收发。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "陶瓷蓝牙天线特写，用于无线信号收发。"
+          }
+        },
+        {
+          "value": "机身顶部是一颗金属旋钮按键，用于电源开关、音量调节、蓝牙配对等功能控制。通过CD纹理装饰，边缘亮面倒角，非常精致。",
+          "evidence": {
+            "value": "机身顶部是一颗金属旋钮按键，用于电源开关、音量调节、蓝牙配对等功能控制。通过CD纹理装饰，边缘亮面倒角，非常精致。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "机身顶部是一颗金属旋钮按键，用于电源开关、音量调节、蓝牙配对等功能控制。通过CD纹理装饰，边缘亮面倒角，非常精致。"
+          }
+        },
+        {
+          "value": "拆掉顶部的旋钮按键。",
+          "evidence": {
+            "value": "拆掉顶部的旋钮按键。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "拆掉顶部的旋钮按键。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "旋钮按键下方，隐藏四颗固定螺丝。",
+          "evidence": {
+            "value": "旋钮按键下方，隐藏四颗固定螺丝。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "旋钮按键下方，隐藏四颗固定螺丝。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，打开盖板，盖板内侧固定有拾音麦克风，导线与主板焊接。",
+          "evidence": {
+            "value": "卸掉螺丝，打开盖板，盖板内侧固定有拾音麦克风，导线与主板焊接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，打开盖板，盖板内侧固定有拾音麦克风，导线与主板焊接。"
+          }
+        }
+      ],
+      "sealing_method": [],
+      "wear_design": [
+        {
+          "value": "HT8313支持防削顶失真（ACF）输出控制功能，显著提高音质，创造非常舒适的听音享受，并保护扬声器免受过载损坏；HT8313还具有AB类和D类的自由切换功能，集成免滤波器数字调制技术，集成输出端过流保护、片内过温保护和电源欠压异常保护等功能。",
+          "evidence": {
+            "value": "HT8313支持防削顶失真（ACF）输出控制功能，显著提高音质，创造非常舒适的听音享受，并保护扬声器免受过载损坏；HT8313还具有AB类和D类的自由切换功能，集成免滤波器数字调制技术，集成输出端过流保护、片内过温保护和电源欠压异常保护等功能。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "HT8313支持防削顶失真（ACF）输出控制功能，显著提高音质，创造非常舒适的听音享受，并保护扬声器免受过载损坏；HT8313还具有AB类和D类的自由切换功能，集成免滤波器数字调制技术，集成输出端过流保护、片内过温保护和电源欠压异常保护等功能。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/07/2024072909172471.jpeg",
+          "alt": "拆解报告：bocoice蜂鸟Pro骨传导蓝牙音箱-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/07/2024072909172677.jpeg",
+          "alt": "拆解报告：bocoice蜂鸟Pro骨传导蓝牙音箱-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/07/2024072909172773.jpeg",
+          "alt": "拆解报告：bocoice蜂鸟Pro骨传导蓝牙音箱-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/07/2024072909172870.jpeg",
+          "alt": "拆解报告：bocoice蜂鸟Pro骨传导蓝牙音箱-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/07/2024072909173015.jpeg",
+          "alt": "拆解报告：bocoice蜂鸟Pro骨传导蓝牙音箱-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "取出主板单元，下方设置电池。",
+        "卸掉螺丝，打开盖板，盖板内侧固定有拾音麦克风，导线与主板焊接。",
+        "腔体内部结构一览，上层固定主板单元。",
+        "bocoice蜂鸟Pro骨传导蓝牙音箱支持蓝牙5.0，适配手机、平板、电脑、switch等音源设备，还支持多音箱同时播放；搭载霓虹灯效，提升音乐氛围；内置麦克风，可以进行语音通话。续航方面，可提供4-6小时的音乐播放。下面就来看看这款产品的详细拆解报告吧~"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": {
+        "value": "56.5g",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "56.5g"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": null,
+      "weight_earbud_evidence": null
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "音箱充电线，采用了USB-A to Type-C接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "音箱充电线，采用了USB-A to Type-C接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "机身背面设置有Type-C充电接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "机身背面设置有Type-C充电接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C充电母座特写，设置有橡胶圈防尘防水。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充电母座特写，设置有橡胶圈防尘防水。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "音箱内置锂电池通过绝缘胶带保护，贴有标签信息，型号：ZLY 702035，额定容量：450mAh 1.665Wh，标称电压：3.7V。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "音箱内置锂电池通过绝缘胶带保护，贴有标签信息，型号：ZLY 702035，额定容量：450mAh 1.665Wh，标称电压：3.7V。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "据我爱音频网拆解了解到，目前已有\n小米、荣耀、Redmi、realme、MEIZU、红魔、雷蛇、小天才、FIIL、1MORE、JBL、Bowers & Wilkins、酷睿视、Barbetsound、JLab、SUUNTO、Monster、七彩虹、Nothing、斯莫格、PHILIPS、RODE、重力星球、Haylou、如布、ELEVOC、HHOGene\n，\n黑鲨\n、\nSou\nndPeats\n、\n花再\n、\nJLab\n、\nOPPO、华为、联想、索尼、诺基亚、摩托罗拉、漫步者、声阔、万魔、QCY、绿联、雷蛇等众多品牌\n旗下音频产品采用了微源的方案。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "据我爱音频网拆解了解到，目前已有\n小米、荣耀、Redmi、realme、MEIZU、红魔、雷蛇、小天才、FIIL、1MORE、JBL、Bowers & Wilkins、酷睿视、Barbetsound、JLab、SUUNTO、Monster、"
+        },
+        {
+          "param": "电池容量",
+          "value": "450",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "450mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.0",
+      "codecs": [],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [
+        {
+          "value": "SOT23-5的封装和较少的外部元件数量使其非常适合便携式应用。",
+          "evidence": {
+            "value": "SOT23-5的封装和较少的外部元件数量使其非常适合便携式应用。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "SOT23-5的封装和较少的外部元件数量使其非常适合便携式应用。"
+          }
+        }
+      ],
+      "ota_support": [],
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "5.0",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.0"
+      }
+    }
+  }
+}

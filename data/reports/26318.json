@@ -1,0 +1,450 @@
+{
+  "id": "26318",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/26318.html",
+  "title": "疯米W1真无线耳机",
+  "brand": "",
+  "model": "疯米W1",
+  "category": "真无线耳机TWS",
+  "published_at": "2019-08-26",
+  "author": "xeC",
+  "summary": "疯米是一个互联网耳机品牌，W1 是疯米发售的一款真无线蓝牙耳机产品，支持蓝牙5.0，开盖自动连接，连接手机时还 […]",
+  "captured_at": "2026-07-14T02:14:33+00:00",
+  "data_completeness": 0.504,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "疯米W1",
+      "category": "真无线耳机TWS",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "耳塞有防尘防护网。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "耳塞有防尘防护网。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "耳塞有防尘防护网。"
+          }
+        },
+        {
+          "text": "充电盒下方标注有充电盒的型号和充电功率：最大5V 1A，还有通过的认证信息。",
+          "tag": "其他",
+          "evidence": {
+            "value": "充电盒下方标注有充电盒的型号和充电功率：最大5V 1A，还有通过的认证信息。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "充电盒下方标注有充电盒的型号和充电功率：最大5V 1A，还有通过的认证信息。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通话"
+      ],
+      "positioning_summary": "耳塞有防尘防护网。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "主板/PCBA",
+        "充电仓",
+        "电池",
+        "麦克风",
+        "天线"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9640",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA9640",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "ETA9640"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "电池下方有两块小磁铁，对放置在里面的耳机产生吸附力，不易掉落，耳机主板通过线路连接。主板上有一对2POP顶针，能给盒中带触点的耳机充电。"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "疯米是一个互联网耳机品牌，W1 是疯米发售的一款真无线蓝牙耳机产品，支持蓝牙5.0，开盖自动连接，连接手机时还可以通过耳机唤醒语音助手，全触控设计，单次充电续航为4.5小时，配合充电盒，续航可达18小时。为了更加了解疯米W1，我爱音频网对疯米W1进行了深度拆解，让我们一起来看看。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "拆开充电盒，肉眼可见一块比较大的电池。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "下方的小孔为麦克风孔。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机上的天线位置，图中蛇形走线为天线布局。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒后部是Micro-USB充电口，旁边是电源指示灯。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "疯米是一个互联网耳机品牌，W1 是疯米发售的一款真无线蓝牙耳机产品，支持蓝牙5.0，开盖自动连接，连接手机时还可以通过耳机唤醒语音助手，全触控设计，单次充电续航为4.5小时，配合充电盒，续航可达18小时。为了更加了解疯米W1，我爱音频网对疯米W1进行了深度拆解，让我们一起来看看。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9640",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA9640",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "充电盒主板上的IC芯片是钰泰的ETA9640 8412C。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9640",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA9640",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "ETA9640是一颗专门针对TWS耳机充电盒设计的单芯片，集成所有充电，放电以及空载识别，电量显示功能的PMU。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9640",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA9640",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "ETA9640延续并升级了”Power SOC“的概念，以一颗芯片，无需外围搭配MOSFET，DW01，肖特基等器件。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [],
+      "process_hints": [
+        {
+          "value": "导线通过焊接固定。",
+          "evidence": {
+            "value": "导线通过焊接固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "导线通过焊接固定。"
+          }
+        },
+        {
+          "value": "RTL8763B是REALTEK瑞昱首款完整的TWS真无线蓝牙耳机一体化方案，支持蓝牙5.0，支持HFP 1.7、HSP 1.2、A2DP 1.3、AVRDP 1.6、SPP 1.2、PDAP 1.0，具有双耳通话功能。",
+          "evidence": {
+            "value": "RTL8763B是REALTEK瑞昱首款完整的TWS真无线蓝牙耳机一体化方案，支持蓝牙5.0，支持HFP 1.7、HSP 1.2、A2DP 1.3、AVRDP 1.6、SPP 1.2、PDAP 1.0，具有双耳通话功能。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "RTL8763B是REALTEK瑞昱首款完整的TWS真无线蓝牙耳机一体化方案，支持蓝牙5.0，支持HFP 1.7、HSP 1.2、A2DP 1.3、AVRDP 1.6、SPP 1.2、PDAP 1.0，具有双耳通话功能。"
+          }
+        },
+        {
+          "value": "在扩展性方面，支持三路LED驱动，支持触摸IC控制，可以说是一款高性能的全能的TWS真无线蓝牙耳机一体化方案。",
+          "evidence": {
+            "value": "在扩展性方面，支持三路LED驱动，支持触摸IC控制，可以说是一款高性能的全能的TWS真无线蓝牙耳机一体化方案。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "在扩展性方面，支持三路LED驱动，支持触摸IC控制，可以说是一款高性能的全能的TWS真无线蓝牙耳机一体化方案。"
+          }
+        },
+        {
+          "value": "耳机端采用了瑞昱RTL8763B的一体化芯片方案，支持蓝牙5.0，为W1瘦身轻巧的同时还保证了产品的性价比。",
+          "evidence": {
+            "value": "耳机端采用了瑞昱RTL8763B的一体化芯片方案，支持蓝牙5.0，为W1瘦身轻巧的同时还保证了产品的性价比。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "耳机端采用了瑞昱RTL8763B的一体化芯片方案，支持蓝牙5.0，为W1瘦身轻巧的同时还保证了产品的性价比。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": ""
+    },
+    "structure": {
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
+      "materials": [],
+      "ip_rating": null,
+      "weight_g": null,
+      "dimensions": [],
+      "internal_structure": [
+        {
+          "value": "电池下方有两块小磁铁，对放置在里面的耳机产生吸附力，不易掉落，耳机主板通过线路连接。主板上有一对2POP顶针，能给盒中带触点的耳机充电。",
+          "evidence": {
+            "value": "电池下方有两块小磁铁，对放置在里面的耳机产生吸附力，不易掉落，耳机主板通过线路连接。主板上有一对2POP顶针，能给盒中带触点的耳机充电。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "电池下方有两块小磁铁，对放置在里面的耳机产生吸附力，不易掉落，耳机主板通过线路连接。主板上有一对2POP顶针，能给盒中带触点的耳机充电。"
+          }
+        },
+        {
+          "value": "盒内主板正面一览。",
+          "evidence": {
+            "value": "盒内主板正面一览。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "盒内主板正面一览。"
+          }
+        },
+        {
+          "value": "拆开充电盒，肉眼可见一块比较大的电池。",
+          "evidence": {
+            "value": "拆开充电盒，肉眼可见一块比较大的电池。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "拆开充电盒，肉眼可见一块比较大的电池。"
+          }
+        },
+        {
+          "value": "下方的小孔为麦克风孔。",
+          "evidence": {
+            "value": "下方的小孔为麦克风孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "下方的小孔为麦克风孔。"
+          }
+        },
+        {
+          "value": "耳机顶部的按键和麦克风单元。",
+          "evidence": {
+            "value": "耳机顶部的按键和麦克风单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机顶部的按键和麦克风单元。"
+          }
+        },
+        {
+          "value": "耳机上的天线位置，图中蛇形走线为天线布局。",
+          "evidence": {
+            "value": "耳机上的天线位置，图中蛇形走线为天线布局。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机上的天线位置，图中蛇形走线为天线布局。"
+          }
+        },
+        {
+          "value": "疯米是一个互联网耳机品牌，W1 是疯米发售的一款真无线蓝牙耳机产品，支持蓝牙5.0，开盖自动连接，连接手机时还可以通过耳机唤醒语音助手，全触控设计，单次充电续航为4.5小时，配合充电盒，续航可达18小时。为了更加了解疯米W1，我爱音频网对疯米W1进行了深度拆解，让我们一起来看看。",
+          "evidence": {
+            "value": "疯米是一个互联网耳机品牌，W1 是疯米发售的一款真无线蓝牙耳机产品，支持蓝牙5.0，开盖自动连接，连接手机时还可以通过耳机唤醒语音助手，全触控设计，单次充电续航为4.5小时，配合充电盒，续航可达18小时。为了更加了解疯米W1，我爱音频网对疯米W1进行了深度拆解，让我们一起来看看。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "疯米是一个互联网耳机品牌，W1 是疯米发售的一款真无线蓝牙耳机产品，支持蓝牙5.0，开盖自动连接，连接手机时还可以通过耳机唤醒语音助手，全触控设计，单次充电续航为4.5小时，配合充电盒，续航可达18小时。为了更加了解疯米W1，我爱音频网对疯米W1进行了深度拆解，让我们一起来看看。"
+          }
+        },
+        {
+          "value": "左右耳机身后端有都有一个带F字母的按键，下方是LED指示灯",
+          "evidence": {
+            "value": "左右耳机身后端有都有一个带F字母的按键，下方是LED指示灯",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "左右耳机身后端有都有一个带F字母的按键，下方是LED指示灯"
+          }
+        }
+      ],
+      "fastener_type": [],
+      "sealing_method": [],
+      "wear_design": [
+        {
+          "value": "耳塞有防尘防护网。",
+          "evidence": {
+            "value": "耳塞有防尘防护网。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "耳塞有防尘防护网。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/08/疯米W1真无线耳机-1.jpg",
+          "alt": "拆解报告：疯米W1真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/08/疯米W1真无线耳机-2.jpg",
+          "alt": "拆解报告：疯米W1真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/08/疯米W1真无线耳机-3.jpg",
+          "alt": "拆解报告：疯米W1真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/08/疯米W1真无线耳机-4.jpg",
+          "alt": "拆解报告：疯米W1真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/08/疯米W1真无线耳机-5.jpg",
+          "alt": "拆解报告：疯米W1真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "电池下方有两块小磁铁，对放置在里面的耳机产生吸附力，不易掉落，耳机主板通过线路连接。主板上有一对2POP顶针，能给盒中带触点的耳机充电。",
+        "盒内主板正面一览。",
+        "拆开充电盒，肉眼可见一块比较大的电池。",
+        "下方的小孔为麦克风孔。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": null
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "充电盒下方标注有充电盒的型号和充电功率：最大5V 1A，还有通过的认证信息。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒下方标注有充电盒的型号和充电功率：最大5V 1A，还有通过的认证信息。"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.0",
+      "codecs": [],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [],
+      "ota_support": [
+        {
+          "value": "ETA9640延续并升级了”Power SOC“的概念，以一颗芯片，无需外围搭配MOSFET，DW01，肖特基等器件。",
+          "evidence": {
+            "value": "ETA9640延续并升级了”Power SOC“的概念，以一颗芯片，无需外围搭配MOSFET，DW01，肖特基等器件。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "ETA9640延续并升级了”Power SOC“的概念，以一颗芯片，无需外围搭配MOSFET，DW01，肖特基等器件。"
+          }
+        }
+      ],
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "5.0",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.0"
+      }
+    }
+  }
+}

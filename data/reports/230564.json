@@ -1,0 +1,646 @@
+{
+  "id": "230564",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/230564.html",
+  "title": "A90 PRO真无线耳机",
+  "brand": "",
+  "model": "A90 PRO",
+  "category": "真无线耳机TWS",
+  "published_at": "2025-03-07",
+  "author": "Wen5",
+  "summary": "TWS耳机因完全摒弃线材连接，为用户提供了自由便捷的使用体验，逐渐成为市场主流。在使用TWS耳机的过程中，不知 […]",
+  "captured_at": "2026-07-14T02:03:55+00:00",
+  "data_completeness": 0.66,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "A90 PRO",
+      "category": "真无线耳机TWS",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "盖板内侧结构一览，两端指示灯和麦克风开孔均有防尘网防护，还设置有导电布用于触摸控制。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "盖板内侧结构一览，两端指示灯和麦克风开孔均有防尘网防护，还设置有导电布用于触摸控制。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "盖板内侧结构一览，两端指示灯和麦克风开孔均有防尘网防护，还设置有导电布用于触摸控制。"
+          }
+        }
+      ],
+      "scenarios": [
+        "运动",
+        "通话"
+      ],
+      "positioning_summary": "盖板内侧结构一览，两端指示灯和麦克风开孔均有防尘网防护，还设置有导电布用于触摸控制。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "充电仓",
+        "电池",
+        "主板/PCBA",
+        "麦克风",
+        "喇叭单元"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5516",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5516",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，采用了INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，支持1-4颗LED或者5～6pin 188数码管电量显示，为充电盒提供完整的电源解决方案。"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5516",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5516",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，采用了INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，支持1-4颗LED或者5～6pin 188数码管电量显示，为充电盒提供完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3V/00mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3V/00mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内置YD亿等新能源300mAh锂电池供电，搭载了数字显示屏，用于反馈充电盒和耳机的剩余电量信息；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "搭载了一颗MEMS麦克风，用于语音通话功能拾音。"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "TWS耳机因完全摒弃线材连接，为用户提供了自由便捷的使用体验，逐渐成为市场主流。在使用TWS耳机的过程中，不知道您是否遇到过完全没电才知道充电的状态？虽然主流产品配有指示灯显示电量，但学习和记忆成本较高，通过手机APP查看又较为繁琐。因此，部分产品在充电盒上加入显示屏，更直观地反馈电量信息，优化了用户体验。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒背面展示有整机外观和参数信息。蓝牙版本：V5.3，通话时间：4H（总续航16H），音乐播放：6.5H（总续航26H），电源输入：DC 5V，频率响应：20~20000Hz，耳机电池容量：33mAh，充电盒电池容量：300mAh。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "座舱正面结构一览，设置有数显屏小板，与主板垂直焊接。座舱内部固定电池单元。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机柄下方的麦克风拾音孔特写。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "此次将要拆解的A90 PRO真无线耳机便是这样一款产品，其搭载了数字显示屏，支持充电盒和两只独立耳机的电量显示，同时依旧保持了轻巧便携的体积；耳机搭载了13mm大动圈单元，支持蓝牙5.3无线连接，提供清晰稳定的音质。续航方面，支持单次约6.5小时，综合约26小时的音乐播放。下面就来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "TWS耳机因完全摒弃线材连接，为用户提供了自由便捷的使用体验，逐渐成为市场主流。在使用TWS耳机的过程中，不知道您是否遇到过完全没电才知道充电的状态？虽然主流产品配有指示灯显示电量，但学习和记忆成本较高，通过手机APP查看又较为繁琐。因此，部分产品在充电盒上加入显示屏，更直观地反馈电量信息，优化了用户体验。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "拆开卡扣式固定的充电盒外壳，取出座舱结构。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机柄底部的充电触点特写。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5516",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5516",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "英集芯IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [
+        "包装盒内部物品有主机、耳塞、充电线和使用说明书。"
+      ],
+      "process_hints": [
+        {
+          "value": "座舱正面结构一览，设置有数显屏小板，与主板垂直焊接。",
+          "evidence": {
+            "value": "座舱正面结构一览，设置有数显屏小板，与主板垂直焊接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "座舱正面结构一览，设置有数显屏小板，与主板垂直焊接。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": "三、我爱音频网总结 A90 PRO真无线耳机在外观方面，圆角矩形充电盒设计小巧，整机重量仅40.8g，非常便携。柄状的入耳式耳机，采用烤漆质感，线条流畅圆润，具有着不错的质感；重量也仅3.8g，佩戴轻盈舒适。 内部主要配置方面，充电盒内置YD亿等新能源300mAh锂电池供电，搭载了数字显示屏，用于反馈充电盒和耳机的剩余电量信息；主板上，采用了INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，支持1-4颗LED或者5～6pin 188数码管电量显示，为充电盒提供完整的电源解决方案。 耳机内部搭载了13mm动圈喇叭，内置XD鑫30mAh软包锂电池。主板上，采用了JL杰理AD6973D蓝牙音频SoC，用于无线连接和音频数据处理；搭载了一颗MEMS麦克风，用于语音通话功能拾音。"
+    },
+    "structure": {
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
+      "materials": [
+        "硅胶"
+      ],
+      "ip_rating": null,
+      "weight_g": "40.8g",
+      "dimensions": [
+        "此次将要拆解的A90 PRO真无线耳机便是这样一款产品，其搭载了数字显示屏，支持充电盒和两只独立耳机的电量显示，同时依旧保持了轻巧便携的体积；耳机搭载了13mm大动圈单元，支持蓝牙5.3无线连接，提供清晰稳定的音质。",
+        "包装盒侧边展示有产品的功能特点：运动、13mm驱动单元、IP54防水、触摸控制。",
+        "随机附赠的两副硅胶耳塞，耳机上预装一副，总共三种尺寸，用于满足不同用户的使用需求。"
+      ],
+      "internal_structure": [
+        {
+          "value": "座舱正面结构一览，设置有数显屏小板，与主板垂直焊接。座舱内部固定电池单元。",
+          "evidence": {
+            "value": "座舱正面结构一览，设置有数显屏小板，与主板垂直焊接。座舱内部固定电池单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "座舱正面结构一览，设置有数显屏小板，与主板垂直焊接。座舱内部固定电池单元。"
+          }
+        },
+        {
+          "value": "座舱底部通过螺丝固定主板。",
+          "evidence": {
+            "value": "座舱底部通过螺丝固定主板。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "座舱底部通过螺丝固定主板。"
+          }
+        },
+        {
+          "value": "耳机柄下方的麦克风拾音孔特写。",
+          "evidence": {
+            "value": "耳机柄下方的麦克风拾音孔特写。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机柄下方的麦克风拾音孔特写。"
+          }
+        },
+        {
+          "value": "盖板内侧结构一览，两端指示灯和麦克风开孔均有防尘网防护，还设置有导电布用于触摸控制。",
+          "evidence": {
+            "value": "盖板内侧结构一览，两端指示灯和麦克风开孔均有防尘网防护，还设置有导电布用于触摸控制。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "盖板内侧结构一览，两端指示灯和麦克风开孔均有防尘网防护，还设置有导电布用于触摸控制。"
+          }
+        },
+        {
+          "value": "此次将要拆解的A90 PRO真无线耳机便是这样一款产品，其搭载了数字显示屏，支持充电盒和两只独立耳机的电量显示，同时依旧保持了轻巧便携的体积；耳机搭载了13mm大动圈单元，支持蓝牙5.3无线连接，提供清晰稳定的音质。续航方面，支持单次约6.5小时，综合约26小时的音乐播放。下面就来看看这款产品的详细拆解报告吧~",
+          "evidence": {
+            "value": "此次将要拆解的A90 PRO真无线耳机便是这样一款产品，其搭载了数字显示屏，支持充电盒和两只独立耳机的电量显示，同时依旧保持了轻巧便携的体积；耳机搭载了13mm大动圈单元，支持蓝牙5.3无线连接，提供清晰稳定的音质。续航方面，支持单次约6.5小时，综合约26小时的音乐播放。下面就来看看这款产品的详细拆解报告吧~",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "此次将要拆解的A90 PRO真无线耳机便是这样一款产品，其搭载了数字显示屏，支持充电盒和两只独立耳机的电量显示，同时依旧保持了轻巧便携的体积；耳机搭载了13mm大动圈单元，支持蓝牙5.3无线连接，提供清晰稳定的音质。续航方面，支持单次约6.5小时，综合约26小时的音乐播放。下面就来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "value": "取出前腔内部的扬声器单元。",
+          "evidence": {
+            "value": "取出前腔内部的扬声器单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "取出前腔内部的扬声器单元。"
+          }
+        },
+        {
+          "value": "拆开卡扣式固定的充电盒外壳，取出座舱结构。",
+          "evidence": {
+            "value": "拆开卡扣式固定的充电盒外壳，取出座舱结构。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "拆开卡扣式固定的充电盒外壳，取出座舱结构。"
+          }
+        },
+        {
+          "value": "取出后腔内部的电池单元。",
+          "evidence": {
+            "value": "取出后腔内部的电池单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "取出后腔内部的电池单元。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "二、\nA90 PRO真无线耳机拆解\n通过开箱，我们详细了解了A90 PRO真无线耳机的外观设计，下面进入拆解部分，看看内部结构及硬件配置信息~\n充电盒拆解\n拆开卡扣式固定的充电盒外壳，取出座舱结构。",
+          "evidence": {
+            "value": "二、\nA90 PRO真无线耳机拆解\n通过开箱，我们详细了解了A90 PRO真无线耳机的外观设计，下面进入拆解部分，看看内部结构及硬件配置信息~\n充电盒拆解\n拆开卡扣式固定的充电盒外壳，取出座舱结构。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "二、\nA90 PRO真无线耳机拆解\n通过开箱，我们详细了解了A90 PRO真无线耳机的外观设计，下面进入拆解部分，看看内部结构及硬件配置信息~\n充电盒拆解\n拆开卡扣式固定的充电盒外壳，取出座舱结构。"
+          }
+        },
+        {
+          "value": "座舱底部通过螺丝固定主板。",
+          "evidence": {
+            "value": "座舱底部通过螺丝固定主板。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "座舱底部通过螺丝固定主板。"
+          }
+        }
+      ],
+      "sealing_method": [
+        {
+          "value": "盖板内侧结构一览，两端指示灯和麦克风开孔均有防尘网防护，还设置有导电布用于触摸控制。",
+          "evidence": {
+            "value": "盖板内侧结构一览，两端指示灯和麦克风开孔均有防尘网防护，还设置有导电布用于触摸控制。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "盖板内侧结构一览，两端指示灯和麦克风开孔均有防尘网防护，还设置有导电布用于触摸控制。"
+          }
+        }
+      ],
+      "wear_design": [
+        {
+          "value": "包装盒内部物品有主机、耳塞、充电线和使用说明书。",
+          "evidence": {
+            "value": "包装盒内部物品有主机、耳塞、充电线和使用说明书。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "包装盒内部物品有主机、耳塞、充电线和使用说明书。"
+          }
+        },
+        {
+          "value": "随机附赠的两副硅胶耳塞，耳机上预装一副，总共三种尺寸，用于满足不同用户的使用需求。",
+          "evidence": {
+            "value": "随机附赠的两副硅胶耳塞，耳机上预装一副，总共三种尺寸，用于满足不同用户的使用需求。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "随机附赠的两副硅胶耳塞，耳机上预装一副，总共三种尺寸，用于满足不同用户的使用需求。"
+          }
+        },
+        {
+          "value": "打开充电盒盖，内部耳机磁吸固定，左右正序放置，取出无需调整即可佩戴。",
+          "evidence": {
+            "value": "打开充电盒盖，内部耳机磁吸固定，左右正序放置，取出无需调整即可佩戴。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "打开充电盒盖，内部耳机磁吸固定，左右正序放置，取出无需调整即可佩戴。"
+          }
+        },
+        {
+          "value": "取掉耳塞，耳机出音嘴特写，金属盖板防护。",
+          "evidence": {
+            "value": "取掉耳塞，耳机出音嘴特写，金属盖板防护。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "取掉耳塞，耳机出音嘴特写，金属盖板防护。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/03/2025030709304558.jpg",
+          "alt": "拆解报告：A90 PRO真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/03/2025030709305723.jpg",
+          "alt": "拆解报告：A90 PRO真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/03/2025030709304692.jpg",
+          "alt": "拆解报告：A90 PRO真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/03/2025030709305163.jpg",
+          "alt": "拆解报告：A90 PRO真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/03/2025030709304637.jpg",
+          "alt": "拆解报告：A90 PRO真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "座舱正面结构一览，设置有数显屏小板，与主板垂直焊接。座舱内部固定电池单元。",
+        "座舱底部通过螺丝固定主板。",
+        "耳机柄下方的麦克风拾音孔特写。",
+        "盖板内侧结构一览，两端指示灯和麦克风开孔均有防尘网防护，还设置有导电布用于触摸控制。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": {
+        "value": "40.8g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "我爱音频网实测，A90 PRO真无线耳机整机重量约为40.8g，非常轻巧"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "3.8g",
+      "weight_earbud_evidence": {
+        "value": "3.8g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "耳机整机重量约为40.8g，非常轻巧。\n单只耳机重量约为3.8g，佩戴轻盈"
+      }
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "充电盒充电线，采用了USB-A to Type-C接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒充电线，采用了USB-A to Type-C接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电盒底部设置Type-C充电接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒底部设置Type-C充电接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C充电母座特写。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充电母座特写。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "包装盒侧边展示有产品的功能特点：运动、13mm驱动单元、IP54防水、触摸控制。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "包装盒侧边展示有产品的功能特点：运动、13mm驱动单元、IP54防水、触摸控制。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "我爱音频网采用\nCHARGERLAB POWER-Z KM003C\n测试仪对A90 PRO真无线耳机进行充电测试，输入功率约为1.08W。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "我爱音频网采用\nCHARGERLAB POWER-Z KM003C\n测试仪对A90 PRO真无线耳机进行充电测试，输入功率约为1.08W。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "英集芯IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "英集芯IP5516支持300mA同步升压输出，500mA线性充电，输入电流可调并支持自适应调节，支持高压平台电池，内置ADC计算电池电量，支持1-4颗LED或者5～6pin 188数码管电量显示。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "INJOINIC英集芯IP5516详细资料图。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "INJOINIC英集芯IP5516详细资料图。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "充电盒内置锂电池型号：YD 701435，标称电压：3.7V，额定容量：300mAh 1.11Wh，来自YD亿等新能源。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒内置锂电池型号：YD 701435，标称电压：3.7V，额定容量：300mAh 1.11Wh，来自YD亿等新能源。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "耳机内置锂电池型号：XD 401013，标称电压：3.7V，额定容量：30mAh 0.111Wh，来自XD鑫电。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "耳机内置锂电池型号：XD 401013，标称电压：3.7V，额定容量：30mAh 0.111Wh，来自XD鑫电。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "内部主要配置方面，充电盒内置YD亿等新能源300mAh锂电池供电，搭载了数字显示屏，用于反馈充电盒和耳机的剩余电量信息；主板上，采用了INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，支持1-4颗LED或者5～6pin 188数码管电量显示，为充电盒提供完整的电源解决方案。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "内部主要配置方面，充电盒内置YD亿等新能源300mAh锂电池供电，搭载了数字显示屏，用于反馈充电盒和耳机的剩余电量信息；主板上，采用了INJOINIC英集芯IP5516充电盒管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、"
+        },
+        {
+          "param": "电池容量",
+          "value": "33",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "33mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.3",
+      "codecs": [],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [
+        {
+          "value": "虽然主流产品配有指示灯显示电量，但学习和记忆成本较高，通过手机APP查看又较为繁琐。",
+          "evidence": {
+            "value": "虽然主流产品配有指示灯显示电量，但学习和记忆成本较高，通过手机APP查看又较为繁琐。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "虽然主流产品配有指示灯显示电量，但学习和记忆成本较高，通过手机APP查看又较为繁琐。"
+          }
+        },
+        {
+          "value": "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+          "evidence": {
+            "value": "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+          }
+        }
+      ],
+      "ota_support": [],
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "5.3",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.3"
+      }
+    }
+  }
+}

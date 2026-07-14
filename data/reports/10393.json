@@ -1,0 +1,468 @@
+{
+  "id": "10393",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/10393.html",
+  "title": "疯米FUNCL AI TWS真无线蓝牙耳机",
+  "brand": "",
+  "model": "疯米FUNCL AI TWS",
+  "category": "真无线耳机TWS",
+  "published_at": "2018-11-15",
+  "author": "Vallière",
+  "summary": "耳机智能化是今天的主流发展方向，疯米科技近期顺应趋势推出一款疯米AI无线智慧耳机，可以通过语音助手给大家带来很 […]",
+  "captured_at": "2026-07-14T02:15:01+00:00",
+  "data_completeness": 0.646,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "疯米FUNCL AI TWS",
+      "category": "真无线耳机TWS",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "支持第八代CVC通话降噪，双耳主耳机和从耳机智能切换，内置锂电池充电器。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "支持第八代CVC通话降噪，双耳主耳机和从耳机智能切换，内置锂电池充电器。",
+            "confidence": 0.61,
+            "source_type": "text",
+            "source_text": "支持第八代CVC通话降噪，双耳主耳机和从耳机智能切换，内置锂电池充电器。"
+          }
+        },
+        {
+          "text": "总体上具有低延迟，低功耗，立体声通话的特点。",
+          "tag": "游戏低延迟",
+          "evidence": {
+            "value": "总体上具有低延迟，低功耗，立体声通话的特点。",
+            "confidence": 0.69,
+            "source_type": "text",
+            "source_text": "总体上具有低延迟，低功耗，立体声通话的特点。"
+          }
+        },
+        {
+          "text": "下方有两个麦克风，可用来语音通话和降噪。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "下方有两个麦克风，可用来语音通话和降噪。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "下方有两个麦克风，可用来语音通话和降噪。"
+          }
+        }
+      ],
+      "scenarios": [
+        "游戏",
+        "通话"
+      ],
+      "positioning_summary": "支持第八代CVC通话降噪，双耳主耳机和从耳机智能切换，内置锂电池充电器。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "充电仓",
+        "电池",
+        "喇叭单元",
+        "麦克风",
+        "天线",
+        "主板/PCBA"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm",
+          "model": "高通 QCC3026",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通 QCC3026",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "高通 QCC3026"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "打开充电盒，两只耳机采用“脸朝下”的方式平趴在里面。从外观上来看，充电盒采用耳机在上，电池在下的结构设计。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "打开充电盒，两只耳机采用“脸朝下”的方式平趴在里面。从外观上来看，充电盒采用耳机在上，电池在下的结构设计。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "根据官方给出的资料显示，疯米AI无线智慧耳机采用的是Qualcomm高通 QCC3026芯片和5.5mm 石墨烯振膜，搭配气压平衡腔体设计。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "下方有两个麦克风，可用来语音通话和降噪。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机背盖内有用于触摸按键和蓝牙天线的软排线。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机主板正面全貌，主芯片，晶振和两颗电感。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机背盖内有用于触摸按键和蓝牙天线的软排线。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "高通 QCC3026",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通 QCC3026",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "根据官方给出的资料显示，疯米AI无线智慧耳机采用的是Qualcomm高通 QCC3026芯片和5.5mm 石墨烯振膜，搭配气压平衡腔体设计。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [],
+      "process_hints": [
+        {
+          "value": "导线焊接到扬声器上。",
+          "evidence": {
+            "value": "导线焊接到扬声器上。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "导线焊接到扬声器上。"
+          }
+        },
+        {
+          "value": "导线焊接在电池的两极。",
+          "evidence": {
+            "value": "导线焊接在电池的两极。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "导线焊接在电池的两极。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": ""
+    },
+    "structure": {
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
+      "materials": [
+        "塑料"
+      ],
+      "ip_rating": null,
+      "weight_g": null,
+      "dimensions": [
+        "根据官方给出的资料显示，疯米AI无线智慧耳机采用的是Qualcomm高通 QCC3026芯片和5.5mm 石墨烯振膜，搭配气压平衡腔体设计。",
+        "据我爱音频网拆解，疯米耳机 Qualcomm高通 QCC3026 TWS真无线立体声蓝牙耳机方案，支持蓝牙V5.0，内置120MHz Kalimba DPS。",
+        "三、我爱音频网拆解总结：\n1、疯米FUNCL AI采用的是Qualcomm高通 QCC3026芯片 ，支持蓝牙 5.0、DSP 低音优化算法和 cVc 8.0 双耳通话降噪，并且延迟最低可达60ms，可以更加畅快地玩游戏；\n2、采用了5.5mm 石墨烯振膜，搭配气压平衡腔体设计，带来更加清晰的人声和有力度的低音；\n3、耳机背后使用更先进的滑动触控操作，能更好地使用AI智能语音功能的互动操作。"
+      ],
+      "internal_structure": [
+        {
+          "value": "打开充电盒，两只耳机采用“脸朝下”的方式平趴在里面。从外观上来看，充电盒采用耳机在上，电池在下的结构设计。",
+          "evidence": {
+            "value": "打开充电盒，两只耳机采用“脸朝下”的方式平趴在里面。从外观上来看，充电盒采用耳机在上，电池在下的结构设计。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "打开充电盒，两只耳机采用“脸朝下”的方式平趴在里面。从外观上来看，充电盒采用耳机在上，电池在下的结构设计。"
+          }
+        },
+        {
+          "value": "耳机与电池盒之间通过两个金属触点连接进行充电。",
+          "evidence": {
+            "value": "耳机与电池盒之间通过两个金属触点连接进行充电。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机与电池盒之间通过两个金属触点连接进行充电。"
+          }
+        },
+        {
+          "value": "根据官方给出的资料显示，疯米AI无线智慧耳机采用的是Qualcomm高通 QCC3026芯片和5.5mm 石墨烯振膜，搭配气压平衡腔体设计。",
+          "evidence": {
+            "value": "根据官方给出的资料显示，疯米AI无线智慧耳机采用的是Qualcomm高通 QCC3026芯片和5.5mm 石墨烯振膜，搭配气压平衡腔体设计。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "根据官方给出的资料显示，疯米AI无线智慧耳机采用的是Qualcomm高通 QCC3026芯片和5.5mm 石墨烯振膜，搭配气压平衡腔体设计。"
+          }
+        },
+        {
+          "value": "下方有两个麦克风，可用来语音通话和降噪。",
+          "evidence": {
+            "value": "下方有两个麦克风，可用来语音通话和降噪。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "下方有两个麦克风，可用来语音通话和降噪。"
+          }
+        },
+        {
+          "value": "耳机背盖内有用于触摸按键和蓝牙天线的软排线。",
+          "evidence": {
+            "value": "耳机背盖内有用于触摸按键和蓝牙天线的软排线。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机背盖内有用于触摸按键和蓝牙天线的软排线。"
+          }
+        },
+        {
+          "value": "耳机主板正面全貌，主芯片，晶振和两颗电感。",
+          "evidence": {
+            "value": "耳机主板正面全貌，主芯片，晶振和两颗电感。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机主板正面全貌，主芯片，晶振和两颗电感。"
+          }
+        },
+        {
+          "value": "下面我爱音频网来对它进行拆解，看看它是如何设计内部电路和结构的。",
+          "evidence": {
+            "value": "下面我爱音频网来对它进行拆解，看看它是如何设计内部电路和结构的。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "下面我爱音频网来对它进行拆解，看看它是如何设计内部电路和结构的。"
+          }
+        },
+        {
+          "value": "从外观上来看，充电盒采用耳机在上，电池在下的结构设计。",
+          "evidence": {
+            "value": "从外观上来看，充电盒采用耳机在上，电池在下的结构设计。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "从外观上来看，充电盒采用耳机在上，电池在下的结构设计。"
+          }
+        }
+      ],
+      "fastener_type": [],
+      "sealing_method": [],
+      "wear_design": [
+        {
+          "value": "除疯米无线智慧耳机外，还有额外的三对耳塞套，以及一根Micro-USB充电线。",
+          "evidence": {
+            "value": "除疯米无线智慧耳机外，还有额外的三对耳塞套，以及一根Micro-USB充电线。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "除疯米无线智慧耳机外，还有额外的三对耳塞套，以及一根Micro-USB充电线。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/10/1-9.jpg",
+          "alt": "拆解报告：疯米FUNCL AI TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/11/1-11.jpg",
+          "alt": "拆解报告：疯米FUNCL AI TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/11/2-10.jpg",
+          "alt": "拆解报告：疯米FUNCL AI TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/11/3-9.jpg",
+          "alt": "拆解报告：疯米FUNCL AI TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/11/4-10.jpg",
+          "alt": "拆解报告：疯米FUNCL AI TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "打开充电盒，两只耳机采用“脸朝下”的方式平趴在里面。从外观上来看，充电盒采用耳机在上，电池在下的结构设计。",
+        "耳机与电池盒之间通过两个金属触点连接进行充电。",
+        "根据官方给出的资料显示，疯米AI无线智慧耳机采用的是Qualcomm高通 QCC3026芯片和5.5mm 石墨烯振膜，搭配气压平衡腔体设计。",
+        "下方有两个麦克风，可用来语音通话和降噪。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": null
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "耳机充电盒的另一面，有一个Micro USB充电接口和电感。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "耳机充电盒的另一面，有一个Micro USB充电接口和电感。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Micro USB",
+          "unit": "",
+          "brand": "",
+          "model": "Micro USB",
+          "confidence": 0.8,
+          "source_ref": "Micro USB"
+        },
+        {
+          "param": "电池容量",
+          "value": "360",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "360mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.0",
+      "codecs": [
+        {
+          "value": "AAC",
+          "evidence": {
+            "value": "AAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "连接方面，支持SBC、AAC、aptX和aptX HD连接。"
+          }
+        },
+        {
+          "value": "aptX",
+          "evidence": {
+            "value": "aptX",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "连接方面，支持SBC、AAC、aptX和aptX HD连接。"
+          }
+        },
+        {
+          "value": "SBC",
+          "evidence": {
+            "value": "SBC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "连接方面，支持SBC、AAC、aptX和aptX HD连接。"
+          }
+        }
+      ],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [],
+      "ota_support": [],
+      "latency_notes": [
+        {
+          "value": "总体上具有低延迟，低功耗，立体声通话的特点。",
+          "evidence": {
+            "value": "总体上具有低延迟，低功耗，立体声通话的特点。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "总体上具有低延迟，低功耗，立体声通话的特点。"
+          }
+        },
+        {
+          "value": "三、我爱音频网拆解总结：\n1、疯米FUNCL AI采用的是Qualcomm高通 QCC3026芯片 ，支持蓝牙 5.0、DSP 低音优化算法和 cVc 8.0 双耳通话降噪，并且延迟最低可达60ms，可以更加畅快地玩游戏；\n2、采用了5.5mm 石墨烯振膜，搭配气压平衡腔体设计，带来更加清晰的人声和有力度的低音；\n3、耳机背后使用更先进的滑动触控操作，能更好地使用AI智能语音功能的互动操作。",
+          "evidence": {
+            "value": "三、我爱音频网拆解总结：\n1、疯米FUNCL AI采用的是Qualcomm高通 QCC3026芯片 ，支持蓝牙 5.0、DSP 低音优化算法和 cVc 8.0 双耳通话降噪，并且延迟最低可达60ms，可以更加畅快地玩游戏；\n2、采用了5.5mm 石墨烯振膜，搭配气压平衡腔体设计，带来更加清晰的人声和有力度的低音；\n3、耳机背后使用更先进的滑动触控操作，能更好地使用AI智能语音功能的互动操作。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "三、我爱音频网拆解总结：\n1、疯米FUNCL AI采用的是Qualcomm高通 QCC3026芯片 ，支持蓝牙 5.0、DSP 低音优化算法和 cVc 8.0 双耳通话降噪，并且延迟最低可达60ms，可以更加畅快地玩游戏；\n2、采用了5.5mm 石墨烯振膜，搭配气压平衡腔体设计，带来更加清晰的人声和有力度的低音；\n3、耳机背后使用更先进的滑动触控操作，能更好地使用AI智能语音功能的互动操作。"
+          }
+        }
+      ],
+      "bluetooth_evidence": {
+        "value": "5.0",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙 5.0"
+      }
+    }
+  }
+}

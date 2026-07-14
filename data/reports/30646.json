@@ -1,0 +1,569 @@
+{
+  "id": "30646",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/30646.html",
+  "title": "山寨版苹果AirPods Pro",
+  "brand": "",
+  "model": "山寨版苹果AirPods Pro",
+  "category": "真无线耳机TWS",
+  "published_at": "2019-11-07",
+  "author": "xeC",
+  "summary": "10月29日凌晨，苹果悄然发布了自家第3代真无线耳机AirPods Pro，其搭载了主动降噪功能，还支持IPX […]",
+  "captured_at": "2026-07-14T02:14:14+00:00",
+  "data_completeness": 0.662,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "山寨版苹果AirPods Pro",
+      "category": "真无线耳机TWS",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "10月29日凌晨，苹果悄然发布了自家第3代真无线耳机AirPods Pro，其搭载了主动降噪功能，还支持IPX4级别防水，普通模式下聆听续航与上一代一致，降噪模式及透明模式下聆听续航也只减少半小时。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "10月29日凌晨，苹果悄然发布了自家第3代真无线耳机AirPods Pro，其搭载了主动降噪功能，还支持IPX4级别防水，普通模式下聆听续航与上一代一致，降噪模式及透明模式下聆听续航也只减少半小时。",
+            "confidence": 0.6,
+            "source_type": "text",
+            "source_text": "10月29日凌晨，苹果悄然发布了自家第3代真无线耳机AirPods Pro，其搭载了主动降噪功能，还支持IPX4级别防水，普通模式下聆听续航与上一代一致，降噪模式及透明模式下聆听续航也只减少半小时。"
+          }
+        },
+        {
+          "text": "我爱音频网小编已经将iPhone 11升级到了iOS13.2，翻盖后，成功配对。",
+          "tag": "其他",
+          "evidence": {
+            "value": "我爱音频网小编已经将iPhone 11升级到了iOS13.2，翻盖后，成功配对。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "我爱音频网小编已经将iPhone 11升级到了iOS13.2，翻盖后，成功配对。"
+          }
+        },
+        {
+          "text": "耳机防尘网特写。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "耳机防尘网特写。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "耳机防尘网特写。"
+          }
+        },
+        {
+          "text": "找到无损拆解的突破口，电池盒的上盖撬开后，里面可见磁铁、合页。",
+          "tag": "其他",
+          "evidence": {
+            "value": "找到无损拆解的突破口，电池盒的上盖撬开后，里面可见磁铁、合页。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "找到无损拆解的突破口，电池盒的上盖撬开后，里面可见磁铁、合页。"
+          }
+        }
+      ],
+      "scenarios": [],
+      "positioning_summary": "10月29日凌晨，苹果悄然发布了自家第3代真无线耳机AirPods Pro，其搭载了主动降噪功能，还支持IPX4级别防水，普通模式下聆听续航与上一代一致，降噪模式及透明模式下聆听续航也只减少半小时。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "电池",
+        "主板/PCBA",
+        "充电仓",
+        "降噪系统",
+        "天线",
+        "喇叭单元"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm",
+          "model": "高通QCC",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通QCC",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "高通QCC"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "我们面前这台山寨版苹果AirPods Pro的拆解，先从充电盒开始。找到无损拆解的突破口，电池盒的上盖撬开后，里面可见磁铁、合页。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "取下麦拉胶带后的电路板。"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "把耳机从充电盒中取出耳机，外观还是有模有样，不仔细对比，还以为是真的。"
+          }
+        },
+        {
+          "component": "降噪系统",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "降噪系统",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "10月29日凌晨，苹果悄然发布了自家第3代真无线耳机AirPods Pro，其搭载了主动降噪功能，还支持IPX4级别防水，普通模式下聆听续航与上一代一致，降噪模式及透明模式下聆听续航也只减少半小时。我爱音频网从供应链获悉，距离AirPods Pro正式上市一周不到，华强北已经成功攻克苹果AirPods Pro，开发出一比一高仿，山寨版开始出货。售价方面，我爱音频网采购的这台花费了260元，仅原装正品的七分之一。前两代的AirPods、AirPods二代，华强北稍微晚苹果发布的节奏，到了AirPods Pro山寨版，这个时间被大大缩短。大家都很好奇华强北的工程师是如何做到的，内部用了哪些方案，与原装有哪些不同？下面跟随我爱音频网的节奏，一起了解山寨版苹果AirPods Pro。如想查询正版苹果AirPods Pro拆解报告，可以点击这里。上一篇我们还做了一个48张图教你辨别真假AirPods Pro的教程，有助于延伸阅读。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "正面是一颗TWS蓝牙耳机主控芯片，芯片表面已经被打磨，看不出品牌信息。右边有一个陶瓷天线。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "撬开耳机喇叭上盖，露出振膜。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "这面非常光滑，有一个LED指示灯孔位。原装的是镭射掏孔，这里则是直接留一个洞，粗暴。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "背面合页、配对按钮。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "高通QCC",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通QCC",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "我爱音频网总结\n分析完山寨版苹果AirPods Pro全套电路，我们没有看到传说中的高通QCC方案，更没有体验到降噪，还没有红外线入耳检测，所谓黑色的部分只是装饰，这个只能算得上是换壳版的山寨AirPods，还不能称之为Pro。"
+          }
+        }
+      ],
+      "supply_hints": [
+        {
+          "value": "我爱音频网从供应链获悉，距离AirPods Pro正式上市一周不到，华强北已经成功攻克苹果AirPods Pro，开发出一比一高仿，山寨版开始出货。",
+          "evidence": {
+            "value": "我爱音频网从供应链获悉，距离AirPods Pro正式上市一周不到，华强北已经成功攻克苹果AirPods Pro，开发出一比一高仿，山寨版开始出货。",
+            "confidence": 0.6,
+            "source_type": "text",
+            "source_text": "我爱音频网从供应链获悉，距离AirPods Pro正式上市一周不到，华强北已经成功攻克苹果AirPods Pro，开发出一比一高仿，山寨版开始出货。"
+          }
+        },
+        {
+          "value": "售价方面，我爱音频网采购的这台花费了260元，仅原装正品的七分之一。",
+          "evidence": {
+            "value": "售价方面，我爱音频网采购的这台花费了260元，仅原装正品的七分之一。",
+            "confidence": 0.6,
+            "source_type": "text",
+            "source_text": "售价方面，我爱音频网采购的这台花费了260元，仅原装正品的七分之一。"
+          }
+        }
+      ],
+      "packaging_notes": [],
+      "process_hints": [
+        {
+          "value": "合页看似金属材质，细看有注塑口和毛刺，这个是在塑料表面做了喷涂工艺，起到了视觉上的金属效果。",
+          "evidence": {
+            "value": "合页看似金属材质，细看有注塑口和毛刺，这个是在塑料表面做了喷涂工艺，起到了视觉上的金属效果。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "合页看似金属材质，细看有注塑口和毛刺，这个是在塑料表面做了喷涂工艺，起到了视觉上的金属效果。"
+          }
+        },
+        {
+          "value": "电池上的保护板，极耳过镍焊接。",
+          "evidence": {
+            "value": "电池上的保护板，极耳过镍焊接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "电池上的保护板，极耳过镍焊接。"
+          }
+        },
+        {
+          "value": "从耳机充电口处取出电路板，充电接口直接焊接在电路板上。",
+          "evidence": {
+            "value": "从耳机充电口处取出电路板，充电接口直接焊接在电路板上。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "从耳机充电口处取出电路板，充电接口直接焊接在电路板上。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": ""
+    },
+    "structure": {
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
+      "materials": [
+        "硅胶",
+        "塑料",
+        "PC"
+      ],
+      "ip_rating": "IPX4",
+      "weight_g": "50.2克",
+      "dimensions": [
+        "耳机喇叭直径为8.13mm。",
+        "耳机扩音孔直径为4.87mm。"
+      ],
+      "internal_structure": [
+        {
+          "value": "我们面前这台山寨版苹果AirPods Pro的拆解，先从充电盒开始。找到无损拆解的突破口，电池盒的上盖撬开后，里面可见磁铁、合页。",
+          "evidence": {
+            "value": "我们面前这台山寨版苹果AirPods Pro的拆解，先从充电盒开始。找到无损拆解的突破口，电池盒的上盖撬开后，里面可见磁铁、合页。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "我们面前这台山寨版苹果AirPods Pro的拆解，先从充电盒开始。找到无损拆解的突破口，电池盒的上盖撬开后，里面可见磁铁、合页。"
+          }
+        },
+        {
+          "value": "下面开始拆充电盒下半部分，这里面有电池、电源板、无线充模块等。这里四周靠扣位固定，把撬棒伸下去，稍微用力撬开。",
+          "evidence": {
+            "value": "下面开始拆充电盒下半部分，这里面有电池、电源板、无线充模块等。这里四周靠扣位固定，把撬棒伸下去，稍微用力撬开。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "下面开始拆充电盒下半部分，这里面有电池、电源板、无线充模块等。这里四周靠扣位固定，把撬棒伸下去，稍微用力撬开。"
+          }
+        },
+        {
+          "value": "取下麦拉胶带后的电路板。",
+          "evidence": {
+            "value": "取下麦拉胶带后的电路板。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "取下麦拉胶带后的电路板。"
+          }
+        },
+        {
+          "value": "底部的电路板上面有充电芯片、无线充芯片、Lightning母座接口等。",
+          "evidence": {
+            "value": "底部的电路板上面有充电芯片、无线充芯片、Lightning母座接口等。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "底部的电路板上面有充电芯片、无线充芯片、Lightning母座接口等。"
+          }
+        },
+        {
+          "value": "10月29日凌晨，苹果悄然发布了自家第3代真无线耳机AirPods Pro，其搭载了主动降噪功能，还支持IPX4级别防水，普通模式下聆听续航与上一代一致，降噪模式及透明模式下聆听续航也只减少半小时。我爱音频网从供应链获悉，距离AirPods Pro正式上市一周不到，华强北已经成功攻克苹果AirPods Pro，开发出一比一高仿，山寨版开始出货。售价方面，我爱音频网采购的这台花费了260元，仅原装正品的七分之一。前两代的AirPods、AirPods二代，华强北稍微晚苹果发布的节奏，到了AirPods Pro山寨版，这个时间被大大缩短。大家都很好奇华强北的工程师是如何做到的，内部用了哪些方案，与原装有哪些不同？下面跟随我爱音频网的节奏，一起了解山寨版苹果AirPods Pro。如想查询正版苹果AirPods Pro拆解报告，可以点击这里。上一篇我们还做了一个48张图教你辨别真假AirPods Pro的教程，有助于延伸阅读。",
+          "evidence": {
+            "value": "10月29日凌晨，苹果悄然发布了自家第3代真无线耳机AirPods Pro，其搭载了主动降噪功能，还支持IPX4级别防水，普通模式下聆听续航与上一代一致，降噪模式及透明模式下聆听续航也只减少半小时。我爱音频网从供应链获悉，距离AirPods Pro正式上市一周不到，华强北已经成功攻克苹果AirPods Pro，开发出一比一高仿，山寨版开始出货。售价方面，我爱音频网采购的这台花费了260元，仅原装正品的七分之一。前两代的AirPods、AirPods二代，华强北稍微晚苹果发布的节奏，到了AirPods Pro山寨版，这个时间被大大缩短。大家都很好奇华强北的工程师是如何做到的，内部用了哪些方案，与原装有哪些不同？下面跟随我爱音频网的节奏，一起了解山寨版苹果AirPods Pro。如想查询正版苹果AirPods Pro拆解报告，可以点击这里。上一篇我们还做了一个48张图教你辨别真假AirPods Pro的教程，有助于延伸阅读。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "10月29日凌晨，苹果悄然发布了自家第3代真无线耳机AirPods Pro，其搭载了主动降噪功能，还支持IPX4级别防水，普通模式下聆听续航与上一代一致，降噪模式及透明模式下聆听续航也只减少半小时。我爱音频网从供应链获悉，距离AirPods Pro正式上市一周不到，华强北已经成功攻克苹果AirPods Pro，开发出一比一高仿，山寨版开始出货。售价方面，我爱音频网采购的这台花费了260元，仅原装正品的七分之一。前两代的AirPods、AirPods二代，华强北稍微晚苹果发布的节奏，到了AirPods Pro山寨版，这个时间被大大缩短。大家都很好奇华强北的工程师是如何做到的，内部用了哪些方案，与原装有哪些不同？下面跟随我爱音频网的节奏，一起了解山寨版苹果AirPods Pro。如想查询正版苹果AirPods Pro拆解报告，可以点击这里。上一篇我们还做了一个48张图教你辨别真假AirPods Pro的教程，有助于延伸阅读。"
+          }
+        },
+        {
+          "value": "正面是一颗TWS蓝牙耳机主控芯片，芯片表面已经被打磨，看不出品牌信息。右边有一个陶瓷天线。",
+          "evidence": {
+            "value": "正面是一颗TWS蓝牙耳机主控芯片，芯片表面已经被打磨，看不出品牌信息。右边有一个陶瓷天线。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "正面是一颗TWS蓝牙耳机主控芯片，芯片表面已经被打磨，看不出品牌信息。右边有一个陶瓷天线。"
+          }
+        },
+        {
+          "value": "撬开耳机喇叭上盖，露出振膜。",
+          "evidence": {
+            "value": "撬开耳机喇叭上盖，露出振膜。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "撬开耳机喇叭上盖，露出振膜。"
+          }
+        },
+        {
+          "value": "背面合页、配对按钮。",
+          "evidence": {
+            "value": "背面合页、配对按钮。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "背面合页、配对按钮。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "喇叭通过胶水固定到了耳机孔。",
+          "evidence": {
+            "value": "喇叭通过胶水固定到了耳机孔。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "喇叭通过胶水固定到了耳机孔。"
+          }
+        }
+      ],
+      "sealing_method": [
+        {
+          "value": "10月29日凌晨，苹果悄然发布了自家第3代真无线耳机AirPods Pro，其搭载了主动降噪功能，还支持IPX4级别防水，普通模式下聆听续航与上一代一致，降噪模式及透明模式下聆听续航也只减少半小时。",
+          "evidence": {
+            "value": "10月29日凌晨，苹果悄然发布了自家第3代真无线耳机AirPods Pro，其搭载了主动降噪功能，还支持IPX4级别防水，普通模式下聆听续航与上一代一致，降噪模式及透明模式下聆听续航也只减少半小时。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "10月29日凌晨，苹果悄然发布了自家第3代真无线耳机AirPods Pro，其搭载了主动降噪功能，还支持IPX4级别防水，普通模式下聆听续航与上一代一致，降噪模式及透明模式下聆听续航也只减少半小时。"
+          }
+        },
+        {
+          "value": "耳机防尘网特写。",
+          "evidence": {
+            "value": "耳机防尘网特写。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "耳机防尘网特写。"
+          }
+        }
+      ],
+      "wear_design": [],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/11/1-2.jpg",
+          "alt": "拆解报告：山寨版苹果AirPods Pro-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/11/2-2.jpg",
+          "alt": "拆解报告：山寨版苹果AirPods Pro-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/11/3.jpg",
+          "alt": "拆解报告：山寨版苹果AirPods Pro-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/11/4-1.jpg",
+          "alt": "拆解报告：山寨版苹果AirPods Pro-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/11/5-2.jpg",
+          "alt": "拆解报告：山寨版苹果AirPods Pro-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "我们面前这台山寨版苹果AirPods Pro的拆解，先从充电盒开始。找到无损拆解的突破口，电池盒的上盖撬开后，里面可见磁铁、合页。",
+        "下面开始拆充电盒下半部分，这里面有电池、电源板、无线充模块等。这里四周靠扣位固定，把撬棒伸下去，稍微用力撬开。",
+        "取下麦拉胶带后的电路板。",
+        "底部的电路板上面有充电芯片、无线充芯片、Lightning母座接口等。"
+      ],
+      "ip_rating_evidence": {
+        "value": "IPX4",
+        "confidence": 0.8,
+        "source_type": "text",
+        "source_text": "IPX4"
+      },
+      "weight_evidence": {
+        "value": "50.2克",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "50.2克"
+      }
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电方式",
+          "value": "跑道形状的是无线充接收线圈，这里采用Qi标准，可以跟手机的无线充电板配套使用，放置在无线充电板上即可实现和正品一样的无线充电。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "跑道形状的是无线充接收线圈，这里采用Qi标准，可以跟手机的无线充电板配套使用，放置在无线充电板上即可实现和正品一样的无线充电。"
+        },
+        {
+          "param": "充电接口",
+          "value": "底部是Lightning母座，用于充电。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "底部是Lightning母座，用于充电。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电接口特写。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电接口特写。"
+        },
+        {
+          "param": "充电接口",
+          "value": "底部的电路板上面有充电芯片、无线充芯片、Lightning母座接口等。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "底部的电路板上面有充电芯片、无线充芯片、Lightning母座接口等。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Lightning充电母座特写，外面有一圈双面胶与壳体固定。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Lightning充电母座特写，外面有一圈双面胶与壳体固定。"
+        },
+        {
+          "param": "充电接口",
+          "value": "从耳机充电口处取出电路板，充电接口直接焊接在电路板上。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "从耳机充电口处取出电路板，充电接口直接焊接在电路板上。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Lightning",
+          "unit": "",
+          "brand": "",
+          "model": "Lightning",
+          "confidence": 0.8,
+          "source_ref": "Lightning"
+        },
+        {
+          "param": "标记/认证",
+          "value": "10月29日凌晨，苹果悄然发布了自家第3代真无线耳机AirPods Pro，其搭载了主动降噪功能，还支持IPX4级别防水，普通模式下聆听续航与上一代一致，降噪模式及透明模式下聆听续航也只减少半小时。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "10月29日凌晨，苹果悄然发布了自家第3代真无线耳机AirPods Pro，其搭载了主动降噪功能，还支持IPX4级别防水，普通模式下聆听续航与上一代一致，降噪模式及透明模式下聆听续航也只减少半小时。"
+        },
+        {
+          "param": "电池容量",
+          "value": "220",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "220mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": null,
+      "codecs": [],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [
+        {
+          "value": "如果你真的很喜欢AirPods Pro，可以去苹果Apple Store试听感受一下。",
+          "evidence": {
+            "value": "如果你真的很喜欢AirPods Pro，可以去苹果Apple Store试听感受一下。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "如果你真的很喜欢AirPods Pro，可以去苹果Apple Store试听感受一下。"
+          }
+        }
+      ],
+      "ota_support": [
+        {
+          "value": "我爱音频网小编已经将iPhone 11升级到了iOS13.2，翻盖后，成功配对。",
+          "evidence": {
+            "value": "我爱音频网小编已经将iPhone 11升级到了iOS13.2，翻盖后，成功配对。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "我爱音频网小编已经将iPhone 11升级到了iOS13.2，翻盖后，成功配对。"
+          }
+        }
+      ],
+      "latency_notes": [],
+      "bluetooth_evidence": null
+    }
+  }
+}

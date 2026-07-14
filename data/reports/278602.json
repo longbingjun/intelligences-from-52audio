@@ -380,15 +380,15 @@
         {
           "component": "芯片/模组",
           "brand": "",
-          "model": "英集芯IP5513V",
+          "model": "IP5513V",
           "qty_hint": "1",
           "side": "",
           "role": "主控/蓝牙",
           "evidence": {
-            "value": "英集芯IP5513V",
+            "value": "IP5513V",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "英集芯IP5513V内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%。"
+            "source_text": "IP5513V的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
           }
         },
         {
@@ -659,9 +659,18 @@
       "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "45.6g",
-        "confidence": 0.75,
+        "confidence": 0.85,
         "source_type": "text",
-        "source_text": "45.6g"
+        "source_text": "Soundcore声阔C50i开放式耳机整机重量约为45.6g，轻巧便携"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "5.7g",
+      "weight_earbud_evidence": {
+        "value": "5.7g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "耳机整机重量约为45.6g，轻巧便携。\n单只耳机重量约为5.7g。\n我爱音"
       }
     },
     "hardware": {
@@ -939,6 +948,6 @@
       }
     }
   },
-  "data_completeness": 0.806,
+  "data_completeness": 0.808,
   "source_layer": "technical"
 }

@@ -1,0 +1,822 @@
+{
+  "id": "204227",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/204227.html",
+  "title": "EDIFIER漫步者Lolli Pro 3真无线降噪耳机",
+  "brand": "EDIFIER漫步者",
+  "model": "Lolli Pro 3",
+  "category": "真无线耳机TWS",
+  "published_at": "2024-06-28",
+  "author": "Wen5",
+  "summary": "EDIFIER漫步者作为知名音频品牌，旗下拥有非常丰富的产品线。在个人音频领域，产品涵盖了各种类型耳机、桌面音 […]",
+  "captured_at": "2026-07-14T02:05:14+00:00",
+  "data_completeness": 0.848,
+  "views": {
+    "market": {
+      "brand": "EDIFIER漫步者",
+      "model": "Lolli Pro 3",
+      "category": "真无线耳机TWS",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "近期，Lolli系列迎来了更新，新一代支持主动降噪的Lolli Pro 3正式发布，降噪、音质再次升级，同时新增了空间音效，提供更具沉浸感的无线音频。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "近期，Lolli系列迎来了更新，新一代支持主动降噪的Lolli Pro 3正式发布，降噪、音质再次升级，同时新增了空间音效，提供更具沉浸感的无线音频。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "近期，Lolli系列迎来了更新，新一代支持主动降噪的Lolli Pro 3正式发布，降噪、音质再次升级，同时新增了空间音效，提供更具沉浸感的无线音频。"
+          }
+        },
+        {
+          "text": "在主动降噪上，支持深度、舒适、环境声监听、抗风噪多种模式，最大降噪深度-45dB，降噪频宽提升了67%，带来更优的降噪效果，保障清晰地语音通话。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "在主动降噪上，支持深度、舒适、环境声监听、抗风噪多种模式，最大降噪深度-45dB，降噪频宽提升了67%，带来更优的降噪效果，保障清晰地语音通话。",
+            "confidence": 0.6,
+            "source_type": "text",
+            "source_text": "在主动降噪上，支持深度、舒适、环境声监听、抗风噪多种模式，最大降噪深度-45dB，降噪频宽提升了67%，带来更优的降噪效果，保障清晰地语音通话。"
+          }
+        }
+      ],
+      "scenarios": [
+        "游戏",
+        "通话"
+      ],
+      "positioning_summary": "近期，Lolli系列迎来了更新，新一代支持主动降噪的Lolli Pro 3正式发布，降噪、音质再次升级，同时新增了空间音效，提供更具沉浸感的无线音频。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "充电仓",
+        "电池",
+        "主板/PCBA",
+        "麦克风",
+        "降噪系统",
+        "天线",
+        "喇叭单元"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "BES恒玄科技",
+          "model": "恒玄BES2600Z",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "恒玄BES2600Z",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机主控芯片为BES恒玄BES2600Z蓝牙音频SoC，搭配内置的3颗MEMS麦克风，提供卓越的主动降噪和通话降噪效果；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA4030",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA4030",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "ETA4030"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "BES恒玄科技",
+          "model": "恒玄BES2600Z",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "恒玄BES2600Z",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机主控芯片为BES恒玄BES2600Z蓝牙音频SoC，搭配内置的3颗MEMS麦克风，提供卓越的主动降噪和通话降噪效果；"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "动圈单元",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "动圈单元",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "搭载同轴双动圈单元，分别负责中低频和高频，搭配高清音频传输格式，带来优质的音频体验；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机主控芯片为BES恒玄BES2600Z蓝牙音频SoC，搭配内置的3颗MEMS麦克风，提供卓越的主动降噪和通话降噪效果；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "4V/60mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "4V/60mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内部搭载了460mAh锂离子电池，配备有电路保护板负责过充电、过放电、过电流等保护。"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "漫步者Lolli Pro 3在无线连接方面，支持蓝牙5.3，支持0.08s低延迟游戏模式，支持设备双连接，提供更稳定、更快速、更便捷的无线体验；还支持佩戴检测、IP54级防尘防水等，通过手机App可进行多功能预设，查找耳机。续航方面，耳机单次可播放约6小时，搭配充电盒综合续航26小时；支持闪电快充，快速恢复电量。下面就来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "座舱背面固定电池单元。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "座舱底部通过螺丝固定主板单元，两侧的电池导线和排线与主板焊接。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "前馈降噪麦克风拾音孔特写，金属盖板防护，设置在了耳机柄侧背部，能够有效降低风噪影响。"
+          }
+        },
+        {
+          "component": "降噪系统",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "降噪系统",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "EDIFIER漫步者作为知名音频品牌，旗下拥有非常丰富的产品线。在个人音频领域，产品涵盖了各种类型耳机、桌面音箱、便携式音箱等，Lolli系列便是其中非常畅销的TWS耳机产品之一。近期，Lolli系列迎来了更新，新一代支持主动降噪的Lolli Pro 3正式发布，降噪、音质再次升级，同时新增了空间音效，提供更具沉浸感的无线音频。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "腔体底部结构一览，还贴有蓝牙天线和触摸检测的贴片。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "10mm复合中低频单元正面振膜特写。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "机身侧边外观一览，充电盒盖采用了倾斜设计，机身上设置有蓝牙配对按键。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "拆开充电盒外壳，取出座舱结构。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "漫步者Lolli Pro 3充电盒延续了系列圆角方形设计，烤漆质感，正面设置有指示灯用于反馈蓝牙配对和充电状态。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机柄底部的通话麦克风拾音孔特写，两侧是充电触点。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA4030",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA4030",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "丝印VmCT的eta钰泰ETA4030充电IC，是一款单电池、完全集成的恒流（CC）/恒压（CV）锂离子电池充电器，紧凑的封装和最低的外部组件要求使其成为便携式应用的理想选择。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [
+        "包装盒内部物品有主机、充电线、耳塞和产品使用说明书。"
+      ],
+      "process_hints": [
+        {
+          "value": "座舱底部通过螺丝固定主板单元，两侧的电池导线和排线与主板焊接。",
+          "evidence": {
+            "value": "座舱底部通过螺丝固定主板单元，两侧的电池导线和排线与主板焊接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "座舱底部通过螺丝固定主板单元，两侧的电池导线和排线与主板焊接。"
+          }
+        },
+        {
+          "value": "为耳机充电的小板另外一侧电路一览，与排线焊接。",
+          "evidence": {
+            "value": "为耳机充电的小板另外一侧电路一览，与排线焊接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "为耳机充电的小板另外一侧电路一览，与排线焊接。"
+          }
+        },
+        {
+          "value": "电池背部FPC版电路一览，焊接同轴双单元导线，焊点圆润饱满。",
+          "evidence": {
+            "value": "电池背部FPC版电路一览，焊接同轴双单元导线，焊点圆润饱满。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "电池背部FPC版电路一览，焊接同轴双单元导线，焊点圆润饱满。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": "三、我爱音频网总结 EDIFIER漫步者Lolli Pro 3真无线降噪耳机在外观方面，延续了该系列的设计风格，并在细节上做了优化。圆角方形充电盒，烤漆工艺处理，质感出色；升级倾斜座舱结构，提供更轻松的取放体验。柄状的入耳式耳机，入耳曲线圆润饱满，搭配三种尺寸的柔软硅胶耳塞，佩戴舒适贴合耳廓，同时保障了密闭性，带来更优的降噪效果；触控区域条纹处理，提升盲操作的精准性。 内部主要配置方面，耳机内置0.173Wh钢壳扣式电池；搭载同轴双动圈单元，分别负责中低频和高频，搭配高清音频传输格式，带来优质的音频体验；耳机主控芯片为BES恒玄BES2600Z蓝牙音频SoC，搭配内置的3颗MEMS麦克风，提供卓越的主动降噪和通话降噪效果；还采用了环境光传感器用于检测佩戴，HYNITRON海栎创HK31BP高性能自电容触控芯片，用于触摸控制。充电盒内部搭载了460mAh锂离子电池，配备有电路保护板负责过充电、过放电、过电流等保护。"
+    },
+    "structure": {
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
+      "materials": [
+        "硅胶",
+        "PC"
+      ],
+      "ip_rating": null,
+      "weight_g": "48.6g",
+      "dimensions": [
+        "6mm镀钛高频单元正面特写，金属盖板防护，固定在同轴框架上。",
+        "10mm复合中低频单元正面振膜特写。",
+        "柄状的入耳式耳机，入耳曲线圆润饱满，搭配三种尺寸的柔软硅胶耳塞，佩戴舒适贴合耳廓，同时保障了密闭性，带来更优的降噪效果；触控区域条纹处理，提升盲操作的精准性。"
+      ],
+      "internal_structure": [
+        {
+          "value": "座舱背面固定电池单元。",
+          "evidence": {
+            "value": "座舱背面固定电池单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "座舱背面固定电池单元。"
+          }
+        },
+        {
+          "value": "座舱底部通过螺丝固定主板单元，两侧的电池导线和排线与主板焊接。",
+          "evidence": {
+            "value": "座舱底部通过螺丝固定主板单元，两侧的电池导线和排线与主板焊接。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "座舱底部通过螺丝固定主板单元，两侧的电池导线和排线与主板焊接。"
+          }
+        },
+        {
+          "value": "充电盒主板一侧电路一览。",
+          "evidence": {
+            "value": "充电盒主板一侧电路一览。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "充电盒主板一侧电路一览。"
+          }
+        },
+        {
+          "value": "前馈降噪麦克风拾音孔特写，金属盖板防护，设置在了耳机柄侧背部，能够有效降低风噪影响。",
+          "evidence": {
+            "value": "前馈降噪麦克风拾音孔特写，金属盖板防护，设置在了耳机柄侧背部，能够有效降低风噪影响。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "前馈降噪麦克风拾音孔特写，金属盖板防护，设置在了耳机柄侧背部，能够有效降低风噪影响。"
+          }
+        },
+        {
+          "value": "耳机柄底部的通话麦克风拾音孔特写，两侧是充电触点。",
+          "evidence": {
+            "value": "耳机柄底部的通话麦克风拾音孔特写，两侧是充电触点。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机柄底部的通话麦克风拾音孔特写，两侧是充电触点。"
+          }
+        },
+        {
+          "value": "EDIFIER漫步者作为知名音频品牌，旗下拥有非常丰富的产品线。在个人音频领域，产品涵盖了各种类型耳机、桌面音箱、便携式音箱等，Lolli系列便是其中非常畅销的TWS耳机产品之一。近期，Lolli系列迎来了更新，新一代支持主动降噪的Lolli Pro 3正式发布，降噪、音质再次升级，同时新增了空间音效，提供更具沉浸感的无线音频。",
+          "evidence": {
+            "value": "EDIFIER漫步者作为知名音频品牌，旗下拥有非常丰富的产品线。在个人音频领域，产品涵盖了各种类型耳机、桌面音箱、便携式音箱等，Lolli系列便是其中非常畅销的TWS耳机产品之一。近期，Lolli系列迎来了更新，新一代支持主动降噪的Lolli Pro 3正式发布，降噪、音质再次升级，同时新增了空间音效，提供更具沉浸感的无线音频。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "EDIFIER漫步者作为知名音频品牌，旗下拥有非常丰富的产品线。在个人音频领域，产品涵盖了各种类型耳机、桌面音箱、便携式音箱等，Lolli系列便是其中非常畅销的TWS耳机产品之一。近期，Lolli系列迎来了更新，新一代支持主动降噪的Lolli Pro 3正式发布，降噪、音质再次升级，同时新增了空间音效，提供更具沉浸感的无线音频。"
+          }
+        },
+        {
+          "value": "漫步者Lolli Pro 3真无线降噪耳机搭载同轴双单元，低频可下潜至10Hz，高频可延展到40Hz，同时支持LDAC、LHDC5.0双高清音频解码，最高可提供192kHz/24bit传输，获得了Hi-Res Wireless、HWA双高清音频认证。在主动降噪上，支持深度、舒适、环境声监听、抗风噪多种模式，最大降噪深度-45dB，降噪频宽提升了67%，带来更优的降噪效果，保障清晰地语音通话。",
+          "evidence": {
+            "value": "漫步者Lolli Pro 3真无线降噪耳机搭载同轴双单元，低频可下潜至10Hz，高频可延展到40Hz，同时支持LDAC、LHDC5.0双高清音频解码，最高可提供192kHz/24bit传输，获得了Hi-Res Wireless、HWA双高清音频认证。在主动降噪上，支持深度、舒适、环境声监听、抗风噪多种模式，最大降噪深度-45dB，降噪频宽提升了67%，带来更优的降噪效果，保障清晰地语音通话。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "漫步者Lolli Pro 3真无线降噪耳机搭载同轴双单元，低频可下潜至10Hz，高频可延展到40Hz，同时支持LDAC、LHDC5.0双高清音频解码，最高可提供192kHz/24bit传输，获得了Hi-Res Wireless、HWA双高清音频认证。在主动降噪上，支持深度、舒适、环境声监听、抗风噪多种模式，最大降噪深度-45dB，降噪频宽提升了67%，带来更优的降噪效果，保障清晰地语音通话。"
+          }
+        },
+        {
+          "value": "腔体底部结构一览，还贴有蓝牙天线和触摸检测的贴片。",
+          "evidence": {
+            "value": "腔体底部结构一览，还贴有蓝牙天线和触摸检测的贴片。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "腔体底部结构一览，还贴有蓝牙天线和触摸检测的贴片。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "座舱底部通过螺丝固定主板单元，两侧的电池导线和排线与主板焊接。",
+          "evidence": {
+            "value": "座舱底部通过螺丝固定主板单元，两侧的电池导线和排线与主板焊接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "座舱底部通过螺丝固定主板单元，两侧的电池导线和排线与主板焊接。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，取掉座舱上固定的所有组件。",
+          "evidence": {
+            "value": "卸掉螺丝，取掉座舱上固定的所有组件。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取掉座舱上固定的所有组件。"
+          }
+        },
+        {
+          "value": "腔体内部结构一览，通过热熔柱固定主板单元。",
+          "evidence": {
+            "value": "腔体内部结构一览，通过热熔柱固定主板单元。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "腔体内部结构一览，通过热熔柱固定主板单元。"
+          }
+        },
+        {
+          "value": "取掉透明支架，下方排线通过热熔柱固定。",
+          "evidence": {
+            "value": "取掉透明支架，下方排线通过热熔柱固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "取掉透明支架，下方排线通过热熔柱固定。"
+          }
+        },
+        {
+          "value": "前腔底部结构一览，出音管内设置有固定后馈麦克风的卡槽结构。",
+          "evidence": {
+            "value": "前腔底部结构一览，出音管内设置有固定后馈麦克风的卡槽结构。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "前腔底部结构一览，出音管内设置有固定后馈麦克风的卡槽结构。"
+          }
+        }
+      ],
+      "sealing_method": [],
+      "wear_design": [
+        {
+          "value": "在主动降噪上，支持深度、舒适、环境声监听、抗风噪多种模式，最大降噪深度-45dB，降噪频宽提升了67%，带来更优的降噪效果，保障清晰地语音通话。",
+          "evidence": {
+            "value": "在主动降噪上，支持深度、舒适、环境声监听、抗风噪多种模式，最大降噪深度-45dB，降噪频宽提升了67%，带来更优的降噪效果，保障清晰地语音通话。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "在主动降噪上，支持深度、舒适、环境声监听、抗风噪多种模式，最大降噪深度-45dB，降噪频宽提升了67%，带来更优的降噪效果，保障清晰地语音通话。"
+          }
+        },
+        {
+          "value": "漫步者Lolli Pro 3在无线连接方面，支持蓝牙5.3，支持0.08s低延迟游戏模式，支持设备双连接，提供更稳定、更快速、更便捷的无线体验；还支持佩戴检测、IP54级防尘防水等，通过手机App可进行多功能预设，查找耳机。",
+          "evidence": {
+            "value": "漫步者Lolli Pro 3在无线连接方面，支持蓝牙5.3，支持0.08s低延迟游戏模式，支持设备双连接，提供更稳定、更快速、更便捷的无线体验；还支持佩戴检测、IP54级防尘防水等，通过手机App可进行多功能预设，查找耳机。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "漫步者Lolli Pro 3在无线连接方面，支持蓝牙5.3，支持0.08s低延迟游戏模式，支持设备双连接，提供更稳定、更快速、更便捷的无线体验；还支持佩戴检测、IP54级防尘防水等，通过手机App可进行多功能预设，查找耳机。"
+          }
+        },
+        {
+          "value": "包装盒内部物品有主机、充电线、耳塞和产品使用说明书。",
+          "evidence": {
+            "value": "包装盒内部物品有主机、充电线、耳塞和产品使用说明书。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "包装盒内部物品有主机、充电线、耳塞和产品使用说明书。"
+          }
+        },
+        {
+          "value": "随机标配的硅胶耳塞，质地柔软，佩戴舒适亲肤。",
+          "evidence": {
+            "value": "随机标配的硅胶耳塞，质地柔软，佩戴舒适亲肤。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "随机标配的硅胶耳塞，质地柔软，佩戴舒适亲肤。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/06/2024062806524851.jpeg",
+          "alt": "拆解报告：EDIFIER漫步者Lolli Pro 3真无线降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/06/2024062806524930.jpeg",
+          "alt": "拆解报告：EDIFIER漫步者Lolli Pro 3真无线降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/06/2024062806525035.jpeg",
+          "alt": "拆解报告：EDIFIER漫步者Lolli Pro 3真无线降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/06/2024062806525135.jpeg",
+          "alt": "拆解报告：EDIFIER漫步者Lolli Pro 3真无线降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/06/2024062806525270.jpeg",
+          "alt": "拆解报告：EDIFIER漫步者Lolli Pro 3真无线降噪耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "座舱背面固定电池单元。",
+        "座舱底部通过螺丝固定主板单元，两侧的电池导线和排线与主板焊接。",
+        "充电盒主板一侧电路一览。",
+        "前馈降噪麦克风拾音孔特写，金属盖板防护，设置在了耳机柄侧背部，能够有效降低风噪影响。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": {
+        "value": "48.6g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "步者Lolli Pro 3真无线降噪耳机整机重量约为48.6g。\n单只耳"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "5.3g",
+      "weight_earbud_evidence": {
+        "value": "5.3g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "真无线降噪耳机整机重量约为48.6g。\n单只耳机重量约为5.3g。\n我爱音"
+      }
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "充电盒充电线，采用了USB-A to Type-C接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒充电线，采用了USB-A to Type-C接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电盒底部设置Type-C充电接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒底部设置Type-C充电接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C充电母座特写。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充电母座特写。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "漫步者Lolli Pro 3真无线降噪耳机搭载同轴双单元，低频可下潜至10Hz，高频可延展到40Hz，同时支持LDAC、LHDC5.0双高清音频解码，最高可提供192kHz/24bit传输，获得了Hi-Res Wireless、HWA双高清音频认证。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "漫步者Lolli Pro 3真无线降噪耳机搭载同轴双单元，低频可下潜至10Hz，高频可延展到40Hz，同时支持LDAC、LHDC5.0双高清音频解码，最高可提供192kHz/24bit传输，获得了Hi-Res Wireless、HWA双高清"
+        },
+        {
+          "param": "标记/认证",
+          "value": "漫步者Lolli Pro 3在无线连接方面，支持蓝牙5.3，支持0.08s低延迟游戏模式，支持设备双连接，提供更稳定、更快速、更便捷的无线体验；还支持佩戴检测、IP54级防尘防水等，通过手机App可进行多功能预设，查找耳机。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "漫步者Lolli Pro 3在无线连接方面，支持蓝牙5.3，支持0.08s低延迟游戏模式，支持设备双连接，提供更稳定、更快速、更便捷的无线体验；还支持佩戴检测、IP54级防尘防水等，通过手机App可进行多功能预设，查找耳机。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "一、\nEDIFIER漫步者Lolli Pro 3真无线降噪耳机开箱\nEDIFIER漫步者Lolli Pro 3真无线降噪耳机包装盒采用了家族式的设计，正面展示有产品的设计线稿图，品牌LOGO和产品名称，以及Hi-Res、HWA、Ultra Res认证标志。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "一、\nEDIFIER漫步者Lolli Pro 3真无线降噪耳机开箱\nEDIFIER漫步者Lolli Pro 3真无线降噪耳机包装盒采用了家族式的设计，正面展示有产品的设计线稿图，品牌LOGO和产品名称，以及Hi-Res、HWA、Ultra "
+        },
+        {
+          "param": "标记/认证",
+          "value": "产品型号：EDF200160，输入：5V-200mA（耳机），5V-1A（充电盒）；北京爱德发科技有限公司出品，生产企业：东莞市漫步者科技有限公司。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "产品型号：EDF200160，输入：5V-200mA（耳机），5V-1A（充电盒）；北京爱德发科技有限公司出品，生产企业：东莞市漫步者科技有限公司。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "包装盒侧边展示有产品的功能特点：3麦AI通话降噪、持久续航、IP54级防尘防水、支持快充、抗菌耳套。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "包装盒侧边展示有产品的功能特点：3麦AI通话降噪、持久续航、IP54级防尘防水、支持快充、抗菌耳套。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "充电盒内置锂离子电池型号：CEL 751536，标称电压：3.8V，额定容量：460mAh 1.748Wh，充电限制电压：4.35V，来自东莞市金赛尔电池科技有限公司。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒内置锂离子电池型号：CEL 751536，标称电压：3.8V，额定容量：460mAh 1.748Wh，充电限制电压：4.35V，来自东莞市金赛尔电池科技有限公司。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "耳机内置钢壳扣式电池，型号：M1054S3，标称电压：3.85V，能量：0.173Wh，来自MIC-POWER微电新能源。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "耳机内置钢壳扣式电池，型号：M1054S3，标称电压：3.85V，能量：0.173Wh，来自MIC-POWER微电新能源。"
+        },
+        {
+          "param": "电池容量",
+          "value": "460",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "460mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.3",
+      "codecs": [
+        {
+          "value": "LDAC",
+          "evidence": {
+            "value": "LDAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "漫步者Lolli Pro 3真无线降噪耳机搭载同轴双单元，低频可下潜至10Hz，高频可延展到40Hz，同时支持LDAC、LHDC5.0双高清音频解码，最高可提供192kHz/24bit传输，获得了Hi-Res Wireless、HWA双高清音频认证。"
+          }
+        },
+        {
+          "value": "LHDC",
+          "evidence": {
+            "value": "LHDC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "漫步者Lolli Pro 3真无线降噪耳机搭载同轴双单元，低频可下潜至10Hz，高频可延展到40Hz，同时支持LDAC、LHDC5.0双高清音频解码，最高可提供192kHz/24bit传输，获得了Hi-Res Wireless、HWA双高清音频认证。"
+          }
+        },
+        {
+          "value": "Hi-Res",
+          "evidence": {
+            "value": "Hi-Res",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "漫步者Lolli Pro 3真无线降噪耳机搭载同轴双单元，低频可下潜至10Hz，高频可延展到40Hz，同时支持LDAC、LHDC5.0双高清音频解码，最高可提供192kHz/24bit传输，获得了Hi-Res Wireless、HWA双高清音频认证。"
+          }
+        }
+      ],
+      "multipoint": [
+        {
+          "value": "包装盒另外一侧侧边展示的功能特点：母带音质、影院模式、同轴双动圈、双设备连接、入耳检测。",
+          "evidence": {
+            "value": "包装盒另外一侧侧边展示的功能特点：母带音质、影院模式、同轴双动圈、双设备连接、入耳检测。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒另外一侧侧边展示的功能特点：母带音质、影院模式、同轴双动圈、双设备连接、入耳检测。"
+          }
+        }
+      ],
+      "app_name": "",
+      "app_features": [
+        {
+          "value": "漫步者Lolli Pro 3在无线连接方面，支持蓝牙5.3，支持0.08s低延迟游戏模式，支持设备双连接，提供更稳定、更快速、更便捷的无线体验；还支持佩戴检测、IP54级防尘防水等，通过手机App可进行多功能预设，查找耳机。",
+          "evidence": {
+            "value": "漫步者Lolli Pro 3在无线连接方面，支持蓝牙5.3，支持0.08s低延迟游戏模式，支持设备双连接，提供更稳定、更快速、更便捷的无线体验；还支持佩戴检测、IP54级防尘防水等，通过手机App可进行多功能预设，查找耳机。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "漫步者Lolli Pro 3在无线连接方面，支持蓝牙5.3，支持0.08s低延迟游戏模式，支持设备双连接，提供更稳定、更快速、更便捷的无线体验；还支持佩戴检测、IP54级防尘防水等，通过手机App可进行多功能预设，查找耳机。"
+          }
+        },
+        {
+          "value": "包装盒背面展示有沙滩白、碳晶灰、柳芽绿三种配色的产品整体外观，APP下载二维码，以及部分产品和公司信息。",
+          "evidence": {
+            "value": "包装盒背面展示有沙滩白、碳晶灰、柳芽绿三种配色的产品整体外观，APP下载二维码，以及部分产品和公司信息。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "包装盒背面展示有沙滩白、碳晶灰、柳芽绿三种配色的产品整体外观，APP下载二维码，以及部分产品和公司信息。"
+          }
+        },
+        {
+          "value": "丝印VmCT的eta钰泰ETA4030充电IC，是一款单电池、完全集成的恒流（CC）/恒压（CV）锂离子电池充电器，紧凑的封装和最低的外部组件要求使其成为便携式应用的理想选择。",
+          "evidence": {
+            "value": "丝印VmCT的eta钰泰ETA4030充电IC，是一款单电池、完全集成的恒流（CC）/恒压（CV）锂离子电池充电器，紧凑的封装和最低的外部组件要求使其成为便携式应用的理想选择。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "丝印VmCT的eta钰泰ETA4030充电IC，是一款单电池、完全集成的恒流（CC）/恒压（CV）锂离子电池充电器，紧凑的封装和最低的外部组件要求使其成为便携式应用的理想选择。"
+          }
+        }
+      ],
+      "ota_support": [
+        {
+          "value": "近期，Lolli系列迎来了更新，新一代支持主动降噪的Lolli Pro 3正式发布，降噪、音质再次升级，同时新增了空间音效，提供更具沉浸感的无线音频。",
+          "evidence": {
+            "value": "近期，Lolli系列迎来了更新，新一代支持主动降噪的Lolli Pro 3正式发布，降噪、音质再次升级，同时新增了空间音效，提供更具沉浸感的无线音频。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "近期，Lolli系列迎来了更新，新一代支持主动降噪的Lolli Pro 3正式发布，降噪、音质再次升级，同时新增了空间音效，提供更具沉浸感的无线音频。"
+          }
+        },
+        {
+          "value": "圆角方形充电盒，烤漆工艺处理，质感出色；升级倾斜座舱结构，提供更轻松的取放体验。",
+          "evidence": {
+            "value": "圆角方形充电盒，烤漆工艺处理，质感出色；升级倾斜座舱结构，提供更轻松的取放体验。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "圆角方形充电盒，烤漆工艺处理，质感出色；升级倾斜座舱结构，提供更轻松的取放体验。"
+          }
+        }
+      ],
+      "latency_notes": [
+        {
+          "value": "漫步者Lolli Pro 3在无线连接方面，支持蓝牙5.3，支持0.08s低延迟游戏模式，支持设备双连接，提供更稳定、更快速、更便捷的无线体验；还支持佩戴检测、IP54级防尘防水等，通过手机App可进行多功能预设，查找耳机。",
+          "evidence": {
+            "value": "漫步者Lolli Pro 3在无线连接方面，支持蓝牙5.3，支持0.08s低延迟游戏模式，支持设备双连接，提供更稳定、更快速、更便捷的无线体验；还支持佩戴检测、IP54级防尘防水等，通过手机App可进行多功能预设，查找耳机。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "漫步者Lolli Pro 3在无线连接方面，支持蓝牙5.3，支持0.08s低延迟游戏模式，支持设备双连接，提供更稳定、更快速、更便捷的无线体验；还支持佩戴检测、IP54级防尘防水等，通过手机App可进行多功能预设，查找耳机。"
+          }
+        }
+      ],
+      "bluetooth_evidence": {
+        "value": "5.3",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.3"
+      }
+    }
+  }
+}

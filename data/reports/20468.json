@@ -1,0 +1,624 @@
+{
+  "id": "20468",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/20468.html",
+  "title": "酷狗X5 真无线蓝牙耳机",
+  "brand": "",
+  "model": "酷狗X5",
+  "category": "真无线耳机TWS",
+  "published_at": "2019-05-05",
+  "author": "Vallière",
+  "summary": "酷狗音乐是不少90后接触互联网的时候最常使用的音乐播放器，它具有方便、音乐齐全等特点。随着互联网品牌强势进入随 […]",
+  "captured_at": "2026-07-14T02:14:42+00:00",
+  "data_completeness": 0.79,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "酷狗X5",
+      "category": "真无线耳机TWS",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "支持第八代CVC通话降噪，双耳主耳机和从耳机智能切换，内置锂电池充电器。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "支持第八代CVC通话降噪，双耳主耳机和从耳机智能切换，内置锂电池充电器。",
+            "confidence": 0.61,
+            "source_type": "text",
+            "source_text": "支持第八代CVC通话降噪，双耳主耳机和从耳机智能切换，内置锂电池充电器。"
+          }
+        },
+        {
+          "text": "总体上具有低延迟，低功耗，立体声通话的特点。",
+          "tag": "游戏低延迟",
+          "evidence": {
+            "value": "总体上具有低延迟，低功耗，立体声通话的特点。",
+            "confidence": 0.69,
+            "source_type": "text",
+            "source_text": "总体上具有低延迟，低功耗，立体声通话的特点。"
+          }
+        },
+        {
+          "text": "在导管前端有一块防尘网。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "在导管前端有一块防尘网。",
+            "confidence": 0.58,
+            "source_type": "text",
+            "source_text": "在导管前端有一块防尘网。"
+          }
+        },
+        {
+          "text": "从官方资料获悉，这款真耳机不少创新点可圈可点，到底实际情况如何？",
+          "tag": "其他",
+          "evidence": {
+            "value": "从官方资料获悉，这款真耳机不少创新点可圈可点，到底实际情况如何？",
+            "confidence": 0.57,
+            "source_type": "text",
+            "source_text": "从官方资料获悉，这款真耳机不少创新点可圈可点，到底实际情况如何？"
+          }
+        },
+        {
+          "text": "掀开充电盒背面的防尘盖，底下是一个Micro USB充电接口。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "掀开充电盒背面的防尘盖，底下是一个Micro USB充电接口。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "掀开充电盒背面的防尘盖，底下是一个Micro USB充电接口。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通话"
+      ],
+      "positioning_summary": "支持第八代CVC通话降噪，双耳主耳机和从耳机智能切换，内置锂电池充电器。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "充电仓",
+        "电池",
+        "主板/PCBA",
+        "麦克风",
+        "天线"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm",
+          "model": "高通 QCC3026",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通 QCC3026",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "高通 QCC3026"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA6884",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA6884",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "ETA6884"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装内包含耳机充电盒、使用说明、硅胶耳塞和硅胶耳机套。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒背面依然是这种材质的外壳，底面有铭牌写道：酷狗真无线耳机X5充电盒，耳机型号：KUGOU X5，充电盒型号：KUGOU X5C，电源输入：5V 800mA，电源输出：5V 200mA，电池容量：3.7V 500mAh 1.85Wh，制造商：广州音超信息科技有限公司。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "产品具有35H超长续航、高通蓝牙芯片支持aptX、物理隔音消噪、贴耳设计、IPX4防水溅设计、智能语音点歌等特性。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "其中一只耳机背部的麦克风孔。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机背部是按键的弹性传动结构，背盖内还有蓝牙天线。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒正面是一个电量指示灯。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机背后的K LOGO处是一个按键。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机充电触点。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒背面依然是这种材质的外壳，底面有铭牌写道：酷狗真无线耳机X5充电盒，耳机型号：KUGOU X5，充电盒型号：KUGOU X5C，电源输入：5V 800mA，电源输出：5V 200mA，电池容量：3.7V 500mAh 1.85Wh，制造商：广州音超信息科技有限公司。"
+          }
+        },
+        {
+          "component": "耳挂/挂钩",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "耳挂/挂钩",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装采用经典的白色底色，外观设计非常的简洁干练，顶部还配有贴心的挂钩设计，正面印有产品名称及产品图片。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA6884",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA6884",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "ETA钰泰 ETA6884，内置3A开关充电，2.5A同步整流输出，效率均在90%以上，且无需单片机即可完成电量显示，兼容4.2/4.35V电池。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "高通 QCC3026",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通 QCC3026",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "耳机内置Qualcomm高通 QCC3026蓝牙音频芯片。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "高通 QCC3026",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通 QCC3026",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "三、我爱音频网拆解总结\n1、充电盒采用喷砂材质的金属外壳，富有质感；\n2、酷狗音乐X5真无线蓝牙耳机内置 Qualcomm高通 QCC3026蓝牙音频芯片，支持蓝牙5.0、双耳主耳机和从耳机智能切换；\n3、采用纽扣型锂电池，带有电池保护芯片，在使用上更安全。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [
+        "包装内包含耳机充电盒、使用说明、硅胶耳塞和硅胶耳机套。"
+      ],
+      "process_hints": [
+        {
+          "value": "上沿焊接着充电触点连接线与电池连接线，下沿焊接着耳机单元连接线。",
+          "evidence": {
+            "value": "上沿焊接着充电触点连接线与电池连接线，下沿焊接着耳机单元连接线。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "上沿焊接着充电触点连接线与电池连接线，下沿焊接着耳机单元连接线。"
+          }
+        },
+        {
+          "value": "电池另一面的电路保护板，上面有一颗ITM UP29A  一体化锂电池保护IC 。",
+          "evidence": {
+            "value": "电池另一面的电路保护板，上面有一颗ITM UP29A  一体化锂电池保护IC 。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "电池另一面的电路保护板，上面有一颗ITM UP29A  一体化锂电池保护IC 。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": ""
+    },
+    "structure": {
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
+      "materials": [
+        "硅胶",
+        "铝合金"
+      ],
+      "ip_rating": "IPX4",
+      "weight_g": null,
+      "dimensions": [
+        "耳机内置Qualcomm高通 QCC3026蓝牙音频芯片。",
+        "Qualcomm高通 QCC3026 TWS真无线立体声蓝牙耳机方案，支持蓝牙V5.0，内置120MHz Kalimba DPS。",
+        "三、我爱音频网拆解总结\n1、充电盒采用喷砂材质的金属外壳，富有质感；\n2、酷狗音乐X5真无线蓝牙耳机内置 Qualcomm高通 QCC3026蓝牙音频芯片，支持蓝牙5.0、双耳主耳机和从耳机智能切换；\n3、采用纽扣型锂电池，带有电池保护芯片，在使用上更安全。"
+      ],
+      "internal_structure": [
+        {
+          "value": "充电盒背面依然是这种材质的外壳，底面有铭牌写道：酷狗真无线耳机X5充电盒，耳机型号：KUGOU X5，充电盒型号：KUGOU X5C，电源输入：5V 800mA，电源输出：5V 200mA，电池容量：3.7V 500mAh 1.85Wh，制造商：广州音超信息科技有限公司。",
+          "evidence": {
+            "value": "充电盒背面依然是这种材质的外壳，底面有铭牌写道：酷狗真无线耳机X5充电盒，耳机型号：KUGOU X5，充电盒型号：KUGOU X5C，电源输入：5V 800mA，电源输出：5V 200mA，电池容量：3.7V 500mAh 1.85Wh，制造商：广州音超信息科技有限公司。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "充电盒背面依然是这种材质的外壳，底面有铭牌写道：酷狗真无线耳机X5充电盒，耳机型号：KUGOU X5，充电盒型号：KUGOU X5C，电源输入：5V 800mA，电源输出：5V 200mA，电池容量：3.7V 500mAh 1.85Wh，制造商：广州音超信息科技有限公司。"
+          }
+        },
+        {
+          "value": "拆下主板，主板用导线连接着电池。",
+          "evidence": {
+            "value": "拆下主板，主板用导线连接着电池。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "拆下主板，主板用导线连接着电池。"
+          }
+        },
+        {
+          "value": "产品具有35H超长续航、高通蓝牙芯片支持aptX、物理隔音消噪、贴耳设计、IPX4防水溅设计、智能语音点歌等特性。",
+          "evidence": {
+            "value": "产品具有35H超长续航、高通蓝牙芯片支持aptX、物理隔音消噪、贴耳设计、IPX4防水溅设计、智能语音点歌等特性。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "产品具有35H超长续航、高通蓝牙芯片支持aptX、物理隔音消噪、贴耳设计、IPX4防水溅设计、智能语音点歌等特性。"
+          }
+        },
+        {
+          "value": "充电盒内的主板特写。",
+          "evidence": {
+            "value": "充电盒内的主板特写。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "充电盒内的主板特写。"
+          }
+        },
+        {
+          "value": "其中一只耳机背部的麦克风孔。",
+          "evidence": {
+            "value": "其中一只耳机背部的麦克风孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "其中一只耳机背部的麦克风孔。"
+          }
+        },
+        {
+          "value": "两只耳机背部小板布局，都分布着微动按键、天线弹针和LED灯，其中一只耳机有通话麦克风。",
+          "evidence": {
+            "value": "两只耳机背部小板布局，都分布着微动按键、天线弹针和LED灯，其中一只耳机有通话麦克风。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "两只耳机背部小板布局，都分布着微动按键、天线弹针和LED灯，其中一只耳机有通话麦克风。"
+          }
+        },
+        {
+          "value": "耳机背部是按键的弹性传动结构，背盖内还有蓝牙天线。",
+          "evidence": {
+            "value": "耳机背部是按键的弹性传动结构，背盖内还有蓝牙天线。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机背部是按键的弹性传动结构，背盖内还有蓝牙天线。"
+          }
+        },
+        {
+          "value": "耳机背后的K LOGO处是一个按键。",
+          "evidence": {
+            "value": "耳机背后的K LOGO处是一个按键。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机背后的K LOGO处是一个按键。"
+          }
+        }
+      ],
+      "fastener_type": [],
+      "sealing_method": [
+        {
+          "value": "产品具有35H超长续航、高通蓝牙芯片支持aptX、物理隔音消噪、贴耳设计、IPX4防水溅设计、智能语音点歌等特性。",
+          "evidence": {
+            "value": "产品具有35H超长续航、高通蓝牙芯片支持aptX、物理隔音消噪、贴耳设计、IPX4防水溅设计、智能语音点歌等特性。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "产品具有35H超长续航、高通蓝牙芯片支持aptX、物理隔音消噪、贴耳设计、IPX4防水溅设计、智能语音点歌等特性。"
+          }
+        },
+        {
+          "value": "在导管前端有一块防尘网。",
+          "evidence": {
+            "value": "在导管前端有一块防尘网。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "在导管前端有一块防尘网。"
+          }
+        }
+      ],
+      "wear_design": [
+        {
+          "value": "包装内包含耳机充电盒、使用说明、硅胶耳塞和硅胶耳机套。",
+          "evidence": {
+            "value": "包装内包含耳机充电盒、使用说明、硅胶耳塞和硅胶耳机套。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "包装内包含耳机充电盒、使用说明、硅胶耳塞和硅胶耳机套。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/05/酷狗x5真无线蓝牙耳机-1.jpg",
+          "alt": "拆解报告：酷狗X5 真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/05/酷狗x5真无线蓝牙耳机-2.jpg",
+          "alt": "拆解报告：酷狗X5 真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/05/酷狗x5真无线蓝牙耳机-3.jpg",
+          "alt": "拆解报告：酷狗X5 真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/05/酷狗x5真无线蓝牙耳机-4.jpg",
+          "alt": "拆解报告：酷狗X5 真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/05/酷狗x5真无线蓝牙耳机-5.jpg",
+          "alt": "拆解报告：酷狗X5 真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "充电盒背面依然是这种材质的外壳，底面有铭牌写道：酷狗真无线耳机X5充电盒，耳机型号：KUGOU X5，充电盒型号：KUGOU X5C，电源输入：5V 800mA，电源输出：5V 200mA，电池容量：3.7V 500mAh 1.85Wh，制造商：广州音超信息科技有限公司。",
+        "拆下主板，主板用导线连接着电池。",
+        "产品具有35H超长续航、高通蓝牙芯片支持aptX、物理隔音消噪、贴耳设计、IPX4防水溅设计、智能语音点歌等特性。",
+        "充电盒内的主板特写。"
+      ],
+      "ip_rating_evidence": {
+        "value": "IPX4",
+        "confidence": 0.8,
+        "source_type": "text",
+        "source_text": "IPX4"
+      },
+      "weight_evidence": null
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "Micro USB充电线。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Micro USB充电线。"
+        },
+        {
+          "param": "充电接口",
+          "value": "掀开充电盒背面的防尘盖，底下是一个Micro USB充电接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "掀开充电盒背面的防尘盖，底下是一个Micro USB充电接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Micro USB",
+          "unit": "",
+          "brand": "",
+          "model": "Micro USB",
+          "confidence": 0.8,
+          "source_ref": "Micro USB"
+        },
+        {
+          "param": "标记/认证",
+          "value": "产品具有35H超长续航、高通蓝牙芯片支持aptX、物理隔音消噪、贴耳设计、IPX4防水溅设计、智能语音点歌等特性。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "产品具有35H超长续航、高通蓝牙芯片支持aptX、物理隔音消噪、贴耳设计、IPX4防水溅设计、智能语音点歌等特性。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "充电盒背面依然是这种材质的外壳，底面有铭牌写道：酷狗真无线耳机X5充电盒，耳机型号：KUGOU X5，充电盒型号：KUGOU X5C，电源输入：5V 800mA，电源输出：5V 200mA，电池容量：3.7V 500mAh 1.85Wh，制造商：广州音超信息科技有限公司。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒背面依然是这种材质的外壳，底面有铭牌写道：酷狗真无线耳机X5充电盒，耳机型号：KUGOU X5，充电盒型号：KUGOU X5C，电源输入：5V 800mA，电源输出：5V 200mA，电池容量：3.7V 500mAh 1.85Wh，制"
+        },
+        {
+          "param": "标记/认证",
+          "value": "电池型号为CEL 522532A，容量500mAh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "电池型号为CEL 522532A，容量500mAh。"
+        },
+        {
+          "param": "电池容量",
+          "value": "500",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "500mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.0",
+      "codecs": [
+        {
+          "value": "AAC",
+          "evidence": {
+            "value": "AAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "连接方面，支持SBC、AAC、aptX和aptX HD连接。"
+          }
+        },
+        {
+          "value": "aptX",
+          "evidence": {
+            "value": "aptX",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "产品具有35H超长续航、高通蓝牙芯片支持aptX、物理隔音消噪、贴耳设计、IPX4防水溅设计、智能语音点歌等特性。"
+          }
+        },
+        {
+          "value": "SBC",
+          "evidence": {
+            "value": "SBC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "连接方面，支持SBC、AAC、aptX和aptX HD连接。"
+          }
+        }
+      ],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [],
+      "ota_support": [],
+      "latency_notes": [
+        {
+          "value": "总体上具有低延迟，低功耗，立体声通话的特点。",
+          "evidence": {
+            "value": "总体上具有低延迟，低功耗，立体声通话的特点。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "总体上具有低延迟，低功耗，立体声通话的特点。"
+          }
+        }
+      ],
+      "bluetooth_evidence": {
+        "value": "5.0",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.0"
+      }
+    }
+  }
+}

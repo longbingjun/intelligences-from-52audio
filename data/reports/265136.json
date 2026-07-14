@@ -90,8 +90,65 @@
         "天线",
         "降噪系统"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9036",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "ETA9036",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了3.7V/450mAh锂电池，采用ETA钰泰ETA9036电源管理芯片，负责内置电池的充放电管理；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "CSU38F20",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "CSU38F20",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用Chipsea芯海科技CSU38F20单片机，用于充电盒整机控制；"
+          }
+        }
+      ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9036",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "ETA9036",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了3.7V/450mAh锂电池，采用ETA钰泰ETA9036电源管理芯片，负责内置电池的充放电管理；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "CSU38F20",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "CSU38F20",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用Chipsea芯海科技CSU38F20单片机，用于充电盒整机控制；"
+          }
+        },
         {
           "component": "电池",
           "brand": "",
@@ -300,6 +357,20 @@
             "confidence": 0.72,
             "source_type": "text",
             "source_text": "拆开充电盒外壳，取出座舱结构。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9036",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA9036",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "ETA钰泰ETA9036电源管理芯片，用于内置电池的充放电管理。"
           }
         }
       ],
@@ -534,9 +605,18 @@
       },
       "weight_evidence": {
         "value": "73.7g",
-        "confidence": 0.75,
+        "confidence": 0.85,
         "source_type": "text",
-        "source_text": "73.7g"
+        "source_text": "dPEATS泥炭GoFree2开放式耳机整机重量约为73.7g。\n单只耳"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "8.8g",
+      "weight_earbud_evidence": {
+        "value": "8.8g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "e2开放式耳机整机重量约为73.7g。\n单只耳机重量约为8.8g。\n我爱音"
       }
     },
     "hardware": {
@@ -747,6 +827,6 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.788,
+  "data_completeness": 0.83,
   "source_layer": "technical"
 }

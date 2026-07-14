@@ -1,0 +1,798 @@
+{
+  "id": "193567",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/193567.html",
+  "title": "SANSUI山水T93开放式蓝牙耳机",
+  "brand": "",
+  "model": "SANSUI山水T93开放式蓝牙",
+  "category": "开放式耳机",
+  "published_at": "2024-03-22",
+  "author": "Wen5",
+  "summary": "CHARGERLAB POWER-Z KM002C测试仪为SANSUI山水T93开放式蓝牙耳机进行充电测试，输 […]",
+  "captured_at": "2026-07-14T02:05:43+00:00",
+  "data_completeness": 0.718,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "SANSUI山水T93开放式蓝牙",
+      "category": "开放式耳机",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "功能配置上，搭载14.2mm大动圈单元，支持「AURA人声增强」，支持「UFT声聚」定向传音；还支持ENC通话降噪，拥有单次13小时/综合60小时的超长续航。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "功能配置上，搭载14.2mm大动圈单元，支持「AURA人声增强」，支持「UFT声聚」定向传音；还支持ENC通话降噪，拥有单次13小时/综合60小时的超长续航。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "功能配置上，搭载14.2mm大动圈单元，支持「AURA人声增强」，支持「UFT声聚」定向传音；还支持ENC通话降噪，拥有单次13小时/综合60小时的超长续航。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通话"
+      ],
+      "positioning_summary": "功能配置上，搭载14.2mm大动圈单元，支持「AURA人声增强」，支持「UFT声聚」定向传音；还支持ENC通话降噪，拥有单次13小时/综合60小时的超长续航。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "充电仓",
+        "主板/PCBA",
+        "电池",
+        "麦克风",
+        "降噪系统",
+        "喇叭单元"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "Injoinic英集芯IP5521",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "Injoinic英集芯IP5521",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了500mAh锂电池，采用了Injoinic英集芯IP5521 TWS耳机充电仓管理SoC，支持30V高耐压，集成升压转换器、锂电池充电管理、电池电量指示、独立入仓检测等功能，单芯片为充电仓提供完整的电源解决方案，可有效减小整体方案的尺寸， 降低BOM成本。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB5656",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB5656",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机音腔内部搭载14.2mm大动圈单元和主板单元，采用了Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，基于低功耗设计，支持蓝牙5.4，支持ENC智能降噪算法，低音增强技术，具有30mW超强驱动；"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "Injoinic英集芯IP5521",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "Injoinic英集芯IP5521",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了500mAh锂电池，采用了Injoinic英集芯IP5521 TWS耳机充电仓管理SoC，支持30V高耐压，集成升压转换器、锂电池充电管理、电池电量指示、独立入仓检测等功能，单芯片为充电仓提供完整的电源解决方案，可有效减小整体方案的尺寸， 降低BOM成本。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB5656",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB5656",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机音腔内部搭载14.2mm大动圈单元和主板单元，采用了Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，基于低功耗设计，支持蓝牙5.4，支持ENC智能降噪算法，低音增强技术，具有30mW超强驱动；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "5V/00mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "5V/00mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了500mAh锂电池，采用了Injoinic英集芯IP5521 TWS耳机充电仓管理SoC，支持30V高耐压，集成升压转换器、锂电池充电管理、电池电量指示、独立入仓检测等功能，单芯片为充电仓提供完整的电源解决方案，可有效减小整体方案的尺寸， 降低BOM成本。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "动圈单元",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "动圈单元",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机音腔内部搭载14.2mm大动圈单元和主板单元，采用了Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，基于低功耗设计，支持蓝牙5.4，支持ENC智能降噪算法，低音增强技术，具有30mW超强驱动；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "采用了一颗MEMS麦克风，用于语音通话拾音。"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "SANSUI山水T93开放式蓝牙耳机充电盒整体外观一览，采用了圆角矩形设计，哑光质感，半透明盒盖，能够时刻获悉内部耳机状态。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "座舱底部通过螺丝固定主板单元，通过双面胶固定电池。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "座舱底部通过螺丝固定主板单元，通过双面胶固定电池。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "盖板侧边的麦克风拾音孔特写。"
+          }
+        },
+        {
+          "component": "降噪系统",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "降噪系统",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "SANSUI山水T93开放式蓝牙耳机是山水近期推出的2024年新款，外观上采用了耳挂式设计，亲肤「纤盈环」，提供舒适稳固佩戴。功能配置上，搭载14.2mm大动圈单元，支持「AURA人声增强」，支持「UFT声聚」定向传音；还支持ENC通话降噪，拥有单次13小时/综合60小时的超长续航。下面就来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "SANSUI山水T93开放式蓝牙耳机是山水近期推出的2024年新款，外观上采用了耳挂式设计，亲肤「纤盈环」，提供舒适稳固佩戴。功能配置上，搭载14.2mm大动圈单元，支持「AURA人声增强」，支持「UFT声聚」定向传音；还支持ENC通话降噪，拥有单次13小时/综合60小时的超长续航。下面就来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "component": "耳挂/挂钩",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "耳挂/挂钩",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "SANSUI山水T93开放式蓝牙耳机是山水近期推出的2024年新款，外观上采用了耳挂式设计，亲肤「纤盈环」，提供舒适稳固佩戴。功能配置上，搭载14.2mm大动圈单元，支持「AURA人声增强」，支持「UFT声聚」定向传音；还支持ENC通话降噪，拥有单次13小时/综合60小时的超长续航。下面就来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒正面特写，开盖处设计有便于开启的凹槽，机身上设计有“SANSUI山水”品牌LOGO，设置一颗指示灯，用于反馈充电状态。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "为耳机充电的Pogo Pin连接器特写。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "拆开充电盒外壳，取出内部座舱结构。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "Injoinic英集芯IP5521",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Injoinic英集芯IP5521",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Injoinic英集芯IP5521 30V高耐压TWS耳机充电仓管理SoC，是一款集成升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "IP5521",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "IP5521",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "IP5521的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸， 降低BOM成本。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB5656",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB5656",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "AB5656C2采用带DSP指令的高性能32位RISC-V处理器核心，处理器最大速度125MHz，内置1M bit（AB5656C2）闪存，113KB RAM，具有可编程上拉和下拉电阻的灵活GPIO引脚；支持GPIO唤醒或中断。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [
+        "包装盒内部物品有开放式蓝牙耳机、充电线和说明书，此款为云岩白配色。"
+      ],
+      "process_hints": [
+        {
+          "value": "电池正负极镍片与导线焊接，通过高温绝缘胶带保护。",
+          "evidence": {
+            "value": "电池正负极镍片与导线焊接，通过高温绝缘胶带保护。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "电池正负极镍片与导线焊接，通过高温绝缘胶带保护。"
+          }
+        },
+        {
+          "value": "指示灯排线电路一览，与主板焊接连接。",
+          "evidence": {
+            "value": "指示灯排线电路一览，与主板焊接连接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "指示灯排线电路一览，与主板焊接连接。"
+          }
+        },
+        {
+          "value": "为耳机充电的两个小板电路一览，对应两只耳机，导线焊接连接主板。",
+          "evidence": {
+            "value": "为耳机充电的两个小板电路一览，对应两只耳机，导线焊接连接主板。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "为耳机充电的两个小板电路一览，对应两只耳机，导线焊接连接主板。"
+          }
+        },
+        {
+          "value": "丝印BA EDO的一体化锂电保护IC。",
+          "evidence": {
+            "value": "丝印BA EDO的一体化锂电保护IC。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "丝印BA EDO的一体化锂电保护IC。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": "三、我爱音频网总结 SANSUI山水T93开放式蓝牙耳机在外观方面，充电盒采用了圆角方形设计，半透明盒盖，能够时刻获悉内部耳机状态。耳机采用了耳挂式设计，佩戴舒适轻盈；耳挂设计纤细，不影响佩戴眼镜使用，同时富有弹性，能够适应不同用户的使用需求。 内部主要配置方面，充电盒搭载了500mAh锂电池，采用了Injoinic英集芯IP5521 TWS耳机充电仓管理SoC，支持30V高耐压，集成升压转换器、锂电池充电管理、电池电量指示、独立入仓检测等功能，单芯片为充电仓提供完整的电源解决方案，可有效减小整体方案的尺寸， 降低BOM成本。 耳机音腔内部搭载14.2mm大动圈单元和主板单元，采用了Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，基于低功耗设计，支持蓝牙5.4，支持ENC智能降噪算法，低音增强技术，具有30mW超强驱动；采用了一颗MEMS麦克风，用于语音通话拾音。耳挂末端设置电池单元，采用了XD鑫电65mAh大容量锂电池。"
+    },
+    "structure": {
+      "form_factor": "开放式耳机",
+      "earbud_type": "开放",
+      "materials": [
+        "PC"
+      ],
+      "ip_rating": null,
+      "weight_g": "77.2g",
+      "dimensions": [
+        "功能配置上，搭载14.2mm大动圈单元，支持「AURA人声增强」，支持「UFT声聚」定向传音；还支持ENC通话降噪，拥有单次13小时/综合60小时的超长续航。",
+        "产品参数,，蓝牙版本：V5.4，阻抗：16Ω，喇叭尺寸：14.2mm，额定输入：DC 5V，山水（深圳）国际电子科技有限公司。",
+        "IP5521的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸， 降低BOM成本。"
+      ],
+      "internal_structure": [
+        {
+          "value": "座舱底部通过螺丝固定主板单元，通过双面胶固定电池。",
+          "evidence": {
+            "value": "座舱底部通过螺丝固定主板单元，通过双面胶固定电池。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "座舱底部通过螺丝固定主板单元，通过双面胶固定电池。"
+          }
+        },
+        {
+          "value": "充电盒主板一侧电路一览。",
+          "evidence": {
+            "value": "充电盒主板一侧电路一览。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "充电盒主板一侧电路一览。"
+          }
+        },
+        {
+          "value": "充电盒内置锂电池型号：ZR 503042，标称电压：3.7V，额定容量：500mAh 1.85Wh。电池正负极镍片与导线焊接，通过高温绝缘胶带保护。",
+          "evidence": {
+            "value": "充电盒内置锂电池型号：ZR 503042，标称电压：3.7V，额定容量：500mAh 1.85Wh。电池正负极镍片与导线焊接，通过高温绝缘胶带保护。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "充电盒内置锂电池型号：ZR 503042，标称电压：3.7V，额定容量：500mAh 1.85Wh。电池正负极镍片与导线焊接，通过高温绝缘胶带保护。"
+          }
+        },
+        {
+          "value": "盖板侧边的麦克风拾音孔特写。",
+          "evidence": {
+            "value": "盖板侧边的麦克风拾音孔特写。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "盖板侧边的麦克风拾音孔特写。"
+          }
+        },
+        {
+          "value": "盖板内侧结构一览，左侧麦克风和指示灯开孔设置有海绵罩密封，中间设置触摸检测贴片。",
+          "evidence": {
+            "value": "盖板内侧结构一览，左侧麦克风和指示灯开孔设置有海绵罩密封，中间设置触摸检测贴片。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "盖板内侧结构一览，左侧麦克风和指示灯开孔设置有海绵罩密封，中间设置触摸检测贴片。"
+          }
+        },
+        {
+          "value": "SANSUI山水T93开放式蓝牙耳机是山水近期推出的2024年新款，外观上采用了耳挂式设计，亲肤「纤盈环」，提供舒适稳固佩戴。功能配置上，搭载14.2mm大动圈单元，支持「AURA人声增强」，支持「UFT声聚」定向传音；还支持ENC通话降噪，拥有单次13小时/综合60小时的超长续航。下面就来看看这款产品的详细拆解报告吧~",
+          "evidence": {
+            "value": "SANSUI山水T93开放式蓝牙耳机是山水近期推出的2024年新款，外观上采用了耳挂式设计，亲肤「纤盈环」，提供舒适稳固佩戴。功能配置上，搭载14.2mm大动圈单元，支持「AURA人声增强」，支持「UFT声聚」定向传音；还支持ENC通话降噪，拥有单次13小时/综合60小时的超长续航。下面就来看看这款产品的详细拆解报告吧~",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "SANSUI山水T93开放式蓝牙耳机是山水近期推出的2024年新款，外观上采用了耳挂式设计，亲肤「纤盈环」，提供舒适稳固佩戴。功能配置上，搭载14.2mm大动圈单元，支持「AURA人声增强」，支持「UFT声聚」定向传音；还支持ENC通话降噪，拥有单次13小时/综合60小时的超长续航。下面就来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "value": "耳机扬声器正面特写，采用了镀钛复合振膜，提供更优的频率响应。",
+          "evidence": {
+            "value": "耳机扬声器正面特写，采用了镀钛复合振膜，提供更优的频率响应。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机扬声器正面特写，采用了镀钛复合振膜，提供更优的频率响应。"
+          }
+        },
+        {
+          "value": "SANSUI山水T93开放式蓝牙耳机整体外观一览，耳机采用了耳挂式设计，佩戴舒适稳定。",
+          "evidence": {
+            "value": "SANSUI山水T93开放式蓝牙耳机整体外观一览，耳机采用了耳挂式设计，佩戴舒适稳定。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "SANSUI山水T93开放式蓝牙耳机整体外观一览，耳机采用了耳挂式设计，佩戴舒适稳定。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "座舱底部通过螺丝固定主板单元，通过双面胶固定电池。",
+          "evidence": {
+            "value": "座舱底部通过螺丝固定主板单元，通过双面胶固定电池。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "座舱底部通过螺丝固定主板单元，通过双面胶固定电池。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，取掉座舱上的所有元器件。",
+          "evidence": {
+            "value": "卸掉螺丝，取掉座舱上的所有元器件。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取掉座舱上的所有元器件。"
+          }
+        }
+      ],
+      "sealing_method": [],
+      "wear_design": [
+        {
+          "value": "开放式耳机\n基于不入耳的特性，随着用户对于耳机佩戴舒适性需求的提升、「第二耳机」需求的兴起，迎来了快速地增长阶段。",
+          "evidence": {
+            "value": "开放式耳机\n基于不入耳的特性，随着用户对于耳机佩戴舒适性需求的提升、「第二耳机」需求的兴起，迎来了快速地增长阶段。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "开放式耳机\n基于不入耳的特性，随着用户对于耳机佩戴舒适性需求的提升、「第二耳机」需求的兴起，迎来了快速地增长阶段。"
+          }
+        },
+        {
+          "value": "SANSUI山水T93开放式蓝牙耳机是山水近期推出的2024年新款，外观上采用了耳挂式设计，亲肤「纤盈环」，提供舒适稳固佩戴。",
+          "evidence": {
+            "value": "SANSUI山水T93开放式蓝牙耳机是山水近期推出的2024年新款，外观上采用了耳挂式设计，亲肤「纤盈环」，提供舒适稳固佩戴。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "SANSUI山水T93开放式蓝牙耳机是山水近期推出的2024年新款，外观上采用了耳挂式设计，亲肤「纤盈环」，提供舒适稳固佩戴。"
+          }
+        },
+        {
+          "value": "包装盒背面介绍了产品的功能特点：AAC/SBC解码、ENC环境降噪、超长续航、高清通话、稳固佩戴。",
+          "evidence": {
+            "value": "包装盒背面介绍了产品的功能特点：AAC/SBC解码、ENC环境降噪、超长续航、高清通话、稳固佩戴。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "包装盒背面介绍了产品的功能特点：AAC/SBC解码、ENC环境降噪、超长续航、高清通话、稳固佩戴。"
+          }
+        },
+        {
+          "value": "SANSUI山水T93开放式蓝牙耳机整体外观一览，耳机采用了耳挂式设计，佩戴舒适稳定。",
+          "evidence": {
+            "value": "SANSUI山水T93开放式蓝牙耳机整体外观一览，耳机采用了耳挂式设计，佩戴舒适稳定。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "SANSUI山水T93开放式蓝牙耳机整体外观一览，耳机采用了耳挂式设计，佩戴舒适稳定。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/03/2024032210355335.jpeg",
+          "alt": "拆解报告：SANSUI山水T93开放式蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/03/2024032210355449.jpeg",
+          "alt": "拆解报告：SANSUI山水T93开放式蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/03/2024032210355651.jpeg",
+          "alt": "拆解报告：SANSUI山水T93开放式蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/03/2024032210355784.jpeg",
+          "alt": "拆解报告：SANSUI山水T93开放式蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/03/2024032210355851.jpeg",
+          "alt": "拆解报告：SANSUI山水T93开放式蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "座舱底部通过螺丝固定主板单元，通过双面胶固定电池。",
+        "充电盒主板一侧电路一览。",
+        "充电盒内置锂电池型号：ZR 503042，标称电压：3.7V，额定容量：500mAh 1.85Wh。电池正负极镍片与导线焊接，通过高温绝缘胶带保护。",
+        "盖板侧边的麦克风拾音孔特写。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": {
+        "value": "77.2g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "测，SANSUI山水T93开放式蓝牙耳机整机重量约77.2g。\n单只耳"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "8.8g",
+      "weight_earbud_evidence": {
+        "value": "8.8g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "3开放式蓝牙耳机整机重量约77.2g。\n单只耳机重量约为8.8g。\n我爱音"
+      }
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "随机标配的充电线，采用了USB-A to Type-C接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "随机标配的充电线，采用了USB-A to Type-C接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C充电接口位于充电盒右侧。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充电接口位于充电盒右侧。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C充电母座特写。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充电母座特写。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "产品参数,，蓝牙版本：V5.4，阻抗：16Ω，喇叭尺寸：14.2mm，额定输入：DC 5V，山水（深圳）国际电子科技有限公司。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "产品参数,，蓝牙版本：V5.4，阻抗：16Ω，喇叭尺寸：14.2mm，额定输入：DC 5V，山水（深圳）国际电子科技有限公司。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "座舱内印有产品信息，型号：TW93，输入：5V-400mA，容量：500mAh，中国制造。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "座舱内印有产品信息，型号：TW93，输入：5V-400mA，容量：500mAh，中国制造。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "充电盒内置锂电池型号：ZR 503042，标称电压：3.7V，额定容量：500mAh 1.85Wh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒内置锂电池型号：ZR 503042，标称电压：3.7V，额定容量：500mAh 1.85Wh。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "Injoinic英集芯IP5521 30V高耐压TWS耳机充电仓管理SoC，是一款集成升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "Injoinic英集芯IP5521 30V高耐压TWS耳机充电仓管理SoC，是一款集成升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5521的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸， 降低BOM成本。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5521的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸， 降低BOM成本。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5521内置同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至92%。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5521内置同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至92%。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5521的线性充电提供最大500mA充电电流，可灵活配置最大充电电流。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5521的线性充电提供最大500mA充电电流，可灵活配置最大充电电流。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5521可实现TWS双耳机独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至25uA。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5521可实现TWS双耳机独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至25uA。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5521支持1/2/3/4 颗LED灯电量显示。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5521支持1/2/3/4 颗LED灯电量显示。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "Injoinic英集芯IP5521详细资料图。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "Injoinic英集芯IP5521详细资料图。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "腔体内部设置电池单元，型号：XD 450825，额定容量：65mAh 0.241Wh，标称电压：3.7V，来自XD鑫电。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "腔体内部设置电池单元，型号：XD 450825，额定容量：65mAh 0.241Wh，标称电压：3.7V，来自XD鑫电。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "内部主要配置方面，充电盒搭载了500mAh锂电池，采用了Injoinic英集芯IP5521 TWS耳机充电仓管理SoC，支持30V高耐压，集成升压转换器、锂电池充电管理、电池电量指示、独立入仓检测等功能，单芯片为充电仓提供完整的电源解决方案，可有效减小整体方案的尺寸， 降低BOM成本。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "内部主要配置方面，充电盒搭载了500mAh锂电池，采用了Injoinic英集芯IP5521 TWS耳机充电仓管理SoC，支持30V高耐压，集成升压转换器、锂电池充电管理、电池电量指示、独立入仓检测等功能，单芯片为充电仓提供完整的电源解决方案"
+        },
+        {
+          "param": "电池容量",
+          "value": "500",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "500mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.4",
+      "codecs": [
+        {
+          "value": "AAC",
+          "evidence": {
+            "value": "AAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "包装盒背面介绍了产品的功能特点：AAC/SBC解码、ENC环境降噪、超长续航、高清通话、稳固佩戴。"
+          }
+        },
+        {
+          "value": "SBC",
+          "evidence": {
+            "value": "SBC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "包装盒背面介绍了产品的功能特点：AAC/SBC解码、ENC环境降噪、超长续航、高清通话、稳固佩戴。"
+          }
+        }
+      ],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [
+        {
+          "value": "IP5521的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸， 降低BOM成本。",
+          "evidence": {
+            "value": "IP5521的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸， 降低BOM成本。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "IP5521的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸， 降低BOM成本。"
+          }
+        }
+      ],
+      "ota_support": [],
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "5.4",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.4"
+      }
+    }
+  }
+}

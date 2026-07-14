@@ -1,0 +1,801 @@
+{
+  "id": "226300",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/226300.html",
+  "title": "MONSTER魔声AIRMARS XKT30开放式耳机",
+  "brand": "",
+  "model": "MONSTER魔声AIRMARS XKT30",
+  "category": "开放式耳机",
+  "published_at": "2025-01-21",
+  "author": "Wen5",
+  "summary": "开放式蓝牙耳机中，耳夹式设计凭借更加轻巧的体积，与眼镜不冲突的佩戴方式，赢得了许多用户的喜爱。我爱音频网近期也 […]",
+  "captured_at": "2026-07-14T02:04:15+00:00",
+  "data_completeness": 0.686,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "MONSTER魔声AIRMARS XKT30",
+      "category": "开放式耳机",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "蓝牙版本：V5.4，传输距离：10m，喇叭直径：13.6mm，喇叭阻抗：20Ω，灵敏度：120±3dB，频响范围：20Hz-20kHz，电池容量（充电盒）：300mAh 3.7V，电池容量（耳机）：30mAh 3.7V，充电时间：约1.5h，配合充电盒播放时间：约16小时，制造商：深圳悦享无线科技有限公司。",
+          "tag": "其他",
+          "evidence": {
+            "value": "蓝牙版本：V5.4，传输距离：10m，喇叭直径：13.6mm，喇叭阻抗：20Ω，灵敏度：120±3dB，频响范围：20Hz-20kHz，电池容量（充电盒）：300mAh 3.7V，电池容量（耳机）：30mAh 3.7V，充电时间：约1.5h，配合充电盒播放时间：约16小时，制造商：深圳悦享无线科技有限公司。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "蓝牙版本：V5.4，传输距离：10m，喇叭直径：13.6mm，喇叭阻抗：20Ω，灵敏度：120±3dB，频响范围：20Hz-20kHz，电池容量（充电盒）：300mAh 3.7V，电池容量（耳机）：30mAh 3.7V，充电时间：约1.5h，配合充电盒播放时间：约16小时，制造商：深圳悦享无线科技有限公司。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通话"
+      ],
+      "positioning_summary": "蓝牙版本：V5.4，传输距离：10m，喇叭直径：13.6mm，喇叭阻抗：20Ω，灵敏度：120±3dB，频响范围：20Hz-20kHz，电池容量（充电盒）：300mAh 3.7V，电池容量（耳机）：30mAh 3.7V，充电时间：约1.5h，配合充电盒播放时间：约16小时，制造商：深圳悦享无线科技有限公司。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "充电仓",
+        "电池",
+        "主板/PCBA",
+        "麦克风",
+        "喇叭单元",
+        "降噪系统",
+        "天线"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5416P",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5416P",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内置300mAh锂电池，采用了INJOINIC英集芯IP5416P多功能电源管理SOC，提供完整的电源解决方案；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB5656",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB5656",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机采用了13.6mm动圈单元，内置一颗MEMS麦克风拾音，主控芯片为Bluetrum中科蓝讯AB5656C2蓝牙音频SoC。"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5416P",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5416P",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内置300mAh锂电池，采用了INJOINIC英集芯IP5416P多功能电源管理SOC，提供完整的电源解决方案；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3V/00mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3V/00mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内置300mAh锂电池，采用了INJOINIC英集芯IP5416P多功能电源管理SOC，提供完整的电源解决方案；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB5656",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB5656",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机采用了13.6mm动圈单元，内置一颗MEMS麦克风拾音，主控芯片为Bluetrum中科蓝讯AB5656C2蓝牙音频SoC。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "13.6mm 动圈单元",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "13.6mm 动圈单元",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机采用了13.6mm动圈单元，内置一颗MEMS麦克风拾音，主控芯片为Bluetrum中科蓝讯AB5656C2蓝牙音频SoC。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机采用了13.6mm动圈单元，内置一颗MEMS麦克风拾音，主控芯片为Bluetrum中科蓝讯AB5656C2蓝牙音频SoC。"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒背面介绍了产品的主要功能特点和参数信息，以及部分公司信息。蓝牙版本：V5.4，传输距离：10m，喇叭直径：13.6mm，喇叭阻抗：20Ω，灵敏度：120±3dB，频响范围：20Hz-20kHz，电池容量（充电盒）：300mAh 3.7V，电池容量（耳机）：30mAh 3.7V，充电时间：约1.5h，配合充电盒播放时间：约16小时，制造商：深圳悦享无线科技有限公司。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒背面介绍了产品的主要功能特点和参数信息，以及部分公司信息。蓝牙版本：V5.4，传输距离：10m，喇叭直径：13.6mm，喇叭阻抗：20Ω，灵敏度：120±3dB，频响范围：20Hz-20kHz，电池容量（充电盒）：300mAh 3.7V，电池容量（耳机）：30mAh 3.7V，充电时间：约1.5h，配合充电盒播放时间：约16小时，制造商：深圳悦享无线科技有限公司。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "电源输入小板另外一侧与连接主板的导线焊接。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "弯臂后端的腔体外侧外观一览，雕刻有L/R左右标识，设置有麦克风拾音孔。弯臂末端设计有品牌LOGO，同时也是触控区域。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "此次将要拆解的MONSTER魔声AIRMARS XKT30开放式耳机，拥有着十分独特的耳夹式结构设计，提供舒适的开放式聆听。功能配置上，搭载13.6mm大动圈单元，支持数字声音增强技术，支持定向传音；支持蓝牙5.4，可提供单次4小时，综合20小时的续航；还支持ENC通话降噪，智能抗风噪，保障清晰通话。下面来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "component": "降噪系统",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "降噪系统",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "此次将要拆解的MONSTER魔声AIRMARS XKT30开放式耳机，拥有着十分独特的耳夹式结构设计，提供舒适的开放式聆听。功能配置上，搭载13.6mm大动圈单元，支持数字声音增强技术，支持定向传音；支持蓝牙5.4，可提供单次4小时，综合20小时的续航；还支持ENC通话降噪，智能抗风噪，保障清晰通话。下面来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "陶瓷蓝牙天线特写，用于无线通讯。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒正面外观一览，设计有亮面腰线，提升质感。下方一颗指示灯，用于反馈充电状态。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "取掉充电盒底部外壳。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "腔体侧边的充电触点特写。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "弯臂后端的腔体外侧外观一览，雕刻有L/R左右标识，设置有麦克风拾音孔。弯臂末端设计有品牌LOGO，同时也是触控区域。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5416P",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5416P",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5416P是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SOC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "IP5416P",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "IP5416P",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "IP5416P通过一个电感实现升压功能。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB5656",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB5656",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Bluetrum中科蓝讯AB5656C2蓝牙音频SoC\n，采用带DSP指令的高性能32位RISC-V处理器核心，处理器最大速度125MHz，内置1M bit（AB5656C2）闪存，113KB RAM，具有可编程上拉和下拉电阻的灵活GPIO引脚；支持GPIO唤醒或中断。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB5656",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB5656",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "内部主要配置方面，充电盒内置300mAh锂电池，采用了INJOINIC英集芯IP5416P多功能电源管理SOC，提供完整的电源解决方案；耳机采用了13.6mm动圈单元，内置一颗MEMS麦克风拾音，主控芯片为Bluetrum中科蓝讯AB5656C2蓝牙音频SoC。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [
+        "包装盒内部物品有主机、充电线和说明书。"
+      ],
+      "process_hints": [
+        {
+          "value": "PCB板通过螺丝固定，与电池导线焊接。",
+          "evidence": {
+            "value": "PCB板通过螺丝固定，与电池导线焊接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "PCB板通过螺丝固定，与电池导线焊接。"
+          }
+        },
+        {
+          "value": "电源输入小板另外一侧与连接主板的导线焊接。",
+          "evidence": {
+            "value": "电源输入小板另外一侧与连接主板的导线焊接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "电源输入小板另外一侧与连接主板的导线焊接。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": "三、我爱音频网总结 MONSTER魔声AIRMARS XKT30开放式耳机在外观方面比较有特点，充电盒设计圆润，质感出色，体积轻巧，使用便携；耳夹式耳机造型类似迷你版头戴式耳机，非常具有创意，且独具辨识度。但同时，耳机的弯臂采用了塑料材质，弹性相对不足，变形后不易恢复，且容易折断。 内部主要配置方面，充电盒内置300mAh锂电池，采用了INJOINIC英集芯IP5416P多功能电源管理SOC，提供完整的电源解决方案；耳机采用了13.6mm动圈单元，内置一颗MEMS麦克风拾音，主控芯片为Bluetrum中科蓝讯AB5656C2蓝牙音频SoC。"
+    },
+    "structure": {
+      "form_factor": "开放式耳机",
+      "earbud_type": "开放",
+      "materials": [
+        "硅胶",
+        "塑料",
+        "PC"
+      ],
+      "ip_rating": null,
+      "weight_g": "53.0g",
+      "dimensions": [
+        "功能配置上，搭载13.6mm大动圈单元，支持数字声音增强技术，支持定向传音；支持蓝牙5.4，可提供单次4小时，综合20小时的续航；还支持ENC通话降噪，智能抗风噪，保障清晰通话。",
+        "蓝牙版本：V5.4，传输距离：10m，喇叭直径：13.6mm，喇叭阻抗：20Ω，灵敏度：120±3dB，频响范围：20Hz-20kHz，电池容量（充电盒）：300mAh 3.7V，电池容量（耳机）：30mAh 3.7V，充电时间：约1.5h，配合充电盒播放时间：约16小时，制造商：深圳悦享无线科技有限公司。",
+        "其高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+      ],
+      "internal_structure": [
+        {
+          "value": "座舱底部结构一览，电路包括两块PCB板和电池单元。PCB板通过螺丝固定，与电池导线焊接。",
+          "evidence": {
+            "value": "座舱底部结构一览，电路包括两块PCB板和电池单元。PCB板通过螺丝固定，与电池导线焊接。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，电路包括两块PCB板和电池单元。PCB板通过螺丝固定，与电池导线焊接。"
+          }
+        },
+        {
+          "value": "电源输入小板另外一侧与连接主板的导线焊接。",
+          "evidence": {
+            "value": "电源输入小板另外一侧与连接主板的导线焊接。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "电源输入小板另外一侧与连接主板的导线焊接。"
+          }
+        },
+        {
+          "value": "充电盒主板一侧电路一览。",
+          "evidence": {
+            "value": "充电盒主板一侧电路一览。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "充电盒主板一侧电路一览。"
+          }
+        },
+        {
+          "value": "弯臂后端的腔体外侧外观一览，雕刻有L/R左右标识，设置有麦克风拾音孔。弯臂末端设计有品牌LOGO，同时也是触控区域。",
+          "evidence": {
+            "value": "弯臂后端的腔体外侧外观一览，雕刻有L/R左右标识，设置有麦克风拾音孔。弯臂末端设计有品牌LOGO，同时也是触控区域。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "弯臂后端的腔体外侧外观一览，雕刻有L/R左右标识，设置有麦克风拾音孔。弯臂末端设计有品牌LOGO，同时也是触控区域。"
+          }
+        },
+        {
+          "value": "麦克风拾音孔特写，同时也是指示灯开孔。",
+          "evidence": {
+            "value": "麦克风拾音孔特写，同时也是指示灯开孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "麦克风拾音孔特写，同时也是指示灯开孔。"
+          }
+        },
+        {
+          "value": "此次将要拆解的MONSTER魔声AIRMARS XKT30开放式耳机，拥有着十分独特的耳夹式结构设计，提供舒适的开放式聆听。功能配置上，搭载13.6mm大动圈单元，支持数字声音增强技术，支持定向传音；支持蓝牙5.4，可提供单次4小时，综合20小时的续航；还支持ENC通话降噪，智能抗风噪，保障清晰通话。下面来看看这款产品的详细拆解报告吧~",
+          "evidence": {
+            "value": "此次将要拆解的MONSTER魔声AIRMARS XKT30开放式耳机，拥有着十分独特的耳夹式结构设计，提供舒适的开放式聆听。功能配置上，搭载13.6mm大动圈单元，支持数字声音增强技术，支持定向传音；支持蓝牙5.4，可提供单次4小时，综合20小时的续航；还支持ENC通话降噪，智能抗风噪，保障清晰通话。下面来看看这款产品的详细拆解报告吧~",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "此次将要拆解的MONSTER魔声AIRMARS XKT30开放式耳机，拥有着十分独特的耳夹式结构设计，提供舒适的开放式聆听。功能配置上，搭载13.6mm大动圈单元，支持数字声音增强技术，支持定向传音；支持蓝牙5.4，可提供单次4小时，综合20小时的续航；还支持ENC通话降噪，智能抗风噪，保障清晰通话。下面来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "value": "打开音腔，内部仅设置有扬声器单元。",
+          "evidence": {
+            "value": "打开音腔，内部仅设置有扬声器单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "打开音腔，内部仅设置有扬声器单元。"
+          }
+        },
+        {
+          "value": "我爱音频网此前还拆解过魔声Open Ear 101开放式耳机、魔声Open Ear Lite开放式耳机、魔声Monster Aria ANC钻石之泪、魔声MISSION V1 TWS耳机、魔声Clarity 108 ANC TWS耳机、魔声CLARITY 8.0 ANC真无线耳机、魔声MONSTER iSport ACHIEVE 脖挂蓝牙耳机等。",
+          "evidence": {
+            "value": "我爱音频网此前还拆解过魔声Open Ear 101开放式耳机、魔声Open Ear Lite开放式耳机、魔声Monster Aria ANC钻石之泪、魔声MISSION V1 TWS耳机、魔声Clarity 108 ANC TWS耳机、魔声CLARITY 8.0 ANC真无线耳机、魔声MONSTER iSport ACHIEVE 脖挂蓝牙耳机等。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "我爱音频网此前还拆解过魔声Open Ear 101开放式耳机、魔声Open Ear Lite开放式耳机、魔声Monster Aria ANC钻石之泪、魔声MISSION V1 TWS耳机、魔声Clarity 108 ANC TWS耳机、魔声CLARITY 8.0 ANC真无线耳机、魔声MONSTER iSport ACHIEVE 脖挂蓝牙耳机等。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "PCB板通过螺丝固定，与电池导线焊接。",
+          "evidence": {
+            "value": "PCB板通过螺丝固定，与电池导线焊接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "PCB板通过螺丝固定，与电池导线焊接。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，取掉座舱上的所有组件。",
+          "evidence": {
+            "value": "卸掉螺丝，取掉座舱上的所有组件。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取掉座舱上的所有组件。"
+          }
+        }
+      ],
+      "sealing_method": [],
+      "wear_design": [
+        {
+          "value": "开放式蓝牙耳机中，耳夹式设计凭借更加轻巧的体积，与眼镜不冲突的佩戴方式，赢得了许多用户的喜爱。",
+          "evidence": {
+            "value": "开放式蓝牙耳机中，耳夹式设计凭借更加轻巧的体积，与眼镜不冲突的佩戴方式，赢得了许多用户的喜爱。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "开放式蓝牙耳机中，耳夹式设计凭借更加轻巧的体积，与眼镜不冲突的佩戴方式，赢得了许多用户的喜爱。"
+          }
+        },
+        {
+          "value": "我爱音频网近期也对\n目前市场上的11款热门产品\n进行了横评，从便携性、佩戴体验、音质等角度分享实际的使用体验。",
+          "evidence": {
+            "value": "我爱音频网近期也对\n目前市场上的11款热门产品\n进行了横评，从便携性、佩戴体验、音质等角度分享实际的使用体验。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "我爱音频网近期也对\n目前市场上的11款热门产品\n进行了横评，从便携性、佩戴体验、音质等角度分享实际的使用体验。"
+          }
+        },
+        {
+          "value": "此次将要拆解的MONSTER魔声AIRMARS XKT30开放式耳机，拥有着十分独特的耳夹式结构设计，提供舒适的开放式聆听。",
+          "evidence": {
+            "value": "此次将要拆解的MONSTER魔声AIRMARS XKT30开放式耳机，拥有着十分独特的耳夹式结构设计，提供舒适的开放式聆听。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "此次将要拆解的MONSTER魔声AIRMARS XKT30开放式耳机，拥有着十分独特的耳夹式结构设计，提供舒适的开放式聆听。"
+          }
+        },
+        {
+          "value": "MONSTER魔声AIRMARS XKT30开放式耳机整体外观一览，耳机采用了耳夹式设计，体积相较于主流耳夹式耳机较大。",
+          "evidence": {
+            "value": "MONSTER魔声AIRMARS XKT30开放式耳机整体外观一览，耳机采用了耳夹式设计，体积相较于主流耳夹式耳机较大。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "MONSTER魔声AIRMARS XKT30开放式耳机整体外观一览，耳机采用了耳夹式设计，体积相较于主流耳夹式耳机较大。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/01/2025012106140152.jpg",
+          "alt": "拆解报告：MONSTER魔声AIRMARS XKT30开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/01/2025012106140958.jpg",
+          "alt": "拆解报告：MONSTER魔声AIRMARS XKT30开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/01/2025012106135546.jpg",
+          "alt": "拆解报告：MONSTER魔声AIRMARS XKT30开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/01/2025012106135534.jpg",
+          "alt": "拆解报告：MONSTER魔声AIRMARS XKT30开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/01/2025012106135998.jpg",
+          "alt": "拆解报告：MONSTER魔声AIRMARS XKT30开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "座舱底部结构一览，电路包括两块PCB板和电池单元。PCB板通过螺丝固定，与电池导线焊接。",
+        "电源输入小板另外一侧与连接主板的导线焊接。",
+        "充电盒主板一侧电路一览。",
+        "弯臂后端的腔体外侧外观一览，雕刻有L/R左右标识，设置有麦克风拾音孔。弯臂末端设计有品牌LOGO，同时也是触控区域。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": {
+        "value": "53.0g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "魔声AIRMARS XKT30开放式耳机整机重量约为53.0g。\n单只耳"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "5.4g",
+      "weight_earbud_evidence": {
+        "value": "5.4g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "30开放式耳机整机重量约为53.0g。\n单只耳机重量约为5.4g。\n我爱音"
+      }
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "充电线采用了USB-A to Type-C插头。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电线采用了USB-A to Type-C插头。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电盒背面设置有Type-C充电接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒背面设置有Type-C充电接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "电源输入小板一侧电路一览，设置有Type-C充电接口母座。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "电源输入小板一侧电路一览，设置有Type-C充电接口母座。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "蓝牙版本：V5.4，传输距离：10m，喇叭直径：13.6mm，喇叭阻抗：20Ω，灵敏度：120±3dB，频响范围：20Hz-20kHz，电池容量（充电盒）：300mAh 3.7V，电池容量（耳机）：30mAh 3.7V，充电时间：约1.5h，配合充电盒播放时间：约16小时，制造商：深圳悦享无线科技有限公司。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "蓝牙版本：V5.4，传输距离：10m，喇叭直径：13.6mm，喇叭阻抗：20Ω，灵敏度：120±3dB，频响范围：20Hz-20kHz，电池容量（充电盒）：300mAh 3.7V，电池容量（耳机）：30mAh 3.7V，充电时间：约1.5h"
+        },
+        {
+          "param": "标记/认证",
+          "value": "我爱音频网使用\nCHARGERLAB POWER-Z KM003C\n对MONSTER魔声AIRMARS XKT30开放式耳机进行充电测试，输入功率约为1.67W。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "我爱音频网使用\nCHARGERLAB POWER-Z KM003C\n对MONSTER魔声AIRMARS XKT30开放式耳机进行充电测试，输入功率约为1.67W。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "充电盒内置锂电池型号：XW 602030，标称电压：3.7V，额定容量：300mAh 1.11Wh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒内置锂电池型号：XW 602030，标称电压：3.7V，额定容量：300mAh 1.11Wh。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "INJOINIC英集芯IP5416P是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SOC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "INJOINIC英集芯IP5416P是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SOC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5416P通过一个电感实现升压功能。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5416P通过一个电感实现升压功能。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5416P内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大200mA 输出电流，升压效率高至95%。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5416P内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大200mA 输出电流，升压效率高至95%。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5416P的线性充电提供最大300mA充电电流，内置IC温度和输入电压智能调节充电电流功能。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5416P的线性充电提供最大300mA充电电流，内置IC温度和输入电压智能调节充电电流功能。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5416P可实现TWS耳机入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至12uA。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5416P可实现TWS耳机入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至12uA。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5416P支持2/1颗LED电量显示。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5416P支持2/1颗LED电量显示。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5416P采用SOP8封装。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5416P采用SOP8封装。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "INJOINIC英集芯IP5416P详细资料图。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "INJOINIC英集芯IP5416P详细资料图。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "撕开电池绝缘保护，耳机内置锂电池型号：YD 451012，标称电压：3.7V，额定容量：35mAh 0.1295Wh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "撕开电池绝缘保护，耳机内置锂电池型号：YD 451012，标称电压：3.7V，额定容量：35mAh 0.1295Wh。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "内部主要配置方面，充电盒内置300mAh锂电池，采用了INJOINIC英集芯IP5416P多功能电源管理SOC，提供完整的电源解决方案；耳机采用了13.6mm动圈单元，内置一颗MEMS麦克风拾音，主控芯片为Bluetrum中科蓝讯AB5656C2蓝牙音频SoC。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "内部主要配置方面，充电盒内置300mAh锂电池，采用了INJOINIC英集芯IP5416P多功能电源管理SOC，提供完整的电源解决方案；耳机采用了13.6mm动圈单元，内置一颗MEMS麦克风拾音，主控芯片为Bluetrum中科蓝讯AB565"
+        },
+        {
+          "param": "电池容量",
+          "value": "300",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "300mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.4",
+      "codecs": [],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [
+        {
+          "value": "其高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+          "evidence": {
+            "value": "其高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "其高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+          }
+        }
+      ],
+      "ota_support": [],
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "5.4",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.4"
+      }
+    }
+  }
+}

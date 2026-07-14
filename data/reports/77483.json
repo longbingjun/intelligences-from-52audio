@@ -1,0 +1,522 @@
+{
+  "id": "77483",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/77483.html",
+  "title": "Muzik One头戴式蓝牙耳机",
+  "brand": "",
+  "model": "Muzik One头戴式蓝牙",
+  "category": "头戴式耳机",
+  "published_at": "2021-04-09",
+  "author": "Wen5",
+  "summary": "开篇： Muzik是一家智能耳机厂商，Muzik One头戴式蓝牙耳机是其几年前的一件产品。在外观设计上，头梁 […]",
+  "captured_at": "2026-07-14T02:10:53+00:00",
+  "data_completeness": 0.568,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "Muzik One头戴式蓝牙",
+      "category": "头戴式耳机",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "主板上Micro USB充电接口和3.5mm音频接口特写，均采用海绵包裹，提升\n密封\n防水性能。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "主板上Micro USB充电接口和3.5mm音频接口特写，均采用海绵包裹，提升\n密封\n防水性能。",
+            "confidence": 0.61,
+            "source_type": "text",
+            "source_text": "主板上Micro USB充电接口和3.5mm音频接口特写，均采用海绵包裹，提升\n密封\n防水性能。"
+          }
+        },
+        {
+          "text": "扬声器单元腔体背部中间位置同样设置有调音孔，防尘网覆盖。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "扬声器单元腔体背部中间位置同样设置有调音孔，防尘网覆盖。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "扬声器单元腔体背部中间位置同样设置有调音孔，防尘网覆盖。"
+          }
+        },
+        {
+          "text": "扬声器单元墙体背部特写，中间位置有防尘网覆盖的调音孔。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "扬声器单元墙体背部特写，中间位置有防尘网覆盖的调音孔。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "扬声器单元墙体背部特写，中间位置有防尘网覆盖的调音孔。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通话"
+      ],
+      "positioning_summary": "主板上Micro USB充电接口和3.5mm音频接口特写，均采用海绵包裹，提升\n密封\n防水性能。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "主板/PCBA",
+        "喇叭单元",
+        "电池",
+        "天线",
+        "麦克风"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm",
+          "model": "高通CSR57E6",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通CSR57E6",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "高通CSR57E6"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "电池与主板延伸过来的导线通过导线插座连接。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "左耳",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "进入拆解部分，卸掉螺丝取掉左耳扬声器单元结构。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "左耳",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "左耳腔体内部为电池单元。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "右耳",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "右耳扬声器上具备佩戴检测功能，蛇形走线就是检测信号天线。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机麦克风开孔特写，用于语音通话拾音。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "配置方面，Muzik One头戴式蓝牙耳机采用无线连接方式，搭载了40mm的驱动单元，拥有高清音效。耳罩一侧采用电容式触控按键，支持点击暂停播放，上下滑动加减音量，左右滑动切换音乐；另外一侧则配置了4颗物理按键，可以自定义调节。整体续航时间达到了30小时。下面就让我们一起来看看这款产品的外观设计及内部结构配置吧~"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机指示灯集成在功能按键中央。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "高通CSR57E6",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通CSR57E6",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Qualcomm高通CSR57E6 蓝牙音频SOC，\nBGA封装，搭配外置Flash，可以灵活配置满足不同功能需求。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [],
+      "process_hints": [
+        {
+          "value": "电池配备有一体化电路保护板和过充过放保护IC。",
+          "evidence": {
+            "value": "电池配备有一体化电路保护板和过充过放保护IC。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "电池配备有一体化电路保护板和过充过放保护IC。"
+          }
+        },
+        {
+          "value": "主板上还焊接有一块方形邮票版，邮票板上有主控芯片\n。",
+          "evidence": {
+            "value": "主板上还焊接有一块方形邮票版，邮票板上有主控芯片\n。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "主板上还焊接有一块方形邮票版，邮票板上有主控芯片\n。"
+          }
+        },
+        {
+          "value": "左耳内为电池单元和触控板，电池容量\n800mAh，配备有一体化电路保护板和过充过放保护IC；右耳内主板与功能按键小板通过连接器连接，主板上焊接有邮票小板。",
+          "evidence": {
+            "value": "左耳内为电池单元和触控板，电池容量\n800mAh，配备有一体化电路保护板和过充过放保护IC；右耳内主板与功能按键小板通过连接器连接，主板上焊接有邮票小板。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "左耳内为电池单元和触控板，电池容量\n800mAh，配备有一体化电路保护板和过充过放保护IC；右耳内主板与功能按键小板通过连接器连接，主板上焊接有邮票小板。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": ""
+    },
+    "structure": {
+      "form_factor": "头戴式耳机",
+      "earbud_type": "头戴",
+      "materials": [],
+      "ip_rating": null,
+      "weight_g": null,
+      "dimensions": [
+        "在外观设计上，头梁采用了一体式的设计，支持调整尺寸和折叠功能。",
+        "耳罩采用了磁吸固定，并配备有大小两种尺寸的耳罩。",
+        "配置方面，Muzik One头戴式蓝牙耳机采用无线连接方式，搭载了40mm的驱动单元，拥有高清音效。"
+      ],
+      "internal_structure": [
+        {
+          "value": "电池与主板延伸过来的导线通过导线插座连接。",
+          "evidence": {
+            "value": "电池与主板延伸过来的导线通过导线插座连接。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "电池与主板延伸过来的导线通过导线插座连接。"
+          }
+        },
+        {
+          "value": "主板与功能按键小板之间通过连接器插座连接。",
+          "evidence": {
+            "value": "主板与功能按键小板之间通过连接器插座连接。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "主板与功能按键小板之间通过连接器插座连接。"
+          }
+        },
+        {
+          "value": "进入拆解部分，卸掉螺丝取掉左耳扬声器单元结构。",
+          "evidence": {
+            "value": "进入拆解部分，卸掉螺丝取掉左耳扬声器单元结构。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "进入拆解部分，卸掉螺丝取掉左耳扬声器单元结构。"
+          }
+        },
+        {
+          "value": "扬声器单元墙体背部特写，中间位置有防尘网覆盖的调音孔。导线过孔，胶水密封固定。",
+          "evidence": {
+            "value": "扬声器单元墙体背部特写，中间位置有防尘网覆盖的调音孔。导线过孔，胶水密封固定。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "扬声器单元墙体背部特写，中间位置有防尘网覆盖的调音孔。导线过孔，胶水密封固定。"
+          }
+        },
+        {
+          "value": "左耳腔体内部为电池单元。",
+          "evidence": {
+            "value": "左耳腔体内部为电池单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "左耳腔体内部为电池单元。"
+          }
+        },
+        {
+          "value": "右耳扬声器上具备佩戴检测功能，蛇形走线就是检测信号天线。",
+          "evidence": {
+            "value": "右耳扬声器上具备佩戴检测功能，蛇形走线就是检测信号天线。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "右耳扬声器上具备佩戴检测功能，蛇形走线就是检测信号天线。"
+          }
+        },
+        {
+          "value": "板载蓝牙天线特写。",
+          "evidence": {
+            "value": "板载蓝牙天线特写。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "板载蓝牙天线特写。"
+          }
+        },
+        {
+          "value": "耳机麦克风开孔特写，用于语音通话拾音。",
+          "evidence": {
+            "value": "耳机麦克风开孔特写，用于语音通话拾音。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机麦克风开孔特写，用于语音通话拾音。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "左耳出音孔盖板特写，通过三颗螺丝固定。",
+          "evidence": {
+            "value": "左耳出音孔盖板特写，通过三颗螺丝固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "左耳出音孔盖板特写，通过三颗螺丝固定。"
+          }
+        },
+        {
+          "value": "二、\nM\nuzik\nO\nne\n头戴式蓝牙耳机拆解\n进入拆解部分，卸掉螺丝取掉左耳扬声器单元结构。",
+          "evidence": {
+            "value": "二、\nM\nuzik\nO\nne\n头戴式蓝牙耳机拆解\n进入拆解部分，卸掉螺丝取掉左耳扬声器单元结构。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "二、\nM\nuzik\nO\nne\n头戴式蓝牙耳机拆解\n进入拆解部分，卸掉螺丝取掉左耳扬声器单元结构。"
+          }
+        },
+        {
+          "value": "导线过孔，胶水\n密封\n固定。",
+          "evidence": {
+            "value": "导线过孔，胶水\n密封\n固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "导线过孔，胶水\n密封\n固定。"
+          }
+        },
+        {
+          "value": "拆掉右耳卡扣和胶水双重固定的耳机背板，背板内侧为圆形的触控板。",
+          "evidence": {
+            "value": "拆掉右耳卡扣和胶水双重固定的耳机背板，背板内侧为圆形的触控板。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "拆掉右耳卡扣和胶水双重固定的耳机背板，背板内侧为圆形的触控板。"
+          }
+        }
+      ],
+      "sealing_method": [
+        {
+          "value": "扬声器单元墙体背部特写，中间位置有防尘网覆盖的调音孔。",
+          "evidence": {
+            "value": "扬声器单元墙体背部特写，中间位置有防尘网覆盖的调音孔。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "扬声器单元墙体背部特写，中间位置有防尘网覆盖的调音孔。"
+          }
+        },
+        {
+          "value": "扬声器单元腔体背部中间位置同样设置有调音孔，防尘网覆盖。",
+          "evidence": {
+            "value": "扬声器单元腔体背部中间位置同样设置有调音孔，防尘网覆盖。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "扬声器单元腔体背部中间位置同样设置有调音孔，防尘网覆盖。"
+          }
+        }
+      ],
+      "wear_design": [
+        {
+          "value": "在外观设计上，头梁采用了一体式的设计，支持调整尺寸和折叠功能。",
+          "evidence": {
+            "value": "在外观设计上，头梁采用了一体式的设计，支持调整尺寸和折叠功能。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "在外观设计上，头梁采用了一体式的设计，支持调整尺寸和折叠功能。"
+          }
+        },
+        {
+          "value": "头梁与耳壳衔接结构采用了一种倒钩的圆弧设计，设计非常独特。",
+          "evidence": {
+            "value": "头梁与耳壳衔接结构采用了一种倒钩的圆弧设计，设计非常独特。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "头梁与耳壳衔接结构采用了一种倒钩的圆弧设计，设计非常独特。"
+          }
+        },
+        {
+          "value": "下面就让我们一起来看看这款产品的外观设计及内部结构配置吧~\n一、\nM\nuzik\nO\nne\n头戴式蓝牙耳机外观\nMuzik One头戴式蓝牙耳机耳罩采用了磁吸结构，并配备有大小两种尺寸供用户佩戴时自由选择。",
+          "evidence": {
+            "value": "下面就让我们一起来看看这款产品的外观设计及内部结构配置吧~\n一、\nM\nuzik\nO\nne\n头戴式蓝牙耳机外观\nMuzik One头戴式蓝牙耳机耳罩采用了磁吸结构，并配备有大小两种尺寸供用户佩戴时自由选择。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "下面就让我们一起来看看这款产品的外观设计及内部结构配置吧~\n一、\nM\nuzik\nO\nne\n头戴式蓝牙耳机外观\nMuzik One头戴式蓝牙耳机耳罩采用了磁吸结构，并配备有大小两种尺寸供用户佩戴时自由选择。"
+          }
+        },
+        {
+          "value": "Muzik One头戴式蓝牙耳机头梁内侧设置有头垫，减轻佩戴时的头部压力。",
+          "evidence": {
+            "value": "Muzik One头戴式蓝牙耳机头梁内侧设置有头垫，减轻佩戴时的头部压力。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "Muzik One头戴式蓝牙耳机头梁内侧设置有头垫，减轻佩戴时的头部压力。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/04/2021040910150160.png",
+          "alt": "拆解报告：Muzik One头戴式蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/04/2021040910150182.png",
+          "alt": "拆解报告：Muzik One头戴式蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/04/2021040910150166.png",
+          "alt": "拆解报告：Muzik One头戴式蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/04/2021040910150122.png",
+          "alt": "拆解报告：Muzik One头戴式蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/04/2021040910150290.png",
+          "alt": "拆解报告：Muzik One头戴式蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "电池与主板延伸过来的导线通过导线插座连接。",
+        "主板与功能按键小板之间通过连接器插座连接。",
+        "进入拆解部分，卸掉螺丝取掉左耳扬声器单元结构。",
+        "扬声器单元墙体背部特写，中间位置有防尘网覆盖的调音孔。导线过孔，胶水密封固定。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": null
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电方式",
+          "value": "我爱音频网采用\nChargerLAB POWER-Z KT002便携式电源测试仪\n对Muzik One头戴式蓝牙耳机进行有线充电测试，输入功率约为1.46W。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KT002便携式电源测试仪\n对Muzik One头戴式蓝牙耳机进行有线充电测试，输入功率约为1.46W。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Micro USB充电接口和3.5mm音频接口特写。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Micro USB充电接口和3.5mm音频接口特写。"
+        },
+        {
+          "param": "充电接口",
+          "value": "主板上Micro USB充电接口和3.5mm音频接口特写，均采用海绵包裹，提升\n密封\n防水性能。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "主板上Micro USB充电接口和3.5mm音频接口特写，均采用海绵包裹，提升\n密封\n防水性能。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Micro USB",
+          "unit": "",
+          "brand": "",
+          "model": "Micro USB",
+          "confidence": 0.8,
+          "source_ref": "Micro USB"
+        },
+        {
+          "param": "电池容量",
+          "value": "800",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "800mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": null,
+      "codecs": [],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [],
+      "ota_support": [],
+      "latency_notes": [],
+      "bluetooth_evidence": null
+    }
+  }
+}

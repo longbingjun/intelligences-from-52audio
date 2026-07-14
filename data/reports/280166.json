@@ -513,7 +513,7 @@
         "PC"
       ],
       "ip_rating": null,
-      "weight_g": "9g",
+      "weight_g": "52.0g",
       "dimensions": [
         "详细功能配置上，SHOKZ韶音OpenDots 2耳夹耳机升级Bassphere 2.0低频聚合技术，内置11.8mm对称双单元，同时通过优化单元结构，进一步降低失真，带来澎湃饱满的低频；搭载全新杜比音效，声场更开阔，细节更丰富，提供更具临场感的沉浸式音效；还采用了MirrorPitch聚能镜技术，增强声量的同时，降低漏音，保护用户隐私。",
         "耳机内部搭载微电新能源3.85V/60mAh钢壳扣式电池，采用11.8mm对称双单元，内置双MEMS麦克风+加速度传感器提供精准拾音，主控芯片为BES恒玄科技BES2700iH蓝牙音频SoC，其他还采用了WINSEMI稳先微WSDF5317C锂电保护IC等方案。"
@@ -694,10 +694,24 @@
       ],
       "ip_rating_evidence": null,
       "weight_evidence": {
-        "value": "9g",
-        "confidence": 0.75,
+        "value": "52.0g",
+        "confidence": 0.85,
         "source_type": "text",
-        "source_text": "9g"
+        "source_text": "HOKZ韶音OpenDots 2耳夹耳机整机重量约为52.0g。\n充电盒"
+      },
+      "weight_case_g": "39.0g",
+      "weight_case_evidence": {
+        "value": "39.0g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "s 2耳夹耳机整机重量约为52.0g。\n充电盒重量约为39.0g。\n单只耳"
+      },
+      "weight_earbud_g": "6.5g",
+      "weight_earbud_evidence": {
+        "value": "6.5g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "2.0g。\n充电盒重量约为39.0g。\n单只耳机重量约为6.5g。\n我爱音"
       }
     },
     "hardware": {
@@ -934,6 +948,6 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.78,
+  "data_completeness": 0.79,
   "source_layer": "technical"
 }

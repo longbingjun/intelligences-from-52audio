@@ -1,0 +1,758 @@
+{
+  "id": "169208",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/169208.html",
+  "title": "MEIZU魅族PANDAER Air真无线耳机",
+  "brand": "",
+  "model": "MEIZU魅族PANDAER Air",
+  "category": "真无线耳机TWS",
+  "published_at": "2023-08-02",
+  "author": "Wen5",
+  "summary": "PANDAER是MEIZU魅族旗下的奇趣潮流品牌，拥有PANDAER X、PANDAER潮电、PANDAER生 […]",
+  "captured_at": "2026-07-14T02:06:51+00:00",
+  "data_completeness": 0.766,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "MEIZU魅族PANDAER Air",
+      "category": "真无线耳机TWS",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "近日，PANDAER系列上架了一款TWS耳机新品——PANDAER Air，拥有着极致轻巧的外观设计和近乎“0压”的舒适佩戴体验。",
+          "tag": "舒适佩戴",
+          "evidence": {
+            "value": "近日，PANDAER系列上架了一款TWS耳机新品——PANDAER Air，拥有着极致轻巧的外观设计和近乎“0压”的舒适佩戴体验。",
+            "confidence": 0.75,
+            "source_type": "text",
+            "source_text": "近日，PANDAER系列上架了一款TWS耳机新品——PANDAER Air，拥有着极致轻巧的外观设计和近乎“0压”的舒适佩戴体验。"
+          }
+        },
+        {
+          "text": "三、我爱音频网总结\nMEIZU魅族PANDAER Air真无线耳机在外观设计方面，整机体积非常小巧轻盈，整机重量仅为35g，非常便携；耳机采用了柄状的半入耳式设计，光滑圆润的烤漆工艺质感，单只耳机重量也仅3.6g，拥有着轻若无物的舒适佩戴体验。",
+          "tag": "舒适佩戴",
+          "evidence": {
+            "value": "三、我爱音频网总结\nMEIZU魅族PANDAER Air真无线耳机在外观设计方面，整机体积非常小巧轻盈，整机重量仅为35g，非常便携；耳机采用了柄状的半入耳式设计，光滑圆润的烤漆工艺质感，单只耳机重量也仅3.6g，拥有着轻若无物的舒适佩戴体验。",
+            "confidence": 0.75,
+            "source_type": "text",
+            "source_text": "三、我爱音频网总结\nMEIZU魅族PANDAER Air真无线耳机在外观设计方面，整机体积非常小巧轻盈，整机重量仅为35g，非常便携；耳机采用了柄状的半入耳式设计，光滑圆润的烤漆工艺质感，单只耳机重量也仅3.6g，拥有着轻若无物的舒适佩戴体验。"
+          }
+        },
+        {
+          "text": "耳机内侧的调音孔特写，用于保障音腔内部空气流通，通过防尘网防护。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "耳机内侧的调音孔特写，用于保障音腔内部空气流通，通过防尘网防护。",
+            "confidence": 0.66,
+            "source_type": "text",
+            "source_text": "耳机内侧的调音孔特写，用于保障音腔内部空气流通，通过防尘网防护。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通话"
+      ],
+      "positioning_summary": "近日，PANDAER系列上架了一款TWS耳机新品——PANDAER Air，拥有着极致轻巧的外观设计和近乎“0压”的舒适佩戴体验。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "电池",
+        "充电仓",
+        "主板/PCBA",
+        "喇叭单元",
+        "麦克风",
+        "天线",
+        "降噪系统"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA1061",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA1061",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，采用了LPS微源LP5308过压过流保护IC，SinhMicro昇生微电子SS809Q集成电源管理功能的8位低功耗微控制器，ETA钰泰ETA1061 1μA静态电流的1A同步升压转换器等。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "WINSEMI稳先微",
+          "model": "WINSEMI稳先微WSDF23A",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF23A",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用了WINSEMI稳先微WSDF23A2N2H全集成锂电保护IC，负责电池的过充、过放、过流、短路等保护功能。"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA1061",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA1061",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，采用了LPS微源LP5308过压过流保护IC，SinhMicro昇生微电子SS809Q集成电源管理功能的8位低功耗微控制器，ETA钰泰ETA1061 1μA静态电流的1A同步升压转换器等。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "WINSEMI稳先微",
+          "model": "WINSEMI稳先微WSDF23A",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF23A",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用了WINSEMI稳先微WSDF23A2N2H全集成锂电保护IC，负责电池的过充、过放、过流、短路等保护功能。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3V/00mAh",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3V/00mAh",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内置电池容量300mAh，来自CEL金赛尔；"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "振膜动圈",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "振膜动圈",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机头部搭载了13mm复合振膜动圈单元和金赛尔40mAh锂电池，分别通过导线连接到耳机柄内部主板。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "主板上，搭载了一颗瑞勤电子的MEMS麦克风拾音；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒背面介绍有产品的功能特点：13mm动圈、5.3蓝牙、7h播放、3.8g超轻体积、Flyme秒连、ENC通话降噪；产品参数信息，产品型号：PTE01，蓝牙版本：5.3，发声单元：13mm动圈，频率响应范围：20-20KHz，扬声器灵敏度：119±3dB，麦克风灵敏度：-38dB，蓝牙编解码：AAC/SBC，蓝牙有效距离：10m，充电端口：USB-C，耳机输入：5V-0.3A，充电仓输入：5V-1A，电池容量：40mAh ( 耳机）300mAh（充电仓）；以及深圳市魅族科技有限公司部分介绍。"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒背面介绍有产品的功能特点：13mm动圈、5.3蓝牙、7h播放、3.8g超轻体积、Flyme秒连、ENC通话降噪；产品参数信息，产品型号：PTE01，蓝牙版本：5.3，发声单元：13mm动圈，频率响应范围：20-20KHz，扬声器灵敏度：119±3dB，麦克风灵敏度：-38dB，蓝牙编解码：AAC/SBC，蓝牙有效距离：10m，充电端口：USB-C，耳机输入：5V-0.3A，充电仓输入：5V-1A，电池容量：40mAh ( 耳机）300mAh（充电仓）；以及深圳市魅族科技有限公司部分介绍。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，通过螺丝固定主板，通过ZIF连接器连接排线。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "魅族PANDAER Air真无线耳机在功能配置方面，搭载了13mm大尺寸复合动圈单元，支持低延迟蓝牙5.3连接，支持ENC通话降噪功能，拥有着单次约7小时和综合约25小时的续航时间；还支持Flyme妙连，搭配Flyme生态音源设备，实现开盖弹窗，点击一键快连功能。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒背面介绍有产品的功能特点：13mm动圈、5.3蓝牙、7h播放、3.8g超轻体积、Flyme秒连、ENC通话降噪；产品参数信息，产品型号：PTE01，蓝牙版本：5.3，发声单元：13mm动圈，频率响应范围：20-20KHz，扬声器灵敏度：119±3dB，麦克风灵敏度：-38dB，蓝牙编解码：AAC/SBC，蓝牙有效距离：10m，充电端口：USB-C，耳机输入：5V-0.3A，充电仓输入：5V-1A，电池容量：40mAh ( 耳机）300mAh（充电仓）；以及深圳市魅族科技有限公司部分介绍。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机主板另外一侧设置有支架固定蓝牙天线。"
+          }
+        },
+        {
+          "component": "降噪系统",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "降噪系统",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "魅族PANDAER Air真无线耳机在功能配置方面，搭载了13mm大尺寸复合动圈单元，支持低延迟蓝牙5.3连接，支持ENC通话降噪功能，拥有着单次约7小时和综合约25小时的续航时间；还支持Flyme妙连，搭配Flyme生态音源设备，实现开盖弹窗，点击一键快连功能。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "魅族PANDAER Air真无线耳机充电盒采用了鹅卵石状的设计，哑光的灰色配色，体积非常轻巧，正面设计有“PANDAER”品牌LOGO和指示灯。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "拆开卡扣式固定的充电盒外壳，取出内部座舱结构。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机柄底部设置有充电触点和通话麦克风拾音孔。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA1061",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA1061",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "ETA1061采用SOT23-6小封装，集成5V高效率，同步升压变换器；5V升压常开，功耗低至1.7uA，可支持0.4A最大升压输出，支持低电池电压升压输出，可实现耳机充电时间更长，且可以通过控制ENBST引脚，来开关5V输出；内置1.4MHz的开关频率，可以使用小体积的2.2uH电感器。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA1061",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA1061",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "ETA钰泰ETA1061详细资料图。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WINSEMI稳先微WSDF23A",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF23A",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "WINSEMI稳先微WSDF23A2N2H全集成锂电保护IC，内置先进的功率 MOSFET，高精度的电压检测电路和延时电路，具有过充、过放、过流、短路等所有电池需要的保护功能，并且工作时功耗非常低，同时还带有CTL船运模式设置功能。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [
+        "包装盒内部物品有耳机、充电线和产品使用说明书。"
+      ],
+      "process_hints": [
+        {
+          "value": "后腔底部结构一览，可以看到耳机柄内主板单元，导线与主板焊接。",
+          "evidence": {
+            "value": "后腔底部结构一览，可以看到耳机柄内主板单元，导线与主板焊接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "后腔底部结构一览，可以看到耳机柄内主板单元，导线与主板焊接。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": "三、我爱音频网总结 MEIZU魅族PANDAER Air真无线耳机在外观设计方面，整机体积非常小巧轻盈，整机重量仅为35g，非常便携；耳机采用了柄状的半入耳式设计，光滑圆润的烤漆工艺质感，单只耳机重量也仅3.6g，拥有着轻若无物的舒适佩戴体验。 内部结构配置方面，充电盒内部包括了主板、电池和一条FPC排线。内置电池容量300mAh，来自CEL金赛尔；排线上设置有LED指示灯和用于开盖即连的霍尔元件；主板上，采用了LPS微源LP5308过压过流保护IC，SinhMicro昇生微电子SS809Q集成电源管理功能的8位低功耗微控制器，ETA钰泰ETA1061 1μA静态电流的1A同步升压转换器等。 耳机头部搭载了13mm复合振膜动圈单元和金赛尔40mAh锂电池，分别通过导线连接到耳机柄内部主板。主板上，搭载了一颗瑞勤电子的MEMS麦克风拾音；采用了WINSEMI稳先微WSDF23A2N2H全集成锂电保护IC，负责电池的过充、过放、过流、短路等保护功能。"
+    },
+    "structure": {
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
+      "materials": [
+        "PC"
+      ],
+      "ip_rating": null,
+      "weight_g": "35.0g",
+      "dimensions": [
+        "魅族PANDAER Air真无线耳机在功能配置方面，搭载了13mm大尺寸复合动圈单元，支持低延迟蓝牙5.3连接，支持ENC通话降噪功能，拥有着单次约7小时和综合约25小时的续航时间；还支持Flyme妙连，搭配Flyme生态音源设备，实现开盖弹窗，点击一键快连功能。",
+        "包装盒背面介绍有产品的功能特点：13mm动圈、5.3蓝牙、7h播放、3.8g超轻体积、Flyme秒连、ENC通话降噪；产品参数信息，产品型号：PTE01，蓝牙版本：5.3，发声单元：13mm动圈，频率响应范围：20-20KHz，扬声器灵敏度：119±3dB，麦克风灵敏度：-38dB，蓝牙编解码：AAC/SBC，蓝牙有效距离：10m，充电端口：USB-C，耳机输入：5V-0.3A，充电仓输入：5V-1A，电池容量：40mAh ( 耳机）300mAh（充电仓）；以及深圳市魅族科技有限公司部分介绍。",
+        "经我爱音频网实测，扬声器尺寸约为13mm。"
+      ],
+      "internal_structure": [
+        {
+          "value": "座舱另外一侧结构一览，框架内部设置电池单元，起到很好的保护作用。",
+          "evidence": {
+            "value": "座舱另外一侧结构一览，框架内部设置电池单元，起到很好的保护作用。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "座舱另外一侧结构一览，框架内部设置电池单元，起到很好的保护作用。"
+          }
+        },
+        {
+          "value": "座舱底部结构一览，通过螺丝固定主板，通过ZIF连接器连接排线。",
+          "evidence": {
+            "value": "座舱底部结构一览，通过螺丝固定主板，通过ZIF连接器连接排线。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，通过螺丝固定主板，通过ZIF连接器连接排线。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，挑开连接器，取出主板和电池。",
+          "evidence": {
+            "value": "卸掉螺丝，挑开连接器，取出主板和电池。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，挑开连接器，取出主板和电池。"
+          }
+        },
+        {
+          "value": "魅族PANDAER Air真无线耳机在功能配置方面，搭载了13mm大尺寸复合动圈单元，支持低延迟蓝牙5.3连接，支持ENC通话降噪功能，拥有着单次约7小时和综合约25小时的续航时间；还支持Flyme妙连，搭配Flyme生态音源设备，实现开盖弹窗，点击一键快连功能。",
+          "evidence": {
+            "value": "魅族PANDAER Air真无线耳机在功能配置方面，搭载了13mm大尺寸复合动圈单元，支持低延迟蓝牙5.3连接，支持ENC通话降噪功能，拥有着单次约7小时和综合约25小时的续航时间；还支持Flyme妙连，搭配Flyme生态音源设备，实现开盖弹窗，点击一键快连功能。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "魅族PANDAER Air真无线耳机在功能配置方面，搭载了13mm大尺寸复合动圈单元，支持低延迟蓝牙5.3连接，支持ENC通话降噪功能，拥有着单次约7小时和综合约25小时的续航时间；还支持Flyme妙连，搭配Flyme生态音源设备，实现开盖弹窗，点击一键快连功能。"
+          }
+        },
+        {
+          "value": "耳机柄底部设置有充电触点和通话麦克风拾音孔。",
+          "evidence": {
+            "value": "耳机柄底部设置有充电触点和通话麦克风拾音孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机柄底部设置有充电触点和通话麦克风拾音孔。"
+          }
+        },
+        {
+          "value": "耳机主板另外一侧设置有支架固定蓝牙天线。",
+          "evidence": {
+            "value": "耳机主板另外一侧设置有支架固定蓝牙天线。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机主板另外一侧设置有支架固定蓝牙天线。"
+          }
+        },
+        {
+          "value": "支架内侧结构一览，蓝牙天线露铜连接到主板。",
+          "evidence": {
+            "value": "支架内侧结构一览，蓝牙天线露铜连接到主板。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "支架内侧结构一览，蓝牙天线露铜连接到主板。"
+          }
+        },
+        {
+          "value": "拆开卡扣式固定的充电盒外壳，取出内部座舱结构。",
+          "evidence": {
+            "value": "拆开卡扣式固定的充电盒外壳，取出内部座舱结构。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "拆开卡扣式固定的充电盒外壳，取出内部座舱结构。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "二、\nMEIZU魅族PANDAER Air真无线耳机拆解\n通过开箱，我们详细了解了MEIZU魅族PANDAER Air真无线耳机的轻巧外观设计，下面进入拆解部分，看看内部结构设计及硬件配置信息~\n充电盒拆解\n拆开卡扣式固定的充电盒外壳，取出内部座舱结构。",
+          "evidence": {
+            "value": "二、\nMEIZU魅族PANDAER Air真无线耳机拆解\n通过开箱，我们详细了解了MEIZU魅族PANDAER Air真无线耳机的轻巧外观设计，下面进入拆解部分，看看内部结构设计及硬件配置信息~\n充电盒拆解\n拆开卡扣式固定的充电盒外壳，取出内部座舱结构。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "二、\nMEIZU魅族PANDAER Air真无线耳机拆解\n通过开箱，我们详细了解了MEIZU魅族PANDAER Air真无线耳机的轻巧外观设计，下面进入拆解部分，看看内部结构设计及硬件配置信息~\n充电盒拆解\n拆开卡扣式固定的充电盒外壳，取出内部座舱结构。"
+          }
+        },
+        {
+          "value": "座舱底部结构一览，通过螺丝固定主板，通过ZIF连接器连接排线。",
+          "evidence": {
+            "value": "座舱底部结构一览，通过螺丝固定主板，通过ZIF连接器连接排线。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，通过螺丝固定主板，通过ZIF连接器连接排线。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，挑开连接器，取出主板和电池。",
+          "evidence": {
+            "value": "卸掉螺丝，挑开连接器，取出主板和电池。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，挑开连接器，取出主板和电池。"
+          }
+        },
+        {
+          "value": "座舱底部结构一览，框架通过螺丝固定。",
+          "evidence": {
+            "value": "座舱底部结构一览，框架通过螺丝固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，框架通过螺丝固定。"
+          }
+        }
+      ],
+      "sealing_method": [
+        {
+          "value": "耳机内侧的调音孔特写，用于保障音腔内部空气流通，通过防尘网防护。",
+          "evidence": {
+            "value": "耳机内侧的调音孔特写，用于保障音腔内部空气流通，通过防尘网防护。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "耳机内侧的调音孔特写，用于保障音腔内部空气流通，通过防尘网防护。"
+          }
+        }
+      ],
+      "wear_design": [
+        {
+          "value": "近日，PANDAER系列上架了一款TWS耳机新品——PANDAER Air，拥有着极致轻巧的外观设计和近乎“0压”的舒适佩戴体验。",
+          "evidence": {
+            "value": "近日，PANDAER系列上架了一款TWS耳机新品——PANDAER Air，拥有着极致轻巧的外观设计和近乎“0压”的舒适佩戴体验。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "近日，PANDAER系列上架了一款TWS耳机新品——PANDAER Air，拥有着极致轻巧的外观设计和近乎“0压”的舒适佩戴体验。"
+          }
+        },
+        {
+          "value": "单只耳机重量也仅为3.6g，佩戴轻若无物。",
+          "evidence": {
+            "value": "单只耳机重量也仅为3.6g，佩戴轻若无物。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "单只耳机重量也仅为3.6g，佩戴轻若无物。"
+          }
+        },
+        {
+          "value": "三、我爱音频网总结\nMEIZU魅族PANDAER Air真无线耳机在外观设计方面，整机体积非常小巧轻盈，整机重量仅为35g，非常便携；耳机采用了柄状的半入耳式设计，光滑圆润的烤漆工艺质感，单只耳机重量也仅3.6g，拥有着轻若无物的舒适佩戴体验。",
+          "evidence": {
+            "value": "三、我爱音频网总结\nMEIZU魅族PANDAER Air真无线耳机在外观设计方面，整机体积非常小巧轻盈，整机重量仅为35g，非常便携；耳机采用了柄状的半入耳式设计，光滑圆润的烤漆工艺质感，单只耳机重量也仅3.6g，拥有着轻若无物的舒适佩戴体验。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "三、我爱音频网总结\nMEIZU魅族PANDAER Air真无线耳机在外观设计方面，整机体积非常小巧轻盈，整机重量仅为35g，非常便携；耳机采用了柄状的半入耳式设计，光滑圆润的烤漆工艺质感，单只耳机重量也仅3.6g，拥有着轻若无物的舒适佩戴体验。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/08/2023080206162467.jpeg",
+          "alt": "拆解报告：MEIZU魅族PANDAER Air真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/08/2023080206162675.jpeg",
+          "alt": "拆解报告：MEIZU魅族PANDAER Air真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/08/2023080206162836.jpeg",
+          "alt": "拆解报告：MEIZU魅族PANDAER Air真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/08/2023080206162917.jpeg",
+          "alt": "拆解报告：MEIZU魅族PANDAER Air真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/08/2023080206163197.jpeg",
+          "alt": "拆解报告：MEIZU魅族PANDAER Air真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "座舱另外一侧结构一览，框架内部设置电池单元，起到很好的保护作用。",
+        "座舱底部结构一览，通过螺丝固定主板，通过ZIF连接器连接排线。",
+        "卸掉螺丝，挑开连接器，取出主板和电池。",
+        "魅族PANDAER Air真无线耳机在功能配置方面，搭载了13mm大尺寸复合动圈单元，支持低延迟蓝牙5.3连接，支持ENC通话降噪功能，拥有着单次约7小时和综合约25小时的续航时间；还支持Flyme妙连，搭配Flyme生态音源设备，实现开盖弹窗，点击一键快连功能。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": {
+        "value": "35.0g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "ZU魅族PANDAER Air真无线耳机整机重量仅约为35.0g，非常轻盈"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "3.6g",
+      "weight_earbud_evidence": {
+        "value": "3.6g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "机整机重量仅约为35.0g，非常轻盈。\n单只耳机重量也仅为3.6g，佩戴轻若"
+      }
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "耳机充电线，采用了USB-A to Type-C接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "耳机充电线，采用了USB-A to Type-C接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电盒底部设置Type-C充电接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒底部设置Type-C充电接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C充电母座特写。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充电母座特写。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "包装盒背面介绍有产品的功能特点：13mm动圈、5.3蓝牙、7h播放、3.8g超轻体积、Flyme秒连、ENC通话降噪；产品参数信息，产品型号：PTE01，蓝牙版本：5.3，发声单元：13mm动圈，频率响应范围：20-20KHz，扬声器灵敏度：119±3dB，麦克风灵敏度：-38dB，蓝牙编解码：AAC/SBC，蓝牙有效距离：10m，充电端口：USB-C，耳机输入：5V-0.3A，充电仓输入：5V-1A，电池容量：40mAh ( 耳机）300mAh（充电仓）；以及深圳市魅族科技有限公司部分介绍。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "包装盒背面介绍有产品的功能特点：13mm动圈、5.3蓝牙、7h播放、3.8g超轻体积、Flyme秒连、ENC通话降噪；产品参数信息，产品型号：PTE01，蓝牙版本：5.3，发声单元：13mm动圈，频率响应范围：20-20KHz，扬声器灵敏度"
+        },
+        {
+          "param": "标记/认证",
+          "value": "充电盒内置锂离子电池型号：CEL 701435，标称电压：3.7V，额定容量：300mAh 1.11Wh，生产日期：2023年5月9日，来自CEL金赛尔。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒内置锂离子电池型号：CEL 701435，标称电压：3.7V，额定容量：300mAh 1.11Wh，生产日期：2023年5月9日，来自CEL金赛尔。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "耳机内置锂电池标签上信息，型号：CEL 501010，标称电压：3.7V，额定容量：40mAh 0.148Wh，生产日期：2023年6月，同样来自CEL金赛尔。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "耳机内置锂电池标签上信息，型号：CEL 501010，标称电压：3.7V，额定容量：40mAh 0.148Wh，生产日期：2023年6月，同样来自CEL金赛尔。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "内置电池容量300mAh，来自CEL金赛尔；排线上设置有LED指示灯和用于开盖即连的霍尔元件；主板上，采用了LPS微源LP5308过压过流保护IC，SinhMicro昇生微电子SS809Q集成电源管理功能的8位低功耗微控制器，ETA钰泰ETA1061 1μA静态电流的1A同步升压转换器等。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "内置电池容量300mAh，来自CEL金赛尔；排线上设置有LED指示灯和用于开盖即连的霍尔元件；主板上，采用了LPS微源LP5308过压过流保护IC，SinhMicro昇生微电子SS809Q集成电源管理功能的8位低功耗微控制器，ETA钰泰ET"
+        },
+        {
+          "param": "电池容量",
+          "value": "40",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "40mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.3",
+      "codecs": [
+        {
+          "value": "AAC",
+          "evidence": {
+            "value": "AAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "包装盒背面介绍有产品的功能特点：13mm动圈、5.3蓝牙、7h播放、3.8g超轻体积、Flyme秒连、ENC通话降噪；产品参数信息，产品型号：PTE01，蓝牙版本：5.3，发声单元：13mm动圈，频率响应范围：20-20KHz，扬声器灵敏度：119±3dB，麦克风灵敏度：-38dB，蓝牙编解码：AAC/SBC，蓝牙有效距离：10m，充电端口：USB-C，耳机输入：5V-0.3A，充电仓输入：5V-1A，电池容量：40mAh ( 耳机）300mAh（充电仓）；以及深圳市魅族科技有限公司部分介绍。"
+          }
+        },
+        {
+          "value": "SBC",
+          "evidence": {
+            "value": "SBC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "包装盒背面介绍有产品的功能特点：13mm动圈、5.3蓝牙、7h播放、3.8g超轻体积、Flyme秒连、ENC通话降噪；产品参数信息，产品型号：PTE01，蓝牙版本：5.3，发声单元：13mm动圈，频率响应范围：20-20KHz，扬声器灵敏度：119±3dB，麦克风灵敏度：-38dB，蓝牙编解码：AAC/SBC，蓝牙有效距离：10m，充电端口：USB-C，耳机输入：5V-0.3A，充电仓输入：5V-1A，电池容量：40mAh ( 耳机）300mAh（充电仓）；以及深圳市魅族科技有限公司部分介绍。"
+          }
+        }
+      ],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [
+        {
+          "value": "据我爱音频网拆解了解到，目前昇生微的POWER MCU已经在\n漫步者\n、\n黑鲨\n、\nRedmi\n、\n绿联\n、\n小米、OPPO、荣耀、realme、努比亚、联想、诺基亚、HTC、声阔、万魔、FIIL、233621、酷狗、JBL、飞利浦、Skullcandy、百度小度、雷蛇、紫米、阿思翠、聆耳、艾特铭客\n等品牌旗下的畅销机型中得到广泛应用。",
+          "evidence": {
+            "value": "据我爱音频网拆解了解到，目前昇生微的POWER MCU已经在\n漫步者\n、\n黑鲨\n、\nRedmi\n、\n绿联\n、\n小米、OPPO、荣耀、realme、努比亚、联想、诺基亚、HTC、声阔、万魔、FIIL、233621、酷狗、JBL、飞利浦、Skullcandy、百度小度、雷蛇、紫米、阿思翠、聆耳、艾特铭客\n等品牌旗下的畅销机型中得到广泛应用。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "据我爱音频网拆解了解到，目前昇生微的POWER MCU已经在\n漫步者\n、\n黑鲨\n、\nRedmi\n、\n绿联\n、\n小米、OPPO、荣耀、realme、努比亚、联想、诺基亚、HTC、声阔、万魔、FIIL、233621、酷狗、JBL、飞利浦、Skullcandy、百度小度、雷蛇、紫米、阿思翠、聆耳、艾特铭客\n等品牌旗下的畅销机型中得到广泛应用。"
+          }
+        },
+        {
+          "value": "WSDF23A2N2H具有非常小的DFN4L-1X1封装，非常适合应用于空间限制得非常小的可充电电池组应用。",
+          "evidence": {
+            "value": "WSDF23A2N2H具有非常小的DFN4L-1X1封装，非常适合应用于空间限制得非常小的可充电电池组应用。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "WSDF23A2N2H具有非常小的DFN4L-1X1封装，非常适合应用于空间限制得非常小的可充电电池组应用。"
+          }
+        }
+      ],
+      "ota_support": [],
+      "latency_notes": [
+        {
+          "value": "魅族PANDAER Air真无线耳机在功能配置方面，搭载了13mm大尺寸复合动圈单元，支持低延迟蓝牙5.3连接，支持ENC通话降噪功能，拥有着单次约7小时和综合约25小时的续航时间；还支持Flyme妙连，搭配Flyme生态音源设备，实现开盖弹窗，点击一键快连功能。",
+          "evidence": {
+            "value": "魅族PANDAER Air真无线耳机在功能配置方面，搭载了13mm大尺寸复合动圈单元，支持低延迟蓝牙5.3连接，支持ENC通话降噪功能，拥有着单次约7小时和综合约25小时的续航时间；还支持Flyme妙连，搭配Flyme生态音源设备，实现开盖弹窗，点击一键快连功能。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "魅族PANDAER Air真无线耳机在功能配置方面，搭载了13mm大尺寸复合动圈单元，支持低延迟蓝牙5.3连接，支持ENC通话降噪功能，拥有着单次约7小时和综合约25小时的续航时间；还支持Flyme妙连，搭配Flyme生态音源设备，实现开盖弹窗，点击一键快连功能。"
+          }
+        }
+      ],
+      "bluetooth_evidence": {
+        "value": "5.3",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.3"
+      }
+    }
+  }
+}

@@ -83,6 +83,20 @@
             "source_type": "summary_prose",
             "source_text": "主板上，搭载INJOINIC英集芯IP5513电源管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，负责内置电池的充放电管理和整机控制；"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WP1230",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WP1230",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "其他还采用了Wayon维安WP1230过压保护IC等。"
+          }
         }
       ],
       "bom_table": [
@@ -98,6 +112,20 @@
             "confidence": 0.85,
             "source_type": "summary_prose",
             "source_text": "主板上，搭载INJOINIC英集芯IP5513电源管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，负责内置电池的充放电管理和整机控制；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WP1230",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WP1230",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "其他还采用了Wayon维安WP1230过压保护IC等。"
           }
         },
         {
@@ -313,15 +341,29 @@
         {
           "component": "芯片/模组",
           "brand": "",
-          "model": "英集芯IP5513",
+          "model": "IP5513",
           "qty_hint": "1",
           "side": "",
           "role": "主控/蓝牙",
           "evidence": {
-            "value": "英集芯IP5513",
+            "value": "IP5513",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。"
+            "source_text": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WP1230",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "WP1230",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Wayon维安WP1230过压保护IC，当检测到错误的输入操作条件时，自动断开系统与其输出引脚（OUT）的连接。"
           }
         }
       ],
@@ -557,9 +599,18 @@
       "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "48.8g",
-        "confidence": 0.75,
+        "confidence": 0.85,
         "source_type": "text",
-        "source_text": "48.8g"
+        "source_text": "实测，OKSJ欧克士HM-11开放式耳机整机重量约为48.8g。\n单只耳"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "5.5g",
+      "weight_earbud_evidence": {
+        "value": "5.5g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "11开放式耳机整机重量约为48.8g。\n单只耳机重量约为5.5g。\n我爱音"
       }
     },
     "hardware": {
@@ -774,6 +825,6 @@
       }
     }
   },
-  "data_completeness": 0.744,
+  "data_completeness": 0.77,
   "source_layer": "technical"
 }

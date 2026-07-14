@@ -314,15 +314,15 @@
         {
           "component": "芯片/模组",
           "brand": "",
-          "model": "英集芯IP5513",
+          "model": "IP5513",
           "qty_hint": "1",
           "side": "",
           "role": "主控/蓝牙",
           "evidence": {
-            "value": "英集芯IP5513",
+            "value": "IP5513",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。"
+            "source_text": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
           }
         }
       ],
@@ -551,9 +551,18 @@
       "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "63.5g",
-        "confidence": 0.75,
+        "confidence": 0.85,
         "source_type": "text",
-        "source_text": "63.5g"
+        "source_text": "G塞那Z50S Pro Max开放式耳机整机重量约为63.5g。\n单只耳"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "6.5g",
+      "weight_earbud_evidence": {
+        "value": "6.5g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "ax开放式耳机整机重量约为63.5g。\n单只耳机重量约为6.5g。\n我爱音"
       }
     },
     "hardware": {
@@ -739,6 +748,6 @@
       }
     }
   },
-  "data_completeness": 0.756,
+  "data_completeness": 0.766,
   "source_layer": "technical"
 }

@@ -104,6 +104,20 @@
         },
         {
           "component": "芯片/模组",
+          "brand": "",
+          "model": "CM1137",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
+          "evidence": {
+            "value": "CM1137",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用ICM创芯微CM1137-CCS锂电池保护IC，负责内置电池的充放电保护。"
+          }
+        },
+        {
+          "component": "芯片/模组",
           "brand": "BES恒玄科技",
           "model": "BES2710IUC",
           "qty_hint": "1",
@@ -130,6 +144,20 @@
             "confidence": 0.85,
             "source_type": "summary_prose",
             "source_text": "充电盒搭载了GF新余赣锋3.87V/513mAh锂电池，主板上采用思远半导体SY8835蓝牙耳机充电仓解决方案，负责内置电池的充放电管理，同时集成通信模块，可以实现耳机仓到耳机端的高速通信；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "CM1137",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
+          "evidence": {
+            "value": "CM1137",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用ICM创芯微CM1137-CCS锂电池保护IC，负责内置电池的充放电保护。"
           }
         },
         {
@@ -340,6 +368,20 @@
             "confidence": 0.78,
             "source_type": "text",
             "source_text": "思远半导体SY8835集成了MCU模块，内核为8bit RISC CPU，兼容RISC-52指令集，内置16k Bytes FLASH空间，4k Bytes NVR空间，1k Bytes SRAM，一个10bit SAR ADC，1路4通道PWM，2个16bit Timer，3个半双工UART。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "CM1137",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "CM1137",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "ICM创芯微CM1137-CCS集成MOSFET单节锂电池保护IC，负责电池的过充电、过放电、过电流等保护。"
           }
         },
         {
@@ -589,9 +631,18 @@
       "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "41.1g",
-        "confidence": 0.75,
+        "confidence": 0.85,
         "source_type": "text",
-        "source_text": "41.1g"
+        "source_text": "网实测，vivo TWS 5i真无线耳机整机重量约为41.1g，轻巧便携"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "3.8g",
+      "weight_earbud_evidence": {
+        "value": "3.8g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "耳机整机重量约为41.1g，轻巧便携。\n单只耳机重量约为3.8g，佩戴轻盈"
       }
     },
     "hardware": {
@@ -734,6 +785,6 @@
       }
     }
   },
-  "data_completeness": 0.812,
+  "data_completeness": 0.838,
   "source_layer": "technical"
 }

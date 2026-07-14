@@ -1,0 +1,733 @@
+{
+  "id": "170106",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/170106.html",
+  "title": "ROBOT Airbuds T60真无线耳机",
+  "brand": "",
+  "model": "ROBOT Airbuds T60",
+  "category": "真无线耳机TWS",
+  "published_at": "2023-08-14",
+  "author": "Wen5",
+  "summary": "耳机作为能够清晰获取手机音频但同时又不打扰周围人群的电子产品，是当下许多人日常生活、通勤的必备单品。耳机的类型 […]",
+  "captured_at": "2026-07-14T02:06:48+00:00",
+  "data_completeness": 0.668,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "ROBOT Airbuds T60",
+      "category": "真无线耳机TWS",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "此次将要拆解的ROBOT Airbuds T60真无线耳机，是一款设计极致轻巧便携的产品，人体工学设计的半入耳式耳机，也提供了舒适的佩戴体验。",
+          "tag": "舒适佩戴",
+          "evidence": {
+            "value": "此次将要拆解的ROBOT Airbuds T60真无线耳机，是一款设计极致轻巧便携的产品，人体工学设计的半入耳式耳机，也提供了舒适的佩戴体验。",
+            "confidence": 0.75,
+            "source_type": "text",
+            "source_text": "此次将要拆解的ROBOT Airbuds T60真无线耳机，是一款设计极致轻巧便携的产品，人体工学设计的半入耳式耳机，也提供了舒适的佩戴体验。"
+          }
+        },
+        {
+          "text": "单只耳机重量仅2.9g，搭配人体工学半入耳式设计，提供轻若无物的舒适佩戴体验。",
+          "tag": "舒适佩戴",
+          "evidence": {
+            "value": "单只耳机重量仅2.9g，搭配人体工学半入耳式设计，提供轻若无物的舒适佩戴体验。",
+            "confidence": 0.66,
+            "source_type": "text",
+            "source_text": "单只耳机重量仅2.9g，搭配人体工学半入耳式设计，提供轻若无物的舒适佩戴体验。"
+          }
+        },
+        {
+          "text": "充电盒另外一侧印有CE、RoHS认证标志和禁止丢弃标识。",
+          "tag": "其他",
+          "evidence": {
+            "value": "充电盒另外一侧印有CE、RoHS认证标志和禁止丢弃标识。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "充电盒另外一侧印有CE、RoHS认证标志和禁止丢弃标识。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通勤",
+        "通话"
+      ],
+      "positioning_summary": "此次将要拆解的ROBOT Airbuds T60真无线耳机，是一款设计极致轻巧便携的产品，人体工学设计的半入耳式耳机，也提供了舒适的佩戴体验。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "充电仓",
+        "主板/PCBA",
+        "电池",
+        "喇叭单元",
+        "麦克风",
+        "天线"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "Injoinic英集芯IP5521",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "Injoinic英集芯IP5521",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上采用了Injoinic英集芯IP5521 30V高耐压TWS耳机充电仓管理SoC，集成升压转换器、锂电池充电管理、电池电量指示等多功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "Injoinic英集芯IP5521",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "Injoinic英集芯IP5521",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上采用了Injoinic英集芯IP5521 30V高耐压TWS耳机充电仓管理SoC，集成升压转换器、锂电池充电管理、电池电量指示等多功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "2V/80mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "2V/80mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内置280mAh锂电池，配备有电路保护板负责充放电保护；"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "13mm 动圈单元",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "13mm 动圈单元",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载了13mm动圈单元，30mAh软包扣式电池，以及一颗用于语音通话功能拾音的MEMS麦克风。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载了13mm动圈单元，30mAh软包扣式电池，以及一颗用于语音通话功能拾音的MEMS麦克风。"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒背面设计有产品佩戴场景图和产品参数信息。型号：Airbuds T60，蓝牙版本：5.3，扬声器尺寸：13mm，充电时间：小于2小时，蓝牙范围：10米，充电盒输入：5V-0.5A，频率响应：20Hz-20KHz，驱动阻抗：32Ω±15%，播放时间：6小时（耳机）+30小时（充电盒）。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，通过螺丝固定主板。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "座舱另外一侧结构一览，固定有电池单元。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "此次将要拆解的ROBOT Airbuds T60真无线耳机，是一款设计极致轻巧便携的产品，人体工学设计的半入耳式耳机，也提供了舒适的佩戴体验。在功能配置上，搭载了13mm动圈单元，支持蓝牙5.3，可提供单次6小时，综合36小时的持久续航。下面就让我们来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机柄底部的通话麦克风拾音孔特写。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "贴片蓝牙天线特写，用于无线信号收发。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "拆开卡扣式固定的充电盒外壳，取出内部座舱结构。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "ROBOT Airbuds T60真无线耳机充电盒采用了圆角方形设计，烤漆质感，正面设计有“ROBOT”品牌LOGO和一颗充电指示灯。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "连接导电布的Pogo Pin连接器特写。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "Injoinic英集芯IP5521",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Injoinic英集芯IP5521",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Injoinic英集芯IP5521 30V高耐压TWS耳机充电仓管理SoC，是一款集成升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "IP5521",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "IP5521",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "IP5521的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸， 降低BOM成本。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [
+        "包装盒内部物品有TWS耳机、充电线和产品使用说明书。"
+      ],
+      "process_hints": [
+        {
+          "value": "卸掉螺丝，取出主板和电池，电池导线与主板焊接连接。",
+          "evidence": {
+            "value": "卸掉螺丝，取出主板和电池，电池导线与主板焊接连接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取出主板和电池，电池导线与主板焊接连接。"
+          }
+        },
+        {
+          "value": "后腔底部结构一览，扬声器和电池导线分别焊接到主板。",
+          "evidence": {
+            "value": "后腔底部结构一览，扬声器和电池导线分别焊接到主板。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "后腔底部结构一览，扬声器和电池导线分别焊接到主板。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": "三、我爱音频网总结 ROBOT Airbuds T60真无线耳机在外观方面采用了简约的设计风格，体积非常的小巧轻盈，整机重量仅28.5g，单只耳机重量仅2.9g。充电盒为圆角方形设计，烤漆质感，握持舒适，外出便携；耳机为柄状的半入耳式设计，搭配轻盈体积，佩戴非常舒适。 内部主要配置方面，充电盒内置280mAh锂电池，配备有电路保护板负责充放电保护；主板上采用了Injoinic英集芯IP5521 30V高耐压TWS耳机充电仓管理SoC，集成升压转换器、锂电池充电管理、电池电量指示等多功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。耳机内部搭载了13mm动圈单元，30mAh软包扣式电池，以及一颗用于语音通话功能拾音的MEMS麦克风。"
+    },
+    "structure": {
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
+      "materials": [],
+      "ip_rating": null,
+      "weight_g": "28.5g",
+      "dimensions": [
+        "在功能配置上，搭载了13mm动圈单元，支持蓝牙5.3，可提供单次6小时，综合36小时的持久续航。",
+        "下面就让我们来看看这款产品的详细拆解报告吧~\n一、\nROBOT Airbuds T60真无线耳机开箱\nROBOT Airbuds T60真无线耳机包装盒正面设计有耳机外观渲染图，品牌名LOGO和产品名，以及13mm扬声器，36小时续航和人体工学设计的产品特点。",
+        "型号：Airbuds T60，蓝牙版本：5.3，扬声器尺寸：13mm，充电时间：小于2小时，蓝牙范围：10米，充电盒输入：5V-0.5A，频率响应：20Hz-20KHz，驱动阻抗：32Ω±15%，播放时间：6小时（耳机）+30小时（充电盒）。"
+      ],
+      "internal_structure": [
+        {
+          "value": "座舱底部结构一览，通过螺丝固定主板。",
+          "evidence": {
+            "value": "座舱底部结构一览，通过螺丝固定主板。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，通过螺丝固定主板。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，取出主板和电池，电池导线与主板焊接连接。",
+          "evidence": {
+            "value": "卸掉螺丝，取出主板和电池，电池导线与主板焊接连接。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取出主板和电池，电池导线与主板焊接连接。"
+          }
+        },
+        {
+          "value": "座舱另外一侧结构一览，固定有电池单元。",
+          "evidence": {
+            "value": "座舱另外一侧结构一览，固定有电池单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "座舱另外一侧结构一览，固定有电池单元。"
+          }
+        },
+        {
+          "value": "此次将要拆解的ROBOT Airbuds T60真无线耳机，是一款设计极致轻巧便携的产品，人体工学设计的半入耳式耳机，也提供了舒适的佩戴体验。在功能配置上，搭载了13mm动圈单元，支持蓝牙5.3，可提供单次6小时，综合36小时的持久续航。下面就让我们来看看这款产品的详细拆解报告吧~",
+          "evidence": {
+            "value": "此次将要拆解的ROBOT Airbuds T60真无线耳机，是一款设计极致轻巧便携的产品，人体工学设计的半入耳式耳机，也提供了舒适的佩戴体验。在功能配置上，搭载了13mm动圈单元，支持蓝牙5.3，可提供单次6小时，综合36小时的持久续航。下面就让我们来看看这款产品的详细拆解报告吧~",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "此次将要拆解的ROBOT Airbuds T60真无线耳机，是一款设计极致轻巧便携的产品，人体工学设计的半入耳式耳机，也提供了舒适的佩戴体验。在功能配置上，搭载了13mm动圈单元，支持蓝牙5.3，可提供单次6小时，综合36小时的持久续航。下面就让我们来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "value": "扬声器正面振膜特写。",
+          "evidence": {
+            "value": "扬声器正面振膜特写。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "扬声器正面振膜特写。"
+          }
+        },
+        {
+          "value": "耳机柄底部的通话麦克风拾音孔特写。",
+          "evidence": {
+            "value": "耳机柄底部的通话麦克风拾音孔特写。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机柄底部的通话麦克风拾音孔特写。"
+          }
+        },
+        {
+          "value": "镭雕G195 3ZND的MEMS麦克风，用于语音通话功能拾音。",
+          "evidence": {
+            "value": "镭雕G195 3ZND的MEMS麦克风，用于语音通话功能拾音。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "镭雕G195 3ZND的MEMS麦克风，用于语音通话功能拾音。"
+          }
+        },
+        {
+          "value": "贴片蓝牙天线特写，用于无线信号收发。",
+          "evidence": {
+            "value": "贴片蓝牙天线特写，用于无线信号收发。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "贴片蓝牙天线特写，用于无线信号收发。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "二、\nROBOT Airbuds T60真无线耳机拆解\n通过开箱，我们详细了解了ROBOT Airbuds T60真无线耳机的轻巧外观设计，下面进入拆解部分，看看内部结构设计及硬件配置信息~\n充电盒拆解\n拆开卡扣式固定的充电盒外壳，取出内部座舱结构。",
+          "evidence": {
+            "value": "二、\nROBOT Airbuds T60真无线耳机拆解\n通过开箱，我们详细了解了ROBOT Airbuds T60真无线耳机的轻巧外观设计，下面进入拆解部分，看看内部结构设计及硬件配置信息~\n充电盒拆解\n拆开卡扣式固定的充电盒外壳，取出内部座舱结构。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "二、\nROBOT Airbuds T60真无线耳机拆解\n通过开箱，我们详细了解了ROBOT Airbuds T60真无线耳机的轻巧外观设计，下面进入拆解部分，看看内部结构设计及硬件配置信息~\n充电盒拆解\n拆开卡扣式固定的充电盒外壳，取出内部座舱结构。"
+          }
+        },
+        {
+          "value": "座舱底部结构一览，通过螺丝固定主板。",
+          "evidence": {
+            "value": "座舱底部结构一览，通过螺丝固定主板。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，通过螺丝固定主板。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，取出主板和电池，电池导线与主板焊接连接。",
+          "evidence": {
+            "value": "卸掉螺丝，取出主板和电池，电池导线与主板焊接连接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取出主板和电池，电池导线与主板焊接连接。"
+          }
+        }
+      ],
+      "sealing_method": [],
+      "wear_design": [
+        {
+          "value": "此次将要拆解的ROBOT Airbuds T60真无线耳机，是一款设计极致轻巧便携的产品，人体工学设计的半入耳式耳机，也提供了舒适的佩戴体验。",
+          "evidence": {
+            "value": "此次将要拆解的ROBOT Airbuds T60真无线耳机，是一款设计极致轻巧便携的产品，人体工学设计的半入耳式耳机，也提供了舒适的佩戴体验。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "此次将要拆解的ROBOT Airbuds T60真无线耳机，是一款设计极致轻巧便携的产品，人体工学设计的半入耳式耳机，也提供了舒适的佩戴体验。"
+          }
+        },
+        {
+          "value": "包装盒背面设计有产品佩戴场景图和产品参数信息。",
+          "evidence": {
+            "value": "包装盒背面设计有产品佩戴场景图和产品参数信息。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "包装盒背面设计有产品佩戴场景图和产品参数信息。"
+          }
+        },
+        {
+          "value": "单只耳机重量仅2.9g，搭配人体工学半入耳式设计，提供轻若无物的舒适佩戴体验。",
+          "evidence": {
+            "value": "单只耳机重量仅2.9g，搭配人体工学半入耳式设计，提供轻若无物的舒适佩戴体验。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "单只耳机重量仅2.9g，搭配人体工学半入耳式设计，提供轻若无物的舒适佩戴体验。"
+          }
+        },
+        {
+          "value": "充电盒为圆角方形设计，烤漆质感，握持舒适，外出便携；耳机为柄状的半入耳式设计，搭配轻盈体积，佩戴非常舒适。",
+          "evidence": {
+            "value": "充电盒为圆角方形设计，烤漆质感，握持舒适，外出便携；耳机为柄状的半入耳式设计，搭配轻盈体积，佩戴非常舒适。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "充电盒为圆角方形设计，烤漆质感，握持舒适，外出便携；耳机为柄状的半入耳式设计，搭配轻盈体积，佩戴非常舒适。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/08/2023081402452994.jpeg",
+          "alt": "拆解报告：ROBOT Airbuds T60真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/08/2023081402453129.jpeg",
+          "alt": "拆解报告：ROBOT Airbuds T60真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/08/2023081402453267.jpeg",
+          "alt": "拆解报告：ROBOT Airbuds T60真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/08/2023081402453423.jpeg",
+          "alt": "拆解报告：ROBOT Airbuds T60真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/08/2023081402453589.jpeg",
+          "alt": "拆解报告：ROBOT Airbuds T60真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "座舱底部结构一览，通过螺丝固定主板。",
+        "卸掉螺丝，取出主板和电池，电池导线与主板焊接连接。",
+        "座舱另外一侧结构一览，固定有电池单元。",
+        "此次将要拆解的ROBOT Airbuds T60真无线耳机，是一款设计极致轻巧便携的产品，人体工学设计的半入耳式耳机，也提供了舒适的佩戴体验。在功能配置上，搭载了13mm动圈单元，支持蓝牙5.3，可提供单次6小时，综合36小时的持久续航。下面就让我们来看看这款产品的详细拆解报告吧~"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": {
+        "value": "28.5g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "BOT Airbuds T60真无线耳机整机重量仅为28.5g，轻巧迷你"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "2.9g",
+      "weight_earbud_evidence": {
+        "value": "2.9g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "量仅为28.5g，轻巧迷你，外出便携。\n单只耳机重量仅2.9g，搭配人体"
+      }
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "USB-A to Type-C充电线。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "USB-A to Type-C充电线。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电盒底部设置有Type-C充电接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒底部设置有Type-C充电接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C充电母座特写。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充电母座特写。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "型号：Airbuds T60，蓝牙版本：5.3，扬声器尺寸：13mm，充电时间：小于2小时，蓝牙范围：10米，充电盒输入：5V-0.5A，频率响应：20Hz-20KHz，驱动阻抗：32Ω±15%，播放时间：6小时（耳机）+30小时（充电盒）。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "型号：Airbuds T60，蓝牙版本：5.3，扬声器尺寸：13mm，充电时间：小于2小时，蓝牙范围：10米，充电盒输入：5V-0.5A，频率响应：20Hz-20KHz，驱动阻抗：32Ω±15%，播放时间：6小时（耳机）+30小时（充电盒）"
+        },
+        {
+          "param": "标记/认证",
+          "value": "充电盒另外一侧印有CE、RoHS认证标志和禁止丢弃标识。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒另外一侧印有CE、RoHS认证标志和禁止丢弃标识。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "Injoinic英集芯IP5521 30V高耐压TWS耳机充电仓管理SoC，是一款集成升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "Injoinic英集芯IP5521 30V高耐压TWS耳机充电仓管理SoC，是一款集成升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5521的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸， 降低BOM成本。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5521的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸， 降低BOM成本。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5521内置同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至92%。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5521内置同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至92%。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5521的线性充电提供最大500mA充电电流，可灵活配置最大充电电流。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5521的线性充电提供最大500mA充电电流，可灵活配置最大充电电流。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5521可实现TWS双耳机独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至25uA。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5521可实现TWS双耳机独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至25uA。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5521支持1/2/3/4 颗LED灯电量显示。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5521支持1/2/3/4 颗LED灯电量显示。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "Injoinic英集芯IP5521详细资料图。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "Injoinic英集芯IP5521详细资料图。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "充电盒内置锂离子电池型号：XL 751435，标称电压：3.7V，额定容量：280mAh 1.036Wh，生产日期：2023年7月。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒内置锂离子电池型号：XL 751435，标称电压：3.7V，额定容量：280mAh 1.036Wh，生产日期：2023年7月。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "耳机内置锂电池型号：XL 451012，标称电压：3.7V，额定容量：30mAh 0.11Wh，生产日期：2023年7月。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "耳机内置锂电池型号：XL 451012，标称电压：3.7V，额定容量：30mAh 0.11Wh，生产日期：2023年7月。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "内部主要配置方面，充电盒内置280mAh锂电池，配备有电路保护板负责充放电保护；主板上采用了Injoinic英集芯IP5521 30V高耐压TWS耳机充电仓管理SoC，集成升压转换器、锂电池充电管理、电池电量指示等多功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "内部主要配置方面，充电盒内置280mAh锂电池，配备有电路保护板负责充放电保护；主板上采用了Injoinic英集芯IP5521 30V高耐压TWS耳机充电仓管理SoC，集成升压转换器、锂电池充电管理、电池电量指示等多功能，为TWS蓝牙耳机充"
+        },
+        {
+          "param": "电池容量",
+          "value": "280",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "280mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.3",
+      "codecs": [],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [
+        {
+          "value": "IP5521的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸， 降低BOM成本。",
+          "evidence": {
+            "value": "IP5521的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸， 降低BOM成本。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "IP5521的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸， 降低BOM成本。"
+          }
+        }
+      ],
+      "ota_support": [],
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "5.3",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.3"
+      }
+    }
+  }
+}

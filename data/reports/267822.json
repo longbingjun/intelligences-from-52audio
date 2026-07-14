@@ -92,6 +92,20 @@
       "chip_modules": [
         {
           "component": "芯片/模组",
+          "brand": "",
+          "model": "SS881",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "MCU",
+          "evidence": {
+            "value": "SS881",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，搭载了SinhMicro昇生微电子SS881A POWER MCU，以及为耳机充电的升压IC和霍尔元件等方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
           "brand": "WINSEMI稳先微",
           "model": "WINSEMI稳先微WSDF23A",
           "qty_hint": "1",
@@ -106,6 +120,20 @@
         }
       ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "SS881",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "MCU",
+          "evidence": {
+            "value": "SS881",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上，搭载了SinhMicro昇生微电子SS881A POWER MCU，以及为耳机充电的升压IC和霍尔元件等方案。"
+          }
+        },
         {
           "component": "电池",
           "brand": "",
@@ -347,6 +375,20 @@
         {
           "component": "芯片/模组",
           "brand": "",
+          "model": "SS881",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "SS881",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "SinhMicro昇生微电子SS881A POWER MCU，是一颗集成了充放电管理的AD型Flash单片机。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
           "model": "WINSEMI稳先微WSDF23A",
           "qty_hint": "1",
           "side": "",
@@ -356,6 +398,20 @@
             "confidence": 0.78,
             "source_type": "text",
             "source_text": "WINSEMI稳先微WSDF23A2N2H全集成锂电保护IC，具有过充、过放、过流、短路等电池需要的所有保护功能。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "SS881",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "SS881",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "内部主要配置方面，充电盒搭载了CEL金赛尔3.85V/720mAh锂电池，设置有电路保护板负责过充电、过放电、过电流等保护；主板上，搭载了SinhMicro昇生微电子SS881A POWER MCU，以及为耳机充电的升压IC和霍尔元件等方案。"
           }
         }
       ],
@@ -625,9 +681,18 @@
       },
       "weight_evidence": {
         "value": "114.0g",
-        "confidence": 0.75,
+        "confidence": 0.85,
         "source_type": "text",
-        "source_text": "114.0g"
+        "source_text": "网实测，OpenRock开石X开放式耳机整机重量约为114.0g。\n单只耳"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "11.7g",
+      "weight_earbud_evidence": {
+        "value": "11.7g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "X开放式耳机整机重量约为114.0g。\n单只耳机重量约为11.7g。\n我爱音"
       }
     },
     "hardware": {
@@ -833,6 +898,6 @@
       }
     }
   },
-  "data_completeness": 0.772,
+  "data_completeness": 0.808,
   "source_layer": "technical"
 }

@@ -1,0 +1,727 @@
+{
+  "id": "187610",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/187610.html",
+  "title": "SOAIY索爱A9 TWS电竞耳机",
+  "brand": "",
+  "model": "SOAIY索爱A9 TWS电竞",
+  "category": "真无线耳机TWS",
+  "published_at": "2024-01-18",
+  "author": "Wen5",
+  "summary": "SOAIY索爱是一个以多媒体系列产品为基础的老牌影音数码品牌，旗下产品涵盖了蓝牙耳机、液晶电视、智能音响、蓝牙 […]",
+  "captured_at": "2026-07-14T02:06:02+00:00",
+  "data_completeness": 0.698,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "SOAIY索爱A9 TWS电竞",
+      "category": "真无线耳机TWS",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "后腔内部结构一览，泄压孔内侧贴有防水透气膜防护。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "后腔内部结构一览，泄压孔内侧贴有防水透气膜防护。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "后腔内部结构一览，泄压孔内侧贴有防水透气膜防护。"
+          }
+        },
+        {
+          "text": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+          "tag": "其他",
+          "evidence": {
+            "value": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+            "confidence": 0.57,
+            "source_type": "text",
+            "source_text": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。"
+          }
+        },
+        {
+          "text": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。"
+          }
+        }
+      ],
+      "scenarios": [
+        "游戏",
+        "通话",
+        "电竞"
+      ],
+      "positioning_summary": "后腔内部结构一览，泄压孔内侧贴有防水透气膜防护。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "充电仓",
+        "电池",
+        "主板/PCBA",
+        "麦克风",
+        "喇叭单元",
+        "天线"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5513",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内置神通天下380mAh锂电池，采用了INJOINIC英集芯IP5513负责内置电池的充放电管理，同时支持独立入仓检测、电池电量指示等功能。"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5513",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内置神通天下380mAh锂电池，采用了INJOINIC英集芯IP5513负责内置电池的充放电管理，同时支持独立入仓检测、电池电量指示等功能。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3V/80mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3V/80mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内置神通天下380mAh锂电池，采用了INJOINIC英集芯IP5513负责内置电池的充放电管理，同时支持独立入仓检测、电池电量指示等功能。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "13mm 动圈单元",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "13mm 动圈单元",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载了13mm动圈单元，内置神通天下0.15Wh锂电池，单耳采用一颗MEMS麦克风拾音。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载了13mm动圈单元，内置神通天下0.15Wh锂电池，单耳采用一颗MEMS麦克风拾音。"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "SOAIY索爱A9 TWS电竞耳机是一款支持音乐/游戏双模式的产品，游戏模式提供超低延时，带来音画同步的流畅游戏体验；内部搭载MEMS硅麦克风，为团战交流提供清晰通话；支持蓝牙5.0连接，拥有约4小时的单次续航时间，充电盒可额外提供5-6次续航。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "座舱另外一侧结构一览，设置电池单元。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "座舱底部通过螺丝固定主板。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "SOAIY索爱A9 TWS电竞耳机是一款支持音乐/游戏双模式的产品，游戏模式提供超低延时，带来音画同步的流畅游戏体验；内部搭载MEMS硅麦克风，为团战交流提供清晰通话；支持蓝牙5.0连接，拥有约4小时的单次续航时间，充电盒可额外提供5-6次续航。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "前腔内部扬声器单元结构一览。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "陶瓷蓝牙天线特写，用于无线信号收发。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "SOAIY索爱A9 TWS电竞耳机充电盒采用了圆角方形设计，机身类钻石切割，呈现不同层次的平面，观感非常硬朗。座舱四周设计有多处指示灯，用于提升游戏氛围感。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "拆开充电盒外壳，取出内部座舱结构。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机柄内侧的充电触点特写，中间雕刻有L/左标识。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5513",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "IP5513",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "IP5513",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [
+        "包装盒内部物品有充电盒、耳机、耳塞、充电线和产品说明书。"
+      ],
+      "process_hints": [],
+      "summary_image_urls": [],
+      "summary_text": "三、我爱音频网总结 SOAIY索爱A9 TWS电竞耳机在外观方面，采用了比较硬朗的设计风格，并融入了众多的指示灯，来提升游戏的氛围感。柄状的入耳式耳机，入耳曲线圆润饱满，佩戴比较贴合耳廓，搭配适合的耳塞，佩戴舒适稳固。不过对于小耳廓的用户而言可能会比较撑。 内部主要配置方面，充电盒内置神通天下380mAh锂电池，采用了INJOINIC英集芯IP5513负责内置电池的充放电管理，同时支持独立入仓检测、电池电量指示等功能。耳机内部搭载了13mm动圈单元，内置神通天下0.15Wh锂电池，单耳采用一颗MEMS麦克风拾音。"
+    },
+    "structure": {
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
+      "materials": [
+        "硅胶"
+      ],
+      "ip_rating": null,
+      "weight_g": "37.1g",
+      "dimensions": [
+        "功能特点：蓝牙5.0，低延时、真无线、双耳通话；监牙协议：HSP HFP A2DP，AVRCP，灵敏度：93±3dB，额定输入：5.0V-400mA，尺寸：76.2mm*42.9mm*23mm，频响范围：20Hz-20KHz，深圳市索爱创新科技有限公司出品。",
+        "两副不同尺寸的硅胶耳塞，耳机上预装一副，总共三种规格，用于满足不同用户的使用需求。",
+        "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+      ],
+      "internal_structure": [
+        {
+          "value": "座舱另外一侧结构一览，设置电池单元。",
+          "evidence": {
+            "value": "座舱另外一侧结构一览，设置电池单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "座舱另外一侧结构一览，设置电池单元。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，取出主板和电池单元。",
+          "evidence": {
+            "value": "卸掉螺丝，取出主板和电池单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取出主板和电池单元。"
+          }
+        },
+        {
+          "value": "座舱底部通过螺丝固定主板。",
+          "evidence": {
+            "value": "座舱底部通过螺丝固定主板。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "座舱底部通过螺丝固定主板。"
+          }
+        },
+        {
+          "value": "SOAIY索爱A9 TWS电竞耳机是一款支持音乐/游戏双模式的产品，游戏模式提供超低延时，带来音画同步的流畅游戏体验；内部搭载MEMS硅麦克风，为团战交流提供清晰通话；支持蓝牙5.0连接，拥有约4小时的单次续航时间，充电盒可额外提供5-6次续航。",
+          "evidence": {
+            "value": "SOAIY索爱A9 TWS电竞耳机是一款支持音乐/游戏双模式的产品，游戏模式提供超低延时，带来音画同步的流畅游戏体验；内部搭载MEMS硅麦克风，为团战交流提供清晰通话；支持蓝牙5.0连接，拥有约4小时的单次续航时间，充电盒可额外提供5-6次续航。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "SOAIY索爱A9 TWS电竞耳机是一款支持音乐/游戏双模式的产品，游戏模式提供超低延时，带来音画同步的流畅游戏体验；内部搭载MEMS硅麦克风，为团战交流提供清晰通话；支持蓝牙5.0连接，拥有约4小时的单次续航时间，充电盒可额外提供5-6次续航。"
+          }
+        },
+        {
+          "value": "耳机柄底部的麦克风拾音孔特写。",
+          "evidence": {
+            "value": "耳机柄底部的麦克风拾音孔特写。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机柄底部的麦克风拾音孔特写。"
+          }
+        },
+        {
+          "value": "前腔内部扬声器单元结构一览。",
+          "evidence": {
+            "value": "前腔内部扬声器单元结构一览。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "前腔内部扬声器单元结构一览。"
+          }
+        },
+        {
+          "value": "扬声器正面振膜特写，覆盖有羊毛纤维，提升音频性能。",
+          "evidence": {
+            "value": "扬声器正面振膜特写，覆盖有羊毛纤维，提升音频性能。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "扬声器正面振膜特写，覆盖有羊毛纤维，提升音频性能。"
+          }
+        },
+        {
+          "value": "陶瓷蓝牙天线特写，用于无线信号收发。",
+          "evidence": {
+            "value": "陶瓷蓝牙天线特写，用于无线信号收发。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "陶瓷蓝牙天线特写，用于无线信号收发。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "座舱底部通过螺丝固定主板。",
+          "evidence": {
+            "value": "座舱底部通过螺丝固定主板。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "座舱底部通过螺丝固定主板。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，取出主板和电池单元。",
+          "evidence": {
+            "value": "卸掉螺丝，取出主板和电池单元。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取出主板和电池单元。"
+          }
+        }
+      ],
+      "sealing_method": [],
+      "wear_design": [
+        {
+          "value": "包装盒内部物品有充电盒、耳机、耳塞、充电线和产品说明书。",
+          "evidence": {
+            "value": "包装盒内部物品有充电盒、耳机、耳塞、充电线和产品说明书。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "包装盒内部物品有充电盒、耳机、耳塞、充电线和产品说明书。"
+          }
+        },
+        {
+          "value": "两副不同尺寸的硅胶耳塞，耳机上预装一副，总共三种规格，用于满足不同用户的使用需求。",
+          "evidence": {
+            "value": "两副不同尺寸的硅胶耳塞，耳机上预装一副，总共三种规格，用于满足不同用户的使用需求。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "两副不同尺寸的硅胶耳塞，耳机上预装一副，总共三种规格，用于满足不同用户的使用需求。"
+          }
+        },
+        {
+          "value": "耳机内侧外观一览，采用乐亮面质感，耳机头入耳曲线圆润饱满，佩戴与耳廓舒适稳定贴合。",
+          "evidence": {
+            "value": "耳机内侧外观一览，采用乐亮面质感，耳机头入耳曲线圆润饱满，佩戴与耳廓舒适稳定贴合。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "耳机内侧外观一览，采用乐亮面质感，耳机头入耳曲线圆润饱满，佩戴与耳廓舒适稳定贴合。"
+          }
+        },
+        {
+          "value": "取掉耳塞，耳机出音嘴特写，银色金属网罩防护，防止异物进入音腔。",
+          "evidence": {
+            "value": "取掉耳塞，耳机出音嘴特写，银色金属网罩防护，防止异物进入音腔。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "取掉耳塞，耳机出音嘴特写，银色金属网罩防护，防止异物进入音腔。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/01/2024011807430162.jpeg",
+          "alt": "拆解报告：SOAIY索爱A9 TWS电竞耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/01/2024011807430369.jpeg",
+          "alt": "拆解报告：SOAIY索爱A9 TWS电竞耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/01/2024011807430416.jpeg",
+          "alt": "拆解报告：SOAIY索爱A9 TWS电竞耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/01/2024011807430548.jpeg",
+          "alt": "拆解报告：SOAIY索爱A9 TWS电竞耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/01/2024011807430635.jpeg",
+          "alt": "拆解报告：SOAIY索爱A9 TWS电竞耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "座舱另外一侧结构一览，设置电池单元。",
+        "卸掉螺丝，取出主板和电池单元。",
+        "座舱底部通过螺丝固定主板。",
+        "SOAIY索爱A9 TWS电竞耳机是一款支持音乐/游戏双模式的产品，游戏模式提供超低延时，带来音画同步的流畅游戏体验；内部搭载MEMS硅麦克风，为团战交流提供清晰通话；支持蓝牙5.0连接，拥有约4小时的单次续航时间，充电盒可额外提供5-6次续航。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": {
+        "value": "37.1g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "实测，SOAIY索爱A9 TWS电竞耳机整机重量约为37.1g，非常轻盈"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "4.2g",
+      "weight_earbud_evidence": {
+        "value": "4.2g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "整机重量约为37.1g，非常轻盈便携。\n单只耳机重量约为4.2g。\n我爱音"
+      }
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "充电盒充电线采用了USB-A to Type-C接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒充电线采用了USB-A to Type-C接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电盒底部设置Type-C充电接口，印有参数信息。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒底部设置Type-C充电接口，印有参数信息。"
+        },
+        {
+          "param": "充电接口",
+          "value": "外壳内侧结构一览，Type-C接口开孔设置加强筋，提升结构强度。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "外壳内侧结构一览，Type-C接口开孔设置加强筋，提升结构强度。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C充电母座特写。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充电母座特写。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "功能特点：蓝牙5.0，低延时、真无线、双耳通话；监牙协议：HSP HFP A2DP，AVRCP，灵敏度：93±3dB，额定输入：5.0V-400mA，尺寸：76.2mm*42.9mm*23mm，频响范围：20Hz-20KHz，深圳市索爱创新科技有限公司出品。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "功能特点：蓝牙5.0，低延时、真无线、双耳通话；监牙协议：HSP HFP A2DP，AVRCP，灵敏度：93±3dB，额定输入：5.0V-400mA，尺寸：76.2mm*42.9mm*23mm，频响范围：20Hz-20KHz，深圳市索爱创新"
+        },
+        {
+          "param": "标记/认证",
+          "value": "型号：A9，输入：5V-500mA，容量：400mAh ，中国制造。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "型号：A9，输入：5V-500mA，容量：400mAh ，中国制造。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "我爱音频网采用\nCHARGERLAB POWER-Z KM003C\n对SOAIY索爱A9 TWS电竞耳机进行充电测试，输入功率约为0.15W。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "我爱音频网采用\nCHARGERLAB POWER-Z KM003C\n对SOAIY索爱A9 TWS电竞耳机进行充电测试，输入功率约为0.15W。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "INJOINIC英集芯IP5513详细资料图。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "INJOINIC英集芯IP5513详细资料图。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "充电盒内置锂电池型号：ST 751535，标称电压：3.7V，额定容量：380mAh 1.41Wh，来自深圳市神通天下科技有限公司。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒内置锂电池型号：ST 751535，标称电压：3.7V，额定容量：380mAh 1.41Wh，来自深圳市神通天下科技有限公司。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "撕开外部绝缘保护，电池设置有电路保护板，电芯上丝印参数信息，型号：ST 501012，标称电压：3.7V，能量：0.15Wh，同样来自ST神通天下。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "撕开外部绝缘保护，电池设置有电路保护板，电芯上丝印参数信息，型号：ST 501012，标称电压：3.7V，能量：0.15Wh，同样来自ST神通天下。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "内部主要配置方面，充电盒内置神通天下380mAh锂电池，采用了INJOINIC英集芯IP5513负责内置电池的充放电管理，同时支持独立入仓检测、电池电量指示等功能。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "内部主要配置方面，充电盒内置神通天下380mAh锂电池，采用了INJOINIC英集芯IP5513负责内置电池的充放电管理，同时支持独立入仓检测、电池电量指示等功能。"
+        },
+        {
+          "param": "电池容量",
+          "value": "400",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "400mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.0",
+      "codecs": [],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [
+        {
+          "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+          "evidence": {
+            "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+          }
+        }
+      ],
+      "ota_support": [],
+      "latency_notes": [
+        {
+          "value": "SOAIY索爱A9 TWS电竞耳机是一款支持音乐/游戏双模式的产品，游戏模式提供超低延时，带来音画同步的流畅游戏体验；内部搭载MEMS硅麦克风，为团战交流提供清晰通话；支持蓝牙5.0连接，拥有约4小时的单次续航时间，充电盒可额外提供5-6次续航。",
+          "evidence": {
+            "value": "SOAIY索爱A9 TWS电竞耳机是一款支持音乐/游戏双模式的产品，游戏模式提供超低延时，带来音画同步的流畅游戏体验；内部搭载MEMS硅麦克风，为团战交流提供清晰通话；支持蓝牙5.0连接，拥有约4小时的单次续航时间，充电盒可额外提供5-6次续航。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "SOAIY索爱A9 TWS电竞耳机是一款支持音乐/游戏双模式的产品，游戏模式提供超低延时，带来音画同步的流畅游戏体验；内部搭载MEMS硅麦克风，为团战交流提供清晰通话；支持蓝牙5.0连接，拥有约4小时的单次续航时间，充电盒可额外提供5-6次续航。"
+          }
+        }
+      ],
+      "bluetooth_evidence": {
+        "value": "5.0",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.0"
+      }
+    }
+  }
+}

@@ -1,0 +1,405 @@
+{
+  "id": "5477",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/5477.html",
+  "title": "JBL Free 真无线TWS耳机",
+  "brand": "JBL",
+  "model": "Free 真无线TWS",
+  "category": "真无线耳机TWS",
+  "published_at": "2018-07-31",
+  "author": "Vallière",
+  "summary": "JBL是美国音箱老品牌，先前推出了一款TWS真无线蓝牙耳机，它采用半透明式的背盖，在黑夜中让耳机和电量指示灯亮 […]",
+  "captured_at": "2026-07-14T02:15:21+00:00",
+  "data_completeness": 0.586,
+  "views": {
+    "market": {
+      "brand": "JBL",
+      "model": "Free 真无线TWS",
+      "category": "真无线耳机TWS",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "底部用英文、俄文和中文写出了品名“蓝牙耳机”和产地“中国制造”，中间是产品通过的认证以及其他信息。",
+          "tag": "其他",
+          "evidence": {
+            "value": "底部用英文、俄文和中文写出了品名“蓝牙耳机”和产地“中国制造”，中间是产品通过的认证以及其他信息。",
+            "confidence": 0.63,
+            "source_type": "text",
+            "source_text": "底部用英文、俄文和中文写出了品名“蓝牙耳机”和产地“中国制造”，中间是产品通过的认证以及其他信息。"
+          }
+        },
+        {
+          "text": "Micro USB接口采用防尘盖保护。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "Micro USB接口采用防尘盖保护。",
+            "confidence": 0.57,
+            "source_type": "text",
+            "source_text": "Micro USB接口采用防尘盖保护。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通话"
+      ],
+      "positioning_summary": "底部用英文、俄文和中文写出了品名“蓝牙耳机”和产地“中国制造”，中间是产品通过的认证以及其他信息。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm",
+          "model": "高通 CSR",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通 CSR",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "高通 CSR"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm",
+          "model": "高通Kalimba",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通Kalimba",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "高通Kalimba"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA6884",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA6884",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "ETA6884"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电触点PCB特写。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA6884",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA6884",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "钰泰 ETA6884 充放电三合一电源管理IC。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "高通 CSR",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通 CSR",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Qualcomm高通 CSR A63120 TWS无线对耳方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "高通Kalimba",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通Kalimba",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "CSRA63120支持蓝牙4.2协议，内置80MHz 高通Kalimba DSP，集成高性能立体声编码器，同时支持模拟或者数字麦克风，内置锂电池充电。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "高通 CSR",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通 CSR",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "三、我爱音频网拆解总结：\n1、JBL Free耳机采用了半透明的上盖，转轴采用螺丝固定，稳固耐用；\n2、采用Qualcomm高通 CSR A63120 TWS无线对耳方案，支持蓝牙V4.2，高性能低功耗；\n3、采用Great Power的纽扣式锂电池，可以在占用较小空间的情况下提升电池容量和安全性。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [],
+      "process_hints": [],
+      "summary_image_urls": [],
+      "summary_text": ""
+    },
+    "structure": {
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
+      "materials": [
+        "PC"
+      ],
+      "ip_rating": null,
+      "weight_g": null,
+      "dimensions": [
+        "Qualcomm高通 CSR A63120 TWS无线对耳方案。",
+        "三、我爱音频网拆解总结：\n1、JBL Free耳机采用了半透明的上盖，转轴采用螺丝固定，稳固耐用；\n2、采用Qualcomm高通 CSR A63120 TWS无线对耳方案，支持蓝牙V4.2，高性能低功耗；\n3、采用Great Power的纽扣式锂电池，可以在占用较小空间的情况下提升电池容量和安全性。"
+      ],
+      "internal_structure": [
+        {
+          "value": "充电触点PCB特写。",
+          "evidence": {
+            "value": "充电触点PCB特写。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "充电触点PCB特写。"
+          }
+        },
+        {
+          "value": "我爱音频网即将对这款耳机进行拆解，下面带领大家一起来看看。",
+          "evidence": {
+            "value": "我爱音频网即将对这款耳机进行拆解，下面带领大家一起来看看。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "我爱音频网即将对这款耳机进行拆解，下面带领大家一起来看看。"
+          }
+        },
+        {
+          "value": "二、JBL Free 拆解\n开始拆解耳机充电盒，从下半部分的正面开始拆开。",
+          "evidence": {
+            "value": "二、JBL Free 拆解\n开始拆解耳机充电盒，从下半部分的正面开始拆开。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "二、JBL Free 拆解\n开始拆解耳机充电盒，从下半部分的正面开始拆开。"
+          }
+        },
+        {
+          "value": "耳机的舱位下方有磁铁辅助固定耳机充电，不移位。",
+          "evidence": {
+            "value": "耳机的舱位下方有磁铁辅助固定耳机充电，不移位。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "耳机的舱位下方有磁铁辅助固定耳机充电，不移位。"
+          }
+        },
+        {
+          "value": "固定转轴的部分采用螺丝固定。",
+          "evidence": {
+            "value": "固定转轴的部分采用螺丝固定。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "固定转轴的部分采用螺丝固定。"
+          }
+        },
+        {
+          "value": "取出主板，电池固定在下面。",
+          "evidence": {
+            "value": "取出主板，电池固定在下面。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "取出主板，电池固定在下面。"
+          }
+        },
+        {
+          "value": "用于辅助固定耳机充电位置的磁铁。",
+          "evidence": {
+            "value": "用于辅助固定耳机充电位置的磁铁。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "用于辅助固定耳机充电位置的磁铁。"
+          }
+        },
+        {
+          "value": "动圈式扬声器，固定在导管内部。",
+          "evidence": {
+            "value": "动圈式扬声器，固定在导管内部。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "动圈式扬声器，固定在导管内部。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "固定转轴的部分采用螺丝固定。",
+          "evidence": {
+            "value": "固定转轴的部分采用螺丝固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "固定转轴的部分采用螺丝固定。"
+          }
+        },
+        {
+          "value": "拆出螺丝之后就可以移出转轴。",
+          "evidence": {
+            "value": "拆出螺丝之后就可以移出转轴。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "拆出螺丝之后就可以移出转轴。"
+          }
+        },
+        {
+          "value": "三、我爱音频网拆解总结：\n1、JBL Free耳机采用了半透明的上盖，转轴采用螺丝固定，稳固耐用；\n2、采用Qualcomm高通 CSR A63120 TWS无线对耳方案，支持蓝牙V4.2，高性能低功耗；\n3、采用Great Power的纽扣式锂电池，可以在占用较小空间的情况下提升电池容量和安全性。",
+          "evidence": {
+            "value": "三、我爱音频网拆解总结：\n1、JBL Free耳机采用了半透明的上盖，转轴采用螺丝固定，稳固耐用；\n2、采用Qualcomm高通 CSR A63120 TWS无线对耳方案，支持蓝牙V4.2，高性能低功耗；\n3、采用Great Power的纽扣式锂电池，可以在占用较小空间的情况下提升电池容量和安全性。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "三、我爱音频网拆解总结：\n1、JBL Free耳机采用了半透明的上盖，转轴采用螺丝固定，稳固耐用；\n2、采用Qualcomm高通 CSR A63120 TWS无线对耳方案，支持蓝牙V4.2，高性能低功耗；\n3、采用Great Power的纽扣式锂电池，可以在占用较小空间的情况下提升电池容量和安全性。"
+          }
+        }
+      ],
+      "sealing_method": [],
+      "wear_design": [],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/07/JBL真无线耳机-1.jpg",
+          "alt": "拆解报告：JBL Free 真无线TWS耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/07/JBL真无线耳机-2.jpg",
+          "alt": "拆解报告：JBL Free 真无线TWS耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/07/JBL真无线耳机-3.jpg",
+          "alt": "拆解报告：JBL Free 真无线TWS耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/07/JBL真无线耳机-4.jpg",
+          "alt": "拆解报告：JBL Free 真无线TWS耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/07/JBL真无线耳机-5.jpg",
+          "alt": "拆解报告：JBL Free 真无线TWS耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "充电触点PCB特写。",
+        "我爱音频网即将对这款耳机进行拆解，下面带领大家一起来看看。",
+        "二、JBL Free 拆解\n开始拆解耳机充电盒，从下半部分的正面开始拆开。",
+        "耳机的舱位下方有磁铁辅助固定耳机充电，不移位。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": null
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "Micro USB接口采用防尘盖保护。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Micro USB接口采用防尘盖保护。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Micro USB充电插座吸磁。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Micro USB充电插座吸磁。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Micro USB",
+          "unit": "",
+          "brand": "",
+          "model": "Micro USB",
+          "confidence": 0.8,
+          "source_ref": "Micro USB"
+        },
+        {
+          "param": "标记/认证",
+          "value": "底部用英文、俄文和中文写出了品名“蓝牙耳机”和产地“中国制造”，中间是产品通过的认证以及其他信息。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "底部用英文、俄文和中文写出了品名“蓝牙耳机”和产地“中国制造”，中间是产品通过的认证以及其他信息。"
+        },
+        {
+          "param": "电池容量",
+          "value": "1500",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "1500mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "4.2",
+      "codecs": [],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [],
+      "ota_support": [],
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "4.2",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙4.2"
+      }
+    }
+  }
+}

@@ -1,0 +1,456 @@
+{
+  "id": "21088",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/21088.html",
+  "title": "搭载PIXART原相方案的TWS真无线蓝牙耳机",
+  "brand": "",
+  "model": "搭载PIXART原相方案的TWS",
+  "category": "真无线耳机TWS",
+  "published_at": "2019-05-14",
+  "author": "Vallière",
+  "summary": "此前TWS真无线蓝牙耳机有很长一段时间是 CBA（高通CSR，BES恒玄，AIROHA络达）三分天下的，而后随 […]",
+  "captured_at": "2026-07-14T02:14:42+00:00",
+  "data_completeness": 0.568,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "搭载PIXART原相方案的TWS",
+      "category": "真无线耳机TWS",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [],
+      "scenarios": [
+        "通话"
+      ],
+      "positioning_summary": "",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "充电仓",
+        "主板/PCBA",
+        "电池",
+        "麦克风",
+        "喇叭单元",
+        "天线"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm",
+          "model": "高通CSR",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通CSR",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "高通CSR"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm",
+          "model": "高通QCC",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通QCC",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "高通QCC"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9640",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA9640",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "ETA9640"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "此前TWS真无线蓝牙耳机有很长一段时间是 CBA（高通CSR，BES恒玄，AIROHA络达）三分天下的，而后随着Realtek、Qualcomm高通QCC等强力选手的进场这种格局被打破了。最近我爱音频网发现了一款有趣的蓝牙耳机，它采用推拉式充电盒、TWS真无线设计，最重要的是它的芯片方案是一个新面孔，由PIXART原相制造的TWS真无线蓝牙音频芯片，支持蓝牙5.0。现在马上来通过拆解来看看它长什么样子。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "拆开充电盒一端的盖子，主板嵌在耳机充电盒中间。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机充电盒主板背面，导线连接着电池。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机通话麦克风拾音孔。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机面盖最下层有辅助定位的磁铁和动圈单元。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "板载陶瓷蓝牙天线。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "每边有两个充电触点。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机背后是光滑的亮面，支持触控。边缘半圆条状的是LED透光窗。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "Micro USB充电接口位于充电盒一侧，下面有一颗LED指示灯。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "高通CSR",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通CSR",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "此前TWS真无线蓝牙耳机有很长一段时间是 CBA（高通CSR，BES恒玄，AIROHA络达）三分天下的，而后随着Realtek、Qualcomm高通QCC等强力选手的进场这种格局被打破了。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9640",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA9640",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "ETA钰泰ETA9640 5V1A充放电、LED三合一芯片。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [],
+      "process_hints": [],
+      "summary_image_urls": [],
+      "summary_text": ""
+    },
+    "structure": {
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
+      "materials": [
+        "铝合金"
+      ],
+      "ip_rating": null,
+      "weight_g": null,
+      "dimensions": [
+        "此前TWS真无线蓝牙耳机有很长一段时间是 CBA（高通CSR，BES恒玄，AIROHA络达）三分天下的，而后随着Realtek、Qualcomm高通QCC等强力选手的进场这种格局被打破了。"
+      ],
+      "internal_structure": [
+        {
+          "value": "拆开充电盒一端的盖子，主板嵌在耳机充电盒中间。",
+          "evidence": {
+            "value": "拆开充电盒一端的盖子，主板嵌在耳机充电盒中间。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "拆开充电盒一端的盖子，主板嵌在耳机充电盒中间。"
+          }
+        },
+        {
+          "value": "耳机充电盒主板背面，导线连接着电池。",
+          "evidence": {
+            "value": "耳机充电盒主板背面，导线连接着电池。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机充电盒主板背面，导线连接着电池。"
+          }
+        },
+        {
+          "value": "内置电池型号JYZ 702035，容量450mAh。",
+          "evidence": {
+            "value": "内置电池型号JYZ 702035，容量450mAh。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "内置电池型号JYZ 702035，容量450mAh。"
+          }
+        },
+        {
+          "value": "耳机通话麦克风拾音孔。",
+          "evidence": {
+            "value": "耳机通话麦克风拾音孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机通话麦克风拾音孔。"
+          }
+        },
+        {
+          "value": "PIXART原相 PAU1603FB-S1蓝牙音频芯片，支持蓝牙5.0，支持立体声，支持两路麦克风。",
+          "evidence": {
+            "value": "PIXART原相 PAU1603FB-S1蓝牙音频芯片，支持蓝牙5.0，支持立体声，支持两路麦克风。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "PIXART原相 PAU1603FB-S1蓝牙音频芯片，支持蓝牙5.0，支持立体声，支持两路麦克风。"
+          }
+        },
+        {
+          "value": "耳机面盖最下层有辅助定位的磁铁和动圈单元。",
+          "evidence": {
+            "value": "耳机面盖最下层有辅助定位的磁铁和动圈单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机面盖最下层有辅助定位的磁铁和动圈单元。"
+          }
+        },
+        {
+          "value": "板载陶瓷蓝牙天线。",
+          "evidence": {
+            "value": "板载陶瓷蓝牙天线。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "板载陶瓷蓝牙天线。"
+          }
+        },
+        {
+          "value": "每边有两个充电触点。",
+          "evidence": {
+            "value": "每边有两个充电触点。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "每边有两个充电触点。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "抽出另一边的套筒，拆开盖子，里面用螺丝固定。",
+          "evidence": {
+            "value": "抽出另一边的套筒，拆开盖子，里面用螺丝固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "抽出另一边的套筒，拆开盖子，里面用螺丝固定。"
+          }
+        },
+        {
+          "value": "拆下螺丝之后，就可以将充电盒质壁分离。",
+          "evidence": {
+            "value": "拆下螺丝之后，就可以将充电盒质壁分离。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "拆下螺丝之后，就可以将充电盒质壁分离。"
+          }
+        }
+      ],
+      "sealing_method": [],
+      "wear_design": [],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/05/红色外壳真无线耳机-1.jpg",
+          "alt": "拆解报告：搭载PIXART原相方案的TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/05/红色外壳真无线耳机-2.jpg",
+          "alt": "拆解报告：搭载PIXART原相方案的TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/05/红色外壳真无线耳机-3.jpg",
+          "alt": "拆解报告：搭载PIXART原相方案的TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/05/红色外壳真无线耳机-4.jpg",
+          "alt": "拆解报告：搭载PIXART原相方案的TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/05/红色外壳真无线耳机-5.jpg",
+          "alt": "拆解报告：搭载PIXART原相方案的TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "拆开充电盒一端的盖子，主板嵌在耳机充电盒中间。",
+        "耳机充电盒主板背面，导线连接着电池。",
+        "内置电池型号JYZ 702035，容量450mAh。",
+        "耳机通话麦克风拾音孔。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": null
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "Micro USB充电接口位于充电盒一侧，下面有一颗LED指示灯。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Micro USB充电接口位于充电盒一侧，下面有一颗LED指示灯。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Micro USB充电接口上面有一颗LED灯。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Micro USB充电接口上面有一颗LED灯。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Micro USB",
+          "unit": "",
+          "brand": "",
+          "model": "Micro USB",
+          "confidence": 0.8,
+          "source_ref": "Micro USB"
+        },
+        {
+          "param": "电池容量",
+          "value": "450",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "450mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.0",
+      "codecs": [],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [],
+      "ota_support": [],
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "5.0",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.0"
+      }
+    }
+  }
+}

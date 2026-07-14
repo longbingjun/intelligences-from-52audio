@@ -454,6 +454,20 @@
         {
           "component": "芯片/模组",
           "brand": "",
+          "model": "IP5333",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "IP5333",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "IP5333非常适合目前需求逐渐提升的智能双向通讯仓应用，可以提供开盖即连功能耳机秒回联手机，相较普通产品7秒以上的回连时间体验大幅提升，同时耳机出仓与入仓都能做到灯显提醒，给予用户直观反馈。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
           "model": "高通QCC5181",
           "qty_hint": "1",
           "side": "",
@@ -463,34 +477,6 @@
             "confidence": 0.78,
             "source_type": "text",
             "source_text": "Qualcomm高通QCC5181蓝牙音频SoC，隶属于\n第二代高通S5音频平台\n，支持蓝牙5.4，充分符合支持全新蓝牙LE Audio（低功耗音频）用例的要求，包括Auracast广播音频。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "高通QCC51xx",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "高通QCC51xx",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "Qualcomm高通QCC51xx系列详细资料图。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "QCC51",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "QCC51",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "Qualcomm高通QCC51xx系列详细资料图。"
           }
         }
       ],
@@ -750,7 +736,11 @@
         "confidence": 0.75,
         "source_type": "text",
         "source_text": "308g"
-      }
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": null,
+      "weight_earbud_evidence": null
     },
     "hardware": {
       "specs": [

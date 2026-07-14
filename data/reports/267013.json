@@ -112,6 +112,20 @@
             "source_type": "summary_prose",
             "source_text": "右耳搭载主板单元，采用了Wayon维安WP1230的过压保护IC，Chipower芯力微CE3221电源管理IC，JL杰理JL7018F6蓝牙音频SoC和Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WP1230",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WP1230",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "右耳搭载主板单元，采用了Wayon维安WP1230的过压保护IC，Chipower芯力微CE3221电源管理IC，JL杰理JL7018F6蓝牙音频SoC和Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。"
+          }
         }
       ],
       "bom_table": [
@@ -124,6 +138,20 @@
           "role": "主控/蓝牙",
           "evidence": {
             "value": "JL7018",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "右耳搭载主板单元，采用了Wayon维安WP1230的过压保护IC，Chipower芯力微CE3221电源管理IC，JL杰理JL7018F6蓝牙音频SoC和Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WP1230",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WP1230",
             "confidence": 0.85,
             "source_type": "summary_prose",
             "source_text": "右耳搭载主板单元，采用了Wayon维安WP1230的过压保护IC，Chipower芯力微CE3221电源管理IC，JL杰理JL7018F6蓝牙音频SoC和Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。"
@@ -286,6 +314,20 @@
         {
           "component": "芯片/模组",
           "brand": "",
+          "model": "WP1230",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "WP1230",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Wayon维安WP1230的过压保护IC，当检测到错误的输入操作条件时，自动断开系统与其输出引脚（OUT）的连接。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
           "model": "JL7018",
           "qty_hint": "1",
           "side": "",
@@ -306,6 +348,20 @@
           "role": "主控/蓝牙",
           "evidence": {
             "value": "JL7018",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "其他方面，左耳内置CEL金赛尔600mAh/3.7V锂电池；右耳搭载主板单元，采用了Wayon维安WP1230的过压保护IC，Chipower芯力微CE3221电源管理IC，JL杰理JL7018F6蓝牙音频SoC和Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WP1230",
+          "qty_hint": "1",
+          "side": "左耳",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "WP1230",
             "confidence": 0.78,
             "source_type": "text",
             "source_text": "其他方面，左耳内置CEL金赛尔600mAh/3.7V锂电池；右耳搭载主板单元，采用了Wayon维安WP1230的过压保护IC，Chipower芯力微CE3221电源管理IC，JL杰理JL7018F6蓝牙音频SoC和Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。"
@@ -568,7 +624,11 @@
         "头梁内侧标注有产品信息，UGREEN HiTune Max5c头戴式降噪蓝牙耳机，型号：HP203，输入：5V-600mA，电池容量：600mAh 3.7V（2.22Wh），制造商：深圳市绿联科技股份有限公司。"
       ],
       "ip_rating_evidence": null,
-      "weight_evidence": null
+      "weight_evidence": null,
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": null,
+      "weight_earbud_evidence": null
     },
     "hardware": {
       "specs": [
@@ -742,6 +802,6 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.728,
+  "data_completeness": 0.754,
   "source_layer": "technical"
 }

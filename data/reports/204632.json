@@ -1,0 +1,706 @@
+{
+  "id": "204632",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/204632.html",
+  "title": "JLab GO AIR POP真无线耳机",
+  "brand": "",
+  "model": "JLab GO AIR POP",
+  "category": "真无线耳机TWS",
+  "published_at": "2024-07-05",
+  "author": "Wen5",
+  "summary": "JLab是美国的一个知名个人音频设备品牌，成立于2005年，旗下产品涵盖入耳式、挂耳式以及头戴式等多种类型的耳 […]",
+  "captured_at": "2026-07-14T02:05:14+00:00",
+  "data_completeness": 0.754,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "JLab GO AIR POP",
+      "category": "真无线耳机TWS",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "JLab GO AIR POP是其推出的一款主打轻量设计、时尚舒适佩戴的产品，拥有着迷你的体积、灵动的配色，以及一体式的便捷充电方式。",
+          "tag": "舒适佩戴",
+          "evidence": {
+            "value": "JLab GO AIR POP是其推出的一款主打轻量设计、时尚舒适佩戴的产品，拥有着迷你的体积、灵动的配色，以及一体式的便捷充电方式。",
+            "confidence": 0.75,
+            "source_type": "text",
+            "source_text": "JLab GO AIR POP是其推出的一款主打轻量设计、时尚舒适佩戴的产品，拥有着迷你的体积、灵动的配色，以及一体式的便捷充电方式。"
+          }
+        },
+        {
+          "text": "取出充电盒，下方雕刻产品信息和认证标识。",
+          "tag": "其他",
+          "evidence": {
+            "value": "取出充电盒，下方雕刻产品信息和认证标识。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "取出充电盒，下方雕刻产品信息和认证标识。"
+          }
+        },
+        {
+          "text": "取掉耳塞，耳机出音嘴特写，防尘网防护。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "取掉耳塞，耳机出音嘴特写，防尘网防护。",
+            "confidence": 0.58,
+            "source_type": "text",
+            "source_text": "取掉耳塞，耳机出音嘴特写，防尘网防护。"
+          }
+        }
+      ],
+      "scenarios": [
+        "运动",
+        "游戏",
+        "通话"
+      ],
+      "positioning_summary": "JLab GO AIR POP是其推出的一款主打轻量设计、时尚舒适佩戴的产品，拥有着迷你的体积、灵动的配色，以及一体式的便捷充电方式。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "充电仓",
+        "主板/PCBA",
+        "电池",
+        "麦克风",
+        "喇叭单元"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "WINSEMI稳先微",
+          "model": "WINSEMI稳先微WSDF13H",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF13H",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上搭载了瑞勤电子的MEMS麦克风，采用了WINSEMI稳先微WSDF13H2Y2H锂电保护IC，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等元器件。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "JL6973",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL6973",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "JL6973"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3V/80mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3V/80mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载380mAh锂电池，采用LPS微源半导体LP7812A多合一智能TWS充电仓电源管理IC，集成电池充电，耳机充电，温度管理，霍尔检测，按键检测以及LED显示等功能，支持电压跟随，能够提升15%的整机续航时间，从而使轻巧机身实现更持久续航；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "WINSEMI稳先微",
+          "model": "WINSEMI稳先微WSDF13H",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF13H",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上搭载了瑞勤电子的MEMS麦克风，采用了WINSEMI稳先微WSDF13H2Y2H锂电保护IC，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等元器件。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "主板上搭载了瑞勤电子的MEMS麦克风，采用了WINSEMI稳先微WSDF13H2Y2H锂电保护IC，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等元器件。"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "JLab GO AIR POP充电盒自带一体式USB-A充电线，实现随时的便捷充电。同时轻巧的机身拥有32小时的持久续航，单次续航时间也达到了8小时，满足日常、短途旅差等多场景使用。我爱音频网此前还拆解过JLab JBuds Mini真无线耳机、JLab Go Air真无线运动耳机、JLab Epic Air 真无线运动耳机等，下面再来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "座舱底部主板通过导线连接到外部一体式充电线，导线打结，防止牵拉移位。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒展示有产品部分参数信息和认证标志。扬声器：6mm驱动器，电池容量：350mAh（充电盒）/43mAh（耳机），续航时间：32小时（总共）/8小时（耳机），蓝牙：蓝牙5.1-30英尺范围。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "在功能配置方面，JLab GO AIR POP搭载了6mm动态驱动单元，内置EQ3智能音效，包括JLab签名音效（人声），均衡和低音增强，同时支持自定义设置，满足用户对音质的个性化需求；还支持双MEMS麦克风，提供清晰地通话体验；支持开盖秒连，双设备多点连接，低延迟模式，提供便捷使用和音画同步的游戏、观影体验。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机扬声器正面振膜特写。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "JLab GO AIR POP充电盒采用了圆角方形设计，磨砂质感，正面开盖处设计扣槽，便于开启；下方机身上一颗指示灯，用于反馈充电状态。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "拆开卡扣式固定的充电盒外壳，取出座舱结构。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒侧边对三种EQ预设的特点进行了说明，通过3击触摸控制按键可以进行切换。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "为耳机充电的Pogo Pin连接器特写。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "JL6973",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL6973",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "JL杰理JL6973D8的蓝牙音频SoC，用于无线连接和音频数据处理。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WINSEMI稳先微WSDF13H",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF13H",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "WINSEMI稳先微WSDF13H2Y2H锂电保护IC。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [
+        "取出包装盒内部所有物品，包括了主机、耳塞和产品说明书，此款为石板青配色。"
+      ],
+      "process_hints": [
+        {
+          "value": "座舱底部结构一览，中间固定主板，与充电线和电池导线焊接。",
+          "evidence": {
+            "value": "座舱底部结构一览，中间固定主板，与充电线和电池导线焊接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，中间固定主板，与充电线和电池导线焊接。"
+          }
+        },
+        {
+          "value": "撕开绝缘保护，电池正负极镍片与导线焊接，电池保护电路位于主板上。",
+          "evidence": {
+            "value": "撕开绝缘保护，电池正负极镍片与导线焊接，电池保护电路位于主板上。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "撕开绝缘保护，电池正负极镍片与导线焊接，电池保护电路位于主板上。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": "三、我爱音频网总结 JLab GO AIR POP真无线耳机在外观方面，采用了轻量设计，整机重量仅35.9g，非常便携；豆状的入耳式耳机，重量也仅4.0g，佩戴舒适轻盈。另外一大突出特点是充电盒采用了一体式的充电线设计，通过USB-A接口，随时充电，省去了携带充电线和充电时找充电线的烦恼。 内部配置方面，充电盒搭载380mAh锂电池，采用LPS微源半导体LP7812A多合一智能TWS充电仓电源管理IC，集成电池充电，耳机充电，温度管理，霍尔检测，按键检测以及LED显示等功能，支持电压跟随，能够提升15%的整机续航时间，从而使轻巧机身实现更持久续航；还采用了WINSEMI稳先微WSDY3301B的锂电保护IC，负责过充、过放、过流、短路等电池需要的所有保护功能。 耳机内部搭载6mm扬声器，采用了0.171Wh软包锂电池；主板上搭载了瑞勤电子的MEMS麦克风，采用了WINSEMI稳先微WSDF13H2Y2H锂电保护IC，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等元器件。"
+    },
+    "structure": {
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
+      "materials": [
+        "硅胶"
+      ],
+      "ip_rating": null,
+      "weight_g": "35.9g",
+      "dimensions": [
+        "在功能配置方面，JLab GO AIR POP搭载了6mm动态驱动单元，内置EQ3智能音效，包括JLab签名音效（人声），均衡和低音增强，同时支持自定义设置，满足用户对音质的个性化需求；还支持双MEMS麦克风，提供清晰地通话体验；支持开盖秒连，双设备多点连接，低延迟模式，提供便捷使用和音画同步的游戏、观影体验。",
+        "扬声器：6mm驱动器，电池容量：350mAh（充电盒）/43mAh（耳机），续航时间：32小时（总共）/8小时（耳机），蓝牙：蓝牙5.1-30英尺范围。",
+        "随机附赠的两副硅胶耳塞，耳机上预装一副，总共有三种尺寸，用于满足不同用户使用需求，带来更佳的密闭性和佩戴稳定性。"
+      ],
+      "internal_structure": [
+        {
+          "value": "座舱底部主板通过导线连接到外部一体式充电线，导线打结，防止牵拉移位。",
+          "evidence": {
+            "value": "座舱底部主板通过导线连接到外部一体式充电线，导线打结，防止牵拉移位。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "座舱底部主板通过导线连接到外部一体式充电线，导线打结，防止牵拉移位。"
+          }
+        },
+        {
+          "value": "座舱底部结构一览，中间固定主板，与充电线和电池导线焊接。",
+          "evidence": {
+            "value": "座舱底部结构一览，中间固定主板，与充电线和电池导线焊接。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，中间固定主板，与充电线和电池导线焊接。"
+          }
+        },
+        {
+          "value": "在功能配置方面，JLab GO AIR POP搭载了6mm动态驱动单元，内置EQ3智能音效，包括JLab签名音效（人声），均衡和低音增强，同时支持自定义设置，满足用户对音质的个性化需求；还支持双MEMS麦克风，提供清晰地通话体验；支持开盖秒连，双设备多点连接，低延迟模式，提供便捷使用和音画同步的游戏、观影体验。",
+          "evidence": {
+            "value": "在功能配置方面，JLab GO AIR POP搭载了6mm动态驱动单元，内置EQ3智能音效，包括JLab签名音效（人声），均衡和低音增强，同时支持自定义设置，满足用户对音质的个性化需求；还支持双MEMS麦克风，提供清晰地通话体验；支持开盖秒连，双设备多点连接，低延迟模式，提供便捷使用和音画同步的游戏、观影体验。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "在功能配置方面，JLab GO AIR POP搭载了6mm动态驱动单元，内置EQ3智能音效，包括JLab签名音效（人声），均衡和低音增强，同时支持自定义设置，满足用户对音质的个性化需求；还支持双MEMS麦克风，提供清晰地通话体验；支持开盖秒连，双设备多点连接，低延迟模式，提供便捷使用和音画同步的游戏、观影体验。"
+          }
+        },
+        {
+          "value": "耳机扬声器正面振膜特写。",
+          "evidence": {
+            "value": "耳机扬声器正面振膜特写。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机扬声器正面振膜特写。"
+          }
+        },
+        {
+          "value": "拆开卡扣式固定的充电盒外壳，取出座舱结构。",
+          "evidence": {
+            "value": "拆开卡扣式固定的充电盒外壳，取出座舱结构。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "拆开卡扣式固定的充电盒外壳，取出座舱结构。"
+          }
+        },
+        {
+          "value": "后腔内部结构一览，底部设置有用于触摸控制的导电布和麦克风的声学密封罩。",
+          "evidence": {
+            "value": "后腔内部结构一览，底部设置有用于触摸控制的导电布和麦克风的声学密封罩。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "后腔内部结构一览，底部设置有用于触摸控制的导电布和麦克风的声学密封罩。"
+          }
+        },
+        {
+          "value": "机身外侧外观一览，背部设计亮面品牌LOGO装饰，同时也是触控区域，用于便捷控制。",
+          "evidence": {
+            "value": "机身外侧外观一览，背部设计亮面品牌LOGO装饰，同时也是触控区域，用于便捷控制。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "机身外侧外观一览，背部设计亮面品牌LOGO装饰，同时也是触控区域，用于便捷控制。"
+          }
+        },
+        {
+          "value": "为耳机充电的Pogo Pin连接器特写。",
+          "evidence": {
+            "value": "为耳机充电的Pogo Pin连接器特写。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "为耳机充电的Pogo Pin连接器特写。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "机身底部及侧边通过卡槽固定一体式USB-A充电线，取出连接到USB-A充电器接口即可充电，外出无需另外携带线缆，充电无需再找线缆，提升了使用的便捷性。",
+          "evidence": {
+            "value": "机身底部及侧边通过卡槽固定一体式USB-A充电线，取出连接到USB-A充电器接口即可充电，外出无需另外携带线缆，充电无需再找线缆，提升了使用的便捷性。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "机身底部及侧边通过卡槽固定一体式USB-A充电线，取出连接到USB-A充电器接口即可充电，外出无需另外携带线缆，充电无需再找线缆，提升了使用的便捷性。"
+          }
+        },
+        {
+          "value": "二、\nJLab GO AIR POP真无线耳机拆解\n通过开箱，我们详细了解了JLab GO AIR POP真无线耳机的轻巧外观设计，下面进入拆解部分看看内部结构配置信息~\n充电盒拆解\n拆开卡扣式固定的充电盒外壳，取出座舱结构。",
+          "evidence": {
+            "value": "二、\nJLab GO AIR POP真无线耳机拆解\n通过开箱，我们详细了解了JLab GO AIR POP真无线耳机的轻巧外观设计，下面进入拆解部分看看内部结构配置信息~\n充电盒拆解\n拆开卡扣式固定的充电盒外壳，取出座舱结构。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "二、\nJLab GO AIR POP真无线耳机拆解\n通过开箱，我们详细了解了JLab GO AIR POP真无线耳机的轻巧外观设计，下面进入拆解部分看看内部结构配置信息~\n充电盒拆解\n拆开卡扣式固定的充电盒外壳，取出座舱结构。"
+          }
+        },
+        {
+          "value": "取掉电池，下方主板通过螺丝固定。",
+          "evidence": {
+            "value": "取掉电池，下方主板通过螺丝固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "取掉电池，下方主板通过螺丝固定。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，取掉主板单元。",
+          "evidence": {
+            "value": "卸掉螺丝，取掉主板单元。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取掉主板单元。"
+          }
+        },
+        {
+          "value": "前腔内部主板单元结构一览，通过热熔柱固定。",
+          "evidence": {
+            "value": "前腔内部主板单元结构一览，通过热熔柱固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "前腔内部主板单元结构一览，通过热熔柱固定。"
+          }
+        }
+      ],
+      "sealing_method": [
+        {
+          "value": "取掉耳塞，耳机出音嘴特写，防尘网防护。",
+          "evidence": {
+            "value": "取掉耳塞，耳机出音嘴特写，防尘网防护。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "取掉耳塞，耳机出音嘴特写，防尘网防护。"
+          }
+        }
+      ],
+      "wear_design": [
+        {
+          "value": "JLab GO AIR POP是其推出的一款主打轻量设计、时尚舒适佩戴的产品，拥有着迷你的体积、灵动的配色，以及一体式的便捷充电方式。",
+          "evidence": {
+            "value": "JLab GO AIR POP是其推出的一款主打轻量设计、时尚舒适佩戴的产品，拥有着迷你的体积、灵动的配色，以及一体式的便捷充电方式。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "JLab GO AIR POP是其推出的一款主打轻量设计、时尚舒适佩戴的产品，拥有着迷你的体积、灵动的配色，以及一体式的便捷充电方式。"
+          }
+        },
+        {
+          "value": "取出包装盒内部所有物品，包括了主机、耳塞和产品说明书，此款为石板青配色。",
+          "evidence": {
+            "value": "取出包装盒内部所有物品，包括了主机、耳塞和产品说明书，此款为石板青配色。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "取出包装盒内部所有物品，包括了主机、耳塞和产品说明书，此款为石板青配色。"
+          }
+        },
+        {
+          "value": "随机附赠的两副硅胶耳塞，耳机上预装一副，总共有三种尺寸，用于满足不同用户使用需求，带来更佳的密闭性和佩戴稳定性。",
+          "evidence": {
+            "value": "随机附赠的两副硅胶耳塞，耳机上预装一副，总共有三种尺寸，用于满足不同用户使用需求，带来更佳的密闭性和佩戴稳定性。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "随机附赠的两副硅胶耳塞，耳机上预装一副，总共有三种尺寸，用于满足不同用户使用需求，带来更佳的密闭性和佩戴稳定性。"
+          }
+        },
+        {
+          "value": "JLab GO AIR POP真无线耳机整体外观一览，耳机采用了豆状的入耳式设计，质感与充电盒一致，体积轻巧，佩戴舒适。",
+          "evidence": {
+            "value": "JLab GO AIR POP真无线耳机整体外观一览，耳机采用了豆状的入耳式设计，质感与充电盒一致，体积轻巧，佩戴舒适。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "JLab GO AIR POP真无线耳机整体外观一览，耳机采用了豆状的入耳式设计，质感与充电盒一致，体积轻巧，佩戴舒适。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/07/2024070506234441.jpeg",
+          "alt": "拆解报告：JLab GO AIR POP真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/07/2024070506234653.jpeg",
+          "alt": "拆解报告：JLab GO AIR POP真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/07/2024070506234788.jpeg",
+          "alt": "拆解报告：JLab GO AIR POP真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/07/2024070506234816.jpeg",
+          "alt": "拆解报告：JLab GO AIR POP真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/07/2024070506234974.jpeg",
+          "alt": "拆解报告：JLab GO AIR POP真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "座舱底部主板通过导线连接到外部一体式充电线，导线打结，防止牵拉移位。",
+        "座舱底部结构一览，中间固定主板，与充电线和电池导线焊接。",
+        "在功能配置方面，JLab GO AIR POP搭载了6mm动态驱动单元，内置EQ3智能音效，包括JLab签名音效（人声），均衡和低音增强，同时支持自定义设置，满足用户对音质的个性化需求；还支持双MEMS麦克风，提供清晰地通话体验；支持开盖秒连，双设备多点连接，低延迟模式，提供便捷使用和音画同步的游戏、观影体验。",
+        "耳机扬声器正面振膜特写。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": {
+        "value": "35.9g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "JLab GO AIR POP真无线耳机整机重量仅约为35.9g，轻巧便携"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": null,
+      "weight_earbud_evidence": null
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电方式",
+          "value": "JLab GO AIR POP是其推出的一款主打轻量设计、时尚舒适佩戴的产品，拥有着迷你的体积、灵动的配色，以及一体式的便捷充电方式。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "JLab GO AIR POP是其推出的一款主打轻量设计、时尚舒适佩戴的产品，拥有着迷你的体积、灵动的配色，以及一体式的便捷充电方式。"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "包装盒展示有产品部分参数信息和认证标志。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "包装盒展示有产品部分参数信息和认证标志。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "取出充电盒，下方雕刻产品信息和认证标识。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "取出充电盒，下方雕刻产品信息和认证标识。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "型号：JLab GO AIR POP，输入：5V-1A，越南制造。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "型号：JLab GO AIR POP，输入：5V-1A，越南制造。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "充电盒内置锂电池型号：HJ 501745，标称电压：3.8V，额定容量：380mAh 1.444Wh，生产日期：2023年11月11日，来自HJ弘捷新能源。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒内置锂电池型号：HJ 501745，标称电压：3.8V，额定容量：380mAh 1.444Wh，生产日期：2023年11月11日，来自HJ弘捷新能源。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "据我爱音频网拆解了解到，目前已有\n小米、荣耀、Redmi、realme、MEIZU、红魔、雷蛇、小天才、FIIL、1MORE、JBL、Bowers & Wilkins、酷睿视、Barbetsound、JLab、SUUNTO、Monster、七彩虹、Nothing、斯莫格、PHILIPS、RODE、重力星球、Haylou、如布、ELEVOC、HHOGene\n，\n黑鲨\n、\nSoundPeats\n、\n花再\n、\nOPPO、华为、联想、索尼、诺基亚、摩托罗拉、漫步者、声阔、万魔、QCY、绿联、雷蛇等众多品牌\n旗下音频产品采用了微源的方案。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "据我爱音频网拆解了解到，目前已有\n小米、荣耀、Redmi、realme、MEIZU、红魔、雷蛇、小天才、FIIL、1MORE、JBL、Bowers & Wilkins、酷睿视、Barbetsound、JLab、SUUNTO、Monster、"
+        },
+        {
+          "param": "标记/认证",
+          "value": "耳机内置软包锂电池型号：HJ 541112，标称电压：3.8V，额定能量：0.171Wh，同样来自HJ弘捷新能源。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "耳机内置软包锂电池型号：HJ 541112，标称电压：3.8V，额定能量：0.171Wh，同样来自HJ弘捷新能源。"
+        },
+        {
+          "param": "电池容量",
+          "value": "350",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "350mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.1",
+      "codecs": [],
+      "multipoint": [
+        {
+          "value": "在功能配置方面，JLab GO AIR POP搭载了6mm动态驱动单元，内置EQ3智能音效，包括JLab签名音效（人声），均衡和低音增强，同时支持自定义设置，满足用户对音质的个性化需求；还支持双MEMS麦克风，提供清晰地通话体验；支持开盖秒连，双设备多点连接，低延迟模式，提供便捷使用和音画同步的游戏、观影体验。",
+          "evidence": {
+            "value": "在功能配置方面，JLab GO AIR POP搭载了6mm动态驱动单元，内置EQ3智能音效，包括JLab签名音效（人声），均衡和低音增强，同时支持自定义设置，满足用户对音质的个性化需求；还支持双MEMS麦克风，提供清晰地通话体验；支持开盖秒连，双设备多点连接，低延迟模式，提供便捷使用和音画同步的游戏、观影体验。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "在功能配置方面，JLab GO AIR POP搭载了6mm动态驱动单元，内置EQ3智能音效，包括JLab签名音效（人声），均衡和低音增强，同时支持自定义设置，满足用户对音质的个性化需求；还支持双MEMS麦克风，提供清晰地通话体验；支持开盖秒连，双设备多点连接，低延迟模式，提供便捷使用和音画同步的游戏、观影体验。"
+          }
+        }
+      ],
+      "app_name": "",
+      "app_features": [
+        {
+          "value": "WSDY3301不仅仅为穿戴设备而设计，也适用于一切需要锂离子或锂聚合物可充电电池长时间供电的各种信息产品的应用场合。",
+          "evidence": {
+            "value": "WSDY3301不仅仅为穿戴设备而设计，也适用于一切需要锂离子或锂聚合物可充电电池长时间供电的各种信息产品的应用场合。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "WSDY3301不仅仅为穿戴设备而设计，也适用于一切需要锂离子或锂聚合物可充电电池长时间供电的各种信息产品的应用场合。"
+          }
+        },
+        {
+          "value": "同时具有非常小的DFN4L-1×1封装，使得该器件非常适合应用于空间限制得非常小的可充电电池组应用。",
+          "evidence": {
+            "value": "同时具有非常小的DFN4L-1×1封装，使得该器件非常适合应用于空间限制得非常小的可充电电池组应用。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "同时具有非常小的DFN4L-1×1封装，使得该器件非常适合应用于空间限制得非常小的可充电电池组应用。"
+          }
+        }
+      ],
+      "ota_support": [],
+      "latency_notes": [
+        {
+          "value": "在功能配置方面，JLab GO AIR POP搭载了6mm动态驱动单元，内置EQ3智能音效，包括JLab签名音效（人声），均衡和低音增强，同时支持自定义设置，满足用户对音质的个性化需求；还支持双MEMS麦克风，提供清晰地通话体验；支持开盖秒连，双设备多点连接，低延迟模式，提供便捷使用和音画同步的游戏、观影体验。",
+          "evidence": {
+            "value": "在功能配置方面，JLab GO AIR POP搭载了6mm动态驱动单元，内置EQ3智能音效，包括JLab签名音效（人声），均衡和低音增强，同时支持自定义设置，满足用户对音质的个性化需求；还支持双MEMS麦克风，提供清晰地通话体验；支持开盖秒连，双设备多点连接，低延迟模式，提供便捷使用和音画同步的游戏、观影体验。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "在功能配置方面，JLab GO AIR POP搭载了6mm动态驱动单元，内置EQ3智能音效，包括JLab签名音效（人声），均衡和低音增强，同时支持自定义设置，满足用户对音质的个性化需求；还支持双MEMS麦克风，提供清晰地通话体验；支持开盖秒连，双设备多点连接，低延迟模式，提供便捷使用和音画同步的游戏、观影体验。"
+          }
+        }
+      ],
+      "bluetooth_evidence": {
+        "value": "5.1",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.1"
+      }
+    }
+  }
+}

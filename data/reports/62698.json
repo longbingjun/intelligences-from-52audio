@@ -1,0 +1,778 @@
+{
+  "id": "62698",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/62698.html",
+  "title": "Defunc True Go 真无线蓝牙耳机",
+  "brand": "",
+  "model": "Defunc True Go",
+  "category": "真无线耳机TWS",
+  "published_at": "2020-11-13",
+  "author": "GiGi24",
+  "summary": "Defunc是一个来自瑞典的音频品牌，其品牌宣言是“Existensberttigande”，意为“生存的权力 […]",
+  "captured_at": "2026-07-14T02:11:39+00:00",
+  "data_completeness": 0.766,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "Defunc True Go",
+      "category": "真无线耳机TWS",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "“X”形状的泄压孔，有一定装饰作用，内有金属防尘网防止异物进入。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "“X”形状的泄压孔，有一定装饰作用，内有金属防尘网防止异物进入。",
+            "confidence": 0.62,
+            "source_type": "text",
+            "source_text": "“X”形状的泄压孔，有一定装饰作用，内有金属防尘网防止异物进入。"
+          }
+        },
+        {
+          "text": "通话部分内置单MIC ENC降噪/AEC回音消除算法。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "通话部分内置单MIC ENC降噪/AEC回音消除算法。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "通话部分内置单MIC ENC降噪/AEC回音消除算法。"
+          }
+        },
+        {
+          "text": "取下外侧壳体，出音嘴处有防尘网阻止异物进入。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "取下外侧壳体，出音嘴处有防尘网阻止异物进入。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "取下外侧壳体，出音嘴处有防尘网阻止异物进入。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通话"
+      ],
+      "positioning_summary": "“X”形状的泄压孔，有一定装饰作用，内有金属防尘网防止异物进入。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "充电仓",
+        "电池",
+        "主板/PCBA",
+        "麦克风",
+        "喇叭单元",
+        "天线",
+        "降噪系统"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "中科蓝讯BT8892B",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "中科蓝讯BT8892B",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "中科蓝讯BT8892B"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9640",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA9640",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "ETA9640"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "此次我爱音频网要拆解的是Defunc True系列真无线耳机的一款，名为Defunc True Go，耳机为柄式半入耳设计，机身壳体为磨砂质感，内置蓝牙5.0芯片，支持触控，耳机搭配充电盒的总续航时间约为22小时，49美元的售价并不便宜。其内部结构和用料如何，一起来看我爱音频网的详细拆解吧~"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒背面展示，上面有部分产品信息。型号，Defunc True Go  输入/输出，DC 5V⎓0.4A，电池容量400mAh/1.48Wh，中国制造。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒内部结构正面展示，指示灯所在的PCBA竖向放置，通过导线与底部主板相连。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒上的渲染图展示了耳机的两个角度，图片看起来是比较有质感的。顶部是品牌名称“Defunc”，渲染图下面是产品名“True Go 真无线耳机”, 底部是四个产品特色功能：Powerful sound、稳定佩戴、微型麦克风和14小时续航。包装盒顶部有挂钩便于线下店铺展示。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "拆开音腔，可以看到扬声器单元。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "贴片陶瓷蓝牙天线特写，用于传输信号。"
+          }
+        },
+        {
+          "component": "降噪系统",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "降噪系统",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "Defunc True Go 真无线蓝牙耳机采用了中科蓝讯的BT8892B蓝牙音频SoC。主控芯片为中科蓝讯讯龙系列BT8892B蓝牙音频SoC。BT8892B主要针对TWS耳机市场。芯片具有32位RISC-V处理器，支持DSP指令集，运行频率最高125MHz。芯片采用QFN32 4×4小型封装，适用于各种TWS小型耳机。BT8892B专为TWS耳机应用设计，芯片高度集成化，PCB外围物料精简。通讯协议支持蓝牙5.0 双模，支持APP应用。解码格式支持SBC/mSBC、AAC，内置10段参量式均衡器。内置5V充电触点单线通讯、内置锂电池充电管理电路，适用于智能充电仓应用。支持主副耳无缝切换。通话部分内置单MIC ENC降噪/AEC回音消除算法。原厂提供配置化编程工具，方便客户产品迅速投入市场。据我爱音频网拆解了解到，目前已有铁三角、联想、飞利浦、夏新、山水、梵蒂尼等品牌的TWS耳机大量采用中科蓝讯的方案。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒正面展示，盒盖开启处有一道凹槽便于打开，四个充电盒电量指示灯竖向排列，下面有Defunc的品牌名。壳体为塑料材质，磨砂手感。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "此次我爱音频网要拆解的是Defunc True系列真无线耳机的一款，名为Defunc True Go，耳机为柄式半入耳设计，机身壳体为磨砂质感，内置蓝牙5.0芯片，支持触控，耳机搭配充电盒的总续航时间约为22小时，49美元的售价并不便宜。其内部结构和用料如何，一起来看我爱音频网的详细拆解吧~"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "给耳机充电的Pogo Pin。"
+          }
+        },
+        {
+          "component": "耳挂/挂钩",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "耳挂/挂钩",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒上的渲染图展示了耳机的两个角度，图片看起来是比较有质感的。顶部是品牌名称“Defunc”，渲染图下面是产品名“True Go 真无线耳机”, 底部是四个产品特色功能：Powerful sound、稳定佩戴、微型麦克风和14小时续航。包装盒顶部有挂钩便于线下店铺展示。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机内侧也有一个“X”形状的泄压孔，双层壳体，外壳为曲面增加佩戴的舒适度。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9640",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA9640",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "钰泰半导体ETA9640 电源管理IC，1A线性充电，1A同步整流升压，内置多种保护功能，适用于移动电源及蓝牙耳机充电盒。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9640",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA9640",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "钰泰半导体ETA9640 详细资料。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "BT8892B",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BT8892B",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Defunc True Go 真无线蓝牙耳机采用了中科蓝讯的BT8892B蓝牙音频SoC。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "BT8892B",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BT8892B",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "主控芯片为中科蓝讯讯龙系列BT8892B蓝牙音频SoC。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9640",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA9640",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "充电盒采用Type-C接口输入电源，钰泰半导体ETA9640电源管理IC负责电池的充放电，内置多种保护功能；软包电池来自金宇宙，容量400mAh；苏州赛芯\n5352A9p为软包电池提供过充、过放、短路、过流等保护功能；一颗无标MCU负责充电盒的整机控制。"
+          }
+        }
+      ],
+      "supply_hints": [
+        {
+          "value": "原厂提供配置化编程工具，方便客户产品迅速投入市场。",
+          "evidence": {
+            "value": "原厂提供配置化编程工具，方便客户产品迅速投入市场。",
+            "confidence": 0.6,
+            "source_type": "text",
+            "source_text": "原厂提供配置化编程工具，方便客户产品迅速投入市场。"
+          }
+        }
+      ],
+      "packaging_notes": [
+        "包装盒内物品，耳机和充电盒、充电线缆及使用说明。"
+      ],
+      "process_hints": [
+        {
+          "value": "充电盒主PCBA电路另一面展示，为耳机充电的顶针焊接在背面。",
+          "evidence": {
+            "value": "充电盒主PCBA电路另一面展示，为耳机充电的顶针焊接在背面。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "充电盒主PCBA电路另一面展示，为耳机充电的顶针焊接在背面。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": ""
+    },
+    "structure": {
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
+      "materials": [
+        "硅胶",
+        "塑料",
+        "PC"
+      ],
+      "ip_rating": "IPX4",
+      "weight_g": "45.8克",
+      "dimensions": [
+        "羊毛盆动圈扬声器与一元硬币的尺寸对比。",
+        "动圈扬声器的尺寸约为14mm。",
+        "耳机部分，Defunc True Go采用了中科蓝讯BT8892B蓝牙音频SoC，支持蓝牙5.0 EDR/BLE双模，支持AAC、SBC编码，它还内置锂电池充电管理，QFN32 4×4小型封装；耳机内的软包电池同样来自金宇宙，容量40mAh；耳机通过陶瓷蓝牙天线传输信号，支持触控，一颗硅麦用于通话拾音，羊毛盆动圈扬声器尺寸14mm。"
+      ],
+      "internal_structure": [
+        {
+          "value": "充电盒背面展示，上面有部分产品信息。型号，Defunc True Go  输入/输出，DC 5V⎓0.4A，电池容量400mAh/1.48Wh，中国制造。",
+          "evidence": {
+            "value": "充电盒背面展示，上面有部分产品信息。型号，Defunc True Go  输入/输出，DC 5V⎓0.4A，电池容量400mAh/1.48Wh，中国制造。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "充电盒背面展示，上面有部分产品信息。型号，Defunc True Go  输入/输出，DC 5V⎓0.4A，电池容量400mAh/1.48Wh，中国制造。"
+          }
+        },
+        {
+          "value": "充电盒内部结构背面展示，软包电池竖置， 使用胶水固定。",
+          "evidence": {
+            "value": "充电盒内部结构背面展示，软包电池竖置， 使用胶水固定。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "充电盒内部结构背面展示，软包电池竖置， 使用胶水固定。"
+          }
+        },
+        {
+          "value": "充电盒内部结构正面展示，指示灯所在的PCBA竖向放置，通过导线与底部主板相连。",
+          "evidence": {
+            "value": "充电盒内部结构正面展示，指示灯所在的PCBA竖向放置，通过导线与底部主板相连。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "充电盒内部结构正面展示，指示灯所在的PCBA竖向放置，通过导线与底部主板相连。"
+          }
+        },
+        {
+          "value": "充电盒底部是主PCBA，通过螺丝固定。",
+          "evidence": {
+            "value": "充电盒底部是主PCBA，通过螺丝固定。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "充电盒底部是主PCBA，通过螺丝固定。"
+          }
+        },
+        {
+          "value": "拆开音腔，可以看到扬声器单元。",
+          "evidence": {
+            "value": "拆开音腔，可以看到扬声器单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "拆开音腔，可以看到扬声器单元。"
+          }
+        },
+        {
+          "value": "分离扬声器单元和壳体。",
+          "evidence": {
+            "value": "分离扬声器单元和壳体。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "分离扬声器单元和壳体。"
+          }
+        },
+        {
+          "value": "贴片陶瓷蓝牙天线特写，用于传输信号。",
+          "evidence": {
+            "value": "贴片陶瓷蓝牙天线特写，用于传输信号。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "贴片陶瓷蓝牙天线特写，用于传输信号。"
+          }
+        },
+        {
+          "value": "耳机部分，Defunc True Go采用了中科蓝讯BT8892B蓝牙音频SoC，支持蓝牙5.0 EDR/BLE双模，支持AAC、SBC编码，它还内置锂电池充电管理，QFN32 4×4小型封装；耳机内的软包电池同样来自金宇宙，容量40mAh；耳机通过陶瓷蓝牙天线传输信号，支持触控，一颗硅麦用于通话拾音，羊毛盆动圈扬声器尺寸14mm。",
+          "evidence": {
+            "value": "耳机部分，Defunc True Go采用了中科蓝讯BT8892B蓝牙音频SoC，支持蓝牙5.0 EDR/BLE双模，支持AAC、SBC编码，它还内置锂电池充电管理，QFN32 4×4小型封装；耳机内的软包电池同样来自金宇宙，容量40mAh；耳机通过陶瓷蓝牙天线传输信号，支持触控，一颗硅麦用于通话拾音，羊毛盆动圈扬声器尺寸14mm。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机部分，Defunc True Go采用了中科蓝讯BT8892B蓝牙音频SoC，支持蓝牙5.0 EDR/BLE双模，支持AAC、SBC编码，它还内置锂电池充电管理，QFN32 4×4小型封装；耳机内的软包电池同样来自金宇宙，容量40mAh；耳机通过陶瓷蓝牙天线传输信号，支持触控，一颗硅麦用于通话拾音，羊毛盆动圈扬声器尺寸14mm。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "充电盒内部结构背面展示，软包电池竖置， 使用胶水固定。",
+          "evidence": {
+            "value": "充电盒内部结构背面展示，软包电池竖置， 使用胶水固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "充电盒内部结构背面展示，软包电池竖置， 使用胶水固定。"
+          }
+        },
+        {
+          "value": "充电盒底部是主PCBA，通过螺丝固定。",
+          "evidence": {
+            "value": "充电盒底部是主PCBA，通过螺丝固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "充电盒底部是主PCBA，通过螺丝固定。"
+          }
+        }
+      ],
+      "sealing_method": [
+        {
+          "value": "包装盒背面通过图例的方式介绍了耳机的特色设计，比如带耳翼的硅胶耳塞、触控区域、通话麦克风的位置和耳机支持IPX4级防水等，下面充电盒标注的续航时间为22小时。",
+          "evidence": {
+            "value": "包装盒背面通过图例的方式介绍了耳机的特色设计，比如带耳翼的硅胶耳塞、触控区域、通话麦克风的位置和耳机支持IPX4级防水等，下面充电盒标注的续航时间为22小时。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "包装盒背面通过图例的方式介绍了耳机的特色设计，比如带耳翼的硅胶耳塞、触控区域、通话麦克风的位置和耳机支持IPX4级防水等，下面充电盒标注的续航时间为22小时。"
+          }
+        },
+        {
+          "value": "“X”形状的泄压孔，有一定装饰作用，内有金属防尘网防止异物进入。",
+          "evidence": {
+            "value": "“X”形状的泄压孔，有一定装饰作用，内有金属防尘网防止异物进入。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "“X”形状的泄压孔，有一定装饰作用，内有金属防尘网防止异物进入。"
+          }
+        },
+        {
+          "value": "取下外侧壳体，出音嘴处有防尘网阻止异物进入。",
+          "evidence": {
+            "value": "取下外侧壳体，出音嘴处有防尘网阻止异物进入。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "取下外侧壳体，出音嘴处有防尘网阻止异物进入。"
+          }
+        }
+      ],
+      "wear_design": [
+        {
+          "value": "顶部是品牌名称“Defunc”，渲染图下面是产品名“True Go 真无线耳机”, 底部是四个产品特色功能：Powerful sound、稳定佩戴、微型麦克风和14小时续航。",
+          "evidence": {
+            "value": "顶部是品牌名称“Defunc”，渲染图下面是产品名“True Go 真无线耳机”, 底部是四个产品特色功能：Powerful sound、稳定佩戴、微型麦克风和14小时续航。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "顶部是品牌名称“Defunc”，渲染图下面是产品名“True Go 真无线耳机”, 底部是四个产品特色功能：Powerful sound、稳定佩戴、微型麦克风和14小时续航。"
+          }
+        },
+        {
+          "value": "包装盒背面通过图例的方式介绍了耳机的特色设计，比如带耳翼的硅胶耳塞、触控区域、通话麦克风的位置和耳机支持IPX4级防水等，下面充电盒标注的续航时间为22小时。",
+          "evidence": {
+            "value": "包装盒背面通过图例的方式介绍了耳机的特色设计，比如带耳翼的硅胶耳塞、触控区域、通话麦克风的位置和耳机支持IPX4级防水等，下面充电盒标注的续航时间为22小时。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "包装盒背面通过图例的方式介绍了耳机的特色设计，比如带耳翼的硅胶耳塞、触控区域、通话麦克风的位置和耳机支持IPX4级防水等，下面充电盒标注的续航时间为22小时。"
+          }
+        },
+        {
+          "value": "包装盒另一侧是产品的宣传语，“真正地提升你的无线生活水平”，下面是产品的部分特点，如舒适佩戴、触摸控制、蓝牙5.0、USB-C接口等。",
+          "evidence": {
+            "value": "包装盒另一侧是产品的宣传语，“真正地提升你的无线生活水平”，下面是产品的部分特点，如舒适佩戴、触摸控制、蓝牙5.0、USB-C接口等。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "包装盒另一侧是产品的宣传语，“真正地提升你的无线生活水平”，下面是产品的部分特点，如舒适佩戴、触摸控制、蓝牙5.0、USB-C接口等。"
+          }
+        },
+        {
+          "value": "三、Defunc True Go 耳机拆解\n下面我们继续来拆解Defunc True Go的耳机，采用柄式半入耳设计，壳体上半部分跟充电盒一样是磨砂质感，下半部分是亮面设计，出音嘴处的结构可深入耳道，提高佩戴的舒适性。",
+          "evidence": {
+            "value": "三、Defunc True Go 耳机拆解\n下面我们继续来拆解Defunc True Go的耳机，采用柄式半入耳设计，壳体上半部分跟充电盒一样是磨砂质感，下半部分是亮面设计，出音嘴处的结构可深入耳道，提高佩戴的舒适性。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "三、Defunc True Go 耳机拆解\n下面我们继续来拆解Defunc True Go的耳机，采用柄式半入耳设计，壳体上半部分跟充电盒一样是磨砂质感，下半部分是亮面设计，出音嘴处的结构可深入耳道，提高佩戴的舒适性。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/11/01-2.jpg",
+          "alt": "拆解报告：Defunc True Go 真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/11/06-3.jpg",
+          "alt": "拆解报告：Defunc True Go 真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/11/04-3.jpg",
+          "alt": "拆解报告：Defunc True Go 真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/11/05-2.jpg",
+          "alt": "拆解报告：Defunc True Go 真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/11/03-1.jpg",
+          "alt": "拆解报告：Defunc True Go 真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "充电盒背面展示，上面有部分产品信息。型号，Defunc True Go  输入/输出，DC 5V⎓0.4A，电池容量400mAh/1.48Wh，中国制造。",
+        "充电盒内部结构背面展示，软包电池竖置， 使用胶水固定。",
+        "充电盒内部结构正面展示，指示灯所在的PCBA竖向放置，通过导线与底部主板相连。",
+        "充电盒底部是主PCBA，通过螺丝固定。"
+      ],
+      "ip_rating_evidence": {
+        "value": "IPX4",
+        "confidence": 0.8,
+        "source_type": "text",
+        "source_text": "IPX4"
+      },
+      "weight_evidence": {
+        "value": "45.8克",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "45.8克"
+      }
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电方式",
+          "value": "我爱音频网采用\nChargerLAB POWER-Z KT002便携式电源测试仪\n对Defunc True Go 真无线蓝牙耳机进行有线充电测试，充电功率约为1.8W。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KT002便携式电源测试仪\n对Defunc True Go 真无线蓝牙耳机进行有线充电测试，充电功率约为1.8W。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电线缆为USB-A to USB Type-C接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电线缆为USB-A to USB Type-C接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB Type-C充电接口位于充电盒底部。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "USB Type-C充电接口位于充电盒底部。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电盒通过USB Type-C接口输入电源。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒通过USB Type-C接口输入电源。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电盒采用Type-C接口输入电源，钰泰半导体ETA9640电源管理IC负责电池的充放电，内置多种保护功能；软包电池来自金宇宙，容量400mAh；苏州赛芯\n5352A9p为软包电池提供过充、过放、短路、过流等保护功能；一颗无标MCU负责充电盒的整机控制。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒采用Type-C接口输入电源，钰泰半导体ETA9640电源管理IC负责电池的充放电，内置多种保护功能；软包电池来自金宇宙，容量400mAh；苏州赛芯\n5352A9p为软包电池提供过充、过放、短路、过流等保护功能；一颗无标MCU负责充电"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "包装盒背面通过图例的方式介绍了耳机的特色设计，比如带耳翼的硅胶耳塞、触控区域、通话麦克风的位置和耳机支持IPX4级防水等，下面充电盒标注的续航时间为22小时。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "包装盒背面通过图例的方式介绍了耳机的特色设计，比如带耳翼的硅胶耳塞、触控区域、通话麦克风的位置和耳机支持IPX4级防水等，下面充电盒标注的续航时间为22小时。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "包装盒底部的认证信息。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "包装盒底部的认证信息。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "软包电池来自深圳市金宇宙能源有限公司，型号JYZ902025，额定电压3.7V，额定容量400mAh/1.48Wh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "软包电池来自深圳市金宇宙能源有限公司，型号JYZ902025，额定电压3.7V，额定容量400mAh/1.48Wh。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "耳机内的软包电池也来自金宇宙，型号JYZ501013，额定电压3.7V，额定容量40mAh/0.148Wh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "耳机内的软包电池也来自金宇宙，型号JYZ501013，额定电压3.7V，额定容量40mAh/0.148Wh。"
+        },
+        {
+          "param": "电池容量",
+          "value": "400",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "400mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.0",
+      "codecs": [
+        {
+          "value": "AAC",
+          "evidence": {
+            "value": "AAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "解码格式支持SBC/mSBC、AAC，内置10段参量式均衡器。"
+          }
+        },
+        {
+          "value": "SBC",
+          "evidence": {
+            "value": "SBC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "解码格式支持SBC/mSBC、AAC，内置10段参量式均衡器。"
+          }
+        }
+      ],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [
+        {
+          "value": "BT8892B专为TWS耳机应用设计，芯片高度集成化，PCB外围物料精简。",
+          "evidence": {
+            "value": "BT8892B专为TWS耳机应用设计，芯片高度集成化，PCB外围物料精简。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "BT8892B专为TWS耳机应用设计，芯片高度集成化，PCB外围物料精简。"
+          }
+        },
+        {
+          "value": "通讯协议支持蓝牙5.0 双模，支持APP应用。",
+          "evidence": {
+            "value": "通讯协议支持蓝牙5.0 双模，支持APP应用。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "通讯协议支持蓝牙5.0 双模，支持APP应用。"
+          }
+        },
+        {
+          "value": "内置5V充电触点单线通讯、内置锂电池充电管理电路，适用于智能充电仓应用。",
+          "evidence": {
+            "value": "内置5V充电触点单线通讯、内置锂电池充电管理电路，适用于智能充电仓应用。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "内置5V充电触点单线通讯、内置锂电池充电管理电路，适用于智能充电仓应用。"
+          }
+        }
+      ],
+      "ota_support": [],
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "5.0",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.0"
+      }
+    }
+  }
+}

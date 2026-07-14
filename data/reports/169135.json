@@ -1,0 +1,673 @@
+{
+  "id": "169135",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/169135.html",
+  "title": "迪士尼系列DN12耳夹式真无线耳机",
+  "brand": "迪士尼",
+  "model": "DN12",
+  "category": "开放式耳机",
+  "published_at": "2023-08-02",
+  "author": "Wen5",
+  "summary": "IP联动是消费电子产品提升竞争力的一种方式，作为拥有众多全球知名卡通形象的Disney迪士尼，自然也就成为了许 […]",
+  "captured_at": "2026-07-14T02:06:51+00:00",
+  "data_completeness": 0.738,
+  "views": {
+    "market": {
+      "brand": "迪士尼",
+      "model": "DN12",
+      "category": "开放式耳机",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "腔体内侧的出音孔特写，防尘网防护，防止异物进入音腔。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "腔体内侧的出音孔特写，防尘网防护，防止异物进入音腔。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "腔体内侧的出音孔特写，防尘网防护，防止异物进入音腔。"
+          }
+        },
+        {
+          "text": "四个出音孔防尘网，可以损坏替换。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "四个出音孔防尘网，可以损坏替换。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "四个出音孔防尘网，可以损坏替换。"
+          }
+        },
+        {
+          "text": "充电盒底部设计有“Disney”认证标志，以及部分产品信息，型号：DN12,额定输入：5V= 200mA，耳机电池容量：25mAhx2，充电仓电池容量：200mAh。",
+          "tag": "其他",
+          "evidence": {
+            "value": "充电盒底部设计有“Disney”认证标志，以及部分产品信息，型号：DN12,额定输入：5V= 200mA，耳机电池容量：25mAhx2，充电仓电池容量：200mAh。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "充电盒底部设计有“Disney”认证标志，以及部分产品信息，型号：DN12,额定输入：5V= 200mA，耳机电池容量：25mAhx2，充电仓电池容量：200mAh。"
+          }
+        }
+      ],
+      "scenarios": [
+        "游戏",
+        "通话"
+      ],
+      "positioning_summary": "腔体内侧的出音孔特写，防尘网防护，防止异物进入音腔。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "充电仓",
+        "电池",
+        "主板/PCBA",
+        "麦克风",
+        "喇叭单元"
+      ],
+      "chip_modules": [],
+      "bom_table": [
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "2V/50mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "2V/50mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内置250mAh锂电池，配备有电池保护板负责充放电保护；"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "13mm 动圈单元",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "13mm 动圈单元",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部，内侧腔体内置13mm动圈单元和25mAh锂电池，导线穿过弯臂连接到外侧腔体内部的主板。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "麦克风",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "主板上，搭载蓝牙音频SoC用于无线连接和音频数据处理，采用了驻极体麦克风用于语音通话功能拾音。"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "迪士尼系列DN12真无线耳机充电盒采用了圆润的椭圆形设计，胭脂粉配色，哑光质感，体积小巧便携。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒底部设计有“Disney”认证标志，以及部分产品信息，型号：DN12,额定输入：5V= 200mA，耳机电池容量：25mAhx2，充电仓电池容量：200mAh。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，主板通过螺丝固定，电池固定在主板上。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机外侧外观一览， 背部设计有红心图案，以及麦克风和指示灯开孔。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "扬声器正面特写，振膜通过金属盖板防护。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒顶部采用了透明盒盖，可以看到内部座舱耳机和“米妮”卡通形象的指示灯。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "腔体侧边的充电触点特写。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "拆开充电盒外壳，取出座舱结构。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "LP7806充电管理内置过压保护功能，耐压11V，内置功率MOS，充电电流310mA，充电状态指示功能。放电管理内置同步升压，负载接入识别、按键开启功能；放电电流检测功能，放电电流小于4mA自动截止放电；内置放电指示、低电提示功能；针对小容量锂电池系统的应用，提供简单易用的解决方案；LP7806采用的封装形式为ESOP8。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [
+        "包装盒内部物品有耳机、充电线、出音孔防尘网和使用说明书。"
+      ],
+      "process_hints": [
+        {
+          "value": "耳机内置锂电池正负极镍片与导线焊接，通过高温绝缘胶带保护。",
+          "evidence": {
+            "value": "耳机内置锂电池正负极镍片与导线焊接，通过高温绝缘胶带保护。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "耳机内置锂电池正负极镍片与导线焊接，通过高温绝缘胶带保护。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": "三、我爱音频网总结 迪士尼系列DN12真无线耳机在外观方面，充电盒采用了圆润的椭圆形设计，胭脂粉配色、透明盒盖，搭配米妮元素，外观非常可爱。耳机采用了耳夹式设计，弹性弯臂通过硅胶材质包裹，佩戴时固定在耳廓上，贴合皮肤舒适，不入耳能够长久聆听。 内部主要配置方面，充电盒内置250mAh锂电池，配备有电池保护板负责充放电保护；主板上，采用了LPS微源半导体LP7806五合一耳机充电仓专用芯片，集成了线性充电管理模块、同步升压、控制模块、状态指示、负载识别、放电模块功能，单芯片提供了完整的电源管理方案；还采用了一颗无标的MCU单片机，用于充电盒整机控制。 耳机内部，内侧腔体内置13mm动圈单元和25mAh锂电池，导线穿过弯臂连接到外侧腔体内部的主板。主板上，搭载蓝牙音频SoC用于无线连接和音频数据处理，采用了驻极体麦克风用于语音通话功能拾音。"
+    },
+    "structure": {
+      "form_factor": "开放式耳机",
+      "earbud_type": "开放",
+      "materials": [
+        "硅胶",
+        "PC",
+        "ABS"
+      ],
+      "ip_rating": null,
+      "weight_g": "39.5g",
+      "dimensions": [
+        "在功能配置上，迪士尼系列DN12耳夹式真无线耳机搭载13mm大动圈喇叭，支持蓝牙5.3，支持AAC音频解码，提供三频均衡的好音质；支持游戏模式，通过低延时算法，提供更流畅的游戏体验；支持开盖即连，触摸控制、单/双耳模式，拥有着便捷使用体验。",
+        "包装盒底部介绍有产品参数及公司信息，产品型号：DN12，产品尺寸： 74x40x33mm，产品材质 ：ABS/PC/TPE，蓝牙版本：V5.3，传输距离：10m，频响范围：20Hz~20KHz，使用时间：15H，充电时间 ：约1.5H，充电接口 ：USB Type-C；授权商：深圳市蓝湾文化科技有限公司，制造商：深圳市旭声科技有限公司，中国制造。",
+        "经我爱音频网实测，扬声器尺寸约为13mm。"
+      ],
+      "internal_structure": [
+        {
+          "value": "充电盒底部设计有“Disney”认证标志，以及部分产品信息，型号：DN12,额定输入：5V= 200mA，耳机电池容量：25mAhx2，充电仓电池容量：200mAh。",
+          "evidence": {
+            "value": "充电盒底部设计有“Disney”认证标志，以及部分产品信息，型号：DN12,额定输入：5V= 200mA，耳机电池容量：25mAhx2，充电仓电池容量：200mAh。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "充电盒底部设计有“Disney”认证标志，以及部分产品信息，型号：DN12,额定输入：5V= 200mA，耳机电池容量：25mAhx2，充电仓电池容量：200mAh。"
+          }
+        },
+        {
+          "value": "座舱底部结构一览，主板通过螺丝固定，电池固定在主板上。",
+          "evidence": {
+            "value": "座舱底部结构一览，主板通过螺丝固定，电池固定在主板上。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，主板通过螺丝固定，电池固定在主板上。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，取掉主板和电池。",
+          "evidence": {
+            "value": "卸掉螺丝，取掉主板和电池。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取掉主板和电池。"
+          }
+        },
+        {
+          "value": "耳机外侧外观一览， 背部设计有红心图案，以及麦克风和指示灯开孔。",
+          "evidence": {
+            "value": "耳机外侧外观一览， 背部设计有红心图案，以及麦克风和指示灯开孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机外侧外观一览， 背部设计有红心图案，以及麦克风和指示灯开孔。"
+          }
+        },
+        {
+          "value": "驻极体麦克风特写，用于语音通话功能拾音。",
+          "evidence": {
+            "value": "驻极体麦克风特写，用于语音通话功能拾音。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "驻极体麦克风特写，用于语音通话功能拾音。"
+          }
+        },
+        {
+          "value": "扬声器正面特写，振膜通过金属盖板防护。",
+          "evidence": {
+            "value": "扬声器正面特写，振膜通过金属盖板防护。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "扬声器正面特写，振膜通过金属盖板防护。"
+          }
+        },
+        {
+          "value": "耳机内部，内侧腔体内置13mm动圈单元和25mAh锂电池，导线穿过弯臂连接到外侧腔体内部的主板。主板上，搭载蓝牙音频SoC用于无线连接和音频数据处理，采用了驻极体麦克风用于语音通话功能拾音。",
+          "evidence": {
+            "value": "耳机内部，内侧腔体内置13mm动圈单元和25mAh锂电池，导线穿过弯臂连接到外侧腔体内部的主板。主板上，搭载蓝牙音频SoC用于无线连接和音频数据处理，采用了驻极体麦克风用于语音通话功能拾音。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机内部，内侧腔体内置13mm动圈单元和25mAh锂电池，导线穿过弯臂连接到外侧腔体内部的主板。主板上，搭载蓝牙音频SoC用于无线连接和音频数据处理，采用了驻极体麦克风用于语音通话功能拾音。"
+          }
+        },
+        {
+          "value": "腔体侧边的充电触点特写。",
+          "evidence": {
+            "value": "腔体侧边的充电触点特写。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "腔体侧边的充电触点特写。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "座舱底部结构一览，主板通过螺丝固定，电池固定在主板上。",
+          "evidence": {
+            "value": "座舱底部结构一览，主板通过螺丝固定，电池固定在主板上。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，主板通过螺丝固定，电池固定在主板上。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，取掉主板和电池。",
+          "evidence": {
+            "value": "卸掉螺丝，取掉主板和电池。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取掉主板和电池。"
+          }
+        }
+      ],
+      "sealing_method": [
+        {
+          "value": "包装盒内部物品有耳机、充电线、出音孔防尘网和使用说明书。",
+          "evidence": {
+            "value": "包装盒内部物品有耳机、充电线、出音孔防尘网和使用说明书。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "包装盒内部物品有耳机、充电线、出音孔防尘网和使用说明书。"
+          }
+        },
+        {
+          "value": "四个出音孔防尘网，可以损坏替换。",
+          "evidence": {
+            "value": "四个出音孔防尘网，可以损坏替换。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "四个出音孔防尘网，可以损坏替换。"
+          }
+        },
+        {
+          "value": "腔体内侧的出音孔特写，防尘网防护，防止异物进入音腔。",
+          "evidence": {
+            "value": "腔体内侧的出音孔特写，防尘网防护，防止异物进入音腔。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "腔体内侧的出音孔特写，防尘网防护，防止异物进入音腔。"
+          }
+        }
+      ],
+      "wear_design": [
+        {
+          "value": "此次将要拆解的DN12耳夹式真无线耳机便是一款迪士尼正版授权的产品，在外观设计上，融入了迪士尼卡通形象元素，观感非常可爱。",
+          "evidence": {
+            "value": "此次将要拆解的DN12耳夹式真无线耳机便是一款迪士尼正版授权的产品，在外观设计上，融入了迪士尼卡通形象元素，观感非常可爱。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "此次将要拆解的DN12耳夹式真无线耳机便是一款迪士尼正版授权的产品，在外观设计上，融入了迪士尼卡通形象元素，观感非常可爱。"
+          }
+        },
+        {
+          "value": "在功能配置上，迪士尼系列DN12耳夹式真无线耳机搭载13mm大动圈喇叭，支持蓝牙5.3，支持AAC音频解码，提供三频均衡的好音质；支持游戏模式，通过低延时算法，提供更流畅的游戏体验；支持开盖即连，触摸控制、单/双耳模式，拥有着便捷使用体验。",
+          "evidence": {
+            "value": "在功能配置上，迪士尼系列DN12耳夹式真无线耳机搭载13mm大动圈喇叭，支持蓝牙5.3，支持AAC音频解码，提供三频均衡的好音质；支持游戏模式，通过低延时算法，提供更流畅的游戏体验；支持开盖即连，触摸控制、单/双耳模式，拥有着便捷使用体验。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "在功能配置上，迪士尼系列DN12耳夹式真无线耳机搭载13mm大动圈喇叭，支持蓝牙5.3，支持AAC音频解码，提供三频均衡的好音质；支持游戏模式，通过低延时算法，提供更流畅的游戏体验；支持开盖即连，触摸控制、单/双耳模式，拥有着便捷使用体验。"
+          }
+        },
+        {
+          "value": "下面就让我们来看看这款产品的详细拆解报告吧~\n一、\n迪士尼系列DN12耳夹式真无线耳机开箱\n迪士尼系列DN12耳夹式真无线耳机包装盒同样融入了卡通元素设计，此款米妮版本，采用了粉色配色，包装盒顶部设计有米妮可爱简笔形象，以及“Disney”品牌LOGO。",
+          "evidence": {
+            "value": "下面就让我们来看看这款产品的详细拆解报告吧~\n一、\n迪士尼系列DN12耳夹式真无线耳机开箱\n迪士尼系列DN12耳夹式真无线耳机包装盒同样融入了卡通元素设计，此款米妮版本，采用了粉色配色，包装盒顶部设计有米妮可爱简笔形象，以及“Disney”品牌LOGO。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "下面就让我们来看看这款产品的详细拆解报告吧~\n一、\n迪士尼系列DN12耳夹式真无线耳机开箱\n迪士尼系列DN12耳夹式真无线耳机包装盒同样融入了卡通元素设计，此款米妮版本，采用了粉色配色，包装盒顶部设计有米妮可爱简笔形象，以及“Disney”品牌LOGO。"
+          }
+        },
+        {
+          "value": "迪士尼系列DN12真无线耳机整体外观一览，耳机采用了耳夹式设计，由弹性弯臂衔接两侧腔体，佩戴时固定在耳廓上。",
+          "evidence": {
+            "value": "迪士尼系列DN12真无线耳机整体外观一览，耳机采用了耳夹式设计，由弹性弯臂衔接两侧腔体，佩戴时固定在耳廓上。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "迪士尼系列DN12真无线耳机整体外观一览，耳机采用了耳夹式设计，由弹性弯臂衔接两侧腔体，佩戴时固定在耳廓上。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/08/2023080206130796.jpeg",
+          "alt": "拆解报告：迪士尼系列DN12耳夹式真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/08/2023080206130993.jpeg",
+          "alt": "拆解报告：迪士尼系列DN12耳夹式真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/08/2023080206131027.jpeg",
+          "alt": "拆解报告：迪士尼系列DN12耳夹式真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/08/2023080206131141.jpeg",
+          "alt": "拆解报告：迪士尼系列DN12耳夹式真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/08/2023080206131323.jpeg",
+          "alt": "拆解报告：迪士尼系列DN12耳夹式真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "充电盒底部设计有“Disney”认证标志，以及部分产品信息，型号：DN12,额定输入：5V= 200mA，耳机电池容量：25mAhx2，充电仓电池容量：200mAh。",
+        "座舱底部结构一览，主板通过螺丝固定，电池固定在主板上。",
+        "卸掉螺丝，取掉主板和电池。",
+        "耳机外侧外观一览， 背部设计有红心图案，以及麦克风和指示灯开孔。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": {
+        "value": "39.5g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "实测，迪士尼系列DN12耳夹式真无线耳机整机重量仅为39.5g，外出使用"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "5.1g",
+      "weight_earbud_evidence": {
+        "value": "5.1g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "整机重量仅为39.5g，外出使用便携。\n单只耳机重量约为5.1g，佩戴轻盈"
+      }
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "包装盒底部介绍有产品参数及公司信息，产品型号：DN12，产品尺寸： 74x40x33mm，产品材质 ：ABS/PC/TPE，蓝牙版本：V5.3，传输距离：10m，频响范围：20Hz~20KHz，使用时间：15H，充电时间 ：约1.5H，充电接口 ：USB Type-C；授权商：深圳市蓝湾文化科技有限公司，制造商：深圳市旭声科技有限公司，中国制造。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "包装盒底部介绍有产品参数及公司信息，产品型号：DN12，产品尺寸： 74x40x33mm，产品材质 ：ABS/PC/TPE，蓝牙版本：V5.3，传输距离：10m，频响范围：20Hz~20KHz，使用时间：15H，充电时间 ：约1.5H，充电"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电线采用了USB-A to Type-C接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电线采用了USB-A to Type-C接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电盒背面设置有Type-C充电接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒背面设置有Type-C充电接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C充电母座特写。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充电母座特写。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP联动是消费电子产品提升竞争力的一种方式，作为拥有众多全球知名卡通形象的Disney迪士尼，自然也就成为了许多品牌联动的选择。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP联动是消费电子产品提升竞争力的一种方式，作为拥有众多全球知名卡通形象的Disney迪士尼，自然也就成为了许多品牌联动的选择。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "包装盒底部介绍有产品参数及公司信息，产品型号：DN12，产品尺寸： 74x40x33mm，产品材质 ：ABS/PC/TPE，蓝牙版本：V5.3，传输距离：10m，频响范围：20Hz~20KHz，使用时间：15H，充电时间 ：约1.5H，充电接口 ：USB Type-C；授权商：深圳市蓝湾文化科技有限公司，制造商：深圳市旭声科技有限公司，中国制造。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "包装盒底部介绍有产品参数及公司信息，产品型号：DN12，产品尺寸： 74x40x33mm，产品材质 ：ABS/PC/TPE，蓝牙版本：V5.3，传输距离：10m，频响范围：20Hz~20KHz，使用时间：15H，充电时间 ：约1.5H，充电"
+        },
+        {
+          "param": "标记/认证",
+          "value": "充电盒底部设计有“Disney”认证标志，以及部分产品信息，型号：DN12,额定输入：5V= 200mA，耳机电池容量：25mAhx2，充电仓电池容量：200mAh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒底部设计有“Disney”认证标志，以及部分产品信息，型号：DN12,额定输入：5V= 200mA，耳机电池容量：25mAhx2，充电仓电池容量：200mAh。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "充电盒内置锂离子电池型号：JZX 502030，标称电压：3.7V，额定容量：250mAh 0.925Wh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒内置锂离子电池型号：JZX 502030，标称电压：3.7V，额定容量：250mAh 0.925Wh。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "耳机内置软包锂电池，型号：JXZ 400909，标称电压：3.7V，容量：25mAh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "耳机内置软包锂电池，型号：JXZ 400909，标称电压：3.7V，容量：25mAh。"
+        },
+        {
+          "param": "电池容量",
+          "value": "25",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "25mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.3",
+      "codecs": [
+        {
+          "value": "AAC",
+          "evidence": {
+            "value": "AAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "在功能配置上，迪士尼系列DN12耳夹式真无线耳机搭载13mm大动圈喇叭，支持蓝牙5.3，支持AAC音频解码，提供三频均衡的好音质；支持游戏模式，通过低延时算法，提供更流畅的游戏体验；支持开盖即连，触摸控制、单/双耳模式，拥有着便捷使用体验。"
+          }
+        }
+      ],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [
+        {
+          "value": "LPS微源半导体LP7806五合一耳机充电仓专用芯片，是一款专为小容量锂电池充电/放电应用设计的单芯片解决方案IC，集成了线性充电管理模块、同步升压、控制模块、状态指示、负载识别、放电模块功能。",
+          "evidence": {
+            "value": "LPS微源半导体LP7806五合一耳机充电仓专用芯片，是一款专为小容量锂电池充电/放电应用设计的单芯片解决方案IC，集成了线性充电管理模块、同步升压、控制模块、状态指示、负载识别、放电模块功能。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "LPS微源半导体LP7806五合一耳机充电仓专用芯片，是一款专为小容量锂电池充电/放电应用设计的单芯片解决方案IC，集成了线性充电管理模块、同步升压、控制模块、状态指示、负载识别、放电模块功能。"
+          }
+        },
+        {
+          "value": "放电管理内置同步升压，负载接入识别、按键开启功能；放电电流检测功能，放电电流小于4mA自动截止放电；内置放电指示、低电提示功能；针对小容量锂电池系统的应用，提供简单易用的解决方案；LP7806采用的封装形式为ESOP8。",
+          "evidence": {
+            "value": "放电管理内置同步升压，负载接入识别、按键开启功能；放电电流检测功能，放电电流小于4mA自动截止放电；内置放电指示、低电提示功能；针对小容量锂电池系统的应用，提供简单易用的解决方案；LP7806采用的封装形式为ESOP8。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "放电管理内置同步升压，负载接入识别、按键开启功能；放电电流检测功能，放电电流小于4mA自动截止放电；内置放电指示、低电提示功能；针对小容量锂电池系统的应用，提供简单易用的解决方案；LP7806采用的封装形式为ESOP8。"
+          }
+        }
+      ],
+      "ota_support": [],
+      "latency_notes": [
+        {
+          "value": "在功能配置上，迪士尼系列DN12耳夹式真无线耳机搭载13mm大动圈喇叭，支持蓝牙5.3，支持AAC音频解码，提供三频均衡的好音质；支持游戏模式，通过低延时算法，提供更流畅的游戏体验；支持开盖即连，触摸控制、单/双耳模式，拥有着便捷使用体验。",
+          "evidence": {
+            "value": "在功能配置上，迪士尼系列DN12耳夹式真无线耳机搭载13mm大动圈喇叭，支持蓝牙5.3，支持AAC音频解码，提供三频均衡的好音质；支持游戏模式，通过低延时算法，提供更流畅的游戏体验；支持开盖即连，触摸控制、单/双耳模式，拥有着便捷使用体验。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "在功能配置上，迪士尼系列DN12耳夹式真无线耳机搭载13mm大动圈喇叭，支持蓝牙5.3，支持AAC音频解码，提供三频均衡的好音质；支持游戏模式，通过低延时算法，提供更流畅的游戏体验；支持开盖即连，触摸控制、单/双耳模式，拥有着便捷使用体验。"
+          }
+        },
+        {
+          "value": "包装盒侧边图文介绍有产品的功能特点：蓝牙5.3、游戏模式、立体音效、悬浮灯效。",
+          "evidence": {
+            "value": "包装盒侧边图文介绍有产品的功能特点：蓝牙5.3、游戏模式、立体音效、悬浮灯效。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒侧边图文介绍有产品的功能特点：蓝牙5.3、游戏模式、立体音效、悬浮灯效。"
+          }
+        }
+      ],
+      "bluetooth_evidence": {
+        "value": "5.3",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.3"
+      }
+    }
+  }
+}

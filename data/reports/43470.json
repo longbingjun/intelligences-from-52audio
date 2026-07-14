@@ -1,0 +1,681 @@
+{
+  "id": "43470",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/43470.html",
+  "title": "昂达AirPlus TWS蓝牙耳机",
+  "brand": "",
+  "model": "昂达AirPlus TWS蓝牙",
+  "category": "真无线耳机TWS",
+  "published_at": "2020-05-11",
+  "author": "GiGi24",
+  "summary": "随着苹果AirPods Pro的发布，华强北大军们的精力逐渐从AirPods转移了，不过由于AirPods P […]",
+  "captured_at": "2026-07-14T02:13:07+00:00",
+  "data_completeness": 0.718,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "昂达AirPlus TWS蓝牙",
+      "category": "真无线耳机TWS",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "耳机柄上的装饰开孔，能看到内部电路，正品此处为通话降噪麦克风开孔。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "耳机柄上的装饰开孔，能看到内部电路，正品此处为通话降噪麦克风开孔。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "耳机柄上的装饰开孔，能看到内部电路，正品此处为通话降噪麦克风开孔。"
+          }
+        },
+        {
+          "text": "支持2496高清音频，支持降噪和回声消除，提供4x5.5mm BGA封装，非常节省占板面积。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "支持2496高清音频，支持降噪和回声消除，提供4x5.5mm BGA封装，非常节省占板面积。",
+            "confidence": 0.63,
+            "source_type": "text",
+            "source_text": "支持2496高清音频，支持降噪和回声消除，提供4x5.5mm BGA封装，非常节省占板面积。"
+          }
+        },
+        {
+          "text": "耳机内侧的泄压孔有防尘网。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "耳机内侧的泄压孔有防尘网。",
+            "confidence": 0.58,
+            "source_type": "text",
+            "source_text": "耳机内侧的泄压孔有防尘网。"
+          }
+        },
+        {
+          "text": "耳机出音孔处的防尘网。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "耳机出音孔处的防尘网。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "耳机出音孔处的防尘网。"
+          }
+        },
+        {
+          "text": "底部的充电正负极触点，触点环抱着通话麦克风拾音孔，有防尘网。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "底部的充电正负极触点，触点环抱着通话麦克风拾音孔，有防尘网。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "底部的充电正负极触点，触点环抱着通话麦克风拾音孔，有防尘网。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通话"
+      ],
+      "positioning_summary": "耳机柄上的装饰开孔，能看到内部电路，正品此处为通话降噪麦克风开孔。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "充电仓",
+        "电池",
+        "主板/PCBA",
+        "麦克风",
+        "天线"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "Airoha",
+          "model": "络达 AB1536U",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "络达 AB1536U",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "络达 AB1536U"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Airoha",
+          "model": "络达 AB1536",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "络达 AB1536",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "络达 AB1536"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA1061",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA1061",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "ETA1061"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒背面信息，昂达AirPlus TWS蓝牙耳机，支持蓝牙5.1，支持手机弹窗和敲击操作；耳机电池容量，3.8V，30mAh；充电盒电池，3.7V，400mAh；广州致乐电子科技有限公司制造。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒背面信息，昂达AirPlus TWS蓝牙耳机，支持蓝牙5.1，支持手机弹窗和敲击操作；耳机电池容量，3.8V，30mAh；充电盒电池，3.7V，400mAh；广州致乐电子科技有限公司制造。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "指示灯&霍尔元件副板通过排线和插座连接到主板。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "底部的充电正负极触点，触点环抱着通话麦克风拾音孔，有防尘网。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "蓝牙天线通过双面胶固定在一块隆起的塑料支架上。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒不支持无线充电功能，指示灯位于充电盒内部。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒背面特写，金属合页、配对按键。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA1061",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA1061",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "钰泰 ETA1061 1μA超低静态电流的同步整流升压IC，SOT23封装，将内置锂电池升压到5V输出，非常适合TWS耳机充电盒升压为耳机充电。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA1061",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA1061",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "钰泰 ETA1061 详细资料。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "络达 AB1536U",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "络达 AB1536U",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "主控芯片为络达 AB1536U，目前白牌AirPods 2“顶配版”使用频率最高的一款芯片，内部集成存储器，支持安卓苹果应用，内置电容触摸控制器，集成锂电池充电器，支持过放保护，内置开关降压和LDO。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB1536",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB1536",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "主控芯片为络达 AB1536U，目前白牌AirPods 2“顶配版”使用频率最高的一款芯片，内部集成存储器，支持安卓苹果应用，内置电容触摸控制器，集成锂电池充电器，支持过放保护，内置开关降压和LDO。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "络达AB1536U",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "络达AB1536U",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "耳机采用络达AB1536U，其内部集成LDO和开关降压，并且内置存储器，锂电池充电器，可以大大减少耳机元件数量。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB1536",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB1536",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "耳机采用络达AB1536U，其内部集成LDO和开关降压，并且内置存储器，锂电池充电器，可以大大减少耳机元件数量。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [
+        "包装盒内物品，耳机和充电盒、充电线、说明书。"
+      ],
+      "process_hints": [
+        {
+          "value": "电池排线和扬声器导线与主板的连接插座都采用点胶固定。",
+          "evidence": {
+            "value": "电池排线和扬声器导线与主板的连接插座都采用点胶固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "电池排线和扬声器导线与主板的连接插座都采用点胶固定。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": ""
+    },
+    "structure": {
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
+      "materials": [
+        "塑料"
+      ],
+      "ip_rating": null,
+      "weight_g": "40.6克",
+      "dimensions": [
+        "扬声器尺寸约为14mm。",
+        "耳机电池与一元硬币的尺寸对比。",
+        "针型电池来自AUCOPO万宝能源，万宝针型电池47250-30mAh，直径4.7mm，高度25.0mm，3.8V，容量30mAh，据了解可实现3C快速充电，0.5C放电，700周循环，容量保持率≧ 90%。"
+      ],
+      "internal_structure": [
+        {
+          "value": "充电盒内部结构一览，塑料支架、软包电池、双层主板、充电小板和壳体。",
+          "evidence": {
+            "value": "充电盒内部结构一览，塑料支架、软包电池、双层主板、充电小板和壳体。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "充电盒内部结构一览，塑料支架、软包电池、双层主板、充电小板和壳体。"
+          }
+        },
+        {
+          "value": "指示灯&霍尔元件副板通过排线和插座连接到主板。",
+          "evidence": {
+            "value": "指示灯&霍尔元件副板通过排线和插座连接到主板。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "指示灯&霍尔元件副板通过排线和插座连接到主板。"
+          }
+        },
+        {
+          "value": "底部的充电正负极触点，触点环抱着通话麦克风拾音孔，有防尘网。",
+          "evidence": {
+            "value": "底部的充电正负极触点，触点环抱着通话麦克风拾音孔，有防尘网。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "底部的充电正负极触点，触点环抱着通话麦克风拾音孔，有防尘网。"
+          }
+        },
+        {
+          "value": "耳机柄上的装饰开孔，能看到内部电路，正品此处为通话降噪麦克风开孔。",
+          "evidence": {
+            "value": "耳机柄上的装饰开孔，能看到内部电路，正品此处为通话降噪麦克风开孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机柄上的装饰开孔，能看到内部电路，正品此处为通话降噪麦克风开孔。"
+          }
+        },
+        {
+          "value": "蓝牙天线通过双面胶固定在一块隆起的塑料支架上。",
+          "evidence": {
+            "value": "蓝牙天线通过双面胶固定在一块隆起的塑料支架上。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "蓝牙天线通过双面胶固定在一块隆起的塑料支架上。"
+          }
+        },
+        {
+          "value": "充电盒背面特写，金属合页、配对按键。",
+          "evidence": {
+            "value": "充电盒背面特写，金属合页、配对按键。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "充电盒背面特写，金属合页、配对按键。"
+          }
+        },
+        {
+          "value": "圆形的配对按键特写。",
+          "evidence": {
+            "value": "圆形的配对按键特写。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "圆形的配对按键特写。"
+          }
+        },
+        {
+          "value": "今天我爱音频网拆解的是昂达AirPlus TWS蓝牙耳机，与AirPods外观神似，一起来看看内部结构如何。",
+          "evidence": {
+            "value": "今天我爱音频网拆解的是昂达AirPlus TWS蓝牙耳机，与AirPods外观神似，一起来看看内部结构如何。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "今天我爱音频网拆解的是昂达AirPlus TWS蓝牙耳机，与AirPods外观神似，一起来看看内部结构如何。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "充电座舱内侧，三种不同规格的磁铁，还有LED指示灯所在的排线， 采用大量胶水固定。",
+          "evidence": {
+            "value": "充电座舱内侧，三种不同规格的磁铁，还有LED指示灯所在的排线， 采用大量胶水固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "充电座舱内侧，三种不同规格的磁铁，还有LED指示灯所在的排线， 采用大量胶水固定。"
+          }
+        }
+      ],
+      "sealing_method": [
+        {
+          "value": "底部的充电正负极触点，触点环抱着通话麦克风拾音孔，有防尘网。",
+          "evidence": {
+            "value": "底部的充电正负极触点，触点环抱着通话麦克风拾音孔，有防尘网。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "底部的充电正负极触点，触点环抱着通话麦克风拾音孔，有防尘网。"
+          }
+        },
+        {
+          "value": "耳机内侧的泄压孔有防尘网。",
+          "evidence": {
+            "value": "耳机内侧的泄压孔有防尘网。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "耳机内侧的泄压孔有防尘网。"
+          }
+        },
+        {
+          "value": "耳机出音孔处的防尘网。",
+          "evidence": {
+            "value": "耳机出音孔处的防尘网。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "耳机出音孔处的防尘网。"
+          }
+        },
+        {
+          "value": "电池排线和扬声器导线与主板的连接插座都采用点胶固定。",
+          "evidence": {
+            "value": "电池排线和扬声器导线与主板的连接插座都采用点胶固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "电池排线和扬声器导线与主板的连接插座都采用点胶固定。"
+          }
+        }
+      ],
+      "wear_design": [],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/05/昂达TWS-1.jpg",
+          "alt": "拆解报告：昂达AirPlus TWS蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/05/昂达TWS-2.jpg",
+          "alt": "拆解报告：昂达AirPlus TWS蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/05/昂达TWS-3.jpg",
+          "alt": "拆解报告：昂达AirPlus TWS蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/05/昂达TWS-4.jpg",
+          "alt": "拆解报告：昂达AirPlus TWS蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/05/昂达TWS-5.jpg",
+          "alt": "拆解报告：昂达AirPlus TWS蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "充电盒内部结构一览，塑料支架、软包电池、双层主板、充电小板和壳体。",
+        "指示灯&霍尔元件副板通过排线和插座连接到主板。",
+        "底部的充电正负极触点，触点环抱着通话麦克风拾音孔，有防尘网。",
+        "耳机柄上的装饰开孔，能看到内部电路，正品此处为通话降噪麦克风开孔。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": {
+        "value": "40.6克",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "40.6克"
+      }
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电方式",
+          "value": "充电盒不支持无线充电功能，指示灯位于充电盒内部。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒不支持无线充电功能，指示灯位于充电盒内部。"
+        },
+        {
+          "param": "充电方式",
+          "value": "我爱音频网采用\nChargerLAB POWER-Z KT001\n对昂达AirPlus进行有线充电测试，充电功率约为1.5W。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KT001\n对昂达AirPlus进行有线充电测试，充电功率约为1.5W。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电线是USB-A to Lightning接口，有两个夹子固定。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电线是USB-A to Lightning接口，有两个夹子固定。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Lightning接口特写。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Lightning接口特写。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电盒底部的Lightning充电接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒底部的Lightning充电接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电小板上有一颗IC，用于Lightning接口取电。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电小板上有一颗IC，用于Lightning接口取电。"
+        },
+        {
+          "param": "充电接口",
+          "value": "另一面是充电接口母座。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "另一面是充电接口母座。"
+        },
+        {
+          "param": "充电接口",
+          "value": "丝印360A0 的Lightning取电IC。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "丝印360A0 的Lightning取电IC。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Lightning",
+          "unit": "",
+          "brand": "",
+          "model": "Lightning",
+          "confidence": 0.8,
+          "source_ref": "Lightning"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "电芯上的信息，NV 602035，额定电压3.7V，400mAh/1.48Wh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "电芯上的信息，NV 602035，额定电压3.7V，400mAh/1.48Wh。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "针型电池来自AUCOPO万宝能源，万宝针型电池47250-30mAh，直径4.7mm，高度25.0mm，3.8V，容量30mAh，据了解可实现3C快速充电，0.5C放电，700周循环，容量保持率≧ 90%。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "针型电池来自AUCOPO万宝能源，万宝针型电池47250-30mAh，直径4.7mm，高度25.0mm，3.8V，容量30mAh，据了解可实现3C快速充电，0.5C放电，700周循环，容量保持率≧ 90%。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "耳机采用了万宝能源的ICR47250C1针型圆柱钢壳锂电池，容量30mAh，支持3C快速充电，直径小，重量轻，适用于TWS蓝牙耳机；采用钢壳钢壳封装，方便安装，提升整机生产效率。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "耳机采用了万宝能源的ICR47250C1针型圆柱钢壳锂电池，容量30mAh，支持3C快速充电，直径小，重量轻，适用于TWS蓝牙耳机；采用钢壳钢壳封装，方便安装，提升整机生产效率。"
+        },
+        {
+          "param": "电池容量",
+          "value": "30",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "30mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.1",
+      "codecs": [],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [
+        {
+          "value": "主控芯片为络达 AB1536U，目前白牌AirPods 2“顶配版”使用频率最高的一款芯片，内部集成存储器，支持安卓苹果应用，内置电容触摸控制器，集成锂电池充电器，支持过放保护，内置开关降压和LDO。",
+          "evidence": {
+            "value": "主控芯片为络达 AB1536U，目前白牌AirPods 2“顶配版”使用频率最高的一款芯片，内部集成存储器，支持安卓苹果应用，内置电容触摸控制器，集成锂电池充电器，支持过放保护，内置开关降压和LDO。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "主控芯片为络达 AB1536U，目前白牌AirPods 2“顶配版”使用频率最高的一款芯片，内部集成存储器，支持安卓苹果应用，内置电容触摸控制器，集成锂电池充电器，支持过放保护，内置开关降压和LDO。"
+          }
+        }
+      ],
+      "ota_support": [],
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "5.1",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.1"
+      }
+    }
+  }
+}

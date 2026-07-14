@@ -113,6 +113,20 @@
             "source_type": "summary_prose",
             "source_text": "有线采用INJOINIC英集芯IP5528充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示等多功能；"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "CM1126B",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "CM1126B",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用VDL紫建电子60mAh软包扣式电池供电，配备ICM创芯微CM1126B-DAC锂电保护IC；"
+          }
         }
       ],
       "bom_table": [
@@ -142,6 +156,20 @@
             "confidence": 0.85,
             "source_type": "summary_prose",
             "source_text": "充电盒搭载VDL紫建电子3.72V/800mAh锂电池组，支持有线、无线两种方式充电。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "CM1126B",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "CM1126B",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用VDL紫建电子60mAh软包扣式电池供电，配备ICM创芯微CM1126B-DAC锂电保护IC；"
           }
         },
         {
@@ -586,9 +614,18 @@
       },
       "weight_evidence": {
         "value": "60.7g",
-        "confidence": 0.75,
+        "confidence": 0.85,
         "source_type": "text",
-        "source_text": "60.7g"
+        "source_text": "阔Liberty 4 NC真无线降噪耳机整机重量约为60.7g。\n单只耳"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "5.3g",
+      "weight_earbud_evidence": {
+        "value": "5.3g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "真无线降噪耳机整机重量约为60.7g。\n单只耳机重量约为5.3g。\n我爱音"
       }
     },
     "hardware": {
@@ -951,6 +988,6 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.814,
+  "data_completeness": 0.84,
   "source_layer": "technical"
 }

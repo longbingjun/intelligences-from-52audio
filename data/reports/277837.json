@@ -115,6 +115,20 @@
         },
         {
           "component": "芯片/模组",
+          "brand": "",
+          "model": "WP1230",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WP1230",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "其他还采用了Wayon维安WP1230过压保护IC、霍尔元件等方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
           "brand": "Bluetrum中科蓝讯",
           "model": "Bluetrum中科蓝讯BT8932H",
           "qty_hint": "1",
@@ -141,6 +155,20 @@
             "confidence": 0.85,
             "source_type": "summary_prose",
             "source_text": "充电盒搭载了ST神通天下3.7V/520mAh锂电池组，采用INJOINIC英集芯IP5518电源管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，且支持智能双向通讯，带来耳机秒回联手机的优质体验；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WP1230",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WP1230",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "其他还采用了Wayon维安WP1230过压保护IC、霍尔元件等方案。"
           }
         },
         {
@@ -365,6 +393,20 @@
             "confidence": 0.78,
             "source_type": "text",
             "source_text": "英集芯IP5518的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "WP1230",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "WP1230",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Wayon维安WP1230过压保护IC，当检测到错误的输入操作条件时，自动断开系统与其输出引脚（OUT）的连接。"
           }
         },
         {
@@ -598,9 +640,18 @@
       "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "49.3g",
-        "confidence": 0.75,
+        "confidence": 0.85,
         "source_type": "text",
-        "source_text": "49.3g"
+        "source_text": "至BAN EAR PLUS真无线降噪耳机整机重量约为49.3g。\n单只耳"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "4.5g",
+      "weight_earbud_evidence": {
+        "value": "4.5g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "真无线降噪耳机整机重量约为49.3g。\n单只耳机重量约为4.5g。\n我爱音"
       }
     },
     "hardware": {
@@ -871,6 +922,6 @@
       }
     }
   },
-  "data_completeness": 0.858,
+  "data_completeness": 0.876,
   "source_layer": "technical"
 }

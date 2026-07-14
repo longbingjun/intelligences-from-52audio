@@ -360,15 +360,15 @@
         {
           "component": "芯片/模组",
           "brand": "",
-          "model": "英集芯IP5513",
+          "model": "IP5513",
           "qty_hint": "1",
           "side": "",
           "role": "主控/蓝牙",
           "evidence": {
-            "value": "英集芯IP5513",
+            "value": "IP5513",
             "confidence": 0.78,
             "source_type": "text",
-            "source_text": "英集芯IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。"
+            "source_text": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
           }
         },
         {
@@ -612,9 +612,18 @@
       "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "56.9g",
-        "confidence": 0.75,
+        "confidence": 0.85,
         "source_type": "text",
-        "source_text": "56.9g"
+        "source_text": "实测，NANK南卡OE Mix开放式耳机整机重量约为56.9g，搭配在耳"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "7.2g",
+      "weight_earbud_evidence": {
+        "value": "7.2g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "挂式耳机中相对更小巧的机身，非常便携。\n单只耳机重量仅约7.2g，在耳挂式"
       }
     },
     "hardware": {
@@ -801,6 +810,6 @@
       }
     }
   },
-  "data_completeness": 0.762,
+  "data_completeness": 0.772,
   "source_layer": "technical"
 }

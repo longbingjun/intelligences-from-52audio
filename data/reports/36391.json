@@ -1,0 +1,702 @@
+{
+  "id": "36391",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/36391.html",
+  "title": "realme Buds Air 幻耳 TWS 真无线耳机",
+  "brand": "realme真我",
+  "model": "Buds Air 幻耳 TWS",
+  "category": "真无线耳机TWS",
+  "published_at": "2020-02-11",
+  "author": "GiGi24",
+  "summary": "realme品牌成立于2018年5月，专注于生产智能手机和IoT产品，凭借\"敢越级\"的品牌态度和较高性价比的产 […]",
+  "captured_at": "2026-07-14T02:13:42+00:00",
+  "data_completeness": 0.722,
+  "views": {
+    "market": {
+      "brand": "realme真我",
+      "model": "Buds Air 幻耳 TWS",
+      "category": "真无线耳机TWS",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "电池为新余\n赣锋电子\nGF+扣式电池，结合自主专利特点，开发GF8667新品，最小容量25mAh，典型28mAh，直接内置导线输出，可以节省耳机的装配空间。",
+          "tag": "其他",
+          "evidence": {
+            "value": "电池为新余\n赣锋电子\nGF+扣式电池，结合自主专利特点，开发GF8667新品，最小容量25mAh，典型28mAh，直接内置导线输出，可以节省耳机的装配空间。",
+            "confidence": 0.71,
+            "source_type": "text",
+            "source_text": "电池为新余\n赣锋电子\nGF+扣式电池，结合自主专利特点，开发GF8667新品，最小容量25mAh，典型28mAh，直接内置导线输出，可以节省耳机的装配空间。"
+          }
+        },
+        {
+          "text": "电路板背面是蓝牙天线和降噪麦克风，指示灯开孔。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "电路板背面是蓝牙天线和降噪麦克风，指示灯开孔。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "电路板背面是蓝牙天线和降噪麦克风，指示灯开孔。"
+          }
+        },
+        {
+          "text": "泄压孔有防尘网。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "泄压孔有防尘网。",
+            "confidence": 0.57,
+            "source_type": "text",
+            "source_text": "泄压孔有防尘网。"
+          }
+        },
+        {
+          "text": "开孔内部是防尘网。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "开孔内部是防尘网。",
+            "confidence": 0.57,
+            "source_type": "text",
+            "source_text": "开孔内部是防尘网。"
+          }
+        },
+        {
+          "text": "耳机出声孔的防尘网。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "耳机出声孔的防尘网。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "耳机出声孔的防尘网。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通话",
+        "电竞"
+      ],
+      "positioning_summary": "电池为新余\n赣锋电子\nGF+扣式电池，结合自主专利特点，开发GF8667新品，最小容量25mAh，典型28mAh，直接内置导线输出，可以节省耳机的装配空间。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "充电仓",
+        "主板/PCBA",
+        "电池",
+        "麦克风",
+        "天线",
+        "喇叭单元"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "Airoha",
+          "model": "络达 AB1536",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "络达 AB1536",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "络达 AB1536"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9640",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA9640",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "ETA9640"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒背面是充电盒的渲染图，下方有六个产品的特色功能：低延迟、无线充电、蓝牙5.0、佩戴检测、低音增强单元、双麦通话降噪。下面还有一行备注：无延迟感体验需要开启realme Buds Air的电竞模式，测试数据受环境因素影响，实际体验请以实物为准。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机充电触点也有单独的电路板。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "Type-C充电接口位于机身底部，还印有部分信息，型号：RMA201-M，产品名称：蓝牙耳机，电池容量：3.7V、400mAh、1.48Wh，RealMe重庆移动通信有限公司，中国制造。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机底部是两个充电触点和麦克风开孔。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "电路板背面是蓝牙天线和降噪麦克风，指示灯开孔。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "排线直接焊接在扬声器单元上。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒正面还有一个LED指示灯，黑色版本的不太容易发现。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "realme品牌成立于2018年5月，专注于生产智能手机和IoT产品，凭借\"敢越级\"的品牌态度和较高性价比的产品吸引了不少年轻消费群体。TWS耳机作为当前最火热的手机配件，已经有不少手机品牌杀入了这一市场，realme也在不久之前发布了自家的首款产品——realme Buds Air 幻耳，据了解它内置了一颗R1低延迟定制芯片，支持入耳检测、触控和无线充电，下面就一起来看全网首份完整的拆解报告吧~一、realme Buds Air 幻耳 开箱"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机的充电触点位于耳机柄底部。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9640",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA9640",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "钰泰 ETA9640 电源管理IC，1A充放电，同步整流升压，内置多种保护功能，适用于移动电源及蓝牙耳机充电盒。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9640",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA9640",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "钰泰 ETA9640 详细资料。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "络达 AB1536",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "络达 AB1536",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "主控芯片为络达 AB1536，支持蓝牙5.0，支持络达的MCSync连接方式，连线更稳定，减少断音跳音，支撑高解析音频码流，低延时，两耳耗电更平衡。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "络达AB1536",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "络达AB1536",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "充电盒采用国产的酷珀微CP2021全集成无线充电接收IC；耳机内定制的“R1芯片”其实是络达AB1536芯片，支持蓝牙5.0和络达的MCSync技术；耳机内置新余赣锋GF“扣式+”电池最新型号GF8667，可以节省耳机的装配空间。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [],
+      "process_hints": [
+        {
+          "value": "电池和扬声器都焊接在排线上。",
+          "evidence": {
+            "value": "电池和扬声器都焊接在排线上。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "电池和扬声器都焊接在排线上。"
+          }
+        },
+        {
+          "value": "排线直接焊接在扬声器单元上。",
+          "evidence": {
+            "value": "排线直接焊接在扬声器单元上。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "排线直接焊接在扬声器单元上。"
+          }
+        },
+        {
+          "value": "不过在内部电路设计上又具有自己的特色，比如充电盒将按键排线和充电小板分开，通过排线与主板相连； 耳机的电池和扬声器都焊接在排线上； 耳机主板上的蓝牙天线盖板可以起到保护电路的作用。",
+          "evidence": {
+            "value": "不过在内部电路设计上又具有自己的特色，比如充电盒将按键排线和充电小板分开，通过排线与主板相连； 耳机的电池和扬声器都焊接在排线上； 耳机主板上的蓝牙天线盖板可以起到保护电路的作用。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "不过在内部电路设计上又具有自己的特色，比如充电盒将按键排线和充电小板分开，通过排线与主板相连； 耳机的电池和扬声器都焊接在排线上； 耳机主板上的蓝牙天线盖板可以起到保护电路的作用。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": ""
+    },
+    "structure": {
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
+      "materials": [],
+      "ip_rating": null,
+      "weight_g": "42克",
+      "dimensions": [
+        "包装盒底部是部分产品信息：realme 幻耳，型号RMA201，黑色，喇叭尺寸12mm，频率响应20-20000Hz，额定功率2mW，额定阻抗28Ω±（15％）Ω，灵敏度116dB±3dB，执行标准Q/RM 206-2019，RealMe重庆移动通信有限公司。",
+        "主板与一元硬币的尺寸对比。",
+        "扬声器直径12mm。"
+      ],
+      "internal_structure": [
+        {
+          "value": "耳机充电触点也有单独的电路板。",
+          "evidence": {
+            "value": "耳机充电触点也有单独的电路板。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机充电触点也有单独的电路板。"
+          }
+        },
+        {
+          "value": "主板正面特写。",
+          "evidence": {
+            "value": "主板正面特写。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "主板正面特写。"
+          }
+        },
+        {
+          "value": "Type-C充电接口位于机身底部，还印有部分信息，型号：RMA201-M，产品名称：蓝牙耳机，电池容量：3.7V、400mAh、1.48Wh，RealMe重庆移动通信有限公司，中国制造。",
+          "evidence": {
+            "value": "Type-C充电接口位于机身底部，还印有部分信息，型号：RMA201-M，产品名称：蓝牙耳机，电池容量：3.7V、400mAh、1.48Wh，RealMe重庆移动通信有限公司，中国制造。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "Type-C充电接口位于机身底部，还印有部分信息，型号：RMA201-M，产品名称：蓝牙耳机，电池容量：3.7V、400mAh、1.48Wh，RealMe重庆移动通信有限公司，中国制造。"
+          }
+        },
+        {
+          "value": "充电盒电池来自重庆紫建， 型号：552231，标称电压：3.7V，额定容量：400mAh，1.48Wh，充电限制电压：4.2Vdc。",
+          "evidence": {
+            "value": "充电盒电池来自重庆紫建， 型号：552231，标称电压：3.7V，额定容量：400mAh，1.48Wh，充电限制电压：4.2Vdc。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "充电盒电池来自重庆紫建， 型号：552231，标称电压：3.7V，额定容量：400mAh，1.48Wh，充电限制电压：4.2Vdc。"
+          }
+        },
+        {
+          "value": "耳机底部是两个充电触点和麦克风开孔。",
+          "evidence": {
+            "value": "耳机底部是两个充电触点和麦克风开孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机底部是两个充电触点和麦克风开孔。"
+          }
+        },
+        {
+          "value": "降噪麦克风和耳机指示灯开孔。",
+          "evidence": {
+            "value": "降噪麦克风和耳机指示灯开孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "降噪麦克风和耳机指示灯开孔。"
+          }
+        },
+        {
+          "value": "电路板背面是蓝牙天线和降噪麦克风，指示灯开孔。",
+          "evidence": {
+            "value": "电路板背面是蓝牙天线和降噪麦克风，指示灯开孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "电路板背面是蓝牙天线和降噪麦克风，指示灯开孔。"
+          }
+        },
+        {
+          "value": "取下蓝牙天线盖板。",
+          "evidence": {
+            "value": "取下蓝牙天线盖板。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "取下蓝牙天线盖板。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "耳机底部胶水固定一块磁铁用于吸附和定位耳机。",
+          "evidence": {
+            "value": "耳机底部胶水固定一块磁铁用于吸附和定位耳机。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "耳机底部胶水固定一块磁铁用于吸附和定位耳机。"
+          }
+        }
+      ],
+      "sealing_method": [
+        {
+          "value": "泄压孔有防尘网。",
+          "evidence": {
+            "value": "泄压孔有防尘网。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "泄压孔有防尘网。"
+          }
+        },
+        {
+          "value": "开孔内部是防尘网。",
+          "evidence": {
+            "value": "开孔内部是防尘网。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "开孔内部是防尘网。"
+          }
+        },
+        {
+          "value": "耳机出声孔的防尘网。",
+          "evidence": {
+            "value": "耳机出声孔的防尘网。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "耳机出声孔的防尘网。"
+          }
+        }
+      ],
+      "wear_design": [
+        {
+          "value": "包装盒背面是充电盒的渲染图，下方有六个产品的特色功能：低延迟、无线充电、蓝牙5.0、佩戴检测、低音增强单元、双麦通话降噪。",
+          "evidence": {
+            "value": "包装盒背面是充电盒的渲染图，下方有六个产品的特色功能：低延迟、无线充电、蓝牙5.0、佩戴检测、低音增强单元、双麦通话降噪。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "包装盒背面是充电盒的渲染图，下方有六个产品的特色功能：低延迟、无线充电、蓝牙5.0、佩戴检测、低音增强单元、双麦通话降噪。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/02/真我幻耳真无线-1.jpg",
+          "alt": "拆解报告：realme Buds Air 幻耳 TWS 真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/02/真我幻耳真无线-2.jpg",
+          "alt": "拆解报告：realme Buds Air 幻耳 TWS 真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/02/真我幻耳真无线-3.jpg",
+          "alt": "拆解报告：realme Buds Air 幻耳 TWS 真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/02/真我幻耳真无线-4.jpg",
+          "alt": "拆解报告：realme Buds Air 幻耳 TWS 真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/02/真我幻耳真无线-5.jpg",
+          "alt": "拆解报告：realme Buds Air 幻耳 TWS 真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "耳机充电触点也有单独的电路板。",
+        "主板正面特写。",
+        "Type-C充电接口位于机身底部，还印有部分信息，型号：RMA201-M，产品名称：蓝牙耳机，电池容量：3.7V、400mAh、1.48Wh，RealMe重庆移动通信有限公司，中国制造。",
+        "充电盒电池来自重庆紫建， 型号：552231，标称电压：3.7V，额定容量：400mAh，1.48Wh，充电限制电压：4.2Vdc。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": {
+        "value": "42克",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "42克"
+      }
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电方式",
+          "value": "TWS耳机作为当前最火热的手机配件，\n已经有不少手机品牌杀入了这一市场\n，realme也在不久之前发布了自家的首款产品——realme Buds Air 幻耳，据了解它内置了一颗R1低延迟定制芯片，支持入耳检测、触控和无线充电，下面就一起来看全网首份完整的拆解报告吧~\n一、realme Buds Air 幻耳 开箱\n耳机的包装盒是比较亮的黄色，正面印有耳机的渲染图和型号“Buds Air”。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "TWS耳机作为当前最火热的手机配件，\n已经有不少手机品牌杀入了这一市场\n，realme也在不久之前发布了自家的首款产品——realme Buds Air 幻耳，据了解它内置了一颗R1低延迟定制芯片，支持入耳检测、触控和无线充电，下面就一起来"
+        },
+        {
+          "param": "充电方式",
+          "value": "包装盒背面是充电盒的渲染图，下方有六个产品的特色功能：低延迟、无线充电、蓝牙5.0、佩戴检测、低音增强单元、双麦通话降噪。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "包装盒背面是充电盒的渲染图，下方有六个产品的特色功能：低延迟、无线充电、蓝牙5.0、佩戴检测、低音增强单元、双麦通话降噪。"
+        },
+        {
+          "param": "充电方式",
+          "value": "我爱音频网采用\nChargerLAB POWER-Z KM001C\n对realme Buds Air 幻耳进行有线充电测试，充电电压5.062V，电流0.336A。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KM001C\n对realme Buds Air 幻耳进行有线充电测试，充电电压5.062V，电流0.336A。"
+        },
+        {
+          "param": "充电方式",
+          "value": "我爱音频网采用\nChargerLAB POWER-Z KT001\n对realme Buds Air 幻耳进行无线充电测试，充电电压5.0848V，电流0.4576A。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KT001\n对realme Buds Air 幻耳进行无线充电测试，充电电压5.0848V，电流0.4576A。"
+        },
+        {
+          "param": "充电方式",
+          "value": "充电盒背面是无线充电线圈。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒背面是无线充电线圈。"
+        },
+        {
+          "param": "充电方式",
+          "value": "无线充电线圈特写，多股细漆包线并绕。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "无线充电线圈特写，多股细漆包线并绕。"
+        },
+        {
+          "param": "充电方式",
+          "value": "酷珀微 CP2021 全集成无线充电接收端\n，可提供2.5W输出，为耳机充电盒进行无线充电。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "酷珀微 CP2021 全集成无线充电接收端\n，可提供2.5W输出，为耳机充电盒进行无线充电。"
+        },
+        {
+          "param": "充电方式",
+          "value": "充电盒采用国产的酷珀微CP2021全集成无线充电接收IC；耳机内定制的“R1芯片”其实是络达AB1536芯片，支持蓝牙5.0和络达的MCSync技术；耳机内置新余赣锋GF“扣式+”电池最新型号GF8667，可以节省耳机的装配空间。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒采用国产的酷珀微CP2021全集成无线充电接收IC；耳机内定制的“R1芯片”其实是络达AB1536芯片，支持蓝牙5.0和络达的MCSync技术；耳机内置新余赣锋GF“扣式+”电池最新型号GF8667，可以节省耳机的装配空间。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C接口的充电线。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C接口的充电线。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C充电接口位于机身底部，还印有部分信息，型号：RMA201-M，产品名称：蓝牙耳机，电池容量：3.7V、400mAh、1.48Wh，RealMe重庆移动通信有限公司，中国制造。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充电接口位于机身底部，还印有部分信息，型号：RMA201-M，产品名称：蓝牙耳机，电池容量：3.7V、400mAh、1.48Wh，RealMe重庆移动通信有限公司，中国制造。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "标记/认证",
+          "value": "Type-C充电接口位于机身底部，还印有部分信息，型号：RMA201-M，产品名称：蓝牙耳机，电池容量：3.7V、400mAh、1.48Wh，RealMe重庆移动通信有限公司，中国制造。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "Type-C充电接口位于机身底部，还印有部分信息，型号：RMA201-M，产品名称：蓝牙耳机，电池容量：3.7V、400mAh、1.48Wh，RealMe重庆移动通信有限公司，中国制造。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "充电盒电池来自重庆紫建， 型号：552231，标称电压：3.7V，额定容量：400mAh，1.48Wh，充电限制电压：4.2Vdc。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒电池来自重庆紫建， 型号：552231，标称电压：3.7V，额定容量：400mAh，1.48Wh，充电限制电压：4.2Vdc。"
+        },
+        {
+          "param": "电池容量",
+          "value": "400",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "400mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.0",
+      "codecs": [],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [],
+      "ota_support": [],
+      "latency_notes": [
+        {
+          "value": "TWS耳机作为当前最火热的手机配件，\n已经有不少手机品牌杀入了这一市场\n，realme也在不久之前发布了自家的首款产品——realme Buds Air 幻耳，据了解它内置了一颗R1低延迟定制芯片，支持入耳检测、触控和无线充电，下面就一起来看全网首份完整的拆解报告吧~\n一、realme Buds Air 幻耳 开箱\n耳机的包装盒是比较亮的黄色，正面印有耳机的渲染图和型号“Buds Air”。",
+          "evidence": {
+            "value": "TWS耳机作为当前最火热的手机配件，\n已经有不少手机品牌杀入了这一市场\n，realme也在不久之前发布了自家的首款产品——realme Buds Air 幻耳，据了解它内置了一颗R1低延迟定制芯片，支持入耳检测、触控和无线充电，下面就一起来看全网首份完整的拆解报告吧~\n一、realme Buds Air 幻耳 开箱\n耳机的包装盒是比较亮的黄色，正面印有耳机的渲染图和型号“Buds Air”。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "TWS耳机作为当前最火热的手机配件，\n已经有不少手机品牌杀入了这一市场\n，realme也在不久之前发布了自家的首款产品——realme Buds Air 幻耳，据了解它内置了一颗R1低延迟定制芯片，支持入耳检测、触控和无线充电，下面就一起来看全网首份完整的拆解报告吧~\n一、realme Buds Air 幻耳 开箱\n耳机的包装盒是比较亮的黄色，正面印有耳机的渲染图和型号“Buds Air”。"
+          }
+        },
+        {
+          "value": "包装盒背面是充电盒的渲染图，下方有六个产品的特色功能：低延迟、无线充电、蓝牙5.0、佩戴检测、低音增强单元、双麦通话降噪。",
+          "evidence": {
+            "value": "包装盒背面是充电盒的渲染图，下方有六个产品的特色功能：低延迟、无线充电、蓝牙5.0、佩戴检测、低音增强单元、双麦通话降噪。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒背面是充电盒的渲染图，下方有六个产品的特色功能：低延迟、无线充电、蓝牙5.0、佩戴检测、低音增强单元、双麦通话降噪。"
+          }
+        },
+        {
+          "value": "下面还有一行备注：无延迟感体验需要开启realme Buds Air的电竞模式，测试数据受环境因素影响，实际体验请以实物为准。",
+          "evidence": {
+            "value": "下面还有一行备注：无延迟感体验需要开启realme Buds Air的电竞模式，测试数据受环境因素影响，实际体验请以实物为准。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "下面还有一行备注：无延迟感体验需要开启realme Buds Air的电竞模式，测试数据受环境因素影响，实际体验请以实物为准。"
+          }
+        }
+      ],
+      "bluetooth_evidence": {
+        "value": "5.0",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.0"
+      }
+    }
+  }
+}

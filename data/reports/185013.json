@@ -1,0 +1,699 @@
+{
+  "id": "185013",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/185013.html",
+  "title": "adidas阿迪达斯RPT-01头戴式耳机",
+  "brand": "",
+  "model": "adidas阿迪达斯RPT-01",
+  "category": "头戴式耳机",
+  "published_at": "2023-12-18",
+  "author": "Wen5",
+  "summary": "作为一个全球知名品牌，adidas阿迪达斯不仅专注于运动服饰，还推出了一系列的运动耳机产品，包括了头戴式耳机、 […]",
+  "captured_at": "2026-07-14T02:06:03+00:00",
+  "data_completeness": 0.736,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "adidas阿迪达斯RPT-01",
+      "category": "头戴式耳机",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "耳机拾音麦克风特写，采用了驻极体麦克风，内置两颗协同拾音，搭配降噪算法，提供清晰通话和精准的语音控制。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "耳机拾音麦克风特写，采用了驻极体麦克风，内置两颗协同拾音，搭配降噪算法，提供清晰通话和精准的语音控制。",
+            "confidence": 0.75,
+            "source_type": "text",
+            "source_text": "耳机拾音麦克风特写，采用了驻极体麦克风，内置两颗协同拾音，搭配降噪算法，提供清晰通话和精准的语音控制。"
+          }
+        },
+        {
+          "text": "耳机正面外观一览，头带采用了轻量化的镂空设计，有两根金属条+软胶结构组成，具有很强的韧性，能够实现360°弯曲。",
+          "tag": "舒适佩戴",
+          "evidence": {
+            "value": "耳机正面外观一览，头带采用了轻量化的镂空设计，有两根金属条+软胶结构组成，具有很强的韧性，能够实现360°弯曲。",
+            "confidence": 0.64,
+            "source_type": "text",
+            "source_text": "耳机正面外观一览，头带采用了轻量化的镂空设计，有两根金属条+软胶结构组成，具有很强的韧性，能够实现360°弯曲。"
+          }
+        },
+        {
+          "text": "旋钮按键上方的降噪麦克风拾音孔特写。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "旋钮按键上方的降噪麦克风拾音孔特写。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "旋钮按键上方的降噪麦克风拾音孔特写。"
+          }
+        },
+        {
+          "text": "耳机音腔盖板结构一览，出音孔上贴有阻尼纸，四周标签上印有产品参数和各种认证标志。",
+          "tag": "其他",
+          "evidence": {
+            "value": "耳机音腔盖板结构一览，出音孔上贴有阻尼纸，四周标签上印有产品参数和各种认证标志。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "耳机音腔盖板结构一览，出音孔上贴有阻尼纸，四周标签上印有产品参数和各种认证标志。"
+          }
+        }
+      ],
+      "scenarios": [
+        "运动",
+        "通话"
+      ],
+      "positioning_summary": "耳机拾音麦克风特写，采用了驻极体麦克风，内置两颗协同拾音，搭配降噪算法，提供清晰通话和精准的语音控制。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "麦克风",
+        "主板/PCBA",
+        "电池",
+        "喇叭单元"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm高通",
+          "model": "高通QCC3004",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通QCC3004",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内部结构配置方面，搭载了40mm动圈喇叭，右耳内置主板单元和两颗驻极体麦克风，采用了Qualcomm高通QCC3004蓝牙音频SoC，支持蓝牙5.0双模，支持高通第8代cVc噪声消除技术，支持两个麦克风输入；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "QCC300",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "QCC300",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "QCC300"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm高通",
+          "model": "高通QCC3004",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通QCC3004",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内部结构配置方面，搭载了40mm动圈喇叭，右耳内置主板单元和两颗驻极体麦克风，采用了Qualcomm高通QCC3004蓝牙音频SoC，支持蓝牙5.0双模，支持高通第8代cVc噪声消除技术，支持两个麦克风输入；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "6V/80mAh",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "6V/80mAh",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "左耳内置电池单元，容量680mAh。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "内部结构配置方面，搭载了40mm动圈喇叭，右耳内置主板单元和两颗驻极体麦克风，采用了Qualcomm高通QCC3004蓝牙音频SoC，支持蓝牙5.0双模，支持高通第8代cVc噪声消除技术，支持两个麦克风输入；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "旋钮按键上方的降噪麦克风拾音孔特写。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "右耳",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "打开右耳腔体，内部设置有主板单元。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "左耳",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "打开左耳腔体，内部设置有扬声器、电池单元和转接板。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机扬声器正面特写，采用钕磁铁动圈单元。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "此次将要拆解的adidas阿迪达斯RPT-01头戴式耳机专为运动和提升运动而设计，外观上基于织物、TPU和金属等材质，既坚实耐用，又柔软舒适。功能配置上，搭载40mm钕磁铁驱动单元，支持蓝牙5.0无线连接，可提供40小时的持久续航时间；采用创新设计的自定义控制按钮，带来非常便捷的交互体验。下面就来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "旋钮按键下方的LED指示灯特写。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "QCC300",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "QCC300",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "QCC300X系列支持蓝牙5.0双模，支持高通第8代cVc噪声消除技术，具有一个和两个麦克风输入；增强型GAIAD设计，可与移动设备进行更好的通信；具有外部QSPI闪存，用于配置和语音提示。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "高通QCC3004",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通QCC3004",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Qualcomm高通QCC3004详细资料图。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "高通QCC3004",
+          "qty_hint": "1",
+          "side": "右耳",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通QCC3004",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "内部结构配置方面，搭载了40mm动圈喇叭，右耳内置主板单元和两颗驻极体麦克风，采用了Qualcomm高通QCC3004蓝牙音频SoC，支持蓝牙5.0双模，支持高通第8代cVc噪声消除技术，支持两个麦克风输入；还采用了MXIC旺宏MX25U3235F存储器，用于存储蓝牙连接等信息。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [
+        "包装盒内部物品有头戴式耳机、充电线、产品使用说明书和保修卡。"
+      ],
+      "process_hints": [
+        {
+          "value": "腔体内部主板单元结构一览，通过螺丝固定，各种导线与主板焊接，排线通过ZIF连接器连接。",
+          "evidence": {
+            "value": "腔体内部主板单元结构一览，通过螺丝固定，各种导线与主板焊接，排线通过ZIF连接器连接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "腔体内部主板单元结构一览，通过螺丝固定，各种导线与主板焊接，排线通过ZIF连接器连接。"
+          }
+        },
+        {
+          "value": "驻极体麦克风背面特写，与导线焊接。",
+          "evidence": {
+            "value": "驻极体麦克风背面特写，与导线焊接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "驻极体麦克风背面特写，与导线焊接。"
+          }
+        },
+        {
+          "value": "小板一侧电路一览，与右耳和扬声器连接的导线焊接，未设置主要IC。",
+          "evidence": {
+            "value": "小板一侧电路一览，与右耳和扬声器连接的导线焊接，未设置主要IC。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "小板一侧电路一览，与右耳和扬声器连接的导线焊接，未设置主要IC。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": "三、我爱音频网总结 adidas阿迪达斯RPT-01头戴式耳机在外观设计方面极富品牌特色，头带、耳罩、线缆均采用针织面料包裹，触感柔软，佩戴舒适透气，并通过不同的编织纹理，使产品更具层次感。头带支持伸缩调节，耳罩支持小角度旋转，从而满足不同用户的使用需求。 内部结构配置方面，搭载了40mm动圈喇叭，右耳内置主板单元和两颗驻极体麦克风，采用了Qualcomm高通QCC3004蓝牙音频SoC，支持蓝牙5.0双模，支持高通第8代cVc噪声消除技术，支持两个麦克风输入；还采用了MXIC旺宏MX25U3235F存储器，用于存储蓝牙连接等信息。左耳内置电池单元，容量680mAh。"
+    },
+    "structure": {
+      "form_factor": "头戴式耳机",
+      "earbud_type": "头戴",
+      "materials": [
+        "硅胶",
+        "PC"
+      ],
+      "ip_rating": "IPX4",
+      "weight_g": "215.3g",
+      "dimensions": [
+        "功能配置上，搭载40mm钕磁铁驱动单元，支持蓝牙5.0无线连接，可提供40小时的持久续航时间；采用创新设计的自定义控制按钮，带来非常便捷的交互体验。",
+        "Qualcomm高通QCC3004蓝牙音频SoC，用于为耳机提供丰富的音频功能。",
+        "Qualcomm高通QCC3004详细资料图。"
+      ],
+      "internal_structure": [
+        {
+          "value": "旋钮按键上方的降噪麦克风拾音孔特写。",
+          "evidence": {
+            "value": "旋钮按键上方的降噪麦克风拾音孔特写。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "旋钮按键上方的降噪麦克风拾音孔特写。"
+          }
+        },
+        {
+          "value": "耳壳底部的通话麦克风拾音孔特写。",
+          "evidence": {
+            "value": "耳壳底部的通话麦克风拾音孔特写。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳壳底部的通话麦克风拾音孔特写。"
+          }
+        },
+        {
+          "value": "打开右耳腔体，内部设置有主板单元。",
+          "evidence": {
+            "value": "打开右耳腔体，内部设置有主板单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "打开右耳腔体，内部设置有主板单元。"
+          }
+        },
+        {
+          "value": "腔体内部主板单元结构一览，通过螺丝固定，各种导线与主板焊接，排线通过ZIF连接器连接。",
+          "evidence": {
+            "value": "腔体内部主板单元结构一览，通过螺丝固定，各种导线与主板焊接，排线通过ZIF连接器连接。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "腔体内部主板单元结构一览，通过螺丝固定，各种导线与主板焊接，排线通过ZIF连接器连接。"
+          }
+        },
+        {
+          "value": "打开左耳腔体，内部设置有扬声器、电池单元和转接板。",
+          "evidence": {
+            "value": "打开左耳腔体，内部设置有扬声器、电池单元和转接板。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "打开左耳腔体，内部设置有扬声器、电池单元和转接板。"
+          }
+        },
+        {
+          "value": "腔体内部结构一览，电池通过导线和插座连接PCB小板，小板通过螺丝固定。",
+          "evidence": {
+            "value": "腔体内部结构一览，电池通过导线和插座连接PCB小板，小板通过螺丝固定。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "腔体内部结构一览，电池通过导线和插座连接PCB小板，小板通过螺丝固定。"
+          }
+        },
+        {
+          "value": "耳机扬声器正面特写，采用钕磁铁动圈单元。",
+          "evidence": {
+            "value": "耳机扬声器正面特写，采用钕磁铁动圈单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机扬声器正面特写，采用钕磁铁动圈单元。"
+          }
+        },
+        {
+          "value": "此次将要拆解的adidas阿迪达斯RPT-01头戴式耳机专为运动和提升运动而设计，外观上基于织物、TPU和金属等材质，既坚实耐用，又柔软舒适。功能配置上，搭载40mm钕磁铁驱动单元，支持蓝牙5.0无线连接，可提供40小时的持久续航时间；采用创新设计的自定义控制按钮，带来非常便捷的交互体验。下面就来看看这款产品的详细拆解报告吧~",
+          "evidence": {
+            "value": "此次将要拆解的adidas阿迪达斯RPT-01头戴式耳机专为运动和提升运动而设计，外观上基于织物、TPU和金属等材质，既坚实耐用，又柔软舒适。功能配置上，搭载40mm钕磁铁驱动单元，支持蓝牙5.0无线连接，可提供40小时的持久续航时间；采用创新设计的自定义控制按钮，带来非常便捷的交互体验。下面就来看看这款产品的详细拆解报告吧~",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "此次将要拆解的adidas阿迪达斯RPT-01头戴式耳机专为运动和提升运动而设计，外观上基于织物、TPU和金属等材质，既坚实耐用，又柔软舒适。功能配置上，搭载40mm钕磁铁驱动单元，支持蓝牙5.0无线连接，可提供40小时的持久续航时间；采用创新设计的自定义控制按钮，带来非常便捷的交互体验。下面就来看看这款产品的详细拆解报告吧~"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "骨架末端内侧特写，设置有凹槽卡扣，实现与耳壳的调节和固定。",
+          "evidence": {
+            "value": "骨架末端内侧特写，设置有凹槽卡扣，实现与耳壳的调节和固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "骨架末端内侧特写，设置有凹槽卡扣，实现与耳壳的调节和固定。"
+          }
+        },
+        {
+          "value": "腔体内部主板单元结构一览，通过螺丝固定，各种导线与主板焊接，排线通过ZIF连接器连接。",
+          "evidence": {
+            "value": "腔体内部主板单元结构一览，通过螺丝固定，各种导线与主板焊接，排线通过ZIF连接器连接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "腔体内部主板单元结构一览，通过螺丝固定，各种导线与主板焊接，排线通过ZIF连接器连接。"
+          }
+        },
+        {
+          "value": "腔体内部结构一览，腔体通过螺丝与背部盖板固定，导线过孔打胶密封。",
+          "evidence": {
+            "value": "腔体内部结构一览，腔体通过螺丝与背部盖板固定，导线过孔打胶密封。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "腔体内部结构一览，腔体通过螺丝与背部盖板固定，导线过孔打胶密封。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，断开导线，取掉腔体。",
+          "evidence": {
+            "value": "卸掉螺丝，断开导线，取掉腔体。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，断开导线，取掉腔体。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，取掉悬挂结构。",
+          "evidence": {
+            "value": "卸掉螺丝，取掉悬挂结构。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取掉悬挂结构。"
+          }
+        }
+      ],
+      "sealing_method": [
+        {
+          "value": "包装盒背面详细介绍了产品特征，包括：IPX4防汗防水、人体工学设计&360°旋转、易于交互的控制按钮、可自定义控制按钮和可清洗耳垫和头垫。",
+          "evidence": {
+            "value": "包装盒背面详细介绍了产品特征，包括：IPX4防汗防水、人体工学设计&360°旋转、易于交互的控制按钮、可自定义控制按钮和可清洗耳垫和头垫。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "包装盒背面详细介绍了产品特征，包括：IPX4防汗防水、人体工学设计&360°旋转、易于交互的控制按钮、可自定义控制按钮和可清洗耳垫和头垫。"
+          }
+        },
+        {
+          "value": "另外一侧介绍有部分产品和参数信息，40+小时续航、USB-C充电、蓝牙5.0、IPX4防汗防水，以及MFi认证标识。",
+          "evidence": {
+            "value": "另外一侧介绍有部分产品和参数信息，40+小时续航、USB-C充电、蓝牙5.0、IPX4防汗防水，以及MFi认证标识。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "另外一侧介绍有部分产品和参数信息，40+小时续航、USB-C充电、蓝牙5.0、IPX4防汗防水，以及MFi认证标识。"
+          }
+        }
+      ],
+      "wear_design": [
+        {
+          "value": "此次将要拆解的\nadidas阿迪达斯RPT-01头戴式耳机\n专为运动和提升运动而设计，外观上基于织物、TPU和金属等材质，既坚实耐用，又柔软舒适。",
+          "evidence": {
+            "value": "此次将要拆解的\nadidas阿迪达斯RPT-01头戴式耳机\n专为运动和提升运动而设计，外观上基于织物、TPU和金属等材质，既坚实耐用，又柔软舒适。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "此次将要拆解的\nadidas阿迪达斯RPT-01头戴式耳机\n专为运动和提升运动而设计，外观上基于织物、TPU和金属等材质，既坚实耐用，又柔软舒适。"
+          }
+        },
+        {
+          "value": "阿迪达斯RPT-01头戴式耳机整体外观一览，体积轻巧，整机通过织物材质包裹，佩戴柔软舒适，同时又提升了适量的摩擦力，使佩戴更稳定。",
+          "evidence": {
+            "value": "阿迪达斯RPT-01头戴式耳机整体外观一览，体积轻巧，整机通过织物材质包裹，佩戴柔软舒适，同时又提升了适量的摩擦力，使佩戴更稳定。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "阿迪达斯RPT-01头戴式耳机整体外观一览，体积轻巧，整机通过织物材质包裹，佩戴柔软舒适，同时又提升了适量的摩擦力，使佩戴更稳定。"
+          }
+        },
+        {
+          "value": "骨架外部通过织物包裹，内侧设置有可拆卸硅胶垫均匀分散头部压力，提升佩戴舒适性。",
+          "evidence": {
+            "value": "骨架外部通过织物包裹，内侧设置有可拆卸硅胶垫均匀分散头部压力，提升佩戴舒适性。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "骨架外部通过织物包裹，内侧设置有可拆卸硅胶垫均匀分散头部压力，提升佩戴舒适性。"
+          }
+        },
+        {
+          "value": "耳罩内部填充柔软记忆海绵，外部包裹织物纹理相较于头梁织物更加细腻，佩戴更舒适，并通过不同配色、不同纹理搭配，提升层次感和精致度。",
+          "evidence": {
+            "value": "耳罩内部填充柔软记忆海绵，外部包裹织物纹理相较于头梁织物更加细腻，佩戴更舒适，并通过不同配色、不同纹理搭配，提升层次感和精致度。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "耳罩内部填充柔软记忆海绵，外部包裹织物纹理相较于头梁织物更加细腻，佩戴更舒适，并通过不同配色、不同纹理搭配，提升层次感和精致度。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/12/2023121808313039.jpeg",
+          "alt": "拆解报告：adidas阿迪达斯RPT-01头戴式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/12/2023121808313179.jpeg",
+          "alt": "拆解报告：adidas阿迪达斯RPT-01头戴式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/12/2023121808313322.jpeg",
+          "alt": "拆解报告：adidas阿迪达斯RPT-01头戴式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/12/2023121808313542.jpeg",
+          "alt": "拆解报告：adidas阿迪达斯RPT-01头戴式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/12/2023121808313767.jpeg",
+          "alt": "拆解报告：adidas阿迪达斯RPT-01头戴式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "旋钮按键上方的降噪麦克风拾音孔特写。",
+        "耳壳底部的通话麦克风拾音孔特写。",
+        "打开右耳腔体，内部设置有主板单元。",
+        "腔体内部主板单元结构一览，通过螺丝固定，各种导线与主板焊接，排线通过ZIF连接器连接。"
+      ],
+      "ip_rating_evidence": {
+        "value": "IPX4",
+        "confidence": 0.8,
+        "source_type": "text",
+        "source_text": "IPX4"
+      },
+      "weight_evidence": {
+        "value": "215.3g",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "215.3g"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": null,
+      "weight_earbud_evidence": null
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "机身底部外观一览，右侧耳罩上设置有Type-C充电接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "机身底部外观一览，右侧耳罩上设置有Type-C充电接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C充电母座。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充电母座。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "包装盒背面详细介绍了产品特征，包括：IPX4防汗防水、人体工学设计&360°旋转、易于交互的控制按钮、可自定义控制按钮和可清洗耳垫和头垫。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "包装盒背面详细介绍了产品特征，包括：IPX4防汗防水、人体工学设计&360°旋转、易于交互的控制按钮、可自定义控制按钮和可清洗耳垫和头垫。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "另外一侧介绍有部分产品和参数信息，40+小时续航、USB-C充电、蓝牙5.0、IPX4防汗防水，以及MFi认证标识。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "另外一侧介绍有部分产品和参数信息，40+小时续航、USB-C充电、蓝牙5.0、IPX4防汗防水，以及MFi认证标识。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "我爱音频网采用\nCHARGERLAB POWER-Z KM003C\n对adidas阿迪达斯RPT-01头戴式耳机进行充电测试，输入功率约为1.88W。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "我爱音频网采用\nCHARGERLAB POWER-Z KM003C\n对adidas阿迪达斯RPT-01头戴式耳机进行充电测试，输入功率约为1.88W。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "耳机音腔盖板结构一览，出音孔上贴有阻尼纸，四周标签上印有产品参数和各种认证标志。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "耳机音腔盖板结构一览，出音孔上贴有阻尼纸，四周标签上印有产品参数和各种认证标志。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "型号：RPT-01，输入：5V-500mA，中国制造。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "型号：RPT-01，输入：5V-500mA，中国制造。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "耳机内置锂离子电池型号：VDL 603040，标称电压：3.7V，额定容量：680mAh 2.52Wh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "耳机内置锂离子电池型号：VDL 603040，标称电压：3.7V，额定容量：680mAh 2.52Wh。"
+        },
+        {
+          "param": "电池容量",
+          "value": "680",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "680mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.0",
+      "codecs": [],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [
+        {
+          "value": "可自定义按键特写，支持单击、双击、三击等功能控制，可通过APP自定义设置。",
+          "evidence": {
+            "value": "可自定义按键特写，支持单击、双击、三击等功能控制，可通过APP自定义设置。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "可自定义按键特写，支持单击、双击、三击等功能控制，可通过APP自定义设置。"
+          }
+        }
+      ],
+      "ota_support": [],
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "5.0",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.0"
+      }
+    }
+  }
+}

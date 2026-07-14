@@ -1,0 +1,759 @@
+{
+  "id": "227697",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/227697.html",
+  "title": "LANGSDOM兰士顿ClipBuds R2开放式耳机",
+  "brand": "",
+  "model": "LANGSDOM兰士顿ClipBuds R2",
+  "category": "开放式耳机",
+  "published_at": "2025-02-11",
+  "author": "Wen5",
+  "summary": "开放式蓝牙耳机中，耳夹式设计凭借更加轻巧的体积，与眼镜不冲突的佩戴方式，赢得了许多用户的喜爱。我爱音频网近期也 […]",
+  "captured_at": "2026-07-14T02:04:08+00:00",
+  "data_completeness": 0.66,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "LANGSDOM兰士顿ClipBuds R2",
+      "category": "开放式耳机",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+          "tag": "其他",
+          "evidence": {
+            "value": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+            "confidence": 0.57,
+            "source_type": "text",
+            "source_text": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。"
+          }
+        },
+        {
+          "text": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通话"
+      ],
+      "positioning_summary": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "充电仓",
+        "电池",
+        "主板/PCBA",
+        "麦克风",
+        "喇叭单元"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5513",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内置380mAh锂电池，采用了INJOINIC英集芯IP5513多功能电源管理SoC，为充电盒提供完整的电源解决方案；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB5656",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB5656",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机搭载12mm动圈单元，40mAh软包电池，单耳内置一颗MEMS麦克风，采用了Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，负责无线连接和音频数据处理。"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5513",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内置380mAh锂电池，采用了INJOINIC英集芯IP5513多功能电源管理SoC，为充电盒提供完整的电源解决方案；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3V/80mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3V/80mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒内置380mAh锂电池，采用了INJOINIC英集芯IP5513多功能电源管理SoC，为充电盒提供完整的电源解决方案；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB5656",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB5656",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机搭载12mm动圈单元，40mAh软包电池，单耳内置一颗MEMS麦克风，采用了Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，负责无线连接和音频数据处理。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "12mm 动圈单元",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "12mm 动圈单元",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机搭载12mm动圈单元，40mAh软包电池，单耳内置一颗MEMS麦克风，采用了Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，负责无线连接和音频数据处理。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机搭载12mm动圈单元，40mAh软包电池，单耳内置一颗MEMS麦克风，采用了Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，负责无线连接和音频数据处理。"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "兰士顿ClipBuds R2开放式耳机充电盒采用了椭圆形设计，体积圆润，轻巧便携。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒内部电路简洁，座舱底部通过螺丝固定主板，主板下方设置电池。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒内部电路简洁，座舱底部通过螺丝固定主板，主板下方设置电池。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "此次将要拆解的LANGSDOM兰士顿ClipBuds R2开放式耳机，是一款百元价格的产品，外观上拥有着非常轻巧便携的设计。功能配置上，搭载了复合膜喇叭，支持数字声音增强技术，支持定向传音，提供清晰音质；还支持双麦克风通话，支持蓝牙5.4无线连接，可提供约30小时的综合续航。下面就来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "扬声器正面特写，振膜通过金属盖板防护。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "机身背面设置Type-C充电接口，接口下方设置指示灯。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "音腔外侧外观一览，水滴形曲线设计，中间设置有指示灯开孔，上方为触控区域。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "腔体侧边设置充电触点。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "撬开卡扣式固定的充电盒外壳，取出座舱结构。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5513",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "IP5513",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "IP5513",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB5656",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB5656",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Bluetrum中科蓝讯AB5656C2蓝牙音频SoC\n，采用带DSP指令的高性能32位RISC-V处理器核心，处理器最大速度125MHz，内置1M bit（AB5656C2）闪存，113KB RAM，具有可编程上拉和下拉电阻的灵活GPIO引脚；支持GPIO唤醒或中断。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB5656",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB5656",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "内部主要配置方面，充电盒内置380mAh锂电池，采用了INJOINIC英集芯IP5513多功能电源管理SoC，为充电盒提供完整的电源解决方案；耳机搭载12mm动圈单元，40mAh软包电池，单耳内置一颗MEMS麦克风，采用了Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，负责无线连接和音频数据处理。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [
+        "取出包装盒内部的所有物品，包括了主机、充电线、产品说明书和保修卡。"
+      ],
+      "process_hints": [
+        {
+          "value": "取出腔体内部的主板单元，导线均与主板焊接。",
+          "evidence": {
+            "value": "取出腔体内部的主板单元，导线均与主板焊接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "取出腔体内部的主板单元，导线均与主板焊接。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": "三、我爱音频网总结 LANGSDOM兰士顿ClipBuds R2开放式耳机在外观方面，具有着非常轻巧的设计，整体重量仅约43.8g，单只耳机约5.1g，使用便携，佩戴轻盈。耳机采用了耳夹式设计，佩戴不与眼镜冲突，更适合多场景使用。 内部主要配置方面，充电盒内置380mAh锂电池，采用了INJOINIC英集芯IP5513多功能电源管理SoC，为充电盒提供完整的电源解决方案；耳机搭载12mm动圈单元，40mAh软包电池，单耳内置一颗MEMS麦克风，采用了Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，负责无线连接和音频数据处理。"
+    },
+    "structure": {
+      "form_factor": "开放式耳机",
+      "earbud_type": "开放",
+      "materials": [],
+      "ip_rating": null,
+      "weight_g": "43.8g",
+      "dimensions": [
+        "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+        "经我爱音频网实测，扬声器尺寸约为12mm。",
+        "内部主要配置方面，充电盒内置380mAh锂电池，采用了INJOINIC英集芯IP5513多功能电源管理SoC，为充电盒提供完整的电源解决方案；耳机搭载12mm动圈单元，40mAh软包电池，单耳内置一颗MEMS麦克风，采用了Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，负责无线连接和音频数据处理。"
+      ],
+      "internal_structure": [
+        {
+          "value": "充电盒内部电路简洁，座舱底部通过螺丝固定主板，主板下方设置电池。",
+          "evidence": {
+            "value": "充电盒内部电路简洁，座舱底部通过螺丝固定主板，主板下方设置电池。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "充电盒内部电路简洁，座舱底部通过螺丝固定主板，主板下方设置电池。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，取掉主板和电池。",
+          "evidence": {
+            "value": "卸掉螺丝，取掉主板和电池。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取掉主板和电池。"
+          }
+        },
+        {
+          "value": "此次将要拆解的LANGSDOM兰士顿ClipBuds R2开放式耳机，是一款百元价格的产品，外观上拥有着非常轻巧便携的设计。功能配置上，搭载了复合膜喇叭，支持数字声音增强技术，支持定向传音，提供清晰音质；还支持双麦克风通话，支持蓝牙5.4无线连接，可提供约30小时的综合续航。下面就来看看这款产品的详细拆解报告吧~",
+          "evidence": {
+            "value": "此次将要拆解的LANGSDOM兰士顿ClipBuds R2开放式耳机，是一款百元价格的产品，外观上拥有着非常轻巧便携的设计。功能配置上，搭载了复合膜喇叭，支持数字声音增强技术，支持定向传音，提供清晰音质；还支持双麦克风通话，支持蓝牙5.4无线连接，可提供约30小时的综合续航。下面就来看看这款产品的详细拆解报告吧~",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "此次将要拆解的LANGSDOM兰士顿ClipBuds R2开放式耳机，是一款百元价格的产品，外观上拥有着非常轻巧便携的设计。功能配置上，搭载了复合膜喇叭，支持数字声音增强技术，支持定向传音，提供清晰音质；还支持双麦克风通话，支持蓝牙5.4无线连接，可提供约30小时的综合续航。下面就来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "value": "侧边的麦克风拾音孔特写。",
+          "evidence": {
+            "value": "侧边的麦克风拾音孔特写。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "侧边的麦克风拾音孔特写。"
+          }
+        },
+        {
+          "value": "扬声器正面特写，振膜通过金属盖板防护。",
+          "evidence": {
+            "value": "扬声器正面特写，振膜通过金属盖板防护。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "扬声器正面特写，振膜通过金属盖板防护。"
+          }
+        },
+        {
+          "value": "内部主要配置方面，充电盒内置380mAh锂电池，采用了INJOINIC英集芯IP5513多功能电源管理SoC，为充电盒提供完整的电源解决方案；耳机搭载12mm动圈单元，40mAh软包电池，单耳内置一颗MEMS麦克风，采用了Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，负责无线连接和音频数据处理。",
+          "evidence": {
+            "value": "内部主要配置方面，充电盒内置380mAh锂电池，采用了INJOINIC英集芯IP5513多功能电源管理SoC，为充电盒提供完整的电源解决方案；耳机搭载12mm动圈单元，40mAh软包电池，单耳内置一颗MEMS麦克风，采用了Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，负责无线连接和音频数据处理。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "内部主要配置方面，充电盒内置380mAh锂电池，采用了INJOINIC英集芯IP5513多功能电源管理SoC，为充电盒提供完整的电源解决方案；耳机搭载12mm动圈单元，40mAh软包电池，单耳内置一颗MEMS麦克风，采用了Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，负责无线连接和音频数据处理。"
+          }
+        },
+        {
+          "value": "音腔外侧外观一览，水滴形曲线设计，中间设置有指示灯开孔，上方为触控区域。",
+          "evidence": {
+            "value": "音腔外侧外观一览，水滴形曲线设计，中间设置有指示灯开孔，上方为触控区域。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "音腔外侧外观一览，水滴形曲线设计，中间设置有指示灯开孔，上方为触控区域。"
+          }
+        },
+        {
+          "value": "耳机触控区域特写，设计有凸点指示。",
+          "evidence": {
+            "value": "耳机触控区域特写，设计有凸点指示。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机触控区域特写，设计有凸点指示。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "二、\nLANGSDOM兰士顿ClipBuds R2开放式耳机拆解\n通过开箱，我们详细了解了LANGSDOM兰士顿ClipBuds R2开放式耳机的轻巧外观设计，下面进入拆解部分，看看内部结构配置信息~\n充电盒拆解\n撬开卡扣式固定的充电盒外壳，取出座舱结构。",
+          "evidence": {
+            "value": "二、\nLANGSDOM兰士顿ClipBuds R2开放式耳机拆解\n通过开箱，我们详细了解了LANGSDOM兰士顿ClipBuds R2开放式耳机的轻巧外观设计，下面进入拆解部分，看看内部结构配置信息~\n充电盒拆解\n撬开卡扣式固定的充电盒外壳，取出座舱结构。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "二、\nLANGSDOM兰士顿ClipBuds R2开放式耳机拆解\n通过开箱，我们详细了解了LANGSDOM兰士顿ClipBuds R2开放式耳机的轻巧外观设计，下面进入拆解部分，看看内部结构配置信息~\n充电盒拆解\n撬开卡扣式固定的充电盒外壳，取出座舱结构。"
+          }
+        },
+        {
+          "value": "充电盒内部电路简洁，座舱底部通过螺丝固定主板，主板下方设置电池。",
+          "evidence": {
+            "value": "充电盒内部电路简洁，座舱底部通过螺丝固定主板，主板下方设置电池。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "充电盒内部电路简洁，座舱底部通过螺丝固定主板，主板下方设置电池。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，取掉主板和电池。",
+          "evidence": {
+            "value": "卸掉螺丝，取掉主板和电池。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取掉主板和电池。"
+          }
+        }
+      ],
+      "sealing_method": [],
+      "wear_design": [
+        {
+          "value": "开放式蓝牙耳机中，耳夹式设计凭借更加轻巧的体积，与眼镜不冲突的佩戴方式，赢得了许多用户的喜爱。",
+          "evidence": {
+            "value": "开放式蓝牙耳机中，耳夹式设计凭借更加轻巧的体积，与眼镜不冲突的佩戴方式，赢得了许多用户的喜爱。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "开放式蓝牙耳机中，耳夹式设计凭借更加轻巧的体积，与眼镜不冲突的佩戴方式，赢得了许多用户的喜爱。"
+          }
+        },
+        {
+          "value": "我爱音频网近期也对\n目前市场上的11款热门产品\n进行了横评，从便携性、佩戴体验、音质等角度分享实际的使用体验。",
+          "evidence": {
+            "value": "我爱音频网近期也对\n目前市场上的11款热门产品\n进行了横评，从便携性、佩戴体验、音质等角度分享实际的使用体验。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "我爱音频网近期也对\n目前市场上的11款热门产品\n进行了横评，从便携性、佩戴体验、音质等角度分享实际的使用体验。"
+          }
+        },
+        {
+          "value": "下面就来看看这款产品的详细拆解报告吧~\n一、\nLANGSDOM兰士顿ClipBuds R2开放式耳机开箱\nLANGSDOM兰士顿ClipBuds R2开放式耳机包装盒采用了简约设计，正面展示有产品外观，品牌LOGO和产品名称，以及时尚耳夹式、开放式聆听的产品特点。",
+          "evidence": {
+            "value": "下面就来看看这款产品的详细拆解报告吧~\n一、\nLANGSDOM兰士顿ClipBuds R2开放式耳机开箱\nLANGSDOM兰士顿ClipBuds R2开放式耳机包装盒采用了简约设计，正面展示有产品外观，品牌LOGO和产品名称，以及时尚耳夹式、开放式聆听的产品特点。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "下面就来看看这款产品的详细拆解报告吧~\n一、\nLANGSDOM兰士顿ClipBuds R2开放式耳机开箱\nLANGSDOM兰士顿ClipBuds R2开放式耳机包装盒采用了简约设计，正面展示有产品外观，品牌LOGO和产品名称，以及时尚耳夹式、开放式聆听的产品特点。"
+          }
+        },
+        {
+          "value": "LANGSDOM兰士顿ClipBuds R2开放式耳机整体外观一览，耳机采用了耳夹式设计，腔体圆润无棱角。",
+          "evidence": {
+            "value": "LANGSDOM兰士顿ClipBuds R2开放式耳机整体外观一览，耳机采用了耳夹式设计，腔体圆润无棱角。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "LANGSDOM兰士顿ClipBuds R2开放式耳机整体外观一览，耳机采用了耳夹式设计，腔体圆润无棱角。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/02/2025021107003730.jpg",
+          "alt": "拆解报告：LANGSDOM兰士顿ClipBuds R2开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/02/2025021107004226.jpg",
+          "alt": "拆解报告：LANGSDOM兰士顿ClipBuds R2开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/02/2025021107002897.jpg",
+          "alt": "拆解报告：LANGSDOM兰士顿ClipBuds R2开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/02/2025021107003913.jpg",
+          "alt": "拆解报告：LANGSDOM兰士顿ClipBuds R2开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/02/2025021107002898.jpg",
+          "alt": "拆解报告：LANGSDOM兰士顿ClipBuds R2开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "充电盒内部电路简洁，座舱底部通过螺丝固定主板，主板下方设置电池。",
+        "卸掉螺丝，取掉主板和电池。",
+        "此次将要拆解的LANGSDOM兰士顿ClipBuds R2开放式耳机，是一款百元价格的产品，外观上拥有着非常轻巧便携的设计。功能配置上，搭载了复合膜喇叭，支持数字声音增强技术，支持定向传音，提供清晰音质；还支持双麦克风通话，支持蓝牙5.4无线连接，可提供约30小时的综合续航。下面就来看看这款产品的详细拆解报告吧~",
+        "侧边的麦克风拾音孔特写。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": {
+        "value": "43.8g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "M兰士顿ClipBuds R2开放式耳机整机重量约为43.8g。\n单只耳"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "5.1g",
+      "weight_earbud_evidence": {
+        "value": "5.1g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "R2开放式耳机整机重量约为43.8g。\n单只耳机重量约为5.1g。\n我爱音"
+      }
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "随机标配的充电线，采用了USB-A to Type-C接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "随机标配的充电线，采用了USB-A to Type-C接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "机身背面设置Type-C充电接口，接口下方设置指示灯。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "机身背面设置Type-C充电接口，接口下方设置指示灯。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C充电母座特写。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充电母座特写。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "充电盒底部标注有产品信息，型号：ClipBuds R2，输入：DC 5V-1A，输出：DC5V-0.1A，容量：380mAh，中国制造。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒底部标注有产品信息，型号：ClipBuds R2，输入：DC 5V-1A，输出：DC5V-0.1A，容量：380mAh，中国制造。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "我爱音频网使用\nCHARGERLAB POWER-Z KM003C\n对LANGSDOM兰士顿ClipBuds R2开放式耳机进行充电测试，输入功率约为1.54W。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "我爱音频网使用\nCHARGERLAB POWER-Z KM003C\n对LANGSDOM兰士顿ClipBuds R2开放式耳机进行充电测试，输入功率约为1.54W。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "充电盒内置锂电池型号：ZYF 402040，标称电压：3.7V，额定容量：380mAh 1.406Wh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒内置锂电池型号：ZYF 402040，标称电压：3.7V，额定容量：380mAh 1.406Wh。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "INJOINIC英集芯IP5513详细资料图。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "INJOINIC英集芯IP5513详细资料图。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "撕开绝缘胶，电芯上丝印产品参数信息，型号：ZYF 451010，标称电压：3.7V，额定容量：40mAh 0.148Wh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "撕开绝缘胶，电芯上丝印产品参数信息，型号：ZYF 451010，标称电压：3.7V，额定容量：40mAh 0.148Wh。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "内部主要配置方面，充电盒内置380mAh锂电池，采用了INJOINIC英集芯IP5513多功能电源管理SoC，为充电盒提供完整的电源解决方案；耳机搭载12mm动圈单元，40mAh软包电池，单耳内置一颗MEMS麦克风，采用了Bluetrum中科蓝讯AB5656C2蓝牙音频SoC，负责无线连接和音频数据处理。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "内部主要配置方面，充电盒内置380mAh锂电池，采用了INJOINIC英集芯IP5513多功能电源管理SoC，为充电盒提供完整的电源解决方案；耳机搭载12mm动圈单元，40mAh软包电池，单耳内置一颗MEMS麦克风，采用了Bluetrum中"
+        },
+        {
+          "param": "电池容量",
+          "value": "380",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "380mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.4",
+      "codecs": [],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [
+        {
+          "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+          "evidence": {
+            "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+          }
+        }
+      ],
+      "ota_support": [],
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "5.4",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.4"
+      }
+    }
+  }
+}

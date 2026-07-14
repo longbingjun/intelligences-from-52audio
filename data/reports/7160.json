@@ -1,0 +1,406 @@
+{
+  "id": "7160",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/7160.html",
+  "title": "OPPO O-Free TWS真无线蓝牙耳机",
+  "brand": "",
+  "model": "OPPO O-Free TWS",
+  "category": "真无线耳机TWS",
+  "published_at": "2018-08-30",
+  "author": "Vallière",
+  "summary": "OPPO O-Free是OPPO推出的首款TWS真无线蓝牙耳机，目前已经完美适配自家的Color OS系统，在 […]",
+  "captured_at": "2026-07-14T02:15:15+00:00",
+  "data_completeness": 0.538,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "OPPO O-Free TWS",
+      "category": "真无线耳机TWS",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "位于左侧的是耳机的泄压孔，用于调节内外气压，右侧的孔是CVC通话降噪的麦克风。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "位于左侧的是耳机的泄压孔，用于调节内外气压，右侧的孔是CVC通话降噪的麦克风。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "位于左侧的是耳机的泄压孔，用于调节内外气压，右侧的孔是CVC通话降噪的麦克风。"
+          }
+        },
+        {
+          "text": "顶部用于CVC通话降噪的麦克风。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "顶部用于CVC通话降噪的麦克风。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "顶部用于CVC通话降噪的麦克风。"
+          }
+        },
+        {
+          "text": "支持第八代CVC通话降噪，双耳主耳机和从耳机智能切换。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "支持第八代CVC通话降噪，双耳主耳机和从耳机智能切换。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "支持第八代CVC通话降噪，双耳主耳机和从耳机智能切换。"
+          }
+        },
+        {
+          "text": "总体上具有低延迟，低功耗，立体声通话的特点。",
+          "tag": "游戏低延迟",
+          "evidence": {
+            "value": "总体上具有低延迟，低功耗，立体声通话的特点。",
+            "confidence": 0.69,
+            "source_type": "text",
+            "source_text": "总体上具有低延迟，低功耗，立体声通话的特点。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通话"
+      ],
+      "positioning_summary": "位于左侧的是耳机的泄压孔，用于调节内外气压，右侧的孔是CVC通话降噪的麦克风。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "充电仓",
+        "天线",
+        "电池"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm",
+          "model": "高通\nQCC3026",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通\nQCC3026",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "高通\nQCC3026"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "我爱音频网对OPPOO-Free进行长度测量，耳机充电盒长度约6cm，耳机长度约3cm。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "接在接地的FPC，推测是天线。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "TI德州仪器 24232H USB 供能锂电池充电器。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "高通\nQCC3026",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通\nQCC3026",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "据我爱音频网拆解，OPPO O-Free采用\nQualcomm\n高通\nQCC3026\nTWS\n真无线立体声蓝牙耳机方案，支持蓝牙V5.0，内置120MHz Kalimba DPS。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [
+        "这颗微动开关的作用说明书没有做详细说明，可能是用于重置的按键。"
+      ],
+      "process_hints": [],
+      "summary_image_urls": [],
+      "summary_text": ""
+    },
+    "structure": {
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
+      "materials": [
+        "塑料",
+        "PC"
+      ],
+      "ip_rating": null,
+      "weight_g": null,
+      "dimensions": [
+        "据我爱音频网拆解，OPPO O-Free采用\nQualcomm\n高通\nQCC3026\nTWS\n真无线立体声蓝牙耳机方案，支持蓝牙V5.0，内置120MHz Kalimba DPS。",
+        "三、我爱音频网拆解总结\n1、采用\nQualcomm\n最新的\nQCC3026\n蓝牙音频芯片，主打低功耗和低延迟，有效提升蓝牙耳机的持续使用时间；\n2、配合OPPO手机使用，配对方便，并且会有弹窗可以直观地看见耳机和充电盒的剩余电量；\n3、采用大动圈液晶塑料振膜，配合专门设计的低音导管结构，可以带来高密度的声音和强劲的低音效果。"
+      ],
+      "internal_structure": [
+        {
+          "value": "接在接地的FPC，推测是天线。",
+          "evidence": {
+            "value": "接在接地的FPC，推测是天线。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "接在接地的FPC，推测是天线。"
+          }
+        },
+        {
+          "value": "TI德州仪器 24232H USB 供能锂电池充电器。",
+          "evidence": {
+            "value": "TI德州仪器 24232H USB 供能锂电池充电器。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "TI德州仪器 24232H USB 供能锂电池充电器。"
+          }
+        },
+        {
+          "value": "我爱音频网在拆解之前就获悉它采用了与众不同的主控芯片，这也是目前市面上能够与苹果AirPods一决高下的耳机产品。",
+          "evidence": {
+            "value": "我爱音频网在拆解之前就获悉它采用了与众不同的主控芯片，这也是目前市面上能够与苹果AirPods一决高下的耳机产品。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "我爱音频网在拆解之前就获悉它采用了与众不同的主控芯片，这也是目前市面上能够与苹果AirPods一决高下的耳机产品。"
+          }
+        },
+        {
+          "value": "我爱音频网马上通过拆解来向大家揭晓。",
+          "evidence": {
+            "value": "我爱音频网马上通过拆解来向大家揭晓。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "我爱音频网马上通过拆解来向大家揭晓。"
+          }
+        },
+        {
+          "value": "二、OPPO O-Free\nTWS\n真无线蓝牙耳机拆解\n开始拆解看看耳机。",
+          "evidence": {
+            "value": "二、OPPO O-Free\nTWS\n真无线蓝牙耳机拆解\n开始拆解看看耳机。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "二、OPPO O-Free\nTWS\n真无线蓝牙耳机拆解\n开始拆解看看耳机。"
+          }
+        },
+        {
+          "value": "这边有一个没见过的结构，拆下来看看。",
+          "evidence": {
+            "value": "这边有一个没见过的结构，拆下来看看。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "这边有一个没见过的结构，拆下来看看。"
+          }
+        },
+        {
+          "value": "这是OPPO专为O-Free设计的低音导管结构。",
+          "evidence": {
+            "value": "这是OPPO专为O-Free设计的低音导管结构。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "这是OPPO专为O-Free设计的低音导管结构。"
+          }
+        },
+        {
+          "value": "耳机内部一览，左右两侧麦克风均有灰白色塑料框架做支撑，位于主板下方的距离传感器部分也有塑料框架作支撑。",
+          "evidence": {
+            "value": "耳机内部一览，左右两侧麦克风均有灰白色塑料框架做支撑，位于主板下方的距离传感器部分也有塑料框架作支撑。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "耳机内部一览，左右两侧麦克风均有灰白色塑料框架做支撑，位于主板下方的距离传感器部分也有塑料框架作支撑。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "耳机充电盒采用金属合页，使用螺丝固定。",
+          "evidence": {
+            "value": "耳机充电盒采用金属合页，使用螺丝固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "耳机充电盒采用金属合页，使用螺丝固定。"
+          }
+        }
+      ],
+      "sealing_method": [],
+      "wear_design": [
+        {
+          "value": "距离传感器特写，可以感知耳机是否佩戴在耳朵上。",
+          "evidence": {
+            "value": "距离传感器特写，可以感知耳机是否佩戴在耳朵上。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "距离传感器特写，可以感知耳机是否佩戴在耳朵上。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/08/OPPO真无线耳机-1.jpg",
+          "alt": "拆解报告：OPPO O-Free TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/08/OPPO真无线耳机-2.jpg",
+          "alt": "拆解报告：OPPO O-Free TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/08/OPPO真无线耳机-3.jpg",
+          "alt": "拆解报告：OPPO O-Free TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/08/OPPO真无线耳机-4.jpg",
+          "alt": "拆解报告：OPPO O-Free TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/08/OPPO真无线耳机-5.jpg",
+          "alt": "拆解报告：OPPO O-Free TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "接在接地的FPC，推测是天线。",
+        "TI德州仪器 24232H USB 供能锂电池充电器。",
+        "我爱音频网在拆解之前就获悉它采用了与众不同的主控芯片，这也是目前市面上能够与苹果AirPods一决高下的耳机产品。",
+        "我爱音频网马上通过拆解来向大家揭晓。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": null
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "USB-C充电接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "USB-C充电接口。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "丝印F0426b GQ27112 93CHNA 单片机，下方是一个16.000MHz的晶振。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "丝印F0426b GQ27112 93CHNA 单片机，下方是一个16.000MHz的晶振。"
+        },
+        {
+          "param": "电池容量",
+          "value": "35",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "35mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": null,
+      "codecs": [
+        {
+          "value": "AAC",
+          "evidence": {
+            "value": "AAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "连接方面，支持SBC、AAC、aptX和aptX HD连接。"
+          }
+        },
+        {
+          "value": "aptX",
+          "evidence": {
+            "value": "aptX",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "连接方面，支持SBC、AAC、aptX和aptX HD连接。"
+          }
+        },
+        {
+          "value": "SBC",
+          "evidence": {
+            "value": "SBC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "连接方面，支持SBC、AAC、aptX和aptX HD连接。"
+          }
+        }
+      ],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [],
+      "ota_support": [],
+      "latency_notes": [
+        {
+          "value": "总体上具有低延迟，低功耗，立体声通话的特点。",
+          "evidence": {
+            "value": "总体上具有低延迟，低功耗，立体声通话的特点。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "总体上具有低延迟，低功耗，立体声通话的特点。"
+          }
+        },
+        {
+          "value": "三、我爱音频网拆解总结\n1、采用\nQualcomm\n最新的\nQCC3026\n蓝牙音频芯片，主打低功耗和低延迟，有效提升蓝牙耳机的持续使用时间；\n2、配合OPPO手机使用，配对方便，并且会有弹窗可以直观地看见耳机和充电盒的剩余电量；\n3、采用大动圈液晶塑料振膜，配合专门设计的低音导管结构，可以带来高密度的声音和强劲的低音效果。",
+          "evidence": {
+            "value": "三、我爱音频网拆解总结\n1、采用\nQualcomm\n最新的\nQCC3026\n蓝牙音频芯片，主打低功耗和低延迟，有效提升蓝牙耳机的持续使用时间；\n2、配合OPPO手机使用，配对方便，并且会有弹窗可以直观地看见耳机和充电盒的剩余电量；\n3、采用大动圈液晶塑料振膜，配合专门设计的低音导管结构，可以带来高密度的声音和强劲的低音效果。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "三、我爱音频网拆解总结\n1、采用\nQualcomm\n最新的\nQCC3026\n蓝牙音频芯片，主打低功耗和低延迟，有效提升蓝牙耳机的持续使用时间；\n2、配合OPPO手机使用，配对方便，并且会有弹窗可以直观地看见耳机和充电盒的剩余电量；\n3、采用大动圈液晶塑料振膜，配合专门设计的低音导管结构，可以带来高密度的声音和强劲的低音效果。"
+          }
+        }
+      ],
+      "bluetooth_evidence": null
+    }
+  }
+}

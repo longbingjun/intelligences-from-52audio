@@ -397,34 +397,6 @@
             "source_type": "text",
             "source_text": "得益于IP5528的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸， 降低BOM成本。"
           }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "Prisemi芯导P14C1S",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "Prisemi芯导P14C1S",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "Prisemi芯导P14C1S过压过流保护IC，输入耐压高达32V，过压保护点为固定6V。"
-          }
-        },
-        {
-          "component": "芯片/模组",
-          "brand": "",
-          "model": "Bluetrum中科蓝讯BT8912F",
-          "qty_hint": "1",
-          "side": "",
-          "role": "主控/蓝牙",
-          "evidence": {
-            "value": "Bluetrum中科蓝讯BT8912F",
-            "confidence": 0.78,
-            "source_type": "text",
-            "source_text": "Bluetrum中科蓝讯BT8912F蓝牙音频SoC，内置带DSP指令的32位高性能RISC-V处理器核心，符合蓝牙V6.0+BR+EDR+BLE规范，支持蓝讯低音增强引擎，支持LDAC音频编解码技术，可通过Hi-Res高清音频认证。"
-          }
         }
       ],
       "supply_hints": [],
@@ -669,9 +641,18 @@
       "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "52.7g",
-        "confidence": 0.75,
+        "confidence": 0.85,
         "source_type": "text",
-        "source_text": "52.7g"
+        "source_text": "seus倍思Bowie MC2开放式耳机整机重量约为52.7g。\n单只耳"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "5.1g",
+      "weight_earbud_evidence": {
+        "value": "5.1g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "C2开放式耳机整机重量约为52.7g。\n单只耳机重量约为5.1g。\n我爱音"
       }
     },
     "hardware": {
@@ -909,56 +890,6 @@
           "model": "",
           "confidence": 0.85,
           "source_ref": "600mAh"
-        },
-        {
-          "param": "电池",
-          "part": "电池",
-          "brand": "",
-          "model": "",
-          "value": "40",
-          "unit": "mAh",
-          "source_ref": "ocr",
-          "confidence": 0.85
-        },
-        {
-          "param": "电池",
-          "part": "电池",
-          "brand": "",
-          "model": "",
-          "value": "600",
-          "unit": "mAh",
-          "source_ref": "ocr",
-          "confidence": 0.85
-        },
-        {
-          "param": "防护等级",
-          "part": "防护等级",
-          "brand": "",
-          "model": "",
-          "value": "IP54",
-          "unit": "",
-          "source_ref": "ocr",
-          "confidence": 0.9
-        },
-        {
-          "param": "充电接口",
-          "part": "充电接口",
-          "brand": "",
-          "model": "",
-          "value": "Type-C",
-          "unit": "",
-          "source_ref": "ocr",
-          "confidence": 0.85
-        },
-        {
-          "param": "蓝牙",
-          "part": "蓝牙",
-          "brand": "",
-          "model": "",
-          "value": "5.4",
-          "unit": "",
-          "source_ref": "ocr",
-          "confidence": 0.85
         }
       ]
     },
@@ -1086,6 +1017,6 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.856,
+  "data_completeness": 0.858,
   "source_layer": "technical"
 }

@@ -1,0 +1,519 @@
+{
+  "id": "15995",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/15995.html",
+  "title": "Honor荣耀FlyPods青春版 TWS蓝牙耳机",
+  "brand": "荣耀",
+  "model": "HonorFlyPods青春版 TWS蓝牙",
+  "category": "真无线耳机TWS",
+  "published_at": "2019-02-27",
+  "author": "Vallière",
+  "summary": "目前国内诸如小米、魅族、OPPO等品牌都相继推出了自家的TWS耳机，作为国内几个大厂之一的荣耀自然也不能缺席， […]",
+  "captured_at": "2026-07-14T02:14:50+00:00",
+  "data_completeness": 0.662,
+  "views": {
+    "market": {
+      "brand": "荣耀",
+      "model": "HonorFlyPods青春版 TWS蓝牙",
+      "category": "真无线耳机TWS",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "通话麦克风孔，内置防尘网。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "通话麦克风孔，内置防尘网。",
+            "confidence": 0.61,
+            "source_type": "text",
+            "source_text": "通话麦克风孔，内置防尘网。"
+          }
+        },
+        {
+          "text": "降噪麦克风孔。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "降噪麦克风孔。",
+            "confidence": 0.6,
+            "source_type": "text",
+            "source_text": "降噪麦克风孔。"
+          }
+        },
+        {
+          "text": "HOLTEK合泰 HT50F32002 32位MCU，内置32K flash，支持宽电压、支持IAP在线升级和串口打印。",
+          "tag": "其他",
+          "evidence": {
+            "value": "HOLTEK合泰 HT50F32002 32位MCU，内置32K flash，支持宽电压、支持IAP在线升级和串口打印。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "HOLTEK合泰 HT50F32002 32位MCU，内置32K flash，支持宽电压、支持IAP在线升级和串口打印。"
+          }
+        },
+        {
+          "text": "耳机内的主板正面特写，用排线连接着通话麦克风，另外主板边缘上也安装了一个降噪麦克风。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "耳机内的主板正面特写，用排线连接着通话麦克风，另外主板边缘上也安装了一个降噪麦克风。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "耳机内的主板正面特写，用排线连接着通话麦克风，另外主板边缘上也安装了一个降噪麦克风。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通话"
+      ],
+      "positioning_summary": "通话麦克风孔，内置防尘网。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "充电仓",
+        "电池",
+        "主板/PCBA",
+        "麦克风",
+        "天线"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "BES",
+          "model": "恒玄 BES2000IZ",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "恒玄 BES2000IZ",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "恒玄 BES2000IZ"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "荣耀的HONOR英文logo为充电盒上方，整体简约大气。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "电池负极触点。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "传感器、耳机单元、电池副板连接主板的插座。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "降噪麦克风孔。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "蓝牙天线特写。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒正面带有一颗LED指示灯，打开充电盒，指示灯就会亮起，拿出耳机就可以与手机自动完成配对。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机充电触点，旁边乳白色触发开关当耳机放入充电位时充电盒开盖状态为配对模式、关盖为耳机充电。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机充电盒主板边缘集成了微动按键和Micro USB充电接口。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机外壳同样采用钢琴烤漆材质，与充电盒配色非常统一，给人一种干净整洁的印象，但是这种材质同样也比较容易沾染指纹。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "恒玄 BES2000IZ",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "恒玄 BES2000IZ",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "BES恒玄 BES2000IZ。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "BES2000IZ",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES2000IZ",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "BES恒玄科技BES2000IZ是一款新一代全集成自适应双模蓝牙耳机解决方案，具有全集成、高性能、低功耗等特点，支持经典蓝牙V2.1和BLE 4.2双模。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [],
+      "process_hints": [
+        {
+          "value": "电池采用三线焊接在主板上。",
+          "evidence": {
+            "value": "电池采用三线焊接在主板上。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "电池采用三线焊接在主板上。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": ""
+    },
+    "structure": {
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
+      "materials": [
+        "硅胶",
+        "塑料"
+      ],
+      "ip_rating": null,
+      "weight_g": null,
+      "dimensions": [],
+      "internal_structure": [
+        {
+          "value": "电池负极触点。",
+          "evidence": {
+            "value": "电池负极触点。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "电池负极触点。"
+          }
+        },
+        {
+          "value": "电池正极触点。",
+          "evidence": {
+            "value": "电池正极触点。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "电池正极触点。"
+          }
+        },
+        {
+          "value": "传感器、耳机单元、电池副板连接主板的插座。",
+          "evidence": {
+            "value": "传感器、耳机单元、电池副板连接主板的插座。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "传感器、耳机单元、电池副板连接主板的插座。"
+          }
+        },
+        {
+          "value": "耳机内的主板正面特写，用排线连接着通话麦克风，另外主板边缘上也安装了一个降噪麦克风。",
+          "evidence": {
+            "value": "耳机内的主板正面特写，用排线连接着通话麦克风，另外主板边缘上也安装了一个降噪麦克风。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机内的主板正面特写，用排线连接着通话麦克风，另外主板边缘上也安装了一个降噪麦克风。"
+          }
+        },
+        {
+          "value": "降噪麦克风孔。",
+          "evidence": {
+            "value": "降噪麦克风孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "降噪麦克风孔。"
+          }
+        },
+        {
+          "value": "通话麦克风孔，内置防尘网。",
+          "evidence": {
+            "value": "通话麦克风孔，内置防尘网。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "通话麦克风孔，内置防尘网。"
+          }
+        },
+        {
+          "value": "蓝牙天线特写。",
+          "evidence": {
+            "value": "蓝牙天线特写。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "蓝牙天线特写。"
+          }
+        },
+        {
+          "value": "耳机充电触点，旁边乳白色触发开关当耳机放入充电位时充电盒开盖状态为配对模式、关盖为耳机充电。",
+          "evidence": {
+            "value": "耳机充电触点，旁边乳白色触发开关当耳机放入充电位时充电盒开盖状态为配对模式、关盖为耳机充电。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机充电触点，旁边乳白色触发开关当耳机放入充电位时充电盒开盖状态为配对模式、关盖为耳机充电。"
+          }
+        }
+      ],
+      "fastener_type": [],
+      "sealing_method": [
+        {
+          "value": "通话麦克风孔，内置防尘网。",
+          "evidence": {
+            "value": "通话麦克风孔，内置防尘网。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "通话麦克风孔，内置防尘网。"
+          }
+        }
+      ],
+      "wear_design": [
+        {
+          "value": "在外观设计上，荣耀FlyPods青春版与标准版在设计语言上存在明显不同，据说这次青春版的设计灵感来自于高尔夫球杆，充电盒采用金属加钢琴烤漆工艺处理，摸上去手感非常顺滑，能让人感受其温润舒适的触感。",
+          "evidence": {
+            "value": "在外观设计上，荣耀FlyPods青春版与标准版在设计语言上存在明显不同，据说这次青春版的设计灵感来自于高尔夫球杆，充电盒采用金属加钢琴烤漆工艺处理，摸上去手感非常顺滑，能让人感受其温润舒适的触感。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "在外观设计上，荣耀FlyPods青春版与标准版在设计语言上存在明显不同，据说这次青春版的设计灵感来自于高尔夫球杆，充电盒采用金属加钢琴烤漆工艺处理，摸上去手感非常顺滑，能让人感受其温润舒适的触感。"
+          }
+        },
+        {
+          "value": "并且荣耀还专门设计了硅胶防滑耳塞，可以贴合不同人的耳道，适合更多人群使用。",
+          "evidence": {
+            "value": "并且荣耀还专门设计了硅胶防滑耳塞，可以贴合不同人的耳道，适合更多人群使用。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "并且荣耀还专门设计了硅胶防滑耳塞，可以贴合不同人的耳道，适合更多人群使用。"
+          }
+        },
+        {
+          "value": "三、我爱音频网拆解总结：\n1、耳机采用圆润纤长的充电盒，不会显得过于臃肿，光滑的表面拿在手上特别舒适，耳机机身也采用了光滑的塑料，以及苗条的高尔夫杆造型；\n2、耳机内置加速度传感器来避免使用实体按键，外观成一个整体，可以更好的防水防尘；\n3、耳机搭载了BES恒玄的BES2000IZ单芯片蓝牙音频SoC，有全集成、高性能、低功耗等特点，以更小的体积更低的功耗可以达到更好的音质和连接稳定性；\n4、耳机充电盒也内置芯片用于配对耳机，在使用上更方便。",
+          "evidence": {
+            "value": "三、我爱音频网拆解总结：\n1、耳机采用圆润纤长的充电盒，不会显得过于臃肿，光滑的表面拿在手上特别舒适，耳机机身也采用了光滑的塑料，以及苗条的高尔夫杆造型；\n2、耳机内置加速度传感器来避免使用实体按键，外观成一个整体，可以更好的防水防尘；\n3、耳机搭载了BES恒玄的BES2000IZ单芯片蓝牙音频SoC，有全集成、高性能、低功耗等特点，以更小的体积更低的功耗可以达到更好的音质和连接稳定性；\n4、耳机充电盒也内置芯片用于配对耳机，在使用上更方便。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "三、我爱音频网拆解总结：\n1、耳机采用圆润纤长的充电盒，不会显得过于臃肿，光滑的表面拿在手上特别舒适，耳机机身也采用了光滑的塑料，以及苗条的高尔夫杆造型；\n2、耳机内置加速度传感器来避免使用实体按键，外观成一个整体，可以更好的防水防尘；\n3、耳机搭载了BES恒玄的BES2000IZ单芯片蓝牙音频SoC，有全集成、高性能、低功耗等特点，以更小的体积更低的功耗可以达到更好的音质和连接稳定性；\n4、耳机充电盒也内置芯片用于配对耳机，在使用上更方便。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "http://note.youdao.com/yws/public/resource/8430f1ac011ca37a09b3cbc9bb359818/xmlnote/C3D3DB7BA9184F1CA3A730165308BC2B/1484",
+          "alt": "拆解报告：Honor荣耀FlyPods青春版 TWS蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "http://note.youdao.com/yws/public/resource/8430f1ac011ca37a09b3cbc9bb359818/xmlnote/5F1AB031D4E0436BBA7ECE57CF5BFEAF/1495",
+          "alt": "拆解报告：Honor荣耀FlyPods青春版 TWS蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "http://note.youdao.com/yws/public/resource/8430f1ac011ca37a09b3cbc9bb359818/xmlnote/51B5F608561040378ECF1AEAAFC304D4/1481",
+          "alt": "拆解报告：Honor荣耀FlyPods青春版 TWS蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "http://note.youdao.com/yws/public/resource/8430f1ac011ca37a09b3cbc9bb359818/xmlnote/F19C4E1E5BBD4477963A039A3D5667FA/1497",
+          "alt": "拆解报告：Honor荣耀FlyPods青春版 TWS蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "http://note.youdao.com/yws/public/resource/8430f1ac011ca37a09b3cbc9bb359818/xmlnote/14439E86D3EF457D87F8810A20FCB36A/1500",
+          "alt": "拆解报告：Honor荣耀FlyPods青春版 TWS蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "电池负极触点。",
+        "电池正极触点。",
+        "传感器、耳机单元、电池副板连接主板的插座。",
+        "耳机内的主板正面特写，用排线连接着通话麦克风，另外主板边缘上也安装了一个降噪麦克风。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": null
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "背面是Micro-USB充电接口和功能键。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "背面是Micro-USB充电接口和功能键。"
+        },
+        {
+          "param": "充电接口",
+          "value": "耳机充电盒主板边缘集成了微动按键和Micro USB充电接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "耳机充电盒主板边缘集成了微动按键和Micro USB充电接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Micro USB",
+          "unit": "",
+          "brand": "",
+          "model": "Micro USB",
+          "confidence": 0.8,
+          "source_ref": "Micro USB"
+        },
+        {
+          "param": "标记/认证",
+          "value": "包装背面是5个功能卖点介绍：双击操控音乐、智能语音助手、12小时续航、通话降噪、IP54等级的防护。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "包装背面是5个功能卖点介绍：双击操控音乐、智能语音助手、12小时续航、通话降噪、IP54等级的防护。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "底部是产品信息，型号：AM-H1C，输入：5.2V 1.1A，输出：5V 0.11A。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "底部是产品信息，型号：AM-H1C，输入：5.2V 1.1A，输出：5V 0.11A。"
+        },
+        {
+          "param": "电池容量",
+          "value": "55",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "55mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": null,
+      "codecs": [],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [],
+      "ota_support": [
+        {
+          "value": "HOLTEK合泰 HT50F32002 32位MCU，内置32K flash，支持宽电压、支持IAP在线升级和串口打印。",
+          "evidence": {
+            "value": "HOLTEK合泰 HT50F32002 32位MCU，内置32K flash，支持宽电压、支持IAP在线升级和串口打印。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "HOLTEK合泰 HT50F32002 32位MCU，内置32K flash，支持宽电压、支持IAP在线升级和串口打印。"
+          }
+        }
+      ],
+      "latency_notes": [],
+      "bluetooth_evidence": null
+    }
+  }
+}

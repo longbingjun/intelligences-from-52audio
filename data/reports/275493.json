@@ -583,9 +583,18 @@
       "ip_rating_evidence": null,
       "weight_evidence": {
         "value": "67.7g",
-        "confidence": 0.75,
+        "confidence": 0.85,
         "source_type": "text",
-        "source_text": "67.7g"
+        "source_text": "Hello Kitty带屏真无线降噪耳机整机重量约为67.7g。\n单只耳"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "3.8g",
+      "weight_earbud_evidence": {
+        "value": "3.8g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "真无线降噪耳机整机重量约为67.7g。\n单只耳机重量约为3.8g，佩戴轻盈"
       }
     },
     "hardware": {
@@ -707,6 +716,6 @@
       }
     }
   },
-  "data_completeness": 0.712,
+  "data_completeness": 0.722,
   "source_layer": "technical"
 }

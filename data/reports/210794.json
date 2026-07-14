@@ -1,0 +1,691 @@
+{
+  "id": "210794",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/210794.html",
+  "title": "Coca-Cola可口可乐T12甜甜圈真无线耳机",
+  "brand": "",
+  "model": "Coca-Cola可口可乐T12甜甜圈",
+  "category": "真无线耳机TWS",
+  "published_at": "2024-09-04",
+  "author": "Wen5",
+  "summary": "Coca-Cola可口可乐作为一家全球知名的饮料生产商，除了饮料业务，还涉足了食品、餐饮服务和健康产品等领域， […]",
+  "captured_at": "2026-07-14T02:05:02+00:00",
+  "data_completeness": 0.684,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "Coca-Cola可口可乐T12甜甜圈",
+      "category": "真无线耳机TWS",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+          "tag": "其他",
+          "evidence": {
+            "value": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+            "confidence": 0.57,
+            "source_type": "text",
+            "source_text": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。"
+          }
+        },
+        {
+          "text": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通话"
+      ],
+      "positioning_summary": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "主板/PCBA",
+        "充电仓",
+        "电池",
+        "麦克风",
+        "喇叭单元",
+        "天线"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5513",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "双电池总容量300mAh，采用了INJOINIC英集芯IP5513电源管理SoC负责充放电管理。"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5513",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "双电池总容量300mAh，采用了INJOINIC英集芯IP5513电源管理SoC负责充放电管理。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3V/00mAh",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3V/00mAh",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "双电池总容量300mAh，采用了INJOINIC英集芯IP5513电源管理SoC负责充放电管理。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部采用了9mm动圈喇叭，一颗MEMS麦克风，35mAh软包电池，以及Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "座舱上固定的主板单元结构一览，与排线通过连接器连接。"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒背面采用渐变背景，介绍了产品参数信息。产品型号：Coke T12，蓝牙版本：5.3，喇叭尺寸：9mm，音乐时间：约6H（50%音量播放），通话时间：约3.5H，耳机电池容量：35mAh，充电仓电池容量：300mAh，额定输入：5V-230mA，出品方：广州辰风科技有限公司，制造商：辰风（东莞）声学科技有限公司。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒背面采用渐变背景，介绍了产品参数信息。产品型号：Coke T12，蓝牙版本：5.3，喇叭尺寸：9mm，音乐时间：约6H（50%音量播放），通话时间：约3.5H，耳机电池容量：35mAh，充电仓电池容量：300mAh，额定输入：5V-230mA，出品方：广州辰风科技有限公司，制造商：辰风（东莞）声学科技有限公司。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机背部为触控区域，中间设置有指示灯和麦克风开孔，雕刻“X、O”符号区分左右。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "在功能配置上，Coca-Cola可口可乐T12甜甜圈真无线耳机搭载9mm符合振膜动圈单元，支持数字声音增强技术，提供低音澎湃、高音通透的音质体验；支持蓝牙5.3，提供更快更稳定的连接；支持智能通话降噪，带来更清晰的通话效果。续航方面，支持单次约6小时，综合约20小时的音乐播放。下面就来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "盖板内侧设置有蓝牙天线和触摸检测传感器，通过触点连接主板。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒外壳上设计有“Coca-Cola”品牌LOGO。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机背部为触控区域，中间设置有指示灯和麦克风开孔，雕刻“X、O”符号区分左右。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "机身上充电触点特写。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机背部为触控区域，中间设置有指示灯和麦克风开孔，雕刻“X、O”符号区分左右。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "IP5513",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "IP5513",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [],
+      "process_hints": [
+        {
+          "value": "Type-C充电母座特写，沉板焊接。",
+          "evidence": {
+            "value": "Type-C充电母座特写，沉板焊接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "Type-C充电母座特写，沉板焊接。"
+          }
+        },
+        {
+          "value": "排线上设置的苏州赛芯电子科技股份XB5332A锂电池一体化保护芯片，负责电池的过充电、过放电、过电流和负载短路等保护。",
+          "evidence": {
+            "value": "排线上设置的苏州赛芯电子科技股份XB5332A锂电池一体化保护芯片，负责电池的过充电、过放电、过电流和负载短路等保护。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "排线上设置的苏州赛芯电子科技股份XB5332A锂电池一体化保护芯片，负责电池的过充电、过放电、过电流和负载短路等保护。"
+          }
+        },
+        {
+          "value": "取出主板，背面与导线焊接。",
+          "evidence": {
+            "value": "取出主板，背面与导线焊接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "取出主板，背面与导线焊接。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": "三、我爱音频网总结 Coca-Cola可口可乐T12真无线耳机外观设计是其一大特点，“甜甜圈”式的圆环充电盒，采用光滑圆润的烤漆外壳和透明内壳，搭配可口可乐LOGO和Slogan设计，观感犹如一件潮流单品，非常炫酷；豆状的入耳式耳机重量仅3.6g，搭配三种尺寸的透明硅胶耳塞，佩戴轻盈舒适。 内部配置方面，耳机内部采用了9mm动圈喇叭，一颗MEMS麦克风，35mAh软包电池，以及Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。充电盒由于独特的设计，因此搭载了双电池单元，以更好地利用内部空间，提供更持久的续航。双电池总容量300mAh，采用了INJOINIC英集芯IP5513电源管理SoC负责充放电管理。"
+    },
+    "structure": {
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
+      "materials": [
+        "硅胶",
+        "PC"
+      ],
+      "ip_rating": null,
+      "weight_g": "33.5g",
+      "dimensions": [
+        "在功能配置上，Coca-Cola可口可乐T12甜甜圈真无线耳机搭载9mm符合振膜动圈单元，支持数字声音增强技术，提供低音澎湃、高音通透的音质体验；支持蓝牙5.3，提供更快更稳定的连接；支持智能通话降噪，带来更清晰的通话效果。",
+        "产品型号：Coke T12，蓝牙版本：5.3，喇叭尺寸：9mm，音乐时间：约6H（50%音量播放），通话时间：约3.5H，耳机电池容量：35mAh，充电仓电池容量：300mAh，额定输入：5V-230mA，出品方：广州辰风科技有限公司，制造商：辰风（东莞）声学科技有限公司。",
+        "随机标配的两副不同尺寸透明硅胶耳塞，耳机上预装有一副，总共三种尺寸。"
+      ],
+      "internal_structure": [
+        {
+          "value": "座舱上固定的主板单元结构一览，与排线通过连接器连接。",
+          "evidence": {
+            "value": "座舱上固定的主板单元结构一览，与排线通过连接器连接。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "座舱上固定的主板单元结构一览，与排线通过连接器连接。"
+          }
+        },
+        {
+          "value": "取掉座舱上的主板单元，下方设置有两块磁铁，用于吸附固定耳机。",
+          "evidence": {
+            "value": "取掉座舱上的主板单元，下方设置有两块磁铁，用于吸附固定耳机。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "取掉座舱上的主板单元，下方设置有两块磁铁，用于吸附固定耳机。"
+          }
+        },
+        {
+          "value": "座舱另外一侧固定的双电池单元结构一览。",
+          "evidence": {
+            "value": "座舱另外一侧固定的双电池单元结构一览。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "座舱另外一侧固定的双电池单元结构一览。"
+          }
+        },
+        {
+          "value": "耳机背部为触控区域，中间设置有指示灯和麦克风开孔，雕刻“X、O”符号区分左右。",
+          "evidence": {
+            "value": "耳机背部为触控区域，中间设置有指示灯和麦克风开孔，雕刻“X、O”符号区分左右。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机背部为触控区域，中间设置有指示灯和麦克风开孔，雕刻“X、O”符号区分左右。"
+          }
+        },
+        {
+          "value": "腔体内部结构一览，主板通过热熔柱固定，中间麦克风和指示灯通过橡胶罩密封。",
+          "evidence": {
+            "value": "腔体内部结构一览，主板通过热熔柱固定，中间麦克风和指示灯通过橡胶罩密封。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "腔体内部结构一览，主板通过热熔柱固定，中间麦克风和指示灯通过橡胶罩密封。"
+          }
+        },
+        {
+          "value": "在功能配置上，Coca-Cola可口可乐T12甜甜圈真无线耳机搭载9mm符合振膜动圈单元，支持数字声音增强技术，提供低音澎湃、高音通透的音质体验；支持蓝牙5.3，提供更快更稳定的连接；支持智能通话降噪，带来更清晰的通话效果。续航方面，支持单次约6小时，综合约20小时的音乐播放。下面就来看看这款产品的详细拆解报告吧~",
+          "evidence": {
+            "value": "在功能配置上，Coca-Cola可口可乐T12甜甜圈真无线耳机搭载9mm符合振膜动圈单元，支持数字声音增强技术，提供低音澎湃、高音通透的音质体验；支持蓝牙5.3，提供更快更稳定的连接；支持智能通话降噪，带来更清晰的通话效果。续航方面，支持单次约6小时，综合约20小时的音乐播放。下面就来看看这款产品的详细拆解报告吧~",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "在功能配置上，Coca-Cola可口可乐T12甜甜圈真无线耳机搭载9mm符合振膜动圈单元，支持数字声音增强技术，提供低音澎湃、高音通透的音质体验；支持蓝牙5.3，提供更快更稳定的连接；支持智能通话降噪，带来更清晰的通话效果。续航方面，支持单次约6小时，综合约20小时的音乐播放。下面就来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "value": "耳机扬声器正面特写，振膜通过金属盖板防护。",
+          "evidence": {
+            "value": "耳机扬声器正面特写，振膜通过金属盖板防护。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机扬声器正面特写，振膜通过金属盖板防护。"
+          }
+        },
+        {
+          "value": "盖板内侧设置有蓝牙天线和触摸检测传感器，通过触点连接主板。",
+          "evidence": {
+            "value": "盖板内侧设置有蓝牙天线和触摸检测传感器，通过触点连接主板。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "盖板内侧设置有蓝牙天线和触摸检测传感器，通过触点连接主板。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "腔体内部结构一览，主板通过热熔柱固定，中间麦克风和指示灯通过橡胶罩密封。",
+          "evidence": {
+            "value": "腔体内部结构一览，主板通过热熔柱固定，中间麦克风和指示灯通过橡胶罩密封。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "腔体内部结构一览，主板通过热熔柱固定，中间麦克风和指示灯通过橡胶罩密封。"
+          }
+        }
+      ],
+      "sealing_method": [],
+      "wear_design": [
+        {
+          "value": "配件盒内部防止充电线和耳塞。",
+          "evidence": {
+            "value": "配件盒内部防止充电线和耳塞。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "配件盒内部防止充电线和耳塞。"
+          }
+        },
+        {
+          "value": "随机标配的两副不同尺寸透明硅胶耳塞，耳机上预装有一副，总共三种尺寸。",
+          "evidence": {
+            "value": "随机标配的两副不同尺寸透明硅胶耳塞，耳机上预装有一副，总共三种尺寸。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "随机标配的两副不同尺寸透明硅胶耳塞，耳机上预装有一副，总共三种尺寸。"
+          }
+        },
+        {
+          "value": "Coca-Cola可口可乐T12耳机采用了豆状的入耳式设计，白色烤漆质感，光滑圆润，佩戴舒适亲肤。",
+          "evidence": {
+            "value": "Coca-Cola可口可乐T12耳机采用了豆状的入耳式设计，白色烤漆质感，光滑圆润，佩戴舒适亲肤。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "Coca-Cola可口可乐T12耳机采用了豆状的入耳式设计，白色烤漆质感，光滑圆润，佩戴舒适亲肤。"
+          }
+        },
+        {
+          "value": "取掉耳塞，耳机出音嘴特写，丝网防护，防止异物进入音腔。",
+          "evidence": {
+            "value": "取掉耳塞，耳机出音嘴特写，丝网防护，防止异物进入音腔。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "取掉耳塞，耳机出音嘴特写，丝网防护，防止异物进入音腔。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/09/2024090401423452.jpeg",
+          "alt": "拆解报告：Coca-Cola可口可乐T12甜甜圈真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/09/2024090401422931.jpeg",
+          "alt": "拆解报告：Coca-Cola可口可乐T12甜甜圈真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/09/2024090401423429.jpeg",
+          "alt": "拆解报告：Coca-Cola可口可乐T12甜甜圈真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/09/2024090401424237.jpeg",
+          "alt": "拆解报告：Coca-Cola可口可乐T12甜甜圈真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2024/09/2024090401423993.jpeg",
+          "alt": "拆解报告：Coca-Cola可口可乐T12甜甜圈真无线耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "座舱上固定的主板单元结构一览，与排线通过连接器连接。",
+        "取掉座舱上的主板单元，下方设置有两块磁铁，用于吸附固定耳机。",
+        "座舱另外一侧固定的双电池单元结构一览。",
+        "耳机背部为触控区域，中间设置有指示灯和麦克风开孔，雕刻“X、O”符号区分左右。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": {
+        "value": "33.5g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "-Cola可口可乐T12甜甜圈真无线耳机整机重量约为33.5g，非常轻巧"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "3.6g",
+      "weight_earbud_evidence": {
+        "value": "3.6g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "整机重量约为33.5g，非常轻巧便携。\n单只耳机重量仅为3.6g，佩戴舒适"
+      }
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "随机标配的充电线，采用了USB-A to Type-C接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "随机标配的充电线，采用了USB-A to Type-C接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "另外一侧设置Type-C充电接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "另外一侧设置Type-C充电接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C充电母座特写，沉板焊接。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充电母座特写，沉板焊接。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "产品型号：Coke T12，蓝牙版本：5.3，喇叭尺寸：9mm，音乐时间：约6H（50%音量播放），通话时间：约3.5H，耳机电池容量：35mAh，充电仓电池容量：300mAh，额定输入：5V-230mA，出品方：广州辰风科技有限公司，制造商：辰风（东莞）声学科技有限公司。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "产品型号：Coke T12，蓝牙版本：5.3，喇叭尺寸：9mm，音乐时间：约6H（50%音量播放），通话时间：约3.5H，耳机电池容量：35mAh，充电仓电池容量：300mAh，额定输入：5V-230mA，出品方：广州辰风科技有限公司，制造"
+        },
+        {
+          "param": "标记/认证",
+          "value": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "INJOINIC英集芯IP5513详细资料图。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "INJOINIC英集芯IP5513详细资料图。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "连接排线的ZIF连接器特写，来自亚奇科技（OCN），型号：OK-F501-06325。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "连接排线的ZIF连接器特写，来自亚奇科技（OCN），型号：OK-F501-06325。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "单颗电池参数，型号：ZN 601520，标称电压：3.7V，额定容量：150mAh 0.555Wh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "单颗电池参数，型号：ZN 601520，标称电压：3.7V，额定容量：150mAh 0.555Wh。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "耳机内置锂电池型号：JZX 451012，标称电压：3.7V，额定容量：35mAh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "耳机内置锂电池型号：JZX 451012，标称电压：3.7V，额定容量：35mAh。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "双电池总容量300mAh，采用了INJOINIC英集芯IP5513电源管理SoC负责充放电管理。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "双电池总容量300mAh，采用了INJOINIC英集芯IP5513电源管理SoC负责充放电管理。"
+        },
+        {
+          "param": "电池容量",
+          "value": "35",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "35mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.3",
+      "codecs": [],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [
+        {
+          "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+          "evidence": {
+            "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+          }
+        }
+      ],
+      "ota_support": [],
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "5.3",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.3"
+      }
+    }
+  }
+}

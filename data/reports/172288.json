@@ -1,0 +1,678 @@
+{
+  "id": "172288",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/172288.html",
+  "title": "Halfsun影巨人夹耳式耳机",
+  "brand": "",
+  "model": "Halfsun影巨人夹耳式",
+  "category": "真无线耳机TWS",
+  "published_at": "2023-09-01",
+  "author": "Wen5",
+  "summary": "Halfsun影巨人是一个专注于影音类时尚数码领域的品牌，旗下产品包括了各种类型的耳机、音响、记录仪、相框等。 […]",
+  "captured_at": "2026-07-14T02:06:42+00:00",
+  "data_completeness": 0.688,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "Halfsun影巨人夹耳式",
+      "category": "真无线耳机TWS",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "耳机搭载了13mm大动圈单元，单耳内置一颗MEMS麦克风拾音。",
+          "tag": "其他",
+          "evidence": {
+            "value": "耳机搭载了13mm大动圈单元，单耳内置一颗MEMS麦克风拾音。",
+            "confidence": 0.62,
+            "source_type": "text",
+            "source_text": "耳机搭载了13mm大动圈单元，单耳内置一颗MEMS麦克风拾音。"
+          }
+        },
+        {
+          "text": "可灵 活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+          "tag": "其他",
+          "evidence": {
+            "value": "可灵 活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+            "confidence": 0.57,
+            "source_type": "text",
+            "source_text": "可灵 活定制耳机充满判饱电流，充满电流检测精度高达1mA。"
+          }
+        },
+        {
+          "text": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。"
+          }
+        }
+      ],
+      "scenarios": [
+        "运动",
+        "通话"
+      ],
+      "positioning_summary": "耳机搭载了13mm大动圈单元，单耳内置一颗MEMS麦克风拾音。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "充电仓",
+        "电池",
+        "主板/PCBA",
+        "麦克风",
+        "喇叭单元"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5513",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内置250mAh锂电池，采用了INJOINIC英集芯IP5513集成MCU的TWS耳机充电仓管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，为充电盒提供完整的电源解决方案。"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "INJOINIC英集芯IP5513",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内置250mAh锂电池，采用了INJOINIC英集芯IP5513集成MCU的TWS耳机充电仓管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，为充电盒提供完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "2V/50mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "2V/50mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "内置250mAh锂电池，采用了INJOINIC英集芯IP5513集成MCU的TWS耳机充电仓管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，为充电盒提供完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "动圈单元",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "动圈单元",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机搭载了13mm大动圈单元，单耳内置一颗MEMS麦克风拾音。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机搭载了13mm大动圈单元，单耳内置一颗MEMS麦克风拾音。"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "影巨人夹耳式耳机充电盒采用了透明盒盖设计，胭脂粉配色，哑光质感。机身正面设置有数显屏和“Halfsun”品牌LOGO。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒主板另外一侧电路一览，未设置有元器件，与电池导线焊接。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒主板一侧电路一览。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "Halfsun影巨人夹耳式耳机在功能配置上，支持蓝牙5.3，提供稳定连接；内置麦克风，提供清晰语音通话；续航方面，支持单次约4小时的音乐播放，充电时间约1小时。下面就来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "扬声器正面特写，振膜通过金属盖板防护。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "机身底部外观一览，内侧腔体设置有出音孔，外侧腔体设置有充电触点。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "外侧腔体背部功能按键特写，用于各项功能控制。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "拆掉充电盒盖和外壳，取出座舱结构。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "LED指示灯特写，用于反馈蓝牙配对状态。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "INJOINIC英集芯IP5513",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "IP5513",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "IP5513",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [],
+      "process_hints": [
+        {
+          "value": "充电盒主板另外一侧电路一览，未设置有元器件，与电池导线焊接。",
+          "evidence": {
+            "value": "充电盒主板另外一侧电路一览，未设置有元器件，与电池导线焊接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "充电盒主板另外一侧电路一览，未设置有元器件，与电池导线焊接。"
+          }
+        },
+        {
+          "value": "主板单元结构一览，通过定位柱固定，电池和扬声器导线与主板焊接。",
+          "evidence": {
+            "value": "主板单元结构一览，通过定位柱固定，电池和扬声器导线与主板焊接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "主板单元结构一览，通过定位柱固定，电池和扬声器导线与主板焊接。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": "三、我爱音频网总结 Halfsun影巨人夹耳式耳机在外观方面，充电盒体积轻巧，采用透明盒盖设计，搭配胭脂粉配色，观感清新时尚。夹耳式耳机采用了弹性悬臂，外层硅胶材质包裹，佩戴舒适亲肤；开放式聆听，解放了耳道，保障了长久的舒适性，同时能够提升使用耳机的安全性。 内部主要配置方面，充电盒搭载了数字显示屏，用于为用户更直观的反馈剩余电量信息；内置250mAh锂电池，采用了INJOINIC英集芯IP5513集成MCU的TWS耳机充电仓管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，为充电盒提供完整的电源解决方案。耳机搭载了13mm大动圈单元，单耳内置一颗MEMS麦克风拾音。"
+    },
+    "structure": {
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
+      "materials": [
+        "硅胶"
+      ],
+      "ip_rating": null,
+      "weight_g": "35.5g",
+      "dimensions": [
+        "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+        "经我爱音频网实测，扬声器尺寸约为13mm。",
+        "耳机搭载了13mm大动圈单元，单耳内置一颗MEMS麦克风拾音。"
+      ],
+      "internal_structure": [
+        {
+          "value": "充电盒主板另外一侧电路一览，未设置有元器件，与电池导线焊接。",
+          "evidence": {
+            "value": "充电盒主板另外一侧电路一览，未设置有元器件，与电池导线焊接。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "充电盒主板另外一侧电路一览，未设置有元器件，与电池导线焊接。"
+          }
+        },
+        {
+          "value": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+          "evidence": {
+            "value": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+          }
+        },
+        {
+          "value": "充电盒主板一侧电路一览。",
+          "evidence": {
+            "value": "充电盒主板一侧电路一览。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "充电盒主板一侧电路一览。"
+          }
+        },
+        {
+          "value": "Halfsun影巨人夹耳式耳机在功能配置上，支持蓝牙5.3，提供稳定连接；内置麦克风，提供清晰语音通话；续航方面，支持单次约4小时的音乐播放，充电时间约1小时。下面就来看看这款产品的详细拆解报告吧~",
+          "evidence": {
+            "value": "Halfsun影巨人夹耳式耳机在功能配置上，支持蓝牙5.3，提供稳定连接；内置麦克风，提供清晰语音通话；续航方面，支持单次约4小时的音乐播放，充电时间约1小时。下面就来看看这款产品的详细拆解报告吧~",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "Halfsun影巨人夹耳式耳机在功能配置上，支持蓝牙5.3，提供稳定连接；内置麦克风，提供清晰语音通话；续航方面，支持单次约4小时的音乐播放，充电时间约1小时。下面就来看看这款产品的详细拆解报告吧~"
+          }
+        },
+        {
+          "value": "麦克风拾音孔特写，用于语音通话功能拾音。",
+          "evidence": {
+            "value": "麦克风拾音孔特写，用于语音通话功能拾音。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "麦克风拾音孔特写，用于语音通话功能拾音。"
+          }
+        },
+        {
+          "value": "扬声器正面特写，振膜通过金属盖板防护。",
+          "evidence": {
+            "value": "扬声器正面特写，振膜通过金属盖板防护。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "扬声器正面特写，振膜通过金属盖板防护。"
+          }
+        },
+        {
+          "value": "内部主要配置方面，充电盒搭载了数字显示屏，用于为用户更直观的反馈剩余电量信息；内置250mAh锂电池，采用了INJOINIC英集芯IP5513集成MCU的TWS耳机充电仓管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，为充电盒提供完整的电源解决方案。耳机搭载了13mm大动圈单元，单耳内置一颗MEMS麦克风拾音。",
+          "evidence": {
+            "value": "内部主要配置方面，充电盒搭载了数字显示屏，用于为用户更直观的反馈剩余电量信息；内置250mAh锂电池，采用了INJOINIC英集芯IP5513集成MCU的TWS耳机充电仓管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，为充电盒提供完整的电源解决方案。耳机搭载了13mm大动圈单元，单耳内置一颗MEMS麦克风拾音。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "内部主要配置方面，充电盒搭载了数字显示屏，用于为用户更直观的反馈剩余电量信息；内置250mAh锂电池，采用了INJOINIC英集芯IP5513集成MCU的TWS耳机充电仓管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，为充电盒提供完整的电源解决方案。耳机搭载了13mm大动圈单元，单耳内置一颗MEMS麦克风拾音。"
+          }
+        },
+        {
+          "value": "机身底部外观一览，内侧腔体设置有出音孔，外侧腔体设置有充电触点。",
+          "evidence": {
+            "value": "机身底部外观一览，内侧腔体设置有出音孔，外侧腔体设置有充电触点。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "机身底部外观一览，内侧腔体设置有出音孔，外侧腔体设置有充电触点。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "卸掉螺丝，取掉座舱上的组件。",
+          "evidence": {
+            "value": "卸掉螺丝，取掉座舱上的组件。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取掉座舱上的组件。"
+          }
+        }
+      ],
+      "sealing_method": [],
+      "wear_design": [
+        {
+          "value": "此次将要拆解的是其一款采用了夹耳式设计的开放式立体声蓝牙耳机，佩戴时夹在耳廓上，解放了耳道，保障了长久佩戴的舒适性。",
+          "evidence": {
+            "value": "此次将要拆解的是其一款采用了夹耳式设计的开放式立体声蓝牙耳机，佩戴时夹在耳廓上，解放了耳道，保障了长久佩戴的舒适性。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "此次将要拆解的是其一款采用了夹耳式设计的开放式立体声蓝牙耳机，佩戴时夹在耳廓上，解放了耳道，保障了长久佩戴的舒适性。"
+          }
+        },
+        {
+          "value": "单只耳机重量仅约为4.2g，佩戴舒适，轻若无物。",
+          "evidence": {
+            "value": "单只耳机重量仅约为4.2g，佩戴舒适，轻若无物。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "单只耳机重量仅约为4.2g，佩戴舒适，轻若无物。"
+          }
+        },
+        {
+          "value": "夹耳式耳机采用了弹性悬臂，外层硅胶材质包裹，佩戴舒适亲肤；开放式聆听，解放了耳道，保障了长久的舒适性，同时能够提升使用耳机的安全性。",
+          "evidence": {
+            "value": "夹耳式耳机采用了弹性悬臂，外层硅胶材质包裹，佩戴舒适亲肤；开放式聆听，解放了耳道，保障了长久的舒适性，同时能够提升使用耳机的安全性。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "夹耳式耳机采用了弹性悬臂，外层硅胶材质包裹，佩戴舒适亲肤；开放式聆听，解放了耳道，保障了长久的舒适性，同时能够提升使用耳机的安全性。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/09/2023090101272873.jpeg",
+          "alt": "拆解报告：Halfsun影巨人夹耳式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/09/2023090101273077.jpeg",
+          "alt": "拆解报告：Halfsun影巨人夹耳式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/09/2023090101273197.jpeg",
+          "alt": "拆解报告：Halfsun影巨人夹耳式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/09/2023090101273263.jpeg",
+          "alt": "拆解报告：Halfsun影巨人夹耳式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/09/2023090101273447.jpeg",
+          "alt": "拆解报告：Halfsun影巨人夹耳式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "充电盒主板另外一侧电路一览，未设置有元器件，与电池导线焊接。",
+        "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+        "充电盒主板一侧电路一览。",
+        "Halfsun影巨人夹耳式耳机在功能配置上，支持蓝牙5.3，提供稳定连接；内置麦克风，提供清晰语音通话；续航方面，支持单次约4小时的音乐播放，充电时间约1小时。下面就来看看这款产品的详细拆解报告吧~"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": {
+        "value": "35.5g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "频网实测，Halfsun影巨人夹耳式耳机整机重量约为35.5g，轻盈便携"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "4.2g",
+      "weight_earbud_evidence": {
+        "value": "4.2g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "耳机整机重量约为35.5g，轻盈便携。\n单只耳机重量仅约为4.2g，佩戴舒适"
+      }
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "随机标配的USB-A to Type-C充电线。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "随机标配的USB-A to Type-C充电线。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电盒背面设置Type-C充电接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒背面设置Type-C充电接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C充电母座特写。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充电母座特写。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "我爱音频网采用CHARGERLAB POWER-Z KM003C对Halfsun影巨人夹耳式耳机进行充电测试，输入功率约为1.62W。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "我爱音频网采用CHARGERLAB POWER-Z KM003C对Halfsun影巨人夹耳式耳机进行充电测试，输入功率约为1.62W。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5513内置一个5V输出、同步整流的升压DC-DC，功率管内置，提供最大300mA输出电流，升压效率高至93%；IP5513的线性充电提供最大500mA充电电流， 可灵活配置最大充电电流。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5513可实现TWS对耳独立入仓检测，检测到耳机入仓后自动进入耳机充电模式，耳机充满后自动进入休眠状态，静态电流最低可降至30uA。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "INJOINIC英集芯IP5513详细资料图。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "INJOINIC英集芯IP5513详细资料图。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "充电盒内置锂离子电池型号：SY 502030，标称电压：3.7V，额定容量：250mAh 0.925Wh，生产日期：2023年5月。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒内置锂离子电池型号：SY 502030，标称电压：3.7V，额定容量：250mAh 0.925Wh，生产日期：2023年5月。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "内部主要配置方面，充电盒搭载了数字显示屏，用于为用户更直观的反馈剩余电量信息；内置250mAh锂电池，采用了INJOINIC英集芯IP5513集成MCU的TWS耳机充电仓管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，为充电盒提供完整的电源解决方案。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "内部主要配置方面，充电盒搭载了数字显示屏，用于为用户更直观的反馈剩余电量信息；内置250mAh锂电池，采用了INJOINIC英集芯IP5513集成MCU的TWS耳机充电仓管理SoC，集成5V升压转换器、锂电池充电管理、电池电量指示等多功能，"
+        },
+        {
+          "param": "电池容量",
+          "value": "250",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "250mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.3",
+      "codecs": [],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [
+        {
+          "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+          "evidence": {
+            "value": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+          }
+        }
+      ],
+      "ota_support": [],
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "5.3",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.3"
+      }
+    }
+  }
+}

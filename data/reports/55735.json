@@ -1,0 +1,597 @@
+{
+  "id": "55735",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/55735.html",
+  "title": "MEES T3 真无线蓝牙耳机",
+  "brand": "",
+  "model": "MEES T3",
+  "category": "真无线耳机TWS",
+  "published_at": "2020-09-03",
+  "author": "GiGi24",
+  "summary": "MEES是深圳市迈斯高科技有限公司的音频品牌，该公司成立于2011年，是一家专业从事TWS耳机的设计、研究、开 […]",
+  "captured_at": "2026-07-14T02:12:09+00:00",
+  "data_completeness": 0.688,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "MEES T3",
+      "category": "真无线耳机TWS",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "麦克风拾音孔，内有防尘网。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "麦克风拾音孔，内有防尘网。",
+            "confidence": 0.62,
+            "source_type": "text",
+            "source_text": "麦克风拾音孔，内有防尘网。"
+          }
+        },
+        {
+          "text": "出音孔处的金属防尘网。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "出音孔处的金属防尘网。",
+            "confidence": 0.58,
+            "source_type": "text",
+            "source_text": "出音孔处的金属防尘网。"
+          }
+        },
+        {
+          "text": "蓝牙天线FPC和麦克风拾音孔处的防尘网。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "蓝牙天线FPC和麦克风拾音孔处的防尘网。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "蓝牙天线FPC和麦克风拾音孔处的防尘网。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通话"
+      ],
+      "positioning_summary": "麦克风拾音孔，内有防尘网。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "充电仓",
+        "电池",
+        "主板/PCBA",
+        "麦克风",
+        "喇叭单元",
+        "天线"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9640",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA9640",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "ETA9640"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "MEES是深圳市迈斯高科技有限公司的音频品牌，该公司成立于2011年，是一家专业从事TWS耳机的设计、研究、开发、生产和销售的制造商，其产品主要销往海外市场。此前我爱音频网拆解过的MEES Fit1C真无线蓝牙耳机，推出时获得了红点奖，并在日本市场受到了很多关注。今天我们要拆解的是MEES T3真无线蓝牙耳机，这款产品充电盒支持无线充电功能便于使用，耳机为豆式入耳设计，采用蓝牙5.0芯片，支持触控操作。下面一起通过详细拆解看看其用料如何吧~一、MEES T3 真无线蓝牙耳机 开箱"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "从底部撬开充电座舱，物理卡扣连接，最底部是无线充电接收线圈。电池尺寸较大靠近壳体边缘，非专业拆解需谨慎。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "电路主要集中在主板一侧，布局比较紧凑。图中主板左侧大致是有线充电电源管理电路，右侧是无线充电电源管理电路。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "麦克风拾音孔，内有防尘网。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机内部结构展示，软包电池+主板+扬声器单元的结构。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "蓝牙天线FPC和麦克风拾音孔处的防尘网。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "MEES是深圳市迈斯高科技有限公司的音频品牌，该公司成立于2011年，是一家专业从事TWS耳机的设计、研究、开发、生产和销售的制造商，其产品主要销往海外市场。此前我爱音频网拆解过的MEES Fit1C真无线蓝牙耳机，推出时获得了红点奖，并在日本市场受到了很多关注。今天我们要拆解的是MEES T3真无线蓝牙耳机，这款产品充电盒支持无线充电功能便于使用，耳机为豆式入耳设计，采用蓝牙5.0芯片，支持触控操作。下面一起通过详细拆解看看其用料如何吧~一、MEES T3 真无线蓝牙耳机 开箱"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "盒盖是黑色，充电盒机身是金属灰色，正面有四个电量指示灯。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电座舱内给耳机充电的Pogo Pin特写。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "拆开耳机外壳可以看到内部结构。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9640",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA9640",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "钰泰半导体ETA9640 电源管理IC，1A充放电，同步整流升压，内置多种保护功能，适用于移动电源及蓝牙耳机充电盒。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [],
+      "process_hints": [
+        {
+          "value": "扬声器单元与蓝牙天线共用一FPC，FPC焊接在主板上。",
+          "evidence": {
+            "value": "扬声器单元与蓝牙天线共用一FPC，FPC焊接在主板上。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "扬声器单元与蓝牙天线共用一FPC，FPC焊接在主板上。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": ""
+    },
+    "structure": {
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
+      "materials": [
+        "塑料",
+        "PC"
+      ],
+      "ip_rating": null,
+      "weight_g": "45.8克",
+      "dimensions": [
+        "耳机在充电盒内的状态，耳机尺寸较大，内部空间紧凑，充电座舱上有L/R左右标识。",
+        "电池尺寸较大靠近壳体边缘，非专业拆解需谨慎。",
+        "MEES T3 真无线蓝牙耳机的主控芯片为杰理AC6936D，杰理AC693N系列芯片首创了充电脚通讯专利技术，并且采用QFN 4*4mm的超小封装设计。"
+      ],
+      "internal_structure": [
+        {
+          "value": "从底部撬开充电座舱，物理卡扣连接，最底部是无线充电接收线圈。电池尺寸较大靠近壳体边缘，非专业拆解需谨慎。",
+          "evidence": {
+            "value": "从底部撬开充电座舱，物理卡扣连接，最底部是无线充电接收线圈。电池尺寸较大靠近壳体边缘，非专业拆解需谨慎。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "从底部撬开充电座舱，物理卡扣连接，最底部是无线充电接收线圈。电池尺寸较大靠近壳体边缘，非专业拆解需谨慎。"
+          }
+        },
+        {
+          "value": "左右充电座舱底部的壳体是一整个塑料件，粘贴在电池上。",
+          "evidence": {
+            "value": "左右充电座舱底部的壳体是一整个塑料件，粘贴在电池上。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "左右充电座舱底部的壳体是一整个塑料件，粘贴在电池上。"
+          }
+        },
+        {
+          "value": "电路主要集中在主板一侧，布局比较紧凑。图中主板左侧大致是有线充电电源管理电路，右侧是无线充电电源管理电路。",
+          "evidence": {
+            "value": "电路主要集中在主板一侧，布局比较紧凑。图中主板左侧大致是有线充电电源管理电路，右侧是无线充电电源管理电路。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "电路主要集中在主板一侧，布局比较紧凑。图中主板左侧大致是有线充电电源管理电路，右侧是无线充电电源管理电路。"
+          }
+        },
+        {
+          "value": "用于触控感应的金属化棉，通过FPC与主板相连。",
+          "evidence": {
+            "value": "用于触控感应的金属化棉，通过FPC与主板相连。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "用于触控感应的金属化棉，通过FPC与主板相连。"
+          }
+        },
+        {
+          "value": "麦克风拾音孔，内有防尘网。",
+          "evidence": {
+            "value": "麦克风拾音孔，内有防尘网。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "麦克风拾音孔，内有防尘网。"
+          }
+        },
+        {
+          "value": "蓝牙天线FPC和麦克风拾音孔处的防尘网。",
+          "evidence": {
+            "value": "蓝牙天线FPC和麦克风拾音孔处的防尘网。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "蓝牙天线FPC和麦克风拾音孔处的防尘网。"
+          }
+        },
+        {
+          "value": "耳机内部结构展示，软包电池+主板+扬声器单元的结构。",
+          "evidence": {
+            "value": "耳机内部结构展示，软包电池+主板+扬声器单元的结构。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机内部结构展示，软包电池+主板+扬声器单元的结构。"
+          }
+        },
+        {
+          "value": "扬声器单元与蓝牙天线共用一FPC，FPC焊接在主板上。",
+          "evidence": {
+            "value": "扬声器单元与蓝牙天线共用一FPC，FPC焊接在主板上。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "扬声器单元与蓝牙天线共用一FPC，FPC焊接在主板上。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "从底部撬开充电座舱，物理卡扣连接，最底部是无线充电接收线圈。",
+          "evidence": {
+            "value": "从底部撬开充电座舱，物理卡扣连接，最底部是无线充电接收线圈。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "从底部撬开充电座舱，物理卡扣连接，最底部是无线充电接收线圈。"
+          }
+        },
+        {
+          "value": "电池通过双面胶粘贴在主板上，通过导线与主板相连。",
+          "evidence": {
+            "value": "电池通过双面胶粘贴在主板上，通过导线与主板相连。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "电池通过双面胶粘贴在主板上，通过导线与主板相连。"
+          }
+        }
+      ],
+      "sealing_method": [
+        {
+          "value": "麦克风拾音孔，内有防尘网。",
+          "evidence": {
+            "value": "麦克风拾音孔，内有防尘网。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "麦克风拾音孔，内有防尘网。"
+          }
+        },
+        {
+          "value": "出音孔处的金属防尘网。",
+          "evidence": {
+            "value": "出音孔处的金属防尘网。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "出音孔处的金属防尘网。"
+          }
+        },
+        {
+          "value": "蓝牙天线FPC和麦克风拾音孔处的防尘网。",
+          "evidence": {
+            "value": "蓝牙天线FPC和麦克风拾音孔处的防尘网。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "蓝牙天线FPC和麦克风拾音孔处的防尘网。"
+          }
+        }
+      ],
+      "wear_design": [],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/09/MEES-T3-1.jpg",
+          "alt": "拆解报告：MEES T3 真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/09/MEES-T3-4.jpg",
+          "alt": "拆解报告：MEES T3 真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/09/MEES-T3-3-1.jpg",
+          "alt": "拆解报告：MEES T3 真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/09/MEES-T3-10.jpg",
+          "alt": "拆解报告：MEES T3 真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/09/MEES-T3-11-1.jpg",
+          "alt": "拆解报告：MEES T3 真无线蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "从底部撬开充电座舱，物理卡扣连接，最底部是无线充电接收线圈。电池尺寸较大靠近壳体边缘，非专业拆解需谨慎。",
+        "左右充电座舱底部的壳体是一整个塑料件，粘贴在电池上。",
+        "电路主要集中在主板一侧，布局比较紧凑。图中主板左侧大致是有线充电电源管理电路，右侧是无线充电电源管理电路。",
+        "用于触控感应的金属化棉，通过FPC与主板相连。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": {
+        "value": "45.8克",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "45.8克"
+      }
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电方式",
+          "value": "今天我们要拆解的是MEES T3真无线蓝牙耳机，这款产品充电盒支持无线充电功能便于使用，耳机为豆式入耳设计，采用蓝牙5.0芯片，支持触控操作。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "今天我们要拆解的是MEES T3真无线蓝牙耳机，这款产品充电盒支持无线充电功能便于使用，耳机为豆式入耳设计，采用蓝牙5.0芯片，支持触控操作。"
+        },
+        {
+          "param": "充电方式",
+          "value": "我爱音频网采用\nChargerLAB POWER-Z KT002\n便携式电源测试仪对MEES T3 真无线蓝牙耳机进行有线充电测试，充电功率约为1.8W。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KT002\n便携式电源测试仪对MEES T3 真无线蓝牙耳机进行有线充电测试，充电功率约为1.8W。"
+        },
+        {
+          "param": "充电方式",
+          "value": "我爱音频网采用\nChargerLAB POWER-Z KT002\n便携式电源测试仪对MEES T3 真无线蓝牙耳机进行无线充电测试，输入功率约为2.6W，实际输出功率没有这么高。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KT002\n便携式电源测试仪对MEES T3 真无线蓝牙耳机进行无线充电测试，输入功率约为2.6W，实际输出功率没有这么高。"
+        },
+        {
+          "param": "充电方式",
+          "value": "二、MEES T3 充电盒拆解\nMEES T3 充电盒支持无线充电功能，内有无线充电电源管理系统和有线充电电源管理系统，下面我们通过拆解看看它采用了哪些电源管理方案。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "二、MEES T3 充电盒拆解\nMEES T3 充电盒支持无线充电功能，内有无线充电电源管理系统和有线充电电源管理系统，下面我们通过拆解看看它采用了哪些电源管理方案。"
+        },
+        {
+          "param": "充电方式",
+          "value": "从底部撬开充电座舱，物理卡扣连接，最底部是无线充电接收线圈。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "从底部撬开充电座舱，物理卡扣连接，最底部是无线充电接收线圈。"
+        },
+        {
+          "param": "充电方式",
+          "value": "图中主板左侧大致是有线充电电源管理电路，右侧是无线充电电源管理电路。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "图中主板左侧大致是有线充电电源管理电路，右侧是无线充电电源管理电路。"
+        },
+        {
+          "param": "充电方式",
+          "value": "无线充电接收线圈特写。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "无线充电接收线圈特写。"
+        },
+        {
+          "param": "充电方式",
+          "value": "我爱音频网总结\nMEES T3 真无线蓝牙耳机充电盒采用撞色设计，使用Micro-USB接口输入电源，内有钰泰ETA9640同步整流升压IC负责电池的充放电；充电盒也支持无线充电功能，采用的是伏达NU1680无线充接收芯片，通信符合WPC V1.2.4，可提供3.5V到9V的宽范围稳压，适用于多种类型的无线充设备；充电盒内置400mAh容量电池。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "我爱音频网总结\nMEES T3 真无线蓝牙耳机充电盒采用撞色设计，使用Micro-USB接口输入电源，内有钰泰ETA9640同步整流升压IC负责电池的充放电；充电盒也支持无线充电功能，采用的是伏达NU1680无线充接收芯片，通信符合WPC "
+        },
+        {
+          "param": "标记/认证",
+          "value": "充电盒采用软包电池，型号702030，额定电压3.7V，额定容量400mAh/1.48Wh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒采用软包电池，型号702030，额定电压3.7V，额定容量400mAh/1.48Wh。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "软包电池来自深圳市神通天下科技有限公司，型号为ST631214，额定电压3.7V，额定容量80mAh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "软包电池来自深圳市神通天下科技有限公司，型号为ST631214，额定电压3.7V，额定容量80mAh。"
+        },
+        {
+          "param": "电池容量",
+          "value": "400",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "400mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.0",
+      "codecs": [],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [
+        {
+          "value": "可提供3.5V到9V的宽范围稳压，适用于不同的应用场合。",
+          "evidence": {
+            "value": "可提供3.5V到9V的宽范围稳压，适用于不同的应用场合。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "可提供3.5V到9V的宽范围稳压，适用于不同的应用场合。"
+          }
+        }
+      ],
+      "ota_support": [
+        {
+          "value": "由于不需要固件来编程，伏达NU1680将大大简化设计工作，并更容易和快速地整合解决方案。",
+          "evidence": {
+            "value": "由于不需要固件来编程，伏达NU1680将大大简化设计工作，并更容易和快速地整合解决方案。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "由于不需要固件来编程，伏达NU1680将大大简化设计工作，并更容易和快速地整合解决方案。"
+          }
+        },
+        {
+          "value": "杰理AC6936D支持蓝牙5.1，具有6mA超低功耗，自动配对、恒流充电、无损解码、HFi音质；支持立体声双耳通话，开机秒连，高清通话低延时，智能双发主从无缝切换，支持空中升级，智能充电仓，生产方便。",
+          "evidence": {
+            "value": "杰理AC6936D支持蓝牙5.1，具有6mA超低功耗，自动配对、恒流充电、无损解码、HFi音质；支持立体声双耳通话，开机秒连，高清通话低延时，智能双发主从无缝切换，支持空中升级，智能充电仓，生产方便。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "杰理AC6936D支持蓝牙5.1，具有6mA超低功耗，自动配对、恒流充电、无损解码、HFi音质；支持立体声双耳通话，开机秒连，高清通话低延时，智能双发主从无缝切换，支持空中升级，智能充电仓，生产方便。"
+          }
+        }
+      ],
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "5.0",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.0"
+      }
+    }
+  }
+}

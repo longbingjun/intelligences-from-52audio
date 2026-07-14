@@ -1,0 +1,540 @@
+{
+  "id": "35997",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/35997.html",
+  "title": "索爱真无线蓝牙耳机 T5",
+  "brand": "",
+  "model": "索爱真无线蓝牙耳机 T5",
+  "category": "真无线耳机TWS",
+  "published_at": "2020-02-10",
+  "author": "GiGi24",
+  "summary": "老牌音频品牌索爱，从创立初期的传统线下终端销售模式，转型为互联网电商销售模式，再到“娱乐营销”等策略，一直努力 […]",
+  "captured_at": "2026-07-14T02:13:42+00:00",
+  "data_completeness": 0.672,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "索爱真无线蓝牙耳机 T5",
+      "category": "真无线耳机TWS",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "配置方面，内置Flash，支持空中升级、USB固件升级。",
+          "tag": "其他",
+          "evidence": {
+            "value": "配置方面，内置Flash，支持空中升级、USB固件升级。",
+            "confidence": 0.73,
+            "source_type": "text",
+            "source_text": "配置方面，内置Flash，支持空中升级、USB固件升级。"
+          }
+        },
+        {
+          "text": "参数规格，蓝牙协议：HSP、HFP、A2DP、AVRCP，充电时长：2小时，通话时间：6小时，额定输入：5.0V⎓400mA，有效距离：10m，灵敏度：93+/-3dB，频响范围：20Hz-20KHz，尺寸76.2mm*42.9mm*23mm。",
+          "tag": "其他",
+          "evidence": {
+            "value": "参数规格，蓝牙协议：HSP、HFP、A2DP、AVRCP，充电时长：2小时，通话时间：6小时，额定输入：5.0V⎓400mA，有效距离：10m，灵敏度：93+/-3dB，频响范围：20Hz-20KHz，尺寸76.2mm*42.9mm*23mm。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "参数规格，蓝牙协议：HSP、HFP、A2DP、AVRCP，充电时长：2小时，通话时间：6小时，额定输入：5.0V⎓400mA，有效距离：10m，灵敏度：93+/-3dB，频响范围：20Hz-20KHz，尺寸76.2mm*42.9mm*23mm。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通话"
+      ],
+      "positioning_summary": "配置方面，内置Flash，支持空中升级、USB固件升级。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "充电仓",
+        "电池",
+        "主板/PCBA",
+        "天线"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9640",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA9640",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "ETA9640"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "此次要为大家拆解的索爱真无线蓝牙耳机T5，它将充电盒与移动电源的功能进行了整合，二者在内部电路设计上会有什么不同之处？一起来看详细的拆解报告吧。一、索爱真无线蓝牙耳机T5 开箱"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒背面是部分产品信息：IPX7防水，LED电量显示，大容量电池，蓝牙5.0。参数规格，蓝牙协议：HSP、HFP、A2DP、AVRCP，充电时长：2小时，通话时间：6小时，额定输入：5.0V⎓400mA，有效距离：10m，灵敏度：93+/-3dB，频响范围：20Hz-20KHz，尺寸76.2mm*42.9mm*23mm。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "拆解开耳机充电盒，内部是两块电路板和一节18650电池。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "装饰开窗，内侧是蓝牙天线。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "小板上焊接白色LED灯，组成电量显示。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "外壳对应的开孔。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电触点两大两小。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9640",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA9640",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "钰泰 ETA9640 电源管理IC，1A充放电，同步整流升压，内置多种保护功能，适用于移动电源及蓝牙耳机充电盒。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9640",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA9640",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "钰泰 ETA9640 详细资料。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "ETA9640",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "ETA9640",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "我爱音频网总结\n索爱真无线T5充电盒集成了移动电源的功能，内置钰泰 ETA9640 电源管理IC，适用于移动电源及蓝牙耳机充电盒；采用的卓能电池上也有保护电路；电池容量为2000mAh，输出口不支持任何协议，可以供手机等移动设备应急充电使用。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [
+        "包装内物品，耳机及充电仓，附赠耳塞和充电线，使用说明书。"
+      ],
+      "process_hints": [
+        {
+          "value": "小板上焊接白色LED灯，组成电量显示。",
+          "evidence": {
+            "value": "小板上焊接白色LED灯，组成电量显示。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "小板上焊接白色LED灯，组成电量显示。"
+          }
+        },
+        {
+          "value": "触摸排线采用焊接方式固定，节省空间。",
+          "evidence": {
+            "value": "触摸排线采用焊接方式固定，节省空间。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "触摸排线采用焊接方式固定，节省空间。"
+          }
+        },
+        {
+          "value": "赛芯微 XB6366D 锂电池一体化保护IC，用于内置锂电池保护。",
+          "evidence": {
+            "value": "赛芯微 XB6366D 锂电池一体化保护IC，用于内置锂电池保护。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "赛芯微 XB6366D 锂电池一体化保护IC，用于内置锂电池保护。"
+          }
+        },
+        {
+          "value": "索爱真无线T5搭载风洞 WT200低功耗蓝牙音频芯片，带有人声增强、语音消噪等功能；耳机内置赛芯微 XB6366D 锂电池一体化保护IC，在安全保护方面做得比较到位。",
+          "evidence": {
+            "value": "索爱真无线T5搭载风洞 WT200低功耗蓝牙音频芯片，带有人声增强、语音消噪等功能；耳机内置赛芯微 XB6366D 锂电池一体化保护IC，在安全保护方面做得比较到位。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "索爱真无线T5搭载风洞 WT200低功耗蓝牙音频芯片，带有人声增强、语音消噪等功能；耳机内置赛芯微 XB6366D 锂电池一体化保护IC，在安全保护方面做得比较到位。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": ""
+    },
+    "structure": {
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
+      "materials": [
+        "塑料"
+      ],
+      "ip_rating": "IPX7",
+      "weight_g": "94克",
+      "dimensions": [
+        "参数规格，蓝牙协议：HSP、HFP、A2DP、AVRCP，充电时长：2小时，通话时间：6小时，额定输入：5.0V⎓400mA，有效距离：10m，灵敏度：93+/-3dB，频响范围：20Hz-20KHz，尺寸76.2mm*42.9mm*23mm。",
+        "扬声器直径8mm。",
+        "耳机内部采用LIDEA 电的电子 LIR1654电池，直径16mm，厚度5.4mm。"
+      ],
+      "internal_structure": [
+        {
+          "value": "拆解开耳机充电盒，内部是两块电路板和一节18650电池。",
+          "evidence": {
+            "value": "拆解开耳机充电盒，内部是两块电路板和一节18650电池。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "拆解开耳机充电盒，内部是两块电路板和一节18650电池。"
+          }
+        },
+        {
+          "value": "电路板正面，有电源管理芯片，电感等元件。",
+          "evidence": {
+            "value": "电路板正面，有电源管理芯片，电感等元件。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "电路板正面，有电源管理芯片，电感等元件。"
+          }
+        },
+        {
+          "value": "装饰开窗，内侧是蓝牙天线。",
+          "evidence": {
+            "value": "装饰开窗，内侧是蓝牙天线。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "装饰开窗，内侧是蓝牙天线。"
+          }
+        },
+        {
+          "value": "蓝牙天线。",
+          "evidence": {
+            "value": "蓝牙天线。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "蓝牙天线。"
+          }
+        },
+        {
+          "value": "外壳对应的开孔。",
+          "evidence": {
+            "value": "外壳对应的开孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "外壳对应的开孔。"
+          }
+        },
+        {
+          "value": "耳机外壳内部的导电海绵。",
+          "evidence": {
+            "value": "耳机外壳内部的导电海绵。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机外壳内部的导电海绵。"
+          }
+        },
+        {
+          "value": "充电触点两大两小。",
+          "evidence": {
+            "value": "充电触点两大两小。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "充电触点两大两小。"
+          }
+        },
+        {
+          "value": "此次要为大家拆解的索爱真无线蓝牙耳机T5，它将充电盒与移动电源的功能进行了整合，二者在内部电路设计上会有什么不同之处？",
+          "evidence": {
+            "value": "此次要为大家拆解的索爱真无线蓝牙耳机T5，它将充电盒与移动电源的功能进行了整合，二者在内部电路设计上会有什么不同之处？",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "此次要为大家拆解的索爱真无线蓝牙耳机T5，它将充电盒与移动电源的功能进行了整合，二者在内部电路设计上会有什么不同之处？"
+          }
+        }
+      ],
+      "fastener_type": [],
+      "sealing_method": [
+        {
+          "value": "包装盒背面是部分产品信息：IPX7防水，LED电量显示，大容量电池，蓝牙5.0。",
+          "evidence": {
+            "value": "包装盒背面是部分产品信息：IPX7防水，LED电量显示，大容量电池，蓝牙5.0。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "包装盒背面是部分产品信息：IPX7防水，LED电量显示，大容量电池，蓝牙5.0。"
+          }
+        }
+      ],
+      "wear_design": [
+        {
+          "value": "包装内物品，耳机及充电仓，附赠耳塞和充电线，使用说明书。",
+          "evidence": {
+            "value": "包装内物品，耳机及充电仓，附赠耳塞和充电线，使用说明书。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "包装内物品，耳机及充电仓，附赠耳塞和充电线，使用说明书。"
+          }
+        },
+        {
+          "value": "三对附赠的耳塞，Micro-USB接口的充电线。",
+          "evidence": {
+            "value": "三对附赠的耳塞，Micro-USB接口的充电线。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "三对附赠的耳塞，Micro-USB接口的充电线。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/02/索爱真无线T5-1.jpg",
+          "alt": "拆解报告：索爱真无线蓝牙耳机 T5-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/02/索爱真无线T5-2.jpg",
+          "alt": "拆解报告：索爱真无线蓝牙耳机 T5-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/02/索爱真无线T5-3.jpg",
+          "alt": "拆解报告：索爱真无线蓝牙耳机 T5-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/02/索爱真无线T5-4-副.jpg",
+          "alt": "拆解报告：索爱真无线蓝牙耳机 T5-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/02/索爱真无线T5-4.jpg",
+          "alt": "拆解报告：索爱真无线蓝牙耳机 T5-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "拆解开耳机充电盒，内部是两块电路板和一节18650电池。",
+        "电路板正面，有电源管理芯片，电感等元件。",
+        "装饰开窗，内侧是蓝牙天线。",
+        "蓝牙天线。"
+      ],
+      "ip_rating_evidence": {
+        "value": "IPX7",
+        "confidence": 0.8,
+        "source_type": "text",
+        "source_text": "IPX7"
+      },
+      "weight_evidence": {
+        "value": "94克",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "94克"
+      }
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电方式",
+          "value": "我爱音频网采用\nChargerLAB POWER-Z KT001\n对索爱真无线T5进行有线充电测试，充电电压5.2753V，电流1.0103A。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KT001\n对索爱真无线T5进行有线充电测试，充电电压5.2753V，电流1.0103A。"
+        },
+        {
+          "param": "充电接口",
+          "value": "揭开橡胶盖，里面不仅有Micro USB充电接口，还有一个USB-A插座，原来这款产品的充电盒还具有移动电源功能。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "揭开橡胶盖，里面不仅有Micro USB充电接口，还有一个USB-A插座，原来这款产品的充电盒还具有移动电源功能。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Micro USB",
+          "unit": "",
+          "brand": "",
+          "model": "Micro USB",
+          "confidence": 0.8,
+          "source_ref": "Micro USB"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "包装盒背面是部分产品信息：IPX7防水，LED电量显示，大容量电池，蓝牙5.0。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "包装盒背面是部分产品信息：IPX7防水，LED电量显示，大容量电池，蓝牙5.0。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "参数规格，蓝牙协议：HSP、HFP、A2DP、AVRCP，充电时长：2小时，通话时间：6小时，额定输入：5.0V⎓400mA，有效距离：10m，灵敏度：93+/-3dB，频响范围：20Hz-20KHz，尺寸76.2mm*42.9mm*23mm。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "参数规格，蓝牙协议：HSP、HFP、A2DP、AVRCP，充电时长：2小时，通话时间：6小时，额定输入：5.0V⎓400mA，有效距离：10m，灵敏度：93+/-3dB，频响范围：20Hz-20KHz，尺寸76.2mm*42.9mm*23m"
+        },
+        {
+          "param": "标记/认证",
+          "value": "丝印2033CB的触摸IC。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "丝印2033CB的触摸IC。"
+        },
+        {
+          "param": "电池容量",
+          "value": "2000",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "2000mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.0",
+      "codecs": [],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [],
+      "ota_support": [
+        {
+          "value": "配置方面，内置Flash，支持空中升级、USB固件升级。",
+          "evidence": {
+            "value": "配置方面，内置Flash，支持空中升级、USB固件升级。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "配置方面，内置Flash，支持空中升级、USB固件升级。"
+          }
+        }
+      ],
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "5.0",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.0"
+      }
+    }
+  }
+}

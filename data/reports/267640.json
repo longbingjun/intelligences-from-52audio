@@ -99,8 +99,37 @@
         "天线",
         "降噪系统"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "SS881",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
+          "evidence": {
+            "value": "SS881",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了NV诺威3.7V/650mAh锂电池，采用了苏州赛芯电子科技股份XB5332B锂电池一体化保护芯片，LPS微源半导体LP5300过压过流保护IC，以及用于整机控制的SinhMicro昇生微电子SS881A POWER MCU。"
+          }
+        }
+      ],
       "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "SS881",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "保护IC",
+          "evidence": {
+            "value": "SS881",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载了NV诺威3.7V/650mAh锂电池，采用了苏州赛芯电子科技股份XB5332B锂电池一体化保护芯片，LPS微源半导体LP5300过压过流保护IC，以及用于整机控制的SinhMicro昇生微电子SS881A POWER MCU。"
+          }
+        },
         {
           "component": "电池",
           "brand": "",
@@ -584,9 +613,18 @@
       },
       "weight_evidence": {
         "value": "76.8g",
-        "confidence": 0.75,
+        "confidence": 0.85,
         "source_type": "text",
-        "source_text": "76.8g"
+        "source_text": "，TOZO Open Buds开放式耳机整机重量约为76.8g。\n单只耳"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "10.5g",
+      "weight_earbud_evidence": {
+        "value": "10.5g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "ds开放式耳机整机重量约为76.8g。\n单只耳机重量约为10.5g。\n我爱音"
       }
     },
     "hardware": {
@@ -710,6 +748,6 @@
       }
     }
   },
-  "data_completeness": 0.74,
+  "data_completeness": 0.766,
   "source_layer": "technical"
 }

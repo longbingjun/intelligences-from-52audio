@@ -1,0 +1,538 @@
+{
+  "id": "48484",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/48484.html",
+  "title": "Earsopen逸鸥BT-5骨传导蓝牙耳机",
+  "brand": "",
+  "model": "Earsopen逸鸥BT-5骨传导蓝牙",
+  "category": "骨传导耳机",
+  "published_at": "2020-07-09",
+  "author": "Wen5",
+  "summary": "顾名思义，骨传导蓝牙耳机是一种通过骨头来传播声音的方式，也就是我们物理课本中学习到的固体传声方式的一种。在我们 […]",
+  "captured_at": "2026-07-14T02:12:41+00:00",
+  "data_completeness": 0.534,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "Earsopen逸鸥BT-5骨传导蓝牙",
+      "category": "骨传导耳机",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "麦克风开孔特写，有一层防尘网覆盖，防止异物进入。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "麦克风开孔特写，有一层防尘网覆盖，防止异物进入。",
+            "confidence": 0.58,
+            "source_type": "text",
+            "source_text": "麦克风开孔特写，有一层防尘网覆盖，防止异物进入。"
+          }
+        },
+        {
+          "text": "邮票蓝牙小板上有板载蓝牙天线，CE认证标志，微芯标志。",
+          "tag": "其他",
+          "evidence": {
+            "value": "邮票蓝牙小板上有板载蓝牙天线，CE认证标志，微芯标志。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "邮票蓝牙小板上有板载蓝牙天线，CE认证标志，微芯标志。"
+          }
+        }
+      ],
+      "scenarios": [
+        "运动"
+      ],
+      "positioning_summary": "麦克风开孔特写，有一层防尘网覆盖，防止异物进入。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "主板/PCBA",
+        "电池",
+        "麦克风",
+        "天线",
+        "骨传导振子"
+      ],
+      "chip_modules": [],
+      "bom_table": [
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "取下电池，小板上连接导线为另一边的主板供电。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "可以看到右侧盖板下有锂聚合物电池和小板。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "左耳",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "左耳内侧特写，分别有开/关机键、暂停/播放键、加/减音量键、L（左）标识、充电指示灯，麦克风开孔。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "邮票蓝牙小板上有板载蓝牙天线，CE认证标志，微芯标志。"
+          }
+        },
+        {
+          "component": "骨传导振子",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "骨传导振子",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "内部配置上，Earsopen逸鸥BT-5 采用了10mm的 earsopen 动态振子，将声音通过骨头直达听觉神经。耳机内置了300mAh电池，可实现8h的连续续航时间。耳机内置ISSC IS2020蓝牙SoC，内置锂电池充电功能。音频信号由TI TPA2012D2放大驱动骨传导单元。整机做工有浓厚的日系风格。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "左耳",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "左耳内侧特写，分别有开/关机键、暂停/播放键、加/减音量键、L（左）标识、充电指示灯，麦克风开孔。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "按键部分内侧结构和指示灯麦克风开孔。"
+          }
+        },
+        {
+          "component": "耳挂/挂钩",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "耳挂/挂钩",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "夹耳式结构特写，有耳挂和耳夹两部分组成。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "外壳和耳机接口母座处有胶水加固。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [
+        "包装盒内有耳机、充电线、说明书、保修卡、收纳包和2种耳机垫片。"
+      ],
+      "process_hints": [],
+      "summary_image_urls": [],
+      "summary_text": ""
+    },
+    "structure": {
+      "form_factor": "骨传导耳机",
+      "earbud_type": "其他",
+      "materials": [
+        "PC"
+      ],
+      "ip_rating": null,
+      "weight_g": "48g",
+      "dimensions": [
+        "骨传导单元与一元硬币的尺寸对比。",
+        "骨传导单元总直径约是10mm。",
+        "内部配置上，Earsopen逸鸥BT-5 采用了10mm的 earsopen 动态振子，将声音通过骨头直达听觉神经。"
+      ],
+      "internal_structure": [
+        {
+          "value": "取下电池，小板上连接导线为另一边的主板供电。",
+          "evidence": {
+            "value": "取下电池，小板上连接导线为另一边的主板供电。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "取下电池，小板上连接导线为另一边的主板供电。"
+          }
+        },
+        {
+          "value": "电路板背面预留了排线接口和麦克风焊盘。",
+          "evidence": {
+            "value": "电路板背面预留了排线接口和麦克风焊盘。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "电路板背面预留了排线接口和麦克风焊盘。"
+          }
+        },
+        {
+          "value": "可以看到右侧盖板下有锂聚合物电池和小板。",
+          "evidence": {
+            "value": "可以看到右侧盖板下有锂聚合物电池和小板。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "可以看到右侧盖板下有锂聚合物电池和小板。"
+          }
+        },
+        {
+          "value": "电池上印有危险注意事项和可循环标志，以及 Made in China 字样。",
+          "evidence": {
+            "value": "电池上印有危险注意事项和可循环标志，以及 Made in China 字样。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "电池上印有危险注意事项和可循环标志，以及 Made in China 字样。"
+          }
+        },
+        {
+          "value": "左耳内侧特写，分别有开/关机键、暂停/播放键、加/减音量键、L（左）标识、充电指示灯，麦克风开孔。",
+          "evidence": {
+            "value": "左耳内侧特写，分别有开/关机键、暂停/播放键、加/减音量键、L（左）标识、充电指示灯，麦克风开孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "左耳内侧特写，分别有开/关机键、暂停/播放键、加/减音量键、L（左）标识、充电指示灯，麦克风开孔。"
+          }
+        },
+        {
+          "value": "邮票蓝牙小板上有板载蓝牙天线，CE认证标志，微芯标志。",
+          "evidence": {
+            "value": "邮票蓝牙小板上有板载蓝牙天线，CE认证标志，微芯标志。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "邮票蓝牙小板上有板载蓝牙天线，CE认证标志，微芯标志。"
+          }
+        },
+        {
+          "value": "内部配置上，Earsopen逸鸥BT-5 采用了10mm的 earsopen 动态振子，将声音通过骨头直达听觉神经。耳机内置了300mAh电池，可实现8h的连续续航时间。耳机内置ISSC IS2020蓝牙SoC，内置锂电池充电功能。音频信号由TI TPA2012D2放大驱动骨传导单元。整机做工有浓厚的日系风格。",
+          "evidence": {
+            "value": "内部配置上，Earsopen逸鸥BT-5 采用了10mm的 earsopen 动态振子，将声音通过骨头直达听觉神经。耳机内置了300mAh电池，可实现8h的连续续航时间。耳机内置ISSC IS2020蓝牙SoC，内置锂电池充电功能。音频信号由TI TPA2012D2放大驱动骨传导单元。整机做工有浓厚的日系风格。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "内部配置上，Earsopen逸鸥BT-5 采用了10mm的 earsopen 动态振子，将声音通过骨头直达听觉神经。耳机内置了300mAh电池，可实现8h的连续续航时间。耳机内置ISSC IS2020蓝牙SoC，内置锂电池充电功能。音频信号由TI TPA2012D2放大驱动骨传导单元。整机做工有浓厚的日系风格。"
+          }
+        },
+        {
+          "value": "按键部分内侧结构和指示灯麦克风开孔。",
+          "evidence": {
+            "value": "按键部分内侧结构和指示灯麦克风开孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "按键部分内侧结构和指示灯麦克风开孔。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "右耳内侧特写，壳体使用螺丝固定。",
+          "evidence": {
+            "value": "右耳内侧特写，壳体使用螺丝固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "右耳内侧特写，壳体使用螺丝固定。"
+          }
+        },
+        {
+          "value": "二、Earsopen逸鸥BT-5 拆解\n卸下螺丝打开项圈右边的舱体。",
+          "evidence": {
+            "value": "二、Earsopen逸鸥BT-5 拆解\n卸下螺丝打开项圈右边的舱体。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "二、Earsopen逸鸥BT-5 拆解\n卸下螺丝打开项圈右边的舱体。"
+          }
+        },
+        {
+          "value": "外壳和耳机接口母座处有胶水加固。",
+          "evidence": {
+            "value": "外壳和耳机接口母座处有胶水加固。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "外壳和耳机接口母座处有胶水加固。"
+          }
+        },
+        {
+          "value": "卸下两颗螺丝，即可取下主板。",
+          "evidence": {
+            "value": "卸下两颗螺丝，即可取下主板。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸下两颗螺丝，即可取下主板。"
+          }
+        },
+        {
+          "value": "中间部分以螺丝和卡扣相结合的方式固定。",
+          "evidence": {
+            "value": "中间部分以螺丝和卡扣相结合的方式固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "中间部分以螺丝和卡扣相结合的方式固定。"
+          }
+        }
+      ],
+      "sealing_method": [
+        {
+          "value": "麦克风开孔特写，有一层防尘网覆盖，防止异物进入。",
+          "evidence": {
+            "value": "麦克风开孔特写，有一层防尘网覆盖，防止异物进入。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "麦克风开孔特写，有一层防尘网覆盖，防止异物进入。"
+          }
+        }
+      ],
+      "wear_design": [
+        {
+          "value": "由于骨传导的传音方式，不像传统耳机要通过耳道传输，所以即较少了对耳膜的损伤，还不会因为长时间佩戴使耳廓胀痛。",
+          "evidence": {
+            "value": "由于骨传导的传音方式，不像传统耳机要通过耳道传输，所以即较少了对耳膜的损伤，还不会因为长时间佩戴使耳廓胀痛。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "由于骨传导的传音方式，不像传统耳机要通过耳道传输，所以即较少了对耳膜的损伤，还不会因为长时间佩戴使耳廓胀痛。"
+          }
+        },
+        {
+          "value": "今天我爱音频网为大家带来的这款产品拆解报告就是一款运用了骨传导传音方式的蓝牙耳机 Earsopen逸鸥BT-5，这款耳机采用了独特的夹耳佩戴方式，利用头骨传递声音，避免鼓膜过度振动所造成的听力受损问题，并且解决了普通耳机所造成的耳朵疼痛发闷等外耳不适。",
+          "evidence": {
+            "value": "今天我爱音频网为大家带来的这款产品拆解报告就是一款运用了骨传导传音方式的蓝牙耳机 Earsopen逸鸥BT-5，这款耳机采用了独特的夹耳佩戴方式，利用头骨传递声音，避免鼓膜过度振动所造成的听力受损问题，并且解决了普通耳机所造成的耳朵疼痛发闷等外耳不适。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "今天我爱音频网为大家带来的这款产品拆解报告就是一款运用了骨传导传音方式的蓝牙耳机 Earsopen逸鸥BT-5，这款耳机采用了独特的夹耳佩戴方式，利用头骨传递声音，避免鼓膜过度振动所造成的听力受损问题，并且解决了普通耳机所造成的耳朵疼痛发闷等外耳不适。"
+          }
+        },
+        {
+          "value": "正面有耳机和佩戴方式渲染图，展示了耳机外观和佩戴方式。",
+          "evidence": {
+            "value": "正面有耳机和佩戴方式渲染图，展示了耳机外观和佩戴方式。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "正面有耳机和佩戴方式渲染图，展示了耳机外观和佩戴方式。"
+          }
+        },
+        {
+          "value": "夹耳式结构特写，有耳挂和耳夹两部分组成。",
+          "evidence": {
+            "value": "夹耳式结构特写，有耳挂和耳夹两部分组成。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "夹耳式结构特写，有耳挂和耳夹两部分组成。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/EARSOPEN-BT5骨传导-1.jpg",
+          "alt": "拆解报告：Earsopen逸鸥BT-5骨传导蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/EARSOPEN-BT5骨传导-2.jpg",
+          "alt": "拆解报告：Earsopen逸鸥BT-5骨传导蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/EARSOPEN-BT5骨传导-3.jpg",
+          "alt": "拆解报告：Earsopen逸鸥BT-5骨传导蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/EARSOPEN-BT5骨传导-4.jpg",
+          "alt": "拆解报告：Earsopen逸鸥BT-5骨传导蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/07/EARSOPEN-BT5骨传导-5.jpg",
+          "alt": "拆解报告：Earsopen逸鸥BT-5骨传导蓝牙耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "取下电池，小板上连接导线为另一边的主板供电。",
+        "电路板背面预留了排线接口和麦克风焊盘。",
+        "可以看到右侧盖板下有锂聚合物电池和小板。",
+        "电池上印有危险注意事项和可循环标志，以及 Made in China 字样。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": {
+        "value": "48g",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "48g"
+      }
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电方式",
+          "value": "我爱音频网采用\nChargerLAB POWER-Z KT001\n对 Earsopen逸鸥 BT-5 进行有线充电测试，充电电压5.0998V，电流0.0339A。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "我爱音频网采用\nChargerLAB POWER-Z KT001\n对 Earsopen逸鸥 BT-5 进行有线充电测试，充电电压5.0998V，电流0.0339A。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电线为USB-A to Micro USB接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电线为USB-A to Micro USB接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "左耳底部有充电接口，有保护盖板覆盖，防止灰尘进入。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "左耳底部有充电接口，有保护盖板覆盖，防止灰尘进入。"
+        },
+        {
+          "param": "充电接口",
+          "value": "打开盖板，可以看到 Micro USB 充电接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "打开盖板，可以看到 Micro USB 充电接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Micro USB",
+          "unit": "",
+          "brand": "",
+          "model": "Micro USB",
+          "confidence": 0.8,
+          "source_ref": "Micro USB"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "其中有耳机重量：48g；充电时间：约1.5h；连续使用时间：约10h；蓝牙版本：4.1；音频解码：A2DP、AVRCP、HFP/SBC；产品型号：earsopen BT-5 CL-1002；输入5V⎓0.3A；制造商：BoCo株式会社，经销商：布谷鸟（上海）智能科技有限公司等信息。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "其中有耳机重量：48g；充电时间：约1.5h；连续使用时间：约10h；蓝牙版本：4.1；音频解码：A2DP、AVRCP、HFP/SBC；产品型号：earsopen BT-5 CL-1002；输入5V⎓0.3A；制造商：BoCo株式会社，经销"
+        },
+        {
+          "param": "标记/认证",
+          "value": "邮票蓝牙小板上有板载蓝牙天线，CE认证标志，微芯标志。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "邮票蓝牙小板上有板载蓝牙天线，CE认证标志，微芯标志。"
+        },
+        {
+          "param": "电池容量",
+          "value": "300",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "300mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": null,
+      "codecs": [
+        {
+          "value": "SBC",
+          "evidence": {
+            "value": "SBC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "其中有耳机重量：48g；充电时间：约1.5h；连续使用时间：约10h；蓝牙版本：4.1；音频解码：A2DP、AVRCP、HFP/SBC；产品型号：earsopen BT-5 CL-1002；输入5V⎓0.3A；制造商：BoCo株式会社，经销商：布谷鸟（上海）智能科技有限公司等信息。"
+          }
+        }
+      ],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [],
+      "ota_support": [],
+      "latency_notes": [],
+      "bluetooth_evidence": null
+    }
+  }
+}

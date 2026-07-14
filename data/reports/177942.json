@@ -1,0 +1,603 @@
+{
+  "id": "177942",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/177942.html",
+  "title": "Axxen N920 Folder颈挂式耳机",
+  "brand": "",
+  "model": "Axxen N920 Folder",
+  "category": "颈挂式蓝牙耳机",
+  "published_at": "2023-10-13",
+  "author": "Wen5",
+  "summary": "蓝牙耳机基于无线连接技术为用户提供的便捷使用体验，在目前的耳机市场中成为了主流。在蓝牙耳机中，又包括了TWS耳 […]",
+  "captured_at": "2026-07-14T02:06:27+00:00",
+  "data_completeness": 0.694,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "Axxen N920 Folder",
+      "category": "颈挂式蓝牙耳机",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "耳机底部外观一览，右侧腔体上设置有充电接口，通过防尘塞防护。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "耳机底部外观一览，右侧腔体上设置有充电接口，通过防尘塞防护。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "耳机底部外观一览，右侧腔体上设置有充电接口，通过防尘塞防护。"
+          }
+        },
+        {
+          "text": "取掉防尘塞，Micro USB充电接口特写。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "取掉防尘塞，Micro USB充电接口特写。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "取掉防尘塞，Micro USB充电接口特写。"
+          }
+        }
+      ],
+      "scenarios": [
+        "运动",
+        "通话",
+        "健身"
+      ],
+      "positioning_summary": "耳机底部外观一览，右侧腔体上设置有充电接口，通过防尘塞防护。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "主板/PCBA",
+        "电池",
+        "麦克风",
+        "喇叭单元",
+        "天线"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm高通",
+          "model": "高通CSR8635",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通CSR8635",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "右侧腔体内置主板单元、驻极体麦克风和振动马达，主控芯片采用了Qualcomm高通CSR8635蓝牙音频单芯片方案。"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm高通",
+          "model": "高通CSR8635",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通CSR8635",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "右侧腔体内置主板单元、驻极体麦克风和振动马达，主控芯片采用了Qualcomm高通CSR8635蓝牙音频单芯片方案。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3V/00mAh锂电池",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3V/00mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "左侧腔体内置300mAh锂电池，配备有电路保护板负责电池的过充电、过放电、过电流等保护；"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "10mm 动圈单元",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "10mm 动圈单元",
+            "confidence": 0.8,
+            "source_type": "summary_prose",
+            "source_text": "耳机搭载了10mm动圈单元；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "右侧腔体内置主板单元、驻极体麦克风和振动马达，主控芯片采用了Qualcomm高通CSR8635蓝牙音频单芯片方案。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "腔体内部设置主板单元，于左侧导线焊接连接。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "腔体内部设置有电池单元，贴有海绵垫缓冲防护。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机顶部外观一览，颈带内侧采用了亲肤硅胶材质，佩戴与皮肤贴合舒适；两侧腔体上设置有操控按键、麦克风开孔，以及用于收缩线缆的按钮。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "打开耳机腔体，内部仅设置有扬声器单元。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机板载印刷天线特写，用于无线信号收发。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机顶部外观一览，颈带内侧采用了亲肤硅胶材质，佩戴与皮肤贴合舒适；两侧腔体上设置有操控按键、麦克风开孔，以及用于收缩线缆的按钮。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "右耳",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "右耳腔体外侧外观一览，设计有“Axxen”品牌LOGO，以及一颗接听按键和指示灯开孔。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机前腔内部结构一览。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "高通CSR8635",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通CSR8635",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Qualcomm高通CSR8635蓝牙音频单芯片方案，采用QFN封装方式，集成了超低功耗DSP和应用处理器、嵌入式闪存、高性能立体声编解码器、电源管理子系统和LED驱动器。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [
+        "包装盒内部物品有耳机、耳塞、充电线和使用说明书。"
+      ],
+      "process_hints": [
+        {
+          "value": "腔体内部设置主板单元，于左侧导线焊接连接。",
+          "evidence": {
+            "value": "腔体内部设置主板单元，于左侧导线焊接连接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "腔体内部设置主板单元，于左侧导线焊接连接。"
+          }
+        },
+        {
+          "value": "驻极体麦克风背面与导线焊接连接。",
+          "evidence": {
+            "value": "驻极体麦克风背面与导线焊接连接。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "驻极体麦克风背面与导线焊接连接。"
+          }
+        }
+      ],
+      "summary_image_urls": [],
+      "summary_text": "三、我爱音频网总结 Axxen N920 Folder颈挂式耳机在外观设计方面，颈挂内侧采用了硅胶材质，佩戴舒适亲肤；支持折叠功能，外出使用更加便携。耳机线材采用了可伸缩设计，多档位调节，既满足了不同用户的个性化需求，又便于不使用时收纳，防止线材缠绕；耳机采用了豆状的入耳式设计，体积非常小巧，佩戴舒适。 内部结构配置方面，两侧耳机搭载了10mm动圈单元；左侧腔体内置300mAh锂电池，配备有电路保护板负责电池的过充电、过放电、过电流等保护；右侧腔体内置主板单元、驻极体麦克风和振动马达，主控芯片采用了Qualcomm高通CSR8635蓝牙音频单芯片方案。"
+    },
+    "structure": {
+      "form_factor": "颈挂式蓝牙耳机",
+      "earbud_type": "颈挂",
+      "materials": [
+        "硅胶"
+      ],
+      "ip_rating": null,
+      "weight_g": "69.7g",
+      "dimensions": [
+        "两副不同尺寸的硅胶耳塞，耳机上预装一副。",
+        "Qualcomm高通CSR8635蓝牙音频单芯片方案，采用QFN封装方式，集成了超低功耗DSP和应用处理器、嵌入式闪存、高性能立体声编解码器、电源管理子系统和LED驱动器。",
+        "Qualcomm高通CSR8635详细资料图。"
+      ],
+      "internal_structure": [
+        {
+          "value": "腔体内部设置主板单元，于左侧导线焊接连接。",
+          "evidence": {
+            "value": "腔体内部设置主板单元，于左侧导线焊接连接。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "腔体内部设置主板单元，于左侧导线焊接连接。"
+          }
+        },
+        {
+          "value": "耳机主板一侧电路一览。",
+          "evidence": {
+            "value": "耳机主板一侧电路一览。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机主板一侧电路一览。"
+          }
+        },
+        {
+          "value": "腔体内部设置有电池单元，贴有海绵垫缓冲防护。",
+          "evidence": {
+            "value": "腔体内部设置有电池单元，贴有海绵垫缓冲防护。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "腔体内部设置有电池单元，贴有海绵垫缓冲防护。"
+          }
+        },
+        {
+          "value": "耳机内置锂离子电池型号：KRL 602030，标称电压：3.7V，额定容量：300mAh，中国制造。",
+          "evidence": {
+            "value": "耳机内置锂离子电池型号：KRL 602030，标称电压：3.7V，额定容量：300mAh，中国制造。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机内置锂离子电池型号：KRL 602030，标称电压：3.7V，额定容量：300mAh，中国制造。"
+          }
+        },
+        {
+          "value": "耳机顶部外观一览，颈带内侧采用了亲肤硅胶材质，佩戴与皮肤贴合舒适；两侧腔体上设置有操控按键、麦克风开孔，以及用于收缩线缆的按钮。",
+          "evidence": {
+            "value": "耳机顶部外观一览，颈带内侧采用了亲肤硅胶材质，佩戴与皮肤贴合舒适；两侧腔体上设置有操控按键、麦克风开孔，以及用于收缩线缆的按钮。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机顶部外观一览，颈带内侧采用了亲肤硅胶材质，佩戴与皮肤贴合舒适；两侧腔体上设置有操控按键、麦克风开孔，以及用于收缩线缆的按钮。"
+          }
+        },
+        {
+          "value": "麦克风开孔特写，用于语音通话功能拾音。",
+          "evidence": {
+            "value": "麦克风开孔特写，用于语音通话功能拾音。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "麦克风开孔特写，用于语音通话功能拾音。"
+          }
+        },
+        {
+          "value": "打开耳机腔体，内部仅设置有扬声器单元。",
+          "evidence": {
+            "value": "打开耳机腔体，内部仅设置有扬声器单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "打开耳机腔体，内部仅设置有扬声器单元。"
+          }
+        },
+        {
+          "value": "扬声器单元正面特写，振膜通过金属盖板防护。",
+          "evidence": {
+            "value": "扬声器单元正面特写，振膜通过金属盖板防护。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "扬声器单元正面特写，振膜通过金属盖板防护。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "二、\nAxxen N920 Folder颈挂式耳机拆解\n拆开卡扣式固定右侧腔体盖板。",
+          "evidence": {
+            "value": "二、\nAxxen N920 Folder颈挂式耳机拆解\n拆开卡扣式固定右侧腔体盖板。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "二、\nAxxen N920 Folder颈挂式耳机拆解\n拆开卡扣式固定右侧腔体盖板。"
+          }
+        }
+      ],
+      "sealing_method": [],
+      "wear_design": [
+        {
+          "value": "其中，颈挂式耳机凭借着单次续航时间长、便携性、佩戴稳定、不易丢失等特点逐渐成为了健身运动场景的首选。",
+          "evidence": {
+            "value": "其中，颈挂式耳机凭借着单次续航时间长、便携性、佩戴稳定、不易丢失等特点逐渐成为了健身运动场景的首选。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "其中，颈挂式耳机凭借着单次续航时间长、便携性、佩戴稳定、不易丢失等特点逐渐成为了健身运动场景的首选。"
+          }
+        },
+        {
+          "value": "包装盒内部物品有耳机、耳塞、充电线和使用说明书。",
+          "evidence": {
+            "value": "包装盒内部物品有耳机、耳塞、充电线和使用说明书。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "包装盒内部物品有耳机、耳塞、充电线和使用说明书。"
+          }
+        },
+        {
+          "value": "两副不同尺寸的硅胶耳塞，耳机上预装一副。",
+          "evidence": {
+            "value": "两副不同尺寸的硅胶耳塞，耳机上预装一副。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "两副不同尺寸的硅胶耳塞，耳机上预装一副。"
+          }
+        },
+        {
+          "value": "耳机顶部外观一览，颈带内侧采用了亲肤硅胶材质，佩戴与皮肤贴合舒适；两侧腔体上设置有操控按键、麦克风开孔，以及用于收缩线缆的按钮。",
+          "evidence": {
+            "value": "耳机顶部外观一览，颈带内侧采用了亲肤硅胶材质，佩戴与皮肤贴合舒适；两侧腔体上设置有操控按键、麦克风开孔，以及用于收缩线缆的按钮。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "耳机顶部外观一览，颈带内侧采用了亲肤硅胶材质，佩戴与皮肤贴合舒适；两侧腔体上设置有操控按键、麦克风开孔，以及用于收缩线缆的按钮。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/10/2023101310181657.jpeg",
+          "alt": "拆解报告：Axxen N920 Folder颈挂式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/10/2023101310181789.jpeg",
+          "alt": "拆解报告：Axxen N920 Folder颈挂式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/10/2023101310181983.jpeg",
+          "alt": "拆解报告：Axxen N920 Folder颈挂式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/10/2023101310182023.jpeg",
+          "alt": "拆解报告：Axxen N920 Folder颈挂式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/10/2023101310182188.jpeg",
+          "alt": "拆解报告：Axxen N920 Folder颈挂式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "腔体内部设置主板单元，于左侧导线焊接连接。",
+        "耳机主板一侧电路一览。",
+        "腔体内部设置有电池单元，贴有海绵垫缓冲防护。",
+        "耳机内置锂离子电池型号：KRL 602030，标称电压：3.7V，额定容量：300mAh，中国制造。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": {
+        "value": "69.7g",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "69.7g"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": null,
+      "weight_earbud_evidence": null
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "耳机充电线，采用了USB-A to Micro USB接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "耳机充电线，采用了USB-A to Micro USB接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "耳机底部外观一览，右侧腔体上设置有充电接口，通过防尘塞防护。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "耳机底部外观一览，右侧腔体上设置有充电接口，通过防尘塞防护。"
+        },
+        {
+          "param": "充电接口",
+          "value": "取掉防尘塞，Micro USB充电接口特写。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "取掉防尘塞，Micro USB充电接口特写。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Micro USB充电母座特写。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Micro USB充电母座特写。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Micro USB",
+          "unit": "",
+          "brand": "",
+          "model": "Micro USB",
+          "confidence": 0.8,
+          "source_ref": "Micro USB"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "Axxen是韩国的一个3C数码品牌，此次将要拆解的Axxen N920 Folder是其旗下一款颈挂式蓝牙耳机产品，在外观上设计独特，颈带支持折叠，耳机线缆可伸缩收纳，拥有着更好地便携性。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "Axxen是韩国的一个3C数码品牌，此次将要拆解的Axxen N920 Folder是其旗下一款颈挂式蓝牙耳机产品，在外观上设计独特，颈带支持折叠，耳机线缆可伸缩收纳，拥有着更好地便携性。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "耳机内置锂离子电池型号：KRL 602030，标称电压：3.7V，额定容量：300mAh，中国制造。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "耳机内置锂离子电池型号：KRL 602030，标称电压：3.7V，额定容量：300mAh，中国制造。"
+        },
+        {
+          "param": "电池容量",
+          "value": "300",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "300mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.0",
+      "codecs": [],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [
+        {
+          "value": "Qualcomm高通CSR8635蓝牙音频单芯片方案，采用QFN封装方式，集成了超低功耗DSP和应用处理器、嵌入式闪存、高性能立体声编解码器、电源管理子系统和LED驱动器。",
+          "evidence": {
+            "value": "Qualcomm高通CSR8635蓝牙音频单芯片方案，采用QFN封装方式，集成了超低功耗DSP和应用处理器、嵌入式闪存、高性能立体声编解码器、电源管理子系统和LED驱动器。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "Qualcomm高通CSR8635蓝牙音频单芯片方案，采用QFN封装方式，集成了超低功耗DSP和应用处理器、嵌入式闪存、高性能立体声编解码器、电源管理子系统和LED驱动器。"
+          }
+        }
+      ],
+      "ota_support": [
+        {
+          "value": "丝印25LX04T的存储器，用于储存固件等信息。",
+          "evidence": {
+            "value": "丝印25LX04T的存储器，用于储存固件等信息。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "丝印25LX04T的存储器，用于储存固件等信息。"
+          }
+        }
+      ],
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "5.0",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.0"
+      }
+    }
+  }
+}

@@ -1,0 +1,602 @@
+{
+  "id": "15478",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/15478.html",
+  "title": "Lenovo联想TWS真无线耳机S1",
+  "brand": "",
+  "model": "Lenovo联想TWS真无线耳机S1",
+  "category": "真无线耳机TWS",
+  "published_at": "2019-02-18",
+  "author": "Vallière",
+  "summary": "传统电脑知名品牌联想不仅涉足电脑，还在手机等可移动设备领域推出不少知名产品。联想这几年在手机和可穿戴设备上的投 […]",
+  "captured_at": "2026-07-14T02:14:52+00:00",
+  "data_completeness": 0.71,
+  "views": {
+    "market": {
+      "brand": "",
+      "model": "Lenovo联想TWS真无线耳机S1",
+      "category": "真无线耳机TWS",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "防尘塞之下配备了USB-A接口和Micro USB接口，耳机充电盒抛光的腰线增加了层次感。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "防尘塞之下配备了USB-A接口和Micro USB接口，耳机充电盒抛光的腰线增加了层次感。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "防尘塞之下配备了USB-A接口和Micro USB接口，耳机充电盒抛光的腰线增加了层次感。"
+          }
+        },
+        {
+          "text": "接口部分有防尘塞保护，防尘塞为软硅胶材质，上面有USB输出接口和充电输入的标识。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "接口部分有防尘塞保护，防尘塞为软硅胶材质，上面有USB输出接口和充电输入的标识。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "接口部分有防尘塞保护，防尘塞为软硅胶材质，上面有USB输出接口和充电输入的标识。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通话"
+      ],
+      "positioning_summary": "防尘塞之下配备了USB-A接口和Micro USB接口，耳机充电盒抛光的腰线增加了层次感。",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "充电仓",
+        "电池",
+        "主板/PCBA",
+        "天线",
+        "麦克风"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "Airoha",
+          "model": "络达AB1526P",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "络达AB1526P",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "络达AB1526P"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB1526",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB1526",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "AB1526"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "产品内含有耳机充电盒+本体、两幅硅胶耳塞、Micro USB充电线和使用说明等。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒背面贴有铭牌，可以看出这款耳机充电盒是专用的，适用产品：联想TWS真无线耳机S1，型号：Lenove S1，输出电压DC5V，输入电压DC5V 1000mA，充电盒电池：3.7V 1800mAh。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机充电盒的主板和电池、充电触点小板采用导线连接。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "背盖内侧特写，有按键组件和蓝牙天线。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "这块海绵除了给麦克风隔音之外，还兼顾LED灯的遮光作用。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "打开耳机充电盒，电量指示灯亮起，，可以看到耳机充电盒C面也是磨砂处理，看到两只耳机躺在里面。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机内侧的充电触点。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "背盖内侧特写，有按键组件和蓝牙天线。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "络达AB1526P",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "络达AB1526P",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "据我爱音频网拆解，这款耳机采用AIROHA络达AB1526P真无线蓝牙音频方案，Airoha络达 AB1526P支持蓝牙V5.0，里面内置了用于高保真音频应用的基带和发射器，支持双路麦克风定义的宽带语音，以获得更好的降噪和回声消除性能。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB1526",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB1526",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "据我爱音频网拆解，这款耳机采用AIROHA络达AB1526P真无线蓝牙音频方案，Airoha络达 AB1526P支持蓝牙V5.0，里面内置了用于高保真音频应用的基带和发射器，支持双路麦克风定义的宽带语音，以获得更好的降噪和回声消除性能。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB1526",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB1526",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "AB1526P内嵌串行闪存，更灵活地支持客户软件升级和第三方软件移植。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "络达AB1526P",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "络达AB1526P",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "三、我爱音频网拆解总结\n1、采用磨砂质感的圆滑的充电盒，手感舒适；\n2、内置AIROHA络达AB1526P真无线蓝牙音频方案，支持蓝牙5.0和双路语音；\n3、耳机以及充电盒的电池都做了保护电路。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB1526",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB1526",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "三、我爱音频网拆解总结\n1、采用磨砂质感的圆滑的充电盒，手感舒适；\n2、内置AIROHA络达AB1526P真无线蓝牙音频方案，支持蓝牙5.0和双路语音；\n3、耳机以及充电盒的电池都做了保护电路。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [],
+      "process_hints": [],
+      "summary_image_urls": [],
+      "summary_text": ""
+    },
+    "structure": {
+      "form_factor": "真无线耳机TWS",
+      "earbud_type": "入耳",
+      "materials": [
+        "硅胶",
+        "塑料",
+        "PC"
+      ],
+      "ip_rating": null,
+      "weight_g": null,
+      "dimensions": [],
+      "internal_structure": [
+        {
+          "value": "充电盒背面贴有铭牌，可以看出这款耳机充电盒是专用的，适用产品：联想TWS真无线耳机S1，型号：Lenove S1，输出电压DC5V，输入电压DC5V 1000mA，充电盒电池：3.7V 1800mAh。",
+          "evidence": {
+            "value": "充电盒背面贴有铭牌，可以看出这款耳机充电盒是专用的，适用产品：联想TWS真无线耳机S1，型号：Lenove S1，输出电压DC5V，输入电压DC5V 1000mA，充电盒电池：3.7V 1800mAh。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "充电盒背面贴有铭牌，可以看出这款耳机充电盒是专用的，适用产品：联想TWS真无线耳机S1，型号：Lenove S1，输出电压DC5V，输入电压DC5V 1000mA，充电盒电池：3.7V 1800mAh。"
+          }
+        },
+        {
+          "value": "拆开耳机充电盒，盒内电池占据了绝大部分空间。",
+          "evidence": {
+            "value": "拆开耳机充电盒，盒内电池占据了绝大部分空间。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "拆开耳机充电盒，盒内电池占据了绝大部分空间。"
+          }
+        },
+        {
+          "value": "耳机充电盒的主板和电池、充电触点小板采用导线连接。",
+          "evidence": {
+            "value": "耳机充电盒的主板和电池、充电触点小板采用导线连接。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机充电盒的主板和电池、充电触点小板采用导线连接。"
+          }
+        },
+        {
+          "value": "耳机充电盒主板正面特写。",
+          "evidence": {
+            "value": "耳机充电盒主板正面特写。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机充电盒主板正面特写。"
+          }
+        },
+        {
+          "value": "背盖内侧特写，有按键组件和蓝牙天线。",
+          "evidence": {
+            "value": "背盖内侧特写，有按键组件和蓝牙天线。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "背盖内侧特写，有按键组件和蓝牙天线。"
+          }
+        },
+        {
+          "value": "背盖上的蓝牙天线触点弹针。",
+          "evidence": {
+            "value": "背盖上的蓝牙天线触点弹针。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "背盖上的蓝牙天线触点弹针。"
+          }
+        },
+        {
+          "value": "这块海绵除了给麦克风隔音之外，还兼顾LED灯的遮光作用。",
+          "evidence": {
+            "value": "这块海绵除了给麦克风隔音之外，还兼顾LED灯的遮光作用。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "这块海绵除了给麦克风隔音之外，还兼顾LED灯的遮光作用。"
+          }
+        },
+        {
+          "value": "据我爱音频网拆解，这款耳机采用AIROHA络达AB1526P真无线蓝牙音频方案，Airoha络达 AB1526P支持蓝牙V5.0，里面内置了用于高保真音频应用的基带和发射器，支持双路麦克风定义的宽带语音，以获得更好的降噪和回声消除性能。支持A2DP、HFP、HSP和AVRCP。AB1526P内嵌串行闪存，更灵活地支持客户软件升级和第三方软件移植。凭借优化的MCU结构，接口布局和更好的DSP算法，AB1526P在大多数蓝牙音频应用中提供了更高的性能和语音和音乐质量。另外，比起前代AB1526，AB1526P，支持TWS一拖二和双边通话。",
+          "evidence": {
+            "value": "据我爱音频网拆解，这款耳机采用AIROHA络达AB1526P真无线蓝牙音频方案，Airoha络达 AB1526P支持蓝牙V5.0，里面内置了用于高保真音频应用的基带和发射器，支持双路麦克风定义的宽带语音，以获得更好的降噪和回声消除性能。支持A2DP、HFP、HSP和AVRCP。AB1526P内嵌串行闪存，更灵活地支持客户软件升级和第三方软件移植。凭借优化的MCU结构，接口布局和更好的DSP算法，AB1526P在大多数蓝牙音频应用中提供了更高的性能和语音和音乐质量。另外，比起前代AB1526，AB1526P，支持TWS一拖二和双边通话。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "据我爱音频网拆解，这款耳机采用AIROHA络达AB1526P真无线蓝牙音频方案，Airoha络达 AB1526P支持蓝牙V5.0，里面内置了用于高保真音频应用的基带和发射器，支持双路麦克风定义的宽带语音，以获得更好的降噪和回声消除性能。支持A2DP、HFP、HSP和AVRCP。AB1526P内嵌串行闪存，更灵活地支持客户软件升级和第三方软件移植。凭借优化的MCU结构，接口布局和更好的DSP算法，AB1526P在大多数蓝牙音频应用中提供了更高的性能和语音和音乐质量。另外，比起前代AB1526，AB1526P，支持TWS一拖二和双边通话。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "从中间拆开两只耳塞，可以看到使用卡扣固定。",
+          "evidence": {
+            "value": "从中间拆开两只耳塞，可以看到使用卡扣固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "从中间拆开两只耳塞，可以看到使用卡扣固定。"
+          }
+        },
+        {
+          "value": "从中间拆开两只耳塞，可以看到使用卡扣固定。",
+          "evidence": {
+            "value": "从中间拆开两只耳塞，可以看到使用卡扣固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "从中间拆开两只耳塞，可以看到使用卡扣固定。"
+          }
+        }
+      ],
+      "sealing_method": [],
+      "wear_design": [
+        {
+          "value": "产品内含有耳机充电盒+本体、两幅硅胶耳塞、Micro USB充电线和使用说明等。",
+          "evidence": {
+            "value": "产品内含有耳机充电盒+本体、两幅硅胶耳塞、Micro USB充电线和使用说明等。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "产品内含有耳机充电盒+本体、两幅硅胶耳塞、Micro USB充电线和使用说明等。"
+          }
+        },
+        {
+          "value": "从中间拆开两只耳塞，可以看到使用卡扣固定。",
+          "evidence": {
+            "value": "从中间拆开两只耳塞，可以看到使用卡扣固定。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "从中间拆开两只耳塞，可以看到使用卡扣固定。"
+          }
+        },
+        {
+          "value": "从中间拆开两只耳塞，可以看到使用卡扣固定。",
+          "evidence": {
+            "value": "从中间拆开两只耳塞，可以看到使用卡扣固定。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "从中间拆开两只耳塞，可以看到使用卡扣固定。"
+          }
+        },
+        {
+          "value": "三、我爱音频网拆解总结\n1、采用磨砂质感的圆滑的充电盒，手感舒适；\n2、内置AIROHA络达AB1526P真无线蓝牙音频方案，支持蓝牙5.0和双路语音；\n3、耳机以及充电盒的电池都做了保护电路。",
+          "evidence": {
+            "value": "三、我爱音频网拆解总结\n1、采用磨砂质感的圆滑的充电盒，手感舒适；\n2、内置AIROHA络达AB1526P真无线蓝牙音频方案，支持蓝牙5.0和双路语音；\n3、耳机以及充电盒的电池都做了保护电路。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "三、我爱音频网拆解总结\n1、采用磨砂质感的圆滑的充电盒，手感舒适；\n2、内置AIROHA络达AB1526P真无线蓝牙音频方案，支持蓝牙5.0和双路语音；\n3、耳机以及充电盒的电池都做了保护电路。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/02/联想真无线耳机S1-1.jpg",
+          "alt": "拆解报告：Lenovo联想TWS真无线耳机S1-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/02/联想真无线耳机S1-2.jpg",
+          "alt": "拆解报告：Lenovo联想TWS真无线耳机S1-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/02/联想真无线耳机S1-3.jpg",
+          "alt": "拆解报告：Lenovo联想TWS真无线耳机S1-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/02/联想真无线耳机S1-4.jpg",
+          "alt": "拆解报告：Lenovo联想TWS真无线耳机S1-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/02/联想真无线耳机S1-5.jpg",
+          "alt": "拆解报告：Lenovo联想TWS真无线耳机S1-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "充电盒背面贴有铭牌，可以看出这款耳机充电盒是专用的，适用产品：联想TWS真无线耳机S1，型号：Lenove S1，输出电压DC5V，输入电压DC5V 1000mA，充电盒电池：3.7V 1800mAh。",
+        "拆开耳机充电盒，盒内电池占据了绝大部分空间。",
+        "耳机充电盒的主板和电池、充电触点小板采用导线连接。",
+        "耳机充电盒主板正面特写。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": null
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "产品内含有耳机充电盒+本体、两幅硅胶耳塞、Micro USB充电线和使用说明等。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "产品内含有耳机充电盒+本体、两幅硅胶耳塞、Micro USB充电线和使用说明等。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Micro USB充电线。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Micro USB充电线。"
+        },
+        {
+          "param": "充电接口",
+          "value": "防尘塞之下配备了USB-A接口和Micro USB接口，耳机充电盒抛光的腰线增加了层次感。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "防尘塞之下配备了USB-A接口和Micro USB接口，耳机充电盒抛光的腰线增加了层次感。"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A、Micro USB接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "USB-A、Micro USB接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Micro USB",
+          "unit": "",
+          "brand": "",
+          "model": "Micro USB",
+          "confidence": 0.8,
+          "source_ref": "Micro USB"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "充电盒背面贴有铭牌，可以看出这款耳机充电盒是专用的，适用产品：联想TWS真无线耳机S1，型号：Lenove S1，输出电压DC5V，输入电压DC5V 1000mA，充电盒电池：3.7V 1800mAh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒背面贴有铭牌，可以看出这款耳机充电盒是专用的，适用产品：联想TWS真无线耳机S1，型号：Lenove S1，输出电压DC5V，输入电压DC5V 1000mA，充电盒电池：3.7V 1800mAh。"
+        },
+        {
+          "param": "电池容量",
+          "value": "1800",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "1800mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "5.0",
+      "codecs": [],
+      "multipoint": [
+        {
+          "value": "另外，比起前代AB1526，AB1526P，支持TWS一拖二和双边通话。",
+          "evidence": {
+            "value": "另外，比起前代AB1526，AB1526P，支持TWS一拖二和双边通话。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "另外，比起前代AB1526，AB1526P，支持TWS一拖二和双边通话。"
+          }
+        }
+      ],
+      "app_name": "",
+      "app_features": [
+        {
+          "value": "据我爱音频网拆解，这款耳机采用AIROHA络达AB1526P真无线蓝牙音频方案，Airoha络达 AB1526P支持蓝牙V5.0，里面内置了用于高保真音频应用的基带和发射器，支持双路麦克风定义的宽带语音，以获得更好的降噪和回声消除性能。",
+          "evidence": {
+            "value": "据我爱音频网拆解，这款耳机采用AIROHA络达AB1526P真无线蓝牙音频方案，Airoha络达 AB1526P支持蓝牙V5.0，里面内置了用于高保真音频应用的基带和发射器，支持双路麦克风定义的宽带语音，以获得更好的降噪和回声消除性能。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "据我爱音频网拆解，这款耳机采用AIROHA络达AB1526P真无线蓝牙音频方案，Airoha络达 AB1526P支持蓝牙V5.0，里面内置了用于高保真音频应用的基带和发射器，支持双路麦克风定义的宽带语音，以获得更好的降噪和回声消除性能。"
+          }
+        },
+        {
+          "value": "凭借优化的MCU结构，接口布局和更好的DSP算法，AB1526P在大多数蓝牙音频应用中提供了更高的性能和语音和音乐质量。",
+          "evidence": {
+            "value": "凭借优化的MCU结构，接口布局和更好的DSP算法，AB1526P在大多数蓝牙音频应用中提供了更高的性能和语音和音乐质量。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "凭借优化的MCU结构，接口布局和更好的DSP算法，AB1526P在大多数蓝牙音频应用中提供了更高的性能和语音和音乐质量。"
+          }
+        }
+      ],
+      "ota_support": [
+        {
+          "value": "AB1526P内嵌串行闪存，更灵活地支持客户软件升级和第三方软件移植。",
+          "evidence": {
+            "value": "AB1526P内嵌串行闪存，更灵活地支持客户软件升级和第三方软件移植。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "AB1526P内嵌串行闪存，更灵活地支持客户软件升级和第三方软件移植。"
+          }
+        }
+      ],
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "5.0",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.0"
+      }
+    }
+  }
+}

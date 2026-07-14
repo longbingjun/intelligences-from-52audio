@@ -93,6 +93,20 @@
             "source_type": "summary_prose",
             "source_text": "主板上，搭载了INJOINIC英集芯IP5528充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示等多功能，支持跟随充电，能够提升15%~20%的TWS耳机综合续航时间。"
           }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "CM1126B",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "CM1126B",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载了3.6V/40mAh钢壳扣式电池，配备ICM创芯微CM1126B-GAC单节电池保护IC；"
+          }
         }
       ],
       "bom_table": [
@@ -122,6 +136,20 @@
             "confidence": 0.85,
             "source_type": "summary_prose",
             "source_text": "充电盒搭载了3.7V/400mAh锂电池，配备有电路保护板负责过充过放过流等保护；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "CM1126B",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "CM1126B",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载了3.6V/40mAh钢壳扣式电池，配备ICM创芯微CM1126B-GAC单节电池保护IC；"
           }
         },
         {
@@ -596,9 +624,18 @@
       },
       "weight_evidence": {
         "value": "46.2g",
-        "confidence": 0.75,
+        "confidence": 0.85,
         "source_type": "text",
-        "source_text": "46.2g"
+        "source_text": "机乐堂Openfree OE3开放式耳机整机重量约为46.2g，轻巧便携"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "5.3g",
+      "weight_earbud_evidence": {
+        "value": "5.3g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "耳机整机重量约为46.2g，轻巧便携。\n单只耳机重量约为5.3g。\n我爱音"
       }
     },
     "hardware": {
@@ -871,6 +908,6 @@
       "bluetooth_evidence": null
     }
   },
-  "data_completeness": 0.742,
+  "data_completeness": 0.768,
   "source_layer": "technical"
 }
