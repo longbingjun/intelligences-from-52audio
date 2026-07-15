@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
-import type { CompareProfiles, IndexProduct } from "../lib/types";
-import { productDisplayName, profileForCategory } from "../lib/types";
+import type { IndexProduct } from "../lib/types";
+import { productDisplayName } from "../lib/types";
 import { withBase } from "../lib/paths";
 
 const UNKNOWN_BRAND_KEY = "__unknown__";
@@ -29,7 +29,6 @@ interface Props {
   unknownBrandCount: number;
   initialSlices: CategorySlice[];
   fullIndexUrl: string;
-  profiles: CompareProfiles;
 }
 
 const CATEGORY_COLORS: Record<string, { bg: string; text: string }> = {
@@ -68,7 +67,6 @@ export default function ProductBrowser({
   unknownBrandCount,
   initialSlices,
   fullIndexUrl,
-  profiles,
 }: Props) {
   const [fullIndex, setFullIndex] = useState<IndexProduct[] | null>(null);
   const [loadFailed, setLoadFailed] = useState(false);
@@ -137,34 +135,10 @@ export default function ProductBrowser({
     [selected, productById]
   );
 
-  // 按对比参数分组（profile）而非按品类分组：同一 profile 下的多个品类共用同一套
-  // 对比参数（p0/p1），因此跨品类但同 profile 的选择可以合并成一个“去对比”按钮；
-  // 跨 profile 的选择则拆成多个按钮，分别指向各自分组里产品数最多的品类页。
-  const compareGroups = useMemo(() => {
-    const groups = new Map<
-      string,
-      { label: string; ids: string[]; categoryCounts: Map<string, number> }
-    >();
-    selectedProducts.forEach((p) => {
-      const { key } = profileForCategory(profiles, p.category);
-      const label = profiles.profiles[key]?.label || key;
-      if (!groups.has(key)) groups.set(key, { label, ids: [], categoryCounts: new Map() });
-      const g = groups.get(key)!;
-      g.ids.push(p.canonical_id);
-      g.categoryCounts.set(p.category, (g.categoryCounts.get(p.category) || 0) + 1);
-    });
-    return Array.from(groups.entries()).map(([key, g]) => {
-      let targetCategory = "";
-      let max = -1;
-      g.categoryCounts.forEach((count, cat) => {
-        if (count > max) {
-          max = count;
-          targetCategory = cat;
-        }
-      });
-      return { key, label: g.label, ids: g.ids, targetCategory };
-    });
-  }, [selectedProducts, profiles]);
+  const compareHref =
+    selected.length > 0
+      ? withBase(`/compare?ids=${selected.join(",")}`)
+      : withBase("/compare");
 
   const toggleProduct = (id: string) => {
     setSelected((prev) => (prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]));
@@ -321,24 +295,37 @@ export default function ProductBrowser({
                     </div>
                     <div className="mt-4 flex gap-3 overflow-x-auto pb-1">
                       {slice.products.map((p) => (
-                        <a
+                        <div
                           key={p.canonical_id}
-                          href={withBase(`/product/${p.canonical_id}`)}
-                          className="block w-56 flex-shrink-0 rounded-2xl border border-[var(--line)] bg-white p-4 no-underline shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+                          className="relative w-56 flex-shrink-0 rounded-2xl border border-[var(--line)] bg-white p-4 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
                         >
-                          <div className="flex items-center justify-between">
-                            <span
-                              style={{ background: color.bg, color: color.text }}
-                              className="rounded-full px-2 py-0.5 text-xs font-medium"
-                            >
-                              {p.category}
-                            </span>
-                            <span className="text-xs text-[var(--muted)]">{p.first_seen || ""}</span>
-                          </div>
-                          <div className="mt-2 font-semibold text-[var(--text)]">
-                            {productDisplayName(p)}
-                          </div>
-                        </a>
+                          <label className="absolute right-3 top-3 cursor-pointer">
+                            <input
+                              type="checkbox"
+                              checked={selected.includes(p.canonical_id)}
+                              onChange={() => toggleProduct(p.canonical_id)}
+                              className="h-4 w-4"
+                              aria-label={`选择 ${productDisplayName(p)}`}
+                            />
+                          </label>
+                          <a
+                            href={withBase(`/product/${p.canonical_id}`)}
+                            className="block no-underline"
+                          >
+                            <div className="flex items-center justify-between pr-6">
+                              <span
+                                style={{ background: color.bg, color: color.text }}
+                                className="rounded-full px-2 py-0.5 text-xs font-medium"
+                              >
+                                {p.category}
+                              </span>
+                              <span className="text-xs text-[var(--muted)]">{p.first_seen || ""}</span>
+                            </div>
+                            <div className="mt-2 font-semibold text-[var(--text)]">
+                              {productDisplayName(p)}
+                            </div>
+                          </a>
+                        </div>
                       ))}
                       {slice.products.length === 0 && (
                         <p className="text-sm text-[var(--muted)]">该品类暂无产品数据</p>
@@ -463,17 +450,12 @@ export default function ProductBrowser({
                 清空
               </button>
               <div className="ml-auto flex flex-wrap gap-2">
-                {compareGroups.map((g) => (
-                  <a
-                    key={g.key}
-                    href={withBase(
-                      `/category/${encodeURIComponent(g.targetCategory)}?ids=${g.ids.join(",")}`
-                    )}
-                    className="rounded-full bg-[var(--primary)] px-4 py-2 text-sm font-medium text-white no-underline hover:bg-[var(--primary-dark)]"
-                  >
-                    对比{g.label}分组 {g.ids.length} 款 →
-                  </a>
-                ))}
+                <a
+                  href={compareHref}
+                  className="rounded-full bg-[var(--primary)] px-4 py-2 text-sm font-medium text-white no-underline hover:bg-[var(--primary-dark)]"
+                >
+                  去对比 {selected.length} 款 →
+                </a>
               </div>
             </div>
           </div>

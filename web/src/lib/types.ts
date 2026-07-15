@@ -79,6 +79,44 @@ export function profileForCategory(
   return { key: "default", p0: d.p0, p1: d.p1 };
 }
 
+/** 某参数是否属于该品类的对比字段集（p0 或 p1）。 */
+export function paramAppliesToCategory(
+  profiles: CompareProfiles,
+  category: string,
+  param: string
+): boolean {
+  const { p0, p1 } = profileForCategory(profiles, category);
+  return p0.includes(param) || p1.includes(param);
+}
+
+/** 跨品类对比：合并多个品类 profile 的参数行，保持全局 param_labels 顺序。 */
+export function unifiedParamRows(
+  profiles: CompareProfiles,
+  categories: string[],
+  showP1: boolean
+): string[] {
+  const seen = new Set<string>();
+  const merged: string[] = [];
+  for (const cat of categories) {
+    const { p0, p1 } = profileForCategory(profiles, cat);
+    for (const param of [...p0, ...(showP1 ? p1 : [])]) {
+      if (!seen.has(param)) {
+        seen.add(param);
+        merged.push(param);
+      }
+    }
+  }
+  const labelOrder = Object.keys(profiles.param_labels);
+  return merged.sort((a, b) => {
+    const ai = labelOrder.indexOf(a);
+    const bi = labelOrder.indexOf(b);
+    if (ai === -1 && bi === -1) return a.localeCompare(b);
+    if (ai === -1) return 1;
+    if (bi === -1) return -1;
+    return ai - bi;
+  });
+}
+
 export function emptyHint(value: string | undefined): boolean {
   return !value || value === "0" || value === "—";
 }
