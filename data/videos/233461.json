@@ -15,8 +15,8 @@
   "source_site": "哔哩哔哩 (Bilibili)",
   "video_embed_url": "https://player.bilibili.com/player.html?bvid=BV1zyd7YwEsC&page=1&as_wide=1",
   "captured_at": "2026-07-14T02:03:46+00:00",
-  "asr_status": "pending",
-  "data_completeness": 0.178,
+  "asr_status": "done",
+  "data_completeness": 0.632,
   "views": {
     "market": {
       "brand": "SHOKZ韶音",
@@ -55,12 +55,227 @@
       "price_evidence": null
     },
     "cost": {
-      "major_parts": [],
-      "chip_modules": [],
-      "bom_table": [],
+      "major_parts": [
+        "电池",
+        "充电仓",
+        "麦克风",
+        "主板/PCBA"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "BES-27000IH",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES-27000IH",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "BES-27000IH"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB9",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB9",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "AB9"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "SY8809",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "SY8809",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "SY8809"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "能量仓内部,上从覆盖有配带检测传感器,中间设置电池单元。"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机充电盒设计原论体积小巧。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "质感出色,动态湖上设置有麦克风时音孔。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "两侧设置PCBA版,先开配带检测传感器。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "机身上设置有蓝牙配对按键。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "机身上设置有指示灯。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "能量仓底部设置有充电触点。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "拆解充电盒部分敲开外壳。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB9",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB9",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "思议、NXDNAB9的霍尔元件。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "SY8809",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "SY8809",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "4元半导替SY8809蓝牙耳机充电仓解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "BES-27000IH",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES-27000IH",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "采用了恒选BES-27000IH来压音频SOC。"
+          }
+        }
+      ],
       "supply_hints": [],
-      "packaging_notes": [],
-      "process_hints": [],
+      "packaging_notes": [
+        "使用说明书和保修卡,此款为星级白配色。"
+      ],
+      "process_hints": [
+        {
+          "value": "4艺ZDSADEBK的一体化里电保护RC。",
+          "evidence": {
+            "value": "4艺ZDSADEBK的一体化里电保护RC。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "4艺ZDSADEBK的一体化里电保护RC。"
+          }
+        }
+      ],
       "summary_image_urls": [],
       "summary_text": ""
     },
@@ -71,10 +286,102 @@
         "硅胶"
       ],
       "ip_rating": null,
-      "weight_g": null,
+      "weight_g": "52.0g",
       "dimensions": [],
-      "internal_structure": [],
-      "fastener_type": [],
+      "internal_structure": [
+        {
+          "value": "能量仓内部,上从覆盖有配带检测传感器,中间设置电池单元。",
+          "evidence": {
+            "value": "能量仓内部,上从覆盖有配带检测传感器,中间设置电池单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "能量仓内部,上从覆盖有配带检测传感器,中间设置电池单元。"
+          }
+        },
+        {
+          "value": "取出电池单元,撕开电池的绝圆保护。",
+          "evidence": {
+            "value": "取出电池单元,撕开电池的绝圆保护。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "取出电池单元,撕开电池的绝圆保护。"
+          }
+        },
+        {
+          "value": "质感出色,动态湖上设置有麦克风时音孔。",
+          "evidence": {
+            "value": "质感出色,动态湖上设置有麦克风时音孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "质感出色,动态湖上设置有麦克风时音孔。"
+          }
+        },
+        {
+          "value": "动态湖莫端设置有麦克风时音孔。",
+          "evidence": {
+            "value": "动态湖莫端设置有麦克风时音孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "动态湖莫端设置有麦克风时音孔。"
+          }
+        },
+        {
+          "value": "两侧设置PCBA版,先开配带检测传感器。",
+          "evidence": {
+            "value": "两侧设置PCBA版,先开配带检测传感器。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "两侧设置PCBA版,先开配带检测传感器。"
+          }
+        },
+        {
+          "value": "框架底部通过螺丝固定主板。",
+          "evidence": {
+            "value": "框架底部通过螺丝固定主板。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "框架底部通过螺丝固定主板。"
+          }
+        },
+        {
+          "value": "机身上设置有蓝牙配对按键。",
+          "evidence": {
+            "value": "机身上设置有蓝牙配对按键。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "机身上设置有蓝牙配对按键。"
+          }
+        },
+        {
+          "value": "能量仓两侧为触控区域,双指清处实现音量调节。",
+          "evidence": {
+            "value": "能量仓两侧为触控区域,双指清处实现音量调节。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "能量仓两侧为触控区域,双指清处实现音量调节。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "泄掉螺丝,取掉固定所有组件的框架。",
+          "evidence": {
+            "value": "泄掉螺丝,取掉固定所有组件的框架。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "泄掉螺丝,取掉固定所有组件的框架。"
+          }
+        },
+        {
+          "value": "框架底部通过螺丝固定主板。",
+          "evidence": {
+            "value": "框架底部通过螺丝固定主板。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "框架底部通过螺丝固定主板。"
+          }
+        }
+      ],
       "sealing_method": [],
       "wear_design": [
         {
@@ -97,12 +404,95 @@
         }
       ],
       "key_image_urls": [],
-      "assembly_notes": [],
+      "assembly_notes": [
+        "能量仓内部,上从覆盖有配带检测传感器,中间设置电池单元。",
+        "取出电池单元,撕开电池的绝圆保护。",
+        "质感出色,动态湖上设置有麦克风时音孔。",
+        "动态湖莫端设置有麦克风时音孔。"
+      ],
       "ip_rating_evidence": null,
-      "weight_evidence": null
+      "weight_evidence": {
+        "value": "52.0g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "音频排楼梗。\n金属瓦艾音频往时测。\n耳机整机重量约为52.0克,仙营变形"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "6.6g",
+      "weight_earbud_evidence": {
+        "value": "6.6g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "整机重量约为52.0克,仙营变形。\n但至耳机重量约为6.6克,瓦艾音频"
+      }
     },
     "hardware": {
-      "specs": []
+      "specs": [
+        {
+          "param": "充电方式",
+          "value": "做倉背面设置有无线充电接收线圈。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "做倉背面设置有无线充电接收线圈。"
+        },
+        {
+          "param": "充电方式",
+          "value": "取到框架上的主板,无线充电接收线圈及排线。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "取到框架上的主板,无线充电接收线圈及排线。"
+        },
+        {
+          "param": "充电方式",
+          "value": "无线充电接收线圈,设置在格词屏蔽铁纸上。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "无线充电接收线圈,设置在格词屏蔽铁纸上。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电盒底部设置Type-C充电接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒底部设置Type-C充电接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "标记/认证",
+          "value": "Charge Lab Power ZKM003C测试移。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "Charge Lab Power ZKM003C测试移。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "小华半导替HC32F-70VMCEO单片机。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "小华半导替HC32F-70VMCEO单片机。"
+        }
+      ]
     },
     "software": {
       "bluetooth_version": null,

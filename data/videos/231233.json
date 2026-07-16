@@ -15,8 +15,8 @@
   "source_site": "哔哩哔哩 (Bilibili)",
   "video_embed_url": "https://player.bilibili.com/player.html?bvid=BV1GZQwYYEgH&page=1&as_wide=1",
   "captured_at": "2026-07-14T02:03:54+00:00",
-  "asr_status": "pending",
-  "data_completeness": 0.136,
+  "asr_status": "done",
+  "data_completeness": 0.74,
   "views": {
     "market": {
       "brand": "",
@@ -45,22 +45,244 @@
       "price_evidence": null
     },
     "cost": {
-      "major_parts": [],
-      "chip_modules": [],
-      "bom_table": [],
+      "major_parts": [
+        "电池",
+        "充电仓",
+        "主板/PCBA",
+        "麦克风",
+        "天线"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB3",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB3",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "AB3"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "SY8809",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "SY8809",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "SY8809"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "SY5501",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "SY5501",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "SY5501"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "CM4267",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "CM4267",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "CM4267"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "枪体内部设置有主板,电源输入小板电池和无线充电接收线圈。"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "强募率,产品型号,1507A2G输入,5V0.25n,充电盒输入,5V2n,充电盒输出,5V0.5n,充电盒额定容量,520毫安时。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "枪体内部设置有主板,电源输入小板电池和无线充电接收线圈。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机并背部的前盔降噪麦克风时音孔,耳机并底部的通话麦克风时音孔,耳机内侧外观。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "印刷有LDS蓝牙天线,从支架上取掉主板单元。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "防止滑伤耳机,设置有一颗功能按键,用于蓝牙配对功能。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "SY8809",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "SY8809",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "思源半导体SY8809蓝牙耳机充电层解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB3",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB3",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "支持单捏双捏三捏长按,用于暂停播放上下去切换,将造模式切换等功能控制,雷雕SAB3的MEMS麦克风为通话麦克风。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "SY5501",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "SY5501",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "连接耳机头内部元气件排线的BTB连接器工作来自压器科技行号ok114GM01235\n撕远半导体SY5501电源管理TMSC是一款专门为TWS耳机设计的芯片。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "CM4267",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "CM4267",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "行号,ICM42670P来自TDK。"
+          }
+        }
+      ],
       "supply_hints": [],
-      "packaging_notes": [],
-      "process_hints": [],
+      "packaging_notes": [
+        "深圳是万普拉斯科技有限公司,中国制造,包装盒内部物朋友,充电盒耳机充电线耳塞和产品使用说明书,\n随耳机负责的两副规交耳塞,耳机上预装一副总共有SM、L3种尺寸。"
+      ],
+      "process_hints": [
+        {
+          "value": "S5-225J2SC理电池一体化保护芯片。",
+          "evidence": {
+            "value": "S5-225J2SC理电池一体化保护芯片。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "S5-225J2SC理电池一体化保护芯片。"
+          }
+        }
+      ],
       "summary_image_urls": [],
       "summary_text": ""
     },
     "structure": {
       "form_factor": "真无线耳机TWS",
       "earbud_type": "入耳",
-      "materials": [],
+      "materials": [
+        "PC"
+      ],
       "ip_rating": null,
-      "weight_g": null,
-      "dimensions": [],
+      "weight_g": "57.5克",
+      "dimensions": [
+        "深圳是万普拉斯科技有限公司,中国制造,包装盒内部物朋友,充电盒耳机充电线耳塞和产品使用说明书,\n随耳机负责的两副规交耳塞,耳机上预装一副总共有SM、L3种尺寸。",
+        "福达N-61680是一颗小尺寸高度集成的无线电源接收器。",
+        "积聚质感和变时度,耳机配备有三种尺寸的抗军防耳购耳塞。"
+      ],
       "internal_structure": [
         {
           "value": "在降噪方面，一加 Buds Pro 2 最大降噪深度升级到48dB，降噪宽度提升到了4000Hz，支持了智能动态降噪，能够智能识别降噪环境，自动切换最佳降噪模式，使降噪体验更舒适；支持智能个性化降噪，基于不同用户人耳结构，量身定制降噪曲线；还支持通透模式，三麦+AI通话降噪，搭配三重抗风噪设计，满足全场景的降噪需求。",
@@ -72,7 +294,17 @@
           }
         }
       ],
-      "fastener_type": [],
+      "fastener_type": [
+        {
+          "value": "为耳机充电的FPC排线与主板通过击付连接器连接,取到FPC排线,为耳机充电的FPC排线电路,卸掉固定螺丝,取出枪体内部的所有元气件。",
+          "evidence": {
+            "value": "为耳机充电的FPC排线与主板通过击付连接器连接,取到FPC排线,为耳机充电的FPC排线电路,卸掉固定螺丝,取出枪体内部的所有元气件。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "为耳机充电的FPC排线与主板通过击付连接器连接,取到FPC排线,为耳机充电的FPC排线电路,卸掉固定螺丝,取出枪体内部的所有元气件。"
+          }
+        }
+      ],
       "sealing_method": [],
       "wear_design": [
         {
@@ -90,17 +322,196 @@
         "在降噪方面，一加 Buds Pro 2 最大降噪深度升级到48dB，降噪宽度提升到了4000Hz，支持了智能动态降噪，能够智能识别降噪环境，自动切换最佳降噪模式，使降噪体验更舒适；支持智能个性化降噪，基于不同用户人耳结构，量身定制降噪曲线；还支持通透模式，三麦+AI通话降噪，搭配三重抗风噪设计，满足全场景的降噪需求。"
       ],
       "ip_rating_evidence": null,
-      "weight_evidence": null
+      "weight_evidence": {
+        "value": "57.5克",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "57.5克"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "5.0g",
+      "weight_earbud_evidence": {
+        "value": "5.0g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "网时测,耳机整体重量约为57.5克,但这耳机重量约为5.0克。\n瓦艾音"
+      }
     },
     "hardware": {
-      "specs": []
+      "specs": [
+        {
+          "param": "充电方式",
+          "value": "枪体内部设置有主板,电源输入小板电池和无线充电接收线圈。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "枪体内部设置有主板,电源输入小板电池和无线充电接收线圈。"
+        },
+        {
+          "param": "充电方式",
+          "value": "无线充电接收线圈,设置在隔丝屏蔽铁纸上,主板单元结构通过支架固定,支架另外一侧设置电池单元。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "无线充电接收线圈,设置在隔丝屏蔽铁纸上,主板单元结构通过支架固定,支架另外一侧设置电池单元。"
+        },
+        {
+          "param": "充电方式",
+          "value": "有线充电采用了,思源半导替SY8809蓝牙耳机充电仓解决方案。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "有线充电采用了,思源半导替SY8809蓝牙耳机充电仓解决方案。"
+        },
+        {
+          "param": "充电方式",
+          "value": "充电盒无线充电采用了,符达,616805线电源接收器。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒无线充电采用了,符达,616805线电源接收器。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电线采用了USB-A2Type-C接口,一家经典红白配色。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电线采用了USB-A2Type-C接口,一家经典红白配色。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电盒背面设置Type-C充电接口,打开充电盒盖。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒背面设置Type-C充电接口,打开充电盒盖。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C充电母座设置有绝员向胶胶防护,从支架上取掉主板和电池,充电盒主板电路。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充电母座设置有绝员向胶胶防护,从支架上取掉主板和电池,充电盒主板电路。"
+        },
+        {
+          "param": "充电接口",
+          "value": "电源输入小板上的Type-C连接器母座。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "电源输入小板上的Type-C连接器母座。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "瓦艾音瓶网采用Charger Lab Power ZKM003C对耳机进行充电测试,输入功率约为3.7瓦。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "瓦艾音瓶网采用Charger Lab Power ZKM003C对耳机进行充电测试,输入功率约为3.7瓦。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "来自压器科技,型号,ok114D41235,稳线为WSDF23CRNRH里电保护IC。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "来自压器科技,型号,ok114D41235,稳线为WSDF23CRNRH里电保护IC。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "内部集成双合ArmStars MCECPU和超低功耗SensorHub仔细统。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "内部集成双合ArmStars MCECPU和超低功耗SensorHub仔细统。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "方便实现芯片和MCEU之间的同性。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "方便实现芯片和MCEU之间的同性。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "负责充电和隔离通讯,采用稳线微WSDF23CRNRH理电保护IC。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "负责充电和隔离通讯,采用稳线微WSDF23CRNRH理电保护IC。"
+        }
+      ]
     },
     "software": {
-      "bluetooth_version": null,
+      "bluetooth_version": "5.3",
       "codecs": [],
-      "multipoint": [],
+      "multipoint": [
+        {
+          "value": "支持双磨蓝牙5.3和多点连接。",
+          "evidence": {
+            "value": "支持双磨蓝牙5.3和多点连接。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "支持双磨蓝牙5.3和多点连接。"
+          }
+        }
+      ],
       "app_name": "",
-      "app_features": [],
+      "app_features": [
+        {
+          "value": "是用于不同的应用场合。",
+          "evidence": {
+            "value": "是用于不同的应用场合。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "是用于不同的应用场合。"
+          }
+        },
+        {
+          "value": "具备强大的应用处理能力。",
+          "evidence": {
+            "value": "具备强大的应用处理能力。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "具备强大的应用处理能力。"
+          }
+        }
+      ],
       "ota_support": [
         {
           "value": "在降噪方面，一加 Buds Pro 2 最大降噪深度升级到48dB，降噪宽度提升到了4000Hz，支持了智能动态降噪，能够智能识别降噪环境，自动切换最佳降噪模式，使降噪体验更舒适；支持智能个性化降噪，基于不同用户人耳结构，量身定制降噪曲线；还支持通透模式，三麦+AI通话降噪，搭配三重抗风噪设计，满足全场景的降噪需求。",
@@ -113,7 +524,12 @@
         }
       ],
       "latency_notes": [],
-      "bluetooth_evidence": null
+      "bluetooth_evidence": {
+        "value": "5.3",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.3"
+      }
     }
   }
 }

@@ -15,8 +15,8 @@
   "source_site": "哔哩哔哩 (Bilibili)",
   "video_embed_url": "https://player.bilibili.com/player.html?bvid=BV18m6HYQENK&page=1&as_wide=1",
   "captured_at": "2026-07-14T02:04:17+00:00",
-  "asr_status": "pending",
-  "data_completeness": 0.08,
+  "asr_status": "done",
+  "data_completeness": 0.64,
   "views": {
     "market": {
       "brand": "EDIFIER漫步者",
@@ -25,18 +25,244 @@
       "launch_date": null,
       "price_cny": null,
       "price_note": "",
-      "selling_points": [],
-      "scenarios": [],
-      "positioning_summary": "",
+      "selling_points": [
+        {
+          "text": "AI通话降噪持久续航快充技术可直接收纳。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "AI通话降噪持久续航快充技术可直接收纳。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "AI通话降噪持久续航快充技术可直接收纳。"
+          }
+        },
+        {
+          "text": "深度降噪空间音效双设备连接和金属投量。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "深度降噪空间音效双设备连接和金属投量。",
+            "confidence": 0.59,
+            "source_type": "text",
+            "source_text": "深度降噪空间音效双设备连接和金属投量。"
+          }
+        },
+        {
+          "text": "用耳内部雷雕MG36D183的前盔降噪麦克风。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "用耳内部雷雕MG36D183的前盔降噪麦克风。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "用耳内部雷雕MG36D183的前盔降噪麦克风。"
+          }
+        },
+        {
+          "text": "漫步者Fate900MB头带是降噪耳机在外观方面,\n设计简洁但又不是光能性。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "漫步者Fate900MB头带是降噪耳机在外观方面,\n设计简洁但又不是光能性。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "漫步者Fate900MB头带是降噪耳机在外观方面,\n设计简洁但又不是光能性。"
+          }
+        },
+        {
+          "text": "用于降噪功能释取外界环境噪音来自米星微电子。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "用于降噪功能释取外界环境噪音来自米星微电子。",
+            "confidence": 0.73,
+            "source_type": "text",
+            "source_text": "用于降噪功能释取外界环境噪音来自米星微电子。"
+          }
+        },
+        {
+          "text": "前盔降噪麦克风是音孔设置有声学向胶罩。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "前盔降噪麦克风是音孔设置有声学向胶罩。",
+            "confidence": 0.64,
+            "source_type": "text",
+            "source_text": "前盔降噪麦克风是音孔设置有声学向胶罩。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通话"
+      ],
+      "positioning_summary": "AI通话降噪持久续航快充技术可直接收纳。",
       "launch_date_evidence": null,
       "price_evidence": null
     },
     "cost": {
-      "major_parts": [],
-      "chip_modules": [],
-      "bom_table": [],
+      "major_parts": [
+        "麦克风",
+        "电池",
+        "主板/PCBA",
+        "天线"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "JL7018",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL7018",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "JL7018"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "IP4069T",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "IP4069T",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "IP4069T"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳壳上的前盔降噪麦克风时阴孔内部防晨网防护。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "取掉海绵电设置有电池单元和转接板。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "枪体内部主板单元结构通过螺丝固定。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "板在蓝牙天线。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "底部设置有功能接口和功能按键。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "Type-C充电母座和指示灯。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "取掉海绵电后盖降噪麦克风。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "JL7018",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL7018",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "截力JL7018F8的蓝牙音频SOC。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "IP4069T",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "IP4069T",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "微源半导体IP4069T里电池充电、IC等原器件。"
+          }
+        }
+      ],
       "supply_hints": [],
-      "packaging_notes": [],
+      "packaging_notes": [
+        "包装盒内部配件包括了充电线说明书和保修卡。"
+      ],
       "process_hints": [],
       "summary_image_urls": [],
       "summary_text": ""
@@ -48,24 +274,255 @@
       "ip_rating": null,
       "weight_g": null,
       "dimensions": [],
-      "internal_structure": [],
-      "fastener_type": [],
+      "internal_structure": [
+        {
+          "value": "耳壳上的前盔降噪麦克风时阴孔内部防晨网防护。",
+          "evidence": {
+            "value": "耳壳上的前盔降噪麦克风时阴孔内部防晨网防护。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳壳上的前盔降噪麦克风时阴孔内部防晨网防护。"
+          }
+        },
+        {
+          "value": "耳壳底部的通话麦克风时阴孔。",
+          "evidence": {
+            "value": "耳壳底部的通话麦克风时阴孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳壳底部的通话麦克风时阴孔。"
+          }
+        },
+        {
+          "value": "取掉海绵电设置有电池单元和转接板。",
+          "evidence": {
+            "value": "取掉海绵电设置有电池单元和转接板。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "取掉海绵电设置有电池单元和转接板。"
+          }
+        },
+        {
+          "value": "断开与转接板汉接的电池导线取出耳机内置电池。",
+          "evidence": {
+            "value": "断开与转接板汉接的电池导线取出耳机内置电池。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "断开与转接板汉接的电池导线取出耳机内置电池。"
+          }
+        },
+        {
+          "value": "枪体内部主板单元结构通过螺丝固定。",
+          "evidence": {
+            "value": "枪体内部主板单元结构通过螺丝固定。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "枪体内部主板单元结构通过螺丝固定。"
+          }
+        },
+        {
+          "value": "耳机主板电路。",
+          "evidence": {
+            "value": "耳机主板电路。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机主板电路。"
+          }
+        },
+        {
+          "value": "板在蓝牙天线。",
+          "evidence": {
+            "value": "板在蓝牙天线。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "板在蓝牙天线。"
+          }
+        },
+        {
+          "value": "底部设置有功能接口和功能按键。",
+          "evidence": {
+            "value": "底部设置有功能接口和功能按键。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "底部设置有功能接口和功能按键。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "取掉卡扣是固定的两照耳罩。",
+          "evidence": {
+            "value": "取掉卡扣是固定的两照耳罩。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "取掉卡扣是固定的两照耳罩。"
+          }
+        },
+        {
+          "value": "音枪盖板四周通过螺丝固定。",
+          "evidence": {
+            "value": "音枪盖板四周通过螺丝固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "音枪盖板四周通过螺丝固定。"
+          }
+        },
+        {
+          "value": "采用了渡开复合阵膜细掉螺丝打开枪体。",
+          "evidence": {
+            "value": "采用了渡开复合阵膜细掉螺丝打开枪体。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "采用了渡开复合阵膜细掉螺丝打开枪体。"
+          }
+        },
+        {
+          "value": "细掉螺丝拆掉转接板断开扬声器导线。",
+          "evidence": {
+            "value": "细掉螺丝拆掉转接板断开扬声器导线。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "细掉螺丝拆掉转接板断开扬声器导线。"
+          }
+        },
+        {
+          "value": "枪体内部主板单元结构通过螺丝固定。",
+          "evidence": {
+            "value": "枪体内部主板单元结构通过螺丝固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "枪体内部主板单元结构通过螺丝固定。"
+          }
+        }
+      ],
       "sealing_method": [],
-      "wear_design": [],
+      "wear_design": [
+        {
+          "value": "能够个性化是配不同用户,\n提供持久舒适的配带体验,同时还支持折叠功能。",
+          "evidence": {
+            "value": "能够个性化是配不同用户,\n提供持久舒适的配带体验,同时还支持折叠功能。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "能够个性化是配不同用户,\n提供持久舒适的配带体验,同时还支持折叠功能。"
+          }
+        }
+      ],
       "key_image_urls": [],
-      "assembly_notes": [],
+      "assembly_notes": [
+        "耳壳上的前盔降噪麦克风时阴孔内部防晨网防护。",
+        "耳壳底部的通话麦克风时阴孔。",
+        "取掉海绵电设置有电池单元和转接板。",
+        "断开与转接板汉接的电池导线取出耳机内置电池。"
+      ],
       "ip_rating_evidence": null,
-      "weight_evidence": null
+      "weight_evidence": null,
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": null,
+      "weight_earbud_evidence": null
     },
     "hardware": {
-      "specs": []
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "充电线采用了USB-A2Type-C插头。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电线采用了USB-A2Type-C插头。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C充电母座和指示灯。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充电母座和指示灯。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C充电母座和指示灯导光柱。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充电母座和指示灯导光柱。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "以及Hi-Race Audio金标认证。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "以及Hi-Race Audio金标认证。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "微源半导体IP4069T里电池充电、IC等原器件。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "微源半导体IP4069T里电池充电、IC等原器件。"
+        }
+      ]
     },
     "software": {
       "bluetooth_version": null,
       "codecs": [],
-      "multipoint": [],
+      "multipoint": [
+        {
+          "value": "深度降噪空间音效双设备连接和金属投量。",
+          "evidence": {
+            "value": "深度降噪空间音效双设备连接和金属投量。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "深度降噪空间音效双设备连接和金属投量。"
+          }
+        }
+      ],
       "app_name": "",
-      "app_features": [],
+      "app_features": [
+        {
+          "value": "以及APP下在2Wi-ma和北京爱德发科技有限公司信息。",
+          "evidence": {
+            "value": "以及APP下在2Wi-ma和北京爱德发科技有限公司信息。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "以及APP下在2Wi-ma和北京爱德发科技有限公司信息。"
+          }
+        },
+        {
+          "value": "仅需叫少的外部器件非常适合便鞋式应用。",
+          "evidence": {
+            "value": "仅需叫少的外部器件非常适合便鞋式应用。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "仅需叫少的外部器件非常适合便鞋式应用。"
+          }
+        }
+      ],
       "ota_support": [],
       "latency_notes": [],
       "bluetooth_evidence": null

@@ -32,16 +32,31 @@
     "weight_earbud_g": null,
     "ip_rating": null,
     "bluetooth": null,
-    "bom_row_count": 0,
+    "bom_row_count": 1,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
     "sales_hint": null,
     "data_completeness": 0.0,
     "best_report_id": null,
-    "best_video_id": null
+    "best_video_id": "224417"
   },
-  "bom_table": [],
+  "bom_table": [
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "槍體閉上充電觸電通過連接器連接主板"
+      }
+    }
+  ],
   "summary_image_urls": [],
   "summary_text": "",
   "layer_refs": {

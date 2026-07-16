@@ -15,8 +15,8 @@
   "source_site": "哔哩哔哩 (Bilibili)",
   "video_embed_url": "https://player.bilibili.com/player.html?bvid=BV1GQz9YLELZ&page=1&as_wide=1",
   "captured_at": "2026-07-14T02:04:30+00:00",
-  "asr_status": "pending",
-  "data_completeness": 0.08,
+  "asr_status": "done",
+  "data_completeness": 0.492,
   "views": {
     "market": {
       "brand": "EDIFIER漫步者",
@@ -25,16 +25,127 @@
       "launch_date": null,
       "price_cny": null,
       "price_note": "",
-      "selling_points": [],
+      "selling_points": [
+        {
+          "text": "IP-55級防塵防水。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "IP-55級防塵防水。",
+            "confidence": 0.62,
+            "source_type": "text",
+            "source_text": "IP-55級防塵防水。"
+          }
+        },
+        {
+          "text": "兩顆麥克風鞋通11,\n搭配AI降噪算法。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "兩顆麥克風鞋通11,\n搭配AI降噪算法。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "兩顆麥克風鞋通11,\n搭配AI降噪算法。"
+          }
+        },
+        {
+          "text": "提升質感和辨識度,陰槍背部的降噪麥克風實陰孔。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "提升質感和辨識度,陰槍背部的降噪麥克風實陰孔。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "提升質感和辨識度,陰槍背部的降噪麥克風實陰孔。"
+          }
+        },
+        {
+          "text": "另外一顆雷雕G266的MEMS麥克風,\n用於通話降噪功能11。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "另外一顆雷雕G266的MEMS麥克風,\n用於通話降噪功能11。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "另外一顆雷雕G266的MEMS麥克風,\n用於通話降噪功能11。"
+          }
+        },
+        {
+          "text": "耳機揚聲器正面,\n採用了度態符合陣膜,\n擁有更優的解析力。",
+          "tag": "其他",
+          "evidence": {
+            "value": "耳機揚聲器正面,\n採用了度態符合陣膜,\n擁有更優的解析力。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "耳機揚聲器正面,\n採用了度態符合陣膜,\n擁有更優的解析力。"
+          }
+        }
+      ],
       "scenarios": [],
-      "positioning_summary": "",
+      "positioning_summary": "IP-55級防塵防水。",
       "launch_date_evidence": null,
       "price_evidence": null
     },
     "cost": {
-      "major_parts": [],
-      "chip_modules": [],
-      "bom_table": [],
+      "major_parts": [
+        "主板/PCBA"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "JL7016",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL7016",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "JL7016"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "前槍上設置有支架固定主板和電池單元。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "取出前腔內部耳機揚聲器。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "JL7016",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL7016",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "撕開絕緣保護,\n電池保護板電路,\n試著由李電保護IC和MOS管,\n以及檢測電池溫度的熱明電組,\n司印G3JP的李電保護IC,\n負責電池的過充電,\n過放電,過電流等保護,\n司印8205A的MOS管,\n配合理變保護IC工作,\n漫步者Feedfree開放式耳機在外觀方面,\n採用了全新的耳掛式結構設計,\n支持40度旋轉調節,\n能夠更好的試配不同耳型使用,\n搭配耳掛的柔軟清敷材質,\n帶來持久的舒適配帶體驗,\n內部主要配置方面,\n耳機搭載14.2毫米大動圈單元,\n採用兩顆MAMS麥克風時音,\n主控新篇為節禮JL7016G8藍牙音頻SOC,\n還採用了順落電子MPHM系列功率電感,\n具有優異的抗干擾,防偶盒,\n漏辭的性能,以及大額定電流,\n高可靠性,DCR等優異的電性能,\n能夠很好的滿足耳機對功率電感的要求,\n充電和內部搭載了660毫安實力電池,\n以上就是此次的拆解內容了,\n喜歡的話點個免費的贊和關注吧,\n我們下期再見,掰掰!"
+          }
+        }
+      ],
       "supply_hints": [],
       "packaging_notes": [],
       "process_hints": [],
@@ -46,26 +157,198 @@
       "earbud_type": "开放",
       "materials": [],
       "ip_rating": null,
-      "weight_g": null,
-      "dimensions": [],
-      "internal_structure": [],
+      "weight_g": "87.0克",
+      "dimensions": [
+        "側邊印刷有一顆白色原點標示,\n據我愛陰瓶網了解到,\n無線耳機的電源電路中的功率電感,\n需要具備較小的尺寸和中等大小的鵝丁電流,\n並且要求電感低損耗,\n以實現高轉換效率和強的續航能力。"
+      ],
+      "internal_structure": [
+        {
+          "value": "前槍上設置有支架固定主板和電池單元。",
+          "evidence": {
+            "value": "前槍上設置有支架固定主板和電池單元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "前槍上設置有支架固定主板和電池單元。"
+          }
+        },
+        {
+          "value": "斷開陽生氣導線取出主板單元。",
+          "evidence": {
+            "value": "斷開陽生氣導線取出主板單元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "斷開陽生氣導線取出主板單元。"
+          }
+        },
+        {
+          "value": "取出前腔內部耳機揚聲器。",
+          "evidence": {
+            "value": "取出前腔內部耳機揚聲器。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "取出前腔內部耳機揚聲器。"
+          }
+        },
+        {
+          "value": "大家好,這裡是我艾英平網,今天我們來拆解,漫步者FateFree開放式耳機。",
+          "evidence": {
+            "value": "大家好,這裡是我艾英平網,今天我們來拆解,漫步者FateFree開放式耳機。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "大家好,這裡是我艾英平網,今天我們來拆解,漫步者FateFree開放式耳機。"
+          }
+        },
+        {
+          "value": "打開充電盒蓋,做倉內部耳機磁吸固定。",
+          "evidence": {
+            "value": "打開充電盒蓋,做倉內部耳機磁吸固定。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "打開充電盒蓋,做倉內部耳機磁吸固定。"
+          }
+        },
+        {
+          "value": "下面進入拆解部分,看看內部結構及配置信息。",
+          "evidence": {
+            "value": "下面進入拆解部分,看看內部結構及配置信息。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "下面進入拆解部分,看看內部結構及配置信息。"
+          }
+        },
+        {
+          "value": "提供清晰通話,\n24.000噪赫的精震,\n為藍牙芯片提供時鐘,\n取掉固定主板和電池的支架,\n泄掉螺絲取掉耳掛,\n耳掛的賺軸通過彈簧和滾珠定位。",
+          "evidence": {
+            "value": "提供清晰通話,\n24.000噪赫的精震,\n為藍牙芯片提供時鐘,\n取掉固定主板和電池的支架,\n泄掉螺絲取掉耳掛,\n耳掛的賺軸通過彈簧和滾珠定位。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "提供清晰通話,\n24.000噪赫的精震,\n為藍牙芯片提供時鐘,\n取掉固定主板和電池的支架,\n泄掉螺絲取掉耳掛,\n耳掛的賺軸通過彈簧和滾珠定位。"
+          }
+        },
+        {
+          "value": "拆解充電盒部分,\n效開外殼,\n取出做倉結構。",
+          "evidence": {
+            "value": "拆解充電盒部分,\n效開外殼,\n取出做倉結構。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "拆解充電盒部分,\n效開外殼,\n取出做倉結構。"
+          }
+        }
+      ],
       "fastener_type": [],
       "sealing_method": [],
       "wear_design": [],
       "key_image_urls": [],
-      "assembly_notes": [],
+      "assembly_notes": [
+        "前槍上設置有支架固定主板和電池單元。",
+        "斷開陽生氣導線取出主板單元。",
+        "取出前腔內部耳機揚聲器。",
+        "大家好,這裡是我艾英平網,今天我們來拆解,漫步者FateFree開放式耳機。"
+      ],
       "ip_rating_evidence": null,
-      "weight_evidence": null
+      "weight_evidence": {
+        "value": "87.0克",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "87.0克"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": null,
+      "weight_earbud_evidence": null
     },
     "hardware": {
-      "specs": []
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "充電線採用了USB-A2Type-C接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充電線採用了USB-A2Type-C接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "下方設置Type-C充電接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "下方設置Type-C充電接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "做倉底部,\n設置有多顆磁鐵\n用於固定耳機和充電盒蓋,\n充電盒主板電路,\n雙主板設計汗接連接,\nType-C充電母座,\n用於萊雅配對的功能按鍵。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "做倉底部,\n設置有多顆磁鐵\n用於固定耳機和充電盒蓋,\n充電盒主板電路,\n雙主板設計汗接連接,\nType-C充電母座,\n用於萊雅配對的功能按鍵。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP-55級防塵防水。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP-55級防塵防水。"
+        },
+        {
+          "param": "电池容量",
+          "value": "2",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "2mAh"
+        }
+      ]
     },
     "software": {
       "bluetooth_version": null,
       "codecs": [],
       "multipoint": [],
       "app_name": "",
-      "app_features": [],
+      "app_features": [
+        {
+          "value": "APP下載二維碼,以及部分產品和公司信息。",
+          "evidence": {
+            "value": "APP下載二維碼,以及部分產品和公司信息。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "APP下載二維碼,以及部分產品和公司信息。"
+          }
+        },
+        {
+          "value": "動態低頻補償,APP功能拓展,雙設備連接。",
+          "evidence": {
+            "value": "動態低頻補償,APP功能拓展,雙設備連接。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "動態低頻補償,APP功能拓展,雙設備連接。"
+          }
+        }
+      ],
       "ota_support": [],
       "latency_notes": [],
       "bluetooth_evidence": null

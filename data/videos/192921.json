@@ -15,8 +15,8 @@
   "source_site": "哔哩哔哩 (Bilibili)",
   "video_embed_url": "https://player.bilibili.com/player.html?bvid=BV1gx421y7x7&page=1&as_wide=1",
   "captured_at": "2026-07-14T02:05:43+00:00",
-  "asr_status": "pending",
-  "data_completeness": 0.216,
+  "asr_status": "done",
+  "data_completeness": 0.422,
   "views": {
     "market": {
       "brand": "",
@@ -57,7 +57,9 @@
           }
         }
       ],
-      "scenarios": [],
+      "scenarios": [
+        "睡眠"
+      ],
       "positioning_summary": "充电盒和耳机均升级IP54级别的防尘、抗汗、抗水性能。",
       "launch_date_evidence": null,
       "price_evidence": null
@@ -92,10 +94,15 @@
     "structure": {
       "form_factor": "真无线耳机TWS",
       "earbud_type": "入耳",
-      "materials": [],
+      "materials": [
+        "塑料",
+        "PC"
+      ],
       "ip_rating": null,
-      "weight_g": null,
-      "dimensions": [],
+      "weight_g": "62克",
+      "dimensions": [
+        "實測,陽生氣尺寸約為11.00毫米,看一下前槍內部排線電路。"
+      ],
       "internal_structure": [
         {
           "value": "今天我们来拆解的是苹果新一代的AirPods Pro 2（USB-C）真无线耳机，采用全新的USB-C接口。",
@@ -135,7 +142,16 @@
         "相关阅读：\n1、\n拆解报告：苹果AirPods Pro 2（USB-C）"
       ],
       "ip_rating_evidence": null,
-      "weight_evidence": null
+      "weight_evidence": {
+        "value": "62克",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "62克"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": null,
+      "weight_earbud_evidence": null
     },
     "hardware": {
       "specs": [
@@ -152,10 +168,57 @@
     },
     "software": {
       "bluetooth_version": null,
-      "codecs": [],
+      "codecs": [
+        {
+          "value": "SBC",
+          "evidence": {
+            "value": "SBC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "採用全新的USBC接口,採用不含稿,笑話阻燃機,劇律以稀和批,等潛在有害物質的材料,進行蘋果環保裡面,充電和耳機追升及IP54級別的防塵,抗漢抗水性呢,新增自視音頻,支持自視音噪聲控制,個性化醫療和對話感質,進一步提升了降噪舒適性和使用的變結性,打開包裝和,裡面有耳機,充電線,自帶防塵網的歸家耳機\n和產品使用說明書。"
+          }
+        }
+      ],
       "multipoint": [],
       "app_name": "",
-      "app_features": [],
+      "app_features": [
+        {
+          "value": "後槍內部有Apple H2芯片和用於充電和固定的異性磁鐵,槍體內部通過大量焦水密封。",
+          "evidence": {
+            "value": "後槍內部有Apple H2芯片和用於充電和固定的異性磁鐵,槍體內部通過大量焦水密封。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "後槍內部有Apple H2芯片和用於充電和固定的異性磁鐵,槍體內部通過大量焦水密封。"
+          }
+        },
+        {
+          "value": "取出後槍內部的Apple一串芯片,這是耳機內置配重鐵款,採用了一型設計。",
+          "evidence": {
+            "value": "取出後槍內部的Apple一串芯片,這是耳機內置配重鐵款,採用了一型設計。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "取出後槍內部的Apple一串芯片,這是耳機內置配重鐵款,採用了一型設計。"
+          }
+        },
+        {
+          "value": "支架上的降噪麥克風時音口,這個是採用Systeming Package風裝的Apple一串芯片,這個是曼子麥克風,為降噪麥克風,用於主動降噪功能19外界環境噪音。",
+          "evidence": {
+            "value": "支架上的降噪麥克風時音口,這個是採用Systeming Package風裝的Apple一串芯片,這個是曼子麥克風,為降噪麥克風,用於主動降噪功能19外界環境噪音。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "支架上的降噪麥克風時音口,這個是採用Systeming Package風裝的Apple一串芯片,這個是曼子麥克風,為降噪麥克風,用於主動降噪功能19外界環境噪音。"
+          }
+        },
+        {
+          "value": "而且內置蘋果電池11毫米驅動單元,玩耳盤49.7毫安時剛可扣式電池,搭配Apple一串芯片。",
+          "evidence": {
+            "value": "而且內置蘋果電池11毫米驅動單元,玩耳盤49.7毫安時剛可扣式電池,搭配Apple一串芯片。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "而且內置蘋果電池11毫米驅動單元,玩耳盤49.7毫安時剛可扣式電池,搭配Apple一串芯片。"
+          }
+        }
+      ],
       "ota_support": [
         {
           "value": "充电盒和耳机均升级IP54级别的防尘、抗汗、抗水性能。",

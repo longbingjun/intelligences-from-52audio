@@ -15,8 +15,8 @@
   "source_site": "哔哩哔哩 (Bilibili)",
   "video_embed_url": "https://player.bilibili.com/player.html?bvid=BV1cN411p77j&page=1&as_wide=1",
   "captured_at": "2026-07-14T02:06:37+00:00",
-  "asr_status": "pending",
-  "data_completeness": 0.25,
+  "asr_status": "done",
+  "data_completeness": 0.57,
   "views": {
     "market": {
       "brand": "",
@@ -50,7 +50,22 @@
         "麦克风",
         "充电仓"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "BES260",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BES260",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "BES260"
+          }
+        }
+      ],
       "bom_table": [
         {
           "component": "喇叭单元",
@@ -110,7 +125,9 @@
         }
       ],
       "supply_hints": [],
-      "packaging_notes": [],
+      "packaging_notes": [
+        "打开包装盒,里面有耳机,充电盒,充电线,使用说明和宝修卡。"
+      ],
       "process_hints": [],
       "summary_image_urls": [],
       "summary_text": ""
@@ -118,9 +135,11 @@
     "structure": {
       "form_factor": "开放式耳机",
       "earbud_type": "开放",
-      "materials": [],
+      "materials": [
+        "PC"
+      ],
       "ip_rating": null,
-      "weight_g": null,
+      "weight_g": "69.6g",
       "dimensions": [
         "今天我们来拆解的是XTOUR秘语开放式耳环耳机，\n搭载10mm驱动单元，PU复合振膜；支持定向传音，同时提升通话清晰度和私密性；内置双麦克风波束成形，结合声加降噪算法，准确拾取人声，滤除杂音，保障清晰通话效果。"
       ],
@@ -162,9 +181,56 @@
           }
         }
       ],
-      "fastener_type": [],
+      "fastener_type": [
+        {
+          "value": "接下来进入拆解部分,看看内部结构配置信息,拆开卡扣是固定的耳机做倉。",
+          "evidence": {
+            "value": "接下来进入拆解部分,看看内部结构配置信息,拆开卡扣是固定的耳机做倉。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "接下来进入拆解部分,看看内部结构配置信息,拆开卡扣是固定的耳机做倉。"
+          }
+        },
+        {
+          "value": "卸料螺丝,拔料导线插座,取出支架极排线。",
+          "evidence": {
+            "value": "卸料螺丝,拔料导线插座,取出支架极排线。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸料螺丝,拔料导线插座,取出支架极排线。"
+          }
+        },
+        {
+          "value": "下方枪体内部的主板单元,通过螺丝固定,主板下方设置有电池。",
+          "evidence": {
+            "value": "下方枪体内部的主板单元,通过螺丝固定,主板下方设置有电池。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "下方枪体内部的主板单元,通过螺丝固定,主板下方设置有电池。"
+          }
+        },
+        {
+          "value": "切掉螺丝,取出主板和电池。",
+          "evidence": {
+            "value": "切掉螺丝,取出主板和电池。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "切掉螺丝,取出主板和电池。"
+          }
+        }
+      ],
       "sealing_method": [],
-      "wear_design": [],
+      "wear_design": [
+        {
+          "value": "机身内侧使用了归胶材质包裹,配袋舒适。",
+          "evidence": {
+            "value": "机身内侧使用了归胶材质包裹,配袋舒适。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "机身内侧使用了归胶材质包裹,配袋舒适。"
+          }
+        }
+      ],
       "key_image_urls": [],
       "assembly_notes": [
         "今天我们来拆解的是XTOUR秘语开放式耳环耳机，搭载10mm驱动单元，PU复合振膜；支持定向传音，同时提升通话清晰度和私密性；内置双麦克风波束成形，结合声加降噪算法，准确拾取人声，滤除杂音，保障清晰通话效果。",
@@ -173,17 +239,87 @@
         "相关阅读：\n1、\n拆解报告：XTOUR秘语开放式耳环耳机"
       ],
       "ip_rating_evidence": null,
-      "weight_evidence": null
+      "weight_evidence": {
+        "value": "69.6g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "是用于显示剩余电量信息的指示呢?\n实测,整机重量约为69.6克,但这耳机"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "5.8g",
+      "weight_earbud_evidence": {
+        "value": "5.8g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "呢?\n实测,整机重量约为69.6克,但这耳机重量约为5.8克。\n使用车"
+      }
     },
     "hardware": {
-      "specs": []
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "隔袋上设计有品牌logo,开带处设置指示灯,下方有蓝牙配对按键,背面下方设置有Type-C充电接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "隔袋上设计有品牌logo,开带处设置指示灯,下方有蓝牙配对按键,背面下方设置有Type-C充电接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "标记/认证",
+          "value": "使用车者Apple or ZKM003C,充电时的功率约为1.33瓦。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "使用车者Apple or ZKM003C,充电时的功率约为1.33瓦。"
+        },
+        {
+          "param": "电池容量",
+          "value": "30",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "30mAh"
+        }
+      ]
     },
     "software": {
       "bluetooth_version": "5.3",
       "codecs": [],
       "multipoint": [],
       "app_name": "",
-      "app_features": [],
+      "app_features": [
+        {
+          "value": "使用车者Apple or ZKM003C,充电时的功率约为1.33瓦。",
+          "evidence": {
+            "value": "使用车者Apple or ZKM003C,充电时的功率约为1.33瓦。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "使用车者Apple or ZKM003C,充电时的功率约为1.33瓦。"
+          }
+        },
+        {
+          "value": "内置STAR MCCPU,\nBES自言双合BikoNPU,\n极成二兆Fresh,\n高线能PMU极充电charger,\n支持自示一泄露环境降噪和AI-NK通话,\n具备强大的应用程序处理能力,\n有效提升耳机的单次续航时间。",
+          "evidence": {
+            "value": "内置STAR MCCPU,\nBES自言双合BikoNPU,\n极成二兆Fresh,\n高线能PMU极充电charger,\n支持自示一泄露环境降噪和AI-NK通话,\n具备强大的应用程序处理能力,\n有效提升耳机的单次续航时间。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "内置STAR MCCPU,\nBES自言双合BikoNPU,\n极成二兆Fresh,\n高线能PMU极充电charger,\n支持自示一泄露环境降噪和AI-NK通话,\n具备强大的应用程序处理能力,\n有效提升耳机的单次续航时间。"
+          }
+        }
+      ],
       "ota_support": [],
       "latency_notes": [],
       "bluetooth_evidence": {

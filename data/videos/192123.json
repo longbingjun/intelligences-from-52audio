@@ -15,8 +15,8 @@
   "source_site": "哔哩哔哩 (Bilibili)",
   "video_embed_url": "https://player.bilibili.com/player.html?bvid=BV1ki421o7Rp&page=1&as_wide=1",
   "captured_at": "2026-07-14T02:05:50+00:00",
-  "asr_status": "pending",
-  "data_completeness": 0.286,
+  "asr_status": "done",
+  "data_completeness": 0.306,
   "views": {
     "market": {
       "brand": "HUAWEI华为",
@@ -58,7 +58,22 @@
       "major_parts": [
         "麦克风"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "CPS4019",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "CPS4019",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "CPS4019"
+          }
+        }
+      ],
       "bom_table": [
         {
           "component": "麦克风",
@@ -84,9 +99,11 @@
     "structure": {
       "form_factor": "开放式耳机",
       "earbud_type": "开放",
-      "materials": [],
+      "materials": [
+        "PC"
+      ],
       "ip_rating": null,
-      "weight_g": null,
+      "weight_g": "55.7克",
       "dimensions": [
         "搭载10.8mm双磁路高灵敏度单元，近耳定向声波降低声音外溢；内置通话Mic+骨传导Mic+防风Mic三麦克风，支持深度神经网络 (DNN) 算法，搭配防风结构设计，保障全场景的清晰通话效果。"
       ],
@@ -158,7 +175,16 @@
         "相关阅读：\n1、\n拆解报告：HUAWEI华为FreeClip开放式耳机"
       ],
       "ip_rating_evidence": null,
-      "weight_evidence": null
+      "weight_evidence": {
+        "value": "55.7克",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "55.7克"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": null,
+      "weight_earbud_evidence": null
     },
     "hardware": {
       "specs": [
@@ -175,7 +201,17 @@
     },
     "software": {
       "bluetooth_version": null,
-      "codecs": [],
+      "codecs": [
+        {
+          "value": "LC3",
+          "evidence": {
+            "value": "LC3",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "今天我們來拆解的是華為3K開放式耳機\n節減主義及和設計\n佩戴時尚舒適\n搭在10.8毫米雙詞錄高靈敏度單元\n進而地上深波降低聲音外移\n內置通話麥克\n古傳島麥克\n防風麥克三麥克風\n支持深度神經網路算法\n搭配防風結構設計\n保障全場景的清晰通話效果\n支持自飾硬左右升到\n兩隻耳機完全一致\n佩戴無需分辨左右\n支持多點手勢控制\n還支持雙設備連接\n雷線查找\n音頻共享等多項智慧功能\n支持單次8小時\n綜合36小時的續航時間\n10分鐘快充可播放3小時\n還支持無限充電\n接下來我們一邊開箱一邊來看\n包裝和正面展示有耳機外觀\n品牌Logo和產品名稱\n背面介紹的產品的功能特點\n已經華為中端有限公司的部分信息\n和華為智慧生活奧的下載而為馬\n底部貼有出場標籤\n打開包裝盒\n裡面有充電盒\n耳機\n把兔C充電線\n專項權益裡包卡\n產品使用說明書和寶修卡\n充電盒採用羅暖時裝的\n桃園型設計\n圓潤小巧\n磨砂塗層急劇質感\n正面設計有華為品牌Logo\n以及一顆紙式的\n背面有亮銀色賺軸設計\n底部設置Type C充電接口\n銀色金屬環裝飾\n防止端口磨損\n側邊盒蓋採用了清潔設計\n機身上努用於藍牙配對的功能按鍵\n打開充電盒蓋\n耳機磁吸固定\nC型耳掛"
+          }
+        }
+      ],
       "multipoint": [
         {
           "value": "支持自适应左右声道，两只耳机完全一致，佩戴无需分辨左/右；支持多点手势控制；还支持双设备连接、离线查找、音频共享等多项智慧功能。",

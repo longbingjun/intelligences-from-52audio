@@ -15,8 +15,8 @@
   "source_site": "哔哩哔哩 (Bilibili)",
   "video_embed_url": "https://player.bilibili.com/player.html?bvid=BV1jgBMYXEzP&page=1&as_wide=1",
   "captured_at": "2026-07-14T02:04:24+00:00",
-  "asr_status": "pending",
-  "data_completeness": 0.05,
+  "asr_status": "done",
+  "data_completeness": 0.478,
   "views": {
     "market": {
       "brand": "",
@@ -25,17 +25,187 @@
       "launch_date": null,
       "price_cny": null,
       "price_note": "",
-      "selling_points": [],
-      "scenarios": [],
-      "positioning_summary": "",
+      "selling_points": [
+        {
+          "text": "电像传声,暗丝通话降噪。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "电像传声,暗丝通话降噪。",
+            "confidence": 0.56,
+            "source_type": "text",
+            "source_text": "电像传声,暗丝通话降噪。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通话"
+      ],
+      "positioning_summary": "电像传声,暗丝通话降噪。",
       "launch_date_evidence": null,
       "price_evidence": null
     },
     "cost": {
-      "major_parts": [],
-      "chip_modules": [],
-      "bom_table": [],
-      "supply_hints": [],
+      "major_parts": [
+        "充电仓",
+        "电池",
+        "主板/PCBA",
+        "麦克风"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "JL703",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL703",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "JL703"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒内部物品有主机、充电线和产品用户手册。随机标配的充电线。采用了USB A2Type-C插头。充电盒采用了额软时状设计体积清保变于携带。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "行号,小度智能开放是耳机S108。输入第C5500毫安。充电盒电池容量450毫安时。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "做倉底部主板通过螺丝固定。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "以及耳机参数信息,蓝牙协议,A2DPAFCCSPPHFP接收距离10米频率响应20Hz到20,000Hz喇叭零命度95滴B3滴B,喇叭组抗16欧15欧5,麦克风零命度,付42滴B1滴B,工作电流10到18毫安,充电电压DC5服,上海小度技术有限公司。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "为耳机充电的金属顶针,用于蓝牙配对的功能按键。两侧雕刻艾欧,耳左右标时,耳机采用了掛耳式设计配带输势清零。"
+          }
+        },
+        {
+          "component": "耳挂/挂钩",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "耳挂/挂钩",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机外侧,扁平的鲜细耳挂。采用了业态归胶材质包裹,配带输势清雇。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "品牌,logo同时也是指示灯,用于反馈无线连接状态。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "拆开充电和外壳,取出做倉结构。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "JL703",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "JL703",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "捷里JL703第8蓝牙音频SOC解决方案。"
+          }
+        }
+      ],
+      "supply_hints": [
+        {
+          "value": "生产商,深圳交揚供应链管理有限公司,中国制造。",
+          "evidence": {
+            "value": "生产商,深圳交揚供应链管理有限公司,中国制造。",
+            "confidence": 0.6,
+            "source_type": "text",
+            "source_text": "生产商,深圳交揚供应链管理有限公司,中国制造。"
+          }
+        }
+      ],
       "packaging_notes": [],
       "process_hints": [],
       "summary_image_urls": [],
@@ -46,19 +216,249 @@
       "earbud_type": "开放",
       "materials": [],
       "ip_rating": null,
-      "weight_g": null,
+      "weight_g": "75.3g",
       "dimensions": [],
-      "internal_structure": [],
-      "fastener_type": [],
+      "internal_structure": [
+        {
+          "value": "行号,小度智能开放是耳机S108。输入第C5500毫安。充电盒电池容量450毫安时。",
+          "evidence": {
+            "value": "行号,小度智能开放是耳机S108。输入第C5500毫安。充电盒电池容量450毫安时。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "行号,小度智能开放是耳机S108。输入第C5500毫安。充电盒电池容量450毫安时。"
+          }
+        },
+        {
+          "value": "电池通过双面胶固定在主板上,导现与主板汉接。",
+          "evidence": {
+            "value": "电池通过双面胶固定在主板上,导现与主板汉接。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "电池通过双面胶固定在主板上,导现与主板汉接。"
+          }
+        },
+        {
+          "value": "做倉底部主板通过螺丝固定。",
+          "evidence": {
+            "value": "做倉底部主板通过螺丝固定。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "做倉底部主板通过螺丝固定。"
+          }
+        },
+        {
+          "value": "以及耳机参数信息,蓝牙协议,A2DPAFCCSPPHFP接收距离10米频率响应20Hz到20,000Hz喇叭零命度95滴B3滴B,喇叭组抗16欧15欧5,麦克风零命度,付42滴B1滴B,工作电流10到18毫安,充电电压DC5服,上海小度技术有限公司。",
+          "evidence": {
+            "value": "以及耳机参数信息,蓝牙协议,A2DPAFCCSPPHFP接收距离10米频率响应20Hz到20,000Hz喇叭零命度95滴B3滴B,喇叭组抗16欧15欧5,麦克风零命度,付42滴B1滴B,工作电流10到18毫安,充电电压DC5服,上海小度技术有限公司。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "以及耳机参数信息,蓝牙协议,A2DPAFCCSPPHFP接收距离10米频率响应20Hz到20,000Hz喇叭零命度95滴B3滴B,喇叭组抗16欧15欧5,麦克风零命度,付42滴B1滴B,工作电流10到18毫安,充电电压DC5服,上海小度技术有限公司。"
+          }
+        },
+        {
+          "value": "盖板上的通话将造麦克风时印孔。",
+          "evidence": {
+            "value": "盖板上的通话将造麦克风时印孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "盖板上的通话将造麦克风时印孔。"
+          }
+        },
+        {
+          "value": "为耳机充电的金属顶针,用于蓝牙配对的功能按键。两侧雕刻艾欧,耳左右标时,耳机采用了掛耳式设计配带输势清零。",
+          "evidence": {
+            "value": "为耳机充电的金属顶针,用于蓝牙配对的功能按键。两侧雕刻艾欧,耳左右标时,耳机采用了掛耳式设计配带输势清零。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "为耳机充电的金属顶针,用于蓝牙配对的功能按键。两侧雕刻艾欧,耳左右标时,耳机采用了掛耳式设计配带输势清零。"
+          }
+        },
+        {
+          "value": "用于蓝牙配对的功能按键。",
+          "evidence": {
+            "value": "用于蓝牙配对的功能按键。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "用于蓝牙配对的功能按键。"
+          }
+        },
+        {
+          "value": "耳机外侧,扁平的鲜细耳挂。采用了业态归胶材质包裹,配带输势清雇。",
+          "evidence": {
+            "value": "耳机外侧,扁平的鲜细耳挂。采用了业态归胶材质包裹,配带输势清雇。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机外侧,扁平的鲜细耳挂。采用了业态归胶材质包裹,配带输势清雇。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "做倉底部主板通过螺丝固定。",
+          "evidence": {
+            "value": "做倉底部主板通过螺丝固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "做倉底部主板通过螺丝固定。"
+          }
+        },
+        {
+          "value": "泄掉螺丝取掉主板和电池。",
+          "evidence": {
+            "value": "泄掉螺丝取掉主板和电池。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "泄掉螺丝取掉主板和电池。"
+          }
+        },
+        {
+          "value": "枪体内部主板通过透明支架和螺丝固定。",
+          "evidence": {
+            "value": "枪体内部主板通过透明支架和螺丝固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "枪体内部主板通过透明支架和螺丝固定。"
+          }
+        },
+        {
+          "value": "细调螺丝先开主板,断开导线主板电路。",
+          "evidence": {
+            "value": "细调螺丝先开主板,断开导线主板电路。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "细调螺丝先开主板,断开导线主板电路。"
+          }
+        }
+      ],
       "sealing_method": [],
-      "wear_design": [],
+      "wear_design": [
+        {
+          "value": "开放是不入耳设计,配带舒适贴合稳固。",
+          "evidence": {
+            "value": "开放是不入耳设计,配带舒适贴合稳固。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "开放是不入耳设计,配带舒适贴合稳固。"
+          }
+        },
+        {
+          "value": "耳机外侧,扁平的鲜细耳挂。",
+          "evidence": {
+            "value": "耳机外侧,扁平的鲜细耳挂。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "耳机外侧,扁平的鲜细耳挂。"
+          }
+        },
+        {
+          "value": "耳机内侧,耳挂墨端设计艾欧,耳左右标时。",
+          "evidence": {
+            "value": "耳机内侧,耳挂墨端设计艾欧,耳左右标时。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "耳机内侧,耳挂墨端设计艾欧,耳左右标时。"
+          }
+        },
+        {
+          "value": "搭配液台轻腹规交材质,配带鱼耳裤舒适贴盒。",
+          "evidence": {
+            "value": "搭配液台轻腹规交材质,配带鱼耳裤舒适贴盒。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "搭配液台轻腹规交材质,配带鱼耳裤舒适贴盒。"
+          }
+        }
+      ],
       "key_image_urls": [],
-      "assembly_notes": [],
+      "assembly_notes": [
+        "行号,小度智能开放是耳机S108。输入第C5500毫安。充电盒电池容量450毫安时。",
+        "电池通过双面胶固定在主板上,导现与主板汉接。",
+        "做倉底部主板通过螺丝固定。",
+        "以及耳机参数信息,蓝牙协议,A2DPAFCCSPPHFP接收距离10米频率响应20Hz到20,000Hz喇叭零命度95滴B3滴B,喇叭组抗16欧15欧5,麦克风零命度,付42滴B1滴B,工作电流10到18毫安,充电电压DC5服,上海小度技术有限公司。"
+      ],
       "ip_rating_evidence": null,
-      "weight_evidence": null
+      "weight_evidence": {
+        "value": "75.3g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "同样设计有条音孔。\n金屋外音瓶网实测耳机整机重量约为75.3克,\n但这耳"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "9.5g",
+      "weight_earbud_evidence": {
+        "value": "9.5g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "网实测耳机整机重量约为75.3克,\n但这耳机重量约为9.5克,我爱音瓶"
+      }
     },
     "hardware": {
-      "specs": []
+      "specs": [
+        {
+          "param": "充电方式",
+          "value": "横流充电和横压充电全过程的充电方式。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "横流充电和横压充电全过程的充电方式。"
+        },
+        {
+          "param": "充电接口",
+          "value": "采用了USB A2Type-C插头。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "采用了USB A2Type-C插头。"
+        },
+        {
+          "param": "充电接口",
+          "value": "机身背面设置Type-C充电接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "机身背面设置Type-C充电接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C充电母座,C印402002N的祸尔原件。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充电母座,C印402002N的祸尔原件。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "标记/认证",
+          "value": "以及耳机参数信息,蓝牙协议,A2DPAFCCSPPHFP接收距离10米频率响应20Hz到20,000Hz喇叭零命度95滴B3滴B,喇叭组抗16欧15欧5,麦克风零命度,付42滴B1滴B,工作电流10到18毫安,充电电压DC5服,上海小度技术有限公司。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "以及耳机参数信息,蓝牙协议,A2DPAFCCSPPHFP接收距离10米频率响应20Hz到20,000Hz喇叭零命度95滴B3滴B,喇叭组抗16欧15欧5,麦克风零命度,付42滴B1滴B,工作电流10到18毫安,充电电压DC5服,上海小度技术"
+        },
+        {
+          "param": "标记/认证",
+          "value": "Charger Lab Power ZKM003C。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "Charger Lab Power ZKM003C。"
+        }
+      ]
     },
     "software": {
       "bluetooth_version": null,

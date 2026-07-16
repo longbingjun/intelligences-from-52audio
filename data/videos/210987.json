@@ -15,8 +15,8 @@
   "source_site": "哔哩哔哩 (Bilibili)",
   "video_embed_url": "https://player.bilibili.com/player.html?bvid=BV1H6pTeuEPZ&page=1&as_wide=1",
   "captured_at": "2026-07-14T02:04:57+00:00",
-  "asr_status": "pending",
-  "data_completeness": 0.05,
+  "asr_status": "done",
+  "data_completeness": 0.738,
   "views": {
     "market": {
       "brand": "",
@@ -25,50 +25,600 @@
       "launch_date": null,
       "price_cny": null,
       "price_note": "",
-      "selling_points": [],
-      "scenarios": [],
-      "positioning_summary": "",
+      "selling_points": [
+        {
+          "text": "雷雕23A6的MEMS麦克风是反亏降噪麦克风,用于从耳当内部实取噪音,来自瑞琴电子。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "雷雕23A6的MEMS麦克风是反亏降噪麦克风,用于从耳当内部实取噪音,来自瑞琴电子。",
+            "confidence": 0.75,
+            "source_type": "text",
+            "source_text": "雷雕23A6的MEMS麦克风是反亏降噪麦克风,用于从耳当内部实取噪音,来自瑞琴电子。"
+          }
+        },
+        {
+          "text": "这是雷雕239S的MEMS麦克风,为前会降噪麦克风,用于时取外部环境噪音。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "这是雷雕239S的MEMS麦克风,为前会降噪麦克风,用于时取外部环境噪音。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "这是雷雕239S的MEMS麦克风,为前会降噪麦克风,用于时取外部环境噪音。"
+          }
+        },
+        {
+          "text": "新一代回声消除和超宽带AI智能降噪等功能。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "新一代回声消除和超宽带AI智能降噪等功能。",
+            "confidence": 0.73,
+            "source_type": "text",
+            "source_text": "新一代回声消除和超宽带AI智能降噪等功能。"
+          }
+        },
+        {
+          "text": "耳机内部,采用了11毫米度态低音单元加10毫米压电桃子高音单元的定制圈词同仇双单元。",
+          "tag": "其他",
+          "evidence": {
+            "value": "耳机内部,采用了11毫米度态低音单元加10毫米压电桃子高音单元的定制圈词同仇双单元。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "耳机内部,采用了11毫米度态低音单元加10毫米压电桃子高音单元的定制圈词同仇双单元。"
+          }
+        },
+        {
+          "text": "合反亏降噪麦克风。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "合反亏降噪麦克风。",
+            "confidence": 0.57,
+            "source_type": "text",
+            "source_text": "合反亏降噪麦克风。"
+          }
+        }
+      ],
+      "scenarios": [
+        "通话"
+      ],
+      "positioning_summary": "雷雕23A6的MEMS麦克风是反亏降噪麦克风,用于从耳当内部实取噪音,来自瑞琴电子。",
       "launch_date_evidence": null,
       "price_evidence": null
     },
     "cost": {
-      "major_parts": [],
-      "chip_modules": [],
-      "bom_table": [],
+      "major_parts": [
+        "电池",
+        "主板/PCBA",
+        "充电仓",
+        "麦克风",
+        "天线",
+        "降噪系统"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB0",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB0",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "AB0"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB1577",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB1577",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "AB1577"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB157",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB157",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "AB157"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "另外一侧私意信息,充电盒电池容量480毫安时1.824瓦时。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "这是做枪底部结构,通过螺丝固定主板单元,元气件均打交防护,切掉螺丝,取掉主板单元。"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒内部物品,油耳塞,使用说明书,充电盒耳机,和充电线。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机并上方测编的,这是降噪麦克风时音孔。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "通过支架固定蓝牙天线和触摩检测铁片。"
+          }
+        },
+        {
+          "component": "降噪系统",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "降噪系统",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "支持蓝牙5.3集成混合主动降噪。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "背面设计有Ragme品牌Logo,底部设置Type-C充电接口和蓝牙配对按键。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "正面设置有一颗调形指示灯,用于反馈蓝牙配对及充电状态。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "下面进入拆解部分,拆开充电和外壳,取出内部做枪结构。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "这是耳机并底部的通话麦克风开孔,和充电触点。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB0",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB0",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "这是思议BECNAB0的声压IC。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB1577",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB1577",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "来自瑞琴电子,达发AB1577SA蓝牙音频SOC。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB157",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB157",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "AB157X是一款支持蓝牙53和L1Audio的担心片解决方案。"
+          }
+        }
+      ],
       "supply_hints": [],
-      "packaging_notes": [],
-      "process_hints": [],
+      "packaging_notes": [
+        "包装盒内部物品,油耳塞,使用说明书,充电盒耳机,和充电线。"
+      ],
+      "process_hints": [
+        {
+          "value": "XB5152J2SZ一体化理电保护IC。",
+          "evidence": {
+            "value": "XB5152J2SZ一体化理电保护IC。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "XB5152J2SZ一体化理电保护IC。"
+          }
+        },
+        {
+          "value": "还用了苏州塞心电子科技股份XB515RJRSC一体化与电保护IC。",
+          "evidence": {
+            "value": "还用了苏州塞心电子科技股份XB515RJRSC一体化与电保护IC。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "还用了苏州塞心电子科技股份XB515RJRSC一体化与电保护IC。"
+          }
+        }
+      ],
       "summary_image_urls": [],
       "summary_text": ""
     },
     "structure": {
       "form_factor": "真无线耳机TWS",
       "earbud_type": "入耳",
-      "materials": [],
+      "materials": [
+        "PC"
+      ],
       "ip_rating": null,
-      "weight_g": null,
-      "dimensions": [],
-      "internal_structure": [],
-      "fastener_type": [],
+      "weight_g": "43.5g",
+      "dimensions": [
+        "三种尺寸满足不同用户需求,充电盒,采用原角方形设计,体积小巧,边缘过度圆认,雅光噴漆图层,质感非常细腻。",
+        "光滑圆认的亮面质感,搭配三复不同尺寸的亲户规交耳塞。",
+        "欠入式的Tensilica High 5mm处理器。"
+      ],
+      "internal_structure": [
+        {
+          "value": "另外一侧私意信息,充电盒电池容量480毫安时1.824瓦时。",
+          "evidence": {
+            "value": "另外一侧私意信息,充电盒电池容量480毫安时1.824瓦时。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "另外一侧私意信息,充电盒电池容量480毫安时1.824瓦时。"
+          }
+        },
+        {
+          "value": "做枪正面,设置有FPC排线连接指示灯,中间固定电池单元,起到很好的保护作用,这是做枪背面结构。",
+          "evidence": {
+            "value": "做枪正面,设置有FPC排线连接指示灯,中间固定电池单元,起到很好的保护作用,这是做枪背面结构。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "做枪正面,设置有FPC排线连接指示灯,中间固定电池单元,起到很好的保护作用,这是做枪背面结构。"
+          }
+        },
+        {
+          "value": "这是做枪底部结构,通过螺丝固定主板单元,元气件均打交防护,切掉螺丝,取掉主板单元。",
+          "evidence": {
+            "value": "这是做枪底部结构,通过螺丝固定主板单元,元气件均打交防护,切掉螺丝,取掉主板单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "这是做枪底部结构,通过螺丝固定主板单元,元气件均打交防护,切掉螺丝,取掉主板单元。"
+          }
+        },
+        {
+          "value": "这是主板连接台线的自一字连接器,据我爱音频网了解到。",
+          "evidence": {
+            "value": "这是主板连接台线的自一字连接器,据我爱音频网了解到。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "这是主板连接台线的自一字连接器,据我爱音频网了解到。"
+          }
+        },
+        {
+          "value": "耳机并上方测编的,这是降噪麦克风时音孔。",
+          "evidence": {
+            "value": "耳机并上方测编的,这是降噪麦克风时音孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机并上方测编的,这是降噪麦克风时音孔。"
+          }
+        },
+        {
+          "value": "这是耳机并底部的通话麦克风开孔,和充电触点。",
+          "evidence": {
+            "value": "这是耳机并底部的通话麦克风开孔,和充电触点。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "这是耳机并底部的通话麦克风开孔,和充电触点。"
+          }
+        },
+        {
+          "value": "通过支架固定蓝牙天线和触摩检测铁片。",
+          "evidence": {
+            "value": "通过支架固定蓝牙天线和触摩检测铁片。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "通过支架固定蓝牙天线和触摩检测铁片。"
+          }
+        },
+        {
+          "value": "这是26.00米HZ的金镇用于提供时中,连接蓝牙天线的金属谈片。",
+          "evidence": {
+            "value": "这是26.00米HZ的金镇用于提供时中,连接蓝牙天线的金属谈片。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "这是26.00米HZ的金镇用于提供时中,连接蓝牙天线的金属谈片。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "这是做枪底部结构,通过螺丝固定主板单元,元气件均打交防护,切掉螺丝,取掉主板单元。",
+          "evidence": {
+            "value": "这是做枪底部结构,通过螺丝固定主板单元,元气件均打交防护,切掉螺丝,取掉主板单元。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "这是做枪底部结构,通过螺丝固定主板单元,元气件均打交防护,切掉螺丝,取掉主板单元。"
+          }
+        }
+      ],
       "sealing_method": [],
-      "wear_design": [],
+      "wear_design": [
+        {
+          "value": "包装盒内部物品,油耳塞,使用说明书,充电盒耳机,和充电线。",
+          "evidence": {
+            "value": "包装盒内部物品,油耳塞,使用说明书,充电盒耳机,和充电线。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "包装盒内部物品,油耳塞,使用说明书,充电盒耳机,和充电线。"
+          }
+        },
+        {
+          "value": "随机标配的轻腹规交耳塞,耳机上预装一副。",
+          "evidence": {
+            "value": "随机标配的轻腹规交耳塞,耳机上预装一副。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "随机标配的轻腹规交耳塞,耳机上预装一副。"
+          }
+        },
+        {
+          "value": "光滑圆认的亮面质感,搭配三复不同尺寸的亲户规交耳塞。",
+          "evidence": {
+            "value": "光滑圆认的亮面质感,搭配三复不同尺寸的亲户规交耳塞。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "光滑圆认的亮面质感,搭配三复不同尺寸的亲户规交耳塞。"
+          }
+        },
+        {
+          "value": "能够提供舒适稳定的配带体验,干涨短并背部设计有调形装适片,是感通透,搭配盖板的雅光图层。",
+          "evidence": {
+            "value": "能够提供舒适稳定的配带体验,干涨短并背部设计有调形装适片,是感通透,搭配盖板的雅光图层。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "能够提供舒适稳定的配带体验,干涨短并背部设计有调形装适片,是感通透,搭配盖板的雅光图层。"
+          }
+        }
+      ],
       "key_image_urls": [],
-      "assembly_notes": [],
+      "assembly_notes": [
+        "另外一侧私意信息,充电盒电池容量480毫安时1.824瓦时。",
+        "做枪正面,设置有FPC排线连接指示灯,中间固定电池单元,起到很好的保护作用,这是做枪背面结构。",
+        "这是做枪底部结构,通过螺丝固定主板单元,元气件均打交防护,切掉螺丝,取掉主板单元。",
+        "这是主板连接台线的自一字连接器,据我爱音频网了解到。"
+      ],
       "ip_rating_evidence": null,
-      "weight_evidence": null
+      "weight_evidence": {
+        "value": "43.5g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "耳机条音孔,用于保障音枪内部空气流通。\n整机重量约为43.5克,单支耳机"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "5.3g",
+      "weight_earbud_evidence": {
+        "value": "5.3g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "空气流通。\n整机重量约为43.5克,单支耳机重量约为5.3克。\n充电测"
+      }
     },
     "hardware": {
-      "specs": []
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "此款是冰瓷蓝配色,充电盒充电线,采用USB-A2Type-C接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "此款是冰瓷蓝配色,充电盒充电线,采用USB-A2Type-C接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "背面设计有Ragme品牌Logo,底部设置Type-C充电接口和蓝牙配对按键。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "背面设计有Ragme品牌Logo,底部设置Type-C充电接口和蓝牙配对按键。"
+        },
+        {
+          "param": "充电接口",
+          "value": "底部Type-C接口开孔和功能按键键帽。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "底部Type-C接口开孔和功能按键键帽。"
+        },
+        {
+          "param": "充电接口",
+          "value": "这是Type-C充电母座,来自深圳精锐新业科技有限公司。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "这是Type-C充电母座,来自深圳精锐新业科技有限公司。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "线彩工艺设计的产品名,以及High Race Wireless,高清音频认证标志,包装盒背面介绍油,产品的功能特点和参数信息。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "线彩工艺设计的产品名,以及High Race Wireless,高清音频认证标志,包装盒背面介绍油,产品的功能特点和参数信息。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "额定电压3.85V,容量54MR0.2080H。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "额定电压3.85V,容量54MR0.2080H。"
+        }
+      ]
     },
     "software": {
-      "bluetooth_version": null,
+      "bluetooth_version": "5.3",
       "codecs": [],
       "multipoint": [],
       "app_name": "",
-      "app_features": [],
+      "app_features": [
+        {
+          "value": "内置arm Cortex M4F应用处理器,可实现高性能和高功效。",
+          "evidence": {
+            "value": "内置arm Cortex M4F应用处理器,可实现高性能和高功效。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "内置arm Cortex M4F应用处理器,可实现高性能和高功效。"
+          }
+        }
+      ],
       "ota_support": [],
-      "latency_notes": [],
-      "bluetooth_evidence": null
+      "latency_notes": [
+        {
+          "value": "高度集成解决方案,包含先进的功率MOSFIT,高精度电压检测电路和延迟电路。",
+          "evidence": {
+            "value": "高度集成解决方案,包含先进的功率MOSFIT,高精度电压检测电路和延迟电路。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "高度集成解决方案,包含先进的功率MOSFIT,高精度电压检测电路和延迟电路。"
+          }
+        }
+      ],
+      "bluetooth_evidence": {
+        "value": "5.3",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.3"
+      }
     }
   }
 }

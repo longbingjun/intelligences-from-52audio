@@ -15,8 +15,8 @@
   "source_site": "哔哩哔哩 (Bilibili)",
   "video_embed_url": "https://player.bilibili.com/player.html?bvid=BV1REfKYcEjz&page=1&as_wide=1",
   "captured_at": "2026-07-14T02:03:52+00:00",
-  "asr_status": "pending",
-  "data_completeness": 0.226,
+  "asr_status": "done",
+  "data_completeness": 0.544,
   "views": {
     "market": {
       "brand": "SHOKZ韶音",
@@ -49,7 +49,64 @@
         "麦克风",
         "降噪系统"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm",
+          "model": "高通QCC3024",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通QCC3024",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "高通QCC3024"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm",
+          "model": "高通APTX",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通APTX",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "高通APTX"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm",
+          "model": "高通CVC",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通CVC",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "高通CVC"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "QCC30",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "QCC30",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "QCC30"
+          }
+        }
+      ],
       "bom_table": [
         {
           "component": "麦克风",
@@ -89,9 +146,12 @@
     "structure": {
       "form_factor": "真无线耳机TWS",
       "earbud_type": "入耳",
-      "materials": [],
+      "materials": [
+        "PC",
+        "皮革"
+      ],
       "ip_rating": null,
-      "weight_g": null,
+      "weight_g": "116.4g",
       "dimensions": [],
       "internal_structure": [
         {
@@ -104,7 +164,17 @@
           }
         }
       ],
-      "fastener_type": [],
+      "fastener_type": [
+        {
+          "value": "泄掉螺丝,取掉金属罩。",
+          "evidence": {
+            "value": "泄掉螺丝,取掉金属罩。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "泄掉螺丝,取掉金属罩。"
+          }
+        }
+      ],
       "sealing_method": [],
       "wear_design": [
         {
@@ -122,7 +192,21 @@
         "SHOKZ韶音OPENCOMM 2通讯蓝牙耳机在外观上，采用了轻巧不入耳的人体工学设计，全天候佩戴舒适无负担。在功能配置上，搭载数字降噪麦克风，支持优化版cVc算法，智能减弱通话回声与环境噪音，提供清晰通话；搭载PremiumPitch 2.0+骨传导技术，提供三频均衡的音质；支持LeakSlayer技术，有效抑制漏音，保障用户隐私；还支持IP55防护等级，可提供8小时的持久续航。"
       ],
       "ip_rating_evidence": null,
-      "weight_evidence": null
+      "weight_evidence": {
+        "value": "116.4g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "约为35.1克。\n收纳包加耳机加充电线的整机重量约为116.4克。\n清晓变"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "35.1g",
+      "weight_earbud_evidence": {
+        "value": "35.1g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "枪体侧边的充电触点。\n今O2音品网实测,耳机重量约为35.1克。\n收纳包"
+      }
     },
     "hardware": {
       "specs": [
@@ -138,14 +222,29 @@
       ]
     },
     "software": {
-      "bluetooth_version": null,
-      "codecs": [],
+      "bluetooth_version": "5.0",
+      "codecs": [
+        {
+          "value": "aptX",
+          "evidence": {
+            "value": "aptX",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "支持高通APTX自视音音频技术。"
+          }
+        }
+      ],
       "multipoint": [],
       "app_name": "",
       "app_features": [],
       "ota_support": [],
       "latency_notes": [],
-      "bluetooth_evidence": null
+      "bluetooth_evidence": {
+        "value": "5.0",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙5.0"
+      }
     }
   }
 }

@@ -15,8 +15,8 @@
   "source_site": "哔哩哔哩 (Bilibili)",
   "video_embed_url": "https://player.bilibili.com/player.html?bvid=BV1YkR2YAEvD&page=1&as_wide=1",
   "captured_at": "2026-07-14T02:03:47+00:00",
-  "asr_status": "pending",
-  "data_completeness": 0.214,
+  "asr_status": "done",
+  "data_completeness": 0.684,
   "views": {
     "market": {
       "brand": "",
@@ -45,7 +45,12 @@
       "price_evidence": null
     },
     "cost": {
-      "major_parts": [],
+      "major_parts": [
+        "麦克风",
+        "主板/PCBA",
+        "电池",
+        "天线"
+      ],
       "chip_modules": [
         {
           "component": "芯片/模组",
@@ -79,21 +84,108 @@
         }
       ],
       "supply_hints": [],
-      "packaging_notes": [],
-      "process_hints": [],
+      "packaging_notes": [
+        "让运动耳机在进化,打开包装和内部物品油耳机充电线,\n收纳包和产品使用说明书,收纳包采用了妥原型设计,\n并不易有Aladdin's品牌logo,打开收纳包。"
+      ],
+      "process_hints": [
+        {
+          "value": "c-3MVX的一体化理电保护IC。",
+          "evidence": {
+            "value": "c-3MVX的一体化理电保护IC。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "c-3MVX的一体化理电保护IC。"
+          }
+        }
+      ],
       "summary_image_urls": [],
       "summary_text": ""
     },
     "structure": {
       "form_factor": "开放式耳机",
       "earbud_type": "开放",
-      "materials": [],
+      "materials": [
+        "PC"
+      ],
       "ip_rating": "IPX8",
-      "weight_g": null,
+      "weight_g": "26克",
       "dimensions": [
         "在功能配置上，搭载了高精度叠层喇叭，采用高通芯片，支持Qualcomm aptX音频解码，提供高解析音质；还搭载了功放芯片，音质澎湃，声场更开阔。"
       ],
-      "internal_structure": [],
+      "internal_structure": [
+        {
+          "value": "设计有Aladdin's品牌名,设置有指示灯和麦克风时音孔。",
+          "evidence": {
+            "value": "设计有Aladdin's品牌名,设置有指示灯和麦克风时音孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "设计有Aladdin's品牌名,设置有指示灯和麦克风时音孔。"
+          }
+        },
+        {
+          "value": "麦克风时音孔,内部防晨往防护,连接充电线充电的金属触点。",
+          "evidence": {
+            "value": "麦克风时音孔,内部防晨往防护,连接充电线充电的金属触点。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "麦克风时音孔,内部防晨往防护,连接充电线充电的金属触点。"
+          }
+        },
+        {
+          "value": "左侧耳挂枪体内置主板单元。",
+          "evidence": {
+            "value": "左侧耳挂枪体内置主板单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "左侧耳挂枪体内置主板单元。"
+          }
+        },
+        {
+          "value": "取出主板。",
+          "evidence": {
+            "value": "取出主板。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "取出主板。"
+          }
+        },
+        {
+          "value": "耳机电池容量,150毫安时,输入电压,5幅0.5安,蓝牙版本,5.1。",
+          "evidence": {
+            "value": "耳机电池容量,150毫安时,输入电压,5幅0.5安,蓝牙版本,5.1。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机电池容量,150毫安时,输入电压,5幅0.5安,蓝牙版本,5.1。"
+          }
+        },
+        {
+          "value": "打开右侧耳挂枪体,取出内部电池单元。",
+          "evidence": {
+            "value": "打开右侧耳挂枪体,取出内部电池单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "打开右侧耳挂枪体,取出内部电池单元。"
+          }
+        },
+        {
+          "value": "便充有支架印刷IODS雷射天线。",
+          "evidence": {
+            "value": "便充有支架印刷IODS雷射天线。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "便充有支架印刷IODS雷射天线。"
+          }
+        },
+        {
+          "value": "记忆耳挂舒适稳固 IPX8防水,15H续航多点连接无缝切换。",
+          "evidence": {
+            "value": "记忆耳挂舒适稳固 IPX8防水,15H续航多点连接无缝切换。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "记忆耳挂舒适稳固 IPX8防水,15H续航多点连接无缝切换。"
+          }
+        }
+      ],
       "fastener_type": [],
       "sealing_method": [
         {
@@ -118,14 +210,33 @@
         }
       ],
       "key_image_urls": [],
-      "assembly_notes": [],
+      "assembly_notes": [
+        "设计有Aladdin's品牌名,设置有指示灯和麦克风时音孔。",
+        "麦克风时音孔,内部防晨往防护,连接充电线充电的金属触点。",
+        "左侧耳挂枪体内置主板单元。",
+        "取出主板。"
+      ],
       "ip_rating_evidence": {
         "value": "IPX8",
         "confidence": 0.8,
         "source_type": "text",
         "source_text": "IPX8"
       },
-      "weight_evidence": null
+      "weight_evidence": {
+        "value": "26克",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "26克"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "26g",
+      "weight_earbud_evidence": {
+        "value": "26g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "左侧耳挂设计有品牌名,金瓦艾音瓶网时测,耳机重量约为26克配带轻营舒"
+      }
     },
     "hardware": {
       "specs": [
@@ -151,11 +262,40 @@
             "source_type": "text",
             "source_text": "在功能配置上，搭载了高精度叠层喇叭，采用高通芯片，支持Qualcomm aptX音频解码，提供高解析音质；还搭载了功放芯片，音质澎湃，声场更开阔。"
           }
+        },
+        {
+          "value": "aptX",
+          "evidence": {
+            "value": "aptX",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "支持高通APTX和APTX HD硬瓶编码。"
+          }
         }
       ],
-      "multipoint": [],
+      "multipoint": [
+        {
+          "value": "记忆耳挂舒适稳固 IPX8防水,15H续航多点连接无缝切换。",
+          "evidence": {
+            "value": "记忆耳挂舒适稳固 IPX8防水,15H续航多点连接无缝切换。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "记忆耳挂舒适稳固 IPX8防水,15H续航多点连接无缝切换。"
+          }
+        }
+      ],
       "app_name": "",
-      "app_features": [],
+      "app_features": [
+        {
+          "value": "有两个32位处理器应用仔细统。",
+          "evidence": {
+            "value": "有两个32位处理器应用仔细统。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "有两个32位处理器应用仔细统。"
+          }
+        }
+      ],
       "ota_support": [],
       "latency_notes": [],
       "bluetooth_evidence": null

@@ -15,8 +15,8 @@
   "source_site": "哔哩哔哩 (Bilibili)",
   "video_embed_url": "https://player.bilibili.com/player.html?bvid=BV1RxieYSEw7&page=1&as_wide=1",
   "captured_at": "2026-07-14T02:04:29+00:00",
-  "asr_status": "pending",
-  "data_completeness": 0.08,
+  "asr_status": "done",
+  "data_completeness": 0.576,
   "views": {
     "market": {
       "brand": "MOONDROP水月雨",
@@ -25,16 +25,151 @@
       "launch_date": null,
       "price_cny": null,
       "price_note": "",
-      "selling_points": [],
+      "selling_points": [
+        {
+          "text": "提供舒適的佩戴,以及更優的降噪效果。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "提供舒適的佩戴,以及更優的降噪效果。",
+            "confidence": 0.71,
+            "source_type": "text",
+            "source_text": "提供舒適的佩戴,以及更優的降噪效果。"
+          }
+        },
+        {
+          "text": "但在200-500元價位,多為中科藍訊BT8926,\nBT8931等中高端芯片。",
+          "tag": "旗舰定位",
+          "evidence": {
+            "value": "但在200-500元價位,多為中科藍訊BT8926,\nBT8931等中高端芯片。",
+            "confidence": 0.67,
+            "source_type": "text",
+            "source_text": "但在200-500元價位,多為中科藍訊BT8926,\nBT8931等中高端芯片。"
+          }
+        },
+        {
+          "text": "水月與Robbins Earphones 中無線降噪耳機。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "水月與Robbins Earphones 中無線降噪耳機。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "水月與Robbins Earphones 中無線降噪耳機。"
+          }
+        },
+        {
+          "text": "實現更出色的陰智和降噪效果,耳機背部蓋板上設置有通話麥克風石陰孔。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "實現更出色的陰智和降噪效果,耳機背部蓋板上設置有通話麥克風石陰孔。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "實現更出色的陰智和降噪效果,耳機背部蓋板上設置有通話麥克風石陰孔。"
+          }
+        },
+        {
+          "text": "水月與Robben S Airphones中無線降噪耳機,外觀設計級內部硬件配置。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "水月與Robben S Airphones中無線降噪耳機,外觀設計級內部硬件配置。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "水月與Robben S Airphones中無線降噪耳機,外觀設計級內部硬件配置。"
+          }
+        },
+        {
+          "text": "隨機覆增的定制皮制收納包,紫色配色金色點綴高貴優雅。",
+          "tag": "其他",
+          "evidence": {
+            "value": "隨機覆增的定制皮制收納包,紫色配色金色點綴高貴優雅。",
+            "confidence": 0.61,
+            "source_type": "text",
+            "source_text": "隨機覆增的定制皮制收納包,紫色配色金色點綴高貴優雅。"
+          }
+        }
+      ],
       "scenarios": [],
-      "positioning_summary": "",
+      "positioning_summary": "提供舒適的佩戴,以及更優的降噪效果。",
       "launch_date_evidence": null,
       "price_evidence": null
     },
     "cost": {
-      "major_parts": [],
-      "chip_modules": [],
-      "bom_table": [],
+      "major_parts": [
+        "主板/PCBA"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "BT8952F",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BT8952F",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "BT8952F"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "IP6818",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "IP6818",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "IP6818"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "槍體內部結構,主板器和槍體設計。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "BT8952F",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "BT8952F",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "中科藍訊BT8952F藍牙音頻SOC。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "IP6818",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "IP6818",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "Type-C充電母座,應極新IP6818多功能電源管理SOC。"
+          }
+        }
+      ],
       "supply_hints": [],
       "packaging_notes": [],
       "process_hints": [],
@@ -44,25 +179,274 @@
     "structure": {
       "form_factor": "真无线耳机TWS",
       "earbud_type": "入耳",
-      "materials": [],
+      "materials": [
+        "PC"
+      ],
       "ip_rating": null,
-      "weight_g": null,
-      "dimensions": [],
-      "internal_structure": [],
+      "weight_g": "83.3克",
+      "dimensions": [
+        "總共有SMI-3種尺寸,用於滿足不同用戶的佩戴使用需求。",
+        "隨機標配的清泉耳塞,同樣包括了SMI-3種尺寸。",
+        "隨機覆增的崩壞,星球鐵道X水月雨聯名,壓克力百件之更撩款,尺寸100毫米X100毫米。"
+      ],
+      "internal_structure": [
+        {
+          "value": "槍體內部結構,主板器和槍體設計。",
+          "evidence": {
+            "value": "槍體內部結構,主板器和槍體設計。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "槍體內部結構,主板器和槍體設計。"
+          }
+        },
+        {
+          "value": "先開主板,背部與排線通過BTB連接器連接。",
+          "evidence": {
+            "value": "先開主板,背部與排線通過BTB連接器連接。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "先開主板,背部與排線通過BTB連接器連接。"
+          }
+        },
+        {
+          "value": "大家好,這裡是我艾英平網,今天我們來拆解。",
+          "evidence": {
+            "value": "大家好,這裡是我艾英平網,今天我們來拆解。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "大家好,這裡是我艾英平網,今天我們來拆解。"
+          }
+        },
+        {
+          "value": "座艙內部耳機通過慈悉固定,能夠變結取放。",
+          "evidence": {
+            "value": "座艙內部耳機通過慈悉固定,能夠變結取放。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "座艙內部耳機通過慈悉固定,能夠變結取放。"
+          }
+        },
+        {
+          "value": "輸入功率約為2.10瓦,下面進入拆解部份。",
+          "evidence": {
+            "value": "輸入功率約為2.10瓦,下面進入拆解部份。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "輸入功率約為2.10瓦,下面進入拆解部份。"
+          }
+        },
+        {
+          "value": "蓋板內側固定FPC藍牙天線和觸摸檢測的貼片。",
+          "evidence": {
+            "value": "蓋板內側固定FPC藍牙天線和觸摸檢測的貼片。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "蓋板內側固定FPC藍牙天線和觸摸檢測的貼片。"
+          }
+        },
+        {
+          "value": "電池保護板上設置有私印FH131的一體化理電保護IC,充電核拆解,\n拆開充電核外殼,取出做倉結構,做倉底部結構,底層無線充電接收線圈設置在隔磁平地貼紙上,\n通過雙面膠與外殼固定。",
+          "evidence": {
+            "value": "電池保護板上設置有私印FH131的一體化理電保護IC,充電核拆解,\n拆開充電核外殼,取出做倉結構,做倉底部結構,底層無線充電接收線圈設置在隔磁平地貼紙上,\n通過雙面膠與外殼固定。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "電池保護板上設置有私印FH131的一體化理電保護IC,充電核拆解,\n拆開充電核外殼,取出做倉結構,做倉底部結構,底層無線充電接收線圈設置在隔磁平地貼紙上,\n通過雙面膠與外殼固定。"
+          }
+        },
+        {
+          "value": "用於吸附固定耳機和充電核蓋,中間黑色遮光照,避免只是燈光干擾,充電核內部主要電路。",
+          "evidence": {
+            "value": "用於吸附固定耳機和充電核蓋,中間黑色遮光照,避免只是燈光干擾,充電核內部主要電路。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "用於吸附固定耳機和充電核蓋,中間黑色遮光照,避免只是燈光干擾,充電核內部主要電路。"
+          }
+        }
+      ],
       "fastener_type": [],
       "sealing_method": [],
-      "wear_design": [],
+      "wear_design": [
+        {
+          "value": "隨機標配的兩覆規交耳塞,耳機上預裝一覆。",
+          "evidence": {
+            "value": "隨機標配的兩覆規交耳塞,耳機上預裝一覆。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "隨機標配的兩覆規交耳塞,耳機上預裝一覆。"
+          }
+        },
+        {
+          "value": "總共有SMI-3種尺寸,用於滿足不同用戶的佩戴使用需求。",
+          "evidence": {
+            "value": "總共有SMI-3種尺寸,用於滿足不同用戶的佩戴使用需求。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "總共有SMI-3種尺寸,用於滿足不同用戶的佩戴使用需求。"
+          }
+        },
+        {
+          "value": "隨機標配的清泉耳塞,同樣包括了SMI-3種尺寸。",
+          "evidence": {
+            "value": "隨機標配的清泉耳塞,同樣包括了SMI-3種尺寸。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "隨機標配的清泉耳塞,同樣包括了SMI-3種尺寸。"
+          }
+        },
+        {
+          "value": "據了解清泉套為水月雨開發的一用規交耳塞套,其出陰嘴設置了通過非有線緣訪針。",
+          "evidence": {
+            "value": "據了解清泉套為水月雨開發的一用規交耳塞套,其出陰嘴設置了通過非有線緣訪針。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "據了解清泉套為水月雨開發的一用規交耳塞套,其出陰嘴設置了通過非有線緣訪針。"
+          }
+        }
+      ],
       "key_image_urls": [],
-      "assembly_notes": [],
+      "assembly_notes": [
+        "槍體內部結構,主板器和槍體設計。",
+        "先開主板,背部與排線通過BTB連接器連接。",
+        "大家好,這裡是我艾英平網,今天我們來拆解。",
+        "座艙內部耳機通過慈悉固定,能夠變結取放。"
+      ],
       "ip_rating_evidence": null,
-      "weight_evidence": null
+      "weight_evidence": {
+        "value": "83.3克",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "83.3克"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": null,
+      "weight_earbud_evidence": null
     },
     "hardware": {
-      "specs": []
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "充電盒充電線,採用了USB-A2-Type-C插頭。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充電盒充電線,採用了USB-A2-Type-C插頭。"
+        },
+        {
+          "param": "充电接口",
+          "value": "與外部包裝和上一致,側邊設置Type-C充電接口,打開充電盒蓋。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "與外部包裝和上一致,側邊設置Type-C充電接口,打開充電盒蓋。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C充電母座,應極新IP6818多功能電源管理SOC。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充電母座,應極新IP6818多功能電源管理SOC。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "Charger Lab Power Escape 003C,對耳機進行充電測試。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "Charger Lab Power Escape 003C,對耳機進行充電測試。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "絲硬Uv2N的貨耳元件,用於感知充電核開啟,關閉時的磁場變化,\n近而通知充電核MCEO和耳機,與以連接設備配對,獲斷開連接。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "絲硬Uv2N的貨耳元件,用於感知充電核開啟,關閉時的磁場變化,\n近而通知充電核MCEO和耳機,與以連接設備配對,獲斷開連接。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "Type-C充電母座,應極新IP6818多功能電源管理SOC。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "Type-C充電母座,應極新IP6818多功能電源管理SOC。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "主板上,採用了應急性IP6818電源管理SOC。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "主板上,採用了應急性IP6818電源管理SOC。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "內置MCEO集成T5線充接收五幅剩壓轉換器,理電池充電管理。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "內置MCEO集成T5線充接收五幅剩壓轉換器,理電池充電管理。"
+        }
+      ]
     },
     "software": {
       "bluetooth_version": null,
-      "codecs": [],
+      "codecs": [
+        {
+          "value": "AAC",
+          "evidence": {
+            "value": "AAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "包裝盒背面展示有產品的評想區限和產品參數等信息,產品名稱,\nRobbins Earphones 產品型號,MDTWS-040藍牙版本,5.4\n藍牙傳輸協議,A2-DPA-CCHF-SP,編檢碼協議,SBC-AAC-LDA-C-LC3。"
+          }
+        },
+        {
+          "value": "SBC",
+          "evidence": {
+            "value": "SBC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "包裝盒背面展示有產品的評想區限和產品參數等信息,產品名稱,\nRobbins Earphones 產品型號,MDTWS-040藍牙版本,5.4\n藍牙傳輸協議,A2-DPA-CCHF-SP,編檢碼協議,SBC-AAC-LDA-C-LC3。"
+          }
+        },
+        {
+          "value": "LC3",
+          "evidence": {
+            "value": "LC3",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "包裝盒背面展示有產品的評想區限和產品參數等信息,產品名稱,\nRobbins Earphones 產品型號,MDTWS-040藍牙版本,5.4\n藍牙傳輸協議,A2-DPA-CCHF-SP,編檢碼協議,SBC-AAC-LDA-C-LC3。"
+          }
+        }
+      ],
       "multipoint": [],
       "app_name": "",
       "app_features": [],

@@ -15,8 +15,8 @@
   "source_site": "哔哩哔哩 (Bilibili)",
   "video_embed_url": "https://player.bilibili.com/player.html?bvid=BV19Rw1eSE9V&page=1&as_wide=1",
   "captured_at": "2026-07-14T02:04:15+00:00",
-  "asr_status": "pending",
-  "data_completeness": 0.08,
+  "asr_status": "done",
+  "data_completeness": 0.598,
   "views": {
     "market": {
       "brand": "Baseus倍思",
@@ -25,18 +25,203 @@
       "launch_date": null,
       "price_cny": null,
       "price_note": "",
-      "selling_points": [],
-      "scenarios": [],
-      "positioning_summary": "",
+      "selling_points": [
+        {
+          "text": "具备高音质、低延迟、低功耗等特点。",
+          "tag": "游戏低延迟",
+          "evidence": {
+            "value": "具备高音质、低延迟、低功耗等特点。",
+            "confidence": 0.66,
+            "source_type": "text",
+            "source_text": "具备高音质、低延迟、低功耗等特点。"
+          }
+        },
+        {
+          "text": "具备高音质、低延迟、低供号等特点。",
+          "tag": "游戏低延迟",
+          "evidence": {
+            "value": "具备高音质、低延迟、低供号等特点。",
+            "confidence": 0.58,
+            "source_type": "text",
+            "source_text": "具备高音质、低延迟、低供号等特点。"
+          }
+        },
+        {
+          "text": "可以提供开盖极连功能耳机描迴连手机,相较普通产品7秒以上的回连时间体验大幅提升。",
+          "tag": "其他",
+          "evidence": {
+            "value": "可以提供开盖极连功能耳机描迴连手机,相较普通产品7秒以上的回连时间体验大幅提升。",
+            "confidence": 0.55,
+            "source_type": "text",
+            "source_text": "可以提供开盖极连功能耳机描迴连手机,相较普通产品7秒以上的回连时间体验大幅提升。"
+          }
+        }
+      ],
+      "scenarios": [
+        "运动",
+        "通话",
+        "户外"
+      ],
+      "positioning_summary": "具备高音质、低延迟、低功耗等特点。",
       "launch_date_evidence": null,
       "price_evidence": null
     },
     "cost": {
-      "major_parts": [],
-      "chip_modules": [],
-      "bom_table": [],
+      "major_parts": [
+        "电池",
+        "充电仓",
+        "主板/PCBA",
+        "麦克风",
+        "天线"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "iP5333",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "iP5333",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "iP5333"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "装盒背面详细介绍了产品参数信息,名称,被斯开放式争无线蓝牙耳机,型号PM20A,蓝牙版本,V5.3,电池容量,65毫安时0.247瓦时,充电盒电池容量,600毫安时2.22瓦时,充电倉额定输入,低C5V1000毫安,充电接口Type-C,以及深圳是被斯科技有限公司部分介绍,"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "装盒背面详细介绍了产品参数信息,名称,被斯开放式争无线蓝牙耳机,型号PM20A,蓝牙版本,V5.3,电池容量,65毫安时0.247瓦时,充电盒电池容量,600毫安时2.22瓦时,充电倉额定输入,低C5V1000毫安,充电接口Type-C,以及深圳是被斯科技有限公司部分介绍,"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "做倡底部主板单元通过螺丝固定。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "音枪上方的麦克风时音孔,通过金属盖板防护。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "盖板内侧设置有蓝牙天线和触摸检测传感器,通过触点连接主板,相体内部结构。"
+          }
+        },
+        {
+          "component": "耳挂/挂钩",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "耳挂/挂钩",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机采用了挂耳式设计,由营光耳挂先接两端枪体。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "打开充电盒盖,内部耳机放置状态,开放式做倉,耳机磁吸固定,做倉上的指示灯。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒被面设置有Type-C充电接口和蓝牙配对按键。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "iP5333",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "iP5333",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "采用了应急新iP5333多功能电源管理SOC。"
+          }
+        }
+      ],
       "supply_hints": [],
-      "packaging_notes": [],
+      "packaging_notes": [
+        "大家好,这里是我艾英平网,今天我们来拆剪,被斯伊拉斯伯尔T开放式耳机,耳机包装盒采用了抽届式结构,延续加足式的设计风格,正面展示有产品的整体外观设计,品牌logo和产品名称,以及低音增强算法30小时续航开放式零厅,太合金股价的产品功能特点,包装盒侧边展示有耳机配带挂声的外观,运动配带更稳固,包装\n装盒背面详细介绍了产品参数信息,名称,被斯开放式争无线蓝牙耳机,型号PM20A,蓝牙版本,V5.3,电池容量,65毫安时0.247瓦时,充电盒电池容量,600毫安时2.22瓦时,充电倉额定输入,低C5V1000毫安,充电接口Type-C,以及深圳是被斯科技有限公司部分介绍,\n包装盒内部物屏有,充电盒耳机充电线挂声被斯贴纸产品说明书和保修卡。"
+      ],
       "process_hints": [],
       "summary_image_urls": [],
       "summary_text": ""
@@ -46,28 +231,380 @@
       "earbud_type": "开放",
       "materials": [],
       "ip_rating": null,
-      "weight_g": null,
-      "dimensions": [],
-      "internal_structure": [],
-      "fastener_type": [],
+      "weight_g": "84.1g",
+      "dimensions": [
+        "今午爱音频网实测,阳生器尺寸约为16.2毫米。",
+        "大尺寸单元,提供更蓬佩的低频效果。"
+      ],
+      "internal_structure": [
+        {
+          "value": "装盒背面详细介绍了产品参数信息,名称,被斯开放式争无线蓝牙耳机,型号PM20A,蓝牙版本,V5.3,电池容量,65毫安时0.247瓦时,充电盒电池容量,600毫安时2.22瓦时,充电倉额定输入,低C5V1000毫安,充电接口Type-C,以及深圳是被斯科技有限公司部分介绍,",
+          "evidence": {
+            "value": "装盒背面详细介绍了产品参数信息,名称,被斯开放式争无线蓝牙耳机,型号PM20A,蓝牙版本,V5.3,电池容量,65毫安时0.247瓦时,充电盒电池容量,600毫安时2.22瓦时,充电倉额定输入,低C5V1000毫安,充电接口Type-C,以及深圳是被斯科技有限公司部分介绍,",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "装盒背面详细介绍了产品参数信息,名称,被斯开放式争无线蓝牙耳机,型号PM20A,蓝牙版本,V5.3,电池容量,65毫安时0.247瓦时,充电盒电池容量,600毫安时2.22瓦时,充电倉额定输入,低C5V1000毫安,充电接口Type-C,以及深圳是被斯科技有限公司部分介绍,"
+          }
+        },
+        {
+          "value": "充电盒内置里离子电池型号,503040。",
+          "evidence": {
+            "value": "充电盒内置里离子电池型号,503040。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "充电盒内置里离子电池型号,503040。"
+          }
+        },
+        {
+          "value": "做倡底部主板单元通过螺丝固定。",
+          "evidence": {
+            "value": "做倡底部主板单元通过螺丝固定。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "做倡底部主板单元通过螺丝固定。"
+          }
+        },
+        {
+          "value": "泄掉螺丝,取掉主板单元。",
+          "evidence": {
+            "value": "泄掉螺丝,取掉主板单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "泄掉螺丝,取掉主板单元。"
+          }
+        },
+        {
+          "value": "音枪上方的麦克风时音孔,通过金属盖板防护。",
+          "evidence": {
+            "value": "音枪上方的麦克风时音孔,通过金属盖板防护。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "音枪上方的麦克风时音孔,通过金属盖板防护。"
+          }
+        },
+        {
+          "value": "音枪下方的麦克风时音孔。",
+          "evidence": {
+            "value": "音枪下方的麦克风时音孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "音枪下方的麦克风时音孔。"
+          }
+        },
+        {
+          "value": "盖板内侧设置有蓝牙天线和触摸检测传感器,通过触点连接主板,相体内部结构。",
+          "evidence": {
+            "value": "盖板内侧设置有蓝牙天线和触摸检测传感器,通过触点连接主板,相体内部结构。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "盖板内侧设置有蓝牙天线和触摸检测传感器,通过触点连接主板,相体内部结构。"
+          }
+        },
+        {
+          "value": "耳机采用了挂耳式设计,由营光耳挂先接两端枪体。",
+          "evidence": {
+            "value": "耳机采用了挂耳式设计,由营光耳挂先接两端枪体。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "耳机采用了挂耳式设计,由营光耳挂先接两端枪体。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "随机标配的充电线采用了USB-A2Type-C接口,耳机挂声,通过卡扣先接两照耳机,提供更稳定的配带。",
+          "evidence": {
+            "value": "随机标配的充电线采用了USB-A2Type-C接口,耳机挂声,通过卡扣先接两照耳机,提供更稳定的配带。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "随机标配的充电线采用了USB-A2Type-C接口,耳机挂声,通过卡扣先接两照耳机,提供更稳定的配带。"
+          }
+        },
+        {
+          "value": "耳机末端的卡扣结构,用于弦接挂声固定。",
+          "evidence": {
+            "value": "耳机末端的卡扣结构,用于弦接挂声固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "耳机末端的卡扣结构,用于弦接挂声固定。"
+          }
+        },
+        {
+          "value": "做倡底部主板单元通过螺丝固定。",
+          "evidence": {
+            "value": "做倡底部主板单元通过螺丝固定。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "做倡底部主板单元通过螺丝固定。"
+          }
+        },
+        {
+          "value": "泄掉螺丝,取掉主板单元。",
+          "evidence": {
+            "value": "泄掉螺丝,取掉主板单元。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "泄掉螺丝,取掉主板单元。"
+          }
+        }
+      ],
       "sealing_method": [],
-      "wear_design": [],
+      "wear_design": [
+        {
+          "value": "耳机采用了挂耳式设计,由营光耳挂先接两端枪体。",
+          "evidence": {
+            "value": "耳机采用了挂耳式设计,由营光耳挂先接两端枪体。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "耳机采用了挂耳式设计,由营光耳挂先接两端枪体。"
+          }
+        },
+        {
+          "value": "耳挂采用了太合金技艺钢丝加防华欺负规交采制。",
+          "evidence": {
+            "value": "耳挂采用了太合金技艺钢丝加防华欺负规交采制。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "耳挂采用了太合金技艺钢丝加防华欺负规交采制。"
+          }
+        },
+        {
+          "value": "能够自视用不同耳型,提供舒适配带体验。",
+          "evidence": {
+            "value": "能够自视用不同耳型,提供舒适配带体验。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "能够自视用不同耳型,提供舒适配带体验。"
+          }
+        },
+        {
+          "value": "带来舒适的零听体验。",
+          "evidence": {
+            "value": "带来舒适的零听体验。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "带来舒适的零听体验。"
+          }
+        }
+      ],
       "key_image_urls": [],
-      "assembly_notes": [],
+      "assembly_notes": [
+        "装盒背面详细介绍了产品参数信息,名称,被斯开放式争无线蓝牙耳机,型号PM20A,蓝牙版本,V5.3,电池容量,65毫安时0.247瓦时,充电盒电池容量,600毫安时2.22瓦时,充电倉额定输入,低C5V1000毫安,充电接口Type-C,以及深圳是被斯科技有限公司部分介绍,",
+        "充电盒内置里离子电池型号,503040。",
+        "做倡底部主板单元通过螺丝固定。",
+        "泄掉螺丝,取掉主板单元。"
+      ],
       "ip_rating_evidence": null,
-      "weight_evidence": null
+      "weight_evidence": {
+        "value": "84.1g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "弦接挂声固定。\n金属瓦艾音瓶网时侧,耳机整机重量约为84.1克。\n但这耳"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "10.3g",
+      "weight_earbud_evidence": {
+        "value": "10.3g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "时侧,耳机整机重量约为84.1克。\n但这耳机重量约为10.3克,瓦艾音瓶"
+      }
     },
     "hardware": {
-      "specs": []
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "大家好,这里是我艾英平网,今天我们来拆剪,被斯伊拉斯伯尔T开放式耳机,耳机包装盒采用了抽届式结构,延续加足式的设计风格,正面展示有产品的整体外观设计,品牌logo和产品名称,以及低音增强算法30小时续航开放式零厅,太合金股价的产品功能特点,包装盒侧边展示有耳机配带挂声的外观,运动配带更稳固,包装\n装盒背面详细介绍了产品参数信息,名称,被斯开放式争无线蓝牙耳机,型号PM20A,蓝牙版本,V5.3,电池容量,65毫安时0.247瓦时,充电盒电池容量,600毫安时2.22瓦时,充电倉额定输入,低C5V1000毫安,充电接口Type-C,以及深圳是被斯科技有限公司部分介绍,\n包装盒内部物屏有,充电盒耳机充电线挂声被斯贴纸产品说明书和保修卡。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "大家好,这里是我艾英平网,今天我们来拆剪,被斯伊拉斯伯尔T开放式耳机,耳机包装盒采用了抽届式结构,延续加足式的设计风格,正面展示有产品的整体外观设计,品牌logo和产品名称,以及低音增强算法30小时续航开放式零厅,太合金股价的产品功能特点,"
+        },
+        {
+          "param": "充电接口",
+          "value": "随机标配的充电线采用了USB-A2Type-C接口,耳机挂声,通过卡扣先接两照耳机,提供更稳定的配带。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "随机标配的充电线采用了USB-A2Type-C接口,耳机挂声,通过卡扣先接两照耳机,提供更稳定的配带。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电盒被面设置有Type-C充电接口和蓝牙配对按键。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒被面设置有Type-C充电接口和蓝牙配对按键。"
+        },
+        {
+          "param": "充电接口",
+          "value": "机成剩压转关器,离电池充电管理,电池电量只是和Type-C协议等功能。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "机成剩压转关器,离电池充电管理,电池电量只是和Type-C协议等功能。"
+        },
+        {
+          "param": "充电接口",
+          "value": "集成剩压转换器,礼电池充电管理,电池电量只是和Type-C协议等功能。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "集成剩压转换器,礼电池充电管理,电池电量只是和Type-C协议等功能。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "大家好,这里是我艾英平网,今天我们来拆剪,被斯伊拉斯伯尔T开放式耳机,耳机包装盒采用了抽届式结构,延续加足式的设计风格,正面展示有产品的整体外观设计,品牌logo和产品名称,以及低音增强算法30小时续航开放式零厅,太合金股价的产品功能特点,包装盒侧边展示有耳机配带挂声的外观,运动配带更稳固,包装\n装盒背面详细介绍了产品参数信息,名称,被斯开放式争无线蓝牙耳机,型号PM20A,蓝牙版本,V5.3,电池容量,65毫安时0.247瓦时,充电盒电池容量,600毫安时2.22瓦时,充电倉额定输入,低C5V1000毫安,充电接口Type-C,以及深圳是被斯科技有限公司部分介绍,\n包装盒内部物屏有,充电盒耳机充电线挂声被斯贴纸产品说明书和保修卡。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "大家好,这里是我艾英平网,今天我们来拆剪,被斯伊拉斯伯尔T开放式耳机,耳机包装盒采用了抽届式结构,延续加足式的设计风格,正面展示有产品的整体外观设计,品牌logo和产品名称,以及低音增强算法30小时续航开放式零厅,太合金股价的产品功能特点,"
+        },
+        {
+          "param": "标记/认证",
+          "value": "充电盒底部一有产品参数信息和认证标志,与外部包装盒上一致。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒底部一有产品参数信息和认证标志,与外部包装盒上一致。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "Charge Lab Power 3KM003C测试移。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "Charge Lab Power 3KM003C测试移。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "应急新IP-5333多功能电源管理SOC。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "应急新IP-5333多功能电源管理SOC。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP-5333非常适合目前需求逐渐提升的智能双向通讯倡应用。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP-5333非常适合目前需求逐渐提升的智能双向通讯倡应用。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "急于用户直观反馈,IP-5333只需一个电杆实现充电与升压功能。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "急于用户直观反馈,IP-5333只需一个电杆实现充电与升压功能。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP-5333的同步升压系统提供了电议安输出电流。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP-5333的同步升压系统提供了电议安输出电流。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP-5333采用开关充电技术,提供了电议安充电电流。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP-5333采用开关充电技术,提供了电议安充电电流。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "近而通知充电和MCEO和耳机与以连接设备配对,或断开连接。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "近而通知充电和MCEO和耳机与以连接设备配对,或断开连接。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "被CEI Sport一开放式耳机在外观方面。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "被CEI Sport一开放式耳机在外观方面。"
+        }
+      ]
     },
     "software": {
       "bluetooth_version": null,
       "codecs": [],
       "multipoint": [],
       "app_name": "",
-      "app_features": [],
+      "app_features": [
+        {
+          "value": "IP-5333非常适合目前需求逐渐提升的智能双向通讯倡应用。",
+          "evidence": {
+            "value": "IP-5333非常适合目前需求逐渐提升的智能双向通讯倡应用。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "IP-5333非常适合目前需求逐渐提升的智能双向通讯倡应用。"
+          }
+        }
+      ],
       "ota_support": [],
-      "latency_notes": [],
+      "latency_notes": [
+        {
+          "value": "具备高音质、低延迟、低供号等特点。",
+          "evidence": {
+            "value": "具备高音质、低延迟、低供号等特点。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "具备高音质、低延迟、低供号等特点。"
+          }
+        },
+        {
+          "value": "具备高音质、低延迟、低功耗等特点。",
+          "evidence": {
+            "value": "具备高音质、低延迟、低功耗等特点。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "具备高音质、低延迟、低功耗等特点。"
+          }
+        }
+      ],
       "bluetooth_evidence": null
     }
   }

@@ -15,8 +15,8 @@
   "source_site": "哔哩哔哩 (Bilibili)",
   "video_embed_url": "https://player.bilibili.com/player.html?bvid=BV1YJe2zRE65&page=1&as_wide=1",
   "captured_at": "2026-07-14T02:02:56+00:00",
-  "asr_status": "pending",
-  "data_completeness": 0.24,
+  "asr_status": "done",
+  "data_completeness": 0.436,
   "views": {
     "market": {
       "brand": "Xiaomi小米",
@@ -55,9 +55,26 @@
       "price_evidence": null
     },
     "cost": {
-      "major_parts": [],
+      "major_parts": [
+        "主板/PCBA"
+      ],
       "chip_modules": [],
-      "bom_table": [],
+      "bom_table": [
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "設置有主板、電池、指釋燈和護耳圓件小板。"
+          }
+        }
+      ],
       "supply_hints": [],
       "packaging_notes": [],
       "process_hints": [],
@@ -69,9 +86,82 @@
       "earbud_type": "开放",
       "materials": [],
       "ip_rating": null,
-      "weight_g": null,
+      "weight_g": "72.3克",
       "dimensions": [],
-      "internal_structure": [],
+      "internal_structure": [
+        {
+          "value": "設置有主板、電池、指釋燈和護耳圓件小板。",
+          "evidence": {
+            "value": "設置有主板、電池、指釋燈和護耳圓件小板。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "設置有主板、電池、指釋燈和護耳圓件小板。"
+          }
+        },
+        {
+          "value": "指釋燈小板連接主板的排線電路。",
+          "evidence": {
+            "value": "指釋燈小板連接主板的排線電路。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "指釋燈小板連接主板的排線電路。"
+          }
+        },
+        {
+          "value": "大家好,這裡是我艾英平網,今天我們來拆解,小米開放是耳機 Pro,耳機包裝盒延續了系列簡約設計風格,正面展示有對應耳機配色的產品外觀,品牌Logo和產品名稱,以及哈爾曼和Hi-Race Audio Wireless標誌,包裝盒背面展示有產品的整體外觀,以及功能特點和參數信息。",
+          "evidence": {
+            "value": "大家好,這裡是我艾英平網,今天我們來拆解,小米開放是耳機 Pro,耳機包裝盒延續了系列簡約設計風格,正面展示有對應耳機配色的產品外觀,品牌Logo和產品名稱,以及哈爾曼和Hi-Race Audio Wireless標誌,包裝盒背面展示有產品的整體外觀,以及功能特點和參數信息。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "大家好,這裡是我艾英平網,今天我們來拆解,小米開放是耳機 Pro,耳機包裝盒延續了系列簡約設計風格,正面展示有對應耳機配色的產品外觀,品牌Logo和產品名稱,以及哈爾曼和Hi-Race Audio Wireless標誌,包裝盒背面展示有產品的整體外觀,以及功能特點和參數信息。"
+          }
+        },
+        {
+          "value": "打開充電盒蓋,內部耳機此吸固定取方便節。",
+          "evidence": {
+            "value": "打開充電盒蓋,內部耳機此吸固定取方便節。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "打開充電盒蓋,內部耳機此吸固定取方便節。"
+          }
+        },
+        {
+          "value": "同時設計有軟膠條,用於更好的固定耳機。",
+          "evidence": {
+            "value": "同時設計有軟膠條,用於更好的固定耳機。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "同時設計有軟膠條,用於更好的固定耳機。"
+          }
+        },
+        {
+          "value": "設置有多顆磁鐵吸附固定耳機和充電合蓋。",
+          "evidence": {
+            "value": "設置有多顆磁鐵吸附固定耳機和充電合蓋。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "設置有多顆磁鐵吸附固定耳機和充電合蓋。"
+          }
+        },
+        {
+          "value": "以及三顆與充電和固定的磁鐵。",
+          "evidence": {
+            "value": "以及三顆與充電和固定的磁鐵。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "以及三顆與充電和固定的磁鐵。"
+          }
+        },
+        {
+          "value": "以上就是此次的拆解內容了。",
+          "evidence": {
+            "value": "以上就是此次的拆解內容了。",
+            "confidence": 0.65,
+            "source_type": "text",
+            "source_text": "以上就是此次的拆解內容了。"
+          }
+        }
+      ],
       "fastener_type": [],
       "sealing_method": [],
       "wear_design": [
@@ -86,9 +176,23 @@
         }
       ],
       "key_image_urls": [],
-      "assembly_notes": [],
+      "assembly_notes": [
+        "設置有主板、電池、指釋燈和護耳圓件小板。",
+        "指釋燈小板連接主板的排線電路。",
+        "大家好,這裡是我艾英平網,今天我們來拆解,小米開放是耳機 Pro,耳機包裝盒延續了系列簡約設計風格,正面展示有對應耳機配色的產品外觀,品牌Logo和產品名稱,以及哈爾曼和Hi-Race Audio Wireless標誌,包裝盒背面展示有產品的整體外觀,以及功能特點和參數信息。",
+        "打開充電盒蓋,內部耳機此吸固定取方便節。"
+      ],
       "ip_rating_evidence": null,
-      "weight_evidence": null
+      "weight_evidence": {
+        "value": "72.3克",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "72.3克"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": null,
+      "weight_earbud_evidence": null
     },
     "hardware": {
       "specs": [

@@ -28,16 +28,59 @@
     "weight_earbud_g": null,
     "ip_rating": null,
     "bluetooth": null,
-    "bom_row_count": 0,
+    "bom_row_count": 3,
     "price_cny": null,
     "price_layer": null,
     "channel_url": null,
     "sales_hint": null,
     "data_completeness": 0.0,
     "best_report_id": null,
-    "best_video_id": null
+    "best_video_id": "262729"
   },
-  "bom_table": [],
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "相可透视电池"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "内置了三颗MEMS麦克风"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "触控传感器的"
+      }
+    }
+  ],
   "summary_image_urls": [],
   "summary_text": "",
   "layer_refs": {

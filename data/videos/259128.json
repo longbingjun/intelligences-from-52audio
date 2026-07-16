@@ -15,8 +15,8 @@
   "source_site": "哔哩哔哩 (Bilibili)",
   "video_embed_url": "https://player.bilibili.com/player.html?bvid=BV1F4CTBcEy8&page=1&as_wide=1",
   "captured_at": "2026-07-14T02:02:35+00:00",
-  "asr_status": "pending",
-  "data_completeness": 0.292,
+  "asr_status": "done",
+  "data_completeness": 0.724,
   "views": {
     "market": {
       "brand": "Xiaomi小米",
@@ -25,11 +25,72 @@
       "launch_date": null,
       "price_cny": null,
       "price_note": "",
-      "selling_points": [],
+      "selling_points": [
+        {
+          "text": "效卫一致性好等特点,搭配通话降噪算法,为耳机提供高度清晰的余音通话效果。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "效卫一致性好等特点,搭配通话降噪算法,为耳机提供高度清晰的余音通话效果。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "效卫一致性好等特点,搭配通话降噪算法,为耳机提供高度清晰的余音通话效果。"
+          }
+        },
+        {
+          "text": "通话降噪麦克风开孔。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "通话降噪麦克风开孔。",
+            "confidence": 0.57,
+            "source_type": "text",
+            "source_text": "通话降噪麦克风开孔。"
+          }
+        },
+        {
+          "text": "提升防水性能。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "提升防水性能。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "提升防水性能。"
+          }
+        },
+        {
+          "text": "以及 Qualcomm主动降噪等功能。",
+          "tag": "降噪",
+          "evidence": {
+            "value": "以及 Qualcomm主动降噪等功能。",
+            "confidence": 0.62,
+            "source_type": "text",
+            "source_text": "以及 Qualcomm主动降噪等功能。"
+          }
+        },
+        {
+          "text": "锻口摄有蓝色密封交缺防水。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "锻口摄有蓝色密封交缺防水。",
+            "confidence": 0.6,
+            "source_type": "text",
+            "source_text": "锻口摄有蓝色密封交缺防水。"
+          }
+        },
+        {
+          "text": "设置有相交三防程防水。",
+          "tag": "防水防尘",
+          "evidence": {
+            "value": "设置有相交三防程防水。",
+            "confidence": 0.59,
+            "source_type": "text",
+            "source_text": "设置有相交三防程防水。"
+          }
+        }
+      ],
       "scenarios": [
         "通话"
       ],
-      "positioning_summary": "",
+      "positioning_summary": "效卫一致性好等特点,搭配通话降噪算法,为耳机提供高度清晰的余音通话效果。",
       "launch_date_evidence": null,
       "price_evidence": null
     },
@@ -38,7 +99,50 @@
         "麦克风",
         "骨传导振子"
       ],
-      "chip_modules": [],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm",
+          "model": "Qualcomm APTX",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Qualcomm APTX",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "Qualcomm APTX"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm",
+          "model": "高通QCC3044",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通QCC3044",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "高通QCC3044"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm",
+          "model": "高通TUC-C3044",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通TUC-C3044",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "高通TUC-C3044"
+          }
+        }
+      ],
       "bom_table": [
         {
           "component": "麦克风",
@@ -70,8 +174,20 @@
         }
       ],
       "supply_hints": [],
-      "packaging_notes": [],
-      "process_hints": [],
+      "packaging_notes": [
+        "耳塞Type-C充电线和产品说明书。"
+      ],
+      "process_hints": [
+        {
+          "value": "412i一侧的一体化礼电保护AC,负责电池的过充电,过放电,过电流等保护功能。",
+          "evidence": {
+            "value": "412i一侧的一体化礼电保护AC,负责电池的过充电,过放电,过电流等保护功能。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "412i一侧的一体化礼电保护AC,负责电池的过充电,过放电,过电流等保护功能。"
+          }
+        }
+      ],
       "summary_image_urls": [],
       "summary_text": ""
     },
@@ -83,8 +199,11 @@
         "液态硅胶"
       ],
       "ip_rating": null,
-      "weight_g": null,
-      "dimensions": [],
+      "weight_g": "27.4克",
+      "dimensions": [
+        "可支持 Qualcomm APTX APTX HD。",
+        "以及 Qualcomm主动降噪等功能。"
+      ],
       "internal_structure": [
         {
           "value": "小米骨传导耳机外观上采用了挂耳式设计，轻盈机身通过液态硅胶包裹，提供舒适稳固佩戴。功能配置上，搭载跑道型振子，配合360°封闭式定向音腔，有效抑制漏音提供舒适听感；支持双MIC通话降噪，有效削弱噪音，提升通话清晰度；支持蓝牙5.2，支持MIUI弹窗快连，支持双设备连接，提供便捷使用；拥有12h的持久续航，以及IP66防尘防水。",
@@ -123,7 +242,16 @@
         "小米骨传导耳机外观上采用了挂耳式设计，轻盈机身通过液态硅胶包裹，提供舒适稳固佩戴。功能配置上，搭载跑道型振子，配合360°封闭式定向音腔，有效抑制漏音提供舒适听感；支持双MIC通话降噪，有效削弱噪音，提升通话清晰度；支持蓝牙5.2，支持MIUI弹窗快连，支持双设备连接，提供便捷使用；拥有12h的持久续航，以及IP66防尘防水。"
       ],
       "ip_rating_evidence": null,
-      "weight_evidence": null
+      "weight_evidence": {
+        "value": "27.4克",
+        "confidence": 0.75,
+        "source_type": "text",
+        "source_text": "27.4克"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": null,
+      "weight_earbud_evidence": null
     },
     "hardware": {
       "specs": [
@@ -140,7 +268,17 @@
     },
     "software": {
       "bluetooth_version": "5.2",
-      "codecs": [],
+      "codecs": [
+        {
+          "value": "aptX",
+          "evidence": {
+            "value": "aptX",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "可支持 Qualcomm APTX APTX HD。"
+          }
+        }
+      ],
       "multipoint": [
         {
           "value": "功能配置上，搭载跑道型振子，配合360°封闭式定向音腔，有效抑制漏音提供舒适听感；支持双MIC通话降噪，有效削弱噪音，提升通话清晰度；支持蓝牙5.2，支持MIUI弹窗快连，支持双设备连接，提供便捷使用；拥有12h的持久续航，以及IP66防尘防水。",
@@ -153,7 +291,26 @@
         }
       ],
       "app_name": "",
-      "app_features": [],
+      "app_features": [
+        {
+          "value": "规麦克风是一款特别适合应用于\n骨船岛和TWS耳机通话降造食音功能。",
+          "evidence": {
+            "value": "规麦克风是一款特别适合应用于\n骨船岛和TWS耳机通话降造食音功能。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "规麦克风是一款特别适合应用于\n骨船岛和TWS耳机通话降造食音功能。"
+          }
+        },
+        {
+          "value": "是用于通话降造应用。",
+          "evidence": {
+            "value": "是用于通话降造应用。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "是用于通话降造应用。"
+          }
+        }
+      ],
       "ota_support": [],
       "latency_notes": [],
       "bluetooth_evidence": {
