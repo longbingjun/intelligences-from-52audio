@@ -1,0 +1,455 @@
+{
+  "canonical_id": "vivo--tws-5-pro",
+  "brand": "vivo",
+  "model": "TWS 5 Pro",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "283221"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "283221"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2026-07-20",
+  "latest_published": "2026-07-20",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "BES2720HP",
+    "pmic_case": "CM1137",
+    "battery_ear": "微电新能源 3.85V/56mAh钢壳扣式",
+    "battery_case": "赣锋 3.91V/615mAh锂电池",
+    "speaker": "喇叭单元",
+    "materials": "硅胶、PC",
+    "weight_g": "46.7g",
+    "weight_case_g": "",
+    "weight_earbud_g": "5.6g",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 23,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "283221",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1137",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "CM1137",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载新余赣锋3.91V/615mAh锂电池，配备ICM创芯微CM1137-CES锂电池保护IC；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "ConvenientPower易冲半导体",
+      "model": "ConvenientPower易冲半导体CPS4520",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "PMIC/充电仓管理",
+      "evidence": {
+        "value": "ConvenientPower易冲半导体CPS4520",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "采用ETA钰泰半导体ETA9030V电源管理芯片、ConvenientPower易冲半导体CPS4520无线充电接收芯片，负责内置电池的有线、无线充电；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA9030V",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "PMIC/充电仓管理",
+      "evidence": {
+        "value": "ETA9030V",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "采用ETA钰泰半导体ETA9030V电源管理芯片、ConvenientPower易冲半导体CPS4520无线充电接收芯片，负责内置电池的有线、无线充电；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "赣锋",
+      "model": "3.91V/615mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3.91V/615mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载新余赣锋3.91V/615mAh锂电池，配备ICM创芯微CM1137-CES锂电池保护IC；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "BES2720HP",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2720HP",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主要芯片方案包括BES恒玄科技BES2720HP蓝牙音频SoC、CirrusLogic凌云逻辑CS42L42音频编解码器、LPS微源半导体LP4081 1A线性充电器和WINSEMI稳先微WSDF23C2N2H锂电保护IC等。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "WINSEMI稳先微",
+      "model": "WINSEMI稳先微WSDF23C",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "保护IC",
+      "evidence": {
+        "value": "WINSEMI稳先微WSDF23C",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主要芯片方案包括BES恒玄科技BES2720HP蓝牙音频SoC、CirrusLogic凌云逻辑CS42L42音频编解码器、LPS微源半导体LP4081 1A线性充电器和WINSEMI稳先微WSDF23C2N2H锂电保护IC等。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "微电新能源",
+      "model": "3.85V/56mAh钢壳扣式",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "3.85V/56mAh钢壳扣式",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载MIC-POWER微电新能源3.85V/56mAh钢壳扣式电池，采用圈铁混合单元（vivo&楼氏定制超微型动铁+自研双折环动圈），内置4颗MEMS麦克风（两颗通话麦来自敏芯微电子）+VPU骨传导麦克风；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载MIC-POWER微电新能源3.85V/56mAh钢壳扣式电池，采用圈铁混合单元（vivo&楼氏定制超微型动铁+自研双折环动圈），内置4颗MEMS麦克风（两颗通话麦来自敏芯微电子）+VPU骨传导麦克风；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "另外一侧标注的产品参数信息，输入：5V-1A，输出：5V-0.4A，电池信息：3.91V 590mAh 2.31Wh。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "vivo TWS 5 Pro真无线降噪耳机充电盒外观一览，采用了圆角方形设计，体积非常小巧。原声白配色，采用细腻磨砂质感，不易沾染指纹；银色腰线装饰，更显精致。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "前馈降噪麦克风拾音孔特写，大面积抗风噪滤网，有效削弱风噪影响。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部通过螺丝固定主板单元。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机动圈单元正面特写，由盛佳丽生产制造，负责低频部分，提供浑厚饱满的低音效果。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "取掉耳机柄背部盖板，内部设置有天线支架。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出内部座舱结构。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身侧边外观一览，右侧设置蓝牙配对功能按键。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身正面设计“vivo”品牌LOGO，下方一颗指示灯，用于反馈蓝牙配对及充电状态。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄底部的充电触点和通话麦克风拾音孔特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ConvenientPower易冲半导体CPS4520",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ConvenientPower易冲半导体CPS4520",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "ConvenientPower易冲半导体CPS4520无线充电接收芯片，符合WPC Qi 1.3协议，支持5W的输出功率，支持高效的交直流稳压，Rx Tx通信，I2C接口与MCU通信，具有可靠的过压/电流/温度保护方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ETA9030V",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ETA9030V",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "ETA钰泰半导体ETA9030V电源管理芯片，负责内置电池的充放电管理。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1137",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM1137",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "ICM创芯微CM1137-CES集成MOSFET单节锂电池保护IC，负责电池的过充电、过放电、过电流等保护。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2720HP",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2720HP",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄科技BES2720HP蓝牙音频SoC，集成蓝牙和Wi-Fi，采用双核Arm Cortex-M55处理器和Ethos-U55 NPU（可选），用于无线连接和音频数据处理。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WINSEMI稳先微WSDF23C",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "WINSEMI稳先微WSDF23C",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "LPS微源半导体LP4081 1A超低功耗线性充电器，带路径管理，支持16V耐压，IIC可编程充电电流和充满电压，高电压精度为0.3%\nWINSEMI稳先微WSDF23C2N2H锂电保护IC，具有过充、过放、过流、短路等电池需要的所有保护功能。"
+      }
+    }
+  ],
+  "summary_image_urls": [
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/07/2026072010040327.png",
+      "alt": "拆解报告：vivo TWS 5 Pro真无线降噪耳机-我爱音频网",
+      "caption": "",
+      "section_hint": "summary_bom",
+      "score": 10
+    }
+  ],
+  "summary_text": "三、我爱音频网总结 最后附上vivo TWS 5 Pro真无线降噪耳机的已知核心物料清单，方便大家查阅。 vivo TWS 5 Pro真无线降噪耳机外观设计简约时尚。圆角方形充电盒，体积更加小巧精致；原声白采用细腻磨砂质感，色泽温润，手感舒适不易粘染指纹。柄状的入耳式耳机，采用光滑圆润的烤漆质感，人体工学贴合弧度设计，搭配更窄的耳机柄与柔软亲肤耳塞，佩戴舒适轻盈。 内部主要配置方面，充电盒搭载新余赣锋3.91V/615mAh锂电池，配备ICM创芯微CM1137-CES锂电池保护IC；采用ETA钰泰半导体ETA9030V电源管理芯片、ConvenientPower易冲半导体CPS4520无线充电接收芯片，负责内置电池的有线、无线充电；采用Chipsea芯海科技CS32F031K8V6 MCU单片机，用于充电盒整机控制。 耳机内部搭载MIC-POWER微电新能源3.85V/56mAh钢壳扣式电池，采用圈铁混合单元（vivo&楼氏定制超微型动铁+自研双折环动圈），内置4颗MEMS麦克风（两颗通话麦来自敏芯微电子）+VPU骨传导麦克风；主要芯片方案包括BES恒玄科技BES2720HP蓝牙音频SoC、CirrusLogic凌云逻辑CS42L42音频编解码器、LPS微源半导体LP4081 1A线性充电器和WINSEMI稳先微WSDF23C2N2H锂电保护IC等。",
+  "layer_refs": {
+    "technical": [
+      "report:283221"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "vivo TWS 5 Pro还支持空间音频、自适应音频、自定义声效和人耳定制音效等功能，联合上海音乐学院声学大师团打造了「清澈人声」模式，并通过了Hi-Res AUDIO WIRELESS、QQ音乐臻品音质、网易云音乐专业级设备多方认证，为用户提供高品质、个性化的音乐聆听体验。",
+        "tag": "空间音频",
+        "evidence": {
+          "value": "vivo TWS 5 Pro还支持空间音频、自适应音频、自定义声效和人耳定制音效等功能，联合上海音乐学院声学大师团打造了「清澈人声」模式，并通过了Hi-Res AUDIO WIRELESS、QQ音乐臻品音质、网易云音乐专业级设备多方认证，为用户提供高品质、个性化的音乐聆听体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "vivo TWS 5 Pro还支持空间音频、自适应音频、自定义声效和人耳定制音效等功能，联合上海音乐学院声学大师团打造了「清澈人声」模式，并通过了Hi-Res AUDIO WIRELESS、QQ音乐臻品音质、网易云音乐专业级设备多方认证，为用户提供高品质、个性化的音乐聆听体验。"
+        }
+      },
+      {
+        "text": "vivo在近期发布了vivo TWS 5 Pro真无线降噪耳机，该产品相较于上代升级了圈铁混合单元、独立Hi-Fi DAC芯片、四麦深海智慧降噪2.0、AI管家及无线充电等，从音质到降噪，再到智慧便捷功能及充电续航，为用户带来均衡全面的旗舰体验。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "vivo在近期发布了vivo TWS 5 Pro真无线降噪耳机，该产品相较于上代升级了圈铁混合单元、独立Hi-Fi DAC芯片、四麦深海智慧降噪2.0、AI管家及无线充电等，从音质到降噪，再到智慧便捷功能及充电续航，为用户带来均衡全面的旗舰体验。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "vivo在近期发布了vivo TWS 5 Pro真无线降噪耳机，该产品相较于上代升级了圈铁混合单元、独立Hi-Fi DAC芯片、四麦深海智慧降噪2.0、AI管家及无线充电等，从音质到降噪，再到智慧便捷功能及充电续航，为用户带来均衡全面的旗舰体验。"
+        }
+      },
+      {
+        "text": "详细功能配置方面，\nvivo TWS 5 Pro真无线降噪耳机\n搭载圈铁纯净合音架构，由vivo&楼氏定制超微型动铁与自研双折环动圈组成，并通过独立声导管设计，实现高低音频互不串扰，呈现纯净音质；搭载独立Hi-Fi DAC芯片，提供更强劲的驱动；支持至高4.6Mbps Wi-Fi无损传输，带来更丰富的音频细节。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "详细功能配置方面，\nvivo TWS 5 Pro真无线降噪耳机\n搭载圈铁纯净合音架构，由vivo&楼氏定制超微型动铁与自研双折环动圈组成，并通过独立声导管设计，实现高低音频互不串扰，呈现纯净音质；搭载独立Hi-Fi DAC芯片，提供更强劲的驱动；支持至高4.6Mbps Wi-Fi无损传输，带来更丰富的音频细节。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "详细功能配置方面，\nvivo TWS 5 Pro真无线降噪耳机\n搭载圈铁纯净合音架构，由vivo&楼氏定制超微型动铁与自研双折环动圈组成，并通过独立声导管设计，实现高低音频互不串扰，呈现纯净音质；搭载独立Hi-Fi DAC芯片，提供更强劲的驱动；支持至高4.6Mbps Wi-Fi无损传输，带来更丰富的音频细节。"
+        }
+      },
+      {
+        "text": "据我爱音频网了解到，采用了\n楼氏新一代RAX系列超微型动铁单元，\n其采用极致的小尺寸设计，实现体积与安装自由度的全面优化；同时采用的短簧片设计，使10-15kHz人耳高敏感频段灵敏度提升3~6dB，经过vivo与楼氏声学工程师的联合阻尼调校，让弦乐泛音更丰富、人声气息更清晰，高音延展顺畅且齿音克制，高解析力与耐听度兼得。",
+        "tag": "音质认证",
+        "evidence": {
+          "value": "据我爱音频网了解到，采用了\n楼氏新一代RAX系列超微型动铁单元，\n其采用极致的小尺寸设计，实现体积与安装自由度的全面优化；同时采用的短簧片设计，使10-15kHz人耳高敏感频段灵敏度提升3~6dB，经过vivo与楼氏声学工程师的联合阻尼调校，让弦乐泛音更丰富、人声气息更清晰，高音延展顺畅且齿音克制，高解析力与耐听度兼得。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "据我爱音频网了解到，采用了\n楼氏新一代RAX系列超微型动铁单元，\n其采用极致的小尺寸设计，实现体积与安装自由度的全面优化；同时采用的短簧片设计，使10-15kHz人耳高敏感频段灵敏度提升3~6dB，经过vivo与楼氏声学工程师的联合阻尼调校，让弦乐泛音更丰富、人声气息更清晰，高音延展顺畅且齿音克制，高解析力与耐听度兼得。"
+        }
+      },
+      {
+        "text": "vivo TWS 5 Pro支持四麦深海智慧降噪2.0，支持通勤降噪、助眠模式和沉浸模式，降噪深度至高60dB，平均降噪深度28dB，降噪频宽至高5500Hz，搭配四麦超清通话降噪，提供全场景出色降噪体验。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "vivo TWS 5 Pro支持四麦深海智慧降噪2.0，支持通勤降噪、助眠模式和沉浸模式，降噪深度至高60dB，平均降噪深度28dB，降噪频宽至高5500Hz，搭配四麦超清通话降噪，提供全场景出色降噪体验。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "vivo TWS 5 Pro支持四麦深海智慧降噪2.0，支持通勤降噪、助眠模式和沉浸模式，降噪深度至高60dB，平均降噪深度28dB，降噪频宽至高5500Hz，搭配四麦超清通话降噪，提供全场景出色降噪体验。"
+        }
+      },
+      {
+        "text": "前馈降噪麦克风拾音孔特写，大面积抗风噪滤网，有效削弱风噪影响。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "前馈降噪麦克风拾音孔特写，大面积抗风噪滤网，有效削弱风噪影响。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "前馈降噪麦克风拾音孔特写，大面积抗风噪滤网，有效削弱风噪影响。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通勤",
+      "通话"
+    ],
+    "positioning_summary": "vivo TWS 5 Pro还支持空间音频、自适应音频、自定义声效和人耳定制音效等功能，联合上海音乐学院声学大师团打造了「清澈人声」模式，并通过了Hi-Res AUDIO WIRELESS、QQ音乐臻品音质、网易云音乐专业级设备多方认证，为用户提供高品质、个性化的音乐聆听体验。",
+    "launch_date": null,
+    "best_report_id": "283221",
+    "best_video_id": null
+  }
+}
