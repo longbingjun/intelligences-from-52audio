@@ -73,11 +73,148 @@ def _is_packaging_sentence(sent: str) -> bool:
     return any(kw in sent for kw in lexicon.STRUCTURE_EXCLUDE_KEYWORDS)
 
 
-def _tag_selling_point(sent: str) -> str:
+def _strip_product_type_phrases(text: str) -> str:
+    out = text
+    for suffix in sorted(lexicon.PRODUCT_TYPE_SUFFIXES, key=len, reverse=True):
+        out = out.replace(suffix, "")
+    return out
+
+
+def _tagging_context(text: str, *, brand: str = "", model: str = "") -> str:
+    ctx = _strip_product_type_phrases(text)
+    for token in (brand, model, brand + model):
+        token = (token or "").strip()
+        if len(token) >= 2:
+            ctx = ctx.replace(token, "")
+    return ctx
+
+
+_SP_NOISE_STRONG = (
+    "主动降噪", "ANC", "ENC", "降噪深度", "降噪方面", "通话降噪", "风噪消除", "平均降噪", "dB",
+)
+_SP_LEAD_PREFIX_RE = re.compile(
+    r"^(?:详细功能配置方面|内部结构配置方面|降噪方面|外观方面|"
+    r"近期[，,]?|芯片方案上[，,]?|荣耀亲选|我爱音频网总结)[，,：:\s]*",
+)
+_SP_PRODUCT_BOILER_RE = re.compile(
+    r"^.{0,80}?(?:搭载|采用|支持|配备|内置|提供|带来|以)", re.DOTALL,
+)
+_SP_APPEARANCE_ONLY_RE = re.compile(
+    r"外观一览|配色|整体设计较为简约|结构调节功能完备|穿插式悬挂结构",
+)
+
+
+def _noise_tag_score(ctx: str, original: str) -> int:
+    score = 0
+    for kw in _SP_NOISE_STRONG:
+        if kw.lower() in ctx.lower() or kw in original:
+            score += len(kw) + 2
+    if re.search(r"\d+\s*dB", original, re.I):
+        score += 8
+    if "降噪" in ctx and score == 0 and any(
+        k in original for k in ("主动", "深度", "通话", "平均", "舒适降噪")
+    ):
+        score += 4
+    return score
+
+
+def tag_selling_point(sent: str, *, brand: str = "", model: str = "") -> tuple[str, list[str]]:
+    ctx = _tagging_context(sent, brand=brand, model=model)
+    if not ctx.strip():
+        return "其他", []
+    scored: list[tuple[int, str]] = []
     for tag, keywords in lexicon.SELLING_POINT_TAGS:
-        if any(kw in sent or kw.lower() in sent.lower() for kw in keywords):
-            return tag
-    return "其他"
+        if tag == "降噪":
+            ns = _noise_tag_score(ctx, sent)
+            if ns:
+                scored.append((ns, tag))
+            continue
+        hit = sum(len(kw) for kw in keywords if kw in ctx or kw.lower() in ctx.lower())
+        if hit:
+            scored.append((hit, tag))
+    if not scored:
+        return "其他", []
+    scored.sort(key=lambda x: x[0], reverse=True)
+    primary = scored[0][1]
+    return primary, [t for _, t in scored[1:3] if t != primary]
+
+
+def _split_selling_bullets(text: str, *, max_bullets: int = 4) -> list[str]:
+    text = (text or "").strip()
+    if not text:
+        return []
+    parts = re.split(r"[；;]|(?<=，)(?=支持|还(?:支持|配备|采用|内置))", text)
+    bullets: list[str] = []
+    seen: set[str] = set()
+    for part in parts:
+        part = part.strip().strip("，,。.")
+        if not part:
+            continue
+        part = _SP_LEAD_PREFIX_RE.sub("", part)
+        if len(part) > 48 and _SP_PRODUCT_BOILER_RE.match(part):
+            trimmed = _SP_PRODUCT_BOILER_RE.sub("", part, count=1).lstrip("，, ")
+            if len(trimmed) >= 8:
+                part = trimmed
+        if len(part) < 6:
+            continue
+        key = part[:64]
+        if key in seen:
+            continue
+        seen.add(key)
+        bullets.append(part if len(part) <= 120 else part[:117] + "…")
+    if not bullets and text:
+        bullets = [text[:120] + ("…" if len(text) > 120 else "")]
+    return bullets[:max_bullets]
+
+
+def _build_positioning_summary(points: list[dict], scenarios: list[str] | None = None) -> str:
+    scenarios = scenarios or []
+    tags = []
+    for p in points:
+        t = p.get("tag") or "其他"
+        if t != "其他" and t not in tags:
+            tags.append(t)
+    chunks = []
+    if tags:
+        chunks.append("主打" + "、".join(tags[:4]))
+    if scenarios:
+        chunks.append("适用" + "、".join(scenarios[:3]) + "等场景")
+    if chunks:
+        return "；".join(chunks)
+    if points:
+        first = (points[0].get("text") or "").strip()
+        return first[:72] + ("…" if len(first) > 72 else "")
+    return ""
+
+
+def _format_market_selling_point(
+    text: str,
+    *,
+    brand: str = "",
+    model: str = "",
+    confidence: float = 0.7,
+) -> list[dict]:
+    if _SP_APPEARANCE_ONLY_RE.search(text) and not any(
+        k in text for k in ("降噪深度", "主动降噪", "续航", "LDAC", "空间音频", "游戏模式")
+    ):
+        return []
+    out: list[dict] = []
+    for bullet in _split_selling_bullets(text):
+        tag, tags = tag_selling_point(bullet, brand=brand, model=model)
+        out.append(
+            {
+                "text": bullet,
+                "tag": tag,
+                "tags": tags,
+                "evidence": make_evidence(bullet, bullet, confidence=confidence),
+            }
+        )
+    return out
+
+
+def _tag_selling_point(sent: str, *, brand: str = "", model: str = "") -> str:
+    primary, _ = tag_selling_point(sent, brand=brand, model=model)
+    return primary
 
 
 def _confidence_from_sentiment(sentiment: float | None, base: float = 0.65) -> float:
@@ -555,22 +692,32 @@ def _wear_design(plain: str) -> list[dict]:
     return _evidence_list(sents[:4], confidence=0.7)
 
 
-def _market_selling_points(selling_raw) -> list[dict]:
+def _market_selling_points(
+    selling_raw,
+    *,
+    brand: str = "",
+    model: str = "",
+) -> list[dict]:
     points: list[dict] = []
+    seen_text: set[str] = set()
     for sp in selling_raw:
         if _is_tech_sentence(sp.text):
             continue
         if _is_packaging_sentence(sp.text):
             continue
         conf = _confidence_from_sentiment(sp.sentiment)
-        points.append(
-            {
-                "text": sp.text,
-                "tag": _tag_selling_point(sp.text),
-                "evidence": make_evidence(sp.text, sp.text, confidence=conf),
-            }
-        )
-    return points[:6]
+        for item in _format_market_selling_point(
+            sp.text,
+            brand=brand,
+            model=model,
+            confidence=conf,
+        ):
+            key = item["text"][:64]
+            if key in seen_text:
+                continue
+            seen_text.add(key)
+            points.append(item)
+    return points[:8]
 
 
 def compute_data_completeness(views: RoleViews) -> float:
@@ -670,8 +817,9 @@ def extract_role_views(
     weight_case, weight_case_ev = weight_breakdown["case"]
     weight_earbud, weight_earbud_ev = weight_breakdown["earbud"]
 
-    market_points = _market_selling_points(selling_raw)
-    positioning = market_points[0]["text"] if market_points else ""
+    scenarios = _match_scenarios(plain)
+    market_points = _market_selling_points(selling_raw, brand=brand, model=model)
+    positioning = _build_positioning_summary(market_points, scenarios)
 
     market = MarketView(
         brand=brand,
@@ -683,7 +831,7 @@ def extract_role_views(
         price_note=price_note,
         price_evidence=price_ev,
         selling_points=market_points,
-        scenarios=_match_scenarios(plain),
+        scenarios=scenarios,
         positioning_summary=positioning,
     )
 

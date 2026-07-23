@@ -5,7 +5,7 @@
   python scripts/enrich_commerce.py huawei--freebuds-pro-5
   python scripts/enrich_commerce.py --headphones --limit 20
 
-价格优先级：ZOL 京东价 > ZOL 天猫价 > ZOL 参考报价 > 京东 API > commerce_hints > 官网 MSRP（ZOL 失败时）
+价格优先级：ZOL 京东价 > ZOL 天猫价 > ZOL 参考报价 > 京东联盟 API > 旧版京东直连 > commerce_hints > 官网 MSRP
 """
 
 from __future__ import annotations
@@ -23,6 +23,12 @@ from core.products import canonical_product_id, normalize_brand, normalize_model
 import re
 
 from sources.channel.jd_client import fetch_jd_price, pick_best_hit, search_jd  # noqa: E402
+from sources.channel.jd_union_client import (  # noqa: E402
+    pick_best_union_hit,
+    union_configured,
+    union_detail,
+    union_search,
+)
 from sources.channel.zol_client import (  # noqa: E402
     _commerce_search_query,
     best_channel_price,
@@ -112,13 +118,34 @@ def enrich_channel(canonical_id: str, brand: str, model: str, hints: dict) -> di
     else:
         live_error = live_error or "zol_no_price"
 
-    # 直连京东 API 补价 / 补 SKU（ZOL 失败时）
+    # 京东联盟 API（优先于已失效的页面直连）
+    if union_configured():
+        if sku_id and price_cny is None:
+            u = union_detail(sku_id)
+            if u and u.price_cny is not None:
+                price_cny = u.price_cny
+                msrp_cny = msrp_cny or u.msrp_cny
+                price_source = "jd_union"
+                channel_url = channel_url or u.channel_url
+                shop_hint = shop_hint or u.shop_hint
+        if price_cny is None or not sku_id:
+            u_hits = union_search(query)
+            u_best = pick_best_union_hit(u_hits, brand, model)
+            if u_best:
+                if price_cny is None and u_best.price_cny is not None:
+                    price_cny = u_best.price_cny
+                    price_source = "jd_union"
+                sku_id = sku_id or u_best.sku_id
+                channel_url = channel_url or u_best.channel_url
+                shop_hint = shop_hint or u_best.shop_hint
+
+    # 直连京东页面/API 兜底（ZOL + 联盟均失败时）
     jd_hit = None
     if price_cny is None or not sku_id:
         jd_hits = search_jd(query)
         if jd_hits:
             jd_hit = pick_best_hit(jd_hits, brand, model)
-        elif not live_error:
+        elif not live_error and not union_configured():
             live_error = "jd_search_unreachable"
 
     if jd_hit:

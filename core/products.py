@@ -205,7 +205,7 @@ def merge_market_snapshot(
     candidates.sort(key=lambda c: c[0], reverse=True)
     _, views, source_type, source_id = candidates[0]
     market = views.get("market") or {}
-    selling_points = list(market.get("selling_points") or [])[:6]
+    selling_points = list(market.get("selling_points") or [])[:8]
     scenarios = list(market.get("scenarios") or [])
     positioning_summary = market.get("positioning_summary") or ""
 
