@@ -2,6 +2,12 @@
 import BaseLayout from "../../layouts/BaseLayout.astro";
 import { withBase } from "../../lib/paths";
 import { resolveImageSrc } from "../../lib/images";
+import {
+  collectSellingPointTags,
+  computeUnboxModuleMetrics,
+  sellingPointTagStyle,
+  unboxModuleStyle,
+} from "../../lib/unboxingMetrics";
 import fs from "node:fs";
 import path from "node:path";
 
@@ -68,7 +74,7 @@ type UnboxModule = {
   appearance_images?: { url: string; caption?: string; alt?: string }[];
 };
 
-const unboxSections: { key: string; title: string; mod: UnboxModule | null }[] = [
+const unboxSections: { key: "packaging" | "charging_case" | "earbuds"; title: string; mod: UnboxModule | null }[] = [
   { key: "packaging", title: "包装", mod: unboxing?.packaging ?? null },
   { key: "charging_case", title: "充电盒", mod: unboxing?.charging_case ?? null },
   { key: "earbuds", title: "耳机", mod: unboxing?.earbuds ?? null },
@@ -139,21 +145,27 @@ const lightboxJson = JSON.stringify(allLightboxImages);
         )}
         {sellingPoints.length > 0 && (
           <ul class="mt-4 m-0 list-none space-y-2 p-0">
-            {sellingPoints.map((sp) => (
-              <li class="flex gap-2 rounded-xl border border-[var(--line)] bg-[#fafbff] p-3">
-                <div class="flex shrink-0 flex-wrap gap-1 self-start">
-                  <span class="inline-block rounded-full bg-[#eef3ff] px-2 py-0.5 text-xs font-semibold text-[var(--primary-dark)]">
-                    {sp.tag || "其他"}
-                  </span>
-                  {(sp.tags || []).map((t) => (
-                    <span class="inline-block rounded-full bg-[#f3f4f8] px-2 py-0.5 text-xs text-[var(--muted)]">
-                      {t}
-                    </span>
-                  ))}
-                </div>
-                <p class="m-0 flex-1 text-sm leading-relaxed text-[var(--text)]">{sp.text}</p>
-              </li>
-            ))}
+            {sellingPoints.map((sp) => {
+              const tags = collectSellingPointTags(sp);
+              return (
+                <li class="flex gap-2 rounded-xl border border-[var(--line)] bg-[#fafbff] p-3">
+                  <div class="flex shrink-0 flex-wrap gap-1 self-start">
+                    {tags.map((t) => {
+                      const style = sellingPointTagStyle(t);
+                      return (
+                        <span
+                          class="inline-block rounded-full px-2 py-0.5 text-xs font-semibold"
+                          style={`background:${style.bg};color:${style.text}`}
+                        >
+                          {t}
+                        </span>
+                      );
+                    })}
+                  </div>
+                  <p class="m-0 flex-1 text-sm leading-relaxed text-[var(--text)]">{sp.text}</p>
+                </li>
+              );
+            })}
           </ul>
         )}
       </section>
@@ -163,28 +175,80 @@ const lightboxJson = JSON.stringify(allLightboxImages);
   {
     unboxing && (
       <section class="mt-8">
-        <h2 class="text-lg font-bold">开箱 · 外观</h2>
-        <div class="mt-4 grid gap-6 lg:grid-cols-3">
-          {unboxSections.map(({ title, mod }) => {
-            const images = mod ? resolveImages(mod.appearance_images) : [];
-            return mod ? (
-              <div class="rounded-xl border border-[var(--line)] bg-white p-4">
-                <h3 class="m-0 text-base font-semibold">{title}</h3>
+        <div class="flex flex-wrap items-baseline justify-between gap-2">
+          <h2 class="m-0 text-lg font-bold">开箱 · 外观</h2>
+          {unboxing.completeness != null && (
+            <span class="text-sm text-[var(--muted)]">
+              模块完整度 {Math.round((unboxing.completeness || 0) * 100)}%
+            </span>
+          )}
+        </div>
+        <div class="mt-4 flex gap-4 overflow-x-auto pb-2">
+          {unboxSections.map(({ key, title, mod }) => {
+            if (!mod) return null;
+            const images = resolveImages(mod.appearance_images);
+            const metrics = computeUnboxModuleMetrics(mod, images.length, key);
+            const palette = unboxModuleStyle(title);
+            return (
+              <div
+                class="w-72 flex-shrink-0 rounded-2xl border bg-white p-4 shadow-sm"
+                style={`border-color:${palette.border}`}
+              >
+                <div class="flex items-center justify-between gap-2">
+                  <span
+                    class="rounded-full px-2.5 py-0.5 text-xs font-semibold"
+                    style={`background:${palette.bg};color:${palette.text}`}
+                  >
+                    {title}
+                  </span>
+                  <span class="text-xs font-semibold" style={`color:${palette.text}`}>
+                    {metrics.overall}%
+                  </span>
+                </div>
+
+                <div class="mt-3 space-y-2">
+                  {metrics.bars.map((bar) => (
+                    <div>
+                      <div class="flex items-center justify-between gap-2 text-xs">
+                        <span class="text-[var(--muted)]">{bar.label}</span>
+                        <span class="font-medium text-[var(--text)]">{bar.value}%</span>
+                      </div>
+                      <div class="mt-1 h-1.5 overflow-hidden rounded-full bg-[#eef1f6]">
+                        <div
+                          class="h-full rounded-full transition-all"
+                          style={`width:${bar.value}%;background:${palette.bar}`}
+                        />
+                      </div>
+                      <div class="mt-0.5 text-[10px] text-[var(--muted)]">{bar.detail}</div>
+                    </div>
+                  ))}
+                </div>
+
                 {mod.description && (
-                  <p class="mt-2 text-sm leading-relaxed text-[var(--muted)]">{mod.description}</p>
-                )}
-                {title === "包装" && (mod.accessories || []).length > 0 && (
-                  <p class="mt-2 text-sm">
-                    <span class="font-medium">配件：</span>
-                    {(mod.accessories || []).join("、")}
+                  <p class="mt-3 line-clamp-3 text-sm leading-relaxed text-[var(--text)]">
+                    {mod.description}
                   </p>
                 )}
+
+                {title === "包装" && (mod.accessories || []).length > 0 && (
+                  <div class="mt-3 flex flex-wrap gap-1.5">
+                    {(mod.accessories || []).map((acc) => (
+                      <span
+                        class="rounded-full px-2 py-0.5 text-[10px] font-medium"
+                        style={`background:${palette.bg};color:${palette.text}`}
+                      >
+                        {acc}
+                      </span>
+                    ))}
+                  </div>
+                )}
+
                 {images.length > 0 && (
-                  <div class="mt-3 flex flex-col gap-3">
+                  <div class="mt-3 flex gap-2 overflow-x-auto pb-1">
                     {images.map((img) => {
                       const lbIdx = allLightboxImages.findIndex((x) => x.src === img.src);
                       return (
-                        <figure class="m-0">
+                        <figure class="m-0 w-36 flex-shrink-0">
                           <button
                             type="button"
                             class="block w-full cursor-zoom-in border-0 bg-transparent p-0"
@@ -193,12 +257,12 @@ const lightboxJson = JSON.stringify(allLightboxImages);
                             <img
                               src={img.src}
                               alt={img.alt || img.caption || title}
-                              class="w-full rounded-lg border border-[var(--line)] object-cover"
+                              class="h-24 w-full rounded-lg border border-[var(--line)] object-cover"
                               loading="lazy"
                             />
                           </button>
                           {img.caption && (
-                            <figcaption class="mt-1 text-xs leading-snug text-[var(--muted)]">
+                            <figcaption class="mt-1 line-clamp-2 text-[10px] leading-snug text-[var(--muted)]">
                               {img.caption}
                             </figcaption>
                           )}
@@ -208,7 +272,7 @@ const lightboxJson = JSON.stringify(allLightboxImages);
                   </div>
                 )}
               </div>
-            ) : null;
+            );
           })}
         </div>
       </section>
