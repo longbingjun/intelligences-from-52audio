@@ -19,3 +19,6 @@ pytesseract>=0.3.10
 # 拆解视频：字幕 / ASR（可选）
 yt-dlp>=2024.1
 faster-whisper>=1.0; python_version >= "3.10"
+
+# JD 自研采集（Playwright 持久化 Chrome Profile）
+playwright>=1.40

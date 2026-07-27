@@ -1,11 +1,11 @@
 #!/usr/bin/env python3
-"""渠道（ZOL / 京东）+ 官方页 enrich：补售价与电商溯源。
+"""渠道（SMZDM / ZOL / 京东）+ 官方页 enrich：补售价与电商溯源。
 
 用法:
   python scripts/enrich_commerce.py huawei--freebuds-pro-5
   python scripts/enrich_commerce.py --headphones --limit 20
 
-价格优先级：ZOL 京东价 > ZOL 天猫价 > ZOL 参考报价 > 京东联盟 API > 旧版京东直连 > commerce_hints > 官网 MSRP
+价格优先级：值得买(SMZDM) 京东价 > 京东联盟 API > ZOL 京东价 > ZOL 天猫/参考价 > 京东直连 > hints > 官网 MSRP
 """
 
 from __future__ import annotations
@@ -29,6 +29,7 @@ from sources.channel.jd_union_client import (  # noqa: E402
     union_detail,
     union_search,
 )
+from sources.channel.smzdm_client import fetch_smzdm_prices, smzdm_configured  # noqa: E402
 from sources.channel.zol_client import (  # noqa: E402
     _commerce_search_query,
     best_channel_price,
@@ -81,42 +82,69 @@ def _list_headphone_products(limit: int | None = None) -> list[str]:
     return ids
 
 
-def enrich_channel(canonical_id: str, brand: str, model: str, hints: dict) -> dict:
+def enrich_channel(canonical_id: str, brand: str, model: str, hints: dict, *, skip_zol: bool = False) -> dict:
     product_hint = hints.get(canonical_id) or {}
     zol_hint = product_hint.get("zol") or {}
     jd_hint = product_hint.get("jd") or {}
     query = _commerce_search_query(brand, model) or f"{brand} {model}".strip()
 
-    zol_info = fetch_zol_prices(
-        brand=brand,
-        model=model,
-        query=query,
-        product_id=zol_hint.get("product_id"),
-        product_url=zol_hint.get("product_url"),
-    )
-    # ZOL 详情页产品名与目标型号不一致时，丢弃 ZOL 结果（避免错链到牧士 MC2 等）
-    if zol_info.product_name and score_product_title(zol_info.product_name, brand, model) < 1.5:
-        zol_info.fetch_error = "zol_product_mismatch"
-        zol_info.reference_price_cny = None
-        zol_info.channel_quotes = []
+    smzdm_info = fetch_smzdm_prices(brand=brand, model=model, query=query) if smzdm_configured() else None
+    smzdm_hit = smzdm_info.best_hit if smzdm_info else None
 
-    price_cny, price_platform, channel_url = best_channel_price(zol_info)
+    zol_info = None
+    if not skip_zol:
+        zol_info = fetch_zol_prices(
+            brand=brand,
+            model=model,
+            query=query,
+            product_id=zol_hint.get("product_id"),
+            product_url=zol_hint.get("product_url"),
+        )
+        if zol_info.product_name and score_product_title(zol_info.product_name, brand, model) < 1.5:
+            zol_info.fetch_error = "zol_product_mismatch"
+            zol_info.reference_price_cny = None
+            zol_info.channel_quotes = []
 
+    price_cny = None
+    price_platform = ""
+    channel_url = ""
     sku_id = None
-    msrp_cny = zol_info.reference_price_cny
+    msrp_cny = None
     shop_hint = ""
-    live_error = zol_info.fetch_error or ""
+    live_error = ""
     price_source = ""
 
-    if price_cny is not None:
-        price_source = "zol_reference" if price_platform == "zol_reference" else f"zol_{price_platform}"
-        for q in zol_info.channel_quotes:
-            if q.platform == "jd" and q.sku_id:
-                sku_id = q.sku_id
-            if q.platform == "jd":
-                shop_hint = "京东（ZOL 溯源）"
-    else:
-        live_error = live_error or "zol_no_price"
+    if smzdm_hit and smzdm_hit.price_cny is not None:
+        price_cny = smzdm_hit.price_cny
+        channel_url = smzdm_hit.url
+        sku_id = smzdm_hit.sku_id
+        mall = smzdm_hit.mall_name or ""
+        if any(n in mall for n in ("京东",)):
+            price_platform = "jd"
+            price_source = "smzdm_jd"
+            shop_hint = f"值得买 · {mall}"
+        else:
+            price_platform = mall or "smzdm"
+            price_source = "smzdm"
+            shop_hint = f"值得买 · {mall}" if mall else "值得买"
+    elif smzdm_info and smzdm_info.fetch_error:
+        live_error = smzdm_info.fetch_error
+
+    if price_cny is None and zol_info is not None:
+        zol_price, zol_platform, zol_url = best_channel_price(zol_info)
+        if zol_price is not None:
+            price_cny = zol_price
+            price_platform = zol_platform
+            channel_url = zol_url
+            price_source = "zol_reference" if zol_platform == "zol_reference" else f"zol_{zol_platform}"
+            for q in zol_info.channel_quotes:
+                if q.platform == "jd" and q.sku_id:
+                    sku_id = q.sku_id
+                if q.platform == "jd":
+                    shop_hint = shop_hint or "京东（ZOL 溯源）"
+        if price_cny is None:
+            live_error = live_error or zol_info.fetch_error or "zol_no_price"
+        msrp_cny = zol_info.reference_price_cny
 
     # 京东联盟 API（优先于已失效的页面直连）
     if union_configured():
@@ -185,7 +213,8 @@ def enrich_channel(canonical_id: str, brand: str, model: str, hints: dict) -> di
         "search_query": query,
         "price_note": jd_hint.get("price_note", ""),
         "live_error": live_error if price_cny is None else "",
-        "zol": zol_info.to_dict(),
+        "smzdm": smzdm_info.to_dict() if smzdm_info else None,
+        "zol": zol_info.to_dict() if zol_info else None,
         "captured_at": datetime.now(timezone.utc).date().isoformat(),
         "source_layer": "channel",
     }
@@ -277,7 +306,7 @@ def write_enrich(canonical_id: str, channel: dict, official: dict) -> None:
     write_official_enrich(canonical_id, official)
 
 
-def enrich_one(canonical_id: str, hints: dict) -> dict:
+def enrich_one(canonical_id: str, hints: dict, *, skip_zol: bool = False) -> dict:
     product = _load_product(canonical_id)
     if product:
         brand = product.get("brand", "")
@@ -287,10 +316,14 @@ def enrich_one(canonical_id: str, hints: dict) -> dict:
         brand = h.get("brand", "")
         model = h.get("model", "")
 
-    channel = enrich_channel(canonical_id, brand, model, hints)
+    channel = enrich_channel(canonical_id, brand, model, hints, skip_zol=skip_zol)
 
     zol_info = channel.get("zol") or {}
-    needs_official_search = _zol_needs_official_fallback(zol_info) or channel.get("price_source") == "unresolved"
+    needs_official_search = (
+        _zol_needs_official_fallback(zol_info)
+        or channel.get("price_source") == "unresolved"
+        or (channel.get("smzdm") or {}).get("fetch_error") in ("smzdm_no_hit", "smzdm_no_match", "smzdm_not_configured")
+    )
 
     official_page = None
     if needs_official_search:
@@ -315,6 +348,7 @@ def main() -> None:
     parser.add_argument("--canonical", dest="canonical_alt", help="同上")
     parser.add_argument("--headphones", action="store_true", help="批量处理耳机品类")
     parser.add_argument("--limit", type=int, default=None, help="批量上限（默认全部）")
+    parser.add_argument("--skip-zol", action="store_true", help="跳过 ZOL 抓取，仅用值得买/京东")
     args = parser.parse_args()
 
     hints = _load_hints()
@@ -322,13 +356,13 @@ def main() -> None:
 
     if args.headphones:
         ids = _list_headphone_products(args.limit if args.limit else None)
-        results = [enrich_one(i, hints) for i in ids]
+        results = [enrich_one(i, hints, skip_zol=args.skip_zol) for i in ids]
         print(json.dumps({"count": len(results), "ids": ids}, ensure_ascii=False, indent=2))
         return
 
     if not cid:
         parser.error("请提供 canonical_id 或 --headphones")
-    result = enrich_one(cid, hints)
+    result = enrich_one(cid, hints, skip_zol=args.skip_zol)
     out = json.dumps(result, ensure_ascii=False, indent=2)
     sys.stdout.buffer.write(out.encode("utf-8"))
     sys.stdout.buffer.write(b"\n")
