@@ -28,6 +28,11 @@ def extract_dom_prices(page: Page) -> dict[str, Any]:
     for sel in PRICE_SELECTORS:
         try:
             loc = page.locator(sel).first
+            if loc.count():
+                try:
+                    loc.wait_for(state="visible", timeout=1500)
+                except Exception:
+                    pass
             if loc.count() and loc.is_visible(timeout=500):
                 txt = (loc.inner_text(timeout=1000) or "").strip()
                 if txt:
@@ -113,9 +118,11 @@ def best_price(dom: dict, p3: dict, ware: dict) -> tuple[float | None, float | N
         return p3["price_cny"], p3.get("msrp_cny"), "p3_api"
     if ware.get("price_cny") is not None:
         return ware["price_cny"], None, "ware_business"
-    for txt in dom.get("selectors", {}).values():
+    for selector, txt in dom.get("selectors", {}).items():
         val = parse_price_text(txt)
         if val is not None:
+            if ".product-price--gray" in selector:
+                return val, None, "dom_official_price"
             return val, None, "dom_selector"
     for hit in dom.get("page_text_hits") or []:
         val = parse_price_text(hit)

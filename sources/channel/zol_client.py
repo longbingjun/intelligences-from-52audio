@@ -23,7 +23,10 @@ _HEADERS = {
 
 _PRICE_NUM_RE = re.compile(r"(\d+(?:\.\d+)?)")
 _PRO_ID_RE = re.compile(r"microphone/index(\d+)\.shtml", re.I)
-_JD_SKU_RE = re.compile(r"(?:item\.jd\.com/(\d+)|[?&]e=jd_(\d+)|jd_(\d+))", re.I)
+_JD_SKU_RE = re.compile(
+    r"(?:item\.jd\.com/(\d+)|[?&]e=jd_(\d+)|(?<![0-9])jd_(\d{8,}))",
+    re.I,
+)
 
 
 @dataclass
@@ -91,11 +94,7 @@ def _get(url: str, *, timeout: int = 20) -> requests.Response:
 
 
 def _abs_url(href: str) -> str:
-    if href.startswith("//"):
-        return "https:" + href
-    if href.startswith("/"):
-        return ZOL_BASE + href
-    return href
+    return urljoin(ZOL_BASE + "/", href or "")
 
 
 def _parse_price(text: str) -> float | None:
@@ -223,7 +222,10 @@ def parse_zol_product_html(html: str, product_url: str, product_id: str) -> ZolP
             ref_price = _parse_price(ref_block.get_text())
 
     quotes: list[ZolChannelQuote] = []
-    for li in soup.select("ul.price-b2c > li"):
+    # 京东/天猫 B2C 区块：li.b2c-jd/li.b2c-tmall > a > span.m-price._j_price_num
+    # 同时保留兼容选择器，但按内容去重，避免选择器重叠产生重复报价。
+    seen_quotes: set[tuple[str, str, float | None, str | None]] = set()
+    for li in soup.select("ul.price-b2c > li, li.b2c-jd, li.b2c-tmall"):
         cls = " ".join(li.get("class") or [])
         if "b2c-jd" in cls:
             platform, label = "jd", "京东"
@@ -235,15 +237,26 @@ def parse_zol_product_html(html: str, product_url: str, product_id: str) -> ZolP
         if not a:
             continue
         url = _abs_url(a["href"])
-        price_node = li.select_one(".m-price") or a
-        price = _parse_price(price_node.get_text())
+        price_node = (
+            li.select_one("span.m-price._j_price_num")
+            or li.select_one("span.m-price")
+            or li.select_one(".m-price")
+        )
+        price = _parse_price(price_node.get_text() if price_node else a.get_text())
+        sku = _extract_jd_sku(url) if platform == "jd" else None
+        if platform == "jd" and not sku:
+            sku = _extract_jd_sku(a.get("href", "") + " " + li.get_text(" ", strip=True))
+        quote_key = (platform, url, price, sku)
+        if quote_key in seen_quotes:
+            continue
+        seen_quotes.add(quote_key)
         quotes.append(
             ZolChannelQuote(
                 platform=platform,
                 platform_label=label,
                 price_cny=price,
                 url=url,
-                sku_id=_extract_jd_sku(url) if platform == "jd" else None,
+                sku_id=sku,
             )
         )
 
@@ -307,8 +320,19 @@ def fetch_zol_prices(
         )
 
 
+def zol_jd_quote(info: ZolPriceInfo) -> ZolChannelQuote | None:
+    """ZOL 详情页 li.b2c-jd 中的京东价与 SKU。"""
+    for q in info.channel_quotes:
+        if q.platform == "jd":
+            return q
+    return None
+
+
 def best_channel_price(info: ZolPriceInfo) -> tuple[float | None, str, str]:
     """返回 (price, platform, url) — 优先京东价，其次天猫，最后参考报价。"""
+    jd = zol_jd_quote(info)
+    if jd and jd.price_cny is not None:
+        return jd.price_cny, "jd", jd.url
     for platform in ("jd", "tmall"):
         for q in info.channel_quotes:
             if q.platform == platform and q.price_cny is not None:

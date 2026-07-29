@@ -24,6 +24,8 @@ MIN_DELAY_SEC = 3.0
 MAX_DELAY_SEC = 6.0
 
 PRICE_SELECTORS = [
+    ".product-price--gray span",
+    ".product-price--gray",
     ".summary-price .p-price .price",
     ".p-price .price",
     "#J_FinalPrice",
