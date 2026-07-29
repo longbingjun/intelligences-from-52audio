@@ -1,0 +1,373 @@
+{
+  "canonical_id": "unknown--lchse2-pro",
+  "brand": "荣耀",
+  "model": "LCHSE耳夹式耳机2 Pro",
+  "category": "开放式耳机",
+  "report_ids": [
+    "284244"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "284244"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2026-07-29",
+  "latest_published": "2026-07-29",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "CM1125",
+    "pmic_case": "CM1125",
+    "battery_ear": "3.85V/60mAh钢壳扣式",
+    "battery_case": "3.7V/550mAh锂电池",
+    "speaker": "喇叭单元",
+    "materials": "钛合金、PC",
+    "weight_g": "3g",
+    "weight_case_g": "",
+    "weight_earbud_g": "6.2g",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 16,
+    "price_cny": null,
+    "price_layer": null,
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "284244",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1125",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "CM1125",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载YD亿等新能源3.7V/550mAh锂电池，采用了ICM创芯微CM1125-CAS锂电保护IC，负责电池的过充电、过放电、过电流等保护；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3.7V/550mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3.7V/550mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载YD亿等新能源3.7V/550mAh锂电池，采用了ICM创芯微CM1125-CAS锂电保护IC，负责电池的过充电、过放电、过电流等保护；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3.85V/60mAh钢壳扣式",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "3.85V/60mAh钢壳扣式",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载12mm动圈喇叭，内置2个MEMS麦克风+1个骨传导麦克风提供精准收音，采用3.85V60mAh钢壳扣式电池供电；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载12mm动圈喇叭，内置2个MEMS麦克风+1个骨传导麦克风提供精准收音，采用3.85V60mAh钢壳扣式电池供电；"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "其他方面，荣耀亲选LCHSE耳夹式耳机2 Pro支持佩戴检测，支持左右耳自适应，自动调整左右声道，使用更方便；支持掉落提醒和近场查找，防止耳机丢失。续航方面，耳机单词播放时长可达10小时，搭配充电盒综合续航44小时；支持无线充电，提供便捷充电体验。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部主板单元结构一览，与导线和排线焊接，主要IC打胶防护。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盒盖内侧标注有产品参数信息，型号：MKV-ME00，输入：5V-1A，输出：5V-0.25A，电池容量：500mAh 2.035Wh，江西联创宏声电子有限公司，中国制造。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "荣耀亲选是荣耀生态品牌，以HONOR Connect为核心，旨在打造全场景的IoT生态链。LCHSE系列耳夹式耳机是该品牌旗下的爆款产品，最新一代荣耀亲选LCHSE耳夹式耳机2 Pro不仅升级了佩戴舒适性，同时搭载骨传导麦克风，新增左右耳自适应、AI实时翻译、无线充电等功能，为用户提供“大满配”的出色体验。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在音频体验方面，该产品搭载12mm双磁路LCP液晶振膜单元，提供更澎湃的声浪和更加细腻、真实的声音；支持定向传音，降低漏音保护用户隐私；支持动态低音，实现更优秀的响度控制；支持增强环绕声，让声音更具空间感；新增骨传导麦克风，搭配AI通话降噪算法，保障嘈杂环境下的清晰通话。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "物奇微WQ703X系列构建了更加开放的Open DSP应用生态，具备强大的平台能力，拥有领先的性能优势。主要包括兼容多协议：支持蓝牙BT/BLE6.0双模模式和蓝牙多连接；支持蓝牙广播Auracast（和经典蓝牙共存的音频分享）；支持LE Audio新技术标准和 LC3编解码器；射频性能优秀：发射功率最高到15dBm, 接收灵敏度到达-99dBm；高性能音频算法：支持自适应Hybrid ANC及各种上下行复杂音频算法；超低功耗水平：在复杂音频算法的同时，依然保持超低功耗；生态系统丰富：更大SRAM和FLASH空间，实现应用特性更广覆盖；平台开放，支持更多产品形态。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体底部设置充电触点。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面指示灯特写，用于反馈蓝牙配对及充电状态。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒底部设置Type-C充电接口和蓝牙配对功能按键。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网此前还拆解过荣耀亲选LCHSE耳夹式耳机、TiinLab耳挂式耳机，荣耀Earbuds 4、Earbuds X5、Earbuds 3 Pro、Earbuds 2 SE，荣耀亲选GEG X7e青春版、Wingcloud X5s Pro、LCHSE X7i真无线耳机，荣耀亲选LCHSE运动蓝牙耳机，荣耀亲选 迪士尼便携蓝牙音箱、Ikarao蓝牙音箱mini，荣耀手环10、荣耀手表5、荣耀手表4 Pro、荣耀手表GS 4、荣耀亲选Haylou Watch智能手表，荣耀亲选 悦喔无线耳鼠Pro等产品。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1125",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM1125",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "ICM创芯微CM1125-CAS锂电保护IC，负责电池的过充电、过放电、过电流等保护。"
+      }
+    }
+  ],
+  "summary_image_urls": [
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/07/2026072901432075.png",
+      "alt": "拆解报告：荣耀亲选LCHSE耳夹式耳机2 Pro-我爱音频网",
+      "caption": "",
+      "section_hint": "summary_bom",
+      "score": 10
+    }
+  ],
+  "summary_text": "三、我爱音频网总结 最后附上荣耀亲选LCHSE耳夹式耳机2 Pro的已知核心物料清单，方便大家查阅。 荣耀亲选LCHSE耳夹式耳机2 Pro在外观方面，充电盒设计圆润，天青釉配色清新淡雅，荔枝皮纹理装饰，质感出色。耳夹式耳机延续了系列设计风格，腔体采用光滑圆润的亮面质感，拱桥采用钛合金材质，柔软度大幅提升，更够更好的自适应耳廓，提供舒适佩戴。 内部主要配置方面，充电盒搭载YD亿等新能源3.7V/550mAh锂电池，采用了ICM创芯微CM1125-CAS锂电保护IC，负责电池的过充电、过放电、过电流等保护；采用SinhMicro昇生微电子SS88D8H POWER MCU、Crechip睿赫CCX1121A无线充电接收芯片，负责内置电池的充放电管理。 耳机内部搭载12mm动圈喇叭，内置2个MEMS麦克风+1个骨传导麦克风提供精准收音，采用3.85V60mAh钢壳扣式电池供电；主控芯片采用WUQI物奇微WQ7035AX-B智能音频SoC，具备强大的平台能力和领先的性能优势，为耳机的各项功能提供支持；其他还采用了大量Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等方案。",
+  "layer_refs": {
+    "technical": [
+      "report:284244"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "12mm双磁路LCP液晶振膜单元，提供更澎湃的声浪和更加细腻、真实的声音",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "12mm双磁路LCP液晶振膜单元，提供更澎湃的声浪和更加细腻、真实的声音",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "12mm双磁路LCP液晶振膜单元，提供更澎湃的声浪和更加细腻、真实的声音"
+        }
+      },
+      {
+        "text": "支持定向传音，降低漏音保护用户隐私",
+        "tag": "开放佩戴",
+        "tags": [],
+        "evidence": {
+          "value": "支持定向传音，降低漏音保护用户隐私",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "支持定向传音，降低漏音保护用户隐私"
+        }
+      },
+      {
+        "text": "支持动态低音，实现更优秀的响度控制",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "支持动态低音，实现更优秀的响度控制",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "支持动态低音，实现更优秀的响度控制"
+        }
+      },
+      {
+        "text": "支持增强环绕声，让声音更具空间感",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "支持增强环绕声，让声音更具空间感",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "支持增强环绕声，让声音更具空间感"
+        }
+      },
+      {
+        "text": "光滑圆润的亮面质感，拱桥采用钛合金材质，柔软度大幅提升，更够更好的自适应耳廓，提供舒适佩戴",
+        "tag": "舒适佩戴",
+        "tags": [],
+        "evidence": {
+          "value": "光滑圆润的亮面质感，拱桥采用钛合金材质，柔软度大幅提升，更够更好的自适应耳廓，提供舒适佩戴",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "光滑圆润的亮面质感，拱桥采用钛合金材质，柔软度大幅提升，更够更好的自适应耳廓，提供舒适佩戴"
+        }
+      },
+      {
+        "text": "镭雕NXD15的MEMS麦克风，用于通话降噪功能拾音",
+        "tag": "降噪",
+        "tags": [],
+        "evidence": {
+          "value": "镭雕NXD15的MEMS麦克风，用于通话降噪功能拾音",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "镭雕NXD15的MEMS麦克风，用于通话降噪功能拾音"
+        }
+      },
+      {
+        "text": "物奇微WQ703X系列构建了更加开放的Open DSP应用生态，具备强大的平台能力，拥有领先的性能优势",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "物奇微WQ703X系列构建了更加开放的Open DSP应用生态，具备强大的平台能力，拥有领先的性能优势",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "物奇微WQ703X系列构建了更加开放的Open DSP应用生态，具备强大的平台能力，拥有领先的性能优势"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "通话"
+    ],
+    "positioning_summary": "主打开放佩戴、舒适佩戴、降噪；适用运动、通话等场景",
+    "launch_date": null,
+    "best_report_id": "284244",
+    "best_video_id": null
+  }
+}
