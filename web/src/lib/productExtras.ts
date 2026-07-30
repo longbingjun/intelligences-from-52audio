@@ -27,6 +27,7 @@ export interface BomRowItem {
 
 export interface ProductExtras {
   sellingPoints: SellingPointItem[];
+  sellingPointsSummary: SellingPointItem[];
   scenarios: string[];
   bomTable: BomRowItem[];
 }
@@ -48,11 +49,12 @@ function fetchExtras(canonicalId: string): Promise<ProductExtras> {
       return res.json();
     })
     .then((data: {
-      market?: { selling_points?: SellingPointItem[]; scenarios?: string[] };
+      market?: { selling_points?: SellingPointItem[]; selling_points_summary?: SellingPointItem[]; scenarios?: string[] };
       bom_table?: BomRowItem[];
     }) => {
       const extras: ProductExtras = {
         sellingPoints: (data.market?.selling_points || []).filter((sp) => (sp.text || "").trim()),
+        sellingPointsSummary: (data.market?.selling_points_summary || []).filter((sp) => (sp.text || "").trim()),
         scenarios: (data.market?.scenarios || []).filter(Boolean),
         bomTable: data.bom_table || [],
       };

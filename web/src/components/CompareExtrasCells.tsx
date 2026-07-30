@@ -23,7 +23,9 @@ export function SellingPointsCell({ state }: { state: ProductExtrasState | undef
   if (state === "error") {
     return <span className="text-xs text-[var(--warn)]">卖点数据加载失败</span>;
   }
-  const points = pickTopSellingPoints(state.sellingPoints, 6);
+  const points = state.sellingPointsSummary.length
+    ? state.sellingPointsSummary
+    : pickTopSellingPoints(state.sellingPoints, 6);
   if (points.length === 0) {
     return <span className="text-xs text-[var(--muted)]">暂无卖点数据</span>;
   }
