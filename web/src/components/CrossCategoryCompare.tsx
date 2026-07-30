@@ -15,7 +15,7 @@ import {
 } from "../lib/types";
 import { withBase } from "../lib/paths";
 import { useProductExtras } from "../lib/productExtras";
-import { BomHighlightsCell, SellingPointsCell } from "./CompareExtrasCells";
+import { ScenariosCell, SellingPointTagsCell, SellingPointsCell } from "./CompareExtrasCells";
 
 /** 记录“上一个对比视图”的完整地址，供产品详情页的“返回对比”链接读取。 */
 const LAST_VIEW_KEY = "cost-compare-last-view";
@@ -303,7 +303,33 @@ export default function CrossCategoryCompare({
             <tbody>
               <tr className="bg-[var(--surface-2)]">
                 <td className="sticky left-0 z-10 border-b border-[var(--line)] bg-[var(--surface-2)] px-4 py-3 align-top font-medium text-[var(--muted)]">
-                  核心卖点
+                  卖点标签
+                </td>
+                {products.map((p) => (
+                  <td
+                    key={p.canonical_id + "-selling-point-tags"}
+                    className="min-w-[220px] border-b border-[var(--line)] px-4 py-3 align-top"
+                  >
+                    <SellingPointTagsCell state={extras[p.canonical_id]} />
+                  </td>
+                ))}
+              </tr>
+              <tr className="bg-[var(--surface-2)]">
+                <td className="sticky left-0 z-10 border-b border-[var(--line)] bg-[var(--surface-2)] px-4 py-3 align-top font-medium text-[var(--muted)]">
+                  适用场景
+                </td>
+                {products.map((p) => (
+                  <td
+                    key={p.canonical_id + "-scenarios"}
+                    className="min-w-[220px] border-b border-[var(--line)] px-4 py-3 align-top"
+                  >
+                    <ScenariosCell state={extras[p.canonical_id]} />
+                  </td>
+                ))}
+              </tr>
+              <tr className="bg-[var(--surface-2)]">
+                <td className="sticky left-0 z-10 border-b border-[var(--line)] bg-[var(--surface-2)] px-4 py-3 align-top font-medium text-[var(--muted)]">
+                  核心卖点摘要
                 </td>
                 {products.map((p) => (
                   <td
@@ -311,22 +337,6 @@ export default function CrossCategoryCompare({
                     className="min-w-[220px] border-b border-[var(--line)] px-4 py-3 align-top"
                   >
                     <SellingPointsCell state={extras[p.canonical_id]} />
-                  </td>
-                ))}
-              </tr>
-              <tr className="bg-[var(--surface-2)]">
-                <td className="sticky left-0 z-10 border-b border-[var(--line)] bg-[var(--surface-2)] px-4 py-3 align-top font-medium text-[var(--muted)]">
-                  物料清单
-                </td>
-                {products.map((p) => (
-                  <td
-                    key={p.canonical_id + "-bom"}
-                    className="min-w-[220px] border-b border-[var(--line)] px-4 py-3 align-top"
-                  >
-                    <BomHighlightsCell
-                      state={extras[p.canonical_id]}
-                      productHref={link(`/product/${p.canonical_id}`)}
-                    />
                   </td>
                 ))}
               </tr>
@@ -358,6 +368,18 @@ export default function CrossCategoryCompare({
                         source_layer: "",
                       };
                       const missing = emptyHint(cell.value);
+                      if (param === "bom_rows") {
+                        return (
+                          <td key={p.canonical_id + param} className="border-b border-[var(--line)] px-4 py-3 align-top">
+                            <a
+                              href={link(`/product/${p.canonical_id}#bom`)}
+                              className="font-medium text-[var(--primary)] hover:underline"
+                            >
+                              {cell.value} 项 → 查看 BOM
+                            </a>
+                          </td>
+                        );
+                      }
                       return (
                         <td
                           key={p.canonical_id + param}

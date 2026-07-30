@@ -4,7 +4,7 @@
  */
 import { collectSellingPointTags, sellingPointTagStyle } from "../lib/sellingPointTags";
 import type { ProductExtrasState } from "../lib/productExtras";
-import { pickBomHighlights, pickTopSellingPoints, truncateText } from "../lib/productExtras";
+import { conciseSellingPoint, pickBomHighlights, pickTopSellingPoints } from "../lib/productExtras";
 
 function LoadingList() {
   return (
@@ -23,7 +23,7 @@ export function SellingPointsCell({ state }: { state: ProductExtrasState | undef
   if (state === "error") {
     return <span className="text-xs text-[var(--warn)]">卖点数据加载失败</span>;
   }
-  const points = pickTopSellingPoints(state.sellingPoints, 5);
+  const points = pickTopSellingPoints(state.sellingPoints, 6);
   if (points.length === 0) {
     return <span className="text-xs text-[var(--muted)]">暂无卖点数据</span>;
   }
@@ -39,7 +39,17 @@ export function SellingPointsCell({ state }: { state: ProductExtrasState | undef
               style={{ background: style.text }}
               title={tag}
             />
-            <span>{truncateText(sp.text, 40)}</span>
+            <span>
+              {tag && (
+                <span
+                  className="mr-1 rounded-full px-1.5 py-0.5 text-[10px] font-semibold"
+                  style={{ background: style.bg, color: style.text }}
+                >
+                  {tag}
+                </span>
+              )}
+              {conciseSellingPoint(sp.text)}
+            </span>
           </li>
         );
       })}
@@ -47,6 +57,53 @@ export function SellingPointsCell({ state }: { state: ProductExtrasState | undef
   );
 }
 
+export function SellingPointTagsCell({ state }: { state: ProductExtrasState | undefined }) {
+  if (!state || state === "loading") {
+    return <LoadingList />;
+  }
+  if (state === "error") {
+    return <span className="text-xs text-[var(--warn)]">卖点数据加载失败</span>;
+  }
+  const tags = Array.from(
+    new Set(state.sellingPoints.flatMap((sp) => collectSellingPointTags(sp)).filter(Boolean))
+  );
+  if (!tags.length) {
+    return <span className="text-xs text-[var(--muted)]">暂无卖点标签</span>;
+  }
+  return (
+    <div className="flex flex-wrap gap-1.5">
+      {tags.map((tag) => {
+        const style = sellingPointTagStyle(tag);
+        return (
+          <span
+            key={tag}
+            className="rounded-full px-2 py-0.5 text-xs font-semibold"
+            style={{ background: style.bg, color: style.text }}
+          >
+            {tag}
+          </span>
+        );
+      })}
+    </div>
+  );
+}
+
+export function ScenariosCell({ state }: { state: ProductExtrasState | undefined }) {
+  if (!state || state === "loading") return <LoadingList />;
+  if (state === "error") return <span className="text-xs text-[var(--warn)]">场景数据加载失败</span>;
+  if (!state.scenarios.length) return <span className="text-xs text-[var(--muted)]">暂无场景数据</span>;
+  return (
+    <div className="flex flex-wrap gap-1.5">
+      {state.scenarios.map((scenario) => (
+        <span key={scenario} className="rounded-full bg-[var(--primary-soft)] px-2 py-0.5 text-xs text-[var(--primary-dark)]">
+          {scenario}
+        </span>
+      ))}
+    </div>
+  );
+}
+
+/** 单品类对比仍保留原有的 BOM 摘要卡片；跨品类对比不再使用它。 */
 export function BomHighlightsCell({
   state,
   productHref,
@@ -54,31 +111,19 @@ export function BomHighlightsCell({
   state: ProductExtrasState | undefined;
   productHref: string;
 }) {
-  if (!state || state === "loading") {
-    return <LoadingList />;
-  }
-  if (state === "error") {
-    return <span className="text-xs text-[var(--warn)]">物料数据加载失败</span>;
-  }
+  if (!state || state === "loading") return <LoadingList />;
+  if (state === "error") return <span className="text-xs text-[var(--warn)]">物料数据加载失败</span>;
   const { items, remaining, total } = pickBomHighlights(state.bomTable, 7);
-  if (items.length === 0) {
-    return <span className="text-xs text-[var(--muted)]">暂无物料数据</span>;
-  }
+  if (!items.length) return <span className="text-xs text-[var(--muted)]">暂无物料数据</span>;
   return (
     <div className="flex flex-col gap-1.5">
       <ul className="m-0 flex list-none flex-col gap-1 p-0">
         {items.map((item) => (
-          <li key={item.key} className="text-xs leading-relaxed text-[var(--text)]">
-            {item.label}
-          </li>
+          <li key={item.key} className="text-xs leading-relaxed text-[var(--text)]">{item.label}</li>
         ))}
       </ul>
-      {remaining > 0 && (
-        <span className="text-[11px] text-[var(--muted)]">等 {total} 项</span>
-      )}
-      <a href={`${productHref}#bom`} className="text-[11px] text-[var(--primary)] hover:underline">
-        查看全部物料 →
-      </a>
+      {remaining > 0 && <span className="text-[11px] text-[var(--muted)]">等 {total} 项</span>}
+      <a href={`${productHref}#bom`} className="text-[11px] text-[var(--primary)] hover:underline">查看全部物料 →</a>
     </div>
   );
 }
