@@ -8,7 +8,7 @@ from bs4 import BeautifulSoup
 
 ROOT=Path(__file__).resolve().parents[1]
 OUT=ROOT/'scratch_price_research'/'price_text_pilot_20.json'
-PROMPT='''浣犳槸浠锋牸璇佹嵁瀹℃牳鍛樸€備粎浠庤緭鍏ユ悳绱㈢墖娈垫彁鍙栦腑鍥藉ぇ闄嗙殑瀹樻柟寤鸿闆跺敭浠锋垨棣栧彂瀹樻柟瀹氫环銆備弗鏍兼帓闄ゆ垚浜や环銆佷紭鎯犱环銆佽ˉ璐翠环銆佸埜鍚庝环銆侀鍞环銆佹捣澶栦环鏍煎拰鍨嬪彿涓嶅尮閰嶇殑浠锋牸銆傛病鏈夊彲闈犺瘉鎹垯 price_cny 蹇呴』涓?null銆傚彧杈撳嚭JSON锛歿"price_cny":number|null,"price_type":"瀹樻柟寤鸿闆跺敭浠?|"棣栧彂瀹樻柟瀹氫环"|"鏃犲彲闈犵粨鏋?,"evidence_index":number|null,"evidence_quote":string,"confidence":0-1,"reason":string}銆?''
+PROMPT = """浣犳槸浠锋牸璇佹嵁瀹℃牳鍛樸€備粎浠庤緭鍏ユ悳绱㈢墖娈垫彁鍙栦腑鍥藉ぇ闄嗙殑瀹樻柟寤鸿闆跺敭浠锋垨棣栧彂瀹樻柟瀹氫环銆備弗鏍兼帓闄ゆ垚浜や环銆佷紭鎯犱环銆佽ˉ璐翠环銆佸埜鍚庝环銆侀鍞环銆佹捣澶栦环鏍煎拰鍨嬪彿涓嶅尮閰嶇殑浠锋牸銆傛病鏈夊彲闈犺瘉鎹垯 price_cny 蹇呴』涓?null銆傚彧杈撳嚭 JSON锛歿\"price_cny\": number|null, \"price_type\": \"瀹樻柟寤鸿闆跺敭浠穃"|\"棣栧彂瀹樻柟瀹氫环\"|\"鏃犲彲闈犵粨鏋淺", \"evidence_index\": number|null, \"evidence_quote\": string, \"confidence\": 0-1, \"reason\": string}銆?""
 def products():
     out=[]
     for p in sorted((ROOT/'data/products').glob('*.json')):
