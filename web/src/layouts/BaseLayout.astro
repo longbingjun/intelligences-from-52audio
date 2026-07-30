@@ -22,9 +22,9 @@ const teardown = withBase("/teardown-details");
     <title>{fullTitle}</title>
   </head>
   <body>
-    <header class="sticky top-0 z-50 border-b border-[var(--line)] bg-white/90 backdrop-blur-md">
+    <header class="sticky top-0 z-50 border-b border-[var(--line)] bg-[var(--bg-elevated)]/80 backdrop-blur-xl">
       <div class="mx-auto flex max-w-[1400px] flex-wrap items-center justify-between gap-3 px-5 py-3">
-        <a href={home} class="text-lg font-bold text-[var(--text)] no-underline hover:no-underline">
+        <a href={home} class="gradient-text text-lg font-bold no-underline hover:no-underline">
           竞品成本情报
         </a>
         <nav class="flex flex-wrap gap-1 text-sm">
@@ -34,7 +34,7 @@ const teardown = withBase("/teardown-details");
               "nav-link rounded-full px-3 py-1.5 no-underline",
               activeNav === "home"
                 ? "nav-link--active bg-[var(--primary)] text-white"
-                : "text-[var(--muted)] hover:bg-[#eef3ff] hover:text-[var(--primary)]",
+                : "text-[var(--muted)] hover:bg-[var(--primary-soft)] hover:text-[var(--primary-dark)]",
             ]}
           >工作台</a>
           <a
@@ -43,7 +43,7 @@ const teardown = withBase("/teardown-details");
               "nav-link rounded-full px-3 py-1.5 no-underline",
               activeNav === "category"
                 ? "nav-link--active bg-[var(--primary)] text-white"
-                : "text-[var(--muted)] hover:bg-[#eef3ff] hover:text-[var(--primary)]",
+                : "text-[var(--muted)] hover:bg-[var(--primary-soft)] hover:text-[var(--primary-dark)]",
             ]}
           >品类对比</a>
           <a
@@ -52,7 +52,7 @@ const teardown = withBase("/teardown-details");
               "nav-link rounded-full px-3 py-1.5 no-underline",
               activeNav === "teardown"
                 ? "nav-link--active bg-[var(--primary)] text-white"
-                : "text-[var(--muted)] hover:bg-[#eef3ff] hover:text-[var(--primary)]",
+                : "text-[var(--muted)] hover:bg-[var(--primary-soft)] hover:text-[var(--primary-dark)]",
             ]}
           >拆解视频、报告明细</a>
         </nav>

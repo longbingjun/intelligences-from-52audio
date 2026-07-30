@@ -1,13 +1,9 @@
 ---
 import BaseLayout from "../../layouts/BaseLayout.astro";
-import { withBase } from "../../lib/paths";
+import { withBase, baseUrl } from "../../lib/paths";
 import { resolveImageSrc } from "../../lib/images";
-import {
-  collectSellingPointTags,
-  computeUnboxModuleMetrics,
-  sellingPointTagStyle,
-  unboxModuleStyle,
-} from "../../lib/unboxingMetrics";
+import { computeUnboxModuleMetrics, unboxModuleStyle } from "../../lib/unboxingMetrics";
+import { collectSellingPointTags, sellingPointTagStyle } from "../../lib/sellingPointTags";
 import fs from "node:fs";
 import path from "node:path";
 
@@ -96,6 +92,12 @@ const resolvedSummaryImages: ResolvedImage[] = resolveImages(
   (product.summary_image_urls || []) as { url: string; alt?: string; caption?: string }[]
 );
 
+// 静态兜底：无 JS 环境或首次直接访问详情页时使用的“返回”链接，指向该品类的
+// 默认对比工作台（不带 ids）。客户端脚本会尝试用 sessionStorage 里记录的
+// “上一个对比视图”（可能是 /category/xxx?ids=... 或 /compare?ids=...）覆盖它，
+// 从而带着用户之前的选择状态返回，而不是丢回品类默认页。
+const staticBackHref = withBase(`/category/${encodeURIComponent(product.category)}`);
+
 const allLightboxImages: ResolvedImage[] = [
   ...resolvedSummaryImages,
   ...unboxSections.flatMap(({ mod }) => (mod ? resolveImages(mod.appearance_images) : [])),
@@ -105,13 +107,35 @@ const lightboxJson = JSON.stringify(allLightboxImages);
 
 <BaseLayout title={`${product.brand} ${product.model}`} activeNav="category">
   <div class="mb-4 text-sm">
-    <a href={withBase(`/category/${encodeURIComponent(product.category)}`)} class="text-[var(--muted)]">
+    <a id="compare-back-link" href={staticBackHref} class="text-[var(--muted)]">
       ← 返回 {product.category} 对比
     </a>
   </div>
 
-  <div class="rounded-2xl border border-[var(--line)] bg-white p-6 shadow-sm">
-    <span class="rounded-full bg-[#eef3ff] px-2 py-0.5 text-xs font-semibold text-[var(--primary-dark)]">
+  <script define:vars={{ baseUrl }}>
+    (function () {
+      var STORAGE_KEY = "cost-compare-last-view";
+      var link = document.getElementById("compare-back-link");
+      if (!link) return;
+      try {
+        var stored = sessionStorage.getItem(STORAGE_KEY);
+        var looksInternal =
+          typeof stored === "string" &&
+          stored.length > 0 &&
+          stored.startsWith(baseUrl) &&
+          !stored.startsWith("//") &&
+          !/^[a-z][a-z0-9+.-]*:/i.test(stored);
+        if (looksInternal) {
+          link.setAttribute("href", stored);
+        }
+      } catch (err) {
+        /* sessionStorage 不可用（隐私模式等）时保留静态兜底链接 */
+      }
+    })();
+  </script>
+
+  <div class="rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-6 shadow-[var(--shadow-glass)]">
+    <span class="rounded-full bg-[var(--primary-soft)] px-2 py-0.5 text-xs font-semibold text-[var(--primary-dark)]">
       {product.category}
     </span>
     <h1 class="mt-2 text-2xl font-bold">{product.brand} {product.model}</h1>
@@ -131,7 +155,7 @@ const lightboxJson = JSON.stringify(allLightboxImages);
 
   {
     hasMarket && (
-      <section class="mt-8 rounded-2xl border border-[var(--line)] bg-white p-6 shadow-sm">
+      <section class="mt-8 rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-6 shadow-[var(--shadow-glass)]">
         <h2 class="m-0 text-lg font-bold">定位与卖点</h2>
         {positioningSummary && (
           <p class="mt-3 text-sm leading-relaxed text-[var(--text)]">{positioningSummary}</p>
@@ -139,7 +163,7 @@ const lightboxJson = JSON.stringify(allLightboxImages);
         {scenarios.length > 0 && (
           <div class="mt-3 flex flex-wrap gap-2">
             {scenarios.map((s) => (
-              <span class="rounded-full bg-[#f3f4f8] px-2.5 py-1 text-xs text-[var(--muted)]">{s}</span>
+              <span class="rounded-full bg-[var(--chip-bg)] px-2.5 py-1 text-xs text-[var(--muted)]">{s}</span>
             ))}
           </div>
         )}
@@ -148,7 +172,7 @@ const lightboxJson = JSON.stringify(allLightboxImages);
             {sellingPoints.map((sp) => {
               const tags = collectSellingPointTags(sp);
               return (
-                <li class="flex gap-2 rounded-xl border border-[var(--line)] bg-[#fafbff] p-3">
+                <li class="flex gap-2 rounded-xl border border-[var(--line)] bg-[var(--surface-2)] p-3">
                   <div class="flex shrink-0 flex-wrap gap-1 self-start">
                     {tags.map((t) => {
                       const style = sellingPointTagStyle(t);
@@ -196,7 +220,7 @@ const lightboxJson = JSON.stringify(allLightboxImages);
             );
             return (
               <section
-                class="rounded-2xl border border-[var(--line)] bg-white p-5 shadow-sm"
+                class="rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-5 shadow-[var(--shadow-glass)]"
                 style={`border-color:${palette.border}`}
               >
                 <div class="flex flex-wrap items-baseline justify-between gap-2">
@@ -215,12 +239,12 @@ const lightboxJson = JSON.stringify(allLightboxImages);
 
                 <div class="mt-3 grid gap-2 sm:grid-cols-3">
                   {metrics.bars.map((bar) => (
-                    <div class="rounded-xl bg-[#fafbff] px-3 py-2">
+                    <div class="rounded-xl bg-[var(--surface-2)] px-3 py-2">
                       <div class="flex items-center justify-between gap-2 text-xs">
                         <span class="text-[var(--muted)]">{bar.label}</span>
                         <span class="font-semibold" style={`color:${palette.text}`}>{bar.value}%</span>
                       </div>
-                      <div class="mt-1.5 h-1.5 overflow-hidden rounded-full bg-[#eef1f6]">
+                      <div class="mt-1.5 h-1.5 overflow-hidden rounded-full bg-[var(--line)]">
                         <div
                           class="h-full rounded-full"
                           style={`width:${bar.value}%;background:${palette.bar}`}
@@ -253,7 +277,7 @@ const lightboxJson = JSON.stringify(allLightboxImages);
                     {images.map((img) => {
                       const lbIdx = allLightboxImages.findIndex((x) => x.src === img.src);
                       return (
-                        <figure class="m-0 w-56 flex-shrink-0 rounded-2xl border border-[var(--line)] bg-white p-3 shadow-sm">
+                        <figure class="m-0 w-56 flex-shrink-0 rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-3 shadow-[var(--shadow-glass)]">
                           <button
                             type="button"
                             class="block w-full cursor-zoom-in border-0 bg-transparent p-0"
@@ -298,7 +322,7 @@ const lightboxJson = JSON.stringify(allLightboxImages);
         ...weightCards,
         ["售价", priceTxt],
       ].map(([label, val]) => (
-        <div class="rounded-xl border border-[var(--line)] bg-white p-4">
+        <div class="rounded-xl border border-[var(--line)] bg-[var(--surface)] p-4">
           <div class="text-xs text-[var(--muted)]">{label}</div>
           <div class="mt-1 font-semibold">{val || "—"}</div>
         </div>
@@ -306,17 +330,17 @@ const lightboxJson = JSON.stringify(allLightboxImages);
     }
   </div>
 
-  <h2 class="mt-8 text-lg font-bold">物料清单（BOM）</h2>
+  <h2 id="bom" class="mt-8 text-lg font-bold">物料清单（BOM）</h2>
   <p class="mb-3 text-xs text-[var(--muted)]">
     「类型」中「核心部件 / 外围部件」表示拆解报告中的部件重要度；芯片行会标注主控、PMIC 等职能。
   </p>
   {caseRows.length > 0 && (
     <>
       <h3 class="text-sm font-semibold text-[var(--muted)]">充电盒</h3>
-      <div class="overflow-x-auto rounded-xl border border-[var(--line)] bg-white">
+      <div class="overflow-x-auto rounded-xl border border-[var(--line)] bg-[var(--surface)]">
         <table class="w-full text-sm">
           <thead>
-            <tr class="bg-[#f8faff] text-left">
+            <tr class="bg-[var(--surface-2)] text-left">
               <th class="px-3 py-2">部件</th>
               <th class="px-3 py-2">厂商</th>
               <th class="px-3 py-2">型号</th>
@@ -340,10 +364,10 @@ const lightboxJson = JSON.stringify(allLightboxImages);
   {earRows.length > 0 && (
     <>
       <h3 class="mt-4 text-sm font-semibold text-[var(--muted)]">耳机</h3>
-      <div class="overflow-x-auto rounded-xl border border-[var(--line)] bg-white">
+      <div class="overflow-x-auto rounded-xl border border-[var(--line)] bg-[var(--surface)]">
         <table class="w-full text-sm">
           <thead>
-            <tr class="bg-[#f8faff] text-left">
+            <tr class="bg-[var(--surface-2)] text-left">
               <th class="px-3 py-2">部件</th>
               <th class="px-3 py-2">厂商</th>
               <th class="px-3 py-2">型号</th>
@@ -367,10 +391,10 @@ const lightboxJson = JSON.stringify(allLightboxImages);
   {otherRows.length > 0 && (
     <>
       <h3 class="mt-4 text-sm font-semibold text-[var(--muted)]">整机 / 未标注位置</h3>
-      <div class="overflow-x-auto rounded-xl border border-[var(--line)] bg-white">
+      <div class="overflow-x-auto rounded-xl border border-[var(--line)] bg-[var(--surface)]">
         <table class="w-full text-sm">
           <thead>
-            <tr class="bg-[#f8faff] text-left">
+            <tr class="bg-[var(--surface-2)] text-left">
               <th class="px-3 py-2">部件</th>
               <th class="px-3 py-2">厂商</th>
               <th class="px-3 py-2">型号</th>

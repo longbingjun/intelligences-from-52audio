@@ -12,8 +12,13 @@ import {
   sourceLabel,
 } from "../lib/types";
 import { withBase } from "../lib/paths";
+import { useProductExtras } from "../lib/productExtras";
+import { BomHighlightsCell, SellingPointsCell } from "./CompareExtrasCells";
 
 const STORAGE_KEY = "cost-compare-selection-v5";
+/** 记录“上一个对比视图”的完整地址（pathname + 查询参数），供产品详情页的
+ * “返回对比”链接读取，使返回后能带着当时的选择状态回到原视图，而不是丢回品类默认页。 */
+const LAST_VIEW_KEY = "cost-compare-last-view";
 
 interface Props {
   category: string;
@@ -72,7 +77,6 @@ export default function CompareWorkbench({
 }: Props) {
   const link = (path: string) => withBase(path);
   const { p0, p1 } = profileForCategory(profiles, category);
-  const [showP1, setShowP1] = useState(false);
   const [search, setSearch] = useState("");
   const [brandFilter, setBrandFilter] = useState<string>("");
   const [onlyWithReport, setOnlyWithReport] = useState(false);
@@ -114,7 +118,8 @@ export default function CompareWorkbench({
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [compareDataUrl]);
 
-  const paramRows = useMemo(() => (showP1 ? [...p0, ...p1] : p0), [showP1, p0, p1]);
+  // 扩展参数默认且始终展示，不再需要用户手动展开。
+  const paramRows = useMemo(() => [...p0, ...p1], [p0, p1]);
 
   const brands = useMemo(() => {
     const set = new Set<string>();
@@ -140,6 +145,22 @@ export default function CompareWorkbench({
     () => compareData.products.filter((p) => selected.includes(p.canonical_id)),
     [compareData.products, selected]
   );
+
+  const extras = useProductExtras(selectedProducts.map((p) => p.canonical_id));
+
+  // 把“当前完整可用于返回的 URL”写入 sessionStorage，产品详情页的“返回对比”链接
+  // 会优先读取它，这样从这里跳到 /product/[id] 后再点返回，能带着当时的选择状态
+  // 回到本页面（而不是丢回品类默认页）。
+  useEffect(() => {
+    try {
+      const url = new URL(window.location.href);
+      if (selected.length) url.searchParams.set("ids", selected.join(","));
+      else url.searchParams.delete("ids");
+      sessionStorage.setItem(LAST_VIEW_KEY, url.pathname + url.search);
+    } catch {
+      /* sessionStorage 不可用（隐私模式等）时静默忽略，详情页会回退到静态链接 */
+    }
+  }, [selected]);
 
   // 初始化选择：只在挂载时基于首屏切片计算一次，避免完整数据加载完成后
   // 默认选中的产品发生跳变。已选中的产品 id 是否存在于当前 compareData
@@ -201,8 +222,8 @@ export default function CompareWorkbench({
             href={link(`/category/${encodeURIComponent(c.name)}`)}
             className={`rounded-full border px-3 py-1 text-sm no-underline hover:no-underline ${
               c.name === category
-                ? "border-[var(--primary)] bg-[#eef3ff] text-[var(--primary-dark)] font-semibold"
-                : "border-[var(--line)] bg-white text-[var(--muted)]"
+                ? "border-[var(--primary)] bg-[var(--primary-soft)] text-[var(--primary-dark)] font-semibold"
+                : "border-[var(--line)] bg-[var(--surface)] text-[var(--muted)]"
             }`}
           >
             {c.name}
@@ -210,7 +231,7 @@ export default function CompareWorkbench({
         ))}
       </div>
 
-      <div className="rounded-2xl border border-[var(--line)] bg-white p-5 shadow-sm">
+      <div className="rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-5 shadow-[var(--shadow-glass)]">
         <h1 className="m-0 text-2xl font-bold">{category}</h1>
         <p className="mt-1 text-sm text-[var(--muted)]">
           共 {totalCount ?? compareData.products.length} 款产品 · 已选 {selectedProducts.length} 款参与对比
@@ -248,13 +269,6 @@ export default function CompareWorkbench({
             />
             仅有拆解报告
           </label>
-          <button
-            type="button"
-            onClick={() => setShowP1((v) => !v)}
-            className="rounded-xl border border-[var(--line)] bg-white px-3 py-2 text-sm hover:bg-[#f8faff]"
-          >
-            {showP1 ? "收起扩展参数" : "展开扩展参数"}
-          </button>
         </div>
 
         {/* 已选 chips */}
@@ -268,7 +282,7 @@ export default function CompareWorkbench({
               key={p.canonical_id}
               type="button"
               onClick={() => toggleProduct(p.canonical_id)}
-              className="rounded-full bg-[#eef3ff] px-3 py-1 text-sm text-[var(--primary-dark)] hover:bg-[#dce6ff]"
+              className="rounded-full bg-[var(--primary-soft)] px-3 py-1 text-sm text-[var(--primary-dark)] hover:bg-[var(--primary-soft-strong)]"
             >
               {productDisplayName(p)} ×
             </button>
@@ -290,7 +304,7 @@ export default function CompareWorkbench({
         </div>
 
         {/* 产品勾选列表 */}
-        <details className="mt-4 rounded-xl border border-[var(--line)] bg-[#fafbff] p-3" open>
+        <details className="mt-4 rounded-xl border border-[var(--line)] bg-[var(--surface-2)] p-3" open>
           <summary className="cursor-pointer text-sm font-semibold text-[var(--text)]">
             选择要对比的产品（{filteredPool.length} 款可选）
           </summary>
@@ -298,7 +312,7 @@ export default function CompareWorkbench({
             {filteredPool.map((p) => (
               <label
                 key={p.canonical_id}
-                className="flex cursor-pointer items-start gap-2 rounded-lg border border-transparent bg-white px-2 py-1.5 text-sm hover:border-[var(--line)]"
+                className="flex cursor-pointer items-start gap-2 rounded-lg border border-transparent bg-[var(--surface)] px-2 py-1.5 text-sm hover:border-[var(--line)]"
               >
                 <input
                   type="checkbox"
@@ -320,11 +334,11 @@ export default function CompareWorkbench({
 
       {/* 对比表 */}
       {selectedProducts.length > 0 ? (
-        <div className="overflow-x-auto rounded-2xl border border-[var(--line)] bg-white shadow-sm">
+        <div className="overflow-x-auto rounded-2xl border border-[var(--line)] bg-[var(--surface)] shadow-[var(--shadow-glass)]">
           <table className="w-full min-w-[640px] border-collapse text-sm">
             <thead>
-              <tr className="bg-[#f8faff]">
-                <th className="sticky left-0 z-10 min-w-[120px] border-b border-[var(--line)] bg-[#f8faff] px-4 py-3 text-left font-semibold">
+              <tr className="bg-[var(--surface-2)]">
+                <th className="sticky left-0 z-10 min-w-[120px] border-b border-[var(--line)] bg-[var(--surface-2)] px-4 py-3 text-left font-semibold">
                   参数
                 </th>
                 {selectedProducts.map((p) => (
@@ -343,12 +357,41 @@ export default function CompareWorkbench({
               </tr>
             </thead>
             <tbody>
+              <tr className="bg-[var(--surface-2)]">
+                <td className="sticky left-0 z-10 border-b border-[var(--line)] bg-[var(--surface-2)] px-4 py-3 align-top font-medium text-[var(--muted)]">
+                  核心卖点
+                </td>
+                {selectedProducts.map((p) => (
+                  <td
+                    key={p.canonical_id + "-selling-points"}
+                    className="min-w-[220px] border-b border-[var(--line)] px-4 py-3 align-top"
+                  >
+                    <SellingPointsCell state={extras[p.canonical_id]} />
+                  </td>
+                ))}
+              </tr>
+              <tr className="bg-[var(--surface-2)]">
+                <td className="sticky left-0 z-10 border-b border-[var(--line)] bg-[var(--surface-2)] px-4 py-3 align-top font-medium text-[var(--muted)]">
+                  物料清单
+                </td>
+                {selectedProducts.map((p) => (
+                  <td
+                    key={p.canonical_id + "-bom"}
+                    className="min-w-[220px] border-b border-[var(--line)] px-4 py-3 align-top"
+                  >
+                    <BomHighlightsCell
+                      state={extras[p.canonical_id]}
+                      productHref={link(`/product/${p.canonical_id}`)}
+                    />
+                  </td>
+                ))}
+              </tr>
               {paramRows.map((param) => {
                 const meta = labelFor(param);
                 return (
-                  <tr key={param} className="hover:bg-[#fafbff]">
+                  <tr key={param} className="hover:bg-[var(--surface-2)]">
                     <td
-                      className="sticky left-0 z-10 border-b border-[var(--line)] bg-white px-4 py-3 font-medium text-[var(--muted)]"
+                      className="sticky left-0 z-10 border-b border-[var(--line)] bg-[var(--surface)] px-4 py-3 font-medium text-[var(--muted)]"
                       title={meta.why}
                     >
                       {meta.label}
@@ -362,7 +405,7 @@ export default function CompareWorkbench({
                           className="border-b border-[var(--line)] px-4 py-3 align-top"
                         >
                           {missing ? (
-                            <span className="rounded-full bg-[#fff6ed] px-2 py-0.5 text-xs text-[var(--warn)]">
+                            <span className="rounded-full bg-[var(--warn-soft)] px-2 py-0.5 text-xs text-[var(--warn)]">
                               待补充
                             </span>
                           ) : (
@@ -393,7 +436,7 @@ export default function CompareWorkbench({
           </table>
         </div>
       ) : (
-        <div className="rounded-2xl border border-dashed border-[var(--line)] bg-white p-10 text-center text-[var(--muted)]">
+        <div className="rounded-2xl border border-dashed border-[var(--line)] bg-[var(--surface)] p-10 text-center text-[var(--muted)]">
           请在上方勾选至少一款产品，对比表将只显示您选择的产品列。
         </div>
       )}
@@ -401,12 +444,12 @@ export default function CompareWorkbench({
       {/* 证据抽屉 */}
       {drawer && (
         <div
-          className="fixed inset-0 z-[100] flex justify-end bg-black/30"
+          className="fixed inset-0 z-[100] flex justify-end bg-black/60"
           onClick={() => setDrawer(null)}
           role="presentation"
         >
           <div
-            className="h-full w-full max-w-md overflow-y-auto bg-white p-6 shadow-xl"
+            className="h-full w-full max-w-md overflow-y-auto bg-[var(--surface)] p-6 shadow-xl"
             onClick={(e) => e.stopPropagation()}
           >
             <button
@@ -426,7 +469,7 @@ export default function CompareWorkbench({
               {sourceLabel(drawer.product.cells[drawer.param]?.source_layer || "technical")}
             </p>
             {drawer.product.cells[drawer.param]?.evidence && (
-              <blockquote className="mt-4 rounded-xl bg-[#f6f7fb] p-4 text-sm leading-relaxed text-[var(--muted)]">
+              <blockquote className="mt-4 rounded-xl bg-[var(--surface-2)] p-4 text-sm leading-relaxed text-[var(--muted)]">
                 {drawer.product.cells[drawer.param].evidence}
               </blockquote>
             )}

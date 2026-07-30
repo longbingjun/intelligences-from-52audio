@@ -1,23 +1,84 @@
 @import "tailwindcss";
 
+/*
+ * 设计语言：明亮底色的企业级科技感数据看板。
+ * - 白色/浅灰基底 + 极低透明度的蓝紫青光晕，保留一点科技纵深感但不刺眼；
+ * - 卡片用白色表面 + 细描边 + 柔和投影（轻玻璃感），信息密度高的表格保持清晰对比度；
+ * - 主色沿用蓝色系，辅以紫色/青色作为渐变与高光点缀（Logo 渐变字、Hero 渐变banner、
+ *   选中态发光描边等），点到为止，不做整页深色铺底。
+ * 下面这套变量是全站唯一的取色来源，新增视觉元素请优先复用这些变量，
+ * 避免在各页面里再写死颜色。
+ */
 :root {
-  --bg: #f6f7fb;
+  color-scheme: light;
+
+  /* 基底 */
+  --bg: #f5f7fd;
+  --bg-elevated: #ffffff;
+
+  /* 卡片表面：白色为主，靠描边+投影表现层次，而不是靠深色玻璃透明度 */
   --surface: #ffffff;
+  --surface-2: #f2f4fb;
+  --surface-solid: #ffffff;
+  --surface-strong: #eaefff;
+
+  /* 文字 */
   --text: #172033;
   --muted: #667085;
+
+  /* 描边 */
   --line: #e5e7ef;
+  --line-strong: #c7cef2;
+
+  /* 主色与强调色 */
   --primary: #335cff;
   --primary-dark: #1f3fbf;
-  --warn: #b54708;
+  --primary-strong: #2547d1;
+  --primary-soft: rgba(51, 92, 255, 0.08);
+  --primary-soft-strong: rgba(51, 92, 255, 0.16);
+  --accent: #7c3aed;
+  --accent-cyan: #0891b2;
+
+  /* 语义色 */
+  --warn: #b45309;
+  --warn-soft: #fff3e0;
   --success: #067647;
+  --success-soft: #dcfce7;
+  --chip-bg: #eef1f6;
+
+  /* 阴影与光效：浅色柔和投影，交互态用发光描边点缀科技感 */
+  --shadow-glass: 0 20px 45px -28px rgba(23, 32, 68, 0.16);
+  --glow-primary: 0 0 0 1px rgba(51, 92, 255, 0.22), 0 8px 22px rgba(51, 92, 255, 0.16);
 }
 
 body {
   margin: 0;
   font-family: "Microsoft YaHei", "PingFang SC", "Segoe UI", sans-serif;
-  background: var(--bg);
   color: var(--text);
   line-height: 1.6;
+  min-height: 100vh;
+  background-color: var(--bg);
+  background-image:
+    radial-gradient(1100px 560px at 12% -12%, rgba(51, 92, 255, 0.07), transparent 60%),
+    radial-gradient(900px 520px at 112% 8%, rgba(124, 58, 237, 0.05), transparent 55%),
+    radial-gradient(820px 480px at 45% 115%, rgba(8, 145, 178, 0.045), transparent 60%);
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+
+* {
+  scrollbar-color: var(--line-strong) transparent;
+}
+
+input,
+select,
+textarea {
+  accent-color: var(--primary);
+}
+
+::selection {
+  background: var(--primary-soft-strong);
+  color: var(--text);
 }
 
 @layer base {
@@ -30,6 +91,31 @@ body {
   }
 }
 
+/* 渐变文字：用于 Logo / 强调标题 */
+.gradient-text {
+  background: linear-gradient(135deg, #2547d1 0%, #7c3aed 55%, #0891b2 100%);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+/* Hero 渐变面板：首页/拆解列表等大标题区块复用，蓝紫渐变 banner + 光晕描边 */
+.hero-panel {
+  position: relative;
+  background-image: linear-gradient(135deg, #2547d1 0%, #335cff 45%, #7c3aed 100%);
+  box-shadow:
+    0 30px 60px -30px rgba(51, 92, 255, 0.45),
+    inset 0 1px 0 rgba(255, 255, 255, 0.18);
+  overflow: hidden;
+}
+.hero-panel::after {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background-image: radial-gradient(600px 260px at 85% -10%, rgba(255, 255, 255, 0.16), transparent 60%);
+  pointer-events: none;
+}
+
 /* Nav pills: active state must beat global link color */
 header nav a.nav-link {
   text-decoration: none;
@@ -39,4 +125,5 @@ header nav a.nav-link:hover {
 }
 header nav a.nav-link--active {
   color: #fff;
+  box-shadow: var(--glow-primary);
 }

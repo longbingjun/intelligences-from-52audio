@@ -1,33 +1,9 @@
-export const SELLING_POINT_TAG_COLORS: Record<string, { bg: string; text: string }> = {
-  "\u964d\u566a": { bg: "#e0e7ff", text: "#3730a3" },
-  "\u5f00\u653e\u4f69\u6234": { bg: "#e0f2f1", text: "#0f766e" },
-  "\u7a7a\u95f4\u97f3\u9891": { bg: "#fce7f3", text: "#be185d" },
-  "\u957f\u7eed\u822a": { bg: "#dcfce7", text: "#15803d" },
-  "\u6e38\u620f\u4f4e\u5ef6\u8fdf": { bg: "#fef3c7", text: "#b45309" },
-  "\u97f3\u8d28\u8ba4\u8bc1": { bg: "#fef9c3", text: "#a16207" },
-  "\u8212\u9002\u4f69\u6234": { bg: "#f3e8ff", text: "#7c3aed" },
-  "\u9632\u6c34\u9632\u5c18": { bg: "#e0f2fe", text: "#0369a1" },
-  "\u65d7\u8230\u5b9a\u4f4d": { bg: "#ffe4e6", text: "#be123c" },
-  "\u5176\u4ed6": { bg: "#f1f5f9", text: "#475569" },
-};
-
-export function sellingPointTagStyle(tag: string) {
-  const key = (tag || "").trim() || "\u5176\u4ed6";
-  return SELLING_POINT_TAG_COLORS[key] || SELLING_POINT_TAG_COLORS["\u5176\u4ed6"];
-}
-
-export function collectSellingPointTags(sp: { tag?: string; tags?: string[] }): string[] {
-  const seen = new Set<string>();
-  const out: string[] = [];
-  for (const raw of [sp.tag, ...(sp.tags || [])]) {
-    const t = (raw || "").trim();
-    if (!t || seen.has(t)) continue;
-    seen.add(t);
-    out.push(t);
-  }
-  if (!out.length) out.push("\u5176\u4ed6");
-  return out;
-}
+// \u5356\u70b9\u6807\u7b7e\u914d\u8272\u7edf\u4e00\u4ece sellingPointTags.ts \u53d6\uff0c\u907f\u514d\u4e0e\u8be5\u6587\u4ef6\u91cd\u590d\u5b9a\u4e49\u3002
+export {
+  SELLING_POINT_TAG_COLORS,
+  sellingPointTagStyle,
+  collectSellingPointTags,
+} from "./sellingPointTags";
 
 export type UnboxModuleInput = {
   description?: string;
@@ -115,16 +91,31 @@ export const UNBOX_MODULE_COLORS: Record<
   string,
   { bg: string; text: string; border: string; bar: string }
 > = {
-  "\u5305\u88c5": { bg: "#fff3e0", text: "#b45309", border: "#ffe1b0", bar: "#f59e0b" },
-  "\u5145\u7535\u76d2": { bg: "#eef3ff", text: "#1f3fbf", border: "#c7d7fe", bar: "#335cff" },
-  "\u8033\u673a": { bg: "#f3e8ff", text: "#7c3aed", border: "#ddd6fe", bar: "#8b5cf6" },
+  "\u5305\u88c5": {
+    bg: "#fff3e0",
+    text: "#b45309",
+    border: "#ffe1b0",
+    bar: "#f59e0b",
+  },
+  "\u5145\u7535\u76d2": {
+    bg: "#eef3ff",
+    text: "#1f3fbf",
+    border: "#c7d6ff",
+    bar: "#335cff",
+  },
+  "\u8033\u673a": {
+    bg: "#f3e8ff",
+    text: "#7c3aed",
+    border: "#ddc9ff",
+    bar: "#a78bfa",
+  },
 };
 
 export function unboxModuleStyle(title: string) {
   return UNBOX_MODULE_COLORS[title] || {
     bg: "#f1f5f9",
     text: "#475569",
-    border: "#e5e7ef",
-    bar: "#64748b",
+    border: "#e2e8f0",
+    bar: "#94a3b8",
   };
 }
