@@ -1,0 +1,886 @@
+{
+  "id": "284558",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/284558.html",
+  "title": "SANAG塞那S8S AI 2开放式耳机",
+  "brand": "SANAG塞那",
+  "model": "S8S AI 2",
+  "category": "开放式耳机",
+  "published_at": "2026-07-29",
+  "author": "Wen5",
+  "summary": "在开放式耳机市场，sanag塞那以丰富的系列产品和高速的产品迭代布局市场，并获得了不俗的销量。此次将要拆解的S […]",
+  "captured_at": "2026-07-30T04:15:21+00:00",
+  "data_completeness": 0.76,
+  "views": {
+    "market": {
+      "brand": "SANAG塞那",
+      "model": "S8S AI 2",
+      "category": "开放式耳机",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "在音频体验方面，SANAG塞那S8S AI 2开放式耳机搭载10.8mm双磁路发声单元",
+          "tag": "其他",
+          "tags": [],
+          "evidence": {
+            "value": "在音频体验方面，SANAG塞那S8S AI 2开放式耳机搭载10.8mm双磁路发声单元",
+            "confidence": 0.67,
+            "source_type": "text",
+            "source_text": "在音频体验方面，SANAG塞那S8S AI 2开放式耳机搭载10.8mm双磁路发声单元"
+          }
+        },
+        {
+          "text": "支持「专利全景音增强」，通过耳部校准适配用户耳道，提供动态优化立体声与降噪",
+          "tag": "其他",
+          "tags": [],
+          "evidence": {
+            "value": "支持「专利全景音增强」，通过耳部校准适配用户耳道，提供动态优化立体声与降噪",
+            "confidence": 0.67,
+            "source_type": "text",
+            "source_text": "支持「专利全景音增强」，通过耳部校准适配用户耳道，提供动态优化立体声与降噪"
+          }
+        },
+        {
+          "text": "支持DSP动态补偿算法，提供澎湃低音",
+          "tag": "其他",
+          "tags": [],
+          "evidence": {
+            "value": "支持DSP动态补偿算法，提供澎湃低音",
+            "confidence": 0.67,
+            "source_type": "text",
+            "source_text": "支持DSP动态补偿算法，提供澎湃低音"
+          }
+        },
+        {
+          "text": "支持「专利声波聚焦技术」，降低漏音，保护用户隐私",
+          "tag": "其他",
+          "tags": [],
+          "evidence": {
+            "value": "支持「专利声波聚焦技术」，降低漏音，保护用户隐私",
+            "confidence": 0.67,
+            "source_type": "text",
+            "source_text": "支持「专利声波聚焦技术」，降低漏音，保护用户隐私"
+          }
+        },
+        {
+          "text": "据官方介绍，相较于普通喇叭，在有限的尺寸下，磁通量显著提升，大幅提升喇叭灵敏度，降低失真率，使全频段均衡协调",
+          "tag": "其他",
+          "tags": [],
+          "evidence": {
+            "value": "据官方介绍，相较于普通喇叭，在有限的尺寸下，磁通量显著提升，大幅提升喇叭灵敏度，降低失真率，使全频段均衡协调",
+            "confidence": 0.63,
+            "source_type": "text",
+            "source_text": "据官方介绍，相较于普通喇叭，在有限的尺寸下，磁通量显著提升，大幅提升喇叭灵敏度，降低失真率，使全频段均衡协调"
+          }
+        }
+      ],
+      "scenarios": [
+        "运动",
+        "办公",
+        "通话"
+      ],
+      "positioning_summary": "适用运动、办公、通话等场景",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "电池",
+        "充电仓",
+        "主板/PCBA",
+        "麦克风",
+        "喇叭单元",
+        "天线",
+        "降噪系统"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "英集芯IP5528",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "英集芯IP5528",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上搭载NJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示等多功能，负责内置电池的充放电管理和充电盒整机控制。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Bluetrum中科蓝讯",
+          "model": "Bluetrum中科蓝讯BT8972F",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8972F",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载WEL旭航诚3.7V/39mAh锂电池，采用了10.8mm双磁路动圈喇叭，内置2颗瑞勤电子的MEMS麦克风，主控芯片采用Bluetrum中科蓝讯BT8972F蓝牙音频SoC，锂电保护IC采用WINSEMI稳先微WSDF1330A芯片。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "WINSEMI稳先微",
+          "model": "WINSEMI稳先微WSDF1330A",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF1330A",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载WEL旭航诚3.7V/39mAh锂电池，采用了10.8mm双磁路动圈喇叭，内置2颗瑞勤电子的MEMS麦克风，主控芯片采用Bluetrum中科蓝讯BT8972F蓝牙音频SoC，锂电保护IC采用WINSEMI稳先微WSDF1330A芯片。"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "INJOINIC英集芯",
+          "model": "英集芯IP5528",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "英集芯IP5528",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "主板上搭载NJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示等多功能，负责内置电池的充放电管理和充电盒整机控制。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "WEL旭航诚",
+          "model": "3.7V/400mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/400mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载WEL旭航诚3.7V/400mAh锂电池，配备电池保护板负责电池的过充电、过放电、过电流等保护；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Bluetrum中科蓝讯",
+          "model": "Bluetrum中科蓝讯BT8972F",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Bluetrum中科蓝讯BT8972F",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载WEL旭航诚3.7V/39mAh锂电池，采用了10.8mm双磁路动圈喇叭，内置2颗瑞勤电子的MEMS麦克风，主控芯片采用Bluetrum中科蓝讯BT8972F蓝牙音频SoC，锂电保护IC采用WINSEMI稳先微WSDF1330A芯片。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "WINSEMI稳先微",
+          "model": "WINSEMI稳先微WSDF1330A",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "保护IC",
+          "evidence": {
+            "value": "WINSEMI稳先微WSDF1330A",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载WEL旭航诚3.7V/39mAh锂电池，采用了10.8mm双磁路动圈喇叭，内置2颗瑞勤电子的MEMS麦克风，主控芯片采用Bluetrum中科蓝讯BT8972F蓝牙音频SoC，锂电保护IC采用WINSEMI稳先微WSDF1330A芯片。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "WEL旭航诚",
+          "model": "3.7V/39mAh锂电池",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.7V/39mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载WEL旭航诚3.7V/39mAh锂电池，采用了10.8mm双磁路动圈喇叭，内置2颗瑞勤电子的MEMS麦克风，主控芯片采用Bluetrum中科蓝讯BT8972F蓝牙音频SoC，锂电保护IC采用WINSEMI稳先微WSDF1330A芯片。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载WEL旭航诚3.7V/39mAh锂电池，采用了10.8mm双磁路动圈喇叭，内置2颗瑞勤电子的MEMS麦克风，主控芯片采用Bluetrum中科蓝讯BT8972F蓝牙音频SoC，锂电保护IC采用WINSEMI稳先微WSDF1330A芯片。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "包装盒底部介绍了产品参数信息。名称:蓝牙耳机，型号：A7066，蓝牙版本：V6.0，输入：5V--0.5A，耳机电池容量：39mAh，充电仓电池容量：400mAh。"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "在AI功能方面，塞那S8S AI 2专属APP已接入DeepSeek、字节豆包、文心一言等主流AI大模型，内置AI智脑问答、AI写作助手、AI多语翻译官智能体，支持会议录音、录音转文字、AI会议摘要、面对面翻译、同声传译5大AI会议功能，助力用户高效办公学习。续航上，耳机单次播放时长可达8小时，搭配充电盒综合续航约48小时。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，通过螺丝固定主板，与导线焊接，打胶防护。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "腔体侧边的麦克风拾音孔特写。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "在音频体验方面，SANAG塞那S8S AI 2开放式耳机搭载10.8mm双磁路发声单元，支持「专利全景音增强」，通过耳部校准适配用户耳道，提供动态优化立体声与降噪；支持DSP动态补偿算法，提供澎湃低音；支持「专利声波聚焦技术」，降低漏音，保护用户隐私；支持AI通话降噪，保障清晰通话。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "取出主板，腔体底部设置有蓝牙天线和用于触摸检测的导电布。"
+          }
+        },
+        {
+          "component": "降噪系统",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "降噪系统",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "Bluetrum中科蓝讯BT8972F蓝牙音频SoC，符合蓝牙6.0+BR+EDR+BLE规范，内置32位高性能RISC-V处理器核心，高性能立体声DAC和高性能立体声ADC，支持2通道单端或差分MIC放大器输入，支持灵活的音频均衡器调节，支持双MIC DNN环境噪声消除（ENC），支持神经网络处理单元（NPU），集成PMU。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "SANAG塞那S8S AI 2开放式耳机充电盒外观一览，采用圆润的设计，亮面和磨砂两种工艺拼接。正面盒盖上设计有品牌LOGO，机身上设置指示灯。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "拆掉充电盒盖外壳。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "充电盒底部设置Type-C充电接口和蓝牙配对功能按键。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "取出耳机，座舱内部结构一览，中间设置充电触点。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "英集芯IP5528",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "英集芯IP5528",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "NJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，是一款集成MCU、升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "IP5528",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "IP5528",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "得益于IP5528的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸， 降低BOM成本。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [
+        "包装盒内部配件一览，包括了充电线、产品说明书、APP下载指南和AI权益卡等。"
+      ],
+      "process_hints": [
+        {
+          "value": "座舱底部结构一览，通过螺丝固定主板，与导线焊接，打胶防护。",
+          "evidence": {
+            "value": "座舱底部结构一览，通过螺丝固定主板，与导线焊接，打胶防护。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，通过螺丝固定主板，与导线焊接，打胶防护。"
+          }
+        }
+      ],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/07/2026072911030290.png",
+          "alt": "拆解报告：SANAG塞那S8S AI 2开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上SANAG塞那S8S AI 2开放式耳机的已知核心物料清单，方便大家查阅。 SANAG塞那S8S AI 2开放式耳机在外观方面，充电盒设计圆润，亮面和磨砂两种工艺拼接，呈现不错的质感。耳机采用耳夹式设计，目前市场的主流造型，搭配光滑的腔体结构，佩戴舒适亲肤。 内部结构配置方面，充电盒搭载WEL旭航诚3.7V/400mAh锂电池，配备电池保护板负责电池的过充电、过放电、过电流等保护；主板上搭载NJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示等多功能，负责内置电池的充放电管理和充电盒整机控制。 耳机内部搭载WEL旭航诚3.7V/39mAh锂电池，采用了10.8mm双磁路动圈喇叭，内置2颗瑞勤电子的MEMS麦克风，主控芯片采用Bluetrum中科蓝讯BT8972F蓝牙音频SoC，锂电保护IC采用WINSEMI稳先微WSDF1330A芯片。"
+    },
+    "structure": {
+      "form_factor": "开放式耳机",
+      "earbud_type": "开放",
+      "materials": [],
+      "ip_rating": null,
+      "weight_g": "49.1g",
+      "dimensions": [
+        "在音频体验方面，SANAG塞那S8S AI 2开放式耳机搭载10.8mm双磁路发声单元，支持「专利全景音增强」，通过耳部校准适配用户耳道，提供动态优化立体声与降噪；支持DSP动态补偿算法，提供澎湃低音；支持「专利声波聚焦技术」，降低漏音，保护用户隐私；支持AI通话降噪，保障清晰通话。",
+        "得益于IP5528的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸， 降低BOM成本。",
+        "据官方介绍，相较于普通喇叭，在有限的尺寸下，磁通量显著提升，大幅提升喇叭灵敏度，降低失真率，使全频段均衡协调。"
+      ],
+      "internal_structure": [
+        {
+          "value": "座舱侧边结构一览，中间设置电池单元，下方有为耳机充电的小板。",
+          "evidence": {
+            "value": "座舱侧边结构一览，中间设置电池单元，下方有为耳机充电的小板。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "座舱侧边结构一览，中间设置电池单元，下方有为耳机充电的小板。"
+          }
+        },
+        {
+          "value": "座舱底部结构一览，通过螺丝固定主板，与导线焊接，打胶防护。",
+          "evidence": {
+            "value": "座舱底部结构一览，通过螺丝固定主板，与导线焊接，打胶防护。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，通过螺丝固定主板，与导线焊接，打胶防护。"
+          }
+        },
+        {
+          "value": "取掉主板和电池，为耳机充电的小板结构一览，中间镂空放置磁铁固定耳机。",
+          "evidence": {
+            "value": "取掉主板和电池，为耳机充电的小板结构一览，中间镂空放置磁铁固定耳机。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "取掉主板和电池，为耳机充电的小板结构一览，中间镂空放置磁铁固定耳机。"
+          }
+        },
+        {
+          "value": "腔体侧边的麦克风拾音孔特写。",
+          "evidence": {
+            "value": "腔体侧边的麦克风拾音孔特写。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "腔体侧边的麦克风拾音孔特写。"
+          }
+        },
+        {
+          "value": "另外一侧同样设置有麦克风拾音孔。",
+          "evidence": {
+            "value": "另外一侧同样设置有麦克风拾音孔。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "另外一侧同样设置有麦克风拾音孔。"
+          }
+        },
+        {
+          "value": "在音频体验方面，SANAG塞那S8S AI 2开放式耳机搭载10.8mm双磁路发声单元，支持「专利全景音增强」，通过耳部校准适配用户耳道，提供动态优化立体声与降噪；支持DSP动态补偿算法，提供澎湃低音；支持「专利声波聚焦技术」，降低漏音，保护用户隐私；支持AI通话降噪，保障清晰通话。",
+          "evidence": {
+            "value": "在音频体验方面，SANAG塞那S8S AI 2开放式耳机搭载10.8mm双磁路发声单元，支持「专利全景音增强」，通过耳部校准适配用户耳道，提供动态优化立体声与降噪；支持DSP动态补偿算法，提供澎湃低音；支持「专利声波聚焦技术」，降低漏音，保护用户隐私；支持AI通话降噪，保障清晰通话。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "在音频体验方面，SANAG塞那S8S AI 2开放式耳机搭载10.8mm双磁路发声单元，支持「专利全景音增强」，通过耳部校准适配用户耳道，提供动态优化立体声与降噪；支持DSP动态补偿算法，提供澎湃低音；支持「专利声波聚焦技术」，降低漏音，保护用户隐私；支持AI通话降噪，保障清晰通话。"
+          }
+        },
+        {
+          "value": "沿合模线打开音腔，腔体内部扬声器单元结构一览。",
+          "evidence": {
+            "value": "沿合模线打开音腔，腔体内部扬声器单元结构一览。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "沿合模线打开音腔，腔体内部扬声器单元结构一览。"
+          }
+        },
+        {
+          "value": "取出主板，腔体底部设置有蓝牙天线和用于触摸检测的导电布。",
+          "evidence": {
+            "value": "取出主板，腔体底部设置有蓝牙天线和用于触摸检测的导电布。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "取出主板，腔体底部设置有蓝牙天线和用于触摸检测的导电布。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "座舱底部结构一览，通过螺丝固定主板，与导线焊接，打胶防护。",
+          "evidence": {
+            "value": "座舱底部结构一览，通过螺丝固定主板，与导线焊接，打胶防护。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "座舱底部结构一览，通过螺丝固定主板，与导线焊接，打胶防护。"
+          }
+        }
+      ],
+      "sealing_method": [],
+      "wear_design": [
+        {
+          "value": "此次将要拆解的SANAG塞那S8S AI 2开放式耳机，主打全景音和AI功能，搭配耳夹式舒适稳固佩戴体验，兼顾运动、影音娱乐、办公学习等全场景需求。",
+          "evidence": {
+            "value": "此次将要拆解的SANAG塞那S8S AI 2开放式耳机，主打全景音和AI功能，搭配耳夹式舒适稳固佩戴体验，兼顾运动、影音娱乐、办公学习等全场景需求。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "此次将要拆解的SANAG塞那S8S AI 2开放式耳机，主打全景音和AI功能，搭配耳夹式舒适稳固佩戴体验，兼顾运动、影音娱乐、办公学习等全场景需求。"
+          }
+        },
+        {
+          "value": "我爱音频网此前还拆解过\nSANAG塞那S6S耳夹式开放式耳机\n、\n塞那T51S真无线降噪耳机\n、\n塞那Z50S Pro Max开放式耳机\n、\nSANAG Z50S开放式耳夹款真无线耳机\n、\nSANAG X Pro真无线耳机\n、\nSANAG A5S Pro气传导运动耳机\n，\n塞那M13S Pro Max便携式蓝牙音箱等产品，\n下面再来看看这款产品的详细拆解报告吧~\n一、SANAG塞那S8S AI 2开放式耳机开箱\nSANAG塞那S8S AI 2开放式耳机包装盒设计简约，天地盖结构，顶部仅展示了产品外观。",
+          "evidence": {
+            "value": "我爱音频网此前还拆解过\nSANAG塞那S6S耳夹式开放式耳机\n、\n塞那T51S真无线降噪耳机\n、\n塞那Z50S Pro Max开放式耳机\n、\nSANAG Z50S开放式耳夹款真无线耳机\n、\nSANAG X Pro真无线耳机\n、\nSANAG A5S Pro气传导运动耳机\n，\n塞那M13S Pro Max便携式蓝牙音箱等产品，\n下面再来看看这款产品的详细拆解报告吧~\n一、SANAG塞那S8S AI 2开放式耳机开箱\nSANAG塞那S8S AI 2开放式耳机包装盒设计简约，天地盖结构，顶部仅展示了产品外观。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "我爱音频网此前还拆解过\nSANAG塞那S6S耳夹式开放式耳机\n、\n塞那T51S真无线降噪耳机\n、\n塞那Z50S Pro Max开放式耳机\n、\nSANAG Z50S开放式耳夹款真无线耳机\n、\nSANAG X Pro真无线耳机\n、\nSANAG A5S Pro气传导运动耳机\n，\n塞那M13S Pro Max便携式蓝牙音箱等产品，\n下面再来看看这款产品的详细拆解报告吧~\n一、SANAG塞那S8S AI 2开放式耳机开箱\nSANAG塞那S8S AI 2开放式耳机包装盒设计简约，天地盖结构，顶部仅展示了产品外观。"
+          }
+        },
+        {
+          "value": "包装盒底部设计有模特佩戴场景图，标注有公司信息，以及APP下载二维码。",
+          "evidence": {
+            "value": "包装盒底部设计有模特佩戴场景图，标注有公司信息，以及APP下载二维码。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "包装盒底部设计有模特佩戴场景图，标注有公司信息，以及APP下载二维码。"
+          }
+        },
+        {
+          "value": "SANAG塞那S8S AI 2开放式耳机整体外观一览，耳机采用耳夹式设计，金属漆涂层，富有光泽。",
+          "evidence": {
+            "value": "SANAG塞那S8S AI 2开放式耳机整体外观一览，耳机采用耳夹式设计，金属漆涂层，富有光泽。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "SANAG塞那S8S AI 2开放式耳机整体外观一览，耳机采用耳夹式设计，金属漆涂层，富有光泽。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/07/2026072911030290.png",
+          "alt": "拆解报告：SANAG塞那S8S AI 2开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/07/2026072911023910.jpg",
+          "alt": "拆解报告：SANAG塞那S8S AI 2开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/07/2026072911023852.jpg",
+          "alt": "拆解报告：SANAG塞那S8S AI 2开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/07/2026072911023919.jpg",
+          "alt": "拆解报告：SANAG塞那S8S AI 2开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/07/2026072911024051.jpg",
+          "alt": "拆解报告：SANAG塞那S8S AI 2开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/07/2026072911024032.jpg",
+          "alt": "拆解报告：SANAG塞那S8S AI 2开放式耳机-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "座舱侧边结构一览，中间设置电池单元，下方有为耳机充电的小板。",
+        "座舱底部结构一览，通过螺丝固定主板，与导线焊接，打胶防护。",
+        "取掉主板和电池，为耳机充电的小板结构一览，中间镂空放置磁铁固定耳机。",
+        "腔体侧边的麦克风拾音孔特写。"
+      ],
+      "ip_rating_evidence": null,
+      "weight_evidence": {
+        "value": "49.1g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "SANAG塞那S8S AI 2开放式耳机整机重量约为49.1g，轻巧便携"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "5.2g",
+      "weight_earbud_evidence": {
+        "value": "5.2g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "耳机整机重量约为49.1g，轻巧便携。\n单只耳机重量约为5.2g。\n我爱音"
+      }
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电方式",
+          "value": "英集芯IP5528支持跟随充电功能，可实现充电电压3.2~5.5V范围10mV精细步进调整，能够有效提升15%~20%充电盒电池到耳机电池的转换效率，进而提升15%~20%的TWS耳机综合续航时间。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "英集芯IP5528支持跟随充电功能，可实现充电电压3.2~5.5V范围10mV精细步进调整，能够有效提升15%~20%充电盒电池到耳机电池的转换效率，进而提升15%~20%的TWS耳机综合续航时间。"
+        },
+        {
+          "param": "充电接口",
+          "value": "标配的充电线采用了USB-A to Type-C接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "标配的充电线采用了USB-A to Type-C接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "充电盒底部设置Type-C充电接口和蓝牙配对功能按键。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "充电盒底部设置Type-C充电接口和蓝牙配对功能按键。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C充电母座特写。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充电母座特写。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "充电接口",
+          "value": "USB-A",
+          "unit": "",
+          "brand": "",
+          "model": "USB-A",
+          "confidence": 0.8,
+          "source_ref": "USB-A"
+        },
+        {
+          "param": "标记/认证",
+          "value": "名称:蓝牙耳机，型号：A7066，蓝牙版本：V6.0，输入：5V--0.5A，耳机电池容量：39mAh，充电仓电池容量：400mAh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "名称:蓝牙耳机，型号：A7066，蓝牙版本：V6.0，输入：5V--0.5A，耳机电池容量：39mAh，充电仓电池容量：400mAh。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "盒盖内侧标注有产品参数和认证标识，与外部包装盒上一致。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "盒盖内侧标注有产品参数和认证标识，与外部包装盒上一致。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "我爱音频网使用\nCHARGERLAB POWER-Z KM003C\n对SANAG塞那S8S AI 2开放式耳机进行充电测试，输入功率约为1.90W。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "我爱音频网使用\nCHARGERLAB POWER-Z KM003C\n对SANAG塞那S8S AI 2开放式耳机进行充电测试，输入功率约为1.90W。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "充电盒内置电池标签信息一览，型号：WEL 702030，标称电压：3.7V，额定容量：400mAh 1.48Wh，充电限制电压：4.2V，来自WEL旭航诚。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒内置电池标签信息一览，型号：WEL 702030，标称电压：3.7V，额定容量：400mAh 1.48Wh，充电限制电压：4.2V，来自WEL旭航诚。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "NJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，是一款集成MCU、升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "NJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，是一款集成MCU、升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "得益于IP5528的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸， 降低BOM成本。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "得益于IP5528的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸， 降低BOM成本。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "英集芯IP5528支持跟随充电功能，可实现充电电压3.2~5.5V范围10mV精细步进调整，能够有效提升15%~20%充电盒电池到耳机电池的转换效率，进而提升15%~20%的TWS耳机综合续航时间。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "英集芯IP5528支持跟随充电功能，可实现充电电压3.2~5.5V范围10mV精细步进调整，能够有效提升15%~20%充电盒电池到耳机电池的转换效率，进而提升15%~20%的TWS耳机综合续航时间。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "英集芯IP5528在应用上，只需一个电感实现升降压功能，支持低成本电感和电容。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "英集芯IP5528在应用上，只需一个电感实现升降压功能，支持低成本电感和电容。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5528的同步升压系统提供额定400mA输出电流，转换效率高至93%。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5528的同步升压系统提供额定400mA输出电流，转换效率高至93%。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "英集芯IP5528采用开关充电技术，提供额定1A充电电流，充电效率高至90%。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "英集芯IP5528采用开关充电技术，提供额定1A充电电流，充电效率高至90%。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "IP5528内置12bit ADC，可精确测量电池电压和电流。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "IP5528内置12bit ADC，可精确测量电池电压和电流。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "从产品手册介绍，IP5528还支持输出电压3.2V~5.2V，支持给耳机快充。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "从产品手册介绍，IP5528还支持输出电压3.2V~5.2V，支持给耳机快充。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "耳机内置锂电池型号：WEL 451012，标称电压：3.7V，额定容量：39mAh 0.145Wh，同样来自WEL旭航诚。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "耳机内置锂电池型号：WEL 451012，标称电压：3.7V，额定容量：39mAh 0.145Wh，同样来自WEL旭航诚。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "内部结构配置方面，充电盒搭载WEL旭航诚3.7V/400mAh锂电池，配备电池保护板负责电池的过充电、过放电、过电流等保护；主板上搭载NJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示等多功能，负责内置电池的充放电管理和充电盒整机控制。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "内部结构配置方面，充电盒搭载WEL旭航诚3.7V/400mAh锂电池，配备电池保护板负责电池的过充电、过放电、过电流等保护；主板上搭载NJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池"
+        },
+        {
+          "param": "电池容量",
+          "value": "39",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "39mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "6.0",
+      "codecs": [],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [
+        {
+          "value": "在AI功能方面，塞那S8S AI 2专属APP已接入DeepSeek、字节豆包、文心一言等主流AI大模型，内置AI智脑问答、AI写作助手、AI多语翻译官智能体，支持会议录音、录音转文字、AI会议摘要、面对面翻译、同声传译5大AI会议功能，助力用户高效办公学习。",
+          "evidence": {
+            "value": "在AI功能方面，塞那S8S AI 2专属APP已接入DeepSeek、字节豆包、文心一言等主流AI大模型，内置AI智脑问答、AI写作助手、AI多语翻译官智能体，支持会议录音、录音转文字、AI会议摘要、面对面翻译、同声传译5大AI会议功能，助力用户高效办公学习。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "在AI功能方面，塞那S8S AI 2专属APP已接入DeepSeek、字节豆包、文心一言等主流AI大模型，内置AI智脑问答、AI写作助手、AI多语翻译官智能体，支持会议录音、录音转文字、AI会议摘要、面对面翻译、同声传译5大AI会议功能，助力用户高效办公学习。"
+          }
+        },
+        {
+          "value": "包装盒底部设计有模特佩戴场景图，标注有公司信息，以及APP下载二维码。",
+          "evidence": {
+            "value": "包装盒底部设计有模特佩戴场景图，标注有公司信息，以及APP下载二维码。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "包装盒底部设计有模特佩戴场景图，标注有公司信息，以及APP下载二维码。"
+          }
+        },
+        {
+          "value": "包装盒内部配件一览，包括了充电线、产品说明书、APP下载指南和AI权益卡等。",
+          "evidence": {
+            "value": "包装盒内部配件一览，包括了充电线、产品说明书、APP下载指南和AI权益卡等。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "包装盒内部配件一览，包括了充电线、产品说明书、APP下载指南和AI权益卡等。"
+          }
+        },
+        {
+          "value": "得益于IP5528的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸， 降低BOM成本。",
+          "evidence": {
+            "value": "得益于IP5528的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸， 降低BOM成本。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "得益于IP5528的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸， 降低BOM成本。"
+          }
+        }
+      ],
+      "ota_support": [],
+      "latency_notes": [],
+      "bluetooth_evidence": {
+        "value": "6.0",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙6.0"
+      }
+    }
+  }
+}
