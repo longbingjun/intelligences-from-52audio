@@ -46,7 +46,7 @@ function categoryTagStyle(name: string) {
 
 function FilterChip({ label, onRemove }: { label: string; onRemove: () => void }) {
   return (
-    <span className="inline-flex items-center gap-1.5 rounded-full bg-[#eef3ff] px-3 py-1 text-sm text-[var(--primary-dark)]">
+    <span className="inline-flex items-center gap-1.5 rounded-full bg-[var(--primary-soft)] px-3 py-1 text-sm text-[var(--primary-dark)]">
       {label}
       <button
         type="button"
@@ -159,7 +159,7 @@ export default function ProductBrowser({
       {/* 搜索栏 */}
       <form
         onSubmit={(e) => e.preventDefault()}
-        className="flex flex-wrap gap-3 rounded-2xl border border-[var(--line)] bg-white p-4 shadow-sm"
+        className="flex flex-wrap gap-3 rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-4 shadow-[var(--shadow-glass)]"
       >
         <input
           type="search"
@@ -182,7 +182,7 @@ export default function ProductBrowser({
         </select>
         <button
           type="submit"
-          className="rounded-xl bg-[var(--primary)] px-4 py-2 text-sm font-medium text-white hover:bg-[var(--primary-dark)]"
+          className="rounded-xl bg-[var(--primary)] px-4 py-2 text-sm font-medium text-white hover:bg-[var(--primary-strong)]"
         >
           搜索
         </button>
@@ -191,14 +191,14 @@ export default function ProductBrowser({
       <div className="flex flex-col gap-5 lg:flex-row">
         {/* 侧边栏 */}
         <aside className="shrink-0 lg:w-60">
-          <div className="rounded-2xl border border-[var(--line)] bg-white p-4 shadow-sm">
+          <div className="rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-4 shadow-[var(--shadow-glass)]">
             <button
               type="button"
               onClick={() => setCategoryFilter("")}
               className={`block w-full rounded-lg px-2.5 py-1.5 text-left text-sm font-semibold ${
                 categoryFilter === ""
-                  ? "bg-[#eef3ff] text-[var(--primary-dark)]"
-                  : "text-[var(--text)] hover:bg-[#f8faff]"
+                  ? "bg-[var(--primary-soft)] text-[var(--primary-dark)]"
+                  : "text-[var(--text)] hover:bg-[var(--surface-2)]"
               }`}
             >
               全部产品 ({totalCount})
@@ -211,8 +211,8 @@ export default function ProductBrowser({
                   onClick={() => setCategoryFilter((prev) => (prev === c.name ? "" : c.name))}
                   className={`block w-full rounded-lg px-2.5 py-1.5 text-left text-sm ${
                     categoryFilter === c.name
-                      ? "bg-[#eef3ff] font-semibold text-[var(--primary-dark)]"
-                      : "text-[var(--muted)] hover:bg-[#f8faff]"
+                      ? "bg-[var(--primary-soft)] font-semibold text-[var(--primary-dark)]"
+                      : "text-[var(--muted)] hover:bg-[var(--surface-2)]"
                   }`}
                 >
                   {c.name} ({c.product_count})
@@ -230,8 +230,8 @@ export default function ProductBrowser({
                     onClick={() => toggleBrandFilter(b.name)}
                     className={`rounded-full border px-2.5 py-1 text-xs ${
                       brandFilter === b.name
-                        ? "border-[var(--primary)] bg-[#eef3ff] text-[var(--primary-dark)] font-semibold"
-                        : "border-[var(--line)] bg-white text-[var(--muted)] hover:bg-[#f8faff]"
+                        ? "border-[var(--primary)] bg-[var(--primary-soft)] text-[var(--primary-dark)] font-semibold"
+                        : "border-[var(--line)] bg-[var(--surface)] text-[var(--muted)] hover:bg-[var(--surface-2)]"
                     }`}
                   >
                     {b.name} ({b.count})
@@ -252,8 +252,8 @@ export default function ProductBrowser({
                 onClick={() => toggleBrandFilter(UNKNOWN_BRAND_KEY)}
                 className={`mt-3 block w-fit rounded-full border px-2.5 py-1 text-xs ${
                   brandFilter === UNKNOWN_BRAND_KEY
-                    ? "border-[var(--primary)] bg-[#eef3ff] text-[var(--primary-dark)] font-semibold"
-                    : "border-dashed border-[var(--line)] bg-white text-[var(--muted)] hover:bg-[#f8faff]"
+                    ? "border-[var(--primary)] bg-[var(--primary-soft)] text-[var(--primary-dark)] font-semibold"
+                    : "border-dashed border-[var(--line)] bg-[var(--surface)] text-[var(--muted)] hover:bg-[var(--surface-2)]"
                 }`}
               >
                 未知品牌 ({unknownBrandCount})
@@ -272,7 +272,7 @@ export default function ProductBrowser({
                 return (
                   <section
                     key={slice.category}
-                    className="rounded-2xl border border-[var(--line)] bg-white p-5 shadow-sm"
+                    className="rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-5 shadow-[var(--shadow-glass)]"
                   >
                     <div className="flex flex-wrap items-baseline justify-between gap-2">
                       <h3 className="m-0 flex items-center gap-2 text-lg font-bold">
@@ -297,7 +297,7 @@ export default function ProductBrowser({
                       {slice.products.map((p) => (
                         <div
                           key={p.canonical_id}
-                          className="relative w-56 flex-shrink-0 rounded-2xl border border-[var(--line)] bg-white p-4 shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+                          className="relative w-56 flex-shrink-0 rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-4 shadow-[var(--shadow-glass)] transition hover:-translate-y-0.5 hover:shadow-md"
                         >
                           <label className="absolute right-3 top-3 cursor-pointer">
                             <input
@@ -336,7 +336,7 @@ export default function ProductBrowser({
               })}
             </div>
           ) : (
-            <div className="rounded-2xl border border-[var(--line)] bg-white p-5 shadow-sm">
+            <div className="rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-5 shadow-[var(--shadow-glass)]">
               <div className="flex flex-wrap items-center justify-between gap-2">
                 <div className="flex flex-wrap items-center gap-2">
                   {search.trim() && (
@@ -394,7 +394,7 @@ export default function ProductBrowser({
                   return (
                     <label
                       key={p.canonical_id}
-                      className="flex cursor-pointer items-start gap-2 rounded-lg border border-transparent bg-[#fafbff] px-2 py-1.5 text-sm hover:border-[var(--line)]"
+                      className="flex cursor-pointer items-start gap-2 rounded-lg border border-transparent bg-[var(--surface-2)] px-2 py-1.5 text-sm hover:border-[var(--line)]"
                     >
                       <input
                         type="checkbox"
@@ -427,7 +427,7 @@ export default function ProductBrowser({
       {selected.length > 0 && (
         <>
           <div className="h-20" aria-hidden="true" />
-          <div className="fixed inset-x-0 bottom-0 z-40 border-t border-[var(--line)] bg-white/95 shadow-[0_-4px_16px_rgba(0,0,0,0.08)] backdrop-blur-md">
+          <div className="fixed inset-x-0 bottom-0 z-40 border-t border-[var(--line)] bg-[var(--surface-solid)]/95 shadow-[0_-8px_28px_rgba(0,0,0,0.45)] backdrop-blur-md">
             <div className="mx-auto flex max-w-[1400px] flex-wrap items-center gap-3 px-5 py-3">
               <span className="text-sm font-semibold text-[var(--text)]">已选 {selected.length} 款</span>
               <div className="flex max-h-16 max-w-[45%] flex-wrap gap-1.5 overflow-y-auto">
@@ -436,7 +436,7 @@ export default function ProductBrowser({
                     key={p.canonical_id}
                     type="button"
                     onClick={() => toggleProduct(p.canonical_id)}
-                    className="rounded-full bg-[#eef3ff] px-2.5 py-1 text-xs text-[var(--primary-dark)] hover:bg-[#dce6ff]"
+                    className="rounded-full bg-[var(--primary-soft)] px-2.5 py-1 text-xs text-[var(--primary-dark)] hover:bg-[var(--primary-soft-strong)]"
                   >
                     {productDisplayName(p)} ×
                   </button>
@@ -452,7 +452,7 @@ export default function ProductBrowser({
               <div className="ml-auto flex flex-wrap gap-2">
                 <a
                   href={compareHref}
-                  className="rounded-full bg-[var(--primary)] px-4 py-2 text-sm font-medium text-white no-underline hover:bg-[var(--primary-dark)]"
+                  className="rounded-full bg-[var(--primary)] px-4 py-2 text-sm font-medium text-white no-underline hover:bg-[var(--primary-strong)]"
                 >
                   去对比 {selected.length} 款 →
                 </a>

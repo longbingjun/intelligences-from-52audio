@@ -14,6 +14,11 @@ import {
   unifiedParamRows,
 } from "../lib/types";
 import { withBase } from "../lib/paths";
+import { useProductExtras } from "../lib/productExtras";
+import { BomHighlightsCell, SellingPointsCell } from "./CompareExtrasCells";
+
+/** 记录“上一个对比视图”的完整地址，供产品详情页的“返回对比”链接读取。 */
+const LAST_VIEW_KEY = "cost-compare-last-view";
 
 interface CategoryMeta {
   name: string;
@@ -57,7 +62,6 @@ export default function CrossCategoryCompare({
   const [products, setProducts] = useState<CompareProductWithCategory[]>([]);
   const [loading, setLoading] = useState(false);
   const [loadError, setLoadError] = useState("");
-  const [showP1, setShowP1] = useState(false);
   const [drawer, setDrawer] = useState<{
     product: CompareProductWithCategory;
     param: string;
@@ -82,6 +86,19 @@ export default function CrossCategoryCompare({
     const ids = (params.get("ids") || "").split(",").filter(Boolean);
     setSelectedIds(ids);
   }, []);
+
+  // 把“当前完整可用于返回的 URL”写入 sessionStorage，产品详情页的“返回对比”链接
+  // 会优先读取它，使返回后能带着当时的跨品类选择状态回到本页面。
+  useEffect(() => {
+    try {
+      const url = new URL(window.location.href);
+      if (selectedIds.length) url.searchParams.set("ids", selectedIds.join(","));
+      else url.searchParams.delete("ids");
+      sessionStorage.setItem(LAST_VIEW_KEY, url.pathname + url.search);
+    } catch {
+      /* sessionStorage 不可用（隐私模式等）时静默忽略，详情页会回退到静态链接 */
+    }
+  }, [selectedIds]);
 
   useEffect(() => {
     if (!selectedIds.length) {
@@ -158,10 +175,13 @@ export default function CrossCategoryCompare({
     };
   }, [selectedIds, productIndexUrl, compareDataBaseUrl, categoryByFile]);
 
+  // 扩展参数默认且始终展示，不再需要用户手动展开。
   const paramRows = useMemo(() => {
     const cats = [...new Set(products.map((p) => p.category))];
-    return unifiedParamRows(profiles, cats, showP1);
-  }, [products, profiles, showP1]);
+    return unifiedParamRows(profiles, cats, true);
+  }, [products, profiles]);
+
+  const extras = useProductExtras(products.map((p) => p.canonical_id));
 
   const removeProduct = (id: string) => {
     setSelectedIds((prev) => {
@@ -181,7 +201,7 @@ export default function CrossCategoryCompare({
 
   return (
     <div className="space-y-5">
-      <div className="rounded-2xl border border-[var(--line)] bg-white p-5 shadow-sm">
+      <div className="rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-5 shadow-[var(--shadow-glass)]">
         <h1 className="m-0 text-2xl font-bold">跨品类对比</h1>
         <p className="mt-1 text-sm text-[var(--muted)]">
           支持 TWS、头戴、开放式、骨传导等不同类型产品同表对比；不适用字段显示为「不适用」。
@@ -189,17 +209,10 @@ export default function CrossCategoryCompare({
         <div className="mt-3 flex flex-wrap gap-2">
           <a
             href={link("/")}
-            className="rounded-full border border-[var(--line)] bg-white px-3 py-1 text-sm text-[var(--primary)] no-underline hover:bg-[#f8faff]"
+            className="rounded-full border border-[var(--line)] bg-[var(--surface)] px-3 py-1 text-sm text-[var(--primary)] no-underline hover:bg-[var(--surface-2)]"
           >
             ← 返回首页继续选品
           </a>
-          <button
-            type="button"
-            onClick={() => setShowP1((v) => !v)}
-            className="rounded-xl border border-[var(--line)] bg-white px-3 py-2 text-sm hover:bg-[#f8faff]"
-          >
-            {showP1 ? "收起扩展参数" : "展开扩展参数"}
-          </button>
         </div>
 
         {selectedIds.length > 0 && (
@@ -232,7 +245,7 @@ export default function CrossCategoryCompare({
                   key={p.canonical_id}
                   type="button"
                   onClick={() => removeProduct(p.canonical_id)}
-                  className="inline-flex items-center gap-1.5 rounded-full bg-[#eef3ff] px-3 py-1 text-sm text-[var(--primary-dark)] hover:bg-[#dce6ff]"
+                  className="inline-flex items-center gap-1.5 rounded-full bg-[var(--primary-soft)] px-3 py-1 text-sm text-[var(--primary-dark)] hover:bg-[var(--primary-soft-strong)]"
                 >
                   <span
                     style={{ background: color.bg, color: color.text }}
@@ -249,18 +262,18 @@ export default function CrossCategoryCompare({
       </div>
 
       {selectedIds.length === 0 ? (
-        <div className="rounded-2xl border border-dashed border-[var(--line)] bg-white p-10 text-center text-[var(--muted)]">
+        <div className="rounded-2xl border border-dashed border-[var(--line)] bg-[var(--surface)] p-10 text-center text-[var(--muted)]">
           <p className="m-0">请先在首页勾选要对比的产品，再点击「去对比」。</p>
           <a href={link("/")} className="mt-4 inline-block text-[var(--primary)]">
             前往首页选品 →
           </a>
         </div>
       ) : products.length > 0 ? (
-        <div className="overflow-x-auto rounded-2xl border border-[var(--line)] bg-white shadow-sm">
+        <div className="overflow-x-auto rounded-2xl border border-[var(--line)] bg-[var(--surface)] shadow-[var(--shadow-glass)]">
           <table className="w-full min-w-[640px] border-collapse text-sm">
             <thead>
-              <tr className="bg-[#f8faff]">
-                <th className="sticky left-0 z-10 min-w-[120px] border-b border-[var(--line)] bg-[#f8faff] px-4 py-3 text-left font-semibold">
+              <tr className="bg-[var(--surface-2)]">
+                <th className="sticky left-0 z-10 min-w-[120px] border-b border-[var(--line)] bg-[var(--surface-2)] px-4 py-3 text-left font-semibold">
                   参数
                 </th>
                 {products.map((p) => {
@@ -288,12 +301,41 @@ export default function CrossCategoryCompare({
               </tr>
             </thead>
             <tbody>
+              <tr className="bg-[var(--surface-2)]">
+                <td className="sticky left-0 z-10 border-b border-[var(--line)] bg-[var(--surface-2)] px-4 py-3 align-top font-medium text-[var(--muted)]">
+                  核心卖点
+                </td>
+                {products.map((p) => (
+                  <td
+                    key={p.canonical_id + "-selling-points"}
+                    className="min-w-[220px] border-b border-[var(--line)] px-4 py-3 align-top"
+                  >
+                    <SellingPointsCell state={extras[p.canonical_id]} />
+                  </td>
+                ))}
+              </tr>
+              <tr className="bg-[var(--surface-2)]">
+                <td className="sticky left-0 z-10 border-b border-[var(--line)] bg-[var(--surface-2)] px-4 py-3 align-top font-medium text-[var(--muted)]">
+                  物料清单
+                </td>
+                {products.map((p) => (
+                  <td
+                    key={p.canonical_id + "-bom"}
+                    className="min-w-[220px] border-b border-[var(--line)] px-4 py-3 align-top"
+                  >
+                    <BomHighlightsCell
+                      state={extras[p.canonical_id]}
+                      productHref={link(`/product/${p.canonical_id}`)}
+                    />
+                  </td>
+                ))}
+              </tr>
               {paramRows.map((param) => {
                 const meta = labelFor(param);
                 return (
-                  <tr key={param} className="hover:bg-[#fafbff]">
+                  <tr key={param} className="hover:bg-[var(--surface-2)]">
                     <td
-                      className="sticky left-0 z-10 border-b border-[var(--line)] bg-white px-4 py-3 font-medium text-[var(--muted)]"
+                      className="sticky left-0 z-10 border-b border-[var(--line)] bg-[var(--surface)] px-4 py-3 font-medium text-[var(--muted)]"
                       title={meta.why}
                     >
                       {meta.label}
@@ -322,7 +364,7 @@ export default function CrossCategoryCompare({
                           className="border-b border-[var(--line)] px-4 py-3 align-top"
                         >
                           {missing ? (
-                            <span className="rounded-full bg-[#fff6ed] px-2 py-0.5 text-xs text-[var(--warn)]">
+                            <span className="rounded-full bg-[var(--warn-soft)] px-2 py-0.5 text-xs text-[var(--warn)]">
                               待补充
                             </span>
                           ) : (
@@ -353,23 +395,23 @@ export default function CrossCategoryCompare({
           </table>
         </div>
       ) : loading ? (
-        <div className="rounded-2xl border border-[var(--line)] bg-white p-10 text-center text-[var(--muted)]">
+        <div className="rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-10 text-center text-[var(--muted)]">
           对比数据加载中…
         </div>
       ) : (
-        <div className="rounded-2xl border border-dashed border-[var(--line)] bg-white p-10 text-center text-[var(--muted)]">
+        <div className="rounded-2xl border border-dashed border-[var(--line)] bg-[var(--surface)] p-10 text-center text-[var(--muted)]">
           {loadError || "未能加载所选产品的对比数据。"}
         </div>
       )}
 
       {drawer && (
         <div
-          className="fixed inset-0 z-[100] flex justify-end bg-black/30"
+          className="fixed inset-0 z-[100] flex justify-end bg-black/60"
           onClick={() => setDrawer(null)}
           role="presentation"
         >
           <div
-            className="h-full w-full max-w-md overflow-y-auto bg-white p-6 shadow-xl"
+            className="h-full w-full max-w-md overflow-y-auto bg-[var(--surface)] p-6 shadow-xl"
             onClick={(e) => e.stopPropagation()}
           >
             <button
@@ -391,7 +433,7 @@ export default function CrossCategoryCompare({
               {sourceLabel(drawer.product.cells[drawer.param]?.source_layer || "technical")}
             </p>
             {drawer.product.cells[drawer.param]?.evidence && (
-              <blockquote className="mt-4 rounded-xl bg-[#f6f7fb] p-4 text-sm leading-relaxed text-[var(--muted)]">
+              <blockquote className="mt-4 rounded-xl bg-[var(--surface-2)] p-4 text-sm leading-relaxed text-[var(--muted)]">
                 {drawer.product.cells[drawer.param].evidence}
               </blockquote>
             )}
