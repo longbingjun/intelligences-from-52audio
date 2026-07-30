@@ -50,6 +50,34 @@ OFFICIAL_DOMAIN_HINTS = {
     "vivo": ("vivo.com",),
 }
 
+# Product records commonly use a Chinese distributor/manufacturer name together
+# with the consumer brand (for example ``华米Amazfit``).  Match only explicit,
+# unambiguous aliases so that a brand still has to resolve to a curated official
+# domain before any price can be accepted.
+BRAND_ALIASES = {
+    "amazfit": ("amazfit", "华米"),
+    "anker": ("anker", "安克"),
+    "baseus": ("baseus", "倍思"),
+    "bose": ("bose", "博士"),
+    "huawei": ("huawei", "华为"),
+    "honor": ("honor", "荣耀"),
+    "jbl": ("jbl",),
+    "xiaomi": ("xiaomi", "小米"),
+    "oppo": ("oppo",),
+    "oneplus": ("oneplus", "一加"),
+    "samsung": ("samsung", "三星"),
+    "sony": ("sony", "索尼"),
+    "apple": ("apple", "苹果"),
+    "beats": ("beats",),
+    "sennheiser": ("sennheiser", "森海塞尔"),
+    "shokz": ("shokz", "韶音"),
+    "nothing": ("nothing",),
+    "edifier": ("edifier", "漫步者"),
+    "qcy": ("qcy",),
+    "realme": ("realme", "真我"),
+    "vivo": ("vivo",),
+}
+
 PROMPT = """You are a strict price-evidence auditor. The supplied pages were fetched
 from a known official brand website or official store. Extract a price only if the
 page itself explicitly states a mainland-China official MSRP, suggested retail price,
@@ -61,7 +89,12 @@ If the evidence is insufficient, use null. Return JSON only:
 
 
 def canonical_brand(brand: str) -> str:
-    return "".join(brand.lower().split())
+    """Resolve mixed Chinese/English record labels to an allow-list brand key."""
+    normalised = "".join(brand.lower().split())
+    for brand_key, aliases in BRAND_ALIASES.items():
+        if any(alias in normalised for alias in aliases):
+            return brand_key
+    return normalised
 
 
 def official_domains(product: dict) -> tuple[str, ...]:
