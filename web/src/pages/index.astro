@@ -101,7 +101,7 @@ if (fs.existsSync(productsDataDir)) {
 ---
 
 <BaseLayout title="成本工作台" activeNav="home">
-  <section class="rounded-3xl bg-gradient-to-br from-[#1f3fbf] via-[#335cff] to-[#7357ff] p-8 text-white shadow-lg">
+  <section class="hero-panel rounded-3xl p-8 text-white">
     <p class="m-0 text-sm uppercase tracking-wider opacity-80">Cost Intelligence</p>
     <h1 class="mt-2 mb-2 text-3xl font-bold">竞品成本工作台</h1>
     <p class="m-0 max-w-xl text-base opacity-90">
@@ -111,13 +111,13 @@ if (fs.existsSync(productsDataDir)) {
 
   {
     newestProducts.length > 0 && (
-      <section class="mt-6 rounded-3xl border border-[#ffd9a8] bg-gradient-to-br from-[#fff8ef] via-[#fff3e0] to-[#ffe9cc] p-6 shadow-sm">
+      <section class="mt-6 rounded-3xl border border-[var(--warn)]/25 bg-[var(--surface)] p-6 shadow-[var(--shadow-glass)]">
         <div class="flex flex-wrap items-baseline justify-between gap-2">
-          <h2 class="m-0 flex items-center gap-2 text-xl font-bold text-[#92400e]">
-            <span class="rounded-full bg-[#f59e0b] px-2.5 py-0.5 text-xs font-semibold text-white">NEW</span>
+          <h2 class="m-0 flex items-center gap-2 text-xl font-bold text-[var(--warn)]">
+            <span class="rounded-full bg-[var(--warn)] px-2.5 py-0.5 text-xs font-semibold text-white">NEW</span>
             {currentYear} 最新产品
           </h2>
-          <span class="text-sm text-[#92400e]/80">
+          <span class="text-sm text-[var(--muted)]">
             共 {newestProducts.length} 款 {currentYear} 年新入库产品 · 按最新拆解时间排序
           </span>
         </div>
@@ -125,10 +125,10 @@ if (fs.existsSync(productsDataDir)) {
           {newestProducts.map((p) => (
             <a
               href={withBase(`/product/${p.canonical_id}`)}
-              class="block w-56 flex-shrink-0 rounded-2xl border border-[#ffe1b0] bg-white p-4 no-underline shadow-sm transition hover:-translate-y-0.5 hover:shadow-md"
+              class="block w-56 flex-shrink-0 rounded-2xl border border-[var(--warn)]/20 bg-[var(--surface-2)] p-4 no-underline shadow-[var(--shadow-glass)] transition hover:-translate-y-0.5 hover:border-[var(--warn)]/40"
             >
               <div class="flex items-center justify-between">
-                <span class="rounded-full bg-[#fff3e0] px-2 py-0.5 text-xs font-medium text-[#b45309]">
+                <span class="rounded-full bg-[var(--warn-soft)] px-2 py-0.5 text-xs font-medium text-[var(--warn)]">
                   {p.category}
                 </span>
                 <span class="text-xs text-[var(--muted)]">{p.first_seen}</span>
@@ -143,7 +143,7 @@ if (fs.existsSync(productsDataDir)) {
     )
   }
 
-  <section class="mt-6 rounded-2xl border border-[var(--line)] bg-white p-5 shadow-sm">
+  <section class="mt-6 rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-5 shadow-[var(--shadow-glass)]">
     <h2 class="m-0 text-sm font-semibold text-[var(--muted)]">数据覆盖度</h2>
     <p class="mt-2 mb-0 text-sm text-[var(--text)]">
       报告 {teardown.report_count} 篇 · 视频 {teardown.video_count} 条（已转写 {transcribedCount} 条）·
