@@ -10,14 +10,20 @@ import argparse
 import hashlib
 import json
 import os
+import sys
 from pathlib import Path
 
 import requests
 
+ROOT = Path(__file__).resolve().parent.parent
+sys.path.insert(0, str(ROOT))
 from core.paths import products_dir
 
 API_URL = "https://api.deepseek.com/chat/completions"
 MODEL = "deepseek-v4-flash"
+# 产品主数据会在 build_products 中重建，不能把增量判断只存在产品 JSON 内。
+# 独立缓存会随 data/ 一起提交，因此每日 workflow 与本地构建都能复用。
+CACHE_DIR = ROOT / "data" / "enrich" / "llm_summaries"
 SYSTEM_PROMPT = """你是消费电子产品研究编辑。根据提供的中文卖点原文，生成不超过 6 条结构化摘要。
 只可使用原文明确支持的事实，不能补充规格、结论或营销判断。合并重复点；每条 18-48 个中文字符，清晰具体。
 必须只返回 JSON 对象，格式：{\"summary\":[{\"tag\":\"分类标签\",\"text\":\"精炼卖点\"}]}。"""
@@ -72,32 +78,50 @@ def main() -> None:
         print(json.dumps({"skipped": True, "reason": "DEEPSEEK_API_KEY is not set"}, ensure_ascii=False))
         return
 
-    updated = skipped = failed = 0
+    updated = cache_hits = failed = 0
+    CACHE_DIR.mkdir(parents=True, exist_ok=True)
     paths = [p for p in sorted(products_dir().glob("*.json")) if p.name != "index.json"]
     for path in paths:
-        if args.limit and updated + skipped + failed >= args.limit:
+        if args.limit and updated + cache_hits + failed >= args.limit:
             break
         product = json.loads(path.read_text(encoding="utf-8"))
         market = product.get("market") or {}
         points = [p for p in market.get("selling_points", []) if isinstance(p, dict) and str(p.get("text", "")).strip()]
         if not points:
-            skipped += 1
+            cache_hits += 1
             continue
         fingerprint = source_hash(points)
-        meta = market.get("selling_points_summary_meta") or {}
-        if not args.force and meta.get("source_hash") == fingerprint and market.get("selling_points_summary"):
-            skipped += 1
+        cache_path = CACHE_DIR / f"{product['canonical_id']}.json"
+        cached: dict = {}
+        if cache_path.exists():
+            try:
+                cached = json.loads(cache_path.read_text(encoding="utf-8"))
+            except json.JSONDecodeError:
+                cached = {}
+
+        # 命中独立缓存：不调用 API，只把已有摘要重新注入本轮重建的产品文件。
+        if not args.force and cached.get("source_hash") == fingerprint and cached.get("summary"):
+            market["selling_points_summary"] = cached["summary"]
+            market["selling_points_summary_meta"] = {"model": cached.get("model", MODEL), "source_hash": fingerprint}
+            product["market"] = market
+            path.write_text(json.dumps(product, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            cache_hits += 1
             continue
         try:
-            market["selling_points_summary"] = summarize(api_key, points)
+            summary = summarize(api_key, points)
+            market["selling_points_summary"] = summary
             market["selling_points_summary_meta"] = {"model": MODEL, "source_hash": fingerprint}
             product["market"] = market
             path.write_text(json.dumps(product, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
+            cache_path.write_text(
+                json.dumps({"model": MODEL, "source_hash": fingerprint, "summary": summary}, ensure_ascii=False, indent=2) + "\n",
+                encoding="utf-8",
+            )
             updated += 1
         except Exception as exc:  # 单个产品失败不阻断整批构建
             failed += 1
             print(f"[warn] {path.stem}: {exc}")
-    print(json.dumps({"updated": updated, "skipped": skipped, "failed": failed, "model": MODEL}, ensure_ascii=False))
+    print(json.dumps({"api_calls": updated, "cache_hits": cache_hits, "failed": failed, "model": MODEL}, ensure_ascii=False))
 
 
 if __name__ == "__main__":
