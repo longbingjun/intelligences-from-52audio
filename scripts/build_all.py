@@ -38,6 +38,7 @@ def main() -> None:
 
     stats: dict = {}
     stats["build_products"] = _run("build_products.py")
+    stats["summarize_selling_points"] = _run("summarize_selling_points.py")
     if not args.skip_prune:
         stats["prune_non_headphones"] = _run("prune_non_headphones.py")
     if not args.skip_unboxing:
