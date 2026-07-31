@@ -9,9 +9,13 @@ from pathlib import Path
 
 from core.cost_extract import compute_cost_completeness, extract_cost_fields, pick_best_report
 from core.paths import channel_enrich_dir, official_enrich_dir, unboxing_enrich_dir
-from sources.audio52.lexicon import BRAND_ALIASES
+from sources.audio52.lexicon import BRAND_ALIASES, PRODUCT_TYPE_SUFFIXES
 
 _SLUG_RE = re.compile(r"[^a-z0-9]+")
+_NON_SKU_MODEL_MARKERS = (
+    "拆解汇总", "拆解对比", "还能怎么做", "给你答案", "重点全在", "款产品",
+)
+_GENERIC_MODELS = {"earbuds", "earphone", "earphones", "headphones", "headset", "buds", "unknown", "brand"}
 
 
 def normalize_brand(brand: str) -> str:
@@ -45,6 +49,10 @@ def normalize_model(model: str, brand: str = "") -> str:
             if alias and text.lower().startswith(alias.lower()):
                 text = text[len(alias) :].strip(" -·、，,")
                 break
+    for suffix in sorted(PRODUCT_TYPE_SUFFIXES, key=len, reverse=True):
+        if suffix and text.lower().endswith(suffix.lower()):
+            text = text[: -len(suffix)].strip(" -.,，")
+            break
     return text or (model or "").strip()
 
 
@@ -79,6 +87,26 @@ def guess_brand_from_text(text: str) -> str:
             if best is None or candidate < best:
                 best = candidate
     return best[2] if best else ""
+
+
+def identity_review_reason(brand: str, model: str, title: str = "") -> str:
+    """Return a reason when the identity is unsafe for automatic price lookup."""
+    normalized_brand = normalize_brand(brand)
+    normalized_model = normalize_model(model, normalized_brand)
+    combined = f"{title} {normalized_model}".lower()
+    if not normalized_brand:
+        return "brand_missing"
+    if not normalized_model:
+        return "model_missing"
+    if normalized_model.lower() in _GENERIC_MODELS:
+        return "model_generic"
+    if any(marker in combined for marker in _NON_SKU_MODEL_MARKERS):
+        return "not_a_single_sku"
+    return ""
+
+
+def is_identity_searchable(brand: str, model: str, title: str = "") -> bool:
+    return not identity_review_reason(brand, model, title)
 
 
 def load_official_enrich(canonical_id: str) -> dict | None:

@@ -19,7 +19,13 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
-from core.products import canonical_product_id, normalize_brand, normalize_model  # noqa: E402
+from core.products import (  # noqa: E402
+    canonical_product_id,
+    identity_review_reason,
+    is_identity_searchable,
+    normalize_brand,
+    normalize_model,
+)
 import re
 
 from sources.channel.jd_client import fetch_jd_price, pick_best_hit, search_jd  # noqa: E402
@@ -292,6 +298,43 @@ def enrich_one(canonical_id: str, hints: dict) -> dict:
         h = hints.get(canonical_id) or {}
         brand = h.get("brand", "")
         model = h.get("model", "")
+
+    reason = identity_review_reason(brand, model)
+    if not is_identity_searchable(brand, model):
+        # Do not turn a broad title (for example just “Earbuds”) into a price
+        # lookup query.  It is recorded for review instead of risking a
+        # plausible-looking but unrelated channel or official price.
+        channel = {
+            "canonical_id": canonical_id,
+            "price_cny": None,
+            "msrp_cny": None,
+            "reference_price_cny": None,
+            "price_source": "unresolved",
+            "channel_url": "",
+            "sku_id": None,
+            "shop_hint": "",
+            "search_query": f"{brand} {model}".strip(),
+            "price_note": "",
+            "live_error": f"identity_needs_review:{reason}",
+            "captured_at": datetime.now(timezone.utc).date().isoformat(),
+            "source_layer": "channel",
+        }
+        official = {
+            "canonical_id": canonical_id,
+            "official_url": "",
+            "vmall_url": "",
+            "product_name": f"{brand} {model}".strip(),
+            "msrp_cny": None,
+            "tagline": "",
+            "selling_points": [],
+            "highlights": [],
+            "search_query": channel["search_query"],
+            "fetch_error": f"identity_needs_review:{reason}",
+            "captured_at": channel["captured_at"],
+            "source_layer": "official",
+        }
+        write_enrich(canonical_id, channel, official)
+        return {"canonical_id": canonical_id, "channel": channel, "official": official}
 
     channel = enrich_channel(canonical_id, brand, model, hints)
 
