@@ -12,9 +12,10 @@ import math
 import os
 import time
 import argparse
+import base64
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
-from urllib.parse import quote_plus, urlsplit
+from urllib.parse import parse_qs, quote_plus, urlsplit
 
 import requests
 from bs4 import BeautifulSoup
@@ -30,6 +31,7 @@ MAX_PAGE_CHARS = 6_000
 OFFICIAL_DOMAIN_HINTS = {
     "amazfit": ("amazfit.com", "zepp.com"),
     "anker": ("anker.com", "soundcore.com"),
+    "soundcore": ("cn.soundcore.com", "soundcore.com"),
     "baseus": ("baseus.com",),
     "bose": ("bose.cn", "bose.com"),
     "huawei": ("huawei.com", "vmall.com"),
@@ -38,6 +40,7 @@ OFFICIAL_DOMAIN_HINTS = {
     "xiaomi": ("mi.com", "xiaomi.com"),
     "oppo": ("oppo.com",),
     "oneplus": ("oneplus.com",),
+    "philips": ("philips.com.cn", "philips.com"),
     "samsung": ("samsung.com",),
     "sony": ("sony.com",),
     "apple": ("apple.com",),
@@ -46,10 +49,14 @@ OFFICIAL_DOMAIN_HINTS = {
     "shokz": ("shokz.com",),
     "nothing": ("nothing.tech",),
     "edifier": ("edifier.com",),
-    "qcy": ("qcy.com",),
+    "qcy": ("qcy.com.cn", "qcy.com"),
     "realme": ("realme.com",),
-    "vivo": ("vivo.com",),
+    "vivo": ("vivo.com.cn", "vivo.com"),
 }
+
+# Mainland-China pages should be considered before generic global domains when
+# both are owned by the same brand.
+OFFICIAL_DOMAIN_HINTS["sony"] = ("sony.com.cn", "sonystyle.com.cn", "sony.com")
 
 # Product records commonly use a Chinese distributor/manufacturer name together
 # with the consumer brand (for example ``华米Amazfit``).  Match only explicit,
@@ -58,6 +65,7 @@ OFFICIAL_DOMAIN_HINTS = {
 BRAND_ALIASES = {
     "amazfit": ("amazfit", "华米"),
     "anker": ("anker", "安克"),
+    "soundcore": ("soundcore", "声阔"),
     "baseus": ("baseus", "倍思"),
     "bose": ("bose", "博士"),
     "huawei": ("huawei", "华为"),
@@ -66,6 +74,7 @@ BRAND_ALIASES = {
     "xiaomi": ("xiaomi", "小米"),
     "oppo": ("oppo",),
     "oneplus": ("oneplus", "一加"),
+    "philips": ("philips", "飞利浦"),
     "samsung": ("samsung", "三星"),
     "sony": ("sony", "索尼"),
     "apple": ("apple", "苹果"),
@@ -106,6 +115,22 @@ def is_official_url(url: str, domains: tuple[str, ...]) -> bool:
     host = urlsplit(url).hostname or ""
     host = host.lower().removeprefix("www.")
     return any(host == domain or host.endswith("." + domain) for domain in domains)
+
+
+def resolve_bing_result_url(url: str) -> str:
+    """Decode Bing's ``ck/a`` outbound-link wrapper when it is present."""
+    parsed = urlsplit(url)
+    if not parsed.hostname or not parsed.hostname.lower().endswith("bing.com"):
+        return url
+    token = parse_qs(parsed.query).get("u", [""])[0]
+    if not token.startswith("a1"):
+        return url
+    try:
+        encoded = token[2:] + "=" * (-len(token[2:]) % 4)
+        decoded = base64.urlsafe_b64decode(encoded).decode("utf-8")
+    except (ValueError, UnicodeDecodeError):
+        return url
+    return decoded if decoded.startswith(("https://", "http://")) else url
 
 
 def _recent_priority(product: dict) -> int:
@@ -218,7 +243,7 @@ def official_evidence(product: dict) -> tuple[list[dict], list[str]]:
 
     seen, evidence, notes = set(), [], []
     for hit in raw_hits:
-        url = hit["url"]
+        url = resolve_bing_result_url(hit["url"])
         if url in seen or not is_official_url(url, domains):
             continue
         seen.add(url)
