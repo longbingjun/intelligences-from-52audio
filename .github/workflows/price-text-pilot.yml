@@ -3,7 +3,7 @@ name: Price text pilot (evidence only)
 on:
   workflow_dispatch:
   push:
-    branches: [agent/price-text-pilot]
+    branches: [agent/price-text-pilot, agent/product-priority-pilot]
 
 permissions:
   contents: read

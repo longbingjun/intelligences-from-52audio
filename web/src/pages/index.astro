@@ -2,7 +2,7 @@
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ProductBrowser from "../components/ProductBrowser";
 import { withBase } from "../lib/paths";
-import type { IndexProduct } from "../lib/types";
+import { researchPriorityRank, type IndexProduct } from "../lib/types";
 import fs from "node:fs";
 import path from "node:path";
 
@@ -28,7 +28,10 @@ const allProducts = productIndex.products as IndexProduct[];
 const currentYear = String(new Date().getFullYear());
 const newestProducts = allProducts
   .filter((p) => (p.first_seen || "").startsWith(currentYear))
-  .sort((a, b) => (b.latest_published || "").localeCompare(a.latest_published || ""))
+  .sort((a, b) =>
+    researchPriorityRank(a) - researchPriorityRank(b) ||
+    (b.latest_published || "").localeCompare(a.latest_published || "")
+  )
   .slice(0, 10);
 
 // 品牌聚合（构建期算好，发现层侧边栏直接用，不用等客户端拉完整索引再算一遍）：
@@ -56,6 +59,7 @@ const initialSlices = categories.map((c) => {
     .filter((p) => p.category === c.name)
     .sort(
       (a, b) =>
+        researchPriorityRank(a) - researchPriorityRank(b) ||
         (b.cost_completeness ?? 0) - (a.cost_completeness ?? 0) ||
         (b.report_count ?? 0) - (a.report_count ?? 0)
     )

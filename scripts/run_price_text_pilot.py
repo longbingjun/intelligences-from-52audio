@@ -11,7 +11,8 @@ import json
 import math
 import os
 import time
-from datetime import datetime, timezone
+import argparse
+from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import quote_plus, urlsplit
 
@@ -107,7 +108,34 @@ def is_official_url(url: str, domains: tuple[str, ...]) -> bool:
     return any(host == domain or host.endswith("." + domain) for domain in domains)
 
 
+def _recent_priority(product: dict) -> int:
+    """Use the persisted UI priority when present, with a safe date fallback."""
+    rank = product.get("priority_rank")
+    if isinstance(rank, int):
+        return rank
+    first_seen = str(product.get("first_seen") or "")[:10]
+    try:
+        observed = datetime.strptime(first_seen, "%Y-%m-%d").date()
+    except ValueError:
+        return 3
+    return 2 if observed >= date.today() - timedelta(days=730) else 3
+
+
 def missing_price_products(limit: int = 20) -> list[dict]:
+    priority_by_id: dict[str, dict] = {}
+    index_path = ROOT / "data" / "products" / "index.json"
+    try:
+        index_payload = json.loads(index_path.read_text(encoding="utf-8"))
+        priority_by_id = {
+            str(item.get("canonical_id")): item
+            for item in index_payload.get("products", [])
+            if isinstance(item, dict) and item.get("canonical_id")
+        }
+    except (OSError, json.JSONDecodeError):
+        # The date fallback keeps research safe even before the priority builder
+        # has produced an index for the first time.
+        pass
+
     products = []
     for path in sorted((ROOT / "data" / "products").glob("*.json")):
         if path.name == "index.json":
@@ -124,8 +152,22 @@ def missing_price_products(limit: int = 20) -> list[dict]:
             and not product["canonical_id"].startswith("unknown--")
             and len(product["model"]) <= 48
         ):
-            products.append({"sku": product["canonical_id"], "brand": product["brand"], "model": product["model"]})
-    return products[:limit]
+            priority = priority_by_id.get(product["canonical_id"], {})
+            products.append({
+                "sku": product["canonical_id"],
+                "brand": product["brand"],
+                "model": product["model"],
+                "first_seen": priority.get("first_seen", product.get("first_seen", "")),
+                "priority_rank": priority.get("priority_rank"),
+                "research_priority": priority.get("research_priority", ""),
+            })
+
+    # Official-price research deliberately spends its limited request budget on
+    # recent products first.  Historical products remain in the data set, but do
+    # not displace current candidates unless the user asks for them explicitly.
+    products.sort(key=lambda item: item.get("first_seen", ""), reverse=True)
+    products.sort(key=_recent_priority)
+    return [item for item in products if _recent_priority(item) <= 2][:limit]
 
 
 def bing_search(query: str) -> list[dict]:
@@ -248,9 +290,12 @@ def extract_official_price(api_key: str, product: dict, evidence: list[dict]) ->
 
 
 def main() -> None:
+    parser = argparse.ArgumentParser(description="Research recent products with traceable official-price evidence")
+    parser.add_argument("--limit", type=int, default=20, help="maximum recent products to research")
+    args = parser.parse_args()
     api_key = os.environ["DEEPSEEK_API_KEY"]
     records = []
-    for product in missing_price_products():
+    for product in missing_price_products(args.limit):
         try:
             evidence, notes = official_evidence(product)
             extraction = extract_official_price(api_key, product, evidence) if evidence else {
