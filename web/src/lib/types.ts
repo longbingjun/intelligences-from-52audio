@@ -42,6 +42,25 @@ export interface IndexProduct {
   latest_published?: string;
   cost_completeness?: number;
   bom_row_count?: number;
+  research_priority?: "official_current" | "recent_pending_check" | "historical_reference";
+  priority_rank?: number;
+  official_page_status?: "found" | "not_found" | "unknown";
+  official_page_url?: string;
+}
+
+export function researchPriorityRank(product: IndexProduct): number {
+  return product.priority_rank ?? 3;
+}
+
+export function researchPriorityLabel(product: IndexProduct): string {
+  switch (product.research_priority) {
+    case "official_current":
+      return "官网可查";
+    case "recent_pending_check":
+      return "近两年待核验";
+    default:
+      return "历史参考";
+  }
 }
 
 export interface CompareProfiles {

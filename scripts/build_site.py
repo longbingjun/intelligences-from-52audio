@@ -216,8 +216,11 @@ def _enrich_row_from_report(row: dict, report: dict | None, product: dict | None
     price_layer = snap.get("price_layer") or row.get("price_layer") or ""
     if price is not None:
         price_txt = f"¥{price}"
-        if price_layer == "channel":
-            price_txt += " (渠道)"
+        source_label = snap.get("price_source_label") or {
+            "channel": "渠道价", "technical": "技术文章价", "official": "官方价",
+        }.get(price_layer, "")
+        if source_label:
+            price_txt += f"（{source_label}）"
         enriched["price_cny"] = cell(price_txt, layer=price_layer or "technical")
     else:
         enriched["price_cny"] = cell("")
@@ -908,8 +911,11 @@ def build_product_digest_pages() -> None:
         price_txt = "待补充"
         if snap.get("price_cny") is not None:
             price_txt = f"¥{snap['price_cny']}"
-            if snap.get("price_layer") == "channel":
-                price_txt += " (渠道)"
+            source_label = snap.get("price_source_label") or {
+                "channel": "渠道价", "technical": "技术文章价", "official": "官方价",
+            }.get(snap.get("price_layer"), "")
+            if source_label:
+                price_txt += f"（{source_label}）"
         channel_url = snap.get("channel_url") or ""
         channel_link = (
             f' <a href="{esc(channel_url)}" target="_blank" rel="noopener">渠道页</a>'

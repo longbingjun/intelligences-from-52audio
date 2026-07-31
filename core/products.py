@@ -9,9 +9,13 @@ from pathlib import Path
 
 from core.cost_extract import compute_cost_completeness, extract_cost_fields, pick_best_report
 from core.paths import channel_enrich_dir, official_enrich_dir, unboxing_enrich_dir
-from sources.audio52.lexicon import BRAND_ALIASES
+from sources.audio52.lexicon import BRAND_ALIASES, PRODUCT_TYPE_SUFFIXES
 
 _SLUG_RE = re.compile(r"[^a-z0-9]+")
+_NON_SKU_MODEL_MARKERS = (
+    "拆解汇总", "拆解对比", "还能怎么做", "给你答案", "重点全在", "款产品",
+)
+_GENERIC_MODELS = {"earbuds", "earphone", "earphones", "headphones", "headset", "buds", "unknown", "brand"}
 
 
 def normalize_brand(brand: str) -> str:
@@ -45,6 +49,10 @@ def normalize_model(model: str, brand: str = "") -> str:
             if alias and text.lower().startswith(alias.lower()):
                 text = text[len(alias) :].strip(" -·、，,")
                 break
+    for suffix in sorted(PRODUCT_TYPE_SUFFIXES, key=len, reverse=True):
+        if suffix and text.lower().endswith(suffix.lower()):
+            text = text[: -len(suffix)].strip(" -.,，")
+            break
     return text or (model or "").strip()
 
 
@@ -79,6 +87,26 @@ def guess_brand_from_text(text: str) -> str:
             if best is None or candidate < best:
                 best = candidate
     return best[2] if best else ""
+
+
+def identity_review_reason(brand: str, model: str, title: str = "") -> str:
+    """Return a reason when the identity is unsafe for automatic price lookup."""
+    normalized_brand = normalize_brand(brand)
+    normalized_model = normalize_model(model, normalized_brand)
+    combined = f"{title} {normalized_model}".lower()
+    if not normalized_brand:
+        return "brand_missing"
+    if not normalized_model:
+        return "model_missing"
+    if normalized_model.lower() in _GENERIC_MODELS:
+        return "model_generic"
+    if any(marker in combined for marker in _NON_SKU_MODEL_MARKERS):
+        return "not_a_single_sku"
+    return ""
+
+
+def is_identity_searchable(brand: str, model: str, title: str = "") -> bool:
+    return not identity_review_reason(brand, model, title)
 
 
 def load_official_enrich(canonical_id: str) -> dict | None:
@@ -265,15 +293,40 @@ def merge_cost_snapshot(
     official = load_official_enrich(canonical_id)
     price_cny = None
     price_layer = None
-    if channel and channel.get("price_cny") is not None:
-        price_cny = channel.get("price_cny")
-        price_layer = "channel"
-    elif official and official.get("msrp_cny") is not None:
+    price_source_label = ""
+    price_source_url = ""
+    price_evidence = ""
+    # 对比页的价格口径固定为品牌官方售价/建议零售价。渠道价通常是
+    # 实时促销或成交价，不能覆盖已核验的官方定价。
+    if official and official.get("msrp_cny") is not None:
         price_cny = official.get("msrp_cny")
         price_layer = "official"
+        official_labels = {
+            "official_product_page": "官网价",
+            "brand_official_news": "官方新闻价",
+            "brand_official_social_post": "官方社区价",
+            "brand_announcement_report": "发布报道价",
+        }
+        price_source_label = official_labels.get(
+            str(official.get("price_evidence_kind") or ""), "官方价"
+        )
+        price_source_url = str(
+            official.get("price_source_url")
+            or official.get("official_url")
+            or official.get("vmall_url")
+            or ""
+        )
+        price_evidence = str(official.get("price_evidence") or "")
+    elif channel and channel.get("price_cny") is not None:
+        price_cny = channel.get("price_cny")
+        price_layer = "channel"
+        price_source_label = "渠道价"
+        price_source_url = str(channel.get("channel_url") or "")
+        price_evidence = str(channel.get("price_note") or "")
     elif market_price is not None:
         price_cny = market_price
         price_layer = "technical"
+        price_source_label = "技术文章价"
 
     layer_refs: dict[str, list[str]] = {
         "technical": [f"report:{r['id']}" for r in reports] + [f"video:{vid}" for vid in video_ids],
@@ -298,6 +351,9 @@ def merge_cost_snapshot(
         "bom_row_count": len(bom_table),
         "price_cny": price_cny,
         "price_layer": price_layer,
+        "price_source_label": price_source_label,
+        "price_source_url": price_source_url,
+        "price_evidence": price_evidence,
         "channel_url": (channel or {}).get("channel_url"),
         "sales_hint": (channel or {}).get("sales_hint"),
         "data_completeness": compute_cost_completeness(fields) if fields else 0.0,

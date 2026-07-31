@@ -57,7 +57,7 @@ jobs:
 
       - name: 可选预处理（搜索索引 / 产品库 / 矩阵 / 信源标签）
         run: |
-          for script in build_search_index build_products summarize_selling_points build_matrix tag_source_layer; do
+          for script in build_search_index build_products build_identity_review build_product_priority summarize_selling_points build_matrix tag_source_layer; do
             if [ -f "scripts/${script}.py" ]; then
               echo "Running scripts/${script}.py"
               if [ "$script" = "summarize_selling_points" ]; then

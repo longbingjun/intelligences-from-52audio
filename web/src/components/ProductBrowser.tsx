@@ -1,6 +1,6 @@
 import { useEffect, useMemo, useState } from "react";
 import type { IndexProduct } from "../lib/types";
-import { productDisplayName } from "../lib/types";
+import { productDisplayName, researchPriorityLabel, researchPriorityRank } from "../lib/types";
 import { withBase } from "../lib/paths";
 
 const UNKNOWN_BRAND_KEY = "__unknown__";
@@ -118,7 +118,10 @@ export default function ProductBrowser({
         if (brand !== brandFilter) return false;
       }
       return true;
-    });
+    }).sort((a, b) =>
+      researchPriorityRank(a) - researchPriorityRank(b) ||
+      (b.latest_published || "").localeCompare(a.latest_published || "")
+    );
   }, [fullIndex, search, categoryFilter, brandFilter]);
 
   // 已选产品可能来自默认卡片行（只有切片数据）或已加载的完整索引，两边都要能查到，
@@ -321,8 +324,11 @@ export default function ProductBrowser({
                               </span>
                               <span className="text-xs text-[var(--muted)]">{p.first_seen || ""}</span>
                             </div>
-                            <div className="mt-2 font-semibold text-[var(--text)]">
+                            <div className="mt-2 flex items-center gap-1.5 font-semibold text-[var(--text)]">
                               {productDisplayName(p)}
+                              <span className="rounded-full bg-[var(--surface-2)] px-1.5 py-0.5 text-[10px] font-medium text-[var(--muted)]">
+                                {researchPriorityLabel(p)}
+                              </span>
                             </div>
                           </a>
                         </div>
@@ -410,6 +416,9 @@ export default function ProductBrowser({
                           {p.category}
                         </span>
                         <span className="font-medium">{productDisplayName(p)}</span>
+                        <span className="ml-1 rounded-full bg-[var(--surface)] px-1.5 py-0.5 text-[10px] text-[var(--muted)]">
+                          {researchPriorityLabel(p)}
+                        </span>
                         {!p.report_count && (
                           <span className="ml-1 text-xs text-[var(--warn)]">无报告</span>
                         )}
