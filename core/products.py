@@ -265,12 +265,14 @@ def merge_cost_snapshot(
     official = load_official_enrich(canonical_id)
     price_cny = None
     price_layer = None
-    if channel and channel.get("price_cny") is not None:
-        price_cny = channel.get("price_cny")
-        price_layer = "channel"
-    elif official and official.get("msrp_cny") is not None:
+    # 对比页的价格口径固定为品牌官方售价/建议零售价。渠道价通常是
+    # 实时促销或成交价，不能覆盖已核验的官方定价。
+    if official and official.get("msrp_cny") is not None:
         price_cny = official.get("msrp_cny")
         price_layer = "official"
+    elif channel and channel.get("price_cny") is not None:
+        price_cny = channel.get("price_cny")
+        price_layer = "channel"
     elif market_price is not None:
         price_cny = market_price
         price_layer = "technical"
