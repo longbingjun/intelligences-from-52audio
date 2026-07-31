@@ -22,6 +22,12 @@ from core.paths import official_enrich_dir, products_index_path, write_products_
 
 
 RECENT_WINDOW_DAYS = 730
+TRUSTED_PRICE_EVIDENCE_KINDS = {
+    "official_product_page",
+    "brand_official_news",
+    "brand_official_social_post",
+    "brand_announcement_report",
+}
 
 
 def parse_product_date(value: object) -> date | None:
@@ -33,40 +39,53 @@ def parse_product_date(value: object) -> date | None:
         return None
 
 
-def official_page_status(canonical_id: str) -> tuple[str, str]:
-    """Return a conservative official-page state and its traceable URL."""
+def official_page_status(canonical_id: str) -> tuple[str, str, bool]:
+    """Return page state, a traceable URL, and whether its price is verified.
+
+    A live product page alone does not verify a price.  Conversely, a quoted
+    launch price from a traceable official announcement is enough to verify a
+    product even when the listing page has later been removed.
+    """
     path = official_enrich_dir() / f"{canonical_id}.json"
     if not path.exists():
-        return "unknown", ""
+        return "unknown", "", False
     try:
         payload = json.loads(path.read_text(encoding="utf-8"))
     except (OSError, json.JSONDecodeError):
-        return "unknown", ""
+        return "unknown", "", False
 
-    url = str(payload.get("official_url") or payload.get("vmall_url") or "").strip()
+    url = str(
+        payload.get("official_url")
+        or payload.get("vmall_url")
+        or payload.get("price_source_url")
+        or ""
+    ).strip()
     error = str(payload.get("fetch_error") or "").lower()
+    has_price = payload.get("msrp_cny") is not None
+    evidence_kind = str(payload.get("price_evidence_kind") or "").strip()
+    verified_price = has_price and (
+        evidence_kind in TRUSTED_PRICE_EVIDENCE_KINDS
+        or (not evidence_kind and bool(payload.get("official_url") or payload.get("vmall_url")))
+    )
     if not url:
-        return "not_found", ""
+        return "not_found", "", verified_price
     # A known 404 is not evidence that the product is still present.  Rate-limit
     # errors still retain the official URL, so they remain reviewable rather than
     # being incorrectly downgraded to not-found.
-    if "404" in error or "not found" in error:
-        return "not_found", url
-    return "found", url
+    if "404" in error or "not found" in error or "mismatch" in error or "ambiguous" in error:
+        return "not_found", "", False
+    return "found", url, verified_price
 
 
-def priority_for(product: dict, *, cutoff: date) -> tuple[str, int, str, str]:
+def priority_for(product: dict, *, cutoff: date) -> tuple[str, int, str, str, bool]:
     first_seen = parse_product_date(product.get("first_seen"))
     canonical_id = str(product.get("canonical_id") or "")
-    status, url = official_page_status(canonical_id)
-    # Do not promote records whose entity resolution is still unknown: an
-    # unrelated official URL must never make an ambiguous product top priority.
-    identity_is_resolved = bool(product.get("brand")) and not canonical_id.startswith("unknown--")
-    if first_seen is not None and first_seen >= cutoff and identity_is_resolved and status == "found":
-        return "official_current", 1, status, url
+    status, url, verified_price = official_page_status(canonical_id)
+    if first_seen is not None and first_seen >= cutoff and verified_price:
+        return "official_current", 1, status, url, True
     if first_seen is not None and first_seen >= cutoff:
-        return "recent_pending_check", 2, status, url
-    return "historical_reference", 3, status, url
+        return "recent_pending_check", 2, status, url, False
+    return "historical_reference", 3, status, url, verified_price
 
 
 def build_priority_index(today: date | None = None) -> dict:
@@ -86,18 +105,19 @@ def build_priority_index(today: date | None = None) -> dict:
     for product in products:
         if not isinstance(product, dict):
             continue
-        priority, rank, presence, url = priority_for(product, cutoff=cutoff)
+        priority, rank, presence, url, verified_price = priority_for(product, cutoff=cutoff)
         product["research_priority"] = priority
         product["priority_rank"] = rank
         product["official_page_status"] = presence
         product["official_page_url"] = url
+        product["price_verification_status"] = "verified" if verified_price else "pending"
         counts[priority] += 1
 
     payload["priority_generated_at"] = datetime.now().astimezone().isoformat(timespec="seconds")
     payload["priority_policy"] = {
         "recent_window_days": RECENT_WINDOW_DAYS,
         "recent_since": cutoff.isoformat(),
-        "rule": "official-current first; recent products pending official-page verification second; historical reference last",
+        "rule": "traceable official or launch-price evidence first; recent products without verified price second; historical reference last",
     }
     payload["priority_counts"] = counts
     write_products_index(payload)

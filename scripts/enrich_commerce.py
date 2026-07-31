@@ -94,8 +94,14 @@ def enrich_channel(canonical_id: str, brand: str, model: str, hints: dict) -> di
         product_id=zol_hint.get("product_id"),
         product_url=zol_hint.get("product_url"),
     )
+    # Generic names such as "Earbuds" must never match merely because another
+    # product title contains that common word.  They need a much stronger
+    # identifier match than a normal explicit model number.
+    generic_models = {"earbuds", "earphone", "earphones", "headphones", "headset", "buds"}
+    normalized_model = re.sub(r"[^a-z0-9]+", "", (model or "").lower())
+    min_title_score = 4.0 if normalized_model in generic_models else 1.5
     # ZOL 详情页产品名与目标型号不一致时，丢弃 ZOL 结果（避免错链到牧士 MC2 等）
-    if zol_info.product_name and score_product_title(zol_info.product_name, brand, model) < 1.5:
+    if zol_info.product_name and score_product_title(zol_info.product_name, brand, model) < min_title_score:
         zol_info.fetch_error = "zol_product_mismatch"
         zol_info.reference_price_cny = None
         zol_info.channel_quotes = []

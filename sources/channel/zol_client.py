@@ -201,7 +201,10 @@ def pick_best_zol_hit(hits: list[ZolSearchHit], brand: str, model: str) -> ZolSe
         h.score = score_product_title(h.title, brand, model)
     ranked = sorted(hits, key=lambda x: x.score, reverse=True)
     best = ranked[0]
-    if best.score < 1.5:
+    normalized_model = re.sub(r"[^a-z0-9]+", "", (model or "").lower())
+    generic_models = {"earbuds", "earphone", "earphones", "headphones", "headset", "buds"}
+    min_score = 4.0 if normalized_model in generic_models else 1.5
+    if best.score < min_score:
         return None
     return best
 
