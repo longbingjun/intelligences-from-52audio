@@ -59,9 +59,12 @@ const weightCards = isMultiPartWeight
     ]
   : [["重量", snap.weight_g]];
 
+const priceLabel =
+  snap.price_source_label ||
+  ({ official: "官方价", channel: "渠道价", technical: "技术文章价" }[snap.price_layer] ?? "");
 const priceTxt =
   snap.price_cny != null
-    ? `¥${snap.price_cny}${snap.price_layer === "channel" ? " (渠道)" : ""}`
+    ? `¥${snap.price_cny}${priceLabel ? `（${priceLabel}）` : ""}`
     : "待补充";
 
 type UnboxModule = {

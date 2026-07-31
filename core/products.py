@@ -265,15 +265,40 @@ def merge_cost_snapshot(
     official = load_official_enrich(canonical_id)
     price_cny = None
     price_layer = None
-    if channel and channel.get("price_cny") is not None:
-        price_cny = channel.get("price_cny")
-        price_layer = "channel"
-    elif official and official.get("msrp_cny") is not None:
+    price_source_label = ""
+    price_source_url = ""
+    price_evidence = ""
+    # 对比页的价格口径固定为品牌官方售价/建议零售价。渠道价通常是
+    # 实时促销或成交价，不能覆盖已核验的官方定价。
+    if official and official.get("msrp_cny") is not None:
         price_cny = official.get("msrp_cny")
         price_layer = "official"
+        official_labels = {
+            "official_product_page": "官网价",
+            "brand_official_news": "官方新闻价",
+            "brand_official_social_post": "官方社区价",
+            "brand_announcement_report": "发布报道价",
+        }
+        price_source_label = official_labels.get(
+            str(official.get("price_evidence_kind") or ""), "官方价"
+        )
+        price_source_url = str(
+            official.get("price_source_url")
+            or official.get("official_url")
+            or official.get("vmall_url")
+            or ""
+        )
+        price_evidence = str(official.get("price_evidence") or "")
+    elif channel and channel.get("price_cny") is not None:
+        price_cny = channel.get("price_cny")
+        price_layer = "channel"
+        price_source_label = "渠道价"
+        price_source_url = str(channel.get("channel_url") or "")
+        price_evidence = str(channel.get("price_note") or "")
     elif market_price is not None:
         price_cny = market_price
         price_layer = "technical"
+        price_source_label = "技术文章价"
 
     layer_refs: dict[str, list[str]] = {
         "technical": [f"report:{r['id']}" for r in reports] + [f"video:{vid}" for vid in video_ids],
@@ -298,6 +323,9 @@ def merge_cost_snapshot(
         "bom_row_count": len(bom_table),
         "price_cny": price_cny,
         "price_layer": price_layer,
+        "price_source_label": price_source_label,
+        "price_source_url": price_source_url,
+        "price_evidence": price_evidence,
         "channel_url": (channel or {}).get("channel_url"),
         "sales_hint": (channel or {}).get("sales_hint"),
         "data_completeness": compute_cost_completeness(fields) if fields else 0.0,

@@ -79,13 +79,13 @@ def _layer_badges(layer_refs: dict) -> str:
     return "、".join(badges)
 
 
-def _price_display(price: float | None, layer: str | None) -> str:
+def _price_display(price: float | None, layer: str | None, source_label: str | None = None) -> str:
     if price is None:
         return ""
     txt = f"¥{price}"
-    if layer == "channel":
-        return f"{txt} (渠道)"
-    return txt
+    fallback_labels = {"channel": "渠道价", "technical": "技术文章价", "official": "官方价"}
+    label = source_label or fallback_labels.get(layer or "", "")
+    return f"{txt}（{label}）" if label else txt
 
 
 def _market_fields(product: dict) -> dict:
@@ -154,6 +154,8 @@ def build_matrix() -> dict:
             "model": product.get("model", ""),
             "price_cny": price,
             "price_layer": price_layer,
+            "price_source_label": snap.get("price_source_label"),
+            "price_evidence": snap.get("price_evidence"),
             "main_chip": snap.get("main_chip") or (fields.get("main_chip") or {}).get("value"),
             "pmic": snap.get("pmic_case") or (fields.get("pmic") or {}).get("value"),
             "battery_ear": snap.get("battery_ear") or (fields.get("battery_ear") or {}).get("value"),
@@ -199,16 +201,22 @@ def build_matrix() -> dict:
             for param in COMPARE_PARAM_ROWS:
                 val = row.get(param)
                 if param == "price_cny":
-                    display = _price_display(val, row.get("price_layer"))
+                    display = _price_display(val, row.get("price_layer"), row.get("price_source_label"))
                 elif param == "bom_rows":
                     display = str(val) if val is not None else ""
                 else:
                     display = str(val) if val else ""
                 field_ev = (row.get("cost_fields") or {}).get(param, {})
+                if param == "price_cny":
+                    evidence = row.get("price_evidence") or ""
+                    source_layer = row.get("price_layer") or "technical"
+                else:
+                    evidence = field_ev.get("evidence", "") if isinstance(field_ev, dict) else ""
+                    source_layer = field_ev.get("source_layer", "technical") if isinstance(field_ev, dict) else "technical"
                 cells[param] = {
                     "value": display,
-                    "evidence": field_ev.get("evidence", "") if isinstance(field_ev, dict) else "",
-                    "source_layer": field_ev.get("source_layer", "technical") if isinstance(field_ev, dict) else "technical",
+                    "evidence": evidence,
+                    "source_layer": source_layer,
                 }
             compare_cols.append(
                 {

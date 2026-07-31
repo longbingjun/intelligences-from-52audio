@@ -31,8 +31,8 @@
     "ip_rating": "",
     "bluetooth": "5.4",
     "bom_row_count": 18,
-    "price_cny": null,
-    "price_layer": null,
+    "price_cny": 999,
+    "price_layer": "official",
     "channel_url": null,
     "sales_hint": null,
     "data_completeness": 1.0,
@@ -301,7 +301,9 @@
       "video:251419"
     ],
     "channel": [],
-    "official": [],
+    "official": [
+      "official:xiaomi--pro"
+    ],
     "unboxing": [
       "unboxing:249958"
     ],
@@ -574,36 +576,6 @@
     "positioning_summary": "详细功能配置上，搭载开放式五单元声学系统，协同配合实现高解析力和防漏音；升级LHDC 5.0超清传输协议，真实还原音频细节，并获得了Hi-Res金标认证；升级独立空间音频，360°头部追踪环绕音效，让观影、游戏更具临场感。",
     "launch_date": null,
     "best_report_id": "249958",
-    "best_video_id": null,
-    "selling_points_summary": [
-      {
-        "tag": "开放佩戴",
-        "text": "仿生人体耳廓造型，三点支撑，佩戴贴合不压耳。"
-      },
-      {
-        "tag": "声学系统",
-        "text": "开放式五单元声学系统，协同配合实现高解析力和防漏音。"
-      },
-      {
-        "tag": "音质认证",
-        "text": "升级LHDC 5.0超清传输协议，获Hi-Res金标认证。"
-      },
-      {
-        "tag": "空间音频",
-        "text": "升级独立空间音频，360°头部追踪环绕音效。"
-      },
-      {
-        "tag": "调音合作",
-        "text": "联合哈曼金耳朵调音，音质更出色。"
-      },
-      {
-        "tag": "功能升级",
-        "text": "新增独立录音2.0、AI智能翻译等功能，使用场景更丰富。"
-      }
-    ],
-    "selling_points_summary_meta": {
-      "model": "deepseek-v4-flash",
-      "source_hash": "cc89624470d897dac6af7c6b9e035eed315ea0d3be70b88e32b0ee16becb339b"
-    }
+    "best_video_id": null
   }
 }
