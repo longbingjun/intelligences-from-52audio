@@ -13,6 +13,7 @@ import os
 import time
 import argparse
 import base64
+import re
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import parse_qs, quote_plus, urlsplit
@@ -230,16 +231,29 @@ def extract_page_text(url: str) -> tuple[str, str]:
     return title, soup.get_text(" ", strip=True)[:MAX_PAGE_CHARS]
 
 
+def model_queries(product: dict) -> list[str]:
+    """Generate safe exact-model alternatives without relying on CJK query text."""
+    model = str(product.get("model") or "").strip()
+    canonical = str(product.get("sku") or "").partition("--")[2].replace("-", " ")
+    ascii_model = re.sub(r"[^A-Za-z0-9 .+_-]+", " ", model)
+    queries = [model, ascii_model.strip(), canonical.strip()]
+    seen: set[str] = set()
+    return [query for query in queries if len(query) >= 3 and not (query.lower() in seen or seen.add(query.lower()))]
+
+
 def official_evidence(product: dict) -> tuple[list[dict], list[str]]:
     domains = official_domains(product)
     if not domains:
         return [], ["brand has no curated official-domain allow-list entry"]
 
-    # Official site / official store / official newsroom are searched first.
-    query_suffix = "官网 官方商城 新品发布 首发价 建议零售价 售价"
+    # Use ASCII-only query terms here.  The product model remains quoted, while
+    # avoiding Windows-console encoding changes that previously made the Bing
+    # query unreadable in Actions.
+    query_suffix = "official product store launch price MSRP China"
     raw_hits: list[dict] = []
     for domain in domains:
-        raw_hits.extend(bing_search(f'site:{domain} "{product["model"]}" {query_suffix}'))
+        for model in model_queries(product):
+            raw_hits.extend(bing_search(f'site:{domain} "{model}" {query_suffix}'))
 
     seen, evidence, notes = set(), [], []
     for hit in raw_hits:
@@ -263,7 +277,7 @@ def official_evidence(product: dict) -> tuple[list[dict], list[str]]:
         if len(evidence) >= 5:
             break
     if not evidence and not notes:
-        notes.append("no fetchable official-site result for exact model")
+        notes.append(f"no fetchable official-site result for model; search_hits={len(raw_hits)}")
     return evidence, notes
 
 
