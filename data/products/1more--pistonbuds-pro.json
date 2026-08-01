@@ -1,0 +1,532 @@
+{
+  "canonical_id": "1more--pistonbuds-pro",
+  "brand": "1MORE万魔",
+  "model": "PistonBuds Pro",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "182992"
+  ],
+  "video_ids": [
+    "190278"
+  ],
+  "related_report_ids": [
+    "182992"
+  ],
+  "related_video_ids": [
+    "190278"
+  ],
+  "first_seen": "2023-11-28",
+  "latest_published": "2024-02-21",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "SS881",
+    "pmic_case": "",
+    "battery_ear": "410 mAh",
+    "battery_case": "4V/10mAh锂电池",
+    "speaker": "振膜动圈",
+    "materials": "硅胶",
+    "weight_g": "40.0g",
+    "weight_case_g": "",
+    "weight_earbud_g": "4.5g",
+    "ip_rating": "IPX5",
+    "bluetooth": "5.3",
+    "bom_row_count": 18,
+    "price_cny": null,
+    "price_layer": null,
+    "price_source_label": "",
+    "price_source_url": "",
+    "price_evidence": "",
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "182992",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SS881",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "MCU",
+      "evidence": {
+        "value": "SS881",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，采用了SinhMicro昇生微电子SS881A POWER MCU，LPS微源半导体LP5305过压过流保护IC和LP6261A 1uA低功耗升压芯片，以及WillSemi韦尔半导体ESD56241D12 TVS保护管等。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "4V/10mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "4V/10mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置了高远电池410mAh可充电锂聚合物电池，配备有一体化锂电保护IC，负责电池的过充电、过放电、短路等保护。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB1562",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB1562",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片为AIROHA达发（络达）AB1562A系列蓝牙音频SoC，支持蓝牙5.3，具有超低功耗，稳定蓝牙连接及主动降噪功能，支持Airoha降噪算法，整合锂电池充电控制器及电源管理电路。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "振膜动圈",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "振膜动圈",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了10mm航钛金属复合振膜动圈单元，单耳内置两颗MEMS麦克风拾音；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "2",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了10mm航钛金属复合振膜动圈单元，单耳内置两颗MEMS麦克风拾音；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒底部印有产品参数信息和认证标识。型号：EC302，输入：5V-0.5A，输出：5V-0.25A，电池容量：410mAh。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒内部物品有耳机、充电盒、耳塞、充电线、APP下载二维码和产品说明书。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，通过螺丝固定主板，电池导线与主板焊接。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机外侧外观一览，背部设计有高亮的CD纹理铭牌装饰，与充电盒呼应。机身侧边设置有麦克风拾音孔。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "1MORE万魔PistonBuds Pro真无线耳机（活塞豆降噪版）是万魔旗下一款主打降噪功能的产品，搭载了1MORE QuietMax双馈主动降噪方案，最大降噪深度可达38dB；支持通透模式，能够随时获取外界信息；支持AI通话降噪功能，左、右耳四麦，搭配AI通话降噪算法，有效过滤环境噪音，提供清晰通话；还户外抗风噪模式，应对骑行、跑步，以及大风天气等场景。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "活塞豆降噪版搭载了全音域航钛金属发声单元，人声明亮、细节饱满，并由欧洲录音室校准技术厂牌Sonarworks为耳机定制了12组风格音效，为用户提供高度还原的丰富聆听体验；活塞豆降噪版还支持90ms低延时，提供声画同步、自然流畅的游戏体验；续航方面，支持7.5h/30h（ANC OFF）/5h/20h（ANC ON）的续航时间，支持快速充电，充电5分钟，可听歌1小时。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "后腔底部还设置有蓝牙天线和触摸检测传感器，露铜连接到主板。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "撬开卡扣式固定的充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "万魔PistonBuds Pro充电盒体积小巧，采用了黑色磨砂质感，正面设置有一颗指示灯用于反馈蓝牙配对及充电状态。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机内侧的充电触点特写。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身背面设置有USB-C充电接口和蓝牙配对功能按键。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SS881",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SS881",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "SinhMicro昇生微电子SS881A POWER MCU，是一颗集成了充放电管理的AD型Flash单片机，集成了电源管理单元和充电管理单元，提供全软件实时可配置的充电电压电流设置。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB1562",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB1562",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "AIROHA达发（络达）AB1562AE蓝牙音频SoC。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 1MORE万魔PistonBuds Pro真无线降噪耳机在外观方面，体积小巧，整机重量仅为40g，外出使用便携；机身采用磨砂质感，搭配高亮铭牌装饰，观感时尚简约又不缺乏独特性。豆状的入耳式耳机重量仅为4.5g，配备有多种尺寸的硅胶耳塞供个性化选择，拥有着非常舒适的佩戴体验。 内部主要配置方面，充电盒内置了高远电池410mAh可充电锂聚合物电池，配备有一体化锂电保护IC，负责电池的过充电、过放电、短路等保护。主板上，采用了SinhMicro昇生微电子SS881A POWER MCU，LPS微源半导体LP5305过压过流保护IC和LP6261A 1uA低功耗升压芯片，以及WillSemi韦尔半导体ESD56241D12 TVS保护管等。 耳机内部搭载了10mm航钛金属复合振膜动圈单元，单耳内置两颗MEMS麦克风拾音；耳机电池容量0.14Wh，来自GF新余赣锋；主控芯片为AIROHA达发（络达）AB1562A系列蓝牙音频SoC，支持蓝牙5.3，具有超低功耗，稳定蓝牙连接及主动降噪功能，支持Airoha降噪算法，整合锂电池充电控制器及电源管理电路。",
+  "layer_refs": {
+    "technical": [
+      "report:182992",
+      "video:190278"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [
+      "unboxing:182992"
+    ],
+    "review": []
+  },
+  "unboxing": {
+    "report_id": "182992",
+    "packaging": {
+      "description": "1MORE万魔PistonBuds Pro真无线降噪耳机包装盒采用了家族式的设计风格，正面展示有品牌LOGO，耳机外观设计和产品名称，背景通过正负形轮廓形成“1”品牌LOGO形象。",
+      "accessories": [],
+      "appearance_images": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/11/2023112803374937.jpeg",
+          "alt": "拆解报告：1MORE万魔PistonBuds Pro真无线降噪耳机-我爱音频网",
+          "caption": "拆解报告：1MORE万魔PistonBuds Pro真无线降噪耳机-我爱音频网",
+          "module": "packaging",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/11/2023112803375149.jpeg",
+          "alt": "拆解报告：1MORE万魔PistonBuds Pro真无线降噪耳机-我爱音频网",
+          "caption": "包装盒背面介绍了产品的详细功能特点：QuietMax双馈降噪、全音域航钛金属发声单元、游戏无感延迟，部分参数",
+          "module": "packaging",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/11/2023112803375387.jpeg",
+          "alt": "拆解报告：1MORE万魔PistonBuds Pro真无线降噪耳机-我爱音频网",
+          "caption": "包装盒侧边展示了产品的三项特点：录音室级调音、充电5分钟听歌1小时、IPX5防水防汗，以及QuietMax降噪技术和蓝牙技术标志。",
+          "module": "packaging",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/11/2023112803375636.jpeg",
+          "alt": "拆解报告：1MORE万魔PistonBuds Pro真无线降噪耳机-我爱音频网",
+          "caption": "三副不同尺寸的硅胶耳塞。",
+          "module": "packaging",
+          "phase": "unboxing"
+        }
+      ],
+      "image_count": 4,
+      "teardown_image_count": 0
+    },
+    "charging_case": {
+      "description": "万魔PistonBuds Pro充电盒体积小巧，采用了黑色磨砂质感，正面设置有一颗指示灯用于反馈蓝牙配对及充电状态。",
+      "accessories": [],
+      "appearance_images": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/11/2023112803375640.jpeg",
+          "alt": "拆解报告：1MORE万魔PistonBuds Pro真无线降噪耳机-我爱音频网",
+          "caption": "USB-A to Type-C充电线。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/11/2023112803375829.jpeg",
+          "alt": "拆解报告：1MORE万魔PistonBuds Pro真无线降噪耳机-我爱音频网",
+          "caption": "万魔PistonBuds Pro充电盒体积小巧，采用了黑色磨砂质感，正面设置有一颗指示灯用于反馈蓝牙配对及充电状态。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/11/2023112803375974.jpeg",
+          "alt": "拆解报告：1MORE万魔PistonBuds Pro真无线降噪耳机-我爱音频网",
+          "caption": "机身背面设置有USB-C充电接口和蓝牙配对功能按键。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/11/2023112803380046.jpeg",
+          "alt": "拆解报告：1MORE万魔PistonBuds Pro真无线降噪耳机-我爱音频网",
+          "caption": "充电盒顶部高亮黑色名牌装饰，在灯光下会呈现CD纹理光泽。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/11/2023112803380148.jpeg",
+          "alt": "拆解报告：1MORE万魔PistonBuds Pro真无线降噪耳机-我爱音频网",
+          "caption": "充电盒底部印有产品参数信息和认证标识。型号：EC302，输入：5V-0.5A，输出：5V-0.25A，电池容量：410mAh。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/11/2023112803380355.jpeg",
+          "alt": "拆解报告：1MORE万魔PistonBuds Pro真无线降噪耳机-我爱音频网",
+          "caption": "打开充电盒盖，内部耳机放置状态一览，座舱上雕刻有L/R标识，用于用户快速区分。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/11/2023112803380415.jpeg",
+          "alt": "拆解报告：1MORE万魔PistonBuds Pro真无线降噪耳机-我爱音频网",
+          "caption": "取出耳机，座舱内部结构一览。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        }
+      ],
+      "image_count": 18,
+      "teardown_image_count": 11
+    },
+    "earbuds": {
+      "description": "万魔PistonBuds Pro真无线降噪耳机整体外观一览。",
+      "accessories": [],
+      "appearance_images": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/11/2023112803380573.jpeg",
+          "alt": "拆解报告：1MORE万魔PistonBuds Pro真无线降噪耳机-我爱音频网",
+          "caption": "为耳机充电的金属顶针特写。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/11/2023112803380715.jpeg",
+          "alt": "拆解报告：1MORE万魔PistonBuds Pro真无线降噪耳机-我爱音频网",
+          "caption": "万魔PistonBuds Pro真无线降噪耳机整体外观一览。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/11/2023112803380836.jpeg",
+          "alt": "拆解报告：1MORE万魔PistonBuds Pro真无线降噪耳机-我爱音频网",
+          "caption": "万魔PistonBuds Pro耳机外观一览，采用了豆状的入耳式设计，磨砂+高亮两种质感相结合，体积小巧，佩戴贴耳舒适。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/11/2023112803380945.jpeg",
+          "alt": "拆解报告：1MORE万魔PistonBuds Pro真无线降噪耳机-我爱音频网",
+          "caption": "耳机外侧外观一览，背部设计有高亮的CD纹理铭牌装饰，与充电盒呼应。机身侧边设置有麦克风拾音孔。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/11/2023112803381179.jpeg",
+          "alt": "拆解报告：1MORE万魔PistonBuds Pro真无线降噪耳机-我爱音频网",
+          "caption": "耳机内侧外观一览，采用了磨砂质感。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/11/2023112803381299.jpeg",
+          "alt": "拆解报告：1MORE万魔PistonBuds Pro真无线降噪耳机-我爱音频网",
+          "caption": "机身侧边的泄压孔特写，用于平衡耳机内外压差。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/11/2023112803381496.jpeg",
+          "alt": "拆解报告：1MORE万魔PistonBuds Pro真无线降噪耳机-我爱音频网",
+          "caption": "耳机底部的通话麦克风拾音孔特写。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/11/2023112803381556.jpeg",
+          "alt": "拆解报告：1MORE万魔PistonBuds Pro真无线降噪耳机-我爱音频网",
+          "caption": "耳机内侧的充电触点特写。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        }
+      ],
+      "image_count": 66,
+      "teardown_image_count": 53
+    },
+    "gaps": [
+      "包装配件清单：未能从「包括…等」句式解析出零件列表"
+    ],
+    "completeness": 1.0
+  },
+  "market": {
+    "selling_points": [
+      {
+        "text": "1MORE万魔PistonBuds Pro真无线耳机\n（活塞豆降噪版）是万魔旗下一款主打降噪功能的产品，搭载了1MORE QuietMax双馈主动降噪方案，最大降噪深度可达38dB；支持通透模式，能够随时获取外界信息；支持AI通话降噪功能，左、右耳四麦，搭配AI通话降噪算法，有效过滤环境噪音，提供清晰通话；还户外抗风噪模式，应对骑行、跑步，以及大风天气等场景。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "1MORE万魔PistonBuds Pro真无线耳机\n（活塞豆降噪版）是万魔旗下一款主打降噪功能的产品，搭载了1MORE QuietMax双馈主动降噪方案，最大降噪深度可达38dB；支持通透模式，能够随时获取外界信息；支持AI通话降噪功能，左、右耳四麦，搭配AI通话降噪算法，有效过滤环境噪音，提供清晰通话；还户外抗风噪模式，应对骑行、跑步，以及大风天气等场景。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "1MORE万魔PistonBuds Pro真无线耳机\n（活塞豆降噪版）是万魔旗下一款主打降噪功能的产品，搭载了1MORE QuietMax双馈主动降噪方案，最大降噪深度可达38dB；支持通透模式，能够随时获取外界信息；支持AI通话降噪功能，左、右耳四麦，搭配AI通话降噪算法，有效过滤环境噪音，提供清晰通话；还户外抗风噪模式，应对骑行、跑步，以及大风天气等场景。"
+        }
+      },
+      {
+        "text": "活塞豆降噪版搭载了全音域航钛金属发声单元，人声明亮、细节饱满，并由欧洲录音室校准技术厂牌Sonarworks为耳机定制了12组风格音效，为用户提供高度还原的丰富聆听体验；活塞豆降噪版还支持90ms低延时，提供声画同步、自然流畅的游戏体验；续航方面，支持7.5h/30h（ANC OFF）/5h/20h（ANC ON）的续航时间，支持快速充电，充电5分钟，可听歌1小时。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "活塞豆降噪版搭载了全音域航钛金属发声单元，人声明亮、细节饱满，并由欧洲录音室校准技术厂牌Sonarworks为耳机定制了12组风格音效，为用户提供高度还原的丰富聆听体验；活塞豆降噪版还支持90ms低延时，提供声画同步、自然流畅的游戏体验；续航方面，支持7.5h/30h（ANC OFF）/5h/20h（ANC ON）的续航时间，支持快速充电，充电5分钟，可听歌1小时。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "活塞豆降噪版搭载了全音域航钛金属发声单元，人声明亮、细节饱满，并由欧洲录音室校准技术厂牌Sonarworks为耳机定制了12组风格音效，为用户提供高度还原的丰富聆听体验；活塞豆降噪版还支持90ms低延时，提供声画同步、自然流畅的游戏体验；续航方面，支持7.5h/30h（ANC OFF）/5h/20h（ANC ON）的续航时间，支持快速充电，充电5分钟，可听歌1小时。"
+        }
+      },
+      {
+        "text": "三、我爱音频网总结\n1MORE万魔PistonBuds Pro真无线降噪耳机在外观方面，体积小巧，整机重量仅为40g，外出使用便携；机身采用磨砂质感，搭配高亮铭牌装饰，观感时尚简约又不缺乏独特性。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "三、我爱音频网总结\n1MORE万魔PistonBuds Pro真无线降噪耳机在外观方面，体积小巧，整机重量仅为40g，外出使用便携；机身采用磨砂质感，搭配高亮铭牌装饰，观感时尚简约又不缺乏独特性。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\n1MORE万魔PistonBuds Pro真无线降噪耳机在外观方面，体积小巧，整机重量仅为40g，外出使用便携；机身采用磨砂质感，搭配高亮铭牌装饰，观感时尚简约又不缺乏独特性。"
+        }
+      },
+      {
+        "text": "经我爱音频网实测，1MORE万魔PistonBuds Pro真无线降噪耳机整机重量仅为40.0g，非常的轻盈，便于外出携带。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "经我爱音频网实测，1MORE万魔PistonBuds Pro真无线降噪耳机整机重量仅为40.0g，非常的轻盈，便于外出携带。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "经我爱音频网实测，1MORE万魔PistonBuds Pro真无线降噪耳机整机重量仅为40.0g，非常的轻盈，便于外出携带。"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "游戏",
+      "通话",
+      "跑步",
+      "户外"
+    ],
+    "positioning_summary": "1MORE万魔PistonBuds Pro真无线耳机\n（活塞豆降噪版）是万魔旗下一款主打降噪功能的产品，搭载了1MORE QuietMax双馈主动降噪方案，最大降噪深度可达38dB；支持通透模式，能够随时获取外界信息；支持AI通话降噪功能，左、右耳四麦，搭配AI通话降噪算法，有效过滤环境噪音，提供清晰通话；还户外抗风噪模式，应对骑行、跑步，以及大风天气等场景。",
+    "launch_date": null,
+    "best_report_id": "182992",
+    "best_video_id": null
+  }
+}

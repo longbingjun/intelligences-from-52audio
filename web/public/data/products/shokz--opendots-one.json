@@ -42,8 +42,11 @@
     "ip_rating": "",
     "bluetooth": "",
     "bom_row_count": 22,
-    "price_cny": null,
-    "price_layer": null,
+    "price_cny": 1298,
+    "price_layer": "official",
+    "price_source_label": "官网价",
+    "price_source_url": "https://shokz.com.cn/compare",
+    "price_evidence": "韶音中国官网对比页列示建议零售价 ¥1298。",
     "channel_url": null,
     "sales_hint": null,
     "data_completeness": 1.0,
@@ -368,7 +371,9 @@
       "video:233461"
     ],
     "channel": [],
-    "official": [],
+    "official": [
+      "official:shokz--opendots-one"
+    ],
     "unboxing": [
       "unboxing:231889"
     ],
@@ -613,6 +618,36 @@
     "positioning_summary": "近日，韶音发布了新一代开放式耳机——\nOpenDots ONE健身徒步系列旗舰款\n，外观上采用了创新环绕耳夹设计，搭配不等距硅胶材质，提供稳固贴合的舒适佩戴体验。",
     "launch_date": null,
     "best_report_id": "231889",
-    "best_video_id": null
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "开放佩戴",
+        "text": "创新环绕耳夹设计，搭配不等距硅胶材质，佩戴稳固贴合。"
+      },
+      {
+        "tag": "舒适佩戴",
+        "text": "自研动态弧设计，不对称结构贴合耳廓，柔软硅胶保障长久舒适。"
+      },
+      {
+        "tag": "降噪",
+        "text": "双耳四硅麦克风搭配AI通话降噪技术，提供更佳语音通话效果。"
+      },
+      {
+        "tag": "音质",
+        "text": "Bassphere低频聚合技术，对称双单元振膜共振，带来澎湃低音。"
+      },
+      {
+        "tag": "音质",
+        "text": "Shokz OpenBass 2.0+动态调音算法，精细调节三频，实现均衡音效。"
+      },
+      {
+        "tag": "功能",
+        "text": "支持智能佩戴检测、无线充电及快速充电，充电10分钟可用2小时。"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "ace721683bf39af667d10f31a86a5367d1fd48f53111124285f889b8d8091e4b"
+    }
   }
 }

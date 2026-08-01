@@ -1,0 +1,398 @@
+{
+  "canonical_id": "ugreen--hitune-t3",
+  "brand": "UGREEN绿联",
+  "model": "HiTune T3",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "101383"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "101383"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2022-01-01",
+  "latest_published": "2022-01-01",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "恒玄BES2500",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "100 mAh",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "44.2g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.2",
+    "bom_row_count": 10,
+    "price_cny": null,
+    "price_layer": null,
+    "price_source_label": "",
+    "price_source_url": "",
+    "price_evidence": "",
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "101383",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "S\ninhMicro昇生微S\nS809\n是一款集成了充放电管理的AD型单片机，内置线性充电单元为锂电池充电，同时有专门的耳机通信接口，实现充电盒跟耳机双向通信功能；SS809集成了MCU微处理器和嵌入式闪存，可以更容易地升级其固件，便于工程师加入个性化的定制功能。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "S\ninhMicro昇生微S\nS809\n是一款集成了充放电管理的AD型单片机，内置线性充电单元为锂电池充电，同时有专门的耳机通信接口，实现充电盒跟耳机双向通信功能；SS809集成了MCU微处理器和嵌入式闪存，可以更容易地升级其固件，便于工程师加入个性化的定制功能。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒盖内侧丝印信息有产品名称：HiTune T3主动降噪真无线蓝牙耳机，型号：WS106，输出：5V-100mAh，输入：5V-320mAh，P/N：90206，电池容量：400mAh/1.48Wh。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，通过螺丝固定主板单元。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "镭雕MD26 D148的MEMS麦克风特写，用于降噪功能和语音通话拾音。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机扬声器正面特写，采用PU+羊毛纸复合振膜，拥有更好的强度和韧性。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电接口：Type-C充电接口位于充电盒底部，侧边设置有一颗蓝牙配对功能按键。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2500",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2500",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：320\n芯片 恒玄BES2500\n芯片 恒玄BES2500IUC\n芯片 恒玄BES2500IZ\n芯片 WINSEMI稳先微WSDF13D\n芯片 SS881"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WINSEMI稳先微WSDF13D",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "WINSEMI稳先微WSDF13D",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：320\n芯片 恒玄BES2500\n芯片 恒玄BES2500IUC\n芯片 恒玄BES2500IZ\n芯片 WINSEMI稳先微WSDF13D\n芯片 SS881"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SS881",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SS881",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：320\n芯片 恒玄BES2500\n芯片 恒玄BES2500IUC\n芯片 恒玄BES2500IZ\n芯片 WINSEMI稳先微WSDF13D\n芯片 SS881"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:101383"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [
+      "unboxing:101383"
+    ],
+    "review": []
+  },
+  "unboxing": {
+    "report_id": "101383",
+    "packaging": {
+      "description": "ä½ä¸ºç¥åæ°ç åçï¼ç»¿èå¨TWSè³æºå¸åºåäºæ·±åº¦å¸å±ï¼ç®åå·²ç»æ¨åºäºHiTuneâXââTââHâç­å¤ä¸ªç³»åäº§åï¼äº§åå½¢æåæ¬å¥è³å¼ååå¥è³å¼ï¼å¤è§è®¾è®¡ç®çº¦æ¸éï¼å¶ä¸­ä¹ä¸ä¹ç¬å·ç»¿èé£æ ¼çè®¾è®¡ãéç½®åæ§è½ä¸ï¼ç»¿èè³æºå¨åä»·ä½äº§åä¸­è¡¨ç°åºè²ï¼é³è´¨ãéåªãç»­èªãä½©æ´ç­æ¹é¢é½è½å¸¦æ¥ä¸éçä½éªã",
+      "accessories": [],
+      "appearance_images": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/01/ViUgEJTE74CxP75b.jpgthumbnail.jpg",
+          "alt": "æè§£æ¥åï¼UGREENç»¿èHiTune T3çæ çº¿éåªè³æº-æç±é³é¢ç½",
+          "caption": "æç±é³é¢ç½æ­¤åè¿æè§£è¿ç»¿èæä¸çãç»¿èHiTune X6çæ çº¿éåªè³æºãç»¿è HiTune T2ãHiTune T1ãHiTune WS100Âçæ çº¿èçè³æºï¼æ çº¿é¢å¤¹éº¦åé£ãè¹æå¥è³å¼æçº¿è³æºåUSBè½¦è½½èçé³é¢æ¥æ¶å¨ç­ï¼ä¸é¢åæ¥ççè¿æ¬¾äº§åçè¯¦ç»æè§£æ¥åå§~",
+          "module": "packaging",
+          "phase": "intro"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/01/rCKRHZhIF2JpS3hO.jpgthumbnail.jpg",
+          "alt": "æè§£æ¥åï¼UGREENç»¿èHiTune T3çæ çº¿éåªè³æº-æç±é³é¢ç½",
+          "caption": "åè£çèé¢ä»ç»äºäº§åçæä½æ§å¶ååæ°ä¿¡æ¯ï¼äº§ååå·ï¼WS106ï¼èççæ¬ï¼5.2ï¼é³é¢è§£ç ï¼AACãSBCï¼åçµçè¾å¥ï¼5V-320mAhï¼åçµçè¾åºï¼5V-100mAhï¼åçµçåçµå£ï¼USB-Cï¼è³æºåçµæ¶é¿ï¼1.5å°æ¶ï¼åçµçåçµæ¶é¿ï¼2å°æ¶ï¼ç»­èªæ¶é´ï¼7å°æ¶(åæ¬¡)/24å°æ¶ï¼ç»¼åï¼ã",
+          "module": "packaging",
+          "phase": "intro"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/01/LgPlKJ57Ng0jO5x9.jpgthumbnail.jpg",
+          "alt": "æè§£æ¥åï¼UGREENç»¿èHiTune T3çæ çº¿éåªè³æº-æç±é³é¢ç½",
+          "caption": "åè£çåç©åæè³æºãåçµçº¿ãè³å¡ãäº§åè¯´æä¹¦åä¿ä¿®å¡ã",
+          "module": "packaging",
+          "phase": "intro"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/01/EHkQO7WIZRHTwgkJ.jpgthumbnail.jpg",
+          "alt": "æè§£æ¥åï¼UGREENç»¿èHiTune T3çæ çº¿éåªè³æº-æç±é³é¢ç½",
+          "caption": "ä¸å¯ä¸åå°ºå¯¸çç¡è¶è³å¡ç¹åï¼ç¨ä»¥æ»¡è¶³ä¸åäººç¾¤çä½¿ç¨éæ±ã",
+          "module": "packaging",
+          "phase": "intro"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/01/ESjkY33kRuqY2H0G.jpgthumbnail.jpg",
+          "alt": "æè§£æ¥åï¼UGREENç»¿èHiTune T3çæ çº¿éåªè³æº-æç±é³é¢ç½",
+          "caption": "ç»¿èHiTune T3çæ çº¿è³æºåçµçéç¨äºåè§æ¹å½¢çè®¾è®¡ï¼æºèº«è¾¹ç¼åäºå¤§å¼§åº¦å¤çï¼æ²¡æä»»ä½çæ£±è§ï¼è§¦æåæ»åæ¶¦ã",
+          "module": "packaging",
+          "phase": "intro"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/01/YyhHHbPbRjUptqm4.jpgthumbnail.jpg",
+          "alt": "æè§£æ¥åï¼UGREENç»¿èHiTune T3çæ çº¿éåªè³æº-æç±é³é¢ç½",
+          "caption": "åçµçæ­£é¢è®¾ç½®æä¸é¢æç¤ºç¯ï¼ç¨ä»¥æ´ç´è§çåé¦å©ä½çµéä¿¡æ¯ã",
+          "module": "packaging",
+          "phase": "intro"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/01/tYrL1blYkzwJICz2.jpgthumbnail.jpg",
+          "alt": "æè§£æ¥åï¼UGREENç»¿èHiTune T3çæ çº¿éåªè³æº-æç±é³é¢ç½",
+          "caption": "æå¼åçµçè³æºæ¾ç½®ç¶æå±ç¤ºï¼çªåºäºåº§è±ï¼è½å¤ä¾¿æ·çååºä½©æ´ã",
+          "module": "packaging",
+          "phase": "intro"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/01/lsECmgGDfGhXNroB.jpgthumbnail.jpg",
+          "alt": "æè§£æ¥åï¼UGREENç»¿èHiTune T3çæ çº¿éåªè³æº-æç±é³é¢ç½",
+          "caption": "ç»¿èHiTune T3çæ çº¿éåªè³æºæ´ä½å¤è§è®¾è®¡ä¸è§ã",
+          "module": "packaging",
+          "phase": "intro"
+        }
+      ],
+      "image_count": 79,
+      "teardown_image_count": 0
+    },
+    "charging_case": {
+      "description": "",
+      "accessories": [],
+      "appearance_images": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/01/oswICMIjChEnGh7S.jpgthumbnail.jpg",
+          "alt": "æè§£æ¥åï¼UGREENç»¿èHiTune T3çæ çº¿éåªè³æº-æç±é³é¢ç½",
+          "caption": "Type-Cåçµæ¥å£ä½äºåçµçåºé¨ï¼ä¾§è¾¹è®¾ç½®æä¸é¢èçéå¯¹åè½æé®ã",
+          "module": "charging_case",
+          "phase": "intro"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/01/mvmeI5DOOxvXzcSe.jpgthumbnail.jpg",
+          "alt": "æè§£æ¥åï¼UGREENç»¿èHiTune T3çæ çº¿éåªè³æº-æç±é³é¢ç½",
+          "caption": "Type-Cåçµæ¥å£æ¯åº§ç¹åã",
+          "module": "charging_case",
+          "phase": "intro"
+        }
+      ],
+      "image_count": 2,
+      "teardown_image_count": 0
+    },
+    "earbuds": {
+      "description": "",
+      "accessories": [],
+      "appearance_images": [],
+      "image_count": 0,
+      "teardown_image_count": 0
+    },
+    "gaps": [
+      "耳机：无配图",
+      "包装配件清单：未能从「包括…等」句式解析出零件列表"
+    ],
+    "completeness": 0.67
+  },
+  "market": {
+    "selling_points": [
+      {
+        "text": "作为知名数码品牌，绿联在TWS耳机市场做了深度布局，目前已经推出了HiTune“X”“T”“H”等多个系列产品 […]\nS\ninhMicro昇生微S\nS809\n是一款集成了充放电管理的AD型单片机，内置线性充电单元为锂电池充电，同时有专门的耳机通信接口，实现充电盒跟耳机双向通信功能；SS809集成了MCU微处理器和嵌入式闪存，可以更容易地升级其固件，便于工程师加入个性化的定制功能。",
+        "tag": "其他",
+        "evidence": {
+          "value": "作为知名数码品牌，绿联在TWS耳机市场做了深度布局，目前已经推出了HiTune“X”“T”“H”等多个系列产品 […]\nS\ninhMicro昇生微S\nS809\n是一款集成了充放电管理的AD型单片机，内置线性充电单元为锂电池充电，同时有专门的耳机通信接口，实现充电盒跟耳机双向通信功能；SS809集成了MCU微处理器和嵌入式闪存，可以更容易地升级其固件，便于工程师加入个性化的定制功能。",
+          "confidence": 0.68,
+          "source_type": "text",
+          "source_text": "作为知名数码品牌，绿联在TWS耳机市场做了深度布局，目前已经推出了HiTune“X”“T”“H”等多个系列产品 […]\nS\ninhMicro昇生微S\nS809\n是一款集成了充放电管理的AD型单片机，内置线性充电单元为锂电池充电，同时有专门的耳机通信接口，实现充电盒跟耳机双向通信功能；SS809集成了MCU微处理器和嵌入式闪存，可以更容易地升级其固件，便于工程师加入个性化的定制功能。"
+        }
+      },
+      {
+        "text": "标记/认证：充电盒盖内侧丝印信息有产品名称：HiTune T3主动降噪真无线蓝牙耳机，型号：WS106，输出：5V-100mAh，输入：5V-320mAh，P/N：90206，电池容量：400mAh/1.48Wh。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "标记/认证：充电盒盖内侧丝印信息有产品名称：HiTune T3主动降噪真无线蓝牙耳机，型号：WS106，输出：5V-100mAh，输入：5V-320mAh，P/N：90206，电池容量：400mAh/1.48Wh。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "标记/认证：充电盒盖内侧丝印信息有产品名称：HiTune T3主动降噪真无线蓝牙耳机，型号：WS106，输出：5V-100mAh，输入：5V-320mAh，P/N：90206，电池容量：400mAh/1.48Wh。"
+        }
+      },
+      {
+        "text": "我爱音频网此前还拆解过绿联旗下的、绿联HiTune X6真无线降噪耳机、绿联 HiTune T2、HiTune T1、HiTune WS100真无线蓝牙耳机，无线领夹麦克风、苹果入耳式有线耳机和USB车载蓝牙音频接收器等，下面再来看看这款产品的详细拆解报告吧~\n耳机柄外侧底部设置了麦克风开孔，用于语音通话拾音，内部通过防尘网防护。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "我爱音频网此前还拆解过绿联旗下的、绿联HiTune X6真无线降噪耳机、绿联 HiTune T2、HiTune T1、HiTune WS100真无线蓝牙耳机，无线领夹麦克风、苹果入耳式有线耳机和USB车载蓝牙音频接收器等，下面再来看看这款产品的详细拆解报告吧~\n耳机柄外侧底部设置了麦克风开孔，用于语音通话拾音，内部通过防尘网防护。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "我爱音频网此前还拆解过绿联旗下的、绿联HiTune X6真无线降噪耳机、绿联 HiTune T2、HiTune T1、HiTune WS100真无线蓝牙耳机，无线领夹麦克风、苹果入耳式有线耳机和USB车载蓝牙音频接收器等，下面再来看看这款产品的详细拆解报告吧~\n耳机柄外侧底部设置了麦克风开孔，用于语音通话拾音，内部通过防尘网防护。"
+        }
+      },
+      {
+        "text": "配置\n和\n性能上，\n绿联\n耳机在同价位产品中表现出色，音质\n、\n降噪、续航、佩戴等方面都能带来不错\n的\n体验\n。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "配置\n和\n性能上，\n绿联\n耳机在同价位产品中表现出色，音质\n、\n降噪、续航、佩戴等方面都能带来不错\n的\n体验\n。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "配置\n和\n性能上，\n绿联\n耳机在同价位产品中表现出色，音质\n、\n降噪、续航、佩戴等方面都能带来不错\n的\n体验\n。"
+        }
+      },
+      {
+        "text": "镭雕MD26 D148的MEMS麦克风特写，用于降噪功能和语音通话拾音。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "镭雕MD26 D148的MEMS麦克风特写，用于降噪功能和语音通话拾音。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "镭雕MD26 D148的MEMS麦克风特写，用于降噪功能和语音通话拾音。"
+        }
+      },
+      {
+        "text": "尤其是电量显示方面，除了控制1-5颗灯显示外，还支持RGB灯效、LED 188数码管、定制图案等，为工程师提供了自由编程的发挥空间。",
+        "tag": "其他",
+        "evidence": {
+          "value": "尤其是电量显示方面，除了控制1-5颗灯显示外，还支持RGB灯效、LED 188数码管、定制图案等，为工程师提供了自由编程的发挥空间。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "尤其是电量显示方面，除了控制1-5颗灯显示外，还支持RGB灯效、LED 188数码管、定制图案等，为工程师提供了自由编程的发挥空间。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "作为知名数码品牌，绿联在TWS耳机市场做了深度布局，目前已经推出了HiTune“X”“T”“H”等多个系列产品 […]\nS\ninhMicro昇生微S\nS809\n是一款集成了充放电管理的AD型单片机，内置线性充电单元为锂电池充电，同时有专门的耳机通信接口，实现充电盒跟耳机双向通信功能；SS809集成了MCU微处理器和嵌入式闪存，可以更容易地升级其固件，便于工程师加入个性化的定制功能。",
+    "launch_date": null,
+    "best_report_id": "101383",
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "其他",
+        "text": "绿联HiTune T3采用昇生微SS809芯片，集成充放电管理与双向通信，支持固件升级。"
+      },
+      {
+        "tag": "降噪",
+        "text": "充电盒盖标注产品型号WS106，电池容量400mAh，输入5V-320mAh，输出5V-100mAh。"
+      },
+      {
+        "tag": "降噪",
+        "text": "耳机柄外侧底部设麦克风开孔，用于语音通话拾音，内部有防尘网防护。"
+      },
+      {
+        "tag": "降噪",
+        "text": "配置与性能在同价位产品中表现出色，音质、降噪、续航、佩戴体验良好。"
+      },
+      {
+        "tag": "降噪",
+        "text": "镭雕MD26 D148的MEMS麦克风用于降噪功能和语音通话拾音。"
+      },
+      {
+        "tag": "其他",
+        "text": "SS809芯片支持RGB灯效、LED 188数码管、定制图案等电量显示功能。"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "f927e1bf17a7ba99cea32cd4004c0429db213461ece24a056b5ee783a87578e4"
+    }
+  }
+}

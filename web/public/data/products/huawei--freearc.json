@@ -31,8 +31,11 @@
     "ip_rating": "",
     "bluetooth": "",
     "bom_row_count": 17,
-    "price_cny": null,
-    "price_layer": null,
+    "price_cny": 799,
+    "price_layer": "official",
+    "price_source_label": "官网价",
+    "price_source_url": "https://consumer.huawei.com/cn/headphones/freearc/",
+    "price_evidence": "华为中国官网产品页标示“¥799 起”。",
     "channel_url": null,
     "sales_hint": null,
     "data_completeness": 0.83,
@@ -287,7 +290,9 @@
       "video:250469"
     ],
     "channel": [],
-    "official": [],
+    "official": [
+      "official:huawei--freearc"
+    ],
     "unboxing": [
       "unboxing:247965"
     ],
@@ -529,6 +534,36 @@
     "positioning_summary": "HUAWEI华为FreeArc开放式耳挂耳机\n在功能配置方面，搭载17x12mm高灵敏度动圈单元，搭配动态低频算法和等响自适应算法，低频饱满，高音通透，清晰还原音频细节；搭载双麦克风阵列，通过巧妙布局配合三重智能通话降噪系统，提供清晰通话；采用逆声场声学系统，通过逆向声波减少漏音，实现定向传声，更好保护隐私。",
     "launch_date": null,
     "best_report_id": "247965",
-    "best_video_id": null
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "音质",
+        "text": "搭载17x12mm高灵敏度动圈单元，低频饱满高音通透，清晰还原音频细节。"
+      },
+      {
+        "tag": "音质",
+        "text": "动态低频算法与等响自适应算法，提升不同音量下的听感表现。"
+      },
+      {
+        "tag": "通话降噪",
+        "text": "双麦克风阵列配合三重智能通话降噪系统，提供清晰通话效果。"
+      },
+      {
+        "tag": "通话降噪",
+        "text": "第二颗镭雕SDB4的MEMS麦克风协同拾音，智能降噪算法优化通话。"
+      },
+      {
+        "tag": "防漏音",
+        "text": "逆声场声学系统通过逆向声波减少漏音，实现定向传声保护隐私。"
+      },
+      {
+        "tag": "佩戴与防护",
+        "text": "140°三角稳固设计搭配超柔软液态硅胶，IP57级防尘抗水适合运动。"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "6268f735f6893fe78865e31d21b1dab8a8c6dca3569b0396941be41b927bc8bf"
+    }
   }
 }

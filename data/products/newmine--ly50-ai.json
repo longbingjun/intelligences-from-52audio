@@ -1,0 +1,493 @@
+{
+  "canonical_id": "newmine--ly50-ai",
+  "brand": "Newmine纽曼",
+  "model": "LY50 AI智能翻译",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "240994"
+  ],
+  "video_ids": [
+    "241312"
+  ],
+  "related_report_ids": [
+    "240994"
+  ],
+  "related_video_ids": [
+    "241312"
+  ],
+  "first_seen": "2025-06-04",
+  "latest_published": "2025-06-06",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "INJOINIC英集芯IP5513",
+    "pmic_case": "INJOINIC英集芯 INJOINIC英集芯IP5513",
+    "battery_ear": "电池",
+    "battery_case": "4V/00mAh锂电池",
+    "speaker": "喇叭单元",
+    "materials": "硅胶",
+    "weight_g": "67.5g",
+    "weight_case_g": "",
+    "weight_earbud_g": "7.4g",
+    "ip_rating": "",
+    "bluetooth": "5.4",
+    "bom_row_count": 15,
+    "price_cny": null,
+    "price_layer": null,
+    "price_source_label": "",
+    "price_source_url": "",
+    "price_evidence": "",
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "240994",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "INJOINIC英集芯IP5513",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "PMIC/充电仓管理",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5513",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置400mAh/3.7V锂电池，搭载了188数字显示屏，采用INJOINIC英集芯IP5513充电仓管理SoC，为充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "4V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "4V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置400mAh/3.7V锂电池，搭载了188数字显示屏，采用INJOINIC英集芯IP5513充电仓管理SoC，为充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载13mm动圈喇叭，单耳内置一颗MEMS麦克风拾音，采用了40mAh/3.7V钢壳扣式电池供电。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Newmine纽曼LY50 AI智能翻译耳机充电盒采用了椭圆形设计，亲肤涂层，触感温柔细腻。体积也非常小巧，便于携带。充电盒顶部设计有金色铭牌装饰。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盒盖内侧标注有产品信息，纽曼-OWS蓝牙耳机，产品型号：LY50，耳机电池容量：40mAh，充电仓电池容量：400mAh，输入：5V-500mA，北京纽曼腾飞科技有限公司。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，设置有主板、电池、为耳机充电的小板和霍尔元件小板。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "音腔盖板上的麦克风拾音孔特写，同时也是指示灯开孔。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Newmine纽曼LY50 AI智能翻译耳机包装盒正面展示了产品外观，品牌LOGO和产品名称，以及蓝牙5.4/开放式/佩戴舒适/最长约20小时播放/ENC通话降噪的产品特点。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机扬声器正面特写，采用了镀钛复合振膜，通过金属盖板防护。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Newmine纽曼LY50 AI智能翻译耳机整体外观一览，采用了耳挂式设计，亲肤材质包裹，佩戴舒适稳固轻盈。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机的充电触点特写。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "音腔盖板上的麦克风拾音孔特写，同时也是指示灯开孔。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP5513",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5513",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "INJOINIC英集芯IP5513是一款集成5V升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SoC，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5513",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5513",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "IP5513的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸，降低BOM成本。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Newmine纽曼LY50 AI智能翻译耳机在外观方面，充电盒采用椭圆形设计，表面覆盖亲肤涂层，触感温柔细腻，体积小巧，便于携带。耳机采用了开放式的耳挂结构，并设计了硅胶耳翼，提供自适应的舒适稳固佩戴体验；暖日白配色采用了米白色，搭配金色电镀装饰，整体观感简约时尚。 内部主要配置方面，充电盒内置400mAh/3.7V锂电池，搭载了188数字显示屏，采用INJOINIC英集芯IP5513充电仓管理SoC，为充电仓提供完整的电源解决方案。耳机内部搭载13mm动圈喇叭，单耳内置一颗MEMS麦克风拾音，采用了40mAh/3.7V钢壳扣式电池供电。",
+  "layer_refs": {
+    "technical": [
+      "report:240994",
+      "video:241312"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [
+      "unboxing:240994"
+    ],
+    "review": []
+  },
+  "unboxing": {
+    "report_id": "240994",
+    "packaging": {
+      "description": "Newmine纽曼LY50 AI智能翻译耳机包装盒正面展示了产品外观，品牌LOGO和产品名称，以及蓝牙5.4/开放式/佩戴舒适/最长约20小时播放/ENC通话降噪的产品特点。",
+      "accessories": [],
+      "appearance_images": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/06/2025060401343880.jpg",
+          "alt": "拆解报告：Newmine纽曼LY50 AI智能翻译耳机-我爱音频网",
+          "caption": "拆解报告：Newmine纽曼LY50 AI智能翻译耳机-我爱音频网",
+          "module": "packaging",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/06/2025060401344967.jpg",
+          "alt": "拆解报告：Newmine纽曼LY50 AI智能翻译耳机-我爱音频网",
+          "caption": "包装盒背面展示了两种配色，贴有防伪码，介绍了北京纽曼腾飞科技有限公司信息。",
+          "module": "packaging",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/06/2025060401344551.jpg",
+          "alt": "拆解报告：Newmine纽曼LY50 AI智能翻译耳机-我爱音频网",
+          "caption": "包装盒侧边图文介绍了详细功能特点。",
+          "module": "packaging",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/06/2025060401344320.jpg",
+          "alt": "拆解报告：Newmine纽曼LY50 AI智能翻译耳机-我爱音频网",
+          "caption": "包装盒内部物品有主机、充电线和使用说明书，此款为暖日白配色。",
+          "module": "packaging",
+          "phase": "unboxing"
+        }
+      ],
+      "image_count": 4,
+      "teardown_image_count": 0
+    },
+    "charging_case": {
+      "description": "充电线采用了USB-A to Type-C接口。",
+      "accessories": [],
+      "appearance_images": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/06/2025060401344172.jpg",
+          "alt": "拆解报告：Newmine纽曼LY50 AI智能翻译耳机-我爱音频网",
+          "caption": "充电线采用了USB-A to Type-C接口。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/06/2025060401344088.jpg",
+          "alt": "拆解报告：Newmine纽曼LY50 AI智能翻译耳机-我爱音频网",
+          "caption": "Newmine纽曼LY50 AI智能翻译耳机充电盒采用了椭圆形设计，亲肤涂层，触感温柔细腻。体积也非常小巧，便于携带。充电盒顶部设计有金色铭牌装饰。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/06/2025060401343857.jpg",
+          "alt": "拆解报告：Newmine纽曼LY50 AI智能翻译耳机-我爱音频网",
+          "caption": "充电盒底部外观一览。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/06/2025060401343970.jpg",
+          "alt": "拆解报告：Newmine纽曼LY50 AI智能翻译耳机-我爱音频网",
+          "caption": "充电盒正面外观一览，设计有倒角，便于开启。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/06/2025060401345140.jpg",
+          "alt": "拆解报告：Newmine纽曼LY50 AI智能翻译耳机-我爱音频网",
+          "caption": "机身背面设置有Type-C充电接口。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/06/2025060401345163.jpg",
+          "alt": "拆解报告：Newmine纽曼LY50 AI智能翻译耳机-我爱音频网",
+          "caption": "打开充电盒盖，座舱内部结构一览，耳机通过磁吸固定。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/06/2025060401344744.jpg",
+          "alt": "拆解报告：Newmine纽曼LY50 AI智能翻译耳机-我爱音频网",
+          "caption": "盒盖内侧标注有产品信息，纽曼-OWS蓝牙耳机，产品型号：LY50，耳机电池容量：40mAh，充电仓电池容量：400mAh，输入：5V-500mA，北京纽曼腾飞科技有限公司。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/06/2025060401344343.jpg",
+          "alt": "拆解报告：Newmine纽曼LY50 AI智能翻译耳机-我爱音频网",
+          "caption": "取出耳机，座舱内部为耳机充电的金属顶针特写。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        }
+      ],
+      "image_count": 22,
+      "teardown_image_count": 12
+    },
+    "earbuds": {
+      "description": "Newmine纽曼LY50 AI智能翻译耳机整体外观一览，采用了耳挂式设计，亲肤材质包裹，佩戴舒适稳固轻盈。",
+      "accessories": [],
+      "appearance_images": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/06/2025060401344924.jpg",
+          "alt": "拆解报告：Newmine纽曼LY50 AI智能翻译耳机-我爱音频网",
+          "caption": "Newmine纽曼LY50 AI智能翻译耳机整体外观一览，采用了耳挂式设计，亲肤材质包裹，佩戴舒适稳固轻盈。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/06/2025060401345070.jpg",
+          "alt": "拆解报告：Newmine纽曼LY50 AI智能翻译耳机-我爱音频网",
+          "caption": "耳机外侧外观一览，米白色配色，简约时尚。音腔和尾塞设计有电镀工艺的装饰，提升产品质感。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/06/2025060401343621.jpg",
+          "alt": "拆解报告：Newmine纽曼LY50 AI智能翻译耳机-我爱音频网",
+          "caption": "音腔上设计有类似耳翼的结构，实现更好地固定。硅胶材质，镂空设计，佩戴亲肤，自适应耳廓。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/06/2025060401345067.jpg",
+          "alt": "拆解报告：Newmine纽曼LY50 AI智能翻译耳机-我爱音频网",
+          "caption": "音腔调音孔特写，通过丝网防护。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/06/2025060401344267.jpg",
+          "alt": "拆解报告：Newmine纽曼LY50 AI智能翻译耳机-我爱音频网",
+          "caption": "耳机内侧外观一览，耳挂末端腔体上设计L/R左右标识。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/06/2025060401344820.jpg",
+          "alt": "拆解报告：Newmine纽曼LY50 AI智能翻译耳机-我爱音频网",
+          "caption": "耳机出音孔特写，外层金属盖板和内层金属网罩双重防护。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/06/2025060401344874.jpg",
+          "alt": "拆解报告：Newmine纽曼LY50 AI智能翻译耳机-我爱音频网",
+          "caption": "耳机的充电触点特写。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/06/2025060401343957.jpg",
+          "alt": "拆解报告：Newmine纽曼LY50 AI智能翻译耳机-我爱音频网",
+          "caption": "经我爱音频网实测，Newmine纽曼LY50 AI智能翻译耳机整机重量约为67.5g。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        }
+      ],
+      "image_count": 39,
+      "teardown_image_count": 30
+    },
+    "gaps": [
+      "包装配件清单：未能从「包括…等」句式解析出零件列表"
+    ],
+    "completeness": 1.0
+  },
+  "market": {
+    "selling_points": [
+      {
+        "text": "其他功能体验方面，Newmine纽曼LY50 AI智能翻译耳机支持智能低音算法补偿，支持动态均衡器EQ算法，提供浑厚低音效果；支持双麦AI通话降噪，提供清晰语音通话效果；支持声波聚集技术，保障用户隐私；续航上可提供最长约20小时的播放。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "其他功能体验方面，Newmine纽曼LY50 AI智能翻译耳机支持智能低音算法补偿，支持动态均衡器EQ算法，提供浑厚低音效果；支持双麦AI通话降噪，提供清晰语音通话效果；支持声波聚集技术，保障用户隐私；续航上可提供最长约20小时的播放。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "其他功能体验方面，Newmine纽曼LY50 AI智能翻译耳机支持智能低音算法补偿，支持动态均衡器EQ算法，提供浑厚低音效果；支持双麦AI通话降噪，提供清晰语音通话效果；支持声波聚集技术，保障用户隐私；续航上可提供最长约20小时的播放。"
+        }
+      },
+      {
+        "text": "电池负极特写，镭雕CCC认证标志。",
+        "tag": "其他",
+        "evidence": {
+          "value": "电池负极特写，镭雕CCC认证标志。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "电池负极特写，镭雕CCC认证标志。"
+        }
+      },
+      {
+        "text": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+        "tag": "其他",
+        "evidence": {
+          "value": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。"
+        }
+      },
+      {
+        "text": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "IP5513内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "其他功能体验方面，Newmine纽曼LY50 AI智能翻译耳机支持智能低音算法补偿，支持动态均衡器EQ算法，提供浑厚低音效果；支持双麦AI通话降噪，提供清晰语音通话效果；支持声波聚集技术，保障用户隐私；续航上可提供最长约20小时的播放。",
+    "launch_date": null,
+    "best_report_id": "240994",
+    "best_video_id": null
+  }
+}

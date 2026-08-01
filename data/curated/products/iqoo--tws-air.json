@@ -1,0 +1,448 @@
+{
+  "canonical_id": "iqoo--tws-air",
+  "brand": "iQOO",
+  "model": "TWS Air",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "147615"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "147615"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2023-02-07",
+  "latest_published": "2023-02-07",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "恒玄BES2500IU",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "430 mAh",
+    "speaker": "喇叭单元",
+    "materials": "PC",
+    "weight_g": "3.6g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.2",
+    "bom_row_count": 10,
+    "price_cny": null,
+    "price_layer": null,
+    "price_source_label": "",
+    "price_source_url": "",
+    "price_evidence": "",
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "147615",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "另外一侧参数信息，输入： 5V-0.5A，输出：5V-0.2A，电池：3.8V 430mAh 1.63Wh。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部设置主板单元，Type-C母座设计有橡胶垫缓冲。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "通话降噪麦克风声学结构特写，“L”型抗风噪设计，避免直吹，降低风噪影响。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电接口：充电盒底部设置Type-C充电接口。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "iQOO TWS Air真无线耳机在功能配置方面，搭载了14.2mm超大动圈单元，生物碳纤维复合振膜，更好的动态范围带来更丰富的细节表现；还经由金耳朵专家与电竞发烧友联合调音，提供身临其境的电竞音效；支持的双麦AI通话降噪功能，使游戏开黑始终保持清晰的语音沟通；支持蓝牙5.2，支持游戏低延迟，提供声画同步的流畅体验。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "前腔内部扬声器单元结构一览。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8815",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8815",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "充电接口：内部主要配置方面，充电盒内置了VDL紫建电子420mAh锂电池，Type-C输入端口配备了一颗WillSemi韦尔半导体ESD56241D18 TVS保护管，用于输入过压保护；主板上采用了思远半导体SY8815蓝牙耳机充电仓解决方案负责电池的充放电管理，还采用了Nations国民技术N32G031K8Q7 MCU单片机，用于充电盒的整机控制。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2500IU",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2500IU",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：430\n芯片 思远半导体SY8815\n芯片 恒玄BES2500IU\n芯片 思远半导体SY8602\n芯片 CM1126B\n芯片 恒玄BES2500IUC\n芯片 BES2500"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8815",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8815",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：430\n芯片 思远半导体SY8815\n芯片 恒玄BES2500IU\n芯片 思远半导体SY8602\n芯片 CM1126B\n芯片 恒玄BES2500IUC\n芯片 BES2500"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1126B",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM1126B",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：430\n芯片 思远半导体SY8815\n芯片 恒玄BES2500IU\n芯片 思远半导体SY8602\n芯片 CM1126B\n芯片 恒玄BES2500IUC\n芯片 BES2500"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:147615"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [
+      "unboxing:147615"
+    ],
+    "review": []
+  },
+  "unboxing": {
+    "report_id": "147615",
+    "packaging": {
+      "description": "iQOO TWS Air真无线耳机包装盒采用了黑色背景，设计有凯夫拉纹理。正面展示有耳机外观设计，产品名称和品牌LOGO。",
+      "accessories": [],
+      "appearance_images": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/02/2023020706373983.jpeg",
+          "alt": "拆解报告：iQOO TWS Air真无线耳机-我爱音频网",
+          "caption": "拆解报告：iQOO TWS Air真无线耳机-我爱音频网",
+          "module": "packaging",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/02/2023020706374388.jpeg",
+          "alt": "拆解报告：iQOO TWS Air真无线耳机-我爱音频网",
+          "caption": "包装盒标签上印有产品的部分信息，此次将要拆解的星耀黄配色，型号：iXE W25，CMIIT ID：2022DP10189，额定参数：（输入： 5V-0.5A，输出：5V-0.2A），生产日期：2022109/09，中国制造。",
+          "module": "packaging",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/02/2023020706374491.jpeg",
+          "alt": "拆解报告：iQOO TWS Air真无线耳机-我爱音频网",
+          "caption": "包装盒内部物品有耳机、充电线和产品使用指南。",
+          "module": "packaging",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/02/2023020706374633.jpeg",
+          "alt": "拆解报告：iQOO TWS Air真无线耳机-我爱音频网",
+          "caption": "随机标配的充电线采用了USB-A to Type-C接口。",
+          "module": "packaging",
+          "phase": "unboxing"
+        }
+      ],
+      "image_count": 4,
+      "teardown_image_count": 0
+    },
+    "charging_case": {
+      "description": "iQOO TWS Air真无线耳机充电盒采用了黑黄撞色设计，环形腰线贯穿前后，观感极具活力。机身通过三层喷涂工艺处理，带来细腻磨砂质感。正面还设计有“iQOO”品牌LOGO和一颗指示灯。",
+      "accessories": [],
+      "appearance_images": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/02/2023020706374985.jpeg",
+          "alt": "拆解报告：iQOO TWS Air真无线耳机-我爱音频网",
+          "caption": "充电盒背面设置有一颗功能按键，用于蓝牙配对。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/02/2023020706375290.jpeg",
+          "alt": "拆解报告：iQOO TWS Air真无线耳机-我爱音频网",
+          "caption": "充电盒底部设置Type-C充电接口。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/02/2023020706375490.jpeg",
+          "alt": "拆解报告：iQOO TWS Air真无线耳机-我爱音频网",
+          "caption": "充电盒内部座舱采用黄色配色，开盖让人眼前一亮。内部耳机对称式放置，突出于座舱，能够便捷取出。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/02/2023020706375720.jpeg",
+          "alt": "拆解报告：iQOO TWS Air真无线耳机-我爱音频网",
+          "caption": "取出耳机，座舱内部结构一览。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/02/2023020706375982.jpeg",
+          "alt": "拆解报告：iQOO TWS Air真无线耳机-我爱音频网",
+          "caption": "充电盒盖内侧丝印有产品信息，iQOO TWS Air，型号：iXE W25，CMIIT ID：2022DP10189，维沃移动通信有限公司，中国制造。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/02/2023020706380342.jpeg",
+          "alt": "拆解报告：iQOO TWS Air真无线耳机-我爱音频网",
+          "caption": "充电盒为耳机充电的金属弹片位于耳机柄座舱底部。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        }
+      ],
+      "image_count": 21,
+      "teardown_image_count": 15
+    },
+    "earbuds": {
+      "description": "取出耳机，iQOO TWS Air真无线耳机整体外观一览，延续了vivo系TWS耳机产品的设计语言。",
+      "accessories": [],
+      "appearance_images": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/02/2023020706375519.jpeg",
+          "alt": "拆解报告：iQOO TWS Air真无线耳机-我爱音频网",
+          "caption": "取出耳机，iQOO TWS Air真无线耳机整体外观一览，延续了vivo系TWS耳机产品的设计语言。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/02/2023020706380120.jpeg",
+          "alt": "拆解报告：iQOO TWS Air真无线耳机-我爱音频网",
+          "caption": "另外一侧参数信息，输入： 5V-0.5A，输出：5V-0.2A，电池：3.8V 430mAh 1.63Wh。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/02/2023020706380547.jpeg",
+          "alt": "拆解报告：iQOO TWS Air真无线耳机-我爱音频网",
+          "caption": "iQOO TWS Air耳机整体外观一览，采用了柄状的半入耳式设计，同样的黑黄撞色搭配，亮面材质机身光滑圆润。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/02/2023020706380846.jpeg",
+          "alt": "拆解报告：iQOO TWS Air真无线耳机-我爱音频网",
+          "caption": "耳机外侧外观一览，耳机柄上方区域是触摸控制位置。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/02/2023020706381114.jpeg",
+          "alt": "拆解报告：iQOO TWS Air真无线耳机-我爱音频网",
+          "caption": "耳机柄底部设置为耳机充电的金属触点，以及语音通话麦克风拾音孔。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/02/2023020706381414.jpeg",
+          "alt": "拆解报告：iQOO TWS Air真无线耳机-我爱音频网",
+          "caption": "耳机内侧外观一览，机身曲线采用了人体工学设计，针对真人耳朵轮廓模型数据进行优化，提供舒适的佩戴体验。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/02/2023020706381543.jpeg",
+          "alt": "拆解报告：iQOO TWS Air真无线耳机-我爱音频网",
+          "caption": "耳机出音嘴特写，采用了黄色防尘网防护。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/02/2023020706381840.jpeg",
+          "alt": "拆解报告：iQOO TWS Air真无线耳机-我爱音频网",
+          "caption": "音腔调音孔特写，使空气自由进出音腔，提升声学性能。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        }
+      ],
+      "image_count": 59,
+      "teardown_image_count": 47
+    },
+    "gaps": [
+      "包装配件清单：未能从「包括…等」句式解析出零件列表"
+    ],
+    "completeness": 1.0
+  },
+  "market": {
+    "selling_points": [
+      {
+        "text": "iQOO作为vivo旗下子品牌，专注于年轻人群，通过顶级性能+顶级电竞的配置，致力于为消费者提供一流的操控体验 […]\n通话降噪麦克风声学结构特写，“L”型抗风噪设计，避免直吹，降低风噪影响。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "iQOO作为vivo旗下子品牌，专注于年轻人群，通过顶级性能+顶级电竞的配置，致力于为消费者提供一流的操控体验 […]\n通话降噪麦克风声学结构特写，“L”型抗风噪设计，避免直吹，降低风噪影响。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "iQOO作为vivo旗下子品牌，专注于年轻人群，通过顶级性能+顶级电竞的配置，致力于为消费者提供一流的操控体验 […]\n通话降噪麦克风声学结构特写，“L”型抗风噪设计，避免直吹，降低风噪影响。"
+        }
+      },
+      {
+        "text": "通话降噪麦克风采用了与通话拾音麦克风相同的型号，两颗麦克风协同，搭配AI通话降噪算法，为游戏开黑、语音通话等场景提供清晰的音频效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "通话降噪麦克风采用了与通话拾音麦克风相同的型号，两颗麦克风协同，搭配AI通话降噪算法，为游戏开黑、语音通话等场景提供清晰的音频效果。",
+          "confidence": 0.73,
+          "source_type": "text",
+          "source_text": "通话降噪麦克风采用了与通话拾音麦克风相同的型号，两颗麦克风协同，搭配AI通话降噪算法，为游戏开黑、语音通话等场景提供清晰的音频效果。"
+        }
+      },
+      {
+        "text": "耳机顶部的通话降噪麦克风拾音孔特写。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "耳机顶部的通话降噪麦克风拾音孔特写。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "耳机顶部的通话降噪麦克风拾音孔特写。"
+        }
+      },
+      {
+        "text": "iQOO作为vivo旗下子品牌，专注于年轻人群，通过顶级性能+顶级电竞的配置，致力于为消费者提供一流的操控体验。",
+        "tag": "旗舰定位",
+        "evidence": {
+          "value": "iQOO作为vivo旗下子品牌，专注于年轻人群，通过顶级性能+顶级电竞的配置，致力于为消费者提供一流的操控体验。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "iQOO作为vivo旗下子品牌，专注于年轻人群，通过顶级性能+顶级电竞的配置，致力于为消费者提供一流的操控体验。"
+        }
+      },
+      {
+        "text": "据我爱音频网拆解了解到，目前已有\n一加\n、\n漫步者\n、\n倍思\n、\nQCY\n、\n猛玛\n、\n万魔、233621、传音、魔宴、创新科技、\n小米、OPPO、realme、魅族、百度、网易、JBL、哈曼、联想等\n国内外知名品牌采用思远半导体的电源管理芯片。",
+        "tag": "其他",
+        "evidence": {
+          "value": "据我爱音频网拆解了解到，目前已有\n一加\n、\n漫步者\n、\n倍思\n、\nQCY\n、\n猛玛\n、\n万魔、233621、传音、魔宴、创新科技、\n小米、OPPO、realme、魅族、百度、网易、JBL、哈曼、联想等\n国内外知名品牌采用思远半导体的电源管理芯片。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "据我爱音频网拆解了解到，目前已有\n一加\n、\n漫步者\n、\n倍思\n、\nQCY\n、\n猛玛\n、\n万魔、233621、传音、魔宴、创新科技、\n小米、OPPO、realme、魅族、百度、网易、JBL、哈曼、联想等\n国内外知名品牌采用思远半导体的电源管理芯片。"
+        }
+      },
+      {
+        "text": "三、我爱音频网总结\n从外观设计和内部结构配置方面不难看出，iQOO TWS Air真无线耳机与老大哥旗下的\nvivo TWS Air\n产品有着千丝万缕的联系，不过采用的更加符合iQOO电竞风格的前卫黑黄撞色设计，搭配上3.6g轻巧半入耳式设计带来的舒适佩戴体验，也算为vivo系手机用户提供了一种不错的新选择。",
+        "tag": "舒适佩戴",
+        "evidence": {
+          "value": "三、我爱音频网总结\n从外观设计和内部结构配置方面不难看出，iQOO TWS Air真无线耳机与老大哥旗下的\nvivo TWS Air\n产品有着千丝万缕的联系，不过采用的更加符合iQOO电竞风格的前卫黑黄撞色设计，搭配上3.6g轻巧半入耳式设计带来的舒适佩戴体验，也算为vivo系手机用户提供了一种不错的新选择。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "三、我爱音频网总结\n从外观设计和内部结构配置方面不难看出，iQOO TWS Air真无线耳机与老大哥旗下的\nvivo TWS Air\n产品有着千丝万缕的联系，不过采用的更加符合iQOO电竞风格的前卫黑黄撞色设计，搭配上3.6g轻巧半入耳式设计带来的舒适佩戴体验，也算为vivo系手机用户提供了一种不错的新选择。"
+        }
+      }
+    ],
+    "scenarios": [
+      "游戏",
+      "通话",
+      "电竞"
+    ],
+    "positioning_summary": "iQOO作为vivo旗下子品牌，专注于年轻人群，通过顶级性能+顶级电竞的配置，致力于为消费者提供一流的操控体验 […]\n通话降噪麦克风声学结构特写，“L”型抗风噪设计，避免直吹，降低风噪影响。",
+    "launch_date": null,
+    "best_report_id": "147615",
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "降噪",
+        "text": "L型抗风噪设计避免直吹，降低风噪影响"
+      },
+      {
+        "tag": "降噪",
+        "text": "双麦克风协同搭配AI通话降噪算法，提供清晰音频"
+      },
+      {
+        "tag": "旗舰定位",
+        "text": "iQOO子品牌专注年轻人群，顶级性能与电竞配置"
+      },
+      {
+        "tag": "舒适佩戴",
+        "text": "3.6g轻巧半入耳式设计，带来舒适佩戴体验"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "279d6d58bb9e209c794ff5a8e39c67925c538d956e4cda566820d7215dcc97b6"
+    }
+  }
+}

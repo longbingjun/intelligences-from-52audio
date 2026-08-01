@@ -4,40 +4,69 @@
   "model": "华强北AirPods",
   "category": "真无线耳机TWS",
   "report_ids": [
-    "11467",
     "230837"
   ],
   "video_ids": [],
   "related_report_ids": [
-    "11467",
     "230837"
   ],
   "related_video_ids": [],
-  "first_seen": "2018-12-05",
+  "first_seen": "2025-03-10",
   "latest_published": "2025-03-10",
   "internal_match_suggestions": [],
   "cost_snapshot": {
-    "main_chip": "ETA9640",
+    "main_chip": "",
     "pmic_case": "",
     "battery_ear": "电池",
-    "battery_case": "360 mAh",
+    "battery_case": "",
     "speaker": "喇叭单元",
     "materials": "塑料",
-    "weight_g": "",
+    "weight_g": "44.5g",
     "weight_case_g": "",
-    "weight_earbud_g": "",
+    "weight_earbud_g": "3.1g",
     "ip_rating": "",
-    "bluetooth": "5.0",
-    "bom_row_count": 11,
+    "bluetooth": "",
+    "bom_row_count": 10,
     "price_cny": null,
     "price_layer": null,
+    "price_source_label": "",
+    "price_source_url": "",
+    "price_evidence": "",
     "channel_url": null,
     "sales_hint": null,
-    "data_completeness": 0.83,
-    "best_report_id": "11467",
+    "data_completeness": 0.5,
+    "best_report_id": "230837",
     "best_video_id": null
   },
   "bom_table": [
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了一颗驻极体麦克风拾音，采用了一颗蓝牙音频SoC，用于无线连接和音频数据处理。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部通过螺丝固定主板单元。"
+      }
+    },
     {
       "component": "电池",
       "brand": "",
@@ -49,7 +78,7 @@
         "value": "电池",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "从正面看电池盒，缝隙处还算比较紧密。"
+        "source_text": "座舱正面结构一览，设置有电池单元和指示灯排线。"
       }
     },
     {
@@ -63,35 +92,7 @@
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "打开电池仓可以看到两只耳机竖直状态摆放在充电仓内，中间还有一个指示灯。"
-      }
-    },
-    {
-      "component": "主板/PCBA",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "主板/PCBA",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机充电盒的主板，左边是一颗无标单片机，右边是电源管理IC，ETA9640，负责对内部电池充电及升压输出。"
-      }
-    },
-    {
-      "component": "天线",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "天线",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "主板背面，塑料支撑框上贴有触摸条及蓝牙天线。"
+        "source_text": "华强北AirPods真无线耳机充电盒与苹果AirPods 3相同，圆角方形设计，烤漆质感，正面设置有一颗指示灯反馈充电状态。"
       }
     },
     {
@@ -99,13 +100,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
+      "side": "耳机",
       "role": "major",
       "evidence": {
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "底部通话麦克风。"
+        "source_text": "耳机柄背部的装饰性降噪麦克风拾音孔特写。"
       }
     },
     {
@@ -119,35 +120,21 @@
         "value": "喇叭单元",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "2、采用大动圈羊毛纸盆动圈单元，一定程度上可以加强音质；"
+        "source_text": "前腔内部扬声器单元结构一览。"
       }
     },
     {
-      "component": "充电触点",
+      "component": "外壳结构",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
+      "side": "耳机",
       "role": "minor",
       "evidence": {
-        "value": "充电触点",
+        "value": "外壳结构",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电仓最底下是充电触点。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "背面看到缝隙就比较大了，金属合页部分做工也不是很好，下面有一个圆形按键。"
+        "source_text": "耳机内侧外观一览，机身曲线与苹果AirPods 3完全相同，但做工较差，合模线缝隙较大，用力就可以将前腔拆掉。"
       }
     },
     {
@@ -161,211 +148,202 @@
         "value": "指示灯",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "打开电池仓可以看到两只耳机竖直状态摆放在充电仓内，中间还有一个指示灯。"
+        "source_text": "华强北AirPods真无线耳机充电盒与苹果AirPods 3相同，圆角方形设计，烤漆质感，正面设置有一颗指示灯反馈充电状态。"
       }
     },
     {
-      "component": "芯片/模组",
+      "component": "触控/按键",
       "brand": "",
-      "model": "ETA9640",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "ETA9640",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "耳机充电盒的主板，左边是一颗无标单片机，右边是电源管理IC，ETA9640，负责对内部电池充电及升压输出。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "ETA9640",
-      "qty_hint": "1",
+      "model": "",
+      "qty_hint": "",
       "side": "",
-      "role": "主控/蓝牙",
+      "role": "minor",
       "evidence": {
-        "value": "ETA9640",
-        "confidence": 0.78,
+        "value": "触控/按键",
+        "confidence": 0.72,
         "source_type": "text",
-        "source_text": "ETA钰泰 ETA9640，ETA9640是一颗专门针对移动电源设计的单芯片集成所有充电，放电以及空载识别，电量显示功能的PMU。"
+        "source_text": "背面采用了类金属涂层的塑料合页，结构缝隙也非常的大。机身上标注了“加州苹果公司设计，中国组装”信息。设置有一颗功能按键，用于蓝牙配对功能。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄底部的充电触点特写，边缘毛刺严重。"
       }
     }
   ],
   "summary_image_urls": [],
-  "summary_text": "",
+  "summary_text": "三、我爱音频网总结 通过此篇文章，我们可以清晰的了解到，华强北AirPods真无线耳机是一款“徒有其表”的产品。虽然在外观上，其拥有着与正版AirPods 3相同的设计和更加轻盈的佩戴体验，但内部结构配置有着天壤之别，甚至不如百元以内的入门级品牌耳机。 在内部主要配置上，充电盒的电池、电源管理芯片等未标注任何信息，出现问题了也无可查询。耳机内部搭载了13mm动圈喇叭，内置软包锂电池同样信息不明；主板上，搭载了一颗驻极体麦克风拾音，采用了一颗蓝牙音频SoC，用于无线连接和音频数据处理。",
   "layer_refs": {
     "technical": [
-      "report:11467",
       "report:230837"
     ],
     "channel": [],
     "official": [],
     "unboxing": [
-      "unboxing:11467",
       "unboxing:230837"
     ],
     "review": []
   },
   "unboxing": {
-    "report_id": "11467",
+    "report_id": "230837",
     "packaging": {
-      "description": "最近，我爱音频网采购了一款从头到脚由内而外，几乎与AirPods一模一样的产品，就连包装产品名称也是一模一样。这款山寨版AirPods的出现，可以说戴在耳朵上几乎分辨不出来是真是假，因为两个产品之间真的是相似到以假乱真的程度。如果没有提前做过功课，如果没有接触过真正的苹果AirPods，普通的小白用户还真的非常有可能认不出来。",
+      "description": "包装盒内部物品有主机、充电线和说明书。可以发现，内部产品与包装盒展示产品完全不同，与苹果AirPods 3产品外观一致。",
       "accessories": [],
       "appearance_images": [
         {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/高仿苹果真无线耳机-1.jpg",
-          "alt": "拆解报告：高仿苹果AirPods真无线蓝牙耳机-我爱音频网",
-          "caption": "一、高仿苹果TWS真无线耳机开箱",
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/03/2025031010163135.jpg",
+          "alt": "拆解报告：华强北AirPods真无线耳机-我爱音频网",
+          "caption": "拆解报告：华强北AirPods真无线耳机-我爱音频网",
           "module": "packaging",
-          "phase": "intro"
+          "phase": "unboxing"
         },
         {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/高仿苹果真无线耳机-2.jpg",
-          "alt": "拆解报告：高仿苹果AirPods真无线蓝牙耳机-我爱音频网",
-          "caption": "耳机包装盒正面特写，做得跟苹果原装的非常相似，有点难辨别出真假。",
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/03/2025031010163551.jpg",
+          "alt": "拆解报告：华强北AirPods真无线耳机-我爱音频网",
+          "caption": "包装盒背面介绍了产品信息，与正版相同。",
           "module": "packaging",
-          "phase": "intro"
+          "phase": "unboxing"
         },
         {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/高仿苹果真无线耳机-3.jpg",
-          "alt": "拆解报告：高仿苹果AirPods真无线蓝牙耳机-我爱音频网",
-          "caption": "来看到包装背面，契合缝隙比较大，和正品的区别还是比较明显的。",
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/03/2025031010163980.jpg",
+          "alt": "拆解报告：华强北AirPods真无线耳机-我爱音频网",
+          "caption": "包装盒内部物品有主机、充电线和说明书。可以发现，内部产品与包装盒展示产品完全不同，与苹果AirPods 3产品外观一致。",
           "module": "packaging",
-          "phase": "intro"
+          "phase": "unboxing"
         },
         {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/高仿苹果真无线耳机-4.jpg",
-          "alt": "拆解报告：高仿苹果AirPods真无线蓝牙耳机-我爱音频网",
-          "caption": "包装侧面可以看出包装盒不是一体成型的。",
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/03/2025031010163996.jpg",
+          "alt": "拆解报告：华强北AirPods真无线耳机-我爱音频网",
+          "caption": "充电线采用了USB-C to Lightning接口，经测试可以为苹果iPhone手机充电。",
           "module": "packaging",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/高仿苹果真无线耳机-5.jpg",
-          "alt": "拆解报告：高仿苹果AirPods真无线蓝牙耳机-我爱音频网",
-          "caption": "包装盒内除了产品之外还有一份使用说明。",
-          "module": "packaging",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/高仿苹果真无线耳机-15.jpg",
-          "alt": "拆解报告：高仿苹果AirPods真无线蓝牙耳机-我爱音频网",
-          "caption": "拆解电池盒之后的配件一览，发光二极管套了黑色热缩管，避免漏光。",
-          "module": "packaging",
-          "phase": "intro"
+          "phase": "unboxing"
         }
       ],
-      "image_count": 6,
+      "image_count": 4,
       "teardown_image_count": 0
     },
     "charging_case": {
-      "description": "",
+      "description": "华强北AirPods真无线耳机充电盒与苹果AirPods 3相同，圆角方形设计，烤漆质感，正面设置有一颗指示灯反馈充电状态。",
       "accessories": [],
       "appearance_images": [
         {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/高仿苹果真无线耳机-10.jpg",
-          "alt": "拆解报告：高仿苹果AirPods真无线蓝牙耳机-我爱音频网",
-          "caption": "打开电池仓可以看到两只耳机竖直状态摆放在充电仓内，中间还有一个指示灯。",
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/03/2025031010163735.jpg",
+          "alt": "拆解报告：华强北AirPods真无线耳机-我爱音频网",
+          "caption": "华强北AirPods真无线耳机充电盒与苹果AirPods 3相同，圆角方形设计，烤漆质感，正面设置有一颗指示灯反馈充电状态。",
           "module": "charging_case",
-          "phase": "intro"
+          "phase": "unboxing"
         },
         {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/高仿苹果真无线耳机-11.jpg",
-          "alt": "拆解报告：高仿苹果AirPods真无线蓝牙耳机-我爱音频网",
-          "caption": "充电仓最底下是充电触点。",
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/03/2025031010163530.jpg",
+          "alt": "拆解报告：华强北AirPods真无线耳机-我爱音频网",
+          "caption": "背面采用了类金属涂层的塑料合页，结构缝隙也非常的大。机身上标注了“加州苹果公司设计，中国组装”信息。设置有一颗功能按键，用于蓝牙配对功能。",
           "module": "charging_case",
-          "phase": "intro"
+          "phase": "unboxing"
         },
         {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/高仿苹果真无线耳机-16.jpg",
-          "alt": "拆解报告：高仿苹果AirPods真无线蓝牙耳机-我爱音频网",
-          "caption": "充电仓这边有磁铁，辅助定位。",
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/03/2025031010162847.jpg",
+          "alt": "拆解报告：华强北AirPods真无线耳机-我爱音频网",
+          "caption": "充电盒底部采用了Lightning接口充电。",
           "module": "charging_case",
-          "phase": "intro"
+          "phase": "unboxing"
         },
         {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/高仿苹果真无线耳机-19.jpg",
-          "alt": "拆解报告：高仿苹果AirPods真无线蓝牙耳机-我爱音频网",
-          "caption": "耳机充电盒的主板，左边是一颗无标单片机，右边是电源管理IC，ETA9640，负责对内部电池充电及升压输出。",
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/03/2025031010163330.jpg",
+          "alt": "拆解报告：华强北AirPods真无线耳机-我爱音频网",
+          "caption": "打开充电盒盖，内部耳机磁吸固定。",
           "module": "charging_case",
-          "phase": "intro"
+          "phase": "unboxing"
         },
         {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/高仿苹果真无线耳机-20.jpg",
-          "alt": "拆解报告：高仿苹果AirPods真无线蓝牙耳机-我爱音频网",
-          "caption": "充电盒背面，是Lightning IC，左侧是升压电感，右侧分别是两路充电控制和电流检测，由单片机控制。",
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/03/2025031010163482.jpg",
+          "alt": "拆解报告：华强北AirPods真无线耳机-我爱音频网",
+          "caption": "取出耳机，座舱内部结构一览。",
           "module": "charging_case",
-          "phase": "intro"
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/03/2025031010162955.jpg",
+          "alt": "拆解报告：华强北AirPods真无线耳机-我爱音频网",
+          "caption": "座舱底部耳机充电的金属触点特写。",
+          "module": "charging_case",
+          "phase": "unboxing"
         }
       ],
-      "image_count": 5,
-      "teardown_image_count": 0
+      "image_count": 20,
+      "teardown_image_count": 14
     },
     "earbuds": {
-      "description": "",
+      "description": "此次拆解的这款华强北AirPods真无线耳机，采用了AirPods二代的设计，正面展示了耳机的外观。",
       "accessories": [],
       "appearance_images": [
         {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/高仿苹果真无线耳机-6.jpg",
-          "alt": "拆解报告：高仿苹果AirPods真无线蓝牙耳机-我爱音频网",
-          "caption": "从正面看电池盒，缝隙处还算比较紧密。",
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/03/2025031010163098.jpg",
+          "alt": "拆解报告：华强北AirPods真无线耳机-我爱音频网",
+          "caption": "此次拆解的这款华强北AirPods真无线耳机，采用了AirPods二代的设计，正面展示了耳机的外观。",
           "module": "earbuds",
-          "phase": "intro"
+          "phase": "unboxing"
         },
         {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/高仿苹果真无线耳机-7.jpg",
-          "alt": "拆解报告：高仿苹果AirPods真无线蓝牙耳机-我爱音频网",
-          "caption": "背面看到缝隙就比较大了，金属合页部分做工也不是很好，下面有一个圆形按键。",
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/03/2025031010205570.jpg",
+          "alt": "拆解报告：华强北AirPods真无线耳机-我爱音频网",
+          "caption": "华强北AirPods真无线耳机整体外观一览。耳机复刻了苹果AirPods 3的设计，佩戴感受也与正版类似。",
           "module": "earbuds",
-          "phase": "intro"
+          "phase": "unboxing"
         },
         {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/高仿苹果真无线耳机-8.jpg",
-          "alt": "拆解报告：高仿苹果AirPods真无线蓝牙耳机-我爱音频网",
-          "caption": "底部是Lightning充电接口，用于以假乱真的一个重要部分。",
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/03/2025031010164232.jpg",
+          "alt": "拆解报告：华强北AirPods真无线耳机-我爱音频网",
+          "caption": "耳机外侧外观一览，与苹果AirPods 3结构相同，远观真无法区分真假，但上手质感有着明显差异。",
           "module": "earbuds",
-          "phase": "intro"
+          "phase": "unboxing"
         },
         {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/高仿苹果真无线耳机-9.jpg",
-          "alt": "拆解报告：高仿苹果AirPods真无线蓝牙耳机-我爱音频网",
-          "caption": "按键做工比较精致。",
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/03/2025031010163492.jpg",
+          "alt": "拆解报告：华强北AirPods真无线耳机-我爱音频网",
+          "caption": "机身顶部的装饰性“泄压孔”。",
           "module": "earbuds",
-          "phase": "intro"
+          "phase": "unboxing"
         },
         {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/高仿苹果真无线耳机-13.jpg",
-          "alt": "拆解报告：高仿苹果AirPods真无线蓝牙耳机-我爱音频网",
-          "caption": "两只耳机的充电触点在耳机末端，中间塑料隔开两极，做工一般。",
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/03/2025031010162831.jpg",
+          "alt": "拆解报告：华强北AirPods真无线耳机-我爱音频网",
+          "caption": "耳机柄背部的装饰性降噪麦克风拾音孔特写。",
           "module": "earbuds",
-          "phase": "intro"
+          "phase": "unboxing"
         },
         {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/高仿苹果真无线耳机-12.jpg",
-          "alt": "拆解报告：高仿苹果AirPods真无线蓝牙耳机-我爱音频网",
-          "caption": "我爱音频网采用ChargerLAB POWER-Z KT001进行充电测试。",
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/03/2025031010163048.jpg",
+          "alt": "拆解报告：华强北AirPods真无线耳机-我爱音频网",
+          "caption": "耳机柄侧边的压感按键。",
           "module": "earbuds",
-          "phase": "intro"
+          "phase": "unboxing"
         },
         {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/高仿苹果真无线耳机-14.jpg",
-          "alt": "拆解报告：高仿苹果AirPods真无线蓝牙耳机-我爱音频网",
-          "caption": "开始拆解电池盒。",
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/03/2025031010164380.jpg",
+          "alt": "拆解报告：华强北AirPods真无线耳机-我爱音频网",
+          "caption": "耳机内侧外观一览，机身曲线与苹果AirPods 3完全相同，但做工较差，合模线缝隙较大，用力就可以将前腔拆掉。",
           "module": "earbuds",
-          "phase": "intro"
+          "phase": "unboxing"
         },
         {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/高仿苹果真无线耳机-17.jpg",
-          "alt": "拆解报告：高仿苹果AirPods真无线蓝牙耳机-我爱音频网",
-          "caption": "电池型号801437，容量360mAh。",
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/03/2025031010164011.jpg",
+          "alt": "拆解报告：华强北AirPods真无线耳机-我爱音频网",
+          "caption": "耳机调音孔特写。",
           "module": "earbuds",
-          "phase": "intro"
+          "phase": "unboxing"
         }
       ],
-      "image_count": 30,
-      "teardown_image_count": 0
+      "image_count": 40,
+      "teardown_image_count": 28
     },
     "gaps": [
       "包装配件清单：未能从「包括…等」句式解析出零件列表"
@@ -375,32 +353,32 @@
   "market": {
     "selling_points": [
       {
-        "text": "在降噪方面，支持降噪功能和环境音监听模式，可以说是一款高性能的全能的TWS真无线蓝牙耳机一体化方案。",
+        "text": "耳机柄背部的装饰性降噪麦克风拾音孔特写。",
         "tag": "降噪",
         "evidence": {
-          "value": "在降噪方面，支持降噪功能和环境音监听模式，可以说是一款高性能的全能的TWS真无线蓝牙耳机一体化方案。",
-          "confidence": 0.72,
-          "source_type": "text",
-          "source_text": "在降噪方面，支持降噪功能和环境音监听模式，可以说是一款高性能的全能的TWS真无线蓝牙耳机一体化方案。"
-        }
-      },
-      {
-        "text": "半入耳式的耳塞，一侧有防尘滤网。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "半入耳式的耳塞，一侧有防尘滤网。",
+          "value": "耳机柄背部的装饰性降噪麦克风拾音孔特写。",
           "confidence": 0.55,
           "source_type": "text",
-          "source_text": "半入耳式的耳塞，一侧有防尘滤网。"
+          "source_text": "耳机柄背部的装饰性降噪麦克风拾音孔特写。"
         }
       }
     ],
     "scenarios": [
       "通话"
     ],
-    "positioning_summary": "在降噪方面，支持降噪功能和环境音监听模式，可以说是一款高性能的全能的TWS真无线蓝牙耳机一体化方案。",
+    "positioning_summary": "耳机柄背部的装饰性降噪麦克风拾音孔特写。",
     "launch_date": null,
-    "best_report_id": "11467",
-    "best_video_id": null
+    "best_report_id": "230837",
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "降噪",
+        "text": "耳机柄背部设有装饰性降噪麦克风拾音孔。"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "84c41c0f5570f9976aa49ecad9a3706fe629fc7f2f323efca8006762456b040c"
+    }
   }
 }

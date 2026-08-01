@@ -27,8 +27,11 @@
     "ip_rating": "",
     "bluetooth": "6.0",
     "bom_row_count": 17,
-    "price_cny": null,
-    "price_layer": null,
+    "price_cny": 229,
+    "price_layer": "official",
+    "price_source_label": "官网价",
+    "price_source_url": "https://www.qcy.com.cn/lang-cn/productview/2072.html",
+    "price_evidence": "QCY 中国官网产品页标示 ¥229。",
     "channel_url": null,
     "sales_hint": null,
     "data_completeness": 0.83,
@@ -290,7 +293,9 @@
       "report:255398"
     ],
     "channel": [],
-    "official": [],
+    "official": [
+      "official:qcy--c50"
+    ],
     "unboxing": [
       "unboxing:255398"
     ],
@@ -532,6 +537,36 @@
     "positioning_summary": "镭雕R557的MEMS麦克风特写，两颗麦克风协同拾音，搭配AI通话降噪算法，提供清晰通话效果，同样来自瑞勤电子。",
     "launch_date": null,
     "best_report_id": "255398",
-    "best_video_id": null
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "降噪",
+        "text": "双麦克风协同拾音，搭配AI通话降噪算法，提供清晰通话效果。"
+      },
+      {
+        "tag": "开放佩戴",
+        "text": "碳纤维双磁喇叭搭配低音增强算法3.0，呈现澎湃音效。"
+      },
+      {
+        "tag": "开放佩戴",
+        "text": "支持360°空间音效，模拟真实环境声音空间感。"
+      },
+      {
+        "tag": "开放佩戴",
+        "text": "支持音量自适应技术，嘈杂环境自动增大音量。"
+      },
+      {
+        "tag": "开放佩戴",
+        "text": "4.6°定向聚声结构设计，有效防止漏音。"
+      },
+      {
+        "tag": "防水防尘",
+        "text": "麦克风拾音孔内侧通过防水透气膜防护。"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "6249d5a609f7dd5ce669b105223be1ea6aed4dc0051bc6f86b63d9d20f3fdd07"
+    }
   }
 }

@@ -1,0 +1,445 @@
+{
+  "canonical_id": "apple--airpods-tws",
+  "brand": "Apple苹果",
+  "model": "AirPods二代 TWS蓝牙耳机无线充电盒",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "16732",
+    "17580"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "16732",
+    "17580"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2019-03-11",
+  "latest_published": "2019-03-29",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "",
+    "speaker": "喇叭单元",
+    "materials": "塑料、PC",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 10,
+    "price_cny": null,
+    "price_layer": null,
+    "price_source_label": "",
+    "price_source_url": "",
+    "price_evidence": "",
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.5,
+    "best_report_id": "16732",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "背后是耳机充电盒开启状态的图示，下方是一个Lightning插头。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "固定主板与耳机定位仓排线的金属片，采用两颗螺丝固定。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "整个耳机充电盒内部可分为三结段式构，顶盖、耳机定位仓、PCB/电池一体塑料框架。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "图中黑色矩形PCB为耳机的天线贴附在电池上，电芯几乎占据了整个耳机手柄部分。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "降噪麦克风孔。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机内采用一个大尺寸的金属振膜动圈式扬声器。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "位于充电盒机身背后的圆型按键，质感与外壳相同。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机仓内特写，底下是两个充电触点，舱位做工平整，左右对称。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "位于充电盒机身背后的圆型按键，质感与外壳相同。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "打开耳机充电盒，两只耳机呈立式形态放置在充电盒内，中间是指示灯。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:16732",
+      "report:17580"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [
+      "unboxing:16732",
+      "unboxing:17580"
+    ],
+    "review": []
+  },
+  "unboxing": {
+    "report_id": "16732",
+    "packaging": {
+      "description": "包装盒依然采用一种白色设计，正面是一副耳机图样，看上去非常精致。值得一提的是，在正面的 AirPods 耳机图案有凹凸层次感，用手触摸可以明显感觉到。",
+      "accessories": [
+        "AirPods产品本体",
+        "耳机充电盒",
+        "Lightning充电线",
+        "使用说明"
+      ],
+      "appearance_images": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/03/苹果国行AIRPODS-1.jpg",
+          "alt": "拆解报告：Apple苹果 AirPods TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "一、Apple苹果 AirPods开箱",
+          "module": "packaging",
+          "phase": "intro"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/03/苹果国行AIRPODS-2.jpg",
+          "alt": "拆解报告：Apple苹果 AirPods TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "包装盒依然采用一种白色设计，正面是一副耳机图样，看上去非常精致。值得一提的是，在正面的 AirPods 耳机图案有凹凸层次感，用手触摸可以明显感觉到。",
+          "module": "packaging",
+          "phase": "intro"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/03/苹果国行AIRPODS-4.jpg",
+          "alt": "拆解报告：Apple苹果 AirPods TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "包装盒侧面贴有数张标签，写出了耳机的一些信息，商品名称：无线耳机，型号：A1722，A1523，输入：5.2V 2.4A，输出：5V 1A，制造商：本产品是由美国苹果公司授权生产，经销商：苹果电脑贸易（上海）有限公司。",
+          "module": "packaging",
+          "phase": "intro"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/03/苹果国行AIRPODS-5.jpg",
+          "alt": "拆解报告：Apple苹果 AirPods TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "包装内含有AirPods产品本体、耳机充电盒、Lightning充电线和使用说明等。",
+          "module": "packaging",
+          "phase": "intro"
+        }
+      ],
+      "image_count": 4,
+      "teardown_image_count": 0
+    },
+    "charging_case": {
+      "description": "",
+      "accessories": [],
+      "appearance_images": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/03/苹果国行AIRPODS-3.jpg",
+          "alt": "拆解报告：Apple苹果 AirPods TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "背后是耳机充电盒开启状态的图示，下方是一个Lightning插头。",
+          "module": "charging_case",
+          "phase": "intro"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/03/苹果国行AIRPODS-8.jpg",
+          "alt": "拆解报告：Apple苹果 AirPods TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "耳机充电盒为圆润的白色塑料盒子，手感舒适。",
+          "module": "charging_case",
+          "phase": "intro"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/03/苹果国行AIRPODS-9.jpg",
+          "alt": "拆解报告：Apple苹果 AirPods TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "耳机充电盒背面特写。",
+          "module": "charging_case",
+          "phase": "intro"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/03/苹果国行AIRPODS-11.jpg",
+          "alt": "拆解报告：Apple苹果 AirPods TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "位于充电盒机身背后的圆型按键，质感与外壳相同。",
+          "module": "charging_case",
+          "phase": "intro"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/03/苹果国行AIRPODS-13.jpg",
+          "alt": "拆解报告：Apple苹果 AirPods TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "打开耳机充电盒，两只耳机呈立式形态放置在充电盒内，中间是指示灯。",
+          "module": "charging_case",
+          "phase": "intro"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/03/苹果国行AIRPODS-15.jpg",
+          "alt": "拆解报告：Apple苹果 AirPods TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "耳机充电盒的盖子内侧是两个适配耳机顶部轮廓的槽位，看上去很光滑，内侧还标注了产品信息。",
+          "module": "charging_case",
+          "phase": "intro"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/03/苹果国行AIRPODS-24.jpg",
+          "alt": "拆解报告：Apple苹果 AirPods TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "开始拆开耳机充电盒，内部硬件结构设计紧凑合理。",
+          "module": "charging_case",
+          "phase": "intro"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/03/苹果国行AIRPODS-26.jpg",
+          "alt": "拆解报告：Apple苹果 AirPods TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "耳机充电盒的微动按键，按键背后是两个金属触点。",
+          "module": "charging_case",
+          "phase": "intro"
+        }
+      ],
+      "image_count": 14,
+      "teardown_image_count": 0
+    },
+    "earbuds": {
+      "description": "",
+      "accessories": [],
+      "appearance_images": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/03/苹果国行AIRPODS-6.jpg",
+          "alt": "拆解报告：Apple苹果 AirPods TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "随机附带的原装Lightning数据线。",
+          "module": "earbuds",
+          "phase": "intro"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/03/苹果国行AIRPODS-7.jpg",
+          "alt": "拆解报告：Apple苹果 AirPods TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "我爱音频网采用ChargerLAB POWER-Z KT001进行充电测试，充电电流343mA。",
+          "module": "earbuds",
+          "phase": "intro"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/03/苹果国行AIRPODS-10.jpg",
+          "alt": "拆解报告：Apple苹果 AirPods TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "底部的Lightning接口。",
+          "module": "earbuds",
+          "phase": "intro"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/03/苹果国行AIRPODS-12.jpg",
+          "alt": "拆解报告：Apple苹果 AirPods TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "在盒身背面连接合盖与盒身的金属合页，合页下面是Designed by Apple in California, Assembled in China的字样。",
+          "module": "earbuds",
+          "phase": "intro"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/03/苹果国行AIRPODS-14.jpg",
+          "alt": "拆解报告：Apple苹果 AirPods TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "耳机仓内特写，底下是两个充电触点，舱位做工平整，左右对称。",
+          "module": "earbuds",
+          "phase": "intro"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/03/苹果国行AIRPODS-16.jpg",
+          "alt": "拆解报告：Apple苹果 AirPods TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "两只耳机在外观上就像是被去掉线材的苹果原装耳机，不同之处是背后多了一个大的调音孔以及柄部变粗了。",
+          "module": "earbuds",
+          "phase": "intro"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/03/苹果国行AIRPODS-17.jpg",
+          "alt": "拆解报告：Apple苹果 AirPods TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "出音位置是金属防尘网。",
+          "module": "earbuds",
+          "phase": "intro"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2019/03/苹果国行AIRPODS-18.jpg",
+          "alt": "拆解报告：Apple苹果 AirPods TWS真无线蓝牙耳机-我爱音频网",
+          "caption": "耳机部分，长条状的是气压平衡孔，上面的圆点是骨传导传感器。",
+          "module": "earbuds",
+          "phase": "intro"
+        }
+      ],
+      "image_count": 71,
+      "teardown_image_count": 0
+    },
+    "gaps": [],
+    "completeness": 1.0
+  },
+  "market": {
+    "selling_points": [
+      {
+        "text": "除此之外，苹果AirPods的诞生也为蓝牙耳机市场带来了全新的技术变革：TWS（True Wireless Stereo）真正无线立体声。",
+        "tag": "其他",
+        "evidence": {
+          "value": "除此之外，苹果AirPods的诞生也为蓝牙耳机市场带来了全新的技术变革：TWS（True Wireless Stereo）真正无线立体声。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "除此之外，苹果AirPods的诞生也为蓝牙耳机市场带来了全新的技术变革：TWS（True Wireless Stereo）真正无线立体声。"
+        }
+      },
+      {
+        "text": "苹果第一款的真无线蓝牙耳机，其内部想必是精心设计且非常精密的，我爱音频网想方设法对它进行小心翼翼的拆解，接下来一起来看看。",
+        "tag": "其他",
+        "evidence": {
+          "value": "苹果第一款的真无线蓝牙耳机，其内部想必是精心设计且非常精密的，我爱音频网想方设法对它进行小心翼翼的拆解，接下来一起来看看。",
+          "confidence": 0.71,
+          "source_type": "text",
+          "source_text": "苹果第一款的真无线蓝牙耳机，其内部想必是精心设计且非常精密的，我爱音频网想方设法对它进行小心翼翼的拆解，接下来一起来看看。"
+        }
+      },
+      {
+        "text": "耳机的充电触点被巧妙地设置在底部，它们是用中间塑料断层隔开的两个半圆的金属触片，中间是通话麦克风，有金属网防尘。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "耳机的充电触点被巧妙地设置在底部，它们是用中间塑料断层隔开的两个半圆的金属触片，中间是通话麦克风，有金属网防尘。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "耳机的充电触点被巧妙地设置在底部，它们是用中间塑料断层隔开的两个半圆的金属触片，中间是通话麦克风，有金属网防尘。"
+        }
+      },
+      {
+        "text": "骨传导传感器的排线上还有信号天线的触点，信号天线除了看到的部分外，在防尘网底下还有半圈。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "骨传导传感器的排线上还有信号天线的触点，信号天线除了看到的部分外，在防尘网底下还有半圈。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "骨传导传感器的排线上还有信号天线的触点，信号天线除了看到的部分外，在防尘网底下还有半圈。"
+        }
+      },
+      {
+        "text": "出音位置是金属防尘网。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "出音位置是金属防尘网。",
+          "confidence": 0.6,
+          "source_type": "text",
+          "source_text": "出音位置是金属防尘网。"
+        }
+      },
+      {
+        "text": "降噪麦克风孔。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "降噪麦克风孔。",
+          "confidence": 0.6,
+          "source_type": "text",
+          "source_text": "降噪麦克风孔。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "除此之外，苹果AirPods的诞生也为蓝牙耳机市场带来了全新的技术变革：TWS（True Wireless Stereo）真正无线立体声。",
+    "launch_date": null,
+    "best_report_id": "16732",
+    "best_video_id": null
+  }
+}

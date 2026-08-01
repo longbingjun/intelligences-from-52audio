@@ -47,8 +47,11 @@
     "ip_rating": "",
     "bluetooth": "",
     "bom_row_count": 21,
-    "price_cny": null,
-    "price_layer": null,
+    "price_cny": 1298,
+    "price_layer": "official",
+    "price_source_label": "发布报道价",
+    "price_source_url": "https://www.ithome.com/0/829/164.htm",
+    "price_evidence": "新品发布报道载明预售价 1298 元，且将于 2025-02-10 正式开售。",
     "channel_url": null,
     "sales_hint": null,
     "data_completeness": 0.83,
@@ -359,7 +362,9 @@
       "video:229765"
     ],
     "channel": [],
-    "official": [],
+    "official": [
+      "official:shokz--openfit-2"
+    ],
     "unboxing": [
       "unboxing:228094"
     ],
@@ -596,6 +601,28 @@
     "positioning_summary": "近日，迭代升级的\nOPENFIT 2开放式耳机\n正式发布，在佩戴舒适性、音质、续航等方面均得到了大幅提升。",
     "launch_date": null,
     "best_report_id": "228094",
-    "best_video_id": null
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "佩戴舒适",
+        "text": "全新海豚弧耳挂与气囊结构，液态亲肤硅胶和超零度硅胶材质，保障长久舒适佩戴。"
+      },
+      {
+        "tag": "通话降噪",
+        "text": "4麦麦克风阵列精准拾音，AI通话降噪技术过滤环境噪音，提供清晰人声。"
+      },
+      {
+        "tag": "功能特性",
+        "text": "双引擎技术、多功能实体按键、海豚弧耳挂、超零度硅胶、整机48小时超长续航和IP55抗水抗汗。"
+      },
+      {
+        "tag": "产品信息",
+        "text": "型号SHOKZ T920，产品名称OPENFIT 2开放式耳机，生产商深圳市韶音科技有限公司。"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "d38afd53c52c69609c0c6e82fa9b4d7cd14cfac688c1a827038d090c0e272d56"
+    }
   }
 }

@@ -1,0 +1,500 @@
+{
+  "canonical_id": "oppo--enco-air2i",
+  "brand": "OPPO",
+  "model": "ENCO Air2i",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "130400"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "130400"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2022-08-31",
+  "latest_published": "2022-08-31",
+  "internal_match_suggestions": [
+    {
+      "sku": "OpenFit 2",
+      "score": 0.571,
+      "reason": "型号相似度 57%（匹配 OpenFit 2）"
+    },
+    {
+      "sku": "OpenDots 2",
+      "score": 0.545,
+      "reason": "型号相似度 55%（匹配 OpenDots 2）"
+    },
+    {
+      "sku": "OpenRun Pro 2",
+      "score": 0.5,
+      "reason": "型号相似度 50%（匹配 OpenRun Pro 2）"
+    }
+  ],
+  "cost_snapshot": {
+    "main_chip": "恒玄BES2500IUC",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "460 mAh",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.2",
+    "bom_row_count": 13,
+    "price_cny": null,
+    "price_layer": null,
+    "price_source_label": "",
+    "price_source_url": "",
+    "price_evidence": "",
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "130400",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "电池背面标签上有各种认证标志。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "主板下方固定电池，包裹有海绵防护。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "OPPO ENCO Air2i耳机采用了柄状的入耳式设计，质感与充电盒保持一致，专业人机工学设计，提供全天候舒适佩戴体验。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "OPPO ENCO Air2i耳机采用了柄状的入耳式设计，质感与充电盒保持一致，专业人机工学设计，提供全天候舒适佩戴体验。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "扬声器正面特写，采用了复合镀钛振膜。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄底部设置为耳机充电的金属触点和通话拾音麦克风开孔。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧设置有蓝牙天线和触摸检测贴片，露铜连接到主板。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电接口：充电盒底部设置Type-C充电接口和一颗指示灯。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SY8812",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SY8812",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "充电接口：内部结构配置方面，充电盒采用了精睿兴业Type-C接口输入电源，内置紫建电子460mAh锂电池，由思远SY8812充电仓SoC负责充放电管理；由创芯微CM1127-CBS一体化锂电保护IC负责电池的过充电、过放电、过电流等保护；还采用了晟矽微MC35P7050单片机，用于充电盒整机控制。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1127",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM1127",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "充电接口：内部结构配置方面，充电盒采用了精睿兴业Type-C接口输入电源，内置紫建电子460mAh锂电池，由思远SY8812充电仓SoC负责充放电管理；由创芯微CM1127-CBS一体化锂电保护IC负责电池的过充电、过放电、过电流等保护；还采用了晟矽微MC35P7050单片机，用于充电盒整机控制。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "SY8812",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "SY8812",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "标记/认证：思远SY8812优化了产品应用设计可靠性的性能，输入耐压高达DC30V，并且芯片已经通过了IEC62368安规认证。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "恒玄BES2500IUC",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2500IUC",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：460\n芯片 SY8812\n芯片 CM1127\n芯片 恒玄BES2500IUC\n芯片 CM1126B\n芯片 BES2500"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1127",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM1127",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：460\n芯片 SY8812\n芯片 CM1127\n芯片 恒玄BES2500IUC\n芯片 CM1126B\n芯片 BES2500"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:130400"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [
+      "unboxing:130400"
+    ],
+    "review": []
+  },
+  "unboxing": {
+    "report_id": "130400",
+    "packaging": {
+      "description": "OPPO ENCO Air2i真无线耳机包装盒延续了家族式的设计，包装盒正面展示有耳机外观渲染图，“OPPO ENCO”系列LOGO，以及“Air2i”产品名称。",
+      "accessories": [
+        "耳塞包括大",
+        "小三种尺寸",
+        "以满足不同用户使用需求"
+      ],
+      "appearance_images": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/08/2022083107592144.jpeg",
+          "alt": "拆解报告：OPPO ENCO Air2i真无线耳机-我爱音频网",
+          "caption": "拆解报告：OPPO ENCO Air2i真无线耳机-我爱音频网",
+          "module": "packaging",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/08/2022083107592646.jpeg",
+          "alt": "拆解报告：OPPO ENCO Air2i真无线耳机-我爱音频网",
+          "caption": "包装盒内部物品有耳机、耳塞、充电线和产品说明书。",
+          "module": "packaging",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/08/2022083107592879.jpeg",
+          "alt": "拆解报告：OPPO ENCO Air2i真无线耳机-我爱音频网",
+          "caption": "随机附带耳塞包括大、中、小三种尺寸，以满足不同用户使用需求。",
+          "module": "packaging",
+          "phase": "unboxing"
+        }
+      ],
+      "image_count": 3,
+      "teardown_image_count": 0
+    },
+    "charging_case": {
+      "description": "产品参数信息，耳机型号：ETE41，充电盒型号：ETE42，发声单元：10mm动圈，频率响应范围：20Hz~20KHz，蓝牙编解码：AAC/SBC，蓝牙版本：5.2，蓝牙有效距离：10m，充电输入（充电盒）：5V-1A。",
+      "accessories": [],
+      "appearance_images": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/08/2022083107592471.jpeg",
+          "alt": "拆解报告：OPPO ENCO Air2i真无线耳机-我爱音频网",
+          "caption": "产品参数信息，耳机型号：ETE41，充电盒型号：ETE42，发声单元：10mm动圈，频率响应范围：20Hz~20KHz，蓝牙编解码：AAC/SBC，蓝牙版本：5.2，蓝牙有效距离：10m，充电输入（充电盒）：5V-1A。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/08/2022083107593132.jpeg",
+          "alt": "拆解报告：OPPO ENCO Air2i真无线耳机-我爱音频网",
+          "caption": "充电盒背面外观一览。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/08/2022083107593327.jpeg",
+          "alt": "拆解报告：OPPO ENCO Air2i真无线耳机-我爱音频网",
+          "caption": "充电盒底部设置Type-C充电接口和一颗指示灯。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/08/2022083107593472.jpeg",
+          "alt": "拆解报告：OPPO ENCO Air2i真无线耳机-我爱音频网",
+          "caption": "打开充电盒盖，耳机放置状态展示，突出于座舱便于取出。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/08/2022083107593646.jpeg",
+          "alt": "拆解报告：OPPO ENCO Air2i真无线耳机-我爱音频网",
+          "caption": "取出耳机，座舱内部结构一览。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/08/2022083107593732.jpeg",
+          "alt": "拆解报告：OPPO ENCO Air2i真无线耳机-我爱音频网",
+          "caption": "充电盒盖内侧丝印参数信息，输入：5V-1A，输出：5V-300mA，额定容量：460mAh/1.748Wh。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/08/2022083107593952.jpeg",
+          "alt": "拆解报告：OPPO ENCO Air2i真无线耳机-我爱音频网",
+          "caption": "耳机柄座舱底部为耳机充电的金属顶针特写。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        }
+      ],
+      "image_count": 18,
+      "teardown_image_count": 11
+    },
+    "earbuds": {
+      "description": "OPPO ENCO Air2i真无线耳机整体外观一览。",
+      "accessories": [],
+      "appearance_images": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/08/2022083107594035.jpeg",
+          "alt": "拆解报告：OPPO ENCO Air2i真无线耳机-我爱音频网",
+          "caption": "OPPO ENCO Air2i真无线耳机整体外观一览。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/08/2022083107594268.jpeg",
+          "alt": "拆解报告：OPPO ENCO Air2i真无线耳机-我爱音频网",
+          "caption": "OPPO ENCO Air2i耳机采用了柄状的入耳式设计，质感与充电盒保持一致，专业人机工学设计，提供全天候舒适佩戴体验。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/08/2022083107594429.jpeg",
+          "alt": "拆解报告：OPPO ENCO Air2i真无线耳机-我爱音频网",
+          "caption": "OPPO ENCO Air2i耳机外侧外观一览，耳机柄采用了椭圆形设计，背部触控区域设置有平面，提升盲操作准确性。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/08/2022083107594685.jpeg",
+          "alt": "拆解报告：OPPO ENCO Air2i真无线耳机-我爱音频网",
+          "caption": "耳机触控平面区域特写。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/08/2022083107594780.jpeg",
+          "alt": "拆解报告：OPPO ENCO Air2i真无线耳机-我爱音频网",
+          "caption": "耳机柄底部设置为耳机充电的金属触点和通话拾音麦克风开孔。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/08/2022083107594944.jpeg",
+          "alt": "拆解报告：OPPO ENCO Air2i真无线耳机-我爱音频网",
+          "caption": "耳机内侧外观一览。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/08/2022083107595024.jpeg",
+          "alt": "拆解报告：OPPO ENCO Air2i真无线耳机-我爱音频网",
+          "caption": "耳机头侧边泄压孔特写，保障腔体内部空气流通。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/08/2022083107595262.jpeg",
+          "alt": "拆解报告：OPPO ENCO Air2i真无线耳机-我爱音频网",
+          "caption": "耳机头上雕刻的L/左标识特写，使用户能够快速区分。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        }
+      ],
+      "image_count": 50,
+      "teardown_image_count": 38
+    },
+    "gaps": [],
+    "completeness": 1.0
+  },
+  "market": {
+    "selling_points": [
+      {
+        "text": "标记/认证：耳机内置锂电池型号：541112K，额定电压：3.7V，额定容量：40mAh/0.148Wh，同样来自紫建电子。",
+        "tag": "其他",
+        "evidence": {
+          "value": "标记/认证：耳机内置锂电池型号：541112K，额定电压：3.7V，额定容量：40mAh/0.148Wh，同样来自紫建电子。",
+          "confidence": 0.68,
+          "source_type": "text",
+          "source_text": "标记/认证：耳机内置锂电池型号：541112K，额定电压：3.7V，额定容量：40mAh/0.148Wh，同样来自紫建电子。"
+        }
+      },
+      {
+        "text": "在个人音频 […]\nOPPO ENCO Air2i耳机采用了柄状的入耳式设计，质感与充电盒保持一致，专业人机工学设计，提供全天候舒适佩戴体验。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "在个人音频 […]\nOPPO ENCO Air2i耳机采用了柄状的入耳式设计，质感与充电盒保持一致，专业人机工学设计，提供全天候舒适佩戴体验。",
+          "confidence": 0.61,
+          "source_type": "text",
+          "source_text": "在个人音频 […]\nOPPO ENCO Air2i耳机采用了柄状的入耳式设计，质感与充电盒保持一致，专业人机工学设计，提供全天候舒适佩戴体验。"
+        }
+      },
+      {
+        "text": "扬声器正面特写，采用了复合镀钛振膜。",
+        "tag": "其他",
+        "evidence": {
+          "value": "扬声器正面特写，采用了复合镀钛振膜。",
+          "confidence": 0.61,
+          "source_type": "text",
+          "source_text": "扬声器正面特写，采用了复合镀钛振膜。"
+        }
+      },
+      {
+        "text": "取掉耳塞，耳机出音嘴特写，采用防尘网防护，防止异物进入音腔。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "取掉耳塞，耳机出音嘴特写，采用防尘网防护，防止异物进入音腔。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "取掉耳塞，耳机出音嘴特写，采用防尘网防护，防止异物进入音腔。"
+        }
+      },
+      {
+        "text": "电池背面标签上有各种认证标志。",
+        "tag": "其他",
+        "evidence": {
+          "value": "电池背面标签上有各种认证标志。",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "电池背面标签上有各种认证标志。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "标记/认证：耳机内置锂电池型号：541112K，额定电压：3.7V，额定容量：40mAh/0.148Wh，同样来自紫建电子。",
+    "launch_date": null,
+    "best_report_id": "130400",
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "设计",
+        "text": "柄状入耳式设计，质感与充电盒一致，专业人机工学，全天候舒适佩戴。"
+      },
+      {
+        "tag": "音质",
+        "text": "采用复合镀钛振膜扬声器，提升音质表现。"
+      },
+      {
+        "tag": "防护",
+        "text": "出音嘴采用防尘网防护，防止异物进入音腔。"
+      },
+      {
+        "tag": "电池",
+        "text": "内置锂电池，额定电压3.7V，容量40mAh/0.148Wh，来自紫建电子。"
+      },
+      {
+        "tag": "认证",
+        "text": "电池背面标签带有各种认证标志。"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "e9dfc32811ac1f230bdc8b63dc1e4c9279edbeab3ac4cbd88f647c83a261e3a3"
+    }
+  }
+}

@@ -31,8 +31,11 @@
     "ip_rating": "",
     "bluetooth": "5.4",
     "bom_row_count": 20,
-    "price_cny": null,
-    "price_layer": null,
+    "price_cny": 1428,
+    "price_layer": "official",
+    "price_source_label": "发布报道价",
+    "price_source_url": "https://www.ithome.com/0/837/046.htm",
+    "price_evidence": "漫步者发布信息明确产品定价 1428 元。",
     "channel_url": null,
     "sales_hint": null,
     "data_completeness": 0.83,
@@ -329,7 +332,9 @@
       "video:247390"
     ],
     "channel": [],
-    "official": [],
+    "official": [
+      "official:edifier--neobuds-planar"
+    ],
     "unboxing": [
       "unboxing:243409"
     ],
@@ -566,6 +571,32 @@
     "positioning_summary": "该单元振膜采用2微米基材，总厚度仅约10微米，出色的瞬态响应，能够更好地展现高频细节；采用第二代EqualMass专利平面振膜技术，创新“对称悬挂布线设计”，精准一致振膜分割震动，带来低失真的纯净音质。",
     "launch_date": null,
     "best_report_id": "243409",
-    "best_video_id": null
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "音质",
+        "text": "2微米基材振膜，总厚度约10微米，瞬态响应出色，展现高频细节。"
+      },
+      {
+        "tag": "音质",
+        "text": "第二代EqualMass专利平面振膜技术，对称悬挂布线设计，低失真纯净音质。"
+      },
+      {
+        "tag": "连接",
+        "text": "搭载Snapdragon Sound骁龙畅听，提供稳定连接和低时延音频体验。"
+      },
+      {
+        "tag": "品牌",
+        "text": "漫步者2016年入股Audeze，融入平板发声技术，打造纯净音质。"
+      },
+      {
+        "tag": "设计",
+        "text": "延续NeoBuds系列经典设计，造型硬朗，类金属磨砂涂层，质感出色。"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "ccb6068fb1a13d559d6fd272cc74f9e5d193cf6ca786a4de17c936e108f3f436"
+    }
   }
 }

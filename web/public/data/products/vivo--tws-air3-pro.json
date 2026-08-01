@@ -27,8 +27,11 @@
     "ip_rating": "",
     "bluetooth": "6.0",
     "bom_row_count": 15,
-    "price_cny": null,
-    "price_layer": null,
+    "price_cny": 199,
+    "price_layer": "official",
+    "price_source_label": "官方新闻价",
+    "price_source_url": "https://m.vivo.com.cn/brand/news/detail?id=1313",
+    "price_evidence": "vivo 官网新闻写明标准版上市价格为 199 元；长续航版 229 元，未混用。",
     "channel_url": null,
     "sales_hint": null,
     "data_completeness": 0.83,
@@ -262,7 +265,9 @@
       "report:252810"
     ],
     "channel": [],
-    "official": [],
+    "official": [
+      "official:vivo--tws-air3-pro"
+    ],
     "unboxing": [
       "unboxing:252810"
     ],
@@ -511,6 +516,36 @@
     "positioning_summary": "支持自适应降噪，智能匹配对应模式下至优降噪效果；支持三麦AI通话降噪，搭配抗风噪导光结构设计，有效抑制背景噪声、保留人声，提供清晰通话效果。",
     "launch_date": null,
     "best_report_id": "252810",
-    "best_video_id": null
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "降噪",
+        "text": "支持自适应降噪，智能匹配至优降噪效果"
+      },
+      {
+        "tag": "通话降噪",
+        "text": "三麦AI通话降噪搭配抗风噪结构，清晰通话"
+      },
+      {
+        "tag": "降噪认证",
+        "text": "50dB主动降噪深度，获A+级降噪能力认证"
+      },
+      {
+        "tag": "音质",
+        "text": "12mm镀钛振膜喇叭，金耳朵调教细腻细节"
+      },
+      {
+        "tag": "空间音频",
+        "text": "支持空间音频，四种模式呈现身临其境听感"
+      },
+      {
+        "tag": "设计",
+        "text": "小巧轻薄充电盒，类金属磨砂涂层质感出色"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "9b763c48f434d9ed77075638623fcfe372712edb91b8edfde78b4f30a8d05d6a"
+    }
   }
 }

@@ -1,0 +1,558 @@
+{
+  "canonical_id": "timekettle--w4-pro-ai",
+  "brand": "Timekettle时空壶",
+  "model": "W4 Pro AI同声传译",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "249877"
+  ],
+  "video_ids": [
+    "251599"
+  ],
+  "related_report_ids": [
+    "249877"
+  ],
+  "related_video_ids": [
+    "251599"
+  ],
+  "first_seen": "2025-08-18",
+  "latest_published": "2025-08-29",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "JL7016",
+    "pmic_case": "CM1103",
+    "battery_ear": "1V/10mAh锂电池",
+    "battery_case": "8V/00mAh锂电池",
+    "speaker": "喇叭单元",
+    "materials": "钛合金、PC",
+    "weight_g": "189.2g",
+    "weight_case_g": "",
+    "weight_earbud_g": "16.7g",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 19,
+    "price_cny": null,
+    "price_layer": null,
+    "price_source_label": "",
+    "price_source_url": "",
+    "price_evidence": "",
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "249877",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "麦克风",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "独特的麦克风杆设计，搭配三麦克风阵列，实现了更加精准的收音效果。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "JL杰理",
+      "model": "JL7016",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "JL7016",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片为JL杰理科技JL7016G蓝牙音频SoC；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1103",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "保护IC",
+      "evidence": {
+        "value": "CM1103",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内置CEL金赛尔110mAh/3.8V锂电池，配备iCM创芯微CM1103系列二合一锂电保护IC。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "1V/10mAh锂电池",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "1V/10mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "内置CEL金赛尔110mAh/3.8V锂电池，配备iCM创芯微CM1103系列二合一锂电保护IC。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "3",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机搭载大尺寸动圈喇叭，内置三颗MEMS麦克风拾音；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "8V/00mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "8V/00mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内部搭载旭航诚800mAh/3.7V锂电池组，采用了JL杰理AC982A充电仓SoC。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒底部介绍了产品参数信息。产品名称：AI同声传译耳机，产品型号：W4 Pro，输入电压：5V-1A，电池容量：耳机单只（110mAh），充电仓（800mAh），生产商：深圳时空壶技术有限公司。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "沿合模线打开音腔，前腔内部扬声器通过盖板密封，导线与主板焊接。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "时空壶W4 Pro搭载三麦克风阵列，结合长柄式外观设计和失量降噪算法，保障多场景下的精准拾音，从而提升翻译的准确性；三麦结构配合VNC算法，还能带来更清晰的人声通话效果。续航方面，可支持单次6小时，搭配充电盒综合18小时的翻译播放。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "时空壶W4 Pro搭载三麦克风阵列，结合长柄式外观设计和失量降噪算法，保障多场景下的精准拾音，从而提升翻译的准确性；三麦结构配合VNC算法，还能带来更清晰的人声通话效果。续航方面，可支持单次6小时，搭配充电盒综合18小时的翻译播放。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机内置扬声器正面特写，采用了纤维复合振膜，通过金属盖板防护。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "陶瓷蓝牙天线特写，用于无线信号收发。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机外侧外观一览，机身线条流畅，整体造型类似耳挂式耳机在音腔部分增加了“吊杆麦克风”，并在上面布置了三颗麦克风阵列。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "麦克风杆内侧的充电触点特写。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "沿合模线打开音腔，前腔内部扬声器通过盖板密封，导线与主板焊接。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身底部采用了类肤质感，设计有一颗功能按键，用于蓝牙配对等功能控制。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身侧边采用了类金属磨砂涂层，提供出色的质感。设置有一颗指示灯，用于反馈蓝牙配对及充电状态。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1103",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM1103",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "iCM创芯微CM1103系列二合一锂电保护IC，负责电池的过充电，过放电，过电流，短路保护。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "JL7016",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "JL7016",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "JL杰理科技JL7016G蓝牙音频SoC，用于无线连接和音频数据处理。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "三、我爱音频网总结 Timekettle时空壶W4 Pro AI同声传译耳机在外观方面，设计独具特色，质感非常出众。充电盒采用二合一的分体式结构，能够便捷取放耳机。耳机具有浓厚的商务风格，其开放式设计不仅佩戴舒适，而且更加卫生；独特的麦克风杆设计，搭配三麦克风阵列，实现了更加精准的收音效果。 内部主要配置方面，耳机搭载大尺寸动圈喇叭，内置三颗MEMS麦克风拾音；主控芯片为JL杰理科技JL7016G蓝牙音频SoC；内置CEL金赛尔110mAh/3.8V锂电池，配备iCM创芯微CM1103系列二合一锂电保护IC。充电盒内部搭载旭航诚800mAh/3.7V锂电池组，采用了JL杰理AC982A充电仓SoC。",
+  "layer_refs": {
+    "technical": [
+      "report:249877",
+      "video:251599"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [
+      "unboxing:249877"
+    ],
+    "review": []
+  },
+  "unboxing": {
+    "report_id": "249877",
+    "packaging": {
+      "description": "Timekettle时空壶W4 Pro AI同声传译耳机包装盒采用了黑色背景，正面展示有模特佩戴效果图，以及品牌LOGO和产品名称信息。",
+      "accessories": [
+        "主机",
+        "充电线",
+        "产品说明书"
+      ],
+      "appearance_images": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/08/2025081810405011.jpg",
+          "alt": "拆解报告：Timekettle时空壶W4 Pro AI同声传译耳机-我爱音频网",
+          "caption": "拆解报告：Timekettle时空壶W4 Pro AI同声传译耳机-我爱音频网",
+          "module": "packaging",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/08/2025081810405557.jpg",
+          "alt": "拆解报告：Timekettle时空壶W4 Pro AI同声传译耳机-我爱音频网",
+          "caption": "包装盒背面介绍了产品的功能特点：实时听说 双向翻译、通话翻译 视频翻译、40+在线语种、95%平均翻译准确率、6小时超长翻译续航、离线翻译。",
+          "module": "packaging",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/08/2025081810405083.jpg",
+          "alt": "拆解报告：Timekettle时空壶W4 Pro AI同声传译耳机-我爱音频网",
+          "caption": "包装盒底部介绍了产品参数信息。产品名称：AI同声传译耳机，产品型号：W4 Pro，输入电压：5V-1A，电池容量：耳机单只（110mAh），充电仓（800mAh），生产商：深圳时空壶技术有限公司。",
+          "module": "packaging",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/08/2025081810405376.jpg",
+          "alt": "拆解报告：Timekettle时空壶W4 Pro AI同声传译耳机-我爱音频网",
+          "caption": "打开包装盒，取出所有物品，包括主机、充电线和产品说明书。",
+          "module": "packaging",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/08/2025081810404860.jpg",
+          "alt": "拆解报告：Timekettle时空壶W4 Pro AI同声传译耳机-我爱音频网",
+          "caption": "机身底部采用了类肤质感，设计有一颗功能按键，用于蓝牙配对等功能控制。",
+          "module": "packaging",
+          "phase": "unboxing"
+        }
+      ],
+      "image_count": 5,
+      "teardown_image_count": 0
+    },
+    "charging_case": {
+      "description": "充电线采用了USB-A to Type-C接口，具有广泛的兼容性。",
+      "accessories": [],
+      "appearance_images": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/08/2025081810405590.jpg",
+          "alt": "拆解报告：Timekettle时空壶W4 Pro AI同声传译耳机-我爱音频网",
+          "caption": "充电线采用了USB-A to Type-C接口，具有广泛的兼容性。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/08/2025081810405722.jpg",
+          "alt": "拆解报告：Timekettle时空壶W4 Pro AI同声传译耳机-我爱音频网",
+          "caption": "机身侧边采用了类金属磨砂涂层，提供出色的质感。设置有一颗指示灯，用于反馈蓝牙配对及充电状态。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/08/2025081810405739.jpg",
+          "alt": "拆解报告：Timekettle时空壶W4 Pro AI同声传译耳机-我爱音频网",
+          "caption": "机身另外一侧设置有Type-C充电接口。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/08/2025081810410082.jpg",
+          "alt": "拆解报告：Timekettle时空壶W4 Pro AI同声传译耳机-我爱音频网",
+          "caption": "取出耳机，右耳座舱内部结构一览。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/08/2025081810405039.jpg",
+          "alt": "拆解报告：Timekettle时空壶W4 Pro AI同声传译耳机-我爱音频网",
+          "caption": "右耳座舱内部为耳机充电的金属顶针特写。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/08/2025081810405916.jpg",
+          "alt": "拆解报告：Timekettle时空壶W4 Pro AI同声传译耳机-我爱音频网",
+          "caption": "右耳座舱上用于连接上下腔体的金属顶针。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/08/2025081810404766.jpg",
+          "alt": "拆解报告：Timekettle时空壶W4 Pro AI同声传译耳机-我爱音频网",
+          "caption": "左耳座舱内部结构一览，与右耳相同。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/08/2025081810405660.jpg",
+          "alt": "拆解报告：Timekettle时空壶W4 Pro AI同声传译耳机-我爱音频网",
+          "caption": "耳机外侧的指示灯特写，用于反馈蓝牙连接状态和剩余电量信息。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        }
+      ],
+      "image_count": 20,
+      "teardown_image_count": 12
+    },
+    "earbuds": {
+      "description": "Timekettle时空壶W4 Pro AI同声传译耳机采用了圆角方形的二合一分体式设计，通过磁吸固定。机身顶部采用了亮黑色面板，质感光滑，设计有品牌LOGO。",
+      "accessories": [],
+      "appearance_images": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/08/2025081810405368.jpg",
+          "alt": "拆解报告：Timekettle时空壶W4 Pro AI同声传译耳机-我爱音频网",
+          "caption": "分离上下腔体，打开盒盖，内部耳机通过磁吸固定，座舱上通过不同颜色设计L/R左右标识，便于用户区分。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/08/2025081810410359.jpg",
+          "alt": "拆解报告：Timekettle时空壶W4 Pro AI同声传译耳机-我爱音频网",
+          "caption": "Timekettle时空壶W4 Pro AI同声传译耳机整体外观一览，耳机采用了独特的开放式设计，佩戴无需入耳，分享他人使用更卫生。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/08/2025081810410089.jpg",
+          "alt": "拆解报告：Timekettle时空壶W4 Pro AI同声传译耳机-我爱音频网",
+          "caption": "耳机外侧外观一览，机身线条流畅，整体造型类似耳挂式耳机在音腔部分增加了“吊杆麦克风”，并在上面布置了三颗麦克风阵列。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/08/2025081810502056.jpeg",
+          "alt": "拆解报告：Timekettle时空壶W4 Pro AI同声传译耳机-我爱音频网",
+          "caption": "第一个麦克风拾音孔特写，内部丝网防护。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/08/2025081810404954.jpg",
+          "alt": "拆解报告：Timekettle时空壶W4 Pro AI同声传译耳机-我爱音频网",
+          "caption": "第二个麦克风拾音孔特写。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/08/2025081810410391.jpg",
+          "alt": "拆解报告：Timekettle时空壶W4 Pro AI同声传译耳机-我爱音频网",
+          "caption": "第三个麦克风拾音孔特写。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/08/2025081810405468.jpg",
+          "alt": "拆解报告：Timekettle时空壶W4 Pro AI同声传译耳机-我爱音频网",
+          "caption": "耳机内侧外观一览，耳挂末端设计L/R左右标识。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/08/2025081810405549.jpg",
+          "alt": "拆解报告：Timekettle时空壶W4 Pro AI同声传译耳机-我爱音频网",
+          "caption": "耳机出音嘴特写，椭圆形设计，金属盖板防护。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        }
+      ],
+      "image_count": 49,
+      "teardown_image_count": 37
+    },
+    "gaps": [],
+    "completeness": 1.0
+  },
+  "market": {
+    "selling_points": [
+      {
+        "text": "时空壶W4 Pro搭载三麦克风阵列，结合长柄式外观设计和失量降噪算法，保障多场景下的精准拾音，从而提升翻译的准确性；三麦结构配合VNC算法，还能带来更清晰的人声通话效果。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "时空壶W4 Pro搭载三麦克风阵列，结合长柄式外观设计和失量降噪算法，保障多场景下的精准拾音，从而提升翻译的准确性；三麦结构配合VNC算法，还能带来更清晰的人声通话效果。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "时空壶W4 Pro搭载三麦克风阵列，结合长柄式外观设计和失量降噪算法，保障多场景下的精准拾音，从而提升翻译的准确性；三麦结构配合VNC算法，还能带来更清晰的人声通话效果。"
+        }
+      },
+      {
+        "text": "第一个麦克风拾音孔特写，内部丝网防护。",
+        "tag": "其他",
+        "evidence": {
+          "value": "第一个麦克风拾音孔特写，内部丝网防护。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "第一个麦克风拾音孔特写，内部丝网防护。"
+        }
+      },
+      {
+        "text": "而随着生成式AI大模型的应用，翻译也逐渐成为了更多蓝牙耳机的主要功能，体验上也得到大幅升级。",
+        "tag": "其他",
+        "evidence": {
+          "value": "而随着生成式AI大模型的应用，翻译也逐渐成为了更多蓝牙耳机的主要功能，体验上也得到大幅升级。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "而随着生成式AI大模型的应用，翻译也逐渐成为了更多蓝牙耳机的主要功能，体验上也得到大幅升级。"
+        }
+      },
+      {
+        "text": "Timekettle时空壶W4 Pro AI同声传译耳机\n是一款旗舰级产品，定位于单机满足线上线下全场景的语音翻译需求。",
+        "tag": "旗舰定位",
+        "evidence": {
+          "value": "Timekettle时空壶W4 Pro AI同声传译耳机\n是一款旗舰级产品，定位于单机满足线上线下全场景的语音翻译需求。",
+          "confidence": 0.64,
+          "source_type": "text",
+          "source_text": "Timekettle时空壶W4 Pro AI同声传译耳机\n是一款旗舰级产品，定位于单机满足线上线下全场景的语音翻译需求。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "时空壶W4 Pro搭载三麦克风阵列，结合长柄式外观设计和失量降噪算法，保障多场景下的精准拾音，从而提升翻译的准确性；三麦结构配合VNC算法，还能带来更清晰的人声通话效果。",
+    "launch_date": null,
+    "best_report_id": "249877",
+    "best_video_id": null
+  }
+}

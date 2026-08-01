@@ -27,8 +27,11 @@
     "ip_rating": "",
     "bluetooth": "",
     "bom_row_count": 16,
-    "price_cny": null,
-    "price_layer": null,
+    "price_cny": 549,
+    "price_layer": "official",
+    "price_source_label": "发布报道价",
+    "price_source_url": "https://article.pchome.net/news/8089.html",
+    "price_evidence": "新品发布信息转述荣耀官方定价549元；国补到手价466.65元未写入。",
     "channel_url": null,
     "sales_hint": null,
     "data_completeness": 1.0,
@@ -276,7 +279,9 @@
       "report:284244"
     ],
     "channel": [],
-    "official": [],
+    "official": [
+      "official:unknown--lchse2-pro"
+    ],
     "unboxing": [],
     "review": []
   },
@@ -368,6 +373,36 @@
     "positioning_summary": "主打开放佩戴、舒适佩戴、降噪；适用运动、通话等场景",
     "launch_date": null,
     "best_report_id": "284244",
-    "best_video_id": null
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "音质",
+        "text": "12mm双磁路LCP液晶振膜单元，声音澎湃细腻真实"
+      },
+      {
+        "tag": "音质",
+        "text": "动态低音优化响度控制，增强环绕声提升空间感"
+      },
+      {
+        "tag": "佩戴",
+        "text": "钛合金拱桥自适应耳廓，亮面质感佩戴舒适"
+      },
+      {
+        "tag": "隐私",
+        "text": "定向传音降低漏音，保护用户隐私"
+      },
+      {
+        "tag": "降噪",
+        "text": "镭雕MEMS麦克风用于通话降噪拾音"
+      },
+      {
+        "tag": "平台",
+        "text": "物奇微WQ703X系列开放DSP生态，性能领先"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "b5d9d1b9644db5197d95ff3316720a19e6b1e0f862221a7ffb218e625ed7b96a"
+    }
   }
 }

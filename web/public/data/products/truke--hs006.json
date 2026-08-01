@@ -1,0 +1,445 @@
+{
+  "canonical_id": "truke--hs006",
+  "brand": "TRÜKE充客",
+  "model": "HS006灵越",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "159433"
+  ],
+  "video_ids": [
+    "282298"
+  ],
+  "related_report_ids": [
+    "159433"
+  ],
+  "related_video_ids": [
+    "282298"
+  ],
+  "first_seen": "2023-05-09",
+  "latest_published": "2026-07-10",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "Injoinic英集芯IP5416",
+    "pmic_case": "",
+    "battery_ear": "电池",
+    "battery_case": "30 mAh",
+    "speaker": "喇叭单元",
+    "materials": "",
+    "weight_g": "35g",
+    "weight_case_g": "",
+    "weight_earbud_g": "",
+    "ip_rating": "",
+    "bluetooth": "5.3",
+    "bom_row_count": 9,
+    "price_cny": null,
+    "price_layer": null,
+    "price_source_label": "",
+    "price_source_url": "",
+    "price_evidence": "",
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "159433",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机内部，耳机头搭载了13mm大动圈单元，金宇宙30mAh锂电池，分别通过导线连接到主板。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充客HS006灵越充电盒采用了近似椭圆形的设计，边缘过渡非常圆润，体积极致小巧；哑光质感，握持手感舒适细腻。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机内部，耳机头搭载了13mm大动圈单元，金宇宙30mAh锂电池，分别通过导线连接到主板。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "支持单/双麦克风降噪，支持两路模拟麦克风放大，内置麦克风偏置。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机内部，耳机头搭载了13mm大动圈单元，金宇宙30mAh锂电池，分别通过导线连接到主板。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "前腔内部扬声器单元结构一览，导线焊接。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电接口：充电盒底部设置Type-C充电接口，右侧一颗条形指示灯，支持冰绿色和月光白显示，用于反馈充电状态。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Injoinic英集芯IP5416",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Injoinic英集芯IP5416",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "充电接口：主板上，采用了Type-C接口输入电源，由Injoinic英集芯IP5416 TWS充电盒SOC单芯片负责为内置电池充电，以及放电为耳机充电，支持最大500mA充电电流，200mA输出电流，还集成电池电量指示等功能。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5416",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5416",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "标记/认证：IP5416高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸。"
+      }
+    }
+  ],
+  "summary_image_urls": [],
+  "summary_text": "",
+  "layer_refs": {
+    "technical": [
+      "report:159433",
+      "video:282298"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [
+      "unboxing:159433"
+    ],
+    "review": []
+  },
+  "unboxing": {
+    "report_id": "159433",
+    "packaging": {
+      "description": "充客HS006灵越包装盒采用了新的设计，正面展示有对应产品配色的整体外观设计，智小兜（海尔智选）和TRÜKE充客品牌LOGO，以及约25h超长续航、HiFi震撼音效、高清通话、蓝牙5.3、超低延时和人体工学设计的产品特点。",
+      "accessories": [],
+      "appearance_images": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/05/2023050902583610.jpeg",
+          "alt": "拆解报告：TRÜKE充客HS006灵越真无线耳机-我爱音频网",
+          "caption": "拆解报告：TRÜKE充客HS006灵越真无线耳机-我爱音频网",
+          "module": "packaging",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/05/2023050902583994.jpeg",
+          "alt": "拆解报告：TRÜKE充客HS006灵越真无线耳机-我爱音频网",
+          "caption": "包装盒背面介绍了触摸键的使用方式，以及产品参数等信息。产品型号：HS006灵越，充电接口：Type-C，输入参数：5V⎓30mA（耳机）/5V⎓300mA（充电盒），工作距离：＞10m（无障碍空旷环境），蓝牙协议：HFP/A2DP/AVRCP，配合充电盒整体续航：约25h，产品净重：约35g，喇叭阻抗：32Ω，无线连接：蓝牙5.3，耳机单次续航：＞5h；制造：深圳前海贞泰通信技术有限公司。",
+          "module": "packaging",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/05/2023050902584269.jpeg",
+          "alt": "拆解报告：TRÜKE充客HS006灵越真无线耳机-我爱音频网",
+          "caption": "包装盒内部物品有TWS耳机、充电线和产品说明书。",
+          "module": "packaging",
+          "phase": "unboxing"
+        }
+      ],
+      "image_count": 3,
+      "teardown_image_count": 0
+    },
+    "charging_case": {
+      "description": "USB-A to Type-C接口充电线，两端插头上分别雕刻有智小兜和充客的品牌LOGO。",
+      "accessories": [],
+      "appearance_images": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/05/2023050902584627.jpeg",
+          "alt": "拆解报告：TRÜKE充客HS006灵越真无线耳机-我爱音频网",
+          "caption": "充电盒背面外观一览，镭雕产品序列号。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/05/2023050902584749.jpeg",
+          "alt": "拆解报告：TRÜKE充客HS006灵越真无线耳机-我爱音频网",
+          "caption": "充电盒底部设置Type-C充电接口，右侧一颗条形指示灯，支持冰绿色和月光白显示，用于反馈充电状态。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/05/2023050902584857.jpeg",
+          "alt": "拆解报告：TRÜKE充客HS006灵越真无线耳机-我爱音频网",
+          "caption": "指示灯冰绿色灯光亮起状态展示，支持呼吸模式灯效。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/05/2023050902585044.jpeg",
+          "alt": "拆解报告：TRÜKE充客HS006灵越真无线耳机-我爱音频网",
+          "caption": "打开充电盒盖，内部耳机反向对称式放置，突出于座舱，便于取放。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/05/2023050902585331.jpeg",
+          "alt": "拆解报告：TRÜKE充客HS006灵越真无线耳机-我爱音频网",
+          "caption": "充电盒盖内侧丝印参数信息，型号：HS006，耳机电池：30mAh，充电盒电池：300mAh，充电输入：DC 5.0V⎓0.3A，CMIIT ID：2023DP5309。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/05/2023050902585474.jpeg",
+          "alt": "拆解报告：TRÜKE充客HS006灵越真无线耳机-我爱音频网",
+          "caption": "充电盒耳机柄座舱内部为耳机充电的金属弹片特写。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/05/2023050902585579.jpeg",
+          "alt": "拆解报告：TRÜKE充客HS006灵越真无线耳机-我爱音频网",
+          "caption": "充客HS006灵越耳机外侧外观一览，设计有两条棱线提升产品层次感。耳机柄顶部设置指示灯条形开孔和触摸控制区域。",
+          "module": "charging_case",
+          "phase": "unboxing"
+        }
+      ],
+      "image_count": 17,
+      "teardown_image_count": 10
+    },
+    "earbuds": {
+      "description": "取出耳机，耳机采用了柄状的半入耳式设计，光滑圆润的质感。",
+      "accessories": [],
+      "appearance_images": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/05/2023050902585149.jpeg",
+          "alt": "拆解报告：TRÜKE充客HS006灵越真无线耳机-我爱音频网",
+          "caption": "取出耳机，耳机采用了柄状的半入耳式设计，光滑圆润的质感。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/05/2023050902585656.jpeg",
+          "alt": "拆解报告：TRÜKE充客HS006灵越真无线耳机-我爱音频网",
+          "caption": "耳机内侧外观一览，机身曲线人体工学设计，搭配光滑质感，提供舒适佩戴。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/05/2023050902585898.jpeg",
+          "alt": "拆解报告：TRÜKE充客HS006灵越真无线耳机-我爱音频网",
+          "caption": "耳机另外一侧外观一览。耳机柄内侧设计有L/R左右标识，便于用户快速区分。机身底部设置有为耳机充电的银色金属尾塞。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/05/2023050902585985.jpeg",
+          "alt": "拆解报告：TRÜKE充客HS006灵越真无线耳机-我爱音频网",
+          "caption": "机身底部为耳机充电的金属触点特写。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/05/2023050902590016.jpeg",
+          "alt": "拆解报告：TRÜKE充客HS006灵越真无线耳机-我爱音频网",
+          "caption": "另外一侧金属触点上镂空通话麦克风拾音孔。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/05/2023050902590131.jpeg",
+          "alt": "拆解报告：TRÜKE充客HS006灵越真无线耳机-我爱音频网",
+          "caption": "耳机出音嘴特写，金属网防护，防止异物进入音腔。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/05/2023050902590394.png",
+          "alt": "拆解报告：TRÜKE充客HS006灵越真无线耳机-我爱音频网",
+          "caption": "耳机调音孔特写，采用了独特的“8”字外形，内部细密防尘网防护。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/05/2023050903020711.jpg",
+          "alt": "拆解报告：TRÜKE充客HS006灵越真无线耳机-我爱音频网",
+          "caption": "TRÜKE充客HS006灵越真无线耳机整体外观一览。",
+          "module": "earbuds",
+          "phase": "unboxing"
+        }
+      ],
+      "image_count": 49,
+      "teardown_image_count": 36
+    },
+    "gaps": [
+      "包装配件清单：未能从「包括…等」句式解析出零件列表"
+    ],
+    "completeness": 1.0
+  },
+  "market": {
+    "selling_points": [
+      {
+        "text": "Trüke充客是一家集研发、设计、生产、销售为一体的消费类电子品牌，旗下产品包括了TWS耳机、有线耳机、数据线 […]\nTRÜKE充客HS006灵越是充客近期最新推出的一款TWS耳机产品，在外观方面，体积轻巧迷你，极致便携，拥有经典的珍珠白、典雅黑，以及清新的白杏粉、丁香紫和清湛蓝5款时尚配色。",
+        "tag": "其他",
+        "evidence": {
+          "value": "Trüke充客是一家集研发、设计、生产、销售为一体的消费类电子品牌，旗下产品包括了TWS耳机、有线耳机、数据线 […]\nTRÜKE充客HS006灵越是充客近期最新推出的一款TWS耳机产品，在外观方面，体积轻巧迷你，极致便携，拥有经典的珍珠白、典雅黑，以及清新的白杏粉、丁香紫和清湛蓝5款时尚配色。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "Trüke充客是一家集研发、设计、生产、销售为一体的消费类电子品牌，旗下产品包括了TWS耳机、有线耳机、数据线 […]\nTRÜKE充客HS006灵越是充客近期最新推出的一款TWS耳机产品，在外观方面，体积轻巧迷你，极致便携，拥有经典的珍珠白、典雅黑，以及清新的白杏粉、丁香紫和清湛蓝5款时尚配色。"
+        }
+      },
+      {
+        "text": "充客HS006灵越充电盒采用了近似椭圆形的设计，边缘过渡非常圆润，体积极致小巧；哑光质感，握持手感舒适细腻。",
+        "tag": "其他",
+        "evidence": {
+          "value": "充客HS006灵越充电盒采用了近似椭圆形的设计，边缘过渡非常圆润，体积极致小巧；哑光质感，握持手感舒适细腻。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "充客HS006灵越充电盒采用了近似椭圆形的设计，边缘过渡非常圆润，体积极致小巧；哑光质感，握持手感舒适细腻。"
+        }
+      },
+      {
+        "text": "耳机内侧外观一览，机身曲线人体工学设计，搭配光滑质感，提供舒适佩戴。",
+        "tag": "舒适佩戴",
+        "evidence": {
+          "value": "耳机内侧外观一览，机身曲线人体工学设计，搭配光滑质感，提供舒适佩戴。",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "耳机内侧外观一览，机身曲线人体工学设计，搭配光滑质感，提供舒适佩戴。"
+        }
+      },
+      {
+        "text": "标记/认证：IP5416高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "标记/认证：IP5416高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "标记/认证：IP5416高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸。"
+        }
+      },
+      {
+        "text": "支持单/双麦克风降噪，支持两路模拟麦克风放大，内置麦克风偏置。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "支持单/双麦克风降噪，支持两路模拟麦克风放大，内置麦克风偏置。",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "支持单/双麦克风降噪，支持两路模拟麦克风放大，内置麦克风偏置。"
+        }
+      },
+      {
+        "text": "耳机调音孔特写，采用了独特的“8”字外形，内部细密防尘网防护。",
+        "tag": "防水防尘",
+        "evidence": {
+          "value": "耳机调音孔特写，采用了独特的“8”字外形，内部细密防尘网防护。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "耳机调音孔特写，采用了独特的“8”字外形，内部细密防尘网防护。"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "Trüke充客是一家集研发、设计、生产、销售为一体的消费类电子品牌，旗下产品包括了TWS耳机、有线耳机、数据线 […]\nTRÜKE充客HS006灵越是充客近期最新推出的一款TWS耳机产品，在外观方面，体积轻巧迷你，极致便携，拥有经典的珍珠白、典雅黑，以及清新的白杏粉、丁香紫和清湛蓝5款时尚配色。",
+    "launch_date": null,
+    "best_report_id": "159433",
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "品牌",
+        "text": "Trüke充客为研发设计生产销售一体的消费电子品牌，产品含TWS耳机等。"
+      },
+      {
+        "tag": "外观",
+        "text": "HS006灵越TWS耳机体积轻巧迷你，提供珍珠白、典雅黑等5款配色。"
+      },
+      {
+        "tag": "外观",
+        "text": "充电盒近似椭圆形，边缘圆润，哑光质感，握持舒适细腻。"
+      },
+      {
+        "tag": "舒适佩戴",
+        "text": "耳机机身曲线采用人体工学设计，搭配光滑质感，佩戴舒适。"
+      },
+      {
+        "tag": "降噪",
+        "text": "支持单双麦克风降噪，内置两路模拟麦克风放大及偏置。"
+      },
+      {
+        "tag": "防水防尘",
+        "text": "耳机调音孔采用独特8字外形，内部细密防尘网防护。"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "f00465e7454821a32eee5d36398089e84be63690eb205517c3b59f81f058c975"
+    }
+  }
+}
