@@ -124,6 +124,29 @@ def _tokenize(text: str) -> set[str]:
     return parts
 
 
+_GENERIC_CJK_MODEL_WORDS = ("耳机", "真无线", "开放式", "头戴式", "蓝牙", "智能", "降噪", "带屏")
+
+
+def has_model_identity_match(title: str, model: str) -> bool:
+    """Require a model-level match before accepting a marketplace result.
+
+    Brand-only matches are unsafe: several prior results reused a single JD/ZOL
+    SKU across unrelated models from the same brand.  Model comparison is
+    intentionally conservative; uncertain results remain unresolved.
+    """
+    title_l = (title or "").lower()
+    model_l = (model or "").lower()
+    title_key = re.sub(r"[^a-z0-9]+", "", title_l)
+    model_key = re.sub(r"[^a-z0-9]+", "", model_l)
+    if len(model_key) >= 4 and model_key in title_key:
+        return True
+
+    cjk_model = "".join(re.findall(r"[\u4e00-\u9fff]+", model or ""))
+    for word in _GENERIC_CJK_MODEL_WORDS:
+        cjk_model = cjk_model.replace(word, "")
+    return len(cjk_model) >= 3 and cjk_model in (title or "")
+
+
 def score_product_title(title: str, brand: str, model: str) -> float:
     title_l = (title or "").lower()
     score = 0.0
@@ -204,7 +227,7 @@ def pick_best_zol_hit(hits: list[ZolSearchHit], brand: str, model: str) -> ZolSe
     normalized_model = re.sub(r"[^a-z0-9]+", "", (model or "").lower())
     generic_models = {"earbuds", "earphone", "earphones", "headphones", "headset", "buds"}
     min_score = 4.0 if normalized_model in generic_models else 1.5
-    if best.score < min_score:
+    if best.score < min_score or not has_model_identity_match(best.title, model):
         return None
     return best
 

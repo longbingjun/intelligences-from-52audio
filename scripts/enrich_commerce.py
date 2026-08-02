@@ -13,6 +13,7 @@ from __future__ import annotations
 import argparse
 import json
 import sys
+from concurrent.futures import ThreadPoolExecutor
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -48,7 +49,9 @@ from sources.official.fetcher import (  # noqa: E402
 )
 
 from core.paths import (
+    channel_enrich_dir,
     commerce_hints_path,
+    official_enrich_dir,
     products_dir,
     products_index_path,
     write_channel_enrich,
@@ -85,6 +88,75 @@ def _list_headphone_products(limit: int | None = None) -> list[str]:
     if limit:
         return ids[:limit]
     return ids
+
+
+def _is_auto_channel_price(record: dict) -> bool:
+    """Whether a channel record came from a live, automatically matched listing.
+
+    These records are safe to refresh after matching logic improves.  Manually
+    curated evidence (for example a cited launch report) is intentionally never
+    replaced by a background lookup.
+    """
+    source = str(record.get("price_source") or "")
+    return source in {"jd", "jd_api", "jd_union", "jd_hint", "zol_reference"} or source.startswith("zol_")
+
+
+def _list_priority_unpriced_products(
+    limit: int | None = None, *, refresh_auto_channel: bool = False
+) -> list[str]:
+    """Return current-priority products that need a price lookup.
+
+    With ``refresh_auto_channel`` enabled, include only records whose previous
+    result was an automatic marketplace match.  This is used to revalidate
+    those records when the model-matching rules become stricter.
+    """
+    idx_path = products_index_path()
+    if not idx_path.exists():
+        return []
+    try:
+        index = json.loads(idx_path.read_text(encoding="utf-8"))
+    except json.JSONDecodeError:
+        return []
+
+    candidates: list[tuple[int, str, str]] = []
+    for item in index.get("products") or []:
+        if not isinstance(item, dict):
+            continue
+        canonical_id = str(item.get("canonical_id") or "")
+        if not canonical_id or int(item.get("priority_rank") or 99) > 2:
+            continue
+        product = _load_product(canonical_id)
+        if not product:
+            continue
+        detail_has_price = (product.get("cost_snapshot") or {}).get("price_cny") is not None
+        # A full run may start before product details have been rebuilt after a
+        # newly-added evidence record.  Preserve those records instead of
+        # replacing them with a weaker or unresolved live lookup result.
+        already_priced = False
+        refreshable_auto_channel = False
+        for enrich_dir, field in ((official_enrich_dir(), "msrp_cny"), (channel_enrich_dir(), "price_cny")):
+            enrich_path = enrich_dir / f"{canonical_id}.json"
+            if not enrich_path.exists():
+                continue
+            try:
+                record = json.loads(enrich_path.read_text(encoding="utf-8"))
+                already_priced = record.get(field) is not None
+                if enrich_dir == channel_enrich_dir() and already_priced:
+                    refreshable_auto_channel = _is_auto_channel_price(record)
+            except json.JSONDecodeError:
+                pass
+            if already_priced:
+                break
+        if refresh_auto_channel:
+            if not refreshable_auto_channel:
+                continue
+        elif detail_has_price or already_priced:
+            continue
+        candidates.append((int(item.get("priority_rank") or 99), str(item.get("first_seen") or ""), canonical_id))
+
+    candidates.sort(key=lambda row: (row[0], row[1], row[2]))
+    ids = [canonical_id for _, _, canonical_id in candidates]
+    return ids[:limit] if limit else ids
 
 
 def enrich_channel(canonical_id: str, brand: str, model: str, hints: dict) -> dict:
@@ -358,11 +430,31 @@ def enrich_one(canonical_id: str, hints: dict) -> dict:
     return {"canonical_id": canonical_id, "channel": channel, "official": official}
 
 
+def enrich_many(ids: list[str], hints: dict, workers: int) -> list[dict]:
+    """Run the complete queue concurrently while preserving safe per-product writes.
+
+    A small bounded pool prevents one slow or rate-limited official site from
+    serially blocking every other brand.  Each task only writes its own
+    canonical-id files, so no shared staging file is mutated concurrently.
+    """
+    if workers <= 1 or len(ids) <= 1:
+        return [enrich_one(canonical_id, hints) for canonical_id in ids]
+    with ThreadPoolExecutor(max_workers=workers) as executor:
+        return list(executor.map(lambda canonical_id: enrich_one(canonical_id, hints), ids))
+
+
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("canonical_id", nargs="?", help="产品 canonical_id")
     parser.add_argument("--canonical", dest="canonical_alt", help="同上")
     parser.add_argument("--headphones", action="store_true", help="批量处理耳机品类")
+    parser.add_argument("--priority-unpriced", action="store_true", help="全量处理当前高优先级无价格队列")
+    parser.add_argument(
+        "--refresh-auto-channel",
+        action="store_true",
+        help="重新核验此前由自动渠道匹配得到的高优先级价格",
+    )
+    parser.add_argument("--workers", type=int, default=4, help="并发检索数（默认 4，避免站点限流）")
     parser.add_argument("--limit", type=int, default=None, help="批量上限（默认全部）")
     args = parser.parse_args()
 
@@ -371,8 +463,28 @@ def main() -> None:
 
     if args.headphones:
         ids = _list_headphone_products(args.limit if args.limit else None)
-        results = [enrich_one(i, hints) for i in ids]
+        results = enrich_many(ids, hints, max(1, args.workers))
         print(json.dumps({"count": len(results), "ids": ids}, ensure_ascii=False, indent=2))
+        return
+
+    if args.priority_unpriced or args.refresh_auto_channel:
+        ids = _list_priority_unpriced_products(
+            args.limit if args.limit else None,
+            refresh_auto_channel=args.refresh_auto_channel,
+        )
+        results = enrich_many(ids, hints, max(1, args.workers))
+        priced = sum(
+            1
+            for result in results
+            if (result.get("official") or {}).get("msrp_cny") is not None
+            or (result.get("channel") or {}).get("price_cny") is not None
+        )
+        review = sum(
+            1
+            for result in results
+            if str((result.get("official") or {}).get("fetch_error") or "").startswith("identity_needs_review:")
+        )
+        print(json.dumps({"count": len(results), "priced": priced, "identity_review": review, "ids": ids}, ensure_ascii=False, indent=2))
         return
 
     if not cid:
