@@ -141,8 +141,12 @@ def score_hit(hit: JdSearchHit, brand: str, model: str) -> float:
 
 
 def pick_best_hit(hits: list[JdSearchHit], brand: str, model: str) -> JdSearchHit | None:
+    from sources.channel.zol_client import has_model_identity_match
+
     if not hits:
         return None
     ranked = sorted(hits, key=lambda h: score_hit(h, brand, model), reverse=True)
     best = ranked[0]
-    return best if score_hit(best, brand, model) > 0 else ranked[0]
+    if score_hit(best, brand, model) <= 0:
+        return None
+    return best if has_model_identity_match(best.title, model) else None
