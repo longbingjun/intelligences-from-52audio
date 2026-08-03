@@ -14,6 +14,7 @@ import time
 import argparse
 import base64
 import re
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import date, datetime, timedelta, timezone
 from pathlib import Path
 from urllib.parse import parse_qs, quote_plus, urlsplit
@@ -21,10 +22,16 @@ from urllib.parse import parse_qs, quote_plus, urlsplit
 import requests
 from bs4 import BeautifulSoup
 
+import sys
+
 ROOT = Path(__file__).resolve().parents[1]
 OUT = ROOT / "scratch_price_research" / "price_text_pilot_20.json"
 MODEL = "deepseek-v4-flash"
 MAX_PAGE_CHARS = 6_000
+sys.path.insert(0, str(ROOT))
+
+from core.paths import official_enrich_dir, write_official_enrich  # noqa: E402
+from core.products import is_identity_searchable  # noqa: E402
 
 # These are intentionally a conservative allow-list.  Adding a brand means
 # adding its real mainland/offical domain here; unrecognised domains cannot
@@ -147,7 +154,18 @@ def _recent_priority(product: dict) -> int:
     return 2 if observed >= date.today() - timedelta(days=730) else 3
 
 
-def missing_price_products(limit: int = 20) -> list[dict]:
+def _has_verified_official_price(canonical_id: str) -> bool:
+    """Use the source-of-truth enrich record, not a potentially stale snapshot."""
+    path = official_enrich_dir() / f"{canonical_id}.json"
+    if not path.exists():
+        return False
+    try:
+        return json.loads(path.read_text(encoding="utf-8")).get("msrp_cny") is not None
+    except (OSError, json.JSONDecodeError):
+        return False
+
+
+def missing_price_products(limit: int | None = 20) -> tuple[list[dict], list[dict]]:
     priority_by_id: dict[str, dict] = {}
     index_path = ROOT / "data" / "products" / "index.json"
     try:
@@ -162,7 +180,7 @@ def missing_price_products(limit: int = 20) -> list[dict]:
         # has produced an index for the first time.
         pass
 
-    products = []
+    products, skipped_identity = [], []
     for path in sorted((ROOT / "data" / "products").glob("*.json")):
         if path.name == "index.json":
             continue
@@ -171,29 +189,41 @@ def missing_price_products(limit: int = 20) -> list[dict]:
         except json.JSONDecodeError:
             continue
         snapshot = product.get("cost_snapshot") or {}
+        canonical_id = str(product.get("canonical_id") or "")
+        brand = str(product.get("brand") or "")
+        model = str(product.get("model") or "")
+        if not canonical_id or _has_verified_official_price(canonical_id):
+            continue
+        priority = priority_by_id.get(canonical_id, {})
+        candidate = {
+            "sku": canonical_id,
+            "brand": brand,
+            "model": model,
+            "first_seen": priority.get("first_seen", product.get("first_seen", "")),
+            "priority_rank": priority.get("priority_rank"),
+            "research_priority": priority.get("research_priority", ""),
+        }
         if (
-            snapshot.get("price_cny") is None
-            and product.get("brand")
-            and product.get("model")
-            and not product["canonical_id"].startswith("unknown--")
-            and len(product["model"]) <= 48
+            canonical_id.startswith("unknown--")
+            or len(model) > 48
+            or not is_identity_searchable(brand, model)
         ):
-            priority = priority_by_id.get(product["canonical_id"], {})
-            products.append({
-                "sku": product["canonical_id"],
-                "brand": product["brand"],
-                "model": product["model"],
-                "first_seen": priority.get("first_seen", product.get("first_seen", "")),
-                "priority_rank": priority.get("priority_rank"),
-                "research_priority": priority.get("research_priority", ""),
-            })
+            skipped_identity.append(candidate)
+            continue
+        products.append(candidate)
 
     # Official-price research deliberately spends its limited request budget on
     # recent products first.  Historical products remain in the data set, but do
     # not displace current candidates unless the user asks for them explicitly.
     products.sort(key=lambda item: item.get("first_seen", ""), reverse=True)
     products.sort(key=_recent_priority)
-    return [item for item in products if _recent_priority(item) <= 2][:limit]
+    # ``--full`` passes zero and deliberately includes historical products too.
+    # Recent products remain first because of the ordering above, but are never
+    # allowed to suppress an older, identity-safe SKU from a user-requested full pass.
+    if not limit or limit <= 0:
+        return products, skipped_identity
+    ordered = [item for item in products if _recent_priority(item) <= 2]
+    return ordered[:limit], skipped_identity
 
 
 def bing_search(query: str) -> list[dict]:
@@ -328,30 +358,109 @@ def extract_official_price(api_key: str, product: dict, evidence: list[dict]) ->
     return normalise_extraction(json.loads(response.json()["choices"][0]["message"]["content"]), evidence)
 
 
+def write_accepted_price(product: dict, extraction: dict, evidence: list[dict]) -> None:
+    """Persist only strict, source-linked model output to both official enrich paths."""
+    if extraction.get("price_cny") is None or not extraction.get("evidence_url"):
+        return
+    canonical_id = str(product["sku"])
+    path = official_enrich_dir() / f"{canonical_id}.json"
+    existing: dict = {}
+    if path.exists():
+        try:
+            existing = json.loads(path.read_text(encoding="utf-8"))
+        except (OSError, json.JSONDecodeError):
+            existing = {}
+    matching_evidence = next(
+        (item for item in evidence if item.get("url") == extraction.get("evidence_url")), {}
+    )
+    evidence_kind = (
+        "official_product_page"
+        if extraction.get("price_type") == "official_msrp"
+        else "brand_official_news"
+    )
+    payload = {
+        **existing,
+        "canonical_id": canonical_id,
+        "official_url": str(existing.get("official_url") or extraction["evidence_url"]),
+        "vmall_url": str(existing.get("vmall_url") or ""),
+        "product_name": str(existing.get("product_name") or f"{product['brand']} {product['model']}"),
+        "msrp_cny": extraction["price_cny"],
+        "price_evidence_kind": evidence_kind,
+        "price_source_url": extraction["evidence_url"],
+        "price_evidence": extraction.get("evidence_quote") or matching_evidence.get("title") or "",
+        "tagline": str(existing.get("tagline") or ""),
+        "selling_points": existing.get("selling_points") or [],
+        "highlights": existing.get("highlights") or [],
+        "search_query": str(existing.get("search_query") or f"{product['brand']} {product['model']} 官方售价"),
+        "fetch_error": "",
+        "captured_at": date.today().isoformat(),
+        "source_layer": "official",
+    }
+    write_official_enrich(canonical_id, payload)
+
+
+def research_one(api_key: str, product: dict) -> dict:
+    try:
+        evidence, notes = official_evidence(product)
+        extraction = extract_official_price(api_key, product, evidence) if evidence else {
+            "price_cny": None, "price_type": "no_reliable_result", "confidence": 0,
+            "evidence_url": "", "evidence_quote": "", "reason": "; ".join(notes),
+        }
+    except Exception as exc:
+        evidence, extraction = [], {
+            "price_cny": None, "price_type": "no_reliable_result", "confidence": 0,
+            "evidence_url": "", "evidence_quote": "", "reason": f"research error: {exc.__class__.__name__}",
+        }
+    return {
+        **product,
+        "query_time": datetime.now(timezone.utc).isoformat(),
+        "official_page_evidence": evidence,
+        "extraction": extraction,
+    }
+
+
+def write_checkpoint(path: Path, *, mode: str, records: list[dict], skipped_identity: list[dict]) -> None:
+    path.parent.mkdir(parents=True, exist_ok=True)
+    payload = {
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "model": MODEL,
+        "mode": mode,
+        "scope": "exact-SKU, official-domain evidence only; no promotion, subsidy, transaction, or near-model prices",
+        "processed": len(records),
+        "accepted": sum(item["extraction"].get("price_cny") is not None for item in records),
+        "skipped_identity_count": len(skipped_identity),
+        "skipped_identity": skipped_identity,
+        "records": records,
+    }
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2, allow_nan=False), encoding="utf-8")
+
+
 def main() -> None:
     parser = argparse.ArgumentParser(description="Research recent products with traceable official-price evidence")
     parser.add_argument("--limit", type=int, default=20, help="maximum recent products to research")
+    parser.add_argument("--full", action="store_true", help="scan every identity-safe product without a verified official price")
+    parser.add_argument("--workers", type=int, default=1, help="parallel exact-SKU searches (default: 1)")
+    parser.add_argument("--write-accepted", action="store_true", help="write only strict accepted results into official enrich")
+    parser.add_argument("--checkpoint-every", type=int, default=10, help="persist the review artifact every N completed products")
     args = parser.parse_args()
     api_key = os.environ["DEEPSEEK_API_KEY"]
+    limit = 0 if args.full else args.limit
+    products, skipped_identity = missing_price_products(limit)
+    output_path = ROOT / "scratch_price_research" / ("price_text_full.json" if args.full else OUT.name)
     records = []
-    for product in missing_price_products(args.limit):
-        try:
-            evidence, notes = official_evidence(product)
-            extraction = extract_official_price(api_key, product, evidence) if evidence else {
-                "price_cny": None, "price_type": "no_reliable_result", "confidence": 0,
-                "evidence_url": "", "evidence_quote": "", "reason": "; ".join(notes),
-            }
-        except Exception as exc:
-            evidence, extraction = [], {"price_cny": None, "price_type": "no_reliable_result", "confidence": 0,
-                                         "evidence_url": "", "evidence_quote": "", "reason": f"research error: {exc.__class__.__name__}"}
-        records.append({**product, "query_time": datetime.now(timezone.utc).isoformat(),
-                        "official_page_evidence": evidence, "extraction": extraction})
-        time.sleep(0.4)
-
-    OUT.parent.mkdir(parents=True, exist_ok=True)
-    OUT.write_text(json.dumps({"generated_at": datetime.now(timezone.utc).isoformat(), "model": MODEL,
-        "scope": "evidence-only; official-domain pages only; no price_cny overwritten", "records": records},
-        ensure_ascii=False, indent=2, allow_nan=False), encoding="utf-8")
+    with ThreadPoolExecutor(max_workers=max(1, min(args.workers, 4))) as executor:
+        futures = [executor.submit(research_one, api_key, product) for product in products]
+        for index, future in enumerate(as_completed(futures), start=1):
+            record = future.result()
+            records.append(record)
+            if args.write_accepted and record["extraction"].get("price_cny") is not None:
+                write_accepted_price(record, record["extraction"], record["official_page_evidence"])
+            if index % max(1, args.checkpoint_every) == 0:
+                write_checkpoint(output_path, mode="full" if args.full else "pilot", records=records, skipped_identity=skipped_identity)
+            time.sleep(0.2)
+    records.sort(key=lambda item: item["sku"])
+    write_checkpoint(output_path, mode="full" if args.full else "pilot", records=records, skipped_identity=skipped_identity)
+    print(json.dumps({"processed": len(records), "accepted": sum(r["extraction"].get("price_cny") is not None for r in records), "skipped_identity": len(skipped_identity)}, ensure_ascii=False))
 
 
 if __name__ == "__main__":
