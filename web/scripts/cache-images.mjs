@@ -14,6 +14,7 @@ import path from "node:path";
 import crypto from "node:crypto";
 
 const PRODUCTS_DIR = path.join(process.cwd(), "public", "data", "products");
+const ROUNDUP_INSIGHTS_PATH = path.join(process.cwd(), "public", "data", "roundup_insights.json");
 const IMAGES_DIR = path.join(process.cwd(), "public", "images");
 const REFERER = "https://www.52audio.com/";
 const CONCURRENCY = 6;
@@ -28,9 +29,6 @@ export function localImageFilename(url) {
 
 function collectImageUrls() {
   const urls = new Set();
-  if (!fs.existsSync(PRODUCTS_DIR)) return urls;
-  const files = fs.readdirSync(PRODUCTS_DIR).filter((f) => f.endsWith(".json"));
-
   const walk = (node) => {
     if (Array.isArray(node)) {
       node.forEach(walk);
@@ -47,12 +45,22 @@ function collectImageUrls() {
     }
   };
 
-  for (const file of files) {
+  if (fs.existsSync(PRODUCTS_DIR)) {
+    const files = fs.readdirSync(PRODUCTS_DIR).filter((f) => f.endsWith(".json"));
+    for (const file of files) {
+      try {
+        walk(JSON.parse(fs.readFileSync(path.join(PRODUCTS_DIR, file), "utf-8")));
+      } catch (err) {
+        console.warn(`[cache-images] 跳过无法解析的文件 ${file}: ${err.message}`);
+      }
+    }
+  }
+  // 年度洞察抽屉同样引用原文配图，必须预下载以避开 52audio OSS 的 Referer 限制。
+  if (fs.existsSync(ROUNDUP_INSIGHTS_PATH)) {
     try {
-      const data = JSON.parse(fs.readFileSync(path.join(PRODUCTS_DIR, file), "utf-8"));
-      walk(data);
+      walk(JSON.parse(fs.readFileSync(ROUNDUP_INSIGHTS_PATH, "utf-8")));
     } catch (err) {
-      console.warn(`[cache-images] 跳过无法解析的文件 ${file}: ${err.message}`);
+      console.warn(`[cache-images] 跳过年度洞察图片：${err.message}`);
     }
   }
   return urls;

@@ -3,6 +3,7 @@
 from __future__ import annotations
 
 import json
+import hashlib
 import os
 import re
 import shutil
@@ -25,6 +26,7 @@ DROP_ALERT_THRESHOLD = 0.3
 # 它们保留在原始报告中，并由产品构建步骤排除出 SKU 聚合；这里单独导出为首页洞察。
 ROUNDUP_MARKERS = ("汇总", "盘点", "年度报告", "给你答案")
 HEADPHONE_MARKERS = ("耳机", "TWS", "OWS", "蓝牙")
+ROUNDUP_SUMMARIES_DIR = ROOT / "data" / "enrich" / "roundup_summaries"
 
 
 def _check_teardown_count_regression(new_count: int) -> None:
@@ -135,6 +137,39 @@ def _roundup_kind(title: str) -> str:
     return "品类汇总"
 
 
+def _local_image_path(url: str) -> str:
+    """Mirror web/scripts/cache-images.mjs so digest images work on Pages."""
+    digest = hashlib.sha1(url.encode("utf-8")).hexdigest()[:16]
+    match = re.search(r"\.([A-Za-z0-9]{2,5})(?:\?.*)?$", url)
+    extension = match.group(1).lower() if match else "jpg"
+    return f"/images/{digest}.{extension}"
+
+
+def _roundup_digest(report_id: str) -> dict:
+    path = ROUNDUP_SUMMARIES_DIR / f"{report_id}.json"
+    if not path.exists():
+        return {}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except (OSError, json.JSONDecodeError):
+        return {}
+    images = []
+    for image in payload.get("image_highlights") or []:
+        if not isinstance(image, dict) or not str(image.get("url") or "").strip():
+            continue
+        url = str(image["url"])
+        images.append({
+            "url": url,
+            "local_path": _local_image_path(url),
+            "caption": str(image.get("caption") or image.get("description") or "原文配图").strip(),
+        })
+    findings = []
+    for item in payload.get("key_findings") or []:
+        if isinstance(item, dict) and str(item.get("text") or "").strip():
+            findings.append({"title": str(item.get("title") or "关键发现").strip(), "text": str(item["text"]).strip()})
+    return {"overview": str(payload.get("overview") or "").strip(), "key_findings": findings, "image_highlights": images}
+
+
 def _roundup_list_item(record: dict) -> dict:
     """Return source-grounded content for a roundup report card.
 
@@ -144,8 +179,9 @@ def _roundup_list_item(record: dict) -> dict:
     """
     title = str(record.get("title") or record.get("product_title") or "")
     summary = re.sub(r"\s+", " ", str(record.get("summary") or "")).strip()
+    report_id = str(record.get("id") or "")
     return {
-        "id": str(record.get("id") or ""),
+        "id": report_id,
         "title": title,
         "published_at": record.get("published_at", ""),
         "url": record.get("url", ""),
@@ -153,6 +189,7 @@ def _roundup_list_item(record: dict) -> dict:
         "author": record.get("author", ""),
         "kind": _roundup_kind(title),
         "summary": summary,
+        "digest": _roundup_digest(report_id),
     }
 
 

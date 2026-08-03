@@ -62,8 +62,9 @@ function categoryStyle(category: string) {
   return styles[code % styles.length];
 }
 
-function productInitial(product: IndexProduct) {
-  return (product.brand || product.model || "?").trim().slice(0, 1).toUpperCase();
+function productFallbackLabel(product: IndexProduct) {
+  // 没有可用外观图时，品牌名比单个首字母更容易辨识；保留型号兜底以兼容未治理记录。
+  return (product.brand || product.model || "产品图片待补").trim();
 }
 
 function statusLabel(product: IndexProduct) {
@@ -295,7 +296,7 @@ export default function ProductBrowser({
                   <button type="button" onClick={() => toggleProduct(product.canonical_id)} className="selection-toggle" aria-label={`${active ? "从对比中移除" : "加入对比"} ${productDisplayName(product)}`}>{active ? "✓" : "+"}</button>
                   <a href={withBase(`/product/${product.canonical_id}`)} className="research-product-link">
                     <div className="product-visual" style={{ background: color.bg, color: color.text }}>
-                      {imageSrc ? <img src={imageSrc} alt={`${productDisplayName(product)} 产品图片`} loading="lazy" onError={() => setImageByProductId((current) => ({ ...current, [product.canonical_id]: null }))} /> : <span aria-hidden="true">{productInitial(product)}</span>}
+                      {imageSrc ? <img src={imageSrc} alt={`${productDisplayName(product)} 产品图片`} loading="lazy" onError={() => setImageByProductId((current) => ({ ...current, [product.canonical_id]: null }))} /> : <span className="product-visual-fallback" aria-label={`${productFallbackLabel(product)} 暂无产品图片`}>{productFallbackLabel(product)}</span>}
                     </div>
                     <div className="product-copy">
                       <div className="product-meta"><span style={{ background: color.bg, color: color.text }}>{product.category}</span><time>{product.first_seen?.slice(0, 4) || "-"}</time></div>
