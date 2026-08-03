@@ -21,6 +21,11 @@ from core.scope import is_headphone_record  # noqa: E402
 # 单次构建产出的拆解报告数相比上一次意外下降超过该比例时，视为可能的抓取/合并回归
 DROP_ALERT_THRESHOLD = 0.3
 
+# 汇总/盘点类文章记录的是一个年度或品类的研究样本，不是单一可售 SKU。
+# 它们保留在原始报告中，并由产品构建步骤排除出 SKU 聚合；这里单独导出为首页洞察。
+ROUNDUP_MARKERS = ("汇总", "盘点", "年度报告", "给你答案")
+HEADPHONE_MARKERS = ("耳机", "TWS", "OWS", "蓝牙")
+
 
 def _check_teardown_count_regression(new_count: int) -> None:
     prev_stats = last_step_stats("prepare_web_data")
@@ -114,6 +119,58 @@ def _build_teardown_manifest() -> dict:
     }
 
 
+def _is_roundup_report(record: dict) -> bool:
+    title = str(record.get("title") or record.get("product_title") or "")
+    return bool(
+        any(marker in title for marker in ROUNDUP_MARKERS)
+        and any(marker.lower() in title.lower() for marker in HEADPHONE_MARKERS)
+    )
+
+
+def _roundup_kind(title: str) -> str:
+    if any(marker in title for marker in ("应用案例", "方案", "芯片", "电感")):
+        return "方案案例"
+    if "年度" in title or re.search(r"20\d{2}", title):
+        return "年度汇总"
+    return "品类汇总"
+
+
+def _roundup_list_item(record: dict) -> dict:
+    """Return source-grounded content for a roundup report card.
+
+    The summary is captured from the original 52audio report. We deliberately
+    do not generate a new interpretation here, so homepage content stays
+    traceable to the report and can link back to it directly.
+    """
+    title = str(record.get("title") or record.get("product_title") or "")
+    summary = re.sub(r"\s+", " ", str(record.get("summary") or "")).strip()
+    return {
+        "id": str(record.get("id") or ""),
+        "title": title,
+        "published_at": record.get("published_at", ""),
+        "url": record.get("url", ""),
+        "category": record.get("category", ""),
+        "author": record.get("author", ""),
+        "kind": _roundup_kind(title),
+        "summary": summary,
+    }
+
+
+def _build_roundup_manifest() -> dict:
+    reports = [_roundup_list_item(record) for record in load_all_records("report") if _is_roundup_report(record)]
+    reports.sort(key=lambda item: item.get("published_at", ""), reverse=True)
+    years = sorted(
+        {str(item.get("published_at") or "")[:4] for item in reports if str(item.get("published_at") or "")[:4]},
+        reverse=True,
+    )
+    return {
+        "generated_at": datetime.now().astimezone().isoformat(timespec="seconds"),
+        "report_count": len(reports),
+        "years": years,
+        "reports": reports,
+    }
+
+
 def prepare() -> dict:
     legacy_removed = clean_legacy_site()
     if WEB_DATA.exists():
@@ -184,6 +241,11 @@ def prepare() -> dict:
         json.dumps(teardown, ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
+    roundups = _build_roundup_manifest()
+    (WEB_DATA / "roundup_insights.json").write_text(
+        json.dumps(roundups, ensure_ascii=False, indent=2), encoding="utf-8"
+    )
+
     _check_teardown_count_regression(teardown["report_count"])
     update_manifest(
         step="prepare_web_data",
@@ -192,6 +254,7 @@ def prepare() -> dict:
             "products": n_products,
             "teardown_reports": teardown["report_count"],
             "teardown_videos": teardown["video_count"],
+            "roundup_reports": roundups["report_count"],
         },
     )
     return {
@@ -199,6 +262,7 @@ def prepare() -> dict:
         "products": n_products,
         "teardown_reports": teardown["report_count"],
         "teardown_videos": teardown["video_count"],
+        "roundup_reports": roundups["report_count"],
         "legacy_site_removed": legacy_removed,
         "out": str(WEB_DATA),
     }

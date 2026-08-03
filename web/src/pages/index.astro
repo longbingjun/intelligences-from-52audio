@@ -1,6 +1,7 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ProductBrowser from "../components/ProductBrowser";
+import RoundupInsights from "../components/RoundupInsights.astro";
 import { withBase } from "../lib/paths";
 import { researchPriorityRank, type IndexProduct } from "../lib/types";
 import fs from "node:fs";
@@ -9,6 +10,10 @@ import path from "node:path";
 const dataDir = path.join(process.cwd(), "public", "data");
 const manifest = JSON.parse(fs.readFileSync(path.join(dataDir, "categories.json"), "utf-8"));
 const productIndex = JSON.parse(fs.readFileSync(path.join(dataDir, "products", "index.json"), "utf-8"));
+const roundupPath = path.join(dataDir, "roundup_insights.json");
+const roundupManifest = fs.existsSync(roundupPath)
+  ? JSON.parse(fs.readFileSync(roundupPath, "utf-8"))
+  : { reports: [], years: [] };
 const categories = manifest.categories as { name: string; slug: string; file: string; product_count: number }[];
 const allProducts = productIndex.products as IndexProduct[];
 const currentYear = String(new Date().getFullYear());
@@ -49,5 +54,6 @@ if (fs.existsSync(productsDataDir)) {
     <div class="dashboard-hero-art" aria-hidden="true"><div class="hero-orbit hero-orbit--one"></div><div class="hero-orbit hero-orbit--two"></div><div class="hero-product-glyph"><span></span><i></i><b></b></div><div class="hero-signal hero-signal--one">{officialPageCount} 个官网页面</div><div class="hero-signal hero-signal--two">{currentYear} 年当前数据集</div></div>
   </section>
   <section class="dashboard-kpis" aria-label="研究数据覆盖"><article><span class="kpi-icon kpi-icon--blue">◈</span><div><strong>{manifest.product_count}</strong><span>已收录产品</span></div></article><article><span class="kpi-icon kpi-icon--purple">⌁</span><div><strong>{recentFocusCount}</strong><span>重点研究队列</span></div></article><article><span class="kpi-icon kpi-icon--cyan">¥</span><div><strong>{productPriced}</strong><span>已记录售价产品</span></div></article><article><span class="kpi-icon kpi-icon--orange">◎</span><div><strong>{officialPageCount}</strong><span>官网页面可溯源</span></div></article></section>
+  <RoundupInsights reports={roundupManifest.reports || []} years={roundupManifest.years || []} />
   <ProductBrowser client:load categories={categories.map((category) => ({ name: category.name, slug: category.slug, product_count: category.product_count }))} totalCount={manifest.product_count} brands={brands} unknownBrandCount={unknownBrandCount} initialSlices={initialSlices} fullIndexUrl={withBase("/data/products/index.json")} />
 </BaseLayout>

@@ -38,6 +38,17 @@ from core.paths import (
 
 # 单次构建产出的产品数相比上一次意外下降超过该比例时，视为可能的抓取/合并回归
 DROP_ALERT_THRESHOLD = 0.3
+ROUNDUP_MARKERS = ("汇总", "盘点", "年度报告", "给你答案")
+HEADPHONE_MARKERS = ("耳机", "TWS", "OWS", "蓝牙")
+
+
+def _is_roundup_report(record: dict) -> bool:
+    """Return true for multi-product research roundups, never single SKUs."""
+    title = str(record.get("title") or record.get("product_title") or "")
+    return bool(
+        any(marker in title for marker in ROUNDUP_MARKERS)
+        and any(marker.lower() in title.lower() for marker in HEADPHONE_MARKERS)
+    )
 
 
 def _check_product_count_regression(new_count: int) -> None:
@@ -137,6 +148,10 @@ def build_products() -> dict:
     for kind in ("report", "video"):
         for record in load_all_records(kind):
             if not is_headphone_record(record):
+                continue
+            if kind == "report" and _is_roundup_report(record):
+                # Keep the original report in the research library, but never
+                # turn a multi-product roundup title into a synthetic SKU.
                 continue
             if kind == "report":
                 record = reports_by_id.get(record["id"], record)
