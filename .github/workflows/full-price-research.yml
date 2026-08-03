@@ -46,7 +46,9 @@ jobs:
         run: |
           git config user.name "intel-bot"
           git config user.email "intel-bot@users.noreply.github.com"
-          git add data/enrich/official/ data/staging/official/ data/staging/identity/ scratch_price_research/price_text_full.json scratch_price_research/identity_repair_review.json
+          # Product rebuilding updates these generated files in addition to the research ledgers.
+          # Stage this explicit allowlist before rebasing so Git never leaves generated changes unstaged.
+          git add data/curated/products/ data/products/ data/manifest.json data/enrich/official/ data/staging/official/ data/staging/identity/ scratch_price_research/price_text_full.json scratch_price_research/identity_repair_review.json
           git diff --cached --quiet || git commit -m "data: repair product identities and research traceable prices"
           git pull --rebase origin master
           git push
