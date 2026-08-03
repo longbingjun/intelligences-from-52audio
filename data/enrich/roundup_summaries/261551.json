@@ -1,0 +1,56 @@
+{
+  "schema_version": 2,
+  "status": "success",
+  "model": "deepseek-v4-flash",
+  "source_hash": "8bec6d8f53ac2cd884d71bf5de313268b8d6ab6b12757fd81e58c140b9f97873",
+  "last_attempt_source_hash": "8bec6d8f53ac2cd884d71bf5de313268b8d6ab6b12757fd81e58c140b9f97873",
+  "captured_at": "2026-08-03T16:22:25.232632+00:00",
+  "last_attempt_at": "2026-08-03T16:22:25.232648+00:00",
+  "last_success_at": "2026-08-03T16:22:25.232651+00:00",
+  "source_url": "https://www.52audio.com/archives/261551.html",
+  "overview": "本文汇总了我爱音频网2025年发布的36款OWS开放式耳机拆解报告，涵盖26大品牌，包括耳夹式和耳挂式两种形态。文章详细分析了各产品的外观设计、内部硬件配置，并统计了充电盒电源管理芯片和耳机蓝牙音频SoC的厂商占比。拆解显示，高集成度单芯片方案成为主流，英集芯、中科蓝讯、恒玄科技等厂商方案被广泛采用。文章还指出，开放式耳机在功能上主打定向传音、动态低音增强，并逐步引入空间音效、通话降噪、AI助手等特性，以满足用户对舒适佩戴和场景化体验的需求。",
+  "key_findings": [
+    {
+      "title": "产品形态与品牌覆盖",
+      "text": "汇总的36款产品来自26大品牌，包括1MORE、华为、小米、韶音等，其中耳夹式26款、耳挂式10款。耳夹式设计轻巧，与眼镜不冲突；耳挂式腔体更大，可搭载更丰富硬件。"
+    },
+    {
+      "title": "充电盒电源管理芯片趋势",
+      "text": "36款产品中，充电盒电源管理芯片采用6大厂商24款方案，英集芯占比50%，昇生微电子20%，思远半导体12%。英集芯IP5528、IP5518V、IP5513等方案被多款产品采用，支持高集成度、跟随充电等功能。"
+    },
+    {
+      "title": "耳机蓝牙音频SoC趋势",
+      "text": "耳机蓝牙音频SoC采用6大厂商20款方案，中科蓝讯占比30%，恒玄科技28%，杰理科技25%。恒玄BES2700iH、BES2710IHC，中科蓝讯AB5656C2、BT8932D等方案获多款产品采用，支持蓝牙6.0、AI降噪等特性。"
+    },
+    {
+      "title": "功能与设计创新",
+      "text": "产品在佩戴舒适性上采用钛合金/记忆钢丝弯臂、气囊结构等设计；功能上支持定向传音、动态低音增强、空间音效、通话降噪、运动健康监测、AI助手等。部分产品如漫步者LolliClip通过调节音腔贴合度实现开放式与降噪双模式。"
+    },
+    {
+      "title": "内部配置与元器件",
+      "text": "耳机内部主要配置包括电池、扬声器、麦克风、蓝牙音频SoC、触摸检测IC、充电IC、锂电保护IC、陀螺仪等。充电盒内部包括电池、电源管理芯片、升压芯片、保护IC等。高集成度SoC方案简化设计，加速上市周期，降低体积。"
+    }
+  ],
+  "image_highlights": [
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/10/2023102501240797.png",
+      "description": "原文配图",
+      "caption": "文章标题配图，展示OWS开放式耳机产品"
+    },
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/12/2025120510075213.jpg",
+      "description": "原文配图",
+      "caption": "充电盒电源管理芯片厂商占比图"
+    },
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/12/2025120510082471.png",
+      "description": "原文配图",
+      "caption": "耳机蓝牙音频SoC厂商占比图"
+    },
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/12/2025120510080951.png",
+      "description": "原文配图",
+      "caption": "耳夹式耳机产品拆解示例图"
+    }
+  ]
+}
