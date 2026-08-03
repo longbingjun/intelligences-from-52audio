@@ -1,24 +1,26 @@
 {
   "canonical_id": "oneplus--buds-z2",
   "brand": "OnePlus一加",
-  "model": "OnePlus Buds Z2",
+  "model": "Buds Z2",
   "category": "真无线耳机TWS",
   "report_ids": [
+    "130114",
     "98548"
   ],
   "video_ids": [],
   "related_report_ids": [
+    "130114",
     "98548"
   ],
   "related_video_ids": [],
   "first_seen": "2021-12-14",
-  "latest_published": "2021-12-14",
+  "latest_published": "2022-08-31",
   "internal_match_suggestions": [],
   "cost_snapshot": {
-    "main_chip": "恒玄 BES2500Z",
+    "main_chip": "恒玄BES2300IU2",
     "pmic_case": "",
     "battery_ear": "电池",
-    "battery_case": "520 mAh",
+    "battery_case": "40 mAh",
     "speaker": "喇叭单元",
     "materials": "",
     "weight_g": "",
@@ -26,7 +28,7 @@
     "weight_earbud_g": "",
     "ip_rating": "",
     "bluetooth": "5.2",
-    "bom_row_count": 11,
+    "bom_row_count": 13,
     "price_cny": null,
     "price_layer": null,
     "price_source_label": "",
@@ -35,10 +37,24 @@
     "channel_url": null,
     "sales_hint": null,
     "data_completeness": 0.83,
-    "best_report_id": "98548",
+    "best_report_id": "130114",
     "best_video_id": null
   },
   "bom_table": [
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "麦克风\nOnePlus Buds Z内部搭载两颗MEMS麦克风单元，位于主板上下两端，包括通话拾音麦克风和通话降噪麦克风，用于提供清晰地语音通话效果。"
+      }
+    },
     {
       "component": "电池",
       "brand": "",
@@ -50,21 +66,21 @@
         "value": "电池",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "充电内部结构一览，上层设置有支架固定电池。"
+        "source_text": "电池"
       }
     },
     {
-      "component": "麦克风",
+      "component": "喇叭单元",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
-        "value": "麦克风",
+        "value": "喇叭单元",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "功能配置上采用了11mm动圈单元，支持杜比全景声；支持主动降噪功能，拥有强降噪、弱降噪、通透三种模式，最大降噪深度达40dB；内置3颗麦克风协同AI算法和物理抗风噪设计，提供清晰地语音通话效果；还支持佩戴检测、耳塞贴合度检测、查找耳机等功能，拥有38小时综合续航时间。"
+        "source_text": "扬声器\nOnePlus Buds Z内部搭载10mm低音动圈单元，OnePlus Buds Z2搭载的动圈单元升级到了11mm，均支持杜比全景声，提供更沉浸式的音频体验。"
       }
     },
     {
@@ -78,7 +94,7 @@
         "value": "降噪系统",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "随着ANC主动降噪耳机的快速普及，一加在2021年终于推出了首款采用全新设计的TWS降噪耳机产品OnePlus […]"
+        "source_text": "OnePlus Buds Z2内部搭载三颗MEMS麦克风单元，包括音腔内部的反馈式降噪麦克风，以及耳机柄内的前馈降噪麦克风和通话拾音麦克风，用于支持混合主动降噪和三麦通话降噪功能。"
       }
     },
     {
@@ -92,7 +108,7 @@
         "value": "主板/PCBA",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "取出电池，腔体内部结构一览，主板固定在支架下方。"
+        "source_text": "麦克风\nOnePlus Buds Z内部搭载两颗MEMS麦克风单元，位于主板上下两端，包括通话拾音麦克风和通话降噪麦克风，用于提供清晰地语音通话效果。"
       }
     },
     {
@@ -100,41 +116,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "充电盒",
       "role": "major",
       "evidence": {
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "OnePlus Buds Z2真无线耳机外观延续了前代的设计语言，仅在细节上做了多处的调整。充电盒采用了类似“胶囊”的翻盖设计，耳机为柄状入耳式设计，背部触控区域依旧是经典的CD纹理，麦克风开孔做了调整，用以更好降低风噪的影响。"
-      }
-    },
-    {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "喇叭单元",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "功能配置上采用了11mm动圈单元，支持杜比全景声；支持主动降噪功能，拥有强降噪、弱降噪、通透三种模式，最大降噪深度达40dB；内置3颗麦克风协同AI算法和物理抗风噪设计，提供清晰地语音通话效果；还支持佩戴检测、耳塞贴合度检测、查找耳机等功能，拥有38小时综合续航时间。"
-      }
-    },
-    {
-      "component": "天线",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "天线",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "蓝牙同轴天线母座特写。"
+        "source_text": "OnePlus Buds Z和OnePlus Buds Z2延续了同一系列设计，仅在细节处有所变化。充电盒采用类似“胶囊”的设计，体积小巧，质感厚重，触感光滑圆润；耳机采用了柄状的入耳式设计，背部触控板采用CD纹理提升质感。背部麦克风开孔做了调整，设置在了耳机柄两侧，提升抗风噪和收音能力。"
       }
     },
     {
@@ -142,55 +130,97 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "充电盒",
       "role": "minor",
       "evidence": {
         "value": "触控/按键",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "OnePlus Buds Z2真无线耳机外观延续了前代的设计语言，仅在细节上做了多处的调整。充电盒采用了类似“胶囊”的翻盖设计，耳机为柄状入耳式设计，背部触控区域依旧是经典的CD纹理，麦克风开孔做了调整，用以更好降低风噪的影响。"
+        "source_text": "OnePlus Buds Z和OnePlus Buds Z2延续了同一系列设计，仅在细节处有所变化。充电盒采用类似“胶囊”的设计，体积小巧，质感厚重，触感光滑圆润；耳机采用了柄状的入耳式设计，背部触控板采用CD纹理提升质感。背部麦克风开孔做了调整，设置在了耳机柄两侧，提升抗风噪和收音能力。"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "恒玄 BES2500Z",
+      "model": "恒玄BES2300IU2",
       "qty_hint": "1",
-      "side": "",
+      "side": "耳机",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "恒玄 BES2500Z",
+        "value": "恒玄BES2300IU2",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "电池容量：520\n芯片 恒玄 BES2500Z\n芯片 恒玄\nBES2500\n芯片 思远半导体\nSY8801\n芯片 思远半导体SY8702\n芯片 SY5500\n芯片 CM1112\n芯片 CM1123"
+        "source_text": "前者采用了恒玄BES2300IU2蓝牙音频SoC，支持蓝牙5.0，支持第三代FWS全无线立体声技术、双麦克风等；后者搭载恒玄BES2500Z蓝牙音频SoC，是一颗双核数字蓝牙降噪芯片，支持蓝牙5.2标准，超低系统功耗，有效提升了耳机的单次续航时间。"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "思远半导体\nSY8801",
+      "model": "BES2300IU",
       "qty_hint": "1",
-      "side": "",
+      "side": "耳机",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "思远半导体\nSY8801",
+        "value": "BES2300IU",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "电池容量：520\n芯片 恒玄 BES2500Z\n芯片 恒玄\nBES2500\n芯片 思远半导体\nSY8801\n芯片 思远半导体SY8702\n芯片 SY5500\n芯片 CM1112\n芯片 CM1123"
+        "source_text": "前者采用了恒玄BES2300IU2蓝牙音频SoC，支持蓝牙5.0，支持第三代FWS全无线立体声技术、双麦克风等；后者搭载恒玄BES2500Z蓝牙音频SoC，是一颗双核数字蓝牙降噪芯片，支持蓝牙5.2标准，超低系统功耗，有效提升了耳机的单次续航时间。"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "CM1112",
+      "model": "恒玄BES2300IU2",
       "qty_hint": "1",
       "side": "",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "CM1112",
+        "value": "恒玄BES2300IU2",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "电池容量：520\n芯片 恒玄 BES2500Z\n芯片 恒玄\nBES2500\n芯片 思远半导体\nSY8801\n芯片 思远半导体SY8702\n芯片 SY5500\n芯片 CM1112\n芯片 CM1123"
+        "source_text": "电池容量：40\n芯片 恒玄BES2300IU2\n芯片 BES2500Z\n芯片 BES2300IU\n芯片 思远半导体SY8801\n芯片 思远半导体SY8702\n芯片 SY5500\n芯片 CM1123\n芯片 CM1112"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2300IU",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2300IU",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：40\n芯片 恒玄BES2300IU2\n芯片 BES2500Z\n芯片 BES2300IU\n芯片 思远半导体SY8801\n芯片 思远半导体SY8702\n芯片 SY5500\n芯片 CM1123\n芯片 CM1112"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8801",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8801",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：40\n芯片 恒玄BES2300IU2\n芯片 BES2500Z\n芯片 BES2300IU\n芯片 思远半导体SY8801\n芯片 思远半导体SY8702\n芯片 SY5500\n芯片 CM1123\n芯片 CM1112"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1123",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM1123",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：40\n芯片 恒玄BES2300IU2\n芯片 BES2500Z\n芯片 BES2300IU\n芯片 思远半导体SY8801\n芯片 思远半导体SY8702\n芯片 SY5500\n芯片 CM1123\n芯片 CM1112"
       }
     }
   ],
@@ -198,11 +228,13 @@
   "summary_text": "",
   "layer_refs": {
     "technical": [
+      "report:130114",
       "report:98548"
     ],
     "channel": [],
     "official": [],
     "unboxing": [
+      "unboxing:130114",
       "unboxing:98548"
     ],
     "review": []
@@ -468,36 +500,6 @@
     "positioning_summary": "随着ANC主动降噪耳机的快速普及，一加在2021年终于推出了首款采用全新设计的TWS降噪耳机产品OnePlus Buds Pro，并在后续又推出了一款迭代升级产品OnePlus Buds Z2，同样支持主动降噪功能，并在其他功能配置上进行了全面升级。",
     "launch_date": null,
     "best_report_id": "98548",
-    "best_video_id": null,
-    "selling_points_summary": [
-      {
-        "tag": "降噪",
-        "text": "支持主动降噪，拥有强降噪、弱降噪、通透三种模式，最大降噪深度达40dB。"
-      },
-      {
-        "tag": "音质",
-        "text": "采用11mm动圈单元，支持杜比全景声。"
-      },
-      {
-        "tag": "通话",
-        "text": "内置3颗麦克风协同AI算法和物理抗风噪设计，提供清晰语音通话效果。"
-      },
-      {
-        "tag": "功能",
-        "text": "支持佩戴检测、耳塞贴合度检测、查找耳机等功能。"
-      },
-      {
-        "tag": "续航",
-        "text": "拥有38小时综合续航时间。"
-      },
-      {
-        "tag": "设计",
-        "text": "降噪麦克风开孔内部有防尘网防护，耳机方案设计较上代更复杂。"
-      }
-    ],
-    "selling_points_summary_meta": {
-      "model": "deepseek-v4-flash",
-      "source_hash": "f3684ce4f1d95506effd9110fe6f98df150e64c58ab77db5d7f31404280bd460"
-    }
+    "best_video_id": null
   }
 }
