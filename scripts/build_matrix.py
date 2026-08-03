@@ -155,6 +155,7 @@ def build_matrix() -> dict:
             "price_cny": price,
             "price_layer": price_layer,
             "price_source_label": snap.get("price_source_label"),
+            "price_source_url": snap.get("price_source_url"),
             "price_evidence": snap.get("price_evidence"),
             "main_chip": snap.get("main_chip") or (fields.get("main_chip") or {}).get("value"),
             "pmic": snap.get("pmic_case") or (fields.get("pmic") or {}).get("value"),
@@ -217,6 +218,7 @@ def build_matrix() -> dict:
                     "value": display,
                     "evidence": evidence,
                     "source_layer": source_layer,
+                    "source_url": row.get("price_source_url") if param == "price_cny" else "",
                 }
             compare_cols.append(
                 {

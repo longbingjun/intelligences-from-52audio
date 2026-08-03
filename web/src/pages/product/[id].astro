@@ -66,6 +66,7 @@ const priceTxt =
   snap.price_cny != null
     ? `¥${snap.price_cny}${priceLabel ? `（${priceLabel}）` : ""}`
     : "待补充";
+const priceSourceUrl = typeof snap.price_source_url === "string" ? snap.price_source_url.trim() : "";
 
 type UnboxModule = {
   description?: string;
@@ -327,7 +328,22 @@ const lightboxJson = JSON.stringify(allLightboxImages);
       ].map(([label, val]) => (
         <div class="rounded-xl border border-[var(--line)] bg-[var(--surface)] p-4">
           <div class="text-xs text-[var(--muted)]">{label}</div>
-          <div class="mt-1 font-semibold">{val || "—"}</div>
+          {
+            label === "售价" && priceSourceUrl && snap.price_cny != null ? (
+              <a
+                href={priceSourceUrl}
+                target="_blank"
+                rel="noopener noreferrer"
+                title="打开价格信息来源（新标签页）"
+                class="group mt-1 inline-flex flex-wrap items-center gap-x-1 font-semibold text-[var(--primary)] no-underline hover:underline"
+              >
+                <span>{val}</span>
+                <span class="text-xs font-normal text-[var(--muted)] group-hover:text-[var(--primary)]">查看来源 ↗</span>
+              </a>
+            ) : (
+              <div class="mt-1 font-semibold">{val || "—"}</div>
+            )
+          }
         </div>
       ))
     }
