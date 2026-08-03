@@ -306,6 +306,7 @@ def merge_cost_snapshot(
             "brand_official_news": "官方新闻价",
             "brand_official_social_post": "官方社区价",
             "brand_announcement_report": "发布报道价",
+            "channel_price": "渠道价格",
         }
         price_source_label = official_labels.get(
             str(official.get("price_evidence_kind") or ""), "官方价"
