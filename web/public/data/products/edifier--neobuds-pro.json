@@ -1,32 +1,36 @@
 {
   "canonical_id": "edifier--neobuds-pro",
   "brand": "EDIFIER漫步者",
-  "model": "NeoBuds Pro真无线圈铁降噪",
+  "model": "NeoBuds Pro",
   "category": "真无线耳机TWS",
   "report_ids": [
+    "129032",
+    "132005",
     "86343"
   ],
   "video_ids": [],
   "related_report_ids": [
+    "129032",
+    "132005",
     "86343"
   ],
   "related_video_ids": [],
   "first_seen": "2021-07-16",
-  "latest_published": "2021-07-16",
+  "latest_published": "2022-09-20",
   "internal_match_suggestions": [],
   "cost_snapshot": {
-    "main_chip": "恒玄BES2300YP",
+    "main_chip": "Qualcomm aptX",
     "pmic_case": "",
-    "battery_ear": "500 mAh",
-    "battery_case": "电池",
+    "battery_ear": "电池",
+    "battery_case": "40 mAh",
     "speaker": "喇叭单元",
     "materials": "",
     "weight_g": "",
     "weight_case_g": "",
     "weight_earbud_g": "",
     "ip_rating": "",
-    "bluetooth": "",
-    "bom_row_count": 13,
+    "bluetooth": "5.0",
+    "bom_row_count": 15,
     "price_cny": null,
     "price_layer": null,
     "price_source_label": "",
@@ -35,22 +39,50 @@
     "channel_url": null,
     "sales_hint": null,
     "data_completeness": 0.83,
-    "best_report_id": "86343",
+    "best_report_id": "129032",
     "best_video_id": null
   },
   "bom_table": [
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "麦克风\n漫步者NeoBuds Pro和NeoBuds S均搭载了三颗MEMS麦克风单元，包括了耳机柄内主板上的前馈降噪麦克风和通话麦克风，以及前腔出音管内的反馈降噪麦克风，用于混合主动降噪和通话降噪功能。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "麦克风\n漫步者NeoBuds Pro和NeoBuds S均搭载了三颗MEMS麦克风单元，包括了耳机柄内主板上的前馈降噪麦克风和通话麦克风，以及前腔出音管内的反馈降噪麦克风，用于混合主动降噪和通话降噪功能。"
+      }
+    },
     {
       "component": "电池",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "充电盒",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "电池",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "撬开充电盒底部盖板，盖板上固定有电池单元通过导线连接到座舱主板上。"
+        "source_text": "电池"
       }
     },
     {
@@ -58,13 +90,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "充电盒",
+      "side": "耳机",
       "role": "major",
       "evidence": {
         "value": "主板/PCBA",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "撬开充电盒底部盖板，盖板上固定有电池单元通过导线连接到座舱主板上。"
+        "source_text": "麦克风\n漫步者NeoBuds Pro和NeoBuds S均搭载了三颗MEMS麦克风单元，包括了耳机柄内主板上的前馈降噪麦克风和通话麦克风，以及前腔出音管内的反馈降噪麦克风，用于混合主动降噪和通话降噪功能。"
       }
     },
     {
@@ -78,21 +110,7 @@
         "value": "充电仓",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "撬开充电盒底部盖板，盖板上固定有电池单元通过导线连接到座舱主板上。"
-      }
-    },
-    {
-      "component": "麦克风",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "麦克风",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "前馈降噪麦克风开孔特写，做了倒角结构，内部金属网覆盖，拥有很强的层次感和质感。"
+        "source_text": "充电接口：充电盒接口\n漫步者NeoBuds Pro和NeoBuds S充电盒充电接口均采用了USB Type-C接口，拥有着广泛的兼容性，可以与手机充电线公用。"
       }
     },
     {
@@ -106,35 +124,35 @@
         "value": "喇叭单元",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "功能配置上，降噪效果得到了进一步的提升，提供最深-42dB的旗舰级降噪深度。支持环境声监听模式，支持三麦通话降噪。音质方面采用了楼氏动铁+复合振膜的圈铁发声单元，通过分频技术，实现三频均衡的优质音频。并且支持LHDC和LDAC(需等待后续升级使用)两种高清音频编解码，获得Hi-Res认证。"
+        "source_text": "通过动圈+动铁单元组合，搭配有源电子分频专利技术，提供三频均衡的纯正听感。"
       }
     },
     {
-      "component": "天线",
+      "component": "外壳结构",
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
-      "role": "major",
+      "side": "耳机",
+      "role": "minor",
       "evidence": {
-        "value": "天线",
+        "value": "外壳结构",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "薄膜蓝牙天线特写，露铜与主板连接。"
+        "source_text": "麦克风\n漫步者NeoBuds Pro和NeoBuds S均搭载了三颗MEMS麦克风单元，包括了耳机柄内主板上的前馈降噪麦克风和通话麦克风，以及前腔出音管内的反馈降噪麦克风，用于混合主动降噪和通话降噪功能。"
       }
     },
     {
-      "component": "降噪系统",
+      "component": "芯片/模组",
       "brand": "",
-      "model": "",
-      "qty_hint": "",
+      "model": "高通TrueWireless",
+      "qty_hint": "1",
       "side": "",
-      "role": "major",
+      "role": "主控/蓝牙",
       "evidence": {
-        "value": "降噪系统",
-        "confidence": 0.72,
+        "value": "高通TrueWireless",
+        "confidence": 0.78,
         "source_type": "text",
-        "source_text": "BES恒玄BES2300YP蓝牙音频SoC，BES2300有多个版本、后缀不同配置也不尽相同，此前我爱音频网对此进行了详细归类，BES2300Y/YP两种型号均支持主动降噪功能。"
+        "source_text": "此外，骁龙畅听音频和语音技术还支持高通TrueWireless Mirroring镜像连接技术、自适应主动降噪（ANC）技术，aptX Voice超宽带语音技术，以及高通音频和语音通信套件等。"
       }
     },
     {
@@ -148,63 +166,21 @@
         "value": "恒玄BES2300YP",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "BES恒玄BES2300YP蓝牙音频SoC，BES2300有多个版本、后缀不同配置也不尽相同，此前我爱音频网对此进行了详细归类，BES2300Y/YP两种型号均支持主动降噪功能。"
+        "source_text": "漫步者NeoBuds Pro搭载BES恒玄BES2300YP蓝牙音频SoC，集成自适应主动降噪方案，支持蓝牙5.0、IBRT蓝牙监听技术和双模蓝牙 4.2，支持第三代FWS全无线立体声技术、双麦克风等，采用28nm HKMG CMOS工艺、BGA封装。"
       }
     },
     {
       "component": "芯片/模组",
       "brand": "",
-      "model": "SS881",
+      "model": "BES2300",
       "qty_hint": "1",
-      "side": "充电盒",
+      "side": "耳机",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "SS881",
+        "value": "BES2300",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "充电接口：内部电路方面，充电盒采用了Type-C充电接口输入电源，接口处设置有维安 WP1430 OVP过压保护IC；由永阜康CS5256E锂电池充电管理IC为内置500mAh锂离子电池充电；由微源半导体LP6261升压芯片升压为耳机充电；昇生微SS881A微控制器，提供实时可配置的充电电压电流设置。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "WP1430",
-      "qty_hint": "1",
-      "side": "充电盒",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "WP1430",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "充电接口：内部电路方面，充电盒采用了Type-C充电接口输入电源，接口处设置有维安 WP1430 OVP过压保护IC；由永阜康CS5256E锂电池充电管理IC为内置500mAh锂离子电池充电；由微源半导体LP6261升压芯片升压为耳机充电；昇生微SS881A微控制器，提供实时可配置的充电电压电流设置。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "Winsemi稳先微WSDF13A",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "Winsemi稳先微WSDF13A",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "电池容量：500\n芯片 恒玄BES2300YP\n芯片 BES2300\n芯片 BES2300Y\n芯片 Winsemi稳先微WSDF13A\n芯片 SS881\n芯片 WP1430"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "SS881",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "SS881",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "电池容量：500\n芯片 恒玄BES2300YP\n芯片 BES2300\n芯片 BES2300Y\n芯片 Winsemi稳先微WSDF13A\n芯片 SS881\n芯片 WP1430"
+        "source_text": "蓝牙音频SoC\nBES2300支持高性能的自适应主动降噪技术，可以让高端主动降噪耳机使用一颗全集成芯片实现高音质和主动降噪。"
       }
     },
     {
@@ -212,13 +188,69 @@
       "brand": "",
       "model": "WP1430",
       "qty_hint": "1",
-      "side": "",
+      "side": "耳机",
       "role": "主控/蓝牙",
       "evidence": {
         "value": "WP1430",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "电池容量：500\n芯片 恒玄BES2300YP\n芯片 BES2300\n芯片 BES2300Y\n芯片 Winsemi稳先微WSDF13A\n芯片 SS881\n芯片 WP1430"
+        "source_text": "充电接口：输入过压保护IC\n漫步者NeoBuds Pro和漫步者NeoBuds S真无线耳机Type-C输入端口处设置有一颗Wayon维安WP1430过压保护IC，当检测到错误的输入操作条件时自动断开系统与其输出引脚（OUT）的连接。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通Snapdragon",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通Snapdragon",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "标记/认证：不同点是NeoBuds Pro支持LHDC和LDAC高清音频编解码，包装盒上有Hi-Res认证小金标；NeoBuds S支持高通Snapdragon Sound骁龙畅听，对应骁龙畅听认证标志。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Qualcomm aptX",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Qualcomm aptX",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "标记/认证：漫步者NeoBuds S型号：EDF200068；蓝牙版本：5.2；蓝牙协议：A2DP、AVRCP、HFP；音频解码：骁龙畅听、Qualcomm aptX Adaptive、Qualcomm aptX、AAC、SBC；工作时长：约5.5h+16h（降噪开）/约6h+19h（降噪关），充电时间：约1h（耳机）+约1h（充电盒）；输入：5V-200mA（耳机）/5V-1A（充电盒）；标称阻抗：24Ω；输出声压级：92±3dB；频响范围：20Hz-40KHz。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Qualcomm aptX",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Qualcomm aptX",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：40\n芯片 高通QCC5151\n芯片 恒玄BES2300YP\n芯片 Qualcomm aptX\n芯片 高通Snapdragon\n芯片 高通TrueWireless\n芯片 高通aptX\n芯片 高通cVc\n芯片 BES2300\n芯片 思远半导体SY8801\n芯片 Winsemi稳先微WSDF13A\n芯片 SS881\n芯片 WP1430"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC5151",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC5151",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "电池容量：40\n芯片 高通QCC5151\n芯片 恒玄BES2300YP\n芯片 Qualcomm aptX\n芯片 高通Snapdragon\n芯片 高通TrueWireless\n芯片 高通aptX\n芯片 高通cVc\n芯片 BES2300\n芯片 思远半导体SY8801\n芯片 Winsemi稳先微WSDF13A\n芯片 SS881\n芯片 WP1430"
       }
     }
   ],
@@ -226,258 +258,135 @@
   "summary_text": "",
   "layer_refs": {
     "technical": [
+      "report:129032",
+      "report:132005",
       "report:86343"
     ],
     "channel": [],
     "official": [],
     "unboxing": [
+      "unboxing:129032",
+      "unboxing:132005",
       "unboxing:86343"
     ],
     "review": []
   },
   "unboxing": {
-    "report_id": "86343",
+    "report_id": "132005",
     "packaging": {
-      "description": "功能配置上，降噪效果得到了进一步的提升，提供最深-42dB的旗舰级降噪深度。支持环境声监听模式，支持三麦通话降噪。音质方面采用了楼氏动铁+复合振膜的圈铁发声单元，通过分频技术，实现三频均衡的优质音频。并且支持LHDC和LDAC(需等待后续升级使用)两种高清音频编解码，获得Hi-Res认证。",
-      "accessories": [],
+      "description": "LHDC是基于A2DP蓝牙协议下所开发的高音质蓝牙编解码器，可支持传输24bit/96KHz的高解析度音频，最高数据传输速率可达900Kbps，是常规SBC编码器的近3倍，能大幅降低无线与有线音频设备之间的音频质量差异。同时LHDC也是继LDAC之后第二个通过日本音乐协会认证的Hi-Res Audio Wireless蓝牙高音质标准方案。",
+      "accessories": [
+        "前馈",
+        "后馈",
+        "混合",
+        "自适应",
+        "通过高通扩展程序支持第三方创新"
+      ],
       "appearance_images": [
         {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071609494019.png",
-          "alt": "拆解报告：漫步者NeoBuds Pro真无线圈铁降噪耳机-我爱音频网",
-          "caption": "以及部分规格参数信息：型号：EDF200051，蓝牙版本：5.0，蓝牙协议：A2DP、AVRCP、HFP，工作时长：约5h+15h（降噪开）/约6h+18h（降噪关），标称阻抗：24Ω，输入：5V-200mA（耳机）/5V-1A（充电盒），音频解码：LHDC、AAC、SBC，充电时间：约1h（耳机）/约1h（充电盒），声压级：92±3dB，频响范围：20Hz-40KHz。以及包装盒内物品信息。",
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/09/2022092001285374.jpeg",
+          "alt": "拆解对比：漫步者NeoBuds Pro和漫步者NeoBuds S，选Hi-Res还是骁龙畅听？-我爱音频网",
+          "caption": "加速度传感器",
           "module": "packaging",
           "phase": "intro"
         },
         {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071609494033.png",
-          "alt": "拆解报告：漫步者NeoBuds Pro真无线圈铁降噪耳机-我爱音频网",
-          "caption": "包装盒顶部是图文展示的八项产品功能特点：混合主动降噪、电子分频、楼氏动铁、三麦通话降噪、环境声监听、支持快充、24H复合续航和抗菌耳套。",
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/09/2022092001285646.jpeg",
+          "alt": "拆解对比：漫步者NeoBuds Pro和漫步者NeoBuds S，选Hi-Res还是骁龙畅听？-我爱音频网",
+          "caption": "MCU",
           "module": "packaging",
           "phase": "intro"
         },
         {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071609494253.png",
-          "alt": "拆解报告：漫步者NeoBuds Pro真无线圈铁降噪耳机-我爱音频网",
-          "caption": "内部包装盒上设计有漫步者25周年庆的标志，1996-2021。",
-          "module": "packaging",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071609494231.png",
-          "alt": "拆解报告：漫步者NeoBuds Pro真无线圈铁降噪耳机-我爱音频网",
-          "caption": "内部包装盒盖设计有锥形的海绵，起到很好的保护作用。",
-          "module": "packaging",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071609494335.png",
-          "alt": "拆解报告：漫步者NeoBuds Pro真无线圈铁降噪耳机-我爱音频网",
-          "caption": "便携收纳袋和漫步者25周年卡片、产品说明书。",
-          "module": "packaging",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071609524645.png",
-          "alt": "拆解报告：漫步者NeoBuds Pro真无线圈铁降噪耳机-我爱音频网",
-          "caption": "经过开箱我们已经对漫步者NeoBuds Pro真无线圈铁降噪耳机的外观设计有了详细的了解，下面进入拆解部分，来详细看看这款产品的内部结构配置~",
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/09/2022092001285631.jpeg",
+          "alt": "拆解对比：漫步者NeoBuds Pro和漫步者NeoBuds S，选Hi-Res还是骁龙畅听？-我爱音频网",
+          "caption": "输入过压保护IC",
           "module": "packaging",
           "phase": "intro"
         }
       ],
-      "image_count": 6,
+      "image_count": 3,
       "teardown_image_count": 0
     },
     "charging_case": {
       "description": "",
       "accessories": [],
-      "appearance_images": [
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071609494233.png",
-          "alt": "拆解报告：漫步者NeoBuds Pro真无线圈铁降噪耳机-我爱音频网",
-          "caption": "USB-A to Type-C充电线嵌入在海绵垫内。",
-          "module": "charging_case",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071609494417.png",
-          "alt": "拆解报告：漫步者NeoBuds Pro真无线圈铁降噪耳机-我爱音频网",
-          "caption": "正面开盖处设计有便于开启的凹槽，内部是“跑车尾灯”设计的指示灯。",
-          "module": "charging_case",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071609494571.png",
-          "alt": "拆解报告：漫步者NeoBuds Pro真无线圈铁降噪耳机-我爱音频网",
-          "caption": "充电盒盖内侧丝印信息：型号：EDF200051，输入：5V-200mA（耳机）5V-1A（充电盒），CMIIT ID：2021DP1883，中国制造。",
-          "module": "charging_case",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071609524476.png",
-          "alt": "拆解报告：漫步者NeoBuds Pro真无线圈铁降噪耳机-我爱音频网",
-          "caption": "充电盒为耳机充电的金属触点。",
-          "module": "charging_case",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071609524527.png",
-          "alt": "拆解报告：漫步者NeoBuds Pro真无线圈铁降噪耳机-我爱音频网",
-          "caption": "充电盒重量约为46.9g。",
-          "module": "charging_case",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071609524678.png",
-          "alt": "拆解报告：漫步者NeoBuds Pro真无线圈铁降噪耳机-我爱音频网",
-          "caption": "撬开充电盒底部盖板，盖板上固定有电池单元通过导线连接到座舱主板上。",
-          "module": "charging_case",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071609524888.png",
-          "alt": "拆解报告：漫步者NeoBuds Pro真无线圈铁降噪耳机-我爱音频网",
-          "caption": "充电盒座舱底部结构特写。",
-          "module": "charging_case",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071609524837.png",
-          "alt": "拆解报告：漫步者NeoBuds Pro真无线圈铁降噪耳机-我爱音频网",
-          "caption": "充电盒盖通过弹簧连接机身。",
-          "module": "charging_case",
-          "phase": "intro"
-        }
-      ],
-      "image_count": 18,
+      "appearance_images": [],
+      "image_count": 0,
       "teardown_image_count": 0
     },
     "earbuds": {
       "description": "",
       "accessories": [],
-      "appearance_images": [
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071609493954.png",
-          "alt": "拆解报告：漫步者NeoBuds Pro真无线圈铁降噪耳机-我爱音频网",
-          "caption": "我爱音频网此前拆解过的漫步者旗下TWS耳机产品：漫步者 LolliPods Pro、漫步者FunBuds、漫步者TWS NB2真无线降噪耳机；与冇心联合产品漫步者TO-U2、漫步者MiniBuds真无线耳机；游戏耳机漫步者HECATE GM45、漫步者HECATE GM4 MINI；AI骨传导通话降噪耳机漫步者DreamPods；漫步者声迈系列X6、X5、X3真无线蓝牙耳机以及10款其他的漫步者耳机产品。",
-          "module": "earbuds",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071609494392.png",
-          "alt": "拆解报告：漫步者NeoBuds Pro真无线圈铁降噪耳机-我爱音频网",
-          "caption": "6副不同尺寸，不同颜色的抗菌硅胶耳塞，搭配耳机附带的一副绿色耳套，凑齐了彩虹的七种色彩，七种规格满足不同人群的佩戴需求。",
-          "module": "earbuds",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071609494364.png",
-          "alt": "拆解报告：漫步者NeoBuds Pro真无线圈铁降噪耳机-我爱音频网",
-          "caption": "漫步者NeoBuds Pro 顶部外观特写，采用了磨砂的工艺处理，顶部设计有金属材质的亮银色盖板以及漫步者标志。",
-          "module": "earbuds",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071609494517.png",
-          "alt": "拆解报告：漫步者NeoBuds Pro真无线圈铁降噪耳机-我爱音频网",
-          "caption": "打开充电盒，内部结构设置与上代类似，耳机趴在充电盒内，耳机两侧有L/R左右标识；中间设置有一颗蓝牙配对按键。",
-          "module": "earbuds",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071609494568.png",
-          "alt": "拆解报告：漫步者NeoBuds Pro真无线圈铁降噪耳机-我爱音频网",
-          "caption": "为耳机充电的顶针位于耳机柄凹槽内。",
-          "module": "earbuds",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071609494691.png",
-          "alt": "拆解报告：漫步者NeoBuds Pro真无线圈铁降噪耳机-我爱音频网",
-          "caption": "漫步者NeoBuds Pro真无线圈铁降噪耳机整体外观一览。",
-          "module": "earbuds",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071609494629.png",
-          "alt": "拆解报告：漫步者NeoBuds Pro真无线圈铁降噪耳机-我爱音频网",
-          "caption": "漫步者 NeoBuds Pro耳机外观一览，延续了漫步者NB系列的设计风格，采用了柄状的入耳式设计，机身由两种不同的工艺构成。",
-          "module": "earbuds",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021071609494649.png",
-          "alt": "拆解报告：漫步者NeoBuds Pro真无线圈铁降噪耳机-我爱音频网",
-          "caption": "耳机柄背板采用了类金属质感，两端进行了弧线处理，相较于上代不再那么凌厉。",
-          "module": "earbuds",
-          "phase": "intro"
-        }
-      ],
-      "image_count": 64,
+      "appearance_images": [],
+      "image_count": 0,
       "teardown_image_count": 0
     },
     "gaps": [
-      "包装配件清单：未能从「包括…等」句式解析出零件列表"
+      "充电盒：无配图（可能仅有文字描述）",
+      "耳机：无配图"
     ],
-    "completeness": 1.0
+    "completeness": 0.33
   },
   "market": {
     "selling_points": [
       {
-        "text": "漫步者NeoBuds Pro真无线圈铁降噪耳机是漫步者NeoBuds Pro 真无线圈铁降噪耳机进行了详细的体 […]\n漫步者NeoBuds Pro真无线圈铁降噪耳机是\n漫步者在25周年庆\n推出的旗舰级产品，在外观设计方面延续了漫步者独特的设计元素，但整体质感有了明显的提升。",
-        "tag": "降噪",
+        "text": "通过动圈+动铁单元组合，搭配有源电子分频专利技术，提供三频均衡的纯正听感。",
+        "tag": "其他",
         "evidence": {
-          "value": "漫步者NeoBuds Pro真无线圈铁降噪耳机是漫步者NeoBuds Pro 真无线圈铁降噪耳机进行了详细的体 […]\n漫步者NeoBuds Pro真无线圈铁降噪耳机是\n漫步者在25周年庆\n推出的旗舰级产品，在外观设计方面延续了漫步者独特的设计元素，但整体质感有了明显的提升。",
+          "value": "通过动圈+动铁单元组合，搭配有源电子分频专利技术，提供三频均衡的纯正听感。",
           "confidence": 0.75,
           "source_type": "text",
-          "source_text": "漫步者NeoBuds Pro真无线圈铁降噪耳机是漫步者NeoBuds Pro 真无线圈铁降噪耳机进行了详细的体 […]\n漫步者NeoBuds Pro真无线圈铁降噪耳机是\n漫步者在25周年庆\n推出的旗舰级产品，在外观设计方面延续了漫步者独特的设计元素，但整体质感有了明显的提升。"
+          "source_text": "通过动圈+动铁单元组合，搭配有源电子分频专利技术，提供三频均衡的纯正听感。"
         }
       },
       {
-        "text": "我爱音频网此前已经对\n漫步者NeoBuds Pro 真无线圈铁降噪耳机\n进行了详细的体验评测，今天再来看看其内部结构配置吧~\n我爱音频网此前拆解过\n的漫步者旗下TWS耳机产品：\n漫步者 Lolli\nP\nods Pro\n、\n漫步者FunBuds\n、\n漫步者TWS NB2\n真无线降噪耳机；与冇心联合产品\n漫步者TO-U2\n、\n漫步者MiniBuds\n真无线耳机；游戏耳机\n漫步者HECATE GM45\n、\n漫步者HECATE GM4 MINI\n；AI骨传导通话降噪耳机\n漫步者DreamPods\n；漫步者声迈系列\nX6\n、\nX5\n、\nX3\n真无线蓝牙耳机以及\n10款其他的漫步者耳机产品\n。",
+        "text": "漫步者\nNeoBuds Pro\n和\nNeoBuds S\n于漫步者25周年庆上正式亮相，是目前漫步者旗下的旗舰级TWS降噪耳机产品，采用了相同的外观设计，不同的音频解决方案。",
         "tag": "降噪",
         "evidence": {
-          "value": "我爱音频网此前已经对\n漫步者NeoBuds Pro 真无线圈铁降噪耳机\n进行了详细的体验评测，今天再来看看其内部结构配置吧~\n我爱音频网此前拆解过\n的漫步者旗下TWS耳机产品：\n漫步者 Lolli\nP\nods Pro\n、\n漫步者FunBuds\n、\n漫步者TWS NB2\n真无线降噪耳机；与冇心联合产品\n漫步者TO-U2\n、\n漫步者MiniBuds\n真无线耳机；游戏耳机\n漫步者HECATE GM45\n、\n漫步者HECATE GM4 MINI\n；AI骨传导通话降噪耳机\n漫步者DreamPods\n；漫步者声迈系列\nX6\n、\nX5\n、\nX3\n真无线蓝牙耳机以及\n10款其他的漫步者耳机产品\n。",
-          "confidence": 0.69,
+          "value": "漫步者\nNeoBuds Pro\n和\nNeoBuds S\n于漫步者25周年庆上正式亮相，是目前漫步者旗下的旗舰级TWS降噪耳机产品，采用了相同的外观设计，不同的音频解决方案。",
+          "confidence": 0.74,
           "source_type": "text",
-          "source_text": "我爱音频网此前已经对\n漫步者NeoBuds Pro 真无线圈铁降噪耳机\n进行了详细的体验评测，今天再来看看其内部结构配置吧~\n我爱音频网此前拆解过\n的漫步者旗下TWS耳机产品：\n漫步者 Lolli\nP\nods Pro\n、\n漫步者FunBuds\n、\n漫步者TWS NB2\n真无线降噪耳机；与冇心联合产品\n漫步者TO-U2\n、\n漫步者MiniBuds\n真无线耳机；游戏耳机\n漫步者HECATE GM45\n、\n漫步者HECATE GM4 MINI\n；AI骨传导通话降噪耳机\n漫步者DreamPods\n；漫步者声迈系列\nX6\n、\nX5\n、\nX3\n真无线蓝牙耳机以及\n10款其他的漫步者耳机产品\n。"
+          "source_text": "漫步者\nNeoBuds Pro\n和\nNeoBuds S\n于漫步者25周年庆上正式亮相，是目前漫步者旗下的旗舰级TWS降噪耳机产品，采用了相同的外观设计，不同的音频解决方案。"
         }
       },
       {
-        "text": "功能配置上，降噪效果得到了进一步的提升，提供最深-42dB的旗舰级降噪深度。",
+        "text": "EDIFIER漫步者创立于1996年，持续专注于音频技术的研究开发与产品应用，从早期的桌面音箱到有线耳机，再到 […]\n通过动圈+动铁单元组合，搭配有源电子分频专利技术，提供三频均衡的纯正听感。",
+        "tag": "其他",
+        "evidence": {
+          "value": "EDIFIER漫步者创立于1996年，持续专注于音频技术的研究开发与产品应用，从早期的桌面音箱到有线耳机，再到 […]\n通过动圈+动铁单元组合，搭配有源电子分频专利技术，提供三频均衡的纯正听感。",
+          "confidence": 0.72,
+          "source_type": "text",
+          "source_text": "EDIFIER漫步者创立于1996年，持续专注于音频技术的研究开发与产品应用，从早期的桌面音箱到有线耳机，再到 […]\n通过动圈+动铁单元组合，搭配有源电子分频专利技术，提供三频均衡的纯正听感。"
+        }
+      },
+      {
+        "text": "麦克风\n漫步者NeoBuds Pro和NeoBuds S均搭载了三颗MEMS麦克风单元，包括了耳机柄内主板上的前馈降噪麦克风和通话麦克风，以及前腔出音管内的反馈降噪麦克风，用于混合主动降噪和通话降噪功能。",
         "tag": "降噪",
         "evidence": {
-          "value": "功能配置上，降噪效果得到了进一步的提升，提供最深-42dB的旗舰级降噪深度。",
-          "confidence": 0.7,
+          "value": "麦克风\n漫步者NeoBuds Pro和NeoBuds S均搭载了三颗MEMS麦克风单元，包括了耳机柄内主板上的前馈降噪麦克风和通话麦克风，以及前腔出音管内的反馈降噪麦克风，用于混合主动降噪和通话降噪功能。",
+          "confidence": 0.55,
           "source_type": "text",
-          "source_text": "功能配置上，降噪效果得到了进一步的提升，提供最深-42dB的旗舰级降噪深度。"
+          "source_text": "麦克风\n漫步者NeoBuds Pro和NeoBuds S均搭载了三颗MEMS麦克风单元，包括了耳机柄内主板上的前馈降噪麦克风和通话麦克风，以及前腔出音管内的反馈降噪麦克风，用于混合主动降噪和通话降噪功能。"
+        }
+      },
+      {
+        "text": "漫步者NeoBuds Pro和NeoBuds S均搭载了三颗MEMS麦克风单元，包括了耳机柄内主板上的前馈降噪麦克风和通话麦克风，以及前腔出音管内的反馈降噪麦克风，用于混合主动降噪和通话降噪功能。",
+        "tag": "降噪",
+        "evidence": {
+          "value": "漫步者NeoBuds Pro和NeoBuds S均搭载了三颗MEMS麦克风单元，包括了耳机柄内主板上的前馈降噪麦克风和通话麦克风，以及前腔出音管内的反馈降噪麦克风，用于混合主动降噪和通话降噪功能。",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "漫步者NeoBuds Pro和NeoBuds S均搭载了三颗MEMS麦克风单元，包括了耳机柄内主板上的前馈降噪麦克风和通话麦克风，以及前腔出音管内的反馈降噪麦克风，用于混合主动降噪和通话降噪功能。"
         }
       }
     ],
     "scenarios": [
-      "游戏",
       "通话"
     ],
-    "positioning_summary": "漫步者NeoBuds Pro真无线圈铁降噪耳机是漫步者NeoBuds Pro 真无线圈铁降噪耳机进行了详细的体 […]\n漫步者NeoBuds Pro真无线圈铁降噪耳机是\n漫步者在25周年庆\n推出的旗舰级产品，在外观设计方面延续了漫步者独特的设计元素，但整体质感有了明显的提升。",
+    "positioning_summary": "通过动圈+动铁单元组合，搭配有源电子分频专利技术，提供三频均衡的纯正听感。",
     "launch_date": null,
-    "best_report_id": "86343",
-    "best_video_id": null,
-    "selling_points_summary": [
-      {
-        "tag": "降噪",
-        "text": "提供最深-42dB的旗舰级降噪深度"
-      },
-      {
-        "tag": "设计",
-        "text": "延续漫步者独特设计元素，整体质感明显提升"
-      },
-      {
-        "tag": "产品定位",
-        "text": "漫步者25周年庆推出的旗舰级产品"
-      }
-    ],
-    "selling_points_summary_meta": {
-      "model": "deepseek-v4-flash",
-      "source_hash": "3c6165dc1979506c09f09efa114d8eea99f5cab9d5ab6736540b21137ed8c0dd"
-    }
+    "best_report_id": "129032",
+    "best_video_id": null
   }
 }
