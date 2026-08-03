@@ -1,4 +1,4 @@
-name: Full traceable price research
+name: Identity repair and traceable price research
 
 on:
   workflow_dispatch:
@@ -30,21 +30,31 @@ jobs:
           cache-dependency-path: requirements.txt
       - name: Install research dependencies
         run: pip install requests beautifulsoup4
-      - name: Research every identity-safe product without an official price
+      - name: Resolve ambiguous products from original 52audio articles
+        run: python scripts/repair_product_identities.py --all --workers 2 --write-overrides
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+      - name: Rebuild products with reviewed source identities
+        run: |
+          python scripts/build_products.py
+          python scripts/build_product_priority.py
+      - name: Research every identity-safe product using traceable source tiers
         run: python scripts/run_price_text_pilot.py --full --workers 3 --write-accepted --checkpoint-every 10
         env:
           DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
-      - name: Commit verified prices and research ledger
+      - name: Commit identity review, traceable prices, and ledgers
         run: |
           git config user.name "intel-bot"
           git config user.email "intel-bot@users.noreply.github.com"
-          git add data/enrich/official/ data/staging/official/ scratch_price_research/price_text_full.json
-          git diff --cached --quiet || git commit -m "data: add full traceable price research"
+          git add data/enrich/official/ data/staging/official/ data/staging/identity/ scratch_price_research/price_text_full.json scratch_price_research/identity_repair_review.json
+          git diff --cached --quiet || git commit -m "data: repair product identities and research traceable prices"
           git pull --rebase origin master
           git push
       - uses: actions/upload-artifact@v4
         if: always()
         with:
-          name: full-price-research-ledger
-          path: scratch_price_research/price_text_full.json
+          name: identity-and-price-research-ledgers
+          path: |
+            scratch_price_research/price_text_full.json
+            scratch_price_research/identity_repair_review.json
           if-no-files-found: warn

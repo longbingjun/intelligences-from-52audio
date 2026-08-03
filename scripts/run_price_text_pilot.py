@@ -1,8 +1,9 @@
-"""Evidence-only pilot for traceable mainland-China official prices.
+"""Evidence-led price research with explicit source tiers.
 
-The pilot is deliberately separate from ``data/products``: it creates a review
-artifact and never writes ``cost_snapshot.price_cny``.  A price is accepted only
-when a known official brand domain supplies the quoted evidence.
+The workflow writes only source-linked enrich records. Official pages are tried
+first, then verified official flagship stores, launch reports, and finally ZOL;
+each fallback carries its own visible label instead of being presented as an
+official price.
 """
 
 from __future__ import annotations
@@ -60,6 +61,20 @@ OFFICIAL_DOMAIN_HINTS = {
     "qcy": ("qcy.com.cn", "qcy.com"),
     "realme": ("realme.com",),
     "vivo": ("vivo.com.cn", "vivo.com"),
+    "1more": ("1more.com",),
+    "ugreen": ("ugreen.com",),
+    "lenovo": ("lenovo.com",),
+    "haylou": ("haylou.com",),
+    "soundpeats": ("soundpeats.com",),
+    "meizu": ("meizu.com",),
+    "cleer": ("cleeraudio.com",),
+    "redmi": ("mi.com", "xiaomi.com"),
+    "fiil": ("fiil.com",),
+    "libratone": ("libratone.com",),
+    "earfun": ("myearfun.com", "earfun.com"),
+    "jabra": ("jabra.cn", "jabra.com"),
+    "marshall": ("marshall.com",),
+    "motorola": ("motorola.com",),
 }
 
 # Mainland-China pages should be considered before generic global domains when
@@ -94,16 +109,36 @@ BRAND_ALIASES = {
     "qcy": ("qcy",),
     "realme": ("realme", "真我"),
     "vivo": ("vivo",),
+    "1more": ("1more", "万魔"),
+    "ugreen": ("ugreen", "绿联"),
+    "lenovo": ("lenovo", "联想"),
+    "haylou": ("haylou",),
+    "soundpeats": ("soundpeats", "泥炭"),
+    "meizu": ("meizu", "魅族"),
+    "cleer": ("cleer",),
+    "redmi": ("redmi", "红米"),
+    "fiil": ("fiil",),
+    "libratone": ("libratone", "小鸟"),
+    "earfun": ("earfun",),
+    "jabra": ("jabra",),
+    "marshall": ("marshall",),
+    "motorola": ("motorola", "moto", "摩托罗拉"),
 }
 
-PROMPT = """You are a strict price-evidence auditor. The supplied pages were fetched
-from a known official brand website or official store. Extract a price only if the
-page itself explicitly states a mainland-China official MSRP, suggested retail price,
-or official launch price for the exact product. Do not use transaction, promotion,
-subsidy, coupon, pre-sale, used, overseas, or a different-configuration price.
-If the evidence is insufficient, use null. Return JSON only:
-{"price_cny":number|null,"price_type":"official_msrp|official_launch_price|no_reliable_result",
+PROMPT = """You are a strict price-evidence auditor. Each supplied page has a source
+tier and allowed price types. Extract a price only when that exact product and a
+mainland-China price are explicit in the page. Reject transaction, promotion,
+subsidy, coupon, pre-sale, used, overseas, or different-configuration prices.
+Never upgrade a media or ZOL price into an official price. If evidence is
+insufficient, return null. Return JSON only:
+{"price_cny":number|null,"price_type":"official_msrp|official_launch_price|reported_launch_price|reference_price|no_reliable_result",
 "evidence_index":number|null,"evidence_quote":string,"confidence":number,"reason":string}."""
+
+# Fallback sources are deliberately labelled in the UI. They are not treated as
+# official prices, and ZOL is only reached after every preceding tier fails.
+MEDIA_DOMAINS = ("ithome.com", "cnmo.com", "mydrivers.com", "pchome.net")
+ZOL_DOMAINS = ("zol.com.cn",)
+FLAGSHIP_DOMAINS = ("jd.com", "tmall.com")
 
 
 def canonical_brand(brand: str) -> str:
@@ -271,34 +306,41 @@ def model_queries(product: dict) -> list[str]:
     return [query for query in queries if len(query) >= 3 and not (query.lower() in seen or seen.add(query.lower()))]
 
 
-def official_evidence(product: dict) -> tuple[list[dict], list[str]]:
-    domains = official_domains(product)
-    if not domains:
-        return [], ["brand has no curated official-domain allow-list entry"]
+def _host_matches(url: str, domains: tuple[str, ...]) -> bool:
+    return is_official_url(url, domains)
 
-    # Use ASCII-only query terms here.  The product model remains quoted, while
-    # avoiding Windows-console encoding changes that previously made the Bing
-    # query unreadable in Actions.
-    query_suffix = "official product store launch price MSRP China"
+
+def _evidence_for_queries(
+    queries: list[str], *, domains: tuple[str, ...], source_type: str,
+    evidence_kind: str, allowed_price_types: tuple[str, ...], require_flagship: bool = False,
+) -> tuple[list[dict], list[str]]:
+    """Search a single source tier and return only fetchable, source-qualified pages."""
     raw_hits: list[dict] = []
-    for domain in domains:
-        for model in model_queries(product):
-            raw_hits.extend(bing_search(f'site:{domain} "{model}" {query_suffix}'))
-
-    seen, evidence, notes = set(), [], []
+    notes: list[str] = []
+    for query in queries:
+        try:
+            raw_hits.extend(bing_search(query))
+        except requests.RequestException as exc:
+            notes.append(f"search failed for {evidence_kind}: {exc.__class__.__name__}")
+    seen, evidence = set(), []
     for hit in raw_hits:
         url = resolve_bing_result_url(hit["url"])
-        if url in seen or not is_official_url(url, domains):
+        if url in seen or not _host_matches(url, domains):
             continue
         seen.add(url)
         try:
             title, page_text = extract_page_text(url)
         except requests.RequestException as exc:
-            notes.append(f"could not fetch official result: {urlsplit(url).hostname} ({exc.__class__.__name__})")
+            notes.append(f"could not fetch {evidence_kind}: {urlsplit(url).hostname} ({exc.__class__.__name__})")
+            continue
+        combined = f"{title} {page_text}".lower()
+        if require_flagship and "官方旗舰店" not in combined and "official flagship" not in combined:
             continue
         if page_text:
             evidence.append({
-                "source_type": "official_site_or_store_or_newsroom",
+                "source_type": source_type,
+                "price_evidence_kind": evidence_kind,
+                "allowed_price_types": list(allowed_price_types),
                 "title": title or hit["title"],
                 "url": url,
                 "search_snippet": hit["snippet"],
@@ -306,9 +348,33 @@ def official_evidence(product: dict) -> tuple[list[dict], list[str]]:
             })
         if len(evidence) >= 5:
             break
-    if not evidence and not notes:
-        notes.append(f"no fetchable official-site result for model; search_hits={len(raw_hits)}")
     return evidence, notes
+
+
+def price_evidence_tiers(product: dict) -> list[tuple[str, list[dict], list[str]]]:
+    """Return price sources in policy order; no fallback is mislabelled as official."""
+    brand, models = str(product["brand"]), model_queries(product)
+    domains = official_domains(product)
+    tiers: list[tuple[str, list[dict], list[str]]] = []
+    if domains:
+        queries = [f'site:{domain} "{model}" (售价 OR 价格 OR 首发 OR 建议零售价)' for domain in domains for model in models]
+        evidence, notes = _evidence_for_queries(queries, domains=domains, source_type="official_site_or_store_or_newsroom", evidence_kind="official_product_page", allowed_price_types=("official_msrp", "official_launch_price"))
+        tiers.append(("official_site", evidence, notes))
+    else:
+        tiers.append(("official_site", [], ["brand has no curated official-domain allow-list entry"]))
+
+    flagship_queries = [f'site:{domain} "{brand}" "{model}" 官方旗舰店 价格' for domain in FLAGSHIP_DOMAINS for model in models]
+    evidence, notes = _evidence_for_queries(flagship_queries, domains=FLAGSHIP_DOMAINS, source_type="official_flagship_store", evidence_kind="official_flagship_store", allowed_price_types=("official_msrp", "official_launch_price"), require_flagship=True)
+    tiers.append(("official_flagship_store", evidence, notes))
+
+    media_queries = [f'site:{domain} "{brand}" "{model}" 发布 售价' for domain in MEDIA_DOMAINS for model in models]
+    evidence, notes = _evidence_for_queries(media_queries, domains=MEDIA_DOMAINS, source_type="brand_announcement_report", evidence_kind="brand_announcement_report", allowed_price_types=("reported_launch_price",))
+    tiers.append(("announcement_report", evidence, notes))
+
+    zol_queries = [f'site:{domain} "{brand}" "{model}" 价格' for domain in ZOL_DOMAINS for model in models]
+    evidence, notes = _evidence_for_queries(zol_queries, domains=ZOL_DOMAINS, source_type="zol_reference", evidence_kind="zol_reference_price", allowed_price_types=("reference_price",))
+    tiers.append(("zol_reference", evidence, notes))
+    return tiers
 
 
 def finite_number(value: object, default: float = 0) -> float:
@@ -328,9 +394,11 @@ def normalise_extraction(result: dict, evidence: list[dict]) -> dict:
         isinstance(index, int)
         and 0 <= index < len(evidence)
         and price > 0
-        and result.get("price_type") in {"official_msrp", "official_launch_price"}
+        and result.get("price_type") in {"official_msrp", "official_launch_price", "reported_launch_price", "reference_price"}
         and bool(str(result.get("evidence_quote", "")).strip())
     )
+    if valid and result.get("price_type") not in set(evidence[index].get("allowed_price_types") or []):
+        valid = False
     if not valid:
         return {"price_cny": None, "price_type": "no_reliable_result", "confidence": 0,
                 "evidence_url": "", "evidence_quote": "", "reason": str(result.get("reason", "insufficient official evidence"))}
@@ -373,11 +441,7 @@ def write_accepted_price(product: dict, extraction: dict, evidence: list[dict]) 
     matching_evidence = next(
         (item for item in evidence if item.get("url") == extraction.get("evidence_url")), {}
     )
-    evidence_kind = (
-        "official_product_page"
-        if extraction.get("price_type") == "official_msrp"
-        else "brand_official_news"
-    )
+    evidence_kind = str(matching_evidence.get("price_evidence_kind") or "official_product_page")
     payload = {
         **existing,
         "canonical_id": canonical_id,
@@ -401,11 +465,21 @@ def write_accepted_price(product: dict, extraction: dict, evidence: list[dict]) 
 
 def research_one(api_key: str, product: dict) -> dict:
     try:
-        evidence, notes = official_evidence(product)
-        extraction = extract_official_price(api_key, product, evidence) if evidence else {
-            "price_cny": None, "price_type": "no_reliable_result", "confidence": 0,
-            "evidence_url": "", "evidence_quote": "", "reason": "; ".join(notes),
-        }
+        all_notes: list[str] = []
+        evidence, extraction = [], None
+        for _tier, tier_evidence, notes in price_evidence_tiers(product):
+            all_notes.extend(notes)
+            if not tier_evidence:
+                continue
+            candidate = extract_official_price(api_key, product, tier_evidence)
+            if candidate.get("price_cny") is not None:
+                evidence, extraction = tier_evidence, candidate
+                break
+        if extraction is None:
+            extraction = {
+                "price_cny": None, "price_type": "no_reliable_result", "confidence": 0,
+                "evidence_url": "", "evidence_quote": "", "reason": "; ".join(all_notes) or "no source-tier evidence",
+            }
     except Exception as exc:
         evidence, extraction = [], {
             "price_cny": None, "price_type": "no_reliable_result", "confidence": 0,

@@ -19,6 +19,7 @@ from core.products import (  # noqa: E402
     guess_brand_from_text,
     merge_cost_snapshot,
     merge_market_snapshot,
+    load_identity_overrides,
     merge_unboxing_snapshot,
     normalize_brand,
     normalize_model,
@@ -92,6 +93,33 @@ def _pick_category(categories: list[str]) -> str:
     return max(counts, key=lambda k: (counts[k], k))
 
 
+def _identity_candidates(record: dict, overrides: dict[str, dict]) -> list[tuple[str, str, str]]:
+    """Use source-grounded identity repairs without mutating the raw article.
+
+    One article may describe several headphones.  A reviewed split therefore
+    deliberately produces several product aggregates that share the same report.
+    """
+    override = overrides.get(str(record.get("id") or "")) or {}
+    decision = str(override.get("decision") or "")
+    if decision == "not_headphone":
+        return []
+    if decision in {"single_headphone", "multi_headphone"}:
+        resolved: list[tuple[str, str, str]] = []
+        for item in override.get("products") or []:
+            if float(item.get("confidence") or 0) < 0.9:
+                continue
+            brand = normalize_brand(str(item.get("brand") or ""))
+            model = normalize_model(str(item.get("model") or ""), brand)
+            category = normalize_headphone_category(
+                f"{brand} {model}", str(item.get("category") or record.get("category") or "")
+            )
+            if brand and model and category in HEADPHONE_CATEGORIES:
+                resolved.append((brand, model, category))
+        if resolved:
+            return resolved
+    return [_record_identity(record)]
+
+
 def build_products() -> dict:
     products_dir(for_write=True)
 
@@ -104,6 +132,7 @@ def build_products() -> dict:
         videos_by_id[v["id"]] = v
 
     aggregates: dict[str, dict] = {}
+    identity_overrides = load_identity_overrides()
 
     for kind in ("report", "video"):
         for record in load_all_records(kind):
@@ -111,38 +140,39 @@ def build_products() -> dict:
                 continue
             if kind == "report":
                 record = reports_by_id.get(record["id"], record)
-            brand, model, category = _record_identity(record)
-            if category not in HEADPHONE_CATEGORIES:
-                continue
-            cid = canonical_product_id(brand, model)
-            published = record.get("published_at", "")
+            candidates = _identity_candidates(record, identity_overrides) if kind == "report" else [_record_identity(record)]
+            for brand, model, category in candidates:
+                if category not in HEADPHONE_CATEGORIES:
+                    continue
+                cid = canonical_product_id(brand, model)
+                published = record.get("published_at", "")
 
-            if cid not in aggregates:
-                aggregates[cid] = {
-                    "canonical_id": cid,
-                    "brand": brand,
-                    "model": model,
-                    "categories": [],
-                    "report_ids": [],
-                    "video_ids": [],
-                    "published_dates": [],
-                    "market_prices": [],
-                }
+                if cid not in aggregates:
+                    aggregates[cid] = {
+                        "canonical_id": cid,
+                        "brand": brand,
+                        "model": model,
+                        "categories": [],
+                        "report_ids": [],
+                        "video_ids": [],
+                        "published_dates": [],
+                        "market_prices": [],
+                    }
 
-            agg = aggregates[cid]
-            if brand and not agg["brand"]:
-                agg["brand"] = brand
-            if model and (not agg["model"] or agg["model"] == "unknown"):
-                agg["model"] = model
-            agg["categories"].append(category)
-            agg["published_dates"].append(published)
-            if kind == "report":
-                agg["report_ids"].append(record["id"])
-                mkt = (record.get("views") or {}).get("market") or {}
-                if mkt.get("price_cny") is not None:
-                    agg["market_prices"].append(mkt["price_cny"])
-            else:
-                agg["video_ids"].append(record["id"])
+                agg = aggregates[cid]
+                if brand and not agg["brand"]:
+                    agg["brand"] = brand
+                if model and (not agg["model"] or agg["model"] == "unknown"):
+                    agg["model"] = model
+                agg["categories"].append(category)
+                agg["published_dates"].append(published)
+                if kind == "report":
+                    agg["report_ids"].append(record["id"])
+                    mkt = (record.get("views") or {}).get("market") or {}
+                    if mkt.get("price_cny") is not None:
+                        agg["market_prices"].append(mkt["price_cny"])
+                else:
+                    agg["video_ids"].append(record["id"])
 
     index_items: list[dict] = []
     for cid, agg in sorted(aggregates.items()):

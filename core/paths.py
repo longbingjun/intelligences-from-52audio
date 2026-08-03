@@ -30,6 +30,14 @@ LEGACY_COMPARE = DATA / "compare"
 LEGACY_MATRIX = DATA / "matrix"
 LEGACY_CONFIG = DATA / "config"
 
+
+def identity_overrides_path(*, for_write: bool = False) -> Path:
+    """LLM-reviewed report-to-product identities, separate from raw source data."""
+    path = STAGING / "identity" / "report_product_overrides.json"
+    if for_write:
+        path.parent.mkdir(parents=True, exist_ok=True)
+    return path
+
 MANIFEST_PATH = DATA / "manifest.json"
 
 

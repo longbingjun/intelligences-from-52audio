@@ -8,7 +8,7 @@ import unicodedata
 from pathlib import Path
 
 from core.cost_extract import compute_cost_completeness, extract_cost_fields, pick_best_report
-from core.paths import channel_enrich_dir, official_enrich_dir, unboxing_enrich_dir
+from core.paths import channel_enrich_dir, identity_overrides_path, official_enrich_dir, unboxing_enrich_dir
 from sources.audio52.lexicon import BRAND_ALIASES, PRODUCT_TYPE_SUFFIXES
 
 _SLUG_RE = re.compile(r"[^a-z0-9]+")
@@ -128,6 +128,23 @@ def load_channel_enrich(canonical_id: str) -> dict | None:
         return json.loads(path.read_text(encoding="utf-8"))
     except Exception:
         return None
+
+
+def load_identity_overrides() -> dict[str, dict]:
+    """Return reviewed product identities keyed by original 52audio report ID.
+
+    The raw report stays immutable.  Only high-confidence, single-product or
+    split-product entries are used by the product builder.
+    """
+    path = identity_overrides_path()
+    if not path.exists():
+        return {}
+    try:
+        payload = json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return {}
+    items = payload.get("items") if isinstance(payload, dict) else None
+    return items if isinstance(items, dict) else {}
 
 
 def load_unboxing_enrich(report_id: str) -> dict | None:
@@ -307,6 +324,8 @@ def merge_cost_snapshot(
             "brand_official_social_post": "官方社区价",
             "brand_announcement_report": "发布报道价",
             "channel_price": "渠道价格",
+            "official_flagship_store": "官方旗舰店价",
+            "zol_reference_price": "中关村在线参考价",
         }
         price_source_label = official_labels.get(
             str(official.get("price_evidence_kind") or ""), "官方价"
