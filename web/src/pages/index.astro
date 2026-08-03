@@ -38,16 +38,16 @@ if (fs.existsSync(productsDataDir)) {
 }
 ---
 
-<BaseLayout title="Cost Intelligence Workspace" activeNav="home">
+<BaseLayout title="竞品成本情报工作台" activeNav="home">
   <section class="dashboard-hero">
     <div class="dashboard-hero-copy">
-      <p class="eyebrow">COST INTELLIGENCE · 52AUDIO</p>
-      <h1>Make product research<br /><span>more decisive.</span></h1>
-      <p class="dashboard-hero-description">A focused workspace for product discovery, traceable pricing, teardown evidence and cross-category comparison.</p>
-      <div class="hero-actions"><a href="#workspace" class="hero-primary-action">Explore products <span>→</span></a><a href={withBase("/compare")} class="hero-secondary-action">Open comparison</a></div>
+      <p class="eyebrow">竞品成本情报 · 52AUDIO</p>
+      <h1>让产品研究<br /><span>更快形成决策。</span></h1>
+      <p class="dashboard-hero-description">集产品发现、可溯源售价、拆解证据与跨品类对比于一体的研究工作台。</p>
+      <div class="hero-actions"><a href="#workspace" class="hero-primary-action">浏览产品 <span>→</span></a><a href={withBase("/compare")} class="hero-secondary-action">打开对比</a></div>
     </div>
-    <div class="dashboard-hero-art" aria-hidden="true"><div class="hero-orbit hero-orbit--one"></div><div class="hero-orbit hero-orbit--two"></div><div class="hero-product-glyph"><span></span><i></i><b></b></div><div class="hero-signal hero-signal--one">{officialPageCount} official pages</div><div class="hero-signal hero-signal--two">{currentYear} current dataset</div></div>
+    <div class="dashboard-hero-art" aria-hidden="true"><div class="hero-orbit hero-orbit--one"></div><div class="hero-orbit hero-orbit--two"></div><div class="hero-product-glyph"><span></span><i></i><b></b></div><div class="hero-signal hero-signal--one">{officialPageCount} 个官网页面</div><div class="hero-signal hero-signal--two">{currentYear} 年当前数据集</div></div>
   </section>
-  <section class="dashboard-kpis" aria-label="Research coverage"><article><span class="kpi-icon kpi-icon--blue">◈</span><div><strong>{manifest.product_count}</strong><span>Products indexed</span></div></article><article><span class="kpi-icon kpi-icon--purple">⌁</span><div><strong>{recentFocusCount}</strong><span>Priority research queue</span></div></article><article><span class="kpi-icon kpi-icon--cyan">¥</span><div><strong>{productPriced}</strong><span>Products with price records</span></div></article><article><span class="kpi-icon kpi-icon--orange">◎</span><div><strong>{officialPageCount}</strong><span>Official pages traceable</span></div></article></section>
+  <section class="dashboard-kpis" aria-label="研究数据覆盖"><article><span class="kpi-icon kpi-icon--blue">◈</span><div><strong>{manifest.product_count}</strong><span>已收录产品</span></div></article><article><span class="kpi-icon kpi-icon--purple">⌁</span><div><strong>{recentFocusCount}</strong><span>重点研究队列</span></div></article><article><span class="kpi-icon kpi-icon--cyan">¥</span><div><strong>{productPriced}</strong><span>已记录售价产品</span></div></article><article><span class="kpi-icon kpi-icon--orange">◎</span><div><strong>{officialPageCount}</strong><span>官网页面可溯源</span></div></article></section>
   <ProductBrowser client:load categories={categories.map((category) => ({ name: category.name, slug: category.slug, product_count: category.product_count }))} totalCount={manifest.product_count} brands={brands} unknownBrandCount={unknownBrandCount} initialSlices={initialSlices} fullIndexUrl={withBase("/data/products/index.json")} />
 </BaseLayout>
