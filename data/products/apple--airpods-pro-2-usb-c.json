@@ -31,11 +31,11 @@
     "ip_rating": "",
     "bluetooth": "5.0",
     "bom_row_count": 12,
-    "price_cny": null,
-    "price_layer": null,
-    "price_source_label": "",
-    "price_source_url": "",
-    "price_evidence": "",
+    "price_cny": 1899,
+    "price_layer": "official",
+    "price_source_label": "官方新闻价",
+    "price_source_url": "https://www.apple.com.cn/newsroom/2023/09/apple-upgrades-airpods-pro-2nd-generation-with-usb-c-charging/",
+    "price_evidence": "Apple 中国大陆新闻稿载明配 MagSafe 充电盒（USB-C 端口）的 AirPods Pro（第二代）售价 RMB 1899。",
     "channel_url": null,
     "sales_hint": null,
     "data_completeness": 0.67,
@@ -220,7 +220,9 @@
       "video:192921"
     ],
     "channel": [],
-    "official": [],
+    "official": [
+      "official:apple--airpods-pro-2-usb-c"
+    ],
     "unboxing": [
       "unboxing:176691"
     ],

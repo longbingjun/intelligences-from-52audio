@@ -27,11 +27,11 @@
     "ip_rating": "",
     "bluetooth": "5.1",
     "bom_row_count": 10,
-    "price_cny": null,
-    "price_layer": null,
-    "price_source_label": "",
-    "price_source_url": "",
-    "price_evidence": "",
+    "price_cny": 99.9,
+    "price_layer": "official",
+    "price_source_label": "官网价",
+    "price_source_url": "https://www.qcy.com.cn/lang-cn/productview/1267.html?spec=1268",
+    "price_evidence": "QCY 中国官网产品页展示 T13 价格 ¥99.9。",
     "channel_url": null,
     "sales_hint": null,
     "data_completeness": 0.83,
@@ -187,7 +187,9 @@
       "report:85595"
     ],
     "channel": [],
-    "official": [],
+    "official": [
+      "official:qcy--t13"
+    ],
     "unboxing": [
       "unboxing:85595"
     ],

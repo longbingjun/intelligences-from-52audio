@@ -31,11 +31,11 @@
     "ip_rating": "",
     "bluetooth": "5.3",
     "bom_row_count": 11,
-    "price_cny": 145.0,
-    "price_layer": "technical",
-    "price_source_label": "技术文章价",
-    "price_source_url": "",
-    "price_evidence": "",
+    "price_cny": 1999,
+    "price_layer": "official",
+    "price_source_label": "官方新闻价",
+    "price_source_url": "https://www.apple.com.cn/newsroom/2019/10/apple-reveals-new-airpods-pro-available-october-30/",
+    "price_evidence": "Apple 中国大陆新闻稿载明初代 AirPods Pro 售价 RMB 1999。",
     "channel_url": null,
     "sales_hint": null,
     "data_completeness": 0.83,
@@ -215,7 +215,9 @@
       "report:30646"
     ],
     "channel": [],
-    "official": [],
+    "official": [
+      "official:apple--airpods-pro"
+    ],
     "unboxing": [
       "unboxing:198130",
       "unboxing:30315",

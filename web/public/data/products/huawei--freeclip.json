@@ -31,11 +31,11 @@
     "ip_rating": "",
     "bluetooth": "",
     "bom_row_count": 17,
-    "price_cny": null,
-    "price_layer": null,
-    "price_source_label": "",
-    "price_source_url": "",
-    "price_evidence": "",
+    "price_cny": 1299,
+    "price_layer": "official",
+    "price_source_label": "官网价",
+    "price_source_url": "https://consumer.huawei.com/cn/headphones/freeclip/",
+    "price_evidence": "华为官网产品页标注 HUAWEI FreeClip ¥1299 起。",
     "channel_url": null,
     "sales_hint": null,
     "data_completeness": 0.83,
@@ -290,7 +290,9 @@
       "video:192123"
     ],
     "channel": [],
-    "official": [],
+    "official": [
+      "official:huawei--freeclip"
+    ],
     "unboxing": [
       "unboxing:188379"
     ],

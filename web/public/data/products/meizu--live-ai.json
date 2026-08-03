@@ -27,12 +27,12 @@
     "ip_rating": "",
     "bluetooth": "5.3",
     "bom_row_count": 17,
-    "price_cny": null,
-    "price_layer": null,
-    "price_source_label": "",
-    "price_source_url": "",
-    "price_evidence": "",
-    "channel_url": null,
+    "price_cny": 599,
+    "price_layer": "official",
+    "price_source_label": "发布报道价",
+    "price_source_url": "https://www.ithome.com/0/768/456.htm",
+    "price_evidence": "新品发布报道明确载明定价 599 元。",
+    "channel_url": "https://detail.zol.com.cn/microphone/index2009846.shtml",
     "sales_hint": null,
     "data_completeness": 0.83,
     "best_report_id": "217917",
@@ -284,8 +284,12 @@
     "technical": [
       "report:217917"
     ],
-    "channel": [],
-    "official": [],
+    "channel": [
+      "channel:meizu--live-ai"
+    ],
+    "official": [
+      "official:meizu--live-ai"
+    ],
     "unboxing": [
       "unboxing:217917"
     ],

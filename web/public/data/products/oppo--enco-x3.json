@@ -42,12 +42,12 @@
     "ip_rating": "",
     "bluetooth": "5.4",
     "bom_row_count": 22,
-    "price_cny": null,
-    "price_layer": null,
-    "price_source_label": "",
-    "price_source_url": "",
-    "price_evidence": "",
-    "channel_url": null,
+    "price_cny": 899,
+    "price_layer": "official",
+    "price_source_label": "发布报道价",
+    "price_source_url": "https://cincodias.elpais.com/smartlife/gadgets/2024-10-25/oppo-enco-x3-nuevos-auriculares-caracteristicas.html",
+    "price_evidence": "发布报道载明有线充版本定价 899 元、无线充版本定价 949 元；此处记录基础有线充版本定价。",
+    "channel_url": "https://detail.zol.com.cn/microphone/index2111354.shtml",
     "sales_hint": null,
     "data_completeness": 1.0,
     "best_report_id": "217819",
@@ -370,8 +370,12 @@
       "report:217819",
       "video:218986"
     ],
-    "channel": [],
-    "official": [],
+    "channel": [
+      "channel:oppo--enco-x3"
+    ],
+    "official": [
+      "official:oppo--enco-x3"
+    ],
     "unboxing": [
       "unboxing:217819"
     ],
