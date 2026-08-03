@@ -32,7 +32,7 @@ const positioningSummary = (market.positioning_summary || "").trim();
 const hasMarket = sellingPoints.length > 0 || scenarios.length > 0 || !!positioningSummary;
 ---
 
-<BaseLayout title={`${report.brand} ${report.model} 拆解`} activeNav="category">
+<BaseLayout title={`${report.brand} ${report.model} 拆解`} activeNav="compare">
   <p class="text-sm">
     <a href={withBase(`/category/${encodeURIComponent(report.category || "")}`)} class="text-[var(--muted)]">
       ← 返回 {report.category || "品类对比"}

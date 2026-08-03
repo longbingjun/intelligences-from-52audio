@@ -33,11 +33,22 @@ interface Props {
 
 interface ProductDetailImage {
   url?: string;
+  alt?: string;
+  caption?: string;
+}
+
+interface ProductUnboxingSection {
+  appearance_images?: ProductDetailImage[];
+}
+
+interface ProductUnboxing {
+  packaging?: ProductUnboxingSection;
+  charging_case?: ProductUnboxingSection;
+  earbuds?: ProductUnboxingSection;
 }
 
 interface ProductDetail {
-  summary_image_urls?: ProductDetailImage[];
-  unboxing?: unknown;
+  unboxing?: ProductUnboxing;
 }
 
 function categoryStyle(category: string) {
@@ -62,23 +73,22 @@ function statusLabel(product: IndexProduct) {
   return "历史产品参考";
 }
 
-function walkForImageUrl(value: unknown): string | undefined {
-  if (Array.isArray(value)) {
-    for (const item of value) {
-      const found = walkForImageUrl(item);
-      if (found) return found;
-    }
-    return undefined;
-  }
-  if (value && typeof value === "object") {
-    const record = value as Record<string, unknown>;
-    if (typeof record.url === "string" && /^https?:\/\//.test(record.url)) return record.url;
-    for (const child of Object.values(record)) {
-      const found = walkForImageUrl(child);
-      if (found) return found;
-    }
-  }
-  return undefined;
+function productAppearanceImage(unboxing?: ProductUnboxing): string | undefined {
+  const candidates = [
+    { images: unboxing?.earbuds?.appearance_images || [], sectionScore: 6 },
+    { images: unboxing?.charging_case?.appearance_images || [], sectionScore: 4 },
+    { images: unboxing?.packaging?.appearance_images || [], sectionScore: 2 },
+  ].flatMap(({ images, sectionScore }) =>
+    images
+      .filter((image) => typeof image.url === "string" && /^https?:\/\//.test(image.url))
+      .map((image) => {
+        const description = `${image.alt || ""} ${image.caption || ""}`;
+        const overallBonus = /整体|全貌|全景|外观|一览|展示|真机|佩戴|正面|侧面|背面/.test(description) ? 20 : 0;
+        const detailPenalty = /特写|内部|拆解|芯片|主板|电池|接口|触点|铭牌|参数|包装盒/.test(description) ? 12 : 0;
+        return { url: image.url as string, score: sectionScore + overallBonus - detailPenalty };
+      }),
+  );
+  return candidates.sort((a, b) => b.score - a.score)[0]?.url;
 }
 
 async function cachedImagePath(remoteUrl: string): Promise<string | null> {
@@ -95,7 +105,7 @@ async function loadProductImage(product: IndexProduct): Promise<string | null> {
     const response = await fetch(withBase(`/data/products/${product.canonical_id}.json`));
     if (!response.ok) return null;
     const detail = (await response.json()) as ProductDetail;
-    const originalUrl = detail.summary_image_urls?.find((item) => item.url)?.url || walkForImageUrl(detail.unboxing);
+    const originalUrl = productAppearanceImage(detail.unboxing);
     return originalUrl ? cachedImagePath(originalUrl) : null;
   } catch {
     return null;
@@ -234,7 +244,7 @@ export default function ProductBrowser({
               <span>产品分类</span>
               <button type="button" onClick={() => setCategoryFilter("")}>全部</button>
             </div>
-            <div className="filter-list">
+            <div className="filter-list filter-list--categories">
               {categories.map((category) => (
                 <button
                   key={category.name}

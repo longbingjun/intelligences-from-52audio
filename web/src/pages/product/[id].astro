@@ -109,7 +109,7 @@ const allLightboxImages: ResolvedImage[] = [
 const lightboxJson = JSON.stringify(allLightboxImages);
 ---
 
-<BaseLayout title={`${product.brand} ${product.model}`} activeNav="category">
+<BaseLayout title={`${product.brand} ${product.model}`} activeNav="compare">
   <div class="mb-4 text-sm">
     <a id="compare-back-link" href={staticBackHref} class="text-[var(--muted)]">
       ← 返回 {product.category} 对比
