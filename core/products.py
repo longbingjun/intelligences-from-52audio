@@ -313,11 +313,22 @@ def merge_cost_snapshot(
     price_source_label = ""
     price_source_url = ""
     price_evidence = ""
+    price_currency = "CNY"
+    price_kind = ""
+    price_kind_labels = {
+        "official": "官方价",
+        "promo": "促销价",
+        "used": "二手价",
+        "inventory": "库存价",
+        "channel_event": "渠道活动价",
+        "channel": "渠道价",
+    }
     # 对比页的价格口径固定为品牌官方售价/建议零售价。渠道价通常是
     # 实时促销或成交价，不能覆盖已核验的官方定价。
     if official and official.get("msrp_cny") is not None:
         price_cny = official.get("msrp_cny")
         price_layer = "official"
+        price_kind = str(official.get("price_kind") or "official")
         official_labels = {
             "official_product_page": "官网价",
             "brand_official_news": "官方新闻价",
@@ -327,8 +338,9 @@ def merge_cost_snapshot(
             "official_flagship_store": "官方旗舰店价",
             "zol_reference_price": "中关村在线参考价",
         }
-        price_source_label = official_labels.get(
-            str(official.get("price_evidence_kind") or ""), "官方价"
+        price_source_label = str(official.get("price_label") or "").strip() or price_kind_labels.get(
+            price_kind,
+            official_labels.get(str(official.get("price_evidence_kind") or ""), "官方价"),
         )
         price_source_url = str(
             official.get("price_source_url")
@@ -337,16 +349,37 @@ def merge_cost_snapshot(
             or ""
         )
         price_evidence = str(official.get("price_evidence") or "")
+    elif official and official.get("price_amount") is not None:
+        # Some overseas brands only publish a non-CNY price. Keep it visible
+        # and traceable instead of silently discarding a useful launch price.
+        price_cny = official.get("price_amount")
+        price_currency = str(official.get("price_currency") or "CNY").upper()
+        price_kind = str(official.get("price_kind") or "official")
+        price_layer = "official"
+        price_source_label = str(official.get("price_label") or "").strip() or price_kind_labels.get(price_kind, "官方价")
+        price_source_url = str(official.get("price_source_url") or official.get("official_url") or official.get("vmall_url") or "")
+        price_evidence = str(official.get("price_evidence") or "")
     elif channel and channel.get("price_cny") is not None:
         price_cny = channel.get("price_cny")
         price_layer = "channel"
-        price_source_label = "渠道价"
+        price_currency = str(channel.get("price_currency") or "CNY").upper()
+        price_kind = str(channel.get("price_kind") or "channel")
+        price_source_label = str(channel.get("price_label") or "").strip() or price_kind_labels.get(price_kind, "渠道价")
+        price_source_url = str(channel.get("channel_url") or "")
+        price_evidence = str(channel.get("price_note") or "")
+    elif channel and channel.get("price_amount") is not None:
+        price_cny = channel.get("price_amount")
+        price_layer = "channel"
+        price_currency = str(channel.get("price_currency") or "CNY").upper()
+        price_kind = str(channel.get("price_kind") or "channel")
+        price_source_label = str(channel.get("price_label") or "").strip() or price_kind_labels.get(price_kind, "渠道价")
         price_source_url = str(channel.get("channel_url") or "")
         price_evidence = str(channel.get("price_note") or "")
     elif market_price is not None:
         price_cny = market_price
         price_layer = "technical"
         price_source_label = "技术文章价"
+        price_kind = "technical"
 
     layer_refs: dict[str, list[str]] = {
         "technical": [f"report:{r['id']}" for r in reports] + [f"video:{vid}" for vid in video_ids],
@@ -370,6 +403,8 @@ def merge_cost_snapshot(
         "bluetooth": (fields.get("bluetooth") or {}).get("value"),
         "bom_row_count": len(bom_table),
         "price_cny": price_cny,
+        "price_currency": price_currency,
+        "price_kind": price_kind,
         "price_layer": price_layer,
         "price_source_label": price_source_label,
         "price_source_url": price_source_url,

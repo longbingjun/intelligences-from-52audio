@@ -4,6 +4,10 @@ CSV 格式（UTF-8，首行表头）— 二选一 ID 列：
   canonical_id,price_cny,price_source,channel_url,sales_hint,price_note
   id,price_cny,price_source,channel_url,sales_hint,price_note   # 报告 ID，自动映射到产品
 
+Optional fields for traceable non-standard prices:
+  price_amount,price_currency,price_kind,price_label
+  price_kind: promo | used | inventory | channel_event | channel
+
 字段说明：
   - canonical_id / id  产品 canonical ID 或报告 ID（必填其一）
   - price_cny          人民币现价
@@ -56,7 +60,11 @@ def _canonical_from_report_id(report_id: str) -> str | None:
 def _write_channel(canonical_id: str, row: dict) -> None:
     payload = {
         "canonical_id": canonical_id,
-        "price_cny": float(row["price_cny"]) if row.get("price_cny") else None,
+        "price_cny": float(row["price_cny"]) if row.get("price_cny") else (float(row["price_amount"]) if row.get("price_amount") and (row.get("price_currency") or "CNY").upper() == "CNY" else None),
+        "price_amount": float(row["price_amount"]) if row.get("price_amount") else None,
+        "price_currency": (row.get("price_currency") or "CNY").upper(),
+        "price_kind": row.get("price_kind") or "channel",
+        "price_label": row.get("price_label") or "",
         "price_source": row.get("price_source") or row.get("channel") or "manual_csv",
         "channel_url": row.get("channel_url") or row.get("price_url") or "",
         "sales_hint": row.get("sales_hint") or "",

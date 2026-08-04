@@ -79,10 +79,12 @@ def _layer_badges(layer_refs: dict) -> str:
     return "、".join(badges)
 
 
-def _price_display(price: float | None, layer: str | None, source_label: str | None = None) -> str:
+def _price_display(price: float | None, layer: str | None, source_label: str | None = None, currency: str | None = None) -> str:
     if price is None:
         return ""
-    txt = f"¥{price}"
+    currency = str(currency or "CNY").upper()
+    prefix = {"CNY": "¥", "USD": "US$", "EUR": "€", "GBP": "£", "JPY": "JP¥", "KRW": "₩"}.get(currency, f"{currency} ")
+    txt = f"{prefix}{price}"
     fallback_labels = {"channel": "渠道价", "technical": "技术文章价", "official": "官方价"}
     label = source_label or fallback_labels.get(layer or "", "")
     return f"{txt}（{label}）" if label else txt
@@ -144,15 +146,18 @@ def build_matrix() -> dict:
         channel = load_channel_enrich(cid)
         price = snap.get("price_cny")
         price_layer = snap.get("price_layer")
+        price_currency = snap.get("price_currency") or "CNY"
         if channel and channel.get("price_cny") is not None:
             price = channel["price_cny"]
             price_layer = "channel"
+            price_currency = channel.get("price_currency") or "CNY"
 
         row = {
             "canonical_id": cid,
             "brand": product.get("brand", ""),
             "model": product.get("model", ""),
             "price_cny": price,
+            "price_currency": price_currency,
             "price_layer": price_layer,
             "price_source_label": snap.get("price_source_label"),
             "price_source_url": snap.get("price_source_url"),
@@ -202,7 +207,7 @@ def build_matrix() -> dict:
             for param in COMPARE_PARAM_ROWS:
                 val = row.get(param)
                 if param == "price_cny":
-                    display = _price_display(val, row.get("price_layer"), row.get("price_source_label"))
+                    display = _price_display(val, row.get("price_layer"), row.get("price_source_label"), row.get("price_currency"))
                 elif param == "bom_rows":
                     display = str(val) if val is not None else ""
                 else:

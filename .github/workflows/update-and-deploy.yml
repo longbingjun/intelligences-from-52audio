@@ -16,6 +16,10 @@ on:
         description: 是否合并 OCR 结果到 BOM（较慢，默认 false）
         type: boolean
         default: false
+      run_identity_repair:
+        description: 从我爱音频网原文增量提取待治理产品的品牌与完整型号（消耗 DeepSeek 配额）
+        type: boolean
+        default: false
   push:
     branches: [main, master]
 
@@ -54,6 +58,12 @@ jobs:
         run: |
           MODE="${{ github.event.inputs.crawl_mode || 'daily' }}"
           python scripts/crawl_v2.py --mode "$MODE"
+
+      - name: 增量治理产品身份
+        if: github.event_name == 'workflow_dispatch' && github.event.inputs.run_identity_repair == 'true'
+        env:
+          DEEPSEEK_API_KEY: ${{ secrets.DEEPSEEK_API_KEY }}
+        run: python scripts/repair_product_identities.py --all --workers 2 --write-overrides
 
       - name: 可选预处理（搜索索引 / 产品库 / 矩阵 / 信源标签）
         run: |

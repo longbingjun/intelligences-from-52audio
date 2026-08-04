@@ -124,7 +124,20 @@ def main() -> None:
     parser.add_argument("--write-overrides", action="store_true")
     args = parser.parse_args()
     api_key = os.environ["DEEPSEEK_API_KEY"]
-    candidates = [record for record in load_all_records("report") if is_candidate(record)]
+    existing_path = identity_overrides_path()
+    existing_items: dict[str, dict] = {}
+    if existing_path.exists():
+        try:
+            existing_items = (json.loads(existing_path.read_text(encoding="utf-8")).get("items") or {})
+        except (OSError, json.JSONDecodeError):
+            existing_items = {}
+
+    # Identity repair is intentionally incremental: a previously accepted
+    # article is never sent to the model again unless its override is removed.
+    candidates = [
+        record for record in load_all_records("report")
+        if is_candidate(record) and str(record.get("id") or "") not in existing_items
+    ]
     if not args.all:
         candidates = candidates[:max(1, args.limit)]
     results = []
@@ -135,13 +148,17 @@ def main() -> None:
     results.sort(key=lambda item: item["report_id"])
     accepted = {item["report_id"]: item for item in results if item["decision"] in {"single_headphone", "multi_headphone", "not_headphone"}}
     review = [item for item in results if item["decision"] in {"needs_review", "not_headphone"}]
-    payload = {"generated_at": datetime.now(timezone.utc).isoformat(), "policy": "Raw articles remain unchanged; only evidence-backed >=0.9 identities are consumed by the product builder.", "items": accepted}
+    payload = {
+        "generated_at": datetime.now(timezone.utc).isoformat(),
+        "policy": "Raw articles remain unchanged; only evidence-backed >=0.9 identities are consumed by the product builder.",
+        "items": {**existing_items, **accepted},
+    }
     out_dir = ROOT / "scratch_price_research"
     out_dir.mkdir(parents=True, exist_ok=True)
     (out_dir / "identity_repair_review.json").write_text(json.dumps({"summary": {"processed": len(results), "accepted": len(accepted), "needs_review": sum(item["decision"] == "needs_review" for item in results), "not_headphone": sum(item["decision"] == "not_headphone" for item in results)}, "items": review}, ensure_ascii=False, indent=2), encoding="utf-8")
     if args.write_overrides:
         identity_overrides_path(for_write=True).write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
-    print(json.dumps({"processed": len(results), "accepted": len(accepted), "needs_review": sum(item["decision"] == "needs_review" for item in results), "not_headphone": sum(item["decision"] == "not_headphone" for item in results)}, ensure_ascii=False))
+    print(json.dumps({"processed": len(results), "accepted": len(accepted), "existing_skipped": len(existing_items), "needs_review": sum(item["decision"] == "needs_review" for item in results), "not_headphone": sum(item["decision"] == "not_headphone" for item in results)}, ensure_ascii=False))
 
 
 if __name__ == "__main__":
