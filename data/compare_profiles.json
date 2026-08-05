@@ -5,6 +5,7 @@
       "label": "TWS / 开放式 / 耳夹",
       "categories": ["真无线耳机TWS", "开放式耳机"],
       "p0": [
+        "launch_date",
         "price_cny",
         "main_chip",
         "pmic",
@@ -29,6 +30,7 @@
       "label": "骨传导",
       "categories": ["骨传导耳机"],
       "p0": [
+        "launch_date",
         "price_cny",
         "main_chip",
         "battery_ear",
@@ -44,6 +46,7 @@
       "label": "通用",
       "categories": ["*"],
       "p0": [
+        "launch_date",
         "price_cny",
         "main_chip",
         "pmic",
@@ -59,6 +62,7 @@
     }
   },
   "param_labels": {
+    "launch_date": { "label": "上市时间", "why": "产品代际判断；有来源时可点击查看发布时间证据" },
     "price_cny": { "label": "渠道售价", "why": "竞品定位与成本锚点" },
     "main_chip": { "label": "耳机主控 SoC", "why": "平台选型 — 成本结构核心" },
     "pmic": { "label": "充电仓 PMIC", "why": "仓电源管理 IC" },

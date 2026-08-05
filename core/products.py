@@ -8,7 +8,7 @@ import unicodedata
 from pathlib import Path
 
 from core.cost_extract import compute_cost_completeness, extract_cost_fields, pick_best_report
-from core.paths import channel_enrich_dir, identity_overrides_path, official_enrich_dir, unboxing_enrich_dir
+from core.paths import channel_enrich_dir, identity_overrides_path, launch_enrich_dir, official_enrich_dir, unboxing_enrich_dir
 from sources.audio52.lexicon import BRAND_ALIASES, PRODUCT_TYPE_SUFFIXES
 
 _SLUG_RE = re.compile(r"[^a-z0-9]+")
@@ -128,6 +128,76 @@ def load_channel_enrich(canonical_id: str) -> dict | None:
         return json.loads(path.read_text(encoding="utf-8"))
     except Exception:
         return None
+
+
+def load_launch_enrich(canonical_id: str) -> dict | None:
+    path = launch_enrich_dir() / f"{canonical_id}.json"
+    if not path.exists():
+        return None
+    try:
+        return json.loads(path.read_text(encoding="utf-8"))
+    except Exception:
+        return None
+
+
+def merge_launch_snapshot(canonical_id: str, first_seen: str, market: dict | None = None) -> dict:
+    """Return a display-safe, source-linked launch-date snapshot.
+
+    Article publication dates are intentionally not presented as launch dates.
+    They are only used to place unresolved historical products into the
+    user-approved legacy bucket.
+    """
+    evidence = load_launch_enrich(canonical_id) or {}
+    date_value = str(evidence.get("launch_date") or "").strip()
+    display = str(evidence.get("launch_display") or "").strip()
+    if date_value or display:
+        return {
+            "date": date_value,
+            "display": display or date_value,
+            "scope": str(evidence.get("launch_scope") or "").strip(),
+            "status": str(evidence.get("status") or "verified").strip(),
+            "source_url": str(evidence.get("source_url") or "").strip(),
+            "evidence": str(evidence.get("evidence") or "").strip(),
+            "source_type": str(evidence.get("source_type") or "").strip(),
+        }
+
+    # A negative result is also a cache entry: it prevents the scheduled job
+    # from repeatedly sending the same original article to the model.  It must
+    # still render the user-facing legacy/pending state below, never an empty
+    # value that looks like a verified date.
+    checked = str(evidence.get("status") or "").strip() == "not_found"
+
+    inferred = str((market or {}).get("launch_date") or "").strip()
+    if inferred:
+        return {
+            "date": inferred,
+            "display": inferred,
+            "scope": "",
+            "status": "reported",
+            "source_url": "",
+            "evidence": "来源原文已提及上市时间，待补充外部发布时间链接。",
+            "source_type": "source_article",
+        }
+
+    if first_seen[:4].isdigit() and int(first_seen[:4]) <= 2024:
+        return {
+            "date": "",
+            "display": "2024及以前产品，暂未找到相应信息",
+            "scope": "",
+            "status": "legacy_unresolved",
+            "source_url": "",
+            "evidence": "已核对来源原文，未发现可直接佐证的上市时间。" if checked else "",
+            "source_type": "",
+        }
+    return {
+        "date": "",
+        "display": "上市时间待核验",
+        "scope": "",
+        "status": "pending",
+        "source_url": "",
+        "evidence": "已核对来源原文，待补充公开发布时间来源。" if checked else "",
+        "source_type": "",
+    }
 
 
 def load_identity_overrides() -> dict[str, dict]:

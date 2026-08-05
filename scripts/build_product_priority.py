@@ -9,7 +9,7 @@ an official page.
 from __future__ import annotations
 
 import json
-from datetime import date, datetime, timedelta
+from datetime import date, datetime
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
@@ -21,7 +21,7 @@ sys.path.insert(0, str(ROOT))
 from core.paths import official_enrich_dir, products_index_path, write_products_index  # noqa: E402
 
 
-RECENT_WINDOW_DAYS = 730
+PRIORITY_LAUNCH_START = date(2025, 1, 1)
 TRUSTED_PRICE_EVIDENCE_KINDS = {
     "official_product_page",
     "brand_official_news",
@@ -78,7 +78,7 @@ def official_page_status(canonical_id: str) -> tuple[str, str, bool]:
 
 
 def priority_for(product: dict, *, cutoff: date) -> tuple[str, int, str, str, bool]:
-    first_seen = parse_product_date(product.get("first_seen"))
+    first_seen = parse_product_date(product.get("launch_date")) or parse_product_date(product.get("first_seen"))
     canonical_id = str(product.get("canonical_id") or "")
     status, url, verified_price = official_page_status(canonical_id)
     if first_seen is not None and first_seen >= cutoff and verified_price:
@@ -90,7 +90,7 @@ def priority_for(product: dict, *, cutoff: date) -> tuple[str, int, str, str, bo
 
 def build_priority_index(today: date | None = None) -> dict:
     today = today or date.today()
-    cutoff = today - timedelta(days=RECENT_WINDOW_DAYS)
+    cutoff = PRIORITY_LAUNCH_START
     path = products_index_path()
     payload = json.loads(path.read_text(encoding="utf-8"))
     products = payload.get("products", [])
@@ -115,9 +115,8 @@ def build_priority_index(today: date | None = None) -> dict:
 
     payload["priority_generated_at"] = datetime.now().astimezone().isoformat(timespec="seconds")
     payload["priority_policy"] = {
-        "recent_window_days": RECENT_WINDOW_DAYS,
         "recent_since": cutoff.isoformat(),
-        "rule": "traceable official or launch-price evidence first; recent products without verified price second; historical reference last",
+        "rule": "2025年及以后上市产品优先查价；无明确上市时间时仅以最早拆解报告日期作为队列兜底，不作为上市日期展示",
     }
     payload["priority_counts"] = counts
     write_products_index(payload)

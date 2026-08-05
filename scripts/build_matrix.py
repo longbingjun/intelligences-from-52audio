@@ -26,6 +26,7 @@ PRODUCTS_DIR = products_dir()
 COST_MATRIX_COLUMNS = [
     "brand",
     "model",
+    "launch_date",
     "price_cny",
     "main_chip",
     "pmic",
@@ -44,6 +45,7 @@ COST_MATRIX_COLUMNS = [
 ]
 
 COMPARE_PARAM_ROWS = [
+    "launch_date",
     "price_cny",
     "main_chip",
     "pmic",
@@ -147,6 +149,7 @@ def build_matrix() -> dict:
         price = snap.get("price_cny")
         price_layer = snap.get("price_layer")
         price_currency = snap.get("price_currency") or "CNY"
+        launch = product.get("launch") or {}
         if channel and channel.get("price_cny") is not None:
             price = channel["price_cny"]
             price_layer = "channel"
@@ -157,6 +160,10 @@ def build_matrix() -> dict:
             "brand": product.get("brand", ""),
             "model": product.get("model", ""),
             "price_cny": price,
+            "launch_date": launch.get("display") or "",
+            "launch_source_url": launch.get("source_url") or "",
+            "launch_evidence": launch.get("evidence") or "",
+            "launch_source_layer": "official" if launch.get("source_type") in {"official_news", "official_product_page", "official_store"} else "technical",
             "price_currency": price_currency,
             "price_layer": price_layer,
             "price_source_label": snap.get("price_source_label"),
@@ -208,6 +215,8 @@ def build_matrix() -> dict:
                 val = row.get(param)
                 if param == "price_cny":
                     display = _price_display(val, row.get("price_layer"), row.get("price_source_label"), row.get("price_currency"))
+                elif param == "launch_date":
+                    display = str(val or "")
                 elif param == "bom_rows":
                     display = str(val) if val is not None else ""
                 else:
@@ -216,14 +225,20 @@ def build_matrix() -> dict:
                 if param == "price_cny":
                     evidence = row.get("price_evidence") or ""
                     source_layer = row.get("price_layer") or "technical"
+                    source_url = row.get("price_source_url") or ""
+                elif param == "launch_date":
+                    evidence = row.get("launch_evidence") or ""
+                    source_layer = row.get("launch_source_layer") or "technical"
+                    source_url = row.get("launch_source_url") or ""
                 else:
                     evidence = field_ev.get("evidence", "") if isinstance(field_ev, dict) else ""
                     source_layer = field_ev.get("source_layer", "technical") if isinstance(field_ev, dict) else "technical"
+                    source_url = ""
                 cells[param] = {
                     "value": display,
                     "evidence": evidence,
                     "source_layer": source_layer,
-                    "source_url": row.get("price_source_url") if param == "price_cny" else "",
+                    "source_url": source_url,
                 }
             compare_cols.append(
                 {

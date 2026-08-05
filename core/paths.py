@@ -87,6 +87,19 @@ def unboxing_enrich_dir(*, for_write: bool = False) -> Path:
     return legacy
 
 
+def launch_enrich_dir(*, for_write: bool = False) -> Path:
+    """Launch-date evidence keyed by canonical product ID."""
+    primary = STAGING / "launch"
+    legacy = LEGACY_ENRICH / "launch"
+    if for_write:
+        primary.mkdir(parents=True, exist_ok=True)
+        legacy.mkdir(parents=True, exist_ok=True)
+        return primary
+    if primary.exists() and any(primary.glob("*.json")):
+        return primary
+    return legacy
+
+
 def commerce_hints_path() -> Path:
     staged = STAGING / "config" / "commerce_hints.json"
     legacy = LEGACY_CONFIG / "commerce_hints.json"
@@ -162,6 +175,12 @@ def write_official_enrich(canonical_id: str, payload: dict) -> None:
 def write_unboxing_enrich(report_id: str, payload: dict) -> None:
     primary = unboxing_enrich_dir(for_write=True) / f"{report_id}.json"
     mirror = LEGACY_ENRICH / "unboxing" / f"{report_id}.json"
+    write_json_dual(primary, mirror, payload)
+
+
+def write_launch_enrich(canonical_id: str, payload: dict) -> None:
+    primary = launch_enrich_dir(for_write=True) / f"{canonical_id}.json"
+    mirror = LEGACY_ENRICH / "launch" / f"{canonical_id}.json"
     write_json_dual(primary, mirror, payload)
 
 

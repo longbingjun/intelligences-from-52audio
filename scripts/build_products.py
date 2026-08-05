@@ -18,6 +18,7 @@ from core.products import (  # noqa: E402
     canonical_product_id,
     guess_brand_from_text,
     merge_cost_snapshot,
+    merge_launch_snapshot,
     merge_market_snapshot,
     load_identity_overrides,
     merge_unboxing_snapshot,
@@ -215,6 +216,7 @@ def build_products() -> dict:
             reports_by_id=reports_by_id,
             videos_by_id=videos_by_id,
         )
+        launch = merge_launch_snapshot(cid, dates[0] if dates else "", market)
 
         product = {
             "canonical_id": cid,
@@ -235,6 +237,7 @@ def build_products() -> dict:
             "layer_refs": cost_data["layer_refs"],
             "unboxing": unboxing,
             "market": market,
+            "launch": launch,
         }
         write_product_json(cid, product)
         index_items.append(
@@ -249,6 +252,9 @@ def build_products() -> dict:
                 "latest_published": product["latest_published"],
                 "cost_completeness": cost_data["cost_snapshot"].get("data_completeness"),
                 "bom_row_count": cost_data["cost_snapshot"].get("bom_row_count"),
+                "launch_date": launch.get("date"),
+                "launch_display": launch.get("display"),
+                "launch_status": launch.get("status"),
             }
         )
 

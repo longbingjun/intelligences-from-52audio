@@ -69,6 +69,9 @@ const priceTxt =
     ? `${pricePrefix}${snap.price_cny}${priceLabel ? `（${priceLabel}）` : ""}`
     : "待补充";
 const priceSourceUrl = typeof snap.price_source_url === "string" ? snap.price_source_url.trim() : "";
+const launch = product.launch || {};
+const launchDisplay = String(launch.display || "上市时间待核验");
+const launchSourceUrl = typeof launch.source_url === "string" ? launch.source_url.trim() : "";
 
 type UnboxModule = {
   description?: string;
@@ -211,6 +214,10 @@ const lightboxJson = JSON.stringify(allLightboxImages);
             {priceTxt}<small>查看来源 ↗</small>
           </a>
         ) : <strong>{priceTxt}</strong>}
+        <div class="detail-launch-inline">
+          <span>上市时间</span>
+          {launchSourceUrl ? <a href={launchSourceUrl} target="_blank" rel="noopener noreferrer" title="打开上市时间来源">{launchDisplay}<small>查看来源 ↗</small></a> : <strong>{launchDisplay}</strong>}
+        </div>
       </div>
       <div class="detail-metric-grid">
         <div><span>成本完整度</span><strong>{completeness}%</strong></div>
@@ -407,12 +414,15 @@ const lightboxJson = JSON.stringify(allLightboxImages);
         ["喇叭", snap.speaker],
         ["材料", snap.materials],
         ...weightCards,
+        ["上市时间", launchDisplay],
         ["售价", priceTxt],
       ].map(([label, val]) => (
         <div class="rounded-xl border border-[var(--line)] bg-[var(--surface)] p-4">
           <div class="text-xs text-[var(--muted)]">{label}</div>
           {
-            label === "售价" && priceSourceUrl && snap.price_cny != null ? (
+            label === "上市时间" && launchSourceUrl ? (
+              <a href={launchSourceUrl} target="_blank" rel="noopener noreferrer" title="打开上市时间来源（新标签页）" class="group mt-1 inline-flex flex-wrap items-center gap-x-1 font-semibold text-[var(--primary)] no-underline hover:underline"><span>{val}</span><span class="text-xs font-normal text-[var(--muted)] group-hover:text-[var(--primary)]">查看来源 ↗</span></a>
+            ) : label === "售价" && priceSourceUrl && snap.price_cny != null ? (
               <a
                 href={priceSourceUrl}
                 target="_blank"

@@ -413,12 +413,12 @@ export default function CompareWorkbench({
                             <span className="rounded-full bg-[var(--warn-soft)] px-2 py-0.5 text-xs text-[var(--warn)]">
                               待补充
                             </span>
-                          ) : param === "price_cny" && cell.source_url ? (
+                          ) : (param === "price_cny" || param === "launch_date") && cell.source_url ? (
                             <a
                               href={cell.source_url}
                               target="_blank"
                               rel="noopener noreferrer"
-                              title="打开价格信息来源（新标签页）"
+                              title={param === "launch_date" ? "打开上市时间来源（新标签页）" : "打开价格信息来源（新标签页）"}
                               className="group inline-flex flex-wrap items-center gap-x-1 font-medium text-[var(--primary)] no-underline hover:underline"
                             >
                               <span>{cell.value}</span>
