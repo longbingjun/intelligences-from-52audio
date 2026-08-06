@@ -51,6 +51,7 @@ export interface IndexProduct {
   priority_rank?: number;
   official_page_status?: "found" | "not_found" | "unknown";
   official_page_url?: string;
+  card_image_path?: string;
 }
 
 export function researchPriorityRank(product: IndexProduct): number {

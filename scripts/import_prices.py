@@ -1,4 +1,4 @@
-"""渠道层 enrich 导入：按 canonical_id 写入 data/enrich/channel/{id}.json
+"""渠道层 enrich 导入：按 canonical_id 写入 data/staging/channel/{id}.json
 
 CSV 格式（UTF-8，首行表头）— 二选一 ID 列：
   canonical_id,price_cny,price_source,channel_url,sales_hint,price_note
@@ -17,8 +17,8 @@ Optional fields for traceable non-standard prices:
   - price_note         活动价等备注
 
 用法：
-  python scripts/import_prices.py data/enrich/channel/example.csv
-  python scripts/import_prices.py data/enrich/prices/example.csv --legacy
+  python scripts/import_prices.py data/staging/channel/example.csv
+  python scripts/import_prices.py data/staging/prices/example.csv --legacy
 """
 from __future__ import annotations
 
@@ -33,10 +33,10 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 from core.ingest import load_all_records, reports_dir  # noqa: E402
-from core.paths import write_channel_enrich  # noqa: E402
+from core.paths import price_enrich_dir, write_channel_enrich  # noqa: E402
 from core.products import canonical_product_id, normalize_brand, normalize_model  # noqa: E402
 
-PRICES_DIR = ROOT / "data" / "enrich" / "prices"
+PRICES_DIR = price_enrich_dir(for_write=True)
 
 
 def _canonical_from_report_id(report_id: str) -> str | None:
@@ -92,7 +92,7 @@ def _write_legacy_price(report_id: str, row: dict) -> None:
 def main() -> None:
     parser = argparse.ArgumentParser()
     parser.add_argument("csv_path", help="售价 CSV 文件路径")
-    parser.add_argument("--legacy", action="store_true", help="写入 data/enrich/prices/{report_id}.json（旧格式）")
+    parser.add_argument("--legacy", action="store_true", help="按旧字段格式写入 data/staging/prices/{report_id}.json")
     args = parser.parse_args()
 
     n_channel = 0

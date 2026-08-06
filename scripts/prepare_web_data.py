@@ -26,7 +26,8 @@ DROP_ALERT_THRESHOLD = 0.3
 # 它们保留在原始报告中，并由产品构建步骤排除出 SKU 聚合；这里单独导出为首页洞察。
 ROUNDUP_MARKERS = ("汇总", "盘点", "年度报告", "给你答案")
 HEADPHONE_MARKERS = ("耳机", "TWS", "OWS", "蓝牙")
-ROUNDUP_SUMMARIES_DIR = ROOT / "data" / "enrich" / "roundup_summaries"
+ROUNDUP_SUMMARIES_DIR = ROOT / "data" / "staging" / "roundup_summaries"
+LEGACY_ROUNDUP_SUMMARIES_DIR = ROOT / "data" / "enrich" / "roundup_summaries"
 
 
 def _check_teardown_count_regression(new_count: int) -> None:
@@ -138,15 +139,82 @@ def _roundup_kind(title: str) -> str:
 
 
 def _local_image_path(url: str) -> str:
-    """Mirror web/scripts/cache-images.mjs so digest images work on Pages."""
+    """Mirror web/scripts/cache-images.mjs so optimized images work on Pages."""
     digest = hashlib.sha1(url.encode("utf-8")).hexdigest()[:16]
-    match = re.search(r"\.([A-Za-z0-9]{2,5})(?:\?.*)?$", url)
-    extension = match.group(1).lower() if match else "jpg"
-    return f"/images/{digest}.{extension}"
+    return f"/images/{digest}.webp"
+
+
+INDEX_PRODUCT_KEYS = {
+    "canonical_id", "brand", "model", "category", "report_count", "video_count",
+    "first_seen", "latest_published", "cost_completeness", "bom_row_count",
+    "launch_date", "launch_display", "launch_status", "research_priority",
+    "priority_rank", "official_page_status", "official_page_url",
+}
+
+PUBLIC_PRODUCT_KEYS = {
+    "canonical_id", "brand", "model", "category", "cost_snapshot", "launch",
+    "market", "bom_table", "unboxing", "summary_image_urls", "report_ids",
+}
+
+
+def _write_web_json(path: Path, payload: object) -> None:
+    """Write compact generated JSON; source JSON remains human-readable."""
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(payload, ensure_ascii=False, separators=(",", ":")),
+        encoding="utf-8",
+    )
+
+
+def _trim_images(images: object, limit: int) -> list[dict]:
+    if not isinstance(images, list):
+        return []
+    return [item for item in images if isinstance(item, dict) and item.get("url")][:limit]
+
+
+def _public_product_payload(product: dict) -> dict:
+    """Keep only fields used by the Astro detail and compare experiences."""
+    payload = {key: product.get(key) for key in PUBLIC_PRODUCT_KEYS if key in product}
+    payload["summary_image_urls"] = _trim_images(product.get("summary_image_urls"), 2)
+    unboxing = product.get("unboxing")
+    if isinstance(unboxing, dict):
+        trimmed_unboxing = {"completeness": unboxing.get("completeness")}
+        for section_name in ("packaging", "charging_case", "earbuds"):
+            section = unboxing.get(section_name)
+            if not isinstance(section, dict):
+                continue
+            trimmed_section = {
+                "description": section.get("description"),
+                "accessories": section.get("accessories") or [],
+                "image_count": section.get("image_count"),
+                "teardown_image_count": section.get("teardown_image_count"),
+                "appearance_images": _trim_images(section.get("appearance_images"), 2),
+            }
+            trimmed_unboxing[section_name] = trimmed_section
+        payload["unboxing"] = trimmed_unboxing
+    return payload
+
+
+def _card_image_url(product: dict) -> str:
+    unboxing = product.get("unboxing") or {}
+    candidates: list[tuple[int, str]] = []
+    for section_name, base_score in (("earbuds", 6), ("charging_case", 4), ("packaging", 2)):
+        section = unboxing.get(section_name) or {}
+        for image in _trim_images(section.get("appearance_images"), 2):
+            url = str(image.get("url") or "").strip()
+            if not url:
+                continue
+            description = f"{image.get('alt') or ''} {image.get('caption') or ''}"
+            bonus = 20 if re.search(r"整体|全貌|全景|外观|一览|展示|真机|佩戴|正面|侧面|背面", description) else 0
+            penalty = 12 if re.search(r"特写|内部|拆解|芯片|主板|电池|接口|触点|铭牌|参数|包装盒", description) else 0
+            candidates.append((base_score + bonus - penalty, url))
+    return max(candidates, default=(0, ""), key=lambda item: item[0])[1]
 
 
 def _roundup_digest(report_id: str) -> dict:
     path = ROUNDUP_SUMMARIES_DIR / f"{report_id}.json"
+    if not path.exists():
+        path = LEGACY_ROUNDUP_SUMMARIES_DIR / f"{report_id}.json"
     if not path.exists():
         return {}
     try:
@@ -225,12 +293,13 @@ def prepare() -> dict:
     categories = []
     if compare_src.exists():
         for path in sorted(compare_src.glob("*.json")):
-            shutil.copy2(path, compare_dst / path.name)
             try:
                 payload = json.loads(path.read_text(encoding="utf-8"))
                 name = payload.get("category", path.stem)
             except Exception:
+                payload = {}
                 name = path.stem
+            _write_web_json(compare_dst / path.name, payload)
             products = payload.get("products", []) if isinstance(payload, dict) else []
             categories.append(
                 {
@@ -246,21 +315,43 @@ def prepare() -> dict:
     products_dst.mkdir(parents=True, exist_ok=True)
     products_src = products_dir()
     idx_src = products_index_path()
-    if idx_src.exists():
-        shutil.copy2(idx_src, products_dst / "index.json")
     n_products = 0
+    card_image_by_id: dict[str, str] = {}
     if products_src.exists():
         for path in products_src.glob("*.json"):
             if path.name == "index.json":
                 continue
-            shutil.copy2(path, products_dst / path.name)
+            try:
+                product = json.loads(path.read_text(encoding="utf-8"))
+            except (OSError, json.JSONDecodeError):
+                continue
+            _write_web_json(products_dst / path.name, _public_product_payload(product))
+            card_url = _card_image_url(product)
+            if card_url:
+                card_image_by_id[str(product.get("canonical_id") or path.stem)] = _local_image_path(card_url)
             n_products += 1
+
+    source_index: dict = {}
+    if idx_src.exists():
+        source_index = json.loads(idx_src.read_text(encoding="utf-8"))
+    public_index = {
+        "generated_at": source_index.get("generated_at", ""),
+        "count": source_index.get("count", n_products),
+        "products": [],
+    }
+    for product in source_index.get("products") or []:
+        item = {key: product.get(key) for key in INDEX_PRODUCT_KEYS if key in product}
+        card_path = card_image_by_id.get(str(product.get("canonical_id") or ""))
+        if card_path:
+            item["card_image_path"] = card_path
+        public_index["products"].append(item)
+    _write_web_json(products_dst / "index.json", public_index)
 
     # profiles + field annotations
     for name in ("compare_profiles.json", "field_annotations.json"):
         src = DATA / name
         if src.exists():
-            shutil.copy2(src, WEB_DATA / name)
+            _write_web_json(WEB_DATA / name, json.loads(src.read_text(encoding="utf-8")))
 
     manifest = {
         "generated_at": json.loads((idx_src.read_text(encoding="utf-8"))).get("generated_at", "")
@@ -269,19 +360,13 @@ def prepare() -> dict:
         "categories": categories,
         "product_count": n_products,
     }
-    (WEB_DATA / "categories.json").write_text(
-        json.dumps(manifest, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
+    _write_web_json(WEB_DATA / "categories.json", manifest)
 
     teardown = _build_teardown_manifest()
-    (WEB_DATA / "teardown_details.json").write_text(
-        json.dumps(teardown, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
+    _write_web_json(WEB_DATA / "teardown_details.json", teardown)
 
     roundups = _build_roundup_manifest()
-    (WEB_DATA / "roundup_insights.json").write_text(
-        json.dumps(roundups, ensure_ascii=False, indent=2), encoding="utf-8"
-    )
+    _write_web_json(WEB_DATA / "roundup_insights.json", roundups)
 
     _check_teardown_count_regression(teardown["report_count"])
     update_manifest(

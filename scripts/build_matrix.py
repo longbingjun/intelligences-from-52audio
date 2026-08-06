@@ -18,8 +18,8 @@ from core.paths import compare_dir, matrix_dir, products_dir  # noqa: E402
 from core.products import canonical_product_id, load_channel_enrich, normalize_brand, normalize_model  # noqa: E402
 from core.scope import HEADPHONE_CATEGORIES  # noqa: E402
 
-MATRIX_DIR = matrix_dir()
-COMPARE_DIR = compare_dir()
+MATRIX_DIR = matrix_dir(for_write=True)
+COMPARE_DIR = compare_dir(for_write=True)
 PRODUCTS_DIR = products_dir()
 
 # V4 成本工程师矩阵列

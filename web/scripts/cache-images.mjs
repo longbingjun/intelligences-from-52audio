@@ -1,30 +1,26 @@
 #!/usr/bin/env node
 /**
- * 构建前置步骤：把产品详情页引用的 52audio OSS 图片下载到本地 public/images/。
- *
- * 根因：图片直接热链 https://52audio-images.oss-cn-shenzhen.aliyuncs.com/...，
- * 该 Aliyun OSS bucket 开启了 Referer 防盗链白名单（仅允许 https://www.52audio.com/），
- * 浏览器从 GitHub Pages 打开站点时请求会被 OSS 返回 403 AccessDenied，导致图片加载不出来。
- *
- * 这里在构建阶段（服务端，可以自定义请求头）带上正确的 Referer 把图片下载到本地，
- * 详情页改为引用本地文件（见 src/lib/images.ts），从根源避开浏览器端热链限制。
+ * Download only images referenced by the generated web payload, then convert
+ * them to bounded WebP assets. Source URLs remain in ETL data for traceability;
+ * GitHub Pages receives display-sized derivatives only.
  */
 import fs from "node:fs";
 import path from "node:path";
 import crypto from "node:crypto";
+import sharp from "sharp";
 
 const PRODUCTS_DIR = path.join(process.cwd(), "public", "data", "products");
 const ROUNDUP_INSIGHTS_PATH = path.join(process.cwd(), "public", "data", "roundup_insights.json");
 const IMAGES_DIR = path.join(process.cwd(), "public", "images");
 const REFERER = "https://www.52audio.com/";
 const CONCURRENCY = 6;
+const MAX_EDGE = Number(process.env.IMAGE_MAX_EDGE || 1440);
+const WEBP_QUALITY = Number(process.env.IMAGE_WEBP_QUALITY || 78);
 const IMAGE_URL_RE = /^https?:\/\/\S+\.(jpe?g|png|webp|gif)(\?\S*)?$/i;
 
 export function localImageFilename(url) {
   const hash = crypto.createHash("sha1").update(url).digest("hex").slice(0, 16);
-  const extMatch = /\.([a-zA-Z0-9]{2,5})(?:\?.*)?$/.exec(url);
-  const ext = (extMatch?.[1] || "jpg").toLowerCase();
-  return `${hash}.${ext}`;
+  return `${hash}.webp`;
 }
 
 function collectImageUrls() {
@@ -34,68 +30,75 @@ function collectImageUrls() {
       node.forEach(walk);
       return;
     }
-    if (node && typeof node === "object") {
-      for (const value of Object.values(node)) {
-        if (typeof value === "string" && IMAGE_URL_RE.test(value)) {
-          urls.add(value);
-        } else {
-          walk(value);
-        }
-      }
+    if (!node || typeof node !== "object") return;
+    for (const value of Object.values(node)) {
+      if (typeof value === "string" && IMAGE_URL_RE.test(value)) urls.add(value);
+      else walk(value);
     }
   };
 
   if (fs.existsSync(PRODUCTS_DIR)) {
-    const files = fs.readdirSync(PRODUCTS_DIR).filter((f) => f.endsWith(".json"));
-    for (const file of files) {
+    for (const file of fs.readdirSync(PRODUCTS_DIR).filter((name) => name.endsWith(".json") && name !== "index.json")) {
       try {
         walk(JSON.parse(fs.readFileSync(path.join(PRODUCTS_DIR, file), "utf-8")));
-      } catch (err) {
-        console.warn(`[cache-images] 跳过无法解析的文件 ${file}: ${err.message}`);
+      } catch (error) {
+        console.warn(`[cache-images] skipped invalid product ${file}: ${error.message}`);
       }
     }
   }
-  // 年度洞察抽屉同样引用原文配图，必须预下载以避开 52audio OSS 的 Referer 限制。
   if (fs.existsSync(ROUNDUP_INSIGHTS_PATH)) {
     try {
       walk(JSON.parse(fs.readFileSync(ROUNDUP_INSIGHTS_PATH, "utf-8")));
-    } catch (err) {
-      console.warn(`[cache-images] 跳过年度洞察图片：${err.message}`);
+    } catch (error) {
+      console.warn(`[cache-images] skipped invalid roundup data: ${error.message}`);
     }
   }
-  return urls;
+  return [...urls];
+}
+
+function pruneStaleImages(expectedNames) {
+  if (!fs.existsSync(IMAGES_DIR)) return 0;
+  let removed = 0;
+  for (const name of fs.readdirSync(IMAGES_DIR)) {
+    if (expectedNames.has(name)) continue;
+    const target = path.join(IMAGES_DIR, name);
+    if (!fs.statSync(target).isFile()) continue;
+    fs.unlinkSync(target);
+    removed += 1;
+  }
+  return removed;
 }
 
 async function downloadOne(url) {
   const dest = path.join(IMAGES_DIR, localImageFilename(url));
-  if (fs.existsSync(dest) && fs.statSync(dest).size > 0) {
-    return { url, status: "cached" };
-  }
+  if (fs.existsSync(dest) && fs.statSync(dest).size > 0) return { url, status: "cached" };
   try {
-    const resp = await fetch(url, {
+    const response = await fetch(url, {
       headers: {
         Referer: REFERER,
-        "User-Agent": "Mozilla/5.0 (compatible; 52audio-intel-bot/1.0)",
+        "User-Agent": "Mozilla/5.0 (compatible; 52audio-intel-bot/2.0)",
       },
     });
-    if (!resp.ok) {
-      return { url, status: "failed", reason: `HTTP ${resp.status}` };
-    }
-    const buf = Buffer.from(await resp.arrayBuffer());
-    fs.writeFileSync(dest, buf);
+    if (!response.ok) return { url, status: "failed", reason: `HTTP ${response.status}` };
+    const source = Buffer.from(await response.arrayBuffer());
+    await sharp(source, { animated: false })
+      .rotate()
+      .resize({ width: MAX_EDGE, height: MAX_EDGE, fit: "inside", withoutEnlargement: true })
+      .webp({ quality: WEBP_QUALITY, effort: 4 })
+      .toFile(dest);
     return { url, status: "downloaded" };
-  } catch (err) {
-    return { url, status: "failed", reason: err.message };
+  } catch (error) {
+    return { url, status: "failed", reason: error.message };
   }
 }
 
 async function runPool(items, worker, concurrency) {
   const results = new Array(items.length);
-  let idx = 0;
+  let index = 0;
   async function next() {
-    while (idx < items.length) {
-      const i = idx++;
-      results[i] = await worker(items[i]);
+    while (index < items.length) {
+      const current = index++;
+      results[current] = await worker(items[current]);
     }
   }
   await Promise.all(Array.from({ length: Math.min(concurrency, items.length) }, next));
@@ -104,30 +107,20 @@ async function runPool(items, worker, concurrency) {
 
 async function main() {
   fs.mkdirSync(IMAGES_DIR, { recursive: true });
-  const urls = [...collectImageUrls()];
-  console.log(`[cache-images] 发现 ${urls.length} 个图片 URL，开始下载（Referer=${REFERER}）...`);
-
-  if (urls.length === 0) {
-    console.log("[cache-images] 无需下载。");
-    return;
-  }
+  const urls = collectImageUrls();
+  const expectedNames = new Set(urls.map(localImageFilename));
+  const removed = pruneStaleImages(expectedNames);
+  console.log(`[cache-images] ${urls.length} referenced images; pruned ${removed} stale files`);
 
   const results = await runPool(urls, downloadOne, CONCURRENCY);
   const summary = { downloaded: 0, cached: 0, failed: 0 };
   const failures = [];
-  for (const r of results) {
-    summary[r.status] = (summary[r.status] || 0) + 1;
-    if (r.status === "failed") failures.push(r);
+  for (const result of results) {
+    summary[result.status] += 1;
+    if (result.status === "failed") failures.push(result);
   }
-  console.log(
-    `[cache-images] 完成：新下载 ${summary.downloaded}，命中本地缓存 ${summary.cached}，失败 ${summary.failed}`
-  );
-  if (failures.length) {
-    console.warn(`[cache-images] 失败示例（最多显示 10 条，构建仍会继续，页面会跳过这些图片）：`);
-    for (const f of failures.slice(0, 10)) {
-      console.warn(`  - ${f.url} (${f.reason})`);
-    }
-  }
+  console.log(`[cache-images] downloaded ${summary.downloaded}, cached ${summary.cached}, failed ${summary.failed}`);
+  failures.slice(0, 10).forEach((item) => console.warn(`  - ${item.url} (${item.reason})`));
 }
 
 main();

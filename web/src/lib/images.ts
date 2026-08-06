@@ -12,9 +12,7 @@ import { withBase } from "./paths";
 
 function localImageFilename(url: string): string {
   const hash = crypto.createHash("sha1").update(url).digest("hex").slice(0, 16);
-  const extMatch = /\.([a-zA-Z0-9]{2,5})(?:\?.*)?$/.exec(url);
-  const ext = (extMatch?.[1] || "jpg").toLowerCase();
-  return `${hash}.${ext}`;
+  return `${hash}.webp`;
 }
 
 /**

@@ -1,7 +1,7 @@
 """统一数据模型定义。
 
 所有情报源（sources/xxx）在解析详情页之后，都必须把结果组装成本文件里定义的
-dataclass，这样核心流程（core/pipeline.py）和前端渲染（scripts/build_site.py）
+dataclass，这样核心流程与 Astro 发布数据生成器（scripts/prepare_web_data.py）
 就完全不需要关心某条数据具体来自哪个网站。
 
 设计取舍：

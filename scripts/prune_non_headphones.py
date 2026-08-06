@@ -12,11 +12,9 @@ sys.path.insert(0, str(ROOT))
 
 from core.ingest import load_index, save_index  # noqa: E402
 from core.paths import (  # noqa: E402
-    LEGACY_COMPARE,
-    LEGACY_ENRICH,
-    LEGACY_MATRIX,
-    LEGACY_PRODUCTS,
     channel_enrich_dir,
+    compare_dir,
+    matrix_dir,
     official_enrich_dir,
     products_dir,
     reports_dir,
@@ -62,7 +60,7 @@ def prune() -> dict:
 
     stats: dict = {"keep_products": len(keep_products)}
 
-    for base in (products_dir(), LEGACY_PRODUCTS):
+    for base in (products_dir(),):
         if not base.exists():
             continue
         for path in base.glob("*.json"):
@@ -83,7 +81,7 @@ def prune() -> dict:
                 path.unlink()
                 stats[key] = stats.get(key, 0) + 1
 
-    for folder, key in ((LEGACY_MATRIX, "removed_matrix"), (LEGACY_COMPARE, "removed_compare")):
+    for folder, key in ((matrix_dir(for_write=True), "removed_matrix"), (compare_dir(for_write=True), "removed_compare")):
         if folder.exists():
             for path in folder.glob("*.json"):
                 path.unlink()

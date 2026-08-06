@@ -12,7 +12,7 @@ ASR 失败 / empty 排查（B 站 HTTP 412、限流、未登录、Windows cookie
   2. 完全关闭 Edge/Chrome 后：--retry-empty --cookies-from-browser edge
   3. 加大间隔：--delay 60 --delay-jitter 30
   4. 更新 yt-dlp：py -3 -m pip install -U yt-dlp
-  5. 手动：yt-dlp 下载音频到本地，faster-whisper 转写后写入 data/enrich/videos/{id}.asr.json
+  5. 手动：yt-dlp 下载音频到本地，faster-whisper 转写后写入 data/staging/videos/{id}.asr.json
   6. 兜底：同产品 ID 的 52audio 拆解报告/embed 页常覆盖视频要点，可用 report 信源补全 views
 """
 from __future__ import annotations
@@ -32,9 +32,11 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
+from core.paths import video_enrich_dir  # noqa: E402
+
 from core.ingest import load_all_records, save_record_in_place  # noqa: E402
 
-ENRICH_DIR = ROOT / "data" / "enrich" / "videos"
+ENRICH_DIR = video_enrich_dir(for_write=True)
 VIDEOS_DIR = ROOT / "data" / "videos"
 
 _BVID_RE = re.compile(r"[?&]bvid=([^&]+)", re.I)

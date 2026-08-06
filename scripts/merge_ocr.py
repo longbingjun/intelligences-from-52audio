@@ -14,10 +14,12 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
+from core.paths import ocr_enrich_dir  # noqa: E402
+
 from core.ingest import REPORTS_DIR  # noqa: E402
 from core.views.role_extract import _bom_dedup_key, _merge_bom_with_summary, _normalize_bom_row  # noqa: E402
 
-OCR_DIR = ROOT / "data" / "enrich" / "ocr"
+OCR_DIR = ocr_enrich_dir()
 
 SOURCE_CONFIDENCE = {
     "migrated": 0.4,

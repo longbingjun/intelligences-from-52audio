@@ -15,10 +15,10 @@ import {
 } from "../lib/types";
 import { withBase } from "../lib/paths";
 import { useProductExtras } from "../lib/productExtras";
+import { useRememberCompareView } from "../lib/useRememberCompareView";
 import { ScenariosCell, SellingPointTagsCell, SellingPointsCell } from "./CompareExtrasCells";
 
 /** 记录“上一个对比视图”的完整地址，供产品详情页的“返回对比”链接读取。 */
-const LAST_VIEW_KEY = "cost-compare-last-view";
 
 interface CategoryMeta {
   name: string;
@@ -89,16 +89,7 @@ export default function CrossCategoryCompare({
 
   // 把“当前完整可用于返回的 URL”写入 sessionStorage，产品详情页的“返回对比”链接
   // 会优先读取它，使返回后能带着当时的跨品类选择状态回到本页面。
-  useEffect(() => {
-    try {
-      const url = new URL(window.location.href);
-      if (selectedIds.length) url.searchParams.set("ids", selectedIds.join(","));
-      else url.searchParams.delete("ids");
-      sessionStorage.setItem(LAST_VIEW_KEY, url.pathname + url.search);
-    } catch {
-      /* sessionStorage 不可用（隐私模式等）时静默忽略，详情页会回退到静态链接 */
-    }
-  }, [selectedIds]);
+  useRememberCompareView(selectedIds);
 
   useEffect(() => {
     if (!selectedIds.length) {

@@ -31,26 +31,6 @@ interface Props {
   fullIndexUrl: string;
 }
 
-interface ProductDetailImage {
-  url?: string;
-  alt?: string;
-  caption?: string;
-}
-
-interface ProductUnboxingSection {
-  appearance_images?: ProductDetailImage[];
-}
-
-interface ProductUnboxing {
-  packaging?: ProductUnboxingSection;
-  charging_case?: ProductUnboxingSection;
-  earbuds?: ProductUnboxingSection;
-}
-
-interface ProductDetail {
-  unboxing?: ProductUnboxing;
-}
-
 function categoryStyle(category: string) {
   const styles = [
     { bg: "#eef2ff", text: "#4f46e5" },
@@ -74,45 +54,6 @@ function statusLabel(product: IndexProduct) {
   return "历史产品参考";
 }
 
-function productAppearanceImage(unboxing?: ProductUnboxing): string | undefined {
-  const candidates = [
-    { images: unboxing?.earbuds?.appearance_images || [], sectionScore: 6 },
-    { images: unboxing?.charging_case?.appearance_images || [], sectionScore: 4 },
-    { images: unboxing?.packaging?.appearance_images || [], sectionScore: 2 },
-  ].flatMap(({ images, sectionScore }) =>
-    images
-      .filter((image) => typeof image.url === "string" && /^https?:\/\//.test(image.url))
-      .map((image) => {
-        const description = `${image.alt || ""} ${image.caption || ""}`;
-        const overallBonus = /整体|全貌|全景|外观|一览|展示|真机|佩戴|正面|侧面|背面/.test(description) ? 20 : 0;
-        const detailPenalty = /特写|内部|拆解|芯片|主板|电池|接口|触点|铭牌|参数|包装盒/.test(description) ? 12 : 0;
-        return { url: image.url as string, score: sectionScore + overallBonus - detailPenalty };
-      }),
-  );
-  return candidates.sort((a, b) => b.score - a.score)[0]?.url;
-}
-
-async function cachedImagePath(remoteUrl: string): Promise<string | null> {
-  if (!globalThis.crypto?.subtle) return null;
-  const encoded = new TextEncoder().encode(remoteUrl);
-  const digest = await globalThis.crypto.subtle.digest("SHA-1", encoded);
-  const hash = Array.from(new Uint8Array(digest), (value) => value.toString(16).padStart(2, "0")).join("").slice(0, 16);
-  const ext = /\.([a-zA-Z0-9]{2,5})(?:\?.*)?$/.exec(remoteUrl)?.[1]?.toLowerCase() || "jpg";
-  return withBase(`/images/${hash}.${ext}`);
-}
-
-async function loadProductImage(product: IndexProduct): Promise<string | null> {
-  try {
-    const response = await fetch(withBase(`/data/products/${product.canonical_id}.json`));
-    if (!response.ok) return null;
-    const detail = (await response.json()) as ProductDetail;
-    const originalUrl = productAppearanceImage(detail.unboxing);
-    return originalUrl ? cachedImagePath(originalUrl) : null;
-  } catch {
-    return null;
-  }
-}
-
 export default function ProductBrowser({
   categories,
   totalCount,
@@ -128,7 +69,6 @@ export default function ProductBrowser({
   const [brandFilter, setBrandFilter] = useState("");
   const [priorityFilter, setPriorityFilter] = useState<"all" | "official_current" | "recent_pending_check">("all");
   const [selected, setSelected] = useState<string[]>([]);
-  const [imageByProductId, setImageByProductId] = useState<Record<string, string | null>>({});
 
   useEffect(() => {
     let cancelled = false;
@@ -173,7 +113,6 @@ export default function ProductBrowser({
     );
   }, [products, search, categoryFilter, brandFilter, priorityFilter]);
   const visibleProducts = isFiltering ? filteredProducts.slice(0, 30) : sorted(seedProducts).slice(0, 12);
-  const visibleProductKey = visibleProducts.map((product) => product.canonical_id).join("|");
   const productById = useMemo(
     () => new Map([...seedProducts, ...(fullIndex || [])].map((product) => [product.canonical_id, product])),
     [seedProducts, fullIndex],
@@ -183,21 +122,6 @@ export default function ProductBrowser({
     .filter((item): item is IndexProduct => Boolean(item));
   const attentionProducts = sorted(seedProducts).slice(0, 5);
   const compareHref = selected.length ? withBase(`/compare?ids=${selected.join(",")}`) : withBase("/compare");
-
-  useEffect(() => {
-    let cancelled = false;
-    const missing = visibleProducts.filter((product) => !(product.canonical_id in imageByProductId));
-    if (!missing.length) return () => {
-      cancelled = true;
-    };
-    void Promise.all(missing.map(async (product) => [product.canonical_id, await loadProductImage(product)] as const)).then((images) => {
-      if (cancelled) return;
-      setImageByProductId((current) => ({ ...current, ...Object.fromEntries(images) }));
-    });
-    return () => {
-      cancelled = true;
-    };
-  }, [visibleProductKey]); // 只在卡片集合变化时加载其真实图片。
 
   const toggleProduct = (id: string) =>
     setSelected((current) =>
@@ -290,13 +214,14 @@ export default function ProductBrowser({
             {visibleProducts.map((product) => {
               const color = categoryStyle(product.category);
               const active = selected.includes(product.canonical_id);
-              const imageSrc = imageByProductId[product.canonical_id];
+              const imageSrc = product.card_image_path ? withBase(product.card_image_path) : null;
               return (
                 <article key={product.canonical_id} className={`research-product-card ${active ? "is-selected" : ""}`}>
                   <button type="button" onClick={() => toggleProduct(product.canonical_id)} className="selection-toggle" aria-label={`${active ? "从对比中移除" : "加入对比"} ${productDisplayName(product)}`}>{active ? "✓" : "+"}</button>
                   <a href={withBase(`/product/${product.canonical_id}`)} className="research-product-link">
                     <div className="product-visual" style={{ background: color.bg, color: color.text }}>
-                      {imageSrc ? <img src={imageSrc} alt={`${productDisplayName(product)} 产品图片`} loading="lazy" onError={() => setImageByProductId((current) => ({ ...current, [product.canonical_id]: null }))} /> : <span className="product-visual-fallback" aria-label={`${productFallbackLabel(product)} 暂无产品图片`}>{productFallbackLabel(product)}</span>}
+                      {imageSrc && <img src={imageSrc} alt={`${productDisplayName(product)} 产品图片`} loading="lazy" decoding="async" onError={(event) => { event.currentTarget.hidden = true; event.currentTarget.nextElementSibling?.removeAttribute("hidden"); }} />}
+                      <span hidden={Boolean(imageSrc)} className="product-visual-fallback" aria-label={`${productFallbackLabel(product)} 暂无产品图片`}>{productFallbackLabel(product)}</span>
                     </div>
                     <div className="product-copy">
                       <div className="product-meta"><span style={{ background: color.bg, color: color.text }}>{product.category}</span><time>{product.first_seen?.slice(0, 4) || "-"}</time></div>

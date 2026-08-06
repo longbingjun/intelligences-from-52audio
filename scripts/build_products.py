@@ -28,7 +28,6 @@ from core.products import (  # noqa: E402
 from core.scope import HEADPHONE_CATEGORIES, is_headphone_record, normalize_headphone_category  # noqa: E402
 
 from core.paths import (
-    LEGACY_PRODUCTS,
     last_step_stats,
     products_dir,
     products_index_path,
@@ -270,7 +269,7 @@ def build_products() -> dict:
 
     # 移除不再生成的产品 JSON（非耳机等）
     keep_ids = set(aggregates.keys())
-    for base in (products_dir(), LEGACY_PRODUCTS):
+    for base in (products_dir(),):
         if not base.exists():
             continue
         for path in base.glob("*.json"):

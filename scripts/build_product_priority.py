@@ -1,7 +1,7 @@
 """Build explainable research priority fields for the lightweight product index.
 
 This intentionally does not change product prices or product-detail records.  It
-only enriches ``data/products/index.json`` so the discovery UI and the official
+only enriches ``data/curated/products/index.json`` so the discovery UI and the official
 price-research queue can focus on products that are both recent and traceable to
 an official page.
 """

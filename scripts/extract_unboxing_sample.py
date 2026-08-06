@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""对单条报告提取开箱三区样本，写入 data/enrich/unboxing/{report_id}.json"""
+"""对单条报告提取开箱三区样本，写入 data/staging/unboxing/{report_id}.json"""
 
 from __future__ import annotations
 
@@ -11,6 +11,7 @@ ROOT = Path(__file__).resolve().parent.parent
 sys.path.insert(0, str(ROOT))
 
 from core.extract.unboxing_sections import extract_unboxing_sections
+from core.paths import unboxing_enrich_dir
 
 REPORT_ID = "269067"  # HUAWEI FreeBuds Pro 5 — 开箱段完整
 
@@ -56,8 +57,7 @@ def main() -> None:
             seen.add(key)
     unboxing["selling_points_by_tag"] = _group_by_tag(merged_sp)
 
-    out_dir = ROOT / "data" / "enrich" / "unboxing"
-    out_dir.mkdir(parents=True, exist_ok=True)
+    out_dir = unboxing_enrich_dir(for_write=True)
     out_path = out_dir / f"{report_id}.json"
     payload = {
         "report_id": report_id,

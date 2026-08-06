@@ -12,6 +12,21 @@ Thumbs.db
 # the repo (see .github/workflows/update-and-deploy.yml).
 site/
 
+# Generated web payload and optimized image cache. Both are recreated by
+# scripts/prepare_web_data.py and web/scripts/cache-images.mjs in CI.
+web/public/data/
+web/public/images/
+
+# Legacy derived-data mirrors. Canonical data now lives in data/staging and
+# data/curated; these folders remain locally readable only during migration.
+data/products/
+data/enrich/
+data/compare/
+data/matrix/
+
+# Local research scratch space is never a deployable artifact.
+scratch_price_research/
+
 # Browser cookies exported for yt-dlp (contains login session, never commit)
 data/cookies.txt
 cookies.txt
