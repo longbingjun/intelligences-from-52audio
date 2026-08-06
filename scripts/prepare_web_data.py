@@ -166,16 +166,17 @@ def _write_web_json(path: Path, payload: object) -> None:
     )
 
 
-def _trim_images(images: object, limit: int) -> list[dict]:
+def _trim_images(images: object, limit: int = 9999) -> list[dict]:
+    """Keep all images (limit is respected but set high enough to include everything)."""
     if not isinstance(images, list):
         return []
-    return [item for item in images if isinstance(item, dict) and item.get("url")][:limit]
+    return [item for item in images if isinstance(item, dict) and item.get("url")]
 
 
 def _public_product_payload(product: dict) -> dict:
     """Keep only fields used by the Astro detail and compare experiences."""
     payload = {key: product.get(key) for key in PUBLIC_PRODUCT_KEYS if key in product}
-    payload["summary_image_urls"] = _trim_images(product.get("summary_image_urls"), 2)
+    payload["summary_image_urls"] = _trim_images(product.get("summary_image_urls"))
     unboxing = product.get("unboxing")
     if isinstance(unboxing, dict):
         trimmed_unboxing = {"completeness": unboxing.get("completeness")}
@@ -188,7 +189,7 @@ def _public_product_payload(product: dict) -> dict:
                 "accessories": section.get("accessories") or [],
                 "image_count": section.get("image_count"),
                 "teardown_image_count": section.get("teardown_image_count"),
-                "appearance_images": _trim_images(section.get("appearance_images"), 2),
+                "appearance_images": _trim_images(section.get("appearance_images")),
             }
             trimmed_unboxing[section_name] = trimmed_section
         payload["unboxing"] = trimmed_unboxing
@@ -200,7 +201,7 @@ def _card_image_url(product: dict) -> str:
     candidates: list[tuple[int, str]] = []
     for section_name, base_score in (("earbuds", 6), ("charging_case", 4), ("packaging", 2)):
         section = unboxing.get(section_name) or {}
-        for image in _trim_images(section.get("appearance_images"), 2):
+        for image in _trim_images(section.get("appearance_images")):
             url = str(image.get("url") or "").strip()
             if not url:
                 continue

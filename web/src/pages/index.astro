@@ -1,59 +1,167 @@
 ---
 import BaseLayout from "../layouts/BaseLayout.astro";
 import ProductBrowser from "../components/ProductBrowser";
-import RoundupInsights from "../components/RoundupInsights";
 import { withBase } from "../lib/paths";
-import { researchPriorityRank, type IndexProduct } from "../lib/types";
+import type { IndexProduct } from "../lib/types";
 import fs from "node:fs";
 import path from "node:path";
 
 const dataDir = path.join(process.cwd(), "public", "data");
-const manifest = JSON.parse(fs.readFileSync(path.join(dataDir, "categories.json"), "utf-8"));
-const productIndex = JSON.parse(fs.readFileSync(path.join(dataDir, "products", "index.json"), "utf-8"));
-const roundupPath = path.join(dataDir, "roundup_insights.json");
-const roundupManifest = fs.existsSync(roundupPath)
-  ? JSON.parse(fs.readFileSync(roundupPath, "utf-8"))
-  : { reports: [], years: [] };
-const categories = manifest.categories as { name: string; slug: string; file: string; product_count: number }[];
-const allProducts = productIndex.products as IndexProduct[];
-const currentYear = String(new Date().getFullYear());
-const recentFocusCount = allProducts.filter((product) => researchPriorityRank(product) <= 2).length;
-const officialPageCount = allProducts.filter((product) => product.official_page_status === "found").length;
+const manifest = JSON.parse(
+  fs.readFileSync(path.join(dataDir, "categories.json"), "utf-8")
+);
+const productIndex = JSON.parse(
+  fs.readFileSync(path.join(dataDir, "products", "index.json"), "utf-8")
+);
 
+const categories = manifest.categories as {
+  name: string;
+  slug: string;
+  file: string;
+  product_count: number;
+}[];
+
+const allProducts = productIndex.products as IndexProduct[];
+
+// “最新产品”：以 first_seen（首次入库年份）筛出当年新品，用于首页顶部突出展示，
+// 方便用户在决定要对比谁之前先看到今年新出的型号。
+const currentYear = String(new Date().getFullYear());
+const newestProducts = allProducts
+  .filter((p) => (p.first_seen || "").startsWith(currentYear))
+  .sort((a, b) => (b.latest_published || "").localeCompare(a.latest_published || ""))
+  .slice(0, 10);
+
+// 品牌聚合（构建期算好，发现层侧边栏直接用，不用等客户端拉完整索引再算一遍）：
+// 只统计有非空 brand 的产品，未知品牌单独计数、作为透明可点的筛选项展示。
 const brandCounts = new Map<string, number>();
 let unknownBrandCount = 0;
-for (const product of allProducts) {
-  const brand = (product.brand || "").trim();
-  if (!brand) unknownBrandCount += 1;
-  else brandCounts.set(brand, (brandCounts.get(brand) || 0) + 1);
+for (const p of allProducts) {
+  const b = (p.brand || "").trim();
+  if (!b) {
+    unknownBrandCount += 1;
+    continue;
+  }
+  brandCounts.set(b, (brandCounts.get(b) || 0) + 1);
 }
-const brands = Array.from(brandCounts.entries()).map(([name, count]) => ({ name, count })).sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, "zh-CN"));
-const initialSlices = categories.map((category) => ({
-  category: category.name,
-  products: allProducts.filter((product) => product.category === category.name).sort((a, b) => researchPriorityRank(a) - researchPriorityRank(b) || (b.latest_published || "").localeCompare(a.latest_published || "")).slice(0, 9),
-}));
+const brands = Array.from(brandCounts.entries())
+  .map(([name, count]) => ({ name, count }))
+  .sort((a, b) => b.count - a.count || a.name.localeCompare(b.name, "zh-CN"));
+
+// 默认（未筛选）状态下每个品类展示一小段代表性切片（按成本数据完整度/报告数排序取
+// 前几名），6 个品类合计约 50~60 款——远小于全量 1027 款，避免把完整索引内嵌进
+// 首页 HTML。完整索引由 ProductBrowser 挂载后通过 fetch 拉取，用于搜索/筛选。
+const CATEGORY_SLICE_SIZE = 9;
+const initialSlices = categories.map((c) => {
+  const products = allProducts
+    .filter((p) => p.category === c.name)
+    .sort(
+      (a, b) =>
+        (b.cost_completeness ?? 0) - (a.cost_completeness ?? 0) ||
+        (b.report_count ?? 0) - (a.report_count ?? 0)
+    )
+    .slice(0, CATEGORY_SLICE_SIZE);
+  return { category: c.name, products };
+});
+
+// 数据覆盖度：报告/视频总量、已转写视频数、已知售价产品数——均来自实际磁盘数据，非估算值。
+const teardownPath = path.join(dataDir, "teardown_details.json");
+const teardown = fs.existsSync(teardownPath)
+  ? JSON.parse(fs.readFileSync(teardownPath, "utf-8"))
+  : { report_count: 0, video_count: 0 };
+
+const enrichVideosDir = path.join(process.cwd(), "..", "data", "enrich", "videos");
+let transcribedCount = 0;
+if (fs.existsSync(enrichVideosDir)) {
+  for (const file of fs.readdirSync(enrichVideosDir)) {
+    if (!file.endsWith(".asr.json")) continue;
+    try {
+      const asr = JSON.parse(fs.readFileSync(path.join(enrichVideosDir, file), "utf-8"));
+      if (asr.status === "done") transcribedCount += 1;
+    } catch {
+      // 忽略损坏的单个 ASR 文件，不影响整体统计
+    }
+  }
+}
 
 const productsDataDir = path.join(dataDir, "products");
+let productTotal = 0;
 let productPriced = 0;
 if (fs.existsSync(productsDataDir)) {
   for (const file of fs.readdirSync(productsDataDir)) {
     if (file === "index.json" || !file.endsWith(".json")) continue;
-    try { if (JSON.parse(fs.readFileSync(path.join(productsDataDir, file), "utf-8"))?.cost_snapshot?.price_cny != null) productPriced += 1; } catch { /* ignore a damaged record */ }
+    productTotal += 1;
+    try {
+      const p = JSON.parse(fs.readFileSync(path.join(productsDataDir, file), "utf-8"));
+      if (p?.cost_snapshot?.price_cny != null) productPriced += 1;
+    } catch {
+      // 忽略损坏的单个产品文件
+    }
   }
 }
 ---
 
-<BaseLayout title="竞品物料分析工作台" activeNav="home">
-  <section class="dashboard-hero">
-    <div class="dashboard-hero-copy">
-      <p class="eyebrow">52AUDIO · 竞品物料分析</p>
-      <h1>竞品物料分析<br /><span>工作台</span></h1>
-      <p class="dashboard-hero-description">集产品发现、拆解物料、可溯源售价与跨品类对比于一体的研究工作台。</p>
-      <div class="hero-actions"><a href="#workspace" class="hero-primary-action">浏览产品 <span>→</span></a><a href={withBase("/compare")} class="hero-secondary-action">打开对比</a></div>
-    </div>
-    <div class="dashboard-hero-art" aria-hidden="true"><div class="hero-orbit hero-orbit--one"></div><div class="hero-orbit hero-orbit--two"></div><div class="hero-product-glyph"><span></span><i></i><b></b></div><div class="hero-signal hero-signal--one">{officialPageCount} 个官网页面</div><div class="hero-signal hero-signal--two">{currentYear} 年当前数据集</div></div>
+<BaseLayout title="成本工作台" activeNav="home">
+  <section class="hero-panel rounded-3xl p-8 text-white">
+    <p class="m-0 text-sm uppercase tracking-wider opacity-80">Cost Intelligence</p>
+    <h1 class="mt-2 mb-2 text-3xl font-bold">竞品成本工作台</h1>
+    <p class="m-0 max-w-xl text-base opacity-90">
+      先按类型、品牌浏览并勾选产品，支持跨品类对比——TWS、头戴、开放式等可同表比较。
+    </p>
   </section>
-  <section class="dashboard-kpis" aria-label="研究数据覆盖"><article><span class="kpi-icon kpi-icon--blue">◈</span><div><strong>{manifest.product_count}</strong><span>已收录产品</span></div></article><article><span class="kpi-icon kpi-icon--purple">⌁</span><div><strong>{recentFocusCount}</strong><span>重点研究队列</span></div></article><article><span class="kpi-icon kpi-icon--cyan">¥</span><div><strong>{productPriced}</strong><span>已记录售价产品</span></div></article><article><span class="kpi-icon kpi-icon--orange">◎</span><div><strong>{officialPageCount}</strong><span>官网页面可溯源</span></div></article></section>
-  <RoundupInsights client:load reports={roundupManifest.reports || []} years={roundupManifest.years || []} />
-  <ProductBrowser client:load categories={categories.map((category) => ({ name: category.name, slug: category.slug, product_count: category.product_count }))} totalCount={manifest.product_count} brands={brands} unknownBrandCount={unknownBrandCount} initialSlices={initialSlices} fullIndexUrl={withBase("/data/products/index.json")} />
+
+  {
+    newestProducts.length > 0 && (
+      <section class="mt-6 rounded-3xl border border-[var(--warn)]/25 bg-[var(--surface)] p-6 shadow-[var(--shadow-glass)]">
+        <div class="flex flex-wrap items-baseline justify-between gap-2">
+          <h2 class="m-0 flex items-center gap-2 text-xl font-bold text-[var(--warn)]">
+            <span class="rounded-full bg-[var(--warn)] px-2.5 py-0.5 text-xs font-semibold text-white">NEW</span>
+            {currentYear} 最新产品
+          </h2>
+          <span class="text-sm text-[var(--muted)]">
+            共 {newestProducts.length} 款 {currentYear} 年新入库产品 · 按最新拆解时间排序
+          </span>
+        </div>
+        <div class="mt-4 flex gap-3 overflow-x-auto pb-1">
+          {newestProducts.map((p) => (
+            <a
+              href={withBase(`/product/${p.canonical_id}`)}
+              class="block w-56 flex-shrink-0 rounded-2xl border border-[var(--warn)]/20 bg-[var(--surface-2)] p-4 no-underline shadow-[var(--shadow-glass)] transition hover:-translate-y-0.5 hover:border-[var(--warn)]/40"
+            >
+              <div class="flex items-center justify-between">
+                <span class="rounded-full bg-[var(--warn-soft)] px-2 py-0.5 text-xs font-medium text-[var(--warn)]">
+                  {p.category}
+                </span>
+                <span class="text-xs text-[var(--muted)]">{p.first_seen}</span>
+              </div>
+              <div class="mt-2 font-semibold text-[var(--text)]">
+                {p.brand} {p.model}
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  <section class="mt-6 rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-5 shadow-[var(--shadow-glass)]">
+    <h2 class="m-0 text-sm font-semibold text-[var(--muted)]">数据覆盖度</h2>
+    <p class="mt-2 mb-0 text-sm text-[var(--text)]">
+      报告 {teardown.report_count} 篇 · 视频 {teardown.video_count} 条（已转写 {transcribedCount} 条）·
+      已知售价 {productPriced}/{productTotal}
+    </p>
+  </section>
+
+  <h2 class="mt-10 mb-4 text-xl font-bold">选类型 · 选产品 · 开始对比</h2>
+  <p class="mt-0 mb-4 text-sm text-[var(--muted)]">
+    搜索品牌/型号，或在左侧按类型、品牌筛选，勾选想对比的产品型号（可跨类型），点击「去对比」即可。
+  </p>
+  <ProductBrowser
+    client:load
+    categories={categories.map((c) => ({ name: c.name, slug: c.slug, product_count: c.product_count }))}
+    totalCount={manifest.product_count}
+    brands={brands}
+    unknownBrandCount={unknownBrandCount}
+    initialSlices={initialSlices}
+    fullIndexUrl={withBase("/data/products/index.json")}
+  />
 </BaseLayout>

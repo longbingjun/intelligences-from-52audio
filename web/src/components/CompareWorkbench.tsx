@@ -13,12 +13,12 @@ import {
 } from "../lib/types";
 import { withBase } from "../lib/paths";
 import { useProductExtras } from "../lib/productExtras";
-import { useRememberCompareView } from "../lib/useRememberCompareView";
 import { BomHighlightsCell, SellingPointsCell } from "./CompareExtrasCells";
 
 const STORAGE_KEY = "cost-compare-selection-v5";
 /** 记录“上一个对比视图”的完整地址（pathname + 查询参数），供产品详情页的
  * “返回对比”链接读取，使返回后能带着当时的选择状态回到原视图，而不是丢回品类默认页。 */
+const LAST_VIEW_KEY = "cost-compare-last-view";
 
 interface Props {
   category: string;
@@ -151,7 +151,16 @@ export default function CompareWorkbench({
   // 把“当前完整可用于返回的 URL”写入 sessionStorage，产品详情页的“返回对比”链接
   // 会优先读取它，这样从这里跳到 /product/[id] 后再点返回，能带着当时的选择状态
   // 回到本页面（而不是丢回品类默认页）。
-  useRememberCompareView(selected);
+  useEffect(() => {
+    try {
+      const url = new URL(window.location.href);
+      if (selected.length) url.searchParams.set("ids", selected.join(","));
+      else url.searchParams.delete("ids");
+      sessionStorage.setItem(LAST_VIEW_KEY, url.pathname + url.search);
+    } catch {
+      /* sessionStorage 不可用（隐私模式等）时静默忽略，详情页会回退到静态链接 */
+    }
+  }, [selected]);
 
   // 初始化选择：只在挂载时基于首屏切片计算一次，避免完整数据加载完成后
   // 默认选中的产品发生跳变。已选中的产品 id 是否存在于当前 compareData
@@ -388,12 +397,7 @@ export default function CompareWorkbench({
                       {meta.label}
                     </td>
                     {selectedProducts.map((p) => {
-                      const cell = p.cells[param] || {
-                        value: "",
-                        evidence: "",
-                        source_layer: "",
-                        source_url: "",
-                      };
+                      const cell = p.cells[param] || { value: "", evidence: "", source_layer: "" };
                       const missing = emptyHint(cell.value);
                       return (
                         <td
@@ -404,19 +408,6 @@ export default function CompareWorkbench({
                             <span className="rounded-full bg-[var(--warn-soft)] px-2 py-0.5 text-xs text-[var(--warn)]">
                               待补充
                             </span>
-                          ) : (param === "price_cny" || param === "launch_date") && cell.source_url ? (
-                            <a
-                              href={cell.source_url}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              title={param === "launch_date" ? "打开上市时间来源（新标签页）" : "打开价格信息来源（新标签页）"}
-                              className="group inline-flex flex-wrap items-center gap-x-1 font-medium text-[var(--primary)] no-underline hover:underline"
-                            >
-                              <span>{cell.value}</span>
-                              <span className="text-xs text-[var(--muted)] group-hover:text-[var(--primary)]">
-                                查看来源 ↗
-                              </span>
-                            </a>
                           ) : (
                             <button
                               type="button"

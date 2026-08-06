@@ -12,10 +12,9 @@ Thumbs.db
 # the repo (see .github/workflows/update-and-deploy.yml).
 site/
 
-# Generated web payload and optimized image cache. Both are recreated by
-# scripts/prepare_web_data.py and web/scripts/cache-images.mjs in CI.
+# Generated web payload. Recreated by scripts/prepare_web_data.py in CI.
+# Images are committed to Git (WebP compressed) for local dev convenience.
 web/public/data/
-web/public/images/
 
 # Legacy derived-data mirrors. Canonical data now lives in data/staging and
 # data/curated; these folders remain locally readable only during migration.

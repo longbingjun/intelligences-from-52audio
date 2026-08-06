@@ -2,8 +2,6 @@ export interface CompareCell {
   value: string;
   evidence: string;
   source_layer: string;
-  /** 售价等可外链字段的可追溯来源；缺失时保留原有证据抽屉。 */
-  source_url?: string;
 }
 
 export interface CompareProduct {
@@ -44,29 +42,6 @@ export interface IndexProduct {
   latest_published?: string;
   cost_completeness?: number;
   bom_row_count?: number;
-  launch_date?: string;
-  launch_display?: string;
-  launch_status?: "verified" | "year_only" | "reported" | "pending" | "legacy_unresolved";
-  research_priority?: "official_current" | "recent_pending_check" | "historical_reference";
-  priority_rank?: number;
-  official_page_status?: "found" | "not_found" | "unknown";
-  official_page_url?: string;
-  card_image_path?: string;
-}
-
-export function researchPriorityRank(product: IndexProduct): number {
-  return product.priority_rank ?? 3;
-}
-
-export function researchPriorityLabel(product: IndexProduct): string {
-  switch (product.research_priority) {
-    case "official_current":
-      return "官网可查";
-    case "recent_pending_check":
-      return "近两年待核验";
-    default:
-      return "历史参考";
-  }
 }
 
 export interface CompareProfiles {
