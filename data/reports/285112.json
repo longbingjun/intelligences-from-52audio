@@ -1,0 +1,952 @@
+{
+  "id": "285112",
+  "type": "report",
+  "source_layer": "technical",
+  "source_id": "audio52",
+  "url": "https://www.52audio.com/archives/285112.html",
+  "title": "Cleer ARC 6音弧开放式AI耳机 运动版",
+  "brand": "Cleer",
+  "model": "ARC 6音弧开放式AI耳机 运动版",
+  "category": "开放式耳机",
+  "published_at": "2026-08-06",
+  "author": "Wen5",
+  "summary": "“ARC音弧”系列是国际智能声学品牌Cleer旗下的开放式AI耳机产品，近期发布的最新一代Cleer ARC  […]",
+  "captured_at": "2026-08-07T03:58:56+00:00",
+  "data_completeness": 0.856,
+  "views": {
+    "market": {
+      "brand": "Cleer",
+      "model": "ARC 6音弧开放式AI耳机 运动版",
+      "category": "开放式耳机",
+      "launch_date": null,
+      "price_cny": null,
+      "price_note": "",
+      "selling_points": [
+        {
+          "text": "据我爱音频网拆解了解到，目前已有\n大疆\n、\n哈曼卡顿\n、\nJBL\n、\n猛玛\n、\nRedmi\n、\nBose\n、\nSONY、\n小米、\n荣耀\n、\nAnker\n、\nRØDE\n、\n魅族\n、\n博雅\n、\n绿联\n、\n神牛\n、\n漫步者\n、\n优篮子\n、\n…",
+          "tag": "其他",
+          "tags": [],
+          "evidence": {
+            "value": "据我爱音频网拆解了解到，目前已有\n大疆\n、\n哈曼卡顿\n、\nJBL\n、\n猛玛\n、\nRedmi\n、\nBose\n、\nSONY、\n小米、\n荣耀\n、\nAnker\n、\nRØDE\n、\n魅族\n、\n博雅\n、\n绿联\n、\n神牛\n、\n漫步者\n、\n优篮子\n、\n…",
+            "confidence": 0.75,
+            "source_type": "text",
+            "source_text": "据我爱音频网拆解了解到，目前已有\n大疆\n、\n哈曼卡顿\n、\nJBL\n、\n猛玛\n、\nRedmi\n、\nBose\n、\nSONY、\n小米、\n荣耀\n、\nAnker\n、\nRØDE\n、\n魅族\n、\n博雅\n、\n绿联\n、\n神牛\n、\n漫步者\n、\n优篮子\n、\n…"
+          }
+        },
+        {
+          "text": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n小米、vivo、OPPO、realme、韶音、Keep、悠律声学、Nothing、夸克、出门问问，\nREDMI、漫步者、倍思、绿联、万魔、猛玛、博雅、神牛、闪克、优篮子、眷蜀…",
+          "tag": "其他",
+          "tags": [],
+          "evidence": {
+            "value": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n小米、vivo、OPPO、realme、韶音、Keep、悠律声学、Nothing、夸克、出门问问，\nREDMI、漫步者、倍思、绿联、万魔、猛玛、博雅、神牛、闪克、优篮子、眷蜀…",
+            "confidence": 0.75,
+            "source_type": "text",
+            "source_text": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n小米、vivo、OPPO、realme、韶音、Keep、悠律声学、Nothing、夸克、出门问问，\nREDMI、漫步者、倍思、绿联、万魔、猛玛、博雅、神牛、闪克、优篮子、眷蜀…"
+          }
+        }
+      ],
+      "scenarios": [
+        "运动",
+        "办公",
+        "通话",
+        "户外"
+      ],
+      "positioning_summary": "适用运动、办公、通话等场景",
+      "launch_date_evidence": null,
+      "price_evidence": null
+    },
+    "cost": {
+      "major_parts": [
+        "充电仓",
+        "电池",
+        "主板/PCBA",
+        "喇叭单元",
+        "麦克风",
+        "降噪系统",
+        "天线"
+      ],
+      "chip_modules": [
+        {
+          "component": "芯片/模组",
+          "brand": "思远半导体",
+          "model": "思远半导体SY8805",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "思远半导体SY8805",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载国光电子3.85V/1250mAh锂电池组，采用了思远半导体SY8805电源管理芯片，负责内置电池的充放电管理；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm高通",
+          "model": "高通QCC3091",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通QCC3091",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用了Qualcomm高通QCC3091蓝牙音频SoC（第一代骁龙S3音频平台），用于无线连接和音频数据处理；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm",
+          "model": "Qualcomm AI",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "Qualcomm AI",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "Qualcomm AI"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm",
+          "model": "高通TrueWireless",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通TrueWireless",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "高通TrueWireless"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm",
+          "model": "高通ANC",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通ANC",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "高通ANC"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm",
+          "model": "高通QCC30xx",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通QCC30xx",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "高通QCC30xx"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "AB4",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "AB4",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "AB4"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "QCC30",
+          "qty_hint": "",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "QCC30",
+            "confidence": 0.82,
+            "source_type": "text",
+            "source_text": "QCC30"
+          }
+        }
+      ],
+      "bom_table": [
+        {
+          "component": "芯片/模组",
+          "brand": "思远半导体",
+          "model": "思远半导体SY8805",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "PMIC/充电仓管理",
+          "evidence": {
+            "value": "思远半导体SY8805",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载国光电子3.85V/1250mAh锂电池组，采用了思远半导体SY8805电源管理芯片，负责内置电池的充放电管理；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.85V/1250mAh锂电池",
+          "qty_hint": "1",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "3.85V/1250mAh锂电池",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "充电盒搭载国光电子3.85V/1250mAh锂电池组，采用了思远半导体SY8805电源管理芯片，负责内置电池的充放电管理；"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "Qualcomm高通",
+          "model": "高通QCC3091",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "高通QCC3091",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "采用了Qualcomm高通QCC3091蓝牙音频SoC（第一代骁龙S3音频平台），用于无线连接和音频数据处理；"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "3.85V/100mAh",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "3.85V/100mAh",
+            "confidence": 0.85,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载3.85V/100mAh圆柱形钢壳电池、16.2mm超大动圈喇叭，内置两颗敏芯微的MEMS麦克风；"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "MEMS麦克风",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "MEMS麦克风",
+            "confidence": 0.78,
+            "source_type": "summary_prose",
+            "source_text": "耳机内部搭载3.85V/100mAh圆柱形钢壳电池、16.2mm超大动圈喇叭，内置两颗敏芯微的MEMS麦克风；"
+          }
+        },
+        {
+          "component": "充电仓",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "充电仓",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "此次将要拆解的Cleer ARC 6音弧开放式AI耳机 运动版，其专属特征在于新增了RGB多彩灯效，支持夜跑安全模式、群组运动模式、个性化模式和智能状态模式，为用户打造个性化运动氛围；同时耳机支持IPX7级防水，无惧雨水和运动汗水。续航上，耳机支持9小时持续音乐播放，搭配充电盒总时长约45小时，能够满足一周的日常使用需求。"
+          }
+        },
+        {
+          "component": "电池",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "电池",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "盒盖内侧标注有产品参数信息，产品名称：充电盒（具有移动电源功能），输入：5V-2A，输出：5V-200mAh*2，电池电压：3.85V，额定容量：1250mAh，电池能量：4.81Wh；耳机输入：5V-200mAh*2，电池：3.85V 100mAh 0.39Wh*2。"
+          }
+        },
+        {
+          "component": "主板/PCBA",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "主板/PCBA",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "腔体底部结构一览，上层固定电池单元，与下层主板通过插座连接。"
+          }
+        },
+        {
+          "component": "喇叭单元",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "喇叭单元",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "在音频体验方面，Cleer ARC 6音弧搭载16.2mm超大动圈单元，升级DBE5.0动态低音增强技术，升级头部追踪 杜比音效2.0，支持aptX Lossless和LDAC高清音频解码，获得了THX音质认证、Hi-Res无线高保证认证和Snapdragon Sound高通骁龙畅听认证，听音乐、看电影、运动均能提供出彩音频效果。"
+          }
+        },
+        {
+          "component": "麦克风",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "充电盒",
+          "role": "major",
+          "evidence": {
+            "value": "麦克风",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "音腔背部采用与充电盒相同的光滑亮面盖板，条纹装饰，设计有品牌LOGO和两个麦克风拾音孔。品牌LOGO同时也是触摸控制区域。"
+          }
+        },
+        {
+          "component": "降噪系统",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "major",
+          "evidence": {
+            "value": "降噪系统",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "我爱音频网此前还拆解过Cleer ARC 3音弧开放式AI耳机 运动版、Cleer ARC II音弧开放式音乐智能耳机、Cleer ALLY PLUS真无线降噪耳机、Cleer ALLY真无线蓝牙耳机，Cleer FLOW、Cleer ENDURO100、CLEER DU Wireless头戴式耳机、Cleer TREK主动降噪入耳式有线耳机、cleer无线颈挂智能音响和Cleer STAGE 便携式蓝牙音箱等产品。"
+          }
+        },
+        {
+          "component": "天线",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "major",
+          "evidence": {
+            "value": "天线",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "盖板内侧结构一览，设置有蓝牙天线和触摸检测传感器贴片，露铜连接主板。"
+          }
+        },
+        {
+          "component": "触控/按键",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "触控/按键",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "盒盖中间设置有触控屏，操控流畅、显示效果细腻，能够用于反馈工作状态和进行各种功能控制。"
+          }
+        },
+        {
+          "component": "耳挂/挂钩",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "耳挂/挂钩",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "Cleer ARC 6音弧开放式AI耳机 运动版整体外观一览，耳机采用耳挂式设计，质感与充电盒一致，跃动橙配色，活力十足。"
+          }
+        },
+        {
+          "component": "充电触点",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "充电触点",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "耳机内侧外观一览，音腔上扬声器出音孔通过金属盖板防护，侧边设置连接充电盒的充电触点。"
+          }
+        },
+        {
+          "component": "外壳结构",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "",
+          "role": "minor",
+          "evidence": {
+            "value": "外壳结构",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "通过机身一角的卡槽，轻松拆掉可更换的底部外壳。"
+          }
+        },
+        {
+          "component": "指示灯",
+          "brand": "",
+          "model": "",
+          "qty_hint": "",
+          "side": "耳机",
+          "role": "minor",
+          "evidence": {
+            "value": "指示灯",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "2颗用于反馈耳机工作状态的LED指示灯特写。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "思远半导体SY8805",
+          "qty_hint": "1",
+          "side": "",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "思远半导体SY8805",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "思远半导体SY8805电源管理芯片。"
+          }
+        },
+        {
+          "component": "芯片/模组",
+          "brand": "",
+          "model": "SY8805",
+          "qty_hint": "1",
+          "side": "耳机",
+          "role": "主控/蓝牙",
+          "evidence": {
+            "value": "SY8805",
+            "confidence": 0.78,
+            "source_type": "text",
+            "source_text": "SY8805集成了通信端口，可以实现耳机仓到耳机端的高速通信，非常适合蓝牙耳机充电仓的设计。"
+          }
+        }
+      ],
+      "supply_hints": [],
+      "packaging_notes": [],
+      "process_hints": [],
+      "summary_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/08/2026080610251647.png",
+          "alt": "拆解报告：Cleer ARC 6音弧开放式AI耳机 运动版-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        }
+      ],
+      "summary_text": "三、我爱音频网总结 最后附上Cleer ARC 6音弧开放式AI耳机 运动版的已知物料清单，方便大家查阅。 Cleer ARC 6音弧开放式AI耳机 运动版在外观方面，延续了系列经典设计。充电盒采用扁平造型，体积便携，质感出众；同时搭载了显示屏，直观反馈工作状态，便捷实现各种功能控制；内置有化妆镜，方便女生户外补妆；设置有杀菌的紫外线照射灯，安全更卫生。耳机采用耳挂式设计，搭配超亲肤液态硅胶材质，佩戴柔软贴耳，舒适轻盈。 内部主要配置方面，充电盒搭载国光电子3.85V/1250mAh锂电池组，采用了思远半导体SY8805电源管理芯片，负责内置电池的充放电管理；采用Actions炬芯科技ATS3085S蓝牙音频解决方案、GigaDevice兆易创新GD5F1GM7UEWIG SPI存储器、HYNITRON海栎创CST810触控芯片负责屏幕功能；其他还采用了Prisemi芯导科技P14C5N过压过流保护芯片等。 耳机内部搭载3.85V/100mAh圆柱形钢壳电池、16.2mm超大动圈喇叭，内置两颗敏芯微的MEMS麦克风；采用了Qualcomm高通QCC3091蓝牙音频SoC（第一代骁龙S3音频平台），用于无线连接和音频数据处理；采用ST意法半导体LSM6DSOWT 6轴传感器，用于杜比音效头部追踪功能。"
+    },
+    "structure": {
+      "form_factor": "开放式耳机",
+      "earbud_type": "开放",
+      "materials": [
+        "硅胶",
+        "PC",
+        "液态硅胶"
+      ],
+      "ip_rating": "IPX7",
+      "weight_g": "121.5g",
+      "dimensions": [
+        "在音频体验方面，Cleer ARC 6音弧搭载16.2mm超大动圈单元，升级DBE5.0动态低音增强技术，升级头部追踪 杜比音效2.0，支持aptX Lossless和LDAC高清音频解码，获得了THX音质认证、Hi-Res无线高保证认证和Snapdragon Sound高通骁龙畅听认证，听音乐、看电影、运动均能提供出彩音频效果。",
+        "Qualcomm高通QCC3091蓝牙音频SoC（第一代骁龙S3音频平台），采用四核处理器架构，包括双核32位处理器应用子系统（最高80MHz），双核240MHz可配置DSP音频子系统（从ROM运行），支持Qualcomm AI引擎，支持蓝牙6.0，蓝牙LE Audio，支持高通TrueWireless Mirroring镜像技术，支持aptX Lossless无损音频技术、cVc回声消除和噪声抑制技术，还可支持高通ANC主动降噪技术（前馈、反馈、混合和自适应），最高24-bit 96kHz的高分辨率蓝牙串流。",
+        "Qualcomm高通QCC30xx系列详细资料图。"
+      ],
+      "internal_structure": [
+        {
+          "value": "盒盖内侧标注有产品参数信息，产品名称：充电盒（具有移动电源功能），输入：5V-2A，输出：5V-200mAh*2，电池电压：3.85V，额定容量：1250mAh，电池能量：4.81Wh；耳机输入：5V-200mAh*2，电池：3.85V 100mAh 0.39Wh*2。",
+          "evidence": {
+            "value": "盒盖内侧标注有产品参数信息，产品名称：充电盒（具有移动电源功能），输入：5V-2A，输出：5V-200mAh*2，电池电压：3.85V，额定容量：1250mAh，电池能量：4.81Wh；耳机输入：5V-200mAh*2，电池：3.85V 100mAh 0.39Wh*2。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "盒盖内侧标注有产品参数信息，产品名称：充电盒（具有移动电源功能），输入：5V-2A，输出：5V-200mAh*2，电池电压：3.85V，额定容量：1250mAh，电池能量：4.81Wh；耳机输入：5V-200mAh*2，电池：3.85V 100mAh 0.39Wh*2。"
+          }
+        },
+        {
+          "value": "腔体底部结构一览，上层固定电池单元，与下层主板通过插座连接。",
+          "evidence": {
+            "value": "腔体底部结构一览，上层固定电池单元，与下层主板通过插座连接。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "腔体底部结构一览，上层固定电池单元，与下层主板通过插座连接。"
+          }
+        },
+        {
+          "value": "拔掉插头，取掉电池，西方主板单元结构一览，与霍尔元件和屏幕排线，通过连接器连接。",
+          "evidence": {
+            "value": "拔掉插头，取掉电池，西方主板单元结构一览，与霍尔元件和屏幕排线，通过连接器连接。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "拔掉插头，取掉电池，西方主板单元结构一览，与霍尔元件和屏幕排线，通过连接器连接。"
+          }
+        },
+        {
+          "value": "在音频体验方面，Cleer ARC 6音弧搭载16.2mm超大动圈单元，升级DBE5.0动态低音增强技术，升级头部追踪 杜比音效2.0，支持aptX Lossless和LDAC高清音频解码，获得了THX音质认证、Hi-Res无线高保证认证和Snapdragon Sound高通骁龙畅听认证，听音乐、看电影、运动均能提供出彩音频效果。",
+          "evidence": {
+            "value": "在音频体验方面，Cleer ARC 6音弧搭载16.2mm超大动圈单元，升级DBE5.0动态低音增强技术，升级头部追踪 杜比音效2.0，支持aptX Lossless和LDAC高清音频解码，获得了THX音质认证、Hi-Res无线高保证认证和Snapdragon Sound高通骁龙畅听认证，听音乐、看电影、运动均能提供出彩音频效果。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "在音频体验方面，Cleer ARC 6音弧搭载16.2mm超大动圈单元，升级DBE5.0动态低音增强技术，升级头部追踪 杜比音效2.0，支持aptX Lossless和LDAC高清音频解码，获得了THX音质认证、Hi-Res无线高保证认证和Snapdragon Sound高通骁龙畅听认证，听音乐、看电影、运动均能提供出彩音频效果。"
+          }
+        },
+        {
+          "value": "取出音腔内部的扬声器单元。",
+          "evidence": {
+            "value": "取出音腔内部的扬声器单元。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "取出音腔内部的扬声器单元。"
+          }
+        },
+        {
+          "value": "音腔背部采用与充电盒相同的光滑亮面盖板，条纹装饰，设计有品牌LOGO和两个麦克风拾音孔。品牌LOGO同时也是触摸控制区域。",
+          "evidence": {
+            "value": "音腔背部采用与充电盒相同的光滑亮面盖板，条纹装饰，设计有品牌LOGO和两个麦克风拾音孔。品牌LOGO同时也是触摸控制区域。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "音腔背部采用与充电盒相同的光滑亮面盖板，条纹装饰，设计有品牌LOGO和两个麦克风拾音孔。品牌LOGO同时也是触摸控制区域。"
+          }
+        },
+        {
+          "value": "镭雕MH50 D134的MEMS麦克风特写，用于语音通话功能拾音，来自敏芯微电子。",
+          "evidence": {
+            "value": "镭雕MH50 D134的MEMS麦克风特写，用于语音通话功能拾音，来自敏芯微电子。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "镭雕MH50 D134的MEMS麦克风特写，用于语音通话功能拾音，来自敏芯微电子。"
+          }
+        },
+        {
+          "value": "我爱音频网此前还拆解过Cleer ARC 3音弧开放式AI耳机 运动版、Cleer ARC II音弧开放式音乐智能耳机、Cleer ALLY PLUS真无线降噪耳机、Cleer ALLY真无线蓝牙耳机，Cleer FLOW、Cleer ENDURO100、CLEER DU Wireless头戴式耳机、Cleer TREK主动降噪入耳式有线耳机、cleer无线颈挂智能音响和Cleer STAGE 便携式蓝牙音箱等产品。",
+          "evidence": {
+            "value": "我爱音频网此前还拆解过Cleer ARC 3音弧开放式AI耳机 运动版、Cleer ARC II音弧开放式音乐智能耳机、Cleer ALLY PLUS真无线降噪耳机、Cleer ALLY真无线蓝牙耳机，Cleer FLOW、Cleer ENDURO100、CLEER DU Wireless头戴式耳机、Cleer TREK主动降噪入耳式有线耳机、cleer无线颈挂智能音响和Cleer STAGE 便携式蓝牙音箱等产品。",
+            "confidence": 0.74,
+            "source_type": "text",
+            "source_text": "我爱音频网此前还拆解过Cleer ARC 3音弧开放式AI耳机 运动版、Cleer ARC II音弧开放式音乐智能耳机、Cleer ALLY PLUS真无线降噪耳机、Cleer ALLY真无线蓝牙耳机，Cleer FLOW、Cleer ENDURO100、CLEER DU Wireless头戴式耳机、Cleer TREK主动降噪入耳式有线耳机、cleer无线颈挂智能音响和Cleer STAGE 便携式蓝牙音箱等产品。"
+          }
+        }
+      ],
+      "fastener_type": [
+        {
+          "value": "二、Cleer ARC 6音弧开放式AI耳机 运动版拆解\n通过开箱，我们详细了解了Cleer ARC 6音弧开放式AI耳机 运动版的精致时尚多功能外观设计，下面进入拆解部分，看看内部结构配置信息~\n充电盒拆解\n通过机身一角的卡槽，轻松拆掉可更换的底部外壳。",
+          "evidence": {
+            "value": "二、Cleer ARC 6音弧开放式AI耳机 运动版拆解\n通过开箱，我们详细了解了Cleer ARC 6音弧开放式AI耳机 运动版的精致时尚多功能外观设计，下面进入拆解部分，看看内部结构配置信息~\n充电盒拆解\n通过机身一角的卡槽，轻松拆掉可更换的底部外壳。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "二、Cleer ARC 6音弧开放式AI耳机 运动版拆解\n通过开箱，我们详细了解了Cleer ARC 6音弧开放式AI耳机 运动版的精致时尚多功能外观设计，下面进入拆解部分，看看内部结构配置信息~\n充电盒拆解\n通过机身一角的卡槽，轻松拆掉可更换的底部外壳。"
+          }
+        },
+        {
+          "value": "拆掉螺丝，拆掉充电盒底部盖板。",
+          "evidence": {
+            "value": "拆掉螺丝，拆掉充电盒底部盖板。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "拆掉螺丝，拆掉充电盒底部盖板。"
+          }
+        },
+        {
+          "value": "挑开排线，卸掉螺丝，取掉主板。",
+          "evidence": {
+            "value": "挑开排线，卸掉螺丝，取掉主板。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "挑开排线，卸掉螺丝，取掉主板。"
+          }
+        },
+        {
+          "value": "卸掉螺丝，取掉霍尔元件排线，分离充电盒盖。",
+          "evidence": {
+            "value": "卸掉螺丝，取掉霍尔元件排线，分离充电盒盖。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "卸掉螺丝，取掉霍尔元件排线，分离充电盒盖。"
+          }
+        },
+        {
+          "value": "拆掉充电盒盖顶部盖板，下方隐藏有固定螺丝。",
+          "evidence": {
+            "value": "拆掉充电盒盖顶部盖板，下方隐藏有固定螺丝。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "拆掉充电盒盖顶部盖板，下方隐藏有固定螺丝。"
+          }
+        }
+      ],
+      "sealing_method": [
+        {
+          "value": "此次将要拆解的Cleer ARC 6音弧开放式AI耳机 运动版，其专属特征在于新增了RGB多彩灯效，支持夜跑安全模式、群组运动模式、个性化模式和智能状态模式，为用户打造个性化运动氛围；同时耳机支持IPX7级防水，无惧雨水和运动汗水。",
+          "evidence": {
+            "value": "此次将要拆解的Cleer ARC 6音弧开放式AI耳机 运动版，其专属特征在于新增了RGB多彩灯效，支持夜跑安全模式、群组运动模式、个性化模式和智能状态模式，为用户打造个性化运动氛围；同时耳机支持IPX7级防水，无惧雨水和运动汗水。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "此次将要拆解的Cleer ARC 6音弧开放式AI耳机 运动版，其专属特征在于新增了RGB多彩灯效，支持夜跑安全模式、群组运动模式、个性化模式和智能状态模式，为用户打造个性化运动氛围；同时耳机支持IPX7级防水，无惧雨水和运动汗水。"
+          }
+        }
+      ],
+      "wear_design": [
+        {
+          "value": "“ARC音弧”系列是国际智能声学品牌Cleer旗下的开放式AI耳机产品，近期发布的最新一代Cleer ARC 6，在佩戴舒适性上进一步优化，同时细分为音乐版、音乐版Pro、运动版三大版本，各机型针对核心使用场景优化专属功能，为不同需求的消费者提供差异化选择。",
+          "evidence": {
+            "value": "“ARC音弧”系列是国际智能声学品牌Cleer旗下的开放式AI耳机产品，近期发布的最新一代Cleer ARC 6，在佩戴舒适性上进一步优化，同时细分为音乐版、音乐版Pro、运动版三大版本，各机型针对核心使用场景优化专属功能，为不同需求的消费者提供差异化选择。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "“ARC音弧”系列是国际智能声学品牌Cleer旗下的开放式AI耳机产品，近期发布的最新一代Cleer ARC 6，在佩戴舒适性上进一步优化，同时细分为音乐版、音乐版Pro、运动版三大版本，各机型针对核心使用场景优化专属功能，为不同需求的消费者提供差异化选择。"
+          }
+        },
+        {
+          "value": "一、Cleer ARC 6音弧开放式AI耳机 运动版开箱\nCleer ARC 6音弧开放式AI耳机 运动版包装盒延续了家族式的设计风格，外部封套正面展示了Cleer大师音质全球形象官吉娜佩戴耳机的效果图，品牌LOGO和产品名称，以及杜比音效、THX音质认证标识。",
+          "evidence": {
+            "value": "一、Cleer ARC 6音弧开放式AI耳机 运动版开箱\nCleer ARC 6音弧开放式AI耳机 运动版包装盒延续了家族式的设计风格，外部封套正面展示了Cleer大师音质全球形象官吉娜佩戴耳机的效果图，品牌LOGO和产品名称，以及杜比音效、THX音质认证标识。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "一、Cleer ARC 6音弧开放式AI耳机 运动版开箱\nCleer ARC 6音弧开放式AI耳机 运动版包装盒延续了家族式的设计风格，外部封套正面展示了Cleer大师音质全球形象官吉娜佩戴耳机的效果图，品牌LOGO和产品名称，以及杜比音效、THX音质认证标识。"
+          }
+        },
+        {
+          "value": "Cleer ARC 6音弧开放式AI耳机 运动版整体外观一览，耳机采用耳挂式设计，质感与充电盒一致，跃动橙配色，活力十足。",
+          "evidence": {
+            "value": "Cleer ARC 6音弧开放式AI耳机 运动版整体外观一览，耳机采用耳挂式设计，质感与充电盒一致，跃动橙配色，活力十足。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "Cleer ARC 6音弧开放式AI耳机 运动版整体外观一览，耳机采用耳挂式设计，质感与充电盒一致，跃动橙配色，活力十足。"
+          }
+        },
+        {
+          "value": "耳机外侧外观一览，耳挂纤细，柔韧不易变形，外部通过液态硅胶材质包裹，佩戴舒适亲肤；同时采用IML制作工艺，更加耐刮，不易留痕。",
+          "evidence": {
+            "value": "耳机外侧外观一览，耳挂纤细，柔韧不易变形，外部通过液态硅胶材质包裹，佩戴舒适亲肤；同时采用IML制作工艺，更加耐刮，不易留痕。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "耳机外侧外观一览，耳挂纤细，柔韧不易变形，外部通过液态硅胶材质包裹，佩戴舒适亲肤；同时采用IML制作工艺，更加耐刮，不易留痕。"
+          }
+        }
+      ],
+      "key_image_urls": [
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/08/2026080610251647.png",
+          "alt": "拆解报告：Cleer ARC 6音弧开放式AI耳机 运动版-我爱音频网",
+          "caption": "",
+          "section_hint": "summary_bom",
+          "score": 10
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/08/2026080610245772.jpg",
+          "alt": "拆解报告：Cleer ARC 6音弧开放式AI耳机 运动版-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/08/2026080610250428.jpg",
+          "alt": "拆解报告：Cleer ARC 6音弧开放式AI耳机 运动版-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/08/2026080610250149.jpg",
+          "alt": "拆解报告：Cleer ARC 6音弧开放式AI耳机 运动版-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/08/2026080610251213.jpg",
+          "alt": "拆解报告：Cleer ARC 6音弧开放式AI耳机 运动版-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        },
+        {
+          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/08/2026080610252446.jpg",
+          "alt": "拆解报告：Cleer ARC 6音弧开放式AI耳机 运动版-我爱音频网",
+          "caption": "",
+          "section_hint": "爆炸图",
+          "score": 8
+        }
+      ],
+      "assembly_notes": [
+        "盒盖内侧标注有产品参数信息，产品名称：充电盒（具有移动电源功能），输入：5V-2A，输出：5V-200mAh*2，电池电压：3.85V，额定容量：1250mAh，电池能量：4.81Wh；耳机输入：5V-200mAh*2，电池：3.85V 100mAh 0.39Wh*2。",
+        "腔体底部结构一览，上层固定电池单元，与下层主板通过插座连接。",
+        "拔掉插头，取掉电池，西方主板单元结构一览，与霍尔元件和屏幕排线，通过连接器连接。",
+        "在音频体验方面，Cleer ARC 6音弧搭载16.2mm超大动圈单元，升级DBE5.0动态低音增强技术，升级头部追踪 杜比音效2.0，支持aptX Lossless和LDAC高清音频解码，获得了THX音质认证、Hi-Res无线高保证认证和Snapdragon Sound高通骁龙畅听认证，听音乐、看电影、运动均能提供出彩音频效果。"
+      ],
+      "ip_rating_evidence": {
+        "value": "IPX7",
+        "confidence": 0.8,
+        "source_type": "text",
+        "source_text": "IPX7"
+      },
+      "weight_evidence": {
+        "value": "121.5g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "r ARC 6音弧开放式AI耳机 运动版整机重量约为121.5g。\n单只耳"
+      },
+      "weight_case_g": null,
+      "weight_case_evidence": null,
+      "weight_earbud_g": "11.4g",
+      "weight_earbud_evidence": {
+        "value": "11.4g",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "耳机 运动版整机重量约为121.5g。\n单只耳机重量约11.4g。\n我爱音"
+      }
+    },
+    "hardware": {
+      "specs": [
+        {
+          "param": "充电接口",
+          "value": "机身背部设置有Type-C充电接口。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "机身背部设置有Type-C充电接口。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C充电母座特写。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.75,
+          "source_ref": "Type-C充电母座特写。"
+        },
+        {
+          "param": "充电接口",
+          "value": "Type-C",
+          "unit": "",
+          "brand": "",
+          "model": "Type-C",
+          "confidence": 0.8,
+          "source_ref": "Type-C"
+        },
+        {
+          "param": "标记/认证",
+          "value": "此次将要拆解的Cleer ARC 6音弧开放式AI耳机 运动版，其专属特征在于新增了RGB多彩灯效，支持夜跑安全模式、群组运动模式、个性化模式和智能状态模式，为用户打造个性化运动氛围；同时耳机支持IPX7级防水，无惧雨水和运动汗水。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "此次将要拆解的Cleer ARC 6音弧开放式AI耳机 运动版，其专属特征在于新增了RGB多彩灯效，支持夜跑安全模式、群组运动模式、个性化模式和智能状态模式，为用户打造个性化运动氛围；同时耳机支持IPX7级防水，无惧雨水和运动汗水。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "在音频体验方面，Cleer ARC 6音弧搭载16.2mm超大动圈单元，升级DBE5.0动态低音增强技术，升级头部追踪 杜比音效2.0，支持aptX Lossless和LDAC高清音频解码，获得了THX音质认证、Hi-Res无线高保证认证和Snapdragon Sound高通骁龙畅听认证，听音乐、看电影、运动均能提供出彩音频效果。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "在音频体验方面，Cleer ARC 6音弧搭载16.2mm超大动圈单元，升级DBE5.0动态低音增强技术，升级头部追踪 杜比音效2.0，支持aptX Lossless和LDAC高清音频解码，获得了THX音质认证、Hi-Res无线高保证认证和"
+        },
+        {
+          "param": "标记/认证",
+          "value": "一、Cleer ARC 6音弧开放式AI耳机 运动版开箱\nCleer ARC 6音弧开放式AI耳机 运动版包装盒延续了家族式的设计风格，外部封套正面展示了Cleer大师音质全球形象官吉娜佩戴耳机的效果图，品牌LOGO和产品名称，以及杜比音效、THX音质认证标识。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "一、Cleer ARC 6音弧开放式AI耳机 运动版开箱\nCleer ARC 6音弧开放式AI耳机 运动版包装盒延续了家族式的设计风格，外部封套正面展示了Cleer大师音质全球形象官吉娜佩戴耳机的效果图，品牌LOGO和产品名称，以及杜比音效"
+        },
+        {
+          "param": "标记/认证",
+          "value": "包装盒背面展示有产品的整体外观，介绍了详细功能特点：AI驱动、大师音质、智能光效、全面兼容、时尚健康，以及各种认证和技术标志，APP下载二维码等。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "包装盒背面展示有产品的整体外观，介绍了详细功能特点：AI驱动、大师音质、智能光效、全面兼容、时尚健康，以及各种认证和技术标志，APP下载二维码等。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "包装盒顶部贴有防伪标签，设计有“大师音质 Cleer”标语，龙岗碳足迹、零碳（碳中和）、碳足迹披露多项环保认证标识。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "包装盒顶部贴有防伪标签，设计有“大师音质 Cleer”标语，龙岗碳足迹、零碳（碳中和）、碳足迹披露多项环保认证标识。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "包装盒底部介绍了部分产品和公司信息，耳机型号：GS1538E，充电盒型号：GS1537C，颜色：跃动橙，制造商：深圳市冠旭电子股份有限公司。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "包装盒底部介绍了部分产品和公司信息，耳机型号：GS1538E，充电盒型号：GS1537C，颜色：跃动橙，制造商：深圳市冠旭电子股份有限公司。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "我爱音频网使用\nCHARGERLAB POWER-Z KM003C\n对Cleer ARC 6音弧开放式AI耳机 运动版进行充电测试，输入功率约为5.05W。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "我爱音频网使用\nCHARGERLAB POWER-Z KM003C\n对Cleer ARC 6音弧开放式AI耳机 运动版进行充电测试，输入功率约为5.05W。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "充电盒内置锂电池标签上信息一览，可充式聚合物锂离子电池组，型号：AEC 324063，标称电压：3.85V，额定容量：1250mAh，额定能量： 4.813Wh，充电限制电压：4.4V，生产厂：广东国光电子有限公司。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "充电盒内置锂电池标签上信息一览，可充式聚合物锂离子电池组，型号：AEC 324063，标称电压：3.85V，额定容量：1250mAh，额定能量： 4.813Wh，充电限制电压：4.4V，生产厂：广东国光电子有限公司。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "连接霍尔元件排线的ZIF连接器，来自亚奇科技（OCN），型号：OK-F501-06325。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "连接霍尔元件排线的ZIF连接器，来自亚奇科技（OCN），型号：OK-F501-06325。"
+        },
+        {
+          "param": "标记/认证",
+          "value": "耳机内置圆柱形钢壳电池型号：GY 70210，电压：3.85V/4.4V，容量：100mAh 0.39Wh。",
+          "unit": "",
+          "brand": "",
+          "model": "",
+          "confidence": 0.7,
+          "source_ref": "耳机内置圆柱形钢壳电池型号：GY 70210，电压：3.85V/4.4V，容量：100mAh 0.39Wh。"
+        },
+        {
+          "param": "电池容量",
+          "value": "200",
+          "unit": "mAh",
+          "brand": "",
+          "model": "",
+          "confidence": 0.85,
+          "source_ref": "200mAh"
+        }
+      ]
+    },
+    "software": {
+      "bluetooth_version": "6.0",
+      "codecs": [
+        {
+          "value": "LDAC",
+          "evidence": {
+            "value": "LDAC",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "在音频体验方面，Cleer ARC 6音弧搭载16.2mm超大动圈单元，升级DBE5.0动态低音增强技术，升级头部追踪 杜比音效2.0，支持aptX Lossless和LDAC高清音频解码，获得了THX音质认证、Hi-Res无线高保证认证和Snapdragon Sound高通骁龙畅听认证，听音乐、看电影、运动均能提供出彩音频效果。"
+          }
+        },
+        {
+          "value": "aptX",
+          "evidence": {
+            "value": "aptX",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "在音频体验方面，Cleer ARC 6音弧搭载16.2mm超大动圈单元，升级DBE5.0动态低音增强技术，升级头部追踪 杜比音效2.0，支持aptX Lossless和LDAC高清音频解码，获得了THX音质认证、Hi-Res无线高保证认证和Snapdragon Sound高通骁龙畅听认证，听音乐、看电影、运动均能提供出彩音频效果。"
+          }
+        },
+        {
+          "value": "Hi-Res",
+          "evidence": {
+            "value": "Hi-Res",
+            "confidence": 0.8,
+            "source_type": "text",
+            "source_text": "在音频体验方面，Cleer ARC 6音弧搭载16.2mm超大动圈单元，升级DBE5.0动态低音增强技术，升级头部追踪 杜比音效2.0，支持aptX Lossless和LDAC高清音频解码，获得了THX音质认证、Hi-Res无线高保证认证和Snapdragon Sound高通骁龙畅听认证，听音乐、看电影、运动均能提供出彩音频效果。"
+          }
+        }
+      ],
+      "multipoint": [],
+      "app_name": "",
+      "app_features": [
+        {
+          "value": "包装盒背面展示有产品的整体外观，介绍了详细功能特点：AI驱动、大师音质、智能光效、全面兼容、时尚健康，以及各种认证和技术标志，APP下载二维码等。",
+          "evidence": {
+            "value": "包装盒背面展示有产品的整体外观，介绍了详细功能特点：AI驱动、大师音质、智能光效、全面兼容、时尚健康，以及各种认证和技术标志，APP下载二维码等。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "包装盒背面展示有产品的整体外观，介绍了详细功能特点：AI驱动、大师音质、智能光效、全面兼容、时尚健康，以及各种认证和技术标志，APP下载二维码等。"
+          }
+        },
+        {
+          "value": "SY8805的高集成度极大简化了外围电路和元器件， 为蓝牙耳机充电仓的应用提供了简单易用的方案。",
+          "evidence": {
+            "value": "SY8805的高集成度极大简化了外围电路和元器件， 为蓝牙耳机充电仓的应用提供了简单易用的方案。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "SY8805的高集成度极大简化了外围电路和元器件， 为蓝牙耳机充电仓的应用提供了简单易用的方案。"
+          }
+        },
+        {
+          "value": "Qualcomm高通QCC3091蓝牙音频SoC（第一代骁龙S3音频平台），采用四核处理器架构，包括双核32位处理器应用子系统（最高80MHz），双核240MHz可配置DSP音频子系统（从ROM运行），支持Qualcomm AI引擎，支持蓝牙6.0，蓝牙LE Audio，支持高通TrueWireless Mirroring镜像技术，支持aptX Lossless无损音频技术、cVc回声消除和噪声抑制技术，还可支持高通ANC主动降噪技术（前馈、反馈、混合和自适应），最高24-bit 96kHz的高分辨率蓝牙串流。",
+          "evidence": {
+            "value": "Qualcomm高通QCC3091蓝牙音频SoC（第一代骁龙S3音频平台），采用四核处理器架构，包括双核32位处理器应用子系统（最高80MHz），双核240MHz可配置DSP音频子系统（从ROM运行），支持Qualcomm AI引擎，支持蓝牙6.0，蓝牙LE Audio，支持高通TrueWireless Mirroring镜像技术，支持aptX Lossless无损音频技术、cVc回声消除和噪声抑制技术，还可支持高通ANC主动降噪技术（前馈、反馈、混合和自适应），最高24-bit 96kHz的高分辨率蓝牙串流。",
+            "confidence": 0.7,
+            "source_type": "text",
+            "source_text": "Qualcomm高通QCC3091蓝牙音频SoC（第一代骁龙S3音频平台），采用四核处理器架构，包括双核32位处理器应用子系统（最高80MHz），双核240MHz可配置DSP音频子系统（从ROM运行），支持Qualcomm AI引擎，支持蓝牙6.0，蓝牙LE Audio，支持高通TrueWireless Mirroring镜像技术，支持aptX Lossless无损音频技术、cVc回声消除和噪声抑制技术，还可支持高通ANC主动降噪技术（前馈、反馈、混合和自适应），最高24-bit 96kHz的高分辨率蓝牙串流。"
+          }
+        }
+      ],
+      "ota_support": [
+        {
+          "value": "在音频体验方面，Cleer ARC 6音弧搭载16.2mm超大动圈单元，升级DBE5.0动态低音增强技术，升级头部追踪 杜比音效2.0，支持aptX Lossless和LDAC高清音频解码，获得了THX音质认证、Hi-Res无线高保证认证和Snapdragon Sound高通骁龙畅听认证，听音乐、看电影、运动均能提供出彩音频效果。",
+          "evidence": {
+            "value": "在音频体验方面，Cleer ARC 6音弧搭载16.2mm超大动圈单元，升级DBE5.0动态低音增强技术，升级头部追踪 杜比音效2.0，支持aptX Lossless和LDAC高清音频解码，获得了THX音质认证、Hi-Res无线高保证认证和Snapdragon Sound高通骁龙畅听认证，听音乐、看电影、运动均能提供出彩音频效果。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "在音频体验方面，Cleer ARC 6音弧搭载16.2mm超大动圈单元，升级DBE5.0动态低音增强技术，升级头部追踪 杜比音效2.0，支持aptX Lossless和LDAC高清音频解码，获得了THX音质认证、Hi-Res无线高保证认证和Snapdragon Sound高通骁龙畅听认证，听音乐、看电影、运动均能提供出彩音频效果。"
+          }
+        },
+        {
+          "value": "GigaDevice兆易创新GD5F1GM7UEWIG SPI存储器，容量为1Gb，用于存储固件信息。",
+          "evidence": {
+            "value": "GigaDevice兆易创新GD5F1GM7UEWIG SPI存储器，容量为1Gb，用于存储固件信息。",
+            "confidence": 0.68,
+            "source_type": "text",
+            "source_text": "GigaDevice兆易创新GD5F1GM7UEWIG SPI存储器，容量为1Gb，用于存储固件信息。"
+          }
+        }
+      ],
+      "latency_notes": [
+        {
+          "value": "炬芯科技ATS3085S支持双模蓝牙6.0，提供高速、稳定的无线连接能力，满足智能穿戴设备对低延迟、高可靠传输的需求。",
+          "evidence": {
+            "value": "炬芯科技ATS3085S支持双模蓝牙6.0，提供高速、稳定的无线连接能力，满足智能穿戴设备对低延迟、高可靠传输的需求。",
+            "confidence": 0.72,
+            "source_type": "text",
+            "source_text": "炬芯科技ATS3085S支持双模蓝牙6.0，提供高速、稳定的无线连接能力，满足智能穿戴设备对低延迟、高可靠传输的需求。"
+          }
+        }
+      ],
+      "bluetooth_evidence": {
+        "value": "6.0",
+        "confidence": 0.85,
+        "source_type": "text",
+        "source_text": "蓝牙6.0"
+      }
+    }
+  }
+}
