@@ -42,6 +42,7 @@ export interface IndexProduct {
   latest_published?: string;
   cost_completeness?: number;
   bom_row_count?: number;
+  card_image_path?: string;
 }
 
 export interface CompareProfiles {

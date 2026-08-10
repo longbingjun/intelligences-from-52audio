@@ -86,18 +86,47 @@ if (fs.existsSync(enrichVideosDir)) {
 const productsDataDir = path.join(dataDir, "products");
 let productTotal = 0;
 let productPriced = 0;
+const yearPriceCounts = new Map<string, { total: number; priced: number }>();
 if (fs.existsSync(productsDataDir)) {
   for (const file of fs.readdirSync(productsDataDir)) {
     if (file === "index.json" || !file.endsWith(".json")) continue;
     productTotal += 1;
     try {
       const p = JSON.parse(fs.readFileSync(path.join(productsDataDir, file), "utf-8"));
-      if (p?.cost_snapshot?.price_cny != null) productPriced += 1;
+      const hasPrice = p?.cost_snapshot?.price_cny != null;
+      if (hasPrice) productPriced += 1;
+      // 按 first_seen 年份分组
+      const year = (p.first_seen || "").slice(0, 4);
+      if (year && /^\d{4}$/.test(year)) {
+        let entry = yearPriceCounts.get(year);
+        if (!entry) { entry = { total: 0, priced: 0 }; yearPriceCounts.set(year, entry); }
+        entry.total += 1;
+        if (hasPrice) entry.priced += 1;
+      } else {
+        // 无年份的归入 "未知"
+        let entry = yearPriceCounts.get("未知");
+        if (!entry) { entry = { total: 0, priced: 0 }; yearPriceCounts.set("未知", entry); }
+        entry.total += 1;
+        if (hasPrice) entry.priced += 1;
+      }
     } catch {
       // 忽略损坏的单个产品文件
     }
   }
 }
+// 按年份降序排列
+const yearCoverage = Array.from(yearPriceCounts.entries())
+  .sort((a, b) => {
+    if (a[0] === "未知") return 1;
+    if (b[0] === "未知") return -1;
+    return Number(b[0]) - Number(a[0]);
+  })
+  .map(([year, stats]) => ({
+    year,
+    total: stats.total,
+    priced: stats.priced,
+    pct: stats.total > 0 ? Math.round((stats.priced / stats.total) * 100) : 0,
+  }));
 ---
 
 <BaseLayout title="成本工作台" activeNav="home">
@@ -133,6 +162,17 @@ if (fs.existsSync(productsDataDir)) {
                 </span>
                 <span class="text-xs text-[var(--muted)]">{p.first_seen}</span>
               </div>
+              {p.card_image_path && (
+                <div class="mt-2 flex items-center justify-center overflow-hidden rounded-xl bg-[var(--surface-2)]" style="aspect-ratio: 1 / 1; max-height: 120px;">
+                  <img
+                    src={withBase(p.card_image_path)}
+                    alt={`${p.brand} ${p.model}`}
+                    loading="lazy"
+                    class="h-full w-full object-contain"
+                    style="max-height: 120px"
+                  />
+                </div>
+              )}
               <div class="mt-2 font-semibold text-[var(--text)]">
                 {p.brand} {p.model}
               </div>
@@ -149,6 +189,13 @@ if (fs.existsSync(productsDataDir)) {
       报告 {teardown.report_count} 篇 · 视频 {teardown.video_count} 条（已转写 {transcribedCount} 条）·
       已知售价 {productPriced}/{productTotal}
     </p>
+    <div class="mt-3 flex flex-wrap gap-x-6 gap-y-1 text-xs text-[var(--muted)]">
+      {yearCoverage.map((entry) => (
+        <span>
+          {entry.year}年：{entry.priced}/{entry.total} 已定价（{entry.pct}%）
+        </span>
+      ))}
+    </div>
   </section>
 
   <h2 class="mt-10 mb-4 text-xl font-bold">选类型 · 选产品 · 开始对比</h2>

@@ -4,7 +4,6 @@ import { productDisplayName } from "../lib/types";
 import { withBase } from "../lib/paths";
 
 const UNKNOWN_BRAND_KEY = "__unknown__";
-const TOP_BRAND_VISIBLE = 14;
 
 interface CategorySummary {
   name: string;
@@ -73,7 +72,6 @@ export default function ProductBrowser({
   const [search, setSearch] = useState("");
   const [categoryFilter, setCategoryFilter] = useState("");
   const [brandFilter, setBrandFilter] = useState("");
-  const [showMoreBrands, setShowMoreBrands] = useState(false);
   const [selected, setSelected] = useState<string[]>([]);
 
   // 首屏只内嵌了每个品类的一个小切片（用于默认状态的卡片行），完整的 1027 款
@@ -99,8 +97,6 @@ export default function ProductBrowser({
   }, [fullIndexUrl]);
 
   const isFiltering = Boolean(search.trim() || categoryFilter || brandFilter);
-
-  const visibleBrands = showMoreBrands ? brands : brands.slice(0, TOP_BRAND_VISIBLE);
 
   const filteredPool = useMemo(() => {
     if (!fullIndex) return [];
@@ -221,9 +217,9 @@ export default function ProductBrowser({
             </div>
 
             <div className="mt-5 border-t border-[var(--line)] pt-4">
-              <h3 className="m-0 text-sm font-semibold text-[var(--muted)]">热门品牌</h3>
+              <h3 className="m-0 text-sm font-semibold text-[var(--muted)]">品牌</h3>
               <div className="mt-2 flex flex-wrap gap-1.5">
-                {visibleBrands.map((b) => (
+                {brands.map((b) => (
                   <button
                     key={b.name}
                     type="button"
@@ -238,15 +234,6 @@ export default function ProductBrowser({
                   </button>
                 ))}
               </div>
-              {brands.length > TOP_BRAND_VISIBLE && (
-                <button
-                  type="button"
-                  onClick={() => setShowMoreBrands((v) => !v)}
-                  className="mt-2 text-xs text-[var(--primary)] underline"
-                >
-                  {showMoreBrands ? "收起品牌 ▲" : "更多品牌 ▾"}
-                </button>
-              )}
               <button
                 type="button"
                 onClick={() => toggleBrandFilter(UNKNOWN_BRAND_KEY)}
@@ -321,6 +308,17 @@ export default function ProductBrowser({
                               </span>
                               <span className="text-xs text-[var(--muted)]">{p.first_seen || ""}</span>
                             </div>
+                            {p.card_image_path && (
+                              <div className="mt-2 flex items-center justify-center overflow-hidden rounded-xl bg-[var(--surface-2)]" style={{ aspectRatio: "1 / 1", maxHeight: "140px" }}>
+                                <img
+                                  src={withBase(p.card_image_path)}
+                                  alt={productDisplayName(p)}
+                                  loading="lazy"
+                                  className="h-full w-full object-contain"
+                                  style={{ maxHeight: "140px" }}
+                                />
+                              </div>
+                            )}
                             <div className="mt-2 font-semibold text-[var(--text)]">
                               {productDisplayName(p)}
                             </div>
