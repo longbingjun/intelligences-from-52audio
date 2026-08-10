@@ -138,11 +138,33 @@ def _roundup_kind(title: str) -> str:
 
 
 def _local_image_path(url: str) -> str:
-    """Mirror web/scripts/cache-images.mjs so digest images work on Pages."""
+    """Mirror web/scripts/cache-images.mjs so optimized images work on Pages."""
     digest = hashlib.sha1(url.encode("utf-8")).hexdigest()[:16]
-    match = re.search(r"\.([A-Za-z0-9]{2,5})(?:\?.*)?$", url)
-    extension = match.group(1).lower() if match else "jpg"
-    return f"/images/{digest}.{extension}"
+    return f"/images/{digest}.webp"
+
+
+def _trim_images(images: object, limit: int = 9999) -> list[dict]:
+    """Keep all images (limit is respected but set high enough to include everything)."""
+    if not isinstance(images, list):
+        return []
+    return [item for item in images if isinstance(item, dict) and item.get("url")]
+
+
+def _card_image_url(product: dict) -> str:
+    """Score unboxing appearance images and return the best candidate URL."""
+    unboxing = product.get("unboxing") or {}
+    candidates: list[tuple[int, str]] = []
+    for section_name, base_score in (("earbuds", 6), ("charging_case", 4), ("packaging", 2)):
+        section = unboxing.get(section_name) or {}
+        for image in _trim_images(section.get("appearance_images")):
+            url = str(image.get("url") or "").strip()
+            if not url:
+                continue
+            description = f"{image.get('alt') or ''} {image.get('caption') or ''}"
+            bonus = 20 if re.search(r"整体|全貌|全景|外观|一览|展示|真机|佩戴|正面|侧面|背面", description) else 0
+            penalty = 12 if re.search(r"特写|内部|拆解|芯片|主板|电池|接口|触点|铭牌|参数|包装盒", description) else 0
+            candidates.append((base_score + bonus - penalty, url))
+    return max(candidates, default=(0, ""), key=lambda item: item[0])[1]
 
 
 def _roundup_digest(report_id: str) -> dict:
@@ -249,12 +271,32 @@ def prepare() -> dict:
     if idx_src.exists():
         shutil.copy2(idx_src, products_dst / "index.json")
     n_products = 0
+    card_image_by_id: dict[str, str] = {}
     if products_src.exists():
         for path in products_src.glob("*.json"):
             if path.name == "index.json":
                 continue
             shutil.copy2(path, products_dst / path.name)
+            try:
+                product = json.loads(path.read_text(encoding="utf-8"))
+                card_url = _card_image_url(product)
+                if card_url:
+                    card_image_by_id[str(product.get("canonical_id") or path.stem)] = _local_image_path(card_url)
+            except (OSError, json.JSONDecodeError):
+                pass
             n_products += 1
+
+    # inject card_image_path into the products index
+    index_path = products_dst / "index.json"
+    if index_path.exists():
+        source_index = json.loads(index_path.read_text(encoding="utf-8"))
+        for product in source_index.get("products") or []:
+            card_path = card_image_by_id.get(str(product.get("canonical_id") or ""))
+            if card_path:
+                product["card_image_path"] = card_path
+        index_path.write_text(
+            json.dumps(source_index, ensure_ascii=False, separators=(",", ":")), encoding="utf-8"
+        )
 
     # profiles + field annotations
     for name in ("compare_profiles.json", "field_annotations.json"):
