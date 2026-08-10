@@ -2,7 +2,7 @@ name: Build and deploy Pages
 
 on:
   push:
-    branches: [main, master]
+    branches: [main, master, product-browser-onto-remote]
   workflow_dispatch:
   workflow_run:
     workflows: [Update research data]
