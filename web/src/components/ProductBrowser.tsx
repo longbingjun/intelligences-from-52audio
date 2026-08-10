@@ -1,10 +1,9 @@
 import { useEffect, useMemo, useState } from "react";
 import type { IndexProduct } from "../lib/types";
-import { productDisplayName, researchPriorityRank } from "../lib/types";
+import { productDisplayName } from "../lib/types";
 import { withBase } from "../lib/paths";
 
 const UNKNOWN_BRAND_KEY = "__unknown__";
-const MAX_COMPARE = 6;
 
 interface CategorySummary {
   name: string;
@@ -31,86 +30,33 @@ interface Props {
   fullIndexUrl: string;
 }
 
-interface ProductDetailImage {
-  url?: string;
-  alt?: string;
-  caption?: string;
+const CATEGORY_COLORS: Record<string, { bg: string; text: string }> = {
+  头戴式耳机: { bg: "#f3e8ff", text: "#7c3aed" },
+  开放式耳机: { bg: "#e0f2f1", text: "#0f766e" },
+  有线耳机: { bg: "#f1f5f9", text: "#475569" },
+  真无线耳机TWS: { bg: "#eef3ff", text: "#1f3fbf" },
+  颈挂式蓝牙耳机: { bg: "#fff3e0", text: "#b45309" },
+  骨传导耳机: { bg: "#ffe4e6", text: "#be123c" },
+};
+
+function categoryTagStyle(name: string) {
+  return CATEGORY_COLORS[name] || { bg: "#f1f5f9", text: "#475569" };
 }
 
-interface ProductUnboxingSection {
-  appearance_images?: ProductDetailImage[];
-}
-
-interface ProductUnboxing {
-  packaging?: ProductUnboxingSection;
-  charging_case?: ProductUnboxingSection;
-  earbuds?: ProductUnboxingSection;
-}
-
-interface ProductDetail {
-  unboxing?: ProductUnboxing;
-}
-
-function categoryStyle(category: string) {
-  const styles = [
-    { bg: "#eef2ff", text: "#4f46e5" },
-    { bg: "#ecfeff", text: "#0f766e" },
-    { bg: "#fff7ed", text: "#c2410c" },
-    { bg: "#fff1f2", text: "#be123c" },
-  ];
-  const code = Array.from(category).reduce((sum, char) => sum + char.charCodeAt(0), 0);
-  return styles[code % styles.length];
-}
-
-function productFallbackLabel(product: IndexProduct) {
-  // 没有可用外观图时，品牌名比单个首字母更容易辨识；保留型号兜底以兼容未治理记录。
-  return (product.brand || product.model || "产品图片待补").trim();
-}
-
-function statusLabel(product: IndexProduct) {
-  if (product.official_page_status === "found") return "官网页面可溯源";
-  if (product.research_priority === "official_current") return "官方在售优先";
-  if (product.research_priority === "recent_pending_check") return "近两年待核验";
-  return "历史产品参考";
-}
-
-function productAppearanceImage(unboxing?: ProductUnboxing): string | undefined {
-  const candidates = [
-    { images: unboxing?.earbuds?.appearance_images || [], sectionScore: 6 },
-    { images: unboxing?.charging_case?.appearance_images || [], sectionScore: 4 },
-    { images: unboxing?.packaging?.appearance_images || [], sectionScore: 2 },
-  ].flatMap(({ images, sectionScore }) =>
-    images
-      .filter((image) => typeof image.url === "string" && /^https?:\/\//.test(image.url))
-      .map((image) => {
-        const description = `${image.alt || ""} ${image.caption || ""}`;
-        const overallBonus = /整体|全貌|全景|外观|一览|展示|真机|佩戴|正面|侧面|背面/.test(description) ? 20 : 0;
-        const detailPenalty = /特写|内部|拆解|芯片|主板|电池|接口|触点|铭牌|参数|包装盒/.test(description) ? 12 : 0;
-        return { url: image.url as string, score: sectionScore + overallBonus - detailPenalty };
-      }),
+function FilterChip({ label, onRemove }: { label: string; onRemove: () => void }) {
+  return (
+    <span className="inline-flex items-center gap-1.5 rounded-full bg-[var(--primary-soft)] px-3 py-1 text-sm text-[var(--primary-dark)]">
+      {label}
+      <button
+        type="button"
+        onClick={onRemove}
+        aria-label="移除筛选"
+        className="text-[var(--primary-dark)] hover:text-[var(--primary)]"
+      >
+        ×
+      </button>
+    </span>
   );
-  return candidates.sort((a, b) => b.score - a.score)[0]?.url;
-}
-
-async function cachedImagePath(remoteUrl: string): Promise<string | null> {
-  if (!globalThis.crypto?.subtle) return null;
-  const encoded = new TextEncoder().encode(remoteUrl);
-  const digest = await globalThis.crypto.subtle.digest("SHA-1", encoded);
-  const hash = Array.from(new Uint8Array(digest), (value) => value.toString(16).padStart(2, "0")).join("").slice(0, 16);
-  const ext = /\.([a-zA-Z0-9]{2,5})(?:\?.*)?$/.exec(remoteUrl)?.[1]?.toLowerCase() || "jpg";
-  return withBase(`/images/${hash}.${ext}`);
-}
-
-async function loadProductImage(product: IndexProduct): Promise<string | null> {
-  try {
-    const response = await fetch(withBase(`/data/products/${product.canonical_id}.json`));
-    if (!response.ok) return null;
-    const detail = (await response.json()) as ProductDetail;
-    const originalUrl = productAppearanceImage(detail.unboxing);
-    return originalUrl ? cachedImagePath(originalUrl) : null;
-  } catch {
-    return null;
-  }
 }
 
 export default function ProductBrowser({
@@ -126,21 +72,23 @@ export default function ProductBrowser({
   const [search, setSearch] = useState("");
   const [categoryFilter, setCategoryFilter] = useState("");
   const [brandFilter, setBrandFilter] = useState("");
-  const [priorityFilter, setPriorityFilter] = useState<"all" | "official_current" | "recent_pending_check">("all");
   const [selected, setSelected] = useState<string[]>([]);
-  const [imageByProductId, setImageByProductId] = useState<Record<string, string | null>>({});
 
+  // 首屏只内嵌了每个品类的一个小切片（用于默认状态的卡片行），完整的 1027 款
+  // 产品轻量索引在挂载后才通过 fetch 拉取，用于搜索/筛选——绝不在构建期把全量
+  // 索引内嵌进首页 HTML。
   useEffect(() => {
     let cancelled = false;
     fetch(fullIndexUrl)
-      .then((response) => {
-        if (!response.ok) throw new Error("产品索引不可用");
-        return response.json();
+      .then((res) => {
+        if (!res.ok) throw new Error(`fetch product index failed: ${res.status}`);
+        return res.json();
       })
       .then((data: { products: IndexProduct[] }) => {
         if (!cancelled) setFullIndex(data.products);
       })
-      .catch(() => {
+      .catch((err) => {
+        console.error("加载完整产品索引失败", err);
         if (!cancelled) setLoadFailed(true);
       });
     return () => {
@@ -148,192 +96,369 @@ export default function ProductBrowser({
     };
   }, [fullIndexUrl]);
 
-  const seedProducts = useMemo(() => initialSlices.flatMap((slice) => slice.products), [initialSlices]);
-  const products = fullIndex || seedProducts;
-  const isFiltering = Boolean(search.trim() || categoryFilter || brandFilter || priorityFilter !== "all");
-  const sorted = (items: IndexProduct[]) =>
-    [...items].sort(
-      (a, b) =>
-        researchPriorityRank(a) - researchPriorityRank(b) ||
-        (b.latest_published || "").localeCompare(a.latest_published || ""),
-    );
-  const filteredProducts = useMemo(() => {
-    const query = search.trim().toLowerCase();
-    return sorted(
-      products.filter((product) => {
-        const brand = (product.brand || "").trim();
-        const text = `${brand} ${product.model || ""} ${product.category || ""} ${product.canonical_id}`.toLowerCase();
-        return (
-          (!query || text.includes(query)) &&
-          (!categoryFilter || product.category === categoryFilter) &&
-          (!brandFilter || (brandFilter === UNKNOWN_BRAND_KEY ? !brand : brand === brandFilter)) &&
-          (priorityFilter === "all" || product.research_priority === priorityFilter)
-        );
-      }),
-    );
-  }, [products, search, categoryFilter, brandFilter, priorityFilter]);
-  const visibleProducts = isFiltering ? filteredProducts.slice(0, 30) : sorted(seedProducts).slice(0, 12);
-  const visibleProductKey = visibleProducts.map((product) => product.canonical_id).join("|");
-  const productById = useMemo(
-    () => new Map([...seedProducts, ...(fullIndex || [])].map((product) => [product.canonical_id, product])),
-    [seedProducts, fullIndex],
-  );
-  const selectedProducts = selected
-    .map((id) => productById.get(id))
-    .filter((item): item is IndexProduct => Boolean(item));
-  const attentionProducts = sorted(seedProducts).slice(0, 5);
-  const compareHref = selected.length ? withBase(`/compare?ids=${selected.join(",")}`) : withBase("/compare");
+  const isFiltering = Boolean(search.trim() || categoryFilter || brandFilter);
 
-  useEffect(() => {
-    let cancelled = false;
-    const missing = visibleProducts.filter((product) => !(product.canonical_id in imageByProductId));
-    if (!missing.length) return () => {
-      cancelled = true;
-    };
-    void Promise.all(missing.map(async (product) => [product.canonical_id, await loadProductImage(product)] as const)).then((images) => {
-      if (cancelled) return;
-      setImageByProductId((current) => ({ ...current, ...Object.fromEntries(images) }));
+  const filteredPool = useMemo(() => {
+    if (!fullIndex) return [];
+    const q = search.trim().toLowerCase();
+    return fullIndex.filter((p) => {
+      if (q) {
+        const haystack = `${p.brand || ""} ${p.model || ""} ${p.category || ""}`.toLowerCase();
+        if (!haystack.includes(q) && !p.canonical_id.toLowerCase().includes(q)) return false;
+      }
+      if (categoryFilter && p.category !== categoryFilter) return false;
+      const brand = (p.brand || "").trim();
+      if (brandFilter === UNKNOWN_BRAND_KEY) {
+        if (brand) return false;
+      } else if (brandFilter) {
+        if (brand !== brandFilter) return false;
+      }
+      return true;
     });
-    return () => {
-      cancelled = true;
-    };
-  }, [visibleProductKey]); // 只在卡片集合变化时加载其真实图片。
+  }, [fullIndex, search, categoryFilter, brandFilter]);
 
-  const toggleProduct = (id: string) =>
-    setSelected((current) =>
-      current.includes(id)
-        ? current.filter((item) => item !== id)
-        : current.length >= MAX_COMPARE
-          ? current
-          : [...current, id],
-    );
-  const resetFilters = () => {
-    setSearch("");
-    setCategoryFilter("");
-    setBrandFilter("");
-    setPriorityFilter("all");
+  // 已选产品可能来自默认卡片行（只有切片数据）或已加载的完整索引，两边都要能查到，
+  // 这样在完整索引加载完成前从卡片行产生的选择也不会丢失展示信息。
+  const productById = useMemo(() => {
+    const map = new Map<string, IndexProduct>();
+    initialSlices.forEach((slice) => slice.products.forEach((p) => map.set(p.canonical_id, p)));
+    (fullIndex || []).forEach((p) => map.set(p.canonical_id, p));
+    return map;
+  }, [initialSlices, fullIndex]);
+
+  const selectedProducts = useMemo(
+    () => selected.map((id) => productById.get(id)).filter((p): p is IndexProduct => Boolean(p)),
+    [selected, productById]
+  );
+
+  const compareHref =
+    selected.length > 0
+      ? withBase(`/compare?ids=${selected.join(",")}`)
+      : withBase("/compare");
+
+  const toggleProduct = (id: string) => {
+    setSelected((prev) => (prev.includes(id) ? prev.filter((x) => x !== id) : [...prev, id]));
+  };
+
+  const clearSelection = () => setSelected([]);
+
+  const selectAllFiltered = () => {
+    setSelected(filteredPool.map((p) => p.canonical_id));
+  };
+
+  const toggleBrandFilter = (name: string) => {
+    setBrandFilter((prev) => (prev === name ? "" : name));
   };
 
   return (
-    <section id="workspace" className="workspace-shell">
-      <div className="workspace-toolbar">
-        <div>
-          <p className="eyebrow">产品研究工作台</p>
-          <h2>发现产品，建立对比</h2>
-          <p>优先查看近两年有动态或可追溯官方页面的产品。</p>
-        </div>
-        <div className="workspace-search">
-          <input
-            type="search"
-            value={search}
-            onChange={(event) => setSearch(event.target.value)}
-            placeholder="搜索品牌、型号或产品 ID"
-            aria-label="搜索产品"
-          />
-          {isFiltering && (
-            <button type="button" onClick={resetFilters} className="workspace-text-button">
-              清除
+    <div className="space-y-5">
+      {/* 搜索栏 */}
+      <form
+        onSubmit={(e) => e.preventDefault()}
+        className="flex flex-wrap gap-3 rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-4 shadow-[var(--shadow-glass)]"
+      >
+        <input
+          type="search"
+          value={search}
+          onChange={(e) => setSearch(e.target.value)}
+          placeholder="输入品牌/型号关键词…"
+          className="min-w-[220px] flex-1 rounded-xl border border-[var(--line)] px-3 py-2 text-sm outline-none focus:border-[var(--primary)]"
+        />
+        <select
+          value={categoryFilter}
+          onChange={(e) => setCategoryFilter(e.target.value)}
+          className="rounded-xl border border-[var(--line)] px-3 py-2 text-sm"
+        >
+          <option value="">类型: 不限</option>
+          {categories.map((c) => (
+            <option key={c.name} value={c.name}>
+              {c.name} ({c.product_count})
+            </option>
+          ))}
+        </select>
+        <button
+          type="submit"
+          className="rounded-xl bg-[var(--primary)] px-4 py-2 text-sm font-medium text-white hover:bg-[var(--primary-strong)]"
+        >
+          搜索
+        </button>
+      </form>
+
+      <div className="flex flex-col gap-5 lg:flex-row">
+        {/* 侧边栏 */}
+        <aside className="shrink-0 lg:w-60">
+          <div className="rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-4 shadow-[var(--shadow-glass)]">
+            <button
+              type="button"
+              onClick={() => setCategoryFilter("")}
+              className={`block w-full rounded-lg px-2.5 py-1.5 text-left text-sm font-semibold ${
+                categoryFilter === ""
+                  ? "bg-[var(--primary-soft)] text-[var(--primary-dark)]"
+                  : "text-[var(--text)] hover:bg-[var(--surface-2)]"
+              }`}
+            >
+              全部产品 ({totalCount})
             </button>
+            <div className="mt-1 flex flex-col gap-1">
+              {categories.map((c) => (
+                <button
+                  key={c.name}
+                  type="button"
+                  onClick={() => setCategoryFilter((prev) => (prev === c.name ? "" : c.name))}
+                  className={`block w-full rounded-lg px-2.5 py-1.5 text-left text-sm ${
+                    categoryFilter === c.name
+                      ? "bg-[var(--primary-soft)] font-semibold text-[var(--primary-dark)]"
+                      : "text-[var(--muted)] hover:bg-[var(--surface-2)]"
+                  }`}
+                >
+                  {c.name} ({c.product_count})
+                </button>
+              ))}
+            </div>
+
+            <div className="mt-5 border-t border-[var(--line)] pt-4">
+              <h3 className="m-0 text-sm font-semibold text-[var(--muted)]">品牌</h3>
+              <div className="mt-2 flex flex-wrap gap-1.5">
+                {brands.map((b) => (
+                  <button
+                    key={b.name}
+                    type="button"
+                    onClick={() => toggleBrandFilter(b.name)}
+                    className={`rounded-full border px-2.5 py-1 text-xs ${
+                      brandFilter === b.name
+                        ? "border-[var(--primary)] bg-[var(--primary-soft)] text-[var(--primary-dark)] font-semibold"
+                        : "border-[var(--line)] bg-[var(--surface)] text-[var(--muted)] hover:bg-[var(--surface-2)]"
+                    }`}
+                  >
+                    {b.name} ({b.count})
+                  </button>
+                ))}
+              </div>
+              <button
+                type="button"
+                onClick={() => toggleBrandFilter(UNKNOWN_BRAND_KEY)}
+                className={`mt-3 block w-fit rounded-full border px-2.5 py-1 text-xs ${
+                  brandFilter === UNKNOWN_BRAND_KEY
+                    ? "border-[var(--primary)] bg-[var(--primary-soft)] text-[var(--primary-dark)] font-semibold"
+                    : "border-dashed border-[var(--line)] bg-[var(--surface)] text-[var(--muted)] hover:bg-[var(--surface-2)]"
+                }`}
+              >
+                未知品牌 ({unknownBrandCount})
+              </button>
+            </div>
+          </div>
+        </aside>
+
+        {/* 主内容区 */}
+        <div className="min-w-0 flex-1 space-y-5">
+          {!isFiltering ? (
+            <div className="flex flex-col gap-6">
+              {initialSlices.map((slice) => {
+                const color = categoryTagStyle(slice.category);
+                const catInfo = categories.find((c) => c.name === slice.category);
+                return (
+                  <section
+                    key={slice.category}
+                    className="rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-5 shadow-[var(--shadow-glass)]"
+                  >
+                    <div className="flex flex-wrap items-baseline justify-between gap-2">
+                      <h3 className="m-0 flex items-center gap-2 text-lg font-bold">
+                        <span
+                          style={{ background: color.bg, color: color.text }}
+                          className="rounded-full px-2.5 py-0.5 text-xs font-semibold"
+                        >
+                          {slice.category}
+                        </span>
+                        <span className="text-[var(--text)]">
+                          共 {catInfo?.product_count ?? slice.products.length} 款
+                        </span>
+                      </h3>
+                      <a
+                        href={withBase(`/category/${encodeURIComponent(slice.category)}`)}
+                        className="text-sm text-[var(--primary)] no-underline hover:underline"
+                      >
+                        查看全部对比 →
+                      </a>
+                    </div>
+                    <div className="mt-4 flex gap-3 overflow-x-auto pb-1">
+                      {slice.products.map((p) => (
+                        <div
+                          key={p.canonical_id}
+                          className="relative w-56 flex-shrink-0 rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-4 shadow-[var(--shadow-glass)] transition hover:-translate-y-0.5 hover:shadow-md"
+                        >
+                          <label className="absolute right-3 top-3 cursor-pointer">
+                            <input
+                              type="checkbox"
+                              checked={selected.includes(p.canonical_id)}
+                              onChange={() => toggleProduct(p.canonical_id)}
+                              className="h-4 w-4"
+                              aria-label={`选择 ${productDisplayName(p)}`}
+                            />
+                          </label>
+                          <a
+                            href={withBase(`/product/${p.canonical_id}`)}
+                            className="block no-underline"
+                          >
+                            <div className="flex items-center justify-between pr-6">
+                              <span
+                                style={{ background: color.bg, color: color.text }}
+                                className="rounded-full px-2 py-0.5 text-xs font-medium"
+                              >
+                                {p.category}
+                              </span>
+                              <span className="text-xs text-[var(--muted)]">{p.first_seen || ""}</span>
+                            </div>
+                            {p.card_image_path && (
+                              <div className="mt-2 flex items-center justify-center overflow-hidden rounded-xl bg-[var(--surface-2)]" style={{ aspectRatio: "1 / 1", maxHeight: "140px" }}>
+                                <img
+                                  src={withBase(p.card_image_path)}
+                                  alt={productDisplayName(p)}
+                                  loading="lazy"
+                                  className="h-full w-full object-contain"
+                                  style={{ maxHeight: "140px" }}
+                                />
+                              </div>
+                            )}
+                            <div className="mt-2 font-semibold text-[var(--text)]">
+                              {productDisplayName(p)}
+                            </div>
+                          </a>
+                        </div>
+                      ))}
+                      {slice.products.length === 0 && (
+                        <p className="text-sm text-[var(--muted)]">该品类暂无产品数据</p>
+                      )}
+                    </div>
+                  </section>
+                );
+              })}
+            </div>
+          ) : (
+            <div className="rounded-2xl border border-[var(--line)] bg-[var(--surface)] p-5 shadow-[var(--shadow-glass)]">
+              <div className="flex flex-wrap items-center justify-between gap-2">
+                <div className="flex flex-wrap items-center gap-2">
+                  {search.trim() && (
+                    <FilterChip label={`搜索: ${search.trim()}`} onRemove={() => setSearch("")} />
+                  )}
+                  {categoryFilter && (
+                    <FilterChip
+                      label={`类型: ${categoryFilter}`}
+                      onRemove={() => setCategoryFilter("")}
+                    />
+                  )}
+                  {brandFilter && (
+                    <FilterChip
+                      label={`品牌: ${brandFilter === UNKNOWN_BRAND_KEY ? "未知品牌" : brandFilter}`}
+                      onRemove={() => setBrandFilter("")}
+                    />
+                  )}
+                </div>
+                <span className="text-sm text-[var(--muted)]">
+                  {fullIndex ? (
+                    `共匹配 ${filteredPool.length} 款`
+                  ) : loadFailed ? (
+                    <span className="text-[var(--warn)]">产品索引加载失败，请刷新重试</span>
+                  ) : (
+                    "产品索引加载中…"
+                  )}
+                </span>
+              </div>
+
+              <div className="mt-3 flex items-center gap-4 text-sm">
+                <button
+                  type="button"
+                  onClick={selectAllFiltered}
+                  disabled={!fullIndex}
+                  className="text-[var(--primary)] underline disabled:cursor-not-allowed disabled:text-[var(--muted)] disabled:no-underline"
+                >
+                  全选当前结果
+                </button>
+                <button type="button" onClick={clearSelection} className="text-[var(--muted)] underline">
+                  清空
+                </button>
+              </div>
+
+              <div className="mt-3 grid max-h-[480px] grid-cols-1 gap-2 overflow-y-auto sm:grid-cols-2 lg:grid-cols-3">
+                {!fullIndex && !loadFailed && (
+                  <p className="col-span-full text-sm text-[var(--muted)]">产品索引加载中…</p>
+                )}
+                {fullIndex && filteredPool.length === 0 && (
+                  <p className="col-span-full text-sm text-[var(--muted)]">
+                    没有找到匹配的产品，试试更换关键词或筛选条件。
+                  </p>
+                )}
+                {filteredPool.map((p) => {
+                  const color = categoryTagStyle(p.category);
+                  return (
+                    <label
+                      key={p.canonical_id}
+                      className="flex cursor-pointer items-start gap-2 rounded-lg border border-transparent bg-[var(--surface-2)] px-2 py-1.5 text-sm hover:border-[var(--line)]"
+                    >
+                      <input
+                        type="checkbox"
+                        checked={selected.includes(p.canonical_id)}
+                        onChange={() => toggleProduct(p.canonical_id)}
+                        className="mt-0.5"
+                      />
+                      <span>
+                        <span
+                          style={{ background: color.bg, color: color.text }}
+                          className="mr-1 rounded-full px-1.5 py-0.5 text-[11px] font-medium"
+                        >
+                          {p.category}
+                        </span>
+                        <span className="font-medium">{productDisplayName(p)}</span>
+                        {!p.report_count && (
+                          <span className="ml-1 text-xs text-[var(--warn)]">无报告</span>
+                        )}
+                      </span>
+                    </label>
+                  );
+                })}
+              </div>
+            </div>
           )}
         </div>
       </div>
 
-      <div className="workspace-layout">
-        <aside className="workspace-filter-card">
-          <div className="filter-section">
-            <div className="filter-heading">
-              <span>产品分类</span>
-              <button type="button" onClick={() => setCategoryFilter("")}>全部</button>
-            </div>
-            <div className="filter-list filter-list--categories">
-              {categories.map((category) => (
-                <button
-                  key={category.name}
-                  type="button"
-                  onClick={() => setCategoryFilter((current) => (current === category.name ? "" : category.name))}
-                  className={categoryFilter === category.name ? "is-active" : ""}
-                >
-                  <span>{category.name}</span><em>{category.product_count}</em>
-                </button>
-              ))}
-            </div>
-          </div>
-          <div className="filter-section">
-            <div className="filter-heading"><span>研究优先级</span></div>
-            <div className="filter-pills">
-              <button type="button" className={priorityFilter === "official_current" ? "is-active" : ""} onClick={() => setPriorityFilter((value) => (value === "official_current" ? "all" : "official_current"))}>官网在售优先</button>
-              <button type="button" className={priorityFilter === "recent_pending_check" ? "is-active" : ""} onClick={() => setPriorityFilter((value) => (value === "recent_pending_check" ? "all" : "recent_pending_check"))}>近两年待核验</button>
-            </div>
-          </div>
-          <div className="filter-section">
-            <div className="filter-heading"><span>重点品牌</span><button type="button" onClick={() => setBrandFilter("")}>重置</button></div>
-            <div className="filter-list filter-list--brands">
-              {brands.slice(0, 8).map((brand) => (
-                <button key={brand.name} type="button" onClick={() => setBrandFilter((value) => (value === brand.name ? "" : brand.name))} className={brandFilter === brand.name ? "is-active" : ""}>
-                  <span>{brand.name}</span><em>{brand.count}</em>
-                </button>
-              ))}
-            </div>
-            <button type="button" onClick={() => setBrandFilter(UNKNOWN_BRAND_KEY)} className="data-health-link">数据治理：{unknownBrandCount} 款待统一品牌</button>
-          </div>
-        </aside>
-
-        <main className="workspace-results">
-          <div className="results-heading">
-            <div>
-              <strong>{isFiltering ? `匹配到 ${filteredProducts.length} 款产品` : `优先展示 ${visibleProducts.length} 款产品`}</strong>
-              <span>{fullIndex ? `全库共 ${totalCount} 款产品` : "正在加载完整产品库…"}</span>
-            </div>
-            <span className="results-status">{loadFailed ? "索引加载失败，请刷新重试" : "按研究优先级排序"}</span>
-          </div>
-          <div className="product-card-grid">
-            {visibleProducts.map((product) => {
-              const color = categoryStyle(product.category);
-              const active = selected.includes(product.canonical_id);
-              const imageSrc = imageByProductId[product.canonical_id];
-              return (
-                <article key={product.canonical_id} className={`research-product-card ${active ? "is-selected" : ""}`}>
-                  <button type="button" onClick={() => toggleProduct(product.canonical_id)} className="selection-toggle" aria-label={`${active ? "从对比中移除" : "加入对比"} ${productDisplayName(product)}`}>{active ? "✓" : "+"}</button>
-                  <a href={withBase(`/product/${product.canonical_id}`)} className="research-product-link">
-                    <div className="product-visual" style={{ background: color.bg, color: color.text }}>
-                      {imageSrc ? <img src={imageSrc} alt={`${productDisplayName(product)} 产品图片`} loading="lazy" onError={() => setImageByProductId((current) => ({ ...current, [product.canonical_id]: null }))} /> : <span className="product-visual-fallback" aria-label={`${productFallbackLabel(product)} 暂无产品图片`}>{productFallbackLabel(product)}</span>}
-                    </div>
-                    <div className="product-copy">
-                      <div className="product-meta"><span style={{ background: color.bg, color: color.text }}>{product.category}</span><time>{product.first_seen?.slice(0, 4) || "-"}</time></div>
-                      <h3>{productDisplayName(product)}</h3>
-                      <div className="product-foot"><span className={`priority-badge ${product.research_priority || "historical_reference"}`}>{statusLabel(product)}</span><span>{product.report_count || 0} 篇报告</span></div>
-                    </div>
-                  </a>
-                </article>
-              );
-            })}
-          </div>
-          {visibleProducts.length === 0 && <div className="workspace-empty">没有符合当前筛选条件的产品。</div>}
-        </main>
-
-        <aside className="priority-panel">
-          <div className="priority-panel-head"><div><span className="priority-star">★</span><strong>重点研究队列</strong></div><span>自动排序</span></div>
-          <p>近两年新品，以及存在可追溯官网页面的产品，会优先进入此队列。</p>
-          <ol>
-            {attentionProducts.map((product, index) => (
-              <li key={product.canonical_id}>
-                <span className="priority-rank">{index + 1}</span>
-                <a href={withBase(`/product/${product.canonical_id}`)}><strong>{productDisplayName(product)}</strong><small>{statusLabel(product)} · {product.latest_published || product.first_seen || "日期待补充"}</small></a>
-              </li>
-            ))}
-          </ol>
-          <a href={withBase("/teardown-details")} className="priority-panel-link">浏览研究资料库 →</a>
-        </aside>
-      </div>
-
+      {/* 底部选中悬浮条 */}
       {selected.length > 0 && (
-        <div className="compare-tray" aria-live="polite">
-          <div className="compare-tray-summary"><strong>已选择 {selected.length} 款</strong><span>最多 {MAX_COMPARE} 款</span></div>
-          <div className="compare-tray-items">{selectedProducts.map((product) => <button key={product.canonical_id} type="button" onClick={() => toggleProduct(product.canonical_id)}>{productDisplayName(product)} <span>×</span></button>)}</div>
-          <button type="button" className="workspace-text-button" onClick={() => setSelected([])}>清空</button>
-          <a href={compareHref} className={`compare-primary ${selected.length < 2 ? "is-disabled" : ""}`} aria-disabled={selected.length < 2} onClick={(event) => { if (selected.length < 2) event.preventDefault(); }}>开始对比 <span>→</span></a>
-        </div>
+        <>
+          <div className="h-20" aria-hidden="true" />
+          <div className="fixed inset-x-0 bottom-0 z-40 border-t border-[var(--line)] bg-[var(--surface-solid)]/95 shadow-[0_-8px_28px_rgba(0,0,0,0.45)] backdrop-blur-md">
+            <div className="mx-auto flex max-w-[1400px] flex-wrap items-center gap-3 px-5 py-3">
+              <span className="text-sm font-semibold text-[var(--text)]">已选 {selected.length} 款</span>
+              <div className="flex max-h-16 max-w-[45%] flex-wrap gap-1.5 overflow-y-auto">
+                {selectedProducts.map((p) => (
+                  <button
+                    key={p.canonical_id}
+                    type="button"
+                    onClick={() => toggleProduct(p.canonical_id)}
+                    className="rounded-full bg-[var(--primary-soft)] px-2.5 py-1 text-xs text-[var(--primary-dark)] hover:bg-[var(--primary-soft-strong)]"
+                  >
+                    {productDisplayName(p)} ×
+                  </button>
+                ))}
+              </div>
+              <button
+                type="button"
+                onClick={clearSelection}
+                className="text-sm text-[var(--muted)] underline"
+              >
+                清空
+              </button>
+              <div className="ml-auto flex flex-wrap gap-2">
+                <a
+                  href={compareHref}
+                  className="rounded-full bg-[var(--primary)] px-4 py-2 text-sm font-medium text-white no-underline hover:bg-[var(--primary-strong)]"
+                >
+                  去对比 {selected.length} 款 →
+                </a>
+              </div>
+            </div>
+          </div>
+        </>
       )}
-    </section>
+    </div>
   );
 }

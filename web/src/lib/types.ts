@@ -44,13 +44,14 @@ export interface IndexProduct {
   latest_published?: string;
   cost_completeness?: number;
   bom_row_count?: number;
-  launch_date?: string;
+launch_date?: string;
   launch_display?: string;
   launch_status?: "verified" | "year_only" | "reported" | "pending" | "legacy_unresolved";
   research_priority?: "official_current" | "recent_pending_check" | "historical_reference";
   priority_rank?: number;
   official_page_status?: "found" | "not_found" | "unknown";
   official_page_url?: string;
+  card_image_path?: string;
 }
 
 export function researchPriorityRank(product: IndexProduct): number {
@@ -66,6 +67,7 @@ export function researchPriorityLabel(product: IndexProduct): string {
     default:
       return "历史参考";
   }
+}
 }
 
 export interface CompareProfiles {
