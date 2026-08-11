@@ -7,12 +7,11 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Literal
 
-from core.paths import channel_enrich_dir, reports_dir, videos_dir
+from core.paths import channel_enrich_dir, price_enrich_dir, reports_dir, video_enrich_dir, videos_dir
 
 DATA_DIR = Path(__file__).resolve().parent.parent / "data"
 REPORTS_DIR = reports_dir()
 VIDEOS_DIR = videos_dir()
-ENRICH_DIR = DATA_DIR / "enrich"
 CHANNEL_ENRICH_DIR = channel_enrich_dir()
 INDEX_PATH = DATA_DIR / "index.json"
 
@@ -89,7 +88,7 @@ def load_all_records(kind: Literal["report", "video"]) -> list[dict]:
 
 
 def load_price_enrich(item_id: str) -> dict | None:
-    path = ENRICH_DIR / "prices" / f"{item_id}.json"
+    path = price_enrich_dir() / f"{item_id}.json"
     if not path.exists():
         return None
     try:
@@ -99,7 +98,7 @@ def load_price_enrich(item_id: str) -> dict | None:
 
 
 def load_video_asr(item_id: str) -> dict | None:
-    path = ENRICH_DIR / "videos" / f"{item_id}.asr.json"
+    path = video_enrich_dir() / f"{item_id}.asr.json"
     if not path.exists():
         return None
     try:

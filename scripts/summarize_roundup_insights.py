@@ -27,7 +27,8 @@ from core.ingest import load_all_records  # noqa: E402
 
 API_URL = "https://api.deepseek.com/chat/completions"
 MODEL = "deepseek-v4-flash"
-CACHE_DIR = ROOT / "data" / "enrich" / "roundup_summaries"
+CACHE_DIR = ROOT / "data" / "staging" / "roundup_summaries"
+LEGACY_CACHE_DIR = ROOT / "data" / "enrich" / "roundup_summaries"
 # 汇总文的正文与图注都应进入模型上下文；上限仅防异常页面无限膨胀。
 MAX_ARTICLE_CHARS = 80_000
 MAX_IMAGES = 40
@@ -208,7 +209,8 @@ def main() -> None:
                 raise ValueError("original article had no extractable text")
             source_hash = fingerprint(record, text, images)
             cache_path = CACHE_DIR / f"{report_id}.json"
-            cached = _read_cache(cache_path)
+            legacy_cache_path = LEGACY_CACHE_DIR / cache_path.name
+            cached = _read_cache(cache_path if cache_path.exists() else legacy_cache_path)
             if cached.get("source_hash") == source_hash and cached.get("overview"):
                 cache_hits += 1
                 continue

@@ -1,404 +1,0 @@
-{
-  "canonical_id": "monster--clarity-8-0-anc",
-  "brand": "MONSTER魔声",
-  "model": "CLARITY 8.0 ANC",
-  "category": "真无线耳机TWS",
-  "report_ids": [
-    "103565"
-  ],
-  "video_ids": [],
-  "related_report_ids": [
-    "103565"
-  ],
-  "related_video_ids": [],
-  "first_seen": "2022-01-20",
-  "latest_published": "2022-01-20",
-  "internal_match_suggestions": [],
-  "cost_snapshot": {
-    "main_chip": "SY8815",
-    "pmic_case": "",
-    "battery_ear": "470 mAh",
-    "battery_case": "电池",
-    "speaker": "喇叭单元",
-    "materials": "塑料、PC",
-    "weight_g": "",
-    "weight_case_g": "",
-    "weight_earbud_g": "",
-    "ip_rating": "IPX5",
-    "bluetooth": "5.2",
-    "bom_row_count": 10,
-    "price_cny": null,
-    "price_currency": "CNY",
-    "price_kind": "",
-    "price_layer": null,
-    "price_source_label": "",
-    "price_source_url": "",
-    "price_evidence": "",
-    "channel_url": null,
-    "sales_hint": null,
-    "data_completeness": 0.83,
-    "best_report_id": "103565",
-    "best_video_id": null
-  },
-  "bom_table": [
-    {
-      "component": "充电仓",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "充电仓",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "撬开卡扣式固定的充电盒座舱，腔体内电源输入小板通过导线连接到主板，底部设置有电池，并贴有无线充电接收线圈。"
-      }
-    },
-    {
-      "component": "电池",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "电池",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "撬开卡扣式固定的充电盒座舱，腔体内电源输入小板通过导线连接到主板，底部设置有电池，并贴有无线充电接收线圈。"
-      }
-    },
-    {
-      "component": "降噪系统",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "降噪系统",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "其他功能上，WQ7033A\n支持FF+FB混合式ANC主动降噪功能和通透模式；支持多Mic混合降噪，AI NN网络智能通话降噪，可以实现复杂环境下高清晰度通话体验；支持VAD语音唤醒；还具有丰富的接口，集成充电管理系统等。"
-      }
-    },
-    {
-      "component": "主板/PCBA",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
-      "role": "major",
-      "evidence": {
-        "value": "主板/PCBA",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "撬开卡扣式固定的充电盒座舱，腔体内电源输入小板通过导线连接到主板，底部设置有电池，并贴有无线充电接收线圈。"
-      }
-    },
-    {
-      "component": "麦克风",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "麦克风",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "镭雕IA02I 2118的MEMS前馈降噪麦克风，用于降噪功能拾取外部环境噪音。"
-      }
-    },
-    {
-      "component": "喇叭单元",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "喇叭单元",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "魔声CLARITY 8.0 ANC真无线耳机是其旗下一款主打主动降噪的产品，支持自适应混合主动降噪功能和通透模式，支持神经网络AI通话降噪；内置10mm精品钛膜+PU复合振膜，支持蓝牙5.2，拥有纯正魔声音效；支持Qi标准无线充电，支持快速充电，耳机单次续航时间可达10小时，综合续航时间达到了超长的40小时。下面就让我们一起来详细了解一下这款产品的外观设计及内部结构配置吧~"
-      }
-    },
-    {
-      "component": "天线",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "天线",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机柄盖板内侧贴有FPC蓝牙天线和触摸检测贴片。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电方式：另外一侧图文展示了多项功能特点：触控操作、10+40小时综合续航、AI通话、蓝牙5.2、无线充电。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "SY8815",
-      "qty_hint": "1",
-      "side": "耳机",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "SY8815",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "充电方式：有线采用Type-C接口，由思远 SY8815蓝牙耳机充电仓解决方案为内置电池充电，以及\n升压\n为耳机充电；无线\n充电\n采用了美芯晟 MT5705 无线充电接收芯片，支持Qi协议，最高可提供5W输出功率；还采用了思远SY5320过压过流保护IC，以及一颗无标的单片机。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "SY8815",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "SY8815",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "电池容量：470\n芯片 SY8815\n芯片 SY5320"
-      }
-    }
-  ],
-  "summary_image_urls": [],
-  "summary_text": "",
-  "layer_refs": {
-    "technical": [
-      "report:103565"
-    ],
-    "channel": [],
-    "official": [],
-    "unboxing": [
-      "unboxing:103565"
-    ],
-    "review": []
-  },
-  "unboxing": {
-    "report_id": "103565",
-    "packaging": {
-      "description": "MONSTERé­å£°æ¯ä¸å®¶æç«äº1979å¹´ï¼è´åäºå¼åè®¾è®¡åé æ§äº§åä»¥æåé³ä¹é³è´¨çå¬å¸ï¼é­å£°å¬å¸ç åäºèåçBeats by Dr. Dreè³æºé³æï¼å¹¶æä¸ºå¨çé¢åçé«æ§è½ãé«é³è´¨è³æºå¶é åãå¨âBeatsâåçä¹åï¼åè´åäºç åæ´å¤âé­å£°âåçè³æºï¼æé æ´å®ç¾çé³ä¹å£°æäº§åã",
-      "accessories": [],
-      "appearance_images": [
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/01/U6ZiL215U4wArTpB.jpgthumbnail.jpg",
-          "alt": "æè§£æ¥åï¼MONSTERé­å£°CLARITY 8.0 ANCçæ çº¿è³æº-æç±é³é¢ç½",
-          "caption": "é­å£°CLARITY 8.0 ANCçæ çº¿è³æºæ¯å¶æä¸ä¸æ¬¾ä¸»æä¸»å¨éåªçäº§åï¼æ¯æèªéåºæ··åä¸»å¨éåªåè½åééæ¨¡å¼ï¼æ¯æç¥ç»ç½ç»AIéè¯éåªï¼åç½®10mmç²¾åéè+PUå¤åæ¯èï¼æ¯æèç5.2ï¼æ¥æçº¯æ­£é­å£°é³æï¼æ¯æQiæ åæ çº¿åçµï¼æ¯æå¿«éåçµï¼è³æºåæ¬¡ç»­èªæ¶é´å¯è¾¾10å°æ¶ï¼ç»¼åç»­èªæ¶é´è¾¾å°äºè¶é¿ç40å°æ¶ãä¸é¢å°±è®©æä»¬ä¸èµ·æ¥è¯¦ç»äºè§£ä¸ä¸è¿æ¬¾äº§åçå¤è§è®¾è®¡ååé¨ç»æéç½®å§~",
-          "module": "packaging",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/01/sGR39U23d7ZFgrCy.jpgthumbnail.jpg",
-          "alt": "æè§£æ¥åï¼MONSTERé­å£°CLARITY 8.0 ANCçæ çº¿è³æº-æç±é³é¢ç½",
-          "caption": "åè£çéç¨äºé»è²èæ¯ï¼æ­£é¢å±ç¤ºäºè³æºçå¤è§æ¸²æå¾ï¼ä»¥åâMONSTERâåçåç§°ï¼âCLARITY 8.0 ANCâäº§ååç§°ï¼è¿æé²ä¼ªæ ç­¾ç­ã",
-          "module": "packaging",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/01/m9ycOrirGOGmEkFc.jpgthumbnail.jpg",
-          "alt": "æè§£æ¥åï¼MONSTERé­å£°CLARITY 8.0 ANCçæ çº¿è³æº-æç±é³é¢ç½",
-          "caption": "åè£çèé¢è¯¦ç»ä»ç»äºäº§åçé¨ååè½äº®ç¹ï¼åçµ10åéæ­æ¾180åéï¼æ°å­ææºéåªã50å°æ¶ç»¼åç»­èªãèç5.2ç¨³å®è¿æ¥ï¼IPX5çº§é²æ°´ã",
-          "module": "packaging",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/01/K84Bt2MxDkQ8Vd9m.jpgthumbnail.jpg",
-          "alt": "æè§£æ¥åï¼MONSTERé­å£°CLARITY 8.0 ANCçæ çº¿è³æº-æç±é³é¢ç½",
-          "caption": "åè£çä¸ä¾§ä»ç»äºçº¯æ­£é­å£°é³æï¼è®¾è®¡ææç¾å£ï¼Noel Leeï¼ç­¾åï¼ä»¥å3å¯è³å¡ãUSB-Cåçµçº¿åèçæ å¿ç­ã",
-          "module": "packaging",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/01/zF1iGSBw5Kmigg5n.jpgthumbnail.jpg",
-          "alt": "æè§£æ¥åï¼MONSTERé­å£°CLARITY 8.0 ANCçæ çº¿è³æº-æç±é³é¢ç½",
-          "caption": "å¦å¤ä¸ä¾§å¾æå±ç¤ºäºå¤é¡¹åè½ç¹ç¹ï¼è§¦æ§æä½ã10+40å°æ¶ç»¼åç»­èªãAIéè¯ãèç5.2ãæ çº¿åçµã",
-          "module": "packaging",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/01/IipBO2y6C1QCYt5j.jpgthumbnail.jpg",
-          "alt": "æè§£æ¥åï¼MONSTERé­å£°CLARITY 8.0 ANCçæ çº¿è³æº-æç±é³é¢ç½",
-          "caption": "åè£çåç©åæè³æºãæ¶çº³è¢ãåçµçº¿ãè³å¡åäº§åè¯´æä¹¦ãäº§åå®å¨æ³¨æäºé¡¹ã",
-          "module": "packaging",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/01/dPL0Ff8WnHCPWFU4.jpgthumbnail.jpg",
-          "alt": "æè§£æ¥åï¼MONSTERé­å£°CLARITY 8.0 ANCçæ çº¿è³æº-æç±é³é¢ç½",
-          "caption": "ä¸¤å¯ä¸åå°ºå¯¸çç¡è¶è³å¡ï¼è³æºä¸é¢è£æä¸å¯ï¼æ»å±ä¸ç§è§æ ¼ã",
-          "module": "packaging",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/01/ejpWrh655sRhE1gO.jpgthumbnail.jpg",
-          "alt": "æè§£æ¥åï¼MONSTERé­å£°CLARITY 8.0 ANCçæ çº¿è³æº-æç±é³é¢ç½",
-          "caption": "é­å£°CLARITY 8.0 ANCçæ çº¿è³æºåçµçéç¨äºç±»æ¤­åå½¢è®¾è®¡ï¼æ´ä½è´¨æè¡¨ç°éå¸¸ä¼è¶ãæºèº«è§¦ææ¸©æ¶¦å¦çï¼æ­¤æ¬¾æåèéè²åæ»æ¶å±ä¸æ¹è®¾è®¡æç±»ä¼¼âéªç²âçäº®æ¶æ¶æ£ç¹ï¼åç°äºæ·±å¤æç©ºçç¥ç§æã",
-          "module": "packaging",
-          "phase": "intro"
-        }
-      ],
-      "image_count": 75,
-      "teardown_image_count": 0
-    },
-    "charging_case": {
-      "description": "",
-      "accessories": [],
-      "appearance_images": [
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/01/bGc4Vvm3aRqL9IwG.jpgthumbnail.jpg",
-          "alt": "æè§£æ¥åï¼MONSTERé­å£°CLARITY 8.0 ANCçæ çº¿è³æº-æç±é³é¢ç½",
-          "caption": "USB-A to USB Type-Cåçµçº¿ï¼æ¥å£è®¾ç½®æéæå¡æå¥é²æ¤ã",
-          "module": "charging_case",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/01/WGUFdp4yZkq4FryE.jpgthumbnail.jpg",
-          "alt": "æè§£æ¥åï¼MONSTERé­å£°CLARITY 8.0 ANCçæ çº¿è³æº-æç±é³é¢ç½",
-          "caption": "åçµçèé¢è®¾ç½®æType-Cåçµæ¥å£ã",
-          "module": "charging_case",
-          "phase": "intro"
-        },
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/01/O2i7dMDbD4AEJBOK.jpgthumbnail.jpg",
-          "alt": "æè§£æ¥åï¼MONSTERé­å£°CLARITY 8.0 ANCçæ çº¿è³æº-æç±é³é¢ç½",
-          "caption": "Type-Cçµæºè¾å¥æ¥å£æ¯åº§ç¹åã",
-          "module": "charging_case",
-          "phase": "intro"
-        }
-      ],
-      "image_count": 3,
-      "teardown_image_count": 0
-    },
-    "earbuds": {
-      "description": "",
-      "accessories": [],
-      "appearance_images": [
-        {
-          "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/01/S2xpow75obPxU3Fp.jpgthumbnail.jpg",
-          "alt": "æè§£æ¥åï¼MONSTERé­å£°CLARITY 8.0 ANCçæ çº¿è³æº-æç±é³é¢ç½",
-          "caption": "æºèº«åä¾§éå»æL/Rå·¦å³æ è¯ï¼ä¾¿äºç¨æ·å¿«æ·åºåã",
-          "module": "earbuds",
-          "phase": "intro"
-        }
-      ],
-      "image_count": 1,
-      "teardown_image_count": 0
-    },
-    "gaps": [
-      "包装配件清单：未能从「包括…等」句式解析出零件列表"
-    ],
-    "completeness": 1.0
-  },
-  "market": {
-    "selling_points": [
-      {
-        "text": "MONSTER魔声是一家成立于1979年，致力于开发设计创造性产品以提升音乐音质的公司，魔声公司研发了著名的B […]\n其他功能上，WQ7033A\n支持FF+FB混合式ANC主动降噪功能和通透模式；支持多Mic混合降噪，AI NN网络智能通话降噪，可以实现复杂环境下高清晰度通话体验；支持VAD语音唤醒；还具有丰富的接口，集成充电管理系统等。",
-        "tag": "降噪",
-        "evidence": {
-          "value": "MONSTER魔声是一家成立于1979年，致力于开发设计创造性产品以提升音乐音质的公司，魔声公司研发了著名的B […]\n其他功能上，WQ7033A\n支持FF+FB混合式ANC主动降噪功能和通透模式；支持多Mic混合降噪，AI NN网络智能通话降噪，可以实现复杂环境下高清晰度通话体验；支持VAD语音唤醒；还具有丰富的接口，集成充电管理系统等。",
-          "confidence": 0.72,
-          "source_type": "text",
-          "source_text": "MONSTER魔声是一家成立于1979年，致力于开发设计创造性产品以提升音乐音质的公司，魔声公司研发了著名的B […]\n其他功能上，WQ7033A\n支持FF+FB混合式ANC主动降噪功能和通透模式；支持多Mic混合降噪，AI NN网络智能通话降噪，可以实现复杂环境下高清晰度通话体验；支持VAD语音唤醒；还具有丰富的接口，集成充电管理系统等。"
-        }
-      },
-      {
-        "text": "MONSTER魔声\n是一家成立于1979年，致力于开发设计创造性产品以提升音乐音质的公司，魔声公司研发了著名的Beats by Dr. Dre耳机音效，并成为全球领先的高性能、高音质耳机制造商。",
-        "tag": "其他",
-        "evidence": {
-          "value": "MONSTER魔声\n是一家成立于1979年，致力于开发设计创造性产品以提升音乐音质的公司，魔声公司研发了著名的Beats by Dr. Dre耳机音效，并成为全球领先的高性能、高音质耳机制造商。",
-          "confidence": 0.75,
-          "source_type": "text",
-          "source_text": "MONSTER魔声\n是一家成立于1979年，致力于开发设计创造性产品以提升音乐音质的公司，魔声公司研发了著名的Beats by Dr. Dre耳机音效，并成为全球领先的高性能、高音质耳机制造商。"
-        }
-      },
-      {
-        "text": "镭雕IA02I 2118的MEMS前馈降噪麦克风，用于降噪功能拾取外部环境噪音。",
-        "tag": "降噪",
-        "evidence": {
-          "value": "镭雕IA02I 2118的MEMS前馈降噪麦克风，用于降噪功能拾取外部环境噪音。",
-          "confidence": 0.73,
-          "source_type": "text",
-          "source_text": "镭雕IA02I 2118的MEMS前馈降噪麦克风，用于降噪功能拾取外部环境噪音。"
-        }
-      },
-      {
-        "text": "MT5705的高效率保证了其很低的温升发热，同时很宽的FOD设定范围使其很容易通过WPC的BPP认证。",
-        "tag": "其他",
-        "evidence": {
-          "value": "MT5705的高效率保证了其很低的温升发热，同时很宽的FOD设定范围使其很容易通过WPC的BPP认证。",
-          "confidence": 0.71,
-          "source_type": "text",
-          "source_text": "MT5705的高效率保证了其很低的温升发热，同时很宽的FOD设定范围使其很容易通过WPC的BPP认证。"
-        }
-      },
-      {
-        "text": "标记/认证：充电盒盖内侧丝印信息有型号：MH22002，输入：5V-0.5A，FCC ID：2AVD2-\nMH22002 MH2200221B0100273，设计于加利福尼亚，中国制造。",
-        "tag": "其他",
-        "evidence": {
-          "value": "标记/认证：充电盒盖内侧丝印信息有型号：MH22002，输入：5V-0.5A，FCC ID：2AVD2-\nMH22002 MH2200221B0100273，设计于加利福尼亚，中国制造。",
-          "confidence": 0.71,
-          "source_type": "text",
-          "source_text": "标记/认证：充电盒盖内侧丝印信息有型号：MH22002，输入：5V-0.5A，FCC ID：2AVD2-\nMH22002 MH2200221B0100273，设计于加利福尼亚，中国制造。"
-        }
-      }
-    ],
-    "scenarios": [
-      "通话"
-    ],
-    "positioning_summary": "MONSTER魔声是一家成立于1979年，致力于开发设计创造性产品以提升音乐音质的公司，魔声公司研发了著名的B […]\n其他功能上，WQ7033A\n支持FF+FB混合式ANC主动降噪功能和通透模式；支持多Mic混合降噪，AI NN网络智能通话降噪，可以实现复杂环境下高清晰度通话体验；支持VAD语音唤醒；还具有丰富的接口，集成充电管理系统等。",
-    "launch_date": null,
-    "best_report_id": "103565",
-    "best_video_id": null,
-    "selling_points_summary": [
-      {
-        "tag": "降噪",
-        "text": "支持FF+FB混合式ANC主动降噪和通透模式"
-      },
-      {
-        "tag": "通话降噪",
-        "text": "多Mic混合降噪，AI NN网络智能通话降噪"
-      },
-      {
-        "tag": "语音唤醒",
-        "text": "支持VAD语音唤醒功能"
-      },
-      {
-        "tag": "充电管理",
-        "text": "集成充电管理系统，接口丰富"
-      },
-      {
-        "tag": "品牌背景",
-        "text": "魔声成立于1979年，研发Beats by Dr. Dre音效"
-      },
-      {
-        "tag": "认证信息",
-        "text": "充电盒型号MH22002，输入5V-0.5A，FCC认证"
-      }
-    ],
-    "selling_points_summary_meta": {
-      "model": "deepseek-v4-flash",
-      "source_hash": "c9d5f7181a3c0cc6efdaa90b64de213211f7dc6ed0e74cb2b237e45b20299ab2"
-    }
-  }
-}

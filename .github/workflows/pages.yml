@@ -1,0 +1,78 @@
+name: Build and deploy Pages
+
+on:
+  push:
+    branches: [main, master, product-browser-onto-remote]
+  workflow_dispatch:
+  workflow_run:
+    workflows: [Update research data]
+    types: [completed]
+
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+
+concurrency:
+  group: pages
+  cancel-in-progress: false
+
+jobs:
+  build:
+    if: github.event_name != 'workflow_run' || github.event.workflow_run.conclusion == 'success'
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+        with:
+          ref: ${{ github.event_name == 'workflow_run' && github.event.repository.default_branch || github.ref }}
+
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+          cache: pip
+          cache-dependency-path: requirements.txt
+
+      - uses: actions/setup-node@v6
+        with:
+          node-version: "24"
+          cache: npm
+          cache-dependency-path: web/package-lock.json
+
+      - name: Install dependencies
+        run: |
+          pip install -r requirements.txt
+          cd web
+          npm ci
+
+      - name: Restore optimized image cache
+        uses: actions/cache@v5
+        with:
+          path: web/public/images
+          key: ${{ runner.os }}-web-images-${{ hashFiles('data/curated/products/**', 'data/staging/roundup_summaries/**') }}
+          restore-keys: |
+            ${{ runner.os }}-web-images-
+
+      - name: Build static site from canonical data
+        run: python scripts/pipeline.py site
+
+      - name: Pack Pages artifact
+        run: tar --dereference --hard-dereference --directory site -cf "${RUNNER_TEMP}/artifact.tar" .
+
+      - name: Upload Pages artifact
+        uses: actions/upload-artifact@v6
+        with:
+          name: github-pages
+          path: ${{ runner.temp }}/artifact.tar
+          retention-days: 1
+          if-no-files-found: error
+
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Deploy GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

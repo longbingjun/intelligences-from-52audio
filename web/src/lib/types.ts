@@ -2,8 +2,6 @@ export interface CompareCell {
   value: string;
   evidence: string;
   source_layer: string;
-  /** 售价等可外链字段的可追溯来源；缺失时保留原有证据抽屉。 */
-  source_url?: string;
 }
 
 export interface CompareProduct {

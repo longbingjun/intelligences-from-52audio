@@ -27,8 +27,6 @@ export interface BomRowItem {
 
 export interface ProductExtras {
   sellingPoints: SellingPointItem[];
-  sellingPointsSummary: SellingPointItem[];
-  scenarios: string[];
   bomTable: BomRowItem[];
 }
 
@@ -48,14 +46,9 @@ function fetchExtras(canonicalId: string): Promise<ProductExtras> {
       if (!res.ok) throw new Error(`fetch product ${canonicalId} failed: ${res.status}`);
       return res.json();
     })
-    .then((data: {
-      market?: { selling_points?: SellingPointItem[]; selling_points_summary?: SellingPointItem[]; scenarios?: string[] };
-      bom_table?: BomRowItem[];
-    }) => {
+    .then((data: { market?: { selling_points?: SellingPointItem[] }; bom_table?: BomRowItem[] }) => {
       const extras: ProductExtras = {
         sellingPoints: (data.market?.selling_points || []).filter((sp) => (sp.text || "").trim()),
-        sellingPointsSummary: (data.market?.selling_points_summary || []).filter((sp) => (sp.text || "").trim()),
-        scenarios: (data.market?.scenarios || []).filter(Boolean),
         bomTable: data.bom_table || [],
       };
       extrasCache.set(canonicalId, extras);
@@ -122,20 +115,6 @@ export function truncateText(text: string | undefined, max = 44): string {
   const t = (text || "").trim();
   if (t.length <= max) return t;
   return `${t.slice(0, max).trimEnd()}…`;
-}
-
-/**
- * 对比页不直接堆放采集原文：保留一条卖点中最有信息量的首句，并去掉来源性套话。
- * 这是稳定、可复现的规则摘要；后续如接入离线模型，可在构建阶段替换这一层。
- */
-export function conciseSellingPoint(text: string | undefined, max = 72): string {
-  const normalized = (text || "")
-    .replace(/\s+/g, " ")
-    .replace(/^(?:在|从)?(?:外观|音频体验|续航方面|功能方面)[，,:：]?/, "")
-    .replace(/(?:下面就来看看|我爱音频网此前).*$/, "")
-    .trim();
-  const firstSentence = normalized.split(/[。！？]/)[0]?.trim() || normalized;
-  return truncateText(firstSentence, max);
 }
 
 export interface BomHighlightItem {

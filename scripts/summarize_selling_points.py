@@ -23,7 +23,8 @@ API_URL = "https://api.deepseek.com/chat/completions"
 MODEL = "deepseek-v4-flash"
 # 产品主数据会在 build_products 中重建，不能把增量判断只存在产品 JSON 内。
 # 独立缓存会随 data/ 一起提交，因此每日 workflow 与本地构建都能复用。
-CACHE_DIR = ROOT / "data" / "enrich" / "llm_summaries"
+CACHE_DIR = ROOT / "data" / "staging" / "llm_summaries"
+LEGACY_CACHE_DIR = ROOT / "data" / "enrich" / "llm_summaries"
 SYSTEM_PROMPT = """你是消费电子产品研究编辑。根据提供的中文卖点原文，生成不超过 6 条结构化摘要。
 只可使用原文明确支持的事实，不能补充规格、结论或营销判断。合并重复点；每条 18-48 个中文字符，清晰具体。
 必须只返回 JSON 对象，格式：{\"summary\":[{\"tag\":\"分类标签\",\"text\":\"精炼卖点\"}]}。"""
@@ -92,10 +93,12 @@ def main() -> None:
             continue
         fingerprint = source_hash(points)
         cache_path = CACHE_DIR / f"{product['canonical_id']}.json"
+        legacy_cache_path = LEGACY_CACHE_DIR / cache_path.name
+        read_cache_path = cache_path if cache_path.exists() else legacy_cache_path
         cached: dict = {}
-        if cache_path.exists():
+        if read_cache_path.exists():
             try:
-                cached = json.loads(cache_path.read_text(encoding="utf-8"))
+                cached = json.loads(read_cache_path.read_text(encoding="utf-8"))
             except json.JSONDecodeError:
                 cached = {}
 

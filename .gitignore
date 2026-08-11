@@ -12,10 +12,30 @@ Thumbs.db
 # the repo (see .github/workflows/update-and-deploy.yml).
 site/
 
+# Generated web payload. Recreated by scripts/prepare_web_data.py in CI.
+# Images are committed to Git (WebP compressed) for local dev convenience.
+web/public/data/
+
+# Legacy derived-data mirrors. Canonical data now lives in data/staging and
+# data/curated; these folders remain locally readable only during migration.
+data/products/
+data/enrich/
+data/compare/
+data/matrix/
+
+# Local research scratch space is never a deployable artifact.
+scratch_price_research/
+
 # Browser cookies exported for yt-dlp (contains login session, never commit)
 data/cookies.txt
 cookies.txt
 data/cookies_jd.txt
+
+# Chrome browser profile for JD scraping (never commit)
+data/jd_browser_profile/
+
+# Chrome browser profile for JD scraping (never commit)
+data/jd_browser_profile/
 
 # API secrets
 .env

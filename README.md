@@ -60,7 +60,7 @@ py -3 scripts/enrich_video.py --retry-empty --delay 60 --delay-jitter 30
 # 4. 更新 yt-dlp
 py -3 -m pip install -U yt-dlp
 
-# 5. 手动：本地下载音频后用 faster-whisper 转写，写入 data/enrich/videos/{id}.asr.json
+# 5. 手动：本地下载音频后用 faster-whisper 转写，写入 data/staging/videos/{id}.asr.json
 
 # 6. 兜底：同产品 ID 的 52audio 拆解报告文字常覆盖视频要点，可用 report 信源补全 views
 py -3 scripts/reprocess_views.py --videos-only
@@ -98,7 +98,7 @@ data/
 ## 售价 / 渠道价补录
 
 ```powershell
-py -3 scripts/import_prices.py data/enrich/channel/example.csv
+py -3 scripts/import_prices.py data/staging/channel/example.csv
 py -3 scripts/build_products.py
 py -3 scripts/build_matrix.py
 ```

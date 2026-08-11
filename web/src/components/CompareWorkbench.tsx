@@ -397,12 +397,7 @@ export default function CompareWorkbench({
                       {meta.label}
                     </td>
                     {selectedProducts.map((p) => {
-                      const cell = p.cells[param] || {
-                        value: "",
-                        evidence: "",
-                        source_layer: "",
-                        source_url: "",
-                      };
+                      const cell = p.cells[param] || { value: "", evidence: "", source_layer: "" };
                       const missing = emptyHint(cell.value);
                       return (
                         <td
@@ -413,19 +408,6 @@ export default function CompareWorkbench({
                             <span className="rounded-full bg-[var(--warn-soft)] px-2 py-0.5 text-xs text-[var(--warn)]">
                               待补充
                             </span>
-                          ) : (param === "price_cny" || param === "launch_date") && cell.source_url ? (
-                            <a
-                              href={cell.source_url}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              title={param === "launch_date" ? "打开上市时间来源（新标签页）" : "打开价格信息来源（新标签页）"}
-                              className="group inline-flex flex-wrap items-center gap-x-1 font-medium text-[var(--primary)] no-underline hover:underline"
-                            >
-                              <span>{cell.value}</span>
-                              <span className="text-xs text-[var(--muted)] group-hover:text-[var(--primary)]">
-                                查看来源 ↗
-                              </span>
-                            </a>
                           ) : (
                             <button
                               type="button"

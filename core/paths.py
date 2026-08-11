@@ -57,7 +57,6 @@ def channel_enrich_dir(*, for_write: bool = False) -> Path:
     primary = STAGING / "channel"
     if for_write:
         primary.mkdir(parents=True, exist_ok=True)
-        (LEGACY_ENRICH / "channel").mkdir(parents=True, exist_ok=True)
         return primary
     if primary.exists() and any(primary.glob("*.json")):
         return primary
@@ -68,7 +67,6 @@ def official_enrich_dir(*, for_write: bool = False) -> Path:
     primary = STAGING / "official"
     if for_write:
         primary.mkdir(parents=True, exist_ok=True)
-        (LEGACY_ENRICH / "official").mkdir(parents=True, exist_ok=True)
         return primary
     if primary.exists() and any(primary.glob("*.json")):
         return primary
@@ -80,7 +78,6 @@ def unboxing_enrich_dir(*, for_write: bool = False) -> Path:
     legacy = LEGACY_ENRICH / "unboxing"
     if for_write:
         primary.mkdir(parents=True, exist_ok=True)
-        legacy.mkdir(parents=True, exist_ok=True)
         return primary
     if primary.exists() and any(primary.glob("*.json")):
         return primary
@@ -93,11 +90,34 @@ def launch_enrich_dir(*, for_write: bool = False) -> Path:
     legacy = LEGACY_ENRICH / "launch"
     if for_write:
         primary.mkdir(parents=True, exist_ok=True)
-        legacy.mkdir(parents=True, exist_ok=True)
         return primary
     if primary.exists() and any(primary.glob("*.json")):
         return primary
     return legacy
+
+
+def staging_enrich_dir(name: str, *, for_write: bool = False) -> Path:
+    """Return a named staging area with a read-only legacy fallback."""
+    primary = STAGING / name
+    legacy = LEGACY_ENRICH / name
+    if for_write:
+        primary.mkdir(parents=True, exist_ok=True)
+        return primary
+    if primary.exists() and any(primary.iterdir()):
+        return primary
+    return legacy
+
+
+def video_enrich_dir(*, for_write: bool = False) -> Path:
+    return staging_enrich_dir("videos", for_write=for_write)
+
+
+def ocr_enrich_dir(*, for_write: bool = False) -> Path:
+    return staging_enrich_dir("ocr", for_write=for_write)
+
+
+def price_enrich_dir(*, for_write: bool = False) -> Path:
+    return staging_enrich_dir("prices", for_write=for_write)
 
 
 def commerce_hints_path() -> Path:
@@ -112,7 +132,6 @@ def products_dir(*, for_write: bool = False) -> Path:
     primary = CURATED / "products"
     if for_write:
         primary.mkdir(parents=True, exist_ok=True)
-        LEGACY_PRODUCTS.mkdir(parents=True, exist_ok=True)
         return primary
     if primary.exists() and (primary / "index.json").exists():
         return primary
@@ -123,65 +142,62 @@ def products_index_path(*, for_write: bool = False) -> Path:
     return products_dir(for_write=for_write) / "index.json"
 
 
-def compare_dir() -> Path:
+def compare_dir(*, for_write: bool = False) -> Path:
     staged = CURATED / "compare"
+    if for_write:
+        staged.mkdir(parents=True, exist_ok=True)
+        return staged
     if staged.exists() and any(staged.glob("*.json")):
         return staged
     return LEGACY_COMPARE
 
 
-def matrix_dir() -> Path:
+def matrix_dir(*, for_write: bool = False) -> Path:
     staged = CURATED / "matrix"
+    if for_write:
+        staged.mkdir(parents=True, exist_ok=True)
+        return staged
     if staged.exists() and any(staged.glob("*.json")):
         return staged
     return LEGACY_MATRIX
 
 
-def write_json_dual(primary: Path, mirror: Path, payload: dict) -> None:
-    """写入主路径并镜像到遗留路径（迁移期）。"""
+def write_json(primary: Path, payload: dict) -> None:
+    """只写入规范化 ETL 路径；遗留路径仅在迁移期作为读取兜底。"""
     text = json.dumps(payload, ensure_ascii=False, indent=2)
     primary.parent.mkdir(parents=True, exist_ok=True)
     primary.write_text(text, encoding="utf-8")
-    if mirror != primary:
-        mirror.parent.mkdir(parents=True, exist_ok=True)
-        mirror.write_text(text, encoding="utf-8")
 
 
 def write_product_json(canonical_id: str, product: dict) -> None:
-    """写出 curated + legacy 双份产品 JSON。"""
+    """写出 curated 产品 JSON。"""
     primary = products_dir(for_write=True) / f"{canonical_id}.json"
-    mirror = LEGACY_PRODUCTS / f"{canonical_id}.json"
-    write_json_dual(primary, mirror, product)
+    write_json(primary, product)
 
 
 def write_products_index(index: dict) -> None:
     primary = products_index_path(for_write=True)
-    mirror = LEGACY_PRODUCTS / "index.json"
-    write_json_dual(primary, mirror, index)
+    write_json(primary, index)
 
 
 def write_channel_enrich(canonical_id: str, payload: dict) -> None:
     primary = channel_enrich_dir(for_write=True) / f"{canonical_id}.json"
-    mirror = LEGACY_ENRICH / "channel" / f"{canonical_id}.json"
-    write_json_dual(primary, mirror, payload)
+    write_json(primary, payload)
 
 
 def write_official_enrich(canonical_id: str, payload: dict) -> None:
     primary = official_enrich_dir(for_write=True) / f"{canonical_id}.json"
-    mirror = LEGACY_ENRICH / "official" / f"{canonical_id}.json"
-    write_json_dual(primary, mirror, payload)
+    write_json(primary, payload)
 
 
 def write_unboxing_enrich(report_id: str, payload: dict) -> None:
     primary = unboxing_enrich_dir(for_write=True) / f"{report_id}.json"
-    mirror = LEGACY_ENRICH / "unboxing" / f"{report_id}.json"
-    write_json_dual(primary, mirror, payload)
+    write_json(primary, payload)
 
 
 def write_launch_enrich(canonical_id: str, payload: dict) -> None:
     primary = launch_enrich_dir(for_write=True) / f"{canonical_id}.json"
-    mirror = LEGACY_ENRICH / "launch" / f"{canonical_id}.json"
-    write_json_dual(primary, mirror, payload)
+    write_json(primary, payload)
 
 
 def last_step_stats(step: str) -> dict | None:

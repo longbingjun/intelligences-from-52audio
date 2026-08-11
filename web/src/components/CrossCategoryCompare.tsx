@@ -15,7 +15,7 @@ import {
 } from "../lib/types";
 import { withBase } from "../lib/paths";
 import { useProductExtras } from "../lib/productExtras";
-import { ScenariosCell, SellingPointTagsCell, SellingPointsCell } from "./CompareExtrasCells";
+import { BomHighlightsCell, SellingPointsCell } from "./CompareExtrasCells";
 
 /** 记录“上一个对比视图”的完整地址，供产品详情页的“返回对比”链接读取。 */
 const LAST_VIEW_KEY = "cost-compare-last-view";
@@ -303,33 +303,7 @@ export default function CrossCategoryCompare({
             <tbody>
               <tr className="bg-[var(--surface-2)]">
                 <td className="sticky left-0 z-10 border-b border-[var(--line)] bg-[var(--surface-2)] px-4 py-3 align-top font-medium text-[var(--muted)]">
-                  卖点标签
-                </td>
-                {products.map((p) => (
-                  <td
-                    key={p.canonical_id + "-selling-point-tags"}
-                    className="min-w-[220px] border-b border-[var(--line)] px-4 py-3 align-top"
-                  >
-                    <SellingPointTagsCell state={extras[p.canonical_id]} />
-                  </td>
-                ))}
-              </tr>
-              <tr className="bg-[var(--surface-2)]">
-                <td className="sticky left-0 z-10 border-b border-[var(--line)] bg-[var(--surface-2)] px-4 py-3 align-top font-medium text-[var(--muted)]">
-                  适用场景
-                </td>
-                {products.map((p) => (
-                  <td
-                    key={p.canonical_id + "-scenarios"}
-                    className="min-w-[220px] border-b border-[var(--line)] px-4 py-3 align-top"
-                  >
-                    <ScenariosCell state={extras[p.canonical_id]} />
-                  </td>
-                ))}
-              </tr>
-              <tr className="bg-[var(--surface-2)]">
-                <td className="sticky left-0 z-10 border-b border-[var(--line)] bg-[var(--surface-2)] px-4 py-3 align-top font-medium text-[var(--muted)]">
-                  核心卖点摘要
+                  核心卖点
                 </td>
                 {products.map((p) => (
                   <td
@@ -337,6 +311,22 @@ export default function CrossCategoryCompare({
                     className="min-w-[220px] border-b border-[var(--line)] px-4 py-3 align-top"
                   >
                     <SellingPointsCell state={extras[p.canonical_id]} />
+                  </td>
+                ))}
+              </tr>
+              <tr className="bg-[var(--surface-2)]">
+                <td className="sticky left-0 z-10 border-b border-[var(--line)] bg-[var(--surface-2)] px-4 py-3 align-top font-medium text-[var(--muted)]">
+                  物料清单
+                </td>
+                {products.map((p) => (
+                  <td
+                    key={p.canonical_id + "-bom"}
+                    className="min-w-[220px] border-b border-[var(--line)] px-4 py-3 align-top"
+                  >
+                    <BomHighlightsCell
+                      state={extras[p.canonical_id]}
+                      productHref={link(`/product/${p.canonical_id}`)}
+                    />
                   </td>
                 ))}
               </tr>
@@ -366,21 +356,8 @@ export default function CrossCategoryCompare({
                         value: "",
                         evidence: "",
                         source_layer: "",
-                        source_url: "",
                       };
                       const missing = emptyHint(cell.value);
-                      if (param === "bom_rows") {
-                        return (
-                          <td key={p.canonical_id + param} className="border-b border-[var(--line)] px-4 py-3 align-top">
-                            <a
-                              href={link(`/product/${p.canonical_id}#bom`)}
-                              className="font-medium text-[var(--primary)] hover:underline"
-                            >
-                              {cell.value} 项 → 查看 BOM
-                            </a>
-                          </td>
-                        );
-                      }
                       return (
                         <td
                           key={p.canonical_id + param}
@@ -390,19 +367,6 @@ export default function CrossCategoryCompare({
                             <span className="rounded-full bg-[var(--warn-soft)] px-2 py-0.5 text-xs text-[var(--warn)]">
                               待补充
                             </span>
-                          ) : (param === "price_cny" || param === "launch_date") && cell.source_url ? (
-                            <a
-                              href={cell.source_url}
-                              target="_blank"
-                              rel="noopener noreferrer"
-                              title={param === "launch_date" ? "打开上市时间来源（新标签页）" : "打开价格信息来源（新标签页）"}
-                              className="group inline-flex flex-wrap items-center gap-x-1 font-medium text-[var(--primary)] no-underline hover:underline"
-                            >
-                              <span>{cell.value}</span>
-                              <span className="text-xs text-[var(--muted)] group-hover:text-[var(--primary)]">
-                                查看来源 ↗
-                              </span>
-                            </a>
                           ) : (
                             <button
                               type="button"
