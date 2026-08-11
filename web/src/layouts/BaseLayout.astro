@@ -7,10 +7,10 @@ interface Props {
   activeNav?: string;
 }
 
-const { title = "竞品成本情报", activeNav = "" } = Astro.props;
-const fullTitle = title.includes("情报") ? title : `${title} · 竞品成本情报`;
+const { title = "竞品物料分析工作台", activeNav = "" } = Astro.props;
+const fullTitle = title.includes("工作台") ? title : `${title} · 竞品物料分析工作台`;
 const home = withBase("/");
-const category = withBase("/category/开放式耳机");
+const compare = withBase("/compare");
 const teardown = withBase("/teardown-details");
 ---
 
@@ -25,7 +25,7 @@ const teardown = withBase("/teardown-details");
     <header class="sticky top-0 z-50 border-b border-[var(--line)] bg-[var(--bg-elevated)]/80 backdrop-blur-xl">
       <div class="mx-auto flex max-w-[1400px] flex-wrap items-center justify-between gap-3 px-5 py-3">
         <a href={home} class="gradient-text text-lg font-bold no-underline hover:no-underline">
-          竞品成本情报
+          竞品物料分析工作台
         </a>
         <nav class="flex flex-wrap gap-1 text-sm">
           <a
@@ -38,14 +38,14 @@ const teardown = withBase("/teardown-details");
             ]}
           >工作台</a>
           <a
-            href={category}
+            href={compare}
             class:list={[
               "nav-link rounded-full px-3 py-1.5 no-underline",
-              activeNav === "category"
+              activeNav === "compare"
                 ? "nav-link--active bg-[var(--primary)] text-white"
                 : "text-[var(--muted)] hover:bg-[var(--primary-soft)] hover:text-[var(--primary-dark)]",
             ]}
-          >品类对比</a>
+          >跨品类对比</a>
           <a
             href={teardown}
             class:list={[
