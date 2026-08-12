@@ -34,7 +34,7 @@
     "price_source_label": "",
     "price_source_url": "",
     "price_evidence": "",
-    "channel_url": null,
+    "channel_url": "",
     "sales_hint": null,
     "data_completeness": 0.83,
     "best_report_id": "238035",
@@ -188,7 +188,9 @@
     "technical": [
       "report:238035"
     ],
-    "channel": [],
+    "channel": [
+      "channel:truke--hb008"
+    ],
     "official": [],
     "unboxing": [
       "unboxing:238035"
@@ -412,7 +414,37 @@
     "positioning_summary": "在音频体验上，TRÜKE充客HB008颈挂式运动耳机搭载高分子振膜驱动单元，提供清晰饱满的音质；支持AI智能通话降噪，可自适应环境变化，降低嘈杂环境和风噪影响，带来高清通话效果。",
     "launch_date": null,
     "best_report_id": "238035",
-    "best_video_id": null
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "音质",
+        "text": "搭载高分子振膜驱动单元，提供清晰饱满音质。"
+      },
+      {
+        "tag": "降噪",
+        "text": "支持AI智能通话降噪，降低嘈杂环境和风噪影响。"
+      },
+      {
+        "tag": "防水防尘",
+        "text": "充电接口采用橡胶塞密封，防尘防水。"
+      },
+      {
+        "tag": "游戏低延迟",
+        "text": "支持游戏低延迟，实现音画同步体验。"
+      },
+      {
+        "tag": "续航",
+        "text": "内置两块共900mAh锂电池，带来超长续航。"
+      },
+      {
+        "tag": "设计",
+        "text": "采用全新设计，佩戴舒适稳定，质感出众。"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "c98cbbe83a9b42d3e574a597ebd6cf495f59402483981b186c6c0c5ad2197e95"
+    }
   },
   "launch": {
     "date": "",
@@ -420,7 +452,7 @@
     "scope": "",
     "status": "pending",
     "source_url": "",
-    "evidence": "",
+    "evidence": "已核对来源原文，待补充公开发布时间来源。",
     "source_type": ""
   }
 }

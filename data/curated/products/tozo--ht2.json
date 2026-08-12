@@ -34,7 +34,7 @@
     "price_source_label": "",
     "price_source_url": "",
     "price_evidence": "",
-    "channel_url": null,
+    "channel_url": "",
     "sales_hint": null,
     "data_completeness": 0.83,
     "best_report_id": "266711",
@@ -252,7 +252,9 @@
     "technical": [
       "report:266711"
     ],
-    "channel": [],
+    "channel": [
+      "channel:tozo--ht2"
+    ],
     "official": [],
     "unboxing": [
       "unboxing:266711"
@@ -488,7 +490,37 @@
     "positioning_summary": "TOZO HT2头戴式耳机支持全馈混合主动降噪功能，最大降噪深度可达-45dB；支持深度降噪、风噪、休闲和通透多种降噪模式，支持智能耳道自适应，自动匹配合适的降噪参数；支持三麦ENC通话降噪，智能识别不同降噪场景，提供清晰通话效果。",
     "launch_date": null,
     "best_report_id": "266711",
-    "best_video_id": null
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "降噪",
+        "text": "支持全馈混合主动降噪，最大降噪深度-45dB，多种降噪模式可选"
+      },
+      {
+        "tag": "降噪",
+        "text": "支持智能耳道自适应，自动匹配降噪参数，三麦ENC通话降噪"
+      },
+      {
+        "tag": "舒适佩戴",
+        "text": "轻量化人体工学设计，仿蛋白皮耳罩与记忆海绵头垫，佩戴柔软舒适"
+      },
+      {
+        "tag": "音质",
+        "text": "搭载40mm镀钛振膜动圈单元，支持TOZO Origx声学技术，BASS+低音增强"
+      },
+      {
+        "tag": "连接",
+        "text": "支持蓝牙和3.5mm音频线连接，有线模式通过Hi-Res高清音频认证"
+      },
+      {
+        "tag": "品牌",
+        "text": "TOZO是国际知名消费电子品牌，专注便携式智能影音系统"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "f207946a5704f336fec33731f4a548626784f2c76f460f680f1a00c1b0544f8e"
+    }
   },
   "launch": {
     "date": "",
@@ -496,7 +528,7 @@
     "scope": "",
     "status": "pending",
     "source_url": "",
-    "evidence": "",
+    "evidence": "已核对来源原文，待补充公开发布时间来源。",
     "source_type": ""
   }
 }

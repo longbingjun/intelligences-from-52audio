@@ -27,14 +27,14 @@
     "ip_rating": "",
     "bluetooth": "",
     "bom_row_count": 9,
-    "price_cny": null,
+    "price_cny": 3970.0,
     "price_currency": "CNY",
-    "price_kind": "",
-    "price_layer": null,
-    "price_source_label": "",
-    "price_source_url": "",
+    "price_kind": "channel",
+    "price_layer": "channel",
+    "price_source_label": "渠道价",
+    "price_source_url": "https://detail.zol.com.cn/microphone/index1350881.shtml",
     "price_evidence": "",
-    "channel_url": null,
+    "channel_url": "https://detail.zol.com.cn/microphone/index1350881.shtml",
     "sales_hint": null,
     "data_completeness": 0.5,
     "best_report_id": "227277",
@@ -174,7 +174,9 @@
     "technical": [
       "report:227277"
     ],
-    "channel": [],
+    "channel": [
+      "channel:unknown--airpods-max"
+    ],
     "official": [],
     "unboxing": [
       "unboxing:227277"
@@ -386,7 +388,37 @@
     "positioning_summary": "进入产品介绍页，这些产品均具有着“强大的性能”表现，比如「原版H2智能芯片」、「HWA/Hi-Res高清音频」、「-120dB Pro级主动降噪」、「个性化空间音频」等，让苹果都望尘莫及！",
     "launch_date": null,
     "best_report_id": "227277",
-    "best_video_id": null
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "降噪",
+        "text": "搭载原版H2智能芯片，支持-120dB Pro级主动降噪"
+      },
+      {
+        "tag": "音频",
+        "text": "支持HWA/Hi-Res高清音频与个性化空间音频"
+      },
+      {
+        "tag": "降噪",
+        "text": "左右耳各置降噪麦克风，左耳另配通话麦克风"
+      },
+      {
+        "tag": "外观",
+        "text": "外观设计仿原版AirPods Max，难以明辨真伪"
+      },
+      {
+        "tag": "音频",
+        "text": "左右耳均配备40mm动圈喇叭"
+      },
+      {
+        "tag": "设计",
+        "text": "耳罩内侧防尘网编织花纹标有L/R左右标识"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "21d4adadcd9f1e3d2f4a560f87b18b052eaf09404a1bedd246a41ad08f03d745"
+    }
   },
   "launch": {
     "date": "",
@@ -394,7 +426,7 @@
     "scope": "",
     "status": "pending",
     "source_url": "",
-    "evidence": "",
+    "evidence": "已核对来源原文，待补充公开发布时间来源。",
     "source_type": ""
   }
 }

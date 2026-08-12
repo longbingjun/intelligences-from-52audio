@@ -1,0 +1,483 @@
+{
+  "canonical_id": "unknown--devialetgemini",
+  "brand": "",
+  "model": "DEVIALET帝瓦雷GEMINI双子星",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "285212"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "285212"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2026-08-06",
+  "latest_published": "2026-08-06",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "高通QCC5126",
+    "pmic_case": "思远半导体 思远半导体SY8801",
+    "battery_ear": "3.85V/70mAh钢壳扣式",
+    "battery_case": "3.7V/650mAh锂电池",
+    "speaker": "喇叭单元",
+    "materials": "PC、ABS",
+    "weight_g": "87.6g",
+    "weight_case_g": "",
+    "weight_earbud_g": "87.6g",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 20,
+    "price_cny": null,
+    "price_currency": "CNY",
+    "price_kind": "",
+    "price_layer": null,
+    "price_source_label": "",
+    "price_source_url": "",
+    "price_evidence": "",
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "285212",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "思远半导体",
+      "model": "思远半导体SY8801",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "PMIC/充电仓管理",
+      "evidence": {
+        "value": "思远半导体SY8801",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "有线采用了思远半导体SY8801电源管理芯片，无线由Silergy矽力杰NE6053无线电源接收器负责。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3.7V/650mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3.7V/650mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载了3.7V/650mAh锂电池组，支持有线、无线两种方式充电。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "Qualcomm高通",
+      "model": "高通QCC5126",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC5126",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载3.85V/70mAh钢壳扣式电池、10mm动圈喇叭和3颗MEMS麦克风，采用Qualcomm高通QCC5126蓝牙音频SoC，用于无线连接和音频数据处理；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3.85V/70mAh钢壳扣式",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "3.85V/70mAh钢壳扣式",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载3.85V/70mAh钢壳扣式电池、10mm动圈喇叭和3颗MEMS麦克风，采用Qualcomm高通QCC5126蓝牙音频SoC，用于无线连接和音频数据处理；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载3.85V/70mAh钢壳扣式电池、10mm动圈喇叭和3颗MEMS麦克风，采用Qualcomm高通QCC5126蓝牙音频SoC，用于无线连接和音频数据处理；"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "主要功能方面，帝瓦雷GEMINI搭载主动降噪技术，支持三档降噪模式和2档通透模式，搭配IDC内置延迟补偿定制算法，提高降噪效果以及有效带宽；搭载EAM耳机有源适配算法，通过实时调整声音信号的频率范围，实现更优的听觉体验；耳机单次聆听音乐时长约4小时，搭配充电盒可提供24小时音乐播放，且支持无线充电功能。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盒盖内侧标注的产品信息一览，帝瓦雷双子星，型号：TX101，输入：5V-1A，输出：5V-0.2A，电池参数：3.7V 650mAh 2410mWh，中国制造。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机背部外观一览，类金属盖板装饰，上方设置麦克风拾音孔，下方设计品牌LOGO，同时也是触摸控制区域。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部结构一览，通过支架固定主板、电源输入小板及功能按键小板。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "主要功能方面，帝瓦雷GEMINI搭载主动降噪技术，支持三档降噪模式和2档通透模式，搭配IDC内置延迟补偿定制算法，提高降噪效果以及有效带宽；搭载EAM耳机有源适配算法，通过实时调整声音信号的频率范围，实现更优的听觉体验；耳机单次聆听音乐时长约4小时，搭配充电盒可提供24小时音乐播放，且支持无线充电功能。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "支架上还固定有NFC天线，用于便捷配对功能。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "取出腔体内部的扬声器单元。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面设置有蓝牙配对按键和LED指示灯。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身内侧设置充电触点、光学佩戴检测传感器，以及通话麦克风。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面设置有蓝牙配对按键和LED指示灯。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8801",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8801",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "思远半导体SY8801电源管理芯片，采用QFN24封装，是一款专为蓝牙耳机仓设计的单芯片解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8801",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8801",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "思远半导体SY8801详细资料图。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC5126",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC5126",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm高通QCC5126蓝牙音频SoC，属于QCC51XX系列，采用四核处理器架构，内置双核DSP音频子系统，低功耗设计，支持数字有源噪声消除技术，支持aptX Adaptive音频编解码，集稳定性、好音质、可扩展性、低时延和低比特率音频传输等增强特性于一身。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC51XX",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC51XX",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm高通QCC51XX系列框图。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "QCC51",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "QCC51",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Qualcomm高通QCC51XX系列框图。"
+      }
+    }
+  ],
+  "summary_image_urls": [
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/08/2026080610412183.png",
+      "alt": "拆解报告：DEVIALET帝瓦雷GEMINI双子星真无线降噪耳机-我爱音频网",
+      "caption": "",
+      "section_hint": "summary_bom",
+      "score": 10
+    }
+  ],
+  "summary_text": "三、我爱音频网总结 最后附上DEVIALET帝瓦雷GEMINI双子星真无线降噪耳机的已知核心物料清单，方便大家查阅。 DEVIALET帝瓦雷GEMINI双子星真无线降噪耳机在外观方面，极具品牌辨识度。椭圆形充电盒，采用旋转盒盖，外部磨砂质感，内部金属座舱，质感出色；豆状的入耳式耳机，采用符合人体工程学原理设计，通过金属盖板和品牌LOGO装饰。 内部主要配置方面，充电盒搭载了3.7V/650mAh锂电池组，支持有线、无线两种方式充电。有线采用了思远半导体SY8801电源管理芯片，无线由Silergy矽力杰NE6053无线电源接收器负责。其他还采用了OmniVision豪威集团ESD56241D TVS保护管，LPS微源半导体LP5306过压过流保护IC，ST意法半导体STM32F070CBT6微控制器等方案。 耳机内部搭载3.85V/70mAh钢壳扣式电池、10mm动圈喇叭和3颗MEMS麦克风，采用Qualcomm高通QCC5126蓝牙音频SoC，用于无线连接和音频数据处理；采用ADI亚德诺ADAU1788音频DSP芯片，用于主动降噪功能；Holtek合泰BS83B04C低功耗触控感应MCU，用于触摸控制。",
+  "layer_refs": {
+    "technical": [
+      "report:285212"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "腔体内部结构一览，通过支架固定电池和主板单元，右侧腔体壁上设置有通话降噪麦克风",
+        "tag": "降噪",
+        "tags": [],
+        "evidence": {
+          "value": "腔体内部结构一览，通过支架固定电池和主板单元，右侧腔体壁上设置有通话降噪麦克风",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "腔体内部结构一览，通过支架固定电池和主板单元，右侧腔体壁上设置有通话降噪麦克风"
+        }
+      },
+      {
+        "text": "机身底部设置有通话降噪麦克风拾音孔",
+        "tag": "降噪",
+        "tags": [],
+        "evidence": {
+          "value": "机身底部设置有通话降噪麦克风拾音孔",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "机身底部设置有通话降噪麦克风拾音孔"
+        }
+      },
+      {
+        "text": "主要功能方面，帝瓦雷GEMINI搭载主动降噪技术",
+        "tag": "降噪",
+        "tags": [],
+        "evidence": {
+          "value": "主要功能方面，帝瓦雷GEMINI搭载主动降噪技术",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "主要功能方面，帝瓦雷GEMINI搭载主动降噪技术"
+        }
+      },
+      {
+        "text": "支持三档降噪模式和2档通透模式，搭配IDC内置延迟补偿定制算法，提高降噪效果以及有效带宽",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "支持三档降噪模式和2档通透模式，搭配IDC内置延迟补偿定制算法，提高降噪效果以及有效带宽",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "支持三档降噪模式和2档通透模式，搭配IDC内置延迟补偿定制算法，提高降噪效果以及有效带宽"
+        }
+      },
+      {
+        "text": "搭载EAM耳机有源适配算法，通过实时调整声音信号的频率范围，实现更优的听觉体验",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "搭载EAM耳机有源适配算法，通过实时调整声音信号的频率范围，实现更优的听觉体验",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "搭载EAM耳机有源适配算法，通过实时调整声音信号的频率范围，实现更优的听觉体验"
+        }
+      },
+      {
+        "text": "耳机单次聆听音乐时长约4小时，搭配充电盒可提供24小时音乐播放，且支持无线充电功能",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "耳机单次聆听音乐时长约4小时，搭配充电盒可提供24小时音乐播放，且支持无线充电功能",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "耳机单次聆听音乐时长约4小时，搭配充电盒可提供24小时音乐播放，且支持无线充电功能"
+        }
+      },
+      {
+        "text": "DEVIALET帝瓦雷是2007年创立于巴黎的法国高端音响品牌，旗下产品涵盖Hi-Fi功放、家用音响、便携音响、真无线耳机等，凭借高端奢华定位和高昂售价在行业内颇具辨识度",
+        "tag": "旗舰定位",
+        "tags": [],
+        "evidence": {
+          "value": "DEVIALET帝瓦雷是2007年创立于巴黎的法国高端音响品牌，旗下产品涵盖Hi-Fi功放、家用音响、便携音响、真无线耳机等，凭借高端奢华定位和高昂售价在行业内颇具辨识度",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "DEVIALET帝瓦雷是2007年创立于巴黎的法国高端音响品牌，旗下产品涵盖Hi-Fi功放、家用音响、便携音响、真无线耳机等，凭借高端奢华定位和高昂售价在行业内颇具辨识度"
+        }
+      },
+      {
+        "text": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n小米、vivo、OPPO、realme、韶音、Keep、悠律声学、Nothing、夸克、出门问问，\nREDMI、漫步者、倍思、绿联、万魔、猛玛、博雅、神牛、闪克、优篮子、眷蜀…",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n小米、vivo、OPPO、realme、韶音、Keep、悠律声学、Nothing、夸克、出门问问，\nREDMI、漫步者、倍思、绿联、万魔、猛玛、博雅、神牛、闪克、优篮子、眷蜀…",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n小米、vivo、OPPO、realme、韶音、Keep、悠律声学、Nothing、夸克、出门问问，\nREDMI、漫步者、倍思、绿联、万魔、猛玛、博雅、神牛、闪克、优篮子、眷蜀…"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "主打降噪、旗舰定位；适用通话等场景",
+    "launch_date": null,
+    "best_report_id": "285212",
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "降噪",
+        "text": "搭载主动降噪技术，支持三档降噪和两档通透模式"
+      },
+      {
+        "tag": "降噪",
+        "text": "内置通话降噪麦克风，提升通话清晰度"
+      },
+      {
+        "tag": "音质",
+        "text": "采用EAM耳机有源适配算法，实时调整声音频率范围"
+      },
+      {
+        "tag": "续航",
+        "text": "单次聆听约4小时，搭配充电盒总续航24小时"
+      },
+      {
+        "tag": "充电",
+        "text": "支持无线充电功能"
+      },
+      {
+        "tag": "品牌",
+        "text": "源自法国高端音响品牌，定位奢华"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "5f24ed0e7a6cba6565c7a6e322228382358d5f4d8cfebb6af139617361385995"
+    }
+  },
+  "launch": {
+    "date": "",
+    "display": "上市时间待核验",
+    "scope": "",
+    "status": "pending",
+    "source_url": "",
+    "evidence": "",
+    "source_type": ""
+  }
+}

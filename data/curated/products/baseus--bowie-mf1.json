@@ -34,7 +34,7 @@
     "price_source_label": "",
     "price_source_url": "",
     "price_evidence": "",
-    "channel_url": null,
+    "channel_url": "",
     "sales_hint": null,
     "data_completeness": 1.0,
     "best_report_id": "235046",
@@ -328,7 +328,9 @@
     "technical": [
       "report:235046"
     ],
-    "channel": [],
+    "channel": [
+      "channel:baseus--bowie-mf1"
+    ],
     "official": [],
     "unboxing": [
       "unboxing:235046"
@@ -544,7 +546,17 @@
     "positioning_summary": "音腔顶部的通话降噪麦克风拾音孔特写。",
     "launch_date": null,
     "best_report_id": "235046",
-    "best_video_id": null
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "降噪",
+        "text": "双麦克风协同拾音，搭配降噪算法，通话清晰。"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "1eef30f6f90d9f4dc7949be31fbedf28e7e19fc2a25904d370010c343e8622e3"
+    }
   },
   "launch": {
     "date": "",
@@ -552,7 +564,7 @@
     "scope": "",
     "status": "pending",
     "source_url": "",
-    "evidence": "",
+    "evidence": "已核对来源原文，待补充公开发布时间来源。",
     "source_type": ""
   }
 }

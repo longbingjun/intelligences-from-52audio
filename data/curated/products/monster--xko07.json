@@ -34,7 +34,7 @@
     "price_source_label": "",
     "price_source_url": "",
     "price_evidence": "",
-    "channel_url": null,
+    "channel_url": "",
     "sales_hint": null,
     "data_completeness": 0.83,
     "best_report_id": "266617",
@@ -308,7 +308,9 @@
     "technical": [
       "report:266617"
     ],
-    "channel": [],
+    "channel": [
+      "channel:monster--xko07"
+    ],
     "official": [],
     "unboxing": [
       "unboxing:266617"
@@ -528,7 +530,37 @@
     "positioning_summary": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
     "launch_date": null,
     "best_report_id": "266617",
-    "best_video_id": null
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "其他",
+        "text": "可灵活定制耳机充满判饱电流，检测精度高达1mA。"
+      },
+      {
+        "tag": "其他",
+        "text": "内置MCU，可定制4/3/2/1颗LED或188数码管电量显示。"
+      },
+      {
+        "tag": "其他",
+        "text": "蓝牙V5.3，传输距离10m，喇叭直径16.2mm，阻抗16Ω。"
+      },
+      {
+        "tag": "其他",
+        "text": "灵敏度85±3dB，频响范围20Hz-20kHz。"
+      },
+      {
+        "tag": "其他",
+        "text": "充电盒电池390mAh，耳机电池60mAh，充电约1.5小时。"
+      },
+      {
+        "tag": "其他",
+        "text": "配合充电盒播放约16小时，制造商为深圳悦享无线科技。"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "21af345ebb8cdd032fdd69b4eed5cf41c9edce861e76a91caaefe3ef3e30eaf8"
+    }
   },
   "launch": {
     "date": "",
@@ -536,7 +568,7 @@
     "scope": "",
     "status": "pending",
     "source_url": "",
-    "evidence": "",
+    "evidence": "已核对来源原文，待补充公开发布时间来源。",
     "source_type": ""
   }
 }

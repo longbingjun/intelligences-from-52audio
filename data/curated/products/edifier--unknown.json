@@ -34,7 +34,7 @@
     "price_source_label": "",
     "price_source_url": "",
     "price_evidence": "",
-    "channel_url": null,
+    "channel_url": "",
     "sales_hint": null,
     "data_completeness": 1.0,
     "best_report_id": "258273",
@@ -336,7 +336,9 @@
     "technical": [
       "report:258273"
     ],
-    "channel": [],
+    "channel": [
+      "channel:edifier--unknown"
+    ],
     "official": [],
     "unboxing": [
       "unboxing:258273"
@@ -514,7 +516,17 @@
     "positioning_summary": "同时将充电盒LED数显屏，升级为了彩色触摸屏，并支持个性化壁纸，以及幸运转盘、电子解压器、个性弹幕等趣味功能，进一步拓展了产品的使用场景。",
     "launch_date": null,
     "best_report_id": "258273",
-    "best_video_id": null
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "其他",
+        "text": "充电盒升级彩色触摸屏，支持个性化壁纸与趣味功能"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "b510506a5f9de730e93d2694bc349a1bd649ce1dab428e626519fe7d804bd0da"
+    }
   },
   "launch": {
     "date": "",
@@ -522,7 +534,7 @@
     "scope": "",
     "status": "pending",
     "source_url": "",
-    "evidence": "",
+    "evidence": "已核对来源原文，待补充公开发布时间来源。",
     "source_type": ""
   }
 }

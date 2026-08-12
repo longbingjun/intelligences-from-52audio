@@ -34,7 +34,7 @@
     "price_source_label": "",
     "price_source_url": "",
     "price_evidence": "",
-    "channel_url": null,
+    "channel_url": "",
     "sales_hint": null,
     "data_completeness": 0.83,
     "best_report_id": "227697",
@@ -300,7 +300,9 @@
     "technical": [
       "report:227697"
     ],
-    "channel": [],
+    "channel": [
+      "channel:langsdom--clipbuds-r2"
+    ],
     "official": [],
     "unboxing": [
       "unboxing:227697"
@@ -510,7 +512,21 @@
     "positioning_summary": "可灵活定制耳机充满判饱电流，充满电流检测精度高达1mA。",
     "launch_date": null,
     "best_report_id": "227697",
-    "best_video_id": null
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "其他",
+        "text": "可灵活定制耳机充满判饱电流，检测精度高达1mA。"
+      },
+      {
+        "tag": "显示",
+        "text": "内置MCU，可灵活定制4/3/2/1颗LED或188数码管电量显示。"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "3b5bce8c26e25714c8d8605947fecafc78a785caa600b04a20080c19a7829234"
+    }
   },
   "launch": {
     "date": "",
@@ -518,7 +534,7 @@
     "scope": "",
     "status": "pending",
     "source_url": "",
-    "evidence": "",
+    "evidence": "已核对来源原文，待补充公开发布时间来源。",
     "source_type": ""
   }
 }

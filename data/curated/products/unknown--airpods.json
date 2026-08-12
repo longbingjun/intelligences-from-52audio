@@ -27,14 +27,14 @@
     "ip_rating": "",
     "bluetooth": "",
     "bom_row_count": 10,
-    "price_cny": null,
+    "price_cny": 932.0,
     "price_currency": "CNY",
-    "price_kind": "",
-    "price_layer": null,
-    "price_source_label": "",
-    "price_source_url": "",
+    "price_kind": "channel",
+    "price_layer": "channel",
+    "price_source_label": "渠道价",
+    "price_source_url": "https://detail.zol.com.cn/microphone/index2105466.shtml",
     "price_evidence": "",
-    "channel_url": null,
+    "channel_url": "https://detail.zol.com.cn/microphone/index2105466.shtml",
     "sales_hint": null,
     "data_completeness": 0.5,
     "best_report_id": "230837",
@@ -188,7 +188,9 @@
     "technical": [
       "report:230837"
     ],
-    "channel": [],
+    "channel": [
+      "channel:unknown--airpods"
+    ],
     "official": [],
     "unboxing": [
       "unboxing:230837"
@@ -371,7 +373,17 @@
     "positioning_summary": "耳机柄背部的装饰性降噪麦克风拾音孔特写。",
     "launch_date": null,
     "best_report_id": "230837",
-    "best_video_id": null
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "降噪",
+        "text": "耳机柄背部设有装饰性降噪麦克风拾音孔。"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "84c41c0f5570f9976aa49ecad9a3706fe629fc7f2f323efca8006762456b040c"
+    }
   },
   "launch": {
     "date": "",
@@ -379,7 +391,7 @@
     "scope": "",
     "status": "pending",
     "source_url": "",
-    "evidence": "",
+    "evidence": "已核对来源原文，待补充公开发布时间来源。",
     "source_type": ""
   }
 }

@@ -45,7 +45,7 @@
     "price_source_label": "",
     "price_source_url": "",
     "price_evidence": "",
-    "channel_url": null,
+    "channel_url": "",
     "sales_hint": null,
     "data_completeness": 1.0,
     "best_report_id": "272865",
@@ -291,7 +291,9 @@
     "technical": [
       "report:272865"
     ],
-    "channel": [],
+    "channel": [
+      "channel:mova--tpeak-clip-pro"
+    ],
     "official": [],
     "unboxing": [
       "unboxing:272865"
@@ -551,7 +553,37 @@
     "positioning_summary": "详细功能配置方面，\nMOVA TPEAK Clip Pro开放式耳机\n搭载自研12mm三磁镀钛单元，支持智能低音增强算法，支持LDAC高清音频传输，清晰还原现场级听感；支持全域声穹技术，提供固定、头转、音乐模式、影院模式四种空间音效，带来三维沉浸声场；支持AI骨气融合智能降噪，基于4麦克风阵列+2VPU骨传导传感器精准拾音，搭配AI降噪算法消除环境噪音，提供清晰通话效果。",
     "launch_date": null,
     "best_report_id": "272865",
-    "best_video_id": null
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "音质",
+        "text": "搭载自研12mm三磁镀钛单元，支持智能低音增强算法，清晰还原现场级听感。"
+      },
+      {
+        "tag": "音质",
+        "text": "支持LDAC高清音频传输，具备Hi-Res认证高清音质。"
+      },
+      {
+        "tag": "空间音效",
+        "text": "支持全域声穹技术，提供固定、头转、音乐、影院四种空间音效，营造三维沉浸声场。"
+      },
+      {
+        "tag": "通话降噪",
+        "text": "采用AI骨气融合智能降噪，基于4麦克风阵列和2VPU骨传导传感器，消除环境噪音，通话清晰。"
+      },
+      {
+        "tag": "游戏低延迟",
+        "text": "支持低延迟游戏模式，提供流畅游戏音频体验。"
+      },
+      {
+        "tag": "智能功能",
+        "text": "支持自定义EQ、双设备智慧连接、佩戴检测、耳机掉落提醒和查找耳机，佩戴不分左右耳。"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "70ed1fadd302e5cf664948027e0c4aae7aa3fc85e57b88d51017f961c4ec8f38"
+    }
   },
   "launch": {
     "date": "",
@@ -559,7 +591,7 @@
     "scope": "",
     "status": "pending",
     "source_url": "",
-    "evidence": "",
+    "evidence": "已核对来源原文，待补充公开发布时间来源。",
     "source_type": ""
   }
 }
