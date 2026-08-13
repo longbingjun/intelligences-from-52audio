@@ -1,10 +1,11 @@
 {
   "canonical_id": "xiaomi--unknown",
   "brand": "Xiaomi小米",
-  "model": "降噪项圈蓝牙",
+  "model": "耳夹式",
   "category": "真无线耳机TWS",
   "report_ids": [
     "12295",
+    "285892",
     "29137"
   ],
   "video_ids": [
@@ -12,27 +13,28 @@
   ],
   "related_report_ids": [
     "12295",
+    "285892",
     "29137"
   ],
   "related_video_ids": [
     "218670"
   ],
   "first_seen": "2018-12-18",
-  "latest_published": "2024-11-13",
+  "latest_published": "2026-08-12",
   "internal_match_suggestions": [],
   "cost_snapshot": {
-    "main_chip": "恒玄2300",
-    "pmic_case": "",
-    "battery_ear": "电池",
-    "battery_case": "185 mAh",
-    "speaker": "喇叭单元",
+    "main_chip": "INJOINIC英集芯IP5529",
+    "pmic_case": "WINSEMI稳先微 WINSEMI稳先微WSDF5318E",
+    "battery_ear": "3.86V/60mAh钢壳扣式",
+    "battery_case": "微电新能源 3.8V/510mAh锂电池",
+    "speaker": "动圈单元",
     "materials": "硅胶",
-    "weight_g": "",
+    "weight_g": "52.4g",
     "weight_case_g": "",
-    "weight_earbud_g": "",
+    "weight_earbud_g": "5.6g",
     "ip_rating": "",
-    "bluetooth": "5.0",
-    "bom_row_count": 12,
+    "bluetooth": "5.4",
+    "bom_row_count": 20,
     "price_cny": null,
     "price_currency": "CNY",
     "price_kind": "",
@@ -42,11 +44,151 @@
     "price_evidence": "",
     "channel_url": null,
     "sales_hint": null,
-    "data_completeness": 0.83,
-    "best_report_id": "29137",
+    "data_completeness": 1.0,
+    "best_report_id": "285892",
     "best_video_id": null
   },
   "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "INJOINIC英集芯IP5529",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5529",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载微电新能源3.8V/510mAh锂电池，采用INJOINIC英集芯IP5529电源管理SOC，负责内置电池的充放电管理和整机控制；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "微电新能源",
+      "model": "3.8V/510mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3.8V/510mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载微电新能源3.8V/510mAh锂电池，采用INJOINIC英集芯IP5529电源管理SOC，负责内置电池的充放电管理和整机控制；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "动圈单元",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置方形动圈单元，采用OnMicro昂瑞微OM6629蓝牙SoC，负责与手机通讯，实现查找功能；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "BES2710Y",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2710Y",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内置3.86V/60mAh钢壳扣式电池，搭载11mm动圈喇叭、3个瑞勤电子的MEMS麦克风和1个VPU骨传导麦克风，主控芯片为BES恒玄科技BES2710Y蓝牙音频SoC，其他还采用了REEXEN九天睿芯ADA100语音算力芯片、ST意法半导体LSM6DSOWTR 6轴传感器、WINSEMI稳先微WSDF5318E锂电保护IC，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "WINSEMI稳先微",
+      "model": "WINSEMI稳先微WSDF5318E",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "保护IC",
+      "evidence": {
+        "value": "WINSEMI稳先微WSDF5318E",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内置3.86V/60mAh钢壳扣式电池，搭载11mm动圈喇叭、3个瑞勤电子的MEMS麦克风和1个VPU骨传导麦克风，主控芯片为BES恒玄科技BES2710Y蓝牙音频SoC，其他还采用了REEXEN九天睿芯ADA100语音算力芯片、ST意法半导体LSM6DSOWTR 6轴传感器、WINSEMI稳先微WSDF5318E锂电保护IC，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3.86V/60mAh钢壳扣式",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "3.86V/60mAh钢壳扣式",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内置3.86V/60mAh钢壳扣式电池，搭载11mm动圈喇叭、3个瑞勤电子的MEMS麦克风和1个VPU骨传导麦克风，主控芯片为BES恒玄科技BES2710Y蓝牙音频SoC，其他还采用了REEXEN九天睿芯ADA100语音算力芯片、ST意法半导体LSM6DSOWTR 6轴传感器、WINSEMI稳先微WSDF5318E锂电保护IC，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内置3.86V/60mAh钢壳扣式电池，搭载11mm动圈喇叭、3个瑞勤电子的MEMS麦克风和1个VPU骨传导麦克风，主控芯片为BES恒玄科技BES2710Y蓝牙音频SoC，其他还采用了REEXEN九天睿芯ADA100语音算力芯片、ST意法半导体LSM6DSOWTR 6轴传感器、WINSEMI稳先微WSDF5318E锂电保护IC，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Xiaomi小米耳夹式耳机整体外观一览，耳机官方命名由“透明发声球+钛丝连接桥+曲面电池仓”三部分组成，体积小巧，黑白配色，哑光质感，简约时尚。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "小米耳夹式耳机支持双设备连接，支持在Xiaomi HyperOS设备间智能切换及音频流转、共享；支持现场录音、音视频录音、通话录音和耳机盒录音（耳机放入充电盒离线录音）四种录音场景，搭配手机App，可实时录音转写和一键生成智能摘要；同时App还支持同声传译、通话翻译和面对面翻译等功能，内置超级小爱，提供智能问答和连续对话。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，从上到下依次设置有主板、为耳机充电的排线、电池和电源输入下班。"
+      }
+    },
     {
       "component": "麦克风",
       "brand": "",
@@ -58,35 +200,7 @@
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机左端金属材质的线控区域，从左往右依次是音量加减按键，电源键，电源指示灯/麦克风开口。"
-      }
-    },
-    {
-      "component": "主板/PCBA",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "主板/PCBA",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "柔性橡胶颈环与线控主板通过排线连接。"
-      }
-    },
-    {
-      "component": "电池",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "",
-      "role": "major",
-      "evidence": {
-        "value": "电池",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "右端金属材质区域内部一览，主要包括电池和Hybrid微动按键。"
+        "source_text": "详细功能配置方面，小米耳夹式耳机搭载11mm微晶金属涂层动圈单元，支持LHDC 5.0高清音频解码，频响范围达到了20Hz–48kHz，能够提供声音饱满开阔、细节丰富的音频效果，并获得了Hi-Res Audio Wireless认证；支持3麦克风+VPU骨传导通话降噪，有效保障复杂环境下的清晰通话；通过定向传音结构和逆向声波防漏音技术，守护用户隐私。"
       }
     },
     {
@@ -94,27 +208,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "",
+      "side": "耳机",
       "role": "major",
       "evidence": {
         "value": "喇叭单元",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "内部导线与扬声器单元焊接连接。"
-      }
-    },
-    {
-      "component": "降噪系统",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "major",
-      "evidence": {
-        "value": "降噪系统",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "8月份，小米发布了一款主打降噪的项圈蓝牙耳机，且只有黑色版本。官方宣传其采用混合数字主动降噪技术，能够广泛有效的抵消噪音，显著提升降噪的效果，设置了强弱两档降噪，并针对交通工具发出的低频噪音进行了深度降噪优化。为了深入的了解这款耳机的降噪秘密，我爱音频网对小米降噪项圈耳机进行了拆解。"
+        "source_text": "详细功能配置方面，小米耳夹式耳机搭载11mm微晶金属涂层动圈单元，支持LHDC 5.0高清音频解码，频响范围达到了20Hz–48kHz，能够提供声音饱满开阔、细节丰富的音频效果，并获得了Hi-Res Audio Wireless认证；支持3麦克风+VPU骨传导通话降噪，有效保障复杂环境下的清晰通话；通过定向传音结构和逆向声波防漏音技术，守护用户隐私。"
       }
     },
     {
@@ -122,41 +222,13 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "天线",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "主板上被铁片罩住的区域，上方有二维码贴纸，这块铁片也是耳机的蓝牙天线。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机左端金属材质的线控区域，从左往右依次是音量加减按键，电源键，电源指示灯/麦克风开口。"
-      }
-    },
-    {
-      "component": "指示灯",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机左端金属材质的线控区域，从左往右依次是音量加减按键，电源键，电源指示灯/麦克风开口。"
+        "source_text": "座舱上的天线特写，露铜链接主板。"
       }
     },
     {
@@ -170,57 +242,108 @@
         "value": "外壳结构",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "卸除物理键帽，轻松将左端线控区域的金属外壳与内罩分离。"
+        "source_text": "透明发声球外观一览，水滴形设计，黑色前腔为透明外壳，可以看到内部的发声单元。"
       }
     },
     {
-      "component": "芯片/模组",
+      "component": "指示灯",
       "brand": "",
-      "model": "恒玄2300",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
       "evidence": {
-        "value": "恒玄2300",
-        "confidence": 0.78,
+        "value": "指示灯",
+        "confidence": 0.72,
         "source_type": "text",
-        "source_text": "揭开铁片，可见主板搭载了BES恒玄2300 IC。"
+        "source_text": "充电盒正面外观一览，内部座舱露出银色腰线，更具层次感。机身上设计一颗指示灯，用于反馈蓝牙配对及充电状态。"
       }
     },
     {
-      "component": "芯片/模组",
+      "component": "充电触点",
       "brand": "",
-      "model": "BES2300",
-      "qty_hint": "1",
-      "side": "",
-      "role": "主控/蓝牙",
-      "evidence": {
-        "value": "BES2300",
-        "confidence": 0.78,
-        "source_type": "text",
-        "source_text": "BES2300 是一款全集成自适应主动降噪方案，支持蓝牙 5.0、LBRT 低频转发技术和双模蓝牙 4.2，它还支持第三代 FWS 全无线立体声技术、双麦克风等，采用 28nm，BGA 封装。"
-      }
-    },
-    {
-      "component": "芯片/模组",
-      "brand": "",
-      "model": "BES2300",
-      "qty_hint": "1",
+      "model": "",
+      "qty_hint": "",
       "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "取出耳机，座舱内部结构一览，设置有充电触点。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身右侧设置一颗功能按键，用于蓝牙配对、录音等功能控制。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "BES2710Y为恒玄科技研发的智能音频SoC单芯片，芯片集成双模蓝牙6.1子系统，集成Audio Codec，支持外部环境自适应&实时耳道自适应降噪，搭载双核STAR-MC1和双核BECO NPU，可用于复杂信号处理和神经网络工作负载，凭借高集成度，超低功耗和小封装尺寸，为入耳/半入耳/耳挂式等各类TWS耳机提供更佳的自适应降噪体验。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP5529",
+      "qty_hint": "1",
+      "side": "",
       "role": "主控/蓝牙",
       "evidence": {
-        "value": "BES2300",
+        "value": "INJOINIC英集芯IP5529",
         "confidence": 0.78,
         "source_type": "text",
-        "source_text": "BES2300 可以给耳机和家庭音响输出声音，也可以从外部麦克风录音。"
+        "source_text": "INJOINIC英集芯IP5529是一款集成升压转换器、锂电池充电管理、高性能MCU的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "WINSEMI稳先微WSDF5318E",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "WINSEMI稳先微WSDF5318E",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "WINSEMI稳先微WSDF5318E锂电保护IC。"
       }
     }
   ],
-  "summary_image_urls": [],
-  "summary_text": "",
+  "summary_image_urls": [
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/08/2026081210505664.png",
+      "alt": "拆解报告：Xiaomi小米耳夹式耳机-我爱音频网",
+      "caption": "",
+      "section_hint": "summary_bom",
+      "score": 10
+    }
+  ],
+  "summary_text": "三、我爱音频网总结 最后附上Xiaomi小米耳夹式耳机的已知核心物料清单，方便大家查阅。 小米耳夹式耳机外观设计非常出众。充电盒采用类似“戒指盒”的圆角方形造型，通过柔软科纳皮和荔枝纹理装饰，小巧精致便携。耳机采用水滴流线型设计，佩戴轻盈舒适；透明前腔搭配金属唱片饰纹，极具设计感和辨识度。 内部主要配置方面，充电盒搭载微电新能源3.8V/510mAh锂电池，采用INJOINIC英集芯IP5529电源管理SOC，负责内置电池的充放电管理和整机控制；配备WINSEMI稳先微WSDY3302B锂电保护IC，负责过充过放过流等保护。充电盒内置方形动圈单元，采用OnMicro昂瑞微OM6629蓝牙SoC，负责与手机通讯，实现查找功能；其他还采用了Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等方案。 耳机内置3.86V/60mAh钢壳扣式电池，搭载11mm动圈喇叭、3个瑞勤电子的MEMS麦克风和1个VPU骨传导麦克风，主控芯片为BES恒玄科技BES2710Y蓝牙音频SoC，其他还采用了REEXEN九天睿芯ADA100语音算力芯片、ST意法半导体LSM6DSOWTR 6轴传感器、WINSEMI稳先微WSDF5318E锂电保护IC，Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等。",
   "layer_refs": {
     "technical": [
       "report:12295",
+      "report:285892",
       "report:29137",
       "video:218670"
     ],
@@ -368,95 +491,110 @@
   "market": {
     "selling_points": [
       {
-        "text": "支持CVC通话降噪和HD高清通话等功能。",
+        "text": "小米耳夹式耳机搭载11mm微晶金属涂层动圈单元",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "小米耳夹式耳机搭载11mm微晶金属涂层动圈单元",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "小米耳夹式耳机搭载11mm微晶金属涂层动圈单元"
+        }
+      },
+      {
+        "text": "LHDC 5.0高清音频解码，频响范围达到了20Hz–48kHz，能够提供声音饱满开阔、细节丰富的音频效果，并获得了Hi-Res Audio Wireless认证",
+        "tag": "音质认证",
+        "tags": [],
+        "evidence": {
+          "value": "LHDC 5.0高清音频解码，频响范围达到了20Hz–48kHz，能够提供声音饱满开阔、细节丰富的音频效果，并获得了Hi-Res Audio Wireless认证",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "LHDC 5.0高清音频解码，频响范围达到了20Hz–48kHz，能够提供声音饱满开阔、细节丰富的音频效果，并获得了Hi-Res Audio Wireless认证"
+        }
+      },
+      {
+        "text": "支持3麦克风+VPU骨传导通话降噪，有效保障复杂环境下的清晰通话",
         "tag": "降噪",
+        "tags": [],
         "evidence": {
-          "value": "支持CVC通话降噪和HD高清通话等功能。",
-          "confidence": 0.63,
+          "value": "支持3麦克风+VPU骨传导通话降噪，有效保障复杂环境下的清晰通话",
+          "confidence": 0.74,
           "source_type": "text",
-          "source_text": "支持CVC通话降噪和HD高清通话等功能。"
+          "source_text": "支持3麦克风+VPU骨传导通话降噪，有效保障复杂环境下的清晰通话"
         }
       },
       {
-        "text": "侧面，在防尘防水盖保护下的Micro USB接口。",
-        "tag": "防水防尘",
+        "text": "通过定向传音结构和逆向声波防漏音技术，守护用户隐私",
+        "tag": "开放佩戴",
+        "tags": [],
         "evidence": {
-          "value": "侧面，在防尘防水盖保护下的Micro USB接口。",
-          "confidence": 0.56,
+          "value": "通过定向传音结构和逆向声波防漏音技术，守护用户隐私",
+          "confidence": 0.74,
           "source_type": "text",
-          "source_text": "侧面，在防尘防水盖保护下的Micro USB接口。"
+          "source_text": "通过定向传音结构和逆向声波防漏音技术，守护用户隐私"
         }
       },
       {
-        "text": "在运动方面，除了保持佩戴稳固、保证音频不断连之外还需要长效的续航以及防水性能。",
-        "tag": "防水防尘",
+        "text": "全新形态的小米耳夹式耳机不仅具备出众的质感和舒适的佩戴体验，同时拥有旗舰级音质、全维度智能体验，多场景智能录音和全方位精准查找，此外全面兼容苹果生态，满足更多消费群体的使用需求",
+        "tag": "旗舰定位",
+        "tags": [],
         "evidence": {
-          "value": "在运动方面，除了保持佩戴稳固、保证音频不断连之外还需要长效的续航以及防水性能。",
+          "value": "全新形态的小米耳夹式耳机不仅具备出众的质感和舒适的佩戴体验，同时拥有旗舰级音质、全维度智能体验，多场景智能录音和全方位精准查找，此外全面兼容苹果生态，满足更多消费群体的使用需求",
           "confidence": 0.75,
           "source_type": "text",
-          "source_text": "在运动方面，除了保持佩戴稳固、保证音频不断连之外还需要长效的续航以及防水性能。"
+          "source_text": "全新形态的小米耳夹式耳机不仅具备出众的质感和舒适的佩戴体验，同时拥有旗舰级音质、全维度智能体验，多场景智能录音和全方位精准查找，此外全面兼容苹果生态，满足更多消费群体的使用需求"
         }
       },
       {
-        "text": "下面我爱音频网通过拆解来为大家展示一下这款耳机的防水科技。",
-        "tag": "防水防尘",
+        "text": "电池仓内侧大曲率设计，更加贴合耳部轮廓，避免局部高压电，提供持久舒适佩戴",
+        "tag": "舒适佩戴",
+        "tags": [],
         "evidence": {
-          "value": "下面我爱音频网通过拆解来为大家展示一下这款耳机的防水科技。",
+          "value": "电池仓内侧大曲率设计，更加贴合耳部轮廓，避免局部高压电，提供持久舒适佩戴",
           "confidence": 0.73,
           "source_type": "text",
-          "source_text": "下面我爱音频网通过拆解来为大家展示一下这款耳机的防水科技。"
-        }
-      },
-      {
-        "text": "支持IPX4级别防水，可以应付运动中出现的一些溅水情况。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "支持IPX4级别防水，可以应付运动中出现的一些溅水情况。",
-          "confidence": 0.64,
-          "source_type": "text",
-          "source_text": "支持IPX4级别防水，可以应付运动中出现的一些溅水情况。"
-        }
-      },
-      {
-        "text": "耳机导管上有防尘滤网。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "耳机导管上有防尘滤网。",
-          "confidence": 0.57,
-          "source_type": "text",
-          "source_text": "耳机导管上有防尘滤网。"
+          "source_text": "电池仓内侧大曲率设计，更加贴合耳部轮廓，避免局部高压电，提供持久舒适佩戴"
         }
       }
     ],
     "scenarios": [
       "运动",
+      "睡眠",
       "通话"
     ],
-    "positioning_summary": "支持CVC通话降噪和HD高清通话等功能。",
+    "positioning_summary": "主打音质认证、降噪、开放佩戴、旗舰定位；适用运动、睡眠、通话等场景",
     "launch_date": null,
-    "best_report_id": "12295",
+    "best_report_id": "285892",
     "best_video_id": null,
     "selling_points_summary": [
       {
-        "tag": "降噪",
-        "text": "支持CVC通话降噪和HD高清通话功能。"
+        "tag": "音质",
+        "text": "11mm微晶金属涂层动圈单元，声音饱满开阔"
       },
       {
-        "tag": "防水防尘",
-        "text": "支持IPX4级别防水，可应付运动溅水。"
+        "tag": "音质认证",
+        "text": "LHDC 5.0解码，频响20Hz-48kHz，获Hi-Res认证"
       },
       {
-        "tag": "防水防尘",
-        "text": "耳机导管设有防尘滤网。"
+        "tag": "通话降噪",
+        "text": "3麦克风+VPU骨传导降噪，复杂环境通话清晰"
       },
       {
-        "tag": "防水防尘",
-        "text": "Micro USB接口有防尘防水盖保护。"
+        "tag": "防漏音",
+        "text": "定向传音与逆向声波防漏音，保护隐私"
+      },
+      {
+        "tag": "佩戴舒适",
+        "text": "大曲率贴合耳廓，避免局部高压，持久舒适"
+      },
+      {
+        "tag": "智能体验",
+        "text": "多场景智能录音，全方位精准查找，兼容苹果生态"
       }
     ],
     "selling_points_summary_meta": {
       "model": "deepseek-v4-flash",
-      "source_hash": "ddb9966ccfe88e9fac86180b793271a6e5e0736922119202e4b4f518b43424dc"
+      "source_hash": "f0ec9f35baff1d2d25070c43d6fe922c652015cf706ecf090c702c521d044e74"
     }
   },
   "launch": {
