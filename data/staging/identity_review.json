@@ -1,10 +1,10 @@
 {
-  "generated_at": "2026-08-16T02:35:30+00:00",
+  "generated_at": "2026-08-17T02:25:39+00:00",
   "policy": "Only resolved single-SKU identities may enter automatic official-price lookup.",
   "summary": {
-    "total": 321,
+    "total": 322,
     "by_reason": {
-      "brand_missing": 318,
+      "brand_missing": 319,
       "model_generic": 2,
       "not_a_single_sku": 1
     }
@@ -39,6 +39,16 @@
       "report_count": 2,
       "video_count": 2,
       "reason": "model_generic"
+    },
+    {
+      "canonical_id": "unknown--samsunggalaxy-buds-core",
+      "brand": "",
+      "model": "SAMSUNG三星Galaxy Buds Core",
+      "category": "真无线耳机TWS",
+      "first_seen": "2026-08-17",
+      "report_count": 1,
+      "video_count": 0,
+      "reason": "brand_missing"
     },
     {
       "canonical_id": "unknown--devialetgemini",
