@@ -1,0 +1,477 @@
+{
+  "canonical_id": "ugreen--hitune-s3",
+  "brand": "UGREEN绿联",
+  "model": "HiTune S3",
+  "category": "开放式耳机",
+  "report_ids": [
+    "286575"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "286575"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2026-08-21",
+  "latest_published": "2026-08-21",
+  "internal_match_suggestions": [
+    {
+      "sku": "OpenFit 2",
+      "score": 0.483,
+      "reason": "型号相似度 48%（匹配 OpenFit 2）；品类一致"
+    },
+    {
+      "sku": "OpenDots 2",
+      "score": 0.47,
+      "reason": "型号相似度 47%（匹配 OpenDots 2）；品类一致"
+    }
+  ],
+  "cost_snapshot": {
+    "main_chip": "JL7103",
+    "pmic_case": "INJOINIC英集芯 INJOINIC英集芯IP5516",
+    "battery_ear": "3.7V/50mAh锂电池",
+    "battery_case": "3.7V/500mAh锂电池",
+    "speaker": "振膜动圈",
+    "materials": "",
+    "weight_g": "46.8g",
+    "weight_case_g": "",
+    "weight_earbud_g": "5.5g",
+    "ip_rating": "IPX5",
+    "bluetooth": "",
+    "bom_row_count": 19,
+    "price_cny": null,
+    "price_currency": "CNY",
+    "price_kind": "",
+    "price_layer": null,
+    "price_source_label": "",
+    "price_source_url": "",
+    "price_evidence": "",
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "286575",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "INJOINIC英集芯IP5516",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "PMIC/充电仓管理",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5516",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载万锂新能源3.7V/500mAh锂电池组，采用了INJOINIC英集芯IP5516充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，负责内置电池的充放电管理和整机控制；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "Prisemi芯导",
+      "model": "Prisemi芯导P14C1S",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "Prisemi芯导P14C1S",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "还采用了Prisemi芯导P14C1S过压过流保护IC，保护后级电路安全。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3.7V/500mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3.7V/500mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载万锂新能源3.7V/500mAh锂电池组，采用了INJOINIC英集芯IP5516充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，负责内置电池的充放电管理和整机控制；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "JL杰理",
+      "model": "JL7103",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "JL7103",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "采用了JL杰理科技JL7103D蓝牙音频SoC，用于无线连接和音频信号处理。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3.7V/50mAh锂电池",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "3.7V/50mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载ST神通锂电3.7V/50mAh锂电池供电，内置一颗MEMS麦克风拾音；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "振膜动圈",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "振膜动圈",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "采用了12mm PU+生物纤维振膜动圈喇叭，用于提供出色音质；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载ST神通锂电3.7V/50mAh锂电池供电，内置一颗MEMS麦克风拾音；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面设计有操作指南，介绍了产品参数信息。产品名称：UGREEN HiTune S3开放式真无线蓝牙耳机，产品型号：WS209，蓝牙版本：5.4，无线频段：24000Mhz~2483.5MHz，最大射频功率：4dBm，传输距离：10m Max（无遮挡），蓝牙协议：HFP/AVRCP/A2DP/BLE/SPP，蓝牙编解码：AAC/SBC，频响范围：20Hz~20kHz，电池容量：耳机50mAh 3.7V（0.185Wh），充电盒500mAh 3.7V（1.85Wh），充电限制电压：5.25V-，充电盒输入：5V-500mAh，充电盒输出：5V-300mA，续航时间：耳机单次音乐播放约7.5小时，搭配充电盒音乐播放约30小时。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面设计有操作指南，介绍了产品参数信息。产品名称：UGREEN HiTune S3开放式真无线蓝牙耳机，产品型号：WS209，蓝牙版本：5.4，无线频段：24000Mhz~2483.5MHz，最大射频功率：4dBm，传输距离：10m Max（无遮挡），蓝牙协议：HFP/AVRCP/A2DP/BLE/SPP，蓝牙编解码：AAC/SBC，频响范围：20Hz~20kHz，电池容量：耳机50mAh 3.7V（0.185Wh），充电盒500mAh 3.7V（1.85Wh），充电限制电压：5.25V-，充电盒输入：5V-500mAh，充电盒输出：5V-300mA，续航时间：耳机单次音乐播放约7.5小时，搭配充电盒音乐播放约30小时。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部结构一览，设置有主板和电池单元，电池上覆盖海绵垫防护。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "在功能上，UGREEN绿联HiTune S3开放式耳机搭载12mm PU+生物振膜定制动圈喇叭，提供高解析音质；支持双麦AI智能降噪，实现清晰通话；支持定向传音，通过近耳定向声波和反向抵消声波，保障用户隐私；其他还支持低延迟游戏模式、具备IPX5防水，可提供单次约7.5小时，综合约30小时的续航时间。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网此前还拆解过绿联HiTune S6 Magic、S8、S5开放式耳机，Hitune T6s、Hitune T6 Magic、HiTune T6、HiTune X6真无线降噪耳机，绿联HiTune T3、HiTune T2、HiTune T1、HiTune WS100真无线耳机，HiTune Max5c、HiTune Max3头戴式耳机，绿联MIC6无线领夹式麦克风、绿联无线蓝牙麦克风、苹果入耳式有线耳机和USB车载蓝牙音频接收器等。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "撬开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "绿联HiTune S3开放式耳机充电盒采用了圆润的鹅卵石状造型，磨砂质感，正面设计有品牌LOGO和一颗指示灯。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体底部的充电触点特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP5516",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5516",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "INJOINIC英集芯IP5516充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，为TWS蓝牙耳机充电仓提供完整的电源解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "英集芯IP5516",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "英集芯IP5516",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "英集芯IP5516的高集成度与丰富功能，使其在应用时仅需极少的外围器件，并有效减小整体方案的尺寸。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Prisemi芯导P14C1S",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Prisemi芯导P14C1S",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Prisemi芯导P14C1S过压过流保护IC，输入耐压高达32V，过压保护点为固定6V。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "JL7103",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "JL7103",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "JL杰理科技JL7103D蓝牙音频SoC，用于无线连接和音频信号处理。"
+      }
+    }
+  ],
+  "summary_image_urls": [
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/08/2026082108570434.png",
+      "alt": "拆解报告：UGREEN绿联HiTune S3开放式耳机-我爱音频网",
+      "caption": "",
+      "section_hint": "summary_bom",
+      "score": 10
+    }
+  ],
+  "summary_text": "三、我爱音频网总结 最后附上UGREEN绿联HiTune S3开放式耳机的已知核心物料清单，方便大家查阅。 UGREEN绿联HiTune S3开放式耳机在外观方面，充电盒采用了鹅卵石状设计，磨砂质感，体积相对轻薄便携。耳夹式设计腔体采用光滑的亮面质感，连接桥采用了记忆钛丝+软胶材质包裹，佩戴亲肤，舒适稳定。 内部主要配置方面，充电盒搭载万锂新能源3.7V/500mAh锂电池组，采用了INJOINIC英集芯IP5516充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示、5V单向通讯等功能，负责内置电池的充放电管理和整机控制；还采用了Prisemi芯导P14C1S过压过流保护IC，保护后级电路安全。 耳机内部搭载ST神通锂电3.7V/50mAh锂电池供电，内置一颗MEMS麦克风拾音；采用了12mm PU+生物纤维振膜动圈喇叭，用于提供出色音质；采用了JL杰理科技JL7103D蓝牙音频SoC，用于无线连接和音频信号处理。",
+  "layer_refs": {
+    "technical": [
+      "report:286575"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "12mm PU+生物振膜定制动圈喇叭，提供高解析音质",
+        "tag": "音质认证",
+        "tags": [],
+        "evidence": {
+          "value": "12mm PU+生物振膜定制动圈喇叭，提供高解析音质",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "12mm PU+生物振膜定制动圈喇叭，提供高解析音质"
+        }
+      },
+      {
+        "text": "支持双麦AI智能降噪，实现清晰通话",
+        "tag": "降噪",
+        "tags": [],
+        "evidence": {
+          "value": "支持双麦AI智能降噪，实现清晰通话",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "支持双麦AI智能降噪，实现清晰通话"
+        }
+      },
+      {
+        "text": "支持定向传音，通过近耳定向声波和反向抵消声波，保障用户隐私",
+        "tag": "开放佩戴",
+        "tags": [],
+        "evidence": {
+          "value": "支持定向传音，通过近耳定向声波和反向抵消声波，保障用户隐私",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "支持定向传音，通过近耳定向声波和反向抵消声波，保障用户隐私"
+        }
+      },
+      {
+        "text": "其他还支持低延迟游戏模式、具备IPX5防水，可提供单次约7.5小时，综合约30小时的续航时间",
+        "tag": "游戏低延迟",
+        "tags": [
+          "防水防尘",
+          "长续航"
+        ],
+        "evidence": {
+          "value": "其他还支持低延迟游戏模式、具备IPX5防水，可提供单次约7.5小时，综合约30小时的续航时间",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "其他还支持低延迟游戏模式、具备IPX5防水，可提供单次约7.5小时，综合约30小时的续航时间"
+        }
+      },
+      {
+        "text": "耳夹式设计，提供轻盈又稳固的舒适佩戴体验，适配通勤、运动等多元场景",
+        "tag": "舒适佩戴",
+        "tags": [
+          "开放佩戴"
+        ],
+        "evidence": {
+          "value": "耳夹式设计，提供轻盈又稳固的舒适佩戴体验，适配通勤、运动等多元场景",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "耳夹式设计，提供轻盈又稳固的舒适佩戴体验，适配通勤、运动等多元场景"
+        }
+      },
+      {
+        "text": "电池背面设计有CCC认证标志和禁止丢弃标识",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "电池背面设计有CCC认证标志和禁止丢弃标识",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "电池背面设计有CCC认证标志和禁止丢弃标识"
+        }
+      },
+      {
+        "text": "下面就来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过\n绿联HiTune S6 Magic\n、\nS8\n、\nS5\n开放式耳机，\nHit\nune T6s\n、\nHitune T6 Magic\n、HiTune T6\n、\nHiTune …",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "下面就来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过\n绿联HiTune S6 Magic\n、\nS8\n、\nS5\n开放式耳机，\nHit\nune T6s\n、\nHitune T6 Magic\n、HiTune T6\n、\nHiTune …",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "下面就来看看这款产品的详细拆解报告吧~\n我爱音频网此前还拆解过\n绿联HiTune S6 Magic\n、\nS8\n、\nS5\n开放式耳机，\nHit\nune T6s\n、\nHitune T6 Magic\n、HiTune T6\n、\nHiTune …"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "游戏",
+      "通勤",
+      "通话"
+    ],
+    "positioning_summary": "主打音质认证、降噪、开放佩戴、游戏低延迟；适用运动、游戏、通勤等场景",
+    "launch_date": null,
+    "best_report_id": "286575",
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "音质",
+        "text": "12mm PU+生物振膜动圈喇叭，提供高解析音质"
+      },
+      {
+        "tag": "降噪",
+        "text": "双麦AI智能降噪，实现清晰通话"
+      },
+      {
+        "tag": "隐私保护",
+        "text": "定向传音技术，近耳声波与反向抵消保障隐私"
+      },
+      {
+        "tag": "游戏低延迟",
+        "text": "低延迟游戏模式，提升游戏体验"
+      },
+      {
+        "tag": "防水续航",
+        "text": "IPX5防水，单次7.5小时，综合30小时续航"
+      },
+      {
+        "tag": "佩戴体验",
+        "text": "耳夹式设计，轻盈稳固，适配多场景"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "d67d4f2b769243c1cc21a96e36cd9d88e82081629914b11869c1d5ab0354483f"
+    }
+  },
+  "launch": {
+    "date": "",
+    "display": "上市时间待核验",
+    "scope": "",
+    "status": "pending",
+    "source_url": "",
+    "evidence": "",
+    "source_type": ""
+  }
+}
