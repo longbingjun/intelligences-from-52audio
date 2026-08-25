@@ -1,0 +1,516 @@
+{
+  "canonical_id": "unknown--life-flypods-5i",
+  "brand": "荣耀",
+  "model": "Life FlyPods 5i",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "286839"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "286839"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2026-08-25",
+  "latest_published": "2026-08-25",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "BES2710IHC",
+    "pmic_case": "CM1125",
+    "battery_ear": "电池",
+    "battery_case": "3.8V/500mAh锂电池",
+    "speaker": "动圈单元",
+    "materials": "硅胶",
+    "weight_g": "47.4g",
+    "weight_case_g": "",
+    "weight_earbud_g": "5.1g",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 22,
+    "price_cny": null,
+    "price_currency": "CNY",
+    "price_kind": "",
+    "price_layer": null,
+    "price_source_label": "",
+    "price_source_url": "",
+    "price_evidence": "",
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "286839",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "BES2710IHC",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2710IHC",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片为BES恒玄科技BES2710IHC蓝牙音频SoC，外围采用3颗光之神GPL1608系列叠层合金功率电感，具备高Q值、大电流、超薄小尺寸、低DCR、高可靠性等特点。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内置50mAh钢壳扣式电池，采用了11mm+6mm双镀钛动圈单元和3颗意芯微电子的MEMS麦克风；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内置50mAh钢壳扣式电池，采用了11mm+6mm双镀钛动圈单元和3颗意芯微电子的MEMS麦克风；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1125",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "CM1125",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内部搭载了长虹聚和源3.8V/500mAh锂电池，配备ICM创芯微CM1125-CBS锂电保护IC，负责过充过放过流等保护；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "思远半导体",
+      "model": "思远半导体SY8835",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8835",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "采用思远半导体SY8835蓝牙耳机充电仓解决方案，负责内置电池的充放电管理和整机控制。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3.8V/500mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3.8V/500mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内部搭载了长虹聚和源3.8V/500mAh锂电池，配备ICM创芯微CM1125-CBS锂电保护IC，负责过充过放过流等保护；"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "HONOR Life FlyPods 5i支持主动降噪，最大降噪深度可达55dB，且支持极深、深度、中度、轻度四档降噪模式调节和自适应，适配不同场景，提供个性化舒适降噪；支持三麦AI通话降噪，且具备32km/h骑行级抗风噪，保障各种场景的清晰通话；其他还支持双设备连接、游戏低延迟，搭配APP可提供AI面对面翻译、查找耳机等功能，耳机单次续航可达11小时，搭配充电盒综合续航46小时。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱内部标注的产品参数信息一览。电池容量：500mAh 1.9Wh，输入：5V-1A，输出：5V-0.2A，江西联创宏声电子股份有限公司。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "沿合模线打开音腔，内部排线连接到耳机柄内的主板。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身顶部的前馈降噪麦克风拾音孔特写。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧贴有蓝牙天线和触摸检测贴片。右端通话麦克风拾音孔设置有海绵罩和丝网防护。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "分离双扬声器。低频单元振膜特写，采用了镀钛复合振膜。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "HONOR Life FlyPods 5i支持主动降噪，最大降噪深度可达55dB，且支持极深、深度、中度、轻度四档降噪模式调节和自适应，适配不同场景，提供个性化舒适降噪；支持三麦AI通话降噪，且具备32km/h骑行级抗风噪，保障各种场景的清晰通话；其他还支持双设备连接、游戏低延迟，搭配APP可提供AI面对面翻译、查找耳机等功能，耳机单次续航可达11小时，搭配充电盒综合续航46小时。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "前腔上固定的电池单元结构一览。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面设置一颗指示灯，用于反馈蓝牙配对及充电状态。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "用于蓝牙配对的功能按键特写。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄内侧的充电触点特写，中间设计R/右标识。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网此前还拆解过荣耀Earbuds开放式耳机，荣耀亲选LCHSE耳夹式耳机2 Pro、TiinLab耳挂式耳机，荣耀Earbuds 4、Earbuds X5、Earbuds 3 Pro、Earbuds 2 SE，荣耀亲选GEG X7e青春版、Wingcloud X5s Pro、LCHSE X7i真无线耳机，荣耀亲选LCHSE运动蓝牙耳机、KUMI AI Note录音卡、迪士尼便携蓝牙音箱、Ikarao蓝牙音箱mini，荣耀手环10、荣耀手表5、荣耀手表4 Pro、荣耀手表GS 4、荣耀亲选Haylou Watch智能手表，荣耀亲选 悦喔无线耳鼠Pro等产品。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2710IHC",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2710IHC",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄科技BES2710IHC蓝牙音频SoC，用于无线连接和音频数据处理。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8835",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8835",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "思远半导体SY8835蓝牙耳机充电仓解决方案，是一款专为蓝牙耳机充电仓设计的高集成度芯片。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8835",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8835",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "思远半导体SY8835集成了MCU模块，内核为8bit RISC CPU，兼容RISC-52指令集，内置16k Bytes FLASH空间，4k Bytes NVR空间，1k Bytes SRAM，一个10bit SAR ADC，1路4通道PWM，2个16bit Timer，3个半双工UART。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1125",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM1125",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "ICM创芯微CM1125-CBS锂电保护IC。"
+      }
+    }
+  ],
+  "summary_image_urls": [
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/08/2026082501070870.png",
+      "alt": "拆解报告：荣耀HONOR Life FlyPods 5i真无线降噪耳机-我爱音频网",
+      "caption": "",
+      "section_hint": "summary_bom",
+      "score": 10
+    }
+  ],
+  "summary_text": "三、我爱音频网总结 最后附上荣耀HONOR Life FlyPods 5i真无线降噪耳机的已知核心物料清单，方便大家查阅。 荣耀HONOR Life FlyPods 5i真无线降噪耳机在外观设计方面，充电盒采用了扁平的圆角方形设计，体积轻巧便携；半透明盒盖，更显时尚感和精致感。耳机采用了柄状的入耳式设计，人体工学入耳曲线，佩戴耳道舒适稳固贴合；陨石灰配色，金属漆涂层，质感也比较出色。 内部主要配置方面，耳机内置50mAh钢壳扣式电池，采用了11mm+6mm双镀钛动圈单元和3颗意芯微电子的MEMS麦克风；主控芯片为BES恒玄科技BES2710IHC蓝牙音频SoC，外围采用3颗光之神GPL1608系列叠层合金功率电感，具备高Q值、大电流、超薄小尺寸、低DCR、高可靠性等特点。 充电盒内部搭载了长虹聚和源3.8V/500mAh锂电池，配备ICM创芯微CM1125-CBS锂电保护IC，负责过充过放过流等保护；采用思远半导体SY8835蓝牙耳机充电仓解决方案，负责内置电池的充放电管理和整机控制。",
+  "layer_refs": {
+    "technical": [
+      "report:286839"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "主动降噪，最大降噪深度可达55dB，且支持极深、深度、中度、轻度四档降噪模式调节和自适应，适配不同场景，提供个性化舒适降噪",
+        "tag": "降噪",
+        "tags": [],
+        "evidence": {
+          "value": "主动降噪，最大降噪深度可达55dB，且支持极深、深度、中度、轻度四档降噪模式调节和自适应，适配不同场景，提供个性化舒适降噪",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "主动降噪，最大降噪深度可达55dB，且支持极深、深度、中度、轻度四档降噪模式调节和自适应，适配不同场景，提供个性化舒适降噪"
+        }
+      },
+      {
+        "text": "支持三麦AI通话降噪，且具备32km/h骑行级抗风噪，保障各种场景的清晰通话",
+        "tag": "降噪",
+        "tags": [],
+        "evidence": {
+          "value": "支持三麦AI通话降噪，且具备32km/h骑行级抗风噪，保障各种场景的清晰通话",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "支持三麦AI通话降噪，且具备32km/h骑行级抗风噪，保障各种场景的清晰通话"
+        }
+      },
+      {
+        "text": "双设备连接、游戏低延迟，搭配APP可提供AI面对面翻译、查找耳机等功能，耳机单次续航可达11小时，搭配充电盒综合续航46小时",
+        "tag": "游戏低延迟",
+        "tags": [
+          "长续航"
+        ],
+        "evidence": {
+          "value": "双设备连接、游戏低延迟，搭配APP可提供AI面对面翻译、查找耳机等功能，耳机单次续航可达11小时，搭配充电盒综合续航46小时",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "双设备连接、游戏低延迟，搭配APP可提供AI面对面翻译、查找耳机等功能，耳机单次续航可达11小时，搭配充电盒综合续航46小时"
+        }
+      },
+      {
+        "text": "详细功能配置上，该产品搭载11+6mm同轴双镀钛动圈",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "详细功能配置上，该产品搭载11+6mm同轴双镀钛动圈",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "详细功能配置上，该产品搭载11+6mm同轴双镀钛动圈"
+        }
+      },
+      {
+        "text": "支持LHDC5.0高清解码，获得了Hi‑Res AUDIO WIRELESS金标认证",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "支持LHDC5.0高清解码，获得了Hi‑Res AUDIO WIRELESS金标认证",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "支持LHDC5.0高清解码，获得了Hi‑Res AUDIO WIRELESS金标认证"
+        }
+      },
+      {
+        "text": "支持空间声场，能够呈现私人剧院般的3D环绕立体声",
+        "tag": "空间音频",
+        "tags": [],
+        "evidence": {
+          "value": "支持空间声场，能够呈现私人剧院般的3D环绕立体声",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "支持空间声场，能够呈现私人剧院般的3D环绕立体声"
+        }
+      },
+      {
+        "text": "预设4种EQ音效，满足个性化听音喜好",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "预设4种EQ音效，满足个性化听音喜好",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "预设4种EQ音效，满足个性化听音喜好"
+        }
+      },
+      {
+        "text": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n小米、vivo、OPPO、realme、韶音、Keep、悠律声学、Nothing、夸克、出门问问，\nREDMI、漫步者、倍思、绿联、万魔、猛玛、博雅、神牛、闪克、优篮子、眷蜀…",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n小米、vivo、OPPO、realme、韶音、Keep、悠律声学、Nothing、夸克、出门问问，\nREDMI、漫步者、倍思、绿联、万魔、猛玛、博雅、神牛、闪克、优篮子、眷蜀…",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n小米、vivo、OPPO、realme、韶音、Keep、悠律声学、Nothing、夸克、出门问问，\nREDMI、漫步者、倍思、绿联、万魔、猛玛、博雅、神牛、闪克、优篮子、眷蜀…"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "办公",
+      "游戏",
+      "通话"
+    ],
+    "positioning_summary": "主打降噪、游戏低延迟、空间音频；适用运动、办公、游戏等场景",
+    "launch_date": null,
+    "best_report_id": "286839",
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "降噪",
+        "text": "主动降噪最大深度55dB，四档模式可调并支持自适应"
+      },
+      {
+        "tag": "降噪",
+        "text": "三麦AI通话降噪，具备32km/h骑行级抗风噪"
+      },
+      {
+        "tag": "续航",
+        "text": "单次续航11小时，搭配充电盒综合续航46小时"
+      },
+      {
+        "tag": "功能",
+        "text": "支持双设备连接、游戏低延迟及AI面对面翻译"
+      },
+      {
+        "tag": "音质",
+        "text": "搭载11+6mm同轴双镀钛动圈，支持LHDC5.0高清解码"
+      },
+      {
+        "tag": "音效",
+        "text": "支持空间声场3D环绕立体声，预设4种EQ音效"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "91a3c91b143a930436b6d43a422a589eda9e59a429a7304dc8bc9c8ce42c8fda"
+    }
+  },
+  "launch": {
+    "date": "",
+    "display": "上市时间待核验",
+    "scope": "",
+    "status": "pending",
+    "source_url": "",
+    "evidence": "",
+    "source_type": ""
+  }
+}
