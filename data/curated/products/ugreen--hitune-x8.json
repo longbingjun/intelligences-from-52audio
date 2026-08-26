@@ -1,0 +1,448 @@
+{
+  "canonical_id": "ugreen--hitune-x8",
+  "brand": "UGREEN绿联",
+  "model": "HiTune X8",
+  "category": "开放式耳机",
+  "report_ids": [
+    "287125"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "287125"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2026-08-26",
+  "latest_published": "2026-08-26",
+  "internal_match_suggestions": [
+    {
+      "sku": "OpenFit 2",
+      "score": 0.483,
+      "reason": "型号相似度 48%（匹配 OpenFit 2）；品类一致"
+    }
+  ],
+  "cost_snapshot": {
+    "main_chip": "BES2710IHC",
+    "pmic_case": "INJOINIC英集芯 INJOINIC英集芯IP5528",
+    "battery_ear": "微电新能源 3.85V/60mAh软包扣式",
+    "battery_case": "3.7V/600mAh锂电池",
+    "speaker": "喇叭单元",
+    "materials": "镁合金",
+    "weight_g": "59.1g",
+    "weight_case_g": "",
+    "weight_earbud_g": "6.1g",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 17,
+    "price_cny": null,
+    "price_currency": "CNY",
+    "price_kind": "",
+    "price_layer": null,
+    "price_source_label": "",
+    "price_source_url": "",
+    "price_evidence": "",
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "287125",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "INJOINIC英集芯",
+      "model": "INJOINIC英集芯IP5528",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "PMIC/充电仓管理",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5528",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载旭航诚3.7V/600mAh锂电池，主板上采用INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示等功能，支持跟随充电，负责内置电池的高效充放电管理，以及充电盒的整机控制。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3.7V/600mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3.7V/600mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载旭航诚3.7V/600mAh锂电池，主板上采用INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示等功能，支持跟随充电，负责内置电池的高效充放电管理，以及充电盒的整机控制。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "BES2710IHC",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2710IHC",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机主控芯片采用BES恒玄科技BES2710IHC蓝牙音频SoC，外围配备多颗Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "微电新能源",
+      "model": "3.85V/60mAh软包扣式",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "3.85V/60mAh软包扣式",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载了WD微电新能源3.85V/60mAh软包扣式电池、11mm双磁钛膜喇叭；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "内置2颗瑞琴电子的MEMS麦克风，搭配一颗VPU骨传导麦克风，实现精准的收音效果；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面设计有佩戴场景图，以及产品的详细参数信息。产品名称：UGREEN HiTune X8开放式真无线蓝牙耳机，产品型号：WS223，蓝牙协议：HFP/AVRCP/A2DP/BLE/SPP，音频编解码：AAC/SBC/LDAC，频响范围：20Hz~40kHz，电池容量：耳机：60mAh 3.85V（0.231Wh）、充电盒：600mAh 3.7V（2.22Wh），充电限制电压：5.25V，充电盒输入：5V-1A，充电盒输出：5V-300mA，颜色：香槟金，深圳市绿联科技股份有限公司。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面设计有佩戴场景图，以及产品的详细参数信息。产品名称：UGREEN HiTune X8开放式真无线蓝牙耳机，产品型号：WS223，蓝牙协议：HFP/AVRCP/A2DP/BLE/SPP，音频编解码：AAC/SBC/LDAC，频响范围：20Hz~40kHz，电池容量：耳机：60mAh 3.85V（0.231Wh）、充电盒：600mAh 3.7V（2.22Wh），充电限制电压：5.25V，充电盒输入：5V-1A，充电盒输出：5V-300mA，颜色：香槟金，深圳市绿联科技股份有限公司。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "座舱底部通过螺丝固定主板，与排线通过连接器连接，与电池导线焊接。主板上IC打胶防护。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "绿联HiTune X8升级4Mic+2骨声纹麦克风，搭配降噪算法精准分离人声与环境噪音，使嘈杂环境下依然能够保持清晰通话；绿联HiTune X8搭配手机APP，支持AI语音翻译、会议录音转文字和智能摘要，且功能终身免费使用；其他还支持全域触控、入耳检测、健康使用提醒等功能，可提供单次10小时，综合46h的持久续航时间。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "C桥盖板内侧的蓝牙天线特写。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机扬声器正面特写，采用了镀钛复合振膜。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体底部设置充电触点。腔体内侧弧形设计，佩戴时有效分散压力，提升舒适性。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "绿联HiTune X8升级4Mic+2骨声纹麦克风，搭配降噪算法精准分离人声与环境噪音，使嘈杂环境下依然能够保持清晰通话；绿联HiTune X8搭配手机APP，支持AI语音翻译、会议录音转文字和智能摘要，且功能终身免费使用；其他还支持全域触控、入耳检测、健康使用提醒等功能，可提供单次10小时，综合46h的持久续航时间。下面就来看看这款产品的详细拆解报告吧~"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "UGREEN绿联HiTune X8开放式耳机充电盒采用了鹅卵石状的圆润设计，金属漆涂层+类肤涂层双重工艺处理，质感出色。充电盒正面设计有全新LOGO，以及一颗指示灯。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "INJOINIC英集芯IP5528",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "INJOINIC英集芯IP5528",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，是一款集成MCU、升压转换器、锂电池充电管理、电池电量指示的多功能电源管理SOC，为TWS充电仓提供完整的解决方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "IP5528",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "IP5528",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "得益于IP5528的高集成度与丰富功能，在应用时仅需极少的外围器件，有效减小整体方案的尺寸， 降低BOM成本。"
+      }
+    }
+  ],
+  "summary_image_urls": [
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/08/2026082601343774.png",
+      "alt": "拆解报告：UGREEN绿联HiTune X8开放式耳机-我爱音频网",
+      "caption": "",
+      "section_hint": "summary_bom",
+      "score": 10
+    }
+  ],
+  "summary_text": "三、我爱音频网总结 最后附上UGREEN绿联HiTune X8开放式耳机的已知核心物料清单，方便大家查阅。 UGREEN绿联HiTune X8开放式耳机在外观方面采用了全新设计，金属漆涂层+类肤涂层双重工艺处理，整体质感相较于S系列更加出色。耳夹式耳机采用绿联专利C桥设计，内嵌0.5mm钛镁合金记忆丝，外部通过亲肤材质包裹，佩戴夹持舒适稳定，且长期使用不易变形；C桥与腔体盖板的一体式设计，独具辨识度。 内部主要配置方面，充电盒搭载旭航诚3.7V/600mAh锂电池，主板上采用INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示等功能，支持跟随充电，负责内置电池的高效充放电管理，以及充电盒的整机控制。 耳机内部搭载了WD微电新能源3.85V/60mAh软包扣式电池、11mm双磁钛膜喇叭；内置2颗瑞琴电子的MEMS麦克风，搭配一颗VPU骨传导麦克风，实现精准的收音效果；耳机主控芯片采用BES恒玄科技BES2710IHC蓝牙音频SoC，外围配备多颗Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感。",
+  "layer_refs": {
+    "technical": [
+      "report:287125"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "11mm双磁钛膜喇叭，经由格莱美大师联合调音，同时支持LDAC高清音频解码，提供96kHz/24bit高解析音质，获得了Hi-Res Audio Wireless金标认证",
+        "tag": "音质认证",
+        "tags": [],
+        "evidence": {
+          "value": "11mm双磁钛膜喇叭，经由格莱美大师联合调音，同时支持LDAC高清音频解码，提供96kHz/24bit高解析音质，获得了Hi-Res Audio Wireless金标认证",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "11mm双磁钛膜喇叭，经由格莱美大师联合调音，同时支持LDAC高清音频解码，提供96kHz/24bit高解析音质，获得了Hi-Res Audio Wireless金标认证"
+        }
+      },
+      {
+        "text": "此外还支持定向传音技术，精准高效传声，降低漏音",
+        "tag": "开放佩戴",
+        "tags": [],
+        "evidence": {
+          "value": "此外还支持定向传音技术，精准高效传声，降低漏音",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "此外还支持定向传音技术，精准高效传声，降低漏音"
+        }
+      },
+      {
+        "text": "支持自适应声道技术，自动识别左右耳声道调节，佩戴不分左右，使用更加便捷",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "支持自适应声道技术，自动识别左右耳声道调节，佩戴不分左右，使用更加便捷",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "支持自适应声道技术，自动识别左右耳声道调节，佩戴不分左右，使用更加便捷"
+        }
+      },
+      {
+        "text": "2026年绿联再次推出了全新的HiTune X8旗舰耳夹耳机，并获得了2026年AWE艾普兰创新奖",
+        "tag": "旗舰定位",
+        "tags": [],
+        "evidence": {
+          "value": "2026年绿联再次推出了全新的HiTune X8旗舰耳夹耳机，并获得了2026年AWE艾普兰创新奖",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "2026年绿联再次推出了全新的HiTune X8旗舰耳夹耳机，并获得了2026年AWE艾普兰创新奖"
+        }
+      },
+      {
+        "text": "绿联HiTune X8升级4Mic+2骨声纹麦克风，搭配降噪算法精准分离人声与环境噪音，使嘈杂环境下依然能够保持清晰通话",
+        "tag": "降噪",
+        "tags": [],
+        "evidence": {
+          "value": "绿联HiTune X8升级4Mic+2骨声纹麦克风，搭配降噪算法精准分离人声与环境噪音，使嘈杂环境下依然能够保持清晰通话",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "绿联HiTune X8升级4Mic+2骨声纹麦克风，搭配降噪算法精准分离人声与环境噪音，使嘈杂环境下依然能够保持清晰通话"
+        }
+      },
+      {
+        "text": "绿联HiTune X8搭配手机APP",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "绿联HiTune X8搭配手机APP",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "绿联HiTune X8搭配手机APP"
+        }
+      },
+      {
+        "text": "支持AI语音翻译、会议录音转文字和智能摘要，且功能终身免费使用",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "支持AI语音翻译、会议录音转文字和智能摘要，且功能终身免费使用",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "支持AI语音翻译、会议录音转文字和智能摘要，且功能终身免费使用"
+        }
+      },
+      {
+        "text": "其他还支持全域触控、入耳检测、健康使用提醒等功能，可提供单次10小时，综合46h的持久续航时间",
+        "tag": "长续航",
+        "tags": [],
+        "evidence": {
+          "value": "其他还支持全域触控、入耳检测、健康使用提醒等功能，可提供单次10小时，综合46h的持久续航时间",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "其他还支持全域触控、入耳检测、健康使用提醒等功能，可提供单次10小时，综合46h的持久续航时间"
+        }
+      }
+    ],
+    "scenarios": [
+      "办公",
+      "通话"
+    ],
+    "positioning_summary": "主打音质认证、开放佩戴、旗舰定位、降噪；适用办公、通话等场景",
+    "launch_date": null,
+    "best_report_id": "287125",
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "音质认证",
+        "text": "11mm双磁钛膜喇叭，格莱美大师调音，支持LDAC高清音频解码，获Hi-Res金标认证"
+      },
+      {
+        "tag": "开放佩戴",
+        "text": "定向传音技术精准高效传声，有效降低漏音"
+      },
+      {
+        "tag": "便捷功能",
+        "text": "自适应声道技术自动识别左右耳，佩戴不分左右更便捷"
+      },
+      {
+        "tag": "旗舰定位",
+        "text": "2026年绿联HiTune X8旗舰耳夹耳机，获AWE艾普兰创新奖"
+      },
+      {
+        "tag": "降噪通话",
+        "text": "4Mic+2骨声纹麦克风搭配降噪算法，嘈杂环境通话依然清晰"
+      },
+      {
+        "tag": "智能功能",
+        "text": "支持AI语音翻译、会议录音转文字和智能摘要，功能终身免费使用"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "49f65f4aafd4caf289a79736a22f87fc5d3cc70bf8fd7a3cd8a860e9f4dc6de7"
+    }
+  },
+  "launch": {
+    "date": "",
+    "display": "上市时间待核验",
+    "scope": "",
+    "status": "pending",
+    "source_url": "",
+    "evidence": "",
+    "source_type": ""
+  }
+}

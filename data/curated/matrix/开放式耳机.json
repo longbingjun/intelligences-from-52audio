@@ -1,6 +1,6 @@
 {
   "category": "开放式耳机",
-  "generated_at": "2026-08-25T02:24:01+00:00",
+  "generated_at": "2026-08-26T02:40:20+00:00",
   "columns": [
     "brand",
     "model",
@@ -3318,7 +3318,7 @@
       "data_completeness": 0.83,
       "best_report_id": "242287",
       "has_report": true,
-      "has_video": false,
+      "has_video": true,
       "cost_fields": {
         "main_chip": {
           "value": "WINSEMI稳先微WSDF23A",
@@ -16175,6 +16175,148 @@
       "selling_point_tags": "降噪、其他",
       "scenarios": "通话",
       "positioning_summary": "详细功能配置方面，UGREEN绿联HiTune S6 Magic开放式耳机搭载12mm大振膜动圈，支持自适应低频补偿，支…"
+    },
+    {
+      "canonical_id": "ugreen--hitune-x8",
+      "brand": "UGREEN绿联",
+      "model": "HiTune X8",
+      "price_cny": null,
+      "launch_date": "上市时间待核验",
+      "launch_source_url": "",
+      "launch_evidence": "",
+      "launch_source_layer": "technical",
+      "price_currency": "CNY",
+      "price_layer": null,
+      "price_source_label": "",
+      "price_source_url": "",
+      "price_evidence": "",
+      "main_chip": "BES2710IHC",
+      "pmic": "INJOINIC英集芯 INJOINIC英集芯IP5528",
+      "battery_ear": "微电新能源 3.85V/60mAh软包扣式",
+      "battery_case": "3.7V/600mAh锂电池",
+      "speaker": "喇叭单元",
+      "materials": "镁合金",
+      "weight_g": "59.1g",
+      "weight_case_g": "",
+      "weight_earbud_g": "6.1g",
+      "ip_rating": "",
+      "bluetooth": "",
+      "bom_rows": 17,
+      "layer_badges": "technical",
+      "data_completeness": 1.0,
+      "best_report_id": "287125",
+      "has_report": true,
+      "has_video": false,
+      "cost_fields": {
+        "main_chip": {
+          "value": "BES2710IHC",
+          "evidence": "耳机主控芯片采用BES恒玄科技BES2710IHC蓝牙音频SoC，外围配备多颗Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感。",
+          "source_layer": "technical"
+        },
+        "pmic": {
+          "value": "INJOINIC英集芯 INJOINIC英集芯IP5528",
+          "evidence": "充电盒搭载旭航诚3.7V/600mAh锂电池，主板上采用INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示等功能，支持跟随充电，负责内置电池的高效充放电管理，以及充电盒的整机控制。",
+          "source_layer": "technical"
+        },
+        "battery_ear": {
+          "value": "微电新能源 3.85V/60mAh软包扣式",
+          "evidence": "耳机内部搭载了WD微电新能源3.85V/60mAh软包扣式电池、11mm双磁钛膜喇叭；",
+          "source_layer": "technical"
+        },
+        "battery_case": {
+          "value": "3.7V/600mAh锂电池",
+          "evidence": "充电盒搭载旭航诚3.7V/600mAh锂电池，主板上采用INJOINIC英集芯IP5528 TWS耳机充电仓管理SoC，集成MCU、升压转换器、锂电池充电管理、电池电量指示等功能，支持跟随充电，负责内置电池的高效充放电管理，以及充电盒的整机控制。",
+          "source_layer": "technical"
+        },
+        "battery": {
+          "value": "微电新能源 3.85V/60mAh软包扣式",
+          "evidence": "耳机内部搭载了WD微电新能源3.85V/60mAh软包扣式电池、11mm双磁钛膜喇叭；",
+          "source_layer": "technical"
+        },
+        "speaker": {
+          "value": "喇叭单元",
+          "evidence": "耳机扬声器正面特写，采用了镀钛复合振膜。",
+          "source_layer": "technical"
+        },
+        "case_charging": {
+          "value": "标配的充电线采用了USB-A to Type-C接口，端口雕刻有品牌名。",
+          "evidence": "标配的充电线采用了USB-A to Type-C接口，端口雕刻有品牌名。",
+          "source_layer": "technical"
+        },
+        "bom_rows": {
+          "value": "17",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "packaging": {
+          "value": "打开包装盒，取出内部所有物品，包括了主机、充电线、产品说明书等。",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "materials": {
+          "value": "镁合金",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "ip_rating": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_g": {
+          "value": "59.1g",
+          "evidence": "REEN绿联HiTune X8开放式耳机整机重量约为59.1g。\n单只耳",
+          "source_layer": "technical"
+        },
+        "weight_case_g": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "weight_earbud_g": {
+          "value": "6.1g",
+          "evidence": "X8开放式耳机整机重量约为59.1g。\n单只耳机重量约为6.1g。\n我爱音",
+          "source_layer": "technical"
+        },
+        "form_factor": {
+          "value": "开放式耳机",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "earbud_type": {
+          "value": "开放",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "bluetooth_version": {
+          "value": "",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "codecs": {
+          "value": "LDAC、AAC、SBC、Hi-Res",
+          "evidence": "",
+          "source_layer": "technical"
+        },
+        "battery_mah": {
+          "value": "60 mAh",
+          "evidence": "60mAh",
+          "source_layer": "technical"
+        },
+        "charge_interface": {
+          "value": "标配的充电线采用了USB-A to Type-C接口，端口雕刻有品牌名。",
+          "evidence": "标配的充电线采用了USB-A to Type-C接口，端口雕刻有品牌名。",
+          "source_layer": "technical"
+        }
+      },
+      "selling_point_tags": "音质认证、开放佩戴、其他、旗舰定位、降噪、长续航",
+      "scenarios": "办公、通话",
+      "positioning_summary": "主打音质认证、开放佩戴、旗舰定位、降噪；适用办公、通话等场景"
     },
     {
       "canonical_id": "ugreen--s8-ai",
