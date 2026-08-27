@@ -1,0 +1,513 @@
+{
+  "canonical_id": "xiaomi--buds-6",
+  "brand": "Xiaomi小米",
+  "model": "Buds 6",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "287400"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "287400"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2026-08-27",
+  "latest_published": "2026-08-27",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "Qualcomm AI",
+    "pmic_case": "Prisemi芯导 Prisemi芯导P14C2N",
+    "battery_ear": "微电新能源 3.85V/35mAh钢壳扣式",
+    "battery_case": "微电新能源 3.8V/475mAh锂电池",
+    "speaker": "喇叭单元",
+    "materials": "PC",
+    "weight_g": "43.8g",
+    "weight_case_g": "",
+    "weight_earbud_g": "4.5g",
+    "ip_rating": "",
+    "bluetooth": "5.4",
+    "bom_row_count": 22,
+    "price_cny": null,
+    "price_currency": "CNY",
+    "price_kind": "",
+    "price_layer": null,
+    "price_source_label": "",
+    "price_source_url": "",
+    "price_evidence": "",
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "287400",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CSU18M68",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "传感器",
+      "evidence": {
+        "value": "CSU18M68",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "采用了第一代骁龙S3音频平台、LPS微源半导体LP4081充电器、HX天易合芯HX9036电容式距离传感器、Chipsea芯海科技CSU18M68压力感应SoC、TDK ICM-42670-P 6轴陀螺仪等方案。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "微电新能源",
+      "model": "3.85V/35mAh钢壳扣式",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "3.85V/35mAh钢壳扣式",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机搭载MIC-POWER微电新能源3.85V/35mAh钢壳扣式电池，11mm三磁镀金单元，内置3颗瑞勤电子的MEMS麦克风；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机搭载MIC-POWER微电新能源3.85V/35mAh钢壳扣式电池，11mm三磁镀金单元，内置3颗瑞勤电子的MEMS麦克风；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "Prisemi芯导",
+      "model": "Prisemi芯导P14C2N",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "PMIC/充电仓管理",
+      "evidence": {
+        "value": "Prisemi芯导P14C2N",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内部搭载WD微电新能源3.8V/475mAh锂电池，配备ICM创芯微CM1137-CBS锂电保护IC，采用LPS微源半导体LP7811电源管理芯片负责为内置电池充电，采用Prisemi芯导P14C2N过压过流保护IC保护后级器件。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1137",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "CM1137",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内部搭载WD微电新能源3.8V/475mAh锂电池，配备ICM创芯微CM1137-CBS锂电保护IC，采用LPS微源半导体LP7811电源管理芯片负责为内置电池充电，采用Prisemi芯导P14C2N过压过流保护IC保护后级器件。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "微电新能源",
+      "model": "3.8V/475mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3.8V/475mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内部搭载WD微电新能源3.8V/475mAh锂电池，配备ICM创芯微CM1137-CBS锂电保护IC，采用LPS微源半导体LP7811电源管理芯片负责为内置电池充电，采用Prisemi芯导P14C2N过压过流保护IC保护后级器件。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "小米Buds 6搭载三麦克风系统，支持主动降噪功能，提供半入耳式舒适降噪体验；支持3Mic AI通话降噪，大幅削减环境噪音，保障嘈杂环境下的清晰通话。耳机升级独立录音2.0，支持现场、通话、音视频多场景录音，放进充电盒也能开启录音，搭配手机APP，还可实时录音转写和一键生成智能摘要；此外耳机还支持同声传译和面对面翻译功能。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "后腔内部结构一览，排线连接主板，腔体壁上贴有佩戴检测传感器。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "小米Buds 6搭载三麦克风系统，支持主动降噪功能，提供半入耳式舒适降噪体验；支持3Mic AI通话降噪，大幅削减环境噪音，保障嘈杂环境下的清晰通话。耳机升级独立录音2.0，支持现场、通话、音视频多场景录音，放进充电盒也能开启录音，搭配手机APP，还可实时录音转写和一键生成智能摘要；此外耳机还支持同声传译和面对面翻译功能。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "前腔内部结构一览，通过支架固定电池单元。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "小米Buds 6搭载三麦克风系统，支持主动降噪功能，提供半入耳式舒适降噪体验；支持3Mic AI通话降噪，大幅削减环境噪音，保障嘈杂环境下的清晰通话。耳机升级独立录音2.0，支持现场、通话、音视频多场景录音，放进充电盒也能开启录音，搭配手机APP，还可实时录音转写和一键生成智能摘要；此外耳机还支持同声传译和面对面翻译功能。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "Xiaomi Buds系列是小米TWS耳机的主力产品线，自第4代起，该系列划分出半入耳标准版与入耳式Pro版，以此满足不同用户的需求。最新一代Xiaomi小米Buds 6半入耳式真无线降噪耳机，搭载定制全新发声单元，升级独立录音2.0，新增AI翻译功能，同时定位查找兼容Apple Find My网络，为用户提供更全面提体验。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "支架背部印刷LDS镭射天线。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "前腔内部结构一览，通过支架固定电池单元。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "小米Buds 6真无线降噪耳机充电盒外观一览，采用了圆角方形设计，珍珠白配色，呈现类珍珠光泽，质感十分出色。充电盒正面设计有品牌LOGO和一颗指示灯。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒底部设置Type-C充电接口和蓝牙配对功能按键。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄内侧的充电触点特写。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Qualcomm AI",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Qualcomm AI",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "第一代骁龙S3音频平台（高通QCC3091蓝牙音频SoC），采用四核处理器架构，包括双核32位处理器应用子系统（最高80MHz），双核240MHz可配置DSP音频子系统（从ROM运行），支持Qualcomm AI引擎，支持蓝牙6.0，蓝牙LE Audio，支持高通TrueWireless Mirroring镜像技术，支持aptX Lossless无损音频技术、cVc回声消除和噪声抑制技术，支持高通ANC主动降噪技术（前馈、反馈、混合和自适应），最高24-bit 96kHz的高分辨率蓝牙串流。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "高通QCC3091",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "高通QCC3091",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "第一代骁龙S3音频平台（高通QCC3091蓝牙音频SoC），采用四核处理器架构，包括双核32位处理器应用子系统（最高80MHz），双核240MHz可配置DSP音频子系统（从ROM运行），支持Qualcomm AI引擎，支持蓝牙6.0，蓝牙LE Audio，支持高通TrueWireless Mirroring镜像技术，支持aptX Lossless无损音频技术、cVc回声消除和噪声抑制技术，支持高通ANC主动降噪技术（前馈、反馈、混合和自适应），最高24-bit 96kHz的高分辨率蓝牙串流。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CSU18M68",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CSU18M68",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Chipsea芯海科技CSU18M68是一款具有双通道压力传感测量的SoC，用于压力感应控制。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1137",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM1137",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "ICM创芯微CM1137-CBS集成MOSFET单节锂电池保护IC。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "Prisemi芯导P14C2N",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "Prisemi芯导P14C2N",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "Prisemi芯导P14C2N过压过流保护IC，用于保护后级器件。"
+      }
+    }
+  ],
+  "summary_image_urls": [
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/08/2026082702035572.png",
+      "alt": "拆解报告：Xiaomi小米Buds 6真无线降噪耳机-我爱音频网",
+      "caption": "",
+      "section_hint": "summary_bom",
+      "score": 10
+    }
+  ],
+  "summary_text": "三、我爱音频网总结 最后附上Xiaomi小米Buds 6真无线降噪耳机的已知核心物料清单，方便大家查阅。 Xiaomi小米Buds 6真无线降噪耳机在外观方面，延续了系列风格，整体比较简约时尚。充电盒采用了圆角矩形设计，体积小巧便携；珍珠白配色，呈现类珍珠光泽，质感出色。耳机采用了半入耳式设计，光滑圆润的烤漆质感，搭配4.5g机身重量，佩戴轻盈舒适。 内部主要配置方面，耳机搭载MIC-POWER微电新能源3.85V/35mAh钢壳扣式电池，11mm三磁镀金单元，内置3颗瑞勤电子的MEMS麦克风；采用了第一代骁龙S3音频平台、LPS微源半导体LP4081充电器、HX天易合芯HX9036电容式距离传感器、Chipsea芯海科技CSU18M68压力感应SoC、TDK ICM-42670-P 6轴陀螺仪等方案。 充电盒内部搭载WD微电新能源3.8V/475mAh锂电池，配备ICM创芯微CM1137-CBS锂电保护IC，采用LPS微源半导体LP7811电源管理芯片负责为内置电池充电，采用Prisemi芯导P14C2N过压过流保护IC保护后级器件。充电盒还内置了扬声器，搭载了OnMicro昂瑞微OM6629高性能低功耗蓝牙SoC，用于查找功能。",
+  "layer_refs": {
+    "technical": [
+      "report:287400"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "11mm三磁镀金单元，拥有16~40kHz超宽频响范围，且支持24bit/48kHz高清无损音频传输，通过了Snapdragon Sound骁龙畅听、Hi-Res Audio Wireless双认证",
+        "tag": "音质认证",
+        "tags": [],
+        "evidence": {
+          "value": "11mm三磁镀金单元，拥有16~40kHz超宽频响范围，且支持24bit/48kHz高清无损音频传输，通过了Snapdragon Sound骁龙畅听、Hi-Res Audio Wireless双认证",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "11mm三磁镀金单元，拥有16~40kHz超宽频响范围，且支持24bit/48kHz高清无损音频传输，通过了Snapdragon Sound骁龙畅听、Hi-Res Audio Wireless双认证"
+        }
+      },
+      {
+        "text": "此外还联合联合调音，提供Harman AudioEFX、Harman Master两种模式",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "此外还联合联合调音，提供Harman AudioEFX、Harman Master两种模式",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "此外还联合联合调音，提供Harman AudioEFX、Harman Master两种模式"
+        }
+      },
+      {
+        "text": "支持自适应听感，通过算法动态补偿中低频，提供始终如一的高保真听感",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "支持自适应听感，通过算法动态补偿中低频，提供始终如一的高保真听感",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "支持自适应听感，通过算法动态补偿中低频，提供始终如一的高保真听感"
+        }
+      },
+      {
+        "text": "支持独立空间音频，带来360°头部追踪环绕音效",
+        "tag": "空间音频",
+        "tags": [],
+        "evidence": {
+          "value": "支持独立空间音频，带来360°头部追踪环绕音效",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "支持独立空间音频，带来360°头部追踪环绕音效"
+        }
+      },
+      {
+        "text": "定制全新发声单元，升级独立录音2.0，新增AI翻译功能，同时定位查找兼容Apple Find My网络，为用户提供更全面提体验",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "定制全新发声单元，升级独立录音2.0，新增AI翻译功能，同时定位查找兼容Apple Find My网络，为用户提供更全面提体验",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "定制全新发声单元，升级独立录音2.0，新增AI翻译功能，同时定位查找兼容Apple Find My网络，为用户提供更全面提体验"
+        }
+      },
+      {
+        "text": "了定制全新发声单元，三磁路设计，驱动力提升7%，低频灵敏度增加40%，让低音更澎湃",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "了定制全新发声单元，三磁路设计，驱动力提升7%，低频灵敏度增加40%，让低音更澎湃",
+          "confidence": 0.63,
+          "source_type": "text",
+          "source_text": "了定制全新发声单元，三磁路设计，驱动力提升7%，低频灵敏度增加40%，让低音更澎湃"
+        }
+      },
+      {
+        "text": "升级24K镀金振膜，高频灵敏度提升30%，高音更加清脆悦耳，通透动听",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "升级24K镀金振膜，高频灵敏度提升30%，高音更加清脆悦耳，通透动听",
+          "confidence": 0.63,
+          "source_type": "text",
+          "source_text": "升级24K镀金振膜，高频灵敏度提升30%，高音更加清脆悦耳，通透动听"
+        }
+      },
+      {
+        "text": "了家族式的简约设计，天地盖结构，盒盖顶部设计有耳机外观，小米和HARMAN品牌LOGO、产品名称，以及Hi-Res Audio Wireless认证标识",
+        "tag": "音质认证",
+        "tags": [],
+        "evidence": {
+          "value": "了家族式的简约设计，天地盖结构，盒盖顶部设计有耳机外观，小米和HARMAN品牌LOGO、产品名称，以及Hi-Res Audio Wireless认证标识",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "了家族式的简约设计，天地盖结构，盒盖顶部设计有耳机外观，小米和HARMAN品牌LOGO、产品名称，以及Hi-Res Audio Wireless认证标识"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "睡眠",
+      "通话"
+    ],
+    "positioning_summary": "主打音质认证、空间音频；适用运动、睡眠、通话等场景",
+    "launch_date": null,
+    "best_report_id": "287400",
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "音质认证",
+        "text": "11mm三磁镀金单元，支持24bit/48kHz高清传输，获骁龙畅听与Hi-Res双认证"
+      },
+      {
+        "tag": "音质认证",
+        "text": "联合调音提供Harman AudioEFX与Master双模式，并支持自适应听感动态补偿中低频"
+      },
+      {
+        "tag": "空间音频",
+        "text": "独立空间音频支持360°头部追踪环绕音效"
+      },
+      {
+        "tag": "音质认证",
+        "text": "三磁路设计驱动力提升7%，低频灵敏度增加40%；24K镀金振膜使高频灵敏度提升30%"
+      },
+      {
+        "tag": "功能",
+        "text": "升级独立录音2.0，新增AI翻译，定位查找兼容Apple Find My网络"
+      },
+      {
+        "tag": "设计",
+        "text": "家族式简约设计，天地盖结构，盒盖印有小米与HARMAN品牌标识及Hi-Res认证"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "f7d6556863902502a0bbb44fcc0fa7fd31bcda2e5729bc944b428b87436bc846"
+    }
+  },
+  "launch": {
+    "date": "",
+    "display": "上市时间待核验",
+    "scope": "",
+    "status": "pending",
+    "source_url": "",
+    "evidence": "",
+    "source_type": ""
+  }
+}
