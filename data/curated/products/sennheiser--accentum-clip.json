@@ -1,0 +1,487 @@
+{
+  "canonical_id": "sennheiser--accentum-clip",
+  "brand": "SENNHEISER森海塞尔",
+  "model": "ACCENTUM Clip",
+  "category": "开放式耳机",
+  "report_ids": [
+    "287819"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "287819"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2026-09-01",
+  "latest_published": "2026-09-01",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "AB1585",
+    "pmic_case": "CM1112",
+    "battery_ear": "3.85V/49mAh钢壳扣式",
+    "battery_case": "3.85V/545mAh锂电池",
+    "speaker": "12mm 动圈单元",
+    "materials": "硅胶",
+    "weight_g": "54.7g",
+    "weight_case_g": "",
+    "weight_earbud_g": "6.8g",
+    "ip_rating": "",
+    "bluetooth": "6.0",
+    "bom_row_count": 21,
+    "price_cny": null,
+    "price_currency": "CNY",
+    "price_kind": "",
+    "price_layer": null,
+    "price_source_label": "",
+    "price_source_url": "",
+    "price_evidence": "",
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "287819",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1112",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "保护IC",
+      "evidence": {
+        "value": "CM1112",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载了豪鹏科技3.85V/545mAh锂电池，配备ICM创芯微CM1112-DAE内置MOSFET的单节锂电池保护IC。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "ConvenientPower易冲半导体",
+      "model": "ConvenientPower易冲半导体CPS5201",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "PMIC/充电仓管理",
+      "evidence": {
+        "value": "ConvenientPower易冲半导体CPS5201",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主板上，搭载了ConvenientPower易冲半导体CPS5201电源管理芯片，负责内置电池的充放电管理；"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3.85V/545mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3.85V/545mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载了豪鹏科技3.85V/545mAh锂电池，配备ICM创芯微CM1112-DAE内置MOSFET的单节锂电池保护IC。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB1585",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB1585",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "采用AIROHA达发（络达）AB1585蓝牙音频SoC，负责无线连接和音频数据处理。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3.85V/49mAh钢壳扣式",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "3.85V/49mAh钢壳扣式",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载MBT微宙电子3.85V/49mAh钢壳扣式电池供电，采用12mm动圈单元，还原出色音质；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "12mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "12mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载MBT微宙电子3.85V/49mAh钢壳扣式电池供电，采用12mm动圈单元，还原出色音质；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "单耳内置2颗MEMS麦克风，用于语音通话、动态均衡器等功能拾音；"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部结构一览，上层通过螺丝固定主板，与导线焊接；主板下方固定电池单元。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "森海塞尔ACCENTUM Clip开放式耳机充电盒外观一览，采用类似“梯形”设计，边缘过渡圆润，搭配亲肤涂层，手感舒适细腻。机身正面搭载了一颗指示灯，用于反馈充电状态。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部结构一览，上层通过螺丝固定主板，与导线焊接；主板下方固定电池单元。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "梅花状的麦克风拾音孔特写。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧机构一览，贴有蓝牙天线，露铜连接主板。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "扬声器正面特写，采用了镀钛复合振膜。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "AIROHA达发（络达）AB1585蓝牙音频SoC，支持LE Audio及蓝牙6.0，集成ARM Cortex-M33F应用处理器、HiFi 5 DSP，蓝牙收发器和电源管理单元 (PMU)；支持混合主动降噪 (ANC)、新一代回声消除和AI降噪方案，提高耳机产品语音通话的音频质量；支持Airoha MCSync技术，允许耳塞在左右耳塞之间无缝切换，以获得更平衡的声音和低延迟。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "打开充电盒盖，取出耳机，座舱内部结构一览。中间设置有充电触点和固定磁铁，座舱上标注有L/R左右标识。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "沿合模线撬开充电盒外壳，取出座舱结构。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "森海塞尔ACCENTUM Clip开放式耳机充电盒外观一览，采用类似“梯形”设计，边缘过渡圆润，搭配亲肤涂层，手感舒适细腻。机身正面搭载了一颗指示灯，用于反馈充电状态。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "NSING国民技术N32L406CBL7 MCU单片机。该系列采用32 bit ARM Cortex-M4内核，最高工作主频64MHz，支持浮点运算和DSP指令，集成高达 128KB嵌入式加密Flash，24KB SRAM、集成丰富的高性能模拟器件，内置1个12bit 5Msps ADC，2路独立轨到轨运算放大器，2个高速比较器，1个1Msps 12bit DAC，支持多达24通道电容式触摸按键，集成多达320段 的Segment LCD驱动, 集成多路U(S)ART、I2C、SPI、USB、CAN等数字通信接口，内置密码算法硬件加速引擎 。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ConvenientPower易冲半导体CPS5201",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ConvenientPower易冲半导体CPS5201",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "ConvenientPower易冲半导体CPS5201电源管理芯片，集成一个过压保护电路，一个Switch Charger和一个Boost电路。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "易冲半导体CPS5201",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "易冲半导体CPS5201",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "易冲半导体CPS5201具有超低待机电流，支持便携式设备，非常适用于TWS耳机充电盒以及其他1单元锂电池应用。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "CM1112",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "CM1112",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "ICM创芯微CM1112-DAE内置MOSFET的单节锂电池保护IC，负责电池的过充电、过放电、过电流等保护。"
+      }
+    }
+  ],
+  "summary_image_urls": [
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/09/2026090108393229.png",
+      "alt": "拆解报告：SENNHEISER森海塞尔ACCENTUM Clip开放式耳机-我爱音频网",
+      "caption": "",
+      "section_hint": "summary_bom",
+      "score": 10
+    }
+  ],
+  "summary_text": "三、我爱音频网总结 最后附上SENNHEISER森海塞尔ACCENTUM Clip开放式耳机的已知核心物料清单，方便大家查阅。 森海塞尔ACCENTUM Clip开放式耳机在外观方面，充电盒采用了类似“梯形”设计，亲肤质感，体积轻巧便携。耳机采用目前主流的耳夹式设计，C型桥宽厚柔韧，通过硅胶材质包裹，佩戴舒适稳固；腔体采用亮面的烤漆质感，比较简约稳重。 内部主要配置方面，充电盒搭载了豪鹏科技3.85V/545mAh锂电池，配备ICM创芯微CM1112-DAE内置MOSFET的单节锂电池保护IC。主板上，搭载了ConvenientPower易冲半导体CPS5201电源管理芯片，负责内置电池的充放电管理；采用NSING国民技术N32L406CBL7 MCU单片机，用于整机控制；其他还采用了TI德州仪器INA2181电流检测放大器、霍尔元件等方案。 耳机内部搭载MBT微宙电子3.85V/49mAh钢壳扣式电池供电，采用12mm动圈单元，还原出色音质；单耳内置2颗MEMS麦克风，用于语音通话、动态均衡器等功能拾音；采用AIROHA达发（络达）AB1585蓝牙音频SoC，负责无线连接和音频数据处理。",
+  "layer_refs": {
+    "technical": [
+      "report:287819"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "12mm动圈驱动单元和精密的森海塞尔声学设计",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "12mm动圈驱动单元和精密的森海塞尔声学设计",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "12mm动圈驱动单元和精密的森海塞尔声学设计"
+        }
+      },
+      {
+        "text": "支持LDAC高清音频解码，获得了Hi-Res Audio Wireless金标认证",
+        "tag": "音质认证",
+        "tags": [],
+        "evidence": {
+          "value": "支持LDAC高清音频解码，获得了Hi-Res Audio Wireless金标认证",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "支持LDAC高清音频解码，获得了Hi-Res Audio Wireless金标认证"
+        }
+      },
+      {
+        "text": "搭载动态均衡技术，能够根据音量变化自动调整频率响应，呈现全频均衡的出色声音",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "搭载动态均衡技术，能够根据音量变化自动调整频率响应，呈现全频均衡的出色声音",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "搭载动态均衡技术，能够根据音量变化自动调整频率响应，呈现全频均衡的出色声音"
+        }
+      },
+      {
+        "text": "还通过特殊的几何结构和内部阻尼设计，有效防止漏音，保障私密聆听",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "还通过特殊的几何结构和内部阻尼设计，有效防止漏音，保障私密聆听",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "还通过特殊的几何结构和内部阻尼设计，有效防止漏音，保障私密聆听"
+        }
+      },
+      {
+        "text": "盒盖内侧标注有产品信息和认证标志",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "盒盖内侧标注有产品信息和认证标志",
+          "confidence": 0.64,
+          "source_type": "text",
+          "source_text": "盒盖内侧标注有产品信息和认证标志"
+        }
+      },
+      {
+        "text": "充电盒底部凹印CE认证标识",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "充电盒底部凹印CE认证标识",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "充电盒底部凹印CE认证标识"
+        }
+      },
+      {
+        "text": "电池背面标签上标注有CCC、IC、CE等认证标志",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "电池背面标签上标注有CCC、IC、CE等认证标志",
+          "confidence": 0.57,
+          "source_type": "text",
+          "source_text": "电池背面标签上标注有CCC、IC、CE等认证标志"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "通话"
+    ],
+    "positioning_summary": "主打音质认证；适用运动、通话等场景",
+    "launch_date": null,
+    "best_report_id": "287819",
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "音质",
+        "text": "12mm动圈驱动单元，森海塞尔声学设计"
+      },
+      {
+        "tag": "音质",
+        "text": "支持LDAC高清音频解码，获Hi-Res Audio Wireless金标认证"
+      },
+      {
+        "tag": "音质",
+        "text": "动态均衡技术，自动调整频率响应，全频均衡"
+      },
+      {
+        "tag": "设计",
+        "text": "特殊几何结构与内部阻尼设计，有效防漏音"
+      },
+      {
+        "tag": "认证",
+        "text": "盒盖内侧标注产品信息和认证标志"
+      },
+      {
+        "tag": "认证",
+        "text": "充电盒底部凹印CE认证标识"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "cbb343af703f057cff3bb9260e59e02c6c8275dfbf49c47380c5142512da1881"
+    }
+  },
+  "launch": {
+    "date": "",
+    "display": "上市时间待核验",
+    "scope": "",
+    "status": "pending",
+    "source_url": "",
+    "evidence": "",
+    "source_type": ""
+  }
+}
