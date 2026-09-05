@@ -1,0 +1,441 @@
+{
+  "canonical_id": "nothing--ear-3a",
+  "brand": "Nothing",
+  "model": "Ear (3a)",
+  "category": "真无线耳机TWS",
+  "report_ids": [
+    "288300"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "288300"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2026-09-04",
+  "latest_published": "2026-09-04",
+  "internal_match_suggestions": [],
+  "cost_snapshot": {
+    "main_chip": "BES2710Y",
+    "pmic_case": "",
+    "battery_ear": "3.87V/55mAh钢壳扣式",
+    "battery_case": "微电新能源 3.85V/500mAh锂电池",
+    "speaker": "喇叭单元",
+    "materials": "硅胶、不锈钢",
+    "weight_g": "50.9g",
+    "weight_case_g": "",
+    "weight_earbud_g": "4.7g",
+    "ip_rating": "",
+    "bluetooth": "6.0",
+    "bom_row_count": 17,
+    "price_cny": null,
+    "price_currency": "CNY",
+    "price_kind": "",
+    "price_layer": null,
+    "price_source_label": "",
+    "price_source_url": "",
+    "price_evidence": "",
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 0.83,
+    "best_report_id": "288300",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "电池",
+      "brand": "微电新能源",
+      "model": "3.85V/500mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3.85V/500mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载了WD微电新能源3.85V/500mAh锂电池组，采用了LY来远电子ICP1106电源管理芯片，负责内置电池的充放电管理；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "BES2710Y",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2710Y",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载VDL紫建电子3.87V/55mAh钢壳扣式电池，采用12mm定制驱动单元和3颗MEMS麦克风，主控芯片为BES恒玄科技BES2710Y智能音频SoC，其他还采用了Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等方案。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3.87V/55mAh钢壳扣式",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "3.87V/55mAh钢壳扣式",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载VDL紫建电子3.87V/55mAh钢壳扣式电池，采用12mm定制驱动单元和3颗MEMS麦克风，主控芯片为BES恒玄科技BES2710Y智能音频SoC，其他还采用了Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等方案。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载VDL紫建电子3.87V/55mAh钢壳扣式电池，采用12mm定制驱动单元和3颗MEMS麦克风，主控芯片为BES恒玄科技BES2710Y智能音频SoC，其他还采用了Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等方案。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面贴有出厂标签，无线耳机，型号：B190，颜色：白色，电池：3.85V 500mAh 1.925Wh，充电盒输入：5V-1.0A，充电盒输出：5V-0.5A，耳机输入：5V-0.5A，制造商：深圳纳新科技有限公司，由NOTHING TECHNOLOGY LIMITED授权生产。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "包装盒背面贴有出厂标签，无线耳机，型号：B190，颜色：白色，电池：3.85V 500mAh 1.925Wh，充电盒输入：5V-1.0A，充电盒输出：5V-0.5A，耳机输入：5V-0.5A，制造商：深圳纳新科技有限公司，由NOTHING TECHNOLOGY LIMITED授权生产。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部设置有主板和电池单元，电池导线与主板焊接。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄顶部的前馈降噪麦克风拾音孔特写。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧结构一览，设置有支架固定蓝牙天线。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机扬声器正面特写，据官方介绍，采用了12mm定制驱动单元。轻盈的航空级PMI振膜，让人声与乐器声音的细节更清晰、自然。由此带来更具冲击力的低频，以及经过均衡调校、细腻清晰的声音表现。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "NOTHING Ear (3a)搭载12mm定制驱动单元，支持LDAC（高达24-bit/96kHz音频传输）高清音频解码，获得了Hi-Res Audio认证，能够提供自然均衡、细节丰富的音频效果；支持主动降噪，最大降噪深度-45dB，具有三种降噪模式和通透模式，可根据不同场景切换。其他还支持蓝牙6.0、双设备连接、查找耳机，可提供单次10小时，综合42小时的续航时间。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "NOTHING是一个新晋消费科技品牌，旗下产品以极具辨识度的透明腔体、年轻化配色为特色，主打潮流外观与创新功能，深受众多消费者的喜爱。NOTHING Ear (3a) 是该品牌2026年推出的新品，外观延续标志性透明外壳，同时以“泡泡包装”的透明凸起轮廓为灵感设计，搭配多彩配色，呈现更年轻化的潮流观感。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "用于蓝牙配对的功能按键特写。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机柄内侧的充电触点特写。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "LED指示灯特写，由三个像素点组成，可以更直观地显示电量以及状态信息。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "AB5",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "AB5",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "丝印EATW AAB5的IC。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "BES2710Y",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2710Y",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "BES恒玄科技BES2710Y智能音频SoC，用于无线连接和音频数据处理。"
+      }
+    }
+  ],
+  "summary_image_urls": [
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/09/2026090406513724.png",
+      "alt": "拆解报告：Nothing Ear (3a)真无线降噪耳机-我爱音频网",
+      "caption": "",
+      "section_hint": "summary_bom",
+      "score": 10
+    }
+  ],
+  "summary_text": "三、我爱音频网总结 最后附上NOTHING Ear (3a)真无线降噪耳机的已知核心物料清单，方便大家查阅。 NOTHING Ear (3a)真无线降噪耳机在外观方面，延续了家族式的透明外壳设计，极具品牌辨识度。圆角矩形充电盒，采用全新“气泡”设计，带来独特的科技美感。柄状的入耳式耳机，为用户清晰展现了内部的工艺设计之美，同时入耳曲线圆润，佩戴舒适贴合耳廓。 内部主要配置方面，充电盒搭载了WD微电新能源3.85V/500mAh锂电池组，采用了LY来远电子ICP1106电源管理芯片，负责内置电池的充放电管理；其他还采用了HYPWR瀚昕微HP2605过压过流保护IC，保护低压电路安全；采用MCU单片机，用于整机控制。 耳机内部搭载VDL紫建电子3.87V/55mAh钢壳扣式电池，采用12mm定制驱动单元和3颗MEMS麦克风，主控芯片为BES恒玄科技BES2710Y智能音频SoC，其他还采用了Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感等方案。",
+  "layer_refs": {
+    "technical": [
+      "report:288300"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "NOTHING Ear (3a)搭载12mm定制驱动单元",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "NOTHING Ear (3a)搭载12mm定制驱动单元",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "NOTHING Ear (3a)搭载12mm定制驱动单元"
+        }
+      },
+      {
+        "text": "LDAC（高达24-bit/96kHz音频传输）高清音频解码，获得了Hi-Res Audio认证，能够提供自然均衡、细节丰富的音频效果",
+        "tag": "音质认证",
+        "tags": [],
+        "evidence": {
+          "value": "LDAC（高达24-bit/96kHz音频传输）高清音频解码，获得了Hi-Res Audio认证，能够提供自然均衡、细节丰富的音频效果",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "LDAC（高达24-bit/96kHz音频传输）高清音频解码，获得了Hi-Res Audio认证，能够提供自然均衡、细节丰富的音频效果"
+        }
+      },
+      {
+        "text": "支持主动降噪，最大降噪深度-45dB，具有三种降噪模式和通透模式，可根据不同场景切换",
+        "tag": "降噪",
+        "tags": [],
+        "evidence": {
+          "value": "支持主动降噪，最大降噪深度-45dB，具有三种降噪模式和通透模式，可根据不同场景切换",
+          "confidence": 0.55,
+          "source_type": "text",
+          "source_text": "支持主动降噪，最大降噪深度-45dB，具有三种降噪模式和通透模式，可根据不同场景切换"
+        }
+      },
+      {
+        "text": "Type-C充电母座特写，端口设置橡胶圈密封，防尘防水",
+        "tag": "防水防尘",
+        "tags": [],
+        "evidence": {
+          "value": "Type-C充电母座特写，端口设置橡胶圈密封，防尘防水",
+          "confidence": 0.56,
+          "source_type": "text",
+          "source_text": "Type-C充电母座特写，端口设置橡胶圈密封，防尘防水"
+        }
+      },
+      {
+        "text": "向前回溯，保留开始录音前最长30秒的内容",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "向前回溯，保留开始录音前最长30秒的内容",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "向前回溯，保留开始录音前最长30秒的内容"
+        }
+      },
+      {
+        "text": "还支持通话录音，搭配手机Nothing X App实现分享、回放、编辑及生成文本等",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "还支持通话录音，搭配手机Nothing X App实现分享、回放、编辑及生成文本等",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "还支持通话录音，搭配手机Nothing X App实现分享、回放、编辑及生成文本等"
+        }
+      },
+      {
+        "text": "据我爱音频网拆解了解到，\niFLYTEK科大讯飞\n、\nbeyerdynamic拜雅\n、\nRØDE罗德\n、\nSoundcore声阔\n、\n荣耀\n、\n魅族\n、\nJBL\n、\nPHILIPS飞利浦\n、\nQCY\n、\n红魔\n、\n天猫精灵\n、\n创新科…",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "据我爱音频网拆解了解到，\niFLYTEK科大讯飞\n、\nbeyerdynamic拜雅\n、\nRØDE罗德\n、\nSoundcore声阔\n、\n荣耀\n、\n魅族\n、\nJBL\n、\nPHILIPS飞利浦\n、\nQCY\n、\n红魔\n、\n天猫精灵\n、\n创新科…",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "据我爱音频网拆解了解到，\niFLYTEK科大讯飞\n、\nbeyerdynamic拜雅\n、\nRØDE罗德\n、\nSoundcore声阔\n、\n荣耀\n、\n魅族\n、\nJBL\n、\nPHILIPS飞利浦\n、\nQCY\n、\n红魔\n、\n天猫精灵\n、\n创新科…"
+        }
+      },
+      {
+        "text": "来远电子ICP1106的充电电压，充电电流，输出电压能通过I2C灵活配置，能方便的实现TWS快充，效率充电",
+        "tag": "长续航",
+        "tags": [],
+        "evidence": {
+          "value": "来远电子ICP1106的充电电压，充电电流，输出电压能通过I2C灵活配置，能方便的实现TWS快充，效率充电",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "来远电子ICP1106的充电电压，充电电流，输出电压能通过I2C灵活配置，能方便的实现TWS快充，效率充电"
+        }
+      }
+    ],
+    "scenarios": [
+      "通话"
+    ],
+    "positioning_summary": "主打音质认证、降噪、防水防尘、长续航；适用通话等场景",
+    "launch_date": null,
+    "best_report_id": "288300",
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "音质",
+        "text": "12mm定制驱动单元，LDAC高清解码，Hi-Res认证，音质自然均衡"
+      },
+      {
+        "tag": "降噪",
+        "text": "主动降噪深度达-45dB，三种降噪模式与通透模式可切换"
+      },
+      {
+        "tag": "防水防尘",
+        "text": "Type-C充电口设橡胶圈密封，具备防尘防水能力"
+      },
+      {
+        "tag": "录音",
+        "text": "支持回溯录音，保留开始录音前最长30秒内容"
+      },
+      {
+        "tag": "通话录音",
+        "text": "支持通话录音，可搭配App分享、回放、编辑及生成文本"
+      },
+      {
+        "tag": "充电",
+        "text": "充电方案支持I2C灵活配置，实现TWS快充与高效充电"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "3b22524d4072e88c5fc83fc50b707ce2a1a68afa568e0f2972b1aecdb05ed117"
+    }
+  },
+  "launch": {
+    "date": "",
+    "display": "上市时间待核验",
+    "scope": "",
+    "status": "pending",
+    "source_url": "",
+    "evidence": "",
+    "source_type": ""
+  }
+}
