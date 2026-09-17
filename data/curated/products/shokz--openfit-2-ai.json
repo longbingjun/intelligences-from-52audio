@@ -1,0 +1,525 @@
+{
+  "canonical_id": "shokz--openfit-2-ai",
+  "brand": "SHOKZ韶音",
+  "model": "OpenFit 2 AI",
+  "category": "开放式耳机",
+  "report_ids": [
+    "289578"
+  ],
+  "video_ids": [],
+  "related_report_ids": [
+    "289578"
+  ],
+  "related_video_ids": [],
+  "first_seen": "2026-09-16",
+  "latest_published": "2026-09-16",
+  "internal_match_suggestions": [
+    {
+      "sku": "OpenFit 2",
+      "score": 0.891,
+      "reason": "型号相似度 89%（匹配 韶音 OpenFit 2）；品类一致"
+    },
+    {
+      "sku": "OpenDots 2",
+      "score": 0.721,
+      "reason": "型号相似度 72%（匹配 韶音 OpenDots 2）；品类一致"
+    },
+    {
+      "sku": "OpenRun Pro 2",
+      "score": 0.467,
+      "reason": "型号相似度 47%（匹配 韶音 OpenRun Pro 2）"
+    }
+  ],
+  "cost_snapshot": {
+    "main_chip": "XHSC小华半导体HC32L170FAUA",
+    "pmic_case": "思远半导体 思远半导体SY8805",
+    "battery_ear": "微电新能源 3.85V/56mAh",
+    "battery_case": "3.85V/600mAh锂电池",
+    "speaker": "11mm 动圈单元",
+    "materials": "硅胶、PC、液态硅胶",
+    "weight_g": "74.5g",
+    "weight_case_g": "",
+    "weight_earbud_g": "9.3g",
+    "ip_rating": "",
+    "bluetooth": "",
+    "bom_row_count": 22,
+    "price_cny": null,
+    "price_currency": "CNY",
+    "price_kind": "",
+    "price_layer": null,
+    "price_source_label": "",
+    "price_source_url": "",
+    "price_evidence": "",
+    "channel_url": null,
+    "sales_hint": null,
+    "data_completeness": 1.0,
+    "best_report_id": "289578",
+    "best_video_id": null
+  },
+  "bom_table": [
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "麦克风",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "同时为了适配录音功能，充电盒顶部和两侧对应耳机麦克风拾音孔位置，均设置了开孔，实现耳机在"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "思远半导体",
+      "model": "思远半导体SY8805",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "PMIC/充电仓管理",
+      "evidence": {
+        "value": "思远半导体SY8805",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载紫建电子3.85V/600mAh锂电池组，支持有线、无线两种方式输入电源，分别采用思远半导体SY8805电源管理芯片、ConvenientPower易冲半导体CPS4520无线充电接收芯片，负责为内置电池充电；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "ConvenientPower易冲半导体",
+      "model": "ConvenientPower易冲半导体CPS4520",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "PMIC/充电仓管理",
+      "evidence": {
+        "value": "ConvenientPower易冲半导体CPS4520",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载紫建电子3.85V/600mAh锂电池组，支持有线、无线两种方式输入电源，分别采用思远半导体SY8805电源管理芯片、ConvenientPower易冲半导体CPS4520无线充电接收芯片，负责为内置电池充电；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "XHSC小华半导体",
+      "model": "XHSC小华半导体HC32L170FAUA",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "MCU",
+      "evidence": {
+        "value": "XHSC小华半导体HC32L170FAUA",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "其他还采用了XHSC小华半导体HC32L170FAUA MCU，用于充电盒整机控制。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "3.85V/600mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3.85V/600mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载紫建电子3.85V/600mAh锂电池组，支持有线、无线两种方式输入电源，分别采用思远半导体SY8805电源管理芯片、ConvenientPower易冲半导体CPS4520无线充电接收芯片，负责为内置电池充电；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "恒玄BES2700iH",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "恒玄BES2700iH",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "主控芯片采用了BES恒玄BES2700iH蓝牙音频SoC，其他还搭载了存储器，用于本地存储录音内容。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "微电新能源",
+      "model": "3.85V/56mAh",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "3.85V/56mAh",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载MIC-POWER微电新能源3.85V/56mAh圆柱形钢壳电池，采用定制21x11mm动圈单元+5.5mm平板单元双喇叭，内置2颗MEMS麦克风拾音；"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "11mm 动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "11mm 动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载MIC-POWER微电新能源3.85V/56mAh圆柱形钢壳电池，采用定制21x11mm动圈单元+5.5mm平板单元双喇叭，内置2颗MEMS麦克风拾音；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载MIC-POWER微电新能源3.85V/56mAh圆柱形钢壳电池，采用定制21x11mm动圈单元+5.5mm平板单元双喇叭，内置2颗MEMS麦克风拾音；"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "核心升级方面，SHOKZ韶音OpenFit 2 AI开放式耳机支持商务通话、线上会议、论坛讲座等多场景录音，录音距离可达5米，且通过耳机、充电盒、APP三端均可开启；此外还支持双击标记重点，回顾更方便；双耳录音时长可达8小时，满足一整天的工作时间需求。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部可以看到主板、电池和录音按键排线。"
+      }
+    },
+    {
+      "component": "主板/PCBA",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "主板/PCBA",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体内部可以看到主板、电池和录音按键排线。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "麦克风",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "基础音频体验方面，韶音OpenFit 2 AI开放式耳机搭载超大双单元喇叭，支持SHOKZ OpenBass 2.0算法，实时根据全频段音量优化听感，补偿EQ均衡；支持DirectPitch2.0分频降漏音技术，双出音孔定向精准传声；支持4麦克风通话降噪，提供清晰语音通话效果；支持无线和有线两种充电方式，单次播放时长达11小时，搭配充电盒综合续航48小时；支持快充功能，闪充10分钟可使用2小时。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "喇叭单元",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "主板下方扬声器单元结构一览。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盖板内侧结构一览，内嵌蓝牙天线，露出电极连接主板。"
+      }
+    },
+    {
+      "component": "降噪系统",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "降噪系统",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "我爱音频网此前还拆解过SHOKZ韶音OpenDots 2、OpenDots ONE耳夹式耳机，OPENFIT 2开放式耳机、OpenFit Air开放式耳机、OPENCOMM 2通讯耳机、OpenSwim Pro游泳耳机、TREKZ AIR AS650骨传导耳机、AS600骨传导运动耳机、TREKZ TITANIUM骨传导运动耳机、韶音骨传导运动太阳眼镜等产品。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "机身另外一侧设置录音按键和耳机录音拾音孔。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "OpenFit系列是韶音开放式耳挂耳机产品，OpenFit 2 AI是该系列近期推出的新品，其面向商务办公场景，融合千问大模型AI能力与开放式声学硬件，围绕录音转写、会议纪要、翻译三大核心场景，为用户打造新一代随身AI音频生产力工具。"
+      }
+    },
+    {
+      "component": "充电触点",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "充电触点",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "耳机充电触点特写。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "凹槽内部设置指示灯，用于反馈蓝牙配对及充电状态。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "ConvenientPower易冲半导体CPS4520",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "ConvenientPower易冲半导体CPS4520",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "ConvenientPower易冲半导体CPS4520无线充电接收芯片，符合WPC Qi 2.21协议，支持5W的输出功率，支持高效的交直流稳压，Rx Tx通信，I2C接口与MCU通信，具有可靠的过压/电流/温度保护方案。"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "",
+      "model": "思远半导体SY8805",
+      "qty_hint": "1",
+      "side": "",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "思远半导体SY8805",
+        "confidence": 0.78,
+        "source_type": "text",
+        "source_text": "思远半导体SY8805电源管理芯片，是一款专为充电仓设计的高集成度芯片。"
+      }
+    }
+  ],
+  "summary_image_urls": [
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/09/2026091609523392.png",
+      "alt": "拆解报告：SHOKZ韶音OpenFit 2 AI开放式耳机-我爱音频网",
+      "caption": "",
+      "section_hint": "summary_bom",
+      "score": 10
+    }
+  ],
+  "summary_text": "三、我爱音频网总结 最后附上SHOKZ韶音OpenFit 2 AI开放式耳机的已知物料清单，方便大家查阅。 SHOKZ韶音OpenFit 2 AI开放式耳机在外观方面，延续了上代的设计，全新锡器金配色，质感更加出色；耳挂式耳机，通过液态硅胶材质包裹，搭配独特的超零度硅胶双层设计，提供自适应的舒适佩戴。同时为了适配录音功能，充电盒顶部和两侧对应耳机麦克风拾音孔位置，均设置了开孔，实现耳机在充电盒内部清晰录音。 内部主要配置方面，充电盒搭载紫建电子3.85V/600mAh锂电池组，支持有线、无线两种方式输入电源，分别采用思远半导体SY8805电源管理芯片、ConvenientPower易冲半导体CPS4520无线充电接收芯片，负责为内置电池充电；其他还采用了XHSC小华半导体HC32L170FAUA MCU，用于充电盒整机控制。 耳机内部搭载MIC-POWER微电新能源3.85V/56mAh圆柱形钢壳电池，采用定制21x11mm动圈单元+5.5mm平板单元双喇叭，内置2颗MEMS麦克风拾音；主控芯片采用了BES恒玄BES2700iH蓝牙音频SoC，其他还搭载了存储器，用于本地存储录音内容。",
+  "layer_refs": {
+    "technical": [
+      "report:289578"
+    ],
+    "channel": [],
+    "official": [],
+    "unboxing": [],
+    "review": []
+  },
+  "unboxing": null,
+  "market": {
+    "selling_points": [
+      {
+        "text": "基础音频体验方面，韶音OpenFit 2 AI开放式耳机搭载超大双单元喇叭",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "基础音频体验方面，韶音OpenFit 2 AI开放式耳机搭载超大双单元喇叭",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "基础音频体验方面，韶音OpenFit 2 AI开放式耳机搭载超大双单元喇叭"
+        }
+      },
+      {
+        "text": "支持SHOKZ OpenBass 2.0算法，实时根据全频段音量优化听感，补偿EQ均衡",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "支持SHOKZ OpenBass 2.0算法，实时根据全频段音量优化听感，补偿EQ均衡",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "支持SHOKZ OpenBass 2.0算法，实时根据全频段音量优化听感，补偿EQ均衡"
+        }
+      },
+      {
+        "text": "支持DirectPitch2.0分频降漏音技术，双出音孔定向精准传声",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "支持DirectPitch2.0分频降漏音技术，双出音孔定向精准传声",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "支持DirectPitch2.0分频降漏音技术，双出音孔定向精准传声"
+        }
+      },
+      {
+        "text": "支持4麦克风通话降噪，提供清晰语音通话效果",
+        "tag": "降噪",
+        "tags": [],
+        "evidence": {
+          "value": "支持4麦克风通话降噪，提供清晰语音通话效果",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "支持4麦克风通话降噪，提供清晰语音通话效果"
+        }
+      },
+      {
+        "text": "商务通话、线上会议、论坛讲座等多场景录音，录音距离可达5米，且通过耳机、充电盒、APP三端均可开启",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "商务通话、线上会议、论坛讲座等多场景录音，录音距离可达5米，且通过耳机、充电盒、APP三端均可开启",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "商务通话、线上会议、论坛讲座等多场景录音，录音距离可达5米，且通过耳机、充电盒、APP三端均可开启"
+        }
+      },
+      {
+        "text": "此外还支持双击标记重点，回顾更方便",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "此外还支持双击标记重点，回顾更方便",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "此外还支持双击标记重点，回顾更方便"
+        }
+      },
+      {
+        "text": "双耳录音时长可达8小时，满足一整天的工作时间需求",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "双耳录音时长可达8小时，满足一整天的工作时间需求",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "双耳录音时长可达8小时，满足一整天的工作时间需求"
+        }
+      },
+      {
+        "text": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n小米、vivo、OPPO、realme、韶音、Keep、悠律声学、Nothing、夸克、出门问问，\nREDMI、漫步者、倍思、绿联、万魔、猛玛、博雅、神牛、闪克、优篮子、眷蜀…",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n小米、vivo、OPPO、realme、韶音、Keep、悠律声学、Nothing、夸克、出门问问，\nREDMI、漫步者、倍思、绿联、万魔、猛玛、博雅、神牛、闪克、优篮子、眷蜀…",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "据我爱音频网拆解了解到，思远半导体的电源管理类芯片目前已被\n小米、vivo、OPPO、realme、韶音、Keep、悠律声学、Nothing、夸克、出门问问，\nREDMI、漫步者、倍思、绿联、万魔、猛玛、博雅、神牛、闪克、优篮子、眷蜀…"
+        }
+      }
+    ],
+    "scenarios": [
+      "运动",
+      "办公",
+      "通话"
+    ],
+    "positioning_summary": "主打降噪；适用运动、办公、通话等场景",
+    "launch_date": null,
+    "best_report_id": "289578",
+    "best_video_id": null,
+    "selling_points_summary": [
+      {
+        "tag": "音频",
+        "text": "搭载超大双单元喇叭，支持SHOKZ OpenBass 2.0算法实时优化听感"
+      },
+      {
+        "tag": "降噪",
+        "text": "支持DirectPitch2.0分频降漏音技术，双出音孔定向精准传声"
+      },
+      {
+        "tag": "通话",
+        "text": "支持4麦克风通话降噪，提供清晰语音通话效果"
+      },
+      {
+        "tag": "录音",
+        "text": "多场景录音距离可达5米，耳机、充电盒、APP三端均可开启"
+      },
+      {
+        "tag": "录音",
+        "text": "支持双击标记重点，双耳录音时长可达8小时"
+      }
+    ],
+    "selling_points_summary_meta": {
+      "model": "deepseek-v4-flash",
+      "source_hash": "1149a6995b4b2b3fa352031e3fa22fdf25860760ab46b9ddfd7abf71f13a2ba3"
+    }
+  },
+  "launch": {
+    "date": "",
+    "display": "上市时间待核验",
+    "scope": "",
+    "status": "pending",
+    "source_url": "",
+    "evidence": "",
+    "source_type": ""
+  }
+}

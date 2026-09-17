@@ -1,32 +1,34 @@
 {
   "canonical_id": "unknown--ai",
   "brand": "",
-  "model": "喜马拉雅 小雅AI",
+  "model": "光帆AI智能",
   "category": "真无线耳机TWS",
   "report_ids": [
+    "289676",
     "69797"
   ],
   "video_ids": [],
   "related_report_ids": [
+    "289676",
     "69797"
   ],
   "related_video_ids": [],
   "first_seen": "2021-01-18",
-  "latest_published": "2021-01-18",
+  "latest_published": "2026-09-17",
   "internal_match_suggestions": [],
   "cost_snapshot": {
-    "main_chip": "",
+    "main_chip": "BES2800HP",
     "pmic_case": "",
-    "battery_ear": "320 mAh",
-    "battery_case": "电池",
-    "speaker": "喇叭单元",
-    "materials": "PC",
-    "weight_g": "3.8克",
+    "battery_ear": "微电新能源 3.85V/105mAh",
+    "battery_case": "3.87V/2020mAh锂电池",
+    "speaker": "动圈单元",
+    "materials": "硅胶、液态硅胶",
+    "weight_g": "115.3g",
     "weight_case_g": "",
-    "weight_earbud_g": "",
+    "weight_earbud_g": "11.1g",
     "ip_rating": "",
-    "bluetooth": "5.0",
-    "bom_row_count": 8,
+    "bluetooth": "",
+    "bom_row_count": 19,
     "price_cny": null,
     "price_currency": "CNY",
     "price_kind": "",
@@ -36,37 +38,107 @@
     "price_evidence": "",
     "channel_url": null,
     "sales_hint": null,
-    "data_completeness": 0.67,
-    "best_report_id": "69797",
+    "data_completeness": 0.83,
+    "best_report_id": "289676",
     "best_video_id": null
   },
   "bom_table": [
     {
-      "component": "充电仓",
+      "component": "电池",
       "brand": "",
-      "model": "",
+      "model": "3.87V/2020mAh锂电池",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "3.87V/2020mAh锂电池",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒搭载维都利新能源3.87V 2020mAh锂电池组，采用了SinhMicro昇生微电子SS889AH POWER MCU，用于内置电池的充放电管理；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "BES2800HP",
+      "qty_hint": "1",
+      "side": "充电盒",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2800HP",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置方形扬声器和2个敏芯微电子的MEMS麦克风，采用BES恒玄科技BES2800HP智能音频SoC，负责与耳机通讯；"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
       "qty_hint": "",
       "side": "充电盒",
       "role": "major",
       "evidence": {
-        "value": "充电仓",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒内部结构背面，电池竖置，使用黑色胶带捆绑固定。"
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "充电盒内置方形扬声器和2个敏芯微电子的MEMS麦克风，采用BES恒玄科技BES2800HP智能音频SoC，负责与耳机通讯；"
+      }
+    },
+    {
+      "component": "芯片/模组",
+      "brand": "BES恒玄科技",
+      "model": "BES2800HP",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "主控/蓝牙",
+      "evidence": {
+        "value": "BES2800HP",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载200万像素摄像头，内置MIC-POWER微电新能源3.85V 105mAh圆柱形钢壳电池、17mm*12mm跑道型动圈单元和2个敏芯微电子的MEMS麦克风，采用了BES恒玄科技BES2800HP智能音频SoC、SigmaStar星宸SSC9211F视觉处理SoC、Southchip南芯SC7289线性充电IC等方案。"
       }
     },
     {
       "component": "电池",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "充电盒",
+      "brand": "微电新能源",
+      "model": "3.85V/105mAh",
+      "qty_hint": "1",
+      "side": "耳机",
       "role": "major",
       "evidence": {
-        "value": "电池",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "充电盒内部结构背面，电池竖置，使用黑色胶带捆绑固定。"
+        "value": "3.85V/105mAh",
+        "confidence": 0.85,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载200万像素摄像头，内置MIC-POWER微电新能源3.85V 105mAh圆柱形钢壳电池、17mm*12mm跑道型动圈单元和2个敏芯微电子的MEMS麦克风，采用了BES恒玄科技BES2800HP智能音频SoC、SigmaStar星宸SSC9211F视觉处理SoC、Southchip南芯SC7289线性充电IC等方案。"
+      }
+    },
+    {
+      "component": "喇叭单元",
+      "brand": "",
+      "model": "动圈单元",
+      "qty_hint": "1",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "动圈单元",
+        "confidence": 0.8,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载200万像素摄像头，内置MIC-POWER微电新能源3.85V 105mAh圆柱形钢壳电池、17mm*12mm跑道型动圈单元和2个敏芯微电子的MEMS麦克风，采用了BES恒玄科技BES2800HP智能音频SoC、SigmaStar星宸SSC9211F视觉处理SoC、Southchip南芯SC7289线性充电IC等方案。"
+      }
+    },
+    {
+      "component": "麦克风",
+      "brand": "",
+      "model": "MEMS麦克风",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "MEMS麦克风",
+        "confidence": 0.78,
+        "source_type": "summary_prose",
+        "source_text": "耳机内部搭载200万像素摄像头，内置MIC-POWER微电新能源3.85V 105mAh圆柱形钢壳电池、17mm*12mm跑道型动圈单元和2个敏芯微电子的MEMS麦克风，采用了BES恒玄科技BES2800HP智能音频SoC、SigmaStar星宸SSC9211F视觉处理SoC、Southchip南芯SC7289线性充电IC等方案。"
       }
     },
     {
@@ -74,13 +146,27 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "主板/PCBA",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "主板另一侧电路展示，左侧是电池导线的焊点，焊点饱满，中间是耳机的充电触点。"
+        "source_text": "腔体内部结构一览，上层通过螺丝固定主板，下层设置电池单元。"
+      }
+    },
+    {
+      "component": "充电仓",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "major",
+      "evidence": {
+        "value": "充电仓",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "作为天生具备语音交互的音频产品，耳机成为了AI应用的热门赛道，AI智能问答、AI翻译、AI转写及摘要总结等功能快速上机，进一步丰富了产品价值。作为专注于下一代人机交互的科技创新企业，光帆科技于2025年末推出光帆AI智能耳机，耳机创新搭载双目视觉感知模组，充电盒支持独立联网、位置感知、身份验证等，赋能产品主动式AI交互体验。"
       }
     },
     {
@@ -94,7 +180,35 @@
         "value": "麦克风",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "耳机柄顶部有一个麦克风拾音孔，拾取环境声音辅助通话降噪功能。"
+        "source_text": "光帆AI智能耳机外观上采用了开放式的耳挂设计，搭配5/5重量分配，提供更舒适的全天候佩戴。核心AI功能方面，该产品搭载200万像素定焦摄像头，支持场景AI快速识别技术，搭配AI实景对话，可为用户实时讲解看到的内容。充电仓内置4G eSIM通讯模块、集成麦克风、GPS定位和指纹识别，使耳机可以脱离手机独立使用。"
+      }
+    },
+    {
+      "component": "电池",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "major",
+      "evidence": {
+        "value": "电池",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "盒盖内侧标注有产品信息，充电盒电池容量：2020mAh，其他信息与外包装上一致。"
+      }
+    },
+    {
+      "component": "天线",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "",
+      "role": "major",
+      "evidence": {
+        "value": "天线",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "腔体底部结构一览，四周还固定有WiFi、GPS和4G天线、麦克风排线和功能按键排线。"
       }
     },
     {
@@ -102,13 +216,69 @@
       "brand": "",
       "model": "",
       "qty_hint": "",
-      "side": "耳机",
+      "side": "",
       "role": "major",
       "evidence": {
         "value": "喇叭单元",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "小雅AI真无线耳机采用柄式入耳设计，耳机和充电盒上没有过多设计，整体外观较为简洁。耳机单耳约3.8克，重量较轻，支持IP54级防尘防水，可运动或在潮湿天气佩戴；耳机内置蓝牙5.0芯片，10mm动圈单元，双麦通话降噪方案；有红外光学传感器，支持摘下自动暂停和戴上恢复播放；耳机的单次续航约为5小时，充电盒额外提供4次充电，综合续航约24小时。"
+        "source_text": "卸掉螺丝，取出电池、主板及扬声器单元。"
+      }
+    },
+    {
+      "component": "触控/按键",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "触控/按键",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面设置有条形指示灯和功能按键，按键同时集成指纹识别功能，用于支持个人信息隐私保护和各类个人化AI服务。"
+      }
+    },
+    {
+      "component": "指示灯",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "指示灯",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "充电盒正面设置有条形指示灯和功能按键，按键同时集成指纹识别功能，用于支持个人信息隐私保护和各类个人化AI服务。"
+      }
+    },
+    {
+      "component": "耳挂/挂钩",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "耳机",
+      "role": "minor",
+      "evidence": {
+        "value": "耳挂/挂钩",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "光帆AI智能耳机外观上采用了开放式的耳挂设计，搭配5/5重量分配，提供更舒适的全天候佩戴。核心AI功能方面，该产品搭载200万像素定焦摄像头，支持场景AI快速识别技术，搭配AI实景对话，可为用户实时讲解看到的内容。充电仓内置4G eSIM通讯模块、集成麦克风、GPS定位和指纹识别，使耳机可以脱离手机独立使用。"
+      }
+    },
+    {
+      "component": "外壳结构",
+      "brand": "",
+      "model": "",
+      "qty_hint": "",
+      "side": "充电盒",
+      "role": "minor",
+      "evidence": {
+        "value": "外壳结构",
+        "confidence": 0.72,
+        "source_type": "text",
+        "source_text": "拆开充电盒外壳，取出座舱结构。"
       }
     },
     {
@@ -122,42 +292,37 @@
         "value": "充电触点",
         "confidence": 0.72,
         "source_type": "text",
-        "source_text": "主板另一侧电路展示，左侧是电池导线的焊点，焊点饱满，中间是耳机的充电触点。"
+        "source_text": "耳机充电触点特写。"
       }
     },
     {
-      "component": "指示灯",
+      "component": "芯片/模组",
       "brand": "",
-      "model": "",
-      "qty_hint": "",
+      "model": "BES2800HP",
+      "qty_hint": "1",
       "side": "",
-      "role": "minor",
+      "role": "主控/蓝牙",
       "evidence": {
-        "value": "指示灯",
-        "confidence": 0.72,
+        "value": "BES2800HP",
+        "confidence": 0.78,
         "source_type": "text",
-        "source_text": "指示灯和霍尔元件的FPC通过连接器连接主板。"
-      }
-    },
-    {
-      "component": "触控/按键",
-      "brand": "",
-      "model": "",
-      "qty_hint": "",
-      "side": "耳机",
-      "role": "minor",
-      "evidence": {
-        "value": "触控/按键",
-        "confidence": 0.72,
-        "source_type": "text",
-        "source_text": "耳机柄顶部有一个麦克风拾音孔，拾取环境声音辅助通话降噪功能。耳机的触控位置在耳机柄上方，点按两次是播放/暂停，点按三次是切换，长按可以语音点播或续播。"
+        "source_text": "BES恒玄科技BES2800HP是一款超低功耗、高性能的智能音频SoC，集成了蓝牙和可选的Wi-Fi功能。"
       }
     }
   ],
-  "summary_image_urls": [],
-  "summary_text": "",
+  "summary_image_urls": [
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2026/09/2026091701331974.png",
+      "alt": "拆解报告：光帆AI智能耳机-我爱音频网",
+      "caption": "",
+      "section_hint": "summary_bom",
+      "score": 10
+    }
+  ],
+  "summary_text": "三、我爱音频网总结 最后附上光帆AI智能耳机的已知物料清单，方便大家查阅。 光帆AI智能耳机在外观方面，整体以开放式耳挂耳机为基底设计，圆角矩形充电盒，体积适中，使用便携；耳挂式耳机，音腔造型圆润，体积相较传统耳机有所增大，但佩戴感受依然具备该品类的持久舒适性，为全天候AI陪伴提供了基础。 内部主要配置方面，充电盒搭载维都利新能源3.87V 2020mAh锂电池组，采用了SinhMicro昇生微电子SS889AH POWER MCU，用于内置电池的充放电管理；采用LPS微源半导体LP5308过压过流保护IC，负责后级电路安全。 充电盒内置方形扬声器和2个敏芯微电子的MEMS麦克风，采用BES恒玄科技BES2800HP智能音频SoC，负责与耳机通讯；采用AICXTEK归芯科技GX308 LTE Cat.1单芯片SoC，实现独立上网与云端交互；射频电路上搭载大量Sunlord顺络电子SDCL0603Q系列叠层陶瓷电感；其他还采用了ICOE芯与物CC0258B GNSS定位芯片等方案。 耳机内部搭载200万像素摄像头，内置MIC-POWER微电新能源3.85V 105mAh圆柱形钢壳电池、17mm*12mm跑道型动圈单元和2个敏芯微电子的MEMS麦克风，采用了BES恒玄科技BES2800HP智能音频SoC、SigmaStar星宸SSC9211F视觉处理SoC、Southchip南芯SC7289线性充电IC等方案。",
   "layer_refs": {
     "technical": [
+      "report:289676",
       "report:69797"
     ],
     "channel": [],
@@ -348,81 +513,130 @@
   "market": {
     "selling_points": [
       {
-        "text": "音频内容平台喜马拉雅近期推出了品牌首款TWS耳机，小雅AI真无线耳机，这款产品专为喜马拉雅用户打造，与喜马拉雅 […]\n耳机柄顶部有一个麦克风拾音孔，拾取环境声音辅助通话降噪功能。",
-        "tag": "降噪",
+        "text": "双目视觉感知模组，充电盒支持独立联网、位置感知、身份验证等，赋能产品主动式AI交互体验",
+        "tag": "其他",
+        "tags": [],
         "evidence": {
-          "value": "音频内容平台喜马拉雅近期推出了品牌首款TWS耳机，小雅AI真无线耳机，这款产品专为喜马拉雅用户打造，与喜马拉雅 […]\n耳机柄顶部有一个麦克风拾音孔，拾取环境声音辅助通话降噪功能。",
+          "value": "双目视觉感知模组，充电盒支持独立联网、位置感知、身份验证等，赋能产品主动式AI交互体验",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "双目视觉感知模组，充电盒支持独立联网、位置感知、身份验证等，赋能产品主动式AI交互体验"
+        }
+      },
+      {
+        "text": "异构多核架构，集成4G通信Modem、射频单元与应用处理器，具备频段覆盖广、极致低功耗特征",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "异构多核架构，集成4G通信Modem、射频单元与应用处理器，具备频段覆盖广、极致低功耗特征",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "异构多核架构，集成4G通信Modem、射频单元与应用处理器，具备频段覆盖广、极致低功耗特征"
+        }
+      },
+      {
+        "text": "AI还支持深度个性化定制，可自主设定性格、音色及专属称呼等",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "AI还支持深度个性化定制，可自主设定性格、音色及专属称呼等",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "AI还支持深度个性化定制，可自主设定性格、音色及专属称呼等"
+        }
+      },
+      {
+        "text": "具备记忆功能，越用越好用",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "具备记忆功能，越用越好用",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "具备记忆功能，越用越好用"
+        }
+      },
+      {
+        "text": "UNiM至讯创新UM19A1LISW SLC NAND闪存，容量：2Gb，具有高可靠性，低功耗，卓越的读写性能，能广泛应用于从消费类到工业类的各种产品中",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "UNiM至讯创新UM19A1LISW SLC NAND闪存，容量：2Gb，具有高可靠性，低功耗，卓越的读写性能，能广泛应用于从消费类到工业类的各种产品中",
+          "confidence": 0.75,
+          "source_type": "text",
+          "source_text": "UNiM至讯创新UM19A1LISW SLC NAND闪存，容量：2Gb，具有高可靠性，低功耗，卓越的读写性能，能广泛应用于从消费类到工业类的各种产品中"
+        }
+      },
+      {
+        "text": "200万像素定焦摄像头，FOV 88°双目设计，用于获取佩戴者第一视角下的场景信息",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "200万像素定焦摄像头，FOV 88°双目设计，用于获取佩戴者第一视角下的场景信息",
+          "confidence": 0.74,
+          "source_type": "text",
+          "source_text": "200万像素定焦摄像头，FOV 88°双目设计，用于获取佩戴者第一视角下的场景信息"
+        }
+      },
+      {
+        "text": "音腔底部的通话麦克风拾音孔特写，抗风噪设计",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "音腔底部的通话麦克风拾音孔特写，抗风噪设计",
+          "confidence": 0.58,
+          "source_type": "text",
+          "source_text": "音腔底部的通话麦克风拾音孔特写，抗风噪设计"
+        }
+      },
+      {
+        "text": "音腔底部设置有降噪麦克风拾音孔，以及通过金属盖板防护的调音孔",
+        "tag": "其他",
+        "tags": [],
+        "evidence": {
+          "value": "音腔底部设置有降噪麦克风拾音孔，以及通过金属盖板防护的调音孔",
           "confidence": 0.56,
           "source_type": "text",
-          "source_text": "音频内容平台喜马拉雅近期推出了品牌首款TWS耳机，小雅AI真无线耳机，这款产品专为喜马拉雅用户打造，与喜马拉雅 […]\n耳机柄顶部有一个麦克风拾音孔，拾取环境声音辅助通话降噪功能。"
-        }
-      },
-      {
-        "text": "耳机柄顶部有一个麦克风拾音孔，拾取环境声音辅助通话降噪功能。",
-        "tag": "降噪",
-        "evidence": {
-          "value": "耳机柄顶部有一个麦克风拾音孔，拾取环境声音辅助通话降噪功能。",
-          "confidence": 0.56,
-          "source_type": "text",
-          "source_text": "耳机柄顶部有一个麦克风拾音孔，拾取环境声音辅助通话降噪功能。"
-        }
-      },
-      {
-        "text": "USB Type-C充电接口底部使用透明胶水固定，也起一定防尘防水作用。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "USB Type-C充电接口底部使用透明胶水固定，也起一定防尘防水作用。",
-          "confidence": 0.55,
-          "source_type": "text",
-          "source_text": "USB Type-C充电接口底部使用透明胶水固定，也起一定防尘防水作用。"
-        }
-      },
-      {
-        "text": "充电接口：USB Type-C充电接口底部使用透明胶水固定，也起一定防尘防水作用。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "充电接口：USB Type-C充电接口底部使用透明胶水固定，也起一定防尘防水作用。",
-          "confidence": 0.55,
-          "source_type": "text",
-          "source_text": "充电接口：USB Type-C充电接口底部使用透明胶水固定，也起一定防尘防水作用。"
-        }
-      },
-      {
-        "text": "泄压孔内侧的防尘网。",
-        "tag": "防水防尘",
-        "evidence": {
-          "value": "泄压孔内侧的防尘网。",
-          "confidence": 0.62,
-          "source_type": "text",
-          "source_text": "泄压孔内侧的防尘网。"
+          "source_text": "音腔底部设置有降噪麦克风拾音孔，以及通过金属盖板防护的调音孔"
         }
       }
     ],
     "scenarios": [
-      "运动",
       "通话"
     ],
-    "positioning_summary": "音频内容平台喜马拉雅近期推出了品牌首款TWS耳机，小雅AI真无线耳机，这款产品专为喜马拉雅用户打造，与喜马拉雅 […]\n耳机柄顶部有一个麦克风拾音孔，拾取环境声音辅助通话降噪功能。",
+    "positioning_summary": "适用通话等场景",
     "launch_date": null,
-    "best_report_id": "69797",
+    "best_report_id": "289676",
     "best_video_id": null,
     "selling_points_summary": [
       {
-        "tag": "降噪",
-        "text": "耳机柄顶部麦克风拾音孔辅助通话降噪"
+        "tag": "AI交互",
+        "text": "双目视觉感知模组，充电盒支持独立联网、位置感知、身份验证，赋能主动式AI交互"
       },
       {
-        "tag": "防水防尘",
-        "text": "USB Type-C接口透明胶水固定起防尘防水作用"
+        "tag": "通信与架构",
+        "text": "异构多核架构，集成4G通信Modem、射频单元与应用处理器，频段覆盖广、低功耗"
       },
       {
-        "tag": "防水防尘",
-        "text": "泄压孔内侧设有防尘网"
+        "tag": "AI个性化",
+        "text": "AI支持深度个性化定制，可自主设定性格、音色及专属称呼等"
+      },
+      {
+        "tag": "记忆功能",
+        "text": "具备记忆功能，越用越好用"
+      },
+      {
+        "tag": "存储",
+        "text": "UNiM至讯创新UM19A1LISW SLC NAND闪存，容量2Gb，高可靠低功耗"
+      },
+      {
+        "tag": "摄像头",
+        "text": "200万像素定焦摄像头，FOV 88°双目设计，获取佩戴者第一视角场景信息"
       }
     ],
     "selling_points_summary_meta": {
       "model": "deepseek-v4-flash",
-      "source_hash": "65b71d708ee9b8ead549f137d953f7025043b87d6becc2c2ae59431b647644aa"
+      "source_hash": "4029f7fab875056f892291599e120cb93983c31121d6084201faff1c91937ca2"
     }
   },
   "launch": {
