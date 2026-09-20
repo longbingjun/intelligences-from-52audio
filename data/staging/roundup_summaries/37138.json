@@ -2,59 +2,59 @@
   "schema_version": 2,
   "status": "success",
   "model": "deepseek-v4-flash",
-  "source_hash": "4b7256c27bd31a864857337eeca6fd1d0c0a1cdff5989f921b112a8a2b753236",
-  "last_attempt_source_hash": "4b7256c27bd31a864857337eeca6fd1d0c0a1cdff5989f921b112a8a2b753236",
-  "captured_at": "2026-08-03T16:23:39.285421+00:00",
-  "last_attempt_at": "2026-08-03T16:23:39.285438+00:00",
-  "last_success_at": "2026-08-03T16:23:39.285441+00:00",
+  "source_hash": "0e50f9dca13d5467956e384cbf54ff8076d73637562c6db99e26cc8ea06537d6",
+  "last_attempt_source_hash": "0e50f9dca13d5467956e384cbf54ff8076d73637562c6db99e26cc8ea06537d6",
+  "captured_at": "2026-09-20T06:11:48.359238+00:00",
+  "last_attempt_at": "2026-09-20T06:11:48.359256+00:00",
+  "last_success_at": "2026-09-20T06:11:48.359259+00:00",
   "source_url": "https://www.52audio.com/archives/37138.html",
-  "overview": "本文为我爱音频网对漫步者（EDIFIER）10款耳机产品的拆解汇总，涵盖TWS真无线、颈挂式及头戴式主动降噪耳机。文章逐一介绍了每款产品的设计特点、主控芯片及内部结构，并总结了漫步者在蓝牙主控芯片选择上以高通为主，同时采用络达、原相等方案，主动降噪芯片则选用AMS。文章还提及漫步者推出全系列TWS耳机，并邀请明星代言、推出联名款，展现了其在TWS市场的积极布局。",
+  "overview": "本文是我爱音频网于2020年2月18日发布的年度拆解汇总，覆盖漫步者旗下10款耳机产品，包括HECATE GM4、GM6两款TWS游戏耳机，LolliPods及TWS1、TWS2、TWS3、TWS5、TWS7五款真无线耳机，以及W330NB颈挂式、W860NB头戴式两款主动降噪蓝牙耳机。文章逐款给出编辑点评、主控芯片型号及拆解要点，并在总结中指出漫步者蓝牙主控以高通为主要供应商，络达、原相于当年加入供应行列，主动降噪芯片选用AMS，产品线覆盖从桌面音箱到TWS真无线耳机的多个品类。",
   "key_findings": [
     {
-      "title": "产品线覆盖广泛",
-      "text": "文章汇总了漫步者10款耳机产品，包括HECATE GM4、GM6游戏TWS耳机，LolliPods、TWS1、TWS2、TWS3、TWS5、TWS7真无线耳机，以及W330NB颈挂式和W860NB头戴式主动降噪耳机，覆盖游戏、日常、降噪等多个细分市场。"
+      "title": "拆解样本覆盖三类耳机形态",
+      "text": "文章汇总的10款产品中，TWS真无线耳机占7款（含2款HECATE游戏系列），颈挂式主动降噪1款，头戴式主动降噪1款，覆盖游戏、日常聆听与降噪三类使用场景，均为我爱音频网已完成的拆解对象。"
     },
     {
-      "title": "主控芯片以高通为主",
-      "text": "拆解显示，10款产品中多数采用高通芯片，如QCC3020、QCC3026、CSR8670、CSR8645等，少数采用络达AB1526P和原相PAU1606。这表明漫步者在蓝牙主控选择上高度依赖高通，同时也在引入其他供应商。"
+      "title": "高通为蓝牙主控主要供应商",
+      "text": "10款产品中，GM6、LolliPods、TWS1采用高通QCC3020，TWS3采用CSRA64110，TWS5采用QCC3026，TWS7采用CSR8670，W330NB与W860NB采用CSR8645；TWS2采用络达AB1526P，GM4采用原相PAU1606。"
     },
     {
-      "title": "主动降噪芯片采用AMS方案",
-      "text": "两款主动降噪耳机W330NB和W860NB分别采用AMS的AS3415和AS3435降噪芯片，搭配高通主控，确保降噪性能。AMS芯片在降噪耳机中应用广泛，体现了漫步者对降噪品质的重视。"
+      "title": "主动降噪芯片选用AMS方案",
+      "text": "W330NB搭载ams AS3415降噪芯片，W860NB采用两颗ams AS3435降噪芯片，文章称AMS为行业认可度较高的降噪芯片供应商，并给出AS3415的失真率、信噪比与降噪能力数据。"
     },
     {
-      "title": "设计注重佩戴与防护",
-      "text": "多款耳机采用人体工学设计，如GM4的杆式入耳、LolliPods的半入耳、TWS7的入耳挂耳式，强调佩戴舒适稳固。部分产品如GM4、TWS7内部结构紧密，具备日常防水防汗能力。"
+      "title": "电源与充电管理芯片来源分散",
+      "text": "GM4充电盒采用钰泰ETA9697电源管理芯片，TWS1充电仓采用昇生微SS809低功耗SOC控制芯片；W330NB主板内置TI功放IC TPA6141与TI电路保护IC BQ24314，体现外围器件多供应商并存。"
     },
     {
-      "title": "TWS产品功能多样化",
-      "text": "TWS耳机支持蓝牙5.0、aptX音频解码、CVC通话降噪等特性，部分产品如TWS5采用LDS镭雕天线和霍尔磁控传感器，实现快速回连。TWS1还支持触控操作，累计续航达32小时。"
+      "title": "天线与结构工艺在多款产品中复用",
+      "text": "LolliPods与TWS5均采用LDS镭雕天线以提升射频性能；TWS5内置霍尔磁控传感器实现开盖即连；TWS7内部使用大量胶水提升密封性；GM6主板高度契合内部空间并多用排线连接。"
     },
     {
-      "title": "市场策略积极",
-      "text": "漫步者紧跟TWS潮流，推出多款产品，并邀请明星盛一伦代言，推出小黄人联名款，通过明星代言和IP合作加强市场推广，成为传统音频品牌转型的典范。"
+      "title": "产品线与市场动作被同步记录",
+      "text": "文章提到漫步者2010年2月5日登陆A股，为国内首家A股上市自主品牌多媒体音响企业；TWS1为首款TWS产品并邀请盛一伦代言，此外还推出小黄人联名款TWS耳机。"
     }
   ],
   "image_highlights": [
     {
       "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/02/pic_001-1-2-1024x536.jpg",
       "description": "原文配图",
-      "caption": "文章标题图，展示漫步者品牌及多款耳机产品"
+      "caption": "文章开篇配图，用于引出漫步者10款耳机拆解汇总主题"
     },
     {
       "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/02/pic_002-1-1-1024x712.jpg",
       "description": "原文配图",
-      "caption": "HECATE GM4耳机拆解图，展示内部结构"
+      "caption": "原文配图，展示漫步者耳机产品拆解相关内容"
     },
     {
       "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/02/pic_003-3-1024x576.jpg",
       "description": "原文配图",
-      "caption": "HECATE GM6耳机及充电盒外观"
+      "caption": "原文配图，对应文中某款漫步者耳机的拆解展示"
     },
     {
       "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/02/pic_004-2-1024x576.jpg",
       "description": "原文配图",
-      "caption": "LolliPods耳机拆解，显示内部元件"
+      "caption": "原文配图，对应文中某款漫步者耳机的拆解展示"
     }
   ]
 }

@@ -2,55 +2,59 @@
   "schema_version": 2,
   "status": "success",
   "model": "deepseek-v4-flash",
-  "source_hash": "f90cb6d6f531934225b1235ba9a1b67d9c8a4162641d29141c4aad87fa264fdc",
-  "last_attempt_source_hash": "f90cb6d6f531934225b1235ba9a1b67d9c8a4162641d29141c4aad87fa264fdc",
-  "captured_at": "2026-08-03T16:23:46.446960+00:00",
-  "last_attempt_at": "2026-08-03T16:23:46.446975+00:00",
-  "last_success_at": "2026-08-03T16:23:46.446977+00:00",
+  "source_hash": "ad0250a3abd6451bce6c94727a470f73b3315578a75291d88f0a848665ce81f7",
+  "last_attempt_source_hash": "ad0250a3abd6451bce6c94727a470f73b3315578a75291d88f0a848665ce81f7",
+  "captured_at": "2026-09-20T06:11:54.860773+00:00",
+  "last_attempt_at": "2026-09-20T06:11:54.860790+00:00",
+  "last_success_at": "2026-09-20T06:11:54.860792+00:00",
   "source_url": "https://www.52audio.com/archives/12652.html",
-  "overview": "本文汇总了2018年五款主流手机附带的3.5mm接口耳机拆解，包括苹果EarPods、华为AM115、OPPO MH135、三星EHS64和vivo XE710。文章详细展示了每款耳机的结构、麦克风类型、线控设计和扬声器振膜等细节。拆解发现，半入耳式与入耳式设计并存，麦克风分为MEMS和驻极体两种，线控按键有单键和三键设计。文章旨在为消费者和行业提供参考，了解当时手机耳机的内部构造和设计趋势。",
+  "overview": "我爱音频网于2018年12月27日发布《五款手机3.5mm接口耳机拆解汇总》，对苹果EarPods、华为AM115经典版、OPPO MH135、三星EHS64和vivo XE710五款手机附送的有线耳机进行拆解。文章指出，尽管部分手机厂商减少附送耳机且接口有变化，但2018年仍有很多手机内置3.5mm音频接口，USB-C或Lightning转接线另一端也仍是3.5mm插座，因此3.5mm手机耳机尚未退出舞台。拆解覆盖耳塞类型、麦克风类型、线控按键设计、扬声器振膜等内部结构，并在总结中归纳了半入耳式占比、麦克风方案差异和线控按键数量三类共同特征。",
   "key_findings": [
     {
-      "title": "耳塞类型分布",
-      "text": "五款耳机中，苹果、华为和OPPO采用半入耳式设计，三星和vivo采用入耳式设计。半入耳式佩戴不适感较小，但低音和隔音效果不如入耳式。"
+      "title": "半入耳式设计占多数",
+      "text": "五款耳机中过半采用半入耳式设计，包括苹果EarPods、华为AM115经典版和OPPO MH135；三星EHS64和vivo XE710为入耳式。文章总结称半入耳式比入耳式给耳朵带来的不适感更小，但低音效果和隔音效果不如入耳式。"
     },
     {
-      "title": "麦克风技术差异",
-      "text": "苹果和三星的耳机采用MEMS贴片硅麦，华为、OPPO和vivo采用驻极体麦克风。MEMS麦克风体积更小，可能有利于集成。"
+      "title": "麦克风方案分两类",
+      "text": "三星EHS64和苹果EarPods采用MEMS贴片硅麦，华为AM115经典版、OPPO MH135和vivo XE710采用驻极体麦克风。拆解中具体呈现了线控内麦克风位置，如三星线控内为MEMS贴片硅麦，华为微动按键小板背面有驻极体麦克风。"
     },
     {
-      "title": "线控按键设计",
-      "text": "OPPO和vivo采用单按键设计，苹果、三星和华为采用三按键设计。三按键通常包括音量加减和多功能键，单按键则更简洁。"
+      "title": "线控按键设计分化",
+      "text": "OPPO MH135和vivo XE710采用简洁的单按键设计，苹果EarPods、三星EHS64和华为AM115经典版采用经典的三按键设计。华为线控上有音量控制按键和中间多功能按键，其线控内可见三个微动按键。"
     },
     {
-      "title": "扬声器振膜材料",
-      "text": "华为、OPPO和vivo的耳机采用透明塑料振膜，苹果采用羊毛纸盆振膜。不同振膜材料可能影响音质表现。"
+      "title": "振膜与扬声器结构差异",
+      "text": "苹果EarPods采用羊毛纸盆振膜，边缘为淡蓝色软胶；华为AM115经典版、OPPO MH135和vivo XE710采用透明塑料振膜。三星EHS64采用形状不一样的动圈扬声器，vivo XE710动圈扬声器正面有金属罩防止挤压损伤振膜。"
     },
     {
-      "title": "泄压孔与调音孔",
-      "text": "多款耳机设有泄压孔或调音孔，如苹果EarPods有调音孔，OPPO和vivo有泄压孔，用于调节音效。"
+      "title": "声学与防护细节",
+      "text": "华为AM115经典版和OPPO MH135均采用独立气流腔体、低音导向孔，文章称可带来低音淳厚、中频清晰、高频清亮的开阔声场。三星EHS64耳机底部有泄压孔，vivo XE710有两个泄压孔用于调节音效，OPPO MH135耳机背侧有泄压孔、内侧有防尘网。"
+    },
+    {
+      "title": "3.5mm接口仍具现实基础",
+      "text": "文章开篇指出，2018年仍有很多手机采用机身内置3.5mm音频接口，即便是USB-C或Lightning接口转接线，另一端也还是3.5mm耳机插座，因此还不需要急着将3.5mm手机耳机推离历史舞台。"
     }
   ],
   "image_highlights": [
     {
       "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/1.jpeg",
       "description": "原文配图",
-      "caption": "苹果EarPods耳机整体外观，展示半入耳式设计。"
+      "caption": "文章配图，展示五款手机3.5mm接口耳机拆解汇总相关产品外观或结构。"
     },
     {
-      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/5.jpeg",
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/2.jpeg",
       "description": "原文配图",
-      "caption": "华为AM115线控特写，展示按键和麦克风孔。"
+      "caption": "文章配图，展示拆解过程中的耳机内部组件或细节。"
     },
     {
-      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/10.jpeg",
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/3.jpeg",
       "description": "原文配图",
-      "caption": "OPPO MH135耳机外观，流线型设计。"
+      "caption": "文章配图，展示拆解过程中的耳机内部组件或细节。"
     },
     {
-      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/15.jpeg",
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/4.jpeg",
       "description": "原文配图",
-      "caption": "三星EHS64耳机背面，展示品牌logo。"
+      "caption": "文章配图，展示拆解过程中的耳机内部组件或细节。"
     }
   ]
 }

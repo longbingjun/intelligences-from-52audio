@@ -2,55 +2,59 @@
   "schema_version": 2,
   "status": "success",
   "model": "deepseek-v4-flash",
-  "source_hash": "21f3fbaee910fd34b35017cd7a7e53c5b6232c62b230165d98136196f9931bb9",
-  "last_attempt_source_hash": "21f3fbaee910fd34b35017cd7a7e53c5b6232c62b230165d98136196f9931bb9",
-  "captured_at": "2026-08-03T16:22:46.486089+00:00",
-  "last_attempt_at": "2026-08-03T16:22:46.486105+00:00",
-  "last_success_at": "2026-08-03T16:22:46.486109+00:00",
+  "source_hash": "f06a0b27ebf1a2e8b92de506a400221db40646a4755e0855159ccc5fe327a689",
+  "last_attempt_source_hash": "f06a0b27ebf1a2e8b92de506a400221db40646a4755e0855159ccc5fe327a689",
+  "captured_at": "2026-09-20T06:11:08.000914+00:00",
+  "last_attempt_at": "2026-09-20T06:11:08.000931+00:00",
+  "last_success_at": "2026-09-20T06:11:08.000934+00:00",
   "source_url": "https://www.52audio.com/archives/172723.html",
-  "overview": "本文汇总了我爱音频网对16个品牌旗下17款OWS（开放式可穿戴立体声）耳机的拆解报告，覆盖1MORE、Ambie、夏新、蛇圣、现代、科大讯飞、魔声、韶音、索尼等品牌。文章分析了OWS耳机火爆的原因，即不入耳设计带来的舒适佩戴、环境感知和运动适用性。拆解显示，产品形态主要分为耳挂式和耳夹式，功能上强调大尺寸发声单元、定向传音和通话降噪。主控芯片采用7家厂商的12款方案，其中恒玄占比最高。文章还预告了2023亚洲OWS耳机大会。",
+  "overview": "我爱音频网于2023年9月发布OWS耳机拆解汇总，覆盖1MORE万魔、Ambie、AMOi夏新、Barbetsound、Holy serpent蛇圣、HYUNDAI现代、iFLYTEK科大讯飞、利威朗、Monster魔声、诺必行、sanag塞那、SHOKZ韶音、SONY索尼、SoundAI声智、小天才、XTOUR秘语16个品牌17款产品。文章指出OWS耳机采用开放式结构，无需入耳，适合运动并提升安全性。汇总显示主控芯片来自7家厂商12款方案，BES恒玄占41.18%，Bluetrum中科蓝讯和杰理各占17.65%，AIROHA达发&MediaTek联发科占11.76%，SmartLink慧联科技和高通各占5.88%。产品形态主要为耳挂式和耳夹式，功能主打大尺寸发声单元、定向传音、低音增强算法和ENC通话降噪。",
   "key_findings": [
     {
-      "title": "OWS耳机市场爆发与形态分类",
-      "text": "文章指出，2023年OWS耳机进入快速爆发期，众多品牌发布新品。汇总的17款产品中，主流形态分为耳挂式和耳夹式两种，如万魔S50采用挂耳式，夏新S19采用耳夹式。设计上均采用开放式不入耳结构，以提升佩戴舒适性和环境感知能力。"
+      "title": "主控芯片供应格局",
+      "text": "17款OWS耳机主控芯片采用7大芯片厂商的12款解决方案，BES恒玄占比41.18%，Bluetrum中科蓝讯和杰理各占17.65%，AIROHA达发&MediaTek联发科占11.76%，SmartLink慧联科技和高通各占5.88%。"
     },
     {
-      "title": "主控芯片方案分布",
-      "text": "17款OWS耳机的主控芯片来自7家厂商的12款方案，其中恒玄占比最高（41.18%），中科蓝讯和杰理各占17.65%，达发/联发科占11.76%，慧联科技和高通各占5.88%。部分方案针对OWS应用进行了优化，但整体与TWS耳机方案雷同。"
+      "title": "产品形态与功能趋势",
+      "text": "市场主流开放式耳机分为耳挂式和耳夹式两种形态，功能上主打大尺寸发声单元、定向传音、低音增强算法，以改善开放式聆听的低频损耗和漏音问题，并支持ENC通话降噪。"
     },
     {
-      "title": "功能配置趋势",
-      "text": "产品普遍搭载大尺寸发声单元（如10mm至16.2mm），采用定向传音技术以减少漏音，并支持低音增强算法。多数耳机支持ENC通话降噪，配备双麦克风或单麦克风。续航方面，单次续航在5至15小时之间，综合续航可达50小时。"
+      "title": "内部结构设计差异",
+      "text": "充电盒设计与TWS耳机类似，主要不同是座舱结构；耳机因不入耳开放式听音，对内部电路、音腔、麦克风位置、调音孔、泄压孔等结构进行全新设计，耳挂式和耳夹式内部结构区别很大。"
     },
     {
-      "title": "内部结构与充电盒设计",
-      "text": "充电盒设计与TWS耳机类似，内置电池容量在250mAh至1000mAh之间，采用英集芯、微源等电源管理芯片。耳机内部因开放式结构，音腔、麦克风位置等重新设计，耳挂式与耳夹式内部结构差异明显。"
+      "title": "硬件配置与TWS的异同",
+      "text": "OWS耳机与TWS耳机解决方案雷同，充电盒内部配置几乎相同；耳机内部扬声器、电池、麦克风等配置与TWS有区别，部分主控方案针对OWS应用进行了优化。"
     },
     {
-      "title": "行业活动预告",
-      "text": "文章预告2023（秋季）亚洲OWS耳机大会将于11月1日在深圳福田会展中心举行，该大会前身为亚洲蓝牙音频大会，旨在汇聚OWS产业链上下游企业，探讨技术发展。"
+      "title": "代表性品牌与产品覆盖",
+      "text": "汇总包括1MORE万魔、Ambie、AMOi夏新、Barbetsound、Holy serpent蛇圣、HYUNDAI现代、iFLYTEK科大讯飞、利威朗、Monster魔声、诺必行、sanag塞那、SHOKZ韶音、SONY索尼、SoundAI声智、小天才、XTOUR秘语16个品牌17款产品。"
+    },
+    {
+      "title": "行业活动信息",
+      "text": "亚洲OWS耳机大会定档2023年11月1日，前身为亚洲蓝牙音频大会，围绕OWS开放式耳机产业上下游话题，汇聚标准、半导体、方案研发、生产制造、品牌、渠道等企业。"
     }
   ],
   "image_highlights": [
     {
-      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/10/2023102501240797.png",
-      "description": "原文配图",
-      "caption": "文章开头展示的OWS耳机产品汇总图，包含多款产品外观。"
-    },
-    {
       "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/09/2023090410435571.png",
       "description": "原文配图",
-      "caption": "17款OWS耳机主控芯片占比饼状图，显示恒玄占比最高。"
+      "caption": "文章展示的OWS耳机主控芯片厂商占比示意图"
     },
     {
       "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/09/2023090410435676.png",
       "description": "原文配图",
-      "caption": "1MORE万魔S50开放式运动蓝牙耳机的产品图。"
+      "caption": "1MORE万魔S50开放式运动蓝牙耳机外观图"
     },
     {
       "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/09/2023090410435826.jpeg",
       "description": "原文配图",
-      "caption": "Ambie耳夹式全开放真无线耳机的拆解图。"
+      "caption": "ambie耳夹式全开放真无线耳机产品图"
+    },
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2023/09/2023090410440054.jpeg",
+      "description": "原文配图",
+      "caption": "AMOi夏新S19耳夹式蓝牙耳机展示图"
     }
   ]
 }

@@ -2,55 +2,59 @@
   "schema_version": 2,
   "status": "success",
   "model": "deepseek-v4-flash",
-  "source_hash": "d9d7a0e1583e05487ce6b4fe68ed312776a95015f0e8ef6539b64fcf264580a1",
-  "last_attempt_source_hash": "d9d7a0e1583e05487ce6b4fe68ed312776a95015f0e8ef6539b64fcf264580a1",
-  "captured_at": "2026-08-03T16:23:02.212116+00:00",
-  "last_attempt_at": "2026-08-03T16:23:02.212132+00:00",
-  "last_success_at": "2026-08-03T16:23:02.212135+00:00",
+  "source_hash": "9d1546db72bc4710fd67ddccb722e60bc485691b01ff17609bf0064fc1b587e5",
+  "last_attempt_source_hash": "9d1546db72bc4710fd67ddccb722e60bc485691b01ff17609bf0064fc1b587e5",
+  "captured_at": "2026-09-20T06:11:22.602218+00:00",
+  "last_attempt_at": "2026-09-20T06:11:22.602235+00:00",
+  "last_success_at": "2026-09-20T06:11:22.602237+00:00",
   "source_url": "https://www.52audio.com/archives/85117.html",
-  "overview": "文章汇总了思远半导体32款TWS耳机充电仓电源管理芯片的应用案例，涵盖智能充电仓解决方案、锂电池充电管理芯片和输入过压保护芯片三类。产品被万魔、JBL、OPPO、小米等知名品牌采用，其中SY88xx系列因集成度高、简化设计而广受欢迎。文章还提及思远半导体通过IEC62368认证，在当前半导体供应紧缺背景下保证交付。",
+  "overview": "本文是我爱音频网对思远半导体TWS充电仓电源管理芯片的应用案例汇总。文章基于超过600款音频产品的拆解研究，指出思远半导体共有32款真无线耳机采用了其13种电源芯片，涉及万魔、233621、JBL、漫步者、摩托罗拉、OPPO、声阔、Tezo、传音、网易云、小米、亚马逊、小度等品牌。文章将芯片分为智能充电仓解决方案、锂电池充电管理芯片和输入过压保护芯片三类，并逐一列出各型号特性及对应的拆解报告案例。文章还提及思远半导体全线充电仓解决方案通过IEC62368认证，在半导体供应紧缺背景下强调交付保障。",
   "key_findings": [
     {
-      "title": "产品分类与应用",
-      "text": "思远半导体的电源管理芯片分为智能充电仓解决方案、锂电池充电管理芯片和输入过压保护芯片三类，共13种芯片，被32款TWS耳机采用，涉及品牌包括万魔、JBL、OPPO、小米等。"
+      "title": "覆盖范围与样本规模",
+      "text": "文章汇总思远半导体13种电源芯片在32款TWS耳机中的应用案例，涉及万魔、233621、JBL、漫步者、摩托罗拉、OPPO、声阔、Tezo、传音、网易云、小米、亚马逊、小度等品牌，样本来自我爱音频网超过600款音频产品的拆解研究。"
     },
     {
-      "title": "SY88xx系列优势",
-      "text": "SY88xx系列智能充电仓单芯片解决方案最受欢迎，支持输入耐压，内置充放电过压、过流、过温、短路保护，集成I2C通讯控制，无需复杂外围电路，部分型号集成充电仓智能控制管理功能。"
+      "title": "产品分类与代表型号",
+      "text": "思远半导体电源芯片分为智能充电仓解决方案、锂电池充电管理芯片和输入过压保护芯片三类。智能充电仓方案包括SY8821、SY8810、SY8803、SY8801、SY7638、SY7636、MP5330、MP3401A、MP3407；锂电池充电管理包括SY7612、SY7618、SY8602；输入过压保护为SY8701。"
     },
     {
-      "title": "SY882x系列特点",
-      "text": "SY882x系列匹配所有蓝牙主控对电源特性的要求，无需外部MCU，单芯片实现TWS充电仓应用设计，降低备货风险，并通过IEC62368认证。"
+      "title": "智能充电仓方案的市场应用",
+      "text": "SY88xx系列智能充电仓单芯片解决方案被多款产品采用，如SY8803用于万魔ColorBuds、233621 Pearl/Zen/Zen Pro、realme Buds Air Pro、SONG X SX06、传音TECNO Hipods H2；SY8801用于JBL LIVE PRO+、Marshall Mode II、魅族POP2s、一加Buds Z、OPPO Enco W51/Free2、声阔降噪舱、小米Air2 SE、小度真无线智能耳机。"
     },
     {
-      "title": "市场趋势",
-      "text": "文章指出当前半导体供应紧缺，思远半导体全线充电仓解决方案通过IEC62368认证，降低客户过认证风险，是保证交付的可靠选择。"
+      "title": "芯片功能与设计特点",
+      "text": "SY8821为极简应用充电仓单芯片，无需外部MCU，支持5V常开及掉电压模式，常输出功耗低至3uA。SY8810集成1A开关充电、1A升压放电、NTC保护、智能路径管理、双路独立输出及LED指示。SY8803和SY8801集成I2C通讯，SY8801还集成内部通讯隔离，支持数据通讯传输。"
     },
     {
-      "title": "新品方向",
-      "text": "思远半导体主推新品包括SY7100无线充电接收芯片、应用于TWS耳机端的SY5500、SY8602等，均有现货供应，帮助品牌快速推向市场。"
+      "title": "安全认证与供应保障",
+      "text": "思远半导体全线充电仓解决方案通过IEC62368认证要求，SY8803、SY8801、SY8602等型号明确提及通过IEC62368-1安全法规认证。文章在半导体供应紧缺背景下强调SY8821是保证交付的优选产品，SY882x系列无需外部MCU可降低备货风险。"
+    },
+    {
+      "title": "其他应用案例与新品",
+      "text": "SY7638用于Tezo Nutmeg轻豆；SY7636用于亚马逊10.or Buds、网易云音乐氧气LITE+版/LITE版；MP5330用于悟品科技UT93B；MP3401A和MP3407用于LEANTS乐蚁SPECIAL；SY7612用于Sabbat魔宴E12 Ultra；SY7618用于创新OUTLIER AIR、索爱T1S；SY8602用于漫步者TWS NB2；SY8701用于倍思Encok WM01。文章还提及SY7100无线充电接收芯片、SY5500等新品。"
     }
   ],
   "image_highlights": [
     {
-      "url": "https://www.52audio.com/wp-content/uploads/2021/03/1615252565.jpeg",
-      "description": "原文配图",
-      "caption": "文章配图，展示思远半导体产品应用案例的汇总信息。"
-    },
-    {
       "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070809485186.jpg",
       "description": "原文配图",
-      "caption": "思远半导体SY8821芯片相关图片，用于说明智能充电仓解决方案。"
+      "caption": "文章配图，可能展示思远半导体电源管理芯片或应用案例汇总"
     },
     {
       "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070809490374.jpg",
       "description": "原文配图",
-      "caption": "思远半导体SY8810芯片相关图片，展示其应用案例。"
+      "caption": "文章配图，可能展示思远半导体芯片在TWS耳机中的拆解应用"
     },
     {
       "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070809491235.png",
       "description": "原文配图",
-      "caption": "思远半导体SY8803芯片相关图片，说明其高性能SoC级别设计。"
+      "caption": "文章配图，可能展示思远半导体电源芯片型号或封装"
+    },
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2021/07/2021070809493478.jpeg",
+      "description": "原文配图",
+      "caption": "文章配图，可能展示思远半导体充电仓解决方案的应用产品"
     }
   ]
 }
