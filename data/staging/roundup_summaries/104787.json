@@ -2,55 +2,59 @@
   "schema_version": 2,
   "status": "success",
   "model": "deepseek-v4-flash",
-  "source_hash": "26d7da66d6839d5d8b08a1d39b56e3999f6294a006c66716211cbd5d0390d6d0",
-  "last_attempt_source_hash": "26d7da66d6839d5d8b08a1d39b56e3999f6294a006c66716211cbd5d0390d6d0",
-  "captured_at": "2026-09-20T06:11:15.781963+00:00",
-  "last_attempt_at": "2026-09-20T06:11:15.781979+00:00",
-  "last_success_at": "2026-09-20T06:11:15.781980+00:00",
+  "source_hash": "be02be35363d6cb00fa10002d281d6b73405c3f489f80e2fd611dc8cee6484f2",
+  "last_attempt_source_hash": "be02be35363d6cb00fa10002d281d6b73405c3f489f80e2fd611dc8cee6484f2",
+  "captured_at": "2026-09-30T06:40:15.107053+00:00",
+  "last_attempt_at": "2026-09-30T06:40:15.107068+00:00",
+  "last_success_at": "2026-09-30T06:40:15.107070+00:00",
   "source_url": "https://www.52audio.com/archives/104787.html",
-  "overview": "本文是我爱音频网基于超过700款音频产品拆解报告发布的2021年度汇总，聚焦三体微电子全磁屏蔽功率精密绕线电感在TWS耳机中的应用。文章介绍三体微电子为TWS充电盒和耳机提供SCCB、SWFI、SDHL、SDHJ、SDHK、SDHC、SZFC、SHIP等多系列近百款电感，并重点说明SDHL系列全磁屏蔽精密绕线电感的特点。文章还汇总了一加OnePlus Buds Z2、QCY T17、LOOP-T6、声阔LIFE A2 NC+、魔声CLARITY 8.0 ANC等已采用SDHL系列的产品拆解案例，展示其主控芯片外围的电感配置。",
+  "overview": "本文是我爱音频网基于超过700款音频产品拆解报告发布的2021年度汇总，聚焦三体微电子电感产品在TWS耳机中的应用。文章介绍三体微电子为TWS充电盒和耳机推出的SCCB、SWFI、SDHL、SDHJ、SDHK、SDHC、SZFC、SHIP等系列近百款电感，并重点展示SDHL全磁屏蔽精密绕线电感在一加Buds Z2、QCY T17、LOOP-T6、声阔LIFE A2 NC+、魔声CLARITY 8.0 ANC等产品拆解中的实际应用，呈现电感在TWS耳机供电与降噪等功能中的角色。",
   "key_findings": [
     {
-      "title": "TWS耳机电感用量与需求趋势",
-      "text": "文章指出，根据产品定位不同，每款TWS耳机中至少需要3-9颗甚至更多功率电感。充电盒内电感主要作为快充芯片和升压电源芯片外围储能器件；耳机内部因待机耗电问题，需开关型DC/DC电源芯片搭配功率电感。功能丰富、芯片数量增加和性能要求提升，推动电感性能与数量需求增长。"
+      "title": "电感在TWS耳机中的用量与作用",
+      "text": "文章指出，TWS耳机中电感在充电盒和耳机内部电路均有应用：充电盒内作为快充芯片和升压电源芯片外围储能器件；耳机内配合开关型DC/DC电源芯片进行电源转换。根据产品定位，每款TWS耳机至少需要3-9颗甚至更多功率电感。"
     },
     {
-      "title": "三体微电子TWS电感产品布局",
-      "text": "三体微电子针对TWS充电盒和耳机推出SCCB、SWFI、SDHL、SDHJ、SDHK、SDHC、SZFC、SHIP多系列型号近百款电感。其中SCCB为全磁屏蔽一体成型电感用于充电仓；SWFI为磁胶绕线电感用于充电仓；SDHL为全磁屏蔽功率精密绕线电感用于耳机内；SDHJ/K在SDHL基础上升级；SDHC为半磁屏蔽；SZFC为磁开路式。"
+      "title": "三体微电子TWS电感产品线覆盖",
+      "text": "三体微电子针对TWS充电盒和耳机推出SCCB、SWFI、SDHL、SDHJ、SDHK、SDHC、SZFC、SHIP等系列近百款电感。其中SCCB、SWFI用于充电盒；SDHL、SDHJ/K、SDHC、SZFC用于耳机端，覆盖不同定位需求。"
     },
     {
-      "title": "SDHL系列全磁屏蔽精密绕线电感特点",
-      "text": "SDHL系列采用全磁屏蔽结构，对周边降低辐射与干扰，优化TWS耳机底噪、pop音等问题；对铜线进行包裹，抑制电感啸叫；屏蔽层采用增强磁导率材质，收紧磁力线，电感底部可走线；底部铜线无裸露，避免贴片过程中高温锡膏溅射。三体微称其是国内首家突破这一工艺难度的电感厂商。"
+      "title": "SDHL全磁屏蔽精密绕线电感特点",
+      "text": "SDHL系列采用全磁屏蔽结构，对周边降低辐射与干扰，可优化TWS耳机底噪、pop音等问题；铜线包裹层抑制电感啸叫；屏蔽层增强磁导率，底部可走线，铜线无裸露避免贴片时锡膏溅射。三体微称其为国内首家突破该工艺难度的电感厂商。"
     },
     {
-      "title": "已采用SDHL系列的TWS耳机案例",
-      "text": "文章汇总一加OnePlus Buds Z2、QCY T17、LOOP-T6、声阔LIFE A2 NC+、魔声CLARITY 8.0 ANC等产品已应用三体微SDHL系列全磁屏蔽精密绕线电感。其中一加Buds Z2采用恒玄BES2500Z蓝牙音频SOC，外置一颗SDHL1608F4R7MT用于降压供电；QCY T17采用杰理AD6973D4，外围配备SDHL1608F100MT。"
+      "title": "SDHL系列已上市应用案例",
+      "text": "文章列举已应用SDHL系列全磁屏蔽精密绕线电感的TWS耳机：一加OnePlus Buds Z2、QCY T17、LOOP-T6、声阔LIFE A2 NC+、魔声CLARITY 8.0 ANC。这些产品拆解显示SDHL系列用于蓝牙主控芯片外围降压供电。"
     },
     {
-      "title": "声阔与魔声案例中的电感配置",
-      "text": "声阔LIFE A2 NC+采用WUQI物奇WQ7033A芯片，主控芯片外围配备三颗三体微全磁屏蔽精密绕线电感作为储能器件，其中SDHL1608F4R7MT用于为蓝牙芯片内部电路供电。魔声CLARITY 8.0 ANC同样采用WUQI物奇WQ7033A芯片，主控芯片外围配备两颗三体微全磁屏蔽精密绕线电感，用于蓝牙芯片内部不同电压降压供电。"
+      "title": "具体应用中的电感型号与主控搭配",
+      "text": "一加Buds Z2采用恒玄BES2500Z，外置SDHL1608F4R7MT；QCY T17采用杰理AD6973D4，外置SDHL1608F100MT；LOOP-T6采用杰理AD6973D4，外置SDHL1608系列；声阔LIFE A2 NC+采用物奇WQ7033A，外置三颗SDHL1608F4R7MT；魔声CLARITY 8.0 ANC采用物奇WQ7033A，外置两颗SDHL1608F4R7MT。"
+    },
+    {
+      "title": "TWS耳机对电感需求趋势",
+      "text": "文章总结认为，随着TWS耳机功能丰富、控制芯片数量增加、用户性能要求提升，对电感性能和使用数量提出更高需求；同时耳机体积限制使布板空间压缩，电感的尺寸和对周围电路干扰性尤为重要。"
     }
   ],
   "image_highlights": [
     {
       "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/01/uigVLF9vRVQMX5zc.jpgthumbnail.jpg",
       "description": "uigVLF9vRVQMX5zc.jpgthumbnail",
-      "caption": "文章配图，可能展示三体微电子电感产品外观或应用场景"
+      "caption": "文章配图，可能展示三体微电子电感产品外观或应用示意"
     },
     {
       "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/01/Kpkma2qbBc4UrgiO.jpgthumbnail.jpg",
       "description": "Kpkma2qbBc4UrgiO.jpgthumbnail",
-      "caption": "文章配图，可能展示三体微电子电感产品外观或应用场景"
+      "caption": "文章配图，可能展示三体微电子电感产品外观或应用示意"
     },
     {
       "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/01/AJXHM7Gfj6OKWSyM.pngthumbnail.jpg",
       "description": "AJXHM7Gfj6OKWSyM.pngthumbnail",
-      "caption": "文章配图，可能展示三体微电子电感产品外观或应用场景"
+      "caption": "文章配图，可能展示三体微电子电感产品外观或应用示意"
     },
     {
       "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2022/01/MnpTWhkZtnBHWMg1.pngthumbnail.jpg",
       "description": "MnpTWhkZtnBHWMg1.pngthumbnail",
-      "caption": "文章配图，可能展示三体微电子电感产品外观或应用场景"
+      "caption": "文章配图，可能展示三体微电子电感产品外观或应用示意"
     }
   ]
 }
