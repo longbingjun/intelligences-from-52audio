@@ -2,50 +2,59 @@
   "schema_version": 2,
   "status": "success",
   "model": "deepseek-v4-flash",
-  "source_hash": "8f6c2ce743e87848dd1d2cf8a225ed3cc212fb097a0fa556cd3071d07c83df75",
-  "last_attempt_source_hash": "8f6c2ce743e87848dd1d2cf8a225ed3cc212fb097a0fa556cd3071d07c83df75",
-  "captured_at": "2026-10-02T06:59:02.430739+00:00",
-  "last_attempt_at": "2026-10-02T06:59:02.430758+00:00",
-  "last_success_at": "2026-10-02T06:59:02.430761+00:00",
+  "source_hash": "4e281733be9fcd31c6422f02ccce7b5fdb44c8e5ef127852470d1551ae3634f7",
+  "last_attempt_source_hash": "4e281733be9fcd31c6422f02ccce7b5fdb44c8e5ef127852470d1551ae3634f7",
+  "captured_at": "2026-10-05T06:58:10.090888+00:00",
+  "last_attempt_at": "2026-10-05T06:58:10.090911+00:00",
+  "last_success_at": "2026-10-05T06:58:10.090913+00:00",
   "source_url": "https://www.52audio.com/archives/261631.html",
-  "overview": "我爱音频网于2025年12月15日发布TWS耳机拆解汇总文章，聚焦传统入耳式TWS耳机，汇总了2025年以来发布的41款产品拆解报告，涵盖acer、Apple、倍思、beyerdynamic、Bose、漫步者、HIFIMAN、荣耀、华为、iQOO、JBL、机械师、纽曼、一加、OPPO、OVEVO、QCY、realme、弱水时砂、SENNHEISER、绿联、TOZO、vivo、小米等23个品牌。文章梳理了充电盒与耳机内部主要配置，包括电池、电源管理芯片、蓝牙音频SoC、锂电保护IC等，并统计了电源管理芯片和蓝牙音频SoC的厂商占比，为行业提供产品拆解信息参考。",
+  "overview": "我爱音频网2025年12月15日发布TWS耳机拆解汇总，覆盖2025年以来23大品牌41款传统入耳式TWS产品，包括Apple、华为、小米、OPPO、vivo、荣耀、漫步者、倍思等。文章按品牌A-Z梳理各产品外观设计与内部硬件配置，并统计充电盒电源管理芯片、耳机蓝牙音频SoC、过压过流保护IC、锂电保护IC及电池等核心元器件的厂商采用情况。拆解显示，TWS耳机内部配置已高度集成化，充电盒SoC与耳机SoC方案成为主流，多家芯片厂商同台竞技，终端品牌可依据产品定位灵活选用。",
   "key_findings": [
     {
-      "title": "充电盒电源管理芯片厂商集中度较高",
-      "text": "41款TWS耳机充电盒电源管理芯片涉及8大厂商22款方案，其中SinhMicro昇生微电子占比29.27%，INJOINIC英集芯占比26.83%，ETA钰泰占比12.20%，LY来远电子占比7.32%，其余厂商占比均低于5%。ETA钰泰ETA9030V、英集芯IP5528/IP5529、昇生微SS88E8H获得多款产品采用。"
+      "title": "汇总覆盖范围",
+      "text": "文章汇总2025年发布的41款传统入耳式TWS耳机拆解报告，涵盖acer、Apple、倍思、beyerdynamic、Bose、漫步者、HIFIMAN、荣耀、华为、iQOO、JBL、机械师、纽曼、一加、OPPO、OVEVO、QCY、realme、弱水时砂、SENNHEISER、绿联、TOZO、vivo、小米23大品牌。"
     },
     {
-      "title": "蓝牙音频SoC以恒玄、杰理、中科蓝讯、物奇为主",
-      "text": "耳机蓝牙音频SoC来自9大芯片原厂32款方案，BES恒玄科技占比26.83%，JL杰理科技占比19.51%，Bluetrum中科蓝讯占比17.07%，WUQI物奇占比17.07%，AIROHA达发、HiSilicon海思、Qualcomm高通各占4.88%，Apple苹果和REALTEK瑞昱各占2.44%。物奇WQ7034AX、恒玄BES2600IHC/BES2710IUC、中科蓝讯BT8932H、杰理JL7096D获多款采用。"
+      "title": "充电盒电源管理芯片格局",
+      "text": "41款产品充电盒电源管理芯片来自8大厂商22款方案。厂商占比：SinhMicro昇生微电子29.27%、INJOINIC英集芯26.83%、ETA钰泰12.20%、LY来远电子7.32%、Renesas瑞萨4.88%，其余厂商各占2.44%或归入其他7.32%。ETA9030V、IP5528、IP5529、SS88E8H获多款产品采用。"
     },
     {
-      "title": "电池与保护IC供应商呈现多元化",
-      "text": "充电盒电池厂商包括WEL旭航诚、GF新余赣锋、VDL紫建电子、ATL新能源、CEL金赛尔等，其中WEL旭航诚、GF新余赣锋、VDL紫建电子获多款采用。耳机电池厂商包括MIC-POWER微电新能源、VDL紫建电子、GF新余赣锋等，MIC-POWER微电新能源和VDL紫建电子获多款采用。锂电保护IC方面，WINSEMI稳先微WSDF2310系列、ICM创芯微CM1126B系列等获多款采用。"
+      "title": "蓝牙音频SoC厂商分布",
+      "text": "耳机蓝牙音频SoC来自9大芯片原厂32款方案。厂商占比：BES恒玄科技26.83%、JL杰理科技19.51%、Bluetrum中科蓝讯17.07%、WUQI物奇17.07%、AIROHA达发4.88%、HiSilicon海思4.88%、Qualcomm高通4.88%、Apple苹果2.44%、REALTEK瑞昱2.44%。WQ7034AX、BES2600IHC、BES2710IUC、BT8932H、JL7096D获多款采用。"
     },
     {
-      "title": "产品形态与功能持续丰富",
-      "text": "汇总产品涵盖入耳式、半入耳式、豆状等多种形态，部分产品配备触控屏、LED数显、RGB灯效、心率传感器、陀螺仪等。充电盒普遍支持有线/无线充电，电源管理方案多集成升压转换器、锂电池充电管理、MCU等功能，部分支持跟随充电以提升综合续航。"
+      "title": "保护IC与电池供应商",
+      "text": "过压过流保护IC包括LPS微源半导体LP5308、Prisemi芯导科技P14C1S等获多款采用；锂电保护IC包括WINSEMI稳先微WSDF2310系列、WSDY3302系列及ICM创芯微CM1126B、CM1125、CM112E等获多款采用。充电盒电池厂商中WEL旭航诚、GF新余赣锋、VDL紫建电子获多款采用；耳机电池厂商中MIC-POWER微电新能源、VDL紫建电子获多款采用。"
     },
     {
-      "title": "传感器与被动元器件协同配置",
-      "text": "TWS耳机内部搭载扬声器、MEMS麦克风、电感器、6轴陀螺仪、入耳检测/触摸检测/压力检测传感器等。扬声器厂商包括盛佳丽、泉声、瑞勤电子、楼氏电子等；MEMS麦克风厂商包括瑞勤电子、敏芯微电子、意芯微电子等；电感器厂商包括顺络电子、德立电子、三体微电子等；陀螺仪厂商包括ST意法半导体、TDK、博世等。"
+      "title": "传感器与被动元器件",
+      "text": "TWS耳机内部还搭载扬声器（盛佳丽、泉声、瑞勤电子、楼氏电子等）、MEMS麦克风（瑞勤电子、敏芯微电子、意芯微电子等）、电感器（顺络电子、德立电子、三体微电子等）、6轴陀螺仪（ST意法半导体、TDK、博世等）、入耳检测/触摸检测/压力检测传感器（艾为电子、天易合芯、纽迪瑞等）。"
+    },
+    {
+      "title": "代表性产品配置样本",
+      "text": "Apple AirPods Pro 3采用欣旺达充电盒电池、ST微控制器、Nordic蓝牙SoC，耳机搭载苹果H2芯片SiP封装及心率、皮肤识别传感器；华为FreeBuds Pro 4采用瑞萨充电管理、美芯晟无线充电接收、麒麟A2芯片；小米Buds 5 Pro采用高通骁龙S7音频平台、TDK六轴陀螺仪、艾为压力检测IC。"
     }
   ],
   "image_highlights": [
     {
-      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/12/2026011210474389.jpeg",
-      "description": "原文配图",
-      "caption": "文章头图，展示TWS耳机拆解汇总主题"
-    },
-    {
       "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/12/2026011210474072.png",
       "description": "原文配图",
-      "caption": "充电盒电源管理芯片厂商占比饼图"
+      "caption": "文章展示的充电盒电源管理芯片厂商占比饼图"
     },
     {
       "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/12/2026011210473540.png",
       "description": "原文配图",
-      "caption": "耳机蓝牙音频SoC厂商占比饼图"
+      "caption": "文章展示的耳机蓝牙音频SoC厂商占比饼图"
+    },
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/12/2026011210473346.png",
+      "description": "原文配图",
+      "caption": "文章展示的充电盒过压过流保护IC厂商采用情况"
+    },
+    {
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2025/12/2026011210473146.png",
+      "description": "原文配图",
+      "caption": "文章展示的锂电池保护IC厂商采用情况"
     }
   ]
 }
