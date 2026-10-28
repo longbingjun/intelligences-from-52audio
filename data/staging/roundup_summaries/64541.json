@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "status": "success",
+  "status": "error",
   "model": "deepseek-v4-flash",
   "source_hash": "c60fcc5a7c77d9769915d4fc11cc5a5526a07d7c040a89e71cf1efdfde18d0b1",
-  "last_attempt_source_hash": "c60fcc5a7c77d9769915d4fc11cc5a5526a07d7c040a89e71cf1efdfde18d0b1",
+  "last_attempt_source_hash": null,
   "captured_at": "2026-10-17T05:34:15.747902+00:00",
-  "last_attempt_at": "2026-10-17T05:34:15.747922+00:00",
+  "last_attempt_at": "2026-10-28T06:51:25.448492+00:00",
   "last_success_at": "2026-10-17T05:34:15.747925+00:00",
   "source_url": "https://www.52audio.com/archives/64541.html",
   "overview": "本文是我爱音频网基于近500篇拆解报告，对2020年发布的24款支持主动降噪（ANC）功能的TWS真无线耳机进行的汇总分析，覆盖19个品牌，包括苹果、华为、三星、OPPO、小米等手机厂商，BOSE、索尼、漫步者、万魔等音频品牌，以及亚马逊、出门问问、realme、紫米等新兴力量。文章按品牌首字母排序，每款产品均附有编辑点评和拆解报告链接，重点呈现了产品外观设计、内部结构、主控芯片、降噪方案、电池容量等硬件信息。汇总指出，2020年ANC功能在TWS耳机中迅速普及，产品数量较往年大幅增长，主动降噪正逐渐成为标准配置，行业迎来重要转折点。",
@@ -56,5 +56,9 @@
       "description": "原文配图",
       "caption": "小米Air 2 Pro产品配图"
     }
-  ]
+  ],
+  "last_error": {
+    "type": "ConnectionError",
+    "message": "HTTPSConnectionPool(host='www.52audio.com', port=443): Read timed out."
+  }
 }
