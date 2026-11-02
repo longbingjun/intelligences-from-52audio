@@ -1,38 +1,34 @@
 {
   "schema_version": 2,
-  "status": "error",
+  "status": "success",
   "model": "deepseek-v4-flash",
-  "source_hash": "c60fcc5a7c77d9769915d4fc11cc5a5526a07d7c040a89e71cf1efdfde18d0b1",
-  "last_attempt_source_hash": null,
-  "captured_at": "2026-10-17T05:34:15.747902+00:00",
-  "last_attempt_at": "2026-10-28T06:51:25.448492+00:00",
-  "last_success_at": "2026-10-17T05:34:15.747925+00:00",
+  "source_hash": "a045faf8d4cd22fe789277dc0c78146ac172b22166a00ca2635610d70474d629",
+  "last_attempt_source_hash": "a045faf8d4cd22fe789277dc0c78146ac172b22166a00ca2635610d70474d629",
+  "captured_at": "2026-11-02T07:38:48.837243+00:00",
+  "last_attempt_at": "2026-11-02T07:38:48.837258+00:00",
+  "last_success_at": "2026-11-02T07:38:48.837261+00:00",
   "source_url": "https://www.52audio.com/archives/64541.html",
-  "overview": "本文是我爱音频网基于近500篇拆解报告，对2020年发布的24款支持主动降噪（ANC）功能的TWS真无线耳机进行的汇总分析，覆盖19个品牌，包括苹果、华为、三星、OPPO、小米等手机厂商，BOSE、索尼、漫步者、万魔等音频品牌，以及亚马逊、出门问问、realme、紫米等新兴力量。文章按品牌首字母排序，每款产品均附有编辑点评和拆解报告链接，重点呈现了产品外观设计、内部结构、主控芯片、降噪方案、电池容量等硬件信息。汇总指出，2020年ANC功能在TWS耳机中迅速普及，产品数量较往年大幅增长，主动降噪正逐渐成为标准配置，行业迎来重要转折点。",
+  "overview": "本文是我爱音频网基于近500篇拆解报告，对2020年支持ANC主动降噪功能的TWS真无线耳机进行的汇总分析。文章覆盖19个品牌推出的24款产品，按品牌英文首字母排序，涵盖1MORE、233621、Apple、Amazon、BOSE、EDIFIER、HUAWEI、HONOR、HAYLOU、Linner、小米、Mobvoi、OPPO、realme、SONY、Samsung、LIBRATONE、Urbanista、ZMI等品牌。每款产品均附有编辑点评和拆解报告链接，内容涉及外观设计、内部结构、主控芯片、降噪方案、电池容量等硬件信息。文章指出2020年ANC功能迅速普及，苹果AirPods Pro的发布带动了行业迈向主动降噪时代，华为、三星、OPPO、小米等手机品牌及BOSE、索尼等音频品牌均已布局，产品性能不断向AirPods Pro靠近。",
   "key_findings": [
     {
-      "title": "ANC功能普及趋势",
-      "text": "2020年支持主动降噪的TWS耳机数量大幅增长，华为、三星、OPPO、小米等手机品牌与BOSE、索尼、漫步者、万魔等音频品牌均已布局，产品性能和使用体验不断向苹果AirPods Pro靠近。"
+      "title": "ANC功能在2020年迅速普及",
+      "text": "文章指出2020年TWS真无线耳机市场最大的产品动向是ANC主动降噪功能的迅速普及，TWS、头戴、颈挂蓝牙耳机市场均出现支持主动降噪的新品，TWS耳机价格涵盖中高端多个档位。"
     },
     {
-      "title": "主控芯片方案集中",
-      "text": "拆解汇总显示，恒玄BES2300系列（如BES2300YP、BES2300Z）被漫步者、小米、OPPO、realme、出门问问、Linner等多款产品采用；高通QCC系列（如QCC3034、QCC5124、QCC5127）用于万魔、233621、BOSE、小鸟等；络达AB1552A、AB1562A用于Haylou、紫米；苹果H1、华为麒麟A1、三星博通BCM43015等为品牌自研或定制。"
+      "title": "苹果AirPods Pro带动行业转向",
+      "text": "文章认为AirPods Pro于2019年末发布，新增主动降噪功能收获好评，销量快速增长，带领TWS真无线耳机迈向主动降噪时代，是ANC功能在2020年迅速普及的最大原因。"
     },
     {
-      "title": "降噪方案以混合降噪为主",
-      "text": "多数产品采用前馈+后馈麦克风的混合降噪方案，如华为FreeBuds Pro、小米Air 2 Pro、OPPO Enco X、realme Buds Air Pro、Bose QuietComfort Earbuds等；部分产品采用反馈降噪方案（如Haylou T16）或前馈方案（如出门问问Ticpods ANC）。"
+      "title": "多品牌布局，手机厂商与音频厂商共同参与",
+      "text": "汇总涵盖19大品牌24款产品，包括华为、三星、OPPO、小米等手机品牌，以及BOSE、索尼、漫步者、万魔等音频品牌，均已布局TWS降噪耳机市场，使消费者选择增多。"
     },
     {
-      "title": "无线充电与快充功能渗透",
-      "text": "多款产品充电盒支持无线充电，如万魔圈铁降噪耳机、华为FreeBuds Pro、小米Air 2 Pro、OPPO Enco X、紫米PurPods Pro等，无线充电接收芯片供应商包括易冲半导体、伏达、酷珀微、IDT等；部分产品支持快速充电，如realme Buds Air Pro宣传充电10分钟听歌3小时。"
+      "title": "降噪方案与芯片方案多样化",
+      "text": "拆解显示，产品采用前馈、后馈或混合降噪方案，主控芯片包括高通QCC系列、恒玄BES2300系列、络达AB1552A/AB1562A、麒麟A1、三星MUA01等，部分产品还采用ADI降噪DSP、骨声纹传感器等。"
     },
     {
-      "title": "电池与电源管理方案多样",
-      "text": "充电盒电池容量从400mAh到1048mAh不等，耳机电池采用扣式或软包，容量从25mAh到108mAh；电源管理芯片涉及思远半导体、昇生微、钰泰、TI、赛微微电子等多家厂商，部分产品采用SoC级别芯片集成充放电管理。"
-    },
-    {
-      "title": "代表性产品样本",
-      "text": "苹果AirPods Pro采用H1 SiP和三麦克风降噪；华为FreeBuds Pro搭载麒麟A1和ADI ADAU1787降噪DSP；Bose QuietComfort Earbuds采用高通QCC5127和ADI定制降噪IC；OPPO Enco X使用恒玄BES2500Y双核芯片；三星Galaxy Buds Live采用博通BCM43015和恒玄BES3003语音处理器。"
+      "title": "2020年成为TWS降噪耳机重要转折点",
+      "text": "文章总结称，2020年虽不是TWS主动降噪功能的“元年”，产品数量与普通TWS耳机仍有差距，但已成为TWS真无线降噪耳机的重要转折节点，被业内认为是TWS耳机第二波快速发展的起点。"
     }
   ],
   "image_highlights": [
@@ -42,23 +38,19 @@
       "caption": "文章标题图：主动降噪TWS耳机汇总"
     },
     {
-      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/A苹果.png",
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/1-1024x576.jpg",
       "description": "原文配图",
-      "caption": "苹果AirPods Pro产品配图"
+      "caption": "1MORE万魔圈铁主动降噪真无线耳机配图"
     },
     {
-      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/h华为.png",
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/3-1024x683.jpg",
       "description": "原文配图",
-      "caption": "华为FreeBuds Pro产品配图"
+      "caption": "苹果AirPods Pro真无线降噪耳机配图"
     },
     {
-      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/m小米.png",
+      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2020/12/7-1024x576.png",
       "description": "原文配图",
-      "caption": "小米Air 2 Pro产品配图"
+      "caption": "华为FreeBuds Pro真无线降噪耳机配图"
     }
-  ],
-  "last_error": {
-    "type": "ConnectionError",
-    "message": "HTTPSConnectionPool(host='www.52audio.com', port=443): Read timed out."
-  }
+  ]
 }
