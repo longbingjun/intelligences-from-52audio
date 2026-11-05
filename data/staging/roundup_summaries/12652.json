@@ -2,59 +2,50 @@
   "schema_version": 2,
   "status": "success",
   "model": "deepseek-v4-flash",
-  "source_hash": "3d1e49e95b9c7814fa8d965fb39cda2bb090238030a0237d111af5bc7b9e581e",
-  "last_attempt_source_hash": "3d1e49e95b9c7814fa8d965fb39cda2bb090238030a0237d111af5bc7b9e581e",
-  "captured_at": "2026-10-06T07:32:40.220823+00:00",
-  "last_attempt_at": "2026-10-06T07:32:40.220838+00:00",
-  "last_success_at": "2026-10-06T07:32:40.220841+00:00",
+  "source_hash": "9dc586bc167f6c50cbe4769b8ad8e72ac4a94af2108c5c8e80938416e47037a8",
+  "last_attempt_source_hash": "9dc586bc167f6c50cbe4769b8ad8e72ac4a94af2108c5c8e80938416e47037a8",
+  "captured_at": "2026-11-05T07:53:47.854095+00:00",
+  "last_attempt_at": "2026-11-05T07:53:47.854113+00:00",
+  "last_success_at": "2026-11-05T07:53:47.854114+00:00",
   "source_url": "https://www.52audio.com/archives/12652.html",
-  "overview": "我爱音频网于2018年12月27日发布《五款手机3.5mm接口耳机拆解汇总》，对苹果EarPods、华为AM115经典版、OPPO MH135、三星EHS64和vivo XE710五款手机附送的有线耳机进行拆解。文章指出，尽管部分手机厂商减少附送耳机且接口形态变化，但2018年仍有多款手机内置3.5mm音频接口，USB-C或Lightning转接线另一端也仍为3.5mm插座。拆解覆盖耳塞类型、麦克风类型、线控按键设计、扬声器振膜及内部结构等维度，并在总结中归纳了半入耳式占比、麦克风方案差异和线控按键数量三类共性特征。",
+  "overview": "我爱音频网于2018年12月27日发布《五款手机3.5mm接口耳机拆解汇总》，对苹果EarPods、华为AM115经典版、OPPO MH135、三星EHS64、vivo XE710五款手机附送的有线耳机进行拆解展示。文章开篇指出，手机厂商附送耳机的现象在减少，原因包括成本考量与部分手机耳机接口变化；但2018年仍有不少手机内置3.5mm音频接口，USB-C或Lightning转接线另一端也仍为3.5mm插座。正文逐款呈现耳塞类型、麦克风类型及内部结构，包括线控按键、PCB、振膜、泄压孔与防拉扯打结等细节，末尾以拆解总结归纳耳塞形态、麦克风方案与线控按键设计上的分布。",
   "key_findings": [
     {
-      "title": "半入耳式设计占多数",
-      "text": "五款耳机中，苹果EarPods、华为AM115经典版和OPPO MH135均采用半入耳式设计，数量过半；三星EHS64和vivo XE710为入耳式。文章总结称，半入耳式比入耳式给耳朵带来的不适感更小，但低音效果和隔音效果不如入耳式。"
+      "title": "覆盖范围：五品牌手机附送耳机拆解",
+      "text": "文章汇总拆解苹果EarPods、华为AM115经典版、OPPO MH135、三星EHS64、vivo XE710五款3.5mm插头手机耳机，逐款展示耳塞类型、麦克风类型及线控、扬声器、振膜等内部结构。"
     },
     {
-      "title": "麦克风方案分为两类",
-      "text": "三星EHS64和苹果EarPods采用MEMS贴片硅麦，华为AM115经典版、OPPO MH135和vivo XE710采用驻极体麦克风。拆解中可见三星线控内为MEMS贴片硅麦，华为微动按键小板背面有驻极体麦克风，OPPO线控背面为驻极体麦克风。"
+      "title": "耳塞形态：过半采用半入耳式",
+      "text": "拆解总结指出，五款耳机中过半数量采用半入耳式设计；文章称这种耳塞类型比入耳式给耳朵带来的不适感更小，但低音效果和隔音效果不如入耳式。三星EHS64与vivo XE710为入耳式。"
     },
     {
-      "title": "线控按键设计分化",
-      "text": "OPPO MH135和vivo XE710采用简洁的单按键设计，苹果EarPods、三星EHS64和华为AM115经典版采用经典的三按键设计。华为线控上可见三个微动按键，苹果线控内按键有一层金属罩保护。"
+      "title": "麦克风方案：MEMS与驻极体并存",
+      "text": "总结显示，三星和苹果两款耳机采用MEMS贴片硅麦，华为、OPPO和vivo的耳机采用驻极体麦克风。正文中三星线控内为MEMS贴片硅麦，华为、OPPO、vivo线控内为驻极体麦克风。"
     },
     {
-      "title": "振膜与扬声器结构差异",
-      "text": "苹果EarPods采用羊毛纸盆振膜，边缘为淡蓝色软胶；华为AM115经典版、OPPO MH135和vivo XE710采用透明塑料振膜。vivo XE710的动圈式扬声器正面有一层金属罩，用于防止挤压损伤振膜；华为和vivo的导线均打结防拉扯。"
+      "title": "线控按键：单按键与三按键两种设计",
+      "text": "总结指出，OPPO和vivo采用简洁的单按键设计，苹果、三星和华为采用经典的三按键设计。正文显示OPPO MH135线控只有一个多功能按键，vivo XE710线控一面为一个多功能微动按键。"
     },
     {
-      "title": "声学结构设计共性",
-      "text": "华为AM115经典版和OPPO MH135均采用独立气流腔体、低音导向孔，文章称其带来低音淳厚、中频清晰、高频清亮的开阔声场。三星EHS64耳机底部有一个泄压孔，vivo XE710有两个泄压孔用于调节音效，OPPO MH135耳机背侧有一个泄压孔。"
-    },
-    {
-      "title": "3.5mm接口仍具现实基础",
-      "text": "文章开篇指出，2018年还是有很多手机采用机身内置3.5mm音频接口，即便是USB-C或者Lightning接口转接线，另一端也还是3.5mm耳机插座，因此还不需要急着将3.5mm手机耳机推离历史舞台。"
+      "title": "振膜与结构细节被逐款展示",
+      "text": "苹果EarPods采用羊毛纸盆振膜、边缘为淡蓝色软胶；华为AM115、OPPO MH135、vivo XE710采用透明塑料振膜。多款耳机提到独立气流腔体、低音导向孔、泄压孔及导线打结防拉扯等结构。"
     }
   ],
   "image_highlights": [
     {
       "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/1.jpeg",
       "description": "原文配图",
-      "caption": "文章配图，展示五款手机3.5mm接口耳机拆解汇总的相关内容"
+      "caption": "原文配图，位于五款耳机拆解汇总正文的配图位置"
     },
     {
       "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/2.jpeg",
       "description": "原文配图",
-      "caption": "文章配图，展示五款手机3.5mm接口耳机拆解汇总的相关内容"
+      "caption": "原文配图，用于展示拆解汇总中某款耳机的内部或外观细节"
     },
     {
       "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/3.jpeg",
       "description": "原文配图",
-      "caption": "文章配图，展示五款手机3.5mm接口耳机拆解汇总的相关内容"
-    },
-    {
-      "url": "https://52audio-images.oss-cn-shenzhen.aliyuncs.com/wp-content/uploads/2018/12/4.jpeg",
-      "description": "原文配图",
-      "caption": "文章配图，展示五款手机3.5mm接口耳机拆解汇总的相关内容"
+      "caption": "原文配图，配合正文呈现耳机拆解相关画面"
     }
   ]
 }
