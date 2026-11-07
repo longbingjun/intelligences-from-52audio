@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "status": "success",
+  "status": "error",
   "model": "deepseek-v4-flash",
   "source_hash": "4251eba768b8dcd1b798383f672644612aed2916ddf004de627c2f83090459d4",
-  "last_attempt_source_hash": "4251eba768b8dcd1b798383f672644612aed2916ddf004de627c2f83090459d4",
+  "last_attempt_source_hash": "63d9ec671dc2b37fdcb78cb49439b2439144ac55588278e8e24bd8f489e039a0",
   "captured_at": "2026-11-06T07:54:04.084493+00:00",
-  "last_attempt_at": "2026-11-06T07:54:04.084516+00:00",
+  "last_attempt_at": "2026-11-07T07:04:33.088159+00:00",
   "last_success_at": "2026-11-06T07:54:04.084518+00:00",
   "source_url": "https://www.52audio.com/archives/37138.html",
   "overview": "本文为我爱音频网2020年2月18日发布的年度汇总，基于长期追踪拆解，集中梳理漫步者已发售的10款耳机：HECATE GM4、GM6两款TWS游戏耳机，LolliPods及TWS1、TWS2、TWS3、TWS5、TWS7五款真无线耳机，以及W330NB颈挂式、W860NB头戴式两款主动降噪蓝牙耳机。文章对每款产品给出编辑点评，并披露拆解所见的主控芯片、降噪芯片、电源管理与天线等内部方案，末尾总结漫步者产品线覆盖与芯片供应商格局。",
@@ -52,5 +52,9 @@
       "description": "原文配图",
       "caption": "正文产品拆解配图，配合各产品编辑点评展示内部方案"
     }
-  ]
+  ],
+  "last_error": {
+    "type": "HTTPError",
+    "message": "500 Server Error: Internal Server Error for url: https://api.deepseek.com/chat/completions"
+  }
 }

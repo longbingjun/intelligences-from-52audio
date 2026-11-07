@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "status": "success",
+  "status": "error",
   "model": "deepseek-v4-flash",
   "source_hash": "a702cf98fe8b1c98abddbcc83852d5b6be524f2931af4cc4255d5e185565da5d",
-  "last_attempt_source_hash": "a702cf98fe8b1c98abddbcc83852d5b6be524f2931af4cc4255d5e185565da5d",
+  "last_attempt_source_hash": "b65d38a47f0ae8b5c5a4728d8159f054af9fd96af634749dbc9277ab0e55a0ea",
   "captured_at": "2026-11-05T07:53:33.791100+00:00",
-  "last_attempt_at": "2026-11-05T07:53:33.791120+00:00",
+  "last_attempt_at": "2026-11-07T07:04:14.614443+00:00",
   "last_success_at": "2026-11-05T07:53:33.791122+00:00",
   "source_url": "https://www.52audio.com/archives/84779.html",
   "overview": "本文是我爱音频网于2021年7月6日发布的TWS耳机拆解汇总，作者GiGi24。文章称其4年来持续深耕消费类音频产品研究、分析与拆解，累计拆解TWS耳机已覆盖123大品牌280款产品，并指出期间TWS耳机产业链完成了新一轮技术升级，同时引导读者查阅其《2021TWS耳机行业白皮书》（涵盖行业综述、市场概况、行业驱动因素、发展趋势分析和产业链分析五方面）。正文按品牌英文名称首字母A-Z排序，以品牌小标题加编号形式列出各款产品的拆解报告链接，覆盖从1MORE万魔、Apple、EDIFIER漫步者、HUAWEI华为、OPPO、Samsung三星、SONY索尼、Xiaomi小米等众多品牌，可点击小标题查看完整拆解报告。",
@@ -52,5 +52,9 @@
       "description": "原文配图",
       "caption": "文章正文配图，用于呈现拆解汇总文章中的品牌与产品条目。"
     }
-  ]
+  ],
+  "last_error": {
+    "type": "HTTPError",
+    "message": "500 Server Error: Internal Server Error for url: https://api.deepseek.com/chat/completions"
+  }
 }

@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "status": "success",
+  "status": "error",
   "model": "deepseek-v4-flash",
   "source_hash": "db7fc8fbef0f212abaf6c112feede08831c03e97d4332553e3e4e0e07b9d525f",
-  "last_attempt_source_hash": "db7fc8fbef0f212abaf6c112feede08831c03e97d4332553e3e4e0e07b9d525f",
+  "last_attempt_source_hash": "548f87758f9909273032a725206318a274df3c0ee2e4739d9fb82a6f779ba5ac",
   "captured_at": "2026-11-05T07:53:19.063037+00:00",
-  "last_attempt_at": "2026-11-05T07:53:19.063055+00:00",
+  "last_attempt_at": "2026-11-07T07:03:52.426589+00:00",
   "last_success_at": "2026-11-05T07:53:19.063057+00:00",
   "source_url": "https://www.52audio.com/archives/175909.html",
   "overview": "本文汇总了我爱音频网2023年拆解的68款TWS耳机，涵盖49个品牌，按品牌英文首字母排序。产品类型包括入耳式、半入耳式和不入耳式（挂耳式+耳夹式），功能上覆盖降噪、双模、游戏、会议办公和杀菌等。文章引用Canalys数据指出2023年第二季度全球TWS市场增长8%，出货量6816万部，并列出苹果、三星、boAt、小米、OPPO为全球份额前五，国内则由小米、苹果、华为、漫步者、OPPO领先。文章还统计了充电盒电源管理芯片和主控蓝牙音频芯片的占比，并逐一列出各产品的拆解信息，包括电池、芯片、麦克风等组件。",
@@ -42,5 +42,9 @@
       "description": "原文配图",
       "caption": "文章展示的68款TWS耳机主控蓝牙音频芯片占比饼图"
     }
-  ]
+  ],
+  "last_error": {
+    "type": "HTTPError",
+    "message": "500 Server Error: Internal Server Error for url: https://api.deepseek.com/chat/completions"
+  }
 }

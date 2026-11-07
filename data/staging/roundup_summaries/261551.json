@@ -1,11 +1,11 @@
 {
   "schema_version": 2,
-  "status": "success",
+  "status": "error",
   "model": "deepseek-v4-flash",
   "source_hash": "a16c2d2e1ddf8e03b9bfc8c567ec65f0fb9f51f6916833b83081e59a28a8068b",
-  "last_attempt_source_hash": "a16c2d2e1ddf8e03b9bfc8c567ec65f0fb9f51f6916833b83081e59a28a8068b",
+  "last_attempt_source_hash": "4796806a09526017418df25f33631f1e492ba52193b63f8b9962f5202fd11f91",
   "captured_at": "2026-11-05T07:53:12.397604+00:00",
-  "last_attempt_at": "2026-11-05T07:53:12.397627+00:00",
+  "last_attempt_at": "2026-11-07T07:03:35.291023+00:00",
   "last_success_at": "2026-11-05T07:53:12.397629+00:00",
   "source_url": "https://www.52audio.com/archives/261551.html",
   "overview": "本文是我爱音频网对2025年发布的36款OWS开放式耳机拆解报告的汇总，覆盖26个品牌，包括26款耳夹式和10款耳挂式产品。文章通过拆解展示了充电盒和耳机内部的主要硬件配置，重点分析了电源管理芯片和蓝牙音频SoC的厂商分布与具体型号。汇总显示，充电盒电源管理芯片涉及6大厂商24款方案，英集芯占比50%；耳机蓝牙音频SoC涉及6大厂商20款方案，中科蓝讯、恒玄科技、杰理科技位列前三。文章指出，高集成度和低功耗的SoC方案已成为主流，AI技术正在逐步应用。",
@@ -51,5 +51,9 @@
       "description": "原文配图",
       "caption": "耳机蓝牙音频SoC厂商占比饼图"
     }
-  ]
+  ],
+  "last_error": {
+    "type": "HTTPError",
+    "message": "500 Server Error: Internal Server Error for url: https://api.deepseek.com/chat/completions"
+  }
 }
