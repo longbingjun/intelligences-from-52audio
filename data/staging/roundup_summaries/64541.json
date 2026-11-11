@@ -2,33 +2,37 @@
   "schema_version": 2,
   "status": "success",
   "model": "deepseek-v4-flash",
-  "source_hash": "a045faf8d4cd22fe789277dc0c78146ac172b22166a00ca2635610d70474d629",
-  "last_attempt_source_hash": "a045faf8d4cd22fe789277dc0c78146ac172b22166a00ca2635610d70474d629",
-  "captured_at": "2026-11-02T07:38:48.837243+00:00",
-  "last_attempt_at": "2026-11-02T07:38:48.837258+00:00",
-  "last_success_at": "2026-11-02T07:38:48.837261+00:00",
+  "source_hash": "34e0a3570b3f0ec1d115f6b9a6ba5309d37597cd0e1e74c8041cc29e8f269c5c",
+  "last_attempt_source_hash": "34e0a3570b3f0ec1d115f6b9a6ba5309d37597cd0e1e74c8041cc29e8f269c5c",
+  "captured_at": "2026-11-11T07:44:08.579878+00:00",
+  "last_attempt_at": "2026-11-11T07:44:08.579898+00:00",
+  "last_success_at": "2026-11-11T07:44:08.579901+00:00",
   "source_url": "https://www.52audio.com/archives/64541.html",
-  "overview": "本文是我爱音频网基于近500篇拆解报告，对2020年支持ANC主动降噪功能的TWS真无线耳机进行的汇总分析。文章覆盖19个品牌推出的24款产品，按品牌英文首字母排序，涵盖1MORE、233621、Apple、Amazon、BOSE、EDIFIER、HUAWEI、HONOR、HAYLOU、Linner、小米、Mobvoi、OPPO、realme、SONY、Samsung、LIBRATONE、Urbanista、ZMI等品牌。每款产品均附有编辑点评和拆解报告链接，内容涉及外观设计、内部结构、主控芯片、降噪方案、电池容量等硬件信息。文章指出2020年ANC功能迅速普及，苹果AirPods Pro的发布带动了行业迈向主动降噪时代，华为、三星、OPPO、小米等手机品牌及BOSE、索尼等音频品牌均已布局，产品性能不断向AirPods Pro靠近。",
+  "overview": "本文是我爱音频网基于近500篇拆解报告，对2020年发布的24款支持主动降噪（ANC）功能的TWS真无线耳机进行的汇总分析，覆盖19个品牌，包括手机厂商、传统音频品牌及新兴品牌。文章按品牌英文首字母排序，每款产品包含编辑点评和拆解报告链接，重点呈现了主控芯片、降噪方案、电池、无线充电等内部硬件信息。文章指出，2020年ANC功能在TWS耳机中迅速普及，苹果AirPods Pro的发布是重要推动因素，华为、三星、OPPO、小米等手机品牌及BOSE、索尼等音频品牌均已布局，主动降噪正逐渐成为TWS耳机的标准配置。",
   "key_findings": [
     {
-      "title": "ANC功能在2020年迅速普及",
-      "text": "文章指出2020年TWS真无线耳机市场最大的产品动向是ANC主动降噪功能的迅速普及，TWS、头戴、颈挂蓝牙耳机市场均出现支持主动降噪的新品，TWS耳机价格涵盖中高端多个档位。"
+      "title": "ANC功能在2020年快速普及",
+      "text": "文章汇总的24款ANC TWS耳机中，多数为2020年发布的新品，涵盖华为、三星、OPPO、小米等手机品牌及BOSE、索尼、漫步者、万魔等音频品牌，产品价格覆盖中高端多个档位，主动降噪功能成为TWS耳机的重要升级方向。"
     },
     {
-      "title": "苹果AirPods Pro带动行业转向",
-      "text": "文章认为AirPods Pro于2019年末发布，新增主动降噪功能收获好评，销量快速增长，带领TWS真无线耳机迈向主动降噪时代，是ANC功能在2020年迅速普及的最大原因。"
+      "title": "主控芯片方案集中度高",
+      "text": "拆解显示，恒玄BES2300系列（含BES2300YP、BES2300Z等）被漫步者、小米、OPPO、realme、出门问问、Linner等多款产品采用；高通QCC系列（QCC3034、QCC5124、QCC5127等）用于万魔、233621、BOSE、小鸟等；络达方案用于Haylou、紫米等；苹果、华为、三星则采用自研或定制芯片。"
     },
     {
-      "title": "多品牌布局，手机厂商与音频厂商共同参与",
-      "text": "汇总涵盖19大品牌24款产品，包括华为、三星、OPPO、小米等手机品牌，以及BOSE、索尼、漫步者、万魔等音频品牌，均已布局TWS降噪耳机市场，使消费者选择增多。"
+      "title": "降噪方案以混合降噪为主",
+      "text": "多款产品采用前馈+后馈麦克风的混合降噪方案，如华为FreeBuds Pro、小米Air 2 Pro、OPPO Enco X、realme Buds Air Pro、Bose QuietComfort Earbuds等；部分产品采用反馈降噪方案（如Haylou T16）或前馈方案（如出门问问Ticpods ANC）。"
     },
     {
-      "title": "降噪方案与芯片方案多样化",
-      "text": "拆解显示，产品采用前馈、后馈或混合降噪方案，主控芯片包括高通QCC系列、恒玄BES2300系列、络达AB1552A/AB1562A、麒麟A1、三星MUA01等，部分产品还采用ADI降噪DSP、骨声纹传感器等。"
+      "title": "无线充电与快充功能向中端渗透",
+      "text": "万魔圈铁ANC、华为FreeBuds Pro、小米Air 2 Pro、OPPO Enco X/W51、紫米PurPods Pro、小鸟TRACK AIR+、Urbanista London等多款产品充电盒支持无线充电；紫米PurPods Pro、realme Buds Air Pro等支持快速充电，无线充电接收芯片供应商包括易冲半导体、伏达、酷珀微、IDT等。"
     },
     {
-      "title": "2020年成为TWS降噪耳机重要转折点",
-      "text": "文章总结称，2020年虽不是TWS主动降噪功能的“元年”，产品数量与普通TWS耳机仍有差距，但已成为TWS真无线降噪耳机的重要转折节点，被业内认为是TWS耳机第二波快速发展的起点。"
+      "title": "通话降噪与骨声纹技术应用增多",
+      "text": "华为FreeBuds Pro、小米Air 2 Pro、三星Galaxy Buds Live等产品引入骨声纹传感器或骨振动传感器用于通话降噪和语音唤醒；OPPO Enco W51采用声加科技三麦克风通话降噪算法，荣耀FlyPods 3同样采用声加科技三麦克风通话降噪算法。"
+    },
+    {
+      "title": "电池与电源管理方案多样化",
+      "text": "扣式电池被广泛用于耳机端，供应商包括重庆紫建、微电新能源、亿纬锂能、瓦尔塔、新余赣锋等；充电盒软包电池供应商包括ATL新能源、珠海冠宇、惠州超聚、国光电子等；电源管理芯片涉及思远半导体、昇生微、钰泰、TI、NXP等多家厂商。"
     }
   ],
   "image_highlights": [
